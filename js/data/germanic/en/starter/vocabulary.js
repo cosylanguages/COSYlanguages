@@ -291,7 +291,8 @@
                 ]
             }
         ],
-        "opposite": null
+        "opposite": "far from",
+        "emoji": "👫"
     },
     {
         "word": "between",
@@ -307,14 +308,15 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": null
+        "opposite": "outside",
+        "emoji": "🧘"
     },
     {
         "word": "behind",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "opposite": null,
+        "opposite": "in front of",
         "definitions": [
             {
                 "text": "At or towards the back of someone or something.",
@@ -323,14 +325,15 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "🫣"
     },
     {
         "word": "in front of",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "opposite": null,
+        "opposite": "behind",
         "definitions": [
             {
                 "text": "Further forward than someone or something else.",
@@ -339,7 +342,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "🚶"
     },
     {
         "word": "jacket",
@@ -3520,7 +3524,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": null
+        "opposite": "out",
+        "emoji": "📥"
     },
     {
         "word": "on",
@@ -3536,7 +3541,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": null
+        "opposite": "off",
+        "emoji": "🔛"
     },
     {
         "word": "at",
@@ -3552,7 +3558,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": null
+        "opposite": "away from",
+        "emoji": "📍"
     },
     {
         "word": "under",
@@ -3568,7 +3575,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "👇"
     },
     {
         "word": "and",
@@ -3584,7 +3592,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": null
+        "opposite": "or",
+        "emoji": "➕"
     },
     {
         "word": "but",
@@ -3600,7 +3609,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": null
+        "opposite": "and",
+        "emoji": "❓"
     },
     {
         "word": "because",
@@ -3616,7 +3626,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": null
+        "opposite": "so",
+        "emoji": "💡"
     },
     {
         "word": "time",
@@ -6256,7 +6267,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "➕"
     },
     {
         "word": "without",
@@ -6272,7 +6284,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "➖"
     },
     {
         "word": "to",
@@ -6288,7 +6301,8 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "opposite": null
+        "opposite": null,
+        "emoji": "➡️"
     },
     {
         "word": "from",
@@ -6304,7 +6318,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": null
+        "opposite": null,
+        "emoji": "⬅️"
     },
     {
         "word": "for",
@@ -6320,7 +6335,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "opposite": null
+        "opposite": null,
+        "emoji": "🎁"
     },
     {
         "word": "or",
@@ -6336,7 +6352,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": null
+        "opposite": "and",
+        "emoji": "❓"
     },
     {
         "word": "so",
@@ -6352,7 +6369,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": null
+        "opposite": "because",
+        "emoji": "💡"
     },
     {
         "word": "game",
@@ -7788,7 +7806,7 @@
         "theme": "prepositions_movement_A1",
         "emoji": "⬆️",
         "form": "preposition",
-        "opposite": null,
+        "opposite": "down",
         "definitions": [
             {
                 "text": "Towards a higher place or position.",
@@ -7805,7 +7823,7 @@
         "theme": "prepositions_movement_A1",
         "emoji": "⬇️",
         "form": "preposition",
-        "opposite": null,
+        "opposite": "up",
         "definitions": [
             {
                 "text": "Towards a lower place or position.",
@@ -11484,7 +11502,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "⬆️"
     },
     {
         "word": "below",
@@ -11500,7 +11519,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "⬇️"
     },
     {
         "word": "inside",
@@ -11516,7 +11536,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "🏠"
     },
     {
         "word": "outside",
@@ -11532,7 +11553,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place"
+        "subtext": "related to prepositions place",
+        "emoji": "🌳"
     },
     {
         "word": "during",
@@ -11548,14 +11570,15 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "opposite": null
+        "opposite": null,
+        "emoji": "⌛"
     },
     {
         "word": "before",
         "level": "starter",
         "theme": "prepositions_time_A1",
         "form": "preposition",
-        "opposite": null,
+        "opposite": "after",
         "definitions": [
             {
                 "text": "At an earlier time; in front of.",
@@ -11564,14 +11587,15 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions time"
+        "subtext": "related to prepositions time",
+        "emoji": "⏮️"
     },
     {
         "word": "after",
         "level": "starter",
         "theme": "prepositions_time_A1",
         "form": "preposition",
-        "opposite": null,
+        "opposite": "before",
         "definitions": [
             {
                 "text": "At a later time; following.",
@@ -11580,7 +11604,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions time"
+        "subtext": "related to prepositions time",
+        "emoji": "⏭️"
     },
     {
         "word": "top",
@@ -11875,6 +11900,168 @@
         ],
         "countability": "countable",
         "opposite": null
+    },
+    {
+        "word": "blanket",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛌",
+        "form": "noun",
+        "plural": "blankets",
+        "definitions": [
+            {
+                "text": "A large piece of warm cloth that you use on a bed.",
+                "examples": [
+                    "I need another blanket, I am cold."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "bedding / keep warm"
+    },
+    {
+        "word": "pillow",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛌",
+        "form": "noun",
+        "plural": "pillows",
+        "definitions": [
+            {
+                "text": "A soft object that you rest your head on when you sleep.",
+                "examples": [
+                    "This pillow is very soft."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "bedding / soft pillow"
+    },
+    {
+        "word": "present",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎁",
+        "form": "noun",
+        "plural": "presents",
+        "definitions": [
+            {
+                "text": "Something that you give to someone, especially on a special occasion.",
+                "examples": [
+                    "I bought a birthday present for my friend."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "gift / birthday present"
+    },
+    {
+        "word": "carpet",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧶",
+        "form": "noun",
+        "plural": "carpets",
+        "definitions": [
+            {
+                "text": "A thick material that covers the whole floor of a room.",
+                "examples": [
+                    "We have a blue carpet in the living room."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "floor covering / rug"
+    },
+    {
+        "word": "battery",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔋",
+        "form": "noun",
+        "plural": "batteries",
+        "definitions": [
+            {
+                "text": "An object that provides electricity for a device.",
+                "examples": [
+                    "My phone battery is low."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "power source / charging"
+    },
+    {
+        "word": "charger",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔌",
+        "form": "noun",
+        "plural": "chargers",
+        "definitions": [
+            {
+                "text": "A device used to put electricity into a battery.",
+                "examples": [
+                    "Can I borrow your phone charger?"
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "charging cable"
+    },
+    {
+        "word": "calendar",
+        "level": "starter",
+        "theme": "dates_years_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "calendars",
+        "definitions": [
+            {
+                "text": "A table that shows the days, weeks, and months of a year.",
+                "examples": [
+                    "Check the calendar for the meeting date."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "date planner"
+    },
+    {
+        "word": "tape",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🎞️",
+        "form": "noun",
+        "plural": "tapes",
+        "definitions": [
+            {
+                "text": "A long, thin piece of plastic that is sticky on one side.",
+                "examples": [
+                    "Use some tape to fix the envelope."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "sticky tape"
+    },
+    {
+        "word": "sheet",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛌",
+        "form": "noun",
+        "plural": "sheets",
+        "definitions": [
+            {
+                "text": "A large piece of thin cloth used on a bed.",
+                "examples": [
+                    "I need to change the bed sheets."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "bed sheet / linen"
     }
 ];
     const lang = "en";

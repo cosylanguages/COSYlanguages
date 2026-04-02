@@ -22,7 +22,7 @@
         "v2": "was / were",
         "v3": "been",
         "group": "irregular",
-        "opposite": null
+        "opposite": "become"
     },
     {
         "word": "have",
@@ -46,7 +46,7 @@
         "v2": "had",
         "v3": "had",
         "group": "irregular",
-        "opposite": null
+        "opposite": "need"
     },
     {
         "word": "feel",
@@ -68,7 +68,7 @@
         "v2": "felt",
         "v3": "felt",
         "group": "irregular",
-        "opposite": null
+        "opposite": "act"
     },
     {
         "word": "give",
@@ -188,7 +188,7 @@
         "v2": "made",
         "v3": "made",
         "group": "irregular",
-        "opposite": null
+        "opposite": "destroy"
     },
     {
         "word": "do",
@@ -211,7 +211,7 @@
         "v2": "did",
         "v3": "done",
         "group": "irregular",
-        "opposite": null
+        "opposite": "undo"
     },
     {
         "word": "use",
@@ -234,7 +234,7 @@
         "v2": "used",
         "v3": "used",
         "group": "regular",
-        "opposite": null
+        "opposite": "waste"
     },
     {
         "word": "open",
@@ -266,7 +266,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "close a door / close at six / close an account / close the meeting",
-        "opposite": null,
+        "opposite": "open",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -350,7 +350,7 @@
         "v2": "helped",
         "v3": "helped",
         "group": "regular",
-        "opposite": null
+        "opposite": "hinder"
     },
     {
         "word": "try",
@@ -372,7 +372,7 @@
         "v2": "tried",
         "v3": "tried",
         "group": "regular",
-        "opposite": null
+        "opposite": "give up"
     },
     {
         "word": "show",
@@ -380,7 +380,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "show someone how / show a document / show interest",
-        "opposite": null,
+        "opposite": "hide",
         "oppositeEmoji": "🙈",
         "form": "verb",
         "definitions": [
@@ -403,7 +403,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "find a job / find out / find it difficult / find time",
-        "opposite": null,
+        "opposite": "lose",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -442,7 +442,7 @@
         "v2": "kept",
         "v3": "kept",
         "group": "irregular",
-        "opposite": null
+        "opposite": "give away"
     },
     {
         "word": "lose",
@@ -489,7 +489,7 @@
         "v2": "cut",
         "v3": "cut",
         "group": "irregular",
-        "opposite": null
+        "opposite": "join"
     },
     {
         "word": "turn",
@@ -512,7 +512,7 @@
         "v2": "turned",
         "v3": "turned",
         "group": "regular",
-        "opposite": null
+        "opposite": "straighten"
     },
     {
         "word": "bring",
@@ -559,7 +559,7 @@
         "v2": "said",
         "v3": "said",
         "group": "irregular",
-        "opposite": null
+        "opposite": "listen"
     },
     {
         "word": "tell",
@@ -581,7 +581,7 @@
         "v2": "told",
         "v3": "told",
         "group": "irregular",
-        "opposite": null
+        "opposite": "ask"
     },
     {
         "word": "ask",
@@ -627,7 +627,7 @@
         "v2": "spoke",
         "v3": "spoken",
         "group": "irregular",
-        "opposite": null
+        "opposite": "be silent"
     },
     {
         "word": "talk",
@@ -649,7 +649,7 @@
         "v2": "talked",
         "v3": "talked",
         "group": "regular",
-        "opposite": null
+        "opposite": "listen"
     },
     {
         "word": "call",
@@ -671,7 +671,7 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "opposite": null
+        "opposite": "hang up"
     },
     {
         "word": "write",
@@ -679,7 +679,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "write an email / write a report / write a letter / write notes",
-        "opposite": null,
+        "opposite": "read",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -703,7 +703,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "read a book / read the news / read a contract / read carefully",
-        "opposite": null,
+        "opposite": "write",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -742,7 +742,7 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "opposite": null
+        "opposite": "say"
     },
     {
         "word": "answer",
@@ -789,7 +789,7 @@
         "v2": "repeated",
         "v3": "repeated",
         "group": "regular",
-        "opposite": null
+        "opposite": "change"
     },
     {
         "word": "go",
@@ -845,7 +845,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
-        "opposite": null,
+        "opposite": "run",
         "oppositeEmoji": "🏃",
         "form": "verb",
         "definitions": [
@@ -884,7 +884,7 @@
         "v2": "drove",
         "v3": "driven",
         "group": "irregular",
-        "opposite": null
+        "opposite": "walk"
     },
     {
         "word": "fly",
@@ -907,7 +907,7 @@
         "v2": "flew",
         "v3": "flown",
         "group": "irregular",
-        "opposite": null
+        "opposite": "land"
     },
     {
         "word": "arrive",
@@ -975,7 +975,7 @@
         "v2": "moved",
         "v3": "moved",
         "group": "regular",
-        "opposite": null
+        "opposite": "stay"
     },
     {
         "word": "return",
@@ -998,7 +998,7 @@
         "v2": "returned",
         "v3": "returned",
         "group": "regular",
-        "opposite": null
+        "opposite": "leave"
     },
     {
         "word": "travel",
@@ -1019,7 +1019,8 @@
         "aspect": "action",
         "v2": "traveled",
         "v3": "traveled",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "stay"
     },
     {
         "word": "eat",
@@ -1113,7 +1114,7 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "opposite": null
+        "opposite": "eat"
     },
     {
         "word": "clean",
@@ -1158,7 +1159,7 @@
         "v2": "wore",
         "v3": "worn",
         "group": "irregular",
-        "opposite": null
+        "opposite": "undress"
     },
     {
         "word": "wash",
@@ -1181,7 +1182,7 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "opposite": null
+        "opposite": "dirty"
     },
     {
         "word": "buy",
@@ -1227,7 +1228,7 @@
         "v2": "paid",
         "v3": "paid",
         "group": "irregular",
-        "opposite": null
+        "opposite": "receive"
     },
     {
         "word": "spend",
@@ -1304,7 +1305,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
-        "opposite": null,
+        "opposite": "die",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1343,7 +1344,7 @@
         "v2": "thought",
         "v3": "thought",
         "group": "irregular",
-        "opposite": null
+        "opposite": "feel"
     },
     {
         "word": "know",
@@ -1367,7 +1368,7 @@
         "v2": "knew",
         "v3": "known",
         "group": "irregular",
-        "opposite": null
+        "opposite": "wonder"
     },
     {
         "word": "want",
@@ -1391,7 +1392,7 @@
         "v2": "wanted",
         "v3": "wanted",
         "group": "regular",
-        "opposite": null
+        "opposite": "refuse"
     },
     {
         "word": "need",
@@ -1415,7 +1416,7 @@
         "v2": "needed",
         "v3": "needed",
         "group": "regular",
-        "opposite": null
+        "opposite": "have"
     },
     {
         "word": "like",
@@ -1448,7 +1449,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "👎",
         "subtext": "not like / dislike doing",
-        "opposite": null,
+        "opposite": "prefer",
         "oppositeEmoji": "👍",
         "form": "verb",
         "definitions": [
@@ -1534,7 +1535,7 @@
         "v2": "hoped",
         "v3": "hoped",
         "group": "regular",
-        "opposite": null
+        "opposite": "fear"
     },
     {
         "word": "remember",
@@ -1605,7 +1606,7 @@
         "v2": "understood",
         "v3": "understood",
         "group": "irregular",
-        "opposite": null
+        "opposite": "misunderstand"
     },
     {
         "word": "decide",
@@ -1628,7 +1629,7 @@
         "v2": "decided",
         "v3": "decided",
         "group": "regular",
-        "opposite": null
+        "opposite": "hesitate"
     },
     {
         "word": "enjoy",
@@ -1650,7 +1651,7 @@
         "v2": "enjoyed",
         "v3": "enjoyed",
         "group": "regular",
-        "opposite": null
+        "opposite": "hate"
     },
     {
         "word": "see",
@@ -1673,7 +1674,7 @@
         "v2": "saw",
         "v3": "seen",
         "group": "irregular",
-        "opposite": null
+        "opposite": "blind"
     },
     {
         "word": "hear",
@@ -1696,7 +1697,7 @@
         "v2": "heard",
         "v3": "heard",
         "group": "irregular",
-        "opposite": null
+        "opposite": "ignore"
     },
     {
         "word": "wake up",
@@ -1740,7 +1741,8 @@
         "aspect": "action",
         "v2": "watched",
         "v3": "watched",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "ignore"
     },
     {
         "word": "look",
@@ -1763,7 +1765,7 @@
         "v2": "looked",
         "v3": "looked",
         "group": "regular",
-        "opposite": null
+        "opposite": "ignore"
     },
     {
         "word": "play",
@@ -1785,7 +1787,7 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "opposite": null
+        "opposite": "work"
     },
     {
         "word": "run",
@@ -1793,7 +1795,7 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "run a race / run a business / run out of / run late",
-        "opposite": null,
+        "opposite": "walk",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -1817,7 +1819,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
-        "opposite": null,
+        "opposite": "stand",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1840,7 +1842,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "stand up / stand in a queue / stand by / stand out",
-        "opposite": null,
+        "opposite": "sit",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1922,7 +1924,7 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "opposite": null
+        "opposite": "stay"
     },
     {
         "word": "stop",
@@ -2037,7 +2039,7 @@
         "v2": "waited",
         "v3": "waited",
         "group": "regular",
-        "opposite": null
+        "opposite": "act"
     },
     {
         "word": "die",
@@ -2045,7 +2047,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "die of / die for / die from / die out",
-        "opposite": null,
+        "opposite": "live",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -2271,7 +2273,7 @@
         "v2": "carried",
         "v3": "carried",
         "group": "regular",
-        "opposite": null
+        "opposite": "drop"
     },
     {
         "word": "break",
@@ -2293,7 +2295,8 @@
         "aspect": "action",
         "v2": "broke",
         "v3": "broken",
-        "group": "irregular"
+        "group": "irregular",
+        "opposite": "fix"
     },
     {
         "word": "receive",
@@ -2387,7 +2390,7 @@
         "v2": "shared",
         "v3": "shared",
         "group": "regular",
-        "opposite": null
+        "opposite": "keep"
     },
     {
         "word": "smile",
@@ -2458,7 +2461,7 @@
         "v2": "danced",
         "v3": "danced",
         "group": "regular",
-        "opposite": null
+        "opposite": "sit"
     },
     {
         "word": "sing",
@@ -2481,7 +2484,7 @@
         "v2": "sang",
         "v3": "sung",
         "group": "irregular",
-        "opposite": null
+        "opposite": "be quiet"
     },
     {
         "word": "jump",
@@ -2504,7 +2507,7 @@
         "v2": "jumped",
         "v3": "jumped",
         "group": "regular",
-        "opposite": null
+        "opposite": "fall"
     },
     {
         "word": "swim",
@@ -2527,7 +2530,7 @@
         "v2": "swam",
         "v3": "swum",
         "group": "irregular",
-        "opposite": null
+        "opposite": "sink"
     },
     {
         "word": "study",
@@ -2549,7 +2552,7 @@
         "v2": "studied",
         "v3": "studied",
         "group": "regular",
-        "opposite": null
+        "opposite": "play"
     },
     {
         "word": "teach",
@@ -2592,7 +2595,8 @@
         "aspect": "action",
         "v2": "commuted",
         "v3": "commuted",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "stay home"
     },
     {
         "word": "rent",
@@ -2613,7 +2617,8 @@
         "aspect": "action",
         "v2": "rented",
         "v3": "rented",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "own"
     },
     {
         "word": "exercise",
@@ -2634,7 +2639,8 @@
         "v2": "exercised",
         "v3": "exercised",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "rest"
     },
     {
         "word": "cost",
@@ -2677,7 +2683,7 @@
         "v3": "invited",
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
-        "opposite": null
+        "opposite": "reject"
     },
     {
         "word": "get up",
@@ -2787,7 +2793,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "ignore"
     },
     {
         "word": "unpack",
@@ -2832,7 +2838,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "ignore"
     },
     {
         "word": "present",
@@ -2854,7 +2860,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "hide"
     },
     {
         "word": "attend",
@@ -2876,7 +2882,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "miss"
     },
     {
         "word": "manage",
@@ -2898,7 +2904,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "follow"
     },
     {
         "word": "charge",
@@ -2920,7 +2926,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "pay"
     },
     {
         "word": "afford",
@@ -2942,7 +2948,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "lack"
     },
     {
         "word": "owe",
@@ -2964,7 +2970,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "pay"
     },
     {
         "word": "earn",
@@ -2986,7 +2992,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "spend"
     },
     {
         "word": "visit",
@@ -3008,7 +3014,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "leave"
     },
     {
         "word": "celebrate",
@@ -3030,7 +3036,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "mourn"
     },
     {
         "word": "recommend",
@@ -3052,7 +3058,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "warn"
     },
     {
         "word": "hurt",
@@ -3074,7 +3080,7 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": "heal"
     },
     {
         "word": "rest",
@@ -3096,7 +3102,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "exercise"
     },
     {
         "word": "recover",
@@ -3118,7 +3124,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "get sick"
     },
     {
         "word": "book",
@@ -3139,7 +3145,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "cancel"
     },
     {
         "word": "pack",
@@ -3184,7 +3191,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "book"
     },
     {
         "word": "miss",
@@ -3206,7 +3213,7 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": null
+        "opposite": "attend"
     },
     {
         "word": "order",
@@ -3228,7 +3235,7 @@
         "v2": "ordered",
         "v3": "ordered",
         "group": "regular",
-        "opposite": null
+        "opposite": "deliver"
     },
     {
         "word": "explain",
@@ -3250,7 +3257,7 @@
         "v2": "explained",
         "v3": "explained",
         "group": "regular",
-        "opposite": null
+        "opposite": "confuse"
     },
     {
         "word": "thank",
@@ -3272,7 +3279,7 @@
         "v2": "thanked",
         "v3": "thanked",
         "group": "regular",
-        "opposite": null
+        "opposite": "complain"
     },
     {
         "word": "introduce",
@@ -3294,7 +3301,7 @@
         "v2": "introduced",
         "v3": "introduced",
         "group": "regular",
-        "opposite": null
+        "opposite": "hide"
     },
     {
         "word": "relax",
@@ -3316,7 +3323,7 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "opposite": null
+        "opposite": "work"
     },
     {
         "word": "repair",
@@ -3338,7 +3345,7 @@
         "v2": "repaired",
         "v3": "repaired",
         "group": "regular",
-        "opposite": null
+        "opposite": "break"
     },
     {
         "word": "happen",
@@ -3360,7 +3367,7 @@
         "v2": "happened",
         "v3": "happened",
         "group": "regular",
-        "opposite": null
+        "opposite": "stop"
     },
     {
         "word": "seem",
@@ -3382,7 +3389,7 @@
         "v2": "seemed",
         "v3": "seemed",
         "group": "regular",
-        "opposite": null
+        "opposite": "be"
     },
     {
         "word": "mean",
@@ -3404,7 +3411,7 @@
         "v2": "meant",
         "v3": "meant",
         "group": "irregular",
-        "opposite": null
+        "opposite": "nonsense"
     },
     {
         "word": "follow",
@@ -3412,7 +3419,7 @@
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
-        "opposite": null,
+        "opposite": "lead",
         "oppositeEmoji": "👤",
         "form": "verb",
         "definitions": [
@@ -3449,7 +3456,7 @@
         "v2": "continued",
         "v3": "continued",
         "group": "regular",
-        "opposite": null
+        "opposite": "stop"
     },
     {
         "word": "grow",
@@ -3471,7 +3478,7 @@
         "v2": "grew",
         "v3": "grown",
         "group": "irregular",
-        "opposite": null
+        "opposite": "shrink"
     },
     {
         "word": "include",
@@ -3493,7 +3500,7 @@
         "v2": "included",
         "v3": "included",
         "group": "regular",
-        "opposite": null
+        "opposite": "exclude"
     },
     {
         "word": "become",
@@ -3515,7 +3522,7 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "opposite": null
+        "opposite": "remain"
     },
     {
         "word": "belong",
@@ -3537,7 +3544,7 @@
         "v2": "belonged",
         "v3": "belonged",
         "group": "regular",
-        "opposite": null
+        "opposite": "be separate"
     },
     {
         "word": "choose",
@@ -3559,7 +3566,7 @@
         "v2": "chose",
         "v3": "chosen",
         "group": "irregular",
-        "opposite": null
+        "opposite": "reject"
     },
     {
         "word": "build",
@@ -3650,7 +3657,7 @@
         "v2": "brushed",
         "v3": "brushed",
         "group": "regular",
-        "opposite": null
+        "opposite": "mess up"
     },
     {
         "word": "ride",
@@ -3672,7 +3679,7 @@
         "v2": "rode",
         "v3": "ridden",
         "group": "irregular",
-        "opposite": null
+        "opposite": "walk"
     },
     {
         "word": "dream",
@@ -3694,7 +3701,7 @@
         "v2": "dreamed / dreamt",
         "v3": "dreamed / dreamt",
         "group": "both",
-        "opposite": null
+        "opposite": "wake up"
     },
     {
         "word": "believe",
@@ -3715,7 +3722,8 @@
         "aspect": "stative",
         "v2": "believed",
         "v3": "believed",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "doubt"
     },
     {
         "word": "prefer",
@@ -3737,7 +3745,7 @@
         "v2": "preferred",
         "v3": "preferred",
         "group": "regular",
-        "opposite": null
+        "opposite": "dislike"
     },
     {
         "word": "catch",
@@ -3759,7 +3767,7 @@
         "v2": "caught",
         "v3": "caught",
         "group": "irregular",
-        "opposite": null
+        "opposite": "throw"
     },
     {
         "word": "fix",
@@ -3781,7 +3789,7 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "opposite": null
+        "opposite": "break"
     },
     {
         "word": "create",
@@ -3803,7 +3811,7 @@
         "v2": "created",
         "v3": "created",
         "group": "regular",
-        "opposite": null
+        "opposite": "destroy"
     },
     {
         "word": "notice",
@@ -3825,7 +3833,7 @@
         "v2": "noticed",
         "v3": "noticed",
         "group": "regular",
-        "opposite": null
+        "opposite": "ignore"
     },
     {
         "word": "improve",
@@ -3847,7 +3855,7 @@
         "v2": "improved",
         "v3": "improved",
         "group": "regular",
-        "opposite": null
+        "opposite": "worsen"
     },
     {
         "word": "prepare",
@@ -3869,7 +3877,7 @@
         "v2": "prepared",
         "v3": "prepared",
         "group": "regular",
-        "opposite": null
+        "opposite": "improvise"
     },
     {
         "word": "organize",
@@ -3891,7 +3899,7 @@
         "v2": "organized",
         "v3": "organized",
         "group": "regular",
-        "opposite": null
+        "opposite": "mess up"
     },
     {
         "word": "plan",
@@ -3913,7 +3921,7 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular",
-        "opposite": null
+        "opposite": "improvise"
     },
     {
         "word": "borrow",
@@ -3935,7 +3943,7 @@
         "v2": "borrowed",
         "v3": "borrowed",
         "group": "regular",
-        "opposite": null
+        "opposite": "lend"
     },
     {
         "word": "lend",
@@ -3957,7 +3965,7 @@
         "v2": "lent",
         "v3": "lent",
         "group": "irregular",
-        "opposite": null
+        "opposite": "borrow"
     },
     {
         "word": "smell",
@@ -3979,7 +3987,7 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "both",
-        "opposite": null
+        "opposite": "stink"
     },
     {
         "word": "taste",
@@ -4001,7 +4009,7 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "opposite": null
+        "opposite": "swallow"
     },
     {
         "word": "lie",
@@ -4023,7 +4031,7 @@
         "v2": "lay",
         "v3": "lain",
         "group": "irregular",
-        "opposite": null
+        "opposite": "stand"
     },
     {
         "word": "laugh",
@@ -4068,7 +4076,7 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "opposite": null
+        "opposite": "relax"
     },
     {
         "word": "sound",
@@ -4090,7 +4098,7 @@
         "v2": "sounded",
         "v3": "sounded",
         "group": "regular",
-        "opposite": null
+        "opposite": "silence"
     },
     {
         "word": "spell",
@@ -4112,7 +4120,7 @@
         "v2": "spelled / spelt",
         "v3": "spelled / spelt",
         "group": "irregular",
-        "opposite": null
+        "opposite": "misspell"
     },
     {
         "word": "point",
@@ -4135,7 +4143,7 @@
         "v2": "pointed",
         "v3": "pointed",
         "group": "regular",
-        "opposite": null
+        "opposite": "hide"
     },
     {
         "word": "shout",
@@ -4157,7 +4165,7 @@
         "v2": "shouted",
         "v3": "shouted",
         "group": "regular",
-        "opposite": null
+        "opposite": "whisper"
     },
     {
         "word": "wave",
@@ -4179,7 +4187,7 @@
         "v2": "waved",
         "v3": "waved",
         "group": "regular",
-        "opposite": null
+        "opposite": "ignore"
     },
     {
         "word": "kick",
@@ -4201,7 +4209,7 @@
         "v2": "kicked",
         "v3": "kicked",
         "group": "regular",
-        "opposite": null
+        "opposite": "catch"
     },
     {
         "word": "throw",
@@ -4223,7 +4231,7 @@
         "v2": "threw",
         "v3": "thrown",
         "group": "irregular",
-        "opposite": null
+        "opposite": "catch"
     },
     {
         "word": "bounce",
@@ -4245,7 +4253,7 @@
         "v2": "bounced",
         "v3": "bounced",
         "group": "regular",
-        "opposite": null
+        "opposite": "stop"
     },
     {
         "word": "paint",
@@ -4267,7 +4275,7 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "opposite": null
+        "opposite": "erase"
     },
     {
         "word": "hop",
@@ -4289,7 +4297,7 @@
         "v2": "hopped",
         "v3": "hopped",
         "group": "regular",
-        "opposite": null
+        "opposite": "walk"
     },
     {
         "word": "skip",
@@ -4311,7 +4319,7 @@
         "v2": "skipped",
         "v3": "skipped",
         "group": "regular",
-        "opposite": null
+        "opposite": "walk"
     },
     {
         "word": "count",
@@ -4333,7 +4341,7 @@
         "v2": "counted",
         "v3": "counted",
         "group": "regular",
-        "opposite": null
+        "opposite": "estimate"
     },
     {
         "word": "tick",
@@ -4355,7 +4363,7 @@
         "v2": "ticked",
         "v3": "ticked",
         "group": "regular",
-        "opposite": null
+        "opposite": "cross"
     },
     {
         "word": "cross",
@@ -4377,7 +4385,7 @@
         "v2": "crossed",
         "v3": "crossed",
         "group": "regular",
-        "opposite": null
+        "opposite": "tick"
     },
     {
         "word": "colour",
@@ -4399,7 +4407,7 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular",
-        "opposite": null
+        "opposite": "erase"
     },
     {
         "word": "hold",
@@ -4422,7 +4430,7 @@
         "v2": "held",
         "v3": "held",
         "group": "irregular",
-        "opposite": null
+        "opposite": "drop"
     },
     {
         "word": "lead",
@@ -4444,7 +4452,7 @@
         "v2": "led",
         "v3": "led",
         "group": "irregular",
-        "opposite": null
+        "opposite": "follow"
     },
     {
         "word": "fight",
@@ -4466,7 +4474,7 @@
         "v2": "fought",
         "v3": "fought",
         "group": "irregular",
-        "opposite": null
+        "opposite": "make peace"
     },
     {
         "word": "hide",
@@ -4474,7 +4482,7 @@
         "theme": "toys_games_A1",
         "emoji": "🙈",
         "subtext": "hide and seek / hide from someone / hide something",
-        "opposite": null,
+        "opposite": "show",
         "oppositeEmoji": "📽️",
         "form": "verb",
         "definitions": [
@@ -4511,7 +4519,7 @@
         "v2": "sought",
         "v3": "sought",
         "group": "irregular",
-        "opposite": null
+        "opposite": "hide"
     },
     {
         "word": "ring",
@@ -4532,7 +4540,8 @@
         "aspect": "action",
         "v2": "rang",
         "v3": "rung",
-        "group": "irregular"
+        "group": "irregular",
+        "opposite": "be silent"
     },
     {
         "word": "text",
@@ -4554,7 +4563,7 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "opposite": null
+        "opposite": "call"
     },
     {
         "word": "whisper",
@@ -4576,7 +4585,7 @@
         "v2": "whispered",
         "v3": "whispered",
         "group": "regular",
-        "opposite": null
+        "opposite": "shout"
     },
     {
         "word": "touch",
@@ -4712,7 +4721,8 @@
         "aspect": "action",
         "v2": "phoned",
         "v3": "phoned",
-        "group": "regular"
+        "group": "regular",
+        "opposite": "text"
     },
     {
         "word": "climb",
@@ -4735,7 +4745,7 @@
         "v2": "climbed",
         "v3": "climbed",
         "group": "regular",
-        "opposite": null
+        "opposite": "descend"
     },
     {
         "word": "dress",
@@ -4767,7 +4777,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "👕",
         "subtext": "get undressed / undress quickly",
-        "opposite": null,
+        "opposite": "dress",
         "oppositeEmoji": "👗",
         "form": "verb",
         "definitions": [
@@ -4791,7 +4801,7 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "💡",
         "subtext": "turn on the light / turn on the TV / turn on the radio",
-        "opposite": null,
+        "opposite": "turn off",
         "oppositeEmoji": "🌑",
         "form": "verb",
         "definitions": [
@@ -4815,7 +4825,7 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌑",
         "subtext": "turn off the light / turn off the computer / turn off your phone",
-        "opposite": null,
+        "opposite": "turn on",
         "oppositeEmoji": "💡",
         "form": "verb",
         "definitions": [
@@ -4853,7 +4863,7 @@
         "v2": "welcomed",
         "v3": "welcomed",
         "group": "regular",
-        "opposite": null
+        "opposite": "reject"
     },
     {
         "word": "act",
@@ -4875,7 +4885,7 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "opposite": null
+        "opposite": "be natural"
     },
     {
         "word": "copy",
@@ -4897,7 +4907,7 @@
         "v2": "copied",
         "v3": "copied",
         "group": "regular",
-        "opposite": null
+        "opposite": "original"
     },
     {
         "word": "fill",
@@ -4919,7 +4929,7 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "opposite": null
+        "opposite": "empty"
     },
     {
         "word": "fit",
@@ -4963,7 +4973,7 @@
         "v2": "imagined",
         "v3": "imagined",
         "group": "regular",
-        "opposite": null
+        "opposite": "know"
     },
     {
         "word": "join",
@@ -4985,7 +4995,7 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "opposite": null
+        "opposite": "leave"
     },
     {
         "word": "note",
@@ -5007,7 +5017,7 @@
         "v2": "noted",
         "v3": "noted",
         "group": "regular",
-        "opposite": null
+        "opposite": "forget"
     },
     {
         "word": "pick",
@@ -5029,7 +5039,7 @@
         "v2": "picked",
         "v3": "picked",
         "group": "regular",
-        "opposite": null
+        "opposite": "drop"
     },
     {
         "word": "produce",
@@ -5051,7 +5061,7 @@
         "v2": "produced",
         "v3": "produced",
         "group": "regular",
-        "opposite": null
+        "opposite": "consume"
     },
     {
         "word": "promise",
@@ -5073,7 +5083,7 @@
         "v2": "promised",
         "v3": "promised",
         "group": "regular",
-        "opposite": null
+        "opposite": "lie"
     },
     {
         "word": "record",
@@ -5095,7 +5105,7 @@
         "v2": "recorded",
         "v3": "recorded",
         "group": "regular",
-        "opposite": null
+        "opposite": "delete"
     },
     {
         "word": "suggest",
@@ -5117,7 +5127,7 @@
         "v2": "suggested",
         "v3": "suggested",
         "group": "regular",
-        "opposite": null
+        "opposite": "demand"
     },
     {
         "word": "wish",
@@ -5139,7 +5149,7 @@
         "v2": "wished",
         "v3": "wished",
         "group": "regular",
-        "opposite": null
+        "opposite": "fear"
     },
     {
         "word": "collect",
@@ -5161,7 +5171,7 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "opposite": null
+        "opposite": "scatter"
     },
     {
         "word": "describe",
@@ -5183,7 +5193,7 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "opposite": null
+        "opposite": "summarize"
     },
     {
         "word": "doubt",
@@ -5253,6 +5263,90 @@
         "v2": "destroyed",
         "v3": "destroyed",
         "group": "regular"
+    },
+    {
+        "word": "breathe",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🫁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take air into your lungs and send it out again.",
+                "examples": [
+                    "Breathe deeply."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "breathed",
+        "v3": "breathed",
+        "group": "regular",
+        "subtext": "inhale / exhale"
+    },
+    {
+        "word": "cough",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "😷",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To force air out of your lungs with a sudden loud noise.",
+                "examples": [
+                    "He is coughing because he is ill."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "coughed",
+        "v3": "coughed",
+        "group": "regular",
+        "subtext": "have a cough"
+    },
+    {
+        "word": "sneeze",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤧",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To suddenly force air out through your nose and mouth with a loud noise.",
+                "examples": [
+                    "Bless you! Did you sneeze?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "sneezed",
+        "v3": "sneezed",
+        "group": "regular",
+        "subtext": "atchoo!"
+    },
+    {
+        "word": "yawn",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🥱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To open your mouth wide and take a deep breath because you are tired.",
+                "examples": [
+                    "She yawned during the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "yawned",
+        "v3": "yawned",
+        "group": "regular",
+        "subtext": "feel sleepy"
     }
 ];
     const lang = "en";

@@ -4,155 +4,166 @@
         "word": "Albert Einstein",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "👨‍🔬",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A very famous scientist from Germany who lived in the USA.",
                 "examples": [
-                    "Albert Einstein is well-known around the world."
+                    "Albert Einstein was a very clever man."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous scientist"
     },
     {
         "word": "Taylor Swift",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "🎤",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous singer and songwriter from the USA.",
                 "examples": [
-                    "Taylor Swift is well-known around the world."
+                    "Taylor Swift has many popular songs."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous singer"
     },
     {
         "word": "Cristiano Ronaldo",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "⚽",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous football player from Portugal.",
                 "examples": [
-                    "Cristiano Ronaldo is well-known around the world."
+                    "Cristiano Ronaldo is a very fast athlete."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous athlete"
     },
     {
         "word": "Lionel Messi",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "⚽",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous football player from Argentina.",
                 "examples": [
-                    "Lionel Messi is well-known around the world."
+                    "Lionel Messi plays for a team in the USA now."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous athlete"
     },
     {
         "word": "Beyoncé",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "🎤",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous singer and dancer from the USA.",
                 "examples": [
-                    "Beyoncé is well-known around the world."
+                    "Beyoncé is a very successful artist."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous singer"
     },
     {
         "word": "Elon Musk",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "🚀",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous businessman who builds electric cars and rockets.",
                 "examples": [
-                    "Elon Musk is well-known around the world."
+                    "Elon Musk is the boss of Tesla and SpaceX."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous businessman"
     },
     {
         "word": "Queen Elizabeth II",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "👑",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "The famous Queen of the United Kingdom for a very long time.",
                 "examples": [
-                    "Queen Elizabeth II is well-known around the world."
+                    "Queen Elizabeth II lived in Buckingham Palace."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous queen"
     },
     {
         "word": "Marie Curie",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "🧪",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous scientist from Poland and France who studied radiation.",
                 "examples": [
-                    "Marie Curie is well-known around the world."
+                    "Marie Curie was the first woman to win a Nobel Prize."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous scientist"
     },
     {
         "word": "Leonardo da Vinci",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "🎨",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous artist and inventor from Italy who painted the Mona Lisa.",
                 "examples": [
-                    "Leonardo da Vinci is well-known around the world."
+                    "Leonardo da Vinci was a genius of the Renaissance."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous artist"
     },
     {
         "word": "Nelson Mandela",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "🇿🇦",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous leader from South Africa who fought for peace and equality.",
                 "examples": [
-                    "Nelson Mandela is well-known around the world."
+                    "Nelson Mandela was the first black president of South Africa."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous leader"
     },
     {
         "word": "William Shakespeare",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
+        "emoji": "✍️",
         "definitions": [
             {
-                "text": "A famous person.",
+                "text": "A famous writer from England who wrote many plays and poems.",
                 "examples": [
-                    "William Shakespeare is well-known around the world."
+                    "William Shakespeare wrote Romeo and Juliet."
                 ]
             }
         ],
-        "subtext": "famous person"
+        "subtext": "famous writer"
     }
 ];
     const lang = "en";

@@ -18,7 +18,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "brushed teeth",
-        "v3": "brushed teeth"
+        "v3": "brushed teeth",
+        "opposite": "mess up"
     },
     {
         "word": "shower",
@@ -38,7 +39,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "showered",
-        "v3": "showered"
+        "v3": "showered",
+        "opposite": "get dirty"
     },
     {
         "word": "seem",
@@ -78,7 +80,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "became",
-        "v3": "become"
+        "v3": "become",
+        "opposite": "remain"
     },
     {
         "word": "believe",
@@ -98,7 +101,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "believed",
-        "v3": "believed"
+        "v3": "believed",
+        "opposite": "doubt"
     },
     {
         "word": "happen",
@@ -118,7 +122,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "happened",
-        "v3": "happened"
+        "v3": "happened",
+        "opposite": "stop"
     },
     {
         "word": "include",
@@ -138,7 +143,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "included",
-        "v3": "included"
+        "v3": "included",
+        "opposite": "exclude"
     },
     {
         "word": "continue",
@@ -158,7 +164,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "continued",
-        "v3": "continued"
+        "v3": "continued",
+        "opposite": "stop"
     },
     {
         "word": "set",
@@ -178,7 +185,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "set",
-        "v3": "set"
+        "v3": "set",
+        "opposite": "reset"
     },
     {
         "word": "lead",
@@ -198,7 +206,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "led",
-        "v3": "led"
+        "v3": "led",
+        "opposite": "follow"
     },
     {
         "word": "follow",
@@ -218,7 +227,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "followed",
-        "v3": "followed"
+        "v3": "followed",
+        "opposite": "lead"
     },
     {
         "word": "create",
@@ -238,7 +248,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "created",
-        "v3": "created"
+        "v3": "created",
+        "opposite": "destroy"
     },
     {
         "word": "allow",
@@ -258,7 +269,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "allowed",
-        "v3": "allowed"
+        "v3": "allowed",
+        "opposite": "forbid"
     },
     {
         "word": "grow",
@@ -278,7 +290,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "grew",
-        "v3": "grown"
+        "v3": "grown",
+        "opposite": "shrink"
     },
     {
         "word": "offer",
@@ -298,7 +311,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "offered",
-        "v3": "offered"
+        "v3": "offered",
+        "opposite": "refuse"
     },
     {
         "word": "consider",
@@ -318,7 +332,8 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "considered",
-        "v3": "considered"
+        "v3": "considered",
+        "opposite": "ignore"
     },
     {
         "word": "appear",
@@ -338,7 +353,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "appeared",
-        "v3": "appeared"
+        "v3": "appeared",
+        "opposite": "disappear"
     },
     {
         "word": "serve",
@@ -358,7 +374,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "served",
-        "v3": "served"
+        "v3": "served",
+        "opposite": "wait"
     },
     {
         "word": "expect",
@@ -378,7 +395,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "expected",
-        "v3": "expected"
+        "v3": "expected",
+        "opposite": "doubt"
     },
     {
         "word": "build",
@@ -398,7 +416,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "built",
-        "v3": "built"
+        "v3": "built",
+        "opposite": "destroy"
     },
     {
         "word": "reach",
@@ -418,7 +437,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "reached",
-        "v3": "reached"
+        "v3": "reached",
+        "opposite": "miss"
     },
     {
         "word": "kill",
@@ -438,7 +458,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "killed",
-        "v3": "killed"
+        "v3": "killed",
+        "opposite": "save"
     },
     {
         "word": "remain",
@@ -458,7 +479,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "remained",
-        "v3": "remained"
+        "v3": "remained",
+        "opposite": "change"
     },
     {
         "word": "suggest",
@@ -478,7 +500,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "suggested",
-        "v3": "suggested"
+        "v3": "suggested",
+        "opposite": "demand"
     },
     {
         "word": "raise",
@@ -498,7 +521,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "raised",
-        "v3": "raised"
+        "v3": "raised",
+        "opposite": "lower"
     },
     {
         "word": "require",
@@ -518,7 +542,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "required",
-        "v3": "required"
+        "v3": "required",
+        "opposite": "lack"
     },
     {
         "word": "report",
@@ -538,7 +563,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "reported",
-        "v3": "reported"
+        "v3": "reported",
+        "opposite": "hide"
     },
     {
         "word": "explain",
@@ -558,7 +584,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "explained",
-        "v3": "explained"
+        "v3": "explained",
+        "opposite": "confuse"
     },
     {
         "word": "develop",
@@ -578,7 +605,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "developed",
-        "v3": "developed"
+        "v3": "developed",
+        "opposite": "regress"
     },
     {
         "word": "retire",
@@ -598,7 +626,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "retired",
-        "v3": "retired"
+        "v3": "retired",
+        "opposite": "work"
     },
     {
         "word": "afford",
@@ -618,7 +647,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "afforded",
-        "v3": "afforded"
+        "v3": "afforded",
+        "opposite": "lack"
     },
     {
         "word": "recycle",
@@ -638,7 +668,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "recycled",
-        "v3": "recycled"
+        "v3": "recycled",
+        "opposite": "waste"
     },
     {
         "word": "hit",
@@ -658,7 +689,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "hit",
-        "v3": "hit"
+        "v3": "hit",
+        "opposite": "miss"
     },
     {
         "word": "produce",
@@ -678,7 +710,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "produced",
-        "v3": "produced"
+        "v3": "produced",
+        "opposite": "consume"
     },
     {
         "word": "face",
@@ -698,7 +731,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "faced",
-        "v3": "faced"
+        "v3": "faced",
+        "opposite": "avoid"
     },
     {
         "word": "cover",
@@ -718,7 +752,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "covered",
-        "v3": "covered"
+        "v3": "covered",
+        "opposite": "uncover"
     },
     {
         "word": "describe",
@@ -738,7 +773,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "described",
-        "v3": "described"
+        "v3": "described",
+        "opposite": "summarize"
     },
     {
         "word": "catch",
@@ -758,7 +794,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "caught",
-        "v3": "caught"
+        "v3": "caught",
+        "opposite": "throw"
     },
     {
         "word": "apply for",
@@ -778,7 +815,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "applied for",
-        "v3": "applied for"
+        "v3": "applied for",
+        "opposite": "resign"
     },
     {
         "word": "hire",
@@ -798,7 +836,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "hired",
-        "v3": "hired"
+        "v3": "hired",
+        "opposite": "fire"
     },
     {
         "word": "promote",
@@ -818,7 +857,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "promoted",
-        "v3": "promoted"
+        "v3": "promoted",
+        "opposite": "demote"
     },
     {
         "word": "resign",
@@ -838,7 +878,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "resigned",
-        "v3": "resigned"
+        "v3": "resigned",
+        "opposite": "join"
     },
     {
         "word": "dismiss",
@@ -858,7 +899,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "dismissed",
-        "v3": "dismissed"
+        "v3": "dismissed",
+        "opposite": "hire"
     },
     {
         "word": "delegate",
@@ -878,7 +920,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "delegated",
-        "v3": "delegated"
+        "v3": "delegated",
+        "opposite": "do yourself"
     },
     {
         "word": "negotiate",
@@ -898,7 +941,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "negotiated",
-        "v3": "negotiated"
+        "v3": "negotiated",
+        "opposite": "agree"
     },
     {
         "word": "evaluate",
@@ -918,7 +962,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "evaluated",
-        "v3": "evaluated"
+        "v3": "evaluated",
+        "opposite": "ignore"
     },
     {
         "word": "collaborate",
@@ -938,7 +983,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "collaborated",
-        "v3": "collaborated"
+        "v3": "collaborated",
+        "opposite": "work alone"
     },
     {
         "word": "schedule",
@@ -958,7 +1004,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "scheduled",
-        "v3": "scheduled"
+        "v3": "scheduled",
+        "opposite": "cancel"
     },
     {
         "word": "invest",
@@ -978,7 +1025,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "invested",
-        "v3": "invested"
+        "v3": "invested",
+        "opposite": "spend"
     },
     {
         "word": "borrow",
@@ -998,7 +1046,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "borrowed",
-        "v3": "borrowed"
+        "v3": "borrowed",
+        "opposite": "lend"
     },
     {
         "word": "lend",
@@ -1018,7 +1067,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "lent",
-        "v3": "lent"
+        "v3": "lent",
+        "opposite": "borrow"
     },
     {
         "word": "budget",
@@ -1038,7 +1088,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "budgeted",
-        "v3": "budgeted"
+        "v3": "budgeted",
+        "opposite": "waste"
     },
     {
         "word": "withdraw",
@@ -1058,7 +1109,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "withdrew",
-        "v3": "withdrawn"
+        "v3": "withdrawn",
+        "opposite": "deposit"
     },
     {
         "word": "transfer",
@@ -1078,7 +1130,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "transferred",
-        "v3": "transferred"
+        "v3": "transferred",
+        "opposite": "keep"
     },
     {
         "word": "charge",
@@ -1098,7 +1151,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "charged",
-        "v3": "charged"
+        "v3": "charged",
+        "opposite": "pay"
     },
     {
         "word": "claim",
@@ -1118,7 +1172,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "claimed",
-        "v3": "claimed"
+        "v3": "claimed",
+        "opposite": "give up"
     },
     {
         "word": "argue",
@@ -1138,7 +1193,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "argued",
-        "v3": "argued"
+        "v3": "argued",
+        "opposite": "agree"
     },
     {
         "word": "trust",
@@ -1158,7 +1214,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "trusted",
-        "v3": "trusted"
+        "v3": "trusted",
+        "opposite": "doubt"
     },
     {
         "word": "support",
@@ -1178,7 +1235,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "supported",
-        "v3": "supported"
+        "v3": "supported",
+        "opposite": "oppose"
     },
     {
         "word": "disagree",
@@ -1198,7 +1256,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "disagreed",
-        "v3": "disagreed"
+        "v3": "disagreed",
+        "opposite": "agree"
     },
     {
         "word": "apologise",
@@ -1218,7 +1277,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "apologised",
-        "v3": "apologised"
+        "v3": "apologised",
+        "opposite": "offend"
     },
     {
         "word": "forgive",
@@ -1238,7 +1298,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "forgave",
-        "v3": "forgiven"
+        "v3": "forgiven",
+        "opposite": "blame"
     },
     {
         "word": "compromise",
@@ -1258,7 +1319,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "compromised",
-        "v3": "compromised"
+        "v3": "compromised",
+        "opposite": "demand"
     },
     {
         "word": "diagnose",
@@ -1278,7 +1340,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "diagnosed",
-        "v3": "diagnosed"
+        "v3": "diagnosed",
+        "opposite": "ignore"
     },
     {
         "word": "treat",
@@ -1298,7 +1361,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "treated",
-        "v3": "treated"
+        "v3": "treated",
+        "opposite": "neglect"
     },
     {
         "word": "prevent",
@@ -1318,7 +1382,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "prevented",
-        "v3": "prevented"
+        "v3": "prevented",
+        "opposite": "cause"
     },
     {
         "word": "suffer",
@@ -1338,7 +1403,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "suffered",
-        "v3": "suffered"
+        "v3": "suffered",
+        "opposite": "enjoy"
     },
     {
         "word": "recommend",
@@ -1358,7 +1424,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "recommended",
-        "v3": "recommended"
+        "v3": "recommended",
+        "opposite": "warn"
     },
     {
         "word": "improve",
@@ -1378,7 +1445,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "improved",
-        "v3": "improved"
+        "v3": "improved",
+        "opposite": "worsen"
     },
     {
         "word": "rent",
@@ -1398,7 +1466,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "rented",
-        "v3": "rented"
+        "v3": "rented",
+        "opposite": "own"
     },
     {
         "word": "own",
@@ -1418,7 +1487,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "owned",
-        "v3": "owned"
+        "v3": "owned",
+        "opposite": "rent"
     },
     {
         "word": "repair",
@@ -1438,7 +1508,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "repaired",
-        "v3": "repaired"
+        "v3": "repaired",
+        "opposite": "break"
     },
     {
         "word": "move",
@@ -1458,7 +1529,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "moved",
-        "v3": "moved"
+        "v3": "moved",
+        "opposite": "stay"
     },
     {
         "word": "decorate",
@@ -1478,7 +1550,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "decorated",
-        "v3": "decorated"
+        "v3": "decorated",
+        "opposite": "damage"
     },
     {
         "word": "set up",
@@ -1498,7 +1571,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "set up",
-        "v3": "set up"
+        "v3": "set up",
+        "opposite": "close down"
     },
     {
         "word": "find out",
@@ -1518,7 +1592,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "found out",
-        "v3": "found out"
+        "v3": "found out",
+        "opposite": "hide"
     },
     {
         "word": "carry on",
@@ -1538,7 +1613,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "carried on",
-        "v3": "carried on"
+        "v3": "carried on",
+        "opposite": "stop"
     },
     {
         "word": "give up",
@@ -1558,7 +1634,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "gave up",
-        "v3": "given up"
+        "v3": "given up",
+        "opposite": "continue"
     },
     {
         "word": "sort out",
@@ -1578,7 +1655,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "sorted out",
-        "v3": "sorted out"
+        "v3": "sorted out",
+        "opposite": "mess up"
     },
     {
         "word": "look after",
@@ -1598,7 +1676,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "looked after",
-        "v3": "looked after"
+        "v3": "looked after",
+        "opposite": "neglect"
     },
     {
         "word": "cut down on",
@@ -1618,7 +1697,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "cut down on",
-        "v3": "cut down on"
+        "v3": "cut down on",
+        "opposite": "increase"
     },
     {
         "word": "take on",
@@ -1638,7 +1718,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "took on",
-        "v3": "taken on"
+        "v3": "taken on",
+        "opposite": "refuse"
     },
     {
         "word": "turn down",
@@ -1658,7 +1739,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "turned down",
-        "v3": "turned down"
+        "v3": "turned down",
+        "opposite": "accept"
     },
     {
         "word": "put off",
@@ -1678,7 +1760,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "put off",
-        "v3": "put off"
+        "v3": "put off",
+        "opposite": "do now"
     },
     {
         "word": "owe",
@@ -1698,7 +1781,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "owed",
-        "v3": "owed"
+        "v3": "owed",
+        "opposite": "pay"
     },
     {
         "word": "invite",
@@ -1718,7 +1802,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "invited",
-        "v3": "invited"
+        "v3": "invited",
+        "opposite": "reject"
     },
     {
         "word": "confirm",
@@ -1738,7 +1823,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "confirmed",
-        "v3": "confirmed"
+        "v3": "confirmed",
+        "opposite": "cancel"
     },
     {
         "word": "contact",
@@ -1758,7 +1844,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "contacted",
-        "v3": "contacted"
+        "v3": "contacted",
+        "opposite": "ignore"
     },
     {
         "word": "complain",
@@ -1778,7 +1865,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "complained",
-        "v3": "complained"
+        "v3": "complained",
+        "opposite": "praise"
     },
     {
         "word": "discuss",
@@ -1798,7 +1886,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "discussed",
-        "v3": "discussed"
+        "v3": "discussed",
+        "opposite": "be silent"
     },
     {
         "word": "present",
@@ -1818,7 +1907,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "presented",
-        "v3": "presented"
+        "v3": "presented",
+        "opposite": "hide"
     },
     {
         "word": "accept",
@@ -1838,7 +1928,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "accepted",
-        "v3": "accepted"
+        "v3": "accepted",
+        "opposite": "refuse"
     },
     {
         "word": "refuse",
@@ -1858,7 +1949,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "refused",
-        "v3": "refused"
+        "v3": "refused",
+        "opposite": "accept"
     },
     {
         "word": "lose weight",
@@ -1878,7 +1970,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "lost weight",
-        "v3": "lost weight"
+        "v3": "lost weight",
+        "opposite": "gain weight"
     },
     {
         "word": "increase",
@@ -1898,7 +1991,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "increased",
-        "v3": "increased"
+        "v3": "increased",
+        "opposite": "decrease"
     },
     {
         "word": "reduce",
@@ -1918,7 +2012,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "reduced",
-        "v3": "reduced"
+        "v3": "reduced",
+        "opposite": "increase"
     },
     {
         "word": "improve skills",
@@ -1938,7 +2033,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "improved skills",
-        "v3": "improved skills"
+        "v3": "improved skills",
+        "opposite": "lose skills"
     },
     {
         "word": "provide",
@@ -1958,7 +2054,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "provided",
-        "v3": "provided"
+        "v3": "provided",
+        "opposite": "take"
     },
     {
         "word": "solve",
@@ -1978,7 +2075,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "solved",
-        "v3": "solved"
+        "v3": "solved",
+        "opposite": "complicate"
     },
     {
         "word": "share",
@@ -1998,7 +2096,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "shared",
-        "v3": "shared"
+        "v3": "shared",
+        "opposite": "keep"
     },
     {
         "word": "join",
@@ -2018,7 +2117,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "joined",
-        "v3": "joined"
+        "v3": "joined",
+        "opposite": "leave"
     },
     {
         "word": "receive",
@@ -2038,7 +2138,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "received",
-        "v3": "received"
+        "v3": "received",
+        "opposite": "send"
     },
     {
         "word": "contain",
@@ -2058,7 +2159,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "contained",
-        "v3": "contained"
+        "v3": "contained",
+        "opposite": "exclude"
     },
     {
         "word": "plan",
@@ -2078,7 +2180,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "planned",
-        "v3": "planned"
+        "v3": "planned",
+        "opposite": "improvise"
     },
     {
         "word": "prepare",
@@ -2098,7 +2201,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "prepared",
-        "v3": "prepared"
+        "v3": "prepared",
+        "opposite": "improvise"
     },
     {
         "word": "fail",
@@ -2118,7 +2222,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "failed",
-        "v3": "failed"
+        "v3": "failed",
+        "opposite": "succeed"
     },
     {
         "word": "succeed",
@@ -2138,7 +2243,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "succeeded",
-        "v3": "succeeded"
+        "v3": "succeeded",
+        "opposite": "fail"
     },
     {
         "word": "agree",
@@ -2158,7 +2264,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "agreed",
-        "v3": "agreed"
+        "v3": "agreed",
+        "opposite": "disagree"
     },
     {
         "word": "replace",
@@ -2178,7 +2285,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "replaced",
-        "v3": "replaced"
+        "v3": "replaced",
+        "opposite": "keep"
     },
     {
         "word": "look for",
@@ -2198,7 +2306,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "looked for",
-        "v3": "looked for"
+        "v3": "looked for",
+        "opposite": "find"
     },
     {
         "word": "log out",
@@ -2218,7 +2327,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "logged out",
-        "v3": "logged out"
+        "v3": "logged out",
+        "opposite": "log in"
     }
 ];
     const lang = "en";

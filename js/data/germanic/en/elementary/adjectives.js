@@ -1317,7 +1317,7 @@
         "theme": "condition_state_A2",
         "emoji": "📅",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "rare",
         "definitions": [
             {
                 "text": "Happening every day.",
@@ -1426,4 +1426,9 @@
         "superlative": null
     }
 ];
+    const lang = "en";
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
