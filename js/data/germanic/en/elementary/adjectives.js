@@ -93,7 +93,7 @@
             ]
         }
     ],
-    "subtext": "affordable price / more affordable / affordable option",
+    "subtext": "inexpensive / low-cost",
     "comparative": "more affordable",
     "superlative": "the most affordable"
 },
@@ -131,7 +131,7 @@
             ]
         }
     ],
-    "subtext": "very ambitious / hugely ambitious / an ambitious plan",
+    "subtext": "determined / aspiring",
     "comparative": "more ambitious",
     "superlative": "the most ambitious"
 },
@@ -151,7 +151,7 @@
             ]
         }
     ],
-    "subtext": "very old / from long ago",
+    "subtext": "antique / aged / very old",
     "comparative": "more ancient",
     "superlative": "the most ancient"
 },
@@ -190,7 +190,7 @@
             ]
         }
     ],
-    "subtext": "worried / nervous",
+    "subtext": "worried / nervous / uneasy",
     "comparative": "more anxious",
     "superlative": "the most anxious"
 },
@@ -209,7 +209,7 @@
             ]
         }
     ],
-    "subtext": "man-made / fake",
+    "subtext": "man-made / synthetic",
     "comparative": "more artificial",
     "superlative": "the most artificial"
 },
@@ -228,7 +228,7 @@
             ]
         }
     ],
-    "subtext": "athletic build / very athletic / athletic performance",
+    "subtext": "fit / sporty / physically active",
     "comparative": "more athletic",
     "superlative": "the most athletic"
 },
@@ -305,7 +305,7 @@
             ]
         }
     ],
-    "subtext": "simple / fundamental",
+    "subtext": "simple / fundamental / essential",
     "comparative": "more basic",
     "superlative": "the most basic"
 },
@@ -364,7 +364,7 @@
             ]
         }
     ],
-    "subtext": "short / quick",
+    "subtext": "short / quick / concise",
     "comparative": "briefer",
     "superlative": "the briefest"
 },
@@ -422,7 +422,7 @@
             ]
         }
     ],
-    "subtext": "peaceful / quiet",
+    "subtext": "peaceful / quiet / tranquil",
     "comparative": "calmer",
     "superlative": "the calmest"
 },
@@ -480,7 +480,7 @@
             ]
         }
     ],
-    "subtext": "sure / definite",
+    "subtext": "sure / definite / positive",
     "comparative": "more certain",
     "superlative": "the most certain"
 },
@@ -500,7 +500,7 @@
             ]
         }
     ],
-    "subtext": "happy / joyful",
+    "subtext": "happy / joyful / upbeat",
     "comparative": "more cheerful",
     "superlative": "the most cheerful"
 },
@@ -539,7 +539,7 @@
             ]
         }
     ],
-    "subtext": "smart / intelligent",
+    "subtext": "smart / intelligent / bright",
     "comparative": "cleverer",
     "superlative": "the cleverest"
 },
@@ -598,7 +598,7 @@
             ]
         }
     ],
-    "subtext": "usual / frequent",
+    "subtext": "usual / frequent / ordinary",
     "comparative": "commoner",
     "superlative": "the commonest"
 },
@@ -636,7 +636,7 @@
             ]
         }
     ],
-    "subtext": "very complicated / get complicated / overly complicated",
+    "subtext": "complex / intricate",
     "comparative": "more complicated",
     "superlative": "the most complicated"
 },
@@ -656,7 +656,7 @@
             ]
         }
     ],
-    "subtext": "self-confident / very confident / feel confident",
+    "subtext": "self-assured / bold",
     "comparative": "more confident",
     "superlative": "the most confident"
 },
@@ -675,7 +675,7 @@
             ]
         }
     ],
-    "subtext": "secret / private",
+    "subtext": "secret / private / classified",
     "comparative": "more confidential",
     "superlative": "the most confidential"
 },
@@ -4001,6 +4001,526 @@
     "subtext": "not old / youthful",
     "comparative": "younger",
     "superlative": "the youngest"
+},
+{
+    "word": "delighted",
+    "level": "elementary",
+    "theme": "social_emotions_A2",
+    "emoji": "😊",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Very pleased.",
+            "examples": [
+                "I was delighted with my exam results.",
+                "We are delighted to welcome you to our team."
+            ]
+        }
+    ],
+    "subtext": "very happy / pleased",
+    "comparative": "more delighted",
+    "superlative": "the most delighted",
+    "opposite": "miserable"
+},
+{
+    "word": "dull",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "☁️",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Not interesting or exciting; or not bright.",
+            "examples": [
+                "The movie was a bit dull.",
+                "It was a dull, grey day."
+            ]
+        }
+    ],
+    "subtext": "boring / not bright",
+    "comparative": "duller",
+    "superlative": "the dullest",
+    "opposite": "bright"
+},
+{
+    "word": "elderly",
+    "level": "elementary",
+    "theme": "personal_qualities_A2",
+    "emoji": "👴",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "A polite word for old, used to describe people.",
+            "examples": [
+                "The elderly man needed help crossing the road.",
+                "She looks after her elderly parents."
+            ]
+        }
+    ],
+    "subtext": "old people",
+    "comparative": "more elderly",
+    "superlative": "the most elderly",
+    "opposite": "young"
+},
+{
+    "word": "frequent",
+    "level": "elementary",
+    "theme": "quantity_degree_A2",
+    "emoji": "🔄",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Happening often.",
+            "examples": [
+                "The buses are quite frequent.",
+                "He is a frequent visitor to London."
+            ]
+        }
+    ],
+    "subtext": "often",
+    "comparative": "more frequent",
+    "superlative": "the most frequent",
+    "opposite": "rare"
+},
+{
+    "word": "inner",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "🎯",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "On the inside, or near the center of something.",
+            "examples": [
+                "The inner ear is very sensitive.",
+                "She has a lot of inner strength."
+            ]
+        }
+    ],
+    "subtext": "inside",
+    "comparative": null,
+    "superlative": "innermost",
+    "opposite": "outer"
+},
+{
+    "word": "main",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "📍",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Larger, more important, or having more influence than others of the same type.",
+            "examples": [
+                "The main problem is the cost.",
+                "The main office is in New York."
+            ]
+        }
+    ],
+    "subtext": "primary / chief",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "secondary"
+},
+{
+    "word": "medical",
+    "level": "elementary",
+    "theme": "health_body_A2",
+    "emoji": "🩺",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Relating to medicine and the treatment of diseases or injuries.",
+            "examples": [
+                "She is a medical student.",
+                "He needs urgent medical attention."
+            ]
+        }
+    ],
+    "subtext": "health-related",
+    "comparative": "more medical",
+    "superlative": "the most medical",
+    "opposite": null
+},
+{
+    "word": "nearby",
+    "level": "elementary",
+    "theme": "landscape_geography_A2",
+    "emoji": "📍",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Not far away.",
+            "examples": [
+                "They live in a nearby town.",
+                "Is there a post office nearby?"
+            ]
+        }
+    ],
+    "subtext": "close / near",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "distant"
+},
+{
+    "word": "outer",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "🪐",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "On the outside, or further from the center of something.",
+            "examples": [
+                "The outer layer of the skin is very thin.",
+                "We live in the outer suburbs."
+            ]
+        }
+    ],
+    "subtext": "outside",
+    "comparative": null,
+    "superlative": "outermost",
+    "opposite": "inner"
+},
+{
+    "word": "pleasant",
+    "level": "elementary",
+    "theme": "personality_character_A2",
+    "emoji": "😊",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Enjoyable, attractive, friendly, or easy to like.",
+            "examples": [
+                "We had a very pleasant evening.",
+                "The weather was pleasant."
+            ]
+        }
+    ],
+    "subtext": "nice / enjoyable",
+    "comparative": "more pleasant",
+    "superlative": "the most pleasant",
+    "opposite": "unpleasant"
+},
+{
+    "word": "pleased",
+    "level": "elementary",
+    "theme": "social_emotions_A2",
+    "emoji": "😊",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Happy or satisfied.",
+            "examples": [
+                "I am very pleased with my new car.",
+                "She was pleased to see him."
+            ]
+        }
+    ],
+    "subtext": "happy / satisfied",
+    "comparative": "more pleased",
+    "superlative": "the most pleased",
+    "opposite": "annoyed"
+},
+{
+    "word": "secondary",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "2️⃣",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Less important than something else.",
+            "examples": [
+                "The cost is a secondary consideration.",
+                "She goes to secondary school."
+            ]
+        }
+    ],
+    "subtext": "less important",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "primary"
+},
+{
+    "word": "silent",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "🤫",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Without any sound.",
+            "examples": [
+                "The library was completely silent.",
+                "The computer is very silent."
+            ]
+        }
+    ],
+    "subtext": "quiet",
+    "comparative": "more silent",
+    "superlative": "the most silent",
+    "opposite": "noisy"
+},
+{
+    "word": "sudden",
+    "level": "elementary",
+    "theme": "past_time_A2",
+    "emoji": "⚡",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Happening or done quickly and unexpectedly.",
+            "examples": [
+                "There was a sudden change in the weather.",
+                "He made a sudden decision."
+            ]
+        }
+    ],
+    "subtext": "unexpected",
+    "comparative": "more sudden",
+    "superlative": "the most sudden",
+    "opposite": "gradual"
+},
+{
+    "word": "suitable",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "✅",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Right or appropriate for a particular person, purpose, or situation.",
+            "examples": [
+                "This book is suitable for children.",
+                "The hotel is suitable for families."
+            ]
+        }
+    ],
+    "subtext": "appropriate",
+    "comparative": "more suitable",
+    "superlative": "the most suitable",
+    "opposite": "unsuitable"
+},
+{
+    "word": "various",
+    "level": "elementary",
+    "theme": "quantity_degree_A2",
+    "emoji": "🌈",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Many different.",
+            "examples": [
+                "There are various reasons for the delay.",
+                "We sell various types of coffee."
+            ]
+        }
+    ],
+    "subtext": "different types",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "uniform"
+},
+{
+    "word": "humid",
+    "level": "elementary",
+    "theme": "weather_climate_A2",
+    "emoji": "💦",
+    "form": "adjective",
+    "opposite": "dry",
+    "definitions": [
+        {
+            "text": "Having a high level of water vapor in the atmosphere.",
+            "examples": [
+                "The weather here is very hot and humid.",
+                "It's hard to breathe in the humid air."
+            ]
+        }
+    ],
+    "subtext": "sticky weather / moist air",
+    "comparative": "more humid",
+    "superlative": "the most humid"
+},
+{
+    "word": "chilly",
+    "level": "elementary",
+    "theme": "weather_climate_A2",
+    "emoji": "❄️",
+    "form": "adjective",
+    "opposite": "warm",
+    "definitions": [
+        {
+            "text": "Cold enough to make you feel uncomfortable.",
+            "examples": [
+                "It's a bit chilly outside, so wear a coat.",
+                "The room felt chilly even with the heating on."
+            ]
+        }
+    ],
+    "subtext": "cool / cold",
+    "comparative": "chillier",
+    "superlative": "the chilliest"
+},
+{
+    "word": "mild",
+    "level": "elementary",
+    "theme": "weather_climate_A2",
+    "emoji": "🌤️",
+    "form": "adjective",
+    "opposite": "extreme",
+    "definitions": [
+        {
+            "text": "Not severe or extreme, especially when referring to the weather.",
+            "examples": [
+                "We had a very mild winter this year.",
+                "The climate here is generally quite mild."
+            ]
+        }
+    ],
+    "subtext": "moderate / gentle",
+    "comparative": "milder",
+    "superlative": "the mildest"
+},
+{
+    "word": "engaged",
+    "level": "elementary",
+    "theme": "marriage_partnership_A2",
+    "emoji": "💍",
+    "form": "adjective",
+    "opposite": "single",
+    "definitions": [
+        {
+            "text": "Having formally agreed to marry.",
+            "examples": [
+                "They got engaged last Christmas.",
+                "She is engaged to a doctor she met at university."
+            ]
+        }
+    ],
+    "subtext": "promised to marry",
+    "comparative": null,
+    "superlative": null
+},
+{
+    "word": "single",
+    "level": "elementary",
+    "theme": "marriage_partnership_A2",
+    "emoji": "👤",
+    "form": "adjective",
+    "opposite": "married",
+    "definitions": [
+        {
+            "text": "Not married or in a committed relationship.",
+            "examples": [
+                "He's been single for a year now.",
+                "Is she single or married?"
+            ]
+        }
+    ],
+    "subtext": "not in a relationship / unattached",
+    "comparative": null,
+    "superlative": null
+},
+{
+    "word": "furious",
+    "level": "elementary",
+    "theme": "emotional_intensity_A2",
+    "emoji": "😡",
+    "form": "adjective",
+    "opposite": "calm",
+    "definitions": [
+        {
+            "text": "Extremely angry.",
+            "examples": [
+                "He was furious when he saw the damage to his car.",
+                "She was furious with herself for making such a mistake."
+            ]
+        }
+    ],
+    "subtext": "very angry / livid",
+    "comparative": "more furious",
+    "superlative": "the most furious"
+},
+{
+    "word": "terrified",
+    "level": "elementary",
+    "theme": "emotional_intensity_A2",
+    "emoji": "😱",
+    "form": "adjective",
+    "opposite": "brave",
+    "definitions": [
+        {
+            "text": "Extremely frightened.",
+            "examples": [
+                "She was terrified of heights.",
+                "The children were terrified by the loud noise."
+            ]
+        }
+    ],
+    "subtext": "very scared / frightened",
+    "comparative": "more terrified",
+    "superlative": "the most terrified"
+},
+{
+    "word": "exhausted",
+    "level": "elementary",
+    "theme": "emotional_intensity_A2",
+    "emoji": "😴",
+    "form": "adjective",
+    "opposite": "energetic",
+    "definitions": [
+        {
+            "text": "Extremely tired.",
+            "examples": [
+                "I was exhausted after the long flight.",
+                "She felt exhausted from all the work."
+            ]
+        }
+    ],
+    "subtext": "very tired / worn out",
+    "comparative": "more exhausted",
+    "superlative": "the most exhausted"
+},
+{
+    "word": "romantic",
+    "level": "elementary",
+    "theme": "relationships_dating_A2",
+    "emoji": "💖",
+    "form": "adjective",
+    "opposite": "unromantic",
+    "definitions": [
+        {
+            "text": "Relating to love or a close loving relationship.",
+            "examples": [
+                "They had a romantic dinner for two.",
+                "It was a very romantic movie."
+            ]
+        }
+    ],
+    "subtext": "loving / passionate",
+    "comparative": "more romantic",
+    "superlative": "the most romantic"
+},
+{
+    "word": "confused",
+    "level": "elementary",
+    "theme": "emotional_intensity_A2",
+    "emoji": "😕",
+    "form": "adjective",
+    "opposite": "clear",
+    "definitions": [
+        {
+            "text": "Unable to think clearly or to understand something.",
+            "examples": [
+                "I'm a bit confused about the new rules.",
+                "He looked confused when I asked the question."
+            ]
+        }
+    ],
+    "subtext": "puzzled / unsure",
+    "comparative": "more confused",
+    "superlative": "the most confused"
 }
     ];
     const lang = "en";
