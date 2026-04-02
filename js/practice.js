@@ -397,6 +397,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const startBtn = document.getElementById('start-btn');
+    const quickStartBtn = document.getElementById('quick-start-btn');
+    const dailyChallengeBtn = document.getElementById('daily-challenge-btn');
+    const reviewMistakesBtn = document.getElementById('review-mistakes-btn');
     const wheelModeBtn = document.getElementById('wheel-mode-btn');
     const resumeBtn = document.getElementById('resume-btn');
     const nextBtn = document.getElementById('next-btn');
@@ -430,6 +433,49 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.target === definitionModal) {
                 definitionModal.style.display = 'none';
             }
+        });
+    }
+
+    if (quickStartBtn) {
+        quickStartBtn.addEventListener('click', () => {
+            // Auto-select English Starter Vocab and start
+            const enCard = document.querySelector('.lang-selection-card[data-value="en"]');
+            if (enCard) enCard.click();
+            document.getElementById('cat-vocab').checked = true;
+            document.getElementById('practice-level').value = 'starter';
+            window.updateCategoryUI();
+            startPractice(false);
+        });
+    }
+
+    if (dailyChallengeBtn) {
+        dailyChallengeBtn.addEventListener('click', () => {
+            // Pick a random language and category for the day based on date
+            const langs = ['en', 'fr', 'it', 'ru', 'el'];
+            const cats = ['vocab', 'grammar', 'speaking'];
+            const day = new Date().getDate();
+            const lang = langs[day % langs.length];
+            const cat = cats[day % cats.length];
+
+            const langCard = document.querySelector(`.lang-selection-card[data-value="${lang}"]`);
+            if (langCard) langCard.click();
+            document.getElementById(`cat-${cat}`).checked = true;
+            window.updateCategoryUI();
+            startPractice(false);
+        });
+    }
+
+    if (reviewMistakesBtn) {
+        reviewMistakesBtn.addEventListener('click', () => {
+            const mistakes = Store.dueItems(currentPractice.language);
+            if (mistakes.length === 0) {
+                window.gameUtils.showGameMessage('setup-section', "No mistakes to review for this language! Good job! 🏆");
+                return;
+            }
+            // Filter startPractice to only use these items?
+            // Actually SM2.selectItems already prioritizes them.
+            // Just trigger startPractice with current settings.
+            startPractice(false);
         });
     }
 
