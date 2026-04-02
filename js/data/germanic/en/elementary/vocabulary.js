@@ -21,7 +21,8 @@
                     "Artists use colors and brushes."
                 ]
             }
-        ]
+        ],
+        "subtext": "painter, sculptor / talented artist"
     },
     {
         "word": "chef",
@@ -44,7 +45,8 @@
                     "Chefs wear a tall white hat."
                 ]
             }
-        ]
+        ],
+        "subtext": "cook / head chef"
     },
     {
         "word": "nurse",
@@ -67,7 +69,8 @@
                     "Nurses help doctors take care of people."
                 ]
             }
-        ]
+        ],
+        "subtext": "medical nurse / care for patients"
     },
     {
         "word": "burger",
@@ -90,7 +93,8 @@
                     "Burgers often have lettuce and tomato."
                 ]
             }
-        ]
+        ],
+        "subtext": "hamburger / fast food"
     },
     {
         "word": "taco",
@@ -113,7 +117,8 @@
                     "Tacos are usually small and handheld."
                 ]
             }
-        ]
+        ],
+        "subtext": "Mexican food / spicy taco"
     },
     {
         "word": "salad",
@@ -136,7 +141,8 @@
                     "Salads are often served with a dressing."
                 ]
             }
-        ]
+        ],
+        "subtext": "healthy salad / green salad"
     },
     {
         "word": "cheese",
@@ -159,7 +165,8 @@
                     "France is famous for its cheese."
                 ]
             }
-        ]
+        ],
+        "subtext": "cheddar, brie / piece of cheese"
     },
     {
         "word": "rice",
@@ -182,7 +189,8 @@
                     "Rice grows in water-filled fields."
                 ]
             }
-        ]
+        ],
+        "subtext": "white rice / eat rice"
     },
     {
         "word": "tomato",
@@ -205,7 +213,8 @@
                     "Cherry tomatoes are small and sweet."
                 ]
             }
-        ]
+        ],
+        "subtext": "red tomato / tomato sauce"
     },
     {
         "word": "potato",
@@ -228,7 +237,8 @@
                     "Potatoes grow under the ground."
                 ]
             }
-        ]
+        ],
+        "subtext": "mashed potato / baked potato"
     },
     {
         "word": "wine",
@@ -251,7 +261,8 @@
                     "The wine is made in a vineyard."
                 ]
             }
-        ]
+        ],
+        "subtext": "red wine / glass of wine"
     },
     {
         "word": "beer",
@@ -274,7 +285,8 @@
                     "Germany is famous for its beer."
                 ]
             }
-        ]
+        ],
+        "subtext": "cold beer / bottle of beer"
     },
     {
         "word": "soda",
@@ -297,7 +309,8 @@
                     "Soda is also called pop or soft drink."
                 ]
             }
-        ]
+        ],
+        "subtext": "fizzy drink / soft drink"
     },
     {
         "word": "hospital",
@@ -320,7 +333,8 @@
                     "Hospitals are open 24 hours a day."
                 ]
             }
-        ]
+        ],
+        "subtext": "medical center / go to hospital"
     },
     {
         "word": "cinema",
@@ -343,7 +357,8 @@
                     "I love going to the cinema with friends."
                 ]
             }
-        ]
+        ],
+        "subtext": "movie theater / go to the cinema"
     },
     {
         "word": "restaurant",
@@ -366,7 +381,8 @@
                     "We had dinner at a fancy restaurant."
                 ]
             }
-        ]
+        ],
+        "subtext": "dining place / eat at a restaurant"
     },
     {
         "word": "supermarket",
@@ -374,30 +390,16 @@
         "theme": "shopping_for_food_A2",
         "emoji": "🛒",
         "form": "noun",
-        "plural": "supermarkets"
-    },
-    {
-        "word": "supermarché",
-        "level": "elementary",
-        "theme": "shopping_for_food_A2",
-        "emoji": "🛒",
-        "form": "noun",
-        "plural": "supermarchés",
+        "plural": "supermarkets",
         "definitions": [
             {
-                "text": "Un grand magasin où l'on achète de la nourriture.",
+                "text": "A large shop that sells food and household goods.",
                 "examples": [
-                    "Je fais mes courses au supermarché.",
-                    "Le supermarché est ouvert jusqu'à 21h."
-                ]
-            },
-            {
-                "text": "On utilise un chariot pour faire ses achats.",
-                "examples": [
-                    "Il y a beaucoup de choix dans ce supermarché."
+                    "Example of supermarket here."
                 ]
             }
-        ]
+        ],
+        "subtext": "grocery store / go to the supermarket"
     },
     {
         "word": "dress",
@@ -405,7 +407,16 @@
         "theme": "shopping_for_clothes_A2",
         "emoji": "👗",
         "form": "noun",
-        "plural": "dresses"
+        "plural": "dresses",
+        "definitions": [
+            {
+                "text": "A piece of clothing for women that covers the body and legs.",
+                "examples": [
+                    "Example of dress here."
+                ]
+            }
+        ],
+        "subtext": "wear a dress / beautiful dress"
     },
     {
         "word": "jacket",
@@ -413,7 +424,16 @@
         "theme": "shopping_for_clothes_A2",
         "emoji": "🧥",
         "form": "noun",
-        "plural": "jackets"
+        "plural": "jackets",
+        "definitions": [
+            {
+                "text": "A short coat.",
+                "examples": [
+                    "Example of jacket here."
+                ]
+            }
+        ],
+        "subtext": "outerwear / wear a jacket"
     },
     {
         "word": "skirt",
@@ -421,7 +441,16 @@
         "theme": "shopping_for_clothes_A2",
         "emoji": "👗",
         "form": "noun",
-        "plural": "skirts"
+        "plural": "skirts",
+        "definitions": [
+            {
+                "text": "A piece of clothing for women that hangs from the waist.",
+                "examples": [
+                    "Example of skirt here."
+                ]
+            }
+        ],
+        "subtext": "short skirt / long skirt"
     },
     {
         "word": "sock",
@@ -429,7 +458,16 @@
         "theme": "shopping_for_clothes_A2",
         "emoji": "🧦",
         "form": "noun",
-        "plural": "socks"
+        "plural": "socks",
+        "definitions": [
+            {
+                "text": "A piece of clothing that you wear on your foot inside your shoe.",
+                "examples": [
+                    "Example of sock here."
+                ]
+            }
+        ],
+        "subtext": "pair of socks / wear socks"
     },
     {
         "word": "sofa",
@@ -437,7 +475,16 @@
         "theme": "home_furnishings_A2",
         "emoji": "🛋️",
         "form": "noun",
-        "plural": "sofas"
+        "plural": "sofas",
+        "definitions": [
+            {
+                "text": "A long comfortable seat for more than one person.",
+                "examples": [
+                    "Example of sofa here."
+                ]
+            }
+        ],
+        "subtext": "couch / sit on the sofa"
     },
     {
         "word": "lamp",
@@ -445,7 +492,16 @@
         "theme": "home_furnishings_A2",
         "emoji": "💡",
         "form": "noun",
-        "plural": "lamps"
+        "plural": "lamps",
+        "definitions": [
+            {
+                "text": "A device that produces light.",
+                "examples": [
+                    "Example of lamp here."
+                ]
+            }
+        ],
+        "subtext": "table lamp / turn on the lamp"
     },
     {
         "word": "desk",
@@ -453,7 +509,16 @@
         "theme": "home_furnishings_A2",
         "emoji": "⌨️",
         "form": "noun",
-        "plural": "desks"
+        "plural": "desks",
+        "definitions": [
+            {
+                "text": "A type of table that you sit at to write or work.",
+                "examples": [
+                    "Example of desk here."
+                ]
+            }
+        ],
+        "subtext": "office desk / at the desk"
     },
     {
         "word": "wallet",
@@ -461,7 +526,16 @@
         "theme": "accessories_A1",
         "emoji": "👛",
         "form": "noun",
-        "plural": "wallets"
+        "plural": "wallets",
+        "definitions": [
+            {
+                "text": "A small flat case for carrying money and cards.",
+                "examples": [
+                    "Example of wallet here."
+                ]
+            }
+        ],
+        "subtext": "money holder / leather wallet"
     },
     {
         "word": "glasses",
@@ -485,7 +559,8 @@
                     "The glasses are in the kitchen."
                 ]
             }
-        ]
+        ],
+        "subtext": "spectacles / wear glasses"
     },
     {
         "word": "lion",
@@ -502,7 +577,8 @@
                     "We saw a lion at the zoo."
                 ]
             }
-        ]
+        ],
+        "subtext": "king of the jungle / wild lion"
     },
     {
         "word": "tiger",
@@ -510,7 +586,16 @@
         "theme": "animals_nature_A2",
         "emoji": "🐯",
         "form": "noun",
-        "plural": "tigers"
+        "plural": "tigers",
+        "definitions": [
+            {
+                "text": "A large wild cat with orange fur and black stripes.",
+                "examples": [
+                    "Example of tiger here."
+                ]
+            }
+        ],
+        "subtext": "wild cat / striped tiger"
     },
     {
         "word": "horse",
@@ -518,7 +603,16 @@
         "theme": "animals_nature_A2",
         "emoji": "🐎",
         "form": "noun",
-        "plural": "horses"
+        "plural": "horses",
+        "definitions": [
+            {
+                "text": "A large animal that people ride.",
+                "examples": [
+                    "Example of horse here."
+                ]
+            }
+        ],
+        "subtext": "ride a horse / fast horse"
     },
     {
         "word": "rabbit",
@@ -526,23 +620,50 @@
         "theme": "animals_nature_A2",
         "emoji": "🐇",
         "form": "noun",
-        "plural": "rabbits"
+        "plural": "rabbits",
+        "definitions": [
+            {
+                "text": "A small animal with long ears and soft fur.",
+                "examples": [
+                    "Example of rabbit here."
+                ]
+            }
+        ],
+        "subtext": "bunny / pet rabbit"
     },
     {
         "word": "arm",
-        "level": "starter",
+        "level": "elementary",
         "theme": "body_parts_A1",
         "emoji": "💪",
         "form": "noun",
-        "plural": "arms"
+        "plural": "arms",
+        "definitions": [
+            {
+                "text": "The part of the body from the shoulder to the hand.",
+                "examples": [
+                    "Example of arm here."
+                ]
+            }
+        ],
+        "subtext": "upper limb / broken arm"
     },
     {
         "word": "finger",
-        "level": "starter",
+        "level": "elementary",
         "theme": "body_parts_A1",
         "emoji": "☝️",
         "form": "noun",
-        "plural": "fingers"
+        "plural": "fingers",
+        "definitions": [
+            {
+                "text": "One of the five long parts at the end of your hand.",
+                "examples": [
+                    "Example of finger here."
+                ]
+            }
+        ],
+        "subtext": "index finger / point a finger"
     },
     {
         "word": "journalist",
@@ -565,7 +686,8 @@
                     "Journalists often work on tight deadlines."
                 ]
             }
-        ]
+        ],
+        "subtext": "reporter / news journalist"
     },
     {
         "word": "streaming",
@@ -573,7 +695,16 @@
         "theme": "internet_social_media_A2",
         "emoji": "📺",
         "form": "noun",
-        "plural": "streamings"
+        "plural": "streamings",
+        "definitions": [
+            {
+                "text": "Watching or listening to content online without downloading.",
+                "examples": [
+                    "Example of streaming here."
+                ]
+            }
+        ],
+        "subtext": "live streaming / online video"
     },
     {
         "word": "gravity",
@@ -581,7 +712,16 @@
         "theme": "basic_science_A2",
         "emoji": "🍎",
         "form": "noun",
-        "plural": "gravities"
+        "plural": "gravities",
+        "definitions": [
+            {
+                "text": "The force that pulls objects toward the earth.",
+                "examples": [
+                    "Example of gravity here."
+                ]
+            }
+        ],
+        "subtext": "force of nature / laws of gravity"
     },
     {
         "word": "justice",
@@ -589,7 +729,16 @@
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
         "form": "noun",
-        "plural": "justices"
+        "plural": "justices",
+        "definitions": [
+            {
+                "text": "Fair treatment under the law.",
+                "examples": [
+                    "Example of justice here."
+                ]
+            }
+        ],
+        "subtext": "legal justice / court of justice"
     },
     {
         "word": "pollution",
@@ -604,7 +753,8 @@
                     "Air pollution is a big problem here."
                 ]
             }
-        ]
+        ],
+        "subtext": "environmental pollution / air pollution"
     },
     {
         "word": "university",
@@ -621,7 +771,8 @@
                     "The university has a large library."
                 ]
             }
-        ]
+        ],
+        "subtext": "higher education / go to university"
     },
     {
         "word": "local cuisine",
@@ -644,7 +795,8 @@
                     "The local cuisine uses fresh ingredients from the region."
                 ]
             }
-        ]
+        ],
+        "subtext": "regional food / local dishes"
     },
     {
         "word": "souvenir",
@@ -667,7 +819,8 @@
                     "The souvenir shop has many postcards."
                 ]
             }
-        ]
+        ],
+        "subtext": "gift / travel souvenir"
     },
     {
         "word": "city",
@@ -692,7 +845,8 @@
                     "Cities are often very noisy."
                 ]
             }
-        ]
+        ],
+        "subtext": "metropolis / big city"
     },
     {
         "word": "mouse",
@@ -702,7 +856,16 @@
         "answer": "many mice",
         "emoji": "🐭",
         "form": "noun",
-        "plural": "mice"
+        "plural": "mice",
+        "definitions": [
+            {
+                "text": "A small animal with a long tail; or a computer device.",
+                "examples": [
+                    "Example of mouse here."
+                ]
+            }
+        ],
+        "subtext": "tiny mouse / computer mouse"
     },
     {
         "word": "overtime",
@@ -717,7 +880,8 @@
                     "She works overtime to finish the project."
                 ]
             }
-        ]
+        ],
+        "subtext": "extra hours / work overtime"
     },
     {
         "word": "promotion",
@@ -733,7 +897,8 @@
                     "He got a promotion last month."
                 ]
             }
-        ]
+        ],
+        "subtext": "career advancement / get a promotion"
     },
     {
         "word": "interview",
@@ -749,7 +914,8 @@
                     "I have a job interview on Monday."
                 ]
             }
-        ]
+        ],
+        "subtext": "job interview / attend an interview"
     },
     {
         "word": "contract",
@@ -765,7 +931,8 @@
                     "She signed a two-year contract."
                 ]
             }
-        ]
+        ],
+        "subtext": "legal document / sign a contract"
     },
     {
         "word": "deadline",
@@ -781,7 +948,8 @@
                     "The deadline is on Friday."
                 ]
             }
-        ]
+        ],
+        "subtext": "due date / meet a deadline"
     },
     {
         "word": "experience",
@@ -796,7 +964,8 @@
                     "He has five years of experience."
                 ]
             }
-        ]
+        ],
+        "subtext": "work experience / past experience"
     },
     {
         "word": "mortgage",
@@ -812,7 +981,8 @@
                     "They have a large mortgage."
                 ]
             }
-        ]
+        ],
+        "subtext": "home loan / pay the mortgage"
     },
     {
         "word": "loan",
@@ -828,7 +998,8 @@
                     "She took a loan to buy a car."
                 ]
             }
-        ]
+        ],
+        "subtext": "bank loan / take a loan"
     },
     {
         "word": "bill",
@@ -844,7 +1015,8 @@
                     "I pay my electricity bill every month."
                 ]
             }
-        ]
+        ],
+        "subtext": "invoice / electricity bill"
     },
     {
         "word": "debt",
@@ -860,7 +1032,8 @@
                     "He has a lot of debt."
                 ]
             }
-        ]
+        ],
+        "subtext": "owe money / in debt"
     },
     {
         "word": "account",
@@ -876,7 +1049,8 @@
                     "I have a savings account."
                 ]
             }
-        ]
+        ],
+        "subtext": "bank account / open an account"
     },
     {
         "word": "budget",
@@ -892,7 +1066,8 @@
                     "We need a monthly budget."
                 ]
             }
-        ]
+        ],
+        "subtext": "financial plan / monthly budget"
     },
     {
         "word": "diet",
@@ -908,7 +1083,8 @@
                     "She is on a healthy diet."
                 ]
             }
-        ]
+        ],
+        "subtext": "healthy diet / on a diet"
     },
     {
         "word": "appointment",
@@ -924,7 +1100,8 @@
                     "I have a doctor's appointment on Tuesday."
                 ]
             }
-        ]
+        ],
+        "subtext": "meeting / doctor's appointment"
     },
     {
         "word": "vitamin",
@@ -940,7 +1117,8 @@
                     "Oranges contain vitamin C."
                 ]
             }
-        ]
+        ],
+        "subtext": "health supplement / take vitamins"
     },
     {
         "word": "pain",
@@ -956,7 +1134,8 @@
                     "She has pain in her back."
                 ]
             }
-        ]
+        ],
+        "subtext": "physical pain / back pain"
     },
     {
         "word": "support",
@@ -971,7 +1150,8 @@
                     "I need your support."
                 ]
             }
-        ]
+        ],
+        "subtext": "assistance / offer support"
     },
     {
         "word": "trust",
@@ -986,7 +1166,8 @@
                     "Trust is important in a relationship."
                 ]
             }
-        ]
+        ],
+        "subtext": "confidence / mutual trust"
     },
     {
         "word": "compromise",
@@ -1002,7 +1183,8 @@
                     "Good relationships need compromise."
                 ]
             }
-        ]
+        ],
+        "subtext": "middle ground / reach a compromise"
     },
     {
         "word": "journey",
@@ -1018,7 +1200,8 @@
                     "The journey to work takes 40 minutes."
                 ]
             }
-        ]
+        ],
+        "subtext": "travel / long journey"
     },
     {
         "word": "abroad",
@@ -1033,7 +1216,8 @@
                     "They go abroad every summer."
                 ]
             }
-        ]
+        ],
+        "subtext": "overseas / travel abroad"
     },
     {
         "word": "destination",
@@ -1049,7 +1233,8 @@
                     "Paris is a popular destination."
                 ]
             }
-        ]
+        ],
+        "subtext": "final destination / reach your destination"
     },
     {
         "word": "flight",
@@ -1065,7 +1250,8 @@
                     "The flight to London is two hours."
                 ]
             }
-        ]
+        ],
+        "subtext": "airplane trip / book a flight"
     },
     {
         "word": "luggage",
@@ -1080,7 +1266,8 @@
                     "She has a lot of luggage."
                 ]
             }
-        ]
+        ],
+        "subtext": "baggage / carry luggage"
     },
     {
         "word": "neighbourhood",
@@ -1096,7 +1283,8 @@
                     "We live in a safe neighbourhood."
                 ]
             }
-        ]
+        ],
+        "subtext": "local area / friendly neighbourhood"
     },
     {
         "word": "community",
@@ -1112,7 +1300,382 @@
                     "She is active in her local community."
                 ]
             }
-        ]
+        ],
+        "subtext": "local community / share interests"
+    },
+    {
+        "word": "architect",
+        "level": "elementary",
+        "theme": "art_design_A2",
+        "emoji": "🏗️",
+        "form": "noun",
+        "plural": "architects",
+        "definitions": [
+            {
+                "text": "A person who designs buildings and advises on their construction.",
+                "examples": [
+                    "Example of architect here."
+                ]
+            }
+        ],
+        "subtext": "building designer / professional architect"
+    },
+    {
+        "word": "dentist",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "dentists",
+        "definitions": [
+            {
+                "text": "A person who is qualified to treat the diseases and conditions that affect the teeth and gums.",
+                "examples": [
+                    "Example of dentist here."
+                ]
+            }
+        ],
+        "subtext": "dental professional / visit the dentist"
+    },
+    {
+        "word": "engineer",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⚙️",
+        "form": "noun",
+        "plural": "engineers",
+        "definitions": [
+            {
+                "text": "A person who designs, builds, or maintains engines, machines, or public works.",
+                "examples": [
+                    "Example of engineer here."
+                ]
+            }
+        ],
+        "subtext": "technical professional / mechanical engineer"
+    },
+    {
+        "word": "lawyer",
+        "level": "elementary",
+        "theme": "right_wrong_basic_A2",
+        "emoji": "⚖️",
+        "form": "noun",
+        "plural": "lawyers",
+        "definitions": [
+            {
+                "text": "A person who practices or studies law; an attorney or a counselor.",
+                "examples": [
+                    "Example of lawyer here."
+                ]
+            }
+        ],
+        "subtext": "legal professional / consult a lawyer"
+    },
+    {
+        "word": "receptionist",
+        "level": "elementary",
+        "theme": "job_titles_professions_A1",
+        "emoji": "☎️",
+        "form": "noun",
+        "plural": "receptionists",
+        "definitions": [
+            {
+                "text": "A person who greets visitors and answers the telephone in an office.",
+                "examples": [
+                    "Example of receptionist here."
+                ]
+            }
+        ],
+        "subtext": "front desk / friendly receptionist"
+    },
+    {
+        "word": "mechanic",
+        "level": "elementary",
+        "theme": "home_repairs_maintenance_A2",
+        "emoji": "🔧",
+        "form": "noun",
+        "plural": "mechanics",
+        "definitions": [
+            {
+                "text": "A person who repairs and maintains machinery, especially motors.",
+                "examples": [
+                    "Example of mechanic here."
+                ]
+            }
+        ],
+        "subtext": "car mechanic / skilled mechanic"
+    },
+    {
+        "word": "pharmacy",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "💊",
+        "form": "noun",
+        "plural": "pharmacys",
+        "definitions": [
+            {
+                "text": "A shop where medicinal drugs are dispensed and sold.",
+                "examples": [
+                    "Example of pharmacy here."
+                ]
+            }
+        ],
+        "subtext": "drugstore / go to the pharmacy"
+    },
+    {
+        "word": "stadium",
+        "level": "elementary",
+        "theme": "theatre_performance_A2",
+        "emoji": "🏟️",
+        "form": "noun",
+        "plural": "stadiums",
+        "definitions": [
+            {
+                "text": "A large closed area used for sports and other public events.",
+                "examples": [
+                    "Example of stadium here."
+                ]
+            }
+        ],
+        "subtext": "sports arena / football stadium"
+    },
+    {
+        "word": "balcony",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "balconys",
+        "definitions": [
+            {
+                "text": "A platform on the outside of a building, with a wall or rail around it.",
+                "examples": [
+                    "Example of balcony here."
+                ]
+            }
+        ],
+        "subtext": "outdoor space / sit on the balcony"
+    },
+    {
+        "word": "garage",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "garages",
+        "definitions": [
+            {
+                "text": "A building or indoor area where a car is kept.",
+                "examples": [
+                    "Example of garage here."
+                ]
+            }
+        ],
+        "subtext": "parking space / car garage"
+    },
+    {
+        "word": "ceiling",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "ceilings",
+        "definitions": [
+            {
+                "text": "The upper interior surface of a room.",
+                "examples": [
+                    "Example of ceiling here."
+                ]
+            }
+        ],
+        "subtext": "roof interior / high ceiling"
+    },
+    {
+        "word": "curtain",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "curtains",
+        "definitions": [
+            {
+                "text": "A piece of material suspended as a screen at a window.",
+                "examples": [
+                    "Example of curtain here."
+                ]
+            }
+        ],
+        "subtext": "drapes / close the curtains"
+    },
+    {
+        "word": "dishwasher",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🧼",
+        "form": "noun",
+        "plural": "dishwashers",
+        "definitions": [
+            {
+                "text": "A machine for cleaning dishes automatically.",
+                "examples": [
+                    "Example of dishwasher here."
+                ]
+            }
+        ],
+        "subtext": "kitchen appliance / load the dishwasher"
+    },
+    {
+        "word": "microwave",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🔥",
+        "form": "noun",
+        "plural": "microwaves",
+        "definitions": [
+            {
+                "text": "An electric oven that cooks or heats food very quickly.",
+                "examples": [
+                    "Example of microwave here."
+                ]
+            }
+        ],
+        "subtext": "kitchen equipment / heat in the microwave"
+    },
+    {
+        "word": "refrigerator",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🧊",
+        "form": "noun",
+        "plural": "refrigerators",
+        "definitions": [
+            {
+                "text": "A large electric cupboard that keeps food cold.",
+                "examples": [
+                    "Example of refrigerator here."
+                ]
+            }
+        ],
+        "subtext": "fridge / cold storage"
+    },
+    {
+        "word": "vacuum cleaner",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🧹",
+        "form": "noun",
+        "plural": "vacuum cleaners",
+        "definitions": [
+            {
+                "text": "An electrical machine for cleaning floors by sucking up dirt.",
+                "examples": [
+                    "Example of vacuum cleaner here."
+                ]
+            }
+        ],
+        "subtext": "hoover / use the vacuum cleaner"
+    },
+    {
+        "word": "earthquake",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🌋",
+        "form": "noun",
+        "plural": "earthquakes",
+        "definitions": [
+            {
+                "text": "A sudden violent shaking of the ground, causing great destruction.",
+                "examples": [
+                    "Example of earthquake here."
+                ]
+            }
+        ],
+        "subtext": "natural disaster / seismic activity"
+    },
+    {
+        "word": "flood",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🌊",
+        "form": "noun",
+        "plural": "floods",
+        "definitions": [
+            {
+                "text": "An overflow of a large amount of water beyond its normal limits.",
+                "examples": [
+                    "Example of flood here."
+                ]
+            }
+        ],
+        "subtext": "natural disaster / heavy rain"
+    },
+    {
+        "word": "climate",
+        "level": "elementary",
+        "theme": "weather_climate_A2",
+        "emoji": "🌍",
+        "form": "noun",
+        "plural": "climates",
+        "definitions": [
+            {
+                "text": "The general weather conditions in a particular area.",
+                "examples": [
+                    "Example of climate here."
+                ]
+            }
+        ],
+        "subtext": "weather patterns / climate change"
+    },
+    {
+        "word": "environment",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🌳",
+        "form": "noun",
+        "plural": "environments",
+        "definitions": [
+            {
+                "text": "The surroundings or conditions in which a person, animal, or plant lives.",
+                "examples": [
+                    "Example of environment here."
+                ]
+            }
+        ],
+        "subtext": "nature / protect the environment"
+    },
+    {
+        "word": "conservation",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🐼",
+        "form": "noun",
+        "plural": "conservations",
+        "definitions": [
+            {
+                "text": "The protection of plants, animals, and natural areas.",
+                "examples": [
+                    "Example of conservation here."
+                ]
+            }
+        ],
+        "subtext": "nature protection / wildlife conservation"
+    },
+    {
+        "word": "sustainability",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "♻️",
+        "form": "noun",
+        "plural": "sustainabilitys",
+        "definitions": [
+            {
+                "text": "The quality of being able to continue over a long period.",
+                "examples": [
+                    "Example of sustainability here."
+                ]
+            }
+        ],
+        "subtext": "eco-friendly / environmental sustainability"
     }
 ];
     const lang = "en";
