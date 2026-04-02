@@ -28,6 +28,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "soda",
         "level": "starter",
@@ -47,6 +49,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "scarf",
         "level": "starter",
@@ -66,6 +70,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "cereal",
         "level": "starter",
@@ -85,6 +91,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "gloves",
         "level": "starter",
@@ -104,6 +112,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "sunglasses",
         "level": "starter",
@@ -123,6 +133,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "suit",
         "level": "starter",
@@ -142,6 +154,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "person",
         "level": "starter",
@@ -163,44 +177,8 @@
         "subtext": "related to people",
         "opposite": null
     },
-    {
-        "word": "bill",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💵",
-        "form": "noun",
-        "plural": "bills",
-        "subtext": "pay a bill",
-        "definitions": [
-            {
-                "text": "A piece of paper that shows how much money you must pay for something.",
-                "examples": [
-                    "I need to pay the phone bill."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-    {
-        "word": "receipt",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "🧾",
-        "form": "noun",
-        "plural": "receipts",
-        "subtext": "keep a receipt",
-        "definitions": [
-            {
-                "text": "A piece of paper that shows you have paid for something.",
-                "examples": [
-                    "Can I have a receipt, please?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
+
+
     {
         "word": "cash",
         "level": "starter",
@@ -220,6 +198,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "card",
         "level": "starter",
@@ -239,6 +219,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "report",
         "level": "starter",
@@ -258,6 +240,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "market",
         "level": "starter",
@@ -277,6 +261,8 @@
         "subtext": "related to local places services",
         "opposite": null
     },
+
+
     {
         "word": "next to",
         "level": "starter",
@@ -294,6 +280,8 @@
         "opposite": "far from",
         "emoji": "👫"
     },
+
+
     {
         "word": "between",
         "level": "starter",
@@ -311,6 +299,8 @@
         "opposite": "outside",
         "emoji": "🧘"
     },
+
+
     {
         "word": "behind",
         "level": "starter",
@@ -328,6 +318,8 @@
         "subtext": "related to prepositions place",
         "emoji": "🫣"
     },
+
+
     {
         "word": "in front of",
         "level": "starter",
@@ -345,6 +337,8 @@
         "subtext": "related to prepositions place",
         "emoji": "🚶"
     },
+
+
     {
         "word": "jacket",
         "level": "starter",
@@ -364,6 +358,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "shirt",
         "level": "starter",
@@ -383,6 +379,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "foot",
         "level": "starter",
@@ -405,6 +403,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "face",
         "level": "starter",
@@ -424,6 +424,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "hair",
         "level": "starter",
@@ -443,6 +445,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "tooth",
         "level": "starter",
@@ -464,6 +468,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "teacher",
         "level": "starter",
@@ -491,6 +497,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "pizza",
         "level": "starter",
@@ -519,6 +527,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "pasta",
         "level": "starter",
@@ -545,6 +555,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "apple",
         "level": "starter",
@@ -567,6 +579,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "bread",
         "level": "starter",
@@ -588,6 +602,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "egg",
         "level": "starter",
@@ -614,6 +630,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "milk",
         "level": "starter",
@@ -640,6 +658,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "banana",
         "level": "starter",
@@ -666,6 +686,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "coffee",
         "level": "starter",
@@ -693,6 +715,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "tea",
         "level": "starter",
@@ -720,6 +744,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "juice",
         "level": "starter",
@@ -746,6 +772,8 @@
         "subtext": "related to drinks",
         "opposite": null
     },
+
+
     {
         "word": "water",
         "level": "starter",
@@ -767,6 +795,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "park",
         "level": "starter",
@@ -793,6 +823,8 @@
         "subtext": "related to local places services",
         "opposite": null
     },
+
+
     {
         "word": "school",
         "level": "starter",
@@ -813,6 +845,8 @@
         "subtext": "related to local places services",
         "opposite": null
     },
+
+
     {
         "word": "t-shirt",
         "level": "starter",
@@ -832,6 +866,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "pants",
         "level": "starter",
@@ -851,6 +887,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "shoe",
         "level": "starter",
@@ -870,6 +908,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "hat",
         "level": "starter",
@@ -889,6 +929,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "chair",
         "level": "starter",
@@ -909,6 +951,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "table",
         "level": "starter",
@@ -929,6 +973,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "bed",
         "level": "starter",
@@ -949,6 +995,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "key",
         "level": "starter",
@@ -976,6 +1024,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "phone",
         "level": "starter",
@@ -995,6 +1045,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "book",
         "level": "starter",
@@ -1017,6 +1069,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "bag",
         "level": "starter",
@@ -1037,6 +1091,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "pen",
         "level": "starter",
@@ -1057,6 +1113,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "cat",
         "level": "starter",
@@ -1079,6 +1137,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "dog",
         "level": "starter",
@@ -1101,6 +1161,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "bird",
         "level": "starter",
@@ -1121,6 +1183,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "fish",
         "level": "starter",
@@ -1141,6 +1205,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "head",
         "level": "starter",
@@ -1161,6 +1227,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "hand",
         "level": "starter",
@@ -1181,6 +1249,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "leg",
         "level": "starter",
@@ -1200,6 +1270,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "eye",
         "level": "starter",
@@ -1220,6 +1292,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "nose",
         "level": "starter",
@@ -1239,6 +1313,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "mouth",
         "level": "starter",
@@ -1258,6 +1334,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "ear",
         "level": "starter",
@@ -1277,6 +1355,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "smartphone",
         "level": "starter",
@@ -1296,6 +1376,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "mother",
         "level": "starter",
@@ -1316,6 +1398,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "father",
         "level": "starter",
@@ -1336,6 +1420,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "man",
         "level": "starter",
@@ -1359,6 +1445,8 @@
         "subtext": "related to physical appearance",
         "opposite": null
     },
+
+
     {
         "word": "woman",
         "level": "starter",
@@ -1382,6 +1470,8 @@
         "subtext": "related to physical appearance",
         "opposite": null
     },
+
+
     {
         "word": "work",
         "level": "starter",
@@ -1400,6 +1490,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "job",
         "level": "starter",
@@ -1419,6 +1511,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "office",
         "level": "starter",
@@ -1438,6 +1532,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "home",
         "level": "starter",
@@ -1456,6 +1552,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "house",
         "level": "starter",
@@ -1475,6 +1573,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "flat",
         "level": "starter",
@@ -1494,6 +1594,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "car",
         "level": "starter",
@@ -1513,6 +1615,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "bus",
         "level": "starter",
@@ -1532,6 +1636,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "train",
         "level": "starter",
@@ -1551,6 +1657,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "food",
         "level": "starter",
@@ -1569,6 +1677,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "rice",
         "level": "starter",
@@ -1588,6 +1698,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "meat",
         "level": "starter",
@@ -1607,6 +1719,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "breakfast",
         "level": "starter",
@@ -1625,6 +1739,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "dinner",
         "level": "starter",
@@ -1643,6 +1759,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "money",
         "level": "starter",
@@ -1662,6 +1780,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "shop",
         "level": "starter",
@@ -1681,6 +1801,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "family",
         "level": "starter",
@@ -1700,6 +1822,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "friend",
         "level": "starter",
@@ -1719,6 +1843,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "partner",
         "level": "starter",
@@ -1738,6 +1864,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "morning",
         "level": "starter",
@@ -1756,6 +1884,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "evening",
         "level": "starter",
@@ -1774,6 +1904,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "day",
         "level": "starter",
@@ -1793,6 +1925,8 @@
         "countability": "countable",
         "subtext": "related to times day"
     },
+
+
     {
         "word": "week",
         "level": "starter",
@@ -1812,6 +1946,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "every day",
         "level": "starter",
@@ -1829,6 +1965,8 @@
         "subtext": "related to times day",
         "opposite": null
     },
+
+
     {
         "word": "lunch",
         "level": "starter",
@@ -1848,6 +1986,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "boss",
         "level": "starter",
@@ -1867,6 +2007,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "colleague",
         "level": "starter",
@@ -1886,26 +2028,8 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-    {
-        "word": "salary",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💸",
-        "form": "noun",
-        "plural": "salaries",
-        "subtext": "pay, income",
-        "definitions": [
-            {
-                "text": "The money a person earns from their job each month.",
-                "examples": [
-                    "Her salary is good.",
-                    "The job has a high salary."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
+
+
     {
         "word": "meeting",
         "level": "starter",
@@ -1926,6 +2050,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "commute",
         "level": "starter",
@@ -1945,6 +2071,8 @@
         "subtext": "related to public transport",
         "opposite": null
     },
+
+
     {
         "word": "stress",
         "level": "starter",
@@ -1963,6 +2091,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "rent",
         "level": "starter",
@@ -1981,6 +2111,8 @@
         "subtext": "related to types of accommodation",
         "opposite": null
     },
+
+
     {
         "word": "neighbour",
         "level": "starter",
@@ -2000,6 +2132,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "room",
         "level": "starter",
@@ -2019,6 +2153,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "kitchen",
         "level": "starter",
@@ -2038,6 +2174,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "sleep",
         "level": "starter",
@@ -2056,6 +2194,8 @@
         "subtext": "related to daily work routines",
         "opposite": "wake up"
     },
+
+
     {
         "word": "exercise",
         "level": "starter",
@@ -2074,6 +2214,8 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
+
+
     {
         "word": "price",
         "level": "starter",
@@ -2093,6 +2235,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "cost",
         "level": "starter",
@@ -2112,25 +2256,8 @@
         "subtext": "related to money payment",
         "opposite": null
     },
-    {
-        "word": "relationship",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "👫",
-        "form": "noun",
-        "plural": "relationships",
-        "definitions": [
-            {
-                "text": "A connection between two people.",
-                "examples": [
-                    "They have a good relationship."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to family life",
-        "opposite": null
-    },
+
+
     {
         "word": "together",
         "level": "starter",
@@ -2149,6 +2276,8 @@
         ],
         "subtext": "related to family life"
     },
+
+
     {
         "word": "holiday",
         "level": "starter",
@@ -2168,6 +2297,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "hotel",
         "level": "starter",
@@ -2187,6 +2318,8 @@
         "subtext": "related to public transport",
         "opposite": null
     },
+
+
     {
         "word": "weekend",
         "level": "starter",
@@ -2206,6 +2339,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "free time",
         "level": "starter",
@@ -2224,6 +2359,8 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
+
+
     {
         "word": "travel",
         "level": "starter",
@@ -2242,6 +2379,8 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
+
+
     {
         "word": "back",
         "level": "starter",
@@ -2261,6 +2400,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "arm",
         "level": "starter",
@@ -2280,6 +2421,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "fruit",
         "level": "starter",
@@ -2299,6 +2442,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "vegetable",
         "level": "starter",
@@ -2318,6 +2463,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "beer",
         "level": "starter",
@@ -2337,6 +2484,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "wine",
         "level": "starter",
@@ -2356,6 +2505,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "door",
         "level": "starter",
@@ -2375,6 +2526,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "window",
         "level": "starter",
@@ -2394,25 +2547,8 @@
         "countability": "countable",
         "opposite": null
     },
-    {
-        "word": "nurse",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🧑‍⚕️",
-        "form": "noun",
-        "plural": "nurses",
-        "subtext": "hospital nurse, school nurse",
-        "definitions": [
-            {
-                "text": "A person trained to care for sick or injured people.",
-                "examples": [
-                    "The nurse checks your blood pressure."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
+
+
     {
         "word": "driver",
         "level": "starter",
@@ -2432,25 +2568,8 @@
         "countability": "countable",
         "opposite": null
     },
-    {
-        "word": "chef",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "👨‍🍳",
-        "form": "noun",
-        "plural": "chefs",
-        "subtext": "restaurant chef, head chef",
-        "definitions": [
-            {
-                "text": "A professional cook, especially the head cook in a restaurant.",
-                "examples": [
-                    "The chef makes excellent food."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
+
+
     {
         "word": "manager",
         "level": "starter",
@@ -2470,6 +2589,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "plane",
         "level": "starter",
@@ -2489,6 +2610,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "bike",
         "level": "starter",
@@ -2508,6 +2631,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "hospital",
         "level": "starter",
@@ -2527,6 +2652,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "restaurant",
         "level": "starter",
@@ -2546,6 +2673,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "bank",
         "level": "starter",
@@ -2565,6 +2694,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "station",
         "level": "starter",
@@ -2584,6 +2715,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "supermarket",
         "level": "starter",
@@ -2603,6 +2736,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "sun",
         "level": "starter",
@@ -2622,6 +2757,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "rain",
         "level": "starter",
@@ -2641,6 +2778,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "wind",
         "level": "starter",
@@ -2660,6 +2799,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "afternoon",
         "level": "starter",
@@ -2678,6 +2819,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "night",
         "level": "starter",
@@ -2697,6 +2840,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "today",
         "level": "starter",
@@ -2714,6 +2859,8 @@
             }
         ]
     },
+
+
     {
         "word": "tomorrow",
         "level": "starter",
@@ -2731,6 +2878,8 @@
             }
         ]
     },
+
+
     {
         "word": "husband",
         "level": "starter",
@@ -2751,6 +2900,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "wife",
         "level": "starter",
@@ -2771,6 +2922,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "child",
         "level": "starter",
@@ -2790,6 +2943,8 @@
         "countability": "countable",
         "opposite": "adult"
     },
+
+
     {
         "word": "parent",
         "level": "starter",
@@ -2809,6 +2964,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "sister",
         "level": "starter",
@@ -2830,6 +2987,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "brother",
         "level": "starter",
@@ -2851,6 +3010,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "son",
         "level": "starter",
@@ -2871,6 +3032,8 @@
         "countability": "countable",
         "subtext": "related to immediate family"
     },
+
+
     {
         "word": "daughter",
         "level": "starter",
@@ -2891,6 +3054,8 @@
         "countability": "countable",
         "subtext": "related to immediate family"
     },
+
+
     {
         "word": "grandfather",
         "level": "starter",
@@ -2911,6 +3076,8 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
+
+
     {
         "word": "grandmother",
         "level": "starter",
@@ -2931,6 +3098,8 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
+
+
     {
         "word": "uncle",
         "level": "starter",
@@ -2951,6 +3120,8 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
+
+
     {
         "word": "aunt",
         "level": "starter",
@@ -2971,6 +3142,8 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
+
+
     {
         "word": "cousin",
         "level": "starter",
@@ -2990,6 +3163,8 @@
         "subtext": "related to extended family",
         "opposite": null
     },
+
+
     {
         "word": "tree",
         "level": "starter",
@@ -3010,6 +3185,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "flower",
         "level": "starter",
@@ -3030,6 +3207,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "mountain",
         "level": "starter",
@@ -3050,6 +3229,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "river",
         "level": "starter",
@@ -3070,6 +3251,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "sea",
         "level": "starter",
@@ -3090,6 +3273,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "beach",
         "level": "starter",
@@ -3110,6 +3295,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "sky",
         "level": "starter",
@@ -3130,6 +3317,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "moon",
         "level": "starter",
@@ -3149,6 +3338,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "plate",
         "level": "starter",
@@ -3168,6 +3359,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "cup",
         "level": "starter",
@@ -3187,6 +3380,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "glass",
         "level": "starter",
@@ -3206,6 +3401,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "fork",
         "level": "starter",
@@ -3225,6 +3422,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "spoon",
         "level": "starter",
@@ -3244,6 +3443,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "knife",
         "level": "starter",
@@ -3263,6 +3464,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "laptop",
         "level": "starter",
@@ -3282,6 +3485,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "television",
         "level": "starter",
@@ -3301,6 +3506,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "cinema",
         "level": "starter",
@@ -3320,6 +3527,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "museum",
         "level": "starter",
@@ -3339,6 +3548,8 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
+
+
     {
         "word": "airport",
         "level": "starter",
@@ -3358,25 +3569,8 @@
         "subtext": "related to public transport",
         "opposite": null
     },
-    {
-        "word": "pharmacy",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "💊",
-        "form": "noun",
-        "plural": "pharmacies",
-        "definitions": [
-            {
-                "text": "A shop where you can buy medicine.",
-                "examples": [
-                    "I need to go to the pharmacy for some aspirin."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to local places services",
-        "opposite": null
-    },
+
+
     {
         "word": "chicken",
         "level": "starter",
@@ -3396,6 +3590,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "sugar",
         "level": "starter",
@@ -3415,6 +3611,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "salad",
         "level": "starter",
@@ -3434,6 +3632,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "coat",
         "level": "starter",
@@ -3453,6 +3653,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "socks",
         "level": "starter",
@@ -3472,6 +3674,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "neck",
         "level": "starter",
@@ -3491,6 +3695,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "shoulder",
         "level": "starter",
@@ -3510,6 +3716,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "in",
         "level": "starter",
@@ -3527,6 +3735,8 @@
         "opposite": "out",
         "emoji": "📥"
     },
+
+
     {
         "word": "on",
         "level": "starter",
@@ -3544,6 +3754,8 @@
         "opposite": "off",
         "emoji": "🔛"
     },
+
+
     {
         "word": "at",
         "level": "starter",
@@ -3561,6 +3773,8 @@
         "opposite": "away from",
         "emoji": "📍"
     },
+
+
     {
         "word": "under",
         "level": "starter",
@@ -3578,6 +3792,8 @@
         "subtext": "related to prepositions place",
         "emoji": "👇"
     },
+
+
     {
         "word": "and",
         "level": "starter",
@@ -3595,6 +3811,8 @@
         "opposite": "or",
         "emoji": "➕"
     },
+
+
     {
         "word": "but",
         "level": "starter",
@@ -3612,6 +3830,8 @@
         "opposite": "and",
         "emoji": "❓"
     },
+
+
     {
         "word": "because",
         "level": "starter",
@@ -3629,6 +3849,8 @@
         "opposite": "so",
         "emoji": "💡"
     },
+
+
     {
         "word": "time",
         "level": "starter",
@@ -3648,6 +3870,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "problem",
         "level": "starter",
@@ -3668,6 +3892,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "beef",
         "level": "starter",
@@ -3687,6 +3913,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "pork",
         "level": "starter",
@@ -3706,6 +3934,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "potato",
         "level": "starter",
@@ -3725,6 +3955,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "tomato",
         "level": "starter",
@@ -3744,6 +3976,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "onion",
         "level": "starter",
@@ -3764,6 +3998,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "carrot",
         "level": "starter",
@@ -3783,6 +4019,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "soup",
         "level": "starter",
@@ -3802,6 +4040,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "cake",
         "level": "starter",
@@ -3821,6 +4061,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "chocolate",
         "level": "starter",
@@ -3840,6 +4082,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "ice cream",
         "level": "starter",
@@ -3859,6 +4103,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "sweater",
         "level": "starter",
@@ -3878,6 +4124,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "dress",
         "level": "starter",
@@ -3897,6 +4145,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "skirt",
         "level": "starter",
@@ -3916,6 +4166,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "boots",
         "level": "starter",
@@ -3935,6 +4187,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "finger",
         "level": "starter",
@@ -3954,6 +4208,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "toe",
         "level": "starter",
@@ -3973,6 +4229,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "stomach",
         "level": "starter",
@@ -3992,6 +4250,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "knee",
         "level": "starter",
@@ -4011,6 +4271,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "grass",
         "level": "starter",
@@ -4030,6 +4292,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "lake",
         "level": "starter",
@@ -4049,6 +4313,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "cloud",
         "level": "starter",
@@ -4068,6 +4334,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "star",
         "level": "starter",
@@ -4087,6 +4355,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "desk",
         "level": "starter",
@@ -4106,6 +4376,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "lamp",
         "level": "starter",
@@ -4125,6 +4397,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "clock",
         "level": "starter",
@@ -4144,6 +4418,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "mirror",
         "level": "starter",
@@ -4163,6 +4439,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "library",
         "level": "starter",
@@ -4182,6 +4460,8 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
+
+
     {
         "word": "Monday",
         "level": "starter",
@@ -4200,6 +4480,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "Tuesday",
         "level": "starter",
@@ -4218,6 +4500,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "Wednesday",
         "level": "starter",
@@ -4236,6 +4520,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "Thursday",
         "level": "starter",
@@ -4254,6 +4540,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "Friday",
         "level": "starter",
@@ -4272,6 +4560,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "Saturday",
         "level": "starter",
@@ -4290,6 +4580,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "Sunday",
         "level": "starter",
@@ -4308,6 +4600,8 @@
         "subtext": "related to days week",
         "opposite": null
     },
+
+
     {
         "word": "January",
         "level": "starter",
@@ -4326,6 +4620,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "February",
         "level": "starter",
@@ -4344,6 +4640,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "March",
         "level": "starter",
@@ -4362,6 +4660,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "April",
         "level": "starter",
@@ -4380,6 +4680,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "May",
         "level": "starter",
@@ -4398,6 +4700,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "June",
         "level": "starter",
@@ -4416,6 +4720,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "July",
         "level": "starter",
@@ -4434,6 +4740,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "August",
         "level": "starter",
@@ -4452,6 +4760,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "September",
         "level": "starter",
@@ -4470,6 +4780,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "October",
         "level": "starter",
@@ -4488,6 +4800,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "November",
         "level": "starter",
@@ -4506,6 +4820,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "December",
         "level": "starter",
@@ -4524,6 +4840,8 @@
         "subtext": "related to months year",
         "opposite": null
     },
+
+
     {
         "word": "spring",
         "level": "starter",
@@ -4542,6 +4860,8 @@
         "subtext": "related to seasons climate",
         "opposite": null
     },
+
+
     {
         "word": "summer",
         "level": "starter",
@@ -4560,6 +4880,8 @@
         "subtext": "related to seasons climate",
         "opposite": null
     },
+
+
     {
         "word": "autumn",
         "level": "starter",
@@ -4578,6 +4900,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "winter",
         "level": "starter",
@@ -4596,6 +4920,8 @@
         "subtext": "related to seasons climate",
         "opposite": null
     },
+
+
     {
         "word": "lion",
         "level": "starter",
@@ -4615,6 +4941,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "elephant",
         "level": "starter",
@@ -4634,6 +4962,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "rabbit",
         "level": "starter",
@@ -4653,6 +4983,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "horse",
         "level": "starter",
@@ -4672,6 +5004,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "cow",
         "level": "starter",
@@ -4691,6 +5025,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "pig",
         "level": "starter",
@@ -4710,6 +5046,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "sheep",
         "level": "starter",
@@ -4729,6 +5067,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "lemon",
         "level": "starter",
@@ -4748,6 +5088,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "orange",
         "level": "starter",
@@ -4767,6 +5109,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "strawberry",
         "level": "starter",
@@ -4786,6 +5130,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "grape",
         "level": "starter",
@@ -4805,6 +5151,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "garlic",
         "level": "starter",
@@ -4824,6 +5172,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "always",
         "level": "starter",
@@ -4841,6 +5191,8 @@
         "subtext": "related to frequency adverbs",
         "opposite": "never"
     },
+
+
     {
         "word": "usually",
         "level": "starter",
@@ -4858,6 +5210,8 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
+
+
     {
         "word": "often",
         "level": "starter",
@@ -4875,6 +5229,8 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
+
+
     {
         "word": "sometimes",
         "level": "starter",
@@ -4892,6 +5248,8 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
+
+
     {
         "word": "never",
         "level": "starter",
@@ -4909,6 +5267,8 @@
         "subtext": "related to frequency adverbs",
         "opposite": "always"
     },
+
+
     {
         "word": "who",
         "level": "starter",
@@ -4926,6 +5286,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "what",
         "level": "starter",
@@ -4943,6 +5305,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "where",
         "level": "starter",
@@ -4960,6 +5324,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "when",
         "level": "starter",
@@ -4977,6 +5343,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "why",
         "level": "starter",
@@ -4994,6 +5362,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "how",
         "level": "starter",
@@ -5012,6 +5382,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "hello",
         "level": "starter",
@@ -5030,6 +5402,8 @@
         "countability": "countable",
         "subtext": "related to name greeting"
     },
+
+
     {
         "word": "goodbye",
         "level": "starter",
@@ -5048,6 +5422,8 @@
         "countability": "countable",
         "subtext": "related to name greeting"
     },
+
+
     {
         "word": "please",
         "level": "starter",
@@ -5065,6 +5441,8 @@
         "subtext": "related to greetings social phrases",
         "opposite": null
     },
+
+
     {
         "word": "thank you",
         "level": "starter",
@@ -5083,6 +5461,8 @@
         "subtext": "related to greetings social phrases",
         "opposite": null
     },
+
+
     {
         "word": "yes",
         "level": "starter",
@@ -5100,6 +5480,8 @@
         ],
         "subtext": "related to asking answering questions"
     },
+
+
     {
         "word": "no",
         "level": "starter",
@@ -5117,6 +5499,8 @@
         ],
         "subtext": "related to asking answering questions"
     },
+
+
     {
         "word": "name",
         "level": "starter",
@@ -5135,6 +5519,8 @@
         "subtext": "related to name greeting",
         "opposite": null
     },
+
+
     {
         "word": "bathroom",
         "level": "starter",
@@ -5154,6 +5540,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "bedroom",
         "level": "starter",
@@ -5173,6 +5561,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "baby",
         "level": "starter",
@@ -5192,6 +5582,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "boy",
         "level": "starter",
@@ -5212,6 +5604,8 @@
         "countability": "countable",
         "subtext": "related to people"
     },
+
+
     {
         "word": "girl",
         "level": "starter",
@@ -5232,6 +5626,8 @@
         "countability": "countable",
         "subtext": "related to people"
     },
+
+
     {
         "word": "boyfriend",
         "level": "starter",
@@ -5252,6 +5648,8 @@
         "countability": "countable",
         "subtext": "related to marital status"
     },
+
+
     {
         "word": "girlfriend",
         "level": "starter",
@@ -5272,6 +5670,8 @@
         "countability": "countable",
         "subtext": "related to marital status"
     },
+
+
     {
         "word": "student",
         "level": "starter",
@@ -5292,6 +5692,8 @@
         "countability": "countable",
         "subtext": "related to learning studying"
     },
+
+
     {
         "word": "classmate",
         "level": "starter",
@@ -5311,6 +5713,8 @@
         "subtext": "related to learning studying",
         "opposite": null
     },
+
+
     {
         "word": "camera",
         "level": "starter",
@@ -5330,6 +5734,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "computer",
         "level": "starter",
@@ -5349,6 +5755,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "bottle",
         "level": "starter",
@@ -5368,6 +5776,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "box",
         "level": "starter",
@@ -5387,6 +5797,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "ball",
         "level": "starter",
@@ -5406,6 +5818,8 @@
         "subtext": "related to sports equipment",
         "opposite": null
     },
+
+
     {
         "word": "gift",
         "level": "starter",
@@ -5425,6 +5839,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "street",
         "level": "starter",
@@ -5444,6 +5860,8 @@
         "subtext": "related to address location",
         "opposite": null
     },
+
+
     {
         "word": "building",
         "level": "starter",
@@ -5463,6 +5881,8 @@
         "subtext": "related to address location",
         "opposite": null
     },
+
+
     {
         "word": "cafe",
         "level": "starter",
@@ -5482,6 +5902,8 @@
         "subtext": "related to local places services",
         "opposite": null
     },
+
+
     {
         "word": "centre",
         "level": "starter",
@@ -5501,6 +5923,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "butter",
         "level": "starter",
@@ -5520,6 +5944,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "cheese",
         "level": "starter",
@@ -5539,6 +5965,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "actor",
         "level": "starter",
@@ -5558,25 +5986,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-    {
-        "word": "artist",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🎨",
-        "form": "noun",
-        "plural": "artists",
-        "definitions": [
-            {
-                "text": "A person who creates art, such as paintings or sculptures.",
-                "examples": [
-                    "She is a talented artist."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
+
+
     {
         "word": "adult",
         "level": "starter",
@@ -5597,6 +6008,8 @@
         "countability": "countable",
         "subtext": "related to people"
     },
+
+
     {
         "word": "advice",
         "level": "starter",
@@ -5616,6 +6029,8 @@
         "subtext": "related to greetings social phrases",
         "opposite": null
     },
+
+
     {
         "word": "age",
         "level": "starter",
@@ -5635,6 +6050,8 @@
         "subtext": "related to age",
         "opposite": null
     },
+
+
     {
         "word": "air",
         "level": "starter",
@@ -5654,6 +6071,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "area",
         "level": "starter",
@@ -5673,6 +6092,8 @@
         "subtext": "related to address location",
         "opposite": null
     },
+
+
     {
         "word": "art",
         "level": "starter",
@@ -5692,6 +6113,8 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
+
+
     {
         "word": "band",
         "level": "starter",
@@ -5711,6 +6134,8 @@
         "subtext": "related to music",
         "opposite": null
     },
+
+
     {
         "word": "bath",
         "level": "starter",
@@ -5730,6 +6155,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "birthday",
         "level": "starter",
@@ -5749,6 +6176,8 @@
         "subtext": "related to personal identity",
         "opposite": null
     },
+
+
     {
         "word": "boat",
         "level": "starter",
@@ -5768,6 +6197,8 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
+
+
     {
         "word": "business",
         "level": "starter",
@@ -5787,6 +6218,8 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
+
+
     {
         "word": "college",
         "level": "starter",
@@ -5806,6 +6239,8 @@
         "subtext": "related to types of education",
         "opposite": null
     },
+
+
     {
         "word": "company",
         "level": "starter",
@@ -5825,6 +6260,8 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
+
+
     {
         "word": "concert",
         "level": "starter",
@@ -5844,6 +6281,8 @@
         "subtext": "related to music",
         "opposite": null
     },
+
+
     {
         "word": "conversation",
         "level": "starter",
@@ -5863,6 +6302,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "again",
         "level": "starter",
@@ -5880,6 +6321,8 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
+
+
     {
         "word": "ago",
         "level": "starter",
@@ -5897,6 +6340,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "also",
         "level": "starter",
@@ -5914,6 +6359,8 @@
         "subtext": "related to conjunctions connectors",
         "opposite": null
     },
+
+
     {
         "word": "really",
         "level": "starter",
@@ -5932,6 +6379,8 @@
         "subtext": "related to basic intensifiers",
         "opposite": null
     },
+
+
     {
         "word": "there",
         "level": "starter",
@@ -5949,6 +6398,8 @@
         "subtext": "related to prepositions place",
         "opposite": null
     },
+
+
     {
         "word": "pencil",
         "level": "starter",
@@ -5968,6 +6419,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "paper",
         "level": "starter",
@@ -5987,25 +6440,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-    {
-        "word": "wallet",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "👛",
-        "form": "noun",
-        "plural": "wallets",
-        "definitions": [
-            {
-                "text": "A small flat case used for carrying money and cards.",
-                "examples": [
-                    "I have no money in my wallet."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to everyday shopping",
-        "opposite": null
-    },
+
+
     {
         "word": "umbrella",
         "level": "starter",
@@ -6025,6 +6461,8 @@
         "subtext": "related to weather",
         "opposite": null
     },
+
+
     {
         "word": "glasses",
         "level": "starter",
@@ -6044,6 +6482,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "watch",
         "level": "starter",
@@ -6063,6 +6503,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "fridge",
         "level": "starter",
@@ -6082,6 +6524,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "oven",
         "level": "starter",
@@ -6101,6 +6545,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "soap",
         "level": "starter",
@@ -6120,6 +6566,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "towel",
         "level": "starter",
@@ -6139,6 +6587,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "city",
         "level": "starter",
@@ -6158,6 +6608,8 @@
         "subtext": "related to cities towns",
         "opposite": null
     },
+
+
     {
         "word": "town",
         "level": "starter",
@@ -6177,6 +6629,8 @@
         "subtext": "related to cities towns",
         "opposite": null
     },
+
+
     {
         "word": "village",
         "level": "starter",
@@ -6196,6 +6650,8 @@
         "subtext": "related to cities towns",
         "opposite": null
     },
+
+
     {
         "word": "country",
         "level": "starter",
@@ -6215,6 +6671,8 @@
         "subtext": "related to countries capitals",
         "opposite": null
     },
+
+
     {
         "word": "jeans",
         "level": "starter",
@@ -6234,6 +6692,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "belt",
         "level": "starter",
@@ -6253,6 +6713,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "with",
         "level": "starter",
@@ -6270,6 +6732,8 @@
         "subtext": "related to prepositions place",
         "emoji": "➕"
     },
+
+
     {
         "word": "without",
         "level": "starter",
@@ -6287,6 +6751,8 @@
         "subtext": "related to prepositions place",
         "emoji": "➖"
     },
+
+
     {
         "word": "to",
         "level": "starter",
@@ -6304,6 +6770,8 @@
         "opposite": null,
         "emoji": "➡️"
     },
+
+
     {
         "word": "from",
         "level": "starter",
@@ -6321,6 +6789,8 @@
         "opposite": null,
         "emoji": "⬅️"
     },
+
+
     {
         "word": "for",
         "level": "starter",
@@ -6338,6 +6808,8 @@
         "opposite": null,
         "emoji": "🎁"
     },
+
+
     {
         "word": "or",
         "level": "starter",
@@ -6355,6 +6827,8 @@
         "opposite": "and",
         "emoji": "❓"
     },
+
+
     {
         "word": "so",
         "level": "starter",
@@ -6372,6 +6846,8 @@
         "opposite": "because",
         "emoji": "💡"
     },
+
+
     {
         "word": "game",
         "level": "starter",
@@ -6391,6 +6867,8 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
+
+
     {
         "word": "music",
         "level": "starter",
@@ -6410,6 +6888,8 @@
         "subtext": "related to music",
         "opposite": null
     },
+
+
     {
         "word": "song",
         "level": "starter",
@@ -6429,6 +6909,8 @@
         "subtext": "related to music",
         "opposite": null
     },
+
+
     {
         "word": "sport",
         "level": "starter",
@@ -6448,6 +6930,8 @@
         "subtext": "related to common sports",
         "opposite": null
     },
+
+
     {
         "word": "football",
         "level": "starter",
@@ -6467,6 +6951,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "tennis",
         "level": "starter",
@@ -6486,6 +6972,8 @@
         "subtext": "related to common sports",
         "opposite": null
     },
+
+
     {
         "word": "yesterday",
         "level": "starter",
@@ -6503,6 +6991,8 @@
         ],
         "subtext": "related to times day"
     },
+
+
     {
         "word": "now",
         "level": "starter",
@@ -6520,6 +7010,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "soon",
         "level": "starter",
@@ -6537,6 +7029,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "later",
         "level": "starter",
@@ -6554,6 +7048,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "internet",
         "level": "starter",
@@ -6573,6 +7069,8 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
+
+
     {
         "word": "website",
         "level": "starter",
@@ -6592,6 +7090,8 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
+
+
     {
         "word": "email",
         "level": "starter",
@@ -6611,6 +7111,8 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
+
+
     {
         "word": "message",
         "level": "starter",
@@ -6630,6 +7132,8 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
+
+
     {
         "word": "newspaper",
         "level": "starter",
@@ -6649,6 +7153,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "magazine",
         "level": "starter",
@@ -6668,6 +7174,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "passport",
         "level": "starter",
@@ -6687,6 +7195,8 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
+
+
     {
         "word": "ticket",
         "level": "starter",
@@ -6706,6 +7216,8 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
+
+
     {
         "word": "salt",
         "level": "starter",
@@ -6725,6 +7237,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "snack",
         "level": "starter",
@@ -6744,6 +7258,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "pear",
         "level": "starter",
@@ -6763,6 +7279,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "cucumber",
         "level": "starter",
@@ -6782,6 +7300,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "lettuce",
         "level": "starter",
@@ -6801,6 +7321,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "wall",
         "level": "starter",
@@ -6820,6 +7342,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "floor",
         "level": "starter",
@@ -6839,6 +7363,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "stairs",
         "level": "starter",
@@ -6858,6 +7384,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "map",
         "level": "starter",
@@ -6877,6 +7405,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "ruler",
         "level": "starter",
@@ -6896,6 +7426,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "mouse",
         "level": "starter",
@@ -6917,6 +7449,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "snake",
         "level": "starter",
@@ -6936,6 +7470,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "monkey",
         "level": "starter",
@@ -6955,6 +7491,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "spider",
         "level": "starter",
@@ -6974,6 +7512,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "bee",
         "level": "starter",
@@ -6993,6 +7533,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "shower",
         "level": "starter",
@@ -7012,6 +7554,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "toilet",
         "level": "starter",
@@ -7031,6 +7575,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "sink",
         "level": "starter",
@@ -7050,6 +7596,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "sofa",
         "level": "starter",
@@ -7069,6 +7617,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "shelf",
         "level": "starter",
@@ -7090,6 +7640,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "toothbrush",
         "level": "starter",
@@ -7109,6 +7661,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "toothpaste",
         "level": "starter",
@@ -7128,6 +7682,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "shampoo",
         "level": "starter",
@@ -7147,6 +7703,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "history",
         "level": "starter",
@@ -7166,6 +7724,8 @@
         "subtext": "related to school subjects",
         "opposite": null
     },
+
+
     {
         "word": "science",
         "level": "starter",
@@ -7185,6 +7745,8 @@
         "subtext": "related to school subjects",
         "opposite": null
     },
+
+
     {
         "word": "maths",
         "level": "starter",
@@ -7204,6 +7766,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "geography",
         "level": "starter",
@@ -7223,6 +7787,8 @@
         "subtext": "related to school subjects",
         "opposite": null
     },
+
+
     {
         "word": "hour",
         "level": "starter",
@@ -7242,6 +7808,8 @@
         "subtext": "related to telling time",
         "opposite": null
     },
+
+
     {
         "word": "minute",
         "level": "starter",
@@ -7261,6 +7829,8 @@
         "subtext": "related to telling time",
         "opposite": null
     },
+
+
     {
         "word": "second",
         "level": "starter",
@@ -7280,6 +7850,8 @@
         "subtext": "related to telling time",
         "opposite": null
     },
+
+
     {
         "word": "lesson",
         "level": "starter",
@@ -7299,6 +7871,8 @@
         "subtext": "related to learning studying",
         "opposite": null
     },
+
+
     {
         "word": "homework",
         "level": "starter",
@@ -7318,6 +7892,8 @@
         "subtext": "related to learning studying",
         "opposite": null
     },
+
+
     {
         "word": "guitar",
         "level": "starter",
@@ -7337,6 +7913,8 @@
         "subtext": "related to music",
         "opposite": null
     },
+
+
     {
         "word": "piano",
         "level": "starter",
@@ -7356,6 +7934,8 @@
         "subtext": "related to music",
         "opposite": null
     },
+
+
     {
         "word": "forest",
         "level": "starter",
@@ -7375,6 +7955,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "island",
         "level": "starter",
@@ -7394,6 +7976,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "hill",
         "level": "starter",
@@ -7413,6 +7997,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "duck",
         "level": "starter",
@@ -7432,25 +8018,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
-    {
-        "word": "tiger",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐅",
-        "form": "noun",
-        "plural": "tigers",
-        "definitions": [
-            {
-                "text": "A large wild cat with orange fur and black stripes.",
-                "examples": [
-                    "Tigers live in Asia."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
+
+
     {
         "word": "bear",
         "level": "starter",
@@ -7470,6 +8039,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "keyboard",
         "level": "starter",
@@ -7489,6 +8060,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "screen",
         "level": "starter",
@@ -7508,6 +8081,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "dish",
         "level": "starter",
@@ -7527,6 +8102,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
+
+
     {
         "word": "year",
         "level": "starter",
@@ -7546,6 +8123,8 @@
         "subtext": "related to dates years",
         "opposite": null
     },
+
+
     {
         "word": "dad",
         "level": "starter",
@@ -7565,6 +8144,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "mum",
         "level": "starter",
@@ -7584,6 +8165,8 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
+
+
     {
         "word": "garden",
         "level": "starter",
@@ -7603,25 +8186,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-    {
-        "word": "garage",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚗",
-        "form": "noun",
-        "plural": "garages",
-        "definitions": [
-            {
-                "text": "A building where you keep a car.",
-                "examples": [
-                    "The car is in the garage."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
+
+
     {
         "word": "sandwich",
         "level": "starter",
@@ -7641,6 +8207,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "trip",
         "level": "starter",
@@ -7660,6 +8228,8 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
+
+
     {
         "word": "zoo",
         "level": "starter",
@@ -7679,6 +8249,8 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
+
+
     {
         "word": "dictionary",
         "level": "starter",
@@ -7698,6 +8270,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "something",
         "level": "starter",
@@ -7715,6 +8289,8 @@
         "subtext": "related to describing things",
         "opposite": null
     },
+
+
     {
         "word": "someone",
         "level": "starter",
@@ -7732,6 +8308,8 @@
         "subtext": "related to people",
         "opposite": null
     },
+
+
     {
         "word": "everyone",
         "level": "starter",
@@ -7749,6 +8327,8 @@
         "subtext": "related to people",
         "opposite": null
     },
+
+
     {
         "word": "already",
         "level": "starter",
@@ -7766,6 +8346,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "still",
         "level": "starter",
@@ -7783,6 +8365,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "yet",
         "level": "starter",
@@ -7800,6 +8384,8 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
+
+
     {
         "word": "up",
         "level": "starter",
@@ -7817,6 +8403,8 @@
         ],
         "subtext": "related to prepositions movement"
     },
+
+
     {
         "word": "down",
         "level": "starter",
@@ -7834,6 +8422,8 @@
         ],
         "subtext": "related to prepositions movement"
     },
+
+
     {
         "word": "oil",
         "level": "starter",
@@ -7853,6 +8443,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "pepper",
         "level": "starter",
@@ -7872,6 +8464,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "taxi",
         "level": "starter",
@@ -7891,6 +8485,8 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
+
+
     {
         "word": "bridge",
         "level": "starter",
@@ -7910,6 +8506,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "heart",
         "level": "starter",
@@ -7929,6 +8527,8 @@
         "subtext": "related to body parts",
         "opposite": null
     },
+
+
     {
         "word": "theatre",
         "level": "starter",
@@ -7948,25 +8548,8 @@
         "countability": "countable",
         "opposite": null
     },
-    {
-        "word": "stadium",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🏟️",
-        "form": "noun",
-        "plural": "stadiums",
-        "definitions": [
-            {
-                "text": "A large building with rows of seats around a sports field.",
-                "examples": [
-                    "The stadium was full."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to places culture leisure",
-        "opposite": null
-    },
+
+
     {
         "word": "tonight",
         "level": "starter",
@@ -7984,6 +8567,8 @@
         "subtext": "related to times day",
         "opposite": null
     },
+
+
     {
         "word": "world",
         "level": "starter",
@@ -8003,6 +8588,8 @@
         "subtext": "related to countries capitals",
         "opposite": null
     },
+
+
     {
         "word": "life",
         "level": "starter",
@@ -8022,6 +8609,8 @@
         "subtext": "related to personal identity",
         "opposite": null
     },
+
+
     {
         "word": "way",
         "level": "starter",
@@ -8042,6 +8631,8 @@
         "subtext": "related to directions navigation",
         "opposite": null
     },
+
+
     {
         "word": "thing",
         "level": "starter",
@@ -8061,6 +8652,8 @@
         "subtext": "related to describing things",
         "opposite": null
     },
+
+
     {
         "word": "place",
         "level": "starter",
@@ -8080,6 +8673,8 @@
         "subtext": "related to local places services",
         "opposite": null
     },
+
+
     {
         "word": "word",
         "level": "starter",
@@ -8099,6 +8694,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "number",
         "level": "starter",
@@ -8118,6 +8715,8 @@
         "subtext": "related to numbers 0 9",
         "opposite": null
     },
+
+
     {
         "word": "body",
         "level": "starter",
@@ -8137,6 +8736,8 @@
         "subtext": "related to health body",
         "opposite": null
     },
+
+
     {
         "word": "north",
         "level": "starter",
@@ -8155,6 +8756,8 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
+
+
     {
         "word": "south",
         "level": "starter",
@@ -8173,6 +8776,8 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
+
+
     {
         "word": "east",
         "level": "starter",
@@ -8191,6 +8796,8 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
+
+
     {
         "word": "west",
         "level": "starter",
@@ -8209,6 +8816,8 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
+
+
     {
         "word": "board",
         "level": "starter",
@@ -8229,6 +8838,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "eraser",
         "level": "starter",
@@ -8248,6 +8859,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "pencil case",
         "level": "starter",
@@ -8267,6 +8880,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "notebook",
         "level": "starter",
@@ -8286,6 +8901,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "textbook",
         "level": "starter",
@@ -8305,6 +8922,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "backpack",
         "level": "starter",
@@ -8324,6 +8943,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "armchair",
         "level": "starter",
@@ -8343,6 +8964,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
+
+
     {
         "word": "bookcase",
         "level": "starter",
@@ -8362,6 +8985,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
+
+
     {
         "word": "cupboard",
         "level": "starter",
@@ -8381,6 +9006,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
+
+
     {
         "word": "rug",
         "level": "starter",
@@ -8400,6 +9027,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
+
+
     {
         "word": "drawer",
         "level": "starter",
@@ -8419,25 +9048,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
-    {
-        "word": "ceiling",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🏠",
-        "form": "noun",
-        "plural": "ceilings",
-        "definitions": [
-            {
-                "text": "The top surface of a room.",
-                "examples": [
-                    "There is a light on the ceiling."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
+
+
     {
         "word": "toy",
         "level": "starter",
@@ -8457,6 +9069,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "doll",
         "level": "starter",
@@ -8476,6 +9090,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "robot",
         "level": "starter",
@@ -8495,6 +9111,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "monster",
         "level": "starter",
@@ -8514,6 +9132,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "alien",
         "level": "starter",
@@ -8533,6 +9153,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "kite",
         "level": "starter",
@@ -8552,6 +9174,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "balloon",
         "level": "starter",
@@ -8571,6 +9195,8 @@
         "subtext": "related to toys games",
         "opposite": null
     },
+
+
     {
         "word": "hobby",
         "level": "starter",
@@ -8590,6 +9216,8 @@
         "subtext": "related to hobbies interests",
         "opposite": null
     },
+
+
     {
         "word": "pet",
         "level": "starter",
@@ -8609,6 +9237,8 @@
         "subtext": "related to pets",
         "opposite": null
     },
+
+
     {
         "word": "hamster",
         "level": "starter",
@@ -8628,6 +9258,8 @@
         "subtext": "related to pets",
         "opposite": null
     },
+
+
     {
         "word": "lizard",
         "level": "starter",
@@ -8647,6 +9279,8 @@
         "subtext": "related to pets",
         "opposite": null
     },
+
+
     {
         "word": "turtle",
         "level": "starter",
@@ -8666,6 +9300,8 @@
         "subtext": "related to pets",
         "opposite": null
     },
+
+
     {
         "word": "playground",
         "level": "starter",
@@ -8685,6 +9321,8 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
+
+
     {
         "word": "story",
         "level": "starter",
@@ -8705,6 +9343,8 @@
         "subtext": "related to books reading",
         "opposite": null
     },
+
+
     {
         "word": "painting",
         "level": "starter",
@@ -8724,6 +9364,8 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
+
+
     {
         "word": "poster",
         "level": "starter",
@@ -8743,6 +9385,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "sentence",
         "level": "starter",
@@ -8762,6 +9406,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "question",
         "level": "starter",
@@ -8782,6 +9428,8 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
+
+
     {
         "word": "answer",
         "level": "starter",
@@ -8801,6 +9449,8 @@
         "subtext": "related to asking answering questions",
         "opposite": "ask"
     },
+
+
     {
         "word": "page",
         "level": "starter",
@@ -8820,6 +9470,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "basketball",
         "level": "starter",
@@ -8839,6 +9491,8 @@
         "subtext": "related to common sports",
         "opposite": null
     },
+
+
     {
         "word": "baseball",
         "level": "starter",
@@ -8858,6 +9512,8 @@
         "subtext": "related to common sports",
         "opposite": null
     },
+
+
     {
         "word": "bat",
         "level": "starter",
@@ -8877,6 +9533,8 @@
         "subtext": "related to sports equipment",
         "opposite": null
     },
+
+
     {
         "word": "scooter",
         "level": "starter",
@@ -8896,6 +9554,8 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
+
+
     {
         "word": "motorbike",
         "level": "starter",
@@ -8915,6 +9575,8 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
+
+
     {
         "word": "truck",
         "level": "starter",
@@ -8934,6 +9596,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "farmer",
         "level": "starter",
@@ -8953,6 +9617,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "pilot",
         "level": "starter",
@@ -8972,6 +9638,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "waiter",
         "level": "starter",
@@ -8991,6 +9659,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "waitress",
         "level": "starter",
@@ -9010,6 +9680,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "dentist",
         "level": "starter",
@@ -9029,25 +9701,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-    {
-        "word": "mechanic",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🧑‍🔧",
-        "form": "noun",
-        "plural": "mechanics",
-        "definitions": [
-            {
-                "text": "A person whose job is repairing machines, especially the engines of vehicles.",
-                "examples": [
-                    "The mechanic is fixing my car."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
+
+
     {
         "word": "police officer",
         "level": "starter",
@@ -9067,6 +9722,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "firefighter",
         "level": "starter",
@@ -9086,6 +9743,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "soldier",
         "level": "starter",
@@ -9105,6 +9764,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "bowl",
         "level": "starter",
@@ -9124,6 +9785,8 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
+
+
     {
         "word": "kettle",
         "level": "starter",
@@ -9143,6 +9806,8 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
+
+
     {
         "word": "pan",
         "level": "starter",
@@ -9162,6 +9827,8 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
+
+
     {
         "word": "pot",
         "level": "starter",
@@ -9181,6 +9848,8 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
+
+
     {
         "word": "crocodile",
         "level": "starter",
@@ -9200,6 +9869,8 @@
         "subtext": "related to animals",
         "opposite": null
     },
+
+
     {
         "word": "shark",
         "level": "starter",
@@ -9219,6 +9890,8 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
+
+
     {
         "word": "whale",
         "level": "starter",
@@ -9238,6 +9911,8 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
+
+
     {
         "word": "dolphin",
         "level": "starter",
@@ -9257,6 +9932,8 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
+
+
     {
         "word": "octopus",
         "level": "starter",
@@ -9276,6 +9953,8 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
+
+
     {
         "word": "butterfly",
         "level": "starter",
@@ -9295,6 +9974,8 @@
         "subtext": "related to insects",
         "opposite": null
     },
+
+
     {
         "word": "ant",
         "level": "starter",
@@ -9314,6 +9995,8 @@
         "subtext": "related to insects",
         "opposite": null
     },
+
+
     {
         "word": "ocean",
         "level": "starter",
@@ -9333,6 +10016,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "desert",
         "level": "starter",
@@ -9352,6 +10037,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "jungle",
         "level": "starter",
@@ -9371,6 +10058,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "earth",
         "level": "starter",
@@ -9389,6 +10078,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "planet",
         "level": "starter",
@@ -9408,6 +10099,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "violin",
         "level": "starter",
@@ -9427,6 +10120,8 @@
         "subtext": "related to musical instruments",
         "opposite": null
     },
+
+
     {
         "word": "drums",
         "level": "starter",
@@ -9446,6 +10141,8 @@
         "subtext": "related to musical instruments",
         "opposite": null
     },
+
+
     {
         "word": "flute",
         "level": "starter",
@@ -9465,6 +10162,8 @@
         "subtext": "related to musical instruments",
         "opposite": null
     },
+
+
     {
         "word": "tie",
         "level": "starter",
@@ -9484,6 +10183,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "ring",
         "level": "starter",
@@ -9503,6 +10204,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "necklace",
         "level": "starter",
@@ -9522,6 +10225,8 @@
         "subtext": "related to accessories",
         "opposite": null
     },
+
+
     {
         "word": "roof",
         "level": "starter",
@@ -9541,25 +10246,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-    {
-        "word": "balcony",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🏘️",
-        "form": "noun",
-        "plural": "balconies",
-        "definitions": [
-            {
-                "text": "An area with a wall or bars around it that is joined to the outside wall of a building on an upper level.",
-                "examples": [
-                    "We have flowers on our balcony."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
+
+
     {
         "word": "fence",
         "level": "starter",
@@ -9579,6 +10267,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "gate",
         "level": "starter",
@@ -9598,6 +10288,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "cookie",
         "level": "starter",
@@ -9617,6 +10309,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "biscuit",
         "level": "starter",
@@ -9636,6 +10330,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "yogurt",
         "level": "starter",
@@ -9655,6 +10351,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "ham",
         "level": "starter",
@@ -9674,6 +10372,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "bacon",
         "level": "starter",
@@ -9693,6 +10393,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "sausage",
         "level": "starter",
@@ -9712,6 +10414,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "honey",
         "level": "starter",
@@ -9730,6 +10434,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "jam",
         "level": "starter",
@@ -9748,6 +10454,8 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
+
+
     {
         "word": "pineapple",
         "level": "starter",
@@ -9767,6 +10475,8 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
+
+
     {
         "word": "watermelon",
         "level": "starter",
@@ -9786,6 +10496,8 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
+
+
     {
         "word": "mushroom",
         "level": "starter",
@@ -9805,6 +10517,8 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
+
+
     {
         "word": "broccoli",
         "level": "starter",
@@ -9823,6 +10537,8 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
+
+
     {
         "word": "peas",
         "level": "starter",
@@ -9842,6 +10558,8 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
+
+
     {
         "word": "envelope",
         "level": "starter",
@@ -9861,6 +10579,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "stamp",
         "level": "starter",
@@ -9880,6 +10600,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "stapler",
         "level": "starter",
@@ -9899,6 +10621,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "glue",
         "level": "starter",
@@ -9918,6 +10642,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "scissors",
         "level": "starter",
@@ -9937,6 +10663,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "calculator",
         "level": "starter",
@@ -9956,6 +10684,8 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
+
+
     {
         "word": "washing machine",
         "level": "starter",
@@ -9975,25 +10705,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
-    {
-        "word": "dishwasher",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🧼",
-        "form": "noun",
-        "plural": "dishwashers",
-        "definitions": [
-            {
-                "text": "A machine that washes dishes.",
-                "examples": [
-                    "Load the dishwasher after dinner."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
+
+
     {
         "word": "toaster",
         "level": "starter",
@@ -10013,25 +10726,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
-    {
-        "word": "vacuum cleaner",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🧹",
-        "form": "noun",
-        "plural": "vacuum cleaners",
-        "definitions": [
-            {
-                "text": "A machine that cleans floors by sucking up dirt.",
-                "examples": [
-                    "I need to use the vacuum cleaner on the rug."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
+
+
     {
         "word": "remote control",
         "level": "starter",
@@ -10051,6 +10747,8 @@
         "subtext": "related to household items",
         "opposite": null
     },
+
+
     {
         "word": "rainbow",
         "level": "starter",
@@ -10070,6 +10768,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "storm",
         "level": "starter",
@@ -10089,6 +10789,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "pyjamas",
         "level": "starter",
@@ -10108,6 +10810,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "shorts",
         "level": "starter",
@@ -10127,6 +10831,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "trainers",
         "level": "starter",
@@ -10146,6 +10852,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "living room",
         "level": "starter",
@@ -10165,6 +10873,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "dining room",
         "level": "starter",
@@ -10184,6 +10894,8 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
+
+
     {
         "word": "break",
         "level": "starter",
@@ -10203,6 +10915,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "globe",
         "level": "starter",
@@ -10222,6 +10936,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "address",
         "level": "starter",
@@ -10242,26 +10958,8 @@
         "countability": "countable",
         "opposite": null
     },
-    {
-        "word": "nationality",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🏳️",
-        "form": "noun",
-        "plural": "nationalities",
-        "definitions": [
-            {
-                "text": "The state of belonging to a particular nation.",
-                "examples": [
-                    "What is your nationality?",
-                    "He has British nationality."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to personal identity",
-        "opposite": null
-    },
+
+
     {
         "word": "language",
         "level": "starter",
@@ -10282,6 +10980,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "clothes",
         "level": "starter",
@@ -10302,26 +11002,8 @@
         "countability": "uncountable",
         "opposite": null
     },
-    {
-        "word": "occupation",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "💼",
-        "form": "noun",
-        "plural": "occupations",
-        "subtext": "job, profession",
-        "definitions": [
-            {
-                "text": "A person's job or profession.",
-                "examples": [
-                    "What is your occupation?",
-                    "Please state your occupation on the form."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
+
+
     {
         "word": "furniture",
         "level": "starter",
@@ -10342,6 +11024,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "information",
         "level": "starter",
@@ -10362,6 +11046,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "nature",
         "level": "starter",
@@ -10382,6 +11068,8 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
+
+
     {
         "word": "weather",
         "level": "starter",
@@ -10402,6 +11090,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "temperature",
         "level": "starter",
@@ -10422,6 +11112,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "first name",
         "level": "starter",
@@ -10442,6 +11134,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "surname",
         "level": "starter",
@@ -10462,6 +11156,8 @@
         ],
         "countability": "countable"
     },
+
+
     {
         "word": "snow",
         "level": "starter",
@@ -10482,6 +11178,8 @@
         "subtext": "related to weather",
         "opposite": null
     },
+
+
     {
         "word": "news",
         "level": "starter",
@@ -10502,6 +11200,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "bookshop",
         "level": "starter",
@@ -10521,6 +11221,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "date",
         "level": "starter",
@@ -10540,6 +11242,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "exam",
         "level": "starter",
@@ -10559,6 +11263,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "example",
         "level": "starter",
@@ -10578,6 +11284,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "film",
         "level": "starter",
@@ -10597,6 +11305,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "idea",
         "level": "starter",
@@ -10616,6 +11326,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "letter",
         "level": "starter",
@@ -10635,6 +11347,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "list",
         "level": "starter",
@@ -10654,6 +11368,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "meal",
         "level": "starter",
@@ -10673,6 +11389,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "movie",
         "level": "starter",
@@ -10692,6 +11410,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "party",
         "level": "starter",
@@ -10711,6 +11431,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "photo",
         "level": "starter",
@@ -10730,6 +11452,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "picture",
         "level": "starter",
@@ -10749,6 +11473,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "road",
         "level": "starter",
@@ -10768,6 +11494,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "test",
         "level": "starter",
@@ -10787,6 +11515,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "university",
         "level": "starter",
@@ -10806,6 +11536,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "writer",
         "level": "starter",
@@ -10825,6 +11557,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "suitcase",
         "level": "starter",
@@ -10844,6 +11578,8 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
+
+
     {
         "word": "purse",
         "level": "starter",
@@ -10863,6 +11599,8 @@
         "subtext": "related to everyday shopping",
         "opposite": null
     },
+
+
     {
         "word": "pocket",
         "level": "starter",
@@ -10882,6 +11620,8 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
+
+
     {
         "word": "comb",
         "level": "starter",
@@ -10901,44 +11641,8 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-    {
-        "word": "appointment",
-        "level": "starter",
-        "theme": "medical_appointments_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "appointments",
-        "subtext": "doctor's appointment",
-        "definitions": [
-            {
-                "text": "A formal arrangement to meet or visit someone at a particular time and place.",
-                "examples": [
-                    "I have an appointment with the doctor at ten o'clock."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-    {
-        "word": "application",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": "applications",
-        "subtext": "apply for, job application",
-        "definitions": [
-            {
-                "text": "A formal request to be considered for a position or to be allowed to do something.",
-                "examples": [
-                    "She sent an application for the new job."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
+
+
     {
         "word": "skill",
         "level": "starter",
@@ -10958,6 +11662,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "opinion",
         "level": "starter",
@@ -10977,6 +11683,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "apartment",
         "level": "starter",
@@ -10996,6 +11704,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "bicycle",
         "level": "starter",
@@ -11015,6 +11725,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "mobile",
         "level": "starter",
@@ -11034,6 +11746,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "class",
         "level": "starter",
@@ -11053,6 +11767,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "classroom",
         "level": "starter",
@@ -11072,6 +11788,8 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
+
+
     {
         "word": "staff",
         "level": "starter",
@@ -11091,6 +11809,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "customer",
         "level": "starter",
@@ -11110,6 +11830,8 @@
         "subtext": "related to everyday shopping",
         "opposite": null
     },
+
+
     {
         "word": "guest",
         "level": "starter",
@@ -11129,6 +11851,8 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
+
+
     {
         "word": "career",
         "level": "starter",
@@ -11148,6 +11872,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "profession",
         "level": "starter",
@@ -11167,6 +11893,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "wage",
         "level": "starter",
@@ -11186,6 +11914,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "factory",
         "level": "starter",
@@ -11205,6 +11935,8 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
+
+
     {
         "word": "file",
         "level": "starter",
@@ -11224,6 +11956,8 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
+
+
     {
         "word": "document",
         "level": "starter",
@@ -11243,6 +11977,8 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
+
+
     {
         "word": "radio",
         "level": "starter",
@@ -11262,6 +11998,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
+
+
     {
         "word": "printer",
         "level": "starter",
@@ -11281,44 +12019,8 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-    {
-        "word": "curtain",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🏘️",
-        "form": "noun",
-        "plural": "curtains",
-        "definitions": [
-            {
-                "text": "A piece of cloth that hangs across a window.",
-                "examples": [
-                    "Close the curtains, please."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-    {
-        "word": "microwave",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🔥",
-        "form": "noun",
-        "plural": "microwaves",
-        "definitions": [
-            {
-                "text": "An electric oven that uses waves of energy to cook or heat food very quickly.",
-                "examples": [
-                    "Put the soup in the microwave."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
+
+
     {
         "word": "dessert",
         "level": "starter",
@@ -11338,6 +12040,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "shoes",
         "level": "starter",
@@ -11357,6 +12061,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "jewelry",
         "level": "starter",
@@ -11376,6 +12082,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "nephew",
         "level": "starter",
@@ -11395,6 +12103,8 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
+
+
     {
         "word": "niece",
         "level": "starter",
@@ -11414,6 +12124,8 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
+
+
     {
         "word": "teenager",
         "level": "starter",
@@ -11433,6 +12145,8 @@
         "subtext": "related to people",
         "opposite": null
     },
+
+
     {
         "word": "professor",
         "level": "starter",
@@ -11452,6 +12166,8 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
+
+
     {
         "word": "month",
         "level": "starter",
@@ -11471,6 +12187,8 @@
         "subtext": "related to dates years",
         "opposite": null
     },
+
+
     {
         "word": "excuse me",
         "level": "starter",
@@ -11488,6 +12206,8 @@
         ],
         "opposite": null
     },
+
+
     {
         "word": "above",
         "level": "starter",
@@ -11505,6 +12225,8 @@
         "subtext": "related to prepositions place",
         "emoji": "⬆️"
     },
+
+
     {
         "word": "below",
         "level": "starter",
@@ -11522,6 +12244,8 @@
         "subtext": "related to prepositions place",
         "emoji": "⬇️"
     },
+
+
     {
         "word": "inside",
         "level": "starter",
@@ -11539,6 +12263,8 @@
         "subtext": "related to prepositions place",
         "emoji": "🏠"
     },
+
+
     {
         "word": "outside",
         "level": "starter",
@@ -11556,6 +12282,8 @@
         "subtext": "related to prepositions place",
         "emoji": "🌳"
     },
+
+
     {
         "word": "during",
         "level": "starter",
@@ -11573,6 +12301,8 @@
         "opposite": null,
         "emoji": "⌛"
     },
+
+
     {
         "word": "before",
         "level": "starter",
@@ -11590,6 +12320,8 @@
         "subtext": "related to prepositions time",
         "emoji": "⏮️"
     },
+
+
     {
         "word": "after",
         "level": "starter",
@@ -11607,6 +12339,8 @@
         "subtext": "related to prepositions time",
         "emoji": "⏭️"
     },
+
+
     {
         "word": "top",
         "level": "starter",
@@ -11625,6 +12359,8 @@
         "countability": "uncountable",
         "subtext": "related to size shape"
     },
+
+
     {
         "word": "bottom",
         "level": "starter",
@@ -11643,6 +12379,8 @@
         "countability": "uncountable",
         "subtext": "related to size shape"
     },
+
+
     {
         "word": "first",
         "level": "starter",
@@ -11660,6 +12398,8 @@
         ],
         "subtext": "related to sequence order A2"
     },
+
+
     {
         "word": "last",
         "level": "starter",
@@ -11677,6 +12417,8 @@
         ],
         "subtext": "related to sequence order A2"
     },
+
+
     {
         "word": "next",
         "level": "starter",
@@ -11694,6 +12436,8 @@
         ],
         "subtext": "related to sequence order A2"
     },
+
+
     {
         "word": "animal",
         "level": "starter",
@@ -11714,6 +12458,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "chips",
         "level": "starter",
@@ -11733,6 +12479,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "fries",
         "level": "starter",
@@ -11752,6 +12500,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "gym",
         "level": "starter",
@@ -11771,6 +12521,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "fire",
         "level": "starter",
@@ -11790,6 +12542,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "group",
         "level": "starter",
@@ -11809,6 +12563,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "ice",
         "level": "starter",
@@ -11827,6 +12583,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "police",
         "level": "starter",
@@ -11845,6 +12603,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "traffic",
         "level": "starter",
@@ -11863,6 +12623,8 @@
         "countability": "uncountable",
         "opposite": null
     },
+
+
     {
         "word": "actress",
         "level": "starter",
@@ -11882,6 +12644,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "farm",
         "level": "starter",
@@ -11901,6 +12665,8 @@
         "countability": "countable",
         "opposite": null
     },
+
+
     {
         "word": "blanket",
         "level": "starter",
@@ -11919,6 +12685,8 @@
         "countability": "countable",
         "subtext": "bedding / keep warm"
     },
+
+
     {
         "word": "pillow",
         "level": "starter",
@@ -11937,6 +12705,8 @@
         "countability": "countable",
         "subtext": "bedding / soft pillow"
     },
+
+
     {
         "word": "present",
         "level": "starter",
@@ -11955,6 +12725,8 @@
         "countability": "countable",
         "subtext": "gift / birthday present"
     },
+
+
     {
         "word": "carpet",
         "level": "starter",
@@ -11973,6 +12745,8 @@
         "countability": "countable",
         "subtext": "floor covering / rug"
     },
+
+
     {
         "word": "battery",
         "level": "starter",
@@ -11991,6 +12765,8 @@
         "countability": "countable",
         "subtext": "power source / charging"
     },
+
+
     {
         "word": "charger",
         "level": "starter",
@@ -12009,6 +12785,8 @@
         "countability": "countable",
         "subtext": "charging cable"
     },
+
+
     {
         "word": "calendar",
         "level": "starter",
@@ -12027,6 +12805,8 @@
         "countability": "countable",
         "subtext": "date planner"
     },
+
+
     {
         "word": "tape",
         "level": "starter",
@@ -12045,6 +12825,8 @@
         "countability": "uncountable",
         "subtext": "sticky tape"
     },
+
+
     {
         "word": "sheet",
         "level": "starter",
@@ -12063,7 +12845,7 @@
         "countability": "countable",
         "subtext": "bed sheet / linen"
     }
-];
+    ];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
