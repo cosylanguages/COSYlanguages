@@ -25,7 +25,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "soda",
@@ -43,7 +44,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "scarf",
@@ -60,7 +62,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "cereal",
@@ -77,7 +81,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "gloves",
@@ -94,7 +100,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "sunglasses",
@@ -111,7 +119,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "suit",
@@ -129,7 +139,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "person",
@@ -148,7 +159,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to people",
+        "opposite": null
     },
     {
         "word": "bill",
@@ -166,7 +179,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "receipt",
@@ -184,7 +198,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "cash",
@@ -202,7 +217,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "card",
@@ -220,7 +236,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "report",
@@ -238,7 +255,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "market",
@@ -255,7 +273,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
     },
     {
         "word": "next to",
@@ -270,7 +290,8 @@
                     "He sat next to me."
                 ]
             }
-        ]
+        ],
+        "opposite": null
     },
     {
         "word": "between",
@@ -284,14 +305,16 @@
                     "The bank is between the school and the shop."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place",
+        "opposite": null
     },
     {
         "word": "behind",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "opposite": "in front of",
+        "opposite": null,
         "definitions": [
             {
                 "text": "At or towards the back of someone or something.",
@@ -299,14 +322,15 @@
                     "The car is behind the house."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "in front of",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "opposite": "behind",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Further forward than someone or something else.",
@@ -314,7 +338,8 @@
                     "There is a bus stop in front of the school."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "jacket",
@@ -332,7 +357,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "shirt",
@@ -350,7 +376,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "foot",
@@ -370,7 +397,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "face",
@@ -387,7 +416,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "hair",
@@ -404,7 +435,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "tooth",
@@ -423,13 +456,15 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "teacher",
         "level": "starter",
         "theme": "job_titles_professions_A1",
-        "opposite": "student",
+        "opposite": null,
         "oppositeEmoji": "🧑‍🎓",
         "emoji": "🧑‍🏫",
         "form": "noun",
@@ -476,7 +511,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "pasta",
@@ -500,7 +537,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "apple",
@@ -520,7 +559,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "bread",
@@ -540,7 +581,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "egg",
@@ -565,7 +607,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "milk",
@@ -590,7 +633,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "banana",
@@ -614,7 +658,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "coffee",
@@ -640,7 +686,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "tea",
@@ -666,7 +713,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "juice",
@@ -690,7 +738,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to drinks",
+        "opposite": null
     },
     {
         "word": "water",
@@ -710,7 +760,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "park",
@@ -734,7 +785,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
     },
     {
         "word": "school",
@@ -752,7 +805,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
     },
     {
         "word": "t-shirt",
@@ -770,7 +825,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "pants",
@@ -788,7 +844,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "shoe",
@@ -806,7 +863,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "hat",
@@ -824,7 +882,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "chair",
@@ -843,7 +902,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "table",
@@ -862,7 +922,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "bed",
@@ -881,7 +942,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "key",
@@ -906,7 +968,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "phone",
@@ -924,7 +988,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "book",
@@ -944,7 +1009,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "bag",
@@ -962,7 +1029,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "pen",
@@ -980,7 +1049,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "cat",
@@ -1000,7 +1071,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "dog",
@@ -1020,7 +1093,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "bird",
@@ -1038,7 +1113,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "fish",
@@ -1056,7 +1133,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "head",
@@ -1075,7 +1154,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "hand",
@@ -1094,7 +1174,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "leg",
@@ -1112,7 +1193,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "eye",
@@ -1131,7 +1213,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "nose",
@@ -1148,7 +1231,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "mouth",
@@ -1166,7 +1251,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "ear",
@@ -1184,7 +1270,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "smartphone",
@@ -1201,7 +1288,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "mother",
@@ -1219,7 +1308,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "father",
@@ -1237,7 +1328,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "man",
@@ -1258,7 +1351,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to physical appearance",
+        "opposite": null
     },
     {
         "word": "woman",
@@ -1279,7 +1374,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to physical appearance",
+        "opposite": null
     },
     {
         "word": "work",
@@ -1296,7 +1393,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "job",
@@ -1313,7 +1411,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "office",
@@ -1331,7 +1431,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "home",
@@ -1348,7 +1449,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "house",
@@ -1366,7 +1468,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "flat",
@@ -1384,7 +1487,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "car",
@@ -1402,7 +1506,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "bus",
@@ -1420,7 +1525,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "train",
@@ -1438,7 +1544,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "food",
@@ -1455,7 +1562,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "rice",
@@ -1473,7 +1581,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "meat",
@@ -1491,7 +1600,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "breakfast",
@@ -1508,7 +1618,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "dinner",
@@ -1525,7 +1636,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "money",
@@ -1543,7 +1655,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "shop",
@@ -1561,7 +1674,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "family",
@@ -1578,7 +1692,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "friend",
@@ -1595,7 +1711,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "partner",
@@ -1613,7 +1731,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "morning",
@@ -1667,7 +1786,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to times day"
     },
     {
         "word": "week",
@@ -1685,7 +1805,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "every day",
@@ -1700,7 +1821,9 @@
                     "I drink coffee every day."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to times day",
+        "opposite": null
     },
     {
         "word": "lunch",
@@ -1718,7 +1841,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "boss",
@@ -1736,7 +1860,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "colleague",
@@ -1753,7 +1878,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to workplace basics",
+        "opposite": null
     },
     {
         "word": "salary",
@@ -1772,7 +1899,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "meeting",
@@ -1791,7 +1919,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "commute",
@@ -1808,7 +1937,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to public transport",
+        "opposite": null
     },
     {
         "word": "stress",
@@ -1825,7 +1956,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "rent",
@@ -1841,7 +1973,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to types of accommodation",
+        "opposite": null
     },
     {
         "word": "neighbour",
@@ -1859,7 +1993,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "room",
@@ -1877,7 +2012,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "kitchen",
@@ -1895,7 +2031,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "sleep",
@@ -1911,7 +2048,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to daily work routines",
+        "opposite": "wake up"
     },
     {
         "word": "exercise",
@@ -1927,7 +2066,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to leisure activities",
+        "opposite": null
     },
     {
         "word": "price",
@@ -1945,7 +2086,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "cost",
@@ -1962,7 +2104,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to money payment",
+        "opposite": null
     },
     {
         "word": "relationship",
@@ -1979,7 +2123,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to family life",
+        "opposite": null
     },
     {
         "word": "together",
@@ -1987,7 +2133,7 @@
         "theme": "family_life_A1",
         "emoji": "👫",
         "form": "adverb",
-        "opposite": "alone",
+        "opposite": null,
         "oppositeEmoji": "👤",
         "definitions": [
             {
@@ -1996,7 +2142,8 @@
                     "We eat dinner together."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to family life"
     },
     {
         "word": "holiday",
@@ -2014,7 +2161,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "hotel",
@@ -2031,7 +2179,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to public transport",
+        "opposite": null
     },
     {
         "word": "weekend",
@@ -2049,7 +2199,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "free time",
@@ -2065,7 +2216,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to leisure activities",
+        "opposite": null
     },
     {
         "word": "travel",
@@ -2081,7 +2234,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to travel vocabulary basics",
+        "opposite": null
     },
     {
         "word": "back",
@@ -2099,7 +2254,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "arm",
@@ -2117,7 +2273,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "fruit",
@@ -2135,7 +2292,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "vegetable",
@@ -2153,7 +2311,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "beer",
@@ -2171,7 +2330,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "wine",
@@ -2189,7 +2349,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "door",
@@ -2207,7 +2368,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "window",
@@ -2225,7 +2387,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "nurse",
@@ -2243,7 +2406,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "driver",
@@ -2261,7 +2425,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "chef",
@@ -2279,7 +2444,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "manager",
@@ -2297,7 +2463,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "plane",
@@ -2315,7 +2482,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "bike",
@@ -2333,7 +2501,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "hospital",
@@ -2351,7 +2520,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "restaurant",
@@ -2369,7 +2539,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "bank",
@@ -2387,7 +2558,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "station",
@@ -2405,7 +2577,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "supermarket",
@@ -2423,7 +2596,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "sun",
@@ -2441,7 +2615,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "rain",
@@ -2459,7 +2634,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "wind",
@@ -2477,7 +2653,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "afternoon",
@@ -2485,7 +2662,7 @@
         "theme": "times_day_A1",
         "emoji": "☀️",
         "form": "noun",
-        "opposite": "night",
+        "opposite": "evening",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
             {
@@ -2522,7 +2699,7 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
-        "opposite": "yesterday",
+        "opposite": "tomorrow",
         "subtext": "today's meeting, start today",
         "definitions": [
             {
@@ -2557,7 +2734,7 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "husbands",
-        "opposite": "wife",
+        "opposite": null,
         "oppositeEmoji": "👩",
         "subtext": "spouse, partner",
         "definitions": [
@@ -2577,7 +2754,7 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "wives",
-        "opposite": "husband",
+        "opposite": null,
         "oppositeEmoji": "👨",
         "subtext": "spouse, partner",
         "definitions": [
@@ -2606,7 +2783,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": "adult"
     },
     {
         "word": "parent",
@@ -2624,7 +2802,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "sister",
@@ -2633,7 +2812,7 @@
         "emoji": "👧",
         "form": "noun",
         "plural": "sisters",
-        "opposite": "brother",
+        "opposite": null,
         "oppositeEmoji": "👦",
         "subtext": "elder sister, younger sister",
         "definitions": [
@@ -2654,7 +2833,7 @@
         "emoji": "👦",
         "form": "noun",
         "plural": "brothers",
-        "opposite": "sister",
+        "opposite": null,
         "oppositeEmoji": "👧",
         "subtext": "elder brother, younger brother",
         "definitions": [
@@ -2675,7 +2854,7 @@
         "emoji": "👦",
         "form": "noun",
         "plural": "sons",
-        "opposite": "daughter",
+        "opposite": null,
         "oppositeEmoji": "👧",
         "definitions": [
             {
@@ -2685,7 +2864,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family"
     },
     {
         "word": "daughter",
@@ -2694,7 +2874,7 @@
         "emoji": "👧",
         "form": "noun",
         "plural": "daughters",
-        "opposite": "son",
+        "opposite": null,
         "oppositeEmoji": "👦",
         "definitions": [
             {
@@ -2704,7 +2884,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family"
     },
     {
         "word": "grandfather",
@@ -2713,7 +2894,7 @@
         "emoji": "👴",
         "form": "noun",
         "plural": "grandfathers",
-        "opposite": "grandmother",
+        "opposite": null,
         "oppositeEmoji": "👵",
         "definitions": [
             {
@@ -2723,7 +2904,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family"
     },
     {
         "word": "grandmother",
@@ -2732,7 +2914,7 @@
         "emoji": "👵",
         "form": "noun",
         "plural": "grandmothers",
-        "opposite": "grandfather",
+        "opposite": null,
         "oppositeEmoji": "👴",
         "definitions": [
             {
@@ -2742,7 +2924,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family"
     },
     {
         "word": "uncle",
@@ -2751,7 +2934,7 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "uncles",
-        "opposite": "aunt",
+        "opposite": null,
         "oppositeEmoji": "👩",
         "definitions": [
             {
@@ -2761,7 +2944,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family"
     },
     {
         "word": "aunt",
@@ -2770,7 +2954,7 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "aunts",
-        "opposite": "uncle",
+        "opposite": null,
         "oppositeEmoji": "👨",
         "definitions": [
             {
@@ -2780,7 +2964,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family"
     },
     {
         "word": "cousin",
@@ -2797,7 +2982,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family",
+        "opposite": null
     },
     {
         "word": "tree",
@@ -2816,7 +3003,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "flower",
@@ -2835,7 +3023,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "mountain",
@@ -2854,7 +3043,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "river",
@@ -2873,7 +3063,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "sea",
@@ -2892,7 +3083,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "beach",
@@ -2911,7 +3103,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "sky",
@@ -2930,7 +3123,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "moon",
@@ -2948,7 +3142,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "plate",
@@ -2966,7 +3161,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "cup",
@@ -2984,7 +3180,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "glass",
@@ -3002,7 +3199,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "fork",
@@ -3019,7 +3217,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "spoon",
@@ -3036,7 +3236,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "knife",
@@ -3053,7 +3255,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "laptop",
@@ -3070,7 +3274,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "television",
@@ -3088,7 +3294,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "cinema",
@@ -3106,7 +3313,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "museum",
@@ -3123,7 +3331,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
     },
     {
         "word": "airport",
@@ -3140,7 +3350,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to public transport",
+        "opposite": null
     },
     {
         "word": "pharmacy",
@@ -3157,7 +3369,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
     },
     {
         "word": "chicken",
@@ -3174,7 +3388,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "sugar",
@@ -3191,7 +3407,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "salad",
@@ -3208,7 +3426,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "coat",
@@ -3226,7 +3446,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "socks",
@@ -3243,7 +3464,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "neck",
@@ -3260,7 +3483,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "shoulder",
@@ -3277,7 +3502,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "in",
@@ -3291,7 +3518,9 @@
                     "The keys are in the bag."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place",
+        "opposite": null
     },
     {
         "word": "on",
@@ -3305,7 +3534,9 @@
                     "The book is on the table."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place",
+        "opposite": null
     },
     {
         "word": "at",
@@ -3319,7 +3550,9 @@
                     "I am at the office."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place",
+        "opposite": null
     },
     {
         "word": "under",
@@ -3334,7 +3567,8 @@
                     "The cat is under the chair."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "and",
@@ -3348,7 +3582,9 @@
                     "I like coffee and tea."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to conjunctions connectors",
+        "opposite": null
     },
     {
         "word": "but",
@@ -3362,7 +3598,9 @@
                     "I like coffee, but I don't like milk."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to conjunctions connectors",
+        "opposite": null
     },
     {
         "word": "because",
@@ -3376,7 +3614,9 @@
                     "I am tired because I worked late."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to conjunctions connectors",
+        "opposite": null
     },
     {
         "word": "time",
@@ -3394,7 +3634,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "problem",
@@ -3413,7 +3654,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "beef",
@@ -3430,7 +3672,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "pork",
@@ -3447,7 +3691,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "potato",
@@ -3464,7 +3710,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "tomato",
@@ -3481,7 +3729,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "onion",
@@ -3499,7 +3749,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "carrot",
@@ -3516,7 +3768,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "soup",
@@ -3533,7 +3787,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "cake",
@@ -3550,7 +3806,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "chocolate",
@@ -3567,7 +3825,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "ice cream",
@@ -3584,7 +3844,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "sweater",
@@ -3602,7 +3864,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "dress",
@@ -3619,7 +3882,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "skirt",
@@ -3636,7 +3901,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "boots",
@@ -3653,7 +3920,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "finger",
@@ -3670,7 +3939,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "toe",
@@ -3687,7 +3958,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "stomach",
@@ -3704,7 +3977,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "knee",
@@ -3721,7 +3996,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "grass",
@@ -3738,7 +4015,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "lake",
@@ -3755,7 +4034,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "cloud",
@@ -3772,7 +4053,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "star",
@@ -3789,7 +4072,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "desk",
@@ -3806,7 +4091,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "lamp",
@@ -3823,7 +4110,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "clock",
@@ -3840,7 +4129,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "mirror",
@@ -3857,7 +4148,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "library",
@@ -3874,7 +4167,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
     },
     {
         "word": "Monday",
@@ -3890,7 +4185,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "Tuesday",
@@ -3906,7 +4203,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "Wednesday",
@@ -3922,7 +4221,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "Thursday",
@@ -3938,7 +4239,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "Friday",
@@ -3954,7 +4257,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "Saturday",
@@ -3970,7 +4275,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "Sunday",
@@ -3986,7 +4293,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to days week",
+        "opposite": null
     },
     {
         "word": "January",
@@ -4002,7 +4311,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "February",
@@ -4018,7 +4329,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "March",
@@ -4034,7 +4347,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "April",
@@ -4050,7 +4365,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "May",
@@ -4066,7 +4383,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "June",
@@ -4082,7 +4401,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "July",
@@ -4098,7 +4419,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "August",
@@ -4114,7 +4437,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "September",
@@ -4130,7 +4455,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "October",
@@ -4146,7 +4473,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "November",
@@ -4162,7 +4491,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "December",
@@ -4178,7 +4509,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to months year",
+        "opposite": null
     },
     {
         "word": "spring",
@@ -4194,7 +4527,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to seasons climate",
+        "opposite": null
     },
     {
         "word": "summer",
@@ -4210,7 +4545,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to seasons climate",
+        "opposite": null
     },
     {
         "word": "autumn",
@@ -4227,7 +4564,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "winter",
@@ -4243,7 +4581,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to seasons climate",
+        "opposite": null
     },
     {
         "word": "lion",
@@ -4260,7 +4600,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "elephant",
@@ -4277,7 +4619,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "rabbit",
@@ -4294,7 +4638,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "horse",
@@ -4311,7 +4657,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "cow",
@@ -4328,7 +4676,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "pig",
@@ -4345,7 +4695,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "sheep",
@@ -4362,7 +4714,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "lemon",
@@ -4379,7 +4733,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "orange",
@@ -4396,7 +4752,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "strawberry",
@@ -4413,7 +4771,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "grape",
@@ -4430,7 +4790,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "garlic",
@@ -4447,7 +4809,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "always",
@@ -4462,7 +4826,9 @@
                     "I always drink coffee in the morning."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to frequency adverbs",
+        "opposite": "never"
     },
     {
         "word": "usually",
@@ -4477,7 +4843,9 @@
                     "I usually go to work by bus."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to frequency adverbs",
+        "opposite": null
     },
     {
         "word": "often",
@@ -4492,7 +4860,9 @@
                     "We often eat out on Fridays."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to frequency adverbs",
+        "opposite": null
     },
     {
         "word": "sometimes",
@@ -4507,7 +4877,9 @@
                     "Sometimes I walk to the office."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to frequency adverbs",
+        "opposite": null
     },
     {
         "word": "never",
@@ -4522,7 +4894,9 @@
                     "He never drinks alcohol."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to frequency adverbs",
+        "opposite": "always"
     },
     {
         "word": "who",
@@ -4537,7 +4911,9 @@
                     "Who is your teacher?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "what",
@@ -4552,7 +4928,9 @@
                     "What is your name?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "where",
@@ -4567,7 +4945,9 @@
                     "Where do you live?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "when",
@@ -4582,7 +4962,9 @@
                     "When is the meeting?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "why",
@@ -4597,7 +4979,9 @@
                     "Why are you late?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "how",
@@ -4613,7 +4997,9 @@
                     "How do you spell your name?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "hello",
@@ -4621,7 +5007,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "noun",
-        "opposite": "goodbye",
+        "opposite": null,
         "definitions": [
             {
                 "text": "A common greeting used when meeting someone.",
@@ -4630,7 +5016,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to name greeting"
     },
     {
         "word": "goodbye",
@@ -4638,7 +5025,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "noun",
-        "opposite": "hello",
+        "opposite": null,
         "definitions": [
             {
                 "text": "A common greeting used when leaving someone.",
@@ -4647,7 +5034,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to name greeting"
     },
     {
         "word": "please",
@@ -4662,7 +5050,9 @@
                     "A coffee, please."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to greetings social phrases",
+        "opposite": null
     },
     {
         "word": "thank you",
@@ -4678,7 +5068,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to greetings social phrases",
+        "opposite": null
     },
     {
         "word": "yes",
@@ -4686,7 +5078,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "✅",
         "form": "adverb",
-        "opposite": "no",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Used to give a positive answer.",
@@ -4694,7 +5086,8 @@
                     "Yes, I am a student."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions"
     },
     {
         "word": "no",
@@ -4702,7 +5095,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❌",
         "form": "adverb",
-        "opposite": "yes",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Used to give a negative answer.",
@@ -4710,7 +5103,8 @@
                     "No, I am not a doctor."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to asking answering questions"
     },
     {
         "word": "name",
@@ -4726,7 +5120,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to name greeting",
+        "opposite": null
     },
     {
         "word": "bathroom",
@@ -4743,7 +5139,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "bedroom",
@@ -4760,7 +5158,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "baby",
@@ -4777,7 +5177,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "boy",
@@ -4786,7 +5188,7 @@
         "emoji": "👦",
         "form": "noun",
         "plural": "boys",
-        "opposite": "girl",
+        "opposite": null,
         "oppositeEmoji": "👧",
         "definitions": [
             {
@@ -4796,7 +5198,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to people"
     },
     {
         "word": "girl",
@@ -4805,7 +5208,7 @@
         "emoji": "👧",
         "form": "noun",
         "plural": "girls",
-        "opposite": "boy",
+        "opposite": null,
         "oppositeEmoji": "👦",
         "definitions": [
             {
@@ -4815,7 +5218,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to people"
     },
     {
         "word": "boyfriend",
@@ -4824,7 +5228,7 @@
         "emoji": "🧑‍🤝‍🧑",
         "form": "noun",
         "plural": "boyfriends",
-        "opposite": "girlfriend",
+        "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
         "definitions": [
             {
@@ -4834,7 +5238,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to marital status"
     },
     {
         "word": "girlfriend",
@@ -4843,7 +5248,7 @@
         "emoji": "🧑‍🤝‍🧑",
         "form": "noun",
         "plural": "girlfriends",
-        "opposite": "boyfriend",
+        "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
         "definitions": [
             {
@@ -4853,7 +5258,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to marital status"
     },
     {
         "word": "student",
@@ -4862,7 +5268,7 @@
         "emoji": "🧑‍🎓",
         "form": "noun",
         "plural": "students",
-        "opposite": "teacher",
+        "opposite": null,
         "oppositeEmoji": "🧑‍🏫",
         "definitions": [
             {
@@ -4872,7 +5278,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to learning studying"
     },
     {
         "word": "classmate",
@@ -4889,7 +5296,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to learning studying",
+        "opposite": null
     },
     {
         "word": "camera",
@@ -4906,7 +5315,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "computer",
@@ -4923,7 +5334,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "bottle",
@@ -4940,7 +5353,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "box",
@@ -4957,7 +5372,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "ball",
@@ -4974,7 +5391,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to sports equipment",
+        "opposite": null
     },
     {
         "word": "gift",
@@ -4992,7 +5411,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "street",
@@ -5009,7 +5429,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to address location",
+        "opposite": null
     },
     {
         "word": "building",
@@ -5026,7 +5448,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to address location",
+        "opposite": null
     },
     {
         "word": "cafe",
@@ -5043,7 +5467,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
     },
     {
         "word": "centre",
@@ -5061,7 +5487,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "butter",
@@ -5078,7 +5505,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "cheese",
@@ -5095,7 +5524,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "actor",
@@ -5112,7 +5543,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "artist",
@@ -5129,7 +5562,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "adult",
@@ -5148,7 +5583,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to people"
     },
     {
         "word": "advice",
@@ -5165,7 +5601,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to greetings social phrases",
+        "opposite": null
     },
     {
         "word": "age",
@@ -5182,7 +5620,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to age",
+        "opposite": null
     },
     {
         "word": "air",
@@ -5199,7 +5639,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "area",
@@ -5216,7 +5658,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to address location",
+        "opposite": null
     },
     {
         "word": "art",
@@ -5233,7 +5677,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
     },
     {
         "word": "band",
@@ -5250,7 +5696,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to music",
+        "opposite": null
     },
     {
         "word": "bath",
@@ -5267,7 +5715,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "birthday",
@@ -5284,7 +5734,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to personal identity",
+        "opposite": null
     },
     {
         "word": "boat",
@@ -5301,7 +5753,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to modes of transport",
+        "opposite": null
     },
     {
         "word": "business",
@@ -5318,7 +5772,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to workplace basics",
+        "opposite": null
     },
     {
         "word": "college",
@@ -5335,7 +5791,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to types of education",
+        "opposite": null
     },
     {
         "word": "company",
@@ -5352,7 +5810,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to workplace basics",
+        "opposite": null
     },
     {
         "word": "concert",
@@ -5369,7 +5829,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to music",
+        "opposite": null
     },
     {
         "word": "conversation",
@@ -5386,7 +5848,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "again",
@@ -5401,7 +5865,9 @@
                     "Can you say that again, please?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to frequency adverbs",
+        "opposite": null
     },
     {
         "word": "ago",
@@ -5416,7 +5882,9 @@
                     "He left ten minutes ago."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "also",
@@ -5431,7 +5899,9 @@
                     "I speak English and also French."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to conjunctions connectors",
+        "opposite": null
     },
     {
         "word": "really",
@@ -5447,7 +5917,9 @@
                     "I really like this song."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to basic intensifiers",
+        "opposite": null
     },
     {
         "word": "there",
@@ -5462,7 +5934,9 @@
                     "The book is over there."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place",
+        "opposite": null
     },
     {
         "word": "pencil",
@@ -5479,7 +5953,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "paper",
@@ -5496,7 +5972,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "wallet",
@@ -5513,7 +5991,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to everyday shopping",
+        "opposite": null
     },
     {
         "word": "umbrella",
@@ -5530,7 +6010,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to weather",
+        "opposite": null
     },
     {
         "word": "glasses",
@@ -5547,7 +6029,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "watch",
@@ -5564,7 +6048,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "fridge",
@@ -5582,7 +6068,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "oven",
@@ -5599,7 +6086,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "soap",
@@ -5616,7 +6105,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "towel",
@@ -5633,7 +6124,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "city",
@@ -5650,7 +6143,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to cities towns",
+        "opposite": null
     },
     {
         "word": "town",
@@ -5667,7 +6162,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to cities towns",
+        "opposite": null
     },
     {
         "word": "village",
@@ -5684,7 +6181,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to cities towns",
+        "opposite": null
     },
     {
         "word": "country",
@@ -5701,7 +6200,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to countries capitals",
+        "opposite": null
     },
     {
         "word": "jeans",
@@ -5719,7 +6220,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "belt",
@@ -5736,14 +6238,16 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "with",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "opposite": "without",
+        "opposite": null,
         "definitions": [
             {
                 "text": "In the company of or including.",
@@ -5751,14 +6255,15 @@
                     "I like coffee with milk."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "without",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "opposite": "with",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Not having or including something.",
@@ -5766,7 +6271,8 @@
                     "I prefer tea without sugar."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "to",
@@ -5780,7 +6286,9 @@
                     "I go to work by bus."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions movement",
+        "opposite": null
     },
     {
         "word": "from",
@@ -5794,7 +6302,9 @@
                     "He is from Spain."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place",
+        "opposite": null
     },
     {
         "word": "for",
@@ -5808,7 +6318,9 @@
                     "This gift is for you."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions time",
+        "opposite": null
     },
     {
         "word": "or",
@@ -5822,7 +6334,9 @@
                     "Do you want tea or coffee?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to conjunctions connectors",
+        "opposite": null
     },
     {
         "word": "so",
@@ -5836,7 +6350,9 @@
                     "It was raining, so I took an umbrella."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to conjunctions connectors",
+        "opposite": null
     },
     {
         "word": "game",
@@ -5853,7 +6369,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to leisure activities",
+        "opposite": null
     },
     {
         "word": "music",
@@ -5870,7 +6388,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to music",
+        "opposite": null
     },
     {
         "word": "song",
@@ -5887,7 +6407,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to music",
+        "opposite": null
     },
     {
         "word": "sport",
@@ -5904,7 +6426,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to common sports",
+        "opposite": null
     },
     {
         "word": "football",
@@ -5922,7 +6446,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "tennis",
@@ -5939,7 +6464,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to common sports",
+        "opposite": null
     },
     {
         "word": "yesterday",
@@ -5947,7 +6474,7 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
-        "opposite": "today",
+        "opposite": "tomorrow",
         "definitions": [
             {
                 "text": "On the day before today.",
@@ -5955,7 +6482,8 @@
                     "I was at home yesterday."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to times day"
     },
     {
         "word": "now",
@@ -5970,7 +6498,9 @@
                     "I am busy now."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "soon",
@@ -5985,7 +6515,9 @@
                     "See you soon!"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "later",
@@ -6000,7 +6532,9 @@
                     "I will call you later."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "internet",
@@ -6017,7 +6551,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to using smartphone",
+        "opposite": null
     },
     {
         "word": "website",
@@ -6034,7 +6570,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to using smartphone",
+        "opposite": null
     },
     {
         "word": "email",
@@ -6051,7 +6589,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to using smartphone",
+        "opposite": null
     },
     {
         "word": "message",
@@ -6068,7 +6608,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to using smartphone",
+        "opposite": null
     },
     {
         "word": "newspaper",
@@ -6085,7 +6627,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "magazine",
@@ -6102,7 +6646,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "passport",
@@ -6119,7 +6665,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to travel vocabulary basics",
+        "opposite": null
     },
     {
         "word": "ticket",
@@ -6136,7 +6684,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to travel vocabulary basics",
+        "opposite": null
     },
     {
         "word": "salt",
@@ -6153,7 +6703,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "snack",
@@ -6170,7 +6722,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "pear",
@@ -6187,7 +6741,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "cucumber",
@@ -6204,7 +6760,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "lettuce",
@@ -6221,7 +6779,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "wall",
@@ -6238,7 +6798,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "floor",
@@ -6255,7 +6817,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "stairs",
@@ -6272,7 +6836,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "map",
@@ -6289,7 +6855,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "ruler",
@@ -6306,7 +6874,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "mouse",
@@ -6325,7 +6895,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "snake",
@@ -6342,7 +6914,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "monkey",
@@ -6359,7 +6933,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "spider",
@@ -6376,7 +6952,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "bee",
@@ -6393,7 +6971,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "shower",
@@ -6410,7 +6990,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "toilet",
@@ -6427,7 +7009,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "sink",
@@ -6444,7 +7028,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "sofa",
@@ -6462,7 +7048,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "shelf",
@@ -6481,7 +7068,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "toothbrush",
@@ -6498,7 +7087,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "toothpaste",
@@ -6515,7 +7106,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "shampoo",
@@ -6532,7 +7125,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "history",
@@ -6549,7 +7144,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to school subjects",
+        "opposite": null
     },
     {
         "word": "science",
@@ -6566,7 +7163,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to school subjects",
+        "opposite": null
     },
     {
         "word": "maths",
@@ -6584,7 +7183,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "geography",
@@ -6601,7 +7201,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to school subjects",
+        "opposite": null
     },
     {
         "word": "hour",
@@ -6618,7 +7220,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to telling time",
+        "opposite": null
     },
     {
         "word": "minute",
@@ -6635,7 +7239,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to telling time",
+        "opposite": null
     },
     {
         "word": "second",
@@ -6652,7 +7258,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to telling time",
+        "opposite": null
     },
     {
         "word": "lesson",
@@ -6669,7 +7277,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to learning studying",
+        "opposite": null
     },
     {
         "word": "homework",
@@ -6686,7 +7296,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to learning studying",
+        "opposite": null
     },
     {
         "word": "guitar",
@@ -6703,7 +7315,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to music",
+        "opposite": null
     },
     {
         "word": "piano",
@@ -6720,7 +7334,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to music",
+        "opposite": null
     },
     {
         "word": "forest",
@@ -6737,7 +7353,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "island",
@@ -6754,7 +7372,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "hill",
@@ -6771,7 +7391,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "duck",
@@ -6788,7 +7410,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "tiger",
@@ -6805,7 +7429,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "bear",
@@ -6822,7 +7448,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "keyboard",
@@ -6839,7 +7467,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "screen",
@@ -6856,7 +7486,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "dish",
@@ -6873,7 +7505,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "year",
@@ -6890,7 +7524,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to dates years",
+        "opposite": null
     },
     {
         "word": "dad",
@@ -6907,7 +7543,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "mum",
@@ -6924,7 +7562,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to immediate family",
+        "opposite": null
     },
     {
         "word": "garden",
@@ -6941,7 +7581,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "garage",
@@ -6958,7 +7600,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "sandwich",
@@ -6975,7 +7619,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "trip",
@@ -6992,7 +7638,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to travel vocabulary basics",
+        "opposite": null
     },
     {
         "word": "zoo",
@@ -7009,7 +7657,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
     },
     {
         "word": "dictionary",
@@ -7026,7 +7676,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "something",
@@ -7041,7 +7693,9 @@
                     "I want to tell you something."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to describing things",
+        "opposite": null
     },
     {
         "word": "someone",
@@ -7056,7 +7710,9 @@
                     "Someone is at the door."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to people",
+        "opposite": null
     },
     {
         "word": "everyone",
@@ -7071,7 +7727,9 @@
                     "Hello everyone!"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to people",
+        "opposite": null
     },
     {
         "word": "already",
@@ -7086,7 +7744,9 @@
                     "I have already finished my work."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "still",
@@ -7101,7 +7761,9 @@
                     "I am still at the office."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "yet",
@@ -7116,7 +7778,9 @@
                     "Is it time yet?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to duration expressions",
+        "opposite": null
     },
     {
         "word": "up",
@@ -7124,7 +7788,7 @@
         "theme": "prepositions_movement_A1",
         "emoji": "⬆️",
         "form": "preposition",
-        "opposite": "down",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Towards a higher place or position.",
@@ -7132,7 +7796,8 @@
                     "Go up the stairs."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions movement"
     },
     {
         "word": "down",
@@ -7140,7 +7805,7 @@
         "theme": "prepositions_movement_A1",
         "emoji": "⬇️",
         "form": "preposition",
-        "opposite": "up",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Towards a lower place or position.",
@@ -7148,7 +7813,8 @@
                     "Sit down, please."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions movement"
     },
     {
         "word": "oil",
@@ -7165,7 +7831,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "pepper",
@@ -7182,7 +7850,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "taxi",
@@ -7199,7 +7869,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to modes of transport",
+        "opposite": null
     },
     {
         "word": "bridge",
@@ -7216,7 +7888,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "heart",
@@ -7233,7 +7907,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to body parts",
+        "opposite": null
     },
     {
         "word": "theatre",
@@ -7251,7 +7927,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "stadium",
@@ -7268,7 +7945,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
     },
     {
         "word": "tonight",
@@ -7283,7 +7962,9 @@
                     "What are you doing tonight?"
                 ]
             }
-        ]
+        ],
+        "subtext": "related to times day",
+        "opposite": null
     },
     {
         "word": "world",
@@ -7300,7 +7981,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to countries capitals",
+        "opposite": null
     },
     {
         "word": "life",
@@ -7317,7 +8000,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to personal identity",
+        "opposite": null
     },
     {
         "word": "way",
@@ -7335,7 +8020,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to directions navigation",
+        "opposite": null
     },
     {
         "word": "thing",
@@ -7352,7 +8039,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to describing things",
+        "opposite": null
     },
     {
         "word": "place",
@@ -7369,7 +8058,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
     },
     {
         "word": "word",
@@ -7386,7 +8077,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "number",
@@ -7403,7 +8096,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to numbers 0 9",
+        "opposite": null
     },
     {
         "word": "body",
@@ -7420,7 +8115,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to health body",
+        "opposite": null
     },
     {
         "word": "north",
@@ -7437,7 +8134,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to directions navigation"
     },
     {
         "word": "south",
@@ -7454,7 +8152,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to directions navigation"
     },
     {
         "word": "east",
@@ -7471,7 +8170,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to directions navigation"
     },
     {
         "word": "west",
@@ -7488,7 +8188,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to directions navigation"
     },
     {
         "word": "board",
@@ -7506,7 +8207,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "eraser",
@@ -7524,7 +8227,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "pencil case",
@@ -7541,7 +8245,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "notebook",
@@ -7558,7 +8264,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "textbook",
@@ -7575,7 +8283,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "backpack",
@@ -7592,7 +8302,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "armchair",
@@ -7609,7 +8321,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "bookcase",
@@ -7626,7 +8340,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "cupboard",
@@ -7643,7 +8359,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "rug",
@@ -7660,7 +8378,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "drawer",
@@ -7677,7 +8397,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "ceiling",
@@ -7694,7 +8416,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "toy",
@@ -7711,7 +8435,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "doll",
@@ -7728,7 +8454,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "robot",
@@ -7745,7 +8473,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "monster",
@@ -7762,7 +8492,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "alien",
@@ -7779,7 +8511,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "kite",
@@ -7796,7 +8530,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "balloon",
@@ -7813,7 +8549,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to toys games",
+        "opposite": null
     },
     {
         "word": "hobby",
@@ -7830,7 +8568,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to hobbies interests",
+        "opposite": null
     },
     {
         "word": "pet",
@@ -7847,7 +8587,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to pets",
+        "opposite": null
     },
     {
         "word": "hamster",
@@ -7864,7 +8606,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to pets",
+        "opposite": null
     },
     {
         "word": "lizard",
@@ -7881,7 +8625,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to pets",
+        "opposite": null
     },
     {
         "word": "turtle",
@@ -7898,7 +8644,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to pets",
+        "opposite": null
     },
     {
         "word": "playground",
@@ -7915,7 +8663,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to leisure activities",
+        "opposite": null
     },
     {
         "word": "story",
@@ -7933,7 +8683,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to books reading",
+        "opposite": null
     },
     {
         "word": "painting",
@@ -7950,7 +8702,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
     },
     {
         "word": "poster",
@@ -7967,7 +8721,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "sentence",
@@ -7984,7 +8740,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "question",
@@ -8002,7 +8760,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to asking answering questions",
+        "opposite": null
     },
     {
         "word": "answer",
@@ -8019,7 +8779,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to asking answering questions",
+        "opposite": "ask"
     },
     {
         "word": "page",
@@ -8036,7 +8798,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "basketball",
@@ -8053,7 +8817,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to common sports",
+        "opposite": null
     },
     {
         "word": "baseball",
@@ -8070,7 +8836,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to common sports",
+        "opposite": null
     },
     {
         "word": "bat",
@@ -8087,7 +8855,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to sports equipment",
+        "opposite": null
     },
     {
         "word": "scooter",
@@ -8104,7 +8874,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to modes of transport",
+        "opposite": null
     },
     {
         "word": "motorbike",
@@ -8121,7 +8893,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to modes of transport",
+        "opposite": null
     },
     {
         "word": "truck",
@@ -8139,7 +8913,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "farmer",
@@ -8156,7 +8931,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "pilot",
@@ -8173,7 +8950,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "waiter",
@@ -8190,7 +8969,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "waitress",
@@ -8207,7 +8988,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "dentist",
@@ -8224,7 +9007,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "mechanic",
@@ -8241,7 +9026,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "police officer",
@@ -8258,7 +9045,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "firefighter",
@@ -8275,7 +9064,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "soldier",
@@ -8292,7 +9083,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "bowl",
@@ -8309,7 +9102,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to kitchen items",
+        "opposite": null
     },
     {
         "word": "kettle",
@@ -8326,7 +9121,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to kitchen items",
+        "opposite": null
     },
     {
         "word": "pan",
@@ -8343,7 +9140,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to kitchen items",
+        "opposite": null
     },
     {
         "word": "pot",
@@ -8360,7 +9159,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to kitchen items",
+        "opposite": null
     },
     {
         "word": "crocodile",
@@ -8377,7 +9178,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
     },
     {
         "word": "shark",
@@ -8394,7 +9197,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to sea animals",
+        "opposite": null
     },
     {
         "word": "whale",
@@ -8411,7 +9216,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to sea animals",
+        "opposite": null
     },
     {
         "word": "dolphin",
@@ -8428,7 +9235,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to sea animals",
+        "opposite": null
     },
     {
         "word": "octopus",
@@ -8445,7 +9254,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to sea animals",
+        "opposite": null
     },
     {
         "word": "butterfly",
@@ -8462,7 +9273,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to insects",
+        "opposite": null
     },
     {
         "word": "ant",
@@ -8479,7 +9292,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to insects",
+        "opposite": null
     },
     {
         "word": "ocean",
@@ -8496,7 +9311,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "desert",
@@ -8513,7 +9330,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "jungle",
@@ -8530,7 +9349,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "earth",
@@ -8546,7 +9367,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "planet",
@@ -8563,7 +9386,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "violin",
@@ -8580,7 +9405,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to musical instruments",
+        "opposite": null
     },
     {
         "word": "drums",
@@ -8597,7 +9424,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to musical instruments",
+        "opposite": null
     },
     {
         "word": "flute",
@@ -8614,7 +9443,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to musical instruments",
+        "opposite": null
     },
     {
         "word": "tie",
@@ -8631,7 +9462,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "ring",
@@ -8648,7 +9481,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "necklace",
@@ -8665,7 +9500,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to accessories",
+        "opposite": null
     },
     {
         "word": "roof",
@@ -8682,7 +9519,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "balcony",
@@ -8699,7 +9538,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "fence",
@@ -8716,7 +9557,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "gate",
@@ -8733,7 +9576,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "cookie",
@@ -8751,7 +9596,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "biscuit",
@@ -8769,7 +9615,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "yogurt",
@@ -8786,7 +9633,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "ham",
@@ -8803,7 +9652,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "bacon",
@@ -8820,7 +9671,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "sausage",
@@ -8837,7 +9690,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "honey",
@@ -8853,7 +9708,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "jam",
@@ -8869,7 +9726,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to basic foods",
+        "opposite": null
     },
     {
         "word": "pineapple",
@@ -8886,7 +9745,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to fruits vegetables",
+        "opposite": null
     },
     {
         "word": "watermelon",
@@ -8903,7 +9764,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to fruits vegetables",
+        "opposite": null
     },
     {
         "word": "mushroom",
@@ -8920,7 +9783,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to fruits vegetables",
+        "opposite": null
     },
     {
         "word": "broccoli",
@@ -8936,7 +9801,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to fruits vegetables",
+        "opposite": null
     },
     {
         "word": "peas",
@@ -8953,7 +9820,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to fruits vegetables",
+        "opposite": null
     },
     {
         "word": "envelope",
@@ -8970,7 +9839,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "stamp",
@@ -8987,7 +9858,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "stapler",
@@ -9004,7 +9877,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "glue",
@@ -9021,7 +9896,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "scissors",
@@ -9038,7 +9915,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "calculator",
@@ -9055,7 +9934,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to school stationery",
+        "opposite": null
     },
     {
         "word": "washing machine",
@@ -9072,7 +9953,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "dishwasher",
@@ -9089,7 +9972,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "toaster",
@@ -9106,7 +9991,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "vacuum cleaner",
@@ -9123,7 +10010,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "remote control",
@@ -9140,7 +10029,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "rainbow",
@@ -9157,7 +10048,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "storm",
@@ -9174,7 +10067,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "pyjamas",
@@ -9191,7 +10086,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "shorts",
@@ -9208,7 +10105,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "trainers",
@@ -9226,7 +10125,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "living room",
@@ -9243,7 +10143,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "dining room",
@@ -9260,7 +10162,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
     },
     {
         "word": "break",
@@ -9278,7 +10182,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "globe",
@@ -9295,7 +10200,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "address",
@@ -9314,7 +10221,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "nationality",
@@ -9332,7 +10240,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to personal identity",
+        "opposite": null
     },
     {
         "word": "language",
@@ -9351,7 +10261,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "clothes",
@@ -9370,7 +10281,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "occupation",
@@ -9389,7 +10301,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "furniture",
@@ -9408,7 +10321,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "information",
@@ -9427,7 +10341,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "nature",
@@ -9445,7 +10360,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to nature landscapes",
+        "opposite": null
     },
     {
         "word": "weather",
@@ -9464,7 +10381,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "temperature",
@@ -9483,7 +10401,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "first name",
@@ -9492,7 +10411,7 @@
         "emoji": "🆔",
         "form": "noun",
         "plural": "first names",
-        "opposite": "surname",
+        "opposite": null,
         "subtext": "given name",
         "definitions": [
             {
@@ -9512,7 +10431,7 @@
         "emoji": "🆔",
         "form": "noun",
         "plural": "surnames",
-        "opposite": "first name",
+        "opposite": null,
         "subtext": "last name, family name",
         "definitions": [
             {
@@ -9541,7 +10460,9 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to weather",
+        "opposite": null
     },
     {
         "word": "news",
@@ -9560,7 +10481,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "bookshop",
@@ -9578,7 +10500,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "date",
@@ -9596,7 +10519,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "exam",
@@ -9614,7 +10538,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "example",
@@ -9632,7 +10557,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "film",
@@ -9650,7 +10576,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "idea",
@@ -9668,7 +10595,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "letter",
@@ -9686,7 +10614,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "list",
@@ -9704,7 +10633,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "meal",
@@ -9722,7 +10652,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "movie",
@@ -9740,7 +10671,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "party",
@@ -9758,7 +10690,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "photo",
@@ -9776,7 +10709,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "picture",
@@ -9794,7 +10728,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "road",
@@ -9812,7 +10747,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "test",
@@ -9830,7 +10766,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "university",
@@ -9848,7 +10785,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "writer",
@@ -9866,7 +10804,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "suitcase",
@@ -9883,7 +10822,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to travel vocabulary basics",
+        "opposite": null
     },
     {
         "word": "purse",
@@ -9900,7 +10841,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to everyday shopping",
+        "opposite": null
     },
     {
         "word": "pocket",
@@ -9917,7 +10860,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to items of clothing",
+        "opposite": null
     },
     {
         "word": "comb",
@@ -9934,7 +10879,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to furniture objects",
+        "opposite": null
     },
     {
         "word": "appointment",
@@ -9952,7 +10899,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "application",
@@ -9970,7 +10918,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "skill",
@@ -9988,7 +10937,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "opinion",
@@ -10006,7 +10956,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "apartment",
@@ -10024,7 +10975,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "bicycle",
@@ -10042,7 +10994,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "mobile",
@@ -10060,7 +11013,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "class",
@@ -10078,7 +11032,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "classroom",
@@ -10095,7 +11050,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to classroom language",
+        "opposite": null
     },
     {
         "word": "staff",
@@ -10113,7 +11070,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "customer",
@@ -10130,7 +11088,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to everyday shopping",
+        "opposite": null
     },
     {
         "word": "guest",
@@ -10147,7 +11107,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to leisure activities",
+        "opposite": null
     },
     {
         "word": "career",
@@ -10165,7 +11127,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "profession",
@@ -10183,7 +11146,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "wage",
@@ -10201,7 +11165,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "factory",
@@ -10218,7 +11183,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to workplace basics",
+        "opposite": null
     },
     {
         "word": "file",
@@ -10235,7 +11202,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to workplace basics",
+        "opposite": null
     },
     {
         "word": "document",
@@ -10252,7 +11221,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to workplace basics",
+        "opposite": null
     },
     {
         "word": "radio",
@@ -10269,7 +11240,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "printer",
@@ -10286,7 +11259,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to basic technology devices",
+        "opposite": null
     },
     {
         "word": "curtain",
@@ -10303,7 +11278,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "microwave",
@@ -10320,7 +11297,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     },
     {
         "word": "dessert",
@@ -10338,7 +11317,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "shoes",
@@ -10356,7 +11336,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "opposite": null
     },
     {
         "word": "jewelry",
@@ -10374,7 +11355,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "opposite": null
     },
     {
         "word": "nephew",
@@ -10383,7 +11365,7 @@
         "emoji": "👦",
         "form": "noun",
         "plural": "nephews",
-        "opposite": "niece",
+        "opposite": null,
         "definitions": [
             {
                 "text": "The son of your brother or sister.",
@@ -10392,7 +11374,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family"
     },
     {
         "word": "niece",
@@ -10401,7 +11384,7 @@
         "emoji": "👧",
         "form": "noun",
         "plural": "nieces",
-        "opposite": "nephew",
+        "opposite": null,
         "definitions": [
             {
                 "text": "The daughter of your brother or sister.",
@@ -10410,7 +11393,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to extended family"
     },
     {
         "word": "teenager",
@@ -10427,7 +11411,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to people",
+        "opposite": null
     },
     {
         "word": "professor",
@@ -10444,7 +11430,9 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
     },
     {
         "word": "month",
@@ -10461,14 +11449,17 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "subtext": "related to dates years",
+        "opposite": null
     },
     {
         "word": "excuse me",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👋",
-        "form": "noun",
+        "form": "phrase",
+        "subtext": "pardon me",
         "definitions": [
             {
                 "text": "A polite way of starting to talk to someone you do not know.",
@@ -10476,7 +11467,8 @@
                     "Excuse me, is this the way to the station?"
                 ]
             }
-        ]
+        ],
+        "opposite": null
     },
     {
         "word": "above",
@@ -10491,7 +11483,8 @@
                     "The shelf is above the desk."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "below",
@@ -10506,7 +11499,8 @@
                     "The desk is below the shelf."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "inside",
@@ -10521,7 +11515,8 @@
                     "Go inside the house."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "outside",
@@ -10536,7 +11531,8 @@
                     "It is cold outside."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions place"
     },
     {
         "word": "during",
@@ -10550,14 +11546,16 @@
                     "I sleep during the night."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions time",
+        "opposite": null
     },
     {
         "word": "before",
         "level": "starter",
         "theme": "prepositions_time_A1",
         "form": "preposition",
-        "opposite": "after",
+        "opposite": null,
         "definitions": [
             {
                 "text": "At an earlier time; in front of.",
@@ -10565,14 +11563,15 @@
                     "Wash your hands before dinner."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions time"
     },
     {
         "word": "after",
         "level": "starter",
         "theme": "prepositions_time_A1",
         "form": "preposition",
-        "opposite": "before",
+        "opposite": null,
         "definitions": [
             {
                 "text": "At a later time; following.",
@@ -10580,13 +11579,14 @@
                     "We have a meeting after lunch."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to prepositions time"
     },
     {
         "word": "top",
         "level": "starter",
         "theme": "size_shape_A1",
-        "emoji": "\ud83d\udd1d",
+        "emoji": "🔝",
         "form": "noun",
         "opposite": "bottom",
         "definitions": [
@@ -10597,13 +11597,14 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to size shape"
     },
     {
         "word": "bottom",
         "level": "starter",
         "theme": "size_shape_A1",
-        "emoji": "\u2b07\ufe0f",
+        "emoji": "⬇️",
         "form": "noun",
         "opposite": "top",
         "definitions": [
@@ -10614,13 +11615,14 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "subtext": "related to size shape"
     },
     {
         "word": "first",
         "level": "starter",
         "theme": "sequence_order_A2",
-        "emoji": "1\ufe0f\u20e3",
+        "emoji": "1️⃣",
         "form": "adjective",
         "opposite": "last",
         "definitions": [
@@ -10630,13 +11632,14 @@
                     "He was the first person to arrive."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to sequence order A2"
     },
     {
         "word": "last",
         "level": "starter",
         "theme": "sequence_order_A2",
-        "emoji": "\ud83d\udd1a",
+        "emoji": "🔚",
         "form": "adjective",
         "opposite": "first",
         "definitions": [
@@ -10646,13 +11649,14 @@
                     "She was the last person to leave."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to sequence order A2"
     },
     {
         "word": "next",
         "level": "starter",
         "theme": "sequence_order_A2",
-        "emoji": "\u23ed\ufe0f",
+        "emoji": "⏭️",
         "form": "adjective",
         "opposite": "previous",
         "definitions": [
@@ -10662,7 +11666,215 @@
                     "We will meet next week."
                 ]
             }
-        ]
+        ],
+        "subtext": "related to sequence order A2"
+    },
+    {
+        "word": "animal",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐾",
+        "form": "noun",
+        "plural": "animals",
+        "subtext": "creature / wild animal / pet animal",
+        "definitions": [
+            {
+                "text": "A living thing that can move and eat.",
+                "examples": [
+                    "A dog is an animal.",
+                    "I like animals."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "chips",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍟",
+        "form": "noun",
+        "plural": "chips",
+        "subtext": "french fries",
+        "definitions": [
+            {
+                "text": "Long thin pieces of potato cooked in oil.",
+                "examples": [
+                    "I want fish and chips for lunch."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "fries",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍟",
+        "form": "noun",
+        "plural": "fries",
+        "subtext": "french fries, chips",
+        "definitions": [
+            {
+                "text": "Long thin pieces of potato cooked in oil.",
+                "examples": [
+                    "Would you like fries with your burger?"
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "gym",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏋️",
+        "form": "noun",
+        "plural": "gyms",
+        "subtext": "fitness center / go to the gym",
+        "definitions": [
+            {
+                "text": "A room or building with equipment for doing physical exercise.",
+                "examples": [
+                    "I go to the gym three times a week."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "fire",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🔥",
+        "form": "noun",
+        "plural": "fires",
+        "subtext": "flames / start a fire",
+        "definitions": [
+            {
+                "text": "Heat and light from something burning.",
+                "examples": [
+                    "Be careful with the fire."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "group",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👥",
+        "form": "noun",
+        "plural": "groups",
+        "subtext": "set / a small group / group work",
+        "definitions": [
+            {
+                "text": "A number of people or things that are together.",
+                "examples": [
+                    "We work in a small group."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "ice",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🧊",
+        "form": "noun",
+        "subtext": "frozen water / ice cube",
+        "definitions": [
+            {
+                "text": "Water that has frozen and become solid.",
+                "examples": [
+                    "Do you want ice in your drink?"
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "opposite": null
+    },
+    {
+        "word": "police",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "👮",
+        "form": "noun",
+        "subtext": "police force / call the police",
+        "definitions": [
+            {
+                "text": "The official organization that makes sure people obey the law.",
+                "examples": [
+                    "Call the police!"
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "opposite": null
+    },
+    {
+        "word": "traffic",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🚗",
+        "form": "noun",
+        "subtext": "cars, vehicles / heavy traffic",
+        "definitions": [
+            {
+                "text": "The cars, trucks, and other vehicles using a road.",
+                "examples": [
+                    "The traffic is very heavy this morning."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "opposite": null
+    },
+    {
+        "word": "actress",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🎭",
+        "form": "noun",
+        "plural": "actresses",
+        "subtext": "actor / famous actress",
+        "definitions": [
+            {
+                "text": "A woman who performs in a play or movie.",
+                "examples": [
+                    "She is a famous actress."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+    {
+        "word": "farm",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🚜",
+        "form": "noun",
+        "plural": "farms",
+        "subtext": "countryside / work on a farm",
+        "definitions": [
+            {
+                "text": "An area of land used for growing crops and keeping animals.",
+                "examples": [
+                    "They live on a big farm."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
     }
 ];
     const lang = "en";
