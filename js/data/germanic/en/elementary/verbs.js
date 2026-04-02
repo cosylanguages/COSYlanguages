@@ -6,7 +6,7 @@
     "theme": "career_development_A2",
     "emoji": "✅",
     "form": "verb",
-    "subtext": "accept an offer / accept a challenge / accept a decision",
+    "subtext": "agree to / take / receive",
     "definitions": [
         {
             "text": "To agree to take or receive something.",
@@ -27,7 +27,7 @@
     "theme": "career_development_A2",
     "emoji": "🎯",
     "form": "verb",
-    "subtext": "achieve a goal / achieve success / achieve results",
+    "subtext": "succeed / reach / accomplish",
     "definitions": [
         {
             "text": "To succeed in finishing something or reaching a goal, especially after a lot of work or effort.",
@@ -49,7 +49,7 @@
     "theme": "social_emotions_A2",
     "emoji": "🤩",
     "form": "verb",
-    "subtext": "admire someone / deeply admire",
+    "subtext": "respect / look up to",
     "definitions": [
         {
             "text": "To find someone or something attractive and pleasant to look at.",
@@ -70,7 +70,7 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "🗣️",
     "form": "verb",
-    "subtext": "admit a mistake / refuse to admit",
+    "subtext": "confess / acknowledge",
     "definitions": [
         {
             "text": "To agree that something is true, especially unwillingly.",
@@ -91,7 +91,7 @@
     "theme": "giving_reasons_A2",
     "emoji": "👨‍🏫",
     "form": "verb",
-    "subtext": "advise someone / strongly advise",
+    "subtext": "counsel / suggest / recommend",
     "definitions": [
         {
             "text": "To give someone advice.",
@@ -133,7 +133,7 @@
     "theme": "relationships_dating_A2",
     "emoji": "✅",
     "form": "verb",
-    "subtext": "allow someone to do something, not allowed",
+    "subtext": "let / permit",
     "definitions": [
         {
             "text": "To let someone do something.",
@@ -154,7 +154,7 @@
     "theme": "basic_science_A2",
     "emoji": "📊",
     "form": "verb",
-    "subtext": "analyze data / analyze results",
+    "subtext": "study / examine / investigate",
     "definitions": [
         {
             "text": "To study something in detail to understand it.",
@@ -175,7 +175,7 @@
     "theme": "news_media_A2",
     "emoji": "📣",
     "form": "verb",
-    "subtext": "announce news / officially announce",
+    "subtext": "declare / proclaim / publish",
     "definitions": [
         {
             "text": "To make something known or tell people about something officially.",
@@ -196,7 +196,7 @@
     "theme": "social_emotions_A2",
     "emoji": "🙏",
     "form": "verb",
-    "subtext": "apologise for / apologise to someone / sincerely apologise",
+    "subtext": "say sorry / express regret",
     "definitions": [
         {
             "text": "To express regret for something you have done wrong.",
@@ -217,7 +217,7 @@
     "theme": "personal_qualities_A2",
     "emoji": "👻",
     "form": "verb",
-    "subtext": "appear to be / appear in public / appear online / appear confident",
+    "subtext": "seem / look like",
     "definitions": [
         {
             "text": "To come into view; to seem.",
@@ -280,7 +280,7 @@
     "theme": "social_emotions_A2",
     "emoji": "🙏",
     "form": "verb",
-    "subtext": "greatly appreciate",
+    "subtext": "value / treasure / understand",
     "definitions": [
         {
             "text": "To understand how good or useful someone or something is.",
@@ -301,7 +301,7 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "🗣️",
     "form": "verb",
-    "subtext": "argue about / argue with someone / argue over something",
+    "subtext": "disagree / quarrel / fight",
     "definitions": [
         {
             "text": "To disagree with someone in an angry or forceful way.",
@@ -322,7 +322,7 @@
     "theme": "booking_planning_a_trip_A2",
     "emoji": "🗓️",
     "form": "verb",
-    "subtext": "arrange a meeting / arrange flowers",
+    "subtext": "plan / organize / schedule",
     "definitions": [
         {
             "text": "To plan, prepare for, or organize something.",
@@ -364,7 +364,7 @@
     "theme": "career_development_A2",
     "emoji": "🤝",
     "form": "verb",
-    "subtext": "assist someone / assist with",
+    "subtext": "help / support / aid",
     "definitions": [
         {
             "text": "To help.",
@@ -385,7 +385,7 @@
     "theme": "internet_social_media_A2",
     "emoji": "📎",
     "form": "verb",
-    "subtext": "attach a file",
+    "subtext": "join / connect / fasten",
     "definitions": [
         {
             "text": "To fasten, join, or connect something.",
@@ -406,7 +406,7 @@
     "theme": "school_life_routines_A2",
     "emoji": "🙋",
     "form": "verb",
-    "subtext": "attend a meeting / attend school / attend a wedding",
+    "subtext": "go to / be present at",
     "definitions": [
         {
             "text": "To go to an event, place, etc.",
@@ -428,7 +428,7 @@
     "theme": "personality_character_A2",
     "emoji": "🧲",
     "form": "verb",
-    "subtext": "attract attention / attract visitors / be attracted to",
+    "subtext": "draw / pull / appeal to",
     "definitions": [
         {
             "text": "To pull or draw someone or something towards them.",
@@ -4775,6 +4775,195 @@
     "v2": "responded",
     "v3": "responded",
     "opposite": "ignore"
+},
+{
+    "word": "rehearse",
+    "level": "elementary",
+    "theme": "theatre_performance_A2",
+    "emoji": "🎭",
+    "form": "verb",
+    "v2": "rehearsed",
+    "v3": "rehearsed",
+    "opposite": "perform",
+    "definitions": [
+        {
+            "text": "To practice a play, piece of music, etc. in order to prepare it for performance.",
+            "examples": [
+                "The orchestra is rehearsing for the concert.",
+                "They have been rehearsing the play for months."
+            ]
+        }
+    ],
+    "subtext": "practice / prepare",
+    "classification": "regular"
+},
+{
+    "word": "applaud",
+    "level": "elementary",
+    "theme": "theatre_performance_A2",
+    "emoji": "👏",
+    "form": "verb",
+    "v2": "applauded",
+    "v3": "applauded",
+    "opposite": null,
+    "definitions": [
+        {
+            "text": "To show approval of something by clapping your hands.",
+            "examples": [
+                "The audience applauded for several minutes.",
+                "The teacher applauded the students' efforts."
+            ]
+        }
+    ],
+    "subtext": "clap / cheer",
+    "classification": "regular"
+},
+{
+    "word": "check in",
+    "level": "elementary",
+    "theme": "at_the_airport_A2",
+    "emoji": "🏢",
+    "form": "verb",
+    "v2": "checked in",
+    "v3": "checked in",
+    "opposite": "check out",
+    "definitions": [
+        {
+            "text": "To report your arrival at an airport or hotel.",
+            "examples": [
+                "You need to check in two hours before the flight.",
+                "We checked in at the hotel at 3 pm."
+            ]
+        }
+    ],
+    "subtext": "register arrival",
+    "classification": "regular"
+},
+{
+    "word": "pack",
+    "level": "elementary",
+    "theme": "moving_home_A2",
+    "emoji": "📦",
+    "form": "verb",
+    "v2": "packed",
+    "v3": "packed",
+    "opposite": "unpack",
+    "definitions": [
+        {
+            "text": "To put items into containers, especially for a journey or moving home.",
+            "examples": [
+                "I need to pack my suitcase tonight.",
+                "We spent all day packing boxes."
+            ]
+        }
+    ],
+    "subtext": "fill / put away",
+    "classification": "regular"
+},
+{
+    "word": "unpack",
+    "level": "elementary",
+    "theme": "moving_home_A2",
+    "emoji": "📦",
+    "form": "verb",
+    "v2": "unpacked",
+    "v3": "unpacked",
+    "opposite": "pack",
+    "definitions": [
+        {
+            "text": "To take items out of a container.",
+            "examples": [
+                "It took us three days to unpack all the boxes.",
+                "I'll unpack my bag later."
+            ]
+        }
+    ],
+    "subtext": "empty / take out",
+    "classification": "regular"
+},
+{
+    "word": "overtake",
+    "level": "elementary",
+    "theme": "driving_roads_A2",
+    "emoji": "🏎️",
+    "form": "verb",
+    "v2": "overtook",
+    "v3": "overtaken",
+    "opposite": null,
+    "definitions": [
+        {
+            "text": "To come from behind another vehicle and go past it.",
+            "examples": [
+                "It's dangerous to overtake on a corner.",
+                "He overtook the slow truck."
+            ]
+        }
+    ],
+    "subtext": "pass a car",
+    "classification": "irregular"
+},
+{
+    "word": "pass",
+    "level": "elementary",
+    "theme": "qualifications_exams_A2",
+    "emoji": "✅",
+    "form": "verb",
+    "v2": "passed",
+    "v3": "passed",
+    "opposite": "fail",
+    "definitions": [
+        {
+            "text": "To succeed in an exam or test.",
+            "examples": [
+                "I hope I pass my driving test.",
+                "She passed all her exams with high grades."
+            ]
+        }
+    ],
+    "subtext": "succeed / get through",
+    "classification": "regular"
+},
+{
+    "word": "break up",
+    "level": "elementary",
+    "theme": "relationships_dating_A2",
+    "emoji": "💔",
+    "form": "verb",
+    "v2": "broke up",
+    "v3": "broken up",
+    "opposite": "get together",
+    "definitions": [
+        {
+            "text": "To end a romantic relationship.",
+            "examples": [
+                "They broke up after three years together.",
+                "She's very sad because they just broke up."
+            ]
+        }
+    ],
+    "subtext": "end relationship / separate",
+    "classification": "irregular"
+},
+{
+    "word": "check out",
+    "level": "elementary",
+    "theme": "accommodation_A2",
+    "emoji": "🚪",
+    "form": "verb",
+    "v2": "checked out",
+    "v3": "checked out",
+    "opposite": "check in",
+    "definitions": [
+        {
+            "text": "To leave a hotel after paying the bill.",
+            "examples": [
+                "We need to check out before 11 am.",
+                "They checked out of the hotel this morning."
+            ]
+        }
+    ],
+    "subtext": "register departure",
+    "classification": "regular"
 }
     ];
     const lang = "en";

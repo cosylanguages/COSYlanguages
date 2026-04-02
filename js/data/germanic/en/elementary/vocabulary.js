@@ -4541,7 +4541,7 @@
             ]
         }
     ],
-    "subtext": "unfortunate event",
+    "subtext": "unfortunate event / crash / mishap",
     "countability": "countable"
 },
 {
@@ -4559,7 +4559,7 @@
             ]
         }
     ],
-    "subtext": "exciting experience",
+    "subtext": "exciting experience / quest / journey",
     "countability": "countable"
 },
 {
@@ -4631,7 +4631,7 @@
             ]
         }
     ],
-    "subtext": "conduct",
+    "subtext": "conduct / manner / actions",
     "countability": "uncountable"
 },
 {
@@ -4666,7 +4666,7 @@
             ]
         }
     ],
-    "subtext": "trade / company",
+    "subtext": "trade / company / commerce",
     "countability": "uncountable"
 },
 {
@@ -4720,7 +4720,7 @@
             ]
         }
     ],
-    "subtext": "difficult task",
+    "subtext": "difficult task / trial / test",
     "countability": "countable"
 },
 {
@@ -4738,7 +4738,7 @@
             ]
         }
     ],
-    "subtext": "aid organization",
+    "subtext": "aid organization / non-profit / donation",
     "countability": "uncountable"
 },
 {
@@ -4990,7 +4990,7 @@
             ]
         }
     ],
-    "subtext": "imagination",
+    "subtext": "imagination / inventiveness / originality",
     "countability": "uncountable"
 },
 {
@@ -5044,8 +5044,1204 @@
             ]
         }
     ],
-    "subtext": "traditions / customs",
+    "subtext": "traditions / customs / way of life",
     "countability": "uncountable"
+},
+{
+    "word": "drought",
+    "level": "elementary",
+    "theme": "weather_climate_A2",
+    "emoji": "🌵",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "droughts",
+    "definitions": [
+        {
+            "text": "A long period when there is little or no rain.",
+            "examples": [
+                "The crops died during the long drought.",
+                "The country is suffering from its worst drought in decades."
+            ]
+        }
+    ],
+    "subtext": "dry period / lack of rain"
+},
+{
+    "word": "forecast",
+    "level": "elementary",
+    "theme": "weather_climate_A2",
+    "emoji": "📺",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "forecasts",
+    "definitions": [
+        {
+            "text": "A statement of what is judged likely to happen in the future, especially regarding the weather.",
+            "examples": [
+                "The weather forecast for tomorrow is sunny.",
+                "What is the economic forecast for next year?"
+            ]
+        }
+    ],
+    "subtext": "prediction / weather report"
+},
+{
+    "word": "humidity",
+    "level": "elementary",
+    "theme": "weather_climate_A2",
+    "emoji": "💦",
+    "form": "noun",
+    "countability": "uncountable",
+    "plural": null,
+    "definitions": [
+        {
+            "text": "The amount of water vapor in the air.",
+            "examples": [
+                "The humidity is very high today.",
+                "I don't like the heat and humidity here."
+            ]
+        }
+    ],
+    "subtext": "moisture in the air"
+},
+{
+    "word": "stage",
+    "level": "elementary",
+    "theme": "theatre_performance_A2",
+    "emoji": "🎭",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "stages",
+    "definitions": [
+        {
+            "text": "The area in a theatre where actors perform.",
+            "examples": [
+                "The actors were nervous before going on stage.",
+                "The stage was set for the first act."
+            ]
+        }
+    ],
+    "subtext": "performance area / platform"
+},
+{
+    "word": "script",
+    "level": "elementary",
+    "theme": "theatre_performance_A2",
+    "emoji": "📜",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "scripts",
+    "definitions": [
+        {
+            "text": "The written text of a play, movie, or broadcast.",
+            "examples": [
+                "The actors are reading their scripts.",
+                "He wrote the script for the new movie."
+            ]
+        }
+    ],
+    "subtext": "written text / play text"
+},
+{
+    "word": "rehearsal",
+    "level": "elementary",
+    "theme": "theatre_performance_A2",
+    "emoji": "🎭",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "rehearsals",
+    "definitions": [
+        {
+            "text": "A time when all the people involved in a play, dance, etc. practice in order to prepare for a performance.",
+            "examples": [
+                "We have a rehearsal every Monday evening.",
+                "The final rehearsal went very well."
+            ]
+        }
+    ],
+    "subtext": "practice / preparation"
+},
+{
+    "word": "reservation",
+    "level": "elementary",
+    "theme": "restaurants_ordering_A2",
+    "emoji": "📅",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "reservations",
+    "definitions": [
+        {
+            "text": "An arrangement to have something kept for you, such as a table at a restaurant.",
+            "examples": [
+                "I'd like to make a reservation for two people.",
+                "We have a reservation for eight o'clock."
+            ]
+        }
+    ],
+    "subtext": "booking / advance arrangement"
+},
+{
+    "word": "main course",
+    "level": "elementary",
+    "theme": "restaurants_ordering_A2",
+    "emoji": "🍽️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "main courses",
+    "definitions": [
+        {
+            "text": "The largest or most important part of a meal.",
+            "examples": [
+                "For my main course, I'll have the grilled salmon.",
+                "What are you having for your main course?"
+            ]
+        }
+    ],
+    "subtext": "entree / primary dish"
+},
+{
+    "word": "buffet",
+    "level": "elementary",
+    "theme": "restaurants_ordering_A2",
+    "emoji": "🍲",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "buffets",
+    "definitions": [
+        {
+            "text": "A meal where people serve themselves from several dishes on a table.",
+            "examples": [
+                "The hotel offers a breakfast buffet.",
+                "It was a cold buffet with lots of salads."
+            ]
+        }
+    ],
+    "subtext": "self-service meal"
+},
+{
+    "word": "tip",
+    "level": "elementary",
+    "theme": "restaurants_ordering_A2",
+    "emoji": "💸",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "tips",
+    "definitions": [
+        {
+            "text": "A small amount of extra money given to someone who has provided a service.",
+            "examples": [
+                "We left a generous tip for the waiter.",
+                "How much tip should I give?"
+            ]
+        }
+    ],
+    "subtext": "gratuity / service charge"
+},
+{
+    "word": "fitting room",
+    "level": "elementary",
+    "theme": "shopping_for_clothes_A2",
+    "emoji": "👗",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "fitting rooms",
+    "definitions": [
+        {
+            "text": "A room in a shop where you can try on clothes to see if they fit.",
+            "examples": [
+                "Where are the fitting rooms?",
+                "I'm going to the fitting room to try this on."
+            ]
+        }
+    ],
+    "subtext": "changing room / try-on room"
+},
+{
+    "word": "discount",
+    "level": "elementary",
+    "theme": "shopping_for_clothes_A2",
+    "emoji": "🏷️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "discounts",
+    "definitions": [
+        {
+            "text": "A reduction in the usual price of something.",
+            "examples": [
+                "They offer a 10% discount for students.",
+                "Is there any discount if I buy three?"
+            ]
+        }
+    ],
+    "subtext": "reduction / price cut"
+},
+{
+    "word": "refund",
+    "level": "elementary",
+    "theme": "shopping_for_clothes_A2",
+    "emoji": "💵",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "refunds",
+    "definitions": [
+        {
+            "text": "An amount of money that is given back to you, especially because you are not happy with a product.",
+            "examples": [
+                "I took the dress back and got a full refund.",
+                "I'd like a refund, please."
+            ]
+        }
+    ],
+    "subtext": "money back / repayment"
+},
+{
+    "word": "departure",
+    "level": "elementary",
+    "theme": "at_the_airport_A2",
+    "emoji": "🛫",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "departures",
+    "definitions": [
+        {
+            "text": "The act of leaving a place, especially to start a journey.",
+            "examples": [
+                "Our departure was delayed by an hour.",
+                "Check the flight departures board."
+            ]
+        }
+    ],
+    "subtext": "leaving / setting off",
+    "opposite": "arrival"
+},
+{
+    "word": "arrival",
+    "level": "elementary",
+    "theme": "at_the_airport_A2",
+    "emoji": "🛬",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "arrivals",
+    "definitions": [
+        {
+            "text": "The act of coming to a place.",
+            "examples": [
+                "We are waiting for the arrival of the flight.",
+                "Check the arrivals board."
+            ]
+        }
+    ],
+    "subtext": "coming / reaching",
+    "opposite": "departure"
+},
+{
+    "word": "junction",
+    "level": "elementary",
+    "theme": "driving_roads_A2",
+    "emoji": "🛣️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "junctions",
+    "definitions": [
+        {
+            "text": "A place where two or more roads or railroads join.",
+            "examples": [
+                "Turn left at the next junction.",
+                "The accident happened at a busy road junction."
+            ]
+        }
+    ],
+    "subtext": "intersection / road crossing"
+},
+{
+    "word": "traffic lights",
+    "level": "elementary",
+    "theme": "driving_roads_A2",
+    "emoji": "🚦",
+    "form": "noun",
+    "countability": "plural",
+    "plural": "traffic lights",
+    "definitions": [
+        {
+            "text": "A set of red, yellow, and green lights that control the flow of traffic.",
+            "examples": [
+                "Stop when the traffic lights are red.",
+                "Turn right at the traffic lights."
+            ]
+        }
+    ],
+    "subtext": "stop lights / signal"
+},
+{
+    "word": "removal company",
+    "level": "elementary",
+    "theme": "moving_home_A2",
+    "emoji": "🚚",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "removal companies",
+    "definitions": [
+        {
+            "text": "A company that helps people move their furniture and possessions to a new home.",
+            "examples": [
+                "We hired a removal company to help us move.",
+                "The removal company arrived at 8 am."
+            ]
+        }
+    ],
+    "subtext": "moving company / movers"
+},
+{
+    "word": "roughly",
+    "level": "elementary",
+    "theme": "approximation_A2",
+    "emoji": "📏",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Approximately; not exactly.",
+            "examples": [
+                "There were roughly 200 people at the meeting.",
+                "The journey takes roughly two hours."
+            ]
+        }
+    ],
+    "subtext": "about / approximately"
+},
+{
+    "word": "extremely",
+    "level": "elementary",
+    "theme": "degree_adverbs_A2",
+    "emoji": "🔥",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "To a very great degree.",
+            "examples": [
+                "The weather was extremely hot.",
+                "She is extremely talented."
+            ]
+        }
+    ],
+    "subtext": "very / incredibly",
+    "opposite": "slightly"
+},
+{
+    "word": "fairly",
+    "level": "elementary",
+    "theme": "degree_adverbs_A2",
+    "emoji": "⚖️",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "More than average, but less than very.",
+            "examples": [
+                "The exam was fairly difficult.",
+                "I know him fairly well."
+            ]
+        }
+    ],
+    "subtext": "quite / moderately",
+    "opposite": "extremely"
+},
+{
+    "word": "certificate",
+    "level": "elementary",
+    "theme": "qualifications_exams_A2",
+    "emoji": "📜",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "certificates",
+    "definitions": [
+        {
+            "text": "An official document that gives information or proves something.",
+            "examples": [
+                "I received a certificate for completing the course.",
+                "You need a medical certificate if you are ill."
+            ]
+        }
+    ],
+    "subtext": "official document / diploma"
+},
+{
+    "word": "grade",
+    "level": "elementary",
+    "theme": "qualifications_exams_A2",
+    "emoji": "🅰️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "grades",
+    "definitions": [
+        {
+            "text": "A number or letter that shows how good your work is.",
+            "examples": [
+                "He got a high grade in the exam.",
+                "What is your average grade this semester?"
+            ]
+        }
+    ],
+    "subtext": "mark / score"
+},
+{
+    "word": "citizen",
+    "level": "elementary",
+    "theme": "community_neighbourhood_local_A2",
+    "emoji": "👤",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "citizens",
+    "definitions": [
+        {
+            "text": "A person who is a member of a particular country.",
+            "examples": [
+                "He is a British citizen.",
+                "The government should help its citizens."
+            ]
+        }
+    ],
+    "subtext": "national / inhabitant"
+},
+{
+    "word": "facility",
+    "level": "elementary",
+    "theme": "community_neighbourhood_local_A2",
+    "emoji": "🏢",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "facilities",
+    "definitions": [
+        {
+            "text": "A place or building used for a particular purpose.",
+            "examples": [
+                "The sports facility is very modern.",
+                "The town needs more child care facilities."
+            ]
+        }
+    ],
+    "subtext": "amenity / service"
+},
+{
+    "word": "volunteer",
+    "level": "elementary",
+    "theme": "community_neighbourhood_local_A2",
+    "emoji": "🙋",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "volunteers",
+    "definitions": [
+        {
+            "text": "A person who does work without being paid for it.",
+            "examples": [
+                "She works as a volunteer for a local charity.",
+                "The event needs more volunteers."
+            ]
+        }
+    ],
+    "subtext": "unpaid worker"
+},
+{
+    "word": "exhibition",
+    "level": "elementary",
+    "theme": "art_design_A2",
+    "emoji": "🖼️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "exhibitions",
+    "definitions": [
+        {
+            "text": "A collection of things, such as works of art, that are shown to the public.",
+            "examples": [
+                "We went to an exhibition of modern art.",
+                "The photo exhibition was very interesting."
+            ]
+        }
+    ],
+    "subtext": "show / display"
+},
+{
+    "word": "gallery",
+    "level": "elementary",
+    "theme": "art_design_A2",
+    "emoji": "🏛️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "galleries",
+    "definitions": [
+        {
+            "text": "A building or room where works of art are shown.",
+            "examples": [
+                "The National Gallery is in London.",
+                "She opened a small art gallery."
+            ]
+        }
+    ],
+    "subtext": "art museum"
+},
+{
+    "word": "portrait",
+    "level": "elementary",
+    "theme": "art_design_A2",
+    "emoji": "👤",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "portraits",
+    "definitions": [
+        {
+            "text": "A painting, drawing, or photograph of a person.",
+            "examples": [
+                "The artist painted a portrait of the king.",
+                "This is a beautiful portrait of her family."
+            ]
+        }
+    ],
+    "subtext": "picture of a person"
+},
+{
+    "word": "date",
+    "level": "elementary",
+    "theme": "relationships_dating_A2",
+    "emoji": "🌹",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "dates",
+    "definitions": [
+        {
+            "text": "A social or romantic appointment or occasion.",
+            "examples": [
+                "He asked her out on a date.",
+                "The first date went really well."
+            ]
+        }
+    ],
+    "subtext": "romantic meeting"
+},
+{
+    "word": "couple",
+    "level": "elementary",
+    "theme": "relationships_dating_A2",
+    "emoji": "👫",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "couples",
+    "definitions": [
+        {
+            "text": "Two people who are married or in a romantic relationship.",
+            "examples": [
+                "They are a very happy couple.",
+                "The young couple just bought a house."
+            ]
+        }
+    ],
+    "subtext": "pair of people"
+},
+{
+    "word": "comedy",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "😂",
+    "form": "noun",
+    "countability": "uncountable",
+    "plural": "comedies",
+    "definitions": [
+        {
+            "text": "A movie, play, or TV show that is intended to make people laugh.",
+            "examples": [
+                "We watched a great comedy last night.",
+                "He prefers comedy to drama."
+            ]
+        }
+    ],
+    "subtext": "humorous show / funny movie"
+},
+{
+    "word": "documentary",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "📹",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "documentaries",
+    "definitions": [
+        {
+            "text": "A movie or TV program that provides a factual record or report.",
+            "examples": [
+                "I watched a documentary about lions.",
+                "She is making a documentary about climate change."
+            ]
+        }
+    ],
+    "subtext": "factual program / non-fiction film"
+},
+{
+    "word": "drama",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "🎭",
+    "form": "noun",
+    "countability": "uncountable",
+    "plural": "dramas",
+    "definitions": [
+        {
+            "text": "A play in a theatre or on television or radio, or plays and acting generally.",
+            "examples": [
+                "She is studying drama at university.",
+                "The new medical drama is very popular."
+            ]
+        }
+    ],
+    "subtext": "serious play / theatrical work"
+},
+{
+    "word": "entertainment",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "🎉",
+    "form": "noun",
+    "countability": "uncountable",
+    "plural": null,
+    "definitions": [
+        {
+            "text": "Shows, movies, television, or other activities that entertain people.",
+            "examples": [
+                "There is plenty of entertainment in the city centre.",
+                "The hotel provides evening entertainment for its guests."
+            ]
+        }
+    ],
+    "subtext": "amusement / leisure activity"
+},
+{
+    "word": "lately",
+    "level": "elementary",
+    "theme": "past_time_A2",
+    "emoji": "🕒",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Recently.",
+            "examples": [
+                "I haven't seen him lately.",
+                "Have you been busy lately?"
+            ]
+        }
+    ],
+    "subtext": "recently / in recent times"
+},
+{
+    "word": "soon",
+    "level": "elementary",
+    "theme": "future_time_A2",
+    "emoji": "🔜",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "In or within a short time.",
+            "examples": [
+                "See you soon!",
+                "The movie will start soon."
+            ]
+        }
+    ],
+    "subtext": "shortly / before long"
+},
+{
+    "word": "shortly",
+    "level": "elementary",
+    "theme": "future_time_A2",
+    "emoji": "⏱️",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Soon; in a short time.",
+            "examples": [
+                "The plane will be landing shortly.",
+                "He arrived shortly after five."
+            ]
+        }
+    ],
+    "subtext": "soon / in a moment"
+},
+{
+    "word": "eventually",
+    "level": "elementary",
+    "theme": "future_time_A2",
+    "emoji": "🏁",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "In the end, especially after a long time.",
+            "examples": [
+                "We eventually reached the hotel.",
+                "He eventually passed his driving test."
+            ]
+        }
+    ],
+    "subtext": "finally / in the end"
+},
+{
+    "word": "firstly",
+    "level": "elementary",
+    "theme": "sequence_order_A2",
+    "emoji": "1️⃣",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Used to introduce the first point in a list.",
+            "examples": [
+                "Firstly, we need to decide on a date.",
+                "Firstly, I'd like to thank you for coming."
+            ]
+        }
+    ],
+    "subtext": "first / to begin with"
+},
+{
+    "word": "secondly",
+    "level": "elementary",
+    "theme": "sequence_order_A2",
+    "emoji": "2️⃣",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Used to introduce the second point in a list.",
+            "examples": [
+                "Secondly, we need to find a venue.",
+                "Secondly, the cost is too high."
+            ]
+        }
+    ],
+    "subtext": "second / furthermore"
+},
+{
+    "word": "finally",
+    "level": "elementary",
+    "theme": "sequence_order_A2",
+    "emoji": "🏁",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Used to introduce the last point in a list; or after a long time.",
+            "examples": [
+                "Finally, I'd like to thank my parents.",
+                "We finally reached the summit."
+            ]
+        }
+    ],
+    "subtext": "lastly / in the end"
+},
+{
+    "word": "hostel",
+    "level": "elementary",
+    "theme": "accommodation_A2",
+    "emoji": "🛌",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "hostels",
+    "definitions": [
+        {
+            "text": "A cheap place to stay, especially for young people.",
+            "examples": [
+                "We stayed in a youth hostel in Berlin.",
+                "The hostel was basic but clean."
+            ]
+        }
+    ],
+    "subtext": "cheap hotel / youth hostel"
+},
+{
+    "word": "campsite",
+    "level": "elementary",
+    "theme": "accommodation_A2",
+    "emoji": "⛺",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "campsites",
+    "definitions": [
+        {
+            "text": "A place where people can put up a tent.",
+            "examples": [
+                "The campsite is near the river.",
+                "We found a beautiful campsite in the mountains."
+            ]
+        }
+    ],
+    "subtext": "camping ground / tent site"
+},
+{
+    "word": "balanced diet",
+    "level": "elementary",
+    "theme": "diet_healthy_eating_A2",
+    "emoji": "🥗",
+    "form": "noun",
+    "countability": "uncountable",
+    "definitions": [
+        {
+            "text": "A diet that contains the proper proportions of nutrients necessary for good health.",
+            "examples": [
+                "It's important to eat a balanced diet.",
+                "A balanced diet includes fruits, vegetables, and protein."
+            ]
+        }
+    ],
+    "subtext": "healthy eating / nutritious diet"
+},
+{
+    "word": "calorie",
+    "level": "elementary",
+    "theme": "diet_healthy_eating_A2",
+    "emoji": "🔥",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "calories",
+    "definitions": [
+        {
+            "text": "A unit of energy often used to measure the energy value of food.",
+            "examples": [
+                "This cake has a lot of calories.",
+                "How many calories are in this apple?"
+            ]
+        }
+    ],
+    "subtext": "energy unit / food energy"
+},
+{
+    "word": "cover letter",
+    "level": "elementary",
+    "theme": "job_apps_interviews_A2",
+    "emoji": "📧",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "cover letters",
+    "definitions": [
+        {
+            "text": "A letter sent with a CV to explain why you are applying for a job.",
+            "examples": [
+                "Don't forget to include a cover letter with your application.",
+                "He wrote a very strong cover letter."
+            ]
+        }
+    ],
+    "subtext": "application letter / job letter"
+},
+{
+    "word": "estate agent",
+    "level": "elementary",
+    "theme": "moving_home_A2",
+    "emoji": "🏠",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "estate agents",
+    "definitions": [
+        {
+            "text": "A person whose job is to sell or rent houses and land for other people.",
+            "examples": [
+                "We talked to the estate agent about viewing the house.",
+                "The estate agent showed us several flats."
+            ]
+        }
+    ],
+    "subtext": "realtor / property agent"
+},
+{
+    "word": "window shopping",
+    "level": "elementary",
+    "theme": "shopping_for_clothes_A2",
+    "emoji": "🛍️",
+    "form": "noun",
+    "countability": "uncountable",
+    "definitions": [
+        {
+            "text": "The activity of looking at things in shop windows without intending to buy them.",
+            "examples": [
+                "We spent the afternoon window shopping in the city centre.",
+                "I like window shopping when I'm bored."
+            ]
+        }
+    ],
+    "subtext": "browsing / looking only"
+},
+{
+    "word": "painkiller",
+    "level": "elementary",
+    "theme": "health_body_A2",
+    "emoji": "💊",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "painkillers",
+    "definitions": [
+        {
+            "text": "A medicine used to reduce or stop pain.",
+            "examples": [
+                "I took a painkiller for my headache.",
+                "Do you have any painkillers?"
+            ]
+        }
+    ],
+    "subtext": "pain medicine / analgesic"
+},
+{
+    "word": "bandage",
+    "level": "elementary",
+    "theme": "health_body_A2",
+    "emoji": "🩹",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "bandages",
+    "definitions": [
+        {
+            "text": "A long piece of cloth used for tying around an injury.",
+            "examples": [
+                "He had a bandage on his arm.",
+                "She wrapped a bandage around her ankle."
+            ]
+        }
+    ],
+    "subtext": "dressing / medical wrap"
+},
+{
+    "word": "prescription",
+    "level": "elementary",
+    "theme": "health_body_A2",
+    "emoji": "📄",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "prescriptions",
+    "definitions": [
+        {
+            "text": "A piece of paper on which a doctor writes the name of a medicine that you need.",
+            "examples": [
+                "The doctor gave me a prescription for antibiotics.",
+                "I need to take this prescription to the pharmacy."
+            ]
+        }
+    ],
+    "subtext": "doctor's note / medicine order"
+},
+{
+    "word": "symptom",
+    "level": "elementary",
+    "theme": "health_body_A2",
+    "emoji": "🤒",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "symptoms",
+    "definitions": [
+        {
+            "text": "A physical or mental feature that indicates a condition of disease.",
+            "examples": [
+                "A high temperature is a symptom of the flu.",
+                "He has no symptoms of the illness."
+            ]
+        }
+    ],
+    "subtext": "sign of illness"
+},
+{
+    "word": "landmark",
+    "level": "elementary",
+    "theme": "directions_location_A2",
+    "emoji": "🏛️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "landmarks",
+    "definitions": [
+        {
+            "text": "A building or place that is easily recognized.",
+            "examples": [
+                "The Eiffel Tower is a famous landmark.",
+                "We used the church as a landmark to find our way."
+            ]
+        }
+    ],
+    "subtext": "monument / recognizable place"
+},
+{
+    "word": "crossroads",
+    "level": "elementary",
+    "theme": "directions_location_A2",
+    "emoji": "✖️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "crossroads",
+    "definitions": [
+        {
+            "text": "A place where two roads meet and cross each other.",
+            "examples": [
+                "Turn right at the crossroads.",
+                "There was an accident at the crossroads."
+            ]
+        }
+    ],
+    "subtext": "intersection / crossing"
+},
+{
+    "word": "single room",
+    "level": "elementary",
+    "theme": "accommodation_A2",
+    "emoji": "🛌",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "single rooms",
+    "definitions": [
+        {
+            "text": "A room for one person, especially in a hotel.",
+            "examples": [
+                "I'd like to book a single room for two nights.",
+                "The hotel has twenty single rooms."
+            ]
+        }
+    ],
+    "subtext": "one-person room"
+},
+{
+    "word": "double room",
+    "level": "elementary",
+    "theme": "accommodation_A2",
+    "emoji": "🛌🛌",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "double rooms",
+    "definitions": [
+        {
+            "text": "A room for two people, especially in a hotel.",
+            "examples": [
+                "They booked a double room for their holiday.",
+                "Is a double room more expensive than a single room?"
+            ]
+        }
+    ],
+    "subtext": "two-person room"
+},
+{
+    "word": "point of view",
+    "level": "elementary",
+    "theme": "agreeing_disagreeing_A2",
+    "emoji": "👁️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "points of view",
+    "definitions": [
+        {
+            "text": "A particular way of considering or judging a situation.",
+            "examples": [
+                "From my point of view, the project is a success.",
+                "Everyone has a different point of view."
+            ]
+        }
+    ],
+    "subtext": "opinion / perspective"
+},
+{
+    "word": "itinerary",
+    "level": "elementary",
+    "theme": "booking_planning_a_trip_A2",
+    "emoji": "🗺️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "itineraries",
+    "definitions": [
+        {
+            "text": "A detailed plan or route of a journey.",
+            "examples": [
+                "We have a very busy itinerary for our trip to Italy.",
+                "The travel agent sent us the itinerary yesterday."
+            ]
+        }
+    ],
+    "subtext": "travel plan / schedule"
+},
+{
+    "word": "travel agent",
+    "level": "elementary",
+    "theme": "booking_planning_a_trip_A2",
+    "emoji": "🏢",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "travel agents",
+    "definitions": [
+        {
+            "text": "A person or company that arranges tickets, hotel rooms, etc. for people going on holiday.",
+            "examples": [
+                "We booked our holiday through a travel agent.",
+                "The travel agent gave us some great advice."
+            ]
+        }
+    ],
+    "subtext": "travel professional / travel consultant"
+},
+{
+    "word": "overdraft",
+    "level": "elementary",
+    "theme": "banking_A2",
+    "emoji": "📉",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "overdrafts",
+    "definitions": [
+        {
+            "text": "An amount of money that a customer with a bank account is temporarily allowed to owe to the bank.",
+            "examples": [
+                "I have a small overdraft.",
+                "The bank charged me for going over my overdraft limit."
+            ]
+        }
+    ],
+    "subtext": "bank debt / negative balance"
+},
+{
+    "word": "statement",
+    "level": "elementary",
+    "theme": "banking_A2",
+    "emoji": "📄",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "statements",
+    "definitions": [
+        {
+            "text": "A record of the amounts of money paid into and taken out of a bank account.",
+            "examples": [
+                "I check my bank statement every month.",
+                "Your monthly statement is available online."
+            ]
+        }
+    ],
+    "subtext": "bank record / account summary"
+},
+{
+    "word": "partially",
+    "level": "elementary",
+    "theme": "degree_adverbs_A2",
+    "emoji": "🌓",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Not completely; to some extent.",
+            "examples": [
+                "The project is only partially finished.",
+                "The road was partially blocked by a fallen tree."
+            ]
+        }
+    ],
+    "subtext": "partly / in part",
+    "opposite": "completely"
+},
+{
+    "word": "strongly",
+    "level": "elementary",
+    "theme": "degree_adverbs_A2",
+    "emoji": "💪",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "To a great degree or in a powerful way.",
+            "examples": [
+                "I strongly disagree with your opinion.",
+                "He feels very strongly about the issue."
+            ]
+        }
+    ],
+    "subtext": "firmly / powerfully",
+    "opposite": "weakly"
 }
     ];
     const lang = "en";

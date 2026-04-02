@@ -8,7 +8,7 @@
         {
             "text": "A famous American leader who was the 16th president of the USA during the Civil War.",
             "examples": [
-                "Abraham Lincoln is a very famous individual."
+                "Lincoln is remembered for his leadership during the Civil War and the abolition of slavery."
             ]
         }
     ],
@@ -53,7 +53,7 @@
         {
             "text": "A famous American politician who served as the 44th president of the United States.",
             "examples": [
-                "Barack Obama is a very famous individual."
+                "Obama served two terms as president and is known for his inspiring speeches."
             ]
         }
     ],
@@ -68,7 +68,7 @@
         {
             "text": "A famous American singer, songwriter, and dancer.",
             "examples": [
-                "Beyoncé is a global icon."
+                "Beyoncé has won many Grammy Awards for her music and performances."
             ]
         }
     ],
@@ -158,7 +158,7 @@
         {
             "text": "A famous Mexican artist known for her many self-portraits and works inspired by nature.",
             "examples": [
-                "Frida Kahlo is a very famous individual."
+                "Kahlo is celebrated for her unique paintings that express her personal experiences."
             ]
         }
     ],
@@ -278,7 +278,7 @@
         {
             "text": "A famous Indian leader who used peaceful ways to help India become independent.",
             "examples": [
-                "Mahatma Gandhi is a very famous individual."
+                "Gandhi led the movement for Indian independence through non-violent protest."
             ]
         }
     ],
@@ -338,7 +338,7 @@
         {
             "text": "A famous scientist from Poland and France who studied radiation and won two Nobel Prizes.",
             "examples": [
-                "Marie Curie is a very famous individual."
+                "Curie discovered the elements polonium and radium through her research."
             ]
         }
     ],
@@ -503,7 +503,7 @@
         {
             "text": "A famous American businessman and inventor who co-founded Apple Inc.",
             "examples": [
-                "Steve Jobs is a very famous individual."
+                "Jobs changed the world of technology with the introduction of the iPhone and Mac."
             ]
         }
     ],
@@ -518,7 +518,7 @@
         {
             "text": "A highly successful American singer and songwriter.",
             "examples": [
-                "Taylor Swift has many hit albums."
+                "Taylor Swift is known for writing songs about her own life and experiences."
             ]
         }
     ],

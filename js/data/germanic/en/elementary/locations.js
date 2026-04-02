@@ -27,7 +27,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in South America",
     "emoji": "🇦🇷"
 },
 {
@@ -42,7 +42,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in the Caucasus",
     "emoji": "🇦🇲"
 },
 {
@@ -207,7 +207,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in South America",
     "emoji": "🇨🇱"
 },
 {
@@ -222,7 +222,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in South America",
     "emoji": "🇨🇴"
 },
 {
@@ -252,7 +252,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in the Balkans",
     "emoji": "🇭🇷"
 },
 {
@@ -297,7 +297,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in the Caucasus",
     "emoji": "🇬🇪"
 },
 {
@@ -342,7 +342,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in Central Europe",
     "emoji": "🇭🇺"
 },
 {
@@ -357,7 +357,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "island country in the North Atlantic",
     "emoji": "🇮🇸"
 },
 {
@@ -372,7 +372,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "archipelago country in Southeast Asia",
     "emoji": "🇮🇩"
 },
 {
@@ -387,7 +387,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in the Middle East",
     "emoji": "🇮🇱"
 },
 {
@@ -462,7 +462,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in East Africa",
     "emoji": "🇰🇪"
 },
 {
@@ -552,7 +552,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in Southeast Asia",
     "emoji": "🇲🇾"
 },
 {
@@ -612,7 +612,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in North America",
     "emoji": "🇲🇽"
 },
 {
@@ -657,7 +657,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in North Africa",
     "emoji": "🇲🇦"
 },
 {
@@ -717,7 +717,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "island country in Oceania",
     "emoji": "🇳🇿"
 },
 {
@@ -732,7 +732,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in West Africa",
     "emoji": "🇳🇬"
 },
 {
@@ -792,7 +792,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in South America",
     "emoji": "🇵🇪"
 },
 {
@@ -822,7 +822,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "archipelago country in Southeast Asia",
     "emoji": "🇵🇭"
 },
 {
@@ -837,7 +837,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in Southern Europe",
     "emoji": "🇵🇹"
 },
 {
@@ -882,7 +882,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in the Middle East",
     "emoji": "🇸🇦"
 },
 {
@@ -957,7 +957,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in Southern Africa",
     "emoji": "🇿🇦"
 },
 {
@@ -1047,7 +1047,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "transcontinental country in Eurasia",
     "emoji": "🇹🇷"
 },
 {
@@ -1062,7 +1062,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in the Middle East",
     "emoji": "🇦🇪"
 },
 {
@@ -1122,7 +1122,7 @@
             ]
         }
     ],
-    "subtext": "country",
+    "subtext": "country in Southeast Asia",
     "emoji": "🇻🇳"
 },
 {
