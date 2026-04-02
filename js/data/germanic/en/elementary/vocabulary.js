@@ -227,7 +227,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to job titles professions"
+    "subtext": "painter / sculptor / creator"
 },
 {
     "word": "atmosphere",
@@ -262,7 +262,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to rooms of a home"
+    "subtext": "terrace / porch / upstairs area"
 },
 {
     "word": "benefit",
@@ -587,7 +587,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to rooms of a home"
+    "subtext": "roof / upper surface"
 },
 {
     "word": "cell",
@@ -924,7 +924,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to household items"
+    "subtext": "drape / blind / window covering"
 },
 {
     "word": "custom",
@@ -1225,7 +1225,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to household items"
+    "subtext": "dishwashing machine / kitchen appliance"
 },
 {
     "word": "division",
@@ -1691,7 +1691,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to rooms of a home"
+    "subtext": "car port / parking shed"
 },
 {
     "word": "global warming",
@@ -2612,7 +2612,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to job titles professions"
+    "subtext": "repairman / technician"
 },
 {
     "word": "media",
@@ -2665,7 +2665,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to household items"
+    "subtext": "microwave oven / kitchen appliance"
 },
 {
     "word": "minus",
@@ -2790,7 +2790,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to personal identity"
+    "subtext": "citizenship / ethnic origin"
 },
 {
     "word": "nature",
@@ -3094,7 +3094,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to local places services"
+    "subtext": "drugstore / chemist"
 },
 {
     "word": "philosophy",
@@ -3447,7 +3447,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to family life"
+    "subtext": "connection / link / bond"
 },
 {
     "word": "renewable energy",
@@ -3858,7 +3858,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to places culture leisure"
+    "subtext": "arena / sports ground"
 },
 {
     "word": "stomach",
@@ -4113,7 +4113,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to animals"
+    "subtext": "big cat / predator"
 },
 {
     "word": "total",
@@ -4275,7 +4275,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to household items"
+    "subtext": "hoover / floor cleaner"
 },
 {
     "word": "valley",
@@ -4382,7 +4382,7 @@
         }
     ],
     "countability": "countable",
-    "subtext": "related to everyday shopping"
+    "subtext": "purse / billfold"
 },
 {
     "word": "waste",
@@ -6242,6 +6242,606 @@
     ],
     "subtext": "firmly / powerfully",
     "opposite": "weakly"
+},
+{
+    "word": "approximately",
+    "level": "elementary",
+    "theme": "approximation_A2",
+    "emoji": "📏",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "Close to a particular number or time, but not exactly.",
+            "examples": [
+                "The job will take approximately three weeks.",
+                "Approximately 100 people attended the event."
+            ]
+        }
+    ],
+    "subtext": "roughly / about"
+},
+{
+    "word": "estimate",
+    "level": "elementary",
+    "theme": "approximation_A2",
+    "emoji": "🧮",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "estimates",
+    "definitions": [
+        {
+            "text": "A guess of what the size, value, or amount of something might be.",
+            "examples": [
+                "I need an estimate for the cost of repairs.",
+                "The official estimate of the population is 5 million."
+            ]
+        }
+    ],
+    "subtext": "guess / calculation"
+},
+{
+    "word": "contrast",
+    "level": "elementary",
+    "theme": "comparison_A2",
+    "emoji": "🌗",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "contrasts",
+    "definitions": [
+        {
+            "text": "An obvious difference between two or more things.",
+            "examples": [
+                "The white walls are a sharp contrast to the dark floor.",
+                "There is a marked contrast between the two brothers."
+            ]
+        }
+    ],
+    "subtext": "difference / comparison"
+},
+{
+    "word": "digit",
+    "level": "elementary",
+    "theme": "decimals_A2",
+    "emoji": "🔢",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "digits",
+    "definitions": [
+        {
+            "text": "Any of the numbers from 0 to 9.",
+            "examples": [
+                "The number 100 has three digits.",
+                "Enter your four-digit PIN."
+            ]
+        }
+    ],
+    "subtext": "number / figure"
+},
+{
+    "word": "signpost",
+    "level": "elementary",
+    "theme": "directions_location_A2",
+    "emoji": "🪧",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "signposts",
+    "definitions": [
+        {
+            "text": "A pole with a sign that gives directions to a place.",
+            "examples": [
+                "Follow the signpost to the city centre.",
+                "The signpost showed that the museum was nearby."
+            ]
+        }
+    ],
+    "subtext": "direction sign / guidepost"
+},
+{
+    "word": "lane",
+    "level": "elementary",
+    "theme": "driving_roads_A2",
+    "emoji": "🛣️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "lanes",
+    "definitions": [
+        {
+            "text": "A part of a wide road that is marked by painted white lines.",
+            "examples": [
+                "Move into the left lane if you want to turn left.",
+                "The bus is driving in the bus lane."
+            ]
+        }
+    ],
+    "subtext": "part of a road / path"
+},
+{
+    "word": "portion",
+    "level": "elementary",
+    "theme": "fractions_A2",
+    "emoji": "🍕",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "portions",
+    "definitions": [
+        {
+            "text": "A part or share of something larger.",
+            "examples": [
+                "A large portion of the work is already done.",
+                "He ate a small portion of the cake."
+            ]
+        }
+    ],
+    "subtext": "part / share / piece"
+},
+{
+    "word": "property",
+    "level": "elementary",
+    "theme": "moving_home_A2",
+    "emoji": "🏠",
+    "form": "noun",
+    "countability": "uncountable",
+    "definitions": [
+        {
+            "text": "Land and buildings owned by someone.",
+            "examples": [
+                "He owns several properties in the city.",
+                "The property market is growing quickly."
+            ]
+        }
+    ],
+    "subtext": "real estate / land"
+},
+{
+    "word": "percentage",
+    "level": "elementary",
+    "theme": "percentages_A2",
+    "emoji": "📈",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "percentages",
+    "definitions": [
+        {
+            "text": "An amount of something, expressed as a number out of 100.",
+            "examples": [
+                "What percentage of the students passed the exam?",
+                "The interest rate is a high percentage."
+            ]
+        }
+    ],
+    "subtext": "portion / rate"
+},
+{
+    "word": "rate",
+    "level": "elementary",
+    "theme": "percentages_A2",
+    "emoji": "📉",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "rates",
+    "definitions": [
+        {
+            "text": "The speed at which something happens or changes.",
+            "examples": [
+                "The birth rate is falling.",
+                "The exchange rate changes every day."
+            ]
+        }
+    ],
+    "subtext": "speed / frequency / cost"
+},
+{
+    "word": "similarity",
+    "level": "elementary",
+    "theme": "comparison_A2",
+    "emoji": "👯",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "similarities",
+    "definitions": [
+        {
+            "text": "The state of being similar, or a way in which two things are similar.",
+            "examples": [
+                "There is a striking similarity between the two paintings.",
+                "The similarities between the two cultures are obvious."
+            ]
+        }
+    ],
+    "subtext": "likeness / resemblance",
+    "opposite": "difference"
+},
+{
+    "word": "decimal place",
+    "level": "elementary",
+    "theme": "decimals_A2",
+    "emoji": "🔢",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "decimal places",
+    "definitions": [
+        {
+            "text": "The position of a digit to the right of a decimal point.",
+            "examples": [
+                "Give your answer to two decimal places.",
+                "Round the number to one decimal place."
+            ]
+        }
+    ],
+    "subtext": "digit position"
+},
+{
+    "word": "slightly",
+    "level": "elementary",
+    "theme": "degree_adverbs_A2",
+    "emoji": "🤏",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "A little bit; to a small degree.",
+            "examples": [
+                "I'm slightly worried about the exam.",
+                "The price is slightly higher than expected."
+            ]
+        }
+    ],
+    "subtext": "a bit / a little",
+    "opposite": "extremely"
+},
+{
+    "word": "moderately",
+    "level": "elementary",
+    "theme": "degree_adverbs_A2",
+    "emoji": "⚖️",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "In a way that is neither small nor large in amount or degree.",
+            "examples": [
+                "The hotel is moderately priced.",
+                "She is moderately successful in her career."
+            ]
+        }
+    ],
+    "subtext": "fairly / quite"
+},
+{
+    "word": "compass point",
+    "level": "elementary",
+    "theme": "directions_location_A2",
+    "emoji": "🧭",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "compass points",
+    "definitions": [
+        {
+            "text": "Any of the directions on a compass, such as North or South.",
+            "examples": [
+                "The map shows the four main compass points.",
+                "The wind is blowing from a southern compass point."
+            ]
+        }
+    ],
+    "subtext": "direction / cardinal point"
+},
+{
+    "word": "pedestrian crossing",
+    "level": "elementary",
+    "theme": "driving_roads_A2",
+    "emoji": "🦓",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "pedestrian crossings",
+    "definitions": [
+        {
+            "text": "A place on a road where people can cross safely.",
+            "examples": [
+                "Stop for people at the pedestrian crossing.",
+                "There is a pedestrian crossing near the school."
+            ]
+        }
+    ],
+    "subtext": "zebra crossing / crosswalk"
+},
+{
+    "word": "afterwards",
+    "level": "elementary",
+    "theme": "future_time_A2",
+    "emoji": "⏭️",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "At a later time; after something has happened.",
+            "examples": [
+                "We went for a coffee afterwards.",
+                "I'll tell you the story afterwards."
+            ]
+        }
+    ],
+    "subtext": "later / subsequently",
+    "opposite": "beforehand"
+},
+{
+    "word": "fiancé",
+    "level": "elementary",
+    "theme": "marriage_partnership_A2",
+    "emoji": "💍",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "fiancés",
+    "definitions": [
+        {
+            "text": "The man that a person is engaged to be married to.",
+            "examples": [
+                "This is my fiancé, John.",
+                "She introduced her fiancé to her parents."
+            ]
+        }
+    ],
+    "subtext": "future husband"
+},
+{
+    "word": "ratio",
+    "level": "elementary",
+    "theme": "percentages_A2",
+    "emoji": "🔢",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "ratios",
+    "definitions": [
+        {
+            "text": "The relationship between two amounts, showing how much larger one is than the other.",
+            "examples": [
+                "The ratio of students to teachers is ten to one.",
+                "What is the ratio between the two amounts?"
+            ]
+        }
+    ],
+    "subtext": "proportion / relation"
+},
+{
+    "word": "territory",
+    "level": "elementary",
+    "theme": "places_geography_A2",
+    "emoji": "🗺️",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "territories",
+    "definitions": [
+        {
+            "text": "An area of land that belongs to a particular country.",
+            "examples": [
+                "The island is a British territory.",
+                "They are fighting over the territory."
+            ]
+        }
+    ],
+    "subtext": "area / region / land"
+},
+{
+    "word": "stepmother",
+    "level": "elementary",
+    "theme": "relationships_family_A2",
+    "emoji": "👩‍👧‍👦",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "stepmothers",
+    "definitions": [
+        {
+            "text": "The woman who is married to your father but is not your biological mother.",
+            "examples": [
+                "She has a good relationship with her stepmother.",
+                "Her stepmother is very kind."
+            ]
+        }
+    ],
+    "subtext": "father's wife"
+},
+{
+    "word": "lease",
+    "level": "elementary",
+    "theme": "renting_landlords_A2",
+    "emoji": "📄",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "leases",
+    "definitions": [
+        {
+            "text": "A legal agreement in which you pay money to use a building or land for a particular time.",
+            "examples": [
+                "We signed a three-year lease for the apartment.",
+                "The lease expires next month."
+            ]
+        }
+    ],
+    "subtext": "rental agreement / contract"
+},
+{
+    "word": "best-before date",
+    "level": "elementary",
+    "theme": "shopping_for_food_A2",
+    "emoji": "📅",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "best-before dates",
+    "definitions": [
+        {
+            "text": "The date after which food is not in its best condition.",
+            "examples": [
+                "Check the best-before date on the milk.",
+                "This juice is past its best-before date."
+            ]
+        }
+    ],
+    "subtext": "expiry date / freshness date"
+},
+{
+    "word": "third",
+    "level": "elementary",
+    "theme": "fractions_A2",
+    "emoji": "1/3",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "thirds",
+    "definitions": [
+        {
+            "text": "One of three equal parts of something.",
+            "examples": [
+                "A third of the students are from abroad.",
+                "He spent a third of his income on rent."
+            ]
+        }
+    ],
+    "subtext": "divided by three"
+},
+{
+    "word": "marriage",
+    "level": "elementary",
+    "theme": "marriage_partnership_A2",
+    "emoji": "💍",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "marriages",
+    "definitions": [
+        {
+            "text": "The legal relationship between two people who are married.",
+            "examples": [
+                "They have a happy marriage.",
+                "Their marriage lasted for forty years."
+            ]
+        }
+    ],
+    "subtext": "matrimony / wedding"
+},
+{
+    "word": "proposal",
+    "level": "elementary",
+    "theme": "marriage_partnership_A2",
+    "emoji": "💍",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "proposals",
+    "definitions": [
+        {
+            "text": "An offer of marriage.",
+            "examples": [
+                "She accepted his proposal.",
+                "It was a very romantic proposal."
+            ]
+        }
+    ],
+    "subtext": "offer of marriage"
+},
+{
+    "word": "stepfather",
+    "level": "elementary",
+    "theme": "relationships_family_A2",
+    "emoji": "👨‍👧‍👦",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "stepfathers",
+    "definitions": [
+        {
+            "text": "The man who is married to your mother but is not your biological father.",
+            "examples": [
+                "He has a good relationship with his stepfather.",
+                "His stepfather is a teacher."
+            ]
+        }
+    ],
+    "subtext": "mother's husband"
+},
+{
+    "word": "meanwhile",
+    "level": "elementary",
+    "theme": "sequence_order_A2",
+    "emoji": "⏳",
+    "form": "adverb",
+    "definitions": [
+        {
+            "text": "In the time between two events.",
+            "examples": [
+                "The doctor will be here soon; meanwhile, try to relax.",
+                "She went to the shop; meanwhile, he started cooking dinner."
+            ]
+        }
+    ],
+    "subtext": "in the meantime"
+},
+{
+    "word": "sequence",
+    "level": "elementary",
+    "theme": "sequence_order_A2",
+    "emoji": "🔢",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "sequences",
+    "definitions": [
+        {
+            "text": "A particular order in which things happen or are arranged.",
+            "examples": [
+                "The numbers are in a logical sequence.",
+                "Follow the correct sequence of steps."
+            ]
+        }
+    ],
+    "subtext": "order / arrangement"
+},
+{
+    "word": "fraction",
+    "level": "elementary",
+    "theme": "fractions_A2",
+    "emoji": "½",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "fractions",
+    "definitions": [
+        {
+            "text": "A number that results from dividing one whole number by another.",
+            "examples": [
+                "One half is a common fraction.",
+                "Can you convert this fraction to a decimal?"
+            ]
+        }
+    ],
+    "subtext": "part of a whole"
+},
+{
+    "word": "stepdaughter",
+    "level": "elementary",
+    "theme": "relationships_family_A2",
+    "emoji": "👧",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "stepdaughters",
+    "definitions": [
+        {
+            "text": "The daughter of your husband or wife, but not your biological daughter.",
+            "examples": [
+                "She takes her stepdaughter to school every day.",
+                "Her stepdaughter is ten years old."
+            ]
+        }
+    ],
+    "subtext": "partner's daughter"
+},
+{
+    "word": "stepson",
+    "level": "elementary",
+    "theme": "relationships_family_A2",
+    "emoji": "👦",
+    "form": "noun",
+    "countability": "countable",
+    "plural": "stepsons",
+    "definitions": [
+        {
+            "text": "The son of your husband or wife, but not your biological son.",
+            "examples": [
+                "His stepson is a talented musician.",
+                "He spends a lot of time with his stepson."
+            ]
+        }
+    ],
+    "subtext": "partner's son"
 }
     ];
     const lang = "en";

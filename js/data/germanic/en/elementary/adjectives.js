@@ -4521,6 +4521,146 @@
     "subtext": "puzzled / unsure",
     "comparative": "more confused",
     "superlative": "the most confused"
+},
+{
+    "word": "comparable",
+    "level": "elementary",
+    "theme": "comparison_A2",
+    "emoji": "👯",
+    "form": "adjective",
+    "opposite": "different",
+    "definitions": [
+        {
+            "text": "Similar in size, amount, or quality to something else.",
+            "examples": [
+                "The two cars are comparable in price.",
+                "Our results are comparable to theirs."
+            ]
+        }
+    ],
+    "subtext": "similar / alike",
+    "comparative": "more comparable",
+    "superlative": "the most comparable"
+},
+{
+    "word": "decimal",
+    "level": "elementary",
+    "theme": "decimals_A2",
+    "emoji": "🔢",
+    "form": "adjective",
+    "opposite": "whole",
+    "definitions": [
+        {
+            "text": "Relating to a system of counting based on the number ten.",
+            "examples": [
+                "The decimal system is used in most countries.",
+                "Can you convert this fraction to a decimal?"
+            ]
+        }
+    ],
+    "subtext": "base-ten",
+    "comparative": null,
+    "superlative": null
+},
+{
+    "word": "approximate",
+    "level": "elementary",
+    "theme": "approximation_A2",
+    "emoji": "📏",
+    "form": "adjective",
+    "opposite": "exact",
+    "definitions": [
+        {
+            "text": "Close to a particular number or amount, but not necessarily exact.",
+            "examples": [
+                "The approximate cost is fifty euros.",
+                "What is the approximate time of arrival?"
+            ]
+        }
+    ],
+    "subtext": "rough / estimated",
+    "comparative": null,
+    "superlative": null
+},
+{
+    "word": "thrilled",
+    "level": "elementary",
+    "theme": "emotional_intensity_A2",
+    "emoji": "🤩",
+    "form": "adjective",
+    "opposite": "miserable",
+    "definitions": [
+        {
+            "text": "Extremely happy and excited.",
+            "examples": [
+                "I was thrilled with my exam results.",
+                "She was thrilled to see her old friends again."
+            ]
+        }
+    ],
+    "subtext": "excited / delighted",
+    "comparative": "more thrilled",
+    "superlative": "the most thrilled"
+},
+{
+    "word": "whole",
+    "level": "elementary",
+    "theme": "fractions_A2",
+    "emoji": "🌕",
+    "form": "adjective",
+    "opposite": "partial",
+    "definitions": [
+        {
+            "text": "Complete; including every part.",
+            "examples": [
+                "He ate the whole cake.",
+                "We spent the whole day at the beach."
+            ]
+        }
+    ],
+    "subtext": "entire / complete",
+    "comparative": null,
+    "superlative": null
+},
+{
+    "word": "precise",
+    "level": "elementary",
+    "theme": "approximation_A2",
+    "emoji": "🎯",
+    "form": "adjective",
+    "opposite": "rough",
+    "definitions": [
+        {
+            "text": "Exact and accurate.",
+            "examples": [
+                "We need precise measurements.",
+                "He gave a precise description of the man."
+            ]
+        }
+    ],
+    "subtext": "exact / accurate",
+    "comparative": "more precise",
+    "superlative": "the most precise"
+},
+{
+    "word": "identical",
+    "level": "elementary",
+    "theme": "comparison_A2",
+    "emoji": "👯",
+    "form": "adjective",
+    "opposite": "different",
+    "definitions": [
+        {
+            "text": "Exactly the same.",
+            "examples": [
+                "The two cars are identical.",
+                "They are identical twins."
+            ]
+        }
+    ],
+    "subtext": "exactly the same",
+    "comparative": null,
+    "superlative": null
 }
     ];
     const lang = "en";
