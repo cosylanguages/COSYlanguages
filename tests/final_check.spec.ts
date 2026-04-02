@@ -59,18 +59,22 @@ test('Student Area access and day selection', async ({ page }) => {
 test('Game launch with new theme filters', async ({ page }) => {
     await page.goto('http://localhost:8080/events.html');
 
-    // Open Action Hero game (formerly Charades)
-    await page.click('.game-card[data-game="action-hero"] .gc-play-btn');
+    // Open Action Hero game via lobby card
+    await page.click('.game-card-lobby[data-game="action-hero"]');
+
+    // Bottom sheet should appear
+    await expect(page.locator('#game-setup-sheet')).toHaveClass(/open/);
+
+    // Select language and level in the sheet
+    await page.click('#gss-lang-options .gss-option[data-value="en"]');
+    await page.click('#gss-level-options .gss-option[data-value="starter"]');
+
+    // Start game from sheet
+    await page.click('.gss-start');
+
+    // Game modal should be visible
     await expect(page.locator('#charades-modal')).toBeVisible();
 
-    // Select language first in modal
-    await page.selectOption('#charades-lang', 'en');
-    // Select theme in modal
-    await page.selectOption('#charades-theme', 'all');
-    await page.selectOption('#charades-level', 'all');
-    // Start game
-    await page.click('#start-charades-game-btn');
-
-    // Gameplay area should appear
+    // Gameplay area should eventually appear (it might auto-start if triggered by sheet)
     await expect(page.locator('#charades-gameplay')).toBeVisible();
 });

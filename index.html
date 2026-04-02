@@ -76,9 +76,16 @@ nav {
   height: 66px; padding: 0 2rem;
   display: flex; align-items: center; justify-content: space-between;
   box-shadow: 0 2px 16px rgba(46,74,51,.06);
+  transition: height .3s ease, padding .3s ease, background .3s ease;
+}
+nav.shrunk {
+  height: 54px;
+  background: rgba(253,248,240,.98);
+  box-shadow: 0 4px 20px rgba(46,74,51,.12);
 }
 .nav-logo { display: flex; align-items: center; gap: .6rem; }
-.nav-logo img { height: 44px; }
+.nav-logo img { height: 44px; transition: height .3s ease; }
+nav.shrunk .nav-logo img { height: 36px; }
 .nav-logo-text {
   font-family: 'Lora', serif;
   font-size: 1.1rem; font-weight: 700;
@@ -117,6 +124,9 @@ nav {
   cursor: pointer;
 }
 .nav-lang a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+
+.nav-lang-switcher { display: flex; align-items: center; gap: .8rem; margin-left: 1rem; }
+.nav-lang-label { font-size: .65rem; font-weight: 800; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
 
 /* ── Floating WhatsApp ──────────────────────────────── */
 .wa-fab {
@@ -249,6 +259,11 @@ section { padding: 4rem 0; }
   color: var(--sage-deep); margin-bottom: .4rem;
 }
 .sec-head p { color: var(--muted); font-size: .92rem; }
+.sec-pricing-teaser {
+  display: inline-block; margin-top: .6rem;
+  font-size: .8rem; color: var(--sage-dark);
+  background: var(--sage-pale); padding: .2rem .8rem; border-radius: 999px;
+}
 .sec-tag {
   display: inline-block;
   font-size: .68rem; font-weight: 900; letter-spacing: .06em;
@@ -354,6 +369,7 @@ section { padding: 4rem 0; }
 .lang-card img { width: 64px; height: 64px; object-fit: contain; margin: 0 auto .5rem; }
 .lang-name { font-size: .8rem; font-weight: 800; color: var(--ink); margin-bottom: .15rem; }
 .lang-flag { font-size: 1rem; }
+.lang-resource-teaser { font-size: .65rem; color: var(--sage); font-weight: 800; margin-top: .4rem; }
 .lang-grid-soon { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: .6rem; }
 .lang-card-soon {
   background: var(--cream-dark); border-radius: var(--radius-sm);
@@ -363,6 +379,18 @@ section { padding: 4rem 0; }
 .lang-card-soon img { width: 44px; height: 44px; object-fit: contain; margin: 0 auto .35rem; }
 .lang-card-soon .ls-name { font-size: .72rem; font-weight: 700; color: var(--muted); }
 .lang-card-soon .ls-flag { font-size: .85rem; }
+
+.lead-capture { margin-top: .6rem; display: flex; gap: 2px; }
+.lead-email {
+  width: 100%; font-size: .65rem; padding: .3rem .5rem;
+  border: 1px solid var(--border); border-radius: 4px;
+  background: #fff; font-family: inherit;
+}
+.lead-submit {
+  background: var(--sage); color: #fff; border: none;
+  padding: 0 .4rem; border-radius: 4px; cursor: pointer;
+}
+
 .soon-pill {
   font-size: .58rem; font-weight: 900; letter-spacing: .04em;
   background: var(--cream-dark); color: var(--muted);
@@ -461,8 +489,8 @@ section { padding: 4rem 0; }
   padding: 1.3rem 1.5rem;
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
 }
-.cr-left .cr-price { font-size: 2rem; font-weight: 900; color: var(--sage-deep); display: block; line-height: 1.1; }
-.cr-left .cr-detail { font-size: .8rem; color: var(--muted); margin-top: .2rem; }
+.cr-left .cr-price { font-size: 3rem; font-weight: 900; color: var(--sage-deep); display: block; line-height: 1; margin-bottom: .2rem; }
+.cr-left .cr-detail { font-size: 1rem; color: var(--muted); font-weight: 700; }
 .cr-left .cr-note { font-size: .73rem; color: var(--sage); font-weight: 700; margin-top: .15rem; }
 .original-price { text-decoration: line-through; color: var(--muted); margin-right: .5rem; font-size: 1.1rem; opacity: .6; }
 .discounted-price { color: var(--sage-deep); font-weight: 900; }
@@ -619,7 +647,7 @@ footer {
 <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" title="Chat on WhatsApp">💬</a>
 
 <!-- ── NAV ─────────────────────────────────────────────── -->
-<nav>
+<nav id="main-nav">
   <a class="nav-logo" href="#">
     <img src="images/cosylanguages.png" alt="COSYlanguages">
   </a>
@@ -627,14 +655,17 @@ footer {
     <li><a href="#how" data-translate-key="nav_how">How it works</a></li>
     <li><a href="#courses" data-translate-key="nav_courses">Courses</a></li>
     <li><a href="#languages" data-translate-key="nav_languages">Languages</a></li>
-    <li><a href="#tools" data-translate-key="nav_practice">Practice</a></li>
+    <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
     <li><a href="#calculator" data-translate-key="nav_pricing">Pricing</a></li>
     <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
     <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
   </ul>
-  <div class="nav-lang">
-    <a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a>
+  <div class="nav-lang-switcher">
+    <span class="nav-lang-label">Explore a language:</span>
+    <div class="nav-lang">
+      <a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a>
+    </div>
   </div>
 </nav>
 
@@ -652,6 +683,7 @@ footer {
       <div class="hero-ctas">
         <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa">💬 Chat with us on WhatsApp</a>
         <a href="#courses" class="btn-ghost" data-translate-key="hero_cta_courses">Explore courses →</a>
+        <a href="#calculator" class="btn-ghost btn-pricing-anchor" data-translate-key="hero_cta_pricing">See pricing 🏷️</a>
       </div>
     </div>
 
@@ -666,7 +698,19 @@ footer {
       </div>
       <div class="hero-stats">
         <div class="hstat"><span class="hs-num">5</span><span class="hs-lbl" data-translate-key="hero_stat_languages">Languages</span></div>
-        <div class="hstat"><span class="hs-num">Baby→Prof</span><span class="hs-lbl" data-translate-key="hero_stat_levels">All levels</span></div>
+        <div class="hstat level-tooltip-trigger">
+          <span class="hs-num">Baby→Prof</span>
+          <span class="hs-lbl" data-translate-key="hero_stat_levels">All levels</span>
+          <div class="level-tooltip">
+            <strong>What does this mean?</strong><br>
+            Baby = A1 (Beginner)<br>
+            Primary = A2 (Elementary)<br>
+            Middle = B1 (Intermediate)<br>
+            High = B2 (Upper)<br>
+            Uni = C1 (Advanced)<br>
+            Prof = C2 (Mastery)
+          </div>
+        </div>
         <div class="hstat"><span class="hs-num">3</span><span class="hs-lbl" data-translate-key="hero_stat_courses">Course types</span></div>
         <div class="hstat"><span class="hs-num">1-to-1</span><span class="hs-lbl" data-translate-key="hero_stat_1to1">Every lesson</span></div>
       </div>
@@ -713,6 +757,7 @@ footer {
     <span class="sec-tag" data-translate-key="sec_tag_courses">📚 What we offer</span>
     <h2 data-translate-key="sec_h2_courses">Three courses, one promise</h2>
     <p data-translate-key="sec_p_courses">Every course puts speaking first. Choose the one that fits your goal and your life.</p>
+    <div class="sec-pricing-teaser">Individual sessions starting from <strong>€5/session</strong></div>
   </div>
 
   <div class="courses-wrap">
@@ -783,6 +828,7 @@ footer {
         <img src="images/cosyenglish.png" alt="English">
         <div class="lang-flag">🇬🇧</div>
         <div class="lang-name" data-translate-key="english">English</div>
+        <div class="lang-resource-teaser">Explore English resources →</div>
       </a>
     </div>
     <div class="lang-card">
@@ -790,6 +836,7 @@ footer {
         <img src="images/cosyfrench.png" alt="Français">
         <div class="lang-flag">🇫🇷</div>
         <div class="lang-name" data-translate-key="french">Français</div>
+        <div class="lang-resource-teaser">Explorer les ressources →</div>
       </a>
     </div>
     <div class="lang-card">
@@ -797,6 +844,7 @@ footer {
         <img src="images/cosyitalian.png" alt="Italiano">
         <div class="lang-flag">🇮🇹</div>
         <div class="lang-name" data-translate-key="italian">Italiano</div>
+        <div class="lang-resource-teaser">Esplora le risorse →</div>
       </a>
     </div>
     <div class="lang-card">
@@ -804,6 +852,7 @@ footer {
         <img src="images/cosyrussian.png" alt="Русский">
         <div class="lang-flag">🇷🇺</div>
         <div class="lang-name" data-translate-key="russian">Русский</div>
+        <div class="lang-resource-teaser">Изучить ресурсы →</div>
       </a>
     </div>
     <div class="lang-card">
@@ -811,20 +860,85 @@ footer {
         <img src="images/cosygreek.png" alt="Ελληνικά">
         <div class="lang-flag">🇬🇷</div>
         <div class="lang-name" data-translate-key="greek">Ελληνικά</div>
+        <div class="lang-resource-teaser">Εξερευνήστε πηγές →</div>
       </a>
     </div>
   </div>
 
   <p class="lang-coming-label reveal" style="margin-top:1.2rem" data-translate-key="lang_coming_soon">Coming soon 🌱</p>
   <div class="lang-grid-soon reveal">
-    <div class="lang-card-soon"><img src="images/cosyspanish.png" alt="Español"><div class="ls-flag">🇪🇸</div><div class="ls-name" data-translate-key="spanish">Español</div></div>
-    <div class="lang-card-soon"><img src="images/cosygerman.png" alt="Deutsch"><div class="ls-flag">🇩🇪</div><div class="ls-name" data-translate-key="german">Deutsch</div></div>
-    <div class="lang-card-soon"><img src="images/cosyportugese.png" alt="Português"><div class="ls-flag">🇵🇹</div><div class="ls-name" data-translate-key="portuguese">Português</div></div>
-    <div class="lang-card-soon"><img src="images/cosyarmenian.png" alt="Հայերεν"><div class="ls-flag">🇦🇲</div><div class="ls-name" data-translate-key="armenian">Հայերεν</div></div>
-    <div class="lang-card-soon"><img src="images/cosygeorgian.png" alt="ქართული"><div class="ls-flag">🇬🇪</div><div class="ls-name" data-translate-key="georgian">ქართული</div></div>
-    <div class="lang-card-soon"><img src="images/cosytatar.png" alt="Татарча"><div class="ls-flag">🟢</div><div class="ls-name" data-translate-key="tatar">Татарча</div></div>
-    <div class="lang-card-soon"><img src="images/cosybachkir.png" alt="Башҡορτσα"><div class="ls-flag">🔵</div><div class="ls-name" data-translate-key="bashkir">Башҡορτσα</div></div>
-    <div class="lang-card-soon"><img src="images/cosybreton.png" alt="Brezhoneg"><div class="ls-flag">⚪</div><div class="ls-name" data-translate-key="breton">Brezhoneg</div></div>
+    <div class="lang-card-soon">
+      <img src="images/cosyspanish.png" alt="Español">
+      <div class="ls-flag">🇪🇸</div>
+      <div class="ls-name" data-translate-key="spanish">Español</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Spanish')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosygerman.png" alt="Deutsch">
+      <div class="ls-flag">🇩🇪</div>
+      <div class="ls-name" data-translate-key="german">Deutsch</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('German')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosyportugese.png" alt="Português">
+      <div class="ls-flag">🇵🇹</div>
+      <div class="ls-name" data-translate-key="portuguese">Português</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Portuguese')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosyarmenian.png" alt="Հայերεν">
+      <div class="ls-flag">🇦🇲</div>
+      <div class="ls-name" data-translate-key="armenian">Հայերεν</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Armenian')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosygeorgian.png" alt="ქართული">
+      <div class="ls-flag">🇬🇪</div>
+      <div class="ls-name" data-translate-key="georgian">ქართული</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Georgian')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosytatar.png" alt="Татарча">
+      <div class="ls-flag">🟢</div>
+      <div class="ls-name" data-translate-key="tatar">Татарча</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Tatar')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosybachkir.png" alt="Башҡορτσα">
+      <div class="ls-flag">🔵</div>
+      <div class="ls-name" data-translate-key="bashkir">Башҡορτσα</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Bashkir')">🔔</button>
+      </div>
+    </div>
+    <div class="lang-card-soon">
+      <img src="images/cosybreton.png" alt="Brezhoneg">
+      <div class="ls-flag">⚪</div>
+      <div class="ls-name" data-translate-key="breton">Brezhoneg</div>
+      <div class="lead-capture">
+        <input type="email" placeholder="Email me when ready" class="lead-email">
+        <button class="lead-submit" onclick="captureLead('Breton')">🔔</button>
+      </div>
+    </div>
   </div>
 </section>
 

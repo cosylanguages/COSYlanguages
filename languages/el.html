@@ -33,7 +33,7 @@ if ('serviceWorker' in navigator) {
 
 <a href="https://wa.me/330766784195?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82!%20%CE%98%CE%B1%20%CE%AE%CE%B8%CE%B5%CE%BB%CE%B1%20%CE%BD%CE%B1%20%CE%BE%CE%B5%CE%BA%CE%B9%CE%BD%CE%AE%CF%83%CF%89%20%CE%BC%CE%B1%CE%B8%CE%AE%CE%BC%CE%B1%CF%84%CE%B1%20%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD." class="wa-fab" title="WhatsApp">💬</a>
 
-<nav>
+<nav id="main-nav">
   <a class="nav-logo" href="../index.html">
     <img src="../images/cosylanguages.png" alt="COSYlanguages">
   </a>
@@ -47,12 +47,15 @@ if ('serviceWorker' in navigator) {
     <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Τα Μαθήματά μου 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Επικοινωνία</a></li>
   </ul>
-  <div class="nav-lang">
-    <a href="en.html" data-lang="en">EN</a>
-    <a href="fr.html" data-lang="fr">FR</a>
-    <a href="it.html" data-lang="it">IT</a>
-    <a href="ru.html" data-lang="ru">RU</a>
-    <a href="el.html" class="active-lang" data-lang="el">EL</a>
+  <div class="nav-lang-switcher">
+    <span class="nav-lang-label">Explore a language:</span>
+    <div class="nav-lang">
+      <a href="en.html" data-lang="en">EN</a>
+      <a href="fr.html" data-lang="fr">FR</a>
+      <a href="it.html" data-lang="it">IT</a>
+      <a href="ru.html" data-lang="ru">RU</a>
+      <a href="el.html" class="active-lang" data-lang="el">EL</a>
+    </div>
   </div>
 </nav>
 

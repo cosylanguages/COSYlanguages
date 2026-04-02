@@ -688,3 +688,96 @@ window.WordLinkerGame = WordLinkerGame;
 window.lastLetterWordCard = lastLetterWordCard;
 window.getVocabPool = getVocabPool;
 window.gameSpeak = gameSpeak;
+
+// ─────────────────────────────────────────────
+// 10. SESSION LOG & PREFERENCES
+// ─────────────────────────────────────────────
+
+const GameSessionManager = {
+  LOG_KEY: 'cosy_session_log',
+  PREF_KEY: 'cosy_game_prefs',
+
+  init() {
+    this.setupGlobalPrefs();
+    this.renderLog();
+  },
+
+  setupGlobalPrefs() {
+    const langSelect = document.getElementById('global-lang-select');
+    const levelSelect = document.getElementById('global-level-select');
+    if (!langSelect || !levelSelect) return;
+
+    const saved = JSON.parse(localStorage.getItem(this.PREF_KEY) || '{}');
+    if (saved.lang) langSelect.value = saved.lang;
+    if (saved.level) levelSelect.value = saved.level;
+
+    const update = () => {
+      localStorage.setItem(this.PREF_KEY, JSON.stringify({
+        lang: langSelect.value,
+        level: levelSelect.value
+      }));
+    };
+    langSelect.addEventListener('change', update);
+    levelSelect.addEventListener('change', update);
+  },
+
+  recordSession(gameName, icon) {
+    const lang = document.getElementById('global-lang-select')?.value || 'en';
+    const level = document.getElementById('global-level-select')?.value || 'starter';
+    let log = JSON.parse(localStorage.getItem(this.LOG_KEY) || '[]');
+
+    // Add new at start, limit to 4
+    log = [{ gameName, icon, lang, level, date: new Date().toISOString() }, ...log.filter(l => l.gameName !== gameName)].slice(0, 4);
+    localStorage.setItem(this.LOG_KEY, JSON.stringify(log));
+    this.renderLog();
+  },
+
+  renderLog() {
+    const container = document.getElementById('session-log-container');
+    const grid = document.getElementById('session-log-grid');
+    if (!container || !grid) return;
+
+    const log = JSON.parse(localStorage.getItem(this.LOG_KEY) || '[]');
+    if (log.length === 0) {
+      container.style.display = 'none';
+      return;
+    }
+
+    container.style.display = 'block';
+    grid.innerHTML = log.map(item => `
+      <div class="log-item">
+        <div class="log-icon">${item.icon}</div>
+        <div class="log-body">
+          <span class="log-name">${item.gameName}</span>
+          <div class="log-meta">${item.lang.toUpperCase()} · ${item.level}</div>
+        </div>
+      </div>
+    `).join('');
+  }
+};
+
+// Override openGameSheet to use global prefs and record session
+const originalOpenGameSheet = window.openGameSheet;
+window.openGameSheet = function(gameName, icon) {
+  GameSessionManager.recordSession(gameName, icon);
+
+  // Set values in the bottom sheet before showing it
+  const lang = document.getElementById('global-lang-select')?.value;
+  const level = document.getElementById('global-level-select')?.value;
+
+  if (originalOpenGameSheet) originalOpenGameSheet(gameName, icon);
+
+  // After sheet opens, sync options if they exist
+  setTimeout(() => {
+    if (lang) {
+      const langOpt = document.querySelector(`#gss-lang-options .gss-option[data-value="${lang}"]`);
+      if (langOpt) langOpt.click();
+    }
+    if (level) {
+      const levelOpt = document.querySelector(`#gss-level-options .gss-option[data-value="${level}"]`);
+      if (levelOpt) levelOpt.click();
+    }
+  }, 50);
+};
+
+document.addEventListener('DOMContentLoaded', () => GameSessionManager.init());

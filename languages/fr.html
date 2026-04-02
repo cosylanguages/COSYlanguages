@@ -33,7 +33,7 @@ if ('serviceWorker' in navigator) {
 
 <a href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20en%20savoir%20plus%20sur%20les%20cours%20de%20fran%C3%A7ais." class="wa-fab" title="Chat sur WhatsApp">💬</a>
 
-<nav>
+<nav id="main-nav">
   <a class="nav-logo" href="../index.html">
     <img src="../images/cosylanguages.png" alt="COSYlanguages">
   </a>
@@ -47,12 +47,15 @@ if ('serviceWorker' in navigator) {
     <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Mes leçons 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contactez-nous</a></li>
   </ul>
-  <div class="nav-lang">
-    <a href="en.html" data-lang="en">EN</a>
-    <a href="fr.html" class="active-lang" data-lang="fr">FR</a>
-    <a href="it.html" data-lang="it">IT</a>
-    <a href="ru.html" data-lang="ru">RU</a>
-    <a href="el.html" data-lang="el">EL</a>
+  <div class="nav-lang-switcher">
+    <span class="nav-lang-label">Explore a language:</span>
+    <div class="nav-lang">
+      <a href="en.html" data-lang="en">EN</a>
+      <a href="fr.html" class="active-lang" data-lang="fr">FR</a>
+      <a href="it.html" data-lang="it">IT</a>
+      <a href="ru.html" data-lang="ru">RU</a>
+      <a href="el.html" data-lang="el">EL</a>
+    </div>
   </div>
 </nav>
 
