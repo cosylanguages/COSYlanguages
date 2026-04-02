@@ -1,78 +1,6 @@
 (function() {
     const data = [
     {
-        "word": "artist",
-        "level": "elementary",
-        "theme": "art_design_A2",
-        "emoji": "🎨",
-        "form": "noun",
-        "plural": "artists",
-        "definitions": [
-            {
-                "text": "A person who creates paintings or drawings.",
-                "examples": [
-                    "The artist is painting a beautiful picture.",
-                    "She is a famous artist."
-                ]
-            },
-            {
-                "text": "This person often works in a studio.",
-                "examples": [
-                    "Artists use colors and brushes."
-                ]
-            }
-        ],
-        "subtext": "painter, sculptor / talented artist"
-    },
-    {
-        "word": "chef",
-        "level": "elementary",
-        "theme": "restaurants_ordering_A2",
-        "emoji": "👨‍🍳",
-        "form": "noun",
-        "plural": "chefs",
-        "definitions": [
-            {
-                "text": "A professional cook who works in a restaurant.",
-                "examples": [
-                    "The chef is cooking a delicious meal.",
-                    "Our chef is very talented."
-                ]
-            },
-            {
-                "text": "This person works in a kitchen.",
-                "examples": [
-                    "Chefs wear a tall white hat."
-                ]
-            }
-        ],
-        "subtext": "cook / head chef"
-    },
-    {
-        "word": "nurse",
-        "level": "elementary",
-        "theme": "medical_appointments_A1",
-        "emoji": "👩‍⚕️",
-        "form": "noun",
-        "plural": "nurses",
-        "definitions": [
-            {
-                "text": "A person who cares for sick or injured people.",
-                "examples": [
-                    "The nurse is giving medicine to the patient.",
-                    "She is a kind nurse."
-                ]
-            },
-            {
-                "text": "This person usually works in a hospital or a clinic.",
-                "examples": [
-                    "Nurses help doctors take care of people."
-                ]
-            }
-        ],
-        "subtext": "medical nurse / care for patients"
-    },
-    {
         "word": "burger",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -96,6 +24,8 @@
         ],
         "subtext": "hamburger / fast food"
     },
+
+
     {
         "word": "taco",
         "level": "elementary",
@@ -120,551 +50,8 @@
         ],
         "subtext": "Mexican food / spicy taco"
     },
-    {
-        "word": "salad",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🥗",
-        "form": "noun",
-        "plural": "salads",
-        "definitions": [
-            {
-                "text": "A mixture of raw vegetables.",
-                "examples": [
-                    "I had a fresh salad for lunch.",
-                    "The salad has lettuce and cucumber."
-                ]
-            },
-            {
-                "text": "This is a healthy food usually served cold.",
-                "examples": [
-                    "Salads are often served with a dressing."
-                ]
-            }
-        ],
-        "subtext": "healthy salad / green salad"
-    },
-    {
-        "word": "cheese",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🧀",
-        "form": "noun",
-        "plural": "cheese",
-        "definitions": [
-            {
-                "text": "A solid food made from milk.",
-                "examples": [
-                    "I like cheese on my pizza.",
-                    "There are many types of cheese."
-                ]
-            },
-            {
-                "text": "Some cheeses have holes in them.",
-                "examples": [
-                    "France is famous for its cheese."
-                ]
-            }
-        ],
-        "subtext": "cheddar, brie / piece of cheese"
-    },
-    {
-        "word": "rice",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🍚",
-        "form": "noun",
-        "plural": "rice",
-        "definitions": [
-            {
-                "text": "Small white or brown grains from a plant.",
-                "examples": [
-                    "I eat rice with chicken.",
-                    "Do you like fried rice?"
-                ]
-            },
-            {
-                "text": "This is a staple food in many Asian countries.",
-                "examples": [
-                    "Rice grows in water-filled fields."
-                ]
-            }
-        ],
-        "subtext": "white rice / eat rice"
-    },
-    {
-        "word": "tomato",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🍅",
-        "form": "noun",
-        "plural": "tomatoes",
-        "definitions": [
-            {
-                "text": "A red fruit often used in salads and sauces.",
-                "examples": [
-                    "The tomato is very juicy.",
-                    "I need tomatoes for the pasta sauce."
-                ]
-            },
-            {
-                "text": "Tomatoes are technically fruit but used as vegetables.",
-                "examples": [
-                    "Cherry tomatoes are small and sweet."
-                ]
-            }
-        ],
-        "subtext": "red tomato / tomato sauce"
-    },
-    {
-        "word": "potato",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🥔",
-        "form": "noun",
-        "plural": "potatoes",
-        "definitions": [
-            {
-                "text": "A round root vegetable.",
-                "examples": [
-                    "I love mashed potatoes.",
-                    "Can you peel the potatoes?"
-                ]
-            },
-            {
-                "text": "We use potatoes to make French fries.",
-                "examples": [
-                    "Potatoes grow under the ground."
-                ]
-            }
-        ],
-        "subtext": "mashed potato / baked potato"
-    },
-    {
-        "word": "wine",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🍷",
-        "form": "noun",
-        "plural": "wine",
-        "definitions": [
-            {
-                "text": "An alcoholic drink made from grapes.",
-                "examples": [
-                    "Red wine goes well with meat.",
-                    "They drank a bottle of wine."
-                ]
-            },
-            {
-                "text": "France and Italy are famous for their wines.",
-                "examples": [
-                    "The wine is made in a vineyard."
-                ]
-            }
-        ],
-        "subtext": "red wine / glass of wine"
-    },
-    {
-        "word": "beer",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🍺",
-        "form": "noun",
-        "plural": "beer",
-        "definitions": [
-            {
-                "text": "An alcoholic drink made from grain.",
-                "examples": [
-                    "He is drinking a glass of beer.",
-                    "Beer is often served cold."
-                ]
-            },
-            {
-                "text": "This drink often has foam on top.",
-                "examples": [
-                    "Germany is famous for its beer."
-                ]
-            }
-        ],
-        "subtext": "cold beer / bottle of beer"
-    },
-    {
-        "word": "soda",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🥤",
-        "form": "noun",
-        "plural": "soda",
-        "definitions": [
-            {
-                "text": "A sweet carbonated drink.",
-                "examples": [
-                    "I don't drink much soda.",
-                    "Can I have a soda?"
-                ]
-            },
-            {
-                "text": "This drink has bubbles.",
-                "examples": [
-                    "Soda is also called pop or soft drink."
-                ]
-            }
-        ],
-        "subtext": "fizzy drink / soft drink"
-    },
-    {
-        "word": "hospital",
-        "level": "elementary",
-        "theme": "medical_appointments_A1",
-        "emoji": "🏥",
-        "form": "noun",
-        "plural": "hospitals",
-        "definitions": [
-            {
-                "text": "A place where sick or injured people are given medical treatment.",
-                "examples": [
-                    "The ambulance is going to the hospital.",
-                    "She works at the hospital."
-                ]
-            },
-            {
-                "text": "This is a place where you go to see a doctor or a nurse.",
-                "examples": [
-                    "Hospitals are open 24 hours a day."
-                ]
-            }
-        ],
-        "subtext": "medical center / go to hospital"
-    },
-    {
-        "word": "cinema",
-        "level": "elementary",
-        "theme": "theatre_performance_A2",
-        "emoji": "🎬",
-        "form": "noun",
-        "plural": "cinemas",
-        "definitions": [
-            {
-                "text": "A place where people go to watch films on a big screen.",
-                "examples": [
-                    "Let's go to the cinema tonight.",
-                    "What's playing at the cinema?"
-                ]
-            },
-            {
-                "text": "This is a place where you can eat popcorn and watch a movie.",
-                "examples": [
-                    "I love going to the cinema with friends."
-                ]
-            }
-        ],
-        "subtext": "movie theater / go to the cinema"
-    },
-    {
-        "word": "restaurant",
-        "level": "elementary",
-        "theme": "restaurants_ordering_A2",
-        "emoji": "🍴",
-        "form": "noun",
-        "plural": "restaurants",
-        "definitions": [
-            {
-                "text": "A place where you can buy and eat a meal.",
-                "examples": [
-                    "Let's go to an Italian restaurant.",
-                    "The restaurant is open."
-                ]
-            },
-            {
-                "text": "In this place, a waiter or waitress brings food to your table.",
-                "examples": [
-                    "We had dinner at a fancy restaurant."
-                ]
-            }
-        ],
-        "subtext": "dining place / eat at a restaurant"
-    },
-    {
-        "word": "supermarket",
-        "level": "elementary",
-        "theme": "shopping_for_food_A2",
-        "emoji": "🛒",
-        "form": "noun",
-        "plural": "supermarkets",
-        "definitions": [
-            {
-                "text": "A large shop that sells food and household goods.",
-                "examples": [
-                    "Example of supermarket here."
-                ]
-            }
-        ],
-        "subtext": "grocery store / go to the supermarket"
-    },
-    {
-        "word": "dress",
-        "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "dresses",
-        "definitions": [
-            {
-                "text": "A piece of clothing for women that covers the body and legs.",
-                "examples": [
-                    "Example of dress here."
-                ]
-            }
-        ],
-        "subtext": "wear a dress / beautiful dress"
-    },
-    {
-        "word": "jacket",
-        "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
-        "emoji": "🧥",
-        "form": "noun",
-        "plural": "jackets",
-        "definitions": [
-            {
-                "text": "A short coat.",
-                "examples": [
-                    "Example of jacket here."
-                ]
-            }
-        ],
-        "subtext": "outerwear / wear a jacket"
-    },
-    {
-        "word": "skirt",
-        "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "skirts",
-        "definitions": [
-            {
-                "text": "A piece of clothing for women that hangs from the waist.",
-                "examples": [
-                    "Example of skirt here."
-                ]
-            }
-        ],
-        "subtext": "short skirt / long skirt"
-    },
-    {
-        "word": "sock",
-        "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
-        "emoji": "🧦",
-        "form": "noun",
-        "plural": "socks",
-        "definitions": [
-            {
-                "text": "A piece of clothing that you wear on your foot inside your shoe.",
-                "examples": [
-                    "Example of sock here."
-                ]
-            }
-        ],
-        "subtext": "pair of socks / wear socks"
-    },
-    {
-        "word": "sofa",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🛋️",
-        "form": "noun",
-        "plural": "sofas",
-        "definitions": [
-            {
-                "text": "A long comfortable seat for more than one person.",
-                "examples": [
-                    "Example of sofa here."
-                ]
-            }
-        ],
-        "subtext": "couch / sit on the sofa"
-    },
-    {
-        "word": "lamp",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "💡",
-        "form": "noun",
-        "plural": "lamps",
-        "definitions": [
-            {
-                "text": "A device that produces light.",
-                "examples": [
-                    "Example of lamp here."
-                ]
-            }
-        ],
-        "subtext": "table lamp / turn on the lamp"
-    },
-    {
-        "word": "desk",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "⌨️",
-        "form": "noun",
-        "plural": "desks",
-        "definitions": [
-            {
-                "text": "A type of table that you sit at to write or work.",
-                "examples": [
-                    "Example of desk here."
-                ]
-            }
-        ],
-        "subtext": "office desk / at the desk"
-    },
-    {
-        "word": "wallet",
-        "level": "elementary",
-        "theme": "accessories_A1",
-        "emoji": "👛",
-        "form": "noun",
-        "plural": "wallets",
-        "definitions": [
-            {
-                "text": "A small flat case for carrying money and cards.",
-                "examples": [
-                    "Example of wallet here."
-                ]
-            }
-        ],
-        "subtext": "money holder / leather wallet"
-    },
-    {
-        "word": "glasses",
-        "level": "elementary",
-        "theme": "accessories_A1",
-        "emoji": "👓",
-        "form": "noun",
-        "plural": "glasses",
-        "definitions": [
-            {
-                "text": "Something you wear on your face to help you see better.",
-                "examples": [
-                    "I need new glasses.",
-                    "He is wearing black glasses."
-                ]
-            },
-            {
-                "text": "Containers used for drinking water or juice.",
-                "examples": [
-                    "Two glasses of water, please.",
-                    "The glasses are in the kitchen."
-                ]
-            }
-        ],
-        "subtext": "spectacles / wear glasses"
-    },
-    {
-        "word": "lion",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
-        "emoji": "🦁",
-        "form": "noun",
-        "plural": "lions",
-        "definitions": [
-            {
-                "text": "A large wild cat that lives in Africa and is called 'the king of the jungle'.",
-                "examples": [
-                    "The lion is very strong.",
-                    "We saw a lion at the zoo."
-                ]
-            }
-        ],
-        "subtext": "king of the jungle / wild lion"
-    },
-    {
-        "word": "tiger",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
-        "emoji": "🐯",
-        "form": "noun",
-        "plural": "tigers",
-        "definitions": [
-            {
-                "text": "A large wild cat with orange fur and black stripes.",
-                "examples": [
-                    "Example of tiger here."
-                ]
-            }
-        ],
-        "subtext": "wild cat / striped tiger"
-    },
-    {
-        "word": "horse",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
-        "emoji": "🐎",
-        "form": "noun",
-        "plural": "horses",
-        "definitions": [
-            {
-                "text": "A large animal that people ride.",
-                "examples": [
-                    "Example of horse here."
-                ]
-            }
-        ],
-        "subtext": "ride a horse / fast horse"
-    },
-    {
-        "word": "rabbit",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
-        "emoji": "🐇",
-        "form": "noun",
-        "plural": "rabbits",
-        "definitions": [
-            {
-                "text": "A small animal with long ears and soft fur.",
-                "examples": [
-                    "Example of rabbit here."
-                ]
-            }
-        ],
-        "subtext": "bunny / pet rabbit"
-    },
-    {
-        "word": "arm",
-        "level": "elementary",
-        "theme": "body_parts_A1",
-        "emoji": "💪",
-        "form": "noun",
-        "plural": "arms",
-        "definitions": [
-            {
-                "text": "The part of the body from the shoulder to the hand.",
-                "examples": [
-                    "Example of arm here."
-                ]
-            }
-        ],
-        "subtext": "upper limb / broken arm"
-    },
-    {
-        "word": "finger",
-        "level": "elementary",
-        "theme": "body_parts_A1",
-        "emoji": "☝️",
-        "form": "noun",
-        "plural": "fingers",
-        "definitions": [
-            {
-                "text": "One of the five long parts at the end of your hand.",
-                "examples": [
-                    "Example of finger here."
-                ]
-            }
-        ],
-        "subtext": "index finger / point a finger"
-    },
+
+
     {
         "word": "journalist",
         "level": "elementary",
@@ -689,6 +76,8 @@
         ],
         "subtext": "reporter / news journalist"
     },
+
+
     {
         "word": "streaming",
         "level": "elementary",
@@ -706,6 +95,8 @@
         ],
         "subtext": "live streaming / online video"
     },
+
+
     {
         "word": "gravity",
         "level": "elementary",
@@ -723,6 +114,8 @@
         ],
         "subtext": "force of nature / laws of gravity"
     },
+
+
     {
         "word": "justice",
         "level": "elementary",
@@ -740,6 +133,8 @@
         ],
         "subtext": "legal justice / court of justice"
     },
+
+
     {
         "word": "pollution",
         "level": "elementary",
@@ -756,24 +151,8 @@
         ],
         "subtext": "environmental pollution / air pollution"
     },
-    {
-        "word": "university",
-        "level": "elementary",
-        "theme": "career_development_A2",
-        "emoji": "🎓",
-        "form": "noun",
-        "plural": "universities",
-        "definitions": [
-            {
-                "text": "A high-level educational institution where students study for degrees.",
-                "examples": [
-                    "He is studying at the university.",
-                    "The university has a large library."
-                ]
-            }
-        ],
-        "subtext": "higher education / go to university"
-    },
+
+
     {
         "word": "local cuisine",
         "level": "elementary",
@@ -798,10 +177,12 @@
         ],
         "subtext": "regional food / local dishes"
     },
+
+
     {
         "word": "souvenir",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "holiday_types_A2",
         "emoji": "🎁",
         "form": "noun",
         "plural": "souvenirs",
@@ -822,51 +203,8 @@
         ],
         "subtext": "gift / travel souvenir"
     },
-    {
-        "word": "city",
-        "theme": "transport_travel_A2",
-        "level": "elementary",
-        "numberPlural": "3 city",
-        "answer": "three cities",
-        "emoji": "🏙️",
-        "form": "noun",
-        "plural": "cities",
-        "definitions": [
-            {
-                "text": "A large and important town.",
-                "examples": [
-                    "New York is a big city.",
-                    "I live in a city."
-                ]
-            },
-            {
-                "text": "This is a place with many buildings, streets, and people.",
-                "examples": [
-                    "Cities are often very noisy."
-                ]
-            }
-        ],
-        "subtext": "metropolis / big city"
-    },
-    {
-        "word": "mouse",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
-        "numberPlural": "many mouse",
-        "answer": "many mice",
-        "emoji": "🐭",
-        "form": "noun",
-        "plural": "mice",
-        "definitions": [
-            {
-                "text": "A small animal with a long tail; or a computer device.",
-                "examples": [
-                    "Example of mouse here."
-                ]
-            }
-        ],
-        "subtext": "tiny mouse / computer mouse"
-    },
+
+
     {
         "word": "overtime",
         "level": "elementary",
@@ -883,6 +221,8 @@
         ],
         "subtext": "extra hours / work overtime"
     },
+
+
     {
         "word": "promotion",
         "level": "elementary",
@@ -900,6 +240,8 @@
         ],
         "subtext": "career advancement / get a promotion"
     },
+
+
     {
         "word": "interview",
         "level": "elementary",
@@ -917,6 +259,8 @@
         ],
         "subtext": "job interview / attend an interview"
     },
+
+
     {
         "word": "contract",
         "level": "elementary",
@@ -934,6 +278,8 @@
         ],
         "subtext": "legal document / sign a contract"
     },
+
+
     {
         "word": "deadline",
         "level": "elementary",
@@ -951,6 +297,8 @@
         ],
         "subtext": "due date / meet a deadline"
     },
+
+
     {
         "word": "experience",
         "level": "elementary",
@@ -967,6 +315,8 @@
         ],
         "subtext": "work experience / past experience"
     },
+
+
     {
         "word": "mortgage",
         "level": "elementary",
@@ -984,6 +334,8 @@
         ],
         "subtext": "home loan / pay the mortgage"
     },
+
+
     {
         "word": "loan",
         "level": "elementary",
@@ -1001,23 +353,8 @@
         ],
         "subtext": "bank loan / take a loan"
     },
-    {
-        "word": "bill",
-        "level": "elementary",
-        "theme": "finances_A2",
-        "emoji": "🧾",
-        "form": "noun",
-        "plural": "bills",
-        "definitions": [
-            {
-                "text": "A document that shows how much money you must pay.",
-                "examples": [
-                    "I pay my electricity bill every month."
-                ]
-            }
-        ],
-        "subtext": "invoice / electricity bill"
-    },
+
+
     {
         "word": "debt",
         "level": "elementary",
@@ -1035,6 +372,8 @@
         ],
         "subtext": "owe money / in debt"
     },
+
+
     {
         "word": "account",
         "level": "elementary",
@@ -1052,6 +391,8 @@
         ],
         "subtext": "bank account / open an account"
     },
+
+
     {
         "word": "budget",
         "level": "elementary",
@@ -1069,6 +410,8 @@
         ],
         "subtext": "financial plan / monthly budget"
     },
+
+
     {
         "word": "diet",
         "level": "elementary",
@@ -1086,23 +429,8 @@
         ],
         "subtext": "healthy diet / on a diet"
     },
-    {
-        "word": "appointment",
-        "level": "elementary",
-        "theme": "medical_appointments_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "appointments",
-        "definitions": [
-            {
-                "text": "A time you arrange to meet someone, for example a doctor.",
-                "examples": [
-                    "I have a doctor's appointment on Tuesday."
-                ]
-            }
-        ],
-        "subtext": "meeting / doctor's appointment"
-    },
+
+
     {
         "word": "vitamin",
         "level": "elementary",
@@ -1120,23 +448,8 @@
         ],
         "subtext": "health supplement / take vitamins"
     },
-    {
-        "word": "pain",
-        "level": "elementary",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "🤕",
-        "form": "noun",
-        "plural": "pains",
-        "definitions": [
-            {
-                "text": "An unpleasant feeling in your body when something is wrong.",
-                "examples": [
-                    "She has pain in her back."
-                ]
-            }
-        ],
-        "subtext": "physical pain / back pain"
-    },
+
+
     {
         "word": "support",
         "level": "elementary",
@@ -1153,6 +466,8 @@
         ],
         "subtext": "assistance / offer support"
     },
+
+
     {
         "word": "trust",
         "level": "elementary",
@@ -1169,6 +484,8 @@
         ],
         "subtext": "confidence / mutual trust"
     },
+
+
     {
         "word": "compromise",
         "level": "elementary",
@@ -1186,6 +503,8 @@
         ],
         "subtext": "middle ground / reach a compromise"
     },
+
+
     {
         "word": "journey",
         "level": "elementary",
@@ -1203,6 +522,8 @@
         ],
         "subtext": "travel / long journey"
     },
+
+
     {
         "word": "abroad",
         "level": "elementary",
@@ -1219,6 +540,8 @@
         ],
         "subtext": "overseas / travel abroad"
     },
+
+
     {
         "word": "destination",
         "level": "elementary",
@@ -1236,6 +559,8 @@
         ],
         "subtext": "final destination / reach your destination"
     },
+
+
     {
         "word": "flight",
         "level": "elementary",
@@ -1253,6 +578,8 @@
         ],
         "subtext": "airplane trip / book a flight"
     },
+
+
     {
         "word": "luggage",
         "level": "elementary",
@@ -1269,6 +596,8 @@
         ],
         "subtext": "baggage / carry luggage"
     },
+
+
     {
         "word": "neighbourhood",
         "level": "elementary",
@@ -1286,6 +615,8 @@
         ],
         "subtext": "local area / friendly neighbourhood"
     },
+
+
     {
         "word": "community",
         "level": "elementary",
@@ -1303,40 +634,8 @@
         ],
         "subtext": "local community / share interests"
     },
-    {
-        "word": "architect",
-        "level": "elementary",
-        "theme": "art_design_A2",
-        "emoji": "🏗️",
-        "form": "noun",
-        "plural": "architects",
-        "definitions": [
-            {
-                "text": "A person who designs buildings and advises on their construction.",
-                "examples": [
-                    "Example of architect here."
-                ]
-            }
-        ],
-        "subtext": "building designer / professional architect"
-    },
-    {
-        "word": "dentist",
-        "level": "elementary",
-        "theme": "medical_appointments_A1",
-        "emoji": "🧑‍⚕️",
-        "form": "noun",
-        "plural": "dentists",
-        "definitions": [
-            {
-                "text": "A person who is qualified to treat the diseases and conditions that affect the teeth and gums.",
-                "examples": [
-                    "Example of dentist here."
-                ]
-            }
-        ],
-        "subtext": "dental professional / visit the dentist"
-    },
+
+
     {
         "word": "engineer",
         "level": "elementary",
@@ -1354,6 +653,8 @@
         ],
         "subtext": "technical professional / mechanical engineer"
     },
+
+
     {
         "word": "lawyer",
         "level": "elementary",
@@ -1371,210 +672,8 @@
         ],
         "subtext": "legal professional / consult a lawyer"
     },
-    {
-        "word": "receptionist",
-        "level": "elementary",
-        "theme": "job_titles_professions_A1",
-        "emoji": "☎️",
-        "form": "noun",
-        "plural": "receptionists",
-        "definitions": [
-            {
-                "text": "A person who greets visitors and answers the telephone in an office.",
-                "examples": [
-                    "Example of receptionist here."
-                ]
-            }
-        ],
-        "subtext": "front desk / friendly receptionist"
-    },
-    {
-        "word": "mechanic",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
-        "emoji": "🔧",
-        "form": "noun",
-        "plural": "mechanics",
-        "definitions": [
-            {
-                "text": "A person who repairs and maintains machinery, especially motors.",
-                "examples": [
-                    "Example of mechanic here."
-                ]
-            }
-        ],
-        "subtext": "car mechanic / skilled mechanic"
-    },
-    {
-        "word": "pharmacy",
-        "level": "elementary",
-        "theme": "medical_appointments_A1",
-        "emoji": "💊",
-        "form": "noun",
-        "plural": "pharmacys",
-        "definitions": [
-            {
-                "text": "A shop where medicinal drugs are dispensed and sold.",
-                "examples": [
-                    "Example of pharmacy here."
-                ]
-            }
-        ],
-        "subtext": "drugstore / go to the pharmacy"
-    },
-    {
-        "word": "stadium",
-        "level": "elementary",
-        "theme": "theatre_performance_A2",
-        "emoji": "🏟️",
-        "form": "noun",
-        "plural": "stadiums",
-        "definitions": [
-            {
-                "text": "A large closed area used for sports and other public events.",
-                "examples": [
-                    "Example of stadium here."
-                ]
-            }
-        ],
-        "subtext": "sports arena / football stadium"
-    },
-    {
-        "word": "balcony",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🏘️",
-        "form": "noun",
-        "plural": "balconys",
-        "definitions": [
-            {
-                "text": "A platform on the outside of a building, with a wall or rail around it.",
-                "examples": [
-                    "Example of balcony here."
-                ]
-            }
-        ],
-        "subtext": "outdoor space / sit on the balcony"
-    },
-    {
-        "word": "garage",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🚗",
-        "form": "noun",
-        "plural": "garages",
-        "definitions": [
-            {
-                "text": "A building or indoor area where a car is kept.",
-                "examples": [
-                    "Example of garage here."
-                ]
-            }
-        ],
-        "subtext": "parking space / car garage"
-    },
-    {
-        "word": "ceiling",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🏠",
-        "form": "noun",
-        "plural": "ceilings",
-        "definitions": [
-            {
-                "text": "The upper interior surface of a room.",
-                "examples": [
-                    "Example of ceiling here."
-                ]
-            }
-        ],
-        "subtext": "roof interior / high ceiling"
-    },
-    {
-        "word": "curtain",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🏘️",
-        "form": "noun",
-        "plural": "curtains",
-        "definitions": [
-            {
-                "text": "A piece of material suspended as a screen at a window.",
-                "examples": [
-                    "Example of curtain here."
-                ]
-            }
-        ],
-        "subtext": "drapes / close the curtains"
-    },
-    {
-        "word": "dishwasher",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🧼",
-        "form": "noun",
-        "plural": "dishwashers",
-        "definitions": [
-            {
-                "text": "A machine for cleaning dishes automatically.",
-                "examples": [
-                    "Example of dishwasher here."
-                ]
-            }
-        ],
-        "subtext": "kitchen appliance / load the dishwasher"
-    },
-    {
-        "word": "microwave",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🔥",
-        "form": "noun",
-        "plural": "microwaves",
-        "definitions": [
-            {
-                "text": "An electric oven that cooks or heats food very quickly.",
-                "examples": [
-                    "Example of microwave here."
-                ]
-            }
-        ],
-        "subtext": "kitchen equipment / heat in the microwave"
-    },
-    {
-        "word": "refrigerator",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🧊",
-        "form": "noun",
-        "plural": "refrigerators",
-        "definitions": [
-            {
-                "text": "A large electric cupboard that keeps food cold.",
-                "examples": [
-                    "Example of refrigerator here."
-                ]
-            }
-        ],
-        "subtext": "fridge / cold storage"
-    },
-    {
-        "word": "vacuum cleaner",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
-        "emoji": "🧹",
-        "form": "noun",
-        "plural": "vacuum cleaners",
-        "definitions": [
-            {
-                "text": "An electrical machine for cleaning floors by sucking up dirt.",
-                "examples": [
-                    "Example of vacuum cleaner here."
-                ]
-            }
-        ],
-        "subtext": "hoover / use the vacuum cleaner"
-    },
+
+
     {
         "word": "earthquake",
         "level": "elementary",
@@ -1592,6 +691,8 @@
         ],
         "subtext": "natural disaster / seismic activity"
     },
+
+
     {
         "word": "flood",
         "level": "elementary",
@@ -1609,6 +710,8 @@
         ],
         "subtext": "natural disaster / heavy rain"
     },
+
+
     {
         "word": "climate",
         "level": "elementary",
@@ -1626,6 +729,8 @@
         ],
         "subtext": "weather patterns / climate change"
     },
+
+
     {
         "word": "environment",
         "level": "elementary",
@@ -1643,6 +748,8 @@
         ],
         "subtext": "nature / protect the environment"
     },
+
+
     {
         "word": "conservation",
         "level": "elementary",
@@ -1660,6 +767,8 @@
         ],
         "subtext": "nature protection / wildlife conservation"
     },
+
+
     {
         "word": "sustainability",
         "level": "elementary",
@@ -1676,8 +785,517 @@
             }
         ],
         "subtext": "eco-friendly / environmental sustainability"
+    },
+
+
+
+    {
+        "word": "receipt",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🧾",
+        "form": "noun",
+        "plural": "receipts",
+        "subtext": "keep a receipt",
+        "definitions": [
+            {
+                "text": "A piece of paper that shows you have paid for something.",
+                "examples": [
+                    "Can I have a receipt, please?"
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "salary",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "noun",
+        "plural": "salaries",
+        "subtext": "pay, income",
+        "definitions": [
+            {
+                "text": "The money a person earns from their job each month.",
+                "examples": [
+                    "Her salary is good.",
+                    "The job has a high salary."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "relationship",
+        "level": "elementary",
+        "theme": "relationships_family_A2",
+        "emoji": "👫",
+        "form": "noun",
+        "plural": "relationships",
+        "definitions": [
+            {
+                "text": "A connection between two people.",
+                "examples": [
+                    "They have a good relationship."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to family life",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "nationality",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🏳️",
+        "form": "noun",
+        "plural": "nationalities",
+        "definitions": [
+            {
+                "text": "The state of belonging to a particular nation.",
+                "examples": [
+                    "What is your nationality?",
+                    "He has British nationality."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to personal identity",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "occupation",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "💼",
+        "form": "noun",
+        "plural": "occupations",
+        "subtext": "job, profession",
+        "definitions": [
+            {
+                "text": "A person's job or profession.",
+                "examples": [
+                    "What is your occupation?",
+                    "Please state your occupation on the form."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "application",
+        "level": "elementary",
+        "theme": "school_life_routines_A2",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "applications",
+        "subtext": "apply for, job application",
+        "definitions": [
+            {
+                "text": "A formal request to be considered for a position or to be allowed to do something.",
+                "examples": [
+                    "She sent an application for the new job."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "bill",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💵",
+        "form": "noun",
+        "plural": "bills",
+        "subtext": "pay a bill",
+        "definitions": [
+            {
+                "text": "A piece of paper that shows how much money you must pay for something.",
+                "examples": [
+                    "I need to pay the phone bill."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "nurse",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "nurses",
+        "subtext": "hospital nurse, school nurse",
+        "definitions": [
+            {
+                "text": "A person trained to care for sick or injured people.",
+                "examples": [
+                    "The nurse checks your blood pressure."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "chef",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "chefs",
+        "subtext": "restaurant chef, head chef",
+        "definitions": [
+            {
+                "text": "A professional cook, especially the head cook in a restaurant.",
+                "examples": [
+                    "The chef makes excellent food."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "pharmacy",
+        "level": "elementary",
+        "theme": "neighbourhood_local_A2",
+        "emoji": "💊",
+        "form": "noun",
+        "plural": "pharmacies",
+        "definitions": [
+            {
+                "text": "A shop where you can buy medicine.",
+                "examples": [
+                    "I need to go to the pharmacy for some aspirin."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to local places services",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "artist",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🎨",
+        "form": "noun",
+        "plural": "artists",
+        "definitions": [
+            {
+                "text": "A person who creates art, such as paintings or sculptures.",
+                "examples": [
+                    "She is a talented artist."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "wallet",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "👛",
+        "form": "noun",
+        "plural": "wallets",
+        "definitions": [
+            {
+                "text": "A small flat case used for carrying money and cards.",
+                "examples": [
+                    "I have no money in my wallet."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to everyday shopping",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "tiger",
+        "level": "elementary",
+        "theme": "animals_nature_A2",
+        "emoji": "🐅",
+        "form": "noun",
+        "plural": "tigers",
+        "definitions": [
+            {
+                "text": "A large wild cat with orange fur and black stripes.",
+                "examples": [
+                    "Tigers live in Asia."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to animals",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "garage",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "garages",
+        "definitions": [
+            {
+                "text": "A building where you keep a car.",
+                "examples": [
+                    "The car is in the garage."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "stadium",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🏟️",
+        "form": "noun",
+        "plural": "stadiums",
+        "definitions": [
+            {
+                "text": "A large building with rows of seats around a sports field.",
+                "examples": [
+                    "The stadium was full."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to places culture leisure",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "ceiling",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "ceilings",
+        "definitions": [
+            {
+                "text": "The top surface of a room.",
+                "examples": [
+                    "There is a light on the ceiling."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "mechanic",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧑‍🔧",
+        "form": "noun",
+        "plural": "mechanics",
+        "definitions": [
+            {
+                "text": "A person whose job is repairing machines, especially the engines of vehicles.",
+                "examples": [
+                    "The mechanic is fixing my car."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to job titles professions",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "balcony",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "balconies",
+        "definitions": [
+            {
+                "text": "An area with a wall or bars around it that is joined to the outside wall of a building on an upper level.",
+                "examples": [
+                    "We have flowers on our balcony."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to rooms of a home",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "dishwasher",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🧼",
+        "form": "noun",
+        "plural": "dishwashers",
+        "definitions": [
+            {
+                "text": "A machine that washes dishes.",
+                "examples": [
+                    "Load the dishwasher after dinner."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "vacuum cleaner",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🧹",
+        "form": "noun",
+        "plural": "vacuum cleaners",
+        "definitions": [
+            {
+                "text": "A machine that cleans floors by sucking up dirt.",
+                "examples": [
+                    "I need to use the vacuum cleaner on the rug."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "appointment",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "appointments",
+        "subtext": "doctor's appointment",
+        "definitions": [
+            {
+                "text": "A formal arrangement to meet or visit someone at a particular time and place.",
+                "examples": [
+                    "I have an appointment with the doctor at ten o'clock."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "curtain",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "curtains",
+        "definitions": [
+            {
+                "text": "A piece of cloth that hangs across a window.",
+                "examples": [
+                    "Close the curtains, please."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
+    },
+
+
+
+    {
+        "word": "microwave",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🔥",
+        "form": "noun",
+        "plural": "microwaves",
+        "definitions": [
+            {
+                "text": "An electric oven that uses waves of energy to cook or heat food very quickly.",
+                "examples": [
+                    "Put the soup in the microwave."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to household items",
+        "opposite": null
     }
-];
+    ];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
