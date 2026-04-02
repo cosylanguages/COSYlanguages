@@ -4001,6 +4001,326 @@
     "subtext": "not old / youthful",
     "comparative": "younger",
     "superlative": "the youngest"
+},
+{
+    "word": "delighted",
+    "level": "elementary",
+    "theme": "social_emotions_A2",
+    "emoji": "😊",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Very pleased.",
+            "examples": [
+                "I was delighted with my exam results.",
+                "We are delighted to welcome you to our team."
+            ]
+        }
+    ],
+    "subtext": "very happy / pleased",
+    "comparative": "more delighted",
+    "superlative": "the most delighted",
+    "opposite": "miserable"
+},
+{
+    "word": "dull",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "☁️",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Not interesting or exciting; or not bright.",
+            "examples": [
+                "The movie was a bit dull.",
+                "It was a dull, grey day."
+            ]
+        }
+    ],
+    "subtext": "boring / not bright",
+    "comparative": "duller",
+    "superlative": "the dullest",
+    "opposite": "bright"
+},
+{
+    "word": "elderly",
+    "level": "elementary",
+    "theme": "personal_qualities_A2",
+    "emoji": "👴",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "A polite word for old, used to describe people.",
+            "examples": [
+                "The elderly man needed help crossing the road.",
+                "She looks after her elderly parents."
+            ]
+        }
+    ],
+    "subtext": "old people",
+    "comparative": "more elderly",
+    "superlative": "the most elderly",
+    "opposite": "young"
+},
+{
+    "word": "frequent",
+    "level": "elementary",
+    "theme": "quantity_degree_A2",
+    "emoji": "🔄",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Happening often.",
+            "examples": [
+                "The buses are quite frequent.",
+                "He is a frequent visitor to London."
+            ]
+        }
+    ],
+    "subtext": "often",
+    "comparative": "more frequent",
+    "superlative": "the most frequent",
+    "opposite": "rare"
+},
+{
+    "word": "inner",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "🎯",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "On the inside, or near the center of something.",
+            "examples": [
+                "The inner ear is very sensitive.",
+                "She has a lot of inner strength."
+            ]
+        }
+    ],
+    "subtext": "inside",
+    "comparative": null,
+    "superlative": "innermost",
+    "opposite": "outer"
+},
+{
+    "word": "main",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "📍",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Larger, more important, or having more influence than others of the same type.",
+            "examples": [
+                "The main problem is the cost.",
+                "The main office is in New York."
+            ]
+        }
+    ],
+    "subtext": "primary / chief",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "secondary"
+},
+{
+    "word": "medical",
+    "level": "elementary",
+    "theme": "health_body_A2",
+    "emoji": "🩺",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Relating to medicine and the treatment of diseases or injuries.",
+            "examples": [
+                "She is a medical student.",
+                "He needs urgent medical attention."
+            ]
+        }
+    ],
+    "subtext": "health-related",
+    "comparative": "more medical",
+    "superlative": "the most medical",
+    "opposite": null
+},
+{
+    "word": "nearby",
+    "level": "elementary",
+    "theme": "landscape_geography_A2",
+    "emoji": "📍",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Not far away.",
+            "examples": [
+                "They live in a nearby town.",
+                "Is there a post office nearby?"
+            ]
+        }
+    ],
+    "subtext": "close / near",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "distant"
+},
+{
+    "word": "outer",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "🪐",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "On the outside, or further from the center of something.",
+            "examples": [
+                "The outer layer of the skin is very thin.",
+                "We live in the outer suburbs."
+            ]
+        }
+    ],
+    "subtext": "outside",
+    "comparative": null,
+    "superlative": "outermost",
+    "opposite": "inner"
+},
+{
+    "word": "pleasant",
+    "level": "elementary",
+    "theme": "personality_character_A2",
+    "emoji": "😊",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Enjoyable, attractive, friendly, or easy to like.",
+            "examples": [
+                "We had a very pleasant evening.",
+                "The weather was pleasant."
+            ]
+        }
+    ],
+    "subtext": "nice / enjoyable",
+    "comparative": "more pleasant",
+    "superlative": "the most pleasant",
+    "opposite": "unpleasant"
+},
+{
+    "word": "pleased",
+    "level": "elementary",
+    "theme": "social_emotions_A2",
+    "emoji": "😊",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Happy or satisfied.",
+            "examples": [
+                "I am very pleased with my new car.",
+                "She was pleased to see him."
+            ]
+        }
+    ],
+    "subtext": "happy / satisfied",
+    "comparative": "more pleased",
+    "superlative": "the most pleased",
+    "opposite": "annoyed"
+},
+{
+    "word": "secondary",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "2️⃣",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Less important than something else.",
+            "examples": [
+                "The cost is a secondary consideration.",
+                "She goes to secondary school."
+            ]
+        }
+    ],
+    "subtext": "less important",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "primary"
+},
+{
+    "word": "silent",
+    "level": "elementary",
+    "theme": "condition_state_A2",
+    "emoji": "🤫",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Without any sound.",
+            "examples": [
+                "The library was completely silent.",
+                "The computer is very silent."
+            ]
+        }
+    ],
+    "subtext": "quiet",
+    "comparative": "more silent",
+    "superlative": "the most silent",
+    "opposite": "noisy"
+},
+{
+    "word": "sudden",
+    "level": "elementary",
+    "theme": "past_time_A2",
+    "emoji": "⚡",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Happening or done quickly and unexpectedly.",
+            "examples": [
+                "There was a sudden change in the weather.",
+                "He made a sudden decision."
+            ]
+        }
+    ],
+    "subtext": "unexpected",
+    "comparative": "more sudden",
+    "superlative": "the most sudden",
+    "opposite": "gradual"
+},
+{
+    "word": "suitable",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "✅",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Right or appropriate for a particular person, purpose, or situation.",
+            "examples": [
+                "This book is suitable for children.",
+                "The hotel is suitable for families."
+            ]
+        }
+    ],
+    "subtext": "appropriate",
+    "comparative": "more suitable",
+    "superlative": "the most suitable",
+    "opposite": "unsuitable"
+},
+{
+    "word": "various",
+    "level": "elementary",
+    "theme": "quantity_degree_A2",
+    "emoji": "🌈",
+    "form": "adjective",
+    "definitions": [
+        {
+            "text": "Many different.",
+            "examples": [
+                "There are various reasons for the delay.",
+                "We sell various types of coffee."
+            ]
+        }
+    ],
+    "subtext": "different types",
+    "comparative": null,
+    "superlative": null,
+    "opposite": "uniform"
 }
     ];
     const lang = "en";

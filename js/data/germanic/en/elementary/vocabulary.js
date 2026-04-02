@@ -4525,6 +4525,527 @@
     ],
     "subtext": "stretching exercise",
     "countability": "uncountable"
+},
+{
+    "word": "accident",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🚗💥",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "Something bad that happens that is not intended and that causes injury or damage.",
+            "examples": [
+                "He had a serious accident at work.",
+                "The accident was caused by ice on the road."
+            ]
+        }
+    ],
+    "subtext": "unfortunate event",
+    "countability": "countable"
+},
+{
+    "word": "adventure",
+    "level": "elementary",
+    "theme": "holiday_types_A2",
+    "emoji": "🎒",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "An unusual, exciting, and possibly dangerous activity, such as a trip or experience.",
+            "examples": [
+                "The trip to the jungle was a great adventure.",
+                "They are looking for adventure."
+            ]
+        }
+    ],
+    "subtext": "exciting experience",
+    "countability": "countable"
+},
+{
+    "word": "ambulance",
+    "level": "elementary",
+    "theme": "human_body_A2",
+    "emoji": "🚑",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A special vehicle used to take sick or injured people to hospital.",
+            "examples": [
+                "The ambulance arrived in five minutes.",
+                "He was taken to hospital by ambulance."
+            ]
+        }
+    ],
+    "subtext": "emergency vehicle",
+    "countability": "countable"
+},
+{
+    "word": "anniversary",
+    "level": "elementary",
+    "theme": "customs_traditions_A2",
+    "emoji": "🎉",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A date on which an event took place in a previous year.",
+            "examples": [
+                "It is our wedding anniversary today.",
+                "The company is celebrating its tenth anniversary."
+            ]
+        }
+    ],
+    "subtext": "yearly celebration",
+    "countability": "countable"
+},
+{
+    "word": "audience",
+    "level": "elementary",
+    "theme": "art_design_A2",
+    "emoji": "🎭",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The group of people together in one place to watch or listen to a play, movie, or someone speaking.",
+            "examples": [
+                "The audience clapped loudly.",
+                "The performance had a very small audience."
+            ]
+        }
+    ],
+    "subtext": "spectators / listeners",
+    "countability": "countable"
+},
+{
+    "word": "behavior",
+    "level": "elementary",
+    "theme": "personality_character_A2",
+    "emoji": "😇",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The way that someone or something acts in a particular situation.",
+            "examples": [
+                "His behavior was very professional.",
+                "The teacher is happy with the children's behavior."
+            ]
+        }
+    ],
+    "subtext": "conduct",
+    "countability": "uncountable"
+},
+{
+    "word": "belief",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🙏",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The feeling of being certain that something exists or is true.",
+            "examples": [
+                "He has a strong belief in the importance of education."
+            ]
+        }
+    ],
+    "subtext": "faith / conviction",
+    "countability": "countable"
+},
+{
+    "word": "business",
+    "level": "elementary",
+    "theme": "career_development_A2",
+    "emoji": "🏢",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The activity of buying and selling goods and services.",
+            "examples": [
+                "He wants to start his own business.",
+                "Business is good this year."
+            ]
+        }
+    ],
+    "subtext": "trade / company",
+    "countability": "uncountable"
+},
+{
+    "word": "celebrity",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "🌟",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A famous person.",
+            "examples": [
+                "The magazine is full of stories about celebrities.",
+                "He became a celebrity after winning the competition."
+            ]
+        }
+    ],
+    "subtext": "famous person",
+    "countability": "countable"
+},
+{
+    "word": "ceremony",
+    "level": "elementary",
+    "theme": "customs_traditions_A2",
+    "emoji": "🤵",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A formal event performed on a special occasion.",
+            "examples": [
+                "The wedding ceremony was very beautiful.",
+                "There was an opening ceremony for the new park."
+            ]
+        }
+    ],
+    "subtext": "formal event",
+    "countability": "countable"
+},
+{
+    "word": "challenge",
+    "level": "elementary",
+    "theme": "career_development_A2",
+    "emoji": "🏔️",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "Something that is difficult and tests your ability or determination.",
+            "examples": [
+                "Learning a new language is a big challenge.",
+                "The new job is a real challenge for her."
+            ]
+        }
+    ],
+    "subtext": "difficult task",
+    "countability": "countable"
+},
+{
+    "word": "charity",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🤝",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "An organization that helps people in need.",
+            "examples": [
+                "She works for a local charity.",
+                "We give money to charity every month."
+            ]
+        }
+    ],
+    "subtext": "aid organization",
+    "countability": "uncountable"
+},
+{
+    "word": "clue",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🔎",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A sign or some information that helps you to find the answer to a problem.",
+            "examples": [
+                "The police are looking for clues.",
+                "I don't have a clue what he's talking about."
+            ]
+        }
+    ],
+    "subtext": "hint / evidence",
+    "countability": "countable"
+},
+{
+    "word": "collection",
+    "level": "elementary",
+    "theme": "interests_hobbies_A2",
+    "emoji": "📦",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A group of objects of the same type that have been collected.",
+            "examples": [
+                "He has a large coin collection.",
+                "The museum has a collection of ancient art."
+            ]
+        }
+    ],
+    "subtext": "set of objects",
+    "countability": "countable"
+},
+{
+    "word": "comfort",
+    "level": "elementary",
+    "theme": "home_furnishings_A2",
+    "emoji": "🛋️",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A pleasant feeling of being relaxed and free from pain.",
+            "examples": [
+                "The hotel provides high levels of comfort.",
+                "I like to travel in comfort."
+            ]
+        }
+    ],
+    "subtext": "ease / relaxation",
+    "countability": "uncountable"
+},
+{
+    "word": "complaint",
+    "level": "elementary",
+    "theme": "agreeing_disagreeing_A2",
+    "emoji": "😠",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A statement that something is wrong or not satisfactory.",
+            "examples": [
+                "We received a complaint about the noise.",
+                "If you have a complaint, please talk to the manager."
+            ]
+        }
+    ],
+    "subtext": "statement of dissatisfaction",
+    "countability": "countable"
+},
+{
+    "word": "concert",
+    "level": "elementary",
+    "theme": "interests_hobbies_A2",
+    "emoji": "🎸",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A performance of music by one or more people.",
+            "examples": [
+                "We are going to a rock concert on Saturday.",
+                "The concert was amazing."
+            ]
+        }
+    ],
+    "subtext": "musical performance",
+    "countability": "countable"
+},
+{
+    "word": "confidence",
+    "level": "elementary",
+    "theme": "personality_character_A2",
+    "emoji": "✨",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The feeling that you can trust someone or something; or a feeling of being sure about your own ability.",
+            "examples": [
+                "The success gave her more confidence.",
+                "I have confidence in his ability to do the job."
+            ]
+        }
+    ],
+    "subtext": "self-belief",
+    "countability": "uncountable"
+},
+{
+    "word": "conflict",
+    "level": "elementary",
+    "theme": "society_politics_A2",
+    "emoji": "⚔️",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A serious disagreement or argument.",
+            "examples": [
+                "We should try to avoid conflict.",
+                "The conflict lasted for many years."
+            ]
+        }
+    ],
+    "subtext": "clash / disagreement",
+    "countability": "uncountable"
+},
+{
+    "word": "connection",
+    "level": "elementary",
+    "theme": "internet_social_media_A2",
+    "emoji": "🔗",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The act of joining two or more things together.",
+            "examples": [
+                "The internet connection is very slow today.",
+                "There is a connection between health and exercise."
+            ]
+        }
+    ],
+    "subtext": "link / join",
+    "countability": "countable"
+},
+{
+    "word": "consequence",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "📉",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The result of a particular action or situation, often one that is bad or not convenient.",
+            "examples": [
+                "We must consider the consequences of our decisions.",
+                "The accident was a consequence of his carelessness."
+            ]
+        }
+    ],
+    "subtext": "result / outcome",
+    "countability": "countable"
+},
+{
+    "word": "context",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "📖",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The situation within which something exists or happens.",
+            "examples": [
+                "You need to look at the context of the sentence.",
+                "This decision only makes sense in its historical context."
+            ]
+        }
+    ],
+    "subtext": "situation / setting",
+    "countability": "uncountable"
+},
+{
+    "word": "conversation",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "🗣️",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "A talk between two or more people.",
+            "examples": [
+                "We had a long conversation about the project.",
+                "I enjoy having conversations with my friends."
+            ]
+        }
+    ],
+    "subtext": "talk / discussion",
+    "countability": "countable"
+},
+{
+    "word": "cooperation",
+    "level": "elementary",
+    "theme": "society_politics_A2",
+    "emoji": "🤝",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The act of working together with someone or something.",
+            "examples": [
+                "The project was a success thanks to our cooperation.",
+                "We need more international cooperation to solve this problem."
+            ]
+        }
+    ],
+    "subtext": "working together",
+    "countability": "uncountable"
+},
+{
+    "word": "courage",
+    "level": "elementary",
+    "theme": "personality_character_A2",
+    "emoji": "🦁",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The ability to control fear in a dangerous or difficult situation.",
+            "examples": [
+                "It took a lot of courage to tell the truth.",
+                "The soldiers showed great courage."
+            ]
+        }
+    ],
+    "subtext": "bravery",
+    "countability": "uncountable"
+},
+{
+    "word": "creativity",
+    "level": "elementary",
+    "theme": "art_design_A2",
+    "emoji": "🎨",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The ability to produce original and unusual ideas.",
+            "examples": [
+                "She is known for her creativity and innovation.",
+                "Children have a lot of creativity."
+            ]
+        }
+    ],
+    "subtext": "imagination",
+    "countability": "uncountable"
+},
+{
+    "word": "credit",
+    "level": "elementary",
+    "theme": "finances_A2",
+    "emoji": "💳",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "An arrangement with a shop or bank that allows you to buy something and pay for it later.",
+            "examples": [
+                "Can I buy this on credit?",
+                "The shop doesn't give credit to new customers."
+            ]
+        }
+    ],
+    "subtext": "deferred payment",
+    "countability": "uncountable"
+},
+{
+    "word": "crime",
+    "level": "elementary",
+    "theme": "right_wrong_basic_A2",
+    "emoji": "🚫",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "An illegal act for which someone can be punished by the government.",
+            "examples": [
+                "The police are investigating a serious crime.",
+                "Crime is a problem in big cities."
+            ]
+        }
+    ],
+    "subtext": "illegal act",
+    "countability": "countable"
+},
+{
+    "word": "culture",
+    "level": "elementary",
+    "theme": "society_politics_A2",
+    "emoji": "🎨",
+    "form": "noun",
+    "definitions": [
+        {
+            "text": "The way of life, especially the general customs and beliefs, of a particular group of people.",
+            "examples": [
+                "I love learning about different cultures.",
+                "London is a city with a very diverse culture."
+            ]
+        }
+    ],
+    "subtext": "traditions / customs",
+    "countability": "uncountable"
 }
     ];
     const lang = "en";

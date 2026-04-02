@@ -4313,6 +4313,468 @@
     "v2": "wondered",
     "v3": "wondered",
     "opposite": "know"
+},
+{
+    "word": "insist",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🗣️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To say firmly that something is true, especially when other people do not believe you.",
+            "examples": [
+                "She insisted that she was innocent.",
+                "He insisted on paying for the dinner."
+            ]
+        }
+    ],
+    "subtext": "demand / stay firm",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "insisted",
+    "v3": "insisted",
+    "opposite": "give in"
+},
+{
+    "word": "interrupt",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "🚫🗣️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To stop someone from speaking by saying or doing something.",
+            "examples": [
+                "Please don't interrupt when I am speaking.",
+                "The rain interrupted the game."
+            ]
+        }
+    ],
+    "subtext": "stop / break in",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "interrupted",
+    "v3": "interrupted",
+    "opposite": "continue"
+},
+{
+    "word": "involve",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🤝",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To include someone or something in an activity.",
+            "examples": [
+                "The project involves a lot of work.",
+                "We want to involve more people in the project."
+            ]
+        }
+    ],
+    "subtext": "include / entail",
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "involved",
+    "v3": "involved",
+    "opposite": "exclude"
+},
+{
+    "word": "obtain",
+    "level": "elementary",
+    "theme": "career_development_A2",
+    "emoji": "📥",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To get something, especially by making an effort.",
+            "examples": [
+                "He obtained a degree from Oxford.",
+                "You need to obtain permission first."
+            ]
+        }
+    ],
+    "subtext": "get / acquire",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "obtained",
+    "v3": "obtained",
+    "opposite": "lose"
+},
+{
+    "word": "occur",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "⚡",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To happen, especially unexpectedly.",
+            "examples": [
+                "The accident occurred at midnight.",
+                "Complications occurred during the surgery."
+            ]
+        }
+    ],
+    "subtext": "happen / take place",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "occurred",
+    "v3": "occurred",
+    "opposite": "stop"
+},
+{
+    "word": "operate",
+    "level": "elementary",
+    "theme": "career_development_A2",
+    "emoji": "⚙️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To work or cause a machine to work.",
+            "examples": [
+                "Do you know how to operate this machine?",
+                "The company operates in three countries."
+            ]
+        }
+    ],
+    "subtext": "work / run",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "operated",
+    "v3": "operated",
+    "opposite": "break down"
+},
+{
+    "word": "persuade",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🗣️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To make someone do or believe something by giving them a good reason to do it.",
+            "examples": [
+                "I persuaded him to come with us.",
+                "She managed to persuade the manager."
+            ]
+        }
+    ],
+    "subtext": "convince",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "persuaded",
+    "v3": "persuaded",
+    "opposite": "dissuade"
+},
+{
+    "word": "publish",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "📖",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To make information available to the public in a book, magazine, or website.",
+            "examples": [
+                "The company publishes three newspapers.",
+                "The results will be published next week."
+            ]
+        }
+    ],
+    "subtext": "release / print",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "published",
+    "v3": "published",
+    "opposite": "hide"
+},
+{
+    "word": "recognize",
+    "level": "elementary",
+    "theme": "personality_character_A2",
+    "emoji": "👁️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To know someone or something because you have seen or heard them before.",
+            "examples": [
+                "I recognized him from his photo.",
+                "She recognized the tune immediately."
+            ]
+        }
+    ],
+    "subtext": "know / identify",
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "recognized",
+    "v3": "recognized",
+    "opposite": "forget"
+},
+{
+    "word": "reflect",
+    "level": "elementary",
+    "theme": "art_design_A2",
+    "emoji": "🪞",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To send back light, heat, or sound from a surface.",
+            "examples": [
+                "The water reflected the sunlight.",
+                "The mirror reflected her face."
+            ]
+        }
+    ],
+    "subtext": "echo / mirror",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "reflected",
+    "v3": "reflected",
+    "opposite": "absorb"
+},
+{
+    "word": "release",
+    "level": "elementary",
+    "theme": "news_media_A2",
+    "emoji": "🔓",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To allow someone or something to leave a place; or to make something public.",
+            "examples": [
+                "The police released the man without charge.",
+                "The company released a new app today."
+            ]
+        }
+    ],
+    "subtext": "set free / publish",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "released",
+    "v3": "released",
+    "opposite": "capture"
+},
+{
+    "word": "rely",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🤝",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To trust or depend on someone or something.",
+            "examples": [
+                "You can rely on me.",
+                "Many people rely on public transport."
+            ]
+        }
+    ],
+    "subtext": "depend / trust",
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "relied",
+    "v3": "relied",
+    "opposite": "distrust"
+},
+{
+    "word": "remind",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🎗️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To make someone remember something.",
+            "examples": [
+                "Remind me to call her.",
+                "This song reminds me of my childhood."
+            ]
+        }
+    ],
+    "subtext": "recall",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "reminded",
+    "v3": "reminded",
+    "opposite": "forget"
+},
+{
+    "word": "remove",
+    "level": "elementary",
+    "theme": "home_repairs_maintenance_A2",
+    "emoji": "🗑️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To take something away.",
+            "examples": [
+                "Please remove your shoes.",
+                "They removed the old furniture."
+            ]
+        }
+    ],
+    "subtext": "take away / delete",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "removed",
+    "v3": "removed",
+    "opposite": "add"
+},
+{
+    "word": "repeat",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "🔁",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To say or do something again.",
+            "examples": [
+                "Can you repeat that, please?",
+                "He repeated the story to his friends."
+            ]
+        }
+    ],
+    "subtext": "do again / iterate",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "repeated",
+    "v3": "repeated",
+    "opposite": "change"
+},
+{
+    "word": "reply",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "💬",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To answer someone.",
+            "examples": [
+                "I replied to his email immediately.",
+                "He didn't reply to my question."
+            ]
+        }
+    ],
+    "subtext": "answer / respond",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "replied",
+    "v3": "replied",
+    "opposite": "ask"
+},
+{
+    "word": "represent",
+    "level": "elementary",
+    "theme": "society_politics_A2",
+    "emoji": "👔",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To speak or act for someone else.",
+            "examples": [
+                "He represents the local community.",
+                "The lawyer represents the defendant."
+            ]
+        }
+    ],
+    "subtext": "act for / symbolize",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "represented",
+    "v3": "represented",
+    "opposite": "oppose"
+},
+{
+    "word": "request",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "📧",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To politely ask for something.",
+            "examples": [
+                "They requested more information.",
+                "He requested a meeting with the manager."
+            ]
+        }
+    ],
+    "subtext": "ask for / petition",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "requested",
+    "v3": "requested",
+    "opposite": "command"
+},
+{
+    "word": "rescue",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🚁",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To save someone from a dangerous or unpleasant situation.",
+            "examples": [
+                "The firefighters rescued the cat from the tree.",
+                "They were rescued from the sinking boat."
+            ]
+        }
+    ],
+    "subtext": "save / deliver",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "rescued",
+    "v3": "rescued",
+    "opposite": "abandon"
+},
+{
+    "word": "resolve",
+    "level": "elementary",
+    "theme": "giving_reasons_A2",
+    "emoji": "🧩",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To find an answer or solution to a problem.",
+            "examples": [
+                "We need to resolve this issue quickly.",
+                "They finally resolved their disagreement."
+            ]
+        }
+    ],
+    "subtext": "solve / settle",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "resolved",
+    "v3": "resolved",
+    "opposite": "complicate"
+},
+{
+    "word": "respond",
+    "level": "elementary",
+    "theme": "language_communication_A2",
+    "emoji": "💬",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "To say or do something as an answer or reaction to something that has been said or done.",
+            "examples": [
+                "I asked him a question but he didn't respond.",
+                "The government responded to the crisis quickly."
+            ]
+        }
+    ],
+    "subtext": "answer / react",
+    "classification": "regular",
+    "aspect": "action",
+    "v2": "responded",
+    "v3": "responded",
+    "opposite": "ignore"
 }
     ];
     const lang = "en";
