@@ -1750,28 +1750,18 @@ function showWordDefinition() {
     if ((wordObj.synonyms && wordObj.synonyms.length > 0) || wordObj.opposite) {
         const extraDiv = document.createElement('div');
         extraDiv.className = 'synonym-antonym-section';
-        extraDiv.style.marginBottom = '1.5rem';
-        extraDiv.style.padding = '1rem';
-        extraDiv.style.background = 'var(--sage-mist)';
-        extraDiv.style.borderRadius = '18px';
-        extraDiv.style.border = '1px solid var(--border)';
 
         if (wordObj.synonyms && wordObj.synonyms.length > 0) {
             const synPara = document.createElement('div');
-            synPara.style.fontSize = '1.2rem';
-            synPara.style.fontWeight = '800';
-            synPara.style.color = 'var(--sage-deep)';
-            synPara.innerHTML = `<span style="color: var(--honey-dark); font-size: 1.4rem; margin-right: 0.6rem;">=</span>${wordObj.synonyms.join(', ')}`;
+            synPara.className = 'synonym-antonym-item';
+            synPara.innerHTML = `<span class="synonym-symbol">=</span>${wordObj.synonyms.join(', ')}`;
             extraDiv.appendChild(synPara);
         }
 
         if (wordObj.opposite) {
             const antPara = document.createElement('div');
-            antPara.style.fontSize = '1.2rem';
-            antPara.style.fontWeight = '800';
-            antPara.style.color = 'var(--sage-deep)';
-            if (wordObj.synonyms && wordObj.synonyms.length > 0) antPara.style.marginTop = '0.5rem';
-            antPara.innerHTML = `<span style="color: var(--accent-color); font-size: 1.4rem; margin-right: 0.6rem;">≠</span>${wordObj.opposite}`;
+            antPara.className = 'synonym-antonym-item';
+            antPara.innerHTML = `<span class="antonym-symbol">≠</span>${wordObj.opposite}`;
             extraDiv.appendChild(antPara);
         }
         content.appendChild(extraDiv);
@@ -1787,16 +1777,11 @@ function showWordDefinition() {
         defDiv.appendChild(textPara);
 
         if (def.examples && def.examples.length > 0) {
-            const exLabel = document.createElement('div');
-            exLabel.className = 'examples-label';
-            exLabel.textContent = (t['examples_label'] || 'Examples') + ':';
-            defDiv.appendChild(exLabel);
-
             const exList = document.createElement('ul');
             exList.className = 'examples-list';
             def.examples.forEach(ex => {
                 const li = document.createElement('li');
-                li.textContent = ex;
+                li.innerHTML = `<span class="example-prefix">e.g.</span> ${ex}`;
                 exList.appendChild(li);
             });
             defDiv.appendChild(exList);
