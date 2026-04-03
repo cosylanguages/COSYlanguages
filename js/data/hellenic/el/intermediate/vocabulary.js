@@ -110,7 +110,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": "δικτυώσεις",
-        "subtext": "νέτγουορκινγκ",
+        "subtext": "",
+        "synonyms": ["νέτγουορκινγκ"],
         "definitions": [
             {
                 "text": "Η οικοδόμηση επαγγελματικών σχέσεων για να βοηθήσετε την καριέρα σας.",
@@ -179,7 +180,8 @@
         "emoji": "🛠️",
         "form": "noun",
         "plural": "δεξιότητες",
-        "subtext": "ικανότητα",
+        "subtext": "",
+        "synonyms": ["ικανότητα"],
         "definitions": [
             {
                 "text": "Η ικανότητα να κάνεις κάτι καλά, που συνήθως αποκτάται μέσω πρακτικής.",
@@ -349,7 +351,8 @@
         "emoji": "🔥",
         "form": "noun",
         "plural": null,
-        "subtext": "μπερν-άουτ",
+        "subtext": "",
+        "synonyms": ["μπερν-άουτ"],
         "definitions": [
             {
                 "text": "Μια κατάσταση εξάντλησης που προκαλείται από υπερβολικό άγχος για μεγάλο χρονικό διάστημα.",
@@ -451,7 +454,8 @@
         "emoji": "⚖️",
         "form": "noun",
         "plural": "ευθύνες",
-        "subtext": "υπευθυνότητα",
+        "subtext": "",
+        "synonyms": ["υπευθυνότητα"],
         "definitions": [
             {
                 "text": "Ένα καθήκον να φροντίζεις κάποιον ή κάτι.",
@@ -673,7 +677,8 @@
         "article": "τα",
         "emoji": "🗑️",
         "form": "noun",
-        "subtext": "σκουπίδια",
+        "subtext": "",
+        "synonyms": ["σκουπίδια"],
         "definitions": [
             {
                 "text": "Υλικό που δεν χρειάζεται πλέον και πετιέται.",
@@ -689,7 +694,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔄",
         "form": "adverb",
-        "subtext": "εντούτοις",
+        "subtext": "",
+        "synonyms": ["εντούτοις"],
         "definitions": [
             {
                 "text": "Χρησιμοποιείται για να εισάγει μια αντίθεση ή μια αντίθετη ιδέα.",
@@ -705,7 +711,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔗",
         "form": "conjunction",
-        "subtext": "παρόλο που",
+        "subtext": "",
+        "synonyms": ["παρόλο που"],
         "definitions": [
             {
                 "text": "Παρά το γεγονός ότι. Μολονότι.",
@@ -751,7 +758,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "➡️",
         "form": "adverb",
-        "subtext": "κατά συνέπεια",
+        "subtext": "",
+        "synonyms": ["κατά συνέπεια"],
         "definitions": [
             {
                 "text": "Εξαιτίας αυτού. Συνεπώς.",

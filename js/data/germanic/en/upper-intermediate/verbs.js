@@ -6,7 +6,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "argue that, argue for / against",
+        "subtext": "argue that, argue for",
+        "synonyms": ["against"],
         "definitions": [
             {
                 "text": "To give reasons to support a particular view.",

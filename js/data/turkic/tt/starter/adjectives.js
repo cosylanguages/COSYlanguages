@@ -15,7 +15,8 @@
                 ]
             }
         ],
-        "subtext": "биек бина / озын кеше / җитәрлек биек",
+        "subtext": "биек бина / җитәрлек биек",
+        "synonyms": ["озын кеше"],
         "comparative": null,
         "superlative": null,
         "feminine": "биек",
@@ -37,7 +38,8 @@
                 ]
             }
         ],
-        "subtext": "кыска сәяхәт / кыска чәч / бик кыска",
+        "subtext": "",
+        "synonyms": ["кыска сәяхәт", "кыска чәч", "бик кыска"],
         "comparative": null,
         "superlative": null,
         "feminine": "тәпәш",
@@ -81,7 +83,8 @@
                 ]
             }
         ],
-        "subtext": "карт дус / иске гадәтләр / бик карт",
+        "subtext": "карт дус / бик карт",
+        "synonyms": ["иске гадәтләр"],
         "comparative": null,
         "superlative": null,
         "feminine": "карт",
@@ -229,7 +232,8 @@
         "form": "adjective",
         "opposite": "арзан",
         "oppositeEmoji": "🏷️",
-        "subtext": "кыйммәтле / бик кыйммәт",
+        "subtext": "бик кыйммәт",
+        "synonyms": ["кыйммәтле"],
         "definitions": [
             {
                 "text": "Күп акча торган нәрсә.",
@@ -252,7 +256,8 @@
         "form": "adjective",
         "opposite": "начар",
         "oppositeEmoji": "👎",
-        "subtext": "яхшы идеյա / уңышлар",
+        "subtext": "яхшы идеյա",
+        "synonyms": ["уңышлар"],
         "definitions": [
             {
                 "text": "Сыйфатлы яки ошаган.",
@@ -388,7 +393,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "бәхетле көн / шат",
+        "subtext": "бәхетле көн",
+        "synonyms": ["шат"],
         "definitions": [
             {
                 "text": "Шатлык кичергән кеше.",
@@ -409,7 +415,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "бик арыган / арыдым",
+        "subtext": "бик арыган",
+        "synonyms": ["арыдым"],
         "definitions": [
             {
                 "text": "Ял итәргә мохтаҗ.",
@@ -440,7 +447,8 @@
                 ]
             }
         ],
-        "subtext": "тулы эш көне",
+        "subtext": "",
+        "synonyms": ["тулы эш көне"],
         "comparative": null,
         "superlative": null,
         "feminine": "тулы көн",
@@ -524,7 +532,8 @@
         "form": "adjective",
         "opposite": "яхшы",
         "oppositeEmoji": "💪",
-        "subtext": "авырыйм",
+        "subtext": "",
+        "synonyms": ["авырыйм"],
         "definitions": [
             {
                 "text": "Сәламәт булмаган.",
@@ -616,7 +625,8 @@
         "form": "adjective",
         "opposite": "тыныч",
         "oppositeEmoji": "😌",
-        "subtext": "борчылу",
+        "subtext": "",
+        "synonyms": ["борчылу"],
         "definitions": [
             {
                 "text": "Куркынычланган.",
@@ -1073,7 +1083,8 @@
         "word": "җылы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "еוועш һава торышы",
+        "subtext": "",
+        "synonyms": ["еוועш һава торышы"],
         "definitions": [
             {
                 "text": "Сулы.",
@@ -1333,7 +1344,8 @@
         "word": "искиткеч яхшы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "искиткеч вакыт",
+        "subtext": "",
+        "synonyms": ["искиткеч вакыт"],
         "definitions": [
             {
                 "text": "Бик нык яхшы.",
@@ -1433,7 +1445,8 @@
         "word": "моңлы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "күңелсез хәл",
+        "subtext": "",
+        "synonyms": ["күңелсез хәл"],
         "definitions": [
             {
                 "text": "Күңелсез.",
@@ -1493,7 +1506,8 @@
         "word": "ялыккан",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ялыктыргыч",
+        "subtext": "",
+        "synonyms": ["ялыктыргыч"],
         "definitions": [
             {
                 "text": "Кызыксынуы булмаган.",
@@ -1514,7 +1528,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
-        "subtext": "дулкынлану",
+        "subtext": "",
+        "synonyms": ["дулкынлану"],
         "definitions": [
             {
                 "text": "Шатлыклы дулкынлану.",
@@ -1533,7 +1548,8 @@
         "word": "курыккан",
         "level": "starter",
         "form": "adjective",
-        "subtext": "курку",
+        "subtext": "",
+        "synonyms": ["курку"],
         "definitions": [
             {
                 "text": "Курку белдерү.",
@@ -1553,7 +1569,8 @@
         "word": "үкенечле",
         "level": "starter",
         "form": "adjective",
-        "subtext": "үкенү",
+        "subtext": "",
+        "synonyms": ["үкенү"],
         "definitions": [
             {
                 "text": "Үкенеч белдерү.",
@@ -1653,7 +1670,8 @@
         "word": "бер үк",
         "level": "starter",
         "form": "adjective",
-        "subtext": "нәкъ шундый ук",
+        "subtext": "",
+        "synonyms": ["нәкъ шундый ук"],
         "definitions": [
             {
                 "text": "Ошаш.",
@@ -1822,7 +1840,8 @@
                 ]
             }
         ],
-        "subtext": "дулкынлану",
+        "subtext": "",
+        "synonyms": ["дулкынлану"],
         "comparative": null,
         "superlative": null,
         "feminine": "дулкынланган",
@@ -1842,7 +1861,8 @@
                 ]
             }
         ],
-        "subtext": "стресс",
+        "subtext": "",
+        "synonyms": ["стресс"],
         "comparative": null,
         "superlative": null,
         "feminine": "стресслы",
@@ -1862,7 +1882,8 @@
                 ]
             }
         ],
-        "subtext": "үзеңә ышаныч",
+        "subtext": "",
+        "synonyms": ["үзеңә ышаныч"],
         "comparative": null,
         "superlative": null,
         "feminine": "үзенә ышанган",
@@ -1882,7 +1903,8 @@
                 ]
             }
         ],
-        "subtext": "горурлык",
+        "subtext": "",
+        "synonyms": ["горурлык"],
         "comparative": null,
         "superlative": null,
         "feminine": "горур",
@@ -1902,7 +1924,8 @@
                 ]
             }
         ],
-        "subtext": "куркыту",
+        "subtext": "",
+        "synonyms": ["куркыту"],
         "comparative": null,
         "superlative": null,
         "feminine": "курыккан",
@@ -1922,7 +1945,8 @@
                 ]
             }
         ],
-        "subtext": "гаҗәпләнү",
+        "subtext": "",
+        "synonyms": ["гаҗәпләнү"],
         "comparative": null,
         "superlative": null,
         "feminine": "гаҗәпләнгән",
@@ -1942,7 +1966,8 @@
                 ]
             }
         ],
-        "subtext": "күңел кайту",
+        "subtext": "",
+        "synonyms": ["күңел кайту"],
         "comparative": null,
         "superlative": null,
         "feminine": "күңеле кайткан",
@@ -2042,7 +2067,8 @@
                 ]
             }
         ],
-        "subtext": "яхшы формада",
+        "subtext": "",
+        "synonyms": ["яхшы формада"],
         "comparative": null,
         "superlative": null,
         "feminine": "таза",

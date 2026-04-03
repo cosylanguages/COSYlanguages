@@ -94,7 +94,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "ավտոբուս նստել / տաքսի նստել / դաս վերցնել",
+        "subtext": "դաս վերցնել",
+        "synonyms": ["ավտոբուս նստել", "տաքսի նստել"],
         "opposite": "տալ",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -159,7 +160,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "սուրճ պատրաստել / ճաշ պատրաստել / սխալ անել",
+        "subtext": "սուրճ պատրաստել / ճաշ պատրաստել",
+        "synonyms": ["սխալ անել"],
         "form": "verb",
         "definitions": [
             {
@@ -463,7 +465,8 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "ձախ թեքվել / աջ թեքվել",
+        "subtext": "",
+        "synonyms": ["ձախ թեքվել", "աջ թեքվել"],
         "form": "verb",
         "definitions": [
             {
@@ -547,7 +550,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "հարց հարցնել / օգնություն խնդրել",
+        "subtext": "հարց հարցնել",
+        "synonyms": ["օգնություն խնդրել"],
         "form": "verb",
         "definitions": [
             {
@@ -868,7 +872,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "տանից դուրս գալ / գրասենյակից հեռանալ",
+        "subtext": "գրասենյակից հեռանալ",
+        "synonyms": ["տանից դուրս գալ"],
         "form": "verb",
         "definitions": [
             {
@@ -1384,7 +1389,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "լավագույնին հուսալ / տեսնել ձեզ շուտով",
+        "subtext": "լավագույնին հուսալ",
+        "synonyms": ["տեսնել ձեզ շուտով"],
         "form": "verb",
         "definitions": [
             {
@@ -1768,7 +1774,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "ավտոբուսը կանգնեցնել / աշխատանքը դադարեցնել",
+        "subtext": "ավտոբուսը կանգնեցնել",
+        "synonyms": ["աշխատանքը դադարեցնել"],
         "form": "verb",
         "definitions": [
             {
@@ -2007,7 +2014,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "դուռը հրել / կոճակը սեղմել",
+        "subtext": "դուռը հրել",
+        "synonyms": ["կոճակը սեղմել"],
         "opposite": "քաշել",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2114,7 +2122,8 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "նկար նկարել / գիծ քաշել",
+        "subtext": "նկար նկարել",
+        "synonyms": ["գիծ քաշել"],
         "form": "verb",
         "definitions": [
             {
@@ -2135,7 +2144,8 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "ուտելիքը կիսել / գաղափարը կիսել",
+        "subtext": "",
+        "synonyms": ["ուտելիքը կիսել", "գաղափարը կիսել"],
         "form": "verb",
         "definitions": [
             {
@@ -2286,7 +2296,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "համալսարանում սովորել / քննության համար սովորել",
+        "subtext": "",
+        "synonyms": ["համալսարանում սովորել", "քննության համար սովորել"],
         "form": "verb",
         "definitions": [
             {
@@ -2774,7 +2785,8 @@
                 ]
             }
         ],
-        "subtext": "ոտքը ցավեցնել / մեջքը ցավել",
+        "subtext": "ոտքը ցավեցնել",
+        "synonyms": ["մեջքը ցավել"],
         "classification": "irregular",
         "aspect": "both",
         "v2": "ցավեցրեց",
@@ -3042,7 +3054,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "պատահաբար պատահել / ինչ պատահեց",
+        "subtext": "պատահաբար պատահել",
+        "synonyms": ["ինչ պատահեց"],
         "form": "verb",
         "definitions": [
             {
@@ -3084,7 +3097,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "ի՞նչ է նշանակում / սա նշանակում է",
+        "subtext": "",
+        "synonyms": ["ի՞նչ է նշանակում", "սա նշանակում է"],
         "form": "verb",
         "definitions": [
             {

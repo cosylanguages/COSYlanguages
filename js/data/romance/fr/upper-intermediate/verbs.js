@@ -6,7 +6,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "prétendre, affirmer",
+        "subtext": "",
+        "synonyms": ["prétendre", "affirmer"],
         "definitions": [
             {
                 "text": "Donner des raisons pour appuyer un point de vue particulier.",

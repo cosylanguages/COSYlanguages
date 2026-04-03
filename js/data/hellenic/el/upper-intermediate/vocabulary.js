@@ -59,7 +59,8 @@
         "emoji": "📑",
         "form": "noun",
         "plural": null,
-        "subtext": "ευθύνη",
+        "subtext": "",
+        "synonyms": ["ευθύνη"],
         "definitions": [
             {
                 "text": "Η υποχρέωση κάποιου να εξηγεί τις πράξεις του και να αναλαμβάνει την ευθύνη.",
@@ -95,7 +96,8 @@
         "emoji": "🔓",
         "form": "noun",
         "plural": null,
-        "subtext": "ανεξαρτησία",
+        "subtext": "",
+        "synonyms": ["ανεξαρτησία"],
         "opposite": "εξάρτηση",
         "definitions": [
             {
@@ -114,7 +116,8 @@
         "emoji": "🧗",
         "form": "noun",
         "plural": null,
-        "subtext": "αβεβαιότητα στην εργασία",
+        "subtext": "",
+        "synonyms": ["αβεβαιότητα στην εργασία"],
         "opposite": "σταθερότητα",
         "definitions": [
             {
@@ -133,7 +136,8 @@
         "emoji": "⚖️📉",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "διαφορά αμοιβών",
+        "subtext": "",
+        "synonyms": ["διαφορά αμοιβών"],
         "definitions": [
             {
                 "text": "Μια διαφορά στις μέσες αποδοχές μεταξύ ομάδων, ειδικά μεταξύ ανδρών και γυναικών.",
@@ -151,7 +155,8 @@
         "emoji": "📦",
         "form": "noun phrase",
         "plural": "πακέτα απόλυσης",
-        "subtext": "αποζημίωση απόλυσης",
+        "subtext": "",
+        "synonyms": ["αποζημίωση απόλυσης"],
         "definitions": [
             {
                 "text": "Τα χρήματα και τα οφέλη που δίνονται όταν κάποιος χάνει τη δουλειά του.",
@@ -186,7 +191,8 @@
         "emoji": "⚡",
         "form": "noun",
         "plural": null,
-        "subtext": "αποδοτικότητα",
+        "subtext": "",
+        "synonyms": ["αποδοτικότητα"],
         "definitions": [
             {
                 "text": "Ο ρυθμός με τον οποίο παράγονται αγαθά ή ολοκληρώνεται η εργασία.",
@@ -204,7 +210,8 @@
         "emoji": "🌐",
         "form": "noun",
         "plural": null,
-        "subtext": "outsourcing",
+        "subtext": "",
+        "synonyms": ["outsourcing"],
         "definitions": [
             {
                 "text": "Η πρόσληψη μιας εξωτερικής εταιρείας για εργασίες που γίνονταν εσωτερικά.",
@@ -239,7 +246,8 @@
         "emoji": "🏘️📈",
         "form": "noun",
         "plural": null,
-        "subtext": "gentrification",
+        "subtext": "",
+        "synonyms": ["gentrification"],
         "definitions": [
             {
                 "text": "Η διαδικασία αναβάθμισης μιας περιοχής που οδηγεί στον εκτοπισμό φτωχότερων κατοίκων.",
@@ -257,7 +265,8 @@
         "emoji": "🏠💰",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "κοινωνική κατοικία",
+        "subtext": "",
+        "synonyms": ["κοινωνική κατοικία"],
         "definitions": [
             {
                 "text": "Στέγαση που είναι αρκετά φθηνή για άτομα με χαμηλά εισοδήματα.",
@@ -344,7 +353,8 @@
         "emoji": "🗣️",
         "form": "noun",
         "plural": "λόγοι",
-        "subtext": "διάλογος, ομιλία",
+        "subtext": "",
+        "synonyms": ["διάλογος", "ομιλία"],
         "definitions": [
             {
                 "text": "Γραπτή ή προφορική επικοινωνία για ένα συγκεκριμένο θέμα.",
@@ -380,7 +390,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": null,
-        "subtext": "γενική συμφωνία",
+        "subtext": "",
+        "synonyms": ["γενική συμφωνία"],
         "definitions": [
             {
                 "text": "Γενική συμφωνία μεταξύ μιας ομάδας ανθρώπων.",
@@ -415,7 +426,8 @@
         "emoji": "⚖️❌",
         "form": "noun",
         "plural": "προκαταλήψεις",
-        "subtext": "μεροληψία",
+        "subtext": "",
+        "synonyms": ["μεροληψία"],
         "opposite": "αμεροληψία",
         "definitions": [
             {
@@ -487,7 +499,8 @@
         "emoji": "🔄🏢",
         "form": "noun",
         "plural": null,
-        "subtext": "αποκατάσταση",
+        "subtext": "",
+        "synonyms": ["αποκατάσταση"],
         "definitions": [
             {
                 "text": "Η διαδικασία παροχής βοήθειας σε κάποιον να επιστρέψει σε μια κανονική ζωή μετά από ένα έγκλημα ή ασθένεια.",
@@ -540,7 +553,8 @@
         "emoji": "🔒",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "προστασία δεδομένων",
+        "subtext": "",
+        "synonyms": ["προστασία δεδομένων"],
         "definitions": [
             {
                 "text": "Το δικαίωμα ελέγχου του τρόπου συλλογής και χρήσης των προσωπικών πληροφοριών.",
@@ -558,7 +572,8 @@
         "emoji": "🤥",
         "form": "noun",
         "plural": null,
-        "subtext": "ψευδείς ειδήσεις",
+        "subtext": "",
+        "synonyms": ["ψευδείς ειδήσεις"],
         "definitions": [
             {
                 "text": "Ψευδείς ή ανακριβείς πληροφορίες που διαδίδονται ευρέως.",
@@ -576,7 +591,8 @@
         "emoji": "📹",
         "form": "noun",
         "plural": null,
-        "subtext": "παρακολούθηση",
+        "subtext": "",
+        "synonyms": ["παρακολούθηση"],
         "definitions": [
             {
                 "text": "Στενή παρακολούθηση ενός ατόμου ή μιας ομάδας από τις αρχές.",

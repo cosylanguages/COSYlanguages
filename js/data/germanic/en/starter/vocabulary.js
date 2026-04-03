@@ -268,7 +268,8 @@
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "subtext": "beside",
+        "subtext": "",
+        "synonyms": ["beside"],
         "definitions": [
             {
                 "text": "Very close to someone or something, with nothing in between.",
@@ -875,7 +876,8 @@
         "emoji": "👖",
         "form": "noun",
         "plural": "pants",
-        "subtext": "trousers",
+        "subtext": "",
+        "synonyms": ["trousers"],
         "definitions": [
             {
                 "text": "An outer garment covering each leg separately from waist to ankle.",
@@ -1033,7 +1035,8 @@
         "emoji": "📱",
         "form": "noun",
         "plural": "phones",
-        "subtext": "telephone",
+        "subtext": "",
+        "synonyms": ["telephone"],
         "definitions": [
             {
                 "text": "A device used to talk to people far away.",
@@ -2889,7 +2892,8 @@
         "plural": "husbands",
         "opposite": null,
         "oppositeEmoji": "👩",
-        "subtext": "spouse, partner",
+        "subtext": "",
+        "synonyms": ["spouse", "partner"],
         "definitions": [
             {
                 "text": "A married man, in relation to his wife.",
@@ -2911,7 +2915,8 @@
         "plural": "wives",
         "opposite": null,
         "oppositeEmoji": "👨",
-        "subtext": "spouse, partner",
+        "subtext": "",
+        "synonyms": ["spouse", "partner"],
         "definitions": [
             {
                 "text": "A married woman, in relation to her husband.",
@@ -2931,7 +2936,8 @@
         "emoji": "👶",
         "form": "noun",
         "plural": "children",
-        "subtext": "kid, young person",
+        "subtext": "",
+        "synonyms": ["kid", "young person"],
         "definitions": [
             {
                 "text": "A young person; a son or daughter.",
@@ -2952,7 +2958,8 @@
         "emoji": "👪",
         "form": "noun",
         "plural": "parents",
-        "subtext": "mother or father",
+        "subtext": "",
+        "synonyms": ["mother or father"],
         "definitions": [
             {
                 "text": "A mother or father.",
@@ -4112,7 +4119,8 @@
         "emoji": "🧶",
         "form": "noun",
         "plural": "sweaters",
-        "subtext": "jumper",
+        "subtext": "",
+        "synonyms": ["jumper"],
         "definitions": [
             {
                 "text": "A warm piece of clothing with long sleeves.",
@@ -4888,7 +4896,8 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "form": "noun",
-        "subtext": "fall",
+        "subtext": "",
+        "synonyms": ["fall"],
         "definitions": [
             {
                 "text": "The season between summer and winter.",
@@ -5827,7 +5836,8 @@
         "emoji": "🎁",
         "form": "noun",
         "plural": "gifts",
-        "subtext": "present",
+        "subtext": "",
+        "synonyms": ["present"],
         "definitions": [
             {
                 "text": "Something that you give to someone, especially on a special occasion.",
@@ -6512,7 +6522,8 @@
         "emoji": "🧊",
         "form": "noun",
         "plural": "fridges",
-        "subtext": "refrigerator",
+        "subtext": "",
+        "synonyms": ["refrigerator"],
         "definitions": [
             {
                 "text": "A large piece of electrical equipment used for keeping food and drink cold.",
@@ -6939,7 +6950,8 @@
         "emoji": "⚽",
         "form": "noun",
         "plural": null,
-        "subtext": "soccer",
+        "subtext": "",
+        "synonyms": ["soccer"],
         "definitions": [
             {
                 "text": "A game played by two teams of eleven players who kick a ball.",
@@ -7605,7 +7617,8 @@
         "emoji": "🛋️",
         "form": "noun",
         "plural": "sofas",
-        "subtext": "couch",
+        "subtext": "",
+        "synonyms": ["couch"],
         "definitions": [
             {
                 "text": "A long soft seat for more than one person.",
@@ -7754,7 +7767,8 @@
         "emoji": "🔢",
         "form": "noun",
         "plural": null,
-        "subtext": "mathematics",
+        "subtext": "",
+        "synonyms": ["mathematics"],
         "definitions": [
             {
                 "text": "The study of numbers, shapes, and quantities.",
@@ -8536,7 +8550,8 @@
         "emoji": "🎭",
         "form": "noun",
         "plural": "theatres",
-        "subtext": "theater",
+        "subtext": "",
+        "synonyms": ["theater"],
         "definitions": [
             {
                 "text": "A building with a stage where people go to watch plays.",
@@ -8847,7 +8862,8 @@
         "emoji": "🧽",
         "form": "noun",
         "plural": "erasers",
-        "subtext": "rubber",
+        "subtext": "",
+        "synonyms": ["rubber"],
         "definitions": [
             {
                 "text": "A small piece of rubber or plastic used to remove pencil marks.",
@@ -9584,7 +9600,8 @@
         "emoji": "🚚",
         "form": "noun",
         "plural": "trucks",
-        "subtext": "lorry",
+        "subtext": "",
+        "synonyms": ["lorry"],
         "definitions": [
             {
                 "text": "A large, heavy vehicle with wheels used for carrying goods.",
@@ -10297,7 +10314,8 @@
         "emoji": "🍪",
         "form": "noun",
         "plural": "cookies",
-        "subtext": "biscuit",
+        "subtext": "",
+        "synonyms": ["biscuit"],
         "definitions": [
             {
                 "text": "A small flat sweet cake.",
@@ -10318,7 +10336,8 @@
         "emoji": "🍪",
         "form": "noun",
         "plural": "biscuits",
-        "subtext": "cookie",
+        "subtext": "",
+        "synonyms": ["cookie"],
         "definitions": [
             {
                 "text": "A small flat sweet cake.",
@@ -10840,7 +10859,8 @@
         "emoji": "👟",
         "form": "noun",
         "plural": "trainers",
-        "subtext": "sneakers",
+        "subtext": "",
+        "synonyms": ["sneakers"],
         "definitions": [
             {
                 "text": "Soft shoes that you wear for sport or as casual clothes.",
@@ -11122,7 +11142,8 @@
         "form": "noun",
         "plural": "first names",
         "opposite": null,
-        "subtext": "given name",
+        "subtext": "",
+        "synonyms": ["given name"],
         "definitions": [
             {
                 "text": "The name that was given to you when you were born and that comes before your family name.",
@@ -11209,7 +11230,8 @@
         "emoji": "📚",
         "form": "noun",
         "plural": "bookshops",
-        "subtext": "bookstore",
+        "subtext": "",
+        "synonyms": ["bookstore"],
         "definitions": [
             {
                 "text": "A shop where you can buy books.",
@@ -11797,7 +11819,8 @@
         "emoji": "👥",
         "form": "noun",
         "plural": null,
-        "subtext": "employees, workers",
+        "subtext": "",
+        "synonyms": ["employees", "workers"],
         "definitions": [
             {
                 "text": "The group of people who work for an organization.",
@@ -11881,7 +11904,8 @@
         "emoji": "🎓",
         "form": "noun",
         "plural": "professions",
-        "subtext": "job, career",
+        "subtext": "",
+        "synonyms": ["job", "career"],
         "definitions": [
             {
                 "text": "A type of job that needs special training or a high level of education.",
@@ -11902,7 +11926,8 @@
         "emoji": "💵",
         "form": "noun",
         "plural": "wages",
-        "subtext": "salary, pay",
+        "subtext": "",
+        "synonyms": ["salary", "pay"],
         "definitions": [
             {
                 "text": "The amount of money that is paid to a worker, usually for each hour or week.",
@@ -12028,7 +12053,8 @@
         "emoji": "🍰",
         "form": "noun",
         "plural": "desserts",
-        "subtext": "sweet dish",
+        "subtext": "",
+        "synonyms": ["sweet dish"],
         "definitions": [
             {
                 "text": "Sweet food eaten at the end of a meal.",
@@ -12195,7 +12221,8 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "👋",
         "form": "phrase",
-        "subtext": "pardon me",
+        "subtext": "",
+        "synonyms": ["pardon me"],
         "definitions": [
             {
                 "text": "A polite way of starting to talk to someone you do not know.",
@@ -12445,7 +12472,8 @@
         "emoji": "🐾",
         "form": "noun",
         "plural": "animals",
-        "subtext": "creature / wild animal / pet animal",
+        "subtext": "wild animal / pet animal",
+        "synonyms": ["creature"],
         "definitions": [
             {
                 "text": "A living thing that can move and eat.",
@@ -12467,7 +12495,8 @@
         "emoji": "🍟",
         "form": "noun",
         "plural": "chips",
-        "subtext": "french fries",
+        "subtext": "",
+        "synonyms": ["french fries"],
         "definitions": [
             {
                 "text": "Long thin pieces of potato cooked in oil.",
@@ -12509,7 +12538,8 @@
         "emoji": "🏋️",
         "form": "noun",
         "plural": "gyms",
-        "subtext": "fitness center / go to the gym",
+        "subtext": "go to the gym",
+        "synonyms": ["fitness center"],
         "definitions": [
             {
                 "text": "A room or building with equipment for doing physical exercise.",
@@ -12530,7 +12560,8 @@
         "emoji": "🔥",
         "form": "noun",
         "plural": "fires",
-        "subtext": "flames / start a fire",
+        "subtext": "start a fire",
+        "synonyms": ["flames"],
         "definitions": [
             {
                 "text": "Heat and light from something burning.",
@@ -12551,7 +12582,8 @@
         "emoji": "👥",
         "form": "noun",
         "plural": "groups",
-        "subtext": "set / a small group / group work",
+        "subtext": "a small group / group work",
+        "synonyms": ["set"],
         "definitions": [
             {
                 "text": "A number of people or things that are together.",
@@ -12571,7 +12603,8 @@
         "theme": "weather_A1",
         "emoji": "🧊",
         "form": "noun",
-        "subtext": "frozen water / ice cube",
+        "subtext": "ice cube",
+        "synonyms": ["frozen water"],
         "definitions": [
             {
                 "text": "Water that has frozen and become solid.",
@@ -12611,7 +12644,8 @@
         "theme": "public_transport_A1",
         "emoji": "🚗",
         "form": "noun",
-        "subtext": "cars, vehicles / heavy traffic",
+        "subtext": "heavy traffic",
+        "synonyms": ["cars", "vehicles"],
         "definitions": [
             {
                 "text": "The cars, trucks, and other vehicles using a road.",
@@ -12632,7 +12666,8 @@
         "emoji": "🎭",
         "form": "noun",
         "plural": "actresses",
-        "subtext": "actor / famous actress",
+        "subtext": "famous actress",
+        "synonyms": ["actor"],
         "definitions": [
             {
                 "text": "A woman who performs in a play or movie.",
@@ -12653,7 +12688,8 @@
         "emoji": "🚜",
         "form": "noun",
         "plural": "farms",
-        "subtext": "countryside / work on a farm",
+        "subtext": "work on a farm",
+        "synonyms": ["countryside"],
         "definitions": [
             {
                 "text": "An area of land used for growing crops and keeping animals.",
@@ -12683,7 +12719,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "bedding / keep warm"
+        "subtext": "",
+        "synonyms": ["bedding", "keep warm"]
     },
 
 
@@ -12703,7 +12740,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "bedding / soft pillow"
+        "subtext": "soft pillow",
+        "synonyms": ["bedding"]
     },
 
 
@@ -12723,7 +12761,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "gift / birthday present"
+        "subtext": "birthday present",
+        "synonyms": ["gift"]
     },
 
 
@@ -12743,7 +12782,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "floor covering / rug"
+        "subtext": "",
+        "synonyms": ["floor covering", "rug"]
     },
 
 
@@ -12763,7 +12803,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "power source / charging"
+        "subtext": "",
+        "synonyms": ["power source", "charging"]
     },
 
 
@@ -12783,7 +12824,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "charging cable"
+        "subtext": "",
+        "synonyms": ["charging cable"]
     },
 
 
@@ -12803,7 +12845,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "date planner"
+        "subtext": "",
+        "synonyms": ["date planner"]
     },
 
 
@@ -12843,7 +12886,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "bed sheet / linen"
+        "subtext": "bed sheet",
+        "synonyms": ["linen"]
     }
     ];
     const lang = "en";

@@ -17,7 +17,8 @@
                 ]
             }
         ],
-        "subtext": "très beau / une belle journée / une belle vue",
+        "subtext": "très beau",
+        "synonyms": ["une belle journée", "une belle vue"],
         "comparative": "plus beau",
         "superlative": "le plus beau",
         "opposite": "laid"
@@ -83,7 +84,8 @@
                 ]
             }
         ],
-        "subtext": "temps neigeux / journée neigeuse / froid et neigeux",
+        "subtext": "temps neigeux / froid et neigeux",
+        "synonyms": ["journée neigeuse"],
         "comparative": "plus neigeux",
         "superlative": "le plus neigeux",
         "opposite": "dégagé"
@@ -105,7 +107,8 @@
                 ]
             }
         ],
-        "subtext": "très venteux / journée venteuse / froid et venteux",
+        "subtext": "très venteux / froid et venteux",
+        "synonyms": ["journée venteuse"],
         "comparative": "plus venteux",
         "superlative": "le plus venteux",
         "opposite": "calme"
@@ -215,7 +218,8 @@
                 ]
             }
         ],
-        "subtext": "très commode / idéalement situé / un moment commode",
+        "subtext": "très commode / un moment commode",
+        "synonyms": ["idéalement situé"],
         "comparative": "plus commode",
         "superlative": "le plus commode",
         "opposite": "peu commode"
@@ -237,7 +241,8 @@
                 ]
             }
         ],
-        "subtext": "un travail stressant / très stressant / situation stressante",
+        "subtext": "un travail stressant / très stressant",
+        "synonyms": ["situation stressante"],
         "comparative": "plus stressant",
         "superlative": "le plus stressant",
         "opposite": "relaxant"
@@ -259,7 +264,8 @@
                 ]
             }
         ],
-        "subtext": "très confortable / à l'aise avec / se sentir confortable",
+        "subtext": "très confortable / se sentir confortable",
+        "synonyms": ["à l'aise avec"],
         "comparative": "plus confortable",
         "superlative": "le plus confortable",
         "opposite": "inconfortable"
@@ -325,7 +331,8 @@
                 ]
             }
         ],
-        "subtext": "très occupé / une journée chargée / trop occupé pour parler",
+        "subtext": "très occupé / trop occupé pour parler",
+        "synonyms": ["une journée chargée"],
         "comparative": "plus occupé",
         "superlative": "le plus occupé",
         "opposite": "libre"
@@ -501,7 +508,8 @@
                 ]
             }
         ],
-        "subtext": "très réussi / une carrière réussie / très performant",
+        "subtext": "très réussi",
+        "synonyms": ["une carrière réussie", "très performant"],
         "comparative": "plus réussi",
         "superlative": "le plus réussi",
         "opposite": "infructueux"
@@ -545,7 +553,8 @@
                 ]
             }
         ],
-        "subtext": "très créatif / pensée créative / solution créative",
+        "subtext": "très créatif",
+        "synonyms": ["pensée créative", "solution créative"],
         "comparative": "plus créatif",
         "superlative": "le plus créatif",
         "opposite": "peu créatif"
@@ -567,7 +576,8 @@
                 ]
             }
         ],
-        "subtext": "très productif / hautement productif / une réunion productive",
+        "subtext": "très productif / hautement productif",
+        "synonyms": ["une réunion productive"],
         "comparative": "plus productif",
         "superlative": "le plus productif",
         "opposite": "improductif"
@@ -655,7 +665,8 @@
                 ]
             }
         ],
-        "subtext": "très cher / goûts de luxe / trop cher",
+        "subtext": "très cher / trop cher",
+        "synonyms": ["goûts de luxe"],
         "comparative": "plus cher",
         "superlative": "le plus cher",
         "opposite": "bon marché"
@@ -699,7 +710,8 @@
                 ]
             }
         ],
-        "subtext": "vaut l'argent / vaut le coup / vaut la peine d'être considéré",
+        "subtext": "vaut la peine d'être considéré",
+        "synonyms": ["vaut l'argent", "vaut le coup"],
         "comparative": "plus valoir la peine",
         "superlative": "le plus valoir la peine",
         "opposite": "sans valeur"
@@ -809,7 +821,8 @@
                 ]
             }
         ],
-        "subtext": "alimentation saine / très sain / rester sain",
+        "subtext": "très sain / rester sain",
+        "synonyms": ["alimentation saine"],
         "comparative": "plus sain",
         "superlative": "le plus sain",
         "opposite": "malsain"
@@ -831,7 +844,8 @@
                 ]
             }
         ],
-        "subtext": "très malsain / habitudes malsaines / profondément malsain",
+        "subtext": "très malsain / profondément malsain",
+        "synonyms": ["habitudes malsaines"],
         "comparative": "plus malsain",
         "superlative": "le plus malsain",
         "opposite": "sain"
@@ -941,7 +955,8 @@
                 ]
             }
         ],
-        "subtext": "très amical / une atmosphère amicale / assez amical",
+        "subtext": "très amical / assez amical",
+        "synonyms": ["une atmosphère amicale"],
         "comparative": "plus amical",
         "superlative": "le plus amical",
         "opposite": "inamical"
@@ -1029,7 +1044,8 @@
                 ]
             }
         ],
-        "subtext": "très poli / refuser poliment / être poli",
+        "subtext": "très poli / être poli",
+        "synonyms": ["refuser poliment"],
         "comparative": "plus poli",
         "superlative": "le plus poli",
         "opposite": "impoli"
@@ -1073,7 +1089,8 @@
                 ]
             }
         ],
-        "subtext": "sûr de soi / très confiant / se sentir confiant",
+        "subtext": "très confiant / se sentir confiant",
+        "synonyms": ["sûr de soi"],
         "comparative": "plus confiant",
         "superlative": "le plus confiant",
         "opposite": "peu sûr de soi"
@@ -1139,7 +1156,8 @@
                 ]
             }
         ],
-        "subtext": "très traditionnel / approche traditionnelle / profondément traditionnel",
+        "subtext": "très traditionnel / profondément traditionnel",
+        "synonyms": ["approche traditionnelle"],
         "comparative": "plus traditionnel",
         "superlative": "le plus traditionnel",
         "opposite": "moderne"
@@ -1161,7 +1179,8 @@
                 ]
             }
         ],
-        "subtext": "zone locale / entreprise locale / un problème local",
+        "subtext": "un problème local",
+        "synonyms": ["zone locale", "entreprise locale"],
         "comparative": "plus local",
         "superlative": "le plus local",
         "opposite": "international"
@@ -1183,7 +1202,8 @@
                 ]
             }
         ],
-        "subtext": "commerce international / pleinement international / équipe internationale",
+        "subtext": "commerce international / pleinement international",
+        "synonyms": ["équipe internationale"],
         "comparative": "plus international",
         "superlative": "le plus international",
         "opposite": "local"
@@ -1227,7 +1247,8 @@
                 ]
             }
         ],
-        "subtext": "très ennuyeux / une réunion ennuyeuse / trouver ennuyeux",
+        "subtext": "très ennuyeux / trouver ennuyeux",
+        "synonyms": ["une réunion ennuyeuse"],
         "comparative": "plus ennuyeux",
         "superlative": "le plus ennuyeux",
         "opposite": "intéressant"
@@ -1315,7 +1336,8 @@
                 ]
             }
         ],
-        "subtext": "très commun / problème commun / bon sens",
+        "subtext": "très commun / problème commun",
+        "synonyms": ["bon sens"],
         "comparative": "plus commun",
         "superlative": "le plus commun",
         "opposite": "rare"
@@ -1469,7 +1491,8 @@
                 ]
             }
         ],
-        "subtext": "très sérieux / tout à fait sérieux / une question sérieuse",
+        "subtext": "très sérieux / tout à fait sérieux",
+        "synonyms": ["une question sérieuse"],
         "comparative": "plus sérieux",
         "superlative": "le plus sérieux",
         "opposite": "drôle"
@@ -1513,7 +1536,8 @@
                 ]
             }
         ],
-        "subtext": "très direct / approche directe / une question directe",
+        "subtext": "très direct",
+        "synonyms": ["approche directe", "une question directe"],
         "comparative": "plus direct",
         "superlative": "le plus direct",
         "opposite": "indirect"
@@ -1535,7 +1559,8 @@
                 ]
             }
         ],
-        "subtext": "routine quotidienne / quotidiennement / rapport quotidien",
+        "subtext": "rapport quotidien",
+        "synonyms": ["routine quotidienne", "quotidiennement"],
         "comparative": "plus quotidien",
         "superlative": "le plus quotidien",
         "opposite": "mensuel"
@@ -1557,7 +1582,8 @@
                 ]
             }
         ],
-        "subtext": "très régulier / base régulière / client régulier",
+        "subtext": "très régulier / client régulier",
+        "synonyms": ["base régulière"],
         "comparative": "plus régulier",
         "superlative": "le plus régulier",
         "opposite": "irrégulier"
@@ -1579,7 +1605,8 @@
                 ]
             }
         ],
-        "subtext": "le plus récent / très récent / actualités récentes",
+        "subtext": "le plus récent / très récent",
+        "synonyms": ["actualités récentes"],
         "comparative": "plus récent",
         "superlative": "le plus récent",
         "opposite": "ancien"
@@ -1601,7 +1628,8 @@
                 ]
             }
         ],
-        "subtext": "situation actuelle / employeur actuel / actuellement",
+        "subtext": "employeur actuel",
+        "synonyms": ["situation actuelle", "actuellement"],
         "comparative": "plus actuel",
         "superlative": "le plus actuel",
         "opposite": "passé"
@@ -1623,7 +1651,8 @@
                 ]
             }
         ],
-        "subtext": "projets futurs / à l'avenir / futur employeur",
+        "subtext": "projets futurs / futur employeur",
+        "synonyms": ["à l'avenir"],
         "comparative": "plus futur",
         "superlative": "le plus futur",
         "opposite": "passé"
@@ -1645,7 +1674,8 @@
                 ]
             }
         ],
-        "subtext": "travail précédent / employeur précédent / expérience précédente",
+        "subtext": "travail précédent / employeur précédent",
+        "synonyms": ["expérience précédente"],
         "comparative": "plus précédent",
         "superlative": "le plus précédent",
         "opposite": "suivant"

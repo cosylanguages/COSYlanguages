@@ -9,7 +9,8 @@
         "group": "1er groupe",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "jardiner le week-end / jardinage bio",
+        "subtext": "jardiner le week-end",
+        "synonyms": ["jardinage bio"],
         "definitions": [
             {
                 "text": "Travailler dans un jardin pour faire pousser des plantes.",
@@ -29,7 +30,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "se porter volontaire",
+        "subtext": "",
+        "synonyms": ["se porter volontaire"],
         "definitions": [
             {
                 "text": "Offrir de faire quelque chose sans être payé.",

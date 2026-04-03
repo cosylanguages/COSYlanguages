@@ -11,7 +11,8 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "γιατροί",
-        "subtext": "βλέπω γιατρό, παθολόγος",
+        "subtext": "",
+        "synonyms": ["βλέπω γιατρό", "παθολόγος"],
         "definitions": [
             {
                 "text": "Ένα άτομο που βοηθά τους άρρωστους ανθρώπους.",
@@ -356,7 +357,8 @@
         "emoji": "🛒",
         "form": "noun",
         "plural": "μαγαζιά",
-        "subtext": "κατάστημα, ψωνίζω",
+        "subtext": "",
+        "synonyms": ["κατάστημα", "ψωνίζω"],
         "definitions": [
             {
                 "text": "Ένα μέρος όπου αγοράζεις πράγματα.",
@@ -641,7 +643,8 @@
         "emoji": "🌆",
         "form": "noun",
         "plural": "απογεύματα",
-        "subtext": "καλησπέρα",
+        "subtext": "",
+        "synonyms": ["καλησπέρα"],
         "definitions": [
             {
                 "text": "Το μέρος της ημέρας μετά το μεσημέρι.",
@@ -660,7 +663,8 @@
         "emoji": "📅",
         "form": "noun",
         "plural": "βδομάδες",
-        "subtext": "εβδομάδα",
+        "subtext": "",
+        "synonyms": ["εβδομάδα"],
         "definitions": [
             {
                 "text": "Μια περίοδος επτά ημερών.",
@@ -715,7 +719,8 @@
         "emoji": "🏷️",
         "form": "noun",
         "plural": "τιμές",
-        "subtext": "κόστος",
+        "subtext": "",
+        "synonyms": ["κόστος"],
         "definitions": [
             {
                 "text": "Το ποσό των χρημάτων που πληρώνεις για κάτι.",
@@ -899,7 +904,8 @@
         "emoji": "💨",
         "form": "noun",
         "plural": "αέρηδες",
-        "subtext": "άνεμος",
+        "subtext": "",
+        "synonyms": ["άνεμος"],
         "definitions": [
             {
                 "text": "Ο αέρας που κινείται, ο άνεμος.",
@@ -915,7 +921,8 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
-        "subtext": "αυτή τη μέρα",
+        "subtext": "",
+        "synonyms": ["αυτή τη μέρα"],
         "definitions": [
             {
                 "text": "Την τρέχουσα ημέρα.",
@@ -931,7 +938,8 @@
         "theme": "times_day_A1",
         "emoji": "🔜",
         "form": "adverb",
-        "subtext": "την επόμενη μέρα",
+        "subtext": "",
+        "synonyms": ["την επόμενη μέρα"],
         "definitions": [
             {
                 "text": "Την ημέρα μετά τη σημερινή.",
@@ -950,7 +958,8 @@
         "emoji": "🌃",
         "form": "noun",
         "plural": "βράδια",
-        "subtext": "εσπέρα, καλησπέρα",
+        "subtext": "",
+        "synonyms": ["εσπέρα", "καλησπέρα"],
         "definitions": [
             {
                 "text": "Το τελευταίο μέρος της ημέρας.",
@@ -969,7 +978,8 @@
         "emoji": "🌙",
         "form": "noun",
         "plural": "νύχτες",
-        "subtext": "καληνύχτα",
+        "subtext": "",
+        "synonyms": ["καληνύχτα"],
         "definitions": [
             {
                 "text": "Η περίοδος του σκότους μεταξύ απογεύματος και πρωινού.",
@@ -1101,7 +1111,8 @@
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "μάγειρες",
-        "subtext": "σεφ",
+        "subtext": "",
+        "synonyms": ["σεφ"],
         "definitions": [
             {
                 "text": "Επαγγελματίας που μαγειρεύει φαγητά.",
@@ -1120,7 +1131,8 @@
         "emoji": "🧑‍💼",
         "form": "noun",
         "plural": "διευθυντές",
-        "subtext": "μάνατζερ",
+        "subtext": "",
+        "synonyms": ["μάνατζερ"],
         "definitions": [
             {
                 "text": "Άτομο που είναι υπεύθυνο για μια ομάδα ή επιχείρηση.",
@@ -1176,7 +1188,8 @@
         "emoji": "💑",
         "form": "noun",
         "plural": "σύντροφοι",
-        "subtext": "παρτενέρ, σύζυγος",
+        "subtext": "",
+        "synonyms": ["παρτενέρ", "σύζυγος"],
         "definitions": [
             {
                 "text": "Το άτομο με το οποίο ζεις ή έχεις σχέση.",
@@ -1195,7 +1208,8 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "άντρες",
-        "subtext": "σύζυγος",
+        "subtext": "",
+        "synonyms": ["σύζυγος"],
         "definitions": [
             {
                 "text": "Ένας ενήλικος άνδρας ή ο σύζυγος.",
@@ -1214,7 +1228,8 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "γυναίκες",
-        "subtext": "σύζυγος",
+        "subtext": "",
+        "synonyms": ["σύζυγος"],
         "definitions": [
             {
                 "text": "Μια ενήλικη γυναίκα ή η σύζυγος.",
@@ -1233,7 +1248,8 @@
         "emoji": "👶",
         "form": "noun",
         "plural": "παιδιά",
-        "subtext": "γιος ή κόρη",
+        "subtext": "",
+        "synonyms": ["γιος ή κόρη"],
         "definitions": [
             {
                 "text": "Ένας νέος άνθρωπος, γιος ή κόρη.",
@@ -1252,7 +1268,8 @@
         "emoji": "👪",
         "form": "noun",
         "plural": "γονείς",
-        "subtext": "μητέρα ή πατέρας",
+        "subtext": "",
+        "synonyms": ["μητέρα ή πατέρας"],
         "definitions": [
             {
                 "text": "Η μητέρα ή ο πατέρας.",
@@ -1290,7 +1307,8 @@
         "emoji": "🍝",
         "form": "noun",
         "plural": "ζυμαρικά",
-        "subtext": "μακαρόνια και πέννες",
+        "subtext": "",
+        "synonyms": ["μακαρόνια και πέννες"],
         "definitions": [
             {
                 "text": "Ιταλικό φαγητό από αλεύρι.",
@@ -1309,7 +1327,8 @@
         "emoji": "🍌",
         "form": "noun",
         "plural": "μπανάνες",
-        "subtext": "κίτρινο φρούτο",
+        "subtext": "",
+        "synonyms": ["κίτρινο φρούτο"],
         "definitions": [
             {
                 "text": "Ένα μακρόστενο κίτρινο φρούτο.",
@@ -1423,7 +1442,8 @@
         "emoji": "👞",
         "form": "noun",
         "plural": "παπούτσια",
-        "subtext": "ζευγάρι παπούτσια",
+        "subtext": "",
+        "synonyms": ["ζευγάρι παπούτσια"],
         "definitions": [
             {
                 "text": "Κάλυμμα για το πόδι.",
@@ -1556,7 +1576,8 @@
         "emoji": "🐱",
         "form": "noun",
         "plural": "γάτες",
-        "subtext": "κατοικίδιο ζώο",
+        "subtext": "",
+        "synonyms": ["κατοικίδιο ζώο"],
         "definitions": [
             {
                 "text": "Ένα μικρό ζώο.",
@@ -1689,7 +1710,8 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "μητέρες",
-        "subtext": "η μαμά μου",
+        "subtext": "",
+        "synonyms": ["η μαμά μου"],
         "definitions": [
             {
                 "text": "Γυναίκα γονέας.",
@@ -1708,7 +1730,8 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "πατέρες",
-        "subtext": "ο μπαμπάς μου",
+        "subtext": "",
+        "synonyms": ["ο μπαμπάς μου"],
         "definitions": [
             {
                 "text": "Άνδρας γονέας.",
@@ -1746,7 +1769,8 @@
         "emoji": "🏢",
         "form": "noun",
         "plural": "εργασίες",
-        "subtext": "εύρεση εργασίας",
+        "subtext": "",
+        "synonyms": ["εύρεση εργασίας"],
         "definitions": [
             {
                 "text": "Το επάγγελμα κάποιου.",
@@ -1914,7 +1938,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": "συνάδελφοι",
-        "subtext": "συνεργάζομαι με συναδέλφους",
+        "subtext": "",
+        "synonyms": ["συνεργάζομαι με συναδέλφους"],
         "definitions": [
             {
                 "text": "Άτομο που εργάζεται μαζί μας.",
@@ -2045,7 +2070,8 @@
         "gender": "masculine",
         "emoji": "😴",
         "form": "noun",
-        "subtext": "χρειάζομαι ύπνο",
+        "subtext": "",
+        "synonyms": ["χρειάζομαι ύπνο"],
         "definitions": [
             {
                 "text": "Η ξεκούραση τη νύχτα.",
@@ -2265,7 +2291,8 @@
         "emoji": "💍",
         "form": "noun",
         "plural": "σύζυγοι",
-        "subtext": "ο σύζυγός μου / η σύζυγός μου",
+        "subtext": "",
+        "synonyms": ["ο σύζυγός μου", "η σύζυγός μου"],
         "definitions": [
             {
                 "text": "Άντρας ή γυναίκα σε γάμο.",

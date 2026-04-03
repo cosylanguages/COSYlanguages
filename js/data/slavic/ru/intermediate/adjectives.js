@@ -7,7 +7,8 @@
         "gender": "он",
         "emoji": "👨‍💻",
         "form": "adjective",
-        "subtext": "фрилансер",
+        "subtext": "",
+        "synonyms": ["фрилансер"],
         "definitions": [
             {
                 "text": "Работа на себя, а не на компанию.",
@@ -23,7 +24,8 @@
         "theme": "environment_sustainability_B1",
         "emoji": "♻️",
         "form": "adjective",
-        "subtext": "экологичный",
+        "subtext": "",
+        "synonyms": ["экологичный"],
         "definitions": [
             {
                 "text": "Использование ресурсов таким образом, чтобы не наносить ущерб окружающей среде в будущем.",

@@ -9,7 +9,8 @@
         "group": "locuzione",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "giardinaggio biologico",
+        "subtext": "",
+        "synonyms": ["giardinaggio biologico"],
         "definitions": [
             {
                 "text": "Lavorare in un giardino per far crescere le piante.",
@@ -29,7 +30,8 @@
         "group": "locuzione",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "prestare servizio",
+        "subtext": "",
+        "synonyms": ["prestare servizio"],
         "definitions": [
             {
                 "text": "Offrirsi di fare qualcosa senza essere pagati.",

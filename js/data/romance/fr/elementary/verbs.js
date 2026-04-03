@@ -30,7 +30,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "prendre une douche",
+        "subtext": "",
+        "synonyms": ["prendre une douche"],
         "definitions": [
             {
                 "text": "Se laver le corps sous une douche.",
@@ -513,7 +514,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "lever la main / élever un enfant",
+        "subtext": "lever la main",
+        "synonyms": ["élever un enfant"],
         "definitions": [
             {
                 "text": "Soulever quelque chose ou s'occuper d'un enfant.",
@@ -555,7 +557,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "signaler un crime / rapporter un problème",
+        "subtext": "rapporter un problème",
+        "synonyms": ["signaler un crime"],
         "definitions": [
             {
                 "text": "Donner des informations sur quelque chose.",
@@ -618,7 +621,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "retraite anticipée",
+        "subtext": "",
+        "synonyms": ["retraite anticipée"],
         "definitions": [
             {
                 "text": "Arrêter de travailler parce qu'on a atteint un certain âge.",
@@ -639,7 +643,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "stative",
-        "subtext": "ne pas avoir les moyens / s'offrir une maison",
+        "subtext": "ne pas avoir les moyens",
+        "synonyms": ["s'offrir une maison"],
         "definitions": [
             {
                 "text": "Avoir assez d'argent pour payer quelque chose.",
@@ -660,7 +665,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "recycler le papier / bac de recyclage",
+        "subtext": "recycler le papier",
+        "synonyms": ["bac de recyclage"],
         "definitions": [
             {
                 "text": "Traiter des matériaux usagés pour qu'ils soient réutilisés.",
@@ -828,7 +834,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "embaucher quelqu'un / recruter une équipe",
+        "subtext": "embaucher quelqu'un",
+        "synonyms": ["recruter une équipe"],
         "definitions": [
             {
                 "text": "Prendre officiellement quelqu'un comme employé.",
@@ -849,7 +856,8 @@
         "group": "ir",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "être promu / promotion interne",
+        "subtext": "",
+        "synonyms": ["être promu", "promotion interne"],
         "definitions": [
             {
                 "text": "Déplacer un employé vers un poste supérieur.",
@@ -870,7 +878,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "démissionner d'un poste / remettre sa démission",
+        "subtext": "démissionner d'un poste",
+        "synonyms": ["remettre sa démission"],
         "definitions": [
             {
                 "text": "Quitter formellement un emploi par choix.",
@@ -891,7 +900,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "licencier un employé / être licencié",
+        "subtext": "licencier un employé",
+        "synonyms": ["être licencié"],
         "definitions": [
             {
                 "text": "Retirer officiellement quelqu'un de son emploi.",
@@ -1122,7 +1132,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "transférer de l'argent / virement bancaire",
+        "subtext": "transférer de l'argent",
+        "synonyms": ["virement bancaire"],
         "definitions": [
             {
                 "text": "Déplacer de l'argent d'un compte à un autre.",
@@ -1311,7 +1322,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "faire des compromis / trouver un compromis",
+        "subtext": "",
+        "synonyms": ["faire des compromis", "trouver un compromis"],
         "definitions": [
             {
                 "text": "Accepter moins que l'idéal pour parvenir à un accord.",
@@ -1500,7 +1512,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "réparer quelque chose / effectuer des réparations",
+        "subtext": "réparer quelque chose",
+        "synonyms": ["effectuer des réparations"],
         "definitions": [
             {
                 "text": "Fixer quelque chose qui est cassé ou ne fonctionne pas.",
@@ -1521,7 +1534,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "emménager / déménager de la maison",
+        "subtext": "déménager de la maison",
+        "synonyms": ["emménager"],
         "definitions": [
             {
                 "text": "Aller vivre ou travailler dans un endroit différent.",
@@ -1542,7 +1556,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "décorer une pièce / décoration d'intérieur",
+        "subtext": "décorer une pièce",
+        "synonyms": ["décoration d'intérieur"],
         "definitions": [
             {
                 "text": "Rendre un lieu plus attrayant, notamment par la peinture.",
@@ -1626,7 +1641,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "abandonner un emploi / arrêter de fumer",
+        "subtext": "abandonner un emploi",
+        "synonyms": ["arrêter de fumer"],
         "definitions": [
             {
                 "text": "Cesser d'essayer de faire quelque chose ; arrêter.",
@@ -1647,7 +1663,8 @@
         "group": "re",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "résoudre un problème / régler une situation",
+        "subtext": "résoudre un problème",
+        "synonyms": ["régler une situation"],
         "definitions": [
             {
                 "text": "Trouver une solution à un problème ou s'occuper de quelque chose.",
@@ -1668,7 +1685,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "s'occuper de quelqu'un / s'occuper d'un enfant",
+        "subtext": "s'occuper de quelqu'un",
+        "synonyms": ["s'occuper d'un enfant"],
         "definitions": [
             {
                 "text": "Prendre soin de quelqu'un ou de quelque chose.",
@@ -1731,7 +1749,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "rejeter une offre / refuser un emploi",
+        "subtext": "rejeter une offre",
+        "synonyms": ["refuser un emploi"],
         "definitions": [
             {
                 "text": "Refuser une offre ou une demande.",
@@ -1752,7 +1771,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "reporter une réunion / différer une décision",
+        "subtext": "",
+        "synonyms": ["reporter une réunion", "différer une décision"],
         "definitions": [
             {
                 "text": "Reporter quelque chose à plus tard.",
@@ -1857,7 +1877,8 @@
         "group": "re",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "se plaindre de / porter plainte",
+        "subtext": "se plaindre de",
+        "synonyms": ["porter plainte"],
         "definitions": [
             {
                 "text": "Exprimer son mécontentement à propos de quelque chose.",
@@ -1962,7 +1983,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "perdre quelques kilos / essayer de perdre du poids",
+        "subtext": "essayer de perdre du poids",
+        "synonyms": ["perdre quelques kilos"],
         "definitions": [
             {
                 "text": "Devenir plus léger ; réduire le poids corporel.",
@@ -2025,7 +2047,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "améliorer la performance / s'améliorer",
+        "subtext": "",
+        "synonyms": ["améliorer la performance", "s'améliorer"],
         "definitions": [
             {
                 "text": "Rendre quelque chose de meilleur ou devenir meilleur.",
@@ -2067,7 +2090,8 @@
         "group": "re",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "résoudre un mystère / trouver une solution",
+        "subtext": "résoudre un mystère",
+        "synonyms": ["trouver une solution"],
         "definitions": [
             {
                 "text": "Trouver une réponse à un problème.",
@@ -2151,7 +2175,8 @@
         "group": "ir",
         "classification": "irregular",
         "aspect": "stative",
-        "subtext": "contenir des informations / le fichier contient",
+        "subtext": "contenir des informations",
+        "synonyms": ["le fichier contient"],
         "definitions": [
             {
                 "text": "Avoir quelque chose à l'intérieur ; inclure.",
@@ -2277,7 +2302,8 @@
         "group": "er",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "remplacer quelque chose / être remplacé par",
+        "subtext": "remplacer quelque chose",
+        "synonyms": ["être remplacé par"],
         "definitions": [
             {
                 "text": "Prendre la place de quelqu'un ou de quelque chose.",

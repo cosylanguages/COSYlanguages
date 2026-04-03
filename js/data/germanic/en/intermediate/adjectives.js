@@ -619,7 +619,8 @@
                 ]
             }
         ],
-        "subtext": "very valuable / invaluable / highly valuable"
+        "subtext": "very valuable / highly valuable",
+        "synonyms": ["invaluable"]
     },
     {
         "word": "equal",
@@ -709,7 +710,8 @@
                 ]
             }
         ],
-        "subtext": "social media / social skills / socially responsible"
+        "subtext": "social media / social skills",
+        "synonyms": ["socially responsible"]
     },
     {
         "word": "economic",
@@ -739,7 +741,8 @@
                 ]
             }
         ],
-        "subtext": "environmental impact / environmental policy / environmentally friendly"
+        "subtext": "environmental impact / environmental policy",
+        "synonyms": ["environmentally friendly"]
     },
     {
         "word": "cultural",
@@ -754,7 +757,8 @@
                 ]
             }
         ],
-        "subtext": "cultural differences / cultural event / culturally diverse"
+        "subtext": "cultural differences / cultural event",
+        "synonyms": ["culturally diverse"]
     },
     {
         "word": "educational",

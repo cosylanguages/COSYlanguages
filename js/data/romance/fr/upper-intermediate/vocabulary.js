@@ -79,7 +79,8 @@
         "emoji": "🔓",
         "form": "noun",
         "plural": null,
-        "subtext": "indépendance, liberté d'action",
+        "subtext": "",
+        "synonyms": ["indépendance", "liberté d'action"],
         "opposite": "dépendance",
         "definitions": [
             {
@@ -135,7 +136,8 @@
         "emoji": "📦",
         "form": "noun phrase",
         "plural": "primes de licenciement",
-        "subtext": "indemnités de départ",
+        "subtext": "",
+        "synonyms": ["indemnités de départ"],
         "definitions": [
             {
                 "text": "L'argent et les avantages versés lorsqu'une personne perd son emploi.",
@@ -171,7 +173,8 @@
         "emoji": "⚡",
         "form": "noun",
         "plural": null,
-        "subtext": "rendement, efficacité",
+        "subtext": "",
+        "synonyms": ["rendement", "efficacité"],
         "definitions": [
             {
                 "text": "Le rythme auquel les biens sont produits ou le travail est accompli.",
@@ -189,7 +192,8 @@
         "emoji": "🌐",
         "form": "noun",
         "plural": "externalisations",
-        "subtext": "sous-traitance, outsourcing",
+        "subtext": "",
+        "synonyms": ["sous-traitance", "outsourcing"],
         "definitions": [
             {
                 "text": "Fait de confier une activité à une entreprise extérieure.",
@@ -225,7 +229,8 @@
         "emoji": "🏘️📈",
         "form": "noun",
         "plural": null,
-        "subtext": "embourgeoisement urbain",
+        "subtext": "",
+        "synonyms": ["embourgeoisement urbain"],
         "definitions": [
             {
                 "text": "Processus de transformation d'un quartier populaire par l'arrivée de populations plus aisées.",
@@ -243,7 +248,8 @@
         "emoji": "🏠💰",
         "form": "noun phrase",
         "plural": "logements abordables",
-        "subtext": "logement social",
+        "subtext": "",
+        "synonyms": ["logement social"],
         "definitions": [
             {
                 "text": "Logement dont le coût est adapté aux revenus des ménages modestes.",
@@ -261,7 +267,8 @@
         "emoji": "🏙️↔️",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "expansion urbaine incontrôlée",
+        "subtext": "",
+        "synonyms": ["expansion urbaine incontrôlée"],
         "definitions": [
             {
                 "text": "Le développement spatial incontrôlé des villes vers les zones environnantes.",
@@ -297,7 +304,8 @@
         "emoji": "🛡️🏛️",
         "form": "noun phrase",
         "plural": "États-providence",
-        "subtext": "protection sociale",
+        "subtext": "",
+        "synonyms": ["protection sociale"],
         "definitions": [
             {
                 "text": "Système dans lequel l'État assure une protection sociale aux citoyens.",
@@ -351,7 +359,8 @@
         "emoji": "🔍",
         "form": "noun phrase",
         "plural": "examens approfondis",
-        "subtext": "scrutin, analyse détaillée",
+        "subtext": "",
+        "synonyms": ["scrutin", "analyse détaillée"],
         "definitions": [
             {
                 "text": "Étude minutieuse et attentive de quelqu'un ou de quelque chose.",
@@ -369,7 +378,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": "consensus",
-        "subtext": "accord général",
+        "subtext": "",
+        "synonyms": ["accord général"],
         "definitions": [
             {
                 "text": "Accord général parmi un groupe de personnes.",
@@ -387,7 +397,8 @@
         "emoji": "📜",
         "form": "noun",
         "plural": "législations",
-        "subtext": "ensemble des lois",
+        "subtext": "",
+        "synonyms": ["ensemble des lois"],
         "definitions": [
             {
                 "text": "Ensemble des lois faites par un gouvernement.",
@@ -405,7 +416,8 @@
         "emoji": "⚖️❌",
         "form": "noun phrase",
         "plural": "partis pris",
-        "subtext": "biais, préjugé",
+        "subtext": "",
+        "synonyms": ["biais", "préjugé"],
         "opposite": "impartialité",
         "definitions": [
             {
@@ -424,7 +436,8 @@
         "emoji": "⚖️⬆️",
         "form": "noun",
         "plural": null,
-        "subtext": "excès de poids",
+        "subtext": "",
+        "synonyms": ["excès de poids"],
         "definitions": [
             {
                 "text": "État d'un individu ayant un excès de poids nuisible à sa santé.",
@@ -534,7 +547,8 @@
         "emoji": "🔒",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "protection des données",
+        "subtext": "",
+        "synonyms": ["protection des données"],
         "definitions": [
             {
                 "text": "Le droit de contrôler la manière dont les informations personnelles sont collectées.",
@@ -586,7 +600,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️",
         "form": "conjunction",
-        "subtext": "tandis que",
+        "subtext": "",
+        "synonyms": ["tandis que"],
         "definitions": [
             {
                 "text": "Indique un contraste entre deux faits.",
@@ -602,7 +617,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
-        "subtext": "pourtant, cependant",
+        "subtext": "",
+        "synonyms": ["pourtant", "cependant"],
         "definitions": [
             {
                 "text": "Malgré ce qui vient d'être dit.",
@@ -633,7 +649,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🌓",
         "form": "phrase",
-        "subtext": "en revanche",
+        "subtext": "",
+        "synonyms": ["en revanche"],
         "definitions": [
             {
                 "text": "Utilisé pour montrer une différence entre deux choses.",

@@ -931,7 +931,8 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "mères",
-        "subtext": "maman",
+        "subtext": "",
+        "synonyms": ["maman"],
         "definitions": [
             {
                 "text": "La femme qui est votre parent.",
@@ -950,7 +951,8 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "pères",
-        "subtext": "papa",
+        "subtext": "",
+        "synonyms": ["papa"],
         "definitions": [
             {
                 "text": "L'homme qui est votre parent.",
@@ -1336,7 +1338,8 @@
         "emoji": "💰",
         "form": "noun",
         "plural": "salaires",
-        "subtext": "paie, rémunération",
+        "subtext": "",
+        "synonyms": ["paie", "rémunération"],
         "definitions": [
             {
                 "text": "L'argent qu'une personne gagne de son travail chaque mois.",
@@ -1354,7 +1357,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": "réunions",
-        "subtext": "rencontre, assemblée",
+        "subtext": "",
+        "synonyms": ["rencontre", "assemblée"],
         "definitions": [
             {
                 "text": "Un moment où les gens se rassemblent pour parler de quelque chose.",
@@ -1388,7 +1392,8 @@
         "article": "le",
         "emoji": "😫",
         "form": "noun",
-        "subtext": "pression, tension",
+        "subtext": "",
+        "synonyms": ["pression", "tension"],
         "definitions": [
             {
                 "text": "Un sentiment d'inquiétude causé par une situation difficile.",
@@ -1542,7 +1547,8 @@
         "emoji": "❤️",
         "form": "noun",
         "plural": "relations",
-        "subtext": "rapport, lien",
+        "subtext": "",
+        "synonyms": ["rapport", "lien"],
         "definitions": [
             {
                 "text": "Une connexion entre deux personnes.",
@@ -1646,7 +1652,8 @@
         "emoji": "🎮",
         "form": "noun",
         "plural": null,
-        "subtext": "loisirs, détente",
+        "subtext": "",
+        "synonyms": ["loisirs", "détente"],
         "definitions": [
             {
                 "text": "Moment où vous ne travaillez pas et pouvez faire ce que vous voulez.",
@@ -1741,7 +1748,8 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "infirmiers",
-        "subtext": "infirmière, soignant",
+        "subtext": "",
+        "synonyms": ["infirmière", "soignant"],
         "definitions": [
             {
                 "text": "Une personne formée pour soigner les malades ou les blessés.",
@@ -1798,7 +1806,8 @@
         "emoji": "🧑‍💼",
         "form": "noun",
         "plural": "directeurs",
-        "subtext": "manager, gérant",
+        "subtext": "",
+        "synonyms": ["manager", "gérant"],
         "definitions": [
             {
                 "text": "Une personne responsable d'une équipe ou d'une entreprise.",
@@ -2079,7 +2088,8 @@
         "plural": "maris",
         "opposite": "femme",
         "oppositeEmoji": "👩",
-        "subtext": "époux, partenaire",
+        "subtext": "",
+        "synonyms": ["époux", "partenaire"],
         "definitions": [
             {
                 "text": "Un homme marié, par rapport à sa femme.",
@@ -2098,7 +2108,8 @@
         "emoji": "👶",
         "form": "noun",
         "plural": "enfants",
-        "subtext": "gamin, jeune personne",
+        "subtext": "",
+        "synonyms": ["gamin", "jeune personne"],
         "definitions": [
             {
                 "text": "Une jeune personne ; un fils ou une fille.",
@@ -2117,7 +2128,8 @@
         "emoji": "👪",
         "form": "noun",
         "plural": "parents",
-        "subtext": "mère ou père",
+        "subtext": "",
+        "synonyms": ["mère ou père"],
         "definitions": [
             {
                 "text": "Une mère ou un père.",

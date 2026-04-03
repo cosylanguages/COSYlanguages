@@ -159,7 +159,8 @@
                 ]
             }
         ],
-        "subtext": "a genuine concern / completely genuine / genuinely interested"
+        "subtext": "a genuine concern / completely genuine",
+        "synonyms": ["genuinely interested"]
     },
     {
         "word": "outstanding",
@@ -324,7 +325,8 @@
                 ]
             }
         ],
-        "subtext": "feel bitter / bitterly disappointed / a bitter argument"
+        "subtext": "feel bitter / a bitter argument",
+        "synonyms": ["bitterly disappointed"]
     },
     {
         "word": "concerned",
@@ -414,7 +416,8 @@
                 ]
             }
         ],
-        "subtext": "very enthusiastic / wildly enthusiastic / enthusiastically"
+        "subtext": "very enthusiastic / wildly enthusiastic",
+        "synonyms": ["enthusiastically"]
     },
     {
         "word": "frustrated",
@@ -609,7 +612,8 @@
                 ]
             }
         ],
-        "subtext": "very stubborn / incredibly stubborn / stubbornly refused"
+        "subtext": "very stubborn / incredibly stubborn",
+        "synonyms": ["stubbornly refused"]
     },
     {
         "word": "selfish",
@@ -684,7 +688,8 @@
                 ]
             }
         ],
-        "subtext": "highly controversial / deeply controversial / spark controversy"
+        "subtext": "highly controversial / deeply controversial",
+        "synonyms": ["spark controversy"]
     },
     {
         "word": "corrupt",
@@ -1014,7 +1019,8 @@
                 ]
             }
         ],
-        "subtext": "extremely well / at the extreme end / an extreme case"
+        "subtext": "at the extreme end / an extreme case",
+        "synonyms": ["extremely well"]
     },
     {
         "word": "intense",

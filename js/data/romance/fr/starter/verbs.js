@@ -5,7 +5,8 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👤",
-        "subtext": "être prêt / être fatigué / à la maison / être ouvert",
+        "subtext": "être prêt / être fatigué / être ouvert",
+        "synonyms": ["à la maison"],
         "form": "verb",
         "definitions": [
             {
@@ -122,7 +123,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "obtenir un travail / se fatiguer / s améliorer",
+        "subtext": "obtenir un travail",
+        "synonyms": ["se fatiguer", "s améliorer"],
         "form": "verb",
         "definitions": [
             {
@@ -145,7 +147,8 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "mettre / ranger / poser le téléphone",
+        "subtext": "mettre",
+        "synonyms": ["ranger", "poser le téléphone"],
         "form": "verb",
         "definitions": [
             {
@@ -167,7 +170,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "faire du café / prendre une décision / faire une erreur",
+        "subtext": "faire du café / faire une erreur",
+        "synonyms": ["prendre une décision"],
         "form": "verb",
         "definitions": [
             {
@@ -396,7 +400,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "trouver un travail / découvrir / trouver cela difficile",
+        "subtext": "trouver un travail / trouver cela difficile",
+        "synonyms": ["découvrir"],
         "form": "verb",
         "definitions": [
             {
@@ -418,7 +423,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "continuer / rester silencieux / garder une trace",
+        "subtext": "garder une trace",
+        "synonyms": ["continuer", "rester silencieux"],
         "form": "verb",
         "definitions": [
             {
@@ -465,7 +471,8 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "réduire les coûts / réduire les dépenses / couper en deux",
+        "subtext": "couper en deux",
+        "synonyms": ["réduire les coûts", "réduire les dépenses"],
         "form": "verb",
         "definitions": [
             {
@@ -487,7 +494,8 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "allumer / éteindre / tourner à gauche / tourner à droite",
+        "subtext": "tourner à gauche / tourner à droite",
+        "synonyms": ["allumer", "éteindre"],
         "form": "verb",
         "definitions": [
             {
@@ -553,7 +561,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "dire la vérité / dire à quelqu un / raconter une histoire",
+        "subtext": "dire la vérité / dire à quelqu un",
+        "synonyms": ["raconter une histoire"],
         "form": "verb",
         "definitions": [
             {
@@ -575,7 +584,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "poser une question / demander de l aide / demander à propos de",
+        "subtext": "demander de l aide / demander à propos de",
+        "synonyms": ["poser une question"],
         "form": "verb",
         "definitions": [
             {
@@ -641,7 +651,8 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "appeler quelqu un / rappeler / convoquer une réunion",
+        "subtext": "appeler quelqu un",
+        "synonyms": ["rappeler", "convoquer une réunion"],
         "form": "verb",
         "definitions": [
             {
@@ -777,7 +788,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "aller au travail / aller à la maison / sortir",
+        "subtext": "aller au travail / aller à la maison",
+        "synonyms": ["sortir"],
         "form": "verb",
         "definitions": [
             {
@@ -799,7 +811,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "rentrer à la maison / revenir / venir au travail",
+        "subtext": "rentrer à la maison / venir au travail",
+        "synonyms": ["revenir"],
         "opposite": "aller",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -823,7 +836,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
-        "subtext": "marcher au travail / rentrer à pied / marcher vite",
+        "subtext": "marcher au travail / marcher vite",
+        "synonyms": ["rentrer à pied"],
         "form": "verb",
         "definitions": [
             {
@@ -845,7 +859,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "conduire au travail / conduire une voiture / rentrer en voiture",
+        "subtext": "conduire au travail / conduire une voiture",
+        "synonyms": ["rentrer en voiture"],
         "form": "verb",
         "definitions": [
             {
@@ -911,7 +926,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "quitter la maison / quitter le travail / partir tôt",
+        "subtext": "partir tôt",
+        "synonyms": ["quitter la maison", "quitter le travail"],
         "form": "verb",
         "definitions": [
             {
@@ -933,7 +949,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "déménager / emménager dans une ville / continuer",
+        "subtext": "emménager dans une ville",
+        "synonyms": ["déménager", "continuer"],
         "form": "verb",
         "definitions": [
             {
@@ -955,7 +972,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
-        "subtext": "rentrer à la maison / retourner au travail",
+        "subtext": "rentrer à la maison",
+        "synonyms": ["retourner au travail"],
         "form": "verb",
         "definitions": [
             {
@@ -999,7 +1017,8 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "prendre le petit-déjeuner / déjeuner / dîner",
+        "subtext": "",
+        "synonyms": ["prendre le petit-déjeuner", "déjeuner", "dîner"],
         "opposite": "boire",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1071,7 +1090,8 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "préparer le dîner / cuisiner un repas",
+        "subtext": "cuisiner un repas",
+        "synonyms": ["préparer le dîner"],
         "form": "verb",
         "definitions": [
             {
@@ -1137,7 +1157,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "faire la vaisselle / laver les vêtements / se laver les mains",
+        "subtext": "laver les vêtements / se laver les mains",
+        "synonyms": ["faire la vaisselle"],
         "form": "verb",
         "definitions": [
             {
@@ -1205,7 +1226,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "dépenser de l argent / passer du temps",
+        "subtext": "dépenser de l argent",
+        "synonyms": ["passer du temps"],
         "form": "verb",
         "definitions": [
             {
@@ -1297,7 +1319,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "penser à / penser de / réfléchir attentivement",
+        "subtext": "penser à / penser de",
+        "synonyms": ["réfléchir attentivement"],
         "form": "verb",
         "definitions": [
             {
@@ -1319,7 +1342,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "connaître quelqu un / connaître la réponse / savoir comment",
+        "subtext": "savoir comment",
+        "synonyms": ["connaître quelqu un", "connaître la réponse"],
         "form": "verb",
         "definitions": [
             {
@@ -1364,7 +1388,8 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "besoin d aide / besoin de temps / besoin d argent",
+        "subtext": "",
+        "synonyms": ["besoin d aide", "besoin de temps", "besoin d argent"],
         "form": "verb",
         "definitions": [
             {
@@ -1410,7 +1435,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "aimer quelqu un / aimer faire / aimer un lieu",
+        "subtext": "",
+        "synonyms": ["aimer quelqu un", "aimer faire", "aimer un lieu"],
         "form": "verb",
         "definitions": [
             {
@@ -1542,7 +1568,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "décider de faire / se décider pour / prendre une décision",
+        "subtext": "décider de faire / se décider pour",
+        "synonyms": ["prendre une décision"],
         "form": "verb",
         "definitions": [
             {
@@ -1676,7 +1703,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "regarder / chercher / ressembler à",
+        "subtext": "regarder",
+        "synonyms": ["chercher", "ressembler à"],
         "form": "verb",
         "definitions": [
             {
@@ -1720,7 +1748,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "courir / courir une course / diriger une entreprise",
+        "subtext": "courir / courir une course",
+        "synonyms": ["diriger une entreprise"],
         "form": "verb",
         "definitions": [
             {
@@ -1766,7 +1795,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "se tenir debout / se lever / être debout",
+        "subtext": "se tenir debout",
+        "synonyms": ["se lever", "être debout"],
         "opposite": "s asseoir",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1945,7 +1975,8 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "mourir / mourir de / s éteindre",
+        "subtext": "mourir / mourir de",
+        "synonyms": ["s éteindre"],
         "opposite": "vivre",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2012,7 +2043,8 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "tomber / tomber amoureux / s endormir",
+        "subtext": "tomber / tomber amoureux",
+        "synonyms": ["s endormir"],
         "form": "verb",
         "definitions": [
             {
@@ -2079,7 +2111,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "tirer / tirer la porte / s éloigner",
+        "subtext": "tirer / tirer la porte",
+        "synonyms": ["s éloigner"],
         "opposite": "pousser",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2148,7 +2181,8 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "casser / casser le verre / faire une pause",
+        "subtext": "casser / casser le verre",
+        "synonyms": ["faire une pause"],
         "form": "verb",
         "definitions": [
             {
@@ -2438,7 +2472,8 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "faire le trajet / trajet quotidien / long trajet",
+        "subtext": "faire le trajet",
+        "synonyms": ["trajet quotidien", "long trajet"],
         "form": "verb",
         "definitions": [
             {
@@ -2569,7 +2604,8 @@
                 ]
             }
         ],
-        "subtext": "petit-déjeuner à la maison / sauter le petit-déjeuner",
+        "subtext": "petit-déjeuner à la maison",
+        "synonyms": ["sauter le petit-déjeuner"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "pris le petit-déjeuner",
@@ -2695,7 +2731,8 @@
                 ]
             }
         ],
-        "subtext": "assister à une réunion / suivre un cours / assister à un événement",
+        "subtext": "assister à une réunion / assister à un événement",
+        "synonyms": ["suivre un cours"],
         "classification": "regular",
         "aspect": "action",
         "v3": "assisté",
@@ -2884,7 +2921,8 @@
                 ]
             }
         ],
-        "subtext": "se faire mal au dos / faire mal à quelqu un / ça fait mal",
+        "subtext": "se faire mal au dos / faire mal à quelqu un",
+        "synonyms": ["ça fait mal"],
         "classification": "irregular",
         "aspect": "both",
         "v3": "fait mal",
@@ -2968,7 +3006,8 @@
                 ]
             }
         ],
-        "subtext": "faire son sac / faire sa valise / faire des bagages légers",
+        "subtext": "faire sa valise / faire des bagages légers",
+        "synonyms": ["faire son sac"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait sa valise",
@@ -3068,7 +3107,8 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "remercier quelqu un / remercier pour / un grand merci",
+        "subtext": "remercier quelqu un / remercier pour",
+        "synonyms": ["un grand merci"],
         "form": "verb",
         "definitions": [
             {
@@ -3131,7 +3171,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "réparer quelque chose / faire réparer / frais de réparation",
+        "subtext": "réparer quelque chose / faire réparer",
+        "synonyms": ["frais de réparation"],
         "form": "verb",
         "definitions": [
             {
@@ -3152,7 +3193,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "que s est-il passé / arriver à quelqu un / ça arrive",
+        "subtext": "que s est-il passé / arriver à quelqu un",
+        "synonyms": ["ça arrive"],
         "form": "verb",
         "definitions": [
             {
@@ -3257,7 +3299,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "développer une entreprise / croître rapidement / se transformer en",
+        "subtext": "croître rapidement",
+        "synonyms": ["développer une entreprise", "se transformer en"],
         "form": "verb",
         "definitions": [
             {
@@ -3278,7 +3321,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "inclure quelque chose / inclure dans / non inclus",
+        "subtext": "inclure quelque chose / inclure dans",
+        "synonyms": ["non inclus"],
         "form": "verb",
         "definitions": [
             {
@@ -3320,7 +3364,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "appartenir à quelqu un / appartenir à / avoir sa place",
+        "subtext": "appartenir à quelqu un / appartenir à",
+        "synonyms": ["avoir sa place"],
         "form": "verb",
         "definitions": [
             {
@@ -3362,7 +3407,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
-        "subtext": "construire une carrière / construire une équipe / instaurer la confiance",
+        "subtext": "construire une carrière / construire une équipe",
+        "synonyms": ["instaurer la confiance"],
         "form": "verb",
         "definitions": [
             {

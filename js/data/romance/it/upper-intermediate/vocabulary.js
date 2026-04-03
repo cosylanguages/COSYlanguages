@@ -114,7 +114,8 @@
         "emoji": "🧗",
         "form": "noun",
         "plural": null,
-        "subtext": "instabilità lavorativa",
+        "subtext": "",
+        "synonyms": ["instabilità lavorativa"],
         "opposite": "stabilità",
         "definitions": [
             {
@@ -133,7 +134,8 @@
         "emoji": "⚖️📉",
         "form": "noun phrase",
         "plural": "divari retributivi",
-        "subtext": "gender pay gap",
+        "subtext": "",
+        "synonyms": ["gender pay gap"],
         "definitions": [
             {
                 "text": "Una differenza nei guadagni medi tra gruppi, specialmente tra uomini e donne.",
@@ -151,7 +153,8 @@
         "emoji": "📦",
         "form": "noun phrase",
         "plural": "pacchetti di licenziamento",
-        "subtext": "buonuscita, indennità",
+        "subtext": "",
+        "synonyms": ["buonuscita", "indennità"],
         "definitions": [
             {
                 "text": "Il denaro e i benefici concessi quando qualcuno perde il lavoro.",
@@ -169,7 +172,8 @@
         "emoji": "💡",
         "form": "noun",
         "plural": null,
-        "subtext": "spirito imprenditoriale",
+        "subtext": "",
+        "synonyms": ["spirito imprenditoriale"],
         "definitions": [
             {
                 "text": "L'attività di avviare e gestire un'azienda.",
@@ -187,7 +191,8 @@
         "emoji": "⚡",
         "form": "noun",
         "plural": null,
-        "subtext": "efficienza, rendimento",
+        "subtext": "",
+        "synonyms": ["efficienza", "rendimento"],
         "definitions": [
             {
                 "text": "Il ritmo con cui vengono prodotti i beni o viene completato il lavoro.",
@@ -205,7 +210,8 @@
         "emoji": "🌐",
         "form": "noun",
         "plural": "esternalizzazioni",
-        "subtext": "outsourcing, subappalto",
+        "subtext": "",
+        "synonyms": ["outsourcing", "subappalto"],
         "definitions": [
             {
                 "text": "Affidare a un'azienda esterna lavori precedentemente svolti internamente.",
@@ -241,7 +247,8 @@
         "emoji": "🏘️📈",
         "form": "noun",
         "plural": null,
-        "subtext": "riqualificazione urbana, imborghesimento",
+        "subtext": "",
+        "synonyms": ["riqualificazione urbana", "imborghesimento"],
         "definitions": [
             {
                 "text": "Processo di trasformazione di un quartiere popolare in zona residenziale di pregio.",
@@ -259,7 +266,8 @@
         "emoji": "🏠💰",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "edilizia convenzionata",
+        "subtext": "",
+        "synonyms": ["edilizia convenzionata"],
         "definitions": [
             {
                 "text": "Abitazioni abbastanza economiche da essere affittate o acquistate da persone a basso reddito.",
@@ -295,7 +303,8 @@
         "emoji": "🏗️",
         "form": "noun",
         "plural": "infrastrutture",
-        "subtext": "infrastrutture di trasporto",
+        "subtext": "",
+        "synonyms": ["infrastrutture di trasporto"],
         "definitions": [
             {
                 "text": "I sistemi fisici di base di un paese, come strade e servizi pubblici.",
@@ -349,7 +358,8 @@
         "emoji": "🗣️",
         "form": "noun",
         "plural": "discorsi",
-        "subtext": "dibattito pubblico",
+        "subtext": "",
+        "synonyms": ["dibattito pubblico"],
         "definitions": [
             {
                 "text": "Comunicazione scritta o parlata su un argomento particolare.",
@@ -367,7 +377,8 @@
         "emoji": "🔍",
         "form": "noun phrase",
         "plural": "esami minuziosi",
-        "subtext": "scrutinio, analisi attenta",
+        "subtext": "",
+        "synonyms": ["scrutinio", "analisi attenta"],
         "definitions": [
             {
                 "text": "Esame attento e accurato di qualcuno o qualcosa.",
@@ -385,7 +396,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": "consensi",
-        "subtext": "accordo generale",
+        "subtext": "",
+        "synonyms": ["accordo generale"],
         "definitions": [
             {
                 "text": "Accordo generale tra un gruppo di persone.",
@@ -403,7 +415,8 @@
         "emoji": "📜",
         "form": "noun",
         "plural": "legislazioni",
-        "subtext": "insieme di leggi",
+        "subtext": "",
+        "synonyms": ["insieme di leggi"],
         "definitions": [
             {
                 "text": "Leggi fatte da un governo.",
@@ -421,7 +434,8 @@
         "emoji": "⚖️❌",
         "form": "noun",
         "plural": "pregiudizi",
-        "subtext": "bias, parzialità",
+        "subtext": "",
+        "synonyms": ["bias", "parzialità"],
         "opposite": "imparzialità",
         "definitions": [
             {
@@ -440,7 +454,8 @@
         "emoji": "⚖️⬆️",
         "form": "noun",
         "plural": null,
-        "subtext": "eccesso di peso",
+        "subtext": "",
+        "synonyms": ["eccesso di peso"],
         "definitions": [
             {
                 "text": "La condizione di essere eccessivamente sovrappeso al punto da danneggiare la salute.",
@@ -495,7 +510,8 @@
         "emoji": "🔄🏢",
         "form": "noun",
         "plural": "riabilitazioni",
-        "subtext": "reintegro sociale, rieducazione",
+        "subtext": "",
+        "synonyms": ["reintegro sociale", "rieducazione"],
         "definitions": [
             {
                 "text": "Il processo per aiutare qualcuno a tornare a una vita normale dopo un crimine o una malattia.",
@@ -550,7 +566,8 @@
         "emoji": "🔒",
         "form": "noun phrase",
         "plural": null,
-        "subtext": "protezione dei dati",
+        "subtext": "",
+        "synonyms": ["protezione dei dati"],
         "definitions": [
             {
                 "text": "Il diritto di controllare il modo in cui le informazioni personali vengono raccolte.",
@@ -602,7 +619,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️",
         "form": "conjunction",
-        "subtext": "laddove",
+        "subtext": "",
+        "synonyms": ["laddove"],
         "definitions": [
             {
                 "text": "In contrasto con il fatto che; mentre al contrario.",
@@ -618,7 +636,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
-        "subtext": "tuttavia, nondimeno",
+        "subtext": "",
+        "synonyms": ["tuttavia", "nondimeno"],
         "definitions": [
             {
                 "text": "Nonostante ciò; malgrado quanto detto.",
@@ -649,7 +668,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🌓",
         "form": "phrase",
-        "subtext": "al contrario, invece",
+        "subtext": "",
+        "synonyms": ["al contrario", "invece"],
         "definitions": [
             {
                 "text": "Usato per mostrare una differenza tra due cose.",

@@ -24,7 +24,8 @@
                 ]
             }
         ],
-        "subtext": "un grand bâtiment / une grande personne / assez grand",
+        "subtext": "un grand bâtiment / assez grand",
+        "synonyms": ["une grande personne"],
         "comparative": "plus grand",
         "superlative": "le plus grand",
         "opposite": "court",
@@ -79,7 +80,8 @@
         "superlative": "le plus jeune",
         "opposite": "vieux",
         "oppositeEmoji": "👴",
-        "subtext": "jeune personne / jeune professionnel / jeune de cœur",
+        "subtext": "",
+        "synonyms": ["jeune personne", "jeune professionnel", "jeune de cœur"],
         "word": "jeune"
     },
     {
@@ -101,7 +103,8 @@
         "emoji": "👴",
         "plural": "vieux",
         "femininePlural": "vieilles",
-        "subtext": "vieil ami / vieilles habitudes / très vieux",
+        "subtext": "très vieux",
+        "synonyms": ["vieil ami", "vieilles habitudes"],
         "comparative": "plus vieux",
         "superlative": "le plus vieux"
     },
@@ -120,7 +123,8 @@
                 ]
             }
         ],
-        "subtext": "journée ensoleillée / temps ensoleillé / éclaircies",
+        "subtext": "temps ensoleillé",
+        "synonyms": ["journée ensoleillée", "éclaircies"],
         "comparative": "plus ensoleillé",
         "superlative": "le plus ensoleillé",
         "feminine": "ensoleillée",
@@ -142,7 +146,8 @@
                 ]
             }
         ],
-        "subtext": "journée pluvieuse / temps pluvieux / saison des pluies",
+        "subtext": "temps pluvieux",
+        "synonyms": ["journée pluvieuse", "saison des pluies"],
         "comparative": "plus pluvieux",
         "superlative": "le plus pluvieux",
         "feminine": "pluvieuse",
@@ -168,7 +173,8 @@
         "feminine": "chaude",
         "plural": "chauds",
         "femininePlural": "chaudes",
-        "subtext": "très chaud / temps chaud / une boisson chaude / trop chaud",
+        "subtext": "très chaud / temps chaud / trop chaud",
+        "synonyms": ["une boisson chaude"],
         "comparative": "plus chaud",
         "superlative": "le plus chaud"
     },
@@ -191,7 +197,8 @@
         "feminine": "froide",
         "plural": "froids",
         "femininePlural": "froides",
-        "subtext": "très froid / matinée froide / temps froid / une boisson froide / trop froid",
+        "subtext": "très froid / temps froid / trop froid",
+        "synonyms": ["matinée froide", "une boisson froide"],
         "comparative": "plus froid",
         "superlative": "le plus froid"
     },
@@ -236,7 +243,8 @@
         "feminine": "bon marché",
         "plural": "bon marché",
         "femininePlural": "bon marché",
-        "subtext": "prix bas, bon marché / vol pas cher / très bon marché / simple et efficace",
+        "subtext": "prix bas, bon marché / très bon marché",
+        "synonyms": ["vol pas cher", "simple et efficace"],
         "comparative": "plus bon marché",
         "superlative": "le plus bon marché"
     },
@@ -259,7 +267,8 @@
         "feminine": "chère",
         "plural": "chers",
         "femininePlural": "chères",
-        "subtext": "coûteux, prix élevé / très cher / goûts de luxe / trop cher",
+        "subtext": "très cher / trop cher",
+        "synonyms": ["coûteux", "prix élevé", "goûts de luxe"],
         "comparative": "plus cher",
         "superlative": "le plus cher"
     },
@@ -282,7 +291,8 @@
         "feminine": "bonne",
         "plural": "bons",
         "femininePlural": "bonnes",
-        "subtext": "génial, agréable / bonne idée / bonne chance / bon rapport qualité-prix",
+        "subtext": "bon rapport qualité-prix",
+        "synonyms": ["génial", "agréable", "bonne idée", "bonne chance"],
         "comparative": "meilleur",
         "superlative": "le meilleur"
     },
@@ -305,7 +315,8 @@
         "feminine": "mauvaise",
         "plural": "mauvais",
         "femininePlural": "mauvaises",
-        "subtext": "terrible, affreux / mauvaises nouvelles / malchance / mauvaise décision",
+        "subtext": "",
+        "synonyms": ["terrible", "affreux", "mauvaises nouvelles", "malchance", "mauvaise décision"],
         "comparative": "pire",
         "superlative": "le pire"
     },
@@ -328,7 +339,8 @@
         "emoji": "🐘",
         "plural": "grands",
         "femininePlural": "grandes",
-        "subtext": "grand, immense / une grande maison / un gros problème / assez grand",
+        "subtext": "grand, immense / assez grand",
+        "synonyms": ["une grande maison", "un gros problème"],
         "comparative": "plus grand",
         "superlative": "le plus grand"
     },
@@ -374,7 +386,8 @@
         "feminine": "facile",
         "plural": "faciles",
         "femininePlural": "faciles",
-        "subtext": "facile à faire / simple comme bonjour / pas facile",
+        "subtext": "facile à faire / pas facile",
+        "synonyms": ["simple comme bonjour"],
         "comparative": "plus facile",
         "superlative": "le plus facile"
     },
@@ -439,7 +452,8 @@
         "feminine": "fatiguée",
         "plural": "fatigués",
         "femininePlural": "fatiguées",
-        "subtext": "somnolent, épuisé / se sentir fatigué / fatigué de quelque chose / très fatigué",
+        "subtext": "se sentir fatigué / fatigué de quelque chose / très fatigué",
+        "synonyms": ["somnolent", "épuisé"],
         "comparative": "plus fatigué",
         "superlative": "le plus fatigué"
     },
@@ -482,7 +496,8 @@
                 ]
             }
         ],
-        "subtext": "travail à temps partiel / emploi à mi-temps / étudiant à temps partiel",
+        "subtext": "travail à temps partiel / étudiant à temps partiel",
+        "synonyms": ["emploi à mi-temps"],
         "comparative": "plus à temps partiel",
         "superlative": "le plus à temps partiel",
         "feminine": "à temps partiel",
@@ -497,7 +512,8 @@
         "form": "adjective",
         "opposite": "sale",
         "oppositeEmoji": "💩",
-        "subtext": "net, impeccable",
+        "subtext": "",
+        "synonyms": ["net", "impeccable"],
         "definitions": [
             {
                 "text": "Exempt de saleté.",
@@ -528,7 +544,8 @@
                 ]
             }
         ],
-        "subtext": "en bonne santé / en forme / régime sain",
+        "subtext": "régime sain",
+        "synonyms": ["en bonne santé", "en forme"],
         "comparative": "plus sain",
         "superlative": "le plus sain",
         "opposite": "unhealthy",
@@ -550,7 +567,8 @@
                 ]
             }
         ],
-        "subtext": "malade / se sentir mal",
+        "subtext": "malade",
+        "synonyms": ["se sentir mal"],
         "comparative": "plus malade",
         "superlative": "le plus malade",
         "opposite": "well",
@@ -618,7 +636,8 @@
                 ]
             }
         ],
-        "subtext": "calme / se sentir détendu",
+        "subtext": "se sentir détendu",
+        "synonyms": ["calme"],
         "comparative": "plus détendu",
         "superlative": "le plus détendu",
         "opposite": "stressé",
@@ -640,7 +659,8 @@
                 ]
             }
         ],
-        "subtext": "anxious",
+        "subtext": "",
+        "synonyms": ["anxious"],
         "comparative": "plus inquiet",
         "superlative": "le plus inquiet",
         "opposite": "calm",
@@ -663,7 +683,8 @@
         "feminine": "occupée",
         "plural": "occupés",
         "femininePlural": "occupées",
-        "subtext": "très occupé / journée chargée / emploi du temps chargé / trop occupé",
+        "subtext": "très occupé / emploi du temps chargé / trop occupé",
+        "synonyms": ["journée chargée"],
         "comparative": "plus occupé",
         "superlative": "le plus occupé"
     },
@@ -683,7 +704,8 @@
                 ]
             }
         ],
-        "subtext": "utile / pratique",
+        "subtext": "utile",
+        "synonyms": ["pratique"],
         "comparative": "plus utile",
         "superlative": "le plus utile",
         "opposite": "inutile",
@@ -695,7 +717,8 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essentiel",
+        "subtext": "",
+        "synonyms": ["essentiel"],
         "definitions": [
             {
                 "text": "Ayant une grande valeur ou un grand effet.",
@@ -842,7 +865,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "sans frais, cadeau",
+        "subtext": "",
+        "synonyms": ["sans frais", "cadeau"],
         "definitions": [
             {
                 "text": "Qui ne coûte pas d'argent.",
@@ -865,7 +889,8 @@
         "form": "adjective",
         "opposite": "fermé",
         "oppositeEmoji": "🔒",
-        "subtext": "libre d'accès",
+        "subtext": "",
+        "synonyms": ["libre d'accès"],
         "definitions": [
             {
                 "text": "Qui n'est pas fermé ; permettant l'entrée.",
@@ -888,7 +913,8 @@
         "form": "adjective",
         "opposite": "ouvert",
         "oppositeEmoji": "📖",
-        "subtext": "clos, non accessible",
+        "subtext": "",
+        "synonyms": ["clos", "non accessible"],
         "definitions": [
             {
                 "text": "Qui n'est pas ouvert ; clos.",
@@ -920,7 +946,8 @@
                 ]
             }
         ],
-        "subtext": "une grande ville / une grande entreprise / une grande quantité",
+        "subtext": "",
+        "synonyms": ["une grande ville", "une grande entreprise", "une grande quantité"],
         "comparative": "plus grand",
         "superlative": "le plus grand"
     },
@@ -941,7 +968,8 @@
                 ]
             }
         ],
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "",
+        "synonyms": ["a little bit", "a little money", "too little"],
         "comparative": "plus petit",
         "superlative": "le plus petit"
     },
@@ -962,7 +990,8 @@
                 ]
             }
         ],
-        "subtext": "un long voyage / une longue journée / une longue durée",
+        "subtext": "un long voyage",
+        "synonyms": ["une longue journée", "une longue durée"],
         "comparative": "plus long",
         "superlative": "le plus long"
     },
@@ -983,7 +1012,8 @@
                 ]
             }
         ],
-        "subtext": "high price / high rent / high quality",
+        "subtext": "",
+        "synonyms": ["high price", "high rent", "high quality"],
         "comparative": "plus haut",
         "superlative": "le plus haut"
     },
@@ -1004,7 +1034,8 @@
                 ]
             }
         ],
-        "subtext": "low price / low salary / low quality",
+        "subtext": "",
+        "synonyms": ["low price", "low salary", "low quality"],
         "comparative": "plus bas",
         "superlative": "le plus bas"
     },
@@ -1025,7 +1056,8 @@
                 ]
             }
         ],
-        "subtext": "plein temps / une journée complète / plein de monde",
+        "subtext": "plein temps / plein de monde",
+        "synonyms": ["une journée complète"],
         "comparative": "plus plein",
         "superlative": "le plus plein"
     },
@@ -1067,7 +1099,8 @@
                 ]
             }
         ],
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "",
+        "synonyms": ["warm weather", "a warm welcome", "keep warm"],
         "comparative": "plus tiède",
         "superlative": "le plus tiède"
     },
@@ -1088,7 +1121,8 @@
                 ]
             }
         ],
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "",
+        "synonyms": ["cool weather", "a cool drink", "stay cool"],
         "comparative": "plus frais",
         "superlative": "le plus frais"
     },
@@ -1109,7 +1143,8 @@
                 ]
             }
         ],
-        "subtext": "wet weather / wet clothes / get wet",
+        "subtext": "",
+        "synonyms": ["wet weather", "wet clothes", "get wet"],
         "comparative": "plus mouillé",
         "superlative": "le plus mouillé"
     },
@@ -1130,7 +1165,8 @@
                 ]
             }
         ],
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "",
+        "synonyms": ["dry weather", "dry skin", "keep dry"],
         "comparative": "plus sec",
         "superlative": "le plus sec"
     },
@@ -1151,7 +1187,8 @@
                 ]
             }
         ],
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "",
+        "synonyms": ["dirty hands", "dirty clothes", "get dirty"],
         "comparative": "plus sale",
         "superlative": "le plus sale"
     },
@@ -1172,7 +1209,8 @@
                 ]
             }
         ],
-        "subtext": "travail difficile / une décision difficile / trop difficile",
+        "subtext": "",
+        "synonyms": ["travail difficile", "une décision difficile", "trop difficile"],
         "comparative": "plus dur",
         "superlative": "le plus dur"
     },
@@ -1193,7 +1231,8 @@
                 ]
             }
         ],
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "",
+        "synonyms": ["soft light", "soft music", "soft skills"],
         "comparative": "plus doux",
         "superlative": "le plus doux"
     },
@@ -1214,7 +1253,8 @@
                 ]
             }
         ],
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "",
+        "synonyms": ["heavy traffic", "heavy rain", "too heavy"],
         "comparative": "plus lourd",
         "superlative": "le plus lourd"
     },
@@ -1235,7 +1275,8 @@
                 ]
             }
         ],
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "",
+        "synonyms": ["light rain", "light traffic", "a light meal"],
         "comparative": "plus léger",
         "superlative": "le plus léger"
     },
@@ -1256,7 +1297,8 @@
                 ]
             }
         ],
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "",
+        "synonyms": ["dark brown", "light brown", "brown bread"],
         "comparative": "plus brun",
         "superlative": "le plus brun"
     },
@@ -1277,7 +1319,8 @@
                 ]
             }
         ],
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "",
+        "synonyms": ["grey area", "grey sky", "pale grey"],
         "comparative": "plus gris",
         "superlative": "le plus gris"
     },
@@ -1298,7 +1341,8 @@
                 ]
             }
         ],
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "",
+        "synonyms": ["light pink", "bright pink", "hot pink"],
         "comparative": "plus rose",
         "superlative": "le plus rose"
     },
@@ -1340,7 +1384,8 @@
                 ]
             }
         ],
-        "subtext": "une excellente idée / une excellente opportunité / excellente valeur",
+        "subtext": "",
+        "synonyms": ["une excellente idée", "une excellente opportunité", "excellente valeur"],
         "comparative": "plus génial",
         "superlative": "le plus génial"
     },
@@ -1361,7 +1406,8 @@
                 ]
             }
         ],
-        "subtext": "une belle journée / un bel endroit / une personne sympa",
+        "subtext": "une personne sympa",
+        "synonyms": ["une belle journée", "un bel endroit"],
         "comparative": "plus sympa",
         "superlative": "le plus sympa"
     },
@@ -1382,7 +1428,8 @@
                 ]
             }
         ],
-        "subtext": "une opportunité merveilleuse / un moment merveilleux",
+        "subtext": "un moment merveilleux",
+        "synonyms": ["une opportunité merveilleuse"],
         "comparative": "plus merveilleux",
         "superlative": "le plus merveilleux"
     },
@@ -1424,7 +1471,8 @@
                 ]
             }
         ],
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "",
+        "synonyms": ["awful weather", "awful news", "simply awful"],
         "comparative": "plus affreux",
         "superlative": "le plus affreux"
     },
@@ -1445,7 +1493,8 @@
                 ]
             }
         ],
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "",
+        "synonyms": ["an amazing result", "an amazing offer", "truly amazing"],
         "comparative": "plus incroyable",
         "superlative": "le plus incroyable"
     },
@@ -1466,7 +1515,8 @@
                 ]
             }
         ],
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "",
+        "synonyms": ["fantastic news", "a fantastic opportunity", "truly fantastic"],
         "comparative": "plus fantastique",
         "superlative": "le plus fantastique"
     },
@@ -1508,7 +1558,8 @@
                 ]
             }
         ],
-        "subtext": "avoir faim / très faim / rester sur sa faim",
+        "subtext": "rester sur sa faim",
+        "synonyms": ["avoir faim", "très faim"],
         "comparative": "plus affamé",
         "superlative": "le plus affamé"
     },
@@ -1529,7 +1580,8 @@
                 ]
             }
         ],
-        "subtext": "se sentir en colère / fâché contre quelqu'un / très en colère",
+        "subtext": "se sentir en colère / fâché contre quelqu'un",
+        "synonyms": ["très en colère"],
         "comparative": "plus fâché",
         "superlative": "le plus fâché"
     },
@@ -1550,7 +1602,8 @@
                 ]
             }
         ],
-        "subtext": "s'ennuyer / s'ennuyer de / s'ennuie facilement",
+        "subtext": "",
+        "synonyms": ["s'ennuyer", "s'ennuyer de", "s'ennuie facilement"],
         "comparative": "plus ennuyé",
         "superlative": "le plus ennuyé"
     },
@@ -1592,7 +1645,8 @@
                 ]
             }
         ],
-        "subtext": "peur de / avoir peur / profondément effrayé",
+        "subtext": "profondément effrayé",
+        "synonyms": ["peur de", "avoir peur"],
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
     },
@@ -1634,7 +1688,8 @@
                 ]
             }
         ],
-        "subtext": "bonne réponse / bon moment / tout à fait raison",
+        "subtext": "tout à fait raison",
+        "synonyms": ["bonne réponse", "bon moment"],
         "comparative": "plus correct",
         "superlative": "le plus correct"
     },
@@ -1655,7 +1710,8 @@
                 ]
             }
         ],
-        "subtext": "mauvaise réponse / se tromper / complètement faux",
+        "subtext": "",
+        "synonyms": ["mauvaise réponse", "se tromper", "complètement faux"],
         "comparative": "pire",
         "superlative": "le pire"
     },
@@ -1802,7 +1858,8 @@
                 ]
             }
         ],
-        "subtext": "bruit fort / trop fort / une voix forte",
+        "subtext": "",
+        "synonyms": ["bruit fort", "trop fort", "une voix forte"],
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant"
     },
@@ -1823,7 +1880,8 @@
                 ]
             }
         ],
-        "subtext": "zone sûre / sûr à faire / se sentir en sécurité",
+        "subtext": "sûr à faire / se sentir en sécurité",
+        "synonyms": ["zone sûre"],
         "comparative": "plus sûr",
         "superlative": "le plus sûr"
     },
@@ -1844,7 +1902,8 @@
                 ]
             }
         ],
-        "subtext": "situation dangereuse / très dangereux / potentiellement dangereux",
+        "subtext": "très dangereux / potentiellement dangereux",
+        "synonyms": ["situation dangereuse"],
         "comparative": "plus dangereux",
         "superlative": "le plus dangereux"
     },
@@ -1924,7 +1983,8 @@
                 ]
             }
         ],
-        "subtext": "se sentir confiant / confiance en soi / très confiant",
+        "subtext": "se sentir confiant / très confiant",
+        "synonyms": ["confiance en soi"],
         "comparative": "plus confiant",
         "superlative": "le plus confiant"
     },
@@ -1964,7 +2024,8 @@
                 ]
             }
         ],
-        "subtext": "avoir peur / peur de / très effrayé",
+        "subtext": "très effrayé",
+        "synonyms": ["avoir peur", "peur de"],
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
     },
@@ -2024,7 +2085,8 @@
                 ]
             }
         ],
-        "subtext": "belle vue / belle ville / absolument magnifique",
+        "subtext": "",
+        "synonyms": ["belle vue", "belle ville", "absolument magnifique"],
         "comparative": "plus beau",
         "superlative": "le plus beau"
     },
@@ -2044,7 +2106,8 @@
                 ]
             }
         ],
-        "subtext": "assez bien / un bel endroit / assez joli",
+        "subtext": "assez joli",
+        "synonyms": ["assez bien", "un bel endroit"],
         "comparative": "plus joli",
         "superlative": "le plus joli"
     },
@@ -2064,7 +2127,8 @@
                 ]
             }
         ],
-        "subtext": "café fort / opinion tranchée / très fort",
+        "subtext": "café fort / très fort",
+        "synonyms": ["opinion tranchée"],
         "comparative": "plus fort",
         "superlative": "le plus fort"
     },
@@ -2104,7 +2168,8 @@
                 ]
             }
         ],
-        "subtext": "en bonne forme physique / rester en forme / garder la forme",
+        "subtext": "en bonne forme physique / rester en forme",
+        "synonyms": ["garder la forme"],
         "comparative": "plus en forme",
         "superlative": "le plus en forme"
     },
@@ -2144,7 +2209,8 @@
                 ]
             }
         ],
-        "subtext": "une occasion parfaite / moment parfait / absolument parfait",
+        "subtext": "moment parfait / absolument parfait",
+        "synonyms": ["une occasion parfaite"],
         "comparative": "plus parfait",
         "superlative": "le plus parfait"
     },
@@ -2184,7 +2250,8 @@
                 ]
             }
         ],
-        "subtext": "bonne réponse / la bonne manière / tout à fait exact",
+        "subtext": "tout à fait exact",
+        "synonyms": ["bonne réponse", "la bonne manière"],
         "comparative": "plus correct",
         "superlative": "le plus correct"
     },
@@ -2204,7 +2271,8 @@
                 ]
             }
         ],
-        "subtext": "trouver intéressant / très intéressant / une idée intéressante",
+        "subtext": "trouver intéressant / très intéressant",
+        "synonyms": ["une idée intéressante"],
         "comparative": "plus intéressant",
         "superlative": "le plus intéressant"
     },
@@ -2224,7 +2292,8 @@
                 ]
             }
         ],
-        "subtext": "très ennuyeux / une réunion ennuyeuse / trouver ennuyeux",
+        "subtext": "très ennuyeux / trouver ennuyeux",
+        "synonyms": ["une réunion ennuyeuse"],
         "comparative": "plus ennuyeux",
         "superlative": "le plus ennuyeux"
     },
@@ -2304,7 +2373,8 @@
                 ]
             }
         ],
-        "subtext": "une offre spéciale / occasion spéciale / très spécial",
+        "subtext": "très spécial",
+        "synonyms": ["une offre spéciale", "occasion spéciale"],
         "comparative": "plus spécial",
         "superlative": "le plus spécial"
     },
@@ -2344,7 +2414,8 @@
                 ]
             }
         ],
-        "subtext": "très similaire / semblable à / résultats similaires",
+        "subtext": "très similaire / résultats similaires",
+        "synonyms": ["semblable à"],
         "comparative": "plus similaire",
         "superlative": "le plus similaire"
     },
@@ -2364,7 +2435,8 @@
                 ]
             }
         ],
-        "subtext": "très amical / un visage amical / atmosphère amicale",
+        "subtext": "très amical / un visage amical",
+        "synonyms": ["atmosphère amicale"],
         "comparative": "plus amical",
         "superlative": "le plus amical"
     },
@@ -2384,7 +2456,8 @@
                 ]
             }
         ],
-        "subtext": "très gentil / gentil de votre part / une personne gentille",
+        "subtext": "très gentil / gentil de votre part",
+        "synonyms": ["une personne gentille"],
         "comparative": "plus gentil",
         "superlative": "le plus gentil"
     },
@@ -2424,7 +2497,8 @@
                 ]
             }
         ],
-        "subtext": "très intelligent / une idée intelligente / assez malin",
+        "subtext": "très intelligent",
+        "synonyms": ["une idée intelligente", "assez malin"],
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent"
     },
@@ -2444,7 +2518,8 @@
                 ]
             }
         ],
-        "subtext": "très poli / demande polie / assez poli",
+        "subtext": "très poli / assez poli",
+        "synonyms": ["demande polie"],
         "comparative": "plus poli",
         "superlative": "le plus poli"
     },
@@ -2484,7 +2559,8 @@
                 ]
             }
         ],
-        "subtext": "très paresseux / une approche paresseuse / trop paresseux",
+        "subtext": "très paresseux / trop paresseux",
+        "synonyms": ["une approche paresseuse"],
         "comparative": "plus paresseux",
         "superlative": "le plus paresseux"
     },

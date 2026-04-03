@@ -123,7 +123,8 @@
                 ]
             }
         ],
-        "subtext": "წვიმიანი დღე / წვიმიანი ამინდი / წვიმების სეზონი",
+        "subtext": "წვიმიანი დღე / წვიმიანი ამინდი",
+        "synonyms": ["წვიმების სეზონი"],
         "comparative": "უფრო წვიმიანი",
         "superlative": "ყველაზე წვიმიანი",
         "feminine": null,
@@ -203,7 +204,8 @@
         "form": "adjective",
         "opposite": "ძვირი",
         "oppositeEmoji": "💎",
-        "subtext": "დაბალი ფასი / იაფი ფრენა / ძალიან იაფი",
+        "subtext": "იაფი ფრენა / ძალიან იაფი",
+        "synonyms": ["დაბალი ფასი"],
         "definitions": [
             {
                 "text": "ცოტა ფული რომ ღირს:",
@@ -249,7 +251,8 @@
         "form": "adjective",
         "opposite": "ცუდი",
         "oppositeEmoji": "👎",
-        "subtext": "დიდებული / კარგი იდეა / წარმატება / კარგი ფასი",
+        "subtext": "კარგი იდეა / კარგი ფასი",
+        "synonyms": ["დიდებული", "წარმატება"],
         "definitions": [
             {
                 "text": "მაღალი ხარისხის ან სასიამოვნო:",
@@ -272,7 +275,8 @@
         "form": "adjective",
         "opposite": "კარგი",
         "oppositeEmoji": "👍",
-        "subtext": "საშინელი / ცუდი ამბები / უიღბლობა / ცუდი გადაწყვეტილება",
+        "subtext": "ცუდი ამბები / ცუდი გადაწყვეტილება",
+        "synonyms": ["საშინელი", "უიღბლობა"],
         "definitions": [
             {
                 "text": "არა კარგი, დაბალი ხარისხის:",
@@ -349,7 +353,8 @@
                 ]
             }
         ],
-        "subtext": "ადვილად გასაკეთებელი / ძალიან ადვილი / არ არის ადვილი",
+        "subtext": "ძალიან ადვილი / არ არის ადვილი",
+        "synonyms": ["ადვილად გასაკეთებელი"],
         "comparative": "უფრო ადვილი",
         "superlative": "ყველაზე ადვილი",
         "feminine": null,
@@ -372,7 +377,8 @@
                 ]
             }
         ],
-        "subtext": "რთულად გასაკეთებელი / ძალიან რთული",
+        "subtext": "ძალიან რთული",
+        "synonyms": ["რთულად გასაკეთებელი"],
         "comparative": "უფრო რთული",
         "superlative": "ყველაზე რთული",
         "feminine": null,
@@ -385,7 +391,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "ბედნიერი / ბედნიერად ყოფნა / ბედნიერი დღე",
+        "subtext": "ბედნიერი / ბედნიერი დღე",
+        "synonyms": ["ბედნიერად ყოფნა"],
         "definitions": [
             {
                 "text": "სიხარულის ან კმაყოფილების განცდა:",
@@ -406,7 +413,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "მძინარე / დაღლილად ყოფნა / ძალიან დაღლილი",
+        "subtext": "ძალიან დაღლილი",
+        "synonyms": ["მძინარე", "დაღლილად ყოფნა"],
         "definitions": [
             {
                 "text": "დასვენების საჭიროების მქონე:",
@@ -437,7 +445,8 @@
                 ]
             }
         ],
-        "subtext": "სრული განაკვეთით მუშაობა",
+        "subtext": "",
+        "synonyms": ["სრული განაკვეთით მუშაობა"],
         "comparative": null,
         "superlative": null
     },
@@ -457,7 +466,8 @@
                 ]
             }
         ],
-        "subtext": "ნახევარი განაკვეთით მუშაობა",
+        "subtext": "",
+        "synonyms": ["ნახევარი განაკვეთით მუშაობა"],
         "comparative": null,
         "superlative": null
     },
@@ -469,7 +479,8 @@
         "form": "adjective",
         "opposite": "ჭუჭყიანი",
         "oppositeEmoji": "💩",
-        "subtext": "სუფთა ტანსაცმელი / სუფთა ოთახი / სისუფთავის დაცვა",
+        "subtext": "სუფთა ტანსაცმელი / სუფთა ოთახი",
+        "synonyms": ["სისუფთავის დაცვა"],
         "definitions": [
             {
                 "text": "ჭუჭყის გარეშე:",
@@ -515,7 +526,8 @@
         "form": "adjective",
         "opposite": "ჯანმრთელი",
         "oppositeEmoji": "💪",
-        "subtext": "ავადმყოფად ყოფნა",
+        "subtext": "",
+        "synonyms": ["ავადმყოფად ყოფნა"],
         "definitions": [
             {
                 "text": "არა ჯანსაღი; ავადმყოფი:",
@@ -575,7 +587,8 @@
         "form": "adjective",
         "opposite": "დასტრესილი",
         "oppositeEmoji": "😫",
-        "subtext": "წყნარად ყოფნა / მოდუნებული",
+        "subtext": "მოდუნებული",
+        "synonyms": ["წყნარად ყოფნა"],
         "definitions": [
             {
                 "text": "წყნარი; არა შეშფოთებული ან დასტრესილი:",
@@ -595,7 +608,8 @@
         "form": "adjective",
         "opposite": "წყნარი",
         "oppositeEmoji": "😌",
-        "subtext": "შეშფოთება",
+        "subtext": "",
+        "synonyms": ["შეშფოთება"],
         "definitions": [
             {
                 "text": "შეშფოთების განცდა რაღაცის გამო:",
@@ -613,7 +627,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "დაკავებული დღე / დატვირთული გრაფიკი",
+        "subtext": "დაკავებული დღე",
+        "synonyms": ["დატვირთული გრაფიკი"],
         "definitions": [
             {
                 "text": "ბევრი საქმის მქონე:",
@@ -636,7 +651,8 @@
         "form": "adjective",
         "opposite": "უსარგებლო",
         "oppositeEmoji": "🗑️",
-        "subtext": "პრაქტიკული / სასარგებლო ყოფნა",
+        "subtext": "სასარგებლო ყოფნა",
+        "synonyms": ["პრაქტიკული"],
         "definitions": [
             {
                 "text": "სარგებლის მომტანი:",
@@ -822,7 +838,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "თავისუფალი დრო / უფასო",
+        "subtext": "თავისუფალი დრო",
+        "synonyms": ["უფასო"],
         "definitions": [
             {
                 "text": "არა დაკავებული ან უფასო:",
@@ -845,7 +862,8 @@
         "form": "adjective",
         "opposite": "დაკეტილი",
         "oppositeEmoji": "🔒",
-        "subtext": "ღია კარი / ღიაა ბიზნესისთვის",
+        "subtext": "ღია კარი",
+        "synonyms": ["ღიაა ბიზნესისთვის"],
         "definitions": [
             {
                 "text": "არა დაკეტილი:",
@@ -868,7 +886,8 @@
         "form": "adjective",
         "opposite": "ღია",
         "oppositeEmoji": "📖",
-        "subtext": "დაკეტილია ლანჩისთვის / დაკეტილი კარი",
+        "subtext": "დაკეტილი კარი",
+        "synonyms": ["დაკეტილია ლანჩისთვის"],
         "definitions": [
             {
                 "text": "არა ღია:",
@@ -904,7 +923,8 @@
         "word": "პატარა",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ცოტაოდენი / ცოტა ფული",
+        "subtext": "",
+        "synonyms": ["ცოტაოდენი", "ცოტა ფული"],
         "definitions": [
             {
                 "text": "პატარა ზომის; მცირე რაოდენობით:",
@@ -975,7 +995,8 @@
         "word": "სავსე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "სრული დღე / ხალხით სავსე",
+        "subtext": "ხალხით სავსე",
+        "synonyms": ["სრული დღე"],
         "definitions": [
             {
                 "text": "როდესაც ადგილი აღარ არის:",
@@ -1032,7 +1053,8 @@
         "word": "გრილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "გრილი სასმელი / სიგრილის შენარჩუნება",
+        "subtext": "გრილი სასმელი",
+        "synonyms": ["სიგრილის შენარჩუნება"],
         "definitions": [
             {
                 "text": "ოდნავ ცივი; სასიამოვნო დაბალი ტემპერატურა:",
@@ -1109,7 +1131,8 @@
         "word": "მაგარი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "რთული სამუშაო / რთული გადაწყვეტილება",
+        "subtext": "",
+        "synonyms": ["რთული სამუშაო", "რთული გადაწყვეტილება"],
         "definitions": [
             {
                 "text": "არა რბილი:",
@@ -1149,7 +1172,8 @@
         "word": "მძიმე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "მძიმე ტრაფიკი / ძლიერი წვიმა",
+        "subtext": "მძიმე ტრაფიკი",
+        "synonyms": ["ძლიერი წვიმა"],
         "definitions": [
             {
                 "text": "დიდი წონის მქონე:",
@@ -1376,7 +1400,8 @@
         "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "მოწყენილად ყოფნა / სევდიანი სიტუაცია",
+        "subtext": "",
+        "synonyms": ["მოწყენილად ყოფნა", "სევდიანი სიტუაცია"],
         "definitions": [
             {
                 "text": "არა ბედნიერი, ხშირად ცუდი ამბის გამო:",
@@ -1416,7 +1441,8 @@
         "word": "გაბრაზებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "გაბრაზებული ყოფნა / ვინმეზე გაბრაზება",
+        "subtext": "გაბრაზებული ყოფნა",
+        "synonyms": ["ვინმეზე გაბრაზება"],
         "definitions": [
             {
                 "text": "რისხვის განცდა:",
@@ -1436,7 +1462,8 @@
         "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "მოწყენილად ყოფნა",
+        "subtext": "",
+        "synonyms": ["მოწყენილად ყოფნა"],
         "definitions": [
             {
                 "text": "ინტერესის არმქონე:",
@@ -1470,7 +1497,8 @@
         "word": "შეშინებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "რაღაცის შიში",
+        "subtext": "",
+        "synonyms": ["რაღაცის შიში"],
         "definitions": [
             {
                 "text": "შიშის განცდა:",
@@ -1487,7 +1515,8 @@
         "word": "მწუხარე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "წუხილი რაღაცის გამო",
+        "subtext": "",
+        "synonyms": ["წუხილი რაღაცის გამო"],
         "definitions": [
             {
                 "text": "სინანულის ან სევდის განცდა:",
@@ -1641,7 +1670,8 @@
         "word": "წყნარი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "წყნარი ადგილი / სიწყნარის შენარჩუნება",
+        "subtext": "წყნარი ადგილი",
+        "synonyms": ["სიწყნარის შენარჩუნება"],
         "definitions": [
             {
                 "text": "ხმაურის გარეშე:",
@@ -1681,7 +1711,8 @@
         "word": "უსაფრთხო",
         "level": "starter",
         "form": "adjective",
-        "subtext": "უსაფრთხო ადგილი / უსაფრთხოდ ყოფნა",
+        "subtext": "უსაფრთხო ადგილი",
+        "synonyms": ["უსაფრთხოდ ყოფნა"],
         "definitions": [
             {
                 "text": "საფრთხისგან შორს:",
@@ -1730,7 +1761,8 @@
                 ]
             }
         ],
-        "subtext": "უბედურად ყოფნა / ძალიან უბედური",
+        "subtext": "ძალიან უბედური",
+        "synonyms": ["უბედურად ყოფნა"],
         "comparative": null,
          "superlative": null
     },
@@ -1747,7 +1779,8 @@
                 ]
             }
         ],
-        "subtext": "ნერვიულად ყოფნა / ძალიან ნერვიული",
+        "subtext": "ძალიან ნერვიული",
+        "synonyms": ["ნერვიულად ყოფნა"],
         "comparative": "უფრო ნერვიული",
         "superlative": "ყველაზე ნერვიული",
         "feminine": null,
@@ -1767,7 +1800,8 @@
                 ]
             }
         ],
-        "subtext": "დაძაბულად ყოფნა / ძალიან დასტრესილი",
+        "subtext": "ძალიან დასტრესილი",
+        "synonyms": ["დაძაბულად ყოფნა"],
         "comparative": null,
          "superlative": null
     },
@@ -1784,7 +1818,8 @@
                 ]
             }
         ],
-        "subtext": "თავდაჯერებულად ყოფნა / ძალიან თავდაჯერებული",
+        "subtext": "ძალიან თავდაჯერებული",
+        "synonyms": ["თავდაჯერებულად ყოფნა"],
         "comparative": null,
          "superlative": null
     },
@@ -1801,7 +1836,8 @@
                 ]
             }
         ],
-        "subtext": "ამაყად ყოფნა / ძალიან ამაყი",
+        "subtext": "ძალიან ამაყი",
+        "synonyms": ["ამაყად ყოფნა"],
         "comparative": "უფრო ამაყი",
         "superlative": "ყველაზე ამაყი",
         "feminine": null,
@@ -1821,7 +1857,8 @@
                 ]
             }
         ],
-        "subtext": "შეშინებულად ყოფნა / ძალიან შეშინებული",
+        "subtext": "ძალიან შეშინებული",
+        "synonyms": ["შეშინებულად ყოფნა"],
         "comparative": "უფრო შეშინებული",
         "superlative": "ყველაზე შეშინებული",
         "feminine": null,
@@ -1841,7 +1878,8 @@
                 ]
             }
         ],
-        "subtext": "გაკვირვებულად ყოფნა / ძალიან გაკვირვებული",
+        "subtext": "ძალიან გაკვირვებული",
+        "synonyms": ["გაკვირვებულად ყოფნა"],
         "comparative": null,
          "superlative": null
     },
@@ -1858,7 +1896,8 @@
                 ]
             }
         ],
-        "subtext": "იმედგაცრუებულად ყოფნა / ძალიან იმედგაცრუებული",
+        "subtext": "ძალიან იმედგაცრუებული",
+        "synonyms": ["იმედგაცრუებულად ყოფნა"],
         "comparative": null,
          "superlative": null
     },
@@ -1895,7 +1934,8 @@
                 ]
             }
         ],
-        "subtext": "საკმაოდ კარგი / ლამაზი ადგილი",
+        "subtext": "ლამაზი ადგილი",
+        "synonyms": ["საკმაოდ კარგი"],
         "comparative": null,
          "superlative": null
     },
@@ -1952,7 +1992,8 @@
                 ]
             }
         ],
-        "subtext": "ფიზიკურად კარგ ფორმაში / ფორმის შენარჩუნება",
+        "subtext": "ფიზიკურად კარგ ფორმაში",
+        "synonyms": ["ფორმის შენარჩუნება"],
         "comparative": null,
          "superlative": null
     },
@@ -2046,7 +2087,8 @@
                 ]
             }
         ],
-        "subtext": "საინტერესოდ მიჩნევა / ძალიან საინტერესო",
+        "subtext": "ძალიან საინტერესო",
+        "synonyms": ["საინტერესოდ მიჩნევა"],
         "comparative": "უფრო საინტერესო",
         "superlative": "ყველაზე საინტერესო",
         "feminine": null,
@@ -2086,7 +2128,8 @@
                 ]
             }
         ],
-        "subtext": "აბსოლუტურად საჭირო / თუ საჭიროა",
+        "subtext": "აბსოლუტურად საჭირო",
+        "synonyms": ["თუ საჭიროა"],
         "comparative": null,
          "superlative": null
     },
@@ -2103,7 +2146,8 @@
                 ]
             }
         ],
-        "subtext": "რაც შეიძლება მალე / შესაძლებელია",
+        "subtext": "",
+        "synonyms": ["რაც შეიძლება მალე", "შესაძლებელია"],
         "comparative": "უფრო შესაძლებელი",
         "superlative": "ყველაზე შესაძლებელი",
         "feminine": null,
@@ -2123,7 +2167,8 @@
                 ]
             }
         ],
-        "subtext": "თითქმის შეუძლებელი / შეუძლებლის გაკეთება",
+        "subtext": "თითქმის შეუძლებელი",
+        "synonyms": ["შეუძლებლის გაკეთება"],
         "comparative": "უფრო შეუძლებელი",
         "superlative": "ყველაზე შეუძლებელი",
         "feminine": null,
@@ -2214,7 +2259,8 @@
                 ]
             }
         ],
-        "subtext": "ძალიან კეთილი / კეთილია თქვენი მხრიდან",
+        "subtext": "ძალიან კეთილი",
+        "synonyms": ["კეთილია თქვენი მხრიდან"],
         "comparative": "უფრო კეთილი",
         "superlative": "ყველაზე კეთილი",
         "feminine": null,
@@ -2254,7 +2300,8 @@
                 ]
             }
         ],
-        "subtext": "ძალიან ჭკვიანი / ჭკვიანური იდეა",
+        "subtext": "ძალიან ჭკვიანი",
+        "synonyms": ["ჭკვიანური იდეა"],
         "comparative": "უფრო ჭკვიანი",
         "superlative": "ყველაზე ჭკვიანი",
         "feminine": null,
@@ -2314,7 +2361,8 @@
                 ]
             }
         ],
-        "subtext": "ძალიან ზარმაცი / ზარმაცული მიდგომა",
+        "subtext": "ძალიან ზარმაცი",
+        "synonyms": ["ზარმაცული მიდგომა"],
         "comparative": "უფრო ზარმაცი",
         "superlative": "ყველაზე ზარმაცი",
         "feminine": null,

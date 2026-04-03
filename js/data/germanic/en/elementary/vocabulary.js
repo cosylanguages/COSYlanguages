@@ -14,7 +14,8 @@
             ]
         }
     ],
-    "subtext": "overseas / travel abroad"
+    "subtext": "travel abroad",
+    "synonyms": ["overseas"]
 },
 {
     "word": "account",
@@ -48,7 +49,8 @@
             ]
         }
     ],
-    "subtext": "success / accomplishment",
+    "subtext": "",
+    "synonyms": ["success", "accomplishment"],
     "countability": "countable"
 },
 {
@@ -65,7 +67,8 @@
             ]
         }
     ],
-    "subtext": "math process",
+    "subtext": "",
+    "synonyms": ["math process"],
     "countability": "uncountable"
 },
 {
@@ -82,7 +85,8 @@
             ]
         }
     ],
-    "subtext": "benefit / plus point",
+    "subtext": "",
+    "synonyms": ["benefit", "plus point"],
     "countability": "countable",
     "opposite": "disadvantage"
 },
@@ -101,7 +105,8 @@
             ]
         }
     ],
-    "subtext": "ad / commercial",
+    "subtext": "",
+    "synonyms": ["ad", "commercial"],
     "countability": "countable"
 },
 {
@@ -118,7 +123,8 @@
             ]
         }
     ],
-    "subtext": "deal / pact",
+    "subtext": "",
+    "synonyms": ["deal", "pact"],
     "countability": "countable",
     "opposite": "disagreement"
 },
@@ -190,7 +196,8 @@
             ]
         }
     ],
-    "subtext": "creative work",
+    "subtext": "",
+    "synonyms": ["creative work"],
     "countability": "uncountable"
 },
 {
@@ -208,7 +215,8 @@
             ]
         }
     ],
-    "subtext": "news story / report",
+    "subtext": "",
+    "synonyms": ["news story", "report"],
     "countability": "countable"
 },
 {
@@ -243,7 +251,8 @@
             ]
         }
     ],
-    "subtext": "air / sky",
+    "subtext": "",
+    "synonyms": ["air", "sky"],
     "countability": "uncountable"
 },
 {
@@ -278,7 +287,8 @@
             ]
         }
     ],
-    "subtext": "advantage / helpful effect",
+    "subtext": "",
+    "synonyms": ["advantage", "helpful effect"],
     "countability": "countable"
 },
 {
@@ -313,7 +323,8 @@
             ]
         }
     ],
-    "subtext": "variety of life",
+    "subtext": "",
+    "synonyms": ["variety of life"],
     "countability": "uncountable"
 },
 {
@@ -330,7 +341,8 @@
             ]
         }
     ],
-    "subtext": "science subject",
+    "subtext": "",
+    "synonyms": ["science subject"],
     "countability": "uncountable"
 },
 {
@@ -347,7 +359,8 @@
             ]
         }
     ],
-    "subtext": "body liquid",
+    "subtext": "",
+    "synonyms": ["body liquid"],
     "countability": "uncountable"
 },
 {
@@ -365,7 +378,8 @@
             ]
         }
     ],
-    "subtext": "flight ticket / travel document",
+    "subtext": "",
+    "synonyms": ["flight ticket", "travel document"],
     "countability": "countable"
 },
 {
@@ -383,7 +397,8 @@
             ]
         }
     ],
-    "subtext": "body part",
+    "subtext": "",
+    "synonyms": ["body part"],
     "countability": "countable"
 },
 {
@@ -401,7 +416,8 @@
             ]
         }
     ],
-    "subtext": "boundary / frontier",
+    "subtext": "",
+    "synonyms": ["boundary", "frontier"],
     "countability": "countable"
 },
 {
@@ -419,7 +435,8 @@
             ]
         }
     ],
-    "subtext": "mind organ",
+    "subtext": "",
+    "synonyms": ["mind organ"],
     "countability": "countable"
 },
 {
@@ -437,7 +454,8 @@
             ]
         }
     ],
-    "subtext": "web program",
+    "subtext": "",
+    "synonyms": ["web program"],
     "countability": "countable"
 },
 {
@@ -455,7 +473,8 @@
             ]
         }
     ],
-    "subtext": "financial plan / monthly budget",
+    "subtext": "monthly budget",
+    "synonyms": ["financial plan"],
     "countability": "countable"
 },
 {
@@ -480,7 +499,8 @@
             ]
         }
     ],
-    "subtext": "hamburger / fast food",
+    "subtext": "",
+    "synonyms": ["hamburger", "fast food"],
     "countability": "countable"
 },
 {
@@ -497,7 +517,8 @@
             ]
         }
     ],
-    "subtext": "math tool",
+    "subtext": "",
+    "synonyms": ["math tool"],
     "countability": "countable"
 },
 {
@@ -515,7 +536,8 @@
             ]
         }
     ],
-    "subtext": "person in election",
+    "subtext": "",
+    "synonyms": ["person in election"],
     "countability": "countable"
 },
 {
@@ -533,7 +555,8 @@
             ]
         }
     ],
-    "subtext": "main city / government seat",
+    "subtext": "",
+    "synonyms": ["main city", "government seat"],
     "countability": "countable"
 },
 {
@@ -550,7 +573,8 @@
             ]
         }
     ],
-    "subtext": "environmental impact",
+    "subtext": "",
+    "synonyms": ["environmental impact"],
     "countability": "countable"
 },
 {
@@ -568,7 +592,8 @@
             ]
         }
     ],
-    "subtext": "ATM",
+    "subtext": "",
+    "synonyms": ["ATM"],
     "countability": "countable"
 },
 {
@@ -603,7 +628,8 @@
             ]
         }
     ],
-    "subtext": "living unit",
+    "subtext": "",
+    "synonyms": ["living unit"],
     "countability": "countable"
 },
 {
@@ -621,7 +647,8 @@
             ]
         }
     ],
-    "subtext": "personality",
+    "subtext": "",
+    "synonyms": ["personality"],
     "countability": "uncountable"
 },
 {
@@ -656,7 +683,8 @@
             ]
         }
     ],
-    "subtext": "science subject",
+    "subtext": "",
+    "synonyms": ["science subject"],
     "countability": "uncountable"
 },
 {
@@ -673,7 +701,8 @@
             ]
         }
     ],
-    "subtext": "movie theater",
+    "subtext": "",
+    "synonyms": ["movie theater"],
     "countability": "countable"
 },
 {
@@ -690,7 +719,8 @@
             ]
         }
     ],
-    "subtext": "customer / buyer",
+    "subtext": "",
+    "synonyms": ["customer", "buyer"],
     "countability": "countable"
 },
 {
@@ -709,7 +739,8 @@
             ]
         }
     ],
-    "subtext": "weather patterns / climate change",
+    "subtext": "climate change",
+    "synonyms": ["weather patterns"],
     "countability": "countable"
 },
 {
@@ -726,7 +757,8 @@
             ]
         }
     ],
-    "subtext": "global warming",
+    "subtext": "",
+    "synonyms": ["global warming"],
     "countability": "uncountable"
 },
 {
@@ -744,7 +776,8 @@
             ]
         }
     ],
-    "subtext": "seashore / coastline",
+    "subtext": "",
+    "synonyms": ["seashore", "coastline"],
     "countability": "countable"
 },
 {
@@ -762,7 +795,8 @@
             ]
         }
     ],
-    "subtext": "coworker",
+    "subtext": "",
+    "synonyms": ["coworker"],
     "countability": "countable"
 },
 {
@@ -779,7 +813,8 @@
             ]
         }
     ],
-    "subtext": "sharing info",
+    "subtext": "",
+    "synonyms": ["sharing info"],
     "countability": "uncountable"
 },
 {
@@ -797,7 +832,8 @@
             ]
         }
     ],
-    "subtext": "local community / share interests",
+    "subtext": "local community",
+    "synonyms": ["share interests"],
     "countability": "countable"
 },
 {
@@ -815,7 +851,8 @@
             ]
         }
     ],
-    "subtext": "contest",
+    "subtext": "",
+    "synonyms": ["contest"],
     "countability": "countable"
 },
 {
@@ -833,7 +870,8 @@
             ]
         }
     ],
-    "subtext": "middle ground / reach a compromise",
+    "subtext": "reach a compromise",
+    "synonyms": ["middle ground"],
     "countability": "countable"
 },
 {
@@ -851,7 +889,8 @@
             ]
         }
     ],
-    "subtext": "nature protection / wildlife conservation",
+    "subtext": "wildlife conservation",
+    "synonyms": ["nature protection"],
     "countability": "uncountable"
 },
 {
@@ -869,7 +908,8 @@
             ]
         }
     ],
-    "subtext": "legal document / sign a contract",
+    "subtext": "sign a contract",
+    "synonyms": ["legal document"],
     "countability": "countable"
 },
 {
@@ -887,7 +927,8 @@
             ]
         }
     ],
-    "subtext": "payment card",
+    "subtext": "",
+    "synonyms": ["payment card"],
     "countability": "countable"
 },
 {
@@ -905,7 +946,8 @@
             ]
         }
     ],
-    "subtext": "money type",
+    "subtext": "",
+    "synonyms": ["money type"],
     "countability": "countable"
 },
 {
@@ -940,7 +982,8 @@
             ]
         }
     ],
-    "subtext": "tradition / habit",
+    "subtext": "",
+    "synonyms": ["tradition", "habit"],
     "countability": "countable"
 },
 {
@@ -958,7 +1001,8 @@
             ]
         }
     ],
-    "subtext": "client / buyer",
+    "subtext": "",
+    "synonyms": ["client", "buyer"],
     "countability": "countable"
 },
 {
@@ -975,7 +1019,8 @@
             ]
         }
     ],
-    "subtext": "information / facts",
+    "subtext": "",
+    "synonyms": ["information", "facts"],
     "countability": "uncountable"
 },
 {
@@ -993,7 +1038,8 @@
             ]
         }
     ],
-    "subtext": "data storage",
+    "subtext": "",
+    "synonyms": ["data storage"],
     "countability": "countable"
 },
 {
@@ -1011,7 +1057,8 @@
             ]
         }
     ],
-    "subtext": "due date / meet a deadline",
+    "subtext": "meet a deadline",
+    "synonyms": ["due date"],
     "countability": "countable"
 },
 {
@@ -1029,7 +1076,8 @@
             ]
         }
     ],
-    "subtext": "owe money / in debt",
+    "subtext": "in debt",
+    "synonyms": ["owe money"],
     "countability": "uncountable"
 },
 {
@@ -1047,7 +1095,8 @@
             ]
         }
     ],
-    "subtext": "dot in numbers",
+    "subtext": "",
+    "synonyms": ["dot in numbers"],
     "countability": "countable"
 },
 {
@@ -1064,7 +1113,8 @@
             ]
         }
     ],
-    "subtext": "choice",
+    "subtext": "",
+    "synonyms": ["choice"],
     "countability": "countable"
 },
 {
@@ -1082,7 +1132,8 @@
             ]
         }
     ],
-    "subtext": "university qualification",
+    "subtext": "",
+    "synonyms": ["university qualification"],
     "countability": "countable"
 },
 {
@@ -1100,7 +1151,8 @@
             ]
         }
     ],
-    "subtext": "down payment / security payment",
+    "subtext": "",
+    "synonyms": ["down payment", "security payment"],
     "countability": "countable"
 },
 {
@@ -1118,7 +1170,8 @@
             ]
         }
     ],
-    "subtext": "dry land / sandy desert",
+    "subtext": "sandy desert",
+    "synonyms": ["dry land"],
     "countability": "countable"
 },
 {
@@ -1153,7 +1206,8 @@
             ]
         }
     ],
-    "subtext": "small part",
+    "subtext": "",
+    "synonyms": ["small part"],
     "countability": "countable"
 },
 {
@@ -1188,7 +1242,8 @@
             ]
         }
     ],
-    "subtext": "drawback / minus point",
+    "subtext": "",
+    "synonyms": ["drawback", "minus point"],
     "countability": "countable",
     "opposite": "advantage"
 },
@@ -1206,7 +1261,8 @@
             ]
         }
     ],
-    "subtext": "finding / breakthrough",
+    "subtext": "",
+    "synonyms": ["finding", "breakthrough"],
     "countability": "countable"
 },
 {
@@ -1241,7 +1297,8 @@
             ]
         }
     ],
-    "subtext": "math process",
+    "subtext": "",
+    "synonyms": ["math process"],
     "countability": "uncountable"
 },
 {
@@ -1259,7 +1316,8 @@
             ]
         }
     ],
-    "subtext": "receive data / offline download",
+    "subtext": "offline download",
+    "synonyms": ["receive data"],
     "countability": "countable",
     "opposite": "upload"
 },
@@ -1278,7 +1336,8 @@
             ]
         }
     ],
-    "subtext": "driver's permit / ID",
+    "subtext": "",
+    "synonyms": ["driver's permit", "ID"],
     "countability": "countable"
 },
 {
@@ -1295,7 +1354,8 @@
             ]
         }
     ],
-    "subtext": "responsibility / task",
+    "subtext": "",
+    "synonyms": ["responsibility", "task"],
     "countability": "countable"
 },
 {
@@ -1314,7 +1374,8 @@
             ]
         }
     ],
-    "subtext": "natural disaster / seismic activity",
+    "subtext": "",
+    "synonyms": ["natural disaster", "seismic activity"],
     "countability": "countable"
 },
 {
@@ -1331,7 +1392,8 @@
             ]
         }
     ],
-    "subtext": "nature science",
+    "subtext": "",
+    "synonyms": ["nature science"],
     "countability": "uncountable"
 },
 {
@@ -1348,7 +1410,8 @@
             ]
         }
     ],
-    "subtext": "financial system",
+    "subtext": "",
+    "synonyms": ["financial system"],
     "countability": "countable"
 },
 {
@@ -1366,7 +1429,8 @@
             ]
         }
     ],
-    "subtext": "voting process",
+    "subtext": "",
+    "synonyms": ["voting process"],
     "countability": "countable"
 },
 {
@@ -1384,7 +1448,8 @@
             ]
         }
     ],
-    "subtext": "worker",
+    "subtext": "",
+    "synonyms": ["worker"],
     "countability": "countable",
     "opposite": "employer"
 },
@@ -1403,7 +1468,8 @@
             ]
         }
     ],
-    "subtext": "boss / company",
+    "subtext": "",
+    "synonyms": ["boss", "company"],
     "countability": "countable",
     "opposite": "employee"
 },
@@ -1422,7 +1488,8 @@
             ]
         }
     ],
-    "subtext": "power / electricity",
+    "subtext": "",
+    "synonyms": ["power", "electricity"],
     "countability": "uncountable"
 },
 {
@@ -1441,7 +1508,8 @@
             ]
         }
     ],
-    "subtext": "technical professional / mechanical engineer",
+    "subtext": "mechanical engineer",
+    "synonyms": ["technical professional"],
     "countability": "countable"
 },
 {
@@ -1460,7 +1528,8 @@
             ]
         }
     ],
-    "subtext": "nature / protect the environment",
+    "subtext": "protect the environment",
+    "synonyms": ["nature"],
     "countability": "countable"
 },
 {
@@ -1477,7 +1546,8 @@
             ]
         }
     ],
-    "subtext": "proof",
+    "subtext": "",
+    "synonyms": ["proof"],
     "countability": "uncountable"
 },
 {
@@ -1495,7 +1565,8 @@
             ]
         }
     ],
-    "subtext": "currency value",
+    "subtext": "",
+    "synonyms": ["currency value"],
     "countability": "countable"
 },
 {
@@ -1530,7 +1601,8 @@
             ]
         }
     ],
-    "subtext": "scientific test",
+    "subtext": "",
+    "synonyms": ["scientific test"],
     "countability": "countable"
 },
 {
@@ -1547,7 +1619,8 @@
             ]
         }
     ],
-    "subtext": "truth / reality",
+    "subtext": "",
+    "synonyms": ["truth", "reality"],
     "countability": "countable"
 },
 {
@@ -1565,7 +1638,8 @@
             ]
         }
     ],
-    "subtext": "airplane trip / book a flight",
+    "subtext": "book a flight",
+    "synonyms": ["airplane trip"],
     "countability": "countable"
 },
 {
@@ -1584,7 +1658,8 @@
             ]
         }
     ],
-    "subtext": "natural disaster / heavy rain",
+    "subtext": "",
+    "synonyms": ["natural disaster", "heavy rain"],
     "countability": "countable"
 },
 {
@@ -1602,7 +1677,8 @@
             ]
         }
     ],
-    "subtext": "woods / jungle",
+    "subtext": "",
+    "synonyms": ["woods", "jungle"],
     "countability": "countable"
 },
 {
@@ -1619,7 +1695,8 @@
             ]
         }
     ],
-    "subtext": "scientific code",
+    "subtext": "",
+    "synonyms": ["scientific code"],
     "countability": "countable"
 },
 {
@@ -1637,7 +1714,8 @@
             ]
         }
     ],
-    "subtext": "old remains",
+    "subtext": "",
+    "synonyms": ["old remains"],
     "countability": "countable"
 },
 {
@@ -1654,7 +1732,8 @@
             ]
         }
     ],
-    "subtext": "liberty",
+    "subtext": "",
+    "synonyms": ["liberty"],
     "countability": "uncountable"
 },
 {
@@ -1672,7 +1751,8 @@
             ]
         }
     ],
-    "subtext": "group of stars",
+    "subtext": "",
+    "synonyms": ["group of stars"],
     "countability": "countable"
 },
 {
@@ -1708,7 +1788,8 @@
             ]
         }
     ],
-    "subtext": "climate warming",
+    "subtext": "",
+    "synonyms": ["climate warming"],
     "countability": "uncountable"
 },
 {
@@ -1725,7 +1806,8 @@
             ]
         }
     ],
-    "subtext": "target / aim",
+    "subtext": "",
+    "synonyms": ["target", "aim"],
     "countability": "countable"
 },
 {
@@ -1742,7 +1824,8 @@
             ]
         }
     ],
-    "subtext": "authorities",
+    "subtext": "",
+    "synonyms": ["authorities"],
     "countability": "countable"
 },
 {
@@ -1760,7 +1843,8 @@
             ]
         }
     ],
-    "subtext": "force of nature / laws of gravity",
+    "subtext": "laws of gravity",
+    "synonyms": ["force of nature"],
     "countability": "uncountable"
 },
 {
@@ -1778,7 +1862,8 @@
             ]
         }
     ],
-    "subtext": "travel book",
+    "subtext": "",
+    "synonyms": ["travel book"],
     "countability": "countable"
 },
 {
@@ -1796,7 +1881,8 @@
             ]
         }
     ],
-    "subtext": "fitness center / workout place",
+    "subtext": "",
+    "synonyms": ["fitness center", "workout place"],
     "countability": "countable"
 },
 {
@@ -1814,7 +1900,8 @@
             ]
         }
     ],
-    "subtext": "natural home",
+    "subtext": "",
+    "synonyms": ["natural home"],
     "countability": "countable"
 },
 {
@@ -1832,7 +1919,8 @@
             ]
         }
     ],
-    "subtext": "divided by two",
+    "subtext": "",
+    "synonyms": ["divided by two"],
     "countability": "countable"
 },
 {
@@ -1850,7 +1938,8 @@
             ]
         }
     ],
-    "subtext": "computer parts",
+    "subtext": "",
+    "synonyms": ["computer parts"],
     "countability": "uncountable",
     "opposite": "software"
 },
@@ -1869,7 +1958,8 @@
             ]
         }
     ],
-    "subtext": "news title / front page headline",
+    "subtext": "front page headline",
+    "synonyms": ["news title"],
     "countability": "countable"
 },
 {
@@ -1887,7 +1977,8 @@
             ]
         }
     ],
-    "subtext": "blood pump",
+    "subtext": "",
+    "synonyms": ["blood pump"],
     "countability": "countable"
 },
 {
@@ -1905,7 +1996,8 @@
             ]
         }
     ],
-    "subtext": "main road / motorway",
+    "subtext": "",
+    "synonyms": ["main road", "motorway"],
     "countability": "countable"
 },
 {
@@ -1922,7 +2014,8 @@
             ]
         }
     ],
-    "subtext": "the past",
+    "subtext": "",
+    "synonyms": ["the past"],
     "countability": "uncountable"
 },
 {
@@ -1940,7 +2033,8 @@
             ]
         }
     ],
-    "subtext": "leisure activity",
+    "subtext": "",
+    "synonyms": ["leisure activity"],
     "countability": "countable"
 },
 {
@@ -1958,7 +2052,8 @@
             ]
         }
     ],
-    "subtext": "who you are",
+    "subtext": "",
+    "synonyms": ["who you are"],
     "countability": "uncountable"
 },
 {
@@ -1975,7 +2070,8 @@
             ]
         }
     ],
-    "subtext": "effect / influence",
+    "subtext": "",
+    "synonyms": ["effect", "influence"],
     "countability": "countable"
 },
 {
@@ -1992,7 +2088,8 @@
             ]
         }
     ],
-    "subtext": "earnings / salary",
+    "subtext": "",
+    "synonyms": ["earnings", "salary"],
     "countability": "uncountable"
 },
 {
@@ -2010,7 +2107,8 @@
             ]
         }
     ],
-    "subtext": "business sector",
+    "subtext": "",
+    "synonyms": ["business sector"],
     "countability": "uncountable"
 },
 {
@@ -2028,7 +2126,8 @@
             ]
         }
     ],
-    "subtext": "food component",
+    "subtext": "",
+    "synonyms": ["food component"],
     "countability": "countable"
 },
 {
@@ -2045,7 +2144,8 @@
             ]
         }
     ],
-    "subtext": "new idea",
+    "subtext": "",
+    "synonyms": ["new idea"],
     "countability": "countable"
 },
 {
@@ -2063,7 +2163,8 @@
             ]
         }
     ],
-    "subtext": "musical object",
+    "subtext": "",
+    "synonyms": ["musical object"],
     "countability": "countable"
 },
 {
@@ -2081,7 +2182,8 @@
             ]
         }
     ],
-    "subtext": "protection / coverage",
+    "subtext": "",
+    "synonyms": ["protection", "coverage"],
     "countability": "uncountable"
 },
 {
@@ -2098,7 +2200,8 @@
             ]
         }
     ],
-    "subtext": "bank profit",
+    "subtext": "",
+    "synonyms": ["bank profit"],
     "countability": "uncountable"
 },
 {
@@ -2116,7 +2219,8 @@
             ]
         }
     ],
-    "subtext": "bank percentage",
+    "subtext": "",
+    "synonyms": ["bank percentage"],
     "countability": "countable"
 },
 {
@@ -2151,7 +2255,8 @@
             ]
         }
     ],
-    "subtext": "creation",
+    "subtext": "",
+    "synonyms": ["creation"],
     "countability": "countable"
 },
 {
@@ -2169,7 +2274,8 @@
             ]
         }
     ],
-    "subtext": "financial asset",
+    "subtext": "",
+    "synonyms": ["financial asset"],
     "countability": "countable"
 },
 {
@@ -2187,7 +2293,8 @@
             ]
         }
     ],
-    "subtext": "land in water / tropical island",
+    "subtext": "tropical island",
+    "synonyms": ["land in water"],
     "countability": "countable"
 },
 {
@@ -2205,7 +2312,8 @@
             ]
         }
     ],
-    "subtext": "connection",
+    "subtext": "",
+    "synonyms": ["connection"],
     "countability": "countable"
 },
 {
@@ -2230,7 +2338,8 @@
             ]
         }
     ],
-    "subtext": "reporter / news journalist",
+    "subtext": "news journalist",
+    "synonyms": ["reporter"],
     "countability": "countable"
 },
 {
@@ -2248,7 +2357,8 @@
             ]
         }
     ],
-    "subtext": "travel / long journey",
+    "subtext": "long journey",
+    "synonyms": ["travel"],
     "countability": "countable"
 },
 {
@@ -2285,7 +2395,8 @@
             ]
         }
     ],
-    "subtext": "typing tool",
+    "subtext": "",
+    "synonyms": ["typing tool"],
     "countability": "countable"
 },
 {
@@ -2303,7 +2414,8 @@
             ]
         }
     ],
-    "subtext": "internal organ",
+    "subtext": "",
+    "synonyms": ["internal organ"],
     "countability": "countable"
 },
 {
@@ -2321,7 +2433,8 @@
             ]
         }
     ],
-    "subtext": "lab",
+    "subtext": "",
+    "synonyms": ["lab"],
     "countability": "countable"
 },
 {
@@ -2339,7 +2452,8 @@
             ]
         }
     ],
-    "subtext": "rubbish dump",
+    "subtext": "",
+    "synonyms": ["rubbish dump"],
     "countability": "countable"
 },
 {
@@ -2357,7 +2471,8 @@
             ]
         }
     ],
-    "subtext": "portable computer",
+    "subtext": "",
+    "synonyms": ["portable computer"],
     "countability": "countable"
 },
 {
@@ -2374,7 +2489,8 @@
             ]
         }
     ],
-    "subtext": "rules",
+    "subtext": "",
+    "synonyms": ["rules"],
     "countability": "countable"
 },
 {
@@ -2393,7 +2509,8 @@
             ]
         }
     ],
-    "subtext": "legal professional / consult a lawyer",
+    "subtext": "consult a lawyer",
+    "synonyms": ["legal professional"],
     "countability": "countable"
 },
 {
@@ -2410,7 +2527,8 @@
             ]
         }
     ],
-    "subtext": "boss / head",
+    "subtext": "",
+    "synonyms": ["boss", "head"],
     "countability": "countable"
 },
 {
@@ -2427,7 +2545,8 @@
             ]
         }
     ],
-    "subtext": "books",
+    "subtext": "",
+    "synonyms": ["books"],
     "countability": "uncountable"
 },
 {
@@ -2445,7 +2564,8 @@
             ]
         }
     ],
-    "subtext": "internal organ",
+    "subtext": "",
+    "synonyms": ["internal organ"],
     "countability": "countable"
 },
 {
@@ -2488,7 +2608,8 @@
             ]
         }
     ],
-    "subtext": "regional food / local dishes",
+    "subtext": "",
+    "synonyms": ["regional food", "local dishes"],
     "countability": "countable"
 },
 {
@@ -2505,7 +2626,8 @@
             ]
         }
     ],
-    "subtext": "baggage / carry luggage",
+    "subtext": "carry luggage",
+    "synonyms": ["baggage"],
     "countability": "uncountable"
 },
 {
@@ -2523,7 +2645,8 @@
             ]
         }
     ],
-    "subtext": "breathing organ",
+    "subtext": "",
+    "synonyms": ["breathing organ"],
     "countability": "countable"
 },
 {
@@ -2541,7 +2664,8 @@
             ]
         }
     ],
-    "subtext": "leaders / administration",
+    "subtext": "",
+    "synonyms": ["leaders", "administration"],
     "countability": "uncountable"
 },
 {
@@ -2558,7 +2682,8 @@
             ]
         }
     ],
-    "subtext": "boss / leader",
+    "subtext": "",
+    "synonyms": ["boss", "leader"],
     "countability": "countable"
 },
 {
@@ -2575,7 +2700,8 @@
             ]
         }
     ],
-    "subtext": "maths",
+    "subtext": "",
+    "synonyms": ["maths"],
     "countability": "uncountable"
 },
 {
@@ -2593,7 +2719,8 @@
             ]
         }
     ],
-    "subtext": "city leader",
+    "subtext": "",
+    "synonyms": ["city leader"],
     "countability": "countable"
 },
 {
@@ -2628,7 +2755,8 @@
             ]
         }
     ],
-    "subtext": "news outlets",
+    "subtext": "",
+    "synonyms": ["news outlets"],
     "countability": "uncountable"
 },
 {
@@ -2646,7 +2774,8 @@
             ]
         }
     ],
-    "subtext": "magnifying tool",
+    "subtext": "",
+    "synonyms": ["magnifying tool"],
     "countability": "countable"
 },
 {
@@ -2682,7 +2811,8 @@
             ]
         }
     ],
-    "subtext": "subtraction / less"
+    "subtext": "",
+    "synonyms": ["subtraction", "less"]
 },
 {
     "word": "monitor",
@@ -2699,7 +2829,8 @@
             ]
         }
     ],
-    "subtext": "screen",
+    "subtext": "",
+    "synonyms": ["screen"],
     "countability": "countable"
 },
 {
@@ -2717,7 +2848,8 @@
             ]
         }
     ],
-    "subtext": "home loan / pay the mortgage",
+    "subtext": "pay the mortgage",
+    "synonyms": ["home loan"],
     "countability": "countable"
 },
 {
@@ -2735,7 +2867,8 @@
             ]
         }
     ],
-    "subtext": "high hill / peak",
+    "subtext": "",
+    "synonyms": ["high hill", "peak"],
     "countability": "countable"
 },
 {
@@ -2752,7 +2885,8 @@
             ]
         }
     ],
-    "subtext": "math process",
+    "subtext": "",
+    "synonyms": ["math process"],
     "countability": "uncountable"
 },
 {
@@ -2770,7 +2904,8 @@
             ]
         }
     ],
-    "subtext": "body tissue",
+    "subtext": "",
+    "synonyms": ["body tissue"],
     "countability": "countable"
 },
 {
@@ -2807,7 +2942,8 @@
             ]
         }
     ],
-    "subtext": "natural world / wildlife",
+    "subtext": "",
+    "synonyms": ["natural world", "wildlife"],
     "countability": "uncountable"
 },
 {
@@ -2825,7 +2961,8 @@
             ]
         }
     ],
-    "subtext": "protected area",
+    "subtext": "",
+    "synonyms": ["protected area"],
     "countability": "countable"
 },
 {
@@ -2843,7 +2980,8 @@
             ]
         }
     ],
-    "subtext": "local area / friendly neighbourhood",
+    "subtext": "friendly neighbourhood",
+    "synonyms": ["local area"],
     "countability": "countable"
 },
 {
@@ -2861,7 +2999,8 @@
             ]
         }
     ],
-    "subtext": "web / system",
+    "subtext": "",
+    "synonyms": ["web", "system"],
     "countability": "countable"
 },
 {
@@ -2889,7 +3028,8 @@
     "emoji": "💼",
     "form": "noun",
     "plural": "occupations",
-    "subtext": "job, profession",
+    "subtext": "",
+    "synonyms": ["job", "profession"],
     "definitions": [
         {
             "text": "A person's job or profession.",
@@ -2916,7 +3056,8 @@
             ]
         }
     ],
-    "subtext": "sea / deep blue",
+    "subtext": "",
+    "synonyms": ["sea", "deep blue"],
     "countability": "countable"
 },
 {
@@ -2933,7 +3074,8 @@
             ]
         }
     ],
-    "subtext": "view / belief",
+    "subtext": "",
+    "synonyms": ["view", "belief"],
     "countability": "countable"
 },
 {
@@ -2950,7 +3092,8 @@
             ]
         }
     ],
-    "subtext": "living thing",
+    "subtext": "",
+    "synonyms": ["living thing"],
     "countability": "countable"
 },
 {
@@ -2968,7 +3111,8 @@
             ]
         }
     ],
-    "subtext": "extra hours / work overtime",
+    "subtext": "work overtime",
+    "synonyms": ["extra hours"],
     "countability": "uncountable"
 },
 {
@@ -2986,7 +3130,8 @@
             ]
         }
     ],
-    "subtext": "car park / parking area",
+    "subtext": "",
+    "synonyms": ["car park", "parking area"],
     "countability": "countable"
 },
 {
@@ -3004,7 +3149,8 @@
             ]
         }
     ],
-    "subtext": "companion / spouse",
+    "subtext": "",
+    "synonyms": ["companion", "spouse"],
     "countability": "countable"
 },
 {
@@ -3022,7 +3168,8 @@
             ]
         }
     ],
-    "subtext": "secret code",
+    "subtext": "",
+    "synonyms": ["secret code"],
     "countability": "countable"
 },
 {
@@ -3040,7 +3187,8 @@
             ]
         }
     ],
-    "subtext": "retirement fund / old age pay",
+    "subtext": "",
+    "synonyms": ["retirement fund", "old age pay"],
     "countability": "countable"
 },
 {
@@ -3058,7 +3206,8 @@
             ]
         }
     ],
-    "subtext": "per hundred / percentage",
+    "subtext": "",
+    "synonyms": ["per hundred", "percentage"],
     "countability": "uncountable"
 },
 {
@@ -3075,7 +3224,8 @@
             ]
         }
     ],
-    "subtext": "viewpoint",
+    "subtext": "",
+    "synonyms": ["viewpoint"],
     "countability": "countable"
 },
 {
@@ -3110,7 +3260,8 @@
             ]
         }
     ],
-    "subtext": "thinking system",
+    "subtext": "",
+    "synonyms": ["thinking system"],
     "countability": "uncountable"
 },
 {
@@ -3127,7 +3278,8 @@
             ]
         }
     ],
-    "subtext": "science subject",
+    "subtext": "",
+    "synonyms": ["science subject"],
     "countability": "uncountable"
 },
 {
@@ -3145,7 +3297,8 @@
             ]
         }
     ],
-    "subtext": "addition / and"
+    "subtext": "",
+    "synonyms": ["addition", "and"]
 },
 {
     "word": "podcast",
@@ -3162,7 +3315,8 @@
             ]
         }
     ],
-    "subtext": "audio show / online radio",
+    "subtext": "",
+    "synonyms": ["audio show", "online radio"],
     "countability": "countable"
 },
 {
@@ -3180,7 +3334,8 @@
             ]
         }
     ],
-    "subtext": "official rules",
+    "subtext": "",
+    "synonyms": ["official rules"],
     "countability": "countable"
 },
 {
@@ -3215,7 +3370,8 @@
             ]
         }
     ],
-    "subtext": "number of people / inhabitants",
+    "subtext": "",
+    "synonyms": ["number of people", "inhabitants"],
     "countability": "countable"
 },
 {
@@ -3233,7 +3389,8 @@
             ]
         }
     ],
-    "subtext": "personal space / secrecy",
+    "subtext": "",
+    "synonyms": ["personal space", "secrecy"],
     "countability": "uncountable"
 },
 {
@@ -3251,7 +3408,8 @@
             ]
         }
     ],
-    "subtext": "career advancement / get a promotion",
+    "subtext": "get a promotion",
+    "synonyms": ["career advancement"],
     "countability": "countable",
     "opposite": "demotion"
 },
@@ -3269,7 +3427,8 @@
             ]
         }
     ],
-    "subtext": "evidence",
+    "subtext": "",
+    "synonyms": ["evidence"],
     "countability": "uncountable"
 },
 {
@@ -3286,7 +3445,8 @@
             ]
         }
     ],
-    "subtext": "mind science",
+    "subtext": "",
+    "synonyms": ["mind science"],
     "countability": "uncountable"
 },
 {
@@ -3304,7 +3464,8 @@
             ]
         }
     ],
-    "subtext": "divided by four",
+    "subtext": "",
+    "synonyms": ["divided by four"],
     "countability": "countable"
 },
 {
@@ -3321,7 +3482,8 @@
             ]
         }
     ],
-    "subtext": "truth / real world",
+    "subtext": "",
+    "synonyms": ["truth", "real world"],
     "countability": "uncountable"
 },
 {
@@ -3357,7 +3519,8 @@
             ]
         }
     ],
-    "subtext": "front desk",
+    "subtext": "",
+    "synonyms": ["front desk"],
     "countability": "uncountable"
 },
 {
@@ -3375,7 +3538,8 @@
             ]
         }
     ],
-    "subtext": "cooking instructions",
+    "subtext": "",
+    "synonyms": ["cooking instructions"],
     "countability": "countable"
 },
 {
@@ -3393,7 +3557,8 @@
             ]
         }
     ],
-    "subtext": "waste management / eco-friendly",
+    "subtext": "",
+    "synonyms": ["waste management", "eco-friendly"],
     "countability": "uncountable"
 },
 {
@@ -3410,7 +3575,8 @@
             ]
         }
     ],
-    "subtext": "green bin",
+    "subtext": "",
+    "synonyms": ["green bin"],
     "countability": "countable"
 },
 {
@@ -3428,7 +3594,8 @@
             ]
         }
     ],
-    "subtext": "area / district",
+    "subtext": "",
+    "synonyms": ["area", "district"],
     "countability": "countable"
 },
 {
@@ -3463,7 +3630,8 @@
             ]
         }
     ],
-    "subtext": "green energy",
+    "subtext": "",
+    "synonyms": ["green energy"],
     "countability": "uncountable"
 },
 {
@@ -3480,7 +3648,8 @@
             ]
         }
     ],
-    "subtext": "investigation",
+    "subtext": "",
+    "synonyms": ["investigation"],
     "countability": "uncountable"
 },
 {
@@ -3497,7 +3666,8 @@
             ]
         }
     ],
-    "subtext": "asset / supply",
+    "subtext": "",
+    "synonyms": ["asset", "supply"],
     "countability": "countable"
 },
 {
@@ -3514,7 +3684,8 @@
             ]
         }
     ],
-    "subtext": "entitlement",
+    "subtext": "",
+    "synonyms": ["entitlement"],
     "countability": "countable"
 },
 {
@@ -3532,7 +3703,8 @@
             ]
         }
     ],
-    "subtext": "traffic circle / intersection",
+    "subtext": "",
+    "synonyms": ["traffic circle", "intersection"],
     "countability": "countable"
 },
 {
@@ -3549,7 +3721,8 @@
             ]
         }
     ],
-    "subtext": "security",
+    "subtext": "",
+    "synonyms": ["security"],
     "countability": "uncountable",
     "opposite": "danger"
 },
@@ -3560,7 +3733,8 @@
     "emoji": "💸",
     "form": "noun",
     "plural": "salaries",
-    "subtext": "pay, income",
+    "subtext": "",
+    "synonyms": ["pay", "income"],
     "definitions": [
         {
             "text": "The money a person earns from their job each month.",
@@ -3587,7 +3761,8 @@
             ]
         }
     ],
-    "subtext": "space machine",
+    "subtext": "",
+    "synonyms": ["space machine"],
     "countability": "countable"
 },
 {
@@ -3604,7 +3779,8 @@
             ]
         }
     ],
-    "subtext": "saved money",
+    "subtext": "",
+    "synonyms": ["saved money"],
     "countability": "uncountable"
 },
 {
@@ -3621,7 +3797,8 @@
             ]
         }
     ],
-    "subtext": "researcher",
+    "subtext": "",
+    "synonyms": ["researcher"],
     "countability": "countable"
 },
 {
@@ -3638,7 +3815,8 @@
             ]
         }
     ],
-    "subtext": "safety / protection",
+    "subtext": "",
+    "synonyms": ["safety", "protection"],
     "countability": "uncountable"
 },
 {
@@ -3656,7 +3834,8 @@
             ]
         }
     ],
-    "subtext": "visiting attractions",
+    "subtext": "",
+    "synonyms": ["visiting attractions"],
     "countability": "uncountable"
 },
 {
@@ -3674,7 +3853,8 @@
             ]
         }
     ],
-    "subtext": "body bones",
+    "subtext": "",
+    "synonyms": ["body bones"],
     "countability": "countable"
 },
 {
@@ -3691,7 +3871,8 @@
             ]
         }
     ],
-    "subtext": "body surface",
+    "subtext": "",
+    "synonyms": ["body surface"],
     "countability": "uncountable"
 },
 {
@@ -3708,7 +3889,8 @@
             ]
         }
     ],
-    "subtext": "community / people",
+    "subtext": "",
+    "synonyms": ["community", "people"],
     "countability": "uncountable"
 },
 {
@@ -3726,7 +3908,8 @@
             ]
         }
     ],
-    "subtext": "computer programs",
+    "subtext": "",
+    "synonyms": ["computer programs"],
     "countability": "uncountable",
     "opposite": "hardware"
 },
@@ -3744,7 +3927,8 @@
             ]
         }
     ],
-    "subtext": "sun power",
+    "subtext": "",
+    "synonyms": ["sun power"],
     "countability": "uncountable"
 },
 {
@@ -3761,7 +3945,8 @@
             ]
         }
     ],
-    "subtext": "sun power tool",
+    "subtext": "",
+    "synonyms": ["sun power tool"],
     "countability": "countable"
 },
 {
@@ -3779,7 +3964,8 @@
             ]
         }
     ],
-    "subtext": "sun energy",
+    "subtext": "",
+    "synonyms": ["sun energy"],
     "countability": "uncountable"
 },
 {
@@ -3796,7 +3982,8 @@
             ]
         }
     ],
-    "subtext": "answer",
+    "subtext": "",
+    "synonyms": ["answer"],
     "countability": "countable"
 },
 {
@@ -3821,7 +4008,8 @@
             ]
         }
     ],
-    "subtext": "gift / travel souvenir",
+    "subtext": "travel souvenir",
+    "synonyms": ["gift"],
     "countability": "countable"
 },
 {
@@ -3839,7 +4027,8 @@
             ]
         }
     ],
-    "subtext": "backbone",
+    "subtext": "",
+    "synonyms": ["backbone"],
     "countability": "countable"
 },
 {
@@ -3875,7 +4064,8 @@
             ]
         }
     ],
-    "subtext": "tummy",
+    "subtext": "",
+    "synonyms": ["tummy"],
     "countability": "countable"
 },
 {
@@ -3893,7 +4083,8 @@
             ]
         }
     ],
-    "subtext": "live streaming / online video",
+    "subtext": "live streaming",
+    "synonyms": ["online video"],
     "countability": "uncountable"
 },
 {
@@ -3910,7 +4101,8 @@
             ]
         }
     ],
-    "subtext": "material",
+    "subtext": "",
+    "synonyms": ["material"],
     "countability": "countable"
 },
 {
@@ -3927,7 +4119,8 @@
             ]
         }
     ],
-    "subtext": "math process",
+    "subtext": "",
+    "synonyms": ["math process"],
     "countability": "uncountable"
 },
 {
@@ -3944,7 +4137,8 @@
             ]
         }
     ],
-    "subtext": "assistance / offer support",
+    "subtext": "offer support",
+    "synonyms": ["assistance"],
     "countability": "uncountable"
 },
 {
@@ -3962,7 +4156,8 @@
             ]
         }
     ],
-    "subtext": "eco-friendly / environmental sustainability",
+    "subtext": "environmental sustainability",
+    "synonyms": ["eco-friendly"],
     "countability": "uncountable"
 },
 {
@@ -3987,7 +4182,8 @@
             ]
         }
     ],
-    "subtext": "Mexican food / spicy taco",
+    "subtext": "spicy taco",
+    "synonyms": ["Mexican food"],
     "countability": "countable"
 },
 {
@@ -4004,7 +4200,8 @@
             ]
         }
     ],
-    "subtext": "goal / aim",
+    "subtext": "",
+    "synonyms": ["goal", "aim"],
     "countability": "countable"
 },
 {
@@ -4022,7 +4219,8 @@
             ]
         }
     ],
-    "subtext": "government levy / duty",
+    "subtext": "",
+    "synonyms": ["government levy", "duty"],
     "countability": "countable"
 },
 {
@@ -4040,7 +4238,8 @@
             ]
         }
     ],
-    "subtext": "tech / high-tech",
+    "subtext": "",
+    "synonyms": ["tech", "high-tech"],
     "countability": "uncountable"
 },
 {
@@ -4058,7 +4257,8 @@
             ]
         }
     ],
-    "subtext": "renter",
+    "subtext": "",
+    "synonyms": ["renter"],
     "countability": "countable",
     "opposite": "landlord"
 },
@@ -4077,7 +4277,8 @@
             ]
         }
     ],
-    "subtext": "airport building / departure terminal",
+    "subtext": "departure terminal",
+    "synonyms": ["airport building"],
     "countability": "countable"
 },
 {
@@ -4094,7 +4295,8 @@
             ]
         }
     ],
-    "subtext": "danger / risk",
+    "subtext": "",
+    "synonyms": ["danger", "risk"],
     "countability": "countable"
 },
 {
@@ -4130,7 +4332,8 @@
             ]
         }
     ],
-    "subtext": "sum / final amount",
+    "subtext": "",
+    "synonyms": ["sum", "final amount"],
     "countability": "countable"
 },
 {
@@ -4148,7 +4351,8 @@
             ]
         }
     ],
-    "subtext": "traveler / visitor",
+    "subtext": "",
+    "synonyms": ["traveler", "visitor"],
     "countability": "countable"
 },
 {
@@ -4166,7 +4370,8 @@
             ]
         }
     ],
-    "subtext": "heavy traffic / congestion",
+    "subtext": "",
+    "synonyms": ["heavy traffic", "congestion"],
     "countability": "countable"
 },
 {
@@ -4184,7 +4389,8 @@
             ]
         }
     ],
-    "subtext": "court case",
+    "subtext": "",
+    "synonyms": ["court case"],
     "countability": "countable"
 },
 {
@@ -4202,7 +4408,8 @@
             ]
         }
     ],
-    "subtext": "shopping cart",
+    "subtext": "",
+    "synonyms": ["shopping cart"],
     "countability": "countable"
 },
 {
@@ -4219,7 +4426,8 @@
             ]
         }
     ],
-    "subtext": "confidence / mutual trust",
+    "subtext": "mutual trust",
+    "synonyms": ["confidence"],
     "countability": "uncountable"
 },
 {
@@ -4236,7 +4444,8 @@
             ]
         }
     ],
-    "subtext": "reality / facts",
+    "subtext": "",
+    "synonyms": ["reality", "facts"],
     "countability": "uncountable",
     "opposite": "lie"
 },
@@ -4255,7 +4464,8 @@
             ]
         }
     ],
-    "subtext": "send data / online upload",
+    "subtext": "online upload",
+    "synonyms": ["send data"],
     "countability": "countable",
     "opposite": "download"
 },
@@ -4292,7 +4502,8 @@
             ]
         }
     ],
-    "subtext": "low land / canyon",
+    "subtext": "",
+    "synonyms": ["low land", "canyon"],
     "countability": "countable"
 },
 {
@@ -4309,7 +4520,8 @@
             ]
         }
     ],
-    "subtext": "worth / price",
+    "subtext": "",
+    "synonyms": ["worth", "price"],
     "countability": "uncountable"
 },
 {
@@ -4327,7 +4539,8 @@
             ]
         }
     ],
-    "subtext": "harmful program",
+    "subtext": "",
+    "synonyms": ["harmful program"],
     "countability": "countable"
 },
 {
@@ -4345,7 +4558,8 @@
             ]
         }
     ],
-    "subtext": "health supplement / take vitamins",
+    "subtext": "take vitamins",
+    "synonyms": ["health supplement"],
     "countability": "countable"
 },
 {
@@ -4363,7 +4577,8 @@
             ]
         }
     ],
-    "subtext": "choice",
+    "subtext": "",
+    "synonyms": ["choice"],
     "countability": "countable"
 },
 {
@@ -4398,7 +4613,8 @@
             ]
         }
     ],
-    "subtext": "rubbish",
+    "subtext": "",
+    "synonyms": ["rubbish"],
     "countability": "uncountable"
 },
 {
@@ -4416,7 +4632,8 @@
             ]
         }
     ],
-    "subtext": "marriage ceremony",
+    "subtext": "",
+    "synonyms": ["marriage ceremony"],
     "countability": "countable"
 },
 {
@@ -4434,7 +4651,8 @@
             ]
         }
     ],
-    "subtext": "wild animals",
+    "subtext": "",
+    "synonyms": ["wild animals"],
     "countability": "uncountable"
 },
 {
@@ -4452,7 +4670,8 @@
             ]
         }
     ],
-    "subtext": "wind energy site",
+    "subtext": "",
+    "synonyms": ["wind energy site"],
     "countability": "countable"
 },
 {
@@ -4469,7 +4688,8 @@
             ]
         }
     ],
-    "subtext": "wind power tool",
+    "subtext": "",
+    "synonyms": ["wind power tool"],
     "countability": "countable"
 },
 {
@@ -4487,7 +4707,8 @@
             ]
         }
     ],
-    "subtext": "observer",
+    "subtext": "",
+    "synonyms": ["observer"],
     "countability": "countable"
 },
 {
@@ -4505,7 +4726,8 @@
             ]
         }
     ],
-    "subtext": "exercise session / training",
+    "subtext": "",
+    "synonyms": ["exercise session", "training"],
     "countability": "countable"
 },
 {
@@ -4523,7 +4745,8 @@
             ]
         }
     ],
-    "subtext": "stretching exercise",
+    "subtext": "",
+    "synonyms": ["stretching exercise"],
     "countability": "uncountable"
 },
 {
@@ -4541,7 +4764,8 @@
             ]
         }
     ],
-    "subtext": "unfortunate event / crash / mishap",
+    "subtext": "",
+    "synonyms": ["unfortunate event", "crash", "mishap"],
     "countability": "countable"
 },
 {
@@ -4559,7 +4783,8 @@
             ]
         }
     ],
-    "subtext": "exciting experience / quest / journey",
+    "subtext": "",
+    "synonyms": ["exciting experience", "quest", "journey"],
     "countability": "countable"
 },
 {
@@ -4577,7 +4802,8 @@
             ]
         }
     ],
-    "subtext": "emergency vehicle",
+    "subtext": "",
+    "synonyms": ["emergency vehicle"],
     "countability": "countable"
 },
 {
@@ -4595,7 +4821,8 @@
             ]
         }
     ],
-    "subtext": "yearly celebration",
+    "subtext": "",
+    "synonyms": ["yearly celebration"],
     "countability": "countable"
 },
 {
@@ -4613,7 +4840,8 @@
             ]
         }
     ],
-    "subtext": "spectators / listeners",
+    "subtext": "",
+    "synonyms": ["spectators", "listeners"],
     "countability": "countable"
 },
 {
@@ -4631,7 +4859,8 @@
             ]
         }
     ],
-    "subtext": "conduct / manner / actions",
+    "subtext": "",
+    "synonyms": ["conduct", "manner", "actions"],
     "countability": "uncountable"
 },
 {
@@ -4648,7 +4877,8 @@
             ]
         }
     ],
-    "subtext": "faith / conviction",
+    "subtext": "",
+    "synonyms": ["faith", "conviction"],
     "countability": "countable"
 },
 {
@@ -4666,7 +4896,8 @@
             ]
         }
     ],
-    "subtext": "trade / company / commerce",
+    "subtext": "",
+    "synonyms": ["trade", "company", "commerce"],
     "countability": "uncountable"
 },
 {
@@ -4684,7 +4915,8 @@
             ]
         }
     ],
-    "subtext": "famous person",
+    "subtext": "",
+    "synonyms": ["famous person"],
     "countability": "countable"
 },
 {
@@ -4702,7 +4934,8 @@
             ]
         }
     ],
-    "subtext": "formal event",
+    "subtext": "",
+    "synonyms": ["formal event"],
     "countability": "countable"
 },
 {
@@ -4720,7 +4953,8 @@
             ]
         }
     ],
-    "subtext": "difficult task / trial / test",
+    "subtext": "",
+    "synonyms": ["difficult task", "trial", "test"],
     "countability": "countable"
 },
 {
@@ -4738,7 +4972,8 @@
             ]
         }
     ],
-    "subtext": "aid organization / non-profit / donation",
+    "subtext": "",
+    "synonyms": ["aid organization", "non-profit", "donation"],
     "countability": "uncountable"
 },
 {
@@ -4756,7 +4991,8 @@
             ]
         }
     ],
-    "subtext": "hint / evidence",
+    "subtext": "",
+    "synonyms": ["hint", "evidence"],
     "countability": "countable"
 },
 {
@@ -4774,7 +5010,8 @@
             ]
         }
     ],
-    "subtext": "set of objects",
+    "subtext": "",
+    "synonyms": ["set of objects"],
     "countability": "countable"
 },
 {
@@ -4792,7 +5029,8 @@
             ]
         }
     ],
-    "subtext": "ease / relaxation",
+    "subtext": "",
+    "synonyms": ["ease", "relaxation"],
     "countability": "uncountable"
 },
 {
@@ -4810,7 +5048,8 @@
             ]
         }
     ],
-    "subtext": "statement of dissatisfaction",
+    "subtext": "",
+    "synonyms": ["statement of dissatisfaction"],
     "countability": "countable"
 },
 {
@@ -4828,7 +5067,8 @@
             ]
         }
     ],
-    "subtext": "musical performance",
+    "subtext": "",
+    "synonyms": ["musical performance"],
     "countability": "countable"
 },
 {
@@ -4846,7 +5086,8 @@
             ]
         }
     ],
-    "subtext": "self-belief",
+    "subtext": "",
+    "synonyms": ["self-belief"],
     "countability": "uncountable"
 },
 {
@@ -4864,7 +5105,8 @@
             ]
         }
     ],
-    "subtext": "clash / disagreement",
+    "subtext": "",
+    "synonyms": ["clash", "disagreement"],
     "countability": "uncountable"
 },
 {
@@ -4882,7 +5124,8 @@
             ]
         }
     ],
-    "subtext": "link / join",
+    "subtext": "",
+    "synonyms": ["link", "join"],
     "countability": "countable"
 },
 {
@@ -4900,7 +5143,8 @@
             ]
         }
     ],
-    "subtext": "result / outcome",
+    "subtext": "",
+    "synonyms": ["result", "outcome"],
     "countability": "countable"
 },
 {
@@ -4918,7 +5162,8 @@
             ]
         }
     ],
-    "subtext": "situation / setting",
+    "subtext": "",
+    "synonyms": ["situation", "setting"],
     "countability": "uncountable"
 },
 {
@@ -4936,7 +5181,8 @@
             ]
         }
     ],
-    "subtext": "talk / discussion",
+    "subtext": "",
+    "synonyms": ["talk", "discussion"],
     "countability": "countable"
 },
 {
@@ -4954,7 +5200,8 @@
             ]
         }
     ],
-    "subtext": "working together",
+    "subtext": "",
+    "synonyms": ["working together"],
     "countability": "uncountable"
 },
 {
@@ -4972,7 +5219,8 @@
             ]
         }
     ],
-    "subtext": "bravery",
+    "subtext": "",
+    "synonyms": ["bravery"],
     "countability": "uncountable"
 },
 {
@@ -4990,7 +5238,8 @@
             ]
         }
     ],
-    "subtext": "imagination / inventiveness / originality",
+    "subtext": "",
+    "synonyms": ["imagination", "inventiveness", "originality"],
     "countability": "uncountable"
 },
 {
@@ -5008,7 +5257,8 @@
             ]
         }
     ],
-    "subtext": "deferred payment",
+    "subtext": "",
+    "synonyms": ["deferred payment"],
     "countability": "uncountable"
 },
 {
@@ -5026,7 +5276,8 @@
             ]
         }
     ],
-    "subtext": "illegal act",
+    "subtext": "",
+    "synonyms": ["illegal act"],
     "countability": "countable"
 },
 {
@@ -5044,7 +5295,8 @@
             ]
         }
     ],
-    "subtext": "traditions / customs / way of life",
+    "subtext": "",
+    "synonyms": ["traditions", "customs", "way of life"],
     "countability": "uncountable"
 },
 {
@@ -5064,7 +5316,8 @@
             ]
         }
     ],
-    "subtext": "dry period / lack of rain"
+    "subtext": "",
+    "synonyms": ["dry period", "lack of rain"]
 },
 {
     "word": "forecast",
@@ -5083,7 +5336,8 @@
             ]
         }
     ],
-    "subtext": "prediction / weather report"
+    "subtext": "",
+    "synonyms": ["prediction", "weather report"]
 },
 {
     "word": "humidity",
@@ -5121,7 +5375,8 @@
             ]
         }
     ],
-    "subtext": "performance area / platform"
+    "subtext": "",
+    "synonyms": ["performance area", "platform"]
 },
 {
     "word": "script",
@@ -5140,7 +5395,8 @@
             ]
         }
     ],
-    "subtext": "written text / play text"
+    "subtext": "",
+    "synonyms": ["written text", "play text"]
 },
 {
     "word": "rehearsal",
@@ -5159,7 +5415,8 @@
             ]
         }
     ],
-    "subtext": "practice / preparation"
+    "subtext": "",
+    "synonyms": ["practice", "preparation"]
 },
 {
     "word": "reservation",
@@ -5178,7 +5435,8 @@
             ]
         }
     ],
-    "subtext": "booking / advance arrangement"
+    "subtext": "",
+    "synonyms": ["booking", "advance arrangement"]
 },
 {
     "word": "main course",
@@ -5197,7 +5455,8 @@
             ]
         }
     ],
-    "subtext": "entree / primary dish"
+    "subtext": "",
+    "synonyms": ["entree", "primary dish"]
 },
 {
     "word": "buffet",
@@ -5216,7 +5475,8 @@
             ]
         }
     ],
-    "subtext": "self-service meal"
+    "subtext": "",
+    "synonyms": ["self-service meal"]
 },
 {
     "word": "tip",
@@ -5235,7 +5495,8 @@
             ]
         }
     ],
-    "subtext": "gratuity / service charge"
+    "subtext": "",
+    "synonyms": ["gratuity", "service charge"]
 },
 {
     "word": "fitting room",
@@ -5254,7 +5515,8 @@
             ]
         }
     ],
-    "subtext": "changing room / try-on room"
+    "subtext": "",
+    "synonyms": ["changing room", "try-on room"]
 },
 {
     "word": "discount",
@@ -5273,7 +5535,8 @@
             ]
         }
     ],
-    "subtext": "reduction / price cut"
+    "subtext": "",
+    "synonyms": ["reduction", "price cut"]
 },
 {
     "word": "refund",
@@ -5292,7 +5555,8 @@
             ]
         }
     ],
-    "subtext": "money back / repayment"
+    "subtext": "",
+    "synonyms": ["money back", "repayment"]
 },
 {
     "word": "departure",
@@ -5311,7 +5575,8 @@
             ]
         }
     ],
-    "subtext": "leaving / setting off",
+    "subtext": "",
+    "synonyms": ["leaving", "setting off"],
     "opposite": "arrival"
 },
 {
@@ -5331,7 +5596,8 @@
             ]
         }
     ],
-    "subtext": "coming / reaching",
+    "subtext": "",
+    "synonyms": ["coming", "reaching"],
     "opposite": "departure"
 },
 {
@@ -5351,7 +5617,8 @@
             ]
         }
     ],
-    "subtext": "intersection / road crossing"
+    "subtext": "",
+    "synonyms": ["intersection", "road crossing"]
 },
 {
     "word": "traffic lights",
@@ -5370,7 +5637,8 @@
             ]
         }
     ],
-    "subtext": "stop lights / signal"
+    "subtext": "",
+    "synonyms": ["stop lights", "signal"]
 },
 {
     "word": "removal company",
@@ -5389,7 +5657,8 @@
             ]
         }
     ],
-    "subtext": "moving company / movers"
+    "subtext": "",
+    "synonyms": ["moving company", "movers"]
 },
 {
     "word": "roughly",
@@ -5406,7 +5675,8 @@
             ]
         }
     ],
-    "subtext": "about / approximately"
+    "subtext": "",
+    "synonyms": ["about", "approximately"]
 },
 {
     "word": "extremely",
@@ -5423,7 +5693,8 @@
             ]
         }
     ],
-    "subtext": "very / incredibly",
+    "subtext": "",
+    "synonyms": ["very", "incredibly"],
     "opposite": "slightly"
 },
 {
@@ -5441,7 +5712,8 @@
             ]
         }
     ],
-    "subtext": "quite / moderately",
+    "subtext": "",
+    "synonyms": ["quite", "moderately"],
     "opposite": "extremely"
 },
 {
@@ -5461,7 +5733,8 @@
             ]
         }
     ],
-    "subtext": "official document / diploma"
+    "subtext": "",
+    "synonyms": ["official document", "diploma"]
 },
 {
     "word": "grade",
@@ -5480,7 +5753,8 @@
             ]
         }
     ],
-    "subtext": "mark / score"
+    "subtext": "",
+    "synonyms": ["mark", "score"]
 },
 {
     "word": "citizen",
@@ -5499,7 +5773,8 @@
             ]
         }
     ],
-    "subtext": "national / inhabitant"
+    "subtext": "",
+    "synonyms": ["national", "inhabitant"]
 },
 {
     "word": "facility",
@@ -5518,7 +5793,8 @@
             ]
         }
     ],
-    "subtext": "amenity / service"
+    "subtext": "",
+    "synonyms": ["amenity", "service"]
 },
 {
     "word": "volunteer",
@@ -5537,7 +5813,8 @@
             ]
         }
     ],
-    "subtext": "unpaid worker"
+    "subtext": "",
+    "synonyms": ["unpaid worker"]
 },
 {
     "word": "exhibition",
@@ -5556,7 +5833,8 @@
             ]
         }
     ],
-    "subtext": "show / display"
+    "subtext": "",
+    "synonyms": ["show", "display"]
 },
 {
     "word": "gallery",
@@ -5575,7 +5853,8 @@
             ]
         }
     ],
-    "subtext": "art museum"
+    "subtext": "",
+    "synonyms": ["art museum"]
 },
 {
     "word": "portrait",
@@ -5613,7 +5892,8 @@
             ]
         }
     ],
-    "subtext": "romantic meeting"
+    "subtext": "",
+    "synonyms": ["romantic meeting"]
 },
 {
     "word": "couple",
@@ -5632,7 +5912,8 @@
             ]
         }
     ],
-    "subtext": "pair of people"
+    "subtext": "",
+    "synonyms": ["pair of people"]
 },
 {
     "word": "comedy",
@@ -5651,7 +5932,8 @@
             ]
         }
     ],
-    "subtext": "humorous show / funny movie"
+    "subtext": "",
+    "synonyms": ["humorous show", "funny movie"]
 },
 {
     "word": "documentary",
@@ -5670,7 +5952,8 @@
             ]
         }
     ],
-    "subtext": "factual program / non-fiction film"
+    "subtext": "",
+    "synonyms": ["factual program", "non-fiction film"]
 },
 {
     "word": "drama",
@@ -5689,7 +5972,8 @@
             ]
         }
     ],
-    "subtext": "serious play / theatrical work"
+    "subtext": "",
+    "synonyms": ["serious play", "theatrical work"]
 },
 {
     "word": "entertainment",
@@ -5708,7 +5992,8 @@
             ]
         }
     ],
-    "subtext": "amusement / leisure activity"
+    "subtext": "",
+    "synonyms": ["amusement", "leisure activity"]
 },
 {
     "word": "lately",
@@ -5725,7 +6010,8 @@
             ]
         }
     ],
-    "subtext": "recently / in recent times"
+    "subtext": "",
+    "synonyms": ["recently", "in recent times"]
 },
 {
     "word": "soon",
@@ -5742,7 +6028,8 @@
             ]
         }
     ],
-    "subtext": "shortly / before long"
+    "subtext": "",
+    "synonyms": ["shortly", "before long"]
 },
 {
     "word": "shortly",
@@ -5759,7 +6046,8 @@
             ]
         }
     ],
-    "subtext": "soon / in a moment"
+    "subtext": "",
+    "synonyms": ["soon", "in a moment"]
 },
 {
     "word": "eventually",
@@ -5776,7 +6064,8 @@
             ]
         }
     ],
-    "subtext": "finally / in the end"
+    "subtext": "",
+    "synonyms": ["finally", "in the end"]
 },
 {
     "word": "firstly",
@@ -5793,7 +6082,8 @@
             ]
         }
     ],
-    "subtext": "first / to begin with"
+    "subtext": "",
+    "synonyms": ["first", "to begin with"]
 },
 {
     "word": "secondly",
@@ -5810,7 +6100,8 @@
             ]
         }
     ],
-    "subtext": "second / furthermore"
+    "subtext": "",
+    "synonyms": ["second", "furthermore"]
 },
 {
     "word": "finally",
@@ -5827,7 +6118,8 @@
             ]
         }
     ],
-    "subtext": "lastly / in the end"
+    "subtext": "",
+    "synonyms": ["lastly", "in the end"]
 },
 {
     "word": "hostel",
@@ -5846,7 +6138,8 @@
             ]
         }
     ],
-    "subtext": "cheap hotel / youth hostel"
+    "subtext": "youth hostel",
+    "synonyms": ["cheap hotel"]
 },
 {
     "word": "campsite",
@@ -5865,7 +6158,8 @@
             ]
         }
     ],
-    "subtext": "camping ground / tent site"
+    "subtext": "",
+    "synonyms": ["camping ground", "tent site"]
 },
 {
     "word": "balanced diet",
@@ -5883,7 +6177,8 @@
             ]
         }
     ],
-    "subtext": "healthy eating / nutritious diet"
+    "subtext": "",
+    "synonyms": ["healthy eating", "nutritious diet"]
 },
 {
     "word": "calorie",
@@ -5902,7 +6197,8 @@
             ]
         }
     ],
-    "subtext": "energy unit / food energy"
+    "subtext": "",
+    "synonyms": ["energy unit", "food energy"]
 },
 {
     "word": "cover letter",
@@ -5921,7 +6217,8 @@
             ]
         }
     ],
-    "subtext": "application letter / job letter"
+    "subtext": "",
+    "synonyms": ["application letter", "job letter"]
 },
 {
     "word": "estate agent",
@@ -5940,7 +6237,8 @@
             ]
         }
     ],
-    "subtext": "realtor / property agent"
+    "subtext": "",
+    "synonyms": ["realtor", "property agent"]
 },
 {
     "word": "window shopping",
@@ -5958,7 +6256,8 @@
             ]
         }
     ],
-    "subtext": "browsing / looking only"
+    "subtext": "",
+    "synonyms": ["browsing", "looking only"]
 },
 {
     "word": "painkiller",
@@ -5977,7 +6276,8 @@
             ]
         }
     ],
-    "subtext": "pain medicine / analgesic"
+    "subtext": "",
+    "synonyms": ["pain medicine", "analgesic"]
 },
 {
     "word": "bandage",
@@ -5996,7 +6296,8 @@
             ]
         }
     ],
-    "subtext": "dressing / medical wrap"
+    "subtext": "",
+    "synonyms": ["dressing", "medical wrap"]
 },
 {
     "word": "prescription",
@@ -6015,7 +6316,8 @@
             ]
         }
     ],
-    "subtext": "doctor's note / medicine order"
+    "subtext": "",
+    "synonyms": ["doctor's note", "medicine order"]
 },
 {
     "word": "symptom",
@@ -6034,7 +6336,8 @@
             ]
         }
     ],
-    "subtext": "sign of illness"
+    "subtext": "",
+    "synonyms": ["sign of illness"]
 },
 {
     "word": "landmark",
@@ -6053,7 +6356,8 @@
             ]
         }
     ],
-    "subtext": "monument / recognizable place"
+    "subtext": "",
+    "synonyms": ["monument", "recognizable place"]
 },
 {
     "word": "crossroads",
@@ -6072,7 +6376,8 @@
             ]
         }
     ],
-    "subtext": "intersection / crossing"
+    "subtext": "",
+    "synonyms": ["intersection", "crossing"]
 },
 {
     "word": "single room",
@@ -6091,7 +6396,8 @@
             ]
         }
     ],
-    "subtext": "one-person room"
+    "subtext": "",
+    "synonyms": ["one-person room"]
 },
 {
     "word": "double room",
@@ -6110,7 +6416,8 @@
             ]
         }
     ],
-    "subtext": "two-person room"
+    "subtext": "",
+    "synonyms": ["two-person room"]
 },
 {
     "word": "point of view",
@@ -6129,7 +6436,8 @@
             ]
         }
     ],
-    "subtext": "opinion / perspective"
+    "subtext": "",
+    "synonyms": ["opinion", "perspective"]
 },
 {
     "word": "itinerary",
@@ -6148,7 +6456,8 @@
             ]
         }
     ],
-    "subtext": "travel plan / schedule"
+    "subtext": "",
+    "synonyms": ["travel plan", "schedule"]
 },
 {
     "word": "travel agent",
@@ -6167,7 +6476,8 @@
             ]
         }
     ],
-    "subtext": "travel professional / travel consultant"
+    "subtext": "",
+    "synonyms": ["travel professional", "travel consultant"]
 },
 {
     "word": "overdraft",
@@ -6186,7 +6496,8 @@
             ]
         }
     ],
-    "subtext": "bank debt / negative balance"
+    "subtext": "",
+    "synonyms": ["bank debt", "negative balance"]
 },
 {
     "word": "statement",
@@ -6205,7 +6516,8 @@
             ]
         }
     ],
-    "subtext": "bank record / account summary"
+    "subtext": "",
+    "synonyms": ["bank record", "account summary"]
 },
 {
     "word": "partially",
@@ -6222,7 +6534,8 @@
             ]
         }
     ],
-    "subtext": "partly / in part",
+    "subtext": "",
+    "synonyms": ["partly", "in part"],
     "opposite": "completely"
 },
 {
@@ -6240,7 +6553,8 @@
             ]
         }
     ],
-    "subtext": "firmly / powerfully",
+    "subtext": "",
+    "synonyms": ["firmly", "powerfully"],
     "opposite": "weakly"
 }
     ];

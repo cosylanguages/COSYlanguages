@@ -16,7 +16,8 @@
             ]
         }
     ],
-    "subtext": "not present / away",
+    "subtext": "",
+    "synonyms": ["not present", "away"],
     "comparative": null,
     "superlative": null
 },
@@ -35,7 +36,8 @@
             ]
         }
     ],
-    "subtext": "school-related",
+    "subtext": "",
+    "synonyms": ["school-related"],
     "comparative": "more academic",
     "superlative": "the most academic"
 },
@@ -55,7 +57,8 @@
             ]
         }
     ],
-    "subtext": "busy / energetic",
+    "subtext": "",
+    "synonyms": ["busy", "energetic"],
     "comparative": "more active",
     "superlative": "the most active"
 },
@@ -74,7 +77,8 @@
             ]
         }
     ],
-    "subtext": "real / true",
+    "subtext": "",
+    "synonyms": ["real", "true"],
     "comparative": null,
     "superlative": null
 },
@@ -93,7 +97,8 @@
             ]
         }
     ],
-    "subtext": "inexpensive / low-cost",
+    "subtext": "",
+    "synonyms": ["inexpensive", "low-cost"],
     "comparative": "more affordable",
     "superlative": "the most affordable"
 },
@@ -112,7 +117,8 @@
             ]
         }
     ],
-    "subtext": "violent / angry",
+    "subtext": "",
+    "synonyms": ["violent", "angry"],
     "comparative": "more aggressive",
     "superlative": "the most aggressive"
 },
@@ -131,7 +137,8 @@
             ]
         }
     ],
-    "subtext": "determined / aspiring",
+    "subtext": "",
+    "synonyms": ["determined", "aspiring"],
     "comparative": "more ambitious",
     "superlative": "the most ambitious"
 },
@@ -151,7 +158,8 @@
             ]
         }
     ],
-    "subtext": "antique / aged / very old",
+    "subtext": "",
+    "synonyms": ["antique", "aged", "very old"],
     "comparative": "more ancient",
     "superlative": "the most ancient"
 },
@@ -170,7 +178,8 @@
             ]
         }
     ],
-    "subtext": "yearly",
+    "subtext": "",
+    "synonyms": ["yearly"],
     "comparative": null,
     "superlative": null
 },
@@ -190,7 +199,8 @@
             ]
         }
     ],
-    "subtext": "worried / nervous / uneasy",
+    "subtext": "",
+    "synonyms": ["worried", "nervous", "uneasy"],
     "comparative": "more anxious",
     "superlative": "the most anxious"
 },
@@ -209,7 +219,8 @@
             ]
         }
     ],
-    "subtext": "man-made / synthetic",
+    "subtext": "",
+    "synonyms": ["man-made", "synthetic"],
     "comparative": "more artificial",
     "superlative": "the most artificial"
 },
@@ -228,7 +239,8 @@
             ]
         }
     ],
-    "subtext": "fit / sporty / physically active",
+    "subtext": "",
+    "synonyms": ["fit", "sporty", "physically active"],
     "comparative": "more athletic",
     "superlative": "the most athletic"
 },
@@ -247,7 +259,8 @@
             ]
         }
     ],
-    "subtext": "self-working",
+    "subtext": "",
+    "synonyms": ["self-working"],
     "comparative": "more automatic",
     "superlative": "the most automatic"
 },
@@ -285,7 +298,8 @@
             ]
         }
     ],
-    "subtext": "informed / conscious",
+    "subtext": "",
+    "synonyms": ["informed", "conscious"],
     "comparative": "more aware",
     "superlative": "the most aware"
 },
@@ -305,7 +319,8 @@
             ]
         }
     ],
-    "subtext": "simple / fundamental / essential",
+    "subtext": "",
+    "synonyms": ["simple", "fundamental", "essential"],
     "comparative": "more basic",
     "superlative": "the most basic"
 },
@@ -324,7 +339,8 @@
             ]
         }
     ],
-    "subtext": "nature-related",
+    "subtext": "",
+    "synonyms": ["nature-related"],
     "comparative": null,
     "superlative": null
 },
@@ -344,7 +360,8 @@
             ]
         }
     ],
-    "subtext": "courageous / fearless",
+    "subtext": "",
+    "synonyms": ["courageous", "fearless"],
     "comparative": "braver",
     "superlative": "the bravest"
 },
@@ -364,7 +381,8 @@
             ]
         }
     ],
-    "subtext": "short / quick / concise",
+    "subtext": "",
+    "synonyms": ["short", "quick", "concise"],
     "comparative": "briefer",
     "superlative": "the briefest"
 },
@@ -402,7 +420,8 @@
             ]
         }
     ],
-    "subtext": "dark-haired / a brunette woman",
+    "subtext": "a brunette woman",
+    "synonyms": ["dark-haired"],
     "comparative": null,
     "superlative": null
 },
@@ -422,7 +441,8 @@
             ]
         }
     ],
-    "subtext": "peaceful / quiet / tranquil",
+    "subtext": "",
+    "synonyms": ["peaceful", "quiet", "tranquil"],
     "comparative": "calmer",
     "superlative": "the calmest"
 },
@@ -441,7 +461,8 @@
             ]
         }
     ],
-    "subtext": "thoughtless, reckless / a careless mistake / be careless",
+    "subtext": "a careless mistake / be careless",
+    "synonyms": ["thoughtless", "reckless"],
     "comparative": "more careless",
     "superlative": "the most careless"
 },
@@ -460,7 +481,8 @@
             ]
         }
     ],
-    "subtext": "middle / main",
+    "subtext": "",
+    "synonyms": ["middle", "main"],
     "comparative": "more central",
     "superlative": "the most central"
 },
@@ -480,7 +502,8 @@
             ]
         }
     ],
-    "subtext": "sure / definite / positive",
+    "subtext": "",
+    "synonyms": ["sure", "definite", "positive"],
     "comparative": "more certain",
     "superlative": "the most certain"
 },
@@ -500,7 +523,8 @@
             ]
         }
     ],
-    "subtext": "happy / joyful / upbeat",
+    "subtext": "",
+    "synonyms": ["happy", "joyful", "upbeat"],
     "comparative": "more cheerful",
     "superlative": "the most cheerful"
 },
@@ -539,7 +563,8 @@
             ]
         }
     ],
-    "subtext": "smart / intelligent / bright",
+    "subtext": "",
+    "synonyms": ["smart", "intelligent", "bright"],
     "comparative": "cleverer",
     "superlative": "the cleverest"
 },
@@ -559,7 +584,8 @@
             ]
         }
     ],
-    "subtext": "comfy / cozy",
+    "subtext": "",
+    "synonyms": ["comfy", "cozy"],
     "comparative": "more comfortable",
     "superlative": "the most comfortable"
 },
@@ -578,7 +604,8 @@
             ]
         }
     ],
-    "subtext": "business-related",
+    "subtext": "",
+    "synonyms": ["business-related"],
     "comparative": "more commercial",
     "superlative": "the most commercial"
 },
@@ -598,7 +625,8 @@
             ]
         }
     ],
-    "subtext": "usual / frequent / ordinary",
+    "subtext": "",
+    "synonyms": ["usual", "frequent", "ordinary"],
     "comparative": "commoner",
     "superlative": "the commonest"
 },
@@ -617,7 +645,8 @@
             ]
         }
     ],
-    "subtext": "ambitious",
+    "subtext": "",
+    "synonyms": ["ambitious"],
     "comparative": "more competitive",
     "superlative": "the most competitive"
 },
@@ -636,7 +665,8 @@
             ]
         }
     ],
-    "subtext": "complex / intricate",
+    "subtext": "",
+    "synonyms": ["complex", "intricate"],
     "comparative": "more complicated",
     "superlative": "the most complicated"
 },
@@ -656,7 +686,8 @@
             ]
         }
     ],
-    "subtext": "self-assured / bold",
+    "subtext": "",
+    "synonyms": ["self-assured", "bold"],
     "comparative": "more confident",
     "superlative": "the most confident"
 },
@@ -675,7 +706,8 @@
             ]
         }
     ],
-    "subtext": "secret / private / classified",
+    "subtext": "",
+    "synonyms": ["secret", "private", "classified"],
     "comparative": "more confidential",
     "superlative": "the most confidential"
 },
@@ -694,7 +726,8 @@
             ]
         }
     ],
-    "subtext": "aware",
+    "subtext": "",
+    "synonyms": ["aware"],
     "comparative": "more conscious",
     "superlative": "the most conscious"
 },
@@ -713,7 +746,8 @@
             ]
         }
     ],
-    "subtext": "very convenient / conveniently located / a convenient time",
+    "subtext": "very convenient / a convenient time",
+    "synonyms": ["conveniently located"],
     "comparative": "more convenient",
     "superlative": "the most convenient"
 },
@@ -733,7 +767,8 @@
             ]
         }
     ],
-    "subtext": "right / true",
+    "subtext": "",
+    "synonyms": ["right", "true"],
     "comparative": "more correct",
     "superlative": "the most correct"
 },
@@ -753,7 +788,8 @@
             ]
         }
     ],
-    "subtext": "imaginative / original",
+    "subtext": "",
+    "synonyms": ["imaginative", "original"],
     "comparative": "more creative",
     "superlative": "the most creative"
 },
@@ -772,7 +808,8 @@
             ]
         }
     ],
-    "subtext": "judgmental / negative",
+    "subtext": "",
+    "synonyms": ["judgmental", "negative"],
     "comparative": "more critical",
     "superlative": "the most critical"
 },
@@ -792,7 +829,8 @@
             ]
         }
     ],
-    "subtext": "mean / unkind",
+    "subtext": "",
+    "synonyms": ["mean", "unkind"],
     "comparative": "crueller",
     "superlative": "the cruellest"
 },
@@ -811,7 +849,8 @@
             ]
         }
     ],
-    "subtext": "culture-related",
+    "subtext": "",
+    "synonyms": ["culture-related"],
     "comparative": "more cultural",
     "superlative": "the most cultural"
 },
@@ -831,7 +870,8 @@
             ]
         }
     ],
-    "subtext": "interested / inquisitive",
+    "subtext": "",
+    "synonyms": ["interested", "inquisitive"],
     "comparative": "more curious",
     "superlative": "the most curious"
 },
@@ -850,7 +890,8 @@
             ]
         }
     ],
-    "subtext": "current situation / current employer / currently",
+    "subtext": "current situation / current employer",
+    "synonyms": ["currently"],
     "comparative": null,
     "superlative": null
 },
@@ -889,7 +930,8 @@
             ]
         }
     ],
-    "subtext": "not safe / risky",
+    "subtext": "",
+    "synonyms": ["not safe", "risky"],
     "comparative": "more dangerous",
     "superlative": "the most dangerous"
 },
@@ -908,7 +950,8 @@
             ]
         }
     ],
-    "subtext": "planned / intentional",
+    "subtext": "",
+    "synonyms": ["planned", "intentional"],
     "comparative": "more deliberate",
     "superlative": "the most deliberate"
 },
@@ -928,7 +971,8 @@
             ]
         }
     ],
-    "subtext": "tasty / yummy",
+    "subtext": "",
+    "synonyms": ["tasty", "yummy"],
     "comparative": "more delicious",
     "superlative": "the most delicious"
 },
@@ -948,7 +992,8 @@
             ]
         }
     ],
-    "subtext": "hard / challenging",
+    "subtext": "",
+    "synonyms": ["hard", "challenging"],
     "comparative": "more difficult",
     "superlative": "the most difficult"
 },
@@ -967,7 +1012,8 @@
             ]
         }
     ],
-    "subtext": "tech-related",
+    "subtext": "",
+    "synonyms": ["tech-related"],
     "comparative": "more digital",
     "superlative": "the most digital"
 },
@@ -1006,7 +1052,8 @@
             ]
         }
     ],
-    "subtext": "not clean / messy",
+    "subtext": "",
+    "synonyms": ["not clean", "messy"],
     "comparative": "dirtier",
     "superlative": "the dirtiest"
 },
@@ -1025,7 +1072,8 @@
             ]
         }
     ],
-    "subtext": "lying, deceitful / dishonest behavior / completely dishonest",
+    "subtext": "dishonest behavior / completely dishonest",
+    "synonyms": ["lying", "deceitful"],
     "comparative": "more dishonest",
     "superlative": "the most dishonest"
 },
@@ -1044,7 +1092,8 @@
             ]
         }
     ],
-    "subtext": "unhappy, not content / dissatisfied customer / feel dissatisfied",
+    "subtext": "dissatisfied customer / feel dissatisfied",
+    "synonyms": ["unhappy", "not content"],
     "comparative": "more dissatisfied",
     "superlative": "the most dissatisfied"
 },
@@ -1064,7 +1113,8 @@
             ]
         }
     ],
-    "subtext": "not hard / simple",
+    "subtext": "",
+    "synonyms": ["not hard", "simple"],
     "comparative": "easier",
     "superlative": "the easiest"
 },
@@ -1083,7 +1133,8 @@
             ]
         }
     ],
-    "subtext": "economy-related",
+    "subtext": "",
+    "synonyms": ["economy-related"],
     "comparative": "more economic",
     "superlative": "the most economic"
 },
@@ -1102,7 +1153,8 @@
             ]
         }
     ],
-    "subtext": "effective / productive",
+    "subtext": "",
+    "synonyms": ["effective", "productive"],
     "comparative": "more efficient",
     "superlative": "the most efficient"
 },
@@ -1121,7 +1173,8 @@
             ]
         }
     ],
-    "subtext": "feeling-based",
+    "subtext": "",
+    "synonyms": ["feeling-based"],
     "comparative": "more emotional",
     "superlative": "the most emotional"
 },
@@ -1141,7 +1194,8 @@
             ]
         }
     ],
-    "subtext": "containing nothing / vacant",
+    "subtext": "",
+    "synonyms": ["containing nothing", "vacant"],
     "comparative": "emptier",
     "superlative": "the emptiest"
 },
@@ -1160,7 +1214,8 @@
             ]
         }
     ],
-    "subtext": "active, lively / feel energetic / very energetic",
+    "subtext": "feel energetic / very energetic",
+    "synonyms": ["active", "lively"],
     "comparative": "more energetic",
     "superlative": "the most energetic"
 },
@@ -1179,7 +1234,8 @@
             ]
         }
     ],
-    "subtext": "nature-related",
+    "subtext": "",
+    "synonyms": ["nature-related"],
     "comparative": "more environmental",
     "superlative": "the most environmental"
 },
@@ -1218,7 +1274,8 @@
             ]
         }
     ],
-    "subtext": "costly / high price",
+    "subtext": "",
+    "synonyms": ["costly", "high price"],
     "comparative": "more expensive",
     "superlative": "the most expensive"
 },
@@ -1256,7 +1313,8 @@
             ]
         }
     ],
-    "subtext": "very high / intense",
+    "subtext": "",
+    "synonyms": ["very high", "intense"],
     "comparative": "more extreme",
     "superlative": "the most extreme"
 },
@@ -1276,7 +1334,8 @@
             ]
         }
     ],
-    "subtext": "just / equal",
+    "subtext": "",
+    "synonyms": ["just", "equal"],
     "comparative": "fairer",
     "superlative": "the fairest"
 },
@@ -1295,7 +1354,8 @@
             ]
         }
     ],
-    "subtext": "false, artificial / fake money / a fake smile",
+    "subtext": "fake money / a fake smile",
+    "synonyms": ["false", "artificial"],
     "comparative": "more fake",
     "superlative": "the most fake"
 },
@@ -1314,7 +1374,8 @@
             ]
         }
     ],
-    "subtext": "well-known",
+    "subtext": "",
+    "synonyms": ["well-known"],
     "comparative": "more familiar",
     "superlative": "the most familiar"
 },
@@ -1334,7 +1395,8 @@
             ]
         }
     ],
-    "subtext": "well-known / celebrated",
+    "subtext": "",
+    "synonyms": ["well-known", "celebrated"],
     "comparative": "more famous",
     "superlative": "the most famous"
 },
@@ -1354,7 +1416,8 @@
             ]
         }
     ],
-    "subtext": "quick / rapid",
+    "subtext": "",
+    "synonyms": ["quick", "rapid"],
     "comparative": "faster",
     "superlative": "the fastest"
 },
@@ -1374,7 +1437,8 @@
             ]
         }
     ],
-    "subtext": "large / overweight",
+    "subtext": "",
+    "synonyms": ["large", "overweight"],
     "comparative": "fatter",
     "superlative": "the fattest"
 },
@@ -1393,7 +1457,8 @@
             ]
         }
     ],
-    "subtext": "money-related",
+    "subtext": "",
+    "synonyms": ["money-related"],
     "comparative": "more financial",
     "superlative": "the most financial"
 },
@@ -1413,7 +1478,8 @@
             ]
         }
     ],
-    "subtext": "okay / good",
+    "subtext": "",
+    "synonyms": ["okay", "good"],
     "comparative": "finer",
     "superlative": "the finest"
 },
@@ -1433,7 +1499,8 @@
             ]
         }
     ],
-    "subtext": "level / even",
+    "subtext": "",
+    "synonyms": ["level", "even"],
     "comparative": "flatter",
     "superlative": "the flattest"
 },
@@ -1471,7 +1538,8 @@
             ]
         }
     ],
-    "subtext": "silly, stupid / foolish mistake / feel foolish",
+    "subtext": "foolish mistake / feel foolish",
+    "synonyms": ["silly", "stupid"],
     "comparative": "more foolish",
     "superlative": "the most foolish"
 },
@@ -1491,7 +1559,8 @@
             ]
         }
     ],
-    "subtext": "from another country / alien",
+    "subtext": "",
+    "synonyms": ["from another country", "alien"],
     "comparative": "more foreign",
     "superlative": "the most foreign"
 },
@@ -1511,7 +1580,8 @@
             ]
         }
     ],
-    "subtext": "official / serious",
+    "subtext": "",
+    "synonyms": ["official", "serious"],
     "comparative": "more formal",
     "superlative": "the most formal"
 },
@@ -1531,7 +1601,8 @@
             ]
         }
     ],
-    "subtext": "new / recently picked",
+    "subtext": "",
+    "synonyms": ["new", "recently picked"],
     "comparative": "fresher",
     "superlative": "the freshest"
 },
@@ -1551,7 +1622,8 @@
             ]
         }
     ],
-    "subtext": "filled / complete",
+    "subtext": "",
+    "synonyms": ["filled", "complete"],
     "comparative": "fuller",
     "superlative": "the fullest"
 },
@@ -1571,7 +1643,8 @@
             ]
         }
     ],
-    "subtext": "amusing / humorous",
+    "subtext": "",
+    "synonyms": ["amusing", "humorous"],
     "comparative": "funnier",
     "superlative": "the funniest"
 },
@@ -1610,7 +1683,8 @@
             ]
         }
     ],
-    "subtext": "common / overall",
+    "subtext": "",
+    "synonyms": ["common", "overall"],
     "comparative": "more general",
     "superlative": "the most general"
 },
@@ -1630,7 +1704,8 @@
             ]
         }
     ],
-    "subtext": "kind / giving",
+    "subtext": "",
+    "synonyms": ["kind", "giving"],
     "comparative": "more generous",
     "superlative": "the most generous"
 },
@@ -1649,7 +1724,8 @@
             ]
         }
     ],
-    "subtext": "worldwide",
+    "subtext": "",
+    "synonyms": ["worldwide"],
     "comparative": "more global",
     "superlative": "the most global"
 },
@@ -1668,7 +1744,8 @@
             ]
         }
     ],
-    "subtext": "thankful",
+    "subtext": "",
+    "synonyms": ["thankful"],
     "comparative": "more grateful",
     "superlative": "the most grateful"
 },
@@ -1688,7 +1765,8 @@
             ]
         }
     ],
-    "subtext": "wonderful / excellent",
+    "subtext": "",
+    "synonyms": ["wonderful", "excellent"],
     "comparative": "greater",
     "superlative": "the greatest"
 },
@@ -1707,7 +1785,8 @@
             ]
         }
     ],
-    "subtext": "responsible for crime",
+    "subtext": "",
+    "synonyms": ["responsible for crime"],
     "comparative": "more guilty",
     "superlative": "the most guilty"
 },
@@ -1727,7 +1806,8 @@
             ]
         }
     ],
-    "subtext": "firm / stiff",
+    "subtext": "",
+    "synonyms": ["firm", "stiff"],
     "comparative": "harder",
     "superlative": "the hardest"
 },
@@ -1746,7 +1826,8 @@
             ]
         }
     ],
-    "subtext": "well / fit",
+    "subtext": "",
+    "synonyms": ["well", "fit"],
     "comparative": "healthier",
     "superlative": "the healthiest"
 },
@@ -1766,7 +1847,8 @@
             ]
         }
     ],
-    "subtext": "useful / kind",
+    "subtext": "",
+    "synonyms": ["useful", "kind"],
     "comparative": "more helpful",
     "superlative": "the most helpful"
 },
@@ -1786,7 +1868,8 @@
             ]
         }
     ],
-    "subtext": "truthful / trustworthy",
+    "subtext": "",
+    "synonyms": ["truthful", "trustworthy"],
     "comparative": "more honest",
     "superlative": "the most honest"
 },
@@ -1806,7 +1889,8 @@
             ]
         }
     ],
-    "subtext": "very large / enormous",
+    "subtext": "",
+    "synonyms": ["very large", "enormous"],
     "comparative": "huger",
     "superlative": "the hugest"
 },
@@ -1825,7 +1909,8 @@
             ]
         }
     ],
-    "subtext": "unlawful",
+    "subtext": "",
+    "synonyms": ["unlawful"],
     "comparative": "more illegal",
     "superlative": "the most illegal"
 },
@@ -1844,7 +1929,8 @@
             ]
         }
     ],
-    "subtext": "instant / direct",
+    "subtext": "",
+    "synonyms": ["instant", "direct"],
     "comparative": null,
     "superlative": null
 },
@@ -1863,7 +1949,8 @@
             ]
         }
     ],
-    "subtext": "restless / become impatient / don't be impatient",
+    "subtext": "become impatient / don't be impatient",
+    "synonyms": ["restless"],
     "comparative": "more impatient",
     "superlative": "the most impatient"
 },
@@ -1882,7 +1969,8 @@
             ]
         }
     ],
-    "subtext": "flawed / imperfect system / imperfect world",
+    "subtext": "imperfect system / imperfect world",
+    "synonyms": ["flawed"],
     "comparative": "more imperfect",
     "superlative": "the most imperfect"
 },
@@ -1901,7 +1989,8 @@
             ]
         }
     ],
-    "subtext": "rude / an impolite answer / it is impolite",
+    "subtext": "an impolite answer / it is impolite",
+    "synonyms": ["rude"],
     "comparative": "more impolite",
     "superlative": "the most impolite"
 },
@@ -1940,7 +2029,8 @@
             ]
         }
     ],
-    "subtext": "wrong / false",
+    "subtext": "",
+    "synonyms": ["wrong", "false"],
     "comparative": "more incorrect",
     "superlative": "the most incorrect"
 },
@@ -1978,7 +2068,8 @@
             ]
         }
     ],
-    "subtext": "industry-related",
+    "subtext": "",
+    "synonyms": ["industry-related"],
     "comparative": "more industrial",
     "superlative": "the most industrial"
 },
@@ -1997,7 +2088,8 @@
             ]
         }
     ],
-    "subtext": "not guilty",
+    "subtext": "",
+    "synonyms": ["not guilty"],
     "comparative": "more innocent",
     "superlative": "the most innocent"
 },
@@ -2017,7 +2109,8 @@
             ]
         }
     ],
-    "subtext": "clever / smart",
+    "subtext": "",
+    "synonyms": ["clever", "smart"],
     "comparative": "more intelligent",
     "superlative": "the most intelligent"
 },
@@ -2037,7 +2130,8 @@
             ]
         }
     ],
-    "subtext": "inside / inner",
+    "subtext": "",
+    "synonyms": ["inside", "inner"],
     "comparative": "more internal",
     "superlative": "the most internal"
 },
@@ -2057,7 +2151,8 @@
             ]
         }
     ],
-    "subtext": "lower rank / younger",
+    "subtext": "",
+    "synonyms": ["lower rank", "younger"],
     "comparative": "more junior",
     "superlative": "the most junior"
 },
@@ -2076,7 +2171,8 @@
             ]
         }
     ],
-    "subtext": "lawful",
+    "subtext": "",
+    "synonyms": ["lawful"],
     "comparative": "more legal",
     "superlative": "the most legal"
 },
@@ -2095,7 +2191,8 @@
             ]
         }
     ],
-    "subtext": "probable",
+    "subtext": "",
+    "synonyms": ["probable"],
     "comparative": "more likely",
     "superlative": "the most likely"
 },
@@ -2115,7 +2212,8 @@
             ]
         }
     ],
-    "subtext": "nearby / regional",
+    "subtext": "",
+    "synonyms": ["nearby", "regional"],
     "comparative": "more local",
     "superlative": "the most local"
 },
@@ -2134,7 +2232,8 @@
             ]
         }
     ],
-    "subtext": "rational / reasonable",
+    "subtext": "",
+    "synonyms": ["rational", "reasonable"],
     "comparative": "more logical",
     "superlative": "the most logical"
 },
@@ -2154,7 +2253,8 @@
             ]
         }
     ],
-    "subtext": "baggy / not tight",
+    "subtext": "",
+    "synonyms": ["baggy", "not tight"],
     "comparative": "looser",
     "superlative": "the loosest"
 },
@@ -2173,7 +2273,8 @@
             ]
         }
     ],
-    "subtext": "faithful",
+    "subtext": "",
+    "synonyms": ["faithful"],
     "comparative": "more loyal",
     "superlative": "the most loyal"
 },
@@ -2192,7 +2293,8 @@
             ]
         }
     ],
-    "subtext": "hand-done",
+    "subtext": "",
+    "synonyms": ["hand-done"],
     "comparative": "more manual",
     "superlative": "the most manual"
 },
@@ -2211,7 +2313,8 @@
             ]
         }
     ],
-    "subtext": "mind-related",
+    "subtext": "",
+    "synonyms": ["mind-related"],
     "comparative": "more mental",
     "superlative": "the most mental"
 },
@@ -2231,7 +2334,8 @@
             ]
         }
     ],
-    "subtext": "untidy / disordered",
+    "subtext": "",
+    "synonyms": ["untidy", "disordered"],
     "comparative": "messier",
     "superlative": "the messiest"
 },
@@ -2250,7 +2354,8 @@
             ]
         }
     ],
-    "subtext": "gentle / moderate",
+    "subtext": "",
+    "synonyms": ["gentle", "moderate"],
     "comparative": "milder",
     "superlative": "the mildest"
 },
@@ -2270,7 +2375,8 @@
             ]
         }
     ],
-    "subtext": "humble",
+    "subtext": "",
+    "synonyms": ["humble"],
     "comparative": "more modest",
     "superlative": "the most modest"
 },
@@ -2290,7 +2396,8 @@
             ]
         }
     ],
-    "subtext": "normal / from nature",
+    "subtext": "",
+    "synonyms": ["normal", "from nature"],
     "comparative": "more natural",
     "superlative": "the most natural"
 },
@@ -2310,7 +2417,8 @@
             ]
         }
     ],
-    "subtext": "tidy / organized",
+    "subtext": "",
+    "synonyms": ["tidy", "organized"],
     "comparative": "neater",
     "superlative": "the neatest"
 },
@@ -2348,7 +2456,8 @@
             ]
         }
     ],
-    "subtext": "bad / harmful",
+    "subtext": "",
+    "synonyms": ["bad", "harmful"],
     "comparative": "more negative",
     "superlative": "the most negative"
 },
@@ -2367,7 +2476,8 @@
             ]
         }
     ],
-    "subtext": "many",
+    "subtext": "",
+    "synonyms": ["many"],
     "comparative": null,
     "superlative": null
 },
@@ -2386,7 +2496,8 @@
             ]
         }
     ],
-    "subtext": "strange / unusual",
+    "subtext": "",
+    "synonyms": ["strange", "unusual"],
     "comparative": "odder",
     "superlative": "the oddest"
 },
@@ -2406,7 +2517,8 @@
             ]
         }
     ],
-    "subtext": "formal / authorized",
+    "subtext": "",
+    "synonyms": ["formal", "authorized"],
     "comparative": "more official",
     "superlative": "the most official"
 },
@@ -2426,7 +2538,8 @@
             ]
         }
     ],
-    "subtext": "positive / hopeful",
+    "subtext": "",
+    "synonyms": ["positive", "hopeful"],
     "comparative": "more optimistic",
     "superlative": "the most optimistic"
 },
@@ -2503,7 +2616,8 @@
             ]
         }
     ],
-    "subtext": "calm / tolerant",
+    "subtext": "",
+    "synonyms": ["calm", "tolerant"],
     "comparative": "more patient",
     "superlative": "the most patient"
 },
@@ -2522,7 +2636,8 @@
             ]
         }
     ],
-    "subtext": "constant / forever",
+    "subtext": "",
+    "synonyms": ["constant", "forever"],
     "comparative": "more permanent",
     "superlative": "the most permanent"
 },
@@ -2541,7 +2656,8 @@
             ]
         }
     ],
-    "subtext": "private / individual",
+    "subtext": "",
+    "synonyms": ["private", "individual"],
     "comparative": "more personal",
     "superlative": "the most personal"
 },
@@ -2561,7 +2677,8 @@
             ]
         }
     ],
-    "subtext": "negative / hopeless",
+    "subtext": "",
+    "synonyms": ["negative", "hopeless"],
     "comparative": "more pessimistic",
     "superlative": "the most pessimistic"
 },
@@ -2580,7 +2697,8 @@
             ]
         }
     ],
-    "subtext": "body-related",
+    "subtext": "",
+    "synonyms": ["body-related"],
     "comparative": "more physical",
     "superlative": "the most physical"
 },
@@ -2600,7 +2718,8 @@
             ]
         }
     ],
-    "subtext": "well-mannered / respectful",
+    "subtext": "",
+    "synonyms": ["well-mannered", "respectful"],
     "comparative": "politer",
     "superlative": "the politest"
 },
@@ -2619,7 +2738,8 @@
             ]
         }
     ],
-    "subtext": "government-related",
+    "subtext": "",
+    "synonyms": ["government-related"],
     "comparative": "more political",
     "superlative": "the most political"
 },
@@ -2658,7 +2778,8 @@
             ]
         }
     ],
-    "subtext": "hopeful / good",
+    "subtext": "",
+    "synonyms": ["hopeful", "good"],
     "comparative": "more positive",
     "superlative": "the most positive"
 },
@@ -2696,7 +2817,8 @@
             ]
         }
     ],
-    "subtext": "possible",
+    "subtext": "",
+    "synonyms": ["possible"],
     "comparative": "more potential",
     "superlative": "the most potential"
 },
@@ -2734,7 +2856,8 @@
             ]
         }
     ],
-    "subtext": "former, earlier / previous job / previous week",
+    "subtext": "previous job / previous week",
+    "synonyms": ["former", "earlier"],
     "comparative": null,
     "superlative": null
 },
@@ -2754,7 +2877,8 @@
             ]
         }
     ],
-    "subtext": "personal / confidential",
+    "subtext": "",
+    "synonyms": ["personal", "confidential"],
     "comparative": "more private",
     "superlative": "the most private"
 },
@@ -2812,7 +2936,8 @@
             ]
         }
     ],
-    "subtext": "open / communal",
+    "subtext": "",
+    "synonyms": ["open", "communal"],
     "comparative": "more public",
     "superlative": "the most public"
 },
@@ -2851,7 +2976,8 @@
             ]
         }
     ],
-    "subtext": "uncommon / unusual",
+    "subtext": "",
+    "synonyms": ["uncommon", "unusual"],
     "comparative": "rarer",
     "superlative": "the rarest"
 },
@@ -2870,7 +2996,8 @@
             ]
         }
     ],
-    "subtext": "sensible / fair",
+    "subtext": "",
+    "synonyms": ["sensible", "fair"],
     "comparative": "more reasonable",
     "superlative": "the most reasonable"
 },
@@ -2908,7 +3035,8 @@
             ]
         }
     ],
-    "subtext": "usual / normal",
+    "subtext": "",
+    "synonyms": ["usual", "normal"],
     "comparative": "more regular",
     "superlative": "the most regular"
 },
@@ -2927,7 +3055,8 @@
             ]
         }
     ],
-    "subtext": "applicable",
+    "subtext": "",
+    "synonyms": ["applicable"],
     "comparative": "more relevant",
     "superlative": "the most relevant"
 },
@@ -2965,7 +3094,8 @@
             ]
         }
     ],
-    "subtext": "distant",
+    "subtext": "",
+    "synonyms": ["distant"],
     "comparative": "remoter",
     "superlative": "the remotest"
 },
@@ -3004,7 +3134,8 @@
             ]
         }
     ],
-    "subtext": "uneven / coarse",
+    "subtext": "",
+    "synonyms": ["uneven", "coarse"],
     "comparative": "rougher",
     "superlative": "the roughest"
 },
@@ -3023,7 +3154,8 @@
             ]
         }
     ],
-    "subtext": "content, pleased / feel satisfied / satisfied with",
+    "subtext": "feel satisfied / satisfied with",
+    "synonyms": ["content", "pleased"],
     "comparative": "more satisfied",
     "superlative": "the most satisfied"
 },
@@ -3042,7 +3174,8 @@
             ]
         }
     ],
-    "subtext": "science-related",
+    "subtext": "",
+    "synonyms": ["science-related"],
     "comparative": "more scientific",
     "superlative": "the most scientific"
 },
@@ -3062,7 +3195,8 @@
             ]
         }
     ],
-    "subtext": "self-centered",
+    "subtext": "",
+    "synonyms": ["self-centered"],
     "comparative": "more selfish",
     "superlative": "the most selfish"
 },
@@ -3082,7 +3216,8 @@
             ]
         }
     ],
-    "subtext": "practical / reasonable",
+    "subtext": "",
+    "synonyms": ["practical", "reasonable"],
     "comparative": "more sensible",
     "superlative": "the most sensible"
 },
@@ -3102,7 +3237,8 @@
             ]
         }
     ],
-    "subtext": "delicate / emotional",
+    "subtext": "",
+    "synonyms": ["delicate", "emotional"],
     "comparative": "more sensitive",
     "superlative": "the most sensitive"
 },
@@ -3122,7 +3258,8 @@
             ]
         }
     ],
-    "subtext": "grave / solemn",
+    "subtext": "",
+    "synonyms": ["grave", "solemn"],
     "comparative": "more serious",
     "superlative": "the most serious"
 },
@@ -3141,7 +3278,8 @@
             ]
         }
     ],
-    "subtext": "serious / extreme",
+    "subtext": "",
+    "synonyms": ["serious", "extreme"],
     "comparative": "more severe",
     "superlative": "the most severe"
 },
@@ -3180,7 +3318,8 @@
             ]
         }
     ],
-    "subtext": "even / flat",
+    "subtext": "",
+    "synonyms": ["even", "flat"],
     "comparative": "smoother",
     "superlative": "the smoothest"
 },
@@ -3218,7 +3357,8 @@
             ]
         }
     ],
-    "subtext": "society-related",
+    "subtext": "",
+    "synonyms": ["society-related"],
     "comparative": "more social",
     "superlative": "the most social"
 },
@@ -3238,7 +3378,8 @@
             ]
         }
     ],
-    "subtext": "gentle / tender",
+    "subtext": "",
+    "synonyms": ["gentle", "tender"],
     "comparative": "softer",
     "superlative": "the softest"
 },
@@ -3257,7 +3398,8 @@
             ]
         }
     ],
-    "subtext": "non-physical / deep",
+    "subtext": "",
+    "synonyms": ["non-physical", "deep"],
     "comparative": "more spiritual",
     "superlative": "the most spiritual"
 },
@@ -3373,7 +3515,8 @@
             ]
         }
     ],
-    "subtext": "eco-friendly",
+    "subtext": "",
+    "synonyms": ["eco-friendly"],
     "comparative": "more sustainable",
     "superlative": "the most sustainable"
 },
@@ -3393,7 +3536,8 @@
             ]
         }
     ],
-    "subtext": "gifted / skilled",
+    "subtext": "",
+    "synonyms": ["gifted", "skilled"],
     "comparative": "more talented",
     "superlative": "the most talented"
 },
@@ -3412,7 +3556,8 @@
             ]
         }
     ],
-    "subtext": "domesticated / tame animal / very tame",
+    "subtext": "tame animal / very tame",
+    "synonyms": ["domesticated"],
     "comparative": "tamer",
     "superlative": "the tamest"
 },
@@ -3431,7 +3576,8 @@
             ]
         }
     ],
-    "subtext": "short-term",
+    "subtext": "",
+    "synonyms": ["short-term"],
     "comparative": "more temporary",
     "superlative": "the most temporary"
 },
@@ -3451,7 +3597,8 @@
             ]
         }
     ],
-    "subtext": "wide / dense",
+    "subtext": "",
+    "synonyms": ["wide", "dense"],
     "comparative": "thicker",
     "superlative": "the thickest"
 },
@@ -3471,7 +3618,8 @@
             ]
         }
     ],
-    "subtext": "slim / narrow",
+    "subtext": "",
+    "synonyms": ["slim", "narrow"],
     "comparative": "thinner",
     "superlative": "the thinnest"
 },
@@ -3491,7 +3639,8 @@
             ]
         }
     ],
-    "subtext": "close-fitting / small",
+    "subtext": "",
+    "synonyms": ["close-fitting", "small"],
     "comparative": "tighter",
     "superlative": "the tightest"
 },
@@ -3548,7 +3697,8 @@
             ]
         }
     ],
-    "subtext": "incapable / unable to do / feel unable",
+    "subtext": "unable to do / feel unable",
+    "synonyms": ["incapable"],
     "comparative": null,
     "superlative": null
 },
@@ -3567,7 +3717,8 @@
             ]
         }
     ],
-    "subtext": "unjust / unfair treatment / very unfair",
+    "subtext": "unfair treatment / very unfair",
+    "synonyms": ["unjust"],
     "comparative": "more unfair",
     "superlative": "the most unfair"
 },
@@ -3586,7 +3737,8 @@
             ]
         }
     ],
-    "subtext": "mean / an unfriendly person / quite unfriendly",
+    "subtext": "an unfriendly person / quite unfriendly",
+    "synonyms": ["mean"],
     "comparative": "unfriendlier",
     "superlative": "the unfriendliest"
 },
@@ -3605,7 +3757,8 @@
             ]
         }
     ],
-    "subtext": "improbable",
+    "subtext": "",
+    "synonyms": ["improbable"],
     "comparative": "more unlikely",
     "superlative": "the most unlikely"
 },
@@ -3624,7 +3777,8 @@
             ]
         }
     ],
-    "subtext": "unfortunate / feel unlucky / an unlucky day",
+    "subtext": "feel unlucky / an unlucky day",
+    "synonyms": ["unfortunate"],
     "comparative": "unluckier",
     "superlative": "the unluckiest"
 },
@@ -3643,7 +3797,8 @@
             ]
         }
     ],
-    "subtext": "not needed / unnecessary expense / absolutely unnecessary",
+    "subtext": "unnecessary expense / absolutely unnecessary",
+    "synonyms": ["not needed"],
     "comparative": "more unnecessary",
     "superlative": "the most unnecessary"
 },
@@ -3682,7 +3837,8 @@
             ]
         }
     ],
-    "subtext": "strange / uncommon",
+    "subtext": "",
+    "synonyms": ["strange", "uncommon"],
     "comparative": "more unusual",
     "superlative": "the most unusual"
 },
@@ -3702,7 +3858,8 @@
             ]
         }
     ],
-    "subtext": "unhappy / sad",
+    "subtext": "",
+    "synonyms": ["unhappy", "sad"],
     "comparative": "more upset",
     "superlative": "the most upset"
 },
@@ -3721,7 +3878,8 @@
             ]
         }
     ],
-    "subtext": "helpful, practical",
+    "subtext": "",
+    "synonyms": ["helpful", "practical"],
     "comparative": "more useful",
     "superlative": "the most useful"
 },
@@ -3760,7 +3918,8 @@
             ]
         }
     ],
-    "subtext": "precious / expensive",
+    "subtext": "",
+    "synonyms": ["precious", "expensive"],
     "comparative": "more valuable",
     "superlative": "the most valuable"
 },
@@ -3780,7 +3939,8 @@
             ]
         }
     ],
-    "subtext": "huge / enormous",
+    "subtext": "",
+    "synonyms": ["huge", "enormous"],
     "comparative": "vaster",
     "superlative": "the vastest"
 },
@@ -3800,7 +3960,8 @@
             ]
         }
     ],
-    "subtext": "not strong / frail",
+    "subtext": "",
+    "synonyms": ["not strong", "frail"],
     "comparative": "weaker",
     "superlative": "the weakest"
 },
@@ -3820,7 +3981,8 @@
             ]
         }
     ],
-    "subtext": "rich / affluent",
+    "subtext": "",
+    "synonyms": ["rich", "affluent"],
     "comparative": "wealthier",
     "superlative": "the wealthiest"
 },
@@ -3839,7 +4001,8 @@
             ]
         }
     ],
-    "subtext": "natural / wild flowers / wild cats",
+    "subtext": "wild flowers / wild cats",
+    "synonyms": ["natural"],
     "comparative": "wilder",
     "superlative": "the wildest"
 },
@@ -3859,7 +4022,8 @@
             ]
         }
     ],
-    "subtext": "ready / eager",
+    "subtext": "",
+    "synonyms": ["ready", "eager"],
     "comparative": "more willing",
     "superlative": "the most willing"
 },
@@ -3879,7 +4043,8 @@
             ]
         }
     ],
-    "subtext": "intelligent / sensible",
+    "subtext": "",
+    "synonyms": ["intelligent", "sensible"],
     "comparative": "wiser",
     "superlative": "the wisest"
 },
@@ -3899,7 +4064,8 @@
             ]
         }
     ],
-    "subtext": "excellent / great",
+    "subtext": "",
+    "synonyms": ["excellent", "great"],
     "comparative": "more wonderful",
     "superlative": "the most wonderful"
 },
@@ -3919,7 +4085,8 @@
             ]
         }
     ],
-    "subtext": "anxious / nervous",
+    "subtext": "",
+    "synonyms": ["anxious", "nervous"],
     "comparative": "more worried",
     "superlative": "the most worried"
 },
@@ -3958,7 +4125,8 @@
             ]
         }
     ],
-    "subtext": "cheap / useless",
+    "subtext": "",
+    "synonyms": ["cheap", "useless"],
     "comparative": "more worthless",
     "superlative": "the most worthless"
 },
@@ -3978,7 +4146,8 @@
             ]
         }
     ],
-    "subtext": "incorrect / false",
+    "subtext": "",
+    "synonyms": ["incorrect", "false"],
     "comparative": "worse",
     "superlative": "the worst"
 },
@@ -3998,7 +4167,8 @@
             ]
         }
     ],
-    "subtext": "not old / youthful",
+    "subtext": "",
+    "synonyms": ["not old", "youthful"],
     "comparative": "younger",
     "superlative": "the youngest"
 },
@@ -4017,7 +4187,8 @@
             ]
         }
     ],
-    "subtext": "very happy / pleased",
+    "subtext": "",
+    "synonyms": ["very happy", "pleased"],
     "comparative": "more delighted",
     "superlative": "the most delighted",
     "opposite": "miserable"
@@ -4037,7 +4208,8 @@
             ]
         }
     ],
-    "subtext": "boring / not bright",
+    "subtext": "",
+    "synonyms": ["boring", "not bright"],
     "comparative": "duller",
     "superlative": "the dullest",
     "opposite": "bright"
@@ -4057,7 +4229,8 @@
             ]
         }
     ],
-    "subtext": "old people",
+    "subtext": "",
+    "synonyms": ["old people"],
     "comparative": "more elderly",
     "superlative": "the most elderly",
     "opposite": "young"
@@ -4077,7 +4250,8 @@
             ]
         }
     ],
-    "subtext": "often",
+    "subtext": "",
+    "synonyms": ["often"],
     "comparative": "more frequent",
     "superlative": "the most frequent",
     "opposite": "rare"
@@ -4097,7 +4271,8 @@
             ]
         }
     ],
-    "subtext": "inside",
+    "subtext": "",
+    "synonyms": ["inside"],
     "comparative": null,
     "superlative": "innermost",
     "opposite": "outer"
@@ -4117,7 +4292,8 @@
             ]
         }
     ],
-    "subtext": "primary / chief",
+    "subtext": "",
+    "synonyms": ["primary", "chief"],
     "comparative": null,
     "superlative": null,
     "opposite": "secondary"
@@ -4137,7 +4313,8 @@
             ]
         }
     ],
-    "subtext": "health-related",
+    "subtext": "",
+    "synonyms": ["health-related"],
     "comparative": "more medical",
     "superlative": "the most medical",
     "opposite": null
@@ -4157,7 +4334,8 @@
             ]
         }
     ],
-    "subtext": "close / near",
+    "subtext": "",
+    "synonyms": ["close", "near"],
     "comparative": null,
     "superlative": null,
     "opposite": "distant"
@@ -4177,7 +4355,8 @@
             ]
         }
     ],
-    "subtext": "outside",
+    "subtext": "",
+    "synonyms": ["outside"],
     "comparative": null,
     "superlative": "outermost",
     "opposite": "inner"
@@ -4197,7 +4376,8 @@
             ]
         }
     ],
-    "subtext": "nice / enjoyable",
+    "subtext": "",
+    "synonyms": ["nice", "enjoyable"],
     "comparative": "more pleasant",
     "superlative": "the most pleasant",
     "opposite": "unpleasant"
@@ -4217,7 +4397,8 @@
             ]
         }
     ],
-    "subtext": "happy / satisfied",
+    "subtext": "",
+    "synonyms": ["happy", "satisfied"],
     "comparative": "more pleased",
     "superlative": "the most pleased",
     "opposite": "annoyed"
@@ -4237,7 +4418,8 @@
             ]
         }
     ],
-    "subtext": "less important",
+    "subtext": "",
+    "synonyms": ["less important"],
     "comparative": null,
     "superlative": null,
     "opposite": "primary"
@@ -4257,7 +4439,8 @@
             ]
         }
     ],
-    "subtext": "quiet",
+    "subtext": "",
+    "synonyms": ["quiet"],
     "comparative": "more silent",
     "superlative": "the most silent",
     "opposite": "noisy"
@@ -4277,7 +4460,8 @@
             ]
         }
     ],
-    "subtext": "unexpected",
+    "subtext": "",
+    "synonyms": ["unexpected"],
     "comparative": "more sudden",
     "superlative": "the most sudden",
     "opposite": "gradual"
@@ -4297,7 +4481,8 @@
             ]
         }
     ],
-    "subtext": "appropriate",
+    "subtext": "",
+    "synonyms": ["appropriate"],
     "comparative": "more suitable",
     "superlative": "the most suitable",
     "opposite": "unsuitable"
@@ -4317,7 +4502,8 @@
             ]
         }
     ],
-    "subtext": "different types",
+    "subtext": "",
+    "synonyms": ["different types"],
     "comparative": null,
     "superlative": null,
     "opposite": "uniform"
@@ -4338,7 +4524,8 @@
             ]
         }
     ],
-    "subtext": "sticky weather / moist air",
+    "subtext": "",
+    "synonyms": ["sticky weather", "moist air"],
     "comparative": "more humid",
     "superlative": "the most humid"
 },
@@ -4358,7 +4545,8 @@
             ]
         }
     ],
-    "subtext": "cool / cold",
+    "subtext": "",
+    "synonyms": ["cool", "cold"],
     "comparative": "chillier",
     "superlative": "the chilliest"
 },
@@ -4378,7 +4566,8 @@
             ]
         }
     ],
-    "subtext": "moderate / gentle",
+    "subtext": "",
+    "synonyms": ["moderate", "gentle"],
     "comparative": "milder",
     "superlative": "the mildest"
 },
@@ -4398,7 +4587,8 @@
             ]
         }
     ],
-    "subtext": "promised to marry",
+    "subtext": "",
+    "synonyms": ["promised to marry"],
     "comparative": null,
     "superlative": null
 },
@@ -4418,7 +4608,8 @@
             ]
         }
     ],
-    "subtext": "not in a relationship / unattached",
+    "subtext": "not in a relationship",
+    "synonyms": ["unattached"],
     "comparative": null,
     "superlative": null
 },
@@ -4438,7 +4629,8 @@
             ]
         }
     ],
-    "subtext": "very angry / livid",
+    "subtext": "",
+    "synonyms": ["very angry", "livid"],
     "comparative": "more furious",
     "superlative": "the most furious"
 },
@@ -4458,7 +4650,8 @@
             ]
         }
     ],
-    "subtext": "very scared / frightened",
+    "subtext": "",
+    "synonyms": ["very scared", "frightened"],
     "comparative": "more terrified",
     "superlative": "the most terrified"
 },
@@ -4478,7 +4671,8 @@
             ]
         }
     ],
-    "subtext": "very tired / worn out",
+    "subtext": "",
+    "synonyms": ["very tired", "worn out"],
     "comparative": "more exhausted",
     "superlative": "the most exhausted"
 },
@@ -4498,7 +4692,8 @@
             ]
         }
     ],
-    "subtext": "loving / passionate",
+    "subtext": "",
+    "synonyms": ["loving", "passionate"],
     "comparative": "more romantic",
     "superlative": "the most romantic"
 },
@@ -4518,7 +4713,8 @@
             ]
         }
     ],
-    "subtext": "puzzled / unsure",
+    "subtext": "",
+    "synonyms": ["puzzled", "unsure"],
     "comparative": "more confused",
     "superlative": "the most confused"
 }
