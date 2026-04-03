@@ -6,6 +6,7 @@
     "theme": "career_development_A2",
     "emoji": "✅",
     "form": "verb",
+    "transcription": "əkˈsept",
     "subtext": "",
     "synonyms": ["agree to", "take", "receive"],
     "definitions": [
@@ -17,6 +18,7 @@
         }
     ],
     "classification": "regular",
+    "group": "regular",
     "aspect": "action",
     "v2": "accepted",
     "v3": "accepted",
@@ -28,6 +30,7 @@
     "theme": "career_development_A2",
     "emoji": "🎯",
     "form": "verb",
+    "transcription": "əˈtʃiːv",
     "subtext": "",
     "synonyms": ["succeed", "reach", "accomplish"],
     "definitions": [
@@ -40,6 +43,7 @@
         }
     ],
     "classification": "regular",
+    "group": "regular",
     "aspect": "action",
     "v2": "achieved",
     "v3": "achieved",
@@ -51,6 +55,8 @@
     "theme": "social_emotions_A2",
     "emoji": "🤩",
     "form": "verb",
+    "transcription": "ədˈmaɪə",
+    "image": "https://images.unsplash.com/photo-1516589174184-c685266e48fc?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["respect", "look up to"],
     "definitions": [
@@ -62,6 +68,7 @@
         }
     ],
     "classification": "regular",
+    "group": "regular",
     "aspect": "action",
     "v2": "admired",
     "v3": "admired",

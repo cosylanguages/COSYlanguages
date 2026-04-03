@@ -24,6 +24,8 @@
     "emoji": "🏦",
     "form": "noun",
     "plural": "accounts",
+    "transcription": "əˈkaʊnt",
+    "image": "https://images.unsplash.com/photo-1550565118-3a14e8d0386f?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "An arrangement with a bank to store your money.",
@@ -41,6 +43,7 @@
     "theme": "career_development_A2",
     "emoji": "🏆",
     "form": "noun",
+    "transcription": "əˈtʃiːvmənt",
     "definitions": [
         {
             "text": "Something very good and difficult that you have succeeded in doing.",
