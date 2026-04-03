@@ -1,5 +1,6 @@
 (function() {
     const data = [
+
     {
         "word": "doctor",
         "level": "starter",
@@ -9,8 +10,8 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "doctors",
-        "transcription": "[ˈdɒktə]",
-        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+        "transcription": "[ˈdɒktə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "subtext": "see a doctor, family doctor",
         "definitions": [
             {
@@ -27,10 +28,9 @@
                 ]
             }
         ],
-        "countability": "uncountable",
+        "countability": "countable",
         "opposite": null
     },
-
 
     {
         "word": "soda",
@@ -40,7 +40,7 @@
         "form": "noun",
         "plural": "sodas",
         "transcription": "[ˈsəʊdə]",
-        "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "subtext": "fizzy drink, soft drink",
         "definitions": [
             {
@@ -54,7 +54,6 @@
         "opposite": null
     },
 
-
     {
         "word": "scarf",
         "level": "starter",
@@ -63,7 +62,7 @@
         "form": "noun",
         "plural": "scarves",
         "transcription": "[skɑːf]",
-        "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "A piece of cloth that you wear around your neck to keep warm.",
@@ -77,7 +76,6 @@
         "opposite": null
     },
 
-
     {
         "word": "cereal",
         "level": "starter",
@@ -86,7 +84,7 @@
         "form": "noun",
         "plural": null,
         "transcription": "[ˈsɪərɪəl]",
-        "image": "https://images.unsplash.com/photo-1521483451569-e33803c0330c?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "A food made from grain that people often eat for breakfast with milk.",
@@ -100,7 +98,6 @@
         "opposite": null
     },
 
-
     {
         "word": "gloves",
         "level": "starter",
@@ -109,7 +106,7 @@
         "form": "noun",
         "plural": "gloves",
         "transcription": "[ɡlʌvz]",
-        "image": "https://images.unsplash.com/photo-1583942222066-44042b57f822?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Pieces of clothing that you wear on your hands to keep them warm.",
@@ -123,7 +120,6 @@
         "opposite": null
     },
 
-
     {
         "word": "sunglasses",
         "level": "starter",
@@ -132,7 +128,7 @@
         "form": "noun",
         "plural": "sunglasses",
         "transcription": "[ˈsʌnɡlɑːsɪz]",
-        "image": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Dark glasses that you wear to protect your eyes from the sun.",
@@ -146,7 +142,6 @@
         "opposite": null
     },
 
-
     {
         "word": "suit",
         "level": "starter",
@@ -155,7 +150,7 @@
         "form": "noun",
         "plural": "suits",
         "transcription": "[suːt]",
-        "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "subtext": "wear a suit",
         "definitions": [
             {
@@ -169,7 +164,6 @@
         "opposite": null
     },
 
-
     {
         "word": "person",
         "level": "starter",
@@ -180,7 +174,7 @@
         "numberPlural": "2 person",
         "answer": "two people",
         "transcription": "[ˈpɜːsn]",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "A human being.",
@@ -194,7 +188,6 @@
         "opposite": null
     },
 
-
     {
         "word": "cash",
         "level": "starter",
@@ -203,7 +196,7 @@
         "form": "noun",
         "plural": null,
         "transcription": "[kæʃ]",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "subtext": "pay in cash",
         "definitions": [
             {
@@ -217,7 +210,6 @@
         "opposite": null
     },
 
-
     {
         "word": "card",
         "level": "starter",
@@ -226,7 +218,7 @@
         "form": "noun",
         "plural": "cards",
         "transcription": "[kɑːd]",
-        "image": "https://images.unsplash.com/photo-1589758438368-0ad531db3366?auto=format&fit=crop&w=400&q=80",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "subtext": "pay by card",
         "definitions": [
             {
@@ -240,9 +232,10 @@
         "opposite": null
     },
 
-
     {
         "word": "report",
+        "transcription": "[rɪˈpɔːt]",
+        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📄",
@@ -261,9 +254,10 @@
         "opposite": null
     },
 
-
     {
         "word": "market",
+        "transcription": "[ˈmɑːkɪt]",
+        "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
@@ -282,9 +276,10 @@
         "opposite": null
     },
 
-
     {
         "word": "next to",
+        "transcription": "[nekst tuː]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -302,9 +297,10 @@
         "emoji": "👫"
     },
 
-
     {
         "word": "between",
+        "transcription": "[bɪˈtwiːn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -321,9 +317,10 @@
         "emoji": "🧘"
     },
 
-
     {
         "word": "behind",
+        "transcription": "[bɪˈhaɪnd]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -340,9 +337,10 @@
         "emoji": "🫣"
     },
 
-
     {
         "word": "in front of",
+        "transcription": "[ɪn frʌnt ɒv]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -359,9 +357,10 @@
         "emoji": "🚶"
     },
 
-
     {
         "word": "jacket",
+        "transcription": "[ˈdʒækɪt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧥",
@@ -380,9 +379,10 @@
         "opposite": null
     },
 
-
     {
         "word": "shirt",
+        "transcription": "[ʃɜːt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
@@ -401,9 +401,10 @@
         "opposite": null
     },
 
-
     {
         "word": "foot",
+        "transcription": "[fʊt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "numberPlural": "2 foot",
@@ -425,9 +426,10 @@
         "opposite": null
     },
 
-
     {
         "word": "face",
+        "transcription": "[feɪs]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
@@ -446,9 +448,10 @@
         "opposite": null
     },
 
-
     {
         "word": "hair",
+        "transcription": "[heə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "💇",
@@ -462,14 +465,15 @@
                 ]
             }
         ],
-        "countability": "uncountable",
+        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null
     },
 
-
     {
         "word": "tooth",
+        "transcription": "[tuːθ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦷",
@@ -490,9 +494,10 @@
         "opposite": null
     },
 
-
     {
         "word": "teacher",
+        "transcription": "[ˈtiːtʃə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "opposite": null,
@@ -519,9 +524,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "pizza",
+        "transcription": "[ˈpiːtsə]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "numberPlural": "3 pizza",
@@ -549,9 +555,10 @@
         "opposite": null
     },
 
-
     {
         "word": "pasta",
+        "transcription": "[ˈpæstə]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
@@ -577,9 +584,10 @@
         "opposite": null
     },
 
-
     {
         "word": "apple",
+        "transcription": "[ˈæpl]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "numberPlural": "4 apple",
@@ -601,9 +609,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bread",
+        "transcription": "[bred]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
@@ -624,9 +633,10 @@
         "opposite": null
     },
 
-
     {
         "word": "egg",
+        "transcription": "[eɡ]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
@@ -652,9 +662,10 @@
         "opposite": null
     },
 
-
     {
         "word": "milk",
+        "transcription": "[mɪlk]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
@@ -680,9 +691,10 @@
         "opposite": null
     },
 
-
     {
         "word": "banana",
+        "transcription": "[bəˈnɑːnə]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
@@ -708,9 +720,10 @@
         "opposite": null
     },
 
-
     {
         "word": "coffee",
+        "transcription": "[ˈkɒfi]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
@@ -737,9 +750,10 @@
         "opposite": null
     },
 
-
     {
         "word": "tea",
+        "transcription": "[tiː]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
@@ -766,9 +780,10 @@
         "opposite": null
     },
 
-
     {
         "word": "juice",
+        "transcription": "[dʒuːs]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🧃",
@@ -794,9 +809,10 @@
         "opposite": null
     },
 
-
     {
         "word": "water",
+        "transcription": "[ˈwɔːtə(r)]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
@@ -817,9 +833,10 @@
         "opposite": null
     },
 
-
     {
         "word": "park",
+        "transcription": "[pɑːk]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -845,9 +862,10 @@
         "opposite": null
     },
 
-
     {
         "word": "school",
+        "transcription": "[skuːl]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -867,9 +885,10 @@
         "opposite": null
     },
 
-
     {
         "word": "t-shirt",
+        "transcription": "[ˈtiː ʃɜːt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
@@ -888,9 +907,10 @@
         "opposite": null
     },
 
-
     {
         "word": "pants",
+        "transcription": "[pænts]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
@@ -910,9 +930,10 @@
         "opposite": null
     },
 
-
     {
         "word": "shoe",
+        "transcription": "[ʃuː]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
@@ -931,9 +952,10 @@
         "opposite": null
     },
 
-
     {
         "word": "hat",
+        "transcription": "[hæt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
@@ -952,9 +974,10 @@
         "opposite": null
     },
 
-
     {
         "word": "chair",
+        "transcription": "[tʃeə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
@@ -974,9 +997,10 @@
         "opposite": null
     },
 
-
     {
         "word": "table",
+        "transcription": "[ˈteɪbl]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
@@ -996,9 +1020,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bed",
+        "transcription": "[bed]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
@@ -1018,9 +1043,10 @@
         "opposite": null
     },
 
-
     {
         "word": "key",
+        "transcription": "[kiː]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
@@ -1047,9 +1073,10 @@
         "opposite": null
     },
 
-
     {
         "word": "phone",
+        "transcription": "[fəʊn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
@@ -1066,12 +1093,13 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": "text"
     },
-
 
     {
         "word": "book",
+        "transcription": "[bʊk]",
+        "image": "https://images.unsplash.com/photo-1496181754124-ed47d9560dac?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "numberPlural": "2 book",
@@ -1093,9 +1121,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bag",
+        "transcription": "[bæɡ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
@@ -1115,9 +1144,10 @@
         "opposite": null
     },
 
-
     {
         "word": "pen",
+        "transcription": "[pen]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
@@ -1137,9 +1167,10 @@
         "opposite": null
     },
 
-
     {
         "word": "cat",
+        "transcription": "[kæt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐈",
@@ -1161,9 +1192,10 @@
         "opposite": null
     },
 
-
     {
         "word": "dog",
+        "transcription": "[dɒɡ]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐕",
@@ -1185,9 +1217,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bird",
+        "transcription": "[bɜːd]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐦",
@@ -1207,9 +1240,10 @@
         "opposite": null
     },
 
-
     {
         "word": "fish",
+        "transcription": "[fɪʃ]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐟",
@@ -1229,9 +1263,10 @@
         "opposite": null
     },
 
-
     {
         "word": "head",
+        "transcription": "[hed]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
@@ -1251,9 +1286,10 @@
         "opposite": null
     },
 
-
     {
         "word": "hand",
+        "transcription": "[hænd]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
@@ -1273,9 +1309,10 @@
         "opposite": null
     },
 
-
     {
         "word": "leg",
+        "transcription": "[leɡ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
@@ -1294,9 +1331,10 @@
         "opposite": null
     },
 
-
     {
         "word": "eye",
+        "transcription": "[aɪ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
@@ -1316,9 +1354,10 @@
         "opposite": null
     },
 
-
     {
         "word": "nose",
+        "transcription": "[nəʊz]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
@@ -1337,9 +1376,10 @@
         "opposite": null
     },
 
-
     {
         "word": "mouth",
+        "transcription": "[maʊθ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
@@ -1358,9 +1398,10 @@
         "opposite": null
     },
 
-
     {
         "word": "ear",
+        "transcription": "[ɪə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
@@ -1379,9 +1420,10 @@
         "opposite": null
     },
 
-
     {
         "word": "smartphone",
+        "transcription": "[ˈsmɑːtfəʊn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
@@ -1400,9 +1442,10 @@
         "opposite": null
     },
 
-
     {
         "word": "mother",
+        "transcription": "[ˈmʌðə(r)]",
+        "image": "https://images.unsplash.com/photo-1496181754124-ed47d9560dac?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
@@ -1422,9 +1465,10 @@
         "opposite": null
     },
 
-
     {
         "word": "father",
+        "transcription": "[ˈfɑːðə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
@@ -1444,9 +1488,10 @@
         "opposite": null
     },
 
-
     {
         "word": "man",
+        "transcription": "[mæn]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "numberPlural": "2 man",
@@ -1469,9 +1514,10 @@
         "opposite": null
     },
 
-
     {
         "word": "woman",
+        "transcription": "[ˈwʊmən]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "numberPlural": "2 woman",
@@ -1494,9 +1540,10 @@
         "opposite": null
     },
 
-
     {
         "word": "work",
+        "transcription": "[wɜːk]",
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -1510,13 +1557,14 @@
                 ]
             }
         ],
-        "countability": "uncountable",
-        "opposite": null
+        "countability": "countable",
+        "opposite": "relax"
     },
-
 
     {
         "word": "job",
+        "transcription": "[dʒɒb]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -1535,9 +1583,10 @@
         "opposite": null
     },
 
-
     {
         "word": "office",
+        "transcription": "[ˈɒfɪs]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
         "emoji": "🏢",
@@ -1556,9 +1605,10 @@
         "opposite": null
     },
 
-
     {
         "word": "home",
+        "transcription": "[həʊm]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
@@ -1576,9 +1626,10 @@
         "opposite": null
     },
 
-
     {
         "word": "house",
+        "transcription": "[haʊs]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
@@ -1597,9 +1648,10 @@
         "opposite": null
     },
 
-
     {
         "word": "flat",
+        "transcription": "[flæt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏢",
@@ -1618,9 +1670,10 @@
         "opposite": null
     },
 
-
     {
         "word": "car",
+        "transcription": "[kɑː(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
@@ -1639,9 +1692,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bus",
+        "transcription": "[bʌs]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
@@ -1660,9 +1714,10 @@
         "opposite": null
     },
 
-
     {
         "word": "train",
+        "transcription": "[treɪn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
@@ -1681,9 +1736,10 @@
         "opposite": null
     },
 
-
     {
         "word": "food",
+        "transcription": "[fuːd]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
@@ -1701,9 +1757,10 @@
         "opposite": null
     },
 
-
     {
         "word": "rice",
+        "transcription": "[raɪs]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍚",
@@ -1722,9 +1779,10 @@
         "opposite": null
     },
 
-
     {
         "word": "meat",
+        "transcription": "[miːt]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
@@ -1743,9 +1801,10 @@
         "opposite": null
     },
 
-
     {
         "word": "breakfast",
+        "transcription": "[ˈbrekfəst]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
@@ -1763,9 +1822,10 @@
         "opposite": null
     },
 
-
     {
         "word": "dinner",
+        "transcription": "[ˈdɪnə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
@@ -1783,9 +1843,10 @@
         "opposite": null
     },
 
-
     {
         "word": "money",
+        "transcription": "[ˈmʌni]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
@@ -1804,9 +1865,10 @@
         "opposite": null
     },
 
-
     {
         "word": "shop",
+        "transcription": "[ʃɒp]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
@@ -1825,9 +1887,10 @@
         "opposite": null
     },
 
-
     {
         "word": "family",
+        "transcription": "[ˈfæməli]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
@@ -1846,9 +1909,10 @@
         "opposite": null
     },
 
-
     {
         "word": "friend",
+        "transcription": "[frend]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
@@ -1867,9 +1931,10 @@
         "opposite": null
     },
 
-
     {
         "word": "partner",
+        "transcription": "[ˈpɑːtnə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "💑",
@@ -1888,9 +1953,10 @@
         "opposite": null
     },
 
-
     {
         "word": "morning",
+        "transcription": "[ˈmɔːnɪŋ]",
+        "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
@@ -1908,9 +1974,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "evening",
+        "transcription": "[ˈiːvnɪŋ]",
+        "image": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
@@ -1928,9 +1995,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "day",
+        "transcription": "[deɪ]",
+        "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
@@ -1949,9 +2017,10 @@
         "subtext": "related to times day"
     },
 
-
     {
         "word": "week",
+        "transcription": "[wiːk]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
@@ -1970,9 +2039,10 @@
         "opposite": null
     },
 
-
     {
         "word": "every day",
+        "transcription": "[ˈevri deɪ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🔁",
@@ -1989,9 +2059,10 @@
         "opposite": null
     },
 
-
     {
         "word": "lunch",
+        "transcription": "[lʌntʃ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
@@ -2010,9 +2081,10 @@
         "opposite": null
     },
 
-
     {
         "word": "boss",
+        "transcription": "[bɒs]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💼",
@@ -2031,9 +2103,10 @@
         "opposite": null
     },
 
-
     {
         "word": "colleague",
+        "transcription": "[ˈkɒliːɡ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🧑‍💼",
@@ -2052,9 +2125,10 @@
         "opposite": null
     },
 
-
     {
         "word": "meeting",
+        "transcription": "[ˈmiːtɪŋ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
@@ -2074,9 +2148,10 @@
         "opposite": null
     },
 
-
     {
         "word": "commute",
+        "transcription": "[kəˈmjuːt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
@@ -2095,9 +2170,10 @@
         "opposite": null
     },
 
-
     {
         "word": "stress",
+        "transcription": "[stres]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
@@ -2115,9 +2191,10 @@
         "opposite": null
     },
 
-
     {
         "word": "rent",
+        "transcription": "[rent]",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
@@ -2132,12 +2209,13 @@
         ],
         "countability": "uncountable",
         "subtext": "related to types of accommodation",
-        "opposite": null
+        "opposite": "own"
     },
-
 
     {
         "word": "neighbour",
+        "transcription": "[ˈneɪbə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏘️",
@@ -2156,9 +2234,10 @@
         "opposite": null
     },
 
-
     {
         "word": "room",
+        "transcription": "[ruːm]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚪",
@@ -2177,9 +2256,10 @@
         "opposite": null
     },
 
-
     {
         "word": "kitchen",
+        "transcription": "[ˈkɪtʃɪn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🍳",
@@ -2198,9 +2278,10 @@
         "opposite": null
     },
 
-
     {
         "word": "sleep",
+        "transcription": "[sliːp]",
+        "image": "https://images.unsplash.com/photo-1505693419148-4034b9fd3fa2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "😴",
@@ -2218,9 +2299,10 @@
         "opposite": "wake up"
     },
 
-
     {
         "word": "exercise",
+        "transcription": "[ˈeksəsaɪz]",
+        "image": "https://images.unsplash.com/photo-1517834351141-ffdc7ef0533a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
@@ -2235,12 +2317,13 @@
         ],
         "countability": "uncountable",
         "subtext": "related to leisure activities",
-        "opposite": null
+        "opposite": "rest"
     },
-
 
     {
         "word": "price",
+        "transcription": "[praɪs]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "🏷️",
@@ -2259,9 +2342,10 @@
         "opposite": null
     },
 
-
     {
         "word": "cost",
+        "transcription": "[kɒst]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
@@ -2280,14 +2364,15 @@
         "opposite": null
     },
 
-
     {
         "word": "together",
+        "transcription": "[təˈɡeðə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "👫",
         "form": "adverb",
-        "opposite": null,
+        "opposite": "alone",
         "oppositeEmoji": "👤",
         "definitions": [
             {
@@ -2300,9 +2385,10 @@
         "subtext": "related to family life"
     },
 
-
     {
         "word": "holiday",
+        "transcription": "[ˈhɒlədeɪ]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏖️",
@@ -2321,9 +2407,10 @@
         "opposite": null
     },
 
-
     {
         "word": "hotel",
+        "transcription": "[həʊˈtel]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🏨",
@@ -2342,9 +2429,10 @@
         "opposite": null
     },
 
-
     {
         "word": "weekend",
+        "transcription": "[ˌwiːkˈend]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
@@ -2363,9 +2451,10 @@
         "opposite": null
     },
 
-
     {
         "word": "free time",
+        "transcription": "[friː taɪm]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
@@ -2383,9 +2472,10 @@
         "opposite": null
     },
 
-
     {
         "word": "travel",
+        "transcription": "[ˈtrævl]",
+        "image": "https://images.unsplash.com/photo-1436491861944-51b66993132d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "✈️",
@@ -2400,12 +2490,13 @@
         ],
         "countability": "uncountable",
         "subtext": "related to travel vocabulary basics",
-        "opposite": null
+        "opposite": "stay"
     },
-
 
     {
         "word": "back",
+        "transcription": "[bæk]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🚶",
@@ -2424,9 +2515,10 @@
         "opposite": null
     },
 
-
     {
         "word": "arm",
+        "transcription": "[ɑːm]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "💪",
@@ -2445,9 +2537,10 @@
         "opposite": null
     },
 
-
     {
         "word": "fruit",
+        "transcription": "[fruːt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
@@ -2466,9 +2559,10 @@
         "opposite": null
     },
 
-
     {
         "word": "vegetable",
+        "transcription": "[ˈvedʒtəbl]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥦",
@@ -2487,9 +2581,10 @@
         "opposite": null
     },
 
-
     {
         "word": "beer",
+        "transcription": "[bɪə(r)]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍺",
@@ -2508,9 +2603,10 @@
         "opposite": null
     },
 
-
     {
         "word": "wine",
+        "transcription": "[waɪn]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍷",
@@ -2529,9 +2625,10 @@
         "opposite": null
     },
 
-
     {
         "word": "door",
+        "transcription": "[dɔː(r)]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🚪",
@@ -2550,9 +2647,10 @@
         "opposite": null
     },
 
-
     {
         "word": "window",
+        "transcription": "[ˈwɪndəʊ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪟",
@@ -2571,9 +2669,10 @@
         "opposite": null
     },
 
-
     {
         "word": "driver",
+        "transcription": "[ˈdraɪvə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🚗",
@@ -2592,9 +2691,10 @@
         "opposite": null
     },
 
-
     {
         "word": "manager",
+        "transcription": "[ˈmænɪdʒə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍💼",
@@ -2613,9 +2713,10 @@
         "opposite": null
     },
 
-
     {
         "word": "plane",
+        "transcription": "[pleɪn]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
@@ -2634,9 +2735,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bike",
+        "transcription": "[baɪk]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
@@ -2655,9 +2757,10 @@
         "opposite": null
     },
 
-
     {
         "word": "hospital",
+        "transcription": "[ˈhɒspɪtl]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏥",
@@ -2676,9 +2779,10 @@
         "opposite": null
     },
 
-
     {
         "word": "restaurant",
+        "transcription": "[ˈrestrɒnt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🍴",
@@ -2697,9 +2801,10 @@
         "opposite": null
     },
 
-
     {
         "word": "bank",
+        "transcription": "[bæŋk]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏦",
@@ -2718,9 +2823,10 @@
         "opposite": null
     },
 
-
     {
         "word": "station",
+        "transcription": "[ˈsteɪʃn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🚉",
@@ -2739,9 +2845,10 @@
         "opposite": null
     },
 
-
     {
         "word": "supermarket",
+        "transcription": "[ˈsuːpəmɑːkɪt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
@@ -2760,9 +2867,10 @@
         "opposite": null
     },
 
-
     {
         "word": "sun",
+        "transcription": "[sʌn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
@@ -2781,9 +2889,10 @@
         "opposite": null
     },
 
-
     {
         "word": "rain",
+        "transcription": "[reɪn]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
@@ -2802,9 +2911,10 @@
         "opposite": null
     },
 
-
     {
         "word": "wind",
+        "transcription": "[wɪnd]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "💨",
@@ -2823,14 +2933,15 @@
         "opposite": null
     },
 
-
     {
         "word": "afternoon",
+        "transcription": "[ˌɑːftəˈnuːn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
         "form": "noun",
-        "opposite": "evening",
+        "opposite": "morning",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
             {
@@ -2843,9 +2954,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "night",
+        "transcription": "[naɪt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
@@ -2864,9 +2976,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "today",
+        "transcription": "[təˈdeɪ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
@@ -2883,14 +2996,15 @@
         ]
     },
 
-
     {
         "word": "tomorrow",
+        "transcription": "[təˈmɒrəʊ]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "⏭️",
         "form": "adverb",
-        "opposite": "yesterday",
+        "opposite": "today",
         "subtext": "tomorrow morning, see you tomorrow",
         "definitions": [
             {
@@ -2902,9 +3016,10 @@
         ]
     },
 
-
     {
         "word": "husband",
+        "transcription": "[ˈhʌzbənd]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
@@ -2925,9 +3040,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "wife",
+        "transcription": "[waɪf]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
@@ -2948,9 +3064,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "child",
+        "transcription": "[tʃaɪld]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
@@ -2970,9 +3087,10 @@
         "opposite": "adult"
     },
 
-
     {
         "word": "parent",
+        "transcription": "[ˈpeərənt]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
@@ -2992,9 +3110,10 @@
         "opposite": null
     },
 
-
     {
         "word": "sister",
+        "transcription": "[ˈsɪstə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👧",
@@ -3015,9 +3134,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "brother",
+        "transcription": "[ˈbrʌðə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👦",
@@ -3038,9 +3158,10 @@
         "countability": "countable"
     },
 
-
     {
         "word": "son",
+        "transcription": "[sʌn]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👦",
@@ -3060,9 +3181,10 @@
         "subtext": "related to immediate family"
     },
 
-
     {
         "word": "daughter",
+        "transcription": "[ˈdɔːtə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👧",
@@ -3082,9 +3204,10 @@
         "subtext": "related to immediate family"
     },
 
-
     {
         "word": "grandfather",
+        "transcription": "[ˈɡrænfɑːðə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👴",
@@ -3104,9 +3227,10 @@
         "subtext": "related to extended family"
     },
 
-
     {
         "word": "grandmother",
+        "transcription": "[ˈɡrænmʌðə(r)]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👵",
@@ -3126,9 +3250,10 @@
         "subtext": "related to extended family"
     },
 
-
     {
         "word": "uncle",
+        "transcription": "[ˈʌŋkl]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👨",
@@ -3148,9 +3273,10 @@
         "subtext": "related to extended family"
     },
 
-
     {
         "word": "aunt",
+        "transcription": "[ɑːnt]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👩",
@@ -3170,9 +3296,10 @@
         "subtext": "related to extended family"
     },
 
-
     {
         "word": "cousin",
+        "transcription": "[ˈkʌzn]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "🧑",
@@ -3191,9 +3318,10 @@
         "opposite": null
     },
 
-
     {
         "word": "tree",
+        "transcription": "[triː]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌳",
@@ -3213,9 +3341,10 @@
         "opposite": null
     },
 
-
     {
         "word": "flower",
+        "transcription": "[ˈflaʊə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌸",
@@ -3235,9 +3364,10 @@
         "opposite": null
     },
 
-
     {
         "word": "mountain",
+        "transcription": "[ˈmaʊntən]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏔️",
@@ -3257,9 +3387,10 @@
         "opposite": null
     },
 
-
     {
         "word": "river",
+        "transcription": "[ˈrɪvə(r)]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏞️",
@@ -3279,9 +3410,10 @@
         "opposite": null
     },
 
-
     {
         "word": "sea",
+        "transcription": "[siː]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌊",
@@ -3301,9 +3433,10 @@
         "opposite": null
     },
 
-
     {
         "word": "beach",
+        "transcription": "[biːtʃ]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏖️",
@@ -3323,9 +3456,10 @@
         "opposite": null
     },
 
-
     {
         "word": "sky",
+        "transcription": "[skaɪ]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌌",
@@ -3345,9 +3479,10 @@
         "opposite": null
     },
 
-
     {
         "word": "moon",
+        "transcription": "[muːn]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌙",
@@ -3366,9 +3501,10 @@
         "opposite": null
     },
 
-
     {
         "word": "plate",
+        "transcription": "[pleɪt]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍽️",
@@ -3387,9 +3523,10 @@
         "opposite": null
     },
 
-
     {
         "word": "cup",
+        "transcription": "[kʌp]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "☕",
@@ -3408,9 +3545,10 @@
         "opposite": null
     },
 
-
     {
         "word": "glass",
+        "transcription": "[ɡlɑːs]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥛",
@@ -3429,9 +3567,10 @@
         "opposite": null
     },
 
-
     {
         "word": "fork",
+        "transcription": "[fɔːk]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍴",
@@ -3450,9 +3589,10 @@
         "opposite": null
     },
 
-
     {
         "word": "spoon",
+        "transcription": "[spuːn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥄",
@@ -3471,9 +3611,10 @@
         "opposite": null
     },
 
-
     {
         "word": "knife",
+        "transcription": "[naɪf]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔪",
@@ -3492,9 +3633,10 @@
         "opposite": null
     },
 
-
     {
         "word": "laptop",
+        "transcription": "[ˈlæptɒp]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💻",
@@ -3513,9 +3655,10 @@
         "opposite": null
     },
 
-
     {
         "word": "television",
+        "transcription": "[ˈtelɪvɪʒn]",
+        "image": "https://images.unsplash.com/photo-1496181754124-ed47d9560dac?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📺",
@@ -3534,9 +3677,10 @@
         "opposite": null
     },
 
-
     {
         "word": "cinema",
+        "transcription": "[ˈsɪnəmə]",
+        "image": "https://images.unsplash.com/photo-1496181754124-ed47d9560dac?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎬",
@@ -3555,9 +3699,10 @@
         "opposite": null
     },
 
-
     {
         "word": "museum",
+        "transcription": "[mjuˈziːəm]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🏛️",
@@ -3576,9 +3721,10 @@
         "opposite": null
     },
 
-
     {
         "word": "airport",
+        "transcription": "[ˈeəpɔːt]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
@@ -3597,9 +3743,10 @@
         "opposite": null
     },
 
-
     {
         "word": "chicken",
+        "transcription": "[ˈtʃɪkɪn]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍗",
@@ -3618,9 +3765,10 @@
         "opposite": null
     },
 
-
     {
         "word": "sugar",
+        "transcription": "[ˈʃʊɡə(r)]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍚",
@@ -3639,9 +3787,10 @@
         "opposite": null
     },
 
-
     {
         "word": "salad",
+        "transcription": "[ˈsæləd]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥗",
@@ -3660,9 +3809,10 @@
         "opposite": null
     },
 
-
     {
         "word": "coat",
+        "transcription": "[kəʊt]",
+        "image": "https://images.unsplash.com/photo-1504672208136-02d6986e29f3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧥",
@@ -3681,9 +3831,10 @@
         "opposite": null
     },
 
-
     {
         "word": "socks",
+        "transcription": "[sɒks]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧦",
@@ -3702,9 +3853,10 @@
         "opposite": null
     },
 
-
     {
         "word": "neck",
+        "transcription": "[nek]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦒",
@@ -3723,9 +3875,10 @@
         "opposite": null
     },
 
-
     {
         "word": "shoulder",
+        "transcription": "[ˈʃəʊldə(r)]",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
@@ -3744,9 +3897,10 @@
         "opposite": null
     },
 
-
     {
         "word": "in",
+        "transcription": "[ɪn]",
+        "image": "https://images.unsplash.com/photo-1542662565-7e4b66bae529?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -3754,9161 +3908,21 @@
             {
                 "text": "Inside a place or container.",
                 "examples": [
-                    "The keys are in the bag."
+                    "The keys are in the bag.",
+                    "He is in the kitchen."
                 ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "opposite": "out",
-        "emoji": "📥"
-    },
-
-
-    {
-        "word": "on",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "definitions": [
-            {
-                "text": "Supported by or touching a surface.",
-                "examples": [
-                    "The book is on the table."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "opposite": "off",
-        "emoji": "🔛"
-    },
-
-
-    {
-        "word": "at",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "definitions": [
-            {
-                "text": "Used to show a place or position.",
-                "examples": [
-                    "I am at the office."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "opposite": "away from",
-        "emoji": "📍"
-    },
-
-
-    {
-        "word": "under",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": "above",
-        "definitions": [
-            {
-                "text": "Below or lower than something else.",
-                "examples": [
-                    "The cat is under the chair."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "👇"
-    },
-
-
-    {
-        "word": "and",
-        "level": "starter",
-        "theme": "conjunctions_connectors_A1",
-        "form": "conjunction",
-        "definitions": [
-            {
-                "text": "Used to join words or parts of sentences.",
-                "examples": [
-                    "I like coffee and tea."
-                ]
-            }
-        ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": "or",
-        "emoji": "➕"
-    },
-
-
-    {
-        "word": "but",
-        "level": "starter",
-        "theme": "conjunctions_connectors_A1",
-        "form": "conjunction",
-        "definitions": [
-            {
-                "text": "Used to introduce a contrast.",
-                "examples": [
-                    "I like coffee, but I don't like milk."
-                ]
-            }
-        ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": "and",
-        "emoji": "❓"
-    },
-
-
-    {
-        "word": "because",
-        "level": "starter",
-        "theme": "conjunctions_connectors_A1",
-        "form": "conjunction",
-        "definitions": [
-            {
-                "text": "For the reason that.",
-                "examples": [
-                    "I am tired because I worked late."
-                ]
-            }
-        ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": "so",
-        "emoji": "💡"
-    },
-
-
-    {
-        "word": "time",
-        "level": "starter",
-        "theme": "telling_time_A1",
-        "emoji": "⌚",
-        "form": "noun",
-        "subtext": "what time is it?, spend time",
-        "definitions": [
-            {
-                "text": "What is measured in minutes, hours, days, etc.",
-                "examples": [
-                    "What time is it?",
-                    "I don't have much time."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "problem",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "❓",
-        "form": "noun",
-        "plural": "problems",
-        "subtext": "big problem, no problem",
-        "definitions": [
-            {
-                "text": "Something that is difficult to deal with.",
-                "examples": [
-                    "I have a problem with my car.",
-                    "No problem!"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "beef",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥩",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Meat from a cow.",
-                "examples": [
-                    "I prefer beef to chicken."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pork",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥩",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Meat from a pig.",
-                "examples": [
-                    "Is there pork in this sausage?"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "potato",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥔",
-        "form": "noun",
-        "plural": "potatoes",
-        "definitions": [
-            {
-                "text": "A round white vegetable with a brown skin that grows underground.",
-                "examples": [
-                    "I love roast potatoes."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "tomato",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍅",
-        "form": "noun",
-        "plural": "tomatoes",
-        "definitions": [
-            {
-                "text": "A soft red fruit with a lot of seeds, eaten as a vegetable.",
-                "examples": [
-                    "Put some tomatoes in the salad."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "onion",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🧅",
-        "form": "noun",
-        "plural": "onions",
-        "definitions": [
-            {
-                "text": "A round vegetable with a strong smell and taste.",
-                "examples": [
-                    "Chop the onion finely.",
-                    "I need an onion for the soup."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "carrot",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥕",
-        "form": "noun",
-        "plural": "carrots",
-        "definitions": [
-            {
-                "text": "A long orange vegetable that grows underground.",
-                "examples": [
-                    "Carrots are good for your eyes."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "soup",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥣",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A liquid food made by cooking meat, vegetables, or fish in water.",
-                "examples": [
-                    "I had tomato soup for lunch."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cake",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍰",
-        "form": "noun",
-        "plural": "cakes",
-        "definitions": [
-            {
-                "text": "A sweet food made from flour, sugar, and eggs.",
-                "examples": [
-                    "Would you like a piece of cake?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "chocolate",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍫",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A sweet brown food made from cocoa beans.",
-                "examples": [
-                    "I love milk chocolate."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ice cream",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍦",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A very cold sweet food made from milk.",
-                "examples": [
-                    "Let's get an ice cream."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sweater",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "🧶",
-        "form": "noun",
-        "plural": "sweaters",
-        "subtext": "",
-        "synonyms": ["jumper"],
-        "definitions": [
-            {
-                "text": "A warm piece of clothing with long sleeves.",
-                "examples": [
-                    "It's cold, wear a sweater."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dress",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "dresses",
-        "definitions": [
-            {
-                "text": "A piece of clothing for a woman or girl that covers the top of the body and part of the legs.",
-                "examples": [
-                    "She is wearing a beautiful blue dress."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "skirt",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "skirts",
-        "definitions": [
-            {
-                "text": "A piece of clothing for a woman or girl that hangs from the waist.",
-                "examples": [
-                    "She wore a black skirt."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "boots",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "🥾",
-        "form": "noun",
-        "plural": "boots",
-        "definitions": [
-            {
-                "text": "A type of strong shoe that covers your foot and part of your leg.",
-                "examples": [
-                    "I need some new winter boots."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "finger",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "☝️",
-        "form": "noun",
-        "plural": "fingers",
-        "definitions": [
-            {
-                "text": "One of the five long parts at the end of your hand.",
-                "examples": [
-                    "He pointed his finger at the map."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to body parts",
-        "opposite": null
-    },
-
-
-    {
-        "word": "toe",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "🦶",
-        "form": "noun",
-        "plural": "toes",
-        "definitions": [
-            {
-                "text": "One of the five parts at the end of your foot.",
-                "examples": [
-                    "She stubbed her toe on the table."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to body parts",
-        "opposite": null
-    },
-
-
-    {
-        "word": "stomach",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "🤰",
-        "form": "noun",
-        "plural": "stomachs",
-        "definitions": [
-            {
-                "text": "The part of your body where food goes after you eat it.",
-                "examples": [
-                    "I have a stomach ache."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to body parts",
-        "opposite": null
-    },
-
-
-    {
-        "word": "knee",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "🦵",
-        "form": "noun",
-        "plural": "knees",
-        "definitions": [
-            {
-                "text": "The part in the middle of your leg where it bends.",
-                "examples": [
-                    "He hurt his knee playing football."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to body parts",
-        "opposite": null
-    },
-
-
-    {
-        "word": "grass",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌱",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A common wild plant with narrow green leaves.",
-                "examples": [
-                    "Don't walk on the grass."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lake",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🏞️",
-        "form": "noun",
-        "plural": "lakes",
-        "definitions": [
-            {
-                "text": "A large area of water surrounded by land.",
-                "examples": [
-                    "We went for a walk around the lake."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cloud",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "☁️",
-        "form": "noun",
-        "plural": "clouds",
-        "definitions": [
-            {
-                "text": "A white or grey mass in the sky that is made of very small drops of water.",
-                "examples": [
-                    "Look at those big white clouds."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "star",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "⭐",
-        "form": "noun",
-        "plural": "stars",
-        "definitions": [
-            {
-                "text": "A small bright light that you see in the sky at night.",
-                "examples": [
-                    "The stars are very bright tonight."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "desk",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🖥️",
-        "form": "noun",
-        "plural": "desks",
-        "definitions": [
-            {
-                "text": "A type of table that you sit at to write or work.",
-                "examples": [
-                    "The pen is on the desk."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lamp",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "💡",
-        "form": "noun",
-        "plural": "lamps",
-        "definitions": [
-            {
-                "text": "An object that produces light.",
-                "examples": [
-                    "Turn on the lamp."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "clock",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "⏰",
-        "form": "noun",
-        "plural": "clocks",
-        "definitions": [
-            {
-                "text": "A device that shows the time.",
-                "examples": [
-                    "The clock on the wall says ten o'clock."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "mirror",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🪞",
-        "form": "noun",
-        "plural": "mirrors",
-        "definitions": [
-            {
-                "text": "A piece of special glass in which you can see yourself.",
-                "examples": [
-                    "She looked at herself in the mirror."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "library",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "📚",
-        "form": "noun",
-        "plural": "libraries",
-        "definitions": [
-            {
-                "text": "A place where you can read or borrow books.",
-                "examples": [
-                    "I go to the library to study."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to places culture leisure",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Monday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The first day of the week.",
-                "examples": [
-                    "I start work on Monday."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Tuesday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The second day of the week.",
-                "examples": [
-                    "We have a meeting on Tuesday."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Wednesday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The third day of the week.",
-                "examples": [
-                    "Is it Wednesday today?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Thursday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The fourth day of the week.",
-                "examples": [
-                    "I am busy on Thursday."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Friday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The fifth day of the week.",
-                "examples": [
-                    "I love Fridays!"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Saturday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The sixth day of the week.",
-                "examples": [
-                    "I relax on Saturday."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "Sunday",
-        "level": "starter",
-        "theme": "days_week_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The seventh day of the week.",
-                "examples": [
-                    "The shop is closed on Sunday."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to days week",
-        "opposite": null
-    },
-
-
-    {
-        "word": "January",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "❄️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The first month of the year.",
-                "examples": [
-                    "It is cold in January."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "February",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "❄️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The second month of the year.",
-                "examples": [
-                    "February is a short month."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "March",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🌱",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The third month of the year.",
-                "examples": [
-                    "Spring begins in March."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "April",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🌧️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The fourth month of the year.",
-                "examples": [
-                    "It rains a lot in April."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "May",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🌸",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The fifth month of the year.",
-                "examples": [
-                    "The weather is beautiful in May."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "June",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "☀️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The sixth month of the year.",
-                "examples": [
-                    "Summer starts in June."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "July",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "☀️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The seventh month of the year.",
-                "examples": [
-                    "We go on holiday in July."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "August",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🏖️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The eighth month of the year.",
-                "examples": [
-                    "It is very hot in August."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "September",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🍂",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The ninth month of the year.",
-                "examples": [
-                    "Children go back to school in September."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "October",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🎃",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The tenth month of the year.",
-                "examples": [
-                    "October is in autumn."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "November",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🌫️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The eleventh month of the year.",
-                "examples": [
-                    "It is often grey in November."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "December",
-        "level": "starter",
-        "theme": "months_year_A1",
-        "emoji": "🎄",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The twelfth month of the year.",
-                "examples": [
-                    "Christmas is in December."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to months year",
-        "opposite": null
-    },
-
-
-    {
-        "word": "spring",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
-        "emoji": "🌱",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The season between winter and summer.",
-                "examples": [
-                    "Flowers grow in spring."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to seasons climate",
-        "opposite": null
-    },
-
-
-    {
-        "word": "summer",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
-        "emoji": "☀️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The hottest season of the year.",
-                "examples": [
-                    "I love swimming in summer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to seasons climate",
-        "opposite": null
-    },
-
-
-    {
-        "word": "autumn",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
-        "emoji": "🍂",
-        "form": "noun",
-        "subtext": "",
-        "synonyms": ["fall"],
-        "definitions": [
-            {
-                "text": "The season between summer and winter.",
-                "examples": [
-                    "Leaves fall in autumn."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "winter",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
-        "emoji": "❄️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The coldest season of the year.",
-                "examples": [
-                    "It snows in winter."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to seasons climate",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lion",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🦁",
-        "form": "noun",
-        "plural": "lions",
-        "definitions": [
-            {
-                "text": "A large wild cat that lives in Africa.",
-                "examples": [
-                    "The lion is the king of animals."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "elephant",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐘",
-        "form": "noun",
-        "plural": "elephants",
-        "definitions": [
-            {
-                "text": "A very large animal with a long trunk.",
-                "examples": [
-                    "I saw an elephant at the zoo."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "rabbit",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐰",
-        "form": "noun",
-        "plural": "rabbits",
-        "definitions": [
-            {
-                "text": "A small animal with long ears.",
-                "examples": [
-                    "The rabbit is eating a carrot."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "horse",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐴",
-        "form": "noun",
-        "plural": "horses",
-        "definitions": [
-            {
-                "text": "A large animal that people can ride.",
-                "examples": [
-                    "She can ride a horse."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cow",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐮",
-        "form": "noun",
-        "plural": "cows",
-        "definitions": [
-            {
-                "text": "A large farm animal that gives milk.",
-                "examples": [
-                    "The cow is in the field."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pig",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐷",
-        "form": "noun",
-        "plural": "pigs",
-        "definitions": [
-            {
-                "text": "A pink farm animal.",
-                "examples": [
-                    "Pigs are intelligent animals."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sheep",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐑",
-        "form": "noun",
-        "plural": "sheep",
-        "definitions": [
-            {
-                "text": "A farm animal with thick wool.",
-                "examples": [
-                    "The sheep are eating grass."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lemon",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍋",
-        "form": "noun",
-        "plural": "lemons",
-        "definitions": [
-            {
-                "text": "A yellow fruit that tastes sour.",
-                "examples": [
-                    "I like tea with lemon."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "orange",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍊",
-        "form": "noun",
-        "plural": "oranges",
-        "definitions": [
-            {
-                "text": "A round orange fruit.",
-                "examples": [
-                    "I want an orange, please."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "strawberry",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍓",
-        "form": "noun",
-        "plural": "strawberries",
-        "definitions": [
-            {
-                "text": "A small red fruit.",
-                "examples": [
-                    "I love strawberry ice cream."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "grape",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍇",
-        "form": "noun",
-        "plural": "grapes",
-        "definitions": [
-            {
-                "text": "A small green or purple fruit.",
-                "examples": [
-                    "Would you like some grapes?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "garlic",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🧄",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A vegetable with a very strong smell and taste.",
-                "examples": [
-                    "Use garlic in the pasta sauce."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "always",
-        "level": "starter",
-        "theme": "frequency_adverbs_A1",
-        "emoji": "♾️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "At all times; every time.",
-                "examples": [
-                    "I always drink coffee in the morning."
-                ]
-            }
-        ],
-        "subtext": "related to frequency adverbs",
-        "opposite": "never"
-    },
-
-
-    {
-        "word": "usually",
-        "level": "starter",
-        "theme": "frequency_adverbs_A1",
-        "emoji": "🔄",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "In the way that most often happens.",
-                "examples": [
-                    "I usually go to work by bus."
-                ]
-            }
-        ],
-        "subtext": "related to frequency adverbs",
-        "opposite": null
-    },
-
-
-    {
-        "word": "often",
-        "level": "starter",
-        "theme": "frequency_adverbs_A1",
-        "emoji": "🔁",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Many times.",
-                "examples": [
-                    "We often eat out on Fridays."
-                ]
-            }
-        ],
-        "subtext": "related to frequency adverbs",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sometimes",
-        "level": "starter",
-        "theme": "frequency_adverbs_A1",
-        "emoji": "⏱️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "At some times but not all the time.",
-                "examples": [
-                    "Sometimes I walk to the office."
-                ]
-            }
-        ],
-        "subtext": "related to frequency adverbs",
-        "opposite": null
-    },
-
-
-    {
-        "word": "never",
-        "level": "starter",
-        "theme": "frequency_adverbs_A1",
-        "emoji": "🚫",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Not at any time.",
-                "examples": [
-                    "He never drinks alcohol."
-                ]
-            }
-        ],
-        "subtext": "related to frequency adverbs",
-        "opposite": "always"
-    },
-
-
-    {
-        "word": "who",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "👤",
-        "form": "pronoun",
-        "definitions": [
-            {
-                "text": "Used to ask about a person or people.",
-                "examples": [
-                    "Who is your teacher?"
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "what",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "❓",
-        "form": "pronoun",
-        "definitions": [
-            {
-                "text": "Used to ask about things or actions.",
-                "examples": [
-                    "What is your name?"
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "where",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "📍",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Used to ask about a place or position.",
-                "examples": [
-                    "Where do you live?"
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "when",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "⏰",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Used to ask about time.",
-                "examples": [
-                    "When is the meeting?"
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "why",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "❓",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Used to ask for a reason.",
-                "examples": [
-                    "Why are you late?"
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "how",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "⚙️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Used to ask about the way something is done or its state.",
-                "examples": [
-                    "How are you?",
-                    "How do you spell your name?"
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "hello",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "👋",
-        "form": "noun",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "A common greeting used when meeting someone.",
-                "examples": [
-                    "Hello! How are you?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to name greeting"
-    },
-
-
-    {
-        "word": "goodbye",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "👋",
-        "form": "noun",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "A common greeting used when leaving someone.",
-                "examples": [
-                    "Goodbye! See you tomorrow."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to name greeting"
-    },
-
-
-    {
-        "word": "please",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🙏",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Used to be polite when asking for something.",
-                "examples": [
-                    "A coffee, please."
-                ]
-            }
-        ],
-        "subtext": "related to greetings social phrases",
-        "opposite": null
-    },
-
-
-    {
-        "word": "thank you",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🙏",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Used to show gratitude.",
-                "examples": [
-                    "Thank you for the help."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to greetings social phrases",
-        "opposite": null
-    },
-
-
-    {
-        "word": "yes",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "✅",
-        "form": "adverb",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "Used to give a positive answer.",
-                "examples": [
-                    "Yes, I am a student."
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions"
-    },
-
-
-    {
-        "word": "no",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "❌",
-        "form": "adverb",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "Used to give a negative answer.",
-                "examples": [
-                    "No, I am not a doctor."
-                ]
-            }
-        ],
-        "subtext": "related to asking answering questions"
-    },
-
-
-    {
-        "word": "name",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "🆔",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "What a person or thing is called.",
-                "examples": [
-                    "My name is John."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to name greeting",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bathroom",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚿",
-        "form": "noun",
-        "plural": "bathrooms",
-        "definitions": [
-            {
-                "text": "A room where you can wash yourself and use the toilet.",
-                "examples": [
-                    "The bathroom is at the end of the hall."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bedroom",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🛏️",
-        "form": "noun",
-        "plural": "bedrooms",
-        "definitions": [
-            {
-                "text": "A room where you sleep.",
-                "examples": [
-                    "My bedroom has a big window."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "baby",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "emoji": "👶",
-        "form": "noun",
-        "plural": "babies",
-        "definitions": [
-            {
-                "text": "A very young child.",
-                "examples": [
-                    "The baby is sleeping."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to immediate family",
-        "opposite": null
-    },
-
-
-    {
-        "word": "boy",
-        "level": "starter",
-        "theme": "people_A1",
-        "emoji": "👦",
-        "form": "noun",
-        "plural": "boys",
-        "opposite": null,
-        "oppositeEmoji": "👧",
-        "definitions": [
-            {
-                "text": "A male child.",
-                "examples": [
-                    "The boy is playing with a ball."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to people"
-    },
-
-
-    {
-        "word": "girl",
-        "level": "starter",
-        "theme": "people_A1",
-        "emoji": "👧",
-        "form": "noun",
-        "plural": "girls",
-        "opposite": null,
-        "oppositeEmoji": "👦",
-        "definitions": [
-            {
-                "text": "A female child.",
-                "examples": [
-                    "She is a clever girl."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to people"
-    },
-
-
-    {
-        "word": "boyfriend",
-        "level": "starter",
-        "theme": "marital_status_A1",
-        "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
-        "plural": "boyfriends",
-        "opposite": null,
-        "oppositeEmoji": "🧑‍🤝‍🧑",
-        "definitions": [
-            {
-                "text": "A man with whom someone has a romantic relationship.",
-                "examples": [
-                    "Her boyfriend lives in London."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to marital status"
-    },
-
-
-    {
-        "word": "girlfriend",
-        "level": "starter",
-        "theme": "marital_status_A1",
-        "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
-        "plural": "girlfriends",
-        "opposite": null,
-        "oppositeEmoji": "🧑‍🤝‍🧑",
-        "definitions": [
-            {
-                "text": "A woman with whom someone has a romantic relationship.",
-                "examples": [
-                    "His girlfriend is a doctor."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to marital status"
-    },
-
-
-    {
-        "word": "student",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🧑‍🎓",
-        "form": "noun",
-        "plural": "students",
-        "opposite": null,
-        "oppositeEmoji": "🧑‍🏫",
-        "definitions": [
-            {
-                "text": "A person who is studying at a school or university.",
-                "examples": [
-                    "The students are in the classroom."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to learning studying"
-    },
-
-
-    {
-        "word": "classmate",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
-        "plural": "classmates",
-        "definitions": [
-            {
-                "text": "A person who is in the same class as you at school.",
-                "examples": [
-                    "She is my classmate."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to learning studying",
-        "opposite": null
-    },
-
-
-    {
-        "word": "camera",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📷",
-        "form": "noun",
-        "plural": "cameras",
-        "definitions": [
-            {
-                "text": "A device for taking photos or videos.",
-                "examples": [
-                    "I have a new digital camera."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "computer",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "💻",
-        "form": "noun",
-        "plural": "computers",
-        "definitions": [
-            {
-                "text": "An electronic machine that can store and find information.",
-                "examples": [
-                    "I use a computer at work."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bottle",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🍼",
-        "form": "noun",
-        "plural": "bottles",
-        "definitions": [
-            {
-                "text": "A container for liquids, usually made of glass or plastic.",
-                "examples": [
-                    "A bottle of water."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "box",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "📦",
-        "form": "noun",
-        "plural": "boxes",
-        "definitions": [
-            {
-                "text": "A container with flat sides, usually made of paper or wood.",
-                "examples": [
-                    "Put the books in the box."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ball",
-        "level": "starter",
-        "theme": "sports_equipment_A1",
-        "emoji": "⚽",
-        "form": "noun",
-        "plural": "balls",
-        "definitions": [
-            {
-                "text": "A round object used in games and sports.",
-                "examples": [
-                    "He kicked the ball."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to sports equipment",
-        "opposite": null
-    },
-
-
-    {
-        "word": "gift",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🎁",
-        "form": "noun",
-        "plural": "gifts",
-        "subtext": "",
-        "synonyms": ["present"],
-        "definitions": [
-            {
-                "text": "Something that you give to someone, especially on a special occasion.",
-                "examples": [
-                    "A birthday gift."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "street",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "🛣️",
-        "form": "noun",
-        "plural": "streets",
-        "definitions": [
-            {
-                "text": "A road in a town or city that has houses or other buildings along it.",
-                "examples": [
-                    "I live on a busy street."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to address location",
-        "opposite": null
-    },
-
-
-    {
-        "word": "building",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "🏢",
-        "form": "noun",
-        "plural": "buildings",
-        "definitions": [
-            {
-                "text": "A structure with a roof and walls, such as a house or school.",
-                "examples": [
-                    "That building is very tall."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to address location",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cafe",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "☕",
-        "form": "noun",
-        "plural": "cafes",
-        "definitions": [
-            {
-                "text": "A place where you can buy drinks and simple meals.",
-                "examples": [
-                    "Let's meet at the cafe."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to local places services",
-        "opposite": null
-    },
-
-
-    {
-        "word": "centre",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "📍",
-        "form": "noun",
-        "plural": "centres",
-        "subtext": "center, city centre",
-        "definitions": [
-            {
-                "text": "The middle point or part of something.",
-                "examples": [
-                    "The bank is in the city centre."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "butter",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🧈",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A soft yellow food made from milk.",
-                "examples": [
-                    "Bread and butter."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cheese",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🧀",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A food made from milk, usually white or yellow.",
-                "examples": [
-                    "I like cheese on my pizza."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "actor",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🎭",
-        "form": "noun",
-        "plural": "actors",
-        "definitions": [
-            {
-                "text": "A person who performs in a play, film, or television program.",
-                "examples": [
-                    "He is a famous actor."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "adult",
-        "level": "starter",
-        "theme": "people_A1",
-        "emoji": "🧑",
-        "form": "noun",
-        "plural": "adults",
-        "opposite": "child",
-        "oppositeEmoji": "👶",
-        "definitions": [
-            {
-                "text": "A person who is fully grown.",
-                "examples": [
-                    "Tickets are cheaper for children than for adults."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to people"
-    },
-
-
-    {
-        "word": "advice",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "💡",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "An opinion that someone gives you about what you should do.",
-                "examples": [
-                    "Can you give me some advice?"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to greetings social phrases",
-        "opposite": null
-    },
-
-
-    {
-        "word": "age",
-        "level": "starter",
-        "theme": "age_A1",
-        "emoji": "🎂",
-        "form": "noun",
-        "plural": "ages",
-        "definitions": [
-            {
-                "text": "The number of years that someone has lived.",
-                "examples": [
-                    "What is your age?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to age",
-        "opposite": null
-    },
-
-
-    {
-        "word": "air",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌬️",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The mixture of gases that surrounds the Earth and that we breathe.",
-                "examples": [
-                    "I need some fresh air."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "area",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "📍",
-        "form": "noun",
-        "plural": "areas",
-        "definitions": [
-            {
-                "text": "A particular part of a place, piece of land, or country.",
-                "examples": [
-                    "Do you live in this area?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to address location",
-        "opposite": null
-    },
-
-
-    {
-        "word": "art",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🎨",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The creation of works such as paintings or sculptures.",
-                "examples": [
-                    "I love modern art."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to places culture leisure",
-        "opposite": null
-    },
-
-
-    {
-        "word": "band",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎸",
-        "form": "noun",
-        "plural": "bands",
-        "definitions": [
-            {
-                "text": "A group of people who play music together.",
-                "examples": [
-                    "He plays in a rock band."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to music",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bath",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🛁",
-        "form": "noun",
-        "plural": "baths",
-        "definitions": [
-            {
-                "text": "A long container that you fill with water and wash your body in.",
-                "examples": [
-                    "I'm going to have a hot bath."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "birthday",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🎂",
-        "form": "noun",
-        "plural": "birthdays",
-        "definitions": [
-            {
-                "text": "The day on which someone was born.",
-                "examples": [
-                    "When is your birthday?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to personal identity",
-        "opposite": null
-    },
-
-
-    {
-        "word": "boat",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "emoji": "⛵",
-        "form": "noun",
-        "plural": "boats",
-        "definitions": [
-            {
-                "text": "A vehicle used for traveling on water.",
-                "examples": [
-                    "We took a boat across the lake."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to modes of transport",
-        "opposite": null
-    },
-
-
-    {
-        "word": "business",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "💼",
-        "form": "noun",
-        "plural": "businesses",
-        "definitions": [
-            {
-                "text": "The activity of making, buying, or selling goods or services for money.",
-                "examples": [
-                    "He is in the family business."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to workplace basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "college",
-        "level": "starter",
-        "theme": "types_of_education_A1",
-        "emoji": "🎓",
-        "form": "noun",
-        "plural": "colleges",
-        "definitions": [
-            {
-                "text": "A place where students study after they leave school.",
-                "examples": [
-                    "She is at college."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to types of education",
-        "opposite": null
-    },
-
-
-    {
-        "word": "company",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "🏢",
-        "form": "noun",
-        "plural": "companies",
-        "definitions": [
-            {
-                "text": "An organization that sells goods or services in order to make money.",
-                "examples": [
-                    "He works for a large insurance company."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to workplace basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "concert",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎵",
-        "form": "noun",
-        "plural": "concerts",
-        "definitions": [
-            {
-                "text": "A performance of music by one or more musicians or singers.",
-                "examples": [
-                    "Are you going to the concert tonight?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to music",
-        "opposite": null
-    },
-
-
-    {
-        "word": "conversation",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "💬",
-        "form": "noun",
-        "plural": "conversations",
-        "definitions": [
-            {
-                "text": "A talk between two or more people.",
-                "examples": [
-                    "We had a long conversation about work."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "again",
-        "level": "starter",
-        "theme": "frequency_adverbs_A1",
-        "emoji": "🔁",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "One more time.",
-                "examples": [
-                    "Can you say that again, please?"
-                ]
-            }
-        ],
-        "subtext": "related to frequency adverbs",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ago",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "🕰️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Back in time from now.",
-                "examples": [
-                    "He left ten minutes ago."
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "also",
-        "level": "starter",
-        "theme": "conjunctions_connectors_A1",
-        "emoji": "➕",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "In addition; too.",
-                "examples": [
-                    "I speak English and also French."
-                ]
-            }
-        ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": null
-    },
-
-
-    {
-        "word": "really",
-        "level": "starter",
-        "theme": "basic_intensifiers_A1",
-        "emoji": "‼️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Very; truly.",
-                "examples": [
-                    "The coffee is really hot.",
-                    "I really like this song."
-                ]
-            }
-        ],
-        "subtext": "related to basic intensifiers",
-        "opposite": null
-    },
-
-
-    {
-        "word": "there",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "emoji": "👉",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "In, at, or to that place.",
-                "examples": [
-                    "The book is over there."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pencil",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "✏️",
-        "form": "noun",
-        "plural": "pencils",
-        "definitions": [
-            {
-                "text": "A long thin object used for writing or drawing.",
-                "examples": [
-                    "Write your name with a pencil."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "paper",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "📄",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Thin material used for writing, printing, or drawing.",
-                "examples": [
-                    "I need a piece of paper."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "umbrella",
-        "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "☂️",
-        "form": "noun",
-        "plural": "umbrellas",
-        "definitions": [
-            {
-                "text": "A folding frame covered in cloth used to protect you from rain.",
-                "examples": [
-                    "Take an umbrella — it is raining."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to weather",
-        "opposite": null
-    },
-
-
-    {
-        "word": "glasses",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "emoji": "👓",
-        "form": "noun",
-        "plural": "glasses",
-        "definitions": [
-            {
-                "text": "Two pieces of glass in a frame that you wear on your face to help you see.",
-                "examples": [
-                    "I wear glasses for reading."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to accessories",
-        "opposite": null
-    },
-
-
-    {
-        "word": "watch",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "emoji": "⌚",
-        "form": "noun",
-        "plural": "watches",
-        "definitions": [
-            {
-                "text": "A small clock that you wear on your wrist.",
-                "examples": [
-                    "What time is it on your watch?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to accessories",
-        "opposite": null
-    },
-
-
-    {
-        "word": "fridge",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🧊",
-        "form": "noun",
-        "plural": "fridges",
-        "subtext": "",
-        "synonyms": ["refrigerator"],
-        "definitions": [
-            {
-                "text": "A large piece of electrical equipment used for keeping food and drink cold.",
-                "examples": [
-                    "The milk is in the fridge."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "oven",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🔥",
-        "form": "noun",
-        "plural": "ovens",
-        "definitions": [
-            {
-                "text": "A piece of kitchen equipment used for baking or heating food.",
-                "examples": [
-                    "The cake is in the oven."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "soap",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🧼",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A substance that you use with water to wash your body.",
-                "examples": [
-                    "Wash your hands with soap."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "towel",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🧖",
-        "form": "noun",
-        "plural": "towels",
-        "definitions": [
-            {
-                "text": "A piece of cloth used for drying your body or a surface.",
-                "examples": [
-                    "I need a clean towel for the shower."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "city",
-        "level": "starter",
-        "theme": "cities_towns_A1",
-        "emoji": "🏙️",
-        "form": "noun",
-        "plural": "cities",
-        "definitions": [
-            {
-                "text": "A large and important town.",
-                "examples": [
-                    "London is a big city."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to cities towns",
-        "opposite": null
-    },
-
-
-    {
-        "word": "town",
-        "level": "starter",
-        "theme": "cities_towns_A1",
-        "emoji": "🏘️",
-        "form": "noun",
-        "plural": "towns",
-        "definitions": [
-            {
-                "text": "A place where people live that is larger than a village but smaller than a city.",
-                "examples": [
-                    "He lives in a small town."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to cities towns",
-        "opposite": null
-    },
-
-
-    {
-        "word": "village",
-        "level": "starter",
-        "theme": "cities_towns_A1",
-        "emoji": "🏡",
-        "form": "noun",
-        "plural": "villages",
-        "definitions": [
-            {
-                "text": "A very small town in the country.",
-                "examples": [
-                    "My grandmother lives in a quiet village."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to cities towns",
-        "opposite": null
-    },
-
-
-    {
-        "word": "country",
-        "level": "starter",
-        "theme": "countries_capitals_A1",
-        "emoji": "🏳️",
-        "form": "noun",
-        "plural": "countries",
-        "definitions": [
-            {
-                "text": "An area of land that has its own government and army.",
-                "examples": [
-                    "France is a beautiful country."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to countries capitals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "jeans",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👖",
-        "form": "noun",
-        "plural": "jeans",
-        "subtext": "pair of jeans",
-        "definitions": [
-            {
-                "text": "Trousers made of strong blue cotton cloth.",
-                "examples": [
-                    "I am wearing blue jeans."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "belt",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "emoji": "🎗️",
-        "form": "noun",
-        "plural": "belts",
-        "definitions": [
-            {
-                "text": "A long thin piece of leather or cloth that you wear around your waist.",
-                "examples": [
-                    "He is wearing a black belt."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to accessories",
-        "opposite": null
-    },
-
-
-    {
-        "word": "with",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "In the company of or including.",
-                "examples": [
-                    "I like coffee with milk."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "➕"
-    },
-
-
-    {
-        "word": "without",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "Not having or including something.",
-                "examples": [
-                    "I prefer tea without sugar."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "➖"
-    },
-
-
-    {
-        "word": "to",
-        "level": "starter",
-        "theme": "prepositions_movement_A1",
-        "form": "preposition",
-        "definitions": [
-            {
-                "text": "Used to show the direction or destination of movement.",
-                "examples": [
-                    "I go to work by bus."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions movement",
-        "opposite": null,
-        "emoji": "➡️"
-    },
-
-
-    {
-        "word": "from",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "definitions": [
-            {
-                "text": "Used to show the place where someone or something starts.",
-                "examples": [
-                    "He is from Spain."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "opposite": null,
-        "emoji": "⬅️"
-    },
-
-
-    {
-        "word": "for",
-        "level": "starter",
-        "theme": "prepositions_time_A1",
-        "form": "preposition",
-        "definitions": [
-            {
-                "text": "Used to show purpose or destination.",
-                "examples": [
-                    "This gift is for you."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions time",
-        "opposite": null,
-        "emoji": "🎁"
-    },
-
-
-    {
-        "word": "or",
-        "level": "starter",
-        "theme": "conjunctions_connectors_A1",
-        "form": "conjunction",
-        "definitions": [
-            {
-                "text": "Used to introduce another possibility.",
-                "examples": [
-                    "Do you want tea or coffee?"
-                ]
-            }
-        ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": "and",
-        "emoji": "❓"
-    },
-
-
-    {
-        "word": "so",
-        "level": "starter",
-        "theme": "conjunctions_connectors_A1",
-        "form": "conjunction",
-        "definitions": [
-            {
-                "text": "Used to show the result of something.",
-                "examples": [
-                    "It was raining, so I took an umbrella."
-                ]
-            }
-        ],
-        "subtext": "related to conjunctions connectors",
-        "opposite": "because",
-        "emoji": "💡"
-    },
-
-
-    {
-        "word": "game",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎮",
-        "form": "noun",
-        "plural": "games",
-        "definitions": [
-            {
-                "text": "An activity or sport that people play for fun.",
-                "examples": [
-                    "Let's play a game."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to leisure activities",
-        "opposite": null
-    },
-
-
-    {
-        "word": "music",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎵",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The sound of people singing or playing instruments.",
-                "examples": [
-                    "I like listening to music."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to music",
-        "opposite": null
-    },
-
-
-    {
-        "word": "song",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎶",
-        "form": "noun",
-        "plural": "songs",
-        "definitions": [
-            {
-                "text": "A short piece of music with words that you sing.",
-                "examples": [
-                    "This is a beautiful song."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to music",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sport",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "⚽",
-        "form": "noun",
-        "plural": "sports",
-        "definitions": [
-            {
-                "text": "A game or activity such as football or tennis.",
-                "examples": [
-                    "My favorite sport is tennis."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to common sports",
-        "opposite": null
-    },
-
-
-    {
-        "word": "football",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "⚽",
-        "form": "noun",
-        "plural": null,
-        "subtext": "",
-        "synonyms": ["soccer"],
-        "definitions": [
-            {
-                "text": "A game played by two teams of eleven players who kick a ball.",
-                "examples": [
-                    "They are playing football in the park."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "tennis",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "🎾",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A game played by two or four players with rackets and a ball.",
-                "examples": [
-                    "Do you want to play tennis?"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to common sports",
-        "opposite": null
-    },
-
-
-    {
-        "word": "yesterday",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "📅",
-        "form": "adverb",
-        "opposite": "tomorrow",
-        "definitions": [
-            {
-                "text": "On the day before today.",
-                "examples": [
-                    "I was at home yesterday."
-                ]
-            }
-        ],
-        "subtext": "related to times day"
-    },
-
-
-    {
-        "word": "now",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "⏱️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "At the present time.",
-                "examples": [
-                    "I am busy now."
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "soon",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "🔜",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "In a short time from now.",
-                "examples": [
-                    "See you soon!"
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "later",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "🕙",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "At a time in the future.",
-                "examples": [
-                    "I will call you later."
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "internet",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "🌐",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The international network of computers.",
-                "examples": [
-                    "I use the internet every day."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to using smartphone",
-        "opposite": null
-    },
-
-
-    {
-        "word": "website",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "💻",
-        "form": "noun",
-        "plural": "websites",
-        "definitions": [
-            {
-                "text": "A set of pages on the internet with information about a subject.",
-                "examples": [
-                    "This is a useful website for learning English."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to using smartphone",
-        "opposite": null
-    },
-
-
-    {
-        "word": "email",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📧",
-        "form": "noun",
-        "plural": "emails",
-        "definitions": [
-            {
-                "text": "A message sent from one computer to another.",
-                "examples": [
-                    "I have many emails to read."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to using smartphone",
-        "opposite": null
-    },
-
-
-    {
-        "word": "message",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "💬",
-        "form": "noun",
-        "plural": "messages",
-        "definitions": [
-            {
-                "text": "A piece of information that you send to someone.",
-                "examples": [
-                    "I sent her a message on WhatsApp."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to using smartphone",
-        "opposite": null
-    },
-
-
-    {
-        "word": "newspaper",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📰",
-        "form": "noun",
-        "plural": "newspapers",
-        "definitions": [
-            {
-                "text": "Large sheets of paper with news and advertisements.",
-                "examples": [
-                    "He reads the newspaper every morning."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "magazine",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📖",
-        "form": "noun",
-        "plural": "magazines",
-        "definitions": [
-            {
-                "text": "A thin book with a paper cover and many pictures.",
-                "examples": [
-                    "I like reading fashion magazines."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "passport",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "emoji": "🛂",
-        "form": "noun",
-        "plural": "passports",
-        "definitions": [
-            {
-                "text": "An official document you need to travel to other countries.",
-                "examples": [
-                    "Don't forget your passport."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ticket",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "emoji": "🎫",
-        "form": "noun",
-        "plural": "tickets",
-        "definitions": [
-            {
-                "text": "A piece of paper that shows you have paid for a journey.",
-                "examples": [
-                    "I need a train ticket."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "salt",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🧂",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A white substance used to give flavor to food.",
-                "examples": [
-                    "Can you pass the salt, please?"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "snack",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥨",
-        "form": "noun",
-        "plural": "snacks",
-        "definitions": [
-            {
-                "text": "A small amount of food eaten between meals.",
-                "examples": [
-                    "I like healthy snacks like fruit."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pear",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍐",
-        "form": "noun",
-        "plural": "pears",
-        "definitions": [
-            {
-                "text": "A sweet fruit that is small at the top and round at the bottom.",
-                "examples": [
-                    "I have a pear for lunch."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cucumber",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥒",
-        "form": "noun",
-        "plural": "cucumbers",
-        "definitions": [
-            {
-                "text": "A long green vegetable used in salads.",
-                "examples": [
-                    "I like cucumber and tomato salad."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lettuce",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥬",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A plant with large green leaves eaten in salads.",
-                "examples": [
-                    "Wash the lettuce before you eat it."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "wall",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🧱",
-        "form": "noun",
-        "plural": "walls",
-        "definitions": [
-            {
-                "text": "One of the sides of a room or building.",
-                "examples": [
-                    "The walls are white."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "floor",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🧹",
-        "form": "noun",
-        "plural": "floors",
-        "definitions": [
-            {
-                "text": "The part of a room that you walk on.",
-                "examples": [
-                    "Sit on the floor."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "stairs",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🪜",
-        "form": "noun",
-        "plural": "stairs",
-        "definitions": [
-            {
-                "text": "A set of steps that lead from one level of a building to another.",
-                "examples": [
-                    "Walk up the stairs."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "map",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🗺️",
-        "form": "noun",
-        "plural": "maps",
-        "definitions": [
-            {
-                "text": "A drawing of a particular area, such as a city or a country.",
-                "examples": [
-                    "Look at the map."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ruler",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📏",
-        "form": "noun",
-        "plural": "rulers",
-        "definitions": [
-            {
-                "text": "A flat straight piece of wood or plastic used for measuring things.",
-                "examples": [
-                    "Use a ruler to draw a line."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "mouse",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐭",
-        "form": "noun",
-        "plural": "mice",
-        "numberPlural": "2 mouse",
-        "answer": "two mice",
-        "definitions": [
-            {
-                "text": "A small animal with a long tail.",
-                "examples": [
-                    "The cat is chasing a mouse."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "snake",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐍",
-        "form": "noun",
-        "plural": "snakes",
-        "definitions": [
-            {
-                "text": "A long thin animal with no legs.",
-                "examples": [
-                    "I am afraid of snakes."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "monkey",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐒",
-        "form": "noun",
-        "plural": "monkeys",
-        "definitions": [
-            {
-                "text": "A wild animal that can climb trees and has a long tail.",
-                "examples": [
-                    "Monkeys like bananas."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "spider",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🕷️",
-        "form": "noun",
-        "plural": "spiders",
-        "definitions": [
-            {
-                "text": "A small creature with eight legs.",
-                "examples": [
-                    "There is a spider on the wall."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bee",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐝",
-        "form": "noun",
-        "plural": "bees",
-        "definitions": [
-            {
-                "text": "A black and yellow insect that makes honey.",
-                "examples": [
-                    "A bee is on the flower."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "shower",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚿",
-        "form": "noun",
-        "plural": "showers",
-        "definitions": [
-            {
-                "text": "A piece of equipment that you stand under to wash your whole body.",
-                "examples": [
-                    "I have a shower every morning."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "toilet",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚽",
-        "form": "noun",
-        "plural": "toilets",
-        "definitions": [
-            {
-                "text": "A large bowl that you sit on to get rid of waste from your body.",
-                "examples": [
-                    "Where is the toilet, please?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sink",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚰",
-        "form": "noun",
-        "plural": "sinks",
-        "definitions": [
-            {
-                "text": "A bowl that is fixed to the wall in a kitchen or bathroom for washing.",
-                "examples": [
-                    "The dishes are in the sink."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sofa",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🛋️",
-        "form": "noun",
-        "plural": "sofas",
-        "subtext": "",
-        "synonyms": ["couch"],
-        "definitions": [
-            {
-                "text": "A long soft seat for more than one person.",
-                "examples": [
-                    "Let's sit on the sofa."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "shelf",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🪜",
-        "form": "noun",
-        "plural": "shelves",
-        "numberPlural": "2 shelf",
-        "answer": "two shelves",
-        "definitions": [
-            {
-                "text": "A long flat board on a wall or in a cupboard for keeping things on.",
-                "examples": [
-                    "The books are on the shelf."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "toothbrush",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🪥",
-        "form": "noun",
-        "plural": "toothbrushes",
-        "definitions": [
-            {
-                "text": "A small brush used for cleaning your teeth.",
-                "examples": [
-                    "I need a new toothbrush."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "toothpaste",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🧴",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A substance that you put on your toothbrush to clean your teeth.",
-                "examples": [
-                    "Put some toothpaste on the brush."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "shampoo",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🧴",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A liquid soap used for washing your hair.",
-                "examples": [
-                    "I need to buy some shampoo."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "history",
-        "level": "starter",
-        "theme": "school_subjects_A1",
-        "emoji": "📜",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The study of past events.",
-                "examples": [
-                    "I like learning about history."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to school subjects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "science",
-        "level": "starter",
-        "theme": "school_subjects_A1",
-        "emoji": "🧪",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The study of the natural world based on facts learned through experiments.",
-                "examples": [
-                    "We have science class on Tuesdays."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to school subjects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "maths",
-        "level": "starter",
-        "theme": "school_subjects_A1",
-        "emoji": "🔢",
-        "form": "noun",
-        "plural": null,
-        "subtext": "",
-        "synonyms": ["mathematics"],
-        "definitions": [
-            {
-                "text": "The study of numbers, shapes, and quantities.",
-                "examples": [
-                    "Maths is my favorite subject."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "geography",
-        "level": "starter",
-        "theme": "school_subjects_A1",
-        "emoji": "🌍",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The study of the systems and processes that involve the Earth's surfaces.",
-                "examples": [
-                    "We use maps in geography class."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to school subjects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "hour",
-        "level": "starter",
-        "theme": "telling_time_A1",
-        "emoji": "⏰",
-        "form": "noun",
-        "plural": "hours",
-        "definitions": [
-            {
-                "text": "A period of sixty minutes.",
-                "examples": [
-                    "I work eight hours a day."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to telling time",
-        "opposite": null
-    },
-
-
-    {
-        "word": "minute",
-        "level": "starter",
-        "theme": "telling_time_A1",
-        "emoji": "⏲️",
-        "form": "noun",
-        "plural": "minutes",
-        "definitions": [
-            {
-                "text": "A period of sixty seconds.",
-                "examples": [
-                    "Wait a minute, please."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to telling time",
-        "opposite": null
-    },
-
-
-    {
-        "word": "second",
-        "level": "starter",
-        "theme": "telling_time_A1",
-        "emoji": "⏱️",
-        "form": "noun",
-        "plural": "seconds",
-        "definitions": [
-            {
-                "text": "One of the sixty parts that a minute is divided into.",
-                "examples": [
-                    "The light changes every thirty seconds."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to telling time",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lesson",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📚",
-        "form": "noun",
-        "plural": "lessons",
-        "definitions": [
-            {
-                "text": "A period of time when you learn something with a teacher.",
-                "examples": [
-                    "I have an English lesson today."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to learning studying",
-        "opposite": null
-    },
-
-
-    {
-        "word": "homework",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Work that a teacher gives a student to do at home.",
-                "examples": [
-                    "I need to do my homework."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to learning studying",
-        "opposite": null
-    },
-
-
-    {
-        "word": "guitar",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎸",
-        "form": "noun",
-        "plural": "guitars",
-        "definitions": [
-            {
-                "text": "A musical instrument with strings that you play with your fingers.",
-                "examples": [
-                    "He plays the guitar."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to music",
-        "opposite": null
-    },
-
-
-    {
-        "word": "piano",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎹",
-        "form": "noun",
-        "plural": "pianos",
-        "definitions": [
-            {
-                "text": "A large musical instrument with a row of black and white keys.",
-                "examples": [
-                    "She is learning to play the piano."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to music",
-        "opposite": null
-    },
-
-
-    {
-        "word": "forest",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌲",
-        "form": "noun",
-        "plural": "forests",
-        "definitions": [
-            {
-                "text": "A large area of land covered with trees.",
-                "examples": [
-                    "We went for a walk in the forest."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "island",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🏝️",
-        "form": "noun",
-        "plural": "islands",
-        "definitions": [
-            {
-                "text": "A piece of land completely surrounded by water.",
-                "examples": [
-                    "They live on a small island."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "hill",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "⛰️",
-        "form": "noun",
-        "plural": "hills",
-        "definitions": [
-            {
-                "text": "An area of land that is higher than the land around it, but smaller than a mountain.",
-                "examples": [
-                    "The house is on a hill."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "duck",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🦆",
-        "form": "noun",
-        "plural": "ducks",
-        "definitions": [
-            {
-                "text": "A common bird that lives on or near water and has short legs.",
-                "examples": [
-                    "The duck is swimming in the pond."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bear",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐻",
-        "form": "noun",
-        "plural": "bears",
-        "definitions": [
-            {
-                "text": "A large strong wild animal with thick fur.",
-                "examples": [
-                    "I saw a bear in the forest."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "keyboard",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "⌨️",
-        "form": "noun",
-        "plural": "keyboards",
-        "definitions": [
-            {
-                "text": "A set of keys on a computer or piano.",
-                "examples": [
-                    "Type your name on the keyboard."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "screen",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🖥️",
-        "form": "noun",
-        "plural": "screens",
-        "definitions": [
-            {
-                "text": "The flat part of a television or computer where you see the pictures.",
-                "examples": [
-                    "Look at the computer screen."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dish",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🥣",
-        "form": "noun",
-        "plural": "dishes",
-        "definitions": [
-            {
-                "text": "A container like a flat plate or a bowl used for serving food.",
-                "examples": [
-                    "The dish is on the table."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "year",
-        "level": "starter",
-        "theme": "dates_years_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "years",
-        "definitions": [
-            {
-                "text": "A period of twelve months.",
-                "examples": [
-                    "Happy New Year!"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to dates years",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dad",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "emoji": "👨",
-        "form": "noun",
-        "plural": "dads",
-        "definitions": [
-            {
-                "text": "A father.",
-                "examples": [
-                    "My dad is at home."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to immediate family",
-        "opposite": null
-    },
-
-
-    {
-        "word": "mum",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "emoji": "👩",
-        "form": "noun",
-        "plural": "mums",
-        "definitions": [
-            {
-                "text": "A mother.",
-                "examples": [
-                    "I will ask my mum."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to immediate family",
-        "opposite": null
-    },
-
-
-    {
-        "word": "garden",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🏡",
-        "form": "noun",
-        "plural": "gardens",
-        "definitions": [
-            {
-                "text": "An area of land next to a house where flowers and plants are grown.",
-                "examples": [
-                    "The children are playing in the garden."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sandwich",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥪",
-        "form": "noun",
-        "plural": "sandwiches",
-        "definitions": [
-            {
-                "text": "Two pieces of bread with food such as cheese or meat between them.",
-                "examples": [
-                    "I have a cheese sandwich for lunch."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "trip",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "emoji": "🎒",
-        "form": "noun",
-        "plural": "trips",
-        "definitions": [
-            {
-                "text": "A journey to a place and back again.",
-                "examples": [
-                    "How was your trip to London?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "zoo",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🦁",
-        "form": "noun",
-        "plural": "zoos",
-        "definitions": [
-            {
-                "text": "A place where many kinds of wild animals are kept so that people can look at them.",
-                "examples": [
-                    "Let's go to the zoo."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to places culture leisure",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dictionary",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📖",
-        "form": "noun",
-        "plural": "dictionaries",
-        "definitions": [
-            {
-                "text": "A book that contains a list of words in alphabetical order and explains their meanings.",
-                "examples": [
-                    "Look it up in the dictionary."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "something",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "📦",
-        "form": "pronoun",
-        "definitions": [
-            {
-                "text": "An object, event, or situation that is not named.",
-                "examples": [
-                    "I want to tell you something."
-                ]
-            }
-        ],
-        "subtext": "related to describing things",
-        "opposite": null
-    },
-
-
-    {
-        "word": "someone",
-        "level": "starter",
-        "theme": "people_A1",
-        "emoji": "👤",
-        "form": "pronoun",
-        "definitions": [
-            {
-                "text": "A person who is not named.",
-                "examples": [
-                    "Someone is at the door."
-                ]
-            }
-        ],
-        "subtext": "related to people",
-        "opposite": null
-    },
-
-
-    {
-        "word": "everyone",
-        "level": "starter",
-        "theme": "people_A1",
-        "emoji": "👥",
-        "form": "pronoun",
-        "definitions": [
-            {
-                "text": "Every person.",
-                "examples": [
-                    "Hello everyone!"
-                ]
-            }
-        ],
-        "subtext": "related to people",
-        "opposite": null
-    },
-
-
-    {
-        "word": "already",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "⏳",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Before now or before a particular time.",
-                "examples": [
-                    "I have already finished my work."
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "still",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "🔄",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Continuing to happen or exist until now.",
-                "examples": [
-                    "I am still at the office."
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "yet",
-        "level": "starter",
-        "theme": "duration_expressions_A1",
-        "emoji": "❓",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Until now (used in questions and negative sentences).",
-                "examples": [
-                    "Is it time yet?"
-                ]
-            }
-        ],
-        "subtext": "related to duration expressions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "up",
-        "level": "starter",
-        "theme": "prepositions_movement_A1",
-        "emoji": "⬆️",
-        "form": "preposition",
-        "opposite": "down",
-        "definitions": [
-            {
-                "text": "Towards a higher place or position.",
-                "examples": [
-                    "Go up the stairs."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions movement"
-    },
-
-
-    {
-        "word": "down",
-        "level": "starter",
-        "theme": "prepositions_movement_A1",
-        "emoji": "⬇️",
-        "form": "preposition",
-        "opposite": "up",
-        "definitions": [
-            {
-                "text": "Towards a lower place or position.",
-                "examples": [
-                    "Sit down, please."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions movement"
-    },
-
-
-    {
-        "word": "oil",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🧴",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A smooth thick liquid used in cooking.",
-                "examples": [
-                    "Cook the vegetables in a little oil."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pepper",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🌶️",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A black or white powder with a strong hot taste used in cooking.",
-                "examples": [
-                    "Add some salt and pepper."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "taxi",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "emoji": "🚕",
-        "form": "noun",
-        "plural": "taxis",
-        "definitions": [
-            {
-                "text": "A car with a driver that you pay to take you somewhere.",
-                "examples": [
-                    "Let's take a taxi."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to modes of transport",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bridge",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌉",
-        "form": "noun",
-        "plural": "bridges",
-        "definitions": [
-            {
-                "text": "A structure that is built over a river or road so that people or vehicles can cross it.",
-                "examples": [
-                    "There is a bridge over the river."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "heart",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "❤️",
-        "form": "noun",
-        "plural": "hearts",
-        "definitions": [
-            {
-                "text": "The organ in your chest that sends blood around your body.",
-                "examples": [
-                    "My heart is beating fast."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to body parts",
-        "opposite": null
-    },
-
-
-    {
-        "word": "theatre",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🎭",
-        "form": "noun",
-        "plural": "theatres",
-        "subtext": "",
-        "synonyms": ["theater"],
-        "definitions": [
-            {
-                "text": "A building with a stage where people go to watch plays.",
-                "examples": [
-                    "We are going to the theatre tonight."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "tonight",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "🌙",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "On this night.",
-                "examples": [
-                    "What are you doing tonight?"
-                ]
-            }
-        ],
-        "subtext": "related to times day",
-        "opposite": null
-    },
-
-
-    {
-        "word": "world",
-        "level": "starter",
-        "theme": "countries_capitals_A1",
-        "emoji": "🌎",
-        "form": "noun",
-        "plural": "worlds",
-        "definitions": [
-            {
-                "text": "The Earth and all the people, places, and things on it.",
-                "examples": [
-                    "Travel around the world."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to countries capitals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "life",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🌱",
-        "form": "noun",
-        "plural": "lives",
-        "definitions": [
-            {
-                "text": "The period between birth and death.",
-                "examples": [
-                    "She has a busy life."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to personal identity",
-        "opposite": null
-    },
-
-
-    {
-        "word": "way",
-        "level": "starter",
-        "theme": "directions_navigation_A1",
-        "emoji": "🛣️",
-        "form": "noun",
-        "plural": "ways",
-        "definitions": [
-            {
-                "text": "A route or road; a method of doing something.",
-                "examples": [
-                    "Which is the way to the station?",
-                    "This is a good way to learn."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to directions navigation",
-        "opposite": null
-    },
-
-
-    {
-        "word": "thing",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "📦",
-        "form": "noun",
-        "plural": "things",
-        "definitions": [
-            {
-                "text": "An object that is not alive.",
-                "examples": [
-                    "What is that thing?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to describing things",
-        "opposite": null
-    },
-
-
-    {
-        "word": "place",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "📍",
-        "form": "noun",
-        "plural": "places",
-        "definitions": [
-            {
-                "text": "A particular area or position.",
-                "examples": [
-                    "This is a nice place."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to local places services",
-        "opposite": null
-    },
-
-
-    {
-        "word": "word",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": "words",
-        "definitions": [
-            {
-                "text": "A single unit of language.",
-                "examples": [
-                    "What does this word mean?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "number",
-        "level": "starter",
-        "theme": "numbers_0_9_A1",
-        "emoji": "🔢",
-        "form": "noun",
-        "plural": "numbers",
-        "definitions": [
-            {
-                "text": "A unit of a mathematical system used for counting.",
-                "examples": [
-                    "What is your phone number?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to numbers 0 9",
-        "opposite": null
-    },
-
-
-    {
-        "word": "body",
-        "level": "starter",
-        "theme": "health_body_A1",
-        "emoji": "👤",
-        "form": "noun",
-        "plural": "bodies",
-        "definitions": [
-            {
-                "text": "The whole physical form of a person or animal.",
-                "examples": [
-                    "Exercise is good for your body."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to health body",
-        "opposite": null
-    },
-
-
-    {
-        "word": "north",
-        "level": "starter",
-        "theme": "directions_navigation_A1",
-        "emoji": "⬆️",
-        "form": "noun",
-        "opposite": "south",
-        "definitions": [
-            {
-                "text": "The direction that is on your left when you face the sunrise.",
-                "examples": [
-                    "The city is in the north."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to directions navigation"
-    },
-
-
-    {
-        "word": "south",
-        "level": "starter",
-        "theme": "directions_navigation_A1",
-        "emoji": "⬇️",
-        "form": "noun",
-        "opposite": "north",
-        "definitions": [
-            {
-                "text": "The direction that is on your right when you face the sunrise.",
-                "examples": [
-                    "We are driving south."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to directions navigation"
-    },
-
-
-    {
-        "word": "east",
-        "level": "starter",
-        "theme": "directions_navigation_A1",
-        "emoji": "➡️",
-        "form": "noun",
-        "opposite": "west",
-        "definitions": [
-            {
-                "text": "The direction where the sun rises.",
-                "examples": [
-                    "The sun rises in the east."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to directions navigation"
-    },
-
-
-    {
-        "word": "west",
-        "level": "starter",
-        "theme": "directions_navigation_A1",
-        "emoji": "⬅️",
-        "form": "noun",
-        "opposite": "east",
-        "definitions": [
-            {
-                "text": "The direction where the sun sets.",
-                "examples": [
-                    "The sun sets in the west."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to directions navigation"
-    },
-
-
-    {
-        "word": "board",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "📋",
-        "form": "noun",
-        "plural": "boards",
-        "definitions": [
-            {
-                "text": "A flat surface at the front of a classroom that a teacher writes on.",
-                "examples": [
-                    "Look at the board.",
-                    "The teacher writes the date on the board."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "eraser",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🧽",
-        "form": "noun",
-        "plural": "erasers",
-        "subtext": "",
-        "synonyms": ["rubber"],
-        "definitions": [
-            {
-                "text": "A small piece of rubber or plastic used to remove pencil marks.",
-                "examples": [
-                    "Can I borrow your eraser?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pencil case",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "✏️",
-        "form": "noun",
-        "plural": "pencil cases",
-        "definitions": [
-            {
-                "text": "A small bag or box for keeping pencils and pens.",
-                "examples": [
-                    "My pens are in my pencil case."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "notebook",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "📓",
-        "form": "noun",
-        "plural": "notebooks",
-        "definitions": [
-            {
-                "text": "A book with empty pages that you write in.",
-                "examples": [
-                    "I write my lessons in a notebook."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "textbook",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "📖",
-        "form": "noun",
-        "plural": "textbooks",
-        "definitions": [
-            {
-                "text": "A book that contains information about a subject that people study.",
-                "examples": [
-                    "Open your English textbooks to page ten."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "backpack",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🎒",
-        "form": "noun",
-        "plural": "backpacks",
-        "definitions": [
-            {
-                "text": "A bag that you carry on your back.",
-                "examples": [
-                    "I put my books in my backpack."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "armchair",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🛋️",
-        "form": "noun",
-        "plural": "armchairs",
-        "definitions": [
-            {
-                "text": "A large comfortable chair with parts for you to rest your arms on.",
-                "examples": [
-                    "My grandfather is sitting in his armchair."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bookcase",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "📚",
-        "form": "noun",
-        "plural": "bookcases",
-        "definitions": [
-            {
-                "text": "A piece of furniture with shelves for keeping books.",
-                "examples": [
-                    "Put the book back on the bookcase."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cupboard",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🚪",
-        "form": "noun",
-        "plural": "cupboards",
-        "definitions": [
-            {
-                "text": "A piece of furniture with doors and shelves used for storing things.",
-                "examples": [
-                    "The cups are in the cupboard."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "rug",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🧶",
-        "form": "noun",
-        "plural": "rugs",
-        "definitions": [
-            {
-                "text": "A piece of thick cloth that covers part of a floor.",
-                "examples": [
-                    "There is a small rug in the bedroom."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "drawer",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🗄️",
-        "form": "noun",
-        "plural": "drawers",
-        "definitions": [
-            {
-                "text": "A part of a piece of furniture that slides out and is used for keeping things in.",
-                "examples": [
-                    "My socks are in the top drawer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "toy",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🧸",
-        "form": "noun",
-        "plural": "toys",
-        "definitions": [
-            {
-                "text": "An object for children to play with.",
-                "examples": [
-                    "The child is playing with a toy car."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "doll",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🪆",
-        "form": "noun",
-        "plural": "dolls",
-        "definitions": [
-            {
-                "text": "A toy that looks like a small person or baby.",
-                "examples": [
-                    "She likes playing with her dolls."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "robot",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🤖",
-        "form": "noun",
-        "plural": "robots",
-        "definitions": [
-            {
-                "text": "A machine that can do work by itself.",
-                "examples": [
-                    "I have a toy robot."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "monster",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "👹",
-        "form": "noun",
-        "plural": "monsters",
-        "definitions": [
-            {
-                "text": "A large, scary, imaginary creature.",
-                "examples": [
-                    "The story is about a friendly monster."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "alien",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "👽",
-        "form": "noun",
-        "plural": "aliens",
-        "definitions": [
-            {
-                "text": "A creature from another planet.",
-                "examples": [
-                    "Do you believe in aliens?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "kite",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🪁",
-        "form": "noun",
-        "plural": "kites",
-        "definitions": [
-            {
-                "text": "A toy made of paper or cloth that flies in the wind on a long string.",
-                "examples": [
-                    "Let's fly a kite in the park."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "balloon",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🎈",
-        "form": "noun",
-        "plural": "balloons",
-        "definitions": [
-            {
-                "text": "A small colored rubber bag filled with air.",
-                "examples": [
-                    "We have many balloons for the party."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to toys games",
-        "opposite": null
-    },
-
-
-    {
-        "word": "hobby",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "🎨",
-        "form": "noun",
-        "plural": "hobbies",
-        "definitions": [
-            {
-                "text": "An activity that you do for fun in your free time.",
-                "examples": [
-                    "My hobby is reading."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to hobbies interests",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pet",
-        "level": "starter",
-        "theme": "pets_A1",
-        "emoji": "🐾",
-        "form": "noun",
-        "plural": "pets",
-        "definitions": [
-            {
-                "text": "An animal that you keep at home.",
-                "examples": [
-                    "Do you have any pets?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to pets",
-        "opposite": null
-    },
-
-
-    {
-        "word": "hamster",
-        "level": "starter",
-        "theme": "pets_A1",
-        "emoji": "🐹",
-        "form": "noun",
-        "plural": "hamsters",
-        "definitions": [
-            {
-                "text": "A small animal with soft fur and no tail.",
-                "examples": [
-                    "I have a pet hamster."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to pets",
-        "opposite": null
-    },
-
-
-    {
-        "word": "lizard",
-        "level": "starter",
-        "theme": "pets_A1",
-        "emoji": "🦎",
-        "form": "noun",
-        "plural": "lizards",
-        "definitions": [
-            {
-                "text": "A small reptile with a long body and tail.",
-                "examples": [
-                    "I saw a lizard on the wall."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to pets",
-        "opposite": null
-    },
-
-
-    {
-        "word": "turtle",
-        "level": "starter",
-        "theme": "pets_A1",
-        "emoji": "🐢",
-        "form": "noun",
-        "plural": "turtles",
-        "definitions": [
-            {
-                "text": "A slow-moving animal with a hard shell.",
-                "examples": [
-                    "The turtle is swimming in the pond."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to pets",
-        "opposite": null
-    },
-
-
-    {
-        "word": "playground",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🛝",
-        "form": "noun",
-        "plural": "playgrounds",
-        "definitions": [
-            {
-                "text": "An outside area where children can play.",
-                "examples": [
-                    "The children are at the playground."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to leisure activities",
-        "opposite": null
-    },
-
-
-    {
-        "word": "story",
-        "level": "starter",
-        "theme": "books_reading_A1",
-        "emoji": "📖",
-        "form": "noun",
-        "plural": "stories",
-        "definitions": [
-            {
-                "text": "A description of events that can be true or imaginary.",
-                "examples": [
-                    "Tell me a story.",
-                    "I like stories about animals."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to books reading",
-        "opposite": null
-    },
-
-
-    {
-        "word": "painting",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🖼️",
-        "form": "noun",
-        "plural": "paintings",
-        "definitions": [
-            {
-                "text": "A picture made with paint.",
-                "examples": [
-                    "There is a beautiful painting on the wall."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to places culture leisure",
-        "opposite": null
-    },
-
-
-    {
-        "word": "poster",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📜",
-        "form": "noun",
-        "plural": "posters",
-        "definitions": [
-            {
-                "text": "A large printed picture or notice that you put on a wall.",
-                "examples": [
-                    "There is a map poster in the classroom."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sentence",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": "sentences",
-        "definitions": [
-            {
-                "text": "A group of words that expresses a complete thought.",
-                "examples": [
-                    "Write a sentence about your family."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "question",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "❓",
-        "form": "noun",
-        "plural": "questions",
-        "definitions": [
-            {
-                "text": "A sentence that asks for information.",
-                "examples": [
-                    "I have a question.",
-                    "Can you answer my question?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to asking answering questions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "answer",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "✅",
-        "form": "noun",
-        "plural": "answers",
-        "definitions": [
-            {
-                "text": "Something that you say or write when someone asks you a question.",
-                "examples": [
-                    "That is the correct answer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to asking answering questions",
-        "opposite": "ask"
-    },
-
-
-    {
-        "word": "page",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📄",
-        "form": "noun",
-        "plural": "pages",
-        "definitions": [
-            {
-                "text": "One side of a sheet of paper in a book or magazine.",
-                "examples": [
-                    "The answer is on page five."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "basketball",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "🏀",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A game where two teams try to throw a ball through a high net.",
-                "examples": [
-                    "He plays basketball every Wednesday."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to common sports",
-        "opposite": null
-    },
-
-
-    {
-        "word": "baseball",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "⚾",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A game played with a bat and ball by two teams of nine players.",
-                "examples": [
-                    "Baseball is popular in the USA."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to common sports",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bat",
-        "level": "starter",
-        "theme": "sports_equipment_A1",
-        "emoji": "🏏",
-        "form": "noun",
-        "plural": "bats",
-        "definitions": [
-            {
-                "text": "A specially shaped piece of wood used for hitting the ball in games like baseball or cricket.",
-                "examples": [
-                    "He is holding a baseball bat."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to sports equipment",
-        "opposite": null
-    },
-
-
-    {
-        "word": "scooter",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "emoji": "🛴",
-        "form": "noun",
-        "plural": "scooters",
-        "definitions": [
-            {
-                "text": "A small vehicle with two wheels and a long handle.",
-                "examples": [
-                    "The boy is riding his scooter."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to modes of transport",
-        "opposite": null
-    },
-
-
-    {
-        "word": "motorbike",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "emoji": "🏍️",
-        "form": "noun",
-        "plural": "motorbikes",
-        "definitions": [
-            {
-                "text": "A vehicle with two wheels and an engine.",
-                "examples": [
-                    "He goes to work on his motorbike."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to modes of transport",
-        "opposite": null
-    },
-
-
-    {
-        "word": "truck",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "emoji": "🚚",
-        "form": "noun",
-        "plural": "trucks",
-        "subtext": "",
-        "synonyms": ["lorry"],
-        "definitions": [
-            {
-                "text": "A large, heavy vehicle with wheels used for carrying goods.",
-                "examples": [
-                    "The truck is carrying food to the supermarket."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "farmer",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "👨‍🌾",
-        "form": "noun",
-        "plural": "farmers",
-        "definitions": [
-            {
-                "text": "A person who owns or manages a farm.",
-                "examples": [
-                    "The farmer is milking the cows."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pilot",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🧑‍✈️",
-        "form": "noun",
-        "plural": "pilots",
-        "definitions": [
-            {
-                "text": "A person who flies an aircraft.",
-                "examples": [
-                    "The pilot is in the cockpit."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "waiter",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🤵",
-        "form": "noun",
-        "plural": "waiters",
-        "definitions": [
-            {
-                "text": "A man whose job is to bring food and drinks to people at their tables in a restaurant.",
-                "examples": [
-                    "The waiter is bringing our coffee."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "waitress",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "👩‍🍳",
-        "form": "noun",
-        "plural": "waitresses",
-        "definitions": [
-            {
-                "text": "A woman whose job is to bring food and drinks to people at their tables in a restaurant.",
-                "examples": [
-                    "The waitress is very friendly."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dentist",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🧑‍⚕️",
-        "form": "noun",
-        "plural": "dentists",
-        "definitions": [
-            {
-                "text": "A person whose job is to take care of people's teeth.",
-                "examples": [
-                    "I have an appointment with the dentist."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "police officer",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "👮",
-        "form": "noun",
-        "plural": "police officers",
-        "definitions": [
-            {
-                "text": "A member of the police force.",
-                "examples": [
-                    "The police officer is directing traffic."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "firefighter",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "👩‍🚒",
-        "form": "noun",
-        "plural": "firefighters",
-        "definitions": [
-            {
-                "text": "A person whose job is to put out fires and rescue people.",
-                "examples": [
-                    "Firefighters wear heavy coats."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "soldier",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🪖",
-        "form": "noun",
-        "plural": "soldiers",
-        "definitions": [
-            {
-                "text": "A person who serves in an army.",
-                "examples": [
-                    "The soldier is in uniform."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bowl",
-        "level": "starter",
-        "theme": "kitchen_items_A1",
-        "emoji": "🥣",
-        "form": "noun",
-        "plural": "bowls",
-        "definitions": [
-            {
-                "text": "A round container that is open at the top and used for holding food or liquid.",
-                "examples": [
-                    "I eat soup from a bowl."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to kitchen items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "kettle",
-        "level": "starter",
-        "theme": "kitchen_items_A1",
-        "emoji": "🫖",
-        "form": "noun",
-        "plural": "kettles",
-        "definitions": [
-            {
-                "text": "A container with a lid, handle, and spout, used for boiling water.",
-                "examples": [
-                    "The kettle is boiling."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to kitchen items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pan",
-        "level": "starter",
-        "theme": "kitchen_items_A1",
-        "emoji": "🍳",
-        "form": "noun",
-        "plural": "pans",
-        "definitions": [
-            {
-                "text": "A metal container used for cooking food in.",
-                "examples": [
-                    "Put the pan on the stove."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to kitchen items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pot",
-        "level": "starter",
-        "theme": "kitchen_items_A1",
-        "emoji": "🍲",
-        "form": "noun",
-        "plural": "pots",
-        "definitions": [
-            {
-                "text": "A deep round container used for cooking things in.",
-                "examples": [
-                    "The pot is full of soup."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to kitchen items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "crocodile",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐊",
-        "form": "noun",
-        "plural": "crocodiles",
-        "definitions": [
-            {
-                "text": "A large reptile with short legs, a long tail, and very powerful jaws.",
-                "examples": [
-                    "Crocodiles live in rivers."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "shark",
-        "level": "starter",
-        "theme": "sea_animals_A1",
-        "emoji": "🦈",
-        "form": "noun",
-        "plural": "sharks",
-        "definitions": [
-            {
-                "text": "A large fish that has sharp teeth and a pointed fin on its back.",
-                "examples": [
-                    "The shark is swimming in the ocean."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to sea animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "whale",
-        "level": "starter",
-        "theme": "sea_animals_A1",
-        "emoji": "🐋",
-        "form": "noun",
-        "plural": "whales",
-        "definitions": [
-            {
-                "text": "A very large animal that looks like a large fish and lives in the sea.",
-                "examples": [
-                    "We saw a whale from the boat."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to sea animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dolphin",
-        "level": "starter",
-        "theme": "sea_animals_A1",
-        "emoji": "🐬",
-        "form": "noun",
-        "plural": "dolphins",
-        "definitions": [
-            {
-                "text": "A very intelligent sea animal that looks like a large fish with a pointed mouth.",
-                "examples": [
-                    "Dolphins like to jump out of the water."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to sea animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "octopus",
-        "level": "starter",
-        "theme": "sea_animals_A1",
-        "emoji": "🐙",
-        "form": "noun",
-        "plural": "octopuses",
-        "definitions": [
-            {
-                "text": "A sea animal with a soft body and eight long arms.",
-                "examples": [
-                    "The octopus has eight arms."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to sea animals",
-        "opposite": null
-    },
-
-
-    {
-        "word": "butterfly",
-        "level": "starter",
-        "theme": "insects_A1",
-        "emoji": "🦋",
-        "form": "noun",
-        "plural": "butterflies",
-        "definitions": [
-            {
-                "text": "An insect with four large, usually brightly colored wings.",
-                "examples": [
-                    "Look at that beautiful butterfly."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to insects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ant",
-        "level": "starter",
-        "theme": "insects_A1",
-        "emoji": "🐜",
-        "form": "noun",
-        "plural": "ants",
-        "definitions": [
-            {
-                "text": "A small insect that lives in large groups.",
-                "examples": [
-                    "There are ants in the garden."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to insects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ocean",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌊",
-        "form": "noun",
-        "plural": "oceans",
-        "definitions": [
-            {
-                "text": "The very large area of salty water that covers most of the Earth's surface.",
-                "examples": [
-                    "The Atlantic Ocean is big."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "desert",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🏜️",
-        "form": "noun",
-        "plural": "deserts",
-        "definitions": [
-            {
-                "text": "A large area of land that has very little water and very few plants growing on it.",
-                "examples": [
-                    "It is very hot in the desert."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "jungle",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌴",
-        "form": "noun",
-        "plural": "jungles",
-        "definitions": [
-            {
-                "text": "A thick tropical forest with many trees and plants.",
-                "examples": [
-                    "Monkeys live in the jungle."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "earth",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌍",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The planet on which we live.",
-                "examples": [
-                    "The Earth moves around the sun."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "planet",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🪐",
-        "form": "noun",
-        "plural": "planets",
-        "definitions": [
-            {
-                "text": "A very large round object in space that moves around the sun or another star.",
-                "examples": [
-                    "Mars is a red planet."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "violin",
-        "level": "starter",
-        "theme": "musical_instruments_A1",
-        "emoji": "🎻",
-        "form": "noun",
-        "plural": "violins",
-        "definitions": [
-            {
-                "text": "A musical instrument with four strings that you hold under your chin and play with a bow.",
-                "examples": [
-                    "He plays the violin."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to musical instruments",
-        "opposite": null
-    },
-
-
-    {
-        "word": "drums",
-        "level": "starter",
-        "theme": "musical_instruments_A1",
-        "emoji": "🥁",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A set of musical instruments that you hit with sticks.",
-                "examples": [
-                    "She plays the drums in a band."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to musical instruments",
-        "opposite": null
-    },
-
-
-    {
-        "word": "flute",
-        "level": "starter",
-        "theme": "musical_instruments_A1",
-        "emoji": "🪈",
-        "form": "noun",
-        "plural": "flutes",
-        "definitions": [
-            {
-                "text": "A musical instrument in the shape of a pipe with holes that you blow across.",
-                "examples": [
-                    "She is playing the flute."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to musical instruments",
-        "opposite": null
-    },
-
-
-    {
-        "word": "tie",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👔",
-        "form": "noun",
-        "plural": "ties",
-        "definitions": [
-            {
-                "text": "A long, thin piece of cloth that a man wears around his neck with a shirt.",
-                "examples": [
-                    "He wears a tie to work."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ring",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "emoji": "💍",
-        "form": "noun",
-        "plural": "rings",
-        "definitions": [
-            {
-                "text": "A small circular piece of jewelry that you wear on your finger.",
-                "examples": [
-                    "She has a gold ring."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to accessories",
-        "opposite": null
-    },
-
-
-    {
-        "word": "necklace",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "emoji": "📿",
-        "form": "noun",
-        "plural": "necklaces",
-        "definitions": [
-            {
-                "text": "A piece of jewelry that you wear around your neck.",
-                "examples": [
-                    "She is wearing a beautiful necklace."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to accessories",
-        "opposite": null
-    },
-
-
-    {
-        "word": "roof",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🏠",
-        "form": "noun",
-        "plural": "roofs",
-        "definitions": [
-            {
-                "text": "The structure that covers or forms the top of a building.",
-                "examples": [
-                    "The cat is on the roof."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "fence",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚧",
-        "form": "noun",
-        "plural": "fences",
-        "definitions": [
-            {
-                "text": "A structure made of wood or metal that surrounds a piece of land.",
-                "examples": [
-                    "There is a white fence around the garden."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "gate",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🚪",
-        "form": "noun",
-        "plural": "gates",
-        "definitions": [
-            {
-                "text": "A part of a fence or outside wall that opens and closes like a door.",
-                "examples": [
-                    "Please close the gate."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "cookie",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍪",
-        "form": "noun",
-        "plural": "cookies",
-        "subtext": "",
-        "synonyms": ["biscuit"],
-        "definitions": [
-            {
-                "text": "A small flat sweet cake.",
-                "examples": [
-                    "I want a chocolate cookie."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "biscuit",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍪",
-        "form": "noun",
-        "plural": "biscuits",
-        "subtext": "",
-        "synonyms": ["cookie"],
-        "definitions": [
-            {
-                "text": "A small flat sweet cake.",
-                "examples": [
-                    "Would you like a biscuit with your tea?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "yogurt",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥛",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A thick liquid food made from milk.",
-                "examples": [
-                    "I eat yogurt for breakfast."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ham",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍖",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Meat from the leg of a pig.",
-                "examples": [
-                    "A ham sandwich."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bacon",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🥓",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Meat from a pig that is cut into long thin slices.",
-                "examples": [
-                    "I love eggs and bacon."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "sausage",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🌭",
-        "form": "noun",
-        "plural": "sausages",
-        "definitions": [
-            {
-                "text": "A mixture of meat and spices in a long thin skin.",
-                "examples": [
-                    "We had sausages for breakfast."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "honey",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍯",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A sweet, sticky yellow substance made by bees.",
-                "examples": [
-                    "I like honey on my toast."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "jam",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍓",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A sweet food made from fruit and sugar.",
-                "examples": [
-                    "Strawberry jam is delicious."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to basic foods",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pineapple",
-        "level": "starter",
-        "theme": "fruits_vegetables_A1",
-        "emoji": "🍍",
-        "form": "noun",
-        "plural": "pineapples",
-        "definitions": [
-            {
-                "text": "A large tropical fruit with a tough skin and yellow flesh.",
-                "examples": [
-                    "We bought a fresh pineapple."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to fruits vegetables",
-        "opposite": null
-    },
-
-
-    {
-        "word": "watermelon",
-        "level": "starter",
-        "theme": "fruits_vegetables_A1",
-        "emoji": "🍉",
-        "form": "noun",
-        "plural": "watermelons",
-        "definitions": [
-            {
-                "text": "A large round fruit with green skin and red flesh.",
-                "examples": [
-                    "Watermelon is refreshing in summer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to fruits vegetables",
-        "opposite": null
-    },
-
-
-    {
-        "word": "mushroom",
-        "level": "starter",
-        "theme": "fruits_vegetables_A1",
-        "emoji": "🍄",
-        "form": "noun",
-        "plural": "mushrooms",
-        "definitions": [
-            {
-                "text": "A type of fungus with a stem and a cap.",
-                "examples": [
-                    "I don't like mushrooms on my pizza."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to fruits vegetables",
-        "opposite": null
-    },
-
-
-    {
-        "word": "broccoli",
-        "level": "starter",
-        "theme": "fruits_vegetables_A1",
-        "emoji": "🥦",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A green vegetable with thick stems and small green flowers.",
-                "examples": [
-                    "Eat your broccoli, it's good for you."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to fruits vegetables",
-        "opposite": null
-    },
-
-
-    {
-        "word": "peas",
-        "level": "starter",
-        "theme": "fruits_vegetables_A1",
-        "emoji": "🫛",
-        "form": "noun",
-        "plural": "peas",
-        "definitions": [
-            {
-                "text": "Small round green seeds eaten as a vegetable.",
-                "examples": [
-                    "We had fish and peas for dinner."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to fruits vegetables",
-        "opposite": null
-    },
-
-
-    {
-        "word": "envelope",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "✉️",
-        "form": "noun",
-        "plural": "envelopes",
-        "definitions": [
-            {
-                "text": "A flat paper container used for sending letters.",
-                "examples": [
-                    "Put the letter in the envelope."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "stamp",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🧧",
-        "form": "noun",
-        "plural": "stamps",
-        "definitions": [
-            {
-                "text": "A small piece of paper that you buy and stick onto an envelope.",
-                "examples": [
-                    "I need a stamp for this letter."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "stapler",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🖇️",
-        "form": "noun",
-        "plural": "staplers",
-        "definitions": [
-            {
-                "text": "A small device used for joining together sheets of paper with a small piece of metal.",
-                "examples": [
-                    "I need a stapler for these reports."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "glue",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🧪",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "A sticky substance used for joining things together.",
-                "examples": [
-                    "Use some glue to fix the picture."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "scissors",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "✂️",
-        "form": "noun",
-        "plural": "scissors",
-        "definitions": [
-            {
-                "text": "A tool used for cutting paper, cloth, etc.",
-                "examples": [
-                    "Where are the scissors? I need to cut this paper."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "calculator",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🔢",
-        "form": "noun",
-        "plural": "calculators",
-        "definitions": [
-            {
-                "text": "A small electronic device used for adding, subtracting, etc.",
-                "examples": [
-                    "I use a calculator for my maths homework."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to school stationery",
-        "opposite": null
-    },
-
-
-    {
-        "word": "washing machine",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🧺",
-        "form": "noun",
-        "plural": "washing machines",
-        "definitions": [
-            {
-                "text": "A machine for washing clothes.",
-                "examples": [
-                    "Put your dirty shirts in the washing machine."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "toaster",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🍞",
-        "form": "noun",
-        "plural": "toasters",
-        "definitions": [
-            {
-                "text": "A piece of electrical equipment used for making toast.",
-                "examples": [
-                    "Put the bread in the toaster."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "remote control",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🎮",
-        "form": "noun",
-        "plural": "remote controls",
-        "definitions": [
-            {
-                "text": "A small device that you use to control a television from a distance.",
-                "examples": [
-                    "Where is the remote control for the TV?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
-    },
-
-
-    {
-        "word": "rainbow",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌈",
-        "form": "noun",
-        "plural": "rainbows",
-        "definitions": [
-            {
-                "text": "A large curve of different colors that can sometimes be seen in the sky when there is sun and rain.",
-                "examples": [
-                    "Look! There is a beautiful rainbow in the sky."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "storm",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "⛈️",
-        "form": "noun",
-        "plural": "storms",
-        "definitions": [
-            {
-                "text": "A period of very bad weather when there is a lot of rain, wind, and often lightning and thunder.",
-                "examples": [
-                    "There was a big storm last night."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pyjamas",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "🛌",
-        "form": "noun",
-        "plural": "pyjamas",
-        "definitions": [
-            {
-                "text": "Soft loose clothes that you wear in bed.",
-                "examples": [
-                    "Put on your pyjamas and go to sleep."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "shorts",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "🩳",
-        "form": "noun",
-        "plural": "shorts",
-        "definitions": [
-            {
-                "text": "Short trousers that end above the knees.",
-                "examples": [
-                    "I wear shorts in summer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "trainers",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👟",
-        "form": "noun",
-        "plural": "trainers",
-        "subtext": "",
-        "synonyms": ["sneakers"],
-        "definitions": [
-            {
-                "text": "Soft shoes that you wear for sport or as casual clothes.",
-                "examples": [
-                    "I need a new pair of trainers."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "living room",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🛋️",
-        "form": "noun",
-        "plural": "living rooms",
-        "definitions": [
-            {
-                "text": "The main room in a house where people sit and relax.",
-                "examples": [
-                    "We are watching TV in the living room."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dining room",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🍽️",
-        "form": "noun",
-        "plural": "dining rooms",
-        "definitions": [
-            {
-                "text": "A room in a house where people eat their meals.",
-                "examples": [
-                    "Dinner is served in the dining room."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
-    },
-
-
-    {
-        "word": "break",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "☕",
-        "form": "noun",
-        "plural": "breaks",
-        "subtext": "lunch break, take a break",
-        "definitions": [
-            {
-                "text": "A short period of time when you stop working or studying to rest or eat.",
-                "examples": [
-                    "Let's take a fifteen-minute break."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "globe",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🌍",
-        "form": "noun",
-        "plural": "globes",
-        "definitions": [
-            {
-                "text": "A round object with a map of the world on it.",
-                "examples": [
-                    "Look for Italy on the globe."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "address",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "🏠",
-        "form": "noun",
-        "plural": "addresses",
-        "subtext": "home address, email address",
-        "definitions": [
-            {
-                "text": "The details of where a person lives or where a building is.",
-                "examples": [
-                    "What is your home address?",
-                    "Please write your address here."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "language",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🗣️",
-        "form": "noun",
-        "plural": "languages",
-        "subtext": "foreign language, speak a language",
-        "definitions": [
-            {
-                "text": "The system of communication used by people in a particular country.",
-                "examples": [
-                    "How many languages do you speak?",
-                    "English is a global language."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "clothes",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👕",
-        "form": "noun",
-        "plural": "clothes",
-        "subtext": "clothing, wear clothes",
-        "definitions": [
-            {
-                "text": "Items such as shirts and pants that you wear on your body.",
-                "examples": [
-                    "I need to buy some new clothes.",
-                    "She is wearing beautiful clothes."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "furniture",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🪑",
-        "form": "noun",
-        "plural": null,
-        "subtext": "office furniture, piece of furniture",
-        "definitions": [
-            {
-                "text": "Items such as chairs, tables, and beds used in a home or office.",
-                "examples": [
-                    "We need to buy some furniture for the new flat.",
-                    "The furniture is very modern."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "information",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "ℹ️",
-        "form": "noun",
-        "plural": null,
-        "subtext": "info, give information",
-        "definitions": [
-            {
-                "text": "Facts or details about something or someone.",
-                "examples": [
-                    "Can you give me some information about the hotel?",
-                    "I found the information on the website."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "nature",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🌳",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The physical world and everything in it that is not made by people.",
-                "examples": [
-                    "I love being in nature.",
-                    "We must protect nature."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to nature landscapes",
-        "opposite": null
-    },
-
-
-    {
-        "word": "weather",
-        "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🌤️",
-        "form": "noun",
-        "plural": null,
-        "subtext": "weather forecast, nice weather",
-        "definitions": [
-            {
-                "text": "The state of the atmosphere at a particular time and place.",
-                "examples": [
-                    "What is the weather like today?",
-                    "The weather is very nice."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "temperature",
-        "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🌡️",
-        "form": "noun",
-        "plural": "temperatures",
-        "subtext": "high temperature, body temperature",
-        "definitions": [
-            {
-                "text": "A measure of how hot or cold something is.",
-                "examples": [
-                    "The temperature is thirty degrees.",
-                    "Check the temperature."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "first name",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🆔",
-        "form": "noun",
-        "plural": "first names",
-        "opposite": null,
-        "subtext": "",
-        "synonyms": ["given name"],
-        "definitions": [
-            {
-                "text": "The name that was given to you when you were born and that comes before your family name.",
-                "examples": [
-                    "My first name is David.",
-                    "Please write your first name here."
-                ]
-            }
-        ],
-        "countability": "countable"
-    },
-
-
-    {
-        "word": "surname",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🆔",
-        "form": "noun",
-        "plural": "surnames",
-        "opposite": null,
-        "subtext": "last name, family name",
-        "definitions": [
-            {
-                "text": "The name that you share with other members of your family.",
-                "examples": [
-                    "His surname is Smith.",
-                    "What is your surname?"
-                ]
-            }
-        ],
-        "countability": "countable"
-    },
-
-
-    {
-        "word": "snow",
-        "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "❄️",
-        "form": "noun",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "Soft white pieces of frozen water that fall from the sky when it is very cold.",
-                "examples": [
-                    "We have a lot of snow in winter.",
-                    "The snow is very deep."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to weather",
-        "opposite": null
-    },
-
-
-    {
-        "word": "news",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📰",
-        "form": "noun",
-        "plural": null,
-        "subtext": "latest news, good news",
-        "definitions": [
-            {
-                "text": "Information about recent events.",
-                "examples": [
-                    "I watch the news every evening.",
-                    "Have you heard the news?"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bookshop",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "📚",
-        "form": "noun",
-        "plural": "bookshops",
-        "subtext": "",
-        "synonyms": ["bookstore"],
-        "definitions": [
-            {
-                "text": "A shop where you can buy books.",
-                "examples": [
-                    "I bought a dictionary at the bookshop."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "date",
-        "level": "starter",
-        "theme": "dates_years_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "dates",
-        "subtext": "today's date, save the date",
-        "definitions": [
-            {
-                "text": "A particular day of the month or year.",
-                "examples": [
-                    "What is the date today?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "exam",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": "exams",
-        "subtext": "examination, pass an exam, fail an exam",
-        "definitions": [
-            {
-                "text": "A formal test of a person's knowledge or proficiency in a particular subject.",
-                "examples": [
-                    "I have an English exam tomorrow."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "example",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "💡",
-        "form": "noun",
-        "plural": "examples",
-        "subtext": "for example",
-        "definitions": [
-            {
-                "text": "A thing that is representative of all such things.",
-                "examples": [
-                    "Can you give me an example?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "film",
-        "level": "starter",
-        "theme": "cinema_film_A1",
-        "emoji": "🎬",
-        "form": "noun",
-        "plural": "films",
-        "subtext": "movie, watch a film",
-        "definitions": [
-            {
-                "text": "A story or series of events that is shown as a sequence of moving pictures.",
-                "examples": [
-                    "I like watching films."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "idea",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "💡",
-        "form": "noun",
-        "plural": "ideas",
-        "subtext": "good idea",
-        "definitions": [
-            {
-                "text": "A thought or a plan.",
-                "examples": [
-                    "I have a good idea."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "letter",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "✉️",
-        "form": "noun",
-        "plural": "letters",
-        "subtext": "write a letter",
-        "definitions": [
-            {
-                "text": "A message that you write on paper and send to someone.",
-                "examples": [
-                    "He is writing a letter to his parents."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "list",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": "lists",
-        "subtext": "shopping list",
-        "definitions": [
-            {
-                "text": "A series of names or items written one after the other.",
-                "examples": [
-                    "Make a shopping list."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "meal",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "emoji": "🍽️",
-        "form": "noun",
-        "plural": "meals",
-        "subtext": "delicious meal, have a meal",
-        "definitions": [
-            {
-                "text": "An occasion when food is eaten.",
-                "examples": [
-                    "Breakfast is the first meal of the day."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "movie",
-        "level": "starter",
-        "theme": "cinema_film_A1",
-        "emoji": "🎬",
-        "form": "noun",
-        "plural": "movies",
-        "subtext": "film, watch a movie",
-        "definitions": [
-            {
-                "text": "A series of moving pictures that tell a story.",
-                "examples": [
-                    "Let's watch a movie tonight."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "party",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎉",
-        "form": "noun",
-        "plural": "parties",
-        "subtext": "birthday party, go to a party",
-        "definitions": [
-            {
-                "text": "A social event where people eat, drink, and dance.",
-                "examples": [
-                    "We are having a party on Saturday."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "photo",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "📷",
-        "form": "noun",
-        "plural": "photos",
-        "subtext": "photograph, take a photo",
-        "definitions": [
-            {
-                "text": "A picture made with a camera.",
-                "examples": [
-                    "Can I take a photo of you?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "picture",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "🖼️",
-        "form": "noun",
-        "plural": "pictures",
-        "subtext": "draw a picture, take a picture",
-        "definitions": [
-            {
-                "text": "A drawing, painting, or photo.",
-                "examples": [
-                    "The children are drawing pictures."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "road",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "🛣️",
-        "form": "noun",
-        "plural": "roads",
-        "subtext": "on the road",
-        "definitions": [
-            {
-                "text": "A way for cars and other vehicles to travel on.",
-                "examples": [
-                    "The road is very busy."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "test",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📝",
-        "form": "noun",
-        "plural": "tests",
-        "subtext": "take a test, pass a test",
-        "definitions": [
-            {
-                "text": "A set of questions or practical activities used to measure someone's knowledge or ability.",
-                "examples": [
-                    "I have a maths test today."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "university",
-        "level": "starter",
-        "theme": "types_of_education_A1",
-        "emoji": "🎓",
-        "form": "noun",
-        "plural": "universities",
-        "subtext": "study at university",
-        "definitions": [
-            {
-                "text": "A place where people study for a degree.",
-                "examples": [
-                    "She is studying at university."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "writer",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "✍️",
-        "form": "noun",
-        "plural": "writers",
-        "subtext": "famous writer",
-        "definitions": [
-            {
-                "text": "A person who writes books, stories, or articles.",
-                "examples": [
-                    "He is a famous writer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "suitcase",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "emoji": "🧳",
-        "form": "noun",
-        "plural": "suitcases",
-        "definitions": [
-            {
-                "text": "A large case that you use to carry your clothes and other things when you are traveling.",
-                "examples": [
-                    "I am packing my suitcase for the trip."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to travel vocabulary basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "purse",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "👛",
-        "form": "noun",
-        "plural": "purses",
-        "definitions": [
-            {
-                "text": "A small container for money, usually used by a woman.",
-                "examples": [
-                    "She has a red purse."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to everyday shopping",
-        "opposite": null
-    },
-
-
-    {
-        "word": "pocket",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👖",
-        "form": "noun",
-        "plural": "pockets",
-        "definitions": [
-            {
-                "text": "A small bag that is sewn into or onto a piece of clothing so that you can carry things in it.",
-                "examples": [
-                    "I have some money in my pocket."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to items of clothing",
-        "opposite": null
-    },
-
-
-    {
-        "word": "comb",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "🪮",
-        "form": "noun",
-        "plural": "combs",
-        "definitions": [
-            {
-                "text": "A flat piece of plastic or metal with a row of long thin parts called teeth, used for making your hair tidy.",
-                "examples": [
-                    "I need a comb for my hair."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to furniture objects",
-        "opposite": null
-    },
-
-
-    {
-        "word": "skill",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🧠",
-        "form": "noun",
-        "plural": "skills",
-        "subtext": "language skills",
-        "definitions": [
-            {
-                "text": "The ability to do something well.",
-                "examples": [
-                    "She has good communication skills."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "opinion",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "💬",
-        "form": "noun",
-        "plural": "opinions",
-        "subtext": "in my opinion",
-        "definitions": [
-            {
-                "text": "What you think about something or someone.",
-                "examples": [
-                    "What is your opinion about the new office?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "apartment",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "emoji": "🏢",
-        "form": "noun",
-        "plural": "apartments",
-        "subtext": "flat, studio apartment",
-        "definitions": [
-            {
-                "text": "A set of rooms for living in, especially on one floor of a building.",
-                "examples": [
-                    "I live in a small apartment in the city."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "bicycle",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "emoji": "🚲",
-        "form": "noun",
-        "plural": "bicycles",
-        "subtext": "bike, ride a bicycle",
-        "definitions": [
-            {
-                "text": "A vehicle with two wheels that you sit on and move by turning pedals.",
-                "examples": [
-                    "He goes to work by bicycle."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "mobile",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📱",
-        "form": "noun",
-        "plural": "mobiles",
-        "subtext": "mobile phone, cell phone",
-        "definitions": [
-            {
-                "text": "A phone that you can carry with you.",
-                "examples": [
-                    "I lost my mobile."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "class",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🏫",
-        "form": "noun",
-        "plural": "classes",
-        "subtext": "English class, go to class",
-        "definitions": [
-            {
-                "text": "A group of students who are taught together.",
-                "examples": [
-                    "I have an English class at nine o'clock."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "classroom",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🏫",
-        "form": "noun",
-        "plural": "classrooms",
-        "definitions": [
-            {
-                "text": "A room in a school where students have lessons.",
-                "examples": [
-                    "The students are in the classroom."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to classroom language",
-        "opposite": null
-    },
-
-
-    {
-        "word": "staff",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "👥",
-        "form": "noun",
-        "plural": null,
-        "subtext": "",
-        "synonyms": ["employees", "workers"],
-        "definitions": [
-            {
-                "text": "The group of people who work for an organization.",
-                "examples": [
-                    "The hospital staff are very helpful."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "customer",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🛍️",
-        "form": "noun",
-        "plural": "customers",
-        "definitions": [
-            {
-                "text": "A person who buys goods or services from a shop or business.",
-                "examples": [
-                    "The shop was full of customers."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to everyday shopping",
-        "opposite": null
-    },
-
-
-    {
-        "word": "guest",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏨",
-        "form": "noun",
-        "plural": "guests",
-        "definitions": [
-            {
-                "text": "A person who is staying in a hotel or visiting someone's home.",
-                "examples": [
-                    "We have two guests staying with us."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to leisure activities",
-        "opposite": null
-    },
-
-
-    {
-        "word": "career",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "📈",
-        "form": "noun",
-        "plural": "careers",
-        "subtext": "profession, start a career",
-        "definitions": [
-            {
-                "text": "The series of jobs that a person has in a particular area of work.",
-                "examples": [
-                    "She wants to start a career in nursing."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "profession",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🎓",
-        "form": "noun",
-        "plural": "professions",
-        "subtext": "",
-        "synonyms": ["job", "career"],
-        "definitions": [
-            {
-                "text": "A type of job that needs special training or a high level of education.",
-                "examples": [
-                    "Teaching is a difficult profession."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "wage",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💵",
-        "form": "noun",
-        "plural": "wages",
-        "subtext": "",
-        "synonyms": ["salary", "pay"],
-        "definitions": [
-            {
-                "text": "The amount of money that is paid to a worker, usually for each hour or week.",
-                "examples": [
-                    "The minimum wage is increasing."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "factory",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "🏭",
-        "form": "noun",
-        "plural": "factories",
-        "definitions": [
-            {
-                "text": "A building where goods are made using machines.",
-                "examples": [
-                    "He works in a car factory."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to workplace basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "file",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📁",
-        "form": "noun",
-        "plural": "files",
-        "definitions": [
-            {
-                "text": "A collection of information stored on a computer or in a folder.",
-                "examples": [
-                    "I am looking for the sales file."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to workplace basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "document",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📄",
-        "form": "noun",
-        "plural": "documents",
-        "definitions": [
-            {
-                "text": "An official paper that gives information or proof of something.",
-                "examples": [
-                    "Please sign this document."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to workplace basics",
-        "opposite": null
-    },
-
-
-    {
-        "word": "radio",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📻",
-        "form": "noun",
-        "plural": "radios",
-        "definitions": [
-            {
-                "text": "A device used for listening to music and news programs.",
-                "examples": [
-                    "I listen to the radio in the morning."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "printer",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🖨️",
-        "form": "noun",
-        "plural": "printers",
-        "definitions": [
-            {
-                "text": "A machine used for printing documents from a computer.",
-                "examples": [
-                    "We need more paper for the printer."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to basic technology devices",
-        "opposite": null
-    },
-
-
-    {
-        "word": "dessert",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "emoji": "🍰",
-        "form": "noun",
-        "plural": "desserts",
-        "subtext": "",
-        "synonyms": ["sweet dish"],
-        "definitions": [
-            {
-                "text": "Sweet food eaten at the end of a meal.",
-                "examples": [
-                    "What is for dessert?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "shoes",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👟",
-        "form": "noun",
-        "plural": "shoes",
-        "subtext": "pair of shoes, wear shoes",
-        "definitions": [
-            {
-                "text": "A pair of coverings for your feet.",
-                "examples": [
-                    "Take off your shoes."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "jewelry",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "emoji": "💍",
-        "form": "noun",
-        "plural": null,
-        "subtext": "jewellery, gold jewelry",
-        "definitions": [
-            {
-                "text": "Decorative objects that you wear on your body, such as rings or necklaces.",
-                "examples": [
-                    "She is wearing a lot of jewelry."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "nephew",
-        "level": "starter",
-        "theme": "extended_family_A1",
-        "emoji": "👦",
-        "form": "noun",
-        "plural": "nephews",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "The son of your brother or sister.",
-                "examples": [
-                    "My nephew is ten years old."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to extended family"
-    },
-
-
-    {
-        "word": "niece",
-        "level": "starter",
-        "theme": "extended_family_A1",
-        "emoji": "👧",
-        "form": "noun",
-        "plural": "nieces",
-        "opposite": null,
-        "definitions": [
-            {
-                "text": "The daughter of your brother or sister.",
-                "examples": [
-                    "My niece is a student."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to extended family"
-    },
-
-
-    {
-        "word": "teenager",
-        "level": "starter",
-        "theme": "people_A1",
-        "emoji": "🧑",
-        "form": "noun",
-        "plural": "teenagers",
-        "definitions": [
-            {
-                "text": "A person who is between 13 and 19 years old.",
-                "examples": [
-                    "He is a typical teenager."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to people",
-        "opposite": null
-    },
-
-
-    {
-        "word": "professor",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "👨‍🏫",
-        "form": "noun",
-        "plural": "professors",
-        "definitions": [
-            {
-                "text": "A teacher of the highest rank in a university department.",
-                "examples": [
-                    "He is a professor of history."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
-    },
-
-
-    {
-        "word": "month",
-        "level": "starter",
-        "theme": "dates_years_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "months",
-        "definitions": [
-            {
-                "text": "One of the twelve periods that a year is divided into.",
-                "examples": [
-                    "January is the first month of the year."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to dates years",
-        "opposite": null
-    },
-
-
-    {
-        "word": "excuse me",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "👋",
-        "form": "phrase",
-        "subtext": "",
-        "synonyms": ["pardon me"],
-        "definitions": [
-            {
-                "text": "A polite way of starting to talk to someone you do not know.",
-                "examples": [
-                    "Excuse me, is this the way to the station?"
-                ]
-            }
-        ],
-        "opposite": null
-    },
-
-
-    {
-        "word": "above",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": "below",
-        "definitions": [
-            {
-                "text": "In or to a higher position than something else.",
-                "examples": [
-                    "The shelf is above the desk."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "⬆️"
-    },
-
-
-    {
-        "word": "below",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": "above",
-        "definitions": [
-            {
-                "text": "In or to a lower position than something else.",
-                "examples": [
-                    "The desk is below the shelf."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "⬇️"
-    },
-
-
-    {
-        "word": "inside",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": "outside",
-        "definitions": [
-            {
-                "text": "In or into a container, room, or building.",
-                "examples": [
-                    "Go inside the house."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "🏠"
-    },
-
-
-    {
-        "word": "outside",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
-        "form": "preposition",
-        "opposite": "inside",
-        "definitions": [
-            {
-                "text": "Not in a particular room or building.",
-                "examples": [
-                    "It is cold outside."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions place",
-        "emoji": "🌳"
-    },
-
-
-    {
-        "word": "during",
-        "level": "starter",
-        "theme": "prepositions_time_A1",
-        "form": "preposition",
-        "definitions": [
-            {
-                "text": "From the beginning to the end of a particular period of time.",
-                "examples": [
-                    "I sleep during the night."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions time",
-        "opposite": null,
-        "emoji": "⌛"
-    },
-
-
-    {
-        "word": "before",
-        "level": "starter",
-        "theme": "prepositions_time_A1",
-        "form": "preposition",
-        "opposite": "after",
-        "definitions": [
-            {
-                "text": "At an earlier time; in front of.",
-                "examples": [
-                    "Wash your hands before dinner."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions time",
-        "emoji": "⏮️"
-    },
-
-
-    {
-        "word": "after",
-        "level": "starter",
-        "theme": "prepositions_time_A1",
-        "form": "preposition",
-        "opposite": "before",
-        "definitions": [
-            {
-                "text": "At a later time; following.",
-                "examples": [
-                    "We have a meeting after lunch."
-                ]
-            }
-        ],
-        "subtext": "related to prepositions time",
-        "emoji": "⏭️"
-    },
-
-
-    {
-        "word": "top",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🔝",
-        "form": "noun",
-        "opposite": "bottom",
-        "definitions": [
-            {
-                "text": "The highest part of something.",
-                "examples": [
-                    "The book is on the top shelf."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to size shape"
-    },
-
-
-    {
-        "word": "bottom",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "⬇️",
-        "form": "noun",
-        "opposite": "top",
-        "definitions": [
-            {
-                "text": "The lowest part of something.",
-                "examples": [
-                    "Write your name at the bottom of the page."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "related to size shape"
-    },
-
-
-    {
-        "word": "first",
-        "level": "starter",
-        "theme": "sequence_order_A2",
-        "emoji": "1️⃣",
-        "form": "adjective",
-        "opposite": "last",
-        "definitions": [
-            {
-                "text": "Coming before all others in time or order.",
-                "examples": [
-                    "He was the first person to arrive."
-                ]
-            }
-        ],
-        "subtext": "related to sequence order A2"
-    },
-
-
-    {
-        "word": "last",
-        "level": "starter",
-        "theme": "sequence_order_A2",
-        "emoji": "🔚",
-        "form": "adjective",
-        "opposite": "first",
-        "definitions": [
-            {
-                "text": "Coming after all others in time or order.",
-                "examples": [
-                    "She was the last person to leave."
-                ]
-            }
-        ],
-        "subtext": "related to sequence order A2"
-    },
-
-
-    {
-        "word": "next",
-        "level": "starter",
-        "theme": "sequence_order_A2",
-        "emoji": "⏭️",
-        "form": "adjective",
-        "opposite": "previous",
-        "definitions": [
-            {
-                "text": "Coming immediately after the present one.",
-                "examples": [
-                    "We will meet next week."
-                ]
-            }
-        ],
-        "subtext": "related to sequence order A2"
-    },
-
-
-    {
-        "word": "animal",
-        "level": "starter",
-        "theme": "animals_A1",
-        "emoji": "🐾",
-        "form": "noun",
-        "plural": "animals",
-        "subtext": "wild animal / pet animal",
-        "synonyms": ["creature"],
-        "definitions": [
-            {
-                "text": "A living thing that can move and eat.",
-                "examples": [
-                    "A dog is an animal.",
-                    "I like animals."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "chips",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍟",
-        "form": "noun",
-        "plural": "chips",
-        "subtext": "",
-        "synonyms": ["french fries"],
-        "definitions": [
-            {
-                "text": "Long thin pieces of potato cooked in oil.",
-                "examples": [
-                    "I want fish and chips for lunch."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "fries",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "emoji": "🍟",
-        "form": "noun",
-        "plural": "fries",
-        "subtext": "french fries, chips",
-        "definitions": [
-            {
-                "text": "Long thin pieces of potato cooked in oil.",
-                "examples": [
-                    "Would you like fries with your burger?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "gym",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏋️",
-        "form": "noun",
-        "plural": "gyms",
-        "subtext": "go to the gym",
-        "synonyms": ["fitness center"],
-        "definitions": [
-            {
-                "text": "A room or building with equipment for doing physical exercise.",
-                "examples": [
-                    "I go to the gym three times a week."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "fire",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🔥",
-        "form": "noun",
-        "plural": "fires",
-        "subtext": "start a fire",
-        "synonyms": ["flames"],
-        "definitions": [
-            {
-                "text": "Heat and light from something burning.",
-                "examples": [
-                    "Be careful with the fire."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "group",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "👥",
-        "form": "noun",
-        "plural": "groups",
-        "subtext": "a small group / group work",
-        "synonyms": ["set"],
-        "definitions": [
-            {
-                "text": "A number of people or things that are together.",
-                "examples": [
-                    "We work in a small group."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "ice",
-        "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🧊",
-        "form": "noun",
-        "subtext": "ice cube",
-        "synonyms": ["frozen water"],
-        "definitions": [
-            {
-                "text": "Water that has frozen and become solid.",
-                "examples": [
-                    "Do you want ice in your drink?"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "police",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "👮",
-        "form": "noun",
-        "subtext": "police force / call the police",
-        "definitions": [
-            {
-                "text": "The official organization that makes sure people obey the law.",
-                "examples": [
-                    "Call the police!"
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "traffic",
-        "level": "starter",
-        "theme": "public_transport_A1",
-        "emoji": "🚗",
-        "form": "noun",
-        "subtext": "heavy traffic",
-        "synonyms": ["cars", "vehicles"],
-        "definitions": [
-            {
-                "text": "The cars, trucks, and other vehicles using a road.",
-                "examples": [
-                    "The traffic is very heavy this morning."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "actress",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "emoji": "🎭",
-        "form": "noun",
-        "plural": "actresses",
-        "subtext": "famous actress",
-        "synonyms": ["actor"],
-        "definitions": [
-            {
-                "text": "A woman who performs in a play or movie.",
-                "examples": [
-                    "She is a famous actress."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "farm",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🚜",
-        "form": "noun",
-        "plural": "farms",
-        "subtext": "work on a farm",
-        "synonyms": ["countryside"],
-        "definitions": [
-            {
-                "text": "An area of land used for growing crops and keeping animals.",
-                "examples": [
-                    "They live on a big farm."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "opposite": null
-    },
-
-
-    {
-        "word": "blanket",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🛌",
-        "form": "noun",
-        "plural": "blankets",
-        "definitions": [
-            {
-                "text": "A large piece of warm cloth that you use on a bed.",
-                "examples": [
-                    "I need another blanket, I am cold."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "",
-        "synonyms": ["bedding", "keep warm"]
-    },
-
-
-    {
-        "word": "pillow",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🛌",
-        "form": "noun",
-        "plural": "pillows",
-        "definitions": [
-            {
-                "text": "A soft object that you rest your head on when you sleep.",
-                "examples": [
-                    "This pillow is very soft."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "soft pillow",
-        "synonyms": ["bedding"]
-    },
-
-
-    {
-        "word": "present",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎁",
-        "form": "noun",
-        "plural": "presents",
-        "definitions": [
-            {
-                "text": "Something that you give to someone, especially on a special occasion.",
-                "examples": [
-                    "I bought a birthday present for my friend."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "birthday present",
-        "synonyms": ["gift"]
-    },
-
-
-    {
-        "word": "carpet",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🧶",
-        "form": "noun",
-        "plural": "carpets",
-        "definitions": [
-            {
-                "text": "A thick material that covers the whole floor of a room.",
-                "examples": [
-                    "We have a blue carpet in the living room."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "",
-        "synonyms": ["floor covering", "rug"]
-    },
-
-
-    {
-        "word": "battery",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🔋",
-        "form": "noun",
-        "plural": "batteries",
-        "definitions": [
-            {
-                "text": "An object that provides electricity for a device.",
-                "examples": [
-                    "My phone battery is low."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "",
-        "synonyms": ["power source", "charging"]
-    },
-
-
-    {
-        "word": "charger",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🔌",
-        "form": "noun",
-        "plural": "chargers",
-        "definitions": [
-            {
-                "text": "A device used to put electricity into a battery.",
-                "examples": [
-                    "Can I borrow your phone charger?"
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "",
-        "synonyms": ["charging cable"]
-    },
-
-
-    {
-        "word": "calendar",
-        "level": "starter",
-        "theme": "dates_years_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "calendars",
-        "definitions": [
-            {
-                "text": "A table that shows the days, weeks, and months of a year.",
-                "examples": [
-                    "Check the calendar for the meeting date."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "",
-        "synonyms": ["date planner"]
-    },
-
-
-    {
-        "word": "tape",
-        "level": "starter",
-        "theme": "school_stationery_A1",
-        "emoji": "🎞️",
-        "form": "noun",
-        "plural": "tapes",
-        "definitions": [
+            },
             {
-                "text": "A long, thin piece of plastic that is sticky on one side.",
+                "text": "Used with months, years, seasons, and parts of the day.",
                 "examples": [
-                    "Use some tape to fix the envelope."
+                    "In January.",
+                    "In 2023.",
+                    "In the morning.",
+                    "In summer."
                 ]
             }
-        ],
-        "countability": "uncountable",
-        "subtext": "sticky tape"
-    },
-
-
-    {
-        "word": "sheet",
-        "level": "starter",
-        "theme": "household_items_A1",
-        "emoji": "🛌",
-        "form": "noun",
-        "plural": "sheets",
-        "definitions": [
-            {
-                "text": "A large piece of thin cloth used on a bed.",
-                "examples": [
-                    "I need to change the bed sheets."
-                ]
+        ]
             }
-        ],
-        "countability": "countable",
-        "subtext": "bed sheet",
-        "synonyms": ["linen"]
-    }
     ];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
