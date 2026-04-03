@@ -7,6 +7,8 @@
         "emoji": "👤",
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
+        "transcription": "biː",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
@@ -33,6 +35,8 @@
         "emoji": "👜",
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
+        "transcription": "hæv",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To possess something; to experience something.",
@@ -59,6 +63,8 @@
         "emoji": "🌡️",
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
+        "transcription": "fiːl",
+        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -85,6 +91,8 @@
         "opposite": "take",
         "oppositeEmoji": "👜",
         "form": "verb",
+        "transcription": "ɡɪv",
+        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To hand or transfer something to someone.",
@@ -111,6 +119,8 @@
         "opposite": "give",
         "oppositeEmoji": "🎁",
         "form": "verb",
+        "transcription": "teɪk",
+        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To hold and move something; to use or consume.",

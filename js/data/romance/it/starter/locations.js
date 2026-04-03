@@ -3,12 +3,16 @@
     {
         "word": "Francia",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "transcription": "ˈfrantʃa",
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=150&h=150&fit=crop"
     },
     {
         "word": "Italia",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "transcription": "iˈtalja",
+        "image": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=150&h=150&fit=crop"
     },
     {
         "word": "Russia",
@@ -38,12 +42,16 @@
     {
         "word": "Parigi",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "transcription": "paˈridʒi",
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=150&h=150&fit=crop"
     },
     {
         "word": "Londra",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "transcription": "ˈlondra",
+        "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=150&h=150&fit=crop"
     },
     {
         "word": "Roma",

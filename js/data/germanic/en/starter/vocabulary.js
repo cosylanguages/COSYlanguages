@@ -9,6 +9,8 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "doctors",
+        "transcription": "[ˈdɒktə]",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
         "subtext": "see a doctor, family doctor",
         "definitions": [
             {
@@ -37,6 +39,8 @@
         "emoji": "🥤",
         "form": "noun",
         "plural": "sodas",
+        "transcription": "[ˈsəʊdə]",
+        "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=400&q=80",
         "subtext": "fizzy drink, soft drink",
         "definitions": [
             {
@@ -58,6 +62,8 @@
         "emoji": "🧣",
         "form": "noun",
         "plural": "scarves",
+        "transcription": "[skɑːf]",
+        "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "A piece of cloth that you wear around your neck to keep warm.",
@@ -79,6 +85,8 @@
         "emoji": "🥣",
         "form": "noun",
         "plural": null,
+        "transcription": "[ˈsɪərɪəl]",
+        "image": "https://images.unsplash.com/photo-1521483451569-e33803c0330c?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "A food made from grain that people often eat for breakfast with milk.",
@@ -100,6 +108,8 @@
         "emoji": "🧤",
         "form": "noun",
         "plural": "gloves",
+        "transcription": "[ɡlʌvz]",
+        "image": "https://images.unsplash.com/photo-1583942222066-44042b57f822?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Pieces of clothing that you wear on your hands to keep them warm.",
@@ -121,6 +131,8 @@
         "emoji": "🕶️",
         "form": "noun",
         "plural": "sunglasses",
+        "transcription": "[ˈsʌnɡlɑːsɪz]",
+        "image": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Dark glasses that you wear to protect your eyes from the sun.",
@@ -142,6 +154,8 @@
         "emoji": "👔",
         "form": "noun",
         "plural": "suits",
+        "transcription": "[suːt]",
+        "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=400&q=80",
         "subtext": "wear a suit",
         "definitions": [
             {
@@ -165,6 +179,8 @@
         "plural": "people",
         "numberPlural": "2 person",
         "answer": "two people",
+        "transcription": "[ˈpɜːsn]",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "A human being.",
@@ -186,6 +202,8 @@
         "emoji": "💵",
         "form": "noun",
         "plural": null,
+        "transcription": "[kæʃ]",
+        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "subtext": "pay in cash",
         "definitions": [
             {
@@ -207,6 +225,8 @@
         "emoji": "💳",
         "form": "noun",
         "plural": "cards",
+        "transcription": "[kɑːd]",
+        "image": "https://images.unsplash.com/photo-1589758438368-0ad531db3366?auto=format&fit=crop&w=400&q=80",
         "subtext": "pay by card",
         "definitions": [
             {

@@ -7,6 +7,7 @@
     "emoji": "✅",
     "form": "verb",
     "transcription": "əkˈsept",
+    "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["agree to", "take", "receive"],
     "definitions": [
@@ -31,6 +32,7 @@
     "emoji": "🎯",
     "form": "verb",
     "transcription": "əˈtʃiːv",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["succeed", "reach", "accomplish"],
     "definitions": [
@@ -80,6 +82,8 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "🗣️",
     "form": "verb",
+    "transcription": "ədˈmɪt",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["confess", "acknowledge"],
     "definitions": [
@@ -102,6 +106,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "👨‍🏫",
     "form": "verb",
+    "transcription": "ədˈvaɪz",
+    "image": "https://images.unsplash.com/photo-1521791136364-798a7bc0d262?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["counsel", "suggest", "recommend"],
     "definitions": [

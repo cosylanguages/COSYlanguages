@@ -10,6 +10,8 @@
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
         "form": "noun",
+        "transcription": "me.dsɛ̃",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=150&h=150&fit=crop",
         "plural": "médecins",
         "subtext": "voir un médecin, médecin de famille",
         "definitions": [
@@ -30,6 +32,8 @@
         "gender": "masculine",
         "emoji": "🍎",
         "form": "noun",
+        "transcription": "fʁɥi",
+        "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "fruit frais, jus de fruit",
         "definitions": [
@@ -49,6 +53,8 @@
         "gender": "masculine",
         "emoji": "🥦",
         "form": "noun",
+        "transcription": "le.ɡym",
+        "image": "https://images.unsplash.com/photo-1566385101042-1a000c1267c4?w=150&h=150&fit=crop",
         "plural": "légumes",
         "subtext": "légumes frais, légumes verts",
         "definitions": [
@@ -70,6 +76,8 @@
         "answer": "deux pieds",
         "emoji": "🦶",
         "form": "noun",
+        "transcription": "pje",
+        "image": "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=150&h=150&fit=crop",
         "plural": "pieds",
         "definitions": [
             {
@@ -89,6 +97,8 @@
         "gender": "masculine",
         "emoji": "🧑‍🏫",
         "form": "noun",
+        "transcription": "pʁɔ.fɛ.sœʁ",
+        "image": "https://images.unsplash.com/photo-1544717305-27a734ef41c4?w=150&h=150&fit=crop",
         "plural": "professeurs",
         "subtext": "professeur de français, professeur d'école",
         "definitions": [
@@ -107,6 +117,8 @@
         "theme": "basic_foods_A1",
         "article": "la",
         "form": "noun",
+        "transcription": "ʁa.ta.tuj",
+        "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=150&h=150&fit=crop",
         "plural": "ratatouilles",
         "definitions": [
             {
@@ -124,6 +136,8 @@
         "theme": "basic_foods_A1",
         "article": "le",
         "form": "noun",
+        "transcription": "kʁwa.sɑ̃",
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=150&h=150&fit=crop",
         "plural": "croissants",
         "definitions": [
             {
@@ -145,6 +159,8 @@
         "numberPlural": "4 pomme",
         "answer": "quatre pommes",
         "form": "noun",
+        "transcription": "pɔm",
+        "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=150&h=150&fit=crop",
         "plural": "pommes",
         "definitions": [
             {
@@ -164,6 +180,8 @@
         "gender": "masculine",
         "emoji": "🥖",
         "form": "noun",
+        "transcription": "pɛ̃",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "pain frais, baguette",
         "definitions": [
@@ -185,6 +203,8 @@
         "gender": "masculine",
         "emoji": "🥚",
         "form": "noun",
+        "transcription": "œf",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=150&h=150&fit=crop",
         "plural": "oeufs",
         "subtext": "oeuf dur, omelette",
         "definitions": [

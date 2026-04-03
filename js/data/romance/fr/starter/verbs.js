@@ -8,6 +8,8 @@
         "subtext": "être prêt / être fatigué / être ouvert",
         "synonyms": ["à la maison"],
         "form": "verb",
+        "transcription": "ɛtʁ",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Exister ; avoir une qualité ou un état.",
@@ -31,6 +33,8 @@
         "emoji": "👜",
         "subtext": "avoir un travail / avoir déjeuner / avoir un problème",
         "form": "verb",
+        "transcription": "avwaʁ",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Posséder quelque chose ; éprouver quelque chose.",
@@ -54,6 +58,8 @@
         "emoji": "🌡️",
         "subtext": "se sentir fatigué / se sentir mieux / se sentir bien",
         "form": "verb",
+        "transcription": "sə sɑ̃.tiʁ",
+        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Éprouver une émotion ou une sensation physique.",
@@ -79,6 +85,8 @@
         "opposite": "prendre",
         "oppositeEmoji": "👜",
         "form": "verb",
+        "transcription": "dɔ.ne",
+        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Remettre ou transférer quelque chose à quelqu un.",
@@ -103,6 +111,8 @@
         "opposite": "donner",
         "oppositeEmoji": "🎁",
         "form": "verb",
+        "transcription": "pʁɑ̃dʁ",
+        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Tenir et déplacer quelque chose ; utiliser ou consommer.",
@@ -126,6 +136,8 @@
         "subtext": "obtenir un travail",
         "synonyms": ["se fatiguer", "s améliorer"],
         "form": "verb",
+        "transcription": "ɔb.tə.niʁ",
+        "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Recevoir, obtenir ou devenir.",
@@ -150,6 +162,8 @@
         "subtext": "mettre",
         "synonyms": ["ranger", "poser le téléphone"],
         "form": "verb",
+        "transcription": "mɛtʁ",
+        "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Placer quelque chose dans une position.",
@@ -173,6 +187,8 @@
         "subtext": "faire du café / faire une erreur",
         "synonyms": ["prendre une décision"],
         "form": "verb",
+        "transcription": "fɛʁ",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Créer ou produire quelque chose ; causer.",
@@ -218,6 +234,8 @@
         "emoji": "🛠️",
         "subtext": "utiliser un téléphone / utiliser les transports / utiliser un ordinateur",
         "form": "verb",
+        "transcription": "y.ti.li.ze",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Employer quelque chose dans un but précis.",
@@ -242,6 +260,8 @@
         "opposite": "fermer",
         "oppositeEmoji": "🔒",
         "form": "verb",
+        "transcription": "u.vʁiʁ",
+        "image": "https://images.unsplash.com/photo-1506377585622-bedcbb027afc?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Faire en sorte que quelque chose ne soit pas fermé ; commencer.",
@@ -266,6 +286,8 @@
         "opposite": "ouvrir",
         "oppositeEmoji": "📖",
         "form": "verb",
+        "transcription": "fɛʁ.me",
+        "image": "https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Faire en sorte que quelque chose ne soit pas ouvert ; finir.",
@@ -290,6 +312,8 @@
         "opposite": "finir",
         "oppositeEmoji": "🏁",
         "form": "verb",
+        "transcription": "kɔ.mɑ̃.se",
+        "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Débuter quelque chose.",

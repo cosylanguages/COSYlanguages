@@ -7,6 +7,8 @@
         "emoji": "👤",
         "subtext": "essere pronto / essere stanco / essere a casa",
         "form": "verb",
+        "transcription": "ˈɛssere",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Esistere; avere una qualità o uno stato.",
@@ -31,6 +33,8 @@
         "subtext": "avere un lavoro / avere un problema",
         "synonyms": ["pranzare"],
         "form": "verb",
+        "transcription": "aˈvere",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Possedere qualcosa; provare qualcosa.",
@@ -55,6 +59,8 @@
         "subtext": "",
         "synonyms": ["sentirsi stanco", "sentirsi meglio", "sentirsi bene"],
         "form": "verb",
+        "transcription": "senˈtire",
+        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Provare un emozione o una sensazione fisica.",
@@ -80,6 +86,8 @@
         "opposite": "prendere",
         "oppositeEmoji": "👜",
         "form": "verb",
+        "transcription": "ˈdare",
+        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Consegnare o trasferire qualcosa a qualcuno.",
@@ -105,6 +113,8 @@
         "opposite": "dare",
         "oppositeEmoji": "🎁",
         "form": "verb",
+        "transcription": "ˈprɛndere",
+        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Tenere e spostare qualcosa; usare o consumare.",
@@ -128,6 +138,8 @@
         "subtext": "ottenere un lavoro",
         "synonyms": ["stancarsi", "migliorare"],
         "form": "verb",
+        "transcription": "otteˈnere",
+        "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Ricevere, ottenere o diventare.",
@@ -152,6 +164,8 @@
         "subtext": "mettere / mettere giù il telefono",
         "synonyms": ["riporre"],
         "form": "verb",
+        "transcription": "ˈmettere",
+        "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Mettere qualcosa in una posizione.",
@@ -291,6 +305,8 @@
         "opposite": "finire",
         "oppositeEmoji": "🏁",
         "form": "verb",
+        "transcription": "initˈtsjare",
+        "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Iniziare a fare qualcosa.",
@@ -315,6 +331,8 @@
         "opposite": "iniziare",
         "oppositeEmoji": "▶️",
         "form": "verb",
+        "transcription": "fiˈnire",
+        "image": "https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Completare qualcosa; giungere al termine.",

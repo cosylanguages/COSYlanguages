@@ -416,9 +416,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const exitPracticeBtn = document.getElementById('exit-practice-btn');
     const closeDefinitionBtn = document.getElementById('close-definition-btn');
     const wordDisplay = document.getElementById('word-display');
+    const questionCard = document.getElementById('question-card');
 
     if (wordDisplay) {
         wordDisplay.addEventListener('click', showWordDefinition);
+    }
+    if (questionCard) {
+        questionCard.addEventListener('click', (e) => {
+            // Only trigger if clicking the card background or neutral elements,
+            // not buttons or inputs
+            if (e.target.closest('.choice-btn, input, button, #next-btn')) return;
+            showWordDefinition();
+        });
     }
 
     if (closeDefinitionBtn) {
@@ -2122,10 +2131,10 @@ function showNextWord() {
         setLanguage(currentPractice.language);
     }
 
-    // Add definition hint only if word is actually visible (not '???')
+    // Add definition hint
     const wordDisplay = document.getElementById('word-display');
     if (wordDisplay) {
-        if (wordObj.definitions && wordObj.definitions.length > 0 && wordDisplay.textContent !== '???') {
+        if (wordObj.definitions && wordObj.definitions.length > 0) {
             wordDisplay.classList.add('has-definition');
             wordDisplay.title = (translations[currentPractice.language] && translations[currentPractice.language]['click_for_definition']) || "Click for definition";
         } else {
