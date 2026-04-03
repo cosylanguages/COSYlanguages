@@ -416,9 +416,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const exitPracticeBtn = document.getElementById('exit-practice-btn');
     const closeDefinitionBtn = document.getElementById('close-definition-btn');
     const wordDisplay = document.getElementById('word-display');
+    const questionCard = document.getElementById('question-card');
 
     if (wordDisplay) {
         wordDisplay.addEventListener('click', showWordDefinition);
+    }
+    if (questionCard) {
+        questionCard.addEventListener('click', (e) => {
+            // Only trigger if clicking the card background or neutral elements,
+            // not buttons or inputs
+            if (e.target.closest('.choice-btn, input, button, #next-btn')) return;
+            showWordDefinition();
+        });
     }
 
     if (closeDefinitionBtn) {
@@ -1739,34 +1748,76 @@ function showWordDefinition() {
     const lang = currentPractice.language;
     const t = translations[lang] || translations['en'];
 
-    const baseTitle = t['definition_modal_title'] || 'Definition';
-    const displayWord = wordObj.word || wordObj.text || wordObj.topic;
-    titleEl.textContent = `${baseTitle}: ${displayWord} 📖`;
-    titleEl.removeAttribute('data-translate-key'); // Manual update
+    // Update Modal Title
+    titleEl.textContent = (t['definition_modal_title'] || 'Definition');
+    titleEl.removeAttribute('data-translate-key');
 
     content.innerHTML = '';
 
-    // Synonyms and Antonyms at the top
-    if ((wordObj.synonyms && wordObj.synonyms.length > 0) || wordObj.opposite) {
-        const extraDiv = document.createElement('div');
-        extraDiv.className = 'synonym-antonym-section';
+    // 1. Header (Image + Word + Transcription + Verb Info)
+    const header = document.createElement('div');
+    header.className = 'definition-header';
 
-        if (wordObj.synonyms && wordObj.synonyms.length > 0) {
-            const synPara = document.createElement('div');
-            synPara.className = 'synonym-antonym-item';
-            synPara.innerHTML = `<span class="synonym-symbol">=</span>${wordObj.synonyms.join(', ')}`;
-            extraDiv.appendChild(synPara);
-        }
+    // Image logic
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'definition-image-container';
+    const img = document.createElement('img');
+    img.className = 'definition-image';
+    const displayWord = wordObj.word || wordObj.text || wordObj.topic || "";
+    // Use wordObj.image if it exists; otherwise use a placeholder
+    img.src = wordObj.image || `https://placehold.co/150?text=${encodeURIComponent(displayWord)}`;
+    img.alt = displayWord;
+    imgContainer.appendChild(img);
+    header.appendChild(imgContainer);
 
-        if (wordObj.opposite) {
-            const antPara = document.createElement('div');
-            antPara.className = 'synonym-antonym-item';
-            antPara.innerHTML = `<span class="antonym-symbol">≠</span>${wordObj.opposite}`;
-            extraDiv.appendChild(antPara);
-        }
-        content.appendChild(extraDiv);
+    // Word Info
+    const wordInfo = document.createElement('div');
+    wordInfo.className = 'definition-word-info';
+
+    const wordTitle = document.createElement('h3');
+    wordTitle.className = 'word-title-main';
+    wordTitle.textContent = displayWord;
+    wordInfo.appendChild(wordTitle);
+
+    if (wordObj.transcription) {
+        const trans = document.createElement('div');
+        trans.className = 'definition-transcription';
+        trans.textContent = `[${wordObj.transcription}]`;
+        wordInfo.appendChild(trans);
     }
 
+    // Verb Info (Irregular forms + Group)
+    if (wordObj.form === 'verb') {
+        const verbInfo = document.createElement('div');
+        verbInfo.className = 'definition-verb-info';
+
+        if (wordObj.v2 || wordObj.v3) {
+            const irreg = document.createElement('span');
+            irreg.className = 'irregular-forms';
+            let irregText = "";
+            if (wordObj.v2) irregText += wordObj.v2;
+            if (wordObj.v2 && wordObj.v3) irregText += " / ";
+            if (wordObj.v3) irregText += wordObj.v3;
+            irreg.textContent = irregText;
+            verbInfo.appendChild(irreg);
+        }
+
+        if (wordObj.group) {
+            const groupBadge = document.createElement('span');
+            groupBadge.className = 'verb-group-badge';
+            const groupKey = 'verb_group_' + wordObj.group.toLowerCase().replace(/^-/, '').replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/_$/, '');
+            groupBadge.textContent = t[groupKey] || wordObj.group;
+            verbInfo.appendChild(groupBadge);
+        }
+
+        if (verbInfo.children.length > 0) {
+            wordInfo.appendChild(verbInfo);
+        }
+    }
+    header.appendChild(wordInfo);
+    content.appendChild(header);
+
+    // 2. Definitions
     wordObj.definitions.forEach((def, index) => {
         const defDiv = document.createElement('div');
         defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
@@ -1776,6 +1827,7 @@ function showWordDefinition() {
         textPara.textContent = def.text;
         defDiv.appendChild(textPara);
 
+        // 3. Examples (inside definition block)
         if (def.examples && def.examples.length > 0) {
             const exList = document.createElement('ul');
             exList.className = 'examples-list';
@@ -1788,6 +1840,35 @@ function showWordDefinition() {
         }
         content.appendChild(defDiv);
     });
+
+    // 4. Footer (Collocations, Antonyms, Synonyms)
+    if (wordObj.subtext || wordObj.opposite || (wordObj.synonyms && wordObj.synonyms.length > 0)) {
+        const footer = document.createElement('div');
+        footer.className = 'definition-footer';
+
+        if (wordObj.subtext) {
+            const collPara = document.createElement('div');
+            collPara.className = 'synonym-antonym-item';
+            collPara.innerHTML = `<span class="synonym-symbol">🔗</span>${wordObj.subtext}`;
+            footer.appendChild(collPara);
+        }
+
+        if (wordObj.opposite) {
+            const antPara = document.createElement('div');
+            antPara.className = 'synonym-antonym-item';
+            antPara.innerHTML = `<span class="antonym-symbol">≠</span>${wordObj.opposite}`;
+            footer.appendChild(antPara);
+        }
+
+        if (wordObj.synonyms && wordObj.synonyms.length > 0) {
+            const synPara = document.createElement('div');
+            synPara.className = 'synonym-antonym-item';
+            synPara.innerHTML = `<span class="synonym-symbol">=</span>${wordObj.synonyms.join(', ')}`;
+            footer.appendChild(synPara);
+        }
+
+        content.appendChild(footer);
+    }
 
     modal.style.display = 'flex';
     if (typeof setLanguage === 'function') setLanguage(lang);
@@ -2050,10 +2131,10 @@ function showNextWord() {
         setLanguage(currentPractice.language);
     }
 
-    // Add definition hint only if word is actually visible (not '???')
+    // Add definition hint
     const wordDisplay = document.getElementById('word-display');
     if (wordDisplay) {
-        if (wordObj.definitions && wordObj.definitions.length > 0 && wordDisplay.textContent !== '???') {
+        if (wordObj.definitions && wordObj.definitions.length > 0) {
             wordDisplay.classList.add('has-definition');
             wordDisplay.title = (translations[currentPractice.language] && translations[currentPractice.language]['click_for_definition']) || "Click for definition";
         } else {

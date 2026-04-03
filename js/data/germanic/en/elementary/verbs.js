@@ -6,6 +6,8 @@
     "theme": "career_development_A2",
     "emoji": "✅",
     "form": "verb",
+    "transcription": "əkˈsept",
+    "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["agree to", "take", "receive"],
     "definitions": [
@@ -17,6 +19,7 @@
         }
     ],
     "classification": "regular",
+    "group": "regular",
     "aspect": "action",
     "v2": "accepted",
     "v3": "accepted",
@@ -28,6 +31,8 @@
     "theme": "career_development_A2",
     "emoji": "🎯",
     "form": "verb",
+    "transcription": "əˈtʃiːv",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["succeed", "reach", "accomplish"],
     "definitions": [
@@ -40,6 +45,7 @@
         }
     ],
     "classification": "regular",
+    "group": "regular",
     "aspect": "action",
     "v2": "achieved",
     "v3": "achieved",
@@ -51,6 +57,8 @@
     "theme": "social_emotions_A2",
     "emoji": "🤩",
     "form": "verb",
+    "transcription": "ədˈmaɪə",
+    "image": "https://images.unsplash.com/photo-1516589174184-c685266e48fc?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["respect", "look up to"],
     "definitions": [
@@ -62,6 +70,7 @@
         }
     ],
     "classification": "regular",
+    "group": "regular",
     "aspect": "action",
     "v2": "admired",
     "v3": "admired",
@@ -73,6 +82,8 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "🗣️",
     "form": "verb",
+    "transcription": "ədˈmɪt",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["confess", "acknowledge"],
     "definitions": [
@@ -95,6 +106,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "👨‍🏫",
     "form": "verb",
+    "transcription": "ədˈvaɪz",
+    "image": "https://images.unsplash.com/photo-1521791136364-798a7bc0d262?w=150&h=150&fit=crop",
     "subtext": "",
     "synonyms": ["counsel", "suggest", "recommend"],
     "definitions": [

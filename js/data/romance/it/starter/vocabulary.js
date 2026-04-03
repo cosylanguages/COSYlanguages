@@ -9,6 +9,8 @@
         "answer": "due medici",
         "emoji": "🧑‍⚕️",
         "form": "noun",
+        "transcription": "ˈmɛdiko",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=150&h=150&fit=crop",
         "plural": "medici",
         "definitions": [
             {
@@ -29,6 +31,8 @@
         "answer": "due piedi",
         "emoji": "🦶",
         "form": "noun",
+        "transcription": "ˈpjɛde",
+        "image": "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=150&h=150&fit=crop",
         "plural": "piedi"
     },
     {
@@ -38,6 +42,8 @@
         "article": "l'",
         "emoji": "🧑‍🏫",
         "form": "noun",
+        "transcription": "inseɲˈɲante",
+        "image": "https://images.unsplash.com/photo-1544717305-27a734ef41c4?w=150&h=150&fit=crop",
         "plural": "insegnanti",
         "definitions": [
             {
@@ -55,6 +61,8 @@
         "article": "la",
         "emoji": "🍝",
         "form": "noun",
+        "transcription": "ˈpasta",
+        "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?w=150&h=150&fit=crop",
         "plural": "pasta",
         "definitions": [
             {
@@ -71,6 +79,8 @@
         "theme": "basic_foods_A1",
         "article": "la",
         "form": "noun",
+        "transcription": "laˈzaɲɲa",
+        "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=150&h=150&fit=crop",
         "plural": "lasagne"
     },
     {
@@ -82,6 +92,8 @@
         "numberPlural": "4 mela",
         "answer": "quattro mele",
         "form": "noun",
+        "transcription": "ˈmela",
+        "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=150&h=150&fit=crop",
         "plural": "mele"
     },
     {
@@ -92,6 +104,8 @@
         "gender": "masculine",
         "emoji": "🍞",
         "form": "noun",
+        "transcription": "ˈpane",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "pane fresco, baguette"
     },
@@ -103,6 +117,8 @@
         "gender": "masculine",
         "emoji": "🥚",
         "form": "noun",
+        "transcription": "ˈwɔːvo",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=150&h=150&fit=crop",
         "plural": "uova",
         "subtext": "uovo sodo, frittata"
     },
@@ -114,6 +130,8 @@
         "gender": "masculine",
         "emoji": "🥛",
         "form": "noun",
+        "transcription": "ˈlatte",
+        "image": "https://images.unsplash.com/photo-1550583724-1276f2c8023e?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "bicchiere di latte, latte fresco"
     },
@@ -125,6 +143,8 @@
         "gender": "masculine",
         "emoji": "🍚",
         "form": "noun",
+        "transcription": "ˈrizo",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "riso bianco, risotto"
     },

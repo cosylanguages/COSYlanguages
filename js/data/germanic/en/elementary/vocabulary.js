@@ -6,6 +6,8 @@
     "theme": "holiday_types_A2",
     "emoji": "✈️",
     "form": "adverb",
+    "transcription": "əˈbrɔːd",
+    "image": "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "In or to another country.",
@@ -24,6 +26,8 @@
     "emoji": "🏦",
     "form": "noun",
     "plural": "accounts",
+    "transcription": "əˈkaʊnt",
+    "image": "https://images.unsplash.com/photo-1550565118-3a14e8d0386f?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "An arrangement with a bank to store your money.",
@@ -41,6 +45,8 @@
     "theme": "career_development_A2",
     "emoji": "🏆",
     "form": "noun",
+    "transcription": "əˈtʃiːvmənt",
+    "image": "https://images.unsplash.com/photo-1523211717421-193839dec71f?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "Something very good and difficult that you have succeeded in doing.",
@@ -59,6 +65,8 @@
     "theme": "basic_arithmetic_A2",
     "emoji": "➕",
     "form": "noun",
+    "transcription": "əˈdɪʃn",
+    "image": "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "The process of adding numbers together.",
@@ -77,6 +85,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "➕",
     "form": "noun",
+    "transcription": "ədˈvɑːntɪdʒ",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "A condition or way of being that helps you to succeed.",
@@ -96,6 +106,8 @@
     "theme": "news_media_A2",
     "emoji": "📺",
     "form": "noun",
+    "transcription": "ədˈvɜːtɪsmənt",
+    "image": "https://images.unsplash.com/photo-1542744094-24638eff58bb?w=150&h=150&fit=crop",
     "definitions": [
         {
             "text": "A picture, short film, or piece of text that tries to sell a product.",

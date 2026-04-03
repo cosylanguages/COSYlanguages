@@ -1095,6 +1095,7 @@
             verb_group_ire: "-ire Group",
             verb_group_ire_isc: "-ire (isc) Group",
             verb_group_urre: "-urre Group",
+            verb_group_regular: "Regular",
             verb_group_1st_conj: "1st Conjugation",
             verb_group_2nd_conj: "2nd Conjugation",
             verb_group_mixed_conj: "Mixed Conjugation",
