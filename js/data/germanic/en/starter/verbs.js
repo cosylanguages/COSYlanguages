@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "be",
         "level": "starter",
@@ -9,7 +8,7 @@
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
         "transcription": "biː",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
@@ -27,7 +26,6 @@
         "group": "irregular",
         "opposite": "become"
     },
-
     {
         "word": "have",
         "level": "starter",
@@ -36,7 +34,7 @@
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
         "transcription": "hæv",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=150&h=150&fit=crop",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To possess something; to experience something.",
@@ -54,7 +52,6 @@
         "group": "irregular",
         "opposite": "need"
     },
-
     {
         "word": "feel",
         "level": "starter",
@@ -63,7 +60,7 @@
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
         "transcription": "fiːl",
-        "image": "https://images.unsplash.com/photo-1511216335321-d54049b07c81?w=150&h=150&fit=crop",
+        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -79,7 +76,6 @@
         "group": "irregular",
         "opposite": "act"
     },
-
     {
         "word": "give",
         "level": "starter",
@@ -106,7 +102,6 @@
         "v3": "given",
         "group": "irregular"
     },
-
     {
         "word": "take",
         "level": "starter",
@@ -133,11 +128,8 @@
         "v3": "taken",
         "group": "irregular"
     },
-
     {
         "word": "get",
-        "transcription": "ɡet",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
@@ -161,11 +153,8 @@
         "v3": "got / gotten",
         "group": "irregular"
     },
-
     {
         "word": "put",
-        "transcription": "pʊt",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
@@ -188,11 +177,8 @@
         "v3": "put",
         "group": "irregular"
     },
-
     {
         "word": "make",
-        "transcription": "meɪk",
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
@@ -214,11 +200,8 @@
         "group": "irregular",
         "opposite": "destroy"
     },
-
     {
         "word": "do",
-        "transcription": "duː",
-        "image": "https://images.unsplash.com/photo-1503674495707-c14643b62717?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
@@ -240,11 +223,8 @@
         "group": "irregular",
         "opposite": "undo"
     },
-
     {
         "word": "use",
-        "transcription": "juːz",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
@@ -266,16 +246,13 @@
         "group": "regular",
         "opposite": "waste"
     },
-
     {
         "word": "open",
-        "transcription": "ˈəʊpən",
-        "image": "https://images.unsplash.com/photo-1481273344443-3406e4aef361?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "open a door / open an account / open a shop / open at nine",
-        "opposite": "close",
+        "opposite": "closed",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -293,11 +270,8 @@
         "v3": "opened",
         "group": "regular"
     },
-
     {
         "word": "close",
-        "transcription": "kləʊz",
-        "image": "https://images.unsplash.com/photo-1481273344443-3406e4aef361?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
@@ -320,11 +294,8 @@
         "v3": "closed",
         "group": "regular"
     },
-
     {
         "word": "start",
-        "transcription": "stɑːt",
-        "image": "https://images.unsplash.com/photo-1449965074630-4348b0fb192a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
@@ -346,16 +317,13 @@
         "v3": "started",
         "group": "regular"
     },
-
     {
         "word": "finish",
-        "transcription": "ˈfɪnɪʃ",
-        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "finish work / finish a project / finish early / finish late",
-        "opposite": "start",
+        "opposite": "end",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -372,11 +340,8 @@
         "v3": "finished",
         "group": "regular"
     },
-
     {
         "word": "help",
-        "transcription": "help",
-        "image": "https://images.unsplash.com/photo-1529156069-52bf83f6f6cd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
@@ -397,11 +362,8 @@
         "group": "regular",
         "opposite": "hinder"
     },
-
     {
         "word": "try",
-        "transcription": "traɪ",
-        "image": "https://images.unsplash.com/photo-1454160811317-bf1ee4ad7c1d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
@@ -422,11 +384,8 @@
         "group": "regular",
         "opposite": "give up"
     },
-
     {
         "word": "show",
-        "transcription": "ʃəʊ",
-        "image": "https://images.unsplash.com/photo-1516321493994-43f114436738?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
@@ -448,11 +407,8 @@
         "v3": "shown",
         "group": "irregular"
     },
-
     {
         "word": "find",
-        "transcription": "faɪnd",
-        "image": "https://images.unsplash.com/photo-1509062564940-6a7514b420f5?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
@@ -475,11 +431,8 @@
         "v3": "found",
         "group": "irregular"
     },
-
     {
         "word": "keep",
-        "transcription": "kiːp",
-        "image": "https://images.unsplash.com/photo-1518386395660-44e3fa603770?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
@@ -501,11 +454,8 @@
         "group": "irregular",
         "opposite": "give away"
     },
-
     {
         "word": "lose",
-        "transcription": "luːz",
-        "image": "https://images.unsplash.com/photo-1516589222303-1d02fe1f9744?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
@@ -528,11 +478,8 @@
         "v3": "lost",
         "group": "irregular"
     },
-
     {
         "word": "cut",
-        "transcription": "kʌt",
-        "image": "https://images.unsplash.com/photo-1585336139118-89c15336b6df?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
@@ -554,11 +501,8 @@
         "group": "irregular",
         "opposite": "join"
     },
-
     {
         "word": "turn",
-        "transcription": "tɜːn",
-        "image": "https://images.unsplash.com/photo-1518107612746-3932824eaad9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
@@ -580,11 +524,8 @@
         "group": "regular",
         "opposite": "straighten"
     },
-
     {
         "word": "bring",
-        "transcription": "brɪŋ",
-        "image": "https://images.unsplash.com/photo-1518386395660-44e3fa603770?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
@@ -607,11 +548,8 @@
         "v3": "brought",
         "group": "irregular"
     },
-
     {
         "word": "say",
-        "transcription": "seɪ",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
@@ -633,11 +571,8 @@
         "group": "irregular",
         "opposite": "listen"
     },
-
     {
         "word": "tell",
-        "transcription": "tel",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
@@ -658,11 +593,8 @@
         "group": "irregular",
         "opposite": "ask"
     },
-
     {
         "word": "ask",
-        "transcription": "ɑːsk",
-        "image": "https://images.unsplash.com/photo-1516321493994-43f114436738?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
@@ -684,11 +616,8 @@
         "v3": "asked",
         "group": "regular"
     },
-
     {
         "word": "speak",
-        "transcription": "spiːk",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
@@ -710,11 +639,8 @@
         "group": "irregular",
         "opposite": "be silent"
     },
-
     {
         "word": "talk",
-        "transcription": "tɔːk",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
@@ -735,11 +661,8 @@
         "group": "regular",
         "opposite": "listen"
     },
-
     {
         "word": "call",
-        "transcription": "kɔːl",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
@@ -758,13 +681,10 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "opposite": "text"
+        "opposite": "hang up"
     },
-
     {
         "word": "write",
-        "transcription": "raɪt",
-        "image": "https://images.unsplash.com/photo-1585336139118-89c15336b6df?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
@@ -787,11 +707,8 @@
         "v3": "written",
         "group": "irregular"
     },
-
     {
         "word": "read",
-        "transcription": "riːd",
-        "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
@@ -814,11 +731,8 @@
         "v3": "read",
         "group": "irregular"
     },
-
     {
         "word": "listen",
-        "transcription": "ˈlɪsn",
-        "image": "https://images.unsplash.com/photo-1470243133901-20999517b357?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
@@ -840,11 +754,8 @@
         "group": "regular",
         "opposite": "say"
     },
-
     {
         "word": "answer",
-        "transcription": "ˈɑːnsə(r)",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
@@ -867,11 +778,8 @@
         "v3": "answered",
         "group": "regular"
     },
-
     {
         "word": "repeat",
-        "transcription": "rɪˈpiːt",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
@@ -893,11 +801,8 @@
         "group": "regular",
         "opposite": "change"
     },
-
     {
         "word": "go",
-        "transcription": "ɡəʊ",
-        "image": "https://images.unsplash.com/photo-1500390467041-f9b47e42d3aa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
@@ -918,13 +823,12 @@
         "aspect": "action",
         "v2": "went",
         "v3": "gone",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "[ɡəʊ]",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
     },
-
     {
         "word": "come",
-        "transcription": "kʌm",
-        "image": "https://images.unsplash.com/photo-1500390467041-f9b47e42d3aa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
@@ -945,13 +849,12 @@
         "aspect": "action",
         "v2": "came",
         "v3": "come",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "[kʌm]",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80"
     },
-
     {
         "word": "walk",
-        "transcription": "wɔːk",
-        "image": "https://images.unsplash.com/photo-1500390467041-f9b47e42d3aa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
@@ -974,11 +877,8 @@
         "v3": "walked",
         "group": "regular"
     },
-
     {
         "word": "drive",
-        "transcription": "draɪv",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
@@ -1000,11 +900,8 @@
         "group": "irregular",
         "opposite": "walk"
     },
-
     {
         "word": "fly",
-        "transcription": "flaɪ",
-        "image": "https://images.unsplash.com/photo-1436491861944-51b66993132d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
@@ -1026,11 +923,8 @@
         "group": "irregular",
         "opposite": "land"
     },
-
     {
         "word": "arrive",
-        "transcription": "əˈraɪv",
-        "image": "https://images.unsplash.com/photo-1530528322612-42106300d783?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
@@ -1052,11 +946,8 @@
         "v3": "arrived",
         "group": "regular"
     },
-
     {
         "word": "leave",
-        "transcription": "liːv",
-        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
@@ -1078,11 +969,8 @@
         "v3": "left",
         "group": "irregular"
     },
-
     {
         "word": "move",
-        "transcription": "muːv",
-        "image": "https://images.unsplash.com/photo-1556910228-5aa60ef290f0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
@@ -1103,11 +991,8 @@
         "group": "regular",
         "opposite": "stay"
     },
-
     {
         "word": "return",
-        "transcription": "rɪˈtɜːn",
-        "image": "https://images.unsplash.com/photo-1474487056289-481f509611aa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
@@ -1129,11 +1014,8 @@
         "group": "regular",
         "opposite": "leave"
     },
-
     {
         "word": "travel",
-        "transcription": "ˈtrævl",
-        "image": "https://images.unsplash.com/photo-1436491861944-51b66993132d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
@@ -1154,16 +1036,13 @@
         "group": "regular",
         "opposite": "stay"
     },
-
     {
         "word": "eat",
-        "transcription": "iːt",
-        "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
-        "opposite": "cook",
+        "opposite": "drink",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -1181,11 +1060,8 @@
         "v3": "eaten",
         "group": "irregular"
     },
-
     {
         "word": "drink",
-        "transcription": "drɪŋk",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1208,11 +1084,8 @@
         "v3": "drunk",
         "group": "irregular"
     },
-
     {
         "word": "sleep",
-        "transcription": "sliːp",
-        "image": "https://images.unsplash.com/photo-1505693419148-4034b9fd3fa2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1235,11 +1108,8 @@
         "v3": "slept",
         "group": "irregular"
     },
-
     {
         "word": "cook",
-        "transcription": "kʊk",
-        "image": "https://images.unsplash.com/photo-1556910228-5aa60ef290f0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1260,11 +1130,8 @@
         "group": "regular",
         "opposite": "eat"
     },
-
     {
         "word": "clean",
-        "transcription": "kliːn",
-        "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
@@ -1285,11 +1152,8 @@
         "group": "regular",
         "opposite": "dirty"
     },
-
     {
         "word": "wear",
-        "transcription": "weə(r)",
-        "image": "https://images.unsplash.com/photo-1539533392332-99242d410775?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
@@ -1311,11 +1175,8 @@
         "group": "irregular",
         "opposite": "undress"
     },
-
     {
         "word": "wash",
-        "transcription": "wɒʃ",
-        "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
@@ -1337,11 +1198,8 @@
         "group": "regular",
         "opposite": "dirty"
     },
-
     {
         "word": "buy",
-        "transcription": "baɪ",
-        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
@@ -1364,11 +1222,8 @@
         "v3": "bought",
         "group": "irregular"
     },
-
     {
         "word": "pay",
-        "transcription": "peɪ",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
@@ -1389,11 +1244,8 @@
         "group": "irregular",
         "opposite": "receive"
     },
-
     {
         "word": "spend",
-        "transcription": "spend",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
@@ -1415,11 +1267,8 @@
         "v3": "spent",
         "group": "irregular"
     },
-
     {
         "word": "save",
-        "transcription": "seɪv",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
@@ -1441,16 +1290,13 @@
         "v3": "saved",
         "group": "regular"
     },
-
     {
         "word": "work",
-        "transcription": "wɜːk",
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "work from home / work full-time / work hard / work late",
-        "opposite": "relax",
+        "opposite": "rest",
         "oppositeEmoji": "🛋️",
         "form": "verb",
         "definitions": [
@@ -1467,11 +1313,8 @@
         "v3": "worked",
         "group": "regular"
     },
-
     {
         "word": "live",
-        "transcription": "lɪv",
-        "image": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
@@ -1494,11 +1337,8 @@
         "v3": "lived",
         "group": "regular"
     },
-
     {
         "word": "think",
-        "transcription": "θɪŋk",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
@@ -1520,11 +1360,8 @@
         "group": "irregular",
         "opposite": "feel"
     },
-
     {
         "word": "know",
-        "transcription": "nəʊ",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
@@ -1547,11 +1384,8 @@
         "group": "irregular",
         "opposite": "wonder"
     },
-
     {
         "word": "want",
-        "transcription": "wɒnt",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
@@ -1574,11 +1408,8 @@
         "group": "regular",
         "opposite": "refuse"
     },
-
     {
         "word": "need",
-        "transcription": "niːd",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
@@ -1601,16 +1432,13 @@
         "group": "regular",
         "opposite": "have"
     },
-
     {
         "word": "like",
-        "transcription": "laɪk",
-        "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
-        "opposite": "dislike",
+        "opposite": null,
         "oppositeEmoji": "👎",
         "form": "verb",
         "definitions": [
@@ -1629,16 +1457,13 @@
         "v3": "liked",
         "group": "regular"
     },
-
     {
         "word": "dislike",
-        "transcription": "dɪsˈlaɪk",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "👎",
         "subtext": "not like / dislike doing",
-        "opposite": "like",
+        "opposite": "prefer",
         "oppositeEmoji": "👍",
         "form": "verb",
         "definitions": [
@@ -1655,11 +1480,8 @@
         "v3": "disliked",
         "group": "regular"
     },
-
     {
         "word": "love",
-        "transcription": "lʌv",
-        "image": "https://images.unsplash.com/photo-1516280440614-44b2518b53f7?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
@@ -1682,11 +1504,8 @@
         "v3": "loved",
         "group": "regular"
     },
-
     {
         "word": "hate",
-        "transcription": "heɪt",
-        "image": "https://images.unsplash.com/photo-1516244439604-ed13c8e70924?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
@@ -1709,11 +1528,8 @@
         "v3": "hated",
         "group": "regular"
     },
-
     {
         "word": "hope",
-        "transcription": "həʊp",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
@@ -1735,11 +1551,8 @@
         "group": "regular",
         "opposite": "fear"
     },
-
     {
         "word": "remember",
-        "transcription": "rɪˈmembə(r)",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
@@ -1762,11 +1575,8 @@
         "v3": "remembered",
         "group": "regular"
     },
-
     {
         "word": "forget",
-        "transcription": "fəˈɡet",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
@@ -1789,11 +1599,8 @@
         "v3": "forgotten",
         "group": "irregular"
     },
-
     {
         "word": "understand",
-        "transcription": "ˌʌndəˈstænd",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
@@ -1815,16 +1622,15 @@
         "group": "irregular",
         "opposite": "misunderstand"
     },
-
     {
         "word": "decide",
-        "transcription": "dɪˈsaɪd",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decide to do / decide on / hard to decide",
-        "synonyms": ["make a decision"],
+        "synonyms": [
+            "make a decision"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1842,11 +1648,8 @@
         "group": "regular",
         "opposite": "hesitate"
     },
-
     {
         "word": "enjoy",
-        "transcription": "ɪnˈdʒɔɪ",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
@@ -1867,11 +1670,8 @@
         "group": "regular",
         "opposite": "hate"
     },
-
     {
         "word": "see",
-        "transcription": "siː",
-        "image": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
@@ -1893,11 +1693,8 @@
         "group": "irregular",
         "opposite": "blind"
     },
-
     {
         "word": "hear",
-        "transcription": "hɪə(r)",
-        "image": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
@@ -1919,11 +1716,8 @@
         "group": "irregular",
         "opposite": "ignore"
     },
-
     {
         "word": "wake up",
-        "transcription": "weɪk ʌp",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -1945,11 +1739,8 @@
         "v3": "woken up",
         "group": "irregular"
     },
-
     {
         "word": "watch",
-        "transcription": "wɒtʃ",
-        "image": "https://images.unsplash.com/photo-1593359677827-08b4bad53abc?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
@@ -1970,11 +1761,8 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
     {
         "word": "look",
-        "transcription": "lʊk",
-        "image": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
@@ -1996,11 +1784,8 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
     {
         "word": "play",
-        "transcription": "pleɪ",
-        "image": "https://images.unsplash.com/photo-1558060308-2ffaa732fb3a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
@@ -2021,11 +1806,8 @@
         "group": "regular",
         "opposite": "work"
     },
-
     {
         "word": "run",
-        "transcription": "rʌn",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
@@ -2048,11 +1830,8 @@
         "v3": "run",
         "group": "irregular"
     },
-
     {
         "word": "sit",
-        "transcription": "sɪt",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
@@ -2074,11 +1853,8 @@
         "v3": "sat",
         "group": "irregular"
     },
-
     {
         "word": "stand",
-        "transcription": "stænd",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
@@ -2100,11 +1876,8 @@
         "v3": "stood",
         "group": "irregular"
     },
-
     {
         "word": "meet",
-        "transcription": "miːt",
-        "image": "https://images.unsplash.com/photo-1529156069-52bf83f6f6cd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
@@ -2123,13 +1896,10 @@
         "v3": "met",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
         "group": "irregular",
-        "opposite": "avoid"
+        "opposite": null
     },
-
     {
         "word": "learn",
-        "transcription": "lɜːn",
-        "image": "https://images.unsplash.com/photo-1503674495707-c14643b62717?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
@@ -2151,11 +1921,8 @@
         "v3": "learned / learnt",
         "group": "both"
     },
-
     {
         "word": "change",
-        "transcription": "tʃeɪndʒ",
-        "image": "https://images.unsplash.com/photo-1518107612746-3932824eaad9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
@@ -2174,13 +1941,10 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "opposite": "repeat"
+        "opposite": "stay"
     },
-
     {
         "word": "stop",
-        "transcription": "stɒp",
-        "image": "https://images.unsplash.com/photo-1449965074630-4348b0fb192a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
@@ -2202,11 +1966,8 @@
         "v3": "stopped",
         "group": "regular"
     },
-
     {
         "word": "add",
-        "transcription": "æd",
-        "image": "https://images.unsplash.com/photo-1512314889333-5745195e9052?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
@@ -2229,16 +1990,15 @@
         "v3": "added",
         "group": "regular"
     },
-
     {
         "word": "subtract",
-        "transcription": "səbˈtrækt",
-        "image": "https://images.unsplash.com/photo-1512314889333-5745195e9052?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➖",
         "subtext": "subtract from",
-        "synonyms": ["minus"],
+        "synonyms": [
+            "minus"
+        ],
         "opposite": "add",
         "oppositeEmoji": "➕",
         "form": "verb",
@@ -2256,11 +2016,8 @@
         "v3": "subtracted",
         "group": "regular"
     },
-
     {
         "word": "win",
-        "transcription": "wɪn",
-        "image": "https://images.unsplash.com/photo-1519892300122-d99ce662657e?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
@@ -2282,11 +2039,8 @@
         "v3": "won",
         "group": "irregular"
     },
-
     {
         "word": "wait",
-        "transcription": "weɪt",
-        "image": "https://images.unsplash.com/photo-1508962912648-52269a910609?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
@@ -2307,11 +2061,8 @@
         "group": "regular",
         "opposite": "act"
     },
-
     {
         "word": "die",
-        "transcription": "daɪ",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
@@ -2333,11 +2084,8 @@
         "v3": "died",
         "group": "regular"
     },
-
     {
         "word": "send",
-        "transcription": "send",
-        "image": "https://images.unsplash.com/photo-1594732806297-516118671c8a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✉️",
@@ -2359,16 +2107,13 @@
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "irregular"
     },
-
     {
         "word": "stay",
-        "transcription": "steɪ",
-        "image": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
-        "opposite": "travel",
+        "opposite": "leave",
         "oppositeEmoji": "🚪",
         "form": "verb",
         "definitions": [
@@ -2386,11 +2131,8 @@
         "v3": "stayed",
         "group": "regular"
     },
-
     {
         "word": "fall",
-        "transcription": "fɔːl",
-        "image": "https://images.unsplash.com/photo-1516589222303-1d02fe1f9744?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
@@ -2413,11 +2155,8 @@
         "v3": "fallen",
         "group": "irregular"
     },
-
     {
         "word": "rise",
-        "transcription": "raɪz",
-        "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🌅",
@@ -2440,11 +2179,8 @@
         "v3": "risen",
         "group": "irregular"
     },
-
     {
         "word": "pass",
-        "transcription": "pɑːs",
-        "image": "https://images.unsplash.com/photo-1503674495707-c14643b62717?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
@@ -2467,16 +2203,15 @@
         "v3": "passed",
         "group": "regular"
     },
-
     {
         "word": "sell",
-        "transcription": "sel",
-        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "sell products / sell online / sell at the market",
-        "synonyms": ["best seller"],
+        "synonyms": [
+            "best seller"
+        ],
         "opposite": "buy",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2494,11 +2229,8 @@
         "v3": "sold",
         "group": "irregular"
     },
-
     {
         "word": "pull",
-        "transcription": "pʊl",
-        "image": "https://images.unsplash.com/photo-1519006132042-83569093e232?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
@@ -2520,11 +2252,8 @@
         "v3": "pulled",
         "group": "regular"
     },
-
     {
         "word": "push",
-        "transcription": "pʊʃ",
-        "image": "https://images.unsplash.com/photo-1519006132042-83569093e232?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
@@ -2547,11 +2276,8 @@
         "v3": "pushed",
         "group": "regular"
     },
-
     {
         "word": "carry",
-        "transcription": "ˈkæri",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
@@ -2572,11 +2298,8 @@
         "group": "regular",
         "opposite": "drop"
     },
-
     {
         "word": "break",
-        "transcription": "breɪk",
-        "image": "https://images.unsplash.com/photo-1593014641121-34142fd3970b?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
@@ -2598,16 +2321,13 @@
         "group": "irregular",
         "opposite": "fix"
     },
-
     {
         "word": "receive",
-        "transcription": "rɪˈsiːv",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
-        "opposite": "pay",
+        "opposite": "send",
         "oppositeEmoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2625,11 +2345,8 @@
         "v3": "received",
         "group": "regular"
     },
-
     {
         "word": "agree",
-        "transcription": "əˈɡriː",
-        "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2652,11 +2369,8 @@
         "v3": "agreed",
         "group": "regular"
     },
-
     {
         "word": "draw",
-        "transcription": "drɔː",
-        "image": "https://images.unsplash.com/photo-1549490349109-712350e97dfc?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
@@ -2676,13 +2390,10 @@
         "v2": "drew",
         "v3": "drawn",
         "group": "irregular",
-        "opposite": "erase"
+        "opposite": null
     },
-
     {
         "word": "share",
-        "transcription": "ʃeə(r)",
-        "image": "https://images.unsplash.com/photo-1542027959121-da3e031a89bf?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
@@ -2704,11 +2415,8 @@
         "group": "regular",
         "opposite": "keep"
     },
-
     {
         "word": "smile",
-        "transcription": "smaɪl",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
@@ -2731,16 +2439,15 @@
         "v3": "smiled",
         "group": "regular"
     },
-
     {
         "word": "cry",
-        "transcription": "kraɪ",
-        "image": "https://images.unsplash.com/photo-1516589222303-1d02fe1f9744?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "cry for help / cry out / cry about something",
-        "synonyms": ["start crying"],
+        "synonyms": [
+            "start crying"
+        ],
         "opposite": "smile",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2759,16 +2466,15 @@
         "v3": "cried",
         "group": "regular"
     },
-
     {
         "word": "dance",
-        "transcription": "dɑːns",
-        "image": "https://images.unsplash.com/photo-1508700115891-416a987d6565?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "dance to music / dance together / slow dance",
-        "synonyms": ["go dancing"],
+        "synonyms": [
+            "go dancing"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2786,16 +2492,15 @@
         "group": "regular",
         "opposite": "sit"
     },
-
     {
         "word": "sing",
-        "transcription": "sɪŋ",
-        "image": "https://images.unsplash.com/photo-1516280440614-44b2518b53f7?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "sing a song / sing along / sing well",
-        "synonyms": ["lead singer"],
+        "synonyms": [
+            "lead singer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2813,11 +2518,8 @@
         "group": "irregular",
         "opposite": "be quiet"
     },
-
     {
         "word": "jump",
-        "transcription": "dʒʌmp",
-        "image": "https://images.unsplash.com/photo-1533924716167-f4178a2afc9b?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
@@ -2839,16 +2541,15 @@
         "group": "regular",
         "opposite": "fall"
     },
-
     {
         "word": "swim",
-        "transcription": "swɪm",
-        "image": "https://images.unsplash.com/photo-1519276186761-dec0dec4a1a5?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "swim across / swim laps / swim well",
-        "synonyms": ["go swimming"],
+        "synonyms": [
+            "go swimming"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2866,11 +2567,8 @@
         "group": "irregular",
         "opposite": "sink"
     },
-
     {
         "word": "study",
-        "transcription": "ˈstʌdi",
-        "image": "https://images.unsplash.com/photo-1503674495707-c14643b62717?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
@@ -2891,11 +2589,8 @@
         "group": "regular",
         "opposite": "play"
     },
-
     {
         "word": "teach",
-        "transcription": "tiːtʃ",
-        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
@@ -2916,11 +2611,8 @@
         "group": "irregular",
         "opposite": "learn"
     },
-
     {
         "word": "rent",
-        "transcription": "rent",
-        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
@@ -2941,11 +2633,8 @@
         "group": "regular",
         "opposite": "own"
     },
-
     {
         "word": "exercise",
-        "transcription": "ˈeksəsaɪz",
-        "image": "https://images.unsplash.com/photo-1517834351141-ffdc7ef0533a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏋️",
@@ -2966,11 +2655,8 @@
         "group": "regular",
         "opposite": "rest"
     },
-
     {
         "word": "cost",
-        "transcription": "kɒst",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
@@ -2990,11 +2676,8 @@
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "irregular"
     },
-
     {
         "word": "invite",
-        "transcription": "ɪnˈvaɪt",
-        "image": "https://images.unsplash.com/photo-1529156069-52bf83f6f6cd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "✉️",
@@ -3015,11 +2698,8 @@
         "group": "regular",
         "opposite": "reject"
     },
-
     {
         "word": "get up",
-        "transcription": "ɡet ʌp",
-        "image": "https://images.unsplash.com/photo-1505693419148-4034b9fd3fa2?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To rise from bed after waking.",
@@ -3040,11 +2720,8 @@
         "group": "irregular",
         "opposite": null
     },
-
     {
         "word": "have breakfast",
-        "transcription": "hæv ˈbrekfəst",
-        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To eat the morning meal.",
@@ -3054,7 +2731,9 @@
             }
         ],
         "subtext": "have breakfast at home / have a quick breakfast",
-        "synonyms": ["skip breakfast"],
+        "synonyms": [
+            "skip breakfast"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "had breakfast",
@@ -3066,11 +2745,8 @@
         "group": "irregular",
         "opposite": null
     },
-
     {
         "word": "come back",
-        "transcription": "kʌm bæk",
-        "image": "https://images.unsplash.com/photo-1474487056289-481f509611aa?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To return to a place.",
@@ -3091,11 +2767,8 @@
         "group": "irregular",
         "opposite": null
     },
-
     {
         "word": "go to bed",
-        "transcription": "ɡəʊ tə bed",
-        "image": "https://images.unsplash.com/photo-1505693419148-4034b9fd3fa2?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To get into bed in order to sleep.",
@@ -3116,11 +2789,8 @@
         "group": "irregular",
         "opposite": null
     },
-
     {
         "word": "check",
-        "transcription": "tʃek",
-        "image": "https://images.unsplash.com/photo-1509062564940-6a7514b420f5?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To examine or verify something.",
@@ -3141,11 +2811,8 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
     {
         "word": "unpack",
-        "transcription": "ʌnˈpæk",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "👜",
@@ -3167,11 +2834,8 @@
         "v3": "unpacked",
         "group": "regular"
     },
-
     {
         "word": "reply",
-        "transcription": "rɪˈplaɪ",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To respond to a message or question.",
@@ -3192,11 +2856,8 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
     {
         "word": "present",
-        "transcription": "prɪˈzent",
-        "image": "https://images.unsplash.com/photo-1516321493994-43f114436738?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To show or explain something to a group.",
@@ -3217,11 +2878,8 @@
         "group": "regular",
         "opposite": "hide"
     },
-
     {
         "word": "attend",
-        "transcription": "əˈtend",
-        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To go to an event or meeting.",
@@ -3242,11 +2900,8 @@
         "group": "regular",
         "opposite": "miss"
     },
-
     {
         "word": "manage",
-        "transcription": "ˈmænɪdʒ",
-        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To be in charge of people or a situation.",
@@ -3267,11 +2922,8 @@
         "group": "regular",
         "opposite": "follow"
     },
-
     {
         "word": "earn",
-        "transcription": "ɜːn",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To receive money for work done.",
@@ -3292,11 +2944,8 @@
         "group": "regular",
         "opposite": "spend"
     },
-
     {
         "word": "visit",
-        "transcription": "ˈvɪzɪt",
-        "image": "https://images.unsplash.com/photo-1529156069-52bf83f6f6cd?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To go to see a person or place.",
@@ -3317,11 +2966,8 @@
         "group": "regular",
         "opposite": "leave"
     },
-
     {
         "word": "celebrate",
-        "transcription": "ˈselɪbreɪt",
-        "image": "https://images.unsplash.com/photo-1513150116276-193109199dcb?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To do something enjoyable for a special occasion.",
@@ -3342,11 +2988,8 @@
         "group": "regular",
         "opposite": "mourn"
     },
-
     {
         "word": "hurt",
-        "transcription": "hɜːt",
-        "image": "https://images.unsplash.com/photo-1503306687060-e41ad9d08336?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To cause pain; or to feel pain.",
@@ -3367,11 +3010,8 @@
         "group": "irregular",
         "opposite": "heal"
     },
-
     {
         "word": "rest",
-        "transcription": "rest",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To stop working and relax to recover energy.",
@@ -3392,11 +3032,8 @@
         "group": "regular",
         "opposite": "exercise"
     },
-
     {
         "word": "book",
-        "transcription": "bʊk",
-        "image": "https://images.unsplash.com/photo-1522031940527-6df72458f7bc?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To reserve a place, ticket or service in advance.",
@@ -3417,11 +3054,8 @@
         "group": "regular",
         "opposite": "cancel"
     },
-
     {
         "word": "pack",
-        "transcription": "pæk",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To put items into a bag or case for a journey.",
@@ -3443,11 +3077,8 @@
         "form": "verb",
         "group": "regular"
     },
-
     {
         "word": "cancel",
-        "transcription": "ˈkænsl",
-        "image": "https://images.unsplash.com/photo-1550684847-75bdda21cc95?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To decide that something planned will not happen.",
@@ -3468,11 +3099,8 @@
         "group": "regular",
         "opposite": "book"
     },
-
     {
         "word": "miss",
-        "transcription": "mɪs",
-        "image": "https://images.unsplash.com/photo-1516589222303-1d02fe1f9744?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "To fail to catch a transport connection; or to feel sad about absence.",
@@ -3493,11 +3121,8 @@
         "group": "regular",
         "opposite": "attend"
     },
-
     {
         "word": "order",
-        "transcription": "ˈɔːdə(r)",
-        "image": "https://images.unsplash.com/photo-1542838132-d7c5a9645d4a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
@@ -3518,11 +3143,8 @@
         "group": "regular",
         "opposite": "deliver"
     },
-
     {
         "word": "thank",
-        "transcription": "θæŋk",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
@@ -3543,11 +3165,8 @@
         "group": "regular",
         "opposite": "complain"
     },
-
     {
         "word": "introduce",
-        "transcription": "ˌɪntrəˈdjuːs",
-        "image": "https://images.unsplash.com/photo-1529156069-52bf83f6f6cd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
@@ -3568,11 +3187,8 @@
         "group": "regular",
         "opposite": "hide"
     },
-
     {
         "word": "relax",
-        "transcription": "rɪˈlæks",
-        "image": "https://images.unsplash.com/photo-1505693419148-4034b9fd3fa2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
@@ -3593,11 +3209,8 @@
         "group": "regular",
         "opposite": "work"
     },
-
     {
         "word": "mean",
-        "transcription": "miːn",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
@@ -3618,11 +3231,8 @@
         "group": "irregular",
         "opposite": "nonsense"
     },
-
     {
         "word": "follow",
-        "transcription": "ˈfɒləʊ",
-        "image": "https://images.unsplash.com/photo-1500390467041-f9b47e42d3aa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
@@ -3644,11 +3254,8 @@
         "v3": "followed",
         "group": "regular"
     },
-
     {
         "word": "grow",
-        "transcription": "ɡrəʊ",
-        "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
@@ -3669,11 +3276,8 @@
         "group": "irregular",
         "opposite": "shrink"
     },
-
     {
         "word": "become",
-        "transcription": "bɪˈkʌm",
-        "image": "https://images.unsplash.com/photo-1516321493994-43f114436738?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
@@ -3692,13 +3296,10 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "opposite": "be"
+        "opposite": "remain"
     },
-
     {
         "word": "choose",
-        "transcription": "tʃuːz",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
@@ -3719,11 +3320,8 @@
         "group": "irregular",
         "opposite": "reject"
     },
-
     {
         "word": "begin",
-        "transcription": "bɪˈɡɪn",
-        "image": "https://images.unsplash.com/photo-1449965074630-4348b0fb192a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
@@ -3731,7 +3329,9 @@
         "opposite": "end",
         "oppositeEmoji": "🏁",
         "subtext": "begin a meeting / begin to work",
-        "synonyms": ["start"],
+        "synonyms": [
+            "start"
+        ],
         "definitions": [
             {
                 "text": "To start to do something.",
@@ -3746,19 +3346,19 @@
         "v3": "begun",
         "group": "irregular"
     },
-
     {
         "word": "end",
-        "transcription": "end",
-        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "form": "verb",
-        "opposite": "finish",
+        "opposite": "begin",
         "oppositeEmoji": "▶️",
         "subtext": "end a class / at the end",
-        "synonyms": ["finish", "stop"],
+        "synonyms": [
+            "finish",
+            "stop"
+        ],
         "definitions": [
             {
                 "text": "To finish; to stop.",
@@ -3773,17 +3373,16 @@
         "v3": "ended",
         "group": "regular"
     },
-
     {
         "word": "brush",
-        "transcription": "brʌʃ",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "brush your teeth",
-        "synonyms": ["hairbrush"],
+        "synonyms": [
+            "hairbrush"
+        ],
         "definitions": [
             {
                 "text": "To clean something with a brush.",
@@ -3799,11 +3398,8 @@
         "group": "regular",
         "opposite": "mess up"
     },
-
     {
         "word": "ride",
-        "transcription": "raɪd",
-        "image": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
@@ -3824,17 +3420,17 @@
         "group": "irregular",
         "opposite": "walk"
     },
-
     {
         "word": "believe",
-        "transcription": "bɪˈliːv",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "believe in / I believe so",
-        "synonyms": ["think", "trust"],
+        "synonyms": [
+            "think",
+            "trust"
+        ],
         "definitions": [
             {
                 "text": "To think that something is true.",
@@ -3850,11 +3446,8 @@
         "group": "regular",
         "opposite": "doubt"
     },
-
     {
         "word": "prefer",
-        "transcription": "prɪˈfɜː(r)",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
@@ -3875,11 +3468,8 @@
         "group": "regular",
         "opposite": "dislike"
     },
-
     {
         "word": "catch",
-        "transcription": "kætʃ",
-        "image": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🧤",
@@ -3898,19 +3488,18 @@
         "v2": "caught",
         "v3": "caught",
         "group": "irregular",
-        "opposite": "kick"
+        "opposite": "throw"
     },
-
     {
         "word": "fix",
-        "transcription": "fɪks",
-        "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "form": "verb",
         "subtext": "fix a problem / fix a computer",
-        "synonyms": ["repair"],
+        "synonyms": [
+            "repair"
+        ],
         "definitions": [
             {
                 "text": "To repair something that is broken.",
@@ -3926,17 +3515,16 @@
         "group": "regular",
         "opposite": "break"
     },
-
     {
         "word": "plan",
-        "transcription": "plæn",
-        "image": "https://images.unsplash.com/photo-1518455027351-d8af75280b2c?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
         "form": "verb",
         "subtext": "plan a trip / plan for the future",
-        "synonyms": ["decide"],
+        "synonyms": [
+            "decide"
+        ],
         "definitions": [
             {
                 "text": "To decide what you are going to do.",
@@ -3952,11 +3540,8 @@
         "group": "regular",
         "opposite": "improvise"
     },
-
     {
         "word": "borrow",
-        "transcription": "ˈbɒrəʊ",
-        "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📥",
@@ -3977,17 +3562,16 @@
         "group": "regular",
         "opposite": "lend"
     },
-
     {
         "word": "smell",
-        "transcription": "smel",
-        "image": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
-        "synonyms": ["scent"],
+        "synonyms": [
+            "scent"
+        ],
         "definitions": [
             {
                 "text": "To notice or recognize something using your nose.",
@@ -4003,17 +3587,16 @@
         "group": "both",
         "opposite": "stink"
     },
-
     {
         "word": "taste",
-        "transcription": "teɪst",
-        "image": "https://images.unsplash.com/photo-1563170423-18f482d82cc8?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "tastes_textures_A1",
         "emoji": "👅",
         "form": "verb",
         "subtext": "taste good / have a taste",
-        "synonyms": ["flavor"],
+        "synonyms": [
+            "flavor"
+        ],
         "definitions": [
             {
                 "text": "To sense the flavor of something in your mouth.",
@@ -4029,17 +3612,16 @@
         "group": "regular",
         "opposite": "swallow"
     },
-
     {
         "word": "lie",
-        "transcription": "laɪ",
-        "image": "https://images.unsplash.com/photo-1505693419148-4034b9fd3fa2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
         "form": "verb",
         "subtext": "lie down / lie on the bed",
-        "synonyms": ["recline"],
+        "synonyms": [
+            "recline"
+        ],
         "definitions": [
             {
                 "text": "To be in a horizontal position on a surface.",
@@ -4055,11 +3637,8 @@
         "group": "irregular",
         "opposite": "stand"
     },
-
     {
         "word": "laugh",
-        "transcription": "lɑːf",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😂",
@@ -4067,7 +3646,9 @@
         "opposite": "cry",
         "oppositeEmoji": "😢",
         "subtext": "laugh at / laugh together",
-        "synonyms": ["chuckle"],
+        "synonyms": [
+            "chuckle"
+        ],
         "definitions": [
             {
                 "text": "To make sounds with your voice because you think something is funny.",
@@ -4082,17 +3663,16 @@
         "v3": "laughed",
         "group": "regular"
     },
-
     {
         "word": "worry",
-        "transcription": "ˈwʌri",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "verb",
         "subtext": "worry about / don't worry",
-        "synonyms": ["fret"],
+        "synonyms": [
+            "fret"
+        ],
         "definitions": [
             {
                 "text": "To think about problems or unpleasant things that might happen.",
@@ -4108,17 +3688,16 @@
         "group": "regular",
         "opposite": "relax"
     },
-
     {
         "word": "sound",
-        "transcription": "saʊnd",
-        "image": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👂",
         "form": "verb",
         "subtext": "sound like / sound good",
-        "synonyms": ["seem"],
+        "synonyms": [
+            "seem"
+        ],
         "definitions": [
             {
                 "text": "To seem like something from what you have heard or read.",
@@ -4134,17 +3713,16 @@
         "group": "regular",
         "opposite": "silence"
     },
-
     {
         "word": "spell",
-        "transcription": "spel",
-        "image": "https://images.unsplash.com/photo-1511467687773-b3eb2ba359ba?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔤",
         "form": "verb",
         "subtext": "spell your name / spell correctly",
-        "synonyms": ["lettering"],
+        "synonyms": [
+            "lettering"
+        ],
         "definitions": [
             {
                 "text": "To say or write the letters of a word in the correct order.",
@@ -4160,17 +3738,16 @@
         "group": "irregular",
         "opposite": "misspell"
     },
-
     {
         "word": "point",
-        "transcription": "pɔɪnt",
-        "image": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "☝️",
         "form": "verb",
         "subtext": "point to / point at",
-        "synonyms": ["indicate"],
+        "synonyms": [
+            "indicate"
+        ],
         "definitions": [
             {
                 "text": "To show something by holding out your finger towards it.",
@@ -4187,17 +3764,16 @@
         "group": "regular",
         "opposite": "hide"
     },
-
     {
         "word": "shout",
-        "transcription": "ʃaʊt",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📢",
         "form": "verb",
         "subtext": "shout at / don't shout",
-        "synonyms": ["yell"],
+        "synonyms": [
+            "yell"
+        ],
         "definitions": [
             {
                 "text": "To say something very loudly.",
@@ -4213,17 +3789,16 @@
         "group": "regular",
         "opposite": "whisper"
     },
-
     {
         "word": "wave",
-        "transcription": "weɪv",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "verb",
         "subtext": "wave goodbye / wave hello",
-        "synonyms": ["greet"],
+        "synonyms": [
+            "greet"
+        ],
         "definitions": [
             {
                 "text": "To move your hand from side to side in the air to say hello or goodbye.",
@@ -4239,17 +3814,16 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
     {
         "word": "kick",
-        "transcription": "kɪk",
-        "image": "https://images.unsplash.com/photo-1560769129-d51f4fb552af?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🦶",
         "form": "verb",
         "subtext": "kick a ball / kick hard",
-        "synonyms": ["strike"],
+        "synonyms": [
+            "strike"
+        ],
         "definitions": [
             {
                 "text": "To hit something with your foot.",
@@ -4265,17 +3839,16 @@
         "group": "regular",
         "opposite": "catch"
     },
-
     {
         "word": "throw",
-        "transcription": "θrəʊ",
-        "image": "https://images.unsplash.com/photo-1560769129-d51f4fb552af?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚾",
         "form": "verb",
         "subtext": "throw a ball / throw away",
-        "synonyms": ["toss"],
+        "synonyms": [
+            "toss"
+        ],
         "definitions": [
             {
                 "text": "To make something move through the air by pushing it out of your hand.",
@@ -4291,17 +3864,17 @@
         "group": "irregular",
         "opposite": "catch"
     },
-
     {
         "word": "bounce",
-        "transcription": "baʊns",
-        "image": "https://images.unsplash.com/photo-1560769129-d51f4fb552af?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏀",
         "form": "verb",
         "subtext": "bounce a ball",
-        "synonyms": ["rebound", "bouncing"],
+        "synonyms": [
+            "rebound",
+            "bouncing"
+        ],
         "definitions": [
             {
                 "text": "To move up or away after hitting a surface.",
@@ -4317,17 +3890,17 @@
         "group": "regular",
         "opposite": "stop"
     },
-
     {
         "word": "paint",
-        "transcription": "peɪnt",
-        "image": "https://images.unsplash.com/photo-1549490349109-712350e97dfc?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "paint a picture",
-        "synonyms": ["color", "painting"],
+        "synonyms": [
+            "color",
+            "painting"
+        ],
         "definitions": [
             {
                 "text": "To make a picture using paint.",
@@ -4343,17 +3916,16 @@
         "group": "regular",
         "opposite": "erase"
     },
-
     {
         "word": "hop",
-        "transcription": "hɒp",
-        "image": "https://images.unsplash.com/photo-1533924716167-f4178a2afc9b?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🐇",
         "form": "verb",
         "subtext": "hop around / hop like a rabbit",
-        "synonyms": ["jump"],
+        "synonyms": [
+            "jump"
+        ],
         "definitions": [
             {
                 "text": "To jump on one foot.",
@@ -4369,17 +3941,17 @@
         "group": "regular",
         "opposite": "walk"
     },
-
     {
         "word": "skip",
-        "transcription": "skɪp",
-        "image": "https://images.unsplash.com/photo-1533924716167-f4178a2afc9b?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
         "form": "verb",
         "subtext": "skip rope",
-        "synonyms": ["jump", "skipping"],
+        "synonyms": [
+            "jump",
+            "skipping"
+        ],
         "definitions": [
             {
                 "text": "To move along by jumping from one foot to the other.",
@@ -4395,17 +3967,16 @@
         "group": "regular",
         "opposite": "walk"
     },
-
     {
         "word": "count",
-        "transcription": "kaʊnt",
-        "image": "https://images.unsplash.com/photo-1587140981249-166291d914d2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "numbers_0_9_A1",
         "emoji": "🔢",
         "form": "verb",
         "subtext": "count to ten / count numbers",
-        "synonyms": ["calculate"],
+        "synonyms": [
+            "calculate"
+        ],
         "definitions": [
             {
                 "text": "To say numbers in order.",
@@ -4421,17 +3992,16 @@
         "group": "regular",
         "opposite": "estimate"
     },
-
     {
         "word": "tick",
-        "transcription": "tɪk",
-        "image": "https://images.unsplash.com/photo-1509062564940-6a7514b420f5?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "✅",
         "form": "verb",
         "subtext": "tick the box / tick correctly",
-        "synonyms": ["check"],
+        "synonyms": [
+            "check"
+        ],
         "definitions": [
             {
                 "text": "To put a mark (✓) next to something to show it is correct.",
@@ -4447,17 +4017,16 @@
         "group": "regular",
         "opposite": "cross"
     },
-
     {
         "word": "cross",
-        "transcription": "krɒs",
-        "image": "https://images.unsplash.com/photo-1550684847-75bdda21cc95?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "❌",
         "form": "verb",
         "subtext": "cross out / cross the answer",
-        "synonyms": ["x-mark"],
+        "synonyms": [
+            "x-mark"
+        ],
         "definitions": [
             {
                 "text": "To put a mark (X) next to something to show it is wrong.",
@@ -4473,17 +4042,16 @@
         "group": "regular",
         "opposite": "tick"
     },
-
     {
         "word": "colour",
-        "transcription": "ˈkʌlə(r)",
-        "image": "https://images.unsplash.com/photo-1549490349109-712350e97dfc?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🖍️",
         "form": "verb",
         "subtext": "colour the picture / use colours",
-        "synonyms": ["color"],
+        "synonyms": [
+            "color"
+        ],
         "definitions": [
             {
                 "text": "To use a pen or pencil to put colour on a picture.",
@@ -4499,17 +4067,16 @@
         "group": "regular",
         "opposite": "erase"
     },
-
     {
         "word": "hold",
-        "transcription": "həʊld",
-        "image": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "hold my hand / hold on",
-        "synonyms": ["grip"],
+        "synonyms": [
+            "grip"
+        ],
         "definitions": [
             {
                 "text": "To have or keep something in your hand or arms.",
@@ -4526,17 +4093,17 @@
         "group": "irregular",
         "opposite": "drop"
     },
-
     {
         "word": "lead",
-        "transcription": "liːd",
-        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👤",
         "form": "verb",
         "subtext": "lead a team / follow the lead",
-        "synonyms": ["guide", "direct"],
+        "synonyms": [
+            "guide",
+            "direct"
+        ],
         "definitions": [
             {
                 "text": "To control a group of people, a country, or a situation.",
@@ -4552,17 +4119,16 @@
         "group": "irregular",
         "opposite": "follow"
     },
-
     {
         "word": "fight",
-        "transcription": "faɪt",
-        "image": "https://images.unsplash.com/photo-1516035063517-fb9711c16ef9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "fight for / a big fight",
-        "synonyms": ["battle"],
+        "synonyms": [
+            "battle"
+        ],
         "definitions": [
             {
                 "text": "To use physical force to try to hurt someone or win something.",
@@ -4578,11 +4144,8 @@
         "group": "irregular",
         "opposite": "make peace"
     },
-
     {
         "word": "hide",
-        "transcription": "haɪd",
-        "image": "https://images.unsplash.com/photo-1558060308-2ffaa732fb3a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🙈",
@@ -4604,17 +4167,16 @@
         "v3": "hidden",
         "group": "irregular"
     },
-
     {
         "word": "seek",
-        "transcription": "siːk",
-        "image": "https://images.unsplash.com/photo-1509062564940-6a7514b420f5?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "hide and seek / seek help",
-        "synonyms": ["look for"],
+        "synonyms": [
+            "look for"
+        ],
         "definitions": [
             {
                 "text": "To try to find or get something.",
@@ -4630,17 +4192,17 @@
         "group": "irregular",
         "opposite": "hide"
     },
-
     {
         "word": "ring",
-        "transcription": "rɪŋ",
-        "image": "https://images.unsplash.com/photo-1508962912648-52269a910609?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🔔",
         "form": "verb",
         "subtext": "ring a bell",
-        "synonyms": ["chime", "phone is ringing"],
+        "synonyms": [
+            "chime",
+            "phone is ringing"
+        ],
         "definitions": [
             {
                 "text": "To make a sound like a bell.",
@@ -4656,17 +4218,16 @@
         "group": "irregular",
         "opposite": "be silent"
     },
-
     {
         "word": "text",
-        "transcription": "tekst",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📱",
         "form": "verb",
         "subtext": "text someone / send a text",
-        "synonyms": ["message"],
+        "synonyms": [
+            "message"
+        ],
         "definitions": [
             {
                 "text": "To send a message from a mobile phone.",
@@ -4679,21 +4240,20 @@
         "aspect": "action",
         "v2": "texted",
         "v3": "texted",
-        "opposite": "call",
         "group": "regular",
         "opposite": "call"
     },
-
     {
         "word": "whisper",
-        "transcription": "ˈwɪspə(r)",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🤫",
         "form": "verb",
         "subtext": "whisper a secret",
-        "synonyms": ["murmur", "speak softly"],
+        "synonyms": [
+            "murmur",
+            "speak softly"
+        ],
         "definitions": [
             {
                 "text": "To speak very quietly so that other people cannot hear you.",
@@ -4709,17 +4269,16 @@
         "group": "regular",
         "opposite": "shout"
     },
-
     {
         "word": "touch",
-        "transcription": "tʌtʃ",
-        "image": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "five_senses_A1",
         "emoji": "🫱",
         "form": "verb",
         "subtext": "don't touch / touch screen",
-        "synonyms": ["feel"],
+        "synonyms": [
+            "feel"
+        ],
         "definitions": [
             {
                 "text": "To put your hand or another part of your body on something.",
@@ -4733,13 +4292,10 @@
         "v2": "touched",
         "v3": "touched",
         "group": "regular",
-        "opposite": "avoid"
+        "opposite": null
     },
-
     {
         "word": "let",
-        "transcription": "let",
-        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🔓",
@@ -4759,13 +4315,10 @@
         "v2": "let",
         "v3": "let",
         "group": "irregular",
-        "opposite": "prevent"
+        "opposite": null
     },
-
     {
         "word": "set",
-        "transcription": "set",
-        "image": "https://images.unsplash.com/photo-1508962912648-52269a910609?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
@@ -4785,13 +4338,10 @@
         "v2": "set",
         "v3": "set",
         "group": "irregular",
-        "opposite": "unset"
+        "opposite": null
     },
-
     {
         "word": "email",
-        "transcription": "ˈiːmeɪl",
-        "image": "https://images.unsplash.com/photo-1594732806297-516118671c8a?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📧",
@@ -4812,11 +4362,8 @@
         "v3": "emailed",
         "group": "regular"
     },
-
     {
         "word": "phone",
-        "transcription": "fəʊn",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📞",
@@ -4838,11 +4385,8 @@
         "group": "regular",
         "opposite": "text"
     },
-
     {
         "word": "climb",
-        "transcription": "klaɪm",
-        "image": "https://images.unsplash.com/photo-1464822759021-d40b8280635e?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🧗",
@@ -4864,16 +4408,15 @@
         "group": "regular",
         "opposite": "descend"
     },
-
     {
         "word": "dress",
-        "transcription": "dres",
-        "image": "https://images.unsplash.com/photo-1539091112267-ccaf41743513?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👗",
         "subtext": "dress well / dress for work",
-        "synonyms": ["get dressed"],
+        "synonyms": [
+            "get dressed"
+        ],
         "opposite": "undress",
         "oppositeEmoji": "👕",
         "form": "verb",
@@ -4892,16 +4435,15 @@
         "v3": "dressed",
         "group": "regular"
     },
-
     {
         "word": "undress",
-        "transcription": "ʌnˈdres",
-        "image": "https://images.unsplash.com/photo-1539091112267-ccaf41743513?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👕",
         "subtext": "undress quickly",
-        "synonyms": ["get undressed"],
+        "synonyms": [
+            "get undressed"
+        ],
         "opposite": "dress",
         "oppositeEmoji": "👗",
         "form": "verb",
@@ -4920,11 +4462,8 @@
         "v3": "undressed",
         "group": "regular"
     },
-
     {
         "word": "turn on",
-        "transcription": "tɜːn ɒn",
-        "image": "https://images.unsplash.com/photo-1534073828943-f470982d54a2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💡",
@@ -4947,11 +4486,8 @@
         "v3": "turned on",
         "group": "regular"
     },
-
     {
         "word": "turn off",
-        "transcription": "tɜːn ɒf",
-        "image": "https://images.unsplash.com/photo-1534073828943-f470982d54a2?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🌑",
@@ -4974,11 +4510,8 @@
         "v3": "turned off",
         "group": "regular"
     },
-
     {
         "word": "welcome",
-        "transcription": "ˈwelkəm",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👋",
@@ -4999,11 +4532,8 @@
         "group": "regular",
         "opposite": "reject"
     },
-
     {
         "word": "act",
-        "transcription": "ækt",
-        "image": "https://images.unsplash.com/photo-1503095396541-4099a27b7027?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎭",
@@ -5022,13 +4552,10 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "opposite": "wait"
+        "opposite": "be natural"
     },
-
     {
         "word": "copy",
-        "transcription": "ˈkɒpi",
-        "image": "https://images.unsplash.com/photo-1580119447477-9ca589966774?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📄",
@@ -5049,11 +4576,8 @@
         "group": "regular",
         "opposite": "original"
     },
-
     {
         "word": "fill",
-        "transcription": "fɪl",
-        "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🫗",
@@ -5074,11 +4598,8 @@
         "group": "regular",
         "opposite": "empty"
     },
-
     {
         "word": "fit",
-        "transcription": "fɪt",
-        "image": "https://images.unsplash.com/photo-1539091112267-ccaf41743513?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
@@ -5099,11 +4620,8 @@
         "group": "regular",
         "opposite": "unfit"
     },
-
     {
         "word": "join",
-        "transcription": "dʒɔɪn",
-        "image": "https://images.unsplash.com/photo-1529156069-52bf83f6f6cd?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🤝",
@@ -5124,11 +4642,8 @@
         "group": "regular",
         "opposite": "leave"
     },
-
     {
         "word": "note",
-        "transcription": "nəʊt",
-        "image": "https://images.unsplash.com/photo-1531346878347-160b13511107?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📝",
@@ -5149,11 +4664,8 @@
         "group": "regular",
         "opposite": "forget"
     },
-
     {
         "word": "pick",
-        "transcription": "pɪk",
-        "image": "https://images.unsplash.com/photo-1533467688573-04d748419611?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🧺",
@@ -5174,11 +4686,8 @@
         "group": "regular",
         "opposite": "drop"
     },
-
     {
         "word": "wish",
-        "transcription": "wɪʃ",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🤞",
@@ -5199,11 +4708,8 @@
         "group": "regular",
         "opposite": "fear"
     },
-
     {
         "word": "collect",
-        "transcription": "kəˈlekt",
-        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "📦",
@@ -5224,11 +4730,8 @@
         "group": "regular",
         "opposite": "scatter"
     },
-
     {
         "word": "describe",
-        "transcription": "dɪˈskraɪb",
-        "image": "https://images.unsplash.com/photo-1523240715630-991b2e8113ee?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💬",
@@ -5249,11 +4752,8 @@
         "group": "regular",
         "opposite": "summarize"
     },
-
     {
         "word": "breathe",
-        "transcription": "briːð",
-        "image": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "health_body_A1",
         "emoji": "🫁",
@@ -5271,14 +4771,14 @@
         "v2": "breathed",
         "v3": "breathed",
         "group": "regular",
-        "subtext": "breathe deeply / breathe in / breathe out",
-        "synonyms": ["inhale", "exhale"]
+        "subtext": "",
+        "synonyms": [
+            "inhale",
+            "exhale"
+        ]
     },
-
     {
         "word": "cough",
-        "transcription": "kɒf",
-        "image": "https://images.unsplash.com/photo-1503306687060-e41ad9d08336?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "😷",
@@ -5298,11 +4798,8 @@
         "group": "regular",
         "subtext": "have a cough"
     },
-
     {
         "word": "sneeze",
-        "transcription": "sniːz",
-        "image": "https://images.unsplash.com/photo-1503306687060-e41ad9d08336?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤧",
@@ -5320,15 +4817,13 @@
         "v2": "sneezed",
         "v3": "sneezed",
         "group": "regular",
-        "subtext": "sneeze loudly / bless you!",
-        "synonyms": ["atchoo!"]
+        "subtext": "",
+        "synonyms": [
+            "atchoo!"
+        ]
     },
-
     {
-        "opposite": "be alert",
         "word": "yawn",
-        "transcription": "jɔːn",
-        "image": "https://images.unsplash.com/photo-1503306687060-e41ad9d08336?auto=format&fit=crop&w=400&q=80",
         "level": "starter",
         "theme": "health_body_A1",
         "emoji": "🥱",
@@ -5346,10 +4841,104 @@
         "v2": "yawned",
         "v3": "yawned",
         "group": "regular",
-        "subtext": "yawn widely / feel sleepy",
-        "synonyms": ["feel sleepy"]
+        "subtext": "",
+        "synonyms": [
+            "feel sleepy"
+        ]
+    },
+    {
+        "word": "explain",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🗣️",
+        "form": "verb",
+        "transcription": "[ɪkˈspleɪn]",
+        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To make something clear or easy to understand by describing or giving information about it.",
+                "examples": [
+                    "Can you explain this rule?",
+                    "The teacher explained the lesson."
+                ]
+            }
+        ],
+        "v2": "explained",
+        "v3": "explained",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "explain something to someone"
+    },
+    {
+        "word": "prepare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "transcription": "[prɪˈpeə(r)]",
+        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To get someone or something ready for something that will happen in the future.",
+                "examples": [
+                    "I need to prepare for my exam.",
+                    "She is preparing dinner."
+                ]
+            }
+        ],
+        "v2": "prepared",
+        "v3": "prepared",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "prepare for something"
+    },
+    {
+        "word": "depend",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "form": "verb",
+        "transcription": "[dɪˈpend]",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be decided by or to change according to something else.",
+                "examples": [
+                    "It depends on the weather.",
+                    "Our plans depend on your answer."
+                ]
+            }
+        ],
+        "v2": "depended",
+        "v3": "depended",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "depend ON someone/something"
+    },
+    {
+        "word": "belong",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🏠",
+        "form": "verb",
+        "transcription": "[bɪˈlɒŋ]",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be the property of someone.",
+                "examples": [
+                    "This book belongs to me.",
+                    "Who does this bag belong to?"
+                ]
+            }
+        ],
+        "v2": "belonged",
+        "v3": "belonged",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "belong TO someone/something"
     }
-    ];
+];
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
