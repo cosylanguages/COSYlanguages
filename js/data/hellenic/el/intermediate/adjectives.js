@@ -6,7 +6,8 @@
         "theme": "career_development_B1",
         "emoji": "👨‍💻",
         "form": "adjective",
-        "subtext": "ελεύθερος επαγγελματίας",
+        "subtext": "",
+        "synonyms": ["ελεύθερος επαγγελματίας"],
         "definitions": [
             {
                 "text": "Το να εργάζεσαι για τον εαυτό σου παρά για μια εταιρεία.",
@@ -22,7 +23,8 @@
         "theme": "environment_sustainability_B1",
         "emoji": "♻️",
         "form": "adjective",
-        "subtext": "αειφόρος",
+        "subtext": "",
+        "synonyms": ["αειφόρος"],
         "definitions": [
             {
                 "text": "Η χρήση των πόρων με τρόπο που δεν βλάπτει το περιβάλλον για το μέλλον.",

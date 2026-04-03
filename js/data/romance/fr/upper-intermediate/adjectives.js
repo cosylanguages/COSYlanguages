@@ -55,7 +55,8 @@
         "theme": "ethical_dilemmas_B2",
         "emoji": "⚖️",
         "form": "adjective",
-        "subtext": "décision morale, éthique",
+        "subtext": "",
+        "synonyms": ["décision morale", "éthique"],
         "definitions": [
             {
                 "text": "Relatif aux principes du bien et du mal.",

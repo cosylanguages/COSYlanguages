@@ -1133,7 +1133,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "⚖️",
         "form": "phrase",
-        "subtext": "alternatively, conversely",
+        "subtext": "",
+        "synonyms": ["alternatively", "conversely"],
         "definitions": [
             {
                 "text": "Used to introduce a contrasting point.",
@@ -1167,7 +1168,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔚",
         "form": "phrase",
-        "subtext": "consequently, therefore",
+        "subtext": "",
+        "synonyms": ["consequently", "therefore"],
         "definitions": [
             {
                 "text": "Because of this; consequently.",

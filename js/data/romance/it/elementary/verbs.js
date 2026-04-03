@@ -114,7 +114,8 @@
         "group": "ere",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "succedere improvvisamente / cosa è successo?",
+        "subtext": "succedere improvvisamente",
+        "synonyms": ["cosa è successo?"],
         "definitions": [
             {
                 "text": "Aver luogo; accadere.",
@@ -261,7 +262,8 @@
         "group": "ere",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "permettere a qualcuno di fare / permettersi il lusso",
+        "subtext": "permettere a qualcuno di fare",
+        "synonyms": ["permettersi il lusso"],
         "definitions": [
             {
                 "text": "Lasciare che qualcuno faccia qualcosa.",
@@ -513,7 +515,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "alzare la mano / crescere un figlio",
+        "subtext": "alzare la mano",
+        "synonyms": ["crescere un figlio"],
         "definitions": [
             {
                 "text": "Sollevare qualcosa o prendersi cura di un bambino.",
@@ -618,7 +621,8 @@
         "group": "locuzione",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "pensione anticipata",
+        "subtext": "",
+        "synonyms": ["pensione anticipata"],
         "definitions": [
             {
                 "text": "Smettere di lavorare perché si è raggiunta una certa età.",
@@ -639,7 +643,8 @@
         "group": "riflessivo",
         "classification": "irregular",
         "aspect": "stative",
-        "subtext": "potersi permettere / permettersi una casa",
+        "subtext": "permettersi una casa",
+        "synonyms": ["potersi permettere"],
         "definitions": [
             {
                 "text": "Avere abbastanza soldi per pagare qualcosa.",
@@ -660,7 +665,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "riciclare la carta / bidoni del riciclo",
+        "subtext": "riciclare la carta",
+        "synonyms": ["bidoni del riciclo"],
         "definitions": [
             {
                 "text": "Trattare materiali usati in modo che possano essere riutilizzati.",
@@ -807,7 +813,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "fare domanda per un lavoro / candidarsi online",
+        "subtext": "fare domanda per un lavoro",
+        "synonyms": ["candidarsi online"],
         "definitions": [
             {
                 "text": "Fare una richiesta scritta formale per un lavoro o una posizione.",
@@ -849,7 +856,8 @@
         "group": "ere",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "essere promosso / promozione interna",
+        "subtext": "",
+        "synonyms": ["essere promosso", "promozione interna"],
         "definitions": [
             {
                 "text": "Spostare un dipendente in una posizione superiore.",
@@ -870,7 +878,8 @@
         "group": "riflessivo",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "dimettersi da un lavoro / dare le dimissioni",
+        "subtext": "dimettersi da un lavoro",
+        "synonyms": ["dare le dimissioni"],
         "definitions": [
             {
                 "text": "Lasciare formalmente un lavoro per scelta.",
@@ -891,7 +900,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "licenziare un dipendente / essere licenziato",
+        "subtext": "licenziare un dipendente",
+        "synonyms": ["essere licenziato"],
         "definitions": [
             {
                 "text": "Rimuovere ufficialmente qualcuno dal proprio lavoro.",
@@ -1038,7 +1048,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "chiedere in prestito / prestito bancario",
+        "subtext": "",
+        "synonyms": ["chiedere in prestito", "prestito bancario"],
         "definitions": [
             {
                 "text": "Prendere qualcosa con l'intenzione di restituirlo.",
@@ -1080,7 +1091,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "preventivare con cura / budget mensile",
+        "subtext": "preventivare con cura",
+        "synonyms": ["budget mensile"],
         "definitions": [
             {
                 "text": "Pianificare come verranno spesi i soldi.",
@@ -1122,7 +1134,8 @@
         "group": "ire",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "trasferire denaro / bonifico bancario",
+        "subtext": "trasferire denaro",
+        "synonyms": ["bonifico bancario"],
         "definitions": [
             {
                 "text": "Spostare denaro da un conto all'altro.",
@@ -1248,7 +1261,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "dissentire da qualcuno / essere in disaccordo",
+        "subtext": "",
+        "synonyms": ["dissentire da qualcuno", "essere in disaccordo"],
         "definitions": [
             {
                 "text": "Avere un'opinione diversa da qualcuno.",
@@ -1311,7 +1325,8 @@
         "group": "riflessivo",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "trovare un compromesso / scendere a patti",
+        "subtext": "",
+        "synonyms": ["trovare un compromesso", "scendere a patti"],
         "definitions": [
             {
                 "text": "Accettare meno dell'ideale per raggiungere un accordo.",
@@ -1374,7 +1389,8 @@
         "group": "ire",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "prevenire malattie / adottare misure preventive",
+        "subtext": "prevenire malattie",
+        "synonyms": ["adottare misure preventive"],
         "definitions": [
             {
                 "text": "Impedire che accada qualcosa di brutto.",
@@ -1500,7 +1516,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "riparare qualcosa / effettuare riparazioni",
+        "subtext": "riparare qualcosa",
+        "synonyms": ["effettuare riparazioni"],
         "definitions": [
             {
                 "text": "Aggiustare qualcosa che è rotto o non funziona.",
@@ -1521,7 +1538,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "trasferirsi / cambiare casa",
+        "subtext": "",
+        "synonyms": ["trasferirsi", "cambiare casa"],
         "definitions": [
             {
                 "text": "Andare a vivere o lavorare in un posto diverso.",
@@ -1542,7 +1560,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "decorare una stanza / arredamento d'interni",
+        "subtext": "decorare una stanza",
+        "synonyms": ["arredamento d'interni"],
         "definitions": [
             {
                 "text": "Rendere un luogo più attraente, specialmente dipingendo.",
@@ -1626,7 +1645,8 @@
         "group": "riflessivo",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "arrendersi al lavoro / smettere di provare",
+        "subtext": "arrendersi al lavoro",
+        "synonyms": ["smettere di provare"],
         "definitions": [
             {
                 "text": "Smettere di provare a fare qualcosa; rinunciare.",
@@ -1668,7 +1688,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "prendersi cura di qualcuno / accudire un bambino",
+        "subtext": "prendersi cura di qualcuno",
+        "synonyms": ["accudire un bambino"],
         "definitions": [
             {
                 "text": "Occuparsi di qualcuno o qualcosa.",
@@ -1710,7 +1731,8 @@
         "group": "ere",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "assumersi la responsabilità / assumersi un impegno",
+        "subtext": "",
+        "synonyms": ["assumersi la responsabilità", "assumersi un impegno"],
         "definitions": [
             {
                 "text": "Accettare una responsabilità o un incarico di lavoro.",
@@ -1836,7 +1858,8 @@
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "contattare via email / contattaci",
+        "subtext": "contattare via email",
+        "synonyms": ["contattaci"],
         "definitions": [
             {
                 "text": "Mersi in contatto con qualcuno.",
@@ -1857,7 +1880,8 @@
         "group": "riflessivo",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "lamentarsi di / fare un reclamo",
+        "subtext": "lamentarsi di",
+        "synonyms": ["fare un reclamo"],
         "definitions": [
             {
                 "text": "Esprimere insoddisfazione per qualcosa.",
@@ -1962,7 +1986,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "perdere qualche chilo / cercare di perdere peso",
+        "subtext": "cercare di perdere peso",
+        "synonyms": ["perdere qualche chilo"],
         "definitions": [
             {
                 "text": "Diventare più leggeri; ridurre il peso corporeo.",
@@ -2025,7 +2050,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "migliorare le prestazioni / migliorarsi",
+        "subtext": "",
+        "synonyms": ["migliorare le prestazioni", "migliorarsi"],
         "definitions": [
             {
                 "text": "Diventare o rendere qualcosa migliore.",
@@ -2067,7 +2093,8 @@
         "group": "ere",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "risolvere un mistero / trovare una soluzione",
+        "subtext": "risolvere un mistero",
+        "synonyms": ["trovare una soluzione"],
         "definitions": [
             {
                 "text": "Trovare una risposta a un problema.",
@@ -2109,7 +2136,8 @@
         "group": "riflessivo",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "entrare in azienda / unirsi a una squadra",
+        "subtext": "unirsi a una squadra",
+        "synonyms": ["entrare in azienda"],
         "definitions": [
             {
                 "text": "Diventare membro di un gruppo o di un'organizzazione.",
@@ -2151,7 +2179,8 @@
         "group": "ere",
         "classification": "irregular",
         "aspect": "stative",
-        "subtext": "contenere informazioni / il file contiene",
+        "subtext": "contenere informazioni",
+        "synonyms": ["il file contiene"],
         "definitions": [
             {
                 "text": "Avere qualcosa all'interno; includere.",
@@ -2214,7 +2243,8 @@
         "group": "ire",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "fallire un esame / mancare di fare",
+        "subtext": "fallire un esame",
+        "synonyms": ["mancare di fare"],
         "definitions": [
             {
                 "text": "Non riuscire; non fare qualcosa di richiesto.",
@@ -2235,7 +2265,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "riuscire a fare / avere successo in qualcosa",
+        "subtext": "avere successo in qualcosa",
+        "synonyms": ["riuscire a fare"],
         "definitions": [
             {
                 "text": "Ottenere ciò che si era prefissati.",
@@ -2256,7 +2287,8 @@
         "group": "locution",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "essere d'accordo con qualcuno / andare d'accordo",
+        "subtext": "essere d'accordo con qualcuno",
+        "synonyms": ["andare d'accordo"],
         "definitions": [
             {
                 "text": "Avere la stessa opinione; dire di sì a qualcosa.",
@@ -2277,7 +2309,8 @@
         "group": "ire",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "sostituire qualcosa / essere sostituito da",
+        "subtext": "sostituire qualcosa",
+        "synonyms": ["essere sostituito da"],
         "definitions": [
             {
                 "text": "Prendere il posto di qualcuno o qualcosa.",

@@ -1746,6 +1746,27 @@ function showWordDefinition() {
 
     content.innerHTML = '';
 
+    // Synonyms and Antonyms at the top
+    if ((wordObj.synonyms && wordObj.synonyms.length > 0) || wordObj.opposite) {
+        const extraDiv = document.createElement('div');
+        extraDiv.className = 'synonym-antonym-section';
+
+        if (wordObj.synonyms && wordObj.synonyms.length > 0) {
+            const synPara = document.createElement('div');
+            synPara.className = 'synonym-antonym-item';
+            synPara.innerHTML = `<span class="synonym-symbol">=</span>${wordObj.synonyms.join(', ')}`;
+            extraDiv.appendChild(synPara);
+        }
+
+        if (wordObj.opposite) {
+            const antPara = document.createElement('div');
+            antPara.className = 'synonym-antonym-item';
+            antPara.innerHTML = `<span class="antonym-symbol">≠</span>${wordObj.opposite}`;
+            extraDiv.appendChild(antPara);
+        }
+        content.appendChild(extraDiv);
+    }
+
     wordObj.definitions.forEach((def, index) => {
         const defDiv = document.createElement('div');
         defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
@@ -1756,16 +1777,11 @@ function showWordDefinition() {
         defDiv.appendChild(textPara);
 
         if (def.examples && def.examples.length > 0) {
-            const exLabel = document.createElement('div');
-            exLabel.className = 'examples-label';
-            exLabel.textContent = (t['examples_label'] || 'Examples') + ':';
-            defDiv.appendChild(exLabel);
-
             const exList = document.createElement('ul');
             exList.className = 'examples-list';
             def.examples.forEach(ex => {
                 const li = document.createElement('li');
-                li.textContent = ex;
+                li.innerHTML = `<span class="example-prefix">e.g.</span> ${ex}`;
                 exList.appendChild(li);
             });
             defDiv.appendChild(exList);

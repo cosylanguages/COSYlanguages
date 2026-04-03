@@ -37,7 +37,8 @@
                 ]
             }
         ],
-        "subtext": "ur veaj berr / blev berr / re verr",
+        "subtext": "ur veaj berr / blev berr",
+        "synonyms": ["re verr"],
         "comparative": "berroc'h",
         "superlative": "berrañ",
         "feminine": null,
@@ -102,7 +103,8 @@
                 ]
             }
         ],
-        "subtext": "un devezh heoliek / amzer heoliek / un tamm heol",
+        "subtext": "un devezh heoliek / amzer heoliek",
+        "synonyms": ["un tamm heol"],
         "comparative": "heoliekoc'h",
         "superlative": "heoliekañ",
         "feminine": null,
@@ -123,7 +125,8 @@
                 ]
             }
         ],
-        "subtext": "un devezh glavek / amzer glavek / koulz ar glav",
+        "subtext": "un devezh glavek / amzer glavek",
+        "synonyms": ["koulz ar glav"],
         "comparative": "glavekoc'h",
         "superlative": "glavekañ",
         "feminine": null,
@@ -138,7 +141,8 @@
         "form": "adjective",
         "opposite": "yen",
         "oppositeEmoji": "❄️",
-        "subtext": "tomm-tre / amzer domm / un evaj tomm / re domm",
+        "subtext": "tomm-tre / un evaj tomm",
+        "synonyms": ["amzer domm", "re domm"],
         "definitions": [
             {
                 "text": "Gant ur wrez uhel.",
@@ -191,7 +195,8 @@
                 ]
             }
         ],
-        "subtext": "un devezh boutin / buhez voutin / netra ispisial",
+        "subtext": "un devezh boutin",
+        "synonyms": ["buhez voutin", "netra ispisial"],
         "comparative": "boutinoc'h",
         "superlative": "boutinañ"
     },
@@ -203,7 +208,8 @@
         "form": "adjective",
         "opposite": "ker",
         "oppositeEmoji": "💎",
-        "subtext": "priz izel / nijadenn marc'had-mat / marc'had-mat-tre",
+        "subtext": "nijadenn marc'had-mat / marc'had-mat-tre",
+        "synonyms": ["priz izel"],
         "definitions": [
             {
                 "text": "Na gousta ket kalz arc'hant.",
@@ -226,7 +232,8 @@
         "form": "adjective",
         "opposite": "marc'had-mat",
         "oppositeEmoji": "🏷️",
-        "subtext": "priz uhel / ker-tre / re ger",
+        "subtext": "ker-tre",
+        "synonyms": ["priz uhel", "re ger"],
         "definitions": [
             {
                 "text": "Koustañ a ra kalz arc'hant.",
@@ -249,7 +256,8 @@
         "form": "adjective",
         "opposite": "fall",
         "oppositeEmoji": "👎",
-        "subtext": "dreist / mennozh mat / chañs vat / priz mat",
+        "subtext": "mennozh mat / priz mat",
+        "synonyms": ["dreist", "chañs vat"],
         "definitions": [
             {
                 "text": "Gant perzhioù mat.",
@@ -272,7 +280,8 @@
         "form": "adjective",
         "opposite": "mat",
         "oppositeEmoji": "👍",
-        "subtext": "euzhus / keleier fall / drouksort / diviz fall",
+        "subtext": "keleier fall / diviz fall",
+        "synonyms": ["euzhus", "drouksort"],
         "definitions": [
             {
                 "text": "Na vezañ mat.",
@@ -295,7 +304,8 @@
         "form": "adjective",
         "opposite": "bihan",
         "oppositeEmoji": "🐭",
-        "subtext": "ledan / un ti bras / ur gudenn vras / bras a-walc'h",
+        "subtext": "un ti bras / bras a-walc'h",
+        "synonyms": ["ledan", "ur gudenn vras"],
         "definitions": [
             {
                 "text": "Bras e vent pe e niver.",
@@ -318,7 +328,8 @@
         "form": "adjective",
         "opposite": "bras",
         "oppositeEmoji": "🐘",
-        "subtext": "bihanik / un ranndi bihan / ur gopr bihan / re vihan",
+        "subtext": "un ranndi bihan / ur gopr bihan",
+        "synonyms": ["bihanik", "re vihan"],
         "definitions": [
             {
                 "text": "Bihan e vent pe e niver.",
@@ -385,7 +396,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "plijet / en em santiñ laouen / laouen gant un dra bennak / un devezh laouen",
+        "subtext": "en em santiñ laouen / laouen gant un dra bennak / un devezh laouen",
+        "synonyms": ["plijet"],
         "definitions": [
             {
                 "text": "Plijet gant e vuhez.",
@@ -406,7 +418,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "marnaoniet / en em santiñ skuizh / skuizh gant un dra bennak / skuizh-tre",
+        "subtext": "en em santiñ skuizh / skuizh gant un dra bennak / skuizh-tre",
+        "synonyms": ["marnaoniet"],
         "definitions": [
             {
                 "text": "Ezhomm diskuizhañ.",
@@ -469,7 +482,8 @@
         "form": "adjective",
         "opposite": "lous",
         "oppositeEmoji": "💩",
-        "subtext": "kempenn / dilhad naet / ur gambr naet / mirout naet",
+        "subtext": "dilhad naet / ur gambr naet / mirout naet",
+        "synonyms": ["kempenn"],
         "definitions": [
             {
                 "text": "Hep poultrenn.",
@@ -492,7 +506,8 @@
         "form": "adjective",
         "opposite": "klañv",
         "oppositeEmoji": "🍔",
-        "subtext": "reizh / dibab boued yac'h",
+        "subtext": "dibab boued yac'h",
+        "synonyms": ["reizh"],
         "definitions": [
             {
                 "text": "Gant ur yec'hed mat.",
@@ -515,7 +530,8 @@
         "form": "adjective",
         "opposite": "yac'h",
         "oppositeEmoji": "💪",
-        "subtext": "fall / en em santiñ klañv",
+        "subtext": "en em santiñ klañv",
+        "synonyms": ["fall"],
         "definitions": [
             {
                 "text": "Na vezañ yac'h; marnaoniet.",
@@ -575,7 +591,8 @@
         "form": "adjective",
         "opposite": "strafuilhet",
         "oppositeEmoji": "😫",
-        "subtext": "sioul / en em santiñ distend",
+        "subtext": "en em santiñ distend",
+        "synonyms": ["sioul"],
         "definitions": [
             {
                 "text": "Sioul; hep nec'h pe stress.",
@@ -595,7 +612,8 @@
         "form": "adjective",
         "opposite": "distend",
         "oppositeEmoji": "😌",
-        "subtext": "nec'het",
+        "subtext": "",
+        "synonyms": ["nec'het"],
         "definitions": [
             {
                 "text": "En em santiñ nec'het gant un dra bennak a c'hellfe degouezhout.",
@@ -613,7 +631,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "dalc'het-tre / devezh karget / implij-amzer karget / re zalc'het",
+        "subtext": "",
+        "synonyms": ["dalc'het-tre", "devezh karget", "implij-amzer karget", "re zalc'het"],
         "definitions": [
             {
                 "text": "Gant kalz labour.",
@@ -636,7 +655,8 @@
         "form": "adjective",
         "opposite": "ditalvoud",
         "oppositeEmoji": "🗑️",
-        "subtext": "sikour / pleustrek",
+        "subtext": "",
+        "synonyms": ["sikour", "pleustrek"],
         "definitions": [
             {
                 "text": "Gant ur splet.",
@@ -657,7 +677,8 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "ret / emvod pouezus / pouezus-tre / ar pouezusañ",
+        "subtext": "emvod pouezus / pouezus-tre",
+        "synonyms": ["ret", "ar pouezusañ"],
         "definitions": [
             {
                 "text": "Gant kalz talvoudegezh.",
@@ -768,7 +789,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "melen sklaer / liv ar mel / melen-vividik",
+        "subtext": "melen sklaer / melen-vividik",
+        "synonyms": ["liv ar mel"],
         "definitions": [
             {
                 "text": "Liv an heol pe liv un tamm sitroñs.",
@@ -786,7 +808,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "didall / amzer dieub / frank d'ober",
+        "subtext": "amzer dieub",
+        "synonyms": ["didall", "frank d'ober"],
         "definitions": [
             {
                 "text": "Hep labour pe didall.",
@@ -809,7 +832,8 @@
         "form": "adjective",
         "opposite": "serr",
         "oppositeEmoji": "🔒",
-        "subtext": "digor evit ar genwerzh / nor zigor / digor d'ar mennozhioù / digor-bras",
+        "subtext": "digor evit ar genwerzh / digor d'ar mennozhioù / digor-bras",
+        "synonyms": ["nor zigor"],
         "definitions": [
             {
                 "text": "N'eo ket serr.",
@@ -832,7 +856,8 @@
         "form": "adjective",
         "opposite": "digor",
         "oppositeEmoji": "📖",
-        "subtext": "serr evit bremañ / serr evit lein / nor serret",
+        "subtext": "serr evit bremañ / serr evit lein",
+        "synonyms": ["nor serret"],
         "definitions": [
             {
                 "text": "N'eo ket digor.",
@@ -851,7 +876,8 @@
         "word": "ledan",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ur gêr ledan / un embregerezh ledan / ur c'hantad bras",
+        "subtext": "ur gêr ledan / un embregerezh ledan",
+        "synonyms": ["ur c'hantad bras"],
         "definitions": [
             {
                 "text": "Brasoc'h eget ar geidenn.",
@@ -868,7 +894,8 @@
         "word": "bihanik",
         "level": "starter",
         "form": "adjective",
-        "subtext": "un tamm bihan / ur pizh arc'hant / re vihan",
+        "subtext": "",
+        "synonyms": ["un tamm bihan", "ur pizh arc'hant", "re vihan"],
         "definitions": [
             {
                 "text": "Bihan e vent; ur c'hantad bihan a.",
@@ -922,7 +949,8 @@
         "word": "izel",
         "level": "starter",
         "form": "adjective",
-        "subtext": "priz izel / gopr izel / n'eo ket uhel",
+        "subtext": "priz izel / gopr izel",
+        "synonyms": ["n'eo ket uhel"],
         "definitions": [
             {
                 "text": "Izeloc'h eget ar geidenn.",
@@ -959,7 +987,8 @@
         "word": "goullo",
         "level": "starter",
         "form": "adjective",
-        "subtext": "un ranndi goullo / ur gambr oulloo / goullo-mik",
+        "subtext": "un ranndi goullo / goullo-mik",
+        "synonyms": ["ur gambr oulloo"],
         "definitions": [
             {
                 "text": "Hep tra e-barzh.",
@@ -979,7 +1008,8 @@
         "word": "tommik",
         "level": "starter",
         "form": "adjective",
-        "subtext": "amzer dommik / ur degemer tomm / mirout tomm",
+        "subtext": "",
+        "synonyms": ["amzer dommik", "ur degemer tomm", "mirout tomm"],
         "definitions": [
             {
                 "text": "Un tammig tomm; tommet en un doare plijus.",
@@ -1013,7 +1043,8 @@
         "word": "gleb",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wet weather / wet clothes / get wet",
+        "subtext": "",
+        "synonyms": ["wet weather", "wet clothes", "get wet"],
         "definitions": [
             {
                 "text": "Gant dour.",
@@ -1033,7 +1064,8 @@
         "word": "sec'h",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "",
+        "synonyms": ["dry weather", "dry skin", "keep dry"],
         "definitions": [
             {
                 "text": "Hep dour.",
@@ -1054,7 +1086,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "form": "adjective",
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "",
+        "synonyms": ["dirty hands", "dirty clothes", "get dirty"],
         "definitions": [
             {
                 "text": "Gant poultrenn.",
@@ -1073,7 +1106,8 @@
         "word": "kalet",
         "level": "starter",
         "form": "adjective",
-        "subtext": "labour kalet / un diviz diaes / re galet",
+        "subtext": "labour kalet",
+        "synonyms": ["un diviz diaes", "re galet"],
         "definitions": [
             {
                 "text": "N'eo ket blot.",
@@ -1093,7 +1127,8 @@
         "word": "blot",
         "level": "starter",
         "form": "adjective",
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "",
+        "synonyms": ["soft light", "soft music", "soft skills"],
         "definitions": [
             {
                 "text": "N'eo ket kalet.",
@@ -1113,7 +1148,8 @@
         "word": "pounner",
         "level": "starter",
         "form": "adjective",
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "",
+        "synonyms": ["heavy traffic", "heavy rain", "too heavy"],
         "definitions": [
             {
                 "text": "Gant ur pouez bras.",
@@ -1235,7 +1271,8 @@
         "word": "bravik",
         "level": "starter",
         "form": "adjective",
-        "subtext": "un deiz brav / ul lec'h brav / un den jentil",
+        "subtext": "",
+        "synonyms": ["un deiz brav", "ul lec'h brav", "un den jentil"],
         "definitions": [
             {
                 "text": "Plijus pe jentil.",
@@ -1252,7 +1289,8 @@
         "word": "marzhus",
         "level": "starter",
         "form": "adjective",
-        "subtext": "un darvoud marzhus / un amzer varzhus",
+        "subtext": "un darvoud marzhus",
+        "synonyms": ["un amzer varzhus"],
         "definitions": [
             {
                 "text": "Mat-tre; a ro plijadur vras.",
@@ -1269,7 +1307,8 @@
         "word": "euzhus",
         "level": "starter",
         "form": "adjective",
-        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "subtext": "",
+        "synonyms": ["terrible weather", "a terrible mistake", "terrible news"],
         "definitions": [
             {
                 "text": "Fall-tre.",
@@ -1360,7 +1399,8 @@
         "word": "naoniek",
         "level": "starter",
         "form": "adjective",
-        "subtext": "kaout naon / naon vras / chom hep debriñ",
+        "subtext": "",
+        "synonyms": ["kaout naon", "naon vras", "chom hep debriñ"],
         "definitions": [
             {
                 "text": "C'hoant debriñ.",
@@ -1380,7 +1420,8 @@
         "word": "konnar",
         "level": "starter",
         "form": "adjective",
-        "subtext": "en em santiñ kounnaret / kounnaret ouzh unan bennak / kounnaret-tre",
+        "subtext": "en em santiñ kounnaret / kounnaret ouzh unan bennak",
+        "synonyms": ["kounnaret-tre"],
         "definitions": [
             {
                 "text": "Gant droug.",
@@ -1434,7 +1475,8 @@
         "word": "aoniek",
         "level": "starter",
         "form": "adjective",
-        "subtext": "aon rak / en em santiñ aoniek / aoniek-bras",
+        "subtext": "en em santiñ aoniek / aoniek-bras",
+        "synonyms": ["aon rak"],
         "definitions": [
             {
                 "text": "Gant aon.",
@@ -1485,7 +1527,8 @@
         "word": "fazi",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wrong answer / go wrong / completely wrong",
+        "subtext": "",
+        "synonyms": ["wrong answer", "go wrong", "completely wrong"],
         "definitions": [
             {
                 "text": "Gant ur fazi.",
@@ -1565,7 +1608,8 @@
         "word": "buan",
         "level": "starter",
         "form": "adjective",
-        "subtext": "boued herrek / tren tizh / prim-tre",
+        "subtext": "",
+        "synonyms": ["boued herrek", "tren tizh", "prim-tre"],
         "definitions": [
             {
                 "text": "Gant tizh.",
@@ -1605,7 +1649,8 @@
         "word": "didrous",
         "level": "starter",
         "form": "adjective",
-        "subtext": "karter sioul / chom sioul / brav ha sioul",
+        "subtext": "",
+        "synonyms": ["karter sioul", "chom sioul", "brav ha sioul"],
         "definitions": [
             {
                 "text": "Hep trouz.",
@@ -1625,7 +1670,8 @@
         "word": "kreñv",
         "level": "starter",
         "form": "adjective",
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "",
+        "synonyms": ["loud noise", "too loud", "a loud voice"],
         "definitions": [
             {
                 "text": "Gant ur son kreñv.",
@@ -1694,7 +1740,8 @@
                 ]
             }
         ],
-        "subtext": "en em santiñ dilailh / trist-meurbet / en em santiñ fall gant",
+        "subtext": "en em santiñ dilailh / en em santiñ fall gant",
+        "synonyms": ["trist-meurbet"],
         "comparative": "unhappier",
         "superlative": "the unhappiest"
     },
@@ -1711,7 +1758,8 @@
                 ]
             }
         ],
-        "subtext": "en em santiñ nervus / chalet gant / nervus-tre",
+        "subtext": "en em santiñ nervus",
+        "synonyms": ["chalet gant", "nervus-tre"],
         "comparative": "strafuilhetoc'h",
         "superlative": "strafuilhetañ",
         "feminine": null,
@@ -1731,7 +1779,8 @@
                 ]
             }
         ],
-        "subtext": "en em santiñ stennet / stennet-tre / karget a stress",
+        "subtext": "en em santiñ stennet",
+        "synonyms": ["stennet-tre", "karget a stress"],
         "comparative": "more stressed",
         "superlative": "the most stressed"
     },
@@ -1748,7 +1797,8 @@
                 ]
             }
         ],
-        "subtext": "en em santiñ sur / sur eus outañ e-unan / sur-meurbet",
+        "subtext": "en em santiñ sur / sur eus outañ e-unan",
+        "synonyms": ["sur-meurbet"],
         "comparative": "more confident",
         "superlative": "the most confident"
     },
@@ -1765,7 +1815,8 @@
                 ]
             }
         ],
-        "subtext": "lorc'h ennañ / lorc'h bras / lorc'h gant",
+        "subtext": "",
+        "synonyms": ["lorc'h ennañ", "lorc'h bras", "lorc'h gant"],
         "comparative": "lorc'husoc'h",
         "superlative": "lorc'husañ",
         "feminine": null,
@@ -1785,7 +1836,8 @@
                 ]
             }
         ],
-        "subtext": "kaout aon / aon rak / aon bras",
+        "subtext": "",
+        "synonyms": ["kaout aon", "aon rak", "aon bras"],
         "comparative": "aoniekoc'h",
         "superlative": "aoniekañ",
         "feminine": null,
@@ -1822,7 +1874,8 @@
                 ]
             }
         ],
-        "subtext": "bezañ dipitet / dipitet-tre / dipitet gant",
+        "subtext": "",
+        "synonyms": ["bezañ dipitet", "dipitet-tre", "dipitet gant"],
         "comparative": "more disappointed",
         "superlative": "the most disappointed"
     },
@@ -1839,7 +1892,8 @@
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "",
+        "synonyms": ["beautiful view", "beautiful city", "absolutely beautiful"],
         "comparative": "bravoc'h",
         "superlative": "bravañ",
         "feminine": null,
@@ -1859,7 +1913,8 @@
                 ]
             }
         ],
-        "subtext": "mat a-walc'h / ul lec'h koant / koant a-walc'h",
+        "subtext": "ul lec'h koant / koant a-walc'h",
+        "synonyms": ["mat a-walc'h"],
         "comparative": "prettier",
         "superlative": "the prettiest"
     },
@@ -1896,7 +1951,8 @@
                 ]
             }
         ],
-        "subtext": "luget fall / un arguzenn wan / gwan-tre",
+        "subtext": "un arguzenn wan",
+        "synonyms": ["luget fall", "gwan-tre"],
         "comparative": "wanoc'h",
         "superlative": "wanañ",
         "feminine": null,
@@ -1916,7 +1972,8 @@
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
+        "subtext": "",
+        "synonyms": ["physically fit", "stay fit", "keep fit"],
         "comparative": "fitter",
         "superlative": "the fittest"
     },
@@ -1933,7 +1990,8 @@
                 ]
             }
         ],
-        "subtext": "labour eus ar c'hentañ / disoc'hoù dispar / eus ar c'hentañ-mik",
+        "subtext": "labour eus ar c'hentañ",
+        "synonyms": ["disoc'hoù dispar", "eus ar c'hentañ-mik"],
         "comparative": "more excellent",
         "superlative": "the most excellent"
     },
@@ -1950,7 +2008,8 @@
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "",
+        "synonyms": ["a perfect opportunity", "perfect timing", "absolutely perfect"],
         "comparative": "perfezhoc'h",
         "superlative": "perfezhañ",
         "feminine": null,
@@ -1970,7 +2029,8 @@
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "",
+        "synonyms": ["completely useless", "prove useless", "a useless idea"],
         "comparative": "ditalvoudoc'h",
         "superlative": "ditalvoudañ",
         "feminine": null,
@@ -1990,7 +2050,8 @@
                 ]
             }
         ],
-        "subtext": "respont reizh / an doare mat / reizh-tre",
+        "subtext": "respont reizh / reizh-tre",
+        "synonyms": ["an doare mat"],
         "comparative": "reishoc'h",
         "superlative": "reishañ",
         "feminine": null,
@@ -2030,7 +2091,8 @@
                 ]
             }
         ],
-        "subtext": "borus-tre / un emvod borus / kavout borus",
+        "subtext": "",
+        "synonyms": ["borus-tre", "un emvod borus", "kavout borus"],
         "comparative": "borodusoc'h",
         "superlative": "borodusañ",
         "feminine": null,
@@ -2067,7 +2129,8 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "as soon as possible",
+        "synonyms": ["it is possible", "make possible"],
         "comparative": "posuploc'h",
         "superlative": "posuplañ",
         "feminine": null,
@@ -2087,7 +2150,8 @@
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "subtext": "",
+        "synonyms": ["virtually impossible", "make impossible", "nearly impossible"],
         "comparative": "amposuploc'h",
         "superlative": "amposuplañ",
         "feminine": null,
@@ -2127,7 +2191,8 @@
                 ]
             }
         ],
-        "subtext": "brudet-tre / un dibab brudet / ar pep brudetañ",
+        "subtext": "brudet-tre / un dibab brudet",
+        "synonyms": ["ar pep brudetañ"],
         "comparative": "more popular",
         "superlative": "the most popular"
     },
@@ -2161,7 +2226,8 @@
                 ]
             }
         ],
-        "subtext": "hegarat-tre / un dremm hegarat / un aergelc'h hegarat",
+        "subtext": "",
+        "synonyms": ["hegarat-tre", "un dremm hegarat", "un aergelc'h hegarat"],
         "comparative": "more friendly",
         "superlative": "the most friendly"
     },
@@ -2178,7 +2244,8 @@
                 ]
             }
         ],
-        "subtext": "hegarat-tre / jentil ac'hanoc'h / un den hegarat",
+        "subtext": "jentil ac'hanoc'h",
+        "synonyms": ["hegarat-tre", "un den hegarat"],
         "comparative": "jentiloc'h",
         "superlative": "jentilañ",
         "feminine": null,
@@ -2198,7 +2265,8 @@
                 ]
             }
         ],
-        "subtext": "fentus-tre / ur gontadenn fentus / kavout fentus",
+        "subtext": "",
+        "synonyms": ["fentus-tre", "ur gontadenn fentus", "kavout fentus"],
         "comparative": "farsusoc'h",
         "superlative": "farsusañ",
         "feminine": null,
@@ -2258,7 +2326,8 @@
                 ]
             }
         ],
-        "subtext": "dizaven-tre / dizesk-bras / a-ratozh dizaven",
+        "subtext": "",
+        "synonyms": ["dizaven-tre", "dizesk-bras", "a-ratozh dizaven"],
         "comparative": "dizereatoc'h",
         "superlative": "dizereatañ",
         "feminine": null,
@@ -2278,7 +2347,8 @@
                 ]
             }
         ],
-        "subtext": "lezirek-tre / un doare lezirek / re lezirek",
+        "subtext": "",
+        "synonyms": ["lezirek-tre", "un doare lezirek", "re lezirek"],
         "comparative": "leueoc'h",
         "superlative": "leueañ",
         "feminine": null,
@@ -2315,7 +2385,8 @@
                 ]
             }
         ],
-        "subtext": "trouzus-tre / un aergelc'h trouzus / re drouzus",
+        "subtext": "trouzus-tre / un aergelc'h trouzus",
+        "synonyms": ["re drouzus"],
         "comparative": "trouzusoc'h",
         "superlative": "trouzusañ",
         "feminine": null,

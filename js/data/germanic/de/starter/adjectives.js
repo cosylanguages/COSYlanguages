@@ -16,7 +16,8 @@
                 ]
             }
         ],
-        "subtext": "ein hohes Gebäude / eine große Person / groß genug",
+        "subtext": "groß genug",
+        "synonyms": ["ein hohes Gebäude", "eine große Person"],
         "feminine": "große",
         "neuter": "großes",
         "plural": "große",
@@ -39,7 +40,8 @@
                 ]
             }
         ],
-        "subtext": "eine kurze Reise / kurze Haare / zu kurz",
+        "subtext": "",
+        "synonyms": ["eine kurze Reise", "kurze Haare", "zu kurz"],
         "feminine": "kleine",
         "neuter": "kleines",
         "plural": "kleine",
@@ -61,7 +63,8 @@
                 ]
             }
         ],
-        "subtext": "junge Person / junger Profi / im Herzen jung",
+        "subtext": "im Herzen jung",
+        "synonyms": ["junge Person", "junger Profi"],
         "feminine": "junge",
         "neuter": "junges",
         "plural": "junge",
@@ -83,7 +86,8 @@
                 ]
             }
         ],
-        "subtext": "alter Freund / alte Gewohnheiten / sehr alt",
+        "subtext": "sehr alt",
+        "synonyms": ["alter Freund", "alte Gewohnheiten"],
         "feminine": "alte",
         "neuter": "altes",
         "plural": "alte",
@@ -104,7 +108,8 @@
                 ]
             }
         ],
-        "subtext": "sonniger Tag / sonniges Wetter / sonnige Abschnitte",
+        "subtext": "",
+        "synonyms": ["sonniger Tag", "sonniges Wetter", "sonnige Abschnitte"],
         "feminine": "sonnige",
         "neuter": "sonniges",
         "plural": "sonnige",
@@ -125,7 +130,8 @@
                 ]
             }
         ],
-        "subtext": "regnerischer Tag / regnerisches Wetter / Regenzeit",
+        "subtext": "",
+        "synonyms": ["regnerischer Tag", "regnerisches Wetter", "Regenzeit"],
         "feminine": "regnerische",
         "neuter": "regnerisches",
         "plural": "regnerische",
@@ -140,7 +146,8 @@
         "form": "adjective",
         "opposite": "kalt",
         "oppositeEmoji": "❄️",
-        "subtext": "sehr heiß, heißes Wetter / heißes Wetter / ein heißes Getränk / zu heiß",
+        "subtext": "sehr heiß, heißes Wetter / zu heiß",
+        "synonyms": ["heißes Wetter", "ein heißes Getränk"],
         "definitions": [
             {
                 "text": "Eine hohe Temperatur habend.",
@@ -163,7 +170,8 @@
         "form": "adjective",
         "opposite": "heiß",
         "oppositeEmoji": "🔥",
-        "subtext": "sehr kalt, kalter Morgen / kaltes Wetter / ein kaltes Getränk / zu kalt",
+        "subtext": "sehr kalt, kalter Morgen / zu kalt",
+        "synonyms": ["kaltes Wetter", "ein kaltes Getränk"],
         "definitions": [
             {
                 "text": "Eine niedrige Temperatur habend.",
@@ -193,7 +201,8 @@
                 ]
             }
         ],
-        "subtext": "gewöhnlicher Tag / gewöhnliches Leben / nichts Gewöhnliches",
+        "subtext": "",
+        "synonyms": ["gewöhnlicher Tag", "gewöhnliches Leben", "nichts Gewöhnliches"],
         "feminine": "gewöhnliche",
         "neuter": "gewöhnliches",
         "plural": "gewöhnliche",
@@ -208,7 +217,8 @@
         "form": "adjective",
         "opposite": "teuer",
         "oppositeEmoji": "💎",
-        "subtext": "niedriger Preis, preiswert / billiger Flug / sehr billig / billig und gut",
+        "subtext": "sehr billig / billig und gut",
+        "synonyms": ["niedriger Preis", "preiswert", "billiger Flug"],
         "definitions": [
             {
                 "text": "Nicht teuer; niedriger Preis.",
@@ -231,7 +241,8 @@
         "form": "adjective",
         "opposite": "billig",
         "oppositeEmoji": "🏷️",
-        "subtext": "kostspielig, hoher Preis / sehr teuer / teurer Geschmack / zu teuer",
+        "subtext": "sehr teuer / zu teuer",
+        "synonyms": ["kostspielig", "hoher Preis", "teurer Geschmack"],
         "definitions": [
             {
                 "text": "Viel Geld kostend.",
@@ -254,7 +265,8 @@
         "form": "adjective",
         "opposite": "schlecht",
         "oppositeEmoji": "👎",
-        "subtext": "großartig, nett, angenehm / gute Idee / viel Glück / gutes Preis-Leistungs-Verhältnis",
+        "subtext": "",
+        "synonyms": ["großartig", "nett", "angenehm", "gute Idee", "viel Glück", "gutes Preis-Leistungs-Verhältnis"],
         "definitions": [
             {
                 "text": "Von hoher Qualität oder angenehm.",
@@ -277,7 +289,8 @@
         "form": "adjective",
         "opposite": "gut",
         "oppositeEmoji": "👍",
-        "subtext": "schrecklich, furchtbar, unangenehm / schlechte Nachrichten / Pech / schlechte Entscheidung",
+        "subtext": "",
+        "synonyms": ["schrecklich", "furchtbar", "unangenehm", "schlechte Nachrichten", "Pech", "schlechte Entscheidung"],
         "definitions": [
             {
                 "text": "Nicht gut; unangenehm.",
@@ -300,7 +313,8 @@
         "form": "adjective",
         "opposite": "klein",
         "oppositeEmoji": "🐭",
-        "subtext": "groß, riesig / ein großes Haus / ein großes Problem / groß genug",
+        "subtext": "groß, riesig / groß genug",
+        "synonyms": ["ein großes Haus", "ein großes Problem"],
         "definitions": [
             {
                 "text": "Groß an Umfang.",
@@ -323,7 +337,8 @@
         "form": "adjective",
         "opposite": "groß",
         "oppositeEmoji": "🐘",
-        "subtext": "klein, winzig / eine kleine Wohnung / ein kleines Gehalt / zu klein",
+        "subtext": "klein, winzig / zu klein",
+        "synonyms": ["eine kleine Wohnung", "ein kleines Gehalt"],
         "definitions": [
             {
                 "text": "Klein an Umfang.",
@@ -390,7 +405,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "froh, fröhlich, glücklich sein / glücklich sein / mit etwas zufrieden sein / ein glücklicher Tag",
+        "subtext": "froh, fröhlich, glücklich sein / glücklich sein / mit etwas zufrieden sein",
+        "synonyms": ["ein glücklicher Tag"],
         "definitions": [
             {
                 "text": "Vergnügen oder Freude empfindend.",
@@ -442,7 +458,8 @@
                 ]
             }
         ],
-        "subtext": "Vollzeitstelle / Vollzeitarbeit / Vollzeitmitarbeiter",
+        "subtext": "",
+        "synonyms": ["Vollzeitstelle", "Vollzeitarbeit", "Vollzeitmitarbeiter"],
         "comparative": null,
         "superlative": null,
         "feminine": "Vollzeit",
@@ -465,7 +482,8 @@
                 ]
             }
         ],
-        "subtext": "Teilzeitstelle / Teilzeitarbeit / Teilzeitstudent",
+        "subtext": "",
+        "synonyms": ["Teilzeitstelle", "Teilzeitarbeit", "Teilzeitstudent"],
         "comparative": null,
         "superlative": null,
         "feminine": "Teilzeit",
@@ -480,7 +498,8 @@
         "form": "adjective",
         "opposite": "schmutzig",
         "oppositeEmoji": "💩",
-        "subtext": "ordentlich, nicht schmutzig, sauber halten / saubere Kleidung / ein sauberes Zimmer / sauber halten",
+        "subtext": "ordentlich, nicht schmutzig, sauber halten / sauber halten",
+        "synonyms": ["saubere Kleidung", "ein sauberes Zimmer"],
         "definitions": [
             {
                 "text": "Frei von Schmutz.",
@@ -618,7 +637,8 @@
         "form": "adjective",
         "opposite": "ruhig",
         "oppositeEmoji": "😌",
-        "subtext": "ängstlich",
+        "subtext": "",
+        "synonyms": ["ängstlich"],
         "definitions": [
             {
                 "text": "Angst empfindend über etwas, das passieren könnte.",
@@ -639,7 +659,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "sehr beschäftigt, beschäftigter Tag / voller Zeitplan / sehr beschäftigt / zu beschäftigt",
+        "subtext": "sehr beschäftigt, beschäftigter Tag / sehr beschäftigt / zu beschäftigt",
+        "synonyms": ["voller Zeitplan"],
         "definitions": [
             {
                 "text": "Viel zu tun habend.",
@@ -662,7 +683,8 @@
         "form": "adjective",
         "opposite": "nutzlos",
         "oppositeEmoji": "🗑️",
-        "subtext": "hilfreich, praktisch",
+        "subtext": "",
+        "synonyms": ["hilfreich", "praktisch"],
         "definitions": [
             {
                 "text": "Hilfreich; einen praktischen Zweck habend.",
@@ -683,7 +705,8 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "wesentlich / wichtiges Treffen / sehr wichtig / am wichtigsten",
+        "subtext": "sehr wichtig",
+        "synonyms": ["wesentlich", "wichtiges Treffen", "am wichtigsten"],
         "definitions": [
             {
                 "text": "Von großem Wert oder großer Wirkung.",
@@ -704,7 +727,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "dunkelrot, hellrot / Rotwein / rotes Gesicht / rote Ampel",
+        "subtext": "",
+        "synonyms": ["dunkelrot", "hellrot", "Rotwein", "rotes Gesicht", "rote Ampel"],
         "definitions": [
             {
                 "text": "Die Farbe von Blut habend.",
@@ -725,7 +749,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "hellblau, dunkelblau / dunkelblau / hellblau / blauer Himmel",
+        "subtext": "",
+        "synonyms": ["hellblau", "dunkelblau", "dunkelblau", "hellblau", "blauer Himmel"],
         "definitions": [
             {
                 "text": "Die Farbe eines klaren Himmels habend.",
@@ -746,7 +771,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "hellgrün, dunkelgrün / grüne Energie / Grünfläche / hellgrün",
+        "subtext": "",
+        "synonyms": ["hellgrün", "dunkelgrün", "grüne Energie", "Grünfläche", "hellgrün"],
         "definitions": [
             {
                 "text": "Die Farbe von Gras habend.",
@@ -767,7 +793,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "reinweiß, schneeweiß / Weißwein / gebrochenes Weiß / strahlendes Weiß",
+        "subtext": "gebrochenes Weiß / strahlendes Weiß",
+        "synonyms": ["reinweiß", "schneeweiß", "Weißwein"],
         "definitions": [
             {
                 "text": "Die Farbe von Schnee habend.",
@@ -788,7 +815,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "tiefschwarz, nachtschwarz / schwarzer Kaffee / Schwarzmarkt / tiefschwarz",
+        "subtext": "",
+        "synonyms": ["tiefschwarz", "nachtschwarz", "schwarzer Kaffee", "Schwarzmarkt", "tiefschwarz"],
         "definitions": [
             {
                 "text": "Die dunkelste Farbe habend.",
@@ -809,7 +837,8 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "hellgelb, zitronengelb / gelbes Licht / blassgelb / hellgelb",
+        "subtext": "",
+        "synonyms": ["hellgelb", "zitronengelb", "gelbes Licht", "blassgelb", "hellgelb"],
         "definitions": [
             {
                 "text": "Die Farbe der Sonne habend.",
@@ -830,7 +859,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "kostenlos, Gratisgeschenk / Freizeit / kostenlos / frei zu tun",
+        "subtext": "kostenlos, Gratisgeschenk / kostenlos",
+        "synonyms": ["Freizeit", "frei zu tun"],
         "definitions": [
             {
                 "text": "Kein Geld kostend.",
@@ -853,7 +883,8 @@
         "form": "adjective",
         "opposite": "geschlossen",
         "oppositeEmoji": "🔒",
-        "subtext": "jetzt offen, geschäftsoffen / offene Tür / offen für Ideen / weit offen",
+        "subtext": "jetzt offen, geschäftsoffen / offen für Ideen / weit offen",
+        "synonyms": ["offene Tür"],
         "definitions": [
             {
                 "text": "Nicht geschlossen.",
@@ -876,7 +907,8 @@
         "form": "adjective",
         "opposite": "offen",
         "oppositeEmoji": "📖",
-        "subtext": "jetzt geschlossen, vorübergehend geschlossen / Mittagspause / engstirnig / geschlossene Tür",
+        "subtext": "jetzt geschlossen, vorübergehend geschlossen",
+        "synonyms": ["Mittagspause", "engstirnig", "geschlossene Tür"],
         "definitions": [
             {
                 "text": "Nicht offen.",
@@ -895,7 +927,8 @@
         "word": "groß",
         "level": "starter",
         "form": "adjective",
-        "subtext": "eine Großstadt / ein großes Unternehmen / eine große Menge",
+        "subtext": "",
+        "synonyms": ["eine Großstadt", "ein großes Unternehmen", "eine große Menge"],
         "definitions": [
             {
                 "text": "Über dem Durchschnitt an Größe.",
@@ -915,7 +948,8 @@
         "word": "klein",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ein kleines bisschen / ein wenig Geld / zu wenig",
+        "subtext": "",
+        "synonyms": ["ein kleines bisschen", "ein wenig Geld", "zu wenig"],
         "definitions": [
             {
                 "text": "Klein an Umfang.",
@@ -935,7 +969,8 @@
         "word": "lang",
         "level": "starter",
         "form": "adjective",
-        "subtext": "eine lange Reise / ein langer Tag / eine lange Zeit",
+        "subtext": "",
+        "synonyms": ["eine lange Reise", "ein langer Tag", "eine lange Zeit"],
         "definitions": [
             {
                 "text": "Von großer Länge.",
@@ -955,7 +990,8 @@
         "word": "hoch",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hoher Preis / hohe Miete / hohe Qualität",
+        "subtext": "",
+        "synonyms": ["hoher Preis", "hohe Miete", "hohe Qualität"],
         "definitions": [
             {
                 "text": "Über dem Durchschnitt an Höhe.",
@@ -975,7 +1011,8 @@
         "word": "niedrig",
         "level": "starter",
         "form": "adjective",
-        "subtext": "niedriger Preis / niedriges Gehalt / niedrige Qualität",
+        "subtext": "",
+        "synonyms": ["niedriger Preis", "niedriges Gehalt", "niedrige Qualität"],
         "definitions": [
             {
                 "text": "Unter dem Durchschnitt an Höhe.",
@@ -995,7 +1032,8 @@
         "word": "voll",
         "level": "starter",
         "form": "adjective",
-        "subtext": "Vollzeit / ein ganzer Tag / voller Menschen",
+        "subtext": "",
+        "synonyms": ["Vollzeit", "ein ganzer Tag", "voller Menschen"],
         "definitions": [
             {
                 "text": "So viel wie möglich enthaltend.",
@@ -1015,7 +1053,8 @@
         "word": "leer",
         "level": "starter",
         "form": "adjective",
-        "subtext": "eine leere Wohnung / ein leeres Zimmer / fast leer",
+        "subtext": "fast leer",
+        "synonyms": ["eine leere Wohnung", "ein leeres Zimmer"],
         "definitions": [
             {
                 "text": "Nichts enthaltend.",
@@ -1035,7 +1074,8 @@
         "word": "warm",
         "level": "starter",
         "form": "adjective",
-        "subtext": "warmes Wetter / ein herzliches Willkommen / warm halten",
+        "subtext": "warm halten",
+        "synonyms": ["warmes Wetter", "ein herzliches Willkommen"],
         "definitions": [
             {
                 "text": "Leicht heiß.",
@@ -1055,7 +1095,8 @@
         "word": "kühl",
         "level": "starter",
         "form": "adjective",
-        "subtext": "kühles Wetter / ein kühles Getränk / kühl bleiben",
+        "subtext": "kühl bleiben",
+        "synonyms": ["kühles Wetter", "ein kühles Getränk"],
         "definitions": [
             {
                 "text": "Leicht kalt.",
@@ -1075,7 +1116,8 @@
         "word": "nass",
         "level": "starter",
         "form": "adjective",
-        "subtext": "nasses Wetter / nasse Kleidung / nass werden",
+        "subtext": "nass werden",
+        "synonyms": ["nasses Wetter", "nasse Kleidung"],
         "definitions": [
             {
                 "text": "Mit Wasser bedeckt.",
@@ -1095,7 +1137,8 @@
         "word": "trocken",
         "level": "starter",
         "form": "adjective",
-        "subtext": "trockenes Wetter / trockene Haut / trocken bleiben",
+        "subtext": "trocken bleiben",
+        "synonyms": ["trockenes Wetter", "trockene Haut"],
         "definitions": [
             {
                 "text": "Ohne Wasser oder Flüssigkeit.",
@@ -1116,7 +1159,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "form": "adjective",
-        "subtext": "schmutzige Hände / schmutzige Kleidung / schmutzig werden",
+        "subtext": "schmutzig werden",
+        "synonyms": ["schmutzige Hände", "schmutzige Kleidung"],
         "definitions": [
             {
                 "text": "Mit Schmutz bedeckt.",
@@ -1135,7 +1179,8 @@
         "word": "hart",
         "level": "starter",
         "form": "adjective",
-        "subtext": "harte Arbeit / eine harte Entscheidung / zu hart",
+        "subtext": "zu hart",
+        "synonyms": ["harte Arbeit", "eine harte Entscheidung"],
         "definitions": [
             {
                 "text": "Fest und solide; schwierig.",
@@ -1155,7 +1200,8 @@
         "word": "weich",
         "level": "starter",
         "form": "adjective",
-        "subtext": "weiches Licht / sanfte Musik / Soft Skills",
+        "subtext": "",
+        "synonyms": ["weiches Licht", "sanfte Musik", "Soft Skills"],
         "definitions": [
             {
                 "text": "Nicht hart; sanft anzufassen.",
@@ -1175,7 +1221,8 @@
         "word": "schwer",
         "level": "starter",
         "form": "adjective",
-        "subtext": "starker Verkehr / starker Regen / zu schwer",
+        "subtext": "zu schwer",
+        "synonyms": ["starker Verkehr", "starker Regen"],
         "definitions": [
             {
                 "text": "Von großem Gewicht.",
@@ -1195,7 +1242,8 @@
         "word": "leicht",
         "level": "starter",
         "form": "adjective",
-        "subtext": "leichter Regen / wenig Verkehr / eine leichte Mahlzeit",
+        "subtext": "",
+        "synonyms": ["leichter Regen", "wenig Verkehr", "eine leichte Mahlzeit"],
         "definitions": [
             {
                 "text": "Nicht schwer.",
@@ -1215,7 +1263,8 @@
         "word": "braun",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dunkelbraun / hellbraun / Schwarzbrot",
+        "subtext": "",
+        "synonyms": ["dunkelbraun", "hellbraun", "Schwarzbrot"],
         "definitions": [
             {
                 "text": "Die Farbe von Holz habend.",
@@ -1235,7 +1284,8 @@
         "word": "grau",
         "level": "starter",
         "form": "adjective",
-        "subtext": "Grauzone / grauer Himmel / blassgrau",
+        "subtext": "",
+        "synonyms": ["Grauzone", "grauer Himmel", "blassgrau"],
         "definitions": [
             {
                 "text": "Zwischen Schwarz und Weiß.",
@@ -1255,7 +1305,8 @@
         "word": "rosa",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hellrosa / leuchtendes Rosa / kräftiges Rosa",
+        "subtext": "leuchtendes Rosa / kräftiges Rosa",
+        "synonyms": ["hellrosa"],
         "definitions": [
             {
                 "text": "Blassrot.",
@@ -1275,7 +1326,8 @@
         "word": "orange",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hellorange / dunkelorange / oranges Licht",
+        "subtext": "oranges Licht",
+        "synonyms": ["hellorange", "dunkelorange"],
         "definitions": [
             {
                 "text": "Die Farbe einer Orange habend.",
@@ -1295,7 +1347,8 @@
         "word": "großartig",
         "level": "starter",
         "form": "adjective",
-        "subtext": "eine großartige Idee / eine tolle Gelegenheit / hoher Wert",
+        "subtext": "",
+        "synonyms": ["eine großartige Idee", "eine tolle Gelegenheit", "hoher Wert"],
         "definitions": [
             {
                 "text": "Extrem gut.",
@@ -1315,7 +1368,8 @@
         "word": "nett",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ein schöner Tag / ein schöner Ort / eine nette Person",
+        "subtext": "",
+        "synonyms": ["ein schöner Tag", "ein schöner Ort", "eine nette Person"],
         "definitions": [
             {
                 "text": "Angenehm oder freundlich.",
@@ -1335,7 +1389,8 @@
         "word": "wunderbar",
         "level": "starter",
         "form": "adjective",
-        "subtext": "eine wunderbare Gelegenheit / eine wunderbare Zeit",
+        "subtext": "",
+        "synonyms": ["eine wunderbare Gelegenheit", "eine wunderbare Zeit"],
         "definitions": [
             {
                 "text": "Extrem gut; Freude bereitend.",
@@ -1355,7 +1410,8 @@
         "word": "furchtbar",
         "level": "starter",
         "form": "adjective",
-        "subtext": "furchtbares Wetter / ein schrecklicher Fehler / schreckliche Nachrichten",
+        "subtext": "",
+        "synonyms": ["furchtbares Wetter", "ein schrecklicher Fehler", "schreckliche Nachrichten"],
         "definitions": [
             {
                 "text": "Extrem schlecht.",
@@ -1375,7 +1431,8 @@
         "word": "schrecklich",
         "level": "starter",
         "form": "adjective",
-        "subtext": "schreckliches Wetter / schreckliche Nachrichten / einfach schrecklich",
+        "subtext": "einfach schrecklich",
+        "synonyms": ["schreckliches Wetter", "schreckliche Nachrichten"],
         "definitions": [
             {
                 "text": "Sehr schlecht oder unangenehm.",
@@ -1395,7 +1452,8 @@
         "word": "erstaunlich",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ein erstaunliches Ergebnis / ein tolles Angebot / wirklich erstaunlich",
+        "subtext": "wirklich erstaunlich",
+        "synonyms": ["ein erstaunliches Ergebnis", "ein tolles Angebot"],
         "definitions": [
             {
                 "text": "Große Überraschung verursachend.",
@@ -1415,7 +1473,8 @@
         "word": "fantastisch",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fantastische Neuigkeiten / eine fantastische Gelegenheit / wirklich fantastisch",
+        "subtext": "wirklich fantastisch",
+        "synonyms": ["fantastische Neuigkeiten", "eine fantastische Gelegenheit"],
         "definitions": [
             {
                 "text": "Extrem gut.",
@@ -1435,7 +1494,8 @@
         "word": "traurig",
         "level": "starter",
         "form": "adjective",
-        "subtext": "sich traurig fühlen / eine traurige Situation / zutiefst traurig",
+        "subtext": "sich traurig fühlen / zutiefst traurig",
+        "synonyms": ["eine traurige Situation"],
         "definitions": [
             {
                 "text": "Sich unglücklich fühlend.",
@@ -1455,7 +1515,8 @@
         "word": "hungrig",
         "level": "starter",
         "form": "adjective",
-        "subtext": "Hunger haben / sehr hungrig / hungern",
+        "subtext": "sehr hungrig",
+        "synonyms": ["Hunger haben", "hungern"],
         "definitions": [
             {
                 "text": "Essen brauchend.",
@@ -1475,7 +1536,8 @@
         "word": "wütend",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wütend sein / sauer auf jemanden / sehr wütend",
+        "subtext": "wütend sein / sehr wütend",
+        "synonyms": ["sauer auf jemanden"],
         "definitions": [
             {
                 "text": "Starken Unmut empfindend.",
@@ -1495,7 +1557,8 @@
         "word": "gelangweilt",
         "level": "starter",
         "form": "adjective",
-        "subtext": "sich langweilen / gelangweilt von / leicht gelangweilt",
+        "subtext": "gelangweilt von / leicht gelangweilt",
+        "synonyms": ["sich langweilen"],
         "definitions": [
             {
                 "text": "Interessenlos fühlend.",
@@ -1516,7 +1579,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
-        "subtext": "aufgeregt sein / begeistert von / sehr aufgeregt",
+        "subtext": "aufgeregt sein / sehr aufgeregt",
+        "synonyms": ["begeistert von"],
         "definitions": [
             {
                 "text": "Enthusiasmus empfindend.",
@@ -1535,7 +1599,8 @@
         "word": "ängstlich",
         "level": "starter",
         "form": "adjective",
-        "subtext": "Angst vor / Angst haben / tiefe Angst",
+        "subtext": "",
+        "synonyms": ["Angst vor", "Angst haben", "tiefe Angst"],
         "definitions": [
             {
                 "text": "Angst empfindend.",
@@ -1555,7 +1620,8 @@
         "word": "tut mir leid",
         "level": "starter",
         "form": "adjective",
-        "subtext": "Bedauern empfinden / Mitleid mit / leid tun wegen",
+        "subtext": "",
+        "synonyms": ["Bedauern empfinden", "Mitleid mit", "leid tun wegen"],
         "definitions": [
             {
                 "text": "Bedauern empfindend.",
@@ -1575,7 +1641,8 @@
         "word": "richtig",
         "level": "starter",
         "form": "adjective",
-        "subtext": "richtige Antwort / richtige Zeit / absolut richtig",
+        "subtext": "absolut richtig",
+        "synonyms": ["richtige Antwort", "richtige Zeit"],
         "definitions": [
             {
                 "text": "Korrekt; passend.",
@@ -1595,7 +1662,8 @@
         "word": "falsch",
         "level": "starter",
         "form": "adjective",
-        "subtext": "falsche Antwort / schiefgehen / völlig falsch",
+        "subtext": "völlig falsch",
+        "synonyms": ["falsche Antwort", "schiefgehen"],
         "definitions": [
             {
                 "text": "Nicht korrekt.",
@@ -1615,7 +1683,8 @@
         "word": "neu",
         "level": "starter",
         "form": "adjective",
-        "subtext": "neue Stelle / brandneu / völlig neu",
+        "subtext": "völlig neu",
+        "synonyms": ["neue Stelle", "brandneu"],
         "definitions": [
             {
                 "text": "Vorher nicht existent.",
@@ -1635,7 +1704,8 @@
         "word": "anders",
         "level": "starter",
         "form": "adjective",
-        "subtext": "völlig anders / sehr verschieden / anders als",
+        "subtext": "völlig anders / anders als",
+        "synonyms": ["sehr verschieden"],
         "definitions": [
             {
                 "text": "Nicht das Gleiche.",
@@ -1655,7 +1725,8 @@
         "word": "gleich",
         "level": "starter",
         "form": "adjective",
-        "subtext": "das Gleiche wie / exakt das Gleiche / gleiche Zeit",
+        "subtext": "",
+        "synonyms": ["das Gleiche wie", "exakt das Gleiche", "gleiche Zeit"],
         "definitions": [
             {
                 "text": "Identisch.",
@@ -1675,7 +1746,8 @@
         "word": "schnell",
         "level": "starter",
         "form": "adjective",
-        "subtext": "Fast Food / Schnellzug / sehr schnell",
+        "subtext": "sehr schnell",
+        "synonyms": ["Fast Food", "Schnellzug"],
         "definitions": [
             {
                 "text": "Sich schnell bewegend.",
@@ -1695,7 +1767,8 @@
         "word": "langsam",
         "level": "starter",
         "form": "adjective",
-        "subtext": "langsamer Fortschritt / langsames Internet / sehr langsam",
+        "subtext": "sehr langsam",
+        "synonyms": ["langsamer Fortschritt", "langsames Internet"],
         "definitions": [
             {
                 "text": "Nicht schnell.",
@@ -1715,7 +1788,8 @@
         "word": "leise",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ruhige Gegend / leise sein / schön ruhig",
+        "subtext": "leise sein",
+        "synonyms": ["ruhige Gegend", "schön ruhig"],
         "definitions": [
             {
                 "text": "Wenig oder kein Geräusch machend.",
@@ -1735,7 +1809,8 @@
         "word": "laut",
         "level": "starter",
         "form": "adjective",
-        "subtext": "lautes Geräusch / zu laut / eine laute Stimme",
+        "subtext": "zu laut",
+        "synonyms": ["lautes Geräusch", "eine laute Stimme"],
         "definitions": [
             {
                 "text": "Viel Lärm machend.",
@@ -1755,7 +1830,8 @@
         "word": "sicher",
         "level": "starter",
         "form": "adjective",
-        "subtext": "sichere Gegend / sicher zu tun / sich sicher fühlen",
+        "subtext": "sicher zu tun / sich sicher fühlen",
+        "synonyms": ["sichere Gegend"],
         "definitions": [
             {
                 "text": "Nicht gefährlich.",
@@ -1775,7 +1851,8 @@
         "word": "gefährlich",
         "level": "starter",
         "form": "adjective",
-        "subtext": "gefährliche Situation / sehr gefährlich / potenziell gefährlich",
+        "subtext": "sehr gefährlich / potenziell gefährlich",
+        "synonyms": ["gefährliche Situation"],
         "definitions": [
             {
                 "text": "Wahrscheinlich Schaden verursachend.",
@@ -1864,7 +1941,8 @@
                 ]
             }
         ],
-        "subtext": "sich sicher fühlen / selbstbewusst / sehr sicher",
+        "subtext": "selbstbewusst",
+        "synonyms": ["sich sicher fühlen", "sehr sicher"],
         "comparative": "selbstbewusster",
         "superlative": "am selbstbewusstesten",
         "feminine": "selbstbewusste",
@@ -1904,7 +1982,8 @@
                 ]
             }
         ],
-        "subtext": "Angst haben / Angst vor / große Angst",
+        "subtext": "",
+        "synonyms": ["Angst haben", "Angst vor", "große Angst"],
         "comparative": "verängstigter",
         "superlative": "am verängstigtsten",
         "feminine": "verängstigte",
@@ -1964,7 +2043,8 @@
                 ]
             }
         ],
-        "subtext": "schöne Aussicht / schöne Stadt / absolut wunderschön",
+        "subtext": "",
+        "synonyms": ["schöne Aussicht", "schöne Stadt", "absolut wunderschön"],
         "comparative": "schöner",
         "superlative": "am schönsten",
         "feminine": "schöne",
@@ -1984,7 +2064,8 @@
                 ]
             }
         ],
-        "subtext": "ziemlich gut / ein hübscher Ort / recht hübsch",
+        "subtext": "recht hübsch",
+        "synonyms": ["ziemlich gut", "ein hübscher Ort"],
         "comparative": "hübscher",
         "superlative": "am hübschesten",
         "feminine": "hübsche",
@@ -2004,7 +2085,8 @@
                 ]
             }
         ],
-        "subtext": "starker Kaffee / starke Meinung / sehr stark",
+        "subtext": "sehr stark",
+        "synonyms": ["starker Kaffee", "starke Meinung"],
         "comparative": "stärker",
         "superlative": "am stärksten",
         "feminine": "starke",
@@ -2024,7 +2106,8 @@
                 ]
             }
         ],
-        "subtext": "schwache Verbindung / ein schwaches Argument / sehr schwach",
+        "subtext": "schwache Verbindung / sehr schwach",
+        "synonyms": ["ein schwaches Argument"],
         "comparative": "schwächer",
         "superlative": "am schwächsten",
         "feminine": "schwache",
@@ -2064,7 +2147,8 @@
                 ]
             }
         ],
-        "subtext": "ausgezeichnete Arbeit / ausgezeichnete Ergebnisse / absolut ausgezeichnet",
+        "subtext": "absolut ausgezeichnet",
+        "synonyms": ["ausgezeichnete Arbeit", "ausgezeichnete Ergebnisse"],
         "comparative": "ausgezeichneter",
         "superlative": "am ausgezeichnetsten",
         "feminine": "ausgezeichnete",
@@ -2084,7 +2168,8 @@
                 ]
             }
         ],
-        "subtext": "eine perfekte Gelegenheit / perfektes Timing / absolut perfekt",
+        "subtext": "absolut perfekt",
+        "synonyms": ["eine perfekte Gelegenheit", "perfektes Timing"],
         "comparative": "perfekter",
         "superlative": "am perfektesten",
         "feminine": "perfekte",
@@ -2104,7 +2189,8 @@
                 ]
             }
         ],
-        "subtext": "völlig nutzlos / sich als nutzlos erweisen / eine nutzlose Idee",
+        "subtext": "völlig nutzlos / sich als nutzlos erweisen",
+        "synonyms": ["eine nutzlose Idee"],
         "comparative": "nutzloser",
         "superlative": "am nutzlosesten",
         "feminine": "nutzlose",
@@ -2124,7 +2210,8 @@
                 ]
             }
         ],
-        "subtext": "korrekte Antwort / der richtige Weg / völlig korrekt",
+        "subtext": "völlig korrekt",
+        "synonyms": ["korrekte Antwort", "der richtige Weg"],
         "comparative": "korrekter",
         "superlative": "am korrektesten",
         "feminine": "korrekte",
@@ -2144,7 +2231,8 @@
                 ]
             }
         ],
-        "subtext": "interessant finden / sehr interessant / eine interessante Idee",
+        "subtext": "interessant finden / sehr interessant",
+        "synonyms": ["eine interessante Idee"],
         "comparative": "interessanter",
         "superlative": "am interessantesten",
         "feminine": "interessante",
@@ -2164,7 +2252,8 @@
                 ]
             }
         ],
-        "subtext": "sehr langweilig / ein langweiliges Treffen / langweilig finden",
+        "subtext": "sehr langweilig / langweilig finden",
+        "synonyms": ["ein langweiliges Treffen"],
         "comparative": "langweiliger",
         "superlative": "am langweiligsten",
         "feminine": "langweilige",
@@ -2184,7 +2273,8 @@
                 ]
             }
         ],
-        "subtext": "absolut notwendig / falls nötig / notwendig zu tun",
+        "subtext": "absolut notwendig / notwendig zu tun",
+        "synonyms": ["falls nötig"],
         "comparative": "notwendiger",
         "superlative": "am notwendigsten",
         "feminine": "notwendige",
@@ -2244,7 +2334,8 @@
                 ]
             }
         ],
-        "subtext": "ein besonderes Angebot / besonderer Anlass / sehr speziell",
+        "subtext": "",
+        "synonyms": ["ein besonderes Angebot", "besonderer Anlass", "sehr speziell"],
         "comparative": "besonderer",
         "superlative": "am besondersten",
         "feminine": "besonderse",
@@ -2264,7 +2355,8 @@
                 ]
             }
         ],
-        "subtext": "sehr beliebt / beliebte Wahl / am beliebtesten",
+        "subtext": "sehr beliebt",
+        "synonyms": ["beliebte Wahl", "am beliebtesten"],
         "comparative": "beliebter",
         "superlative": "am beliebtesten",
         "feminine": "beliebte",
@@ -2284,7 +2376,8 @@
                 ]
             }
         ],
-        "subtext": "sehr ähnlich / ähnlich wie / ähnliche Ergebnisse",
+        "subtext": "sehr ähnlich / ähnlich wie",
+        "synonyms": ["ähnliche Ergebnisse"],
         "comparative": "ähnlicher",
         "superlative": "am ähnlichsten",
         "feminine": "ähnliche",
@@ -2304,7 +2397,8 @@
                 ]
             }
         ],
-        "subtext": "sehr freundlich / ein freundliches Gesicht / freundliche Atmosphäre",
+        "subtext": "sehr freundlich",
+        "synonyms": ["ein freundliches Gesicht", "freundliche Atmosphäre"],
         "comparative": "freundlicher",
         "superlative": "am freundlichsten",
         "feminine": "freundliche",
@@ -2324,7 +2418,8 @@
                 ]
             }
         ],
-        "subtext": "sehr gütig / nett von dir / ein gütiger Mensch",
+        "subtext": "sehr gütig",
+        "synonyms": ["nett von dir", "ein gütiger Mensch"],
         "comparative": "gütiger",
         "superlative": "am gütigsten",
         "feminine": "gütige",
@@ -2344,7 +2439,8 @@
                 ]
             }
         ],
-        "subtext": "sehr lustig / lustige Geschichte / lustig finden",
+        "subtext": "sehr lustig / lustig finden",
+        "synonyms": ["lustige Geschichte"],
         "comparative": "lustiger",
         "superlative": "am lustigsten",
         "feminine": "lustige",
@@ -2364,7 +2460,8 @@
                 ]
             }
         ],
-        "subtext": "sehr schlau / eine schlaue Idee / schlau genug",
+        "subtext": "sehr schlau / schlau genug",
+        "synonyms": ["eine schlaue Idee"],
         "comparative": "schlauer",
         "superlative": "am schlauesten",
         "feminine": "schlaue",
@@ -2384,7 +2481,8 @@
                 ]
             }
         ],
-        "subtext": "sehr höflich / höfliche Bitte / höflich genug",
+        "subtext": "sehr höflich / höflich genug",
+        "synonyms": ["höfliche Bitte"],
         "comparative": "höflicher",
         "superlative": "am höflichsten",
         "feminine": "höfliche",
@@ -2424,7 +2522,8 @@
                 ]
             }
         ],
-        "subtext": "sehr faul / eine faule Herangehensweise / zu faul",
+        "subtext": "sehr faul / zu faul",
+        "synonyms": ["eine faule Herangehensweise"],
         "comparative": "fauler",
         "superlative": "am faulsten",
         "feminine": "faule",
@@ -2464,7 +2563,8 @@
                 ]
             }
         ],
-        "subtext": "sehr laut / laute Umgebung / zu laut",
+        "subtext": "sehr laut / zu laut",
+        "synonyms": ["laute Umgebung"],
         "comparative": "lauter",
         "superlative": "am lautesten",
         "feminine": "laute",

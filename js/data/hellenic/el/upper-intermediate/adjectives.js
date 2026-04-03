@@ -21,7 +21,8 @@
         "theme": "politics_governance_B2",
         "emoji": "🏛️",
         "form": "adjective",
-        "subtext": "δημόσιος, κοινωνικός",
+        "subtext": "",
+        "synonyms": ["δημόσιος", "κοινωνικός"],
         "definitions": [
             {
                 "text": "Που σχετίζεται με την πόλη, την κοινωνία ή τους πολίτες.",
@@ -54,7 +55,8 @@
         "theme": "serious_illness_treatment_B2",
         "emoji": "🛡️",
         "form": "adjective",
-        "subtext": "προληπτική ιατρική",
+        "subtext": "",
+        "synonyms": ["προληπτική ιατρική"],
         "definitions": [
             {
                 "text": "Σχεδιασμένος για να σταματήσει κάτι κακό να συμβεί.",
@@ -85,7 +87,8 @@
         "theme": "ethical_dilemmas_B2",
         "emoji": "🤔⚖️",
         "form": "adjective",
-        "subtext": "ηθικός",
+        "subtext": "",
+        "synonyms": ["ηθικός"],
         "definitions": [
             {
                 "text": "Που σχετίζεται με την ηθική. Ακολουθώντας αποδεκτούς κανόνες ορθής διαγωγής.",

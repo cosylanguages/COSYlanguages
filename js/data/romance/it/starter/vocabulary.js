@@ -548,7 +548,8 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "madri",
-        "subtext": "mamma",
+        "subtext": "",
+        "synonyms": ["mamma"],
         "definitions": [
             {
                 "text": "La donna che è vostra parente.",
@@ -567,7 +568,8 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "padri",
-        "subtext": "papà",
+        "subtext": "",
+        "synonyms": ["papà"],
         "definitions": [
             {
                 "text": "L'uomo che è vostro parente.",
@@ -807,7 +809,8 @@
         "emoji": "🌆",
         "form": "noun",
         "plural": "sere",
-        "subtext": "stasera, buonasera",
+        "subtext": "",
+        "synonyms": ["stasera", "buonasera"],
         "definitions": [
             {
                 "text": "La parte della giornata dopo il pomeriggio.",
@@ -892,7 +895,8 @@
         "emoji": "💰",
         "form": "noun",
         "plural": "stipendi",
-        "subtext": "salario",
+        "subtext": "",
+        "synonyms": ["salario"],
         "definitions": [
             {
                 "text": "Il denaro che una persona guadagna dal proprio lavoro ogni mese.",
@@ -910,7 +914,8 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": "riunioni",
-        "subtext": "meeting",
+        "subtext": "",
+        "synonyms": ["meeting"],
         "definitions": [
             {
                 "text": "Un momento in cui le persone si riuniscono per parlare di qualcosa.",
@@ -995,7 +1000,8 @@
         "emoji": "🚪",
         "form": "noun",
         "plural": "stanze",
-        "subtext": "camera",
+        "subtext": "",
+        "synonyms": ["camera"],
         "definitions": [
             {
                 "text": "Una parte separata di un edificio con pareti e una porta.",
@@ -1097,7 +1103,8 @@
         "emoji": "❤️",
         "form": "noun",
         "plural": "relazioni",
-        "subtext": "rapporto, legame",
+        "subtext": "",
+        "synonyms": ["rapporto", "legame"],
         "definitions": [
             {
                 "text": "Una connessione tra due persone.",
@@ -1202,7 +1209,8 @@
         "emoji": "🎮",
         "form": "noun",
         "plural": null,
-        "subtext": "svago, relax",
+        "subtext": "",
+        "synonyms": ["svago", "relax"],
         "definitions": [
             {
                 "text": "Momento in cui non lavori e puoi fare ciò che vuoi.",
@@ -1297,7 +1305,8 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "infermieri",
-        "subtext": "infermiera, assistente",
+        "subtext": "",
+        "synonyms": ["infermiera", "assistente"],
         "definitions": [
             {
                 "text": "Una persona addestrata per curare malati o feriti.",
@@ -1316,7 +1325,8 @@
         "emoji": "🚗",
         "form": "noun",
         "plural": "conducenti",
-        "subtext": "autista, guidatore",
+        "subtext": "",
+        "synonyms": ["autista", "guidatore"],
         "definitions": [
             {
                 "text": "Una persona che guida un veicolo per lavoro.",
@@ -1335,7 +1345,8 @@
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "cuochi",
-        "subtext": "chef, cuciniere",
+        "subtext": "",
+        "synonyms": ["chef", "cuciniere"],
         "definitions": [
             {
                 "text": "Un cuoco professionista, specialmente il capo cuoco in un ristorante.",
@@ -1354,7 +1365,8 @@
         "emoji": "🧑‍💼",
         "form": "noun",
         "plural": "direttori",
-        "subtext": "manager, dirigente",
+        "subtext": "",
+        "synonyms": ["manager", "dirigente"],
         "definitions": [
             {
                 "text": "Una persona che è a capo di un team o di un'azienda.",
@@ -1635,7 +1647,8 @@
         "plural": "mariti",
         "opposite": "moglie",
         "oppositeEmoji": "👩",
-        "subtext": "sposo, compagno",
+        "subtext": "",
+        "synonyms": ["sposo", "compagno"],
         "definitions": [
             {
                 "text": "Un uomo sposato, in relazione a sua moglie.",
@@ -1656,7 +1669,8 @@
         "plural": "mogli",
         "opposite": "marito",
         "oppositeEmoji": "👨",
-        "subtext": "sposa, compagna",
+        "subtext": "",
+        "synonyms": ["sposa", "compagna"],
         "definitions": [
             {
                 "text": "Una donna sposata, in relazione a suo marito.",
@@ -1675,7 +1689,8 @@
         "emoji": "👶",
         "form": "noun",
         "plural": "bambini",
-        "subtext": "bimbo, ragazzino",
+        "subtext": "",
+        "synonyms": ["bimbo", "ragazzino"],
         "definitions": [
             {
                 "text": "Una giovane persona; un figlio o una figlia.",
@@ -1694,7 +1709,8 @@
         "emoji": "👪",
         "form": "noun",
         "plural": "genitori",
-        "subtext": "madre o padre",
+        "subtext": "",
+        "synonyms": ["madre o padre"],
         "definitions": [
             {
                 "text": "Una madre o un padre.",

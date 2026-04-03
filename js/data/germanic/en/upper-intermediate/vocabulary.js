@@ -600,7 +600,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
-        "subtext": "nonetheless, even so",
+        "subtext": "",
+        "synonyms": ["nonetheless", "even so"],
         "definitions": [
             {
                 "text": "In spite of that; notwithstanding.",

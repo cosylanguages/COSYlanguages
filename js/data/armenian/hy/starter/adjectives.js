@@ -15,7 +15,8 @@
                 ]
             }
         ],
-        "subtext": "բարձր շենք / բարձրահասակ մարդ / բավականին բարձր",
+        "subtext": "բարձրահասակ մարդ",
+        "synonyms": ["բարձր շենք", "բավականին բարձր"],
         "comparative": "ավելի բարձրահասակ",
         "superlative": "ամենաբարձրահասակ",
         "feminine": null,
@@ -102,7 +103,8 @@
                 ]
             }
         ],
-        "subtext": "արևոտ օր / արևոտ եղանակ / պարզկա օր",
+        "subtext": "արևոտ օր / արևոտ եղանակ",
+        "synonyms": ["պարզկա օր"],
         "comparative": "ավելի արևոտ",
         "superlative": "ամենաարևոտ",
         "feminine": null,
@@ -123,7 +125,8 @@
                 ]
             }
         ],
-        "subtext": "անձրևոտ օր / անձրևոտ եղանակ / անձրևների սեզոն",
+        "subtext": "անձրևոտ օր / անձրևոտ եղանակ",
+        "synonyms": ["անձրևների սեզոն"],
         "comparative": "ավելի անձրևոտ",
         "superlative": "ամենաանձրևոտ",
         "feminine": null,
@@ -161,7 +164,8 @@
         "form": "adjective",
         "opposite": "տաք",
         "oppositeEmoji": "🔥",
-        "subtext": "շատ սառը / ցուրտ առավոտ / սառը խմիչք / շատ ցուրտ",
+        "subtext": "շատ սառը / սառը խմիչք",
+        "synonyms": ["ցուրտ առավոտ", "շատ ցուրտ"],
         "definitions": [
             {
                 "text": "Ցածր ջերմաստիճան ունեցող:",
@@ -203,7 +207,8 @@
         "form": "adjective",
         "opposite": "թանկ",
         "oppositeEmoji": "💎",
-        "subtext": "ցածր գին / էժան թռիչք / շատ էժան",
+        "subtext": "էժան թռիչք / շատ էժան",
+        "synonyms": ["ցածր գին"],
         "definitions": [
             {
                 "text": "Քիչ գումար արժեցող:",
@@ -226,7 +231,8 @@
         "form": "adjective",
         "opposite": "էժան",
         "oppositeEmoji": "🏷️",
-        "subtext": "բարձր գին / շատ թանկ / թանկ հաճույք",
+        "subtext": "շատ թանկ / թանկ հաճույք",
+        "synonyms": ["բարձր գին"],
         "definitions": [
             {
                 "text": "Շատ գումար արժեցող:",
@@ -249,7 +255,8 @@
         "form": "adjective",
         "opposite": "վատ",
         "oppositeEmoji": "👎",
-        "subtext": "հիանալի / լավ գաղափար / հաջողություն / լավ արժեք",
+        "subtext": "լավ գաղափար / լավ արժեք",
+        "synonyms": ["հիանալի", "հաջողություն"],
         "definitions": [
             {
                 "text": "Բարձր որակի կամ հաճելի:",
@@ -272,7 +279,8 @@
         "form": "adjective",
         "opposite": "լավ",
         "oppositeEmoji": "👍",
-        "subtext": "սարսափելի / վատ լուրեր / անհաջողություն / վատ որոշում",
+        "subtext": "վատ լուրեր / վատ որոշում",
+        "synonyms": ["սարսափելի", "անհաջողություն"],
         "definitions": [
             {
                 "text": "Ոչ լավ, ցածր որակի:",
@@ -372,7 +380,8 @@
                 ]
             }
         ],
-        "subtext": "դժվար անել / շատ դժվար / դժվարությամբ",
+        "subtext": "դժվար անել / շատ դժվար",
+        "synonyms": ["դժվարությամբ"],
         "comparative": "ավելի դժվար",
         "superlative": "ամենադժվար",
         "feminine": null,
@@ -385,7 +394,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "ուրախ / երջանիկ զգալ / երջանիկ օր",
+        "subtext": "երջանիկ զգալ / երջանիկ օր",
+        "synonyms": ["ուրախ"],
         "definitions": [
             {
                 "text": "Ուրախություն կամ բավարարվածություն զգալ:",
@@ -406,7 +416,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "քնկոտ / հոգնած զգալ / շատ հոգնած",
+        "subtext": "հոգնած զգալ / շատ հոգնած",
+        "synonyms": ["քնկոտ"],
         "definitions": [
             {
                 "text": "Հանգստի կարիք ունեցող:",
@@ -437,7 +448,8 @@
                 ]
             }
         ],
-        "subtext": "լրիվ դրույքով աշխատանք",
+        "subtext": "",
+        "synonyms": ["լրիվ դրույքով աշխատանք"],
         "comparative": null,
         "superlative": null
     },
@@ -457,7 +469,8 @@
                 ]
             }
         ],
-        "subtext": "կես դրույքով աշխատանք",
+        "subtext": "",
+        "synonyms": ["կես դրույքով աշխատանք"],
         "comparative": null,
         "superlative": null
     },
@@ -595,7 +608,8 @@
         "form": "adjective",
         "opposite": "հանգիստ",
         "oppositeEmoji": "😌",
-        "subtext": "անհանգստանալ",
+        "subtext": "",
+        "synonyms": ["անհանգստանալ"],
         "definitions": [
             {
                 "text": "Անհանգստության զգացում ինչ-որ բանի պատճառով:",
@@ -636,7 +650,8 @@
         "form": "adjective",
         "opposite": "անօգուտ",
         "oppositeEmoji": "🗑️",
-        "subtext": "գործնական / օգտակար լինել",
+        "subtext": "օգտակար լինել",
+        "synonyms": ["գործնական"],
         "definitions": [
             {
                 "text": "Օգուտ բերող:",
@@ -822,7 +837,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "ազատ ժամանակ / անվճար",
+        "subtext": "ազատ ժամանակ",
+        "synonyms": ["անվճար"],
         "definitions": [
             {
                 "text": "Չզբաղված կամ անվճար:",
@@ -904,7 +920,8 @@
         "word": "փոքր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "մի փոքր / քիչ գումար",
+        "subtext": "մի փոքր",
+        "synonyms": ["քիչ գումար"],
         "definitions": [
             {
                 "text": "Փոքր չափի; քիչ քանակությամբ:",
@@ -975,7 +992,8 @@
         "word": "լիքը",
         "level": "starter",
         "form": "adjective",
-        "subtext": "լիարժեք օր / մարդկանցով լի",
+        "subtext": "",
+        "synonyms": ["լիարժեք օր", "մարդկանցով լի"],
         "definitions": [
             {
                 "text": "Այլևս տեղ չունեցող:",
@@ -1109,7 +1127,8 @@
         "word": "կոշտ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "դժվար աշխատանք / դժվար որոշում",
+        "subtext": "",
+        "synonyms": ["դժվար աշխատանք", "դժվար որոշում"],
         "definitions": [
             {
                 "text": "Ոչ փափուկ:",
@@ -1149,7 +1168,8 @@
         "word": "ծանր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ծանր երթևեկություն / ուժեղ անձրև",
+        "subtext": "ծանր երթևեկություն",
+        "synonyms": ["ուժեղ անձրև"],
         "definitions": [
             {
                 "text": "Մեծ քաշ ունեցող:",
@@ -1237,7 +1257,8 @@
         "word": "նարնջագույν",
         "level": "starter",
         "form": "adjective",
-        "subtext": "վառ նարնջագույն",
+        "subtext": "",
+        "synonyms": ["վառ նարնջագույն"],
         "definitions": [
             {
                 "text": "Նարնջի գույն ունեցող:",
@@ -1416,7 +1437,8 @@
         "word": "բարկացած",
         "level": "starter",
         "form": "adjective",
-        "subtext": "բարկացած զգալ / բարկանալ մեկի վրա / շատ բարկացած",
+        "subtext": "բարկացած զգալ / շատ բարկացած",
+        "synonyms": ["բարկանալ մեկի վրա"],
         "definitions": [
             {
                 "text": "Զայրույթ զգացող:",
@@ -1436,7 +1458,8 @@
         "word": "ձանձրացած",
         "level": "starter",
         "form": "adjective",
-        "subtext": "ձանձրանալ",
+        "subtext": "",
+        "synonyms": ["ձանձրանալ"],
         "definitions": [
             {
                 "text": "Հետաքրքրության պակաս զգացող:",
@@ -1470,7 +1493,8 @@
         "word": "վախեցած",
         "level": "starter",
         "form": "adjective",
-        "subtext": "վախենալ ինչ-որ բանից",
+        "subtext": "",
+        "synonyms": ["վախենալ ինչ-որ բանից"],
         "definitions": [
             {
                 "text": "Վախ զգացող:",
@@ -1581,7 +1605,8 @@
         "word": "նույն",
         "level": "starter",
         "form": "adjective",
-        "subtext": "նույնը, ինչ / ճիշտ նույնը",
+        "subtext": "",
+        "synonyms": ["նույնը", "ինչ", "ճիշտ նույնը"],
         "definitions": [
             {
                 "text": "Ոչ տարբեր:",
@@ -1730,7 +1755,8 @@
                 ]
             }
         ],
-        "subtext": "տխուր զգալ / շատ դժբախտ",
+        "subtext": "շատ դժբախտ",
+        "synonyms": ["տխուր զգալ"],
         "comparative": null,
          "superlative": null
     },
@@ -1767,7 +1793,8 @@
                 ]
             }
         ],
-        "subtext": "լարված զգալ / շատ լարված",
+        "subtext": "",
+        "synonyms": ["լարված զգալ", "շատ լարված"],
         "comparative": null,
          "superlative": null
     },
@@ -1895,7 +1922,8 @@
                 ]
             }
         ],
-        "subtext": "բավականին լավ / գեղեցիկ վայր",
+        "subtext": "գեղեցիկ վայր",
+        "synonyms": ["բավականին լավ"],
         "comparative": null,
          "superlative": null
     },
@@ -1912,7 +1940,8 @@
                 ]
             }
         ],
-        "subtext": "թունդ սուրճ / ուժեղ կարծիք",
+        "subtext": "ուժեղ կարծիք",
+        "synonyms": ["թունդ սուրճ"],
         "comparative": "ավելի ուժեղ",
         "superlative": "ամենաուժեղ",
         "feminine": null,
@@ -1952,7 +1981,8 @@
                 ]
             }
         ],
-        "subtext": "ֆիզիկապես լավ վիճակում / մարզված մնալ",
+        "subtext": "",
+        "synonyms": ["ֆիզիկապես լավ վիճակում", "մարզված մնալ"],
         "comparative": null,
          "superlative": null
     },
@@ -2103,7 +2133,8 @@
                 ]
             }
         ],
-        "subtext": "հնարավորինս շուտ / հնարավոր է",
+        "subtext": "հնարավոր է",
+        "synonyms": ["հնարավորինս շուտ"],
         "comparative": "ավելի հնարավոր",
         "superlative": "ամենահնարավոր",
         "feminine": null,

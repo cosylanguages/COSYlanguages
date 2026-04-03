@@ -181,7 +181,8 @@
         "emoji": "🛠️",
         "form": "noun",
         "plural": "compétences",
-        "subtext": "savoir-faire, habileté",
+        "subtext": "",
+        "synonyms": ["savoir-faire", "habileté"],
         "definitions": [
             {
                 "text": "Une capacité à bien faire quelque chose, généralement acquise par la pratique.",
@@ -216,7 +217,8 @@
         "emoji": "👴",
         "form": "noun",
         "plural": "retraites",
-        "subtext": "pension",
+        "subtext": "",
+        "synonyms": ["pension"],
         "definitions": [
             {
                 "text": "Argent versé régulièrement à quelqu'un après qu'il a pris sa retraite.",
@@ -302,7 +304,8 @@
         "emoji": "🏦",
         "form": "noun",
         "plural": "impôts",
-        "subtext": "taxe",
+        "subtext": "",
+        "synonyms": ["taxe"],
         "definitions": [
             {
                 "text": "Argent payé au gouvernement sur la base des revenus ou des achats.",
@@ -354,7 +357,8 @@
         "emoji": "🔥",
         "form": "noun",
         "plural": null,
-        "subtext": "épuisement professionnel",
+        "subtext": "",
+        "synonyms": ["épuisement professionnel"],
         "definitions": [
             {
                 "text": "Un état d'épuisement causé par trop de stress sur une longue période.",
@@ -491,7 +495,8 @@
         "emoji": "🚧",
         "form": "noun",
         "plural": "limites",
-        "subtext": "frontière, borne",
+        "subtext": "",
+        "synonyms": ["frontière", "borne"],
         "definitions": [
             {
                 "text": "Une limite sur ce que vous êtes prêt à accepter dans une relation.",
@@ -681,7 +686,8 @@
         "emoji": "🗑️",
         "form": "noun",
         "plural": "gaspillages",
-        "subtext": "déchets",
+        "subtext": "",
+        "synonyms": ["déchets"],
         "definitions": [
             {
                 "text": "Matériel qui n'est plus nécessaire et qui est jeté.",
@@ -697,7 +703,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔄",
         "form": "adverb",
-        "subtext": "toutefois, pourtant",
+        "subtext": "",
+        "synonyms": ["toutefois", "pourtant"],
         "definitions": [
             {
                 "text": "Utilisé pour introduire une idée contrastée ou opposée.",

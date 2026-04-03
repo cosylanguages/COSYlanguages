@@ -27,7 +27,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "έχω δουλειά / τρώω μεσημεριανό / έχω πρόβλημα",
+        "subtext": "έχω δουλειά / έχω πρόβλημα",
+        "synonyms": ["τρώω μεσημεριανό"],
         "form": "verb",
         "definitions": [
             {
@@ -94,7 +95,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "παίρνω το λεωφορείο / παίρνω φάρμακο / κάνω διάλειμμα",
+        "subtext": "παίρνω το λεωφορείο / παίρνω φάρμακο",
+        "synonyms": ["κάνω διάλειμμα"],
         "opposite": "δίνω",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -117,7 +119,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "βρίσκω δουλειά / κουράζομαι / βελτιώνομαι",
+        "subtext": "",
+        "synonyms": ["βρίσκω δουλειά", "κουράζομαι", "βελτιώνομαι"],
         "form": "verb",
         "definitions": [
             {
@@ -139,7 +142,8 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "βάζω / τακτοποιώ / αφήνω κάτω το τηλέφωνο",
+        "subtext": "βάζω / αφήνω κάτω το τηλέφωνο",
+        "synonyms": ["τακτοποιώ"],
         "form": "verb",
         "definitions": [
             {
@@ -160,7 +164,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "φτιάχνω καφέ / παίρνω απόφαση / κάνω λάθος",
+        "subtext": "φτιάχνω καφέ",
+        "synonyms": ["παίρνω απόφαση", "κάνω λάθος"],
         "form": "verb",
         "definitions": [
             {
@@ -315,7 +320,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "βοηθώ κάποιον / βοηθώ με μια εργασία / ζητώ βοήθεια",
+        "subtext": "βοηθώ κάποιον / βοηθώ με μια εργασία",
+        "synonyms": ["ζητώ βοήθεια"],
         "form": "verb",
         "definitions": [
             {
@@ -336,7 +342,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "προσπαθώ να κάνω / προσπαθώ σκληρά / δοκιμάζω κάτι νέο",
+        "subtext": "προσπαθώ να κάνω / προσπαθώ σκληρά",
+        "synonyms": ["δοκιμάζω κάτι νέο"],
         "form": "verb",
         "definitions": [
             {
@@ -378,7 +385,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "βρίσκω δουλειά / ανακαλύπτω / βρίσκω χρόνο",
+        "subtext": "βρίσκω δουλειά / βρίσκω χρόνο",
+        "synonyms": ["ανακαλύπτω"],
         "form": "verb",
         "definitions": [
             {
@@ -399,7 +407,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "συνεχίζω / μένω σιωπηλός / κρατώ αρχείο",
+        "subtext": "κρατώ αρχείο",
+        "synonyms": ["συνεχίζω", "μένω σιωπηλός"],
         "form": "verb",
         "definitions": [
             {
@@ -444,7 +453,8 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "κόβω κόστη / μειώνω δαπάνες / κόβω στη μέση",
+        "subtext": "κόβω κόστη / κόβω στη μέση",
+        "synonyms": ["μειώνω δαπάνες"],
         "form": "verb",
         "definitions": [
             {
@@ -465,7 +475,8 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "ανάβω / σβήνω / στρίβω αριστερά / στρίβω δεξιά",
+        "subtext": "στρίβω αριστερά / στρίβω δεξιά",
+        "synonyms": ["ανάβω", "σβήνω"],
         "form": "verb",
         "definitions": [
             {
@@ -549,7 +560,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "κάνω ερώτηση / ζητώ βοήθεια / ρωτώ για",
+        "subtext": "ρωτώ για",
+        "synonyms": ["κάνω ερώτηση", "ζητώ βοήθεια"],
         "form": "verb",
         "definitions": [
             {
@@ -591,7 +603,8 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "μιλώ σε κάποιον / μιλώ για / μιλώ ανοιχτά",
+        "subtext": "",
+        "synonyms": ["μιλώ σε κάποιον", "μιλώ για", "μιλώ ανοιχτά"],
         "form": "verb",
         "definitions": [
             {
@@ -612,7 +625,8 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "καλώ κάποιον / καλώ πίσω / συγκαλώ συνάντηση",
+        "subtext": "καλώ κάποιον / καλώ πίσω",
+        "synonyms": ["συγκαλώ συνάντηση"],
         "form": "verb",
         "definitions": [
             {
@@ -721,7 +735,8 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "επαναλαμβάνω αυτό / επαναλαμβάνομαι",
+        "subtext": "επαναλαμβάνω αυτό",
+        "synonyms": ["επαναλαμβάνομαι"],
         "form": "verb",
         "definitions": [
             {
@@ -742,7 +757,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "πηγαίνω δουλειά / πηγαίνω σπίτι / βγαίνω έξω",
+        "subtext": "πηγαίνω δουλειά / πηγαίνω σπίτι",
+        "synonyms": ["βγαίνω έξω"],
         "form": "verb",
         "definitions": [
             {
@@ -763,7 +779,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "έρχομαι σπίτι / επιστρέφω / έρχομαι στη δουλειά",
+        "subtext": "έρχομαι σπίτι / έρχομαι στη δουλειά",
+        "synonyms": ["επιστρέφω"],
         "opposite": "πηγαίνω",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -891,7 +908,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "μετακομίζω / μετακομίζω σε πόλη / προχωρώ",
+        "subtext": "",
+        "synonyms": ["μετακομίζω", "μετακομίζω σε πόλη", "προχωρώ"],
         "form": "verb",
         "definitions": [
             {
@@ -954,7 +972,8 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "τρώω πρωινό / μεσημεριανό / βραδινό",
+        "subtext": "τρώω πρωινό",
+        "synonyms": ["μεσημεριανό", "βραδινό"],
         "opposite": "πίνω",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1130,7 +1149,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "πληρώνω λογαριασμό / πληρώνω ενοίκιο / με κάρτα",
+        "subtext": "πληρώνω λογαριασμό / πληρώνω ενοίκιο",
+        "synonyms": ["με κάρτα"],
         "form": "verb",
         "definitions": [
             {
@@ -1239,7 +1259,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "σκέφτομαι / νομίζω / σκέφτομαι προσεκτικά",
+        "subtext": "σκέφτομαι / σκέφτομαι προσεκτικά",
+        "synonyms": ["νομίζω"],
         "form": "verb",
         "definitions": [
             {
@@ -1260,7 +1281,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "γνωρίζω κάποιον / ξέρω την απάντηση / ξέρω πώς",
+        "subtext": "ξέρω την απάντηση / ξέρω πώς",
+        "synonyms": ["γνωρίζω κάποιον"],
         "form": "verb",
         "definitions": [
             {
@@ -1303,7 +1325,8 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "χρειάζομαι βοήθεια / χρειάζομαι χρόνο / χρήματα",
+        "subtext": "χρειάζομαι βοήθεια / χρειάζομαι χρόνο",
+        "synonyms": ["χρήματα"],
         "form": "verb",
         "definitions": [
             {
@@ -1473,7 +1496,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "αποφασίζω να κάνω / αποφασίζω για / παίρνω απόφαση",
+        "subtext": "αποφασίζω να κάνω / αποφασίζω για",
+        "synonyms": ["παίρνω απόφαση"],
         "form": "verb",
         "definitions": [
             {
@@ -1601,7 +1625,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "κοιτάζω / ψάχνω / μοιάζω με",
+        "subtext": "κοιτάζω",
+        "synonyms": ["ψάχνω", "μοιάζω με"],
         "form": "verb",
         "definitions": [
             {
@@ -1643,7 +1668,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "τρέχω / τρέχω σε αγώνα / διευθύνω επιχείρηση",
+        "subtext": "τρέχω / τρέχω σε αγώνα",
+        "synonyms": ["διευθύνω επιχείρηση"],
         "form": "verb",
         "definitions": [
             {
@@ -1687,7 +1713,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "στέκομαι / σηκώνομαι / στέκομαι στην ουρά",
+        "subtext": "στέκομαι / στέκομαι στην ουρά",
+        "synonyms": ["σηκώνομαι"],
         "opposite": "κάθομαι",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1723,7 +1750,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "συναντήσει",
-        "subtext": "συναντώ κάποιον / συναντιόμαστε για μεσημεριανό",
+        "subtext": "συναντώ κάποιον",
+        "synonyms": ["συναντιόμαστε για μεσημεριανό"],
         "group": "group_a"
     },
     {
@@ -1858,7 +1886,8 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "πεθαίνω / πεθαίνω από / εξαφανίζομαι",
+        "subtext": "πεθαίνω / πεθαίνω από",
+        "synonyms": ["εξαφανίζομαι"],
         "opposite": "ζω",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1922,7 +1951,8 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "πέφτω / ερωτεύομαι / με παίρνει ο ύπνος",
+        "subtext": "πέφτω / με παίρνει ο ύπνος",
+        "synonyms": ["ερωτεύομαι"],
         "form": "verb",
         "definitions": [
             {
@@ -1986,7 +2016,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "τραβώ / τραβώ την πόρτα / απομακρύνομαι",
+        "subtext": "τραβώ / τραβώ την πόρτα",
+        "synonyms": ["απομακρύνομαι"],
         "opposite": "σπρώχνω",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2008,7 +2039,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "σπρώχνω / πατώ κουμπί / σπρώχνω καρότσι",
+        "subtext": "σπρώχνω / σπρώχνω καρότσι",
+        "synonyms": ["πατώ κουμπί"],
         "opposite": "τραβώ",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2052,7 +2084,8 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "σπάω / σπάω το γυαλί / κάνω διάλειμμα",
+        "subtext": "σπάω / σπάω το γυαλί",
+        "synonyms": ["κάνω διάλειμμα"],
         "form": "verb",
         "definitions": [
             {
@@ -2157,7 +2190,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "χαμογελώ / χαμογελώ σε κάποιον / πλατιά",
+        "subtext": "χαμογελώ / χαμογελώ σε κάποιον",
+        "synonyms": ["πλατιά"],
         "opposite": "κλαίω",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2203,7 +2237,8 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "χορεύω / χορεύω με μουσική / πηγαίνω για χορό",
+        "subtext": "χορεύω / χορεύω με μουσική",
+        "synonyms": ["πηγαίνω για χορό"],
         "form": "verb",
         "definitions": [
             {
@@ -2224,7 +2259,8 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "τραγουδώ / τραγουδώ ένα τραγούδι / σιγοτραγουδώ",
+        "subtext": "τραγουδώ / τραγουδώ ένα τραγούδι",
+        "synonyms": ["σιγοτραγουδώ"],
         "form": "verb",
         "definitions": [
             {
@@ -2266,7 +2302,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "κολυμπώ / πάω για κολύμπι / κολυμπώ γύρους",
+        "subtext": "κολυμπώ / κολυμπώ γύρους",
+        "synonyms": ["πάω για κολύμπι"],
         "form": "verb",
         "definitions": [
             {
@@ -2287,7 +2324,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "σπουδάζω / μαθαίνω αγγλικά / προετοιμάζομαι",
+        "subtext": "σπουδάζω",
+        "synonyms": ["μαθαίνω αγγλικά", "προετοιμάζομαι"],
         "form": "verb",
         "definitions": [
             {
@@ -2308,7 +2346,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "διδάσκω / μαθαίνω σε κάποιον / διδάσκω μάθημα",
+        "subtext": "διδάσκω / διδάσκω μάθημα",
+        "synonyms": ["μαθαίνω σε κάποιον"],
         "form": "verb",
         "definitions": [
             {
@@ -2329,7 +2368,8 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "μετακινούμαι / καθημερινή μετακίνηση / μακρινή",
+        "subtext": "μετακινούμαι",
+        "synonyms": ["καθημερινή μετακίνηση", "μακρινή"],
         "form": "verb",
         "definitions": [
             {
@@ -2381,7 +2421,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "γυμναστεί",
-        "subtext": "γυμνάζομαι / γυμνάζομαι τακτικά / στο γυμναστήριο",
+        "subtext": "γυμνάζομαι / γυμνάζομαι τακτικά",
+        "synonyms": ["στο γυμναστήριο"],
         "group": "group_b"
     },
     {
@@ -2401,7 +2442,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "κοστίσει",
-        "subtext": "κοστίζω / κοστίζει ακριβά / κοστίζει χρήματα",
+        "subtext": "κοστίζω",
+        "synonyms": ["κοστίζει ακριβά", "κοστίζει χρήματα"],
         "group": "group_a"
     },
     {
@@ -2421,7 +2463,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προσκαλέσει",
-        "subtext": "προσκαλώ / καλώ κάποιον / προσκαλώ σε δείπνο",
+        "subtext": "προσκαλώ / προσκαλώ σε δείπνο",
+        "synonyms": ["καλώ κάποιον"],
         "group": "group_b"
     },
     {
@@ -2454,7 +2497,8 @@
                 ]
             }
         ],
-        "subtext": "τρώω πρωινό στο σπίτι / γρήγορο πρωινό / παραλείπω",
+        "subtext": "τρώω πρωινό στο σπίτι",
+        "synonyms": ["γρήγορο πρωινό", "παραλείπω"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "φάει πρωινό",
@@ -2474,7 +2518,8 @@
                 ]
             }
         ],
-        "subtext": "επιστρέφω σπίτι / επιστρέφω αργά / από ταξίδι",
+        "subtext": "επιστρέφω σπίτι / επιστρέφω αργά",
+        "synonyms": ["από ταξίδι"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "επιστρέψει",
@@ -2494,7 +2539,8 @@
                 ]
             }
         ],
-        "subtext": "πέφτω για ύπνο νωρίς / πέφτω αργά / κουρασμένος",
+        "subtext": "πέφτω για ύπνο νωρίς",
+        "synonyms": ["πέφτω αργά", "κουρασμένος"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "πέσει για ύπνο",
@@ -2534,7 +2580,8 @@
                 ]
             }
         ],
-        "subtext": "απαντώ σε email / απαντώ γρήγορα / σε μήνυμα",
+        "subtext": "απαντώ σε email / απαντώ γρήγορα",
+        "synonyms": ["σε μήνυμα"],
         "classification": "regular",
         "aspect": "action",
         "v3": "απαντήσει",
@@ -2554,7 +2601,8 @@
                 ]
             }
         ],
-        "subtext": "παρουσιάζω αναφορά / παρουσιάζω ιδέες / σε πελάτη",
+        "subtext": "παρουσιάζω αναφορά / παρουσιάζω ιδέες",
+        "synonyms": ["σε πελάτη"],
         "classification": "regular",
         "aspect": "action",
         "v3": "παρουσιάσει",
@@ -2574,7 +2622,8 @@
                 ]
             }
         ],
-        "subtext": "παρευρίσκομαι σε συνάντηση / παρακολουθώ μάθημα",
+        "subtext": "παρευρίσκομαι σε συνάντηση",
+        "synonyms": ["παρακολουθώ μάθημα"],
         "classification": "regular",
         "aspect": "action",
         "v3": "παρευρεθεί",
@@ -2594,7 +2643,8 @@
                 ]
             }
         ],
-        "subtext": "διαχειρίζομαι ομάδα / διαχειρίζομαι έργο / χρόνο",
+        "subtext": "διαχειρίζομαι ομάδα / διαχειρίζομαι έργο",
+        "synonyms": ["χρόνο"],
         "classification": "regular",
         "aspect": "action",
         "v3": "διαχειριστεί",
@@ -2634,7 +2684,8 @@
                 ]
             }
         ],
-        "subtext": "έχω τη δυνατότητα για σπίτι / για ταξίδι",
+        "subtext": "έχω τη δυνατότητα για σπίτι",
+        "synonyms": ["για ταξίδι"],
         "classification": "irregular",
         "aspect": "stative",
         "v3": "έχει τη δυνατότητα",
@@ -2694,7 +2745,8 @@
                 ]
             }
         ],
-        "subtext": "επισκέπτομαι οικογένεια / φίλο / πόλη",
+        "subtext": "επισκέπτομαι οικογένεια",
+        "synonyms": ["φίλο", "πόλη"],
         "classification": "regular",
         "aspect": "action",
         "v3": "επισκεφθεί",
@@ -2714,7 +2766,8 @@
                 ]
             }
         ],
-        "subtext": "γιορτάζω γενέθλια / γιορτάζω επιτυχία / μαζί",
+        "subtext": "γιορτάζω γενέθλια / γιορτάζω επιτυχία",
+        "synonyms": ["μαζί"],
         "classification": "regular",
         "aspect": "action",
         "v3": "γιορτάσει",
@@ -2734,7 +2787,8 @@
                 ]
             }
         ],
-        "subtext": "συστήνω μέρος / συστήνω κάποιον / συστήνω ταινία",
+        "subtext": "",
+        "synonyms": ["συστήνω μέρος", "συστήνω κάποιον", "συστήνω ταινία"],
         "classification": "regular",
         "aspect": "action",
         "v3": "συστήσει",
@@ -2754,7 +2808,8 @@
                 ]
             }
         ],
-        "subtext": "πονάει η πλάτη / πονώ κάποιον / με πονάει",
+        "subtext": "πονώ κάποιον",
+        "synonyms": ["πονάει η πλάτη", "με πονάει"],
         "classification": "irregular",
         "aspect": "both",
         "v3": "πονέσει",
@@ -2774,7 +2829,8 @@
                 ]
             }
         ],
-        "subtext": "ξεκουράζομαι στο σπίτι / μετά τη δουλειά / χρειάζομαι",
+        "subtext": "ξεκουράζομαι στο σπίτι",
+        "synonyms": ["μετά τη δουλειά", "χρειάζομαι"],
         "classification": "regular",
         "aspect": "action",
         "v3": "ξεκουραστεί",
@@ -2794,7 +2850,8 @@
                 ]
             }
         ],
-        "subtext": "αναρρώνω από ασθένεια / γρήγορα / πλήρως",
+        "subtext": "αναρρώνω από ασθένεια",
+        "synonyms": ["γρήγορα", "πλήρως"],
         "classification": "regular",
         "aspect": "action",
         "v3": "αναρρώσει",
@@ -2814,7 +2871,8 @@
                 ]
             }
         ],
-        "subtext": "κάνω κράτηση ξενοδοχείου / πτήσης / τραπεζιού",
+        "subtext": "κάνω κράτηση ξενοδοχείου",
+        "synonyms": ["πτήσης", "τραπεζιού"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει κράτηση",
@@ -2834,7 +2892,8 @@
                 ]
             }
         ],
-        "subtext": "φτιάχνω τσάντα / φτιάχνω βαλίτσα / παίρνω λίγα",
+        "subtext": "φτιάχνω βαλίτσα",
+        "synonyms": ["φτιάχνω τσάντα", "παίρνω λίγα"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "φτιάξει βαλίτσα",
@@ -2874,7 +2933,8 @@
                 ]
             }
         ],
-        "subtext": "χάνω τρένο / χάνω πτήση / μου λείπει κάποιος",
+        "subtext": "χάνω τρένο / χάνω πτήση",
+        "synonyms": ["μου λείπει κάποιος"],
         "classification": "regular",
         "aspect": "both",
         "v3": "χάσει",
@@ -2889,7 +2949,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
-        "subtext": "παραγγέλνω φαγητό / παραγγέλνω ποτό / online",
+        "subtext": "παραγγέλνω φαγητό / παραγγέλνω ποτό",
+        "synonyms": ["online"],
         "form": "verb",
         "definitions": [
             {
@@ -2929,7 +2990,8 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "ευχαριστώ κάποιον / ευχαριστώ για / πολλές ευχαριστίες",
+        "subtext": "ευχαριστώ κάποιον / ευχαριστώ για",
+        "synonyms": ["πολλές ευχαριστίες"],
         "form": "verb",
         "definitions": [
             {
@@ -2949,7 +3011,8 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "συστήνομαι / συστήνω κάποιον / παρουσιάζω θέμα",
+        "subtext": "συστήνω κάποιον",
+        "synonyms": ["συστήνομαι", "παρουσιάζω θέμα"],
         "form": "verb",
         "definitions": [
             {
@@ -2969,7 +3032,8 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "χαλαρώνω στο σπίτι / μετά τη δουλειά / στις διακοπές",
+        "subtext": "χαλαρώνω στο σπίτι",
+        "synonyms": ["μετά τη δουλειά", "στις διακοπές"],
         "form": "verb",
         "definitions": [
             {
@@ -2989,7 +3053,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "επισκευάζω κάτι / κάνω επισκευή / κόστος επισκευής",
+        "subtext": "επισκευάζω κάτι",
+        "synonyms": ["κάνω επισκευή", "κόστος επισκευής"],
         "form": "verb",
         "definitions": [
             {
@@ -3009,7 +3074,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "τι συνέβη / συμβαίνει σε κάποιον / συμβαίνει",
+        "subtext": "συμβαίνει σε κάποιον / συμβαίνει",
+        "synonyms": ["τι συνέβη"],
         "form": "verb",
         "definitions": [
             {
@@ -3029,7 +3095,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
-        "subtext": "φαίνεται καλό / φαίνεται ανήσυχος / φαίνεται χαρούμενος",
+        "subtext": "",
+        "synonyms": ["φαίνεται καλό", "φαίνεται ανήσυχος", "φαίνεται χαρούμενος"],
         "form": "verb",
         "definitions": [
             {
@@ -3049,7 +3116,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "σημαίνω κάτι / τι σημαίνει / εννοώ",
+        "subtext": "σημαίνω κάτι",
+        "synonyms": ["τι σημαίνει", "εννοώ"],
         "form": "verb",
         "definitions": [
             {
@@ -3069,7 +3137,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "ακολουθώ οδηγίες / ακολουθώ κάποιον / τις ειδήσεις",
+        "subtext": "ακολουθώ οδηγίες / ακολουθώ κάποιον",
+        "synonyms": ["τις ειδήσεις"],
         "form": "verb",
         "definitions": [
             {
@@ -3089,7 +3158,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "συνεχίζω να δουλεύω / συνεχίζω να κάνω / μια εργασία",
+        "subtext": "συνεχίζω να δουλεύω / συνεχίζω να κάνω",
+        "synonyms": ["μια εργασία"],
         "form": "verb",
         "definitions": [
             {
@@ -3109,7 +3179,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "αναπτύσσω επιχείρηση / μεγαλώνω γρήγορα / εξελίσσομαι σε",
+        "subtext": "μεγαλώνω γρήγορα",
+        "synonyms": ["αναπτύσσω επιχείρηση", "εξελίσσομαι σε"],
         "form": "verb",
         "definitions": [
             {
@@ -3129,7 +3200,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "περιλαμβάνω κάτι / περιλαμβάνεται σε / δεν περιλαμβάνεται",
+        "subtext": "περιλαμβάνω κάτι",
+        "synonyms": ["περιλαμβάνεται σε", "δεν περιλαμβάνεται"],
         "form": "verb",
         "definitions": [
             {

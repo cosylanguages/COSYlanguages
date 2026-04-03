@@ -31,6 +31,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const finishConversationBtn = document.getElementById('finish-conversation-btn');
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
     const exitLessonBtn = document.getElementById('exit-lesson-btn');
+    const closeDefinitionBtn = document.getElementById('close-definition-btn');
+    const wordDisplay = document.getElementById('word-display');
+
+    if (wordDisplay) {
+        wordDisplay.addEventListener('click', showWordDefinition);
+    }
+
+    if (closeDefinitionBtn) {
+        closeDefinitionBtn.addEventListener('click', () => {
+            document.getElementById('definition-modal').style.display = 'none';
+        });
+    }
+
+    const definitionModal = document.getElementById('definition-modal');
+    if (definitionModal) {
+        definitionModal.addEventListener('click', (e) => {
+            if (e.target === definitionModal) {
+                definitionModal.style.display = 'none';
+            }
+        });
+    }
 
     // Event listeners
     if (nextBtn) {
@@ -325,6 +346,82 @@ function showNextWord() {
     }
 
     if (typeof setLanguage === 'function') setLanguage(currentLesson.language);
+
+    // Add definition hint only if word is actually visible (not '???')
+    const wordDisplay = document.getElementById('word-display');
+    if (wordDisplay) {
+        if (wordObj.definitions && wordObj.definitions.length > 0 && wordDisplay.textContent !== '???') {
+            wordDisplay.classList.add('has-definition');
+            wordDisplay.title = (translations[currentLesson.language] && translations[currentLesson.language]['click_for_definition']) || "Click for definition";
+        } else {
+            wordDisplay.classList.remove('has-definition');
+            wordDisplay.removeAttribute('title');
+        }
+    }
+}
+
+function showWordDefinition() {
+    const wordObj = currentLesson.currentWord;
+    if (!wordObj || !wordObj.definitions || wordObj.definitions.length === 0) return;
+
+    const modal = document.getElementById('definition-modal');
+    const content = document.getElementById('definition-content');
+    const titleEl = document.getElementById('definition-modal-title');
+    const lang = currentLesson.language;
+    const t = translations[lang] || translations['en'];
+
+    const baseTitle = t['definition_modal_title'] || 'Definition';
+    const displayWord = wordObj.word || wordObj.text || wordObj.topic;
+    titleEl.textContent = `${baseTitle}: ${displayWord} 📖`;
+    titleEl.removeAttribute('data-translate-key');
+
+    content.innerHTML = '';
+
+    // Synonyms and Antonyms at the top
+    if ((wordObj.synonyms && wordObj.synonyms.length > 0) || wordObj.opposite) {
+        const extraDiv = document.createElement('div');
+        extraDiv.className = 'synonym-antonym-section';
+
+        if (wordObj.synonyms && wordObj.synonyms.length > 0) {
+            const synPara = document.createElement('div');
+            synPara.className = 'synonym-antonym-item';
+            synPara.innerHTML = `<span class="synonym-symbol">=</span>${wordObj.synonyms.join(', ')}`;
+            extraDiv.appendChild(synPara);
+        }
+
+        if (wordObj.opposite) {
+            const antPara = document.createElement('div');
+            antPara.className = 'synonym-antonym-item';
+            antPara.innerHTML = `<span class="antonym-symbol">≠</span>${wordObj.opposite}`;
+            extraDiv.appendChild(antPara);
+        }
+        content.appendChild(extraDiv);
+    }
+
+    wordObj.definitions.forEach((def, index) => {
+        const defDiv = document.createElement('div');
+        defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
+
+        const textPara = document.createElement('p');
+        textPara.className = 'definition-text';
+        textPara.textContent = def.text;
+        defDiv.appendChild(textPara);
+
+        if (def.examples && def.examples.length > 0) {
+            const exList = document.createElement('ul');
+            exList.className = 'examples-list';
+            def.examples.forEach(ex => {
+                const li = document.createElement('li');
+                li.innerHTML = `<span class="example-prefix">e.g.</span> ${ex}`;
+                exList.appendChild(li);
+            });
+            defDiv.appendChild(exList);
+        }
+        content.appendChild(defDiv);
+    });
+
+    modal.style.display = 'flex';
+    if (typeof setLanguage === 'function') setLanguage(lang);
 }
 
 function renderMultipleChoice() {

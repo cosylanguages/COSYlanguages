@@ -6,7 +6,8 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "affermare, argomentare",
+        "subtext": "",
+        "synonyms": ["affermare", "argomentare"],
         "definitions": [
             {
                 "text": "Fornire ragioni per supportare un particolare punto di vista.",

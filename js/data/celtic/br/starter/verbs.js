@@ -28,7 +28,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "kaout ul labour / merenniñ / kaout ur gudenn / kaout amzer",
+        "subtext": "kaout ul labour / kaout ur gudenn / kaout amzer",
+        "synonyms": ["merenniñ"],
         "form": "verb",
         "definitions": [
             {
@@ -117,7 +118,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "kaout ul labour / bezañ skuizh / gwellat / mont d'ar gêr",
+        "subtext": "kaout ul labour",
+        "synonyms": ["bezañ skuizh", "gwellat", "mont d'ar gêr"],
         "form": "verb",
         "definitions": [
             {
@@ -159,7 +161,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "ober kafe / kemer un diviz / ober ur fazi / gounit arc'hant",
+        "subtext": "ober kafe / ober ur fazi",
+        "synonyms": ["kemer un diviz", "gounit arc'hant"],
         "form": "verb",
         "definitions": [
             {
@@ -398,7 +401,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "kenderc'hel / chom sioul / chom e darempred",
+        "subtext": "",
+        "synonyms": ["kenderc'hel", "chom sioul", "chom e darempred"],
         "form": "verb",
         "definitions": [
             {
@@ -442,7 +446,8 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "trochañ mizoù / trochañ e div",
+        "subtext": "",
+        "synonyms": ["trochañ mizoù", "trochañ e div"],
         "form": "verb",
         "definitions": [
             {
@@ -463,7 +468,8 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "enaouiñ / lazhañ / treiñ a-gleiz / treiñ a-zehou",
+        "subtext": "treiñ a-gleiz / treiñ a-zehou",
+        "synonyms": ["enaouiñ", "lazhañ"],
         "form": "verb",
         "definitions": [
             {
@@ -589,7 +595,8 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "komz ouzh unan bennak / komz diwar-benn / komz sklaer",
+        "subtext": "komz ouzh unan bennak",
+        "synonyms": ["komz diwar-benn", "komz sklaer"],
         "form": "verb",
         "definitions": [
             {
@@ -719,7 +726,8 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "adzilavarout an dra-se / adober un urzh",
+        "subtext": "",
+        "synonyms": ["adzilavarout an dra-se", "adober un urzh"],
         "form": "verb",
         "definitions": [
             {
@@ -847,7 +855,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "erruout d'al labour / erruout diwezhat",
+        "subtext": "",
+        "synonyms": ["erruout d'al labour", "erruout diwezhat"],
         "form": "verb",
         "definitions": [
             {
@@ -889,7 +898,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "dilojiñ / mont da chom d'ul lec'h nevez",
+        "subtext": "mont da chom d'ul lec'h nevez",
+        "synonyms": ["dilojiñ"],
         "form": "verb",
         "definitions": [
             {
@@ -1021,7 +1031,8 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "aozañ koan / aozañ ur meuz",
+        "subtext": "",
+        "synonyms": ["aozañ koan", "aozañ ur meuz"],
         "form": "verb",
         "definitions": [
             {
@@ -1149,7 +1160,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "dispend arc'hant / dispend amzer",
+        "subtext": "",
+        "synonyms": ["dispend arc'hant", "dispend amzer"],
         "form": "verb",
         "definitions": [
             {
@@ -1258,7 +1270,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "anavezout unan bennak / gouzout ar respont / anavezout ul lec'h",
+        "subtext": "gouzout ar respont",
+        "synonyms": ["anavezout unan bennak", "anavezout ul lec'h"],
         "form": "verb",
         "definitions": [
             {
@@ -1342,7 +1355,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "karet unan bennak / karet ober",
+        "subtext": "",
+        "synonyms": ["karet unan bennak", "karet ober"],
         "form": "verb",
         "definitions": [
             {
@@ -1363,7 +1377,8 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
-        "subtext": "kaout kasoni ouzh / kasoni ober",
+        "subtext": "",
+        "synonyms": ["kaout kasoni ouzh", "kasoni ober"],
         "form": "verb",
         "definitions": [
             {
@@ -1384,7 +1399,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "esperout / kaout goanag / spi am eus",
+        "subtext": "esperout",
+        "synonyms": ["kaout goanag", "spi am eus"],
         "form": "verb",
         "definitions": [
             {
@@ -1405,7 +1421,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "kaout soñj / kounaat un anv / soñjal sklaer",
+        "subtext": "kaout soñj",
+        "synonyms": ["kounaat un anv", "soñjal sklaer"],
         "form": "verb",
         "definitions": [
             {
@@ -1426,7 +1443,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "ankounac'haat un anv / disoñjal ober",
+        "subtext": "ankounac'haat un anv",
+        "synonyms": ["disoñjal ober"],
         "form": "verb",
         "definitions": [
             {
@@ -1468,7 +1486,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "divizout ober / kemer un diviz",
+        "subtext": "divizout ober",
+        "synonyms": ["kemer un diviz"],
         "form": "verb",
         "definitions": [
             {
@@ -1531,7 +1550,8 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "subtext": "klevout keleier / klevout unan bennak",
+        "subtext": "",
+        "synonyms": ["klevout keleier", "klevout unan bennak"],
         "form": "verb",
         "definitions": [
             {
@@ -1553,7 +1573,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
-        "subtext": "diwennañ abred / diwennañ diwezhat",
+        "subtext": "",
+        "synonyms": ["diwennañ abred", "diwennañ diwezhat"],
         "opposite": "kousket",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1596,7 +1617,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "sellet ouzh / klask / bezañ heñvel ouzh",
+        "subtext": "",
+        "synonyms": ["sellet ouzh", "klask", "bezañ heñvel ouzh"],
         "form": "verb",
         "definitions": [
             {
@@ -1789,7 +1811,8 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "ouzhpennañ sukr / ouzhpennañ / lakaat un evezhiadenn",
+        "subtext": "ouzhpennañ sukr / ouzhpennañ",
+        "synonyms": ["lakaat un evezhiadenn"],
         "form": "verb",
         "definitions": [
             {
@@ -1984,7 +2007,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "tennañ an nor / tennañ un dra bennak",
+        "subtext": "tennañ un dra bennak",
+        "synonyms": ["tennañ an nor"],
         "opposite": "pousañ",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2072,7 +2096,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "degemer ur postel / degemer ur road",
+        "subtext": "",
+        "synonyms": ["degemer ur postel", "degemer ur road"],
         "form": "verb",
         "definitions": [
             {
@@ -2093,7 +2118,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "bezañ a-du gant unan bennak / a-du emaon",
+        "subtext": "bezañ a-du gant unan bennak",
+        "synonyms": ["a-du emaon"],
         "form": "verb",
         "definitions": [
             {
@@ -2135,7 +2161,8 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "rannañ ur gambr / rannañ titouroù",
+        "subtext": "",
+        "synonyms": ["rannañ ur gambr", "rannañ titouroù"],
         "form": "verb",
         "definitions": [
             {
@@ -2156,7 +2183,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "strakal ur mousc'hoarzh / mousc'hoarzhin",
+        "subtext": "mousc'hoarzhin",
+        "synonyms": ["strakal ur mousc'hoarzh"],
         "opposite": "gouelañ",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2179,7 +2207,8 @@
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "krial evit sikour / kregiñ da ouelañ",
+        "subtext": "",
+        "synonyms": ["krial evit sikour", "kregiñ da ouelañ"],
         "opposite": "mousc'hoarzhin",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2202,7 +2231,8 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "dañsal gant sonerezh / mont da zañsal / dañsal asambles",
+        "subtext": "dañsal gant sonerezh / dañsal asambles",
+        "synonyms": ["mont da zañsal"],
         "form": "verb",
         "definitions": [
             {
@@ -2265,7 +2295,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "mont da neuñviñ / neuñviñ mat",
+        "subtext": "",
+        "synonyms": ["mont da neuñviñ", "neuñviñ mat"],
         "form": "verb",
         "definitions": [
             {
@@ -2328,7 +2359,8 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "beajiñ d'al labour / beaj pemdeziek",
+        "subtext": "",
+        "synonyms": ["beajiñ d'al labour", "beaj pemdeziek"],
         "form": "verb",
         "definitions": [
             {
@@ -2404,7 +2436,8 @@
         "aspect": "stative",
         "v2": "koustas",
         "v3": "koustet",
-        "subtext": "koust kalz / koust arc'hant",
+        "subtext": "",
+        "synonyms": ["koust kalz", "koust arc'hant"],
         "group": "irregular"
     },
     {
@@ -2564,7 +2597,8 @@
                 ]
             }
         ],
-        "subtext": "disկouez un danevell / kinnig mennozhioù",
+        "subtext": "",
+        "synonyms": ["disկouez un danevell", "kinnig mennozhioù"],
         "classification": "regular",
         "aspect": "action",
         "v2": "displegas",
@@ -2627,7 +2661,8 @@
                 ]
             }
         ],
-        "subtext": "dougen ur freuz / dougen evit ur servij",
+        "subtext": "dougen evit ur servij",
+        "synonyms": ["dougen ur freuz"],
         "classification": "regular",
         "aspect": "action",
         "v2": "fakturas",
@@ -2690,7 +2725,8 @@
                 ]
             }
         ],
-        "subtext": "gounit ur gopr / gounit arc'hant",
+        "subtext": "gounit arc'hant",
+        "synonyms": ["gounit ur gopr"],
         "classification": "regular",
         "aspect": "action",
         "v2": "gounezas arc'hant",
@@ -2858,7 +2894,8 @@
                 ]
             }
         ],
-        "subtext": "ober e sac'h / ober e valizenn",
+        "subtext": "",
+        "synonyms": ["ober e sac'h", "ober e valizenn"],
         "classification": "regular",
         "aspect": "action",
         "v2": "aozas ar malizenn",
@@ -2958,7 +2995,8 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "trugarekaat unan bennak / trugarez deoc'h",
+        "subtext": "trugarekaat unan bennak",
+        "synonyms": ["trugarez deoc'h"],
         "form": "verb",
         "definitions": [
             {
@@ -2979,7 +3017,8 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "en em ginnig / kinnig unan bennak",
+        "subtext": "en em ginnig",
+        "synonyms": ["kinnig unan bennak"],
         "form": "verb",
         "definitions": [
             {
@@ -3000,7 +3039,8 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "diskuizhañ er gêr / en em zistendañ",
+        "subtext": "en em zistendañ",
+        "synonyms": ["diskuizhañ er gêr"],
         "form": "verb",
         "definitions": [
             {
@@ -3063,7 +3103,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
-        "subtext": "seblantout bezañ mat / seblantout bezañ laouen",
+        "subtext": "",
+        "synonyms": ["seblantout bezañ mat", "seblantout bezañ laouen"],
         "form": "verb",
         "definitions": [
             {
@@ -3084,7 +3125,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "ster un dra bennak / petra a dalv",
+        "subtext": "ster un dra bennak",
+        "synonyms": ["petra a dalv"],
         "form": "verb",
         "definitions": [
             {

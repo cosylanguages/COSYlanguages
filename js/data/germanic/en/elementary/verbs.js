@@ -6,7 +6,8 @@
     "theme": "career_development_A2",
     "emoji": "✅",
     "form": "verb",
-    "subtext": "agree to / take / receive",
+    "subtext": "",
+    "synonyms": ["agree to", "take", "receive"],
     "definitions": [
         {
             "text": "To agree to take or receive something.",
@@ -27,7 +28,8 @@
     "theme": "career_development_A2",
     "emoji": "🎯",
     "form": "verb",
-    "subtext": "succeed / reach / accomplish",
+    "subtext": "",
+    "synonyms": ["succeed", "reach", "accomplish"],
     "definitions": [
         {
             "text": "To succeed in finishing something or reaching a goal, especially after a lot of work or effort.",
@@ -49,7 +51,8 @@
     "theme": "social_emotions_A2",
     "emoji": "🤩",
     "form": "verb",
-    "subtext": "respect / look up to",
+    "subtext": "",
+    "synonyms": ["respect", "look up to"],
     "definitions": [
         {
             "text": "To find someone or something attractive and pleasant to look at.",
@@ -70,7 +73,8 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "🗣️",
     "form": "verb",
-    "subtext": "confess / acknowledge",
+    "subtext": "",
+    "synonyms": ["confess", "acknowledge"],
     "definitions": [
         {
             "text": "To agree that something is true, especially unwillingly.",
@@ -91,7 +95,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "👨‍🏫",
     "form": "verb",
-    "subtext": "counsel / suggest / recommend",
+    "subtext": "",
+    "synonyms": ["counsel", "suggest", "recommend"],
     "definitions": [
         {
             "text": "To give someone advice.",
@@ -133,7 +138,8 @@
     "theme": "relationships_dating_A2",
     "emoji": "✅",
     "form": "verb",
-    "subtext": "let / permit",
+    "subtext": "",
+    "synonyms": ["let", "permit"],
     "definitions": [
         {
             "text": "To let someone do something.",
@@ -154,7 +160,8 @@
     "theme": "basic_science_A2",
     "emoji": "📊",
     "form": "verb",
-    "subtext": "study / examine / investigate",
+    "subtext": "",
+    "synonyms": ["study", "examine", "investigate"],
     "definitions": [
         {
             "text": "To study something in detail to understand it.",
@@ -175,7 +182,8 @@
     "theme": "news_media_A2",
     "emoji": "📣",
     "form": "verb",
-    "subtext": "declare / proclaim / publish",
+    "subtext": "",
+    "synonyms": ["declare", "proclaim", "publish"],
     "definitions": [
         {
             "text": "To make something known or tell people about something officially.",
@@ -196,7 +204,8 @@
     "theme": "social_emotions_A2",
     "emoji": "🙏",
     "form": "verb",
-    "subtext": "say sorry / express regret",
+    "subtext": "",
+    "synonyms": ["say sorry", "express regret"],
     "definitions": [
         {
             "text": "To express regret for something you have done wrong.",
@@ -217,7 +226,8 @@
     "theme": "personal_qualities_A2",
     "emoji": "👻",
     "form": "verb",
-    "subtext": "seem / look like",
+    "subtext": "look like",
+    "synonyms": ["seem"],
     "definitions": [
         {
             "text": "To come into view; to seem.",
@@ -259,7 +269,8 @@
     "theme": "job_apps_interviews_A2",
     "emoji": "📝",
     "form": "verb",
-    "subtext": "apply for a job / apply for a position / apply online",
+    "subtext": "apply for a job / apply for a position",
+    "synonyms": ["apply online"],
     "definitions": [
         {
             "text": "To make a formal written request for a job or position.",
@@ -280,7 +291,8 @@
     "theme": "social_emotions_A2",
     "emoji": "🙏",
     "form": "verb",
-    "subtext": "value / treasure / understand",
+    "subtext": "",
+    "synonyms": ["value", "treasure", "understand"],
     "definitions": [
         {
             "text": "To understand how good or useful someone or something is.",
@@ -301,7 +313,8 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "🗣️",
     "form": "verb",
-    "subtext": "disagree / quarrel / fight",
+    "subtext": "",
+    "synonyms": ["disagree", "quarrel", "fight"],
     "definitions": [
         {
             "text": "To disagree with someone in an angry or forceful way.",
@@ -322,7 +335,8 @@
     "theme": "booking_planning_a_trip_A2",
     "emoji": "🗓️",
     "form": "verb",
-    "subtext": "plan / organize / schedule",
+    "subtext": "",
+    "synonyms": ["plan", "organize", "schedule"],
     "definitions": [
         {
             "text": "To plan, prepare for, or organize something.",
@@ -343,7 +357,8 @@
     "theme": "right_wrong_basic_A2",
     "emoji": "👮",
     "form": "verb",
-    "subtext": "get arrested / be under arrest",
+    "subtext": "be under arrest",
+    "synonyms": ["get arrested"],
     "definitions": [
         {
             "text": "If the police arrest someone, they take them to the police station because they think they have committed a crime.",
@@ -364,7 +379,8 @@
     "theme": "career_development_A2",
     "emoji": "🤝",
     "form": "verb",
-    "subtext": "help / support / aid",
+    "subtext": "",
+    "synonyms": ["help", "support", "aid"],
     "definitions": [
         {
             "text": "To help.",
@@ -385,7 +401,8 @@
     "theme": "internet_social_media_A2",
     "emoji": "📎",
     "form": "verb",
-    "subtext": "join / connect / fasten",
+    "subtext": "",
+    "synonyms": ["join", "connect", "fasten"],
     "definitions": [
         {
             "text": "To fasten, join, or connect something.",
@@ -406,7 +423,8 @@
     "theme": "school_life_routines_A2",
     "emoji": "🙋",
     "form": "verb",
-    "subtext": "go to / be present at",
+    "subtext": "",
+    "synonyms": ["go to", "be present at"],
     "definitions": [
         {
             "text": "To go to an event, place, etc.",
@@ -428,7 +446,8 @@
     "theme": "personality_character_A2",
     "emoji": "🧲",
     "form": "verb",
-    "subtext": "draw / pull / appeal to",
+    "subtext": "",
+    "synonyms": ["draw", "pull", "appeal to"],
     "definitions": [
         {
             "text": "To pull or draw someone or something towards them.",
@@ -771,7 +790,8 @@
     "theme": "customs_traditions_A2",
     "emoji": "🥳",
     "form": "verb",
-    "subtext": "celebrate a birthday / celebration",
+    "subtext": "celebrate a birthday",
+    "synonyms": ["celebration"],
     "definitions": [
         {
             "text": "To take part in special enjoyable activities in order to show that a particular occasion is important.",
@@ -898,7 +918,8 @@
     "theme": "career_development_A2",
     "emoji": "👥",
     "form": "verb",
-    "subtext": "collaborate with / collaborate on a project / work collaboratively",
+    "subtext": "collaborate with / collaborate on a project",
+    "synonyms": ["work collaboratively"],
     "definitions": [
         {
             "text": "To work jointly with others on a shared project.",
@@ -982,7 +1003,8 @@
     "theme": "comparison_A2",
     "emoji": "⚖️",
     "form": "verb",
-    "subtext": "compare prices / compare options / in comparison with",
+    "subtext": "compare prices / compare options",
+    "synonyms": ["in comparison with"],
     "definitions": [
         {
             "text": "To examine or look for the difference between two or more things.",
@@ -1004,7 +1026,8 @@
     "theme": "exercise_fitness_A2",
     "emoji": "🏃",
     "form": "verb",
-    "subtext": "compete in a race / competitive",
+    "subtext": "compete in a race",
+    "synonyms": ["competitive"],
     "definitions": [
         {
             "text": "To try to be more successful than someone or something else.",
@@ -1025,7 +1048,8 @@
     "theme": "agreeing_disagreeing_A2",
     "emoji": "😠",
     "form": "verb",
-    "subtext": "complain about / make a complaint / complain to someone",
+    "subtext": "complain about / complain to someone",
+    "synonyms": ["make a complaint"],
     "definitions": [
         {
             "text": "To say that something is wrong or not satisfactory.",
@@ -1047,7 +1071,8 @@
     "theme": "school_life_routines_A2",
     "emoji": "✅",
     "form": "verb",
-    "subtext": "complete a task / complete a form / full completion",
+    "subtext": "complete a task / complete a form",
+    "synonyms": ["full completion"],
     "definitions": [
         {
             "text": "To finish doing something.",
@@ -1132,7 +1157,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "😕",
     "form": "verb",
-    "subtext": "confuse someone / get confused",
+    "subtext": "confuse someone",
+    "synonyms": ["get confused"],
     "definitions": [
         {
             "text": "To make someone feel that they do not understand something.",
@@ -1260,7 +1286,8 @@
     "theme": "school_life_routines_A2",
     "emoji": "➡️",
     "form": "verb",
-    "subtext": "continue working / continue the journey / to be continued",
+    "subtext": "continue working / continue the journey",
+    "synonyms": ["to be continued"],
     "definitions": [
         {
             "text": "To keep happening, or to keep doing something without stopping.",
@@ -1282,7 +1309,8 @@
     "theme": "career_development_A2",
     "emoji": "📄",
     "form": "verb",
-    "subtext": "contract with / be contracted to",
+    "subtext": "contract with",
+    "synonyms": ["be contracted to"],
     "definitions": [
         {
             "text": "To make a legal agreement with someone.",
@@ -1346,7 +1374,8 @@
     "theme": "art_design_A2",
     "emoji": "🎨",
     "form": "verb",
-    "subtext": "create something new / creative",
+    "subtext": "create something new",
+    "synonyms": ["creative"],
     "definitions": [
         {
             "text": "To make something new, or invent something.",
@@ -1388,7 +1417,8 @@
     "theme": "diet_healthy_eating_A2",
     "emoji": "📉",
     "form": "verb",
-    "subtext": "cut down on spending / cut down on sugar / cut costs",
+    "subtext": "cut down on spending / cut down on sugar",
+    "synonyms": ["cut costs"],
     "definitions": [
         {
             "text": "To reduce the amount of something you do or consume.",
@@ -1430,7 +1460,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "🤔",
     "form": "verb",
-    "subtext": "decide to do / undecided",
+    "subtext": "decide to do",
+    "synonyms": ["undecided"],
     "definitions": [
         {
             "text": "To choose something after thinking about several possibilities.",
@@ -1451,7 +1482,8 @@
     "theme": "home_furnishings_A2",
     "emoji": "🎨",
     "form": "verb",
-    "subtext": "decorate a room / redecorate / interior decoration",
+    "subtext": "decorate a room",
+    "synonyms": ["redecorate", "interior decoration"],
     "definitions": [
         {
             "text": "To make a place more attractive, especially by painting.",
@@ -1624,7 +1656,8 @@
     "theme": "career_development_A2",
     "emoji": "💣",
     "form": "verb",
-    "subtext": "damage / destroy a file / destroy completely",
+    "subtext": "destroy a file / destroy completely",
+    "synonyms": ["damage"],
     "definitions": [
         {
             "text": "To damage something so badly that it cannot be used or does not exist any more.",
@@ -1645,7 +1678,8 @@
     "theme": "career_development_A2",
     "emoji": "💻",
     "form": "verb",
-    "subtext": "develop a product / develop a skill / research and development",
+    "subtext": "develop a product / develop a skill",
+    "synonyms": ["research and development"],
     "definitions": [
         {
             "text": "To grow or change into something more advanced.",
@@ -1667,7 +1701,8 @@
     "theme": "diet_healthy_eating_A2",
     "emoji": "🩺",
     "form": "verb",
-    "subtext": "diagnose an illness / be diagnosed with / diagnose early",
+    "subtext": "diagnose an illness / diagnose early",
+    "synonyms": ["be diagnosed with"],
     "definitions": [
         {
             "text": "To identify an illness or problem after examination.",
@@ -1709,7 +1744,8 @@
     "theme": "basic_science_A2",
     "emoji": "🔎",
     "form": "verb",
-    "subtext": "discover something new / discovery",
+    "subtext": "discover something new",
+    "synonyms": ["discovery"],
     "definitions": [
         {
             "text": "To find information, a place, or an object, especially for the first time.",
@@ -1751,7 +1787,8 @@
     "theme": "job_apps_interviews_A2",
     "emoji": "❌",
     "form": "verb",
-    "subtext": "dismiss an employee / be dismissed / dismissal proceedings",
+    "subtext": "dismiss an employee",
+    "synonyms": ["be dismissed", "dismissal proceedings"],
     "definitions": [
         {
             "text": "To officially remove someone from their job.",
@@ -1772,7 +1809,8 @@
     "theme": "basic_arithmetic_A2",
     "emoji": "➗",
     "form": "verb",
-    "subtext": "divide by / division",
+    "subtext": "divide by",
+    "synonyms": ["division"],
     "definitions": [
         {
             "text": "To separate into parts or groups.",
@@ -1793,7 +1831,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "🤨",
     "form": "verb",
-    "subtext": "not believe / doubt it",
+    "subtext": "doubt it",
+    "synonyms": ["not believe"],
     "definitions": [
         {
             "text": "To not feel certain or confident about something.",
@@ -1856,7 +1895,8 @@
     "theme": "social_emotions_A2",
     "emoji": "👏",
     "form": "verb",
-    "subtext": "encourage someone / encouragement",
+    "subtext": "encourage someone",
+    "synonyms": ["encouragement"],
     "definitions": [
         {
             "text": "To talk or behave in a way that gives someone confidence to do something.",
@@ -1877,7 +1917,8 @@
     "theme": "theatre_performance_A2",
     "emoji": "🎭",
     "form": "verb",
-    "subtext": "entertain people / entertainment",
+    "subtext": "entertain people",
+    "synonyms": ["entertainment"],
     "definitions": [
         {
             "text": "To keep a group of people interested or enjoying themselves.",
@@ -1961,7 +2002,8 @@
     "theme": "basic_science_A2",
     "emoji": "🔬",
     "form": "verb",
-    "subtext": "examine a patient / examine a document / cross-examination",
+    "subtext": "examine a patient / examine a document",
+    "synonyms": ["cross-examination"],
     "definitions": [
         {
             "text": "To look at or consider a person or thing carefully in order to discover something about them.",
@@ -1983,7 +2025,8 @@
     "theme": "social_emotions_A2",
     "emoji": "🤩",
     "form": "verb",
-    "subtext": "excite someone / exciting",
+    "subtext": "excite someone",
+    "synonyms": ["exciting"],
     "definitions": [
         {
             "text": "To make someone feel very happy and enthusiastic.",
@@ -2239,7 +2282,8 @@
     "theme": "weather_climate_A2",
     "emoji": "❄️",
     "form": "verb",
-    "subtext": "freeze water / frozen food",
+    "subtext": "freeze water",
+    "synonyms": ["frozen food"],
     "definitions": [
         {
             "text": "To become or cause to become hard because of extreme cold.",
@@ -2303,7 +2347,8 @@
     "theme": "customs_traditions_A2",
     "emoji": "👋",
     "form": "verb",
-    "subtext": "greet someone / greetings",
+    "subtext": "greet someone",
+    "synonyms": ["greetings"],
     "definitions": [
         {
             "text": "To welcome someone with particular words or a particular action.",
@@ -2346,7 +2391,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "⚡",
     "form": "verb",
-    "subtext": "what happened / happen to someone / if it happens",
+    "subtext": "happen to someone / if it happens",
+    "synonyms": ["what happened"],
     "definitions": [
         {
             "text": "To occur; to take place.",
@@ -2474,7 +2520,8 @@
     "theme": "social_emotions_A2",
     "emoji": "✨",
     "form": "verb",
-    "subtext": "impress someone / impressive",
+    "subtext": "impress someone",
+    "synonyms": ["impressive"],
     "definitions": [
         {
             "text": "To cause someone to admire or respect you.",
@@ -2495,7 +2542,8 @@
     "theme": "school_life_routines_A2",
     "emoji": "📈",
     "form": "verb",
-    "subtext": "improve your English / improve performance / room for improvement",
+    "subtext": "improve your English / improve performance",
+    "synonyms": ["room for improvement"],
     "definitions": [
         {
             "text": "To get better, or to make something better.",
@@ -2517,7 +2565,8 @@
     "theme": "career_development_A2",
     "emoji": "📈",
     "form": "verb",
-    "subtext": "improve performance / improve health / room for improvement",
+    "subtext": "",
+    "synonyms": ["improve performance", "improve health", "room for improvement"],
     "definitions": [
         {
             "text": "To become or make something better.",
@@ -2538,7 +2587,8 @@
     "theme": "finances_A2",
     "emoji": "➕",
     "form": "verb",
-    "subtext": "include something / include in / not included / price includes",
+    "subtext": "include something / include in / price includes",
+    "synonyms": ["not included"],
     "definitions": [
         {
             "text": "To make something part of a whole.",
@@ -2581,7 +2631,8 @@
     "theme": "news_media_A2",
     "emoji": "ℹ️",
     "form": "verb",
-    "subtext": "inform someone / keep informed",
+    "subtext": "inform someone",
+    "synonyms": ["keep informed"],
     "definitions": [
         {
             "text": "To tell someone about something.",
@@ -2623,7 +2674,8 @@
     "theme": "health_body_A2",
     "emoji": "🤕",
     "form": "verb",
-    "subtext": "get injured / injury",
+    "subtext": "",
+    "synonyms": ["get injured", "injury"],
     "definitions": [
         {
             "text": "To hurt yourself or someone else.",
@@ -2665,7 +2717,8 @@
     "theme": "job_apps_interviews_A2",
     "emoji": "🤝",
     "form": "verb",
-    "subtext": "be interviewed / interview someone",
+    "subtext": "interview someone",
+    "synonyms": ["be interviewed"],
     "definitions": [
         {
             "text": "To ask someone questions in a formal meeting.",
@@ -2686,7 +2739,8 @@
     "theme": "customs_traditions_A2",
     "emoji": "🤝",
     "form": "verb",
-    "subtext": "introduce someone / introduction",
+    "subtext": "introduce someone",
+    "synonyms": ["introduction"],
     "definitions": [
         {
             "text": "To tell someone another person's name the first time they meet.",
@@ -2707,7 +2761,8 @@
     "theme": "basic_science_A2",
     "emoji": "⚙️",
     "form": "verb",
-    "subtext": "invent something / invention",
+    "subtext": "invent something",
+    "synonyms": ["invention"],
     "definitions": [
         {
             "text": "To design or create something that has never been made before.",
@@ -2749,7 +2804,8 @@
     "theme": "customs_traditions_A2",
     "emoji": "💌",
     "form": "verb",
-    "subtext": "invite someone / invitation",
+    "subtext": "invite someone",
+    "synonyms": ["invitation"],
     "definitions": [
         {
             "text": "To ask or request someone to go to an event.",
@@ -3004,7 +3060,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "🗣️",
     "form": "verb",
-    "subtext": "mention something / don't mention it / as mentioned before",
+    "subtext": "mention something / don't mention it",
+    "synonyms": ["as mentioned before"],
     "definitions": [
         {
             "text": "To speak or write about something briefly.",
@@ -3026,7 +3083,8 @@
     "theme": "basic_arithmetic_A2",
     "emoji": "✖️",
     "form": "verb",
-    "subtext": "multiply by / multiplication",
+    "subtext": "multiply by",
+    "synonyms": ["multiplication"],
     "definitions": [
         {
             "text": "To add a number to itself a particular number of times.",
@@ -3068,7 +3126,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "👀",
     "form": "verb",
-    "subtext": "see / notice a difference / did you notice?",
+    "subtext": "notice a difference / did you notice?",
+    "synonyms": ["see"],
     "definitions": [
         {
             "text": "To see or become aware of something.",
@@ -3131,7 +3190,8 @@
     "theme": "career_development_A2",
     "emoji": "📂",
     "form": "verb",
-    "subtext": "organize a meeting / organize a trip / highly organized",
+    "subtext": "organize a meeting / organize a trip",
+    "synonyms": ["highly organized"],
     "definitions": [
         {
             "text": "To make arrangements for something to happen.",
@@ -3195,7 +3255,8 @@
     "theme": "community_neighbourhood_local_A2",
     "emoji": "🙋",
     "form": "verb",
-    "subtext": "participate in a meeting / participate in a discussion / active participation",
+    "subtext": "participate in a meeting / participate in a discussion",
+    "synonyms": ["active participation"],
     "definitions": [
         {
             "text": "To take part in or become involved in an activity.",
@@ -3345,7 +3406,8 @@
     "theme": "right_wrong_basic_A2",
     "emoji": "🚫",
     "form": "verb",
-    "subtext": "strictly prohibited",
+    "subtext": "",
+    "synonyms": ["strictly prohibited"],
     "definitions": [
         {
             "text": "To officially forbid something.",
@@ -3387,7 +3449,8 @@
     "theme": "career_development_A2",
     "emoji": "📈",
     "form": "verb",
-    "subtext": "promote someone / get promoted / promote from within",
+    "subtext": "promote someone / promote from within",
+    "synonyms": ["get promoted"],
     "definitions": [
         {
             "text": "To move an employee to a higher position.",
@@ -3493,7 +3556,8 @@
     "theme": "basic_science_A2",
     "emoji": "🧪",
     "form": "verb",
-    "subtext": "react to / chemical reaction",
+    "subtext": "react to",
+    "synonyms": ["chemical reaction"],
     "definitions": [
         {
             "text": "To act in a particular way because of something that has happened.",
@@ -3557,7 +3621,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "👍",
     "form": "verb",
-    "subtext": "recommend a book / recommend a restaurant / highly recommended",
+    "subtext": "recommend a book / recommend a restaurant",
+    "synonyms": ["highly recommended"],
     "definitions": [
         {
             "text": "To suggest that someone or something would be good or suitable for a particular job or purpose.",
@@ -3748,7 +3813,8 @@
     "theme": "career_development_A2",
     "emoji": "🔄",
     "form": "verb",
-    "subtext": "replace something / replace someone / be replaced by",
+    "subtext": "replace something / replace someone",
+    "synonyms": ["be replaced by"],
     "definitions": [
         {
             "text": "To take the place of someone or something.",
@@ -4003,7 +4069,8 @@
     "theme": "career_development_A2",
     "emoji": "🧩",
     "form": "verb",
-    "subtext": "solve a problem / solve a riddle / find a solution",
+    "subtext": "solve a problem / solve a riddle",
+    "synonyms": ["find a solution"],
     "definitions": [
         {
             "text": "To find an answer to a problem.",
@@ -4025,7 +4092,8 @@
     "theme": "career_development_A2",
     "emoji": "🔧",
     "form": "verb",
-    "subtext": "sort out a problem / sort out a situation / sort something out",
+    "subtext": "sort out a problem / sort out a situation",
+    "synonyms": ["sort something out"],
     "definitions": [
         {
             "text": "To resolve a problem or deal with something.",
@@ -4298,7 +4366,8 @@
     "theme": "giving_reasons_A2",
     "emoji": "💭",
     "form": "verb",
-    "subtext": "I wonder why / wonder if / just wondering",
+    "subtext": "I wonder why / wonder if",
+    "synonyms": ["just wondering"],
     "definitions": [
         {
             "text": "To ask yourself questions or express a wish to know about something.",
@@ -4329,7 +4398,8 @@
             ]
         }
     ],
-    "subtext": "demand / stay firm",
+    "subtext": "",
+    "synonyms": ["demand", "stay firm"],
     "classification": "regular",
     "aspect": "action",
     "v2": "insisted",
@@ -4351,7 +4421,8 @@
             ]
         }
     ],
-    "subtext": "stop / break in",
+    "subtext": "",
+    "synonyms": ["stop", "break in"],
     "classification": "regular",
     "aspect": "action",
     "v2": "interrupted",
@@ -4373,7 +4444,8 @@
             ]
         }
     ],
-    "subtext": "include / entail",
+    "subtext": "",
+    "synonyms": ["include", "entail"],
     "classification": "regular",
     "aspect": "stative",
     "v2": "involved",
@@ -4395,7 +4467,8 @@
             ]
         }
     ],
-    "subtext": "get / acquire",
+    "subtext": "",
+    "synonyms": ["get", "acquire"],
     "classification": "regular",
     "aspect": "action",
     "v2": "obtained",
@@ -4417,7 +4490,8 @@
             ]
         }
     ],
-    "subtext": "happen / take place",
+    "subtext": "",
+    "synonyms": ["happen", "take place"],
     "classification": "regular",
     "aspect": "action",
     "v2": "occurred",
@@ -4439,7 +4513,8 @@
             ]
         }
     ],
-    "subtext": "work / run",
+    "subtext": "",
+    "synonyms": ["work", "run"],
     "classification": "regular",
     "aspect": "action",
     "v2": "operated",
@@ -4461,7 +4536,8 @@
             ]
         }
     ],
-    "subtext": "convince",
+    "subtext": "",
+    "synonyms": ["convince"],
     "classification": "regular",
     "aspect": "action",
     "v2": "persuaded",
@@ -4483,7 +4559,8 @@
             ]
         }
     ],
-    "subtext": "release / print",
+    "subtext": "",
+    "synonyms": ["release", "print"],
     "classification": "regular",
     "aspect": "action",
     "v2": "published",
@@ -4505,7 +4582,8 @@
             ]
         }
     ],
-    "subtext": "know / identify",
+    "subtext": "",
+    "synonyms": ["know", "identify"],
     "classification": "regular",
     "aspect": "stative",
     "v2": "recognized",
@@ -4527,7 +4605,8 @@
             ]
         }
     ],
-    "subtext": "echo / mirror",
+    "subtext": "",
+    "synonyms": ["echo", "mirror"],
     "classification": "regular",
     "aspect": "action",
     "v2": "reflected",
@@ -4549,7 +4628,8 @@
             ]
         }
     ],
-    "subtext": "set free / publish",
+    "subtext": "",
+    "synonyms": ["set free", "publish"],
     "classification": "regular",
     "aspect": "action",
     "v2": "released",
@@ -4571,7 +4651,8 @@
             ]
         }
     ],
-    "subtext": "depend / trust",
+    "subtext": "",
+    "synonyms": ["depend", "trust"],
     "classification": "regular",
     "aspect": "stative",
     "v2": "relied",
@@ -4593,7 +4674,8 @@
             ]
         }
     ],
-    "subtext": "recall",
+    "subtext": "",
+    "synonyms": ["recall"],
     "classification": "regular",
     "aspect": "action",
     "v2": "reminded",
@@ -4615,7 +4697,8 @@
             ]
         }
     ],
-    "subtext": "take away / delete",
+    "subtext": "",
+    "synonyms": ["take away", "delete"],
     "classification": "regular",
     "aspect": "action",
     "v2": "removed",
@@ -4637,7 +4720,8 @@
             ]
         }
     ],
-    "subtext": "do again / iterate",
+    "subtext": "",
+    "synonyms": ["do again", "iterate"],
     "classification": "regular",
     "aspect": "action",
     "v2": "repeated",
@@ -4659,7 +4743,8 @@
             ]
         }
     ],
-    "subtext": "answer / respond",
+    "subtext": "",
+    "synonyms": ["answer", "respond"],
     "classification": "regular",
     "aspect": "action",
     "v2": "replied",
@@ -4681,7 +4766,8 @@
             ]
         }
     ],
-    "subtext": "act for / symbolize",
+    "subtext": "",
+    "synonyms": ["act for", "symbolize"],
     "classification": "regular",
     "aspect": "action",
     "v2": "represented",
@@ -4703,7 +4789,8 @@
             ]
         }
     ],
-    "subtext": "ask for / petition",
+    "subtext": "",
+    "synonyms": ["ask for", "petition"],
     "classification": "regular",
     "aspect": "action",
     "v2": "requested",
@@ -4725,7 +4812,8 @@
             ]
         }
     ],
-    "subtext": "save / deliver",
+    "subtext": "",
+    "synonyms": ["save", "deliver"],
     "classification": "regular",
     "aspect": "action",
     "v2": "rescued",
@@ -4747,7 +4835,8 @@
             ]
         }
     ],
-    "subtext": "solve / settle",
+    "subtext": "",
+    "synonyms": ["solve", "settle"],
     "classification": "regular",
     "aspect": "action",
     "v2": "resolved",
@@ -4769,7 +4858,8 @@
             ]
         }
     ],
-    "subtext": "answer / react",
+    "subtext": "",
+    "synonyms": ["answer", "react"],
     "classification": "regular",
     "aspect": "action",
     "v2": "responded",
@@ -4794,7 +4884,8 @@
             ]
         }
     ],
-    "subtext": "practice / prepare",
+    "subtext": "",
+    "synonyms": ["practice", "prepare"],
     "classification": "regular"
 },
 {
@@ -4815,7 +4906,8 @@
             ]
         }
     ],
-    "subtext": "clap / cheer",
+    "subtext": "",
+    "synonyms": ["clap", "cheer"],
     "classification": "regular"
 },
 {
@@ -4836,7 +4928,8 @@
             ]
         }
     ],
-    "subtext": "register arrival",
+    "subtext": "",
+    "synonyms": ["register arrival"],
     "classification": "regular"
 },
 {
@@ -4857,7 +4950,8 @@
             ]
         }
     ],
-    "subtext": "fill / put away",
+    "subtext": "",
+    "synonyms": ["fill", "put away"],
     "classification": "regular"
 },
 {
@@ -4878,7 +4972,8 @@
             ]
         }
     ],
-    "subtext": "empty / take out",
+    "subtext": "",
+    "synonyms": ["empty", "take out"],
     "classification": "regular"
 },
 {
@@ -4899,7 +4994,8 @@
             ]
         }
     ],
-    "subtext": "pass a car",
+    "subtext": "",
+    "synonyms": ["pass a car"],
     "classification": "irregular"
 },
 {
@@ -4920,7 +5016,8 @@
             ]
         }
     ],
-    "subtext": "succeed / get through",
+    "subtext": "",
+    "synonyms": ["succeed", "get through"],
     "classification": "regular"
 },
 {
@@ -4941,7 +5038,8 @@
             ]
         }
     ],
-    "subtext": "end relationship / separate",
+    "subtext": "",
+    "synonyms": ["end relationship", "separate"],
     "classification": "irregular"
 },
 {
@@ -4962,7 +5060,8 @@
             ]
         }
     ],
-    "subtext": "register departure",
+    "subtext": "",
+    "synonyms": ["register departure"],
     "classification": "regular"
 }
     ];

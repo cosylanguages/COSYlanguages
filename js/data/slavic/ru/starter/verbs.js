@@ -28,7 +28,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "иметь работу / обедать / иметь проблему",
+        "subtext": "иметь работу / иметь проблему",
+        "synonyms": ["обедать"],
         "form": "verb",
         "definitions": [
             {
@@ -98,7 +99,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "садиться в автобус / принимать лекарство",
+        "subtext": "",
+        "synonyms": ["садиться в автобус", "принимать лекарство"],
         "opposite": "давать",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -122,7 +124,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "получить работу / уставать / становиться лучше",
+        "subtext": "",
+        "synonyms": ["получить работу", "уставать", "становиться лучше"],
         "form": "verb",
         "definitions": [
             {
@@ -145,7 +148,8 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "класть / убирать / положить телефон",
+        "subtext": "класть",
+        "synonyms": ["убирать", "положить телефон"],
         "form": "verb",
         "definitions": [
             {
@@ -167,7 +171,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "делать кофе / принимать решение / совершать ошибку",
+        "subtext": "делать кофе",
+        "synonyms": ["принимать решение", "совершать ошибку"],
         "form": "verb",
         "definitions": [
             {
@@ -211,7 +216,8 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
-        "subtext": "пользоваться телефоном / пользоваться транспортом",
+        "subtext": "",
+        "synonyms": ["пользоваться телефоном", "пользоваться транспортом"],
         "form": "verb",
         "definitions": [
             {
@@ -257,7 +263,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
-        "subtext": "закрывать дверь / закрываться в шесть",
+        "subtext": "закрывать дверь",
+        "synonyms": ["закрываться в шесть"],
         "opposite": "открывать",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -329,7 +336,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "помогать кому-то / помогать с / просить о помощи",
+        "subtext": "помогать кому-то / помогать с",
+        "synonyms": ["просить о помощи"],
         "form": "verb",
         "definitions": [
             {
@@ -351,7 +359,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "пробовать делать / стараться / пробовать новое",
+        "subtext": "пробовать делать / пробовать новое",
+        "synonyms": ["стараться"],
         "form": "verb",
         "definitions": [
             {
@@ -395,7 +404,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "найти работу / обнаружить / найти время",
+        "subtext": "",
+        "synonyms": ["найти работу", "обнаружить", "найти время"],
         "form": "verb",
         "definitions": [
             {
@@ -417,7 +427,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "продолжать / молчать / вести учет",
+        "subtext": "",
+        "synonyms": ["продолжать", "молчать", "вести учет"],
         "form": "verb",
         "definitions": [
             {
@@ -439,7 +450,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
-        "subtext": "потерять работу / терять деньги / терять вес",
+        "subtext": "терять деньги / терять вес",
+        "synonyms": ["потерять работу"],
         "opposite": "побеждать",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -464,7 +476,8 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "сокращать расходы / резать пополам / сокращать время",
+        "subtext": "резать пополам",
+        "synonyms": ["сокращать расходы", "сокращать время"],
         "form": "verb",
         "definitions": [
             {
@@ -486,7 +499,8 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "включать / выключать / поворачивать налево / направо",
+        "subtext": "поворачивать налево",
+        "synonyms": ["включать", "выключать", "направо"],
         "form": "verb",
         "definitions": [
             {
@@ -508,7 +522,8 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
-        "subtext": "приводить кого-то / приносить еду / приносить документ",
+        "subtext": "приносить еду / приносить документ",
+        "synonyms": ["приводить кого-то"],
         "form": "verb",
         "definitions": [
             {
@@ -552,7 +567,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "говорить правду / рассказывать историю / рассказывать кому-то",
+        "subtext": "рассказывать историю / рассказывать кому-то",
+        "synonyms": ["говорить правду"],
         "form": "verb",
         "definitions": [
             {
@@ -574,7 +590,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "задавать вопрос / просить о помощи / спрашивать о",
+        "subtext": "спрашивать о",
+        "synonyms": ["задавать вопрос", "просить о помощи"],
         "form": "verb",
         "definitions": [
             {
@@ -618,7 +635,8 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "разговаривать с кем-то / разговаривать о / открыто говорить",
+        "subtext": "разговаривать с кем-то / разговаривать о",
+        "synonyms": ["открыто говорить"],
         "form": "verb",
         "definitions": [
             {
@@ -640,7 +658,8 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "звонить кому-то / перезванивать / назначать встречу",
+        "subtext": "звонить кому-то",
+        "synonyms": ["перезванивать", "назначать встречу"],
         "form": "verb",
         "definitions": [
             {
@@ -732,7 +751,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "отвечать на вопрос / отвечать на звонок / на письмо",
+        "subtext": "отвечать на вопрос / отвечать на звонок",
+        "synonyms": ["на письмо"],
         "form": "verb",
         "definitions": [
             {
@@ -754,7 +774,8 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "повторить это / повторяться / повторить заказ",
+        "subtext": "",
+        "synonyms": ["повторить это", "повторяться", "повторить заказ"],
         "form": "verb",
         "definitions": [
             {
@@ -776,7 +797,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "идти на работу / идти домой / выходить",
+        "subtext": "идти на работу / идти домой",
+        "synonyms": ["выходить"],
         "form": "verb",
         "definitions": [
             {
@@ -798,7 +820,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "приходить домой / возвращаться / приходить сюда",
+        "subtext": "приходить домой / приходить сюда",
+        "synonyms": ["возвращаться"],
         "opposite": "идти",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -822,7 +845,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
-        "subtext": "идти на работу пешком / идти домой / гулять медленно",
+        "subtext": "идти на работу пешком / гулять медленно",
+        "synonyms": ["идти домой"],
         "form": "verb",
         "definitions": [
             {
@@ -844,7 +868,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "ехать на работу / водить машину / ехать домой",
+        "subtext": "водить машину",
+        "synonyms": ["ехать на работу", "ехать домой"],
         "form": "verb",
         "definitions": [
             {
@@ -866,7 +891,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "subtext": "лететь в город / лететь бизнес-классом",
+        "subtext": "",
+        "synonyms": ["лететь в город", "лететь бизнес-классом"],
         "form": "verb",
         "definitions": [
             {
@@ -888,7 +914,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "приезжать на работу / приезжать поздно / вовремя",
+        "subtext": "приезжать на работу / приезжать поздно",
+        "synonyms": ["вовремя"],
         "form": "verb",
         "definitions": [
             {
@@ -910,7 +937,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "уходить из дома / с работы / уходить рано",
+        "subtext": "уходить из дома / уходить рано",
+        "synonyms": ["с работы"],
         "form": "verb",
         "definitions": [
             {
@@ -932,7 +960,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "переезжать / переезжать в город / двигаться вперед",
+        "subtext": "двигаться вперед",
+        "synonyms": ["переезжать", "переезжать в город"],
         "form": "verb",
         "definitions": [
             {
@@ -954,7 +983,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
-        "subtext": "возвращаться домой / на работу",
+        "subtext": "возвращаться домой",
+        "synonyms": ["на работу"],
         "form": "verb",
         "definitions": [
             {
@@ -976,7 +1006,8 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "subtext": "путешествовать по работе / за границу",
+        "subtext": "путешествовать по работе",
+        "synonyms": ["за границу"],
         "form": "verb",
         "definitions": [
             {
@@ -998,7 +1029,8 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "завтракать / обедать / ужинать",
+        "subtext": "",
+        "synonyms": ["завтракать", "обедать", "ужинать"],
         "opposite": "пить",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1092,7 +1124,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
-        "subtext": "чистить квартиру / убираться / чистить кухню",
+        "subtext": "чистить квартиру / чистить кухню",
+        "synonyms": ["убираться"],
         "form": "verb",
         "definitions": [
             {
@@ -1136,7 +1169,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "мыть посуду / стирать одежду / мыть руки",
+        "subtext": "мыть посуду / мыть руки",
+        "synonyms": ["стирать одежду"],
         "form": "verb",
         "definitions": [
             {
@@ -1182,7 +1216,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "оплачивать счет / платить за аренду / платить картой",
+        "subtext": "платить за аренду / платить картой",
+        "synonyms": ["оплачивать счет"],
         "form": "verb",
         "definitions": [
             {
@@ -1226,7 +1261,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "копить деньги / копить на дом / экономить время",
+        "subtext": "",
+        "synonyms": ["копить деньги", "копить на дом", "экономить время"],
         "opposite": "тратить",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1296,7 +1332,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "думать о / размышлять / внимательно думать",
+        "subtext": "думать о / внимательно думать",
+        "synonyms": ["размышлять"],
         "form": "verb",
         "definitions": [
             {
@@ -1363,7 +1400,8 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "нуждаться в помощи / нуждаться во времени / в деньгах",
+        "subtext": "нуждаться в помощи / нуждаться во времени",
+        "synonyms": ["в деньгах"],
         "form": "verb",
         "definitions": [
             {
@@ -1386,7 +1424,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "мне нравится работа / нравится путешествовать / нравится идея",
+        "subtext": "",
+        "synonyms": ["мне нравится работа", "нравится путешествовать", "нравится идея"],
         "form": "verb",
         "definitions": [
             {
@@ -1453,7 +1492,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "надеяться на / надеяться сделать / надеюсь, что так",
+        "subtext": "надеяться на / надеяться сделать",
+        "synonyms": ["надеюсь", "что так"],
         "form": "verb",
         "definitions": [
             {
@@ -1497,7 +1537,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "забыть имя / забыть сделать / совсем забыть",
+        "subtext": "",
+        "synonyms": ["забыть имя", "забыть сделать", "совсем забыть"],
         "form": "verb",
         "definitions": [
             {
@@ -1541,7 +1582,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "решать сделать / решать по поводу / принимать решение",
+        "subtext": "решать сделать / решать по поводу",
+        "synonyms": ["принимать решение"],
         "form": "verb",
         "definitions": [
             {
@@ -1563,7 +1605,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "наслаждаться делом / наслаждаться едой / своей работой",
+        "subtext": "наслаждаться делом / наслаждаться едой",
+        "synonyms": ["своей работой"],
         "form": "verb",
         "definitions": [
             {
@@ -1675,7 +1718,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "смотреть / искать / выглядеть счастливым",
+        "subtext": "смотреть",
+        "synonyms": ["искать", "выглядеть счастливым"],
         "form": "verb",
         "definitions": [
             {
@@ -1719,7 +1763,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "бегать / бежать гонку / управлять бизнесом",
+        "subtext": "бегать",
+        "synonyms": ["бежать гонку", "управлять бизнесом"],
         "form": "verb",
         "definitions": [
             {
@@ -1765,7 +1810,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "стоять / вставать / стоять в очереди",
+        "subtext": "стоять / стоять в очереди",
+        "synonyms": ["вставать"],
         "opposite": "сидеть",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1803,7 +1849,8 @@
         "aspect": "action",
         "v2": "встречал",
         "v3": "встречала",
-        "subtext": "встречать кого-то / встретиться за обедом",
+        "subtext": "встречать кого-то",
+        "synonyms": ["встретиться за обедом"],
         "group": "1st_conj"
     },
     {
@@ -1811,7 +1858,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "учить / учить язык / учиться быстро",
+        "subtext": "учить / учить язык",
+        "synonyms": ["учиться быстро"],
         "form": "verb",
         "definitions": [
             {
@@ -1855,7 +1903,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "останавливать / перестать делать / остановить кого-то",
+        "subtext": "останавливать",
+        "synonyms": ["перестать делать", "остановить кого-то"],
         "form": "verb",
         "definitions": [
             {
@@ -1877,7 +1926,8 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "добавлять / добавить комментарий / добавить сахар",
+        "subtext": "добавлять",
+        "synonyms": ["добавить комментарий", "добавить сахар"],
         "form": "verb",
         "definitions": [
             {
@@ -1899,7 +1949,8 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
-        "subtext": "побеждать / выиграть приз / выиграть контракт",
+        "subtext": "побеждать",
+        "synonyms": ["выиграть приз", "выиграть контракт"],
         "opposite": "терять",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1922,7 +1973,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "ждать / ждать кого-то / подождать минутку",
+        "subtext": "ждать / ждать кого-то",
+        "synonyms": ["подождать минутку"],
         "form": "verb",
         "definitions": [
             {
@@ -1944,7 +1996,8 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "умирать / умирать от / вымирать",
+        "subtext": "умирать / умирать от",
+        "synonyms": ["вымирать"],
         "opposite": "жить",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1981,7 +2034,8 @@
         "aspect": "action",
         "v2": "посылал",
         "v3": "посылала",
-        "subtext": "посылать / отправить письмо / отправить сообщение",
+        "subtext": "посылать",
+        "synonyms": ["отправить письмо", "отправить сообщение"],
         "group": "1st_conj"
     },
     {
@@ -1989,7 +2043,8 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
-        "subtext": "оставаться / оставаться дома / остановиться в отеле",
+        "subtext": "оставаться / оставаться дома",
+        "synonyms": ["остановиться в отеле"],
         "form": "verb",
         "definitions": [
             {
@@ -2011,7 +2066,8 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "падать / влюбиться / заснуть",
+        "subtext": "падать",
+        "synonyms": ["влюбиться", "заснуть"],
         "form": "verb",
         "definitions": [
             {
@@ -2033,7 +2089,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
-        "subtext": "проходить / сдать экзамен / проводить время",
+        "subtext": "проходить",
+        "synonyms": ["сдать экзамен", "проводить время"],
         "form": "verb",
         "definitions": [
             {
@@ -2078,7 +2135,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "тянуть / тянуть дверь / отъезжать",
+        "subtext": "тянуть / тянуть дверь",
+        "synonyms": ["отъезжать"],
         "opposite": "толкать",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2101,7 +2159,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "толкать / нажать кнопку / толкать тележку",
+        "subtext": "толкать / толкать тележку",
+        "synonyms": ["нажать кнопку"],
         "opposite": "тянуть",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2147,7 +2206,8 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "ломать / разбить стекло / сделать перерыв",
+        "subtext": "ломать",
+        "synonyms": ["разбить стекло", "сделать перерыв"],
         "form": "verb",
         "definitions": [
             {
@@ -2169,7 +2229,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "получать / получить письмо / получить платеж",
+        "subtext": "получать",
+        "synonyms": ["получить письмо", "получить платеж"],
         "form": "verb",
         "definitions": [
             {
@@ -2235,7 +2296,8 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "делиться / делить комнату / делиться идеей",
+        "subtext": "делиться / делиться идеей",
+        "synonyms": ["делить комнату"],
         "form": "verb",
         "definitions": [
             {
@@ -2327,7 +2389,8 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "петь / петь песню / подпевать",
+        "subtext": "петь / петь песню",
+        "synonyms": ["подпевать"],
         "form": "verb",
         "definitions": [
             {
@@ -2349,7 +2412,8 @@
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
-        "subtext": "прыгать / прыгать высоко / перепрыгивать",
+        "subtext": "прыгать / прыгать высоко",
+        "synonyms": ["перепрыгивать"],
         "form": "verb",
         "definitions": [
             {
@@ -2393,7 +2457,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "учиться / учить английский / готовиться к экзамену",
+        "subtext": "учиться",
+        "synonyms": ["учить английский", "готовиться к экзамену"],
         "form": "verb",
         "definitions": [
             {
@@ -2415,7 +2480,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "преподавать / учить кого-то / преподавать предмет",
+        "subtext": "преподавать / преподавать предмет",
+        "synonyms": ["учить кого-то"],
         "form": "verb",
         "definitions": [
             {
@@ -2437,7 +2503,8 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "ездить на работу / ежедневная поездка / долгая поездка",
+        "subtext": "ездить на работу",
+        "synonyms": ["ежедневная поездка", "долгая поездка"],
         "form": "verb",
         "definitions": [
             {
@@ -2492,7 +2559,8 @@
         "aspect": "action",
         "v2": "тренировался",
         "v3": "тренировалась",
-        "subtext": "тренироваться / тренироваться регулярно / в зале",
+        "subtext": "тренироваться / тренироваться регулярно",
+        "synonyms": ["в зале"],
         "group": "1st_conj"
     },
     {
@@ -2534,7 +2602,8 @@
         "aspect": "action",
         "v2": "приглашал",
         "v3": "приглашала",
-        "subtext": "приглашать / пригласить кого-то / пригласить на ужин",
+        "subtext": "приглашать",
+        "synonyms": ["пригласить кого-то", "пригласить на ужин"],
         "group": "1st_conj"
     },
     {
@@ -2568,7 +2637,8 @@
                 ]
             }
         ],
-        "subtext": "завтракать дома / быстрый завтрак / пропускать завтрак",
+        "subtext": "завтракать дома",
+        "synonyms": ["быстрый завтрак", "пропускать завтрак"],
         "classification": "irregular",
         "aspect": "action",
         "v2": "завтракал",
@@ -2589,7 +2659,8 @@
                 ]
             }
         ],
-        "subtext": "возвращаться домой / возвращаться поздно / из поездки",
+        "subtext": "возвращаться домой / возвращаться поздно",
+        "synonyms": ["из поездки"],
         "classification": "irregular",
         "aspect": "action",
         "v2": "возвращался",
@@ -2610,7 +2681,8 @@
                 ]
             }
         ],
-        "subtext": "ложиться спать рано / ложиться поздно / ложиться уставшим",
+        "subtext": "ложиться спать рано",
+        "synonyms": ["ложиться поздно", "ложиться уставшим"],
         "classification": "irregular",
         "aspect": "action",
         "v2": "ложился спать",
@@ -2673,7 +2745,8 @@
                 ]
             }
         ],
-        "subtext": "презентовать отчет / презентовать идеи / клиенту",
+        "subtext": "презентовать отчет / презентовать идеи",
+        "synonyms": ["клиенту"],
         "classification": "regular",
         "aspect": "action",
         "v2": "презентовал",
@@ -2715,7 +2788,8 @@
                 ]
             }
         ],
-        "subtext": "управлять командой / управлять проектом / временем",
+        "subtext": "управлять командой / управлять проектом",
+        "synonyms": ["временем"],
         "classification": "regular",
         "aspect": "action",
         "v2": "управлял",
@@ -2736,7 +2810,8 @@
                 ]
             }
         ],
-        "subtext": "взимать комиссию / плата за услугу / брать дополнительно",
+        "subtext": "",
+        "synonyms": ["взимать комиссию", "плата за услугу", "брать дополнительно"],
         "classification": "regular",
         "aspect": "action",
         "v2": "взимал плату",
@@ -2778,7 +2853,8 @@
                 ]
             }
         ],
-        "subtext": "быть должным деньги / быть должным кому-то / много",
+        "subtext": "быть должным деньги / быть должным кому-то",
+        "synonyms": ["много"],
         "classification": "irregular",
         "aspect": "stative",
         "v2": "был должен",
@@ -2799,7 +2875,8 @@
                 ]
             }
         ],
-        "subtext": "зарабатывать зарплату / зарабатывать деньги / больше",
+        "subtext": "зарабатывать зарплату / зарабатывать деньги",
+        "synonyms": ["больше"],
         "classification": "regular",
         "aspect": "action",
         "v2": "зарабатывал",
@@ -2820,7 +2897,8 @@
                 ]
             }
         ],
-        "subtext": "навещать семью / навестить друга / посетить город",
+        "subtext": "навещать семью",
+        "synonyms": ["навестить друга", "посетить город"],
         "classification": "regular",
         "aspect": "action",
         "v2": "навещал",
@@ -2841,7 +2919,8 @@
                 ]
             }
         ],
-        "subtext": "праздновать день рождения / праздновать успех / вместе",
+        "subtext": "праздновать день рождения / праздновать успех",
+        "synonyms": ["вместе"],
         "classification": "regular",
         "aspect": "action",
         "v2": "праздновал",
@@ -2862,7 +2941,8 @@
                 ]
             }
         ],
-        "subtext": "рекомендовать место / рекомендовать кого-то / фильм",
+        "subtext": "рекомендовать место / рекомендовать кого-то",
+        "synonyms": ["фильм"],
         "classification": "regular",
         "aspect": "action",
         "v2": "рекомендовал",
@@ -2883,7 +2963,8 @@
                 ]
             }
         ],
-        "subtext": "болит спина / причинить боль кому-то / это больно",
+        "subtext": "",
+        "synonyms": ["болит спина", "причинить боль кому-то", "это больно"],
         "classification": "irregular",
         "aspect": "both",
         "v2": "болел",
@@ -2904,7 +2985,8 @@
                 ]
             }
         ],
-        "subtext": "отдыхать дома / отдыхать после работы / нужен отдых",
+        "subtext": "отдыхать дома / отдыхать после работы",
+        "synonyms": ["нужен отдых"],
         "classification": "regular",
         "aspect": "action",
         "v2": "отдыхал",
@@ -2925,7 +3007,8 @@
                 ]
             }
         ],
-        "subtext": "выздоравливать после болезни / быстро / полностью",
+        "subtext": "выздоравливать после болезни",
+        "synonyms": ["быстро", "полностью"],
         "classification": "regular",
         "aspect": "action",
         "v2": "выздоравливал",
@@ -2946,7 +3029,8 @@
                 ]
             }
         ],
-        "subtext": "бронировать отель / бронировать рейс / столик",
+        "subtext": "бронировать отель / бронировать рейс",
+        "synonyms": ["столик"],
         "classification": "regular",
         "aspect": "action",
         "v2": "бронировал",
@@ -2967,7 +3051,8 @@
                 ]
             }
         ],
-        "subtext": "собирать сумку / собирать чемодан / собираться налегке",
+        "subtext": "",
+        "synonyms": ["собирать сумку", "собирать чемодан", "собираться налегке"],
         "classification": "regular",
         "aspect": "action",
         "v2": "собирал вещи",
@@ -2988,7 +3073,8 @@
                 ]
             }
         ],
-        "subtext": "отменить рейс / отменить бронь / отменить встречу",
+        "subtext": "",
+        "synonyms": ["отменить рейс", "отменить бронь", "отменить встречу"],
         "classification": "regular",
         "aspect": "action",
         "v2": "отменял",
@@ -3009,7 +3095,8 @@
                 ]
             }
         ],
-        "subtext": "опоздать на поезд / опоздать на рейс / скучать по кому-то",
+        "subtext": "скучать по кому-то",
+        "synonyms": ["опоздать на поезд", "опоздать на рейс"],
         "classification": "regular",
         "aspect": "both",
         "v2": "скучал",
@@ -3046,7 +3133,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
-        "subtext": "объяснять процесс / объяснять четко / кому-то",
+        "subtext": "объяснять процесс / объяснять четко",
+        "synonyms": ["кому-то"],
         "form": "verb",
         "definitions": [
             {
@@ -3067,7 +3155,8 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "благодарить кого-то / благодарить за / большое спасибо",
+        "subtext": "благодарить кого-то / благодарить за",
+        "synonyms": ["большое спасибо"],
         "form": "verb",
         "definitions": [
             {
@@ -3088,7 +3177,8 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "представиться / представить кого-то / представить тему",
+        "subtext": "",
+        "synonyms": ["представиться", "представить кого-то", "представить тему"],
         "form": "verb",
         "definitions": [
             {
@@ -3109,7 +3199,8 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "расслабляться дома / после работы / на отдыхе",
+        "subtext": "расслабляться дома",
+        "synonyms": ["после работы", "на отдыхе"],
         "form": "verb",
         "definitions": [
             {
@@ -3130,7 +3221,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "чинить что-то / отремонтировать / стоимость ремонта",
+        "subtext": "чинить что-то",
+        "synonyms": ["отремонтировать", "стоимость ремонта"],
         "form": "verb",
         "definitions": [
             {
@@ -3151,7 +3243,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "что случилось / случиться с кем-то / это случается",
+        "subtext": "",
+        "synonyms": ["что случилось", "случиться с кем-то", "это случается"],
         "form": "verb",
         "definitions": [
             {
@@ -3172,7 +3265,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
-        "subtext": "казаться хорошим / казаться обеспокоенным / счастливым",
+        "subtext": "казаться хорошим / казаться обеспокоенным",
+        "synonyms": ["счастливым"],
         "form": "verb",
         "definitions": [
             {
@@ -3193,7 +3287,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "значить что-то / что это значит / иметь в виду",
+        "subtext": "значить что-то",
+        "synonyms": ["что это значит", "иметь в виду"],
         "form": "verb",
         "definitions": [
             {
@@ -3214,7 +3309,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "следовать инструкциям / следовать за кем-то / за новостями",
+        "subtext": "следовать инструкциям / следовать за кем-то",
+        "synonyms": ["за новостями"],
         "form": "verb",
         "definitions": [
             {
@@ -3235,7 +3331,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "продолжать работать / продолжать делать / задачу",
+        "subtext": "продолжать работать / продолжать делать",
+        "synonyms": ["задачу"],
         "form": "verb",
         "definitions": [
             {
@@ -3256,7 +3353,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "развивать бизнес / расти быстро / превращаться в",
+        "subtext": "расти быстро",
+        "synonyms": ["развивать бизнес", "превращаться в"],
         "form": "verb",
         "definitions": [
             {
@@ -3277,7 +3375,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "включать что-то / включать в / не включено",
+        "subtext": "включать что-то / включать в",
+        "synonyms": ["не включено"],
         "form": "verb",
         "definitions": [
             {
@@ -3298,7 +3397,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
-        "subtext": "стать менеджером / стать популярным / стать понятным",
+        "subtext": "",
+        "synonyms": ["стать менеджером", "стать популярным", "стать понятным"],
         "form": "verb",
         "definitions": [
             {
@@ -3319,7 +3419,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "принадлежать кому-то / принадлежать к / чувствовать себя своим",
+        "subtext": "принадлежать кому-то / принадлежать к",
+        "synonyms": ["чувствовать себя своим"],
         "form": "verb",
         "definitions": [
             {

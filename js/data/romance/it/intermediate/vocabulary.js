@@ -78,7 +78,8 @@
         "emoji": "📉",
         "form": "noun",
         "plural": "licenziamenti",
-        "subtext": "perdere il lavoro",
+        "subtext": "",
+        "synonyms": ["perdere il lavoro"],
         "definitions": [
             {
                 "text": "Perdere il lavoro perché il datore di lavoro non ha più bisogno della posizione.",
@@ -181,7 +182,8 @@
         "emoji": "🛠️",
         "form": "noun",
         "plural": "competenze",
-        "subtext": "abilità, capacità",
+        "subtext": "",
+        "synonyms": ["abilità", "capacità"],
         "definitions": [
             {
                 "text": "La capacità di fare bene qualcosa, solitamente acquisita attraverso la pratica.",
@@ -199,7 +201,8 @@
         "emoji": "👨‍💻",
         "form": "noun",
         "plural": "lavoratori autonomi",
-        "subtext": "freelance",
+        "subtext": "",
+        "synonyms": ["freelance"],
         "definitions": [
             {
                 "text": "Lavorare per se stessi piuttosto che per un'azienda.",
@@ -319,7 +322,8 @@
         "emoji": "🏦",
         "form": "noun",
         "plural": "tasse",
-        "subtext": "imposta",
+        "subtext": "",
+        "synonyms": ["imposta"],
         "definitions": [
             {
                 "text": "Denaro pagato al governo in base al reddito o agli acquisti.",
@@ -371,7 +375,8 @@
         "emoji": "🔥",
         "form": "noun",
         "plural": null,
-        "subtext": "esaurimento",
+        "subtext": "",
+        "synonyms": ["esaurimento"],
         "definitions": [
             {
                 "text": "Uno stato di esaurimento causato da troppo stress per lungo tempo.",
@@ -508,7 +513,8 @@
         "emoji": "🚧",
         "form": "noun",
         "plural": "confini",
-        "subtext": "limite",
+        "subtext": "",
+        "synonyms": ["limite"],
         "definitions": [
             {
                 "text": "Un limite a ciò che si è disposti ad accettare in una relazione.",
@@ -698,7 +704,8 @@
         "emoji": "🗑️",
         "form": "noun",
         "plural": "rifiuti",
-        "subtext": "scarti",
+        "subtext": "",
+        "synonyms": ["scarti"],
         "definitions": [
             {
                 "text": "Materiale che non è più necessario e viene buttato via.",
@@ -714,7 +721,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔄",
         "form": "adverb",
-        "subtext": "però, ciononostante",
+        "subtext": "",
+        "synonyms": ["però", "ciononostante"],
         "definitions": [
             {
                 "text": "Usato per introdurre un contrasto o un'idea opposta.",
@@ -730,7 +738,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔗",
         "form": "conjunction",
-        "subtext": "nonostante",
+        "subtext": "",
+        "synonyms": ["nonostante"],
         "definitions": [
             {
                 "text": "Nonostante il fatto che; anche se.",
@@ -746,7 +755,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "⚖️",
         "form": "adverb",
-        "subtext": "per contro",
+        "subtext": "",
+        "synonyms": ["per contro"],
         "definitions": [
             {
                 "text": "Usato per introdurre un punto di contrasto.",
@@ -762,7 +772,8 @@
         "theme": "expressing_opinion_B1",
         "emoji": "🗣️",
         "form": "adverb",
-        "subtext": "a mio parere",
+        "subtext": "",
+        "synonyms": ["a mio parere"],
         "definitions": [
             {
                 "text": "Usato per introdurre la tua opinione personale.",
@@ -778,7 +789,8 @@
         "theme": "discourse_markers_B1",
         "emoji": "➡️",
         "form": "adverb",
-        "subtext": "perciò",
+        "subtext": "",
+        "synonyms": ["perciò"],
         "definitions": [
             {
                 "text": "A causa di questo; conseguentemente.",

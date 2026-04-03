@@ -1751,7 +1751,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decide to do / decide on / make a decision / hard to decide",
+        "subtext": "decide to do / decide on / hard to decide",
+        "synonyms": ["make a decision"],
         "form": "verb",
         "definitions": [
             {
@@ -2148,7 +2149,8 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➖",
-        "subtext": "subtract from / minus",
+        "subtext": "subtract from",
+        "synonyms": ["minus"],
         "opposite": "add",
         "oppositeEmoji": "➕",
         "form": "verb",
@@ -2376,7 +2378,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
-        "subtext": "sell products / sell online / sell at the market / best seller",
+        "subtext": "sell products / sell online / sell at the market",
+        "synonyms": ["best seller"],
         "opposite": "buy",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2629,7 +2632,8 @@
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "cry for help / cry out / start crying / cry about something",
+        "subtext": "cry for help / cry out / cry about something",
+        "synonyms": ["start crying"],
         "opposite": "smile",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2655,7 +2659,8 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "dance to music / go dancing / dance together / slow dance",
+        "subtext": "dance to music / dance together / slow dance",
+        "synonyms": ["go dancing"],
         "form": "verb",
         "definitions": [
             {
@@ -2680,7 +2685,8 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "sing a song / sing along / sing well / lead singer",
+        "subtext": "sing a song / sing along / sing well",
+        "synonyms": ["lead singer"],
         "form": "verb",
         "definitions": [
             {
@@ -2730,7 +2736,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "go swimming / swim across / swim laps / swim well",
+        "subtext": "swim across / swim laps / swim well",
+        "synonyms": ["go swimming"],
         "form": "verb",
         "definitions": [
             {
@@ -2927,7 +2934,8 @@
                 ]
             }
         ],
-        "subtext": "have breakfast at home / have a quick breakfast / skip breakfast",
+        "subtext": "have breakfast at home / have a quick breakfast",
+        "synonyms": ["skip breakfast"],
         "classification": "irregular",
         "aspect": "action",
         "v2": "had breakfast",
@@ -3576,7 +3584,8 @@
         "form": "verb",
         "opposite": "end",
         "oppositeEmoji": "🏁",
-        "subtext": "start / begin a meeting / begin to work",
+        "subtext": "begin a meeting / begin to work",
+        "synonyms": ["start"],
         "definitions": [
             {
                 "text": "To start to do something.",
@@ -3601,7 +3610,8 @@
         "form": "verb",
         "opposite": "begin",
         "oppositeEmoji": "▶️",
-        "subtext": "finish, stop / end a class / at the end",
+        "subtext": "end a class / at the end",
+        "synonyms": ["finish", "stop"],
         "definitions": [
             {
                 "text": "To finish; to stop.",
@@ -3624,7 +3634,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪥",
         "form": "verb",
-        "subtext": "brush your teeth / hairbrush",
+        "subtext": "brush your teeth",
+        "synonyms": ["hairbrush"],
         "definitions": [
             {
                 "text": "To clean something with a brush.",
@@ -3672,7 +3683,8 @@
         "theme": "giving_opinions_A1",
         "emoji": "🙏",
         "form": "verb",
-        "subtext": "think, trust / believe in / I believe so",
+        "subtext": "believe in / I believe so",
+        "synonyms": ["think", "trust"],
         "definitions": [
             {
                 "text": "To think that something is true.",
@@ -3744,7 +3756,8 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "form": "verb",
-        "subtext": "repair / fix a problem / fix a computer",
+        "subtext": "fix a problem / fix a computer",
+        "synonyms": ["repair"],
         "definitions": [
             {
                 "text": "To repair something that is broken.",
@@ -3768,7 +3781,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "📅",
         "form": "verb",
-        "subtext": "decide / plan a trip / plan for the future",
+        "subtext": "plan a trip / plan for the future",
+        "synonyms": ["decide"],
         "definitions": [
             {
                 "text": "To decide what you are going to do.",
@@ -3816,7 +3830,8 @@
         "theme": "body_parts_A1",
         "emoji": "👃",
         "form": "verb",
-        "subtext": "scent / smell good / smell the flowers",
+        "subtext": "smell good / smell the flowers",
+        "synonyms": ["scent"],
         "definitions": [
             {
                 "text": "To notice or recognize something using your nose.",
@@ -3840,7 +3855,8 @@
         "theme": "tastes_textures_A1",
         "emoji": "👅",
         "form": "verb",
-        "subtext": "flavor / taste good / have a taste",
+        "subtext": "taste good / have a taste",
+        "synonyms": ["flavor"],
         "definitions": [
             {
                 "text": "To sense the flavor of something in your mouth.",
@@ -3864,7 +3880,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
         "form": "verb",
-        "subtext": "recline / lie down / lie on the bed",
+        "subtext": "lie down / lie on the bed",
+        "synonyms": ["recline"],
         "definitions": [
             {
                 "text": "To be in a horizontal position on a surface.",
@@ -3890,7 +3907,8 @@
         "form": "verb",
         "opposite": "cry",
         "oppositeEmoji": "😢",
-        "subtext": "chuckle / laugh at / laugh together",
+        "subtext": "laugh at / laugh together",
+        "synonyms": ["chuckle"],
         "definitions": [
             {
                 "text": "To make sounds with your voice because you think something is funny.",
@@ -3913,7 +3931,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "verb",
-        "subtext": "fret / worry about / don't worry",
+        "subtext": "worry about / don't worry",
+        "synonyms": ["fret"],
         "definitions": [
             {
                 "text": "To think about problems or unpleasant things that might happen.",
@@ -3937,7 +3956,8 @@
         "theme": "giving_opinions_A1",
         "emoji": "👂",
         "form": "verb",
-        "subtext": "seem / sound like / sound good",
+        "subtext": "sound like / sound good",
+        "synonyms": ["seem"],
         "definitions": [
             {
                 "text": "To seem like something from what you have heard or read.",
@@ -3961,7 +3981,8 @@
         "theme": "classroom_language_A1",
         "emoji": "🔤",
         "form": "verb",
-        "subtext": "lettering / spell your name / spell correctly",
+        "subtext": "spell your name / spell correctly",
+        "synonyms": ["lettering"],
         "definitions": [
             {
                 "text": "To say or write the letters of a word in the correct order.",
@@ -3985,7 +4006,8 @@
         "theme": "classroom_language_A1",
         "emoji": "☝️",
         "form": "verb",
-        "subtext": "indicate / point to / point at",
+        "subtext": "point to / point at",
+        "synonyms": ["indicate"],
         "definitions": [
             {
                 "text": "To show something by holding out your finger towards it.",
@@ -4010,7 +4032,8 @@
         "theme": "classroom_language_A1",
         "emoji": "📢",
         "form": "verb",
-        "subtext": "yell / shout at / don't shout",
+        "subtext": "shout at / don't shout",
+        "synonyms": ["yell"],
         "definitions": [
             {
                 "text": "To say something very loudly.",
@@ -4034,7 +4057,8 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "verb",
-        "subtext": "greet / wave goodbye / wave hello",
+        "subtext": "wave goodbye / wave hello",
+        "synonyms": ["greet"],
         "definitions": [
             {
                 "text": "To move your hand from side to side in the air to say hello or goodbye.",
@@ -4058,7 +4082,8 @@
         "theme": "common_sports_A1",
         "emoji": "🦶",
         "form": "verb",
-        "subtext": "strike / kick a ball / kick hard",
+        "subtext": "kick a ball / kick hard",
+        "synonyms": ["strike"],
         "definitions": [
             {
                 "text": "To hit something with your foot.",
@@ -4082,7 +4107,8 @@
         "theme": "common_sports_A1",
         "emoji": "⚾",
         "form": "verb",
-        "subtext": "toss / throw a ball / throw away",
+        "subtext": "throw a ball / throw away",
+        "synonyms": ["toss"],
         "definitions": [
             {
                 "text": "To make something move through the air by pushing it out of your hand.",
@@ -4106,7 +4132,8 @@
         "theme": "common_sports_A1",
         "emoji": "🏀",
         "form": "verb",
-        "subtext": "rebound / bounce a ball / bouncing",
+        "subtext": "bounce a ball",
+        "synonyms": ["rebound", "bouncing"],
         "definitions": [
             {
                 "text": "To move up or away after hitting a surface.",
@@ -4130,7 +4157,8 @@
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
         "form": "verb",
-        "subtext": "color / paint a picture / painting",
+        "subtext": "paint a picture",
+        "synonyms": ["color", "painting"],
         "definitions": [
             {
                 "text": "To make a picture using paint.",
@@ -4154,7 +4182,8 @@
         "theme": "leisure_activities_A1",
         "emoji": "🐇",
         "form": "verb",
-        "subtext": "jump / hop around / hop like a rabbit",
+        "subtext": "hop around / hop like a rabbit",
+        "synonyms": ["jump"],
         "definitions": [
             {
                 "text": "To jump on one foot.",
@@ -4178,7 +4207,8 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
         "form": "verb",
-        "subtext": "jump / skip rope / skipping",
+        "subtext": "skip rope",
+        "synonyms": ["jump", "skipping"],
         "definitions": [
             {
                 "text": "To move along by jumping from one foot to the other.",
@@ -4202,7 +4232,8 @@
         "theme": "numbers_0_9_A1",
         "emoji": "🔢",
         "form": "verb",
-        "subtext": "calculate / count to ten / count numbers",
+        "subtext": "count to ten / count numbers",
+        "synonyms": ["calculate"],
         "definitions": [
             {
                 "text": "To say numbers in order.",
@@ -4226,7 +4257,8 @@
         "theme": "classroom_language_A1",
         "emoji": "✅",
         "form": "verb",
-        "subtext": "check / tick the box / tick correctly",
+        "subtext": "tick the box / tick correctly",
+        "synonyms": ["check"],
         "definitions": [
             {
                 "text": "To put a mark (✓) next to something to show it is correct.",
@@ -4250,7 +4282,8 @@
         "theme": "classroom_language_A1",
         "emoji": "❌",
         "form": "verb",
-        "subtext": "x-mark / cross out / cross the answer",
+        "subtext": "cross out / cross the answer",
+        "synonyms": ["x-mark"],
         "definitions": [
             {
                 "text": "To put a mark (X) next to something to show it is wrong.",
@@ -4274,7 +4307,8 @@
         "theme": "classroom_language_A1",
         "emoji": "🖍️",
         "form": "verb",
-        "subtext": "color / colour the picture / use colours",
+        "subtext": "colour the picture / use colours",
+        "synonyms": ["color"],
         "definitions": [
             {
                 "text": "To use a pen or pencil to put colour on a picture.",
@@ -4298,7 +4332,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🤲",
         "form": "verb",
-        "subtext": "grip / hold my hand / hold on",
+        "subtext": "hold my hand / hold on",
+        "synonyms": ["grip"],
         "definitions": [
             {
                 "text": "To have or keep something in your hand or arms.",
@@ -4323,7 +4358,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "👤",
         "form": "verb",
-        "subtext": "guide, direct / lead a team / follow the lead",
+        "subtext": "lead a team / follow the lead",
+        "synonyms": ["guide", "direct"],
         "definitions": [
             {
                 "text": "To control a group of people, a country, or a situation.",
@@ -4347,7 +4383,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "⚔️",
         "form": "verb",
-        "subtext": "battle / fight for / a big fight",
+        "subtext": "fight for / a big fight",
+        "synonyms": ["battle"],
         "definitions": [
             {
                 "text": "To use physical force to try to hurt someone or win something.",
@@ -4396,7 +4433,8 @@
         "theme": "toys_games_A1",
         "emoji": "🔍",
         "form": "verb",
-        "subtext": "look for / hide and seek / seek help",
+        "subtext": "hide and seek / seek help",
+        "synonyms": ["look for"],
         "definitions": [
             {
                 "text": "To try to find or get something.",
@@ -4420,7 +4458,8 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🔔",
         "form": "verb",
-        "subtext": "chime / phone is ringing / ring a bell",
+        "subtext": "ring a bell",
+        "synonyms": ["chime", "phone is ringing"],
         "definitions": [
             {
                 "text": "To make a sound like a bell.",
@@ -4444,7 +4483,8 @@
         "theme": "using_smartphone_A1",
         "emoji": "📱",
         "form": "verb",
-        "subtext": "message / text someone / send a text",
+        "subtext": "text someone / send a text",
+        "synonyms": ["message"],
         "definitions": [
             {
                 "text": "To send a message from a mobile phone.",
@@ -4468,7 +4508,8 @@
         "theme": "classroom_language_A1",
         "emoji": "🤫",
         "form": "verb",
-        "subtext": "murmur / whisper a secret / speak softly",
+        "subtext": "whisper a secret",
+        "synonyms": ["murmur", "speak softly"],
         "definitions": [
             {
                 "text": "To speak very quietly so that other people cannot hear you.",
@@ -4492,7 +4533,8 @@
         "theme": "five_senses_A1",
         "emoji": "🫱",
         "form": "verb",
-        "subtext": "feel / don't touch / touch screen",
+        "subtext": "don't touch / touch screen",
+        "synonyms": ["feel"],
         "definitions": [
             {
                 "text": "To put your hand or another part of your body on something.",
@@ -4639,7 +4681,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👗",
-        "subtext": "get dressed / dress well / dress for work",
+        "subtext": "dress well / dress for work",
+        "synonyms": ["get dressed"],
         "opposite": "undress",
         "oppositeEmoji": "👕",
         "form": "verb",
@@ -4665,7 +4708,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👕",
-        "subtext": "get undressed / undress quickly",
+        "subtext": "undress quickly",
+        "synonyms": ["get undressed"],
         "opposite": "dress",
         "oppositeEmoji": "👗",
         "form": "verb",
@@ -5021,7 +5065,8 @@
         "v2": "breathed",
         "v3": "breathed",
         "group": "regular",
-        "subtext": "inhale / exhale"
+        "subtext": "",
+        "synonyms": ["inhale", "exhale"]
     },
 
 
@@ -5067,7 +5112,8 @@
         "v2": "sneezed",
         "v3": "sneezed",
         "group": "regular",
-        "subtext": "atchoo!"
+        "subtext": "",
+        "synonyms": ["atchoo!"]
     },
 
 
@@ -5090,7 +5136,8 @@
         "v2": "yawned",
         "v3": "yawned",
         "group": "regular",
-        "subtext": "feel sleepy"
+        "subtext": "",
+        "synonyms": ["feel sleepy"]
     }
     ];
     const lang = "en";

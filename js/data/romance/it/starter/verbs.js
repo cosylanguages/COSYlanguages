@@ -28,7 +28,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "avere un lavoro / pranzare / avere un problema",
+        "subtext": "avere un lavoro / avere un problema",
+        "synonyms": ["pranzare"],
         "form": "verb",
         "definitions": [
             {
@@ -51,7 +52,8 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
-        "subtext": "sentirsi stanco / sentirsi meglio / sentirsi bene",
+        "subtext": "",
+        "synonyms": ["sentirsi stanco", "sentirsi meglio", "sentirsi bene"],
         "form": "verb",
         "definitions": [
             {
@@ -98,7 +100,8 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "prendere l autobus / prendere una medicina / fare una pausa",
+        "subtext": "prendere l autobus / prendere una medicina",
+        "synonyms": ["fare una pausa"],
         "opposite": "dare",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -122,7 +125,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "ottenere un lavoro / stancarsi / migliorare",
+        "subtext": "ottenere un lavoro",
+        "synonyms": ["stancarsi", "migliorare"],
         "form": "verb",
         "definitions": [
             {
@@ -145,7 +149,8 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "mettere / riporre / mettere giù il telefono",
+        "subtext": "mettere / mettere giù il telefono",
+        "synonyms": ["riporre"],
         "form": "verb",
         "definitions": [
             {
@@ -167,7 +172,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "fare il caffè / prendere una decisione / fare un errore",
+        "subtext": "fare il caffè / fare un errore",
+        "synonyms": ["prendere una decisione"],
         "form": "verb",
         "definitions": [
             {
@@ -329,7 +335,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "aiutare qualcuno / aiutare con / chiedere aiuto",
+        "subtext": "aiutare qualcuno / aiutare con",
+        "synonyms": ["chiedere aiuto"],
         "form": "verb",
         "definitions": [
             {
@@ -395,7 +402,8 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "trovare un lavoro / scoprire / trovare difficile",
+        "subtext": "trovare un lavoro / trovare difficile",
+        "synonyms": ["scoprire"],
         "form": "verb",
         "definitions": [
             {
@@ -417,7 +425,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "continuare / stare zitti / tenere un registro",
+        "subtext": "tenere un registro",
+        "synonyms": ["continuare", "stare zitti"],
         "form": "verb",
         "definitions": [
             {
@@ -486,7 +495,8 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "accendere / spegnere / girare a sinistra / girare a destra",
+        "subtext": "girare a sinistra / girare a destra",
+        "synonyms": ["accendere", "spegnere"],
         "form": "verb",
         "definitions": [
             {
@@ -552,7 +562,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "dire la verità / dire a qualcuno / raccontare una storia",
+        "subtext": "dire la verità / dire a qualcuno",
+        "synonyms": ["raccontare una storia"],
         "form": "verb",
         "definitions": [
             {
@@ -574,7 +585,8 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "fare una domanda / chiedere aiuto / chiedere di",
+        "subtext": "chiedere aiuto / chiedere di",
+        "synonyms": ["fare una domanda"],
         "form": "verb",
         "definitions": [
             {
@@ -640,7 +652,8 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "chiamare qualcuno / richiamare / convocare una riunione",
+        "subtext": "chiamare qualcuno",
+        "synonyms": ["richiamare", "convocare una riunione"],
         "form": "verb",
         "definitions": [
             {
@@ -754,7 +767,8 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "ripetere quello / ripetersi / ripetere un ordine",
+        "subtext": "ripetere quello / ripetere un ordine",
+        "synonyms": ["ripetersi"],
         "form": "verb",
         "definitions": [
             {
@@ -776,7 +790,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "andare al lavoro / andare a casa / uscire",
+        "subtext": "andare al lavoro / andare a casa",
+        "synonyms": ["uscire"],
         "form": "verb",
         "definitions": [
             {
@@ -798,7 +813,8 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "venire a casa / tornare / venire al lavoro",
+        "subtext": "venire a casa / venire al lavoro",
+        "synonyms": ["tornare"],
         "opposite": "andare",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -910,7 +926,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "lasciare casa / lasciare il lavoro / partire presto",
+        "subtext": "partire presto",
+        "synonyms": ["lasciare casa", "lasciare il lavoro"],
         "form": "verb",
         "definitions": [
             {
@@ -932,7 +949,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "traslocare / trasferirsi in una città / andare avanti",
+        "subtext": "trasferirsi in una città",
+        "synonyms": ["traslocare", "andare avanti"],
         "form": "verb",
         "definitions": [
             {
@@ -998,7 +1016,8 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "fare colazione / pranzare / cenare",
+        "subtext": "",
+        "synonyms": ["fare colazione", "pranzare", "cenare"],
         "opposite": "bere",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1136,7 +1155,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "lavare i piatti / lavare i vestiti / lavarsi le mani",
+        "subtext": "lavare i piatti / lavare i vestiti",
+        "synonyms": ["lavarsi le mani"],
         "form": "verb",
         "definitions": [
             {
@@ -1318,7 +1338,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "conoscere qualcuno / sapere la risposta / sapere come",
+        "subtext": "sapere la risposta / sapere come",
+        "synonyms": ["conoscere qualcuno"],
         "form": "verb",
         "definitions": [
             {
@@ -1363,7 +1384,8 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "bisogno di aiuto / bisogno di tempo / bisogno di soldi",
+        "subtext": "",
+        "synonyms": ["bisogno di aiuto", "bisogno di tempo", "bisogno di soldi"],
         "form": "verb",
         "definitions": [
             {
@@ -1386,7 +1408,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "mi piace il lavoro / mi piace viaggiare / mi piace l idea",
+        "subtext": "mi piace il lavoro / mi piace l idea",
+        "synonyms": ["mi piace viaggiare"],
         "form": "verb",
         "definitions": [
             {
@@ -1453,7 +1476,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "sperare / sperare di fare / spero di sì",
+        "subtext": "sperare / sperare di fare",
+        "synonyms": ["spero di sì"],
         "form": "verb",
         "definitions": [
             {
@@ -1541,7 +1565,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decidere di fare / decidere su / prendere una decisione",
+        "subtext": "decidere di fare / decidere su",
+        "synonyms": ["prendere una decisione"],
         "form": "verb",
         "definitions": [
             {
@@ -1563,7 +1588,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "godere di fare / godersi un pasto / godersi il lavoro",
+        "subtext": "godere di fare",
+        "synonyms": ["godersi un pasto", "godersi il lavoro"],
         "form": "verb",
         "definitions": [
             {
@@ -1675,7 +1701,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "guardare / cercare / assomigliare a",
+        "subtext": "guardare",
+        "synonyms": ["cercare", "assomigliare a"],
         "form": "verb",
         "definitions": [
             {
@@ -1719,7 +1746,8 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "correre / correre una corsa / dirigere un impresa",
+        "subtext": "correre / correre una corsa",
+        "synonyms": ["dirigere un impresa"],
         "form": "verb",
         "definitions": [
             {
@@ -1741,7 +1769,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sedersi / sedersi a un ufficio / sedersi in riunione",
+        "subtext": "sedersi a un ufficio",
+        "synonyms": ["sedersi", "sedersi in riunione"],
         "opposite": "stare in piedi",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1765,7 +1794,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "stare in piedi / alzarsi / essere in piedi",
+        "subtext": "stare in piedi",
+        "synonyms": ["alzarsi", "essere in piedi"],
         "opposite": "s asseoir",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1855,7 +1885,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "fermare / smettere di fare / fermare qualcuno",
+        "subtext": "fermare / fermare qualcuno",
+        "synonyms": ["smettere di fare"],
         "form": "verb",
         "definitions": [
             {
@@ -1944,7 +1975,8 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "morire / morire di / estinguersi",
+        "subtext": "morire / morire di",
+        "synonyms": ["estinguersi"],
         "opposite": "vivere",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2011,7 +2043,8 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "cadere / innamorarsi / addormentarsi",
+        "subtext": "cadere",
+        "synonyms": ["innamorarsi", "addormentarsi"],
         "form": "verb",
         "definitions": [
             {
@@ -2078,7 +2111,8 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "tirare / tirare la porta / allontanarsi",
+        "subtext": "tirare / tirare la porta",
+        "synonyms": ["allontanarsi"],
         "opposite": "spingere",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2147,7 +2181,8 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "rompere / rompere il vetro / fare una pausa",
+        "subtext": "rompere / rompere il vetro",
+        "synonyms": ["fare una pausa"],
         "form": "verb",
         "definitions": [
             {
@@ -2437,7 +2472,8 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "fare il pendolare / pendolarismo quotidiano / lungo pendolarismo",
+        "subtext": "fare il pendolare",
+        "synonyms": ["pendolarismo quotidiano", "lungo pendolarismo"],
         "form": "verb",
         "definitions": [
             {
@@ -2568,7 +2604,8 @@
                 ]
             }
         ],
-        "subtext": "fare colazione a casa / colazione veloce / saltare la colazione",
+        "subtext": "fare colazione a casa",
+        "synonyms": ["colazione veloce", "saltare la colazione"],
         "classification": "irregular",
         "aspect": "action",
         "v3": "fatto colazione",
@@ -2694,7 +2731,8 @@
                 ]
             }
         ],
-        "subtext": "partecipare a una riunione / frequentare un corso / partecipare a un evento",
+        "subtext": "partecipare a una riunione / partecipare a un evento",
+        "synonyms": ["frequentare un corso"],
         "classification": "regular",
         "aspect": "action",
         "v3": "partecipato",
@@ -2736,7 +2774,8 @@
                 ]
             }
         ],
-        "subtext": "addebitare una tariffa / far pagare un servizio / far pagare extra",
+        "subtext": "addebitare una tariffa / far pagare un servizio",
+        "synonyms": ["far pagare extra"],
         "classification": "regular",
         "aspect": "action",
         "v3": "addebitato",
@@ -2862,7 +2901,8 @@
                 ]
             }
         ],
-        "subtext": "consigliare un posto / raccomandare qualcuno / consigliare un film",
+        "subtext": "consigliare un posto / consigliare un film",
+        "synonyms": ["raccomandare qualcuno"],
         "classification": "regular",
         "aspect": "action",
         "v3": "consigliato",
@@ -2883,7 +2923,8 @@
                 ]
             }
         ],
-        "subtext": "farsi male alla schiena / far male a qualcuno / fa male",
+        "subtext": "farsi male alla schiena / far male a qualcuno",
+        "synonyms": ["fa male"],
         "classification": "irregular",
         "aspect": "both",
         "v3": "fatto male",
@@ -2967,7 +3008,8 @@
                 ]
             }
         ],
-        "subtext": "fare lo zaino / fare i bagagli / fare bagagli leggeri",
+        "subtext": "",
+        "synonyms": ["fare lo zaino", "fare i bagagli", "fare bagagli leggeri"],
         "classification": "regular",
         "aspect": "action",
         "v3": "fatto le valigie",
@@ -3067,7 +3109,8 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "ringraziare qualcuno / ringraziare per / molte grazie",
+        "subtext": "ringraziare qualcuno / ringraziare per",
+        "synonyms": ["molte grazie"],
         "form": "verb",
         "definitions": [
             {
@@ -3088,7 +3131,8 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "presentarsi / presentare qualcuno / presentare un argomento",
+        "subtext": "presentare qualcuno / presentare un argomento",
+        "synonyms": ["presentarsi"],
         "form": "verb",
         "definitions": [
             {
@@ -3130,7 +3174,8 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "riparare qualcosa / far riparare / costi di riparazione",
+        "subtext": "riparare qualcosa / far riparare",
+        "synonyms": ["costi di riparazione"],
         "form": "verb",
         "definitions": [
             {
@@ -3151,7 +3196,8 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "cos è successo / succedere a qualcuno / succede",
+        "subtext": "succedere a qualcuno",
+        "synonyms": ["cos è successo", "succede"],
         "form": "verb",
         "definitions": [
             {
@@ -3193,7 +3239,8 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "significare qualcosa / cosa significa / voler dire",
+        "subtext": "significare qualcosa",
+        "synonyms": ["cosa significa", "voler dire"],
         "form": "verb",
         "definitions": [
             {
@@ -3256,7 +3303,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "far crescere un azienda / crescere velocemente / trasformarsi in",
+        "subtext": "far crescere un azienda / crescere velocemente",
+        "synonyms": ["trasformarsi in"],
         "form": "verb",
         "definitions": [
             {
@@ -3277,7 +3325,8 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "includere qualcosa / includere in / non incluso",
+        "subtext": "includere qualcosa / includere in",
+        "synonyms": ["non incluso"],
         "form": "verb",
         "definitions": [
             {
@@ -3319,7 +3368,8 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "appartenere a qualcuno / appartenere a / sentirsi a casa",
+        "subtext": "appartenere a qualcuno / appartenere a",
+        "synonyms": ["sentirsi a casa"],
         "form": "verb",
         "definitions": [
             {

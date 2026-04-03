@@ -17,7 +17,8 @@
                 ]
             }
         ],
-        "subtext": "molto bello / una bella giornata / bella vista",
+        "subtext": "molto bello",
+        "synonyms": ["una bella giornata", "bella vista"],
         "comparative": "più bello",
         "superlative": "il più bello",
         "opposite": "brutto"
@@ -39,7 +40,8 @@
                 ]
             }
         ],
-        "subtext": "muscoli forti / molto forte / abbastanza forte",
+        "subtext": "molto forte / abbastanza forte",
+        "synonyms": ["muscoli forti"],
         "comparative": "più forte",
         "superlative": "il più forte",
         "opposite": "debole"
@@ -61,7 +63,8 @@
                 ]
             }
         ],
-        "subtext": "biondo naturale / capelli biondi / biondo chiaro",
+        "subtext": "biondo naturale / biondo chiaro",
+        "synonyms": ["capelli biondi"],
         "comparative": "più biondo",
         "superlative": "il più biondo",
         "opposite": "moro"
@@ -83,7 +86,8 @@
                 ]
             }
         ],
-        "subtext": "tempo nevoso / giornata nevosa / freddo e nevoso",
+        "subtext": "tempo nevoso / freddo e nevoso",
+        "synonyms": ["giornata nevosa"],
         "comparative": "più nevoso",
         "superlative": "il più nevoso",
         "opposite": "sereno"
@@ -105,7 +109,8 @@
                 ]
             }
         ],
-        "subtext": "molto ventoso / giornata ventosa / freddo e ventoso",
+        "subtext": "molto ventoso / freddo e ventoso",
+        "synonyms": ["giornata ventosa"],
         "comparative": "più ventoso",
         "superlative": "il più ventoso",
         "opposite": "calmo"
@@ -149,7 +154,8 @@
                 ]
             }
         ],
-        "subtext": "fisico atletico / molto atletico / prestazione atletica",
+        "subtext": "fisico atletico / molto atletico",
+        "synonyms": ["prestazione atletica"],
         "comparative": "più atletico",
         "superlative": "il più atletico",
         "opposite": "pigro"
@@ -215,7 +221,8 @@
                 ]
             }
         ],
-        "subtext": "molto comodo / situato comodamente / un orario comodo",
+        "subtext": "molto comodo / un orario comodo",
+        "synonyms": ["situato comodamente"],
         "comparative": "più comodo",
         "superlative": "il più comodo",
         "opposite": "scomodo"
@@ -281,7 +288,8 @@
                 ]
             }
         ],
-        "subtext": "molto pratico / altamente pratico / una soluzione pratica",
+        "subtext": "molto pratico / altamente pratico",
+        "synonyms": ["una soluzione pratica"],
         "comparative": "più pratico",
         "superlative": "il più pratico",
         "opposite": "impratico"
@@ -325,7 +333,8 @@
                 ]
             }
         ],
-        "subtext": "molto occupato / una giornata impegnativa / troppo occupato per parlare",
+        "subtext": "molto occupato / troppo occupato per parlare",
+        "synonyms": ["una giornata impegnativa"],
         "comparative": "più occupato",
         "superlative": "il più occupato",
         "opposite": "libero"
@@ -347,7 +356,8 @@
                 ]
             }
         ],
-        "subtext": "orari flessibili / approccio flessibile / molto flessibile",
+        "subtext": "approccio flessibile / molto flessibile",
+        "synonyms": ["orari flessibili"],
         "comparative": "più flessibile",
         "superlative": "il più flessibile",
         "opposite": "rigido"
@@ -501,7 +511,8 @@
                 ]
             }
         ],
-        "subtext": "di grande successo / una carriera di successo / molto vincente",
+        "subtext": "una carriera di successo",
+        "synonyms": ["di grande successo", "molto vincente"],
         "comparative": "di maggior successo",
         "superlative": "di massimo successo",
         "opposite": "fallimentare"
@@ -545,7 +556,8 @@
                 ]
             }
         ],
-        "subtext": "molto creativo / pensiero creativo / soluzione creativa",
+        "subtext": "molto creativo / pensiero creativo",
+        "synonyms": ["soluzione creativa"],
         "comparative": "più creativo",
         "superlative": "il più creativo",
         "opposite": "poco creativo"
@@ -567,7 +579,8 @@
                 ]
             }
         ],
-        "subtext": "molto produttivo / altamente produttivo / una riunione produttiva",
+        "subtext": "molto produttivo / altamente produttivo",
+        "synonyms": ["una riunione produttiva"],
         "comparative": "più produttivo",
         "superlative": "il più produttivo",
         "opposite": "improduttivo"
@@ -633,7 +646,8 @@
                 ]
             }
         ],
-        "subtext": "molto economico / opzione economica / semplice ed economico",
+        "subtext": "molto economico / semplice ed economico",
+        "synonyms": ["opzione economica"],
         "comparative": "più economico",
         "superlative": "il più economico",
         "opposite": "costoso"
@@ -655,7 +669,8 @@
                 ]
             }
         ],
-        "subtext": "molto costoso / gusti costosi / troppo costoso",
+        "subtext": "molto costoso / troppo costoso",
+        "synonyms": ["gusti costosi"],
         "comparative": "più costoso",
         "superlative": "il più costoso",
         "opposite": "economico"
@@ -699,7 +714,8 @@
                 ]
             }
         ],
-        "subtext": "vale i soldi / vale la pena farlo / vale la pena considerare",
+        "subtext": "vale la pena farlo / vale la pena considerare",
+        "synonyms": ["vale i soldi"],
         "comparative": "più valere la pena",
         "superlative": "il più valere la pena",
         "opposite": "senza valore"
@@ -721,7 +737,8 @@
                 ]
             }
         ],
-        "subtext": "gratuito / completamente gratuito / prova gratuita",
+        "subtext": "gratuito / completamente gratuito",
+        "synonyms": ["prova gratuita"],
         "comparative": "più gratuito",
         "superlative": "il più gratuito",
         "opposite": "a pagamento"
@@ -787,7 +804,8 @@
                 ]
             }
         ],
-        "subtext": "molto povero / di scarsa qualità / estremamente povero",
+        "subtext": "molto povero / estremamente povero",
+        "synonyms": ["di scarsa qualità"],
         "comparative": "più povero",
         "superlative": "il più povero",
         "opposite": "ricco"
@@ -809,7 +827,8 @@
                 ]
             }
         ],
-        "subtext": "dieta sana / molto sano / restare sano",
+        "subtext": "molto sano / restare sano",
+        "synonyms": ["dieta sana"],
         "comparative": "più sano",
         "superlative": "il più sano",
         "opposite": "malsano"
@@ -831,7 +850,8 @@
                 ]
             }
         ],
-        "subtext": "molto malsano / abitudini malsane / profondamente malsano",
+        "subtext": "molto malsano / profondamente malsano",
+        "synonyms": ["abitudini malsane"],
         "comparative": "più malsano",
         "superlative": "il più malsano",
         "opposite": "sano"
@@ -853,7 +873,8 @@
                 ]
             }
         ],
-        "subtext": "seriamente malato / ammalarsi / sentirsi malato",
+        "subtext": "seriamente malato / sentirsi malato",
+        "synonyms": ["ammalarsi"],
         "comparative": "più malato",
         "superlative": "il più malato",
         "opposite": "sano"
@@ -1029,7 +1050,8 @@
                 ]
             }
         ],
-        "subtext": "molto educato / rifiutare educatamente / essere educato",
+        "subtext": "molto educato / essere educato",
+        "synonyms": ["rifiutare educatamente"],
         "comparative": "più educato",
         "superlative": "il più educato",
         "opposite": "maleducato"
@@ -1073,7 +1095,8 @@
                 ]
             }
         ],
-        "subtext": "sicuro di sé / molto sicuro / sentirsi sicuro",
+        "subtext": "sicuro di sé",
+        "synonyms": ["molto sicuro", "sentirsi sicuro"],
         "comparative": "più sicuro di sé",
         "superlative": "il più sicuro di sé",
         "opposite": "insicuro"
@@ -1183,7 +1206,8 @@
                 ]
             }
         ],
-        "subtext": "affari internazionali / pienamente internazionale / team internazionale",
+        "subtext": "pienamente internazionale / team internazionale",
+        "synonyms": ["affari internazionali"],
         "comparative": "più internazionale",
         "superlative": "il più internazionale",
         "opposite": "locale"
@@ -1227,7 +1251,8 @@
                 ]
             }
         ],
-        "subtext": "molto noioso / una riunione noiosa / trovare noioso",
+        "subtext": "molto noioso / trovare noioso",
+        "synonyms": ["una riunione noiosa"],
         "comparative": "più noioso",
         "superlative": "il più noioso",
         "opposite": "interessante"
@@ -1249,7 +1274,8 @@
                 ]
             }
         ],
-        "subtext": "molto strano / una strana sensazione / trovare strano",
+        "subtext": "molto strano / trovare strano",
+        "synonyms": ["una strana sensazione"],
         "comparative": "più strano",
         "superlative": "il più strano",
         "opposite": "normale"
@@ -1293,7 +1319,8 @@
                 ]
             }
         ],
-        "subtext": "molto tipico / una giornata tipica / tipico di",
+        "subtext": "molto tipico / tipico di",
+        "synonyms": ["una giornata tipica"],
         "comparative": "più tipico",
         "superlative": "il più tipico",
         "opposite": "atipico"
@@ -1315,7 +1342,8 @@
                 ]
             }
         ],
-        "subtext": "molto comune / problema comune / buon senso",
+        "subtext": "molto comune / problema comune",
+        "synonyms": ["buon senso"],
         "comparative": "più comune",
         "superlative": "il più comune",
         "opposite": "raro"
@@ -1337,7 +1365,8 @@
                 ]
             }
         ],
-        "subtext": "molto raro / opportunità rara / un evento raro",
+        "subtext": "molto raro / un evento raro",
+        "synonyms": ["opportunità rara"],
         "comparative": "più raro",
         "superlative": "il più raro",
         "opposite": "comune"
@@ -1469,7 +1498,8 @@
                 ]
             }
         ],
-        "subtext": "molto serio / del tutto serio / una questione seria",
+        "subtext": "molto serio / del tutto serio",
+        "synonyms": ["una questione seria"],
         "comparative": "più serio",
         "superlative": "il più serio",
         "opposite": "divertente"
@@ -1513,7 +1543,8 @@
                 ]
             }
         ],
-        "subtext": "molto diretto / approccio diretto / una domanda diretta",
+        "subtext": "molto diretto / approccio diretto",
+        "synonyms": ["una domanda diretta"],
         "comparative": "più diretto",
         "superlative": "il più diretto",
         "opposite": "indiretto"
@@ -1535,7 +1566,8 @@
                 ]
             }
         ],
-        "subtext": "routine quotidiana / su base quotidiana / rapporto quotidiano",
+        "subtext": "rapporto quotidiano",
+        "synonyms": ["routine quotidiana", "su base quotidiana"],
         "comparative": "più quotidiano",
         "superlative": "il più quotidiano",
         "opposite": "mensile"
@@ -1579,7 +1611,8 @@
                 ]
             }
         ],
-        "subtext": "il più recente / molto recente / notizie recenti",
+        "subtext": "il più recente / molto recente",
+        "synonyms": ["notizie recenti"],
         "comparative": "più recente",
         "superlative": "il più recente",
         "opposite": "vecchio"
@@ -1601,7 +1634,8 @@
                 ]
             }
         ],
-        "subtext": "situazione attuale / datore di lavoro attuale / attualmente",
+        "subtext": "situazione attuale / datore di lavoro attuale",
+        "synonyms": ["attualmente"],
         "comparative": "più attuale",
         "superlative": "il più attuale",
         "opposite": "passato"
@@ -1623,7 +1657,8 @@
                 ]
             }
         ],
-        "subtext": "progetti futuri / in futuro / futuro datore di lavoro",
+        "subtext": "in futuro / futuro datore di lavoro",
+        "synonyms": ["progetti futuri"],
         "comparative": "più futuro",
         "superlative": "il più futuro",
         "opposite": "passato"
