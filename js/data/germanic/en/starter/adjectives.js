@@ -29,7 +29,8 @@
             "lofty"
         ],
         "comparative": "taller",
-        "superlative": "the tallest"
+        "superlative": "the tallest",
+        "transcription": "tɔl"
     },
     {
         "word": "short",
@@ -60,7 +61,8 @@
             "brief"
         ],
         "comparative": "shorter",
-        "superlative": "the shortest"
+        "superlative": "the shortest",
+        "transcription": "ʃɔrt"
     },
     {
         "word": "young",
@@ -83,7 +85,8 @@
             "youthful"
         ],
         "comparative": "younger",
-        "superlative": "the youngest"
+        "superlative": "the youngest",
+        "transcription": "jəŋ"
     },
     {
         "word": "old",
@@ -113,7 +116,8 @@
             "ancient"
         ],
         "comparative": "older",
-        "superlative": "the oldest"
+        "superlative": "the oldest",
+        "transcription": "oʊld"
     },
     {
         "word": "sunny",
@@ -138,7 +142,8 @@
             "clear"
         ],
         "comparative": "sunnier",
-        "superlative": "the sunniest"
+        "superlative": "the sunniest",
+        "transcription": "ˈsəni"
     },
     {
         "word": "rainy",
@@ -163,7 +168,8 @@
             "showery"
         ],
         "comparative": "rainier",
-        "superlative": "the rainiest"
+        "superlative": "the rainiest",
+        "transcription": "ˈreɪni"
     },
     {
         "word": "hot",
@@ -185,7 +191,8 @@
             }
         ],
         "comparative": "hotter",
-        "superlative": "the hottest"
+        "superlative": "the hottest",
+        "transcription": "hɑt"
     },
     {
         "word": "cold",
@@ -212,7 +219,8 @@
             }
         ],
         "comparative": "colder",
-        "superlative": "the coldest"
+        "superlative": "the coldest",
+        "transcription": "koʊld"
     },
     {
         "word": "cheap",
@@ -242,7 +250,8 @@
             }
         ],
         "comparative": "cheaper",
-        "superlative": "the cheapest"
+        "superlative": "the cheapest",
+        "transcription": "ʧip"
     },
     {
         "word": "expensive",
@@ -272,7 +281,8 @@
             }
         ],
         "comparative": "more expensive",
-        "superlative": "the most expensive"
+        "superlative": "the most expensive",
+        "transcription": "ɪkˈspɛnsɪv"
     },
     {
         "word": "good",
@@ -303,7 +313,8 @@
             }
         ],
         "comparative": "better",
-        "superlative": "the best"
+        "superlative": "the best",
+        "transcription": "gʊd"
     },
     {
         "word": "bad",
@@ -334,7 +345,8 @@
             }
         ],
         "comparative": "worse",
-        "superlative": "the worst"
+        "superlative": "the worst",
+        "transcription": "bæd"
     },
     {
         "word": "big",
@@ -364,7 +376,8 @@
             }
         ],
         "comparative": "bigger",
-        "superlative": "the biggest"
+        "superlative": "the biggest",
+        "transcription": "bɪg"
     },
     {
         "word": "small",
@@ -394,7 +407,8 @@
             }
         ],
         "comparative": "smaller",
-        "superlative": "the smallest"
+        "superlative": "the smallest",
+        "transcription": "smɔl"
     },
     {
         "word": "easy",
@@ -415,7 +429,8 @@
         ],
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "easier",
-        "superlative": "the easiest"
+        "superlative": "the easiest",
+        "transcription": "ˈizi"
     },
     {
         "word": "difficult",
@@ -441,7 +456,8 @@
         ],
         "subtext": "difficult to do / very difficult / find it difficult",
         "comparative": "more difficult",
-        "superlative": "the most difficult"
+        "superlative": "the most difficult",
+        "transcription": "ˈdɪfəkəlt"
     },
     {
         "word": "happy",
@@ -472,7 +488,8 @@
             }
         ],
         "comparative": "happier",
-        "superlative": "the happiest"
+        "superlative": "the happiest",
+        "transcription": "ˈhæpi"
     },
     {
         "word": "tired",
@@ -493,7 +510,8 @@
             }
         ],
         "comparative": "more tired",
-        "superlative": "the most tired"
+        "superlative": "the most tired",
+        "transcription": "taɪərd"
     },
     {
         "word": "full-time",
@@ -513,7 +531,8 @@
         ],
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈfʊlˌtaɪm"
     },
     {
         "word": "thirsty",
@@ -521,7 +540,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "🥤",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "satisfied",
         "oppositeEmoji": "😌",
         "definitions": [
             {
@@ -537,7 +556,8 @@
             "dehydrated"
         ],
         "comparative": "thirstier",
-        "superlative": "the thirstiest"
+        "superlative": "the thirstiest",
+        "transcription": "ˈθərsti"
     },
     {
         "word": "part-time",
@@ -557,7 +577,8 @@
         ],
         "subtext": "part-time job / part-time work / part-time student",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈpɑrtˈtaɪm"
     },
     {
         "word": "clean",
@@ -578,7 +599,8 @@
             }
         ],
         "comparative": "cleaner",
-        "superlative": "the cleanest"
+        "superlative": "the cleanest",
+        "transcription": "klin"
     },
     {
         "word": "healthy",
@@ -598,7 +620,8 @@
             }
         ],
         "comparative": "healthier",
-        "superlative": "the healthiest"
+        "superlative": "the healthiest",
+        "transcription": "ˈhɛlθi"
     },
     {
         "word": "unhealthy",
@@ -622,7 +645,8 @@
             }
         ],
         "comparative": "more unhealthy",
-        "superlative": "the most unhealthy"
+        "superlative": "the most unhealthy",
+        "transcription": "ənˈhɛlθi"
     },
     {
         "word": "ill",
@@ -642,7 +666,8 @@
             }
         ],
         "comparative": "more ill",
-        "superlative": "the most ill"
+        "superlative": "the most ill",
+        "transcription": "ɪl"
     },
     {
         "word": "online",
@@ -662,7 +687,8 @@
         ],
         "subtext": "online shopping / online course / stay online",
         "comparative": "more online",
-        "superlative": "the most online"
+        "superlative": "the most online",
+        "transcription": "ˈɔnˌlaɪn"
     },
     {
         "word": "offline",
@@ -685,7 +711,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈɔˌflaɪn"
     },
     {
         "word": "alone",
@@ -705,7 +732,8 @@
         ],
         "subtext": "live alone / travel alone / feel alone",
         "comparative": "more alone",
-        "superlative": "the most alone"
+        "superlative": "the most alone",
+        "transcription": "əˈloʊn"
     },
     {
         "word": "relaxed",
@@ -730,7 +758,8 @@
             }
         ],
         "comparative": "more relaxed",
-        "superlative": "the most relaxed"
+        "superlative": "the most relaxed",
+        "transcription": "rɪˈlækst"
     },
     {
         "word": "worried",
@@ -755,7 +784,8 @@
             }
         ],
         "comparative": "more worried",
-        "superlative": "the most worried"
+        "superlative": "the most worried",
+        "transcription": "ˈwərid"
     },
     {
         "word": "busy",
@@ -781,7 +811,8 @@
             }
         ],
         "comparative": "busier",
-        "superlative": "the busiest"
+        "superlative": "the busiest",
+        "transcription": "ˈbɪzi"
     },
     {
         "word": "important",
@@ -810,7 +841,8 @@
             }
         ],
         "comparative": "more important",
-        "superlative": "the most important"
+        "superlative": "the most important",
+        "transcription": "ˌɪmˈpɔrtənt"
     },
     {
         "word": "unimportant",
@@ -834,7 +866,8 @@
             }
         ],
         "comparative": "more unimportant",
-        "superlative": "the most unimportant"
+        "superlative": "the most unimportant",
+        "transcription": "ənɪmˈpɔrtənt"
     },
     {
         "word": "red",
@@ -859,7 +892,8 @@
             }
         ],
         "comparative": "redder",
-        "superlative": "the reddest"
+        "superlative": "the reddest",
+        "transcription": "rɛd"
     },
     {
         "word": "blue",
@@ -884,7 +918,8 @@
             }
         ],
         "comparative": "bluer",
-        "superlative": "the bluest"
+        "superlative": "the bluest",
+        "transcription": "blu"
     },
     {
         "word": "green",
@@ -909,7 +944,8 @@
             }
         ],
         "comparative": "greener",
-        "superlative": "the greenest"
+        "superlative": "the greenest",
+        "transcription": "grin"
     },
     {
         "word": "white",
@@ -935,7 +971,8 @@
             }
         ],
         "comparative": "whiter",
-        "superlative": "the whitest"
+        "superlative": "the whitest",
+        "transcription": "waɪt"
     },
     {
         "word": "black",
@@ -961,7 +998,8 @@
             }
         ],
         "comparative": "blacker",
-        "superlative": "the blackest"
+        "superlative": "the blackest",
+        "transcription": "blæk"
     },
     {
         "word": "yellow",
@@ -986,7 +1024,8 @@
             }
         ],
         "comparative": "yellower",
-        "superlative": "the yellowest"
+        "superlative": "the yellowest",
+        "transcription": "ˈjɛloʊ"
     },
     {
         "word": "free",
@@ -1012,7 +1051,8 @@
             }
         ],
         "comparative": "freer",
-        "superlative": "the freest"
+        "superlative": "the freest",
+        "transcription": "fri"
     },
     {
         "word": "open",
@@ -1038,7 +1078,8 @@
             }
         ],
         "comparative": "opener",
-        "superlative": "the openest"
+        "superlative": "the openest",
+        "transcription": "ˈoʊpən"
     },
     {
         "word": "closed",
@@ -1059,7 +1100,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "kloʊzd"
     },
     {
         "word": "large",
@@ -1079,7 +1121,8 @@
         "theme": "size_shape_A1",
         "comparative": "larger",
         "superlative": "the largest",
-        "emoji": "🐘"
+        "emoji": "🐘",
+        "transcription": "lɑrʤ"
     },
     {
         "word": "little",
@@ -1099,7 +1142,8 @@
         "theme": "size_shape_A1",
         "comparative": "smaller",
         "superlative": "the smallest",
-        "emoji": "🐭"
+        "emoji": "🐭",
+        "transcription": "ˈlɪtəl"
     },
     {
         "word": "long",
@@ -1119,7 +1163,8 @@
         "theme": "size_shape_A1",
         "comparative": "longer",
         "superlative": "the longest",
-        "emoji": "📏"
+        "emoji": "📏",
+        "transcription": "lɔŋ"
     },
     {
         "word": "high",
@@ -1139,7 +1184,8 @@
         "theme": "size_shape_A1",
         "comparative": "higher",
         "superlative": "the highest",
-        "emoji": "🏔️"
+        "emoji": "🏔️",
+        "transcription": "haɪ"
     },
     {
         "word": "low",
@@ -1159,7 +1205,8 @@
         "theme": "size_shape_A1",
         "comparative": "lower",
         "superlative": "the lowest",
-        "emoji": "⬇️"
+        "emoji": "⬇️",
+        "transcription": "loʊ"
     },
     {
         "word": "full",
@@ -1179,7 +1226,8 @@
         "theme": "size_shape_A1",
         "comparative": "fuller",
         "superlative": "the fullest",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "transcription": "fʊl"
     },
     {
         "word": "empty",
@@ -1199,7 +1247,8 @@
         "theme": "size_shape_A1",
         "comparative": "emptier",
         "superlative": "the emptiest",
-        "emoji": "🫙"
+        "emoji": "🫙",
+        "transcription": "ˈɛmti"
     },
     {
         "word": "warm",
@@ -1219,7 +1268,8 @@
         "theme": "weather_A1",
         "comparative": "warmer",
         "superlative": "the warmest",
-        "emoji": "☀️"
+        "emoji": "☀️",
+        "transcription": "wɔrm"
     },
     {
         "word": "cool",
@@ -1239,7 +1289,8 @@
         "theme": "weather_A1",
         "comparative": "cooler",
         "superlative": "the coolest",
-        "emoji": "🌬️"
+        "emoji": "🌬️",
+        "transcription": "kul"
     },
     {
         "word": "wet",
@@ -1259,7 +1310,8 @@
         "theme": "weather_A1",
         "comparative": "wetter",
         "superlative": "the wettest",
-        "emoji": "💦"
+        "emoji": "💦",
+        "transcription": "wɛt"
     },
     {
         "word": "dry",
@@ -1279,7 +1331,8 @@
         "theme": "weather_A1",
         "comparative": "dryer",
         "superlative": "the dryest",
-        "emoji": "🏜️"
+        "emoji": "🏜️",
+        "transcription": "draɪ"
     },
     {
         "word": "dirty",
@@ -1299,7 +1352,8 @@
         ],
         "comparative": "dirtier",
         "superlative": "the dirtiest",
-        "emoji": "💩"
+        "emoji": "💩",
+        "transcription": "ˈdərti"
     },
     {
         "word": "hard",
@@ -1324,7 +1378,8 @@
         "theme": "size_shape_A1",
         "comparative": "harder",
         "superlative": "the hardest",
-        "emoji": "🧱"
+        "emoji": "🧱",
+        "transcription": "hɑrd"
     },
     {
         "word": "soft",
@@ -1348,7 +1403,8 @@
         "theme": "size_shape_A1",
         "comparative": "softer",
         "superlative": "the softest",
-        "emoji": "☁️"
+        "emoji": "☁️",
+        "transcription": "sɔft"
     },
     {
         "word": "heavy",
@@ -1371,7 +1427,8 @@
         "theme": "size_shape_A1",
         "comparative": "heavier",
         "superlative": "the heaviest",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "transcription": "ˈhɛvi"
     },
     {
         "word": "light",
@@ -1395,7 +1452,8 @@
         "theme": "size_shape_A1",
         "comparative": "lighter",
         "superlative": "the lightest",
-        "emoji": "🪶"
+        "emoji": "🪶",
+        "transcription": "laɪt"
     },
     {
         "word": "brown",
@@ -1414,7 +1472,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "browner",
         "superlative": "the brownest",
-        "emoji": "🤎"
+        "emoji": "🤎",
+        "transcription": "braʊn"
     },
     {
         "word": "grey",
@@ -1433,7 +1492,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "greyer",
         "superlative": "the greyest",
-        "emoji": "🩶"
+        "emoji": "🩶",
+        "transcription": "greɪ"
     },
     {
         "word": "pink",
@@ -1452,7 +1512,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "pinker",
         "superlative": "the pinkest",
-        "emoji": "🩷"
+        "emoji": "🩷",
+        "transcription": "pɪŋk"
     },
     {
         "word": "orange",
@@ -1471,7 +1532,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "more orange",
         "superlative": "the most orange",
-        "emoji": "🧡"
+        "emoji": "🧡",
+        "transcription": "ˈɔrɪnʤ"
     },
     {
         "word": "great",
@@ -1495,7 +1557,8 @@
         "theme": "describing_things_A1",
         "comparative": "greater",
         "superlative": "the greatest",
-        "emoji": "🌟"
+        "emoji": "🌟",
+        "transcription": "greɪt"
     },
     {
         "word": "nice",
@@ -1519,7 +1582,8 @@
         "theme": "describing_things_A1",
         "comparative": "nicer",
         "superlative": "the nicest",
-        "emoji": "😊"
+        "emoji": "😊",
+        "transcription": "nis"
     },
     {
         "word": "wonderful",
@@ -1543,7 +1607,8 @@
         "theme": "describing_things_A1",
         "comparative": "more wonderful",
         "superlative": "the most wonderful",
-        "emoji": "🌈"
+        "emoji": "🌈",
+        "transcription": "ˈwəndərfəl"
     },
     {
         "word": "terrible",
@@ -1567,7 +1632,8 @@
         "theme": "describing_things_A1",
         "comparative": "more terrible",
         "superlative": "the most terrible",
-        "emoji": "🤮"
+        "emoji": "🤮",
+        "transcription": "ˈtɛrəbəl"
     },
     {
         "word": "awful",
@@ -1591,7 +1657,8 @@
         "theme": "describing_things_A1",
         "comparative": "more awful",
         "superlative": "the most awful",
-        "emoji": "💩"
+        "emoji": "💩",
+        "transcription": "ˈɔfəl"
     },
     {
         "word": "amazing",
@@ -1615,7 +1682,8 @@
         "theme": "describing_things_A1",
         "comparative": "more amazing",
         "superlative": "the most amazing",
-        "emoji": "🤩"
+        "emoji": "🤩",
+        "transcription": "əˈmeɪzɪŋ"
     },
     {
         "word": "fantastic",
@@ -1639,7 +1707,8 @@
         "theme": "describing_things_A1",
         "comparative": "more fantastic",
         "superlative": "the most fantastic",
-        "emoji": "🔥"
+        "emoji": "🔥",
+        "transcription": "fænˈtæstɪk"
     },
     {
         "word": "sad",
@@ -1664,13 +1733,14 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "sadder",
         "superlative": "the saddest",
-        "emoji": "😢"
+        "emoji": "😢",
+        "transcription": "sæd"
     },
     {
         "word": "hungry",
         "level": "starter",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "full",
         "oppositeEmoji": "🤰",
         "subtext": "feel hungry / very hungry / go hungry",
         "synonyms": [
@@ -1688,7 +1758,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "hungrier",
         "superlative": "the hungriest",
-        "emoji": "🍔"
+        "emoji": "🍔",
+        "transcription": "ˈhəŋgri"
     },
     {
         "word": "angry",
@@ -1713,7 +1784,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "angrier",
         "superlative": "the angriest",
-        "emoji": "😠"
+        "emoji": "😠",
+        "transcription": "ˈæŋgri"
     },
     {
         "word": "bored",
@@ -1737,7 +1809,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "more bored",
         "superlative": "the most bored",
-        "emoji": "😴"
+        "emoji": "😴",
+        "transcription": "bɔrd"
     },
     {
         "word": "excited",
@@ -1757,7 +1830,8 @@
         ],
         "comparative": "more excited",
         "superlative": "the most excited",
-        "emoji": "🤩"
+        "emoji": "🤩",
+        "transcription": "ɪkˈsaɪtɪd"
     },
     {
         "word": "afraid",
@@ -1782,13 +1856,14 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "more afraid",
         "superlative": "the most afraid",
-        "emoji": "😨"
+        "emoji": "😨",
+        "transcription": "əˈfreɪd"
     },
     {
         "word": "sorry",
         "level": "starter",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "unapologetic",
         "subtext": "feel sorry / sorry for / sorry about",
         "definitions": [
             {
@@ -1801,7 +1876,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "sorrier",
         "superlative": "the sorriest",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "transcription": "ˈsɑri"
     },
     {
         "word": "right",
@@ -1826,7 +1902,8 @@
         "theme": "describing_things_A1",
         "comparative": "more right",
         "superlative": "the most right",
-        "emoji": "✅"
+        "emoji": "✅",
+        "transcription": "raɪt"
     },
     {
         "word": "left",
@@ -1846,7 +1923,8 @@
         "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
-        "emoji": "⬅️"
+        "emoji": "⬅️",
+        "transcription": "lɛft"
     },
     {
         "word": "wrong",
@@ -1869,7 +1947,8 @@
         "theme": "describing_things_A1",
         "comparative": "more wrong",
         "superlative": "the most wrong",
-        "emoji": "❌"
+        "emoji": "❌",
+        "transcription": "rɔŋ"
     },
     {
         "word": "new",
@@ -1893,7 +1972,8 @@
         "theme": "size_shape_A1",
         "comparative": "newer",
         "superlative": "the newest",
-        "emoji": "🆕"
+        "emoji": "🆕",
+        "transcription": "nu"
     },
     {
         "word": "different",
@@ -1916,7 +1996,8 @@
         "theme": "describing_things_A1",
         "comparative": "more different",
         "superlative": "the most different",
-        "emoji": "🌓"
+        "emoji": "🌓",
+        "transcription": "ˈdɪfərənt"
     },
     {
         "word": "same",
@@ -1939,7 +2020,8 @@
         "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
-        "emoji": "👯"
+        "emoji": "👯",
+        "transcription": "seɪm"
     },
     {
         "word": "fast",
@@ -1963,7 +2045,8 @@
         "theme": "size_shape_A1",
         "comparative": "faster",
         "superlative": "the fastest",
-        "emoji": "🏎️"
+        "emoji": "🏎️",
+        "transcription": "fæst"
     },
     {
         "word": "slow",
@@ -1986,7 +2069,8 @@
         "theme": "size_shape_A1",
         "comparative": "slower",
         "superlative": "the slowest",
-        "emoji": "🐢"
+        "emoji": "🐢",
+        "transcription": "sloʊ"
     },
     {
         "word": "quiet",
@@ -2010,7 +2094,8 @@
         "theme": "describing_things_A1",
         "comparative": "quieter",
         "superlative": "the quietest",
-        "emoji": "🤫"
+        "emoji": "🤫",
+        "transcription": "kwaɪət"
     },
     {
         "word": "loud",
@@ -2033,7 +2118,8 @@
         "theme": "describing_things_A1",
         "comparative": "louder",
         "superlative": "the loudest",
-        "emoji": "📢"
+        "emoji": "📢",
+        "transcription": "laʊd"
     },
     {
         "word": "safe",
@@ -2056,7 +2142,8 @@
         "theme": "local_places_services_A1",
         "comparative": "safer",
         "superlative": "the safest",
-        "emoji": "🛡️"
+        "emoji": "🛡️",
+        "transcription": "seɪf"
     },
     {
         "word": "dangerous",
@@ -2079,7 +2166,8 @@
         "theme": "local_places_services_A1",
         "comparative": "more dangerous",
         "superlative": "the most dangerous",
-        "emoji": "🧨"
+        "emoji": "🧨",
+        "transcription": "ˈdeɪnʤərəs"
     },
     {
         "word": "unhappy",
@@ -2103,7 +2191,8 @@
         ],
         "comparative": "unhappier",
         "superlative": "the unhappiest",
-        "emoji": "😢"
+        "emoji": "😢",
+        "transcription": "ənˈhæpi"
     },
     {
         "word": "nervous",
@@ -2127,14 +2216,15 @@
         ],
         "comparative": "more nervous",
         "superlative": "the most nervous",
-        "emoji": "😟"
+        "emoji": "😟",
+        "transcription": "ˈnərvəs"
     },
     {
         "word": "proud",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "ashamed",
         "oppositeEmoji": "🤦",
         "definitions": [
             {
@@ -2151,7 +2241,8 @@
         ],
         "comparative": "prouder",
         "superlative": "the proudest",
-        "emoji": "🤳"
+        "emoji": "🤳",
+        "transcription": "praʊd"
     },
     {
         "word": "scared",
@@ -2175,14 +2266,15 @@
         ],
         "comparative": "more scared",
         "superlative": "the most scared",
-        "emoji": "😨"
+        "emoji": "😨",
+        "transcription": "skɛrd"
     },
     {
         "word": "surprised",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "unmoved",
         "oppositeEmoji": "😐",
         "definitions": [
             {
@@ -2199,7 +2291,8 @@
         ],
         "comparative": "more surprised",
         "superlative": "the most surprised",
-        "emoji": "😲"
+        "emoji": "😲",
+        "transcription": "səˈpraɪzd"
     },
     {
         "word": "disappointed",
@@ -2223,7 +2316,8 @@
         ],
         "comparative": "more disappointed",
         "superlative": "the most disappointed",
-        "emoji": "😞"
+        "emoji": "😞",
+        "transcription": "ˌdɪsəˈpɔɪnɪd"
     },
     {
         "word": "beautiful",
@@ -2243,7 +2337,8 @@
         "subtext": "beautiful view / beautiful city / absolutely beautiful",
         "comparative": "more beautiful",
         "superlative": "the most beautiful",
-        "emoji": "✨"
+        "emoji": "✨",
+        "transcription": "ˈbjutəfəl"
     },
     {
         "word": "pretty",
@@ -2263,7 +2358,8 @@
         "subtext": "pretty good / a pretty place / quite pretty",
         "comparative": "prettier",
         "superlative": "the prettiest",
-        "emoji": "🌸"
+        "emoji": "🌸",
+        "transcription": "ˈprɪti"
     },
     {
         "word": "strong",
@@ -2283,7 +2379,8 @@
         "subtext": "strong coffee / strong opinion / very strong",
         "comparative": "stronger",
         "superlative": "the strongest",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "transcription": "strɔŋ"
     },
     {
         "word": "weak",
@@ -2303,7 +2400,8 @@
         "subtext": "weak connection / a weak argument / very weak",
         "comparative": "weaker",
         "superlative": "the weakest",
-        "emoji": "🥀"
+        "emoji": "🥀",
+        "transcription": "wik"
     },
     {
         "word": "fit",
@@ -2327,7 +2425,8 @@
         ],
         "comparative": "fitter",
         "superlative": "the fittest",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "transcription": "fɪt"
     },
     {
         "word": "unfit",
@@ -2347,7 +2446,8 @@
             }
         ],
         "comparative": "more unfit",
-        "superlative": "the most unfit"
+        "superlative": "the most unfit",
+        "transcription": "ənˈfɪt"
     },
     {
         "word": "perfect",
@@ -2367,7 +2467,8 @@
         "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
         "comparative": "more perfect",
         "superlative": "the most perfect",
-        "emoji": "💯"
+        "emoji": "💯",
+        "transcription": "ˈpərˌfɪkt"
     },
     {
         "word": "correct",
@@ -2387,7 +2488,8 @@
         "subtext": "correct answer / the correct way / completely correct",
         "comparative": "more correct",
         "superlative": "the most correct",
-        "emoji": "✅"
+        "emoji": "✅",
+        "transcription": "kərˈɛkt"
     },
     {
         "word": "interesting",
@@ -2407,7 +2509,8 @@
         "subtext": "find interesting / very interesting / an interesting idea",
         "comparative": "more interesting",
         "superlative": "the most interesting",
-        "emoji": "🧐"
+        "emoji": "🧐",
+        "transcription": "ˈɪntəˌrɛstɪŋ"
     },
     {
         "word": "boring",
@@ -2427,7 +2530,8 @@
         "subtext": "very boring / a boring meeting / find boring",
         "comparative": "more boring",
         "superlative": "the most boring",
-        "emoji": "😴"
+        "emoji": "😴",
+        "transcription": "ˈbɔrɪŋ"
     },
     {
         "word": "special",
@@ -2447,7 +2551,8 @@
         "subtext": "a special offer / special occasion / very special",
         "comparative": "more special",
         "superlative": "the most special",
-        "emoji": "💎"
+        "emoji": "💎",
+        "transcription": "ˈspɛʃəl"
     },
     {
         "word": "friendly",
@@ -2471,7 +2576,8 @@
         ],
         "comparative": "more friendly",
         "superlative": "the most friendly",
-        "emoji": "👋"
+        "emoji": "👋",
+        "transcription": "ˈfrɛndli"
     },
     {
         "word": "kind",
@@ -2495,7 +2601,8 @@
         ],
         "comparative": "kinder",
         "superlative": "the kindest",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "transcription": "kaɪnd"
     },
     {
         "word": "unkind",
@@ -2519,7 +2626,8 @@
             }
         ],
         "comparative": "more unkind",
-        "superlative": "the most unkind"
+        "superlative": "the most unkind",
+        "transcription": "ənˈkaɪnd"
     },
     {
         "word": "funny",
@@ -2543,7 +2651,8 @@
         ],
         "comparative": "funnier",
         "superlative": "the funniest",
-        "emoji": "😂"
+        "emoji": "😂",
+        "transcription": "ˈfəni"
     },
     {
         "word": "clever",
@@ -2567,7 +2676,8 @@
         ],
         "comparative": "cleverer",
         "superlative": "the cleverest",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "transcription": "ˈklɛvər"
     },
     {
         "word": "polite",
@@ -2590,7 +2700,8 @@
         ],
         "comparative": "more polite",
         "superlative": "the most polite",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "transcription": "pəˈlaɪt"
     },
     {
         "word": "rude",
@@ -2614,7 +2725,8 @@
         ],
         "comparative": "ruder",
         "superlative": "the rudest",
-        "emoji": "😛"
+        "emoji": "😛",
+        "transcription": "rud"
     },
     {
         "word": "lazy",
@@ -2637,7 +2749,8 @@
         ],
         "comparative": "lazier",
         "superlative": "the laziest",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "transcription": "ˈleɪzi"
     },
     {
         "word": "honest",
@@ -2660,7 +2773,8 @@
         ],
         "comparative": "more honest",
         "superlative": "the most honest",
-        "emoji": "⚖️"
+        "emoji": "⚖️",
+        "transcription": "ˈɑnəst"
     },
     {
         "word": "noisy",
@@ -2683,7 +2797,8 @@
         ],
         "comparative": "noisier",
         "superlative": "the noisiest",
-        "emoji": "📢"
+        "emoji": "📢",
+        "transcription": "ˈnɔɪzi"
     },
     {
         "word": "round",
@@ -2706,7 +2821,8 @@
             }
         ],
         "comparative": "rounder",
-        "superlative": "the roundest"
+        "superlative": "the roundest",
+        "transcription": "raʊnd"
     },
     {
         "word": "square",
@@ -2729,7 +2845,8 @@
             }
         ],
         "comparative": "squarer",
-        "superlative": "the squarest"
+        "superlative": "the squarest",
+        "transcription": "skwɛr"
     },
     {
         "word": "helpful",
@@ -2753,7 +2870,8 @@
             }
         ],
         "comparative": "more helpful",
-        "superlative": "the most helpful"
+        "superlative": "the most helpful",
+        "transcription": "ˈhɛlpfəl"
     },
     {
         "word": "unhelpful",
@@ -2776,7 +2894,8 @@
             }
         ],
         "comparative": "more unhelpful",
-        "superlative": "the most unhelpful"
+        "superlative": "the most unhelpful",
+        "transcription": "ənˈhɛlpfəl"
     },
     {
         "word": "patient",
@@ -2800,7 +2919,8 @@
             }
         ],
         "comparative": "more patient",
-        "superlative": "the most patient"
+        "superlative": "the most patient",
+        "transcription": "ˈpeɪʃənt"
     },
     {
         "word": "active",
@@ -2824,7 +2944,8 @@
             }
         ],
         "comparative": "more active",
-        "superlative": "the most active"
+        "superlative": "the most active",
+        "transcription": "ˈæktɪv"
     },
     {
         "word": "careful",
@@ -2846,7 +2967,8 @@
             }
         ],
         "comparative": "more careful",
-        "superlative": "the most careful"
+        "superlative": "the most careful",
+        "transcription": "ˈkɛrfəl"
     },
     {
         "word": "creative",
@@ -2854,7 +2976,7 @@
         "theme": "describing_things_A1",
         "emoji": "🎨",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "unimaginative",
         "oppositeEmoji": "😐",
         "subtext": "very creative / creative ideas",
         "synonyms": [
@@ -2870,7 +2992,8 @@
             }
         ],
         "comparative": "more creative",
-        "superlative": "the most creative"
+        "superlative": "the most creative",
+        "transcription": "kriˈeɪtɪv"
     },
     {
         "word": "cloudy",
@@ -2893,7 +3016,8 @@
             }
         ],
         "comparative": "cloudier",
-        "superlative": "the cloudiest"
+        "superlative": "the cloudiest",
+        "transcription": "ˈklaʊdi"
     },
     {
         "word": "windy",
@@ -2916,7 +3040,8 @@
             }
         ],
         "comparative": "windier",
-        "superlative": "the windiest"
+        "superlative": "the windiest",
+        "transcription": "ˈwɪndi"
     },
     {
         "word": "snowy",
@@ -2939,7 +3064,8 @@
             }
         ],
         "comparative": "snowier",
-        "superlative": "the snowiest"
+        "superlative": "the snowiest",
+        "transcription": "snoʊi"
     },
     {
         "word": "foggy",
@@ -2962,7 +3088,8 @@
             }
         ],
         "comparative": "foggier",
-        "superlative": "the foggiest"
+        "superlative": "the foggiest",
+        "transcription": "ˈfɑgi"
     },
     {
         "word": "stormy",
@@ -2985,7 +3112,8 @@
             }
         ],
         "comparative": "stormier",
-        "superlative": "the stormiest"
+        "superlative": "the stormiest",
+        "transcription": "ˈstɔrmi"
     },
     {
         "word": "blonde",
@@ -3008,7 +3136,8 @@
         ],
         "comparative": "blonder",
         "superlative": "the blondest",
-        "emoji": "👱‍♀️"
+        "emoji": "👱‍♀️",
+        "transcription": "blɑnd"
     },
     {
         "word": "smart",
@@ -3032,7 +3161,8 @@
         ],
         "comparative": "smarter",
         "superlative": "the smartest",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "transcription": "smɑrt"
     },
     {
         "word": "serious",
@@ -3056,7 +3186,8 @@
         ],
         "comparative": "more serious",
         "superlative": "the most serious",
-        "emoji": "😐"
+        "emoji": "😐",
+        "transcription": "ˈsɪriəs"
     },
     {
         "word": "ugly",
@@ -3079,7 +3210,8 @@
         ],
         "comparative": "uglier",
         "superlative": "the ugliest",
-        "emoji": "👹"
+        "emoji": "👹",
+        "transcription": "ˈəgli"
     },
     {
         "word": "near",
@@ -3102,7 +3234,8 @@
         ],
         "comparative": "nearer",
         "superlative": "the nearest",
-        "emoji": "📍"
+        "emoji": "📍",
+        "transcription": "nɪr"
     },
     {
         "word": "far",
@@ -3125,7 +3258,8 @@
         ],
         "comparative": "farther",
         "superlative": "the farthest",
-        "emoji": "🔭"
+        "emoji": "🔭",
+        "transcription": "fɑr"
     },
     {
         "word": "rich",
@@ -3148,7 +3282,8 @@
             }
         ],
         "comparative": "richer",
-        "superlative": "the richest"
+        "superlative": "the richest",
+        "transcription": "rɪʧ"
     },
     {
         "word": "poor",
@@ -3172,7 +3307,8 @@
             }
         ],
         "comparative": "poorer",
-        "superlative": "the poorest"
+        "superlative": "the poorest",
+        "transcription": "pur"
     },
     {
         "word": "early",
@@ -3195,7 +3331,8 @@
             }
         ],
         "comparative": "earlier",
-        "superlative": "the earliest"
+        "superlative": "the earliest",
+        "transcription": "ˈərli"
     },
     {
         "word": "late",
@@ -3218,7 +3355,8 @@
             }
         ],
         "comparative": "later",
-        "superlative": "the latest"
+        "superlative": "the latest",
+        "transcription": "leɪt"
     },
     {
         "word": "hardworking",
@@ -3242,7 +3380,8 @@
             }
         ],
         "comparative": "more hardworking",
-        "superlative": "the most hardworking"
+        "superlative": "the most hardworking",
+        "transcription": "ˈhɑrdˌwərkɪŋ"
     },
     {
         "word": "exciting",
@@ -3250,7 +3389,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "🤩",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "boring",
         "oppositeEmoji": "😴",
         "subtext": "an exciting trip / very exciting",
         "synonyms": [
@@ -3266,7 +3405,8 @@
             }
         ],
         "comparative": "more exciting",
-        "superlative": "the most exciting"
+        "superlative": "the most exciting",
+        "transcription": "ɪkˈsaɪtɪŋ"
     },
     {
         "word": "delicious",
@@ -3290,7 +3430,8 @@
             }
         ],
         "comparative": "more delicious",
-        "superlative": "the most delicious"
+        "superlative": "the most delicious",
+        "transcription": "dɪˈlɪʃəs"
     },
     {
         "word": "sweet",
@@ -3313,7 +3454,8 @@
             }
         ],
         "comparative": "sweeter",
-        "superlative": "the sweetest"
+        "superlative": "the sweetest",
+        "transcription": "swit"
     },
     {
         "word": "comfortable",
@@ -3321,7 +3463,7 @@
         "theme": "furniture_objects_A1",
         "emoji": "🛋️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "uncomfortable",
         "oppositeEmoji": "🪑",
         "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
@@ -3337,7 +3479,8 @@
             }
         ],
         "comparative": "more comfortable",
-        "superlative": "the most comfortable"
+        "superlative": "the most comfortable",
+        "transcription": "ˈkəmfərtəbəl"
     },
     {
         "word": "uncomfortable",
@@ -3345,7 +3488,7 @@
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "comfortable",
         "oppositeEmoji": "🛋️",
         "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
@@ -3361,7 +3504,8 @@
             }
         ],
         "comparative": "more uncomfortable",
-        "superlative": "the most uncomfortable"
+        "superlative": "the most uncomfortable",
+        "transcription": "ənˈkəmfərtəbəl"
     },
     {
         "word": "real",
@@ -3385,7 +3529,8 @@
             }
         ],
         "comparative": "more real",
-        "superlative": "the most real"
+        "superlative": "the most real",
+        "transcription": "ril"
     },
     {
         "word": "simple",
@@ -3409,7 +3554,8 @@
             }
         ],
         "comparative": "simpler",
-        "superlative": "the simplest"
+        "superlative": "the simplest",
+        "transcription": "ˈsɪmpəl"
     },
     {
         "word": "natural",
@@ -3432,7 +3578,8 @@
             }
         ],
         "comparative": "more natural",
-        "superlative": "the most natural"
+        "superlative": "the most natural",
+        "transcription": "ˈnæʧərəl"
     },
     {
         "word": "clear",
@@ -3458,7 +3605,8 @@
             }
         ],
         "comparative": "clearer",
-        "superlative": "the clearest"
+        "superlative": "the clearest",
+        "transcription": "klɪr"
     },
     {
         "word": "common",
@@ -3483,7 +3631,8 @@
             }
         ],
         "comparative": "commoner",
-        "superlative": "the commonest"
+        "superlative": "the commonest",
+        "transcription": "ˈkɑmən"
     },
     {
         "word": "famous",
@@ -3507,7 +3656,8 @@
             }
         ],
         "comparative": "more famous",
-        "superlative": "the most famous"
+        "superlative": "the most famous",
+        "transcription": "ˈfeɪməs"
     },
     {
         "word": "salty",
@@ -3515,7 +3665,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🧂",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "bland",
         "oppositeEmoji": "🍬",
         "subtext": "salty snacks / too salty",
         "synonyms": [
@@ -3530,7 +3680,8 @@
             }
         ],
         "comparative": "saltier",
-        "superlative": "the saltiest"
+        "superlative": "the saltiest",
+        "transcription": "ˈsɔlti"
     },
     {
         "word": "sour",
@@ -3553,7 +3704,8 @@
             }
         ],
         "comparative": "sourer",
-        "superlative": "the sourest"
+        "superlative": "the sourest",
+        "transcription": "saʊər"
     },
     {
         "word": "bitter",
@@ -3577,7 +3729,8 @@
             }
         ],
         "comparative": "bitterer",
-        "superlative": "the bitterest"
+        "superlative": "the bitterest",
+        "transcription": "ˈbɪtər"
     },
     {
         "word": "fat",
@@ -3601,7 +3754,8 @@
             }
         ],
         "comparative": "fatter",
-        "superlative": "the fattest"
+        "superlative": "the fattest",
+        "transcription": "fæt"
     },
     {
         "word": "thin",
@@ -3625,7 +3779,8 @@
             }
         ],
         "comparative": "thinner",
-        "superlative": "the thinnest"
+        "superlative": "the thinnest",
+        "transcription": "θɪn"
     },
     {
         "word": "curly",
@@ -3648,7 +3803,8 @@
             }
         ],
         "comparative": "curlier",
-        "superlative": "the curliest"
+        "superlative": "the curliest",
+        "transcription": "ˈkərli"
     },
     {
         "word": "straight",
@@ -3671,7 +3827,8 @@
             }
         ],
         "comparative": "straighter",
-        "superlative": "the straightest"
+        "superlative": "the straightest",
+        "transcription": "streɪt"
     },
     {
         "word": "triangular",
@@ -3693,7 +3850,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "traɪˈæŋgjələr"
     },
     {
         "word": "rectangular",
@@ -3715,7 +3873,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "rɛkˈtæŋgjələr"
     },
     {
         "word": "oval",
@@ -3737,7 +3896,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈoʊvəl"
     },
     {
         "word": "favourite",
@@ -3761,7 +3921,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈfeɪvərɪt"
     },
     {
         "word": "dark",
@@ -3785,7 +3946,8 @@
             }
         ],
         "comparative": "darker",
-        "superlative": "the darkest"
+        "superlative": "the darkest",
+        "transcription": "dɑrk"
     },
     {
         "word": "bright",
@@ -3810,7 +3972,8 @@
             }
         ],
         "comparative": "brighter",
-        "superlative": "the brightest"
+        "superlative": "the brightest",
+        "transcription": "braɪt"
     },
     {
         "word": "gold",
@@ -3832,7 +3995,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "goʊld"
     },
     {
         "word": "silver",
@@ -3854,7 +4018,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈsɪlvər"
     },
     {
         "word": "deep",
@@ -3877,7 +4042,8 @@
             }
         ],
         "comparative": "deeper",
-        "superlative": "the deepest"
+        "superlative": "the deepest",
+        "transcription": "dip"
     },
     {
         "word": "shallow",
@@ -3900,7 +4066,8 @@
             }
         ],
         "comparative": "shallower",
-        "superlative": "the shallowest"
+        "superlative": "the shallowest",
+        "transcription": "ˈʃæloʊ"
     },
     {
         "word": "modern",
@@ -3924,7 +4091,8 @@
             }
         ],
         "comparative": "more modern",
-        "superlative": "the most modern"
+        "superlative": "the most modern",
+        "transcription": "ˈmɑdərn"
     },
     {
         "word": "ancient",
@@ -3948,7 +4116,8 @@
             }
         ],
         "comparative": "more ancient",
-        "superlative": "the most ancient"
+        "superlative": "the most ancient",
+        "transcription": "ˈeɪnʧənt"
     },
     {
         "word": "brave",
@@ -3971,7 +4140,8 @@
             }
         ],
         "comparative": "braver",
-        "superlative": "the bravest"
+        "superlative": "the bravest",
+        "transcription": "breɪv"
     },
     {
         "word": "cowardly",
@@ -3994,7 +4164,8 @@
             }
         ],
         "comparative": "more cowardly",
-        "superlative": "the most cowardly"
+        "superlative": "the most cowardly",
+        "transcription": "ˈkaʊərdli"
     },
     {
         "word": "wide",
@@ -4017,7 +4188,8 @@
             }
         ],
         "comparative": "wider",
-        "superlative": "the widest"
+        "superlative": "the widest",
+        "transcription": "waɪd"
     },
     {
         "word": "narrow",
@@ -4040,7 +4212,8 @@
             }
         ],
         "comparative": "narrower",
-        "superlative": "the narrowest"
+        "superlative": "the narrowest",
+        "transcription": "ˈnɛroʊ"
     },
     {
         "word": "lucky",
@@ -4063,7 +4236,8 @@
             }
         ],
         "comparative": "luckier",
-        "superlative": "the luckiest"
+        "superlative": "the luckiest",
+        "transcription": "ˈləki"
     },
     {
         "word": "calm",
@@ -4088,7 +4262,8 @@
             }
         ],
         "comparative": "calmer",
-        "superlative": "the calmest"
+        "superlative": "the calmest",
+        "transcription": "kɑm"
     },
     {
         "word": "married",
@@ -4108,7 +4283,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈmɛrid"
     },
     {
         "word": "single",
@@ -4131,7 +4307,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈsɪŋgəl"
     },
     {
         "word": "well",
@@ -4156,7 +4333,8 @@
             }
         ],
         "comparative": "better",
-        "superlative": "the best"
+        "superlative": "the best",
+        "transcription": "wɛl"
     },
     {
         "word": "purple",
@@ -4178,7 +4356,8 @@
         ],
         "comparative": "more purple",
         "superlative": "the most purple",
-        "opposite": "yellow"
+        "opposite": "yellow",
+        "transcription": "ˈpərpəl"
     },
     {
         "word": "able",
@@ -4200,7 +4379,8 @@
             "capable"
         ],
         "comparative": "abler",
-        "superlative": "the ablest"
+        "superlative": "the ablest",
+        "transcription": "ˈeɪbəl"
     },
     {
         "word": "close",
@@ -4222,7 +4402,8 @@
             "near"
         ],
         "comparative": "closer",
-        "superlative": "the closest"
+        "superlative": "the closest",
+        "transcription": "kloʊz"
     },
     {
         "word": "dead",
@@ -4244,7 +4425,8 @@
             "deceased"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "dɛd"
     },
     {
         "word": "fair",
@@ -4266,7 +4448,8 @@
             "just"
         ],
         "comparative": "fairer",
-        "superlative": "the fairest"
+        "superlative": "the fairest",
+        "transcription": "fɛr"
     },
     {
         "word": "fine",
@@ -4274,7 +4457,7 @@
         "theme": "describing_things_A1",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "terrible",
         "definitions": [
             {
                 "text": "Good or acceptable; healthy.",
@@ -4290,7 +4473,8 @@
             "good"
         ],
         "comparative": "finer",
-        "superlative": "the finest"
+        "superlative": "the finest",
+        "transcription": "faɪn"
     },
     {
         "word": "glad",
@@ -4313,7 +4497,8 @@
             "pleased"
         ],
         "comparative": "gladder",
-        "superlative": "the gladdest"
+        "superlative": "the gladdest",
+        "transcription": "glæd"
     },
     {
         "word": "interested",
@@ -4321,7 +4506,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "🧐",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "bored",
         "definitions": [
             {
                 "text": "Wanting to give your attention to something or learn more about it.",
@@ -4335,7 +4520,8 @@
             "curious"
         ],
         "comparative": "more interested",
-        "superlative": "the most interested"
+        "superlative": "the most interested",
+        "transcription": "ˈɪntəˌrɛstɪd"
     },
     {
         "word": "only",
@@ -4357,7 +4543,8 @@
             "sole"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈoʊnli"
     },
     {
         "word": "other",
@@ -4379,7 +4566,8 @@
             "different"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈəðər"
     },
     {
         "word": "own",
@@ -4401,7 +4589,8 @@
             "personal"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "oʊn"
     },
     {
         "word": "quick",
@@ -4423,7 +4612,8 @@
             "fast"
         ],
         "comparative": "quicker",
-        "superlative": "the quickest"
+        "superlative": "the quickest",
+        "transcription": "kwɪk"
     },
     {
         "word": "ready",
@@ -4445,7 +4635,8 @@
             "prepared"
         ],
         "comparative": "readier",
-        "superlative": "the readiest"
+        "superlative": "the readiest",
+        "transcription": "ˈrɛdi"
     },
     {
         "word": "unready",
@@ -4468,7 +4659,8 @@
             }
         ],
         "comparative": "more unready",
-        "superlative": "the most unready"
+        "superlative": "the most unready",
+        "transcription": "ʌnˈrɛdi"
     },
     {
         "word": "rough",
@@ -4490,7 +4682,8 @@
             "uneven"
         ],
         "comparative": "rougher",
-        "superlative": "the roughest"
+        "superlative": "the roughest",
+        "transcription": "rəf"
     },
     {
         "word": "sharp",
@@ -4498,7 +4691,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🔪",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "blunt",
         "definitions": [
             {
                 "text": "Having a thin edge that is able to cut things or a fine point which is able to make a hole in things.",
@@ -4512,7 +4705,8 @@
             "pointed"
         ],
         "comparative": "sharper",
-        "superlative": "the sharpest"
+        "superlative": "the sharpest",
+        "transcription": "ʃɑrp"
     },
     {
         "word": "shy",
@@ -4534,7 +4728,8 @@
             "timid"
         ],
         "comparative": "shyer",
-        "superlative": "the shyest"
+        "superlative": "the shyest",
+        "transcription": "ʃaɪ"
     },
     {
         "word": "thick",
@@ -4556,7 +4751,8 @@
             "wide"
         ],
         "comparative": "thicker",
-        "superlative": "the thickest"
+        "superlative": "the thickest",
+        "transcription": "θɪk"
     },
     {
         "word": "true",
@@ -4579,7 +4775,8 @@
             "truly"
         ],
         "comparative": "truer",
-        "superlative": "the truest"
+        "superlative": "the truest",
+        "transcription": "tru"
     },
     {
         "word": "false",
@@ -4602,7 +4799,8 @@
             }
         ],
         "comparative": "falser",
-        "superlative": "the falsest"
+        "superlative": "the falsest",
+        "transcription": "fɔls"
     },
     {
         "word": "stupid",
@@ -4624,7 +4822,8 @@
             "silly"
         ],
         "comparative": "stupider",
-        "superlative": "the stupidest"
+        "superlative": "the stupidest",
+        "transcription": "ˈstupɪd"
     },
     {
         "word": "sure",
@@ -4647,7 +4846,8 @@
             "certain"
         ],
         "comparative": "surer",
-        "superlative": "the surest"
+        "superlative": "the surest",
+        "transcription": "ʃʊr"
     },
     {
         "word": "unsure",
@@ -4670,7 +4870,8 @@
             }
         ],
         "comparative": "more unsure",
-        "superlative": "the most unsure"
+        "superlative": "the most unsure",
+        "transcription": "ənˈʃʊr"
     },
     {
         "word": "nasty",
@@ -4694,7 +4895,8 @@
             }
         ],
         "comparative": "nastier",
-        "superlative": "the nastiest"
+        "superlative": "the nastiest",
+        "transcription": "ˈnæsti"
     },
     {
         "word": "incorrect",
@@ -4718,7 +4920,8 @@
             }
         ],
         "comparative": "more incorrect",
-        "superlative": "the most incorrect"
+        "superlative": "the most incorrect",
+        "transcription": "ˌɪnkərˈɛkt"
     },
     {
         "word": "smooth",
@@ -4742,7 +4945,8 @@
             }
         ],
         "comparative": "smoother",
-        "superlative": "the smoothest"
+        "superlative": "the smoothest",
+        "transcription": "smuð"
     },
     {
         "word": "normal",
@@ -4766,7 +4970,8 @@
             }
         ],
         "comparative": "more normal",
-        "superlative": "the most normal"
+        "superlative": "the most normal",
+        "transcription": "ˈnɔrməl"
     },
     {
         "word": "alive",
@@ -4789,7 +4994,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "əˈlaɪv"
     },
     {
         "word": "many",
@@ -4809,7 +5015,8 @@
             }
         ],
         "comparative": "more",
-        "superlative": "the most"
+        "superlative": "the most",
+        "transcription": "ˈmɛni"
     },
     {
         "word": "shared",
@@ -4832,7 +5039,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ʃɛrd"
     },
     {
         "word": "unclear",
@@ -4856,7 +5064,8 @@
             }
         ],
         "comparative": "more unclear",
-        "superlative": "the most unclear"
+        "superlative": "the most unclear",
+        "transcription": "ənˈklɪr"
     },
     {
         "word": "few",
@@ -4879,7 +5088,8 @@
             }
         ],
         "comparative": "fewer",
-        "superlative": "the fewest"
+        "superlative": "the fewest",
+        "transcription": "fju"
     },
     {
         "word": "possible",
@@ -4888,8 +5098,7 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "impossible",
-        "transcription": "[ˈpɒsəbl]",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈpɒsəbl",
         "definitions": [
             {
                 "text": "Able to be done or achieved.",
@@ -4910,8 +5119,7 @@
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "useless",
-        "transcription": "[ˈjuːsfl]",
-        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈjuːsfl",
         "definitions": [
             {
                 "text": "Helping you to do or achieve something.",

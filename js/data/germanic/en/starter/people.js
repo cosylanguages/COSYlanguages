@@ -13,7 +13,8 @@
                 ]
             }
         ],
-        "subtext": "famous scientist"
+        "subtext": "famous scientist",
+        "transcription": "ˈælbərt ˈaɪnstaɪn"
     },
     {
         "word": "Taylor Swift",
@@ -28,7 +29,8 @@
                 ]
             }
         ],
-        "subtext": "famous singer"
+        "subtext": "famous singer",
+        "transcription": "ˈteɪlər swɪft"
     },
     {
         "word": "Cristiano Ronaldo",
@@ -43,7 +45,8 @@
                 ]
             }
         ],
-        "subtext": "famous athlete"
+        "subtext": "famous athlete",
+        "transcription": "krisˈtjɐnu ʁuˈnaɫdu"
     },
     {
         "word": "Lionel Messi",
@@ -58,7 +61,8 @@
                 ]
             }
         ],
-        "subtext": "famous athlete"
+        "subtext": "famous athlete",
+        "transcription": "ljoˈnel ˈmesi"
     },
     {
         "word": "Beyoncé",
@@ -73,7 +77,8 @@
                 ]
             }
         ],
-        "subtext": "famous singer"
+        "subtext": "famous singer",
+        "transcription": "biˈɒnseɪ"
     },
     {
         "word": "Elon Musk",
@@ -88,7 +93,8 @@
                 ]
             }
         ],
-        "subtext": "famous businessman"
+        "subtext": "famous businessman",
+        "transcription": "ˈiːlɒn ˈmʌsk"
     },
     {
         "word": "Queen Elizabeth II",
@@ -103,7 +109,8 @@
                 ]
             }
         ],
-        "subtext": "famous queen"
+        "subtext": "famous queen",
+        "transcription": "kwiːn ɪˈlɪzəbəθ ðə ˈsɛkənd"
     },
     {
         "word": "Marie Curie",
@@ -118,7 +125,8 @@
                 ]
             }
         ],
-        "subtext": "famous scientist"
+        "subtext": "famous scientist",
+        "transcription": "mərˈi ˈkjʊri"
     },
     {
         "word": "Leonardo da Vinci",
@@ -133,7 +141,8 @@
                 ]
             }
         ],
-        "subtext": "famous artist"
+        "subtext": "famous artist",
+        "transcription": "ˌliəˈnɑrdoʊ ˈdiˈeɪ ˈvɪnʧi"
     },
     {
         "word": "Nelson Mandela",
@@ -148,7 +157,8 @@
                 ]
             }
         ],
-        "subtext": "famous leader"
+        "subtext": "famous leader",
+        "transcription": "ˈnɛlsən ˌmænˈdɛlə"
     },
     {
         "word": "William Shakespeare",
@@ -163,7 +173,8 @@
                 ]
             }
         ],
-        "subtext": "famous writer"
+        "subtext": "famous writer",
+        "transcription": "ˈwɪljəm ˈʃeɪkˌspir"
     }
 ];
     const lang = "en";

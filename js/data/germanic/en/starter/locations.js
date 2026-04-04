@@ -13,7 +13,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇲🇽"
+        "emoji": "🇲🇽",
+        "transcription": "ˈmɛksəˌkoʊ ˈsɪti"
     },
     {
         "word": "Amsterdam",
@@ -28,7 +29,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇳🇱"
+        "emoji": "🇳🇱",
+        "transcription": "ˈæmstərˌdæm"
     },
     {
         "word": "Vienna",
@@ -43,7 +45,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇹"
+        "emoji": "🇦🇹",
+        "transcription": "viˈɛnə"
     },
     {
         "word": "Prague",
@@ -58,7 +61,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇿"
+        "emoji": "🇨🇿",
+        "transcription": "prɑg"
     },
     {
         "word": "Barcelona",
@@ -73,7 +77,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "transcription": "ˌbɑrsɪˈloʊnə"
     },
     {
         "word": "Venice",
@@ -88,7 +93,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "transcription": "ˈvɛnɪs"
     },
     {
         "word": "Florence",
@@ -103,7 +109,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "transcription": "ˈflɔrəns"
     },
     {
         "word": "Dublin",
@@ -118,7 +125,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇪"
+        "emoji": "🇮🇪",
+        "transcription": "ˈdəblɪn"
     },
     {
         "word": "Edinburgh",
@@ -133,7 +141,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "transcription": "ˈɛdənbəroʊ"
     },
     {
         "word": "Chicago",
@@ -148,7 +157,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "ʃəˈkɑˌgoʊ"
     },
     {
         "word": "Los Angeles",
@@ -163,7 +173,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "lɔs ˈænʤəlɪs"
     },
     {
         "word": "San Francisco",
@@ -178,7 +189,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "sæn frænˈsɪskoʊ"
     },
     {
         "word": "Miami",
@@ -193,7 +205,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "maɪˈæmi"
     },
     {
         "word": "Washington DC",
@@ -208,7 +221,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi"
     },
     {
         "word": "Vancouver",
@@ -223,7 +237,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "transcription": "vænˈkuvər"
     },
     {
         "word": "Montreal",
@@ -238,7 +253,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "transcription": "ˌməntriˈɔl"
     },
     {
         "word": "Melbourne",
@@ -253,7 +269,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "transcription": "ˈmɛlbərn"
     },
     {
         "word": "Thailand",
@@ -268,7 +285,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇹🇭"
+        "emoji": "🇹🇭",
+        "transcription": "ˈtaɪˌlænd"
     },
     {
         "word": "South Korea",
@@ -283,7 +301,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇰🇷"
+        "emoji": "🇰🇷",
+        "transcription": "saʊθ ˌkɔˈriə"
     },
     {
         "word": "Sweden",
@@ -298,7 +317,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇸🇪"
+        "emoji": "🇸🇪",
+        "transcription": "sˈwidən"
     },
     {
         "word": "Norway",
@@ -313,7 +333,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇳🇴"
+        "emoji": "🇳🇴",
+        "transcription": "ˈnɔrˌweɪ"
     },
     {
         "word": "Denmark",
@@ -328,7 +349,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇩🇰"
+        "emoji": "🇩🇰",
+        "transcription": "ˈdɛnˌmɑrk"
     },
     {
         "word": "Finland",
@@ -343,7 +365,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇫🇮"
+        "emoji": "🇫🇮",
+        "transcription": "ˈfɪnˌlænd"
     },
     {
         "word": "Poland",
@@ -358,7 +381,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇵🇱"
+        "emoji": "🇵🇱",
+        "transcription": "ˈpoʊlənd"
     },
     {
         "word": "Ukraine",
@@ -373,7 +397,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇺🇦"
+        "emoji": "🇺🇦",
+        "transcription": "juˈkreɪn"
     },
     {
         "word": "Austria",
@@ -388,7 +413,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇦🇹"
+        "emoji": "🇦🇹",
+        "transcription": "ˈɔstriə"
     },
     {
         "word": "Switzerland",
@@ -403,7 +429,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇨🇭"
+        "emoji": "🇨🇭",
+        "transcription": "sˈwɪtsərlənd"
     },
     {
         "word": "Netherlands",
@@ -418,7 +445,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇳🇱"
+        "emoji": "🇳🇱",
+        "transcription": "ˈnɛðərləndz"
     },
     {
         "word": "Belgium",
@@ -433,7 +461,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇧🇪"
+        "emoji": "🇧🇪",
+        "transcription": "ˈbɛlʤəm"
     },
     {
         "word": "Ireland",
@@ -448,7 +477,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇮🇪"
+        "emoji": "🇮🇪",
+        "transcription": "ˈaɪərlənd"
     },
     {
         "word": "London",
@@ -463,7 +493,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇧"
+        "emoji": "🇬🇧",
+        "transcription": "ˈləndən"
     },
     {
         "word": "France",
@@ -478,7 +509,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇫🇷"
+        "emoji": "🇫🇷",
+        "transcription": "fræns"
     },
     {
         "word": "Italy",
@@ -493,7 +525,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "transcription": "ˈɪtəli"
     },
     {
         "word": "Russia",
@@ -508,7 +541,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "transcription": "ˈrəʃə"
     },
     {
         "word": "Greece",
@@ -523,7 +557,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇬🇷"
+        "emoji": "🇬🇷",
+        "transcription": "gris"
     },
     {
         "word": "England",
@@ -538,7 +573,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "transcription": "ˈɪŋglənd"
     },
     {
         "word": "Spain",
@@ -553,7 +589,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "transcription": "speɪn"
     },
     {
         "word": "USA",
@@ -568,7 +605,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "ˈjuˈɛˈseɪ"
     },
     {
         "word": "Paris",
@@ -583,7 +621,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇫🇷"
+        "emoji": "🇫🇷",
+        "transcription": "ˈpɛrɪs"
     },
     {
         "word": "Rome",
@@ -598,7 +637,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "transcription": "roʊm"
     },
     {
         "word": "Moscow",
@@ -613,7 +653,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "transcription": "ˈmɔˌskaʊ"
     },
     {
         "word": "Athens",
@@ -628,7 +669,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇷"
+        "emoji": "🇬🇷",
+        "transcription": "ˈæθənz"
     },
     {
         "word": "New York",
@@ -643,7 +685,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "nu jɔrk"
     },
     {
         "word": "Berlin",
@@ -658,7 +701,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "transcription": "bərˈlɪn"
     },
     {
         "word": "Tokyo",
@@ -673,7 +717,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "transcription": "ˈtoʊkiˌoʊ"
     },
     {
         "word": "Beijing",
@@ -688,7 +733,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "transcription": "ˌbeɪˈʒɪŋ"
     },
     {
         "word": "Sydney",
@@ -703,7 +749,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "transcription": "ˈsɪdni"
     },
     {
         "word": "Rio de Janeiro",
@@ -718,7 +765,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇧🇷"
+        "emoji": "🇧🇷",
+        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ"
     },
     {
         "word": "Egypt",
@@ -733,7 +781,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇪🇬"
+        "emoji": "🇪🇬",
+        "transcription": "ˈiʤɪpt"
     },
     {
         "word": "China",
@@ -748,7 +797,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "transcription": "ˈʧaɪnə"
     },
     {
         "word": "Japan",
@@ -763,7 +813,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "transcription": "ʤəˈpæn"
     },
     {
         "word": "Germany",
@@ -778,7 +829,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "transcription": "ˈʤərməni"
     },
     {
         "word": "Canada",
@@ -793,7 +845,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "transcription": "ˈkænədə"
     },
     {
         "word": "Australia",
@@ -808,7 +861,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "transcription": "ɔˈstreɪljə"
     },
     {
         "word": "Brazil",
@@ -823,7 +877,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇧🇷"
+        "emoji": "🇧🇷",
+        "transcription": "brəˈzɪl"
     },
     {
         "word": "India",
@@ -838,7 +893,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇮🇳"
+        "emoji": "🇮🇳",
+        "transcription": "ˈɪndiə"
     }
 ];
     const lang = "en";
