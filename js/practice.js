@@ -7,6 +7,14 @@ window.updateCategoryUI = function() {
     container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
     container.classList.add('cat-' + categoryId);
 
+    // Sync mobile active states
+    document.querySelectorAll('.cat-pill').forEach(pill => {
+        pill.classList.remove('active-vocab', 'active-grammar', 'active-speaking');
+        if (pill.classList.contains('cat-' + categoryId + '-pill')) {
+            pill.classList.add('active-' + categoryId);
+        }
+    });
+
     populatePracticeThemes(categoryId);
 
     const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
@@ -1572,6 +1580,10 @@ function startPractice(isWheelMode = false) {
     document.getElementById('setup-section').style.display = 'none';
     document.getElementById('practice-section').style.display = 'block';
 
+    if (window.GameSessionManager) {
+        GameSessionManager.recordSession('Practice', '💡');
+    }
+
     if (isWheelMode) {
         document.getElementById('wheel-container').style.display = 'block';
         document.getElementById('question-card').style.display = 'none';
@@ -2429,6 +2441,10 @@ function showSummary() {
 function showFeedback(isCorrect) {
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
+
+    if (typeof flashAnswer === 'function') {
+        flashAnswer(isCorrect);
+    }
     feedbackMsg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
 
     // Mobile UX: flash feedback

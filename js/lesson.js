@@ -180,6 +180,10 @@ function startLesson() {
             setLanguage(lang);
         }
 
+    if (window.GameSessionManager) {
+        GameSessionManager.recordSession('Lesson ' + day, '🎓');
+    }
+
         showNextWord();
     } else {
         const lang = currentLesson.language;
@@ -641,6 +645,10 @@ function checkTrueFalseAnswer(user) {
 function showFeedback(isCorrect) {
     const msg = document.getElementById('feedback-message');
     msg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
+
+    if (typeof flashAnswer === 'function') {
+        flashAnswer(isCorrect);
+    }
     msg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
     if (typeof setLanguage === 'function') setLanguage(currentLesson.language);
 

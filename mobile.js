@@ -5,11 +5,20 @@
 // ── Bottom nav: update active state based on current page
 function updateMobileNav() {
   const path = window.location.pathname;
+  const filename = path.split('/').pop() || 'index.html';
+
   document.querySelectorAll('.mobile-nav-item').forEach(item => {
     const href = item.getAttribute('href') || '';
-    item.classList.toggle('active',
-      href && path.endsWith(href.split('/').pop())
-    );
+    const itemFile = href.split('/').pop().split('#')[0] || 'index.html';
+
+    let active = (filename === itemFile);
+
+    // Special case for home/root
+    if (filename === '' || filename === 'index.html') {
+      active = (itemFile === 'index.html');
+    }
+
+    item.classList.toggle('active', active);
   });
 }
 
@@ -208,6 +217,10 @@ function injectMobileNav() {
   const path = window.location.pathname;
   const isGH = path.includes('/COSYlanguages/');
   const base = isGH ? '/COSYlanguages/' : '/';
+
+  // Don't inject if already present
+  if (document.querySelector('.mobile-nav')) return;
+
   const nav = document.createElement('nav');
   nav.className = 'mobile-nav';
   nav.innerHTML = `

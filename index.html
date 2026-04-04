@@ -984,7 +984,7 @@ footer {
     <div class="tool-card reveal" data-bg="🎮">
       <div class="tool-free-label" data-translate-key="tool_free_label">✅ Always free</div>
       <h3 data-translate-key="tool_games_title">Language Games 🎮</h3>
-      <p data-translate-key="tool_games_desc">11 interactive language games — play solo or with friends. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits and more. Any language, any CEFR level, anytime.</p>
+      <p data-translate-key="tool_games_desc">13 interactive language games — play solo or with friends. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits and more. Any language, any CEFR level, anytime.</p>
       <div class="tool-pills">
         <span class="tool-pill">🎭 Action Hero</span>
         <span class="tool-pill">🗣️ Fluency Flow</span>
@@ -1003,6 +1003,13 @@ footer {
       <p data-translate-key="events_row_p">Organised sessions with a teacher or host — speaking clubs on real topics, karaoke nights and cinema evenings in the original language. Check the events page for details and how to join.</p>
     </div>
     <a href="events.html" class="er-link" data-translate-key="events_row_cta">See events →</a>
+  </div>
+
+  <div class="session-log" id="session-log-container" style="display: none; margin-top: 3rem;">
+    <h3 style="font-family:'Lora',serif; font-size:1.3rem; margin-bottom:1.5rem; color:var(--sage-deep);">Recently Played 🕒</h3>
+    <div class="log-grid" id="session-log-grid" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:1rem;">
+      <!-- Log items will be added here -->
+    </div>
   </div>
 </section>
 
@@ -1182,6 +1189,7 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     <script src="js/data/celtic/br/translations.js"></script>
     <script src="js/translate.js"></script>
     <script src="mobile.js"></script>
+    <script src="games-improvements.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
