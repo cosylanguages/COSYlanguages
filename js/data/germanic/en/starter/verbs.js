@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "be",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -23,9 +23,10 @@
         "v2": "was / were",
         "v3": "been",
         "group": "irregular",
-        "opposite": "become"
+        "opposite": "become",
+        "synonyms": []
     },
-    {
+{
         "word": "have",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -48,9 +49,10 @@
         "v2": "had",
         "v3": "had",
         "group": "irregular",
-        "opposite": "need"
+        "opposite": "need",
+        "synonyms": []
     },
-    {
+{
         "word": "feel",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -71,9 +73,10 @@
         "v2": "felt",
         "v3": "felt",
         "group": "irregular",
-        "opposite": "act"
+        "opposite": "act",
+        "synonyms": []
     },
-    {
+{
         "word": "give",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -96,9 +99,10 @@
         "aspect": "action",
         "v2": "gave",
         "v3": "given",
-        "group": "irregular"
+        "group": "irregular",
+        "synonyms": []
     },
-    {
+{
         "word": "take",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -121,9 +125,10 @@
         "aspect": "action",
         "v2": "took",
         "v3": "taken",
-        "group": "irregular"
+        "group": "irregular",
+        "synonyms": []
     },
-    {
+{
         "word": "get",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -147,9 +152,10 @@
         "v2": "got",
         "v3": "got / gotten",
         "group": "irregular",
-        "transcription": "gɪt"
+        "transcription": "gɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "put",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -172,9 +178,10 @@
         "v2": "put",
         "v3": "put",
         "group": "irregular",
-        "transcription": "pʊt"
+        "transcription": "pʊt",
+        "synonyms": []
     },
-    {
+{
         "word": "make",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -196,9 +203,10 @@
         "v3": "made",
         "group": "irregular",
         "opposite": "destroy",
-        "transcription": "meɪk"
+        "transcription": "meɪk",
+        "synonyms": []
     },
-    {
+{
         "word": "do",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -220,9 +228,10 @@
         "v3": "done",
         "group": "irregular",
         "opposite": "undo",
-        "transcription": "du"
+        "transcription": "du",
+        "synonyms": []
     },
-    {
+{
         "word": "use",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -244,9 +253,10 @@
         "v3": "used",
         "group": "regular",
         "opposite": "waste",
-        "transcription": "juz"
+        "transcription": "juz",
+        "synonyms": []
     },
-    {
+{
         "word": "open",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -269,9 +279,10 @@
         "v2": "opened",
         "v3": "opened",
         "group": "regular",
-        "transcription": "ˈoʊpən"
+        "transcription": "ˈoʊpən",
+        "synonyms": []
     },
-    {
+{
         "word": "close",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -294,9 +305,10 @@
         "v2": "closed",
         "v3": "closed",
         "group": "regular",
-        "transcription": "kloʊz"
+        "transcription": "kloʊz",
+        "synonyms": []
     },
-    {
+{
         "word": "start",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -318,9 +330,10 @@
         "v2": "started",
         "v3": "started",
         "group": "regular",
-        "transcription": "stɑrt"
+        "transcription": "stɑrt",
+        "synonyms": []
     },
-    {
+{
         "word": "finish",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -342,9 +355,10 @@
         "v2": "finished",
         "v3": "finished",
         "group": "regular",
-        "transcription": "ˈfɪnɪʃ"
+        "transcription": "ˈfɪnɪʃ",
+        "synonyms": []
     },
-    {
+{
         "word": "help",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -365,9 +379,10 @@
         "v3": "helped",
         "group": "regular",
         "opposite": "hinder",
-        "transcription": "hɛlp"
+        "transcription": "hɛlp",
+        "synonyms": []
     },
-    {
+{
         "word": "try",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -388,9 +403,10 @@
         "v3": "tried",
         "group": "regular",
         "opposite": "give up",
-        "transcription": "traɪ"
+        "transcription": "traɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "show",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -412,9 +428,10 @@
         "v2": "showed",
         "v3": "shown",
         "group": "irregular",
-        "transcription": "ʃoʊ"
+        "transcription": "ʃoʊ",
+        "synonyms": []
     },
-    {
+{
         "word": "find",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -437,9 +454,10 @@
         "v2": "found",
         "v3": "found",
         "group": "irregular",
-        "transcription": "faɪnd"
+        "transcription": "faɪnd",
+        "synonyms": []
     },
-    {
+{
         "word": "keep",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -461,9 +479,10 @@
         "v3": "kept",
         "group": "irregular",
         "opposite": "give away",
-        "transcription": "kip"
+        "transcription": "kip",
+        "synonyms": []
     },
-    {
+{
         "word": "lose",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -486,9 +505,10 @@
         "v2": "lost",
         "v3": "lost",
         "group": "irregular",
-        "transcription": "luz"
+        "transcription": "luz",
+        "synonyms": []
     },
-    {
+{
         "word": "cut",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -510,9 +530,10 @@
         "v3": "cut",
         "group": "irregular",
         "opposite": "join",
-        "transcription": "kət"
+        "transcription": "kət",
+        "synonyms": []
     },
-    {
+{
         "word": "turn",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -534,9 +555,10 @@
         "v3": "turned",
         "group": "regular",
         "opposite": "straighten",
-        "transcription": "tərn"
+        "transcription": "tərn",
+        "synonyms": []
     },
-    {
+{
         "word": "bring",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -559,9 +581,10 @@
         "v2": "brought",
         "v3": "brought",
         "group": "irregular",
-        "transcription": "brɪŋ"
+        "transcription": "brɪŋ",
+        "synonyms": []
     },
-    {
+{
         "word": "say",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -583,9 +606,10 @@
         "v3": "said",
         "group": "irregular",
         "opposite": "listen",
-        "transcription": "seɪ"
+        "transcription": "seɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "tell",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -606,9 +630,10 @@
         "v3": "told",
         "group": "irregular",
         "opposite": "ask",
-        "transcription": "tɛl"
+        "transcription": "tɛl",
+        "synonyms": []
     },
-    {
+{
         "word": "ask",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -630,9 +655,10 @@
         "v2": "asked",
         "v3": "asked",
         "group": "regular",
-        "transcription": "æsk"
+        "transcription": "æsk",
+        "synonyms": []
     },
-    {
+{
         "word": "speak",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -654,9 +680,10 @@
         "v3": "spoken",
         "group": "irregular",
         "opposite": "be silent",
-        "transcription": "spik"
+        "transcription": "spik",
+        "synonyms": []
     },
-    {
+{
         "word": "talk",
         "level": "starter",
         "theme": "family_life_A1",
@@ -677,9 +704,10 @@
         "v3": "talked",
         "group": "regular",
         "opposite": "listen",
-        "transcription": "tɔk"
+        "transcription": "tɔk",
+        "synonyms": []
     },
-    {
+{
         "word": "call",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -700,9 +728,10 @@
         "v3": "called",
         "group": "regular",
         "opposite": "hang up",
-        "transcription": "kɔl"
+        "transcription": "kɔl",
+        "synonyms": []
     },
-    {
+{
         "word": "write",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -725,9 +754,10 @@
         "v2": "wrote",
         "v3": "written",
         "group": "irregular",
-        "transcription": "raɪt"
+        "transcription": "raɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "read",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -750,9 +780,10 @@
         "v2": "read",
         "v3": "read",
         "group": "irregular",
-        "transcription": "rɛd"
+        "transcription": "rɛd",
+        "synonyms": []
     },
-    {
+{
         "word": "listen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -774,9 +805,10 @@
         "v3": "listened",
         "group": "regular",
         "opposite": "say",
-        "transcription": "ˈlɪsən"
+        "transcription": "ˈlɪsən",
+        "synonyms": []
     },
-    {
+{
         "word": "answer",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -799,9 +831,10 @@
         "v2": "answered",
         "v3": "answered",
         "group": "regular",
-        "transcription": "ˈænsər"
+        "transcription": "ˈænsər",
+        "synonyms": []
     },
-    {
+{
         "word": "repeat",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -823,9 +856,10 @@
         "v3": "repeated",
         "group": "regular",
         "opposite": "change",
-        "transcription": "rɪˈpit"
+        "transcription": "rɪˈpit",
+        "synonyms": []
     },
-    {
+{
         "word": "go",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -848,9 +882,10 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "ɡəʊ"
+        "transcription": "ɡəʊ",
+        "synonyms": []
     },
-    {
+{
         "word": "come",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -873,9 +908,10 @@
         "v2": "came",
         "v3": "come",
         "group": "irregular",
-        "transcription": "kʌm"
+        "transcription": "kʌm",
+        "synonyms": []
     },
-    {
+{
         "word": "walk",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -898,9 +934,10 @@
         "v2": "walked",
         "v3": "walked",
         "group": "regular",
-        "transcription": "wɔk"
+        "transcription": "wɔk",
+        "synonyms": []
     },
-    {
+{
         "word": "drive",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -922,9 +959,10 @@
         "v3": "driven",
         "group": "irregular",
         "opposite": "walk",
-        "transcription": "draɪv"
+        "transcription": "draɪv",
+        "synonyms": []
     },
-    {
+{
         "word": "fly",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -946,9 +984,10 @@
         "v3": "flown",
         "group": "irregular",
         "opposite": "land",
-        "transcription": "flaɪ"
+        "transcription": "flaɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "arrive",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -970,9 +1009,10 @@
         "v2": "arrived",
         "v3": "arrived",
         "group": "regular",
-        "transcription": "əraɪv"
+        "transcription": "əraɪv",
+        "synonyms": []
     },
-    {
+{
         "word": "leave",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -994,9 +1034,10 @@
         "v2": "left",
         "v3": "left",
         "group": "irregular",
-        "transcription": "liv"
+        "transcription": "liv",
+        "synonyms": []
     },
-    {
+{
         "word": "move",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1017,9 +1058,10 @@
         "v3": "moved",
         "group": "regular",
         "opposite": "stay",
-        "transcription": "muv"
+        "transcription": "muv",
+        "synonyms": []
     },
-    {
+{
         "word": "return",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1041,9 +1083,10 @@
         "v3": "returned",
         "group": "regular",
         "opposite": "leave",
-        "transcription": "rɪˈtərn"
+        "transcription": "rɪˈtərn",
+        "synonyms": []
     },
-    {
+{
         "word": "travel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1064,9 +1107,10 @@
         "v3": "traveled",
         "group": "regular",
         "opposite": "stay",
-        "transcription": "ˈtrævəl"
+        "transcription": "ˈtrævəl",
+        "synonyms": []
     },
-    {
+{
         "word": "eat",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1089,9 +1133,10 @@
         "v2": "ate",
         "v3": "eaten",
         "group": "irregular",
-        "transcription": "it"
+        "transcription": "it",
+        "synonyms": []
     },
-    {
+{
         "word": "drink",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1114,9 +1159,10 @@
         "v2": "drank",
         "v3": "drunk",
         "group": "irregular",
-        "transcription": "drɪŋk"
+        "transcription": "drɪŋk",
+        "synonyms": []
     },
-    {
+{
         "word": "sleep",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1139,9 +1185,10 @@
         "v2": "slept",
         "v3": "slept",
         "group": "irregular",
-        "transcription": "slip"
+        "transcription": "slip",
+        "synonyms": []
     },
-    {
+{
         "word": "cook",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1162,9 +1209,10 @@
         "v3": "cooked",
         "group": "regular",
         "opposite": "eat",
-        "transcription": "kʊk"
+        "transcription": "kʊk",
+        "synonyms": []
     },
-    {
+{
         "word": "clean",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1185,9 +1233,10 @@
         "v3": "cleaned",
         "group": "regular",
         "opposite": "dirty",
-        "transcription": "klin"
+        "transcription": "klin",
+        "synonyms": []
     },
-    {
+{
         "word": "wear",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1209,9 +1258,10 @@
         "v3": "worn",
         "group": "irregular",
         "opposite": "undress",
-        "transcription": "wɛr"
+        "transcription": "wɛr",
+        "synonyms": []
     },
-    {
+{
         "word": "wash",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1233,9 +1283,10 @@
         "v3": "washed",
         "group": "regular",
         "opposite": "dirty",
-        "transcription": "wɑʃ"
+        "transcription": "wɑʃ",
+        "synonyms": []
     },
-    {
+{
         "word": "buy",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1258,9 +1309,10 @@
         "v2": "bought",
         "v3": "bought",
         "group": "irregular",
-        "transcription": "baɪ"
+        "transcription": "baɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "pay",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1281,9 +1333,10 @@
         "v3": "paid",
         "group": "irregular",
         "opposite": "receive",
-        "transcription": "peɪ"
+        "transcription": "peɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "spend",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1305,9 +1358,10 @@
         "v2": "spent",
         "v3": "spent",
         "group": "irregular",
-        "transcription": "spɛnd"
+        "transcription": "spɛnd",
+        "synonyms": []
     },
-    {
+{
         "word": "save",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1329,9 +1383,10 @@
         "v2": "saved",
         "v3": "saved",
         "group": "regular",
-        "transcription": "seɪv"
+        "transcription": "seɪv",
+        "synonyms": []
     },
-    {
+{
         "word": "work",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1353,9 +1408,10 @@
         "v2": "worked",
         "v3": "worked",
         "group": "regular",
-        "transcription": "wərk"
+        "transcription": "wərk",
+        "synonyms": []
     },
-    {
+{
         "word": "live",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1378,9 +1434,10 @@
         "v2": "lived",
         "v3": "lived",
         "group": "regular",
-        "transcription": "lɪv"
+        "transcription": "lɪv",
+        "synonyms": []
     },
-    {
+{
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1402,9 +1459,10 @@
         "v3": "thought",
         "group": "irregular",
         "opposite": "feel",
-        "transcription": "θɪŋk"
+        "transcription": "θɪŋk",
+        "synonyms": []
     },
-    {
+{
         "word": "know",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1427,9 +1485,10 @@
         "v3": "known",
         "group": "irregular",
         "opposite": "wonder",
-        "transcription": "noʊ"
+        "transcription": "noʊ",
+        "synonyms": []
     },
-    {
+{
         "word": "want",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1452,9 +1511,10 @@
         "v3": "wanted",
         "group": "regular",
         "opposite": "refuse",
-        "transcription": "wɔnt"
+        "transcription": "wɔnt",
+        "synonyms": []
     },
-    {
+{
         "word": "need",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1477,9 +1537,10 @@
         "v3": "needed",
         "group": "regular",
         "opposite": "have",
-        "transcription": "nid"
+        "transcription": "nid",
+        "synonyms": []
     },
-    {
+{
         "word": "like",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1503,9 +1564,10 @@
         "v2": "liked",
         "v3": "liked",
         "group": "regular",
-        "transcription": "laɪk"
+        "transcription": "laɪk",
+        "synonyms": []
     },
-    {
+{
         "word": "dislike",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1527,9 +1589,10 @@
         "v2": "disliked",
         "v3": "disliked",
         "group": "regular",
-        "transcription": "dɪsˈlaɪk"
+        "transcription": "dɪsˈlaɪk",
+        "synonyms": []
     },
-    {
+{
         "word": "love",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1552,9 +1615,10 @@
         "v2": "loved",
         "v3": "loved",
         "group": "regular",
-        "transcription": "ləv"
+        "transcription": "ləv",
+        "synonyms": []
     },
-    {
+{
         "word": "hate",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1577,9 +1641,10 @@
         "v2": "hated",
         "v3": "hated",
         "group": "regular",
-        "transcription": "heɪt"
+        "transcription": "heɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "hope",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1601,9 +1666,10 @@
         "v3": "hoped",
         "group": "regular",
         "opposite": "fear",
-        "transcription": "hoʊp"
+        "transcription": "hoʊp",
+        "synonyms": []
     },
-    {
+{
         "word": "remember",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1626,9 +1692,10 @@
         "v2": "remembered",
         "v3": "remembered",
         "group": "regular",
-        "transcription": "rɪˈmɛmbər"
+        "transcription": "rɪˈmɛmbər",
+        "synonyms": []
     },
-    {
+{
         "word": "forget",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1651,9 +1718,10 @@
         "v2": "forgot",
         "v3": "forgotten",
         "group": "irregular",
-        "transcription": "fərˈgɛt"
+        "transcription": "fərˈgɛt",
+        "synonyms": []
     },
-    {
+{
         "word": "understand",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1675,9 +1743,10 @@
         "v3": "understood",
         "group": "irregular",
         "opposite": "misunderstand",
-        "transcription": "ˌəndərˈstænd"
+        "transcription": "ˌəndərˈstænd",
+        "synonyms": []
     },
-    {
+{
         "word": "decide",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1704,7 +1773,7 @@
         "opposite": "hesitate",
         "transcription": "ˌdɪˈsaɪd"
     },
-    {
+{
         "word": "enjoy",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1725,9 +1794,10 @@
         "v3": "enjoyed",
         "group": "regular",
         "opposite": "hate",
-        "transcription": "ˌɛnˈʤɔɪ"
+        "transcription": "ˌɛnˈʤɔɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "see",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1749,9 +1819,10 @@
         "v3": "seen",
         "group": "irregular",
         "opposite": "blind",
-        "transcription": "si"
+        "transcription": "si",
+        "synonyms": []
     },
-    {
+{
         "word": "hear",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1773,9 +1844,10 @@
         "v3": "heard",
         "group": "irregular",
         "opposite": "ignore",
-        "transcription": "hir"
+        "transcription": "hir",
+        "synonyms": []
     },
-    {
+{
         "word": "wake up",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1797,9 +1869,10 @@
         "v2": "woke up",
         "v3": "woken up",
         "group": "irregular",
-        "transcription": "weɪk əp"
+        "transcription": "weɪk əp",
+        "synonyms": []
     },
-    {
+{
         "word": "watch",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1820,9 +1893,10 @@
         "v3": "watched",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "wɔʧ"
+        "transcription": "wɔʧ",
+        "synonyms": []
     },
-    {
+{
         "word": "look",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1844,9 +1918,10 @@
         "v3": "looked",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "lʊk"
+        "transcription": "lʊk",
+        "synonyms": []
     },
-    {
+{
         "word": "play",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1867,9 +1942,10 @@
         "v3": "played",
         "group": "regular",
         "opposite": "work",
-        "transcription": "pleɪ"
+        "transcription": "pleɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "run",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1892,9 +1968,10 @@
         "v2": "ran",
         "v3": "run",
         "group": "irregular",
-        "transcription": "rən"
+        "transcription": "rən",
+        "synonyms": []
     },
-    {
+{
         "word": "sit",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1916,9 +1993,10 @@
         "v2": "sat",
         "v3": "sat",
         "group": "irregular",
-        "transcription": "sɪt"
+        "transcription": "sɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "stand",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1940,9 +2018,10 @@
         "v2": "stood",
         "v3": "stood",
         "group": "irregular",
-        "transcription": "stænd"
+        "transcription": "stænd",
+        "synonyms": []
     },
-    {
+{
         "word": "meet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1963,9 +2042,10 @@
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
         "group": "irregular",
         "opposite": null,
-        "transcription": "mit"
+        "transcription": "mit",
+        "synonyms": []
     },
-    {
+{
         "word": "learn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1987,9 +2067,10 @@
         "v2": "learned / learnt",
         "v3": "learned / learnt",
         "group": "both",
-        "transcription": "lərn"
+        "transcription": "lərn",
+        "synonyms": []
     },
-    {
+{
         "word": "change",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2010,9 +2091,10 @@
         "v3": "changed",
         "group": "regular",
         "opposite": "stay",
-        "transcription": "ʧeɪnʤ"
+        "transcription": "ʧeɪnʤ",
+        "synonyms": []
     },
-    {
+{
         "word": "stop",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2034,9 +2116,10 @@
         "v2": "stopped",
         "v3": "stopped",
         "group": "regular",
-        "transcription": "stɑp"
+        "transcription": "stɑp",
+        "synonyms": []
     },
-    {
+{
         "word": "add",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2059,9 +2142,10 @@
         "v2": "added",
         "v3": "added",
         "group": "regular",
-        "transcription": "æd"
+        "transcription": "æd",
+        "synonyms": []
     },
-    {
+{
         "word": "subtract",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2088,7 +2172,7 @@
         "group": "regular",
         "transcription": "səbˈtrækt"
     },
-    {
+{
         "word": "win",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2110,9 +2194,10 @@
         "v2": "won",
         "v3": "won",
         "group": "irregular",
-        "transcription": "wɪn"
+        "transcription": "wɪn",
+        "synonyms": []
     },
-    {
+{
         "word": "wait",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2133,9 +2218,10 @@
         "v3": "waited",
         "group": "regular",
         "opposite": "act",
-        "transcription": "weɪt"
+        "transcription": "weɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "die",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2157,9 +2243,10 @@
         "v2": "died",
         "v3": "died",
         "group": "regular",
-        "transcription": "daɪ"
+        "transcription": "daɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "send",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2181,9 +2268,10 @@
         "v3": "sent",
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "irregular",
-        "transcription": "sɛnd"
+        "transcription": "sɛnd",
+        "synonyms": []
     },
-    {
+{
         "word": "stay",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2206,9 +2294,10 @@
         "v2": "stayed",
         "v3": "stayed",
         "group": "regular",
-        "transcription": "steɪ"
+        "transcription": "steɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "fall",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2231,9 +2320,10 @@
         "v2": "fell",
         "v3": "fallen",
         "group": "irregular",
-        "transcription": "fɔl"
+        "transcription": "fɔl",
+        "synonyms": []
     },
-    {
+{
         "word": "rise",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2256,9 +2346,10 @@
         "v2": "rose",
         "v3": "risen",
         "group": "irregular",
-        "transcription": "raɪz"
+        "transcription": "raɪz",
+        "synonyms": []
     },
-    {
+{
         "word": "pass",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2281,9 +2372,10 @@
         "v2": "passed",
         "v3": "passed",
         "group": "regular",
-        "transcription": "pæs"
+        "transcription": "pæs",
+        "synonyms": []
     },
-    {
+{
         "word": "sell",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2310,7 +2402,7 @@
         "group": "irregular",
         "transcription": "sɛl"
     },
-    {
+{
         "word": "pull",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2332,9 +2424,10 @@
         "v2": "pulled",
         "v3": "pulled",
         "group": "regular",
-        "transcription": "pʊl"
+        "transcription": "pʊl",
+        "synonyms": []
     },
-    {
+{
         "word": "push",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2357,9 +2450,10 @@
         "v2": "pushed",
         "v3": "pushed",
         "group": "regular",
-        "transcription": "pʊʃ"
+        "transcription": "pʊʃ",
+        "synonyms": []
     },
-    {
+{
         "word": "carry",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2380,9 +2474,10 @@
         "v3": "carried",
         "group": "regular",
         "opposite": "drop",
-        "transcription": "ˈkɛri"
+        "transcription": "ˈkɛri",
+        "synonyms": []
     },
-    {
+{
         "word": "break",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2404,9 +2499,10 @@
         "v3": "broken",
         "group": "irregular",
         "opposite": "fix",
-        "transcription": "breɪk"
+        "transcription": "breɪk",
+        "synonyms": []
     },
-    {
+{
         "word": "receive",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2429,9 +2525,10 @@
         "v2": "received",
         "v3": "received",
         "group": "regular",
-        "transcription": "rɪˈsiv"
+        "transcription": "rɪˈsiv",
+        "synonyms": []
     },
-    {
+{
         "word": "agree",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2454,9 +2551,10 @@
         "v2": "agreed",
         "v3": "agreed",
         "group": "regular",
-        "transcription": "əˈgri"
+        "transcription": "əˈgri",
+        "synonyms": []
     },
-    {
+{
         "word": "draw",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2478,9 +2576,10 @@
         "v3": "drawn",
         "group": "irregular",
         "opposite": null,
-        "transcription": "drɔ"
+        "transcription": "drɔ",
+        "synonyms": []
     },
-    {
+{
         "word": "share",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2502,9 +2601,10 @@
         "v3": "shared",
         "group": "regular",
         "opposite": "keep",
-        "transcription": "ʃɛr"
+        "transcription": "ʃɛr",
+        "synonyms": []
     },
-    {
+{
         "word": "smile",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2527,9 +2627,10 @@
         "v2": "smiled",
         "v3": "smiled",
         "group": "regular",
-        "transcription": "smaɪl"
+        "transcription": "smaɪl",
+        "synonyms": []
     },
-    {
+{
         "word": "cry",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2557,7 +2658,7 @@
         "group": "regular",
         "transcription": "kraɪ"
     },
-    {
+{
         "word": "dance",
         "level": "starter",
         "theme": "music_A1",
@@ -2584,7 +2685,7 @@
         "opposite": "sit",
         "transcription": "dæns"
     },
-    {
+{
         "word": "sing",
         "level": "starter",
         "theme": "music_A1",
@@ -2611,7 +2712,7 @@
         "opposite": "be quiet",
         "transcription": "sɪŋ"
     },
-    {
+{
         "word": "jump",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2633,9 +2734,10 @@
         "v3": "jumped",
         "group": "regular",
         "opposite": "fall",
-        "transcription": "ʤəmp"
+        "transcription": "ʤəmp",
+        "synonyms": []
     },
-    {
+{
         "word": "swim",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2662,7 +2764,7 @@
         "opposite": "sink",
         "transcription": "swɪm"
     },
-    {
+{
         "word": "study",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2683,9 +2785,10 @@
         "v3": "studied",
         "group": "regular",
         "opposite": "play",
-        "transcription": "ˈstədi"
+        "transcription": "ˈstədi",
+        "synonyms": []
     },
-    {
+{
         "word": "teach",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2706,9 +2809,10 @@
         "v3": "taught",
         "group": "irregular",
         "opposite": "learn",
-        "transcription": "tiʧ"
+        "transcription": "tiʧ",
+        "synonyms": []
     },
-    {
+{
         "word": "rent",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2729,9 +2833,10 @@
         "v3": "rented",
         "group": "regular",
         "opposite": "own",
-        "transcription": "rɛnt"
+        "transcription": "rɛnt",
+        "synonyms": []
     },
-    {
+{
         "word": "exercise",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2752,9 +2857,10 @@
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "regular",
         "opposite": "rest",
-        "transcription": "ˈɛksərˌsaɪz"
+        "transcription": "ˈɛksərˌsaɪz",
+        "synonyms": []
     },
-    {
+{
         "word": "cost",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2774,9 +2880,11 @@
         "v3": "cost",
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "irregular",
-        "transcription": "kɔst"
+        "transcription": "kɔst",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "invite",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2797,9 +2905,10 @@
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
         "opposite": "reject",
-        "transcription": "ˌɪnˈvaɪt"
+        "transcription": "ˌɪnˈvaɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "get up",
         "definitions": [
             {
@@ -2820,9 +2929,10 @@
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "gɪt əp"
+        "transcription": "gɪt əp",
+        "synonyms": []
     },
-    {
+{
         "word": "have breakfast",
         "definitions": [
             {
@@ -2848,7 +2958,7 @@
         "opposite": null,
         "transcription": "hæv ˈbrɛkfəst"
     },
-    {
+{
         "word": "come back",
         "definitions": [
             {
@@ -2869,9 +2979,10 @@
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "kəm bæk"
+        "transcription": "kəm bæk",
+        "synonyms": []
     },
-    {
+{
         "word": "go to bed",
         "definitions": [
             {
@@ -2892,9 +3003,10 @@
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "goʊ tɪ bɛd"
+        "transcription": "goʊ tɪ bɛd",
+        "synonyms": []
     },
-    {
+{
         "word": "check",
         "definitions": [
             {
@@ -2915,9 +3027,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "ʧɛk"
+        "transcription": "ʧɛk",
+        "synonyms": []
     },
-    {
+{
         "word": "unpack",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -2939,9 +3052,10 @@
         "v2": "unpacked",
         "v3": "unpacked",
         "group": "regular",
-        "transcription": "ənˈpæk"
+        "transcription": "ənˈpæk",
+        "synonyms": []
     },
-    {
+{
         "word": "reply",
         "definitions": [
             {
@@ -2962,9 +3076,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "rɪˈplaɪ"
+        "transcription": "rɪˈplaɪ",
+        "synonyms": []
     },
-    {
+{
         "word": "present",
         "definitions": [
             {
@@ -2985,9 +3100,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "hide",
-        "transcription": "ˈprɛzənt"
+        "transcription": "ˈprɛzənt",
+        "synonyms": []
     },
-    {
+{
         "word": "attend",
         "definitions": [
             {
@@ -3008,9 +3124,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "miss",
-        "transcription": "əˈtɛnd"
+        "transcription": "əˈtɛnd",
+        "synonyms": []
     },
-    {
+{
         "word": "manage",
         "definitions": [
             {
@@ -3031,9 +3148,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "follow",
-        "transcription": "ˈmænɪʤ"
+        "transcription": "ˈmænɪʤ",
+        "synonyms": []
     },
-    {
+{
         "word": "earn",
         "definitions": [
             {
@@ -3054,9 +3172,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "spend",
-        "transcription": "ərn"
+        "transcription": "ərn",
+        "synonyms": []
     },
-    {
+{
         "word": "visit",
         "definitions": [
             {
@@ -3077,9 +3196,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "leave",
-        "transcription": "ˈvɪzɪt"
+        "transcription": "ˈvɪzɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "celebrate",
         "definitions": [
             {
@@ -3100,9 +3220,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "mourn",
-        "transcription": "ˈsɛləˌbreɪt"
+        "transcription": "ˈsɛləˌbreɪt",
+        "synonyms": []
     },
-    {
+{
         "word": "hurt",
         "definitions": [
             {
@@ -3123,9 +3244,10 @@
         "form": "verb",
         "group": "irregular",
         "opposite": "heal",
-        "transcription": "hərt"
+        "transcription": "hərt",
+        "synonyms": []
     },
-    {
+{
         "word": "rest",
         "definitions": [
             {
@@ -3146,9 +3268,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "exercise",
-        "transcription": "rɛst"
+        "transcription": "rɛst",
+        "synonyms": []
     },
-    {
+{
         "word": "book",
         "definitions": [
             {
@@ -3169,9 +3292,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "cancel",
-        "transcription": "bʊk"
+        "transcription": "bʊk",
+        "synonyms": []
     },
-    {
+{
         "word": "pack",
         "definitions": [
             {
@@ -3193,9 +3317,10 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "transcription": "pæk"
+        "transcription": "pæk",
+        "synonyms": []
     },
-    {
+{
         "word": "cancel",
         "definitions": [
             {
@@ -3216,9 +3341,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "book",
-        "transcription": "ˈkænsəl"
+        "transcription": "ˈkænsəl",
+        "synonyms": []
     },
-    {
+{
         "word": "miss",
         "definitions": [
             {
@@ -3239,9 +3365,10 @@
         "form": "verb",
         "group": "regular",
         "opposite": "attend",
-        "transcription": "mɪs"
+        "transcription": "mɪs",
+        "synonyms": []
     },
-    {
+{
         "word": "order",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3262,9 +3389,10 @@
         "v3": "ordered",
         "group": "regular",
         "opposite": "deliver",
-        "transcription": "ˈɔrdər"
+        "transcription": "ˈɔrdər",
+        "synonyms": []
     },
-    {
+{
         "word": "thank",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3285,9 +3413,10 @@
         "v3": "thanked",
         "group": "regular",
         "opposite": "complain",
-        "transcription": "θæŋk"
+        "transcription": "θæŋk",
+        "synonyms": []
     },
-    {
+{
         "word": "introduce",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3308,9 +3437,10 @@
         "v3": "introduced",
         "group": "regular",
         "opposite": "hide",
-        "transcription": "ˌɪntrəˈdus"
+        "transcription": "ˌɪntrəˈdus",
+        "synonyms": []
     },
-    {
+{
         "word": "relax",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3331,9 +3461,10 @@
         "v3": "relaxed",
         "group": "regular",
         "opposite": "work",
-        "transcription": "rɪˈlæks"
+        "transcription": "rɪˈlæks",
+        "synonyms": []
     },
-    {
+{
         "word": "mean",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3354,9 +3485,10 @@
         "v3": "meant",
         "group": "irregular",
         "opposite": "nonsense",
-        "transcription": "min"
+        "transcription": "min",
+        "synonyms": []
     },
-    {
+{
         "word": "follow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3378,9 +3510,10 @@
         "v2": "followed",
         "v3": "followed",
         "group": "regular",
-        "transcription": "ˈfɑloʊ"
+        "transcription": "ˈfɑloʊ",
+        "synonyms": []
     },
-    {
+{
         "word": "grow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3401,9 +3534,10 @@
         "v3": "grown",
         "group": "irregular",
         "opposite": "shrink",
-        "transcription": "groʊ"
+        "transcription": "groʊ",
+        "synonyms": []
     },
-    {
+{
         "word": "become",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3424,9 +3558,10 @@
         "v3": "become",
         "group": "irregular",
         "opposite": "remain",
-        "transcription": "bɪˈkəm"
+        "transcription": "bɪˈkəm",
+        "synonyms": []
     },
-    {
+{
         "word": "choose",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3447,9 +3582,10 @@
         "v3": "chosen",
         "group": "irregular",
         "opposite": "reject",
-        "transcription": "ʧuz"
+        "transcription": "ʧuz",
+        "synonyms": []
     },
-    {
+{
         "word": "begin",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3476,7 +3612,7 @@
         "group": "irregular",
         "transcription": "bɪˈgɪn"
     },
-    {
+{
         "word": "end",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3504,7 +3640,7 @@
         "group": "regular",
         "transcription": "ɛnd"
     },
-    {
+{
         "word": "brush",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3530,7 +3666,7 @@
         "opposite": "mess up",
         "transcription": "brəʃ"
     },
-    {
+{
         "word": "ride",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -3551,9 +3687,10 @@
         "v3": "ridden",
         "group": "irregular",
         "opposite": "walk",
-        "transcription": "raɪd"
+        "transcription": "raɪd",
+        "synonyms": []
     },
-    {
+{
         "word": "believe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3580,7 +3717,7 @@
         "opposite": "doubt",
         "transcription": "bɪˈliv"
     },
-    {
+{
         "word": "prefer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3601,9 +3738,10 @@
         "v3": "preferred",
         "group": "regular",
         "opposite": "dislike",
-        "transcription": "prɪˈfər"
+        "transcription": "prɪˈfər",
+        "synonyms": []
     },
-    {
+{
         "word": "catch",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -3624,9 +3762,10 @@
         "v3": "caught",
         "group": "irregular",
         "opposite": "throw",
-        "transcription": "kæʧ"
+        "transcription": "kæʧ",
+        "synonyms": []
     },
-    {
+{
         "word": "fix",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3652,7 +3791,7 @@
         "opposite": "break",
         "transcription": "fɪks"
     },
-    {
+{
         "word": "plan",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3678,7 +3817,7 @@
         "opposite": "improvise",
         "transcription": "plæn"
     },
-    {
+{
         "word": "borrow",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3699,9 +3838,10 @@
         "v3": "borrowed",
         "group": "regular",
         "opposite": "lend",
-        "transcription": "ˈbɑˌroʊ"
+        "transcription": "ˈbɑˌroʊ",
+        "synonyms": []
     },
-    {
+{
         "word": "smell",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3727,7 +3867,7 @@
         "opposite": "stink",
         "transcription": "smɛl"
     },
-    {
+{
         "word": "taste",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -3753,7 +3893,7 @@
         "opposite": "swallow",
         "transcription": "teɪst"
     },
-    {
+{
         "word": "lie",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3779,7 +3919,7 @@
         "opposite": "stand",
         "transcription": "laɪ"
     },
-    {
+{
         "word": "laugh",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -3806,7 +3946,7 @@
         "group": "regular",
         "transcription": "læf"
     },
-    {
+{
         "word": "worry",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -3832,7 +3972,7 @@
         "opposite": "relax",
         "transcription": "ˈwəri"
     },
-    {
+{
         "word": "sound",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3858,7 +3998,7 @@
         "opposite": "silence",
         "transcription": "saʊnd"
     },
-    {
+{
         "word": "spell",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -3884,7 +4024,7 @@
         "opposite": "misspell",
         "transcription": "spɛl"
     },
-    {
+{
         "word": "point",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -3911,7 +4051,7 @@
         "opposite": "hide",
         "transcription": "pɔɪnt"
     },
-    {
+{
         "word": "shout",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -3937,7 +4077,7 @@
         "opposite": "whisper",
         "transcription": "ʃaʊt"
     },
-    {
+{
         "word": "wave",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3963,7 +4103,7 @@
         "opposite": "ignore",
         "transcription": "weɪv"
     },
-    {
+{
         "word": "kick",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -3989,7 +4129,7 @@
         "opposite": "catch",
         "transcription": "kɪk"
     },
-    {
+{
         "word": "throw",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4015,7 +4155,7 @@
         "opposite": "catch",
         "transcription": "θroʊ"
     },
-    {
+{
         "word": "bounce",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4042,7 +4182,7 @@
         "opposite": "stop",
         "transcription": "baʊns"
     },
-    {
+{
         "word": "paint",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -4069,7 +4209,7 @@
         "opposite": "erase",
         "transcription": "peɪnt"
     },
-    {
+{
         "word": "hop",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4095,7 +4235,7 @@
         "opposite": "walk",
         "transcription": "hɑp"
     },
-    {
+{
         "word": "skip",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4122,7 +4262,7 @@
         "opposite": "walk",
         "transcription": "skɪp"
     },
-    {
+{
         "word": "count",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -4148,7 +4288,7 @@
         "opposite": "estimate",
         "transcription": "kaʊnt"
     },
-    {
+{
         "word": "tick",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4174,7 +4314,7 @@
         "opposite": "cross",
         "transcription": "tɪk"
     },
-    {
+{
         "word": "cross",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4200,7 +4340,7 @@
         "opposite": "tick",
         "transcription": "krɔs"
     },
-    {
+{
         "word": "colour",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4226,7 +4366,7 @@
         "opposite": "erase",
         "transcription": "ˈkələr"
     },
-    {
+{
         "word": "hold",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4253,7 +4393,7 @@
         "opposite": "drop",
         "transcription": "hoʊld"
     },
-    {
+{
         "word": "lead",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4280,7 +4420,7 @@
         "opposite": "follow",
         "transcription": "lɛd"
     },
-    {
+{
         "word": "fight",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -4306,7 +4446,7 @@
         "opposite": "make peace",
         "transcription": "faɪt"
     },
-    {
+{
         "word": "hide",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -4328,9 +4468,10 @@
         "v2": "hid",
         "v3": "hidden",
         "group": "irregular",
-        "transcription": "haɪd"
+        "transcription": "haɪd",
+        "synonyms": []
     },
-    {
+{
         "word": "seek",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -4356,7 +4497,7 @@
         "opposite": "hide",
         "transcription": "sik"
     },
-    {
+{
         "word": "ring",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4383,7 +4524,7 @@
         "opposite": "be silent",
         "transcription": "rɪŋ"
     },
-    {
+{
         "word": "text",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -4409,724 +4550,28 @@
         "opposite": "call",
         "transcription": "tɛkst"
     },
-    {
+{
         "word": "whisper",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "communication_A1",
         "emoji": "🤫",
         "form": "verb",
-        "subtext": "whisper a secret",
-        "synonyms": [
-            "murmur",
-            "speak softly"
-        ],
         "definitions": [
             {
-                "text": "To speak very quietly so that other people cannot hear you.",
+                "text": "To speak very quietly.",
                 "examples": [
-                    "She whispered the answer to me."
+                    "She whispered the secret to me."
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
+        "subtext": "speak softly",
         "v2": "whispered",
         "v3": "whispered",
-        "group": "regular",
-        "opposite": "shout",
-        "transcription": "ˈwɪspər"
-    },
-    {
-        "word": "touch",
-        "level": "starter",
-        "theme": "five_senses_A1",
-        "emoji": "🫱",
-        "form": "verb",
-        "subtext": "don't touch / touch screen",
-        "synonyms": [
-            "feel"
-        ],
-        "definitions": [
-            {
-                "text": "To put your hand or another part of your body on something.",
-                "examples": [
-                    "Don't touch the wet paint!"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "touched",
-        "v3": "touched",
-        "group": "regular",
-        "opposite": null,
-        "transcription": "təʧ"
-    },
-    {
-        "word": "let",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "🔓",
-        "subtext": "let someone go / let it be / let someone know",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To allow something to happen or someone to do something.",
-                "examples": [
-                    "Let me help you with those bags.",
-                    "She let the dog out into the garden."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "let",
-        "v3": "let",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "lɛt"
-    },
-    {
-        "word": "set",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⚙️",
-        "subtext": "set an alarm / set the table / set a goal",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put something in a particular place or position; to establish.",
-                "examples": [
-                    "I set my alarm for seven o'clock.",
-                    "He set the plates on the table."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "set",
-        "v3": "set",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "sɛt"
-    },
-    {
-        "word": "email",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📧",
-        "subtext": "email someone / send an email / reply by email",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To send a message using the internet.",
-                "examples": [
-                    "Email me the details.",
-                    "I'll email you tomorrow."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "emailed",
-        "v3": "emailed",
-        "group": "regular",
-        "transcription": "iˈmeɪl"
-    },
-    {
-        "word": "phone",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📞",
-        "subtext": "phone someone / phone back / on the phone",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To call someone using a telephone.",
-                "examples": [
-                    "I'll phone you later.",
-                    "He phoned his mother."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "phoned",
-        "v3": "phoned",
-        "group": "regular",
-        "opposite": "text",
-        "transcription": "foʊn"
-    },
-    {
-        "word": "climb",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🧗",
-        "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To go up something using your hands and feet.",
-                "examples": [
-                    "We climbed the hill to see the view.",
-                    "The cat climbed the tree."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "climbed",
-        "v3": "climbed",
-        "group": "regular",
-        "opposite": "descend",
-        "transcription": "klaɪm"
-    },
-    {
-        "word": "dress",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "👗",
-        "subtext": "dress well / dress for work",
-        "synonyms": [
-            "get dressed"
-        ],
-        "opposite": "undress",
-        "oppositeEmoji": "👕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put clothes on yourself or someone else.",
-                "examples": [
-                    "I get dressed at seven.",
-                    "She was dressed in black."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "dressed",
-        "v3": "dressed",
-        "group": "regular",
-        "transcription": "drɛs"
-    },
-    {
-        "word": "undress",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "👕",
-        "subtext": "undress quickly",
-        "synonyms": [
-            "get undressed"
-        ],
-        "opposite": "dress",
-        "oppositeEmoji": "👗",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take clothes off yourself or someone else.",
-                "examples": [
-                    "He undressed and went to bed.",
-                    "Get undressed and have a bath."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "undressed",
-        "v3": "undressed",
-        "group": "regular",
-        "transcription": "ənˈdrɛs"
-    },
-    {
-        "word": "turn on",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "💡",
-        "subtext": "turn on the light / turn on the TV / turn on the radio",
-        "opposite": "turn off",
-        "oppositeEmoji": "🌑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a device start working.",
-                "examples": [
-                    "Turn on the light, please.",
-                    "He turns on his computer at nine."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "turned on",
-        "v3": "turned on",
-        "group": "regular",
-        "transcription": "tərn ɔn"
-    },
-    {
-        "word": "turn off",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🌑",
-        "subtext": "turn off the light / turn off the computer / turn off your phone",
-        "opposite": "turn on",
-        "oppositeEmoji": "💡",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a device stop working.",
-                "examples": [
-                    "Don't forget to turn off the lights.",
-                    "She turns off her phone during meetings."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "turned off",
-        "v3": "turned off",
-        "group": "regular",
-        "transcription": "tərn ɔf"
-    },
-    {
-        "word": "welcome",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "👋",
-        "form": "verb",
-        "subtext": "welcome someone / welcome home",
-        "definitions": [
-            {
-                "text": "To greet someone who has just arrived at a place.",
-                "examples": [
-                    "We welcomed the guests at the door."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "welcomed",
-        "v3": "welcomed",
-        "group": "regular",
-        "opposite": "reject",
-        "transcription": "ˈwɛlkəm"
-    },
-    {
-        "word": "act",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎭",
-        "form": "verb",
-        "subtext": "act in a play / act quickly",
-        "definitions": [
-            {
-                "text": "To perform in a play or movie.",
-                "examples": [
-                    "He acts in the school play."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "acted",
-        "v3": "acted",
-        "group": "regular",
-        "opposite": "be natural",
-        "transcription": "ækt"
-    },
-    {
-        "word": "copy",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📄",
-        "form": "verb",
-        "subtext": "copy a document / copy files",
-        "definitions": [
-            {
-                "text": "To make something that is exactly like another thing.",
-                "examples": [
-                    "Can you copy this report for me?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "copied",
-        "v3": "copied",
-        "group": "regular",
-        "opposite": "original",
-        "transcription": "ˈkɑpi"
-    },
-    {
-        "word": "fill",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🫗",
-        "form": "verb",
-        "subtext": "fill a glass / fill in a form",
-        "definitions": [
-            {
-                "text": "To make something full.",
-                "examples": [
-                    "Please fill the glass with water."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "filled",
-        "v3": "filled",
-        "group": "regular",
-        "opposite": "empty",
-        "transcription": "fɪl"
-    },
-    {
-        "word": "fit",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👕",
-        "form": "verb",
-        "subtext": "fit well / does it fit?",
-        "definitions": [
-            {
-                "text": "To be the right size or shape for someone or something.",
-                "examples": [
-                    "These shoes don't fit me."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "fitted",
-        "v3": "fitted",
-        "group": "regular",
-        "opposite": "unfit",
-        "transcription": "fɪt"
-    },
-    {
-        "word": "join",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "🤝",
-        "form": "verb",
-        "subtext": "join a club / join us",
-        "definitions": [
-            {
-                "text": "To become a member of a group or organization.",
-                "examples": [
-                    "I want to join the tennis club."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "joined",
-        "v3": "joined",
-        "group": "regular",
-        "opposite": "leave",
-        "transcription": "ʤɔɪn"
-    },
-    {
-        "word": "note",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📝",
-        "form": "verb",
-        "subtext": "note down / please note",
-        "definitions": [
-            {
-                "text": "To write something down so that you will remember it.",
-                "examples": [
-                    "Please note the time of the meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "noted",
-        "v3": "noted",
-        "group": "regular",
-        "opposite": "forget",
-        "transcription": "noʊt"
-    },
-    {
-        "word": "pick",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🧺",
-        "form": "verb",
-        "subtext": "pick flowers / pick up",
-        "definitions": [
-            {
-                "text": "To take flowers, fruit, etc. from the plant where they are growing.",
-                "examples": [
-                    "They are picking apples in the garden."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "picked",
-        "v3": "picked",
-        "group": "regular",
-        "opposite": "drop",
-        "transcription": "pɪk"
-    },
-    {
-        "word": "wish",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🤞",
-        "form": "verb",
-        "subtext": "wish for / I wish",
-        "definitions": [
-            {
-                "text": "To want something to happen or to be true even though it is unlikely.",
-                "examples": [
-                    "I wish it was summer."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "wished",
-        "v3": "wished",
-        "group": "regular",
-        "opposite": "fear",
-        "transcription": "wɪʃ"
-    },
-    {
-        "word": "collect",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "📦",
-        "form": "verb",
-        "subtext": "collect things / collect stamps",
-        "definitions": [
-            {
-                "text": "To bring things together from different places.",
-                "examples": [
-                    "She collects stamps."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "collected",
-        "v3": "collected",
-        "group": "regular",
-        "opposite": "scatter",
-        "transcription": "kəˈlɛkt"
-    },
-    {
-        "word": "describe",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "💬",
-        "form": "verb",
-        "subtext": "describe something / describe a person",
-        "definitions": [
-            {
-                "text": "To say or write what someone or something is like.",
-                "examples": [
-                    "Can you describe your house?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "described",
-        "v3": "described",
-        "group": "regular",
-        "opposite": "summarize",
-        "transcription": "dɪˈskraɪb"
-    },
-    {
-        "word": "breathe",
-        "level": "starter",
-        "theme": "health_body_A1",
-        "emoji": "🫁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take air into your lungs and send it out again.",
-                "examples": [
-                    "Breathe deeply."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "breathed",
-        "v3": "breathed",
-        "group": "regular",
-        "subtext": "breathe",
-        "synonyms": [
-            "inhale",
-            "exhale"
-        ],
-        "transcription": "brið"
-    },
-    {
-        "word": "cough",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "😷",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To force air out of your lungs with a sudden loud noise.",
-                "examples": [
-                    "He is coughing because he is ill."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "coughed",
-        "v3": "coughed",
-        "group": "regular",
-        "subtext": "have a cough",
-        "transcription": "kɔf"
-    },
-    {
-        "word": "sneeze",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "🤧",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To suddenly force air out through your nose and mouth with a loud noise.",
-                "examples": [
-                    "Bless you! Did you sneeze?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "sneezed",
-        "v3": "sneezed",
-        "group": "regular",
-        "subtext": "sneeze",
-        "synonyms": [
-            "atchoo!"
-        ],
-        "transcription": "sniz"
-    },
-    {
-        "word": "yawn",
-        "level": "starter",
-        "theme": "health_body_A1",
-        "emoji": "🥱",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To open your mouth wide and take a deep breath because you are tired.",
-                "examples": [
-                    "She yawned during the meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "yawned",
-        "v3": "yawned",
-        "group": "regular",
-        "subtext": "yawn",
-        "synonyms": [
-            "feel sleepy"
-        ],
-        "transcription": "jɔn"
-    },
-    {
-        "word": "explain",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🗣️",
-        "form": "verb",
-        "transcription": "ɪkˈspleɪn",
-        "definitions": [
-            {
-                "text": "To make something clear or easy to understand by describing or giving information about it.",
-                "examples": [
-                    "Can you explain this rule?",
-                    "The teacher explained the lesson."
-                ]
-            }
-        ],
-        "v2": "explained",
-        "v3": "explained",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "explain something to someone"
-    },
-    {
-        "word": "prepare",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "📝",
-        "form": "verb",
-        "transcription": "prɪˈpeə(r)",
-        "definitions": [
-            {
-                "text": "To get someone or something ready for something that will happen in the future.",
-                "examples": [
-                    "I need to prepare for my exam.",
-                    "She is preparing dinner."
-                ]
-            }
-        ],
-        "v2": "prepared",
-        "v3": "prepared",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "prepare for something"
-    },
-    {
-        "word": "depend",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "⚖️",
-        "form": "verb",
-        "transcription": "dɪˈpend",
-        "definitions": [
-            {
-                "text": "To be decided by or to change according to something else.",
-                "examples": [
-                    "It depends on the weather.",
-                    "Our plans depend on your answer."
-                ]
-            }
-        ],
-        "v2": "depended",
-        "v3": "depended",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "depend ON someone/something"
-    },
-    {
-        "word": "belong",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🏠",
-        "form": "verb",
-        "transcription": "bɪˈlɒŋ",
-        "definitions": [
-            {
-                "text": "To be the property of someone.",
-                "examples": [
-                    "This book belongs to me.",
-                    "Who does this bag belong to?"
-                ]
-            }
-        ],
-        "v2": "belonged",
-        "v3": "belonged",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "belong TO someone/something"
+        "transcription": "ˈwɪspər",
+        "synonyms": [],
+        "opposite": null
     }
-];
+    ];
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
