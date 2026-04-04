@@ -9,8 +9,7 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "doctors",
-        "transcription": "[ˈdɒktə]",
-        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈdɒktə",
         "subtext": "see a doctor, family doctor",
         "definitions": [
             {
@@ -37,8 +36,7 @@
         "emoji": "🥤",
         "form": "noun",
         "plural": "sodas",
-        "transcription": "[ˈsəʊdə]",
-        "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈsəʊdə",
         "subtext": "fizzy drink, soft drink",
         "definitions": [
             {
@@ -58,8 +56,7 @@
         "emoji": "🧣",
         "form": "noun",
         "plural": "scarves",
-        "transcription": "[skɑːf]",
-        "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=400&q=80",
+        "transcription": "skɑːf",
         "definitions": [
             {
                 "text": "A piece of cloth that you wear around your neck to keep warm.",
@@ -79,8 +76,7 @@
         "emoji": "🥣",
         "form": "noun",
         "plural": null,
-        "transcription": "[ˈsɪərɪəl]",
-        "image": "https://images.unsplash.com/photo-1521483451569-e33803c0330c?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈsɪərɪəl",
         "definitions": [
             {
                 "text": "A food made from grain that people often eat for breakfast with milk.",
@@ -100,8 +96,7 @@
         "emoji": "🧤",
         "form": "noun",
         "plural": "gloves",
-        "transcription": "[ɡlʌvz]",
-        "image": "https://images.unsplash.com/photo-1583942222066-44042b57f822?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ɡlʌvz",
         "definitions": [
             {
                 "text": "Pieces of clothing that you wear on your hands to keep them warm.",
@@ -121,8 +116,7 @@
         "emoji": "🕶️",
         "form": "noun",
         "plural": "sunglasses",
-        "transcription": "[ˈsʌnɡlɑːsɪz]",
-        "image": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈsʌnɡlɑːsɪz",
         "definitions": [
             {
                 "text": "Dark glasses that you wear to protect your eyes from the sun.",
@@ -142,8 +136,7 @@
         "emoji": "👔",
         "form": "noun",
         "plural": "suits",
-        "transcription": "[suːt]",
-        "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=400&q=80",
+        "transcription": "suːt",
         "subtext": "wear a suit",
         "definitions": [
             {
@@ -165,8 +158,7 @@
         "plural": "people",
         "numberPlural": "2 person",
         "answer": "two people",
-        "transcription": "[ˈpɜːsn]",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈpɜːsn",
         "definitions": [
             {
                 "text": "A human being.",
@@ -186,8 +178,7 @@
         "emoji": "💵",
         "form": "noun",
         "plural": null,
-        "transcription": "[kæʃ]",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80",
+        "transcription": "kæʃ",
         "subtext": "pay in cash",
         "definitions": [
             {
@@ -207,8 +198,7 @@
         "emoji": "💳",
         "form": "noun",
         "plural": "cards",
-        "transcription": "[kɑːd]",
-        "image": "https://images.unsplash.com/photo-1589758438368-0ad531db3366?auto=format&fit=crop&w=400&q=80",
+        "transcription": "kɑːd",
         "subtext": "pay by card",
         "definitions": [
             {
@@ -239,8 +229,7 @@
         ],
         "countability": "countable",
         "opposite": null,
-        "transcription": "[rɪˈpɔːt]",
-        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80"
+        "transcription": "rɪˈpɔːt"
     },
     {
         "word": "market",
@@ -260,15 +249,14 @@
         "countability": "countable",
         "subtext": "related to local places services",
         "opposite": null,
-        "transcription": "[ˈmɑːkɪt]",
-        "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈmɑːkɪt"
     },
     {
         "word": "next to",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "subtext": "",
+        "subtext": "next to",
         "synonyms": [
             "beside"
         ],
@@ -281,7 +269,8 @@
             }
         ],
         "opposite": "far from",
-        "emoji": "👫"
+        "emoji": "👫",
+        "transcription": "nɛkst tɪ"
     },
     {
         "word": "between",
@@ -298,7 +287,8 @@
         ],
         "subtext": "related to prepositions place",
         "opposite": "outside",
-        "emoji": "🧘"
+        "emoji": "🧘",
+        "transcription": "bɪtˈwin"
     },
     {
         "word": "behind",
@@ -315,7 +305,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "🫣"
+        "emoji": "🫣",
+        "transcription": "bɪˈhaɪnd"
     },
     {
         "word": "in front of",
@@ -332,7 +323,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "transcription": "ɪn frənt əv"
     },
     {
         "word": "jacket",
@@ -352,8 +344,7 @@
         ],
         "countability": "countable",
         "opposite": null,
-        "transcription": "[ˈdʒækɪt]",
-        "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈdʒækɪt"
     },
     {
         "word": "shirt",
@@ -373,8 +364,7 @@
         ],
         "countability": "countable",
         "opposite": null,
-        "transcription": "[ʃɜːt]",
-        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ʃɜːt"
     },
     {
         "word": "foot",
@@ -397,8 +387,7 @@
         "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "[fʊt]",
-        "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=400&q=80"
+        "transcription": "fʊt"
     },
     {
         "word": "face",
@@ -418,8 +407,7 @@
         "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "[feɪs]",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+        "transcription": "feɪs"
     },
     {
         "word": "hair",
@@ -439,8 +427,7 @@
         "countability": "uncountable",
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "[heə(r)]",
-        "image": "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=400&q=80"
+        "transcription": "heə(r)"
     },
     {
         "word": "tooth",
@@ -462,8 +449,7 @@
         "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "[tuːθ]",
-        "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=400&q=80"
+        "transcription": "tuːθ"
     },
     {
         "word": "teacher",
@@ -490,7 +476,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtiʧər"
     },
     {
         "word": "pizza",
@@ -518,7 +505,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpitsə"
     },
     {
         "word": "pasta",
@@ -544,7 +532,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɑstə"
     },
     {
         "word": "apple",
@@ -566,7 +555,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈæpəl"
     },
     {
         "word": "bread",
@@ -587,7 +577,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "brɛd"
     },
     {
         "word": "egg",
@@ -613,7 +604,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɛg"
     },
     {
         "word": "milk",
@@ -639,7 +631,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mɪlk"
     },
     {
         "word": "banana",
@@ -665,7 +658,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bəˈnænə"
     },
     {
         "word": "coffee",
@@ -692,7 +686,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɔfi"
     },
     {
         "word": "tea",
@@ -719,7 +714,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ti"
     },
     {
         "word": "juice",
@@ -745,7 +741,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to drinks",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤus"
     },
     {
         "word": "water",
@@ -766,7 +763,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɔtər"
     },
     {
         "word": "park",
@@ -792,7 +790,8 @@
         ],
         "countability": "countable",
         "subtext": "related to local places services",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɑrk"
     },
     {
         "word": "school",
@@ -812,7 +811,8 @@
         ],
         "countability": "countable",
         "subtext": "related to local places services",
-        "opposite": null
+        "opposite": null,
+        "transcription": "skul"
     },
     {
         "word": "t-shirt",
@@ -831,7 +831,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtiˌsərt"
     },
     {
         "word": "pants",
@@ -840,7 +841,7 @@
         "emoji": "👖",
         "form": "noun",
         "plural": "pants",
-        "subtext": "",
+        "subtext": "related to items of clothing",
         "synonyms": [
             "trousers"
         ],
@@ -853,7 +854,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pænts"
     },
     {
         "word": "shoe",
@@ -872,7 +874,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃu"
     },
     {
         "word": "hat",
@@ -891,7 +894,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hæt"
     },
     {
         "word": "chair",
@@ -911,7 +915,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʧɛr"
     },
     {
         "word": "table",
@@ -931,7 +936,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈteɪbəl"
     },
     {
         "word": "bed",
@@ -951,7 +957,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɛd"
     },
     {
         "word": "key",
@@ -978,7 +985,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ki"
     },
     {
         "word": "phone",
@@ -987,7 +995,7 @@
         "emoji": "📱",
         "form": "noun",
         "plural": "phones",
-        "subtext": "",
+        "subtext": "related to basic technology devices",
         "synonyms": [
             "telephone"
         ],
@@ -1000,7 +1008,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "foʊn"
     },
     {
         "word": "book",
@@ -1022,7 +1031,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bʊk"
     },
     {
         "word": "bag",
@@ -1042,7 +1052,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bæg"
     },
     {
         "word": "pen",
@@ -1062,7 +1073,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɛn"
     },
     {
         "word": "cat",
@@ -1084,7 +1096,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kæt"
     },
     {
         "word": "dog",
@@ -1106,7 +1119,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɔg"
     },
     {
         "word": "bird",
@@ -1126,7 +1140,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bərd"
     },
     {
         "word": "fish",
@@ -1146,7 +1161,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fɪʃ"
     },
     {
         "word": "head",
@@ -1166,7 +1182,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hɛd"
     },
     {
         "word": "hand",
@@ -1186,7 +1203,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hænd"
     },
     {
         "word": "leg",
@@ -1205,7 +1223,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "lɛg"
     },
     {
         "word": "eye",
@@ -1225,7 +1244,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "aɪ"
     },
     {
         "word": "nose",
@@ -1244,7 +1264,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "noʊz"
     },
     {
         "word": "mouth",
@@ -1263,7 +1284,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "maʊθ"
     },
     {
         "word": "ear",
@@ -1282,7 +1304,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɪr"
     },
     {
         "word": "smartphone",
@@ -1301,7 +1324,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsmɑːrtfoʊn"
     },
     {
         "word": "mother",
@@ -1321,7 +1345,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈməðər"
     },
     {
         "word": "father",
@@ -1341,7 +1366,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfɑðər"
     },
     {
         "word": "man",
@@ -1364,7 +1390,8 @@
         ],
         "countability": "countable",
         "subtext": "related to physical appearance",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mæn"
     },
     {
         "word": "woman",
@@ -1387,7 +1414,8 @@
         ],
         "countability": "countable",
         "subtext": "related to physical appearance",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwʊmən"
     },
     {
         "word": "work",
@@ -1405,7 +1433,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wərk"
     },
     {
         "word": "job",
@@ -1424,7 +1453,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤɑb"
     },
     {
         "word": "office",
@@ -1443,7 +1473,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɔfəs"
     },
     {
         "word": "home",
@@ -1461,7 +1492,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hoʊm"
     },
     {
         "word": "house",
@@ -1480,7 +1512,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "haʊs"
     },
     {
         "word": "flat",
@@ -1499,7 +1532,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "flæt"
     },
     {
         "word": "car",
@@ -1518,7 +1552,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kɑr"
     },
     {
         "word": "bus",
@@ -1537,7 +1572,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bəs"
     },
     {
         "word": "train",
@@ -1556,7 +1592,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "treɪn"
     },
     {
         "word": "food",
@@ -1574,7 +1611,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fud"
     },
     {
         "word": "rice",
@@ -1593,7 +1631,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "raɪs"
     },
     {
         "word": "meat",
@@ -1612,7 +1651,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mit"
     },
     {
         "word": "breakfast",
@@ -1630,7 +1670,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbrɛkfəst"
     },
     {
         "word": "dinner",
@@ -1648,7 +1689,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdɪnər"
     },
     {
         "word": "money",
@@ -1667,7 +1709,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈməni"
     },
     {
         "word": "shop",
@@ -1686,7 +1729,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃɑp"
     },
     {
         "word": "family",
@@ -1705,7 +1749,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfæməli"
     },
     {
         "word": "friend",
@@ -1724,7 +1769,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "frɛnd"
     },
     {
         "word": "partner",
@@ -1743,7 +1789,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɑrtnər"
     },
     {
         "word": "morning",
@@ -1761,7 +1808,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈmɔrnɪŋ"
     },
     {
         "word": "evening",
@@ -1779,7 +1827,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈivnɪŋ"
     },
     {
         "word": "day",
@@ -1798,7 +1847,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to times day"
+        "subtext": "related to times day",
+        "transcription": "deɪ"
     },
     {
         "word": "week",
@@ -1817,7 +1867,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wik"
     },
     {
         "word": "every day",
@@ -1834,7 +1885,8 @@
             }
         ],
         "subtext": "related to times day",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛvəri deɪ"
     },
     {
         "word": "lunch",
@@ -1853,7 +1905,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "lənʧ"
     },
     {
         "word": "boss",
@@ -1872,7 +1925,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɔs"
     },
     {
         "word": "colleague",
@@ -1891,7 +1945,8 @@
         ],
         "countability": "countable",
         "subtext": "related to workplace basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɑlig"
     },
     {
         "word": "meeting",
@@ -1911,7 +1966,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmitɪŋ"
     },
     {
         "word": "commute",
@@ -1930,7 +1986,8 @@
         ],
         "countability": "countable",
         "subtext": "related to public transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kəmˈjut"
     },
     {
         "word": "stress",
@@ -1948,7 +2005,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "strɛs"
     },
     {
         "word": "rent",
@@ -1966,7 +2024,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to types of accommodation",
-        "opposite": null
+        "opposite": null,
+        "transcription": "rɛnt"
     },
     {
         "word": "neighbour",
@@ -1985,7 +2044,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈneɪbər"
     },
     {
         "word": "room",
@@ -2004,7 +2064,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "rum"
     },
     {
         "word": "kitchen",
@@ -2023,7 +2084,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɪʧən"
     },
     {
         "word": "sleep",
@@ -2041,7 +2103,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to daily work routines",
-        "opposite": "wake up"
+        "opposite": "wake up",
+        "transcription": "slip"
     },
     {
         "word": "exercise",
@@ -2059,7 +2122,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to leisure activities",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛksərˌsaɪz"
     },
     {
         "word": "price",
@@ -2078,7 +2142,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "praɪs"
     },
     {
         "word": "cost",
@@ -2097,7 +2162,8 @@
         ],
         "countability": "countable",
         "subtext": "related to money payment",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kɔst"
     },
     {
         "word": "together",
@@ -2115,7 +2181,8 @@
                 ]
             }
         ],
-        "subtext": "related to family life"
+        "subtext": "related to family life",
+        "transcription": "təˈgɛðər"
     },
     {
         "word": "holiday",
@@ -2134,7 +2201,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhɑlɪˌdeɪ"
     },
     {
         "word": "hotel",
@@ -2153,7 +2221,8 @@
         ],
         "countability": "countable",
         "subtext": "related to public transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hoʊˈtɛl"
     },
     {
         "word": "weekend",
@@ -2172,7 +2241,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwiˌkɪnd"
     },
     {
         "word": "free time",
@@ -2190,7 +2260,8 @@
         ],
         "countability": "countable",
         "subtext": "related to leisure activities",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fri taɪm"
     },
     {
         "word": "travel",
@@ -2208,7 +2279,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to travel vocabulary basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtrævəl"
     },
     {
         "word": "back",
@@ -2227,7 +2299,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bæk"
     },
     {
         "word": "arm",
@@ -2246,7 +2319,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɑrm"
     },
     {
         "word": "fruit",
@@ -2265,7 +2339,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "frut"
     },
     {
         "word": "vegetable",
@@ -2284,7 +2359,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈvɛʤtəbəl"
     },
     {
         "word": "beer",
@@ -2303,7 +2379,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɪr"
     },
     {
         "word": "wine",
@@ -2322,7 +2399,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "waɪn"
     },
     {
         "word": "door",
@@ -2341,7 +2419,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɔr"
     },
     {
         "word": "window",
@@ -2360,7 +2439,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɪndoʊ"
     },
     {
         "word": "driver",
@@ -2379,7 +2459,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdraɪvər"
     },
     {
         "word": "manager",
@@ -2398,7 +2479,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmænɪʤər"
     },
     {
         "word": "plane",
@@ -2417,7 +2499,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pleɪn"
     },
     {
         "word": "bike",
@@ -2436,7 +2519,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "baɪk"
     },
     {
         "word": "hospital",
@@ -2455,7 +2539,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhɑˌspɪtəl"
     },
     {
         "word": "restaurant",
@@ -2474,7 +2559,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈrɛˌstrɑnt"
     },
     {
         "word": "bank",
@@ -2493,7 +2579,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bæŋk"
     },
     {
         "word": "station",
@@ -2512,7 +2599,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsteɪʃən"
     },
     {
         "word": "supermarket",
@@ -2531,7 +2619,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsupərˌmɑrkɪt"
     },
     {
         "word": "sun",
@@ -2550,7 +2639,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sən"
     },
     {
         "word": "rain",
@@ -2569,7 +2659,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "reɪn"
     },
     {
         "word": "wind",
@@ -2588,7 +2679,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wɪnd"
     },
     {
         "word": "afternoon",
@@ -2606,7 +2698,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌæftərˈnun"
     },
     {
         "word": "night",
@@ -2625,7 +2718,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "naɪt"
     },
     {
         "word": "today",
@@ -2642,7 +2736,8 @@
                     "I have a meeting today at ten."
                 ]
             }
-        ]
+        ],
+        "transcription": "təˈdeɪ"
     },
     {
         "word": "tomorrow",
@@ -2659,7 +2754,8 @@
                     "She has a doctor's appointment tomorrow."
                 ]
             }
-        ]
+        ],
+        "transcription": "təˈmɑˌroʊ"
     },
     {
         "word": "husband",
@@ -2670,7 +2766,7 @@
         "plural": "husbands",
         "opposite": null,
         "oppositeEmoji": "👩",
-        "subtext": "",
+        "subtext": "related to immediate family",
         "synonyms": [
             "spouse",
             "partner"
@@ -2683,7 +2779,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈhəzbənd"
     },
     {
         "word": "wife",
@@ -2694,7 +2791,7 @@
         "plural": "wives",
         "opposite": null,
         "oppositeEmoji": "👨",
-        "subtext": "",
+        "subtext": "related to immediate family",
         "synonyms": [
             "spouse",
             "partner"
@@ -2707,7 +2804,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "waɪf"
     },
     {
         "word": "child",
@@ -2716,7 +2814,7 @@
         "emoji": "👶",
         "form": "noun",
         "plural": "children",
-        "subtext": "",
+        "subtext": "related to immediate family",
         "synonyms": [
             "kid",
             "young person"
@@ -2730,7 +2828,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": "adult"
+        "opposite": "adult",
+        "transcription": "ʧaɪld"
     },
     {
         "word": "parent",
@@ -2739,7 +2838,7 @@
         "emoji": "👪",
         "form": "noun",
         "plural": "parents",
-        "subtext": "",
+        "subtext": "related to immediate family",
         "synonyms": [
             "mother or father"
         ],
@@ -2752,7 +2851,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɛrənt"
     },
     {
         "word": "sister",
@@ -2773,7 +2873,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsɪstər"
     },
     {
         "word": "brother",
@@ -2794,7 +2895,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbrəðər"
     },
     {
         "word": "son",
@@ -2814,7 +2916,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to immediate family"
+        "subtext": "related to immediate family",
+        "transcription": "sən"
     },
     {
         "word": "daughter",
@@ -2834,7 +2937,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to immediate family"
+        "subtext": "related to immediate family",
+        "transcription": "ˈdɔtər"
     },
     {
         "word": "grandfather",
@@ -2854,7 +2958,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to extended family"
+        "subtext": "related to extended family",
+        "transcription": "ˈgrænˌfɑðər"
     },
     {
         "word": "grandmother",
@@ -2874,7 +2979,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to extended family"
+        "subtext": "related to extended family",
+        "transcription": "ˈgrændˌməðər"
     },
     {
         "word": "uncle",
@@ -2894,7 +3000,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to extended family"
+        "subtext": "related to extended family",
+        "transcription": "ˈəŋkəl"
     },
     {
         "word": "aunt",
@@ -2914,7 +3021,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to extended family"
+        "subtext": "related to extended family",
+        "transcription": "ɔnt"
     },
     {
         "word": "cousin",
@@ -2933,7 +3041,8 @@
         ],
         "countability": "countable",
         "subtext": "related to extended family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkəzən"
     },
     {
         "word": "tree",
@@ -2953,7 +3062,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "tri"
     },
     {
         "word": "flower",
@@ -2973,7 +3083,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "flaʊər"
     },
     {
         "word": "mountain",
@@ -2993,7 +3104,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmaʊntən"
     },
     {
         "word": "river",
@@ -3013,7 +3125,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈrɪvər"
     },
     {
         "word": "sea",
@@ -3033,7 +3146,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "si"
     },
     {
         "word": "beach",
@@ -3053,7 +3167,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "biʧ"
     },
     {
         "word": "sky",
@@ -3073,7 +3188,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "skaɪ"
     },
     {
         "word": "moon",
@@ -3092,7 +3208,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mun"
     },
     {
         "word": "plate",
@@ -3111,7 +3228,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pleɪt"
     },
     {
         "word": "cup",
@@ -3130,7 +3248,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kəp"
     },
     {
         "word": "glass",
@@ -3149,7 +3268,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "glæs"
     },
     {
         "word": "fork",
@@ -3168,7 +3288,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fɔrk"
     },
     {
         "word": "spoon",
@@ -3187,7 +3308,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "spun"
     },
     {
         "word": "knife",
@@ -3206,7 +3328,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "naɪf"
     },
     {
         "word": "laptop",
@@ -3225,7 +3348,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlæpˌtɑp"
     },
     {
         "word": "television",
@@ -3244,7 +3368,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtɛləˌvɪʒən"
     },
     {
         "word": "cinema",
@@ -3263,7 +3388,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɪnəmə"
     },
     {
         "word": "museum",
@@ -3282,7 +3408,8 @@
         ],
         "countability": "countable",
         "subtext": "related to places culture leisure",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mˈjuziəm"
     },
     {
         "word": "airport",
@@ -3301,7 +3428,8 @@
         ],
         "countability": "countable",
         "subtext": "related to public transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛrˌpɔrt"
     },
     {
         "word": "chicken",
@@ -3320,7 +3448,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʧɪkən"
     },
     {
         "word": "sugar",
@@ -3339,7 +3468,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʃʊgər"
     },
     {
         "word": "salad",
@@ -3358,7 +3488,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsæləd"
     },
     {
         "word": "coat",
@@ -3377,7 +3508,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "koʊt"
     },
     {
         "word": "socks",
@@ -3396,7 +3528,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɑks"
     },
     {
         "word": "neck",
@@ -3415,7 +3548,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "nɛk"
     },
     {
         "word": "shoulder",
@@ -3434,15 +3568,15 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʃoʊldər"
     },
     {
         "word": "in",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "transcription": "[ɪn]",
-        "image": "https://images.unsplash.com/photo-1542662565-7e4b66bae529?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ɪn",
         "definitions": [
             {
                 "text": "Inside a place or container.",
@@ -3470,8 +3604,7 @@
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "transcription": "[ɒn]",
-        "image": "https://images.unsplash.com/photo-1495539406979-bf61750d38ad?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ɒn",
         "definitions": [
             {
                 "text": "Supported by or touching a surface.",
@@ -3498,8 +3631,7 @@
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "transcription": "[æt]",
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80",
+        "transcription": "æt",
         "definitions": [
             {
                 "text": "Used to show a place or position.",
@@ -3537,7 +3669,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "👇"
+        "emoji": "👇",
+        "transcription": "ˈəndər"
     },
     {
         "word": "and",
@@ -3607,7 +3740,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "taɪm"
     },
     {
         "word": "problem",
@@ -3627,7 +3761,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈprɑbləm"
     },
     {
         "word": "beef",
@@ -3646,7 +3781,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bif"
     },
     {
         "word": "pork",
@@ -3665,7 +3801,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɔrk"
     },
     {
         "word": "potato",
@@ -3684,7 +3821,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pəˈteɪˌtoʊ"
     },
     {
         "word": "tomato",
@@ -3703,7 +3841,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "təˈmɑˌtoʊ"
     },
     {
         "word": "onion",
@@ -3723,7 +3862,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈənjən"
     },
     {
         "word": "carrot",
@@ -3742,7 +3882,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɛrət"
     },
     {
         "word": "soup",
@@ -3761,7 +3902,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sup"
     },
     {
         "word": "cake",
@@ -3780,7 +3922,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "keɪk"
     },
     {
         "word": "chocolate",
@@ -3799,7 +3942,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʧɔklət"
     },
     {
         "word": "ice cream",
@@ -3818,7 +3962,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "aɪs krim"
     },
     {
         "word": "sweater",
@@ -3827,7 +3972,7 @@
         "emoji": "🧶",
         "form": "noun",
         "plural": "sweaters",
-        "subtext": "",
+        "subtext": "related to items of clothing",
         "synonyms": [
             "jumper"
         ],
@@ -3840,7 +3985,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sˈwɛtər"
     },
     {
         "word": "dress",
@@ -3859,7 +4005,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "drɛs"
     },
     {
         "word": "skirt",
@@ -3878,7 +4025,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "skərt"
     },
     {
         "word": "boots",
@@ -3897,7 +4045,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "buts"
     },
     {
         "word": "finger",
@@ -3916,7 +4065,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfɪŋgər"
     },
     {
         "word": "toe",
@@ -3935,7 +4085,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "toʊ"
     },
     {
         "word": "stomach",
@@ -3954,7 +4105,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈstəmək"
     },
     {
         "word": "knee",
@@ -3973,7 +4125,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ni"
     },
     {
         "word": "grass",
@@ -3992,7 +4145,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "græs"
     },
     {
         "word": "lake",
@@ -4011,7 +4165,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "leɪk"
     },
     {
         "word": "cloud",
@@ -4030,7 +4185,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "klaʊd"
     },
     {
         "word": "star",
@@ -4049,7 +4205,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "stɑr"
     },
     {
         "word": "desk",
@@ -4068,7 +4225,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɛsk"
     },
     {
         "word": "lamp",
@@ -4087,7 +4245,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "læmp"
     },
     {
         "word": "clock",
@@ -4106,7 +4265,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "klɑk"
     },
     {
         "word": "mirror",
@@ -4125,7 +4285,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmɪrər"
     },
     {
         "word": "library",
@@ -4144,7 +4305,8 @@
         ],
         "countability": "countable",
         "subtext": "related to places culture leisure",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlaɪbrɛˌri"
     },
     {
         "word": "Monday",
@@ -4162,7 +4324,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmənˌdeɪ"
     },
     {
         "word": "Tuesday",
@@ -4180,7 +4343,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtuzˌdeɪ"
     },
     {
         "word": "Wednesday",
@@ -4198,7 +4362,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɛnzˌdeɪ"
     },
     {
         "word": "Thursday",
@@ -4216,7 +4381,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈθərzˌdeɪ"
     },
     {
         "word": "Friday",
@@ -4234,7 +4400,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfraɪˌdeɪ"
     },
     {
         "word": "Saturday",
@@ -4252,7 +4419,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsæˌtɪˌdeɪ"
     },
     {
         "word": "Sunday",
@@ -4270,7 +4438,8 @@
         ],
         "countability": "countable",
         "subtext": "related to days week",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsənˌdi"
     },
     {
         "word": "January",
@@ -4288,7 +4457,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʤænjuˌɛri"
     },
     {
         "word": "February",
@@ -4306,7 +4476,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfɛbruˌɛri"
     },
     {
         "word": "March",
@@ -4324,7 +4495,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mɑrʧ"
     },
     {
         "word": "April",
@@ -4342,7 +4514,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈeɪprəl"
     },
     {
         "word": "May",
@@ -4360,7 +4533,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "meɪ"
     },
     {
         "word": "June",
@@ -4378,7 +4552,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤun"
     },
     {
         "word": "July",
@@ -4396,7 +4571,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˌʤuˈlaɪ"
     },
     {
         "word": "August",
@@ -4414,7 +4590,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɔgəst"
     },
     {
         "word": "September",
@@ -4432,7 +4609,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɛpˈtɛmbər"
     },
     {
         "word": "October",
@@ -4450,7 +4628,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɑkˈtoʊbər"
     },
     {
         "word": "November",
@@ -4468,7 +4647,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "noʊˈvɛmbər"
     },
     {
         "word": "December",
@@ -4486,7 +4666,8 @@
         ],
         "countability": "countable",
         "subtext": "related to months year",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɪˈsɛmbər"
     },
     {
         "word": "spring",
@@ -4504,7 +4685,8 @@
         ],
         "countability": "countable",
         "subtext": "related to seasons climate",
-        "opposite": null
+        "opposite": null,
+        "transcription": "spərɪŋ"
     },
     {
         "word": "summer",
@@ -4522,7 +4704,8 @@
         ],
         "countability": "countable",
         "subtext": "related to seasons climate",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsəmər"
     },
     {
         "word": "autumn",
@@ -4530,7 +4713,7 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "form": "noun",
-        "subtext": "",
+        "subtext": "related to seasons climate",
         "synonyms": [
             "fall"
         ],
@@ -4543,7 +4726,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɔtəm"
     },
     {
         "word": "winter",
@@ -4561,7 +4745,8 @@
         ],
         "countability": "countable",
         "subtext": "related to seasons climate",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɪntər"
     },
     {
         "word": "lion",
@@ -4580,7 +4765,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "laɪən"
     },
     {
         "word": "elephant",
@@ -4599,7 +4785,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛləfənt"
     },
     {
         "word": "rabbit",
@@ -4618,7 +4805,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈræbɪt"
     },
     {
         "word": "horse",
@@ -4637,7 +4825,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hɔrs"
     },
     {
         "word": "cow",
@@ -4656,7 +4845,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kaʊ"
     },
     {
         "word": "pig",
@@ -4675,7 +4865,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɪg"
     },
     {
         "word": "sheep",
@@ -4694,7 +4885,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃip"
     },
     {
         "word": "lemon",
@@ -4713,7 +4905,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlɛmən"
     },
     {
         "word": "orange",
@@ -4732,7 +4925,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɔrɪnʤ"
     },
     {
         "word": "strawberry",
@@ -4751,7 +4945,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈstrɔˌbɛri"
     },
     {
         "word": "grape",
@@ -4770,7 +4965,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "greɪp"
     },
     {
         "word": "garlic",
@@ -4789,7 +4985,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈgɑrlɪk"
     },
     {
         "word": "always",
@@ -4806,7 +5003,8 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": "never"
+        "opposite": "never",
+        "transcription": "ˈɔlˌweɪz"
     },
     {
         "word": "usually",
@@ -4823,7 +5021,8 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈjuʒəwəli"
     },
     {
         "word": "often",
@@ -4840,7 +5039,8 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɔfən"
     },
     {
         "word": "sometimes",
@@ -4857,7 +5057,8 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsəmˌtaɪmz"
     },
     {
         "word": "never",
@@ -4874,7 +5075,8 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": "always"
+        "opposite": "always",
+        "transcription": "ˈnɛvər"
     },
     {
         "word": "who",
@@ -4891,7 +5093,8 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hu"
     },
     {
         "word": "what",
@@ -4908,7 +5111,8 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wət"
     },
     {
         "word": "where",
@@ -4925,7 +5129,8 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wɛr"
     },
     {
         "word": "when",
@@ -4942,7 +5147,8 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wɪn"
     },
     {
         "word": "why",
@@ -4959,7 +5165,8 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "waɪ"
     },
     {
         "word": "how",
@@ -4977,7 +5184,8 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "haʊ"
     },
     {
         "word": "hello",
@@ -4995,7 +5203,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to name greeting"
+        "subtext": "related to name greeting",
+        "transcription": "hɛˈloʊ"
     },
     {
         "word": "goodbye",
@@ -5013,7 +5222,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to name greeting"
+        "subtext": "related to name greeting",
+        "transcription": "ˌgʊdˈbaɪ"
     },
     {
         "word": "please",
@@ -5030,7 +5240,8 @@
             }
         ],
         "subtext": "related to greetings social phrases",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pliz"
     },
     {
         "word": "thank you",
@@ -5048,7 +5259,8 @@
         ],
         "countability": "countable",
         "subtext": "related to greetings social phrases",
-        "opposite": null
+        "opposite": null,
+        "transcription": "θæŋk ju"
     },
     {
         "word": "yes",
@@ -5065,7 +5277,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions"
+        "subtext": "related to asking answering questions",
+        "transcription": "jɛs"
     },
     {
         "word": "no",
@@ -5082,7 +5295,8 @@
                 ]
             }
         ],
-        "subtext": "related to asking answering questions"
+        "subtext": "related to asking answering questions",
+        "transcription": "noʊ"
     },
     {
         "word": "name",
@@ -5100,7 +5314,8 @@
         ],
         "countability": "countable",
         "subtext": "related to name greeting",
-        "opposite": null
+        "opposite": null,
+        "transcription": "neɪm"
     },
     {
         "word": "bathroom",
@@ -5119,7 +5334,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbæθˌrum"
     },
     {
         "word": "bedroom",
@@ -5138,7 +5354,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbɛˌdrum"
     },
     {
         "word": "baby",
@@ -5157,7 +5374,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbeɪbi"
     },
     {
         "word": "boy",
@@ -5177,7 +5395,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to people"
+        "subtext": "related to people",
+        "transcription": "bɔɪ"
     },
     {
         "word": "girl",
@@ -5197,7 +5416,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to people"
+        "subtext": "related to people",
+        "transcription": "gərl"
     },
     {
         "word": "boyfriend",
@@ -5217,7 +5437,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to marital status"
+        "subtext": "related to marital status",
+        "transcription": "ˈbɔɪˌfrɛnd"
     },
     {
         "word": "girlfriend",
@@ -5237,7 +5458,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to marital status"
+        "subtext": "related to marital status",
+        "transcription": "ˈgərlˌfrɛnd"
     },
     {
         "word": "student",
@@ -5257,7 +5479,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to learning studying"
+        "subtext": "related to learning studying",
+        "transcription": "ˈstudənt"
     },
     {
         "word": "classmate",
@@ -5276,7 +5499,8 @@
         ],
         "countability": "countable",
         "subtext": "related to learning studying",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈklæsˌmeɪt"
     },
     {
         "word": "camera",
@@ -5295,7 +5519,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkæmərə"
     },
     {
         "word": "computer",
@@ -5314,7 +5539,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kəmˈpjutər"
     },
     {
         "word": "bottle",
@@ -5333,7 +5559,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbɑtəl"
     },
     {
         "word": "box",
@@ -5352,7 +5579,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɑks"
     },
     {
         "word": "ball",
@@ -5371,7 +5599,8 @@
         ],
         "countability": "countable",
         "subtext": "related to sports equipment",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɔl"
     },
     {
         "word": "gift",
@@ -5380,7 +5609,7 @@
         "emoji": "🎁",
         "form": "noun",
         "plural": "gifts",
-        "subtext": "",
+        "subtext": "related to everyday shopping",
         "synonyms": [
             "present"
         ],
@@ -5393,7 +5622,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "gɪft"
     },
     {
         "word": "street",
@@ -5412,7 +5642,8 @@
         ],
         "countability": "countable",
         "subtext": "related to address location",
-        "opposite": null
+        "opposite": null,
+        "transcription": "strit"
     },
     {
         "word": "building",
@@ -5431,7 +5662,8 @@
         ],
         "countability": "countable",
         "subtext": "related to address location",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbɪldɪŋ"
     },
     {
         "word": "cafe",
@@ -5450,7 +5682,8 @@
         ],
         "countability": "countable",
         "subtext": "related to local places services",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kəˈfeɪ"
     },
     {
         "word": "centre",
@@ -5469,7 +5702,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɛntər"
     },
     {
         "word": "butter",
@@ -5488,7 +5722,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbətər"
     },
     {
         "word": "cheese",
@@ -5507,7 +5742,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʧiz"
     },
     {
         "word": "actor",
@@ -5526,7 +5762,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈæktər"
     },
     {
         "word": "adult",
@@ -5546,7 +5783,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to people"
+        "subtext": "related to people",
+        "transcription": "ˈædəlt"
     },
     {
         "word": "advice",
@@ -5565,7 +5803,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to greetings social phrases",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ədˈvaɪs"
     },
     {
         "word": "age",
@@ -5584,7 +5823,8 @@
         ],
         "countability": "countable",
         "subtext": "related to age",
-        "opposite": null
+        "opposite": null,
+        "transcription": "eɪʤ"
     },
     {
         "word": "air",
@@ -5603,7 +5843,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɛr"
     },
     {
         "word": "area",
@@ -5622,7 +5863,8 @@
         ],
         "countability": "countable",
         "subtext": "related to address location",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛriə"
     },
     {
         "word": "art",
@@ -5641,7 +5883,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to places culture leisure",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɑrt"
     },
     {
         "word": "band",
@@ -5660,7 +5903,8 @@
         ],
         "countability": "countable",
         "subtext": "related to music",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bænd"
     },
     {
         "word": "bath",
@@ -5679,7 +5923,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bæθ"
     },
     {
         "word": "birthday",
@@ -5698,7 +5943,8 @@
         ],
         "countability": "countable",
         "subtext": "related to personal identity",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbərθˌdeɪ"
     },
     {
         "word": "boat",
@@ -5717,7 +5963,8 @@
         ],
         "countability": "countable",
         "subtext": "related to modes of transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "boʊt"
     },
     {
         "word": "business",
@@ -5736,7 +5983,8 @@
         ],
         "countability": "countable",
         "subtext": "related to workplace basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbɪznɪs"
     },
     {
         "word": "college",
@@ -5755,7 +6003,8 @@
         ],
         "countability": "countable",
         "subtext": "related to types of education",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɑlɪʤ"
     },
     {
         "word": "company",
@@ -5774,7 +6023,8 @@
         ],
         "countability": "countable",
         "subtext": "related to workplace basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkəmpəˌni"
     },
     {
         "word": "concert",
@@ -5793,7 +6043,8 @@
         ],
         "countability": "countable",
         "subtext": "related to music",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɑnsərt"
     },
     {
         "word": "conversation",
@@ -5812,7 +6063,8 @@
         ],
         "countability": "countable",
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˌkɑnvərˈseɪʃən"
     },
     {
         "word": "again",
@@ -5829,7 +6081,8 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null
+        "opposite": null,
+        "transcription": "əˈgɛn"
     },
     {
         "word": "ago",
@@ -5846,7 +6099,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "əˈgoʊ"
     },
     {
         "word": "also",
@@ -5863,7 +6117,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɔlsoʊ"
     },
     {
         "word": "really",
@@ -5881,7 +6136,8 @@
             }
         ],
         "subtext": "related to basic intensifiers",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈrɪli"
     },
     {
         "word": "there",
@@ -5898,7 +6154,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ðɛr"
     },
     {
         "word": "pencil",
@@ -5917,7 +6174,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɛnsəl"
     },
     {
         "word": "paper",
@@ -5936,7 +6194,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpeɪpər"
     },
     {
         "word": "umbrella",
@@ -5955,7 +6214,8 @@
         ],
         "countability": "countable",
         "subtext": "related to weather",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈəmˌbrɛlə"
     },
     {
         "word": "glasses",
@@ -5974,7 +6234,8 @@
         ],
         "countability": "countable",
         "subtext": "related to accessories",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈglæsɪz"
     },
     {
         "word": "watch",
@@ -5993,7 +6254,8 @@
         ],
         "countability": "countable",
         "subtext": "related to accessories",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wɔʧ"
     },
     {
         "word": "fridge",
@@ -6002,7 +6264,7 @@
         "emoji": "🧊",
         "form": "noun",
         "plural": "fridges",
-        "subtext": "",
+        "subtext": "related to furniture objects",
         "synonyms": [
             "refrigerator"
         ],
@@ -6015,7 +6277,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "frɪʤ"
     },
     {
         "word": "oven",
@@ -6034,7 +6297,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈəvən"
     },
     {
         "word": "soap",
@@ -6053,7 +6317,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "soʊp"
     },
     {
         "word": "towel",
@@ -6072,7 +6337,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "taʊəl"
     },
     {
         "word": "city",
@@ -6091,7 +6357,8 @@
         ],
         "countability": "countable",
         "subtext": "related to cities towns",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɪti"
     },
     {
         "word": "town",
@@ -6110,7 +6377,8 @@
         ],
         "countability": "countable",
         "subtext": "related to cities towns",
-        "opposite": null
+        "opposite": null,
+        "transcription": "taʊn"
     },
     {
         "word": "village",
@@ -6129,7 +6397,8 @@
         ],
         "countability": "countable",
         "subtext": "related to cities towns",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈvɪlɪʤ"
     },
     {
         "word": "country",
@@ -6148,7 +6417,8 @@
         ],
         "countability": "countable",
         "subtext": "related to countries capitals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkəntri"
     },
     {
         "word": "jeans",
@@ -6167,7 +6437,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤinz"
     },
     {
         "word": "belt",
@@ -6186,7 +6457,8 @@
         ],
         "countability": "countable",
         "subtext": "related to accessories",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɛlt"
     },
     {
         "word": "with",
@@ -6203,7 +6475,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "➕"
+        "emoji": "➕",
+        "transcription": "wɪθ"
     },
     {
         "word": "without",
@@ -6220,7 +6493,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "➖"
+        "emoji": "➖",
+        "transcription": "wɪˈθaʊt"
     },
     {
         "word": "to",
@@ -6237,7 +6511,8 @@
         ],
         "subtext": "related to prepositions movement",
         "opposite": null,
-        "emoji": "➡️"
+        "emoji": "➡️",
+        "transcription": "tɪ"
     },
     {
         "word": "from",
@@ -6254,7 +6529,8 @@
         ],
         "subtext": "related to prepositions place",
         "opposite": null,
-        "emoji": "⬅️"
+        "emoji": "⬅️",
+        "transcription": "frəm"
     },
     {
         "word": "for",
@@ -6271,7 +6547,8 @@
         ],
         "subtext": "related to prepositions time",
         "opposite": null,
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "transcription": "fər"
     },
     {
         "word": "or",
@@ -6324,7 +6601,8 @@
         ],
         "countability": "countable",
         "subtext": "related to leisure activities",
-        "opposite": null
+        "opposite": null,
+        "transcription": "geɪm"
     },
     {
         "word": "music",
@@ -6343,7 +6621,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to music",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mˈjuzɪk"
     },
     {
         "word": "song",
@@ -6362,7 +6641,8 @@
         ],
         "countability": "countable",
         "subtext": "related to music",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɔŋ"
     },
     {
         "word": "sport",
@@ -6381,7 +6661,8 @@
         ],
         "countability": "countable",
         "subtext": "related to common sports",
-        "opposite": null
+        "opposite": null,
+        "transcription": "spɔrt"
     },
     {
         "word": "football",
@@ -6390,7 +6671,7 @@
         "emoji": "⚽",
         "form": "noun",
         "plural": null,
-        "subtext": "",
+        "subtext": "related to common sports",
         "synonyms": [
             "soccer"
         ],
@@ -6403,7 +6684,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfʊtˌbɔl"
     },
     {
         "word": "tennis",
@@ -6422,7 +6704,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to common sports",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtɛnɪs"
     },
     {
         "word": "yesterday",
@@ -6439,7 +6722,8 @@
                 ]
             }
         ],
-        "subtext": "related to times day"
+        "subtext": "related to times day",
+        "transcription": "ˈjɛstərˌdeɪ"
     },
     {
         "word": "now",
@@ -6456,7 +6740,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "naʊ"
     },
     {
         "word": "soon",
@@ -6473,7 +6758,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sun"
     },
     {
         "word": "later",
@@ -6490,7 +6776,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈleɪtər"
     },
     {
         "word": "internet",
@@ -6509,7 +6796,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to using smartphone",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɪntərˌnɛt"
     },
     {
         "word": "website",
@@ -6528,7 +6816,8 @@
         ],
         "countability": "countable",
         "subtext": "related to using smartphone",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɛbˌsaɪt"
     },
     {
         "word": "email",
@@ -6547,7 +6836,8 @@
         ],
         "countability": "countable",
         "subtext": "related to using smartphone",
-        "opposite": null
+        "opposite": null,
+        "transcription": "iˈmeɪl"
     },
     {
         "word": "message",
@@ -6566,7 +6856,8 @@
         ],
         "countability": "countable",
         "subtext": "related to using smartphone",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmɛsɪʤ"
     },
     {
         "word": "newspaper",
@@ -6585,7 +6876,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈnuzˌpeɪpər"
     },
     {
         "word": "magazine",
@@ -6604,7 +6896,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmægəˌzin"
     },
     {
         "word": "passport",
@@ -6623,7 +6916,8 @@
         ],
         "countability": "countable",
         "subtext": "related to travel vocabulary basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpæˌspɔrt"
     },
     {
         "word": "ticket",
@@ -6642,7 +6936,8 @@
         ],
         "countability": "countable",
         "subtext": "related to travel vocabulary basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtɪkɪt"
     },
     {
         "word": "salt",
@@ -6661,7 +6956,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɔlt"
     },
     {
         "word": "snack",
@@ -6680,7 +6976,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "snæk"
     },
     {
         "word": "pear",
@@ -6699,7 +6996,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɛr"
     },
     {
         "word": "cucumber",
@@ -6718,7 +7016,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkjukəmbər"
     },
     {
         "word": "lettuce",
@@ -6737,7 +7036,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlɛtəs"
     },
     {
         "word": "wall",
@@ -6756,7 +7056,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wɔl"
     },
     {
         "word": "floor",
@@ -6775,7 +7076,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "flɔr"
     },
     {
         "word": "stairs",
@@ -6794,7 +7096,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "stɛrz"
     },
     {
         "word": "map",
@@ -6813,7 +7116,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mæp"
     },
     {
         "word": "ruler",
@@ -6832,7 +7136,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈrulər"
     },
     {
         "word": "mouse",
@@ -6853,7 +7158,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "maʊs"
     },
     {
         "word": "snake",
@@ -6872,7 +7178,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sneɪk"
     },
     {
         "word": "monkey",
@@ -6891,7 +7198,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈməŋki"
     },
     {
         "word": "spider",
@@ -6910,7 +7218,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈspaɪdər"
     },
     {
         "word": "bee",
@@ -6929,7 +7238,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bi"
     },
     {
         "word": "shower",
@@ -6948,7 +7258,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃaʊər"
     },
     {
         "word": "toilet",
@@ -6967,7 +7278,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtɔɪlət"
     },
     {
         "word": "sink",
@@ -6986,7 +7298,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɪŋk"
     },
     {
         "word": "sofa",
@@ -6995,7 +7308,7 @@
         "emoji": "🛋️",
         "form": "noun",
         "plural": "sofas",
-        "subtext": "",
+        "subtext": "related to furniture objects",
         "synonyms": [
             "couch"
         ],
@@ -7008,7 +7321,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsoʊfə"
     },
     {
         "word": "shelf",
@@ -7029,7 +7343,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃɛlf"
     },
     {
         "word": "toothbrush",
@@ -7048,7 +7363,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtuθbrəʃ"
     },
     {
         "word": "toothpaste",
@@ -7067,7 +7383,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtuθˌpeɪst"
     },
     {
         "word": "shampoo",
@@ -7086,7 +7403,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃæmˈpu"
     },
     {
         "word": "history",
@@ -7105,7 +7423,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to school subjects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhɪstəri"
     },
     {
         "word": "science",
@@ -7124,7 +7443,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to school subjects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "saɪəns"
     },
     {
         "word": "maths",
@@ -7133,7 +7453,7 @@
         "emoji": "🔢",
         "form": "noun",
         "plural": null,
-        "subtext": "",
+        "subtext": "related to school subjects",
         "synonyms": [
             "mathematics"
         ],
@@ -7146,7 +7466,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mæθs"
     },
     {
         "word": "geography",
@@ -7165,7 +7486,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to school subjects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤiˈɑgrəfi"
     },
     {
         "word": "hour",
@@ -7184,7 +7506,8 @@
         ],
         "countability": "countable",
         "subtext": "related to telling time",
-        "opposite": null
+        "opposite": null,
+        "transcription": "aʊər"
     },
     {
         "word": "minute",
@@ -7203,7 +7526,8 @@
         ],
         "countability": "countable",
         "subtext": "related to telling time",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmɪnət"
     },
     {
         "word": "second",
@@ -7222,7 +7546,8 @@
         ],
         "countability": "countable",
         "subtext": "related to telling time",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɛkənd"
     },
     {
         "word": "lesson",
@@ -7241,7 +7566,8 @@
         ],
         "countability": "countable",
         "subtext": "related to learning studying",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlɛsən"
     },
     {
         "word": "homework",
@@ -7260,7 +7586,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to learning studying",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhoʊmˌwərk"
     },
     {
         "word": "guitar",
@@ -7279,7 +7606,8 @@
         ],
         "countability": "countable",
         "subtext": "related to music",
-        "opposite": null
+        "opposite": null,
+        "transcription": "gɪˈtɑr"
     },
     {
         "word": "piano",
@@ -7298,7 +7626,8 @@
         ],
         "countability": "countable",
         "subtext": "related to music",
-        "opposite": null
+        "opposite": null,
+        "transcription": "piˈænə"
     },
     {
         "word": "forest",
@@ -7317,7 +7646,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfɔrɪst"
     },
     {
         "word": "island",
@@ -7336,7 +7666,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈaɪlənd"
     },
     {
         "word": "hill",
@@ -7355,7 +7686,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hɪl"
     },
     {
         "word": "duck",
@@ -7374,7 +7706,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dək"
     },
     {
         "word": "bear",
@@ -7393,7 +7726,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɛr"
     },
     {
         "word": "keyboard",
@@ -7412,7 +7746,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkiˌbɔrd"
     },
     {
         "word": "screen",
@@ -7431,7 +7766,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "skrin"
     },
     {
         "word": "dish",
@@ -7450,7 +7786,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɪʃ"
     },
     {
         "word": "year",
@@ -7469,7 +7806,8 @@
         ],
         "countability": "countable",
         "subtext": "related to dates years",
-        "opposite": null
+        "opposite": null,
+        "transcription": "jɪr"
     },
     {
         "word": "dad",
@@ -7488,7 +7826,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dæd"
     },
     {
         "word": "mum",
@@ -7507,7 +7846,8 @@
         ],
         "countability": "countable",
         "subtext": "related to immediate family",
-        "opposite": null
+        "opposite": null,
+        "transcription": "məm"
     },
     {
         "word": "garden",
@@ -7526,7 +7866,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈgɑrdən"
     },
     {
         "word": "sandwich",
@@ -7545,7 +7886,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsænwɪʧ"
     },
     {
         "word": "trip",
@@ -7564,7 +7906,8 @@
         ],
         "countability": "countable",
         "subtext": "related to travel vocabulary basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "trɪp"
     },
     {
         "word": "zoo",
@@ -7583,7 +7926,8 @@
         ],
         "countability": "countable",
         "subtext": "related to places culture leisure",
-        "opposite": null
+        "opposite": null,
+        "transcription": "zu"
     },
     {
         "word": "dictionary",
@@ -7602,7 +7946,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdɪkʃəˌnɛri"
     },
     {
         "word": "something",
@@ -7619,7 +7964,8 @@
             }
         ],
         "subtext": "related to describing things",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsəmθɪŋ"
     },
     {
         "word": "someone",
@@ -7636,7 +7982,8 @@
             }
         ],
         "subtext": "related to people",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsəmˌwən"
     },
     {
         "word": "everyone",
@@ -7653,7 +8000,8 @@
             }
         ],
         "subtext": "related to people",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛvriˌwən"
     },
     {
         "word": "already",
@@ -7670,7 +8018,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɔˈrɛdi"
     },
     {
         "word": "still",
@@ -7687,7 +8036,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "stɪl"
     },
     {
         "word": "yet",
@@ -7704,7 +8054,8 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "jɛt"
     },
     {
         "word": "up",
@@ -7721,7 +8072,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions movement"
+        "subtext": "related to prepositions movement",
+        "transcription": "əp"
     },
     {
         "word": "down",
@@ -7738,7 +8090,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions movement"
+        "subtext": "related to prepositions movement",
+        "transcription": "daʊn"
     },
     {
         "word": "oil",
@@ -7757,7 +8110,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɔɪl"
     },
     {
         "word": "pepper",
@@ -7776,7 +8130,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɛpər"
     },
     {
         "word": "taxi",
@@ -7795,7 +8150,8 @@
         ],
         "countability": "countable",
         "subtext": "related to modes of transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtæksi"
     },
     {
         "word": "bridge",
@@ -7814,7 +8170,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "brɪʤ"
     },
     {
         "word": "heart",
@@ -7833,7 +8190,8 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hɑrt"
     },
     {
         "word": "theatre",
@@ -7842,7 +8200,7 @@
         "emoji": "🎭",
         "form": "noun",
         "plural": "theatres",
-        "subtext": "",
+        "subtext": "related to places culture leisure",
         "synonyms": [
             "theater"
         ],
@@ -7855,7 +8213,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈθiətər"
     },
     {
         "word": "tonight",
@@ -7872,7 +8231,8 @@
             }
         ],
         "subtext": "related to times day",
-        "opposite": null
+        "opposite": null,
+        "transcription": "təˈnaɪt"
     },
     {
         "word": "world",
@@ -7891,7 +8251,8 @@
         ],
         "countability": "countable",
         "subtext": "related to countries capitals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wərld"
     },
     {
         "word": "life",
@@ -7910,7 +8271,8 @@
         ],
         "countability": "countable",
         "subtext": "related to personal identity",
-        "opposite": null
+        "opposite": null,
+        "transcription": "laɪf"
     },
     {
         "word": "way",
@@ -7930,7 +8292,8 @@
         ],
         "countability": "countable",
         "subtext": "related to directions navigation",
-        "opposite": null
+        "opposite": null,
+        "transcription": "weɪ"
     },
     {
         "word": "thing",
@@ -7949,7 +8312,8 @@
         ],
         "countability": "countable",
         "subtext": "related to describing things",
-        "opposite": null
+        "opposite": null,
+        "transcription": "θɪŋ"
     },
     {
         "word": "place",
@@ -7968,7 +8332,8 @@
         ],
         "countability": "countable",
         "subtext": "related to local places services",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pleɪs"
     },
     {
         "word": "word",
@@ -7987,7 +8352,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "wərd"
     },
     {
         "word": "number",
@@ -8006,7 +8372,8 @@
         ],
         "countability": "countable",
         "subtext": "related to numbers 0 9",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈnəmbər"
     },
     {
         "word": "body",
@@ -8025,7 +8392,8 @@
         ],
         "countability": "countable",
         "subtext": "related to health body",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbɑdi"
     },
     {
         "word": "north",
@@ -8043,7 +8411,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to directions navigation"
+        "subtext": "related to directions navigation",
+        "transcription": "nɔrθ"
     },
     {
         "word": "south",
@@ -8061,7 +8430,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to directions navigation"
+        "subtext": "related to directions navigation",
+        "transcription": "saʊθ"
     },
     {
         "word": "east",
@@ -8079,7 +8449,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to directions navigation"
+        "subtext": "related to directions navigation",
+        "transcription": "ist"
     },
     {
         "word": "west",
@@ -8097,7 +8468,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to directions navigation"
+        "subtext": "related to directions navigation",
+        "transcription": "wɛst"
     },
     {
         "word": "board",
@@ -8117,7 +8489,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bɔrd"
     },
     {
         "word": "eraser",
@@ -8126,7 +8499,7 @@
         "emoji": "🧽",
         "form": "noun",
         "plural": "erasers",
-        "subtext": "",
+        "subtext": "related to school stationery",
         "synonyms": [
             "rubber"
         ],
@@ -8139,7 +8512,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɪˈreɪsər"
     },
     {
         "word": "pencil case",
@@ -8158,7 +8532,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɛnsəl keɪs"
     },
     {
         "word": "notebook",
@@ -8177,7 +8552,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈnoʊtˌbʊk"
     },
     {
         "word": "textbook",
@@ -8196,7 +8572,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtɛkstˌbʊk"
     },
     {
         "word": "backpack",
@@ -8215,7 +8592,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbækˌpæk"
     },
     {
         "word": "armchair",
@@ -8234,7 +8612,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɑrmˌʧɛr"
     },
     {
         "word": "bookcase",
@@ -8253,7 +8632,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbʊkˌkeɪs"
     },
     {
         "word": "cupboard",
@@ -8272,7 +8652,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkəbərd"
     },
     {
         "word": "rug",
@@ -8291,7 +8672,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "rəg"
     },
     {
         "word": "drawer",
@@ -8310,7 +8692,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "drɔr"
     },
     {
         "word": "toy",
@@ -8329,7 +8712,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "tɔɪ"
     },
     {
         "word": "doll",
@@ -8348,7 +8732,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɑl"
     },
     {
         "word": "robot",
@@ -8367,7 +8752,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈroʊˌbət"
     },
     {
         "word": "monster",
@@ -8386,7 +8772,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmɑnstər"
     },
     {
         "word": "alien",
@@ -8405,7 +8792,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈeɪliən"
     },
     {
         "word": "kite",
@@ -8424,7 +8812,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kaɪt"
     },
     {
         "word": "balloon",
@@ -8443,7 +8832,8 @@
         ],
         "countability": "countable",
         "subtext": "related to toys games",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bəˈlun"
     },
     {
         "word": "hobby",
@@ -8462,7 +8852,8 @@
         ],
         "countability": "countable",
         "subtext": "related to hobbies interests",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhɑbi"
     },
     {
         "word": "pet",
@@ -8481,7 +8872,8 @@
         ],
         "countability": "countable",
         "subtext": "related to pets",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɛt"
     },
     {
         "word": "hamster",
@@ -8500,7 +8892,8 @@
         ],
         "countability": "countable",
         "subtext": "related to pets",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhæmstər"
     },
     {
         "word": "lizard",
@@ -8519,7 +8912,8 @@
         ],
         "countability": "countable",
         "subtext": "related to pets",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlɪzərd"
     },
     {
         "word": "turtle",
@@ -8538,7 +8932,8 @@
         ],
         "countability": "countable",
         "subtext": "related to pets",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtərtəl"
     },
     {
         "word": "playground",
@@ -8557,7 +8952,8 @@
         ],
         "countability": "countable",
         "subtext": "related to leisure activities",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpleɪˌgraʊnd"
     },
     {
         "word": "story",
@@ -8577,7 +8973,8 @@
         ],
         "countability": "countable",
         "subtext": "related to books reading",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈstɔri"
     },
     {
         "word": "painting",
@@ -8596,7 +8993,8 @@
         ],
         "countability": "countable",
         "subtext": "related to places culture leisure",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpeɪnɪŋ"
     },
     {
         "word": "poster",
@@ -8615,7 +9013,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpoʊstər"
     },
     {
         "word": "sentence",
@@ -8634,7 +9033,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɛntəns"
     },
     {
         "word": "question",
@@ -8654,7 +9054,8 @@
         ],
         "countability": "countable",
         "subtext": "related to asking answering questions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kˈwɛʃən"
     },
     {
         "word": "answer",
@@ -8673,7 +9074,8 @@
         ],
         "countability": "countable",
         "subtext": "related to asking answering questions",
-        "opposite": "ask"
+        "opposite": "ask",
+        "transcription": "ˈænsər"
     },
     {
         "word": "page",
@@ -8692,7 +9094,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "peɪʤ"
     },
     {
         "word": "basketball",
@@ -8711,7 +9114,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to common sports",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbæskətˌbɔl"
     },
     {
         "word": "baseball",
@@ -8730,7 +9134,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to common sports",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbeɪsˈbɔl"
     },
     {
         "word": "bat",
@@ -8749,7 +9154,8 @@
         ],
         "countability": "countable",
         "subtext": "related to sports equipment",
-        "opposite": null
+        "opposite": null,
+        "transcription": "bæt"
     },
     {
         "word": "scooter",
@@ -8768,7 +9174,8 @@
         ],
         "countability": "countable",
         "subtext": "related to modes of transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈskutər"
     },
     {
         "word": "motorbike",
@@ -8787,7 +9194,8 @@
         ],
         "countability": "countable",
         "subtext": "related to modes of transport",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmoʊtərˌbaɪk"
     },
     {
         "word": "truck",
@@ -8796,7 +9204,7 @@
         "emoji": "🚚",
         "form": "noun",
         "plural": "trucks",
-        "subtext": "",
+        "subtext": "related to modes of transport",
         "synonyms": [
             "lorry"
         ],
@@ -8809,7 +9217,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "trək"
     },
     {
         "word": "farmer",
@@ -8828,7 +9237,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfɑrmər"
     },
     {
         "word": "pilot",
@@ -8847,7 +9257,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpaɪlət"
     },
     {
         "word": "waiter",
@@ -8866,7 +9277,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈweɪtər"
     },
     {
         "word": "waitress",
@@ -8885,7 +9297,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈweɪtrəs"
     },
     {
         "word": "dentist",
@@ -8904,7 +9317,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdɛntɪst"
     },
     {
         "word": "police officer",
@@ -8923,7 +9337,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pəˈlis ˈɔfɪsər"
     },
     {
         "word": "firefighter",
@@ -8942,7 +9357,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfaɪrˌfaɪtər"
     },
     {
         "word": "soldier",
@@ -8961,7 +9377,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsoʊlʤər"
     },
     {
         "word": "bowl",
@@ -8980,7 +9397,8 @@
         ],
         "countability": "countable",
         "subtext": "related to kitchen items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "boʊl"
     },
     {
         "word": "kettle",
@@ -8999,7 +9417,8 @@
         ],
         "countability": "countable",
         "subtext": "related to kitchen items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkɛtəl"
     },
     {
         "word": "pan",
@@ -9018,7 +9437,8 @@
         ],
         "countability": "countable",
         "subtext": "related to kitchen items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pæn"
     },
     {
         "word": "pot",
@@ -9037,7 +9457,8 @@
         ],
         "countability": "countable",
         "subtext": "related to kitchen items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pɑt"
     },
     {
         "word": "crocodile",
@@ -9056,7 +9477,8 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkrɑkəˌdaɪl"
     },
     {
         "word": "shark",
@@ -9075,7 +9497,8 @@
         ],
         "countability": "countable",
         "subtext": "related to sea animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃɑrk"
     },
     {
         "word": "whale",
@@ -9094,7 +9517,8 @@
         ],
         "countability": "countable",
         "subtext": "related to sea animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "weɪl"
     },
     {
         "word": "dolphin",
@@ -9113,7 +9537,8 @@
         ],
         "countability": "countable",
         "subtext": "related to sea animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdɑlfən"
     },
     {
         "word": "octopus",
@@ -9132,7 +9557,8 @@
         ],
         "countability": "countable",
         "subtext": "related to sea animals",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɑktəˌpʊs"
     },
     {
         "word": "butterfly",
@@ -9151,7 +9577,8 @@
         ],
         "countability": "countable",
         "subtext": "related to insects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbətərˌflaɪ"
     },
     {
         "word": "ant",
@@ -9170,7 +9597,8 @@
         ],
         "countability": "countable",
         "subtext": "related to insects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ænt"
     },
     {
         "word": "ocean",
@@ -9189,7 +9617,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈoʊʃən"
     },
     {
         "word": "desert",
@@ -9208,7 +9637,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdɛzərt"
     },
     {
         "word": "jungle",
@@ -9227,7 +9657,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʤəŋgəl"
     },
     {
         "word": "earth",
@@ -9245,7 +9676,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ərθ"
     },
     {
         "word": "planet",
@@ -9264,7 +9696,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈplænət"
     },
     {
         "word": "violin",
@@ -9283,7 +9716,8 @@
         ],
         "countability": "countable",
         "subtext": "related to musical instruments",
-        "opposite": null
+        "opposite": null,
+        "transcription": "vaɪəˈlɪn"
     },
     {
         "word": "drums",
@@ -9302,7 +9736,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to musical instruments",
-        "opposite": null
+        "opposite": null,
+        "transcription": "drəmz"
     },
     {
         "word": "flute",
@@ -9321,7 +9756,8 @@
         ],
         "countability": "countable",
         "subtext": "related to musical instruments",
-        "opposite": null
+        "opposite": null,
+        "transcription": "flut"
     },
     {
         "word": "tie",
@@ -9340,7 +9776,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "taɪ"
     },
     {
         "word": "ring",
@@ -9359,7 +9796,8 @@
         ],
         "countability": "countable",
         "subtext": "related to accessories",
-        "opposite": null
+        "opposite": null,
+        "transcription": "rɪŋ"
     },
     {
         "word": "necklace",
@@ -9378,7 +9816,8 @@
         ],
         "countability": "countable",
         "subtext": "related to accessories",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈnɛkləs"
     },
     {
         "word": "roof",
@@ -9397,7 +9836,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "rʊf"
     },
     {
         "word": "fence",
@@ -9416,7 +9856,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fɛns"
     },
     {
         "word": "gate",
@@ -9435,7 +9876,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "geɪt"
     },
     {
         "word": "cookie",
@@ -9444,7 +9886,7 @@
         "emoji": "🍪",
         "form": "noun",
         "plural": "cookies",
-        "subtext": "",
+        "subtext": "related to basic foods",
         "synonyms": [
             "biscuit"
         ],
@@ -9457,7 +9899,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkʊki"
     },
     {
         "word": "biscuit",
@@ -9466,7 +9909,7 @@
         "emoji": "🍪",
         "form": "noun",
         "plural": "biscuits",
-        "subtext": "",
+        "subtext": "related to basic foods",
         "synonyms": [
             "cookie"
         ],
@@ -9479,7 +9922,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbɪskət"
     },
     {
         "word": "yogurt",
@@ -9498,7 +9942,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈjoʊgərt"
     },
     {
         "word": "ham",
@@ -9517,7 +9962,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hæm"
     },
     {
         "word": "bacon",
@@ -9536,7 +9982,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbeɪkən"
     },
     {
         "word": "sausage",
@@ -9555,7 +10002,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɔsɪʤ"
     },
     {
         "word": "honey",
@@ -9573,7 +10021,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈhəni"
     },
     {
         "word": "jam",
@@ -9591,7 +10040,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to basic foods",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤæm"
     },
     {
         "word": "pineapple",
@@ -9610,7 +10060,8 @@
         ],
         "countability": "countable",
         "subtext": "related to fruits vegetables",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpaɪˌnæpəl"
     },
     {
         "word": "watermelon",
@@ -9629,7 +10080,8 @@
         ],
         "countability": "countable",
         "subtext": "related to fruits vegetables",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɔtərˌmɛlən"
     },
     {
         "word": "mushroom",
@@ -9648,7 +10100,8 @@
         ],
         "countability": "countable",
         "subtext": "related to fruits vegetables",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈməʃrum"
     },
     {
         "word": "broccoli",
@@ -9666,7 +10119,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to fruits vegetables",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbrɑkəli"
     },
     {
         "word": "peas",
@@ -9685,7 +10139,8 @@
         ],
         "countability": "countable",
         "subtext": "related to fruits vegetables",
-        "opposite": null
+        "opposite": null,
+        "transcription": "piz"
     },
     {
         "word": "envelope",
@@ -9704,7 +10159,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈɛnvəˌloʊp"
     },
     {
         "word": "stamp",
@@ -9723,7 +10179,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "stæmp"
     },
     {
         "word": "stapler",
@@ -9742,7 +10199,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsteɪpələr"
     },
     {
         "word": "glue",
@@ -9761,7 +10219,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "glu"
     },
     {
         "word": "scissors",
@@ -9780,7 +10239,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsɪzərz"
     },
     {
         "word": "calculator",
@@ -9799,7 +10259,8 @@
         ],
         "countability": "countable",
         "subtext": "related to school stationery",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkælkjəˌleɪtər"
     },
     {
         "word": "washing machine",
@@ -9818,7 +10279,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈwɑʃɪŋ məˈʃin"
     },
     {
         "word": "toaster",
@@ -9837,7 +10299,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtoʊstər"
     },
     {
         "word": "remote control",
@@ -9856,7 +10319,8 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "opposite": null
+        "opposite": null,
+        "transcription": "rɪˈmoʊt kənˈtroʊl"
     },
     {
         "word": "rainbow",
@@ -9875,7 +10339,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈreɪnˌboʊ"
     },
     {
         "word": "storm",
@@ -9894,7 +10359,8 @@
         ],
         "countability": "countable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "stɔrm"
     },
     {
         "word": "pyjamas",
@@ -9913,7 +10379,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pəˈdʒɑːməz"
     },
     {
         "word": "shorts",
@@ -9932,7 +10399,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃɔrts"
     },
     {
         "word": "trainers",
@@ -9941,7 +10409,7 @@
         "emoji": "👟",
         "form": "noun",
         "plural": "trainers",
-        "subtext": "",
+        "subtext": "related to items of clothing",
         "synonyms": [
             "sneakers"
         ],
@@ -9954,7 +10422,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtreɪnərz"
     },
     {
         "word": "living room",
@@ -9973,7 +10442,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlɪvɪŋ rum"
     },
     {
         "word": "dining room",
@@ -9992,7 +10462,8 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdaɪnɪŋ rum"
     },
     {
         "word": "break",
@@ -10011,7 +10482,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "breɪk"
     },
     {
         "word": "globe",
@@ -10030,7 +10502,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "gloʊb"
     },
     {
         "word": "address",
@@ -10051,8 +10524,7 @@
         ],
         "countability": "countable",
         "opposite": null,
-        "transcription": "[əˈdres]",
-        "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=400&q=80"
+        "transcription": "əˈdres"
     },
     {
         "word": "language",
@@ -10073,8 +10545,7 @@
         ],
         "countability": "countable",
         "opposite": null,
-        "transcription": "[ˈlæŋɡwɪdʒ]",
-        "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈlæŋɡwɪdʒ"
     },
     {
         "word": "clothes",
@@ -10095,8 +10566,7 @@
         ],
         "countability": "uncountable",
         "opposite": null,
-        "transcription": "[kləʊðz]",
-        "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=400&q=80"
+        "transcription": "kləʊðz"
     },
     {
         "word": "furniture",
@@ -10117,8 +10587,7 @@
         ],
         "countability": "uncountable",
         "opposite": null,
-        "transcription": "[ˈfɜːnɪtʃə(r)]",
-        "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈfɜːnɪtʃə(r)"
     },
     {
         "word": "information",
@@ -10139,8 +10608,7 @@
         ],
         "countability": "uncountable",
         "opposite": null,
-        "transcription": "[ˌɪnfəˈmeɪʃn]",
-        "image": "https://images.unsplash.com/photo-1454165833762-0204b28c6721?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˌɪnfəˈmeɪʃn"
     },
     {
         "word": "nature",
@@ -10161,8 +10629,7 @@
         "countability": "uncountable",
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "[ˈneɪtʃə(r)]",
-        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈneɪtʃə(r)"
     },
     {
         "word": "weather",
@@ -10183,8 +10650,7 @@
         ],
         "countability": "uncountable",
         "opposite": null,
-        "transcription": "[ˈweðə(r)]",
-        "image": "https://images.unsplash.com/photo-1530908295418-a12e326966ba?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈweðə(r)"
     },
     {
         "word": "temperature",
@@ -10205,8 +10671,7 @@
         ],
         "countability": "countable",
         "opposite": null,
-        "transcription": "[ˈtemprətʃə(r)]",
-        "image": "https://images.unsplash.com/photo-1542152863-71869e061803?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈtemprətʃə(r)"
     },
     {
         "word": "first name",
@@ -10230,8 +10695,7 @@
             }
         ],
         "countability": "countable",
-        "transcription": "[fɜːst neɪm]",
-        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=80"
+        "transcription": "fɜːst neɪm"
     },
     {
         "word": "surname",
@@ -10252,8 +10716,7 @@
             }
         ],
         "countability": "countable",
-        "transcription": "[ˈsɜːneɪm]",
-        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ˈsɜːneɪm"
     },
     {
         "word": "snow",
@@ -10273,7 +10736,8 @@
         ],
         "countability": "uncountable",
         "subtext": "related to weather",
-        "opposite": null
+        "opposite": null,
+        "transcription": "snoʊ"
     },
     {
         "word": "news",
@@ -10293,7 +10757,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "nuz"
     },
     {
         "word": "bookshop",
@@ -10302,7 +10767,7 @@
         "emoji": "📚",
         "form": "noun",
         "plural": "bookshops",
-        "subtext": "",
+        "subtext": "related to local places services",
         "synonyms": [
             "bookstore"
         ],
@@ -10315,7 +10780,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbʊkˌʃɑp"
     },
     {
         "word": "date",
@@ -10334,7 +10800,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "deɪt"
     },
     {
         "word": "exam",
@@ -10353,7 +10820,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɪgˈzæm"
     },
     {
         "word": "example",
@@ -10372,7 +10840,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɪgˈzæmpəl"
     },
     {
         "word": "film",
@@ -10391,7 +10860,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fɪlm"
     },
     {
         "word": "idea",
@@ -10410,7 +10880,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "aɪˈdiə"
     },
     {
         "word": "letter",
@@ -10429,7 +10900,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈlɛtər"
     },
     {
         "word": "list",
@@ -10448,7 +10920,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "lɪst"
     },
     {
         "word": "meal",
@@ -10467,7 +10940,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mil"
     },
     {
         "word": "movie",
@@ -10486,7 +10960,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmuvi"
     },
     {
         "word": "party",
@@ -10505,7 +10980,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɑrti"
     },
     {
         "word": "photo",
@@ -10524,7 +11000,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfoʊˌtoʊ"
     },
     {
         "word": "picture",
@@ -10543,7 +11020,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɪkʧər"
     },
     {
         "word": "road",
@@ -10562,7 +11040,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "roʊd"
     },
     {
         "word": "test",
@@ -10581,7 +11060,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "tɛst"
     },
     {
         "word": "university",
@@ -10600,7 +11080,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˌjunəˈvərsəti"
     },
     {
         "word": "writer",
@@ -10619,7 +11100,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈraɪtər"
     },
     {
         "word": "suitcase",
@@ -10638,7 +11120,8 @@
         ],
         "countability": "countable",
         "subtext": "related to travel vocabulary basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈsutˌkeɪs"
     },
     {
         "word": "purse",
@@ -10657,7 +11140,8 @@
         ],
         "countability": "countable",
         "subtext": "related to everyday shopping",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pərs"
     },
     {
         "word": "pocket",
@@ -10676,7 +11160,8 @@
         ],
         "countability": "countable",
         "subtext": "related to items of clothing",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈpɑkət"
     },
     {
         "word": "comb",
@@ -10695,7 +11180,8 @@
         ],
         "countability": "countable",
         "subtext": "related to furniture objects",
-        "opposite": null
+        "opposite": null,
+        "transcription": "koʊm"
     },
     {
         "word": "skill",
@@ -10714,7 +11200,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "skɪl"
     },
     {
         "word": "opinion",
@@ -10733,7 +11220,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "əˈpɪnjən"
     },
     {
         "word": "apartment",
@@ -10752,7 +11240,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "əˈpɑrtmənt"
     },
     {
         "word": "bicycle",
@@ -10771,7 +11260,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈbaɪsɪkəl"
     },
     {
         "word": "mobile",
@@ -10790,7 +11280,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmoʊbəl"
     },
     {
         "word": "class",
@@ -10809,7 +11300,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "klæs"
     },
     {
         "word": "classroom",
@@ -10828,7 +11320,8 @@
         ],
         "countability": "countable",
         "subtext": "related to classroom language",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈklæsˌrum"
     },
     {
         "word": "staff",
@@ -10837,7 +11330,7 @@
         "emoji": "👥",
         "form": "noun",
         "plural": null,
-        "subtext": "",
+        "subtext": "related to workplace basics",
         "synonyms": [
             "employees",
             "workers"
@@ -10851,7 +11344,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "stæf"
     },
     {
         "word": "customer",
@@ -10870,7 +11364,8 @@
         ],
         "countability": "countable",
         "subtext": "related to everyday shopping",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈkəstəmər"
     },
     {
         "word": "guest",
@@ -10889,7 +11384,8 @@
         ],
         "countability": "countable",
         "subtext": "related to leisure activities",
-        "opposite": null
+        "opposite": null,
+        "transcription": "gɛst"
     },
     {
         "word": "career",
@@ -10908,7 +11404,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kərɪr"
     },
     {
         "word": "profession",
@@ -10917,7 +11414,7 @@
         "emoji": "🎓",
         "form": "noun",
         "plural": "professions",
-        "subtext": "",
+        "subtext": "related to job titles professions",
         "synonyms": [
             "job",
             "career"
@@ -10931,7 +11428,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "prəˈfɛʃən"
     },
     {
         "word": "wage",
@@ -10940,7 +11438,7 @@
         "emoji": "💵",
         "form": "noun",
         "plural": "wages",
-        "subtext": "",
+        "subtext": "related to money payment",
         "synonyms": [
             "salary",
             "pay"
@@ -10954,7 +11452,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "weɪʤ"
     },
     {
         "word": "factory",
@@ -10973,7 +11472,8 @@
         ],
         "countability": "countable",
         "subtext": "related to workplace basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈfæktəri"
     },
     {
         "word": "file",
@@ -10992,7 +11492,8 @@
         ],
         "countability": "countable",
         "subtext": "related to workplace basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "faɪl"
     },
     {
         "word": "document",
@@ -11011,7 +11512,8 @@
         ],
         "countability": "countable",
         "subtext": "related to workplace basics",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈdɑkjəmɛnt"
     },
     {
         "word": "radio",
@@ -11030,7 +11532,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈreɪdiˌoʊ"
     },
     {
         "word": "printer",
@@ -11049,7 +11552,8 @@
         ],
         "countability": "countable",
         "subtext": "related to basic technology devices",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈprɪnər"
     },
     {
         "word": "dessert",
@@ -11058,7 +11562,7 @@
         "emoji": "🍰",
         "form": "noun",
         "plural": "desserts",
-        "subtext": "",
+        "subtext": "related to meals of the day",
         "synonyms": [
             "sweet dish"
         ],
@@ -11071,7 +11575,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "dɪˈzərt"
     },
     {
         "word": "shoes",
@@ -11090,7 +11595,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʃuz"
     },
     {
         "word": "jewelry",
@@ -11109,7 +11615,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈʤuəlri"
     },
     {
         "word": "nephew",
@@ -11128,7 +11635,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to extended family"
+        "subtext": "related to extended family",
+        "transcription": "ˈnɛfju"
     },
     {
         "word": "niece",
@@ -11147,7 +11655,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to extended family"
+        "subtext": "related to extended family",
+        "transcription": "nis"
     },
     {
         "word": "teenager",
@@ -11166,7 +11675,8 @@
         ],
         "countability": "countable",
         "subtext": "related to people",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtiˌneɪʤər"
     },
     {
         "word": "professor",
@@ -11185,7 +11695,8 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "opposite": null
+        "opposite": null,
+        "transcription": "prəˈfɛsər"
     },
     {
         "word": "month",
@@ -11204,7 +11715,8 @@
         ],
         "countability": "countable",
         "subtext": "related to dates years",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mənθ"
     },
     {
         "word": "excuse me",
@@ -11212,7 +11724,7 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "👋",
         "form": "phrase",
-        "subtext": "",
+        "subtext": "excuse me",
         "synonyms": [
             "pardon me"
         ],
@@ -11224,7 +11736,8 @@
                 ]
             }
         ],
-        "opposite": null
+        "opposite": null,
+        "transcription": "ɪkˈskjuz mi"
     },
     {
         "word": "above",
@@ -11241,7 +11754,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "⬆️"
+        "emoji": "⬆️",
+        "transcription": "əˈbəv"
     },
     {
         "word": "below",
@@ -11258,7 +11772,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "⬇️"
+        "emoji": "⬇️",
+        "transcription": "bɪˈloʊ"
     },
     {
         "word": "inside",
@@ -11275,7 +11790,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "transcription": "ˌɪnˈsaɪd"
     },
     {
         "word": "outside",
@@ -11292,7 +11808,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "🌳"
+        "emoji": "🌳",
+        "transcription": "ˈaʊtˈsaɪd"
     },
     {
         "word": "during",
@@ -11309,7 +11826,8 @@
         ],
         "subtext": "related to prepositions time",
         "opposite": null,
-        "emoji": "⌛"
+        "emoji": "⌛",
+        "transcription": "ˈdʊrɪŋ"
     },
     {
         "word": "before",
@@ -11326,7 +11844,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "⏮️"
+        "emoji": "⏮️",
+        "transcription": "ˌbiˈfɔr"
     },
     {
         "word": "after",
@@ -11343,7 +11862,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "⏭️"
+        "emoji": "⏭️",
+        "transcription": "ˈæftər"
     },
     {
         "word": "top",
@@ -11361,7 +11881,8 @@
             }
         ],
         "countability": "uncountable",
-        "subtext": "related to size shape"
+        "subtext": "related to size shape",
+        "transcription": "tɔp"
     },
     {
         "word": "bottom",
@@ -11379,7 +11900,8 @@
             }
         ],
         "countability": "uncountable",
-        "subtext": "related to size shape"
+        "subtext": "related to size shape",
+        "transcription": "ˈbɑtəm"
     },
     {
         "word": "first",
@@ -11396,7 +11918,8 @@
                 ]
             }
         ],
-        "subtext": "related to sequence order A2"
+        "subtext": "related to sequence order A2",
+        "transcription": "fərst"
     },
     {
         "word": "last",
@@ -11413,7 +11936,8 @@
                 ]
             }
         ],
-        "subtext": "related to sequence order A2"
+        "subtext": "related to sequence order A2",
+        "transcription": "læst"
     },
     {
         "word": "next",
@@ -11430,7 +11954,8 @@
                 ]
             }
         ],
-        "subtext": "related to sequence order A2"
+        "subtext": "related to sequence order A2",
+        "transcription": "nɛkst"
     },
     {
         "word": "animal",
@@ -11453,7 +11978,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈænəməl"
     },
     {
         "word": "chips",
@@ -11462,7 +11988,7 @@
         "emoji": "🍟",
         "form": "noun",
         "plural": "chips",
-        "subtext": "",
+        "subtext": "related to basic foods",
         "synonyms": [
             "french fries"
         ],
@@ -11475,7 +12001,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʧɪps"
     },
     {
         "word": "fries",
@@ -11494,7 +12021,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fraɪz"
     },
     {
         "word": "gym",
@@ -11516,7 +12044,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ʤɪm"
     },
     {
         "word": "fire",
@@ -11538,7 +12067,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "faɪər"
     },
     {
         "word": "group",
@@ -11560,7 +12090,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "grup"
     },
     {
         "word": "ice",
@@ -11581,7 +12112,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "aɪs"
     },
     {
         "word": "police",
@@ -11599,7 +12131,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "pəˈlis"
     },
     {
         "word": "traffic",
@@ -11621,7 +12154,8 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈtræfɪk"
     },
     {
         "word": "actress",
@@ -11643,7 +12177,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈæktrəs"
     },
     {
         "word": "farm",
@@ -11665,7 +12200,8 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "fɑrm"
     },
     {
         "word": "blanket",
@@ -11683,11 +12219,12 @@
             }
         ],
         "countability": "countable",
-        "subtext": "",
+        "subtext": "related to household items",
         "synonyms": [
             "bedding",
             "keep warm"
-        ]
+        ],
+        "transcription": "ˈblæŋkɪt"
     },
     {
         "word": "pillow",
@@ -11708,7 +12245,8 @@
         "subtext": "soft pillow",
         "synonyms": [
             "bedding"
-        ]
+        ],
+        "transcription": "ˈpɪloʊ"
     },
     {
         "word": "present",
@@ -11729,7 +12267,8 @@
         "subtext": "birthday present",
         "synonyms": [
             "gift"
-        ]
+        ],
+        "transcription": "ˈprɛzənt"
     },
     {
         "word": "carpet",
@@ -11747,11 +12286,12 @@
             }
         ],
         "countability": "countable",
-        "subtext": "",
+        "subtext": "related to household items",
         "synonyms": [
             "floor covering",
             "rug"
-        ]
+        ],
+        "transcription": "ˈkɑrpət"
     },
     {
         "word": "battery",
@@ -11769,11 +12309,12 @@
             }
         ],
         "countability": "countable",
-        "subtext": "",
+        "subtext": "related to basic technology devices",
         "synonyms": [
             "power source",
             "charging"
-        ]
+        ],
+        "transcription": "ˈbætəri"
     },
     {
         "word": "charger",
@@ -11791,10 +12332,11 @@
             }
         ],
         "countability": "countable",
-        "subtext": "",
+        "subtext": "related to basic technology devices",
         "synonyms": [
             "charging cable"
-        ]
+        ],
+        "transcription": "ˈʧɑrʤər"
     },
     {
         "word": "calendar",
@@ -11812,10 +12354,11 @@
             }
         ],
         "countability": "countable",
-        "subtext": "",
+        "subtext": "related to dates years",
         "synonyms": [
             "date planner"
-        ]
+        ],
+        "transcription": "ˈkæləndər"
     },
     {
         "word": "tape",
@@ -11833,7 +12376,8 @@
             }
         ],
         "countability": "uncountable",
-        "subtext": "sticky tape"
+        "subtext": "sticky tape",
+        "transcription": "teɪp"
     },
     {
         "word": "sheet",
@@ -11854,7 +12398,8 @@
         "subtext": "bed sheet",
         "synonyms": [
             "linen"
-        ]
+        ],
+        "transcription": "ʃit"
     },
     {
         "word": "nurse",
@@ -11863,8 +12408,7 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "nurses",
-        "transcription": "[n˃ːs]",
-        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=400&q=80",
+        "transcription": "n˃ːs",
         "definitions": [
             {
                 "text": "A person whose job is to care for people who are ill or injured, especially in a hospital.",
@@ -11883,8 +12427,7 @@
         "emoji": "🧑‍💻",
         "form": "noun",
         "plural": "engineers",
-        "transcription": "[ˌendʒɪˈnɪə(r)]",
-        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˌendʒɪˈnɪə(r)",
         "definitions": [
             {
                 "text": "A person whose job involves designing and building machines, systems, or structures.",
@@ -11903,8 +12446,7 @@
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chefs",
-        "transcription": "[ʃef]",
-        "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ʃef",
         "definitions": [
             {
                 "text": "A skilled and trained cook who works in a hotel or restaurant.",
@@ -11923,8 +12465,7 @@
         "emoji": "🍇",
         "form": "noun",
         "plural": "grapes",
-        "transcription": "[ɡreɪps]",
-        "image": "https://images.unsplash.com/photo-1537084642907-629340c7e59c?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ɡreɪps",
         "definitions": [
             {
                 "text": "Small round green or purple fruits that grow in bunches.",
@@ -11943,8 +12484,7 @@
         "emoji": "🌽",
         "form": "noun",
         "plural": null,
-        "transcription": "[kɔːn]",
-        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=400&q=80",
+        "transcription": "kɔːn",
         "definitions": [
             {
                 "text": "A tall plant that produces yellow seeds eaten as a vegetable.",
@@ -11964,7 +12504,6 @@
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
         "transcription": "biː",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
@@ -11990,7 +12529,6 @@
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
         "transcription": "hæv",
-        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To possess something; to experience something.",
@@ -12016,7 +12554,6 @@
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
         "transcription": "fiːl",
-        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -12042,7 +12579,6 @@
         "oppositeEmoji": "👜",
         "form": "verb",
         "transcription": "ɡɪv",
-        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To hand or transfer something to someone.",
@@ -12068,7 +12604,6 @@
         "oppositeEmoji": "🎁",
         "form": "verb",
         "transcription": "teɪk",
-        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To hold and move something; to use or consume.",
@@ -12107,7 +12642,8 @@
         "aspect": "action",
         "v2": "got",
         "v3": "got / gotten",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "gɪt"
     },
     {
         "word": "put",
@@ -12131,7 +12667,8 @@
         "aspect": "action",
         "v2": "put",
         "v3": "put",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "pʊt"
     },
     {
         "word": "make",
@@ -12154,7 +12691,8 @@
         "v2": "made",
         "v3": "made",
         "group": "irregular",
-        "opposite": "destroy"
+        "opposite": "destroy",
+        "transcription": "meɪk"
     },
     {
         "word": "do",
@@ -12177,7 +12715,8 @@
         "v2": "did",
         "v3": "done",
         "group": "irregular",
-        "opposite": "undo"
+        "opposite": "undo",
+        "transcription": "du"
     },
     {
         "word": "use",
@@ -12200,7 +12739,8 @@
         "v2": "used",
         "v3": "used",
         "group": "regular",
-        "opposite": "waste"
+        "opposite": "waste",
+        "transcription": "juz"
     },
     {
         "word": "open",
@@ -12224,7 +12764,8 @@
         "aspect": "action",
         "v2": "opened",
         "v3": "opened",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈoʊpən"
     },
     {
         "word": "close",
@@ -12248,7 +12789,8 @@
         "aspect": "action",
         "v2": "closed",
         "v3": "closed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "kloʊz"
     },
     {
         "word": "start",
@@ -12271,7 +12813,8 @@
         "aspect": "action",
         "v2": "started",
         "v3": "started",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "stɑrt"
     },
     {
         "word": "finish",
@@ -12294,7 +12837,8 @@
         "aspect": "action",
         "v2": "finished",
         "v3": "finished",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈfɪnɪʃ"
     },
     {
         "word": "help",
@@ -12316,7 +12860,8 @@
         "v2": "helped",
         "v3": "helped",
         "group": "regular",
-        "opposite": "hinder"
+        "opposite": "hinder",
+        "transcription": "hɛlp"
     },
     {
         "word": "try",
@@ -12338,7 +12883,8 @@
         "v2": "tried",
         "v3": "tried",
         "group": "regular",
-        "opposite": "give up"
+        "opposite": "give up",
+        "transcription": "traɪ"
     },
     {
         "word": "show",
@@ -12361,7 +12907,8 @@
         "aspect": "action",
         "v2": "showed",
         "v3": "shown",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "ʃoʊ"
     },
     {
         "word": "find",
@@ -12385,7 +12932,8 @@
         "aspect": "action",
         "v2": "found",
         "v3": "found",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "faɪnd"
     },
     {
         "word": "keep",
@@ -12408,7 +12956,8 @@
         "v2": "kept",
         "v3": "kept",
         "group": "irregular",
-        "opposite": "give away"
+        "opposite": "give away",
+        "transcription": "kip"
     },
     {
         "word": "lose",
@@ -12432,7 +12981,8 @@
         "aspect": "action",
         "v2": "lost",
         "v3": "lost",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "luz"
     },
     {
         "word": "cut",
@@ -12455,7 +13005,8 @@
         "v2": "cut",
         "v3": "cut",
         "group": "irregular",
-        "opposite": "join"
+        "opposite": "join",
+        "transcription": "kət"
     },
     {
         "word": "turn",
@@ -12478,7 +13029,8 @@
         "v2": "turned",
         "v3": "turned",
         "group": "regular",
-        "opposite": "straighten"
+        "opposite": "straighten",
+        "transcription": "tərn"
     },
     {
         "word": "bring",
@@ -12502,7 +13054,8 @@
         "aspect": "action",
         "v2": "brought",
         "v3": "brought",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "brɪŋ"
     },
     {
         "word": "say",
@@ -12525,7 +13078,8 @@
         "v2": "said",
         "v3": "said",
         "group": "irregular",
-        "opposite": "listen"
+        "opposite": "listen",
+        "transcription": "seɪ"
     },
     {
         "word": "tell",
@@ -12547,14 +13101,15 @@
         "v2": "told",
         "v3": "told",
         "group": "irregular",
-        "opposite": "ask"
+        "opposite": "ask",
+        "transcription": "tɛl"
     },
     {
         "word": "ask",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "ask for / about, ask a question / ask for help / ask about / ask someone",
         "opposite": "answer",
         "oppositeEmoji": "📞",
         "form": "verb",
@@ -12570,14 +13125,15 @@
         "aspect": "action",
         "v2": "asked",
         "v3": "asked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "æsk"
     },
     {
         "word": "speak",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
         "definitions": [
             {
@@ -12593,14 +13149,15 @@
         "v2": "spoke",
         "v3": "spoken",
         "group": "irregular",
-        "opposite": "be silent"
+        "opposite": "be silent",
+        "transcription": "spik"
     },
     {
         "word": "talk",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
         "form": "verb",
         "definitions": [
             {
@@ -12615,7 +13172,8 @@
         "v2": "talked",
         "v3": "talked",
         "group": "regular",
-        "opposite": "listen"
+        "opposite": "listen",
+        "transcription": "tɔk"
     },
     {
         "word": "call",
@@ -12637,14 +13195,15 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "opposite": "hang up"
+        "opposite": "hang up",
+        "transcription": "kɔl"
     },
     {
         "word": "write",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "write an email / write a report / write a letter / write notes",
+        "subtext": "write to, write an email / write a report / write a letter / write notes",
         "opposite": "read",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -12661,7 +13220,8 @@
         "aspect": "action",
         "v2": "wrote",
         "v3": "written",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "raɪt"
     },
     {
         "word": "read",
@@ -12685,7 +13245,8 @@
         "aspect": "action",
         "v2": "read",
         "v3": "read",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "rɛd"
     },
     {
         "word": "listen",
@@ -12708,7 +13269,8 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "opposite": "say"
+        "opposite": "say",
+        "transcription": "ˈlɪsən"
     },
     {
         "word": "answer",
@@ -12732,7 +13294,8 @@
         "aspect": "action",
         "v2": "answered",
         "v3": "answered",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈænsər"
     },
     {
         "word": "repeat",
@@ -12755,7 +13318,8 @@
         "v2": "repeated",
         "v3": "repeated",
         "group": "regular",
-        "opposite": "change"
+        "opposite": "change",
+        "transcription": "rɪˈpit"
     },
     {
         "word": "go",
@@ -12780,8 +13344,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "[ɡəʊ]",
-        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ɡəʊ"
     },
     {
         "word": "come",
@@ -12806,8 +13369,7 @@
         "v2": "came",
         "v3": "come",
         "group": "irregular",
-        "transcription": "[kʌm]",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80"
+        "transcription": "kʌm"
     },
     {
         "word": "walk",
@@ -12831,7 +13393,8 @@
         "aspect": "action",
         "v2": "walked",
         "v3": "walked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "wɔk"
     },
     {
         "word": "drive",
@@ -12854,7 +13417,8 @@
         "v2": "drove",
         "v3": "driven",
         "group": "irregular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "draɪv"
     },
     {
         "word": "fly",
@@ -12877,14 +13441,15 @@
         "v2": "flew",
         "v3": "flown",
         "group": "irregular",
-        "opposite": "land"
+        "opposite": "land",
+        "transcription": "flaɪ"
     },
     {
         "word": "arrive",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
         "opposite": "leave",
         "oppositeEmoji": "🚪",
         "form": "verb",
@@ -12900,7 +13465,8 @@
         "aspect": "action",
         "v2": "arrived",
         "v3": "arrived",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "əraɪv"
     },
     {
         "word": "leave",
@@ -12923,7 +13489,8 @@
         "aspect": "action",
         "v2": "left",
         "v3": "left",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "liv"
     },
     {
         "word": "move",
@@ -12945,7 +13512,8 @@
         "v2": "moved",
         "v3": "moved",
         "group": "regular",
-        "opposite": "stay"
+        "opposite": "stay",
+        "transcription": "muv"
     },
     {
         "word": "return",
@@ -12968,7 +13536,8 @@
         "v2": "returned",
         "v3": "returned",
         "group": "regular",
-        "opposite": "leave"
+        "opposite": "leave",
+        "transcription": "rɪˈtərn"
     },
     {
         "word": "travel",
@@ -12990,7 +13559,8 @@
         "v2": "traveled",
         "v3": "traveled",
         "group": "regular",
-        "opposite": "stay"
+        "opposite": "stay",
+        "transcription": "ˈtrævəl"
     },
     {
         "word": "eat",
@@ -13014,7 +13584,8 @@
         "aspect": "action",
         "v2": "ate",
         "v3": "eaten",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "it"
     },
     {
         "word": "drink",
@@ -13038,7 +13609,8 @@
         "aspect": "action",
         "v2": "drank",
         "v3": "drunk",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "drɪŋk"
     },
     {
         "word": "sleep",
@@ -13062,7 +13634,8 @@
         "aspect": "action",
         "v2": "slept",
         "v3": "slept",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "slip"
     },
     {
         "word": "cook",
@@ -13084,7 +13657,8 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "opposite": "eat"
+        "opposite": "eat",
+        "transcription": "kʊk"
     },
     {
         "word": "clean",
@@ -13106,7 +13680,8 @@
         "v2": "cleaned",
         "v3": "cleaned",
         "group": "regular",
-        "opposite": "dirty"
+        "opposite": "dirty",
+        "transcription": "klin"
     },
     {
         "word": "wear",
@@ -13129,7 +13704,8 @@
         "v2": "wore",
         "v3": "worn",
         "group": "irregular",
-        "opposite": "undress"
+        "opposite": "undress",
+        "transcription": "wɛr"
     },
     {
         "word": "wash",
@@ -13152,7 +13728,8 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "opposite": "dirty"
+        "opposite": "dirty",
+        "transcription": "wɑʃ"
     },
     {
         "word": "buy",
@@ -13176,14 +13753,15 @@
         "aspect": "action",
         "v2": "bought",
         "v3": "bought",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "baɪ"
     },
     {
         "word": "pay",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
         "definitions": [
             {
@@ -13198,7 +13776,8 @@
         "v2": "paid",
         "v3": "paid",
         "group": "irregular",
-        "opposite": "receive"
+        "opposite": "receive",
+        "transcription": "peɪ"
     },
     {
         "word": "spend",
@@ -13221,7 +13800,8 @@
         "aspect": "action",
         "v2": "spent",
         "v3": "spent",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "spɛnd"
     },
     {
         "word": "save",
@@ -13244,7 +13824,8 @@
         "aspect": "action",
         "v2": "saved",
         "v3": "saved",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "seɪv"
     },
     {
         "word": "work",
@@ -13267,7 +13848,8 @@
         "aspect": "action",
         "v2": "worked",
         "v3": "worked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "wərk"
     },
     {
         "word": "live",
@@ -13291,14 +13873,15 @@
         "aspect": "stative",
         "v2": "lived",
         "v3": "lived",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "lɪv"
     },
     {
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think it is / think carefully",
+        "subtext": "think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
             {
@@ -13314,7 +13897,8 @@
         "v2": "thought",
         "v3": "thought",
         "group": "irregular",
-        "opposite": "feel"
+        "opposite": "feel",
+        "transcription": "θɪŋk"
     },
     {
         "word": "know",
@@ -13338,7 +13922,8 @@
         "v2": "knew",
         "v3": "known",
         "group": "irregular",
-        "opposite": "wonder"
+        "opposite": "wonder",
+        "transcription": "noʊ"
     },
     {
         "word": "want",
@@ -13362,7 +13947,8 @@
         "v2": "wanted",
         "v3": "wanted",
         "group": "regular",
-        "opposite": "refuse"
+        "opposite": "refuse",
+        "transcription": "wɔnt"
     },
     {
         "word": "need",
@@ -13386,7 +13972,8 @@
         "v2": "needed",
         "v3": "needed",
         "group": "regular",
-        "opposite": "have"
+        "opposite": "have",
+        "transcription": "nid"
     },
     {
         "word": "like",
@@ -13411,7 +13998,8 @@
         "aspect": "stative",
         "v2": "liked",
         "v3": "liked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "laɪk"
     },
     {
         "word": "dislike",
@@ -13434,7 +14022,8 @@
         "aspect": "stative",
         "v2": "disliked",
         "v3": "disliked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "dɪsˈlaɪk"
     },
     {
         "word": "love",
@@ -13458,7 +14047,8 @@
         "aspect": "stative",
         "v2": "loved",
         "v3": "loved",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ləv"
     },
     {
         "word": "hate",
@@ -13482,7 +14072,8 @@
         "aspect": "stative",
         "v2": "hated",
         "v3": "hated",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "heɪt"
     },
     {
         "word": "hope",
@@ -13505,7 +14096,8 @@
         "v2": "hoped",
         "v3": "hoped",
         "group": "regular",
-        "opposite": "fear"
+        "opposite": "fear",
+        "transcription": "hoʊp"
     },
     {
         "word": "remember",
@@ -13529,7 +14121,8 @@
         "aspect": "stative",
         "v2": "remembered",
         "v3": "remembered",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "rɪˈmɛmbər"
     },
     {
         "word": "forget",
@@ -13553,7 +14146,8 @@
         "aspect": "stative",
         "v2": "forgot",
         "v3": "forgotten",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "fərˈgɛt"
     },
     {
         "word": "understand",
@@ -13576,7 +14170,8 @@
         "v2": "understood",
         "v3": "understood",
         "group": "irregular",
-        "opposite": "misunderstand"
+        "opposite": "misunderstand",
+        "transcription": "ˌəndərˈstænd"
     },
     {
         "word": "decide",
@@ -13602,7 +14197,8 @@
         "v2": "decided",
         "v3": "decided",
         "group": "regular",
-        "opposite": "hesitate"
+        "opposite": "hesitate",
+        "transcription": "ˌdɪˈsaɪd"
     },
     {
         "word": "enjoy",
@@ -13624,7 +14220,8 @@
         "v2": "enjoyed",
         "v3": "enjoyed",
         "group": "regular",
-        "opposite": "hate"
+        "opposite": "hate",
+        "transcription": "ˌɛnˈʤɔɪ"
     },
     {
         "word": "see",
@@ -13647,7 +14244,8 @@
         "v2": "saw",
         "v3": "seen",
         "group": "irregular",
-        "opposite": "blind"
+        "opposite": "blind",
+        "transcription": "si"
     },
     {
         "word": "hear",
@@ -13670,7 +14268,8 @@
         "v2": "heard",
         "v3": "heard",
         "group": "irregular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "hir"
     },
     {
         "word": "wake up",
@@ -13693,7 +14292,8 @@
         "aspect": "action",
         "v2": "woke up",
         "v3": "woken up",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "weɪk əp"
     },
     {
         "word": "watch",
@@ -13715,14 +14315,15 @@
         "v2": "watched",
         "v3": "watched",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "wɔʧ"
     },
     {
         "word": "look",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / look for / look like / look happy",
+        "subtext": "look at / for, look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
             {
@@ -13738,7 +14339,8 @@
         "v2": "looked",
         "v3": "looked",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "lʊk"
     },
     {
         "word": "play",
@@ -13760,7 +14362,8 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "opposite": "work"
+        "opposite": "work",
+        "transcription": "pleɪ"
     },
     {
         "word": "run",
@@ -13784,7 +14387,8 @@
         "aspect": "action",
         "v2": "ran",
         "v3": "run",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "rən"
     },
     {
         "word": "sit",
@@ -13807,7 +14411,8 @@
         "aspect": "action",
         "v2": "sat",
         "v3": "sat",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "sɪt"
     },
     {
         "word": "stand",
@@ -13830,7 +14435,8 @@
         "aspect": "action",
         "v2": "stood",
         "v3": "stood",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "stænd"
     },
     {
         "word": "meet",
@@ -13852,7 +14458,8 @@
         "v3": "met",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mit"
     },
     {
         "word": "learn",
@@ -13875,7 +14482,8 @@
         "aspect": "action",
         "v2": "learned / learnt",
         "v3": "learned / learnt",
-        "group": "both"
+        "group": "both",
+        "transcription": "lərn"
     },
     {
         "word": "change",
@@ -13897,7 +14505,8 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "opposite": "stay"
+        "opposite": "stay",
+        "transcription": "ʧeɪnʤ"
     },
     {
         "word": "stop",
@@ -13920,7 +14529,8 @@
         "aspect": "action",
         "v2": "stopped",
         "v3": "stopped",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "stɑp"
     },
     {
         "word": "add",
@@ -13944,7 +14554,8 @@
         "aspect": "action",
         "v2": "added",
         "v3": "added",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "æd"
     },
     {
         "word": "subtract",
@@ -13970,7 +14581,8 @@
         "aspect": "action",
         "v2": "subtracted",
         "v3": "subtracted",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "səbˈtrækt"
     },
     {
         "word": "win",
@@ -13993,7 +14605,8 @@
         "aspect": "action",
         "v2": "won",
         "v3": "won",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "wɪn"
     },
     {
         "word": "wait",
@@ -14015,7 +14628,8 @@
         "v2": "waited",
         "v3": "waited",
         "group": "regular",
-        "opposite": "act"
+        "opposite": "act",
+        "transcription": "weɪt"
     },
     {
         "word": "die",
@@ -14038,7 +14652,8 @@
         "aspect": "action",
         "v2": "died",
         "v3": "died",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "daɪ"
     },
     {
         "word": "send",
@@ -14061,7 +14676,8 @@
         "v2": "sent",
         "v3": "sent",
         "subtext": "send an email / send a message / send a report / send a file",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "sɛnd"
     },
     {
         "word": "stay",
@@ -14085,7 +14701,8 @@
         "aspect": "action",
         "v2": "stayed",
         "v3": "stayed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "steɪ"
     },
     {
         "word": "fall",
@@ -14109,7 +14726,8 @@
         "aspect": "action",
         "v2": "fell",
         "v3": "fallen",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "fɔl"
     },
     {
         "word": "rise",
@@ -14133,7 +14751,8 @@
         "aspect": "action",
         "v2": "rose",
         "v3": "risen",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "raɪz"
     },
     {
         "word": "pass",
@@ -14157,7 +14776,8 @@
         "aspect": "action",
         "v2": "passed",
         "v3": "passed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pæs"
     },
     {
         "word": "sell",
@@ -14183,7 +14803,8 @@
         "aspect": "action",
         "v2": "sold",
         "v3": "sold",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "sɛl"
     },
     {
         "word": "pull",
@@ -14206,7 +14827,8 @@
         "aspect": "action",
         "v2": "pulled",
         "v3": "pulled",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pʊl"
     },
     {
         "word": "push",
@@ -14230,7 +14852,8 @@
         "aspect": "action",
         "v2": "pushed",
         "v3": "pushed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pʊʃ"
     },
     {
         "word": "carry",
@@ -14252,7 +14875,8 @@
         "v2": "carried",
         "v3": "carried",
         "group": "regular",
-        "opposite": "drop"
+        "opposite": "drop",
+        "transcription": "ˈkɛri"
     },
     {
         "word": "break",
@@ -14275,7 +14899,8 @@
         "v2": "broke",
         "v3": "broken",
         "group": "irregular",
-        "opposite": "fix"
+        "opposite": "fix",
+        "transcription": "breɪk"
     },
     {
         "word": "receive",
@@ -14299,7 +14924,8 @@
         "aspect": "action",
         "v2": "received",
         "v3": "received",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "rɪˈsiv"
     },
     {
         "word": "agree",
@@ -14323,7 +14949,8 @@
         "aspect": "stative",
         "v2": "agreed",
         "v3": "agreed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "əˈgri"
     },
     {
         "word": "draw",
@@ -14346,7 +14973,8 @@
         "v2": "drew",
         "v3": "drawn",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "drɔ"
     },
     {
         "word": "share",
@@ -14369,7 +14997,8 @@
         "v2": "shared",
         "v3": "shared",
         "group": "regular",
-        "opposite": "keep"
+        "opposite": "keep",
+        "transcription": "ʃɛr"
     },
     {
         "word": "smile",
@@ -14393,7 +15022,8 @@
         "aspect": "action",
         "v2": "smiled",
         "v3": "smiled",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "smaɪl"
     },
     {
         "word": "cry",
@@ -14420,7 +15050,8 @@
         "aspect": "action",
         "v2": "cried",
         "v3": "cried",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "kraɪ"
     },
     {
         "word": "dance",
@@ -14446,7 +15077,8 @@
         "v2": "danced",
         "v3": "danced",
         "group": "regular",
-        "opposite": "sit"
+        "opposite": "sit",
+        "transcription": "dæns"
     },
     {
         "word": "sing",
@@ -14472,7 +15104,8 @@
         "v2": "sang",
         "v3": "sung",
         "group": "irregular",
-        "opposite": "be quiet"
+        "opposite": "be quiet",
+        "transcription": "sɪŋ"
     },
     {
         "word": "jump",
@@ -14495,7 +15128,8 @@
         "v2": "jumped",
         "v3": "jumped",
         "group": "regular",
-        "opposite": "fall"
+        "opposite": "fall",
+        "transcription": "ʤəmp"
     },
     {
         "word": "swim",
@@ -14521,7 +15155,8 @@
         "v2": "swam",
         "v3": "swum",
         "group": "irregular",
-        "opposite": "sink"
+        "opposite": "sink",
+        "transcription": "swɪm"
     },
     {
         "word": "study",
@@ -14543,7 +15178,8 @@
         "v2": "studied",
         "v3": "studied",
         "group": "regular",
-        "opposite": "play"
+        "opposite": "play",
+        "transcription": "ˈstədi"
     },
     {
         "word": "teach",
@@ -14565,7 +15201,8 @@
         "v2": "taught",
         "v3": "taught",
         "group": "irregular",
-        "opposite": "learn"
+        "opposite": "learn",
+        "transcription": "tiʧ"
     },
     {
         "word": "rent",
@@ -14587,7 +15224,8 @@
         "v2": "rented",
         "v3": "rented",
         "group": "regular",
-        "opposite": "own"
+        "opposite": "own",
+        "transcription": "rɛnt"
     },
     {
         "word": "exercise",
@@ -14609,7 +15247,8 @@
         "v3": "exercised",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "regular",
-        "opposite": "rest"
+        "opposite": "rest",
+        "transcription": "ˈɛksərˌsaɪz"
     },
     {
         "word": "cost",
@@ -14630,7 +15269,8 @@
         "v2": "cost",
         "v3": "cost",
         "subtext": "cost a lot / cost money / cost too much / cost less",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "kɔst"
     },
     {
         "word": "invite",
@@ -14652,7 +15292,8 @@
         "v3": "invited",
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
-        "opposite": "reject"
+        "opposite": "reject",
+        "transcription": "ˌɪnˈvaɪt"
     },
     {
         "word": "get up",
@@ -14674,7 +15315,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "gɪt əp"
     },
     {
         "word": "have breakfast",
@@ -14699,7 +15341,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hæv ˈbrɛkfəst"
     },
     {
         "word": "come back",
@@ -14721,7 +15364,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kəm bæk"
     },
     {
         "word": "go to bed",
@@ -14743,7 +15387,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "goʊ tɪ bɛd"
     },
     {
         "word": "check",
@@ -14765,7 +15410,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ʧɛk"
     },
     {
         "word": "unpack",
@@ -14788,7 +15434,8 @@
         "aspect": "action",
         "v2": "unpacked",
         "v3": "unpacked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ənˈpæk"
     },
     {
         "word": "reply",
@@ -14810,7 +15457,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "rɪˈplaɪ"
     },
     {
         "word": "present",
@@ -14832,7 +15480,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "ˈprɛzənt"
     },
     {
         "word": "attend",
@@ -14854,7 +15503,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "miss"
+        "opposite": "miss",
+        "transcription": "əˈtɛnd"
     },
     {
         "word": "manage",
@@ -14876,7 +15526,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "follow"
+        "opposite": "follow",
+        "transcription": "ˈmænɪʤ"
     },
     {
         "word": "earn",
@@ -14898,7 +15549,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "spend"
+        "opposite": "spend",
+        "transcription": "ərn"
     },
     {
         "word": "visit",
@@ -14920,7 +15572,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "leave"
+        "opposite": "leave",
+        "transcription": "ˈvɪzɪt"
     },
     {
         "word": "celebrate",
@@ -14942,7 +15595,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "mourn"
+        "opposite": "mourn",
+        "transcription": "ˈsɛləˌbreɪt"
     },
     {
         "word": "hurt",
@@ -14964,7 +15618,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": "heal"
+        "opposite": "heal",
+        "transcription": "hərt"
     },
     {
         "word": "rest",
@@ -14986,7 +15641,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "exercise"
+        "opposite": "exercise",
+        "transcription": "rɛst"
     },
     {
         "word": "book",
@@ -15008,7 +15664,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "cancel"
+        "opposite": "cancel",
+        "transcription": "bʊk"
     },
     {
         "word": "pack",
@@ -15031,7 +15688,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pæk"
     },
     {
         "word": "cancel",
@@ -15053,7 +15711,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "book"
+        "opposite": "book",
+        "transcription": "ˈkænsəl"
     },
     {
         "word": "miss",
@@ -15075,7 +15734,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "attend"
+        "opposite": "attend",
+        "transcription": "mɪs"
     },
     {
         "word": "order",
@@ -15097,7 +15757,8 @@
         "v2": "ordered",
         "v3": "ordered",
         "group": "regular",
-        "opposite": "deliver"
+        "opposite": "deliver",
+        "transcription": "ˈɔrdər"
     },
     {
         "word": "thank",
@@ -15119,7 +15780,8 @@
         "v2": "thanked",
         "v3": "thanked",
         "group": "regular",
-        "opposite": "complain"
+        "opposite": "complain",
+        "transcription": "θæŋk"
     },
     {
         "word": "introduce",
@@ -15141,7 +15803,8 @@
         "v2": "introduced",
         "v3": "introduced",
         "group": "regular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "ˌɪntrəˈdus"
     },
     {
         "word": "relax",
@@ -15163,7 +15826,8 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "opposite": "work"
+        "opposite": "work",
+        "transcription": "rɪˈlæks"
     },
     {
         "word": "mean",
@@ -15185,7 +15849,8 @@
         "v2": "meant",
         "v3": "meant",
         "group": "irregular",
-        "opposite": "nonsense"
+        "opposite": "nonsense",
+        "transcription": "min"
     },
     {
         "word": "follow",
@@ -15208,7 +15873,8 @@
         "aspect": "action",
         "v2": "followed",
         "v3": "followed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈfɑloʊ"
     },
     {
         "word": "grow",
@@ -15230,7 +15896,8 @@
         "v2": "grew",
         "v3": "grown",
         "group": "irregular",
-        "opposite": "shrink"
+        "opposite": "shrink",
+        "transcription": "groʊ"
     },
     {
         "word": "become",
@@ -15252,7 +15919,8 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "opposite": "remain"
+        "opposite": "remain",
+        "transcription": "bɪˈkəm"
     },
     {
         "word": "choose",
@@ -15274,7 +15942,8 @@
         "v2": "chose",
         "v3": "chosen",
         "group": "irregular",
-        "opposite": "reject"
+        "opposite": "reject",
+        "transcription": "ʧuz"
     },
     {
         "word": "begin",
@@ -15300,7 +15969,8 @@
         "aspect": "action",
         "v2": "began",
         "v3": "begun",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "bɪˈgɪn"
     },
     {
         "word": "end",
@@ -15327,7 +15997,8 @@
         "aspect": "action",
         "v2": "ended",
         "v3": "ended",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ɛnd"
     },
     {
         "word": "brush",
@@ -15352,7 +16023,8 @@
         "v2": "brushed",
         "v3": "brushed",
         "group": "regular",
-        "opposite": "mess up"
+        "opposite": "mess up",
+        "transcription": "brəʃ"
     },
     {
         "word": "ride",
@@ -15374,7 +16046,8 @@
         "v2": "rode",
         "v3": "ridden",
         "group": "irregular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "raɪd"
     },
     {
         "word": "believe",
@@ -15400,7 +16073,8 @@
         "v2": "believed",
         "v3": "believed",
         "group": "regular",
-        "opposite": "doubt"
+        "opposite": "doubt",
+        "transcription": "bɪˈliv"
     },
     {
         "word": "prefer",
@@ -15422,7 +16096,8 @@
         "v2": "preferred",
         "v3": "preferred",
         "group": "regular",
-        "opposite": "dislike"
+        "opposite": "dislike",
+        "transcription": "prɪˈfər"
     },
     {
         "word": "catch",
@@ -15444,7 +16119,8 @@
         "v2": "caught",
         "v3": "caught",
         "group": "irregular",
-        "opposite": "throw"
+        "opposite": "throw",
+        "transcription": "kæʧ"
     },
     {
         "word": "fix",
@@ -15469,7 +16145,8 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "opposite": "break"
+        "opposite": "break",
+        "transcription": "fɪks"
     },
     {
         "word": "plan",
@@ -15494,7 +16171,8 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular",
-        "opposite": "improvise"
+        "opposite": "improvise",
+        "transcription": "plæn"
     },
     {
         "word": "borrow",
@@ -15516,7 +16194,8 @@
         "v2": "borrowed",
         "v3": "borrowed",
         "group": "regular",
-        "opposite": "lend"
+        "opposite": "lend",
+        "transcription": "ˈbɑˌroʊ"
     },
     {
         "word": "smell",
@@ -15541,7 +16220,8 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "both",
-        "opposite": "stink"
+        "opposite": "stink",
+        "transcription": "smɛl"
     },
     {
         "word": "taste",
@@ -15566,7 +16246,8 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "opposite": "swallow"
+        "opposite": "swallow",
+        "transcription": "teɪst"
     },
     {
         "word": "lie",
@@ -15591,7 +16272,8 @@
         "v2": "lay",
         "v3": "lain",
         "group": "irregular",
-        "opposite": "stand"
+        "opposite": "stand",
+        "transcription": "laɪ"
     },
     {
         "word": "laugh",
@@ -15617,7 +16299,8 @@
         "aspect": "action",
         "v2": "laughed",
         "v3": "laughed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "læf"
     },
     {
         "word": "worry",
@@ -15642,7 +16325,8 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "opposite": "relax"
+        "opposite": "relax",
+        "transcription": "ˈwəri"
     },
     {
         "word": "sound",
@@ -15667,7 +16351,8 @@
         "v2": "sounded",
         "v3": "sounded",
         "group": "regular",
-        "opposite": "silence"
+        "opposite": "silence",
+        "transcription": "saʊnd"
     },
     {
         "word": "spell",
@@ -15692,7 +16377,8 @@
         "v2": "spelled / spelt",
         "v3": "spelled / spelt",
         "group": "irregular",
-        "opposite": "misspell"
+        "opposite": "misspell",
+        "transcription": "spɛl"
     },
     {
         "word": "point",
@@ -15700,7 +16386,7 @@
         "theme": "classroom_language_A1",
         "emoji": "☝️",
         "form": "verb",
-        "subtext": "point to / point at",
+        "subtext": "point at / to, point to / point at",
         "synonyms": [
             "indicate"
         ],
@@ -15718,7 +16404,8 @@
         "v2": "pointed",
         "v3": "pointed",
         "group": "regular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "pɔɪnt"
     },
     {
         "word": "shout",
@@ -15743,7 +16430,8 @@
         "v2": "shouted",
         "v3": "shouted",
         "group": "regular",
-        "opposite": "whisper"
+        "opposite": "whisper",
+        "transcription": "ʃaʊt"
     },
     {
         "word": "wave",
@@ -15751,7 +16439,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "verb",
-        "subtext": "wave goodbye / wave hello",
+        "subtext": "wave at, wave goodbye / wave hello",
         "synonyms": [
             "greet"
         ],
@@ -15768,7 +16456,8 @@
         "v2": "waved",
         "v3": "waved",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "weɪv"
     },
     {
         "word": "kick",
@@ -15793,7 +16482,8 @@
         "v2": "kicked",
         "v3": "kicked",
         "group": "regular",
-        "opposite": "catch"
+        "opposite": "catch",
+        "transcription": "kɪk"
     },
     {
         "word": "throw",
@@ -15818,7 +16508,8 @@
         "v2": "threw",
         "v3": "thrown",
         "group": "irregular",
-        "opposite": "catch"
+        "opposite": "catch",
+        "transcription": "θroʊ"
     },
     {
         "word": "bounce",
@@ -15844,7 +16535,8 @@
         "v2": "bounced",
         "v3": "bounced",
         "group": "regular",
-        "opposite": "stop"
+        "opposite": "stop",
+        "transcription": "baʊns"
     },
     {
         "word": "paint",
@@ -15870,7 +16562,8 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "opposite": "erase"
+        "opposite": "erase",
+        "transcription": "peɪnt"
     },
     {
         "word": "hop",
@@ -15895,7 +16588,8 @@
         "v2": "hopped",
         "v3": "hopped",
         "group": "regular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "hɑp"
     },
     {
         "word": "skip",
@@ -15921,7 +16615,8 @@
         "v2": "skipped",
         "v3": "skipped",
         "group": "regular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "skɪp"
     },
     {
         "word": "count",
@@ -15946,7 +16641,8 @@
         "v2": "counted",
         "v3": "counted",
         "group": "regular",
-        "opposite": "estimate"
+        "opposite": "estimate",
+        "transcription": "kaʊnt"
     },
     {
         "word": "tick",
@@ -15971,7 +16667,8 @@
         "v2": "ticked",
         "v3": "ticked",
         "group": "regular",
-        "opposite": "cross"
+        "opposite": "cross",
+        "transcription": "tɪk"
     },
     {
         "word": "cross",
@@ -15996,7 +16693,8 @@
         "v2": "crossed",
         "v3": "crossed",
         "group": "regular",
-        "opposite": "tick"
+        "opposite": "tick",
+        "transcription": "krɔs"
     },
     {
         "word": "colour",
@@ -16021,7 +16719,8 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular",
-        "opposite": "erase"
+        "opposite": "erase",
+        "transcription": "ˈkələr"
     },
     {
         "word": "hold",
@@ -16047,7 +16746,8 @@
         "v2": "held",
         "v3": "held",
         "group": "irregular",
-        "opposite": "drop"
+        "opposite": "drop",
+        "transcription": "hoʊld"
     },
     {
         "word": "lead",
@@ -16073,7 +16773,8 @@
         "v2": "led",
         "v3": "led",
         "group": "irregular",
-        "opposite": "follow"
+        "opposite": "follow",
+        "transcription": "lɛd"
     },
     {
         "word": "fight",
@@ -16098,7 +16799,8 @@
         "v2": "fought",
         "v3": "fought",
         "group": "irregular",
-        "opposite": "make peace"
+        "opposite": "make peace",
+        "transcription": "faɪt"
     },
     {
         "word": "hide",
@@ -16121,7 +16823,8 @@
         "aspect": "action",
         "v2": "hid",
         "v3": "hidden",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "haɪd"
     },
     {
         "word": "seek",
@@ -16146,7 +16849,8 @@
         "v2": "sought",
         "v3": "sought",
         "group": "irregular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "sik"
     },
     {
         "word": "ring",
@@ -16172,7 +16876,8 @@
         "v2": "rang",
         "v3": "rung",
         "group": "irregular",
-        "opposite": "be silent"
+        "opposite": "be silent",
+        "transcription": "rɪŋ"
     },
     {
         "word": "text",
@@ -16197,7 +16902,8 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "opposite": "call"
+        "opposite": "call",
+        "transcription": "tɛkst"
     },
     {
         "word": "whisper",
@@ -16223,7 +16929,8 @@
         "v2": "whispered",
         "v3": "whispered",
         "group": "regular",
-        "opposite": "shout"
+        "opposite": "shout",
+        "transcription": "ˈwɪspər"
     },
     {
         "word": "touch",
@@ -16248,7 +16955,8 @@
         "v2": "touched",
         "v3": "touched",
         "group": "regular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "təʧ"
     },
     {
         "word": "let",
@@ -16271,7 +16979,8 @@
         "v2": "let",
         "v3": "let",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "lɛt"
     },
     {
         "word": "set",
@@ -16294,7 +17003,8 @@
         "v2": "set",
         "v3": "set",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɛt"
     },
     {
         "word": "email",
@@ -16316,7 +17026,8 @@
         "aspect": "action",
         "v2": "emailed",
         "v3": "emailed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "iˈmeɪl"
     },
     {
         "word": "phone",
@@ -16339,7 +17050,8 @@
         "v2": "phoned",
         "v3": "phoned",
         "group": "regular",
-        "opposite": "text"
+        "opposite": "text",
+        "transcription": "foʊn"
     },
     {
         "word": "climb",
@@ -16362,7 +17074,8 @@
         "v2": "climbed",
         "v3": "climbed",
         "group": "regular",
-        "opposite": "descend"
+        "opposite": "descend",
+        "transcription": "klaɪm"
     },
     {
         "word": "dress",
@@ -16389,7 +17102,8 @@
         "aspect": "action",
         "v2": "dressed",
         "v3": "dressed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "drɛs"
     },
     {
         "word": "undress",
@@ -16416,7 +17130,8 @@
         "aspect": "action",
         "v2": "undressed",
         "v3": "undressed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ənˈdrɛs"
     },
     {
         "word": "turn on",
@@ -16440,7 +17155,8 @@
         "aspect": "action",
         "v2": "turned on",
         "v3": "turned on",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "tərn ɔn"
     },
     {
         "word": "turn off",
@@ -16464,7 +17180,8 @@
         "aspect": "action",
         "v2": "turned off",
         "v3": "turned off",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "tərn ɔf"
     },
     {
         "word": "welcome",
@@ -16486,7 +17203,8 @@
         "v2": "welcomed",
         "v3": "welcomed",
         "group": "regular",
-        "opposite": "reject"
+        "opposite": "reject",
+        "transcription": "ˈwɛlkəm"
     },
     {
         "word": "act",
@@ -16508,7 +17226,8 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "opposite": "be natural"
+        "opposite": "be natural",
+        "transcription": "ækt"
     },
     {
         "word": "copy",
@@ -16530,7 +17249,8 @@
         "v2": "copied",
         "v3": "copied",
         "group": "regular",
-        "opposite": "original"
+        "opposite": "original",
+        "transcription": "ˈkɑpi"
     },
     {
         "word": "fill",
@@ -16552,7 +17272,8 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "opposite": "empty"
+        "opposite": "empty",
+        "transcription": "fɪl"
     },
     {
         "word": "fit",
@@ -16574,7 +17295,8 @@
         "v2": "fitted",
         "v3": "fitted",
         "group": "regular",
-        "opposite": "unfit"
+        "opposite": "unfit",
+        "transcription": "fɪt"
     },
     {
         "word": "join",
@@ -16596,7 +17318,8 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "opposite": "leave"
+        "opposite": "leave",
+        "transcription": "ʤɔɪn"
     },
     {
         "word": "note",
@@ -16618,7 +17341,8 @@
         "v2": "noted",
         "v3": "noted",
         "group": "regular",
-        "opposite": "forget"
+        "opposite": "forget",
+        "transcription": "noʊt"
     },
     {
         "word": "pick",
@@ -16640,7 +17364,8 @@
         "v2": "picked",
         "v3": "picked",
         "group": "regular",
-        "opposite": "drop"
+        "opposite": "drop",
+        "transcription": "pɪk"
     },
     {
         "word": "wish",
@@ -16662,7 +17387,8 @@
         "v2": "wished",
         "v3": "wished",
         "group": "regular",
-        "opposite": "fear"
+        "opposite": "fear",
+        "transcription": "wɪʃ"
     },
     {
         "word": "collect",
@@ -16684,7 +17410,8 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "opposite": "scatter"
+        "opposite": "scatter",
+        "transcription": "kəˈlɛkt"
     },
     {
         "word": "describe",
@@ -16706,7 +17433,8 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "opposite": "summarize"
+        "opposite": "summarize",
+        "transcription": "dɪˈskraɪb"
     },
     {
         "word": "breathe",
@@ -16727,11 +17455,12 @@
         "v2": "breathed",
         "v3": "breathed",
         "group": "regular",
-        "subtext": "",
+        "subtext": "breathe",
         "synonyms": [
             "inhale",
             "exhale"
-        ]
+        ],
+        "transcription": "brið"
     },
     {
         "word": "cough",
@@ -16752,7 +17481,8 @@
         "v2": "coughed",
         "v3": "coughed",
         "group": "regular",
-        "subtext": "have a cough"
+        "subtext": "have a cough",
+        "transcription": "kɔf"
     },
     {
         "word": "sneeze",
@@ -16773,10 +17503,11 @@
         "v2": "sneezed",
         "v3": "sneezed",
         "group": "regular",
-        "subtext": "",
+        "subtext": "sneeze",
         "synonyms": [
             "atchoo!"
-        ]
+        ],
+        "transcription": "sniz"
     },
     {
         "word": "yawn",
@@ -16797,10 +17528,11 @@
         "v2": "yawned",
         "v3": "yawned",
         "group": "regular",
-        "subtext": "",
+        "subtext": "yawn",
         "synonyms": [
             "feel sleepy"
-        ]
+        ],
+        "transcription": "jɔn"
     },
     {
         "word": "explain",
@@ -16808,8 +17540,7 @@
         "theme": "classroom_language_A1",
         "emoji": "🗣️",
         "form": "verb",
-        "transcription": "[ɪkˈspleɪn]",
-        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ɪkˈspleɪn",
         "definitions": [
             {
                 "text": "To make something clear or easy to understand by describing or giving information about it.",
@@ -16831,8 +17562,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📝",
         "form": "verb",
-        "transcription": "[prɪˈpeə(r)]",
-        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80",
+        "transcription": "prɪˈpeə(r)",
         "definitions": [
             {
                 "text": "To get someone or something ready for something that will happen in the future.",
@@ -16854,8 +17584,7 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "form": "verb",
-        "transcription": "[dɪˈpend]",
-        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+        "transcription": "dɪˈpend",
         "definitions": [
             {
                 "text": "To be decided by or to change according to something else.",
@@ -16877,8 +17606,7 @@
         "theme": "personal_identity_A1",
         "emoji": "🏠",
         "form": "verb",
-        "transcription": "[bɪˈlɒŋ]",
-        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=400&q=80",
+        "transcription": "bɪˈlɒŋ",
         "definitions": [
             {
                 "text": "To be the property of someone.",
@@ -16902,7 +17630,6 @@
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
         "transcription": "biː",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
@@ -16928,7 +17655,6 @@
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
         "transcription": "hæv",
-        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To possess something; to experience something.",
@@ -16954,7 +17680,6 @@
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
         "transcription": "fiːl",
-        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -16980,7 +17705,6 @@
         "oppositeEmoji": "👜",
         "form": "verb",
         "transcription": "ɡɪv",
-        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To hand or transfer something to someone.",
@@ -17006,7 +17730,6 @@
         "oppositeEmoji": "🎁",
         "form": "verb",
         "transcription": "teɪk",
-        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "To hold and move something; to use or consume.",
@@ -17045,7 +17768,8 @@
         "aspect": "action",
         "v2": "got",
         "v3": "got / gotten",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "gɪt"
     },
     {
         "word": "put",
@@ -17069,7 +17793,8 @@
         "aspect": "action",
         "v2": "put",
         "v3": "put",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "pʊt"
     },
     {
         "word": "make",
@@ -17092,7 +17817,8 @@
         "v2": "made",
         "v3": "made",
         "group": "irregular",
-        "opposite": "destroy"
+        "opposite": "destroy",
+        "transcription": "meɪk"
     },
     {
         "word": "do",
@@ -17115,7 +17841,8 @@
         "v2": "did",
         "v3": "done",
         "group": "irregular",
-        "opposite": "undo"
+        "opposite": "undo",
+        "transcription": "du"
     },
     {
         "word": "use",
@@ -17138,7 +17865,8 @@
         "v2": "used",
         "v3": "used",
         "group": "regular",
-        "opposite": "waste"
+        "opposite": "waste",
+        "transcription": "juz"
     },
     {
         "word": "open",
@@ -17162,7 +17890,8 @@
         "aspect": "action",
         "v2": "opened",
         "v3": "opened",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈoʊpən"
     },
     {
         "word": "close",
@@ -17186,7 +17915,8 @@
         "aspect": "action",
         "v2": "closed",
         "v3": "closed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "kloʊz"
     },
     {
         "word": "start",
@@ -17209,7 +17939,8 @@
         "aspect": "action",
         "v2": "started",
         "v3": "started",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "stɑrt"
     },
     {
         "word": "finish",
@@ -17232,7 +17963,8 @@
         "aspect": "action",
         "v2": "finished",
         "v3": "finished",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈfɪnɪʃ"
     },
     {
         "word": "help",
@@ -17254,7 +17986,8 @@
         "v2": "helped",
         "v3": "helped",
         "group": "regular",
-        "opposite": "hinder"
+        "opposite": "hinder",
+        "transcription": "hɛlp"
     },
     {
         "word": "try",
@@ -17276,7 +18009,8 @@
         "v2": "tried",
         "v3": "tried",
         "group": "regular",
-        "opposite": "give up"
+        "opposite": "give up",
+        "transcription": "traɪ"
     },
     {
         "word": "show",
@@ -17299,7 +18033,8 @@
         "aspect": "action",
         "v2": "showed",
         "v3": "shown",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "ʃoʊ"
     },
     {
         "word": "find",
@@ -17323,7 +18058,8 @@
         "aspect": "action",
         "v2": "found",
         "v3": "found",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "faɪnd"
     },
     {
         "word": "keep",
@@ -17346,7 +18082,8 @@
         "v2": "kept",
         "v3": "kept",
         "group": "irregular",
-        "opposite": "give away"
+        "opposite": "give away",
+        "transcription": "kip"
     },
     {
         "word": "lose",
@@ -17370,7 +18107,8 @@
         "aspect": "action",
         "v2": "lost",
         "v3": "lost",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "luz"
     },
     {
         "word": "cut",
@@ -17393,7 +18131,8 @@
         "v2": "cut",
         "v3": "cut",
         "group": "irregular",
-        "opposite": "join"
+        "opposite": "join",
+        "transcription": "kət"
     },
     {
         "word": "turn",
@@ -17416,7 +18155,8 @@
         "v2": "turned",
         "v3": "turned",
         "group": "regular",
-        "opposite": "straighten"
+        "opposite": "straighten",
+        "transcription": "tərn"
     },
     {
         "word": "bring",
@@ -17440,7 +18180,8 @@
         "aspect": "action",
         "v2": "brought",
         "v3": "brought",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "brɪŋ"
     },
     {
         "word": "say",
@@ -17463,7 +18204,8 @@
         "v2": "said",
         "v3": "said",
         "group": "irregular",
-        "opposite": "listen"
+        "opposite": "listen",
+        "transcription": "seɪ"
     },
     {
         "word": "tell",
@@ -17485,14 +18227,15 @@
         "v2": "told",
         "v3": "told",
         "group": "irregular",
-        "opposite": "ask"
+        "opposite": "ask",
+        "transcription": "tɛl"
     },
     {
         "word": "ask",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "ask for / about, ask a question / ask for help / ask about / ask someone",
         "opposite": "answer",
         "oppositeEmoji": "📞",
         "form": "verb",
@@ -17508,14 +18251,15 @@
         "aspect": "action",
         "v2": "asked",
         "v3": "asked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "æsk"
     },
     {
         "word": "speak",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
         "definitions": [
             {
@@ -17531,14 +18275,15 @@
         "v2": "spoke",
         "v3": "spoken",
         "group": "irregular",
-        "opposite": "be silent"
+        "opposite": "be silent",
+        "transcription": "spik"
     },
     {
         "word": "talk",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
         "form": "verb",
         "definitions": [
             {
@@ -17553,7 +18298,8 @@
         "v2": "talked",
         "v3": "talked",
         "group": "regular",
-        "opposite": "listen"
+        "opposite": "listen",
+        "transcription": "tɔk"
     },
     {
         "word": "call",
@@ -17575,14 +18321,15 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "opposite": "hang up"
+        "opposite": "hang up",
+        "transcription": "kɔl"
     },
     {
         "word": "write",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "write an email / write a report / write a letter / write notes",
+        "subtext": "write to, write an email / write a report / write a letter / write notes",
         "opposite": "read",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -17599,7 +18346,8 @@
         "aspect": "action",
         "v2": "wrote",
         "v3": "written",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "raɪt"
     },
     {
         "word": "read",
@@ -17623,7 +18371,8 @@
         "aspect": "action",
         "v2": "read",
         "v3": "read",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "rɛd"
     },
     {
         "word": "listen",
@@ -17646,7 +18395,8 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "opposite": "say"
+        "opposite": "say",
+        "transcription": "ˈlɪsən"
     },
     {
         "word": "answer",
@@ -17670,7 +18420,8 @@
         "aspect": "action",
         "v2": "answered",
         "v3": "answered",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈænsər"
     },
     {
         "word": "repeat",
@@ -17693,7 +18444,8 @@
         "v2": "repeated",
         "v3": "repeated",
         "group": "regular",
-        "opposite": "change"
+        "opposite": "change",
+        "transcription": "rɪˈpit"
     },
     {
         "word": "go",
@@ -17718,8 +18470,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "[ɡəʊ]",
-        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+        "transcription": "ɡəʊ"
     },
     {
         "word": "come",
@@ -17744,8 +18495,7 @@
         "v2": "came",
         "v3": "come",
         "group": "irregular",
-        "transcription": "[kʌm]",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80"
+        "transcription": "kʌm"
     },
     {
         "word": "walk",
@@ -17769,7 +18519,8 @@
         "aspect": "action",
         "v2": "walked",
         "v3": "walked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "wɔk"
     },
     {
         "word": "drive",
@@ -17792,7 +18543,8 @@
         "v2": "drove",
         "v3": "driven",
         "group": "irregular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "draɪv"
     },
     {
         "word": "fly",
@@ -17815,14 +18567,15 @@
         "v2": "flew",
         "v3": "flown",
         "group": "irregular",
-        "opposite": "land"
+        "opposite": "land",
+        "transcription": "flaɪ"
     },
     {
         "word": "arrive",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
         "opposite": "leave",
         "oppositeEmoji": "🚪",
         "form": "verb",
@@ -17838,7 +18591,8 @@
         "aspect": "action",
         "v2": "arrived",
         "v3": "arrived",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "əraɪv"
     },
     {
         "word": "leave",
@@ -17861,7 +18615,8 @@
         "aspect": "action",
         "v2": "left",
         "v3": "left",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "liv"
     },
     {
         "word": "move",
@@ -17883,7 +18638,8 @@
         "v2": "moved",
         "v3": "moved",
         "group": "regular",
-        "opposite": "stay"
+        "opposite": "stay",
+        "transcription": "muv"
     },
     {
         "word": "return",
@@ -17906,7 +18662,8 @@
         "v2": "returned",
         "v3": "returned",
         "group": "regular",
-        "opposite": "leave"
+        "opposite": "leave",
+        "transcription": "rɪˈtərn"
     },
     {
         "word": "travel",
@@ -17928,7 +18685,8 @@
         "v2": "traveled",
         "v3": "traveled",
         "group": "regular",
-        "opposite": "stay"
+        "opposite": "stay",
+        "transcription": "ˈtrævəl"
     },
     {
         "word": "eat",
@@ -17952,7 +18710,8 @@
         "aspect": "action",
         "v2": "ate",
         "v3": "eaten",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "it"
     },
     {
         "word": "drink",
@@ -17976,7 +18735,8 @@
         "aspect": "action",
         "v2": "drank",
         "v3": "drunk",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "drɪŋk"
     },
     {
         "word": "sleep",
@@ -18000,7 +18760,8 @@
         "aspect": "action",
         "v2": "slept",
         "v3": "slept",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "slip"
     },
     {
         "word": "cook",
@@ -18022,7 +18783,8 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "opposite": "eat"
+        "opposite": "eat",
+        "transcription": "kʊk"
     },
     {
         "word": "clean",
@@ -18044,7 +18806,8 @@
         "v2": "cleaned",
         "v3": "cleaned",
         "group": "regular",
-        "opposite": "dirty"
+        "opposite": "dirty",
+        "transcription": "klin"
     },
     {
         "word": "wear",
@@ -18067,7 +18830,8 @@
         "v2": "wore",
         "v3": "worn",
         "group": "irregular",
-        "opposite": "undress"
+        "opposite": "undress",
+        "transcription": "wɛr"
     },
     {
         "word": "wash",
@@ -18090,7 +18854,8 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "opposite": "dirty"
+        "opposite": "dirty",
+        "transcription": "wɑʃ"
     },
     {
         "word": "buy",
@@ -18114,14 +18879,15 @@
         "aspect": "action",
         "v2": "bought",
         "v3": "bought",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "baɪ"
     },
     {
         "word": "pay",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
         "definitions": [
             {
@@ -18136,7 +18902,8 @@
         "v2": "paid",
         "v3": "paid",
         "group": "irregular",
-        "opposite": "receive"
+        "opposite": "receive",
+        "transcription": "peɪ"
     },
     {
         "word": "spend",
@@ -18159,7 +18926,8 @@
         "aspect": "action",
         "v2": "spent",
         "v3": "spent",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "spɛnd"
     },
     {
         "word": "save",
@@ -18182,7 +18950,8 @@
         "aspect": "action",
         "v2": "saved",
         "v3": "saved",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "seɪv"
     },
     {
         "word": "work",
@@ -18205,7 +18974,8 @@
         "aspect": "action",
         "v2": "worked",
         "v3": "worked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "wərk"
     },
     {
         "word": "live",
@@ -18229,14 +18999,15 @@
         "aspect": "stative",
         "v2": "lived",
         "v3": "lived",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "lɪv"
     },
     {
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think it is / think carefully",
+        "subtext": "think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
             {
@@ -18252,7 +19023,8 @@
         "v2": "thought",
         "v3": "thought",
         "group": "irregular",
-        "opposite": "feel"
+        "opposite": "feel",
+        "transcription": "θɪŋk"
     },
     {
         "word": "know",
@@ -18276,7 +19048,8 @@
         "v2": "knew",
         "v3": "known",
         "group": "irregular",
-        "opposite": "wonder"
+        "opposite": "wonder",
+        "transcription": "noʊ"
     },
     {
         "word": "want",
@@ -18300,7 +19073,8 @@
         "v2": "wanted",
         "v3": "wanted",
         "group": "regular",
-        "opposite": "refuse"
+        "opposite": "refuse",
+        "transcription": "wɔnt"
     },
     {
         "word": "need",
@@ -18324,7 +19098,8 @@
         "v2": "needed",
         "v3": "needed",
         "group": "regular",
-        "opposite": "have"
+        "opposite": "have",
+        "transcription": "nid"
     },
     {
         "word": "like",
@@ -18349,7 +19124,8 @@
         "aspect": "stative",
         "v2": "liked",
         "v3": "liked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "laɪk"
     },
     {
         "word": "dislike",
@@ -18372,7 +19148,8 @@
         "aspect": "stative",
         "v2": "disliked",
         "v3": "disliked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "dɪsˈlaɪk"
     },
     {
         "word": "love",
@@ -18396,7 +19173,8 @@
         "aspect": "stative",
         "v2": "loved",
         "v3": "loved",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ləv"
     },
     {
         "word": "hate",
@@ -18420,7 +19198,8 @@
         "aspect": "stative",
         "v2": "hated",
         "v3": "hated",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "heɪt"
     },
     {
         "word": "hope",
@@ -18443,7 +19222,8 @@
         "v2": "hoped",
         "v3": "hoped",
         "group": "regular",
-        "opposite": "fear"
+        "opposite": "fear",
+        "transcription": "hoʊp"
     },
     {
         "word": "remember",
@@ -18467,7 +19247,8 @@
         "aspect": "stative",
         "v2": "remembered",
         "v3": "remembered",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "rɪˈmɛmbər"
     },
     {
         "word": "forget",
@@ -18491,7 +19272,8 @@
         "aspect": "stative",
         "v2": "forgot",
         "v3": "forgotten",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "fərˈgɛt"
     },
     {
         "word": "understand",
@@ -18514,7 +19296,8 @@
         "v2": "understood",
         "v3": "understood",
         "group": "irregular",
-        "opposite": "misunderstand"
+        "opposite": "misunderstand",
+        "transcription": "ˌəndərˈstænd"
     },
     {
         "word": "decide",
@@ -18540,7 +19323,8 @@
         "v2": "decided",
         "v3": "decided",
         "group": "regular",
-        "opposite": "hesitate"
+        "opposite": "hesitate",
+        "transcription": "ˌdɪˈsaɪd"
     },
     {
         "word": "enjoy",
@@ -18562,7 +19346,8 @@
         "v2": "enjoyed",
         "v3": "enjoyed",
         "group": "regular",
-        "opposite": "hate"
+        "opposite": "hate",
+        "transcription": "ˌɛnˈʤɔɪ"
     },
     {
         "word": "see",
@@ -18585,7 +19370,8 @@
         "v2": "saw",
         "v3": "seen",
         "group": "irregular",
-        "opposite": "blind"
+        "opposite": "blind",
+        "transcription": "si"
     },
     {
         "word": "hear",
@@ -18608,7 +19394,8 @@
         "v2": "heard",
         "v3": "heard",
         "group": "irregular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "hir"
     },
     {
         "word": "wake up",
@@ -18631,7 +19418,8 @@
         "aspect": "action",
         "v2": "woke up",
         "v3": "woken up",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "weɪk əp"
     },
     {
         "word": "watch",
@@ -18653,14 +19441,15 @@
         "v2": "watched",
         "v3": "watched",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "wɔʧ"
     },
     {
         "word": "look",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / look for / look like / look happy",
+        "subtext": "look at / for, look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
             {
@@ -18676,7 +19465,8 @@
         "v2": "looked",
         "v3": "looked",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "lʊk"
     },
     {
         "word": "play",
@@ -18698,7 +19488,8 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "opposite": "work"
+        "opposite": "work",
+        "transcription": "pleɪ"
     },
     {
         "word": "run",
@@ -18722,7 +19513,8 @@
         "aspect": "action",
         "v2": "ran",
         "v3": "run",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "rən"
     },
     {
         "word": "sit",
@@ -18745,7 +19537,8 @@
         "aspect": "action",
         "v2": "sat",
         "v3": "sat",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "sɪt"
     },
     {
         "word": "stand",
@@ -18768,7 +19561,8 @@
         "aspect": "action",
         "v2": "stood",
         "v3": "stood",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "stænd"
     },
     {
         "word": "meet",
@@ -18790,7 +19584,8 @@
         "v3": "met",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "mit"
     },
     {
         "word": "learn",
@@ -18813,7 +19608,8 @@
         "aspect": "action",
         "v2": "learned / learnt",
         "v3": "learned / learnt",
-        "group": "both"
+        "group": "both",
+        "transcription": "lərn"
     },
     {
         "word": "change",
@@ -18835,7 +19631,8 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "opposite": "stay"
+        "opposite": "stay",
+        "transcription": "ʧeɪnʤ"
     },
     {
         "word": "stop",
@@ -18858,7 +19655,8 @@
         "aspect": "action",
         "v2": "stopped",
         "v3": "stopped",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "stɑp"
     },
     {
         "word": "add",
@@ -18882,7 +19680,8 @@
         "aspect": "action",
         "v2": "added",
         "v3": "added",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "æd"
     },
     {
         "word": "subtract",
@@ -18908,7 +19707,8 @@
         "aspect": "action",
         "v2": "subtracted",
         "v3": "subtracted",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "səbˈtrækt"
     },
     {
         "word": "win",
@@ -18931,7 +19731,8 @@
         "aspect": "action",
         "v2": "won",
         "v3": "won",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "wɪn"
     },
     {
         "word": "wait",
@@ -18953,7 +19754,8 @@
         "v2": "waited",
         "v3": "waited",
         "group": "regular",
-        "opposite": "act"
+        "opposite": "act",
+        "transcription": "weɪt"
     },
     {
         "word": "die",
@@ -18976,7 +19778,8 @@
         "aspect": "action",
         "v2": "died",
         "v3": "died",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "daɪ"
     },
     {
         "word": "send",
@@ -18999,7 +19802,8 @@
         "v2": "sent",
         "v3": "sent",
         "subtext": "send an email / send a message / send a report / send a file",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "sɛnd"
     },
     {
         "word": "stay",
@@ -19023,7 +19827,8 @@
         "aspect": "action",
         "v2": "stayed",
         "v3": "stayed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "steɪ"
     },
     {
         "word": "fall",
@@ -19047,7 +19852,8 @@
         "aspect": "action",
         "v2": "fell",
         "v3": "fallen",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "fɔl"
     },
     {
         "word": "rise",
@@ -19071,7 +19877,8 @@
         "aspect": "action",
         "v2": "rose",
         "v3": "risen",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "raɪz"
     },
     {
         "word": "pass",
@@ -19095,7 +19902,8 @@
         "aspect": "action",
         "v2": "passed",
         "v3": "passed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pæs"
     },
     {
         "word": "sell",
@@ -19121,7 +19929,8 @@
         "aspect": "action",
         "v2": "sold",
         "v3": "sold",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "sɛl"
     },
     {
         "word": "pull",
@@ -19144,7 +19953,8 @@
         "aspect": "action",
         "v2": "pulled",
         "v3": "pulled",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pʊl"
     },
     {
         "word": "push",
@@ -19168,7 +19978,8 @@
         "aspect": "action",
         "v2": "pushed",
         "v3": "pushed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pʊʃ"
     },
     {
         "word": "carry",
@@ -19190,7 +20001,8 @@
         "v2": "carried",
         "v3": "carried",
         "group": "regular",
-        "opposite": "drop"
+        "opposite": "drop",
+        "transcription": "ˈkɛri"
     },
     {
         "word": "break",
@@ -19213,7 +20025,8 @@
         "v2": "broke",
         "v3": "broken",
         "group": "irregular",
-        "opposite": "fix"
+        "opposite": "fix",
+        "transcription": "breɪk"
     },
     {
         "word": "receive",
@@ -19237,7 +20050,8 @@
         "aspect": "action",
         "v2": "received",
         "v3": "received",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "rɪˈsiv"
     },
     {
         "word": "agree",
@@ -19261,7 +20075,8 @@
         "aspect": "stative",
         "v2": "agreed",
         "v3": "agreed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "əˈgri"
     },
     {
         "word": "draw",
@@ -19284,7 +20099,8 @@
         "v2": "drew",
         "v3": "drawn",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "drɔ"
     },
     {
         "word": "share",
@@ -19307,7 +20123,8 @@
         "v2": "shared",
         "v3": "shared",
         "group": "regular",
-        "opposite": "keep"
+        "opposite": "keep",
+        "transcription": "ʃɛr"
     },
     {
         "word": "smile",
@@ -19331,7 +20148,8 @@
         "aspect": "action",
         "v2": "smiled",
         "v3": "smiled",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "smaɪl"
     },
     {
         "word": "cry",
@@ -19358,7 +20176,8 @@
         "aspect": "action",
         "v2": "cried",
         "v3": "cried",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "kraɪ"
     },
     {
         "word": "dance",
@@ -19384,7 +20203,8 @@
         "v2": "danced",
         "v3": "danced",
         "group": "regular",
-        "opposite": "sit"
+        "opposite": "sit",
+        "transcription": "dæns"
     },
     {
         "word": "sing",
@@ -19410,7 +20230,8 @@
         "v2": "sang",
         "v3": "sung",
         "group": "irregular",
-        "opposite": "be quiet"
+        "opposite": "be quiet",
+        "transcription": "sɪŋ"
     },
     {
         "word": "jump",
@@ -19433,7 +20254,8 @@
         "v2": "jumped",
         "v3": "jumped",
         "group": "regular",
-        "opposite": "fall"
+        "opposite": "fall",
+        "transcription": "ʤəmp"
     },
     {
         "word": "swim",
@@ -19459,7 +20281,8 @@
         "v2": "swam",
         "v3": "swum",
         "group": "irregular",
-        "opposite": "sink"
+        "opposite": "sink",
+        "transcription": "swɪm"
     },
     {
         "word": "study",
@@ -19481,7 +20304,8 @@
         "v2": "studied",
         "v3": "studied",
         "group": "regular",
-        "opposite": "play"
+        "opposite": "play",
+        "transcription": "ˈstədi"
     },
     {
         "word": "teach",
@@ -19503,7 +20327,8 @@
         "v2": "taught",
         "v3": "taught",
         "group": "irregular",
-        "opposite": "learn"
+        "opposite": "learn",
+        "transcription": "tiʧ"
     },
     {
         "word": "rent",
@@ -19525,7 +20350,8 @@
         "v2": "rented",
         "v3": "rented",
         "group": "regular",
-        "opposite": "own"
+        "opposite": "own",
+        "transcription": "rɛnt"
     },
     {
         "word": "exercise",
@@ -19547,7 +20373,8 @@
         "v3": "exercised",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "regular",
-        "opposite": "rest"
+        "opposite": "rest",
+        "transcription": "ˈɛksərˌsaɪz"
     },
     {
         "word": "cost",
@@ -19568,7 +20395,8 @@
         "v2": "cost",
         "v3": "cost",
         "subtext": "cost a lot / cost money / cost too much / cost less",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "kɔst"
     },
     {
         "word": "invite",
@@ -19590,7 +20418,8 @@
         "v3": "invited",
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
-        "opposite": "reject"
+        "opposite": "reject",
+        "transcription": "ˌɪnˈvaɪt"
     },
     {
         "word": "get up",
@@ -19612,7 +20441,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "gɪt əp"
     },
     {
         "word": "have breakfast",
@@ -19637,7 +20467,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "hæv ˈbrɛkfəst"
     },
     {
         "word": "come back",
@@ -19659,7 +20490,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "kəm bæk"
     },
     {
         "word": "go to bed",
@@ -19681,7 +20513,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "goʊ tɪ bɛd"
     },
     {
         "word": "check",
@@ -19703,7 +20536,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ʧɛk"
     },
     {
         "word": "unpack",
@@ -19726,7 +20560,8 @@
         "aspect": "action",
         "v2": "unpacked",
         "v3": "unpacked",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ənˈpæk"
     },
     {
         "word": "reply",
@@ -19748,7 +20583,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "rɪˈplaɪ"
     },
     {
         "word": "present",
@@ -19770,7 +20606,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "ˈprɛzənt"
     },
     {
         "word": "attend",
@@ -19792,7 +20629,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "miss"
+        "opposite": "miss",
+        "transcription": "əˈtɛnd"
     },
     {
         "word": "manage",
@@ -19814,7 +20652,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "follow"
+        "opposite": "follow",
+        "transcription": "ˈmænɪʤ"
     },
     {
         "word": "earn",
@@ -19836,7 +20675,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "spend"
+        "opposite": "spend",
+        "transcription": "ərn"
     },
     {
         "word": "visit",
@@ -19858,7 +20698,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "leave"
+        "opposite": "leave",
+        "transcription": "ˈvɪzɪt"
     },
     {
         "word": "celebrate",
@@ -19880,7 +20721,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "mourn"
+        "opposite": "mourn",
+        "transcription": "ˈsɛləˌbreɪt"
     },
     {
         "word": "hurt",
@@ -19902,7 +20744,8 @@
         "level": "starter",
         "form": "verb",
         "group": "irregular",
-        "opposite": "heal"
+        "opposite": "heal",
+        "transcription": "hərt"
     },
     {
         "word": "rest",
@@ -19924,7 +20767,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "exercise"
+        "opposite": "exercise",
+        "transcription": "rɛst"
     },
     {
         "word": "book",
@@ -19946,7 +20790,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "cancel"
+        "opposite": "cancel",
+        "transcription": "bʊk"
     },
     {
         "word": "pack",
@@ -19969,7 +20814,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "pæk"
     },
     {
         "word": "cancel",
@@ -19991,7 +20837,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "book"
+        "opposite": "book",
+        "transcription": "ˈkænsəl"
     },
     {
         "word": "miss",
@@ -20013,7 +20860,8 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "opposite": "attend"
+        "opposite": "attend",
+        "transcription": "mɪs"
     },
     {
         "word": "order",
@@ -20035,7 +20883,8 @@
         "v2": "ordered",
         "v3": "ordered",
         "group": "regular",
-        "opposite": "deliver"
+        "opposite": "deliver",
+        "transcription": "ˈɔrdər"
     },
     {
         "word": "thank",
@@ -20057,7 +20906,8 @@
         "v2": "thanked",
         "v3": "thanked",
         "group": "regular",
-        "opposite": "complain"
+        "opposite": "complain",
+        "transcription": "θæŋk"
     },
     {
         "word": "introduce",
@@ -20079,7 +20929,8 @@
         "v2": "introduced",
         "v3": "introduced",
         "group": "regular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "ˌɪntrəˈdus"
     },
     {
         "word": "relax",
@@ -20101,7 +20952,8 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "opposite": "work"
+        "opposite": "work",
+        "transcription": "rɪˈlæks"
     },
     {
         "word": "mean",
@@ -20123,7 +20975,8 @@
         "v2": "meant",
         "v3": "meant",
         "group": "irregular",
-        "opposite": "nonsense"
+        "opposite": "nonsense",
+        "transcription": "min"
     },
     {
         "word": "follow",
@@ -20146,7 +20999,8 @@
         "aspect": "action",
         "v2": "followed",
         "v3": "followed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ˈfɑloʊ"
     },
     {
         "word": "grow",
@@ -20168,7 +21022,8 @@
         "v2": "grew",
         "v3": "grown",
         "group": "irregular",
-        "opposite": "shrink"
+        "opposite": "shrink",
+        "transcription": "groʊ"
     },
     {
         "word": "become",
@@ -20190,7 +21045,8 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "opposite": "remain"
+        "opposite": "remain",
+        "transcription": "bɪˈkəm"
     },
     {
         "word": "choose",
@@ -20212,7 +21068,8 @@
         "v2": "chose",
         "v3": "chosen",
         "group": "irregular",
-        "opposite": "reject"
+        "opposite": "reject",
+        "transcription": "ʧuz"
     },
     {
         "word": "begin",
@@ -20238,7 +21095,8 @@
         "aspect": "action",
         "v2": "began",
         "v3": "begun",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "bɪˈgɪn"
     },
     {
         "word": "end",
@@ -20265,7 +21123,8 @@
         "aspect": "action",
         "v2": "ended",
         "v3": "ended",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ɛnd"
     },
     {
         "word": "brush",
@@ -20290,7 +21149,8 @@
         "v2": "brushed",
         "v3": "brushed",
         "group": "regular",
-        "opposite": "mess up"
+        "opposite": "mess up",
+        "transcription": "brəʃ"
     },
     {
         "word": "ride",
@@ -20312,7 +21172,8 @@
         "v2": "rode",
         "v3": "ridden",
         "group": "irregular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "raɪd"
     },
     {
         "word": "believe",
@@ -20338,7 +21199,8 @@
         "v2": "believed",
         "v3": "believed",
         "group": "regular",
-        "opposite": "doubt"
+        "opposite": "doubt",
+        "transcription": "bɪˈliv"
     },
     {
         "word": "prefer",
@@ -20360,7 +21222,8 @@
         "v2": "preferred",
         "v3": "preferred",
         "group": "regular",
-        "opposite": "dislike"
+        "opposite": "dislike",
+        "transcription": "prɪˈfər"
     },
     {
         "word": "catch",
@@ -20382,7 +21245,8 @@
         "v2": "caught",
         "v3": "caught",
         "group": "irregular",
-        "opposite": "throw"
+        "opposite": "throw",
+        "transcription": "kæʧ"
     },
     {
         "word": "fix",
@@ -20407,7 +21271,8 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "opposite": "break"
+        "opposite": "break",
+        "transcription": "fɪks"
     },
     {
         "word": "plan",
@@ -20432,7 +21297,8 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular",
-        "opposite": "improvise"
+        "opposite": "improvise",
+        "transcription": "plæn"
     },
     {
         "word": "borrow",
@@ -20454,7 +21320,8 @@
         "v2": "borrowed",
         "v3": "borrowed",
         "group": "regular",
-        "opposite": "lend"
+        "opposite": "lend",
+        "transcription": "ˈbɑˌroʊ"
     },
     {
         "word": "smell",
@@ -20479,7 +21346,8 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "both",
-        "opposite": "stink"
+        "opposite": "stink",
+        "transcription": "smɛl"
     },
     {
         "word": "taste",
@@ -20504,7 +21372,8 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "opposite": "swallow"
+        "opposite": "swallow",
+        "transcription": "teɪst"
     },
     {
         "word": "lie",
@@ -20529,7 +21398,8 @@
         "v2": "lay",
         "v3": "lain",
         "group": "irregular",
-        "opposite": "stand"
+        "opposite": "stand",
+        "transcription": "laɪ"
     },
     {
         "word": "laugh",
@@ -20555,7 +21425,8 @@
         "aspect": "action",
         "v2": "laughed",
         "v3": "laughed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "læf"
     },
     {
         "word": "worry",
@@ -20580,7 +21451,8 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "opposite": "relax"
+        "opposite": "relax",
+        "transcription": "ˈwəri"
     },
     {
         "word": "sound",
@@ -20605,7 +21477,8 @@
         "v2": "sounded",
         "v3": "sounded",
         "group": "regular",
-        "opposite": "silence"
+        "opposite": "silence",
+        "transcription": "saʊnd"
     },
     {
         "word": "spell",
@@ -20630,7 +21503,8 @@
         "v2": "spelled / spelt",
         "v3": "spelled / spelt",
         "group": "irregular",
-        "opposite": "misspell"
+        "opposite": "misspell",
+        "transcription": "spɛl"
     },
     {
         "word": "point",
@@ -20638,7 +21512,7 @@
         "theme": "classroom_language_A1",
         "emoji": "☝️",
         "form": "verb",
-        "subtext": "point to / point at",
+        "subtext": "point at / to, point to / point at",
         "synonyms": [
             "indicate"
         ],
@@ -20656,7 +21530,8 @@
         "v2": "pointed",
         "v3": "pointed",
         "group": "regular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "pɔɪnt"
     },
     {
         "word": "shout",
@@ -20681,7 +21556,8 @@
         "v2": "shouted",
         "v3": "shouted",
         "group": "regular",
-        "opposite": "whisper"
+        "opposite": "whisper",
+        "transcription": "ʃaʊt"
     },
     {
         "word": "wave",
@@ -20689,7 +21565,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "verb",
-        "subtext": "wave goodbye / wave hello",
+        "subtext": "wave at, wave goodbye / wave hello",
         "synonyms": [
             "greet"
         ],
@@ -20706,7 +21582,8 @@
         "v2": "waved",
         "v3": "waved",
         "group": "regular",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "weɪv"
     },
     {
         "word": "kick",
@@ -20731,7 +21608,8 @@
         "v2": "kicked",
         "v3": "kicked",
         "group": "regular",
-        "opposite": "catch"
+        "opposite": "catch",
+        "transcription": "kɪk"
     },
     {
         "word": "throw",
@@ -20756,7 +21634,8 @@
         "v2": "threw",
         "v3": "thrown",
         "group": "irregular",
-        "opposite": "catch"
+        "opposite": "catch",
+        "transcription": "θroʊ"
     },
     {
         "word": "bounce",
@@ -20782,7 +21661,8 @@
         "v2": "bounced",
         "v3": "bounced",
         "group": "regular",
-        "opposite": "stop"
+        "opposite": "stop",
+        "transcription": "baʊns"
     },
     {
         "word": "paint",
@@ -20808,7 +21688,8 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "opposite": "erase"
+        "opposite": "erase",
+        "transcription": "peɪnt"
     },
     {
         "word": "hop",
@@ -20833,7 +21714,8 @@
         "v2": "hopped",
         "v3": "hopped",
         "group": "regular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "hɑp"
     },
     {
         "word": "skip",
@@ -20859,7 +21741,8 @@
         "v2": "skipped",
         "v3": "skipped",
         "group": "regular",
-        "opposite": "walk"
+        "opposite": "walk",
+        "transcription": "skɪp"
     },
     {
         "word": "count",
@@ -20884,7 +21767,8 @@
         "v2": "counted",
         "v3": "counted",
         "group": "regular",
-        "opposite": "estimate"
+        "opposite": "estimate",
+        "transcription": "kaʊnt"
     },
     {
         "word": "tick",
@@ -20909,7 +21793,8 @@
         "v2": "ticked",
         "v3": "ticked",
         "group": "regular",
-        "opposite": "cross"
+        "opposite": "cross",
+        "transcription": "tɪk"
     },
     {
         "word": "cross",
@@ -20934,7 +21819,8 @@
         "v2": "crossed",
         "v3": "crossed",
         "group": "regular",
-        "opposite": "tick"
+        "opposite": "tick",
+        "transcription": "krɔs"
     },
     {
         "word": "colour",
@@ -20959,7 +21845,8 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular",
-        "opposite": "erase"
+        "opposite": "erase",
+        "transcription": "ˈkələr"
     },
     {
         "word": "hold",
@@ -20985,7 +21872,8 @@
         "v2": "held",
         "v3": "held",
         "group": "irregular",
-        "opposite": "drop"
+        "opposite": "drop",
+        "transcription": "hoʊld"
     },
     {
         "word": "lead",
@@ -21011,7 +21899,8 @@
         "v2": "led",
         "v3": "led",
         "group": "irregular",
-        "opposite": "follow"
+        "opposite": "follow",
+        "transcription": "lɛd"
     },
     {
         "word": "fight",
@@ -21036,7 +21925,8 @@
         "v2": "fought",
         "v3": "fought",
         "group": "irregular",
-        "opposite": "make peace"
+        "opposite": "make peace",
+        "transcription": "faɪt"
     },
     {
         "word": "hide",
@@ -21059,7 +21949,8 @@
         "aspect": "action",
         "v2": "hid",
         "v3": "hidden",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "haɪd"
     },
     {
         "word": "seek",
@@ -21084,7 +21975,8 @@
         "v2": "sought",
         "v3": "sought",
         "group": "irregular",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "sik"
     },
     {
         "word": "ring",
@@ -21110,7 +22002,8 @@
         "v2": "rang",
         "v3": "rung",
         "group": "irregular",
-        "opposite": "be silent"
+        "opposite": "be silent",
+        "transcription": "rɪŋ"
     },
     {
         "word": "text",
@@ -21135,7 +22028,8 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "opposite": "call"
+        "opposite": "call",
+        "transcription": "tɛkst"
     },
     {
         "word": "whisper",
@@ -21161,7 +22055,8 @@
         "v2": "whispered",
         "v3": "whispered",
         "group": "regular",
-        "opposite": "shout"
+        "opposite": "shout",
+        "transcription": "ˈwɪspər"
     },
     {
         "word": "touch",
@@ -21186,7 +22081,8 @@
         "v2": "touched",
         "v3": "touched",
         "group": "regular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "təʧ"
     },
     {
         "word": "let",
@@ -21209,7 +22105,8 @@
         "v2": "let",
         "v3": "let",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "lɛt"
     },
     {
         "word": "set",
@@ -21232,7 +22129,8 @@
         "v2": "set",
         "v3": "set",
         "group": "irregular",
-        "opposite": null
+        "opposite": null,
+        "transcription": "sɛt"
     },
     {
         "word": "email",
@@ -21254,7 +22152,8 @@
         "aspect": "action",
         "v2": "emailed",
         "v3": "emailed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "iˈmeɪl"
     },
     {
         "word": "phone",
@@ -21277,7 +22176,8 @@
         "v2": "phoned",
         "v3": "phoned",
         "group": "regular",
-        "opposite": "text"
+        "opposite": "text",
+        "transcription": "foʊn"
     },
     {
         "word": "climb",
@@ -21300,7 +22200,8 @@
         "v2": "climbed",
         "v3": "climbed",
         "group": "regular",
-        "opposite": "descend"
+        "opposite": "descend",
+        "transcription": "klaɪm"
     },
     {
         "word": "dress",
@@ -21327,7 +22228,8 @@
         "aspect": "action",
         "v2": "dressed",
         "v3": "dressed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "drɛs"
     },
     {
         "word": "undress",
@@ -21354,7 +22256,8 @@
         "aspect": "action",
         "v2": "undressed",
         "v3": "undressed",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "ənˈdrɛs"
     },
     {
         "word": "turn on",
@@ -21378,7 +22281,8 @@
         "aspect": "action",
         "v2": "turned on",
         "v3": "turned on",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "tərn ɔn"
     },
     {
         "word": "turn off",
@@ -21402,7 +22306,8 @@
         "aspect": "action",
         "v2": "turned off",
         "v3": "turned off",
-        "group": "regular"
+        "group": "regular",
+        "transcription": "tərn ɔf"
     },
     {
         "word": "welcome",
@@ -21424,7 +22329,8 @@
         "v2": "welcomed",
         "v3": "welcomed",
         "group": "regular",
-        "opposite": "reject"
+        "opposite": "reject",
+        "transcription": "ˈwɛlkəm"
     },
     {
         "word": "act",
@@ -21446,7 +22352,8 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "opposite": "be natural"
+        "opposite": "be natural",
+        "transcription": "ækt"
     },
     {
         "word": "copy",
@@ -21468,7 +22375,8 @@
         "v2": "copied",
         "v3": "copied",
         "group": "regular",
-        "opposite": "original"
+        "opposite": "original",
+        "transcription": "ˈkɑpi"
     },
     {
         "word": "fill",
@@ -21490,7 +22398,8 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "opposite": "empty"
+        "opposite": "empty",
+        "transcription": "fɪl"
     },
     {
         "word": "fit",
@@ -21512,7 +22421,8 @@
         "v2": "fitted",
         "v3": "fitted",
         "group": "regular",
-        "opposite": "unfit"
+        "opposite": "unfit",
+        "transcription": "fɪt"
     },
     {
         "word": "join",
@@ -21534,7 +22444,8 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "opposite": "leave"
+        "opposite": "leave",
+        "transcription": "ʤɔɪn"
     },
     {
         "word": "note",
@@ -21556,7 +22467,8 @@
         "v2": "noted",
         "v3": "noted",
         "group": "regular",
-        "opposite": "forget"
+        "opposite": "forget",
+        "transcription": "noʊt"
     },
     {
         "word": "pick",
@@ -21578,7 +22490,8 @@
         "v2": "picked",
         "v3": "picked",
         "group": "regular",
-        "opposite": "drop"
+        "opposite": "drop",
+        "transcription": "pɪk"
     },
     {
         "word": "wish",
@@ -21600,7 +22513,8 @@
         "v2": "wished",
         "v3": "wished",
         "group": "regular",
-        "opposite": "fear"
+        "opposite": "fear",
+        "transcription": "wɪʃ"
     },
     {
         "word": "collect",
@@ -21622,7 +22536,8 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "opposite": "scatter"
+        "opposite": "scatter",
+        "transcription": "kəˈlɛkt"
     },
     {
         "word": "describe",
@@ -21644,7 +22559,8 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "opposite": "summarize"
+        "opposite": "summarize",
+        "transcription": "dɪˈskraɪb"
     },
     {
         "word": "breathe",
@@ -21665,11 +22581,12 @@
         "v2": "breathed",
         "v3": "breathed",
         "group": "regular",
-        "subtext": "",
+        "subtext": "breathe",
         "synonyms": [
             "inhale",
             "exhale"
-        ]
+        ],
+        "transcription": "brið"
     },
     {
         "word": "cough",
@@ -21690,7 +22607,8 @@
         "v2": "coughed",
         "v3": "coughed",
         "group": "regular",
-        "subtext": "have a cough"
+        "subtext": "have a cough",
+        "transcription": "kɔf"
     },
     {
         "word": "sneeze",
@@ -21711,10 +22629,11 @@
         "v2": "sneezed",
         "v3": "sneezed",
         "group": "regular",
-        "subtext": "",
+        "subtext": "sneeze",
         "synonyms": [
             "atchoo!"
-        ]
+        ],
+        "transcription": "sniz"
     },
     {
         "word": "yawn",
@@ -21735,10 +22654,11 @@
         "v2": "yawned",
         "v3": "yawned",
         "group": "regular",
-        "subtext": "",
+        "subtext": "yawn",
         "synonyms": [
             "feel sleepy"
-        ]
+        ],
+        "transcription": "jɔn"
     },
     {
         "word": "explain",
@@ -21746,8 +22666,7 @@
         "theme": "classroom_language_A1",
         "emoji": "🗣️",
         "form": "verb",
-        "transcription": "[ɪkˈspleɪn]",
-        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ɪkˈspleɪn",
         "definitions": [
             {
                 "text": "To make something clear or easy to understand by describing or giving information about it.",
@@ -21769,8 +22688,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📝",
         "form": "verb",
-        "transcription": "[prɪˈpeə(r)]",
-        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80",
+        "transcription": "prɪˈpeə(r)",
         "definitions": [
             {
                 "text": "To get someone or something ready for something that will happen in the future.",
@@ -21792,8 +22710,7 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "form": "verb",
-        "transcription": "[dɪˈpend]",
-        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+        "transcription": "dɪˈpend",
         "definitions": [
             {
                 "text": "To be decided by or to change according to something else.",
@@ -21815,8 +22732,7 @@
         "theme": "personal_identity_A1",
         "emoji": "🏠",
         "form": "verb",
-        "transcription": "[bɪˈlɒŋ]",
-        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=400&q=80",
+        "transcription": "bɪˈlɒŋ",
         "definitions": [
             {
                 "text": "To be the property of someone.",
@@ -21861,7 +22777,8 @@
             "lofty"
         ],
         "comparative": "taller",
-        "superlative": "the tallest"
+        "superlative": "the tallest",
+        "transcription": "tɔl"
     },
     {
         "word": "short",
@@ -21892,7 +22809,8 @@
             "brief"
         ],
         "comparative": "shorter",
-        "superlative": "the shortest"
+        "superlative": "the shortest",
+        "transcription": "ʃɔrt"
     },
     {
         "word": "young",
@@ -21915,7 +22833,8 @@
             "youthful"
         ],
         "comparative": "younger",
-        "superlative": "the youngest"
+        "superlative": "the youngest",
+        "transcription": "jəŋ"
     },
     {
         "word": "old",
@@ -21945,7 +22864,8 @@
             "ancient"
         ],
         "comparative": "older",
-        "superlative": "the oldest"
+        "superlative": "the oldest",
+        "transcription": "oʊld"
     },
     {
         "word": "sunny",
@@ -21970,7 +22890,8 @@
             "clear"
         ],
         "comparative": "sunnier",
-        "superlative": "the sunniest"
+        "superlative": "the sunniest",
+        "transcription": "ˈsəni"
     },
     {
         "word": "rainy",
@@ -21995,7 +22916,8 @@
             "showery"
         ],
         "comparative": "rainier",
-        "superlative": "the rainiest"
+        "superlative": "the rainiest",
+        "transcription": "ˈreɪni"
     },
     {
         "word": "hot",
@@ -22017,7 +22939,8 @@
             }
         ],
         "comparative": "hotter",
-        "superlative": "the hottest"
+        "superlative": "the hottest",
+        "transcription": "hɑt"
     },
     {
         "word": "cold",
@@ -22044,7 +22967,8 @@
             }
         ],
         "comparative": "colder",
-        "superlative": "the coldest"
+        "superlative": "the coldest",
+        "transcription": "koʊld"
     },
     {
         "word": "cheap",
@@ -22074,7 +22998,8 @@
             }
         ],
         "comparative": "cheaper",
-        "superlative": "the cheapest"
+        "superlative": "the cheapest",
+        "transcription": "ʧip"
     },
     {
         "word": "expensive",
@@ -22104,7 +23029,8 @@
             }
         ],
         "comparative": "more expensive",
-        "superlative": "the most expensive"
+        "superlative": "the most expensive",
+        "transcription": "ɪkˈspɛnsɪv"
     },
     {
         "word": "good",
@@ -22135,7 +23061,8 @@
             }
         ],
         "comparative": "better",
-        "superlative": "the best"
+        "superlative": "the best",
+        "transcription": "gʊd"
     },
     {
         "word": "bad",
@@ -22166,7 +23093,8 @@
             }
         ],
         "comparative": "worse",
-        "superlative": "the worst"
+        "superlative": "the worst",
+        "transcription": "bæd"
     },
     {
         "word": "big",
@@ -22196,7 +23124,8 @@
             }
         ],
         "comparative": "bigger",
-        "superlative": "the biggest"
+        "superlative": "the biggest",
+        "transcription": "bɪg"
     },
     {
         "word": "small",
@@ -22226,7 +23155,8 @@
             }
         ],
         "comparative": "smaller",
-        "superlative": "the smallest"
+        "superlative": "the smallest",
+        "transcription": "smɔl"
     },
     {
         "word": "easy",
@@ -22247,7 +23177,8 @@
         ],
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "easier",
-        "superlative": "the easiest"
+        "superlative": "the easiest",
+        "transcription": "ˈizi"
     },
     {
         "word": "difficult",
@@ -22273,7 +23204,8 @@
         ],
         "subtext": "difficult to do / very difficult / find it difficult",
         "comparative": "more difficult",
-        "superlative": "the most difficult"
+        "superlative": "the most difficult",
+        "transcription": "ˈdɪfəkəlt"
     },
     {
         "word": "happy",
@@ -22304,7 +23236,8 @@
             }
         ],
         "comparative": "happier",
-        "superlative": "the happiest"
+        "superlative": "the happiest",
+        "transcription": "ˈhæpi"
     },
     {
         "word": "tired",
@@ -22325,7 +23258,8 @@
             }
         ],
         "comparative": "more tired",
-        "superlative": "the most tired"
+        "superlative": "the most tired",
+        "transcription": "taɪərd"
     },
     {
         "word": "full-time",
@@ -22345,7 +23279,8 @@
         ],
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈfʊlˌtaɪm"
     },
     {
         "word": "thirsty",
@@ -22369,7 +23304,8 @@
             "dehydrated"
         ],
         "comparative": "thirstier",
-        "superlative": "the thirstiest"
+        "superlative": "the thirstiest",
+        "transcription": "ˈθərsti"
     },
     {
         "word": "part-time",
@@ -22389,7 +23325,8 @@
         ],
         "subtext": "part-time job / part-time work / part-time student",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈpɑrtˈtaɪm"
     },
     {
         "word": "clean",
@@ -22410,7 +23347,8 @@
             }
         ],
         "comparative": "cleaner",
-        "superlative": "the cleanest"
+        "superlative": "the cleanest",
+        "transcription": "klin"
     },
     {
         "word": "healthy",
@@ -22430,7 +23368,8 @@
             }
         ],
         "comparative": "healthier",
-        "superlative": "the healthiest"
+        "superlative": "the healthiest",
+        "transcription": "ˈhɛlθi"
     },
     {
         "word": "unhealthy",
@@ -22454,7 +23393,8 @@
             }
         ],
         "comparative": "more unhealthy",
-        "superlative": "the most unhealthy"
+        "superlative": "the most unhealthy",
+        "transcription": "ənˈhɛlθi"
     },
     {
         "word": "ill",
@@ -22474,7 +23414,8 @@
             }
         ],
         "comparative": "more ill",
-        "superlative": "the most ill"
+        "superlative": "the most ill",
+        "transcription": "ɪl"
     },
     {
         "word": "online",
@@ -22494,7 +23435,8 @@
         ],
         "subtext": "online shopping / online course / stay online",
         "comparative": "more online",
-        "superlative": "the most online"
+        "superlative": "the most online",
+        "transcription": "ˈɔnˌlaɪn"
     },
     {
         "word": "offline",
@@ -22517,7 +23459,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈɔˌflaɪn"
     },
     {
         "word": "alone",
@@ -22537,7 +23480,8 @@
         ],
         "subtext": "live alone / travel alone / feel alone",
         "comparative": "more alone",
-        "superlative": "the most alone"
+        "superlative": "the most alone",
+        "transcription": "əˈloʊn"
     },
     {
         "word": "relaxed",
@@ -22562,7 +23506,8 @@
             }
         ],
         "comparative": "more relaxed",
-        "superlative": "the most relaxed"
+        "superlative": "the most relaxed",
+        "transcription": "rɪˈlækst"
     },
     {
         "word": "worried",
@@ -22587,7 +23532,8 @@
             }
         ],
         "comparative": "more worried",
-        "superlative": "the most worried"
+        "superlative": "the most worried",
+        "transcription": "ˈwərid"
     },
     {
         "word": "busy",
@@ -22613,7 +23559,8 @@
             }
         ],
         "comparative": "busier",
-        "superlative": "the busiest"
+        "superlative": "the busiest",
+        "transcription": "ˈbɪzi"
     },
     {
         "word": "important",
@@ -22642,7 +23589,8 @@
             }
         ],
         "comparative": "more important",
-        "superlative": "the most important"
+        "superlative": "the most important",
+        "transcription": "ˌɪmˈpɔrtənt"
     },
     {
         "word": "unimportant",
@@ -22666,7 +23614,8 @@
             }
         ],
         "comparative": "more unimportant",
-        "superlative": "the most unimportant"
+        "superlative": "the most unimportant",
+        "transcription": "ənɪmˈpɔrtənt"
     },
     {
         "word": "red",
@@ -22691,7 +23640,8 @@
             }
         ],
         "comparative": "redder",
-        "superlative": "the reddest"
+        "superlative": "the reddest",
+        "transcription": "rɛd"
     },
     {
         "word": "blue",
@@ -22716,7 +23666,8 @@
             }
         ],
         "comparative": "bluer",
-        "superlative": "the bluest"
+        "superlative": "the bluest",
+        "transcription": "blu"
     },
     {
         "word": "green",
@@ -22741,7 +23692,8 @@
             }
         ],
         "comparative": "greener",
-        "superlative": "the greenest"
+        "superlative": "the greenest",
+        "transcription": "grin"
     },
     {
         "word": "white",
@@ -22767,7 +23719,8 @@
             }
         ],
         "comparative": "whiter",
-        "superlative": "the whitest"
+        "superlative": "the whitest",
+        "transcription": "waɪt"
     },
     {
         "word": "black",
@@ -22793,7 +23746,8 @@
             }
         ],
         "comparative": "blacker",
-        "superlative": "the blackest"
+        "superlative": "the blackest",
+        "transcription": "blæk"
     },
     {
         "word": "yellow",
@@ -22818,7 +23772,8 @@
             }
         ],
         "comparative": "yellower",
-        "superlative": "the yellowest"
+        "superlative": "the yellowest",
+        "transcription": "ˈjɛloʊ"
     },
     {
         "word": "free",
@@ -22844,7 +23799,8 @@
             }
         ],
         "comparative": "freer",
-        "superlative": "the freest"
+        "superlative": "the freest",
+        "transcription": "fri"
     },
     {
         "word": "open",
@@ -22870,7 +23826,8 @@
             }
         ],
         "comparative": "opener",
-        "superlative": "the openest"
+        "superlative": "the openest",
+        "transcription": "ˈoʊpən"
     },
     {
         "word": "closed",
@@ -22891,7 +23848,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "kloʊzd"
     },
     {
         "word": "large",
@@ -22911,7 +23869,8 @@
         "theme": "size_shape_A1",
         "comparative": "larger",
         "superlative": "the largest",
-        "emoji": "🐘"
+        "emoji": "🐘",
+        "transcription": "lɑrʤ"
     },
     {
         "word": "little",
@@ -22931,7 +23890,8 @@
         "theme": "size_shape_A1",
         "comparative": "smaller",
         "superlative": "the smallest",
-        "emoji": "🐭"
+        "emoji": "🐭",
+        "transcription": "ˈlɪtəl"
     },
     {
         "word": "long",
@@ -22951,7 +23911,8 @@
         "theme": "size_shape_A1",
         "comparative": "longer",
         "superlative": "the longest",
-        "emoji": "📏"
+        "emoji": "📏",
+        "transcription": "lɔŋ"
     },
     {
         "word": "high",
@@ -22971,7 +23932,8 @@
         "theme": "size_shape_A1",
         "comparative": "higher",
         "superlative": "the highest",
-        "emoji": "🏔️"
+        "emoji": "🏔️",
+        "transcription": "haɪ"
     },
     {
         "word": "low",
@@ -22991,7 +23953,8 @@
         "theme": "size_shape_A1",
         "comparative": "lower",
         "superlative": "the lowest",
-        "emoji": "⬇️"
+        "emoji": "⬇️",
+        "transcription": "loʊ"
     },
     {
         "word": "full",
@@ -23011,7 +23974,8 @@
         "theme": "size_shape_A1",
         "comparative": "fuller",
         "superlative": "the fullest",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "transcription": "fʊl"
     },
     {
         "word": "empty",
@@ -23031,7 +23995,8 @@
         "theme": "size_shape_A1",
         "comparative": "emptier",
         "superlative": "the emptiest",
-        "emoji": "🫙"
+        "emoji": "🫙",
+        "transcription": "ˈɛmti"
     },
     {
         "word": "warm",
@@ -23051,7 +24016,8 @@
         "theme": "weather_A1",
         "comparative": "warmer",
         "superlative": "the warmest",
-        "emoji": "☀️"
+        "emoji": "☀️",
+        "transcription": "wɔrm"
     },
     {
         "word": "cool",
@@ -23071,7 +24037,8 @@
         "theme": "weather_A1",
         "comparative": "cooler",
         "superlative": "the coolest",
-        "emoji": "🌬️"
+        "emoji": "🌬️",
+        "transcription": "kul"
     },
     {
         "word": "wet",
@@ -23091,7 +24058,8 @@
         "theme": "weather_A1",
         "comparative": "wetter",
         "superlative": "the wettest",
-        "emoji": "💦"
+        "emoji": "💦",
+        "transcription": "wɛt"
     },
     {
         "word": "dry",
@@ -23111,7 +24079,8 @@
         "theme": "weather_A1",
         "comparative": "dryer",
         "superlative": "the dryest",
-        "emoji": "🏜️"
+        "emoji": "🏜️",
+        "transcription": "draɪ"
     },
     {
         "word": "dirty",
@@ -23131,7 +24100,8 @@
         ],
         "comparative": "dirtier",
         "superlative": "the dirtiest",
-        "emoji": "💩"
+        "emoji": "💩",
+        "transcription": "ˈdərti"
     },
     {
         "word": "hard",
@@ -23156,7 +24126,8 @@
         "theme": "size_shape_A1",
         "comparative": "harder",
         "superlative": "the hardest",
-        "emoji": "🧱"
+        "emoji": "🧱",
+        "transcription": "hɑrd"
     },
     {
         "word": "soft",
@@ -23180,7 +24151,8 @@
         "theme": "size_shape_A1",
         "comparative": "softer",
         "superlative": "the softest",
-        "emoji": "☁️"
+        "emoji": "☁️",
+        "transcription": "sɔft"
     },
     {
         "word": "heavy",
@@ -23203,7 +24175,8 @@
         "theme": "size_shape_A1",
         "comparative": "heavier",
         "superlative": "the heaviest",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "transcription": "ˈhɛvi"
     },
     {
         "word": "light",
@@ -23227,7 +24200,8 @@
         "theme": "size_shape_A1",
         "comparative": "lighter",
         "superlative": "the lightest",
-        "emoji": "🪶"
+        "emoji": "🪶",
+        "transcription": "laɪt"
     },
     {
         "word": "brown",
@@ -23246,7 +24220,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "browner",
         "superlative": "the brownest",
-        "emoji": "🤎"
+        "emoji": "🤎",
+        "transcription": "braʊn"
     },
     {
         "word": "grey",
@@ -23265,7 +24240,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "greyer",
         "superlative": "the greyest",
-        "emoji": "🩶"
+        "emoji": "🩶",
+        "transcription": "greɪ"
     },
     {
         "word": "pink",
@@ -23284,7 +24260,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "pinker",
         "superlative": "the pinkest",
-        "emoji": "🩷"
+        "emoji": "🩷",
+        "transcription": "pɪŋk"
     },
     {
         "word": "orange",
@@ -23303,7 +24280,8 @@
         "theme": "colours_patterns_A1",
         "comparative": "more orange",
         "superlative": "the most orange",
-        "emoji": "🧡"
+        "emoji": "🧡",
+        "transcription": "ˈɔrɪnʤ"
     },
     {
         "word": "great",
@@ -23327,7 +24305,8 @@
         "theme": "describing_things_A1",
         "comparative": "greater",
         "superlative": "the greatest",
-        "emoji": "🌟"
+        "emoji": "🌟",
+        "transcription": "greɪt"
     },
     {
         "word": "nice",
@@ -23351,7 +24330,8 @@
         "theme": "describing_things_A1",
         "comparative": "nicer",
         "superlative": "the nicest",
-        "emoji": "😊"
+        "emoji": "😊",
+        "transcription": "nis"
     },
     {
         "word": "wonderful",
@@ -23375,7 +24355,8 @@
         "theme": "describing_things_A1",
         "comparative": "more wonderful",
         "superlative": "the most wonderful",
-        "emoji": "🌈"
+        "emoji": "🌈",
+        "transcription": "ˈwəndərfəl"
     },
     {
         "word": "terrible",
@@ -23399,7 +24380,8 @@
         "theme": "describing_things_A1",
         "comparative": "more terrible",
         "superlative": "the most terrible",
-        "emoji": "🤮"
+        "emoji": "🤮",
+        "transcription": "ˈtɛrəbəl"
     },
     {
         "word": "awful",
@@ -23423,7 +24405,8 @@
         "theme": "describing_things_A1",
         "comparative": "more awful",
         "superlative": "the most awful",
-        "emoji": "💩"
+        "emoji": "💩",
+        "transcription": "ˈɔfəl"
     },
     {
         "word": "amazing",
@@ -23447,7 +24430,8 @@
         "theme": "describing_things_A1",
         "comparative": "more amazing",
         "superlative": "the most amazing",
-        "emoji": "🤩"
+        "emoji": "🤩",
+        "transcription": "əˈmeɪzɪŋ"
     },
     {
         "word": "fantastic",
@@ -23471,7 +24455,8 @@
         "theme": "describing_things_A1",
         "comparative": "more fantastic",
         "superlative": "the most fantastic",
-        "emoji": "🔥"
+        "emoji": "🔥",
+        "transcription": "fænˈtæstɪk"
     },
     {
         "word": "sad",
@@ -23496,7 +24481,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "sadder",
         "superlative": "the saddest",
-        "emoji": "😢"
+        "emoji": "😢",
+        "transcription": "sæd"
     },
     {
         "word": "hungry",
@@ -23520,7 +24506,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "hungrier",
         "superlative": "the hungriest",
-        "emoji": "🍔"
+        "emoji": "🍔",
+        "transcription": "ˈhəŋgri"
     },
     {
         "word": "angry",
@@ -23545,7 +24532,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "angrier",
         "superlative": "the angriest",
-        "emoji": "😠"
+        "emoji": "😠",
+        "transcription": "ˈæŋgri"
     },
     {
         "word": "bored",
@@ -23569,7 +24557,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "more bored",
         "superlative": "the most bored",
-        "emoji": "😴"
+        "emoji": "😴",
+        "transcription": "bɔrd"
     },
     {
         "word": "excited",
@@ -23589,7 +24578,8 @@
         ],
         "comparative": "more excited",
         "superlative": "the most excited",
-        "emoji": "🤩"
+        "emoji": "🤩",
+        "transcription": "ɪkˈsaɪtɪd"
     },
     {
         "word": "afraid",
@@ -23614,7 +24604,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "more afraid",
         "superlative": "the most afraid",
-        "emoji": "😨"
+        "emoji": "😨",
+        "transcription": "əˈfreɪd"
     },
     {
         "word": "sorry",
@@ -23633,7 +24624,8 @@
         "theme": "basic_negative_emotions_A1",
         "comparative": "sorrier",
         "superlative": "the sorriest",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "transcription": "ˈsɑri"
     },
     {
         "word": "right",
@@ -23658,7 +24650,8 @@
         "theme": "describing_things_A1",
         "comparative": "more right",
         "superlative": "the most right",
-        "emoji": "✅"
+        "emoji": "✅",
+        "transcription": "raɪt"
     },
     {
         "word": "left",
@@ -23678,7 +24671,8 @@
         "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
-        "emoji": "⬅️"
+        "emoji": "⬅️",
+        "transcription": "lɛft"
     },
     {
         "word": "wrong",
@@ -23701,7 +24695,8 @@
         "theme": "describing_things_A1",
         "comparative": "more wrong",
         "superlative": "the most wrong",
-        "emoji": "❌"
+        "emoji": "❌",
+        "transcription": "rɔŋ"
     },
     {
         "word": "new",
@@ -23725,7 +24720,8 @@
         "theme": "size_shape_A1",
         "comparative": "newer",
         "superlative": "the newest",
-        "emoji": "🆕"
+        "emoji": "🆕",
+        "transcription": "nu"
     },
     {
         "word": "different",
@@ -23748,7 +24744,8 @@
         "theme": "describing_things_A1",
         "comparative": "more different",
         "superlative": "the most different",
-        "emoji": "🌓"
+        "emoji": "🌓",
+        "transcription": "ˈdɪfərənt"
     },
     {
         "word": "same",
@@ -23771,7 +24768,8 @@
         "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
-        "emoji": "👯"
+        "emoji": "👯",
+        "transcription": "seɪm"
     },
     {
         "word": "fast",
@@ -23795,7 +24793,8 @@
         "theme": "size_shape_A1",
         "comparative": "faster",
         "superlative": "the fastest",
-        "emoji": "🏎️"
+        "emoji": "🏎️",
+        "transcription": "fæst"
     },
     {
         "word": "slow",
@@ -23818,7 +24817,8 @@
         "theme": "size_shape_A1",
         "comparative": "slower",
         "superlative": "the slowest",
-        "emoji": "🐢"
+        "emoji": "🐢",
+        "transcription": "sloʊ"
     },
     {
         "word": "quiet",
@@ -23842,7 +24842,8 @@
         "theme": "describing_things_A1",
         "comparative": "quieter",
         "superlative": "the quietest",
-        "emoji": "🤫"
+        "emoji": "🤫",
+        "transcription": "kwaɪət"
     },
     {
         "word": "loud",
@@ -23865,7 +24866,8 @@
         "theme": "describing_things_A1",
         "comparative": "louder",
         "superlative": "the loudest",
-        "emoji": "📢"
+        "emoji": "📢",
+        "transcription": "laʊd"
     },
     {
         "word": "safe",
@@ -23888,7 +24890,8 @@
         "theme": "local_places_services_A1",
         "comparative": "safer",
         "superlative": "the safest",
-        "emoji": "🛡️"
+        "emoji": "🛡️",
+        "transcription": "seɪf"
     },
     {
         "word": "dangerous",
@@ -23911,7 +24914,8 @@
         "theme": "local_places_services_A1",
         "comparative": "more dangerous",
         "superlative": "the most dangerous",
-        "emoji": "🧨"
+        "emoji": "🧨",
+        "transcription": "ˈdeɪnʤərəs"
     },
     {
         "word": "unhappy",
@@ -23935,7 +24939,8 @@
         ],
         "comparative": "unhappier",
         "superlative": "the unhappiest",
-        "emoji": "😢"
+        "emoji": "😢",
+        "transcription": "ənˈhæpi"
     },
     {
         "word": "nervous",
@@ -23959,7 +24964,8 @@
         ],
         "comparative": "more nervous",
         "superlative": "the most nervous",
-        "emoji": "😟"
+        "emoji": "😟",
+        "transcription": "ˈnərvəs"
     },
     {
         "word": "proud",
@@ -23983,7 +24989,8 @@
         ],
         "comparative": "prouder",
         "superlative": "the proudest",
-        "emoji": "🤳"
+        "emoji": "🤳",
+        "transcription": "praʊd"
     },
     {
         "word": "scared",
@@ -24007,7 +25014,8 @@
         ],
         "comparative": "more scared",
         "superlative": "the most scared",
-        "emoji": "😨"
+        "emoji": "😨",
+        "transcription": "skɛrd"
     },
     {
         "word": "surprised",
@@ -24031,7 +25039,8 @@
         ],
         "comparative": "more surprised",
         "superlative": "the most surprised",
-        "emoji": "😲"
+        "emoji": "😲",
+        "transcription": "səˈpraɪzd"
     },
     {
         "word": "disappointed",
@@ -24055,7 +25064,8 @@
         ],
         "comparative": "more disappointed",
         "superlative": "the most disappointed",
-        "emoji": "😞"
+        "emoji": "😞",
+        "transcription": "ˌdɪsəˈpɔɪnɪd"
     },
     {
         "word": "beautiful",
@@ -24075,7 +25085,8 @@
         "subtext": "beautiful view / beautiful city / absolutely beautiful",
         "comparative": "more beautiful",
         "superlative": "the most beautiful",
-        "emoji": "✨"
+        "emoji": "✨",
+        "transcription": "ˈbjutəfəl"
     },
     {
         "word": "pretty",
@@ -24095,7 +25106,8 @@
         "subtext": "pretty good / a pretty place / quite pretty",
         "comparative": "prettier",
         "superlative": "the prettiest",
-        "emoji": "🌸"
+        "emoji": "🌸",
+        "transcription": "ˈprɪti"
     },
     {
         "word": "strong",
@@ -24115,7 +25127,8 @@
         "subtext": "strong coffee / strong opinion / very strong",
         "comparative": "stronger",
         "superlative": "the strongest",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "transcription": "strɔŋ"
     },
     {
         "word": "weak",
@@ -24135,7 +25148,8 @@
         "subtext": "weak connection / a weak argument / very weak",
         "comparative": "weaker",
         "superlative": "the weakest",
-        "emoji": "🥀"
+        "emoji": "🥀",
+        "transcription": "wik"
     },
     {
         "word": "fit",
@@ -24159,7 +25173,8 @@
         ],
         "comparative": "fitter",
         "superlative": "the fittest",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "transcription": "fɪt"
     },
     {
         "word": "unfit",
@@ -24179,7 +25194,8 @@
             }
         ],
         "comparative": "more unfit",
-        "superlative": "the most unfit"
+        "superlative": "the most unfit",
+        "transcription": "ənˈfɪt"
     },
     {
         "word": "perfect",
@@ -24199,7 +25215,8 @@
         "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
         "comparative": "more perfect",
         "superlative": "the most perfect",
-        "emoji": "💯"
+        "emoji": "💯",
+        "transcription": "ˈpərˌfɪkt"
     },
     {
         "word": "correct",
@@ -24219,7 +25236,8 @@
         "subtext": "correct answer / the correct way / completely correct",
         "comparative": "more correct",
         "superlative": "the most correct",
-        "emoji": "✅"
+        "emoji": "✅",
+        "transcription": "kərˈɛkt"
     },
     {
         "word": "interesting",
@@ -24239,7 +25257,8 @@
         "subtext": "find interesting / very interesting / an interesting idea",
         "comparative": "more interesting",
         "superlative": "the most interesting",
-        "emoji": "🧐"
+        "emoji": "🧐",
+        "transcription": "ˈɪntəˌrɛstɪŋ"
     },
     {
         "word": "boring",
@@ -24259,7 +25278,8 @@
         "subtext": "very boring / a boring meeting / find boring",
         "comparative": "more boring",
         "superlative": "the most boring",
-        "emoji": "😴"
+        "emoji": "😴",
+        "transcription": "ˈbɔrɪŋ"
     },
     {
         "word": "special",
@@ -24279,7 +25299,8 @@
         "subtext": "a special offer / special occasion / very special",
         "comparative": "more special",
         "superlative": "the most special",
-        "emoji": "💎"
+        "emoji": "💎",
+        "transcription": "ˈspɛʃəl"
     },
     {
         "word": "friendly",
@@ -24303,7 +25324,8 @@
         ],
         "comparative": "more friendly",
         "superlative": "the most friendly",
-        "emoji": "👋"
+        "emoji": "👋",
+        "transcription": "ˈfrɛndli"
     },
     {
         "word": "kind",
@@ -24327,7 +25349,8 @@
         ],
         "comparative": "kinder",
         "superlative": "the kindest",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "transcription": "kaɪnd"
     },
     {
         "word": "unkind",
@@ -24351,7 +25374,8 @@
             }
         ],
         "comparative": "more unkind",
-        "superlative": "the most unkind"
+        "superlative": "the most unkind",
+        "transcription": "ənˈkaɪnd"
     },
     {
         "word": "funny",
@@ -24375,7 +25399,8 @@
         ],
         "comparative": "funnier",
         "superlative": "the funniest",
-        "emoji": "😂"
+        "emoji": "😂",
+        "transcription": "ˈfəni"
     },
     {
         "word": "clever",
@@ -24399,7 +25424,8 @@
         ],
         "comparative": "cleverer",
         "superlative": "the cleverest",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "transcription": "ˈklɛvər"
     },
     {
         "word": "polite",
@@ -24422,7 +25448,8 @@
         ],
         "comparative": "more polite",
         "superlative": "the most polite",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "transcription": "pəˈlaɪt"
     },
     {
         "word": "rude",
@@ -24446,7 +25473,8 @@
         ],
         "comparative": "ruder",
         "superlative": "the rudest",
-        "emoji": "😛"
+        "emoji": "😛",
+        "transcription": "rud"
     },
     {
         "word": "lazy",
@@ -24469,7 +25497,8 @@
         ],
         "comparative": "lazier",
         "superlative": "the laziest",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "transcription": "ˈleɪzi"
     },
     {
         "word": "honest",
@@ -24492,7 +25521,8 @@
         ],
         "comparative": "more honest",
         "superlative": "the most honest",
-        "emoji": "⚖️"
+        "emoji": "⚖️",
+        "transcription": "ˈɑnəst"
     },
     {
         "word": "noisy",
@@ -24515,7 +25545,8 @@
         ],
         "comparative": "noisier",
         "superlative": "the noisiest",
-        "emoji": "📢"
+        "emoji": "📢",
+        "transcription": "ˈnɔɪzi"
     },
     {
         "word": "round",
@@ -24538,7 +25569,8 @@
             }
         ],
         "comparative": "rounder",
-        "superlative": "the roundest"
+        "superlative": "the roundest",
+        "transcription": "raʊnd"
     },
     {
         "word": "square",
@@ -24561,7 +25593,8 @@
             }
         ],
         "comparative": "squarer",
-        "superlative": "the squarest"
+        "superlative": "the squarest",
+        "transcription": "skwɛr"
     },
     {
         "word": "helpful",
@@ -24585,7 +25618,8 @@
             }
         ],
         "comparative": "more helpful",
-        "superlative": "the most helpful"
+        "superlative": "the most helpful",
+        "transcription": "ˈhɛlpfəl"
     },
     {
         "word": "unhelpful",
@@ -24608,7 +25642,8 @@
             }
         ],
         "comparative": "more unhelpful",
-        "superlative": "the most unhelpful"
+        "superlative": "the most unhelpful",
+        "transcription": "ənˈhɛlpfəl"
     },
     {
         "word": "patient",
@@ -24632,7 +25667,8 @@
             }
         ],
         "comparative": "more patient",
-        "superlative": "the most patient"
+        "superlative": "the most patient",
+        "transcription": "ˈpeɪʃənt"
     },
     {
         "word": "active",
@@ -24656,7 +25692,8 @@
             }
         ],
         "comparative": "more active",
-        "superlative": "the most active"
+        "superlative": "the most active",
+        "transcription": "ˈæktɪv"
     },
     {
         "word": "careful",
@@ -24678,7 +25715,8 @@
             }
         ],
         "comparative": "more careful",
-        "superlative": "the most careful"
+        "superlative": "the most careful",
+        "transcription": "ˈkɛrfəl"
     },
     {
         "word": "creative",
@@ -24702,7 +25740,8 @@
             }
         ],
         "comparative": "more creative",
-        "superlative": "the most creative"
+        "superlative": "the most creative",
+        "transcription": "kriˈeɪtɪv"
     },
     {
         "word": "cloudy",
@@ -24725,7 +25764,8 @@
             }
         ],
         "comparative": "cloudier",
-        "superlative": "the cloudiest"
+        "superlative": "the cloudiest",
+        "transcription": "ˈklaʊdi"
     },
     {
         "word": "windy",
@@ -24748,7 +25788,8 @@
             }
         ],
         "comparative": "windier",
-        "superlative": "the windiest"
+        "superlative": "the windiest",
+        "transcription": "ˈwɪndi"
     },
     {
         "word": "snowy",
@@ -24771,7 +25812,8 @@
             }
         ],
         "comparative": "snowier",
-        "superlative": "the snowiest"
+        "superlative": "the snowiest",
+        "transcription": "snoʊi"
     },
     {
         "word": "foggy",
@@ -24794,7 +25836,8 @@
             }
         ],
         "comparative": "foggier",
-        "superlative": "the foggiest"
+        "superlative": "the foggiest",
+        "transcription": "ˈfɑgi"
     },
     {
         "word": "stormy",
@@ -24817,7 +25860,8 @@
             }
         ],
         "comparative": "stormier",
-        "superlative": "the stormiest"
+        "superlative": "the stormiest",
+        "transcription": "ˈstɔrmi"
     },
     {
         "word": "blonde",
@@ -24840,7 +25884,8 @@
         ],
         "comparative": "blonder",
         "superlative": "the blondest",
-        "emoji": "👱‍♀️"
+        "emoji": "👱‍♀️",
+        "transcription": "blɑnd"
     },
     {
         "word": "smart",
@@ -24864,7 +25909,8 @@
         ],
         "comparative": "smarter",
         "superlative": "the smartest",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "transcription": "smɑrt"
     },
     {
         "word": "serious",
@@ -24888,7 +25934,8 @@
         ],
         "comparative": "more serious",
         "superlative": "the most serious",
-        "emoji": "😐"
+        "emoji": "😐",
+        "transcription": "ˈsɪriəs"
     },
     {
         "word": "ugly",
@@ -24911,7 +25958,8 @@
         ],
         "comparative": "uglier",
         "superlative": "the ugliest",
-        "emoji": "👹"
+        "emoji": "👹",
+        "transcription": "ˈəgli"
     },
     {
         "word": "near",
@@ -24934,7 +25982,8 @@
         ],
         "comparative": "nearer",
         "superlative": "the nearest",
-        "emoji": "📍"
+        "emoji": "📍",
+        "transcription": "nɪr"
     },
     {
         "word": "far",
@@ -24957,7 +26006,8 @@
         ],
         "comparative": "farther",
         "superlative": "the farthest",
-        "emoji": "🔭"
+        "emoji": "🔭",
+        "transcription": "fɑr"
     },
     {
         "word": "rich",
@@ -24980,7 +26030,8 @@
             }
         ],
         "comparative": "richer",
-        "superlative": "the richest"
+        "superlative": "the richest",
+        "transcription": "rɪʧ"
     },
     {
         "word": "poor",
@@ -25004,7 +26055,8 @@
             }
         ],
         "comparative": "poorer",
-        "superlative": "the poorest"
+        "superlative": "the poorest",
+        "transcription": "pur"
     },
     {
         "word": "early",
@@ -25027,7 +26079,8 @@
             }
         ],
         "comparative": "earlier",
-        "superlative": "the earliest"
+        "superlative": "the earliest",
+        "transcription": "ˈərli"
     },
     {
         "word": "late",
@@ -25050,7 +26103,8 @@
             }
         ],
         "comparative": "later",
-        "superlative": "the latest"
+        "superlative": "the latest",
+        "transcription": "leɪt"
     },
     {
         "word": "hardworking",
@@ -25074,7 +26128,8 @@
             }
         ],
         "comparative": "more hardworking",
-        "superlative": "the most hardworking"
+        "superlative": "the most hardworking",
+        "transcription": "ˈhɑrdˌwərkɪŋ"
     },
     {
         "word": "exciting",
@@ -25098,7 +26153,8 @@
             }
         ],
         "comparative": "more exciting",
-        "superlative": "the most exciting"
+        "superlative": "the most exciting",
+        "transcription": "ɪkˈsaɪtɪŋ"
     },
     {
         "word": "delicious",
@@ -25122,7 +26178,8 @@
             }
         ],
         "comparative": "more delicious",
-        "superlative": "the most delicious"
+        "superlative": "the most delicious",
+        "transcription": "dɪˈlɪʃəs"
     },
     {
         "word": "sweet",
@@ -25145,7 +26202,8 @@
             }
         ],
         "comparative": "sweeter",
-        "superlative": "the sweetest"
+        "superlative": "the sweetest",
+        "transcription": "swit"
     },
     {
         "word": "comfortable",
@@ -25169,7 +26227,8 @@
             }
         ],
         "comparative": "more comfortable",
-        "superlative": "the most comfortable"
+        "superlative": "the most comfortable",
+        "transcription": "ˈkəmfərtəbəl"
     },
     {
         "word": "uncomfortable",
@@ -25193,7 +26252,8 @@
             }
         ],
         "comparative": "more uncomfortable",
-        "superlative": "the most uncomfortable"
+        "superlative": "the most uncomfortable",
+        "transcription": "ənˈkəmfərtəbəl"
     },
     {
         "word": "real",
@@ -25217,7 +26277,8 @@
             }
         ],
         "comparative": "more real",
-        "superlative": "the most real"
+        "superlative": "the most real",
+        "transcription": "ril"
     },
     {
         "word": "simple",
@@ -25241,7 +26302,8 @@
             }
         ],
         "comparative": "simpler",
-        "superlative": "the simplest"
+        "superlative": "the simplest",
+        "transcription": "ˈsɪmpəl"
     },
     {
         "word": "natural",
@@ -25264,7 +26326,8 @@
             }
         ],
         "comparative": "more natural",
-        "superlative": "the most natural"
+        "superlative": "the most natural",
+        "transcription": "ˈnæʧərəl"
     },
     {
         "word": "clear",
@@ -25290,7 +26353,8 @@
             }
         ],
         "comparative": "clearer",
-        "superlative": "the clearest"
+        "superlative": "the clearest",
+        "transcription": "klɪr"
     },
     {
         "word": "common",
@@ -25315,7 +26379,8 @@
             }
         ],
         "comparative": "commoner",
-        "superlative": "the commonest"
+        "superlative": "the commonest",
+        "transcription": "ˈkɑmən"
     },
     {
         "word": "famous",
@@ -25339,7 +26404,8 @@
             }
         ],
         "comparative": "more famous",
-        "superlative": "the most famous"
+        "superlative": "the most famous",
+        "transcription": "ˈfeɪməs"
     },
     {
         "word": "salty",
@@ -25362,7 +26428,8 @@
             }
         ],
         "comparative": "saltier",
-        "superlative": "the saltiest"
+        "superlative": "the saltiest",
+        "transcription": "ˈsɔlti"
     },
     {
         "word": "sour",
@@ -25385,7 +26452,8 @@
             }
         ],
         "comparative": "sourer",
-        "superlative": "the sourest"
+        "superlative": "the sourest",
+        "transcription": "saʊər"
     },
     {
         "word": "bitter",
@@ -25409,7 +26477,8 @@
             }
         ],
         "comparative": "bitterer",
-        "superlative": "the bitterest"
+        "superlative": "the bitterest",
+        "transcription": "ˈbɪtər"
     },
     {
         "word": "fat",
@@ -25433,7 +26502,8 @@
             }
         ],
         "comparative": "fatter",
-        "superlative": "the fattest"
+        "superlative": "the fattest",
+        "transcription": "fæt"
     },
     {
         "word": "thin",
@@ -25457,7 +26527,8 @@
             }
         ],
         "comparative": "thinner",
-        "superlative": "the thinnest"
+        "superlative": "the thinnest",
+        "transcription": "θɪn"
     },
     {
         "word": "curly",
@@ -25480,7 +26551,8 @@
             }
         ],
         "comparative": "curlier",
-        "superlative": "the curliest"
+        "superlative": "the curliest",
+        "transcription": "ˈkərli"
     },
     {
         "word": "straight",
@@ -25503,7 +26575,8 @@
             }
         ],
         "comparative": "straighter",
-        "superlative": "the straightest"
+        "superlative": "the straightest",
+        "transcription": "streɪt"
     },
     {
         "word": "triangular",
@@ -25525,7 +26598,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "traɪˈæŋgjələr"
     },
     {
         "word": "rectangular",
@@ -25547,7 +26621,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "rɛkˈtæŋgjələr"
     },
     {
         "word": "oval",
@@ -25569,7 +26644,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈoʊvəl"
     },
     {
         "word": "favourite",
@@ -25593,7 +26669,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈfeɪvərɪt"
     },
     {
         "word": "dark",
@@ -25617,7 +26694,8 @@
             }
         ],
         "comparative": "darker",
-        "superlative": "the darkest"
+        "superlative": "the darkest",
+        "transcription": "dɑrk"
     },
     {
         "word": "bright",
@@ -25642,7 +26720,8 @@
             }
         ],
         "comparative": "brighter",
-        "superlative": "the brightest"
+        "superlative": "the brightest",
+        "transcription": "braɪt"
     },
     {
         "word": "gold",
@@ -25664,7 +26743,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "goʊld"
     },
     {
         "word": "silver",
@@ -25686,7 +26766,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈsɪlvər"
     },
     {
         "word": "deep",
@@ -25709,7 +26790,8 @@
             }
         ],
         "comparative": "deeper",
-        "superlative": "the deepest"
+        "superlative": "the deepest",
+        "transcription": "dip"
     },
     {
         "word": "shallow",
@@ -25732,7 +26814,8 @@
             }
         ],
         "comparative": "shallower",
-        "superlative": "the shallowest"
+        "superlative": "the shallowest",
+        "transcription": "ˈʃæloʊ"
     },
     {
         "word": "modern",
@@ -25756,7 +26839,8 @@
             }
         ],
         "comparative": "more modern",
-        "superlative": "the most modern"
+        "superlative": "the most modern",
+        "transcription": "ˈmɑdərn"
     },
     {
         "word": "ancient",
@@ -25780,7 +26864,8 @@
             }
         ],
         "comparative": "more ancient",
-        "superlative": "the most ancient"
+        "superlative": "the most ancient",
+        "transcription": "ˈeɪnʧənt"
     },
     {
         "word": "brave",
@@ -25803,7 +26888,8 @@
             }
         ],
         "comparative": "braver",
-        "superlative": "the bravest"
+        "superlative": "the bravest",
+        "transcription": "breɪv"
     },
     {
         "word": "cowardly",
@@ -25826,7 +26912,8 @@
             }
         ],
         "comparative": "more cowardly",
-        "superlative": "the most cowardly"
+        "superlative": "the most cowardly",
+        "transcription": "ˈkaʊərdli"
     },
     {
         "word": "wide",
@@ -25849,7 +26936,8 @@
             }
         ],
         "comparative": "wider",
-        "superlative": "the widest"
+        "superlative": "the widest",
+        "transcription": "waɪd"
     },
     {
         "word": "narrow",
@@ -25872,7 +26960,8 @@
             }
         ],
         "comparative": "narrower",
-        "superlative": "the narrowest"
+        "superlative": "the narrowest",
+        "transcription": "ˈnɛroʊ"
     },
     {
         "word": "lucky",
@@ -25895,7 +26984,8 @@
             }
         ],
         "comparative": "luckier",
-        "superlative": "the luckiest"
+        "superlative": "the luckiest",
+        "transcription": "ˈləki"
     },
     {
         "word": "calm",
@@ -25920,7 +27010,8 @@
             }
         ],
         "comparative": "calmer",
-        "superlative": "the calmest"
+        "superlative": "the calmest",
+        "transcription": "kɑm"
     },
     {
         "word": "married",
@@ -25940,7 +27031,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈmɛrid"
     },
     {
         "word": "single",
@@ -25963,7 +27055,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈsɪŋgəl"
     },
     {
         "word": "well",
@@ -25988,7 +27081,8 @@
             }
         ],
         "comparative": "better",
-        "superlative": "the best"
+        "superlative": "the best",
+        "transcription": "wɛl"
     },
     {
         "word": "purple",
@@ -26010,7 +27104,8 @@
         ],
         "comparative": "more purple",
         "superlative": "the most purple",
-        "opposite": "yellow"
+        "opposite": "yellow",
+        "transcription": "ˈpərpəl"
     },
     {
         "word": "able",
@@ -26032,7 +27127,8 @@
             "capable"
         ],
         "comparative": "abler",
-        "superlative": "the ablest"
+        "superlative": "the ablest",
+        "transcription": "ˈeɪbəl"
     },
     {
         "word": "close",
@@ -26054,7 +27150,8 @@
             "near"
         ],
         "comparative": "closer",
-        "superlative": "the closest"
+        "superlative": "the closest",
+        "transcription": "kloʊz"
     },
     {
         "word": "dead",
@@ -26076,7 +27173,8 @@
             "deceased"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "dɛd"
     },
     {
         "word": "fair",
@@ -26098,7 +27196,8 @@
             "just"
         ],
         "comparative": "fairer",
-        "superlative": "the fairest"
+        "superlative": "the fairest",
+        "transcription": "fɛr"
     },
     {
         "word": "fine",
@@ -26122,7 +27221,8 @@
             "good"
         ],
         "comparative": "finer",
-        "superlative": "the finest"
+        "superlative": "the finest",
+        "transcription": "faɪn"
     },
     {
         "word": "glad",
@@ -26145,7 +27245,8 @@
             "pleased"
         ],
         "comparative": "gladder",
-        "superlative": "the gladdest"
+        "superlative": "the gladdest",
+        "transcription": "glæd"
     },
     {
         "word": "interested",
@@ -26167,7 +27268,8 @@
             "curious"
         ],
         "comparative": "more interested",
-        "superlative": "the most interested"
+        "superlative": "the most interested",
+        "transcription": "ˈɪntəˌrɛstɪd"
     },
     {
         "word": "only",
@@ -26189,7 +27291,8 @@
             "sole"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈoʊnli"
     },
     {
         "word": "other",
@@ -26211,7 +27314,8 @@
             "different"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈəðər"
     },
     {
         "word": "own",
@@ -26233,7 +27337,8 @@
             "personal"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "oʊn"
     },
     {
         "word": "quick",
@@ -26255,7 +27360,8 @@
             "fast"
         ],
         "comparative": "quicker",
-        "superlative": "the quickest"
+        "superlative": "the quickest",
+        "transcription": "kwɪk"
     },
     {
         "word": "ready",
@@ -26277,7 +27383,8 @@
             "prepared"
         ],
         "comparative": "readier",
-        "superlative": "the readiest"
+        "superlative": "the readiest",
+        "transcription": "ˈrɛdi"
     },
     {
         "word": "unready",
@@ -26300,7 +27407,8 @@
             }
         ],
         "comparative": "more unready",
-        "superlative": "the most unready"
+        "superlative": "the most unready",
+        "transcription": "ʌnˈrɛdi"
     },
     {
         "word": "rough",
@@ -26322,7 +27430,8 @@
             "uneven"
         ],
         "comparative": "rougher",
-        "superlative": "the roughest"
+        "superlative": "the roughest",
+        "transcription": "rəf"
     },
     {
         "word": "sharp",
@@ -26344,7 +27453,8 @@
             "pointed"
         ],
         "comparative": "sharper",
-        "superlative": "the sharpest"
+        "superlative": "the sharpest",
+        "transcription": "ʃɑrp"
     },
     {
         "word": "shy",
@@ -26366,7 +27476,8 @@
             "timid"
         ],
         "comparative": "shyer",
-        "superlative": "the shyest"
+        "superlative": "the shyest",
+        "transcription": "ʃaɪ"
     },
     {
         "word": "thick",
@@ -26388,7 +27499,8 @@
             "wide"
         ],
         "comparative": "thicker",
-        "superlative": "the thickest"
+        "superlative": "the thickest",
+        "transcription": "θɪk"
     },
     {
         "word": "true",
@@ -26411,7 +27523,8 @@
             "truly"
         ],
         "comparative": "truer",
-        "superlative": "the truest"
+        "superlative": "the truest",
+        "transcription": "tru"
     },
     {
         "word": "false",
@@ -26434,7 +27547,8 @@
             }
         ],
         "comparative": "falser",
-        "superlative": "the falsest"
+        "superlative": "the falsest",
+        "transcription": "fɔls"
     },
     {
         "word": "stupid",
@@ -26456,7 +27570,8 @@
             "silly"
         ],
         "comparative": "stupider",
-        "superlative": "the stupidest"
+        "superlative": "the stupidest",
+        "transcription": "ˈstupɪd"
     },
     {
         "word": "sure",
@@ -26479,7 +27594,8 @@
             "certain"
         ],
         "comparative": "surer",
-        "superlative": "the surest"
+        "superlative": "the surest",
+        "transcription": "ʃʊr"
     },
     {
         "word": "unsure",
@@ -26502,7 +27618,8 @@
             }
         ],
         "comparative": "more unsure",
-        "superlative": "the most unsure"
+        "superlative": "the most unsure",
+        "transcription": "ənˈʃʊr"
     },
     {
         "word": "nasty",
@@ -26526,7 +27643,8 @@
             }
         ],
         "comparative": "nastier",
-        "superlative": "the nastiest"
+        "superlative": "the nastiest",
+        "transcription": "ˈnæsti"
     },
     {
         "word": "incorrect",
@@ -26550,7 +27668,8 @@
             }
         ],
         "comparative": "more incorrect",
-        "superlative": "the most incorrect"
+        "superlative": "the most incorrect",
+        "transcription": "ˌɪnkərˈɛkt"
     },
     {
         "word": "smooth",
@@ -26574,7 +27693,8 @@
             }
         ],
         "comparative": "smoother",
-        "superlative": "the smoothest"
+        "superlative": "the smoothest",
+        "transcription": "smuð"
     },
     {
         "word": "normal",
@@ -26598,7 +27718,8 @@
             }
         ],
         "comparative": "more normal",
-        "superlative": "the most normal"
+        "superlative": "the most normal",
+        "transcription": "ˈnɔrməl"
     },
     {
         "word": "alive",
@@ -26621,7 +27742,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "əˈlaɪv"
     },
     {
         "word": "many",
@@ -26641,7 +27763,8 @@
             }
         ],
         "comparative": "more",
-        "superlative": "the most"
+        "superlative": "the most",
+        "transcription": "ˈmɛni"
     },
     {
         "word": "shared",
@@ -26664,7 +27787,8 @@
             }
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ʃɛrd"
     },
     {
         "word": "unclear",
@@ -26688,7 +27812,8 @@
             }
         ],
         "comparative": "more unclear",
-        "superlative": "the most unclear"
+        "superlative": "the most unclear",
+        "transcription": "ənˈklɪr"
     },
     {
         "word": "few",
@@ -26711,7 +27836,8 @@
             }
         ],
         "comparative": "fewer",
-        "superlative": "the fewest"
+        "superlative": "the fewest",
+        "transcription": "fju"
     },
     {
         "word": "possible",
@@ -26720,8 +27846,7 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "impossible",
-        "transcription": "[ˈpɒsəbl]",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈpɒsəbl",
         "definitions": [
             {
                 "text": "Able to be done or achieved.",
@@ -26742,8 +27867,7 @@
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "useless",
-        "transcription": "[ˈjuːsfl]",
-        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˈjuːsfl",
         "definitions": [
             {
                 "text": "Helping you to do or achieve something.",
@@ -26764,8 +27888,7 @@
         "emoji": "🏳️",
         "form": "noun",
         "plural": "nationalities",
-        "transcription": "[ˌnæʃəˈnæləti]",
-        "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˌnæʃəˈnæləti",
         "definitions": [
             {
                 "text": "The legal right of belonging to a particular nation.",
@@ -26785,8 +27908,7 @@
         "emoji": "💼",
         "form": "noun",
         "plural": "occupations",
-        "transcription": "[ˌɒkjuˈpeɪʃn]",
-        "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=400&q=80",
+        "transcription": "ˌɒkjuˈpeɪʃn",
         "definitions": [
             {
                 "text": "A person's job or profession.",
@@ -26814,7 +27936,8 @@
             }
         ],
         "emoji": "📖",
-        "transcription": "[əˈbaʊt]"
+        "transcription": "əˈbaʊt",
+        "subtext": "about"
     },
     {
         "word": "around",
@@ -26831,7 +27954,8 @@
             }
         ],
         "emoji": "⭕",
-        "transcription": "[əˈraʊnd]"
+        "transcription": "əˈraʊnd",
+        "subtext": "around"
     },
     {
         "word": "by",
@@ -26848,7 +27972,8 @@
             }
         ],
         "emoji": "🚌",
-        "transcription": "[baɪ]"
+        "transcription": "baɪ",
+        "subtext": "by"
     },
     {
         "word": "of",
@@ -26865,7 +27990,116 @@
             }
         ],
         "emoji": "🔗",
-        "transcription": "[ɒv]"
+        "transcription": "ɒv",
+        "subtext": "of"
+    },
+    {
+        "word": "hi",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A friendly greeting.",
+                "examples": [
+                    "Hi, how are you?"
+                ]
+            }
+        ],
+        "subtext": "greeting",
+        "countability": "countable",
+        "transcription": "haɪ"
+    },
+    {
+        "word": "thanks",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🙏",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A way of saying thank you.",
+                "examples": [
+                    "Thanks for your help."
+                ]
+            }
+        ],
+        "subtext": "gratitude",
+        "countability": "uncountable",
+        "transcription": "θæŋks"
+    },
+    {
+        "word": "bye",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A way of saying goodbye.",
+                "examples": [
+                    "Bye! See you tomorrow."
+                ]
+            }
+        ],
+        "subtext": "farewell",
+        "countability": "countable",
+        "transcription": "baɪ"
+    },
+    {
+        "word": "alphabet",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🔤",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A set of letters used for writing a language.",
+                "examples": [
+                    "The English alphabet has 26 letters."
+                ]
+            }
+        ],
+        "subtext": "letters",
+        "countability": "countable",
+        "transcription": "ˈælfəˌbɛt"
+    },
+    {
+        "word": "color",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🎨",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Red, blue, green, etc. (American spelling)",
+                "examples": [
+                    "What is your favorite color?"
+                ]
+            }
+        ],
+        "subtext": "visual property",
+        "countability": "countable",
+        "transcription": "ˈkələr"
+    },
+    {
+        "word": "season",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of the four periods of the year (spring, summer, autumn, winter).",
+                "examples": [
+                    "Winter is my favorite season."
+                ]
+            }
+        ],
+        "subtext": "time of year",
+        "countability": "countable",
+        "transcription": "ˈsizən"
     }
 ];
     const lang = "en";
