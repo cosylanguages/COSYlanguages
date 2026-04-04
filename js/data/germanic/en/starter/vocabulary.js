@@ -27,11 +27,9 @@
                 ]
             }
         ],
-        "countability": "uncountable",
+        "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "soda",
         "level": "starter",
@@ -53,8 +51,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "scarf",
         "level": "starter",
@@ -76,8 +72,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "cereal",
         "level": "starter",
@@ -99,8 +93,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "gloves",
         "level": "starter",
@@ -122,8 +114,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "sunglasses",
         "level": "starter",
@@ -145,8 +135,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "suit",
         "level": "starter",
@@ -168,8 +156,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "person",
         "level": "starter",
@@ -193,8 +179,6 @@
         "subtext": "related to people",
         "opposite": null
     },
-
-
     {
         "word": "cash",
         "level": "starter",
@@ -216,8 +200,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "card",
         "level": "starter",
@@ -239,8 +221,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "report",
         "level": "starter",
@@ -258,10 +238,10 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[rɪˈpɔːt]",
+        "image": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "market",
         "level": "starter",
@@ -279,17 +259,19 @@
         ],
         "countability": "countable",
         "subtext": "related to local places services",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈmɑːkɪt]",
+        "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "next to",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
         "subtext": "",
-        "synonyms": ["beside"],
+        "synonyms": [
+            "beside"
+        ],
         "definitions": [
             {
                 "text": "Very close to someone or something, with nothing in between.",
@@ -301,8 +283,6 @@
         "opposite": "far from",
         "emoji": "👫"
     },
-
-
     {
         "word": "between",
         "level": "starter",
@@ -320,8 +300,6 @@
         "opposite": "outside",
         "emoji": "🧘"
     },
-
-
     {
         "word": "behind",
         "level": "starter",
@@ -339,8 +317,6 @@
         "subtext": "related to prepositions place",
         "emoji": "🫣"
     },
-
-
     {
         "word": "in front of",
         "level": "starter",
@@ -358,8 +334,6 @@
         "subtext": "related to prepositions place",
         "emoji": "🚶"
     },
-
-
     {
         "word": "jacket",
         "level": "starter",
@@ -377,10 +351,10 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈdʒækɪt]",
+        "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "shirt",
         "level": "starter",
@@ -398,10 +372,10 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ʃɜːt]",
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "foot",
         "level": "starter",
@@ -422,10 +396,10 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[fʊt]",
+        "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "face",
         "level": "starter",
@@ -443,10 +417,10 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[feɪs]",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "hair",
         "level": "starter",
@@ -464,10 +438,10 @@
         ],
         "countability": "uncountable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[heə(r)]",
+        "image": "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "tooth",
         "level": "starter",
@@ -487,10 +461,10 @@
         ],
         "countability": "countable",
         "subtext": "related to body parts",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[tuːθ]",
+        "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "teacher",
         "level": "starter",
@@ -518,8 +492,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "pizza",
         "level": "starter",
@@ -548,8 +520,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "pasta",
         "level": "starter",
@@ -576,8 +546,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "apple",
         "level": "starter",
@@ -600,8 +568,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "bread",
         "level": "starter",
@@ -623,8 +589,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "egg",
         "level": "starter",
@@ -651,8 +615,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "milk",
         "level": "starter",
@@ -679,8 +641,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "banana",
         "level": "starter",
@@ -707,8 +667,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "coffee",
         "level": "starter",
@@ -736,8 +694,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "tea",
         "level": "starter",
@@ -765,8 +721,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "juice",
         "level": "starter",
@@ -793,8 +747,6 @@
         "subtext": "related to drinks",
         "opposite": null
     },
-
-
     {
         "word": "water",
         "level": "starter",
@@ -816,8 +768,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "park",
         "level": "starter",
@@ -844,8 +794,6 @@
         "subtext": "related to local places services",
         "opposite": null
     },
-
-
     {
         "word": "school",
         "level": "starter",
@@ -866,8 +814,6 @@
         "subtext": "related to local places services",
         "opposite": null
     },
-
-
     {
         "word": "t-shirt",
         "level": "starter",
@@ -887,8 +833,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "pants",
         "level": "starter",
@@ -897,7 +841,9 @@
         "form": "noun",
         "plural": "pants",
         "subtext": "",
-        "synonyms": ["trousers"],
+        "synonyms": [
+            "trousers"
+        ],
         "definitions": [
             {
                 "text": "An outer garment covering each leg separately from waist to ankle.",
@@ -909,8 +855,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "shoe",
         "level": "starter",
@@ -930,8 +874,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "hat",
         "level": "starter",
@@ -951,8 +893,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "chair",
         "level": "starter",
@@ -973,8 +913,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "table",
         "level": "starter",
@@ -995,8 +933,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "bed",
         "level": "starter",
@@ -1017,8 +953,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "key",
         "level": "starter",
@@ -1046,8 +980,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "phone",
         "level": "starter",
@@ -1056,7 +988,9 @@
         "form": "noun",
         "plural": "phones",
         "subtext": "",
-        "synonyms": ["telephone"],
+        "synonyms": [
+            "telephone"
+        ],
         "definitions": [
             {
                 "text": "A device used to talk to people far away.",
@@ -1068,8 +1002,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "book",
         "level": "starter",
@@ -1092,8 +1024,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "bag",
         "level": "starter",
@@ -1114,8 +1044,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "pen",
         "level": "starter",
@@ -1136,8 +1064,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "cat",
         "level": "starter",
@@ -1160,8 +1086,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "dog",
         "level": "starter",
@@ -1184,8 +1108,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "bird",
         "level": "starter",
@@ -1206,8 +1128,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "fish",
         "level": "starter",
@@ -1228,8 +1148,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "head",
         "level": "starter",
@@ -1250,8 +1168,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "hand",
         "level": "starter",
@@ -1272,8 +1188,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "leg",
         "level": "starter",
@@ -1293,8 +1207,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "eye",
         "level": "starter",
@@ -1315,8 +1227,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "nose",
         "level": "starter",
@@ -1336,8 +1246,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "mouth",
         "level": "starter",
@@ -1357,8 +1265,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "ear",
         "level": "starter",
@@ -1378,8 +1284,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "smartphone",
         "level": "starter",
@@ -1399,8 +1303,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "mother",
         "level": "starter",
@@ -1421,8 +1323,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "father",
         "level": "starter",
@@ -1443,8 +1343,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "man",
         "level": "starter",
@@ -1468,8 +1366,6 @@
         "subtext": "related to physical appearance",
         "opposite": null
     },
-
-
     {
         "word": "woman",
         "level": "starter",
@@ -1493,8 +1389,6 @@
         "subtext": "related to physical appearance",
         "opposite": null
     },
-
-
     {
         "word": "work",
         "level": "starter",
@@ -1513,8 +1407,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "job",
         "level": "starter",
@@ -1534,8 +1426,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "office",
         "level": "starter",
@@ -1555,8 +1445,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "home",
         "level": "starter",
@@ -1575,8 +1463,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "house",
         "level": "starter",
@@ -1596,8 +1482,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "flat",
         "level": "starter",
@@ -1617,8 +1501,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "car",
         "level": "starter",
@@ -1638,8 +1520,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "bus",
         "level": "starter",
@@ -1659,8 +1539,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "train",
         "level": "starter",
@@ -1680,8 +1558,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "food",
         "level": "starter",
@@ -1700,8 +1576,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "rice",
         "level": "starter",
@@ -1721,8 +1595,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "meat",
         "level": "starter",
@@ -1742,8 +1614,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "breakfast",
         "level": "starter",
@@ -1762,8 +1632,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "dinner",
         "level": "starter",
@@ -1782,8 +1650,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "money",
         "level": "starter",
@@ -1803,8 +1669,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "shop",
         "level": "starter",
@@ -1824,8 +1688,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "family",
         "level": "starter",
@@ -1845,8 +1707,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "friend",
         "level": "starter",
@@ -1866,8 +1726,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "partner",
         "level": "starter",
@@ -1887,8 +1745,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "morning",
         "level": "starter",
@@ -1907,8 +1763,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "evening",
         "level": "starter",
@@ -1927,8 +1781,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "day",
         "level": "starter",
@@ -1948,8 +1800,6 @@
         "countability": "countable",
         "subtext": "related to times day"
     },
-
-
     {
         "word": "week",
         "level": "starter",
@@ -1969,8 +1819,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "every day",
         "level": "starter",
@@ -1988,8 +1836,6 @@
         "subtext": "related to times day",
         "opposite": null
     },
-
-
     {
         "word": "lunch",
         "level": "starter",
@@ -2009,8 +1855,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "boss",
         "level": "starter",
@@ -2030,8 +1874,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "colleague",
         "level": "starter",
@@ -2051,8 +1893,6 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-
-
     {
         "word": "meeting",
         "level": "starter",
@@ -2073,8 +1913,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "commute",
         "level": "starter",
@@ -2094,8 +1932,6 @@
         "subtext": "related to public transport",
         "opposite": null
     },
-
-
     {
         "word": "stress",
         "level": "starter",
@@ -2114,8 +1950,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "rent",
         "level": "starter",
@@ -2134,8 +1968,6 @@
         "subtext": "related to types of accommodation",
         "opposite": null
     },
-
-
     {
         "word": "neighbour",
         "level": "starter",
@@ -2155,8 +1987,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "room",
         "level": "starter",
@@ -2176,8 +2006,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "kitchen",
         "level": "starter",
@@ -2197,8 +2025,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "sleep",
         "level": "starter",
@@ -2217,8 +2043,6 @@
         "subtext": "related to daily work routines",
         "opposite": "wake up"
     },
-
-
     {
         "word": "exercise",
         "level": "starter",
@@ -2237,8 +2061,6 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
-
-
     {
         "word": "price",
         "level": "starter",
@@ -2258,8 +2080,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "cost",
         "level": "starter",
@@ -2279,8 +2099,6 @@
         "subtext": "related to money payment",
         "opposite": null
     },
-
-
     {
         "word": "together",
         "level": "starter",
@@ -2299,8 +2117,6 @@
         ],
         "subtext": "related to family life"
     },
-
-
     {
         "word": "holiday",
         "level": "starter",
@@ -2320,8 +2136,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "hotel",
         "level": "starter",
@@ -2341,8 +2155,6 @@
         "subtext": "related to public transport",
         "opposite": null
     },
-
-
     {
         "word": "weekend",
         "level": "starter",
@@ -2362,8 +2174,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "free time",
         "level": "starter",
@@ -2382,8 +2192,6 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
-
-
     {
         "word": "travel",
         "level": "starter",
@@ -2402,8 +2210,6 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
-
-
     {
         "word": "back",
         "level": "starter",
@@ -2423,8 +2229,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "arm",
         "level": "starter",
@@ -2444,8 +2248,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "fruit",
         "level": "starter",
@@ -2465,8 +2267,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "vegetable",
         "level": "starter",
@@ -2486,8 +2286,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "beer",
         "level": "starter",
@@ -2507,8 +2305,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "wine",
         "level": "starter",
@@ -2528,8 +2324,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "door",
         "level": "starter",
@@ -2549,8 +2343,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "window",
         "level": "starter",
@@ -2570,8 +2362,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "driver",
         "level": "starter",
@@ -2591,8 +2381,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "manager",
         "level": "starter",
@@ -2612,8 +2400,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "plane",
         "level": "starter",
@@ -2633,8 +2419,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "bike",
         "level": "starter",
@@ -2654,8 +2438,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "hospital",
         "level": "starter",
@@ -2675,8 +2457,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "restaurant",
         "level": "starter",
@@ -2696,8 +2476,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "bank",
         "level": "starter",
@@ -2717,8 +2495,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "station",
         "level": "starter",
@@ -2738,8 +2514,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "supermarket",
         "level": "starter",
@@ -2759,8 +2533,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "sun",
         "level": "starter",
@@ -2780,8 +2552,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "rain",
         "level": "starter",
@@ -2801,8 +2571,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "wind",
         "level": "starter",
@@ -2822,8 +2590,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "afternoon",
         "level": "starter",
@@ -2842,8 +2608,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "night",
         "level": "starter",
@@ -2863,8 +2627,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "today",
         "level": "starter",
@@ -2882,8 +2644,6 @@
             }
         ]
     },
-
-
     {
         "word": "tomorrow",
         "level": "starter",
@@ -2901,8 +2661,6 @@
             }
         ]
     },
-
-
     {
         "word": "husband",
         "level": "starter",
@@ -2913,7 +2671,10 @@
         "opposite": null,
         "oppositeEmoji": "👩",
         "subtext": "",
-        "synonyms": ["spouse", "partner"],
+        "synonyms": [
+            "spouse",
+            "partner"
+        ],
         "definitions": [
             {
                 "text": "A married man, in relation to his wife.",
@@ -2924,8 +2685,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "wife",
         "level": "starter",
@@ -2936,7 +2695,10 @@
         "opposite": null,
         "oppositeEmoji": "👨",
         "subtext": "",
-        "synonyms": ["spouse", "partner"],
+        "synonyms": [
+            "spouse",
+            "partner"
+        ],
         "definitions": [
             {
                 "text": "A married woman, in relation to her husband.",
@@ -2947,8 +2709,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "child",
         "level": "starter",
@@ -2957,7 +2717,10 @@
         "form": "noun",
         "plural": "children",
         "subtext": "",
-        "synonyms": ["kid", "young person"],
+        "synonyms": [
+            "kid",
+            "young person"
+        ],
         "definitions": [
             {
                 "text": "A young person; a son or daughter.",
@@ -2969,8 +2732,6 @@
         "countability": "countable",
         "opposite": "adult"
     },
-
-
     {
         "word": "parent",
         "level": "starter",
@@ -2979,7 +2740,9 @@
         "form": "noun",
         "plural": "parents",
         "subtext": "",
-        "synonyms": ["mother or father"],
+        "synonyms": [
+            "mother or father"
+        ],
         "definitions": [
             {
                 "text": "A mother or father.",
@@ -2991,8 +2754,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "sister",
         "level": "starter",
@@ -3014,8 +2775,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "brother",
         "level": "starter",
@@ -3037,8 +2796,6 @@
         ],
         "countability": "countable"
     },
-
-
     {
         "word": "son",
         "level": "starter",
@@ -3059,8 +2816,6 @@
         "countability": "countable",
         "subtext": "related to immediate family"
     },
-
-
     {
         "word": "daughter",
         "level": "starter",
@@ -3081,8 +2836,6 @@
         "countability": "countable",
         "subtext": "related to immediate family"
     },
-
-
     {
         "word": "grandfather",
         "level": "starter",
@@ -3103,8 +2856,6 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
-
-
     {
         "word": "grandmother",
         "level": "starter",
@@ -3125,8 +2876,6 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
-
-
     {
         "word": "uncle",
         "level": "starter",
@@ -3147,8 +2896,6 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
-
-
     {
         "word": "aunt",
         "level": "starter",
@@ -3169,8 +2916,6 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
-
-
     {
         "word": "cousin",
         "level": "starter",
@@ -3190,8 +2935,6 @@
         "subtext": "related to extended family",
         "opposite": null
     },
-
-
     {
         "word": "tree",
         "level": "starter",
@@ -3212,8 +2955,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "flower",
         "level": "starter",
@@ -3234,8 +2975,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "mountain",
         "level": "starter",
@@ -3256,8 +2995,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "river",
         "level": "starter",
@@ -3278,8 +3015,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "sea",
         "level": "starter",
@@ -3300,8 +3035,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "beach",
         "level": "starter",
@@ -3322,8 +3055,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "sky",
         "level": "starter",
@@ -3344,8 +3075,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "moon",
         "level": "starter",
@@ -3365,8 +3094,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "plate",
         "level": "starter",
@@ -3386,8 +3113,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "cup",
         "level": "starter",
@@ -3407,8 +3132,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "glass",
         "level": "starter",
@@ -3428,8 +3151,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "fork",
         "level": "starter",
@@ -3449,8 +3170,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "spoon",
         "level": "starter",
@@ -3470,8 +3189,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "knife",
         "level": "starter",
@@ -3491,8 +3208,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "laptop",
         "level": "starter",
@@ -3512,8 +3227,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "television",
         "level": "starter",
@@ -3533,8 +3246,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "cinema",
         "level": "starter",
@@ -3554,8 +3265,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "museum",
         "level": "starter",
@@ -3575,8 +3284,6 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
-
-
     {
         "word": "airport",
         "level": "starter",
@@ -3596,8 +3303,6 @@
         "subtext": "related to public transport",
         "opposite": null
     },
-
-
     {
         "word": "chicken",
         "level": "starter",
@@ -3617,8 +3322,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "sugar",
         "level": "starter",
@@ -3638,8 +3341,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "salad",
         "level": "starter",
@@ -3659,8 +3360,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "coat",
         "level": "starter",
@@ -3680,8 +3379,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "socks",
         "level": "starter",
@@ -3701,8 +3398,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "neck",
         "level": "starter",
@@ -3722,8 +3417,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "shoulder",
         "level": "starter",
@@ -3743,65 +3436,92 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "in",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
+        "transcription": "[ɪn]",
+        "image": "https://images.unsplash.com/photo-1542662565-7e4b66bae529?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Inside a place or container.",
                 "examples": [
-                    "The keys are in the bag."
+                    "The keys are in the bag.",
+                    "He is in the kitchen."
+                ]
+            },
+            {
+                "text": "Used with months, years, seasons, and parts of the day.",
+                "examples": [
+                    "In January.",
+                    "In 2023.",
+                    "In the morning.",
+                    "In summer."
                 ]
             }
         ],
-        "subtext": "related to prepositions place",
+        "subtext": "in the box, in London, in a car",
         "opposite": "out",
         "emoji": "📥"
     },
-
-
     {
         "word": "on",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
+        "transcription": "[ɒn]",
+        "image": "https://images.unsplash.com/photo-1495539406979-bf61750d38ad?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Supported by or touching a surface.",
                 "examples": [
-                    "The book is on the table."
+                    "The book is on the table.",
+                    "The picture is on the wall."
+                ]
+            },
+            {
+                "text": "Used with days and dates.",
+                "examples": [
+                    "On Monday.",
+                    "On my birthday.",
+                    "On the first of May."
                 ]
             }
         ],
-        "subtext": "related to prepositions place",
+        "subtext": "on the floor, on a bus, on the phone",
         "opposite": "off",
         "emoji": "🔛"
     },
-
-
     {
         "word": "at",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
+        "transcription": "[æt]",
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80",
         "definitions": [
             {
                 "text": "Used to show a place or position.",
                 "examples": [
-                    "I am at the office."
+                    "I am at the office.",
+                    "Wait at the bus stop.",
+                    "He is at home."
+                ]
+            },
+            {
+                "text": "Used to show a specific time.",
+                "examples": [
+                    "At seven o'clock.",
+                    "At night.",
+                    "At the weekend."
                 ]
             }
         ],
-        "subtext": "related to prepositions place",
+        "subtext": "at work, at school, at the top",
         "opposite": "away from",
         "emoji": "📍"
     },
-
-
     {
         "word": "under",
         "level": "starter",
@@ -3819,8 +3539,6 @@
         "subtext": "related to prepositions place",
         "emoji": "👇"
     },
-
-
     {
         "word": "and",
         "level": "starter",
@@ -3838,8 +3556,6 @@
         "opposite": "or",
         "emoji": "➕"
     },
-
-
     {
         "word": "but",
         "level": "starter",
@@ -3857,8 +3573,6 @@
         "opposite": "and",
         "emoji": "❓"
     },
-
-
     {
         "word": "because",
         "level": "starter",
@@ -3876,8 +3590,6 @@
         "opposite": "so",
         "emoji": "💡"
     },
-
-
     {
         "word": "time",
         "level": "starter",
@@ -3897,8 +3609,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "problem",
         "level": "starter",
@@ -3919,8 +3629,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "beef",
         "level": "starter",
@@ -3940,8 +3648,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "pork",
         "level": "starter",
@@ -3961,8 +3667,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "potato",
         "level": "starter",
@@ -3982,8 +3686,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "tomato",
         "level": "starter",
@@ -4003,8 +3705,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "onion",
         "level": "starter",
@@ -4025,8 +3725,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "carrot",
         "level": "starter",
@@ -4046,8 +3744,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "soup",
         "level": "starter",
@@ -4067,8 +3763,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "cake",
         "level": "starter",
@@ -4088,8 +3782,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "chocolate",
         "level": "starter",
@@ -4109,8 +3801,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "ice cream",
         "level": "starter",
@@ -4130,8 +3820,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "sweater",
         "level": "starter",
@@ -4140,7 +3828,9 @@
         "form": "noun",
         "plural": "sweaters",
         "subtext": "",
-        "synonyms": ["jumper"],
+        "synonyms": [
+            "jumper"
+        ],
         "definitions": [
             {
                 "text": "A warm piece of clothing with long sleeves.",
@@ -4152,8 +3842,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "dress",
         "level": "starter",
@@ -4173,8 +3861,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "skirt",
         "level": "starter",
@@ -4194,8 +3880,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "boots",
         "level": "starter",
@@ -4215,8 +3899,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "finger",
         "level": "starter",
@@ -4236,8 +3918,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "toe",
         "level": "starter",
@@ -4257,8 +3937,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "stomach",
         "level": "starter",
@@ -4278,8 +3956,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "knee",
         "level": "starter",
@@ -4299,8 +3975,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "grass",
         "level": "starter",
@@ -4320,8 +3994,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "lake",
         "level": "starter",
@@ -4341,8 +4013,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "cloud",
         "level": "starter",
@@ -4362,8 +4032,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "star",
         "level": "starter",
@@ -4383,8 +4051,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "desk",
         "level": "starter",
@@ -4404,8 +4070,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "lamp",
         "level": "starter",
@@ -4425,8 +4089,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "clock",
         "level": "starter",
@@ -4446,8 +4108,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "mirror",
         "level": "starter",
@@ -4467,8 +4127,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "library",
         "level": "starter",
@@ -4488,8 +4146,6 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
-
-
     {
         "word": "Monday",
         "level": "starter",
@@ -4508,8 +4164,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "Tuesday",
         "level": "starter",
@@ -4528,8 +4182,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "Wednesday",
         "level": "starter",
@@ -4548,8 +4200,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "Thursday",
         "level": "starter",
@@ -4568,8 +4218,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "Friday",
         "level": "starter",
@@ -4588,8 +4236,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "Saturday",
         "level": "starter",
@@ -4608,8 +4254,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "Sunday",
         "level": "starter",
@@ -4628,8 +4272,6 @@
         "subtext": "related to days week",
         "opposite": null
     },
-
-
     {
         "word": "January",
         "level": "starter",
@@ -4648,8 +4290,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "February",
         "level": "starter",
@@ -4668,8 +4308,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "March",
         "level": "starter",
@@ -4688,8 +4326,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "April",
         "level": "starter",
@@ -4708,8 +4344,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "May",
         "level": "starter",
@@ -4728,8 +4362,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "June",
         "level": "starter",
@@ -4748,8 +4380,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "July",
         "level": "starter",
@@ -4768,8 +4398,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "August",
         "level": "starter",
@@ -4788,8 +4416,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "September",
         "level": "starter",
@@ -4808,8 +4434,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "October",
         "level": "starter",
@@ -4828,8 +4452,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "November",
         "level": "starter",
@@ -4848,8 +4470,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "December",
         "level": "starter",
@@ -4868,8 +4488,6 @@
         "subtext": "related to months year",
         "opposite": null
     },
-
-
     {
         "word": "spring",
         "level": "starter",
@@ -4888,8 +4506,6 @@
         "subtext": "related to seasons climate",
         "opposite": null
     },
-
-
     {
         "word": "summer",
         "level": "starter",
@@ -4908,8 +4524,6 @@
         "subtext": "related to seasons climate",
         "opposite": null
     },
-
-
     {
         "word": "autumn",
         "level": "starter",
@@ -4917,7 +4531,9 @@
         "emoji": "🍂",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["fall"],
+        "synonyms": [
+            "fall"
+        ],
         "definitions": [
             {
                 "text": "The season between summer and winter.",
@@ -4929,8 +4545,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "winter",
         "level": "starter",
@@ -4949,8 +4563,6 @@
         "subtext": "related to seasons climate",
         "opposite": null
     },
-
-
     {
         "word": "lion",
         "level": "starter",
@@ -4970,8 +4582,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "elephant",
         "level": "starter",
@@ -4991,8 +4601,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "rabbit",
         "level": "starter",
@@ -5012,8 +4620,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "horse",
         "level": "starter",
@@ -5033,8 +4639,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "cow",
         "level": "starter",
@@ -5054,8 +4658,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "pig",
         "level": "starter",
@@ -5075,8 +4677,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "sheep",
         "level": "starter",
@@ -5096,8 +4696,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "lemon",
         "level": "starter",
@@ -5117,8 +4715,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "orange",
         "level": "starter",
@@ -5138,8 +4734,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "strawberry",
         "level": "starter",
@@ -5159,8 +4753,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "grape",
         "level": "starter",
@@ -5180,8 +4772,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "garlic",
         "level": "starter",
@@ -5201,8 +4791,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "always",
         "level": "starter",
@@ -5220,8 +4808,6 @@
         "subtext": "related to frequency adverbs",
         "opposite": "never"
     },
-
-
     {
         "word": "usually",
         "level": "starter",
@@ -5239,8 +4825,6 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
-
-
     {
         "word": "often",
         "level": "starter",
@@ -5258,8 +4842,6 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
-
-
     {
         "word": "sometimes",
         "level": "starter",
@@ -5277,8 +4859,6 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
-
-
     {
         "word": "never",
         "level": "starter",
@@ -5296,8 +4876,6 @@
         "subtext": "related to frequency adverbs",
         "opposite": "always"
     },
-
-
     {
         "word": "who",
         "level": "starter",
@@ -5315,8 +4893,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "what",
         "level": "starter",
@@ -5334,8 +4910,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "where",
         "level": "starter",
@@ -5353,8 +4927,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "when",
         "level": "starter",
@@ -5372,8 +4944,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "why",
         "level": "starter",
@@ -5391,8 +4961,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "how",
         "level": "starter",
@@ -5411,8 +4979,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "hello",
         "level": "starter",
@@ -5431,8 +4997,6 @@
         "countability": "countable",
         "subtext": "related to name greeting"
     },
-
-
     {
         "word": "goodbye",
         "level": "starter",
@@ -5451,8 +5015,6 @@
         "countability": "countable",
         "subtext": "related to name greeting"
     },
-
-
     {
         "word": "please",
         "level": "starter",
@@ -5470,8 +5032,6 @@
         "subtext": "related to greetings social phrases",
         "opposite": null
     },
-
-
     {
         "word": "thank you",
         "level": "starter",
@@ -5490,8 +5050,6 @@
         "subtext": "related to greetings social phrases",
         "opposite": null
     },
-
-
     {
         "word": "yes",
         "level": "starter",
@@ -5509,8 +5067,6 @@
         ],
         "subtext": "related to asking answering questions"
     },
-
-
     {
         "word": "no",
         "level": "starter",
@@ -5528,8 +5084,6 @@
         ],
         "subtext": "related to asking answering questions"
     },
-
-
     {
         "word": "name",
         "level": "starter",
@@ -5548,8 +5102,6 @@
         "subtext": "related to name greeting",
         "opposite": null
     },
-
-
     {
         "word": "bathroom",
         "level": "starter",
@@ -5569,8 +5121,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "bedroom",
         "level": "starter",
@@ -5590,8 +5140,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "baby",
         "level": "starter",
@@ -5611,8 +5159,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "boy",
         "level": "starter",
@@ -5633,8 +5179,6 @@
         "countability": "countable",
         "subtext": "related to people"
     },
-
-
     {
         "word": "girl",
         "level": "starter",
@@ -5655,8 +5199,6 @@
         "countability": "countable",
         "subtext": "related to people"
     },
-
-
     {
         "word": "boyfriend",
         "level": "starter",
@@ -5677,8 +5219,6 @@
         "countability": "countable",
         "subtext": "related to marital status"
     },
-
-
     {
         "word": "girlfriend",
         "level": "starter",
@@ -5699,8 +5239,6 @@
         "countability": "countable",
         "subtext": "related to marital status"
     },
-
-
     {
         "word": "student",
         "level": "starter",
@@ -5721,8 +5259,6 @@
         "countability": "countable",
         "subtext": "related to learning studying"
     },
-
-
     {
         "word": "classmate",
         "level": "starter",
@@ -5742,8 +5278,6 @@
         "subtext": "related to learning studying",
         "opposite": null
     },
-
-
     {
         "word": "camera",
         "level": "starter",
@@ -5763,8 +5297,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "computer",
         "level": "starter",
@@ -5784,8 +5316,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "bottle",
         "level": "starter",
@@ -5805,8 +5335,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "box",
         "level": "starter",
@@ -5826,8 +5354,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "ball",
         "level": "starter",
@@ -5847,8 +5373,6 @@
         "subtext": "related to sports equipment",
         "opposite": null
     },
-
-
     {
         "word": "gift",
         "level": "starter",
@@ -5857,7 +5381,9 @@
         "form": "noun",
         "plural": "gifts",
         "subtext": "",
-        "synonyms": ["present"],
+        "synonyms": [
+            "present"
+        ],
         "definitions": [
             {
                 "text": "Something that you give to someone, especially on a special occasion.",
@@ -5869,8 +5395,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "street",
         "level": "starter",
@@ -5890,8 +5414,6 @@
         "subtext": "related to address location",
         "opposite": null
     },
-
-
     {
         "word": "building",
         "level": "starter",
@@ -5911,8 +5433,6 @@
         "subtext": "related to address location",
         "opposite": null
     },
-
-
     {
         "word": "cafe",
         "level": "starter",
@@ -5932,8 +5452,6 @@
         "subtext": "related to local places services",
         "opposite": null
     },
-
-
     {
         "word": "centre",
         "level": "starter",
@@ -5953,8 +5471,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "butter",
         "level": "starter",
@@ -5974,8 +5490,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "cheese",
         "level": "starter",
@@ -5995,8 +5509,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "actor",
         "level": "starter",
@@ -6016,8 +5528,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "adult",
         "level": "starter",
@@ -6038,8 +5548,6 @@
         "countability": "countable",
         "subtext": "related to people"
     },
-
-
     {
         "word": "advice",
         "level": "starter",
@@ -6059,8 +5567,6 @@
         "subtext": "related to greetings social phrases",
         "opposite": null
     },
-
-
     {
         "word": "age",
         "level": "starter",
@@ -6080,8 +5586,6 @@
         "subtext": "related to age",
         "opposite": null
     },
-
-
     {
         "word": "air",
         "level": "starter",
@@ -6101,8 +5605,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "area",
         "level": "starter",
@@ -6122,8 +5624,6 @@
         "subtext": "related to address location",
         "opposite": null
     },
-
-
     {
         "word": "art",
         "level": "starter",
@@ -6143,8 +5643,6 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
-
-
     {
         "word": "band",
         "level": "starter",
@@ -6164,8 +5662,6 @@
         "subtext": "related to music",
         "opposite": null
     },
-
-
     {
         "word": "bath",
         "level": "starter",
@@ -6185,8 +5681,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "birthday",
         "level": "starter",
@@ -6206,8 +5700,6 @@
         "subtext": "related to personal identity",
         "opposite": null
     },
-
-
     {
         "word": "boat",
         "level": "starter",
@@ -6227,8 +5719,6 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
-
-
     {
         "word": "business",
         "level": "starter",
@@ -6248,8 +5738,6 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-
-
     {
         "word": "college",
         "level": "starter",
@@ -6269,8 +5757,6 @@
         "subtext": "related to types of education",
         "opposite": null
     },
-
-
     {
         "word": "company",
         "level": "starter",
@@ -6290,8 +5776,6 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-
-
     {
         "word": "concert",
         "level": "starter",
@@ -6311,8 +5795,6 @@
         "subtext": "related to music",
         "opposite": null
     },
-
-
     {
         "word": "conversation",
         "level": "starter",
@@ -6332,8 +5814,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "again",
         "level": "starter",
@@ -6351,8 +5831,6 @@
         "subtext": "related to frequency adverbs",
         "opposite": null
     },
-
-
     {
         "word": "ago",
         "level": "starter",
@@ -6370,8 +5848,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "also",
         "level": "starter",
@@ -6389,8 +5865,6 @@
         "subtext": "related to conjunctions connectors",
         "opposite": null
     },
-
-
     {
         "word": "really",
         "level": "starter",
@@ -6409,8 +5883,6 @@
         "subtext": "related to basic intensifiers",
         "opposite": null
     },
-
-
     {
         "word": "there",
         "level": "starter",
@@ -6428,8 +5900,6 @@
         "subtext": "related to prepositions place",
         "opposite": null
     },
-
-
     {
         "word": "pencil",
         "level": "starter",
@@ -6449,8 +5919,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "paper",
         "level": "starter",
@@ -6470,8 +5938,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "umbrella",
         "level": "starter",
@@ -6491,8 +5957,6 @@
         "subtext": "related to weather",
         "opposite": null
     },
-
-
     {
         "word": "glasses",
         "level": "starter",
@@ -6512,8 +5976,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "watch",
         "level": "starter",
@@ -6533,8 +5995,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "fridge",
         "level": "starter",
@@ -6543,7 +6003,9 @@
         "form": "noun",
         "plural": "fridges",
         "subtext": "",
-        "synonyms": ["refrigerator"],
+        "synonyms": [
+            "refrigerator"
+        ],
         "definitions": [
             {
                 "text": "A large piece of electrical equipment used for keeping food and drink cold.",
@@ -6555,8 +6017,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "oven",
         "level": "starter",
@@ -6576,8 +6036,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "soap",
         "level": "starter",
@@ -6597,8 +6055,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "towel",
         "level": "starter",
@@ -6618,8 +6074,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "city",
         "level": "starter",
@@ -6639,8 +6093,6 @@
         "subtext": "related to cities towns",
         "opposite": null
     },
-
-
     {
         "word": "town",
         "level": "starter",
@@ -6660,8 +6112,6 @@
         "subtext": "related to cities towns",
         "opposite": null
     },
-
-
     {
         "word": "village",
         "level": "starter",
@@ -6681,8 +6131,6 @@
         "subtext": "related to cities towns",
         "opposite": null
     },
-
-
     {
         "word": "country",
         "level": "starter",
@@ -6702,8 +6150,6 @@
         "subtext": "related to countries capitals",
         "opposite": null
     },
-
-
     {
         "word": "jeans",
         "level": "starter",
@@ -6723,8 +6169,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "belt",
         "level": "starter",
@@ -6744,8 +6188,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "with",
         "level": "starter",
@@ -6763,8 +6205,6 @@
         "subtext": "related to prepositions place",
         "emoji": "➕"
     },
-
-
     {
         "word": "without",
         "level": "starter",
@@ -6782,8 +6222,6 @@
         "subtext": "related to prepositions place",
         "emoji": "➖"
     },
-
-
     {
         "word": "to",
         "level": "starter",
@@ -6801,8 +6239,6 @@
         "opposite": null,
         "emoji": "➡️"
     },
-
-
     {
         "word": "from",
         "level": "starter",
@@ -6820,8 +6256,6 @@
         "opposite": null,
         "emoji": "⬅️"
     },
-
-
     {
         "word": "for",
         "level": "starter",
@@ -6839,8 +6273,6 @@
         "opposite": null,
         "emoji": "🎁"
     },
-
-
     {
         "word": "or",
         "level": "starter",
@@ -6858,8 +6290,6 @@
         "opposite": "and",
         "emoji": "❓"
     },
-
-
     {
         "word": "so",
         "level": "starter",
@@ -6877,8 +6307,6 @@
         "opposite": "because",
         "emoji": "💡"
     },
-
-
     {
         "word": "game",
         "level": "starter",
@@ -6898,8 +6326,6 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
-
-
     {
         "word": "music",
         "level": "starter",
@@ -6919,8 +6345,6 @@
         "subtext": "related to music",
         "opposite": null
     },
-
-
     {
         "word": "song",
         "level": "starter",
@@ -6940,8 +6364,6 @@
         "subtext": "related to music",
         "opposite": null
     },
-
-
     {
         "word": "sport",
         "level": "starter",
@@ -6961,8 +6383,6 @@
         "subtext": "related to common sports",
         "opposite": null
     },
-
-
     {
         "word": "football",
         "level": "starter",
@@ -6971,7 +6391,9 @@
         "form": "noun",
         "plural": null,
         "subtext": "",
-        "synonyms": ["soccer"],
+        "synonyms": [
+            "soccer"
+        ],
         "definitions": [
             {
                 "text": "A game played by two teams of eleven players who kick a ball.",
@@ -6983,8 +6405,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "tennis",
         "level": "starter",
@@ -7004,8 +6424,6 @@
         "subtext": "related to common sports",
         "opposite": null
     },
-
-
     {
         "word": "yesterday",
         "level": "starter",
@@ -7023,8 +6441,6 @@
         ],
         "subtext": "related to times day"
     },
-
-
     {
         "word": "now",
         "level": "starter",
@@ -7042,8 +6458,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "soon",
         "level": "starter",
@@ -7061,8 +6475,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "later",
         "level": "starter",
@@ -7080,8 +6492,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "internet",
         "level": "starter",
@@ -7101,8 +6511,6 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
-
-
     {
         "word": "website",
         "level": "starter",
@@ -7122,8 +6530,6 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
-
-
     {
         "word": "email",
         "level": "starter",
@@ -7143,8 +6549,6 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
-
-
     {
         "word": "message",
         "level": "starter",
@@ -7164,8 +6568,6 @@
         "subtext": "related to using smartphone",
         "opposite": null
     },
-
-
     {
         "word": "newspaper",
         "level": "starter",
@@ -7185,8 +6587,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "magazine",
         "level": "starter",
@@ -7206,8 +6606,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "passport",
         "level": "starter",
@@ -7227,8 +6625,6 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
-
-
     {
         "word": "ticket",
         "level": "starter",
@@ -7248,8 +6644,6 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
-
-
     {
         "word": "salt",
         "level": "starter",
@@ -7269,8 +6663,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "snack",
         "level": "starter",
@@ -7290,8 +6682,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "pear",
         "level": "starter",
@@ -7311,8 +6701,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "cucumber",
         "level": "starter",
@@ -7332,8 +6720,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "lettuce",
         "level": "starter",
@@ -7353,8 +6739,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "wall",
         "level": "starter",
@@ -7374,8 +6758,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "floor",
         "level": "starter",
@@ -7395,8 +6777,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "stairs",
         "level": "starter",
@@ -7416,8 +6796,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "map",
         "level": "starter",
@@ -7437,8 +6815,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "ruler",
         "level": "starter",
@@ -7458,8 +6834,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "mouse",
         "level": "starter",
@@ -7481,8 +6855,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "snake",
         "level": "starter",
@@ -7502,8 +6874,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "monkey",
         "level": "starter",
@@ -7523,8 +6893,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "spider",
         "level": "starter",
@@ -7544,8 +6912,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "bee",
         "level": "starter",
@@ -7565,8 +6931,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "shower",
         "level": "starter",
@@ -7586,8 +6950,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "toilet",
         "level": "starter",
@@ -7607,8 +6969,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "sink",
         "level": "starter",
@@ -7628,8 +6988,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "sofa",
         "level": "starter",
@@ -7638,7 +6996,9 @@
         "form": "noun",
         "plural": "sofas",
         "subtext": "",
-        "synonyms": ["couch"],
+        "synonyms": [
+            "couch"
+        ],
         "definitions": [
             {
                 "text": "A long soft seat for more than one person.",
@@ -7650,8 +7010,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "shelf",
         "level": "starter",
@@ -7673,8 +7031,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "toothbrush",
         "level": "starter",
@@ -7694,8 +7050,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "toothpaste",
         "level": "starter",
@@ -7715,8 +7069,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "shampoo",
         "level": "starter",
@@ -7736,8 +7088,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "history",
         "level": "starter",
@@ -7757,8 +7107,6 @@
         "subtext": "related to school subjects",
         "opposite": null
     },
-
-
     {
         "word": "science",
         "level": "starter",
@@ -7778,8 +7126,6 @@
         "subtext": "related to school subjects",
         "opposite": null
     },
-
-
     {
         "word": "maths",
         "level": "starter",
@@ -7788,7 +7134,9 @@
         "form": "noun",
         "plural": null,
         "subtext": "",
-        "synonyms": ["mathematics"],
+        "synonyms": [
+            "mathematics"
+        ],
         "definitions": [
             {
                 "text": "The study of numbers, shapes, and quantities.",
@@ -7800,8 +7148,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "geography",
         "level": "starter",
@@ -7821,8 +7167,6 @@
         "subtext": "related to school subjects",
         "opposite": null
     },
-
-
     {
         "word": "hour",
         "level": "starter",
@@ -7842,8 +7186,6 @@
         "subtext": "related to telling time",
         "opposite": null
     },
-
-
     {
         "word": "minute",
         "level": "starter",
@@ -7863,8 +7205,6 @@
         "subtext": "related to telling time",
         "opposite": null
     },
-
-
     {
         "word": "second",
         "level": "starter",
@@ -7884,8 +7224,6 @@
         "subtext": "related to telling time",
         "opposite": null
     },
-
-
     {
         "word": "lesson",
         "level": "starter",
@@ -7905,8 +7243,6 @@
         "subtext": "related to learning studying",
         "opposite": null
     },
-
-
     {
         "word": "homework",
         "level": "starter",
@@ -7926,8 +7262,6 @@
         "subtext": "related to learning studying",
         "opposite": null
     },
-
-
     {
         "word": "guitar",
         "level": "starter",
@@ -7947,8 +7281,6 @@
         "subtext": "related to music",
         "opposite": null
     },
-
-
     {
         "word": "piano",
         "level": "starter",
@@ -7968,8 +7300,6 @@
         "subtext": "related to music",
         "opposite": null
     },
-
-
     {
         "word": "forest",
         "level": "starter",
@@ -7989,8 +7319,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "island",
         "level": "starter",
@@ -8010,8 +7338,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "hill",
         "level": "starter",
@@ -8031,8 +7357,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "duck",
         "level": "starter",
@@ -8052,8 +7376,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "bear",
         "level": "starter",
@@ -8073,8 +7395,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "keyboard",
         "level": "starter",
@@ -8094,8 +7414,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "screen",
         "level": "starter",
@@ -8115,8 +7433,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "dish",
         "level": "starter",
@@ -8136,8 +7452,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "year",
         "level": "starter",
@@ -8157,8 +7471,6 @@
         "subtext": "related to dates years",
         "opposite": null
     },
-
-
     {
         "word": "dad",
         "level": "starter",
@@ -8178,8 +7490,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "mum",
         "level": "starter",
@@ -8199,8 +7509,6 @@
         "subtext": "related to immediate family",
         "opposite": null
     },
-
-
     {
         "word": "garden",
         "level": "starter",
@@ -8220,8 +7528,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "sandwich",
         "level": "starter",
@@ -8241,8 +7547,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "trip",
         "level": "starter",
@@ -8262,8 +7566,6 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
-
-
     {
         "word": "zoo",
         "level": "starter",
@@ -8283,8 +7585,6 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
-
-
     {
         "word": "dictionary",
         "level": "starter",
@@ -8304,8 +7604,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "something",
         "level": "starter",
@@ -8323,8 +7621,6 @@
         "subtext": "related to describing things",
         "opposite": null
     },
-
-
     {
         "word": "someone",
         "level": "starter",
@@ -8342,8 +7638,6 @@
         "subtext": "related to people",
         "opposite": null
     },
-
-
     {
         "word": "everyone",
         "level": "starter",
@@ -8361,8 +7655,6 @@
         "subtext": "related to people",
         "opposite": null
     },
-
-
     {
         "word": "already",
         "level": "starter",
@@ -8380,8 +7672,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "still",
         "level": "starter",
@@ -8399,8 +7689,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "yet",
         "level": "starter",
@@ -8418,8 +7706,6 @@
         "subtext": "related to duration expressions",
         "opposite": null
     },
-
-
     {
         "word": "up",
         "level": "starter",
@@ -8437,8 +7723,6 @@
         ],
         "subtext": "related to prepositions movement"
     },
-
-
     {
         "word": "down",
         "level": "starter",
@@ -8456,8 +7740,6 @@
         ],
         "subtext": "related to prepositions movement"
     },
-
-
     {
         "word": "oil",
         "level": "starter",
@@ -8477,8 +7759,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "pepper",
         "level": "starter",
@@ -8498,8 +7778,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "taxi",
         "level": "starter",
@@ -8519,8 +7797,6 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
-
-
     {
         "word": "bridge",
         "level": "starter",
@@ -8540,8 +7816,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "heart",
         "level": "starter",
@@ -8561,8 +7835,6 @@
         "subtext": "related to body parts",
         "opposite": null
     },
-
-
     {
         "word": "theatre",
         "level": "starter",
@@ -8571,7 +7843,9 @@
         "form": "noun",
         "plural": "theatres",
         "subtext": "",
-        "synonyms": ["theater"],
+        "synonyms": [
+            "theater"
+        ],
         "definitions": [
             {
                 "text": "A building with a stage where people go to watch plays.",
@@ -8583,8 +7857,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "tonight",
         "level": "starter",
@@ -8602,8 +7874,6 @@
         "subtext": "related to times day",
         "opposite": null
     },
-
-
     {
         "word": "world",
         "level": "starter",
@@ -8623,8 +7893,6 @@
         "subtext": "related to countries capitals",
         "opposite": null
     },
-
-
     {
         "word": "life",
         "level": "starter",
@@ -8644,8 +7912,6 @@
         "subtext": "related to personal identity",
         "opposite": null
     },
-
-
     {
         "word": "way",
         "level": "starter",
@@ -8666,8 +7932,6 @@
         "subtext": "related to directions navigation",
         "opposite": null
     },
-
-
     {
         "word": "thing",
         "level": "starter",
@@ -8687,8 +7951,6 @@
         "subtext": "related to describing things",
         "opposite": null
     },
-
-
     {
         "word": "place",
         "level": "starter",
@@ -8708,8 +7970,6 @@
         "subtext": "related to local places services",
         "opposite": null
     },
-
-
     {
         "word": "word",
         "level": "starter",
@@ -8729,8 +7989,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "number",
         "level": "starter",
@@ -8750,8 +8008,6 @@
         "subtext": "related to numbers 0 9",
         "opposite": null
     },
-
-
     {
         "word": "body",
         "level": "starter",
@@ -8771,8 +8027,6 @@
         "subtext": "related to health body",
         "opposite": null
     },
-
-
     {
         "word": "north",
         "level": "starter",
@@ -8791,8 +8045,6 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
-
-
     {
         "word": "south",
         "level": "starter",
@@ -8811,8 +8063,6 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
-
-
     {
         "word": "east",
         "level": "starter",
@@ -8831,8 +8081,6 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
-
-
     {
         "word": "west",
         "level": "starter",
@@ -8851,8 +8099,6 @@
         "countability": "countable",
         "subtext": "related to directions navigation"
     },
-
-
     {
         "word": "board",
         "level": "starter",
@@ -8873,8 +8119,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "eraser",
         "level": "starter",
@@ -8883,7 +8127,9 @@
         "form": "noun",
         "plural": "erasers",
         "subtext": "",
-        "synonyms": ["rubber"],
+        "synonyms": [
+            "rubber"
+        ],
         "definitions": [
             {
                 "text": "A small piece of rubber or plastic used to remove pencil marks.",
@@ -8895,8 +8141,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "pencil case",
         "level": "starter",
@@ -8916,8 +8160,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "notebook",
         "level": "starter",
@@ -8937,8 +8179,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "textbook",
         "level": "starter",
@@ -8958,8 +8198,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "backpack",
         "level": "starter",
@@ -8979,8 +8217,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "armchair",
         "level": "starter",
@@ -9000,8 +8236,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "bookcase",
         "level": "starter",
@@ -9021,8 +8255,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "cupboard",
         "level": "starter",
@@ -9042,8 +8274,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "rug",
         "level": "starter",
@@ -9063,8 +8293,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "drawer",
         "level": "starter",
@@ -9084,8 +8312,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "toy",
         "level": "starter",
@@ -9105,8 +8331,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "doll",
         "level": "starter",
@@ -9126,8 +8350,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "robot",
         "level": "starter",
@@ -9147,8 +8369,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "monster",
         "level": "starter",
@@ -9168,8 +8388,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "alien",
         "level": "starter",
@@ -9189,8 +8407,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "kite",
         "level": "starter",
@@ -9210,8 +8426,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "balloon",
         "level": "starter",
@@ -9231,8 +8445,6 @@
         "subtext": "related to toys games",
         "opposite": null
     },
-
-
     {
         "word": "hobby",
         "level": "starter",
@@ -9252,8 +8464,6 @@
         "subtext": "related to hobbies interests",
         "opposite": null
     },
-
-
     {
         "word": "pet",
         "level": "starter",
@@ -9273,8 +8483,6 @@
         "subtext": "related to pets",
         "opposite": null
     },
-
-
     {
         "word": "hamster",
         "level": "starter",
@@ -9294,8 +8502,6 @@
         "subtext": "related to pets",
         "opposite": null
     },
-
-
     {
         "word": "lizard",
         "level": "starter",
@@ -9315,8 +8521,6 @@
         "subtext": "related to pets",
         "opposite": null
     },
-
-
     {
         "word": "turtle",
         "level": "starter",
@@ -9336,8 +8540,6 @@
         "subtext": "related to pets",
         "opposite": null
     },
-
-
     {
         "word": "playground",
         "level": "starter",
@@ -9357,8 +8559,6 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
-
-
     {
         "word": "story",
         "level": "starter",
@@ -9379,8 +8579,6 @@
         "subtext": "related to books reading",
         "opposite": null
     },
-
-
     {
         "word": "painting",
         "level": "starter",
@@ -9400,8 +8598,6 @@
         "subtext": "related to places culture leisure",
         "opposite": null
     },
-
-
     {
         "word": "poster",
         "level": "starter",
@@ -9421,8 +8617,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "sentence",
         "level": "starter",
@@ -9442,8 +8636,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "question",
         "level": "starter",
@@ -9464,8 +8656,6 @@
         "subtext": "related to asking answering questions",
         "opposite": null
     },
-
-
     {
         "word": "answer",
         "level": "starter",
@@ -9485,8 +8675,6 @@
         "subtext": "related to asking answering questions",
         "opposite": "ask"
     },
-
-
     {
         "word": "page",
         "level": "starter",
@@ -9506,8 +8694,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "basketball",
         "level": "starter",
@@ -9527,8 +8713,6 @@
         "subtext": "related to common sports",
         "opposite": null
     },
-
-
     {
         "word": "baseball",
         "level": "starter",
@@ -9548,8 +8732,6 @@
         "subtext": "related to common sports",
         "opposite": null
     },
-
-
     {
         "word": "bat",
         "level": "starter",
@@ -9569,8 +8751,6 @@
         "subtext": "related to sports equipment",
         "opposite": null
     },
-
-
     {
         "word": "scooter",
         "level": "starter",
@@ -9590,8 +8770,6 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
-
-
     {
         "word": "motorbike",
         "level": "starter",
@@ -9611,8 +8789,6 @@
         "subtext": "related to modes of transport",
         "opposite": null
     },
-
-
     {
         "word": "truck",
         "level": "starter",
@@ -9621,7 +8797,9 @@
         "form": "noun",
         "plural": "trucks",
         "subtext": "",
-        "synonyms": ["lorry"],
+        "synonyms": [
+            "lorry"
+        ],
         "definitions": [
             {
                 "text": "A large, heavy vehicle with wheels used for carrying goods.",
@@ -9633,8 +8811,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "farmer",
         "level": "starter",
@@ -9654,8 +8830,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "pilot",
         "level": "starter",
@@ -9675,8 +8849,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "waiter",
         "level": "starter",
@@ -9696,8 +8868,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "waitress",
         "level": "starter",
@@ -9717,8 +8887,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "dentist",
         "level": "starter",
@@ -9738,8 +8906,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "police officer",
         "level": "starter",
@@ -9759,8 +8925,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "firefighter",
         "level": "starter",
@@ -9780,8 +8944,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "soldier",
         "level": "starter",
@@ -9801,8 +8963,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "bowl",
         "level": "starter",
@@ -9822,8 +8982,6 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
-
-
     {
         "word": "kettle",
         "level": "starter",
@@ -9843,8 +9001,6 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
-
-
     {
         "word": "pan",
         "level": "starter",
@@ -9864,8 +9020,6 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
-
-
     {
         "word": "pot",
         "level": "starter",
@@ -9885,8 +9039,6 @@
         "subtext": "related to kitchen items",
         "opposite": null
     },
-
-
     {
         "word": "crocodile",
         "level": "starter",
@@ -9906,8 +9058,6 @@
         "subtext": "related to animals",
         "opposite": null
     },
-
-
     {
         "word": "shark",
         "level": "starter",
@@ -9927,8 +9077,6 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
-
-
     {
         "word": "whale",
         "level": "starter",
@@ -9948,8 +9096,6 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
-
-
     {
         "word": "dolphin",
         "level": "starter",
@@ -9969,8 +9115,6 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
-
-
     {
         "word": "octopus",
         "level": "starter",
@@ -9990,8 +9134,6 @@
         "subtext": "related to sea animals",
         "opposite": null
     },
-
-
     {
         "word": "butterfly",
         "level": "starter",
@@ -10011,8 +9153,6 @@
         "subtext": "related to insects",
         "opposite": null
     },
-
-
     {
         "word": "ant",
         "level": "starter",
@@ -10032,8 +9172,6 @@
         "subtext": "related to insects",
         "opposite": null
     },
-
-
     {
         "word": "ocean",
         "level": "starter",
@@ -10053,8 +9191,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "desert",
         "level": "starter",
@@ -10074,8 +9210,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "jungle",
         "level": "starter",
@@ -10095,8 +9229,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "earth",
         "level": "starter",
@@ -10115,8 +9247,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "planet",
         "level": "starter",
@@ -10136,8 +9266,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "violin",
         "level": "starter",
@@ -10157,8 +9285,6 @@
         "subtext": "related to musical instruments",
         "opposite": null
     },
-
-
     {
         "word": "drums",
         "level": "starter",
@@ -10178,8 +9304,6 @@
         "subtext": "related to musical instruments",
         "opposite": null
     },
-
-
     {
         "word": "flute",
         "level": "starter",
@@ -10199,8 +9323,6 @@
         "subtext": "related to musical instruments",
         "opposite": null
     },
-
-
     {
         "word": "tie",
         "level": "starter",
@@ -10220,8 +9342,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "ring",
         "level": "starter",
@@ -10241,8 +9361,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "necklace",
         "level": "starter",
@@ -10262,8 +9380,6 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-
-
     {
         "word": "roof",
         "level": "starter",
@@ -10283,8 +9399,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "fence",
         "level": "starter",
@@ -10304,8 +9418,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "gate",
         "level": "starter",
@@ -10325,8 +9437,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "cookie",
         "level": "starter",
@@ -10335,7 +9445,9 @@
         "form": "noun",
         "plural": "cookies",
         "subtext": "",
-        "synonyms": ["biscuit"],
+        "synonyms": [
+            "biscuit"
+        ],
         "definitions": [
             {
                 "text": "A small flat sweet cake.",
@@ -10347,8 +9459,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "biscuit",
         "level": "starter",
@@ -10357,7 +9467,9 @@
         "form": "noun",
         "plural": "biscuits",
         "subtext": "",
-        "synonyms": ["cookie"],
+        "synonyms": [
+            "cookie"
+        ],
         "definitions": [
             {
                 "text": "A small flat sweet cake.",
@@ -10369,8 +9481,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "yogurt",
         "level": "starter",
@@ -10390,8 +9500,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "ham",
         "level": "starter",
@@ -10411,8 +9519,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "bacon",
         "level": "starter",
@@ -10432,8 +9538,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "sausage",
         "level": "starter",
@@ -10453,8 +9557,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "honey",
         "level": "starter",
@@ -10473,8 +9575,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "jam",
         "level": "starter",
@@ -10493,8 +9593,6 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-
-
     {
         "word": "pineapple",
         "level": "starter",
@@ -10514,8 +9612,6 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
-
-
     {
         "word": "watermelon",
         "level": "starter",
@@ -10535,8 +9631,6 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
-
-
     {
         "word": "mushroom",
         "level": "starter",
@@ -10556,8 +9650,6 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
-
-
     {
         "word": "broccoli",
         "level": "starter",
@@ -10576,8 +9668,6 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
-
-
     {
         "word": "peas",
         "level": "starter",
@@ -10597,8 +9687,6 @@
         "subtext": "related to fruits vegetables",
         "opposite": null
     },
-
-
     {
         "word": "envelope",
         "level": "starter",
@@ -10618,8 +9706,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "stamp",
         "level": "starter",
@@ -10639,8 +9725,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "stapler",
         "level": "starter",
@@ -10660,8 +9744,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "glue",
         "level": "starter",
@@ -10681,8 +9763,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "scissors",
         "level": "starter",
@@ -10702,8 +9782,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "calculator",
         "level": "starter",
@@ -10723,8 +9801,6 @@
         "subtext": "related to school stationery",
         "opposite": null
     },
-
-
     {
         "word": "washing machine",
         "level": "starter",
@@ -10744,8 +9820,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "toaster",
         "level": "starter",
@@ -10765,8 +9839,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "remote control",
         "level": "starter",
@@ -10786,8 +9858,6 @@
         "subtext": "related to household items",
         "opposite": null
     },
-
-
     {
         "word": "rainbow",
         "level": "starter",
@@ -10807,8 +9877,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "storm",
         "level": "starter",
@@ -10828,8 +9896,6 @@
         "subtext": "related to nature landscapes",
         "opposite": null
     },
-
-
     {
         "word": "pyjamas",
         "level": "starter",
@@ -10849,8 +9915,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "shorts",
         "level": "starter",
@@ -10870,8 +9934,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "trainers",
         "level": "starter",
@@ -10880,7 +9942,9 @@
         "form": "noun",
         "plural": "trainers",
         "subtext": "",
-        "synonyms": ["sneakers"],
+        "synonyms": [
+            "sneakers"
+        ],
         "definitions": [
             {
                 "text": "Soft shoes that you wear for sport or as casual clothes.",
@@ -10892,8 +9956,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "living room",
         "level": "starter",
@@ -10913,8 +9975,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "dining room",
         "level": "starter",
@@ -10934,8 +9994,6 @@
         "subtext": "related to rooms of a home",
         "opposite": null
     },
-
-
     {
         "word": "break",
         "level": "starter",
@@ -10955,8 +10013,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "globe",
         "level": "starter",
@@ -10976,8 +10032,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "address",
         "level": "starter",
@@ -10996,10 +10050,10 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[əˈdres]",
+        "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "language",
         "level": "starter",
@@ -11018,10 +10072,10 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈlæŋɡwɪdʒ]",
+        "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "clothes",
         "level": "starter",
@@ -11040,10 +10094,10 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[kləʊðz]",
+        "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "furniture",
         "level": "starter",
@@ -11062,10 +10116,10 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈfɜːnɪtʃə(r)]",
+        "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "information",
         "level": "starter",
@@ -11084,10 +10138,10 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˌɪnfəˈmeɪʃn]",
+        "image": "https://images.unsplash.com/photo-1454165833762-0204b28c6721?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "nature",
         "level": "starter",
@@ -11106,10 +10160,10 @@
         ],
         "countability": "uncountable",
         "subtext": "related to nature landscapes",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈneɪtʃə(r)]",
+        "image": "https://images.unsplash.com/photo-1441974231535-c0d12198cab1?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "weather",
         "level": "starter",
@@ -11128,10 +10182,10 @@
             }
         ],
         "countability": "uncountable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈweðə(r)]",
+        "image": "https://images.unsplash.com/photo-1530908295418-a12e326966ba?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "temperature",
         "level": "starter",
@@ -11150,10 +10204,10 @@
             }
         ],
         "countability": "countable",
-        "opposite": null
+        "opposite": null,
+        "transcription": "[ˈtemprətʃə(r)]",
+        "image": "https://images.unsplash.com/photo-1542152863-71869e061803?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "first name",
         "level": "starter",
@@ -11162,8 +10216,10 @@
         "form": "noun",
         "plural": "first names",
         "opposite": null,
-        "subtext": "",
-        "synonyms": ["given name"],
+        "subtext": "legal name",
+        "synonyms": [
+            "given name"
+        ],
         "definitions": [
             {
                 "text": "The name that was given to you when you were born and that comes before your family name.",
@@ -11173,10 +10229,10 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "[fɜːst neɪm]",
+        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "surname",
         "level": "starter",
@@ -11195,10 +10251,10 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "[ˈsɜːneɪm]",
+        "image": "https://images.unsplash.com/photo-1519085116126-578304bc2d48?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "snow",
         "level": "starter",
@@ -11219,8 +10275,6 @@
         "subtext": "related to weather",
         "opposite": null
     },
-
-
     {
         "word": "news",
         "level": "starter",
@@ -11241,8 +10295,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "bookshop",
         "level": "starter",
@@ -11251,7 +10303,9 @@
         "form": "noun",
         "plural": "bookshops",
         "subtext": "",
-        "synonyms": ["bookstore"],
+        "synonyms": [
+            "bookstore"
+        ],
         "definitions": [
             {
                 "text": "A shop where you can buy books.",
@@ -11263,8 +10317,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "date",
         "level": "starter",
@@ -11284,8 +10336,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "exam",
         "level": "starter",
@@ -11305,8 +10355,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "example",
         "level": "starter",
@@ -11326,8 +10374,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "film",
         "level": "starter",
@@ -11347,8 +10393,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "idea",
         "level": "starter",
@@ -11368,8 +10412,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "letter",
         "level": "starter",
@@ -11389,8 +10431,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "list",
         "level": "starter",
@@ -11410,8 +10450,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "meal",
         "level": "starter",
@@ -11431,8 +10469,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "movie",
         "level": "starter",
@@ -11452,8 +10488,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "party",
         "level": "starter",
@@ -11473,8 +10507,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "photo",
         "level": "starter",
@@ -11494,8 +10526,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "picture",
         "level": "starter",
@@ -11515,8 +10545,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "road",
         "level": "starter",
@@ -11536,8 +10564,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "test",
         "level": "starter",
@@ -11557,8 +10583,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "university",
         "level": "starter",
@@ -11578,8 +10602,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "writer",
         "level": "starter",
@@ -11599,8 +10621,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "suitcase",
         "level": "starter",
@@ -11620,8 +10640,6 @@
         "subtext": "related to travel vocabulary basics",
         "opposite": null
     },
-
-
     {
         "word": "purse",
         "level": "starter",
@@ -11641,8 +10659,6 @@
         "subtext": "related to everyday shopping",
         "opposite": null
     },
-
-
     {
         "word": "pocket",
         "level": "starter",
@@ -11662,8 +10678,6 @@
         "subtext": "related to items of clothing",
         "opposite": null
     },
-
-
     {
         "word": "comb",
         "level": "starter",
@@ -11683,8 +10697,6 @@
         "subtext": "related to furniture objects",
         "opposite": null
     },
-
-
     {
         "word": "skill",
         "level": "starter",
@@ -11704,8 +10716,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "opinion",
         "level": "starter",
@@ -11725,8 +10735,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "apartment",
         "level": "starter",
@@ -11746,8 +10754,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "bicycle",
         "level": "starter",
@@ -11767,8 +10773,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "mobile",
         "level": "starter",
@@ -11788,8 +10792,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "class",
         "level": "starter",
@@ -11809,8 +10811,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "classroom",
         "level": "starter",
@@ -11830,8 +10830,6 @@
         "subtext": "related to classroom language",
         "opposite": null
     },
-
-
     {
         "word": "staff",
         "level": "starter",
@@ -11840,7 +10838,10 @@
         "form": "noun",
         "plural": null,
         "subtext": "",
-        "synonyms": ["employees", "workers"],
+        "synonyms": [
+            "employees",
+            "workers"
+        ],
         "definitions": [
             {
                 "text": "The group of people who work for an organization.",
@@ -11852,8 +10853,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "customer",
         "level": "starter",
@@ -11873,8 +10872,6 @@
         "subtext": "related to everyday shopping",
         "opposite": null
     },
-
-
     {
         "word": "guest",
         "level": "starter",
@@ -11894,8 +10891,6 @@
         "subtext": "related to leisure activities",
         "opposite": null
     },
-
-
     {
         "word": "career",
         "level": "starter",
@@ -11915,8 +10910,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "profession",
         "level": "starter",
@@ -11925,7 +10918,10 @@
         "form": "noun",
         "plural": "professions",
         "subtext": "",
-        "synonyms": ["job", "career"],
+        "synonyms": [
+            "job",
+            "career"
+        ],
         "definitions": [
             {
                 "text": "A type of job that needs special training or a high level of education.",
@@ -11937,8 +10933,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "wage",
         "level": "starter",
@@ -11947,7 +10941,10 @@
         "form": "noun",
         "plural": "wages",
         "subtext": "",
-        "synonyms": ["salary", "pay"],
+        "synonyms": [
+            "salary",
+            "pay"
+        ],
         "definitions": [
             {
                 "text": "The amount of money that is paid to a worker, usually for each hour or week.",
@@ -11959,8 +10956,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "factory",
         "level": "starter",
@@ -11980,8 +10975,6 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-
-
     {
         "word": "file",
         "level": "starter",
@@ -12001,8 +10994,6 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-
-
     {
         "word": "document",
         "level": "starter",
@@ -12022,8 +11013,6 @@
         "subtext": "related to workplace basics",
         "opposite": null
     },
-
-
     {
         "word": "radio",
         "level": "starter",
@@ -12043,8 +11032,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "printer",
         "level": "starter",
@@ -12064,8 +11051,6 @@
         "subtext": "related to basic technology devices",
         "opposite": null
     },
-
-
     {
         "word": "dessert",
         "level": "starter",
@@ -12074,7 +11059,9 @@
         "form": "noun",
         "plural": "desserts",
         "subtext": "",
-        "synonyms": ["sweet dish"],
+        "synonyms": [
+            "sweet dish"
+        ],
         "definitions": [
             {
                 "text": "Sweet food eaten at the end of a meal.",
@@ -12086,8 +11073,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "shoes",
         "level": "starter",
@@ -12107,8 +11092,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "jewelry",
         "level": "starter",
@@ -12128,8 +11111,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "nephew",
         "level": "starter",
@@ -12149,8 +11130,6 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
-
-
     {
         "word": "niece",
         "level": "starter",
@@ -12170,8 +11149,6 @@
         "countability": "countable",
         "subtext": "related to extended family"
     },
-
-
     {
         "word": "teenager",
         "level": "starter",
@@ -12191,8 +11168,6 @@
         "subtext": "related to people",
         "opposite": null
     },
-
-
     {
         "word": "professor",
         "level": "starter",
@@ -12212,8 +11187,6 @@
         "subtext": "related to job titles professions",
         "opposite": null
     },
-
-
     {
         "word": "month",
         "level": "starter",
@@ -12233,8 +11206,6 @@
         "subtext": "related to dates years",
         "opposite": null
     },
-
-
     {
         "word": "excuse me",
         "level": "starter",
@@ -12242,7 +11213,9 @@
         "emoji": "👋",
         "form": "phrase",
         "subtext": "",
-        "synonyms": ["pardon me"],
+        "synonyms": [
+            "pardon me"
+        ],
         "definitions": [
             {
                 "text": "A polite way of starting to talk to someone you do not know.",
@@ -12253,8 +11226,6 @@
         ],
         "opposite": null
     },
-
-
     {
         "word": "above",
         "level": "starter",
@@ -12272,8 +11243,6 @@
         "subtext": "related to prepositions place",
         "emoji": "⬆️"
     },
-
-
     {
         "word": "below",
         "level": "starter",
@@ -12291,8 +11260,6 @@
         "subtext": "related to prepositions place",
         "emoji": "⬇️"
     },
-
-
     {
         "word": "inside",
         "level": "starter",
@@ -12310,8 +11277,6 @@
         "subtext": "related to prepositions place",
         "emoji": "🏠"
     },
-
-
     {
         "word": "outside",
         "level": "starter",
@@ -12329,8 +11294,6 @@
         "subtext": "related to prepositions place",
         "emoji": "🌳"
     },
-
-
     {
         "word": "during",
         "level": "starter",
@@ -12348,8 +11311,6 @@
         "opposite": null,
         "emoji": "⌛"
     },
-
-
     {
         "word": "before",
         "level": "starter",
@@ -12367,8 +11328,6 @@
         "subtext": "related to prepositions time",
         "emoji": "⏮️"
     },
-
-
     {
         "word": "after",
         "level": "starter",
@@ -12386,8 +11345,6 @@
         "subtext": "related to prepositions time",
         "emoji": "⏭️"
     },
-
-
     {
         "word": "top",
         "level": "starter",
@@ -12406,8 +11363,6 @@
         "countability": "uncountable",
         "subtext": "related to size shape"
     },
-
-
     {
         "word": "bottom",
         "level": "starter",
@@ -12426,8 +11381,6 @@
         "countability": "uncountable",
         "subtext": "related to size shape"
     },
-
-
     {
         "word": "first",
         "level": "starter",
@@ -12445,8 +11398,6 @@
         ],
         "subtext": "related to sequence order A2"
     },
-
-
     {
         "word": "last",
         "level": "starter",
@@ -12464,8 +11415,6 @@
         ],
         "subtext": "related to sequence order A2"
     },
-
-
     {
         "word": "next",
         "level": "starter",
@@ -12483,8 +11432,6 @@
         ],
         "subtext": "related to sequence order A2"
     },
-
-
     {
         "word": "animal",
         "level": "starter",
@@ -12493,7 +11440,9 @@
         "form": "noun",
         "plural": "animals",
         "subtext": "wild animal / pet animal",
-        "synonyms": ["creature"],
+        "synonyms": [
+            "creature"
+        ],
         "definitions": [
             {
                 "text": "A living thing that can move and eat.",
@@ -12506,8 +11455,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "chips",
         "level": "starter",
@@ -12516,7 +11463,9 @@
         "form": "noun",
         "plural": "chips",
         "subtext": "",
-        "synonyms": ["french fries"],
+        "synonyms": [
+            "french fries"
+        ],
         "definitions": [
             {
                 "text": "Long thin pieces of potato cooked in oil.",
@@ -12528,8 +11477,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "fries",
         "level": "starter",
@@ -12549,8 +11496,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "gym",
         "level": "starter",
@@ -12559,7 +11504,9 @@
         "form": "noun",
         "plural": "gyms",
         "subtext": "go to the gym",
-        "synonyms": ["fitness center"],
+        "synonyms": [
+            "fitness center"
+        ],
         "definitions": [
             {
                 "text": "A room or building with equipment for doing physical exercise.",
@@ -12571,8 +11518,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "fire",
         "level": "starter",
@@ -12581,7 +11526,9 @@
         "form": "noun",
         "plural": "fires",
         "subtext": "start a fire",
-        "synonyms": ["flames"],
+        "synonyms": [
+            "flames"
+        ],
         "definitions": [
             {
                 "text": "Heat and light from something burning.",
@@ -12593,8 +11540,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "group",
         "level": "starter",
@@ -12603,7 +11548,9 @@
         "form": "noun",
         "plural": "groups",
         "subtext": "a small group / group work",
-        "synonyms": ["set"],
+        "synonyms": [
+            "set"
+        ],
         "definitions": [
             {
                 "text": "A number of people or things that are together.",
@@ -12615,8 +11562,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "ice",
         "level": "starter",
@@ -12624,7 +11569,9 @@
         "emoji": "🧊",
         "form": "noun",
         "subtext": "ice cube",
-        "synonyms": ["frozen water"],
+        "synonyms": [
+            "frozen water"
+        ],
         "definitions": [
             {
                 "text": "Water that has frozen and become solid.",
@@ -12636,8 +11583,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "police",
         "level": "starter",
@@ -12656,8 +11601,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "traffic",
         "level": "starter",
@@ -12665,7 +11608,10 @@
         "emoji": "🚗",
         "form": "noun",
         "subtext": "heavy traffic",
-        "synonyms": ["cars", "vehicles"],
+        "synonyms": [
+            "cars",
+            "vehicles"
+        ],
         "definitions": [
             {
                 "text": "The cars, trucks, and other vehicles using a road.",
@@ -12677,8 +11623,6 @@
         "countability": "uncountable",
         "opposite": null
     },
-
-
     {
         "word": "actress",
         "level": "starter",
@@ -12687,7 +11631,9 @@
         "form": "noun",
         "plural": "actresses",
         "subtext": "famous actress",
-        "synonyms": ["actor"],
+        "synonyms": [
+            "actor"
+        ],
         "definitions": [
             {
                 "text": "A woman who performs in a play or movie.",
@@ -12699,8 +11645,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "farm",
         "level": "starter",
@@ -12709,7 +11653,9 @@
         "form": "noun",
         "plural": "farms",
         "subtext": "work on a farm",
-        "synonyms": ["countryside"],
+        "synonyms": [
+            "countryside"
+        ],
         "definitions": [
             {
                 "text": "An area of land used for growing crops and keeping animals.",
@@ -12721,8 +11667,6 @@
         "countability": "countable",
         "opposite": null
     },
-
-
     {
         "word": "blanket",
         "level": "starter",
@@ -12740,10 +11684,11 @@
         ],
         "countability": "countable",
         "subtext": "",
-        "synonyms": ["bedding", "keep warm"]
+        "synonyms": [
+            "bedding",
+            "keep warm"
+        ]
     },
-
-
     {
         "word": "pillow",
         "level": "starter",
@@ -12761,10 +11706,10 @@
         ],
         "countability": "countable",
         "subtext": "soft pillow",
-        "synonyms": ["bedding"]
+        "synonyms": [
+            "bedding"
+        ]
     },
-
-
     {
         "word": "present",
         "level": "starter",
@@ -12782,10 +11727,10 @@
         ],
         "countability": "countable",
         "subtext": "birthday present",
-        "synonyms": ["gift"]
+        "synonyms": [
+            "gift"
+        ]
     },
-
-
     {
         "word": "carpet",
         "level": "starter",
@@ -12803,10 +11748,11 @@
         ],
         "countability": "countable",
         "subtext": "",
-        "synonyms": ["floor covering", "rug"]
+        "synonyms": [
+            "floor covering",
+            "rug"
+        ]
     },
-
-
     {
         "word": "battery",
         "level": "starter",
@@ -12824,10 +11770,11 @@
         ],
         "countability": "countable",
         "subtext": "",
-        "synonyms": ["power source", "charging"]
+        "synonyms": [
+            "power source",
+            "charging"
+        ]
     },
-
-
     {
         "word": "charger",
         "level": "starter",
@@ -12845,10 +11792,10 @@
         ],
         "countability": "countable",
         "subtext": "",
-        "synonyms": ["charging cable"]
+        "synonyms": [
+            "charging cable"
+        ]
     },
-
-
     {
         "word": "calendar",
         "level": "starter",
@@ -12866,10 +11813,10 @@
         ],
         "countability": "countable",
         "subtext": "",
-        "synonyms": ["date planner"]
+        "synonyms": [
+            "date planner"
+        ]
     },
-
-
     {
         "word": "tape",
         "level": "starter",
@@ -12888,8 +11835,6 @@
         "countability": "uncountable",
         "subtext": "sticky tape"
     },
-
-
     {
         "word": "sheet",
         "level": "starter",
@@ -12907,9 +11852,15022 @@
         ],
         "countability": "countable",
         "subtext": "bed sheet",
-        "synonyms": ["linen"]
+        "synonyms": [
+            "linen"
+        ]
+    },
+    {
+        "word": "nurse",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "nurses",
+        "transcription": "[n˃ːs]",
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "A person whose job is to care for people who are ill or injured, especially in a hospital.",
+                "examples": [
+                    "The nurse gave him some medicine."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "hospital nurse, school nurse"
+    },
+    {
+        "word": "engineer",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🧑‍💻",
+        "form": "noun",
+        "plural": "engineers",
+        "transcription": "[ˌendʒɪˈnɪə(r)]",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "A person whose job involves designing and building machines, systems, or structures.",
+                "examples": [
+                    "He is a software engineer."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "civil engineer, electrical engineer"
+    },
+    {
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "chefs",
+        "transcription": "[ʃef]",
+        "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "A skilled and trained cook who works in a hotel or restaurant.",
+                "examples": [
+                    "The chef prepared a delicious meal."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "head chef, pastry chef"
+    },
+    {
+        "word": "grapes",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🍇",
+        "form": "noun",
+        "plural": "grapes",
+        "transcription": "[ɡreɪps]",
+        "image": "https://images.unsplash.com/photo-1537084642907-629340c7e59c?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "Small round green or purple fruits that grow in bunches.",
+                "examples": [
+                    "I love eating sweet grapes."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "a bunch of grapes"
+    },
+    {
+        "word": "corn",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🌽",
+        "form": "noun",
+        "plural": null,
+        "transcription": "[kɔːn]",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "A tall plant that produces yellow seeds eaten as a vegetable.",
+                "examples": [
+                    "We had grilled corn for dinner."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "sweet corn"
+    },
+    {
+        "word": "be",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👤",
+        "subtext": "be tired / be happy / be at work / be ready",
+        "form": "verb",
+        "transcription": "biː",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To exist; to have a quality or state.",
+                "examples": [
+                    "I am tired.",
+                    "She is a doctor.",
+                    "We are late."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "was / were",
+        "v3": "been",
+        "group": "irregular",
+        "opposite": "become"
+    },
+    {
+        "word": "have",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👜",
+        "subtext": "have a job / have lunch / have a problem / have time",
+        "form": "verb",
+        "transcription": "hæv",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To possess something; to experience something.",
+                "examples": [
+                    "I have a job.",
+                    "He has a car.",
+                    "She has a headache."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "had",
+        "v3": "had",
+        "group": "irregular",
+        "opposite": "need"
+    },
+    {
+        "word": "feel",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🌡️",
+        "subtext": "feel tired / feel better / feel ill / feel stressed",
+        "form": "verb",
+        "transcription": "fiːl",
+        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To experience a physical or emotional state.",
+                "examples": [
+                    "She feels exhausted after a long week."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "felt",
+        "v3": "felt",
+        "group": "irregular",
+        "opposite": "act"
+    },
+    {
+        "word": "give",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🎁",
+        "subtext": "give advice / give money / give a present / give information",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "transcription": "ɡɪv",
+        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To hand or transfer something to someone.",
+                "examples": [
+                    "He gives me a lot of work.",
+                    "She gives advice."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "gave",
+        "v3": "given",
+        "group": "irregular"
+    },
+    {
+        "word": "take",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "👜",
+        "subtext": "take the bus / take medicine / take a break / take time",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "transcription": "teɪk",
+        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To hold and move something; to use or consume.",
+                "examples": [
+                    "I take the bus to work.",
+                    "She takes medicine."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "took",
+        "v3": "taken",
+        "group": "irregular"
+    },
+    {
+        "word": "get",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📥",
+        "subtext": "get a job / get tired / get better / get home",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To receive, obtain or become.",
+                "examples": [
+                    "I get a good salary.",
+                    "He gets tired quickly.",
+                    "She gets a promotion."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "got",
+        "v3": "got / gotten",
+        "group": "irregular"
+    },
+    {
+        "word": "put",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "📥",
+        "subtext": "put on / put away / put the phone down / put money aside",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To place something in a position.",
+                "examples": [
+                    "Put your bag here.",
+                    "She puts money in the bank."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "put",
+        "v3": "put",
+        "group": "irregular"
+    },
+    {
+        "word": "make",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏗️",
+        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To create or produce something; to cause something.",
+                "examples": [
+                    "I make coffee in the morning.",
+                    "She makes a decision."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "made",
+        "v3": "made",
+        "group": "irregular",
+        "opposite": "destroy"
+    },
+    {
+        "word": "do",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perform an action or activity.",
+                "examples": [
+                    "I do my work every day.",
+                    "She does the shopping."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "did",
+        "v3": "done",
+        "group": "irregular",
+        "opposite": "undo"
+    },
+    {
+        "word": "use",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🛠️",
+        "subtext": "use a phone / use public transport / use a computer / use time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To employ something for a purpose.",
+                "examples": [
+                    "I use my phone for everything.",
+                    "She uses public transport."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "used",
+        "v3": "used",
+        "group": "regular",
+        "opposite": "waste"
+    },
+    {
+        "word": "open",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📖",
+        "subtext": "open a door / open an account / open a shop / open at nine",
+        "opposite": "closed",
+        "oppositeEmoji": "🔒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something not closed; or to start.",
+                "examples": [
+                    "He opens the office at eight.",
+                    "She opens a bank account."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "opened",
+        "v3": "opened",
+        "group": "regular"
+    },
+    {
+        "word": "close",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🔒",
+        "subtext": "close a door / close at six / close an account / close the meeting",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something not open; or to finish.",
+                "examples": [
+                    "The office closes at six.",
+                    "She closes her laptop."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "closed",
+        "v3": "closed",
+        "group": "regular"
+    },
+    {
+        "word": "start",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "subtext": "start work / start a meeting / start a new job",
+        "opposite": "stop",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To begin an activity or period.",
+                "examples": [
+                    "I start work at eight thirty. She starts a new role next month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "started",
+        "v3": "started",
+        "group": "regular"
+    },
+    {
+        "word": "finish",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "subtext": "finish work / finish a project / finish early / finish late",
+        "opposite": "end",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To complete something.",
+                "examples": [
+                    "He finishes work at five. She finishes the report by noon."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "finished",
+        "v3": "finished",
+        "group": "regular"
+    },
+    {
+        "word": "help",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "subtext": "help someone / help with a task / help out / ask for help",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make it easier for someone to do something.",
+                "examples": [
+                    "He helps new colleagues understand the systems."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "helped",
+        "v3": "helped",
+        "group": "regular",
+        "opposite": "hinder"
+    },
+    {
+        "word": "try",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎯",
+        "subtext": "try to do / try hard / try something new / give it a try",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To attempt to do something; to test something.",
+                "examples": [
+                    "I always try to reply to all messages within an hour."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "tried",
+        "v3": "tried",
+        "group": "regular",
+        "opposite": "give up"
+    },
+    {
+        "word": "show",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "📽️",
+        "subtext": "show someone how / show a document / show interest",
+        "opposite": "hide",
+        "oppositeEmoji": "🙈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To let someone see or demonstrate something.",
+                "examples": [
+                    "Can you show me how the system works?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "showed",
+        "v3": "shown",
+        "group": "irregular"
+    },
+    {
+        "word": "find",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🔍",
+        "subtext": "find a job / find out / find it difficult / find time",
+        "opposite": "lose",
+        "oppositeEmoji": "📉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To discover or locate something.",
+                "examples": [
+                    "I find the work interesting.",
+                    "She found a new job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "found",
+        "v3": "found",
+        "group": "irregular"
+    },
+    {
+        "word": "keep",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📦",
+        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To continue having or doing something.",
+                "examples": [
+                    "Keep the receipt.",
+                    "She keeps her phone on all day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "kept",
+        "v3": "kept",
+        "group": "irregular",
+        "opposite": "give away"
+    },
+    {
+        "word": "lose",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📉",
+        "subtext": "lose a job / lose money / lose weight / lose time",
+        "opposite": "win",
+        "oppositeEmoji": "🔍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To no longer have something.",
+                "examples": [
+                    "I lost my keys.",
+                    "She lost her job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lost",
+        "v3": "lost",
+        "group": "irregular"
+    },
+    {
+        "word": "cut",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "✂️",
+        "subtext": "cut costs / cut spending / cut short / cut in half",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To divide with something sharp; to reduce.",
+                "examples": [
+                    "She cuts her lunch break short.",
+                    "It cuts costs."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "cut",
+        "v3": "cut",
+        "group": "irregular",
+        "opposite": "join"
+    },
+    {
+        "word": "turn",
+        "level": "starter",
+        "theme": "directions_navigation_A1",
+        "emoji": "🔄",
+        "subtext": "turn on / turn off / turn left / turn right",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move in a direction; to change state.",
+                "examples": [
+                    "Turn left at the office.",
+                    "She turns off the light."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned",
+        "v3": "turned",
+        "group": "regular",
+        "opposite": "straighten"
+    },
+    {
+        "word": "bring",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🎁",
+        "subtext": "bring someone / bring food / bring a document / bring up",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To carry something to a place.",
+                "examples": [
+                    "Bring your ID to the interview.",
+                    "He brings lunch."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "brought",
+        "v3": "brought",
+        "group": "irregular"
+    },
+    {
+        "word": "say",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🗨️",
+        "subtext": "say hello / say yes / say no / say something",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To express something in words.",
+                "examples": [
+                    "She says hello every morning.",
+                    "He says it is difficult."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "said",
+        "v3": "said",
+        "group": "irregular",
+        "opposite": "listen"
+    },
+    {
+        "word": "tell",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "🗣️",
+        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give information or instructions to someone.",
+                "examples": [
+                    "She tells the team about changes before they happen."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "told",
+        "v3": "told",
+        "group": "irregular",
+        "opposite": "ask"
+    },
+    {
+        "word": "ask",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "opposite": "answer",
+        "oppositeEmoji": "📞",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put a question or make a request.",
+                "examples": [
+                    "She asks for feedback after every presentation."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "asked",
+        "v3": "asked",
+        "group": "regular"
+    },
+    {
+        "word": "speak",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🗣️",
+        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say words; to communicate verbally.",
+                "examples": [
+                    "He speaks French.",
+                    "She speaks to her manager every day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spoke",
+        "v3": "spoken",
+        "group": "irregular",
+        "opposite": "be silent"
+    },
+    {
+        "word": "talk",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "💬",
+        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To communicate by speaking.",
+                "examples": [
+                    "He talks to his manager about the problem."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "talked",
+        "v3": "talked",
+        "group": "regular",
+        "opposite": "listen"
+    },
+    {
+        "word": "call",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📞",
+        "subtext": "call someone / call back / call a meeting / call in sick",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To telephone someone.",
+                "examples": [
+                    "I call my clients every morning before checking emails."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "called",
+        "v3": "called",
+        "group": "regular",
+        "opposite": "hang up"
+    },
+    {
+        "word": "write",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "✍️",
+        "subtext": "write an email / write a report / write a letter / write notes",
+        "opposite": "read",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put words on paper or screen.",
+                "examples": [
+                    "I write emails all day.",
+                    "She writes a report every Friday."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "wrote",
+        "v3": "written",
+        "group": "irregular"
+    },
+    {
+        "word": "read",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "read a book / read the news / read a contract / read carefully",
+        "opposite": "write",
+        "oppositeEmoji": "✍️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To look at and understand written words.",
+                "examples": [
+                    "She reads the news every morning.",
+                    "He reads contracts."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "read",
+        "v3": "read",
+        "group": "irregular"
+    },
+    {
+        "word": "listen",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎧",
+        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To pay attention to sounds or speech.",
+                "examples": [
+                    "I listen to podcasts at work.",
+                    "She listens carefully."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "listened",
+        "v3": "listened",
+        "group": "regular",
+        "opposite": "say"
+    },
+    {
+        "word": "answer",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "📞",
+        "subtext": "answer a question / answer the phone / answer an email",
+        "opposite": "ask",
+        "oppositeEmoji": "❓",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To respond to a question or communication.",
+                "examples": [
+                    "He answers all emails quickly.",
+                    "She answered the phone."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "answered",
+        "v3": "answered",
+        "group": "regular"
+    },
+    {
+        "word": "repeat",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔁",
+        "subtext": "repeat that / repeat yourself / repeat an order",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say or do something again.",
+                "examples": [
+                    "Please repeat that.",
+                    "He repeated the instruction twice."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "repeated",
+        "v3": "repeated",
+        "group": "regular",
+        "opposite": "change"
+    },
+    {
+        "word": "go",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🚶",
+        "subtext": "go to work / go home / go out / go shopping",
+        "opposite": "come",
+        "oppositeEmoji": "🏃‍♂️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move from one place to another.",
+                "examples": [
+                    "I go to work by bus.",
+                    "She goes to the doctor."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "went",
+        "v3": "gone",
+        "group": "irregular",
+        "transcription": "[ɡəʊ]",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        "word": "come",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🏃‍♂️",
+        "subtext": "come home / come to work / come back / come here",
+        "opposite": "go",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move towards a place or person.",
+                "examples": [
+                    "He comes to the office at nine.",
+                    "She comes home late."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "came",
+        "v3": "come",
+        "group": "irregular",
+        "transcription": "[kʌm]",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        "word": "walk",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚶",
+        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "opposite": "run",
+        "oppositeEmoji": "🏃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move on foot at a normal pace.",
+                "examples": [
+                    "He walks to work every day.",
+                    "She walks during her lunch break."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "walked",
+        "v3": "walked",
+        "group": "regular"
+    },
+    {
+        "word": "drive",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚗",
+        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To operate a vehicle.",
+                "examples": [
+                    "She drives to work.",
+                    "He drives a company car."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drove",
+        "v3": "driven",
+        "group": "irregular",
+        "opposite": "walk"
+    },
+    {
+        "word": "fly",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "✈️",
+        "subtext": "fly to a city / fly business class / fly economy",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To travel by plane.",
+                "examples": [
+                    "She flies to Paris for meetings.",
+                    "He hates flying."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "flew",
+        "v3": "flown",
+        "group": "irregular",
+        "opposite": "land"
+    },
+    {
+        "word": "arrive",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "opposite": "leave",
+        "oppositeEmoji": "🚪",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To reach a destination.",
+                "examples": [
+                    "He arrives at the office at nine. The train arrives on time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "arrived",
+        "v3": "arrived",
+        "group": "regular"
+    },
+    {
+        "word": "leave",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🚪",
+        "subtext": "leave home / leave work / leave early / leave late",
+        "opposite": "arrive",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go away from a place.",
+                "examples": [
+                    "I leave the house at eight fifteen. She leaves work at six."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "left",
+        "v3": "left",
+        "group": "irregular"
+    },
+    {
+        "word": "move",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "📦",
+        "subtext": "move to a new place / move in / move out / move house",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go to live or work in a different place.",
+                "examples": [
+                    "They moved to a larger flat when they had children."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "moved",
+        "v3": "moved",
+        "group": "regular",
+        "opposite": "stay"
+    },
+    {
+        "word": "return",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🔙",
+        "subtext": "return home / return to work / return a call / return from",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To come or go back to a place.",
+                "examples": [
+                    "He returns from a trip on Friday.",
+                    "She returned the call."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "returned",
+        "v3": "returned",
+        "group": "regular",
+        "opposite": "leave"
+    },
+    {
+        "word": "travel",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "✈️",
+        "subtext": "travel for work / travel abroad / travel by train",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go from one place to another, especially far.",
+                "examples": [
+                    "She travels for work three times a month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "traveled",
+        "v3": "traveled",
+        "group": "regular",
+        "opposite": "stay"
+    },
+    {
+        "word": "eat",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🍎",
+        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "opposite": "drink",
+        "oppositeEmoji": "🥛",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put food in your mouth and swallow it.",
+                "examples": [
+                    "We eat dinner at seven.",
+                    "He eats lunch at his desk."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ate",
+        "v3": "eaten",
+        "group": "irregular"
+    },
+    {
+        "word": "drink",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "emoji": "🥛",
+        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "opposite": "eat",
+        "oppositeEmoji": "🍎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take liquid into your mouth and swallow it.",
+                "examples": [
+                    "She drinks coffee every morning.",
+                    "I drink water."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drank",
+        "v3": "drunk",
+        "group": "irregular"
+    },
+    {
+        "word": "sleep",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "😴",
+        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
+        "opposite": "wake up",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To rest with your eyes closed in a natural state of unconsciousness.",
+                "examples": [
+                    "He sleeps seven hours a night.",
+                    "I sleep badly."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "slept",
+        "v3": "slept",
+        "group": "irregular"
+    },
+    {
+        "word": "cook",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "🍳",
+        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To prepare food by heating it.",
+                "examples": [
+                    "She cooks dinner every evening. I do not cook — I order food."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cooked",
+        "v3": "cooked",
+        "group": "regular",
+        "opposite": "eat"
+    },
+    {
+        "word": "clean",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧹",
+        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To remove dirt from something.",
+                "examples": [
+                    "I clean the flat every Saturday. He cleans his desk every morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cleaned",
+        "v3": "cleaned",
+        "group": "regular",
+        "opposite": "dirty"
+    },
+    {
+        "word": "wear",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "subtext": "wear a suit / wear glasses / wear casual clothes",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have clothing or accessories on your body.",
+                "examples": [
+                    "She wears a suit to work.",
+                    "He wears glasses."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "wore",
+        "v3": "worn",
+        "group": "irregular",
+        "opposite": "undress"
+    },
+    {
+        "word": "wash",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧼",
+        "subtext": "wash the dishes / wash clothes / wash your hands",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To clean something with water.",
+                "examples": [
+                    "He washes his car every Sunday.",
+                    "Wash your hands."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "washed",
+        "v3": "washed",
+        "group": "regular",
+        "opposite": "dirty"
+    },
+    {
+        "word": "buy",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🛒",
+        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "opposite": "sell",
+        "oppositeEmoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something in exchange for money.",
+                "examples": [
+                    "She buys food online.",
+                    "He wants to buy a flat."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "bought",
+        "v3": "bought",
+        "group": "irregular"
+    },
+    {
+        "word": "pay",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💳",
+        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give money in exchange for something.",
+                "examples": [
+                    "I pay my bills by direct debit."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "paid",
+        "v3": "paid",
+        "group": "irregular",
+        "opposite": "receive"
+    },
+    {
+        "word": "spend",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "subtext": "spend money / spend on food / spend on rent / spend time",
+        "opposite": "save",
+        "oppositeEmoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use money to pay for things.",
+                "examples": [
+                    "He spends too much money on takeaway food."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spent",
+        "v3": "spent",
+        "group": "irregular"
+    },
+    {
+        "word": "save",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "save money / save for a holiday / save for a house",
+        "opposite": "spend",
+        "oppositeEmoji": "💸",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To keep money rather than spending it.",
+                "examples": [
+                    "She saves a hundred euros every month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "saved",
+        "v3": "saved",
+        "group": "regular"
+    },
+    {
+        "word": "work",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "work from home / work full-time / work hard / work late",
+        "opposite": "rest",
+        "oppositeEmoji": "🛋️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do tasks as part of a job.",
+                "examples": [
+                    "She works from home three days a week."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "worked",
+        "v3": "worked",
+        "group": "regular"
+    },
+    {
+        "word": "live",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "emoji": "🏠",
+        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "opposite": "die",
+        "oppositeEmoji": "⚰️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have your home in a place; to be alive.",
+                "examples": [
+                    "He lives in a flat near the centre.",
+                    "We live together."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "lived",
+        "v3": "lived",
+        "group": "regular"
+    },
+    {
+        "word": "think",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💭",
+        "subtext": "think about / think of / think it is / think carefully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a belief or opinion; to use the mind.",
+                "examples": [
+                    "I think it is a good idea.",
+                    "She thinks about her job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "thought",
+        "v3": "thought",
+        "group": "irregular",
+        "opposite": "feel"
+    },
+    {
+        "word": "know",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "know someone / know the answer / know a place / know how to",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have information or awareness about something.",
+                "examples": [
+                    "I know his name.",
+                    "She knows the answer.",
+                    "Do you know him?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "knew",
+        "v3": "known",
+        "group": "irregular",
+        "opposite": "wonder"
+    },
+    {
+        "word": "want",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "🙏",
+        "subtext": "want a job / want to leave / want more money / want help",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To desire or wish for something.",
+                "examples": [
+                    "I want a coffee.",
+                    "She wants a better job.",
+                    "He wants to retire."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wanted",
+        "v3": "wanted",
+        "group": "regular",
+        "opposite": "refuse"
+    },
+    {
+        "word": "need",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🆘",
+        "subtext": "need help / need time / need money / need to rest",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To require something; to feel that something is necessary.",
+                "examples": [
+                    "I need a break.",
+                    "She needs help.",
+                    "We need more time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "needed",
+        "v3": "needed",
+        "group": "regular",
+        "opposite": "have"
+    },
+    {
+        "word": "like",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "👍",
+        "subtext": "like work / like to travel / like someone / like the idea",
+        "opposite": null,
+        "oppositeEmoji": "👎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To find something pleasant; to enjoy.",
+                "examples": [
+                    "I like my job.",
+                    "She likes cooking.",
+                    "He likes coffee."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "liked",
+        "v3": "liked",
+        "group": "regular"
+    },
+    {
+        "word": "dislike",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "👎",
+        "subtext": "not like / dislike doing",
+        "opposite": "prefer",
+        "oppositeEmoji": "👍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To not like someone or something.",
+                "examples": [
+                    "I dislike loud music."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "disliked",
+        "v3": "disliked",
+        "group": "regular"
+    },
+    {
+        "word": "love",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "❤️",
+        "subtext": "love someone / love doing / love a place / love the idea",
+        "opposite": "hate",
+        "oppositeEmoji": "😡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have strong affection for; to enjoy greatly.",
+                "examples": [
+                    "She loves her job.",
+                    "He loves travelling for work."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "loved",
+        "v3": "loved",
+        "group": "regular"
+    },
+    {
+        "word": "hate",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😡",
+        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "opposite": "love",
+        "oppositeEmoji": "❤️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To strongly dislike.",
+                "examples": [
+                    "He hates commuting by bus.",
+                    "She hates long meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "hated",
+        "v3": "hated",
+        "group": "regular"
+    },
+    {
+        "word": "hope",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "🤞",
+        "subtext": "hope for / hope to do / hope that / I hope so",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To wish for something to happen.",
+                "examples": [
+                    "I hope to get a promotion this year.",
+                    "She hopes for better pay."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "hoped",
+        "v3": "hoped",
+        "group": "regular",
+        "opposite": "fear"
+    },
+    {
+        "word": "remember",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "remember to do / remember a name / remember clearly",
+        "opposite": "forget",
+        "oppositeEmoji": "🤔",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a memory of; to not forget.",
+                "examples": [
+                    "Please remember the deadline.",
+                    "She remembers every client."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "remembered",
+        "v3": "remembered",
+        "group": "regular"
+    },
+    {
+        "word": "forget",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🤔",
+        "subtext": "forget a name / forget to do / forget about / completely forget",
+        "opposite": "remember",
+        "oppositeEmoji": "🧠",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To fail to remember.",
+                "examples": [
+                    "Don't forget the meeting.",
+                    "He always forgets passwords."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "forgot",
+        "v3": "forgotten",
+        "group": "irregular"
+    },
+    {
+        "word": "understand",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "💡",
+        "subtext": "understand a problem / understand someone / understand clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To grasp the meaning of something.",
+                "examples": [
+                    "I understand the contract.",
+                    "She understands French."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "understood",
+        "v3": "understood",
+        "group": "irregular",
+        "opposite": "misunderstand"
+    },
+    {
+        "word": "decide",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "subtext": "decide to do / decide on / hard to decide",
+        "synonyms": [
+            "make a decision"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a choice.",
+                "examples": [
+                    "She decided to change careers.",
+                    "He decides quickly."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "decided",
+        "v3": "decided",
+        "group": "regular",
+        "opposite": "hesitate"
+    },
+    {
+        "word": "enjoy",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😊",
+        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take pleasure from something.",
+                "examples": [
+                    "She really enjoys working from home three days a week."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "enjoyed",
+        "v3": "enjoyed",
+        "group": "regular",
+        "opposite": "hate"
+    },
+    {
+        "word": "see",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👁️",
+        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To notice or perceive with the eyes.",
+                "examples": [
+                    "I see my doctor tomorrow.",
+                    "She sees the problem."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "saw",
+        "v3": "seen",
+        "group": "irregular",
+        "opposite": "blind"
+    },
+    {
+        "word": "hear",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👂",
+        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perceive sound through the ears.",
+                "examples": [
+                    "I hear the alarm every morning.",
+                    "Can you hear me?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "heard",
+        "v3": "heard",
+        "group": "irregular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "wake up",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
+        "form": "verb",
+        "subtext": "wake up early / wake up late / wake up tired",
+        "opposite": "sleep",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "To stop sleeping; to become conscious after sleep.",
+                "examples": [
+                    "I wake up at six thirty every morning."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "woke up",
+        "v3": "woken up",
+        "group": "irregular"
+    },
+    {
+        "word": "watch",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📺",
+        "form": "verb",
+        "subtext": "watch TV / watch a film / watch the news / watch closely",
+        "definitions": [
+            {
+                "text": "To look at something for a period of time.",
+                "examples": [
+                    "She watches the market news every morning before work."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "watched",
+        "v3": "watched",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "look",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "👀",
+        "subtext": "look at / look for / look like / look happy",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To direct your eyes toward something.",
+                "examples": [
+                    "Look at this photo.",
+                    "He is looking for his keys."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "looked",
+        "v3": "looked",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "play",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "subtext": "play sport / play a game / play music / play a role",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take part in a game or sport; to produce music.",
+                "examples": [
+                    "He plays football at the weekend to de-stress."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "played",
+        "v3": "played",
+        "group": "regular",
+        "opposite": "work"
+    },
+    {
+        "word": "run",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏃",
+        "subtext": "run a race / run a business / run out of / run late",
+        "opposite": "walk",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move very fast on your legs.",
+                "examples": [
+                    "I run in the park.",
+                    "He runs to catch the bus."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ran",
+        "v3": "run",
+        "group": "irregular"
+    },
+    {
+        "word": "sit",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪑",
+        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
+        "opposite": "stand",
+        "oppositeEmoji": "🧍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be in or take a seated position.",
+                "examples": [
+                    "He sits at his desk for eight hours a day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sat",
+        "v3": "sat",
+        "group": "irregular"
+    },
+    {
+        "word": "stand",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🧍",
+        "subtext": "stand up / stand in a queue / stand by / stand out",
+        "opposite": "sit",
+        "oppositeEmoji": "🪑",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be in or rise to an upright position.",
+                "examples": [
+                    "She stands when she presents to keep her energy up."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "stood",
+        "v3": "stood",
+        "group": "irregular"
+    },
+    {
+        "word": "meet",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To come together with someone, especially for a planned reason.",
+                "examples": [
+                    "We meet every Monday to discuss the week."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "met",
+        "v3": "met",
+        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "learn",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📚",
+        "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "opposite": "teach",
+        "oppositeEmoji": "👨‍🏫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To gain knowledge or skill.",
+                "examples": [
+                    "She is learning Spanish for her new job abroad."
+                ]
+            }
+        ],
+        "classification": "both",
+        "aspect": "action",
+        "v2": "learned / learnt",
+        "v3": "learned / learnt",
+        "group": "both"
+    },
+    {
+        "word": "change",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🔄",
+        "subtext": "change jobs / change your mind / change the plan / change something",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To become different; to make something different.",
+                "examples": [
+                    "She changed jobs twice in three years. Things change fast."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "changed",
+        "v3": "changed",
+        "group": "regular",
+        "opposite": "stay"
+    },
+    {
+        "word": "stop",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛑",
+        "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "opposite": "start",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To end an activity or movement.",
+                "examples": [
+                    "She stopped taking the bus and cycles to work now."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "stopped",
+        "v3": "stopped",
+        "group": "regular"
+    },
+    {
+        "word": "add",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➕",
+        "subtext": "add some sugar / add to / add up / add a comment",
+        "opposite": "subtract",
+        "oppositeEmoji": "➖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put things together to make a larger group.",
+                "examples": [
+                    "Add some sugar to the tea.",
+                    "What is five plus five?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "added",
+        "v3": "added",
+        "group": "regular"
+    },
+    {
+        "word": "subtract",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➖",
+        "subtext": "subtract from",
+        "synonyms": [
+            "minus"
+        ],
+        "opposite": "add",
+        "oppositeEmoji": "➕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take a number or amount away from another number or amount.",
+                "examples": [
+                    "If you subtract five from ten, you get five."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "subtracted",
+        "v3": "subtracted",
+        "group": "regular"
+    },
+    {
+        "word": "win",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
+        "subtext": "win a game / win a prize / win an award / win a contract",
+        "opposite": "lose",
+        "oppositeEmoji": "📉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be the best in a game or competition.",
+                "examples": [
+                    "We want to win the game."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "won",
+        "v3": "won",
+        "group": "irregular"
+    },
+    {
+        "word": "wait",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏳",
+        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stay in a place until something happens.",
+                "examples": [
+                    "He waited twenty minutes for the meeting to start."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "waited",
+        "v3": "waited",
+        "group": "regular",
+        "opposite": "act"
+    },
+    {
+        "word": "die",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "⚰️",
+        "subtext": "die of / die for / die from / die out",
+        "opposite": "live",
+        "oppositeEmoji": "🏠",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop living.",
+                "examples": [
+                    "Plants die without water."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "died",
+        "v3": "died",
+        "group": "regular"
+    },
+    {
+        "word": "send",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✉️",
+        "form": "verb",
+        "opposite": "receive",
+        "oppositeEmoji": "📩",
+        "definitions": [
+            {
+                "text": "To transmit something to someone, especially electronically.",
+                "examples": [
+                    "She sends twenty emails before lunch."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sent",
+        "v3": "sent",
+        "subtext": "send an email / send a message / send a report / send a file",
+        "group": "irregular"
+    },
+    {
+        "word": "stay",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏨",
+        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "opposite": "leave",
+        "oppositeEmoji": "🚪",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To continue to be in a place.",
+                "examples": [
+                    "I stay at home on Sundays.",
+                    "We are staying in a hotel."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "stayed",
+        "v3": "stayed",
+        "group": "regular"
+    },
+    {
+        "word": "fall",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "🍂",
+        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "opposite": "rise",
+        "oppositeEmoji": "🌅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move down toward the ground.",
+                "examples": [
+                    "Leaves fall in autumn.",
+                    "Be careful, don't fall."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fell",
+        "v3": "fallen",
+        "group": "irregular"
+    },
+    {
+        "word": "rise",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "🌅",
+        "subtext": "rise up / sun rise / price rise",
+        "opposite": "fall",
+        "oppositeEmoji": "🍂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move upwards; to increase in amount or level.",
+                "examples": [
+                    "The sun rises in the east.",
+                    "Prices are rising every year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rose",
+        "v3": "risen",
+        "group": "irregular"
+    },
+    {
+        "word": "pass",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🏔️",
+        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "opposite": "fail",
+        "oppositeEmoji": "❌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go past something or to succeed in an exam.",
+                "examples": [
+                    "I pass the park on my way home.",
+                    "I hope I pass the test."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "passed",
+        "v3": "passed",
+        "group": "regular"
+    },
+    {
+        "word": "sell",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🏷️",
+        "subtext": "sell products / sell online / sell at the market",
+        "synonyms": [
+            "best seller"
+        ],
+        "opposite": "buy",
+        "oppositeEmoji": "🛒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give something to someone for money.",
+                "examples": [
+                    "They sell fruit at the market."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sold",
+        "v3": "sold",
+        "group": "irregular"
+    },
+    {
+        "word": "pull",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🚜",
+        "subtext": "pull the door / pull something / pull up / pull away",
+        "opposite": "push",
+        "oppositeEmoji": "🛒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something toward you.",
+                "examples": [
+                    "Pull the door to open it."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pulled",
+        "v3": "pulled",
+        "group": "regular"
+    },
+    {
+        "word": "push",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛒",
+        "subtext": "push the button / push a cart / push away / push through",
+        "opposite": "pull",
+        "oppositeEmoji": "🚜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something away from you.",
+                "examples": [
+                    "Push the button.",
+                    "I push the shopping cart."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pushed",
+        "v3": "pushed",
+        "group": "regular"
+    },
+    {
+        "word": "carry",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🎒",
+        "subtext": "carry a bag / carry notes / carry out / carry on",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hold and take something with you.",
+                "examples": [
+                    "I carry my laptop and notes to every meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "carried",
+        "v3": "carried",
+        "group": "regular",
+        "opposite": "drop"
+    },
+    {
+        "word": "break",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💔",
+        "subtext": "break the glass / break a law / take a break / break down",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To separate something into two or more pieces.",
+                "examples": [
+                    "Don't break the glass.",
+                    "He broke his leg."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "broke",
+        "v3": "broken",
+        "group": "irregular",
+        "opposite": "fix"
+    },
+    {
+        "word": "receive",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📩",
+        "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "opposite": "send",
+        "oppositeEmoji": "✉️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something that someone gave or sent to you.",
+                "examples": [
+                    "I receive a lot of mail.",
+                    "She received a gift."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "received",
+        "v3": "received",
+        "group": "regular"
+    },
+    {
+        "word": "agree",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👍",
+        "subtext": "agree with someone / agree to do / agree on / I agree",
+        "opposite": "disagree",
+        "oppositeEmoji": "👎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have the same opinion as someone.",
+                "examples": [
+                    "I agree with you.",
+                    "We agree on the plan."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "agreed",
+        "v3": "agreed",
+        "group": "regular"
+    },
+    {
+        "word": "draw",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "emoji": "🎨",
+        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a picture with a pen or pencil.",
+                "examples": [
+                    "I like to draw birds.",
+                    "Can you draw a map?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drew",
+        "v3": "drawn",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "share",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "🍕",
+        "subtext": "share a room / share information / share an idea / share with",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give a part of something to others.",
+                "examples": [
+                    "Let's share the pizza.",
+                    "I share a room with my brother."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shared",
+        "v3": "shared",
+        "group": "regular",
+        "opposite": "keep"
+    },
+    {
+        "word": "smile",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "😊",
+        "subtext": "smile at someone / a big smile / smile broadly",
+        "opposite": "cry",
+        "oppositeEmoji": "😢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a happy expression with your mouth.",
+                "examples": [
+                    "She has a beautiful smile.",
+                    "Smile for the camera."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "smiled",
+        "v3": "smiled",
+        "group": "regular"
+    },
+    {
+        "word": "cry",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "😢",
+        "subtext": "cry for help / cry out / cry about something",
+        "synonyms": [
+            "start crying"
+        ],
+        "opposite": "smile",
+        "oppositeEmoji": "😊",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To produce tears because you are sad or in pain.",
+                "examples": [
+                    "The baby is crying.",
+                    "Don't cry."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cried",
+        "v3": "cried",
+        "group": "regular"
+    },
+    {
+        "word": "dance",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "💃",
+        "subtext": "dance to music / dance together / slow dance",
+        "synonyms": [
+            "go dancing"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move your body to music.",
+                "examples": [
+                    "I love to dance.",
+                    "They are dancing."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "danced",
+        "v3": "danced",
+        "group": "regular",
+        "opposite": "sit"
+    },
+    {
+        "word": "sing",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "🎤",
+        "subtext": "sing a song / sing along / sing well",
+        "synonyms": [
+            "lead singer"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make musical sounds with your voice.",
+                "examples": [
+                    "I like to sing in the shower.",
+                    "She sings very well."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sang",
+        "v3": "sung",
+        "group": "irregular",
+        "opposite": "be quiet"
+    },
+    {
+        "word": "jump",
+        "level": "starter",
+        "theme": "playing_watching_sport_A1",
+        "emoji": "🦘",
+        "subtext": "jump high / jump over / jump up / jump in",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To push yourself off the ground with your legs.",
+                "examples": [
+                    "Can you jump high?",
+                    "The cat jumped onto the table."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "jumped",
+        "v3": "jumped",
+        "group": "regular",
+        "opposite": "fall"
+    },
+    {
+        "word": "swim",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏊",
+        "subtext": "swim across / swim laps / swim well",
+        "synonyms": [
+            "go swimming"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move through water using your arms and legs.",
+                "examples": [
+                    "I swim every morning.",
+                    "Can you swim?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "swam",
+        "v3": "swum",
+        "group": "irregular",
+        "opposite": "sink"
+    },
+    {
+        "word": "study",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "study English / study for an exam / study hard / self-study",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To read and practise to gain knowledge.",
+                "examples": [
+                    "He is studying for a professional qualification."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "studied",
+        "v3": "studied",
+        "group": "regular",
+        "opposite": "play"
+    },
+    {
+        "word": "teach",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "👨‍🏫",
+        "subtext": "teach someone / teach a subject / teach how to / teach a class",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give instruction in a subject.",
+                "examples": [
+                    "She teaches communication skills to senior managers."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "taught",
+        "v3": "taught",
+        "group": "irregular",
+        "opposite": "learn"
+    },
+    {
+        "word": "rent",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏠",
+        "subtext": "rent a flat / rent a property / rent out a room",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To pay money to use property belonging to someone else.",
+                "examples": [
+                    "They rent a two-bedroom flat near the city centre."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rented",
+        "v3": "rented",
+        "group": "regular",
+        "opposite": "own"
+    },
+    {
+        "word": "exercise",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏋️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do physical activity for health and fitness.",
+                "examples": [
+                    "He exercises four times a week at the gym."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "exercised",
+        "v3": "exercised",
+        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "group": "regular",
+        "opposite": "rest"
+    },
+    {
+        "word": "cost",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a price of.",
+                "examples": [
+                    "The flat costs twelve hundred euros a month."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "cost",
+        "v3": "cost",
+        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "group": "irregular"
+    },
+    {
+        "word": "invite",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "✉️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To ask someone to come to an event or place.",
+                "examples": [
+                    "They invited all their colleagues to the party."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "invited",
+        "v3": "invited",
+        "subtext": "invite someone / invite to dinner / invite to a party",
+        "group": "regular",
+        "opposite": "reject"
+    },
+    {
+        "word": "get up",
+        "definitions": [
+            {
+                "text": "To rise from bed after waking.",
+                "examples": [
+                    "He gets up at seven and makes coffee immediately."
+                ]
+            }
+        ],
+        "subtext": "get up early / get up late / get up quickly",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "got up",
+        "v3": "got up",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "have breakfast",
+        "definitions": [
+            {
+                "text": "To eat the morning meal.",
+                "examples": [
+                    "She always has breakfast before leaving the house."
+                ]
+            }
+        ],
+        "subtext": "have breakfast at home / have a quick breakfast",
+        "synonyms": [
+            "skip breakfast"
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "had breakfast",
+        "v3": "had breakfast",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🍳",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "come back",
+        "definitions": [
+            {
+                "text": "To return to a place.",
+                "examples": [
+                    "She comes back from lunch at two. He comes back home tired."
+                ]
+            }
+        ],
+        "subtext": "come back home / come back late / come back from a trip",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "came back",
+        "v3": "come back",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🔙",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "go to bed",
+        "definitions": [
+            {
+                "text": "To get into bed in order to sleep.",
+                "examples": [
+                    "They go to bed at eleven every night."
+                ]
+            }
+        ],
+        "subtext": "go to bed early / go to bed late / go to bed tired",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "went to bed",
+        "v3": "gone to bed",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "check",
+        "definitions": [
+            {
+                "text": "To examine or verify something.",
+                "examples": [
+                    "I check my emails first thing every morning."
+                ]
+            }
+        ],
+        "subtext": "check emails / check messages / check a document / check the time",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "checked",
+        "v3": "checked",
+        "theme": "workplace_basics_A1",
+        "emoji": "✅",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "unpack",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "👜",
+        "subtext": "unpack a suitcase",
+        "opposite": "pack",
+        "oppositeEmoji": "🎒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take things out of a suitcase or bag.",
+                "examples": [
+                    "I need to unpack my things."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "unpacked",
+        "v3": "unpacked",
+        "group": "regular"
+    },
+    {
+        "word": "reply",
+        "definitions": [
+            {
+                "text": "To respond to a message or question.",
+                "examples": [
+                    "He always replies to emails the same day."
+                ]
+            }
+        ],
+        "subtext": "reply to an email / reply quickly / reply to a message",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "replied",
+        "v3": "replied",
+        "theme": "workplace_basics_A1",
+        "emoji": "↩️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "present",
+        "definitions": [
+            {
+                "text": "To show or explain something to a group.",
+                "examples": [
+                    "She presents the results every Friday afternoon."
+                ]
+            }
+        ],
+        "subtext": "present a report / present ideas / present to a client",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "presented",
+        "v3": "presented",
+        "theme": "workplace_basics_A1",
+        "emoji": "📊",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "hide"
+    },
+    {
+        "word": "attend",
+        "definitions": [
+            {
+                "text": "To go to an event or meeting.",
+                "examples": [
+                    "I attend a management meeting every Monday."
+                ]
+            }
+        ],
+        "subtext": "attend a meeting / attend a course / attend an event",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "attended",
+        "v3": "attended",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "miss"
+    },
+    {
+        "word": "manage",
+        "definitions": [
+            {
+                "text": "To be in charge of people or a situation.",
+                "examples": [
+                    "She manages a team of eight people."
+                ]
+            }
+        ],
+        "subtext": "manage a team / manage a project / manage time / manage stress",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "managed",
+        "v3": "managed",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "follow"
+    },
+    {
+        "word": "earn",
+        "definitions": [
+            {
+                "text": "To receive money for work done.",
+                "examples": [
+                    "She earns a good salary as a project manager."
+                ]
+            }
+        ],
+        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "earned",
+        "v3": "earned",
+        "theme": "money_payment_A1",
+        "emoji": "💶",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "spend"
+    },
+    {
+        "word": "visit",
+        "definitions": [
+            {
+                "text": "To go to see a person or place.",
+                "examples": [
+                    "She visits her parents every second weekend."
+                ]
+            }
+        ],
+        "subtext": "visit family / visit a friend / visit a city / visit regularly",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "visited",
+        "v3": "visited",
+        "theme": "family_life_A1",
+        "emoji": "🏘️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "leave"
+    },
+    {
+        "word": "celebrate",
+        "definitions": [
+            {
+                "text": "To do something enjoyable for a special occasion.",
+                "examples": [
+                    "They celebrate every work anniversary together."
+                ]
+            }
+        ],
+        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "celebrated",
+        "v3": "celebrated",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎉",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "mourn"
+    },
+    {
+        "word": "hurt",
+        "definitions": [
+            {
+                "text": "To cause pain; or to feel pain.",
+                "examples": [
+                    "My back hurts after sitting all day."
+                ]
+            }
+        ],
+        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "hurt",
+        "v3": "hurt",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤕",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": "heal"
+    },
+    {
+        "word": "rest",
+        "definitions": [
+            {
+                "text": "To stop working and relax to recover energy.",
+                "examples": [
+                    "He rests for an hour after lunch every day."
+                ]
+            }
+        ],
+        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rested",
+        "v3": "rested",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛋️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "exercise"
+    },
+    {
+        "word": "book",
+        "definitions": [
+            {
+                "text": "To reserve a place, ticket or service in advance.",
+                "examples": [
+                    "I always book hotels online."
+                ]
+            }
+        ],
+        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "booked",
+        "v3": "booked",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "📖",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "cancel"
+    },
+    {
+        "word": "pack",
+        "definitions": [
+            {
+                "text": "To put items into a bag or case for a journey.",
+                "examples": [
+                    "He packs his bag the night before a trip."
+                ]
+            }
+        ],
+        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "opposite": "unpack",
+        "oppositeEmoji": "👜",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "packed",
+        "v3": "packed",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🎒",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular"
+    },
+    {
+        "word": "cancel",
+        "definitions": [
+            {
+                "text": "To decide that something planned will not happen.",
+                "examples": [
+                    "She had to cancel her flight due to illness."
+                ]
+            }
+        ],
+        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cancelled",
+        "v3": "cancelled",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "❌",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "book"
+    },
+    {
+        "word": "miss",
+        "definitions": [
+            {
+                "text": "To fail to catch a transport connection; or to feel sad about absence.",
+                "examples": [
+                    "He missed his train and had to wait an hour."
+                ]
+            }
+        ],
+        "subtext": "miss a train / miss a flight / miss someone / miss work",
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "missed",
+        "v3": "missed",
+        "theme": "public_transport_A1",
+        "emoji": "🏃‍♂️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "attend"
+    },
+    {
+        "word": "order",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📦",
+        "subtext": "order food / order a drink / order online / order supplies",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To request something formally, especially food or goods.",
+                "examples": [
+                    "I always order lunch from the same place near the office."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ordered",
+        "v3": "ordered",
+        "group": "regular",
+        "opposite": "deliver"
+    },
+    {
+        "word": "thank",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🙏",
+        "subtext": "thank someone / thank you for / many thanks",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To express gratitude to someone.",
+                "examples": [
+                    "He thanked the team for their hard work on the project."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "thanked",
+        "v3": "thanked",
+        "group": "regular",
+        "opposite": "complain"
+    },
+    {
+        "word": "introduce",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "🤝",
+        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To present someone to another person.",
+                "examples": [
+                    "She introduced herself at the start of the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "introduced",
+        "v3": "introduced",
+        "group": "regular",
+        "opposite": "hide"
+    },
+    {
+        "word": "relax",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🧘",
+        "subtext": "relax at home / relax after work / relax on holiday",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop working and rest; to become less tense.",
+                "examples": [
+                    "I relax at the weekend and never check emails."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "relaxed",
+        "v3": "relaxed",
+        "group": "regular",
+        "opposite": "work"
+    },
+    {
+        "word": "mean",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "❔",
+        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a particular meaning; to intend.",
+                "examples": [
+                    "What does this clause in the contract mean?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "meant",
+        "v3": "meant",
+        "group": "irregular",
+        "opposite": "nonsense"
+    },
+    {
+        "word": "follow",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👣",
+        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "opposite": "lead",
+        "oppositeEmoji": "👤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To come after; to obey rules or instructions.",
+                "examples": [
+                    "Please follow the instructions carefully. He follows the news."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "followed",
+        "v3": "followed",
+        "group": "regular"
+    },
+    {
+        "word": "grow",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📈",
+        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To increase in size or amount; to develop.",
+                "examples": [
+                    "The company grew by twenty percent last year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "grew",
+        "v3": "grown",
+        "group": "irregular",
+        "opposite": "shrink"
+    },
+    {
+        "word": "become",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✨",
+        "subtext": "become a manager / become popular / become clear / become important",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To start to be something.",
+                "examples": [
+                    "She became a manager after just two years in the role."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "became",
+        "v3": "become",
+        "group": "irregular",
+        "opposite": "remain"
+    },
+    {
+        "word": "choose",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To select from options.",
+                "examples": [
+                    "He chose to work part-time to spend more time with family."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "chose",
+        "v3": "chosen",
+        "group": "irregular",
+        "opposite": "reject"
+    },
+    {
+        "word": "begin",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "form": "verb",
+        "opposite": "end",
+        "oppositeEmoji": "🏁",
+        "subtext": "begin a meeting / begin to work",
+        "synonyms": [
+            "start"
+        ],
+        "definitions": [
+            {
+                "text": "To start to do something.",
+                "examples": [
+                    "We begin the meeting at nine o'clock."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "began",
+        "v3": "begun",
+        "group": "irregular"
+    },
+    {
+        "word": "end",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "form": "verb",
+        "opposite": "begin",
+        "oppositeEmoji": "▶️",
+        "subtext": "end a class / at the end",
+        "synonyms": [
+            "finish",
+            "stop"
+        ],
+        "definitions": [
+            {
+                "text": "To finish; to stop.",
+                "examples": [
+                    "The class ends at three o'clock."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ended",
+        "v3": "ended",
+        "group": "regular"
+    },
+    {
+        "word": "brush",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪥",
+        "form": "verb",
+        "subtext": "brush your teeth",
+        "synonyms": [
+            "hairbrush"
+        ],
+        "definitions": [
+            {
+                "text": "To clean something with a brush.",
+                "examples": [
+                    "I brush my teeth every morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "brushed",
+        "v3": "brushed",
+        "group": "regular",
+        "opposite": "mess up"
+    },
+    {
+        "word": "ride",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "verb",
+        "subtext": "ride a bike / ride a horse",
+        "definitions": [
+            {
+                "text": "To travel on a bike or horse.",
+                "examples": [
+                    "I ride my bike to work."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rode",
+        "v3": "ridden",
+        "group": "irregular",
+        "opposite": "walk"
+    },
+    {
+        "word": "believe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🙏",
+        "form": "verb",
+        "subtext": "believe in / I believe so",
+        "synonyms": [
+            "think",
+            "trust"
+        ],
+        "definitions": [
+            {
+                "text": "To think that something is true.",
+                "examples": [
+                    "I believe you."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "believed",
+        "v3": "believed",
+        "group": "regular",
+        "opposite": "doubt"
+    },
+    {
+        "word": "prefer",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "form": "verb",
+        "subtext": "like better / prefer tea to coffee",
+        "definitions": [
+            {
+                "text": "To like one thing more than another.",
+                "examples": [
+                    "I prefer tea to coffee."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "preferred",
+        "v3": "preferred",
+        "group": "regular",
+        "opposite": "dislike"
+    },
+    {
+        "word": "catch",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🧤",
+        "form": "verb",
+        "subtext": "catch a bus / catch a cold / catch a ball",
+        "definitions": [
+            {
+                "text": "To take hold of something; to get on a bus or train.",
+                "examples": [
+                    "I need to catch the bus at eight."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "caught",
+        "v3": "caught",
+        "group": "irregular",
+        "opposite": "throw"
+    },
+    {
+        "word": "fix",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "form": "verb",
+        "subtext": "fix a problem / fix a computer",
+        "synonyms": [
+            "repair"
+        ],
+        "definitions": [
+            {
+                "text": "To repair something that is broken.",
+                "examples": [
+                    "Can you fix my phone?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "fixed",
+        "v3": "fixed",
+        "group": "regular",
+        "opposite": "break"
+    },
+    {
+        "word": "plan",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "form": "verb",
+        "subtext": "plan a trip / plan for the future",
+        "synonyms": [
+            "decide"
+        ],
+        "definitions": [
+            {
+                "text": "To decide what you are going to do.",
+                "examples": [
+                    "We are planning a trip."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "planned",
+        "v3": "planned",
+        "group": "regular",
+        "opposite": "improvise"
+    },
+    {
+        "word": "borrow",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📥",
+        "form": "verb",
+        "subtext": "take for a short time / borrow a book / borrow money",
+        "definitions": [
+            {
+                "text": "To take something for a short time and then return it.",
+                "examples": [
+                    "Can I borrow your pen?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "borrowed",
+        "v3": "borrowed",
+        "group": "regular",
+        "opposite": "lend"
+    },
+    {
+        "word": "smell",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👃",
+        "form": "verb",
+        "subtext": "smell good / smell the flowers",
+        "synonyms": [
+            "scent"
+        ],
+        "definitions": [
+            {
+                "text": "To notice or recognize something using your nose.",
+                "examples": [
+                    "I can smell the coffee."
+                ]
+            }
+        ],
+        "classification": "both",
+        "aspect": "both",
+        "v2": "smelled / smelt",
+        "v3": "smelled / smelt",
+        "group": "both",
+        "opposite": "stink"
+    },
+    {
+        "word": "taste",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "👅",
+        "form": "verb",
+        "subtext": "taste good / have a taste",
+        "synonyms": [
+            "flavor"
+        ],
+        "definitions": [
+            {
+                "text": "To sense the flavor of something in your mouth.",
+                "examples": [
+                    "Taste this soup."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "tasted",
+        "v3": "tasted",
+        "group": "regular",
+        "opposite": "swallow"
+    },
+    {
+        "word": "lie",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "form": "verb",
+        "subtext": "lie down / lie on the bed",
+        "synonyms": [
+            "recline"
+        ],
+        "definitions": [
+            {
+                "text": "To be in a horizontal position on a surface.",
+                "examples": [
+                    "I like to lie on the beach."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lay",
+        "v3": "lain",
+        "group": "irregular",
+        "opposite": "stand"
+    },
+    {
+        "word": "laugh",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😂",
+        "form": "verb",
+        "opposite": "cry",
+        "oppositeEmoji": "😢",
+        "subtext": "laugh at / laugh together",
+        "synonyms": [
+            "chuckle"
+        ],
+        "definitions": [
+            {
+                "text": "To make sounds with your voice because you think something is funny.",
+                "examples": [
+                    "They were laughing at his joke."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "laughed",
+        "v3": "laughed",
+        "group": "regular"
+    },
+    {
+        "word": "worry",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😟",
+        "form": "verb",
+        "subtext": "worry about / don't worry",
+        "synonyms": [
+            "fret"
+        ],
+        "definitions": [
+            {
+                "text": "To think about problems or unpleasant things that might happen.",
+                "examples": [
+                    "Don't worry, everything will be fine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "worried",
+        "v3": "worried",
+        "group": "regular",
+        "opposite": "relax"
+    },
+    {
+        "word": "sound",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👂",
+        "form": "verb",
+        "subtext": "sound like / sound good",
+        "synonyms": [
+            "seem"
+        ],
+        "definitions": [
+            {
+                "text": "To seem like something from what you have heard or read.",
+                "examples": [
+                    "That sounds like a good idea."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "sounded",
+        "v3": "sounded",
+        "group": "regular",
+        "opposite": "silence"
+    },
+    {
+        "word": "spell",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔤",
+        "form": "verb",
+        "subtext": "spell your name / spell correctly",
+        "synonyms": [
+            "lettering"
+        ],
+        "definitions": [
+            {
+                "text": "To say or write the letters of a word in the correct order.",
+                "examples": [
+                    "How do you spell your name?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spelled / spelt",
+        "v3": "spelled / spelt",
+        "group": "irregular",
+        "opposite": "misspell"
+    },
+    {
+        "word": "point",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "☝️",
+        "form": "verb",
+        "subtext": "point to / point at",
+        "synonyms": [
+            "indicate"
+        ],
+        "definitions": [
+            {
+                "text": "To show something by holding out your finger towards it.",
+                "examples": [
+                    "Point to the window.",
+                    "He pointed at the map."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pointed",
+        "v3": "pointed",
+        "group": "regular",
+        "opposite": "hide"
+    },
+    {
+        "word": "shout",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📢",
+        "form": "verb",
+        "subtext": "shout at / don't shout",
+        "synonyms": [
+            "yell"
+        ],
+        "definitions": [
+            {
+                "text": "To say something very loudly.",
+                "examples": [
+                    "Don't shout in the classroom."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shouted",
+        "v3": "shouted",
+        "group": "regular",
+        "opposite": "whisper"
+    },
+    {
+        "word": "wave",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "subtext": "wave goodbye / wave hello",
+        "synonyms": [
+            "greet"
+        ],
+        "definitions": [
+            {
+                "text": "To move your hand from side to side in the air to say hello or goodbye.",
+                "examples": [
+                    "Wave goodbye to your friend."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "waved",
+        "v3": "waved",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "kick",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🦶",
+        "form": "verb",
+        "subtext": "kick a ball / kick hard",
+        "synonyms": [
+            "strike"
+        ],
+        "definitions": [
+            {
+                "text": "To hit something with your foot.",
+                "examples": [
+                    "Kick the ball!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "kicked",
+        "v3": "kicked",
+        "group": "regular",
+        "opposite": "catch"
+    },
+    {
+        "word": "throw",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "⚾",
+        "form": "verb",
+        "subtext": "throw a ball / throw away",
+        "synonyms": [
+            "toss"
+        ],
+        "definitions": [
+            {
+                "text": "To make something move through the air by pushing it out of your hand.",
+                "examples": [
+                    "Can you throw the ball to me?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "threw",
+        "v3": "thrown",
+        "group": "irregular",
+        "opposite": "catch"
+    },
+    {
+        "word": "bounce",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏀",
+        "form": "verb",
+        "subtext": "bounce a ball",
+        "synonyms": [
+            "rebound",
+            "bouncing"
+        ],
+        "definitions": [
+            {
+                "text": "To move up or away after hitting a surface.",
+                "examples": [
+                    "The ball is bouncing."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "bounced",
+        "v3": "bounced",
+        "group": "regular",
+        "opposite": "stop"
+    },
+    {
+        "word": "paint",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "subtext": "paint a picture",
+        "synonyms": [
+            "color",
+            "painting"
+        ],
+        "definitions": [
+            {
+                "text": "To make a picture using paint.",
+                "examples": [
+                    "I like to paint flowers."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "painted",
+        "v3": "painted",
+        "group": "regular",
+        "opposite": "erase"
+    },
+    {
+        "word": "hop",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🐇",
+        "form": "verb",
+        "subtext": "hop around / hop like a rabbit",
+        "synonyms": [
+            "jump"
+        ],
+        "definitions": [
+            {
+                "text": "To jump on one foot.",
+                "examples": [
+                    "Can you hop like a rabbit?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "hopped",
+        "v3": "hopped",
+        "group": "regular",
+        "opposite": "walk"
+    },
+    {
+        "word": "skip",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏃",
+        "form": "verb",
+        "subtext": "skip rope",
+        "synonyms": [
+            "jump",
+            "skipping"
+        ],
+        "definitions": [
+            {
+                "text": "To move along by jumping from one foot to the other.",
+                "examples": [
+                    "The children are skipping in the playground."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "skipped",
+        "v3": "skipped",
+        "group": "regular",
+        "opposite": "walk"
+    },
+    {
+        "word": "count",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "emoji": "🔢",
+        "form": "verb",
+        "subtext": "count to ten / count numbers",
+        "synonyms": [
+            "calculate"
+        ],
+        "definitions": [
+            {
+                "text": "To say numbers in order.",
+                "examples": [
+                    "Can you count from one to ten?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "counted",
+        "v3": "counted",
+        "group": "regular",
+        "opposite": "estimate"
+    },
+    {
+        "word": "tick",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "✅",
+        "form": "verb",
+        "subtext": "tick the box / tick correctly",
+        "synonyms": [
+            "check"
+        ],
+        "definitions": [
+            {
+                "text": "To put a mark (✓) next to something to show it is correct.",
+                "examples": [
+                    "Tick the correct answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ticked",
+        "v3": "ticked",
+        "group": "regular",
+        "opposite": "cross"
+    },
+    {
+        "word": "cross",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "❌",
+        "form": "verb",
+        "subtext": "cross out / cross the answer",
+        "synonyms": [
+            "x-mark"
+        ],
+        "definitions": [
+            {
+                "text": "To put a mark (X) next to something to show it is wrong.",
+                "examples": [
+                    "Cross the wrong answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "crossed",
+        "v3": "crossed",
+        "group": "regular",
+        "opposite": "tick"
+    },
+    {
+        "word": "colour",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🖍️",
+        "form": "verb",
+        "subtext": "colour the picture / use colours",
+        "synonyms": [
+            "color"
+        ],
+        "definitions": [
+            {
+                "text": "To use a pen or pencil to put colour on a picture.",
+                "examples": [
+                    "Colour the picture blue."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "coloured",
+        "v3": "coloured",
+        "group": "regular",
+        "opposite": "erase"
+    },
+    {
+        "word": "hold",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🤲",
+        "form": "verb",
+        "subtext": "hold my hand / hold on",
+        "synonyms": [
+            "grip"
+        ],
+        "definitions": [
+            {
+                "text": "To have or keep something in your hand or arms.",
+                "examples": [
+                    "Hold the baby carefully.",
+                    "She is holding a book."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "held",
+        "v3": "held",
+        "group": "irregular",
+        "opposite": "drop"
+    },
+    {
+        "word": "lead",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "form": "verb",
+        "subtext": "lead a team / follow the lead",
+        "synonyms": [
+            "guide",
+            "direct"
+        ],
+        "definitions": [
+            {
+                "text": "To control a group of people, a country, or a situation.",
+                "examples": [
+                    "She leads a small team."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "led",
+        "v3": "led",
+        "group": "irregular",
+        "opposite": "follow"
+    },
+    {
+        "word": "fight",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "⚔️",
+        "form": "verb",
+        "subtext": "fight for / a big fight",
+        "synonyms": [
+            "battle"
+        ],
+        "definitions": [
+            {
+                "text": "To use physical force to try to hurt someone or win something.",
+                "examples": [
+                    "The two boys are fighting."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fought",
+        "v3": "fought",
+        "group": "irregular",
+        "opposite": "make peace"
+    },
+    {
+        "word": "hide",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "subtext": "hide and seek / hide from someone / hide something",
+        "opposite": "show",
+        "oppositeEmoji": "📽️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something or someone in a place where they cannot be seen or found.",
+                "examples": [
+                    "He is hiding behind the door."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "hid",
+        "v3": "hidden",
+        "group": "irregular"
+    },
+    {
+        "word": "seek",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "form": "verb",
+        "subtext": "hide and seek / seek help",
+        "synonyms": [
+            "look for"
+        ],
+        "definitions": [
+            {
+                "text": "To try to find or get something.",
+                "examples": [
+                    "They are playing hide and seek."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sought",
+        "v3": "sought",
+        "group": "irregular",
+        "opposite": "hide"
+    },
+    {
+        "word": "ring",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔔",
+        "form": "verb",
+        "subtext": "ring a bell",
+        "synonyms": [
+            "chime",
+            "phone is ringing"
+        ],
+        "definitions": [
+            {
+                "text": "To make a sound like a bell.",
+                "examples": [
+                    "The phone is ringing."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rang",
+        "v3": "rung",
+        "group": "irregular",
+        "opposite": "be silent"
+    },
+    {
+        "word": "text",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📱",
+        "form": "verb",
+        "subtext": "text someone / send a text",
+        "synonyms": [
+            "message"
+        ],
+        "definitions": [
+            {
+                "text": "To send a message from a mobile phone.",
+                "examples": [
+                    "Text me when you arrive."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "texted",
+        "v3": "texted",
+        "group": "regular",
+        "opposite": "call"
+    },
+    {
+        "word": "whisper",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🤫",
+        "form": "verb",
+        "subtext": "whisper a secret",
+        "synonyms": [
+            "murmur",
+            "speak softly"
+        ],
+        "definitions": [
+            {
+                "text": "To speak very quietly so that other people cannot hear you.",
+                "examples": [
+                    "She whispered the answer to me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "whispered",
+        "v3": "whispered",
+        "group": "regular",
+        "opposite": "shout"
+    },
+    {
+        "word": "touch",
+        "level": "starter",
+        "theme": "five_senses_A1",
+        "emoji": "🫱",
+        "form": "verb",
+        "subtext": "don't touch / touch screen",
+        "synonyms": [
+            "feel"
+        ],
+        "definitions": [
+            {
+                "text": "To put your hand or another part of your body on something.",
+                "examples": [
+                    "Don't touch the wet paint!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "touched",
+        "v3": "touched",
+        "group": "regular",
+        "opposite": null
+    },
+    {
+        "word": "let",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🔓",
+        "subtext": "let someone go / let it be / let someone know",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To allow something to happen or someone to do something.",
+                "examples": [
+                    "Let me help you with those bags.",
+                    "She let the dog out into the garden."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "let",
+        "v3": "let",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "set",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⚙️",
+        "subtext": "set an alarm / set the table / set a goal",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something in a particular place or position; to establish.",
+                "examples": [
+                    "I set my alarm for seven o'clock.",
+                    "He set the plates on the table."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "set",
+        "v3": "set",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "email",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📧",
+        "subtext": "email someone / send an email / reply by email",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To send a message using the internet.",
+                "examples": [
+                    "Email me the details.",
+                    "I'll email you tomorrow."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "emailed",
+        "v3": "emailed",
+        "group": "regular"
+    },
+    {
+        "word": "phone",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📞",
+        "subtext": "phone someone / phone back / on the phone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To call someone using a telephone.",
+                "examples": [
+                    "I'll phone you later.",
+                    "He phoned his mother."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "phoned",
+        "v3": "phoned",
+        "group": "regular",
+        "opposite": "text"
+    },
+    {
+        "word": "climb",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧗",
+        "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go up something using your hands and feet.",
+                "examples": [
+                    "We climbed the hill to see the view.",
+                    "The cat climbed the tree."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "climbed",
+        "v3": "climbed",
+        "group": "regular",
+        "opposite": "descend"
+    },
+    {
+        "word": "dress",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👗",
+        "subtext": "dress well / dress for work",
+        "synonyms": [
+            "get dressed"
+        ],
+        "opposite": "undress",
+        "oppositeEmoji": "👕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put clothes on yourself or someone else.",
+                "examples": [
+                    "I get dressed at seven.",
+                    "She was dressed in black."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "dressed",
+        "v3": "dressed",
+        "group": "regular"
+    },
+    {
+        "word": "undress",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👕",
+        "subtext": "undress quickly",
+        "synonyms": [
+            "get undressed"
+        ],
+        "opposite": "dress",
+        "oppositeEmoji": "👗",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take clothes off yourself or someone else.",
+                "examples": [
+                    "He undressed and went to bed.",
+                    "Get undressed and have a bath."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "undressed",
+        "v3": "undressed",
+        "group": "regular"
+    },
+    {
+        "word": "turn on",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💡",
+        "subtext": "turn on the light / turn on the TV / turn on the radio",
+        "opposite": "turn off",
+        "oppositeEmoji": "🌑",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a device start working.",
+                "examples": [
+                    "Turn on the light, please.",
+                    "He turns on his computer at nine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned on",
+        "v3": "turned on",
+        "group": "regular"
+    },
+    {
+        "word": "turn off",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "subtext": "turn off the light / turn off the computer / turn off your phone",
+        "opposite": "turn on",
+        "oppositeEmoji": "💡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a device stop working.",
+                "examples": [
+                    "Don't forget to turn off the lights.",
+                    "She turns off her phone during meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned off",
+        "v3": "turned off",
+        "group": "regular"
+    },
+    {
+        "word": "welcome",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "subtext": "welcome someone / welcome home",
+        "definitions": [
+            {
+                "text": "To greet someone who has just arrived at a place.",
+                "examples": [
+                    "We welcomed the guests at the door."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "welcomed",
+        "v3": "welcomed",
+        "group": "regular",
+        "opposite": "reject"
+    },
+    {
+        "word": "act",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎭",
+        "form": "verb",
+        "subtext": "act in a play / act quickly",
+        "definitions": [
+            {
+                "text": "To perform in a play or movie.",
+                "examples": [
+                    "He acts in the school play."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "acted",
+        "v3": "acted",
+        "group": "regular",
+        "opposite": "be natural"
+    },
+    {
+        "word": "copy",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📄",
+        "form": "verb",
+        "subtext": "copy a document / copy files",
+        "definitions": [
+            {
+                "text": "To make something that is exactly like another thing.",
+                "examples": [
+                    "Can you copy this report for me?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "copied",
+        "v3": "copied",
+        "group": "regular",
+        "opposite": "original"
+    },
+    {
+        "word": "fill",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🫗",
+        "form": "verb",
+        "subtext": "fill a glass / fill in a form",
+        "definitions": [
+            {
+                "text": "To make something full.",
+                "examples": [
+                    "Please fill the glass with water."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "filled",
+        "v3": "filled",
+        "group": "regular",
+        "opposite": "empty"
+    },
+    {
+        "word": "fit",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "form": "verb",
+        "subtext": "fit well / does it fit?",
+        "definitions": [
+            {
+                "text": "To be the right size or shape for someone or something.",
+                "examples": [
+                    "These shoes don't fit me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "fitted",
+        "v3": "fitted",
+        "group": "regular",
+        "opposite": "unfit"
+    },
+    {
+        "word": "join",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "join a club / join us",
+        "definitions": [
+            {
+                "text": "To become a member of a group or organization.",
+                "examples": [
+                    "I want to join the tennis club."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "joined",
+        "v3": "joined",
+        "group": "regular",
+        "opposite": "leave"
+    },
+    {
+        "word": "note",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "note down / please note",
+        "definitions": [
+            {
+                "text": "To write something down so that you will remember it.",
+                "examples": [
+                    "Please note the time of the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "noted",
+        "v3": "noted",
+        "group": "regular",
+        "opposite": "forget"
+    },
+    {
+        "word": "pick",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧺",
+        "form": "verb",
+        "subtext": "pick flowers / pick up",
+        "definitions": [
+            {
+                "text": "To take flowers, fruit, etc. from the plant where they are growing.",
+                "examples": [
+                    "They are picking apples in the garden."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "picked",
+        "v3": "picked",
+        "group": "regular",
+        "opposite": "drop"
+    },
+    {
+        "word": "wish",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤞",
+        "form": "verb",
+        "subtext": "wish for / I wish",
+        "definitions": [
+            {
+                "text": "To want something to happen or to be true even though it is unlikely.",
+                "examples": [
+                    "I wish it was summer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wished",
+        "v3": "wished",
+        "group": "regular",
+        "opposite": "fear"
+    },
+    {
+        "word": "collect",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "collect things / collect stamps",
+        "definitions": [
+            {
+                "text": "To bring things together from different places.",
+                "examples": [
+                    "She collects stamps."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "collected",
+        "v3": "collected",
+        "group": "regular",
+        "opposite": "scatter"
+    },
+    {
+        "word": "describe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "verb",
+        "subtext": "describe something / describe a person",
+        "definitions": [
+            {
+                "text": "To say or write what someone or something is like.",
+                "examples": [
+                    "Can you describe your house?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "described",
+        "v3": "described",
+        "group": "regular",
+        "opposite": "summarize"
+    },
+    {
+        "word": "breathe",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🫁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take air into your lungs and send it out again.",
+                "examples": [
+                    "Breathe deeply."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "breathed",
+        "v3": "breathed",
+        "group": "regular",
+        "subtext": "",
+        "synonyms": [
+            "inhale",
+            "exhale"
+        ]
+    },
+    {
+        "word": "cough",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "😷",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To force air out of your lungs with a sudden loud noise.",
+                "examples": [
+                    "He is coughing because he is ill."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "coughed",
+        "v3": "coughed",
+        "group": "regular",
+        "subtext": "have a cough"
+    },
+    {
+        "word": "sneeze",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤧",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To suddenly force air out through your nose and mouth with a loud noise.",
+                "examples": [
+                    "Bless you! Did you sneeze?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "sneezed",
+        "v3": "sneezed",
+        "group": "regular",
+        "subtext": "",
+        "synonyms": [
+            "atchoo!"
+        ]
+    },
+    {
+        "word": "yawn",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🥱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To open your mouth wide and take a deep breath because you are tired.",
+                "examples": [
+                    "She yawned during the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "yawned",
+        "v3": "yawned",
+        "group": "regular",
+        "subtext": "",
+        "synonyms": [
+            "feel sleepy"
+        ]
+    },
+    {
+        "word": "explain",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🗣️",
+        "form": "verb",
+        "transcription": "[ɪkˈspleɪn]",
+        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To make something clear or easy to understand by describing or giving information about it.",
+                "examples": [
+                    "Can you explain this rule?",
+                    "The teacher explained the lesson."
+                ]
+            }
+        ],
+        "v2": "explained",
+        "v3": "explained",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "explain something to someone"
+    },
+    {
+        "word": "prepare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "transcription": "[prɪˈpeə(r)]",
+        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To get someone or something ready for something that will happen in the future.",
+                "examples": [
+                    "I need to prepare for my exam.",
+                    "She is preparing dinner."
+                ]
+            }
+        ],
+        "v2": "prepared",
+        "v3": "prepared",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "prepare for something"
+    },
+    {
+        "word": "depend",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "form": "verb",
+        "transcription": "[dɪˈpend]",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be decided by or to change according to something else.",
+                "examples": [
+                    "It depends on the weather.",
+                    "Our plans depend on your answer."
+                ]
+            }
+        ],
+        "v2": "depended",
+        "v3": "depended",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "depend ON someone/something"
+    },
+    {
+        "word": "belong",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🏠",
+        "form": "verb",
+        "transcription": "[bɪˈlɒŋ]",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be the property of someone.",
+                "examples": [
+                    "This book belongs to me.",
+                    "Who does this bag belong to?"
+                ]
+            }
+        ],
+        "v2": "belonged",
+        "v3": "belonged",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "belong TO someone/something"
+    },
+    {
+        "word": "be",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👤",
+        "subtext": "be tired / be happy / be at work / be ready",
+        "form": "verb",
+        "transcription": "biː",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To exist; to have a quality or state.",
+                "examples": [
+                    "I am tired.",
+                    "She is a doctor.",
+                    "We are late."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "was / were",
+        "v3": "been",
+        "group": "irregular",
+        "opposite": "become"
+    },
+    {
+        "word": "have",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👜",
+        "subtext": "have a job / have lunch / have a problem / have time",
+        "form": "verb",
+        "transcription": "hæv",
+        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To possess something; to experience something.",
+                "examples": [
+                    "I have a job.",
+                    "He has a car.",
+                    "She has a headache."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "had",
+        "v3": "had",
+        "group": "irregular",
+        "opposite": "need"
+    },
+    {
+        "word": "feel",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🌡️",
+        "subtext": "feel tired / feel better / feel ill / feel stressed",
+        "form": "verb",
+        "transcription": "fiːl",
+        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To experience a physical or emotional state.",
+                "examples": [
+                    "She feels exhausted after a long week."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "felt",
+        "v3": "felt",
+        "group": "irregular",
+        "opposite": "act"
+    },
+    {
+        "word": "give",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🎁",
+        "subtext": "give advice / give money / give a present / give information",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "transcription": "ɡɪv",
+        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To hand or transfer something to someone.",
+                "examples": [
+                    "He gives me a lot of work.",
+                    "She gives advice."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "gave",
+        "v3": "given",
+        "group": "irregular"
+    },
+    {
+        "word": "take",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "👜",
+        "subtext": "take the bus / take medicine / take a break / take time",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "transcription": "teɪk",
+        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
+        "definitions": [
+            {
+                "text": "To hold and move something; to use or consume.",
+                "examples": [
+                    "I take the bus to work.",
+                    "She takes medicine."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "took",
+        "v3": "taken",
+        "group": "irregular"
+    },
+    {
+        "word": "get",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📥",
+        "subtext": "get a job / get tired / get better / get home",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To receive, obtain or become.",
+                "examples": [
+                    "I get a good salary.",
+                    "He gets tired quickly.",
+                    "She gets a promotion."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "got",
+        "v3": "got / gotten",
+        "group": "irregular"
+    },
+    {
+        "word": "put",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "📥",
+        "subtext": "put on / put away / put the phone down / put money aside",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To place something in a position.",
+                "examples": [
+                    "Put your bag here.",
+                    "She puts money in the bank."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "put",
+        "v3": "put",
+        "group": "irregular"
+    },
+    {
+        "word": "make",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏗️",
+        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To create or produce something; to cause something.",
+                "examples": [
+                    "I make coffee in the morning.",
+                    "She makes a decision."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "made",
+        "v3": "made",
+        "group": "irregular",
+        "opposite": "destroy"
+    },
+    {
+        "word": "do",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perform an action or activity.",
+                "examples": [
+                    "I do my work every day.",
+                    "She does the shopping."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "did",
+        "v3": "done",
+        "group": "irregular",
+        "opposite": "undo"
+    },
+    {
+        "word": "use",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🛠️",
+        "subtext": "use a phone / use public transport / use a computer / use time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To employ something for a purpose.",
+                "examples": [
+                    "I use my phone for everything.",
+                    "She uses public transport."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "used",
+        "v3": "used",
+        "group": "regular",
+        "opposite": "waste"
+    },
+    {
+        "word": "open",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📖",
+        "subtext": "open a door / open an account / open a shop / open at nine",
+        "opposite": "closed",
+        "oppositeEmoji": "🔒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something not closed; or to start.",
+                "examples": [
+                    "He opens the office at eight.",
+                    "She opens a bank account."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "opened",
+        "v3": "opened",
+        "group": "regular"
+    },
+    {
+        "word": "close",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🔒",
+        "subtext": "close a door / close at six / close an account / close the meeting",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something not open; or to finish.",
+                "examples": [
+                    "The office closes at six.",
+                    "She closes her laptop."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "closed",
+        "v3": "closed",
+        "group": "regular"
+    },
+    {
+        "word": "start",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "subtext": "start work / start a meeting / start a new job",
+        "opposite": "stop",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To begin an activity or period.",
+                "examples": [
+                    "I start work at eight thirty. She starts a new role next month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "started",
+        "v3": "started",
+        "group": "regular"
+    },
+    {
+        "word": "finish",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "subtext": "finish work / finish a project / finish early / finish late",
+        "opposite": "end",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To complete something.",
+                "examples": [
+                    "He finishes work at five. She finishes the report by noon."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "finished",
+        "v3": "finished",
+        "group": "regular"
+    },
+    {
+        "word": "help",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "subtext": "help someone / help with a task / help out / ask for help",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make it easier for someone to do something.",
+                "examples": [
+                    "He helps new colleagues understand the systems."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "helped",
+        "v3": "helped",
+        "group": "regular",
+        "opposite": "hinder"
+    },
+    {
+        "word": "try",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎯",
+        "subtext": "try to do / try hard / try something new / give it a try",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To attempt to do something; to test something.",
+                "examples": [
+                    "I always try to reply to all messages within an hour."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "tried",
+        "v3": "tried",
+        "group": "regular",
+        "opposite": "give up"
+    },
+    {
+        "word": "show",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "📽️",
+        "subtext": "show someone how / show a document / show interest",
+        "opposite": "hide",
+        "oppositeEmoji": "🙈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To let someone see or demonstrate something.",
+                "examples": [
+                    "Can you show me how the system works?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "showed",
+        "v3": "shown",
+        "group": "irregular"
+    },
+    {
+        "word": "find",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🔍",
+        "subtext": "find a job / find out / find it difficult / find time",
+        "opposite": "lose",
+        "oppositeEmoji": "📉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To discover or locate something.",
+                "examples": [
+                    "I find the work interesting.",
+                    "She found a new job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "found",
+        "v3": "found",
+        "group": "irregular"
+    },
+    {
+        "word": "keep",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📦",
+        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To continue having or doing something.",
+                "examples": [
+                    "Keep the receipt.",
+                    "She keeps her phone on all day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "kept",
+        "v3": "kept",
+        "group": "irregular",
+        "opposite": "give away"
+    },
+    {
+        "word": "lose",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📉",
+        "subtext": "lose a job / lose money / lose weight / lose time",
+        "opposite": "win",
+        "oppositeEmoji": "🔍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To no longer have something.",
+                "examples": [
+                    "I lost my keys.",
+                    "She lost her job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lost",
+        "v3": "lost",
+        "group": "irregular"
+    },
+    {
+        "word": "cut",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "✂️",
+        "subtext": "cut costs / cut spending / cut short / cut in half",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To divide with something sharp; to reduce.",
+                "examples": [
+                    "She cuts her lunch break short.",
+                    "It cuts costs."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "cut",
+        "v3": "cut",
+        "group": "irregular",
+        "opposite": "join"
+    },
+    {
+        "word": "turn",
+        "level": "starter",
+        "theme": "directions_navigation_A1",
+        "emoji": "🔄",
+        "subtext": "turn on / turn off / turn left / turn right",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move in a direction; to change state.",
+                "examples": [
+                    "Turn left at the office.",
+                    "She turns off the light."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned",
+        "v3": "turned",
+        "group": "regular",
+        "opposite": "straighten"
+    },
+    {
+        "word": "bring",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🎁",
+        "subtext": "bring someone / bring food / bring a document / bring up",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To carry something to a place.",
+                "examples": [
+                    "Bring your ID to the interview.",
+                    "He brings lunch."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "brought",
+        "v3": "brought",
+        "group": "irregular"
+    },
+    {
+        "word": "say",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🗨️",
+        "subtext": "say hello / say yes / say no / say something",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To express something in words.",
+                "examples": [
+                    "She says hello every morning.",
+                    "He says it is difficult."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "said",
+        "v3": "said",
+        "group": "irregular",
+        "opposite": "listen"
+    },
+    {
+        "word": "tell",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "🗣️",
+        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give information or instructions to someone.",
+                "examples": [
+                    "She tells the team about changes before they happen."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "told",
+        "v3": "told",
+        "group": "irregular",
+        "opposite": "ask"
+    },
+    {
+        "word": "ask",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "opposite": "answer",
+        "oppositeEmoji": "📞",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put a question or make a request.",
+                "examples": [
+                    "She asks for feedback after every presentation."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "asked",
+        "v3": "asked",
+        "group": "regular"
+    },
+    {
+        "word": "speak",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🗣️",
+        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say words; to communicate verbally.",
+                "examples": [
+                    "He speaks French.",
+                    "She speaks to her manager every day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spoke",
+        "v3": "spoken",
+        "group": "irregular",
+        "opposite": "be silent"
+    },
+    {
+        "word": "talk",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "💬",
+        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To communicate by speaking.",
+                "examples": [
+                    "He talks to his manager about the problem."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "talked",
+        "v3": "talked",
+        "group": "regular",
+        "opposite": "listen"
+    },
+    {
+        "word": "call",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📞",
+        "subtext": "call someone / call back / call a meeting / call in sick",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To telephone someone.",
+                "examples": [
+                    "I call my clients every morning before checking emails."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "called",
+        "v3": "called",
+        "group": "regular",
+        "opposite": "hang up"
+    },
+    {
+        "word": "write",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "✍️",
+        "subtext": "write an email / write a report / write a letter / write notes",
+        "opposite": "read",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put words on paper or screen.",
+                "examples": [
+                    "I write emails all day.",
+                    "She writes a report every Friday."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "wrote",
+        "v3": "written",
+        "group": "irregular"
+    },
+    {
+        "word": "read",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "read a book / read the news / read a contract / read carefully",
+        "opposite": "write",
+        "oppositeEmoji": "✍️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To look at and understand written words.",
+                "examples": [
+                    "She reads the news every morning.",
+                    "He reads contracts."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "read",
+        "v3": "read",
+        "group": "irregular"
+    },
+    {
+        "word": "listen",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎧",
+        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To pay attention to sounds or speech.",
+                "examples": [
+                    "I listen to podcasts at work.",
+                    "She listens carefully."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "listened",
+        "v3": "listened",
+        "group": "regular",
+        "opposite": "say"
+    },
+    {
+        "word": "answer",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "📞",
+        "subtext": "answer a question / answer the phone / answer an email",
+        "opposite": "ask",
+        "oppositeEmoji": "❓",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To respond to a question or communication.",
+                "examples": [
+                    "He answers all emails quickly.",
+                    "She answered the phone."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "answered",
+        "v3": "answered",
+        "group": "regular"
+    },
+    {
+        "word": "repeat",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔁",
+        "subtext": "repeat that / repeat yourself / repeat an order",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say or do something again.",
+                "examples": [
+                    "Please repeat that.",
+                    "He repeated the instruction twice."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "repeated",
+        "v3": "repeated",
+        "group": "regular",
+        "opposite": "change"
+    },
+    {
+        "word": "go",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🚶",
+        "subtext": "go to work / go home / go out / go shopping",
+        "opposite": "come",
+        "oppositeEmoji": "🏃‍♂️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move from one place to another.",
+                "examples": [
+                    "I go to work by bus.",
+                    "She goes to the doctor."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "went",
+        "v3": "gone",
+        "group": "irregular",
+        "transcription": "[ɡəʊ]",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        "word": "come",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🏃‍♂️",
+        "subtext": "come home / come to work / come back / come here",
+        "opposite": "go",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move towards a place or person.",
+                "examples": [
+                    "He comes to the office at nine.",
+                    "She comes home late."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "came",
+        "v3": "come",
+        "group": "irregular",
+        "transcription": "[kʌm]",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        "word": "walk",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚶",
+        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "opposite": "run",
+        "oppositeEmoji": "🏃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move on foot at a normal pace.",
+                "examples": [
+                    "He walks to work every day.",
+                    "She walks during her lunch break."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "walked",
+        "v3": "walked",
+        "group": "regular"
+    },
+    {
+        "word": "drive",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚗",
+        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To operate a vehicle.",
+                "examples": [
+                    "She drives to work.",
+                    "He drives a company car."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drove",
+        "v3": "driven",
+        "group": "irregular",
+        "opposite": "walk"
+    },
+    {
+        "word": "fly",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "✈️",
+        "subtext": "fly to a city / fly business class / fly economy",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To travel by plane.",
+                "examples": [
+                    "She flies to Paris for meetings.",
+                    "He hates flying."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "flew",
+        "v3": "flown",
+        "group": "irregular",
+        "opposite": "land"
+    },
+    {
+        "word": "arrive",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "opposite": "leave",
+        "oppositeEmoji": "🚪",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To reach a destination.",
+                "examples": [
+                    "He arrives at the office at nine. The train arrives on time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "arrived",
+        "v3": "arrived",
+        "group": "regular"
+    },
+    {
+        "word": "leave",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🚪",
+        "subtext": "leave home / leave work / leave early / leave late",
+        "opposite": "arrive",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go away from a place.",
+                "examples": [
+                    "I leave the house at eight fifteen. She leaves work at six."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "left",
+        "v3": "left",
+        "group": "irregular"
+    },
+    {
+        "word": "move",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "📦",
+        "subtext": "move to a new place / move in / move out / move house",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go to live or work in a different place.",
+                "examples": [
+                    "They moved to a larger flat when they had children."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "moved",
+        "v3": "moved",
+        "group": "regular",
+        "opposite": "stay"
+    },
+    {
+        "word": "return",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🔙",
+        "subtext": "return home / return to work / return a call / return from",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To come or go back to a place.",
+                "examples": [
+                    "He returns from a trip on Friday.",
+                    "She returned the call."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "returned",
+        "v3": "returned",
+        "group": "regular",
+        "opposite": "leave"
+    },
+    {
+        "word": "travel",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "✈️",
+        "subtext": "travel for work / travel abroad / travel by train",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go from one place to another, especially far.",
+                "examples": [
+                    "She travels for work three times a month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "traveled",
+        "v3": "traveled",
+        "group": "regular",
+        "opposite": "stay"
+    },
+    {
+        "word": "eat",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🍎",
+        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "opposite": "drink",
+        "oppositeEmoji": "🥛",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put food in your mouth and swallow it.",
+                "examples": [
+                    "We eat dinner at seven.",
+                    "He eats lunch at his desk."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ate",
+        "v3": "eaten",
+        "group": "irregular"
+    },
+    {
+        "word": "drink",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "emoji": "🥛",
+        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "opposite": "eat",
+        "oppositeEmoji": "🍎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take liquid into your mouth and swallow it.",
+                "examples": [
+                    "She drinks coffee every morning.",
+                    "I drink water."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drank",
+        "v3": "drunk",
+        "group": "irregular"
+    },
+    {
+        "word": "sleep",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "😴",
+        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
+        "opposite": "wake up",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To rest with your eyes closed in a natural state of unconsciousness.",
+                "examples": [
+                    "He sleeps seven hours a night.",
+                    "I sleep badly."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "slept",
+        "v3": "slept",
+        "group": "irregular"
+    },
+    {
+        "word": "cook",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "🍳",
+        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To prepare food by heating it.",
+                "examples": [
+                    "She cooks dinner every evening. I do not cook — I order food."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cooked",
+        "v3": "cooked",
+        "group": "regular",
+        "opposite": "eat"
+    },
+    {
+        "word": "clean",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧹",
+        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To remove dirt from something.",
+                "examples": [
+                    "I clean the flat every Saturday. He cleans his desk every morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cleaned",
+        "v3": "cleaned",
+        "group": "regular",
+        "opposite": "dirty"
+    },
+    {
+        "word": "wear",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "subtext": "wear a suit / wear glasses / wear casual clothes",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have clothing or accessories on your body.",
+                "examples": [
+                    "She wears a suit to work.",
+                    "He wears glasses."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "wore",
+        "v3": "worn",
+        "group": "irregular",
+        "opposite": "undress"
+    },
+    {
+        "word": "wash",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧼",
+        "subtext": "wash the dishes / wash clothes / wash your hands",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To clean something with water.",
+                "examples": [
+                    "He washes his car every Sunday.",
+                    "Wash your hands."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "washed",
+        "v3": "washed",
+        "group": "regular",
+        "opposite": "dirty"
+    },
+    {
+        "word": "buy",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🛒",
+        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "opposite": "sell",
+        "oppositeEmoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something in exchange for money.",
+                "examples": [
+                    "She buys food online.",
+                    "He wants to buy a flat."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "bought",
+        "v3": "bought",
+        "group": "irregular"
+    },
+    {
+        "word": "pay",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💳",
+        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give money in exchange for something.",
+                "examples": [
+                    "I pay my bills by direct debit."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "paid",
+        "v3": "paid",
+        "group": "irregular",
+        "opposite": "receive"
+    },
+    {
+        "word": "spend",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "subtext": "spend money / spend on food / spend on rent / spend time",
+        "opposite": "save",
+        "oppositeEmoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use money to pay for things.",
+                "examples": [
+                    "He spends too much money on takeaway food."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spent",
+        "v3": "spent",
+        "group": "irregular"
+    },
+    {
+        "word": "save",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "save money / save for a holiday / save for a house",
+        "opposite": "spend",
+        "oppositeEmoji": "💸",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To keep money rather than spending it.",
+                "examples": [
+                    "She saves a hundred euros every month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "saved",
+        "v3": "saved",
+        "group": "regular"
+    },
+    {
+        "word": "work",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "work from home / work full-time / work hard / work late",
+        "opposite": "rest",
+        "oppositeEmoji": "🛋️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do tasks as part of a job.",
+                "examples": [
+                    "She works from home three days a week."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "worked",
+        "v3": "worked",
+        "group": "regular"
+    },
+    {
+        "word": "live",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "emoji": "🏠",
+        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "opposite": "die",
+        "oppositeEmoji": "⚰️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have your home in a place; to be alive.",
+                "examples": [
+                    "He lives in a flat near the centre.",
+                    "We live together."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "lived",
+        "v3": "lived",
+        "group": "regular"
+    },
+    {
+        "word": "think",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💭",
+        "subtext": "think about / think of / think it is / think carefully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a belief or opinion; to use the mind.",
+                "examples": [
+                    "I think it is a good idea.",
+                    "She thinks about her job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "thought",
+        "v3": "thought",
+        "group": "irregular",
+        "opposite": "feel"
+    },
+    {
+        "word": "know",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "know someone / know the answer / know a place / know how to",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have information or awareness about something.",
+                "examples": [
+                    "I know his name.",
+                    "She knows the answer.",
+                    "Do you know him?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "knew",
+        "v3": "known",
+        "group": "irregular",
+        "opposite": "wonder"
+    },
+    {
+        "word": "want",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "🙏",
+        "subtext": "want a job / want to leave / want more money / want help",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To desire or wish for something.",
+                "examples": [
+                    "I want a coffee.",
+                    "She wants a better job.",
+                    "He wants to retire."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wanted",
+        "v3": "wanted",
+        "group": "regular",
+        "opposite": "refuse"
+    },
+    {
+        "word": "need",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🆘",
+        "subtext": "need help / need time / need money / need to rest",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To require something; to feel that something is necessary.",
+                "examples": [
+                    "I need a break.",
+                    "She needs help.",
+                    "We need more time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "needed",
+        "v3": "needed",
+        "group": "regular",
+        "opposite": "have"
+    },
+    {
+        "word": "like",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "👍",
+        "subtext": "like work / like to travel / like someone / like the idea",
+        "opposite": null,
+        "oppositeEmoji": "👎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To find something pleasant; to enjoy.",
+                "examples": [
+                    "I like my job.",
+                    "She likes cooking.",
+                    "He likes coffee."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "liked",
+        "v3": "liked",
+        "group": "regular"
+    },
+    {
+        "word": "dislike",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "👎",
+        "subtext": "not like / dislike doing",
+        "opposite": "prefer",
+        "oppositeEmoji": "👍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To not like someone or something.",
+                "examples": [
+                    "I dislike loud music."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "disliked",
+        "v3": "disliked",
+        "group": "regular"
+    },
+    {
+        "word": "love",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "❤️",
+        "subtext": "love someone / love doing / love a place / love the idea",
+        "opposite": "hate",
+        "oppositeEmoji": "😡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have strong affection for; to enjoy greatly.",
+                "examples": [
+                    "She loves her job.",
+                    "He loves travelling for work."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "loved",
+        "v3": "loved",
+        "group": "regular"
+    },
+    {
+        "word": "hate",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😡",
+        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "opposite": "love",
+        "oppositeEmoji": "❤️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To strongly dislike.",
+                "examples": [
+                    "He hates commuting by bus.",
+                    "She hates long meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "hated",
+        "v3": "hated",
+        "group": "regular"
+    },
+    {
+        "word": "hope",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "🤞",
+        "subtext": "hope for / hope to do / hope that / I hope so",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To wish for something to happen.",
+                "examples": [
+                    "I hope to get a promotion this year.",
+                    "She hopes for better pay."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "hoped",
+        "v3": "hoped",
+        "group": "regular",
+        "opposite": "fear"
+    },
+    {
+        "word": "remember",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "remember to do / remember a name / remember clearly",
+        "opposite": "forget",
+        "oppositeEmoji": "🤔",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a memory of; to not forget.",
+                "examples": [
+                    "Please remember the deadline.",
+                    "She remembers every client."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "remembered",
+        "v3": "remembered",
+        "group": "regular"
+    },
+    {
+        "word": "forget",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🤔",
+        "subtext": "forget a name / forget to do / forget about / completely forget",
+        "opposite": "remember",
+        "oppositeEmoji": "🧠",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To fail to remember.",
+                "examples": [
+                    "Don't forget the meeting.",
+                    "He always forgets passwords."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "forgot",
+        "v3": "forgotten",
+        "group": "irregular"
+    },
+    {
+        "word": "understand",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "💡",
+        "subtext": "understand a problem / understand someone / understand clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To grasp the meaning of something.",
+                "examples": [
+                    "I understand the contract.",
+                    "She understands French."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "understood",
+        "v3": "understood",
+        "group": "irregular",
+        "opposite": "misunderstand"
+    },
+    {
+        "word": "decide",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "subtext": "decide to do / decide on / hard to decide",
+        "synonyms": [
+            "make a decision"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a choice.",
+                "examples": [
+                    "She decided to change careers.",
+                    "He decides quickly."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "decided",
+        "v3": "decided",
+        "group": "regular",
+        "opposite": "hesitate"
+    },
+    {
+        "word": "enjoy",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😊",
+        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take pleasure from something.",
+                "examples": [
+                    "She really enjoys working from home three days a week."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "enjoyed",
+        "v3": "enjoyed",
+        "group": "regular",
+        "opposite": "hate"
+    },
+    {
+        "word": "see",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👁️",
+        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To notice or perceive with the eyes.",
+                "examples": [
+                    "I see my doctor tomorrow.",
+                    "She sees the problem."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "saw",
+        "v3": "seen",
+        "group": "irregular",
+        "opposite": "blind"
+    },
+    {
+        "word": "hear",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👂",
+        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perceive sound through the ears.",
+                "examples": [
+                    "I hear the alarm every morning.",
+                    "Can you hear me?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "heard",
+        "v3": "heard",
+        "group": "irregular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "wake up",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
+        "form": "verb",
+        "subtext": "wake up early / wake up late / wake up tired",
+        "opposite": "sleep",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "To stop sleeping; to become conscious after sleep.",
+                "examples": [
+                    "I wake up at six thirty every morning."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "woke up",
+        "v3": "woken up",
+        "group": "irregular"
+    },
+    {
+        "word": "watch",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📺",
+        "form": "verb",
+        "subtext": "watch TV / watch a film / watch the news / watch closely",
+        "definitions": [
+            {
+                "text": "To look at something for a period of time.",
+                "examples": [
+                    "She watches the market news every morning before work."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "watched",
+        "v3": "watched",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "look",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "👀",
+        "subtext": "look at / look for / look like / look happy",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To direct your eyes toward something.",
+                "examples": [
+                    "Look at this photo.",
+                    "He is looking for his keys."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "looked",
+        "v3": "looked",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "play",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "subtext": "play sport / play a game / play music / play a role",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take part in a game or sport; to produce music.",
+                "examples": [
+                    "He plays football at the weekend to de-stress."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "played",
+        "v3": "played",
+        "group": "regular",
+        "opposite": "work"
+    },
+    {
+        "word": "run",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏃",
+        "subtext": "run a race / run a business / run out of / run late",
+        "opposite": "walk",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move very fast on your legs.",
+                "examples": [
+                    "I run in the park.",
+                    "He runs to catch the bus."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ran",
+        "v3": "run",
+        "group": "irregular"
+    },
+    {
+        "word": "sit",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪑",
+        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
+        "opposite": "stand",
+        "oppositeEmoji": "🧍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be in or take a seated position.",
+                "examples": [
+                    "He sits at his desk for eight hours a day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sat",
+        "v3": "sat",
+        "group": "irregular"
+    },
+    {
+        "word": "stand",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🧍",
+        "subtext": "stand up / stand in a queue / stand by / stand out",
+        "opposite": "sit",
+        "oppositeEmoji": "🪑",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be in or rise to an upright position.",
+                "examples": [
+                    "She stands when she presents to keep her energy up."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "stood",
+        "v3": "stood",
+        "group": "irregular"
+    },
+    {
+        "word": "meet",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To come together with someone, especially for a planned reason.",
+                "examples": [
+                    "We meet every Monday to discuss the week."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "met",
+        "v3": "met",
+        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "learn",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📚",
+        "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "opposite": "teach",
+        "oppositeEmoji": "👨‍🏫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To gain knowledge or skill.",
+                "examples": [
+                    "She is learning Spanish for her new job abroad."
+                ]
+            }
+        ],
+        "classification": "both",
+        "aspect": "action",
+        "v2": "learned / learnt",
+        "v3": "learned / learnt",
+        "group": "both"
+    },
+    {
+        "word": "change",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🔄",
+        "subtext": "change jobs / change your mind / change the plan / change something",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To become different; to make something different.",
+                "examples": [
+                    "She changed jobs twice in three years. Things change fast."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "changed",
+        "v3": "changed",
+        "group": "regular",
+        "opposite": "stay"
+    },
+    {
+        "word": "stop",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛑",
+        "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "opposite": "start",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To end an activity or movement.",
+                "examples": [
+                    "She stopped taking the bus and cycles to work now."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "stopped",
+        "v3": "stopped",
+        "group": "regular"
+    },
+    {
+        "word": "add",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➕",
+        "subtext": "add some sugar / add to / add up / add a comment",
+        "opposite": "subtract",
+        "oppositeEmoji": "➖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put things together to make a larger group.",
+                "examples": [
+                    "Add some sugar to the tea.",
+                    "What is five plus five?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "added",
+        "v3": "added",
+        "group": "regular"
+    },
+    {
+        "word": "subtract",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➖",
+        "subtext": "subtract from",
+        "synonyms": [
+            "minus"
+        ],
+        "opposite": "add",
+        "oppositeEmoji": "➕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take a number or amount away from another number or amount.",
+                "examples": [
+                    "If you subtract five from ten, you get five."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "subtracted",
+        "v3": "subtracted",
+        "group": "regular"
+    },
+    {
+        "word": "win",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
+        "subtext": "win a game / win a prize / win an award / win a contract",
+        "opposite": "lose",
+        "oppositeEmoji": "📉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be the best in a game or competition.",
+                "examples": [
+                    "We want to win the game."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "won",
+        "v3": "won",
+        "group": "irregular"
+    },
+    {
+        "word": "wait",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏳",
+        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stay in a place until something happens.",
+                "examples": [
+                    "He waited twenty minutes for the meeting to start."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "waited",
+        "v3": "waited",
+        "group": "regular",
+        "opposite": "act"
+    },
+    {
+        "word": "die",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "⚰️",
+        "subtext": "die of / die for / die from / die out",
+        "opposite": "live",
+        "oppositeEmoji": "🏠",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop living.",
+                "examples": [
+                    "Plants die without water."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "died",
+        "v3": "died",
+        "group": "regular"
+    },
+    {
+        "word": "send",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✉️",
+        "form": "verb",
+        "opposite": "receive",
+        "oppositeEmoji": "📩",
+        "definitions": [
+            {
+                "text": "To transmit something to someone, especially electronically.",
+                "examples": [
+                    "She sends twenty emails before lunch."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sent",
+        "v3": "sent",
+        "subtext": "send an email / send a message / send a report / send a file",
+        "group": "irregular"
+    },
+    {
+        "word": "stay",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏨",
+        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "opposite": "leave",
+        "oppositeEmoji": "🚪",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To continue to be in a place.",
+                "examples": [
+                    "I stay at home on Sundays.",
+                    "We are staying in a hotel."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "stayed",
+        "v3": "stayed",
+        "group": "regular"
+    },
+    {
+        "word": "fall",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "🍂",
+        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "opposite": "rise",
+        "oppositeEmoji": "🌅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move down toward the ground.",
+                "examples": [
+                    "Leaves fall in autumn.",
+                    "Be careful, don't fall."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fell",
+        "v3": "fallen",
+        "group": "irregular"
+    },
+    {
+        "word": "rise",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "🌅",
+        "subtext": "rise up / sun rise / price rise",
+        "opposite": "fall",
+        "oppositeEmoji": "🍂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move upwards; to increase in amount or level.",
+                "examples": [
+                    "The sun rises in the east.",
+                    "Prices are rising every year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rose",
+        "v3": "risen",
+        "group": "irregular"
+    },
+    {
+        "word": "pass",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🏔️",
+        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "opposite": "fail",
+        "oppositeEmoji": "❌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go past something or to succeed in an exam.",
+                "examples": [
+                    "I pass the park on my way home.",
+                    "I hope I pass the test."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "passed",
+        "v3": "passed",
+        "group": "regular"
+    },
+    {
+        "word": "sell",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🏷️",
+        "subtext": "sell products / sell online / sell at the market",
+        "synonyms": [
+            "best seller"
+        ],
+        "opposite": "buy",
+        "oppositeEmoji": "🛒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give something to someone for money.",
+                "examples": [
+                    "They sell fruit at the market."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sold",
+        "v3": "sold",
+        "group": "irregular"
+    },
+    {
+        "word": "pull",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🚜",
+        "subtext": "pull the door / pull something / pull up / pull away",
+        "opposite": "push",
+        "oppositeEmoji": "🛒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something toward you.",
+                "examples": [
+                    "Pull the door to open it."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pulled",
+        "v3": "pulled",
+        "group": "regular"
+    },
+    {
+        "word": "push",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛒",
+        "subtext": "push the button / push a cart / push away / push through",
+        "opposite": "pull",
+        "oppositeEmoji": "🚜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something away from you.",
+                "examples": [
+                    "Push the button.",
+                    "I push the shopping cart."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pushed",
+        "v3": "pushed",
+        "group": "regular"
+    },
+    {
+        "word": "carry",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🎒",
+        "subtext": "carry a bag / carry notes / carry out / carry on",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hold and take something with you.",
+                "examples": [
+                    "I carry my laptop and notes to every meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "carried",
+        "v3": "carried",
+        "group": "regular",
+        "opposite": "drop"
+    },
+    {
+        "word": "break",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💔",
+        "subtext": "break the glass / break a law / take a break / break down",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To separate something into two or more pieces.",
+                "examples": [
+                    "Don't break the glass.",
+                    "He broke his leg."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "broke",
+        "v3": "broken",
+        "group": "irregular",
+        "opposite": "fix"
+    },
+    {
+        "word": "receive",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📩",
+        "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "opposite": "send",
+        "oppositeEmoji": "✉️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something that someone gave or sent to you.",
+                "examples": [
+                    "I receive a lot of mail.",
+                    "She received a gift."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "received",
+        "v3": "received",
+        "group": "regular"
+    },
+    {
+        "word": "agree",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👍",
+        "subtext": "agree with someone / agree to do / agree on / I agree",
+        "opposite": "disagree",
+        "oppositeEmoji": "👎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have the same opinion as someone.",
+                "examples": [
+                    "I agree with you.",
+                    "We agree on the plan."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "agreed",
+        "v3": "agreed",
+        "group": "regular"
+    },
+    {
+        "word": "draw",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "emoji": "🎨",
+        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a picture with a pen or pencil.",
+                "examples": [
+                    "I like to draw birds.",
+                    "Can you draw a map?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drew",
+        "v3": "drawn",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "share",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "🍕",
+        "subtext": "share a room / share information / share an idea / share with",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give a part of something to others.",
+                "examples": [
+                    "Let's share the pizza.",
+                    "I share a room with my brother."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shared",
+        "v3": "shared",
+        "group": "regular",
+        "opposite": "keep"
+    },
+    {
+        "word": "smile",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "😊",
+        "subtext": "smile at someone / a big smile / smile broadly",
+        "opposite": "cry",
+        "oppositeEmoji": "😢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a happy expression with your mouth.",
+                "examples": [
+                    "She has a beautiful smile.",
+                    "Smile for the camera."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "smiled",
+        "v3": "smiled",
+        "group": "regular"
+    },
+    {
+        "word": "cry",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "😢",
+        "subtext": "cry for help / cry out / cry about something",
+        "synonyms": [
+            "start crying"
+        ],
+        "opposite": "smile",
+        "oppositeEmoji": "😊",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To produce tears because you are sad or in pain.",
+                "examples": [
+                    "The baby is crying.",
+                    "Don't cry."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cried",
+        "v3": "cried",
+        "group": "regular"
+    },
+    {
+        "word": "dance",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "💃",
+        "subtext": "dance to music / dance together / slow dance",
+        "synonyms": [
+            "go dancing"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move your body to music.",
+                "examples": [
+                    "I love to dance.",
+                    "They are dancing."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "danced",
+        "v3": "danced",
+        "group": "regular",
+        "opposite": "sit"
+    },
+    {
+        "word": "sing",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "🎤",
+        "subtext": "sing a song / sing along / sing well",
+        "synonyms": [
+            "lead singer"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make musical sounds with your voice.",
+                "examples": [
+                    "I like to sing in the shower.",
+                    "She sings very well."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sang",
+        "v3": "sung",
+        "group": "irregular",
+        "opposite": "be quiet"
+    },
+    {
+        "word": "jump",
+        "level": "starter",
+        "theme": "playing_watching_sport_A1",
+        "emoji": "🦘",
+        "subtext": "jump high / jump over / jump up / jump in",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To push yourself off the ground with your legs.",
+                "examples": [
+                    "Can you jump high?",
+                    "The cat jumped onto the table."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "jumped",
+        "v3": "jumped",
+        "group": "regular",
+        "opposite": "fall"
+    },
+    {
+        "word": "swim",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏊",
+        "subtext": "swim across / swim laps / swim well",
+        "synonyms": [
+            "go swimming"
+        ],
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move through water using your arms and legs.",
+                "examples": [
+                    "I swim every morning.",
+                    "Can you swim?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "swam",
+        "v3": "swum",
+        "group": "irregular",
+        "opposite": "sink"
+    },
+    {
+        "word": "study",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "study English / study for an exam / study hard / self-study",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To read and practise to gain knowledge.",
+                "examples": [
+                    "He is studying for a professional qualification."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "studied",
+        "v3": "studied",
+        "group": "regular",
+        "opposite": "play"
+    },
+    {
+        "word": "teach",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "👨‍🏫",
+        "subtext": "teach someone / teach a subject / teach how to / teach a class",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give instruction in a subject.",
+                "examples": [
+                    "She teaches communication skills to senior managers."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "taught",
+        "v3": "taught",
+        "group": "irregular",
+        "opposite": "learn"
+    },
+    {
+        "word": "rent",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏠",
+        "subtext": "rent a flat / rent a property / rent out a room",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To pay money to use property belonging to someone else.",
+                "examples": [
+                    "They rent a two-bedroom flat near the city centre."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rented",
+        "v3": "rented",
+        "group": "regular",
+        "opposite": "own"
+    },
+    {
+        "word": "exercise",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏋️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do physical activity for health and fitness.",
+                "examples": [
+                    "He exercises four times a week at the gym."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "exercised",
+        "v3": "exercised",
+        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "group": "regular",
+        "opposite": "rest"
+    },
+    {
+        "word": "cost",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a price of.",
+                "examples": [
+                    "The flat costs twelve hundred euros a month."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "cost",
+        "v3": "cost",
+        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "group": "irregular"
+    },
+    {
+        "word": "invite",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "✉️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To ask someone to come to an event or place.",
+                "examples": [
+                    "They invited all their colleagues to the party."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "invited",
+        "v3": "invited",
+        "subtext": "invite someone / invite to dinner / invite to a party",
+        "group": "regular",
+        "opposite": "reject"
+    },
+    {
+        "word": "get up",
+        "definitions": [
+            {
+                "text": "To rise from bed after waking.",
+                "examples": [
+                    "He gets up at seven and makes coffee immediately."
+                ]
+            }
+        ],
+        "subtext": "get up early / get up late / get up quickly",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "got up",
+        "v3": "got up",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "have breakfast",
+        "definitions": [
+            {
+                "text": "To eat the morning meal.",
+                "examples": [
+                    "She always has breakfast before leaving the house."
+                ]
+            }
+        ],
+        "subtext": "have breakfast at home / have a quick breakfast",
+        "synonyms": [
+            "skip breakfast"
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "had breakfast",
+        "v3": "had breakfast",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🍳",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "come back",
+        "definitions": [
+            {
+                "text": "To return to a place.",
+                "examples": [
+                    "She comes back from lunch at two. He comes back home tired."
+                ]
+            }
+        ],
+        "subtext": "come back home / come back late / come back from a trip",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "came back",
+        "v3": "come back",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🔙",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "go to bed",
+        "definitions": [
+            {
+                "text": "To get into bed in order to sleep.",
+                "examples": [
+                    "They go to bed at eleven every night."
+                ]
+            }
+        ],
+        "subtext": "go to bed early / go to bed late / go to bed tired",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "went to bed",
+        "v3": "gone to bed",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "check",
+        "definitions": [
+            {
+                "text": "To examine or verify something.",
+                "examples": [
+                    "I check my emails first thing every morning."
+                ]
+            }
+        ],
+        "subtext": "check emails / check messages / check a document / check the time",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "checked",
+        "v3": "checked",
+        "theme": "workplace_basics_A1",
+        "emoji": "✅",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "unpack",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "👜",
+        "subtext": "unpack a suitcase",
+        "opposite": "pack",
+        "oppositeEmoji": "🎒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take things out of a suitcase or bag.",
+                "examples": [
+                    "I need to unpack my things."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "unpacked",
+        "v3": "unpacked",
+        "group": "regular"
+    },
+    {
+        "word": "reply",
+        "definitions": [
+            {
+                "text": "To respond to a message or question.",
+                "examples": [
+                    "He always replies to emails the same day."
+                ]
+            }
+        ],
+        "subtext": "reply to an email / reply quickly / reply to a message",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "replied",
+        "v3": "replied",
+        "theme": "workplace_basics_A1",
+        "emoji": "↩️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "present",
+        "definitions": [
+            {
+                "text": "To show or explain something to a group.",
+                "examples": [
+                    "She presents the results every Friday afternoon."
+                ]
+            }
+        ],
+        "subtext": "present a report / present ideas / present to a client",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "presented",
+        "v3": "presented",
+        "theme": "workplace_basics_A1",
+        "emoji": "📊",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "hide"
+    },
+    {
+        "word": "attend",
+        "definitions": [
+            {
+                "text": "To go to an event or meeting.",
+                "examples": [
+                    "I attend a management meeting every Monday."
+                ]
+            }
+        ],
+        "subtext": "attend a meeting / attend a course / attend an event",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "attended",
+        "v3": "attended",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "miss"
+    },
+    {
+        "word": "manage",
+        "definitions": [
+            {
+                "text": "To be in charge of people or a situation.",
+                "examples": [
+                    "She manages a team of eight people."
+                ]
+            }
+        ],
+        "subtext": "manage a team / manage a project / manage time / manage stress",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "managed",
+        "v3": "managed",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "follow"
+    },
+    {
+        "word": "earn",
+        "definitions": [
+            {
+                "text": "To receive money for work done.",
+                "examples": [
+                    "She earns a good salary as a project manager."
+                ]
+            }
+        ],
+        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "earned",
+        "v3": "earned",
+        "theme": "money_payment_A1",
+        "emoji": "💶",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "spend"
+    },
+    {
+        "word": "visit",
+        "definitions": [
+            {
+                "text": "To go to see a person or place.",
+                "examples": [
+                    "She visits her parents every second weekend."
+                ]
+            }
+        ],
+        "subtext": "visit family / visit a friend / visit a city / visit regularly",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "visited",
+        "v3": "visited",
+        "theme": "family_life_A1",
+        "emoji": "🏘️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "leave"
+    },
+    {
+        "word": "celebrate",
+        "definitions": [
+            {
+                "text": "To do something enjoyable for a special occasion.",
+                "examples": [
+                    "They celebrate every work anniversary together."
+                ]
+            }
+        ],
+        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "celebrated",
+        "v3": "celebrated",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎉",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "mourn"
+    },
+    {
+        "word": "hurt",
+        "definitions": [
+            {
+                "text": "To cause pain; or to feel pain.",
+                "examples": [
+                    "My back hurts after sitting all day."
+                ]
+            }
+        ],
+        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "hurt",
+        "v3": "hurt",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤕",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular",
+        "opposite": "heal"
+    },
+    {
+        "word": "rest",
+        "definitions": [
+            {
+                "text": "To stop working and relax to recover energy.",
+                "examples": [
+                    "He rests for an hour after lunch every day."
+                ]
+            }
+        ],
+        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rested",
+        "v3": "rested",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛋️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "exercise"
+    },
+    {
+        "word": "book",
+        "definitions": [
+            {
+                "text": "To reserve a place, ticket or service in advance.",
+                "examples": [
+                    "I always book hotels online."
+                ]
+            }
+        ],
+        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "booked",
+        "v3": "booked",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "📖",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "cancel"
+    },
+    {
+        "word": "pack",
+        "definitions": [
+            {
+                "text": "To put items into a bag or case for a journey.",
+                "examples": [
+                    "He packs his bag the night before a trip."
+                ]
+            }
+        ],
+        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "opposite": "unpack",
+        "oppositeEmoji": "👜",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "packed",
+        "v3": "packed",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🎒",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular"
+    },
+    {
+        "word": "cancel",
+        "definitions": [
+            {
+                "text": "To decide that something planned will not happen.",
+                "examples": [
+                    "She had to cancel her flight due to illness."
+                ]
+            }
+        ],
+        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cancelled",
+        "v3": "cancelled",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "❌",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "book"
+    },
+    {
+        "word": "miss",
+        "definitions": [
+            {
+                "text": "To fail to catch a transport connection; or to feel sad about absence.",
+                "examples": [
+                    "He missed his train and had to wait an hour."
+                ]
+            }
+        ],
+        "subtext": "miss a train / miss a flight / miss someone / miss work",
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "missed",
+        "v3": "missed",
+        "theme": "public_transport_A1",
+        "emoji": "🏃‍♂️",
+        "level": "starter",
+        "form": "verb",
+        "group": "regular",
+        "opposite": "attend"
+    },
+    {
+        "word": "order",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📦",
+        "subtext": "order food / order a drink / order online / order supplies",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To request something formally, especially food or goods.",
+                "examples": [
+                    "I always order lunch from the same place near the office."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ordered",
+        "v3": "ordered",
+        "group": "regular",
+        "opposite": "deliver"
+    },
+    {
+        "word": "thank",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🙏",
+        "subtext": "thank someone / thank you for / many thanks",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To express gratitude to someone.",
+                "examples": [
+                    "He thanked the team for their hard work on the project."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "thanked",
+        "v3": "thanked",
+        "group": "regular",
+        "opposite": "complain"
+    },
+    {
+        "word": "introduce",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "🤝",
+        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To present someone to another person.",
+                "examples": [
+                    "She introduced herself at the start of the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "introduced",
+        "v3": "introduced",
+        "group": "regular",
+        "opposite": "hide"
+    },
+    {
+        "word": "relax",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🧘",
+        "subtext": "relax at home / relax after work / relax on holiday",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop working and rest; to become less tense.",
+                "examples": [
+                    "I relax at the weekend and never check emails."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "relaxed",
+        "v3": "relaxed",
+        "group": "regular",
+        "opposite": "work"
+    },
+    {
+        "word": "mean",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "❔",
+        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a particular meaning; to intend.",
+                "examples": [
+                    "What does this clause in the contract mean?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "meant",
+        "v3": "meant",
+        "group": "irregular",
+        "opposite": "nonsense"
+    },
+    {
+        "word": "follow",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👣",
+        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "opposite": "lead",
+        "oppositeEmoji": "👤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To come after; to obey rules or instructions.",
+                "examples": [
+                    "Please follow the instructions carefully. He follows the news."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "followed",
+        "v3": "followed",
+        "group": "regular"
+    },
+    {
+        "word": "grow",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📈",
+        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To increase in size or amount; to develop.",
+                "examples": [
+                    "The company grew by twenty percent last year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "grew",
+        "v3": "grown",
+        "group": "irregular",
+        "opposite": "shrink"
+    },
+    {
+        "word": "become",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✨",
+        "subtext": "become a manager / become popular / become clear / become important",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To start to be something.",
+                "examples": [
+                    "She became a manager after just two years in the role."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "became",
+        "v3": "become",
+        "group": "irregular",
+        "opposite": "remain"
+    },
+    {
+        "word": "choose",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To select from options.",
+                "examples": [
+                    "He chose to work part-time to spend more time with family."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "chose",
+        "v3": "chosen",
+        "group": "irregular",
+        "opposite": "reject"
+    },
+    {
+        "word": "begin",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "form": "verb",
+        "opposite": "end",
+        "oppositeEmoji": "🏁",
+        "subtext": "begin a meeting / begin to work",
+        "synonyms": [
+            "start"
+        ],
+        "definitions": [
+            {
+                "text": "To start to do something.",
+                "examples": [
+                    "We begin the meeting at nine o'clock."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "began",
+        "v3": "begun",
+        "group": "irregular"
+    },
+    {
+        "word": "end",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "form": "verb",
+        "opposite": "begin",
+        "oppositeEmoji": "▶️",
+        "subtext": "end a class / at the end",
+        "synonyms": [
+            "finish",
+            "stop"
+        ],
+        "definitions": [
+            {
+                "text": "To finish; to stop.",
+                "examples": [
+                    "The class ends at three o'clock."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ended",
+        "v3": "ended",
+        "group": "regular"
+    },
+    {
+        "word": "brush",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪥",
+        "form": "verb",
+        "subtext": "brush your teeth",
+        "synonyms": [
+            "hairbrush"
+        ],
+        "definitions": [
+            {
+                "text": "To clean something with a brush.",
+                "examples": [
+                    "I brush my teeth every morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "brushed",
+        "v3": "brushed",
+        "group": "regular",
+        "opposite": "mess up"
+    },
+    {
+        "word": "ride",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "verb",
+        "subtext": "ride a bike / ride a horse",
+        "definitions": [
+            {
+                "text": "To travel on a bike or horse.",
+                "examples": [
+                    "I ride my bike to work."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rode",
+        "v3": "ridden",
+        "group": "irregular",
+        "opposite": "walk"
+    },
+    {
+        "word": "believe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🙏",
+        "form": "verb",
+        "subtext": "believe in / I believe so",
+        "synonyms": [
+            "think",
+            "trust"
+        ],
+        "definitions": [
+            {
+                "text": "To think that something is true.",
+                "examples": [
+                    "I believe you."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "believed",
+        "v3": "believed",
+        "group": "regular",
+        "opposite": "doubt"
+    },
+    {
+        "word": "prefer",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "form": "verb",
+        "subtext": "like better / prefer tea to coffee",
+        "definitions": [
+            {
+                "text": "To like one thing more than another.",
+                "examples": [
+                    "I prefer tea to coffee."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "preferred",
+        "v3": "preferred",
+        "group": "regular",
+        "opposite": "dislike"
+    },
+    {
+        "word": "catch",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🧤",
+        "form": "verb",
+        "subtext": "catch a bus / catch a cold / catch a ball",
+        "definitions": [
+            {
+                "text": "To take hold of something; to get on a bus or train.",
+                "examples": [
+                    "I need to catch the bus at eight."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "caught",
+        "v3": "caught",
+        "group": "irregular",
+        "opposite": "throw"
+    },
+    {
+        "word": "fix",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "form": "verb",
+        "subtext": "fix a problem / fix a computer",
+        "synonyms": [
+            "repair"
+        ],
+        "definitions": [
+            {
+                "text": "To repair something that is broken.",
+                "examples": [
+                    "Can you fix my phone?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "fixed",
+        "v3": "fixed",
+        "group": "regular",
+        "opposite": "break"
+    },
+    {
+        "word": "plan",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "form": "verb",
+        "subtext": "plan a trip / plan for the future",
+        "synonyms": [
+            "decide"
+        ],
+        "definitions": [
+            {
+                "text": "To decide what you are going to do.",
+                "examples": [
+                    "We are planning a trip."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "planned",
+        "v3": "planned",
+        "group": "regular",
+        "opposite": "improvise"
+    },
+    {
+        "word": "borrow",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📥",
+        "form": "verb",
+        "subtext": "take for a short time / borrow a book / borrow money",
+        "definitions": [
+            {
+                "text": "To take something for a short time and then return it.",
+                "examples": [
+                    "Can I borrow your pen?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "borrowed",
+        "v3": "borrowed",
+        "group": "regular",
+        "opposite": "lend"
+    },
+    {
+        "word": "smell",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👃",
+        "form": "verb",
+        "subtext": "smell good / smell the flowers",
+        "synonyms": [
+            "scent"
+        ],
+        "definitions": [
+            {
+                "text": "To notice or recognize something using your nose.",
+                "examples": [
+                    "I can smell the coffee."
+                ]
+            }
+        ],
+        "classification": "both",
+        "aspect": "both",
+        "v2": "smelled / smelt",
+        "v3": "smelled / smelt",
+        "group": "both",
+        "opposite": "stink"
+    },
+    {
+        "word": "taste",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "👅",
+        "form": "verb",
+        "subtext": "taste good / have a taste",
+        "synonyms": [
+            "flavor"
+        ],
+        "definitions": [
+            {
+                "text": "To sense the flavor of something in your mouth.",
+                "examples": [
+                    "Taste this soup."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "tasted",
+        "v3": "tasted",
+        "group": "regular",
+        "opposite": "swallow"
+    },
+    {
+        "word": "lie",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "form": "verb",
+        "subtext": "lie down / lie on the bed",
+        "synonyms": [
+            "recline"
+        ],
+        "definitions": [
+            {
+                "text": "To be in a horizontal position on a surface.",
+                "examples": [
+                    "I like to lie on the beach."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lay",
+        "v3": "lain",
+        "group": "irregular",
+        "opposite": "stand"
+    },
+    {
+        "word": "laugh",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😂",
+        "form": "verb",
+        "opposite": "cry",
+        "oppositeEmoji": "😢",
+        "subtext": "laugh at / laugh together",
+        "synonyms": [
+            "chuckle"
+        ],
+        "definitions": [
+            {
+                "text": "To make sounds with your voice because you think something is funny.",
+                "examples": [
+                    "They were laughing at his joke."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "laughed",
+        "v3": "laughed",
+        "group": "regular"
+    },
+    {
+        "word": "worry",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😟",
+        "form": "verb",
+        "subtext": "worry about / don't worry",
+        "synonyms": [
+            "fret"
+        ],
+        "definitions": [
+            {
+                "text": "To think about problems or unpleasant things that might happen.",
+                "examples": [
+                    "Don't worry, everything will be fine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "worried",
+        "v3": "worried",
+        "group": "regular",
+        "opposite": "relax"
+    },
+    {
+        "word": "sound",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👂",
+        "form": "verb",
+        "subtext": "sound like / sound good",
+        "synonyms": [
+            "seem"
+        ],
+        "definitions": [
+            {
+                "text": "To seem like something from what you have heard or read.",
+                "examples": [
+                    "That sounds like a good idea."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "sounded",
+        "v3": "sounded",
+        "group": "regular",
+        "opposite": "silence"
+    },
+    {
+        "word": "spell",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔤",
+        "form": "verb",
+        "subtext": "spell your name / spell correctly",
+        "synonyms": [
+            "lettering"
+        ],
+        "definitions": [
+            {
+                "text": "To say or write the letters of a word in the correct order.",
+                "examples": [
+                    "How do you spell your name?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spelled / spelt",
+        "v3": "spelled / spelt",
+        "group": "irregular",
+        "opposite": "misspell"
+    },
+    {
+        "word": "point",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "☝️",
+        "form": "verb",
+        "subtext": "point to / point at",
+        "synonyms": [
+            "indicate"
+        ],
+        "definitions": [
+            {
+                "text": "To show something by holding out your finger towards it.",
+                "examples": [
+                    "Point to the window.",
+                    "He pointed at the map."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pointed",
+        "v3": "pointed",
+        "group": "regular",
+        "opposite": "hide"
+    },
+    {
+        "word": "shout",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📢",
+        "form": "verb",
+        "subtext": "shout at / don't shout",
+        "synonyms": [
+            "yell"
+        ],
+        "definitions": [
+            {
+                "text": "To say something very loudly.",
+                "examples": [
+                    "Don't shout in the classroom."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shouted",
+        "v3": "shouted",
+        "group": "regular",
+        "opposite": "whisper"
+    },
+    {
+        "word": "wave",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "subtext": "wave goodbye / wave hello",
+        "synonyms": [
+            "greet"
+        ],
+        "definitions": [
+            {
+                "text": "To move your hand from side to side in the air to say hello or goodbye.",
+                "examples": [
+                    "Wave goodbye to your friend."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "waved",
+        "v3": "waved",
+        "group": "regular",
+        "opposite": "ignore"
+    },
+    {
+        "word": "kick",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🦶",
+        "form": "verb",
+        "subtext": "kick a ball / kick hard",
+        "synonyms": [
+            "strike"
+        ],
+        "definitions": [
+            {
+                "text": "To hit something with your foot.",
+                "examples": [
+                    "Kick the ball!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "kicked",
+        "v3": "kicked",
+        "group": "regular",
+        "opposite": "catch"
+    },
+    {
+        "word": "throw",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "⚾",
+        "form": "verb",
+        "subtext": "throw a ball / throw away",
+        "synonyms": [
+            "toss"
+        ],
+        "definitions": [
+            {
+                "text": "To make something move through the air by pushing it out of your hand.",
+                "examples": [
+                    "Can you throw the ball to me?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "threw",
+        "v3": "thrown",
+        "group": "irregular",
+        "opposite": "catch"
+    },
+    {
+        "word": "bounce",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏀",
+        "form": "verb",
+        "subtext": "bounce a ball",
+        "synonyms": [
+            "rebound",
+            "bouncing"
+        ],
+        "definitions": [
+            {
+                "text": "To move up or away after hitting a surface.",
+                "examples": [
+                    "The ball is bouncing."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "bounced",
+        "v3": "bounced",
+        "group": "regular",
+        "opposite": "stop"
+    },
+    {
+        "word": "paint",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "subtext": "paint a picture",
+        "synonyms": [
+            "color",
+            "painting"
+        ],
+        "definitions": [
+            {
+                "text": "To make a picture using paint.",
+                "examples": [
+                    "I like to paint flowers."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "painted",
+        "v3": "painted",
+        "group": "regular",
+        "opposite": "erase"
+    },
+    {
+        "word": "hop",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🐇",
+        "form": "verb",
+        "subtext": "hop around / hop like a rabbit",
+        "synonyms": [
+            "jump"
+        ],
+        "definitions": [
+            {
+                "text": "To jump on one foot.",
+                "examples": [
+                    "Can you hop like a rabbit?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "hopped",
+        "v3": "hopped",
+        "group": "regular",
+        "opposite": "walk"
+    },
+    {
+        "word": "skip",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏃",
+        "form": "verb",
+        "subtext": "skip rope",
+        "synonyms": [
+            "jump",
+            "skipping"
+        ],
+        "definitions": [
+            {
+                "text": "To move along by jumping from one foot to the other.",
+                "examples": [
+                    "The children are skipping in the playground."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "skipped",
+        "v3": "skipped",
+        "group": "regular",
+        "opposite": "walk"
+    },
+    {
+        "word": "count",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "emoji": "🔢",
+        "form": "verb",
+        "subtext": "count to ten / count numbers",
+        "synonyms": [
+            "calculate"
+        ],
+        "definitions": [
+            {
+                "text": "To say numbers in order.",
+                "examples": [
+                    "Can you count from one to ten?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "counted",
+        "v3": "counted",
+        "group": "regular",
+        "opposite": "estimate"
+    },
+    {
+        "word": "tick",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "✅",
+        "form": "verb",
+        "subtext": "tick the box / tick correctly",
+        "synonyms": [
+            "check"
+        ],
+        "definitions": [
+            {
+                "text": "To put a mark (✓) next to something to show it is correct.",
+                "examples": [
+                    "Tick the correct answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ticked",
+        "v3": "ticked",
+        "group": "regular",
+        "opposite": "cross"
+    },
+    {
+        "word": "cross",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "❌",
+        "form": "verb",
+        "subtext": "cross out / cross the answer",
+        "synonyms": [
+            "x-mark"
+        ],
+        "definitions": [
+            {
+                "text": "To put a mark (X) next to something to show it is wrong.",
+                "examples": [
+                    "Cross the wrong answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "crossed",
+        "v3": "crossed",
+        "group": "regular",
+        "opposite": "tick"
+    },
+    {
+        "word": "colour",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🖍️",
+        "form": "verb",
+        "subtext": "colour the picture / use colours",
+        "synonyms": [
+            "color"
+        ],
+        "definitions": [
+            {
+                "text": "To use a pen or pencil to put colour on a picture.",
+                "examples": [
+                    "Colour the picture blue."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "coloured",
+        "v3": "coloured",
+        "group": "regular",
+        "opposite": "erase"
+    },
+    {
+        "word": "hold",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🤲",
+        "form": "verb",
+        "subtext": "hold my hand / hold on",
+        "synonyms": [
+            "grip"
+        ],
+        "definitions": [
+            {
+                "text": "To have or keep something in your hand or arms.",
+                "examples": [
+                    "Hold the baby carefully.",
+                    "She is holding a book."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "held",
+        "v3": "held",
+        "group": "irregular",
+        "opposite": "drop"
+    },
+    {
+        "word": "lead",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "form": "verb",
+        "subtext": "lead a team / follow the lead",
+        "synonyms": [
+            "guide",
+            "direct"
+        ],
+        "definitions": [
+            {
+                "text": "To control a group of people, a country, or a situation.",
+                "examples": [
+                    "She leads a small team."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "led",
+        "v3": "led",
+        "group": "irregular",
+        "opposite": "follow"
+    },
+    {
+        "word": "fight",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "⚔️",
+        "form": "verb",
+        "subtext": "fight for / a big fight",
+        "synonyms": [
+            "battle"
+        ],
+        "definitions": [
+            {
+                "text": "To use physical force to try to hurt someone or win something.",
+                "examples": [
+                    "The two boys are fighting."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fought",
+        "v3": "fought",
+        "group": "irregular",
+        "opposite": "make peace"
+    },
+    {
+        "word": "hide",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "subtext": "hide and seek / hide from someone / hide something",
+        "opposite": "show",
+        "oppositeEmoji": "📽️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something or someone in a place where they cannot be seen or found.",
+                "examples": [
+                    "He is hiding behind the door."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "hid",
+        "v3": "hidden",
+        "group": "irregular"
+    },
+    {
+        "word": "seek",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "form": "verb",
+        "subtext": "hide and seek / seek help",
+        "synonyms": [
+            "look for"
+        ],
+        "definitions": [
+            {
+                "text": "To try to find or get something.",
+                "examples": [
+                    "They are playing hide and seek."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sought",
+        "v3": "sought",
+        "group": "irregular",
+        "opposite": "hide"
+    },
+    {
+        "word": "ring",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔔",
+        "form": "verb",
+        "subtext": "ring a bell",
+        "synonyms": [
+            "chime",
+            "phone is ringing"
+        ],
+        "definitions": [
+            {
+                "text": "To make a sound like a bell.",
+                "examples": [
+                    "The phone is ringing."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rang",
+        "v3": "rung",
+        "group": "irregular",
+        "opposite": "be silent"
+    },
+    {
+        "word": "text",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📱",
+        "form": "verb",
+        "subtext": "text someone / send a text",
+        "synonyms": [
+            "message"
+        ],
+        "definitions": [
+            {
+                "text": "To send a message from a mobile phone.",
+                "examples": [
+                    "Text me when you arrive."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "texted",
+        "v3": "texted",
+        "group": "regular",
+        "opposite": "call"
+    },
+    {
+        "word": "whisper",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🤫",
+        "form": "verb",
+        "subtext": "whisper a secret",
+        "synonyms": [
+            "murmur",
+            "speak softly"
+        ],
+        "definitions": [
+            {
+                "text": "To speak very quietly so that other people cannot hear you.",
+                "examples": [
+                    "She whispered the answer to me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "whispered",
+        "v3": "whispered",
+        "group": "regular",
+        "opposite": "shout"
+    },
+    {
+        "word": "touch",
+        "level": "starter",
+        "theme": "five_senses_A1",
+        "emoji": "🫱",
+        "form": "verb",
+        "subtext": "don't touch / touch screen",
+        "synonyms": [
+            "feel"
+        ],
+        "definitions": [
+            {
+                "text": "To put your hand or another part of your body on something.",
+                "examples": [
+                    "Don't touch the wet paint!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "touched",
+        "v3": "touched",
+        "group": "regular",
+        "opposite": null
+    },
+    {
+        "word": "let",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🔓",
+        "subtext": "let someone go / let it be / let someone know",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To allow something to happen or someone to do something.",
+                "examples": [
+                    "Let me help you with those bags.",
+                    "She let the dog out into the garden."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "let",
+        "v3": "let",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "set",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⚙️",
+        "subtext": "set an alarm / set the table / set a goal",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something in a particular place or position; to establish.",
+                "examples": [
+                    "I set my alarm for seven o'clock.",
+                    "He set the plates on the table."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "set",
+        "v3": "set",
+        "group": "irregular",
+        "opposite": null
+    },
+    {
+        "word": "email",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📧",
+        "subtext": "email someone / send an email / reply by email",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To send a message using the internet.",
+                "examples": [
+                    "Email me the details.",
+                    "I'll email you tomorrow."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "emailed",
+        "v3": "emailed",
+        "group": "regular"
+    },
+    {
+        "word": "phone",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📞",
+        "subtext": "phone someone / phone back / on the phone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To call someone using a telephone.",
+                "examples": [
+                    "I'll phone you later.",
+                    "He phoned his mother."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "phoned",
+        "v3": "phoned",
+        "group": "regular",
+        "opposite": "text"
+    },
+    {
+        "word": "climb",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧗",
+        "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go up something using your hands and feet.",
+                "examples": [
+                    "We climbed the hill to see the view.",
+                    "The cat climbed the tree."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "climbed",
+        "v3": "climbed",
+        "group": "regular",
+        "opposite": "descend"
+    },
+    {
+        "word": "dress",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👗",
+        "subtext": "dress well / dress for work",
+        "synonyms": [
+            "get dressed"
+        ],
+        "opposite": "undress",
+        "oppositeEmoji": "👕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put clothes on yourself or someone else.",
+                "examples": [
+                    "I get dressed at seven.",
+                    "She was dressed in black."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "dressed",
+        "v3": "dressed",
+        "group": "regular"
+    },
+    {
+        "word": "undress",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👕",
+        "subtext": "undress quickly",
+        "synonyms": [
+            "get undressed"
+        ],
+        "opposite": "dress",
+        "oppositeEmoji": "👗",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take clothes off yourself or someone else.",
+                "examples": [
+                    "He undressed and went to bed.",
+                    "Get undressed and have a bath."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "undressed",
+        "v3": "undressed",
+        "group": "regular"
+    },
+    {
+        "word": "turn on",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💡",
+        "subtext": "turn on the light / turn on the TV / turn on the radio",
+        "opposite": "turn off",
+        "oppositeEmoji": "🌑",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a device start working.",
+                "examples": [
+                    "Turn on the light, please.",
+                    "He turns on his computer at nine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned on",
+        "v3": "turned on",
+        "group": "regular"
+    },
+    {
+        "word": "turn off",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "subtext": "turn off the light / turn off the computer / turn off your phone",
+        "opposite": "turn on",
+        "oppositeEmoji": "💡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a device stop working.",
+                "examples": [
+                    "Don't forget to turn off the lights.",
+                    "She turns off her phone during meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned off",
+        "v3": "turned off",
+        "group": "regular"
+    },
+    {
+        "word": "welcome",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "subtext": "welcome someone / welcome home",
+        "definitions": [
+            {
+                "text": "To greet someone who has just arrived at a place.",
+                "examples": [
+                    "We welcomed the guests at the door."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "welcomed",
+        "v3": "welcomed",
+        "group": "regular",
+        "opposite": "reject"
+    },
+    {
+        "word": "act",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎭",
+        "form": "verb",
+        "subtext": "act in a play / act quickly",
+        "definitions": [
+            {
+                "text": "To perform in a play or movie.",
+                "examples": [
+                    "He acts in the school play."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "acted",
+        "v3": "acted",
+        "group": "regular",
+        "opposite": "be natural"
+    },
+    {
+        "word": "copy",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📄",
+        "form": "verb",
+        "subtext": "copy a document / copy files",
+        "definitions": [
+            {
+                "text": "To make something that is exactly like another thing.",
+                "examples": [
+                    "Can you copy this report for me?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "copied",
+        "v3": "copied",
+        "group": "regular",
+        "opposite": "original"
+    },
+    {
+        "word": "fill",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🫗",
+        "form": "verb",
+        "subtext": "fill a glass / fill in a form",
+        "definitions": [
+            {
+                "text": "To make something full.",
+                "examples": [
+                    "Please fill the glass with water."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "filled",
+        "v3": "filled",
+        "group": "regular",
+        "opposite": "empty"
+    },
+    {
+        "word": "fit",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "form": "verb",
+        "subtext": "fit well / does it fit?",
+        "definitions": [
+            {
+                "text": "To be the right size or shape for someone or something.",
+                "examples": [
+                    "These shoes don't fit me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "fitted",
+        "v3": "fitted",
+        "group": "regular",
+        "opposite": "unfit"
+    },
+    {
+        "word": "join",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "join a club / join us",
+        "definitions": [
+            {
+                "text": "To become a member of a group or organization.",
+                "examples": [
+                    "I want to join the tennis club."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "joined",
+        "v3": "joined",
+        "group": "regular",
+        "opposite": "leave"
+    },
+    {
+        "word": "note",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "note down / please note",
+        "definitions": [
+            {
+                "text": "To write something down so that you will remember it.",
+                "examples": [
+                    "Please note the time of the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "noted",
+        "v3": "noted",
+        "group": "regular",
+        "opposite": "forget"
+    },
+    {
+        "word": "pick",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧺",
+        "form": "verb",
+        "subtext": "pick flowers / pick up",
+        "definitions": [
+            {
+                "text": "To take flowers, fruit, etc. from the plant where they are growing.",
+                "examples": [
+                    "They are picking apples in the garden."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "picked",
+        "v3": "picked",
+        "group": "regular",
+        "opposite": "drop"
+    },
+    {
+        "word": "wish",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤞",
+        "form": "verb",
+        "subtext": "wish for / I wish",
+        "definitions": [
+            {
+                "text": "To want something to happen or to be true even though it is unlikely.",
+                "examples": [
+                    "I wish it was summer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wished",
+        "v3": "wished",
+        "group": "regular",
+        "opposite": "fear"
+    },
+    {
+        "word": "collect",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "collect things / collect stamps",
+        "definitions": [
+            {
+                "text": "To bring things together from different places.",
+                "examples": [
+                    "She collects stamps."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "collected",
+        "v3": "collected",
+        "group": "regular",
+        "opposite": "scatter"
+    },
+    {
+        "word": "describe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "verb",
+        "subtext": "describe something / describe a person",
+        "definitions": [
+            {
+                "text": "To say or write what someone or something is like.",
+                "examples": [
+                    "Can you describe your house?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "described",
+        "v3": "described",
+        "group": "regular",
+        "opposite": "summarize"
+    },
+    {
+        "word": "breathe",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🫁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take air into your lungs and send it out again.",
+                "examples": [
+                    "Breathe deeply."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "breathed",
+        "v3": "breathed",
+        "group": "regular",
+        "subtext": "",
+        "synonyms": [
+            "inhale",
+            "exhale"
+        ]
+    },
+    {
+        "word": "cough",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "😷",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To force air out of your lungs with a sudden loud noise.",
+                "examples": [
+                    "He is coughing because he is ill."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "coughed",
+        "v3": "coughed",
+        "group": "regular",
+        "subtext": "have a cough"
+    },
+    {
+        "word": "sneeze",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤧",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To suddenly force air out through your nose and mouth with a loud noise.",
+                "examples": [
+                    "Bless you! Did you sneeze?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "sneezed",
+        "v3": "sneezed",
+        "group": "regular",
+        "subtext": "",
+        "synonyms": [
+            "atchoo!"
+        ]
+    },
+    {
+        "word": "yawn",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🥱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To open your mouth wide and take a deep breath because you are tired.",
+                "examples": [
+                    "She yawned during the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "yawned",
+        "v3": "yawned",
+        "group": "regular",
+        "subtext": "",
+        "synonyms": [
+            "feel sleepy"
+        ]
+    },
+    {
+        "word": "explain",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🗣️",
+        "form": "verb",
+        "transcription": "[ɪkˈspleɪn]",
+        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To make something clear or easy to understand by describing or giving information about it.",
+                "examples": [
+                    "Can you explain this rule?",
+                    "The teacher explained the lesson."
+                ]
+            }
+        ],
+        "v2": "explained",
+        "v3": "explained",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "explain something to someone"
+    },
+    {
+        "word": "prepare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "transcription": "[prɪˈpeə(r)]",
+        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To get someone or something ready for something that will happen in the future.",
+                "examples": [
+                    "I need to prepare for my exam.",
+                    "She is preparing dinner."
+                ]
+            }
+        ],
+        "v2": "prepared",
+        "v3": "prepared",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "prepare for something"
+    },
+    {
+        "word": "depend",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "form": "verb",
+        "transcription": "[dɪˈpend]",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be decided by or to change according to something else.",
+                "examples": [
+                    "It depends on the weather.",
+                    "Our plans depend on your answer."
+                ]
+            }
+        ],
+        "v2": "depended",
+        "v3": "depended",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "depend ON someone/something"
+    },
+    {
+        "word": "belong",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🏠",
+        "form": "verb",
+        "transcription": "[bɪˈlɒŋ]",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be the property of someone.",
+                "examples": [
+                    "This book belongs to me.",
+                    "Who does this bag belong to?"
+                ]
+            }
+        ],
+        "v2": "belonged",
+        "v3": "belonged",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "belong TO someone/something"
+    },
+    {
+        "word": "tall",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "form": "adjective",
+        "opposite": "short",
+        "oppositeEmoji": "📏",
+        "emoji": "🦒",
+        "definitions": [
+            {
+                "text": "A person or thing that is big from bottom to top.",
+                "examples": [
+                    "He is very tall.",
+                    "That building is tall."
+                ]
+            },
+            {
+                "text": "Of greater than average height.",
+                "examples": [
+                    "She is a tall woman who works as an engineer."
+                ]
+            }
+        ],
+        "subtext": "a tall building / a tall person / tall enough",
+        "synonyms": [
+            "high",
+            "lofty"
+        ],
+        "comparative": "taller",
+        "superlative": "the tallest"
+    },
+    {
+        "word": "short",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "form": "adjective",
+        "opposite": "tall",
+        "oppositeEmoji": "🗼",
+        "emoji": "📏",
+        "definitions": [
+            {
+                "text": "A person or thing that is not tall.",
+                "examples": [
+                    "She is short.",
+                    "The pencil is short."
+                ]
+            },
+            {
+                "text": "Of less than average height or length.",
+                "examples": [
+                    "He has a short commute — ten minutes by bike."
+                ]
+            }
+        ],
+        "subtext": "a short journey / short hair / too short",
+        "synonyms": [
+            "small",
+            "brief"
+        ],
+        "comparative": "shorter",
+        "superlative": "the shortest"
+    },
+    {
+        "word": "young",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "form": "adjective",
+        "opposite": "old",
+        "oppositeEmoji": "👴",
+        "emoji": "👶",
+        "definitions": [
+            {
+                "text": "Having lived or existed for only a short time.",
+                "examples": [
+                    "He is a young man."
+                ]
+            }
+        ],
+        "subtext": "young person / young professional / young at heart",
+        "synonyms": [
+            "youthful"
+        ],
+        "comparative": "younger",
+        "superlative": "the youngest"
+    },
+    {
+        "word": "old",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "form": "adjective",
+        "opposite": "new",
+        "oppositeEmoji": "👶",
+        "emoji": "👴",
+        "definitions": [
+            {
+                "text": "Having lived or existed for a long time.",
+                "examples": [
+                    "This is an old book."
+                ]
+            },
+            {
+                "text": "Having existed for a long time.",
+                "examples": [
+                    "He works with old clients from ten years ago."
+                ]
+            }
+        ],
+        "subtext": "old friend / old habits / very old",
+        "synonyms": [
+            "elderly",
+            "ancient"
+        ],
+        "comparative": "older",
+        "superlative": "the oldest"
+    },
+    {
+        "word": "sunny",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "☀️",
+        "form": "adjective",
+        "opposite": "rainy",
+        "oppositeEmoji": "🌧️",
+        "definitions": [
+            {
+                "text": "Having a lot of light from the sun.",
+                "examples": [
+                    "It is a sunny day.",
+                    "I like sunny weather."
+                ]
+            }
+        ],
+        "subtext": "sunny day / sunny weather / sunny spell",
+        "synonyms": [
+            "bright",
+            "clear"
+        ],
+        "comparative": "sunnier",
+        "superlative": "the sunniest"
+    },
+    {
+        "word": "rainy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌧️",
+        "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
+        "definitions": [
+            {
+                "text": "Having a lot of rain.",
+                "examples": [
+                    "It is a rainy day.",
+                    "Wear a coat, it's rainy outside."
+                ]
+            }
+        ],
+        "subtext": "rainy day / rainy weather / rainy season",
+        "synonyms": [
+            "wet",
+            "showery"
+        ],
+        "comparative": "rainier",
+        "superlative": "the rainiest"
+    },
+    {
+        "word": "hot",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🔥",
+        "form": "adjective",
+        "opposite": "cold",
+        "oppositeEmoji": "❄️",
+        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "definitions": [
+            {
+                "text": "Having a high temperature.",
+                "examples": [
+                    "The coffee is hot.",
+                    "It is very hot in summer.",
+                    "It is too hot to work comfortably today."
+                ]
+            }
+        ],
+        "comparative": "hotter",
+        "superlative": "the hottest"
+    },
+    {
+        "word": "cold",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "hot",
+        "oppositeEmoji": "🔥",
+        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "definitions": [
+            {
+                "text": "Having a low temperature.",
+                "examples": [
+                    "The water is cold.",
+                    "It is cold in winter."
+                ]
+            },
+            {
+                "text": "Having a low temperature; not warm.",
+                "examples": [
+                    "I need a coat — it is very cold outside."
+                ]
+            }
+        ],
+        "comparative": "colder",
+        "superlative": "the coldest"
+    },
+    {
+        "word": "cheap",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🏷️",
+        "form": "adjective",
+        "opposite": "expensive",
+        "oppositeEmoji": "💎",
+        "subtext": "cheap flight / very cheap / cheap and cheerful",
+        "synonyms": [
+            "low price",
+            "inexpensive"
+        ],
+        "definitions": [
+            {
+                "text": "Not expensive; low in price.",
+                "examples": [
+                    "This coffee is cheap."
+                ]
+            },
+            {
+                "text": "Low in price.",
+                "examples": [
+                    "The lunch near the office is very cheap."
+                ]
+            }
+        ],
+        "comparative": "cheaper",
+        "superlative": "the cheapest"
+    },
+    {
+        "word": "expensive",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "cheap",
+        "oppositeEmoji": "🏷️",
+        "subtext": "very expensive / expensive taste / too expensive",
+        "synonyms": [
+            "costly",
+            "high price"
+        ],
+        "definitions": [
+            {
+                "text": "Costing a lot of money.",
+                "examples": [
+                    "That car is expensive."
+                ]
+            },
+            {
+                "text": "High in price.",
+                "examples": [
+                    "The city centre is expensive for rent."
+                ]
+            }
+        ],
+        "comparative": "more expensive",
+        "superlative": "the most expensive"
+    },
+    {
+        "word": "good",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "👍",
+        "form": "adjective",
+        "opposite": "bad",
+        "oppositeEmoji": "👎",
+        "subtext": "good idea / good luck / good value",
+        "synonyms": [
+            "great",
+            "nice",
+            "pleasant"
+        ],
+        "definitions": [
+            {
+                "text": "Of high quality or ability; pleasant.",
+                "examples": [
+                    "This is a good job."
+                ]
+            },
+            {
+                "text": "Of high quality or pleasant.",
+                "examples": [
+                    "She has a good job with flexible hours."
+                ]
+            }
+        ],
+        "comparative": "better",
+        "superlative": "the best"
+    },
+    {
+        "word": "bad",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "👎",
+        "form": "adjective",
+        "opposite": "good",
+        "oppositeEmoji": "👍",
+        "subtext": "bad news / bad luck / bad decision",
+        "synonyms": [
+            "terrible",
+            "awful",
+            "unpleasant"
+        ],
+        "definitions": [
+            {
+                "text": "Not good; unpleasant or of poor quality.",
+                "examples": [
+                    "The weather is bad today."
+                ]
+            },
+            {
+                "text": "Of low quality; unpleasant or harmful.",
+                "examples": [
+                    "He had a bad day at work."
+                ]
+            }
+        ],
+        "comparative": "worse",
+        "superlative": "the worst"
+    },
+    {
+        "word": "big",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🐘",
+        "form": "adjective",
+        "opposite": "small",
+        "oppositeEmoji": "🐭",
+        "subtext": "a big house / a big problem / big enough",
+        "synonyms": [
+            "large",
+            "huge"
+        ],
+        "definitions": [
+            {
+                "text": "Large in size.",
+                "examples": [
+                    "It is a big office."
+                ]
+            },
+            {
+                "text": "Large in size or amount.",
+                "examples": [
+                    "They have a big house near the park."
+                ]
+            }
+        ],
+        "comparative": "bigger",
+        "superlative": "the biggest"
+    },
+    {
+        "word": "small",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🐭",
+        "form": "adjective",
+        "opposite": "large",
+        "oppositeEmoji": "🐘",
+        "subtext": "a small flat / a small salary / too small",
+        "synonyms": [
+            "little",
+            "tiny"
+        ],
+        "definitions": [
+            {
+                "text": "Little in size.",
+                "examples": [
+                    "She has a small flat."
+                ]
+            },
+            {
+                "text": "Little in size or amount.",
+                "examples": [
+                    "She rents a small flat in the city centre."
+                ]
+            }
+        ],
+        "comparative": "smaller",
+        "superlative": "the smallest"
+    },
+    {
+        "word": "easy",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "difficult",
+        "oppositeEmoji": "❌",
+        "definitions": [
+            {
+                "text": "Not difficult.",
+                "examples": [
+                    "The test is easy.",
+                    "The application form is easy to complete."
+                ]
+            }
+        ],
+        "subtext": "easy to do / nice and easy / not easy",
+        "comparative": "easier",
+        "superlative": "the easiest"
+    },
+    {
+        "word": "difficult",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "easy",
+        "oppositeEmoji": "✅",
+        "definitions": [
+            {
+                "text": "Hard to do or understand.",
+                "examples": [
+                    "This work is difficult."
+                ]
+            },
+            {
+                "text": "Not easy; requiring effort.",
+                "examples": [
+                    "The negotiation was very difficult."
+                ]
+            }
+        ],
+        "subtext": "difficult to do / very difficult / find it difficult",
+        "comparative": "more difficult",
+        "superlative": "the most difficult"
+    },
+    {
+        "word": "happy",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "opposite": "sad",
+        "oppositeEmoji": "😢",
+        "subtext": "feel happy / happy with something / a happy day",
+        "synonyms": [
+            "glad",
+            "joyful",
+            "cheerful"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling pleasure or joy.",
+                "examples": [
+                    "I am happy today."
+                ]
+            },
+            {
+                "text": "Feeling pleasure or satisfaction.",
+                "examples": [
+                    "She is happy in her new role."
+                ]
+            }
+        ],
+        "comparative": "happier",
+        "superlative": "the happiest"
+    },
+    {
+        "word": "tired",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😫",
+        "form": "adjective",
+        "opposite": "energetic",
+        "oppositeEmoji": "⚡",
+        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "definitions": [
+            {
+                "text": "Needing rest or sleep.",
+                "examples": [
+                    "I am very tired after work.",
+                    "I feel tired after a long week."
+                ]
+            }
+        ],
+        "comparative": "more tired",
+        "superlative": "the most tired"
+    },
+    {
+        "word": "full-time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
+        "form": "adjective",
+        "opposite": "part-time",
+        "oppositeEmoji": "⏳",
+        "definitions": [
+            {
+                "text": "Working the complete number of hours in a working week.",
+                "examples": [
+                    "She has a full-time job in a bank."
+                ]
+            }
+        ],
+        "subtext": "full-time job / full-time work / full-time employee",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "thirsty",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🥤",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "😌",
+        "definitions": [
+            {
+                "text": "Needing or wanting to drink.",
+                "examples": [
+                    "I am thirsty — can I have some water?"
+                ]
+            }
+        ],
+        "subtext": "feel thirsty",
+        "synonyms": [
+            "parched",
+            "dehydrated"
+        ],
+        "comparative": "thirstier",
+        "superlative": "the thirstiest"
+    },
+    {
+        "word": "part-time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏳",
+        "form": "adjective",
+        "opposite": "full-time",
+        "oppositeEmoji": "⏰",
+        "definitions": [
+            {
+                "text": "Working fewer hours than a standard working week.",
+                "examples": [
+                    "He works part-time on Saturdays."
+                ]
+            }
+        ],
+        "subtext": "part-time job / part-time work / part-time student",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "clean",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "✨",
+        "form": "adjective",
+        "opposite": "dirty",
+        "oppositeEmoji": "💩",
+        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
+        "definitions": [
+            {
+                "text": "Free from dirt.",
+                "examples": [
+                    "The flat is clean now.",
+                    "Keep the workspace clean and tidy."
+                ]
+            }
+        ],
+        "comparative": "cleaner",
+        "superlative": "the cleanest"
+    },
+    {
+        "word": "healthy",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥗",
+        "form": "adjective",
+        "opposite": "unhealthy",
+        "oppositeEmoji": "🍔",
+        "subtext": "well, fit, healthy diet",
+        "definitions": [
+            {
+                "text": "Good for your body; not ill.",
+                "examples": [
+                    "Vegetables are healthy food."
+                ]
+            }
+        ],
+        "comparative": "healthier",
+        "superlative": "the healthiest"
+    },
+    {
+        "word": "unhealthy",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍔",
+        "form": "adjective",
+        "opposite": "healthy",
+        "oppositeEmoji": "🥗",
+        "subtext": "unhealthy food / unhealthy lifestyle",
+        "synonyms": [
+            "ill",
+            "unfit"
+        ],
+        "definitions": [
+            {
+                "text": "Not good for your body; not healthy.",
+                "examples": [
+                    "Fast food is often unhealthy."
+                ]
+            }
+        ],
+        "comparative": "more unhealthy",
+        "superlative": "the most unhealthy"
+    },
+    {
+        "word": "ill",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤒",
+        "form": "adjective",
+        "opposite": "well",
+        "oppositeEmoji": "💪",
+        "subtext": "sick, feel ill",
+        "definitions": [
+            {
+                "text": "Not well; sick.",
+                "examples": [
+                    "I feel ill today."
+                ]
+            }
+        ],
+        "comparative": "more ill",
+        "superlative": "the most ill"
+    },
+    {
+        "word": "online",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌐",
+        "form": "adjective",
+        "opposite": "offline",
+        "oppositeEmoji": "📴",
+        "definitions": [
+            {
+                "text": "Using the internet.",
+                "examples": [
+                    "I buy food online sometimes."
+                ]
+            }
+        ],
+        "subtext": "online shopping / online course / stay online",
+        "comparative": "more online",
+        "superlative": "the most online"
+    },
+    {
+        "word": "offline",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📴",
+        "form": "adjective",
+        "opposite": "online",
+        "oppositeEmoji": "🌐",
+        "subtext": "work offline / go offline",
+        "synonyms": [
+            "disconnected"
+        ],
+        "definitions": [
+            {
+                "text": "Not using or connected to the internet.",
+                "examples": [
+                    "You can read this document offline."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "alone",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "opposite": "together",
+        "oppositeEmoji": "👫",
+        "definitions": [
+            {
+                "text": "Without other people; by yourself.",
+                "examples": [
+                    "She lives alone."
+                ]
+            }
+        ],
+        "subtext": "live alone / travel alone / feel alone",
+        "comparative": "more alone",
+        "superlative": "the most alone"
+    },
+    {
+        "word": "relaxed",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😌",
+        "form": "adjective",
+        "opposite": "stressed",
+        "oppositeEmoji": "😫",
+        "subtext": "feeling relaxed",
+        "synonyms": [
+            "calm",
+            "peaceful",
+            "chilled"
+        ],
+        "definitions": [
+            {
+                "text": "Calm; not worried or stressed.",
+                "examples": [
+                    "I feel relaxed at the weekend."
+                ]
+            }
+        ],
+        "comparative": "more relaxed",
+        "superlative": "the most relaxed"
+    },
+    {
+        "word": "worried",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😟",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "worried about / deeply worried",
+        "synonyms": [
+            "anxious",
+            "nervous",
+            "uneasy"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling anxious about something that might happen.",
+                "examples": [
+                    "She is worried about her job."
+                ]
+            }
+        ],
+        "comparative": "more worried",
+        "superlative": "the most worried"
+    },
+    {
+        "word": "busy",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "opposite": "free",
+        "oppositeEmoji": "🆓",
+        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "definitions": [
+            {
+                "text": "Having a lot of things to do.",
+                "examples": [
+                    "I am very busy this week."
+                ]
+            },
+            {
+                "text": "Having much to do; crowded.",
+                "examples": [
+                    "Monday morning is always very busy."
+                ]
+            }
+        ],
+        "comparative": "busier",
+        "superlative": "the busiest"
+    },
+    {
+        "word": "important",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❗",
+        "form": "adjective",
+        "opposite": "unimportant",
+        "oppositeEmoji": "🍃",
+        "subtext": "important meeting / very important / most important",
+        "synonyms": [
+            "essential"
+        ],
+        "definitions": [
+            {
+                "text": "Having great value or effect.",
+                "examples": [
+                    "Sleep is very important."
+                ]
+            },
+            {
+                "text": "Having great value or significance.",
+                "examples": [
+                    "Sleep is very important for performance."
+                ]
+            }
+        ],
+        "comparative": "more important",
+        "superlative": "the most important"
+    },
+    {
+        "word": "unimportant",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🍃",
+        "form": "adjective",
+        "opposite": "important",
+        "oppositeEmoji": "❗",
+        "subtext": "unimportant detail / feel unimportant",
+        "synonyms": [
+            "minor",
+            "small"
+        ],
+        "definitions": [
+            {
+                "text": "Not having great value or effect.",
+                "examples": [
+                    "It is an unimportant mistake."
+                ]
+            }
+        ],
+        "comparative": "more unimportant",
+        "superlative": "the most unimportant"
+    },
+    {
+        "word": "red",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟥",
+        "form": "adjective",
+        "opposite": "green",
+        "subtext": "dark red, bright red / red wine / red face / red light",
+        "definitions": [
+            {
+                "text": "Having the colour of blood or a ripe tomato.",
+                "examples": [
+                    "She has a red bag."
+                ]
+            },
+            {
+                "text": "Having the colour of blood.",
+                "examples": [
+                    "She drives a red car."
+                ]
+            }
+        ],
+        "comparative": "redder",
+        "superlative": "the reddest"
+    },
+    {
+        "word": "blue",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟦",
+        "form": "adjective",
+        "opposite": "orange",
+        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "definitions": [
+            {
+                "text": "Having the colour of a clear sky.",
+                "examples": [
+                    "His car is blue."
+                ]
+            },
+            {
+                "text": "Having the colour of the sky.",
+                "examples": [
+                    "He wears a blue shirt to work."
+                ]
+            }
+        ],
+        "comparative": "bluer",
+        "superlative": "the bluest"
+    },
+    {
+        "word": "green",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟩",
+        "form": "adjective",
+        "opposite": "pink",
+        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "definitions": [
+            {
+                "text": "Having the colour of grass or leaves.",
+                "examples": [
+                    "She wears a green dress."
+                ]
+            },
+            {
+                "text": "Having the colour of grass.",
+                "examples": [
+                    "The company has green credentials."
+                ]
+            }
+        ],
+        "comparative": "greener",
+        "superlative": "the greenest"
+    },
+    {
+        "word": "white",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "⬜",
+        "form": "adjective",
+        "opposite": "black",
+        "oppositeEmoji": "⬛",
+        "subtext": "pure white, snow white / white wine / off-white / bright white",
+        "definitions": [
+            {
+                "text": "Having the colour of snow or milk.",
+                "examples": [
+                    "The walls are white."
+                ]
+            },
+            {
+                "text": "Having the lightest colour.",
+                "examples": [
+                    "The office walls are painted white."
+                ]
+            }
+        ],
+        "comparative": "whiter",
+        "superlative": "the whitest"
+    },
+    {
+        "word": "black",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "⬛",
+        "form": "adjective",
+        "opposite": "white",
+        "oppositeEmoji": "⬜",
+        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "definitions": [
+            {
+                "text": "Having the darkest colour, like the night sky.",
+                "examples": [
+                    "He wears a black coat."
+                ]
+            },
+            {
+                "text": "Having the darkest colour.",
+                "examples": [
+                    "He always wears a black suit."
+                ]
+            }
+        ],
+        "comparative": "blacker",
+        "superlative": "the blackest"
+    },
+    {
+        "word": "yellow",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟨",
+        "form": "adjective",
+        "opposite": "purple",
+        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "definitions": [
+            {
+                "text": "Having the colour of the sun or a lemon.",
+                "examples": [
+                    "She has a yellow umbrella."
+                ]
+            },
+            {
+                "text": "Having the colour of the sun.",
+                "examples": [
+                    "She bought a yellow notepad."
+                ]
+            }
+        ],
+        "comparative": "yellower",
+        "superlative": "the yellowest"
+    },
+    {
+        "word": "free",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🎁",
+        "form": "adjective",
+        "opposite": "busy",
+        "oppositeEmoji": "💎",
+        "subtext": "free of charge, free gift / free time / free of charge / free to do",
+        "definitions": [
+            {
+                "text": "Costing no money; at no charge.",
+                "examples": [
+                    "The museum is free on Sundays."
+                ]
+            },
+            {
+                "text": "Not costing money; not restricted.",
+                "examples": [
+                    "The parking here is free."
+                ]
+            }
+        ],
+        "comparative": "freer",
+        "superlative": "the freest"
+    },
+    {
+        "word": "open",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "closed",
+        "oppositeEmoji": "🔒",
+        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "definitions": [
+            {
+                "text": "Not closed; allowing entry or access.",
+                "examples": [
+                    "The shop is open until eight."
+                ]
+            },
+            {
+                "text": "Not closed; available to use.",
+                "examples": [
+                    "The office is open from eight to six."
+                ]
+            }
+        ],
+        "comparative": "opener",
+        "superlative": "the openest"
+    },
+    {
+        "word": "closed",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
+        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "definitions": [
+            {
+                "text": "Not open; shut.",
+                "examples": [
+                    "The bank is closed on Sundays.",
+                    "The bank is closed on Sunday."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "large",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "small",
+        "oppositeEmoji": "🐭",
+        "subtext": "a large city / a large company / a large amount",
+        "definitions": [
+            {
+                "text": "Of more than average size or amount.",
+                "examples": [
+                    "Paris is a very large city."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "larger",
+        "superlative": "the largest",
+        "emoji": "🐘"
+    },
+    {
+        "word": "little",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "small",
+        "oppositeEmoji": "🐘",
+        "subtext": "a little bit / a little money / too little",
+        "definitions": [
+            {
+                "text": "Small in size; a small amount of.",
+                "examples": [
+                    "He drives a little car to save on fuel."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "smaller",
+        "superlative": "the smallest",
+        "emoji": "🐭"
+    },
+    {
+        "word": "long",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "short",
+        "oppositeEmoji": "📏",
+        "subtext": "a long journey / a long day / a long time",
+        "definitions": [
+            {
+                "text": "Of great length; lasting a long time.",
+                "examples": [
+                    "She has a long commute every day."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "longer",
+        "superlative": "the longest",
+        "emoji": "📏"
+    },
+    {
+        "word": "high",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "low",
+        "oppositeEmoji": "📉",
+        "subtext": "high price / high rent / high quality",
+        "definitions": [
+            {
+                "text": "Of greater than average height or level.",
+                "examples": [
+                    "The rent in this area is very high."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "higher",
+        "superlative": "the highest",
+        "emoji": "🏔️"
+    },
+    {
+        "word": "low",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "high",
+        "oppositeEmoji": "📈",
+        "subtext": "low price / low salary / low quality",
+        "definitions": [
+            {
+                "text": "Of less than average height or level.",
+                "examples": [
+                    "The salary is too low for the hours involved."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "lower",
+        "superlative": "the lowest",
+        "emoji": "⬇️"
+    },
+    {
+        "word": "full",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "empty",
+        "oppositeEmoji": "🫙",
+        "subtext": "full time / a full day / full of people",
+        "definitions": [
+            {
+                "text": "Containing as much as possible; complete.",
+                "examples": [
+                    "I feel full after that lunch."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "fuller",
+        "superlative": "the fullest",
+        "emoji": "🥛"
+    },
+    {
+        "word": "empty",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "full",
+        "oppositeEmoji": "🥛",
+        "subtext": "an empty flat / an empty room / nearly empty",
+        "definitions": [
+            {
+                "text": "Containing nothing; with no people.",
+                "examples": [
+                    "The office is empty at weekends."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "emptier",
+        "superlative": "the emptiest",
+        "emoji": "🫙"
+    },
+    {
+        "word": "warm",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "cool",
+        "oppositeEmoji": "🧊",
+        "subtext": "warm weather / a warm welcome / keep warm",
+        "definitions": [
+            {
+                "text": "Slightly hot; pleasantly heated.",
+                "examples": [
+                    "The office is warm and comfortable."
+                ]
+            }
+        ],
+        "theme": "weather_A1",
+        "comparative": "warmer",
+        "superlative": "the warmest",
+        "emoji": "☀️"
+    },
+    {
+        "word": "cool",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "warm",
+        "oppositeEmoji": "☀️",
+        "subtext": "cool weather / a cool drink / stay cool",
+        "definitions": [
+            {
+                "text": "Slightly cold; pleasantly low temperature.",
+                "examples": [
+                    "She prefers cool weather for working."
+                ]
+            }
+        ],
+        "theme": "weather_A1",
+        "comparative": "cooler",
+        "superlative": "the coolest",
+        "emoji": "🌬️"
+    },
+    {
+        "word": "wet",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "dry",
+        "oppositeEmoji": "🏜️",
+        "subtext": "wet weather / wet clothes / get wet",
+        "definitions": [
+            {
+                "text": "Covered with water or liquid.",
+                "examples": [
+                    "His jacket is wet from the rain."
+                ]
+            }
+        ],
+        "theme": "weather_A1",
+        "comparative": "wetter",
+        "superlative": "the wettest",
+        "emoji": "💦"
+    },
+    {
+        "word": "dry",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "wet",
+        "oppositeEmoji": "🌧️",
+        "subtext": "dry weather / dry skin / keep dry",
+        "definitions": [
+            {
+                "text": "Without water or liquid; not wet.",
+                "examples": [
+                    "The storage room must stay dry."
+                ]
+            }
+        ],
+        "theme": "weather_A1",
+        "comparative": "dryer",
+        "superlative": "the dryest",
+        "emoji": "🏜️"
+    },
+    {
+        "word": "dirty",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "form": "adjective",
+        "opposite": "clean",
+        "oppositeEmoji": "✨",
+        "subtext": "dirty hands / dirty clothes / get dirty",
+        "definitions": [
+            {
+                "text": "Covered in dirt or impurities.",
+                "examples": [
+                    "His hands are dirty after fixing the car."
+                ]
+            }
+        ],
+        "comparative": "dirtier",
+        "superlative": "the dirtiest",
+        "emoji": "💩"
+    },
+    {
+        "word": "hard",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "soft",
+        "oppositeEmoji": "☁️",
+        "subtext": "hard work / a hard decision / too hard",
+        "synonyms": [
+            "firm",
+            "solid",
+            "difficult"
+        ],
+        "definitions": [
+            {
+                "text": "Firm and solid; difficult.",
+                "examples": [
+                    "The chair is very hard and uncomfortable."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "harder",
+        "superlative": "the hardest",
+        "emoji": "🧱"
+    },
+    {
+        "word": "soft",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "hard",
+        "oppositeEmoji": "🧱",
+        "subtext": "soft light / soft music / soft skills",
+        "synonyms": [
+            "gentle",
+            "smooth"
+        ],
+        "definitions": [
+            {
+                "text": "Not hard; gentle to the touch.",
+                "examples": [
+                    "The sofa is very soft and comfortable."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "softer",
+        "superlative": "the softest",
+        "emoji": "☁️"
+    },
+    {
+        "word": "heavy",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "light",
+        "oppositeEmoji": "🪶",
+        "subtext": "heavy traffic / heavy rain / too heavy",
+        "synonyms": [
+            "weighty"
+        ],
+        "definitions": [
+            {
+                "text": "Of great weight; difficult to carry.",
+                "examples": [
+                    "The bag is very heavy with all those files."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "heavier",
+        "superlative": "the heaviest",
+        "emoji": "🏋️"
+    },
+    {
+        "word": "light",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "heavy",
+        "oppositeEmoji": "🐘",
+        "subtext": "light rain / light traffic / a light meal",
+        "synonyms": [
+            "not heavy",
+            "pale"
+        ],
+        "definitions": [
+            {
+                "text": "Not heavy; pale in colour.",
+                "examples": [
+                    "She carries a light bag to work every day."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "lighter",
+        "superlative": "the lightest",
+        "emoji": "🪶"
+    },
+    {
+        "word": "brown",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "grey",
+        "subtext": "dark brown / light brown / brown bread",
+        "definitions": [
+            {
+                "text": "Having the colour of wood or earth.",
+                "examples": [
+                    "She has brown eyes and dark hair."
+                ]
+            }
+        ],
+        "theme": "colours_patterns_A1",
+        "comparative": "browner",
+        "superlative": "the brownest",
+        "emoji": "🤎"
+    },
+    {
+        "word": "grey",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "brown",
+        "subtext": "grey area / grey sky / pale grey",
+        "definitions": [
+            {
+                "text": "Having a colour between black and white.",
+                "examples": [
+                    "He has grey hair and a kind face."
+                ]
+            }
+        ],
+        "theme": "colours_patterns_A1",
+        "comparative": "greyer",
+        "superlative": "the greyest",
+        "emoji": "🩶"
+    },
+    {
+        "word": "pink",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "green",
+        "subtext": "light pink / bright pink / hot pink",
+        "definitions": [
+            {
+                "text": "Having a pale red colour.",
+                "examples": [
+                    "She prefers pink to red."
+                ]
+            }
+        ],
+        "theme": "colours_patterns_A1",
+        "comparative": "pinker",
+        "superlative": "the pinkest",
+        "emoji": "🩷"
+    },
+    {
+        "word": "orange",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "blue",
+        "subtext": "bright orange / dark orange / orange light",
+        "definitions": [
+            {
+                "text": "Having the colour of an orange fruit.",
+                "examples": [
+                    "He bought an orange jacket."
+                ]
+            }
+        ],
+        "theme": "colours_patterns_A1",
+        "comparative": "more orange",
+        "superlative": "the most orange",
+        "emoji": "🧡"
+    },
+    {
+        "word": "great",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "good",
+        "oppositeEmoji": "😫",
+        "subtext": "a great idea / a great opportunity / great value",
+        "synonyms": [
+            "excellent",
+            "big"
+        ],
+        "definitions": [
+            {
+                "text": "Extremely good; large in amount.",
+                "examples": [
+                    "She is a great manager."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "greater",
+        "superlative": "the greatest",
+        "emoji": "🌟"
+    },
+    {
+        "word": "nice",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "nasty",
+        "oppositeEmoji": "😠",
+        "subtext": "a nice day / a nice place / a nice person",
+        "synonyms": [
+            "pleasant",
+            "kind"
+        ],
+        "definitions": [
+            {
+                "text": "Pleasant or kind.",
+                "examples": [
+                    "The new office is very nice."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "nicer",
+        "superlative": "the nicest",
+        "emoji": "😊"
+    },
+    {
+        "word": "wonderful",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "awful",
+        "oppositeEmoji": "🤮",
+        "subtext": "a wonderful opportunity / a wonderful time",
+        "synonyms": [
+            "amazing",
+            "great"
+        ],
+        "definitions": [
+            {
+                "text": "Extremely good; causing delight.",
+                "examples": [
+                    "They had a wonderful team."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more wonderful",
+        "superlative": "the most wonderful",
+        "emoji": "🌈"
+    },
+    {
+        "word": "terrible",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "bad",
+        "oppositeEmoji": "🌟",
+        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "synonyms": [
+            "awful",
+            "very bad"
+        ],
+        "definitions": [
+            {
+                "text": "Extremely bad.",
+                "examples": [
+                    "The traffic this morning was terrible."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more terrible",
+        "superlative": "the most terrible",
+        "emoji": "🤮"
+    },
+    {
+        "word": "awful",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "wonderful",
+        "oppositeEmoji": "🌈",
+        "subtext": "awful weather / awful news / simply awful",
+        "synonyms": [
+            "terrible",
+            "very bad"
+        ],
+        "definitions": [
+            {
+                "text": "Very bad or unpleasant.",
+                "examples": [
+                    "The noise in the open office is awful."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more awful",
+        "superlative": "the most awful",
+        "emoji": "💩"
+    },
+    {
+        "word": "amazing",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "ordinary",
+        "oppositeEmoji": "😐",
+        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "synonyms": [
+            "wonderful",
+            "fantastic"
+        ],
+        "definitions": [
+            {
+                "text": "Causing great surprise or admiration.",
+                "examples": [
+                    "She gave an amazing presentation."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more amazing",
+        "superlative": "the most amazing",
+        "emoji": "🤩"
+    },
+    {
+        "word": "fantastic",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "good",
+        "oppositeEmoji": "😫",
+        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "synonyms": [
+            "excellent",
+            "great"
+        ],
+        "definitions": [
+            {
+                "text": "Extremely good.",
+                "examples": [
+                    "The new system works in a fantastic way."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more fantastic",
+        "superlative": "the most fantastic",
+        "emoji": "🔥"
+    },
+    {
+        "word": "sad",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "happy",
+        "oppositeEmoji": "😊",
+        "subtext": "feel sad / a sad situation / deeply sad",
+        "synonyms": [
+            "unhappy",
+            "miserable",
+            "gloomy"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling unhappy or sorrowful.",
+                "examples": [
+                    "He was sad to leave the company."
+                ]
+            }
+        ],
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "sadder",
+        "superlative": "the saddest",
+        "emoji": "😢"
+    },
+    {
+        "word": "hungry",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "🤰",
+        "subtext": "feel hungry / very hungry / go hungry",
+        "synonyms": [
+            "starving",
+            "famished"
+        ],
+        "definitions": [
+            {
+                "text": "Needing food.",
+                "examples": [
+                    "I am hungry — it is already two o'clock."
+                ]
+            }
+        ],
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "hungrier",
+        "superlative": "the hungriest",
+        "emoji": "🍔"
+    },
+    {
+        "word": "angry",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "feel angry / angry with someone / very angry",
+        "synonyms": [
+            "mad",
+            "furious",
+            "annoyed"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling strong displeasure.",
+                "examples": [
+                    "She was angry about the decision."
+                ]
+            }
+        ],
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "angrier",
+        "superlative": "the angriest",
+        "emoji": "😠"
+    },
+    {
+        "word": "bored",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "interesting",
+        "oppositeEmoji": "🧐",
+        "subtext": "feel bored / bored with / easily bored",
+        "synonyms": [
+            "uninterested",
+            "weary"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling uninterested or restless.",
+                "examples": [
+                    "He feels bored in long meetings."
+                ]
+            }
+        ],
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "more bored",
+        "superlative": "the most bored",
+        "emoji": "😴"
+    },
+    {
+        "word": "excited",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "opposite": "bored",
+        "oppositeEmoji": "😴",
+        "subtext": "feel excited / excited about / very excited",
+        "definitions": [
+            {
+                "text": "Feeling enthusiasm and eagerness.",
+                "examples": [
+                    "She is excited about her new job."
+                ]
+            }
+        ],
+        "comparative": "more excited",
+        "superlative": "the most excited",
+        "emoji": "🤩"
+    },
+    {
+        "word": "afraid",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "brave",
+        "oppositeEmoji": "🦁",
+        "subtext": "afraid of / feel afraid / deeply afraid",
+        "synonyms": [
+            "scared",
+            "frightened",
+            "terrified"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling fear.",
+                "examples": [
+                    "He is afraid of making mistakes."
+                ]
+            }
+        ],
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "more afraid",
+        "superlative": "the most afraid",
+        "emoji": "😨"
+    },
+    {
+        "word": "sorry",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": null,
+        "subtext": "feel sorry / sorry for / sorry about",
+        "definitions": [
+            {
+                "text": "Feeling regret or sadness.",
+                "examples": [
+                    "She is sorry for the delay."
+                ]
+            }
+        ],
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "sorrier",
+        "superlative": "the sorriest",
+        "emoji": "🙏"
+    },
+    {
+        "word": "right",
+        "level": "starter",
+        "form": "adjective",
+        "subtext": "right hand / right side / absolutely right",
+        "opposite": "wrong",
+        "definitions": [
+            {
+                "text": "Correct; suitable.",
+                "examples": [
+                    "Is this the right office?"
+                ]
+            },
+            {
+                "text": "On or towards the side of your body that is to the east when you face north.",
+                "examples": [
+                    "Use your right hand."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more right",
+        "superlative": "the most right",
+        "emoji": "✅"
+    },
+    {
+        "word": "left",
+        "level": "starter",
+        "form": "adjective",
+        "subtext": "left hand / left side",
+        "opposite": "right",
+        "definitions": [
+            {
+                "text": "On or towards the side of your body that is to the west when you face north.",
+                "examples": [
+                    "Turn left at the station.",
+                    "She writes with her left hand."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": null,
+        "superlative": null,
+        "emoji": "⬅️"
+    },
+    {
+        "word": "wrong",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "right",
+        "oppositeEmoji": "✅",
+        "subtext": "wrong answer / go wrong / completely wrong",
+        "synonyms": [
+            "incorrect"
+        ],
+        "definitions": [
+            {
+                "text": "Not correct; not suitable.",
+                "examples": [
+                    "That was the wrong decision."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more wrong",
+        "superlative": "the most wrong",
+        "emoji": "❌"
+    },
+    {
+        "word": "new",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "old",
+        "oppositeEmoji": "👴",
+        "subtext": "new job / brand new / completely new",
+        "synonyms": [
+            "modern",
+            "recently made"
+        ],
+        "definitions": [
+            {
+                "text": "Not existing before; recently made.",
+                "examples": [
+                    "She has a new job starting in March."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "newer",
+        "superlative": "the newest",
+        "emoji": "🆕"
+    },
+    {
+        "word": "different",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "same",
+        "oppositeEmoji": "👯",
+        "subtext": "completely different / very different / different from",
+        "synonyms": [
+            "not the same"
+        ],
+        "definitions": [
+            {
+                "text": "Not the same as another.",
+                "examples": [
+                    "This job is very different from my last one."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "more different",
+        "superlative": "the most different",
+        "emoji": "🌓"
+    },
+    {
+        "word": "same",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "other",
+        "oppositeEmoji": "🌓",
+        "subtext": "the same as / exactly the same / same time",
+        "synonyms": [
+            "identical"
+        ],
+        "definitions": [
+            {
+                "text": "Not different; identical.",
+                "examples": [
+                    "They earn the same salary."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": null,
+        "superlative": null,
+        "emoji": "👯"
+    },
+    {
+        "word": "fast",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "slow",
+        "oppositeEmoji": "🐢",
+        "subtext": "fast food / fast train / very fast",
+        "synonyms": [
+            "quick",
+            "rapid"
+        ],
+        "definitions": [
+            {
+                "text": "Moving or happening quickly.",
+                "examples": [
+                    "The train to work is fast and reliable."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "faster",
+        "superlative": "the fastest",
+        "emoji": "🏎️"
+    },
+    {
+        "word": "slow",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "fast",
+        "oppositeEmoji": "🏎️",
+        "subtext": "slow progress / slow internet / very slow",
+        "synonyms": [
+            "leisurely"
+        ],
+        "definitions": [
+            {
+                "text": "Not fast; taking a long time.",
+                "examples": [
+                    "The new system is very slow."
+                ]
+            }
+        ],
+        "theme": "size_shape_A1",
+        "comparative": "slower",
+        "superlative": "the slowest",
+        "emoji": "🐢"
+    },
+    {
+        "word": "quiet",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "loud",
+        "oppositeEmoji": "📢",
+        "subtext": "quiet area / keep quiet / nice and quiet",
+        "synonyms": [
+            "silent",
+            "peaceful"
+        ],
+        "definitions": [
+            {
+                "text": "Making little or no noise; peaceful.",
+                "examples": [
+                    "The office is quiet at lunchtime."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "quieter",
+        "superlative": "the quietest",
+        "emoji": "🤫"
+    },
+    {
+        "word": "loud",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "quiet",
+        "oppositeEmoji": "🤫",
+        "subtext": "loud noise / too loud / a loud voice",
+        "synonyms": [
+            "noisy"
+        ],
+        "definitions": [
+            {
+                "text": "Making a lot of noise.",
+                "examples": [
+                    "The open-plan office is too loud."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": "louder",
+        "superlative": "the loudest",
+        "emoji": "📢"
+    },
+    {
+        "word": "safe",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "dangerous",
+        "oppositeEmoji": "🧨",
+        "subtext": "safe area / safe to do / feel safe",
+        "synonyms": [
+            "secure"
+        ],
+        "definitions": [
+            {
+                "text": "Not dangerous; protected from harm.",
+                "examples": [
+                    "This neighbourhood is very safe."
+                ]
+            }
+        ],
+        "theme": "local_places_services_A1",
+        "comparative": "safer",
+        "superlative": "the safest",
+        "emoji": "🛡️"
+    },
+    {
+        "word": "dangerous",
+        "level": "starter",
+        "form": "adjective",
+        "opposite": "safe",
+        "oppositeEmoji": "🛡️",
+        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "synonyms": [
+            "risky"
+        ],
+        "definitions": [
+            {
+                "text": "Likely to cause harm.",
+                "examples": [
+                    "The commute on that road is dangerous."
+                ]
+            }
+        ],
+        "theme": "local_places_services_A1",
+        "comparative": "more dangerous",
+        "superlative": "the most dangerous",
+        "emoji": "🧨"
+    },
+    {
+        "word": "unhappy",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "opposite": "happy",
+        "oppositeEmoji": "😊",
+        "subtext": "feel unhappy / very unhappy / unhappy about",
+        "synonyms": [
+            "sad",
+            "miserable"
+        ],
+        "definitions": [
+            {
+                "text": "Not feeling pleased; dissatisfied.",
+                "examples": [
+                    "He is unhappy with his current salary."
+                ]
+            }
+        ],
+        "comparative": "unhappier",
+        "superlative": "the unhappiest",
+        "emoji": "😢"
+    },
+    {
+        "word": "nervous",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "opposite": "confident",
+        "oppositeEmoji": "🦁",
+        "subtext": "feel nervous / nervous about / very nervous",
+        "synonyms": [
+            "anxious",
+            "worried"
+        ],
+        "definitions": [
+            {
+                "text": "Feeling anxious or uneasy.",
+                "examples": [
+                    "He was nervous before the job interview."
+                ]
+            }
+        ],
+        "comparative": "more nervous",
+        "superlative": "the most nervous",
+        "emoji": "😟"
+    },
+    {
+        "word": "proud",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "🤦",
+        "definitions": [
+            {
+                "text": "Feeling pleased about an achievement.",
+                "examples": [
+                    "He was proud to get his first promotion."
+                ]
+            }
+        ],
+        "subtext": "feel proud / very proud / proud of",
+        "synonyms": [
+            "pleased",
+            "satisfied"
+        ],
+        "comparative": "prouder",
+        "superlative": "the proudest",
+        "emoji": "🤳"
+    },
+    {
+        "word": "scared",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "opposite": "brave",
+        "oppositeEmoji": "🦁",
+        "definitions": [
+            {
+                "text": "Feeling fear about something.",
+                "examples": [
+                    "She was scared about giving the presentation."
+                ]
+            }
+        ],
+        "subtext": "feel scared / scared of / very scared",
+        "synonyms": [
+            "afraid",
+            "frightened"
+        ],
+        "comparative": "more scared",
+        "superlative": "the most scared",
+        "emoji": "😨"
+    },
+    {
+        "word": "surprised",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "😐",
+        "definitions": [
+            {
+                "text": "Feeling shock at something unexpected.",
+                "examples": [
+                    "He was surprised to get a pay rise."
+                ]
+            }
+        ],
+        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "synonyms": [
+            "amazed",
+            "astonished"
+        ],
+        "comparative": "more surprised",
+        "superlative": "the most surprised",
+        "emoji": "😲"
+    },
+    {
+        "word": "disappointed",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "opposite": "satisfied",
+        "oppositeEmoji": "😌",
+        "definitions": [
+            {
+                "text": "Feeling sad because something was not as good as expected.",
+                "examples": [
+                    "She was disappointed not to get the job."
+                ]
+            }
+        ],
+        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "synonyms": [
+            "sad",
+            "let down"
+        ],
+        "comparative": "more disappointed",
+        "superlative": "the most disappointed",
+        "emoji": "😞"
+    },
+    {
+        "word": "beautiful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "ugly",
+        "oppositeEmoji": "👹",
+        "definitions": [
+            {
+                "text": "Attractive and pleasing to look at.",
+                "examples": [
+                    "She has a beautiful, bright office with city views."
+                ]
+            }
+        ],
+        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "comparative": "more beautiful",
+        "superlative": "the most beautiful",
+        "emoji": "✨"
+    },
+    {
+        "word": "pretty",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "ugly",
+        "oppositeEmoji": "👹",
+        "definitions": [
+            {
+                "text": "Pleasant to look at; quite attractive.",
+                "examples": [
+                    "The new meeting room is very pretty."
+                ]
+            }
+        ],
+        "subtext": "pretty good / a pretty place / quite pretty",
+        "comparative": "prettier",
+        "superlative": "the prettiest",
+        "emoji": "🌸"
+    },
+    {
+        "word": "strong",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "weak",
+        "oppositeEmoji": "🍃",
+        "definitions": [
+            {
+                "text": "Having great physical or mental power.",
+                "examples": [
+                    "She is a strong leader and very respected."
+                ]
+            }
+        ],
+        "subtext": "strong coffee / strong opinion / very strong",
+        "comparative": "stronger",
+        "superlative": "the strongest",
+        "emoji": "🏋️"
+    },
+    {
+        "word": "weak",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "strong",
+        "oppositeEmoji": "🏋️",
+        "definitions": [
+            {
+                "text": "Lacking strength or power.",
+                "examples": [
+                    "The signal is weak on the top floor."
+                ]
+            }
+        ],
+        "subtext": "weak connection / a weak argument / very weak",
+        "comparative": "weaker",
+        "superlative": "the weakest",
+        "emoji": "🥀"
+    },
+    {
+        "word": "fit",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "form": "adjective",
+        "opposite": "unfit",
+        "oppositeEmoji": "🛋️",
+        "definitions": [
+            {
+                "text": "In good physical condition through exercise.",
+                "examples": [
+                    "She keeps fit by cycling to work every day."
+                ]
+            }
+        ],
+        "subtext": "physically fit / stay fit / keep fit",
+        "synonyms": [
+            "healthy",
+            "in shape"
+        ],
+        "comparative": "fitter",
+        "superlative": "the fittest",
+        "emoji": "🏋️"
+    },
+    {
+        "word": "unfit",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "opposite": "fit",
+        "oppositeEmoji": "🏋️",
+        "subtext": "unhealthy, out of shape / feel unfit",
+        "definitions": [
+            {
+                "text": "Not in good physical condition.",
+                "examples": [
+                    "I feel very unfit because I don't exercise."
+                ]
+            }
+        ],
+        "comparative": "more unfit",
+        "superlative": "the most unfit"
+    },
+    {
+        "word": "perfect",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "imperfect",
+        "oppositeEmoji": "🩹",
+        "definitions": [
+            {
+                "text": "Without any faults; completely correct.",
+                "examples": [
+                    "The timing of the launch was perfect."
+                ]
+            }
+        ],
+        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "comparative": "more perfect",
+        "superlative": "the most perfect",
+        "emoji": "💯"
+    },
+    {
+        "word": "correct",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "incorrect",
+        "oppositeEmoji": "❌",
+        "definitions": [
+            {
+                "text": "True or right; without errors.",
+                "examples": [
+                    "Please check the figures are correct."
+                ]
+            }
+        ],
+        "subtext": "correct answer / the correct way / completely correct",
+        "comparative": "more correct",
+        "superlative": "the most correct",
+        "emoji": "✅"
+    },
+    {
+        "word": "interesting",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "boring",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "Attracting attention; worth knowing about.",
+                "examples": [
+                    "The new proposal is very interesting."
+                ]
+            }
+        ],
+        "subtext": "find interesting / very interesting / an interesting idea",
+        "comparative": "more interesting",
+        "superlative": "the most interesting",
+        "emoji": "🧐"
+    },
+    {
+        "word": "boring",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "interesting",
+        "oppositeEmoji": "🤩",
+        "definitions": [
+            {
+                "text": "Not interesting; dull.",
+                "examples": [
+                    "The training session was very boring."
+                ]
+            }
+        ],
+        "subtext": "very boring / a boring meeting / find boring",
+        "comparative": "more boring",
+        "superlative": "the most boring",
+        "emoji": "😴"
+    },
+    {
+        "word": "special",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "ordinary",
+        "oppositeEmoji": "😐",
+        "definitions": [
+            {
+                "text": "Different from what is usual; particularly important.",
+                "examples": [
+                    "She has a special talent for problem-solving."
+                ]
+            }
+        ],
+        "subtext": "a special offer / special occasion / very special",
+        "comparative": "more special",
+        "superlative": "the most special",
+        "emoji": "💎"
+    },
+    {
+        "word": "friendly",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "unfriendly",
+        "oppositeEmoji": "😠",
+        "definitions": [
+            {
+                "text": "Kind and pleasant; easy to talk to.",
+                "examples": [
+                    "The new manager is very friendly and approachable."
+                ]
+            }
+        ],
+        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "synonyms": [
+            "kind",
+            "pleasant"
+        ],
+        "comparative": "more friendly",
+        "superlative": "the most friendly",
+        "emoji": "👋"
+    },
+    {
+        "word": "kind",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "unkind",
+        "oppositeEmoji": "🥀",
+        "definitions": [
+            {
+                "text": "Caring and generous to others.",
+                "examples": [
+                    "She is kind to everyone in the office."
+                ]
+            }
+        ],
+        "subtext": "very kind / kind of you / a kind person",
+        "synonyms": [
+            "caring",
+            "generous"
+        ],
+        "comparative": "kinder",
+        "superlative": "the kindest",
+        "emoji": "🤝"
+    },
+    {
+        "word": "unkind",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🥀",
+        "form": "adjective",
+        "opposite": "kind",
+        "oppositeEmoji": "🤝",
+        "subtext": "unkind words / be unkind",
+        "synonyms": [
+            "mean",
+            "cruel"
+        ],
+        "definitions": [
+            {
+                "text": "Not kind; mean.",
+                "examples": [
+                    "It was unkind to say those things."
+                ]
+            }
+        ],
+        "comparative": "more unkind",
+        "superlative": "the most unkind"
+    },
+    {
+        "word": "funny",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "serious",
+        "oppositeEmoji": "😐",
+        "definitions": [
+            {
+                "text": "Making people laugh; humorous.",
+                "examples": [
+                    "He has a funny way of explaining complex ideas."
+                ]
+            }
+        ],
+        "subtext": "very funny / funny story / find funny",
+        "synonyms": [
+            "humorous",
+            "amusing"
+        ],
+        "comparative": "funnier",
+        "superlative": "the funniest",
+        "emoji": "😂"
+    },
+    {
+        "word": "clever",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "stupid",
+        "oppositeEmoji": "🤡",
+        "definitions": [
+            {
+                "text": "Intelligent; quick to understand.",
+                "examples": [
+                    "She is a clever negotiator."
+                ]
+            }
+        ],
+        "subtext": "very clever / a clever idea / clever enough",
+        "synonyms": [
+            "intelligent",
+            "smart"
+        ],
+        "comparative": "cleverer",
+        "superlative": "the cleverest",
+        "emoji": "🎓"
+    },
+    {
+        "word": "polite",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "rude",
+        "oppositeEmoji": "😛",
+        "definitions": [
+            {
+                "text": "Behaving in a respectful and courteous way.",
+                "examples": [
+                    "He is always polite with clients."
+                ]
+            }
+        ],
+        "subtext": "very polite / polite request / polite enough",
+        "synonyms": [
+            "respectful"
+        ],
+        "comparative": "more polite",
+        "superlative": "the most polite",
+        "emoji": "🙏"
+    },
+    {
+        "word": "rude",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "polite",
+        "oppositeEmoji": "🤝",
+        "definitions": [
+            {
+                "text": "Not polite; showing a lack of respect.",
+                "examples": [
+                    "That email was quite rude and unprofessional."
+                ]
+            }
+        ],
+        "subtext": "very rude / incredibly rude / deliberately rude",
+        "synonyms": [
+            "impolite",
+            "disrespectful"
+        ],
+        "comparative": "ruder",
+        "superlative": "the rudest",
+        "emoji": "😛"
+    },
+    {
+        "word": "lazy",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "hardworking",
+        "oppositeEmoji": "🐝",
+        "definitions": [
+            {
+                "text": "Not willing to work or use effort.",
+                "examples": [
+                    "He has a reputation for being lazy with follow-ups."
+                ]
+            }
+        ],
+        "subtext": "very lazy / a lazy approach / too lazy",
+        "synonyms": [
+            "idle"
+        ],
+        "comparative": "lazier",
+        "superlative": "the laziest",
+        "emoji": "🛋️"
+    },
+    {
+        "word": "honest",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "dishonest",
+        "oppositeEmoji": "🤥",
+        "definitions": [
+            {
+                "text": "Telling the truth; not deceiving.",
+                "examples": [
+                    "She is known for being completely honest with clients."
+                ]
+            }
+        ],
+        "subtext": "very honest / brutally honest / completely honest",
+        "synonyms": [
+            "truthful"
+        ],
+        "comparative": "more honest",
+        "superlative": "the most honest",
+        "emoji": "⚖️"
+    },
+    {
+        "word": "noisy",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "quiet",
+        "oppositeEmoji": "🤫",
+        "definitions": [
+            {
+                "text": "Making a lot of sound; loud.",
+                "examples": [
+                    "The open plan office is very noisy."
+                ]
+            }
+        ],
+        "subtext": "very noisy / noisy environment / too noisy",
+        "synonyms": [
+            "loud"
+        ],
+        "comparative": "noisier",
+        "superlative": "the noisiest",
+        "emoji": "📢"
+    },
+    {
+        "word": "round",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⭕",
+        "form": "adjective",
+        "opposite": "oval",
+        "oppositeEmoji": "⬛",
+        "subtext": "a round table / round shape",
+        "synonyms": [
+            "circular"
+        ],
+        "definitions": [
+            {
+                "text": "Shaped like a circle.",
+                "examples": [
+                    "The table is round."
+                ]
+            }
+        ],
+        "comparative": "rounder",
+        "superlative": "the roundest"
+    },
+    {
+        "word": "square",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⬛",
+        "form": "adjective",
+        "opposite": "triangular",
+        "oppositeEmoji": "⭕",
+        "subtext": "a square box / square shape",
+        "synonyms": [
+            "four-sided"
+        ],
+        "definitions": [
+            {
+                "text": "Having four equal sides and four 90-degree angles.",
+                "examples": [
+                    "The box is square."
+                ]
+            }
+        ],
+        "comparative": "squarer",
+        "superlative": "the squarest"
+    },
+    {
+        "word": "helpful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤝",
+        "form": "adjective",
+        "opposite": "unhelpful",
+        "oppositeEmoji": "😠",
+        "subtext": "very helpful / a helpful person",
+        "synonyms": [
+            "useful",
+            "kind"
+        ],
+        "definitions": [
+            {
+                "text": "Willing to help other people.",
+                "examples": [
+                    "My colleagues are very helpful."
+                ]
+            }
+        ],
+        "comparative": "more helpful",
+        "superlative": "the most helpful"
+    },
+    {
+        "word": "unhelpful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😠",
+        "form": "adjective",
+        "opposite": "helpful",
+        "oppositeEmoji": "🤝",
+        "subtext": "unhelpful advice / very unhelpful",
+        "synonyms": [
+            "useless"
+        ],
+        "definitions": [
+            {
+                "text": "Not helping in a situation.",
+                "examples": [
+                    "The staff were quite unhelpful when I asked for directions."
+                ]
+            }
+        ],
+        "comparative": "more unhelpful",
+        "superlative": "the most unhelpful"
+    },
+    {
+        "word": "patient",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🧘",
+        "form": "adjective",
+        "opposite": "impatient",
+        "oppositeEmoji": "⌚",
+        "subtext": "be patient / a patient teacher",
+        "synonyms": [
+            "calm",
+            "tolerant"
+        ],
+        "definitions": [
+            {
+                "text": "Able to wait for a long time without becoming angry.",
+                "examples": [
+                    "You need to be patient with new students."
+                ]
+            }
+        ],
+        "comparative": "more patient",
+        "superlative": "the most patient"
+    },
+    {
+        "word": "active",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "opposite": "lazy",
+        "oppositeEmoji": "🛋️",
+        "subtext": "an active lifestyle / very active",
+        "synonyms": [
+            "energetic",
+            "busy"
+        ],
+        "definitions": [
+            {
+                "text": "Doing a lot of things; busy.",
+                "examples": [
+                    "He is a very active person."
+                ]
+            }
+        ],
+        "comparative": "more active",
+        "superlative": "the most active"
+    },
+    {
+        "word": "careful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⚠️",
+        "form": "adjective",
+        "opposite": "careless",
+        "subtext": "be careful / careful planning",
+        "synonyms": [
+            "cautious"
+        ],
+        "definitions": [
+            {
+                "text": "Giving a lot of attention to what you are doing so that you do not have an accident or make a mistake.",
+                "examples": [
+                    "Be careful when you drive."
+                ]
+            }
+        ],
+        "comparative": "more careful",
+        "superlative": "the most careful"
+    },
+    {
+        "word": "creative",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🎨",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "😐",
+        "subtext": "very creative / creative ideas",
+        "synonyms": [
+            "imaginative",
+            "artistic"
+        ],
+        "definitions": [
+            {
+                "text": "Good at thinking of new ideas or making things.",
+                "examples": [
+                    "She is a very creative designer."
+                ]
+            }
+        ],
+        "comparative": "more creative",
+        "superlative": "the most creative"
+    },
+    {
+        "word": "cloudy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "☁️",
+        "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
+        "subtext": "a cloudy sky / cloudy weather",
+        "synonyms": [
+            "overcast"
+        ],
+        "definitions": [
+            {
+                "text": "With many clouds in the sky.",
+                "examples": [
+                    "It is a cloudy day."
+                ]
+            }
+        ],
+        "comparative": "cloudier",
+        "superlative": "the cloudiest"
+    },
+    {
+        "word": "windy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "💨",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "a windy day / very windy",
+        "synonyms": [
+            "breezy"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of wind.",
+                "examples": [
+                    "It is very windy today."
+                ]
+            }
+        ],
+        "comparative": "windier",
+        "superlative": "the windiest"
+    },
+    {
+        "word": "snowy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
+        "subtext": "snowy mountains / a snowy winter",
+        "synonyms": [
+            "covered in snow"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of snow.",
+                "examples": [
+                    "We have snowy weather in January."
+                ]
+            }
+        ],
+        "comparative": "snowier",
+        "superlative": "the snowiest"
+    },
+    {
+        "word": "foggy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "opposite": "clear",
+        "oppositeEmoji": "💎",
+        "subtext": "foggy morning / very foggy",
+        "synonyms": [
+            "misty"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of fog; difficult to see.",
+                "examples": [
+                    "It is foggy this morning."
+                ]
+            }
+        ],
+        "comparative": "foggier",
+        "superlative": "the foggiest"
+    },
+    {
+        "word": "stormy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "⛈️",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "stormy weather / a stormy night",
+        "synonyms": [
+            "rough"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of rain and strong winds.",
+                "examples": [
+                    "It was a stormy night."
+                ]
+            }
+        ],
+        "comparative": "stormier",
+        "superlative": "the stormiest"
+    },
+    {
+        "word": "blonde",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "opposite": "brunette",
+        "oppositeEmoji": "👩🏻",
+        "subtext": "blonde hair / a blonde woman",
+        "synonyms": [
+            "fair-haired"
+        ],
+        "definitions": [
+            {
+                "text": "Pale gold in color.",
+                "examples": [
+                    "She has blonde hair."
+                ]
+            }
+        ],
+        "comparative": "blonder",
+        "superlative": "the blondest",
+        "emoji": "👱‍♀️"
+    },
+    {
+        "word": "smart",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "stupid",
+        "oppositeEmoji": "🤡",
+        "subtext": "a smart student / smart clothes",
+        "synonyms": [
+            "intelligent",
+            "clever"
+        ],
+        "definitions": [
+            {
+                "text": "Intelligent; clever.",
+                "examples": [
+                    "He is a smart student."
+                ]
+            }
+        ],
+        "comparative": "smarter",
+        "superlative": "the smartest",
+        "emoji": "🎓"
+    },
+    {
+        "word": "serious",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "opposite": "funny",
+        "oppositeEmoji": "😂",
+        "subtext": "a serious person / look serious",
+        "synonyms": [
+            "solemn",
+            "sensible"
+        ],
+        "definitions": [
+            {
+                "text": "Thinking or acting in a careful and sensible way; not silly.",
+                "examples": [
+                    "He is a serious person."
+                ]
+            }
+        ],
+        "comparative": "more serious",
+        "superlative": "the most serious",
+        "emoji": "😐"
+    },
+    {
+        "word": "ugly",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "opposite": "beautiful",
+        "oppositeEmoji": "✨",
+        "subtext": "ugly building / ugly duckling",
+        "synonyms": [
+            "unattractive"
+        ],
+        "definitions": [
+            {
+                "text": "Unpleasant to look at.",
+                "examples": [
+                    "It was an ugly building."
+                ]
+            }
+        ],
+        "comparative": "uglier",
+        "superlative": "the ugliest",
+        "emoji": "👹"
+    },
+    {
+        "word": "near",
+        "level": "starter",
+        "theme": "distance_A1",
+        "form": "adjective",
+        "opposite": "far",
+        "oppositeEmoji": "🔭",
+        "subtext": "near here / near the station",
+        "synonyms": [
+            "close"
+        ],
+        "definitions": [
+            {
+                "text": "Not far away in distance.",
+                "examples": [
+                    "The station is near the office."
+                ]
+            }
+        ],
+        "comparative": "nearer",
+        "superlative": "the nearest",
+        "emoji": "📍"
+    },
+    {
+        "word": "far",
+        "level": "starter",
+        "theme": "distance_A1",
+        "form": "adjective",
+        "opposite": "close",
+        "oppositeEmoji": "📍",
+        "subtext": "far away / far from",
+        "synonyms": [
+            "distant"
+        ],
+        "definitions": [
+            {
+                "text": "A long way away in distance.",
+                "examples": [
+                    "Is it far from here?"
+                ]
+            }
+        ],
+        "comparative": "farther",
+        "superlative": "the farthest",
+        "emoji": "🔭"
+    },
+    {
+        "word": "rich",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "adjective",
+        "opposite": "poor",
+        "oppositeEmoji": "🏚️",
+        "subtext": "rich man / rich country / very rich",
+        "synonyms": [
+            "wealthy"
+        ],
+        "definitions": [
+            {
+                "text": "Having a lot of money.",
+                "examples": [
+                    "He is a very rich man."
+                ]
+            }
+        ],
+        "comparative": "richer",
+        "superlative": "the richest"
+    },
+    {
+        "word": "poor",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "🏚️",
+        "form": "adjective",
+        "opposite": "rich",
+        "oppositeEmoji": "💰",
+        "subtext": "poor family / feel poor",
+        "synonyms": [
+            "broke",
+            "impoverished"
+        ],
+        "definitions": [
+            {
+                "text": "Having very little money.",
+                "examples": [
+                    "They are poor but happy."
+                ]
+            }
+        ],
+        "comparative": "poorer",
+        "superlative": "the poorest"
+    },
+    {
+        "word": "early",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌅",
+        "form": "adjective",
+        "opposite": "late",
+        "oppositeEmoji": "🌙",
+        "subtext": "early morning / early riser",
+        "synonyms": [
+            "soon"
+        ],
+        "definitions": [
+            {
+                "text": "Happening or arriving before the usual or expected time.",
+                "examples": [
+                    "I had an early breakfast."
+                ]
+            }
+        ],
+        "comparative": "earlier",
+        "superlative": "the earliest"
+    },
+    {
+        "word": "late",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌙",
+        "form": "adjective",
+        "opposite": "early",
+        "oppositeEmoji": "🌅",
+        "subtext": "late night / too late",
+        "synonyms": [
+            "tardy"
+        ],
+        "definitions": [
+            {
+                "text": "Happening or arriving after the usual or expected time.",
+                "examples": [
+                    "I had a late dinner."
+                ]
+            }
+        ],
+        "comparative": "later",
+        "superlative": "the latest"
+    },
+    {
+        "word": "hardworking",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🐝",
+        "form": "adjective",
+        "opposite": "lazy",
+        "oppositeEmoji": "🛋️",
+        "subtext": "a hardworking student / very hardworking",
+        "synonyms": [
+            "diligent",
+            "busy"
+        ],
+        "definitions": [
+            {
+                "text": "Putting a lot of effort into work.",
+                "examples": [
+                    "She is a very hardworking manager."
+                ]
+            }
+        ],
+        "comparative": "more hardworking",
+        "superlative": "the most hardworking"
+    },
+    {
+        "word": "exciting",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "🤩",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "😴",
+        "subtext": "an exciting trip / very exciting",
+        "synonyms": [
+            "thrilling",
+            "interesting"
+        ],
+        "definitions": [
+            {
+                "text": "Making you feel very happy and enthusiastic.",
+                "examples": [
+                    "It was an exciting game."
+                ]
+            }
+        ],
+        "comparative": "more exciting",
+        "superlative": "the most exciting"
+    },
+    {
+        "word": "delicious",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "😋",
+        "form": "adjective",
+        "opposite": "disgusting",
+        "oppositeEmoji": "🤢",
+        "subtext": "delicious meal / smell delicious",
+        "synonyms": [
+            "tasty",
+            "yummy"
+        ],
+        "definitions": [
+            {
+                "text": "Having a very pleasant taste or smell.",
+                "examples": [
+                    "The food is delicious."
+                ]
+            }
+        ],
+        "comparative": "more delicious",
+        "superlative": "the most delicious"
+    },
+    {
+        "word": "sweet",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍬",
+        "form": "adjective",
+        "opposite": "bitter",
+        "oppositeEmoji": "🍋",
+        "subtext": "sweet fruit / sweet tooth / very sweet",
+        "synonyms": [
+            "sugary"
+        ],
+        "definitions": [
+            {
+                "text": "Having a taste like sugar.",
+                "examples": [
+                    "I like sweet things."
+                ]
+            }
+        ],
+        "comparative": "sweeter",
+        "superlative": "the sweetest"
+    },
+    {
+        "word": "comfortable",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "🪑",
+        "subtext": "a comfortable chair / feel comfortable",
+        "synonyms": [
+            "relaxed",
+            "cozy"
+        ],
+        "definitions": [
+            {
+                "text": "Making you feel physically relaxed, without any pain or without being too hot, cold, etc.",
+                "examples": [
+                    "This chair is very comfortable."
+                ]
+            }
+        ],
+        "comparative": "more comfortable",
+        "superlative": "the most comfortable"
+    },
+    {
+        "word": "uncomfortable",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🪑",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "🛋️",
+        "subtext": "feel uncomfortable / uncomfortable chair",
+        "synonyms": [
+            "awkward",
+            "painful"
+        ],
+        "definitions": [
+            {
+                "text": "Not comfortable; causing physical pain or feeling awkward.",
+                "examples": [
+                    "This chair is very uncomfortable."
+                ]
+            }
+        ],
+        "comparative": "more uncomfortable",
+        "superlative": "the most uncomfortable"
+    },
+    {
+        "word": "real",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "fake",
+        "oppositeEmoji": "🎭",
+        "subtext": "a real person / is it real?",
+        "synonyms": [
+            "true",
+            "authentic"
+        ],
+        "definitions": [
+            {
+                "text": "Actually existing or happening; not false.",
+                "examples": [
+                    "Is this a real diamond?"
+                ]
+            }
+        ],
+        "comparative": "more real",
+        "superlative": "the most real"
+    },
+    {
+        "word": "simple",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "complex",
+        "oppositeEmoji": "🧩",
+        "subtext": "a simple question / nice and simple",
+        "synonyms": [
+            "easy",
+            "basic"
+        ],
+        "definitions": [
+            {
+                "text": "Easy to understand or do; not complex.",
+                "examples": [
+                    "This is a simple problem."
+                ]
+            }
+        ],
+        "comparative": "simpler",
+        "superlative": "the simplest"
+    },
+    {
+        "word": "natural",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌱",
+        "form": "adjective",
+        "opposite": "artificial",
+        "oppositeEmoji": "🤖",
+        "subtext": "natural light / natural products",
+        "synonyms": [
+            "nature-made"
+        ],
+        "definitions": [
+            {
+                "text": "Existing in nature; not made or caused by people.",
+                "examples": [
+                    "I prefer natural products."
+                ]
+            }
+        ],
+        "comparative": "more natural",
+        "superlative": "the most natural"
+    },
+    {
+        "word": "clear",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💧",
+        "form": "adjective",
+        "opposite": "unclear",
+        "oppositeEmoji": "🌫️",
+        "subtext": "a clear sky",
+        "synonyms": [
+            "obvious",
+            "transparent",
+            "speak clearly"
+        ],
+        "definitions": [
+            {
+                "text": "Easy to see through; easy to understand.",
+                "examples": [
+                    "The water is very clear.",
+                    "It is a clear day."
+                ]
+            }
+        ],
+        "comparative": "clearer",
+        "superlative": "the clearest"
+    },
+    {
+        "word": "common",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔄",
+        "form": "adjective",
+        "opposite": "rare",
+        "oppositeEmoji": "💎",
+        "subtext": "a common problem",
+        "synonyms": [
+            "usual",
+            "frequent",
+            "shared by all"
+        ],
+        "definitions": [
+            {
+                "text": "Happening often; shared by many people.",
+                "examples": [
+                    "It is a common mistake."
+                ]
+            }
+        ],
+        "comparative": "commoner",
+        "superlative": "the commonest"
+    },
+    {
+        "word": "famous",
+        "level": "starter",
+        "theme": "people_A1",
+        "emoji": "🌟",
+        "form": "adjective",
+        "opposite": "unknown",
+        "oppositeEmoji": "👤",
+        "subtext": "a famous person / become famous",
+        "synonyms": [
+            "well-known",
+            "popular"
+        ],
+        "definitions": [
+            {
+                "text": "Known by many people.",
+                "examples": [
+                    "He is a famous actor."
+                ]
+            }
+        ],
+        "comparative": "more famous",
+        "superlative": "the most famous"
+    },
+    {
+        "word": "salty",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧂",
+        "form": "adjective",
+        "opposite": null,
+        "oppositeEmoji": "🍬",
+        "subtext": "salty snacks / too salty",
+        "synonyms": [
+            "tasting of salt"
+        ],
+        "definitions": [
+            {
+                "text": "Containing or tasting of salt.",
+                "examples": [
+                    "The popcorn is very salty."
+                ]
+            }
+        ],
+        "comparative": "saltier",
+        "superlative": "the saltiest"
+    },
+    {
+        "word": "sour",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍋",
+        "form": "adjective",
+        "opposite": "sweet",
+        "oppositeEmoji": "🍬",
+        "subtext": "a sour taste / sour lemons",
+        "synonyms": [
+            "sharp-tasting"
+        ],
+        "definitions": [
+            {
+                "text": "Having a sharp taste like that of a lemon.",
+                "examples": [
+                    "Lemons are sour."
+                ]
+            }
+        ],
+        "comparative": "sourer",
+        "superlative": "the sourest"
+    },
+    {
+        "word": "bitter",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "☕",
+        "form": "adjective",
+        "opposite": "sweet",
+        "oppositeEmoji": "🍬",
+        "subtext": "a bitter taste / bitter coffee",
+        "synonyms": [
+            "strong",
+            "sharp"
+        ],
+        "definitions": [
+            {
+                "text": "Having a strong sharp taste that is not sweet.",
+                "examples": [
+                    "This coffee is very bitter."
+                ]
+            }
+        ],
+        "comparative": "bitterer",
+        "superlative": "the bitterest"
+    },
+    {
+        "word": "fat",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🍔",
+        "form": "adjective",
+        "opposite": "thin",
+        "oppositeEmoji": "🥬",
+        "subtext": "a fat cat",
+        "synonyms": [
+            "overweight",
+            "gain weight"
+        ],
+        "definitions": [
+            {
+                "text": "Having a lot of extra flesh on your body.",
+                "examples": [
+                    "The cat is fat because it eats a lot."
+                ]
+            }
+        ],
+        "comparative": "fatter",
+        "superlative": "the fattest"
+    },
+    {
+        "word": "thin",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🥬",
+        "form": "adjective",
+        "opposite": "thick",
+        "oppositeEmoji": "🍔",
+        "subtext": "he is thin / thin legs",
+        "synonyms": [
+            "slim",
+            "skinny"
+        ],
+        "definitions": [
+            {
+                "text": "Having very little extra flesh on your body.",
+                "examples": [
+                    "He is very tall and thin."
+                ]
+            }
+        ],
+        "comparative": "thinner",
+        "superlative": "the thinnest"
+    },
+    {
+        "word": "curly",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🌀",
+        "form": "adjective",
+        "opposite": "straight",
+        "oppositeEmoji": "📏",
+        "subtext": "curly hair / short curly hair",
+        "synonyms": [
+            "wavy"
+        ],
+        "definitions": [
+            {
+                "text": "Having curls or a curved shape.",
+                "examples": [
+                    "She has curly brown hair."
+                ]
+            }
+        ],
+        "comparative": "curlier",
+        "superlative": "the curliest"
+    },
+    {
+        "word": "straight",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "curly",
+        "oppositeEmoji": "🌀",
+        "subtext": "straight hair / long straight hair",
+        "synonyms": [
+            "not curly"
+        ],
+        "definitions": [
+            {
+                "text": "Not curving or bending.",
+                "examples": [
+                    "He has straight black hair."
+                ]
+            }
+        ],
+        "comparative": "straighter",
+        "superlative": "the straightest"
+    },
+    {
+        "word": "triangular",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🔺",
+        "form": "adjective",
+        "opposite": "square",
+        "subtext": "a triangular shape",
+        "synonyms": [
+            "three-sided"
+        ],
+        "definitions": [
+            {
+                "text": "Shaped like a triangle.",
+                "examples": [
+                    "The sign is triangular."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "rectangular",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "▭",
+        "form": "adjective",
+        "opposite": "round",
+        "subtext": "a rectangular room",
+        "synonyms": [
+            "four-sided"
+        ],
+        "definitions": [
+            {
+                "text": "Shaped like a rectangle.",
+                "examples": [
+                    "We have a rectangular table in the kitchen."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "oval",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🥚",
+        "form": "adjective",
+        "opposite": "round",
+        "subtext": "an oval mirror",
+        "synonyms": [
+            "egg-shaped"
+        ],
+        "definitions": [
+            {
+                "text": "Shaped like an egg.",
+                "examples": [
+                    "The mirror is oval."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "favourite",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⭐",
+        "form": "adjective",
+        "opposite": "hated",
+        "oppositeEmoji": "😡",
+        "subtext": "my favourite film / favourite food",
+        "synonyms": [
+            "preferred"
+        ],
+        "definitions": [
+            {
+                "text": "The one that you like the most.",
+                "examples": [
+                    "What is your favourite colour?",
+                    "Pizza is my favourite food."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "dark",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🌑",
+        "form": "adjective",
+        "opposite": "bright",
+        "oppositeEmoji": "💡",
+        "subtext": "dark blue / a dark night",
+        "synonyms": [
+            "not light"
+        ],
+        "definitions": [
+            {
+                "text": "With little or no light.",
+                "examples": [
+                    "It is dark outside.",
+                    "He has dark hair."
+                ]
+            }
+        ],
+        "comparative": "darker",
+        "superlative": "the darkest"
+    },
+    {
+        "word": "bright",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💡",
+        "form": "adjective",
+        "opposite": "dark",
+        "oppositeEmoji": "🌑",
+        "subtext": "bright colors / a bright day",
+        "synonyms": [
+            "shining",
+            "light"
+        ],
+        "definitions": [
+            {
+                "text": "Full of light, or shining with much light.",
+                "examples": [
+                    "The sun is very bright today.",
+                    "She is wearing a bright yellow dress."
+                ]
+            }
+        ],
+        "comparative": "brighter",
+        "superlative": "the brightest"
+    },
+    {
+        "word": "gold",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟡",
+        "form": "adjective",
+        "opposite": "silver",
+        "subtext": "a gold ring / gold medal",
+        "synonyms": [
+            "golden"
+        ],
+        "definitions": [
+            {
+                "text": "Having the color of gold.",
+                "examples": [
+                    "She has a gold watch."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "silver",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "⚪",
+        "form": "adjective",
+        "opposite": "gold",
+        "subtext": "a silver car / silver jewelry",
+        "synonyms": [
+            "silvery"
+        ],
+        "definitions": [
+            {
+                "text": "Having the color of silver.",
+                "examples": [
+                    "He has a silver car."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "deep",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🕳️",
+        "form": "adjective",
+        "opposite": "shallow",
+        "oppositeEmoji": "📏",
+        "subtext": "deep water / a deep hole",
+        "synonyms": [
+            "bottomless"
+        ],
+        "definitions": [
+            {
+                "text": "Going a long way from the top or surface to the bottom.",
+                "examples": [
+                    "The river is very deep here."
+                ]
+            }
+        ],
+        "comparative": "deeper",
+        "superlative": "the deepest"
+    },
+    {
+        "word": "shallow",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "deep",
+        "oppositeEmoji": "🕳️",
+        "subtext": "shallow water / a shallow end",
+        "synonyms": [
+            "not deep"
+        ],
+        "definitions": [
+            {
+                "text": "Having only a short distance from the top to the bottom.",
+                "examples": [
+                    "The water is shallow, so we can walk across."
+                ]
+            }
+        ],
+        "comparative": "shallower",
+        "superlative": "the shallowest"
+    },
+    {
+        "word": "modern",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "opposite": "ancient",
+        "oppositeEmoji": "🏛️",
+        "subtext": "a modern building / modern life",
+        "synonyms": [
+            "contemporary",
+            "new"
+        ],
+        "definitions": [
+            {
+                "text": "Designed and made using the most recent ideas and methods.",
+                "examples": [
+                    "They live in a modern house."
+                ]
+            }
+        ],
+        "comparative": "more modern",
+        "superlative": "the most modern"
+    },
+    {
+        "word": "ancient",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏛️",
+        "form": "adjective",
+        "opposite": "modern",
+        "oppositeEmoji": "🏙️",
+        "subtext": "ancient history / an ancient city",
+        "synonyms": [
+            "very old",
+            "antique"
+        ],
+        "definitions": [
+            {
+                "text": "From a long time ago; very old.",
+                "examples": [
+                    "We visited an ancient city in Greece."
+                ]
+            }
+        ],
+        "comparative": "more ancient",
+        "superlative": "the most ancient"
+    },
+    {
+        "word": "brave",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🦁",
+        "form": "adjective",
+        "opposite": "cowardly",
+        "oppositeEmoji": "😨",
+        "subtext": "a brave soldier / be brave",
+        "synonyms": [
+            "courageous"
+        ],
+        "definitions": [
+            {
+                "text": "Willing to do things that are dangerous, and does not show fear in difficult situations.",
+                "examples": [
+                    "The firefighter was very brave."
+                ]
+            }
+        ],
+        "comparative": "braver",
+        "superlative": "the bravest"
+    },
+    {
+        "word": "cowardly",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🐭",
+        "form": "adjective",
+        "opposite": "brave",
+        "oppositeEmoji": "🦁",
+        "subtext": "a cowardly act / don't be cowardly",
+        "synonyms": [
+            "fearful"
+        ],
+        "definitions": [
+            {
+                "text": "Not brave.",
+                "examples": [
+                    "He was too cowardly to tell the truth."
+                ]
+            }
+        ],
+        "comparative": "more cowardly",
+        "superlative": "the most cowardly"
+    },
+    {
+        "word": "wide",
+        "level": "starter",
+        "theme": "size_measurements_A1",
+        "emoji": "↔️",
+        "form": "adjective",
+        "opposite": "narrow",
+        "oppositeEmoji": "⬇️",
+        "subtext": "a wide road / wide open",
+        "synonyms": [
+            "broad"
+        ],
+        "definitions": [
+            {
+                "text": "Measuring a long distance from one side to the other.",
+                "examples": [
+                    "The river is very wide here."
+                ]
+            }
+        ],
+        "comparative": "wider",
+        "superlative": "the widest"
+    },
+    {
+        "word": "narrow",
+        "level": "starter",
+        "theme": "size_measurements_A1",
+        "emoji": "⬇️",
+        "form": "adjective",
+        "opposite": "wide",
+        "oppositeEmoji": "↔️",
+        "subtext": "a narrow street / too narrow",
+        "synonyms": [
+            "thin"
+        ],
+        "definitions": [
+            {
+                "text": "Measuring only a small distance from one side to the other.",
+                "examples": [
+                    "The path was too narrow for the car."
+                ]
+            }
+        ],
+        "comparative": "narrower",
+        "superlative": "the narrowest"
+    },
+    {
+        "word": "lucky",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "🍀",
+        "form": "adjective",
+        "opposite": "unlucky",
+        "oppositeEmoji": "😿",
+        "subtext": "a lucky person / feel lucky",
+        "synonyms": [
+            "fortunate"
+        ],
+        "definitions": [
+            {
+                "text": "Having good luck.",
+                "examples": [
+                    "He is very lucky to have such a good job."
+                ]
+            }
+        ],
+        "comparative": "luckier",
+        "superlative": "the luckiest"
+    },
+    {
+        "word": "calm",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😌",
+        "form": "adjective",
+        "opposite": "stormy",
+        "oppositeEmoji": "😟",
+        "subtext": "stay calm / a calm sea",
+        "synonyms": [
+            "peaceful",
+            "quiet"
+        ],
+        "definitions": [
+            {
+                "text": "Peaceful, quiet, and without worry.",
+                "examples": [
+                    "The sea is very calm today.",
+                    "Please stay calm."
+                ]
+            }
+        ],
+        "comparative": "calmer",
+        "superlative": "the calmest"
+    },
+    {
+        "word": "married",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "emoji": "💍",
+        "form": "adjective",
+        "opposite": "single",
+        "oppositeEmoji": "👤",
+        "subtext": "having a husband or wife / a married couple / get married",
+        "definitions": [
+            {
+                "text": "Having a husband or wife.",
+                "examples": [
+                    "Are you married?"
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "single",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "opposite": "married",
+        "oppositeEmoji": "💍",
+        "subtext": "a single man",
+        "synonyms": [
+            "not married"
+        ],
+        "definitions": [
+            {
+                "text": "Not married or in a serious relationship.",
+                "examples": [
+                    "He is single and lives alone."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "well",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "💪",
+        "form": "adjective",
+        "opposite": "ill",
+        "oppositeEmoji": "🤒",
+        "subtext": "feel well / get well soon",
+        "synonyms": [
+            "healthy",
+            "fit"
+        ],
+        "definitions": [
+            {
+                "text": "Healthy; not ill.",
+                "examples": [
+                    "I hope you are well.",
+                    "She feels well today."
+                ]
+            }
+        ],
+        "comparative": "better",
+        "superlative": "the best"
+    },
+    {
+        "word": "purple",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟣",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "A color between blue and red.",
+                "examples": [
+                    "I have a purple shirt."
+                ]
+            }
+        ],
+        "subtext": "purple flowers / bright purple",
+        "synonyms": [
+            "violet"
+        ],
+        "comparative": "more purple",
+        "superlative": "the most purple",
+        "opposite": "yellow"
+    },
+    {
+        "word": "able",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💪",
+        "form": "adjective",
+        "opposite": "unable",
+        "definitions": [
+            {
+                "text": "Having the power, skill, knowledge, or money to do something.",
+                "examples": [
+                    "She is able to speak three languages."
+                ]
+            }
+        ],
+        "subtext": "be able to / highly able",
+        "synonyms": [
+            "capable"
+        ],
+        "comparative": "abler",
+        "superlative": "the ablest"
+    },
+    {
+        "word": "close",
+        "level": "starter",
+        "theme": "distance_A1",
+        "emoji": "📍",
+        "form": "adjective",
+        "opposite": "far",
+        "definitions": [
+            {
+                "text": "Near in space or time.",
+                "examples": [
+                    "The station is close to the hotel."
+                ]
+            }
+        ],
+        "subtext": "close to / very close",
+        "synonyms": [
+            "near"
+        ],
+        "comparative": "closer",
+        "superlative": "the closest"
+    },
+    {
+        "word": "dead",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "💀",
+        "form": "adjective",
+        "opposite": "alive",
+        "definitions": [
+            {
+                "text": "Not living anymore.",
+                "examples": [
+                    "The flowers are dead."
+                ]
+            }
+        ],
+        "subtext": "dead leaves / completely dead",
+        "synonyms": [
+            "deceased"
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "fair",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "opposite": "unfair",
+        "definitions": [
+            {
+                "text": "Treating people equally or in a right way.",
+                "examples": [
+                    "It is a fair decision."
+                ]
+            }
+        ],
+        "subtext": "a fair price / be fair",
+        "synonyms": [
+            "just"
+        ],
+        "comparative": "fairer",
+        "superlative": "the fairest"
+    },
+    {
+        "word": "fine",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "opposite": null,
+        "definitions": [
+            {
+                "text": "Good or acceptable; healthy.",
+                "examples": [
+                    "I am fine, thank you.",
+                    "The weather is fine today."
+                ]
+            }
+        ],
+        "subtext": "feel fine / a fine day",
+        "synonyms": [
+            "okay",
+            "good"
+        ],
+        "comparative": "finer",
+        "superlative": "the finest"
+    },
+    {
+        "word": "glad",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "opposite": "happy",
+        "definitions": [
+            {
+                "text": "Happy and pleased.",
+                "examples": [
+                    "I am glad to see you."
+                ]
+            }
+        ],
+        "subtext": "glad that / so glad",
+        "synonyms": [
+            "happy",
+            "pleased"
+        ],
+        "comparative": "gladder",
+        "superlative": "the gladdest"
+    },
+    {
+        "word": "interested",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "🧐",
+        "form": "adjective",
+        "opposite": null,
+        "definitions": [
+            {
+                "text": "Wanting to give your attention to something or learn more about it.",
+                "examples": [
+                    "I am interested in history."
+                ]
+            }
+        ],
+        "subtext": "interested in / very interested",
+        "synonyms": [
+            "curious"
+        ],
+        "comparative": "more interested",
+        "superlative": "the most interested"
+    },
+    {
+        "word": "only",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "1️⃣",
+        "form": "adjective",
+        "opposite": "many",
+        "definitions": [
+            {
+                "text": "Used to show that there is only one or a few of something.",
+                "examples": [
+                    "She is the only student in the classroom."
+                ]
+            }
+        ],
+        "subtext": "the only one / only child",
+        "synonyms": [
+            "sole"
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "other",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "➕",
+        "form": "adjective",
+        "opposite": "same",
+        "definitions": [
+            {
+                "text": "Used to refer to people or things that are different from the ones already mentioned.",
+                "examples": [
+                    "Where are the other students?"
+                ]
+            }
+        ],
+        "subtext": "the other one / some other",
+        "synonyms": [
+            "different"
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "own",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "opposite": "shared",
+        "definitions": [
+            {
+                "text": "Belonging to or done by a particular person.",
+                "examples": [
+                    "I have my own room."
+                ]
+            }
+        ],
+        "subtext": "on my own / my own car",
+        "synonyms": [
+            "personal"
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "quick",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⚡",
+        "form": "adjective",
+        "opposite": "slow",
+        "definitions": [
+            {
+                "text": "Happening or done in a short time.",
+                "examples": [
+                    "She gave a quick answer."
+                ]
+            }
+        ],
+        "subtext": "a quick lunch / very quick",
+        "synonyms": [
+            "fast"
+        ],
+        "comparative": "quicker",
+        "superlative": "the quickest"
+    },
+    {
+        "word": "ready",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "unready",
+        "definitions": [
+            {
+                "text": "Prepared for what you are going to do.",
+                "examples": [
+                    "Are you ready for work?"
+                ]
+            }
+        ],
+        "subtext": "get ready / almost ready",
+        "synonyms": [
+            "prepared"
+        ],
+        "comparative": "readier",
+        "superlative": "the readiest"
+    },
+    {
+        "word": "unready",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏳",
+        "form": "adjective",
+        "opposite": "ready",
+        "oppositeEmoji": "✅",
+        "subtext": "unready for the change",
+        "synonyms": [
+            "not prepared"
+        ],
+        "definitions": [
+            {
+                "text": "Not prepared or ready for something.",
+                "examples": [
+                    "We were unready for such a big project."
+                ]
+            }
+        ],
+        "comparative": "more unready",
+        "superlative": "the most unready"
+    },
+    {
+        "word": "rough",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧱",
+        "form": "adjective",
+        "opposite": "smooth",
+        "definitions": [
+            {
+                "text": "Not smooth.",
+                "examples": [
+                    "The dog has rough fur."
+                ]
+            }
+        ],
+        "subtext": "rough skin / rough sea",
+        "synonyms": [
+            "uneven"
+        ],
+        "comparative": "rougher",
+        "superlative": "the roughest"
+    },
+    {
+        "word": "sharp",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🔪",
+        "form": "adjective",
+        "opposite": null,
+        "definitions": [
+            {
+                "text": "Having a thin edge that is able to cut things or a fine point which is able to make a hole in things.",
+                "examples": [
+                    "This knife is very sharp."
+                ]
+            }
+        ],
+        "subtext": "a sharp knife / very sharp",
+        "synonyms": [
+            "pointed"
+        ],
+        "comparative": "sharper",
+        "superlative": "the sharpest"
+    },
+    {
+        "word": "shy",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😳",
+        "form": "adjective",
+        "opposite": "confident",
+        "definitions": [
+            {
+                "text": "Nervous and uncomfortable about meeting and talking to other people.",
+                "examples": [
+                    "He is a shy boy."
+                ]
+            }
+        ],
+        "subtext": "feel shy / quite shy",
+        "synonyms": [
+            "timid"
+        ],
+        "comparative": "shyer",
+        "superlative": "the shyest"
+    },
+    {
+        "word": "thick",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "thin",
+        "definitions": [
+            {
+                "text": "Having a large distance between two sides.",
+                "examples": [
+                    "This is a thick book."
+                ]
+            }
+        ],
+        "subtext": "thick walls / thick hair",
+        "synonyms": [
+            "wide"
+        ],
+        "comparative": "thicker",
+        "superlative": "the thickest"
+    },
+    {
+        "word": "true",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "false",
+        "definitions": [
+            {
+                "text": "Based on facts and not imaginary.",
+                "examples": [
+                    "Is the story true?"
+                ]
+            }
+        ],
+        "subtext": "come true",
+        "synonyms": [
+            "real",
+            "truly"
+        ],
+        "comparative": "truer",
+        "superlative": "the truest"
+    },
+    {
+        "word": "false",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "true",
+        "oppositeEmoji": "✅",
+        "subtext": "true or false / false information",
+        "synonyms": [
+            "incorrect"
+        ],
+        "definitions": [
+            {
+                "text": "Not true; incorrect.",
+                "examples": [
+                    "The statement is false."
+                ]
+            }
+        ],
+        "comparative": "falser",
+        "superlative": "the falsest"
+    },
+    {
+        "word": "stupid",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "🤡",
+        "form": "adjective",
+        "opposite": "smart",
+        "definitions": [
+            {
+                "text": "Silly or not intelligent.",
+                "examples": [
+                    "It was a stupid mistake."
+                ]
+            }
+        ],
+        "subtext": "don't be stupid / very stupid",
+        "synonyms": [
+            "silly"
+        ],
+        "comparative": "stupider",
+        "superlative": "the stupidest"
+    },
+    {
+        "word": "sure",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "unsure",
+        "definitions": [
+            {
+                "text": "Certain; having no doubt.",
+                "examples": [
+                    "I am sure about the answer.",
+                    "Are you sure?"
+                ]
+            }
+        ],
+        "subtext": "make sure / pretty sure",
+        "synonyms": [
+            "certain"
+        ],
+        "comparative": "surer",
+        "superlative": "the surest"
+    },
+    {
+        "word": "unsure",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "❓",
+        "form": "adjective",
+        "opposite": "sure",
+        "oppositeEmoji": "✅",
+        "subtext": "feel unsure / unsure about",
+        "synonyms": [
+            "uncertain"
+        ],
+        "definitions": [
+            {
+                "text": "Not certain about something.",
+                "examples": [
+                    "I am unsure about what to do next."
+                ]
+            }
+        ],
+        "comparative": "more unsure",
+        "superlative": "the most unsure"
+    },
+    {
+        "word": "nasty",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😠",
+        "form": "adjective",
+        "opposite": "nice",
+        "oppositeEmoji": "😊",
+        "subtext": "a nasty person / nasty weather",
+        "synonyms": [
+            "unpleasant",
+            "mean"
+        ],
+        "definitions": [
+            {
+                "text": "Very bad or unpleasant; unkind.",
+                "examples": [
+                    "Don't be nasty to your colleagues."
+                ]
+            }
+        ],
+        "comparative": "nastier",
+        "superlative": "the nastiest"
+    },
+    {
+        "word": "incorrect",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "correct",
+        "oppositeEmoji": "✅",
+        "subtext": "incorrect answer / absolutely incorrect",
+        "synonyms": [
+            "wrong",
+            "false"
+        ],
+        "definitions": [
+            {
+                "text": "Not correct; wrong.",
+                "examples": [
+                    "The information in the report was incorrect."
+                ]
+            }
+        ],
+        "comparative": "more incorrect",
+        "superlative": "the most incorrect"
+    },
+    {
+        "word": "smooth",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧼",
+        "form": "adjective",
+        "opposite": "rough",
+        "oppositeEmoji": "🧱",
+        "subtext": "smooth skin / smooth surface",
+        "synonyms": [
+            "flat",
+            "even"
+        ],
+        "definitions": [
+            {
+                "text": "Having an even and regular surface or consistency; not rough.",
+                "examples": [
+                    "The table has a very smooth surface."
+                ]
+            }
+        ],
+        "comparative": "smoother",
+        "superlative": "the smoothest"
+    },
+    {
+        "word": "normal",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😐",
+        "form": "adjective",
+        "opposite": "strange",
+        "oppositeEmoji": "❓",
+        "subtext": "normal day / back to normal",
+        "synonyms": [
+            "usual",
+            "ordinary"
+        ],
+        "definitions": [
+            {
+                "text": "Usual, ordinary, or expected.",
+                "examples": [
+                    "It was a normal working day."
+                ]
+            }
+        ],
+        "comparative": "more normal",
+        "superlative": "the most normal"
+    },
+    {
+        "word": "alive",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌱",
+        "form": "adjective",
+        "opposite": "dead",
+        "oppositeEmoji": "💀",
+        "subtext": "stay alive / still alive",
+        "synonyms": [
+            "living"
+        ],
+        "definitions": [
+            {
+                "text": "Living, not dead.",
+                "examples": [
+                    "The plant is still alive."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "many",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "🔢",
+        "form": "adjective",
+        "opposite": "few",
+        "oppositeEmoji": "🤏",
+        "subtext": "a lot of, numerous / many people / how many?",
+        "definitions": [
+            {
+                "text": "Used for saying that there are a large number of people or things.",
+                "examples": [
+                    "There are many students in the class."
+                ]
+            }
+        ],
+        "comparative": "more",
+        "superlative": "the most"
+    },
+    {
+        "word": "shared",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "👥",
+        "form": "adjective",
+        "opposite": "own",
+        "oppositeEmoji": "👤",
+        "subtext": "shared room / shared office",
+        "synonyms": [
+            "common"
+        ],
+        "definitions": [
+            {
+                "text": "Used or owned by more than one person.",
+                "examples": [
+                    "We work in a shared office."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "unclear",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "opposite": "clear",
+        "oppositeEmoji": "💧",
+        "subtext": "unclear instructions / feel unclear",
+        "synonyms": [
+            "confusing",
+            "vague"
+        ],
+        "definitions": [
+            {
+                "text": "Not easy to understand; not clear.",
+                "examples": [
+                    "The instructions were unclear."
+                ]
+            }
+        ],
+        "comparative": "more unclear",
+        "superlative": "the most unclear"
+    },
+    {
+        "word": "few",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "🤏",
+        "form": "adjective",
+        "opposite": "many",
+        "oppositeEmoji": "🔢",
+        "subtext": "a few / very few",
+        "synonyms": [
+            "not many"
+        ],
+        "definitions": [
+            {
+                "text": "Used for saying that there are only a small number of people or things.",
+                "examples": [
+                    "There are few students here today."
+                ]
+            }
+        ],
+        "comparative": "fewer",
+        "superlative": "the fewest"
+    },
+    {
+        "word": "possible",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "impossible",
+        "transcription": "[ˈpɒsəbl]",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "Able to be done or achieved.",
+                "examples": [
+                    "Is it possible to come tomorrow?",
+                    "Everything is possible if you try."
+                ]
+            }
+        ],
+        "comparative": "more possible",
+        "superlative": "the most possible",
+        "subtext": "as soon as possible, if possible"
+    },
+    {
+        "word": "useful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "useless",
+        "transcription": "[ˈjuːsfl]",
+        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "Helping you to do or achieve something.",
+                "examples": [
+                    "This is a very useful book.",
+                    "The internet is useful for studying."
+                ]
+            }
+        ],
+        "comparative": "more useful",
+        "superlative": "the most useful",
+        "subtext": "very useful, useful information"
+    },
+    {
+        "word": "nationality",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🏳️",
+        "form": "noun",
+        "plural": "nationalities",
+        "transcription": "[ˌnæʃəˈnæləti]",
+        "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "The legal right of belonging to a particular nation.",
+                "examples": [
+                    "What is your nationality?",
+                    "She has dual nationality."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "British nationality, dual nationality"
+    },
+    {
+        "word": "occupation",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "plural": "occupations",
+        "transcription": "[ˌɒkjuˈpeɪʃn]",
+        "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "A person's job or profession.",
+                "examples": [
+                    "Please state your occupation.",
+                    "He is a teacher by occupation."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "current occupation, professional occupation"
+    },
+    {
+        "word": "about",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "On the subject of; or approximately.",
+                "examples": [
+                    "A book about animals.",
+                    "It is about six o'clock."
+                ]
+            }
+        ],
+        "emoji": "📖",
+        "transcription": "[əˈbaʊt]"
+    },
+    {
+        "word": "around",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "In a circle or in various places.",
+                "examples": [
+                    "We sat around the table.",
+                    "Walk around the city."
+                ]
+            }
+        ],
+        "emoji": "⭕",
+        "transcription": "[əˈraʊnd]"
+    },
+    {
+        "word": "by",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "Used to show how someone travels or how something is done.",
+                "examples": [
+                    "I go to work by bus.",
+                    "He is standing by the door."
+                ]
+            }
+        ],
+        "emoji": "🚌",
+        "transcription": "[baɪ]"
+    },
+    {
+        "word": "of",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "Belonging to or connected with.",
+                "examples": [
+                    "The capital of England.",
+                    "A cup of tea."
+                ]
+            }
+        ],
+        "emoji": "🔗",
+        "transcription": "[ɒv]"
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -26,8 +26,6 @@
         "group": "irregular",
         "opposite": "become"
     },
-
-
     {
         "word": "have",
         "level": "starter",
@@ -54,8 +52,6 @@
         "group": "irregular",
         "opposite": "need"
     },
-
-
     {
         "word": "feel",
         "level": "starter",
@@ -80,8 +76,6 @@
         "group": "irregular",
         "opposite": "act"
     },
-
-
     {
         "word": "give",
         "level": "starter",
@@ -108,8 +102,6 @@
         "v3": "given",
         "group": "irregular"
     },
-
-
     {
         "word": "take",
         "level": "starter",
@@ -136,8 +128,6 @@
         "v3": "taken",
         "group": "irregular"
     },
-
-
     {
         "word": "get",
         "level": "starter",
@@ -163,8 +153,6 @@
         "v3": "got / gotten",
         "group": "irregular"
     },
-
-
     {
         "word": "put",
         "level": "starter",
@@ -189,8 +177,6 @@
         "v3": "put",
         "group": "irregular"
     },
-
-
     {
         "word": "make",
         "level": "starter",
@@ -214,8 +200,6 @@
         "group": "irregular",
         "opposite": "destroy"
     },
-
-
     {
         "word": "do",
         "level": "starter",
@@ -239,8 +223,6 @@
         "group": "irregular",
         "opposite": "undo"
     },
-
-
     {
         "word": "use",
         "level": "starter",
@@ -264,8 +246,6 @@
         "group": "regular",
         "opposite": "waste"
     },
-
-
     {
         "word": "open",
         "level": "starter",
@@ -290,8 +270,6 @@
         "v3": "opened",
         "group": "regular"
     },
-
-
     {
         "word": "close",
         "level": "starter",
@@ -316,8 +294,6 @@
         "v3": "closed",
         "group": "regular"
     },
-
-
     {
         "word": "start",
         "level": "starter",
@@ -341,8 +317,6 @@
         "v3": "started",
         "group": "regular"
     },
-
-
     {
         "word": "finish",
         "level": "starter",
@@ -366,8 +340,6 @@
         "v3": "finished",
         "group": "regular"
     },
-
-
     {
         "word": "help",
         "level": "starter",
@@ -390,8 +362,6 @@
         "group": "regular",
         "opposite": "hinder"
     },
-
-
     {
         "word": "try",
         "level": "starter",
@@ -414,8 +384,6 @@
         "group": "regular",
         "opposite": "give up"
     },
-
-
     {
         "word": "show",
         "level": "starter",
@@ -439,8 +407,6 @@
         "v3": "shown",
         "group": "irregular"
     },
-
-
     {
         "word": "find",
         "level": "starter",
@@ -465,8 +431,6 @@
         "v3": "found",
         "group": "irregular"
     },
-
-
     {
         "word": "keep",
         "level": "starter",
@@ -490,8 +454,6 @@
         "group": "irregular",
         "opposite": "give away"
     },
-
-
     {
         "word": "lose",
         "level": "starter",
@@ -516,8 +478,6 @@
         "v3": "lost",
         "group": "irregular"
     },
-
-
     {
         "word": "cut",
         "level": "starter",
@@ -541,8 +501,6 @@
         "group": "irregular",
         "opposite": "join"
     },
-
-
     {
         "word": "turn",
         "level": "starter",
@@ -566,8 +524,6 @@
         "group": "regular",
         "opposite": "straighten"
     },
-
-
     {
         "word": "bring",
         "level": "starter",
@@ -592,8 +548,6 @@
         "v3": "brought",
         "group": "irregular"
     },
-
-
     {
         "word": "say",
         "level": "starter",
@@ -617,8 +571,6 @@
         "group": "irregular",
         "opposite": "listen"
     },
-
-
     {
         "word": "tell",
         "level": "starter",
@@ -641,8 +593,6 @@
         "group": "irregular",
         "opposite": "ask"
     },
-
-
     {
         "word": "ask",
         "level": "starter",
@@ -666,8 +616,6 @@
         "v3": "asked",
         "group": "regular"
     },
-
-
     {
         "word": "speak",
         "level": "starter",
@@ -691,8 +639,6 @@
         "group": "irregular",
         "opposite": "be silent"
     },
-
-
     {
         "word": "talk",
         "level": "starter",
@@ -715,8 +661,6 @@
         "group": "regular",
         "opposite": "listen"
     },
-
-
     {
         "word": "call",
         "level": "starter",
@@ -739,8 +683,6 @@
         "group": "regular",
         "opposite": "hang up"
     },
-
-
     {
         "word": "write",
         "level": "starter",
@@ -765,8 +707,6 @@
         "v3": "written",
         "group": "irregular"
     },
-
-
     {
         "word": "read",
         "level": "starter",
@@ -791,8 +731,6 @@
         "v3": "read",
         "group": "irregular"
     },
-
-
     {
         "word": "listen",
         "level": "starter",
@@ -816,8 +754,6 @@
         "group": "regular",
         "opposite": "say"
     },
-
-
     {
         "word": "answer",
         "level": "starter",
@@ -842,8 +778,6 @@
         "v3": "answered",
         "group": "regular"
     },
-
-
     {
         "word": "repeat",
         "level": "starter",
@@ -867,8 +801,6 @@
         "group": "regular",
         "opposite": "change"
     },
-
-
     {
         "word": "go",
         "level": "starter",
@@ -891,10 +823,10 @@
         "aspect": "action",
         "v2": "went",
         "v3": "gone",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "[ɡəʊ]",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "come",
         "level": "starter",
@@ -917,10 +849,10 @@
         "aspect": "action",
         "v2": "came",
         "v3": "come",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "[kʌm]",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80"
     },
-
-
     {
         "word": "walk",
         "level": "starter",
@@ -945,8 +877,6 @@
         "v3": "walked",
         "group": "regular"
     },
-
-
     {
         "word": "drive",
         "level": "starter",
@@ -970,8 +900,6 @@
         "group": "irregular",
         "opposite": "walk"
     },
-
-
     {
         "word": "fly",
         "level": "starter",
@@ -995,8 +923,6 @@
         "group": "irregular",
         "opposite": "land"
     },
-
-
     {
         "word": "arrive",
         "level": "starter",
@@ -1020,8 +946,6 @@
         "v3": "arrived",
         "group": "regular"
     },
-
-
     {
         "word": "leave",
         "level": "starter",
@@ -1045,8 +969,6 @@
         "v3": "left",
         "group": "irregular"
     },
-
-
     {
         "word": "move",
         "level": "starter",
@@ -1069,8 +991,6 @@
         "group": "regular",
         "opposite": "stay"
     },
-
-
     {
         "word": "return",
         "level": "starter",
@@ -1094,8 +1014,6 @@
         "group": "regular",
         "opposite": "leave"
     },
-
-
     {
         "word": "travel",
         "level": "starter",
@@ -1118,8 +1036,6 @@
         "group": "regular",
         "opposite": "stay"
     },
-
-
     {
         "word": "eat",
         "level": "starter",
@@ -1144,8 +1060,6 @@
         "v3": "eaten",
         "group": "irregular"
     },
-
-
     {
         "word": "drink",
         "level": "starter",
@@ -1170,8 +1084,6 @@
         "v3": "drunk",
         "group": "irregular"
     },
-
-
     {
         "word": "sleep",
         "level": "starter",
@@ -1196,8 +1108,6 @@
         "v3": "slept",
         "group": "irregular"
     },
-
-
     {
         "word": "cook",
         "level": "starter",
@@ -1220,8 +1130,6 @@
         "group": "regular",
         "opposite": "eat"
     },
-
-
     {
         "word": "clean",
         "level": "starter",
@@ -1244,8 +1152,6 @@
         "group": "regular",
         "opposite": "dirty"
     },
-
-
     {
         "word": "wear",
         "level": "starter",
@@ -1269,8 +1175,6 @@
         "group": "irregular",
         "opposite": "undress"
     },
-
-
     {
         "word": "wash",
         "level": "starter",
@@ -1294,8 +1198,6 @@
         "group": "regular",
         "opposite": "dirty"
     },
-
-
     {
         "word": "buy",
         "level": "starter",
@@ -1320,8 +1222,6 @@
         "v3": "bought",
         "group": "irregular"
     },
-
-
     {
         "word": "pay",
         "level": "starter",
@@ -1344,8 +1244,6 @@
         "group": "irregular",
         "opposite": "receive"
     },
-
-
     {
         "word": "spend",
         "level": "starter",
@@ -1369,8 +1267,6 @@
         "v3": "spent",
         "group": "irregular"
     },
-
-
     {
         "word": "save",
         "level": "starter",
@@ -1394,8 +1290,6 @@
         "v3": "saved",
         "group": "regular"
     },
-
-
     {
         "word": "work",
         "level": "starter",
@@ -1419,8 +1313,6 @@
         "v3": "worked",
         "group": "regular"
     },
-
-
     {
         "word": "live",
         "level": "starter",
@@ -1445,8 +1337,6 @@
         "v3": "lived",
         "group": "regular"
     },
-
-
     {
         "word": "think",
         "level": "starter",
@@ -1470,8 +1360,6 @@
         "group": "irregular",
         "opposite": "feel"
     },
-
-
     {
         "word": "know",
         "level": "starter",
@@ -1496,8 +1384,6 @@
         "group": "irregular",
         "opposite": "wonder"
     },
-
-
     {
         "word": "want",
         "level": "starter",
@@ -1522,8 +1408,6 @@
         "group": "regular",
         "opposite": "refuse"
     },
-
-
     {
         "word": "need",
         "level": "starter",
@@ -1548,8 +1432,6 @@
         "group": "regular",
         "opposite": "have"
     },
-
-
     {
         "word": "like",
         "level": "starter",
@@ -1575,8 +1457,6 @@
         "v3": "liked",
         "group": "regular"
     },
-
-
     {
         "word": "dislike",
         "level": "starter",
@@ -1600,8 +1480,6 @@
         "v3": "disliked",
         "group": "regular"
     },
-
-
     {
         "word": "love",
         "level": "starter",
@@ -1626,8 +1504,6 @@
         "v3": "loved",
         "group": "regular"
     },
-
-
     {
         "word": "hate",
         "level": "starter",
@@ -1652,8 +1528,6 @@
         "v3": "hated",
         "group": "regular"
     },
-
-
     {
         "word": "hope",
         "level": "starter",
@@ -1677,8 +1551,6 @@
         "group": "regular",
         "opposite": "fear"
     },
-
-
     {
         "word": "remember",
         "level": "starter",
@@ -1703,8 +1575,6 @@
         "v3": "remembered",
         "group": "regular"
     },
-
-
     {
         "word": "forget",
         "level": "starter",
@@ -1729,8 +1599,6 @@
         "v3": "forgotten",
         "group": "irregular"
     },
-
-
     {
         "word": "understand",
         "level": "starter",
@@ -1754,15 +1622,15 @@
         "group": "irregular",
         "opposite": "misunderstand"
     },
-
-
     {
         "word": "decide",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decide to do / decide on / hard to decide",
-        "synonyms": ["make a decision"],
+        "synonyms": [
+            "make a decision"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1780,8 +1648,6 @@
         "group": "regular",
         "opposite": "hesitate"
     },
-
-
     {
         "word": "enjoy",
         "level": "starter",
@@ -1804,8 +1670,6 @@
         "group": "regular",
         "opposite": "hate"
     },
-
-
     {
         "word": "see",
         "level": "starter",
@@ -1829,8 +1693,6 @@
         "group": "irregular",
         "opposite": "blind"
     },
-
-
     {
         "word": "hear",
         "level": "starter",
@@ -1854,8 +1716,6 @@
         "group": "irregular",
         "opposite": "ignore"
     },
-
-
     {
         "word": "wake up",
         "level": "starter",
@@ -1879,8 +1739,6 @@
         "v3": "woken up",
         "group": "irregular"
     },
-
-
     {
         "word": "watch",
         "level": "starter",
@@ -1903,8 +1761,6 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
-
     {
         "word": "look",
         "level": "starter",
@@ -1928,8 +1784,6 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
-
     {
         "word": "play",
         "level": "starter",
@@ -1952,8 +1806,6 @@
         "group": "regular",
         "opposite": "work"
     },
-
-
     {
         "word": "run",
         "level": "starter",
@@ -1978,8 +1830,6 @@
         "v3": "run",
         "group": "irregular"
     },
-
-
     {
         "word": "sit",
         "level": "starter",
@@ -2003,8 +1853,6 @@
         "v3": "sat",
         "group": "irregular"
     },
-
-
     {
         "word": "stand",
         "level": "starter",
@@ -2028,8 +1876,6 @@
         "v3": "stood",
         "group": "irregular"
     },
-
-
     {
         "word": "meet",
         "level": "starter",
@@ -2052,8 +1898,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "learn",
         "level": "starter",
@@ -2077,8 +1921,6 @@
         "v3": "learned / learnt",
         "group": "both"
     },
-
-
     {
         "word": "change",
         "level": "starter",
@@ -2101,8 +1943,6 @@
         "group": "regular",
         "opposite": "stay"
     },
-
-
     {
         "word": "stop",
         "level": "starter",
@@ -2126,8 +1966,6 @@
         "v3": "stopped",
         "group": "regular"
     },
-
-
     {
         "word": "add",
         "level": "starter",
@@ -2152,15 +1990,15 @@
         "v3": "added",
         "group": "regular"
     },
-
-
     {
         "word": "subtract",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➖",
         "subtext": "subtract from",
-        "synonyms": ["minus"],
+        "synonyms": [
+            "minus"
+        ],
         "opposite": "add",
         "oppositeEmoji": "➕",
         "form": "verb",
@@ -2178,8 +2016,6 @@
         "v3": "subtracted",
         "group": "regular"
     },
-
-
     {
         "word": "win",
         "level": "starter",
@@ -2203,8 +2039,6 @@
         "v3": "won",
         "group": "irregular"
     },
-
-
     {
         "word": "wait",
         "level": "starter",
@@ -2227,8 +2061,6 @@
         "group": "regular",
         "opposite": "act"
     },
-
-
     {
         "word": "die",
         "level": "starter",
@@ -2252,8 +2084,6 @@
         "v3": "died",
         "group": "regular"
     },
-
-
     {
         "word": "send",
         "level": "starter",
@@ -2277,8 +2107,6 @@
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "irregular"
     },
-
-
     {
         "word": "stay",
         "level": "starter",
@@ -2303,8 +2131,6 @@
         "v3": "stayed",
         "group": "regular"
     },
-
-
     {
         "word": "fall",
         "level": "starter",
@@ -2329,8 +2155,6 @@
         "v3": "fallen",
         "group": "irregular"
     },
-
-
     {
         "word": "rise",
         "level": "starter",
@@ -2355,8 +2179,6 @@
         "v3": "risen",
         "group": "irregular"
     },
-
-
     {
         "word": "pass",
         "level": "starter",
@@ -2381,15 +2203,15 @@
         "v3": "passed",
         "group": "regular"
     },
-
-
     {
         "word": "sell",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "sell products / sell online / sell at the market",
-        "synonyms": ["best seller"],
+        "synonyms": [
+            "best seller"
+        ],
         "opposite": "buy",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2407,8 +2229,6 @@
         "v3": "sold",
         "group": "irregular"
     },
-
-
     {
         "word": "pull",
         "level": "starter",
@@ -2432,8 +2252,6 @@
         "v3": "pulled",
         "group": "regular"
     },
-
-
     {
         "word": "push",
         "level": "starter",
@@ -2458,8 +2276,6 @@
         "v3": "pushed",
         "group": "regular"
     },
-
-
     {
         "word": "carry",
         "level": "starter",
@@ -2482,8 +2298,6 @@
         "group": "regular",
         "opposite": "drop"
     },
-
-
     {
         "word": "break",
         "level": "starter",
@@ -2507,8 +2321,6 @@
         "group": "irregular",
         "opposite": "fix"
     },
-
-
     {
         "word": "receive",
         "level": "starter",
@@ -2533,8 +2345,6 @@
         "v3": "received",
         "group": "regular"
     },
-
-
     {
         "word": "agree",
         "level": "starter",
@@ -2559,8 +2369,6 @@
         "v3": "agreed",
         "group": "regular"
     },
-
-
     {
         "word": "draw",
         "level": "starter",
@@ -2584,8 +2392,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "share",
         "level": "starter",
@@ -2609,8 +2415,6 @@
         "group": "regular",
         "opposite": "keep"
     },
-
-
     {
         "word": "smile",
         "level": "starter",
@@ -2635,15 +2439,15 @@
         "v3": "smiled",
         "group": "regular"
     },
-
-
     {
         "word": "cry",
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "cry for help / cry out / cry about something",
-        "synonyms": ["start crying"],
+        "synonyms": [
+            "start crying"
+        ],
         "opposite": "smile",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2662,15 +2466,15 @@
         "v3": "cried",
         "group": "regular"
     },
-
-
     {
         "word": "dance",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "dance to music / dance together / slow dance",
-        "synonyms": ["go dancing"],
+        "synonyms": [
+            "go dancing"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2688,15 +2492,15 @@
         "group": "regular",
         "opposite": "sit"
     },
-
-
     {
         "word": "sing",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "sing a song / sing along / sing well",
-        "synonyms": ["lead singer"],
+        "synonyms": [
+            "lead singer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2714,8 +2518,6 @@
         "group": "irregular",
         "opposite": "be quiet"
     },
-
-
     {
         "word": "jump",
         "level": "starter",
@@ -2739,15 +2541,15 @@
         "group": "regular",
         "opposite": "fall"
     },
-
-
     {
         "word": "swim",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "swim across / swim laps / swim well",
-        "synonyms": ["go swimming"],
+        "synonyms": [
+            "go swimming"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2765,8 +2567,6 @@
         "group": "irregular",
         "opposite": "sink"
     },
-
-
     {
         "word": "study",
         "level": "starter",
@@ -2789,8 +2589,6 @@
         "group": "regular",
         "opposite": "play"
     },
-
-
     {
         "word": "teach",
         "level": "starter",
@@ -2813,8 +2611,6 @@
         "group": "irregular",
         "opposite": "learn"
     },
-
-
     {
         "word": "rent",
         "level": "starter",
@@ -2837,8 +2633,6 @@
         "group": "regular",
         "opposite": "own"
     },
-
-
     {
         "word": "exercise",
         "level": "starter",
@@ -2861,8 +2655,6 @@
         "group": "regular",
         "opposite": "rest"
     },
-
-
     {
         "word": "cost",
         "level": "starter",
@@ -2884,8 +2676,6 @@
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "irregular"
     },
-
-
     {
         "word": "invite",
         "level": "starter",
@@ -2908,8 +2698,6 @@
         "group": "regular",
         "opposite": "reject"
     },
-
-
     {
         "word": "get up",
         "definitions": [
@@ -2932,8 +2720,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "have breakfast",
         "definitions": [
@@ -2945,7 +2731,9 @@
             }
         ],
         "subtext": "have breakfast at home / have a quick breakfast",
-        "synonyms": ["skip breakfast"],
+        "synonyms": [
+            "skip breakfast"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "had breakfast",
@@ -2957,8 +2745,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "come back",
         "definitions": [
@@ -2981,8 +2767,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "go to bed",
         "definitions": [
@@ -3005,8 +2789,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "check",
         "definitions": [
@@ -3029,8 +2811,6 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
-
     {
         "word": "unpack",
         "level": "starter",
@@ -3054,8 +2834,6 @@
         "v3": "unpacked",
         "group": "regular"
     },
-
-
     {
         "word": "reply",
         "definitions": [
@@ -3078,8 +2856,6 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
-
     {
         "word": "present",
         "definitions": [
@@ -3102,8 +2878,6 @@
         "group": "regular",
         "opposite": "hide"
     },
-
-
     {
         "word": "attend",
         "definitions": [
@@ -3126,8 +2900,6 @@
         "group": "regular",
         "opposite": "miss"
     },
-
-
     {
         "word": "manage",
         "definitions": [
@@ -3150,8 +2922,6 @@
         "group": "regular",
         "opposite": "follow"
     },
-
-
     {
         "word": "earn",
         "definitions": [
@@ -3174,8 +2944,6 @@
         "group": "regular",
         "opposite": "spend"
     },
-
-
     {
         "word": "visit",
         "definitions": [
@@ -3198,8 +2966,6 @@
         "group": "regular",
         "opposite": "leave"
     },
-
-
     {
         "word": "celebrate",
         "definitions": [
@@ -3222,8 +2988,6 @@
         "group": "regular",
         "opposite": "mourn"
     },
-
-
     {
         "word": "hurt",
         "definitions": [
@@ -3246,8 +3010,6 @@
         "group": "irregular",
         "opposite": "heal"
     },
-
-
     {
         "word": "rest",
         "definitions": [
@@ -3270,8 +3032,6 @@
         "group": "regular",
         "opposite": "exercise"
     },
-
-
     {
         "word": "book",
         "definitions": [
@@ -3294,8 +3054,6 @@
         "group": "regular",
         "opposite": "cancel"
     },
-
-
     {
         "word": "pack",
         "definitions": [
@@ -3319,8 +3077,6 @@
         "form": "verb",
         "group": "regular"
     },
-
-
     {
         "word": "cancel",
         "definitions": [
@@ -3343,8 +3099,6 @@
         "group": "regular",
         "opposite": "book"
     },
-
-
     {
         "word": "miss",
         "definitions": [
@@ -3367,8 +3121,6 @@
         "group": "regular",
         "opposite": "attend"
     },
-
-
     {
         "word": "order",
         "level": "starter",
@@ -3391,8 +3143,6 @@
         "group": "regular",
         "opposite": "deliver"
     },
-
-
     {
         "word": "thank",
         "level": "starter",
@@ -3415,8 +3165,6 @@
         "group": "regular",
         "opposite": "complain"
     },
-
-
     {
         "word": "introduce",
         "level": "starter",
@@ -3439,8 +3187,6 @@
         "group": "regular",
         "opposite": "hide"
     },
-
-
     {
         "word": "relax",
         "level": "starter",
@@ -3463,8 +3209,6 @@
         "group": "regular",
         "opposite": "work"
     },
-
-
     {
         "word": "mean",
         "level": "starter",
@@ -3487,8 +3231,6 @@
         "group": "irregular",
         "opposite": "nonsense"
     },
-
-
     {
         "word": "follow",
         "level": "starter",
@@ -3512,8 +3254,6 @@
         "v3": "followed",
         "group": "regular"
     },
-
-
     {
         "word": "grow",
         "level": "starter",
@@ -3536,8 +3276,6 @@
         "group": "irregular",
         "opposite": "shrink"
     },
-
-
     {
         "word": "become",
         "level": "starter",
@@ -3560,8 +3298,6 @@
         "group": "irregular",
         "opposite": "remain"
     },
-
-
     {
         "word": "choose",
         "level": "starter",
@@ -3584,8 +3320,6 @@
         "group": "irregular",
         "opposite": "reject"
     },
-
-
     {
         "word": "begin",
         "level": "starter",
@@ -3595,7 +3329,9 @@
         "opposite": "end",
         "oppositeEmoji": "🏁",
         "subtext": "begin a meeting / begin to work",
-        "synonyms": ["start"],
+        "synonyms": [
+            "start"
+        ],
         "definitions": [
             {
                 "text": "To start to do something.",
@@ -3610,8 +3346,6 @@
         "v3": "begun",
         "group": "irregular"
     },
-
-
     {
         "word": "end",
         "level": "starter",
@@ -3621,7 +3355,10 @@
         "opposite": "begin",
         "oppositeEmoji": "▶️",
         "subtext": "end a class / at the end",
-        "synonyms": ["finish", "stop"],
+        "synonyms": [
+            "finish",
+            "stop"
+        ],
         "definitions": [
             {
                 "text": "To finish; to stop.",
@@ -3636,8 +3373,6 @@
         "v3": "ended",
         "group": "regular"
     },
-
-
     {
         "word": "brush",
         "level": "starter",
@@ -3645,7 +3380,9 @@
         "emoji": "🪥",
         "form": "verb",
         "subtext": "brush your teeth",
-        "synonyms": ["hairbrush"],
+        "synonyms": [
+            "hairbrush"
+        ],
         "definitions": [
             {
                 "text": "To clean something with a brush.",
@@ -3661,8 +3398,6 @@
         "group": "regular",
         "opposite": "mess up"
     },
-
-
     {
         "word": "ride",
         "level": "starter",
@@ -3685,8 +3420,6 @@
         "group": "irregular",
         "opposite": "walk"
     },
-
-
     {
         "word": "believe",
         "level": "starter",
@@ -3694,7 +3427,10 @@
         "emoji": "🙏",
         "form": "verb",
         "subtext": "believe in / I believe so",
-        "synonyms": ["think", "trust"],
+        "synonyms": [
+            "think",
+            "trust"
+        ],
         "definitions": [
             {
                 "text": "To think that something is true.",
@@ -3710,8 +3446,6 @@
         "group": "regular",
         "opposite": "doubt"
     },
-
-
     {
         "word": "prefer",
         "level": "starter",
@@ -3734,8 +3468,6 @@
         "group": "regular",
         "opposite": "dislike"
     },
-
-
     {
         "word": "catch",
         "level": "starter",
@@ -3758,8 +3490,6 @@
         "group": "irregular",
         "opposite": "throw"
     },
-
-
     {
         "word": "fix",
         "level": "starter",
@@ -3767,7 +3497,9 @@
         "emoji": "🛠️",
         "form": "verb",
         "subtext": "fix a problem / fix a computer",
-        "synonyms": ["repair"],
+        "synonyms": [
+            "repair"
+        ],
         "definitions": [
             {
                 "text": "To repair something that is broken.",
@@ -3783,8 +3515,6 @@
         "group": "regular",
         "opposite": "break"
     },
-
-
     {
         "word": "plan",
         "level": "starter",
@@ -3792,7 +3522,9 @@
         "emoji": "📅",
         "form": "verb",
         "subtext": "plan a trip / plan for the future",
-        "synonyms": ["decide"],
+        "synonyms": [
+            "decide"
+        ],
         "definitions": [
             {
                 "text": "To decide what you are going to do.",
@@ -3808,8 +3540,6 @@
         "group": "regular",
         "opposite": "improvise"
     },
-
-
     {
         "word": "borrow",
         "level": "starter",
@@ -3832,8 +3562,6 @@
         "group": "regular",
         "opposite": "lend"
     },
-
-
     {
         "word": "smell",
         "level": "starter",
@@ -3841,7 +3569,9 @@
         "emoji": "👃",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
-        "synonyms": ["scent"],
+        "synonyms": [
+            "scent"
+        ],
         "definitions": [
             {
                 "text": "To notice or recognize something using your nose.",
@@ -3857,8 +3587,6 @@
         "group": "both",
         "opposite": "stink"
     },
-
-
     {
         "word": "taste",
         "level": "starter",
@@ -3866,7 +3594,9 @@
         "emoji": "👅",
         "form": "verb",
         "subtext": "taste good / have a taste",
-        "synonyms": ["flavor"],
+        "synonyms": [
+            "flavor"
+        ],
         "definitions": [
             {
                 "text": "To sense the flavor of something in your mouth.",
@@ -3882,8 +3612,6 @@
         "group": "regular",
         "opposite": "swallow"
     },
-
-
     {
         "word": "lie",
         "level": "starter",
@@ -3891,7 +3619,9 @@
         "emoji": "🛌",
         "form": "verb",
         "subtext": "lie down / lie on the bed",
-        "synonyms": ["recline"],
+        "synonyms": [
+            "recline"
+        ],
         "definitions": [
             {
                 "text": "To be in a horizontal position on a surface.",
@@ -3907,8 +3637,6 @@
         "group": "irregular",
         "opposite": "stand"
     },
-
-
     {
         "word": "laugh",
         "level": "starter",
@@ -3918,7 +3646,9 @@
         "opposite": "cry",
         "oppositeEmoji": "😢",
         "subtext": "laugh at / laugh together",
-        "synonyms": ["chuckle"],
+        "synonyms": [
+            "chuckle"
+        ],
         "definitions": [
             {
                 "text": "To make sounds with your voice because you think something is funny.",
@@ -3933,8 +3663,6 @@
         "v3": "laughed",
         "group": "regular"
     },
-
-
     {
         "word": "worry",
         "level": "starter",
@@ -3942,7 +3670,9 @@
         "emoji": "😟",
         "form": "verb",
         "subtext": "worry about / don't worry",
-        "synonyms": ["fret"],
+        "synonyms": [
+            "fret"
+        ],
         "definitions": [
             {
                 "text": "To think about problems or unpleasant things that might happen.",
@@ -3958,8 +3688,6 @@
         "group": "regular",
         "opposite": "relax"
     },
-
-
     {
         "word": "sound",
         "level": "starter",
@@ -3967,7 +3695,9 @@
         "emoji": "👂",
         "form": "verb",
         "subtext": "sound like / sound good",
-        "synonyms": ["seem"],
+        "synonyms": [
+            "seem"
+        ],
         "definitions": [
             {
                 "text": "To seem like something from what you have heard or read.",
@@ -3983,8 +3713,6 @@
         "group": "regular",
         "opposite": "silence"
     },
-
-
     {
         "word": "spell",
         "level": "starter",
@@ -3992,7 +3720,9 @@
         "emoji": "🔤",
         "form": "verb",
         "subtext": "spell your name / spell correctly",
-        "synonyms": ["lettering"],
+        "synonyms": [
+            "lettering"
+        ],
         "definitions": [
             {
                 "text": "To say or write the letters of a word in the correct order.",
@@ -4008,8 +3738,6 @@
         "group": "irregular",
         "opposite": "misspell"
     },
-
-
     {
         "word": "point",
         "level": "starter",
@@ -4017,7 +3745,9 @@
         "emoji": "☝️",
         "form": "verb",
         "subtext": "point to / point at",
-        "synonyms": ["indicate"],
+        "synonyms": [
+            "indicate"
+        ],
         "definitions": [
             {
                 "text": "To show something by holding out your finger towards it.",
@@ -4034,8 +3764,6 @@
         "group": "regular",
         "opposite": "hide"
     },
-
-
     {
         "word": "shout",
         "level": "starter",
@@ -4043,7 +3771,9 @@
         "emoji": "📢",
         "form": "verb",
         "subtext": "shout at / don't shout",
-        "synonyms": ["yell"],
+        "synonyms": [
+            "yell"
+        ],
         "definitions": [
             {
                 "text": "To say something very loudly.",
@@ -4059,8 +3789,6 @@
         "group": "regular",
         "opposite": "whisper"
     },
-
-
     {
         "word": "wave",
         "level": "starter",
@@ -4068,7 +3796,9 @@
         "emoji": "👋",
         "form": "verb",
         "subtext": "wave goodbye / wave hello",
-        "synonyms": ["greet"],
+        "synonyms": [
+            "greet"
+        ],
         "definitions": [
             {
                 "text": "To move your hand from side to side in the air to say hello or goodbye.",
@@ -4084,8 +3814,6 @@
         "group": "regular",
         "opposite": "ignore"
     },
-
-
     {
         "word": "kick",
         "level": "starter",
@@ -4093,7 +3821,9 @@
         "emoji": "🦶",
         "form": "verb",
         "subtext": "kick a ball / kick hard",
-        "synonyms": ["strike"],
+        "synonyms": [
+            "strike"
+        ],
         "definitions": [
             {
                 "text": "To hit something with your foot.",
@@ -4109,8 +3839,6 @@
         "group": "regular",
         "opposite": "catch"
     },
-
-
     {
         "word": "throw",
         "level": "starter",
@@ -4118,7 +3846,9 @@
         "emoji": "⚾",
         "form": "verb",
         "subtext": "throw a ball / throw away",
-        "synonyms": ["toss"],
+        "synonyms": [
+            "toss"
+        ],
         "definitions": [
             {
                 "text": "To make something move through the air by pushing it out of your hand.",
@@ -4134,8 +3864,6 @@
         "group": "irregular",
         "opposite": "catch"
     },
-
-
     {
         "word": "bounce",
         "level": "starter",
@@ -4143,7 +3871,10 @@
         "emoji": "🏀",
         "form": "verb",
         "subtext": "bounce a ball",
-        "synonyms": ["rebound", "bouncing"],
+        "synonyms": [
+            "rebound",
+            "bouncing"
+        ],
         "definitions": [
             {
                 "text": "To move up or away after hitting a surface.",
@@ -4159,8 +3890,6 @@
         "group": "regular",
         "opposite": "stop"
     },
-
-
     {
         "word": "paint",
         "level": "starter",
@@ -4168,7 +3897,10 @@
         "emoji": "🎨",
         "form": "verb",
         "subtext": "paint a picture",
-        "synonyms": ["color", "painting"],
+        "synonyms": [
+            "color",
+            "painting"
+        ],
         "definitions": [
             {
                 "text": "To make a picture using paint.",
@@ -4184,8 +3916,6 @@
         "group": "regular",
         "opposite": "erase"
     },
-
-
     {
         "word": "hop",
         "level": "starter",
@@ -4193,7 +3923,9 @@
         "emoji": "🐇",
         "form": "verb",
         "subtext": "hop around / hop like a rabbit",
-        "synonyms": ["jump"],
+        "synonyms": [
+            "jump"
+        ],
         "definitions": [
             {
                 "text": "To jump on one foot.",
@@ -4209,8 +3941,6 @@
         "group": "regular",
         "opposite": "walk"
     },
-
-
     {
         "word": "skip",
         "level": "starter",
@@ -4218,7 +3948,10 @@
         "emoji": "🏃",
         "form": "verb",
         "subtext": "skip rope",
-        "synonyms": ["jump", "skipping"],
+        "synonyms": [
+            "jump",
+            "skipping"
+        ],
         "definitions": [
             {
                 "text": "To move along by jumping from one foot to the other.",
@@ -4234,8 +3967,6 @@
         "group": "regular",
         "opposite": "walk"
     },
-
-
     {
         "word": "count",
         "level": "starter",
@@ -4243,7 +3974,9 @@
         "emoji": "🔢",
         "form": "verb",
         "subtext": "count to ten / count numbers",
-        "synonyms": ["calculate"],
+        "synonyms": [
+            "calculate"
+        ],
         "definitions": [
             {
                 "text": "To say numbers in order.",
@@ -4259,8 +3992,6 @@
         "group": "regular",
         "opposite": "estimate"
     },
-
-
     {
         "word": "tick",
         "level": "starter",
@@ -4268,7 +3999,9 @@
         "emoji": "✅",
         "form": "verb",
         "subtext": "tick the box / tick correctly",
-        "synonyms": ["check"],
+        "synonyms": [
+            "check"
+        ],
         "definitions": [
             {
                 "text": "To put a mark (✓) next to something to show it is correct.",
@@ -4284,8 +4017,6 @@
         "group": "regular",
         "opposite": "cross"
     },
-
-
     {
         "word": "cross",
         "level": "starter",
@@ -4293,7 +4024,9 @@
         "emoji": "❌",
         "form": "verb",
         "subtext": "cross out / cross the answer",
-        "synonyms": ["x-mark"],
+        "synonyms": [
+            "x-mark"
+        ],
         "definitions": [
             {
                 "text": "To put a mark (X) next to something to show it is wrong.",
@@ -4309,8 +4042,6 @@
         "group": "regular",
         "opposite": "tick"
     },
-
-
     {
         "word": "colour",
         "level": "starter",
@@ -4318,7 +4049,9 @@
         "emoji": "🖍️",
         "form": "verb",
         "subtext": "colour the picture / use colours",
-        "synonyms": ["color"],
+        "synonyms": [
+            "color"
+        ],
         "definitions": [
             {
                 "text": "To use a pen or pencil to put colour on a picture.",
@@ -4334,8 +4067,6 @@
         "group": "regular",
         "opposite": "erase"
     },
-
-
     {
         "word": "hold",
         "level": "starter",
@@ -4343,7 +4074,9 @@
         "emoji": "🤲",
         "form": "verb",
         "subtext": "hold my hand / hold on",
-        "synonyms": ["grip"],
+        "synonyms": [
+            "grip"
+        ],
         "definitions": [
             {
                 "text": "To have or keep something in your hand or arms.",
@@ -4360,8 +4093,6 @@
         "group": "irregular",
         "opposite": "drop"
     },
-
-
     {
         "word": "lead",
         "level": "starter",
@@ -4369,7 +4100,10 @@
         "emoji": "👤",
         "form": "verb",
         "subtext": "lead a team / follow the lead",
-        "synonyms": ["guide", "direct"],
+        "synonyms": [
+            "guide",
+            "direct"
+        ],
         "definitions": [
             {
                 "text": "To control a group of people, a country, or a situation.",
@@ -4385,8 +4119,6 @@
         "group": "irregular",
         "opposite": "follow"
     },
-
-
     {
         "word": "fight",
         "level": "starter",
@@ -4394,7 +4126,9 @@
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "fight for / a big fight",
-        "synonyms": ["battle"],
+        "synonyms": [
+            "battle"
+        ],
         "definitions": [
             {
                 "text": "To use physical force to try to hurt someone or win something.",
@@ -4410,8 +4144,6 @@
         "group": "irregular",
         "opposite": "make peace"
     },
-
-
     {
         "word": "hide",
         "level": "starter",
@@ -4435,8 +4167,6 @@
         "v3": "hidden",
         "group": "irregular"
     },
-
-
     {
         "word": "seek",
         "level": "starter",
@@ -4444,7 +4174,9 @@
         "emoji": "🔍",
         "form": "verb",
         "subtext": "hide and seek / seek help",
-        "synonyms": ["look for"],
+        "synonyms": [
+            "look for"
+        ],
         "definitions": [
             {
                 "text": "To try to find or get something.",
@@ -4460,8 +4192,6 @@
         "group": "irregular",
         "opposite": "hide"
     },
-
-
     {
         "word": "ring",
         "level": "starter",
@@ -4469,7 +4199,10 @@
         "emoji": "🔔",
         "form": "verb",
         "subtext": "ring a bell",
-        "synonyms": ["chime", "phone is ringing"],
+        "synonyms": [
+            "chime",
+            "phone is ringing"
+        ],
         "definitions": [
             {
                 "text": "To make a sound like a bell.",
@@ -4485,8 +4218,6 @@
         "group": "irregular",
         "opposite": "be silent"
     },
-
-
     {
         "word": "text",
         "level": "starter",
@@ -4494,7 +4225,9 @@
         "emoji": "📱",
         "form": "verb",
         "subtext": "text someone / send a text",
-        "synonyms": ["message"],
+        "synonyms": [
+            "message"
+        ],
         "definitions": [
             {
                 "text": "To send a message from a mobile phone.",
@@ -4510,8 +4243,6 @@
         "group": "regular",
         "opposite": "call"
     },
-
-
     {
         "word": "whisper",
         "level": "starter",
@@ -4519,7 +4250,10 @@
         "emoji": "🤫",
         "form": "verb",
         "subtext": "whisper a secret",
-        "synonyms": ["murmur", "speak softly"],
+        "synonyms": [
+            "murmur",
+            "speak softly"
+        ],
         "definitions": [
             {
                 "text": "To speak very quietly so that other people cannot hear you.",
@@ -4535,8 +4269,6 @@
         "group": "regular",
         "opposite": "shout"
     },
-
-
     {
         "word": "touch",
         "level": "starter",
@@ -4544,7 +4276,9 @@
         "emoji": "🫱",
         "form": "verb",
         "subtext": "don't touch / touch screen",
-        "synonyms": ["feel"],
+        "synonyms": [
+            "feel"
+        ],
         "definitions": [
             {
                 "text": "To put your hand or another part of your body on something.",
@@ -4560,8 +4294,6 @@
         "group": "regular",
         "opposite": null
     },
-
-
     {
         "word": "let",
         "level": "starter",
@@ -4585,8 +4317,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "set",
         "level": "starter",
@@ -4610,8 +4340,6 @@
         "group": "irregular",
         "opposite": null
     },
-
-
     {
         "word": "email",
         "level": "starter",
@@ -4634,8 +4362,6 @@
         "v3": "emailed",
         "group": "regular"
     },
-
-
     {
         "word": "phone",
         "level": "starter",
@@ -4659,8 +4385,6 @@
         "group": "regular",
         "opposite": "text"
     },
-
-
     {
         "word": "climb",
         "level": "starter",
@@ -4684,15 +4408,15 @@
         "group": "regular",
         "opposite": "descend"
     },
-
-
     {
         "word": "dress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👗",
         "subtext": "dress well / dress for work",
-        "synonyms": ["get dressed"],
+        "synonyms": [
+            "get dressed"
+        ],
         "opposite": "undress",
         "oppositeEmoji": "👕",
         "form": "verb",
@@ -4711,15 +4435,15 @@
         "v3": "dressed",
         "group": "regular"
     },
-
-
     {
         "word": "undress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👕",
         "subtext": "undress quickly",
-        "synonyms": ["get undressed"],
+        "synonyms": [
+            "get undressed"
+        ],
         "opposite": "dress",
         "oppositeEmoji": "👗",
         "form": "verb",
@@ -4738,8 +4462,6 @@
         "v3": "undressed",
         "group": "regular"
     },
-
-
     {
         "word": "turn on",
         "level": "starter",
@@ -4764,8 +4486,6 @@
         "v3": "turned on",
         "group": "regular"
     },
-
-
     {
         "word": "turn off",
         "level": "starter",
@@ -4790,8 +4510,6 @@
         "v3": "turned off",
         "group": "regular"
     },
-
-
     {
         "word": "welcome",
         "level": "starter",
@@ -4814,8 +4532,6 @@
         "group": "regular",
         "opposite": "reject"
     },
-
-
     {
         "word": "act",
         "level": "starter",
@@ -4838,8 +4554,6 @@
         "group": "regular",
         "opposite": "be natural"
     },
-
-
     {
         "word": "copy",
         "level": "starter",
@@ -4862,8 +4576,6 @@
         "group": "regular",
         "opposite": "original"
     },
-
-
     {
         "word": "fill",
         "level": "starter",
@@ -4886,8 +4598,6 @@
         "group": "regular",
         "opposite": "empty"
     },
-
-
     {
         "word": "fit",
         "level": "starter",
@@ -4910,8 +4620,6 @@
         "group": "regular",
         "opposite": "unfit"
     },
-
-
     {
         "word": "join",
         "level": "starter",
@@ -4934,8 +4642,6 @@
         "group": "regular",
         "opposite": "leave"
     },
-
-
     {
         "word": "note",
         "level": "starter",
@@ -4958,8 +4664,6 @@
         "group": "regular",
         "opposite": "forget"
     },
-
-
     {
         "word": "pick",
         "level": "starter",
@@ -4982,8 +4686,6 @@
         "group": "regular",
         "opposite": "drop"
     },
-
-
     {
         "word": "wish",
         "level": "starter",
@@ -5006,8 +4708,6 @@
         "group": "regular",
         "opposite": "fear"
     },
-
-
     {
         "word": "collect",
         "level": "starter",
@@ -5030,8 +4730,6 @@
         "group": "regular",
         "opposite": "scatter"
     },
-
-
     {
         "word": "describe",
         "level": "starter",
@@ -5054,8 +4752,6 @@
         "group": "regular",
         "opposite": "summarize"
     },
-
-
     {
         "word": "breathe",
         "level": "starter",
@@ -5076,10 +4772,11 @@
         "v3": "breathed",
         "group": "regular",
         "subtext": "",
-        "synonyms": ["inhale", "exhale"]
+        "synonyms": [
+            "inhale",
+            "exhale"
+        ]
     },
-
-
     {
         "word": "cough",
         "level": "starter",
@@ -5101,8 +4798,6 @@
         "group": "regular",
         "subtext": "have a cough"
     },
-
-
     {
         "word": "sneeze",
         "level": "starter",
@@ -5123,10 +4818,10 @@
         "v3": "sneezed",
         "group": "regular",
         "subtext": "",
-        "synonyms": ["atchoo!"]
+        "synonyms": [
+            "atchoo!"
+        ]
     },
-
-
     {
         "word": "yawn",
         "level": "starter",
@@ -5147,9 +4842,103 @@
         "v3": "yawned",
         "group": "regular",
         "subtext": "",
-        "synonyms": ["feel sleepy"]
+        "synonyms": [
+            "feel sleepy"
+        ]
+    },
+    {
+        "word": "explain",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🗣️",
+        "form": "verb",
+        "transcription": "[ɪkˈspleɪn]",
+        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To make something clear or easy to understand by describing or giving information about it.",
+                "examples": [
+                    "Can you explain this rule?",
+                    "The teacher explained the lesson."
+                ]
+            }
+        ],
+        "v2": "explained",
+        "v3": "explained",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "explain something to someone"
+    },
+    {
+        "word": "prepare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "transcription": "[prɪˈpeə(r)]",
+        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To get someone or something ready for something that will happen in the future.",
+                "examples": [
+                    "I need to prepare for my exam.",
+                    "She is preparing dinner."
+                ]
+            }
+        ],
+        "v2": "prepared",
+        "v3": "prepared",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "prepare for something"
+    },
+    {
+        "word": "depend",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "form": "verb",
+        "transcription": "[dɪˈpend]",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be decided by or to change according to something else.",
+                "examples": [
+                    "It depends on the weather.",
+                    "Our plans depend on your answer."
+                ]
+            }
+        ],
+        "v2": "depended",
+        "v3": "depended",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "depend ON someone/something"
+    },
+    {
+        "word": "belong",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🏠",
+        "form": "verb",
+        "transcription": "[bɪˈlɒŋ]",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "To be the property of someone.",
+                "examples": [
+                    "This book belongs to me.",
+                    "Who does this bag belong to?"
+                ]
+            }
+        ],
+        "v2": "belonged",
+        "v3": "belonged",
+        "classification": "regular",
+        "group": "regular",
+        "subtext": "belong TO someone/something"
     }
-    ];
+];
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

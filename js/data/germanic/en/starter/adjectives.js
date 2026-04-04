@@ -24,12 +24,13 @@
             }
         ],
         "subtext": "a tall building / a tall person / tall enough",
-        "synonyms": ["high", "lofty"],
+        "synonyms": [
+            "high",
+            "lofty"
+        ],
         "comparative": "taller",
         "superlative": "the tallest"
     },
-
-
     {
         "word": "short",
         "level": "starter",
@@ -54,12 +55,13 @@
             }
         ],
         "subtext": "a short journey / short hair / too short",
-        "synonyms": ["small", "brief"],
+        "synonyms": [
+            "small",
+            "brief"
+        ],
         "comparative": "shorter",
         "superlative": "the shortest"
     },
-
-
     {
         "word": "young",
         "level": "starter",
@@ -77,12 +79,12 @@
             }
         ],
         "subtext": "young person / young professional / young at heart",
-        "synonyms": ["youthful"],
+        "synonyms": [
+            "youthful"
+        ],
         "comparative": "younger",
         "superlative": "the youngest"
     },
-
-
     {
         "word": "old",
         "level": "starter",
@@ -106,12 +108,13 @@
             }
         ],
         "subtext": "old friend / old habits / very old",
-        "synonyms": ["elderly", "ancient"],
+        "synonyms": [
+            "elderly",
+            "ancient"
+        ],
         "comparative": "older",
         "superlative": "the oldest"
     },
-
-
     {
         "word": "sunny",
         "level": "starter",
@@ -130,12 +133,13 @@
             }
         ],
         "subtext": "sunny day / sunny weather / sunny spell",
-        "synonyms": ["bright", "clear"],
+        "synonyms": [
+            "bright",
+            "clear"
+        ],
         "comparative": "sunnier",
         "superlative": "the sunniest"
     },
-
-
     {
         "word": "rainy",
         "level": "starter",
@@ -154,12 +158,13 @@
             }
         ],
         "subtext": "rainy day / rainy weather / rainy season",
-        "synonyms": ["wet", "showery"],
+        "synonyms": [
+            "wet",
+            "showery"
+        ],
         "comparative": "rainier",
         "superlative": "the rainiest"
     },
-
-
     {
         "word": "hot",
         "level": "starter",
@@ -182,8 +187,6 @@
         "comparative": "hotter",
         "superlative": "the hottest"
     },
-
-
     {
         "word": "cold",
         "level": "starter",
@@ -211,8 +214,6 @@
         "comparative": "colder",
         "superlative": "the coldest"
     },
-
-
     {
         "word": "cheap",
         "level": "starter",
@@ -222,7 +223,10 @@
         "opposite": "expensive",
         "oppositeEmoji": "💎",
         "subtext": "cheap flight / very cheap / cheap and cheerful",
-        "synonyms": ["low price", "inexpensive"],
+        "synonyms": [
+            "low price",
+            "inexpensive"
+        ],
         "definitions": [
             {
                 "text": "Not expensive; low in price.",
@@ -240,8 +244,6 @@
         "comparative": "cheaper",
         "superlative": "the cheapest"
     },
-
-
     {
         "word": "expensive",
         "level": "starter",
@@ -251,7 +253,10 @@
         "opposite": "cheap",
         "oppositeEmoji": "🏷️",
         "subtext": "very expensive / expensive taste / too expensive",
-        "synonyms": ["costly", "high price"],
+        "synonyms": [
+            "costly",
+            "high price"
+        ],
         "definitions": [
             {
                 "text": "Costing a lot of money.",
@@ -269,8 +274,6 @@
         "comparative": "more expensive",
         "superlative": "the most expensive"
     },
-
-
     {
         "word": "good",
         "level": "starter",
@@ -280,7 +283,11 @@
         "opposite": "bad",
         "oppositeEmoji": "👎",
         "subtext": "good idea / good luck / good value",
-        "synonyms": ["great", "nice", "pleasant"],
+        "synonyms": [
+            "great",
+            "nice",
+            "pleasant"
+        ],
         "definitions": [
             {
                 "text": "Of high quality or ability; pleasant.",
@@ -298,8 +305,6 @@
         "comparative": "better",
         "superlative": "the best"
     },
-
-
     {
         "word": "bad",
         "level": "starter",
@@ -309,7 +314,11 @@
         "opposite": "good",
         "oppositeEmoji": "👍",
         "subtext": "bad news / bad luck / bad decision",
-        "synonyms": ["terrible", "awful", "unpleasant"],
+        "synonyms": [
+            "terrible",
+            "awful",
+            "unpleasant"
+        ],
         "definitions": [
             {
                 "text": "Not good; unpleasant or of poor quality.",
@@ -327,8 +336,6 @@
         "comparative": "worse",
         "superlative": "the worst"
     },
-
-
     {
         "word": "big",
         "level": "starter",
@@ -338,7 +345,10 @@
         "opposite": "small",
         "oppositeEmoji": "🐭",
         "subtext": "a big house / a big problem / big enough",
-        "synonyms": ["large", "huge"],
+        "synonyms": [
+            "large",
+            "huge"
+        ],
         "definitions": [
             {
                 "text": "Large in size.",
@@ -356,18 +366,19 @@
         "comparative": "bigger",
         "superlative": "the biggest"
     },
-
-
     {
         "word": "small",
         "level": "starter",
         "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "big",
+        "opposite": "large",
         "oppositeEmoji": "🐘",
         "subtext": "a small flat / a small salary / too small",
-        "synonyms": ["little", "tiny"],
+        "synonyms": [
+            "little",
+            "tiny"
+        ],
         "definitions": [
             {
                 "text": "Little in size.",
@@ -385,8 +396,6 @@
         "comparative": "smaller",
         "superlative": "the smallest"
     },
-
-
     {
         "word": "easy",
         "level": "starter",
@@ -408,8 +417,6 @@
         "comparative": "easier",
         "superlative": "the easiest"
     },
-
-
     {
         "word": "difficult",
         "level": "starter",
@@ -436,8 +443,6 @@
         "comparative": "more difficult",
         "superlative": "the most difficult"
     },
-
-
     {
         "word": "happy",
         "level": "starter",
@@ -447,7 +452,11 @@
         "opposite": "sad",
         "oppositeEmoji": "😢",
         "subtext": "feel happy / happy with something / a happy day",
-        "synonyms": ["glad", "joyful", "cheerful"],
+        "synonyms": [
+            "glad",
+            "joyful",
+            "cheerful"
+        ],
         "definitions": [
             {
                 "text": "Feeling pleasure or joy.",
@@ -465,8 +474,6 @@
         "comparative": "happier",
         "superlative": "the happiest"
     },
-
-
     {
         "word": "tired",
         "level": "starter",
@@ -488,8 +495,6 @@
         "comparative": "more tired",
         "superlative": "the most tired"
     },
-
-
     {
         "word": "full-time",
         "level": "starter",
@@ -510,8 +515,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "thirsty",
         "level": "starter",
@@ -529,12 +532,13 @@
             }
         ],
         "subtext": "feel thirsty",
-        "synonyms": ["parched", "dehydrated"],
+        "synonyms": [
+            "parched",
+            "dehydrated"
+        ],
         "comparative": "thirstier",
         "superlative": "the thirstiest"
     },
-
-
     {
         "word": "part-time",
         "level": "starter",
@@ -555,8 +559,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "clean",
         "level": "starter",
@@ -578,8 +580,6 @@
         "comparative": "cleaner",
         "superlative": "the cleanest"
     },
-
-
     {
         "word": "healthy",
         "level": "starter",
@@ -600,8 +600,6 @@
         "comparative": "healthier",
         "superlative": "the healthiest"
     },
-
-
     {
         "word": "unhealthy",
         "level": "starter",
@@ -611,7 +609,10 @@
         "opposite": "healthy",
         "oppositeEmoji": "🥗",
         "subtext": "unhealthy food / unhealthy lifestyle",
-        "synonyms": ["ill", "unfit"],
+        "synonyms": [
+            "ill",
+            "unfit"
+        ],
         "definitions": [
             {
                 "text": "Not good for your body; not healthy.",
@@ -623,8 +624,6 @@
         "comparative": "more unhealthy",
         "superlative": "the most unhealthy"
     },
-
-
     {
         "word": "ill",
         "level": "starter",
@@ -645,8 +644,6 @@
         "comparative": "more ill",
         "superlative": "the most ill"
     },
-
-
     {
         "word": "online",
         "level": "starter",
@@ -667,8 +664,6 @@
         "comparative": "more online",
         "superlative": "the most online"
     },
-
-
     {
         "word": "offline",
         "level": "starter",
@@ -678,7 +673,9 @@
         "opposite": "online",
         "oppositeEmoji": "🌐",
         "subtext": "work offline / go offline",
-        "synonyms": ["disconnected"],
+        "synonyms": [
+            "disconnected"
+        ],
         "definitions": [
             {
                 "text": "Not using or connected to the internet.",
@@ -690,8 +687,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "alone",
         "level": "starter",
@@ -712,8 +707,6 @@
         "comparative": "more alone",
         "superlative": "the most alone"
     },
-
-
     {
         "word": "relaxed",
         "level": "starter",
@@ -723,7 +716,11 @@
         "opposite": "stressed",
         "oppositeEmoji": "😫",
         "subtext": "feeling relaxed",
-        "synonyms": ["calm", "peaceful", "chilled"],
+        "synonyms": [
+            "calm",
+            "peaceful",
+            "chilled"
+        ],
         "definitions": [
             {
                 "text": "Calm; not worried or stressed.",
@@ -735,8 +732,6 @@
         "comparative": "more relaxed",
         "superlative": "the most relaxed"
     },
-
-
     {
         "word": "worried",
         "level": "starter",
@@ -746,7 +741,11 @@
         "opposite": "calm",
         "oppositeEmoji": "😌",
         "subtext": "worried about / deeply worried",
-        "synonyms": ["anxious", "nervous", "uneasy"],
+        "synonyms": [
+            "anxious",
+            "nervous",
+            "uneasy"
+        ],
         "definitions": [
             {
                 "text": "Feeling anxious about something that might happen.",
@@ -758,8 +757,6 @@
         "comparative": "more worried",
         "superlative": "the most worried"
     },
-
-
     {
         "word": "busy",
         "level": "starter",
@@ -786,8 +783,6 @@
         "comparative": "busier",
         "superlative": "the busiest"
     },
-
-
     {
         "word": "important",
         "level": "starter",
@@ -797,7 +792,9 @@
         "opposite": "unimportant",
         "oppositeEmoji": "🍃",
         "subtext": "important meeting / very important / most important",
-        "synonyms": ["essential"],
+        "synonyms": [
+            "essential"
+        ],
         "definitions": [
             {
                 "text": "Having great value or effect.",
@@ -815,8 +812,6 @@
         "comparative": "more important",
         "superlative": "the most important"
     },
-
-
     {
         "word": "unimportant",
         "level": "starter",
@@ -826,7 +821,10 @@
         "opposite": "important",
         "oppositeEmoji": "❗",
         "subtext": "unimportant detail / feel unimportant",
-        "synonyms": ["minor", "small"],
+        "synonyms": [
+            "minor",
+            "small"
+        ],
         "definitions": [
             {
                 "text": "Not having great value or effect.",
@@ -838,8 +836,6 @@
         "comparative": "more unimportant",
         "superlative": "the most unimportant"
     },
-
-
     {
         "word": "red",
         "level": "starter",
@@ -865,8 +861,6 @@
         "comparative": "redder",
         "superlative": "the reddest"
     },
-
-
     {
         "word": "blue",
         "level": "starter",
@@ -892,15 +886,13 @@
         "comparative": "bluer",
         "superlative": "the bluest"
     },
-
-
     {
         "word": "green",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "opposite": "red",
+        "opposite": "pink",
         "subtext": "bright green, dark green / green energy / green space / bright green",
         "definitions": [
             {
@@ -919,8 +911,6 @@
         "comparative": "greener",
         "superlative": "the greenest"
     },
-
-
     {
         "word": "white",
         "level": "starter",
@@ -947,8 +937,6 @@
         "comparative": "whiter",
         "superlative": "the whitest"
     },
-
-
     {
         "word": "black",
         "level": "starter",
@@ -975,8 +963,6 @@
         "comparative": "blacker",
         "superlative": "the blackest"
     },
-
-
     {
         "word": "yellow",
         "level": "starter",
@@ -1002,8 +988,6 @@
         "comparative": "yellower",
         "superlative": "the yellowest"
     },
-
-
     {
         "word": "free",
         "level": "starter",
@@ -1030,8 +1014,6 @@
         "comparative": "freer",
         "superlative": "the freest"
     },
-
-
     {
         "word": "open",
         "level": "starter",
@@ -1058,8 +1040,6 @@
         "comparative": "opener",
         "superlative": "the openest"
     },
-
-
     {
         "word": "closed",
         "level": "starter",
@@ -1081,8 +1061,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "large",
         "level": "starter",
@@ -1103,8 +1081,6 @@
         "superlative": "the largest",
         "emoji": "🐘"
     },
-
-
     {
         "word": "little",
         "level": "starter",
@@ -1125,8 +1101,6 @@
         "superlative": "the smallest",
         "emoji": "🐭"
     },
-
-
     {
         "word": "long",
         "level": "starter",
@@ -1147,8 +1121,6 @@
         "superlative": "the longest",
         "emoji": "📏"
     },
-
-
     {
         "word": "high",
         "level": "starter",
@@ -1169,8 +1141,6 @@
         "superlative": "the highest",
         "emoji": "🏔️"
     },
-
-
     {
         "word": "low",
         "level": "starter",
@@ -1191,8 +1161,6 @@
         "superlative": "the lowest",
         "emoji": "⬇️"
     },
-
-
     {
         "word": "full",
         "level": "starter",
@@ -1213,8 +1181,6 @@
         "superlative": "the fullest",
         "emoji": "🥛"
     },
-
-
     {
         "word": "empty",
         "level": "starter",
@@ -1235,8 +1201,6 @@
         "superlative": "the emptiest",
         "emoji": "🫙"
     },
-
-
     {
         "word": "warm",
         "level": "starter",
@@ -1257,8 +1221,6 @@
         "superlative": "the warmest",
         "emoji": "☀️"
     },
-
-
     {
         "word": "cool",
         "level": "starter",
@@ -1279,8 +1241,6 @@
         "superlative": "the coolest",
         "emoji": "🌬️"
     },
-
-
     {
         "word": "wet",
         "level": "starter",
@@ -1301,8 +1261,6 @@
         "superlative": "the wettest",
         "emoji": "💦"
     },
-
-
     {
         "word": "dry",
         "level": "starter",
@@ -1323,8 +1281,6 @@
         "superlative": "the dryest",
         "emoji": "🏜️"
     },
-
-
     {
         "word": "dirty",
         "level": "starter",
@@ -1345,8 +1301,6 @@
         "superlative": "the dirtiest",
         "emoji": "💩"
     },
-
-
     {
         "word": "hard",
         "level": "starter",
@@ -1354,7 +1308,11 @@
         "opposite": "soft",
         "oppositeEmoji": "☁️",
         "subtext": "hard work / a hard decision / too hard",
-        "synonyms": ["firm", "solid", "difficult"],
+        "synonyms": [
+            "firm",
+            "solid",
+            "difficult"
+        ],
         "definitions": [
             {
                 "text": "Firm and solid; difficult.",
@@ -1368,8 +1326,6 @@
         "superlative": "the hardest",
         "emoji": "🧱"
     },
-
-
     {
         "word": "soft",
         "level": "starter",
@@ -1377,7 +1333,10 @@
         "opposite": "hard",
         "oppositeEmoji": "🧱",
         "subtext": "soft light / soft music / soft skills",
-        "synonyms": ["gentle", "smooth"],
+        "synonyms": [
+            "gentle",
+            "smooth"
+        ],
         "definitions": [
             {
                 "text": "Not hard; gentle to the touch.",
@@ -1391,8 +1350,6 @@
         "superlative": "the softest",
         "emoji": "☁️"
     },
-
-
     {
         "word": "heavy",
         "level": "starter",
@@ -1400,7 +1357,9 @@
         "opposite": "light",
         "oppositeEmoji": "🪶",
         "subtext": "heavy traffic / heavy rain / too heavy",
-        "synonyms": ["weighty"],
+        "synonyms": [
+            "weighty"
+        ],
         "definitions": [
             {
                 "text": "Of great weight; difficult to carry.",
@@ -1414,8 +1373,6 @@
         "superlative": "the heaviest",
         "emoji": "🏋️"
     },
-
-
     {
         "word": "light",
         "level": "starter",
@@ -1423,7 +1380,10 @@
         "opposite": "heavy",
         "oppositeEmoji": "🐘",
         "subtext": "light rain / light traffic / a light meal",
-        "synonyms": ["not heavy", "pale"],
+        "synonyms": [
+            "not heavy",
+            "pale"
+        ],
         "definitions": [
             {
                 "text": "Not heavy; pale in colour.",
@@ -1437,8 +1397,6 @@
         "superlative": "the lightest",
         "emoji": "🪶"
     },
-
-
     {
         "word": "brown",
         "level": "starter",
@@ -1458,8 +1416,6 @@
         "superlative": "the brownest",
         "emoji": "🤎"
     },
-
-
     {
         "word": "grey",
         "level": "starter",
@@ -1479,8 +1435,6 @@
         "superlative": "the greyest",
         "emoji": "🩶"
     },
-
-
     {
         "word": "pink",
         "level": "starter",
@@ -1500,8 +1454,6 @@
         "superlative": "the pinkest",
         "emoji": "🩷"
     },
-
-
     {
         "word": "orange",
         "level": "starter",
@@ -1521,8 +1473,6 @@
         "superlative": "the most orange",
         "emoji": "🧡"
     },
-
-
     {
         "word": "great",
         "level": "starter",
@@ -1530,7 +1480,10 @@
         "opposite": "good",
         "oppositeEmoji": "😫",
         "subtext": "a great idea / a great opportunity / great value",
-        "synonyms": ["excellent", "big"],
+        "synonyms": [
+            "excellent",
+            "big"
+        ],
         "definitions": [
             {
                 "text": "Extremely good; large in amount.",
@@ -1544,8 +1497,6 @@
         "superlative": "the greatest",
         "emoji": "🌟"
     },
-
-
     {
         "word": "nice",
         "level": "starter",
@@ -1553,7 +1504,10 @@
         "opposite": "nasty",
         "oppositeEmoji": "😠",
         "subtext": "a nice day / a nice place / a nice person",
-        "synonyms": ["pleasant", "kind"],
+        "synonyms": [
+            "pleasant",
+            "kind"
+        ],
         "definitions": [
             {
                 "text": "Pleasant or kind.",
@@ -1567,8 +1521,6 @@
         "superlative": "the nicest",
         "emoji": "😊"
     },
-
-
     {
         "word": "wonderful",
         "level": "starter",
@@ -1576,7 +1528,10 @@
         "opposite": "awful",
         "oppositeEmoji": "🤮",
         "subtext": "a wonderful opportunity / a wonderful time",
-        "synonyms": ["amazing", "great"],
+        "synonyms": [
+            "amazing",
+            "great"
+        ],
         "definitions": [
             {
                 "text": "Extremely good; causing delight.",
@@ -1590,8 +1545,6 @@
         "superlative": "the most wonderful",
         "emoji": "🌈"
     },
-
-
     {
         "word": "terrible",
         "level": "starter",
@@ -1599,7 +1552,10 @@
         "opposite": "bad",
         "oppositeEmoji": "🌟",
         "subtext": "terrible weather / a terrible mistake / terrible news",
-        "synonyms": ["awful", "very bad"],
+        "synonyms": [
+            "awful",
+            "very bad"
+        ],
         "definitions": [
             {
                 "text": "Extremely bad.",
@@ -1613,16 +1569,17 @@
         "superlative": "the most terrible",
         "emoji": "🤮"
     },
-
-
     {
         "word": "awful",
         "level": "starter",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "wonderful",
         "oppositeEmoji": "🌈",
         "subtext": "awful weather / awful news / simply awful",
-        "synonyms": ["terrible", "very bad"],
+        "synonyms": [
+            "terrible",
+            "very bad"
+        ],
         "definitions": [
             {
                 "text": "Very bad or unpleasant.",
@@ -1636,8 +1593,6 @@
         "superlative": "the most awful",
         "emoji": "💩"
     },
-
-
     {
         "word": "amazing",
         "level": "starter",
@@ -1645,7 +1600,10 @@
         "opposite": "ordinary",
         "oppositeEmoji": "😐",
         "subtext": "an amazing result / an amazing offer / truly amazing",
-        "synonyms": ["wonderful", "fantastic"],
+        "synonyms": [
+            "wonderful",
+            "fantastic"
+        ],
         "definitions": [
             {
                 "text": "Causing great surprise or admiration.",
@@ -1659,8 +1617,6 @@
         "superlative": "the most amazing",
         "emoji": "🤩"
     },
-
-
     {
         "word": "fantastic",
         "level": "starter",
@@ -1668,7 +1624,10 @@
         "opposite": "good",
         "oppositeEmoji": "😫",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
-        "synonyms": ["excellent", "great"],
+        "synonyms": [
+            "excellent",
+            "great"
+        ],
         "definitions": [
             {
                 "text": "Extremely good.",
@@ -1682,8 +1641,6 @@
         "superlative": "the most fantastic",
         "emoji": "🔥"
     },
-
-
     {
         "word": "sad",
         "level": "starter",
@@ -1691,7 +1648,11 @@
         "opposite": "happy",
         "oppositeEmoji": "😊",
         "subtext": "feel sad / a sad situation / deeply sad",
-        "synonyms": ["unhappy", "miserable", "gloomy"],
+        "synonyms": [
+            "unhappy",
+            "miserable",
+            "gloomy"
+        ],
         "definitions": [
             {
                 "text": "Feeling unhappy or sorrowful.",
@@ -1705,8 +1666,6 @@
         "superlative": "the saddest",
         "emoji": "😢"
     },
-
-
     {
         "word": "hungry",
         "level": "starter",
@@ -1714,7 +1673,10 @@
         "opposite": null,
         "oppositeEmoji": "🤰",
         "subtext": "feel hungry / very hungry / go hungry",
-        "synonyms": ["starving", "famished"],
+        "synonyms": [
+            "starving",
+            "famished"
+        ],
         "definitions": [
             {
                 "text": "Needing food.",
@@ -1728,8 +1690,6 @@
         "superlative": "the hungriest",
         "emoji": "🍔"
     },
-
-
     {
         "word": "angry",
         "level": "starter",
@@ -1737,7 +1697,11 @@
         "opposite": "calm",
         "oppositeEmoji": "😌",
         "subtext": "feel angry / angry with someone / very angry",
-        "synonyms": ["mad", "furious", "annoyed"],
+        "synonyms": [
+            "mad",
+            "furious",
+            "annoyed"
+        ],
         "definitions": [
             {
                 "text": "Feeling strong displeasure.",
@@ -1751,8 +1715,6 @@
         "superlative": "the angriest",
         "emoji": "😠"
     },
-
-
     {
         "word": "bored",
         "level": "starter",
@@ -1760,7 +1722,10 @@
         "opposite": "interesting",
         "oppositeEmoji": "🧐",
         "subtext": "feel bored / bored with / easily bored",
-        "synonyms": ["uninterested", "weary"],
+        "synonyms": [
+            "uninterested",
+            "weary"
+        ],
         "definitions": [
             {
                 "text": "Feeling uninterested or restless.",
@@ -1774,8 +1739,6 @@
         "superlative": "the most bored",
         "emoji": "😴"
     },
-
-
     {
         "word": "excited",
         "level": "starter",
@@ -1796,8 +1759,6 @@
         "superlative": "the most excited",
         "emoji": "🤩"
     },
-
-
     {
         "word": "afraid",
         "level": "starter",
@@ -1805,7 +1766,11 @@
         "opposite": "brave",
         "oppositeEmoji": "🦁",
         "subtext": "afraid of / feel afraid / deeply afraid",
-        "synonyms": ["scared", "frightened", "terrified"],
+        "synonyms": [
+            "scared",
+            "frightened",
+            "terrified"
+        ],
         "definitions": [
             {
                 "text": "Feeling fear.",
@@ -1819,8 +1784,6 @@
         "superlative": "the most afraid",
         "emoji": "😨"
     },
-
-
     {
         "word": "sorry",
         "level": "starter",
@@ -1840,8 +1803,6 @@
         "superlative": "the sorriest",
         "emoji": "🙏"
     },
-
-
     {
         "word": "right",
         "level": "starter",
@@ -1867,8 +1828,6 @@
         "superlative": "the most right",
         "emoji": "✅"
     },
-
-
     {
         "word": "left",
         "level": "starter",
@@ -1889,8 +1848,6 @@
         "superlative": null,
         "emoji": "⬅️"
     },
-
-
     {
         "word": "wrong",
         "level": "starter",
@@ -1898,7 +1855,9 @@
         "opposite": "right",
         "oppositeEmoji": "✅",
         "subtext": "wrong answer / go wrong / completely wrong",
-        "synonyms": ["incorrect"],
+        "synonyms": [
+            "incorrect"
+        ],
         "definitions": [
             {
                 "text": "Not correct; not suitable.",
@@ -1912,8 +1871,6 @@
         "superlative": "the most wrong",
         "emoji": "❌"
     },
-
-
     {
         "word": "new",
         "level": "starter",
@@ -1921,7 +1878,10 @@
         "opposite": "old",
         "oppositeEmoji": "👴",
         "subtext": "new job / brand new / completely new",
-        "synonyms": ["modern", "recently made"],
+        "synonyms": [
+            "modern",
+            "recently made"
+        ],
         "definitions": [
             {
                 "text": "Not existing before; recently made.",
@@ -1935,8 +1895,6 @@
         "superlative": "the newest",
         "emoji": "🆕"
     },
-
-
     {
         "word": "different",
         "level": "starter",
@@ -1944,7 +1902,9 @@
         "opposite": "same",
         "oppositeEmoji": "👯",
         "subtext": "completely different / very different / different from",
-        "synonyms": ["not the same"],
+        "synonyms": [
+            "not the same"
+        ],
         "definitions": [
             {
                 "text": "Not the same as another.",
@@ -1958,16 +1918,16 @@
         "superlative": "the most different",
         "emoji": "🌓"
     },
-
-
     {
         "word": "same",
         "level": "starter",
         "form": "adjective",
-        "opposite": "different",
+        "opposite": "other",
         "oppositeEmoji": "🌓",
         "subtext": "the same as / exactly the same / same time",
-        "synonyms": ["identical"],
+        "synonyms": [
+            "identical"
+        ],
         "definitions": [
             {
                 "text": "Not different; identical.",
@@ -1981,8 +1941,6 @@
         "superlative": null,
         "emoji": "👯"
     },
-
-
     {
         "word": "fast",
         "level": "starter",
@@ -1990,7 +1948,10 @@
         "opposite": "slow",
         "oppositeEmoji": "🐢",
         "subtext": "fast food / fast train / very fast",
-        "synonyms": ["quick", "rapid"],
+        "synonyms": [
+            "quick",
+            "rapid"
+        ],
         "definitions": [
             {
                 "text": "Moving or happening quickly.",
@@ -2004,8 +1965,6 @@
         "superlative": "the fastest",
         "emoji": "🏎️"
     },
-
-
     {
         "word": "slow",
         "level": "starter",
@@ -2013,7 +1972,9 @@
         "opposite": "fast",
         "oppositeEmoji": "🏎️",
         "subtext": "slow progress / slow internet / very slow",
-        "synonyms": ["leisurely"],
+        "synonyms": [
+            "leisurely"
+        ],
         "definitions": [
             {
                 "text": "Not fast; taking a long time.",
@@ -2027,8 +1988,6 @@
         "superlative": "the slowest",
         "emoji": "🐢"
     },
-
-
     {
         "word": "quiet",
         "level": "starter",
@@ -2036,7 +1995,10 @@
         "opposite": "loud",
         "oppositeEmoji": "📢",
         "subtext": "quiet area / keep quiet / nice and quiet",
-        "synonyms": ["silent", "peaceful"],
+        "synonyms": [
+            "silent",
+            "peaceful"
+        ],
         "definitions": [
             {
                 "text": "Making little or no noise; peaceful.",
@@ -2050,8 +2012,6 @@
         "superlative": "the quietest",
         "emoji": "🤫"
     },
-
-
     {
         "word": "loud",
         "level": "starter",
@@ -2059,7 +2019,9 @@
         "opposite": "quiet",
         "oppositeEmoji": "🤫",
         "subtext": "loud noise / too loud / a loud voice",
-        "synonyms": ["noisy"],
+        "synonyms": [
+            "noisy"
+        ],
         "definitions": [
             {
                 "text": "Making a lot of noise.",
@@ -2073,8 +2035,6 @@
         "superlative": "the loudest",
         "emoji": "📢"
     },
-
-
     {
         "word": "safe",
         "level": "starter",
@@ -2082,7 +2042,9 @@
         "opposite": "dangerous",
         "oppositeEmoji": "🧨",
         "subtext": "safe area / safe to do / feel safe",
-        "synonyms": ["secure"],
+        "synonyms": [
+            "secure"
+        ],
         "definitions": [
             {
                 "text": "Not dangerous; protected from harm.",
@@ -2096,8 +2058,6 @@
         "superlative": "the safest",
         "emoji": "🛡️"
     },
-
-
     {
         "word": "dangerous",
         "level": "starter",
@@ -2105,7 +2065,9 @@
         "opposite": "safe",
         "oppositeEmoji": "🛡️",
         "subtext": "dangerous situation / very dangerous / potentially dangerous",
-        "synonyms": ["risky"],
+        "synonyms": [
+            "risky"
+        ],
         "definitions": [
             {
                 "text": "Likely to cause harm.",
@@ -2119,8 +2081,6 @@
         "superlative": "the most dangerous",
         "emoji": "🧨"
     },
-
-
     {
         "word": "unhappy",
         "level": "starter",
@@ -2129,7 +2089,10 @@
         "opposite": "happy",
         "oppositeEmoji": "😊",
         "subtext": "feel unhappy / very unhappy / unhappy about",
-        "synonyms": ["sad", "miserable"],
+        "synonyms": [
+            "sad",
+            "miserable"
+        ],
         "definitions": [
             {
                 "text": "Not feeling pleased; dissatisfied.",
@@ -2142,8 +2105,6 @@
         "superlative": "the unhappiest",
         "emoji": "😢"
     },
-
-
     {
         "word": "nervous",
         "level": "starter",
@@ -2152,7 +2113,10 @@
         "opposite": "confident",
         "oppositeEmoji": "🦁",
         "subtext": "feel nervous / nervous about / very nervous",
-        "synonyms": ["anxious", "worried"],
+        "synonyms": [
+            "anxious",
+            "worried"
+        ],
         "definitions": [
             {
                 "text": "Feeling anxious or uneasy.",
@@ -2165,8 +2129,6 @@
         "superlative": "the most nervous",
         "emoji": "😟"
     },
-
-
     {
         "word": "proud",
         "level": "starter",
@@ -2183,13 +2145,14 @@
             }
         ],
         "subtext": "feel proud / very proud / proud of",
-        "synonyms": ["pleased", "satisfied"],
+        "synonyms": [
+            "pleased",
+            "satisfied"
+        ],
         "comparative": "prouder",
         "superlative": "the proudest",
         "emoji": "🤳"
     },
-
-
     {
         "word": "scared",
         "level": "starter",
@@ -2206,13 +2169,14 @@
             }
         ],
         "subtext": "feel scared / scared of / very scared",
-        "synonyms": ["afraid", "frightened"],
+        "synonyms": [
+            "afraid",
+            "frightened"
+        ],
         "comparative": "more scared",
         "superlative": "the most scared",
         "emoji": "😨"
     },
-
-
     {
         "word": "surprised",
         "level": "starter",
@@ -2229,13 +2193,14 @@
             }
         ],
         "subtext": "feel surprised / very surprised / pleasantly surprised",
-        "synonyms": ["amazed", "astonished"],
+        "synonyms": [
+            "amazed",
+            "astonished"
+        ],
         "comparative": "more surprised",
         "superlative": "the most surprised",
         "emoji": "😲"
     },
-
-
     {
         "word": "disappointed",
         "level": "starter",
@@ -2252,13 +2217,14 @@
             }
         ],
         "subtext": "feel disappointed / deeply disappointed / disappointed with",
-        "synonyms": ["sad", "let down"],
+        "synonyms": [
+            "sad",
+            "let down"
+        ],
         "comparative": "more disappointed",
         "superlative": "the most disappointed",
         "emoji": "😞"
     },
-
-
     {
         "word": "beautiful",
         "level": "starter",
@@ -2279,8 +2245,6 @@
         "superlative": "the most beautiful",
         "emoji": "✨"
     },
-
-
     {
         "word": "pretty",
         "level": "starter",
@@ -2301,8 +2265,6 @@
         "superlative": "the prettiest",
         "emoji": "🌸"
     },
-
-
     {
         "word": "strong",
         "level": "starter",
@@ -2323,8 +2285,6 @@
         "superlative": "the strongest",
         "emoji": "🏋️"
     },
-
-
     {
         "word": "weak",
         "level": "starter",
@@ -2345,8 +2305,6 @@
         "superlative": "the weakest",
         "emoji": "🥀"
     },
-
-
     {
         "word": "fit",
         "level": "starter",
@@ -2363,13 +2321,14 @@
             }
         ],
         "subtext": "physically fit / stay fit / keep fit",
-        "synonyms": ["healthy", "in shape"],
+        "synonyms": [
+            "healthy",
+            "in shape"
+        ],
         "comparative": "fitter",
         "superlative": "the fittest",
         "emoji": "🏋️"
     },
-
-
     {
         "word": "unfit",
         "level": "starter",
@@ -2390,8 +2349,6 @@
         "comparative": "more unfit",
         "superlative": "the most unfit"
     },
-
-
     {
         "word": "perfect",
         "level": "starter",
@@ -2412,8 +2369,6 @@
         "superlative": "the most perfect",
         "emoji": "💯"
     },
-
-
     {
         "word": "correct",
         "level": "starter",
@@ -2434,8 +2389,6 @@
         "superlative": "the most correct",
         "emoji": "✅"
     },
-
-
     {
         "word": "interesting",
         "level": "starter",
@@ -2456,8 +2409,6 @@
         "superlative": "the most interesting",
         "emoji": "🧐"
     },
-
-
     {
         "word": "boring",
         "level": "starter",
@@ -2478,8 +2429,6 @@
         "superlative": "the most boring",
         "emoji": "😴"
     },
-
-
     {
         "word": "special",
         "level": "starter",
@@ -2500,8 +2449,6 @@
         "superlative": "the most special",
         "emoji": "💎"
     },
-
-
     {
         "word": "friendly",
         "level": "starter",
@@ -2518,13 +2465,14 @@
             }
         ],
         "subtext": "very friendly / a friendly face / friendly atmosphere",
-        "synonyms": ["kind", "pleasant"],
+        "synonyms": [
+            "kind",
+            "pleasant"
+        ],
         "comparative": "more friendly",
         "superlative": "the most friendly",
         "emoji": "👋"
     },
-
-
     {
         "word": "kind",
         "level": "starter",
@@ -2541,13 +2489,14 @@
             }
         ],
         "subtext": "very kind / kind of you / a kind person",
-        "synonyms": ["caring", "generous"],
+        "synonyms": [
+            "caring",
+            "generous"
+        ],
         "comparative": "kinder",
         "superlative": "the kindest",
         "emoji": "🤝"
     },
-
-
     {
         "word": "unkind",
         "level": "starter",
@@ -2557,7 +2506,10 @@
         "opposite": "kind",
         "oppositeEmoji": "🤝",
         "subtext": "unkind words / be unkind",
-        "synonyms": ["mean", "cruel"],
+        "synonyms": [
+            "mean",
+            "cruel"
+        ],
         "definitions": [
             {
                 "text": "Not kind; mean.",
@@ -2569,8 +2521,6 @@
         "comparative": "more unkind",
         "superlative": "the most unkind"
     },
-
-
     {
         "word": "funny",
         "level": "starter",
@@ -2587,13 +2537,14 @@
             }
         ],
         "subtext": "very funny / funny story / find funny",
-        "synonyms": ["humorous", "amusing"],
+        "synonyms": [
+            "humorous",
+            "amusing"
+        ],
         "comparative": "funnier",
         "superlative": "the funniest",
         "emoji": "😂"
     },
-
-
     {
         "word": "clever",
         "level": "starter",
@@ -2610,13 +2561,14 @@
             }
         ],
         "subtext": "very clever / a clever idea / clever enough",
-        "synonyms": ["intelligent", "smart"],
+        "synonyms": [
+            "intelligent",
+            "smart"
+        ],
         "comparative": "cleverer",
         "superlative": "the cleverest",
         "emoji": "🎓"
     },
-
-
     {
         "word": "polite",
         "level": "starter",
@@ -2633,13 +2585,13 @@
             }
         ],
         "subtext": "very polite / polite request / polite enough",
-        "synonyms": ["respectful"],
+        "synonyms": [
+            "respectful"
+        ],
         "comparative": "more polite",
         "superlative": "the most polite",
         "emoji": "🙏"
     },
-
-
     {
         "word": "rude",
         "level": "starter",
@@ -2656,19 +2608,20 @@
             }
         ],
         "subtext": "very rude / incredibly rude / deliberately rude",
-        "synonyms": ["impolite", "disrespectful"],
+        "synonyms": [
+            "impolite",
+            "disrespectful"
+        ],
         "comparative": "ruder",
         "superlative": "the rudest",
         "emoji": "😛"
     },
-
-
     {
         "word": "lazy",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": "active",
+        "opposite": "hardworking",
         "oppositeEmoji": "🐝",
         "definitions": [
             {
@@ -2679,13 +2632,13 @@
             }
         ],
         "subtext": "very lazy / a lazy approach / too lazy",
-        "synonyms": ["idle"],
+        "synonyms": [
+            "idle"
+        ],
         "comparative": "lazier",
         "superlative": "the laziest",
         "emoji": "🛋️"
     },
-
-
     {
         "word": "honest",
         "level": "starter",
@@ -2702,13 +2655,13 @@
             }
         ],
         "subtext": "very honest / brutally honest / completely honest",
-        "synonyms": ["truthful"],
+        "synonyms": [
+            "truthful"
+        ],
         "comparative": "more honest",
         "superlative": "the most honest",
         "emoji": "⚖️"
     },
-
-
     {
         "word": "noisy",
         "level": "starter",
@@ -2725,23 +2678,25 @@
             }
         ],
         "subtext": "very noisy / noisy environment / too noisy",
-        "synonyms": ["loud"],
+        "synonyms": [
+            "loud"
+        ],
         "comparative": "noisier",
         "superlative": "the noisiest",
         "emoji": "📢"
     },
-
-
     {
         "word": "round",
         "level": "starter",
         "theme": "size_shape_A1",
         "emoji": "⭕",
         "form": "adjective",
-        "opposite": "rectangular",
+        "opposite": "oval",
         "oppositeEmoji": "⬛",
         "subtext": "a round table / round shape",
-        "synonyms": ["circular"],
+        "synonyms": [
+            "circular"
+        ],
         "definitions": [
             {
                 "text": "Shaped like a circle.",
@@ -2753,8 +2708,6 @@
         "comparative": "rounder",
         "superlative": "the roundest"
     },
-
-
     {
         "word": "square",
         "level": "starter",
@@ -2764,7 +2717,9 @@
         "opposite": "triangular",
         "oppositeEmoji": "⭕",
         "subtext": "a square box / square shape",
-        "synonyms": ["four-sided"],
+        "synonyms": [
+            "four-sided"
+        ],
         "definitions": [
             {
                 "text": "Having four equal sides and four 90-degree angles.",
@@ -2776,8 +2731,6 @@
         "comparative": "squarer",
         "superlative": "the squarest"
     },
-
-
     {
         "word": "helpful",
         "level": "starter",
@@ -2787,7 +2740,10 @@
         "opposite": "unhelpful",
         "oppositeEmoji": "😠",
         "subtext": "very helpful / a helpful person",
-        "synonyms": ["useful", "kind"],
+        "synonyms": [
+            "useful",
+            "kind"
+        ],
         "definitions": [
             {
                 "text": "Willing to help other people.",
@@ -2799,8 +2755,6 @@
         "comparative": "more helpful",
         "superlative": "the most helpful"
     },
-
-
     {
         "word": "unhelpful",
         "level": "starter",
@@ -2810,7 +2764,9 @@
         "opposite": "helpful",
         "oppositeEmoji": "🤝",
         "subtext": "unhelpful advice / very unhelpful",
-        "synonyms": ["useless"],
+        "synonyms": [
+            "useless"
+        ],
         "definitions": [
             {
                 "text": "Not helping in a situation.",
@@ -2822,8 +2778,6 @@
         "comparative": "more unhelpful",
         "superlative": "the most unhelpful"
     },
-
-
     {
         "word": "patient",
         "level": "starter",
@@ -2833,7 +2787,10 @@
         "opposite": "impatient",
         "oppositeEmoji": "⌚",
         "subtext": "be patient / a patient teacher",
-        "synonyms": ["calm", "tolerant"],
+        "synonyms": [
+            "calm",
+            "tolerant"
+        ],
         "definitions": [
             {
                 "text": "Able to wait for a long time without becoming angry.",
@@ -2845,8 +2802,6 @@
         "comparative": "more patient",
         "superlative": "the most patient"
     },
-
-
     {
         "word": "active",
         "level": "starter",
@@ -2856,7 +2811,10 @@
         "opposite": "lazy",
         "oppositeEmoji": "🛋️",
         "subtext": "an active lifestyle / very active",
-        "synonyms": ["energetic", "busy"],
+        "synonyms": [
+            "energetic",
+            "busy"
+        ],
         "definitions": [
             {
                 "text": "Doing a lot of things; busy.",
@@ -2868,8 +2826,6 @@
         "comparative": "more active",
         "superlative": "the most active"
     },
-
-
     {
         "word": "careful",
         "level": "starter",
@@ -2878,7 +2834,9 @@
         "form": "adjective",
         "opposite": "careless",
         "subtext": "be careful / careful planning",
-        "synonyms": ["cautious"],
+        "synonyms": [
+            "cautious"
+        ],
         "definitions": [
             {
                 "text": "Giving a lot of attention to what you are doing so that you do not have an accident or make a mistake.",
@@ -2890,8 +2848,6 @@
         "comparative": "more careful",
         "superlative": "the most careful"
     },
-
-
     {
         "word": "creative",
         "level": "starter",
@@ -2901,7 +2857,10 @@
         "opposite": null,
         "oppositeEmoji": "😐",
         "subtext": "very creative / creative ideas",
-        "synonyms": ["imaginative", "artistic"],
+        "synonyms": [
+            "imaginative",
+            "artistic"
+        ],
         "definitions": [
             {
                 "text": "Good at thinking of new ideas or making things.",
@@ -2913,8 +2872,6 @@
         "comparative": "more creative",
         "superlative": "the most creative"
     },
-
-
     {
         "word": "cloudy",
         "level": "starter",
@@ -2924,7 +2881,9 @@
         "opposite": "sunny",
         "oppositeEmoji": "☀️",
         "subtext": "a cloudy sky / cloudy weather",
-        "synonyms": ["overcast"],
+        "synonyms": [
+            "overcast"
+        ],
         "definitions": [
             {
                 "text": "With many clouds in the sky.",
@@ -2936,8 +2895,6 @@
         "comparative": "cloudier",
         "superlative": "the cloudiest"
     },
-
-
     {
         "word": "windy",
         "level": "starter",
@@ -2947,7 +2904,9 @@
         "opposite": "calm",
         "oppositeEmoji": "😌",
         "subtext": "a windy day / very windy",
-        "synonyms": ["breezy"],
+        "synonyms": [
+            "breezy"
+        ],
         "definitions": [
             {
                 "text": "With a lot of wind.",
@@ -2959,8 +2918,6 @@
         "comparative": "windier",
         "superlative": "the windiest"
     },
-
-
     {
         "word": "snowy",
         "level": "starter",
@@ -2970,7 +2927,9 @@
         "opposite": "sunny",
         "oppositeEmoji": "☀️",
         "subtext": "snowy mountains / a snowy winter",
-        "synonyms": ["covered in snow"],
+        "synonyms": [
+            "covered in snow"
+        ],
         "definitions": [
             {
                 "text": "With a lot of snow.",
@@ -2982,8 +2941,6 @@
         "comparative": "snowier",
         "superlative": "the snowiest"
     },
-
-
     {
         "word": "foggy",
         "level": "starter",
@@ -2993,7 +2950,9 @@
         "opposite": "clear",
         "oppositeEmoji": "💎",
         "subtext": "foggy morning / very foggy",
-        "synonyms": ["misty"],
+        "synonyms": [
+            "misty"
+        ],
         "definitions": [
             {
                 "text": "With a lot of fog; difficult to see.",
@@ -3005,8 +2964,6 @@
         "comparative": "foggier",
         "superlative": "the foggiest"
     },
-
-
     {
         "word": "stormy",
         "level": "starter",
@@ -3016,7 +2973,9 @@
         "opposite": "calm",
         "oppositeEmoji": "😌",
         "subtext": "stormy weather / a stormy night",
-        "synonyms": ["rough"],
+        "synonyms": [
+            "rough"
+        ],
         "definitions": [
             {
                 "text": "With a lot of rain and strong winds.",
@@ -3028,8 +2987,6 @@
         "comparative": "stormier",
         "superlative": "the stormiest"
     },
-
-
     {
         "word": "blonde",
         "level": "starter",
@@ -3038,7 +2995,9 @@
         "opposite": "brunette",
         "oppositeEmoji": "👩🏻",
         "subtext": "blonde hair / a blonde woman",
-        "synonyms": ["fair-haired"],
+        "synonyms": [
+            "fair-haired"
+        ],
         "definitions": [
             {
                 "text": "Pale gold in color.",
@@ -3051,8 +3010,6 @@
         "superlative": "the blondest",
         "emoji": "👱‍♀️"
     },
-
-
     {
         "word": "smart",
         "level": "starter",
@@ -3061,7 +3018,10 @@
         "opposite": "stupid",
         "oppositeEmoji": "🤡",
         "subtext": "a smart student / smart clothes",
-        "synonyms": ["intelligent", "clever"],
+        "synonyms": [
+            "intelligent",
+            "clever"
+        ],
         "definitions": [
             {
                 "text": "Intelligent; clever.",
@@ -3074,8 +3034,6 @@
         "superlative": "the smartest",
         "emoji": "🎓"
     },
-
-
     {
         "word": "serious",
         "level": "starter",
@@ -3084,7 +3042,10 @@
         "opposite": "funny",
         "oppositeEmoji": "😂",
         "subtext": "a serious person / look serious",
-        "synonyms": ["solemn", "sensible"],
+        "synonyms": [
+            "solemn",
+            "sensible"
+        ],
         "definitions": [
             {
                 "text": "Thinking or acting in a careful and sensible way; not silly.",
@@ -3097,8 +3058,6 @@
         "superlative": "the most serious",
         "emoji": "😐"
     },
-
-
     {
         "word": "ugly",
         "level": "starter",
@@ -3107,7 +3066,9 @@
         "opposite": "beautiful",
         "oppositeEmoji": "✨",
         "subtext": "ugly building / ugly duckling",
-        "synonyms": ["unattractive"],
+        "synonyms": [
+            "unattractive"
+        ],
         "definitions": [
             {
                 "text": "Unpleasant to look at.",
@@ -3120,8 +3081,6 @@
         "superlative": "the ugliest",
         "emoji": "👹"
     },
-
-
     {
         "word": "near",
         "level": "starter",
@@ -3130,7 +3089,9 @@
         "opposite": "far",
         "oppositeEmoji": "🔭",
         "subtext": "near here / near the station",
-        "synonyms": ["close"],
+        "synonyms": [
+            "close"
+        ],
         "definitions": [
             {
                 "text": "Not far away in distance.",
@@ -3143,17 +3104,17 @@
         "superlative": "the nearest",
         "emoji": "📍"
     },
-
-
     {
         "word": "far",
         "level": "starter",
         "theme": "distance_A1",
         "form": "adjective",
-        "opposite": "near",
+        "opposite": "close",
         "oppositeEmoji": "📍",
         "subtext": "far away / far from",
-        "synonyms": ["distant"],
+        "synonyms": [
+            "distant"
+        ],
         "definitions": [
             {
                 "text": "A long way away in distance.",
@@ -3166,8 +3127,6 @@
         "superlative": "the farthest",
         "emoji": "🔭"
     },
-
-
     {
         "word": "rich",
         "level": "starter",
@@ -3177,7 +3136,9 @@
         "opposite": "poor",
         "oppositeEmoji": "🏚️",
         "subtext": "rich man / rich country / very rich",
-        "synonyms": ["wealthy"],
+        "synonyms": [
+            "wealthy"
+        ],
         "definitions": [
             {
                 "text": "Having a lot of money.",
@@ -3189,8 +3150,6 @@
         "comparative": "richer",
         "superlative": "the richest"
     },
-
-
     {
         "word": "poor",
         "level": "starter",
@@ -3200,7 +3159,10 @@
         "opposite": "rich",
         "oppositeEmoji": "💰",
         "subtext": "poor family / feel poor",
-        "synonyms": ["broke", "impoverished"],
+        "synonyms": [
+            "broke",
+            "impoverished"
+        ],
         "definitions": [
             {
                 "text": "Having very little money.",
@@ -3212,8 +3174,6 @@
         "comparative": "poorer",
         "superlative": "the poorest"
     },
-
-
     {
         "word": "early",
         "level": "starter",
@@ -3223,7 +3183,9 @@
         "opposite": "late",
         "oppositeEmoji": "🌙",
         "subtext": "early morning / early riser",
-        "synonyms": ["soon"],
+        "synonyms": [
+            "soon"
+        ],
         "definitions": [
             {
                 "text": "Happening or arriving before the usual or expected time.",
@@ -3235,8 +3197,6 @@
         "comparative": "earlier",
         "superlative": "the earliest"
     },
-
-
     {
         "word": "late",
         "level": "starter",
@@ -3246,7 +3206,9 @@
         "opposite": "early",
         "oppositeEmoji": "🌅",
         "subtext": "late night / too late",
-        "synonyms": ["tardy"],
+        "synonyms": [
+            "tardy"
+        ],
         "definitions": [
             {
                 "text": "Happening or arriving after the usual or expected time.",
@@ -3258,8 +3220,6 @@
         "comparative": "later",
         "superlative": "the latest"
     },
-
-
     {
         "word": "hardworking",
         "level": "starter",
@@ -3269,7 +3229,10 @@
         "opposite": "lazy",
         "oppositeEmoji": "🛋️",
         "subtext": "a hardworking student / very hardworking",
-        "synonyms": ["diligent", "busy"],
+        "synonyms": [
+            "diligent",
+            "busy"
+        ],
         "definitions": [
             {
                 "text": "Putting a lot of effort into work.",
@@ -3281,8 +3244,6 @@
         "comparative": "more hardworking",
         "superlative": "the most hardworking"
     },
-
-
     {
         "word": "exciting",
         "level": "starter",
@@ -3292,7 +3253,10 @@
         "opposite": null,
         "oppositeEmoji": "😴",
         "subtext": "an exciting trip / very exciting",
-        "synonyms": ["thrilling", "interesting"],
+        "synonyms": [
+            "thrilling",
+            "interesting"
+        ],
         "definitions": [
             {
                 "text": "Making you feel very happy and enthusiastic.",
@@ -3304,8 +3268,6 @@
         "comparative": "more exciting",
         "superlative": "the most exciting"
     },
-
-
     {
         "word": "delicious",
         "level": "starter",
@@ -3315,7 +3277,10 @@
         "opposite": "disgusting",
         "oppositeEmoji": "🤢",
         "subtext": "delicious meal / smell delicious",
-        "synonyms": ["tasty", "yummy"],
+        "synonyms": [
+            "tasty",
+            "yummy"
+        ],
         "definitions": [
             {
                 "text": "Having a very pleasant taste or smell.",
@@ -3327,18 +3292,18 @@
         "comparative": "more delicious",
         "superlative": "the most delicious"
     },
-
-
     {
         "word": "sweet",
         "level": "starter",
         "theme": "tastes_textures_A1",
         "emoji": "🍬",
         "form": "adjective",
-        "opposite": "sour",
+        "opposite": "bitter",
         "oppositeEmoji": "🍋",
         "subtext": "sweet fruit / sweet tooth / very sweet",
-        "synonyms": ["sugary"],
+        "synonyms": [
+            "sugary"
+        ],
         "definitions": [
             {
                 "text": "Having a taste like sugar.",
@@ -3350,8 +3315,6 @@
         "comparative": "sweeter",
         "superlative": "the sweetest"
     },
-
-
     {
         "word": "comfortable",
         "level": "starter",
@@ -3361,7 +3324,10 @@
         "opposite": null,
         "oppositeEmoji": "🪑",
         "subtext": "a comfortable chair / feel comfortable",
-        "synonyms": ["relaxed", "cozy"],
+        "synonyms": [
+            "relaxed",
+            "cozy"
+        ],
         "definitions": [
             {
                 "text": "Making you feel physically relaxed, without any pain or without being too hot, cold, etc.",
@@ -3373,8 +3339,6 @@
         "comparative": "more comfortable",
         "superlative": "the most comfortable"
     },
-
-
     {
         "word": "uncomfortable",
         "level": "starter",
@@ -3384,7 +3348,10 @@
         "opposite": null,
         "oppositeEmoji": "🛋️",
         "subtext": "feel uncomfortable / uncomfortable chair",
-        "synonyms": ["awkward", "painful"],
+        "synonyms": [
+            "awkward",
+            "painful"
+        ],
         "definitions": [
             {
                 "text": "Not comfortable; causing physical pain or feeling awkward.",
@@ -3396,8 +3363,6 @@
         "comparative": "more uncomfortable",
         "superlative": "the most uncomfortable"
     },
-
-
     {
         "word": "real",
         "level": "starter",
@@ -3407,7 +3372,10 @@
         "opposite": "fake",
         "oppositeEmoji": "🎭",
         "subtext": "a real person / is it real?",
-        "synonyms": ["true", "authentic"],
+        "synonyms": [
+            "true",
+            "authentic"
+        ],
         "definitions": [
             {
                 "text": "Actually existing or happening; not false.",
@@ -3419,8 +3387,6 @@
         "comparative": "more real",
         "superlative": "the most real"
     },
-
-
     {
         "word": "simple",
         "level": "starter",
@@ -3430,7 +3396,10 @@
         "opposite": "complex",
         "oppositeEmoji": "🧩",
         "subtext": "a simple question / nice and simple",
-        "synonyms": ["easy", "basic"],
+        "synonyms": [
+            "easy",
+            "basic"
+        ],
         "definitions": [
             {
                 "text": "Easy to understand or do; not complex.",
@@ -3442,8 +3411,6 @@
         "comparative": "simpler",
         "superlative": "the simplest"
     },
-
-
     {
         "word": "natural",
         "level": "starter",
@@ -3453,7 +3420,9 @@
         "opposite": "artificial",
         "oppositeEmoji": "🤖",
         "subtext": "natural light / natural products",
-        "synonyms": ["nature-made"],
+        "synonyms": [
+            "nature-made"
+        ],
         "definitions": [
             {
                 "text": "Existing in nature; not made or caused by people.",
@@ -3465,8 +3434,6 @@
         "comparative": "more natural",
         "superlative": "the most natural"
     },
-
-
     {
         "word": "clear",
         "level": "starter",
@@ -3476,7 +3443,11 @@
         "opposite": "unclear",
         "oppositeEmoji": "🌫️",
         "subtext": "a clear sky",
-        "synonyms": ["obvious", "transparent", "speak clearly"],
+        "synonyms": [
+            "obvious",
+            "transparent",
+            "speak clearly"
+        ],
         "definitions": [
             {
                 "text": "Easy to see through; easy to understand.",
@@ -3489,8 +3460,6 @@
         "comparative": "clearer",
         "superlative": "the clearest"
     },
-
-
     {
         "word": "common",
         "level": "starter",
@@ -3500,7 +3469,11 @@
         "opposite": "rare",
         "oppositeEmoji": "💎",
         "subtext": "a common problem",
-        "synonyms": ["usual", "frequent", "shared by all"],
+        "synonyms": [
+            "usual",
+            "frequent",
+            "shared by all"
+        ],
         "definitions": [
             {
                 "text": "Happening often; shared by many people.",
@@ -3512,8 +3485,6 @@
         "comparative": "commoner",
         "superlative": "the commonest"
     },
-
-
     {
         "word": "famous",
         "level": "starter",
@@ -3523,7 +3494,10 @@
         "opposite": "unknown",
         "oppositeEmoji": "👤",
         "subtext": "a famous person / become famous",
-        "synonyms": ["well-known", "popular"],
+        "synonyms": [
+            "well-known",
+            "popular"
+        ],
         "definitions": [
             {
                 "text": "Known by many people.",
@@ -3535,8 +3509,6 @@
         "comparative": "more famous",
         "superlative": "the most famous"
     },
-
-
     {
         "word": "salty",
         "level": "starter",
@@ -3546,7 +3518,9 @@
         "opposite": null,
         "oppositeEmoji": "🍬",
         "subtext": "salty snacks / too salty",
-        "synonyms": ["tasting of salt"],
+        "synonyms": [
+            "tasting of salt"
+        ],
         "definitions": [
             {
                 "text": "Containing or tasting of salt.",
@@ -3558,8 +3532,6 @@
         "comparative": "saltier",
         "superlative": "the saltiest"
     },
-
-
     {
         "word": "sour",
         "level": "starter",
@@ -3569,7 +3541,9 @@
         "opposite": "sweet",
         "oppositeEmoji": "🍬",
         "subtext": "a sour taste / sour lemons",
-        "synonyms": ["sharp-tasting"],
+        "synonyms": [
+            "sharp-tasting"
+        ],
         "definitions": [
             {
                 "text": "Having a sharp taste like that of a lemon.",
@@ -3581,8 +3555,6 @@
         "comparative": "sourer",
         "superlative": "the sourest"
     },
-
-
     {
         "word": "bitter",
         "level": "starter",
@@ -3592,7 +3564,10 @@
         "opposite": "sweet",
         "oppositeEmoji": "🍬",
         "subtext": "a bitter taste / bitter coffee",
-        "synonyms": ["strong", "sharp"],
+        "synonyms": [
+            "strong",
+            "sharp"
+        ],
         "definitions": [
             {
                 "text": "Having a strong sharp taste that is not sweet.",
@@ -3604,8 +3579,6 @@
         "comparative": "bitterer",
         "superlative": "the bitterest"
     },
-
-
     {
         "word": "fat",
         "level": "starter",
@@ -3615,7 +3588,10 @@
         "opposite": "thin",
         "oppositeEmoji": "🥬",
         "subtext": "a fat cat",
-        "synonyms": ["overweight", "gain weight"],
+        "synonyms": [
+            "overweight",
+            "gain weight"
+        ],
         "definitions": [
             {
                 "text": "Having a lot of extra flesh on your body.",
@@ -3627,18 +3603,19 @@
         "comparative": "fatter",
         "superlative": "the fattest"
     },
-
-
     {
         "word": "thin",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🥬",
         "form": "adjective",
-        "opposite": "fat",
+        "opposite": "thick",
         "oppositeEmoji": "🍔",
         "subtext": "he is thin / thin legs",
-        "synonyms": ["slim", "skinny"],
+        "synonyms": [
+            "slim",
+            "skinny"
+        ],
         "definitions": [
             {
                 "text": "Having very little extra flesh on your body.",
@@ -3650,8 +3627,6 @@
         "comparative": "thinner",
         "superlative": "the thinnest"
     },
-
-
     {
         "word": "curly",
         "level": "starter",
@@ -3661,7 +3636,9 @@
         "opposite": "straight",
         "oppositeEmoji": "📏",
         "subtext": "curly hair / short curly hair",
-        "synonyms": ["wavy"],
+        "synonyms": [
+            "wavy"
+        ],
         "definitions": [
             {
                 "text": "Having curls or a curved shape.",
@@ -3673,8 +3650,6 @@
         "comparative": "curlier",
         "superlative": "the curliest"
     },
-
-
     {
         "word": "straight",
         "level": "starter",
@@ -3684,7 +3659,9 @@
         "opposite": "curly",
         "oppositeEmoji": "🌀",
         "subtext": "straight hair / long straight hair",
-        "synonyms": ["not curly"],
+        "synonyms": [
+            "not curly"
+        ],
         "definitions": [
             {
                 "text": "Not curving or bending.",
@@ -3696,8 +3673,6 @@
         "comparative": "straighter",
         "superlative": "the straightest"
     },
-
-
     {
         "word": "triangular",
         "level": "starter",
@@ -3706,7 +3681,9 @@
         "form": "adjective",
         "opposite": "square",
         "subtext": "a triangular shape",
-        "synonyms": ["three-sided"],
+        "synonyms": [
+            "three-sided"
+        ],
         "definitions": [
             {
                 "text": "Shaped like a triangle.",
@@ -3718,8 +3695,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "rectangular",
         "level": "starter",
@@ -3728,7 +3703,9 @@
         "form": "adjective",
         "opposite": "round",
         "subtext": "a rectangular room",
-        "synonyms": ["four-sided"],
+        "synonyms": [
+            "four-sided"
+        ],
         "definitions": [
             {
                 "text": "Shaped like a rectangle.",
@@ -3740,8 +3717,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "oval",
         "level": "starter",
@@ -3750,7 +3725,9 @@
         "form": "adjective",
         "opposite": "round",
         "subtext": "an oval mirror",
-        "synonyms": ["egg-shaped"],
+        "synonyms": [
+            "egg-shaped"
+        ],
         "definitions": [
             {
                 "text": "Shaped like an egg.",
@@ -3762,8 +3739,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "favourite",
         "level": "starter",
@@ -3773,7 +3748,9 @@
         "opposite": "hated",
         "oppositeEmoji": "😡",
         "subtext": "my favourite film / favourite food",
-        "synonyms": ["preferred"],
+        "synonyms": [
+            "preferred"
+        ],
         "definitions": [
             {
                 "text": "The one that you like the most.",
@@ -3786,8 +3763,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "dark",
         "level": "starter",
@@ -3797,7 +3772,9 @@
         "opposite": "bright",
         "oppositeEmoji": "💡",
         "subtext": "dark blue / a dark night",
-        "synonyms": ["not light"],
+        "synonyms": [
+            "not light"
+        ],
         "definitions": [
             {
                 "text": "With little or no light.",
@@ -3810,8 +3787,6 @@
         "comparative": "darker",
         "superlative": "the darkest"
     },
-
-
     {
         "word": "bright",
         "level": "starter",
@@ -3821,7 +3796,10 @@
         "opposite": "dark",
         "oppositeEmoji": "🌑",
         "subtext": "bright colors / a bright day",
-        "synonyms": ["shining", "light"],
+        "synonyms": [
+            "shining",
+            "light"
+        ],
         "definitions": [
             {
                 "text": "Full of light, or shining with much light.",
@@ -3834,8 +3812,6 @@
         "comparative": "brighter",
         "superlative": "the brightest"
     },
-
-
     {
         "word": "gold",
         "level": "starter",
@@ -3844,7 +3820,9 @@
         "form": "adjective",
         "opposite": "silver",
         "subtext": "a gold ring / gold medal",
-        "synonyms": ["golden"],
+        "synonyms": [
+            "golden"
+        ],
         "definitions": [
             {
                 "text": "Having the color of gold.",
@@ -3856,8 +3834,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "silver",
         "level": "starter",
@@ -3866,7 +3842,9 @@
         "form": "adjective",
         "opposite": "gold",
         "subtext": "a silver car / silver jewelry",
-        "synonyms": ["silvery"],
+        "synonyms": [
+            "silvery"
+        ],
         "definitions": [
             {
                 "text": "Having the color of silver.",
@@ -3878,8 +3856,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "deep",
         "level": "starter",
@@ -3889,7 +3865,9 @@
         "opposite": "shallow",
         "oppositeEmoji": "📏",
         "subtext": "deep water / a deep hole",
-        "synonyms": ["bottomless"],
+        "synonyms": [
+            "bottomless"
+        ],
         "definitions": [
             {
                 "text": "Going a long way from the top or surface to the bottom.",
@@ -3901,8 +3879,6 @@
         "comparative": "deeper",
         "superlative": "the deepest"
     },
-
-
     {
         "word": "shallow",
         "level": "starter",
@@ -3912,7 +3888,9 @@
         "opposite": "deep",
         "oppositeEmoji": "🕳️",
         "subtext": "shallow water / a shallow end",
-        "synonyms": ["not deep"],
+        "synonyms": [
+            "not deep"
+        ],
         "definitions": [
             {
                 "text": "Having only a short distance from the top to the bottom.",
@@ -3924,8 +3902,6 @@
         "comparative": "shallower",
         "superlative": "the shallowest"
     },
-
-
     {
         "word": "modern",
         "level": "starter",
@@ -3935,7 +3911,10 @@
         "opposite": "ancient",
         "oppositeEmoji": "🏛️",
         "subtext": "a modern building / modern life",
-        "synonyms": ["contemporary", "new"],
+        "synonyms": [
+            "contemporary",
+            "new"
+        ],
         "definitions": [
             {
                 "text": "Designed and made using the most recent ideas and methods.",
@@ -3947,8 +3926,6 @@
         "comparative": "more modern",
         "superlative": "the most modern"
     },
-
-
     {
         "word": "ancient",
         "level": "starter",
@@ -3958,7 +3935,10 @@
         "opposite": "modern",
         "oppositeEmoji": "🏙️",
         "subtext": "ancient history / an ancient city",
-        "synonyms": ["very old", "antique"],
+        "synonyms": [
+            "very old",
+            "antique"
+        ],
         "definitions": [
             {
                 "text": "From a long time ago; very old.",
@@ -3970,18 +3950,18 @@
         "comparative": "more ancient",
         "superlative": "the most ancient"
     },
-
-
     {
         "word": "brave",
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "🦁",
         "form": "adjective",
-        "opposite": "afraid",
+        "opposite": "cowardly",
         "oppositeEmoji": "😨",
         "subtext": "a brave soldier / be brave",
-        "synonyms": ["courageous"],
+        "synonyms": [
+            "courageous"
+        ],
         "definitions": [
             {
                 "text": "Willing to do things that are dangerous, and does not show fear in difficult situations.",
@@ -3993,8 +3973,6 @@
         "comparative": "braver",
         "superlative": "the bravest"
     },
-
-
     {
         "word": "cowardly",
         "level": "starter",
@@ -4004,7 +3982,9 @@
         "opposite": "brave",
         "oppositeEmoji": "🦁",
         "subtext": "a cowardly act / don't be cowardly",
-        "synonyms": ["fearful"],
+        "synonyms": [
+            "fearful"
+        ],
         "definitions": [
             {
                 "text": "Not brave.",
@@ -4016,8 +3996,6 @@
         "comparative": "more cowardly",
         "superlative": "the most cowardly"
     },
-
-
     {
         "word": "wide",
         "level": "starter",
@@ -4027,7 +4005,9 @@
         "opposite": "narrow",
         "oppositeEmoji": "⬇️",
         "subtext": "a wide road / wide open",
-        "synonyms": ["broad"],
+        "synonyms": [
+            "broad"
+        ],
         "definitions": [
             {
                 "text": "Measuring a long distance from one side to the other.",
@@ -4039,8 +4019,6 @@
         "comparative": "wider",
         "superlative": "the widest"
     },
-
-
     {
         "word": "narrow",
         "level": "starter",
@@ -4050,7 +4028,9 @@
         "opposite": "wide",
         "oppositeEmoji": "↔️",
         "subtext": "a narrow street / too narrow",
-        "synonyms": ["thin"],
+        "synonyms": [
+            "thin"
+        ],
         "definitions": [
             {
                 "text": "Measuring only a small distance from one side to the other.",
@@ -4062,8 +4042,6 @@
         "comparative": "narrower",
         "superlative": "the narrowest"
     },
-
-
     {
         "word": "lucky",
         "level": "starter",
@@ -4073,7 +4051,9 @@
         "opposite": "unlucky",
         "oppositeEmoji": "😿",
         "subtext": "a lucky person / feel lucky",
-        "synonyms": ["fortunate"],
+        "synonyms": [
+            "fortunate"
+        ],
         "definitions": [
             {
                 "text": "Having good luck.",
@@ -4085,18 +4065,19 @@
         "comparative": "luckier",
         "superlative": "the luckiest"
     },
-
-
     {
         "word": "calm",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "worried",
+        "opposite": "stormy",
         "oppositeEmoji": "😟",
         "subtext": "stay calm / a calm sea",
-        "synonyms": ["peaceful", "quiet"],
+        "synonyms": [
+            "peaceful",
+            "quiet"
+        ],
         "definitions": [
             {
                 "text": "Peaceful, quiet, and without worry.",
@@ -4109,8 +4090,6 @@
         "comparative": "calmer",
         "superlative": "the calmest"
     },
-
-
     {
         "word": "married",
         "level": "starter",
@@ -4131,8 +4110,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "single",
         "level": "starter",
@@ -4142,7 +4119,9 @@
         "opposite": "married",
         "oppositeEmoji": "💍",
         "subtext": "a single man",
-        "synonyms": ["not married"],
+        "synonyms": [
+            "not married"
+        ],
         "definitions": [
             {
                 "text": "Not married or in a serious relationship.",
@@ -4154,8 +4133,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "well",
         "level": "starter",
@@ -4165,7 +4142,10 @@
         "opposite": "ill",
         "oppositeEmoji": "🤒",
         "subtext": "feel well / get well soon",
-        "synonyms": ["healthy", "fit"],
+        "synonyms": [
+            "healthy",
+            "fit"
+        ],
         "definitions": [
             {
                 "text": "Healthy; not ill.",
@@ -4178,8 +4158,6 @@
         "comparative": "better",
         "superlative": "the best"
     },
-
-
     {
         "word": "purple",
         "level": "starter",
@@ -4195,13 +4173,13 @@
             }
         ],
         "subtext": "purple flowers / bright purple",
-        "synonyms": ["violet"],
+        "synonyms": [
+            "violet"
+        ],
         "comparative": "more purple",
         "superlative": "the most purple",
         "opposite": "yellow"
     },
-
-
     {
         "word": "able",
         "level": "starter",
@@ -4218,12 +4196,12 @@
             }
         ],
         "subtext": "be able to / highly able",
-        "synonyms": ["capable"],
+        "synonyms": [
+            "capable"
+        ],
         "comparative": "abler",
         "superlative": "the ablest"
     },
-
-
     {
         "word": "close",
         "level": "starter",
@@ -4240,12 +4218,12 @@
             }
         ],
         "subtext": "close to / very close",
-        "synonyms": ["near"],
+        "synonyms": [
+            "near"
+        ],
         "comparative": "closer",
         "superlative": "the closest"
     },
-
-
     {
         "word": "dead",
         "level": "starter",
@@ -4262,12 +4240,12 @@
             }
         ],
         "subtext": "dead leaves / completely dead",
-        "synonyms": ["deceased"],
+        "synonyms": [
+            "deceased"
+        ],
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "fair",
         "level": "starter",
@@ -4284,12 +4262,12 @@
             }
         ],
         "subtext": "a fair price / be fair",
-        "synonyms": ["just"],
+        "synonyms": [
+            "just"
+        ],
         "comparative": "fairer",
         "superlative": "the fairest"
     },
-
-
     {
         "word": "fine",
         "level": "starter",
@@ -4307,12 +4285,13 @@
             }
         ],
         "subtext": "feel fine / a fine day",
-        "synonyms": ["okay", "good"],
+        "synonyms": [
+            "okay",
+            "good"
+        ],
         "comparative": "finer",
         "superlative": "the finest"
     },
-
-
     {
         "word": "glad",
         "level": "starter",
@@ -4329,12 +4308,13 @@
             }
         ],
         "subtext": "glad that / so glad",
-        "synonyms": ["happy", "pleased"],
+        "synonyms": [
+            "happy",
+            "pleased"
+        ],
         "comparative": "gladder",
         "superlative": "the gladdest"
     },
-
-
     {
         "word": "interested",
         "level": "starter",
@@ -4351,12 +4331,12 @@
             }
         ],
         "subtext": "interested in / very interested",
-        "synonyms": ["curious"],
+        "synonyms": [
+            "curious"
+        ],
         "comparative": "more interested",
         "superlative": "the most interested"
     },
-
-
     {
         "word": "only",
         "level": "starter",
@@ -4373,12 +4353,12 @@
             }
         ],
         "subtext": "the only one / only child",
-        "synonyms": ["sole"],
+        "synonyms": [
+            "sole"
+        ],
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "other",
         "level": "starter",
@@ -4395,12 +4375,12 @@
             }
         ],
         "subtext": "the other one / some other",
-        "synonyms": ["different"],
+        "synonyms": [
+            "different"
+        ],
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "own",
         "level": "starter",
@@ -4417,12 +4397,12 @@
             }
         ],
         "subtext": "on my own / my own car",
-        "synonyms": ["personal"],
+        "synonyms": [
+            "personal"
+        ],
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "quick",
         "level": "starter",
@@ -4439,12 +4419,12 @@
             }
         ],
         "subtext": "a quick lunch / very quick",
-        "synonyms": ["fast"],
+        "synonyms": [
+            "fast"
+        ],
         "comparative": "quicker",
         "superlative": "the quickest"
     },
-
-
     {
         "word": "ready",
         "level": "starter",
@@ -4461,12 +4441,12 @@
             }
         ],
         "subtext": "get ready / almost ready",
-        "synonyms": ["prepared"],
+        "synonyms": [
+            "prepared"
+        ],
         "comparative": "readier",
         "superlative": "the readiest"
     },
-
-
     {
         "word": "unready",
         "level": "starter",
@@ -4476,7 +4456,9 @@
         "opposite": "ready",
         "oppositeEmoji": "✅",
         "subtext": "unready for the change",
-        "synonyms": ["not prepared"],
+        "synonyms": [
+            "not prepared"
+        ],
         "definitions": [
             {
                 "text": "Not prepared or ready for something.",
@@ -4488,8 +4470,6 @@
         "comparative": "more unready",
         "superlative": "the most unready"
     },
-
-
     {
         "word": "rough",
         "level": "starter",
@@ -4506,12 +4486,12 @@
             }
         ],
         "subtext": "rough skin / rough sea",
-        "synonyms": ["uneven"],
+        "synonyms": [
+            "uneven"
+        ],
         "comparative": "rougher",
         "superlative": "the roughest"
     },
-
-
     {
         "word": "sharp",
         "level": "starter",
@@ -4528,12 +4508,12 @@
             }
         ],
         "subtext": "a sharp knife / very sharp",
-        "synonyms": ["pointed"],
+        "synonyms": [
+            "pointed"
+        ],
         "comparative": "sharper",
         "superlative": "the sharpest"
     },
-
-
     {
         "word": "shy",
         "level": "starter",
@@ -4550,12 +4530,12 @@
             }
         ],
         "subtext": "feel shy / quite shy",
-        "synonyms": ["timid"],
+        "synonyms": [
+            "timid"
+        ],
         "comparative": "shyer",
         "superlative": "the shyest"
     },
-
-
     {
         "word": "thick",
         "level": "starter",
@@ -4572,12 +4552,12 @@
             }
         ],
         "subtext": "thick walls / thick hair",
-        "synonyms": ["wide"],
+        "synonyms": [
+            "wide"
+        ],
         "comparative": "thicker",
         "superlative": "the thickest"
     },
-
-
     {
         "word": "true",
         "level": "starter",
@@ -4594,12 +4574,13 @@
             }
         ],
         "subtext": "come true",
-        "synonyms": ["real", "truly"],
+        "synonyms": [
+            "real",
+            "truly"
+        ],
         "comparative": "truer",
         "superlative": "the truest"
     },
-
-
     {
         "word": "false",
         "level": "starter",
@@ -4609,7 +4590,9 @@
         "opposite": "true",
         "oppositeEmoji": "✅",
         "subtext": "true or false / false information",
-        "synonyms": ["incorrect"],
+        "synonyms": [
+            "incorrect"
+        ],
         "definitions": [
             {
                 "text": "Not true; incorrect.",
@@ -4621,8 +4604,6 @@
         "comparative": "falser",
         "superlative": "the falsest"
     },
-
-
     {
         "word": "stupid",
         "level": "starter",
@@ -4639,12 +4620,12 @@
             }
         ],
         "subtext": "don't be stupid / very stupid",
-        "synonyms": ["silly"],
+        "synonyms": [
+            "silly"
+        ],
         "comparative": "stupider",
         "superlative": "the stupidest"
     },
-
-
     {
         "word": "sure",
         "level": "starter",
@@ -4662,12 +4643,12 @@
             }
         ],
         "subtext": "make sure / pretty sure",
-        "synonyms": ["certain"],
+        "synonyms": [
+            "certain"
+        ],
         "comparative": "surer",
         "superlative": "the surest"
     },
-
-
     {
         "word": "unsure",
         "level": "starter",
@@ -4677,7 +4658,9 @@
         "opposite": "sure",
         "oppositeEmoji": "✅",
         "subtext": "feel unsure / unsure about",
-        "synonyms": ["uncertain"],
+        "synonyms": [
+            "uncertain"
+        ],
         "definitions": [
             {
                 "text": "Not certain about something.",
@@ -4689,8 +4672,6 @@
         "comparative": "more unsure",
         "superlative": "the most unsure"
     },
-
-
     {
         "word": "nasty",
         "level": "starter",
@@ -4700,7 +4681,10 @@
         "opposite": "nice",
         "oppositeEmoji": "😊",
         "subtext": "a nasty person / nasty weather",
-        "synonyms": ["unpleasant", "mean"],
+        "synonyms": [
+            "unpleasant",
+            "mean"
+        ],
         "definitions": [
             {
                 "text": "Very bad or unpleasant; unkind.",
@@ -4712,8 +4696,6 @@
         "comparative": "nastier",
         "superlative": "the nastiest"
     },
-
-
     {
         "word": "incorrect",
         "level": "starter",
@@ -4723,7 +4705,10 @@
         "opposite": "correct",
         "oppositeEmoji": "✅",
         "subtext": "incorrect answer / absolutely incorrect",
-        "synonyms": ["wrong", "false"],
+        "synonyms": [
+            "wrong",
+            "false"
+        ],
         "definitions": [
             {
                 "text": "Not correct; wrong.",
@@ -4735,8 +4720,6 @@
         "comparative": "more incorrect",
         "superlative": "the most incorrect"
     },
-
-
     {
         "word": "smooth",
         "level": "starter",
@@ -4746,7 +4729,10 @@
         "opposite": "rough",
         "oppositeEmoji": "🧱",
         "subtext": "smooth skin / smooth surface",
-        "synonyms": ["flat", "even"],
+        "synonyms": [
+            "flat",
+            "even"
+        ],
         "definitions": [
             {
                 "text": "Having an even and regular surface or consistency; not rough.",
@@ -4758,8 +4744,6 @@
         "comparative": "smoother",
         "superlative": "the smoothest"
     },
-
-
     {
         "word": "normal",
         "level": "starter",
@@ -4769,7 +4753,10 @@
         "opposite": "strange",
         "oppositeEmoji": "❓",
         "subtext": "normal day / back to normal",
-        "synonyms": ["usual", "ordinary"],
+        "synonyms": [
+            "usual",
+            "ordinary"
+        ],
         "definitions": [
             {
                 "text": "Usual, ordinary, or expected.",
@@ -4781,8 +4768,6 @@
         "comparative": "more normal",
         "superlative": "the most normal"
     },
-
-
     {
         "word": "alive",
         "level": "starter",
@@ -4792,7 +4777,9 @@
         "opposite": "dead",
         "oppositeEmoji": "💀",
         "subtext": "stay alive / still alive",
-        "synonyms": ["living"],
+        "synonyms": [
+            "living"
+        ],
         "definitions": [
             {
                 "text": "Living, not dead.",
@@ -4804,8 +4791,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "many",
         "level": "starter",
@@ -4826,8 +4811,6 @@
         "comparative": "more",
         "superlative": "the most"
     },
-
-
     {
         "word": "shared",
         "level": "starter",
@@ -4837,7 +4820,9 @@
         "opposite": "own",
         "oppositeEmoji": "👤",
         "subtext": "shared room / shared office",
-        "synonyms": ["common"],
+        "synonyms": [
+            "common"
+        ],
         "definitions": [
             {
                 "text": "Used or owned by more than one person.",
@@ -4849,8 +4834,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "unclear",
         "level": "starter",
@@ -4860,7 +4843,10 @@
         "opposite": "clear",
         "oppositeEmoji": "💧",
         "subtext": "unclear instructions / feel unclear",
-        "synonyms": ["confusing", "vague"],
+        "synonyms": [
+            "confusing",
+            "vague"
+        ],
         "definitions": [
             {
                 "text": "Not easy to understand; not clear.",
@@ -4872,8 +4858,6 @@
         "comparative": "more unclear",
         "superlative": "the most unclear"
     },
-
-
     {
         "word": "few",
         "level": "starter",
@@ -4883,7 +4867,9 @@
         "opposite": "many",
         "oppositeEmoji": "🔢",
         "subtext": "a few / very few",
-        "synonyms": ["not many"],
+        "synonyms": [
+            "not many"
+        ],
         "definitions": [
             {
                 "text": "Used for saying that there are only a small number of people or things.",
@@ -4894,8 +4880,52 @@
         ],
         "comparative": "fewer",
         "superlative": "the fewest"
+    },
+    {
+        "word": "possible",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "impossible",
+        "transcription": "[ˈpɒsəbl]",
+        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "Able to be done or achieved.",
+                "examples": [
+                    "Is it possible to come tomorrow?",
+                    "Everything is possible if you try."
+                ]
+            }
+        ],
+        "comparative": "more possible",
+        "superlative": "the most possible",
+        "subtext": "as soon as possible, if possible"
+    },
+    {
+        "word": "useful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "useless",
+        "transcription": "[ˈjuːsfl]",
+        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=400&q=80",
+        "definitions": [
+            {
+                "text": "Helping you to do or achieve something.",
+                "examples": [
+                    "This is a very useful book.",
+                    "The internet is useful for studying."
+                ]
+            }
+        ],
+        "comparative": "more useful",
+        "superlative": "the most useful",
+        "subtext": "very useful, useful information"
     }
-    ];
+];
     const lang = "en";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
