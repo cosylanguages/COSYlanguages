@@ -757,7 +757,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "subtext": "listen to music / listen to someone / listen carefully / listen to a podcast",
         "form": "verb",
         "definitions": [
             {
@@ -2117,7 +2117,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "subtext": "wait for someone / wait for the bus / wait in a queue / wait a moment",
         "form": "verb",
         "definitions": [
             {

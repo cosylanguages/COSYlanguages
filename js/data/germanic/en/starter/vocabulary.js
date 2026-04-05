@@ -11915,6 +11915,8 @@
         "emoji": "1️⃣",
         "form": "adjective",
         "opposite": "last",
+        "comparative": null,
+        "superlative": null,
         "definitions": [
             {
                 "text": "Coming before all others in time or order.",
@@ -11933,6 +11935,8 @@
         "emoji": "🔚",
         "form": "adjective",
         "opposite": "first",
+        "comparative": null,
+        "superlative": null,
         "definitions": [
             {
                 "text": "Coming after all others in time or order.",
@@ -11951,6 +11955,8 @@
         "emoji": "⏭️",
         "form": "adjective",
         "opposite": "previous",
+        "comparative": null,
+        "superlative": null,
         "definitions": [
             {
                 "text": "Coming immediately after the present one.",
@@ -28648,6 +28654,114 @@
         ],
         "subtext": "contact information",
         "countability": "countable"
+    }
+,
+    {
+        "word": "wardrobe",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "👗",
+        "form": "noun",
+        "plural": "wardrobes",
+        "transcription": "ˈwɔːdrəʊb",
+        "definitions": [
+            {
+                "text": "A large cupboard for hanging or storing clothes.",
+                "examples": [
+                    "My clothes are in the wardrobe."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "furniture for clothes"
+    },
+    {
+        "word": "always",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "🔄",
+        "form": "adverb",
+        "transcription": "ˈɔːlweɪz",
+        "definitions": [
+            {
+                "text": "At all times.",
+                "examples": [
+                    "I always drink coffee in the morning."
+                ]
+            }
+        ],
+        "opposite": "never",
+        "subtext": "100% of the time"
+    },
+    {
+        "word": "never",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "❌",
+        "form": "adverb",
+        "transcription": "ˈnevə(r)",
+        "definitions": [
+            {
+                "text": "Not at any time.",
+                "examples": [
+                    "I never arrive late for work."
+                ]
+            }
+        ],
+        "opposite": "always",
+        "subtext": "0% of the time"
+    },
+    {
+        "word": "sometimes",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "🌗",
+        "form": "adverb",
+        "transcription": "ˈsʌmtaɪmz",
+        "definitions": [
+            {
+                "text": "At some times but not all the time.",
+                "examples": [
+                    "I sometimes walk to work."
+                ]
+            }
+        ],
+        "subtext": "on some occasions"
+    },
+    {
+        "word": "often",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "📈",
+        "form": "adverb",
+        "transcription": "ˈɒfn",
+        "definitions": [
+            {
+                "text": "Many times; frequently.",
+                "examples": [
+                    "We often have meetings on Mondays."
+                ]
+            }
+        ],
+        "subtext": "frequently",
+        "opposite": "seldom"
+    },
+    {
+        "word": "usually",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "🔄",
+        "form": "adverb",
+        "transcription": "ˈjuːʒuəli",
+        "definitions": [
+            {
+                "text": "In the way that most often happens.",
+                "examples": [
+                    "I usually wake up at seven."
+                ]
+            }
+        ],
+        "subtext": "normally"
     }
 ];
     const lang = "en";
