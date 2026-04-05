@@ -5,20 +5,49 @@
 // ── Bottom nav: update active state based on current page
 function updateMobileNav() {
   const path = window.location.pathname;
-  const filename = path.split('/').pop() || 'index.html';
+  const hash = window.location.hash;
 
-  document.querySelectorAll('.mobile-nav-item').forEach(item => {
+  // Resilient check for language pages
+  const isLanguagePage = path.includes('/languages/') ||
+                         path.includes('languages/') ||
+                         ['en.html', 'fr.html', 'it.html', 'ru.html', 'el.html'].some(p => path.endsWith(p) && path.includes('languages'));
+
+  const items = document.querySelectorAll('.mobile-nav-item');
+  if (items.length === 0) return;
+
+  items.forEach(item => {
     const href = item.getAttribute('href') || '';
-    const itemFile = href.split('/').pop().split('#')[0] || 'index.html';
+    // Normalize href for comparison
+    const linkPath = href.split('#')[0];
+    const linkFilename = linkPath.split('/').pop() || 'index.html';
+    const currentFilename = path.split('/').pop() || 'index.html';
 
-    let active = (filename === itemFile);
+    let active = false;
 
-    // Special case for home/root
-    if (filename === '' || filename === 'index.html') {
-      active = (itemFile === 'index.html');
+    if (isLanguagePage) {
+      // On any sub-language page, highlight the "Languages" tab
+      active = (item.id === 'mnav-languages');
+    } else {
+      // Normal page matching
+      active = (currentFilename === linkFilename);
+
+      // Root/Home special case
+      if (currentFilename === '' || currentFilename === 'index.html') {
+        active = (linkFilename === 'index.html');
+      }
+
+      // Hash override for "Languages" section on home page
+      if (hash === '#languages' || window.location.hash === '#languages') {
+        if (item.id === 'mnav-home') active = false;
+        if (item.id === 'mnav-languages') active = true;
+      }
     }
 
-    item.classList.toggle('active', active);
+    if (active) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
   });
 }
 
@@ -215,10 +244,9 @@ function showInstallNudge(isIOS) {
 // ── Bottom nav HTML — inject into every page
 function injectMobileNav() {
   const path = window.location.pathname;
-  const isGH = path.includes('/COSYlanguages/');
+  const isGH = path.indexOf('/COSYlanguages/') !== -1;
   const base = isGH ? '/COSYlanguages/' : '/';
 
-  // Don't inject if already present
   if (document.querySelector('.mobile-nav')) return;
 
   const nav = document.createElement('nav');
@@ -246,7 +274,8 @@ function injectMobileNav() {
     </a>
   `;
   document.body.appendChild(nav);
-  updateMobileNav();
+  // Using a short timeout to ensure the DOM is fully settled
+  setTimeout(updateMobileNav, 10);
 }
 
 // ── Answer flash element — inject once
@@ -269,10 +298,22 @@ function injectSheetOverlay() {
 }
 
 // ── Boot
-document.addEventListener('DOMContentLoaded', () => {
+function initMobile() {
   injectMobileNav();
   injectAnswerFlash();
   injectSheetOverlay();
   checkInstallPrompt();
   updateMobileNav();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initMobile);
+} else {
+  initMobile();
+}
+
+window.updateMobileNav = updateMobileNav;
+window.openGameSheet = openGameSheet;
+window.closeGameSheet = closeGameSheet;
+window.flashAnswer = flashAnswer;
+window.startTimerRing = startTimerRing;
