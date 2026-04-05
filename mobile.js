@@ -5,7 +5,8 @@
 // ── Bottom nav: update active state based on current page
 function updateMobileNav() {
   const path = window.location.pathname;
-  const hash = window.location.hash;
+  const hash = window.location.hash || window.location.href.split('#')[1] || '';
+  const currentFilename = path.split('/').pop() || 'index.html';
 
   // Resilient check for language pages
   const isLanguagePage = path.includes('/languages/') ||
@@ -17,10 +18,8 @@ function updateMobileNav() {
 
   items.forEach(item => {
     const href = item.getAttribute('href') || '';
-    // Normalize href for comparison
     const linkPath = href.split('#')[0];
     const linkFilename = linkPath.split('/').pop() || 'index.html';
-    const currentFilename = path.split('/').pop() || 'index.html';
 
     let active = false;
 
@@ -31,15 +30,13 @@ function updateMobileNav() {
       // Normal page matching
       active = (currentFilename === linkFilename);
 
-      // Root/Home special case
-      if (currentFilename === '' || currentFilename === 'index.html') {
-        active = (linkFilename === 'index.html');
-      }
-
-      // Hash override for "Languages" section on home page
-      if (hash === '#languages' || window.location.hash === '#languages') {
-        if (item.id === 'mnav-home') active = false;
-        if (item.id === 'mnav-languages') active = true;
+      // Home page special logic to distinguish Home vs Languages
+      if (currentFilename === 'index.html' || currentFilename === '' || currentFilename === '/') {
+        if (hash === 'languages' || hash === '#languages') {
+          active = (item.id === 'mnav-languages');
+        } else {
+          active = (item.id === 'mnav-home');
+        }
       }
     }
 
