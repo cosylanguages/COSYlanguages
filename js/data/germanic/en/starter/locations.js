@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "Mexico City",
         "level": "starter",
         "theme": "address_location_A1",
@@ -14,9 +14,11 @@
         ],
         "subtext": "city",
         "emoji": "🇲🇽",
-        "transcription": "ˈmɛksəˌkoʊ ˈsɪti"
+        "transcription": "ˈmɛksəˌkoʊ ˈsɪti",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Amsterdam",
         "level": "starter",
         "theme": "address_location_A1",
@@ -30,9 +32,11 @@
         ],
         "subtext": "city",
         "emoji": "🇳🇱",
-        "transcription": "ˈæmstərˌdæm"
+        "transcription": "ˈæmstərˌdæm",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Vienna",
         "level": "starter",
         "theme": "address_location_A1",
@@ -46,9 +50,11 @@
         ],
         "subtext": "city",
         "emoji": "🇦🇹",
-        "transcription": "viˈɛnə"
+        "transcription": "viˈɛnə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Prague",
         "level": "starter",
         "theme": "address_location_A1",
@@ -62,9 +68,11 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇿",
-        "transcription": "prɑg"
+        "transcription": "prɑg",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Barcelona",
         "level": "starter",
         "theme": "address_location_A1",
@@ -78,9 +86,11 @@
         ],
         "subtext": "city",
         "emoji": "🇪🇸",
-        "transcription": "ˌbɑrsɪˈloʊnə"
+        "transcription": "ˌbɑrsɪˈloʊnə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Venice",
         "level": "starter",
         "theme": "address_location_A1",
@@ -94,9 +104,11 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇹",
-        "transcription": "ˈvɛnɪs"
+        "transcription": "ˈvɛnɪs",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Florence",
         "level": "starter",
         "theme": "address_location_A1",
@@ -110,9 +122,11 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇹",
-        "transcription": "ˈflɔrəns"
+        "transcription": "ˈflɔrəns",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Dublin",
         "level": "starter",
         "theme": "address_location_A1",
@@ -126,9 +140,11 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇪",
-        "transcription": "ˈdəblɪn"
+        "transcription": "ˈdəblɪn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Edinburgh",
         "level": "starter",
         "theme": "address_location_A1",
@@ -142,9 +158,11 @@
         ],
         "subtext": "city",
         "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "transcription": "ˈɛdənbəroʊ"
+        "transcription": "ˈɛdənbəroʊ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Chicago",
         "level": "starter",
         "theme": "address_location_A1",
@@ -158,9 +176,11 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "ʃəˈkɑˌgoʊ"
+        "transcription": "ʃəˈkɑˌgoʊ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Los Angeles",
         "level": "starter",
         "theme": "address_location_A1",
@@ -174,9 +194,11 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "lɔs ˈænʤəlɪs"
+        "transcription": "lɔs ˈænʤəlɪs",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "San Francisco",
         "level": "starter",
         "theme": "address_location_A1",
@@ -190,9 +212,11 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "sæn frænˈsɪskoʊ"
+        "transcription": "sæn frænˈsɪskoʊ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Miami",
         "level": "starter",
         "theme": "address_location_A1",
@@ -206,9 +230,11 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "maɪˈæmi"
+        "transcription": "maɪˈæmi",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Washington DC",
         "level": "starter",
         "theme": "address_location_A1",
@@ -222,9 +248,11 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi"
+        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Vancouver",
         "level": "starter",
         "theme": "address_location_A1",
@@ -238,9 +266,11 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇦",
-        "transcription": "vænˈkuvər"
+        "transcription": "vænˈkuvər",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Montreal",
         "level": "starter",
         "theme": "address_location_A1",
@@ -254,9 +284,11 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇦",
-        "transcription": "ˌməntriˈɔl"
+        "transcription": "ˌməntriˈɔl",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Melbourne",
         "level": "starter",
         "theme": "address_location_A1",
@@ -270,9 +302,11 @@
         ],
         "subtext": "city",
         "emoji": "🇦🇺",
-        "transcription": "ˈmɛlbərn"
+        "transcription": "ˈmɛlbərn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Thailand",
         "level": "starter",
         "theme": "address_location_A1",
@@ -286,9 +320,11 @@
         ],
         "subtext": "country",
         "emoji": "🇹🇭",
-        "transcription": "ˈtaɪˌlænd"
+        "transcription": "ˈtaɪˌlænd",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "South Korea",
         "level": "starter",
         "theme": "address_location_A1",
@@ -302,9 +338,11 @@
         ],
         "subtext": "country",
         "emoji": "🇰🇷",
-        "transcription": "saʊθ ˌkɔˈriə"
+        "transcription": "saʊθ ˌkɔˈriə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Sweden",
         "level": "starter",
         "theme": "address_location_A1",
@@ -318,9 +356,11 @@
         ],
         "subtext": "country",
         "emoji": "🇸🇪",
-        "transcription": "sˈwidən"
+        "transcription": "sˈwidən",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Norway",
         "level": "starter",
         "theme": "address_location_A1",
@@ -334,9 +374,11 @@
         ],
         "subtext": "country",
         "emoji": "🇳🇴",
-        "transcription": "ˈnɔrˌweɪ"
+        "transcription": "ˈnɔrˌweɪ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Denmark",
         "level": "starter",
         "theme": "address_location_A1",
@@ -350,9 +392,11 @@
         ],
         "subtext": "country",
         "emoji": "🇩🇰",
-        "transcription": "ˈdɛnˌmɑrk"
+        "transcription": "ˈdɛnˌmɑrk",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Finland",
         "level": "starter",
         "theme": "address_location_A1",
@@ -366,9 +410,11 @@
         ],
         "subtext": "country",
         "emoji": "🇫🇮",
-        "transcription": "ˈfɪnˌlænd"
+        "transcription": "ˈfɪnˌlænd",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Poland",
         "level": "starter",
         "theme": "address_location_A1",
@@ -382,9 +428,11 @@
         ],
         "subtext": "country",
         "emoji": "🇵🇱",
-        "transcription": "ˈpoʊlənd"
+        "transcription": "ˈpoʊlənd",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Ukraine",
         "level": "starter",
         "theme": "address_location_A1",
@@ -398,9 +446,11 @@
         ],
         "subtext": "country",
         "emoji": "🇺🇦",
-        "transcription": "juˈkreɪn"
+        "transcription": "juˈkreɪn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Austria",
         "level": "starter",
         "theme": "address_location_A1",
@@ -414,9 +464,11 @@
         ],
         "subtext": "country",
         "emoji": "🇦🇹",
-        "transcription": "ˈɔstriə"
+        "transcription": "ˈɔstriə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Switzerland",
         "level": "starter",
         "theme": "address_location_A1",
@@ -430,9 +482,11 @@
         ],
         "subtext": "country",
         "emoji": "🇨🇭",
-        "transcription": "sˈwɪtsərlənd"
+        "transcription": "sˈwɪtsərlənd",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Netherlands",
         "level": "starter",
         "theme": "address_location_A1",
@@ -446,9 +500,11 @@
         ],
         "subtext": "country",
         "emoji": "🇳🇱",
-        "transcription": "ˈnɛðərləndz"
+        "transcription": "ˈnɛðərləndz",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Belgium",
         "level": "starter",
         "theme": "address_location_A1",
@@ -462,9 +518,11 @@
         ],
         "subtext": "country",
         "emoji": "🇧🇪",
-        "transcription": "ˈbɛlʤəm"
+        "transcription": "ˈbɛlʤəm",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Ireland",
         "level": "starter",
         "theme": "address_location_A1",
@@ -478,9 +536,11 @@
         ],
         "subtext": "country",
         "emoji": "🇮🇪",
-        "transcription": "ˈaɪərlənd"
+        "transcription": "ˈaɪərlənd",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "London",
         "level": "starter",
         "theme": "address_location_A1",
@@ -494,9 +554,11 @@
         ],
         "subtext": "city",
         "emoji": "🇬🇧",
-        "transcription": "ˈləndən"
+        "transcription": "ˈləndən",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "France",
         "level": "starter",
         "theme": "address_location_A1",
@@ -510,9 +572,11 @@
         ],
         "subtext": "country",
         "emoji": "🇫🇷",
-        "transcription": "fræns"
+        "transcription": "fræns",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Italy",
         "level": "starter",
         "theme": "address_location_A1",
@@ -526,9 +590,11 @@
         ],
         "subtext": "country",
         "emoji": "🇮🇹",
-        "transcription": "ˈɪtəli"
+        "transcription": "ˈɪtəli",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Russia",
         "level": "starter",
         "theme": "address_location_A1",
@@ -542,9 +608,11 @@
         ],
         "subtext": "country",
         "emoji": "🇷🇺",
-        "transcription": "ˈrəʃə"
+        "transcription": "ˈrəʃə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Greece",
         "level": "starter",
         "theme": "address_location_A1",
@@ -558,9 +626,11 @@
         ],
         "subtext": "country",
         "emoji": "🇬🇷",
-        "transcription": "gris"
+        "transcription": "gris",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "England",
         "level": "starter",
         "theme": "address_location_A1",
@@ -574,9 +644,11 @@
         ],
         "subtext": "country",
         "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "transcription": "ˈɪŋglənd"
+        "transcription": "ˈɪŋglənd",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Spain",
         "level": "starter",
         "theme": "address_location_A1",
@@ -590,9 +662,11 @@
         ],
         "subtext": "country",
         "emoji": "🇪🇸",
-        "transcription": "speɪn"
+        "transcription": "speɪn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "USA",
         "level": "starter",
         "theme": "address_location_A1",
@@ -606,9 +680,11 @@
         ],
         "subtext": "country",
         "emoji": "🇺🇸",
-        "transcription": "ˈjuˈɛˈseɪ"
+        "transcription": "ˈjuˈɛˈseɪ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Paris",
         "level": "starter",
         "theme": "address_location_A1",
@@ -622,9 +698,11 @@
         ],
         "subtext": "city",
         "emoji": "🇫🇷",
-        "transcription": "ˈpɛrɪs"
+        "transcription": "ˈpɛrɪs",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Rome",
         "level": "starter",
         "theme": "address_location_A1",
@@ -638,9 +716,11 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇹",
-        "transcription": "roʊm"
+        "transcription": "roʊm",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Moscow",
         "level": "starter",
         "theme": "address_location_A1",
@@ -654,9 +734,11 @@
         ],
         "subtext": "city",
         "emoji": "🇷🇺",
-        "transcription": "ˈmɔˌskaʊ"
+        "transcription": "ˈmɔˌskaʊ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Athens",
         "level": "starter",
         "theme": "address_location_A1",
@@ -670,9 +752,11 @@
         ],
         "subtext": "city",
         "emoji": "🇬🇷",
-        "transcription": "ˈæθənz"
+        "transcription": "ˈæθənz",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "New York",
         "level": "starter",
         "theme": "address_location_A1",
@@ -686,9 +770,11 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "nu jɔrk"
+        "transcription": "nu jɔrk",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Berlin",
         "level": "starter",
         "theme": "address_location_A1",
@@ -702,9 +788,11 @@
         ],
         "subtext": "city",
         "emoji": "🇩🇪",
-        "transcription": "bərˈlɪn"
+        "transcription": "bərˈlɪn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Tokyo",
         "level": "starter",
         "theme": "address_location_A1",
@@ -718,9 +806,11 @@
         ],
         "subtext": "city",
         "emoji": "🇯🇵",
-        "transcription": "ˈtoʊkiˌoʊ"
+        "transcription": "ˈtoʊkiˌoʊ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Beijing",
         "level": "starter",
         "theme": "address_location_A1",
@@ -734,9 +824,11 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇳",
-        "transcription": "ˌbeɪˈʒɪŋ"
+        "transcription": "ˌbeɪˈʒɪŋ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Sydney",
         "level": "starter",
         "theme": "address_location_A1",
@@ -750,9 +842,11 @@
         ],
         "subtext": "city",
         "emoji": "🇦🇺",
-        "transcription": "ˈsɪdni"
+        "transcription": "ˈsɪdni",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Rio de Janeiro",
         "level": "starter",
         "theme": "address_location_A1",
@@ -766,9 +860,11 @@
         ],
         "subtext": "city",
         "emoji": "🇧🇷",
-        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ"
+        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Egypt",
         "level": "starter",
         "theme": "address_location_A1",
@@ -782,9 +878,11 @@
         ],
         "subtext": "country",
         "emoji": "🇪🇬",
-        "transcription": "ˈiʤɪpt"
+        "transcription": "ˈiʤɪpt",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "China",
         "level": "starter",
         "theme": "address_location_A1",
@@ -798,9 +896,11 @@
         ],
         "subtext": "country",
         "emoji": "🇨🇳",
-        "transcription": "ˈʧaɪnə"
+        "transcription": "ˈʧaɪnə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Japan",
         "level": "starter",
         "theme": "address_location_A1",
@@ -814,9 +914,11 @@
         ],
         "subtext": "country",
         "emoji": "🇯🇵",
-        "transcription": "ʤəˈpæn"
+        "transcription": "ʤəˈpæn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Germany",
         "level": "starter",
         "theme": "address_location_A1",
@@ -830,9 +932,11 @@
         ],
         "subtext": "country",
         "emoji": "🇩🇪",
-        "transcription": "ˈʤərməni"
+        "transcription": "ˈʤərməni",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Canada",
         "level": "starter",
         "theme": "address_location_A1",
@@ -846,9 +950,11 @@
         ],
         "subtext": "country",
         "emoji": "🇨🇦",
-        "transcription": "ˈkænədə"
+        "transcription": "ˈkænədə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Australia",
         "level": "starter",
         "theme": "address_location_A1",
@@ -862,9 +968,11 @@
         ],
         "subtext": "country",
         "emoji": "🇦🇺",
-        "transcription": "ɔˈstreɪljə"
+        "transcription": "ɔˈstreɪljə",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Brazil",
         "level": "starter",
         "theme": "address_location_A1",
@@ -878,9 +986,11 @@
         ],
         "subtext": "country",
         "emoji": "🇧🇷",
-        "transcription": "brəˈzɪl"
+        "transcription": "brəˈzɪl",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "India",
         "level": "starter",
         "theme": "address_location_A1",
@@ -894,9 +1004,32 @@
         ],
         "subtext": "country",
         "emoji": "🇮🇳",
-        "transcription": "ˈɪndiə"
+        "transcription": "ˈɪndiə",
+        "synonyms": [],    "opposite": null},
+{
+        "word": "the United Kingdom",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🇬🇧",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A country in Europe, also called the UK.",
+                "examples": [
+                    "London is the capital of the United Kingdom."
+                ]
+            }
+        ],
+        "subtext": "country",
+        "countability": "uncountable",
+        "transcription": "ðə juˌnaɪtɪd ˈkɪŋdəm",
+        "synonyms": [
+            "UK",
+            "Britain"
+        ],
+        "opposite": null
     }
-];
+    ];
     const lang = "en";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];

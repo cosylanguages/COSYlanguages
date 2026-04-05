@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "Albert Einstein",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -14,9 +14,11 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "ˈælbərt ˈaɪnstaɪn"
+        "transcription": "ˈælbərt ˈaɪnstaɪn",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Taylor Swift",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -30,9 +32,11 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "ˈteɪlər swɪft"
+        "transcription": "ˈteɪlər swɪft",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Cristiano Ronaldo",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -46,9 +50,11 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "krisˈtjɐnu ʁuˈnaɫdu"
+        "transcription": "krisˈtjɐnu ʁuˈnaɫdu",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Lionel Messi",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -62,9 +68,11 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "ljoˈnel ˈmesi"
+        "transcription": "ljoˈnel ˈmesi",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Beyoncé",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -78,9 +86,11 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "biˈɒnseɪ"
+        "transcription": "biˈɒnseɪ",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Elon Musk",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -94,89 +104,31 @@
             }
         ],
         "subtext": "famous businessman",
-        "transcription": "ˈiːlɒn ˈmʌsk"
+        "transcription": "ˈiːlɒn ˈmʌsk",
+        "synonyms": [],
+        "opposite": null
     },
-    {
+{
         "word": "Queen Elizabeth II",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "👑",
+        "form": "noun",
         "definitions": [
             {
-                "text": "The famous Queen of the United Kingdom for a very long time.",
+                "text": "The former Queen of the United Kingdom.",
                 "examples": [
-                    "Queen Elizabeth II lived in Buckingham Palace."
+                    "Queen Elizabeth II was the longest-reigning monarch."
                 ]
             }
         ],
-        "subtext": "famous queen",
-        "transcription": "kwiːn ɪˈlɪzəbəθ ðə ˈsɛkənd"
-    },
-    {
-        "word": "Marie Curie",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🧪",
-        "definitions": [
-            {
-                "text": "A famous scientist from Poland and France who studied radiation.",
-                "examples": [
-                    "Marie Curie was the first woman to win a Nobel Prize."
-                ]
-            }
-        ],
-        "subtext": "famous scientist",
-        "transcription": "mərˈi ˈkjʊri"
-    },
-    {
-        "word": "Leonardo da Vinci",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🎨",
-        "definitions": [
-            {
-                "text": "A famous artist and inventor from Italy who painted the Mona Lisa.",
-                "examples": [
-                    "Leonardo da Vinci was a genius of the Renaissance."
-                ]
-            }
-        ],
-        "subtext": "famous artist",
-        "transcription": "ˌliəˈnɑrdoʊ ˈdiˈeɪ ˈvɪnʧi"
-    },
-    {
-        "word": "Nelson Mandela",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "🇿🇦",
-        "definitions": [
-            {
-                "text": "A famous leader from South Africa who fought for peace and equality.",
-                "examples": [
-                    "Nelson Mandela was the first black president of South Africa."
-                ]
-            }
-        ],
-        "subtext": "famous leader",
-        "transcription": "ˈnɛlsən ˌmænˈdɛlə"
-    },
-    {
-        "word": "William Shakespeare",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
-        "emoji": "✍️",
-        "definitions": [
-            {
-                "text": "A famous writer from England who wrote many plays and poems.",
-                "examples": [
-                    "William Shakespeare wrote Romeo and Juliet."
-                ]
-            }
-        ],
-        "subtext": "famous writer",
-        "transcription": "ˈwɪljəm ˈʃeɪkˌspir"
+        "subtext": "famous person",
+        "countability": "uncountable",
+        "transcription": "kwin ɪˈlɪzəbəθ ðə ˈsɛkənd",
+        "synonyms": [],
+        "opposite": null
     }
-];
+    ];
     const lang = "en";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
