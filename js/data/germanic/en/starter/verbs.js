@@ -318,7 +318,10 @@
         "v2": "started",
         "v3": "started",
         "group": "regular",
-        "transcription": "stɑrt"
+        "transcription": "stɑrt",
+        "synonyms": [
+            "begin"
+        ]
     },
     {
         "word": "finish",
@@ -342,7 +345,11 @@
         "v2": "finished",
         "v3": "finished",
         "group": "regular",
-        "transcription": "ˈfɪnɪʃ"
+        "transcription": "ˈfɪnɪʃ",
+        "synonyms": [
+            "complete",
+            "end"
+        ]
     },
     {
         "word": "help",
@@ -365,7 +372,10 @@
         "v3": "helped",
         "group": "regular",
         "opposite": "hinder",
-        "transcription": "hɛlp"
+        "transcription": "hɛlp",
+        "synonyms": [
+            "assist"
+        ]
     },
     {
         "word": "try",
@@ -388,7 +398,10 @@
         "v3": "tried",
         "group": "regular",
         "opposite": "give up",
-        "transcription": "traɪ"
+        "transcription": "traɪ",
+        "synonyms": [
+            "attempt"
+        ]
     },
     {
         "word": "show",
@@ -412,7 +425,10 @@
         "v2": "showed",
         "v3": "shown",
         "group": "irregular",
-        "transcription": "ʃoʊ"
+        "transcription": "ʃoʊ",
+        "synonyms": [
+            "demonstrate"
+        ]
     },
     {
         "word": "find",
@@ -437,7 +453,10 @@
         "v2": "found",
         "v3": "found",
         "group": "irregular",
-        "transcription": "faɪnd"
+        "transcription": "faɪnd",
+        "synonyms": [
+            "locate"
+        ]
     },
     {
         "word": "keep",
@@ -461,7 +480,10 @@
         "v3": "kept",
         "group": "irregular",
         "opposite": "give away",
-        "transcription": "kip"
+        "transcription": "kip",
+        "synonyms": [
+            "retain"
+        ]
     },
     {
         "word": "lose",
@@ -486,7 +508,10 @@
         "v2": "lost",
         "v3": "lost",
         "group": "irregular",
-        "transcription": "luz"
+        "transcription": "luz",
+        "synonyms": [
+            "misplace"
+        ]
     },
     {
         "word": "cut",
@@ -510,7 +535,10 @@
         "v3": "cut",
         "group": "irregular",
         "opposite": "join",
-        "transcription": "kət"
+        "transcription": "kət",
+        "synonyms": [
+            "slice"
+        ]
     },
     {
         "word": "turn",
@@ -559,7 +587,10 @@
         "v2": "brought",
         "v3": "brought",
         "group": "irregular",
-        "transcription": "brɪŋ"
+        "transcription": "brɪŋ",
+        "synonyms": [
+            "carry"
+        ]
     },
     {
         "word": "say",
@@ -583,7 +614,11 @@
         "v3": "said",
         "group": "irregular",
         "opposite": "listen",
-        "transcription": "seɪ"
+        "transcription": "seɪ",
+        "synonyms": [
+            "tell",
+            "state"
+        ]
     },
     {
         "word": "tell",
@@ -606,7 +641,11 @@
         "v3": "told",
         "group": "irregular",
         "opposite": "ask",
-        "transcription": "tɛl"
+        "transcription": "tɛl",
+        "synonyms": [
+            "say",
+            "inform"
+        ]
     },
     {
         "word": "ask",
@@ -630,7 +669,10 @@
         "v2": "asked",
         "v3": "asked",
         "group": "regular",
-        "transcription": "æsk"
+        "transcription": "æsk",
+        "synonyms": [
+            "request"
+        ]
     },
     {
         "word": "speak",
@@ -654,7 +696,10 @@
         "v3": "spoken",
         "group": "irregular",
         "opposite": "be silent",
-        "transcription": "spik"
+        "transcription": "spik",
+        "synonyms": [
+            "talk"
+        ]
     },
     {
         "word": "talk",
@@ -677,7 +722,11 @@
         "v3": "talked",
         "group": "regular",
         "opposite": "listen",
-        "transcription": "tɔk"
+        "transcription": "tɔk",
+        "synonyms": [
+            "speak",
+            "chat"
+        ]
     },
     {
         "word": "call",
@@ -700,7 +749,10 @@
         "v3": "called",
         "group": "regular",
         "opposite": "hang up",
-        "transcription": "kɔl"
+        "transcription": "kɔl",
+        "synonyms": [
+            "phone"
+        ]
     },
     {
         "word": "write",
@@ -725,7 +777,10 @@
         "v2": "wrote",
         "v3": "written",
         "group": "irregular",
-        "transcription": "raɪt"
+        "transcription": "raɪt",
+        "synonyms": [
+            "note down"
+        ]
     },
     {
         "word": "read",
@@ -750,14 +805,17 @@
         "v2": "read",
         "v3": "read",
         "group": "irregular",
-        "transcription": "rɛd"
+        "transcription": "rɛd",
+        "synonyms": [
+            "look at"
+        ]
     },
     {
         "word": "listen",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "subtext": "listen to music / listen to someone / listen carefully / listen to a podcast",
         "form": "verb",
         "definitions": [
             {
@@ -774,7 +832,10 @@
         "v3": "listened",
         "group": "regular",
         "opposite": "say",
-        "transcription": "ˈlɪsən"
+        "transcription": "ˈlɪsən",
+        "synonyms": [
+            "hear"
+        ]
     },
     {
         "word": "answer",
@@ -799,7 +860,10 @@
         "v2": "answered",
         "v3": "answered",
         "group": "regular",
-        "transcription": "ˈænsər"
+        "transcription": "ˈænsər",
+        "synonyms": [
+            "reply"
+        ]
     },
     {
         "word": "repeat",
@@ -823,7 +887,10 @@
         "v3": "repeated",
         "group": "regular",
         "opposite": "change",
-        "transcription": "rɪˈpit"
+        "transcription": "rɪˈpit",
+        "synonyms": [
+            "say again"
+        ]
     },
     {
         "word": "go",
@@ -848,7 +915,10 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "ɡəʊ"
+        "transcription": "ɡəʊ",
+        "synonyms": [
+            "move"
+        ]
     },
     {
         "word": "come",
@@ -873,7 +943,10 @@
         "v2": "came",
         "v3": "come",
         "group": "irregular",
-        "transcription": "kʌm"
+        "transcription": "kʌm",
+        "synonyms": [
+            "arrive"
+        ]
     },
     {
         "word": "walk",
@@ -898,7 +971,10 @@
         "v2": "walked",
         "v3": "walked",
         "group": "regular",
-        "transcription": "wɔk"
+        "transcription": "wɔk",
+        "synonyms": [
+            "go on foot"
+        ]
     },
     {
         "word": "drive",
@@ -922,7 +998,10 @@
         "v3": "driven",
         "group": "irregular",
         "opposite": "walk",
-        "transcription": "draɪv"
+        "transcription": "draɪv",
+        "synonyms": [
+            "operate"
+        ]
     },
     {
         "word": "fly",
@@ -946,7 +1025,10 @@
         "v3": "flown",
         "group": "irregular",
         "opposite": "land",
-        "transcription": "flaɪ"
+        "transcription": "flaɪ",
+        "synonyms": [
+            "travel by air"
+        ]
     },
     {
         "word": "arrive",
@@ -970,7 +1052,10 @@
         "v2": "arrived",
         "v3": "arrived",
         "group": "regular",
-        "transcription": "əraɪv"
+        "transcription": "əraɪv",
+        "synonyms": [
+            "reach"
+        ]
     },
     {
         "word": "leave",
@@ -994,7 +1079,11 @@
         "v2": "left",
         "v3": "left",
         "group": "irregular",
-        "transcription": "liv"
+        "transcription": "liv",
+        "synonyms": [
+            "depart",
+            "go away"
+        ]
     },
     {
         "word": "move",
@@ -1041,7 +1130,10 @@
         "v3": "returned",
         "group": "regular",
         "opposite": "leave",
-        "transcription": "rɪˈtərn"
+        "transcription": "rɪˈtərn",
+        "synonyms": [
+            "come back"
+        ]
     },
     {
         "word": "travel",
@@ -1064,7 +1156,10 @@
         "v3": "traveled",
         "group": "regular",
         "opposite": "stay",
-        "transcription": "ˈtrævəl"
+        "transcription": "ˈtrævəl",
+        "synonyms": [
+            "journey"
+        ]
     },
     {
         "word": "eat",
@@ -1089,7 +1184,10 @@
         "v2": "ate",
         "v3": "eaten",
         "group": "irregular",
-        "transcription": "it"
+        "transcription": "it",
+        "synonyms": [
+            "have a meal"
+        ]
     },
     {
         "word": "drink",
@@ -1114,7 +1212,10 @@
         "v2": "drank",
         "v3": "drunk",
         "group": "irregular",
-        "transcription": "drɪŋk"
+        "transcription": "drɪŋk",
+        "synonyms": [
+            "sip"
+        ]
     },
     {
         "word": "sleep",
@@ -1139,7 +1240,10 @@
         "v2": "slept",
         "v3": "slept",
         "group": "irregular",
-        "transcription": "slip"
+        "transcription": "slip",
+        "synonyms": [
+            "rest"
+        ]
     },
     {
         "word": "cook",
@@ -1162,7 +1266,10 @@
         "v3": "cooked",
         "group": "regular",
         "opposite": "eat",
-        "transcription": "kʊk"
+        "transcription": "kʊk",
+        "synonyms": [
+            "prepare food"
+        ]
     },
     {
         "word": "clean",
@@ -1185,7 +1292,11 @@
         "v3": "cleaned",
         "group": "regular",
         "opposite": "dirty",
-        "transcription": "klin"
+        "transcription": "klin",
+        "synonyms": [
+            "wash",
+            "tidy"
+        ]
     },
     {
         "word": "wear",
@@ -1209,7 +1320,10 @@
         "v3": "worn",
         "group": "irregular",
         "opposite": "undress",
-        "transcription": "wɛr"
+        "transcription": "wɛr",
+        "synonyms": [
+            "have on"
+        ]
     },
     {
         "word": "wash",
@@ -1233,7 +1347,10 @@
         "v3": "washed",
         "group": "regular",
         "opposite": "dirty",
-        "transcription": "wɑʃ"
+        "transcription": "wɑʃ",
+        "synonyms": [
+            "clean"
+        ]
     },
     {
         "word": "buy",
@@ -1258,7 +1375,10 @@
         "v2": "bought",
         "v3": "bought",
         "group": "irregular",
-        "transcription": "baɪ"
+        "transcription": "baɪ",
+        "synonyms": [
+            "purchase"
+        ]
     },
     {
         "word": "pay",
@@ -1281,7 +1401,10 @@
         "v3": "paid",
         "group": "irregular",
         "opposite": "receive",
-        "transcription": "peɪ"
+        "transcription": "peɪ",
+        "synonyms": [
+            "spend"
+        ]
     },
     {
         "word": "spend",
@@ -1305,7 +1428,10 @@
         "v2": "spent",
         "v3": "spent",
         "group": "irregular",
-        "transcription": "spɛnd"
+        "transcription": "spɛnd",
+        "synonyms": [
+            "pay"
+        ]
     },
     {
         "word": "save",
@@ -1329,7 +1455,10 @@
         "v2": "saved",
         "v3": "saved",
         "group": "regular",
-        "transcription": "seɪv"
+        "transcription": "seɪv",
+        "synonyms": [
+            "keep"
+        ]
     },
     {
         "word": "work",
@@ -1353,7 +1482,10 @@
         "v2": "worked",
         "v3": "worked",
         "group": "regular",
-        "transcription": "wərk"
+        "transcription": "wərk",
+        "synonyms": [
+            "do a job"
+        ]
     },
     {
         "word": "live",
@@ -1378,14 +1510,17 @@
         "v2": "lived",
         "v3": "lived",
         "group": "regular",
-        "transcription": "lɪv"
+        "transcription": "lɪv",
+        "synonyms": [
+            "reside"
+        ]
     },
     {
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / of, think about / think of / think it is / think carefully",
+        "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
             {
@@ -1402,7 +1537,10 @@
         "v3": "thought",
         "group": "irregular",
         "opposite": "feel",
-        "transcription": "θɪŋk"
+        "transcription": "θɪŋk",
+        "synonyms": [
+            "believe"
+        ]
     },
     {
         "word": "know",
@@ -1427,7 +1565,10 @@
         "v3": "known",
         "group": "irregular",
         "opposite": "wonder",
-        "transcription": "noʊ"
+        "transcription": "noʊ",
+        "synonyms": [
+            "understand"
+        ]
     },
     {
         "word": "want",
@@ -1452,7 +1593,10 @@
         "v3": "wanted",
         "group": "regular",
         "opposite": "refuse",
-        "transcription": "wɔnt"
+        "transcription": "wɔnt",
+        "synonyms": [
+            "desire"
+        ]
     },
     {
         "word": "need",
@@ -1477,7 +1621,10 @@
         "v3": "needed",
         "group": "regular",
         "opposite": "have",
-        "transcription": "nid"
+        "transcription": "nid",
+        "synonyms": [
+            "require"
+        ]
     },
     {
         "word": "like",
@@ -1503,7 +1650,10 @@
         "v2": "liked",
         "v3": "liked",
         "group": "regular",
-        "transcription": "laɪk"
+        "transcription": "laɪk",
+        "synonyms": [
+            "enjoy"
+        ]
     },
     {
         "word": "dislike",
@@ -1552,7 +1702,10 @@
         "v2": "loved",
         "v3": "loved",
         "group": "regular",
-        "transcription": "ləv"
+        "transcription": "ləv",
+        "synonyms": [
+            "adore"
+        ]
     },
     {
         "word": "hate",
@@ -1577,7 +1730,10 @@
         "v2": "hated",
         "v3": "hated",
         "group": "regular",
-        "transcription": "heɪt"
+        "transcription": "heɪt",
+        "synonyms": [
+            "dislike"
+        ]
     },
     {
         "word": "hope",
@@ -1601,7 +1757,10 @@
         "v3": "hoped",
         "group": "regular",
         "opposite": "fear",
-        "transcription": "hoʊp"
+        "transcription": "hoʊp",
+        "synonyms": [
+            "wish"
+        ]
     },
     {
         "word": "remember",
@@ -1827,7 +1986,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / for, look at / look for / look like / look happy",
+        "subtext": "look at something / look for something / look at / for, look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
             {
@@ -2117,7 +2276,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "subtext": "wait for someone / wait for the bus / wait in a queue / wait a moment",
         "form": "verb",
         "definitions": [
             {
@@ -5125,6 +5284,52 @@
         "classification": "regular",
         "group": "regular",
         "subtext": "belong TO someone/something"
+    },
+    {
+        "word": "can",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💪",
+        "form": "verb",
+        "transcription": "kæn",
+        "definitions": [
+            {
+                "text": "To be able to do something.",
+                "examples": [
+                    "I can speak English.",
+                    "Can you help me?"
+                ]
+            }
+        ],
+        "v2": "could",
+        "v3": "been able to",
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "modal",
+        "subtext": "ability, permission"
+    },
+    {
+        "word": "must",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚠️",
+        "form": "verb",
+        "transcription": "mʌst",
+        "definitions": [
+            {
+                "text": "Used to say that something is necessary or very important.",
+                "examples": [
+                    "I must go now.",
+                    "You must finish your work."
+                ]
+            }
+        ],
+        "v2": "had to",
+        "v3": "had to",
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "modal",
+        "subtext": "necessity, obligation"
     }
 ];
     const lang = "en";

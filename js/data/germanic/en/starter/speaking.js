@@ -74,7 +74,7 @@
                 "sideA": "City",
                 "sideB": "Village",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
+                "theme": "address_location_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -119,7 +119,7 @@
                 "sideA": "Car",
                 "sideB": "Bus",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
+                "theme": "address_location_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -128,7 +128,7 @@
                 "sideA": "Walking",
                 "sideB": "Driving",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
+                "theme": "address_location_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -164,7 +164,7 @@
                 "sideA": "Short",
                 "sideB": "Long",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
+                "theme": "address_location_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -209,7 +209,7 @@
                 "sideA": "Window",
                 "sideB": "Aisle",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
+                "theme": "address_location_A1",
                 "ideasA": [],
                 "ideasB": []
             },
