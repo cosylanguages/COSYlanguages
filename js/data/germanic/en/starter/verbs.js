@@ -1520,7 +1520,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / of, think about / think of / think it is / think carefully",
+        "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
             {
@@ -1986,7 +1986,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / for, look at / look for / look like / look happy",
+        "subtext": "look at something / look for something / look at / for, look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
             {

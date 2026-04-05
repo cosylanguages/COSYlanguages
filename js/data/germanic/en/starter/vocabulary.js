@@ -11911,7 +11911,7 @@
     {
         "word": "first",
         "level": "starter",
-        "theme": "sequence_order_A2",
+        "theme": "numbers_0_9_A1",
         "emoji": "1️⃣",
         "form": "adjective",
         "opposite": "last",
@@ -11931,7 +11931,7 @@
     {
         "word": "last",
         "level": "starter",
-        "theme": "sequence_order_A2",
+        "theme": "times_day_A1",
         "emoji": "🔚",
         "form": "adjective",
         "opposite": "first",
@@ -11951,7 +11951,7 @@
     {
         "word": "next",
         "level": "starter",
-        "theme": "sequence_order_A2",
+        "theme": "times_day_A1",
         "emoji": "⏭️",
         "form": "adjective",
         "opposite": "previous",
@@ -28111,8 +28111,7 @@
         "subtext": "time of year",
         "countability": "countable",
         "transcription": "ˈsizən"
-    }
-    ,
+    },
     {
         "word": "a",
         "level": "starter",
@@ -28654,8 +28653,7 @@
         ],
         "subtext": "contact information",
         "countability": "countable"
-    }
-,
+    },
     {
         "word": "wardrobe",
         "level": "starter",
@@ -28762,6 +28760,114 @@
             }
         ],
         "subtext": "normally"
+    },
+    {
+        "word": "Mr",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "👨",
+        "form": "noun",
+        "transcription": "ˈmɪstər",
+        "definitions": [
+            {
+                "text": "A title for a man, used before his surname.",
+                "examples": [
+                    "Hello, Mr. Smith."
+                ]
+            }
+        ],
+        "subtext": "title for a man",
+        "countability": "countable"
+    },
+    {
+        "word": "Mrs",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "👩",
+        "form": "noun",
+        "transcription": "ˈmɪsɪz",
+        "definitions": [
+            {
+                "text": "A title for a married woman, used before her surname.",
+                "examples": [
+                    "Nice to meet you, Mrs. Jones."
+                ]
+            }
+        ],
+        "subtext": "title for a married woman",
+        "countability": "countable"
+    },
+    {
+        "word": "Ms",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "👩",
+        "form": "noun",
+        "transcription": "mɪz",
+        "definitions": [
+            {
+                "text": "A title for a woman, regardless of her marital status.",
+                "examples": [
+                    "Is Ms. Miller here?"
+                ]
+            }
+        ],
+        "subtext": "title for a woman",
+        "countability": "countable"
+    },
+    {
+        "word": "pardon",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👂",
+        "form": "noun",
+        "transcription": "ˈpɑːrdn",
+        "definitions": [
+            {
+                "text": "Used to ask someone to repeat what they said because you did not hear it.",
+                "examples": [
+                    "Pardon? Can you say that again?"
+                ]
+            }
+        ],
+        "subtext": "social phrase",
+        "countability": "uncountable"
+    },
+    {
+        "word": "sir",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👨",
+        "form": "noun",
+        "transcription": "sɜːr",
+        "definitions": [
+            {
+                "text": "A polite way to address a man.",
+                "examples": [
+                    "Can I help you, sir?"
+                ]
+            }
+        ],
+        "subtext": "polite address",
+        "countability": "countable"
+    },
+    {
+        "word": "madam",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👩",
+        "form": "noun",
+        "transcription": "ˈmædəm",
+        "definitions": [
+            {
+                "text": "A polite way to address a woman.",
+                "examples": [
+                    "This way, madam."
+                ]
+            }
+        ],
+        "subtext": "polite address",
+        "countability": "countable"
     }
 ];
     const lang = "en";

@@ -246,7 +246,7 @@
         "theme": "social_emotions_A2",
         "emoji": "🙏",
         "form": "verb",
-        "subtext": "",
+        "subtext": "apologise for something / to someone",
         "synonyms": [
             "say sorry"
         ],
@@ -372,7 +372,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "",
+        "subtext": "argue with someone / about something",
         "synonyms": [
             "fight",
             "disagree"
@@ -937,7 +937,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "😠",
         "form": "verb",
-        "subtext": "complain about / complain to someone",
+        "subtext": "complain about something / to someone / complain about / complain to someone",
         "synonyms": [
             "criticize"
         ],
@@ -1011,7 +1011,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "🧠",
         "form": "verb",
-        "subtext": "concentrate on work / hard to concentrate",
+        "subtext": "concentrate on something / concentrate on work / hard to concentrate",
         "definitions": [
             {
                 "text": "To give all your attention to something.",
@@ -1650,7 +1650,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "👎",
         "form": "verb",
-        "subtext": "disagree with / I disagree",
+        "subtext": "disagree with someone / disagree with / I disagree",
         "definitions": [
             {
                 "text": "To have a different opinion from someone.",
@@ -1701,7 +1701,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "discuss a topic / discuss in detail / discuss with someone",
+        "subtext": "discuss something with someone / discuss a topic / discuss in detail / discuss with someone",
         "definitions": [
             {
                 "text": "To talk about something in detail.",
@@ -3115,7 +3115,7 @@
         "theme": "community_neighbourhood_local_A2",
         "emoji": "🙋",
         "form": "verb",
-        "subtext": "participate in a meeting / participate in a discussion",
+        "subtext": "participate in something / participate in a meeting / participate in a discussion",
         "synonyms": [
             "take part",
             "join"
@@ -4624,7 +4624,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "rely on someone/something",
         "synonyms": [
             "depend"
         ],
@@ -4808,7 +4808,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "respond to an email / respond to someone",
         "synonyms": [
             "answer",
             "reply"
