@@ -364,10 +364,6 @@ footer {
 .fs-content p { opacity: .9; font-size: .92rem; line-height: 1.6; }
 .fs-action { margin-top: 1.2rem; }
 
-.session-log {
-  margin-top: 4rem;
-}
-.session-log h3 { font-family: 'Lora', serif; font-size: 1.3rem; margin-bottom: 1.5rem; color: var(--sage-deep); }
 .log-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
 .log-item {
   background: #fff; border: 1px solid var(--border); padding: 1rem; border-radius: var(--radius-sm);
@@ -466,11 +462,12 @@ footer {
     </header>
 
     <main>
+<div class="session-log" id="session-log-container"><h3>Recently Played 🕒</h3><div class="log-grid" id="session-log-grid"></div></div>
         <section id="events">
             <h2 data-translate-key="events_title" style="display: none;">Our Events 🎉</h2>
 
             <div class="events-hero-stats">
-              <div class="e-stat"><span class="e-stat-icon">🎮</span> <div class="e-stat-body"><span class="e-stat-val">11</span> <span class="e-stat-lbl">Games</span></div></div>
+              <div class="e-stat"><span class="e-stat-icon">🎮</span> <div class="e-stat-body"><span class="e-stat-val">13</span> <span class="e-stat-lbl">Games</span></div></div>
               <div class="e-stat"><span class="e-stat-icon">🗣️</span> <div class="e-stat-body"><span class="e-stat-val">6</span> <span class="e-stat-lbl">Topics</span></div></div>
               <div class="e-stat"><span class="e-stat-icon">✅</span> <div class="e-stat-body"><span class="e-stat-val">0</span> <span class="e-stat-lbl">Account required</span></div></div>
             </div>
@@ -641,12 +638,6 @@ footer {
               </div>
             </div>
 
-            <div class="session-log" id="session-log-container" style="display: none;">
-              <h3>Recently Played 🕒</h3>
-              <div class="log-grid" id="session-log-grid">
-                <!-- Log items will be added here -->
-              </div>
-            </div>
 
             <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--sage-dark); margin: 4rem 0 1rem; display: flex; align-items: center; gap: .5rem;">🗣️ Speaking Clubs & More <span style="flex: 1; height: 1px; background: var(--border);"></span></div>
 

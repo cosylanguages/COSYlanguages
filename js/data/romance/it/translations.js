@@ -979,7 +979,7 @@
             tool_practice_desc: "Esercizi di vocabolario, grammatica e parlato in tutte le nostre lingue. Punti COSY, serie quotidiane e 10 tipi di attività — l'abitudine perfetta tra le lezioni, o un punto di partenza delicato prima di iniziare.",
             tool_practice_cta: "Prova la pratica gratuita →",
             tool_games_title: "Giochi linguistici 🎮",
-            tool_games_desc: "11 giochi linguistici interattivi — gioca da solo o con gli amici. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits e altri. Qualsiasi lingua, qualsiasi livello QCER, in qualsiasi momento.",
+            tool_games_desc: "13 giochi linguistici interattivi — gioca da solo o con gli amici. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits e altri. Qualsiasi lingua, qualsiasi livello QCER, in qualsiasi momento.",
             tool_games_cta: "Gioca ai giochi gratuiti →",
             events_row_h4: "Eventi dal vivo — Speaking Club, Karaoke e Serate Cinema",
             events_row_p: "Sessioni organizzate con un insegnante o un ospite — club di conversazione su argomenti reali, serate karaoke e serate di cinema in lingua originale. Controlla la pagina degli eventi per i dettagli e come partecipare.",

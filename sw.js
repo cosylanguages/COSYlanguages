@@ -1,9 +1,13 @@
-const CACHE = 'cosy-v1';
+const CACHE = 'cosy-v2';
 const STATIC = [
   '/COSYlanguages/',
   '/COSYlanguages/index.html',
   '/COSYlanguages/practice.html',
   '/COSYlanguages/events.html',
+  '/COSYlanguages/days.html',
+  '/COSYlanguages/mobile.css',
+  '/COSYlanguages/mobile.js',
+  '/COSYlanguages/games-improvements.js',
   '/COSYlanguages/js/srs.js',
   '/COSYlanguages/images/cosylanguages.png',
   '/COSYlanguages/images/cosyenglish.png',

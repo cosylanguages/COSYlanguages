@@ -5,11 +5,46 @@
 // ── Bottom nav: update active state based on current page
 function updateMobileNav() {
   const path = window.location.pathname;
-  document.querySelectorAll('.mobile-nav-item').forEach(item => {
+  const hash = window.location.hash || window.location.href.split('#')[1] || '';
+  const currentFilename = path.split('/').pop() || 'index.html';
+
+  // Resilient check for language pages
+  const isLanguagePage = path.includes('/languages/') ||
+                         path.includes('languages/') ||
+                         ['en.html', 'fr.html', 'it.html', 'ru.html', 'el.html'].some(p => path.endsWith(p) && path.includes('languages'));
+
+  const items = document.querySelectorAll('.mobile-nav-item');
+  if (items.length === 0) return;
+
+  items.forEach(item => {
     const href = item.getAttribute('href') || '';
-    item.classList.toggle('active',
-      href && path.endsWith(href.split('/').pop())
-    );
+    const linkPath = href.split('#')[0];
+    const linkFilename = linkPath.split('/').pop() || 'index.html';
+
+    let active = false;
+
+    if (isLanguagePage) {
+      // On any sub-language page, highlight the "Languages" tab
+      active = (item.id === 'mnav-languages');
+    } else {
+      // Normal page matching
+      active = (currentFilename === linkFilename);
+
+      // Home page special logic to distinguish Home vs Languages
+      if (currentFilename === 'index.html' || currentFilename === '' || currentFilename === '/') {
+        if (hash === 'languages' || hash === '#languages') {
+          active = (item.id === 'mnav-languages');
+        } else {
+          active = (item.id === 'mnav-home');
+        }
+      }
+    }
+
+    if (active) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
   });
 }
 
@@ -206,8 +241,11 @@ function showInstallNudge(isIOS) {
 // ── Bottom nav HTML — inject into every page
 function injectMobileNav() {
   const path = window.location.pathname;
-  const isGH = path.includes('/COSYlanguages/');
+  const isGH = path.indexOf('/COSYlanguages/') !== -1;
   const base = isGH ? '/COSYlanguages/' : '/';
+
+  if (document.querySelector('.mobile-nav')) return;
+
   const nav = document.createElement('nav');
   nav.className = 'mobile-nav';
   nav.innerHTML = `
@@ -233,7 +271,8 @@ function injectMobileNav() {
     </a>
   `;
   document.body.appendChild(nav);
-  updateMobileNav();
+  // Using a short timeout to ensure the DOM is fully settled
+  setTimeout(updateMobileNav, 10);
 }
 
 // ── Answer flash element — inject once
@@ -256,10 +295,22 @@ function injectSheetOverlay() {
 }
 
 // ── Boot
-document.addEventListener('DOMContentLoaded', () => {
+function initMobile() {
   injectMobileNav();
   injectAnswerFlash();
   injectSheetOverlay();
   checkInstallPrompt();
   updateMobileNav();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initMobile);
+} else {
+  initMobile();
+}
+
+window.updateMobileNav = updateMobileNav;
+window.openGameSheet = openGameSheet;
+window.closeGameSheet = closeGameSheet;
+window.flashAnswer = flashAnswer;
+window.startTimerRing = startTimerRing;

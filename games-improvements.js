@@ -722,8 +722,8 @@ const GameSessionManager = {
   },
 
   recordSession(gameName, icon) {
-    const lang = document.getElementById('global-lang-select')?.value || 'en';
-    const level = document.getElementById('global-level-select')?.value || 'starter';
+    let lang = document.getElementById('global-lang-select')?.value || localStorage.getItem('language') || 'en';
+    let level = document.getElementById('global-level-select')?.value || 'starter';
     let log = JSON.parse(localStorage.getItem(this.LOG_KEY) || '[]');
 
     // Add new at start, limit to 4
