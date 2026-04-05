@@ -5126,6 +5126,53 @@
         "group": "regular",
         "subtext": "belong TO someone/something"
     }
+    ,
+    {
+        "word": "can",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💪",
+        "form": "verb",
+        "transcription": "kæn",
+        "definitions": [
+            {
+                "text": "To be able to do something.",
+                "examples": [
+                    "I can speak English.",
+                    "Can you help me?"
+                ]
+            }
+        ],
+        "v2": "could",
+        "v3": "been able to",
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "modal",
+        "subtext": "ability, permission"
+    },
+    {
+        "word": "must",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚠️",
+        "form": "verb",
+        "transcription": "mʌst",
+        "definitions": [
+            {
+                "text": "Used to say that something is necessary or very important.",
+                "examples": [
+                    "I must go now.",
+                    "You must finish your work."
+                ]
+            }
+        ],
+        "v2": "had to",
+        "v3": "had to",
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "modal",
+        "subtext": "necessity, obligation"
+    }
 ];
     const lang = "en";
     window.verbsData = window.verbsData || {};
