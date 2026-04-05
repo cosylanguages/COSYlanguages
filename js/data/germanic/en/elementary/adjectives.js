@@ -16,7 +16,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "not present, away",
         "synonyms": [
             "not present",
             "away"
@@ -40,7 +40,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "school-related",
         "synonyms": [
             "school-related"
         ],
@@ -63,7 +63,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "real, true",
         "synonyms": [
             "real",
             "true"
@@ -87,7 +87,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "inexpensive, low-cost",
         "synonyms": [
             "inexpensive",
             "low-cost"
@@ -111,7 +111,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "violent, angry",
         "synonyms": [
             "violent",
             "angry"
@@ -135,7 +135,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "determined, aspiring",
         "synonyms": [
             "determined",
             "aspiring"
@@ -159,7 +159,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "yearly",
         "synonyms": [
             "yearly"
         ],
@@ -183,7 +183,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "worried, nervous, uneasy",
         "synonyms": [
             "worried",
             "nervous",
@@ -208,7 +208,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "man-made, synthetic",
         "synonyms": [
             "man-made",
             "synthetic"
@@ -232,7 +232,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "fit, sporty, physically active",
         "synonyms": [
             "fit",
             "sporty",
@@ -257,7 +257,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "self-working",
         "synonyms": [
             "self-working"
         ],
@@ -304,7 +304,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "informed, conscious",
         "synonyms": [
             "informed",
             "conscious"
@@ -329,7 +329,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "simple, fundamental, essential",
         "synonyms": [
             "simple",
             "fundamental",
@@ -354,7 +354,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "nature-related",
         "synonyms": [
             "nature-related"
         ],
@@ -378,7 +378,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "short, quick, concise",
         "synonyms": [
             "short",
             "quick",
@@ -470,7 +470,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "middle, main",
         "synonyms": [
             "middle",
             "main"
@@ -495,7 +495,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sure, definite, positive",
         "synonyms": [
             "sure",
             "definite",
@@ -521,7 +521,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "happy, joyful, upbeat",
         "synonyms": [
             "happy",
             "joyful",
@@ -566,7 +566,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "business-related",
         "synonyms": [
             "business-related"
         ],
@@ -589,7 +589,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "ambitious",
         "synonyms": [
             "ambitious"
         ],
@@ -612,7 +612,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "complex, intricate",
         "synonyms": [
             "complex",
             "intricate"
@@ -637,7 +637,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "self-assured, bold",
         "synonyms": [
             "self-assured",
             "bold"
@@ -661,7 +661,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "secret, private, classified",
         "synonyms": [
             "secret",
             "private",
@@ -686,7 +686,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "aware",
         "synonyms": [
             "aware"
         ],
@@ -732,7 +732,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "judgmental, negative",
         "synonyms": [
             "judgmental",
             "negative"
@@ -757,7 +757,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "mean, unkind",
         "synonyms": [
             "mean",
             "unkind"
@@ -781,7 +781,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "culture-related",
         "synonyms": [
             "culture-related"
         ],
@@ -805,7 +805,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "interested, inquisitive",
         "synonyms": [
             "interested",
             "inquisitive"
@@ -872,7 +872,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "planned, intentional",
         "synonyms": [
             "planned",
             "intentional"
@@ -896,7 +896,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "tech-related",
         "synonyms": [
             "tech-related"
         ],
@@ -987,7 +987,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "economy-related",
         "synonyms": [
             "economy-related"
         ],
@@ -1010,7 +1010,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "effective, productive",
         "synonyms": [
             "effective",
             "productive"
@@ -1034,7 +1034,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "feeling-based",
         "synonyms": [
             "feeling-based"
         ],
@@ -1081,7 +1081,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "nature-related",
         "synonyms": [
             "nature-related"
         ],
@@ -1148,7 +1148,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very high, intense",
         "synonyms": [
             "very high",
             "intense"
@@ -1196,7 +1196,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "well-known",
         "synonyms": [
             "well-known"
         ],
@@ -1219,7 +1219,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "money-related",
         "synonyms": [
             "money-related"
         ],
@@ -1287,7 +1287,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "from another country, alien",
         "synonyms": [
             "from another country",
             "alien"
@@ -1312,7 +1312,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "official, serious",
         "synonyms": [
             "official",
             "serious"
@@ -1337,7 +1337,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "new, recently picked",
         "synonyms": [
             "new",
             "recently picked"
@@ -1385,7 +1385,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "common, overall",
         "synonyms": [
             "common",
             "overall"
@@ -1410,7 +1410,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "kind, giving",
         "synonyms": [
             "kind",
             "giving"
@@ -1434,7 +1434,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "worldwide",
         "synonyms": [
             "worldwide"
         ],
@@ -1457,7 +1457,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "thankful",
         "synonyms": [
             "thankful"
         ],
@@ -1480,7 +1480,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "responsible for crime",
         "synonyms": [
             "responsible for crime"
         ],
@@ -1504,7 +1504,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very large, enormous",
         "synonyms": [
             "very large",
             "enormous"
@@ -1528,7 +1528,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "unlawful",
         "synonyms": [
             "unlawful"
         ],
@@ -1551,7 +1551,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "instant, direct",
         "synonyms": [
             "instant",
             "direct"
@@ -1690,7 +1690,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "industry-related",
         "synonyms": [
             "industry-related"
         ],
@@ -1713,7 +1713,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "not guilty",
         "synonyms": [
             "not guilty"
         ],
@@ -1737,7 +1737,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "clever, smart",
         "synonyms": [
             "clever",
             "smart"
@@ -1762,7 +1762,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "inside, inner",
         "synonyms": [
             "inside",
             "inner"
@@ -1787,7 +1787,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "lower rank, younger",
         "synonyms": [
             "lower rank",
             "younger"
@@ -1811,7 +1811,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "lawful",
         "synonyms": [
             "lawful"
         ],
@@ -1834,7 +1834,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "probable",
         "synonyms": [
             "probable"
         ],
@@ -1858,7 +1858,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "nearby, regional",
         "synonyms": [
             "nearby",
             "regional"
@@ -1882,7 +1882,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "rational, reasonable",
         "synonyms": [
             "rational",
             "reasonable"
@@ -1907,7 +1907,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "baggy, not tight",
         "synonyms": [
             "baggy",
             "not tight"
@@ -1931,7 +1931,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "faithful",
         "synonyms": [
             "faithful"
         ],
@@ -1954,7 +1954,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "hand-done",
         "synonyms": [
             "hand-done"
         ],
@@ -1977,7 +1977,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "mind-related",
         "synonyms": [
             "mind-related"
         ],
@@ -2001,7 +2001,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "untidy, disordered",
         "synonyms": [
             "untidy",
             "disordered"
@@ -2025,7 +2025,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "gentle, moderate",
         "synonyms": [
             "gentle",
             "moderate"
@@ -2050,7 +2050,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "humble",
         "synonyms": [
             "humble"
         ],
@@ -2074,7 +2074,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "tidy, organized",
         "synonyms": [
             "tidy",
             "organized"
@@ -2122,7 +2122,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "bad, harmful",
         "synonyms": [
             "bad",
             "harmful"
@@ -2146,7 +2146,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "many",
         "synonyms": [
             "many"
         ],
@@ -2169,7 +2169,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "strange, unusual",
         "synonyms": [
             "strange",
             "unusual"
@@ -2194,7 +2194,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "formal, authorized",
         "synonyms": [
             "formal",
             "authorized"
@@ -2219,7 +2219,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "positive, hopeful",
         "synonyms": [
             "positive",
             "hopeful"
@@ -2315,7 +2315,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "constant, forever",
         "synonyms": [
             "constant",
             "forever"
@@ -2339,7 +2339,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "private, individual",
         "synonyms": [
             "private",
             "individual"
@@ -2364,7 +2364,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "negative, hopeless",
         "synonyms": [
             "negative",
             "hopeless"
@@ -2388,7 +2388,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "body-related",
         "synonyms": [
             "body-related"
         ],
@@ -2411,7 +2411,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "government-related",
         "synonyms": [
             "government-related"
         ],
@@ -2459,7 +2459,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "hopeful, good",
         "synonyms": [
             "hopeful",
             "good"
@@ -2483,7 +2483,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "possible",
         "synonyms": [
             "possible"
         ],
@@ -2554,7 +2554,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "personal, confidential",
         "synonyms": [
             "personal",
             "confidential"
@@ -2625,7 +2625,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "open, communal",
         "synonyms": [
             "open",
             "communal"
@@ -2673,7 +2673,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "uncommon, unusual",
         "synonyms": [
             "uncommon",
             "unusual"
@@ -2697,7 +2697,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sensible, fair",
         "synonyms": [
             "sensible",
             "fair"
@@ -2745,7 +2745,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "usual, normal",
         "synonyms": [
             "usual",
             "normal"
@@ -2769,7 +2769,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "applicable",
         "synonyms": [
             "applicable"
         ],
@@ -2815,7 +2815,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "distant",
         "synonyms": [
             "distant"
         ],
@@ -2885,7 +2885,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "science-related",
         "synonyms": [
             "science-related"
         ],
@@ -2909,7 +2909,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "self-centered",
         "synonyms": [
             "self-centered"
         ],
@@ -2933,7 +2933,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "practical, reasonable",
         "synonyms": [
             "practical",
             "reasonable"
@@ -2958,7 +2958,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "delicate, emotional",
         "synonyms": [
             "delicate",
             "emotional"
@@ -2982,7 +2982,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "serious, extreme",
         "synonyms": [
             "serious",
             "extreme"
@@ -3052,7 +3052,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "society-related",
         "synonyms": [
             "society-related"
         ],
@@ -3075,7 +3075,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "non-physical, deep",
         "synonyms": [
             "non-physical",
             "deep"
@@ -3217,7 +3217,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "eco-friendly",
         "synonyms": [
             "eco-friendly"
         ],
@@ -3241,7 +3241,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "gifted, skilled",
         "synonyms": [
             "gifted",
             "skilled"
@@ -3288,7 +3288,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "short-term",
         "synonyms": [
             "short-term"
         ],
@@ -3312,7 +3312,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "close-fitting, small",
         "synonyms": [
             "close-fitting",
             "small"
@@ -3451,7 +3451,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "improbable",
         "synonyms": [
             "improbable"
         ],
@@ -3544,7 +3544,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "strange, uncommon",
         "synonyms": [
             "strange",
             "uncommon"
@@ -3569,7 +3569,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "unhappy, sad",
         "synonyms": [
             "unhappy",
             "sad"
@@ -3617,7 +3617,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "precious, expensive",
         "synonyms": [
             "precious",
             "expensive"
@@ -3642,7 +3642,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "huge, enormous",
         "synonyms": [
             "huge",
             "enormous"
@@ -3667,7 +3667,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "rich, affluent",
         "synonyms": [
             "rich",
             "affluent"
@@ -3715,7 +3715,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "ready, eager",
         "synonyms": [
             "ready",
             "eager"
@@ -3740,7 +3740,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "intelligent, sensible",
         "synonyms": [
             "intelligent",
             "sensible"
@@ -3785,7 +3785,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "cheap, useless",
         "synonyms": [
             "cheap",
             "useless"
@@ -3809,7 +3809,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very happy, pleased",
         "synonyms": [
             "very happy",
             "pleased"
@@ -3834,7 +3834,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "boring, not bright",
         "synonyms": [
             "boring",
             "not bright"
@@ -3859,7 +3859,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "old people",
         "synonyms": [
             "old people"
         ],
@@ -3883,7 +3883,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "often",
         "synonyms": [
             "often"
         ],
@@ -3907,7 +3907,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "inside",
         "synonyms": [
             "inside"
         ],
@@ -3931,7 +3931,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "primary, chief",
         "synonyms": [
             "primary",
             "chief"
@@ -3956,13 +3956,13 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "health-related",
         "synonyms": [
             "health-related"
         ],
         "comparative": "more medical",
         "superlative": "the most medical",
-        "opposite": null,
+        "opposite": "non-medical",
         "transcription": "ˈmɛdɪkl"
     },
     {
@@ -3980,7 +3980,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "close, near",
         "synonyms": [
             "close",
             "near"
@@ -4005,7 +4005,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "outside",
         "synonyms": [
             "outside"
         ],
@@ -4029,7 +4029,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "nice, enjoyable",
         "synonyms": [
             "nice",
             "enjoyable"
@@ -4054,7 +4054,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "happy, satisfied",
         "synonyms": [
             "happy",
             "satisfied"
@@ -4079,7 +4079,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "less important",
         "synonyms": [
             "less important"
         ],
@@ -4103,7 +4103,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "quiet",
         "synonyms": [
             "quiet"
         ],
@@ -4127,7 +4127,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "unexpected",
         "synonyms": [
             "unexpected"
         ],
@@ -4151,7 +4151,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "appropriate",
         "synonyms": [
             "appropriate"
         ],
@@ -4175,7 +4175,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "different types",
         "synonyms": [
             "different types"
         ],
@@ -4200,7 +4200,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sticky weather, moist air",
         "synonyms": [
             "sticky weather",
             "moist air"
@@ -4225,7 +4225,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "cool, cold",
         "synonyms": [
             "cool",
             "cold"
@@ -4250,7 +4250,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "moderate, gentle",
         "synonyms": [
             "moderate",
             "gentle"
@@ -4275,7 +4275,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "promised to marry",
         "synonyms": [
             "promised to marry"
         ],
@@ -4299,7 +4299,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very angry, livid",
         "synonyms": [
             "very angry",
             "livid"
@@ -4324,7 +4324,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very scared, frightened",
         "synonyms": [
             "very scared",
             "frightened"
@@ -4349,7 +4349,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very tired, worn out",
         "synonyms": [
             "very tired",
             "worn out"
@@ -4374,7 +4374,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "loving, passionate",
         "synonyms": [
             "loving",
             "passionate"
@@ -4399,7 +4399,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "puzzled, unsure",
         "synonyms": [
             "puzzled",
             "unsure"

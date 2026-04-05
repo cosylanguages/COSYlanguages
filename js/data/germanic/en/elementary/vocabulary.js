@@ -54,7 +54,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "success, accomplishment",
         "synonyms": [
             "success",
             "accomplishment"
@@ -76,7 +76,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "math process",
         "synonyms": [
             "math process"
         ],
@@ -97,7 +97,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "benefit, plus point",
         "synonyms": [
             "benefit",
             "plus point"
@@ -121,7 +121,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "ad, commercial",
         "synonyms": [
             "ad",
             "commercial"
@@ -142,7 +142,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "deal, pact",
         "synonyms": [
             "deal",
             "pact"
@@ -223,7 +223,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "news story, report",
         "synonyms": [
             "news story",
             "report"
@@ -264,7 +264,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "air, sky",
         "synonyms": [
             "air",
             "sky"
@@ -305,7 +305,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "advantage, helpful effect",
         "synonyms": [
             "advantage",
             "helpful effect"
@@ -346,7 +346,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "variety of life",
         "synonyms": [
             "variety of life"
         ],
@@ -367,7 +367,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "science subject",
         "synonyms": [
             "science subject"
         ],
@@ -388,7 +388,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "body liquid",
         "synonyms": [
             "body liquid"
         ],
@@ -410,7 +410,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "flight ticket, travel document",
         "synonyms": [
             "flight ticket",
             "travel document"
@@ -433,7 +433,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "body part",
         "synonyms": [
             "body part"
         ],
@@ -455,7 +455,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "boundary, frontier",
         "synonyms": [
             "boundary",
             "frontier"
@@ -478,7 +478,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "mind organ",
         "synonyms": [
             "mind organ"
         ],
@@ -500,7 +500,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "web program",
         "synonyms": [
             "web program"
         ],
@@ -551,7 +551,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "hamburger, fast food",
         "synonyms": [
             "hamburger",
             "fast food"
@@ -574,7 +574,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "person in election",
         "synonyms": [
             "person in election"
         ],
@@ -596,7 +596,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "main city, government seat",
         "synonyms": [
             "main city",
             "government seat"
@@ -618,7 +618,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "environmental impact",
         "synonyms": [
             "environmental impact"
         ],
@@ -640,7 +640,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "ATM",
         "synonyms": [
             "ATM"
         ],
@@ -680,7 +680,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "living unit",
         "synonyms": [
             "living unit"
         ],
@@ -702,7 +702,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "personality",
         "synonyms": [
             "personality"
         ],
@@ -723,7 +723,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "science subject",
         "synonyms": [
             "science subject"
         ],
@@ -744,7 +744,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "customer, buyer",
         "synonyms": [
             "customer",
             "buyer"
@@ -789,7 +789,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "global warming",
         "synonyms": [
             "global warming"
         ],
@@ -811,7 +811,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "seashore, coastline",
         "synonyms": [
             "seashore",
             "coastline"
@@ -833,7 +833,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sharing info",
         "synonyms": [
             "sharing info"
         ],
@@ -877,7 +877,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "contest",
         "synonyms": [
             "contest"
         ],
@@ -965,7 +965,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "payment card",
         "synonyms": [
             "payment card"
         ],
@@ -987,7 +987,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "money type",
         "synonyms": [
             "money type"
         ],
@@ -1027,7 +1027,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "tradition, habit",
         "synonyms": [
             "tradition",
             "habit"
@@ -1049,7 +1049,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "information, facts",
         "synonyms": [
             "information",
             "facts"
@@ -1072,7 +1072,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "data storage",
         "synonyms": [
             "data storage"
         ],
@@ -1138,7 +1138,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "dot in numbers",
         "synonyms": [
             "dot in numbers"
         ],
@@ -1159,7 +1159,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "choice",
         "synonyms": [
             "choice"
         ],
@@ -1181,7 +1181,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "university qualification",
         "synonyms": [
             "university qualification"
         ],
@@ -1203,7 +1203,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "down payment, security payment",
         "synonyms": [
             "down payment",
             "security payment"
@@ -1244,7 +1244,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "small part",
         "synonyms": [
             "small part"
         ],
@@ -1284,7 +1284,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "drawback, minus point",
         "synonyms": [
             "drawback",
             "minus point"
@@ -1307,7 +1307,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "finding, breakthrough",
         "synonyms": [
             "finding",
             "breakthrough"
@@ -1348,7 +1348,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "math process",
         "synonyms": [
             "math process"
         ],
@@ -1393,7 +1393,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "driver's permit, ID",
         "synonyms": [
             "driver's permit",
             "ID"
@@ -1415,7 +1415,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "responsibility, task",
         "synonyms": [
             "responsibility",
             "task"
@@ -1439,7 +1439,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "natural disaster, seismic activity",
         "synonyms": [
             "natural disaster",
             "seismic activity"
@@ -1461,7 +1461,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "nature science",
         "synonyms": [
             "nature science"
         ],
@@ -1482,7 +1482,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "financial system",
         "synonyms": [
             "financial system"
         ],
@@ -1504,7 +1504,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "voting process",
         "synonyms": [
             "voting process"
         ],
@@ -1526,7 +1526,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "worker",
         "synonyms": [
             "worker"
         ],
@@ -1549,7 +1549,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "boss, company",
         "synonyms": [
             "boss",
             "company"
@@ -1573,7 +1573,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "power, electricity",
         "synonyms": [
             "power",
             "electricity"
@@ -1618,7 +1618,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "proof",
         "synonyms": [
             "proof"
         ],
@@ -1640,7 +1640,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "currency value",
         "synonyms": [
             "currency value"
         ],
@@ -1680,7 +1680,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "scientific test",
         "synonyms": [
             "scientific test"
         ],
@@ -1701,7 +1701,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "truth, reality",
         "synonyms": [
             "truth",
             "reality"
@@ -1747,7 +1747,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "natural disaster, heavy rain",
         "synonyms": [
             "natural disaster",
             "heavy rain"
@@ -1769,7 +1769,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "scientific code",
         "synonyms": [
             "scientific code"
         ],
@@ -1791,7 +1791,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "old remains",
         "synonyms": [
             "old remains"
         ],
@@ -1812,7 +1812,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "liberty",
         "synonyms": [
             "liberty"
         ],
@@ -1834,7 +1834,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "group of stars",
         "synonyms": [
             "group of stars"
         ],
@@ -1875,7 +1875,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "climate warming",
         "synonyms": [
             "climate warming"
         ],
@@ -1896,7 +1896,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "target, aim",
         "synonyms": [
             "target",
             "aim"
@@ -1918,7 +1918,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "authorities",
         "synonyms": [
             "authorities"
         ],
@@ -1962,7 +1962,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "travel book",
         "synonyms": [
             "travel book"
         ],
@@ -1984,7 +1984,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "natural home",
         "synonyms": [
             "natural home"
         ],
@@ -2006,7 +2006,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "divided by two",
         "synonyms": [
             "divided by two"
         ],
@@ -2028,7 +2028,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "computer parts",
         "synonyms": [
             "computer parts"
         ],
@@ -2073,7 +2073,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "main road, motorway",
         "synonyms": [
             "main road",
             "motorway"
@@ -2096,7 +2096,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "who you are",
         "synonyms": [
             "who you are"
         ],
@@ -2117,7 +2117,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "effect, influence",
         "synonyms": [
             "effect",
             "influence"
@@ -2139,7 +2139,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "earnings, salary",
         "synonyms": [
             "earnings",
             "salary"
@@ -2162,7 +2162,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "business sector",
         "synonyms": [
             "business sector"
         ],
@@ -2184,7 +2184,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "food component",
         "synonyms": [
             "food component"
         ],
@@ -2205,7 +2205,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "new idea",
         "synonyms": [
             "new idea"
         ],
@@ -2227,7 +2227,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "musical object",
         "synonyms": [
             "musical object"
         ],
@@ -2249,7 +2249,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "protection, coverage",
         "synonyms": [
             "protection",
             "coverage"
@@ -2271,7 +2271,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "bank profit",
         "synonyms": [
             "bank profit"
         ],
@@ -2293,7 +2293,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "bank percentage",
         "synonyms": [
             "bank percentage"
         ],
@@ -2333,7 +2333,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "creation",
         "synonyms": [
             "creation"
         ],
@@ -2355,7 +2355,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "financial asset",
         "synonyms": [
             "financial asset"
         ],
@@ -2377,7 +2377,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "connection",
         "synonyms": [
             "connection"
         ],
@@ -2470,7 +2470,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "internal organ",
         "synonyms": [
             "internal organ"
         ],
@@ -2492,7 +2492,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "lab",
         "synonyms": [
             "lab"
         ],
@@ -2514,7 +2514,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "rubbish dump",
         "synonyms": [
             "rubbish dump"
         ],
@@ -2535,7 +2535,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "rules",
         "synonyms": [
             "rules"
         ],
@@ -2579,7 +2579,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "boss, head",
         "synonyms": [
             "boss",
             "head"
@@ -2601,7 +2601,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "books",
         "synonyms": [
             "books"
         ],
@@ -2623,7 +2623,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "internal organ",
         "synonyms": [
             "internal organ"
         ],
@@ -2671,7 +2671,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "regional food, local dishes",
         "synonyms": [
             "regional food",
             "local dishes"
@@ -2715,7 +2715,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "breathing organ",
         "synonyms": [
             "breathing organ"
         ],
@@ -2737,7 +2737,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "leaders, administration",
         "synonyms": [
             "leaders",
             "administration"
@@ -2759,7 +2759,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "maths",
         "synonyms": [
             "maths"
         ],
@@ -2781,7 +2781,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "city leader",
         "synonyms": [
             "city leader"
         ],
@@ -2821,7 +2821,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "news outlets",
         "synonyms": [
             "news outlets"
         ],
@@ -2843,7 +2843,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "magnifying tool",
         "synonyms": [
             "magnifying tool"
         ],
@@ -2884,7 +2884,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "subtraction, less",
         "synonyms": [
             "subtraction",
             "less"
@@ -2906,7 +2906,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "screen",
         "synonyms": [
             "screen"
         ],
@@ -2949,7 +2949,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "math process",
         "synonyms": [
             "math process"
         ],
@@ -2971,7 +2971,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "body tissue",
         "synonyms": [
             "body tissue"
         ],
@@ -2993,7 +2993,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "protected area",
         "synonyms": [
             "protected area"
         ],
@@ -3037,7 +3037,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "web, system",
         "synonyms": [
             "web",
             "system"
@@ -3059,7 +3059,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "living thing",
         "synonyms": [
             "living thing"
         ],
@@ -3103,7 +3103,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "car park, parking area",
         "synonyms": [
             "car park",
             "parking area"
@@ -3126,7 +3126,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "secret code",
         "synonyms": [
             "secret code"
         ],
@@ -3148,7 +3148,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "retirement fund, old age pay",
         "synonyms": [
             "retirement fund",
             "old age pay"
@@ -3171,7 +3171,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "per hundred, percentage",
         "synonyms": [
             "per hundred",
             "percentage"
@@ -3193,7 +3193,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "viewpoint",
         "synonyms": [
             "viewpoint"
         ],
@@ -3233,7 +3233,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "thinking system",
         "synonyms": [
             "thinking system"
         ],
@@ -3254,7 +3254,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "science subject",
         "synonyms": [
             "science subject"
         ],
@@ -3276,7 +3276,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "addition, and",
         "synonyms": [
             "addition",
             "and"
@@ -3298,7 +3298,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "audio show, online radio",
         "synonyms": [
             "audio show",
             "online radio"
@@ -3321,7 +3321,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "official rules",
         "synonyms": [
             "official rules"
         ],
@@ -3361,7 +3361,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "number of people, inhabitants",
         "synonyms": [
             "number of people",
             "inhabitants"
@@ -3384,7 +3384,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "personal space, secrecy",
         "synonyms": [
             "personal space",
             "secrecy"
@@ -3429,7 +3429,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "evidence",
         "synonyms": [
             "evidence"
         ],
@@ -3450,7 +3450,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "mind science",
         "synonyms": [
             "mind science"
         ],
@@ -3472,7 +3472,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "divided by four",
         "synonyms": [
             "divided by four"
         ],
@@ -3493,7 +3493,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "truth, real world",
         "synonyms": [
             "truth",
             "real world"
@@ -3535,7 +3535,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "front desk",
         "synonyms": [
             "front desk"
         ],
@@ -3557,7 +3557,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "cooking instructions",
         "synonyms": [
             "cooking instructions"
         ],
@@ -3579,7 +3579,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "waste management, eco-friendly",
         "synonyms": [
             "waste management",
             "eco-friendly"
@@ -3601,7 +3601,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "green bin",
         "synonyms": [
             "green bin"
         ],
@@ -3623,7 +3623,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "area, district",
         "synonyms": [
             "area",
             "district"
@@ -3664,7 +3664,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "green energy",
         "synonyms": [
             "green energy"
         ],
@@ -3685,7 +3685,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "investigation",
         "synonyms": [
             "investigation"
         ],
@@ -3706,7 +3706,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "asset, supply",
         "synonyms": [
             "asset",
             "supply"
@@ -3729,7 +3729,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "traffic circle, intersection",
         "synonyms": [
             "traffic circle",
             "intersection"
@@ -3751,7 +3751,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "security",
         "synonyms": [
             "security"
         ],
@@ -3766,7 +3766,7 @@
         "emoji": "💸",
         "form": "noun",
         "plural": "salaries",
-        "subtext": "",
+        "subtext": "pay, income",
         "synonyms": [
             "pay",
             "income"
@@ -3798,7 +3798,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "space machine",
         "synonyms": [
             "space machine"
         ],
@@ -3819,7 +3819,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "saved money",
         "synonyms": [
             "saved money"
         ],
@@ -3840,7 +3840,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "researcher",
         "synonyms": [
             "researcher"
         ],
@@ -3861,7 +3861,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "safety, protection",
         "synonyms": [
             "safety",
             "protection"
@@ -3884,7 +3884,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "visiting attractions",
         "synonyms": [
             "visiting attractions"
         ],
@@ -3906,7 +3906,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "body bones",
         "synonyms": [
             "body bones"
         ],
@@ -3927,7 +3927,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "body surface",
         "synonyms": [
             "body surface"
         ],
@@ -3948,7 +3948,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "community, people",
         "synonyms": [
             "community",
             "people"
@@ -3971,7 +3971,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "computer programs",
         "synonyms": [
             "computer programs"
         ],
@@ -3993,7 +3993,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sun power",
         "synonyms": [
             "sun power"
         ],
@@ -4014,7 +4014,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sun power tool",
         "synonyms": [
             "sun power tool"
         ],
@@ -4036,7 +4036,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sun energy",
         "synonyms": [
             "sun energy"
         ],
@@ -4057,7 +4057,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "answer",
         "synonyms": [
             "answer"
         ],
@@ -4108,7 +4108,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "backbone",
         "synonyms": [
             "backbone"
         ],
@@ -4170,7 +4170,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "material",
         "synonyms": [
             "material"
         ],
@@ -4191,7 +4191,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "math process",
         "synonyms": [
             "math process"
         ],
@@ -4284,7 +4284,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "goal, aim",
         "synonyms": [
             "goal",
             "aim"
@@ -4307,7 +4307,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "government levy, duty",
         "synonyms": [
             "government levy",
             "duty"
@@ -4330,7 +4330,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "tech, high-tech",
         "synonyms": [
             "tech",
             "high-tech"
@@ -4353,7 +4353,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "renter",
         "synonyms": [
             "renter"
         ],
@@ -4397,7 +4397,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "danger, risk",
         "synonyms": [
             "danger",
             "risk"
@@ -4439,7 +4439,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sum, final amount",
         "synonyms": [
             "sum",
             "final amount"
@@ -4462,7 +4462,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "traveler, visitor",
         "synonyms": [
             "traveler",
             "visitor"
@@ -4485,7 +4485,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "heavy traffic, congestion",
         "synonyms": [
             "heavy traffic",
             "congestion"
@@ -4508,7 +4508,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "court case",
         "synonyms": [
             "court case"
         ],
@@ -4530,7 +4530,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "shopping cart",
         "synonyms": [
             "shopping cart"
         ],
@@ -4572,7 +4572,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "reality, facts",
         "synonyms": [
             "reality",
             "facts"
@@ -4638,7 +4638,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "low land, canyon",
         "synonyms": [
             "low land",
             "canyon"
@@ -4660,7 +4660,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "worth, price",
         "synonyms": [
             "worth",
             "price"
@@ -4683,7 +4683,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "harmful program",
         "synonyms": [
             "harmful program"
         ],
@@ -4727,7 +4727,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "choice",
         "synonyms": [
             "choice"
         ],
@@ -4767,7 +4767,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "rubbish",
         "synonyms": [
             "rubbish"
         ],
@@ -4789,7 +4789,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "marriage ceremony",
         "synonyms": [
             "marriage ceremony"
         ],
@@ -4811,7 +4811,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "wild animals",
         "synonyms": [
             "wild animals"
         ],
@@ -4833,7 +4833,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "wind energy site",
         "synonyms": [
             "wind energy site"
         ],
@@ -4854,7 +4854,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "wind power tool",
         "synonyms": [
             "wind power tool"
         ],
@@ -4876,7 +4876,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "observer",
         "synonyms": [
             "observer"
         ],
@@ -4898,7 +4898,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "exercise session, training",
         "synonyms": [
             "exercise session",
             "training"
@@ -4921,7 +4921,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "stretching exercise",
         "synonyms": [
             "stretching exercise"
         ],
@@ -4943,7 +4943,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "unfortunate event, crash, mishap",
         "synonyms": [
             "unfortunate event",
             "crash",
@@ -4967,7 +4967,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "exciting experience, quest, journey",
         "synonyms": [
             "exciting experience",
             "quest",
@@ -4991,7 +4991,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "emergency vehicle",
         "synonyms": [
             "emergency vehicle"
         ],
@@ -5013,7 +5013,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "yearly celebration",
         "synonyms": [
             "yearly celebration"
         ],
@@ -5035,7 +5035,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "spectators, listeners",
         "synonyms": [
             "spectators",
             "listeners"
@@ -5058,7 +5058,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "conduct, manner, actions",
         "synonyms": [
             "conduct",
             "manner",
@@ -5081,7 +5081,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "faith, conviction",
         "synonyms": [
             "faith",
             "conviction"
@@ -5104,7 +5104,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "famous person",
         "synonyms": [
             "famous person"
         ],
@@ -5126,7 +5126,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "formal event",
         "synonyms": [
             "formal event"
         ],
@@ -5148,7 +5148,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "difficult task, trial, test",
         "synonyms": [
             "difficult task",
             "trial",
@@ -5172,7 +5172,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "aid organization, non-profit, donation",
         "synonyms": [
             "aid organization",
             "non-profit",
@@ -5196,7 +5196,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "hint, evidence",
         "synonyms": [
             "hint",
             "evidence"
@@ -5219,7 +5219,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "set of objects",
         "synonyms": [
             "set of objects"
         ],
@@ -5241,7 +5241,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "ease, relaxation",
         "synonyms": [
             "ease",
             "relaxation"
@@ -5264,7 +5264,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "statement of dissatisfaction",
         "synonyms": [
             "statement of dissatisfaction"
         ],
@@ -5286,7 +5286,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "self-belief",
         "synonyms": [
             "self-belief"
         ],
@@ -5308,7 +5308,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "clash, disagreement",
         "synonyms": [
             "clash",
             "disagreement"
@@ -5331,7 +5331,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "link, join",
         "synonyms": [
             "link",
             "join"
@@ -5354,7 +5354,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "result, outcome",
         "synonyms": [
             "result",
             "outcome"
@@ -5377,7 +5377,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "situation, setting",
         "synonyms": [
             "situation",
             "setting"
@@ -5400,7 +5400,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "working together",
         "synonyms": [
             "working together"
         ],
@@ -5422,7 +5422,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "bravery",
         "synonyms": [
             "bravery"
         ],
@@ -5444,7 +5444,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "imagination, inventiveness, originality",
         "synonyms": [
             "imagination",
             "inventiveness",
@@ -5468,7 +5468,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "deferred payment",
         "synonyms": [
             "deferred payment"
         ],
@@ -5490,7 +5490,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "illegal act",
         "synonyms": [
             "illegal act"
         ],
@@ -5512,7 +5512,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "traditions, customs, way of life",
         "synonyms": [
             "traditions",
             "customs",
@@ -5538,7 +5538,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "dry period, lack of rain",
         "synonyms": [
             "dry period",
             "lack of rain"
@@ -5562,7 +5562,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "prediction, weather report",
         "synonyms": [
             "prediction",
             "weather report"
@@ -5606,7 +5606,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "performance area, platform",
         "synonyms": [
             "performance area",
             "platform"
@@ -5630,7 +5630,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "written text, play text",
         "synonyms": [
             "written text",
             "play text"
@@ -5654,7 +5654,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "practice, preparation",
         "synonyms": [
             "practice",
             "preparation"
@@ -5678,7 +5678,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "booking, advance arrangement",
         "synonyms": [
             "booking",
             "advance arrangement"
@@ -5702,7 +5702,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "entree, primary dish",
         "synonyms": [
             "entree",
             "primary dish"
@@ -5726,7 +5726,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "self-service meal",
         "synonyms": [
             "self-service meal"
         ],
@@ -5749,7 +5749,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "gratuity, service charge",
         "synonyms": [
             "gratuity",
             "service charge"
@@ -5773,7 +5773,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "changing room, try-on room",
         "synonyms": [
             "changing room",
             "try-on room"
@@ -5797,7 +5797,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "reduction, price cut",
         "synonyms": [
             "reduction",
             "price cut"
@@ -5821,7 +5821,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "money back, repayment",
         "synonyms": [
             "money back",
             "repayment"
@@ -5845,7 +5845,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "leaving, setting off",
         "synonyms": [
             "leaving",
             "setting off"
@@ -5870,7 +5870,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "coming, reaching",
         "synonyms": [
             "coming",
             "reaching"
@@ -5895,7 +5895,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "intersection, road crossing",
         "synonyms": [
             "intersection",
             "road crossing"
@@ -5919,7 +5919,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "stop lights, signal",
         "synonyms": [
             "stop lights",
             "signal"
@@ -5943,7 +5943,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "moving company, movers",
         "synonyms": [
             "moving company",
             "movers"
@@ -5965,7 +5965,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "about, approximately",
         "synonyms": [
             "about",
             "approximately"
@@ -5987,7 +5987,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "very, incredibly",
         "synonyms": [
             "very",
             "incredibly"
@@ -6010,7 +6010,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "quite, moderately",
         "synonyms": [
             "quite",
             "moderately"
@@ -6035,7 +6035,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "official document, diploma",
         "synonyms": [
             "official document",
             "diploma"
@@ -6059,7 +6059,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "mark, score",
         "synonyms": [
             "mark",
             "score"
@@ -6083,7 +6083,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "national, inhabitant",
         "synonyms": [
             "national",
             "inhabitant"
@@ -6107,7 +6107,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "amenity, service",
         "synonyms": [
             "amenity",
             "service"
@@ -6131,7 +6131,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "unpaid worker",
         "synonyms": [
             "unpaid worker"
         ],
@@ -6154,7 +6154,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "show, display",
         "synonyms": [
             "show",
             "display"
@@ -6178,7 +6178,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "art museum",
         "synonyms": [
             "art museum"
         ],
@@ -6221,7 +6221,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "pair of people",
         "synonyms": [
             "pair of people"
         ],
@@ -6244,7 +6244,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "humorous show, funny movie",
         "synonyms": [
             "humorous show",
             "funny movie"
@@ -6268,7 +6268,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "factual program, non-fiction film",
         "synonyms": [
             "factual program",
             "non-fiction film"
@@ -6292,7 +6292,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "serious play, theatrical work",
         "synonyms": [
             "serious play",
             "theatrical work"
@@ -6316,7 +6316,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "amusement, leisure activity",
         "synonyms": [
             "amusement",
             "leisure activity"
@@ -6338,7 +6338,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "recently, in recent times",
         "synonyms": [
             "recently",
             "in recent times"
@@ -6360,7 +6360,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "soon, in a moment",
         "synonyms": [
             "soon",
             "in a moment"
@@ -6382,7 +6382,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "finally, in the end",
         "synonyms": [
             "finally",
             "in the end"
@@ -6404,7 +6404,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "first, to begin with",
         "synonyms": [
             "first",
             "to begin with"
@@ -6426,7 +6426,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "second, furthermore",
         "synonyms": [
             "second",
             "furthermore"
@@ -6448,7 +6448,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "lastly, in the end",
         "synonyms": [
             "lastly",
             "in the end"
@@ -6495,7 +6495,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "camping ground, tent site",
         "synonyms": [
             "camping ground",
             "tent site"
@@ -6518,7 +6518,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "healthy eating, nutritious diet",
         "synonyms": [
             "healthy eating",
             "nutritious diet"
@@ -6542,7 +6542,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "energy unit, food energy",
         "synonyms": [
             "energy unit",
             "food energy"
@@ -6566,7 +6566,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "application letter, job letter",
         "synonyms": [
             "application letter",
             "job letter"
@@ -6590,7 +6590,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "realtor, property agent",
         "synonyms": [
             "realtor",
             "property agent"
@@ -6613,7 +6613,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "browsing, looking only",
         "synonyms": [
             "browsing",
             "looking only"
@@ -6637,7 +6637,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "pain medicine, analgesic",
         "synonyms": [
             "pain medicine",
             "analgesic"
@@ -6661,7 +6661,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "dressing, medical wrap",
         "synonyms": [
             "dressing",
             "medical wrap"
@@ -6685,7 +6685,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "doctor's note, medicine order",
         "synonyms": [
             "doctor's note",
             "medicine order"
@@ -6709,7 +6709,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "sign of illness",
         "synonyms": [
             "sign of illness"
         ],
@@ -6732,7 +6732,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "monument, recognizable place",
         "synonyms": [
             "monument",
             "recognizable place"
@@ -6756,7 +6756,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "intersection, crossing",
         "synonyms": [
             "intersection",
             "crossing"
@@ -6780,7 +6780,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "one-person room",
         "synonyms": [
             "one-person room"
         ],
@@ -6803,7 +6803,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "two-person room",
         "synonyms": [
             "two-person room"
         ],
@@ -6826,7 +6826,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "opinion, perspective",
         "synonyms": [
             "opinion",
             "perspective"
@@ -6850,7 +6850,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "travel plan, schedule",
         "synonyms": [
             "travel plan",
             "schedule"
@@ -6874,7 +6874,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "travel professional, travel consultant",
         "synonyms": [
             "travel professional",
             "travel consultant"
@@ -6898,7 +6898,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "bank debt, negative balance",
         "synonyms": [
             "bank debt",
             "negative balance"
@@ -6922,7 +6922,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "bank record, account summary",
         "synonyms": [
             "bank record",
             "account summary"
@@ -6944,7 +6944,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "partly, in part",
         "synonyms": [
             "partly",
             "in part"
@@ -6967,7 +6967,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "firmly, powerfully",
         "synonyms": [
             "firmly",
             "powerfully"

@@ -5175,7 +5175,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5196,7 +5196,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5217,7 +5217,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5238,7 +5238,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5259,7 +5259,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5280,7 +5280,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5301,7 +5301,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     },
@@ -5322,7 +5322,7 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": null,
+        "opposite": "foreign",
         "comparative": null,
         "superlative": null
     }
