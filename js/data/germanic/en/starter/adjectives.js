@@ -192,7 +192,10 @@
         ],
         "comparative": "hotter",
         "superlative": "the hottest",
-        "transcription": "hɑt"
+        "transcription": "hɑt",
+        "synonyms": [
+            "warm"
+        ]
     },
     {
         "word": "cold",
@@ -220,7 +223,11 @@
         ],
         "comparative": "colder",
         "superlative": "the coldest",
-        "transcription": "koʊld"
+        "transcription": "koʊld",
+        "synonyms": [
+            "chilly",
+            "cool"
+        ]
     },
     {
         "word": "cheap",
@@ -430,7 +437,10 @@
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "easier",
         "superlative": "the easiest",
-        "transcription": "ˈizi"
+        "transcription": "ˈizi",
+        "synonyms": [
+            "simple"
+        ]
     },
     {
         "word": "difficult",
@@ -457,7 +467,11 @@
         "subtext": "difficult to do / very difficult / find it difficult",
         "comparative": "more difficult",
         "superlative": "the most difficult",
-        "transcription": "ˈdɪfəkəlt"
+        "transcription": "ˈdɪfəkəlt",
+        "synonyms": [
+            "hard",
+            "tough"
+        ]
     },
     {
         "word": "happy",
@@ -600,7 +614,11 @@
         ],
         "comparative": "cleaner",
         "superlative": "the cleanest",
-        "transcription": "klin"
+        "transcription": "klin",
+        "synonyms": [
+            "tidy",
+            "neat"
+        ]
     },
     {
         "word": "healthy",
@@ -1353,7 +1371,10 @@
         "comparative": "dirtier",
         "superlative": "the dirtiest",
         "emoji": "💩",
-        "transcription": "ˈdərti"
+        "transcription": "ˈdərti",
+        "synonyms": [
+            "messy"
+        ]
     },
     {
         "word": "hard",
@@ -2338,7 +2359,11 @@
         "comparative": "more beautiful",
         "superlative": "the most beautiful",
         "emoji": "✨",
-        "transcription": "ˈbjutəfəl"
+        "transcription": "ˈbjutəfəl",
+        "synonyms": [
+            "pretty",
+            "lovely"
+        ]
     },
     {
         "word": "pretty",
@@ -5132,6 +5157,174 @@
         "comparative": "more useful",
         "superlative": "the most useful",
         "subtext": "very useful, useful information"
+    },
+    {
+        "word": "British",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇬🇧",
+        "form": "adjective",
+        "transcription": "ˈbrɪtɪʃ",
+        "definitions": [
+            {
+                "text": "From or connected with Great Britain.",
+                "examples": [
+                    "He is British.",
+                    "I like British tea."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "American",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇺🇸",
+        "form": "adjective",
+        "transcription": "əˈmɛrɪkən",
+        "definitions": [
+            {
+                "text": "From or connected with the United States of America.",
+                "examples": [
+                    "She is American.",
+                    "I like American movies."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "Spanish",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇪🇸",
+        "form": "adjective",
+        "transcription": "ˈspænɪʃ",
+        "definitions": [
+            {
+                "text": "From or connected with Spain.",
+                "examples": [
+                    "They are Spanish.",
+                    "He speaks Spanish."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "French",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇫🇷",
+        "form": "adjective",
+        "transcription": "frɛntʃ",
+        "definitions": [
+            {
+                "text": "From or connected with France.",
+                "examples": [
+                    "She is French.",
+                    "I love French food."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "German",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇩🇪",
+        "form": "adjective",
+        "transcription": "ˈdʒɜːrmən",
+        "definitions": [
+            {
+                "text": "From or connected with Germany.",
+                "examples": [
+                    "He is German.",
+                    "German cars are famous."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "Italian",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇮🇹",
+        "form": "adjective",
+        "transcription": "ɪˈtæliən",
+        "definitions": [
+            {
+                "text": "From or connected with Italy.",
+                "examples": [
+                    "We are Italian.",
+                    "I like Italian pizza."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "Chinese",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇨🇳",
+        "form": "adjective",
+        "transcription": "ˌtʃaɪˈniːz",
+        "definitions": [
+            {
+                "text": "From or connected with China.",
+                "examples": [
+                    "She is Chinese.",
+                    "Chinese history is very long."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "Japanese",
+        "level": "starter",
+        "theme": "nationality_country_A1",
+        "emoji": "🇯🇵",
+        "form": "adjective",
+        "transcription": "ˌdʒæpəˈniːz",
+        "definitions": [
+            {
+                "text": "From or connected with Japan.",
+                "examples": [
+                    "He is Japanese.",
+                    "Japanese technology is great."
+                ]
+            }
+        ],
+        "subtext": "nationality",
+        "opposite": null,
+        "comparative": null,
+        "superlative": null
     }
 ];
     const lang = "en";

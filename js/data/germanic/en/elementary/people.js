@@ -13,7 +13,8 @@
             }
         ],
         "subtext": "famous person",
-        "emoji": "🎩"
+        "emoji": "🎩",
+        "transcription": "ˈeɪbrəhæm ˈlɪŋkən"
     },
     {
         "word": "Amelia Earhart",
@@ -28,7 +29,8 @@
             }
         ],
         "subtext": "famous pilot",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "transcription": "əˈmiːliə ˈɛərhɑːrt"
     },
     {
         "word": "Barack Obama",
@@ -43,7 +45,8 @@
             }
         ],
         "subtext": "famous person",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": "bəˈrɑːk oʊˈbɑːmə"
     },
     {
         "word": "Bill Gates",
@@ -58,7 +61,8 @@
             }
         ],
         "subtext": "famous businessman",
-        "emoji": "💻"
+        "emoji": "💻",
+        "transcription": "bɪl ɡeɪts"
     },
     {
         "word": "Charles Darwin",
@@ -73,7 +77,8 @@
             }
         ],
         "subtext": "famous scientist",
-        "emoji": "🧬"
+        "emoji": "🧬",
+        "transcription": "tʃɑːrlz ˈdɑːrwɪn"
     },
     {
         "word": "Christopher Columbus",
@@ -88,7 +93,8 @@
             }
         ],
         "subtext": "famous explorer",
-        "emoji": "⛵"
+        "emoji": "⛵",
+        "transcription": "ˈkrɪstəfər kəˈlʌmbəs"
     },
     {
         "word": "Frida Kahlo",
@@ -103,7 +109,8 @@
             }
         ],
         "subtext": "famous person",
-        "emoji": "🎨"
+        "emoji": "🎨",
+        "transcription": "ˈfriːdə ˈkɑːloʊ"
     },
     {
         "word": "Galileo Galilei",
@@ -118,7 +125,8 @@
             }
         ],
         "subtext": "famous scientist",
-        "emoji": "🔭"
+        "emoji": "🔭",
+        "transcription": "ˌɡælɪˈleɪoʊ ˌɡælɪˈleɪi"
     },
     {
         "word": "Isaac Newton",
@@ -133,7 +141,8 @@
             }
         ],
         "subtext": "famous scientist",
-        "emoji": "🍎"
+        "emoji": "🍎",
+        "transcription": "ˈaɪzək ˈnjuːtən"
     },
     {
         "word": "J.K. Rowling",
@@ -148,7 +157,8 @@
             }
         ],
         "subtext": "famous author",
-        "emoji": "🪄"
+        "emoji": "🪄",
+        "transcription": "ˌdʒeɪ ˈkeɪ ˈroʊlɪŋ"
     },
     {
         "word": "Jeff Bezos",
@@ -163,7 +173,8 @@
             }
         ],
         "subtext": "famous businessman",
-        "emoji": "📦"
+        "emoji": "📦",
+        "transcription": "dʒɛf ˈbeɪzoʊs"
     },
     {
         "word": "Ludwig van Beethoven",
@@ -178,7 +189,8 @@
             }
         ],
         "subtext": "famous composer",
-        "emoji": "🎹"
+        "emoji": "🎹",
+        "transcription": "ˈlʊdvɪɡ væn ˈbeɪtˌhoʊvən"
     },
     {
         "word": "Mahatma Gandhi",
@@ -193,7 +205,8 @@
             }
         ],
         "subtext": "famous person",
-        "emoji": "🇮🇳"
+        "emoji": "🇮🇳",
+        "transcription": "məˈhɑːtmə ˈɡɑːndi"
     },
     {
         "word": "Malala Yousafzai",
@@ -208,7 +221,8 @@
             }
         ],
         "subtext": "famous activist",
-        "emoji": "🇵🇰"
+        "emoji": "🇵🇰",
+        "transcription": "məˈlɑːlə ˌjuːsəfˈzaɪ"
     },
     {
         "word": "Marco Polo",
@@ -223,7 +237,8 @@
             }
         ],
         "subtext": "famous explorer",
-        "emoji": "🧭"
+        "emoji": "🧭",
+        "transcription": "ˈmɑːrkoʊ ˈpoʊloʊ"
     },
     {
         "word": "Marie Antoinette",
@@ -238,7 +253,8 @@
             }
         ],
         "subtext": "famous queen",
-        "emoji": "🍰"
+        "emoji": "🍰",
+        "transcription": "məˈriː ˌæntwəˈnɛt"
     },
     {
         "word": "Mark Zuckerberg",
@@ -253,7 +269,8 @@
             }
         ],
         "subtext": "famous businessman",
-        "emoji": "📱"
+        "emoji": "📱",
+        "transcription": "mɑːrk ˈzʌkərbɜːrɡ"
     },
     {
         "word": "Martin Luther King Jr.",
@@ -268,7 +285,8 @@
             }
         ],
         "subtext": "famous leader",
-        "emoji": "⚖️"
+        "emoji": "⚖️",
+        "transcription": "ˈmɑːrtɪn ˈluːθər kɪŋ ˈdʒuːnjər"
     },
     {
         "word": "Mother Teresa",
@@ -283,7 +301,8 @@
             }
         ],
         "subtext": "famous humanitarian",
-        "emoji": "🕊️"
+        "emoji": "🕊️",
+        "transcription": "ˈmʌðər təˈreɪsə"
     },
     {
         "word": "Neil Armstrong",
@@ -298,7 +317,8 @@
             }
         ],
         "subtext": "famous astronaut",
-        "emoji": "👨‍🚀"
+        "emoji": "👨‍🚀",
+        "transcription": "niːl ˈɑːrmstrɒŋ"
     },
     {
         "word": "Oprah Winfrey",
@@ -313,7 +333,8 @@
             }
         ],
         "subtext": "famous media personality",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "transcription": "ˈoʊprə ˈwɪnfri"
     },
     {
         "word": "Pablo Picasso",
@@ -328,7 +349,8 @@
             }
         ],
         "subtext": "famous artist",
-        "emoji": "🎨"
+        "emoji": "🎨",
+        "transcription": "ˈpæbloʊ pɪˈkɑːsoʊ"
     },
     {
         "word": "Princess Diana",
@@ -343,7 +365,8 @@
             }
         ],
         "subtext": "famous royal",
-        "emoji": "👑"
+        "emoji": "👑",
+        "transcription": "ˈprɪnsɛs daɪˈænə"
     },
     {
         "word": "Stephen Hawking",
@@ -358,7 +381,8 @@
             }
         ],
         "subtext": "famous scientist",
-        "emoji": "🌌"
+        "emoji": "🌌",
+        "transcription": "ˈstiːvən ˈhɔːkɪŋ"
     },
     {
         "word": "Steve Jobs",
@@ -373,7 +397,8 @@
             }
         ],
         "subtext": "famous person",
-        "emoji": "🍎"
+        "emoji": "🍎",
+        "transcription": "stiːv dʒɒbz"
     },
     {
         "word": "Vincent van Gogh",
@@ -388,7 +413,8 @@
             }
         ],
         "subtext": "famous artist",
-        "emoji": "🎨"
+        "emoji": "🎨",
+        "transcription": "ˈvɪnsənt væn ɡɒx"
     },
     {
         "word": "Walt Disney",
@@ -403,7 +429,8 @@
             }
         ],
         "subtext": "famous creator",
-        "emoji": "🐭"
+        "emoji": "🐭",
+        "transcription": "wɔːlt ˈdɪzni"
     },
     {
         "word": "Winston Churchill",
@@ -418,7 +445,8 @@
             }
         ],
         "subtext": "famous leader",
-        "emoji": "🇬🇧"
+        "emoji": "🇬🇧",
+        "transcription": "ˈwɪnstən ˈtʃɜːrtʃɪl"
     },
     {
         "word": "Wolfgang Amadeus Mozart",
@@ -433,7 +461,8 @@
             }
         ],
         "subtext": "famous composer",
-        "emoji": "🎼"
+        "emoji": "🎼",
+        "transcription": "ˈvʊl fɡæŋ ˌæməˈdeɪəs ˈmoʊtsɑːrt"
     }
 ];
     const lang = "en";

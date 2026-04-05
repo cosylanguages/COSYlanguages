@@ -13,7 +13,8 @@
             }
         ],
         "subtext": "country in South America",
-        "emoji": "🇦🇷"
+        "emoji": "🇦🇷",
+        "transcription": "ˌɑːrdʒənˈtiːnə"
     },
     {
         "word": "Armenia",
@@ -28,7 +29,8 @@
             }
         ],
         "subtext": "country in the Caucasus",
-        "emoji": "🇦🇲"
+        "emoji": "🇦🇲",
+        "transcription": "ɑːrˈmiːniə"
     },
     {
         "word": "Auckland",
@@ -43,7 +45,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇳🇿"
+        "emoji": "🇳🇿",
+        "transcription": "ˈɔːklənd"
     },
     {
         "word": "Bangkok",
@@ -58,7 +61,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇹🇭"
+        "emoji": "🇹🇭",
+        "transcription": "ˈbæŋkɒk"
     },
     {
         "word": "Brussels",
@@ -73,7 +77,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇧🇪"
+        "emoji": "🇧🇪",
+        "transcription": "ˈbrʌslz"
     },
     {
         "word": "Budapest",
@@ -88,7 +93,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇭🇺"
+        "emoji": "🇭🇺",
+        "transcription": "ˈbuːdəpɛst"
     },
     {
         "word": "Cairo",
@@ -103,7 +109,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇪🇬"
+        "emoji": "🇪🇬",
+        "transcription": "ˈkaɪroʊ"
     },
     {
         "word": "Cape Town",
@@ -118,7 +125,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇿🇦"
+        "emoji": "🇿🇦",
+        "transcription": "keɪp taʊn"
     },
     {
         "word": "Chile",
@@ -133,7 +141,8 @@
             }
         ],
         "subtext": "country in South America",
-        "emoji": "🇨🇱"
+        "emoji": "🇨🇱",
+        "transcription": "ˈtʃɪli"
     },
     {
         "word": "Colombia",
@@ -148,7 +157,8 @@
             }
         ],
         "subtext": "country in South America",
-        "emoji": "🇨🇴"
+        "emoji": "🇨🇴",
+        "transcription": "kəˈlʌmbiə"
     },
     {
         "word": "Copenhagen",
@@ -163,7 +173,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇩🇰"
+        "emoji": "🇩🇰",
+        "transcription": "ˌkoʊpənˈheɪɡən"
     },
     {
         "word": "Croatia",
@@ -178,7 +189,8 @@
             }
         ],
         "subtext": "country in the Balkans",
-        "emoji": "🇭🇷"
+        "emoji": "🇭🇷",
+        "transcription": "kroʊˈeɪʃə"
     },
     {
         "word": "Dubai",
@@ -193,7 +205,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇪"
+        "emoji": "🇦🇪",
+        "transcription": "duːˈbaɪ"
     },
     {
         "word": "Geneva",
@@ -208,7 +221,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇭"
+        "emoji": "🇨🇭",
+        "transcription": "dʒəˈniːvə"
     },
     {
         "word": "Georgia",
@@ -223,7 +237,8 @@
             }
         ],
         "subtext": "country in the Caucasus",
-        "emoji": "🇬🇪"
+        "emoji": "🇬🇪",
+        "transcription": "ˈdʒɔːrdʒə"
     },
     {
         "word": "Helsinki",
@@ -238,7 +253,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇫🇮"
+        "emoji": "🇫🇮",
+        "transcription": "ˈhɛlsɪŋki"
     },
     {
         "word": "Hong Kong",
@@ -253,7 +269,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇭🇰"
+        "emoji": "🇭🇰",
+        "transcription": "hɒŋ kɒŋ"
     },
     {
         "word": "Hungary",
@@ -268,7 +285,8 @@
             }
         ],
         "subtext": "country in Central Europe",
-        "emoji": "🇭🇺"
+        "emoji": "🇭🇺",
+        "transcription": "ˈhʌŋɡəri"
     },
     {
         "word": "Iceland",
@@ -283,7 +301,8 @@
             }
         ],
         "subtext": "island country in the North Atlantic",
-        "emoji": "🇮🇸"
+        "emoji": "🇮🇸",
+        "transcription": "ˈaɪslənd"
     },
     {
         "word": "Indonesia",
@@ -298,7 +317,8 @@
             }
         ],
         "subtext": "archipelago country in Southeast Asia",
-        "emoji": "🇮🇩"
+        "emoji": "🇮🇩",
+        "transcription": "ˌɪndəˈniːʒə"
     },
     {
         "word": "Israel",
@@ -313,7 +333,8 @@
             }
         ],
         "subtext": "country in the Middle East",
-        "emoji": "🇮🇱"
+        "emoji": "🇮🇱",
+        "transcription": "ˈɪzreɪəl"
     },
     {
         "word": "Istanbul",
@@ -328,7 +349,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇹🇷"
+        "emoji": "🇹🇷",
+        "transcription": "ˌɪstænˈbʊl"
     },
     {
         "word": "Jerusalem",
@@ -343,7 +365,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇱"
+        "emoji": "🇮🇱",
+        "transcription": "dʒəˈruːsələm"
     },
     {
         "word": "Johannesburg",
@@ -358,7 +381,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇿🇦"
+        "emoji": "🇿🇦",
+        "transcription": "dʒoʊˈhænɪsbɜːrɡ"
     },
     {
         "word": "Kazan",
@@ -373,7 +397,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "transcription": "kəˈzæn"
     },
     {
         "word": "Kenya",
@@ -388,7 +413,8 @@
             }
         ],
         "subtext": "country in East Africa",
-        "emoji": "🇰🇪"
+        "emoji": "🇰🇪",
+        "transcription": "ˈkɛnjə"
     },
     {
         "word": "Kyoto",
@@ -403,7 +429,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "transcription": "kiˈoʊtoʊ"
     },
     {
         "word": "Lisbon",
@@ -418,7 +445,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇵🇹"
+        "emoji": "🇵🇹",
+        "transcription": "ˈlɪzbən"
     },
     {
         "word": "Liverpool",
@@ -433,7 +461,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇧"
+        "emoji": "🇬🇧",
+        "transcription": "ˈlɪvərp uːl"
     },
     {
         "word": "Madrid",
@@ -448,7 +477,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "transcription": "məˈdrɪd"
     },
     {
         "word": "Malaysia",
@@ -463,7 +493,8 @@
             }
         ],
         "subtext": "country in Southeast Asia",
-        "emoji": "🇲🇾"
+        "emoji": "🇲🇾",
+        "transcription": "məˈleɪʒə"
     },
     {
         "word": "Manchester",
@@ -478,7 +509,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇧"
+        "emoji": "🇬🇧",
+        "transcription": "ˈmæntʃɪstər"
     },
     {
         "word": "Marrakesh",
@@ -493,7 +525,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇲🇦"
+        "emoji": "🇲🇦",
+        "transcription": "ˌmærəˈkɛʃ"
     },
     {
         "word": "Mexico",
@@ -508,7 +541,8 @@
             }
         ],
         "subtext": "country in North America",
-        "emoji": "🇲🇽"
+        "emoji": "🇲🇽",
+        "transcription": "ˈmɛksɪkoʊ"
     },
     {
         "word": "Milan",
@@ -523,7 +557,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "transcription": "mɪˈlæn"
     },
     {
         "word": "Morocco",
@@ -538,7 +573,8 @@
             }
         ],
         "subtext": "country in North Africa",
-        "emoji": "🇲🇦"
+        "emoji": "🇲🇦",
+        "transcription": "məˈrɒkoʊ"
     },
     {
         "word": "Mumbai",
@@ -553,7 +589,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇳"
+        "emoji": "🇮🇳",
+        "transcription": "mʊmˈbaɪ"
     },
     {
         "word": "Munich",
@@ -568,7 +605,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "transcription": "ˈmjuːnɪk"
     },
     {
         "word": "New Delhi",
@@ -583,7 +621,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇳"
+        "emoji": "🇮🇳",
+        "transcription": "njuː ˈdɛli"
     },
     {
         "word": "New Zealand",
@@ -598,7 +637,8 @@
             }
         ],
         "subtext": "island country in Oceania",
-        "emoji": "🇳🇿"
+        "emoji": "🇳🇿",
+        "transcription": "njuː ˈziːlənd"
     },
     {
         "word": "Nigeria",
@@ -613,7 +653,8 @@
             }
         ],
         "subtext": "country in West Africa",
-        "emoji": "🇳🇬"
+        "emoji": "🇳🇬",
+        "transcription": "naɪˈdʒɪəriə"
     },
     {
         "word": "Osaka",
@@ -628,7 +669,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "transcription": "oʊˈsɑːkə"
     },
     {
         "word": "Oslo",
@@ -643,7 +685,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇳🇴"
+        "emoji": "🇳🇴",
+        "transcription": "ˈɒzloʊ"
     },
     {
         "word": "Peru",
@@ -658,7 +701,8 @@
             }
         ],
         "subtext": "country in South America",
-        "emoji": "🇵🇪"
+        "emoji": "🇵🇪",
+        "transcription": "pəˈruː"
     },
     {
         "word": "Petra",
@@ -673,7 +717,8 @@
             }
         ],
         "subtext": "historic site",
-        "emoji": "🇯🇴"
+        "emoji": "🇯🇴",
+        "transcription": "ˈpɛtrə"
     },
     {
         "word": "Philippines",
@@ -688,7 +733,8 @@
             }
         ],
         "subtext": "archipelago country in Southeast Asia",
-        "emoji": "🇵🇭"
+        "emoji": "🇵🇭",
+        "transcription": "ˈfɪlɪpiːnz"
     },
     {
         "word": "Portugal",
@@ -703,7 +749,8 @@
             }
         ],
         "subtext": "country in Southern Europe",
-        "emoji": "🇵🇹"
+        "emoji": "🇵🇹",
+        "transcription": "ˈpɔːrtʃʊɡəl"
     },
     {
         "word": "Saudi Arabia",
@@ -718,7 +765,8 @@
             }
         ],
         "subtext": "country in the Middle East",
-        "emoji": "🇸🇦"
+        "emoji": "🇸🇦",
+        "transcription": "ˌsaʊdi əˈreɪbiə"
     },
     {
         "word": "Scotland",
@@ -733,7 +781,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "transcription": "ˈskɒtlənd"
     },
     {
         "word": "Seoul",
@@ -748,7 +797,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇰🇷"
+        "emoji": "🇰🇷",
+        "transcription": "soʊl"
     },
     {
         "word": "Shanghai",
@@ -763,7 +813,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "transcription": "ʃæŋˈhaɪ"
     },
     {
         "word": "Singapore",
@@ -778,7 +829,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇸🇬"
+        "emoji": "🇸🇬",
+        "transcription": "ˈsɪŋəpɔːr"
     },
     {
         "word": "South Africa",
@@ -793,7 +845,8 @@
             }
         ],
         "subtext": "country in Southern Africa",
-        "emoji": "🇿🇦"
+        "emoji": "🇿🇦",
+        "transcription": "saʊθ ˈæfrɪkə"
     },
     {
         "word": "Stockholm",
@@ -808,7 +861,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇸🇪"
+        "emoji": "🇸🇪",
+        "transcription": "ˈstɒkhoʊm"
     },
     {
         "word": "Tbilisi",
@@ -823,7 +877,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇪"
+        "emoji": "🇬🇪",
+        "transcription": "təˈbiːliːsi"
     },
     {
         "word": "Toronto",
@@ -838,7 +893,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "transcription": "təˈrɒntoʊ"
     },
     {
         "word": "Turkey",
@@ -853,7 +909,8 @@
             }
         ],
         "subtext": "transcontinental country in Eurasia",
-        "emoji": "🇹🇷"
+        "emoji": "🇹🇷",
+        "transcription": "ˈtɜːrki"
     },
     {
         "word": "UAE",
@@ -868,7 +925,8 @@
             }
         ],
         "subtext": "country in the Middle East",
-        "emoji": "🇦🇪"
+        "emoji": "🇦🇪",
+        "transcription": "ˌjuː eɪ ˈiː"
     },
     {
         "word": "Vietnam",
@@ -883,7 +941,8 @@
             }
         ],
         "subtext": "country in Southeast Asia",
-        "emoji": "🇻🇳"
+        "emoji": "🇻🇳",
+        "transcription": "ˌvjɛtˈnæm"
     },
     {
         "word": "Wales",
@@ -898,7 +957,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+        "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+        "transcription": "weɪlz"
     },
     {
         "word": "Warsaw",
@@ -913,7 +973,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇵🇱"
+        "emoji": "🇵🇱",
+        "transcription": "ˈwɔːrsɔː"
     },
     {
         "word": "Yerevan",
@@ -928,7 +989,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇲"
+        "emoji": "🇦🇲",
+        "transcription": "ˌjɛrəˈvæn"
     },
     {
         "word": "Zurich",
@@ -943,7 +1005,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇭"
+        "emoji": "🇨🇭",
+        "transcription": "ˈzjʊərɪk"
     }
 ];
     const lang = "en";

@@ -22,7 +22,8 @@
             "away"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈæbsənt"
     },
     {
         "word": "academic",
@@ -44,7 +45,8 @@
             "school-related"
         ],
         "comparative": "more academic",
-        "superlative": "the most academic"
+        "superlative": "the most academic",
+        "transcription": "ˌækəˈdɛmɪk"
     },
     {
         "word": "actual",
@@ -67,7 +69,8 @@
             "true"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈæktʃuəl"
     },
     {
         "word": "affordable",
@@ -90,7 +93,8 @@
             "low-cost"
         ],
         "comparative": "more affordable",
-        "superlative": "the most affordable"
+        "superlative": "the most affordable",
+        "transcription": "əˈfɔːrdəbl"
     },
     {
         "word": "aggressive",
@@ -113,7 +117,8 @@
             "angry"
         ],
         "comparative": "more aggressive",
-        "superlative": "the most aggressive"
+        "superlative": "the most aggressive",
+        "transcription": "əˈɡrɛsɪv"
     },
     {
         "word": "ambitious",
@@ -136,7 +141,8 @@
             "aspiring"
         ],
         "comparative": "more ambitious",
-        "superlative": "the most ambitious"
+        "superlative": "the most ambitious",
+        "transcription": "æmˈbɪʃəs"
     },
     {
         "word": "annual",
@@ -158,7 +164,8 @@
             "yearly"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈænjuəl"
     },
     {
         "word": "anxious",
@@ -183,7 +190,8 @@
             "uneasy"
         ],
         "comparative": "more anxious",
-        "superlative": "the most anxious"
+        "superlative": "the most anxious",
+        "transcription": "ˈæŋkʃəs"
     },
     {
         "word": "artificial",
@@ -206,7 +214,8 @@
             "synthetic"
         ],
         "comparative": "more artificial",
-        "superlative": "the most artificial"
+        "superlative": "the most artificial",
+        "transcription": "ˌɑːrtɪˈfɪʃl"
     },
     {
         "word": "athletic",
@@ -230,7 +239,8 @@
             "physically active"
         ],
         "comparative": "more athletic",
-        "superlative": "the most athletic"
+        "superlative": "the most athletic",
+        "transcription": "æθˈlɛtɪk"
     },
     {
         "word": "automatic",
@@ -252,7 +262,8 @@
             "self-working"
         ],
         "comparative": "more automatic",
-        "superlative": "the most automatic"
+        "superlative": "the most automatic",
+        "transcription": "ˌɔːtəˈmætɪk"
     },
     {
         "word": "available",
@@ -271,7 +282,12 @@
         ],
         "subtext": "widely available / freely available / available for",
         "comparative": "more available",
-        "superlative": "the most available"
+        "superlative": "the most available",
+        "transcription": "əˈveɪləbl",
+        "synonyms": [
+            "free",
+            "ready"
+        ]
     },
     {
         "word": "aware",
@@ -294,7 +310,8 @@
             "conscious"
         ],
         "comparative": "more aware",
-        "superlative": "the most aware"
+        "superlative": "the most aware",
+        "transcription": "əˈweər"
     },
     {
         "word": "basic",
@@ -319,7 +336,8 @@
             "essential"
         ],
         "comparative": "more basic",
-        "superlative": "the most basic"
+        "superlative": "the most basic",
+        "transcription": "ˈbeɪsɪk"
     },
     {
         "word": "biological",
@@ -341,7 +359,8 @@
             "nature-related"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˌbaɪəˈlɒdʒɪkl"
     },
     {
         "word": "brief",
@@ -366,7 +385,8 @@
             "concise"
         ],
         "comparative": "briefer",
-        "superlative": "the briefest"
+        "superlative": "the briefest",
+        "transcription": "briːf"
     },
     {
         "word": "broke",
@@ -385,7 +405,8 @@
         ],
         "subtext": "flat broke / completely broke / go broke",
         "comparative": "more broke",
-        "superlative": "the most broke"
+        "superlative": "the most broke",
+        "transcription": "broʊk"
     },
     {
         "word": "brunette",
@@ -407,7 +428,8 @@
             "dark-haired"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "bruːˈnɛt"
     },
     {
         "word": "careless",
@@ -430,7 +452,8 @@
             "reckless"
         ],
         "comparative": "more careless",
-        "superlative": "the most careless"
+        "superlative": "the most careless",
+        "transcription": "ˈkeərləs"
     },
     {
         "word": "central",
@@ -453,7 +476,8 @@
             "main"
         ],
         "comparative": "more central",
-        "superlative": "the most central"
+        "superlative": "the most central",
+        "transcription": "ˈsɛntrəl"
     },
     {
         "word": "certain",
@@ -478,7 +502,8 @@
             "positive"
         ],
         "comparative": "more certain",
-        "superlative": "the most certain"
+        "superlative": "the most certain",
+        "transcription": "ˈsɜːrtn"
     },
     {
         "word": "cheerful",
@@ -503,7 +528,8 @@
             "upbeat"
         ],
         "comparative": "more cheerful",
-        "superlative": "the most cheerful"
+        "superlative": "the most cheerful",
+        "transcription": "ˈtʃɪərf l"
     },
     {
         "word": "chemical",
@@ -522,7 +548,8 @@
         ],
         "subtext": "chemical substance",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈkɛmɪkl"
     },
     {
         "word": "commercial",
@@ -544,7 +571,8 @@
             "business-related"
         ],
         "comparative": "more commercial",
-        "superlative": "the most commercial"
+        "superlative": "the most commercial",
+        "transcription": "kəˈmɜːrʃl"
     },
     {
         "word": "competitive",
@@ -566,7 +594,8 @@
             "ambitious"
         ],
         "comparative": "more competitive",
-        "superlative": "the most competitive"
+        "superlative": "the most competitive",
+        "transcription": "kəmˈpɛtətɪv"
     },
     {
         "word": "complicated",
@@ -589,7 +618,8 @@
             "intricate"
         ],
         "comparative": "more complicated",
-        "superlative": "the most complicated"
+        "superlative": "the most complicated",
+        "transcription": "ˈkɒmplɪkeɪtɪd"
     },
     {
         "word": "confident",
@@ -613,7 +643,8 @@
             "bold"
         ],
         "comparative": "more confident",
-        "superlative": "the most confident"
+        "superlative": "the most confident",
+        "transcription": "ˈkɒnfɪdənt"
     },
     {
         "word": "confidential",
@@ -637,7 +668,8 @@
             "classified"
         ],
         "comparative": "more confidential",
-        "superlative": "the most confidential"
+        "superlative": "the most confidential",
+        "transcription": "ˌkɒnfɪˈdɛnʃl"
     },
     {
         "word": "conscious",
@@ -659,7 +691,8 @@
             "aware"
         ],
         "comparative": "more conscious",
-        "superlative": "the most conscious"
+        "superlative": "the most conscious",
+        "transcription": "ˈkɒnʃəs"
     },
     {
         "word": "convenient",
@@ -681,7 +714,8 @@
             "conveniently located"
         ],
         "comparative": "more convenient",
-        "superlative": "the most convenient"
+        "superlative": "the most convenient",
+        "transcription": "kənˈviːniənt"
     },
     {
         "word": "critical",
@@ -704,7 +738,8 @@
             "negative"
         ],
         "comparative": "more critical",
-        "superlative": "the most critical"
+        "superlative": "the most critical",
+        "transcription": "ˈkrɪtɪkl"
     },
     {
         "word": "cruel",
@@ -728,7 +763,8 @@
             "unkind"
         ],
         "comparative": "crueller",
-        "superlative": "the cruellest"
+        "superlative": "the cruellest",
+        "transcription": "ˈkruːəl"
     },
     {
         "word": "cultural",
@@ -750,7 +786,8 @@
             "culture-related"
         ],
         "comparative": "more cultural",
-        "superlative": "the most cultural"
+        "superlative": "the most cultural",
+        "transcription": "ˈkʌltʃərəl"
     },
     {
         "word": "curious",
@@ -774,7 +811,8 @@
             "inquisitive"
         ],
         "comparative": "more curious",
-        "superlative": "the most curious"
+        "superlative": "the most curious",
+        "transcription": "ˈkjʊəriəs"
     },
     {
         "word": "current",
@@ -796,7 +834,8 @@
             "currently"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈkɜːrənt"
     },
     {
         "word": "daily",
@@ -815,7 +854,8 @@
         ],
         "subtext": "daily routine / on a daily basis / daily report",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈdeɪli"
     },
     {
         "word": "deliberate",
@@ -838,7 +878,8 @@
             "intentional"
         ],
         "comparative": "more deliberate",
-        "superlative": "the most deliberate"
+        "superlative": "the most deliberate",
+        "transcription": "dɪˈlɪbərət"
     },
     {
         "word": "digital",
@@ -860,7 +901,8 @@
             "tech-related"
         ],
         "comparative": "more digital",
-        "superlative": "the most digital"
+        "superlative": "the most digital",
+        "transcription": "ˈdɪdʒɪtl"
     },
     {
         "word": "direct",
@@ -879,7 +921,8 @@
         ],
         "subtext": "very direct / direct approach / a direct question",
         "comparative": "more direct",
-        "superlative": "the most direct"
+        "superlative": "the most direct",
+        "transcription": "dəˈrɛkt"
     },
     {
         "word": "dishonest",
@@ -902,7 +945,8 @@
             "deceitful"
         ],
         "comparative": "more dishonest",
-        "superlative": "the most dishonest"
+        "superlative": "the most dishonest",
+        "transcription": "dɪsˈɒnɪst"
     },
     {
         "word": "dissatisfied",
@@ -925,7 +969,8 @@
             "not content"
         ],
         "comparative": "more dissatisfied",
-        "superlative": "the most dissatisfied"
+        "superlative": "the most dissatisfied",
+        "transcription": "dɪˈsætɪsfaɪd"
     },
     {
         "word": "economic",
@@ -947,7 +992,8 @@
             "economy-related"
         ],
         "comparative": "more economic",
-        "superlative": "the most economic"
+        "superlative": "the most economic",
+        "transcription": "ˌiːkəˈnɒmɪk"
     },
     {
         "word": "efficient",
@@ -970,7 +1016,8 @@
             "productive"
         ],
         "comparative": "more efficient",
-        "superlative": "the most efficient"
+        "superlative": "the most efficient",
+        "transcription": "ɪˈfɪʃnt"
     },
     {
         "word": "emotional",
@@ -992,7 +1039,8 @@
             "feeling-based"
         ],
         "comparative": "more emotional",
-        "superlative": "the most emotional"
+        "superlative": "the most emotional",
+        "transcription": "ɪˈmoʊʃənl"
     },
     {
         "word": "energetic",
@@ -1015,7 +1063,8 @@
             "lively"
         ],
         "comparative": "more energetic",
-        "superlative": "the most energetic"
+        "superlative": "the most energetic",
+        "transcription": "ˌɛnərˈdʒɛtɪk"
     },
     {
         "word": "environmental",
@@ -1037,7 +1086,8 @@
             "nature-related"
         ],
         "comparative": "more environmental",
-        "superlative": "the most environmental"
+        "superlative": "the most environmental",
+        "transcription": "ɪnˌvaɪrənˈmɛntl"
     },
     {
         "word": "excellent",
@@ -1056,7 +1106,12 @@
         ],
         "subtext": "excellent work / excellent results / absolutely excellent",
         "comparative": "more excellent",
-        "superlative": "the most excellent"
+        "superlative": "the most excellent",
+        "transcription": "ˈɛksələnt",
+        "synonyms": [
+            "wonderful",
+            "great"
+        ]
     },
     {
         "word": "experienced",
@@ -1075,7 +1130,8 @@
         ],
         "subtext": "highly experienced / experienced in / experienced enough",
         "comparative": "more experienced",
-        "superlative": "the most experienced"
+        "superlative": "the most experienced",
+        "transcription": "ɪkˈspɪəriənst"
     },
     {
         "word": "extreme",
@@ -1098,7 +1154,8 @@
             "intense"
         ],
         "comparative": "more extreme",
-        "superlative": "the most extreme"
+        "superlative": "the most extreme",
+        "transcription": "ɪkˈstriːm"
     },
     {
         "word": "fake",
@@ -1121,7 +1178,8 @@
             "artificial"
         ],
         "comparative": "more fake",
-        "superlative": "the most fake"
+        "superlative": "the most fake",
+        "transcription": "feɪk"
     },
     {
         "word": "familiar",
@@ -1143,7 +1201,8 @@
             "well-known"
         ],
         "comparative": "more familiar",
-        "superlative": "the most familiar"
+        "superlative": "the most familiar",
+        "transcription": "fəˈmɪliər"
     },
     {
         "word": "financial",
@@ -1165,7 +1224,8 @@
             "money-related"
         ],
         "comparative": "more financial",
-        "superlative": "the most financial"
+        "superlative": "the most financial",
+        "transcription": "faɪˈnænʃl"
     },
     {
         "word": "flexible",
@@ -1184,7 +1244,8 @@
         ],
         "subtext": "flexible hours / flexible approach / very flexible",
         "comparative": "more flexible",
-        "superlative": "the most flexible"
+        "superlative": "the most flexible",
+        "transcription": "ˈflɛksəbl"
     },
     {
         "word": "foolish",
@@ -1207,7 +1268,8 @@
             "stupid"
         ],
         "comparative": "more foolish",
-        "superlative": "the most foolish"
+        "superlative": "the most foolish",
+        "transcription": "ˈfuːlɪʃ"
     },
     {
         "word": "foreign",
@@ -1231,7 +1293,8 @@
             "alien"
         ],
         "comparative": "more foreign",
-        "superlative": "the most foreign"
+        "superlative": "the most foreign",
+        "transcription": "ˈfɒrən"
     },
     {
         "word": "formal",
@@ -1255,7 +1318,8 @@
             "serious"
         ],
         "comparative": "more formal",
-        "superlative": "the most formal"
+        "superlative": "the most formal",
+        "transcription": "ˈfɔːrml"
     },
     {
         "word": "fresh",
@@ -1279,7 +1343,8 @@
             "recently picked"
         ],
         "comparative": "fresher",
-        "superlative": "the freshest"
+        "superlative": "the freshest",
+        "transcription": "frɛʃ"
     },
     {
         "word": "future",
@@ -1298,7 +1363,11 @@
         ],
         "subtext": "future plans / in the future / future employer",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "synonyms": [
+            "upcoming"
+        ],
+        "transcription": "ˈfjuːtʃər"
     },
     {
         "word": "general",
@@ -1322,7 +1391,8 @@
             "overall"
         ],
         "comparative": "more general",
-        "superlative": "the most general"
+        "superlative": "the most general",
+        "transcription": "ˈdʒɛnrəl"
     },
     {
         "word": "generous",
@@ -1346,7 +1416,8 @@
             "giving"
         ],
         "comparative": "more generous",
-        "superlative": "the most generous"
+        "superlative": "the most generous",
+        "transcription": "ˈdʒɛnərəs"
     },
     {
         "word": "global",
@@ -1368,7 +1439,8 @@
             "worldwide"
         ],
         "comparative": "more global",
-        "superlative": "the most global"
+        "superlative": "the most global",
+        "transcription": "ˈɡloʊbl"
     },
     {
         "word": "grateful",
@@ -1390,7 +1462,8 @@
             "thankful"
         ],
         "comparative": "more grateful",
-        "superlative": "the most grateful"
+        "superlative": "the most grateful",
+        "transcription": "ˈɡreɪtfl"
     },
     {
         "word": "guilty",
@@ -1412,7 +1485,8 @@
             "responsible for crime"
         ],
         "comparative": "more guilty",
-        "superlative": "the most guilty"
+        "superlative": "the most guilty",
+        "transcription": "ˈɡɪlti"
     },
     {
         "word": "huge",
@@ -1436,7 +1510,8 @@
             "enormous"
         ],
         "comparative": "huger",
-        "superlative": "the hugest"
+        "superlative": "the hugest",
+        "transcription": "hjuːdʒ"
     },
     {
         "word": "illegal",
@@ -1458,7 +1533,8 @@
             "unlawful"
         ],
         "comparative": "more illegal",
-        "superlative": "the most illegal"
+        "superlative": "the most illegal",
+        "transcription": "ɪˈliːɡl"
     },
     {
         "word": "immediate",
@@ -1481,7 +1557,8 @@
             "direct"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ɪˈmiːdiət"
     },
     {
         "word": "impatient",
@@ -1503,7 +1580,8 @@
             "restless"
         ],
         "comparative": "more impatient",
-        "superlative": "the most impatient"
+        "superlative": "the most impatient",
+        "transcription": "ɪmˈpeɪʃnt"
     },
     {
         "word": "imperfect",
@@ -1525,7 +1603,8 @@
             "flawed"
         ],
         "comparative": "more imperfect",
-        "superlative": "the most imperfect"
+        "superlative": "the most imperfect",
+        "transcription": "ɪmˈpɜːrfɪkt"
     },
     {
         "word": "impolite",
@@ -1547,7 +1626,8 @@
             "rude"
         ],
         "comparative": "more impolite",
-        "superlative": "the most impolite"
+        "superlative": "the most impolite",
+        "transcription": "ˌɪmpəˈlaɪt"
     },
     {
         "word": "impossible",
@@ -1566,7 +1646,11 @@
         ],
         "subtext": "virtually impossible / make impossible / nearly impossible",
         "comparative": "more impossible",
-        "superlative": "the most impossible"
+        "superlative": "the most impossible",
+        "transcription": "ɪmˈpɒsəbl",
+        "synonyms": [
+            "unachievable"
+        ]
     },
     {
         "word": "independent",
@@ -1585,7 +1669,11 @@
         ],
         "subtext": "financially independent / very independent / an independent report",
         "comparative": "more independent",
-        "superlative": "the most independent"
+        "superlative": "the most independent",
+        "transcription": "ˌɪndɪˈpɛndənt",
+        "synonyms": [
+            "self-reliant"
+        ]
     },
     {
         "word": "industrial",
@@ -1607,7 +1695,8 @@
             "industry-related"
         ],
         "comparative": "more industrial",
-        "superlative": "the most industrial"
+        "superlative": "the most industrial",
+        "transcription": "ɪnˈdʌstriəl"
     },
     {
         "word": "innocent",
@@ -1629,7 +1718,8 @@
             "not guilty"
         ],
         "comparative": "more innocent",
-        "superlative": "the most innocent"
+        "superlative": "the most innocent",
+        "transcription": "ˈɪnəsnt"
     },
     {
         "word": "intelligent",
@@ -1653,7 +1743,8 @@
             "smart"
         ],
         "comparative": "more intelligent",
-        "superlative": "the most intelligent"
+        "superlative": "the most intelligent",
+        "transcription": "ɪnˈtɛlɪdʒənt"
     },
     {
         "word": "internal",
@@ -1677,7 +1768,8 @@
             "inner"
         ],
         "comparative": "more internal",
-        "superlative": "the most internal"
+        "superlative": "the most internal",
+        "transcription": "ɪnˈtɜːrnl"
     },
     {
         "word": "junior",
@@ -1701,7 +1793,8 @@
             "younger"
         ],
         "comparative": "more junior",
-        "superlative": "the most junior"
+        "superlative": "the most junior",
+        "transcription": "ˈdʒuːniər"
     },
     {
         "word": "legal",
@@ -1723,7 +1816,8 @@
             "lawful"
         ],
         "comparative": "more legal",
-        "superlative": "the most legal"
+        "superlative": "the most legal",
+        "transcription": "ˈliːɡl"
     },
     {
         "word": "likely",
@@ -1745,7 +1839,8 @@
             "probable"
         ],
         "comparative": "more likely",
-        "superlative": "the most likely"
+        "superlative": "the most likely",
+        "transcription": "ˈlaɪkli"
     },
     {
         "word": "local",
@@ -1769,7 +1864,8 @@
             "regional"
         ],
         "comparative": "more local",
-        "superlative": "the most local"
+        "superlative": "the most local",
+        "transcription": "ˈloʊkl"
     },
     {
         "word": "logical",
@@ -1792,7 +1888,8 @@
             "reasonable"
         ],
         "comparative": "more logical",
-        "superlative": "the most logical"
+        "superlative": "the most logical",
+        "transcription": "ˈlɒdʒɪkl"
     },
     {
         "word": "loose",
@@ -1816,7 +1913,8 @@
             "not tight"
         ],
         "comparative": "looser",
-        "superlative": "the loosest"
+        "superlative": "the loosest",
+        "transcription": "luːs"
     },
     {
         "word": "loyal",
@@ -1838,7 +1936,8 @@
             "faithful"
         ],
         "comparative": "more loyal",
-        "superlative": "the most loyal"
+        "superlative": "the most loyal",
+        "transcription": "ˈlɔɪəl"
     },
     {
         "word": "manual",
@@ -1860,7 +1959,8 @@
             "hand-done"
         ],
         "comparative": "more manual",
-        "superlative": "the most manual"
+        "superlative": "the most manual",
+        "transcription": "ˈmænjuəl"
     },
     {
         "word": "mental",
@@ -1882,7 +1982,8 @@
             "mind-related"
         ],
         "comparative": "more mental",
-        "superlative": "the most mental"
+        "superlative": "the most mental",
+        "transcription": "ˈmɛntl"
     },
     {
         "word": "messy",
@@ -1906,7 +2007,8 @@
             "disordered"
         ],
         "comparative": "messier",
-        "superlative": "the messiest"
+        "superlative": "the messiest",
+        "transcription": "ˈmɛsi"
     },
     {
         "word": "mild",
@@ -1929,7 +2031,8 @@
             "moderate"
         ],
         "comparative": "milder",
-        "superlative": "the mildest"
+        "superlative": "the mildest",
+        "transcription": "maɪld"
     },
     {
         "word": "modest",
@@ -1952,7 +2055,8 @@
             "humble"
         ],
         "comparative": "more modest",
-        "superlative": "the most modest"
+        "superlative": "the most modest",
+        "transcription": "ˈmɒdɪst"
     },
     {
         "word": "neat",
@@ -1976,7 +2080,8 @@
             "organized"
         ],
         "comparative": "neater",
-        "superlative": "the neatest"
+        "superlative": "the neatest",
+        "transcription": "niːt"
     },
     {
         "word": "necessary",
@@ -1995,7 +2100,12 @@
         ],
         "subtext": "absolutely necessary / if necessary / necessary to do",
         "comparative": "more necessary",
-        "superlative": "the most necessary"
+        "superlative": "the most necessary",
+        "transcription": "ˈnɛsəsəri",
+        "synonyms": [
+            "essential",
+            "needed"
+        ]
     },
     {
         "word": "negative",
@@ -2018,7 +2128,8 @@
             "harmful"
         ],
         "comparative": "more negative",
-        "superlative": "the most negative"
+        "superlative": "the most negative",
+        "transcription": "ˈnɛɡətɪv"
     },
     {
         "word": "numerous",
@@ -2040,7 +2151,8 @@
             "many"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈnjuːmərəs"
     },
     {
         "word": "odd",
@@ -2063,7 +2175,8 @@
             "unusual"
         ],
         "comparative": "odder",
-        "superlative": "the oddest"
+        "superlative": "the oddest",
+        "transcription": "ɒd"
     },
     {
         "word": "official",
@@ -2087,7 +2200,8 @@
             "authorized"
         ],
         "comparative": "more official",
-        "superlative": "the most official"
+        "superlative": "the most official",
+        "transcription": "əˈfɪʃl"
     },
     {
         "word": "optimistic",
@@ -2111,7 +2225,8 @@
             "hopeful"
         ],
         "comparative": "more optimistic",
-        "superlative": "the most optimistic"
+        "superlative": "the most optimistic",
+        "transcription": "ˌɒptɪˈmɪstɪk"
     },
     {
         "word": "ordinary",
@@ -2130,7 +2245,12 @@
         ],
         "subtext": "ordinary day / ordinary life / nothing ordinary",
         "comparative": "more ordinary",
-        "superlative": "the most ordinary"
+        "superlative": "the most ordinary",
+        "transcription": "ˈɔːrdnri",
+        "synonyms": [
+            "normal",
+            "common"
+        ]
     },
     {
         "word": "organised",
@@ -2149,7 +2269,12 @@
         ],
         "subtext": "well organised / highly organised / stay organised",
         "comparative": "more organised",
-        "superlative": "the most organised"
+        "superlative": "the most organised",
+        "transcription": "ˈɔːrɡənaɪzd",
+        "synonyms": [
+            "tidy",
+            "efficient"
+        ]
     },
     {
         "word": "overweight",
@@ -2168,7 +2293,12 @@
         ],
         "subtext": "slightly overweight / become overweight / clinically overweight",
         "comparative": "more overweight",
-        "superlative": "the most overweight"
+        "superlative": "the most overweight",
+        "transcription": "ˌoʊvərˈweɪt",
+        "synonyms": [
+            "fat",
+            "heavy"
+        ]
     },
     {
         "word": "permanent",
@@ -2191,7 +2321,8 @@
             "forever"
         ],
         "comparative": "more permanent",
-        "superlative": "the most permanent"
+        "superlative": "the most permanent",
+        "transcription": "ˈpɜːrmənənt"
     },
     {
         "word": "personal",
@@ -2214,7 +2345,8 @@
             "individual"
         ],
         "comparative": "more personal",
-        "superlative": "the most personal"
+        "superlative": "the most personal",
+        "transcription": "ˈpɜːrsənl"
     },
     {
         "word": "pessimistic",
@@ -2238,7 +2370,8 @@
             "hopeless"
         ],
         "comparative": "more pessimistic",
-        "superlative": "the most pessimistic"
+        "superlative": "the most pessimistic",
+        "transcription": "ˌpɛsɪˈmɪstɪk"
     },
     {
         "word": "physical",
@@ -2260,7 +2393,8 @@
             "body-related"
         ],
         "comparative": "more physical",
-        "superlative": "the most physical"
+        "superlative": "the most physical",
+        "transcription": "ˈfɪzɪkl"
     },
     {
         "word": "political",
@@ -2282,7 +2416,8 @@
             "government-related"
         ],
         "comparative": "more political",
-        "superlative": "the most political"
+        "superlative": "the most political",
+        "transcription": "pəˈlɪtɪkl"
     },
     {
         "word": "popular",
@@ -2302,7 +2437,12 @@
         ],
         "subtext": "very popular / popular choice / a popular person",
         "comparative": "more popular",
-        "superlative": "the most popular"
+        "superlative": "the most popular",
+        "transcription": "ˈpɒpjələr",
+        "synonyms": [
+            "famous",
+            "liked"
+        ]
     },
     {
         "word": "positive",
@@ -2325,7 +2465,8 @@
             "good"
         ],
         "comparative": "more positive",
-        "superlative": "the most positive"
+        "superlative": "the most positive",
+        "transcription": "ˈpɒzətɪv"
     },
     {
         "word": "potential",
@@ -2347,7 +2488,8 @@
             "possible"
         ],
         "comparative": "more potential",
-        "superlative": "the most potential"
+        "superlative": "the most potential",
+        "transcription": "pəˈtɛnʃl"
     },
     {
         "word": "practical",
@@ -2366,7 +2508,11 @@
         ],
         "subtext": "very practical / highly practical / a practical solution",
         "comparative": "more practical",
-        "superlative": "the most practical"
+        "superlative": "the most practical",
+        "transcription": "ˈpræktɪkl",
+        "synonyms": [
+            "useful"
+        ]
     },
     {
         "word": "previous",
@@ -2389,7 +2535,8 @@
             "earlier"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ˈpriːviəs"
     },
     {
         "word": "private",
@@ -2413,7 +2560,8 @@
             "confidential"
         ],
         "comparative": "more private",
-        "superlative": "the most private"
+        "superlative": "the most private",
+        "transcription": "ˈpraɪvət"
     },
     {
         "word": "productive",
@@ -2432,7 +2580,11 @@
         ],
         "subtext": "very productive / highly productive / a productive meeting",
         "comparative": "more productive",
-        "superlative": "the most productive"
+        "superlative": "the most productive",
+        "transcription": "prəˈdʌktɪv",
+        "synonyms": [
+            "efficient"
+        ]
     },
     {
         "word": "professional",
@@ -2451,7 +2603,11 @@
         ],
         "subtext": "professional advice / very professional / highly professional",
         "comparative": "more professional",
-        "superlative": "the most professional"
+        "superlative": "the most professional",
+        "transcription": "prəˈfɛʃənl",
+        "synonyms": [
+            "expert"
+        ]
     },
     {
         "word": "public",
@@ -2475,7 +2631,8 @@
             "communal"
         ],
         "comparative": "more public",
-        "superlative": "the most public"
+        "superlative": "the most public",
+        "transcription": "ˈpʌblɪk"
     },
     {
         "word": "qualified",
@@ -2494,7 +2651,11 @@
         ],
         "subtext": "fully qualified / well qualified / highly qualified",
         "comparative": "more qualified",
-        "superlative": "the most qualified"
+        "superlative": "the most qualified",
+        "synonyms": [
+            "trained"
+        ],
+        "transcription": "ˈkwɒlɪfaɪd"
     },
     {
         "word": "rare",
@@ -2518,7 +2679,8 @@
             "unusual"
         ],
         "comparative": "rarer",
-        "superlative": "the rarest"
+        "superlative": "the rarest",
+        "transcription": "reər"
     },
     {
         "word": "reasonable",
@@ -2541,7 +2703,8 @@
             "fair"
         ],
         "comparative": "more reasonable",
-        "superlative": "the most reasonable"
+        "superlative": "the most reasonable",
+        "transcription": "ˈriːznəbl"
     },
     {
         "word": "recent",
@@ -2560,7 +2723,12 @@
         ],
         "subtext": "most recent / very recent / recent news",
         "comparative": "more recent",
-        "superlative": "the most recent"
+        "superlative": "the most recent",
+        "synonyms": [
+            "new",
+            "latest"
+        ],
+        "transcription": "ˈriːsnt"
     },
     {
         "word": "regular",
@@ -2583,7 +2751,8 @@
             "normal"
         ],
         "comparative": "more regular",
-        "superlative": "the most regular"
+        "superlative": "the most regular",
+        "transcription": "ˈrɛɡjələr"
     },
     {
         "word": "relevant",
@@ -2605,7 +2774,8 @@
             "applicable"
         ],
         "comparative": "more relevant",
-        "superlative": "the most relevant"
+        "superlative": "the most relevant",
+        "transcription": "ˈrɛləvənt"
     },
     {
         "word": "reliable",
@@ -2624,7 +2794,11 @@
         ],
         "subtext": "very reliable / highly reliable / a reliable source",
         "comparative": "more reliable",
-        "superlative": "the most reliable"
+        "superlative": "the most reliable",
+        "transcription": "rɪˈlaɪəbl",
+        "synonyms": [
+            "dependable"
+        ]
     },
     {
         "word": "remote",
@@ -2646,7 +2820,8 @@
             "distant"
         ],
         "comparative": "remoter",
-        "superlative": "the remotest"
+        "superlative": "the remotest",
+        "transcription": "rɪˈmoʊt"
     },
     {
         "word": "responsible",
@@ -2665,7 +2840,11 @@
         ],
         "subtext": "responsible for / very responsible / highly responsible",
         "comparative": "more responsible",
-        "superlative": "the most responsible"
+        "superlative": "the most responsible",
+        "transcription": "rɪˈspɒnsəbl",
+        "synonyms": [
+            "accountable"
+        ]
     },
     {
         "word": "satisfied",
@@ -2688,7 +2867,8 @@
             "pleased"
         ],
         "comparative": "more satisfied",
-        "superlative": "the most satisfied"
+        "superlative": "the most satisfied",
+        "transcription": "ˈsætɪsfaɪd"
     },
     {
         "word": "scientific",
@@ -2710,7 +2890,8 @@
             "science-related"
         ],
         "comparative": "more scientific",
-        "superlative": "the most scientific"
+        "superlative": "the most scientific",
+        "transcription": "ˌsaɪənˈtɪfɪk"
     },
     {
         "word": "selfish",
@@ -2733,7 +2914,8 @@
             "self-centered"
         ],
         "comparative": "more selfish",
-        "superlative": "the most selfish"
+        "superlative": "the most selfish",
+        "transcription": "ˈsɛlfɪʃ"
     },
     {
         "word": "sensible",
@@ -2757,7 +2939,8 @@
             "reasonable"
         ],
         "comparative": "more sensible",
-        "superlative": "the most sensible"
+        "superlative": "the most sensible",
+        "transcription": "ˈsɛnsəbl"
     },
     {
         "word": "sensitive",
@@ -2781,7 +2964,8 @@
             "emotional"
         ],
         "comparative": "more sensitive",
-        "superlative": "the most sensitive"
+        "superlative": "the most sensitive",
+        "transcription": "ˈsɛnsətɪv"
     },
     {
         "word": "severe",
@@ -2804,7 +2988,8 @@
             "extreme"
         ],
         "comparative": "more severe",
-        "superlative": "the most severe"
+        "superlative": "the most severe",
+        "transcription": "sɪˈvɪər"
     },
     {
         "word": "similar",
@@ -2823,7 +3008,11 @@
         ],
         "subtext": "very similar / similar to / similar results",
         "comparative": "more similar",
-        "superlative": "the most similar"
+        "superlative": "the most similar",
+        "transcription": "ˈsɪmələr",
+        "synonyms": [
+            "alike"
+        ]
     },
     {
         "word": "sociable",
@@ -2842,7 +3031,11 @@
         ],
         "subtext": "very sociable / naturally sociable / sociable person",
         "comparative": "more sociable",
-        "superlative": "the most sociable"
+        "superlative": "the most sociable",
+        "transcription": "ˈsoʊʃəbl",
+        "synonyms": [
+            "friendly"
+        ]
     },
     {
         "word": "social",
@@ -2864,7 +3057,8 @@
             "society-related"
         ],
         "comparative": "more social",
-        "superlative": "the most social"
+        "superlative": "the most social",
+        "transcription": "ˈsoʊʃl"
     },
     {
         "word": "spiritual",
@@ -2887,7 +3081,8 @@
             "deep"
         ],
         "comparative": "more spiritual",
-        "superlative": "the most spiritual"
+        "superlative": "the most spiritual",
+        "transcription": "ˈspɪrɪtʃuəl"
     },
     {
         "word": "strange",
@@ -2907,7 +3102,12 @@
         ],
         "subtext": "very strange / a strange feeling / find strange",
         "comparative": "stranger",
-        "superlative": "the strangest"
+        "superlative": "the strangest",
+        "transcription": "streɪndʒ",
+        "synonyms": [
+            "unusual",
+            "odd"
+        ]
     },
     {
         "word": "stressed",
@@ -2927,7 +3127,11 @@
         ],
         "subtext": "feel stressed / very stressed / completely stressed",
         "comparative": "more stressed",
-        "superlative": "the most stressed"
+        "superlative": "the most stressed",
+        "transcription": "strɛst",
+        "synonyms": [
+            "worried"
+        ]
     },
     {
         "word": "stressful",
@@ -2946,7 +3150,11 @@
         ],
         "subtext": "a stressful job / very stressful / stressful situation",
         "comparative": "more stressful",
-        "superlative": "the most stressful"
+        "superlative": "the most stressful",
+        "transcription": "ˈstrɛsfl",
+        "synonyms": [
+            "difficult"
+        ]
     },
     {
         "word": "successful",
@@ -2965,7 +3173,11 @@
         ],
         "subtext": "highly successful / a successful career / very successful",
         "comparative": "more successful",
-        "superlative": "the most successful"
+        "superlative": "the most successful",
+        "synonyms": [
+            "effective"
+        ],
+        "transcription": "səkˈsɛsfl"
     },
     {
         "word": "supportive",
@@ -2984,7 +3196,11 @@
         ],
         "subtext": "very supportive / supportive team / be supportive",
         "comparative": "more supportive",
-        "superlative": "the most supportive"
+        "superlative": "the most supportive",
+        "transcription": "səˈpɔːrtɪv",
+        "synonyms": [
+            "helpful"
+        ]
     },
     {
         "word": "sustainable",
@@ -3006,7 +3222,8 @@
             "eco-friendly"
         ],
         "comparative": "more sustainable",
-        "superlative": "the most sustainable"
+        "superlative": "the most sustainable",
+        "transcription": "səˈsteɪnəbl"
     },
     {
         "word": "talented",
@@ -3030,7 +3247,8 @@
             "skilled"
         ],
         "comparative": "more talented",
-        "superlative": "the most talented"
+        "superlative": "the most talented",
+        "transcription": "ˈtæləntɪd"
     },
     {
         "word": "tame",
@@ -3052,7 +3270,8 @@
             "domesticated"
         ],
         "comparative": "tamer",
-        "superlative": "the tamest"
+        "superlative": "the tamest",
+        "transcription": "teɪm"
     },
     {
         "word": "temporary",
@@ -3074,7 +3293,8 @@
             "short-term"
         ],
         "comparative": "more temporary",
-        "superlative": "the most temporary"
+        "superlative": "the most temporary",
+        "transcription": "ˈtɛmprəri"
     },
     {
         "word": "tight",
@@ -3098,7 +3318,8 @@
             "small"
         ],
         "comparative": "tighter",
-        "superlative": "the tightest"
+        "superlative": "the tightest",
+        "transcription": "taɪt"
     },
     {
         "word": "traditional",
@@ -3117,7 +3338,11 @@
         ],
         "subtext": "very traditional / traditional approach / deeply traditional",
         "comparative": "more traditional",
-        "superlative": "the most traditional"
+        "superlative": "the most traditional",
+        "transcription": "trəˈdɪʃənl",
+        "synonyms": [
+            "old"
+        ]
     },
     {
         "word": "typical",
@@ -3136,7 +3361,11 @@
         ],
         "subtext": "very typical / a typical day / typical of",
         "comparative": "more typical",
-        "superlative": "the most typical"
+        "superlative": "the most typical",
+        "transcription": "ˈtɪpɪkl",
+        "synonyms": [
+            "normal"
+        ]
     },
     {
         "word": "unable",
@@ -3158,7 +3387,8 @@
             "incapable"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ʌnˈeɪbl"
     },
     {
         "word": "unfair",
@@ -3180,7 +3410,8 @@
             "unjust"
         ],
         "comparative": "more unfair",
-        "superlative": "the most unfair"
+        "superlative": "the most unfair",
+        "transcription": "ˌʌnˈfɛər"
     },
     {
         "word": "unfriendly",
@@ -3202,7 +3433,8 @@
             "mean"
         ],
         "comparative": "unfriendlier",
-        "superlative": "the unfriendliest"
+        "superlative": "the unfriendliest",
+        "transcription": "ʌnˈfrɛndli"
     },
     {
         "word": "unlikely",
@@ -3224,7 +3456,8 @@
             "improbable"
         ],
         "comparative": "more unlikely",
-        "superlative": "the most unlikely"
+        "superlative": "the most unlikely",
+        "transcription": "ʌnˈlaɪkli"
     },
     {
         "word": "unlucky",
@@ -3246,7 +3479,8 @@
             "unfortunate"
         ],
         "comparative": "unluckier",
-        "superlative": "the unluckiest"
+        "superlative": "the unluckiest",
+        "transcription": "ʌnˈlʌki"
     },
     {
         "word": "unnecessary",
@@ -3268,7 +3502,8 @@
             "not needed"
         ],
         "comparative": "more unnecessary",
-        "superlative": "the most unnecessary"
+        "superlative": "the most unnecessary",
+        "transcription": "ʌnˈnɛsəsəri"
     },
     {
         "word": "unpopular",
@@ -3287,7 +3522,11 @@
         ],
         "subtext": "disliked / unpopular decision / become unpopular",
         "comparative": "more unpopular",
-        "superlative": "the most unpopular"
+        "superlative": "the most unpopular",
+        "transcription": "ʌnˈpɒpjələr",
+        "synonyms": [
+            "disliked"
+        ]
     },
     {
         "word": "unusual",
@@ -3311,7 +3550,8 @@
             "uncommon"
         ],
         "comparative": "more unusual",
-        "superlative": "the most unusual"
+        "superlative": "the most unusual",
+        "transcription": "ʌnˈjuːʒuəl"
     },
     {
         "word": "upset",
@@ -3335,7 +3575,8 @@
             "sad"
         ],
         "comparative": "more upset",
-        "superlative": "the most upset"
+        "superlative": "the most upset",
+        "transcription": "ˌʌpˈsɛt"
     },
     {
         "word": "useless",
@@ -3354,7 +3595,11 @@
         ],
         "subtext": "completely useless / prove useless / a useless idea",
         "comparative": "more useless",
-        "superlative": "the most useless"
+        "superlative": "the most useless",
+        "transcription": "ˈjuːsləs",
+        "synonyms": [
+            "unhelpful"
+        ]
     },
     {
         "word": "valuable",
@@ -3378,7 +3623,8 @@
             "expensive"
         ],
         "comparative": "more valuable",
-        "superlative": "the most valuable"
+        "superlative": "the most valuable",
+        "transcription": "ˈvæljuəbl"
     },
     {
         "word": "vast",
@@ -3402,7 +3648,8 @@
             "enormous"
         ],
         "comparative": "vaster",
-        "superlative": "the vastest"
+        "superlative": "the vastest",
+        "transcription": "vɑːst"
     },
     {
         "word": "wealthy",
@@ -3426,7 +3673,8 @@
             "affluent"
         ],
         "comparative": "wealthier",
-        "superlative": "the wealthiest"
+        "superlative": "the wealthiest",
+        "transcription": "ˈwɛlθi"
     },
     {
         "word": "wild",
@@ -3448,7 +3696,8 @@
             "natural"
         ],
         "comparative": "wilder",
-        "superlative": "the wildest"
+        "superlative": "the wildest",
+        "transcription": "waɪld"
     },
     {
         "word": "willing",
@@ -3472,7 +3721,8 @@
             "eager"
         ],
         "comparative": "more willing",
-        "superlative": "the most willing"
+        "superlative": "the most willing",
+        "transcription": "ˈwɪlɪŋ"
     },
     {
         "word": "wise",
@@ -3496,7 +3746,8 @@
             "sensible"
         ],
         "comparative": "wiser",
-        "superlative": "the wisest"
+        "superlative": "the wisest",
+        "transcription": "waɪz"
     },
     {
         "word": "worth",
@@ -3515,7 +3766,8 @@
         ],
         "subtext": "worth the money / worth doing / worth considering",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "wɜːrθ"
     },
     {
         "word": "worthless",
@@ -3539,7 +3791,8 @@
             "useless"
         ],
         "comparative": "more worthless",
-        "superlative": "the most worthless"
+        "superlative": "the most worthless",
+        "transcription": "ˈwɜːrθləs"
     },
     {
         "word": "delighted",
@@ -3563,7 +3816,8 @@
         ],
         "comparative": "more delighted",
         "superlative": "the most delighted",
-        "opposite": "miserable"
+        "opposite": "miserable",
+        "transcription": "dɪˈlaɪtɪd"
     },
     {
         "word": "dull",
@@ -3587,7 +3841,8 @@
         ],
         "comparative": "duller",
         "superlative": "the dullest",
-        "opposite": "bright"
+        "opposite": "bright",
+        "transcription": "dʌl"
     },
     {
         "word": "elderly",
@@ -3610,7 +3865,8 @@
         ],
         "comparative": "more elderly",
         "superlative": "the most elderly",
-        "opposite": "young"
+        "opposite": "young",
+        "transcription": "ˈɛldərli"
     },
     {
         "word": "frequent",
@@ -3633,7 +3889,8 @@
         ],
         "comparative": "more frequent",
         "superlative": "the most frequent",
-        "opposite": "rare"
+        "opposite": "rare",
+        "transcription": "ˈfriːkwənt"
     },
     {
         "word": "inner",
@@ -3656,7 +3913,8 @@
         ],
         "comparative": null,
         "superlative": "innermost",
-        "opposite": "outer"
+        "opposite": "outer",
+        "transcription": "ˈɪnər"
     },
     {
         "word": "main",
@@ -3680,7 +3938,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "secondary"
+        "opposite": "secondary",
+        "transcription": "meɪn"
     },
     {
         "word": "medical",
@@ -3703,7 +3962,8 @@
         ],
         "comparative": "more medical",
         "superlative": "the most medical",
-        "opposite": null
+        "opposite": null,
+        "transcription": "ˈmɛdɪkl"
     },
     {
         "word": "nearby",
@@ -3727,7 +3987,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "distant"
+        "opposite": "distant",
+        "transcription": "ˌnɪərˈbaɪ"
     },
     {
         "word": "outer",
@@ -3750,7 +4011,8 @@
         ],
         "comparative": null,
         "superlative": "outermost",
-        "opposite": "inner"
+        "opposite": "inner",
+        "transcription": "ˈaʊtər"
     },
     {
         "word": "pleasant",
@@ -3774,7 +4036,8 @@
         ],
         "comparative": "more pleasant",
         "superlative": "the most pleasant",
-        "opposite": "unpleasant"
+        "opposite": "unpleasant",
+        "transcription": "ˈplɛznt"
     },
     {
         "word": "pleased",
@@ -3798,7 +4061,8 @@
         ],
         "comparative": "more pleased",
         "superlative": "the most pleased",
-        "opposite": "annoyed"
+        "opposite": "annoyed",
+        "transcription": "pliːzd"
     },
     {
         "word": "secondary",
@@ -3821,7 +4085,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "primary"
+        "opposite": "primary",
+        "transcription": "ˈsɛkəndri"
     },
     {
         "word": "silent",
@@ -3844,7 +4109,8 @@
         ],
         "comparative": "more silent",
         "superlative": "the most silent",
-        "opposite": "noisy"
+        "opposite": "noisy",
+        "transcription": "ˈsaɪlənt"
     },
     {
         "word": "sudden",
@@ -3867,7 +4133,8 @@
         ],
         "comparative": "more sudden",
         "superlative": "the most sudden",
-        "opposite": "gradual"
+        "opposite": "gradual",
+        "transcription": "ˈsʌdn"
     },
     {
         "word": "suitable",
@@ -3890,7 +4157,8 @@
         ],
         "comparative": "more suitable",
         "superlative": "the most suitable",
-        "opposite": "unsuitable"
+        "opposite": "unsuitable",
+        "transcription": "ˈsuːtəbl"
     },
     {
         "word": "various",
@@ -3913,7 +4181,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "uniform"
+        "opposite": "uniform",
+        "transcription": "ˈvɛəriəs"
     },
     {
         "word": "humid",
@@ -3937,7 +4206,8 @@
             "moist air"
         ],
         "comparative": "more humid",
-        "superlative": "the most humid"
+        "superlative": "the most humid",
+        "transcription": "ˈhjuːmɪd"
     },
     {
         "word": "chilly",
@@ -3961,7 +4231,8 @@
             "cold"
         ],
         "comparative": "chillier",
-        "superlative": "the chilliest"
+        "superlative": "the chilliest",
+        "transcription": "ˈtʃɪli"
     },
     {
         "word": "mild",
@@ -3985,7 +4256,8 @@
             "gentle"
         ],
         "comparative": "milder",
-        "superlative": "the mildest"
+        "superlative": "the mildest",
+        "transcription": "maɪld"
     },
     {
         "word": "engaged",
@@ -4008,7 +4280,8 @@
             "promised to marry"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": "ɪnˈɡeɪdʒd"
     },
     {
         "word": "furious",
@@ -4032,7 +4305,8 @@
             "livid"
         ],
         "comparative": "more furious",
-        "superlative": "the most furious"
+        "superlative": "the most furious",
+        "transcription": "ˈfjʊəriəs"
     },
     {
         "word": "terrified",
@@ -4056,7 +4330,8 @@
             "frightened"
         ],
         "comparative": "more terrified",
-        "superlative": "the most terrified"
+        "superlative": "the most terrified",
+        "transcription": "ˈtɛrɪfaɪd"
     },
     {
         "word": "exhausted",
@@ -4080,7 +4355,8 @@
             "worn out"
         ],
         "comparative": "more exhausted",
-        "superlative": "the most exhausted"
+        "superlative": "the most exhausted",
+        "transcription": "ɪɡˈzɔːstɪd"
     },
     {
         "word": "romantic",
@@ -4104,7 +4380,8 @@
             "passionate"
         ],
         "comparative": "more romantic",
-        "superlative": "the most romantic"
+        "superlative": "the most romantic",
+        "transcription": "roʊˈmæntɪk"
     },
     {
         "word": "confused",
@@ -4128,7 +4405,8 @@
             "unsure"
         ],
         "comparative": "more confused",
-        "superlative": "the most confused"
+        "superlative": "the most confused",
+        "transcription": "kənˈfjuːzd"
     }
 ];
     const lang = "en";

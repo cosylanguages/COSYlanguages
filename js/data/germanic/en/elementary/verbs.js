@@ -156,7 +156,11 @@
         "aspect": "stative",
         "v2": "afforded",
         "v3": "afforded",
-        "opposite": "lack"
+        "opposite": "lack",
+        "transcription": "əˈfɔːrd",
+        "synonyms": [
+            "pay for"
+        ]
     },
     {
         "word": "allow",
@@ -181,7 +185,8 @@
         "aspect": "action",
         "v2": "allowed",
         "v3": "allowed",
-        "opposite": "forbid"
+        "opposite": "forbid",
+        "transcription": "əˈlaʊ"
     },
     {
         "word": "analyze",
@@ -191,9 +196,8 @@
         "form": "verb",
         "subtext": "",
         "synonyms": [
-            "study",
             "examine",
-            "investigate"
+            "study"
         ],
         "definitions": [
             {
@@ -207,7 +211,8 @@
         "aspect": "action",
         "v2": "analyzed",
         "v3": "analyzed",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ˈænəlaɪz"
     },
     {
         "word": "announce",
@@ -217,9 +222,8 @@
         "form": "verb",
         "subtext": "",
         "synonyms": [
-            "declare",
-            "proclaim",
-            "publish"
+            "state",
+            "declare"
         ],
         "definitions": [
             {
@@ -233,7 +237,8 @@
         "aspect": "action",
         "v2": "announced",
         "v3": "announced",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "əˈnaʊns"
     },
     {
         "word": "apologise",
@@ -243,8 +248,7 @@
         "form": "verb",
         "subtext": "",
         "synonyms": [
-            "say sorry",
-            "express regret"
+            "say sorry"
         ],
         "definitions": [
             {
@@ -258,7 +262,8 @@
         "aspect": "action",
         "v2": "apologised",
         "v3": "apologised",
-        "opposite": "offend"
+        "opposite": "offend",
+        "transcription": "əˈpɒlədʒaɪz"
     },
     {
         "word": "appear",
@@ -282,7 +287,8 @@
         "aspect": "stative",
         "v2": "appeared",
         "v3": "appeared",
-        "opposite": "disappear"
+        "opposite": "disappear",
+        "transcription": "əˈpɪər"
     },
     {
         "word": "apply",
@@ -303,7 +309,11 @@
         "aspect": "action",
         "v2": "applied",
         "v3": "applied",
-        "opposite": "resign"
+        "opposite": "resign",
+        "transcription": "əˈplaɪ",
+        "synonyms": [
+            "request"
+        ]
     },
     {
         "word": "apply for",
@@ -327,7 +337,8 @@
         "aspect": "action",
         "v2": "applied for",
         "v3": "applied for",
-        "opposite": "resign"
+        "opposite": "resign",
+        "transcription": "əˈplaɪ fɔːr"
     },
     {
         "word": "appreciate",
@@ -338,8 +349,7 @@
         "subtext": "",
         "synonyms": [
             "value",
-            "treasure",
-            "understand"
+            "enjoy"
         ],
         "definitions": [
             {
@@ -353,7 +363,8 @@
         "aspect": "stative",
         "v2": "appreciated",
         "v3": "appreciated",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "əˈpriːʃieɪt"
     },
     {
         "word": "argue",
@@ -363,9 +374,8 @@
         "form": "verb",
         "subtext": "",
         "synonyms": [
-            "disagree",
-            "quarrel",
-            "fight"
+            "fight",
+            "disagree"
         ],
         "definitions": [
             {
@@ -379,7 +389,8 @@
         "aspect": "action",
         "v2": "argued",
         "v3": "argued",
-        "opposite": "agree"
+        "opposite": "agree",
+        "transcription": "ˈɑːrɡjuː"
     },
     {
         "word": "arrange",
@@ -390,8 +401,7 @@
         "subtext": "",
         "synonyms": [
             "plan",
-            "organize",
-            "schedule"
+            "organize"
         ],
         "definitions": [
             {
@@ -405,7 +415,8 @@
         "aspect": "action",
         "v2": "arranged",
         "v3": "arranged",
-        "opposite": "disorganize"
+        "opposite": "disorganize",
+        "transcription": "əˈreɪndʒ"
     },
     {
         "word": "arrest",
@@ -429,7 +440,8 @@
         "aspect": "action",
         "v2": "arrested",
         "v3": "arrested",
-        "opposite": "release"
+        "opposite": "release",
+        "transcription": "əˈrɛst"
     },
     {
         "word": "assist",
@@ -455,7 +467,8 @@
         "aspect": "action",
         "v2": "assisted",
         "v3": "assisted",
-        "opposite": "hinder"
+        "opposite": "hinder",
+        "transcription": "əˈsɪst"
     },
     {
         "word": "attach",
@@ -481,7 +494,8 @@
         "aspect": "action",
         "v2": "attached",
         "v3": "attached",
-        "opposite": "detach"
+        "opposite": "detach",
+        "transcription": "əˈtætʃ"
     },
     {
         "word": "attract",
@@ -508,7 +522,8 @@
         "aspect": "action",
         "v2": "attracted",
         "v3": "attracted",
-        "opposite": "repel"
+        "opposite": "repel",
+        "transcription": "əˈtrækt"
     },
     {
         "word": "avoid",
@@ -530,7 +545,11 @@
         "aspect": "action",
         "v2": "avoided",
         "v3": "avoided",
-        "opposite": "confront"
+        "opposite": "confront",
+        "transcription": "əˈvɔɪd",
+        "synonyms": [
+            "keep away from"
+        ]
     },
     {
         "word": "beat",
@@ -551,7 +570,12 @@
         "aspect": "action",
         "v2": "beat",
         "v3": "beaten",
-        "opposite": "lose"
+        "opposite": "lose",
+        "transcription": "biːt",
+        "synonyms": [
+            "win against",
+            "defeat"
+        ]
     },
     {
         "word": "behave",
@@ -573,7 +597,11 @@
         "aspect": "action",
         "v2": "behaved",
         "v3": "behaved",
-        "opposite": "misbehave"
+        "opposite": "misbehave",
+        "transcription": "bɪˈheɪv",
+        "synonyms": [
+            "act"
+        ]
     },
     {
         "word": "bite",
@@ -594,7 +622,8 @@
         "aspect": "action",
         "v2": "bit",
         "v3": "bitten",
-        "opposite": "lick"
+        "opposite": "lick",
+        "transcription": "baɪt"
     },
     {
         "word": "blame",
@@ -615,7 +644,8 @@
         "aspect": "action",
         "v2": "blamed",
         "v3": "blamed",
-        "opposite": "praise"
+        "opposite": "praise",
+        "transcription": "bleɪm"
     },
     {
         "word": "brush teeth",
@@ -636,7 +666,8 @@
         "aspect": "action",
         "v2": "brushed teeth",
         "v3": "brushed teeth",
-        "opposite": "mess up"
+        "opposite": "mess up",
+        "transcription": "brʌʃ tiːθ"
     },
     {
         "word": "budget",
@@ -657,7 +688,8 @@
         "aspect": "action",
         "v2": "budgeted",
         "v3": "budgeted",
-        "opposite": "waste"
+        "opposite": "waste",
+        "transcription": "ˈbʌdʒɪt"
     },
     {
         "word": "build",
@@ -679,7 +711,8 @@
         "aspect": "action",
         "v2": "built",
         "v3": "built",
-        "opposite": "destroy"
+        "opposite": "destroy",
+        "transcription": "bɪld"
     },
     {
         "word": "calculate",
@@ -701,7 +734,12 @@
         "aspect": "action",
         "v2": "calculated",
         "v3": "calculated",
-        "opposite": "guess"
+        "opposite": "guess",
+        "transcription": "ˈkælkjuleɪt",
+        "synonyms": [
+            "count",
+            "compute"
+        ]
     },
     {
         "word": "carry on",
@@ -722,7 +760,8 @@
         "aspect": "action",
         "v2": "carried on",
         "v3": "carried on",
-        "opposite": "stop"
+        "opposite": "stop",
+        "transcription": "ˈkæri ɒn"
     },
     {
         "word": "challenge",
@@ -743,7 +782,8 @@
         "aspect": "action",
         "v2": "challenged",
         "v3": "challenged",
-        "opposite": "comfort"
+        "opposite": "comfort",
+        "transcription": "ˈtʃælɪndʒ"
     },
     {
         "word": "charge",
@@ -765,7 +805,11 @@
         "aspect": "action",
         "v2": "charged",
         "v3": "charged",
-        "opposite": "pay"
+        "opposite": "pay",
+        "transcription": "tʃɑːrdʒ",
+        "synonyms": [
+            "bill"
+        ]
     },
     {
         "word": "claim",
@@ -786,7 +830,8 @@
         "aspect": "action",
         "v2": "claimed",
         "v3": "claimed",
-        "opposite": "give up"
+        "opposite": "give up",
+        "transcription": "kleɪm"
     },
     {
         "word": "collaborate",
@@ -810,7 +855,8 @@
         "aspect": "action",
         "v2": "collaborated",
         "v3": "collaborated",
-        "opposite": "work alone"
+        "opposite": "work alone",
+        "transcription": "kəˈlæbəreɪt"
     },
     {
         "word": "communicate",
@@ -831,7 +877,8 @@
         "aspect": "action",
         "v2": "communicated",
         "v3": "communicated",
-        "opposite": "be silent"
+        "opposite": "be silent",
+        "transcription": "kəˈmjuːnɪkeɪt"
     },
     {
         "word": "compare",
@@ -841,7 +888,7 @@
         "form": "verb",
         "subtext": "compare prices / compare options",
         "synonyms": [
-            "in comparison with"
+            "contrast"
         ],
         "definitions": [
             {
@@ -856,7 +903,8 @@
         "aspect": "action",
         "v2": "compared",
         "v3": "compared",
-        "opposite": "differentiate"
+        "opposite": "differentiate",
+        "transcription": "kəmˈpeər"
     },
     {
         "word": "compete",
@@ -880,7 +928,8 @@
         "aspect": "action",
         "v2": "competed",
         "v3": "competed",
-        "opposite": "cooperate"
+        "opposite": "cooperate",
+        "transcription": "kəmˈpiːt"
     },
     {
         "word": "complain",
@@ -890,7 +939,7 @@
         "form": "verb",
         "subtext": "complain about / complain to someone",
         "synonyms": [
-            "make a complaint"
+            "criticize"
         ],
         "definitions": [
             {
@@ -905,7 +954,8 @@
         "aspect": "action",
         "v2": "complained",
         "v3": "complained",
-        "opposite": "praise"
+        "opposite": "praise",
+        "transcription": "kəmˈpleɪn"
     },
     {
         "word": "complete",
@@ -915,7 +965,7 @@
         "form": "verb",
         "subtext": "complete a task / complete a form",
         "synonyms": [
-            "full completion"
+            "finish"
         ],
         "definitions": [
             {
@@ -930,7 +980,8 @@
         "aspect": "action",
         "v2": "completed",
         "v3": "completed",
-        "opposite": "start"
+        "opposite": "start",
+        "transcription": "kəmˈpliːt"
     },
     {
         "word": "compromise",
@@ -951,7 +1002,8 @@
         "aspect": "action",
         "v2": "compromised",
         "v3": "compromised",
-        "opposite": "demand"
+        "opposite": "demand",
+        "transcription": "ˈkɒmprəmaɪz"
     },
     {
         "word": "concentrate",
@@ -972,7 +1024,8 @@
         "aspect": "action",
         "v2": "concentrated",
         "v3": "concentrated",
-        "opposite": "distract"
+        "opposite": "distract",
+        "transcription": "ˈkɒnsəntreɪt"
     },
     {
         "word": "confirm",
@@ -993,7 +1046,12 @@
         "aspect": "action",
         "v2": "confirmed",
         "v3": "confirmed",
-        "opposite": "cancel"
+        "opposite": "cancel",
+        "transcription": "kənˈfɜːrm",
+        "synonyms": [
+            "verify",
+            "check"
+        ]
     },
     {
         "word": "confuse",
@@ -1017,7 +1075,8 @@
         "aspect": "action",
         "v2": "confused",
         "v3": "confused",
-        "opposite": "clarify"
+        "opposite": "clarify",
+        "transcription": "kənˈfjuːz"
     },
     {
         "word": "connect",
@@ -1039,7 +1098,12 @@
         "aspect": "action",
         "v2": "connected",
         "v3": "connected",
-        "opposite": "disconnect"
+        "opposite": "disconnect",
+        "transcription": "kənˈnɛkt",
+        "synonyms": [
+            "join",
+            "link"
+        ]
     },
     {
         "word": "conserve",
@@ -1060,7 +1124,12 @@
         "aspect": "action",
         "v2": "conserved",
         "v3": "conserved",
-        "opposite": "waste"
+        "opposite": "waste",
+        "synonyms": [
+            "save",
+            "protect"
+        ],
+        "transcription": "kənˈsɜːrv"
     },
     {
         "word": "consider",
@@ -1081,7 +1150,11 @@
         "aspect": "both",
         "v2": "considered",
         "v3": "considered",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "kənˈsɪdər",
+        "synonyms": [
+            "think about"
+        ]
     },
     {
         "word": "contact",
@@ -1102,7 +1175,12 @@
         "aspect": "action",
         "v2": "contacted",
         "v3": "contacted",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "synonyms": [
+            "call",
+            "message"
+        ],
+        "transcription": "ˈkɒntækt"
     },
     {
         "word": "contain",
@@ -1124,7 +1202,12 @@
         "aspect": "stative",
         "v2": "contained",
         "v3": "contained",
-        "opposite": "exclude"
+        "opposite": "exclude",
+        "transcription": "kənˈteɪn",
+        "synonyms": [
+            "include",
+            "hold"
+        ]
     },
     {
         "word": "continue",
@@ -1134,7 +1217,8 @@
         "form": "verb",
         "subtext": "continue working / continue the journey",
         "synonyms": [
-            "to be continued"
+            "go on",
+            "keep doing"
         ],
         "definitions": [
             {
@@ -1149,7 +1233,8 @@
         "aspect": "both",
         "v2": "continued",
         "v3": "continued",
-        "opposite": "stop"
+        "opposite": "stop",
+        "transcription": "kənˈtɪnjuː"
     },
     {
         "word": "contract",
@@ -1173,7 +1258,8 @@
         "aspect": "action",
         "v2": "contracted",
         "v3": "contracted",
-        "opposite": "cancel"
+        "opposite": "cancel",
+        "transcription": "ˈkɒntrækt"
     },
     {
         "word": "control",
@@ -1194,7 +1280,12 @@
         "aspect": "action",
         "v2": "controlled",
         "v3": "controlled",
-        "opposite": "release"
+        "opposite": "release",
+        "transcription": "kənˈtroʊl",
+        "synonyms": [
+            "manage",
+            "direct"
+        ]
     },
     {
         "word": "convince",
@@ -1216,7 +1307,11 @@
         "aspect": "action",
         "v2": "convinced",
         "v3": "convinced",
-        "opposite": "dissuade"
+        "opposite": "dissuade",
+        "synonyms": [
+            "persuade"
+        ],
+        "transcription": "kənˈvɪns"
     },
     {
         "word": "create",
@@ -1240,7 +1335,8 @@
         "aspect": "action",
         "v2": "created",
         "v3": "created",
-        "opposite": "destroy"
+        "opposite": "destroy",
+        "transcription": "kriˈeɪt"
     },
     {
         "word": "cure",
@@ -1261,7 +1357,11 @@
         "aspect": "action",
         "v2": "cured",
         "v3": "cured",
-        "opposite": "infect"
+        "opposite": "infect",
+        "synonyms": [
+            "heal"
+        ],
+        "transcription": "kjʊər"
     },
     {
         "word": "cut down on",
@@ -1285,7 +1385,8 @@
         "aspect": "action",
         "v2": "cut down on",
         "v3": "cut down on",
-        "opposite": "increase"
+        "opposite": "increase",
+        "transcription": "kʌt daʊn ɒn"
     },
     {
         "word": "damage",
@@ -1306,7 +1407,12 @@
         "aspect": "action",
         "v2": "damaged",
         "v3": "damaged",
-        "opposite": "repair"
+        "opposite": "repair",
+        "transcription": "ˈdæmɪdʒ",
+        "synonyms": [
+            "hurt",
+            "break"
+        ]
     },
     {
         "word": "decorate",
@@ -1331,7 +1437,8 @@
         "aspect": "action",
         "v2": "decorated",
         "v3": "decorated",
-        "opposite": "damage"
+        "opposite": "damage",
+        "transcription": "ˈdɛkəreɪt"
     },
     {
         "word": "decrease",
@@ -1353,7 +1460,12 @@
         "aspect": "both",
         "v2": "decreased",
         "v3": "decreased",
-        "opposite": "increase"
+        "opposite": "increase",
+        "synonyms": [
+            "reduce",
+            "go down"
+        ],
+        "transcription": "dɪˈkriːs"
     },
     {
         "word": "delegate",
@@ -1374,7 +1486,8 @@
         "aspect": "action",
         "v2": "delegated",
         "v3": "delegated",
-        "opposite": "do yourself"
+        "opposite": "do yourself",
+        "transcription": "ˈdɛlɪɡeɪt"
     },
     {
         "word": "deliver",
@@ -1396,7 +1509,12 @@
         "aspect": "action",
         "v2": "delivered",
         "v3": "delivered",
-        "opposite": "collect"
+        "opposite": "collect",
+        "transcription": "dɪˈlɪvər",
+        "synonyms": [
+            "bring",
+            "send"
+        ]
     },
     {
         "word": "deposit",
@@ -1418,7 +1536,11 @@
         "aspect": "action",
         "v2": "deposited",
         "v3": "deposited",
-        "opposite": "withdraw"
+        "opposite": "withdraw",
+        "synonyms": [
+            "put in"
+        ],
+        "transcription": "dɪˈpɒzɪt"
     },
     {
         "word": "design",
@@ -1439,7 +1561,12 @@
         "aspect": "action",
         "v2": "designed",
         "v3": "designed",
-        "opposite": "copy"
+        "opposite": "copy",
+        "transcription": "dɪˈzaɪn",
+        "synonyms": [
+            "plan",
+            "create"
+        ]
     },
     {
         "word": "destroy",
@@ -1463,7 +1590,8 @@
         "aspect": "action",
         "v2": "destroyed",
         "v3": "destroyed",
-        "opposite": "build"
+        "opposite": "build",
+        "transcription": "dɪˈstrɔɪ"
     },
     {
         "word": "develop",
@@ -1488,7 +1616,8 @@
         "aspect": "action",
         "v2": "developed",
         "v3": "developed",
-        "opposite": "regress"
+        "opposite": "regress",
+        "transcription": "dɪˈvɛləp"
     },
     {
         "word": "diagnose",
@@ -1512,7 +1641,8 @@
         "aspect": "action",
         "v2": "diagnosed",
         "v3": "diagnosed",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ˌdaɪəɡˈnoʊs"
     },
     {
         "word": "disagree",
@@ -1533,7 +1663,12 @@
         "aspect": "stative",
         "v2": "disagreed",
         "v3": "disagreed",
-        "opposite": "agree"
+        "opposite": "agree",
+        "transcription": "ˌdɪsəˈɡriː",
+        "synonyms": [
+            "differ",
+            "argue"
+        ]
     },
     {
         "word": "discover",
@@ -1557,7 +1692,8 @@
         "aspect": "action",
         "v2": "discovered",
         "v3": "discovered",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "dɪˈskʌvər"
     },
     {
         "word": "discuss",
@@ -1578,7 +1714,11 @@
         "aspect": "action",
         "v2": "discussed",
         "v3": "discussed",
-        "opposite": "be silent"
+        "opposite": "be silent",
+        "transcription": "dɪˈskʌs",
+        "synonyms": [
+            "talk about"
+        ]
     },
     {
         "word": "dismiss",
@@ -1603,7 +1743,8 @@
         "aspect": "action",
         "v2": "dismissed",
         "v3": "dismissed",
-        "opposite": "hire"
+        "opposite": "hire",
+        "transcription": "dɪsˈmɪs"
     },
     {
         "word": "divide",
@@ -1627,7 +1768,8 @@
         "aspect": "action",
         "v2": "divided",
         "v3": "divided",
-        "opposite": "multiply"
+        "opposite": "multiply",
+        "transcription": "dɪˈvaɪd"
     },
     {
         "word": "doubt",
@@ -1651,7 +1793,8 @@
         "aspect": "stative",
         "v2": "doubted",
         "v3": "doubted",
-        "opposite": "believe"
+        "opposite": "believe",
+        "transcription": "daʊt"
     },
     {
         "word": "dream",
@@ -1672,7 +1815,11 @@
         "aspect": "action",
         "v2": "dreamed / dreamt",
         "v3": "dreamed / dreamt",
-        "opposite": "wake up"
+        "opposite": "wake up",
+        "transcription": "driːm",
+        "synonyms": [
+            "imagine"
+        ]
     },
     {
         "word": "encourage",
@@ -1682,7 +1829,7 @@
         "form": "verb",
         "subtext": "encourage someone",
         "synonyms": [
-            "encouragement"
+            "support"
         ],
         "definitions": [
             {
@@ -1696,7 +1843,8 @@
         "aspect": "action",
         "v2": "encouraged",
         "v3": "encouraged",
-        "opposite": "discourage"
+        "opposite": "discourage",
+        "transcription": "ɪnˈkʌrɪdʒ"
     },
     {
         "word": "entertain",
@@ -1720,7 +1868,8 @@
         "aspect": "action",
         "v2": "entertained",
         "v3": "entertained",
-        "opposite": "bore"
+        "opposite": "bore",
+        "transcription": "ˌɛntərˈteɪn"
     },
     {
         "word": "escape",
@@ -1741,7 +1890,8 @@
         "aspect": "action",
         "v2": "escaped",
         "v3": "escaped",
-        "opposite": "capture"
+        "opposite": "capture",
+        "transcription": "ɪˈskeɪp"
     },
     {
         "word": "evaluate",
@@ -1762,7 +1912,8 @@
         "aspect": "action",
         "v2": "evaluated",
         "v3": "evaluated",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ɪˈvæljueɪt"
     },
     {
         "word": "evolve",
@@ -1783,7 +1934,8 @@
         "aspect": "action",
         "v2": "evolved",
         "v3": "evolved",
-        "opposite": "stagnate"
+        "opposite": "stagnate",
+        "transcription": "ɪˈvɒlv"
     },
     {
         "word": "examine",
@@ -1793,7 +1945,8 @@
         "form": "verb",
         "subtext": "examine a patient / examine a document",
         "synonyms": [
-            "cross-examination"
+            "look at",
+            "study"
         ],
         "definitions": [
             {
@@ -1808,7 +1961,8 @@
         "aspect": "action",
         "v2": "examined",
         "v3": "examined",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ɪɡˈzæmɪn"
     },
     {
         "word": "excite",
@@ -1832,7 +1986,8 @@
         "aspect": "action",
         "v2": "excited",
         "v3": "excited",
-        "opposite": "bore"
+        "opposite": "bore",
+        "transcription": "ɪkˈsaɪt"
     },
     {
         "word": "exhale",
@@ -1853,7 +2008,8 @@
         "aspect": "action",
         "v2": "exhaled",
         "v3": "exhaled",
-        "opposite": "inhale"
+        "opposite": "inhale",
+        "transcription": "ɛksˈheɪl"
     },
     {
         "word": "expand",
@@ -1874,7 +2030,8 @@
         "aspect": "action",
         "v2": "expanded",
         "v3": "expanded",
-        "opposite": "shrink"
+        "opposite": "shrink",
+        "transcription": "ɪkˈspænd"
     },
     {
         "word": "expect",
@@ -1895,7 +2052,12 @@
         "aspect": "stative",
         "v2": "expected",
         "v3": "expected",
-        "opposite": "doubt"
+        "opposite": "doubt",
+        "transcription": "ɪkˈspɛkt",
+        "synonyms": [
+            "wait for",
+            "think"
+        ]
     },
     {
         "word": "explore",
@@ -1917,7 +2079,12 @@
         "aspect": "action",
         "v2": "explored",
         "v3": "explored",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ɪkˈsplɔːr",
+        "synonyms": [
+            "travel",
+            "search"
+        ]
     },
     {
         "word": "fail",
@@ -1939,7 +2106,11 @@
         "aspect": "action",
         "v2": "failed",
         "v3": "failed",
-        "opposite": "succeed"
+        "opposite": "succeed",
+        "transcription": "feɪl",
+        "synonyms": [
+            "not pass"
+        ]
     },
     {
         "word": "find out",
@@ -1960,7 +2131,8 @@
         "aspect": "action",
         "v2": "found out",
         "v3": "found out",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "faɪnd aʊt"
     },
     {
         "word": "forgive",
@@ -1981,7 +2153,11 @@
         "aspect": "action",
         "v2": "forgave",
         "v3": "forgiven",
-        "opposite": "blame"
+        "opposite": "blame",
+        "transcription": "fərˈɡɪv",
+        "synonyms": [
+            "pardon"
+        ]
     },
     {
         "word": "freeze",
@@ -1991,7 +2167,7 @@
         "form": "verb",
         "subtext": "freeze water",
         "synonyms": [
-            "frozen food"
+            "turn to ice"
         ],
         "definitions": [
             {
@@ -2005,7 +2181,8 @@
         "aspect": "action",
         "v2": "froze",
         "v3": "frozen",
-        "opposite": "melt"
+        "opposite": "melt",
+        "transcription": "friːz"
     },
     {
         "word": "give up",
@@ -2026,7 +2203,8 @@
         "aspect": "action",
         "v2": "gave up",
         "v3": "given up",
-        "opposite": "continue"
+        "opposite": "continue",
+        "transcription": "ɡɪv ʌp"
     },
     {
         "word": "graduate",
@@ -2048,7 +2226,8 @@
         "aspect": "action",
         "v2": "graduated",
         "v3": "graduated",
-        "opposite": "drop out"
+        "opposite": "drop out",
+        "transcription": "ˈɡrædʒueɪt"
     },
     {
         "word": "greet",
@@ -2058,7 +2237,8 @@
         "form": "verb",
         "subtext": "greet someone",
         "synonyms": [
-            "greetings"
+            "welcome",
+            "say hello"
         ],
         "definitions": [
             {
@@ -2072,7 +2252,8 @@
         "aspect": "action",
         "v2": "greeted",
         "v3": "greeted",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ɡriːt"
     },
     {
         "word": "guess",
@@ -2094,7 +2275,11 @@
         "aspect": "both",
         "v2": "guessed",
         "v3": "guessed",
-        "opposite": "know"
+        "opposite": "know",
+        "transcription": "ɡɛs",
+        "synonyms": [
+            "estimate"
+        ]
     },
     {
         "word": "happen",
@@ -2104,7 +2289,8 @@
         "form": "verb",
         "subtext": "happen to someone / if it happens",
         "synonyms": [
-            "what happened"
+            "occur",
+            "take place"
         ],
         "definitions": [
             {
@@ -2118,7 +2304,8 @@
         "aspect": "action",
         "v2": "happened",
         "v3": "happened",
-        "opposite": "stop"
+        "opposite": "stop",
+        "transcription": "ˈhæpən"
     },
     {
         "word": "hire",
@@ -2139,7 +2326,12 @@
         "aspect": "action",
         "v2": "hired",
         "v3": "hired",
-        "opposite": "fire"
+        "opposite": "fire",
+        "transcription": "ˈhaɪər",
+        "synonyms": [
+            "rent",
+            "employ"
+        ]
     },
     {
         "word": "identify",
@@ -2161,7 +2353,11 @@
         "aspect": "action",
         "v2": "identified",
         "v3": "identified",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "aɪˈdɛntɪfaɪ",
+        "synonyms": [
+            "recognize"
+        ]
     },
     {
         "word": "ignore",
@@ -2182,7 +2378,11 @@
         "aspect": "action",
         "v2": "ignored",
         "v3": "ignored",
-        "opposite": "notice"
+        "opposite": "notice",
+        "transcription": "ɪɡˈnɔːr",
+        "synonyms": [
+            "not listen to"
+        ]
     },
     {
         "word": "imagine",
@@ -2203,7 +2403,11 @@
         "aspect": "stative",
         "v2": "imagined",
         "v3": "imagined",
-        "opposite": "know"
+        "opposite": "know",
+        "transcription": "ɪˈmædʒɪn",
+        "synonyms": [
+            "think of"
+        ]
     },
     {
         "word": "impress",
@@ -2213,7 +2417,7 @@
         "form": "verb",
         "subtext": "impress someone",
         "synonyms": [
-            "impressive"
+            "amaze"
         ],
         "definitions": [
             {
@@ -2227,7 +2431,8 @@
         "aspect": "action",
         "v2": "impressed",
         "v3": "impressed",
-        "opposite": "disappoint"
+        "opposite": "disappoint",
+        "transcription": "ɪmˈprɛs"
     },
     {
         "word": "improve",
@@ -2237,7 +2442,7 @@
         "form": "verb",
         "subtext": "improve your English / improve performance",
         "synonyms": [
-            "room for improvement"
+            "get better"
         ],
         "definitions": [
             {
@@ -2252,7 +2457,8 @@
         "aspect": "both",
         "v2": "improved",
         "v3": "improved",
-        "opposite": "worsen"
+        "opposite": "worsen",
+        "transcription": "ɪmˈpruːv"
     },
     {
         "word": "improve skills",
@@ -2278,7 +2484,8 @@
         "aspect": "action",
         "v2": "improved skills",
         "v3": "improved skills",
-        "opposite": "lose skills"
+        "opposite": "lose skills",
+        "transcription": "ɪmˈpruːv skɪlz"
     },
     {
         "word": "include",
@@ -2288,7 +2495,7 @@
         "form": "verb",
         "subtext": "include something / include in / price includes",
         "synonyms": [
-            "not included"
+            "contain"
         ],
         "definitions": [
             {
@@ -2302,7 +2509,8 @@
         "aspect": "stative",
         "v2": "included",
         "v3": "included",
-        "opposite": "exclude"
+        "opposite": "exclude",
+        "transcription": "ɪnˈkluːd"
     },
     {
         "word": "increase",
@@ -2324,7 +2532,12 @@
         "aspect": "both",
         "v2": "increased",
         "v3": "increased",
-        "opposite": "decrease"
+        "opposite": "decrease",
+        "transcription": "ɪnˈkriːs",
+        "synonyms": [
+            "grow",
+            "go up"
+        ]
     },
     {
         "word": "inform",
@@ -2334,7 +2547,8 @@
         "form": "verb",
         "subtext": "inform someone",
         "synonyms": [
-            "keep informed"
+            "tell",
+            "notify"
         ],
         "definitions": [
             {
@@ -2348,7 +2562,8 @@
         "aspect": "action",
         "v2": "informed",
         "v3": "informed",
-        "opposite": "mislead"
+        "opposite": "mislead",
+        "transcription": "ɪnˈfɔːrm"
     },
     {
         "word": "inhale",
@@ -2369,7 +2584,8 @@
         "aspect": "action",
         "v2": "inhaled",
         "v3": "inhaled",
-        "opposite": "exhale"
+        "opposite": "exhale",
+        "transcription": "ɪnˈheɪl"
     },
     {
         "word": "injure",
@@ -2394,7 +2610,8 @@
         "aspect": "action",
         "v2": "injured",
         "v3": "injured",
-        "opposite": "heal"
+        "opposite": "heal",
+        "transcription": "ˈɪndʒər"
     },
     {
         "word": "intend",
@@ -2415,7 +2632,12 @@
         "aspect": "stative",
         "v2": "intended",
         "v3": "intended",
-        "opposite": "improvise"
+        "opposite": "improvise",
+        "transcription": "ɪnˈtɛnd",
+        "synonyms": [
+            "plan",
+            "mean"
+        ]
     },
     {
         "word": "interview",
@@ -2425,7 +2647,7 @@
         "form": "verb",
         "subtext": "interview someone",
         "synonyms": [
-            "be interviewed"
+            "talk to"
         ],
         "definitions": [
             {
@@ -2439,7 +2661,8 @@
         "aspect": "action",
         "v2": "interviewed",
         "v3": "interviewed",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ˈɪntərvjuː"
     },
     {
         "word": "invent",
@@ -2449,7 +2672,8 @@
         "form": "verb",
         "subtext": "invent something",
         "synonyms": [
-            "invention"
+            "create",
+            "make"
         ],
         "definitions": [
             {
@@ -2463,7 +2687,8 @@
         "aspect": "action",
         "v2": "invented",
         "v3": "invented",
-        "opposite": "copy"
+        "opposite": "copy",
+        "transcription": "ɪnˈvɛnt"
     },
     {
         "word": "invest",
@@ -2484,7 +2709,11 @@
         "aspect": "action",
         "v2": "invested",
         "v3": "invested",
-        "opposite": "spend"
+        "opposite": "spend",
+        "transcription": "ɪnˈvɛst",
+        "synonyms": [
+            "put money in"
+        ]
     },
     {
         "word": "kill",
@@ -2505,7 +2734,11 @@
         "aspect": "action",
         "v2": "killed",
         "v3": "killed",
-        "opposite": "save"
+        "opposite": "save",
+        "transcription": "kɪl",
+        "synonyms": [
+            "die"
+        ]
     },
     {
         "word": "lend",
@@ -2526,7 +2759,11 @@
         "aspect": "action",
         "v2": "lent",
         "v3": "lent",
-        "opposite": "borrow"
+        "opposite": "borrow",
+        "transcription": "lɛnd",
+        "synonyms": [
+            "give"
+        ]
     },
     {
         "word": "log out",
@@ -2547,7 +2784,8 @@
         "aspect": "action",
         "v2": "logged out",
         "v3": "logged out",
-        "opposite": "log in"
+        "opposite": "log in",
+        "transcription": "lɒɡ aʊt"
     },
     {
         "word": "look after",
@@ -2568,7 +2806,8 @@
         "aspect": "action",
         "v2": "looked after",
         "v3": "looked after",
-        "opposite": "neglect"
+        "opposite": "neglect",
+        "transcription": "lʊk ˈɑːftər"
     },
     {
         "word": "look for",
@@ -2589,7 +2828,8 @@
         "aspect": "action",
         "v2": "looked for",
         "v3": "looked for",
-        "opposite": "find"
+        "opposite": "find",
+        "transcription": "lʊk fɔːr"
     },
     {
         "word": "lose weight",
@@ -2610,7 +2850,8 @@
         "aspect": "action",
         "v2": "lost weight",
         "v3": "lost weight",
-        "opposite": "gain weight"
+        "opposite": "gain weight",
+        "transcription": "luːz weɪt"
     },
     {
         "word": "measure",
@@ -2632,7 +2873,11 @@
         "aspect": "action",
         "v2": "measured",
         "v3": "measured",
-        "opposite": "estimate"
+        "opposite": "estimate",
+        "transcription": "ˈmɛʒər",
+        "synonyms": [
+            "calculate"
+        ]
     },
     {
         "word": "memorise",
@@ -2653,7 +2898,11 @@
         "aspect": "action",
         "v2": "memorised",
         "v3": "memorised",
-        "opposite": "forget"
+        "opposite": "forget",
+        "transcription": "ˈmɛməraɪz",
+        "synonyms": [
+            "learn by heart"
+        ]
     },
     {
         "word": "mention",
@@ -2663,7 +2912,7 @@
         "form": "verb",
         "subtext": "mention something / don't mention it",
         "synonyms": [
-            "as mentioned before"
+            "say"
         ],
         "definitions": [
             {
@@ -2678,7 +2927,8 @@
         "aspect": "action",
         "v2": "mentioned",
         "v3": "mentioned",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ˈmɛnʃən"
     },
     {
         "word": "multiply",
@@ -2688,7 +2938,7 @@
         "form": "verb",
         "subtext": "multiply by",
         "synonyms": [
-            "multiplication"
+            "increase"
         ],
         "definitions": [
             {
@@ -2702,7 +2952,8 @@
         "aspect": "action",
         "v2": "multiplied",
         "v3": "multiplied",
-        "opposite": "divide"
+        "opposite": "divide",
+        "transcription": "ˈmʌltɪplaɪ"
     },
     {
         "word": "negotiate",
@@ -2723,7 +2974,11 @@
         "aspect": "action",
         "v2": "negotiated",
         "v3": "negotiated",
-        "opposite": "agree"
+        "opposite": "agree",
+        "transcription": "nəˈɡoʊʃieɪt",
+        "synonyms": [
+            "discuss"
+        ]
     },
     {
         "word": "notice",
@@ -2733,7 +2988,8 @@
         "form": "verb",
         "subtext": "notice a difference / did you notice?",
         "synonyms": [
-            "see"
+            "see",
+            "hear"
         ],
         "definitions": [
             {
@@ -2747,7 +3003,8 @@
         "aspect": "both",
         "v2": "noticed",
         "v3": "noticed",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "ˈnoʊtɪs"
     },
     {
         "word": "observe",
@@ -2768,7 +3025,12 @@
         "aspect": "action",
         "v2": "observed",
         "v3": "observed",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "əbˈzɜːrv",
+        "synonyms": [
+            "watch",
+            "see"
+        ]
     },
     {
         "word": "offer",
@@ -2789,7 +3051,11 @@
         "aspect": "action",
         "v2": "offered",
         "v3": "offered",
-        "opposite": "refuse"
+        "opposite": "refuse",
+        "transcription": "ˈɒfər",
+        "synonyms": [
+            "give"
+        ]
     },
     {
         "word": "organize",
@@ -2799,7 +3065,8 @@
         "form": "verb",
         "subtext": "organize a meeting / organize a trip",
         "synonyms": [
-            "highly organized"
+            "plan",
+            "arrange"
         ],
         "definitions": [
             {
@@ -2814,7 +3081,8 @@
         "aspect": "action",
         "v2": "organized",
         "v3": "organized",
-        "opposite": "mess up"
+        "opposite": "mess up",
+        "transcription": "ˈɔːrɡənaɪz"
     },
     {
         "word": "owe",
@@ -2835,7 +3103,11 @@
         "aspect": "stative",
         "v2": "owed",
         "v3": "owed",
-        "opposite": "pay"
+        "opposite": "pay",
+        "transcription": "oʊ",
+        "synonyms": [
+            "must pay"
+        ]
     },
     {
         "word": "participate",
@@ -2845,7 +3117,8 @@
         "form": "verb",
         "subtext": "participate in a meeting / participate in a discussion",
         "synonyms": [
-            "active participation"
+            "take part",
+            "join"
         ],
         "definitions": [
             {
@@ -2860,7 +3133,8 @@
         "aspect": "action",
         "v2": "participated",
         "v3": "participated",
-        "opposite": "withdraw"
+        "opposite": "withdraw",
+        "transcription": "pɑːrˈtɪsɪpeɪt"
     },
     {
         "word": "perform",
@@ -2882,7 +3156,12 @@
         "aspect": "action",
         "v2": "performed",
         "v3": "performed",
-        "opposite": "watch"
+        "opposite": "watch",
+        "transcription": "pərˈfɔːrm",
+        "synonyms": [
+            "act",
+            "do"
+        ]
     },
     {
         "word": "pollute",
@@ -2903,7 +3182,8 @@
         "aspect": "action",
         "v2": "polluted",
         "v3": "polluted",
-        "opposite": "clean"
+        "opposite": "clean",
+        "transcription": "pəˈluːt"
     },
     {
         "word": "predict",
@@ -2924,7 +3204,12 @@
         "aspect": "action",
         "v2": "predicted",
         "v3": "predicted",
-        "opposite": "recollect"
+        "opposite": "recollect",
+        "transcription": "prɪˈdɪkt",
+        "synonyms": [
+            "forecast",
+            "guess"
+        ]
     },
     {
         "word": "prevent",
@@ -2945,7 +3230,11 @@
         "aspect": "action",
         "v2": "prevented",
         "v3": "prevented",
-        "opposite": "cause"
+        "opposite": "cause",
+        "transcription": "prɪˈvɛnt",
+        "synonyms": [
+            "stop"
+        ]
     },
     {
         "word": "produce",
@@ -2966,7 +3255,12 @@
         "aspect": "action",
         "v2": "produced",
         "v3": "produced",
-        "opposite": "consume"
+        "opposite": "consume",
+        "transcription": "prəˈdjuːs",
+        "synonyms": [
+            "make",
+            "create"
+        ]
     },
     {
         "word": "prohibit",
@@ -2976,7 +3270,8 @@
         "form": "verb",
         "subtext": "",
         "synonyms": [
-            "strictly prohibited"
+            "stop",
+            "not allow"
         ],
         "definitions": [
             {
@@ -2990,7 +3285,8 @@
         "aspect": "action",
         "v2": "prohibited",
         "v3": "prohibited",
-        "opposite": "allow"
+        "opposite": "allow",
+        "transcription": "prəˈhɪbɪt"
     },
     {
         "word": "promise",
@@ -3011,7 +3307,11 @@
         "aspect": "action",
         "v2": "promised",
         "v3": "promised",
-        "opposite": "lie"
+        "opposite": "lie",
+        "transcription": "ˈprɒmɪs",
+        "synonyms": [
+            "vow"
+        ]
     },
     {
         "word": "promote",
@@ -3021,7 +3321,7 @@
         "form": "verb",
         "subtext": "promote someone / promote from within",
         "synonyms": [
-            "get promoted"
+            "advance"
         ],
         "definitions": [
             {
@@ -3035,7 +3335,8 @@
         "aspect": "action",
         "v2": "promoted",
         "v3": "promoted",
-        "opposite": "demote"
+        "opposite": "demote",
+        "transcription": "prəˈmoʊt"
     },
     {
         "word": "protect",
@@ -3057,7 +3358,12 @@
         "aspect": "action",
         "v2": "protected",
         "v3": "protected",
-        "opposite": "damage"
+        "opposite": "damage",
+        "transcription": "prəˈtɛkt",
+        "synonyms": [
+            "save",
+            "guard"
+        ]
     },
     {
         "word": "provide",
@@ -3078,7 +3384,12 @@
         "aspect": "action",
         "v2": "provided",
         "v3": "provided",
-        "opposite": "take"
+        "opposite": "take",
+        "transcription": "prəˈvaɪd",
+        "synonyms": [
+            "give",
+            "supply"
+        ]
     },
     {
         "word": "put off",
@@ -3099,7 +3410,8 @@
         "aspect": "action",
         "v2": "put off",
         "v3": "put off",
-        "opposite": "do now"
+        "opposite": "do now",
+        "transcription": "pʊt ɒf"
     },
     {
         "word": "reach",
@@ -3120,7 +3432,11 @@
         "aspect": "action",
         "v2": "reached",
         "v3": "reached",
-        "opposite": "miss"
+        "opposite": "miss",
+        "transcription": "riːtʃ",
+        "synonyms": [
+            "arrive at"
+        ]
     },
     {
         "word": "react",
@@ -3130,7 +3446,7 @@
         "form": "verb",
         "subtext": "react to",
         "synonyms": [
-            "chemical reaction"
+            "respond"
         ],
         "definitions": [
             {
@@ -3144,7 +3460,8 @@
         "aspect": "action",
         "v2": "reacted",
         "v3": "reacted",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "riˈækt"
     },
     {
         "word": "realize",
@@ -3165,7 +3482,12 @@
         "aspect": "stative",
         "v2": "realized",
         "v3": "realized",
-        "opposite": "misunderstand"
+        "opposite": "misunderstand",
+        "transcription": "ˈriːəlaɪz",
+        "synonyms": [
+            "understand",
+            "know"
+        ]
     },
     {
         "word": "recommend",
@@ -3175,7 +3497,7 @@
         "form": "verb",
         "subtext": "recommend a book / recommend a restaurant",
         "synonyms": [
-            "highly recommended"
+            "suggest"
         ],
         "definitions": [
             {
@@ -3190,7 +3512,8 @@
         "aspect": "action",
         "v2": "recommended",
         "v3": "recommended",
-        "opposite": "warn against"
+        "opposite": "warn against",
+        "transcription": "ˌrɛkəˈmɛnd"
     },
     {
         "word": "record",
@@ -3211,7 +3534,12 @@
         "aspect": "action",
         "v2": "recorded",
         "v3": "recorded",
-        "opposite": "delete"
+        "opposite": "delete",
+        "transcription": "ˈrɛkɔːrd",
+        "synonyms": [
+            "note",
+            "save"
+        ]
     },
     {
         "word": "recover",
@@ -3232,7 +3560,12 @@
         "aspect": "action",
         "v2": "recovered",
         "v3": "recovered",
-        "opposite": "get sick"
+        "opposite": "get sick",
+        "transcription": "rɪˈkʌvər",
+        "synonyms": [
+            "get well",
+            "get better"
+        ]
     },
     {
         "word": "recycle",
@@ -3253,7 +3586,11 @@
         "aspect": "action",
         "v2": "recycled",
         "v3": "recycled",
-        "opposite": "waste"
+        "opposite": "waste",
+        "transcription": "ˌriːˈsaɪkl",
+        "synonyms": [
+            "reuse"
+        ]
     },
     {
         "word": "reduce",
@@ -3274,7 +3611,12 @@
         "aspect": "action",
         "v2": "reduced",
         "v3": "reduced",
-        "opposite": "increase"
+        "opposite": "increase",
+        "transcription": "rɪˈdjuːs",
+        "synonyms": [
+            "decrease",
+            "cut"
+        ]
     },
     {
         "word": "refuse",
@@ -3295,7 +3637,12 @@
         "aspect": "action",
         "v2": "refused",
         "v3": "refused",
-        "opposite": "accept"
+        "opposite": "accept",
+        "transcription": "rɪˈfjuːz",
+        "synonyms": [
+            "say no",
+            "reject"
+        ]
     },
     {
         "word": "remain",
@@ -3316,7 +3663,11 @@
         "aspect": "stative",
         "v2": "remained",
         "v3": "remained",
-        "opposite": "change"
+        "opposite": "change",
+        "transcription": "rɪˈmeɪn",
+        "synonyms": [
+            "stay"
+        ]
     },
     {
         "word": "repair",
@@ -3337,7 +3688,11 @@
         "aspect": "action",
         "v2": "repaired",
         "v3": "repaired",
-        "opposite": "break"
+        "opposite": "break",
+        "transcription": "rɪˈpɛər",
+        "synonyms": [
+            "fix"
+        ]
     },
     {
         "word": "replace",
@@ -3347,7 +3702,7 @@
         "form": "verb",
         "subtext": "replace something / replace someone",
         "synonyms": [
-            "be replaced by"
+            "change"
         ],
         "definitions": [
             {
@@ -3361,7 +3716,8 @@
         "aspect": "action",
         "v2": "replaced",
         "v3": "replaced",
-        "opposite": "keep"
+        "opposite": "keep",
+        "transcription": "rɪˈpleɪs"
     },
     {
         "word": "require",
@@ -3382,7 +3738,11 @@
         "aspect": "stative",
         "v2": "required",
         "v3": "required",
-        "opposite": "lack"
+        "opposite": "lack",
+        "transcription": "rɪˈkwaɪər",
+        "synonyms": [
+            "need"
+        ]
     },
     {
         "word": "reserve",
@@ -3404,7 +3764,11 @@
         "aspect": "action",
         "v2": "reserved",
         "v3": "reserved",
-        "opposite": "cancel"
+        "opposite": "cancel",
+        "transcription": "rɪˈzɜːrv",
+        "synonyms": [
+            "book"
+        ]
     },
     {
         "word": "resign",
@@ -3425,7 +3789,12 @@
         "aspect": "action",
         "v2": "resigned",
         "v3": "resigned",
-        "opposite": "join"
+        "opposite": "join",
+        "transcription": "rɪˈzaɪn",
+        "synonyms": [
+            "quit",
+            "leave"
+        ]
     },
     {
         "word": "retire",
@@ -3446,7 +3815,11 @@
         "aspect": "action",
         "v2": "retired",
         "v3": "retired",
-        "opposite": "work"
+        "opposite": "work",
+        "transcription": "rɪˈtaɪər",
+        "synonyms": [
+            "stop working"
+        ]
     },
     {
         "word": "schedule",
@@ -3467,7 +3840,8 @@
         "aspect": "action",
         "v2": "scheduled",
         "v3": "scheduled",
-        "opposite": "cancel"
+        "opposite": "cancel",
+        "transcription": "ˈskɛdʒuːl"
     },
     {
         "word": "search",
@@ -3489,7 +3863,12 @@
         "aspect": "action",
         "v2": "searched",
         "v3": "searched",
-        "opposite": "find"
+        "opposite": "find",
+        "transcription": "sɜːrtʃ",
+        "synonyms": [
+            "look for",
+            "find"
+        ]
     },
     {
         "word": "seem",
@@ -3511,7 +3890,11 @@
         "aspect": "stative",
         "v2": "seemed",
         "v3": "seemed",
-        "opposite": "be"
+        "opposite": "be",
+        "transcription": "siːm",
+        "synonyms": [
+            "appear"
+        ]
     },
     {
         "word": "serve",
@@ -3532,7 +3915,12 @@
         "aspect": "action",
         "v2": "served",
         "v3": "served",
-        "opposite": "wait"
+        "opposite": "wait",
+        "transcription": "sɜːrv",
+        "synonyms": [
+            "give",
+            "help"
+        ]
     },
     {
         "word": "set up",
@@ -3553,7 +3941,8 @@
         "aspect": "action",
         "v2": "set up",
         "v3": "set up",
-        "opposite": "close down"
+        "opposite": "close down",
+        "transcription": "sɛt ʌp"
     },
     {
         "word": "solve",
@@ -3563,7 +3952,8 @@
         "form": "verb",
         "subtext": "solve a problem / solve a riddle",
         "synonyms": [
-            "find a solution"
+            "fix",
+            "resolve"
         ],
         "definitions": [
             {
@@ -3578,7 +3968,8 @@
         "aspect": "action",
         "v2": "solved",
         "v3": "solved",
-        "opposite": "complicate"
+        "opposite": "complicate",
+        "transcription": "sɒlv"
     },
     {
         "word": "sort out",
@@ -3602,7 +3993,8 @@
         "aspect": "action",
         "v2": "sorted out",
         "v3": "sorted out",
-        "opposite": "mess up"
+        "opposite": "mess up",
+        "transcription": "sɔːrt aʊt"
     },
     {
         "word": "succeed",
@@ -3623,7 +4015,12 @@
         "aspect": "action",
         "v2": "succeeded",
         "v3": "succeeded",
-        "opposite": "fail"
+        "opposite": "fail",
+        "transcription": "səkˈsiːd",
+        "synonyms": [
+            "win",
+            "do well"
+        ]
     },
     {
         "word": "suffer",
@@ -3644,7 +4041,11 @@
         "aspect": "action",
         "v2": "suffered",
         "v3": "suffered",
-        "opposite": "enjoy"
+        "opposite": "enjoy",
+        "transcription": "ˈsʌfər",
+        "synonyms": [
+            "be in pain"
+        ]
     },
     {
         "word": "suggest",
@@ -3665,7 +4066,12 @@
         "aspect": "action",
         "v2": "suggested",
         "v3": "suggested",
-        "opposite": "demand"
+        "opposite": "demand",
+        "transcription": "səˈdʒɛst",
+        "synonyms": [
+            "recommend",
+            "advise"
+        ]
     },
     {
         "word": "support",
@@ -3686,7 +4092,12 @@
         "aspect": "action",
         "v2": "supported",
         "v3": "supported",
-        "opposite": "oppose"
+        "opposite": "oppose",
+        "transcription": "səˈpɔːrt",
+        "synonyms": [
+            "help",
+            "encourage"
+        ]
     },
     {
         "word": "swallow",
@@ -3707,7 +4118,11 @@
         "aspect": "action",
         "v2": "swallowed",
         "v3": "swallowed",
-        "opposite": "spit out"
+        "opposite": "spit out",
+        "transcription": "ˈswɒloʊ",
+        "synonyms": [
+            "eat"
+        ]
     },
     {
         "word": "take on",
@@ -3728,7 +4143,8 @@
         "aspect": "action",
         "v2": "took on",
         "v3": "taken on",
-        "opposite": "refuse"
+        "opposite": "refuse",
+        "transcription": "teɪk ɒn"
     },
     {
         "word": "transfer",
@@ -3749,7 +4165,12 @@
         "aspect": "action",
         "v2": "transferred",
         "v3": "transferred",
-        "opposite": "keep"
+        "opposite": "keep",
+        "transcription": "trænsˈfɜːr",
+        "synonyms": [
+            "move",
+            "send"
+        ]
     },
     {
         "word": "treat",
@@ -3770,7 +4191,11 @@
         "aspect": "action",
         "v2": "treated",
         "v3": "treated",
-        "opposite": "neglect"
+        "opposite": "neglect",
+        "transcription": "triːt",
+        "synonyms": [
+            "handle"
+        ]
     },
     {
         "word": "trust",
@@ -3791,7 +4216,11 @@
         "aspect": "stative",
         "v2": "trusted",
         "v3": "trusted",
-        "opposite": "doubt"
+        "opposite": "doubt",
+        "transcription": "trʌst",
+        "synonyms": [
+            "believe"
+        ]
     },
     {
         "word": "turn down",
@@ -3812,7 +4241,8 @@
         "aspect": "action",
         "v2": "turned down",
         "v3": "turned down",
-        "opposite": "accept"
+        "opposite": "accept",
+        "transcription": "tɜːrn daʊn"
     },
     {
         "word": "vote",
@@ -3833,7 +4263,8 @@
         "aspect": "action",
         "v2": "voted",
         "v3": "voted",
-        "opposite": "abstain"
+        "opposite": "abstain",
+        "transcription": "voʊt"
     },
     {
         "word": "withdraw",
@@ -3854,7 +4285,12 @@
         "aspect": "action",
         "v2": "withdrew",
         "v3": "withdrawn",
-        "opposite": "deposit"
+        "opposite": "deposit",
+        "transcription": "wɪðˈdrɔː",
+        "synonyms": [
+            "take out",
+            "remove"
+        ]
     },
     {
         "word": "wonder",
@@ -3864,7 +4300,7 @@
         "form": "verb",
         "subtext": "I wonder why / wonder if",
         "synonyms": [
-            "just wondering"
+            "think about"
         ],
         "definitions": [
             {
@@ -3879,7 +4315,8 @@
         "aspect": "stative",
         "v2": "wondered",
         "v3": "wondered",
-        "opposite": "know"
+        "opposite": "know",
+        "transcription": "ˈwʌndər"
     },
     {
         "word": "insist",
@@ -3898,14 +4335,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "demand",
-            "stay firm"
+            "demand"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "insisted",
         "v3": "insisted",
-        "opposite": "give in"
+        "opposite": "give in",
+        "transcription": "ɪnˈsɪst"
     },
     {
         "word": "interrupt",
@@ -3924,14 +4361,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "stop",
-            "break in"
+            "stop"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "interrupted",
         "v3": "interrupted",
-        "opposite": "continue"
+        "opposite": "continue",
+        "transcription": "ˌɪntəˈrʌpt"
     },
     {
         "word": "involve",
@@ -3950,14 +4387,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "include",
-            "entail"
+            "include"
         ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "involved",
         "v3": "involved",
-        "opposite": "exclude"
+        "opposite": "exclude",
+        "transcription": "ɪnˈvɒlv"
     },
     {
         "word": "obtain",
@@ -3977,13 +4414,14 @@
         "subtext": "",
         "synonyms": [
             "get",
-            "acquire"
+            "receive"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "obtained",
         "v3": "obtained",
-        "opposite": "lose"
+        "opposite": "lose",
+        "transcription": "əbˈteɪn"
     },
     {
         "word": "occur",
@@ -4002,14 +4440,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "happen",
-            "take place"
+            "happen"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "occurred",
         "v3": "occurred",
-        "opposite": "stop"
+        "opposite": "stop",
+        "transcription": "əˈkɜːr"
     },
     {
         "word": "operate",
@@ -4028,14 +4466,15 @@
         ],
         "subtext": "",
         "synonyms": [
-            "work",
-            "run"
+            "run",
+            "work"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "operated",
         "v3": "operated",
-        "opposite": "break down"
+        "opposite": "break down",
+        "transcription": "ˈɒpəreɪt"
     },
     {
         "word": "persuade",
@@ -4060,7 +4499,8 @@
         "aspect": "action",
         "v2": "persuaded",
         "v3": "persuaded",
-        "opposite": "dissuade"
+        "opposite": "dissuade",
+        "transcription": "pərˈsweɪd"
     },
     {
         "word": "publish",
@@ -4079,14 +4519,15 @@
         ],
         "subtext": "",
         "synonyms": [
-            "release",
-            "print"
+            "print",
+            "release"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "published",
         "v3": "published",
-        "opposite": "hide"
+        "opposite": "hide",
+        "transcription": "ˈpʌblɪʃ"
     },
     {
         "word": "recognize",
@@ -4112,7 +4553,8 @@
         "aspect": "stative",
         "v2": "recognized",
         "v3": "recognized",
-        "opposite": "forget"
+        "opposite": "forget",
+        "transcription": "ˈrɛkəɡnaɪz"
     },
     {
         "word": "reflect",
@@ -4131,14 +4573,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "echo",
-            "mirror"
+            "show"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "reflected",
         "v3": "reflected",
-        "opposite": "absorb"
+        "opposite": "absorb",
+        "transcription": "rɪˈflɛkt"
     },
     {
         "word": "release",
@@ -4157,14 +4599,15 @@
         ],
         "subtext": "",
         "synonyms": [
-            "set free",
-            "publish"
+            "let go",
+            "free"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "released",
         "v3": "released",
-        "opposite": "capture"
+        "opposite": "capture",
+        "transcription": "rɪˈliːs"
     },
     {
         "word": "rely",
@@ -4183,14 +4626,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "depend",
-            "trust"
+            "depend"
         ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "relied",
         "v3": "relied",
-        "opposite": "distrust"
+        "opposite": "distrust",
+        "transcription": "rɪˈlaɪ"
     },
     {
         "word": "remind",
@@ -4209,13 +4652,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "recall"
+            "tell again"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "reminded",
         "v3": "reminded",
-        "opposite": "forget"
+        "opposite": "forget",
+        "transcription": "rɪˈmaɪnd"
     },
     {
         "word": "remove",
@@ -4241,7 +4685,8 @@
         "aspect": "action",
         "v2": "removed",
         "v3": "removed",
-        "opposite": "add"
+        "opposite": "add",
+        "transcription": "rɪˈmuːv"
     },
     {
         "word": "represent",
@@ -4260,14 +4705,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "act for",
-            "symbolize"
+            "stand for"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "represented",
         "v3": "represented",
-        "opposite": "oppose"
+        "opposite": "oppose",
+        "transcription": "ˌrɛprɪˈzɛnt"
     },
     {
         "word": "request",
@@ -4286,14 +4731,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "ask for",
-            "petition"
+            "ask for"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "requested",
         "v3": "requested",
-        "opposite": "command"
+        "opposite": "command",
+        "transcription": "rɪˈkwɛst"
     },
     {
         "word": "rescue",
@@ -4312,14 +4757,14 @@
         ],
         "subtext": "",
         "synonyms": [
-            "save",
-            "deliver"
+            "save"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "rescued",
         "v3": "rescued",
-        "opposite": "abandon"
+        "opposite": "abandon",
+        "transcription": "ˈrɛskjuː"
     },
     {
         "word": "resolve",
@@ -4339,13 +4784,14 @@
         "subtext": "",
         "synonyms": [
             "solve",
-            "settle"
+            "fix"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "resolved",
         "v3": "resolved",
-        "opposite": "complicate"
+        "opposite": "complicate",
+        "transcription": "rɪˈzɒlv"
     },
     {
         "word": "respond",
@@ -4365,13 +4811,14 @@
         "subtext": "",
         "synonyms": [
             "answer",
-            "react"
+            "reply"
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "responded",
         "v3": "responded",
-        "opposite": "ignore"
+        "opposite": "ignore",
+        "transcription": "rɪˈspɒnd"
     },
     {
         "word": "rehearse",
@@ -4393,10 +4840,10 @@
         ],
         "subtext": "",
         "synonyms": [
-            "practice",
-            "prepare"
+            "practice"
         ],
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": "rɪˈhɜːrs"
     },
     {
         "word": "applaud",
@@ -4421,7 +4868,8 @@
             "clap",
             "cheer"
         ],
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": "əˈplɔːd"
     },
     {
         "word": "check in",
@@ -4445,7 +4893,8 @@
         "synonyms": [
             "register arrival"
         ],
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": "tʃɛk ɪn"
     },
     {
         "word": "overtake",
@@ -4467,9 +4916,10 @@
         ],
         "subtext": "",
         "synonyms": [
-            "pass a car"
+            "pass"
         ],
-        "classification": "irregular"
+        "classification": "irregular",
+        "transcription": "ˌoʊvərˈteɪk"
     },
     {
         "word": "break up",
@@ -4494,7 +4944,8 @@
             "end relationship",
             "separate"
         ],
-        "classification": "irregular"
+        "classification": "irregular",
+        "transcription": "breɪk ʌp"
     },
     {
         "word": "check out",
@@ -4518,7 +4969,8 @@
         "synonyms": [
             "register departure"
         ],
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": "tʃɛk aʊt"
     }
 ];
     const lang = "en";

@@ -148,7 +148,8 @@
             "pact"
         ],
         "countability": "countable",
-        "opposite": "disagreement"
+        "opposite": "disagreement",
+        "transcription": "əˈɡriːmənt"
     },
     {
         "word": "aisle",
@@ -166,7 +167,8 @@
             }
         ],
         "subtext": "passage in a shop",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "aɪl"
     },
     {
         "word": "application",
@@ -184,7 +186,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌæplɪˈkeɪʃn"
     },
     {
         "word": "appointment",
@@ -202,7 +205,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "əˈpɔɪntmənt"
     },
     {
         "word": "article",
@@ -224,7 +228,8 @@
             "news story",
             "report"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɑːrtɪkl"
     },
     {
         "word": "artist",
@@ -242,7 +247,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to job titles professions"
+        "subtext": "related to job titles professions",
+        "transcription": "ˈɑːrtɪst"
     },
     {
         "word": "atmosphere",
@@ -263,7 +269,8 @@
             "air",
             "sky"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈætməsfɪər"
     },
     {
         "word": "balcony",
@@ -281,7 +288,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to rooms of a home"
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈbælkəni"
     },
     {
         "word": "benefit",
@@ -302,7 +310,8 @@
             "advantage",
             "helpful effect"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbɛnɪfɪt"
     },
     {
         "word": "bill",
@@ -320,7 +329,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "bɪl"
     },
     {
         "word": "biodiversity",
@@ -340,7 +350,8 @@
         "synonyms": [
             "variety of life"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˌbaɪoʊdaɪˈvɜːrsəti"
     },
     {
         "word": "biology",
@@ -360,7 +371,8 @@
         "synonyms": [
             "science subject"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "baɪˈɒlədʒi"
     },
     {
         "word": "blood",
@@ -380,7 +392,8 @@
         "synonyms": [
             "body liquid"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "blʌd"
     },
     {
         "word": "boarding pass",
@@ -402,7 +415,8 @@
             "flight ticket",
             "travel document"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbɔːrdɪŋ pæs"
     },
     {
         "word": "bone",
@@ -423,7 +437,8 @@
         "synonyms": [
             "body part"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "boʊn"
     },
     {
         "word": "border",
@@ -445,7 +460,8 @@
             "boundary",
             "frontier"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbɔːrdər"
     },
     {
         "word": "brain",
@@ -466,7 +482,8 @@
         "synonyms": [
             "mind organ"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "breɪn"
     },
     {
         "word": "browser",
@@ -487,7 +504,8 @@
         "synonyms": [
             "web program"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbraʊzər"
     },
     {
         "word": "budget",
@@ -508,7 +526,8 @@
         "synonyms": [
             "financial plan"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbʌdʒɪt"
     },
     {
         "word": "burger",
@@ -537,7 +556,8 @@
             "hamburger",
             "fast food"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈbɜːrɡər"
     },
     {
         "word": "candidate",
@@ -558,7 +578,8 @@
         "synonyms": [
             "person in election"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkændɪdeɪt"
     },
     {
         "word": "capital",
@@ -580,7 +601,8 @@
             "main city",
             "government seat"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkæpɪtl"
     },
     {
         "word": "carbon footprint",
@@ -600,7 +622,8 @@
         "synonyms": [
             "environmental impact"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkɑːrbən ˈfʊtprɪnt"
     },
     {
         "word": "cash machine",
@@ -621,7 +644,8 @@
         "synonyms": [
             "ATM"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kæʃ məˈʃiːn"
     },
     {
         "word": "ceiling",
@@ -639,7 +663,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to rooms of a home"
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈsiːlɪŋ"
     },
     {
         "word": "cell",
@@ -659,7 +684,8 @@
         "synonyms": [
             "living unit"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "sɛl"
     },
     {
         "word": "character",
@@ -680,7 +706,8 @@
         "synonyms": [
             "personality"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkærəktər"
     },
     {
         "word": "chemistry",
@@ -700,7 +727,8 @@
         "synonyms": [
             "science subject"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkɛmɪstri"
     },
     {
         "word": "client",
@@ -721,7 +749,8 @@
             "customer",
             "buyer"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈklaɪənt"
     },
     {
         "word": "climate",
@@ -743,7 +772,8 @@
         "synonyms": [
             "weather patterns"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈklaɪmət"
     },
     {
         "word": "climate change",
@@ -763,7 +793,8 @@
         "synonyms": [
             "global warming"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈklaɪmət tʃeɪndʒ"
     },
     {
         "word": "coast",
@@ -785,7 +816,8 @@
             "seashore",
             "coastline"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "koʊst"
     },
     {
         "word": "communication",
@@ -805,7 +837,8 @@
         "synonyms": [
             "sharing info"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "kəˌmjuːnɪˈkeɪʃn"
     },
     {
         "word": "community",
@@ -826,7 +859,8 @@
         "synonyms": [
             "share interests"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kəˈmjuːnəti"
     },
     {
         "word": "competition",
@@ -847,7 +881,8 @@
         "synonyms": [
             "contest"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌkɒmpəˈtɪʃn"
     },
     {
         "word": "compromise",
@@ -868,7 +903,8 @@
         "synonyms": [
             "middle ground"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkɒmprəmaɪz"
     },
     {
         "word": "conservation",
@@ -889,7 +925,8 @@
         "synonyms": [
             "nature protection"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˌkɒnsərˈveɪʃn"
     },
     {
         "word": "contract",
@@ -910,7 +947,8 @@
         "synonyms": [
             "legal document"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkɒntrækt"
     },
     {
         "word": "credit card",
@@ -931,7 +969,8 @@
         "synonyms": [
             "payment card"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkrɛdɪt kɑːrd"
     },
     {
         "word": "currency",
@@ -952,7 +991,8 @@
         "synonyms": [
             "money type"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkʌrənsi"
     },
     {
         "word": "curtain",
@@ -970,7 +1010,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items"
+        "subtext": "related to household items",
+        "transcription": "ˈkɜːrtn"
     },
     {
         "word": "custom",
@@ -991,7 +1032,8 @@
             "tradition",
             "habit"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkʌstəm"
     },
     {
         "word": "data",
@@ -1012,7 +1054,8 @@
             "information",
             "facts"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈdeɪtə"
     },
     {
         "word": "database",
@@ -1033,7 +1076,8 @@
         "synonyms": [
             "data storage"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdeɪtəbeɪs"
     },
     {
         "word": "deadline",
@@ -1054,7 +1098,8 @@
         "synonyms": [
             "due date"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdɛdlaɪn"
     },
     {
         "word": "debt",
@@ -1075,7 +1120,8 @@
         "synonyms": [
             "owe money"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "dɛt"
     },
     {
         "word": "decimal point",
@@ -1096,7 +1142,8 @@
         "synonyms": [
             "dot in numbers"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdɛsɪml pɔɪnt"
     },
     {
         "word": "decision",
@@ -1116,7 +1163,8 @@
         "synonyms": [
             "choice"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "dɪˈsɪʒn"
     },
     {
         "word": "degree",
@@ -1137,7 +1185,8 @@
         "synonyms": [
             "university qualification"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "dɪˈɡriː"
     },
     {
         "word": "deposit",
@@ -1159,7 +1208,8 @@
             "down payment",
             "security payment"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "dɪˈpɒzɪt"
     },
     {
         "word": "destination",
@@ -1177,7 +1227,8 @@
             }
         ],
         "subtext": "final destination / reach your destination",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌdɛstɪˈneɪʃn"
     },
     {
         "word": "detail",
@@ -1197,7 +1248,8 @@
         "synonyms": [
             "small part"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdiːteɪl"
     },
     {
         "word": "diet",
@@ -1215,7 +1267,8 @@
             }
         ],
         "subtext": "healthy diet / on a diet",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdaɪət"
     },
     {
         "word": "disadvantage",
@@ -1237,7 +1290,8 @@
             "minus point"
         ],
         "countability": "countable",
-        "opposite": "advantage"
+        "opposite": "advantage",
+        "transcription": "ˌdɪsədˈvɑːntɪdʒ"
     },
     {
         "word": "discovery",
@@ -1258,7 +1312,8 @@
             "finding",
             "breakthrough"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "dɪˈskʌvəri"
     },
     {
         "word": "dishwasher",
@@ -1276,7 +1331,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items"
+        "subtext": "related to household items",
+        "transcription": "ˈdɪʃwɒʃər"
     },
     {
         "word": "division",
@@ -1296,7 +1352,8 @@
         "synonyms": [
             "math process"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "dɪˈvɪʒn"
     },
     {
         "word": "download",
@@ -1318,7 +1375,8 @@
             "receive data"
         ],
         "countability": "countable",
-        "opposite": "upload"
+        "opposite": "upload",
+        "transcription": "ˌdaʊnˈloʊd"
     },
     {
         "word": "driving license",
@@ -1340,7 +1398,8 @@
             "driver's permit",
             "ID"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdraɪvɪŋ ˈlaɪsns"
     },
     {
         "word": "duty",
@@ -1361,7 +1420,8 @@
             "responsibility",
             "task"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdjuːti"
     },
     {
         "word": "earthquake",
@@ -1384,7 +1444,8 @@
             "natural disaster",
             "seismic activity"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɜːrθkweɪk"
     },
     {
         "word": "ecology",
@@ -1404,7 +1465,8 @@
         "synonyms": [
             "nature science"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "iˈkɒlədʒi"
     },
     {
         "word": "economy",
@@ -1424,7 +1486,8 @@
         "synonyms": [
             "financial system"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪˈkɒnəmi"
     },
     {
         "word": "election",
@@ -1445,7 +1508,8 @@
         "synonyms": [
             "voting process"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪˈlɛkʃn"
     },
     {
         "word": "employee",
@@ -1467,7 +1531,8 @@
             "worker"
         ],
         "countability": "countable",
-        "opposite": "employer"
+        "opposite": "employer",
+        "transcription": "ɪmˈplɔɪiː"
     },
     {
         "word": "employer",
@@ -1490,7 +1555,8 @@
             "company"
         ],
         "countability": "countable",
-        "opposite": "employee"
+        "opposite": "employee",
+        "transcription": "ɪmˈplɔɪər"
     },
     {
         "word": "energy",
@@ -1512,7 +1578,8 @@
             "power",
             "electricity"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɛnərdʒi"
     },
     {
         "word": "environment",
@@ -1534,7 +1601,8 @@
         "synonyms": [
             "nature"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪnˈvaɪrənmənt"
     },
     {
         "word": "evidence",
@@ -1554,7 +1622,8 @@
         "synonyms": [
             "proof"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɛvɪdəns"
     },
     {
         "word": "exchange rate",
@@ -1575,7 +1644,8 @@
         "synonyms": [
             "currency value"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪksˈtʃeɪndʒ reɪt"
     },
     {
         "word": "experience",
@@ -1592,7 +1662,8 @@
             }
         ],
         "subtext": "work experience / past experience",
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ɪkˈspɪəriəns"
     },
     {
         "word": "experiment",
@@ -1613,7 +1684,8 @@
         "synonyms": [
             "scientific test"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪkˈspɛrɪmənt"
     },
     {
         "word": "fact",
@@ -1634,7 +1706,8 @@
             "truth",
             "reality"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "fækt"
     },
     {
         "word": "flight",
@@ -1655,7 +1728,8 @@
         "synonyms": [
             "airplane trip"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "flaɪt"
     },
     {
         "word": "flood",
@@ -1678,7 +1752,8 @@
             "natural disaster",
             "heavy rain"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "flʌd"
     },
     {
         "word": "formula",
@@ -1698,7 +1773,8 @@
         "synonyms": [
             "scientific code"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈfɔːrmjulə"
     },
     {
         "word": "fossil",
@@ -1719,7 +1795,8 @@
         "synonyms": [
             "old remains"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈfɒsl"
     },
     {
         "word": "freedom",
@@ -1739,7 +1816,8 @@
         "synonyms": [
             "liberty"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈfriːdəm"
     },
     {
         "word": "galaxy",
@@ -1760,7 +1838,8 @@
         "synonyms": [
             "group of stars"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɡæləksi"
     },
     {
         "word": "garage",
@@ -1778,7 +1857,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to rooms of a home"
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈɡærɑːʒ"
     },
     {
         "word": "global warming",
@@ -1799,7 +1879,8 @@
         "synonyms": [
             "climate warming"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɡloʊbl ˈwɔːrmɪŋ"
     },
     {
         "word": "goal",
@@ -1820,7 +1901,8 @@
             "target",
             "aim"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɡoʊl"
     },
     {
         "word": "government",
@@ -1840,7 +1922,8 @@
         "synonyms": [
             "authorities"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɡʌvərnmənt"
     },
     {
         "word": "gravity",
@@ -1861,7 +1944,8 @@
         "synonyms": [
             "force of nature"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɡrævəti"
     },
     {
         "word": "guidebook",
@@ -1882,7 +1966,8 @@
         "synonyms": [
             "travel book"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɡaɪdbʊk"
     },
     {
         "word": "habitat",
@@ -1903,7 +1988,8 @@
         "synonyms": [
             "natural home"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈhæbɪtæt"
     },
     {
         "word": "half",
@@ -1924,7 +2010,8 @@
         "synonyms": [
             "divided by two"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "hɑːf"
     },
     {
         "word": "hardware",
@@ -1946,7 +2033,8 @@
             "computer parts"
         ],
         "countability": "uncountable",
-        "opposite": "software"
+        "opposite": "software",
+        "transcription": "ˈhɑːrdwɛər"
     },
     {
         "word": "headline",
@@ -1967,7 +2055,8 @@
         "synonyms": [
             "news title"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈhɛdlaɪn"
     },
     {
         "word": "highway",
@@ -1989,7 +2078,8 @@
             "main road",
             "motorway"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈhaɪweɪ"
     },
     {
         "word": "identity",
@@ -2010,7 +2100,8 @@
         "synonyms": [
             "who you are"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "aɪˈdɛntəti"
     },
     {
         "word": "impact",
@@ -2031,7 +2122,8 @@
             "effect",
             "influence"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɪmpækt"
     },
     {
         "word": "income",
@@ -2052,7 +2144,8 @@
             "earnings",
             "salary"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɪnkʌm"
     },
     {
         "word": "industry",
@@ -2073,7 +2166,8 @@
         "synonyms": [
             "business sector"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɪndəstri"
     },
     {
         "word": "ingredient",
@@ -2094,7 +2188,8 @@
         "synonyms": [
             "food component"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪnˈɡriːdiənt"
     },
     {
         "word": "innovation",
@@ -2114,7 +2209,8 @@
         "synonyms": [
             "new idea"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌɪnəˈveɪʃn"
     },
     {
         "word": "instrument",
@@ -2135,7 +2231,8 @@
         "synonyms": [
             "musical object"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɪnstrumənt"
     },
     {
         "word": "insurance",
@@ -2157,7 +2254,8 @@
             "protection",
             "coverage"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ɪnˈʃʊərəns"
     },
     {
         "word": "interest",
@@ -2177,7 +2275,8 @@
         "synonyms": [
             "bank profit"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈɪntrəst"
     },
     {
         "word": "interest rate",
@@ -2198,7 +2297,8 @@
         "synonyms": [
             "bank percentage"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɪntrəst reɪt"
     },
     {
         "word": "interview",
@@ -2216,7 +2316,8 @@
             }
         ],
         "subtext": "job interview / attend an interview",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɪntərvjuː"
     },
     {
         "word": "invention",
@@ -2236,7 +2337,8 @@
         "synonyms": [
             "creation"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪnˈvɛnʃn"
     },
     {
         "word": "investment",
@@ -2257,7 +2359,8 @@
         "synonyms": [
             "financial asset"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ɪnˈvɛstmənt"
     },
     {
         "word": "joint",
@@ -2278,7 +2381,8 @@
         "synonyms": [
             "connection"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "dʒɔɪnt"
     },
     {
         "word": "journalist",
@@ -2306,7 +2410,8 @@
         "synonyms": [
             "reporter"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdʒɜːrnəlɪst"
     },
     {
         "word": "journey",
@@ -2327,7 +2432,8 @@
         "synonyms": [
             "travel"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈdʒɜːrni"
     },
     {
         "word": "justice",
@@ -2346,7 +2452,8 @@
         ],
         "subtext": "legal justice / court of justice",
         "countability": "uncountable",
-        "opposite": "injustice"
+        "opposite": "injustice",
+        "transcription": "ˈdʒʌstɪs"
     },
     {
         "word": "kidney",
@@ -2367,7 +2474,8 @@
         "synonyms": [
             "internal organ"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkɪdni"
     },
     {
         "word": "laboratory",
@@ -2388,7 +2496,8 @@
         "synonyms": [
             "lab"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ləˈbɒrətri"
     },
     {
         "word": "landfill",
@@ -2409,7 +2518,8 @@
         "synonyms": [
             "rubbish dump"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈlændfɪl"
     },
     {
         "word": "law",
@@ -2429,7 +2539,8 @@
         "synonyms": [
             "rules"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "lɔː"
     },
     {
         "word": "lawyer",
@@ -2451,7 +2562,8 @@
         "synonyms": [
             "legal professional"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈlɔɪər"
     },
     {
         "word": "leader",
@@ -2472,7 +2584,8 @@
             "boss",
             "head"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈliːdər"
     },
     {
         "word": "literature",
@@ -2492,7 +2605,8 @@
         "synonyms": [
             "books"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈlɪtrətʃər"
     },
     {
         "word": "liver",
@@ -2513,7 +2627,8 @@
         "synonyms": [
             "internal organ"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈlɪvər"
     },
     {
         "word": "loan",
@@ -2531,7 +2646,8 @@
             }
         ],
         "subtext": "bank loan / take a loan",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "loʊn"
     },
     {
         "word": "local cuisine",
@@ -2560,7 +2676,8 @@
             "regional food",
             "local dishes"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈloʊkl kwɪˈziːn"
     },
     {
         "word": "luggage",
@@ -2580,7 +2697,8 @@
         "synonyms": [
             "baggage"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈlʌɡɪdʒ"
     },
     {
         "word": "lung",
@@ -2601,7 +2719,8 @@
         "synonyms": [
             "breathing organ"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "lʌŋ"
     },
     {
         "word": "management",
@@ -2623,7 +2742,8 @@
             "leaders",
             "administration"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈmænɪdʒmənt"
     },
     {
         "word": "mathematics",
@@ -2643,7 +2763,8 @@
         "synonyms": [
             "maths"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˌmæθəˈmætɪks"
     },
     {
         "word": "mayor",
@@ -2664,7 +2785,8 @@
         "synonyms": [
             "city leader"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈmeɪər"
     },
     {
         "word": "mechanic",
@@ -2682,7 +2804,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to job titles professions"
+        "subtext": "related to job titles professions",
+        "transcription": "məˈkænɪk"
     },
     {
         "word": "media",
@@ -2702,7 +2825,8 @@
         "synonyms": [
             "news outlets"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈmiːdiə"
     },
     {
         "word": "microscope",
@@ -2723,7 +2847,8 @@
         "synonyms": [
             "magnifying tool"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈmaɪkrəskoʊp"
     },
     {
         "word": "microwave",
@@ -2741,7 +2866,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items"
+        "subtext": "related to household items",
+        "transcription": "ˈmaɪkrəweɪv"
     },
     {
         "word": "minus",
@@ -2762,7 +2888,8 @@
         "synonyms": [
             "subtraction",
             "less"
-        ]
+        ],
+        "transcription": "ˈmaɪnəs"
     },
     {
         "word": "monitor",
@@ -2783,7 +2910,8 @@
         "synonyms": [
             "screen"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈmɒnɪtər"
     },
     {
         "word": "mortgage",
@@ -2804,7 +2932,8 @@
         "synonyms": [
             "home loan"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈmɔːrɡɪdʒ"
     },
     {
         "word": "multiplication",
@@ -2824,7 +2953,8 @@
         "synonyms": [
             "math process"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˌmʌltɪplɪˈkeɪʃn"
     },
     {
         "word": "muscle",
@@ -2845,7 +2975,8 @@
         "synonyms": [
             "body tissue"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈmʌsl"
     },
     {
         "word": "nature reserve",
@@ -2866,7 +2997,8 @@
         "synonyms": [
             "protected area"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈneɪtʃər rɪˈzɜːrv"
     },
     {
         "word": "neighbourhood",
@@ -2887,7 +3019,8 @@
         "synonyms": [
             "local area"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈneɪbərhʊd"
     },
     {
         "word": "network",
@@ -2909,7 +3042,8 @@
             "web",
             "system"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈnɛtwɜːrk"
     },
     {
         "word": "organism",
@@ -2929,7 +3063,8 @@
         "synonyms": [
             "living thing"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɔːrɡənɪzəm"
     },
     {
         "word": "overtime",
@@ -2950,7 +3085,8 @@
         "synonyms": [
             "extra hours"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈoʊvərtaɪm"
     },
     {
         "word": "parking lot",
@@ -2972,7 +3108,8 @@
             "car park",
             "parking area"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈpɑːrkɪŋ lɒt"
     },
     {
         "word": "password",
@@ -2993,7 +3130,8 @@
         "synonyms": [
             "secret code"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈpæswɜːrd"
     },
     {
         "word": "pension",
@@ -3015,7 +3153,8 @@
             "retirement fund",
             "old age pay"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈpɛnʃn"
     },
     {
         "word": "percent",
@@ -3037,7 +3176,8 @@
             "per hundred",
             "percentage"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "pərˈsɛnt"
     },
     {
         "word": "perspective",
@@ -3057,7 +3197,8 @@
         "synonyms": [
             "viewpoint"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "pərˈspɛktɪv"
     },
     {
         "word": "pharmacy",
@@ -3075,7 +3216,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to local places services"
+        "subtext": "related to local places services",
+        "transcription": "ˈfɑːrməsi"
     },
     {
         "word": "philosophy",
@@ -3095,7 +3237,8 @@
         "synonyms": [
             "thinking system"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "fəˈlɒsəfi"
     },
     {
         "word": "physics",
@@ -3115,7 +3258,8 @@
         "synonyms": [
             "science subject"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈfɪzɪks"
     },
     {
         "word": "plus",
@@ -3136,7 +3280,8 @@
         "synonyms": [
             "addition",
             "and"
-        ]
+        ],
+        "transcription": "plʌs"
     },
     {
         "word": "podcast",
@@ -3158,7 +3303,8 @@
             "audio show",
             "online radio"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈpɒdkæst"
     },
     {
         "word": "policy",
@@ -3179,7 +3325,8 @@
         "synonyms": [
             "official rules"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈpɒləsi"
     },
     {
         "word": "pollution",
@@ -3196,7 +3343,8 @@
             }
         ],
         "subtext": "environmental pollution / air pollution",
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "pəˈluːʃn"
     },
     {
         "word": "population",
@@ -3218,7 +3366,8 @@
             "number of people",
             "inhabitants"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌpɒpjuˈneɪʃn"
     },
     {
         "word": "privacy",
@@ -3240,7 +3389,8 @@
             "personal space",
             "secrecy"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈpraɪvəsi"
     },
     {
         "word": "promotion",
@@ -3262,7 +3412,8 @@
             "career advancement"
         ],
         "countability": "countable",
-        "opposite": "demotion"
+        "opposite": "demotion",
+        "transcription": "prəˈmoʊʃn"
     },
     {
         "word": "proof",
@@ -3282,7 +3433,8 @@
         "synonyms": [
             "evidence"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "pruːf"
     },
     {
         "word": "psychology",
@@ -3302,7 +3454,8 @@
         "synonyms": [
             "mind science"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "saɪˈkɒlədʒi"
     },
     {
         "word": "quarter",
@@ -3323,7 +3476,8 @@
         "synonyms": [
             "divided by four"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkwɔːrtər"
     },
     {
         "word": "reality",
@@ -3344,7 +3498,8 @@
             "truth",
             "real world"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "riˈæləti"
     },
     {
         "word": "receipt",
@@ -3362,7 +3517,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "rɪˈsiːt"
     },
     {
         "word": "reception",
@@ -3383,7 +3539,8 @@
         "synonyms": [
             "front desk"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "rɪˈsɛpʃn"
     },
     {
         "word": "recipe",
@@ -3404,7 +3561,8 @@
         "synonyms": [
             "cooking instructions"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈrɛsəpi"
     },
     {
         "word": "recycling",
@@ -3426,7 +3584,8 @@
             "waste management",
             "eco-friendly"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˌriːˈsaɪklɪŋ"
     },
     {
         "word": "recycling bin",
@@ -3446,7 +3605,8 @@
         "synonyms": [
             "green bin"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌriːˈsaɪklɪŋ bɪn"
     },
     {
         "word": "region",
@@ -3468,7 +3628,8 @@
             "area",
             "district"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈriːdʒən"
     },
     {
         "word": "relationship",
@@ -3486,7 +3647,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to family life"
+        "subtext": "related to family life",
+        "transcription": "rɪˈleɪʃnʃɪp"
     },
     {
         "word": "renewable energy",
@@ -3506,7 +3668,8 @@
         "synonyms": [
             "green energy"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "rɪˈnjuːəbl ˈɛnərdʒi"
     },
     {
         "word": "research",
@@ -3526,7 +3689,8 @@
         "synonyms": [
             "investigation"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "rɪˈsɜːrtʃ"
     },
     {
         "word": "resource",
@@ -3547,7 +3711,8 @@
             "asset",
             "supply"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈriːsɔːrs"
     },
     {
         "word": "roundabout",
@@ -3569,7 +3734,8 @@
             "traffic circle",
             "intersection"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈraʊndəbaʊt"
     },
     {
         "word": "safety",
@@ -3590,7 +3756,8 @@
             "security"
         ],
         "countability": "uncountable",
-        "opposite": "danger"
+        "opposite": "danger",
+        "transcription": "ˈseɪfti"
     },
     {
         "word": "salary",
@@ -3613,7 +3780,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsæləri"
     },
     {
         "word": "satellite",
@@ -3634,7 +3802,8 @@
         "synonyms": [
             "space machine"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsætəlaɪt"
     },
     {
         "word": "savings",
@@ -3654,7 +3823,8 @@
         "synonyms": [
             "saved money"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈseɪvɪŋz"
     },
     {
         "word": "scientist",
@@ -3674,7 +3844,8 @@
         "synonyms": [
             "researcher"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsaɪəntɪst"
     },
     {
         "word": "security",
@@ -3695,7 +3866,8 @@
             "safety",
             "protection"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "sɪˈkjʊərəti"
     },
     {
         "word": "sightseeing",
@@ -3716,7 +3888,8 @@
         "synonyms": [
             "visiting attractions"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈsaɪtˌsiːɪŋ"
     },
     {
         "word": "skeleton",
@@ -3737,7 +3910,8 @@
         "synonyms": [
             "body bones"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈskɛlɪtn"
     },
     {
         "word": "skin",
@@ -3757,7 +3931,8 @@
         "synonyms": [
             "body surface"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "skɪn"
     },
     {
         "word": "society",
@@ -3778,7 +3953,8 @@
             "community",
             "people"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "səˈsaɪəti"
     },
     {
         "word": "software",
@@ -3800,7 +3976,8 @@
             "computer programs"
         ],
         "countability": "uncountable",
-        "opposite": "hardware"
+        "opposite": "hardware",
+        "transcription": "ˈsɒftwɛər"
     },
     {
         "word": "solar energy",
@@ -3820,7 +3997,8 @@
         "synonyms": [
             "sun power"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈsoʊlər ˈɛnərdʒi"
     },
     {
         "word": "solar panel",
@@ -3840,7 +4018,8 @@
         "synonyms": [
             "sun power tool"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsoʊlər ˈpænl"
     },
     {
         "word": "solar power",
@@ -3861,7 +4040,8 @@
         "synonyms": [
             "sun energy"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈsoʊlər ˈpaʊər"
     },
     {
         "word": "solution",
@@ -3881,7 +4061,8 @@
         "synonyms": [
             "answer"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "səˈluːʃn"
     },
     {
         "word": "souvenir",
@@ -3909,7 +4090,8 @@
         "synonyms": [
             "gift"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌsuːvəˈnɪər"
     },
     {
         "word": "spine",
@@ -3930,7 +4112,8 @@
         "synonyms": [
             "backbone"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "spaɪn"
     },
     {
         "word": "stadium",
@@ -3948,7 +4131,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to places culture leisure"
+        "subtext": "related to places culture leisure",
+        "transcription": "ˈsteɪdiəm"
     },
     {
         "word": "streaming",
@@ -3969,7 +4153,8 @@
         "synonyms": [
             "online video"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈstriːmɪŋ"
     },
     {
         "word": "substance",
@@ -3989,7 +4174,8 @@
         "synonyms": [
             "material"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsʌbstəns"
     },
     {
         "word": "subtraction",
@@ -4009,7 +4195,8 @@
         "synonyms": [
             "math process"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "səbˈtrækʃn"
     },
     {
         "word": "support",
@@ -4029,7 +4216,8 @@
         "synonyms": [
             "assistance"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "səˈpɔːrt"
     },
     {
         "word": "sustainability",
@@ -4050,7 +4238,8 @@
         "synonyms": [
             "eco-friendly"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "səˌsteɪnəˈbɪləti"
     },
     {
         "word": "taco",
@@ -4078,7 +4267,8 @@
         "synonyms": [
             "Mexican food"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtɑːkoʊ"
     },
     {
         "word": "target",
@@ -4099,7 +4289,8 @@
             "goal",
             "aim"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtɑːrɡɪt"
     },
     {
         "word": "tax",
@@ -4121,7 +4312,8 @@
             "government levy",
             "duty"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "tæks"
     },
     {
         "word": "technology",
@@ -4143,7 +4335,8 @@
             "tech",
             "high-tech"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "tɛkˈnɒlədʒi"
     },
     {
         "word": "tenant",
@@ -4165,7 +4358,8 @@
             "renter"
         ],
         "countability": "countable",
-        "opposite": "landlord"
+        "opposite": "landlord",
+        "transcription": "ˈtɛnənt"
     },
     {
         "word": "terminal",
@@ -4186,7 +4380,8 @@
         "synonyms": [
             "airport building"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtɜːrmɪnl"
     },
     {
         "word": "threat",
@@ -4207,7 +4402,8 @@
             "danger",
             "risk"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "θrɛt"
     },
     {
         "word": "tiger",
@@ -4225,7 +4421,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to animals"
+        "subtext": "related to animals",
+        "transcription": "ˈtaɪɡər"
     },
     {
         "word": "total",
@@ -4247,7 +4444,8 @@
             "sum",
             "final amount"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtoʊtl"
     },
     {
         "word": "tourist",
@@ -4269,7 +4467,8 @@
             "traveler",
             "visitor"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtʊərɪst"
     },
     {
         "word": "traffic jam",
@@ -4291,7 +4490,8 @@
             "heavy traffic",
             "congestion"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtræfɪk dʒæm"
     },
     {
         "word": "trial",
@@ -4312,7 +4512,8 @@
         "synonyms": [
             "court case"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtraɪəl"
     },
     {
         "word": "trolley",
@@ -4333,7 +4534,8 @@
         "synonyms": [
             "shopping cart"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtrɒli"
     },
     {
         "word": "trust",
@@ -4353,7 +4555,8 @@
         "synonyms": [
             "confidence"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "trʌst"
     },
     {
         "word": "truth",
@@ -4375,7 +4578,8 @@
             "facts"
         ],
         "countability": "uncountable",
-        "opposite": "lie"
+        "opposite": "lie",
+        "transcription": "truːθ"
     },
     {
         "word": "upload",
@@ -4397,7 +4601,8 @@
             "send data"
         ],
         "countability": "countable",
-        "opposite": "download"
+        "opposite": "download",
+        "transcription": "ˌʌpˈloʊd"
     },
     {
         "word": "vacuum cleaner",
@@ -4415,7 +4620,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items"
+        "subtext": "related to household items",
+        "transcription": "ˈvækjuːm ˈkliːnər"
     },
     {
         "word": "valley",
@@ -4437,7 +4643,8 @@
             "low land",
             "canyon"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈvæli"
     },
     {
         "word": "value",
@@ -4458,7 +4665,8 @@
             "worth",
             "price"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈvæljuː"
     },
     {
         "word": "virus",
@@ -4479,7 +4687,8 @@
         "synonyms": [
             "harmful program"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈvaɪrəs"
     },
     {
         "word": "vitamin",
@@ -4500,7 +4709,8 @@
         "synonyms": [
             "health supplement"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈvaɪtəmɪn"
     },
     {
         "word": "vote",
@@ -4521,7 +4731,8 @@
         "synonyms": [
             "choice"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "voʊt"
     },
     {
         "word": "wallet",
@@ -4539,7 +4750,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to everyday shopping"
+        "subtext": "related to everyday shopping",
+        "transcription": "ˈwɒlɪt"
     },
     {
         "word": "waste",
@@ -4559,7 +4771,8 @@
         "synonyms": [
             "rubbish"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "weɪst"
     },
     {
         "word": "wedding",
@@ -4580,7 +4793,8 @@
         "synonyms": [
             "marriage ceremony"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈwɛdɪŋ"
     },
     {
         "word": "wildlife",
@@ -4601,7 +4815,8 @@
         "synonyms": [
             "wild animals"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈwaɪldlaɪf"
     },
     {
         "word": "wind farm",
@@ -4622,7 +4837,8 @@
         "synonyms": [
             "wind energy site"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "wɪnd fɑːrm"
     },
     {
         "word": "wind turbine",
@@ -4642,7 +4858,8 @@
         "synonyms": [
             "wind power tool"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "wɪnd ˈtɜːrbaɪn"
     },
     {
         "word": "witness",
@@ -4663,7 +4880,8 @@
         "synonyms": [
             "observer"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈwɪtnəs"
     },
     {
         "word": "workout",
@@ -4685,7 +4903,8 @@
             "exercise session",
             "training"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈwɜːrkaʊt"
     },
     {
         "word": "yoga",
@@ -4706,7 +4925,8 @@
         "synonyms": [
             "stretching exercise"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈjoʊɡə"
     },
     {
         "word": "accident",
@@ -4729,7 +4949,8 @@
             "crash",
             "mishap"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈæksɪdənt"
     },
     {
         "word": "adventure",
@@ -4752,7 +4973,8 @@
             "quest",
             "journey"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ədˈvɛntʃər"
     },
     {
         "word": "ambulance",
@@ -4773,7 +4995,8 @@
         "synonyms": [
             "emergency vehicle"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈæmbjələns"
     },
     {
         "word": "anniversary",
@@ -4794,7 +5017,8 @@
         "synonyms": [
             "yearly celebration"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˌænɪˈvɜːrsəri"
     },
     {
         "word": "audience",
@@ -4816,7 +5040,8 @@
             "spectators",
             "listeners"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈɔːdiəns"
     },
     {
         "word": "behavior",
@@ -4839,7 +5064,8 @@
             "manner",
             "actions"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "bɪˈheɪvjər"
     },
     {
         "word": "belief",
@@ -4860,7 +5086,8 @@
             "faith",
             "conviction"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "bɪˈliːf"
     },
     {
         "word": "celebrity",
@@ -4881,7 +5108,8 @@
         "synonyms": [
             "famous person"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "səˈlɛbrəti"
     },
     {
         "word": "ceremony",
@@ -4902,7 +5130,8 @@
         "synonyms": [
             "formal event"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈsɛrəməni"
     },
     {
         "word": "challenge",
@@ -4925,7 +5154,8 @@
             "trial",
             "test"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈtʃælɪndʒ"
     },
     {
         "word": "charity",
@@ -4948,7 +5178,8 @@
             "non-profit",
             "donation"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈtʃærəti"
     },
     {
         "word": "clue",
@@ -4970,7 +5201,8 @@
             "hint",
             "evidence"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kluː"
     },
     {
         "word": "collection",
@@ -4991,7 +5223,8 @@
         "synonyms": [
             "set of objects"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kəˈlɛkʃn"
     },
     {
         "word": "comfort",
@@ -5013,7 +5246,8 @@
             "ease",
             "relaxation"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkʌmfərt"
     },
     {
         "word": "complaint",
@@ -5034,7 +5268,8 @@
         "synonyms": [
             "statement of dissatisfaction"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kəmˈpleɪnt"
     },
     {
         "word": "confidence",
@@ -5055,7 +5290,8 @@
         "synonyms": [
             "self-belief"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkɒnfɪdəns"
     },
     {
         "word": "conflict",
@@ -5077,7 +5313,8 @@
             "clash",
             "disagreement"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkɒnflɪkt"
     },
     {
         "word": "connection",
@@ -5099,7 +5336,8 @@
             "link",
             "join"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kəˈnɛkʃn"
     },
     {
         "word": "consequence",
@@ -5121,7 +5359,8 @@
             "result",
             "outcome"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "ˈkɒnsɪkwəns"
     },
     {
         "word": "context",
@@ -5143,7 +5382,8 @@
             "situation",
             "setting"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkɒntɛkst"
     },
     {
         "word": "cooperation",
@@ -5164,7 +5404,8 @@
         "synonyms": [
             "working together"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "koʊˌɒpəˈreɪʃn"
     },
     {
         "word": "courage",
@@ -5185,7 +5426,8 @@
         "synonyms": [
             "bravery"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkʌrɪdʒ"
     },
     {
         "word": "creativity",
@@ -5208,7 +5450,8 @@
             "inventiveness",
             "originality"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˌkriːeɪˈtɪvəti"
     },
     {
         "word": "credit",
@@ -5229,7 +5472,8 @@
         "synonyms": [
             "deferred payment"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkrɛdɪt"
     },
     {
         "word": "crime",
@@ -5250,7 +5494,8 @@
         "synonyms": [
             "illegal act"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "kraɪm"
     },
     {
         "word": "culture",
@@ -5273,7 +5518,8 @@
             "customs",
             "way of life"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "ˈkʌltʃər"
     },
     {
         "word": "drought",
@@ -5296,7 +5542,8 @@
         "synonyms": [
             "dry period",
             "lack of rain"
-        ]
+        ],
+        "transcription": "draʊt"
     },
     {
         "word": "forecast",
@@ -5319,7 +5566,8 @@
         "synonyms": [
             "prediction",
             "weather report"
-        ]
+        ],
+        "transcription": "ˈfɔːrkæst"
     },
     {
         "word": "humidity",
@@ -5338,7 +5586,8 @@
                 ]
             }
         ],
-        "subtext": "moisture in the air"
+        "subtext": "moisture in the air",
+        "transcription": "hjuːˈmɪdəti"
     },
     {
         "word": "stage",
@@ -5361,7 +5610,8 @@
         "synonyms": [
             "performance area",
             "platform"
-        ]
+        ],
+        "transcription": "steɪdʒ"
     },
     {
         "word": "script",
@@ -5384,7 +5634,8 @@
         "synonyms": [
             "written text",
             "play text"
-        ]
+        ],
+        "transcription": "skrɪpt"
     },
     {
         "word": "rehearsal",
@@ -5407,7 +5658,8 @@
         "synonyms": [
             "practice",
             "preparation"
-        ]
+        ],
+        "transcription": "rɪˈhɜːrsl"
     },
     {
         "word": "reservation",
@@ -5430,7 +5682,8 @@
         "synonyms": [
             "booking",
             "advance arrangement"
-        ]
+        ],
+        "transcription": "ˌrɛzərˈveɪʃn"
     },
     {
         "word": "main course",
@@ -5453,7 +5706,8 @@
         "synonyms": [
             "entree",
             "primary dish"
-        ]
+        ],
+        "transcription": "meɪn kɔːrs"
     },
     {
         "word": "buffet",
@@ -5475,7 +5729,8 @@
         "subtext": "",
         "synonyms": [
             "self-service meal"
-        ]
+        ],
+        "transcription": "ˈbʊfeɪ"
     },
     {
         "word": "tip",
@@ -5498,7 +5753,8 @@
         "synonyms": [
             "gratuity",
             "service charge"
-        ]
+        ],
+        "transcription": "tɪp"
     },
     {
         "word": "fitting room",
@@ -5521,7 +5777,8 @@
         "synonyms": [
             "changing room",
             "try-on room"
-        ]
+        ],
+        "transcription": "ˈfɪtɪŋ ruːm"
     },
     {
         "word": "discount",
@@ -5544,7 +5801,8 @@
         "synonyms": [
             "reduction",
             "price cut"
-        ]
+        ],
+        "transcription": "ˈdɪskaʊnt"
     },
     {
         "word": "refund",
@@ -5567,7 +5825,8 @@
         "synonyms": [
             "money back",
             "repayment"
-        ]
+        ],
+        "transcription": "ˈriːfʌnd"
     },
     {
         "word": "departure",
@@ -5591,7 +5850,8 @@
             "leaving",
             "setting off"
         ],
-        "opposite": "arrival"
+        "opposite": "arrival",
+        "transcription": "dɪˈpɑːrtʃər"
     },
     {
         "word": "arrival",
@@ -5615,7 +5875,8 @@
             "coming",
             "reaching"
         ],
-        "opposite": "departure"
+        "opposite": "departure",
+        "transcription": "əˈraɪvl"
     },
     {
         "word": "junction",
@@ -5638,7 +5899,8 @@
         "synonyms": [
             "intersection",
             "road crossing"
-        ]
+        ],
+        "transcription": "ˈdʒʌŋkʃn"
     },
     {
         "word": "traffic lights",
@@ -5661,7 +5923,8 @@
         "synonyms": [
             "stop lights",
             "signal"
-        ]
+        ],
+        "transcription": "ˈtræfɪk laɪts"
     },
     {
         "word": "removal company",
@@ -5684,7 +5947,8 @@
         "synonyms": [
             "moving company",
             "movers"
-        ]
+        ],
+        "transcription": "rɪˈmuːvl ˈkʌmpəni"
     },
     {
         "word": "roughly",
@@ -5705,7 +5969,8 @@
         "synonyms": [
             "about",
             "approximately"
-        ]
+        ],
+        "transcription": "ˈrʌfli"
     },
     {
         "word": "extremely",
@@ -5727,7 +5992,8 @@
             "very",
             "incredibly"
         ],
-        "opposite": "slightly"
+        "opposite": "slightly",
+        "transcription": "ɪkˈstriːmli"
     },
     {
         "word": "fairly",
@@ -5749,7 +6015,8 @@
             "quite",
             "moderately"
         ],
-        "opposite": "extremely"
+        "opposite": "extremely",
+        "transcription": "ˈfɛərli"
     },
     {
         "word": "certificate",
@@ -5772,7 +6039,8 @@
         "synonyms": [
             "official document",
             "diploma"
-        ]
+        ],
+        "transcription": "sərˈtɪfɪkət"
     },
     {
         "word": "grade",
@@ -5795,7 +6063,8 @@
         "synonyms": [
             "mark",
             "score"
-        ]
+        ],
+        "transcription": "ɡreɪd"
     },
     {
         "word": "citizen",
@@ -5818,7 +6087,8 @@
         "synonyms": [
             "national",
             "inhabitant"
-        ]
+        ],
+        "transcription": "ˈsɪtɪzn"
     },
     {
         "word": "facility",
@@ -5841,7 +6111,8 @@
         "synonyms": [
             "amenity",
             "service"
-        ]
+        ],
+        "transcription": "fəˈsɪləti"
     },
     {
         "word": "volunteer",
@@ -5863,7 +6134,8 @@
         "subtext": "",
         "synonyms": [
             "unpaid worker"
-        ]
+        ],
+        "transcription": "ˌvɒlənˈtɪər"
     },
     {
         "word": "exhibition",
@@ -5886,7 +6158,8 @@
         "synonyms": [
             "show",
             "display"
-        ]
+        ],
+        "transcription": "ˌɛksɪˈbɪʃn"
     },
     {
         "word": "gallery",
@@ -5908,7 +6181,8 @@
         "subtext": "",
         "synonyms": [
             "art museum"
-        ]
+        ],
+        "transcription": "ˈɡæləri"
     },
     {
         "word": "portrait",
@@ -5927,7 +6201,8 @@
                 ]
             }
         ],
-        "subtext": "picture of a person"
+        "subtext": "picture of a person",
+        "transcription": "ˈpɔːrtrət"
     },
     {
         "word": "couple",
@@ -5949,7 +6224,8 @@
         "subtext": "",
         "synonyms": [
             "pair of people"
-        ]
+        ],
+        "transcription": "ˈkʌpl"
     },
     {
         "word": "comedy",
@@ -5972,7 +6248,8 @@
         "synonyms": [
             "humorous show",
             "funny movie"
-        ]
+        ],
+        "transcription": "ˈkɒmədi"
     },
     {
         "word": "documentary",
@@ -5995,7 +6272,8 @@
         "synonyms": [
             "factual program",
             "non-fiction film"
-        ]
+        ],
+        "transcription": "ˌdɒkjuˈmɛntri"
     },
     {
         "word": "drama",
@@ -6018,7 +6296,8 @@
         "synonyms": [
             "serious play",
             "theatrical work"
-        ]
+        ],
+        "transcription": "ˈdrɑːmə"
     },
     {
         "word": "entertainment",
@@ -6041,7 +6320,8 @@
         "synonyms": [
             "amusement",
             "leisure activity"
-        ]
+        ],
+        "transcription": "ˌɛntərˈteɪnmənt"
     },
     {
         "word": "lately",
@@ -6062,7 +6342,8 @@
         "synonyms": [
             "recently",
             "in recent times"
-        ]
+        ],
+        "transcription": "ˈleɪtli"
     },
     {
         "word": "shortly",
@@ -6083,7 +6364,8 @@
         "synonyms": [
             "soon",
             "in a moment"
-        ]
+        ],
+        "transcription": "ˈʃɔːrtli"
     },
     {
         "word": "eventually",
@@ -6104,7 +6386,8 @@
         "synonyms": [
             "finally",
             "in the end"
-        ]
+        ],
+        "transcription": "ɪˈvɛntʃuəli"
     },
     {
         "word": "firstly",
@@ -6125,7 +6408,8 @@
         "synonyms": [
             "first",
             "to begin with"
-        ]
+        ],
+        "transcription": "ˈfɜːrstli"
     },
     {
         "word": "secondly",
@@ -6146,7 +6430,8 @@
         "synonyms": [
             "second",
             "furthermore"
-        ]
+        ],
+        "transcription": "ˈsɛkəndli"
     },
     {
         "word": "finally",
@@ -6167,7 +6452,8 @@
         "synonyms": [
             "lastly",
             "in the end"
-        ]
+        ],
+        "transcription": "ˈfaɪnəli"
     },
     {
         "word": "hostel",
@@ -6189,7 +6475,8 @@
         "subtext": "youth hostel",
         "synonyms": [
             "cheap hotel"
-        ]
+        ],
+        "transcription": "ˈhɒstl"
     },
     {
         "word": "campsite",
@@ -6212,7 +6499,8 @@
         "synonyms": [
             "camping ground",
             "tent site"
-        ]
+        ],
+        "transcription": "ˈkæmpsaɪt"
     },
     {
         "word": "balanced diet",
@@ -6234,7 +6522,8 @@
         "synonyms": [
             "healthy eating",
             "nutritious diet"
-        ]
+        ],
+        "transcription": "ˈbælənst ˈdaɪət"
     },
     {
         "word": "calorie",
@@ -6257,7 +6546,8 @@
         "synonyms": [
             "energy unit",
             "food energy"
-        ]
+        ],
+        "transcription": "ˈkæləri"
     },
     {
         "word": "cover letter",
@@ -6280,7 +6570,8 @@
         "synonyms": [
             "application letter",
             "job letter"
-        ]
+        ],
+        "transcription": "ˈkʌvər ˈlɛtər"
     },
     {
         "word": "estate agent",
@@ -6303,7 +6594,8 @@
         "synonyms": [
             "realtor",
             "property agent"
-        ]
+        ],
+        "transcription": "ɪˈsteɪt ˈeɪdʒənt"
     },
     {
         "word": "window shopping",
@@ -6325,7 +6617,8 @@
         "synonyms": [
             "browsing",
             "looking only"
-        ]
+        ],
+        "transcription": "ˈwɪndoʊ ˈʃɒpɪŋ"
     },
     {
         "word": "painkiller",
@@ -6348,7 +6641,8 @@
         "synonyms": [
             "pain medicine",
             "analgesic"
-        ]
+        ],
+        "transcription": "ˈpeɪnkɪlər"
     },
     {
         "word": "bandage",
@@ -6371,7 +6665,8 @@
         "synonyms": [
             "dressing",
             "medical wrap"
-        ]
+        ],
+        "transcription": "ˈbændɪdʒ"
     },
     {
         "word": "prescription",
@@ -6394,7 +6689,8 @@
         "synonyms": [
             "doctor's note",
             "medicine order"
-        ]
+        ],
+        "transcription": "prɪˈskrɪpʃn"
     },
     {
         "word": "symptom",
@@ -6416,7 +6712,8 @@
         "subtext": "",
         "synonyms": [
             "sign of illness"
-        ]
+        ],
+        "transcription": "ˈsɪmptəm"
     },
     {
         "word": "landmark",
@@ -6439,7 +6736,8 @@
         "synonyms": [
             "monument",
             "recognizable place"
-        ]
+        ],
+        "transcription": "ˈlændmɑːrk"
     },
     {
         "word": "crossroads",
@@ -6462,7 +6760,8 @@
         "synonyms": [
             "intersection",
             "crossing"
-        ]
+        ],
+        "transcription": "ˈkrɒsroʊdz"
     },
     {
         "word": "single room",
@@ -6484,7 +6783,8 @@
         "subtext": "",
         "synonyms": [
             "one-person room"
-        ]
+        ],
+        "transcription": "ˈsɪŋɡl ruːm"
     },
     {
         "word": "double room",
@@ -6506,7 +6806,8 @@
         "subtext": "",
         "synonyms": [
             "two-person room"
-        ]
+        ],
+        "transcription": "ˈdʌbl ruːm"
     },
     {
         "word": "point of view",
@@ -6529,7 +6830,8 @@
         "synonyms": [
             "opinion",
             "perspective"
-        ]
+        ],
+        "transcription": "pɔɪnt əv vjuː"
     },
     {
         "word": "itinerary",
@@ -6552,7 +6854,8 @@
         "synonyms": [
             "travel plan",
             "schedule"
-        ]
+        ],
+        "transcription": "aɪˈtɪnərəri"
     },
     {
         "word": "travel agent",
@@ -6575,7 +6878,8 @@
         "synonyms": [
             "travel professional",
             "travel consultant"
-        ]
+        ],
+        "transcription": "ˈtrævl ˈeɪdʒənt"
     },
     {
         "word": "overdraft",
@@ -6598,7 +6902,8 @@
         "synonyms": [
             "bank debt",
             "negative balance"
-        ]
+        ],
+        "transcription": "ˈoʊvərdræft"
     },
     {
         "word": "statement",
@@ -6621,7 +6926,8 @@
         "synonyms": [
             "bank record",
             "account summary"
-        ]
+        ],
+        "transcription": "ˈsteɪtmənt"
     },
     {
         "word": "partially",
@@ -6643,7 +6949,8 @@
             "partly",
             "in part"
         ],
-        "opposite": "completely"
+        "opposite": "completely",
+        "transcription": "ˈpɑːrʃəli"
     },
     {
         "word": "strongly",
@@ -6665,7 +6972,8 @@
             "firmly",
             "powerfully"
         ],
-        "opposite": "weakly"
+        "opposite": "weakly",
+        "transcription": "ˈstrɒŋli"
     }
 ];
     const lang = "en";
