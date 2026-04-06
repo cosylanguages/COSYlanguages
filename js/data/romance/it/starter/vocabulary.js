@@ -645,7 +645,9 @@
         "definitions": [
             {
                 "text": "Mobile per sedersi con schienale.",
-                "examples": []
+                "examples": [
+                    "Mi siedo sulla sedia."
+                ]
             }
         ],
         "transcription": "ˈseːdja",
@@ -667,7 +669,9 @@
         "definitions": [
             {
                 "text": "Mobile con piano orizzontale e gambe.",
-                "examples": []
+                "examples": [
+                    "Il piatto è sul tavolo."
+                ]
             }
         ],
         "transcription": "ˈtaːvolo",
@@ -689,7 +693,9 @@
         "definitions": [
             {
                 "text": "Mobile usato per dormire.",
-                "examples": []
+                "examples": [
+                    "Vado a letto alle dieci."
+                ]
             }
         ],
         "transcription": "ˈlɛtto",
@@ -758,7 +764,9 @@
         "definitions": [
             {
                 "text": "Insieme di fogli stampati e rilegati.",
-                "examples": []
+                "examples": [
+                    "Leggo un libro interessante."
+                ]
             }
         ],
         "transcription": "ˈliːbro",
@@ -804,7 +812,9 @@
         "definitions": [
             {
                 "text": "Strumento usato per scrivere con inchiostro.",
-                "examples": []
+                "examples": [
+                    "Scrivo con la penna blu."
+                ]
             }
         ],
         "transcription": "ˈpenna",
@@ -1320,7 +1330,9 @@
         "definitions": [
             {
                 "text": "Essere umano maschio adulto.",
-                "examples": []
+                "examples": [
+                    "Quell'uomo è mio padre."
+                ]
             }
         ],
         "transcription": "ˈwɔːmo",
@@ -1344,7 +1356,9 @@
         "definitions": [
             {
                 "text": "Essere umano femmina adulta.",
-                "examples": []
+                "examples": [
+                    "La donna parla al telefono."
+                ]
             }
         ],
         "transcription": "ˈdɔnna",
@@ -1511,7 +1525,9 @@
         "definitions": [
             {
                 "text": "Monete e banconote usate come mezzo di pagamento.",
-                "examples": []
+                "examples": [
+                    "Ho bisogno di denaro per fare la spesa."
+                ]
             }
         ],
         "transcription": "deˈnaːro",
@@ -1583,7 +1599,9 @@
         "definitions": [
             {
                 "text": "Periodo di ventiquattro ore.",
-                "examples": []
+                "examples": [
+                    "Oggi è un bel giorno."
+                ]
             }
         ],
         "transcription": "ˈdʒorno",
@@ -1605,7 +1623,9 @@
         "definitions": [
             {
                 "text": "Periodo di sette giorni.",
-                "examples": []
+                "examples": [
+                    "La settimana ha sette giorni."
+                ]
             }
         ],
         "transcription": "settiˈmaːna",
@@ -1764,6 +1784,7 @@
         "gender": "masculine",
         "emoji": "😫",
         "form": "noun",
+        "plural": null,
         "definitions": [
             {
                 "text": "Una sensazione di preoccupazione causata da una situazione difficile.",
@@ -1884,6 +1905,7 @@
         "article": "il",
         "emoji": "😴",
         "form": "noun",
+        "plural": null,
         "definitions": [
             {
                 "text": "Il riposo naturale di cui il corpo ha bisogno ogni notte.",
@@ -10487,6 +10509,248 @@
             "arredamento"
         ],
         "subtext": "negozio di mobili",
+        "antonyms": []
+    },
+    {
+        "word": "banana",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍌",
+        "form": "noun",
+        "plural": "banane",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "baˈnaːna",
+        "definitions": [
+            {
+                "text": "Un frutto lungo e giallo.",
+                "examples": [
+                    "Mangio una banana a merenda."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "pizza",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍕",
+        "form": "noun",
+        "plural": "pizze",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "ˈpittsa",
+        "definitions": [
+            {
+                "text": "Cibo tipico italiano con pomodoro e mozzarella.",
+                "examples": [
+                    "Voglio una pizza margherita."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "lavatrice",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧺",
+        "form": "noun",
+        "plural": "lavatrici",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "lavaˈtritʃe",
+        "definitions": [
+            {
+                "text": "Macchina per lavare i vestiti.",
+                "examples": [
+                    "Metto i vestiti nella lavatrice."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "lavastoviglie",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍽️",
+        "form": "noun",
+        "plural": "lavastoviglie",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "lavastoˈviʎʎe",
+        "definitions": [
+            {
+                "text": "Macchina per lavare i piatti.",
+                "examples": [
+                    "Carico la lavastoviglie."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "forno",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥘",
+        "form": "noun",
+        "plural": "forni",
+        "countability": "countable",
+        "partitive": "del",
+        "transcription": "ˈforno",
+        "definitions": [
+            {
+                "text": "Apparecchio per cuocere i cibi.",
+                "examples": [
+                    "La pizza è nel forno."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "frigorifero",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧊",
+        "form": "noun",
+        "plural": "frigoriferi",
+        "countability": "countable",
+        "partitive": "del",
+        "transcription": "friɡoˈriːfero",
+        "definitions": [
+            {
+                "text": "Apparecchio per conservare i cibi al fresco.",
+                "examples": [
+                    "Il latte è in frigorifero."
+                ]
+            }
+        ],
+        "synonyms": [
+            "frigo"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "tenda",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⛺",
+        "form": "noun",
+        "plural": "tende",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "ˈtɛnda",
+        "definitions": [
+            {
+                "text": "Tessuto per coprire le finestre.",
+                "examples": [
+                    "Chiudi le tende."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "pesca",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍑",
+        "form": "noun",
+        "plural": "pesche",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "ˈpɛska",
+        "definitions": [
+            {
+                "text": "Un frutto estivo con la buccia vellutata.",
+                "examples": [
+                    "Mangio una pesca dolce."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "pera",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍐",
+        "form": "noun",
+        "plural": "pere",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "ˈpeːra",
+        "definitions": [
+            {
+                "text": "Un frutto a forma di campanella.",
+                "examples": [
+                    "La pera è matura."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "ciliegia",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍒",
+        "form": "noun",
+        "plural": "ciliegie",
+        "countability": "countable",
+        "partitive": "della",
+        "transcription": "tʃiˈljɛːdʒa",
+        "definitions": [
+            {
+                "text": "Un piccolo frutto rosso e tondo.",
+                "examples": [
+                    "Mangio una ciliegia."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
         "antonyms": []
     }
 ];

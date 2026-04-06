@@ -1912,14 +1912,13 @@
         "transcription": "ˈcorrere"
     },
     {
-        "word": "s asseoir",
+        "word": "sedersi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sedersi a un ufficio",
+        "subtext": "sedersi a una scrivania / sedersi in riunione",
         "synonyms": [
-            "sedersi",
-            "sedersi in riunione"
+            "prendere posto"
         ],
         "opposite": "stare in piedi",
         "oppositeEmoji": "🧍",
@@ -1929,16 +1928,16 @@
                 "text": "Riposare il peso sul sedere piuttosto che sui piedi.",
                 "examples": [
                     "Per favore siediti.",
-                    "Siedo su una sedia."
+                    "Mi siedo su una sedia."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "seduto",
-        "group": "ere",
-        "auxiliary": "avere",
-        "transcription": "ˈs asseoir"
+        "group": "riflessivo",
+        "auxiliary": "essere",
+        "transcription": "seˈdersi"
     },
     {
         "word": "stare in piedi",
@@ -1950,7 +1949,7 @@
             "alzarsi",
             "essere in piedi"
         ],
-        "opposite": "s asseoir",
+        "opposite": "sedersi",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1965,9 +1964,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "stato in piedi",
-        "group": "are",
+        "group": "locuzione",
         "auxiliary": "essere",
-        "transcription": "ˈstare in piedi"
+        "transcription": "ˈstare in piˈɛdi"
     },
     {
         "word": "incontrare",
@@ -4816,7 +4815,7 @@
         "emoji": "🚪",
         "subtext": "uscire di casa / uscire con gli amici",
         "form": "verb",
-        "transcription": "uʃˈʃiːre",
+        "transcription": "uʃˈʃire",
         "definitions": [
             {
                 "text": "Andare fuori da un luogo.",
@@ -4830,6 +4829,95 @@
         "aspect": "action",
         "v3": "uscito",
         "group": "ire",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "dovere",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⚠️",
+        "subtext": "dovere fare qualcosa",
+        "form": "verb",
+        "transcription": "doˈvere",
+        "definitions": [
+            {
+                "text": "Essere obbligato a fare qualcosa.",
+                "examples": [
+                    "Devo andare al lavoro.",
+                    "Dobbiamo finire il progetto."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v3": "dovuto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "entrare",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🚪",
+        "subtext": "entrare in casa",
+        "form": "verb",
+        "transcription": "enˈtraːre",
+        "definitions": [
+            {
+                "text": "Andare all'interno di un luogo.",
+                "examples": [
+                    "Entro in ufficio alle nove."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "entrato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "salire",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🪜",
+        "subtext": "salire le scale / salire sull'autobus",
+        "form": "verb",
+        "transcription": "saˈliːre",
+        "definitions": [
+            {
+                "text": "Andare verso l'alto o su un mezzo di trasporto.",
+                "examples": [
+                    "Salgo sull'autobus."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "salito",
+        "group": "ire",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "scendere",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "📉",
+        "subtext": "scendere le scale / scendere dal treno",
+        "form": "verb",
+        "transcription": "ˈʃendere",
+        "definitions": [
+            {
+                "text": "Andare verso il basso o giù da un mezzo di trasporto.",
+                "examples": [
+                    "Scendo alla prossima fermata."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "sceso",
+        "group": "ere",
         "auxiliary": "essere"
     }
 ];

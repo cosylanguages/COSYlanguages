@@ -65,14 +65,14 @@
         "form": "noun"
     },
     {
-        "word": "Christopher Columbus",
-        "transcription": "ˈkristofer koˈlumbus",
+        "word": "Cristoforo Colombo",
+        "transcription": "kriˈstɔːforo koˈlombo",
         "subtext": "esploratore",
         "definitions": [
             {
                 "text": "Esploratore che ha scoperto l'America.",
                 "examples": [
-                    "Colombo è nato a Genova."
+                    "Cristoforo Colombo è nato a Genova."
                 ]
             }
         ],
