@@ -13,7 +13,7 @@
         "femininePlural": "alte",
         "definitions": [
             {
-                "text": "Una persona o una cosa che è alta.",
+                "text": "Di statura superiore alla media; che si estende molto verso l'alto.",
                 "examples": [
                     "Lui è molto alto.",
                     "Quell'edificio è alto."
@@ -27,9 +27,12 @@
             }
         ],
         "subtext": "un edificio alto / abbastanza alto",
-        "synonyms": ["una persona alta"],
+        "synonyms": [
+            "una persona alta"
+        ],
         "comparative": "più alto",
-        "superlative": "il più alto"
+        "superlative": "il più alto",
+        "transcription": "ˈalto"
     },
     {
         "word": "corto",
@@ -42,7 +45,7 @@
         "femininePlural": "corte",
         "definitions": [
             {
-                "text": "Una persona o una cosa che non è alta.",
+                "text": "Di piccola estensione in lunghezza.",
                 "examples": [
                     "Lei è bassa.",
                     "La matita è corta."
@@ -56,11 +59,15 @@
             }
         ],
         "subtext": "troppo corto",
-        "synonyms": ["un breve viaggio", "capelli corti"],
+        "synonyms": [
+            "un breve viaggio",
+            "capelli corti"
+        ],
         "comparative": "più corto",
         "superlative": "il più corto",
         "opposite": "alto",
-        "oppositeEmoji": "🗼"
+        "oppositeEmoji": "🗼",
+        "transcription": "ˈkorto"
     },
     {
         "level": "starter",
@@ -71,7 +78,7 @@
         "femininePlural": "giovani",
         "definitions": [
             {
-                "text": "Che ha vissuto o è esistito per poco tempo.",
+                "text": "Che è in età tra l'infanzia e la maturità.",
                 "examples": [
                     "È un uomo giovane."
                 ]
@@ -79,10 +86,15 @@
         ],
         "comparative": "più giovane",
         "superlative": "il più giovane",
+        "transcription": "ˈdʒovane",
         "opposite": "vecchio",
         "oppositeEmoji": "👴",
         "subtext": "",
-        "synonyms": ["giovane persona", "giovane professionista", "giovane dentro"],
+        "synonyms": [
+            "giovane persona",
+            "giovane professionista",
+            "giovane dentro"
+        ],
         "word": "giovane"
     },
     {
@@ -98,7 +110,7 @@
         "femininePlural": "vecchie",
         "definitions": [
             {
-                "text": "Che ha vissuto o è esistito per molto tempo.",
+                "text": "Che ha molti anni; che esiste da molto tempo.",
                 "examples": [
                     "Questo è un libro vecchio."
                 ]
@@ -111,9 +123,12 @@
             }
         ],
         "subtext": "vecchio amico / molto vecchio",
-        "synonyms": ["vecchie abitudini"],
+        "synonyms": [
+            "vecchie abitudini"
+        ],
         "comparative": "più vecchio",
-        "superlative": "il più vecchio"
+        "superlative": "il più vecchio",
+        "transcription": "ˈvɛkkjo"
     },
     {
         "word": "soleggiato",
@@ -123,7 +138,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Con molta luce dal sole.",
+                "text": "Pieno di sole; esposto al sole.",
                 "examples": [
                     "È una giornata soleggiata.",
                     "Mi piace il tempo soleggiato."
@@ -131,12 +146,16 @@
             }
         ],
         "subtext": "tempo soleggiato",
-        "synonyms": ["giornata di sole", "schiarite"],
+        "synonyms": [
+            "giornata di sole",
+            "schiarite"
+        ],
         "comparative": "più soleggiato",
         "superlative": "il più soleggiato",
         "feminine": "soleggiata",
         "plural": "soleggiati",
-        "femininePlural": "soleggiate"
+        "femininePlural": "soleggiate",
+        "transcription": "soledˈdʒato"
     },
     {
         "word": "piovoso",
@@ -146,7 +165,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Con molta pioggia.",
+                "text": "Caratterizzato da pioggia frequente.",
                 "examples": [
                     "È una giornata piovosa.",
                     "Indossa un cappotto, fuori piove."
@@ -154,12 +173,16 @@
             }
         ],
         "subtext": "tempo piovoso",
-        "synonyms": ["giornata di pioggia", "stagione delle piogge"],
+        "synonyms": [
+            "giornata di pioggia",
+            "stagione delle piogge"
+        ],
         "comparative": "più piovoso",
         "superlative": "il più piovoso",
         "feminine": "piovosa",
         "plural": "piovosi",
-        "femininePlural": "piovose"
+        "femininePlural": "piovose",
+        "transcription": "pjoˈvozo"
     },
     {
         "word": "caldo",
@@ -172,7 +195,7 @@
         "subtext": "molto caldo, bollente",
         "definitions": [
             {
-                "text": "Che ha un'alta temperatura.",
+                "text": "Che ha una temperatura elevata.",
                 "examples": [
                     "Il caffè è caldo."
                 ]
@@ -182,7 +205,8 @@
         "plural": "caldi",
         "femininePlural": "calde",
         "comparative": "più caldo",
-        "superlative": "il più caldo"
+        "superlative": "il più caldo",
+        "transcription": "ˈkaldo"
     },
     {
         "word": "freddo",
@@ -195,7 +219,7 @@
         "subtext": "molto freddo, gelido",
         "definitions": [
             {
-                "text": "Che ha una bassa temperatura.",
+                "text": "Che ha una temperatura bassa.",
                 "examples": [
                     "L'acqua è fredda."
                 ]
@@ -205,7 +229,8 @@
         "plural": "freddi",
         "femininePlural": "fredde",
         "comparative": "più freddo",
-        "superlative": "il più freddo"
+        "superlative": "il più freddo",
+        "transcription": "ˈfreddo"
     },
     {
         "word": "ordinario",
@@ -216,19 +241,22 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normale o usuale; non speciale.",
+                "text": "Che rientra nella norma; comune.",
                 "examples": [
                     "Era una giornata ordinaria."
                 ]
             }
         ],
         "subtext": "giorno ordinario / niente di ordinario",
-        "synonyms": ["vita ordinaria"],
+        "synonyms": [
+            "vita ordinaria"
+        ],
         "comparative": "più ordinario",
         "superlative": "il più ordinario",
         "feminine": "ordinaria",
         "plural": "ordinari",
-        "femininePlural": "ordinarie"
+        "femininePlural": "ordinarie",
+        "transcription": "ordiˈnarjo"
     },
     {
         "word": "economico",
@@ -243,7 +271,7 @@
         "femininePlural": "economiche",
         "definitions": [
             {
-                "text": "Non costoso; a basso prezzo.",
+                "text": "Che costa poco; relativo all'economia.",
                 "examples": [
                     "Questo caffè è economico."
                 ]
@@ -256,9 +284,12 @@
             }
         ],
         "subtext": "prezzo basso, non costoso / volo economico / molto economico",
-        "synonyms": ["alla mano"],
+        "synonyms": [
+            "alla mano"
+        ],
         "comparative": "più economico",
-        "superlative": "il più economico"
+        "superlative": "il più economico",
+        "transcription": "ekoˈnɔmiko"
     },
     {
         "word": "costoso",
@@ -271,7 +302,7 @@
         "femininePlural": "costose",
         "definitions": [
             {
-                "text": "Che costa molti soldi.",
+                "text": "Che ha un prezzo elevato.",
                 "examples": [
                     "Quell'auto è costosa."
                 ]
@@ -284,11 +315,14 @@
             }
         ],
         "subtext": "costoso, prezzo alto / molto costoso / troppo costoso",
-        "synonyms": ["gusti costosi"],
+        "synonyms": [
+            "gusti costosi"
+        ],
         "comparative": "più costoso",
         "superlative": "il più costoso",
         "opposite": "economico",
-        "oppositeEmoji": "🏷️"
+        "oppositeEmoji": "🏷️",
+        "transcription": "kosˈtozo"
     },
     {
         "word": "buono",
@@ -303,7 +337,7 @@
         "femininePlural": "buone",
         "definitions": [
             {
-                "text": "Di alta qualità o abilità; piacevole.",
+                "text": "Che ha qualità positive; piacevole al gusto.",
                 "examples": [
                     "Questo è un buon lavoro."
                 ]
@@ -316,9 +350,16 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ottimo", "piacevole", "buona idea", "buona fortuna", "buon valore"],
+        "synonyms": [
+            "ottimo",
+            "piacevole",
+            "buona idea",
+            "buona fortuna",
+            "buon valore"
+        ],
         "comparative": "migliore",
-        "superlative": "il migliore"
+        "superlative": "il migliore",
+        "transcription": "ˈbwɔno"
     },
     {
         "word": "cattivo",
@@ -333,7 +374,7 @@
         "femininePlural": "cattive",
         "definitions": [
             {
-                "text": "Non buono; spiacevole o di scarsa qualità.",
+                "text": "Che non è buono; malvagio o di scarsa qualità.",
                 "examples": [
                     "Il tempo è brutto oggi."
                 ]
@@ -346,9 +387,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["terribile", "pessimo", "spiacevole", "cattive notizie", "sfortuna", "cattiva decisione"],
+        "synonyms": [
+            "terribile",
+            "pessimo",
+            "spiacevole",
+            "cattive notizie",
+            "sfortuna",
+            "cattiva decisione"
+        ],
         "comparative": "peggiore",
-        "superlative": "il peggiore"
+        "superlative": "il peggiore",
+        "transcription": "katˈtivo"
     },
     {
         "word": "grande",
@@ -363,7 +412,7 @@
         "femininePlural": "grandi",
         "definitions": [
             {
-                "text": "Di grandi dimensioni.",
+                "text": "Di notevoli dimensioni o importanza.",
                 "examples": [
                     "È un grande ufficio."
                 ]
@@ -376,9 +425,13 @@
             }
         ],
         "subtext": "una casa grande / un grande problema / abbastanza grande",
-        "synonyms": ["ampio", "enorme"],
+        "synonyms": [
+            "ampio",
+            "enorme"
+        ],
         "comparative": "più grande",
-        "superlative": "il più grande"
+        "superlative": "il più grande",
+        "transcription": "ˈɡrande"
     },
     {
         "word": "piccolo",
@@ -393,7 +446,7 @@
         "femininePlural": "piccole",
         "definitions": [
             {
-                "text": "Di piccole dimensioni.",
+                "text": "Di dimensioni ridotte.",
                 "examples": [
                     "Ha un piccolo appartamento."
                 ]
@@ -407,7 +460,8 @@
         ],
         "subtext": "piccolo, minuscolo / un piccolo appartamento / un piccolo stipendio / troppo piccolo",
         "comparative": "più piccolo",
-        "superlative": "il più piccolo"
+        "superlative": "il più piccolo",
+        "transcription": "ˈpikkolo"
     },
     {
         "word": "facile",
@@ -422,7 +476,7 @@
         "femininePlural": "facili",
         "definitions": [
             {
-                "text": "Non difficile.",
+                "text": "Che si fa senza sforzo.",
                 "examples": [
                     "Il test è facile.",
                     "Il modulo di domanda è facile da compilare."
@@ -430,9 +484,12 @@
             }
         ],
         "subtext": "facile da fare / non facile",
-        "synonyms": ["semplice e veloce"],
+        "synonyms": [
+            "semplice e veloce"
+        ],
         "comparative": "più facile",
-        "superlative": "il più facile"
+        "superlative": "il più facile",
+        "transcription": "ˈfatʃile"
     },
     {
         "word": "difficile",
@@ -447,7 +504,7 @@
         "femininePlural": "difficili",
         "definitions": [
             {
-                "text": "Difficile da fare o capire.",
+                "text": "Che richiede fatica o impegno per essere fatto o capito.",
                 "examples": [
                     "Questo lavoro è difficile."
                 ]
@@ -461,7 +518,8 @@
         ],
         "subtext": "difficile da fare / molto difficile / trovarlo difficile",
         "comparative": "più difficile",
-        "superlative": "il più difficile"
+        "superlative": "il più difficile",
+        "transcription": "difˈfitʃile"
     },
     {
         "word": "felice",
@@ -474,7 +532,7 @@
         "femininePlural": "felici",
         "definitions": [
             {
-                "text": "Che prova piacere o gioia.",
+                "text": "Che prova contentezza o soddisfazione.",
                 "examples": [
                     "Sono felice oggi."
                 ]
@@ -488,7 +546,8 @@
         ],
         "subtext": "contento, allegro, sentirsi felice / sentirsi felice / felice di qualcosa / un giorno felice",
         "comparative": "più felice",
-        "superlative": "il più felice"
+        "superlative": "il più felice",
+        "transcription": "feˈlitʃe"
     },
     {
         "word": "stanco",
@@ -501,7 +560,7 @@
         "femininePlural": "stanche",
         "definitions": [
             {
-                "text": "Che ha bisogno di riposo o sonno.",
+                "text": "Che sente il bisogno di riposare.",
                 "examples": [
                     "Sono molto stanco dopo il lavoro.",
                     "Mi sento stanco dopo una lunga settimana."
@@ -510,7 +569,8 @@
         ],
         "subtext": "sonnolento, esausto, sentirsi stanco / sentirsi stanco / stanco di qualcosa / molto stanco",
         "comparative": "più stanco",
-        "superlative": "il più stanco"
+        "superlative": "il più stanco",
+        "transcription": "ˈstanko"
     },
     {
         "word": "a tempo pieno",
@@ -533,7 +593,8 @@
         "superlative": "il più a tempo pieno",
         "feminine": "a tempo pieno",
         "plural": "a tempo pieno",
-        "femininePlural": "a tempo pieno"
+        "femininePlural": "a tempo pieno",
+        "transcription": "a ˈtɛmpo ˈpjɛno"
     },
     {
         "word": "a tempo parziale",
@@ -552,12 +613,15 @@
             }
         ],
         "subtext": "lavoro a tempo parziale",
-        "synonyms": ["studente lavoratore"],
+        "synonyms": [
+            "studente lavoratore"
+        ],
         "comparative": "più a tempo parziale",
         "superlative": "il più a tempo parziale",
         "feminine": "a tempo parziale",
         "plural": "a tempo parziale",
-        "femininePlural": "a tempo parziale"
+        "femininePlural": "a tempo parziale",
+        "transcription": "a ˈtɛmpo parˈtsjale"
     },
     {
         "word": "pulito",
@@ -568,10 +632,13 @@
         "opposite": "sporco",
         "oppositeEmoji": "💩",
         "subtext": "",
-        "synonyms": ["ordinato", "limpido"],
+        "synonyms": [
+            "ordinato",
+            "limpido"
+        ],
         "definitions": [
             {
-                "text": "Privo di sporco.",
+                "text": "Privo di sporcizia o macchie.",
                 "examples": [
                     "La mia camera è pulita."
                 ]
@@ -581,7 +648,8 @@
         "plural": "puliti",
         "femininePlural": "pulite",
         "comparative": "più pulito",
-        "superlative": "il più pulito"
+        "superlative": "il più pulito",
+        "transcription": "puˈlito"
     },
     {
         "word": "sano",
@@ -593,7 +661,7 @@
         "femininePlural": "sane",
         "definitions": [
             {
-                "text": "Che fa bene al corpo; non malato.",
+                "text": "Che gode di buona salute; che fa bene alla salute.",
                 "examples": [
                     "Le verdure sono cibo sano."
                 ]
@@ -603,7 +671,8 @@
         "comparative": "più sano",
         "superlative": "il più sano",
         "opposite": "unhealthy",
-        "oppositeEmoji": "🍔"
+        "oppositeEmoji": "🍔",
+        "transcription": "ˈsano"
     },
     {
         "word": "malato",
@@ -615,18 +684,22 @@
         "femininePlural": "malate",
         "definitions": [
             {
-                "text": "Non sta bene; malato.",
+                "text": "Che soffre di una malattia.",
                 "examples": [
                     "Mi sento malato oggi."
                 ]
             }
         ],
         "subtext": "",
-        "synonyms": ["indisposto", "sentirsi male"],
+        "synonyms": [
+            "indisposto",
+            "sentirsi male"
+        ],
         "comparative": "più malato",
         "superlative": "il più malato",
         "opposite": "well",
-        "oppositeEmoji": "💪"
+        "oppositeEmoji": "💪",
+        "transcription": "maˈlato"
     },
     {
         "word": "online",
@@ -649,7 +722,8 @@
         "oppositeEmoji": "📴",
         "feminine": "online",
         "plural": "online",
-        "femininePlural": "online"
+        "femininePlural": "online",
+        "transcription": "onˈlain"
     },
     {
         "word": "solo",
@@ -661,7 +735,7 @@
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Senza altre persone; da solo.",
+                "text": "Senza compagnia; unico.",
                 "examples": [
                     "Vive da sola."
                 ]
@@ -672,7 +746,8 @@
         "superlative": "il più solo",
         "feminine": "sola",
         "plural": "soli",
-        "femininePlural": "sole"
+        "femininePlural": "sole",
+        "transcription": "ˈsolo"
     },
     {
         "word": "rilassato",
@@ -713,7 +788,9 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ansioso"],
+        "synonyms": [
+            "ansioso"
+        ],
         "comparative": "più preoccupato",
         "superlative": "il più preoccupato",
         "opposite": "calm",
@@ -727,7 +804,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Avere molte cose da fare.",
+                "text": "Impegnato in un'attività; non libero.",
                 "examples": [
                     "Sono molto occupato questa settimana."
                 ]
@@ -737,9 +814,12 @@
         "plural": "occupati",
         "femininePlural": "occupate",
         "subtext": "molto occupato, giornata piena / troppo occupato",
-        "synonyms": ["programma fitto"],
+        "synonyms": [
+            "programma fitto"
+        ],
         "comparative": "più occupato",
-        "superlative": "il più occupato"
+        "superlative": "il più occupato",
+        "transcription": "okkuˈpato"
     },
     {
         "word": "utile",
@@ -751,7 +831,7 @@
         "femininePlural": "utili",
         "definitions": [
             {
-                "text": "D'aiuto; che ha uno scopo pratico.",
+                "text": "Che serve a uno scopo; vantaggioso.",
                 "examples": [
                     "Un'auto è molto utile in campagna."
                 ]
@@ -761,7 +841,8 @@
         "comparative": "più utile",
         "superlative": "il più utile",
         "opposite": "inutile",
-        "oppositeEmoji": "🗑️"
+        "oppositeEmoji": "🗑️",
+        "transcription": "ˈutile"
     },
     {
         "word": "importante",
@@ -770,7 +851,10 @@
         "emoji": "❗",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["essenziale", "fondamentale"],
+        "synonyms": [
+            "essenziale",
+            "fondamentale"
+        ],
         "definitions": [
             {
                 "text": "Che ha grande valore o effetto.",
@@ -792,7 +876,9 @@
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "rosso scuro, rosso vivo / vino rosso / semaforo rosso",
-        "synonyms": ["faccia rossa"],
+        "synonyms": [
+            "faccia rossa"
+        ],
         "definitions": [
             {
                 "text": "Che ha il colore del sangue o di un pomodoro maturo.",
@@ -814,7 +900,9 @@
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "azzurro, blu scuro / blu scuro / cielo blu",
-        "synonyms": ["azzurro"],
+        "synonyms": [
+            "azzurro"
+        ],
         "definitions": [
             {
                 "text": "Che ha il colore del cielo limpido.",
@@ -899,7 +987,9 @@
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "giallo limone, giallo oro / giallo pallido / giallo brillante",
-        "synonyms": ["luce gialla"],
+        "synonyms": [
+            "luce gialla"
+        ],
         "definitions": [
             {
                 "text": "Che ha il colore del sole o di un limone.",
@@ -921,7 +1011,10 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["gratis", "senza costi"],
+        "synonyms": [
+            "gratis",
+            "senza costi"
+        ],
         "definitions": [
             {
                 "text": "Che non costa denaro.",
@@ -945,7 +1038,10 @@
         "opposite": "chiuso",
         "oppositeEmoji": "🔒",
         "subtext": "",
-        "synonyms": ["libero", "non chiuso"],
+        "synonyms": [
+            "libero",
+            "non chiuso"
+        ],
         "definitions": [
             {
                 "text": "Che non è chiuso; che permette l'ingresso.",
@@ -969,7 +1065,9 @@
         "opposite": "aperto",
         "oppositeEmoji": "📖",
         "subtext": "",
-        "synonyms": ["non accessibile"],
+        "synonyms": [
+            "non accessibile"
+        ],
         "definitions": [
             {
                 "text": "Che non è aperto.",
@@ -995,7 +1093,7 @@
         "femininePlural": "grandi",
         "definitions": [
             {
-                "text": "Di dimensioni o quantità superiori alla media.",
+                "text": "Di notevoli dimensioni o importanza.",
                 "examples": [
                     "Parigi è una città molto grande."
                 ]
@@ -1003,7 +1101,8 @@
         ],
         "subtext": "una grande città / una grande azienda / una grande quantità",
         "comparative": "più grande",
-        "superlative": "il più grande"
+        "superlative": "il più grande",
+        "transcription": "ˈɡrande"
     },
     {
         "word": "piccolo",
@@ -1016,16 +1115,21 @@
         "femininePlural": "piccole",
         "definitions": [
             {
-                "text": "Piccolo di dimensioni; una piccola quantità di.",
+                "text": "Di dimensioni ridotte.",
                 "examples": [
                     "Guida una piccola auto per risparmiare sul carburante."
                 ]
             }
         ],
         "subtext": "",
-        "synonyms": ["un pochino", "pochi soldi", "troppo poco"],
+        "synonyms": [
+            "un pochino",
+            "pochi soldi",
+            "troppo poco"
+        ],
         "comparative": "più piccolo",
-        "superlative": "il più piccolo"
+        "superlative": "il più piccolo",
+        "transcription": "ˈpikkolo"
     },
     {
         "word": "lungo",
@@ -1038,16 +1142,20 @@
         "femininePlural": "lunghe",
         "definitions": [
             {
-                "text": "Di grande lunghezza; che dura molto tempo.",
+                "text": "Che ha una grande estensione in lunghezza.",
                 "examples": [
                     "Ha un lungo tragitto ogni giorno."
                 ]
             }
         ],
         "subtext": "un lungo viaggio",
-        "synonyms": ["una lunga giornata", "molto tempo"],
+        "synonyms": [
+            "una lunga giornata",
+            "molto tempo"
+        ],
         "comparative": "più lungo",
-        "superlative": "il più lungo"
+        "superlative": "il più lungo",
+        "transcription": "ˈlunɡo"
     },
     {
         "word": "alto",
@@ -1060,16 +1168,19 @@
         "femininePlural": "alte",
         "definitions": [
             {
-                "text": "Di altezza o livello superiore alla media.",
+                "text": "Di statura superiore alla media; che si estende molto verso l'alto.",
                 "examples": [
                     "L'affitto in questa zona è molto alto."
                 ]
             }
         ],
         "subtext": "prezzo alto / affitto alto",
-        "synonyms": ["alta qualità"],
+        "synonyms": [
+            "alta qualità"
+        ],
         "comparative": "più alto",
-        "superlative": "il più alto"
+        "superlative": "il più alto",
+        "transcription": "ˈalto"
     },
     {
         "word": "basso",
@@ -1082,16 +1193,19 @@
         "femininePlural": "basse",
         "definitions": [
             {
-                "text": "Di altezza o livello inferiore alla media.",
+                "text": "Di piccola altezza; poco elevato.",
                 "examples": [
                     "Lo stipendio è troppo basso per le ore richieste."
                 ]
             }
         ],
         "subtext": "prezzo basso / stipendio basso",
-        "synonyms": ["bassa qualità"],
+        "synonyms": [
+            "bassa qualità"
+        ],
         "comparative": "più basso",
-        "superlative": "il più basso"
+        "superlative": "il più basso",
+        "transcription": "ˈbasso"
     },
     {
         "word": "pieno",
@@ -1111,7 +1225,9 @@
             }
         ],
         "subtext": "tempo pieno / pieno di gente",
-        "synonyms": ["una giornata piena"],
+        "synonyms": [
+            "una giornata piena"
+        ],
         "comparative": "più pieno",
         "superlative": "il più pieno"
     },
@@ -1133,7 +1249,9 @@
             }
         ],
         "subtext": "un appartamento vuoto / quasi vuoto",
-        "synonyms": ["una stanza vuota"],
+        "synonyms": [
+            "una stanza vuota"
+        ],
         "comparative": "più vuoto",
         "superlative": "il più vuoto"
     },
@@ -1155,7 +1273,10 @@
             }
         ],
         "subtext": "tempo tiepido",
-        "synonyms": ["un caloroso benvenuto", "stare al caldo"],
+        "synonyms": [
+            "un caloroso benvenuto",
+            "stare al caldo"
+        ],
         "comparative": "più tiepido",
         "superlative": "il più tiepido"
     },
@@ -1177,7 +1298,9 @@
             }
         ],
         "subtext": "tempo fresco / stare al fresco",
-        "synonyms": ["una bevanda fresca"],
+        "synonyms": [
+            "una bevanda fresca"
+        ],
         "comparative": "più fresco",
         "superlative": "il più fresco"
     },
@@ -1199,7 +1322,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["tempo umido", "vestiti bagnati", "bagnarsi"],
+        "synonyms": [
+            "tempo umido",
+            "vestiti bagnati",
+            "bagnarsi"
+        ],
         "comparative": "più bagnato",
         "superlative": "il più bagnato"
     },
@@ -1221,7 +1348,10 @@
             }
         ],
         "subtext": "stare all'asciutto",
-        "synonyms": ["tempo secco", "pelle secca"],
+        "synonyms": [
+            "tempo secco",
+            "pelle secca"
+        ],
         "comparative": "più asciutto",
         "superlative": "il più asciutto"
     },
@@ -1236,16 +1366,21 @@
         "femininePlural": "sporche",
         "definitions": [
             {
-                "text": "Coperto di sporcizia o impurità.",
+                "text": "Che presenta sporcizia.",
                 "examples": [
                     "Le sue mani sono sporche dopo aver riparato l'auto."
                 ]
             }
         ],
         "subtext": "",
-        "synonyms": ["mani sporche", "vestiti sporchi", "sporcarsi"],
+        "synonyms": [
+            "mani sporche",
+            "vestiti sporchi",
+            "sporcarsi"
+        ],
         "comparative": "più sporco",
-        "superlative": "il più sporco"
+        "superlative": "il più sporco",
+        "transcription": "ˈspɔrko"
     },
     {
         "word": "duro",
@@ -1265,7 +1400,9 @@
             }
         ],
         "subtext": "lavoro duro / troppo duro",
-        "synonyms": ["una decisione difficile"],
+        "synonyms": [
+            "una decisione difficile"
+        ],
         "comparative": "più duro",
         "superlative": "il più duro"
     },
@@ -1287,7 +1424,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["luce soffusa", "musica dolce", "soft skills"],
+        "synonyms": [
+            "luce soffusa",
+            "musica dolce",
+            "soft skills"
+        ],
         "comparative": "più morbido",
         "superlative": "il più morbido"
     },
@@ -1309,7 +1450,9 @@
             }
         ],
         "subtext": "traffico pesante / troppo pesante",
-        "synonyms": ["pioggia forte"],
+        "synonyms": [
+            "pioggia forte"
+        ],
         "comparative": "più pesante",
         "superlative": "il più pesante"
     },
@@ -1331,7 +1474,9 @@
             }
         ],
         "subtext": "traffico leggero / un pasto leggero",
-        "synonyms": ["pioggerella"],
+        "synonyms": [
+            "pioggerella"
+        ],
         "comparative": "più leggero",
         "superlative": "il più leggero"
     },
@@ -1353,7 +1498,9 @@
             }
         ],
         "subtext": "marrone scuro / marrone chiaro",
-        "synonyms": ["pane integrale"],
+        "synonyms": [
+            "pane integrale"
+        ],
         "comparative": "più marrone",
         "superlative": "il più marrone"
     },
@@ -1375,7 +1522,9 @@
             }
         ],
         "subtext": "cielo grigio / grigio pallido",
-        "synonyms": ["zona grigia"],
+        "synonyms": [
+            "zona grigia"
+        ],
         "comparative": "più grigio",
         "superlative": "il più grigio"
     },
@@ -1432,16 +1581,19 @@
         "femininePlural": "grandi",
         "definitions": [
             {
-                "text": "Estremamente buono; grande in quantità.",
+                "text": "Di notevoli dimensioni o importanza.",
                 "examples": [
                     "È una grande manager."
                 ]
             }
         ],
         "subtext": "una grande idea / una grande opportunità",
-        "synonyms": ["ottimo rapporto qualità-prezzo"],
+        "synonyms": [
+            "ottimo rapporto qualità-prezzo"
+        ],
         "comparative": "più grande",
-        "superlative": "il più grande"
+        "superlative": "il più grande",
+        "transcription": "ˈɡrande"
     },
     {
         "word": "bello",
@@ -1454,16 +1606,21 @@
         "femininePlural": "belle",
         "definitions": [
             {
-                "text": "Piacevole o gentile.",
+                "text": "Che desta ammirazione per l'aspetto estetico.",
                 "examples": [
                     "Il nuovo ufficio è molto bello."
                 ]
             }
         ],
         "subtext": "",
-        "synonyms": ["una bella giornata", "un bel posto", "una bella persona"],
+        "synonyms": [
+            "una bella giornata",
+            "un bel posto",
+            "una bella persona"
+        ],
         "comparative": "più bello",
-        "superlative": "il più bello"
+        "superlative": "il più bello",
+        "transcription": "ˈbɛllo"
     },
     {
         "word": "meraviglioso",
@@ -1483,9 +1640,12 @@
             }
         ],
         "subtext": "un tempo meraviglioso",
-        "synonyms": ["una meravigliosa opportunità"],
+        "synonyms": [
+            "una meravigliosa opportunità"
+        ],
         "comparative": "più meraviglioso",
-        "superlative": "il più meraviglioso"
+        "superlative": "il più meraviglioso",
+        "transcription": "meraviʎˈʎozo"
     },
     {
         "word": "terribile",
@@ -1505,9 +1665,12 @@
             }
         ],
         "subtext": "tempo terribile / un terribile errore",
-        "synonyms": ["notizie terribili"],
+        "synonyms": [
+            "notizie terribili"
+        ],
         "comparative": "più terribile",
-        "superlative": "il più terribile"
+        "superlative": "il più terribile",
+        "transcription": "terˈribile"
     },
     {
         "word": "orribile",
@@ -1527,9 +1690,12 @@
             }
         ],
         "subtext": "tempo orribile / semplicemente orribile",
-        "synonyms": ["pessime notizie"],
+        "synonyms": [
+            "pessime notizie"
+        ],
         "comparative": "più orribile",
-        "superlative": "il più orribile"
+        "superlative": "il più orribile",
+        "transcription": "orˈribile"
     },
     {
         "word": "incredibile",
@@ -1550,7 +1716,8 @@
         ],
         "subtext": "un risultato incredibile / un'offerta incredibile / davvero incredibile",
         "comparative": "più incredibile",
-        "superlative": "il più incredibile"
+        "superlative": "il più incredibile",
+        "transcription": "inkreˈdibile"
     },
     {
         "word": "fantastico",
@@ -1570,9 +1737,13 @@
             }
         ],
         "subtext": "davvero fantastico",
-        "synonyms": ["notizie fantastiche", "una fantastica opportunità"],
+        "synonyms": [
+            "notizie fantastiche",
+            "una fantastica opportunità"
+        ],
         "comparative": "più fantastico",
-        "superlative": "il più fantastico"
+        "superlative": "il più fantastico",
+        "transcription": "fanˈtastiko"
     },
     {
         "word": "triste",
@@ -1585,7 +1756,7 @@
         "femininePlural": "tristi",
         "definitions": [
             {
-                "text": "Sentirsi infelice o addolorato.",
+                "text": "Che prova dolore morale o malinconia.",
                 "examples": [
                     "Era triste di lasciare l'azienda."
                 ]
@@ -1593,7 +1764,8 @@
         ],
         "subtext": "sentirsi triste / una situazione triste / profondamente triste",
         "comparative": "più triste",
-        "superlative": "il più triste"
+        "superlative": "il più triste",
+        "transcription": "ˈtriste"
     },
     {
         "word": "affamato",
@@ -1613,9 +1785,14 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["sentire fame", "molta fame", "soffrire la fame"],
+        "synonyms": [
+            "sentire fame",
+            "molta fame",
+            "soffrire la fame"
+        ],
         "comparative": "più affamato",
-        "superlative": "il più affamato"
+        "superlative": "il più affamato",
+        "transcription": "affaˈmato"
     },
     {
         "word": "arrabbiato",
@@ -1636,7 +1813,8 @@
         ],
         "subtext": "sentirsi arrabbiato / arrabbiato con qualcuno / molto arrabbiato",
         "comparative": "più arrabbiato",
-        "superlative": "il più arrabbiato"
+        "superlative": "il più arrabbiato",
+        "transcription": "arrabˈbjato"
     },
     {
         "word": "annoiato",
@@ -1657,7 +1835,8 @@
         ],
         "subtext": "sentirsi annoiato / annoiato da / che si annoia facilmente",
         "comparative": "più annoiato",
-        "superlative": "il più annoiato"
+        "superlative": "il più annoiato",
+        "transcription": "annoˈjato"
     },
     {
         "word": "emozionato",
@@ -1677,9 +1856,12 @@
             }
         ],
         "subtext": "sentirsi emozionato / molto emozionato",
-        "synonyms": ["eccitato per"],
+        "synonyms": [
+            "eccitato per"
+        ],
         "comparative": "più emozionato",
-        "superlative": "il più emozionato"
+        "superlative": "il più emozionato",
+        "transcription": "emotsjoˈnato"
     },
     {
         "word": "spaventato",
@@ -1692,16 +1874,20 @@
         "femininePlural": "spaventate",
         "definitions": [
             {
-                "text": "Sentire paura.",
+                "text": "Che prova spavento.",
                 "examples": [
                     "Ha paura di commettere errori."
                 ]
             }
         ],
         "subtext": "profondamente spaventato",
-        "synonyms": ["paura di", "avere paura"],
+        "synonyms": [
+            "paura di",
+            "avere paura"
+        ],
         "comparative": "più spaventato",
-        "superlative": "il più spaventato"
+        "superlative": "il più spaventato",
+        "transcription": "spavenˈtato"
     },
     {
         "word": "dispiaciuto",
@@ -1721,9 +1907,12 @@
             }
         ],
         "subtext": "sentirsi dispiaciuto / dispiaciuto per",
-        "synonyms": ["scusarsi di"],
+        "synonyms": [
+            "scusarsi di"
+        ],
         "comparative": "più dispiaciuto",
-        "superlative": "il più dispiaciuto"
+        "superlative": "il più dispiaciuto",
+        "transcription": "dispjaˈtʃuto"
     },
     {
         "word": "giusto",
@@ -1743,9 +1932,12 @@
             }
         ],
         "subtext": "momento giusto / assolutamente giusto",
-        "synonyms": ["risposta giusta"],
+        "synonyms": [
+            "risposta giusta"
+        ],
         "comparative": "più giusto",
-        "superlative": "il più giusto"
+        "superlative": "il più giusto",
+        "transcription": "ˈdʒusto"
     },
     {
         "word": "sbagliato",
@@ -1765,9 +1957,13 @@
             }
         ],
         "subtext": "completamente sbagliato",
-        "synonyms": ["risposta sbagliata", "andare male"],
+        "synonyms": [
+            "risposta sbagliata",
+            "andare male"
+        ],
         "comparative": "più sbagliato",
-        "superlative": "il più sbagliato"
+        "superlative": "il più sbagliato",
+        "transcription": "zbaʎˈʎato"
     },
     {
         "word": "nuovo",
@@ -1780,16 +1976,19 @@
         "femininePlural": "nuove",
         "definitions": [
             {
-                "text": "Non esistente prima; fatto di recente.",
+                "text": "Recente; non usato in precedenza.",
                 "examples": [
                     "Ha un nuovo lavoro che inizia a marzo."
                 ]
             }
         ],
         "subtext": "nuovo lavoro / completamente nuovo",
-        "synonyms": ["fiammante"],
+        "synonyms": [
+            "fiammante"
+        ],
         "comparative": "più nuovo",
-        "superlative": "il più nuovo"
+        "superlative": "il più nuovo",
+        "transcription": "ˈnwɔvo"
     },
     {
         "word": "differente",
@@ -1802,16 +2001,20 @@
         "femininePlural": "differenti",
         "definitions": [
             {
-                "text": "Non uguale a un altro.",
+                "text": "Diverso; non uguale.",
                 "examples": [
                     "Questo lavoro è molto differente dal mio precedente."
                 ]
             }
         ],
         "subtext": "differente da",
-        "synonyms": ["completamente diverso", "molto diverso"],
+        "synonyms": [
+            "completamente diverso",
+            "molto diverso"
+        ],
         "comparative": "più differente",
-        "superlative": "il più differente"
+        "superlative": "il più differente",
+        "transcription": "diffeˈrɛnte"
     },
     {
         "word": "stesso",
@@ -1824,16 +2027,19 @@
         "femininePlural": "stesse",
         "definitions": [
             {
-                "text": "Non differente; identico.",
+                "text": "Identico a un altro.",
                 "examples": [
                     "Guadagnano lo stesso stipendio."
                 ]
             }
         ],
         "subtext": "lo stesso di / esattamente lo stesso",
-        "synonyms": ["contemporaneamente"],
+        "synonyms": [
+            "contemporaneamente"
+        ],
         "comparative": "più stesso",
-        "superlative": "il più stesso"
+        "superlative": "il più stesso",
+        "transcription": "ˈstesso"
     },
     {
         "word": "veloce",
@@ -1846,16 +2052,19 @@
         "femininePlural": "veloci",
         "definitions": [
             {
-                "text": "Che si muove o accade rapidamente.",
+                "text": "Che si muove con rapidità.",
                 "examples": [
                     "Il treno per il lavoro è veloce e affidabile."
                 ]
             }
         ],
         "subtext": "treno veloce / molto veloce",
-        "synonyms": ["fast food"],
+        "synonyms": [
+            "fast food"
+        ],
         "comparative": "più veloce",
-        "superlative": "il più veloce"
+        "superlative": "il più veloce",
+        "transcription": "veˈlotʃe"
     },
     {
         "word": "lento",
@@ -1868,16 +2077,19 @@
         "femininePlural": "lente",
         "definitions": [
             {
-                "text": "Non veloce; che impiega molto tempo.",
+                "text": "Che si muove con scarsa rapidità.",
                 "examples": [
                     "Il nuovo sistema è molto lento."
                 ]
             }
         ],
         "subtext": "internet lento / molto lento",
-        "synonyms": ["progressi lenti"],
+        "synonyms": [
+            "progressi lenti"
+        ],
         "comparative": "più lento",
-        "superlative": "il più lento"
+        "superlative": "il più lento",
+        "transcription": "ˈlɛnto"
     },
     {
         "word": "silenzioso",
@@ -1890,16 +2102,21 @@
         "femininePlural": "silenziose",
         "definitions": [
             {
-                "text": "Che fa poco o nessun rumore; pacifico.",
+                "text": "Che fa poco rumore; tranquillo.",
                 "examples": [
                     "L'ufficio è silenzioso all'ora di pranzo."
                 ]
             }
         ],
         "subtext": "",
-        "synonyms": ["zona silenziosa", "stare zitti", "bello e tranquillo"],
+        "synonyms": [
+            "zona silenziosa",
+            "stare zitti",
+            "bello e tranquillo"
+        ],
         "comparative": "più silenzioso",
-        "superlative": "il più silenzioso"
+        "superlative": "il più silenzioso",
+        "transcription": "silenˈtsjozo"
     },
     {
         "word": "rumoroso",
@@ -1919,9 +2136,14 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["forte rumore", "troppo forte", "una voce forte"],
+        "synonyms": [
+            "forte rumore",
+            "troppo forte",
+            "una voce forte"
+        ],
         "comparative": "più rumoroso",
-        "superlative": "il più rumoroso"
+        "superlative": "il più rumoroso",
+        "transcription": "rumoˈrozo"
     },
     {
         "word": "sicuro",
@@ -1934,16 +2156,19 @@
         "femininePlural": "sicure",
         "definitions": [
             {
-                "text": "Non pericoloso; protetto dal pericolo.",
+                "text": "Privo di pericoli; certo.",
                 "examples": [
                     "Questo quartiere è molto sicuro."
                 ]
             }
         ],
         "subtext": "sicuro da fare / sentirsi al sicuro",
-        "synonyms": ["zona sicura"],
+        "synonyms": [
+            "zona sicura"
+        ],
         "comparative": "più sicuro",
-        "superlative": "il più sicuro"
+        "superlative": "il più sicuro",
+        "transcription": "siˈkuro"
     },
     {
         "word": "pericoloso",
@@ -1956,16 +2181,19 @@
         "femininePlural": "pericolose",
         "definitions": [
             {
-                "text": "Probabile che causi danni.",
+                "text": "Che può causare danni o pericoli.",
                 "examples": [
                     "Il tragitto su quella strada è pericoloso."
                 ]
             }
         ],
         "subtext": "molto pericoloso / potenzialmente pericoloso",
-        "synonyms": ["situazione pericolosa"],
+        "synonyms": [
+            "situazione pericolosa"
+        ],
         "comparative": "più pericoloso",
-        "superlative": "il più pericoloso"
+        "superlative": "il più pericoloso",
+        "transcription": "perikoˈlozo"
     },
     {
         "word": "infelice",
@@ -1977,7 +2205,7 @@
         "femininePlural": "infelici",
         "definitions": [
             {
-                "text": "Non sentirsi soddisfatto o felice.",
+                "text": "Non felice; addolorato.",
                 "examples": [
                     "È infelice con il suo attuale stipendio."
                 ]
@@ -1985,7 +2213,8 @@
         ],
         "subtext": "infelice per qualcosa / profondamente infelice",
         "comparative": "più infelice",
-        "superlative": "il più infelice"
+        "superlative": "il più infelice",
+        "transcription": "infeˈlitʃe"
     },
     {
         "word": "nervoso",
@@ -1997,7 +2226,7 @@
         "femininePlural": "nervose",
         "definitions": [
             {
-                "text": "Sentirsi ansioso o preoccupato.",
+                "text": "Irritabile; teso.",
                 "examples": [
                     "Era nervoso prima del colloquio di lavoro."
                 ]
@@ -2005,7 +2234,8 @@
         ],
         "subtext": "nervoso prima di un colloquio / molto nervoso",
         "comparative": "più nervoso",
-        "superlative": "il più nervoso"
+        "superlative": "il più nervoso",
+        "transcription": "nerˈvozo"
     },
     {
         "word": "stressato",
@@ -2017,16 +2247,19 @@
         "femininePlural": "stressate",
         "definitions": [
             {
-                "text": "Sentirsi preoccupati e tesi per la pressione.",
+                "text": "Sotto pressione psicologica.",
                 "examples": [
                     "Si sente stressata prima di ogni scadenza."
                 ]
             }
         ],
         "subtext": "sentirsi stressato / molto stressato",
-        "synonyms": ["esaurito"],
+        "synonyms": [
+            "esaurito"
+        ],
         "comparative": "più stressato",
-        "superlative": "il più stressato"
+        "superlative": "il più stressato",
+        "transcription": "stresˈsato"
     },
     {
         "word": "sicuro di sé",
@@ -2038,16 +2271,20 @@
         "femininePlural": "sicure di sé",
         "definitions": [
             {
-                "text": "Sentirsi sicuri delle proprie capacità.",
+                "text": "Che ha fiducia nelle proprie capacità.",
                 "examples": [
                     "È molto sicura di sé nelle presentazioni ai clienti."
                 ]
             }
         ],
         "subtext": "fiducia in se stessi",
-        "synonyms": ["sentirsi fiduciosi", "molto sicuri"],
+        "synonyms": [
+            "sentirsi fiduciosi",
+            "molto sicuri"
+        ],
         "comparative": "più sicuro di sé",
-        "superlative": "il più sicuro di sé"
+        "superlative": "il più sicuro di sé",
+        "transcription": "siˈkuro di ˈsɛ"
     },
     {
         "word": "orgoglioso",
@@ -2059,16 +2296,20 @@
         "femininePlural": "orgogliose",
         "definitions": [
             {
-                "text": "Sentirsi orgogliosi per un risultato.",
+                "text": "Fiero di sé o dei propri risultati.",
                 "examples": [
                     "Era orgoglioso di ottenere la sua prima promozione."
                 ]
             }
         ],
         "subtext": "orgoglioso di",
-        "synonyms": ["sentirsi fiero", "molto fiero"],
+        "synonyms": [
+            "sentirsi fiero",
+            "molto fiero"
+        ],
         "comparative": "più orgoglioso",
-        "superlative": "il più orgoglioso"
+        "superlative": "il più orgoglioso",
+        "transcription": "orɡoʎˈʎozo"
     },
     {
         "word": "spaventato",
@@ -2080,16 +2321,20 @@
         "femininePlural": "spaventate",
         "definitions": [
             {
-                "text": "Sentire paura per qualcosa.",
+                "text": "Che prova spavento.",
                 "examples": [
                     "Aveva paura di fare la presentazione."
                 ]
             }
         ],
         "subtext": "molto spaventato",
-        "synonyms": ["sentire paura", "paura di"],
+        "synonyms": [
+            "sentire paura",
+            "paura di"
+        ],
         "comparative": "più spaventato",
-        "superlative": "il più spaventato"
+        "superlative": "il più spaventato",
+        "transcription": "spavenˈtato"
     },
     {
         "word": "sorpreso",
@@ -2101,7 +2346,7 @@
         "femininePlural": "sorprese",
         "definitions": [
             {
-                "text": "Sentire shock per qualcosa di inaspettato.",
+                "text": "Stupefatto da qualcosa di inaspettato.",
                 "examples": [
                     "È rimasto sorpreso di ricevere un aumento di stipendio."
                 ]
@@ -2109,7 +2354,8 @@
         ],
         "subtext": "sentirsi sorpreso / molto sorpreso / piacevolmente sorpreso",
         "comparative": "più sorpreso",
-        "superlative": "il più sorpreso"
+        "superlative": "il più sorpreso",
+        "transcription": "sorˈprezo"
     },
     {
         "word": "deluso",
@@ -2121,7 +2367,7 @@
         "femininePlural": "deluse",
         "definitions": [
             {
-                "text": "Sentirsi tristi perché qualcosa non è stato all'altezza delle aspettative.",
+                "text": "Amareggiato per la mancata realizzazione di una speranza.",
                 "examples": [
                     "Era delusa per non aver ottenuto il lavoro."
                 ]
@@ -2129,7 +2375,8 @@
         ],
         "subtext": "sentirsi deluso / profondamente deluso / deluso da",
         "comparative": "più deluso",
-        "superlative": "il più deluso"
+        "superlative": "il più deluso",
+        "transcription": "deˈluzo"
     },
     {
         "word": "bello",
@@ -2141,16 +2388,21 @@
         "femininePlural": "belle",
         "definitions": [
             {
-                "text": "Attrattivo e piacevole da guardare.",
+                "text": "Che desta ammirazione per l'aspetto estetico.",
                 "examples": [
                     "Ha un ufficio bello e luminoso con vista sulla città."
                 ]
             }
         ],
         "subtext": "",
-        "synonyms": ["bella vista", "bella città", "assolutamente splendido"],
+        "synonyms": [
+            "bella vista",
+            "bella città",
+            "assolutamente splendido"
+        ],
         "comparative": "più bello",
-        "superlative": "il più bello"
+        "superlative": "il più bello",
+        "transcription": "ˈbɛllo"
     },
     {
         "word": "carino",
@@ -2162,16 +2414,20 @@
         "femininePlural": "carine",
         "definitions": [
             {
-                "text": "Piacevole da guardare; piuttosto attraente.",
+                "text": "Grazioso; piacevole.",
                 "examples": [
                     "La nuova sala riunioni è molto carina."
                 ]
             }
         ],
         "subtext": "abbastanza carino",
-        "synonyms": ["piuttosto bene", "un bel posto"],
+        "synonyms": [
+            "piuttosto bene",
+            "un bel posto"
+        ],
         "comparative": "più carino",
-        "superlative": "il più carino"
+        "superlative": "il più carino",
+        "transcription": "kaˈrino"
     },
     {
         "word": "forte",
@@ -2183,7 +2439,7 @@
         "femininePlural": "forti",
         "definitions": [
             {
-                "text": "Che ha grande forza fisica o mentale.",
+                "text": "Dotato di vigore fisico o morale.",
                 "examples": [
                     "È una leader forte e molto rispettata."
                 ]
@@ -2191,7 +2447,8 @@
         ],
         "subtext": "caffè forte / opinione forte / molto forte",
         "comparative": "più forte",
-        "superlative": "il più forte"
+        "superlative": "il più forte",
+        "transcription": "ˈfɔrte"
     },
     {
         "word": "debole",
@@ -2203,7 +2460,7 @@
         "femininePlural": "deboli",
         "definitions": [
             {
-                "text": "Mancanza di forza o potere.",
+                "text": "Privo di forza o vigore.",
                 "examples": [
                     "Il segnale è debole all'ultimo piano."
                 ]
@@ -2211,7 +2468,8 @@
         ],
         "subtext": "connessione debole / un argomento debole / molto debole",
         "comparative": "più debole",
-        "superlative": "il più debole"
+        "superlative": "il più debole",
+        "transcription": "ˈdebole"
     },
     {
         "word": "in forma",
@@ -2223,7 +2481,7 @@
         "femininePlural": "in forma",
         "definitions": [
             {
-                "text": "In buone condizioni fisiche grazie all'esercizio.",
+                "text": "In buone condizioni fisiche.",
                 "examples": [
                     "Si mantiene in forma andando al lavoro in bicicletta ogni giorno."
                 ]
@@ -2231,7 +2489,8 @@
         ],
         "subtext": "in forma fisica / restare in forma / mantenersi in forma",
         "comparative": "più in forma",
-        "superlative": "il più in forma"
+        "superlative": "il più in forma",
+        "transcription": "in ˈfɔrma"
     },
     {
         "word": "eccellente",
@@ -2243,16 +2502,19 @@
         "femininePlural": "eccellenti",
         "definitions": [
             {
-                "text": "Estremamente buono; di uno standard molto elevato.",
+                "text": "Di ottima qualità; superiore.",
                 "examples": [
                     "Ha ricevuto un'eccellente recensione."
                 ]
             }
         ],
         "subtext": "lavoro eccellente / assolutamente eccellente",
-        "synonyms": ["risultati eccellenti"],
+        "synonyms": [
+            "risultati eccellenti"
+        ],
         "comparative": "più eccellente",
-        "superlative": "il più eccellente"
+        "superlative": "il più eccellente",
+        "transcription": "ettʃelˈlɛnte"
     },
     {
         "word": "perfetto",
@@ -2264,16 +2526,19 @@
         "femininePlural": "perfette",
         "definitions": [
             {
-                "text": "Senza alcun difetto; completamente corretto.",
+                "text": "Che non ha difetti; compiuto.",
                 "examples": [
                     "Il tempismo del lancio è stato perfetto."
                 ]
             }
         ],
         "subtext": "tempismo perfetto / assolutamente perfetto",
-        "synonyms": ["una perfetta opportunità"],
+        "synonyms": [
+            "una perfetta opportunità"
+        ],
         "comparative": "più perfetto",
-        "superlative": "il più perfetto"
+        "superlative": "il più perfetto",
+        "transcription": "perˈfɛtto"
     },
     {
         "word": "inutile",
@@ -2285,7 +2550,7 @@
         "femininePlural": "inutili",
         "definitions": [
             {
-                "text": "Senza alcun valore utile; non d'aiuto.",
+                "text": "Che non serve a nulla.",
                 "examples": [
                     "Questo software è inutile per le nostre esigenze."
                 ]
@@ -2293,7 +2558,8 @@
         ],
         "subtext": "completamente inutile / rivelarsi inutile / un'idea inutile",
         "comparative": "più inutile",
-        "superlative": "il più inutile"
+        "superlative": "il più inutile",
+        "transcription": "iˈnutile"
     },
     {
         "word": "corretto",
@@ -2305,16 +2571,19 @@
         "femininePlural": "corrette",
         "definitions": [
             {
-                "text": "Vero o giusto; senza errori.",
+                "text": "Giusto; privo di errori.",
                 "examples": [
                     "Per favore verifica che le cifre siano corrette."
                 ]
             }
         ],
         "subtext": "il modo corretto / completamente corretto",
-        "synonyms": ["risposta corretta"],
+        "synonyms": [
+            "risposta corretta"
+        ],
         "comparative": "più corretto",
-        "superlative": "il più corretto"
+        "superlative": "il più corretto",
+        "transcription": "korˈrɛtto"
     },
     {
         "word": "interessante",
@@ -2326,7 +2595,7 @@
         "femininePlural": "interessanti",
         "definitions": [
             {
-                "text": "Che attrae l'attenzione; che vale la pena conoscere.",
+                "text": "Che desta interesse o curiosità.",
                 "examples": [
                     "La nuova proposta è molto interessante."
                 ]
@@ -2334,7 +2603,8 @@
         ],
         "subtext": "trovare interessante / molto interessante / un'idea interessante",
         "comparative": "più interessante",
-        "superlative": "il più interessante"
+        "superlative": "il più interessante",
+        "transcription": "interesˈsante"
     },
     {
         "word": "noioso",
@@ -2346,16 +2616,19 @@
         "femininePlural": "noiose",
         "definitions": [
             {
-                "text": "Non interessante; monotono.",
+                "text": "Che provoca noia; monotono.",
                 "examples": [
                     "La sessione di formazione è stata molto noiosa."
                 ]
             }
         ],
         "subtext": "molto noioso / trovarlo noioso",
-        "synonyms": ["una riunione noiosa"],
+        "synonyms": [
+            "una riunione noiosa"
+        ],
         "comparative": "più noioso",
-        "superlative": "il più noioso"
+        "superlative": "il più noioso",
+        "transcription": "noˈjozo"
     },
     {
         "word": "necessario",
@@ -2367,7 +2640,7 @@
         "femininePlural": "necessarie",
         "definitions": [
             {
-                "text": "Necessario; richiesto per poter fare qualcosa.",
+                "text": "Che è indispensabile.",
                 "examples": [
                     "Una buona connessione internet è necessaria per il lavoro a distanza."
                 ]
@@ -2375,7 +2648,8 @@
         ],
         "subtext": "assolutamente necessario / se necessario / necessario da fare",
         "comparative": "più necessario",
-        "superlative": "il più necessario"
+        "superlative": "il più necessario",
+        "transcription": "netʃesˈsarjo"
     },
     {
         "word": "possibile",
@@ -2387,7 +2661,7 @@
         "femininePlural": "possibili",
         "definitions": [
             {
-                "text": "In grado di accadere o di essere raggiunto.",
+                "text": "Che può accadere o essere realizzato.",
                 "examples": [
                     "È possibile finire entro venerdì?"
                 ]
@@ -2395,7 +2669,8 @@
         ],
         "subtext": "al più presto possibile / è possibile / rendere possibile",
         "comparative": "più possibile",
-        "superlative": "il più possibile"
+        "superlative": "il più possibile",
+        "transcription": "posˈsibile"
     },
     {
         "word": "impossibile",
@@ -2407,7 +2682,7 @@
         "femininePlural": "impossibili",
         "definitions": [
             {
-                "text": "Non in grado di accadere o di essere fatto.",
+                "text": "Che non può accadere o essere realizzato.",
                 "examples": [
                     "È impossibile finire in un giorno."
                 ]
@@ -2415,7 +2690,8 @@
         ],
         "subtext": "praticamente impossibile / rendere impossibile / quasi impossibile",
         "comparative": "più impossibile",
-        "superlative": "il più impossibile"
+        "superlative": "il più impossibile",
+        "transcription": "imposˈsibile"
     },
     {
         "word": "speciale",
@@ -2427,7 +2703,7 @@
         "femininePlural": "speciali",
         "definitions": [
             {
-                "text": "Diverso dal solito; particolarmente importante.",
+                "text": "Diverso dal comune; particolare.",
                 "examples": [
                     "Ha un talento speciale per la risoluzione dei problemi."
                 ]
@@ -2435,7 +2711,8 @@
         ],
         "subtext": "un'offerta speciale / occasione speciale / molto speciale",
         "comparative": "più speciale",
-        "superlative": "il più speciale"
+        "superlative": "il più speciale",
+        "transcription": "speˈtʃale"
     },
     {
         "word": "popolare",
@@ -2447,7 +2724,7 @@
         "femininePlural": "popolari",
         "definitions": [
             {
-                "text": "Apprezzato da molte persone.",
+                "text": "Molto conosciuto o amato dalla gente.",
                 "examples": [
                     "Il nuovo bar vicino all'ufficio è molto popolare."
                 ]
@@ -2455,7 +2732,8 @@
         ],
         "subtext": "molto popolare / scelta popolare / il più popolare",
         "comparative": "più popolare",
-        "superlative": "il più popolare"
+        "superlative": "il più popolare",
+        "transcription": "popoˈlare"
     },
     {
         "word": "simile",
@@ -2467,16 +2745,19 @@
         "femininePlural": "simili",
         "definitions": [
             {
-                "text": "Quasi lo stesso; che ha molte caratteristiche comuni.",
+                "text": "Che ha somiglianza con qualcos'altro.",
                 "examples": [
                     "I nostri approcci sono molto simili."
                 ]
             }
         ],
         "subtext": "molto simile / simile a",
-        "synonyms": ["risultati simili"],
+        "synonyms": [
+            "risultati simili"
+        ],
         "comparative": "più simile",
-        "superlative": "il più simile"
+        "superlative": "il più simile",
+        "transcription": "ˈsimile"
     },
     {
         "word": "amichevole",
@@ -2488,16 +2769,19 @@
         "femininePlural": "amichevoli",
         "definitions": [
             {
-                "text": "Gentile e piacevole; facile con cui parlare.",
+                "text": "Proprio di un amico; cordiale.",
                 "examples": [
                     "Il nuovo manager è molto amichevole e disponibile."
                 ]
             }
         ],
         "subtext": "molto amichevole / atmosfera amichevole",
-        "synonyms": ["un volto amico"],
+        "synonyms": [
+            "un volto amico"
+        ],
         "comparative": "più amichevole",
-        "superlative": "il più amichevole"
+        "superlative": "il più amichevole",
+        "transcription": "amiˈkevole"
     },
     {
         "word": "gentile",
@@ -2509,7 +2793,7 @@
         "femininePlural": "gentili",
         "definitions": [
             {
-                "text": "Premuroso e generoso verso gli altri.",
+                "text": "Cortese e premuroso verso gli altri.",
                 "examples": [
                     "È gentile con tutti in ufficio."
                 ]
@@ -2517,7 +2801,8 @@
         ],
         "subtext": "molto gentile / gentile da parte tua / una persona gentile",
         "comparative": "più gentile",
-        "superlative": "il più gentile"
+        "superlative": "il più gentile",
+        "transcription": "dʒenˈtile"
     },
     {
         "word": "divertente",
@@ -2529,7 +2814,7 @@
         "femininePlural": "divertenti",
         "definitions": [
             {
-                "text": "Che fa ridere le persone; umoristico.",
+                "text": "Che diverte; piacevole.",
                 "examples": [
                     "Ha un modo divertente di spiegare idee complesse."
                 ]
@@ -2537,7 +2822,8 @@
         ],
         "subtext": "molto divertente / storia divertente / trovarlo divertente",
         "comparative": "più divertente",
-        "superlative": "il più divertente"
+        "superlative": "il più divertente",
+        "transcription": "diverˈtente"
     },
     {
         "word": "intelligente",
@@ -2549,16 +2835,19 @@
         "femininePlural": "intelligenti",
         "definitions": [
             {
-                "text": "Intelligente; rapido nel capire.",
+                "text": "Dotato di intelletto; acuto.",
                 "examples": [
                     "È un'abile negoziatrice."
                 ]
             }
         ],
         "subtext": "molto intelligente / un'idea intelligente",
-        "synonyms": ["abbastanza scaltro"],
+        "synonyms": [
+            "abbastanza scaltro"
+        ],
         "comparative": "più intelligente",
-        "superlative": "il più intelligente"
+        "superlative": "il più intelligente",
+        "transcription": "intelliˈdʒɛnte"
     },
     {
         "word": "educato",
@@ -2570,16 +2859,20 @@
         "femininePlural": "educate",
         "definitions": [
             {
-                "text": "Comportarsi in modo rispettoso e cortese.",
+                "text": "Che ha buone maniere.",
                 "examples": [
                     "È sempre educato con i clienti."
                 ]
             }
         ],
         "subtext": "molto educato",
-        "synonyms": ["richiesta gentile", "abbastanza cortese"],
+        "synonyms": [
+            "richiesta gentile",
+            "abbastanza cortese"
+        ],
         "comparative": "più educato",
-        "superlative": "il più educato"
+        "superlative": "il più educato",
+        "transcription": "eduˈkato"
     },
     {
         "word": "maleducato",
@@ -2591,16 +2884,20 @@
         "femininePlural": "maleducate",
         "definitions": [
             {
-                "text": "Non educato; che mostra mancanza di rispetto.",
+                "text": "Privo di buona educazione.",
                 "examples": [
                     "Quell'email era piuttosto maleducata e non professionale."
                 ]
             }
         ],
         "subtext": "molto maleducato",
-        "synonyms": ["incredibilmente scortese", "deliberatamente offensivo"],
+        "synonyms": [
+            "incredibilmente scortese",
+            "deliberatamente offensivo"
+        ],
         "comparative": "più maleducato",
-        "superlative": "il più maleducato"
+        "superlative": "il più maleducato",
+        "transcription": "maleduˈkato"
     },
     {
         "word": "pigro",
@@ -2612,7 +2909,7 @@
         "femininePlural": "pigre",
         "definitions": [
             {
-                "text": "Non disposto a lavorare o a sforzarsi.",
+                "text": "Che non ha voglia di lavorare o agire.",
                 "examples": [
                     "Ha la reputazione di essere pigro con i follow-up."
                 ]
@@ -2620,7 +2917,8 @@
         ],
         "subtext": "molto pigro / un approccio pigro / troppo pigro",
         "comparative": "più pigro",
-        "superlative": "il più pigro"
+        "superlative": "il più pigro",
+        "transcription": "ˈpiɡro"
     },
     {
         "word": "onesto",
@@ -2632,7 +2930,7 @@
         "femininePlural": "oneste",
         "definitions": [
             {
-                "text": "Dire la verità; non ingannare.",
+                "text": "Che agisce con rettitudine e sincerità.",
                 "examples": [
                     "È nota per essere completamente onesta con i clienti."
                 ]
@@ -2640,7 +2938,8 @@
         ],
         "subtext": "molto onesto / brutalmente onesto / del tutto onesto",
         "comparative": "più onesto",
-        "superlative": "il più onesto"
+        "superlative": "il più onesto",
+        "transcription": "oˈnɛsto"
     },
     {
         "word": "rumoroso",
@@ -2652,7 +2951,7 @@
         "femininePlural": "rumorose",
         "definitions": [
             {
-                "text": "Che fa molto rumore; chiassoso.",
+                "text": "Che fa molto rumore.",
                 "examples": [
                     "L'ufficio open space è molto rumoroso."
                 ]
@@ -2660,7 +2959,8 @@
         ],
         "subtext": "molto rumoroso / ambiente rumoroso / troppo rumoroso",
         "comparative": "più rumoroso",
-        "superlative": "il più rumoroso"
+        "superlative": "il più rumoroso",
+        "transcription": "rumoˈrozo"
     },
     {
         "word": "onesto",
@@ -2673,13 +2973,14 @@
         "femininePlural": "oneste",
         "definitions": [
             {
-                "text": "Definizione di onesto.",
+                "text": "Che agisce con rettitudine e sincerità.",
                 "examples": []
             }
         ],
         "subtext": "onesto",
         "comparative": "più onesto",
-        "superlative": "il più onesto"
+        "superlative": "il più onesto",
+        "transcription": "oˈnɛsto"
     },
     {
         "word": "rumoroso",
@@ -2692,13 +2993,14 @@
         "femininePlural": "rumorose",
         "definitions": [
             {
-                "text": "Definizione di rumoroso.",
+                "text": "Che fa molto rumore.",
                 "examples": []
             }
         ],
         "subtext": "rumoroso",
         "comparative": "più rumoroso",
-        "superlative": "il più rumoroso"
+        "superlative": "il più rumoroso",
+        "transcription": "rumoˈrozo"
     },
     {
         "word": "rotondo",
@@ -2711,13 +3013,14 @@
         "femininePlural": "rotonde",
         "definitions": [
             {
-                "text": "Definizione di rotondo.",
+                "text": "Che ha forma circolare o sferica.",
                 "examples": []
             }
         ],
         "subtext": "rotondo",
         "comparative": "più rotondo",
-        "superlative": "il più rotondo"
+        "superlative": "il più rotondo",
+        "transcription": "roˈtondo"
     },
     {
         "word": "quadrato",
@@ -2730,13 +3033,14 @@
         "femininePlural": "quadrate",
         "definitions": [
             {
-                "text": "Definizione di quadrato.",
+                "text": "Che ha forma di quadrato.",
                 "examples": []
             }
         ],
         "subtext": "quadrato",
         "comparative": "più quadrato",
-        "superlative": "il più quadrato"
+        "superlative": "il più quadrato",
+        "transcription": "kwaˈdrato"
     },
     {
         "word": "utile",
@@ -2749,13 +3053,14 @@
         "femininePlural": "utili",
         "definitions": [
             {
-                "text": "Definizione di utile.",
+                "text": "Che serve a uno scopo; vantaggioso.",
                 "examples": []
             }
         ],
         "subtext": "utile",
         "comparative": "più utile",
-        "superlative": "il più utile"
+        "superlative": "il più utile",
+        "transcription": "ˈutile"
     },
     {
         "word": "paziente",
@@ -2768,13 +3073,14 @@
         "femininePlural": "pazienti",
         "definitions": [
             {
-                "text": "Definizione di paziente.",
+                "text": "Che sa aspettare con calma.",
                 "examples": []
             }
         ],
         "subtext": "paziente",
         "comparative": "più paziente",
-        "superlative": "il più paziente"
+        "superlative": "il più paziente",
+        "transcription": "patˈtsjɛnte"
     },
     {
         "word": "attivo",
@@ -2787,13 +3093,14 @@
         "femininePlural": "attive",
         "definitions": [
             {
-                "text": "Definizione di attivo.",
+                "text": "Operoso; che agisce.",
                 "examples": []
             }
         ],
         "subtext": "attivo",
         "comparative": "più attivo",
-        "superlative": "il più attivo"
+        "superlative": "il più attivo",
+        "transcription": "atˈtivo"
     },
     {
         "word": "attento",
@@ -2806,13 +3113,14 @@
         "femininePlural": "attente",
         "definitions": [
             {
-                "text": "Definizione di attento.",
+                "text": "Che rivolge la mente a ciò che fa.",
                 "examples": []
             }
         ],
         "subtext": "attento",
         "comparative": "più attento",
-        "superlative": "il più attento"
+        "superlative": "il più attento",
+        "transcription": "atˈtɛnto"
     },
     {
         "word": "creativo",
@@ -2825,13 +3133,14 @@
         "femininePlural": "creative",
         "definitions": [
             {
-                "text": "Definizione di creativo.",
+                "text": "Dotato di fantasia e inventiva.",
                 "examples": []
             }
         ],
         "subtext": "creativo",
         "comparative": "più creativo",
-        "superlative": "il più creativo"
+        "superlative": "il più creativo",
+        "transcription": "kreaˈtivo"
     },
     {
         "word": "nuvoloso",
@@ -2844,13 +3153,14 @@
         "femininePlural": "nuvolose",
         "definitions": [
             {
-                "text": "Definizione di nuvoloso.",
+                "text": "Coperto di nuvole.",
                 "examples": []
             }
         ],
         "subtext": "nuvoloso",
         "comparative": "più nuvoloso",
-        "superlative": "il più nuvoloso"
+        "superlative": "il più nuvoloso",
+        "transcription": "nuvoˈlozo"
     },
     {
         "word": "ventoso",
@@ -2863,13 +3173,14 @@
         "femininePlural": "ventose",
         "definitions": [
             {
-                "text": "Definizione di ventoso.",
+                "text": "Battuto dal vento.",
                 "examples": []
             }
         ],
         "subtext": "ventoso",
         "comparative": "più ventoso",
-        "superlative": "il più ventoso"
+        "superlative": "il più ventoso",
+        "transcription": "venˈtozo"
     },
     {
         "word": "nevoso",
@@ -2882,13 +3193,14 @@
         "femininePlural": "nevose",
         "definitions": [
             {
-                "text": "Definizione di nevoso.",
+                "text": "Caratterizzato da neve.",
                 "examples": []
             }
         ],
         "subtext": "nevoso",
         "comparative": "più nevoso",
-        "superlative": "il più nevoso"
+        "superlative": "il più nevoso",
+        "transcription": "neˈvozo"
     },
     {
         "word": "nebbioso",
@@ -2901,13 +3213,14 @@
         "femininePlural": "nebbiose",
         "definitions": [
             {
-                "text": "Definizione di nebbioso.",
+                "text": "Caratterizzato da nebbia.",
                 "examples": []
             }
         ],
         "subtext": "nebbioso",
         "comparative": "più nebbioso",
-        "superlative": "il più nebbioso"
+        "superlative": "il più nebbioso",
+        "transcription": "nebˈbjozo"
     },
     {
         "word": "tempestoso",
@@ -2920,13 +3233,14 @@
         "femininePlural": "tempestose",
         "definitions": [
             {
-                "text": "Definizione di tempestoso.",
+                "text": "Sconvolto dalla tempesta.",
                 "examples": []
             }
         ],
         "subtext": "tempestoso",
         "comparative": "più tempestoso",
-        "superlative": "il più tempestoso"
+        "superlative": "il più tempestoso",
+        "transcription": "tempesˈtozo"
     },
     {
         "word": "biondo",
@@ -2939,13 +3253,14 @@
         "femininePlural": "bionde",
         "definitions": [
             {
-                "text": "Definizione di biondo.",
+                "text": "Di colore giallo oro (riferito ai capelli).",
                 "examples": []
             }
         ],
         "subtext": "biondo",
         "comparative": "più biondo",
-        "superlative": "il più biondo"
+        "superlative": "il più biondo",
+        "transcription": "ˈbjondo"
     },
     {
         "word": "intelligente",
@@ -2958,13 +3273,14 @@
         "femininePlural": "intelligenti",
         "definitions": [
             {
-                "text": "Definizione di intelligente.",
+                "text": "Dotato di intelletto; acuto.",
                 "examples": []
             }
         ],
         "subtext": "intelligente",
         "comparative": "più intelligente",
-        "superlative": "il più intelligente"
+        "superlative": "il più intelligente",
+        "transcription": "intelliˈdʒɛnte"
     },
     {
         "word": "serio",
@@ -2977,13 +3293,14 @@
         "femininePlural": "serie",
         "definitions": [
             {
-                "text": "Definizione di serio.",
+                "text": "Che non ride facilmente; impegnato.",
                 "examples": []
             }
         ],
         "subtext": "serio",
         "comparative": "più serio",
-        "superlative": "il più serio"
+        "superlative": "il più serio",
+        "transcription": "ˈsɛːrjo"
     },
     {
         "word": "brutto",
@@ -2996,13 +3313,14 @@
         "femininePlural": "brutte",
         "definitions": [
             {
-                "text": "Definizione di brutto.",
+                "text": "Sgradevole alla vista.",
                 "examples": []
             }
         ],
         "subtext": "brutto",
         "comparative": "più brutto",
-        "superlative": "il più brutto"
+        "superlative": "il più brutto",
+        "transcription": "ˈbrutto"
     },
     {
         "word": "vicino",
@@ -3015,13 +3333,14 @@
         "femininePlural": "vicine",
         "definitions": [
             {
-                "text": "Definizione di vicino.",
+                "text": "Posto a poca distanza.",
                 "examples": []
             }
         ],
         "subtext": "vicino",
         "comparative": "più vicino",
-        "superlative": "il più vicino"
+        "superlative": "il più vicino",
+        "transcription": "viˈtʃino"
     },
     {
         "word": "lontano",
@@ -3034,13 +3353,14 @@
         "femininePlural": "lontane",
         "definitions": [
             {
-                "text": "Definizione di lontano.",
+                "text": "Posto a grande distanza.",
                 "examples": []
             }
         ],
         "subtext": "lontano",
         "comparative": "più lontano",
-        "superlative": "il più lontano"
+        "superlative": "il più lontano",
+        "transcription": "lonˈtano"
     },
     {
         "word": "ricco",
@@ -3053,13 +3373,14 @@
         "femininePlural": "ricche",
         "definitions": [
             {
-                "text": "Definizione di ricco.",
+                "text": "Che possiede molti beni o denaro.",
                 "examples": []
             }
         ],
         "subtext": "ricco",
         "comparative": "più ricco",
-        "superlative": "il più ricco"
+        "superlative": "il più ricco",
+        "transcription": "ˈrikko"
     },
     {
         "word": "povero",
@@ -3072,13 +3393,14 @@
         "femininePlural": "povere",
         "definitions": [
             {
-                "text": "Definizione di povero.",
+                "text": "Che ha poco denaro; misero.",
                 "examples": []
             }
         ],
         "subtext": "povero",
         "comparative": "più povero",
-        "superlative": "il più povero"
+        "superlative": "il più povero",
+        "transcription": "ˈpɔvero"
     },
     {
         "word": "presto",
@@ -3091,13 +3413,14 @@
         "femininePlural": "presto",
         "definitions": [
             {
-                "text": "Definizione di presto.",
+                "text": "In orario anticipato; velocemente.",
                 "examples": []
             }
         ],
         "subtext": "presto",
         "comparative": "più presto",
-        "superlative": "il più presto"
+        "superlative": "il più presto",
+        "transcription": "ˈprɛsto"
     },
     {
         "word": "tardi",
@@ -3110,13 +3433,14 @@
         "femininePlural": "tardi",
         "definitions": [
             {
-                "text": "Definizione di tardi.",
+                "text": "In orario avanzato.",
                 "examples": []
             }
         ],
         "subtext": "tardi",
         "comparative": "più tardi",
-        "superlative": "il più tardi"
+        "superlative": "il più tardi",
+        "transcription": "ˈtardi"
     },
     {
         "word": "emozionante",
@@ -3129,13 +3453,14 @@
         "femininePlural": "emozionanti",
         "definitions": [
             {
-                "text": "Definizione di emozionante.",
+                "text": "Che suscita forti emozioni.",
                 "examples": []
             }
         ],
         "subtext": "emozionante",
         "comparative": "più emozionante",
-        "superlative": "il più emozionante"
+        "superlative": "il più emozionante",
+        "transcription": "emotsjoˈnante"
     },
     {
         "word": "delizioso",
@@ -3148,13 +3473,14 @@
         "femininePlural": "deliziose",
         "definitions": [
             {
-                "text": "Definizione di delizioso.",
+                "text": "Molto buono; squisito.",
                 "examples": []
             }
         ],
         "subtext": "delizioso",
         "comparative": "più delizioso",
-        "superlative": "il più delizioso"
+        "superlative": "il più delizioso",
+        "transcription": "delitˈtsjozo"
     },
     {
         "word": "dolce",
@@ -3167,13 +3493,14 @@
         "femininePlural": "dolci",
         "definitions": [
             {
-                "text": "Definizione di dolce.",
+                "text": "Che ha il sapore dello zucchero; gentile.",
                 "examples": []
             }
         ],
         "subtext": "dolce",
         "comparative": "più dolce",
-        "superlative": "il più dolce"
+        "superlative": "il più dolce",
+        "transcription": "ˈdoltʃe"
     },
     {
         "word": "comodo",
@@ -3186,13 +3513,14 @@
         "femininePlural": "comode",
         "definitions": [
             {
-                "text": "Definizione di comodo.",
+                "text": "Che offre agio e benessere.",
                 "examples": []
             }
         ],
         "subtext": "comodo",
         "comparative": "più comodo",
-        "superlative": "il più comodo"
+        "superlative": "il più comodo",
+        "transcription": "ˈkɔmodo"
     },
     {
         "word": "vero",
@@ -3205,13 +3533,14 @@
         "femininePlural": "vere",
         "definitions": [
             {
-                "text": "Definizione di vero.",
+                "text": "Conforme alla realtà; non falso.",
                 "examples": []
             }
         ],
         "subtext": "vero",
         "comparative": "più vero",
-        "superlative": "il più vero"
+        "superlative": "il più vero",
+        "transcription": "ˈveːro"
     },
     {
         "word": "semplice",
@@ -3224,13 +3553,14 @@
         "femininePlural": "semplici",
         "definitions": [
             {
-                "text": "Definizione di semplice.",
+                "text": "Non complicato; facile.",
                 "examples": []
             }
         ],
         "subtext": "semplice",
         "comparative": "più semplice",
-        "superlative": "il più semplice"
+        "superlative": "il più semplice",
+        "transcription": "ˈsemplitʃe"
     },
     {
         "word": "naturale",
@@ -3243,13 +3573,14 @@
         "femininePlural": "naturali",
         "definitions": [
             {
-                "text": "Definizione di naturale.",
+                "text": "Prodotto dalla natura; non artificiale.",
                 "examples": []
             }
         ],
         "subtext": "naturale",
         "comparative": "più naturale",
-        "superlative": "il più naturale"
+        "superlative": "il più naturale",
+        "transcription": "natuˈrale"
     },
     {
         "word": "chiaro",
@@ -3262,13 +3593,14 @@
         "femininePlural": "chiare",
         "definitions": [
             {
-                "text": "Definizione di chiaro.",
+                "text": "Luminoso; facile da capire.",
                 "examples": []
             }
         ],
         "subtext": "chiaro",
         "comparative": "più chiaro",
-        "superlative": "il più chiaro"
+        "superlative": "il più chiaro",
+        "transcription": "ˈkjaro"
     },
     {
         "word": "comune",
@@ -3281,13 +3613,14 @@
         "femininePlural": "comuni",
         "definitions": [
             {
-                "text": "Definizione di comune.",
+                "text": "Che appartiene a molti; ordinario.",
                 "examples": []
             }
         ],
         "subtext": "comune",
         "comparative": "più comune",
-        "superlative": "il più comune"
+        "superlative": "il più comune",
+        "transcription": "koˈmune"
     },
     {
         "word": "famoso",
@@ -3300,13 +3633,14 @@
         "femininePlural": "famose",
         "definitions": [
             {
-                "text": "Definizione di famoso.",
+                "text": "Conosciuto da molti; celebre.",
                 "examples": []
             }
         ],
         "subtext": "famoso",
         "comparative": "più famoso",
-        "superlative": "il più famoso"
+        "superlative": "il più famoso",
+        "transcription": "faˈmozo"
     },
     {
         "word": "salato",
@@ -3319,13 +3653,14 @@
         "femininePlural": "salate",
         "definitions": [
             {
-                "text": "Definizione di salato.",
+                "text": "Che contiene sale.",
                 "examples": []
             }
         ],
         "subtext": "salato",
         "comparative": "più salato",
-        "superlative": "il più salato"
+        "superlative": "il più salato",
+        "transcription": "saˈlato"
     },
     {
         "word": "acido",
@@ -3338,13 +3673,14 @@
         "femininePlural": "acide",
         "definitions": [
             {
-                "text": "Definizione di acido.",
+                "text": "Che ha sapore aspro.",
                 "examples": []
             }
         ],
         "subtext": "acido",
         "comparative": "più acido",
-        "superlative": "il più acido"
+        "superlative": "il più acido",
+        "transcription": "ˈatʃido"
     },
     {
         "word": "amaro",
@@ -3357,13 +3693,14 @@
         "femininePlural": "amare",
         "definitions": [
             {
-                "text": "Definizione di amaro.",
+                "text": "Che ha un sapore aspro e pungente.",
                 "examples": []
             }
         ],
         "subtext": "amaro",
         "comparative": "più amaro",
-        "superlative": "il più amaro"
+        "superlative": "il più amaro",
+        "transcription": "aˈmaro"
     },
     {
         "word": "grasso",
@@ -3376,13 +3713,14 @@
         "femininePlural": "grasse",
         "definitions": [
             {
-                "text": "Definizione di grasso.",
+                "text": "Che ha molto grasso; corpulento.",
                 "examples": []
             }
         ],
         "subtext": "grasso",
         "comparative": "più grasso",
-        "superlative": "il più grasso"
+        "superlative": "il più grasso",
+        "transcription": "ˈɡrasso"
     },
     {
         "word": "magro",
@@ -3395,13 +3733,14 @@
         "femininePlural": "magre",
         "definitions": [
             {
-                "text": "Definizione di magro.",
+                "text": "Che ha poco grasso; snello.",
                 "examples": []
             }
         ],
         "subtext": "magro",
         "comparative": "più magro",
-        "superlative": "il più magro"
+        "superlative": "il più magro",
+        "transcription": "ˈmaɡro"
     },
     {
         "word": "riccio",
@@ -3414,13 +3753,14 @@
         "femininePlural": "ricce",
         "definitions": [
             {
-                "text": "Definizione di riccio.",
+                "text": "Incurvato in anelli (riferito ai capelli).",
                 "examples": []
             }
         ],
         "subtext": "riccio",
         "comparative": "più riccio",
-        "superlative": "il più riccio"
+        "superlative": "il più riccio",
+        "transcription": "ˈrittʃo"
     },
     {
         "word": "liscio",
@@ -3433,13 +3773,14 @@
         "femininePlural": "lisce",
         "definitions": [
             {
-                "text": "Definizione di liscio.",
+                "text": "Senza rugosità o onde.",
                 "examples": []
             }
         ],
         "subtext": "liscio",
         "comparative": "più liscio",
-        "superlative": "il più liscio"
+        "superlative": "il più liscio",
+        "transcription": "ˈliʃʃo"
     },
     {
         "word": "triangolare",
@@ -3452,13 +3793,14 @@
         "femininePlural": "triangolari",
         "definitions": [
             {
-                "text": "Definizione di triangolare.",
+                "text": "Che ha tre angoli.",
                 "examples": []
             }
         ],
         "subtext": "triangolare",
         "comparative": "più triangolare",
-        "superlative": "il più triangolare"
+        "superlative": "il più triangolare",
+        "transcription": "trianɡoˈlare"
     },
     {
         "word": "rettangolare",
@@ -3471,13 +3813,14 @@
         "femininePlural": "rettangolari",
         "definitions": [
             {
-                "text": "Definizione di rettangolare.",
+                "text": "Che ha forma di rettangolo.",
                 "examples": []
             }
         ],
         "subtext": "rettangolare",
         "comparative": "più rettangolare",
-        "superlative": "il più rettangolare"
+        "superlative": "il più rettangolare",
+        "transcription": "rettanɡoˈlare"
     },
     {
         "word": "ovale",
@@ -3490,13 +3833,14 @@
         "femininePlural": "ovali",
         "definitions": [
             {
-                "text": "Definizione di ovale.",
+                "text": "Che ha forma di ellisse.",
                 "examples": []
             }
         ],
         "subtext": "ovale",
         "comparative": "più ovale",
-        "superlative": "il più ovale"
+        "superlative": "il più ovale",
+        "transcription": "oˈvale"
     },
     {
         "word": "preferito",
@@ -3509,13 +3853,14 @@
         "femininePlural": "preferite",
         "definitions": [
             {
-                "text": "Definizione di preferito.",
+                "text": "Scelto tra gli altri per predilezione.",
                 "examples": []
             }
         ],
         "subtext": "preferito",
         "comparative": "più preferito",
-        "superlative": "il più preferito"
+        "superlative": "il più preferito",
+        "transcription": "prefeˈrito"
     },
     {
         "word": "scuro",
@@ -3528,13 +3873,14 @@
         "femininePlural": "scure",
         "definitions": [
             {
-                "text": "Definizione di scuro.",
+                "text": "Privo di luce; di colore cupo.",
                 "examples": []
             }
         ],
         "subtext": "scuro",
         "comparative": "più scuro",
-        "superlative": "il più scuro"
+        "superlative": "il più scuro",
+        "transcription": "ˈskuro"
     },
     {
         "word": "luminoso",
@@ -3547,13 +3893,14 @@
         "femininePlural": "luminose",
         "definitions": [
             {
-                "text": "Definizione di luminoso.",
+                "text": "Che manda molta luce.",
                 "examples": []
             }
         ],
         "subtext": "luminoso",
         "comparative": "più luminoso",
-        "superlative": "il più luminoso"
+        "superlative": "il più luminoso",
+        "transcription": "lumiˈnozo"
     },
     {
         "word": "dorato",
@@ -3566,13 +3913,14 @@
         "femininePlural": "dorate",
         "definitions": [
             {
-                "text": "Definizione di dorato.",
+                "text": "Del colore dell'oro.",
                 "examples": []
             }
         ],
         "subtext": "dorato",
         "comparative": "più dorato",
-        "superlative": "il più dorato"
+        "superlative": "il più dorato",
+        "transcription": "doˈrato"
     },
     {
         "word": "argentato",
@@ -3585,13 +3933,14 @@
         "femininePlural": "argentate",
         "definitions": [
             {
-                "text": "Definizione di argentato.",
+                "text": "Del colore dell'argento.",
                 "examples": []
             }
         ],
         "subtext": "argentato",
         "comparative": "più argentato",
-        "superlative": "il più argentato"
+        "superlative": "il più argentato",
+        "transcription": "ardʒenˈtato"
     },
     {
         "word": "profondo",
@@ -3604,13 +3953,14 @@
         "femininePlural": "profonde",
         "definitions": [
             {
-                "text": "Definizione di profondo.",
+                "text": "Che si estende molto verso il basso.",
                 "examples": []
             }
         ],
         "subtext": "profondo",
         "comparative": "più profondo",
-        "superlative": "il più profondo"
+        "superlative": "il più profondo",
+        "transcription": "proˈfondo"
     },
     {
         "word": "poco profondo",
@@ -3623,13 +3973,14 @@
         "femininePlural": "poco profonde",
         "definitions": [
             {
-                "text": "Definizione di poco profondo.",
+                "text": "Che ha poca profondità.",
                 "examples": []
             }
         ],
         "subtext": "poco profondo",
         "comparative": "più poco profondo",
-        "superlative": "il più poco profondo"
+        "superlative": "il più poco profondo",
+        "transcription": "ˈpɔko proˈfondo"
     },
     {
         "word": "moderno",
@@ -3642,13 +3993,14 @@
         "femininePlural": "moderne",
         "definitions": [
             {
-                "text": "Definizione di moderno.",
+                "text": "Proprio dei nostri tempi.",
                 "examples": []
             }
         ],
         "subtext": "moderno",
         "comparative": "più moderno",
-        "superlative": "il più moderno"
+        "superlative": "il più moderno",
+        "transcription": "moˈdɛrno"
     },
     {
         "word": "antico",
@@ -3661,13 +4013,14 @@
         "femininePlural": "antiche",
         "definitions": [
             {
-                "text": "Definizione di antico.",
+                "text": "Di tempi molto lontani nel passato.",
                 "examples": []
             }
         ],
         "subtext": "antico",
         "comparative": "più antico",
-        "superlative": "il più antico"
+        "superlative": "il più antico",
+        "transcription": "anˈtiko"
     },
     {
         "word": "coraggioso",
@@ -3680,13 +4033,14 @@
         "femininePlural": "coraggiose",
         "definitions": [
             {
-                "text": "Definizione di coraggioso.",
+                "text": "Che ha coraggio.",
                 "examples": []
             }
         ],
         "subtext": "coraggioso",
         "comparative": "più coraggioso",
-        "superlative": "il più coraggioso"
+        "superlative": "il più coraggioso",
+        "transcription": "koradˈdʒozo"
     },
     {
         "word": "codardo",
@@ -3699,13 +4053,14 @@
         "femininePlural": "codarde",
         "definitions": [
             {
-                "text": "Definizione di codardo.",
+                "text": "Privo di coraggio; vile.",
                 "examples": []
             }
         ],
         "subtext": "codardo",
         "comparative": "più codardo",
-        "superlative": "il più codardo"
+        "superlative": "il più codardo",
+        "transcription": "koˈdardo"
     },
     {
         "word": "largo",
@@ -3718,13 +4073,14 @@
         "femininePlural": "larghe",
         "definitions": [
             {
-                "text": "Definizione di largo.",
+                "text": "Che ha una larghezza notevole.",
                 "examples": []
             }
         ],
         "subtext": "largo",
         "comparative": "più largo",
-        "superlative": "il più largo"
+        "superlative": "il più largo",
+        "transcription": "ˈlarɡo"
     },
     {
         "word": "stretto",
@@ -3737,13 +4093,14 @@
         "femininePlural": "strette",
         "definitions": [
             {
-                "text": "Definizione di stretto.",
+                "text": "Che ha poca larghezza; serrato.",
                 "examples": []
             }
         ],
         "subtext": "stretto",
         "comparative": "più stretto",
-        "superlative": "il più stretto"
+        "superlative": "il più stretto",
+        "transcription": "ˈstretto"
     },
     {
         "word": "poco amichevole",
@@ -3756,13 +4113,14 @@
         "femininePlural": "poco amichevoli",
         "definitions": [
             {
-                "text": "Definizione di poco amichevole.",
+                "text": "Non socievole o cordiale.",
                 "examples": []
             }
         ],
         "subtext": "poco amichevole",
         "comparative": "più poco amichevole",
-        "superlative": "il più poco amichevole"
+        "superlative": "il più poco amichevole",
+        "transcription": "ˈpɔko amiˈkevole"
     },
     {
         "word": "impaziente",
@@ -3775,13 +4133,14 @@
         "femininePlural": "impazienti",
         "definitions": [
             {
-                "text": "Definizione di impaziente.",
+                "text": "Che non sa aspettare.",
                 "examples": []
             }
         ],
         "subtext": "impaziente",
         "comparative": "più impaziente",
-        "superlative": "il più impaziente"
+        "superlative": "il più impaziente",
+        "transcription": "impatˈtsjɛnte"
     },
     {
         "word": "maleducato",
@@ -3794,13 +4153,14 @@
         "femininePlural": "maleducate",
         "definitions": [
             {
-                "text": "Definizione di maleducato.",
+                "text": "Privo di buona educazione.",
                 "examples": []
             }
         ],
         "subtext": "maleducato",
         "comparative": "più maleducato",
-        "superlative": "il più maleducato"
+        "superlative": "il più maleducato",
+        "transcription": "maleduˈkato"
     },
     {
         "word": "falso",
@@ -3813,13 +4173,14 @@
         "femininePlural": "false",
         "definitions": [
             {
-                "text": "Definizione di falso.",
+                "text": "Contrario al vero; non autentico.",
                 "examples": []
             }
         ],
         "subtext": "falso",
         "comparative": "più falso",
-        "superlative": "il più falso"
+        "superlative": "il più falso",
+        "transcription": "ˈfalso"
     },
     {
         "word": "sfortunato",
@@ -3832,14 +4193,61 @@
         "femininePlural": "sfortunate",
         "definitions": [
             {
-                "text": "Definizione di sfortunato.",
+                "text": "Che non ha fortuna.",
                 "examples": []
             }
         ],
         "subtext": "sfortunato",
         "comparative": "più sfortunato",
-        "superlative": "il più sfortunato"
+        "superlative": "il più sfortunato",
+        "transcription": "sfortuˈnato"
     },
+    {
+        "word": "simpatico",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "feminine": "simpatica",
+        "plural": "simpatici",
+        "femininePlural": "simpatiche",
+        "definitions": [
+            {
+                "text": "Che suscita simpatia.",
+                "examples": [
+                    "Il mio collega è molto simpatico.",
+                    "Una persona simpatica."
+                ]
+            }
+        ],
+        "subtext": "molto simpatico",
+        "opposite": "antipatico",
+        "oppositeEmoji": "😒",
+        "transcription": "simˈpatiko"
+    },
+    {
+        "word": "antipatico",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😒",
+        "form": "adjective",
+        "feminine": "antipatica",
+        "plural": "antipatici",
+        "femininePlural": "antipatiche",
+        "definitions": [
+            {
+                "text": "Che suscita antipatia.",
+                "examples": [
+                    "Quel ragazzo è antipatico.",
+                    "Un comportamento antipatico."
+                ]
+            }
+        ],
+        "subtext": "piuttosto antipatico",
+        "opposite": "simpatico",
+        "oppositeEmoji": "😊",
+        "transcription": "antiˈpatiko"
+    }
 ];
     const lang = "it";
     window.adjectivesData = window.adjectivesData || {};
