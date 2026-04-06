@@ -5,14 +5,13 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏢",
-        "subtext": "abitare a Roma / abitare in via...",
+        "subtext": "abitare a Roma",
         "transcription": "abiˈtare",
         "definitions": [
             {
                 "text": "Vivere in un determinato luogo.",
                 "examples": [
-                    "Abito a Milano da due anni.",
-                    "Dove abiti?"
+                    "Abito a Milano da due anni."
                 ]
             }
         ],
@@ -26,13 +25,13 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "addebitare sul conto",
+        "subtext": "addebitare trecento euro",
         "transcription": "addebiˈtare",
         "definitions": [
             {
-                "text": "Chiedere una somma di denaro per un servizio.",
+                "text": "Chiedere denaro.",
                 "examples": [
-                    "Il meccanico ha addebitato trecento euro."
+                    "Il meccanico ha addebitato."
                 ]
             }
         ],
@@ -42,17 +41,77 @@
         "auxiliary": "avere"
     },
     {
+        "word": "affittare",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏠",
+        "subtext": "affittare una stanza",
+        "transcription": "affitˈtare",
+        "definitions": [
+            {
+                "text": "Pagare per usare casa.",
+                "examples": [
+                    "Affittiamo in città."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "affittato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "aggiungere",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➕",
+        "subtext": "aggiungere zucchero",
+        "transcription": "adˈdʒundʒere",
+        "definitions": [
+            {
+                "text": "Mettere insieme.",
+                "examples": [
+                    "Aggiungi zucchero."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "aggiunto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "aiutare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "subtext": "aiutare i colleghi",
+        "transcription": "ajuˈtare",
+        "definitions": [
+            {
+                "text": "Aiutare qualcuno.",
+                "examples": [
+                    "Aiuta i colleghi."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "aiutato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "alzarsi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "subtext": "alzarsi presto",
+        "subtext": "alzarsi alle sette",
         "transcription": "alˈtsarsi",
         "definitions": [
             {
-                "text": "Alzarsi dal letto dopo essersi svegliati.",
+                "text": "Alzarsi dal letto.",
                 "examples": [
-                    "Si alza alle sette e fa subito il caffè."
+                    "Si alza alle sette."
                 ]
             }
         ],
@@ -66,14 +125,13 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "amare qualcuno / amare fare qualcosa",
+        "subtext": "amare viaggiare",
         "transcription": "aˈmare",
         "definitions": [
             {
-                "text": "Avere un forte affetto per; godere grandemente.",
+                "text": "Avere un forte affetto per.",
                 "examples": [
-                    "Lei ama il suo lavoro.",
-                    "Lui ama viaggiare."
+                    "Lei ama il suo lavoro."
                 ]
             }
         ],
@@ -83,17 +141,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "andare",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🚶",
+        "subtext": "andare all estero",
+        "transcription": "anˈdare",
+        "definitions": [
+            {
+                "text": "Spostarsi.",
+                "examples": [
+                    "Vado al lavoro."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "andato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
         "word": "andare a letto",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "subtext": "andare a letto tardi",
+        "subtext": "andare a letto presto",
         "transcription": "anˈdaːre a ˈlɛtto",
         "definitions": [
             {
-                "text": "Mettersi a letto per dormire.",
+                "text": "Mettersi a letto.",
                 "examples": [
-                    "Vanno a letto alle undici ogni sera."
+                    "Vanno a letto alle undici."
                 ]
             }
         ],
@@ -103,17 +181,56 @@
         "auxiliary": "essere"
     },
     {
+        "word": "annullare",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "❌",
+        "subtext": "annullare il volo",
+        "transcription": "annulˈlaːre",
+        "definitions": [
+            {
+                "text": "Non avverrà.",
+                "examples": [
+                    "Ha dovuto annullare."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "annullato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "appartenere",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📎",
+        "subtext": "appartenere al dipartimento",
+        "transcription": "apparteˈneːre",
+        "definitions": [
+            {
+                "text": "Di proprietà.",
+                "examples": [
+                    "Quel conto appartiene."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "appartenuto",
+        "group": "ere",
+        "auxiliary": "essere"
+    },
+    {
         "word": "arrivare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrivare in ufficio / arrivare in tempo",
+        "subtext": "arrivare in orario",
         "transcription": "arriˈvare",
         "definitions": [
             {
                 "text": "Raggiungere una destinazione.",
                 "examples": [
-                    "Lui arriva in ufficio alle nove.",
                     "Il treno arriva in ritardo."
                 ]
             }
@@ -124,17 +241,36 @@
         "auxiliary": "essere"
     },
     {
+        "word": "ascoltare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎧",
+        "subtext": "ascoltare musica",
+        "transcription": "askolˈtare",
+        "definitions": [
+            {
+                "text": "Prestare attenzione.",
+                "examples": [
+                    "Ascolto podcast."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "ascoltato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "aspettare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "aspettare l autobus",
+        "subtext": "aspettare un amico",
         "transcription": "aspeˈttare",
         "definitions": [
             {
-                "text": "Stare in un posto finché non succede qualcosa.",
+                "text": "Stare in un posto.",
                 "examples": [
-                    "Aspetta l autobus qui.",
                     "Sto aspettando il mio amico."
                 ]
             }
@@ -145,24 +281,23 @@
         "auxiliary": "avere"
     },
     {
-        "word": "avere",
+        "word": "assaggiare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "👜",
-        "subtext": "avere un appuntamento",
-        "transcription": "aˈvere",
+        "theme": "tastes_textures_A1",
+        "emoji": "👅",
+        "subtext": "assaggiare la zuppa",
+        "transcription": "assadˈdʒare",
         "definitions": [
             {
-                "text": "Possedere qualcosa; provare qualcosa.",
+                "text": "Sentire sapore.",
                 "examples": [
-                    "Ho un lavoro.",
-                    "Lei ha mal di testa."
+                    "Assaggia questa zuppa."
                 ]
             }
         ],
-        "classification": "irregular",
-        "v3": "avuto",
-        "group": "ere",
+        "classification": "regular",
+        "v3": "assaggiato",
+        "group": "are",
         "auxiliary": "avere"
     },
     {
@@ -170,14 +305,13 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "avere bisogno di qualcosa",
+        "subtext": "bisogno di tempo",
         "transcription": "aˈveːre biˈzoɲɲo di",
         "definitions": [
             {
                 "text": "Richiedere qualcosa.",
                 "examples": [
-                    "Ho bisogno di una pausa.",
-                    "Lei ha bisogno di più tempo."
+                    "Ho bisogno di una pausa."
                 ]
             }
         ],
@@ -191,14 +325,13 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "ballare il tango",
+        "subtext": "ballare insieme",
         "transcription": "balˈlare",
         "definitions": [
             {
-                "text": "Muovere il corpo a tempo di musica.",
+                "text": "Muovere il corpo a tempo.",
                 "examples": [
-                    "Amo ballare.",
-                    "Stanno ballando."
+                    "Amo ballare."
                 ]
             }
         ],
@@ -212,11 +345,11 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "❌",
-        "subtext": "barrare la casella",
+        "subtext": "barrare la risposta",
         "transcription": "barˈraːre",
         "definitions": [
             {
-                "text": "Mettere un segno (X) accanto a qualcosa per mostrare che è sbagliato.",
+                "text": "Mettere un segno (X).",
                 "examples": [
                     "Barra la risposta sbagliata."
                 ]
@@ -232,14 +365,13 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
-        "subtext": "bere acqua",
+        "subtext": "bere caffè",
         "transcription": "ˈbere",
         "definitions": [
             {
-                "text": "Ingoiare del liquido.",
+                "text": "Ingoiare liquido.",
                 "examples": [
-                    "Lei beve caffè ogni mattina.",
-                    "Bevo acqua al lavoro."
+                    "Bevo acqua."
                 ]
             }
         ],
@@ -247,6 +379,26 @@
         "v3": "bevuto",
         "group": "ere",
         "auxiliary": "avere"
+    },
+    {
+        "word": "cadere",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "🍂",
+        "subtext": "le foglie cadono",
+        "transcription": "kaˈdeːre",
+        "definitions": [
+            {
+                "text": "Muoversi verso il basso.",
+                "examples": [
+                    "Le foglie cadono."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "caduto",
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "calciare",
@@ -257,7 +409,7 @@
         "transcription": "kalˈtʃaːre",
         "definitions": [
             {
-                "text": "Colpire qualcosa con il piede.",
+                "text": "Colpire con il piede.",
                 "examples": [
                     "Calcia la palla!"
                 ]
@@ -273,14 +425,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
-        "subtext": "cambiare i vestiti / cambiare idea",
+        "subtext": "cambiare piano",
         "transcription": "kamˈbjaːre",
         "definitions": [
             {
-                "text": "Rendere qualcosa diverso.",
+                "text": "Rendere diverso.",
                 "examples": [
-                    "Voglio cambiare i miei vestiti.",
-                    "Il tempo cambia velocemente."
+                    "Voglio cambiare i vestiti."
                 ]
             }
         ],
@@ -290,17 +441,36 @@
         "auxiliary": "avere"
     },
     {
+        "word": "camminare",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚶",
+        "subtext": "camminare verso casa",
+        "transcription": "kammiˈnaːre",
+        "definitions": [
+            {
+                "text": "Muoversi a piedi.",
+                "examples": [
+                    "Lui cammina ogni giorno."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "camminato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "cantare",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "cantare una canzone",
+        "subtext": "cantare molto bene",
         "transcription": "kanˈtare",
         "definitions": [
             {
-                "text": "Fare suoni musicali con la voce.",
+                "text": "Suoni musicali con voce.",
                 "examples": [
-                    "Mi piace cantare sotto la doccia.",
                     "Canta molto bene."
                 ]
             }
@@ -315,14 +485,13 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
-        "subtext": "capire un problema / capire qualcuno",
+        "subtext": "capire qualcuno",
         "transcription": "kaˈpire",
         "definitions": [
             {
                 "text": "Afferrare il significato di qualcosa.",
                 "examples": [
-                    "Capisco il contratto.",
-                    "Lei capisce il francese."
+                    "Capisco il contratto."
                 ]
             }
         ],
@@ -332,18 +501,57 @@
         "auxiliary": "avere"
     },
     {
+        "word": "cavalcare",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "subtext": "cavalcare in bicicletta",
+        "transcription": "kavalˈkaːre",
+        "definitions": [
+            {
+                "text": "Viaggiare in sella.",
+                "examples": [
+                    "Vado in bicicletta."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "cavalcato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "cercare",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "subtext": "giocare a nascondino",
+        "transcription": "tʃerˈkare",
+        "definitions": [
+            {
+                "text": "Trovare.",
+                "examples": [
+                    "Stanno giocando."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "cercato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "chiamare",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "chiamare qualcuno / chiamare al telefono",
+        "subtext": "chiamare i clienti",
         "transcription": "kjaˈmare",
         "definitions": [
             {
                 "text": "Telefonare a qualcuno.",
                 "examples": [
-                    "Chiamo i miei clienti ogni mattina.",
-                    "Mi chiami più tardi?"
+                    "Chiamo i miei clienti ogni mattina."
                 ]
             }
         ],
@@ -357,14 +565,13 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "chiedere aiuto / chiedere di",
+        "subtext": "chiedere aiuto",
         "transcription": "ˈkjedere",
         "definitions": [
             {
-                "text": "Porre una domanda a qualcuno; richiedere qualcosa.",
+                "text": "Porre una domanda a qualcuno.",
                 "examples": [
-                    "Lei fa molte domande.",
-                    "Chiedo consiglio al mio capo."
+                    "Lei fa molte domande."
                 ]
             }
         ],
@@ -378,11 +585,11 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🖍️",
-        "subtext": "colorare un disegno",
+        "subtext": "colorare di blu",
         "transcription": "koloˈraːre",
         "definitions": [
             {
-                "text": "Usare una penna o una matita per mettere il colore su un'immagine.",
+                "text": "Mettere il colore.",
                 "examples": [
                     "Colora l'immagine di blu."
                 ]
@@ -398,13 +605,13 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "⚔️",
-        "subtext": "combattere contro",
+        "subtext": "combattere per vincere",
         "transcription": "komˈbattere",
         "definitions": [
             {
-                "text": "Usare la forza fisica per cercare di ferire qualcuno o vincere qualcosa.",
+                "text": "Usare la forza fisica.",
                 "examples": [
-                    "I due ragazzi stanno combattendo."
+                    "I ragazzi stanno combattendo."
                 ]
             }
         ],
@@ -418,13 +625,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "cominciare a lavorare",
+        "subtext": "cominciare la riunione",
         "transcription": "kominˈtʃaːre",
         "definitions": [
             {
-                "text": "Iniziare a fare qualcosa.",
+                "text": "Iniziare.",
                 "examples": [
-                    "Cominciamo la riunione alle nove."
+                    "Cominciamo alle nove."
                 ]
             }
         ],
@@ -442,7 +649,7 @@
         "transcription": "kompiˈtaːre",
         "definitions": [
             {
-                "text": "Dire o scrivere le lettere di una parola nell'ordine corretto.",
+                "text": "Dire le lettere.",
                 "examples": [
                     "Come si compita il tuo nome?"
                 ]
@@ -458,14 +665,13 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
-        "subtext": "comprare il giornale",
+        "subtext": "comprare cibo",
         "transcription": "komˈprare",
         "definitions": [
             {
-                "text": "Ottenere qualcosa pagando denaro.",
+                "text": "Ottenere pagando.",
                 "examples": [
-                    "Lei compra la spesa online.",
-                    "Lui vuole comprare un appartamento."
+                    "Lei compra online."
                 ]
             }
         ],
@@ -479,14 +685,13 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "condividere un pasto",
+        "subtext": "condividere un idea",
         "transcription": "kondiˈviːdere",
         "definitions": [
             {
-                "text": "Dare una parte di qualcosa ad altri.",
+                "text": "Dare una parte.",
                 "examples": [
-                    "Condividiamo la pizza.",
-                    "Condivido la stanza con mio fratello."
+                    "Condividiamo la pizza."
                 ]
             }
         ],
@@ -500,14 +705,13 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤝",
-        "subtext": "conoscere gente nuova",
+        "subtext": "conoscere la città",
         "transcription": "koˈnoʃʃere",
         "definitions": [
             {
-                "text": "Avere familiarità con una persona, un luogo o una cosa.",
+                "text": "Avere familiarità.",
                 "examples": [
-                    "Conosco bene questa città.",
-                    "Piacere di conoscerti!"
+                    "Conosco bene la città."
                 ]
             }
         ],
@@ -521,13 +725,13 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "consigliare un ristorante",
+        "subtext": "consigliare un film",
         "transcription": "konsiʎˈʎaːre",
         "definitions": [
             {
-                "text": "Suggerire qualcosa come buono o adatto.",
+                "text": "Suggerire.",
                 "examples": [
-                    "Puoi consigliare un buon ristorante vicino all ufficio?"
+                    "Puoi consigliare un ristorante?"
                 ]
             }
         ],
@@ -537,17 +741,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "contare",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "emoji": "🔢",
+        "subtext": "contare da uno a dieci",
+        "transcription": "konˈtare",
+        "definitions": [
+            {
+                "text": "Dire i numeri.",
+                "examples": [
+                    "Puoi contare?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "contato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "continuare",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continuare a leggere",
+        "subtext": "continuare a lavorare",
         "transcription": "kontiˈnwaːre",
         "definitions": [
             {
-                "text": "Continuare a fare qualcosa senza fermarsi.",
+                "text": "Non fermarsi.",
                 "examples": [
-                    "Ha continuato a lavorare dopo le sei."
+                    "Ha continuato alle sei."
                 ]
             }
         ],
@@ -557,18 +781,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "controllare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✅",
+        "subtext": "controllare le email",
+        "transcription": "kontrolˈlaːre",
+        "definitions": [
+            {
+                "text": "Esaminare.",
+                "examples": [
+                    "Controllo le email."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "controllato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "correre",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "correre veloce",
+        "subtext": "correre nel parco",
         "transcription": "ˈkorrere",
         "definitions": [
             {
-                "text": "Muoversi molto velocemente sulle gambe.",
+                "text": "Muoversi velocemente.",
                 "examples": [
-                    "Corro nel parco.",
-                    "Lui corre per prendere l autobus."
+                    "Corro nel parco."
                 ]
             }
         ],
@@ -578,15 +821,75 @@
         "auxiliary": "avere"
     },
     {
+        "word": "costare",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "quanto costa?",
+        "transcription": "kosˈtaːre",
+        "definitions": [
+            {
+                "text": "Avere un prezzo.",
+                "examples": [
+                    "L appartamento costa molto."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "costato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "costruire",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🏗️",
+        "subtext": "costruire una carriera",
+        "transcription": "kostruˈiːre",
+        "definitions": [
+            {
+                "text": "Costruire o sviluppare.",
+                "examples": [
+                    "Ha costruito una reputazione."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "costruito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "creare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🎨",
+        "subtext": "creare siti web",
+        "transcription": "kreˈaːre",
+        "definitions": [
+            {
+                "text": "Fare nuovo.",
+                "examples": [
+                    "Lei crea siti."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "creato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "credere",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🙏",
-        "subtext": "credere alle favole",
+        "subtext": "ti credo",
         "transcription": "ˈkreːdere",
         "definitions": [
             {
-                "text": "Pensare che qualcosa sia vero.",
+                "text": "Pensare che sia vero.",
                 "examples": [
                     "Ti credo."
                 ]
@@ -598,18 +901,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "crescere",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📈",
+        "subtext": "crescere del venti percento",
+        "transcription": "ˈkreʃʃere",
+        "definitions": [
+            {
+                "text": "Aumentare dimensioni.",
+                "examples": [
+                    "L azienda è cresciuta."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "cresciuto",
+        "group": "ere",
+        "auxiliary": "essere"
+    },
+    {
         "word": "cucinare",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "cucinare la cena",
+        "subtext": "cucinare per la squadra",
         "transcription": "kutʃiˈnaːre",
         "definitions": [
             {
-                "text": "Preparare il cibo usando il calore.",
+                "text": "Preparare il cibo.",
                 "examples": [
-                    "Lei cucina la cena ogni sera.",
-                    "Lui cucina per la squadra."
+                    "Lei cucina la cena."
                 ]
             }
         ],
@@ -623,14 +945,13 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "subtext": "dare un bacio / dare una mano",
+        "subtext": "dare consigli",
         "transcription": "ˈdare",
         "definitions": [
             {
-                "text": "Consegnare o trasferire qualcosa a qualcuno.",
+                "text": "Consegnare.",
                 "examples": [
-                    "Lui mi dà un sacco di lavoro.",
-                    "Lei dà consigli."
+                    "Lui mi dà lavoro."
                 ]
             }
         ],
@@ -640,17 +961,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "dimenticare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🤔",
+        "subtext": "dimenticare il nome",
+        "transcription": "dimenˈtikare",
+        "definitions": [
+            {
+                "text": "Mancare di ricordare.",
+                "examples": [
+                    "Non dimenticare la riunione."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "dimenticato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "dipingere",
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
-        "subtext": "dipingere un quadro",
+        "subtext": "dipingere fiori",
         "transcription": "diˈpindʒere",
         "definitions": [
             {
-                "text": "Fare un'immagine usando la pittura.",
+                "text": "Usare la pittura.",
                 "examples": [
-                    "Mi piace dipingere fiori."
+                    "Mi piace dipingere."
                 ]
             }
         ],
@@ -664,14 +1005,13 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "dire la verità / dire a qualcuno",
+        "subtext": "dire la verità",
         "transcription": "ˈdire",
         "definitions": [
             {
                 "text": "Dare informazioni a qualcuno.",
                 "examples": [
-                    "Dice la verità.",
-                    "Lei mi racconta della sua giornata."
+                    "Dice la verità."
                 ]
             }
         ],
@@ -685,20 +1025,59 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "disegnare un volto / disegnare una linea",
+        "subtext": "disegnare una mappa",
         "transcription": "dizeɲˈɲaːre",
         "definitions": [
             {
-                "text": "Fare un immagine con una penna o una matita.",
+                "text": "Fare un immagine.",
                 "examples": [
-                    "Mi piace disegnare uccelli.",
-                    "Puoi disegnare una mappa?"
+                    "Mi piace disegnare uccelli."
                 ]
             }
         ],
         "classification": "regular",
         "v3": "disegnato",
         "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "diventare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✨",
+        "subtext": "diventare popolare",
+        "transcription": "divenˈtaːre",
+        "definitions": [
+            {
+                "text": "Iniziare a essere.",
+                "examples": [
+                    "È diventata manager."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "diventato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "dormire",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "😴",
+        "subtext": "dormire male",
+        "transcription": "dorˈmire",
+        "definitions": [
+            {
+                "text": "Riposare incosciente.",
+                "examples": [
+                    "Lui dorme sette ore."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "dormito",
+        "group": "ire",
         "auxiliary": "avere"
     },
     {
@@ -710,10 +1089,9 @@
         "transcription": "doˈveːre",
         "definitions": [
             {
-                "text": "Essere obbligato a fare qualcosa; essere tenuti a pagare.",
+                "text": "Essere obbligato.",
                 "examples": [
-                    "Deve alla banca cinquantamila euro.",
-                    "Devo andare adesso."
+                    "Deve alla banca."
                 ]
             }
         ],
@@ -723,19 +1101,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "esercitarsi",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏋️",
+        "subtext": "esercitarsi in palestra",
+        "transcription": "ezertʃiˈtarsi",
+        "definitions": [
+            {
+                "text": "Attività fisica.",
+                "examples": [
+                    "Mi esercito ogni mattina."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "esercitato",
+        "group": "riflessivo",
+        "auxiliary": "essere"
+    },
+    {
         "word": "essere",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👤",
-        "subtext": "essere felice",
+        "subtext": "essere medico",
         "transcription": "ˈɛssere",
         "definitions": [
             {
-                "text": "Esistere; avere una qualità o uno stato.",
+                "text": "Esistere.",
                 "examples": [
-                    "Sono stanco.",
-                    "Lei è un medico.",
-                    "Siamo in ritardo."
+                    "Sono stanco."
                 ]
             }
         ],
@@ -749,13 +1145,13 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "subtext": "mi fa male la testa",
+        "subtext": "mi fa male la schiena",
         "transcription": "ˈfar ˈmaːle",
         "definitions": [
             {
-                "text": "Causare dolore; o sentire dolore.",
+                "text": "Sentire dolore.",
                 "examples": [
-                    "Mi fa male la schiena dopo essere stato seduto tutto il giorno."
+                    "Mi fa male la schiena."
                 ]
             }
         ],
@@ -769,14 +1165,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "fare colazione / fare sport",
+        "subtext": "fare un errore",
         "transcription": "ˈfare",
         "definitions": [
             {
-                "text": "Creare o produrre qualcosa; compiere un azione.",
+                "text": "Creare o compiere.",
                 "examples": [
-                    "Faccio il caffè al mattino.",
-                    "Lei fa la spesa."
+                    "Faccio il caffè."
                 ]
             }
         ],
@@ -790,13 +1185,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🍳",
-        "subtext": "fare colazione al bar",
+        "subtext": "fare colazione a casa",
         "transcription": "ˈfaːre kolaˈttsjoːne",
         "definitions": [
             {
-                "text": "Fare il pasto del mattino.",
+                "text": "Pasto del mattino.",
                 "examples": [
-                    "Fa sempre colazione prima di uscire di casa."
+                    "Fa sempre colazione."
                 ]
             }
         ],
@@ -806,18 +1201,57 @@
         "auxiliary": "avere"
     },
     {
+        "word": "fare il pendolare",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🚆",
+        "subtext": "pendolare in treno",
+        "transcription": "ˈfaːre il pendoˈlaːre",
+        "definitions": [
+            {
+                "text": "Viaggiare per lavoro.",
+                "examples": [
+                    "Faccio il pendolare."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "fatto il pendolare",
+        "group": "locution",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "fare le valigie",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🎒",
+        "subtext": "preparare le valigie",
+        "transcription": "ˈfaːre le vaˈliːdʒe",
+        "definitions": [
+            {
+                "text": "Mettere oggetti in borsa.",
+                "examples": [
+                    "Fa le valigie."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "fatto le valigie",
+        "group": "locution",
+        "auxiliary": "avere"
+    },
+    {
         "word": "fermare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "fermare la macchina",
+        "subtext": "fermare qualcuno",
         "transcription": "ferˈmaːre",
         "definitions": [
             {
-                "text": "Finire di fare qualcosa o non muoversi più.",
+                "text": "Finire di fare.",
                 "examples": [
-                    "Ferma la macchina.",
-                    "Per favore smetti di parlare."
+                    "Ferma la macchina."
                 ]
             }
         ],
@@ -831,13 +1265,13 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
-        "subtext": "festeggiare il compleanno",
+        "subtext": "festeggiare il successo",
         "transcription": "festedˈdʒare",
         "definitions": [
             {
-                "text": "Fare qualcosa di piacevole per un occasione speciale.",
+                "text": "Occasione speciale.",
                 "examples": [
-                    "Festeggiano ogni anniversario di lavoro insieme."
+                    "Festeggiano insieme."
                 ]
             }
         ],
@@ -851,14 +1285,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finire il lavoro",
+        "subtext": "finire presto",
         "transcription": "fiˈnire",
         "definitions": [
             {
-                "text": "Completare qualcosa; giungere al termine.",
+                "text": "Completare.",
                 "examples": [
-                    "Lui finisce il lavoro alle cinque.",
-                    "Lei finisce il rapporto."
+                    "Lui finisce alle cinque."
                 ]
             }
         ],
@@ -868,18 +1301,57 @@
         "auxiliary": "avere"
     },
     {
+        "word": "gestire",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "subtext": "gestire un team",
+        "transcription": "dʒesˈtiːre",
+        "definitions": [
+            {
+                "text": "Responsabile di persone.",
+                "examples": [
+                    "Gestisce un team."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "gestito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "giocare",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "subtext": "giocare ai videogiochi",
+        "transcription": "dʒoˈkare",
+        "definitions": [
+            {
+                "text": "Divertimento.",
+                "examples": [
+                    "Gioco a calcio."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "giocato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "girare",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "girare a sinistra",
+        "subtext": "girare a destra",
         "transcription": "dʒiˈraːre",
         "definitions": [
             {
-                "text": "Muoversi in una direzione; cambiare stato.",
+                "text": "Muoversi in direzione.",
                 "examples": [
-                    "Gira a sinistra all ufficio.",
-                    "Lei spegne la luce."
+                    "Gira a sinistra."
                 ]
             }
         ],
@@ -893,14 +1365,13 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "godere di / godere della vista",
+        "subtext": "godere del sole",
         "transcription": "ɡoˈdeːre",
         "definitions": [
             {
                 "text": "Trarre piacere da qualcosa.",
                 "examples": [
-                    "Gode di lavorare da casa.",
-                    "Lei gode del suo nuovo ruolo."
+                    "Gode di lavorare da casa."
                 ]
             }
         ],
@@ -918,7 +1389,7 @@
         "transcription": "ɡriˈdaːre",
         "definitions": [
             {
-                "text": "Dire qualcosa a voce molto alta.",
+                "text": "Dire qualcosa a voce alta.",
                 "examples": [
                     "Non gridare in classe."
                 ]
@@ -934,13 +1405,13 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💶",
-        "subtext": "guadagnare bene",
+        "subtext": "guadagnare uno stipendio",
         "transcription": "ɡwadaɲˈɲare",
         "definitions": [
             {
-                "text": "Ricevere denaro per il lavoro svolto.",
+                "text": "Ricevere denaro.",
                 "examples": [
-                    "Guadagna un buon stipendio come project manager."
+                    "Guadagna bene."
                 ]
             }
         ],
@@ -954,14 +1425,13 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "guardare la televisione",
+        "subtext": "guardare la foto",
         "transcription": "ɡwarˈdare",
         "definitions": [
             {
-                "text": "Dirigere gli occhi verso qualcosa.",
+                "text": "Dirigere gli occhi.",
                 "examples": [
-                    "Guarda questa foto.",
-                    "Lui sta cercando le sue chiavi."
+                    "Guarda questa foto."
                 ]
             }
         ],
@@ -975,13 +1445,13 @@
         "level": "starter",
         "theme": "medical_appointments_A1",
         "emoji": "🩹",
-        "subtext": "guarire presto",
+        "subtext": "guarire completamente",
         "transcription": "ɡwaˈriːre",
         "definitions": [
             {
-                "text": "Tornare in buona salute dopo una malattia o un infortunio.",
+                "text": "Tornare in salute.",
                 "examples": [
-                    "Sta guarendo da un infortunio alla schiena."
+                    "Sta guarendo."
                 ]
             }
         ],
@@ -995,14 +1465,13 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "guidare con prudenza",
+        "subtext": "guidare la macchina",
         "transcription": "ɡwiˈdare",
         "definitions": [
             {
                 "text": "Azionare un veicolo.",
                 "examples": [
-                    "Lei guida verso il lavoro.",
-                    "Lui guida un auto aziendale."
+                    "Lei guida verso il lavoro."
                 ]
             }
         ],
@@ -1012,15 +1481,75 @@
         "auxiliary": "avere"
     },
     {
+        "word": "imparare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📚",
+        "subtext": "imparare l italiano",
+        "transcription": "impaˈraːre",
+        "definitions": [
+            {
+                "text": "Ottenere conoscenza.",
+                "examples": [
+                    "Voglio imparare l italiano."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "imparato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "includere",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "➕",
+        "subtext": "include la colazione",
+        "transcription": "inˈkluːdere",
+        "definitions": [
+            {
+                "text": "Rendere parte.",
+                "examples": [
+                    "Il prezzo include tutto."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "incluso",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "incontrare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "subtext": "incontriamo ogni venerdì",
+        "transcription": "inkonˈtraːre",
+        "definitions": [
+            {
+                "text": "Vedere per prima volta.",
+                "examples": [
+                    "Ci incontriamo."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "incontrato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "indicare",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "☝️",
-        "subtext": "indicare la direzione",
+        "subtext": "indicare la finestra",
         "transcription": "indiˈkaːre",
         "definitions": [
             {
-                "text": "Mostrare qualcosa tenendo il dito verso di esso.",
+                "text": "Mostrare con il dito.",
                 "examples": [
                     "Indica la finestra."
                 ]
@@ -1036,14 +1565,13 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "subtext": "indossare la giacca",
+        "subtext": "indossare gli occhiali",
         "transcription": "indosˈsaːre",
         "definitions": [
             {
-                "text": "Avere vestiti o accessori sul corpo.",
+                "text": "Avere addosso.",
                 "examples": [
-                    "Lei indossa un completo per il lavoro.",
-                    "Lui indossa gli occhiali."
+                    "Lei indossa un completo."
                 ]
             }
         ],
@@ -1057,14 +1585,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "iniziare a studiare",
+        "subtext": "iniziare un nuovo lavoro",
         "transcription": "initˈtsjare",
         "definitions": [
             {
-                "text": "Iniziare a fare qualcosa.",
+                "text": "Iniziare.",
                 "examples": [
-                    "Inizio a lavorare alle otto e mezza.",
-                    "Lei inizia un nuovo lavoro."
+                    "Inizio alle otto."
                 ]
             }
         ],
@@ -1074,17 +1601,57 @@
         "auxiliary": "avere"
     },
     {
+        "word": "insegnare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "👨‍🏫",
+        "subtext": "insegnare inglese",
+        "transcription": "inseɲˈɲaːre",
+        "definitions": [
+            {
+                "text": "Dare conoscenza.",
+                "examples": [
+                    "Insegno inglese."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "insegnato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "inviare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✉️",
+        "subtext": "inviare un messaggio",
+        "transcription": "inviˈaːre",
+        "definitions": [
+            {
+                "text": "Far andare in posto.",
+                "examples": [
+                    "Invio un email."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "inviato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "invitare",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "✉️",
-        "subtext": "invitare a cena",
+        "subtext": "invitare gli amici",
         "transcription": "inviˈtaːre",
         "definitions": [
             {
-                "text": "Chiedere a qualcuno di venire in un posto o a un evento.",
+                "text": "Chiedere di venire.",
                 "examples": [
-                    "Invito gli amici a cena."
+                    "Invito gli amici."
                 ]
             }
         ],
@@ -1102,7 +1669,7 @@
         "transcription": "lanˈtʃaːre",
         "definitions": [
             {
-                "text": "Far muovere qualcosa nell'aria spingendolo dalla mano.",
+                "text": "Far muovere nell'aria.",
                 "examples": [
                     "Puoi lanciarmi la palla?"
                 ]
@@ -1118,14 +1685,13 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "lavare i piatti",
+        "subtext": "lavare i vestiti",
         "transcription": "laˈvaːre",
         "definitions": [
             {
-                "text": "Pulire qualcosa con l acqua.",
+                "text": "Pulire con acqua.",
                 "examples": [
-                    "Lava la sua macchina ogni domenica.",
-                    "Lavati le mani."
+                    "Lava la macchina."
                 ]
             }
         ],
@@ -1139,20 +1705,39 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "lavorare in ufficio / lavorare sodo",
+        "subtext": "lavorare a tempo pieno",
         "transcription": "lavoˈrare",
         "definitions": [
             {
-                "text": "Svolgere compiti per guadagnare denaro.",
+                "text": "Svolgere compiti.",
                 "examples": [
-                    "Lavora da casa tre giorni a settimana.",
-                    "Lei lavora sodo."
+                    "Lavora da casa."
                 ]
             }
         ],
         "classification": "regular",
         "v3": "lavorato",
         "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "leggere",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "leggere le notizie",
+        "transcription": "ˈlɛddʒere",
+        "definitions": [
+            {
+                "text": "Capire parole scritte.",
+                "examples": [
+                    "Lei legge le notizie."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "letto",
+        "group": "ere",
         "auxiliary": "avere"
     },
     {
@@ -1164,9 +1749,9 @@
         "transcription": "manˈdare un ɛsse-ɛmme-ɛsse",
         "definitions": [
             {
-                "text": "Inviare un messaggio da un telefono cellulare.",
+                "text": "Inviare messaggio.",
                 "examples": [
-                    "Mandami un SMS quando arrivi."
+                    "Mandami un SMS."
                 ]
             }
         ],
@@ -1180,14 +1765,13 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "mangiare sano",
+        "subtext": "mangiare a tavola",
         "transcription": "manˈdʒare",
         "definitions": [
             {
-                "text": "Mettere cibo in bocca e consumarlo.",
+                "text": "Consumare cibo.",
                 "examples": [
-                    "Mangiamo il pranzo all una.",
-                    "Lei mangia alla sua scrivania."
+                    "Mangiamo all una."
                 ]
             }
         ],
@@ -1201,14 +1785,13 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "mettere in ordine",
+        "subtext": "mettere in banca",
         "transcription": "ˈmettere",
         "definitions": [
             {
-                "text": "Mettere qualcosa in una posizione.",
+                "text": "Mettere in posizione.",
                 "examples": [
-                    "Metti la borsa qui.",
-                    "Lei mette i soldi in banca."
+                    "Metti la borsa qui."
                 ]
             }
         ],
@@ -1218,18 +1801,57 @@
         "auxiliary": "avere"
     },
     {
+        "word": "migliorare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📈",
+        "subtext": "voglio migliorare",
+        "transcription": "miʎʎoˈraːre",
+        "definitions": [
+            {
+                "text": "Rendere migliore.",
+                "examples": [
+                    "Voglio migliorare il mio italiano."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "migliorato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "morire",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "⚰️",
+        "subtext": "morire di freddo",
+        "transcription": "moˈriːre",
+        "definitions": [
+            {
+                "text": "Smettere di vivere.",
+                "examples": [
+                    "Le piante muoiono."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "morto",
+        "group": "ire",
+        "auxiliary": "essere"
+    },
+    {
         "word": "mostrare",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
-        "subtext": "mostrare a qualcuno / mostrare come",
+        "subtext": "mostrare la mappa",
         "transcription": "mosˈtrare",
         "definitions": [
             {
-                "text": "Lasciare che qualcuno veda qualcosa; spiegare.",
+                "text": "Lasciare che qualcuno veda qualcosa.",
                 "examples": [
-                    "Lei mi mostra la mappa.",
-                    "Lui mostra il suo lavoro."
+                    "Lei mi mostra la mappa."
                 ]
             }
         ],
@@ -1243,14 +1865,13 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "muovere i primi passi",
+        "subtext": "muovere velocemente",
         "transcription": "ˈmwɔːvere",
         "definitions": [
             {
-                "text": "Cambiare posizione; spostare.",
+                "text": "Spostare.",
                 "examples": [
-                    "Si sono mossi velocemente.",
-                    "Lei si sposta in un team diverso."
+                    "Si sono mossi."
                 ]
             }
         ],
@@ -1260,17 +1881,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "nascondere",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "subtext": "nascondersi dietro la porta",
+        "transcription": "nasˈkondere",
+        "definitions": [
+            {
+                "text": "Mettere dove non visto.",
+                "examples": [
+                    "Si nasconde."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "nascosto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
         "word": "notare",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👀",
-        "subtext": "notare i dettagli",
+        "subtext": "notare il nuovo ufficio",
         "transcription": "noˈtaːre",
         "definitions": [
             {
-                "text": "Vedere o diventare consapevoli di qualcosa.",
+                "text": "Vedere o accorgersi.",
                 "examples": [
-                    "Hai notato il nuovo ufficio?"
+                    "Hai notato l ufficio?"
                 ]
             }
         ],
@@ -1284,14 +1925,13 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "nuotare in mare / nuotare in piscina",
+        "subtext": "nuotare ogni mattina",
         "transcription": "nwoˈtaːre",
         "definitions": [
             {
-                "text": "Muoversi attraverso l acqua usando braccia e gambe.",
+                "text": "Muoversi nell acqua.",
                 "examples": [
-                    "Nuoto ogni mattina.",
-                    "Sai nuotare?"
+                    "Nuoto ogni mattina."
                 ]
             }
         ],
@@ -1305,14 +1945,13 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
-        "subtext": "odiare fare / odiare qualcuno",
+        "subtext": "odiare le riunioni",
         "transcription": "oˈdjaːre",
         "definitions": [
             {
                 "text": "Fortemente non gradire.",
                 "examples": [
-                    "Odia fare il pendolare in autobus.",
-                    "Lei odia le lunghe riunioni."
+                    "Odia fare il pendolare."
                 ]
             }
         ],
@@ -1326,14 +1965,13 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "subtext": "odorare un fiore",
+        "subtext": "odorare il caffè",
         "transcription": "odoˈraːre",
         "definitions": [
             {
-                "text": "Notare o riconoscere qualcosa con il naso.",
+                "text": "Riconoscere qualcosa con il naso.",
                 "examples": [
-                    "Sento l'odore del caffè.",
-                    "Odora questo profumo."
+                    "Sento l'odore del caffè."
                 ]
             }
         ],
@@ -1343,17 +1981,56 @@
         "auxiliary": "avere"
     },
     {
+        "word": "ordinare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📦",
+        "subtext": "ordinare il pranzo",
+        "transcription": "ordiˈnare",
+        "definitions": [
+            {
+                "text": "Richiedere formalmente.",
+                "examples": [
+                    "Ordino il pranzo."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "ordinato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "organizzare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📂",
+        "subtext": "organizzare tutte le riunioni",
+        "transcription": "organidˈdzaːre",
+        "definitions": [
+            {
+                "text": "Pianificare.",
+                "examples": [
+                    "Lei organizza."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "organizzato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "ottenere",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "ottenere risultati",
+        "subtext": "ottenere una promozione",
         "transcription": "otteˈnere",
         "definitions": [
             {
-                "text": "Ricevere, ottenere o diventare.",
+                "text": "Ricevere.",
                 "examples": [
-                    "Ottengo un buon stipendio.",
                     "Lei ottiene una promozione."
                 ]
             }
@@ -1364,17 +2041,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "pagare",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💳",
+        "subtext": "pagare con carta",
+        "transcription": "paˈgare",
+        "definitions": [
+            {
+                "text": "Dare denaro.",
+                "examples": [
+                    "Pago l affitto."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "pagato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "partecipare",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
-        "subtext": "partecipare a una riunione",
+        "subtext": "partecipare alla riunione",
         "transcription": "partetʃiˈpare",
         "definitions": [
             {
-                "text": "Andare a un evento o a una riunione.",
+                "text": "Andare a evento.",
                 "examples": [
-                    "Partecipo a una riunione di direzione ogni lunedì."
+                    "Partecipo a riunione."
                 ]
             }
         ],
@@ -1388,14 +2085,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "partire per le vacanze",
+        "subtext": "partire presto",
         "transcription": "parˈtire",
         "definitions": [
             {
-                "text": "Allontanarsi da un luogo.",
+                "text": "Allontanarsi.",
                 "examples": [
-                    "Parto da casa alle otto.",
-                    "Lei è partita l anno scorso."
+                    "Parto alle otto."
                 ]
             }
         ],
@@ -1405,18 +2101,77 @@
         "auxiliary": "essere"
     },
     {
+        "word": "passare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🏔️",
+        "subtext": "passare un esame",
+        "transcription": "pasˈsaːre",
+        "definitions": [
+            {
+                "text": "Oltrepassare o superare.",
+                "examples": [
+                    "Spero di superare il test."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "passato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "pensare",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💭",
+        "subtext": "penso che sia...",
+        "transcription": "penˈsare",
+        "definitions": [
+            {
+                "text": "Usare la mente.",
+                "examples": [
+                    "Penso sia buona idea."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "pensato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "permettersi",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "🏦",
+        "subtext": "permettersi un appartamento",
+        "transcription": "perˈmettersi",
+        "definitions": [
+            {
+                "text": "Avere abbastanza soldi.",
+                "examples": [
+                    "Non possono permettersi."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "permesso",
+        "group": "riflessivo",
+        "auxiliary": "essere"
+    },
+    {
         "word": "piacere",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "mi piace il lavoro / mi piace l idea",
+        "subtext": "mi piace viaggiare",
         "transcription": "pjaˈtʃere",
         "definitions": [
             {
                 "text": "Trovare qualcosa di piacevole.",
                 "examples": [
-                    "Mi piace il mio lavoro.",
-                    "A lui piace il caffè."
+                    "Mi piace il mio lavoro."
                 ]
             }
         ],
@@ -1426,17 +2181,37 @@
         "auxiliary": "essere"
     },
     {
+        "word": "piangere",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "😢",
+        "subtext": "il bambino piange",
+        "transcription": "ˈpjandʒere",
+        "definitions": [
+            {
+                "text": "Produrre lacrime.",
+                "examples": [
+                    "Non piangere."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "pianto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
         "word": "pianificare",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
-        "subtext": "pianificare il futuro",
+        "subtext": "pianificare un viaggio",
         "transcription": "pjanifiˈkare",
         "definitions": [
             {
                 "text": "Decidere cosa farai.",
                 "examples": [
-                    "Stiamo pianificando un viaggio."
+                    "Stiamo pianificando."
                 ]
             }
         ],
@@ -1446,17 +2221,36 @@
         "auxiliary": "avere"
     },
     {
+        "word": "portare",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🎁",
+        "subtext": "portare il pranzo",
+        "transcription": "porˈtare",
+        "definitions": [
+            {
+                "text": "Trasportare.",
+                "examples": [
+                    "Porta il tuo documento."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "portato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "potere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💪",
-        "subtext": "non potere venire",
+        "subtext": "posso aiutarti?",
         "transcription": "poˈtere",
         "definitions": [
             {
-                "text": "Avere la capacità o il permesso di fare qualcosa.",
+                "text": "Avere capacità.",
                 "examples": [
-                    "Posso aiutarti?",
                     "Lei può parlare tre lingue."
                 ]
             }
@@ -1471,13 +2265,13 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
-        "subtext": "preferire il mare",
+        "subtext": "preferire il tè",
         "transcription": "prefeˈriːre",
         "definitions": [
             {
-                "text": "Preferire una cosa a un'altra.",
+                "text": "Scegliere tra due.",
                 "examples": [
-                    "Preferisco il tè al caffè."
+                    "Preferisco il tè."
                 ]
             }
         ],
@@ -1487,17 +2281,77 @@
         "auxiliary": "avere"
     },
     {
+        "word": "prendere",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "👜",
+        "subtext": "prendere l autobus",
+        "transcription": "ˈprɛndere",
+        "definitions": [
+            {
+                "text": "Tenere o usare.",
+                "examples": [
+                    "Prendo l autobus."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "preso",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "prendere in prestito",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📥",
+        "subtext": "prendere in prestito la penna",
+        "transcription": "ˈprɛndere in ˈprɛstito",
+        "definitions": [
+            {
+                "text": "Prendere e restituire.",
+                "examples": [
+                    "Posso prendere in prestito?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "preso in prestito",
+        "group": "locution",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "prenotare",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "📖",
+        "subtext": "prenotare l hotel",
+        "transcription": "prenoˈtare",
+        "definitions": [
+            {
+                "text": "Riservare in anticipo.",
+                "examples": [
+                    "Prenoto gli hotel online."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "prenotato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "preoccuparsi",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
-        "subtext": "preoccuparsi di / preoccuparsi per",
+        "subtext": "non preoccuparti",
         "transcription": "preokkuˈparsi",
         "definitions": [
             {
-                "text": "Pensare a problemi o cose spiacevoli che potrebbero accadere.",
+                "text": "Pensare a problemi.",
                 "examples": [
-                    "Non preoccuparti, andrà tutto bene."
+                    "Non preoccuparti, andrà bene."
                 ]
             }
         ],
@@ -1511,14 +2365,13 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🥘",
-        "subtext": "preparare la tavola",
+        "subtext": "preparare la cena",
         "transcription": "prepaˈraːre",
         "definitions": [
             {
-                "text": "Mettere in ordine o apprestare qualcosa.",
+                "text": "Apprestare qualcosa.",
                 "examples": [
-                    "Lui prepara la cena.",
-                    "Prepariamo il viaggio."
+                    "Lui prepara la cena."
                 ]
             }
         ],
@@ -1532,13 +2385,13 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "presentare un amico",
+        "subtext": "presentarsi all inizio",
         "transcription": "prezenˈtare",
         "definitions": [
             {
-                "text": "Presentare qualcuno a un altra persona.",
+                "text": "Presentare a qualcuno.",
                 "examples": [
-                    "Si è presentata all inizio della riunione."
+                    "Si è presentata."
                 ]
             }
         ],
@@ -1548,15 +2401,135 @@
         "auxiliary": "avere"
     },
     {
+        "word": "prestare",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📤",
+        "subtext": "prestare dei soldi",
+        "transcription": "presˈtaːre",
+        "definitions": [
+            {
+                "text": "Dare temporaneamente.",
+                "examples": [
+                    "Posso prestarti soldi."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "prestato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "provare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎯",
+        "subtext": "provare sodo",
+        "transcription": "proˈvaːre",
+        "definitions": [
+            {
+                "text": "Tentare.",
+                "examples": [
+                    "Provo a fare il meglio."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "provato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "pulire",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧹",
+        "subtext": "pulire la cucina",
+        "transcription": "puˈliːre",
+        "definitions": [
+            {
+                "text": "Rimuovere lo sporco.",
+                "examples": [
+                    "Pulisco il sabato."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "pulito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "restare",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏨",
+        "subtext": "restare in un hotel",
+        "transcription": "resˈtaːre",
+        "definitions": [
+            {
+                "text": "Continuare a essere.",
+                "examples": [
+                    "Resto a casa."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "restato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "ricevere",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📩",
+        "subtext": "ricevere un regalo",
+        "transcription": "riˈtʃeːvere",
+        "definitions": [
+            {
+                "text": "Ottenere da qualcuno.",
+                "examples": [
+                    "Ricevo molta posta."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "ricevuto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "ricordare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "ricordare la scadenza",
+        "transcription": "rikorˈdare",
+        "definitions": [
+            {
+                "text": "Non dimenticare.",
+                "examples": [
+                    "Per favore ricorda."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "ricordato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "ridere",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😂",
-        "subtext": "ridere di cuore",
+        "subtext": "ridere di una battuta",
         "transcription": "ˈriːdere",
         "definitions": [
             {
-                "text": "Fare suoni con la voce perché pensi che qualcosa sia divertente.",
+                "text": "Fare suoni con la voce.",
                 "examples": [
                     "Ridevano della sua battuta."
                 ]
@@ -1572,11 +2545,11 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "rilassarsi sul divano",
+        "subtext": "rilassarsi a casa",
         "transcription": "rilasˈsarsi",
         "definitions": [
             {
-                "text": "Smettere di lavorare e riposare; diventare meno tesi.",
+                "text": "Riposare.",
                 "examples": [
                     "Mi rilasso nel fine settimana."
                 ]
@@ -1596,7 +2569,7 @@
         "transcription": "rimbalˈtsaːre",
         "definitions": [
             {
-                "text": "Muoversi verso l'alto o lontano dopo aver colpito una superficie.",
+                "text": "Muoversi lontano dopo un colpo.",
                 "examples": [
                     "La palla rimbalza."
                 ]
@@ -1608,18 +2581,37 @@
         "auxiliary": "essere"
     },
     {
+        "word": "riparare",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "subtext": "riparare il telefono",
+        "transcription": "ripaˈraːre",
+        "definitions": [
+            {
+                "text": "Aggiustare.",
+                "examples": [
+                    "Puoi riparare il telefono?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "riparato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "ripetere",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "ripetere la frase / ripetere un ordine",
+        "subtext": "ripetere due volte",
         "transcription": "riˈpɛːtere",
         "definitions": [
             {
-                "text": "Dire o fare qualcosa di nuovo.",
+                "text": "Dire di nuovo.",
                 "examples": [
-                    "Per favore ripeti quello.",
-                    "Ha ripetuto l istruzione due volte."
+                    "Per favore ripeti quello."
                 ]
             }
         ],
@@ -1633,13 +2625,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
-        "subtext": "riposare un po",
+        "subtext": "riposare dopo il lavoro",
         "transcription": "ripoˈzaːre",
         "definitions": [
             {
-                "text": "Smettere di lavorare e rilassarsi per recuperare energia.",
+                "text": "Smettere di lavorare.",
                 "examples": [
-                    "Riposa per un ora dopo pranzo ogni giorno."
+                    "Riposa per un ora."
                 ]
             }
         ],
@@ -1649,18 +2641,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "risparmiare",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "risparmiare cento euro",
+        "transcription": "risparˈmjaːre",
+        "definitions": [
+            {
+                "text": "Tenere invece di spendere.",
+                "examples": [
+                    "Risparmia ogni mese."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "risparmiato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "rispondere",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "rispondere a una domanda / rispondere al telefono",
+        "subtext": "rispondere al telefono",
         "transcription": "risˈpondere",
         "definitions": [
             {
-                "text": "Rispondere a una domanda o a una comunicazione.",
+                "text": "Rispondere a una domanda.",
                 "examples": [
-                    "Risponde a tutte le email velocemente.",
-                    "Lei ha risposto al telefono."
+                    "Risponde a tutte le email."
                 ]
             }
         ],
@@ -1674,13 +2685,12 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "rompere il ghiaccio",
+        "subtext": "rompere il vetro",
         "transcription": "ˈrompere",
         "definitions": [
             {
-                "text": "Separare qualcosa in due o più pezzi.",
+                "text": "Separare in pezzi.",
                 "examples": [
-                    "Non rompere il vetro.",
                     "Si è rotto la gamba."
                 ]
             }
@@ -1691,17 +2701,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "saltare",
+        "level": "starter",
+        "theme": "playing_watching_sport_A1",
+        "emoji": "🦘",
+        "subtext": "saltare in alto",
+        "transcription": "salˈtare",
+        "definitions": [
+            {
+                "text": "Spingersi lontano dal suolo.",
+                "examples": [
+                    "Il gatto è saltato."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "saltato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "saltellare",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🐇",
-        "subtext": "saltellare nel prato",
+        "subtext": "saltellare come un coniglio",
         "transcription": "saltelˈlare",
         "definitions": [
             {
                 "text": "Saltare su un piede.",
                 "examples": [
-                    "Puoi saltellare come un coniglio?"
+                    "Puoi saltellare?"
                 ]
             }
         ],
@@ -1715,19 +2745,39 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "subtext": "salutare tutti",
+        "subtext": "salutare con la mano",
         "transcription": "saluˈtare",
         "definitions": [
             {
-                "text": "Muovere la mano da un lato all'altro per dire ciao o arrivederci.",
+                "text": "Dire ciao.",
                 "examples": [
-                    "Saluta il tuo amico con la mano."
+                    "Saluta il tuo amico."
                 ]
             }
         ],
         "classification": "regular",
         "v3": "salutato",
         "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "sapere",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "sapere come fare",
+        "transcription": "saˈpeːre",
+        "definitions": [
+            {
+                "text": "Avere informazioni.",
+                "examples": [
+                    "Conosco il suo nome."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "saputo",
+        "group": "ere",
         "auxiliary": "avere"
     },
     {
@@ -1739,9 +2789,9 @@
         "transcription": "ˈʃeʎʎere",
         "definitions": [
             {
-                "text": "Selezionare tra opzioni.",
+                "text": "Selezionare.",
                 "examples": [
-                    "Ha scelto di lavorare a tempo parziale."
+                    "Ha scelto di lavorare."
                 ]
             }
         ],
@@ -1751,17 +2801,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "scrivere",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "✍️",
+        "subtext": "scrivere un email",
+        "transcription": "ˈskrivere",
+        "definitions": [
+            {
+                "text": "Segni su carta.",
+                "examples": [
+                    "Scrivo email tutto il giorno."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "scritto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
         "word": "sdraiarsi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "subtext": "sdraiarsi sul divano",
+        "subtext": "sdraiarsi sulla spiaggia",
         "transcription": "zdraˈjarsi",
         "definitions": [
             {
-                "text": "Essere in posizione orizzontale su una superficie.",
+                "text": "Posizione orizzontale.",
                 "examples": [
-                    "Mi piace sdraiarmi sulla spiaggia."
+                    "Mi piace sdraiarmi."
                 ]
             }
         ],
@@ -1775,14 +2845,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sedersi a un tavolo",
+        "subtext": "sedersi in ufficio",
         "transcription": "seˈdersi",
         "definitions": [
             {
-                "text": "Prendere posto su una sedia o su un altra superficie.",
+                "text": "Prendere posto.",
                 "examples": [
-                    "Per favore siediti.",
-                    "Mi siedo sul divano."
+                    "Per favore siediti."
                 ]
             }
         ],
@@ -1796,11 +2865,11 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "✅",
-        "subtext": "segnare il punto",
+        "subtext": "segnare la risposta",
         "transcription": "seˈɲɲaːre",
         "definitions": [
             {
-                "text": "Mettere un segno (v) accanto a qualcosa per mostrare che è corretta.",
+                "text": "Mettere un segno.",
                 "examples": [
                     "Segna la risposta corretta."
                 ]
@@ -1816,13 +2885,13 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "seguire le regole",
+        "subtext": "seguire attentamente",
         "transcription": "seˈɡwire",
         "definitions": [
             {
-                "text": "Venire dopo; obbedire a regole o istruzioni.",
+                "text": "Venire dopo o obbedire.",
                 "examples": [
-                    "Per favore segui attentamente le istruzioni. Lui segue le notizie."
+                    "Segui le istruzioni."
                 ]
             }
         ],
@@ -1832,17 +2901,77 @@
         "auxiliary": "avere"
     },
     {
+        "word": "sembrare",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🎭",
+        "subtext": "sembrare felice",
+        "transcription": "semˈbraːre",
+        "definitions": [
+            {
+                "text": "Apparire.",
+                "examples": [
+                    "Sembra molto sicura."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "sembrato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "sentire",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🌡️",
+        "subtext": "sentirsi stanco",
+        "transcription": "senˈtire",
+        "definitions": [
+            {
+                "text": "Provare sensazione.",
+                "examples": [
+                    "Mi sento stanco."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "sentito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "significare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "❔",
+        "subtext": "voler dire",
+        "transcription": "siɲɲifiˈkaːre",
+        "definitions": [
+            {
+                "text": "Avere significato.",
+                "examples": [
+                    "Cosa significa questa clausola?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "significato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
         "word": "sognare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💭",
-        "subtext": "sognare ad occhi aperti",
+        "subtext": "sognare di viaggiare",
         "transcription": "soɲˈɲaːre",
         "definitions": [
             {
-                "text": "Avere immagini o idee in mente durante il sonno.",
+                "text": "Immagini nel sonno.",
                 "examples": [
-                    "Ho sognato una vacanza ieri notte."
+                    "Ho sognato una vacanza."
                 ]
             }
         ],
@@ -1856,14 +2985,13 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "sorridere a tutti",
+        "subtext": "sorridere per la macchina",
         "transcription": "sorˈridere",
         "definitions": [
             {
-                "text": "Fare un espressione felice con la bocca.",
+                "text": "Espressione felice.",
                 "examples": [
-                    "Ha un bellissimo sorriso.",
-                    "Sorridi per la macchina fotografica."
+                    "Ha un bel sorriso."
                 ]
             }
         ],
@@ -1877,13 +3005,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪥",
-        "subtext": "spazzolare i capelli",
+        "subtext": "spazzolare i denti",
         "transcription": "spattsolˈlaːre",
         "definitions": [
             {
-                "text": "Pulire qualcosa con una spazzola.",
+                "text": "Pulire con spazzola.",
                 "examples": [
-                    "Mi spazzolo i denti ogni mattina."
+                    "Mi spazzolo i denti."
                 ]
             }
         ],
@@ -1893,23 +3021,62 @@
         "auxiliary": "avere"
     },
     {
+        "word": "spendere",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "subtext": "spendere troppo",
+        "transcription": "ˈspɛndere",
+        "definitions": [
+            {
+                "text": "Usare denaro.",
+                "examples": [
+                    "Lui spende troppo."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "speso",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
         "word": "sperare",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "sperare di fare / sperare in",
+        "subtext": "sperare di sì",
         "transcription": "speˈraːre",
         "definitions": [
             {
                 "text": "Desiderare che succeda qualcosa.",
                 "examples": [
-                    "Spero di ottenere una promozione.",
-                    "Lei spera in una paga migliore."
+                    "Spero di ottenere una promozione."
                 ]
             }
         ],
         "classification": "regular",
         "v3": "sperato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "spiegare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "💡",
+        "subtext": "spiegare il processo",
+        "transcription": "spjeˈɡaːre",
+        "definitions": [
+            {
+                "text": "Rendere chiaro.",
+                "examples": [
+                    "Spiega il processo."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "spiegato",
         "group": "are",
         "auxiliary": "avere"
     },
@@ -1922,10 +3089,9 @@
         "transcription": "ˈspindʒere",
         "definitions": [
             {
-                "text": "Spostare qualcosa lontano da sé.",
+                "text": "Spostare lontano.",
                 "examples": [
-                    "Premi il pulsante.",
-                    "Spingo il carrello della spesa."
+                    "Premi il pulsante."
                 ]
             }
         ],
@@ -1939,14 +3105,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "stare in piedi tutto il giorno",
+        "subtext": "stare in piedi vicino alla porta",
         "transcription": "ˈstaːre in ˈpjɛːdi",
         "definitions": [
             {
-                "text": "Essere sui piedi in posizione eretta.",
+                "text": "Posizione eretta.",
                 "examples": [
-                    "Per favore alzati.",
-                    "Lei sta in piedi vicino alla porta."
+                    "Lei sta in piedi."
                 ]
             }
         ],
@@ -1956,18 +3121,57 @@
         "auxiliary": "essere"
     },
     {
+        "word": "studiare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "studiare per un esame",
+        "transcription": "stuˈdjare",
+        "definitions": [
+            {
+                "text": "Imparare un argomento.",
+                "examples": [
+                    "Studio l inglese."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "studiato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "succedere",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "❔",
+        "subtext": "cos è successo?",
+        "transcription": "sutˈtʃɛdere",
+        "definitions": [
+            {
+                "text": "Accadere.",
+                "examples": [
+                    "Cos è successo?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "successo",
+        "group": "ere",
+        "auxiliary": "essere"
+    },
+    {
         "word": "suonare",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🔔",
-        "subtext": "suonare il campanello / suonare uno strumento",
+        "subtext": "suonare la chitarra",
         "transcription": "swoˈnaːre",
         "definitions": [
             {
-                "text": "Emettere un suono; o produrre musica con uno strumento.",
+                "text": "Emettere un suono.",
                 "examples": [
-                    "Il telefono suona.",
-                    "Suona la chitarra."
+                    "Il telefono suona."
                 ]
             }
         ],
@@ -1981,11 +3185,11 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🤫",
-        "subtext": "sussurrare all orecchio",
+        "subtext": "sussurrare la risposta",
         "transcription": "sussurˈraːre",
         "definitions": [
             {
-                "text": "Parlare molto piano in modo che gli altri non possano sentirti.",
+                "text": "Parlare molto piano.",
                 "examples": [
                     "Mi ha sussurrato la risposta."
                 ]
@@ -1997,18 +3201,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "svegliarsi",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
+        "subtext": "svegliarsi stanco",
+        "transcription": "zveʎˈʎarsi",
+        "definitions": [
+            {
+                "text": "Smettere di dormire.",
+                "examples": [
+                    "Mi sveglio alle sette."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "svegliato",
+        "group": "riflessivo",
+        "auxiliary": "essere"
+    },
+    {
         "word": "tagliare",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "tagliare il pane / tagliare a pezzi",
+        "subtext": "tagliare il pane",
         "transcription": "taʎˈʎaːre",
         "definitions": [
             {
-                "text": "Dividere con qualcosa di affilato; ridurre.",
+                "text": "Dividere con affilato.",
                 "examples": [
-                    "Lei taglia la sua pausa pranzo.",
-                    "Taglio il pane."
+                    "Lei taglia il pane."
                 ]
             }
         ],
@@ -2022,14 +3245,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "tenere un segreto",
+        "subtext": "tenere la ricevuta",
         "transcription": "teˈneːre",
         "definitions": [
             {
-                "text": "Continuare ad avere o fare qualcosa.",
+                "text": "Continuare ad avere.",
                 "examples": [
-                    "Tieni la ricevuta.",
-                    "Lei tiene il telefono acceso."
+                    "Tieni la ricevuta."
                 ]
             }
         ],
@@ -2043,13 +3265,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "tirare la fune",
+        "subtext": "tirare la porta",
         "transcription": "tiˈraːre",
         "definitions": [
             {
-                "text": "Spostare qualcosa verso di sé.",
+                "text": "Spostare verso di sé.",
                 "examples": [
-                    "Tira la porta per aprirla."
+                    "Tira la porta."
                 ]
             }
         ],
@@ -2063,13 +3285,13 @@
         "level": "starter",
         "theme": "five_senses_A1",
         "emoji": "🫫",
-        "subtext": "non toccare!",
+        "subtext": "toccare la vernice",
         "transcription": "tokˈkare",
         "definitions": [
             {
-                "text": "Mettere la mano o un'altra parte del corpo su qualcosa.",
+                "text": "Mettere la mano.",
                 "examples": [
-                    "Non toccare la vernice fresca!"
+                    "Non toccare!"
                 ]
             }
         ],
@@ -2079,18 +3301,37 @@
         "auxiliary": "avere"
     },
     {
+        "word": "tornare",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🔙",
+        "subtext": "tornare da un viaggio",
+        "transcription": "torˈnare",
+        "definitions": [
+            {
+                "text": "Venire o tornare.",
+                "examples": [
+                    "Lui torna venerdì."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "tornato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
         "word": "trasportare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
-        "subtext": "trasportare pacchi",
+        "subtext": "trasportare borse",
         "transcription": "trasporˈtaːre",
         "definitions": [
             {
-                "text": "Tenere qualcosa e spostarlo da un posto all altro.",
+                "text": "Spostare da un posto all altro.",
                 "examples": [
-                    "Porto la mia borsa a scuola.",
-                    "Puoi aiutarmi a trasportare questa scatola?"
+                    "Porto la mia borsa."
                 ]
             }
         ],
@@ -2104,14 +3345,13 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "trovare una soluzione",
+        "subtext": "trovare le chiavi",
         "transcription": "troˈvare",
         "definitions": [
             {
-                "text": "Scoprire o localizzare qualcosa.",
+                "text": "Scoprire.",
                 "examples": [
-                    "Trovo il lavoro interessante.",
-                    "Lei ha trovato un nuovo lavoro."
+                    "Lei ha trovato un lavoro."
                 ]
             }
         ],
@@ -2125,14 +3365,13 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "subtext": "udire notizie / udire un suono",
+        "subtext": "udire un rumore",
         "transcription": "uˈdiːre",
         "definitions": [
             {
-                "text": "Percepire il suono attraverso le orecchie.",
+                "text": "Percepire il suono.",
                 "examples": [
-                    "Odo l allarme ogni mattina.",
-                    "Puoi udirmi?"
+                    "Odo l allarme ogni mattina."
                 ]
             }
         ],
@@ -2146,14 +3385,13 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
-        "subtext": "usare un telefono / usare un computer",
+        "subtext": "usare il computer",
         "transcription": "uˈzare",
         "definitions": [
             {
                 "text": "Impiegare qualcosa per uno scopo.",
                 "examples": [
-                    "Uso il mio telefono per tutto.",
-                    "Lei usa i mezzi pubblici."
+                    "Uso il mio telefono per tutto."
                 ]
             }
         ],
@@ -2167,14 +3405,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "uscire con gli amici",
+        "subtext": "uscire dall ufficio",
         "transcription": "uʃˈʃire",
         "definitions": [
             {
-                "text": "Andare fuori da un luogo; frequentare qualcuno.",
+                "text": "Andare fuori.",
                 "examples": [
-                    "Esco dall'ufficio alle sei.",
-                    "Stasera esco con i miei amici."
+                    "Esco alle sei."
                 ]
             }
         ],
@@ -2188,14 +3425,13 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "subtext": "vedere un dottore / vedere gli amici",
+        "subtext": "vedere gli amici",
         "transcription": "veˈdere",
         "definitions": [
             {
-                "text": "Notare o percepire con gli occhi.",
+                "text": "Percepire con gli occhi.",
                 "examples": [
-                    "Vedo il mio dottore domani.",
-                    "Lei vede il problema."
+                    "Vedo il mio dottore domani."
                 ]
             }
         ],
@@ -2209,13 +3445,13 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
-        "subtext": "vendere la macchina",
+        "subtext": "vendere frutta",
         "transcription": "ˈvendere",
         "definitions": [
             {
-                "text": "Dare qualcosa a qualcuno in cambio di denaro.",
+                "text": "Dare in cambio di denaro.",
                 "examples": [
-                    "Vendono frutta al mercato."
+                    "Vendono frutta."
                 ]
             }
         ],
@@ -2225,17 +3461,77 @@
         "auxiliary": "avere"
     },
     {
+        "word": "venire",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🏃‍♂️",
+        "subtext": "venire a casa",
+        "transcription": "veˈnire",
+        "definitions": [
+            {
+                "text": "Spostarsi verso.",
+                "examples": [
+                    "Lui viene alle nove."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "venuto",
+        "group": "ire",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "viaggiare",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "✈️",
+        "subtext": "viaggiare all estero",
+        "transcription": "vjadˈdʒaːre",
+        "definitions": [
+            {
+                "text": "Andare da un posto all altro.",
+                "examples": [
+                    "Lui ama viaggiare."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "v3": "viaggiato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "vincere",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
+        "subtext": "vincere un premio",
+        "transcription": "ˈvintʃere",
+        "definitions": [
+            {
+                "text": "Essere il migliore.",
+                "examples": [
+                    "Vogliamo vincere."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v3": "vinto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
         "word": "visitare",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🏘️",
-        "subtext": "visitare i parenti",
+        "subtext": "visitare i genitori",
         "transcription": "viziˈtaːre",
         "definitions": [
             {
-                "text": "Andare a vedere una persona o un luogo.",
+                "text": "Andare a vedere.",
                 "examples": [
-                    "Visita i suoi genitori a fine settimana alterni."
+                    "Visita i genitori."
                 ]
             }
         ],
@@ -2249,14 +3545,13 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "subtext": "vivere in un appartamento / vivere da soli",
+        "subtext": "vivere da soli",
         "transcription": "ˈviːvere",
         "definitions": [
             {
-                "text": "Avere la propria casa in un luogo; essere vivo.",
+                "text": "Avere la propria casa in un luogo.",
                 "examples": [
-                    "Lei vive in un appartamento vicino al centro.",
-                    "Viviamo insieme."
+                    "Lei vive in un appartamento."
                 ]
             }
         ],
@@ -2271,14 +3566,13 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "subtext": "volare in aereo",
+        "subtext": "volare a Parigi",
         "transcription": "voˈlare",
         "definitions": [
             {
                 "text": "Viaggiare in aereo.",
                 "examples": [
-                    "Lei vola a Parigi per riunioni.",
-                    "Lui odia volare."
+                    "Lei vola a Parigi."
                 ]
             }
         ],
@@ -2292,14 +3586,13 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
-        "subtext": "volere qualcosa / volere fare",
+        "subtext": "voglio un caffè",
         "transcription": "voˈlere",
         "definitions": [
             {
                 "text": "Desiderare o augurarsi qualcosa.",
                 "examples": [
-                    "Voglio un caffè.",
-                    "Lei vuole una promozione."
+                    "Voglio un caffè."
                 ]
             }
         ],

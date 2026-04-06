@@ -188,6 +188,111 @@
             "feminine": "giapponese",
             "plural": "giapponesi",
             "femininePlural": "giapponesi"
+        },
+        {
+            "word": "brasiliano",
+            "level": "starter",
+            "theme": "nationality_country_A1",
+            "emoji": "🇧🇷",
+            "form": "adjective",
+            "transcription": "braziˈljano",
+            "definitions": [
+                {
+                    "text": "Proveniente dal Brasile o relativo ad esso.",
+                    "examples": [
+                        "Musica brasiliana.",
+                        "Lui è brasiliano."
+                    ]
+                }
+            ],
+            "subtext": "nazionalità",
+            "feminine": "brasiliana",
+            "plural": "brasiliani",
+            "femininePlural": "brasiliane"
+        },
+        {
+            "word": "messicano",
+            "level": "starter",
+            "theme": "nationality_country_A1",
+            "emoji": "🇲🇽",
+            "form": "adjective",
+            "transcription": "messiˈkano",
+            "definitions": [
+                {
+                    "text": "Proveniente dal Messico o relativo ad esso.",
+                    "examples": [
+                        "Cibo messicano.",
+                        "Lei è messicana."
+                    ]
+                }
+            ],
+            "subtext": "nazionalità",
+            "feminine": "messicana",
+            "plural": "messicani",
+            "femininePlural": "messicane"
+        },
+        {
+            "word": "canadese",
+            "level": "starter",
+            "theme": "nationality_country_A1",
+            "emoji": "🇨🇦",
+            "form": "adjective",
+            "transcription": "kanaˈdeze",
+            "definitions": [
+                {
+                    "text": "Proveniente dal Canada o relativo ad esso.",
+                    "examples": [
+                        "Lui è canadese.",
+                        "Vengo dal Canada."
+                    ]
+                }
+            ],
+            "subtext": "nazionalità",
+            "feminine": "canadese",
+            "plural": "canadesi",
+            "femininePlural": "canadesi"
+        },
+        {
+            "word": "australiano",
+            "level": "starter",
+            "theme": "nationality_country_A1",
+            "emoji": "🇦🇺",
+            "form": "adjective",
+            "transcription": "austraˈljano",
+            "definitions": [
+                {
+                    "text": "Proveniente dall'Australia o relativo ad essa.",
+                    "examples": [
+                        "Lei è australiana.",
+                        "L'accento australiano."
+                    ]
+                }
+            ],
+            "subtext": "nazionalità",
+            "feminine": "australiana",
+            "plural": "australiani",
+            "femininePlural": "australiane"
+        },
+        {
+            "word": "indiano",
+            "level": "starter",
+            "theme": "nationality_country_A1",
+            "emoji": "🇮🇳",
+            "form": "adjective",
+            "transcription": "inˈdjano",
+            "definitions": [
+                {
+                    "text": "Proveniente dall'India o relativo ad essa.",
+                    "examples": [
+                        "Cultura indiana.",
+                        "Lui è indiano."
+                    ]
+                }
+            ],
+            "subtext": "nazionalità",
+            "feminine": "indiana",
+            "plural": "indiani",
+            "femininePlural": "indiane"
         }
     ];
     const lang = "it";
