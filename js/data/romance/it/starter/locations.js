@@ -13,7 +13,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Italia",
@@ -28,7 +29,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Russia",
@@ -43,7 +45,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Grecia",
@@ -58,7 +61,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Inghilterra",
@@ -73,7 +77,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Spagna",
@@ -88,7 +93,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Stati Uniti",
@@ -103,7 +109,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Germania",
@@ -118,7 +125,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Giappone",
@@ -133,7 +141,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Cina",
@@ -148,7 +157,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Canada",
@@ -163,7 +173,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Brasile",
@@ -178,7 +189,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Australia",
@@ -193,7 +205,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Egitto",
@@ -208,7 +221,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "India",
@@ -223,7 +237,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Messico",
@@ -238,7 +253,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Argentina",
@@ -253,7 +269,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Perù",
@@ -268,7 +285,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Portogallo",
@@ -283,7 +301,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Svizzera",
@@ -298,7 +317,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Austria",
@@ -313,7 +333,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Belgio",
@@ -328,7 +349,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Paesi Bassi",
@@ -343,7 +365,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Svezia",
@@ -358,7 +381,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Norvegia",
@@ -373,7 +397,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Irlanda",
@@ -388,7 +413,8 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Roma",
@@ -403,7 +429,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Milano",
@@ -418,7 +445,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Venezia",
@@ -433,7 +461,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Firenze",
@@ -448,7 +477,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Napoli",
@@ -463,7 +493,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Parigi",
@@ -478,7 +509,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Londra",
@@ -493,7 +525,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Madrid",
@@ -508,7 +541,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Berlino",
@@ -523,7 +557,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Tokyo",
@@ -538,7 +573,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Pechino",
@@ -553,7 +589,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Mosca",
@@ -568,7 +605,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "New York",
@@ -583,7 +621,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Los Angeles",
@@ -598,7 +637,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Barcellona",
@@ -613,7 +653,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Amsterdam",
@@ -628,7 +669,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Vienna",
@@ -643,7 +685,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Praga",
@@ -658,7 +701,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Dublino",
@@ -673,7 +717,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Lisbona",
@@ -688,7 +733,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Zurigo",
@@ -703,7 +749,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Chicago",
@@ -718,7 +765,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "San Francisco",
@@ -733,7 +781,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Miami",
@@ -748,7 +797,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Washington",
@@ -763,7 +813,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Sydney",
@@ -778,7 +829,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Toronto",
@@ -793,7 +845,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Città del Messico",
@@ -808,7 +861,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Istanbul",
@@ -823,7 +877,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     },
     {
         "word": "Ginevra",
@@ -838,7 +893,8 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "address_location_A1",
+        "synonyms": []
     }
 ];
     const lang = "it";

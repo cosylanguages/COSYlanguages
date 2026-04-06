@@ -28848,6 +28848,109 @@
         ],
         "subtext": "polite address",
         "countability": "countable"
+    },
+    {
+        "word": "mosquito",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🦟",
+        "form": "noun",
+        "plural": "mosquitoes",
+        "transcription": "məˈskiːtoʊ",
+        "definitions": [
+            {
+                "text": "A small flying insect that bites people and animals and drinks their blood.",
+                "examples": [
+                    "A mosquito bit me last night.",
+                    "There are many mosquitoes near the lake."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to insects",
+        "opposite": null
+    },
+    {
+        "word": "beetle",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🪲",
+        "form": "noun",
+        "plural": "beetles",
+        "transcription": "ˈbiːtl",
+        "definitions": [
+            {
+                "text": "An insect with a hard shell-like back.",
+                "examples": [
+                    "I saw a black beetle in the garden."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "related to insects",
+        "opposite": null
+    },
+    {
+        "word": "dishwasher",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🍽️",
+        "form": "noun",
+        "plural": "dishwashers",
+        "transcription": "ˈdɪʃˌwɒʃər",
+        "definitions": [
+            {
+                "text": "A machine that washes plates, glasses, and other dishes.",
+                "examples": [
+                    "Put the dirty plates in the dishwasher.",
+                    "The dishwasher is finished."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "kitchen appliance",
+        "opposite": null
+    },
+    {
+        "word": "trumpet",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "🎺",
+        "form": "noun",
+        "plural": "trumpets",
+        "transcription": "ˈtrʌmpɪt",
+        "definitions": [
+            {
+                "text": "A brass musical instrument that you blow into.",
+                "examples": [
+                    "He plays the trumpet in a band."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "musical instrument",
+        "opposite": null
+    },
+    {
+        "word": "microwave",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🍲",
+        "form": "noun",
+        "plural": "microwaves",
+        "transcription": "ˈmaɪkrəˌweɪv",
+        "definitions": [
+            {
+                "text": "An electric oven that cooks or heats food very quickly using electromagnetic waves.",
+                "examples": [
+                    "I'll heat up the soup in the microwave.",
+                    "The microwave is in the kitchen."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "kitchen appliance",
+        "opposite": null
     }
 ];
     const lang = "en";

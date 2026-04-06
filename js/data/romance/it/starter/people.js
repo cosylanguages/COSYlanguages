@@ -14,7 +14,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Dante Alighieri",
@@ -30,7 +31,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Michelangelo Buonarroti",
@@ -46,7 +48,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Galileo Galilei",
@@ -62,7 +65,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Cristoforo Colombo",
@@ -78,7 +82,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Marco Polo",
@@ -94,7 +99,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Luciano Pavarotti",
@@ -110,7 +116,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Federico Fellini",
@@ -126,7 +133,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Enzo Ferrari",
@@ -142,7 +150,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Sophia Loren",
@@ -158,7 +167,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     },
     {
         "word": "Guglielmo Marconi",
@@ -174,7 +184,8 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "synonyms": []
     }
 ];
     const lang = "it";

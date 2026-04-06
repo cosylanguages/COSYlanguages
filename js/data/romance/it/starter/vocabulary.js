@@ -24,8 +24,7 @@
         "countability": "countable",
         "partitive": "del",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "piede",
@@ -50,8 +49,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "piede sinistro, a piedi",
-        "antonyms": []
+        "subtext": "piede sinistro, a piedi"
     },
     {
         "word": "insegnante",
@@ -74,8 +72,7 @@
         "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pasta",
@@ -98,8 +95,7 @@
         "countability": "countable",
         "partitive": "della",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lasagna",
@@ -121,8 +117,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "lasagna al forno",
-        "antonyms": []
+        "subtext": "lasagna al forno"
     },
     {
         "word": "mela",
@@ -147,8 +142,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "mela rossa",
-        "antonyms": []
+        "subtext": "mela rossa"
     },
     {
         "word": "pane",
@@ -159,7 +153,7 @@
         "emoji": "🍞",
         "form": "noun",
         "transcription": "ˈpane",
-        "plural": null,
+        "plural": "pani",
         "subtext": "pane bianco",
         "countability": "uncountable",
         "partitive": "del",
@@ -171,8 +165,7 @@
                 ]
             }
         ],
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "uovo",
@@ -195,8 +188,7 @@
                 ]
             }
         ],
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "latte",
@@ -207,7 +199,7 @@
         "emoji": "🥛",
         "form": "noun",
         "transcription": "ˈlatte",
-        "plural": null,
+        "plural": "latti",
         "subtext": "latte fresco",
         "countability": "uncountable",
         "partitive": "del",
@@ -219,8 +211,7 @@
                 ]
             }
         ],
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "riso",
@@ -231,7 +222,7 @@
         "emoji": "🍚",
         "form": "noun",
         "transcription": "ˈrizo",
-        "plural": null,
+        "plural": "risi",
         "subtext": "riso bianco",
         "countability": "uncountable",
         "partitive": "del",
@@ -243,8 +234,7 @@
                 ]
             }
         ],
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "carne",
@@ -254,7 +244,7 @@
         "gender": "feminine",
         "emoji": "🥩",
         "form": "noun",
-        "plural": null,
+        "plural": "carni",
         "subtext": "carne di manzo",
         "countability": "uncountable",
         "partitive": "della",
@@ -267,8 +257,7 @@
             }
         ],
         "transcription": "ˈkarne",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "cibo",
@@ -291,8 +280,7 @@
         ],
         "transcription": "ˈtʃibo",
         "synonyms": [],
-        "subtext": "cibo sano",
-        "antonyms": []
+        "subtext": "cibo sano"
     },
     {
         "word": "caffè",
@@ -302,7 +290,7 @@
         "gender": "masculine",
         "emoji": "☕",
         "form": "noun",
-        "plural": null,
+        "plural": "caffè",
         "subtext": "caffè espresso",
         "countability": "countable",
         "partitive": "del",
@@ -315,8 +303,7 @@
             }
         ],
         "transcription": "kafˈfɛ",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "tè",
@@ -326,7 +313,7 @@
         "gender": "masculine",
         "emoji": "🍵",
         "form": "noun",
-        "plural": null,
+        "plural": "tè",
         "subtext": "tè verde",
         "countability": "countable",
         "partitive": "del",
@@ -339,8 +326,7 @@
             }
         ],
         "transcription": "ˈtɛ",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "succo",
@@ -350,7 +336,7 @@
         "gender": "masculine",
         "emoji": "🧃",
         "form": "noun",
-        "plural": null,
+        "plural": "succhi",
         "subtext": "succo di frutta",
         "countability": "countable",
         "partitive": "del",
@@ -363,8 +349,7 @@
             }
         ],
         "transcription": "ˈsukkɔ",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "acqua",
@@ -374,7 +359,7 @@
         "gender": "feminine",
         "emoji": "🚰",
         "form": "noun",
-        "plural": null,
+        "plural": "acque",
         "subtext": "acqua naturale",
         "countability": "uncountable",
         "partitive": "dell'",
@@ -387,8 +372,7 @@
             }
         ],
         "transcription": "ˈakkwa",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "colazione",
@@ -411,8 +395,7 @@
         "partitive": "della",
         "transcription": "kolatˈtsjone",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cena",
@@ -435,8 +418,7 @@
         "partitive": "della",
         "transcription": "ˈtʃeːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pranzo",
@@ -459,8 +441,7 @@
         "partitive": "del",
         "transcription": "ˈprandzo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "parco",
@@ -483,8 +464,7 @@
         ],
         "transcription": "ˈparko",
         "synonyms": [],
-        "subtext": "parco giochi",
-        "antonyms": []
+        "subtext": "parco giochi"
     },
     {
         "word": "scuola",
@@ -507,8 +487,7 @@
         ],
         "transcription": "ˈskwɔla",
         "synonyms": [],
-        "subtext": "scuola primaria",
-        "antonyms": []
+        "subtext": "scuola primaria"
     },
     {
         "word": "negozio",
@@ -531,8 +510,7 @@
         "partitive": "del",
         "transcription": "neˈɡɔttsjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "maglietta",
@@ -555,8 +533,7 @@
         ],
         "transcription": "maʎˈʎetta",
         "synonyms": [],
-        "subtext": "maglietta di cotone",
-        "antonyms": []
+        "subtext": "maglietta di cotone"
     },
     {
         "word": "pantaloni",
@@ -579,8 +556,7 @@
         "partitive": "dei",
         "transcription": "pantaˈloni",
         "synonyms": [],
-        "subtext": "un paio di pantaloni",
-        "antonyms": []
+        "subtext": "un paio di pantaloni"
     },
     {
         "word": "scarpe",
@@ -603,8 +579,7 @@
         "partitive": "delle",
         "transcription": "ˈskarpe",
         "synonyms": [],
-        "subtext": "scarpe da ginnastica",
-        "antonyms": []
+        "subtext": "scarpe da ginnastica"
     },
     {
         "word": "cappello",
@@ -627,8 +602,7 @@
         "partitive": "del",
         "transcription": "kapˈpɛllo",
         "synonyms": [],
-        "subtext": "cappello di lana",
-        "antonyms": []
+        "subtext": "cappello di lana"
     },
     {
         "word": "sedia",
@@ -651,8 +625,7 @@
             }
         ],
         "transcription": "ˈseːdja",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "tavolo",
@@ -675,8 +648,7 @@
             }
         ],
         "transcription": "ˈtaːvolo",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "letto",
@@ -699,8 +671,7 @@
             }
         ],
         "transcription": "ˈlɛtto",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "chiave",
@@ -723,8 +694,7 @@
         "partitive": "della",
         "transcription": "ˈkjaːve",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "telefono",
@@ -747,8 +717,7 @@
         "partitive": "del",
         "transcription": "teˈlɛːfono",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "libro",
@@ -771,8 +740,7 @@
         ],
         "transcription": "ˈliːbro",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "borsa",
@@ -795,8 +763,7 @@
         "partitive": "della",
         "transcription": "ˈborsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "penna",
@@ -819,8 +786,7 @@
         ],
         "transcription": "ˈpenna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "gatto",
@@ -846,9 +812,7 @@
         "transcription": "ˈɡatto",
         "synonyms": [],
         "subtext": "un bel gatto",
-        "antonyms": [
-            "cane"
-        ]
+        "opposite": "cane"
     },
     {
         "word": "cane",
@@ -874,9 +838,7 @@
         "transcription": "ˈkaːne",
         "synonyms": [],
         "subtext": "cane da guardia",
-        "antonyms": [
-            "gatto"
-        ]
+        "opposite": "gatto"
     },
     {
         "word": "uccello",
@@ -899,8 +861,7 @@
         ],
         "transcription": "utˈtʃɛllo",
         "synonyms": [],
-        "subtext": "uccello canoro",
-        "antonyms": []
+        "subtext": "uccello canoro"
     },
     {
         "word": "frutta",
@@ -910,7 +871,7 @@
         "gender": "feminine",
         "emoji": "🍎",
         "form": "noun",
-        "plural": null,
+        "plural": "frutta",
         "subtext": "frutta fresca, succo di frutta",
         "definitions": [
             {
@@ -923,8 +884,7 @@
         "countability": "uncountable",
         "partitive": "della",
         "transcription": "ˈfrutta",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "verdura",
@@ -947,8 +907,7 @@
         "countability": "uncountable",
         "partitive": "della",
         "transcription": "verˈduːra",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "pesce",
@@ -971,8 +930,7 @@
         ],
         "transcription": "ˈpeʃʃe",
         "synonyms": [],
-        "subtext": "pesce fresco",
-        "antonyms": []
+        "subtext": "pesce fresco"
     },
     {
         "word": "testa",
@@ -995,8 +953,7 @@
         ],
         "transcription": "ˈtɛsta",
         "synonyms": [],
-        "subtext": "mal di testa",
-        "antonyms": []
+        "subtext": "mal di testa"
     },
     {
         "word": "mano",
@@ -1019,8 +976,7 @@
         ],
         "transcription": "ˈmaːno",
         "synonyms": [],
-        "subtext": "mano destra",
-        "antonyms": []
+        "subtext": "mano destra"
     },
     {
         "word": "gamba",
@@ -1043,8 +999,7 @@
         ],
         "transcription": "ˈɡamba",
         "synonyms": [],
-        "subtext": "gamba sinistra",
-        "antonyms": []
+        "subtext": "gamba sinistra"
     },
     {
         "word": "occhio",
@@ -1067,8 +1022,7 @@
         ],
         "transcription": "ˈɔkkjo",
         "synonyms": [],
-        "subtext": "chiudere gli occhi",
-        "antonyms": []
+        "subtext": "chiudere gli occhi"
     },
     {
         "word": "naso",
@@ -1091,8 +1045,7 @@
         ],
         "transcription": "ˈnaːzo",
         "synonyms": [],
-        "subtext": "naso chiuso",
-        "antonyms": []
+        "subtext": "naso chiuso"
     },
     {
         "word": "bocca",
@@ -1115,8 +1068,7 @@
         ],
         "transcription": "ˈbokka",
         "synonyms": [],
-        "subtext": "bocca aperta",
-        "antonyms": []
+        "subtext": "bocca aperta"
     },
     {
         "word": "orecchio",
@@ -1139,8 +1091,7 @@
         ],
         "transcription": "oˈrekkjo",
         "synonyms": [],
-        "subtext": "mal d'orecchio",
-        "antonyms": []
+        "subtext": "mal d'orecchio"
     },
     {
         "word": "schiena",
@@ -1163,8 +1114,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈskjɛːna",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "braccio",
@@ -1187,8 +1137,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈbrattʃo",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "madre",
@@ -1213,8 +1162,7 @@
         ],
         "countability": "countable",
         "partitive": "della",
-        "transcription": "ˈmaːdre",
-        "antonyms": []
+        "transcription": "ˈmaːdre"
     },
     {
         "word": "padre",
@@ -1239,8 +1187,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "ˈpaːdre",
-        "antonyms": []
+        "transcription": "ˈpaːdre"
     },
     {
         "word": "famiglia",
@@ -1263,8 +1210,7 @@
         "partitive": "della",
         "transcription": "faˈmiʎʎa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "amico",
@@ -1287,8 +1233,7 @@
         "partitive": "dell'",
         "transcription": "aˈmiːko",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "partner",
@@ -1311,8 +1256,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpartner",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "uomo",
@@ -1337,8 +1281,7 @@
         ],
         "transcription": "ˈwɔːmo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "donna",
@@ -1363,8 +1306,7 @@
         ],
         "transcription": "ˈdɔnna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "casa",
@@ -1387,8 +1329,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈkaːza",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "appartamento",
@@ -1411,8 +1352,7 @@
         "countability": "countable",
         "partitive": "dell'",
         "transcription": "appartaˈmento",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "ufficio",
@@ -1435,8 +1375,7 @@
         "countability": "countable",
         "partitive": "dell'",
         "transcription": "ufˈfiːtʃo",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "macchina",
@@ -1459,8 +1398,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmakkina",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "autobus",
@@ -1483,8 +1421,7 @@
         "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈautobus",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "treno",
@@ -1507,8 +1444,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtrɛːno",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "denaro",
@@ -1518,7 +1454,7 @@
         "gender": "masculine",
         "emoji": "💰",
         "form": "noun",
-        "plural": null,
+        "plural": "denari",
         "subtext": "spendere denaro, risparmiare denaro",
         "countability": "uncountable",
         "partitive": "del",
@@ -1531,8 +1467,7 @@
             }
         ],
         "transcription": "deˈnaːro",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "mattina",
@@ -1555,8 +1490,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "matˈtiːna",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "sera",
@@ -1582,8 +1516,7 @@
         ],
         "countability": "countable",
         "partitive": "della",
-        "transcription": "ˈseːra",
-        "antonyms": []
+        "transcription": "ˈseːra"
     },
     {
         "word": "giorno",
@@ -1606,8 +1539,7 @@
         ],
         "transcription": "ˈdʒorno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "settimana",
@@ -1630,8 +1562,7 @@
         ],
         "transcription": "settiˈmaːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ogni giorno",
@@ -1649,7 +1580,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈɔɲɲi ˈdʒorno"
     },
     {
@@ -1673,8 +1603,7 @@
         "partitive": "del",
         "transcription": "ˈkaːpo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "collega",
@@ -1697,8 +1626,7 @@
         "partitive": "del",
         "transcription": "kolˈlɛːɡa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "stipendio",
@@ -1723,8 +1651,7 @@
         "gender": "masculine",
         "countability": "countable",
         "partitive": "dello",
-        "transcription": "stiˈpɛndjo",
-        "antonyms": []
+        "transcription": "stiˈpɛndjo"
     },
     {
         "word": "riunione",
@@ -1749,8 +1676,7 @@
         "gender": "masculine",
         "countability": "countable",
         "partitive": "della",
-        "transcription": "rjuˈnjone",
-        "antonyms": []
+        "transcription": "rjuˈnjone"
     },
     {
         "word": "tragitto",
@@ -1773,8 +1699,7 @@
         "partitive": "del",
         "transcription": "traˈdʒitto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "stress",
@@ -1784,7 +1709,7 @@
         "gender": "masculine",
         "emoji": "😫",
         "form": "noun",
-        "plural": null,
+        "plural": "stress",
         "definitions": [
             {
                 "text": "Una sensazione di preoccupazione causata da una situazione difficile.",
@@ -1797,8 +1722,7 @@
         "partitive": "dello",
         "transcription": "ˈstrɛss",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "affitto",
@@ -1821,8 +1745,7 @@
         "partitive": "dell'",
         "transcription": "afˈfitto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "vicino",
@@ -1845,8 +1768,7 @@
         "partitive": "del",
         "transcription": "viˈtʃiːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "stanza",
@@ -1871,8 +1793,7 @@
         "gender": "feminine",
         "countability": "countable",
         "partitive": "della",
-        "transcription": "ˈstantsa",
-        "antonyms": []
+        "transcription": "ˈstantsa"
     },
     {
         "word": "cucina",
@@ -1895,8 +1816,7 @@
         "partitive": "della",
         "transcription": "kuˈtʃiːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sonno",
@@ -1905,7 +1825,7 @@
         "article": "il",
         "emoji": "😴",
         "form": "noun",
-        "plural": null,
+        "plural": "sonni",
         "definitions": [
             {
                 "text": "Il riposo naturale di cui il corpo ha bisogno ogni notte.",
@@ -1919,8 +1839,7 @@
         "partitive": "del",
         "transcription": "ˈsɔnno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "esercizio",
@@ -1943,8 +1862,7 @@
         "partitive": "dell'",
         "transcription": "ezerˈtʃittsjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "prezzo",
@@ -1967,8 +1885,7 @@
         "partitive": "del",
         "transcription": "ˈprɛttso",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "costo",
@@ -1991,8 +1908,7 @@
         "partitive": "del",
         "transcription": "ˈkɔsto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "relazione",
@@ -2018,8 +1934,7 @@
         "gender": "masculine",
         "countability": "countable",
         "partitive": "della",
-        "transcription": "relatˈtsjone",
-        "antonyms": []
+        "transcription": "relatˈtsjone"
     },
     {
         "word": "insieme",
@@ -2039,7 +1954,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈinsieme"
     },
     {
@@ -2063,8 +1977,7 @@
         "partitive": "della",
         "transcription": "vaˈkantsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "viaggio",
@@ -2087,8 +2000,7 @@
         "partitive": "del",
         "transcription": "ˈvjaddʒo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "hotel",
@@ -2111,8 +2023,7 @@
         "partitive": "dell'",
         "transcription": "oˈtɛl",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fine settimana",
@@ -2135,8 +2046,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfiːne settiˈmaːna",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "tempo libero",
@@ -2162,8 +2072,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "ˈtɛmpo ˈliːbero",
-        "antonyms": []
+        "transcription": "ˈtɛmpo ˈliːbero"
     },
     {
         "word": "birra",
@@ -2173,7 +2082,7 @@
         "gender": "feminine",
         "emoji": "🍺",
         "form": "noun",
-        "plural": null,
+        "plural": "birre",
         "subtext": "birra fredda, alla spina",
         "definitions": [
             {
@@ -2186,8 +2095,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈbirra",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "vino",
@@ -2197,7 +2105,7 @@
         "gender": "masculine",
         "emoji": "🍷",
         "form": "noun",
-        "plural": null,
+        "plural": "vini",
         "subtext": "vino rosso, vino bianco, bicchiere di vino",
         "definitions": [
             {
@@ -2210,8 +2118,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈviːno",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "porta",
@@ -2234,8 +2141,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpɔrta",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "finestra",
@@ -2258,8 +2164,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "fiˈnɛstra",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "infermiere",
@@ -2285,8 +2190,7 @@
         ],
         "countability": "countable",
         "partitive": "dell'",
-        "transcription": "inferˈmjɛːre",
-        "antonyms": []
+        "transcription": "inferˈmjɛːre"
     },
     {
         "word": "conducente",
@@ -2312,8 +2216,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "konduˈtʃɛnte",
-        "antonyms": []
+        "transcription": "konduˈtʃɛnte"
     },
     {
         "word": "cuoco",
@@ -2339,8 +2242,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "ˈkwɔːko",
-        "antonyms": []
+        "transcription": "ˈkwɔːko"
     },
     {
         "word": "direttore",
@@ -2366,8 +2268,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "diretˈtoːre",
-        "antonyms": []
+        "transcription": "diretˈtoːre"
     },
     {
         "word": "aereo",
@@ -2390,8 +2291,7 @@
         "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈɛːreo",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "bicicletta",
@@ -2414,8 +2314,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "bitʃiˈkletta",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "ospedale",
@@ -2438,8 +2337,7 @@
         "countability": "countable",
         "partitive": "dell'",
         "transcription": "ospeˈdaːle",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "ristorante",
@@ -2462,8 +2360,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ristoˈrante",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "banca",
@@ -2486,8 +2383,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈbaŋka",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "stazione",
@@ -2510,8 +2406,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "statˈtsjone",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "supermercato",
@@ -2534,8 +2429,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "supermerˈkaːto",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "sole",
@@ -2545,7 +2439,7 @@
         "gender": "masculine",
         "emoji": "☀️",
         "form": "noun",
-        "plural": null,
+        "plural": "soli",
         "subtext": "sole caldo, sole del mattino",
         "definitions": [
             {
@@ -2558,8 +2452,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈsoːle",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "pioggia",
@@ -2569,7 +2462,7 @@
         "gender": "feminine",
         "emoji": "🌧️",
         "form": "noun",
-        "plural": null,
+        "plural": "piogge",
         "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
             {
@@ -2582,8 +2475,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpjɔddʒa",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "vento",
@@ -2593,7 +2485,7 @@
         "gender": "masculine",
         "emoji": "💨",
         "form": "noun",
-        "plural": null,
+        "plural": "venti",
         "subtext": "vento forte, vento freddo",
         "definitions": [
             {
@@ -2606,8 +2498,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈvɛnto",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "pomeriggio",
@@ -2630,8 +2521,7 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "pomeˈriddʒo",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "notte",
@@ -2654,8 +2544,7 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈnɔtte",
-        "synonyms": [],
-        "antonyms": []
+        "synonyms": []
     },
     {
         "word": "oggi",
@@ -2676,7 +2565,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈɔddʒi"
     },
     {
@@ -2698,7 +2586,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "doˈmaːni"
     },
     {
@@ -2727,8 +2614,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "maˈriːto",
-        "antonyms": []
+        "transcription": "maˈriːto"
     },
     {
         "word": "moglie",
@@ -2756,8 +2642,7 @@
         ],
         "countability": "countable",
         "partitive": "della",
-        "transcription": "ˈmɔʎʎe",
-        "antonyms": []
+        "transcription": "ˈmɔʎʎe"
     },
     {
         "word": "bambino",
@@ -2783,8 +2668,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "bamˈbiːno",
-        "antonyms": []
+        "transcription": "bamˈbiːno"
     },
     {
         "word": "genitore",
@@ -2809,8 +2693,7 @@
         ],
         "countability": "countable",
         "partitive": "del",
-        "transcription": "dʒeniˈtoːre",
-        "antonyms": []
+        "transcription": "dʒeniˈtoːre"
     },
     {
         "word": "autista",
@@ -2833,8 +2716,7 @@
         "partitive": "dell'",
         "transcription": "auˈtista",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "chef",
@@ -2857,8 +2739,7 @@
         "partitive": "dello",
         "transcription": "ˈʃɛf",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sorella",
@@ -2881,8 +2762,7 @@
         "partitive": "della",
         "transcription": "soˈrɛlla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fratello",
@@ -2905,8 +2785,7 @@
         "partitive": "del",
         "transcription": "fraˈtɛllo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "figlio",
@@ -2929,8 +2808,7 @@
         "partitive": "del",
         "transcription": "ˈfiʎʎo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "figlia",
@@ -2953,8 +2831,7 @@
         "partitive": "della",
         "transcription": "ˈfiʎʎa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "nonno",
@@ -2977,8 +2854,7 @@
         "partitive": "del",
         "transcription": "ˈnɔnno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "nonna",
@@ -3001,8 +2877,7 @@
         "partitive": "della",
         "transcription": "ˈnɔnna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "zio",
@@ -3025,8 +2900,7 @@
         "partitive": "dello",
         "transcription": "ˈtsiːo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "zia",
@@ -3049,8 +2923,7 @@
         "partitive": "della",
         "transcription": "ˈtsiːa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cugino",
@@ -3073,8 +2946,7 @@
         "partitive": "del",
         "transcription": "kuˈdʒiːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "albero",
@@ -3097,8 +2969,7 @@
         "partitive": "dell'",
         "transcription": "ˈalbero",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fiore",
@@ -3121,8 +2992,7 @@
         "partitive": "del",
         "transcription": "ˈfjoːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "montagna",
@@ -3145,8 +3015,7 @@
         "partitive": "della",
         "transcription": "monˈtaɲɲa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fiume",
@@ -3169,8 +3038,7 @@
         "partitive": "del",
         "transcription": "ˈfjuːme",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mare",
@@ -3193,8 +3061,7 @@
         "partitive": "del",
         "transcription": "ˈmaːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "spiaggia",
@@ -3217,8 +3084,7 @@
         "partitive": "della",
         "transcription": "ˈspjaddʒa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cielo",
@@ -3241,8 +3107,7 @@
         "partitive": "del",
         "transcription": "ˈtʃɛːlo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "luna",
@@ -3265,8 +3130,7 @@
         "partitive": "della",
         "transcription": "ˈluːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "piatto",
@@ -3289,8 +3153,7 @@
         "partitive": "del",
         "transcription": "ˈpjatto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "tazza",
@@ -3313,8 +3176,7 @@
         "partitive": "della",
         "transcription": "ˈtattsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "bicchiere",
@@ -3337,8 +3199,7 @@
         "partitive": "del",
         "transcription": "bikˈkjɛːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "forchetta",
@@ -3361,8 +3222,7 @@
         "partitive": "della",
         "transcription": "forˈketta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cucchiaio",
@@ -3385,8 +3245,7 @@
         "partitive": "del",
         "transcription": "kukˈkjaːjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "coltello",
@@ -3409,8 +3268,7 @@
         "partitive": "del",
         "transcription": "kolˈtɛllo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "computer portatile",
@@ -3433,8 +3291,7 @@
         "partitive": "del",
         "transcription": "komˈpjuːter porˈtaːtile",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "televisione",
@@ -3457,8 +3314,7 @@
         "partitive": "della",
         "transcription": "televizˈjone",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cinema",
@@ -3481,8 +3337,7 @@
         "partitive": "del",
         "transcription": "ˈtʃiːnema",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "museo",
@@ -3505,8 +3360,7 @@
         "partitive": "del",
         "transcription": "muˈzɛːo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "aeroporto",
@@ -3529,8 +3383,7 @@
         "partitive": "dell'",
         "transcription": "ˈaeroporto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "farmacia",
@@ -3553,8 +3406,7 @@
         "partitive": "della",
         "transcription": "farmaˈtʃiːa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pollo",
@@ -3577,8 +3429,7 @@
         "partitive": "del",
         "transcription": "ˈpollo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "zucchero",
@@ -3601,8 +3452,7 @@
         "partitive": "dello",
         "transcription": "ˈtsukkero",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "insalata",
@@ -3625,8 +3475,7 @@
         "partitive": "dell'",
         "transcription": "insaˈlaːta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cappotto",
@@ -3649,8 +3498,7 @@
         "partitive": "del",
         "transcription": "kapˈpɔtto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "calzini",
@@ -3673,8 +3521,7 @@
         "partitive": "dei",
         "transcription": "kalˈtsiːni",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "collo",
@@ -3697,8 +3544,7 @@
         "partitive": "del",
         "transcription": "ˈkɔllo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "spalla",
@@ -3721,8 +3567,7 @@
         "partitive": "della",
         "transcription": "ˈspalla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "in",
@@ -3743,7 +3588,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈin"
     },
     {
@@ -3765,7 +3609,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈsu"
     },
     {
@@ -3787,7 +3630,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈa"
     },
     {
@@ -3809,7 +3651,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈsotto"
     },
     {
@@ -3831,7 +3672,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈe"
     },
     {
@@ -3853,7 +3693,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈma"
     },
     {
@@ -3875,7 +3714,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "perˈke"
     },
     {
@@ -3899,8 +3737,7 @@
         "partitive": "del",
         "transcription": "ˈtɛmpo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "problema",
@@ -3923,8 +3760,7 @@
         "partitive": "del",
         "transcription": "proˈblɛːma",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "manzo",
@@ -3947,8 +3783,7 @@
         "partitive": "del",
         "transcription": "ˈmandzo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "maiale",
@@ -3971,8 +3806,7 @@
         "partitive": "del",
         "transcription": "maˈjaːle",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "patata",
@@ -3995,8 +3829,7 @@
         "partitive": "della",
         "transcription": "paˈtaːta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pomodoro",
@@ -4019,8 +3852,7 @@
         "partitive": "del",
         "transcription": "pomoˈdɔːro",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cipolla",
@@ -4043,8 +3875,7 @@
         "partitive": "della",
         "transcription": "tʃiˈpɔlla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "carota",
@@ -4067,8 +3898,7 @@
         "partitive": "della",
         "transcription": "kaˈrɔːta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "zuppa",
@@ -4091,8 +3921,7 @@
         "partitive": "della",
         "transcription": "ˈtsuppa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "torta",
@@ -4115,8 +3944,7 @@
         "partitive": "della",
         "transcription": "ˈtɔrta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cioccolato",
@@ -4139,8 +3967,7 @@
         "partitive": "del",
         "transcription": "tʃokkoˈlaːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "gelato",
@@ -4163,8 +3990,7 @@
         "partitive": "del",
         "transcription": "dʒeˈlaːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "maglione",
@@ -4187,8 +4013,7 @@
         "partitive": "del",
         "transcription": "maʎˈʎoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "vestito",
@@ -4211,8 +4036,7 @@
         "partitive": "del",
         "transcription": "vesˈtiːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "gonna",
@@ -4235,8 +4059,7 @@
         "partitive": "della",
         "transcription": "ˈɡɔnna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "stivali",
@@ -4259,8 +4082,7 @@
         "partitive": "degli",
         "transcription": "stiˈvaːli",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "dito",
@@ -4283,8 +4105,7 @@
         "partitive": "del",
         "transcription": "ˈdiːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "dito del piede",
@@ -4307,8 +4128,7 @@
         "partitive": "del",
         "transcription": "ˈdiːto del ˈpjɛːde",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "stomaco",
@@ -4331,8 +4151,7 @@
         "partitive": "dello",
         "transcription": "ˈstɔːmako",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ginocchio",
@@ -4355,8 +4174,7 @@
         "partitive": "del",
         "transcription": "dʒiˈnɔkkjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "erba",
@@ -4379,8 +4197,7 @@
         "partitive": "dell'",
         "transcription": "ˈɛrba",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lago",
@@ -4403,8 +4220,7 @@
         "partitive": "del",
         "transcription": "ˈlaːɡo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "nuvola",
@@ -4427,8 +4243,7 @@
         "partitive": "della",
         "transcription": "ˈnuːvola",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "stella",
@@ -4451,8 +4266,7 @@
         "partitive": "della",
         "transcription": "ˈstɛlla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "scrivania",
@@ -4475,8 +4289,7 @@
         "partitive": "della",
         "transcription": "skrivaˈniːa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lampada",
@@ -4499,8 +4312,7 @@
         "partitive": "della",
         "transcription": "ˈlampada",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "orologio",
@@ -4523,8 +4335,7 @@
         "partitive": "dell'",
         "transcription": "oroˈlɔːdʒo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "specchio",
@@ -4547,8 +4358,7 @@
         "partitive": "dello",
         "transcription": "ˈspɛkkjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "biblioteca",
@@ -4571,8 +4381,7 @@
         "partitive": "della",
         "transcription": "biblioˈtɛːka",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lunedì",
@@ -4595,8 +4404,7 @@
         "partitive": "del",
         "transcription": "luneˈdi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "martedì",
@@ -4619,8 +4427,7 @@
         "partitive": "del",
         "transcription": "marteˈdi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mercoledì",
@@ -4643,8 +4450,7 @@
         "partitive": "del",
         "transcription": "merkoleˈdi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "giovedì",
@@ -4667,8 +4473,7 @@
         "partitive": "del",
         "transcription": "dʒoveˈdi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "venerdì",
@@ -4691,8 +4496,7 @@
         "partitive": "del",
         "transcription": "venerˈdi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sabato",
@@ -4715,8 +4519,7 @@
         "partitive": "del",
         "transcription": "ˈsaːbato",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "domenica",
@@ -4739,8 +4542,7 @@
         "partitive": "della",
         "transcription": "doˈmeːnika",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "gennaio",
@@ -4763,8 +4565,7 @@
         "partitive": "del",
         "transcription": "dʒenˈnaːjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "febbraio",
@@ -4787,8 +4588,7 @@
         "partitive": "del",
         "transcription": "febˈbraːjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "marzo",
@@ -4811,8 +4611,7 @@
         "partitive": "del",
         "transcription": "ˈmartsɔ",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "aprile",
@@ -4835,8 +4634,7 @@
         "partitive": "dell'",
         "transcription": "aˈpriːle",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "maggio",
@@ -4859,8 +4657,7 @@
         "partitive": "del",
         "transcription": "ˈmaddʒo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "giugno",
@@ -4883,8 +4680,7 @@
         "partitive": "del",
         "transcription": "ˈdʒuɲɲo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "luglio",
@@ -4907,8 +4703,7 @@
         "partitive": "del",
         "transcription": "ˈluʎʎo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "agosto",
@@ -4931,8 +4726,7 @@
         "partitive": "dell'",
         "transcription": "aˈɡosto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "settembre",
@@ -4955,8 +4749,7 @@
         "partitive": "del",
         "transcription": "setˈtɛmbre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ottobre",
@@ -4979,8 +4772,7 @@
         "partitive": "dell'",
         "transcription": "otˈtoːbre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "novembre",
@@ -5003,8 +4795,7 @@
         "partitive": "del",
         "transcription": "noˈvɛmbre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "dicembre",
@@ -5027,8 +4818,7 @@
         "partitive": "del",
         "transcription": "diˈtʃɛmbre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "primavera",
@@ -5051,8 +4841,7 @@
         "partitive": "della",
         "transcription": "primaˈvɛːra",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "estate",
@@ -5075,8 +4864,7 @@
         "partitive": "dell'",
         "transcription": "esˈtaːte",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "autunno",
@@ -5099,8 +4887,7 @@
         "partitive": "dell'",
         "transcription": "auˈtunno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "inverno",
@@ -5123,8 +4910,7 @@
         "partitive": "dell'",
         "transcription": "inˈvɛrno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "leone",
@@ -5147,8 +4933,7 @@
         "partitive": "del",
         "transcription": "leˈoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "elefante",
@@ -5171,8 +4956,7 @@
         "partitive": "dell'",
         "transcription": "eleˈfante",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "coniglio",
@@ -5195,8 +4979,7 @@
         "partitive": "del",
         "transcription": "ˈconiglio",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cavallo",
@@ -5219,8 +5002,7 @@
         "partitive": "del",
         "transcription": "ˈcavallo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mucca",
@@ -5243,8 +5025,7 @@
         "partitive": "della",
         "transcription": "ˈmucca",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pecora",
@@ -5267,8 +5048,7 @@
         "partitive": "della",
         "transcription": "ˈpɛːkora",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "limone",
@@ -5291,8 +5071,7 @@
         "partitive": "del",
         "transcription": "liˈmoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "arancia",
@@ -5315,8 +5094,7 @@
         "partitive": "dell'",
         "transcription": "aˈrantʃa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fragola",
@@ -5339,8 +5117,7 @@
         "partitive": "della",
         "transcription": "ˈfraːɡola",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "uva",
@@ -5363,8 +5140,7 @@
         "partitive": "dell'",
         "transcription": "ˈuːva",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "aglio",
@@ -5387,8 +5163,7 @@
         "partitive": "dell'",
         "transcription": "ˈaʎʎo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sempre",
@@ -5409,7 +5184,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈsɛmpre"
     },
     {
@@ -5431,7 +5205,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "solitaˈmente"
     },
     {
@@ -5453,7 +5226,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈspɛsso"
     },
     {
@@ -5475,7 +5247,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈkwalke ˈvɔlta"
     },
     {
@@ -5497,7 +5268,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈmai"
     },
     {
@@ -5519,7 +5289,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈki"
     },
     {
@@ -5541,7 +5310,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈkɔːza"
     },
     {
@@ -5563,7 +5331,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈdoːve"
     },
     {
@@ -5585,7 +5352,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈkwando"
     },
     {
@@ -5607,7 +5373,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈkoːme"
     },
     {
@@ -5631,8 +5396,7 @@
         "partitive": "del",
         "transcription": "ˈtʃaːo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "arrivederci",
@@ -5655,8 +5419,7 @@
         "partitive": "dell'",
         "transcription": "arrivedˈdertʃi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "per favore",
@@ -5677,7 +5440,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "per faˈvoːre"
     },
     {
@@ -5701,8 +5463,7 @@
         "partitive": "del",
         "transcription": "ˈɡrattsje",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "scusa",
@@ -5725,8 +5486,7 @@
         "partitive": "della",
         "transcription": "ˈskuːza",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sì",
@@ -5747,7 +5507,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈsi"
     },
     {
@@ -5769,7 +5528,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈnɔ"
     },
     {
@@ -5793,8 +5551,7 @@
         "partitive": "del",
         "transcription": "ˈnoːme",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "viola",
@@ -5817,8 +5574,7 @@
         "partitive": "del",
         "transcription": "ˈvjɔːla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "bagno",
@@ -5841,8 +5597,7 @@
         "partitive": "del",
         "transcription": "ˈbagno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "camera da letto",
@@ -5865,8 +5620,7 @@
         "partitive": "della",
         "transcription": "ˈcamera da letto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "neonato",
@@ -5889,8 +5643,7 @@
         "partitive": "del",
         "transcription": "neoˈnaːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ragazzo",
@@ -5913,8 +5666,7 @@
         "partitive": "del",
         "transcription": "raˈɡattso",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ragazza",
@@ -5937,8 +5689,7 @@
         "partitive": "della",
         "transcription": "raˈɡattsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fidanzato",
@@ -5961,8 +5712,7 @@
         "partitive": "del",
         "transcription": "ˈfidanzato",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fidanzata",
@@ -5985,8 +5735,7 @@
         "partitive": "della",
         "transcription": "ˈfidanzata",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "studente",
@@ -6009,8 +5758,7 @@
         "partitive": "dello",
         "transcription": "stuˈdɛnte",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "compagno di classe",
@@ -6033,8 +5781,7 @@
         "partitive": "del",
         "transcription": "komˈpaɲɲo di ˈklasse",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "macchina fotografica",
@@ -6057,8 +5804,7 @@
         "partitive": "della",
         "transcription": "ˈmakkina fotoˈɡraːfika",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "computer",
@@ -6081,8 +5827,7 @@
         "partitive": "del",
         "transcription": "komˈpjuːter",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "bottiglia",
@@ -6105,8 +5850,7 @@
         "partitive": "della",
         "transcription": "botˈtiʎʎa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "scatola",
@@ -6129,8 +5873,7 @@
         "partitive": "della",
         "transcription": "ˈskaːtola",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "palla",
@@ -6153,8 +5896,7 @@
         "partitive": "della",
         "transcription": "ˈpalla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "regalo",
@@ -6177,8 +5919,7 @@
         "partitive": "del",
         "transcription": "ˈregalo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "strada",
@@ -6201,8 +5942,7 @@
         "partitive": "della",
         "transcription": "ˈstraːda",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "edificio",
@@ -6225,8 +5965,7 @@
         "partitive": "dell'",
         "transcription": "ediˈfiːtʃo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "bar",
@@ -6249,8 +5988,7 @@
         "partitive": "del",
         "transcription": "ˈbar",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "centro",
@@ -6273,8 +6011,7 @@
         "partitive": "del",
         "transcription": "ˈtʃɛntro",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "burro",
@@ -6297,8 +6034,7 @@
         "partitive": "del",
         "transcription": "ˈburro",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "formaggio",
@@ -6321,8 +6057,7 @@
         "partitive": "del",
         "transcription": "ˈformaggio",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "attore",
@@ -6345,8 +6080,7 @@
         "partitive": "dell'",
         "transcription": "atˈtoːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "artista",
@@ -6369,8 +6103,7 @@
         "partitive": "dell'",
         "transcription": "arˈtista",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "adulto",
@@ -6393,8 +6126,7 @@
         "partitive": "dell'",
         "transcription": "aˈdulto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "consiglio",
@@ -6417,8 +6149,7 @@
         "partitive": "del",
         "transcription": "konˈsiʎʎo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "età",
@@ -6441,8 +6172,7 @@
         "partitive": "dell'",
         "transcription": "eˈta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "aria",
@@ -6465,8 +6195,7 @@
         "partitive": "dell'",
         "transcription": "ˈaria",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "quartiere",
@@ -6489,8 +6218,7 @@
         "partitive": "del",
         "transcription": "kwarˈtjɛːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "arte",
@@ -6513,8 +6241,7 @@
         "partitive": "dell'",
         "transcription": "ˈarte",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "band",
@@ -6537,8 +6264,7 @@
         "partitive": "della",
         "transcription": "ˈbɛnd",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "compleanno",
@@ -6561,8 +6287,7 @@
         "partitive": "del",
         "transcription": "kompleˈanno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "barca",
@@ -6585,8 +6310,7 @@
         "partitive": "della",
         "transcription": "ˈbarka",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "affari",
@@ -6609,8 +6333,7 @@
         "partitive": "degli",
         "transcription": "afˈfaːri",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "università",
@@ -6633,8 +6356,7 @@
         "partitive": "dell'",
         "transcription": "universiˈta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "azienda",
@@ -6657,8 +6379,7 @@
         "partitive": "dell'",
         "transcription": "adˈdzjɛnda",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "concerto",
@@ -6681,8 +6402,7 @@
         "partitive": "del",
         "transcription": "konˈtʃɛrto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "conversazione",
@@ -6705,8 +6425,7 @@
         "partitive": "della",
         "transcription": "konverzatˈtsjone",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ancora",
@@ -6727,7 +6446,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈancora"
     },
     {
@@ -6749,7 +6467,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈfa"
     },
     {
@@ -6771,7 +6488,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈanche"
     },
     {
@@ -6793,7 +6509,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈveramente"
     },
     {
@@ -6815,7 +6530,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈlì"
     },
     {
@@ -6839,8 +6553,7 @@
         "partitive": "della",
         "transcription": "ˈmatita",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "carta",
@@ -6863,8 +6576,7 @@
         "partitive": "della",
         "transcription": "ˈcarta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "portafoglio",
@@ -6887,8 +6599,7 @@
         "partitive": "del",
         "transcription": "ˈportafoglio",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ombrello",
@@ -6911,8 +6622,7 @@
         "partitive": "dell'",
         "transcription": "ˈombrello",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "occhiali",
@@ -6935,8 +6645,7 @@
         "partitive": "degli",
         "transcription": "ˈocchiali",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "signore",
@@ -6959,8 +6668,7 @@
         "partitive": "del",
         "transcription": "ˈsignore",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "signora",
@@ -6983,8 +6691,7 @@
         "partitive": "della",
         "transcription": "ˈsignora",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "città",
@@ -7007,8 +6714,7 @@
         "partitive": "della",
         "transcription": "ˈcittà",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "paese",
@@ -7031,8 +6737,7 @@
         "partitive": "del",
         "transcription": "ˈpaese",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mondo",
@@ -7055,8 +6760,7 @@
         "partitive": "del",
         "transcription": "ˈmondo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "gente",
@@ -7079,8 +6783,7 @@
         "partitive": "della",
         "transcription": "ˈgente",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ora",
@@ -7103,8 +6806,7 @@
         "partitive": "dell'",
         "transcription": "ˈora",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "minuto",
@@ -7127,8 +6829,7 @@
         "partitive": "del",
         "transcription": "ˈminuto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "secondo",
@@ -7151,8 +6852,7 @@
         "partitive": "del",
         "transcription": "ˈsecondo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ieri",
@@ -7173,7 +6873,6 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
         "transcription": "ˈjɛːri"
     },
     {
@@ -7197,8 +6896,7 @@
         "partitive": "della",
         "transcription": "ˈmezzanotte",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mezzogiorno",
@@ -7221,8 +6919,7 @@
         "partitive": "del",
         "transcription": "ˈmezzogiorno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lavoro",
@@ -7245,8 +6942,7 @@
         "partitive": "del",
         "transcription": "laˈvoːro",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "impiego",
@@ -7269,8 +6965,7 @@
         "partitive": "dell'",
         "transcription": "imˈpjɛːɡo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mestiere",
@@ -7293,8 +6988,7 @@
         "partitive": "del",
         "transcription": "mesˈtjɛːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cliente",
@@ -7317,8 +7011,7 @@
         "partitive": "del",
         "transcription": "ˈcliente",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "messaggio",
@@ -7341,8 +7034,7 @@
         "partitive": "del",
         "transcription": "mesˈsaddʒo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "email",
@@ -7365,8 +7057,7 @@
         "partitive": "dell'",
         "transcription": "ˈiːmeil",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sito web",
@@ -7389,8 +7080,7 @@
         "partitive": "del",
         "transcription": "ˈsiːto ˈwɛb",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "password",
@@ -7413,8 +7103,7 @@
         "partitive": "della",
         "transcription": "ˈpassvord",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "tastiera",
@@ -7437,8 +7126,7 @@
         "partitive": "della",
         "transcription": "tasˈtjɛːra",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mouse",
@@ -7461,8 +7149,7 @@
         "partitive": "del",
         "transcription": "ˈmouse",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "schermo",
@@ -7485,8 +7172,7 @@
         "partitive": "dello",
         "transcription": "ˈskɛrmo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "musica",
@@ -7509,8 +7195,7 @@
         "partitive": "della",
         "transcription": "ˈmusica",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "canzone",
@@ -7533,8 +7218,7 @@
         "partitive": "della",
         "transcription": "kanˈtsoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "film",
@@ -7557,8 +7241,7 @@
         "partitive": "del",
         "transcription": "ˈfilm",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "foto",
@@ -7581,8 +7264,7 @@
         "partitive": "della",
         "transcription": "ˈfɔːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sport",
@@ -7605,8 +7287,7 @@
         "partitive": "dello",
         "transcription": "ˈsport",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "calcio",
@@ -7629,8 +7310,7 @@
         "partitive": "del",
         "transcription": "ˈcalcio",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "tennis",
@@ -7653,8 +7333,7 @@
         "partitive": "del",
         "transcription": "ˈtennis",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "nuoto",
@@ -7677,8 +7356,7 @@
         "partitive": "del",
         "transcription": "ˈnuoto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mensa",
@@ -7701,8 +7379,7 @@
         "partitive": "della",
         "transcription": "ˈmɛnsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mercato",
@@ -7725,8 +7402,7 @@
         "partitive": "del",
         "transcription": "merˈkaːto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "biglietto",
@@ -7749,8 +7425,7 @@
         "partitive": "del",
         "transcription": "ˈbiglietto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ricevuta",
@@ -7773,8 +7448,7 @@
         "partitive": "della",
         "transcription": "ˈricevuta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fattura",
@@ -7797,8 +7471,7 @@
         "partitive": "della",
         "transcription": "fatˈtuːra",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "carta di credito",
@@ -7821,8 +7494,7 @@
         "partitive": "della",
         "transcription": "ˈkarta di ˈkreːdito",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "contanti",
@@ -7845,8 +7517,7 @@
         "partitive": "dei",
         "transcription": "konˈtanti",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sale",
@@ -7869,8 +7540,7 @@
         "partitive": "del",
         "transcription": "ˈsale",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pepe",
@@ -7893,8 +7563,7 @@
         "partitive": "del",
         "transcription": "ˈpepe",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "olio",
@@ -7917,8 +7586,7 @@
         "partitive": "dell'",
         "transcription": "ˈolio",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "aceto",
@@ -7941,8 +7609,7 @@
         "partitive": "dell'",
         "transcription": "ˈaceto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "merenda",
@@ -7965,8 +7632,7 @@
         "partitive": "della",
         "transcription": "meˈrɛnda",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ospite",
@@ -7989,8 +7655,7 @@
         "partitive": "dell'",
         "transcription": "ˈɔspite",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "festa",
@@ -8013,8 +7678,7 @@
         "partitive": "della",
         "transcription": "ˈfɛsta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "viaggiatore",
@@ -8037,8 +7701,7 @@
         "partitive": "del",
         "transcription": "viaddʒaˈtoːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "valigia",
@@ -8061,8 +7724,7 @@
         "partitive": "della",
         "transcription": "vaˈliːdʒa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "zaino",
@@ -8085,8 +7747,7 @@
         "partitive": "dello",
         "transcription": "ˈdzaino",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "passaporto",
@@ -8109,8 +7770,7 @@
         "partitive": "del",
         "transcription": "passaˈpɔrto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "mappa",
@@ -8133,8 +7793,7 @@
         "partitive": "della",
         "transcription": "ˈmappa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "piantina",
@@ -8157,8 +7816,7 @@
         "partitive": "della",
         "transcription": "pjanˈtiːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "via",
@@ -8181,8 +7839,7 @@
         "partitive": "della",
         "transcription": "ˈviːa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sentiero",
@@ -8205,8 +7862,7 @@
         "partitive": "del",
         "transcription": "senˈtjɛːro",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "piazza",
@@ -8229,8 +7885,7 @@
         "partitive": "della",
         "transcription": "ˈpjattsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ponte",
@@ -8253,8 +7908,7 @@
         "partitive": "del",
         "transcription": "ˈponte",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "foresta",
@@ -8277,8 +7931,7 @@
         "partitive": "della",
         "transcription": "foˈrɛsta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "campagna",
@@ -8301,8 +7954,7 @@
         "partitive": "della",
         "transcription": "kamˈpaɲɲa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "villaggio",
@@ -8325,8 +7977,7 @@
         "partitive": "del",
         "transcription": "vilˈladdʒo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lingua",
@@ -8349,8 +8000,7 @@
         "partitive": "della",
         "transcription": "ˈlingua",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "parola",
@@ -8373,8 +8023,7 @@
         "partitive": "della",
         "transcription": "paˈrɔːla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "frase",
@@ -8397,8 +8046,7 @@
         "partitive": "della",
         "transcription": "ˈfraːze",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "domanda",
@@ -8421,8 +8069,7 @@
         "partitive": "della",
         "transcription": "ˈdomanda",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "risposta",
@@ -8445,8 +8092,7 @@
         "partitive": "della",
         "transcription": "risˈpɔsta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "idea",
@@ -8469,8 +8115,7 @@
         "partitive": "dell'",
         "transcription": "iˈdɛːa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "parere",
@@ -8493,8 +8138,7 @@
         "partitive": "del",
         "transcription": "paˈreːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "opinione",
@@ -8517,8 +8161,7 @@
         "partitive": "dell'",
         "transcription": "opiniˈoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "scelta",
@@ -8541,8 +8184,7 @@
         "partitive": "della",
         "transcription": "ˈʃɛlta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "decisione",
@@ -8565,8 +8207,7 @@
         "partitive": "della",
         "transcription": "detʃiziˈoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "piano",
@@ -8589,8 +8230,7 @@
         "partitive": "del",
         "transcription": "ˈpjaːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "progetto",
@@ -8613,8 +8253,7 @@
         "partitive": "del",
         "transcription": "proˈdʒɛtto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "successo",
@@ -8637,8 +8276,7 @@
         "partitive": "del",
         "transcription": "sutˈtʃɛsso",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "errore",
@@ -8661,8 +8299,7 @@
         "partitive": "dell'",
         "transcription": "ˈerrore",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sbaglio",
@@ -8685,8 +8322,7 @@
         "partitive": "dello",
         "transcription": "ˈzbaʎʎo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "vendita",
@@ -8709,8 +8345,7 @@
         "partitive": "della",
         "transcription": "ˈvendita",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "acquisto",
@@ -8733,8 +8368,7 @@
         "partitive": "dell'",
         "transcription": "akˈkwisto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "boutique",
@@ -8757,8 +8391,7 @@
         "partitive": "della",
         "transcription": "buˈtik",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "centro commerciale",
@@ -8781,8 +8414,7 @@
         "partitive": "del",
         "transcription": "ˈtʃɛntro kommerˈtʃaːle",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "monete",
@@ -8805,8 +8437,7 @@
         "partitive": "delle",
         "transcription": "moˈneːte",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "banconota",
@@ -8829,8 +8460,7 @@
         "partitive": "della",
         "transcription": "baŋkoˈnɔːta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "conto",
@@ -8853,8 +8483,7 @@
         "partitive": "del",
         "transcription": "ˈkonto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "risparmio",
@@ -8877,8 +8506,7 @@
         "partitive": "del",
         "transcription": "risˈparmjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "spesa",
@@ -8901,8 +8529,7 @@
         "partitive": "della",
         "transcription": "ˈspeːza",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pagamento",
@@ -8925,8 +8552,7 @@
         "partitive": "del",
         "transcription": "paɡaˈmento",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "prodotto",
@@ -8949,8 +8575,7 @@
         "partitive": "del",
         "transcription": "proˈdɔtto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "servizio",
@@ -8973,8 +8598,7 @@
         "partitive": "del",
         "transcription": "serˈvittsjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "offerta",
@@ -8997,8 +8621,7 @@
         "partitive": "dell'",
         "transcription": "ofˈfɛrta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "consegna",
@@ -9021,8 +8644,7 @@
         "partitive": "della",
         "transcription": "konˈseɲɲa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ordine",
@@ -9045,8 +8667,7 @@
         "partitive": "dell'",
         "transcription": "ˈordine",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "clientela",
@@ -9069,8 +8690,7 @@
         "partitive": "della",
         "transcription": "klijenˈtɛːla",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "entrata",
@@ -9093,8 +8713,7 @@
         "partitive": "dell'",
         "transcription": "enˈtraːta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "uscita",
@@ -9117,8 +8736,7 @@
         "partitive": "dell'",
         "transcription": "uʃˈʃiːta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "scale",
@@ -9141,8 +8759,7 @@
         "partitive": "delle",
         "transcription": "ˈskaːle",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ascensore",
@@ -9165,8 +8782,7 @@
         "partitive": "dell'",
         "transcription": "aʃʃenˈsoːre",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "corridoio",
@@ -9189,8 +8805,7 @@
         "partitive": "del",
         "transcription": "korriˈdoːjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "muri",
@@ -9213,8 +8828,7 @@
         "partitive": "dei",
         "transcription": "ˈmuːri",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "tetto",
@@ -9237,8 +8851,7 @@
         "partitive": "del",
         "transcription": "ˈtetto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "giardino",
@@ -9261,8 +8874,7 @@
         "partitive": "del",
         "transcription": "dʒarˈdiːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "garage",
@@ -9285,8 +8897,7 @@
         "partitive": "del",
         "transcription": "ɡaˈraːʒ",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "soggiorno",
@@ -9309,8 +8920,7 @@
         "partitive": "del",
         "transcription": "sodˈdʒorno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sala da pranzo",
@@ -9333,8 +8943,7 @@
         "partitive": "della",
         "transcription": "ˈsaːla da ˈprandzo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "doccia",
@@ -9357,8 +8966,7 @@
         "partitive": "della",
         "transcription": "ˈdottʃa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "rubinetto",
@@ -9381,8 +8989,7 @@
         "partitive": "del",
         "transcription": "rubiˈnetto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sapone",
@@ -9405,8 +9012,7 @@
         "partitive": "del",
         "transcription": "saˈpoːne",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "asciugamano",
@@ -9429,8 +9035,7 @@
         "partitive": "dell'",
         "transcription": "aʃʃuɡaˈmaːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cuscino",
@@ -9453,8 +9058,7 @@
         "partitive": "del",
         "transcription": "kuʃˈʃiːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "coperta",
@@ -9477,8 +9081,7 @@
         "partitive": "della",
         "transcription": "koˈpɛrta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "armadio",
@@ -9501,8 +9104,7 @@
         "partitive": "dell'",
         "transcription": "arˈmaːdjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "scaffale",
@@ -9525,8 +9127,7 @@
         "partitive": "dello",
         "transcription": "skafˈfaːle",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "poltrona",
@@ -9549,8 +9150,7 @@
         "partitive": "della",
         "transcription": "polˈtroːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "divano",
@@ -9573,8 +9173,7 @@
         "partitive": "del",
         "transcription": "diˈvaːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "radio",
@@ -9597,8 +9196,7 @@
         "partitive": "della",
         "transcription": "ˈraːdjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sveglia",
@@ -9621,8 +9219,7 @@
         "partitive": "della",
         "transcription": "ˈzveʎʎa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "jeans",
@@ -9645,8 +9242,7 @@
         "partitive": "dei",
         "transcription": "ˈdʒiːnz",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "camicia",
@@ -9669,8 +9265,7 @@
         "partitive": "della",
         "transcription": "kaˈmiːtʃa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "t-shirt",
@@ -9693,8 +9288,7 @@
         "partitive": "della",
         "transcription": "ˈtiːʃert",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "giacca",
@@ -9717,8 +9311,7 @@
         "partitive": "della",
         "transcription": "ˈdʒakka",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "berretto",
@@ -9741,8 +9334,7 @@
         "partitive": "del",
         "transcription": "berˈretto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "zuccotto",
@@ -9765,8 +9357,7 @@
         "partitive": "dello",
         "transcription": "tsukˈkɔtto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "sciarpa",
@@ -9789,8 +9380,7 @@
         "partitive": "della",
         "transcription": "ˈʃarpa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "guanti",
@@ -9813,8 +9403,7 @@
         "partitive": "dei",
         "transcription": "ˈɡwanti",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "cintura",
@@ -9837,8 +9426,7 @@
         "partitive": "della",
         "transcription": "tʃinˈtuːra",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "costume da bagno",
@@ -9861,8 +9449,7 @@
         "partitive": "del",
         "transcription": "kosˈtuːme da ˈbaɲɲo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pigiama",
@@ -9885,8 +9472,7 @@
         "partitive": "del",
         "transcription": "piˈdʒaːma",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "fermata dell'autobus",
@@ -9909,8 +9495,7 @@
         "partitive": "della",
         "transcription": "ferˈmaːta delˈlautobus",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "banchina",
@@ -9933,8 +9518,7 @@
         "partitive": "della",
         "transcription": "baŋˈkiːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "binario",
@@ -9957,8 +9541,7 @@
         "partitive": "del",
         "transcription": "biˈnaːrjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "metropolitana",
@@ -9981,8 +9564,7 @@
         "partitive": "della",
         "transcription": "metropoliˈtaːna",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "taxi",
@@ -10005,8 +9587,7 @@
         "partitive": "del",
         "transcription": "ˈtaksi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "velocità",
@@ -10029,8 +9610,7 @@
         "partitive": "della",
         "transcription": "velotʃiˈta",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "bagagli",
@@ -10053,8 +9633,7 @@
         "partitive": "dei",
         "transcription": "baˈɡaʎʎi",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "partenza",
@@ -10077,8 +9656,7 @@
         "partitive": "della",
         "transcription": "parˈtɛntsa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "arrivo",
@@ -10101,8 +9679,7 @@
         "partitive": "dell'",
         "transcription": "arˈriːvo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "volo",
@@ -10125,8 +9702,7 @@
         "partitive": "del",
         "transcription": "ˈvoːlo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "prenotazione",
@@ -10149,8 +9725,7 @@
         "partitive": "della",
         "transcription": "prenotatˈtsjone",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "camera d'albergo",
@@ -10173,8 +9748,7 @@
         "partitive": "della",
         "transcription": "ˈkaːmera dalˈbɛrɡo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "reception",
@@ -10197,8 +9771,7 @@
         "partitive": "della",
         "transcription": "reˈtʃɛpʃon",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "spuntino",
@@ -10221,8 +9794,7 @@
         "partitive": "dello",
         "transcription": "spunˈtiːno",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pasto",
@@ -10245,8 +9817,7 @@
         "partitive": "del",
         "transcription": "ˈpasto",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "orario",
@@ -10269,8 +9840,7 @@
         "partitive": "dell'",
         "transcription": "oˈraːrjo",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10292,8 +9862,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10315,8 +9884,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10338,8 +9906,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10361,8 +9928,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10384,8 +9950,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10407,8 +9972,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "level": "starter",
@@ -10434,8 +9998,7 @@
             "notizia",
             "dato"
         ],
-        "subtext": "chiedere informazioni",
-        "antonyms": []
+        "subtext": "chiedere informazioni"
     },
     {
         "level": "starter",
@@ -10458,8 +10021,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "palla di neve",
-        "antonyms": []
+        "subtext": "palla di neve"
     },
     {
         "level": "starter",
@@ -10482,8 +10044,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "nebbia fitta",
-        "antonyms": []
+        "subtext": "nebbia fitta"
     },
     {
         "level": "starter",
@@ -10508,8 +10069,7 @@
         "synonyms": [
             "arredamento"
         ],
-        "subtext": "negozio di mobili",
-        "antonyms": []
+        "subtext": "negozio di mobili"
     },
     {
         "word": "banana",
@@ -10532,8 +10092,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pizza",
@@ -10556,8 +10115,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lavatrice",
@@ -10580,8 +10138,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "lavastoviglie",
@@ -10604,8 +10161,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "forno",
@@ -10628,8 +10184,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "frigorifero",
@@ -10654,8 +10209,7 @@
         "synonyms": [
             "frigo"
         ],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "tenda",
@@ -10678,8 +10232,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pesca",
@@ -10702,8 +10255,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "pera",
@@ -10726,8 +10278,7 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
     },
     {
         "word": "ciliegia",
@@ -10750,8 +10301,409 @@
             }
         ],
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
+        "subtext": ""
+    },
+    {
+        "word": "zanzara",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🦟",
+        "form": "noun",
+        "plural": "zanzare",
+        "transcription": "dzanˈdzara",
+        "definitions": [
+            {
+                "text": "Un piccolo insetto volante che punge e succhia il sangue.",
+                "examples": [
+                    "Una zanzara mi ha punto stanotte."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "insetto fastidioso",
+        "opposite": null,
+        "synonyms": []
+    },
+    {
+        "word": "coleottero",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🪲",
+        "form": "noun",
+        "plural": "coleotteri",
+        "transcription": "koleˈɔttero",
+        "definitions": [
+            {
+                "text": "Un insetto con ali anteriori rigide come scudi.",
+                "examples": [
+                    "Ho visto un coleottero nero in giardino."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "insetto comune",
+        "opposite": null,
+        "synonyms": []
+    },
+    {
+        "word": "tromba",
+        "level": "starter",
+        "theme": "music_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎺",
+        "form": "noun",
+        "plural": "trombe",
+        "transcription": "ˈtromba",
+        "definitions": [
+            {
+                "text": "Uno strumento musicale a fiato in ottone.",
+                "examples": [
+                    "Lui suona la tromba in una banda."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "strumento a fiato",
+        "opposite": null,
+        "synonyms": []
+    },
+    {
+        "word": "microonde",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍲",
+        "form": "noun",
+        "plural": "microonde",
+        "transcription": "mikroˈonde",
+        "definitions": [
+            {
+                "text": "Un apparecchio per riscaldare il cibo velocemente.",
+                "examples": [
+                    "Uso il microonde per scaldare il latte."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico da cucina",
+        "opposite": null,
+        "synonyms": []
+    },
+    {
+        "word": "gomma",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧼",
+        "form": "noun",
+        "plural": "gomme",
+        "transcription": "ˈɡomma",
+        "definitions": [
+            {
+                "text": "Oggetto usato per cancellare segni di matita.",
+                "examples": [
+                    "Uso la gomma per cancellare l'errore."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "quaderno",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📓",
+        "form": "noun",
+        "plural": "quaderni",
+        "transcription": "kwaˈdɛrno",
+        "definitions": [
+            {
+                "text": "Insieme di fogli bianchi per scrivere.",
+                "examples": [
+                    "Scrivo i compiti sul quaderno."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "righello",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📏",
+        "form": "noun",
+        "plural": "righelli",
+        "transcription": "riˈɡɛllo",
+        "definitions": [
+            {
+                "text": "Strumento per misurare e tirare linee dritte.",
+                "examples": [
+                    "Usa il righello per fare una linea."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "astuccio",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "👝",
+        "form": "noun",
+        "plural": "astucci",
+        "transcription": "asˈtuttʃo",
+        "definitions": [
+            {
+                "text": "Contenitore per penne e matite.",
+                "examples": [
+                    "Metti le penne nell'astuccio."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "dell'",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "scopa",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧹",
+        "form": "noun",
+        "plural": "scope",
+        "transcription": "ˈskoːpa",
+        "definitions": [
+            {
+                "text": "Strumento per pulire il pavimento.",
+                "examples": [
+                    "Uso la scopa per pulire la cucina."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "pulizia casa",
+        "synonyms": []
+    },
+    {
+        "word": "ferro da stiro",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": "ferri da stiro",
+        "transcription": "ˈfɛrro da ˈstiːro",
+        "definitions": [
+            {
+                "text": "Apparecchio per togliere le pieghe dai vestiti.",
+                "examples": [
+                    "Stiro la camicia col ferro da stiro."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico",
+        "synonyms": []
+    },
+    {
+        "word": "tostapane",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍞",
+        "form": "noun",
+        "plural": "tostapane",
+        "transcription": "tostaˈpaːne",
+        "definitions": [
+            {
+                "text": "Apparecchio per tostare il pane.",
+                "examples": [
+                    "Metti il pane nel tostapane."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico da cucina",
+        "synonyms": []
+    },
+    {
+        "word": "bollitore",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🫖",
+        "form": "noun",
+        "plural": "bollitori",
+        "transcription": "bolliˈtoːre",
+        "definitions": [
+            {
+                "text": "Apparecchio per far bollire l'acqua.",
+                "examples": [
+                    "Uso il bollitore per fare il tè."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico da cucina",
+        "synonyms": []
+    },
+    {
+        "word": "davanti a",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "⬅️",
+        "form": "preposition",
+        "transcription": "daˈvanti a",
+        "definitions": [
+            {
+                "text": "In posizione anteriore rispetto a qualcosa.",
+                "examples": [
+                    "La macchina è davanti alla casa."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": []
+    },
+    {
+        "word": "dietro a",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "➡️",
+        "form": "preposition",
+        "transcription": "ˈdjɛːtro a",
+        "definitions": [
+            {
+                "text": "In posizione posteriore rispetto a qualcosa.",
+                "examples": [
+                    "Il gatto è dietro al divano."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": []
+    },
+    {
+        "word": "accanto a",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "↔️",
+        "form": "preposition",
+        "transcription": "akˈkanto a",
+        "definitions": [
+            {
+                "text": "A lato di qualcosa.",
+                "examples": [
+                    "La sedia è accanto al tavolo."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": [
+            "vicino a"
+        ]
+    },
+    {
+        "word": "tra",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "📍",
+        "form": "preposition",
+        "transcription": "ˈtra",
+        "definitions": [
+            {
+                "text": "In mezzo a due cose o persone.",
+                "examples": [
+                    "Il bar è tra la banca e il cinema."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": [
+            "fra"
+        ]
+    },
+    {
+        "word": "schermata",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📱",
+        "form": "noun",
+        "plural": "schermate",
+        "transcription": "skerˈmaːta",
+        "definitions": [
+            {
+                "text": "Ciò che appare sullo schermo del telefono.",
+                "examples": [
+                    "Guarda questa schermata."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "tecnologia",
+        "synonyms": []
+    },
+    {
+        "word": "app",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "📲",
+        "form": "noun",
+        "plural": "app",
+        "transcription": "ˈapp",
+        "definitions": [
+            {
+                "text": "Programma per lo smartphone.",
+                "examples": [
+                    "Scarico una nuova app."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "dell'",
+        "subtext": "tecnologia",
+        "synonyms": []
     }
 ];
     const lang = "it";

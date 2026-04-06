@@ -20,7 +20,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "francese",
@@ -42,7 +43,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "inglese",
@@ -64,7 +66,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "americano",
@@ -86,7 +89,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "spagnolo",
@@ -108,7 +112,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "tedesco",
@@ -130,7 +135,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "cinese",
@@ -152,7 +158,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "giapponese",
@@ -174,7 +181,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "russo",
@@ -196,7 +204,8 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "synonyms": []
     },
     {
         "word": "nazionalità",
@@ -219,7 +228,8 @@
                 ]
             }
         ],
-        "subtext": "nazionalità italiana, doppia nazionalità"
+        "subtext": "nazionalità italiana, doppia nazionalità",
+        "synonyms": []
     }
 ];
 
