@@ -6974,6 +6974,92 @@
         ],
         "opposite": "weakly",
         "transcription": "ˈstrɒŋli"
+    },
+    {
+        "word": "although",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "form": "conjunction",
+        "transcription": "ɔːlˈðoʊ",
+        "definitions": [
+            {
+                "text": "Used for introducing a statement that makes your main statement seem surprising.",
+                "examples": [
+                    "Although he was tired, he finished the report.",
+                    "We went for a walk although it was raining."
+                ]
+            }
+        ],
+        "subtext": "even though, but",
+        "synonyms": [
+            "even though"
+        ],
+        "opposite": "because"
+    },
+    {
+        "word": "however",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "form": "adverb",
+        "transcription": "haʊˈɛvər",
+        "definitions": [
+            {
+                "text": "Used to introduce a statement that contrasts with or seems to contradict something that has been said previously.",
+                "examples": [
+                    "He is very busy; however, he always finds time to help.",
+                    "The results were good; however, there is room for improvement."
+                ]
+            }
+        ],
+        "subtext": "but, nevertheless",
+        "synonyms": [
+            "nevertheless"
+        ],
+        "opposite": "therefore"
+    },
+    {
+        "word": "since",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "form": "conjunction",
+        "transcription": "sɪns",
+        "definitions": [
+            {
+                "text": "Used to give a reason for something.",
+                "examples": [
+                    "Since it's your birthday, I'll buy you lunch.",
+                    "He has worked here since 2020."
+                ]
+            }
+        ],
+        "subtext": "because, from a time",
+        "synonyms": [
+            "because",
+            "as"
+        ],
+        "opposite": "until"
+    },
+    {
+        "word": "while",
+        "level": "elementary",
+        "theme": "sequence_order_A2",
+        "form": "conjunction",
+        "transcription": "waɪl",
+        "definitions": [
+            {
+                "text": "During the time that something is happening.",
+                "examples": [
+                    "I like to listen to music while I work.",
+                    "While he was waiting, he read a book."
+                ]
+            }
+        ],
+        "subtext": "during, at the same time",
+        "synonyms": [
+            "during",
+            "at the same time"
+        ],
+        "opposite": "before"
     }
 ];
     const lang = "en";
