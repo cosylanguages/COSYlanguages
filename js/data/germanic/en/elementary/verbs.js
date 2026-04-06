@@ -26,7 +26,7 @@
         "aspect": "action",
         "v2": "accepted",
         "v3": "accepted",
-        "opposite": "refuse"
+        "opposite": "turn down"
     },
     {
         "word": "achieve",
@@ -185,7 +185,7 @@
         "aspect": "action",
         "v2": "allowed",
         "v3": "allowed",
-        "opposite": "forbid",
+        "opposite": "prohibit",
         "transcription": "əˈlaʊ"
     },
     {
@@ -644,7 +644,7 @@
         "aspect": "action",
         "v2": "blamed",
         "v3": "blamed",
-        "opposite": "praise",
+        "opposite": "forgive",
         "transcription": "bleɪm"
     },
     {
@@ -1233,7 +1233,7 @@
         "aspect": "both",
         "v2": "continued",
         "v3": "continued",
-        "opposite": "stop",
+        "opposite": "interrupt",
         "transcription": "kənˈtɪnjuː"
     },
     {
@@ -1590,7 +1590,7 @@
         "aspect": "action",
         "v2": "destroyed",
         "v3": "destroyed",
-        "opposite": "build",
+        "opposite": "create",
         "transcription": "dɪˈstrɔɪ"
     },
     {
@@ -1793,7 +1793,7 @@
         "aspect": "stative",
         "v2": "doubted",
         "v3": "doubted",
-        "opposite": "believe",
+        "opposite": "trust",
         "transcription": "daʊt"
     },
     {
@@ -2203,7 +2203,7 @@
         "aspect": "action",
         "v2": "gave up",
         "v3": "given up",
-        "opposite": "continue",
+        "opposite": "claim",
         "transcription": "ɡɪv ʌp"
     },
     {
@@ -2275,7 +2275,7 @@
         "aspect": "both",
         "v2": "guessed",
         "v3": "guessed",
-        "opposite": "know",
+        "opposite": "calculate",
         "transcription": "ɡɛs",
         "synonyms": [
             "estimate"
@@ -2326,7 +2326,7 @@
         "aspect": "action",
         "v2": "hired",
         "v3": "hired",
-        "opposite": "fire",
+        "opposite": "dismiss",
         "transcription": "ˈhaɪər",
         "synonyms": [
             "rent",
@@ -2378,7 +2378,7 @@
         "aspect": "action",
         "v2": "ignored",
         "v3": "ignored",
-        "opposite": "notice",
+        "opposite": "respond",
         "transcription": "ɪɡˈnɔːr",
         "synonyms": [
             "not listen to"
@@ -2532,7 +2532,7 @@
         "aspect": "both",
         "v2": "increased",
         "v3": "increased",
-        "opposite": "decrease",
+        "opposite": "reduce",
         "transcription": "ɪnˈkriːs",
         "synonyms": [
             "grow",
@@ -3156,7 +3156,7 @@
         "aspect": "action",
         "v2": "performed",
         "v3": "performed",
-        "opposite": "watch",
+        "opposite": "rehearse",
         "transcription": "pərˈfɔːrm",
         "synonyms": [
             "act",
@@ -3637,7 +3637,7 @@
         "aspect": "action",
         "v2": "refused",
         "v3": "refused",
-        "opposite": "accept",
+        "opposite": "take on",
         "transcription": "rɪˈfjuːz",
         "synonyms": [
             "say no",
@@ -3688,7 +3688,7 @@
         "aspect": "action",
         "v2": "repaired",
         "v3": "repaired",
-        "opposite": "break",
+        "opposite": "damage",
         "transcription": "rɪˈpɛər",
         "synonyms": [
             "fix"
@@ -3789,7 +3789,7 @@
         "aspect": "action",
         "v2": "resigned",
         "v3": "resigned",
-        "opposite": "join",
+        "opposite": "apply for",
         "transcription": "rɪˈzaɪn",
         "synonyms": [
             "quit",
@@ -4606,7 +4606,7 @@
         "aspect": "action",
         "v2": "released",
         "v3": "released",
-        "opposite": "capture",
+        "opposite": "control",
         "transcription": "rɪˈliːs"
     },
     {
