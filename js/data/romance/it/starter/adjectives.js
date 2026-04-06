@@ -31,6 +31,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "🤤",
         "form": "adjective",
+        "transcription": "affaˈmato",
         "plural": "affamati",
         "femininePlural": "affamate",
         "definitions": [
@@ -57,6 +58,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😐",
         "form": "adjective",
+        "transcription": "annoˈjaːto",
         "plural": "annoiati",
         "femininePlural": "annoiate",
         "definitions": [
@@ -78,6 +80,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😠",
         "form": "adjective",
+        "transcription": "arrabˈbjaːto",
         "plural": "arrabbiati",
         "femininePlural": "arrabbiate",
         "definitions": [
@@ -118,6 +121,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "transcription": "deˈluːzo",
         "feminine": "delusa",
         "plural": "delusi",
         "femininePlural": "deluse",
@@ -140,6 +144,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "🥺",
         "form": "adjective",
+        "transcription": "dispjaˈtʃuːto",
         "plural": "dispiaciuti",
         "femininePlural": "dispiaciute",
         "definitions": [
@@ -162,6 +167,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "transcription": "infeˈliːtʃe",
         "feminine": "infelice",
         "plural": "infelici",
         "femininePlural": "infelici",
@@ -182,6 +188,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "transcription": "nerˈvoːzo",
         "feminine": "nervosa",
         "plural": "nervosi",
         "femininePlural": "nervose",
@@ -202,6 +209,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "transcription": "preokkuˈpaːto",
         "feminine": "preoccupata",
         "plural": "preoccupati",
         "femininePlural": "preoccupate",
@@ -229,6 +237,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😨",
         "form": "adjective",
+        "transcription": "spavenˈtaːto",
         "plural": "spaventati",
         "femininePlural": "spaventate",
         "definitions": [
@@ -275,6 +284,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "transcription": "stresˈsaːto",
         "feminine": "stressata",
         "plural": "stressati",
         "femininePlural": "stressate",
@@ -323,6 +333,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤩",
         "form": "adjective",
+        "transcription": "emottstsoˈnaːto",
         "plural": "emozionati",
         "femininePlural": "emozionate",
         "definitions": [
@@ -390,6 +401,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
+        "transcription": "rilasˈsaːto",
         "feminine": "rilassata",
         "plural": "rilassati",
         "femininePlural": "rilassate",
@@ -436,6 +448,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
+        "transcription": "sorˈpreːzo",
         "feminine": "sorpresa",
         "plural": "sorpresi",
         "femininePlural": "sorprese",
@@ -457,6 +470,7 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
+        "transcription": "onˈlaːjn",
         "definitions": [
             {
                 "text": "Utilizzando internet.",
@@ -476,11 +490,12 @@
     },
     {
         "word": "arancione",
-        "feminine": "arancioni",
+        "feminine": "arancione",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟧",
         "form": "adjective",
+        "transcription": "aranˈtʃoːne",
         "plural": "arancioni",
         "femininePlural": "arancioni",
         "definitions": [
@@ -502,6 +517,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⚪",
         "form": "adjective",
+        "transcription": "ardʒenˈtaːto",
         "plural": "argentati",
         "femininePlural": "argentate",
         "definitions": [
@@ -573,6 +589,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟡",
         "form": "adjective",
+        "transcription": "doˈraːto",
         "plural": "dorati",
         "femininePlural": "dorate",
         "definitions": [
@@ -621,6 +638,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🩶",
         "form": "adjective",
+        "transcription": "ˈɡriːdʒo",
         "plural": "grigi",
         "femininePlural": "grigie",
         "definitions": [
@@ -645,6 +663,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟫",
         "form": "adjective",
+        "transcription": "marˈroːne",
         "plural": "marroni",
         "femininePlural": "marroni",
         "definitions": [
@@ -692,6 +711,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🩷",
         "form": "adjective",
+        "transcription": "ˈrɔːza",
         "plural": "rosa",
         "femininePlural": "rosa",
         "definitions": [
@@ -761,6 +781,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
+        "transcription": "a ˈtɛmpo parˈtsjaːle",
         "opposite": "a tempo pieno",
         "oppositeEmoji": "⏰",
         "definitions": [
@@ -787,6 +808,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
+        "transcription": "a ˈtɛmpo ˈpjɛːno",
         "opposite": "a tempo parziale",
         "oppositeEmoji": "⏳",
         "definitions": [
@@ -835,6 +857,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "amiˈkeːvole",
         "feminine": "amichevole",
         "plural": "amichevoli",
         "femininePlural": "amichevoli",
@@ -894,7 +917,7 @@
         ],
         "feminine": "antipatica",
         "plural": "antipatici",
-        "femininePlural": "antipatice"
+        "femininePlural": "antipatiche"
     },
     {
         "word": "attento",
@@ -975,6 +998,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "kaˈriːno",
         "feminine": "carina",
         "plural": "carini",
         "femininePlural": "carine",
@@ -1001,6 +1025,7 @@
         "theme": "describing_things_A1",
         "emoji": "💧",
         "form": "adjective",
+        "transcription": "ˈkjaːro",
         "plural": "chiari",
         "femininePlural": "chiare",
         "definitions": [
@@ -1024,6 +1049,7 @@
         "theme": "describing_things_A1",
         "emoji": "🐭",
         "form": "adjective",
+        "transcription": "koˈdardo",
         "plural": "codardi",
         "femininePlural": "codarde",
         "definitions": [
@@ -1046,6 +1072,7 @@
         "theme": "describing_things_A1",
         "emoji": "🔄",
         "form": "adjective",
+        "transcription": "koˈmuːne",
         "plural": "comuni",
         "femininePlural": "comuni",
         "definitions": [
@@ -1068,6 +1095,7 @@
         "theme": "describing_things_A1",
         "emoji": "🦁",
         "form": "adjective",
+        "transcription": "koradˈdʒoːzo",
         "plural": "coraggiosi",
         "femininePlural": "coraggiose",
         "definitions": [
@@ -1088,6 +1116,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "korˈrɛtto",
         "feminine": "corretta",
         "plural": "corretti",
         "femininePlural": "corrette",
@@ -1134,6 +1163,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "ˈdeːbole",
         "feminine": "debole",
         "plural": "deboli",
         "femininePlural": "deboli",
@@ -1156,6 +1186,7 @@
         "theme": "describing_things_A1",
         "emoji": "↔️",
         "form": "adjective",
+        "transcription": "diffeˈrɛnte",
         "plural": "differenti",
         "femininePlural": "differenti",
         "definitions": [
@@ -1201,6 +1232,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "etʃtʃelˈlɛnte",
         "feminine": "eccellente",
         "plural": "eccellenti",
         "femininePlural": "eccellenti",
@@ -1224,6 +1256,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "eduˈkaːto",
         "feminine": "educata",
         "plural": "educati",
         "femininePlural": "educate",
@@ -1274,6 +1307,7 @@
         "theme": "describing_things_A1",
         "emoji": "🤩",
         "form": "adjective",
+        "transcription": "fanˈtastiko",
         "plural": "fantastici",
         "femininePlural": "fantastiche",
         "definitions": [
@@ -1297,6 +1331,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "ˈfɔrte",
         "feminine": "forte",
         "plural": "forti",
         "femininePlural": "forti",
@@ -1393,6 +1428,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "imposˈsiːbile",
         "feminine": "impossibile",
         "plural": "impossibili",
         "femininePlural": "impossibili",
@@ -1415,6 +1451,7 @@
         "theme": "describing_things_A1",
         "emoji": "😲",
         "form": "adjective",
+        "transcription": "inkreˈdiːbile",
         "plural": "incredibili",
         "femininePlural": "incredibili",
         "definitions": [
@@ -1481,6 +1518,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "iˈnuːtile",
         "feminine": "inutile",
         "plural": "inutili",
         "femininePlural": "inutili",
@@ -1503,6 +1541,7 @@
         "theme": "describing_things_A1",
         "emoji": "💡",
         "form": "adjective",
+        "transcription": "lumiˈnoːzo",
         "plural": "luminosi",
         "femininePlural": "luminose",
         "definitions": [
@@ -1523,6 +1562,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "maleduˈkaːto",
         "feminine": "maleducata",
         "plural": "maleducati",
         "femininePlural": "maleducate",
@@ -1549,6 +1589,7 @@
         "theme": "describing_things_A1",
         "emoji": "✨",
         "form": "adjective",
+        "transcription": "meraviʎˈʎoːzo",
         "plural": "meravigliosi",
         "femininePlural": "meravigliose",
         "definitions": [
@@ -1594,6 +1635,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "netʃesˈsaːrjo",
         "feminine": "necessaria",
         "plural": "necessari",
         "femininePlural": "necessarie",
@@ -1641,6 +1683,7 @@
         "theme": "describing_things_A1",
         "emoji": "😇",
         "form": "adjective",
+        "transcription": "oˈnɛsto",
         "plural": "onesti",
         "femininePlural": "oneste",
         "definitions": [
@@ -1661,6 +1704,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "orɡoʎˈʎoːzo",
         "feminine": "orgogliosa",
         "plural": "orgogliosi",
         "femininePlural": "orgogliose",
@@ -1678,7 +1722,7 @@
             "molto fiero"
         ],
         "comparative": "più orgoglioso",
-        "superlative": "il più orgoglioso"
+        "superlative": "il più di orgoglioso"
     },
     {
         "word": "orribile",
@@ -1687,6 +1731,7 @@
         "theme": "describing_things_A1",
         "emoji": "🤮",
         "form": "adjective",
+        "transcription": "orˈriːbile",
         "plural": "orribili",
         "femininePlural": "orribili",
         "definitions": [
@@ -1732,6 +1777,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "perˈfɛtto",
         "feminine": "perfetta",
         "plural": "perfetti",
         "femininePlural": "perfette",
@@ -1755,6 +1801,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "ˈpiːɡro",
         "feminine": "pigra",
         "plural": "pigri",
         "femininePlural": "pigre",
@@ -1775,6 +1822,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "popoˈlaːre",
         "feminine": "popolare",
         "plural": "popolari",
         "femininePlural": "popolari",
@@ -1795,6 +1843,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "posˈsiːbile",
         "feminine": "possibile",
         "plural": "possibili",
         "femininePlural": "possibili",
@@ -1840,6 +1889,7 @@
         "theme": "describing_things_A1",
         "emoji": "🔊",
         "form": "adjective",
+        "transcription": "rumoˈroːzo",
         "plural": "rumorosi",
         "femininePlural": "rumorose",
         "definitions": [
@@ -1894,6 +1944,7 @@
         "theme": "describing_things_A1",
         "emoji": "🌑",
         "form": "adjective",
+        "transcription": "ˈskuːro",
         "plural": "scuri",
         "femininePlural": "scure",
         "definitions": [
@@ -1916,6 +1967,7 @@
         "theme": "describing_things_A1",
         "emoji": "✅",
         "form": "adjective",
+        "transcription": "ˈsɛmpliːtʃe",
         "plural": "semplici",
         "femininePlural": "semplici",
         "definitions": [
@@ -1959,6 +2011,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "siˈkuːro di ˈsɛ",
         "feminine": "sicura di sé",
         "plural": "sicuri di sé",
         "femininePlural": "sicure di sé",
@@ -1985,6 +2038,7 @@
         "theme": "describing_things_A1",
         "emoji": "🤫",
         "form": "adjective",
+        "transcription": "silenˈtsjoːzo",
         "plural": "silenziosi",
         "femininePlural": "silenziose",
         "definitions": [
@@ -2009,6 +2063,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "ˈsiːmiːle",
         "feminine": "simile",
         "plural": "simili",
         "femininePlural": "simili",
@@ -2045,13 +2100,14 @@
         ],
         "feminine": "simpatica",
         "plural": "simpatici",
-        "femininePlural": "simpatice"
+        "femininePlural": "simpatiche"
     },
     {
         "word": "speciale",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "speˈtʃaːle",
         "feminine": "speciale",
         "plural": "speciali",
         "femininePlural": "speciali",
@@ -2074,6 +2130,7 @@
         "theme": "describing_things_A1",
         "emoji": "identical",
         "form": "adjective",
+        "transcription": "ˈstesso",
         "plural": "stessi",
         "femininePlural": "stesse",
         "definitions": [
@@ -2098,6 +2155,7 @@
         "theme": "describing_things_A1",
         "emoji": "😫",
         "form": "adjective",
+        "transcription": "terˈriːbile",
         "plural": "terribili",
         "femininePlural": "terribili",
         "definitions": [
@@ -2120,6 +2178,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "transcription": "ˈuːtile",
         "feminine": "utile",
         "plural": "utili",
         "femininePlural": "utili",
@@ -2273,6 +2332,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "💎",
         "form": "adjective",
+        "transcription": "kosˈtoːzo",
         "plural": "costosi",
         "femininePlural": "costose",
         "definitions": [
@@ -2304,6 +2364,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
+        "transcription": "ekoˈnɔːmiko",
         "opposite": "costoso",
         "oppositeEmoji": "💎",
         "feminine": "economica",
@@ -2363,6 +2424,7 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
+        "transcription": "ˈsoːlo",
         "opposite": "insieme",
         "oppositeEmoji": "👫",
         "definitions": [
@@ -2465,6 +2527,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "form": "adjective",
+        "transcription": "in ˈfɔrma",
         "feminine": "in forma",
         "plural": "in forma",
         "femininePlural": "in forma",
@@ -2725,6 +2788,7 @@
         "theme": "people_A1",
         "emoji": "🌟",
         "form": "adjective",
+        "transcription": "faˈmoːzo",
         "plural": "famosi",
         "femininePlural": "famose",
         "definitions": [
@@ -2860,6 +2924,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "🍔",
         "form": "adjective",
+        "transcription": "ˈɡrasso",
         "plural": "grassi",
         "femininePlural": "grasse",
         "definitions": [
@@ -2882,6 +2947,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "📏",
         "form": "adjective",
+        "transcription": "ˈliʃʃo",
         "plural": "lisci",
         "femininePlural": "lisce",
         "definitions": [
@@ -2904,6 +2970,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "🥬",
         "form": "adjective",
+        "transcription": "ˈmaːɡro",
         "plural": "magri",
         "femininePlural": "magre",
         "definitions": [
@@ -2926,6 +2993,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "🌀",
         "form": "adjective",
+        "transcription": "ˈrittʃo",
         "plural": "ricci",
         "femininePlural": "ricce",
         "definitions": [
@@ -2948,6 +3016,7 @@
         "theme": "plants_natural_world_A1",
         "emoji": "🌱",
         "form": "adjective",
+        "transcription": "natuˈraːle",
         "plural": "naturali",
         "femininePlural": "naturali",
         "definitions": [
@@ -3061,6 +3130,7 @@
         "theme": "size_measurements_A1",
         "emoji": "↔️",
         "form": "adjective",
+        "transcription": "ˈlarɡo",
         "plural": "larghi",
         "femininePlural": "larghe",
         "definitions": [
@@ -3083,6 +3153,7 @@
         "theme": "size_measurements_A1",
         "emoji": "⬇️",
         "form": "adjective",
+        "transcription": "ˈstretto",
         "plural": "stretti",
         "femininePlural": "strette",
         "definitions": [
@@ -3278,6 +3349,7 @@
         "theme": "size_shape_A1",
         "emoji": "🧱",
         "form": "adjective",
+        "transcription": "ˈduːro",
         "plural": "duri",
         "femininePlural": "dure",
         "definitions": [
@@ -3388,6 +3460,7 @@
         "theme": "size_shape_A1",
         "emoji": "🪶",
         "form": "adjective",
+        "transcription": "ledˈdʒɛːro",
         "plural": "leggeri",
         "femininePlural": "leggere",
         "definitions": [
@@ -3465,6 +3538,7 @@
         "theme": "size_shape_A1",
         "emoji": "☁️",
         "form": "adjective",
+        "transcription": "ˈmɔrbido",
         "plural": "morbidi",
         "femininePlural": "morbide",
         "definitions": [
@@ -3515,6 +3589,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
+        "transcription": "ordiˈnaːrjo",
         "opposite": "speciale",
         "oppositeEmoji": "✨",
         "definitions": [
@@ -3542,6 +3617,7 @@
         "theme": "size_shape_A1",
         "emoji": "🏋️",
         "form": "adjective",
+        "transcription": "peˈzante",
         "plural": "pesanti",
         "femininePlural": "pesanti",
         "definitions": [
@@ -3617,6 +3693,7 @@
         "theme": "size_shape_A1",
         "emoji": "📏",
         "form": "adjective",
+        "transcription": "ˈpɔko proˈfondo",
         "plural": "poco profondi",
         "femininePlural": "poco profonde",
         "definitions": [
@@ -3639,6 +3716,7 @@
         "theme": "size_shape_A1",
         "emoji": "🕳️",
         "form": "adjective",
+        "transcription": "proˈfondo",
         "plural": "profondi",
         "femininePlural": "profonde",
         "definitions": [
@@ -3810,6 +3888,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🍋",
         "form": "adjective",
+        "transcription": "ˈaːtʃido",
         "plural": "acidi",
         "femininePlural": "acide",
         "definitions": [
@@ -3832,6 +3911,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "☕",
         "form": "adjective",
+        "transcription": "aˈmaːro",
         "plural": "amari",
         "femininePlural": "amare",
         "definitions": [
@@ -3900,6 +3980,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🧂",
         "form": "adjective",
+        "transcription": "saˈlaːto",
         "plural": "salati",
         "femininePlural": "salate",
         "definitions": [
@@ -3970,6 +4051,7 @@
         "theme": "weather_A1",
         "emoji": "🏜️",
         "form": "adjective",
+        "transcription": "aʃˈʃutto",
         "plural": "asciutti",
         "femininePlural": "asciutte",
         "definitions": [
@@ -3995,6 +4077,7 @@
         "theme": "weather_A1",
         "emoji": "🚿",
         "form": "adjective",
+        "transcription": "baɲˈɲaːto",
         "plural": "bagnati",
         "femininePlural": "bagnate",
         "definitions": [
@@ -4071,6 +4154,7 @@
         "theme": "weather_A1",
         "emoji": "🌬️",
         "form": "adjective",
+        "transcription": "ˈfresko",
         "plural": "freschi",
         "femininePlural": "fresche",
         "definitions": [
@@ -4095,6 +4179,7 @@
         "theme": "weather_A1",
         "emoji": "🌫️",
         "form": "adjective",
+        "transcription": "nebˈbjoːzo",
         "plural": "nebbiosi",
         "femininePlural": "nebbiose",
         "definitions": [
@@ -4162,6 +4247,7 @@
         "theme": "weather_A1",
         "emoji": "🌧️",
         "form": "adjective",
+        "transcription": "pjoˈvoːzo",
         "definitions": [
             {
                 "text": "Con molta pioggia.",
@@ -4188,6 +4274,7 @@
         "theme": "weather_A1",
         "emoji": "☀️",
         "form": "adjective",
+        "transcription": "soledˈdʒaːto",
         "definitions": [
             {
                 "text": "Con molta luce dal sole.",
@@ -4238,6 +4325,7 @@
         "theme": "weather_A1",
         "emoji": "☀️",
         "form": "adjective",
+        "transcription": "ˈtjɛːpido",
         "plural": "tiepidi",
         "femininePlural": "tiepide",
         "definitions": [

@@ -637,6 +637,430 @@
         }
     },
     {
+        "verb": "potere",
+        "group": "ere",
+        "classification": "irregular",
+        "aspect": "stative",
+        "past_participle": "potuto",
+        "level": "starter",
+        "pronouns": [
+            "io",
+            "tu",
+            "lui",
+            "lei",
+            "noi",
+            "voi",
+            "loro"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "posso",
+                    "puoi",
+                    "può",
+                    "può",
+                    "possiamo",
+                    "potete",
+                    "possono"
+                ],
+                "negative": [
+                    "non posso",
+                    "non puoi",
+                    "non può",
+                    "non può",
+                    "non possiamo",
+                    "non potete",
+                    "non possono"
+                ],
+                "question": [
+                    "posso io",
+                    "puoi tu",
+                    "può lui",
+                    "può lei",
+                    "possiamo noi",
+                    "potete voi",
+                    "possono loro"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "ho potuto",
+                    "hai potuto",
+                    "ha potuto",
+                    "ha potuto",
+                    "abbiamo potuto",
+                    "avete potuto",
+                    "hanno potuto"
+                ],
+                "negative": [
+                    "non ho potuto",
+                    "non hai potuto",
+                    "non ha potuto",
+                    "non ha potuto",
+                    "non abbiamo potuto",
+                    "non avete potuto",
+                    "non hanno potuto"
+                ],
+                "question": [
+                    "ho potuto io",
+                    "hai potuto tu",
+                    "ha potuto lui",
+                    "ha potuto lei",
+                    "abbiamo potuto noi",
+                    "avete potuto voi",
+                    "hanno potuto loro"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "potrò",
+                    "potrai",
+                    "potrà",
+                    "potrà",
+                    "potremo",
+                    "potrete",
+                    "potranno"
+                ],
+                "negative": [
+                    "non potrò",
+                    "non potrai",
+                    "non potrà",
+                    "non potrà",
+                    "non potremo",
+                    "non potrete",
+                    "non potranno"
+                ],
+                "question": [
+                    "potrò io",
+                    "potrai tu",
+                    "potrà lui",
+                    "potrà lei",
+                    "potremo noi",
+                    "potrete voi",
+                    "potranno loro"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "volere",
+        "group": "ere",
+        "classification": "irregular",
+        "aspect": "stative",
+        "past_participle": "voluto",
+        "level": "starter",
+        "pronouns": [
+            "io",
+            "tu",
+            "lui",
+            "lei",
+            "noi",
+            "voi",
+            "loro"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "voglio",
+                    "vuoi",
+                    "vuole",
+                    "vuole",
+                    "vogliamo",
+                    "volete",
+                    "vogliono"
+                ],
+                "negative": [
+                    "non voglio",
+                    "non vuoi",
+                    "non vuole",
+                    "non vuole",
+                    "non vogliamo",
+                    "non volete",
+                    "non vogliono"
+                ],
+                "question": [
+                    "voglio io",
+                    "vuoi tu",
+                    "vuole lui",
+                    "vuole lei",
+                    "vogliamo noi",
+                    "volete voi",
+                    "vogliono loro"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "ho voluto",
+                    "hai voluto",
+                    "ha voluto",
+                    "ha voluto",
+                    "abbiamo voluto",
+                    "avete voluto",
+                    "hanno voluto"
+                ],
+                "negative": [
+                    "non ho voluto",
+                    "non hai voluto",
+                    "non ha voluto",
+                    "non ha voluto",
+                    "non abbiamo voluto",
+                    "non avete voluto",
+                    "non hanno voluto"
+                ],
+                "question": [
+                    "ho voluto io",
+                    "hai voluto tu",
+                    "ha voluto lui",
+                    "ha voluto lei",
+                    "abbiamo voluto noi",
+                    "avete voluto voi",
+                    "hanno voluto loro"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "vorrò",
+                    "vorrai",
+                    "vorrà",
+                    "vorrà",
+                    "vorremo",
+                    "vorrete",
+                    "vorranno"
+                ],
+                "negative": [
+                    "non vorrò",
+                    "non vorrai",
+                    "non vorrà",
+                    "non vorrà",
+                    "non vorremo",
+                    "non vorrete",
+                    "non vorranno"
+                ],
+                "question": [
+                    "vorrò io",
+                    "vorrai tu",
+                    "vorrà lui",
+                    "vorrà lei",
+                    "vorremo noi",
+                    "vorrete voi",
+                    "vorranno loro"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "dovere",
+        "group": "ere",
+        "classification": "irregular",
+        "aspect": "stative",
+        "past_participle": "dovuto",
+        "level": "starter",
+        "pronouns": [
+            "io",
+            "tu",
+            "lui",
+            "lei",
+            "noi",
+            "voi",
+            "loro"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "devo",
+                    "devi",
+                    "deve",
+                    "deve",
+                    "dobbiamo",
+                    "dovete",
+                    "devono"
+                ],
+                "negative": [
+                    "non devo",
+                    "non devi",
+                    "non deve",
+                    "non deve",
+                    "non dobbiamo",
+                    "non dovete",
+                    "non devono"
+                ],
+                "question": [
+                    "devo io",
+                    "devi tu",
+                    "deve lui",
+                    "deve lei",
+                    "dobbiamo noi",
+                    "dovete voi",
+                    "devono loro"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "ho dovuto",
+                    "hai dovuto",
+                    "ha dovuto",
+                    "ha dovuto",
+                    "abbiamo dovuto",
+                    "avete dovuto",
+                    "hanno dovuto"
+                ],
+                "negative": [
+                    "non ho dovuto",
+                    "non hai dovuto",
+                    "non ha dovuto",
+                    "non ha dovuto",
+                    "non abbiamo dovuto",
+                    "non avete dovuto",
+                    "non hanno dovuto"
+                ],
+                "question": [
+                    "ho dovuto io",
+                    "hai dovuto tu",
+                    "ha dovuto lui",
+                    "ha dovuto lei",
+                    "abbiamo dovuto noi",
+                    "avete dovuto voi",
+                    "hanno dovuto loro"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "dovrò",
+                    "dovrai",
+                    "dovrà",
+                    "dovrà",
+                    "dovremo",
+                    "dovrete",
+                    "dovranno"
+                ],
+                "negative": [
+                    "non dovrò",
+                    "non dovrai",
+                    "non dovrà",
+                    "non dovrà",
+                    "non dovremo",
+                    "non dovrete",
+                    "non dovranno"
+                ],
+                "question": [
+                    "dovrò io",
+                    "dovrai tu",
+                    "dovrà lui",
+                    "dovrà lei",
+                    "dovremo noi",
+                    "dovrete voi",
+                    "dovranno loro"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "stare",
+        "group": "are",
+        "classification": "irregular",
+        "aspect": "stative",
+        "past_participle": "stato",
+        "level": "starter",
+        "pronouns": [
+            "io",
+            "tu",
+            "lui",
+            "lei",
+            "noi",
+            "voi",
+            "loro"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "sto",
+                    "stai",
+                    "sta",
+                    "sta",
+                    "stiamo",
+                    "state",
+                    "stanno"
+                ],
+                "negative": [
+                    "non sto",
+                    "non stai",
+                    "non sta",
+                    "non sta",
+                    "non stiamo",
+                    "non state",
+                    "non stanno"
+                ],
+                "question": [
+                    "sto io",
+                    "stai tu",
+                    "sta lui",
+                    "sta lei",
+                    "stiamo noi",
+                    "state voi",
+                    "stanno loro"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "sono stato",
+                    "sei stato",
+                    "è stato",
+                    "è stata",
+                    "siamo stati",
+                    "siete stati",
+                    "sono stati"
+                ],
+                "negative": [
+                    "non sono stato",
+                    "non sei stato",
+                    "non è stato",
+                    "non è stata",
+                    "non siamo stati",
+                    "non siete stati",
+                    "non sono stati"
+                ],
+                "question": [
+                    "sono stato io",
+                    "sei stato tu",
+                    "è stato lui",
+                    "è stata lei",
+                    "siamo stati noi",
+                    "siete stati voi",
+                    "sono stati loro"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "starò",
+                    "starai",
+                    "starà",
+                    "starà",
+                    "staremo",
+                    "starete",
+                    "staranno"
+                ],
+                "negative": [
+                    "non starò",
+                    "non starai",
+                    "non starà",
+                    "non starà",
+                    "non staremo",
+                    "non starete",
+                    "non staranno"
+                ],
+                "question": [
+                    "starò io",
+                    "starai tu",
+                    "starà lui",
+                    "starà lei",
+                    "staremo noi",
+                    "starete voi",
+                    "staranno loro"
+                ]
+            }
+        }
+    },
+    {
         "verb": "parlare",
         "group": "-are",
         "classification": "regular",
