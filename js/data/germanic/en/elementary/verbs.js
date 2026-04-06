@@ -7,7 +7,7 @@
         "emoji": "✅",
         "form": "verb",
         "transcription": "əkˈsept",
-        "subtext": "",
+        "subtext": "agree to, take, receive",
         "synonyms": [
             "agree to",
             "take",
@@ -35,7 +35,7 @@
         "emoji": "🎯",
         "form": "verb",
         "transcription": "əˈtʃiːv",
-        "subtext": "",
+        "subtext": "succeed, reach, accomplish",
         "synonyms": [
             "succeed",
             "reach",
@@ -64,7 +64,7 @@
         "emoji": "🤩",
         "form": "verb",
         "transcription": "ədˈmaɪə",
-        "subtext": "",
+        "subtext": "respect, look up to",
         "synonyms": [
             "respect",
             "look up to"
@@ -91,7 +91,7 @@
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "ədˈmɪt",
-        "subtext": "",
+        "subtext": "confess, acknowledge",
         "synonyms": [
             "confess",
             "acknowledge"
@@ -117,7 +117,7 @@
         "emoji": "👨‍🏫",
         "form": "verb",
         "transcription": "ədˈvaɪz",
-        "subtext": "",
+        "subtext": "counsel, suggest, recommend",
         "synonyms": [
             "counsel",
             "suggest",
@@ -168,7 +168,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "✅",
         "form": "verb",
-        "subtext": "",
+        "subtext": "let, permit",
         "synonyms": [
             "let",
             "permit"
@@ -194,7 +194,7 @@
         "theme": "basic_science_A2",
         "emoji": "📊",
         "form": "verb",
-        "subtext": "",
+        "subtext": "examine, study",
         "synonyms": [
             "examine",
             "study"
@@ -220,7 +220,7 @@
         "theme": "news_media_A2",
         "emoji": "📣",
         "form": "verb",
-        "subtext": "",
+        "subtext": "state, declare",
         "synonyms": [
             "state",
             "declare"
@@ -346,7 +346,7 @@
         "theme": "social_emotions_A2",
         "emoji": "🙏",
         "form": "verb",
-        "subtext": "",
+        "subtext": "value, enjoy",
         "synonyms": [
             "value",
             "enjoy"
@@ -398,7 +398,7 @@
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🗓️",
         "form": "verb",
-        "subtext": "",
+        "subtext": "plan, organize",
         "synonyms": [
             "plan",
             "organize"
@@ -449,7 +449,7 @@
         "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
-        "subtext": "",
+        "subtext": "help, support, aid",
         "synonyms": [
             "help",
             "support",
@@ -476,7 +476,7 @@
         "theme": "internet_social_media_A2",
         "emoji": "📎",
         "form": "verb",
-        "subtext": "",
+        "subtext": "join, connect, fasten",
         "synonyms": [
             "join",
             "connect",
@@ -503,7 +503,7 @@
         "theme": "personality_character_A2",
         "emoji": "🧲",
         "form": "verb",
-        "subtext": "",
+        "subtext": "draw, pull, appeal to",
         "synonyms": [
             "draw",
             "pull",
@@ -2466,7 +2466,7 @@
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
-        "subtext": "",
+        "subtext": "improve performance, improve health, room for improvement",
         "synonyms": [
             "improve performance",
             "improve health",
@@ -2593,7 +2593,7 @@
         "theme": "health_body_A2",
         "emoji": "🤕",
         "form": "verb",
-        "subtext": "",
+        "subtext": "get injured, injury",
         "synonyms": [
             "get injured",
             "injury"
@@ -3268,7 +3268,7 @@
         "theme": "right_wrong_basic_A2",
         "emoji": "🚫",
         "form": "verb",
-        "subtext": "",
+        "subtext": "stop, not allow",
         "synonyms": [
             "stop",
             "not allow"
@@ -4333,7 +4333,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "demand",
         "synonyms": [
             "demand"
         ],
@@ -4359,7 +4359,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "stop",
         "synonyms": [
             "stop"
         ],
@@ -4385,7 +4385,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "include",
         "synonyms": [
             "include"
         ],
@@ -4411,7 +4411,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "get, receive",
         "synonyms": [
             "get",
             "receive"
@@ -4438,7 +4438,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "happen",
         "synonyms": [
             "happen"
         ],
@@ -4464,7 +4464,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "run, work",
         "synonyms": [
             "run",
             "work"
@@ -4491,7 +4491,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "convince",
         "synonyms": [
             "convince"
         ],
@@ -4517,7 +4517,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "print, release",
         "synonyms": [
             "print",
             "release"
@@ -4544,7 +4544,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "know, identify",
         "synonyms": [
             "know",
             "identify"
@@ -4571,7 +4571,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "show",
         "synonyms": [
             "show"
         ],
@@ -4597,7 +4597,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "let go, free",
         "synonyms": [
             "let go",
             "free"
@@ -4650,7 +4650,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "tell again",
         "synonyms": [
             "tell again"
         ],
@@ -4676,7 +4676,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "take away, delete",
         "synonyms": [
             "take away",
             "delete"
@@ -4703,7 +4703,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "stand for",
         "synonyms": [
             "stand for"
         ],
@@ -4729,7 +4729,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "ask for",
         "synonyms": [
             "ask for"
         ],
@@ -4755,7 +4755,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "save",
         "synonyms": [
             "save"
         ],
@@ -4781,7 +4781,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "solve, fix",
         "synonyms": [
             "solve",
             "fix"
@@ -4838,7 +4838,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "practice",
         "synonyms": [
             "practice"
         ],
@@ -4863,7 +4863,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "clap, cheer",
         "synonyms": [
             "clap",
             "cheer"
@@ -4889,7 +4889,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "register arrival",
         "synonyms": [
             "register arrival"
         ],
@@ -4914,7 +4914,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "pass",
         "synonyms": [
             "pass"
         ],
@@ -4939,7 +4939,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "end relationship, separate",
         "synonyms": [
             "end relationship",
             "separate"
@@ -4965,7 +4965,7 @@
                 ]
             }
         ],
-        "subtext": "",
+        "subtext": "register departure",
         "synonyms": [
             "register departure"
         ],

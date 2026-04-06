@@ -27893,26 +27893,6 @@
         "subtext": "very useful, useful information"
     },
     {
-        "word": "nationality",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🏳️",
-        "form": "noun",
-        "plural": "nationalities",
-        "transcription": "ˌnæʃəˈnæləti",
-        "definitions": [
-            {
-                "text": "The legal right of belonging to a particular nation.",
-                "examples": [
-                    "What is your nationality?",
-                    "She has dual nationality."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "British nationality, dual nationality"
-    },
-    {
         "word": "occupation",
         "level": "starter",
         "theme": "job_titles_professions_A1",
