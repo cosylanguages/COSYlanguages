@@ -769,7 +769,8 @@
         "comparative": "più rilassato",
         "superlative": "il più rilassato",
         "opposite": "stressato",
-        "oppositeEmoji": "😫"
+        "oppositeEmoji": "😫",
+        "transcription": "rilasˈsato"
     },
     {
         "word": "preoccupato",
@@ -794,7 +795,8 @@
         "comparative": "più preoccupato",
         "superlative": "il più preoccupato",
         "opposite": "calm",
-        "oppositeEmoji": "😌"
+        "oppositeEmoji": "😌",
+        "transcription": "preokkuˈpato"
     },
     {
         "word": "occupato",
@@ -833,7 +835,8 @@
             {
                 "text": "Che serve a uno scopo; vantaggioso.",
                 "examples": [
-                    "Un'auto è molto utile in campagna."
+                    "Questo libro è molto utile.",
+                    "È un'informazione utile."
                 ]
             }
         ],
@@ -867,7 +870,8 @@
         "plural": "importanti",
         "femininePlural": "importanti",
         "comparative": "più importante",
-        "superlative": "il più importante"
+        "superlative": "il più importante",
+        "transcription": "imporˈtante"
     },
     {
         "word": "rosso",
@@ -891,7 +895,8 @@
         "plural": "rossi",
         "femininePlural": "rosse",
         "comparative": "più rosso",
-        "superlative": "il più rosso"
+        "superlative": "il più rosso",
+        "transcription": "ˈrosso"
     },
     {
         "word": "blu",
@@ -915,7 +920,8 @@
         "plural": "blu",
         "femininePlural": "blu",
         "comparative": "più blu",
-        "superlative": "il più blu"
+        "superlative": "il più blu",
+        "transcription": "ˈblu"
     },
     {
         "word": "verde",
@@ -936,7 +942,8 @@
         "plural": "verdi",
         "femininePlural": "verdi",
         "comparative": "più verde",
-        "superlative": "il più verde"
+        "superlative": "il più verde",
+        "transcription": "ˈverde"
     },
     {
         "word": "bianco",
@@ -957,7 +964,8 @@
         "plural": "bianchi",
         "femininePlural": "bianche",
         "comparative": "più bianco",
-        "superlative": "il più bianco"
+        "superlative": "il più bianco",
+        "transcription": "ˈbjanko"
     },
     {
         "word": "nero",
@@ -978,7 +986,8 @@
         "plural": "neri",
         "femininePlural": "nere",
         "comparative": "più nero",
-        "superlative": "il più nero"
+        "superlative": "il più nero",
+        "transcription": "ˈnero"
     },
     {
         "word": "giallo",
@@ -1002,7 +1011,8 @@
         "plural": "gialli",
         "femininePlural": "gialle",
         "comparative": "più giallo",
-        "superlative": "il più giallo"
+        "superlative": "il più giallo",
+        "transcription": "ˈdʒallo"
     },
     {
         "word": "libero",
@@ -1027,7 +1037,8 @@
         "plural": "liberi",
         "femininePlural": "libere",
         "comparative": "più libero",
-        "superlative": "il più libero"
+        "superlative": "il più libero",
+        "transcription": "ˈlibero"
     },
     {
         "word": "aperto",
@@ -1054,7 +1065,8 @@
         "plural": "aperti",
         "femininePlural": "aperte",
         "comparative": "più aperto",
-        "superlative": "il più aperto"
+        "superlative": "il più aperto",
+        "transcription": "aˈpɛrto"
     },
     {
         "word": "chiuso",
@@ -1080,7 +1092,8 @@
         "plural": "chiusi",
         "femininePlural": "chiuse",
         "comparative": "più chiuso",
-        "superlative": "il più chiuso"
+        "superlative": "il più chiuso",
+        "transcription": "ˈkjuzo"
     },
     {
         "word": "grande",
@@ -1229,7 +1242,8 @@
             "una giornata piena"
         ],
         "comparative": "più pieno",
-        "superlative": "il più pieno"
+        "superlative": "il più pieno",
+        "transcription": "ˈpjɛno"
     },
     {
         "word": "vuoto",
@@ -1253,7 +1267,8 @@
             "una stanza vuota"
         ],
         "comparative": "più vuoto",
-        "superlative": "il più vuoto"
+        "superlative": "il più vuoto",
+        "transcription": "ˈvwɔto"
     },
     {
         "word": "tiepido",
@@ -1278,7 +1293,8 @@
             "stare al caldo"
         ],
         "comparative": "più tiepido",
-        "superlative": "il più tiepido"
+        "superlative": "il più tiepido",
+        "transcription": "ˈtjɛpido"
     },
     {
         "word": "fresco",
@@ -1302,7 +1318,8 @@
             "una bevanda fresca"
         ],
         "comparative": "più fresco",
-        "superlative": "il più fresco"
+        "superlative": "il più fresco",
+        "transcription": "ˈfresko"
     },
     {
         "word": "bagnato",
@@ -1328,7 +1345,8 @@
             "bagnarsi"
         ],
         "comparative": "più bagnato",
-        "superlative": "il più bagnato"
+        "superlative": "il più bagnato",
+        "transcription": "baɲˈɲato"
     },
     {
         "word": "asciutto",
@@ -1353,7 +1371,8 @@
             "pelle secca"
         ],
         "comparative": "più asciutto",
-        "superlative": "il più asciutto"
+        "superlative": "il più asciutto",
+        "transcription": "aʃˈʃutto"
     },
     {
         "word": "sporco",
@@ -1404,7 +1423,8 @@
             "una decisione difficile"
         ],
         "comparative": "più duro",
-        "superlative": "il più duro"
+        "superlative": "il più duro",
+        "transcription": "ˈduro"
     },
     {
         "word": "morbido",
@@ -1430,7 +1450,8 @@
             "soft skills"
         ],
         "comparative": "più morbido",
-        "superlative": "il più morbido"
+        "superlative": "il più morbido",
+        "transcription": "ˈmɔrbido"
     },
     {
         "word": "pesante",
@@ -1454,7 +1475,8 @@
             "pioggia forte"
         ],
         "comparative": "più pesante",
-        "superlative": "il più pesante"
+        "superlative": "il più pesante",
+        "transcription": "peˈzante"
     },
     {
         "word": "leggero",
@@ -1478,7 +1500,8 @@
             "pioggerella"
         ],
         "comparative": "più leggero",
-        "superlative": "il più leggero"
+        "superlative": "il più leggero",
+        "transcription": "ledˈdʒɛro"
     },
     {
         "word": "marrone",
@@ -1502,7 +1525,8 @@
             "pane integrale"
         ],
         "comparative": "più marrone",
-        "superlative": "il più marrone"
+        "superlative": "il più marrone",
+        "transcription": "marˈrone"
     },
     {
         "word": "grigio",
@@ -1526,7 +1550,8 @@
             "zona grigia"
         ],
         "comparative": "più grigio",
-        "superlative": "il più grigio"
+        "superlative": "il più grigio",
+        "transcription": "ˈɡridʒo"
     },
     {
         "word": "rosa",
@@ -1547,7 +1572,8 @@
         ],
         "subtext": "rosa chiaro / rosa acceso / rosa shocking",
         "comparative": "più rosa",
-        "superlative": "il più rosa"
+        "superlative": "il più rosa",
+        "transcription": "ˈrɔza"
     },
     {
         "word": "arancione",
@@ -1568,7 +1594,8 @@
         ],
         "subtext": "arancione acceso / arancione scuro / luce arancione",
         "comparative": "più arancione",
-        "superlative": "il più arancione"
+        "superlative": "il più arancione",
+        "transcription": "aranˈtʃone"
     },
     {
         "word": "grande",
@@ -2131,7 +2158,8 @@
             {
                 "text": "Che fa molto rumore.",
                 "examples": [
-                    "L'ufficio open space è troppo rumoroso."
+                    "Il traffico è molto rumoroso.",
+                    "I vicini sono rumorosi."
                 ]
             }
         ],
@@ -2837,7 +2865,8 @@
             {
                 "text": "Dotato di intelletto; acuto.",
                 "examples": [
-                    "È un'abile negoziatrice."
+                    "È un ragazzo molto intelligente.",
+                    "Una scelta intelligente."
                 ]
             }
         ],
@@ -2886,7 +2915,8 @@
             {
                 "text": "Privo di buona educazione.",
                 "examples": [
-                    "Quell'email era piuttosto maleducata e non professionale."
+                    "Quel ragazzo è maleducato.",
+                    "Un gesto maleducato."
                 ]
             }
         ],
@@ -2932,7 +2962,8 @@
             {
                 "text": "Che agisce con rettitudine e sincerità.",
                 "examples": [
-                    "È nota per essere completamente onesta con i clienti."
+                    "Lui è un uomo onesto.",
+                    "È stata una risposta onesta."
                 ]
             }
         ],
@@ -2953,7 +2984,8 @@
             {
                 "text": "Che fa molto rumore.",
                 "examples": [
-                    "L'ufficio open space è molto rumoroso."
+                    "Il traffico è molto rumoroso.",
+                    "I vicini sono rumorosi."
                 ]
             }
         ],
@@ -2974,7 +3006,10 @@
         "definitions": [
             {
                 "text": "Che agisce con rettitudine e sincerità.",
-                "examples": []
+                "examples": [
+                    "Lui è un uomo onesto.",
+                    "È stata una risposta onesta."
+                ]
             }
         ],
         "subtext": "onesto",
@@ -2994,7 +3029,10 @@
         "definitions": [
             {
                 "text": "Che fa molto rumore.",
-                "examples": []
+                "examples": [
+                    "Il traffico è molto rumoroso.",
+                    "I vicini sono rumorosi."
+                ]
             }
         ],
         "subtext": "rumoroso",
@@ -3014,7 +3052,10 @@
         "definitions": [
             {
                 "text": "Che ha forma circolare o sferica.",
-                "examples": []
+                "examples": [
+                    "Il tavolo è rotondo.",
+                    "La luna è rotonda."
+                ]
             }
         ],
         "subtext": "rotondo",
@@ -3034,7 +3075,10 @@
         "definitions": [
             {
                 "text": "Che ha forma di quadrato.",
-                "examples": []
+                "examples": [
+                    "L'orologio è quadrato.",
+                    "Voglio un tavolo quadrato."
+                ]
             }
         ],
         "subtext": "quadrato",
@@ -3054,7 +3098,10 @@
         "definitions": [
             {
                 "text": "Che serve a uno scopo; vantaggioso.",
-                "examples": []
+                "examples": [
+                    "Questo libro è molto utile.",
+                    "È un'informazione utile."
+                ]
             }
         ],
         "subtext": "utile",
@@ -3074,7 +3121,10 @@
         "definitions": [
             {
                 "text": "Che sa aspettare con calma.",
-                "examples": []
+                "examples": [
+                    "L'insegnante è molto paziente.",
+                    "Devi essere paziente."
+                ]
             }
         ],
         "subtext": "paziente",
@@ -3094,7 +3144,10 @@
         "definitions": [
             {
                 "text": "Operoso; che agisce.",
-                "examples": []
+                "examples": [
+                    "Mio nonno è ancora molto attivo.",
+                    "Lui fa una vita attiva."
+                ]
             }
         ],
         "subtext": "attivo",
@@ -3114,7 +3167,10 @@
         "definitions": [
             {
                 "text": "Che rivolge la mente a ciò che fa.",
-                "examples": []
+                "examples": [
+                    "Sii attento quando attraversi la strada.",
+                    "Lui è uno studente attento."
+                ]
             }
         ],
         "subtext": "attento",
@@ -3134,7 +3190,10 @@
         "definitions": [
             {
                 "text": "Dotato di fantasia e inventiva.",
-                "examples": []
+                "examples": [
+                    "Lei è una ragazza creativa.",
+                    "È un progetto creativo."
+                ]
             }
         ],
         "subtext": "creativo",
@@ -3154,7 +3213,10 @@
         "definitions": [
             {
                 "text": "Coperto di nuvole.",
-                "examples": []
+                "examples": [
+                    "Oggi il cielo è nuvoloso.",
+                    "Il tempo è nuvoloso."
+                ]
             }
         ],
         "subtext": "nuvoloso",
@@ -3174,7 +3236,10 @@
         "definitions": [
             {
                 "text": "Battuto dal vento.",
-                "examples": []
+                "examples": [
+                    "Oggi è una giornata ventosa.",
+                    "Il clima è ventoso."
+                ]
             }
         ],
         "subtext": "ventoso",
@@ -3194,7 +3259,10 @@
         "definitions": [
             {
                 "text": "Caratterizzato da neve.",
-                "examples": []
+                "examples": [
+                    "L'inverno è spesso nevoso in montagna.",
+                    "Un sentiero nevoso."
+                ]
             }
         ],
         "subtext": "nevoso",
@@ -3214,7 +3282,10 @@
         "definitions": [
             {
                 "text": "Caratterizzato da nebbia.",
-                "examples": []
+                "examples": [
+                    "Il mattino è molto nebbioso.",
+                    "Un bosco nebbioso."
+                ]
             }
         ],
         "subtext": "nebbioso",
@@ -3234,7 +3305,10 @@
         "definitions": [
             {
                 "text": "Sconvolto dalla tempesta.",
-                "examples": []
+                "examples": [
+                    "Il mare è tempestoso oggi.",
+                    "Una notte tempestosa."
+                ]
             }
         ],
         "subtext": "tempestoso",
@@ -3254,7 +3328,10 @@
         "definitions": [
             {
                 "text": "Di colore giallo oro (riferito ai capelli).",
-                "examples": []
+                "examples": [
+                    "Lei ha i capelli biondi.",
+                    "Il bambino è biondo."
+                ]
             }
         ],
         "subtext": "biondo",
@@ -3274,7 +3351,10 @@
         "definitions": [
             {
                 "text": "Dotato di intelletto; acuto.",
-                "examples": []
+                "examples": [
+                    "È un ragazzo molto intelligente.",
+                    "Una scelta intelligente."
+                ]
             }
         ],
         "subtext": "intelligente",
@@ -3294,7 +3374,10 @@
         "definitions": [
             {
                 "text": "Che non ride facilmente; impegnato.",
-                "examples": []
+                "examples": [
+                    "Il mio capo è un uomo serio.",
+                    "È un problema serio."
+                ]
             }
         ],
         "subtext": "serio",
@@ -3314,7 +3397,10 @@
         "definitions": [
             {
                 "text": "Sgradevole alla vista.",
-                "examples": []
+                "examples": [
+                    "Quel vestito è brutto.",
+                    "È stata una brutta giornata."
+                ]
             }
         ],
         "subtext": "brutto",
@@ -3334,7 +3420,10 @@
         "definitions": [
             {
                 "text": "Posto a poca distanza.",
-                "examples": []
+                "examples": [
+                    "L'ospedale è vicino a casa mia.",
+                    "Il bar è molto vicino."
+                ]
             }
         ],
         "subtext": "vicino",
@@ -3354,7 +3443,10 @@
         "definitions": [
             {
                 "text": "Posto a grande distanza.",
-                "examples": []
+                "examples": [
+                    "Roma è lontana da qui.",
+                    "Il mio ufficio è lontano."
+                ]
             }
         ],
         "subtext": "lontano",
@@ -3374,7 +3466,10 @@
         "definitions": [
             {
                 "text": "Che possiede molti beni o denaro.",
-                "examples": []
+                "examples": [
+                    "Lui è un uomo molto ricco.",
+                    "Un piatto ricco di sapore."
+                ]
             }
         ],
         "subtext": "ricco",
@@ -3394,7 +3489,10 @@
         "definitions": [
             {
                 "text": "Che ha poco denaro; misero.",
-                "examples": []
+                "examples": [
+                    "È un paese povero.",
+                    "Un pasto povero."
+                ]
             }
         ],
         "subtext": "povero",
@@ -3414,7 +3512,10 @@
         "definitions": [
             {
                 "text": "In orario anticipato; velocemente.",
-                "examples": []
+                "examples": [
+                    "Domani mi sveglio presto.",
+                    "È ancora troppo presto."
+                ]
             }
         ],
         "subtext": "presto",
@@ -3434,7 +3535,10 @@
         "definitions": [
             {
                 "text": "In orario avanzato.",
-                "examples": []
+                "examples": [
+                    "È tardi, devo andare.",
+                    "Arriva sempre tardi."
+                ]
             }
         ],
         "subtext": "tardi",
@@ -3454,7 +3558,10 @@
         "definitions": [
             {
                 "text": "Che suscita forti emozioni.",
-                "examples": []
+                "examples": [
+                    "Il film è stato molto emozionante.",
+                    "Un viaggio emozionante."
+                ]
             }
         ],
         "subtext": "emozionante",
@@ -3474,7 +3581,10 @@
         "definitions": [
             {
                 "text": "Molto buono; squisito.",
-                "examples": []
+                "examples": [
+                    "La lasagna è deliziosa.",
+                    "Un dolce delizioso."
+                ]
             }
         ],
         "subtext": "delizioso",
@@ -3494,7 +3604,10 @@
         "definitions": [
             {
                 "text": "Che ha il sapore dello zucchero; gentile.",
-                "examples": []
+                "examples": [
+                    "Il tè è troppo dolce.",
+                    "Lei ha una voce dolce."
+                ]
             }
         ],
         "subtext": "dolce",
@@ -3514,7 +3627,10 @@
         "definitions": [
             {
                 "text": "Che offre agio e benessere.",
-                "examples": []
+                "examples": [
+                    "Il divano è molto comodo.",
+                    "Scarpe comode."
+                ]
             }
         ],
         "subtext": "comodo",
@@ -3534,7 +3650,10 @@
         "definitions": [
             {
                 "text": "Conforme alla realtà; non falso.",
-                "examples": []
+                "examples": [
+                    "È un amico vero.",
+                    "Questa è una storia vera."
+                ]
             }
         ],
         "subtext": "vero",
@@ -3554,7 +3673,10 @@
         "definitions": [
             {
                 "text": "Non complicato; facile.",
-                "examples": []
+                "examples": [
+                    "È un esercizio semplice.",
+                    "Una soluzione semplice."
+                ]
             }
         ],
         "subtext": "semplice",
@@ -3574,7 +3696,10 @@
         "definitions": [
             {
                 "text": "Prodotto dalla natura; non artificiale.",
-                "examples": []
+                "examples": [
+                    "Amo il succo d'arancia naturale.",
+                    "Un ambiente naturale."
+                ]
             }
         ],
         "subtext": "naturale",
@@ -3594,7 +3719,10 @@
         "definitions": [
             {
                 "text": "Luminoso; facile da capire.",
-                "examples": []
+                "examples": [
+                    "Il cielo è chiaro oggi.",
+                    "Un messaggio chiaro."
+                ]
             }
         ],
         "subtext": "chiaro",
@@ -3614,7 +3742,10 @@
         "definitions": [
             {
                 "text": "Che appartiene a molti; ordinario.",
-                "examples": []
+                "examples": [
+                    "È un errore comune.",
+                    "Un obiettivo comune."
+                ]
             }
         ],
         "subtext": "comune",
@@ -3634,7 +3765,10 @@
         "definitions": [
             {
                 "text": "Conosciuto da molti; celebre.",
-                "examples": []
+                "examples": [
+                    "Lui è un attore famoso.",
+                    "Una città famosa."
+                ]
             }
         ],
         "subtext": "famoso",
@@ -3654,7 +3788,10 @@
         "definitions": [
             {
                 "text": "Che contiene sale.",
-                "examples": []
+                "examples": [
+                    "Il cibo è troppo salato.",
+                    "Burro salato."
+                ]
             }
         ],
         "subtext": "salato",
@@ -3674,7 +3811,10 @@
         "definitions": [
             {
                 "text": "Che ha sapore aspro.",
-                "examples": []
+                "examples": [
+                    "Il limone è acido.",
+                    "Un sapore acido."
+                ]
             }
         ],
         "subtext": "acido",
@@ -3694,7 +3834,10 @@
         "definitions": [
             {
                 "text": "Che ha un sapore aspro e pungente.",
-                "examples": []
+                "examples": [
+                    "Il caffè senza zucchero è amaro.",
+                    "Un amaro destino."
+                ]
             }
         ],
         "subtext": "amaro",
@@ -3714,7 +3857,10 @@
         "definitions": [
             {
                 "text": "Che ha molto grasso; corpulento.",
-                "examples": []
+                "examples": [
+                    "Non mangio cibo grasso.",
+                    "Un gatto grasso."
+                ]
             }
         ],
         "subtext": "grasso",
@@ -3734,7 +3880,10 @@
         "definitions": [
             {
                 "text": "Che ha poco grasso; snello.",
-                "examples": []
+                "examples": [
+                    "Lui è molto magro.",
+                    "Carne magra."
+                ]
             }
         ],
         "subtext": "magro",
@@ -3754,7 +3903,10 @@
         "definitions": [
             {
                 "text": "Incurvato in anelli (riferito ai capelli).",
-                "examples": []
+                "examples": [
+                    "Lei ha i capelli ricci.",
+                    "Un filo riccio."
+                ]
             }
         ],
         "subtext": "riccio",
@@ -3774,7 +3926,10 @@
         "definitions": [
             {
                 "text": "Senza rugosità o onde.",
-                "examples": []
+                "examples": [
+                    "Ho i capelli lisci.",
+                    "Una superficie liscia."
+                ]
             }
         ],
         "subtext": "liscio",
@@ -3794,7 +3949,10 @@
         "definitions": [
             {
                 "text": "Che ha tre angoli.",
-                "examples": []
+                "examples": [
+                    "Un pezzo di pizza triangolare.",
+                    "Una forma triangolare."
+                ]
             }
         ],
         "subtext": "triangolare",
@@ -3814,7 +3972,10 @@
         "definitions": [
             {
                 "text": "Che ha forma di rettangolo.",
-                "examples": []
+                "examples": [
+                    "Il tavolo è rettangolare.",
+                    "Una scatola rettangolare."
+                ]
             }
         ],
         "subtext": "rettangolare",
@@ -3834,7 +3995,10 @@
         "definitions": [
             {
                 "text": "Che ha forma di ellisse.",
-                "examples": []
+                "examples": [
+                    "Lo specchio è ovale.",
+                    "Un viso ovale."
+                ]
             }
         ],
         "subtext": "ovale",
@@ -3854,7 +4018,10 @@
         "definitions": [
             {
                 "text": "Scelto tra gli altri per predilezione.",
-                "examples": []
+                "examples": [
+                    "Il mio colore preferito è il blu.",
+                    "La mia pizza preferita."
+                ]
             }
         ],
         "subtext": "preferito",
@@ -3874,7 +4041,10 @@
         "definitions": [
             {
                 "text": "Privo di luce; di colore cupo.",
-                "examples": []
+                "examples": [
+                    "Il mare è scuro di notte.",
+                    "Capelli scuri."
+                ]
             }
         ],
         "subtext": "scuro",
@@ -3894,7 +4064,10 @@
         "definitions": [
             {
                 "text": "Che manda molta luce.",
-                "examples": []
+                "examples": [
+                    "L'ufficio è molto luminoso.",
+                    "Una stella luminosa."
+                ]
             }
         ],
         "subtext": "luminoso",
@@ -3914,7 +4087,10 @@
         "definitions": [
             {
                 "text": "Del colore dell'oro.",
-                "examples": []
+                "examples": [
+                    "Lei porta un orologio dorato.",
+                    "Un campo dorato."
+                ]
             }
         ],
         "subtext": "dorato",
@@ -3934,7 +4110,10 @@
         "definitions": [
             {
                 "text": "Del colore dell'argento.",
-                "examples": []
+                "examples": [
+                    "Una luna argentata.",
+                    "Capelli argentati."
+                ]
             }
         ],
         "subtext": "argentato",
@@ -3954,7 +4133,10 @@
         "definitions": [
             {
                 "text": "Che si estende molto verso il basso.",
-                "examples": []
+                "examples": [
+                    "Il lago è molto profondo.",
+                    "Un respiro profondo."
+                ]
             }
         ],
         "subtext": "profondo",
@@ -3974,7 +4156,10 @@
         "definitions": [
             {
                 "text": "Che ha poca profondità.",
-                "examples": []
+                "examples": [
+                    "Il fiume è poco profondo qui.",
+                    "Un piatto poco profondo."
+                ]
             }
         ],
         "subtext": "poco profondo",
@@ -3994,7 +4179,10 @@
         "definitions": [
             {
                 "text": "Proprio dei nostri tempi.",
-                "examples": []
+                "examples": [
+                    "È un edificio moderno.",
+                    "Arte moderna."
+                ]
             }
         ],
         "subtext": "moderno",
@@ -4014,7 +4202,10 @@
         "definitions": [
             {
                 "text": "Di tempi molto lontani nel passato.",
-                "examples": []
+                "examples": [
+                    "Visitiamo un castello antico.",
+                    "Un libro antico."
+                ]
             }
         ],
         "subtext": "antico",
@@ -4034,7 +4225,10 @@
         "definitions": [
             {
                 "text": "Che ha coraggio.",
-                "examples": []
+                "examples": [
+                    "Lui è un soldato coraggioso.",
+                    "Una decisione coraggiosa."
+                ]
             }
         ],
         "subtext": "coraggioso",
@@ -4054,7 +4248,10 @@
         "definitions": [
             {
                 "text": "Privo di coraggio; vile.",
-                "examples": []
+                "examples": [
+                    "Non essere codardo!",
+                    "Un comportamento codardo."
+                ]
             }
         ],
         "subtext": "codardo",
@@ -4074,7 +4271,10 @@
         "definitions": [
             {
                 "text": "Che ha una larghezza notevole.",
-                "examples": []
+                "examples": [
+                    "Il sentiero è molto largo.",
+                    "Pantaloni larghi."
+                ]
             }
         ],
         "subtext": "largo",
@@ -4094,7 +4294,10 @@
         "definitions": [
             {
                 "text": "Che ha poca larghezza; serrato.",
-                "examples": []
+                "examples": [
+                    "Il corridoio è troppo stretto.",
+                    "Un vestito stretto."
+                ]
             }
         ],
         "subtext": "stretto",
@@ -4114,7 +4317,10 @@
         "definitions": [
             {
                 "text": "Non socievole o cordiale.",
-                "examples": []
+                "examples": [
+                    "Il gatto è poco amichevole.",
+                    "Un vicino poco amichevole."
+                ]
             }
         ],
         "subtext": "poco amichevole",
@@ -4134,7 +4340,10 @@
         "definitions": [
             {
                 "text": "Che non sa aspettare.",
-                "examples": []
+                "examples": [
+                    "Lui è molto impaziente.",
+                    "Un cliente impaziente."
+                ]
             }
         ],
         "subtext": "impaziente",
@@ -4154,7 +4363,10 @@
         "definitions": [
             {
                 "text": "Privo di buona educazione.",
-                "examples": []
+                "examples": [
+                    "Quel ragazzo è maleducato.",
+                    "Un gesto maleducato."
+                ]
             }
         ],
         "subtext": "maleducato",
@@ -4174,7 +4386,10 @@
         "definitions": [
             {
                 "text": "Contrario al vero; non autentico.",
-                "examples": []
+                "examples": [
+                    "È un dente falso.",
+                    "Una notizia falsa."
+                ]
             }
         ],
         "subtext": "falso",
@@ -4194,7 +4409,10 @@
         "definitions": [
             {
                 "text": "Che non ha fortuna.",
-                "examples": []
+                "examples": [
+                    "Lui è molto sfortunato.",
+                    "Un evento sfortunato."
+                ]
             }
         ],
         "subtext": "sfortunato",
