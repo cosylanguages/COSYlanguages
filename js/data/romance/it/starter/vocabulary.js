@@ -153,7 +153,7 @@
         "emoji": "🍞",
         "form": "noun",
         "transcription": "ˈpane",
-        "plural": null,
+        "plural": "pani",
         "subtext": "pane bianco",
         "countability": "uncountable",
         "partitive": "del",
@@ -199,7 +199,7 @@
         "emoji": "🥛",
         "form": "noun",
         "transcription": "ˈlatte",
-        "plural": null,
+        "plural": "latti",
         "subtext": "latte fresco",
         "countability": "uncountable",
         "partitive": "del",
@@ -222,7 +222,7 @@
         "emoji": "🍚",
         "form": "noun",
         "transcription": "ˈrizo",
-        "plural": null,
+        "plural": "risi",
         "subtext": "riso bianco",
         "countability": "uncountable",
         "partitive": "del",
@@ -244,7 +244,7 @@
         "gender": "feminine",
         "emoji": "🥩",
         "form": "noun",
-        "plural": null,
+        "plural": "carni",
         "subtext": "carne di manzo",
         "countability": "uncountable",
         "partitive": "della",
@@ -290,7 +290,7 @@
         "gender": "masculine",
         "emoji": "☕",
         "form": "noun",
-        "plural": null,
+        "plural": "caffè",
         "subtext": "caffè espresso",
         "countability": "countable",
         "partitive": "del",
@@ -313,7 +313,7 @@
         "gender": "masculine",
         "emoji": "🍵",
         "form": "noun",
-        "plural": null,
+        "plural": "tè",
         "subtext": "tè verde",
         "countability": "countable",
         "partitive": "del",
@@ -336,7 +336,7 @@
         "gender": "masculine",
         "emoji": "🧃",
         "form": "noun",
-        "plural": null,
+        "plural": "succhi",
         "subtext": "succo di frutta",
         "countability": "countable",
         "partitive": "del",
@@ -359,7 +359,7 @@
         "gender": "feminine",
         "emoji": "🚰",
         "form": "noun",
-        "plural": null,
+        "plural": "acque",
         "subtext": "acqua naturale",
         "countability": "uncountable",
         "partitive": "dell'",
@@ -871,7 +871,7 @@
         "gender": "feminine",
         "emoji": "🍎",
         "form": "noun",
-        "plural": null,
+        "plural": "frutta",
         "subtext": "frutta fresca, succo di frutta",
         "definitions": [
             {
@@ -1454,7 +1454,7 @@
         "gender": "masculine",
         "emoji": "💰",
         "form": "noun",
-        "plural": null,
+        "plural": "denari",
         "subtext": "spendere denaro, risparmiare denaro",
         "countability": "uncountable",
         "partitive": "del",
@@ -1709,7 +1709,7 @@
         "gender": "masculine",
         "emoji": "😫",
         "form": "noun",
-        "plural": null,
+        "plural": "stress",
         "definitions": [
             {
                 "text": "Una sensazione di preoccupazione causata da una situazione difficile.",
@@ -1825,7 +1825,7 @@
         "article": "il",
         "emoji": "😴",
         "form": "noun",
-        "plural": null,
+        "plural": "sonni",
         "definitions": [
             {
                 "text": "Il riposo naturale di cui il corpo ha bisogno ogni notte.",
@@ -2082,7 +2082,7 @@
         "gender": "feminine",
         "emoji": "🍺",
         "form": "noun",
-        "plural": null,
+        "plural": "birre",
         "subtext": "birra fredda, alla spina",
         "definitions": [
             {
@@ -2105,7 +2105,7 @@
         "gender": "masculine",
         "emoji": "🍷",
         "form": "noun",
-        "plural": null,
+        "plural": "vini",
         "subtext": "vino rosso, vino bianco, bicchiere di vino",
         "definitions": [
             {
@@ -2439,7 +2439,7 @@
         "gender": "masculine",
         "emoji": "☀️",
         "form": "noun",
-        "plural": null,
+        "plural": "soli",
         "subtext": "sole caldo, sole del mattino",
         "definitions": [
             {
@@ -2462,7 +2462,7 @@
         "gender": "feminine",
         "emoji": "🌧️",
         "form": "noun",
-        "plural": null,
+        "plural": "piogge",
         "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
             {
@@ -2485,7 +2485,7 @@
         "gender": "masculine",
         "emoji": "💨",
         "form": "noun",
-        "plural": null,
+        "plural": "venti",
         "subtext": "vento forte, vento freddo",
         "definitions": [
             {
@@ -10397,6 +10397,312 @@
         "partitive": "del",
         "subtext": "elettrodomestico da cucina",
         "opposite": null,
+        "synonyms": []
+    },
+    {
+        "word": "gomma",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧼",
+        "form": "noun",
+        "plural": "gomme",
+        "transcription": "ˈɡomma",
+        "definitions": [
+            {
+                "text": "Oggetto usato per cancellare segni di matita.",
+                "examples": [
+                    "Uso la gomma per cancellare l'errore."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "quaderno",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📓",
+        "form": "noun",
+        "plural": "quaderni",
+        "transcription": "kwaˈdɛrno",
+        "definitions": [
+            {
+                "text": "Insieme di fogli bianchi per scrivere.",
+                "examples": [
+                    "Scrivo i compiti sul quaderno."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "righello",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📏",
+        "form": "noun",
+        "plural": "righelli",
+        "transcription": "riˈɡɛllo",
+        "definitions": [
+            {
+                "text": "Strumento per misurare e tirare linee dritte.",
+                "examples": [
+                    "Usa il righello per fare una linea."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "astuccio",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "👝",
+        "form": "noun",
+        "plural": "astucci",
+        "transcription": "asˈtuttʃo",
+        "definitions": [
+            {
+                "text": "Contenitore per penne e matite.",
+                "examples": [
+                    "Metti le penne nell'astuccio."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "dell'",
+        "subtext": "cancelleria",
+        "synonyms": []
+    },
+    {
+        "word": "scopa",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧹",
+        "form": "noun",
+        "plural": "scope",
+        "transcription": "ˈskoːpa",
+        "definitions": [
+            {
+                "text": "Strumento per pulire il pavimento.",
+                "examples": [
+                    "Uso la scopa per pulire la cucina."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "pulizia casa",
+        "synonyms": []
+    },
+    {
+        "word": "ferro da stiro",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": "ferri da stiro",
+        "transcription": "ˈfɛrro da ˈstiːro",
+        "definitions": [
+            {
+                "text": "Apparecchio per togliere le pieghe dai vestiti.",
+                "examples": [
+                    "Stiro la camicia col ferro da stiro."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico",
+        "synonyms": []
+    },
+    {
+        "word": "tostapane",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍞",
+        "form": "noun",
+        "plural": "tostapane",
+        "transcription": "tostaˈpaːne",
+        "definitions": [
+            {
+                "text": "Apparecchio per tostare il pane.",
+                "examples": [
+                    "Metti il pane nel tostapane."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico da cucina",
+        "synonyms": []
+    },
+    {
+        "word": "bollitore",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🫖",
+        "form": "noun",
+        "plural": "bollitori",
+        "transcription": "bolliˈtoːre",
+        "definitions": [
+            {
+                "text": "Apparecchio per far bollire l'acqua.",
+                "examples": [
+                    "Uso il bollitore per fare il tè."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "del",
+        "subtext": "elettrodomestico da cucina",
+        "synonyms": []
+    },
+    {
+        "word": "davanti a",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "⬅️",
+        "form": "preposition",
+        "transcription": "daˈvanti a",
+        "definitions": [
+            {
+                "text": "In posizione anteriore rispetto a qualcosa.",
+                "examples": [
+                    "La macchina è davanti alla casa."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": []
+    },
+    {
+        "word": "dietro a",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "➡️",
+        "form": "preposition",
+        "transcription": "ˈdjɛːtro a",
+        "definitions": [
+            {
+                "text": "In posizione posteriore rispetto a qualcosa.",
+                "examples": [
+                    "Il gatto è dietro al divano."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": []
+    },
+    {
+        "word": "accanto a",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "↔️",
+        "form": "preposition",
+        "transcription": "akˈkanto a",
+        "definitions": [
+            {
+                "text": "A lato di qualcosa.",
+                "examples": [
+                    "La sedia è accanto al tavolo."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": [
+            "vicino a"
+        ]
+    },
+    {
+        "word": "tra",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "📍",
+        "form": "preposition",
+        "transcription": "ˈtra",
+        "definitions": [
+            {
+                "text": "In mezzo a due cose o persone.",
+                "examples": [
+                    "Il bar è tra la banca e il cinema."
+                ]
+            }
+        ],
+        "subtext": "posizione",
+        "synonyms": [
+            "fra"
+        ]
+    },
+    {
+        "word": "schermata",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📱",
+        "form": "noun",
+        "plural": "schermate",
+        "transcription": "skerˈmaːta",
+        "definitions": [
+            {
+                "text": "Ciò che appare sullo schermo del telefono.",
+                "examples": [
+                    "Guarda questa schermata."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "della",
+        "subtext": "tecnologia",
+        "synonyms": []
+    },
+    {
+        "word": "app",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "📲",
+        "form": "noun",
+        "plural": "app",
+        "transcription": "ˈapp",
+        "definitions": [
+            {
+                "text": "Programma per lo smartphone.",
+                "examples": [
+                    "Scarico una nuova app."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "partitive": "dell'",
+        "subtext": "tecnologia",
         "synonyms": []
     }
 ];

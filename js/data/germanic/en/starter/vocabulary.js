@@ -28930,6 +28930,27 @@
         "countability": "countable",
         "subtext": "musical instrument",
         "opposite": null
+    },
+    {
+        "word": "microwave",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🍲",
+        "form": "noun",
+        "plural": "microwaves",
+        "transcription": "ˈmaɪkrəˌweɪv",
+        "definitions": [
+            {
+                "text": "An electric oven that cooks or heats food very quickly using electromagnetic waves.",
+                "examples": [
+                    "I'll heat up the soup in the microwave.",
+                    "The microwave is in the kitchen."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "kitchen appliance",
+        "opposite": null
     }
 ];
     const lang = "en";
