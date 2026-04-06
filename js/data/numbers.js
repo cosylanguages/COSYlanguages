@@ -126,8 +126,10 @@ window.getNumberWord = function(n, lang) {
         }
         if (lang === 'es') return (n < 30) ? data[n] : (tensWord + " y " + unitsWord);
         if (lang === 'it') {
-            if (unitsVal === 1 || unitsVal === 8) return tensWord.slice(0, -1) + unitsWord;
-            return tensWord + unitsWord;
+            let suffix = unitsWord;
+            if (unitsVal === 3) suffix = "tré";
+            if (unitsVal === 1 || unitsVal === 8) return tensWord.slice(0, -1) + suffix;
+            return tensWord + suffix;
         }
         if (lang === 'br') { // Breton vigesimal
             if (n === 30) return "tregont";
@@ -144,10 +146,17 @@ window.getNumberWord = function(n, lang) {
     }
 
     if (n < 1000) {
-        const hundreds = Math.floor(n / 100) * 100;
+        const hundredsVal = Math.floor(n / 100);
+        const hundredsWord = (hundredsVal === 1) ? data[100] : (getNumberWord(hundredsVal, lang) + data[100]);
         const remainder = n % 100;
-        if (remainder === 0) return milestones[hundreds] || (getNumberWord(Math.floor(n/100), lang) + " " + data[100]);
-        return (milestones[hundreds] || getNumberWord(Math.floor(n/100), lang) + " " + data[100]) + " " + getNumberWord(remainder, lang);
+
+        if (lang === 'it') {
+            const base = milestones[hundredsVal * 100] || hundredsWord.replace(/\s/g, "");
+            return (remainder === 0) ? base : (base + getNumberWord(remainder, lang));
+        }
+
+        if (remainder === 0) return milestones[hundredsVal * 100] || (getNumberWord(hundredsVal, lang) + " " + data[100]);
+        return (milestones[hundredsVal * 100] || getNumberWord(hundredsVal, lang) + " " + data[100]) + " " + getNumberWord(remainder, lang);
     }
 
     return n.toString();
