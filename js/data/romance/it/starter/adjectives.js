@@ -102,7 +102,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "giovane",
+        "opposite": "nuovo",
         "oppositeEmoji": "👶",
         "feminine": "vecchia",
         "emoji": "👴",
@@ -206,7 +206,8 @@
         "femininePlural": "calde",
         "comparative": "più caldo",
         "superlative": "il più caldo",
-        "transcription": "ˈkaldo"
+        "transcription": "ˈkaldo",
+        "synonyms": []
     },
     {
         "word": "freddo",
@@ -230,7 +231,8 @@
         "femininePlural": "fredde",
         "comparative": "più freddo",
         "superlative": "il più freddo",
-        "transcription": "ˈfreddo"
+        "transcription": "ˈfreddo",
+        "synonyms": []
     },
     {
         "word": "ordinario",
@@ -461,7 +463,8 @@
         "subtext": "piccolo, minuscolo / un piccolo appartamento / un piccolo stipendio / troppo piccolo",
         "comparative": "più piccolo",
         "superlative": "il più piccolo",
-        "transcription": "ˈpikkolo"
+        "transcription": "ˈpikkolo",
+        "synonyms": []
     },
     {
         "word": "facile",
@@ -519,7 +522,8 @@
         "subtext": "difficile da fare / molto difficile / trovarlo difficile",
         "comparative": "più difficile",
         "superlative": "il più difficile",
-        "transcription": "difˈfitʃile"
+        "transcription": "difˈfitʃile",
+        "synonyms": []
     },
     {
         "word": "felice",
@@ -547,7 +551,8 @@
         "subtext": "contento, allegro, sentirsi felice / sentirsi felice / felice di qualcosa / un giorno felice",
         "comparative": "più felice",
         "superlative": "il più felice",
-        "transcription": "feˈlitʃe"
+        "transcription": "feˈlitʃe",
+        "synonyms": []
     },
     {
         "word": "stanco",
@@ -570,7 +575,8 @@
         "subtext": "sonnolento, esausto, sentirsi stanco / sentirsi stanco / stanco di qualcosa / molto stanco",
         "comparative": "più stanco",
         "superlative": "il più stanco",
-        "transcription": "ˈstanko"
+        "transcription": "ˈstanko",
+        "synonyms": []
     },
     {
         "word": "a tempo pieno",
@@ -594,7 +600,8 @@
         "feminine": "a tempo pieno",
         "plural": "a tempo pieno",
         "femininePlural": "a tempo pieno",
-        "transcription": "a ˈtɛmpo ˈpjɛno"
+        "transcription": "a ˈtɛmpo ˈpjɛno",
+        "synonyms": []
     },
     {
         "word": "a tempo parziale",
@@ -670,9 +677,10 @@
         "subtext": "bene, in forma, dieta sana",
         "comparative": "più sano",
         "superlative": "il più sano",
-        "opposite": "unhealthy",
+        "opposite": "malato",
         "oppositeEmoji": "🍔",
-        "transcription": "ˈsano"
+        "transcription": "ˈsano",
+        "synonyms": []
     },
     {
         "word": "malato",
@@ -697,7 +705,7 @@
         ],
         "comparative": "più malato",
         "superlative": "il più malato",
-        "opposite": "well",
+        "opposite": "sano",
         "oppositeEmoji": "💪",
         "transcription": "maˈlato"
     },
@@ -723,7 +731,8 @@
         "feminine": "online",
         "plural": "online",
         "femininePlural": "online",
-        "transcription": "onˈlain"
+        "transcription": "onˈlain",
+        "synonyms": []
     },
     {
         "word": "solo",
@@ -747,7 +756,8 @@
         "feminine": "sola",
         "plural": "soli",
         "femininePlural": "sole",
-        "transcription": "ˈsolo"
+        "transcription": "ˈsolo",
+        "synonyms": []
     },
     {
         "word": "rilassato",
@@ -770,7 +780,8 @@
         "superlative": "il più rilassato",
         "opposite": "stressato",
         "oppositeEmoji": "😫",
-        "transcription": "rilasˈsato"
+        "transcription": "rilasˈsato",
+        "synonyms": []
     },
     {
         "word": "preoccupato",
@@ -845,7 +856,8 @@
         "superlative": "il più utile",
         "opposite": "inutile",
         "oppositeEmoji": "🗑️",
-        "transcription": "ˈutile"
+        "transcription": "ˈutile",
+        "synonyms": []
     },
     {
         "word": "importante",
@@ -943,7 +955,8 @@
         "femininePlural": "verdi",
         "comparative": "più verde",
         "superlative": "il più verde",
-        "transcription": "ˈverde"
+        "transcription": "ˈverde",
+        "synonyms": []
     },
     {
         "word": "bianco",
@@ -965,7 +978,8 @@
         "femininePlural": "bianche",
         "comparative": "più bianco",
         "superlative": "il più bianco",
-        "transcription": "ˈbjanko"
+        "transcription": "ˈbjanko",
+        "synonyms": []
     },
     {
         "word": "nero",
@@ -987,7 +1001,8 @@
         "femininePlural": "nere",
         "comparative": "più nero",
         "superlative": "il più nero",
-        "transcription": "ˈnero"
+        "transcription": "ˈnero",
+        "synonyms": []
     },
     {
         "word": "giallo",
@@ -1115,7 +1130,8 @@
         "subtext": "una grande città / una grande azienda / una grande quantità",
         "comparative": "più grande",
         "superlative": "il più grande",
-        "transcription": "ˈɡrande"
+        "transcription": "ˈɡrande",
+        "synonyms": []
     },
     {
         "word": "piccolo",
@@ -1142,7 +1158,8 @@
         ],
         "comparative": "più piccolo",
         "superlative": "il più piccolo",
-        "transcription": "ˈpikkolo"
+        "transcription": "ˈpikkolo",
+        "opposite": "grande"
     },
     {
         "word": "lungo",
@@ -1243,7 +1260,8 @@
         ],
         "comparative": "più pieno",
         "superlative": "il più pieno",
-        "transcription": "ˈpjɛno"
+        "transcription": "ˈpjɛno",
+        "opposite": "vuoto"
     },
     {
         "word": "vuoto",
@@ -1268,7 +1286,8 @@
         ],
         "comparative": "più vuoto",
         "superlative": "il più vuoto",
-        "transcription": "ˈvwɔto"
+        "transcription": "ˈvwɔto",
+        "opposite": "pieno"
     },
     {
         "word": "tiepido",
@@ -1399,7 +1418,8 @@
         ],
         "comparative": "più sporco",
         "superlative": "il più sporco",
-        "transcription": "ˈspɔrko"
+        "transcription": "ˈspɔrko",
+        "opposite": "pulito"
     },
     {
         "word": "duro",
@@ -1424,7 +1444,8 @@
         ],
         "comparative": "più duro",
         "superlative": "il più duro",
-        "transcription": "ˈduro"
+        "transcription": "ˈduro",
+        "opposite": "morbido"
     },
     {
         "word": "morbido",
@@ -1451,7 +1472,8 @@
         ],
         "comparative": "più morbido",
         "superlative": "il più morbido",
-        "transcription": "ˈmɔrbido"
+        "transcription": "ˈmɔrbido",
+        "opposite": "duro"
     },
     {
         "word": "pesante",
@@ -1476,7 +1498,8 @@
         ],
         "comparative": "più pesante",
         "superlative": "il più pesante",
-        "transcription": "peˈzante"
+        "transcription": "peˈzante",
+        "opposite": "leggero"
     },
     {
         "word": "leggero",
@@ -1501,7 +1524,8 @@
         ],
         "comparative": "più leggero",
         "superlative": "il più leggero",
-        "transcription": "ledˈdʒɛro"
+        "transcription": "ledˈdʒɛro",
+        "opposite": "pesante"
     },
     {
         "word": "marrone",
@@ -1573,7 +1597,8 @@
         "subtext": "rosa chiaro / rosa acceso / rosa shocking",
         "comparative": "più rosa",
         "superlative": "il più rosa",
-        "transcription": "ˈrɔza"
+        "transcription": "ˈrɔza",
+        "synonyms": []
     },
     {
         "word": "arancione",
@@ -1595,7 +1620,8 @@
         "subtext": "arancione acceso / arancione scuro / luce arancione",
         "comparative": "più arancione",
         "superlative": "il più arancione",
-        "transcription": "aranˈtʃone"
+        "transcription": "aranˈtʃone",
+        "synonyms": []
     },
     {
         "word": "grande",
@@ -1620,7 +1646,8 @@
         ],
         "comparative": "più grande",
         "superlative": "il più grande",
-        "transcription": "ˈɡrande"
+        "transcription": "ˈɡrande",
+        "opposite": "piccolo"
     },
     {
         "word": "bello",
@@ -1744,7 +1771,8 @@
         "subtext": "un risultato incredibile / un'offerta incredibile / davvero incredibile",
         "comparative": "più incredibile",
         "superlative": "il più incredibile",
-        "transcription": "inkreˈdibile"
+        "transcription": "inkreˈdibile",
+        "synonyms": []
     },
     {
         "word": "fantastico",
@@ -1792,7 +1820,8 @@
         "subtext": "sentirsi triste / una situazione triste / profondamente triste",
         "comparative": "più triste",
         "superlative": "il più triste",
-        "transcription": "ˈtriste"
+        "transcription": "ˈtriste",
+        "synonyms": []
     },
     {
         "word": "affamato",
@@ -1841,7 +1870,8 @@
         "subtext": "sentirsi arrabbiato / arrabbiato con qualcuno / molto arrabbiato",
         "comparative": "più arrabbiato",
         "superlative": "il più arrabbiato",
-        "transcription": "arrabˈbjato"
+        "transcription": "arrabˈbjato",
+        "synonyms": []
     },
     {
         "word": "annoiato",
@@ -1863,7 +1893,8 @@
         "subtext": "sentirsi annoiato / annoiato da / che si annoia facilmente",
         "comparative": "più annoiato",
         "superlative": "il più annoiato",
-        "transcription": "annoˈjato"
+        "transcription": "annoˈjato",
+        "synonyms": []
     },
     {
         "word": "emozionato",
@@ -2015,7 +2046,8 @@
         ],
         "comparative": "più nuovo",
         "superlative": "il più nuovo",
-        "transcription": "ˈnwɔvo"
+        "transcription": "ˈnwɔvo",
+        "opposite": "vecchio"
     },
     {
         "word": "differente",
@@ -2242,7 +2274,8 @@
         "subtext": "infelice per qualcosa / profondamente infelice",
         "comparative": "più infelice",
         "superlative": "il più infelice",
-        "transcription": "infeˈlitʃe"
+        "transcription": "infeˈlitʃe",
+        "synonyms": []
     },
     {
         "word": "nervoso",
@@ -2263,7 +2296,8 @@
         "subtext": "nervoso prima di un colloquio / molto nervoso",
         "comparative": "più nervoso",
         "superlative": "il più nervoso",
-        "transcription": "nerˈvozo"
+        "transcription": "nerˈvozo",
+        "synonyms": []
     },
     {
         "word": "stressato",
@@ -2287,7 +2321,8 @@
         ],
         "comparative": "più stressato",
         "superlative": "il più stressato",
-        "transcription": "stresˈsato"
+        "transcription": "stresˈsato",
+        "opposite": "rilassato"
     },
     {
         "word": "sicuro di sé",
@@ -2383,7 +2418,8 @@
         "subtext": "sentirsi sorpreso / molto sorpreso / piacevolmente sorpreso",
         "comparative": "più sorpreso",
         "superlative": "il più sorpreso",
-        "transcription": "sorˈprezo"
+        "transcription": "sorˈprezo",
+        "synonyms": []
     },
     {
         "word": "deluso",
@@ -2404,7 +2440,8 @@
         "subtext": "sentirsi deluso / profondamente deluso / deluso da",
         "comparative": "più deluso",
         "superlative": "il più deluso",
-        "transcription": "deˈluzo"
+        "transcription": "deˈluzo",
+        "synonyms": []
     },
     {
         "word": "bello",
@@ -2430,7 +2467,8 @@
         ],
         "comparative": "più bello",
         "superlative": "il più bello",
-        "transcription": "ˈbɛllo"
+        "transcription": "ˈbɛllo",
+        "opposite": "brutto"
     },
     {
         "word": "carino",
@@ -2476,7 +2514,8 @@
         "subtext": "caffè forte / opinione forte / molto forte",
         "comparative": "più forte",
         "superlative": "il più forte",
-        "transcription": "ˈfɔrte"
+        "transcription": "ˈfɔrte",
+        "synonyms": []
     },
     {
         "word": "debole",
@@ -2497,7 +2536,8 @@
         "subtext": "connessione debole / un argomento debole / molto debole",
         "comparative": "più debole",
         "superlative": "il più debole",
-        "transcription": "ˈdebole"
+        "transcription": "ˈdebole",
+        "synonyms": []
     },
     {
         "word": "in forma",
@@ -2518,7 +2558,8 @@
         "subtext": "in forma fisica / restare in forma / mantenersi in forma",
         "comparative": "più in forma",
         "superlative": "il più in forma",
-        "transcription": "in ˈfɔrma"
+        "transcription": "in ˈfɔrma",
+        "synonyms": []
     },
     {
         "word": "eccellente",
@@ -2587,7 +2628,9 @@
         "subtext": "completamente inutile / rivelarsi inutile / un'idea inutile",
         "comparative": "più inutile",
         "superlative": "il più inutile",
-        "transcription": "iˈnutile"
+        "transcription": "iˈnutile",
+        "synonyms": [],
+        "opposite": "utile"
     },
     {
         "word": "corretto",
@@ -2632,7 +2675,8 @@
         "subtext": "trovare interessante / molto interessante / un'idea interessante",
         "comparative": "più interessante",
         "superlative": "il più interessante",
-        "transcription": "interesˈsante"
+        "transcription": "interesˈsante",
+        "synonyms": []
     },
     {
         "word": "noioso",
@@ -2677,7 +2721,8 @@
         "subtext": "assolutamente necessario / se necessario / necessario da fare",
         "comparative": "più necessario",
         "superlative": "il più necessario",
-        "transcription": "netʃesˈsarjo"
+        "transcription": "netʃesˈsarjo",
+        "synonyms": []
     },
     {
         "word": "possibile",
@@ -2698,7 +2743,8 @@
         "subtext": "al più presto possibile / è possibile / rendere possibile",
         "comparative": "più possibile",
         "superlative": "il più possibile",
-        "transcription": "posˈsibile"
+        "transcription": "posˈsibile",
+        "synonyms": []
     },
     {
         "word": "impossibile",
@@ -2719,7 +2765,8 @@
         "subtext": "praticamente impossibile / rendere impossibile / quasi impossibile",
         "comparative": "più impossibile",
         "superlative": "il più impossibile",
-        "transcription": "imposˈsibile"
+        "transcription": "imposˈsibile",
+        "synonyms": []
     },
     {
         "word": "speciale",
@@ -2740,7 +2787,8 @@
         "subtext": "un'offerta speciale / occasione speciale / molto speciale",
         "comparative": "più speciale",
         "superlative": "il più speciale",
-        "transcription": "speˈtʃale"
+        "transcription": "speˈtʃale",
+        "synonyms": []
     },
     {
         "word": "popolare",
@@ -2761,7 +2809,8 @@
         "subtext": "molto popolare / scelta popolare / il più popolare",
         "comparative": "più popolare",
         "superlative": "il più popolare",
-        "transcription": "popoˈlare"
+        "transcription": "popoˈlare",
+        "synonyms": []
     },
     {
         "word": "simile",
@@ -2830,7 +2879,8 @@
         "subtext": "molto gentile / gentile da parte tua / una persona gentile",
         "comparative": "più gentile",
         "superlative": "il più gentile",
-        "transcription": "dʒenˈtile"
+        "transcription": "dʒenˈtile",
+        "synonyms": []
     },
     {
         "word": "divertente",
@@ -2851,7 +2901,8 @@
         "subtext": "molto divertente / storia divertente / trovarlo divertente",
         "comparative": "più divertente",
         "superlative": "il più divertente",
-        "transcription": "diverˈtente"
+        "transcription": "diverˈtente",
+        "synonyms": []
     },
     {
         "word": "intelligente",
@@ -2948,7 +2999,8 @@
         "subtext": "molto pigro / un approccio pigro / troppo pigro",
         "comparative": "più pigro",
         "superlative": "il più pigro",
-        "transcription": "ˈpiɡro"
+        "transcription": "ˈpiɡro",
+        "synonyms": []
     },
     {
         "word": "onesto",
@@ -2970,7 +3022,8 @@
         "subtext": "molto onesto / brutalmente onesto / del tutto onesto",
         "comparative": "più onesto",
         "superlative": "il più onesto",
-        "transcription": "oˈnɛsto"
+        "transcription": "oˈnɛsto",
+        "synonyms": []
     },
     {
         "word": "rumoroso",
@@ -2992,7 +3045,8 @@
         "subtext": "molto rumoroso / ambiente rumoroso / troppo rumoroso",
         "comparative": "più rumoroso",
         "superlative": "il più rumoroso",
-        "transcription": "rumoˈrozo"
+        "transcription": "rumoˈrozo",
+        "synonyms": []
     },
     {
         "word": "onesto",
@@ -3015,7 +3069,8 @@
         "subtext": "onesto",
         "comparative": "più onesto",
         "superlative": "il più onesto",
-        "transcription": "oˈnɛsto"
+        "transcription": "oˈnɛsto",
+        "synonyms": []
     },
     {
         "word": "rumoroso",
@@ -3038,7 +3093,8 @@
         "subtext": "rumoroso",
         "comparative": "più rumoroso",
         "superlative": "il più rumoroso",
-        "transcription": "rumoˈrozo"
+        "transcription": "rumoˈrozo",
+        "synonyms": []
     },
     {
         "word": "rotondo",
@@ -3061,7 +3117,8 @@
         "subtext": "rotondo",
         "comparative": "più rotondo",
         "superlative": "il più rotondo",
-        "transcription": "roˈtondo"
+        "transcription": "roˈtondo",
+        "synonyms": []
     },
     {
         "word": "quadrato",
@@ -3084,7 +3141,8 @@
         "subtext": "quadrato",
         "comparative": "più quadrato",
         "superlative": "il più quadrato",
-        "transcription": "kwaˈdrato"
+        "transcription": "kwaˈdrato",
+        "synonyms": []
     },
     {
         "word": "utile",
@@ -3107,7 +3165,9 @@
         "subtext": "utile",
         "comparative": "più utile",
         "superlative": "il più utile",
-        "transcription": "ˈutile"
+        "transcription": "ˈutile",
+        "synonyms": [],
+        "opposite": "inutile"
     },
     {
         "word": "paziente",
@@ -3130,7 +3190,8 @@
         "subtext": "paziente",
         "comparative": "più paziente",
         "superlative": "il più paziente",
-        "transcription": "patˈtsjɛnte"
+        "transcription": "patˈtsjɛnte",
+        "synonyms": []
     },
     {
         "word": "attivo",
@@ -3153,7 +3214,8 @@
         "subtext": "attivo",
         "comparative": "più attivo",
         "superlative": "il più attivo",
-        "transcription": "atˈtivo"
+        "transcription": "atˈtivo",
+        "synonyms": []
     },
     {
         "word": "attento",
@@ -3176,7 +3238,8 @@
         "subtext": "attento",
         "comparative": "più attento",
         "superlative": "il più attento",
-        "transcription": "atˈtɛnto"
+        "transcription": "atˈtɛnto",
+        "synonyms": []
     },
     {
         "word": "creativo",
@@ -3199,7 +3262,8 @@
         "subtext": "creativo",
         "comparative": "più creativo",
         "superlative": "il più creativo",
-        "transcription": "kreaˈtivo"
+        "transcription": "kreaˈtivo",
+        "synonyms": []
     },
     {
         "word": "nuvoloso",
@@ -3222,7 +3286,8 @@
         "subtext": "nuvoloso",
         "comparative": "più nuvoloso",
         "superlative": "il più nuvoloso",
-        "transcription": "nuvoˈlozo"
+        "transcription": "nuvoˈlozo",
+        "synonyms": []
     },
     {
         "word": "ventoso",
@@ -3245,7 +3310,8 @@
         "subtext": "ventoso",
         "comparative": "più ventoso",
         "superlative": "il più ventoso",
-        "transcription": "venˈtozo"
+        "transcription": "venˈtozo",
+        "synonyms": []
     },
     {
         "word": "nevoso",
@@ -3268,7 +3334,8 @@
         "subtext": "nevoso",
         "comparative": "più nevoso",
         "superlative": "il più nevoso",
-        "transcription": "neˈvozo"
+        "transcription": "neˈvozo",
+        "synonyms": []
     },
     {
         "word": "nebbioso",
@@ -3291,7 +3358,8 @@
         "subtext": "nebbioso",
         "comparative": "più nebbioso",
         "superlative": "il più nebbioso",
-        "transcription": "nebˈbjozo"
+        "transcription": "nebˈbjozo",
+        "synonyms": []
     },
     {
         "word": "tempestoso",
@@ -3314,7 +3382,8 @@
         "subtext": "tempestoso",
         "comparative": "più tempestoso",
         "superlative": "il più tempestoso",
-        "transcription": "tempesˈtozo"
+        "transcription": "tempesˈtozo",
+        "synonyms": []
     },
     {
         "word": "biondo",
@@ -3337,7 +3406,8 @@
         "subtext": "biondo",
         "comparative": "più biondo",
         "superlative": "il più biondo",
-        "transcription": "ˈbjondo"
+        "transcription": "ˈbjondo",
+        "synonyms": []
     },
     {
         "word": "intelligente",
@@ -3360,7 +3430,8 @@
         "subtext": "intelligente",
         "comparative": "più intelligente",
         "superlative": "il più intelligente",
-        "transcription": "intelliˈdʒɛnte"
+        "transcription": "intelliˈdʒɛnte",
+        "synonyms": []
     },
     {
         "word": "serio",
@@ -3383,7 +3454,8 @@
         "subtext": "serio",
         "comparative": "più serio",
         "superlative": "il più serio",
-        "transcription": "ˈsɛːrjo"
+        "transcription": "ˈsɛːrjo",
+        "synonyms": []
     },
     {
         "word": "brutto",
@@ -3406,7 +3478,9 @@
         "subtext": "brutto",
         "comparative": "più brutto",
         "superlative": "il più brutto",
-        "transcription": "ˈbrutto"
+        "transcription": "ˈbrutto",
+        "synonyms": [],
+        "opposite": "bello"
     },
     {
         "word": "vicino",
@@ -3429,7 +3503,9 @@
         "subtext": "vicino",
         "comparative": "più vicino",
         "superlative": "il più vicino",
-        "transcription": "viˈtʃino"
+        "transcription": "viˈtʃino",
+        "synonyms": [],
+        "opposite": "lontano"
     },
     {
         "word": "lontano",
@@ -3452,7 +3528,9 @@
         "subtext": "lontano",
         "comparative": "più lontano",
         "superlative": "il più lontano",
-        "transcription": "lonˈtano"
+        "transcription": "lonˈtano",
+        "synonyms": [],
+        "opposite": "vicino"
     },
     {
         "word": "ricco",
@@ -3475,7 +3553,9 @@
         "subtext": "ricco",
         "comparative": "più ricco",
         "superlative": "il più ricco",
-        "transcription": "ˈrikko"
+        "transcription": "ˈrikko",
+        "synonyms": [],
+        "opposite": "povero"
     },
     {
         "word": "povero",
@@ -3498,7 +3578,9 @@
         "subtext": "povero",
         "comparative": "più povero",
         "superlative": "il più povero",
-        "transcription": "ˈpɔvero"
+        "transcription": "ˈpɔvero",
+        "synonyms": [],
+        "opposite": "ricco"
     },
     {
         "word": "presto",
@@ -3521,7 +3603,9 @@
         "subtext": "presto",
         "comparative": "più presto",
         "superlative": "il più presto",
-        "transcription": "ˈprɛsto"
+        "transcription": "ˈprɛsto",
+        "synonyms": [],
+        "opposite": "tardi"
     },
     {
         "word": "tardi",
@@ -3544,7 +3628,9 @@
         "subtext": "tardi",
         "comparative": "più tardi",
         "superlative": "il più tardi",
-        "transcription": "ˈtardi"
+        "transcription": "ˈtardi",
+        "synonyms": [],
+        "opposite": "presto"
     },
     {
         "word": "emozionante",
@@ -3567,7 +3653,8 @@
         "subtext": "emozionante",
         "comparative": "più emozionante",
         "superlative": "il più emozionante",
-        "transcription": "emotsjoˈnante"
+        "transcription": "emotsjoˈnante",
+        "synonyms": []
     },
     {
         "word": "delizioso",
@@ -3590,7 +3677,8 @@
         "subtext": "delizioso",
         "comparative": "più delizioso",
         "superlative": "il più delizioso",
-        "transcription": "delitˈtsjozo"
+        "transcription": "delitˈtsjozo",
+        "synonyms": []
     },
     {
         "word": "dolce",
@@ -3613,7 +3701,9 @@
         "subtext": "dolce",
         "comparative": "più dolce",
         "superlative": "il più dolce",
-        "transcription": "ˈdoltʃe"
+        "transcription": "ˈdoltʃe",
+        "synonyms": [],
+        "opposite": "amaro"
     },
     {
         "word": "comodo",
@@ -3636,7 +3726,8 @@
         "subtext": "comodo",
         "comparative": "più comodo",
         "superlative": "il più comodo",
-        "transcription": "ˈkɔmodo"
+        "transcription": "ˈkɔmodo",
+        "synonyms": []
     },
     {
         "word": "vero",
@@ -3659,7 +3750,8 @@
         "subtext": "vero",
         "comparative": "più vero",
         "superlative": "il più vero",
-        "transcription": "ˈveːro"
+        "transcription": "ˈveːro",
+        "synonyms": []
     },
     {
         "word": "semplice",
@@ -3682,7 +3774,8 @@
         "subtext": "semplice",
         "comparative": "più semplice",
         "superlative": "il più semplice",
-        "transcription": "ˈsemplitʃe"
+        "transcription": "ˈsemplitʃe",
+        "synonyms": []
     },
     {
         "word": "naturale",
@@ -3705,7 +3798,8 @@
         "subtext": "naturale",
         "comparative": "più naturale",
         "superlative": "il più naturale",
-        "transcription": "natuˈrale"
+        "transcription": "natuˈrale",
+        "synonyms": []
     },
     {
         "word": "chiaro",
@@ -3728,7 +3822,9 @@
         "subtext": "chiaro",
         "comparative": "più chiaro",
         "superlative": "il più chiaro",
-        "transcription": "ˈkjaro"
+        "transcription": "ˈkjaro",
+        "synonyms": [],
+        "opposite": "scuro"
     },
     {
         "word": "comune",
@@ -3751,7 +3847,8 @@
         "subtext": "comune",
         "comparative": "più comune",
         "superlative": "il più comune",
-        "transcription": "koˈmune"
+        "transcription": "koˈmune",
+        "synonyms": []
     },
     {
         "word": "famoso",
@@ -3774,7 +3871,8 @@
         "subtext": "famoso",
         "comparative": "più famoso",
         "superlative": "il più famoso",
-        "transcription": "faˈmozo"
+        "transcription": "faˈmozo",
+        "synonyms": []
     },
     {
         "word": "salato",
@@ -3797,7 +3895,8 @@
         "subtext": "salato",
         "comparative": "più salato",
         "superlative": "il più salato",
-        "transcription": "saˈlato"
+        "transcription": "saˈlato",
+        "synonyms": []
     },
     {
         "word": "acido",
@@ -3820,7 +3919,8 @@
         "subtext": "acido",
         "comparative": "più acido",
         "superlative": "il più acido",
-        "transcription": "ˈatʃido"
+        "transcription": "ˈatʃido",
+        "synonyms": []
     },
     {
         "word": "amaro",
@@ -3843,7 +3943,9 @@
         "subtext": "amaro",
         "comparative": "più amaro",
         "superlative": "il più amaro",
-        "transcription": "aˈmaro"
+        "transcription": "aˈmaro",
+        "synonyms": [],
+        "opposite": "dolce"
     },
     {
         "word": "grasso",
@@ -3866,7 +3968,8 @@
         "subtext": "grasso",
         "comparative": "più grasso",
         "superlative": "il più grasso",
-        "transcription": "ˈɡrasso"
+        "transcription": "ˈɡrasso",
+        "synonyms": []
     },
     {
         "word": "magro",
@@ -3889,7 +3992,8 @@
         "subtext": "magro",
         "comparative": "più magro",
         "superlative": "il più magro",
-        "transcription": "ˈmaɡro"
+        "transcription": "ˈmaɡro",
+        "synonyms": []
     },
     {
         "word": "riccio",
@@ -3912,7 +4016,8 @@
         "subtext": "riccio",
         "comparative": "più riccio",
         "superlative": "il più riccio",
-        "transcription": "ˈrittʃo"
+        "transcription": "ˈrittʃo",
+        "synonyms": []
     },
     {
         "word": "liscio",
@@ -3935,7 +4040,8 @@
         "subtext": "liscio",
         "comparative": "più liscio",
         "superlative": "il più liscio",
-        "transcription": "ˈliʃʃo"
+        "transcription": "ˈliʃʃo",
+        "synonyms": []
     },
     {
         "word": "triangolare",
@@ -3958,7 +4064,8 @@
         "subtext": "triangolare",
         "comparative": "più triangolare",
         "superlative": "il più triangolare",
-        "transcription": "trianɡoˈlare"
+        "transcription": "trianɡoˈlare",
+        "synonyms": []
     },
     {
         "word": "rettangolare",
@@ -3981,7 +4088,8 @@
         "subtext": "rettangolare",
         "comparative": "più rettangolare",
         "superlative": "il più rettangolare",
-        "transcription": "rettanɡoˈlare"
+        "transcription": "rettanɡoˈlare",
+        "synonyms": []
     },
     {
         "word": "ovale",
@@ -4004,7 +4112,8 @@
         "subtext": "ovale",
         "comparative": "più ovale",
         "superlative": "il più ovale",
-        "transcription": "oˈvale"
+        "transcription": "oˈvale",
+        "synonyms": []
     },
     {
         "word": "preferito",
@@ -4027,7 +4136,8 @@
         "subtext": "preferito",
         "comparative": "più preferito",
         "superlative": "il più preferito",
-        "transcription": "prefeˈrito"
+        "transcription": "prefeˈrito",
+        "synonyms": []
     },
     {
         "word": "scuro",
@@ -4050,7 +4160,9 @@
         "subtext": "scuro",
         "comparative": "più scuro",
         "superlative": "il più scuro",
-        "transcription": "ˈskuro"
+        "transcription": "ˈskuro",
+        "synonyms": [],
+        "opposite": "chiaro"
     },
     {
         "word": "luminoso",
@@ -4073,7 +4185,8 @@
         "subtext": "luminoso",
         "comparative": "più luminoso",
         "superlative": "il più luminoso",
-        "transcription": "lumiˈnozo"
+        "transcription": "lumiˈnozo",
+        "synonyms": []
     },
     {
         "word": "dorato",
@@ -4096,7 +4209,8 @@
         "subtext": "dorato",
         "comparative": "più dorato",
         "superlative": "il più dorato",
-        "transcription": "doˈrato"
+        "transcription": "doˈrato",
+        "synonyms": []
     },
     {
         "word": "argentato",
@@ -4119,7 +4233,8 @@
         "subtext": "argentato",
         "comparative": "più argentato",
         "superlative": "il più argentato",
-        "transcription": "ardʒenˈtato"
+        "transcription": "ardʒenˈtato",
+        "synonyms": []
     },
     {
         "word": "profondo",
@@ -4142,7 +4257,8 @@
         "subtext": "profondo",
         "comparative": "più profondo",
         "superlative": "il più profondo",
-        "transcription": "proˈfondo"
+        "transcription": "proˈfondo",
+        "synonyms": []
     },
     {
         "word": "poco profondo",
@@ -4165,7 +4281,8 @@
         "subtext": "poco profondo",
         "comparative": "più poco profondo",
         "superlative": "il più poco profondo",
-        "transcription": "ˈpɔko proˈfondo"
+        "transcription": "ˈpɔko proˈfondo",
+        "synonyms": []
     },
     {
         "word": "moderno",
@@ -4188,7 +4305,8 @@
         "subtext": "moderno",
         "comparative": "più moderno",
         "superlative": "il più moderno",
-        "transcription": "moˈdɛrno"
+        "transcription": "moˈdɛrno",
+        "synonyms": []
     },
     {
         "word": "antico",
@@ -4211,7 +4329,8 @@
         "subtext": "antico",
         "comparative": "più antico",
         "superlative": "il più antico",
-        "transcription": "anˈtiko"
+        "transcription": "anˈtiko",
+        "synonyms": []
     },
     {
         "word": "coraggioso",
@@ -4234,7 +4353,8 @@
         "subtext": "coraggioso",
         "comparative": "più coraggioso",
         "superlative": "il più coraggioso",
-        "transcription": "koradˈdʒozo"
+        "transcription": "koradˈdʒozo",
+        "synonyms": []
     },
     {
         "word": "codardo",
@@ -4257,7 +4377,8 @@
         "subtext": "codardo",
         "comparative": "più codardo",
         "superlative": "il più codardo",
-        "transcription": "koˈdardo"
+        "transcription": "koˈdardo",
+        "synonyms": []
     },
     {
         "word": "largo",
@@ -4280,7 +4401,8 @@
         "subtext": "largo",
         "comparative": "più largo",
         "superlative": "il più largo",
-        "transcription": "ˈlarɡo"
+        "transcription": "ˈlarɡo",
+        "synonyms": []
     },
     {
         "word": "stretto",
@@ -4303,7 +4425,8 @@
         "subtext": "stretto",
         "comparative": "più stretto",
         "superlative": "il più stretto",
-        "transcription": "ˈstretto"
+        "transcription": "ˈstretto",
+        "synonyms": []
     },
     {
         "word": "poco amichevole",
@@ -4326,7 +4449,8 @@
         "subtext": "poco amichevole",
         "comparative": "più poco amichevole",
         "superlative": "il più poco amichevole",
-        "transcription": "ˈpɔko amiˈkevole"
+        "transcription": "ˈpɔko amiˈkevole",
+        "synonyms": []
     },
     {
         "word": "impaziente",
@@ -4349,7 +4473,8 @@
         "subtext": "impaziente",
         "comparative": "più impaziente",
         "superlative": "il più impaziente",
-        "transcription": "impatˈtsjɛnte"
+        "transcription": "impatˈtsjɛnte",
+        "synonyms": []
     },
     {
         "word": "maleducato",
@@ -4372,7 +4497,8 @@
         "subtext": "maleducato",
         "comparative": "più maleducato",
         "superlative": "il più maleducato",
-        "transcription": "maleduˈkato"
+        "transcription": "maleduˈkato",
+        "synonyms": []
     },
     {
         "word": "falso",
@@ -4395,7 +4521,8 @@
         "subtext": "falso",
         "comparative": "più falso",
         "superlative": "il più falso",
-        "transcription": "ˈfalso"
+        "transcription": "ˈfalso",
+        "synonyms": []
     },
     {
         "word": "sfortunato",
@@ -4418,7 +4545,8 @@
         "subtext": "sfortunato",
         "comparative": "più sfortunato",
         "superlative": "il più sfortunato",
-        "transcription": "sfortuˈnato"
+        "transcription": "sfortuˈnato",
+        "synonyms": []
     },
     {
         "word": "simpatico",
@@ -4441,7 +4569,8 @@
         "subtext": "molto simpatico",
         "opposite": "antipatico",
         "oppositeEmoji": "😒",
-        "transcription": "simˈpatiko"
+        "transcription": "simˈpatiko",
+        "synonyms": []
     },
     {
         "word": "antipatico",
@@ -4464,7 +4593,8 @@
         "subtext": "piuttosto antipatico",
         "opposite": "simpatico",
         "oppositeEmoji": "😊",
-        "transcription": "antiˈpatiko"
+        "transcription": "antiˈpatiko",
+        "synonyms": []
     }
 ];
     const lang = "it";

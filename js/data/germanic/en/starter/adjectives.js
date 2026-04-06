@@ -1560,7 +1560,7 @@
         "word": "great",
         "level": "starter",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "bad",
         "oppositeEmoji": "😫",
         "subtext": "a great idea / a great opportunity / great value",
         "synonyms": [
@@ -1635,7 +1635,7 @@
         "word": "terrible",
         "level": "starter",
         "form": "adjective",
-        "opposite": "bad",
+        "opposite": "good",
         "oppositeEmoji": "🌟",
         "subtext": "terrible weather / a terrible mistake / terrible news",
         "synonyms": [
@@ -1710,7 +1710,7 @@
         "word": "fantastic",
         "level": "starter",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "bad",
         "oppositeEmoji": "😫",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
         "synonyms": [
@@ -1812,7 +1812,7 @@
         "word": "bored",
         "level": "starter",
         "form": "adjective",
-        "opposite": "interesting",
+        "opposite": "excited",
         "oppositeEmoji": "🧐",
         "subtext": "feel bored / bored with / easily bored",
         "synonyms": [
@@ -2855,7 +2855,7 @@
         "theme": "size_shape_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "opposite": "triangular",
+        "opposite": "round",
         "oppositeEmoji": "⭕",
         "subtext": "a square box / square shape",
         "synonyms": [
@@ -4482,7 +4482,7 @@
         "theme": "describing_things_A1",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "terrible",
+        "opposite": "bad",
         "definitions": [
             {
                 "text": "Good or acceptable; healthy.",
@@ -4507,7 +4507,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "happy",
+        "opposite": "sad",
         "definitions": [
             {
                 "text": "Happy and pleased.",
