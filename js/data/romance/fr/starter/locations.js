@@ -5,14 +5,12 @@
         "level": "starter",
         "theme": "address_location_A1",
         "transcription": "fʁɑ̃s",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=150&h=150&fit=crop"
     },
     {
         "word": "Italie",
         "level": "starter",
         "theme": "address_location_A1",
         "transcription": "i.ta.li",
-        "image": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=150&h=150&fit=crop"
     },
     {
         "word": "Russie",
@@ -44,14 +42,12 @@
         "level": "starter",
         "theme": "address_location_A1",
         "transcription": "pa.ʁi",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=150&h=150&fit=crop"
     },
     {
         "word": "Londres",
         "level": "starter",
         "theme": "address_location_A1",
         "transcription": "lɔ̃dʁ",
-        "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=150&h=150&fit=crop"
     },
     {
         "word": "Rome",
@@ -228,6 +224,126 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
+    {
+        "word": "Allemagne",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "al.maɲ"
+    },
+    {
+        "word": "Japon",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "ʒa.pɔ̃"
+    },
+    {
+        "word": "Chine",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "ʃin"
+    },
+    {
+        "word": "Brésil",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "bʁe.zil"
+    },
+    {
+        "word": "Australie",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "os.tʁa.li"
+    },
+    {
+        "word": "Égypte",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "e.ʒipt"
+    },
+    {
+        "word": "Inde",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "ɛ̃d"
+    },
+    {
+        "word": "Portugal",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "pɔʁ.ty.ɡal"
+    },
+    {
+        "word": "Milan",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "mi.lɑ̃"
+    },
+    {
+        "word": "Naples",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "napl"
+    },
+    {
+        "word": "Madrid",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "ma.dʁid"
+    },
+    {
+        "word": "Berlin",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "bɛʁ.lɛ̃"
+    },
+    {
+        "word": "Tokyo",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "tɔ.kjo"
+    },
+    {
+        "word": "Pékin",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "pe.kɛ̃"
+    },
+    {
+        "word": "Lisbonne",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "lis.bɔn"
+    },
+    {
+        "word": "Zurich",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "zy.ʁik"
+    },
+    {
+        "word": "Sydney",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "sid.nɛ"
+    },
+    {
+        "word": "Toronto",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "tɔ.ʁɔ̃.to"
+    },
+    {
+        "word": "Istanbul",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "is.tɑ̃.bul"
+    },
+    {
+        "word": "Genève",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "transcription": "ʒə.nɛv"
+    }
 ];
     const lang = "fr";
     window.locationsData = window.locationsData || {};

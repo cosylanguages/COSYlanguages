@@ -3782,6 +3782,152 @@
         "comparative": "plus malchanceux",
         "superlative": "le plus malchanceux"
     },
+    {
+        "word": "violet",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟣",
+        "form": "adjective",
+        "feminine": "violette",
+        "plural": "violets",
+        "femininePlural": "violettes",
+        "definitions": [
+            {
+                "text": "Une couleur entre le bleu et le rouge.",
+                "examples": [
+                    "J'ai un t-shirt violet.",
+                    "Les fleurs sont violettes."
+                ]
+            }
+        ],
+        "transcription": "vjɔ.lɛ"
+    },
+    {
+        "word": "marié",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "emoji": "💍",
+        "form": "adjective",
+        "feminine": "mariée",
+        "plural": "mariés",
+        "femininePlural": "mariées",
+        "definitions": [
+            {
+                "text": "Qui a un mari ou une femme.",
+                "examples": [
+                    "Es-tu marié ?",
+                    "Mon frère est marié depuis deux ans."
+                ]
+            }
+        ],
+        "transcription": "ma.ʁje",
+        "opposite": "célibataire"
+    },
+    {
+        "word": "célibataire",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "feminine": "célibataire",
+        "plural": "célibataires",
+        "femininePlural": "célibataires",
+        "definitions": [
+            {
+                "text": "Qui n'est pas marié.",
+                "examples": [
+                    "Il est encore célibataire.",
+                    "Ma sœur est célibataire."
+                ]
+            }
+        ],
+        "transcription": "se.li.ba.tɛʁ",
+        "opposite": "marié"
+    },
+    {
+        "word": "rugueux",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧱",
+        "form": "adjective",
+        "feminine": "rugueuse",
+        "plural": "rugueux",
+        "femininePlural": "rugueuses",
+        "definitions": [
+            {
+                "text": "Qui n'est pas lisse ; qui présente des aspérités au toucher.",
+                "examples": [
+                    "Le mur est rugueux.",
+                    "Il a les mains rugueuses à cause du travail."
+                ]
+            }
+        ],
+        "transcription": "ʁy.ɡø",
+        "opposite": "lisse"
+    },
+    {
+        "word": "superficiel",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "feminine": "superficielle",
+        "plural": "superficiels",
+        "femininePlural": "superficielles",
+        "definitions": [
+            {
+                "text": "Qui a peu de profondeur ; ou qui ne va pas au fond des choses.",
+                "examples": [
+                    "La coupure est superficielle.",
+                    "C'est une personne superficielle."
+                ]
+            }
+        ],
+        "transcription": "sy.pɛʁ.fi.sjɛl",
+        "opposite": "profond"
+    },
+    {
+        "word": "étrange",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❓",
+        "form": "adjective",
+        "feminine": "étrange",
+        "plural": "étranges",
+        "femininePlural": "étranges",
+        "definitions": [
+            {
+                "text": "Différent de ce qui est habituel ; insolite.",
+                "examples": [
+                    "Quel bruit étrange !",
+                    "C'était une journée étrange."
+                ]
+            }
+        ],
+        "transcription": "e.tʁɑ̃ʒ",
+        "opposite": "normal"
+    },
+    {
+        "word": "normal",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😐",
+        "form": "adjective",
+        "feminine": "normale",
+        "plural": "normaux",
+        "femininePlural": "normales",
+        "definitions": [
+            {
+                "text": "Qui est conforme à la norme ; habituel.",
+                "examples": [
+                    "C'est un jour normal.",
+                    "Tout est redevenu normal."
+                ]
+            }
+        ],
+        "transcription": "nɔʁ.mal",
+        "opposite": "étrange"
+    },
 ];
     const lang = "fr";
     window.adjectivesData = window.adjectivesData || {};

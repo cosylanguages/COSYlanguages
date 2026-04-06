@@ -18,7 +18,7 @@
     },
     {
         "word": "Dante Alighieri",
-        "transcription": "ˈdante aliˈɡjɛːri",
+        "transcription": "ˈdante aliˈɡjɛri",
         "subtext": "poeta",
         "definitions": [
             {
@@ -34,7 +34,7 @@
     },
     {
         "word": "Michelangelo Buonarroti",
-        "transcription": "mikelˈandʒelo bwɔnarˈrɔːti",
+        "transcription": "mikelˈandʒelo bwɔnarˈrɔti",
         "subtext": "scultore e pittore",
         "definitions": [
             {
@@ -50,7 +50,7 @@
     },
     {
         "word": "Galileo Galilei",
-        "transcription": "ɡaliˈlɛːo ɡaliˈlɛːi",
+        "transcription": "ɡaliˈlɛo ɡaliˈlɛi",
         "subtext": "scienziato",
         "definitions": [
             {
@@ -66,7 +66,7 @@
     },
     {
         "word": "Cristoforo Colombo",
-        "transcription": "kriˈstɔːforo koˈlombo",
+        "transcription": "kriˈstɔforo koˈlombo",
         "subtext": "esploratore",
         "definitions": [
             {
@@ -82,7 +82,7 @@
     },
     {
         "word": "Marco Polo",
-        "transcription": "ˈmarko ˈpɔːlo",
+        "transcription": "ˈmarko ˈpɔlo",
         "subtext": "viaggiatore",
         "definitions": [
             {
@@ -98,7 +98,7 @@
     },
     {
         "word": "Luciano Pavarotti",
-        "transcription": "luˈtʃaːno pavaˈrɔtːi",
+        "transcription": "luˈtʃano pavaˈrɔti",
         "subtext": "tenore",
         "definitions": [
             {
@@ -114,7 +114,7 @@
     },
     {
         "word": "Federico Fellini",
-        "transcription": "fedeˈriːko felˈliːni",
+        "transcription": "fedeˈriko felˈlini",
         "subtext": "regista",
         "definitions": [
             {
@@ -130,7 +130,7 @@
     },
     {
         "word": "Enzo Ferrari",
-        "transcription": "ˈɛntso ferˈraːri",
+        "transcription": "ˈɛntso ferˈrari",
         "subtext": "imprenditore",
         "definitions": [
             {
@@ -146,7 +146,7 @@
     },
     {
         "word": "Sophia Loren",
-        "transcription": "soˈfiːa ˈlɔːren",
+        "transcription": "soˈfia ˈlɔren",
         "subtext": "attrice",
         "definitions": [
             {
@@ -162,7 +162,7 @@
     },
     {
         "word": "Guglielmo Marconi",
-        "transcription": "ɡuʎˈʎɛlmo marˈkoːni",
+        "transcription": "ɡuʎˈʎɛlmo marˈkoni",
         "subtext": "inventore",
         "definitions": [
             {

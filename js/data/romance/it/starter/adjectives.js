@@ -3383,7 +3383,7 @@
         "subtext": "serio",
         "comparative": "più serio",
         "superlative": "il più serio",
-        "transcription": "ˈsɛːrjo"
+        "transcription": "ˈsɛrjo"
     },
     {
         "word": "brutto",
@@ -3659,7 +3659,7 @@
         "subtext": "vero",
         "comparative": "più vero",
         "superlative": "il più vero",
-        "transcription": "ˈveːro"
+        "transcription": "ˈvero"
     },
     {
         "word": "semplice",
@@ -4465,6 +4465,194 @@
         "opposite": "simpatico",
         "oppositeEmoji": "😊",
         "transcription": "antiˈpatiko"
+    },
+    {
+        "word": "viola",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟣",
+        "form": "adjective",
+        "feminine": "viola",
+        "plural": "viola",
+        "femininePlural": "viola",
+        "definitions": [
+            {
+                "text": "Un colore tra il blu e il rosso.",
+                "examples": [
+                    "Ho una maglietta viola.",
+                    "I fiori sono viola."
+                ]
+            }
+        ],
+        "transcription": "viˈɔla"
+    },
+    {
+        "word": "sposato",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "emoji": "💍",
+        "form": "adjective",
+        "feminine": "sposata",
+        "plural": "sposati",
+        "femininePlural": "sposate",
+        "definitions": [
+            {
+                "text": "Che ha un marito o una moglie.",
+                "examples": [
+                    "Sei sposato?",
+                    "Mio fratello è sposato da due anni."
+                ]
+            }
+        ],
+        "transcription": "spoˈzato",
+        "opposite": "single"
+    },
+    {
+        "word": "celibe",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "feminine": "nubile",
+        "plural": "celibi",
+        "femininePlural": "nubili",
+        "definitions": [
+            {
+                "text": "Che non è sposato (riferito a un uomo); nubile (riferito a una donna).",
+                "examples": [
+                    "Lui è ancora celibe.",
+                    "Mia sorella è nubile."
+                ]
+            }
+        ],
+        "transcription": "ˈtʃɛlibe",
+        "opposite": "sposato"
+    },
+    {
+        "word": "ruvido",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧱",
+        "form": "adjective",
+        "feminine": "ruvida",
+        "plural": "ruvidi",
+        "femininePlural": "ruvide",
+        "definitions": [
+            {
+                "text": "Non liscio; che presenta asperità al tatto.",
+                "examples": [
+                    "Il muro è ruvido.",
+                    "Ha le mani ruvide dal lavoro."
+                ]
+            }
+        ],
+        "transcription": "ˈruvido",
+        "opposite": "liscio"
+    },
+    {
+        "word": "superficiale",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "feminine": "superficiale",
+        "plural": "superficiali",
+        "femininePlural": "superficiali",
+        "definitions": [
+            {
+                "text": "Che ha poca profondità; o che non approfondisce le cose.",
+                "examples": [
+                    "Il taglio è superficiale.",
+                    "È una persona superficiale."
+                ]
+            }
+        ],
+        "transcription": "superfitˈtʃale",
+        "opposite": "profondo"
+    },
+    {
+        "word": "strano",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❓",
+        "form": "adjective",
+        "feminine": "strana",
+        "plural": "strani",
+        "femininePlural": "strane",
+        "definitions": [
+            {
+                "text": "Diverso dal solito; insolito.",
+                "examples": [
+                    "Che rumore strano!",
+                    "È stata una giornata strana."
+                ]
+            }
+        ],
+        "transcription": "ˈstrano",
+        "opposite": "normale"
+    },
+    {
+        "word": "normale",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😐",
+        "form": "adjective",
+        "feminine": "normale",
+        "plural": "normali",
+        "femininePlural": "normali",
+        "definitions": [
+            {
+                "text": "Che rientra nella norma; usuale.",
+                "examples": [
+                    "È un giorno normale.",
+                    "Tutto è tornato normale."
+                ]
+            }
+        ],
+        "transcription": "norˈmale",
+        "opposite": "strano"
+    },
+    {
+        "word": "libero",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🆓",
+        "form": "adjective",
+        "feminine": "libera",
+        "plural": "liberi",
+        "femininePlural": "libere",
+        "definitions": [
+            {
+                "text": "Che non è occupato; che può agire senza costrizioni.",
+                "examples": [
+                    "Sei libero domani?",
+                    "Il posto è libero."
+                ]
+            }
+        ],
+        "transcription": "ˈlibero",
+        "opposite": "occupato"
+    },
+    {
+        "word": "pieno",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🤰",
+        "form": "adjective",
+        "feminine": "piena",
+        "plural": "pieni",
+        "femininePlural": "piene",
+        "definitions": [
+            {
+                "text": "Che ha mangiato a sufficienza; sazio.",
+                "examples": [
+                    "No grazie, sono pieno.",
+                    "Dopo la cena ero pienissimo."
+                ]
+            }
+        ],
+        "transcription": "ˈpjɛno",
+        "opposite": "affamato"
     }
 ];
     const lang = "it";

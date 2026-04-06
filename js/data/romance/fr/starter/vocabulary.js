@@ -11,7 +11,6 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "transcription": "me.dsɛ̃",
-        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=150&h=150&fit=crop",
         "plural": "médecins",
         "subtext": "voir un médecin, médecin de famille",
         "definitions": [
@@ -33,7 +32,6 @@
         "emoji": "🍎",
         "form": "noun",
         "transcription": "fʁɥi",
-        "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "fruit frais, jus de fruit",
         "definitions": [
@@ -54,7 +52,6 @@
         "emoji": "🥦",
         "form": "noun",
         "transcription": "le.ɡym",
-        "image": "https://images.unsplash.com/photo-1566385101042-1a000c1267c4?w=150&h=150&fit=crop",
         "plural": "légumes",
         "subtext": "légumes frais, légumes verts",
         "definitions": [
@@ -77,7 +74,6 @@
         "emoji": "🦶",
         "form": "noun",
         "transcription": "pje",
-        "image": "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=150&h=150&fit=crop",
         "plural": "pieds",
         "definitions": [
             {
@@ -98,7 +94,6 @@
         "emoji": "🧑‍🏫",
         "form": "noun",
         "transcription": "pʁɔ.fɛ.sœʁ",
-        "image": "https://images.unsplash.com/photo-1544717305-27a734ef41c4?w=150&h=150&fit=crop",
         "plural": "professeurs",
         "subtext": "professeur de français, professeur d'école",
         "definitions": [
@@ -118,7 +113,6 @@
         "article": "la",
         "form": "noun",
         "transcription": "ʁa.ta.tuj",
-        "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=150&h=150&fit=crop",
         "plural": "ratatouilles",
         "definitions": [
             {
@@ -137,7 +131,6 @@
         "article": "le",
         "form": "noun",
         "transcription": "kʁwa.sɑ̃",
-        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=150&h=150&fit=crop",
         "plural": "croissants",
         "definitions": [
             {
@@ -160,7 +153,6 @@
         "answer": "quatre pommes",
         "form": "noun",
         "transcription": "pɔm",
-        "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=150&h=150&fit=crop",
         "plural": "pommes",
         "definitions": [
             {
@@ -181,7 +173,6 @@
         "emoji": "🥖",
         "form": "noun",
         "transcription": "pɛ̃",
-        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=150&h=150&fit=crop",
         "plural": null,
         "subtext": "pain frais, baguette",
         "definitions": [
@@ -204,7 +195,6 @@
         "emoji": "🥚",
         "form": "noun",
         "transcription": "œf",
-        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=150&h=150&fit=crop",
         "plural": "oeufs",
         "subtext": "oeuf dur, omelette",
         "definitions": [
@@ -293,26 +283,6 @@
         ]
     },
     {
-        "word": "café",
-        "level": "starter",
-        "theme": "drinks_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "☕",
-        "form": "noun",
-        "plural": null,
-        "subtext": "café noir, tasse de café",
-        "definitions": [
-            {
-                "text": "Une boisson marron chaude faite à partir de grains de café.",
-                "examples": [
-                    "Je bois du café le matin.",
-                    "Tu veux du sucre dans ton café ?"
-                ]
-            }
-        ]
-    },
-    {
         "word": "thé",
         "level": "starter",
         "theme": "drinks_A1",
@@ -372,60 +342,6 @@
         ]
     },
     {
-        "word": "petit-déjeuner",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍳",
-        "form": "noun",
-        "plural": "petits-déjeuners",
-        "definitions": [
-            {
-                "text": "Le premier repas de la journée.",
-                "examples": [
-                    "Le petit-déjeuner est à sept heures."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dîner",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍽️",
-        "form": "noun",
-        "plural": "dîners",
-        "definitions": [
-            {
-                "text": "Le repas principal de la journée, généralement le soir.",
-                "examples": [
-                    "Le dîner est à huit heures."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "déjeuner",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍱",
-        "form": "noun",
-        "plural": "déjeuners",
-        "definitions": [
-            {
-                "text": "Un repas mangé au milieu de la journée.",
-                "examples": [
-                    "Je mange mon déjeuner à une heure."
-                ]
-            }
-        ]
-    },
-    {
         "word": "parc",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -462,115 +378,6 @@
         ]
     },
     {
-        "word": "magasin",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🛒",
-        "form": "noun",
-        "plural": "magasins",
-        "definitions": [
-            {
-                "text": "Un endroit où vous pouvez acheter des choses.",
-                "examples": [
-                    "Le magasin est ouvert."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "t-shirt",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👕",
-        "form": "noun",
-        "plural": "t-shirts",
-        "definitions": [
-            {
-                "text": "Un haut léger à manches courtes.",
-                "examples": [
-                    "Je porte un t-shirt blanc."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pantalon",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👖",
-        "form": "noun",
-        "plural": "pantalons",
-        "definitions": [
-            {
-                "text": "Un vêtement qui couvre les jambes séparément.",
-                "examples": [
-                    "J'ai besoin d'un nouveau pantalon."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chaussures",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "les",
-        "gender": "feminine",
-        "emoji": "👟",
-        "form": "noun",
-        "plural": "chaussures",
-        "definitions": [
-            {
-                "text": "Ce que l'on porte aux pieds.",
-                "examples": [
-                    "Mets tes chaussures."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chapeau",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👒",
-        "form": "noun",
-        "plural": "chapeaux",
-        "definitions": [
-            {
-                "text": "Ce que l'on porte sur la tête.",
-                "examples": [
-                    "Elle porte un beau chapeau."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chaise",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🪑",
-        "form": "noun",
-        "plural": "chaises",
-        "subtext": "chaise en bois, s'asseoir sur une chaise",
-        "definitions": [
-            {
-                "text": "Un meuble pour s'asseoir.",
-                "examples": [
-                    "Assieds-toi sur la chaise."
-                ]
-            }
-        ]
-    },
-    {
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -590,61 +397,6 @@
         ]
     },
     {
-        "word": "lit",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🛏️",
-        "form": "noun",
-        "plural": "lits",
-        "subtext": "lit confortable, aller au lit",
-        "definitions": [
-            {
-                "text": "Un meuble pour dormir.",
-                "examples": [
-                    "Mon lit est confortable."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "clé",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🔑",
-        "form": "noun",
-        "plural": "clés",
-        "definitions": [
-            {
-                "text": "Un objet métallique pour ouvrir une porte.",
-                "examples": [
-                    "Où sont mes clés ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "téléphone",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "📱",
-        "form": "noun",
-        "plural": "téléphones",
-        "definitions": [
-            {
-                "text": "Un appareil pour parler à distance.",
-                "examples": [
-                    "Je parle au téléphone."
-                ]
-            }
-        ]
-    },
-    {
         "word": "livre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -658,24 +410,6 @@
                 "text": "Des pages avec du texte que l'on lit.",
                 "examples": [
                     "Je lis un livre."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sac",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👜",
-        "form": "noun",
-        "plural": "sacs",
-        "definitions": [
-            {
-                "text": "Un contenant pour transporter des choses.",
-                "examples": [
-                    "J'ai de l'argent dans mon sac."
                 ]
             }
         ]
@@ -1057,25 +791,6 @@
         ]
     },
     {
-        "word": "femme",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "article": "la",
-        "numberPlural": "2 femme",
-        "answer": "deux femmes",
-        "emoji": "👩",
-        "form": "noun",
-        "plural": "femmes",
-        "definitions": [
-            {
-                "text": "Une personne femelle adulte.",
-                "examples": [
-                    "Cette femme est médecin."
-                ]
-            }
-        ]
-    },
-    {
         "word": "maison",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1132,25 +847,6 @@
         ]
     },
     {
-        "word": "bureau",
-        "level": "starter",
-        "theme": "rooms_indoor_spaces_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🏢",
-        "form": "noun",
-        "plural": "bureaux",
-        "subtext": "lieu de travail, grand bureau",
-        "definitions": [
-            {
-                "text": "Une pièce ou un bâtiment où les gens travaillent.",
-                "examples": [
-                    "Il est au bureau."
-                ]
-            }
-        ]
-    },
-    {
         "word": "voiture",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1165,44 +861,6 @@
                 "text": "Un véhicule avec quatre roues et un moteur.",
                 "examples": [
                     "Sa voiture est rouge."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "bus",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🚌",
-        "form": "noun",
-        "plural": "bus",
-        "subtext": "prendre le bus, arrêt de bus",
-        "definitions": [
-            {
-                "text": "Un grand véhicule qui transporte beaucoup de gens.",
-                "examples": [
-                    "Je prends le bus pour aller au travail."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "train",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🚆",
-        "form": "noun",
-        "plural": "trains",
-        "subtext": "prendre le train, par le train, gare",
-        "definitions": [
-            {
-                "text": "Un véhicule qui circule sur des rails.",
-                "examples": [
-                    "Le train est rapide."
                 ]
             }
         ]
@@ -1475,23 +1133,6 @@
         ]
     },
     {
-        "word": "cuisine",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
-        "article": "la",
-        "emoji": "🍳",
-        "form": "noun",
-        "plural": "cuisines",
-        "definitions": [
-            {
-                "text": "La pièce d'une maison où la nourriture est préparée.",
-                "examples": [
-                    "Je cuisine dans la cuisine."
-                ]
-            }
-        ]
-    },
-    {
         "word": "sommeil",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1521,40 +1162,6 @@
                 "text": "Activité physique qui vous maintient en forme et en bonne santé.",
                 "examples": [
                     "Je fais de l'exercice trois fois par semaine."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "prix",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "article": "le",
-        "emoji": "🏷️",
-        "form": "noun",
-        "plural": "prix",
-        "definitions": [
-            {
-                "text": "Le montant d'argent que vous payez pour quelque chose.",
-                "examples": [
-                    "Le prix de la nourriture est élevé."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "coût",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "article": "le",
-        "emoji": "💰",
-        "form": "noun",
-        "plural": "coûts",
-        "definitions": [
-            {
-                "text": "Le montant d'argent nécessaire pour acheter quelque chose.",
-                "examples": [
-                    "Le coût de l'appartement est élevé."
                 ]
             }
         ]
@@ -1591,40 +1198,6 @@
                 "text": "Avec une autre personne ou un groupe.",
                 "examples": [
                     "Nous dînons ensemble."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vacances",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "article": "les",
-        "emoji": "🏖️",
-        "form": "noun",
-        "plural": "vacances",
-        "definitions": [
-            {
-                "text": "Une période de temps loin du travail quand vous voyagez ou vous détendez.",
-                "examples": [
-                    "Nous avons des vacances en juillet."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "voyage",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "article": "le",
-        "emoji": "✈️",
-        "form": "noun",
-        "plural": "voyages",
-        "definitions": [
-            {
-                "text": "L'action d'aller d'un endroit à un autre.",
-                "examples": [
-                    "J'adore les voyages."
                 ]
             }
         ]
@@ -1698,463 +1271,6 @@
                 "text": "Une boisson alcoolisée populaire faite à partir de grains.",
                 "examples": [
                     "Il boit une bière le week-end."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vin",
-        "level": "starter",
-        "theme": "drinks_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍷",
-        "form": "noun",
-        "plural": null,
-        "subtext": "vin rouge, vin blanc, verre de vin",
-        "definitions": [
-            {
-                "text": "Une boisson alcoolisée faite à partir de raisins.",
-                "examples": [
-                    "Elle boit un verre de vin le soir."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "porte",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🚪",
-        "form": "noun",
-        "plural": "portes",
-        "subtext": "ouvrir la porte, porte d'entrée",
-        "definitions": [
-            {
-                "text": "Un panneau plat qui s'ouvre et se ferme pour laisser entrer et sortir les gens.",
-                "examples": [
-                    "S'il vous plaît, fermez la porte."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "fenêtre",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🪟",
-        "form": "noun",
-        "plural": "fenêtres",
-        "subtext": "ouvrir la fenêtre, vitrine",
-        "definitions": [
-            {
-                "text": "Une ouverture dans un mur remplie de verre qui laisse entrer la lumière.",
-                "examples": [
-                    "Ouvrez la fenêtre — il fait chaud."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "infirmier",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "🧑‍⚕️",
-        "form": "noun",
-        "plural": "infirmiers",
-        "subtext": "",
-        "synonyms": ["infirmière", "soignant"],
-        "definitions": [
-            {
-                "text": "Une personne formée pour soigner les malades ou les blessés.",
-                "examples": [
-                    "L'infirmier vérifie votre tension artérielle."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "conducteur",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🚗",
-        "form": "noun",
-        "plural": "conducteurs",
-        "subtext": "chauffeur de bus, chauffeur de taxi",
-        "definitions": [
-            {
-                "text": "Une personne qui conduit un véhicule comme métier.",
-                "examples": [
-                    "Le chauffeur de bus était amical."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chef",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👨‍🍳",
-        "form": "noun",
-        "plural": "chefs",
-        "subtext": "chef de cuisine, cuisinier",
-        "definitions": [
-            {
-                "text": "Un cuisinier professionnel, surtout le chef de cuisine d'un restaurant.",
-                "examples": [
-                    "Le chef prépare une excellente cuisine."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "directeur",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🧑‍💼",
-        "form": "noun",
-        "plural": "directeurs",
-        "subtext": "",
-        "synonyms": ["manager", "gérant"],
-        "definitions": [
-            {
-                "text": "Une personne responsable d'une équipe ou d'une entreprise.",
-                "examples": [
-                    "Mon directeur travaille de très longues heures."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "avion",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "✈️",
-        "form": "noun",
-        "plural": "avions",
-        "subtext": "prendre l'avion, vol",
-        "definitions": [
-            {
-                "text": "Un véhicule avec des ailes qui vole dans les airs.",
-                "examples": [
-                    "L'avion atterrit à neuf heures."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vélo",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🚲",
-        "form": "noun",
-        "plural": "vélos",
-        "subtext": "bicyclette, faire du vélo",
-        "definitions": [
-            {
-                "text": "Un véhicule à deux roues que l'on conduit en poussant des pédales.",
-                "examples": [
-                    "Il va au travail à vélo."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "hôpital",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "🏥",
-        "form": "noun",
-        "plural": "hôpitaux",
-        "subtext": "aller à l'hôpital, lit d'hôpital",
-        "definitions": [
-            {
-                "text": "Un endroit où les malades ou les blessés reçoivent des soins médicaux.",
-                "examples": [
-                    "Il est allé à l'hôpital en ambulance."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "restaurant",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍴",
-        "form": "noun",
-        "plural": "restaurants",
-        "subtext": "restaurant italien, aller au restaurant",
-        "definitions": [
-            {
-                "text": "Un endroit où l'on paie pour manger des repas.",
-                "examples": [
-                    "Nous allons au restaurant le vendredi."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "banque",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🏦",
-        "form": "noun",
-        "plural": "banques",
-        "subtext": "compte bancaire, aller à la banque",
-        "definitions": [
-            {
-                "text": "Un endroit où les gens gardent de l'argent et effectuent des transactions financières.",
-                "examples": [
-                    "La banque est près de mon bureau."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "gare",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🚉",
-        "form": "noun",
-        "plural": "gares",
-        "subtext": "gare ferroviaire, station de bus",
-        "definitions": [
-            {
-                "text": "Un bâtiment où les trains ou les bus s'arrêtent pour les passagers.",
-                "examples": [
-                    "La gare est à dix minutes d'ici."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "supermarché",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🛒",
-        "form": "noun",
-        "plural": "supermarchés",
-        "subtext": "aller au supermarché",
-        "definitions": [
-            {
-                "text": "Un grand magasin vendant de la nourriture et d'autres articles ménagers.",
-                "examples": [
-                    "Je vais au supermarché le samedi."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "soleil",
-        "level": "starter",
-        "theme": "weather_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "☀️",
-        "form": "noun",
-        "plural": null,
-        "subtext": "soleil chaud, soleil du matin",
-        "definitions": [
-            {
-                "text": "L'étoile qui donne de la lumière et de la chaleur pendant la journée.",
-                "examples": [
-                    "Le soleil est très fort aujourd'hui."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pluie",
-        "level": "starter",
-        "theme": "weather_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🌧️",
-        "form": "noun",
-        "plural": null,
-        "subtext": "forte pluie, bottes de pluie",
-        "definitions": [
-            {
-                "text": "De l'eau qui tombe des nuages en gouttes.",
-                "examples": [
-                    "Il y a beaucoup de pluie en automne."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vent",
-        "level": "starter",
-        "theme": "weather_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "💨",
-        "form": "noun",
-        "plural": null,
-        "subtext": "vent fort, vent froid",
-        "definitions": [
-            {
-                "text": "De l'air qui bouge, parfois fortement.",
-                "examples": [
-                    "Le vent est très fort aujourd'hui."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "après-midi",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "☀️",
-        "form": "noun",
-        "plural": "après-midi",
-        "subtext": "cet après-midi, bon après-midi",
-        "definitions": [
-            {
-                "text": "La partie de la journée allant de midi jusqu'au soir.",
-                "examples": [
-                    "Je finis le travail à cinq heures de l'après-midi."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "nuit",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🌙",
-        "form": "noun",
-        "plural": "nuits",
-        "subtext": "bonne nuit, à la nuit",
-        "definitions": [
-            {
-                "text": "La période d'obscurité entre le soir et le matin.",
-                "examples": [
-                    "Je dors huit heures chaque nuit."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aujourd'hui",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "📅",
-        "form": "adverb",
-        "subtext": "la réunion d'aujourd'hui, commencer aujourd'hui",
-        "definitions": [
-            {
-                "text": "En ce jour ; le jour actuel.",
-                "examples": [
-                    "J'ai une réunion aujourd'hui à dix heures."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "demain",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "⏭️",
-        "form": "adverb",
-        "subtext": "demain matin, à demain",
-        "definitions": [
-            {
-                "text": "Le jour après aujourd'hui.",
-                "examples": [
-                    "Elle a un rendez-vous chez le médecin demain."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "mari",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👨",
-        "form": "noun",
-        "plural": "maris",
-        "opposite": "femme",
-        "oppositeEmoji": "👩",
-        "subtext": "",
-        "synonyms": ["époux", "partenaire"],
-        "definitions": [
-            {
-                "text": "Un homme marié, par rapport à sa femme.",
-                "examples": [
-                    "Son mari est médecin."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "enfant",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "👶",
-        "form": "noun",
-        "plural": "enfants",
-        "subtext": "",
-        "synonyms": ["gamin", "jeune personne"],
-        "definitions": [
-            {
-                "text": "Une jeune personne ; un fils ou une fille.",
-                "examples": [
-                    "Ils ont deux enfants."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "parent",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👪",
-        "form": "noun",
-        "plural": "parents",
-        "subtext": "",
-        "synonyms": ["mère ou père"],
-        "definitions": [
-            {
-                "text": "Une mère ou un père.",
-                "examples": [
-                    "Mes parents vivent dans le nord."
                 ]
             }
         ]
@@ -2358,42 +1474,6 @@
         ]
     },
     {
-        "word": "banque",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🏦",
-        "form": "noun",
-        "plural": "banques",
-        "definitions": [
-            {
-                "text": "Lieu où l'on garde l'argent.",
-                "examples": [
-                    "La banque est fermée."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "gare",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🚉",
-        "form": "noun",
-        "plural": "gares",
-        "definitions": [
-            {
-                "text": "Lieu où s'arrêtent les trains.",
-                "examples": [
-                    "Où est la gare ?"
-                ]
-            }
-        ]
-    },
-    {
         "word": "supermarché",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2461,24 +1541,6 @@
                 "text": "Air qui bouge.",
                 "examples": [
                     "Le vent est fort."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "après-midi",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "☀️",
-        "form": "noun",
-        "plural": "après-midi",
-        "definitions": [
-            {
-                "text": "Temps entre midi et le soir.",
-                "examples": [
-                    "Bon après-midi !"
                 ]
             }
         ]
@@ -2664,24 +1726,6 @@
         ]
     },
     {
-        "word": "fille",
-        "level": "starter",
-        "theme": "immediate_family_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "👧",
-        "form": "noun",
-        "plural": "filles",
-        "definitions": [
-            {
-                "text": "Enfant femelle.",
-                "examples": [
-                    "C'est ma fille."
-                ]
-            }
-        ]
-    },
-    {
         "word": "grand-père",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2862,24 +1906,6 @@
         ]
     },
     {
-        "word": "plage",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🏖️",
-        "form": "noun",
-        "plural": "plages",
-        "definitions": [
-            {
-                "text": "Bord de mer avec du sable.",
-                "examples": [
-                    "Allons à la plage."
-                ]
-            }
-        ]
-    },
-    {
         "word": "ciel",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3042,24 +2068,6 @@
         ]
     },
     {
-        "word": "télévision",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "📺",
-        "form": "noun",
-        "plural": "télévisions",
-        "definitions": [
-            {
-                "text": "Appareil pour regarder des films.",
-                "examples": [
-                    "Je regarde la télévision."
-                ]
-            }
-        ]
-    },
-    {
         "word": "cinéma",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3091,24 +2099,6 @@
                 "text": "Lieu avec des objets d'art.",
                 "examples": [
                     "Le musée est grand."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aéroport",
-        "level": "starter",
-        "theme": "public_transport_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "✈️",
-        "form": "noun",
-        "plural": "aéroports",
-        "definitions": [
-            {
-                "text": "Lieu pour prendre l'avion.",
-                "examples": [
-                    "Je vais à l'aéroport."
                 ]
             }
         ]
@@ -3181,42 +2171,6 @@
                 "text": "Plat de légumes froids.",
                 "examples": [
                     "Une petite salade, s'il vous plaît."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "manteau",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🧥",
-        "form": "noun",
-        "plural": "manteaux",
-        "definitions": [
-            {
-                "text": "Vêtement chaud pour dehors.",
-                "examples": [
-                    "Mets ton manteau."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chaussettes",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "les",
-        "gender": "feminine",
-        "emoji": "🧦",
-        "form": "noun",
-        "plural": "chaussettes",
-        "definitions": [
-            {
-                "text": "Vêtements pour les pieds.",
-                "examples": [
-                    "Mes chaussettes sont bleues."
                 ]
             }
         ]
@@ -3379,24 +2333,6 @@
                 "text": "Donne une raison.",
                 "examples": [
                     "Je dors parce que je suis fatigué."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "temps",
-        "level": "starter",
-        "theme": "telling_time_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "⌚",
-        "form": "noun",
-        "plural": "temps",
-        "definitions": [
-            {
-                "text": "La durée ou l'heure.",
-                "examples": [
-                    "Je n'ai pas le temps."
                 ]
             }
         ]
@@ -3600,78 +2536,6 @@
         ]
     },
     {
-        "word": "pull",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🧶",
-        "form": "noun",
-        "plural": "pulls",
-        "definitions": [
-            {
-                "text": "Vêtement chaud en laine.",
-                "examples": [
-                    "Je mets un pull."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "robe",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "robes",
-        "definitions": [
-            {
-                "text": "Vêtement féminin d'un seul morceau.",
-                "examples": [
-                    "Elle a une jolie robe."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "jupe",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "jupes",
-        "definitions": [
-            {
-                "text": "Vêtement qui couvre les hanches.",
-                "examples": [
-                    "Une jupe courte."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "bottes",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "les",
-        "gender": "feminine",
-        "emoji": "🥾",
-        "form": "noun",
-        "plural": "bottes",
-        "definitions": [
-            {
-                "text": "Chaussures hautes.",
-                "examples": [
-                    "Des bottes pour la pluie."
-                ]
-            }
-        ]
-    },
-    {
         "word": "doigt",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3762,24 +2626,6 @@
         ]
     },
     {
-        "word": "lac",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🏞️",
-        "form": "noun",
-        "plural": "lacs",
-        "definitions": [
-            {
-                "text": "Grande étendue d'eau douce.",
-                "examples": [
-                    "Le lac est calme."
-                ]
-            }
-        ]
-    },
-    {
         "word": "nuage",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3816,42 +2662,6 @@
         ]
     },
     {
-        "word": "bureau",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🖥️",
-        "form": "noun",
-        "plural": "bureaux",
-        "definitions": [
-            {
-                "text": "Table pour travailler.",
-                "examples": [
-                    "Je suis à mon bureau."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "lampe",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "💡",
-        "form": "noun",
-        "plural": "lampes",
-        "definitions": [
-            {
-                "text": "Objet qui fait de la lumière.",
-                "examples": [
-                    "Allume la lampe."
-                ]
-            }
-        ]
-    },
-    {
         "word": "horloge",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3865,24 +2675,6 @@
                 "text": "Objet pour donner l'heure.",
                 "examples": [
                     "Regarde l'horloge."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "miroir",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🪞",
-        "form": "noun",
-        "plural": "miroirs",
-        "definitions": [
-            {
-                "text": "Surface qui reflète l'image.",
-                "examples": [
-                    "Je me regarde dans le miroir."
                 ]
             }
         ]
@@ -5148,42 +3940,6 @@
         ]
     },
     {
-        "word": "cadeau",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🎁",
-        "form": "noun",
-        "plural": "cadeaux",
-        "definitions": [
-            {
-                "text": "Ce que l'on offre à quelqu'un.",
-                "examples": [
-                    "C'est un cadeau pour toi."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "rue",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🛣️",
-        "form": "noun",
-        "plural": "rues",
-        "definitions": [
-            {
-                "text": "Voie dans une ville.",
-                "examples": [
-                    "J'habite dans cette rue."
-                ]
-            }
-        ]
-    },
-    {
         "word": "immeuble",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5526,24 +4282,6 @@
         ]
     },
     {
-        "word": "entreprise",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "l'",
-        "gender": "feminine",
-        "emoji": "🏢",
-        "form": "noun",
-        "plural": "entreprises",
-        "definitions": [
-            {
-                "text": "Lieu de production ou service.",
-                "examples": [
-                    "C'est une grande entreprise."
-                ]
-            }
-        ]
-    },
-    {
         "word": "concert",
         "level": "starter",
         "theme": "music_A1",
@@ -5701,60 +4439,6 @@
                 "text": "Matière en feuilles.",
                 "examples": [
                     "Une feuille de papier."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "portefeuille",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👛",
-        "form": "noun",
-        "plural": "portefeuilles",
-        "definitions": [
-            {
-                "text": "Objet pour ranger l'argent.",
-                "examples": [
-                    "J'ai mon portefeuille."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "parapluie",
-        "level": "starter",
-        "theme": "weather_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "☂️",
-        "form": "noun",
-        "plural": "parapluies",
-        "definitions": [
-            {
-                "text": "Objet contre la pluie.",
-                "examples": [
-                    "Prends ton parapluie."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "lunettes",
-        "level": "starter",
-        "theme": "accessories_A1",
-        "article": "les",
-        "gender": "feminine",
-        "emoji": "👓",
-        "form": "noun",
-        "plural": "lunettes",
-        "definitions": [
-            {
-                "text": "Objet pour mieux voir.",
-                "examples": [
-                    "Mes lunettes sont sur la table."
                 ]
             }
         ]
@@ -6138,24 +4822,6 @@
         ]
     },
     {
-        "word": "bureau",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🖥️",
-        "form": "noun",
-        "plural": "bureaux",
-        "definitions": [
-            {
-                "text": "Lieu de travail ou table.",
-                "examples": [
-                    "Il est à son bureau."
-                ]
-            }
-        ]
-    },
-    {
         "word": "client",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6462,24 +5128,6 @@
         ]
     },
     {
-        "word": "marché",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🛒",
-        "form": "noun",
-        "plural": "marchés",
-        "definitions": [
-            {
-                "text": "Lieu pour acheter des produits frais.",
-                "examples": [
-                    "Allons au marché."
-                ]
-            }
-        ]
-    },
-    {
         "word": "ticket",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6588,24 +5236,6 @@
         ]
     },
     {
-        "word": "cuisine",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🍳",
-        "form": "noun",
-        "plural": "cuisines",
-        "definitions": [
-            {
-                "text": "L'art de préparer les repas.",
-                "examples": [
-                    "J'aime la cuisine française."
-                ]
-            }
-        ]
-    },
-    {
         "word": "sel",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -6696,42 +5326,6 @@
         ]
     },
     {
-        "word": "déjeuner",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍽️",
-        "form": "noun",
-        "plural": "déjeuners",
-        "definitions": [
-            {
-                "text": "Repas du midi.",
-                "examples": [
-                    "C'est l'heure du déjeuner."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dîner",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🍷",
-        "form": "noun",
-        "plural": "dîners",
-        "definitions": [
-            {
-                "text": "Repas du soir.",
-                "examples": [
-                    "Un bon dîner."
-                ]
-            }
-        ]
-    },
-    {
         "word": "goûter",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -6786,24 +5380,6 @@
         ]
     },
     {
-        "word": "cadeau",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🎁",
-        "form": "noun",
-        "plural": "cadeaux",
-        "definitions": [
-            {
-                "text": "Objet offert.",
-                "examples": [
-                    "Un cadeau d'anniversaire."
-                ]
-            }
-        ]
-    },
-    {
         "word": "voyageur",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -6817,96 +5393,6 @@
                 "text": "Personne qui voyage.",
                 "examples": [
                     "Le train est plein de voyageurs."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "valise",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🧳",
-        "form": "noun",
-        "plural": "valises",
-        "definitions": [
-            {
-                "text": "Contenant pour les voyages.",
-                "examples": [
-                    "Je prépare ma valise."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sac à dos",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🎒",
-        "form": "noun",
-        "plural": "sacs à dos",
-        "definitions": [
-            {
-                "text": "Sac que l'on porte sur le dos.",
-                "examples": [
-                    "Il a un gros sac à dos."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "passeport",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🛂",
-        "form": "noun",
-        "plural": "passeports",
-        "definitions": [
-            {
-                "text": "Document pour voyager.",
-                "examples": [
-                    "Où est mon passeport ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "carte",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🗺️",
-        "form": "noun",
-        "plural": "cartes",
-        "definitions": [
-            {
-                "text": "Dessin d'un lieu ou région.",
-                "examples": [
-                    "Regarde la carte."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "plan",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "📍",
-        "form": "noun",
-        "plural": "plans",
-        "definitions": [
-            {
-                "text": "Carte d'une ville.",
-                "examples": [
-                    "Le plan de Paris."
                 ]
             }
         ]
@@ -6997,24 +5483,6 @@
                 "text": "Passage au-dessus de l'eau.",
                 "examples": [
                     "Le pont est vieux."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "forêt",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🌲",
-        "form": "noun",
-        "plural": "forêts",
-        "definitions": [
-            {
-                "text": "Lieu avec beaucoup d'arbres.",
-                "examples": [
-                    "Marchons dans la forêt."
                 ]
             }
         ]
@@ -7254,24 +5722,6 @@
         ]
     },
     {
-        "word": "plan",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "📅",
-        "form": "noun",
-        "plural": "plans",
-        "definitions": [
-            {
-                "text": "Ce qu'on prévoit de faire.",
-                "examples": [
-                    "Quel est le plan ?"
-                ]
-            }
-        ]
-    },
-    {
         "word": "projet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -7380,24 +5830,6 @@
         ]
     },
     {
-        "word": "vente",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🏷️",
-        "form": "noun",
-        "plural": "ventes",
-        "definitions": [
-            {
-                "text": "Action de vendre.",
-                "examples": [
-                    "Mise en vente."
-                ]
-            }
-        ]
-    },
-    {
         "word": "achat",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7434,24 +5866,6 @@
         ]
     },
     {
-        "word": "boutique",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "👗",
-        "form": "noun",
-        "plural": "boutiques",
-        "definitions": [
-            {
-                "text": "Petit magasin.",
-                "examples": [
-                    "Une jolie boutique."
-                ]
-            }
-        ]
-    },
-    {
         "word": "centre commercial",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7483,24 +5897,6 @@
                 "text": "Pièces d'argent.",
                 "examples": [
                     "Avez-vous de la monnaie ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "billet",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "💵",
-        "form": "noun",
-        "plural": "billets",
-        "definitions": [
-            {
-                "text": "Argent en papier.",
-                "examples": [
-                    "Un billet de dix euros."
                 ]
             }
         ]
@@ -8388,42 +6784,6 @@
         ]
     },
     {
-        "word": "réveil",
-        "level": "starter",
-        "theme": "telling_time_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "⏰",
-        "form": "noun",
-        "plural": "réveils",
-        "definitions": [
-            {
-                "text": "Horloge qui sonne le matin.",
-                "examples": [
-                    "Le réveil sonne."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "clé",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🔑",
-        "form": "noun",
-        "plural": "clés",
-        "definitions": [
-            {
-                "text": "Objet pour ouvrir.",
-                "examples": [
-                    "Où est la clé ?"
-                ]
-            }
-        ]
-    },
-    {
         "word": "sac",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8640,24 +7000,6 @@
         ]
     },
     {
-        "word": "t-shirt",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👕",
-        "form": "noun",
-        "plural": "t-shirts",
-        "definitions": [
-            {
-                "text": "Haut à manches courtes.",
-                "examples": [
-                    "Un t-shirt coton."
-                ]
-            }
-        ]
-    },
-    {
         "word": "pull",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8712,24 +7054,6 @@
         ]
     },
     {
-        "word": "chapeau",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🎩",
-        "form": "noun",
-        "plural": "chapeaux",
-        "definitions": [
-            {
-                "text": "Pour la tête.",
-                "examples": [
-                    "Un chapeau melon."
-                ]
-            }
-        ]
-    },
-    {
         "word": "casquette",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8761,24 +7085,6 @@
                 "text": "Chapeau en laine.",
                 "examples": [
                     "Un bonnet chaud."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "écharpe",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "article": "l'",
-        "gender": "feminine",
-        "emoji": "🧣",
-        "form": "noun",
-        "plural": "écharpes",
-        "definitions": [
-            {
-                "text": "Pour le cou.",
-                "examples": [
-                    "Porter une écharpe."
                 ]
             }
         ]
@@ -9431,6 +7737,1206 @@
             }
         ]
     },
+    {
+        "word": "je",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👤",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé par la personne qui parle pour se désigner elle-même.",
+                "examples": [
+                    "Je suis étudiant.",
+                    "Je m'appelle Marc."
+                ]
+            }
+        ],
+        "transcription": "ʒə"
+    },
+    {
+        "word": "tu",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👤",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé pour s'adresser à une seule personne.",
+                "examples": [
+                    "Comment vas-tu ?",
+                    "Tu es très gentil."
+                ]
+            }
+        ],
+        "transcription": "ty"
+    },
+    {
+        "word": "il",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👨",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé pour désigner un homme ou un garçon dont on a déjà parlé.",
+                "examples": [
+                    "Il travaille à Paris.",
+                    "Est-ce qu'il est là ?"
+                ]
+            }
+        ],
+        "transcription": "il"
+    },
+    {
+        "word": "elle",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👩",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé pour désigner une femme ou une fille dont on a déjà parlé.",
+                "examples": [
+                    "Elle habite à Lyon.",
+                    "Est-ce qu'elle est prête ?"
+                ]
+            }
+        ],
+        "transcription": "ɛl"
+    },
+    {
+        "word": "nous",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👥",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé par la personne qui parle pour se désigner elle-même ainsi que d'autres personnes.",
+                "examples": [
+                    "Nous allons au cinéma.",
+                    "Nous sommes amis."
+                ]
+            }
+        ],
+        "transcription": "nu"
+    },
+    {
+        "word": "vous",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👥",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé pour s'adresser à plusieurs personnes, ou à une seule personne de manière formelle.",
+                "examples": [
+                    "Comment allez-vous ?",
+                    "Est-ce que vous voulez du café ?"
+                ]
+            }
+        ],
+        "transcription": "vu"
+    },
+    {
+        "word": "ils",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👨‍👨‍👦",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé pour désigner plusieurs personnes (masculin).",
+                "examples": [
+                    "Ils sont en vacances.",
+                    "Ils habitent ensemble."
+                ]
+            }
+        ],
+        "transcription": "il"
+    },
+    {
+        "word": "elles",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👩‍👩‍👧",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Pronom utilisé pour désigner plusieurs personnes (féminin).",
+                "examples": [
+                    "Elles étudient le français.",
+                    "Est-ce qu'elles sont arrivées ?"
+                ]
+            }
+        ],
+        "transcription": "ɛl"
+    },
+    {
+        "word": "mon",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "🙋",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Déterminant possessif utilisé par la personne qui parle pour désigner quelque chose qui lui appartient (masculin).",
+                "examples": [
+                    "C'est mon livre.",
+                    "Voici mon ami."
+                ]
+            }
+        ],
+        "transcription": "mɔ̃"
+    },
+    {
+        "word": "ma",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "🙋",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Déterminant possessif utilisé par la personne qui parle pour désigner quelque chose qui lui appartient (féminin).",
+                "examples": [
+                    "C'est ma voiture.",
+                    "Voici ma maison."
+                ]
+            }
+        ],
+        "transcription": "ma"
+    },
+    {
+        "word": "mes",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "🙋",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Déterminant possessif utilisé par la personne qui parle pour désigner plusieurs choses qui lui appartiennent.",
+                "examples": [
+                    "Ce sont mes clés.",
+                    "Voici mes enfants."
+                ]
+            }
+        ],
+        "transcription": "me"
+    },
+    {
+        "word": "ton",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👤",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Déterminant possessif utilisé pour désigner quelque chose qui appartient à la personne à qui l'on parle (masculin).",
+                "examples": [
+                    "Où est ton sac ?",
+                    "C'est ton tour."
+                ]
+            }
+        ],
+        "transcription": "tɔ̃"
+    },
+    {
+        "word": "son",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👨",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Déterminant possessif utilisé pour désigner quelque chose qui appartient à une tierce personne (masculin).",
+                "examples": [
+                    "C'est son bureau.",
+                    "Où est son frère ?"
+                ]
+            }
+        ],
+        "transcription": "sɔ̃"
+    },
+    {
+        "word": "un",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "1️⃣",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Article indéfini singulier masculin.",
+                "examples": [
+                    "J'ai un chien.",
+                    "C'est un bon jour."
+                ]
+            }
+        ],
+        "transcription": "œ̃"
+    },
+    {
+        "word": "une",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "1️⃣",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Article indéfini singulier féminin.",
+                "examples": [
+                    "C'est une pomme.",
+                    "J'ai une idée."
+                ]
+            }
+        ],
+        "transcription": "yn"
+    },
+    {
+        "word": "le",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "📦",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Article défini singulier masculin.",
+                "examples": [
+                    "Le soleil brille.",
+                    "Où est le chat ?"
+                ]
+            }
+        ],
+        "transcription": "lə"
+    },
+    {
+        "word": "la",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "📦",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Article défini singulier féminin.",
+                "examples": [
+                    "La porte est ouverte.",
+                    "Regarde la lune."
+                ]
+            }
+        ],
+        "transcription": "la"
+    },
+    {
+        "word": "les",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "📦",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Article défini pluriel.",
+                "examples": [
+                    "Les enfants jouent.",
+                    "J'aime les fleurs."
+                ]
+            }
+        ],
+        "transcription": "le"
+    },
+    {
+        "word": "ce",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "👉",
+        "form": "determiner",
+        "definitions": [
+            {
+                "text": "Déterminant utilisé pour désigner quelque chose ou quelqu'un de proche (masculin).",
+                "examples": [
+                    "Ce livre est intéressant.",
+                    "Regarde ce garçon."
+                ]
+            }
+        ],
+        "transcription": "sə"
+    },
+    {
+        "word": "ou",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "emoji": "❓",
+        "form": "conjunction",
+        "definitions": [
+            {
+                "text": "Mot utilisé pour relier deux choix ou possibilités.",
+                "examples": [
+                    "Thé ou café ?",
+                    "Aujourd'hui ou demain ?"
+                ]
+            }
+        ],
+        "transcription": "u"
+    },
+    {
+        "word": "si",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "emoji": "❓",
+        "form": "conjunction",
+        "definitions": [
+            {
+                "text": "Mot utilisé pour introduire une condition.",
+                "examples": [
+                    "S'il pleut, nous resterons à la maison.",
+                    "Je ne sais pas si elle vient."
+                ]
+            }
+        ],
+        "transcription": "si"
+    },
+    {
+        "word": "donc",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "emoji": "➡️",
+        "form": "conjunction",
+        "definitions": [
+            {
+                "text": "Mot utilisé pour introduire un résultat ou une conclusion.",
+                "examples": [
+                    "Je pense, donc je suis.",
+                    "Il est tard, donc je dois partir."
+                ]
+            }
+        ],
+        "transcription": "dɔ̃k"
+    },
+    {
+        "word": "devant",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "emoji": "🚪",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "En face de quelque chose ou quelqu'un.",
+                "examples": [
+                    "Le chat est devant la porte.",
+                    "Il y a un jardin devant la maison."
+                ]
+            }
+        ],
+        "transcription": "dəvɑ̃"
+    },
+    {
+        "word": "derrière",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "emoji": "🚪",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "À la partie postérieure de quelque chose ou quelqu'un.",
+                "examples": [
+                    "La voiture est derrière la maison.",
+                    "Qui est derrière toi ?"
+                ]
+            }
+        ],
+        "transcription": "dɛʁjɛʁ"
+    },
+    {
+        "word": "en",
+        "level": "starter",
+        "theme": "prepositions_grammar_A1",
+        "emoji": "📍",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "Préposition indiquant le lieu ou le temps.",
+                "examples": [
+                    "Il habite en France.",
+                    "Nous partons en été."
+                ]
+            }
+        ],
+        "transcription": "ɑ̃"
+    },
+    {
+        "word": "mathématiques",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "🔢",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "les",
+        "plural": "mathématiques",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "L'étude des nombres, des quantités et des formes.",
+                "examples": [
+                    "Les mathématiques sont ma matière préférée.",
+                    "Nous avons cours de maths à neuf heures."
+                ]
+            }
+        ],
+        "transcription": "matematik"
+    },
+    {
+        "word": "histoire",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "📜",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "l'",
+        "plural": "histoires",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "L'étude des événements passés.",
+                "examples": [
+                    "Nous étudions l'histoire de France.",
+                    "Il aime lire des livres d'histoire."
+                ]
+            }
+        ],
+        "transcription": "istwaʁ"
+    },
+    {
+        "word": "science",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "🧪",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "sciences",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "L'étude de la nature et du monde physique.",
+                "examples": [
+                    "La science est très intéressante.",
+                    "Aujourd'hui, nous faisons une expérience de science."
+                ]
+            }
+        ],
+        "transcription": "sjɑ̃s"
+    },
+    {
+        "word": "géographie",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "🌍",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "géographies",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "L'étude des lieux et des relations entre les personnes et leurs environnements.",
+                "examples": [
+                    "Nous utilisons une carte pour le cours de géographie.",
+                    "J'aime étudier la géographie du monde."
+                ]
+            }
+        ],
+        "transcription": "ʒeɔɡʁafi"
+    },
+    {
+        "word": "tigre",
+        "level": "starter",
+        "theme": "wild_animals_A1",
+        "emoji": "🐅",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "tigres",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un grand chat sauvage avec des rayures noires et oranges.",
+                "examples": [
+                    "Le tigre court très vite.",
+                    "Il y a un tigre dans le parc national."
+                ]
+            }
+        ],
+        "transcription": "tiɡʁ"
+    },
+    {
+        "word": "singe",
+        "level": "starter",
+        "theme": "wild_animals_A1",
+        "emoji": "🐒",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "singes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un animal qui vit dans les arbres et mange des bananes.",
+                "examples": [
+                    "Le singe saute entre les arbres.",
+                    "Les singes sont des animaux amusants."
+                ]
+            }
+        ],
+        "transcription": "sɛ̃ʒ"
+    },
+    {
+        "word": "baleine",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🐋",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "baleines",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un très grand animal marin qui respire de l'air.",
+                "examples": [
+                    "La baleine est l'animal le plus grand du monde.",
+                    "Nous avons vu une baleine pendant le voyage."
+                ]
+            }
+        ],
+        "transcription": "balɛn"
+    },
+    {
+        "word": "cercle",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "⭕",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "cercles",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une forme parfaitement ronde.",
+                "examples": [
+                    "Dessine un cercle sur la feuille.",
+                    "La balle a la forme d'un cercle."
+                ]
+            }
+        ],
+        "transcription": "sɛʁkl"
+    },
+    {
+        "word": "triangle",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🔺",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "triangles",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une forme avec trois côtés et trois angles.",
+                "examples": [
+                    "Un morceau de pizza ressemble à un triangle.",
+                    "Le professeur explique le triangle."
+                ]
+            }
+        ],
+        "transcription": "tʁijɑ̃ɡl"
+    },
+    {
+        "word": "grille-pain",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🍞",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "grille-pains",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un appareil électrique pour griller le pain.",
+                "examples": [
+                    "J'utilise le grille-pain pour le petit déjeuner.",
+                    "Le grille-pain est sur la table de la cuisine."
+                ]
+            }
+        ],
+        "transcription": "ɡʁij pɛ̃"
+    },
+    {
+        "word": "four à micro-ondes",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "📟",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "fours à micro-ondes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un four qui utilise des ondes pour chauffer les aliments rapidement.",
+                "examples": [
+                    "Je chauffe le lait au micro-ondes.",
+                    "Le micro-ondes est très utile dans la cuisine."
+                ]
+            }
+        ],
+        "transcription": "fuʁ a mikʁo ɔ̃d"
+    },
+    {
+        "word": "règle",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "📏",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "règles",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un instrument utilisé pour mesurer ou tracer des lignes droites.",
+                "examples": [
+                    "J'utilise la règle pour dessiner une ligne.",
+                    "Ma règle mesure trente centimètres."
+                ]
+            }
+        ],
+        "transcription": "ʁɛɡl"
+    },
+    {
+        "word": "pilote",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍✈️",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "pilotes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne qui conduit un avion.",
+                "examples": [
+                    "Le pilote a annoncé l'atterrissage.",
+                    "Je veux devenir pilote."
+                ]
+            }
+        ],
+        "transcription": "pilɔt"
+    },
+    {
+        "word": "serveur",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🤵",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "serveurs",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne qui sert de la nourriture et des boissons dans un restaurant.",
+                "examples": [
+                    "Le serveur apporte le menu.",
+                    "Demande le compte au serveur."
+                ]
+            }
+        ],
+        "transcription": "sɛʁvœʁ"
+    },
+    {
+        "word": "dentiste",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🦷",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "dentistes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un médecin qui soigne les dents.",
+                "examples": [
+                    "J'ai un rendez-vous chez le dentiste à trois heures.",
+                    "Le dentiste dit que mes dents vont bien."
+                ]
+            }
+        ],
+        "transcription": "dɑ̃tist"
+    },
+    {
+        "word": "policier",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👮",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "policiers",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un membre de la police.",
+                "examples": [
+                    "Le policier aide les gens dans la rue.",
+                    "Nous avons appelé un policier."
+                ]
+            }
+        ],
+        "transcription": "pɔlisje"
+    },
+    {
+        "word": "pompier",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🚒",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "pompiers",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne entraînée pour éteindre les incendies.",
+                "examples": [
+                    "Le pompier est très courageux.",
+                    "Les pompiers sont arrivés immédiatement."
+                ]
+            }
+        ],
+        "transcription": "pɔ̃pje"
+    },
+    {
+        "word": "soldat",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🪖",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "soldats",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne qui fait partie d'une armée.",
+                "examples": [
+                    "Le soldat porte un uniforme.",
+                    "Beaucoup de soldats travaillent pour la paix."
+                ]
+            }
+        ],
+        "transcription": "sɔlda"
+    },
+    {
+        "word": "écrivain",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "✍️",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "écrivains",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne qui écrit des livres ou des articles.",
+                "examples": [
+                    "Mon écrivain préféré est Victor Hugo.",
+                    "Il veut être un écrivain célèbre."
+                ]
+            }
+        ],
+        "transcription": "ekʁivɛ̃"
+    },
+    {
+        "word": "ingénieur",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👷",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "ingénieurs",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne qui conçoit des machines, des bâtiments ou des routes.",
+                "examples": [
+                    "Mon frère est ingénieur civil.",
+                    "L'ingénieur travaille sur le nouveau projet."
+                ]
+            }
+        ],
+        "transcription": "ɛ̃ʒenjœʁ"
+    },
+    {
+        "word": "secrétaire",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "⌨️",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "secrétaires",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une personne qui travaille dans un bureau, écrit des lettres et organise des rendez-vous.",
+                "examples": [
+                    "Le secrétaire répond au téléphone.",
+                    "J'ai donné le document au secrétaire."
+                ]
+            }
+        ],
+        "transcription": "səkʁetɛʁ"
+    },
+    {
+        "word": "chapeau",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🎩",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "chapeaux",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un accessoire qu'on met sur la tête.",
+                "examples": [
+                    "Je porte un chapeau quand il y a du soleil.",
+                    "Le chapeau est sur la chaise."
+                ]
+            }
+        ],
+        "transcription": "ʃapo"
+    },
+    {
+        "word": "t-shirt",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "t-shirts",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un vêtement léger pour la partie supérieure du corps.",
+                "examples": [
+                    "Je porte un t-shirt blanc.",
+                    "As-tu un t-shirt de rechange ?"
+                ]
+            }
+        ],
+        "transcription": "ti ʃœʁt"
+    },
+    {
+        "word": "short",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🩳",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "shorts",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un pantalon court qui arrive au-dessus du genou.",
+                "examples": [
+                    "Je mets un short parce qu'il fait chaud.",
+                    "Je porte un short pour jouer au football."
+                ]
+            }
+        ],
+        "transcription": "ʃɔʁt"
+    },
+    {
+        "word": "botte",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🥾",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "bottes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un type de chaussure qui couvre aussi une partie de la jambe.",
+                "examples": [
+                    "Je mets des bottes quand il pleut.",
+                    "Elle a acheté des bottes en cuir."
+                ]
+            }
+        ],
+        "transcription": "bɔt"
+    },
+    {
+        "word": "écharpe",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧣",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "l'",
+        "plural": "écharpes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une bande de tissu qu'on met autour du cou pour rester au chaud.",
+                "examples": [
+                    "Je mets mon écharpe parce qu'il fait froid.",
+                    "Mon écharpe est en laine."
+                ]
+            }
+        ],
+        "transcription": "eʃaʁp"
+    },
+    {
+        "word": "gant",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧤",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "gants",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Accessoires qui couvrent les mains pour les protéger du froid.",
+                "examples": [
+                    "Je porte des gants pour skier.",
+                    "Où sont mes gants ?"
+                ]
+            }
+        ],
+        "transcription": "ɡɑ̃"
+    },
+    {
+        "word": "terre",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌎",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "La planète sur laquelle nous vivons ; ou le sol.",
+                "examples": [
+                    "La Terre est une belle planète.",
+                    "Les enfants jouent sur la terre."
+                ]
+            }
+        ],
+        "transcription": "tɛʁ"
+    },
+    {
+        "word": "colline",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "⛰️",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "collines",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une petite montagne avec des flancs doux.",
+                "examples": [
+                    "Nous faisons une promenade sur la colline.",
+                    "Notre maison est sur une colline."
+                ]
+            }
+        ],
+        "transcription": "kɔlin"
+    },
+    {
+        "word": "vallée",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "⛰️",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "vallées",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une zone de terre entre des collines ou des montagnes.",
+                "examples": [
+                    "La rivière coule dans la vallée.",
+                    "La vallée est très verte au printemps."
+                ]
+            }
+        ],
+        "transcription": "vale"
+    },
+    {
+        "word": "forêt",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌲",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "forêts",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une zone très grande couverte d'arbres.",
+                "examples": [
+                    "Il y a beaucoup d'animaux dans la forêt.",
+                    "La forêt est dense et sombre."
+                ]
+            }
+        ],
+        "transcription": "fɔʁɛ"
+    },
+    {
+        "word": "bois",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "bois",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "Une zone couverte d'arbres, plus petite qu'une forêt.",
+                "examples": [
+                    "Nous allons chercher des champignons dans le bois.",
+                    "Il y a un petit bois près du village."
+                ]
+            }
+        ],
+        "transcription": "bwa"
+    },
+    {
+        "word": "lac",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "💧",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "lacs",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une grande masse d'eau entourée par la terre.",
+                "examples": [
+                    "Nous nageons dans le lac en été.",
+                    "Le lac est très calme aujourd'hui."
+                ]
+            }
+        ],
+        "transcription": "lak"
+    },
+    {
+        "word": "champ",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌱",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "plural": "champs",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Une zone de terre ouverte utilisée pour l'agriculture.",
+                "examples": [
+                    "Le champ est plein de fleurs.",
+                    "Ils travaillent dans le champ toute la journée."
+                ]
+            }
+        ],
+        "transcription": "ʃɑ̃"
+    },
+    {
+        "word": "feuille",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🍃",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "feuilles",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "La partie plate et verte d'une plante ou d'un arbre.",
+                "examples": [
+                    "Les feuilles tombent en automne.",
+                    "Cette plante a de très grandes feuilles."
+                ]
+            }
+        ],
+        "transcription": "fœj"
+    },
+    {
+        "word": "plante",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌵",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "plantes",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un être vivant qui pousse dans la terre et a des racines et des feuilles.",
+                "examples": [
+                    "Je dois donner de l'eau aux plantes.",
+                    "Il y a une plante dans le coin de la pièce."
+                ]
+            }
+        ],
+        "transcription": "plɑ̃t"
+    },
+    {
+        "word": "nature",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌿",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "Le monde physique et tout ce qu'il contient, comme les plantes et les animaux.",
+                "examples": [
+                    "Nous aimons passer du temps dans la nature.",
+                    "Nous devons protéger la nature."
+                ]
+            }
+        ],
+        "transcription": "natyʁ"
+    }
 ];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
