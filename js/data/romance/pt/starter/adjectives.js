@@ -1,5 +1,6 @@
 (function() {
     const data = [
+
     {
         "word": "alto",
         "level": "starter",
@@ -17,7 +18,9 @@
             }
         ],
         "subtext": "um edifício alto / alto o suficiente",
-        "synonyms": ["uma pessoa alta"],
+        "synonyms": [
+            "uma pessoa alta"
+        ],
         "comparative": "mais alto",
         "superlative": "o mais alto",
         "feminine": "alta",
@@ -30,7 +33,7 @@
         "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "alto",
-        "oppositeEmoji": "🗼",
+        "oppositeEmoji": "🦒",
         "definitions": [
             {
                 "text": "Uma pessoa ou coisa que não é alta.",
@@ -41,7 +44,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["uma viagem curta", "cabelo curto", "curto demais"],
+        "synonyms": [
+            "uma viagem curta",
+            "cabelo curto",
+            "curto demais"
+        ],
         "comparative": "mais baixo",
         "superlative": "o mais baixo",
         "feminine": "baixa",
@@ -75,8 +82,8 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "jovem",
-        "oppositeEmoji": "👶",
+        "opposite": "novo",
+        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Que viveu ou existiu por muito tempo.",
@@ -111,7 +118,9 @@
         "superlative": "o mais ensolarado",
         "feminine": "ensolarada",
         "plural": "ensolarados",
-        "femininePlural": "ensolaradas"
+        "femininePlural": "ensolaradas",
+        "opposite": "chuvoso",
+        "oppositeEmoji": "🌧️"
     },
     {
         "word": "chuvoso",
@@ -128,12 +137,16 @@
             }
         ],
         "subtext": "dia chuvoso / tempo chuvoso",
-        "synonyms": ["época das chuvas"],
+        "synonyms": [
+            "época das chuvas"
+        ],
         "comparative": "mais chuvoso",
         "superlative": "o mais chuvoso",
         "feminine": "chuvosa",
         "plural": "chuvosos",
-        "femininePlural": "chuvosas"
+        "femininePlural": "chuvosas",
+        "opposite": "ensolarado",
+        "oppositeEmoji": "☀️"
     },
     {
         "word": "quente",
@@ -167,7 +180,10 @@
         "opposite": "quente",
         "oppositeEmoji": "🔥",
         "subtext": "muito frio / tempo frio / frio demais",
-        "synonyms": ["manhã fria", "uma bebida fria"],
+        "synonyms": [
+            "manhã fria",
+            "uma bebida fria"
+        ],
         "definitions": [
             {
                 "text": "Que tem uma temperatura baixa.",
@@ -213,7 +229,9 @@
         "opposite": "caro",
         "oppositeEmoji": "💎",
         "subtext": "preço baixo, barato / voo barato / muito barato",
-        "synonyms": ["simples e bom"],
+        "synonyms": [
+            "simples e bom"
+        ],
         "definitions": [
             {
                 "text": "Não caro; de baixo preço.",
@@ -260,7 +278,12 @@
         "opposite": "mau",
         "oppositeEmoji": "👎",
         "subtext": "bom valor",
-        "synonyms": ["ótimo", "agradável", "boa ideia", "boa sorte"],
+        "synonyms": [
+            "ótimo",
+            "agradável",
+            "boa ideia",
+            "boa sorte"
+        ],
         "definitions": [
             {
                 "text": "De alta qualidade ou agradável.",
@@ -284,7 +307,13 @@
         "opposite": "bom",
         "oppositeEmoji": "👍",
         "subtext": "",
-        "synonyms": ["terrível", "horrível", "más notícias", "má sorte", "má decisão"],
+        "synonyms": [
+            "terrível",
+            "horrível",
+            "más notícias",
+            "má sorte",
+            "má decisão"
+        ],
         "definitions": [
             {
                 "text": "Não bom; desagradável.",
@@ -352,7 +381,7 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "difícil",
-        "oppositeEmoji": "❌",
+        "oppositeEmoji": "🧩",
         "definitions": [
             {
                 "text": "Não difícil.",
@@ -398,7 +427,10 @@
         "emoji": "😊",
         "form": "adjective",
         "subtext": "sentir-se feliz / feliz com algo / um dia feliz",
-        "synonyms": ["alegre", "contente"],
+        "synonyms": [
+            "alegre",
+            "contente"
+        ],
         "definitions": [
             {
                 "text": "Que sente prazer ou alegria.",
@@ -411,7 +443,9 @@
         "superlative": "o mais feliz",
         "feminine": "feliz",
         "plural": "felizes",
-        "femininePlural": "felizes"
+        "femininePlural": "felizes",
+        "opposite": "triste",
+        "oppositeEmoji": "😢"
     },
     {
         "word": "cansado",
@@ -420,7 +454,10 @@
         "emoji": "😫",
         "form": "adjective",
         "subtext": "sentir-se cansado / cansado de algo / muito cansado",
-        "synonyms": ["sonolento", "exausto"],
+        "synonyms": [
+            "sonolento",
+            "exausto"
+        ],
         "definitions": [
             {
                 "text": "Que precisa de descanso ou sono.",
@@ -433,7 +470,9 @@
         "superlative": "o mais cansado",
         "feminine": "cansada",
         "plural": "cansados",
-        "femininePlural": "cansadas"
+        "femininePlural": "cansadas",
+        "opposite": "enérgico",
+        "oppositeEmoji": "⚡"
     },
     {
         "word": "a tempo inteiro",
@@ -452,7 +491,9 @@
             }
         ],
         "subtext": "trabalho a tempo inteiro / funcionário a tempo inteiro",
-        "synonyms": ["tempo integral"],
+        "synonyms": [
+            "tempo integral"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "a tempo inteiro",
@@ -491,7 +532,9 @@
         "opposite": "sujo",
         "oppositeEmoji": "💩",
         "subtext": "arrumado, limpo / um quarto limpo / manter limpo",
-        "synonyms": ["roupas limpas"],
+        "synonyms": [
+            "roupas limpas"
+        ],
         "definitions": [
             {
                 "text": "Livre de sujidade.",
@@ -512,10 +555,13 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "insalubre",
         "oppositeEmoji": "🍔",
         "subtext": "dieta saudável",
-        "synonyms": ["bem", "em forma"],
+        "synonyms": [
+            "bem",
+            "em forma"
+        ],
         "definitions": [
             {
                 "text": "Bom para o corpo; não doente.",
@@ -539,7 +585,9 @@
         "opposite": "well",
         "oppositeEmoji": "💪",
         "subtext": "doente",
-        "synonyms": ["sentir-se mal"],
+        "synonyms": [
+            "sentir-se mal"
+        ],
         "definitions": [
             {
                 "text": "Não bem; doente.",
@@ -571,7 +619,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["compras online", "curso online", "manter-se online"],
+        "synonyms": [
+            "compras online",
+            "curso online",
+            "manter-se online"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "on-line",
@@ -610,7 +662,9 @@
         "opposite": "estressado",
         "oppositeEmoji": "😫",
         "subtext": "sentir-se relaxado",
-        "synonyms": ["calmo"],
+        "synonyms": [
+            "calmo"
+        ],
         "definitions": [
             {
                 "text": "Calmo; não preocupado ou estressado.",
@@ -634,7 +688,9 @@
         "opposite": "calm",
         "oppositeEmoji": "😌",
         "subtext": "",
-        "synonyms": ["anxious"],
+        "synonyms": [
+            "anxious"
+        ],
         "definitions": [
             {
                 "text": "Que sente ansiedade por algo que possa acontecer.",
@@ -656,7 +712,9 @@
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "muito ocupado / dia ocupado / ocupado demais",
-        "synonyms": ["agenda cheia"],
+        "synonyms": [
+            "agenda cheia"
+        ],
         "definitions": [
             {
                 "text": "Que tem muitas coisas para fazer.",
@@ -669,7 +727,9 @@
         "superlative": "o mais ocupado",
         "feminine": "ocupada",
         "plural": "ocupados",
-        "femininePlural": "ocupadas"
+        "femininePlural": "ocupadas",
+        "opposite": "livre",
+        "oppositeEmoji": "🆓"
     },
     {
         "word": "útil",
@@ -680,7 +740,9 @@
         "opposite": "inútil",
         "oppositeEmoji": "🗑️",
         "subtext": "útil",
-        "synonyms": ["prático"],
+        "synonyms": [
+            "prático"
+        ],
         "definitions": [
             {
                 "text": "Útil; que tem um propósito prático.",
@@ -702,7 +764,9 @@
         "emoji": "❗",
         "form": "adjective",
         "subtext": "reunião importante / muito importante / mais importante",
-        "synonyms": ["essencial"],
+        "synonyms": [
+            "essencial"
+        ],
         "definitions": [
             {
                 "text": "Que tem grande valor ou efeito.",
@@ -715,7 +779,9 @@
         "superlative": "o mais importante",
         "feminine": "importante",
         "plural": "importantes",
-        "femininePlural": "importantes"
+        "femininePlural": "importantes",
+        "opposite": "irrelevante",
+        "oppositeEmoji": "🍃"
     },
     {
         "word": "vermelho",
@@ -724,7 +790,9 @@
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "vermelho escuro, vermelho vivo / rosto vermelho / sinal vermelho",
-        "synonyms": ["vinho tinto"],
+        "synonyms": [
+            "vinho tinto"
+        ],
         "definitions": [
             {
                 "text": "Da cor do sangue.",
@@ -809,7 +877,9 @@
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "preto carvão, escuro / café preto / preto intenso",
-        "synonyms": ["mercado negro"],
+        "synonyms": [
+            "mercado negro"
+        ],
         "definitions": [
             {
                 "text": "Da cor mais escura.",
@@ -831,7 +901,9 @@
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "amarelo vivo, limão / amarelo pálido / amarelo brilhante",
-        "synonyms": ["luz amarela"],
+        "synonyms": [
+            "luz amarela"
+        ],
         "definitions": [
             {
                 "text": "Da cor do sol.",
@@ -853,7 +925,11 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "grátis, brinde",
-        "synonyms": ["tempo livre", "sem custos", "livre para fazer"],
+        "synonyms": [
+            "tempo livre",
+            "sem custos",
+            "livre para fazer"
+        ],
         "definitions": [
             {
                 "text": "Que não custa dinheiro.",
@@ -877,7 +953,10 @@
         "opposite": "fechado",
         "oppositeEmoji": "🔒",
         "subtext": "aberto, aberto ao público / aberto a ideias",
-        "synonyms": ["porta aberta", "escancarado"],
+        "synonyms": [
+            "porta aberta",
+            "escancarado"
+        ],
         "definitions": [
             {
                 "text": "Não fechado.",
@@ -899,9 +978,12 @@
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "aberto",
-        "oppositeEmoji": "📖",
+        "oppositeEmoji": "🔓",
         "subtext": "fechado, fechado temporariamente / fechado para almoço",
-        "synonyms": ["mente fechada", "porta fechada"],
+        "synonyms": [
+            "mente fechada",
+            "porta fechada"
+        ],
         "definitions": [
             {
                 "text": "Não aberto.",
@@ -941,7 +1023,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["a little bit", "a little money", "too little"],
+        "synonyms": [
+            "a little bit",
+            "a little money",
+            "too little"
+        ],
         "definitions": [
             {
                 "text": "Pequeno em tamanho.",
@@ -962,7 +1048,10 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "um longo dia",
-        "synonyms": ["uma longa viagem", "muito tempo"],
+        "synonyms": [
+            "uma longa viagem",
+            "muito tempo"
+        ],
         "definitions": [
             {
                 "text": "De grande comprimento.",
@@ -983,7 +1072,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["high price", "high rent", "high quality"],
+        "synonyms": [
+            "high price",
+            "high rent",
+            "high quality"
+        ],
         "definitions": [
             {
                 "text": "De altura ou nível superior à média.",
@@ -1004,7 +1097,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["low price", "low salary", "low quality"],
+        "synonyms": [
+            "low price",
+            "low salary",
+            "low quality"
+        ],
         "definitions": [
             {
                 "text": "De altura ou nível inferior à média.",
@@ -1025,7 +1122,10 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "cheio de gente",
-        "synonyms": ["tempo integral", "um dia inteiro"],
+        "synonyms": [
+            "tempo integral",
+            "um dia inteiro"
+        ],
         "definitions": [
             {
                 "text": "Que contém tanto quanto possível.",
@@ -1039,7 +1139,9 @@
         "superlative": "o mais cheio",
         "feminine": "cheia",
         "plural": "cheios",
-        "femininePlural": "cheias"
+        "femininePlural": "cheias",
+        "opposite": "vazio",
+        "oppositeEmoji": "🫙"
     },
     {
         "word": "vazio",
@@ -1059,14 +1161,20 @@
         "superlative": "o mais vazio",
         "feminine": "vazia",
         "plural": "vazios",
-        "femininePlural": "vazias"
+        "femininePlural": "vazias",
+        "opposite": "cheio",
+        "oppositeEmoji": "🍷"
     },
     {
         "word": "morno",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["warm weather", "a warm welcome", "keep warm"],
+        "synonyms": [
+            "warm weather",
+            "a warm welcome",
+            "keep warm"
+        ],
         "definitions": [
             {
                 "text": "Ligeiramente quente.",
@@ -1087,7 +1195,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["cool weather", "a cool drink", "stay cool"],
+        "synonyms": [
+            "cool weather",
+            "a cool drink",
+            "stay cool"
+        ],
         "definitions": [
             {
                 "text": "Ligeiramente frio.",
@@ -1108,7 +1220,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["wet weather", "wet clothes", "get wet"],
+        "synonyms": [
+            "wet weather",
+            "wet clothes",
+            "get wet"
+        ],
         "definitions": [
             {
                 "text": "Coberto com água ou líquido.",
@@ -1129,7 +1245,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dry weather", "dry skin", "keep dry"],
+        "synonyms": [
+            "dry weather",
+            "dry skin",
+            "keep dry"
+        ],
         "definitions": [
             {
                 "text": "Sem água ou líquido.",
@@ -1151,7 +1271,11 @@
         "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["mãos sujas", "roupas sujas", "sujar-se"],
+        "synonyms": [
+            "mãos sujas",
+            "roupas sujas",
+            "sujar-se"
+        ],
         "definitions": [
             {
                 "text": "Coberto de sujidade.",
@@ -1164,14 +1288,20 @@
         "superlative": "o mais sujo",
         "feminine": "suja",
         "plural": "sujos",
-        "femininePlural": "sujas"
+        "femininePlural": "sujas",
+        "opposite": "limpo",
+        "oppositeEmoji": "✨"
     },
     {
         "word": "duro",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["trabalho árduo", "uma decisão difícil", "difícil demais"],
+        "synonyms": [
+            "trabalho árduo",
+            "uma decisão difícil",
+            "difícil demais"
+        ],
         "definitions": [
             {
                 "text": "Firme e sólido; difícil.",
@@ -1185,14 +1315,20 @@
         "superlative": "o mais duro",
         "feminine": "dura",
         "plural": "duros",
-        "femininePlural": "duras"
+        "femininePlural": "duras",
+        "opposite": "macio",
+        "oppositeEmoji": "🧸"
     },
     {
         "word": "macio",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["soft light", "soft music", "soft skills"],
+        "synonyms": [
+            "soft light",
+            "soft music",
+            "soft skills"
+        ],
         "definitions": [
             {
                 "text": "Não duro; gentil ao toque.",
@@ -1206,14 +1342,20 @@
         "superlative": "o mais macio",
         "feminine": "macia",
         "plural": "macios",
-        "femininePlural": "macias"
+        "femininePlural": "macias",
+        "opposite": "duro",
+        "oppositeEmoji": "🪨"
     },
     {
         "word": "pesado",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["heavy traffic", "heavy rain", "too heavy"],
+        "synonyms": [
+            "heavy traffic",
+            "heavy rain",
+            "too heavy"
+        ],
         "definitions": [
             {
                 "text": "De grande peso; difícil de transportar.",
@@ -1227,14 +1369,20 @@
         "superlative": "o mais pesado",
         "feminine": "pesada",
         "plural": "pesados",
-        "femininePlural": "pesadas"
+        "femininePlural": "pesadas",
+        "opposite": "claro",
+        "oppositeEmoji": "🪶"
     },
     {
         "word": "leve",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["light rain", "light traffic", "a light meal"],
+        "synonyms": [
+            "light rain",
+            "light traffic",
+            "a light meal"
+        ],
         "definitions": [
             {
                 "text": "Não pesado.",
@@ -1255,7 +1403,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dark brown", "light brown", "brown bread"],
+        "synonyms": [
+            "dark brown",
+            "light brown",
+            "brown bread"
+        ],
         "definitions": [
             {
                 "text": "Da cor da madeira ou da terra.",
@@ -1276,7 +1428,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["grey area", "grey sky", "pale grey"],
+        "synonyms": [
+            "grey area",
+            "grey sky",
+            "pale grey"
+        ],
         "definitions": [
             {
                 "text": "De uma cor entre o branco e o preto.",
@@ -1297,7 +1453,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["light pink", "bright pink", "hot pink"],
+        "synonyms": [
+            "light pink",
+            "bright pink",
+            "hot pink"
+        ],
         "definitions": [
             {
                 "text": "De uma cor vermelha pálida.",
@@ -1318,7 +1478,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["bright orange", "dark orange", "orange light"],
+        "synonyms": [
+            "bright orange",
+            "dark orange",
+            "orange light"
+        ],
         "definitions": [
             {
                 "text": "Da cor de uma laranja.",
@@ -1339,7 +1503,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["uma excelente ideia", "uma excelente oportunidade", "excelente valor"],
+        "synonyms": [
+            "uma excelente ideia",
+            "uma excelente oportunidade",
+            "excelente valor"
+        ],
         "definitions": [
             {
                 "text": "Extremamente bom.",
@@ -1360,7 +1528,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["um dia agradável", "um lugar agradável", "uma pessoa agradável"],
+        "synonyms": [
+            "um dia agradável",
+            "um lugar agradável",
+            "uma pessoa agradável"
+        ],
         "definitions": [
             {
                 "text": "Agradável ou amável.",
@@ -1381,7 +1553,9 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "um tempo maravilhoso",
-        "synonyms": ["uma oportunidade maravilhosa"],
+        "synonyms": [
+            "uma oportunidade maravilhosa"
+        ],
         "definitions": [
             {
                 "text": "Extremamente bom; que causa deleite.",
@@ -1402,7 +1576,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["terrible weather", "a terrible mistake", "terrible news"],
+        "synonyms": [
+            "terrible weather",
+            "a terrible mistake",
+            "terrible news"
+        ],
         "definitions": [
             {
                 "text": "Extremamente mau.",
@@ -1423,7 +1601,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["awful weather", "awful news", "simply awful"],
+        "synonyms": [
+            "awful weather",
+            "awful news",
+            "simply awful"
+        ],
         "definitions": [
             {
                 "text": "Muito mau ou desagradável.",
@@ -1444,7 +1626,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["an amazing result", "an amazing offer", "truly amazing"],
+        "synonyms": [
+            "an amazing result",
+            "an amazing offer",
+            "truly amazing"
+        ],
         "definitions": [
             {
                 "text": "Que causa grande surpresa ou admiração.",
@@ -1465,7 +1651,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["fantastic news", "a fantastic opportunity", "truly fantastic"],
+        "synonyms": [
+            "fantastic news",
+            "a fantastic opportunity",
+            "truly fantastic"
+        ],
         "definitions": [
             {
                 "text": "Extremamente bom.",
@@ -1499,14 +1689,20 @@
         "superlative": "o mais triste",
         "feminine": "triste",
         "plural": "tristes",
-        "femininePlural": "tristes"
+        "femininePlural": "tristes",
+        "opposite": "feliz",
+        "oppositeEmoji": "😊"
     },
     {
         "word": "faminto",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ter fome", "muita fome", "passar fome"],
+        "synonyms": [
+            "ter fome",
+            "muita fome",
+            "passar fome"
+        ],
         "definitions": [
             {
                 "text": "Que precisa de comida.",
@@ -1547,7 +1743,9 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "sentir-se entediado / entediado com",
-        "synonyms": ["entedia-se facilmente"],
+        "synonyms": [
+            "entedia-se facilmente"
+        ],
         "definitions": [
             {
                 "text": "Que se sente sem interesse.",
@@ -1588,7 +1786,10 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "muito assustado",
-        "synonyms": ["medo de", "sentir medo"],
+        "synonyms": [
+            "medo de",
+            "sentir medo"
+        ],
         "definitions": [
             {
                 "text": "Que sente medo.",
@@ -1609,7 +1810,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["sentir muito", "lamento por", "desculpe por"],
+        "synonyms": [
+            "sentir muito",
+            "lamento por",
+            "desculpe por"
+        ],
         "definitions": [
             {
                 "text": "Que sente pesar ou tristeza.",
@@ -1630,7 +1835,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["resposta certa", "momento certo", "toda a razão"],
+        "synonyms": [
+            "resposta certa",
+            "momento certo",
+            "toda a razão"
+        ],
         "definitions": [
             {
                 "text": "Correto; adequado.",
@@ -1651,7 +1860,11 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["wrong answer", "go wrong", "completely wrong"],
+        "synonyms": [
+            "wrong answer",
+            "go wrong",
+            "completely wrong"
+        ],
         "definitions": [
             {
                 "text": "Não correto; não adequado.",
@@ -1665,14 +1878,18 @@
         "superlative": "o mais errado",
         "feminine": "errada",
         "plural": "errados",
-        "femininePlural": "erradas"
+        "femininePlural": "erradas",
+        "opposite": "certo",
+        "oppositeEmoji": "✅"
     },
     {
         "word": "novo",
         "level": "starter",
         "form": "adjective",
         "subtext": "trabalho novo / completamente novo",
-        "synonyms": ["novinho em folha"],
+        "synonyms": [
+            "novinho em folha"
+        ],
         "definitions": [
             {
                 "text": "Que não existia antes.",
@@ -1686,7 +1903,9 @@
         "superlative": "o mais novo",
         "feminine": "nova",
         "plural": "novos",
-        "femininePlural": "novas"
+        "femininePlural": "novas",
+        "opposite": "velho",
+        "oppositeEmoji": "📦"
     },
     {
         "word": "diferente",
@@ -1721,7 +1940,6 @@
                 ]
             }
         ],
-        "subtext": "o mesmo que / exatamente o mesmo / ao mesmo tempo",
         "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
@@ -1734,7 +1952,9 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "comboio rápido / muito rápido",
-        "synonyms": ["comida rápida"],
+        "synonyms": [
+            "comida rápida"
+        ],
         "definitions": [
             {
                 "text": "Que se move ou acontece rapidamente.",
@@ -1748,14 +1968,18 @@
         "superlative": "o mais rápido",
         "feminine": "rápida",
         "plural": "rápidos",
-        "femininePlural": "rápidas"
+        "femininePlural": "rápidas",
+        "opposite": "lento",
+        "oppositeEmoji": "🐢"
     },
     {
         "word": "lento",
         "level": "starter",
         "form": "adjective",
         "subtext": "progresso lento / muito lento",
-        "synonyms": ["internet lenta"],
+        "synonyms": [
+            "internet lenta"
+        ],
         "definitions": [
             {
                 "text": "Não rápido.",
@@ -1769,14 +1993,20 @@
         "superlative": "o mais lento",
         "feminine": "lenta",
         "plural": "lentos",
-        "femininePlural": "lentas"
+        "femininePlural": "lentas",
+        "opposite": "rápido",
+        "oppositeEmoji": "🏎️"
     },
     {
         "word": "silencioso",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["zona tranquila", "manter-se calado", "agradável e calmo"],
+        "synonyms": [
+            "zona tranquila",
+            "manter-se calado",
+            "agradável e calmo"
+        ],
         "definitions": [
             {
                 "text": "Que faz pouco ou nenhum ruído.",
@@ -1790,14 +2020,20 @@
         "superlative": "o mais silencioso",
         "feminine": "silenciosa",
         "plural": "silenciosos",
-        "femininePlural": "silenciosas"
+        "femininePlural": "silenciosas",
+        "opposite": "barulhento",
+        "oppositeEmoji": "📢"
     },
     {
         "word": "barulhento",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["loud noise", "too loud", "a loud voice"],
+        "synonyms": [
+            "loud noise",
+            "too loud",
+            "a loud voice"
+        ],
         "definitions": [
             {
                 "text": "Que faz muito ruído.",
@@ -1811,14 +2047,18 @@
         "superlative": "o mais barulhento",
         "feminine": "barulhenta",
         "plural": "barulhentos",
-        "femininePlural": "barulhentas"
+        "femininePlural": "barulhentas",
+        "opposite": "silencioso",
+        "oppositeEmoji": "🤫"
     },
     {
         "word": "seguro",
         "level": "starter",
         "form": "adjective",
         "subtext": "seguro para fazer / sentir-se seguro",
-        "synonyms": ["zona segura"],
+        "synonyms": [
+            "zona segura"
+        ],
         "definitions": [
             {
                 "text": "Não perigoso.",
@@ -1839,7 +2079,9 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "muito perigoso / potencialmente perigoso",
-        "synonyms": ["situação perigosa"],
+        "synonyms": [
+            "situação perigosa"
+        ],
         "definitions": [
             {
                 "text": "Que pode causar dano.",
@@ -1913,7 +2155,9 @@
         "superlative": "o mais estressado",
         "feminine": "estressada",
         "plural": "estressados",
-        "femininePlural": "estressadas"
+        "femininePlural": "estressadas",
+        "opposite": "relaxado",
+        "oppositeEmoji": "😌"
     },
     {
         "word": "confiante",
@@ -1929,7 +2173,9 @@
             }
         ],
         "subtext": "sentir-se confiante / muito confiante",
-        "synonyms": ["autoconfiante"],
+        "synonyms": [
+            "autoconfiante"
+        ],
         "comparative": "mais confiante",
         "superlative": "o mais confiante",
         "feminine": "confiante",
@@ -1990,7 +2236,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["sentir-se surpreso", "muito surpreso", "agradavelmente surpreso"],
+        "synonyms": [
+            "sentir-se surpreso",
+            "muito surpreso",
+            "agradavelmente surpreso"
+        ],
         "comparative": "mais surpreendido",
         "superlative": "o mais surpreendido",
         "feminine": "surpreendida",
@@ -2011,7 +2261,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["sentir-se decepcionado", "muito decepcionado", "decepcionado com"],
+        "synonyms": [
+            "sentir-se decepcionado",
+            "muito decepcionado",
+            "decepcionado com"
+        ],
         "comparative": "mais dececionado",
         "superlative": "o mais dececionado",
         "feminine": "dececionada",
@@ -2032,12 +2286,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["beautiful view", "beautiful city", "absolutely beautiful"],
+        "synonyms": [
+            "beautiful view",
+            "beautiful city",
+            "absolutely beautiful"
+        ],
         "comparative": "mais bonito",
         "superlative": "o mais bonito",
         "feminine": "bonita",
         "plural": "bonitos",
-        "femininePlural": "bonitas"
+        "femininePlural": "bonitas",
+        "opposite": "feio",
+        "oppositeEmoji": "👹"
     },
     {
         "word": "lindo",
@@ -2053,7 +2313,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["muito bom", "um lugar bonito", "bastante bonito"],
+        "synonyms": [
+            "muito bom",
+            "um lugar bonito",
+            "bastante bonito"
+        ],
         "comparative": "mais lindo",
         "superlative": "o mais lindo",
         "feminine": "linda",
@@ -2078,7 +2342,9 @@
         "superlative": "o mais forte",
         "feminine": "forte",
         "plural": "fortes",
-        "femininePlural": "fortes"
+        "femininePlural": "fortes",
+        "opposite": "fraco",
+        "oppositeEmoji": "🧣"
     },
     {
         "word": "fraco",
@@ -2094,12 +2360,16 @@
             }
         ],
         "subtext": "argumento fraco / muito fraco",
-        "synonyms": ["conexão fraca"],
+        "synonyms": [
+            "conexão fraca"
+        ],
         "comparative": "mais fraco",
         "superlative": "o mais fraco",
         "feminine": "fraca",
         "plural": "fracos",
-        "femininePlural": "fracas"
+        "femininePlural": "fracas",
+        "opposite": "forte",
+        "oppositeEmoji": "💪"
     },
     {
         "word": "em forma",
@@ -2115,7 +2385,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["physically fit", "stay fit", "keep fit"],
+        "synonyms": [
+            "physically fit",
+            "stay fit",
+            "keep fit"
+        ],
         "comparative": "mais em forma",
         "superlative": "o mais em forma",
         "feminine": "em forma",
@@ -2156,7 +2430,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["a perfect opportunity", "perfect timing", "absolutely perfect"],
+        "synonyms": [
+            "a perfect opportunity",
+            "perfect timing",
+            "absolutely perfect"
+        ],
         "comparative": "mais perfeito",
         "superlative": "o mais perfeito",
         "feminine": "perfeita",
@@ -2177,7 +2455,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["completely useless", "prove useless", "a useless idea"],
+        "synonyms": [
+            "completely useless",
+            "prove useless",
+            "a useless idea"
+        ],
         "comparative": "mais inútil",
         "superlative": "o mais inútil",
         "feminine": "inútil",
@@ -2198,7 +2480,10 @@
             }
         ],
         "subtext": "totalmente correto",
-        "synonyms": ["resposta correta", "a forma correta"],
+        "synonyms": [
+            "resposta correta",
+            "a forma correta"
+        ],
         "comparative": "mais correto",
         "superlative": "o mais correto",
         "feminine": "correta",
@@ -2239,7 +2524,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["muito chato", "uma reunião chata", "achar chato"],
+        "synonyms": [
+            "muito chato",
+            "uma reunião chata",
+            "achar chato"
+        ],
         "comparative": "mais aborrecido",
         "superlative": "o mais aborrecido",
         "feminine": "aborrecida",
@@ -2260,7 +2549,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["absolutely necessary", "if necessary", "necessary to do"],
+        "synonyms": [
+            "absolutely necessary",
+            "if necessary",
+            "necessary to do"
+        ],
         "comparative": "mais necessário",
         "superlative": "o mais necessário",
         "feminine": "necessária",
@@ -2281,7 +2574,10 @@
             }
         ],
         "subtext": "as soon as possible",
-        "synonyms": ["it is possible", "make possible"],
+        "synonyms": [
+            "it is possible",
+            "make possible"
+        ],
         "comparative": "mais possível",
         "superlative": "o mais possível",
         "feminine": "possível",
@@ -2302,7 +2598,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["virtually impossible", "make impossible", "nearly impossible"],
+        "synonyms": [
+            "virtually impossible",
+            "make impossible",
+            "nearly impossible"
+        ],
         "comparative": "mais impossível",
         "superlative": "o mais impossível",
         "feminine": "impossível",
@@ -2403,7 +2703,10 @@
             }
         ],
         "subtext": "gentil da sua parte",
-        "synonyms": ["muito amável", "uma pessoa gentil"],
+        "synonyms": [
+            "muito amável",
+            "uma pessoa gentil"
+        ],
         "comparative": "mais bondoso",
         "superlative": "o mais bondoso",
         "feminine": "bondosa",
@@ -2424,7 +2727,9 @@
             }
         ],
         "subtext": "muito engraçado / achar engraçado",
-        "synonyms": ["história engraçada"],
+        "synonyms": [
+            "história engraçada"
+        ],
         "comparative": "mais engraçado",
         "superlative": "o mais engraçado",
         "feminine": "engraçada",
@@ -2445,7 +2750,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["muito inteligente", "uma ideia inteligente", "inteligente o suficiente"],
+        "synonyms": [
+            "muito inteligente",
+            "uma ideia inteligente",
+            "inteligente o suficiente"
+        ],
         "comparative": "mais esperto",
         "superlative": "o mais esperto",
         "feminine": "esperta",
@@ -2486,7 +2795,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["muito rude", "incrivelmente rude", "deliberadamente rude"],
+        "synonyms": [
+            "muito rude",
+            "incrivelmente rude",
+            "deliberadamente rude"
+        ],
         "comparative": "mais grosseiro",
         "superlative": "o mais grosseiro",
         "feminine": "grosseira",
@@ -2507,7 +2820,9 @@
             }
         ],
         "subtext": "muito preguiçoso / preguiçoso demais",
-        "synonyms": ["uma abordagem preguiçosa"],
+        "synonyms": [
+            "uma abordagem preguiçosa"
+        ],
         "comparative": "mais preguiçoso",
         "superlative": "o mais preguiçoso",
         "feminine": "preguiçosa",
@@ -2553,6 +2868,42 @@
         "feminine": "barulhenta",
         "plural": "barulhentos",
         "femininePlural": "barulhentas"
+    },
+    {
+        "word": "sedento",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "form": "adjective",
+        "transcription": "se.ˈðẽ.tu",
+        "feminine": "sedenta",
+        "plural": "sedentos",
+        "subtext": "estar sedento",
+        "definitions": [
+            {
+                "text": "Que tem sede.",
+                "examples": [
+                    "Bebo água porque estou sedento."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tímido",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈti.mi.ðu",
+        "feminine": "tímida",
+        "plural": "tímidos",
+        "subtext": "um rapaz tímido",
+        "definitions": [
+            {
+                "text": "Que sente embaraço perante os outros.",
+                "examples": [
+                    "Ela é um pouco tímida."
+                ]
+            }
+        ]
     }
 ];
     const lang = "pt";

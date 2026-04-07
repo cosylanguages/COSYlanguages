@@ -1,5 +1,6 @@
 (function() {
     const data = [
+
     {
         "word": "grand",
         "feminine": "grande",
@@ -25,11 +26,13 @@
             }
         ],
         "subtext": "un grand bâtiment / assez grand",
-        "synonyms": ["une grande personne"],
+        "synonyms": [
+            "une grande personne"
+        ],
         "comparative": "plus grand",
         "superlative": "le plus grand",
-        "opposite": "court",
-        "oppositeEmoji": "📏"
+        "opposite": "petit",
+        "oppositeEmoji": "🐭"
     },
     {
         "word": "court",
@@ -81,7 +84,11 @@
         "opposite": "vieux",
         "oppositeEmoji": "👴",
         "subtext": "",
-        "synonyms": ["jeune personne", "jeune professionnel", "jeune de cœur"],
+        "synonyms": [
+            "jeune personne",
+            "jeune professionnel",
+            "jeune de cœur"
+        ],
         "word": "jeune"
     },
     {
@@ -89,8 +96,8 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "jeune",
-        "oppositeEmoji": "👶",
+        "opposite": "nouveau",
+        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Qui a beaucoup d'années.",
@@ -104,7 +111,10 @@
         "plural": "vieux",
         "femininePlural": "vieilles",
         "subtext": "très vieux",
-        "synonyms": ["vieil ami", "vieilles habitudes"],
+        "synonyms": [
+            "vieil ami",
+            "vieilles habitudes"
+        ],
         "comparative": "plus vieux",
         "superlative": "le plus vieux"
     },
@@ -124,12 +134,17 @@
             }
         ],
         "subtext": "temps ensoleillé",
-        "synonyms": ["journée ensoleillée", "éclaircies"],
+        "synonyms": [
+            "journée ensoleillée",
+            "éclaircies"
+        ],
         "comparative": "plus ensoleillé",
         "superlative": "le plus ensoleillé",
         "feminine": "ensoleillée",
         "plural": "ensoleillés",
-        "femininePlural": "ensoleillées"
+        "femininePlural": "ensoleillées",
+        "opposite": "pluvieux",
+        "oppositeEmoji": "🌧️"
     },
     {
         "word": "pluvieux",
@@ -147,12 +162,17 @@
             }
         ],
         "subtext": "temps pluvieux",
-        "synonyms": ["journée pluvieuse", "saison des pluies"],
+        "synonyms": [
+            "journée pluvieuse",
+            "saison des pluies"
+        ],
         "comparative": "plus pluvieux",
         "superlative": "le plus pluvieux",
         "feminine": "pluvieuse",
         "plural": "pluvieux",
-        "femininePlural": "pluvieuses"
+        "femininePlural": "pluvieuses",
+        "opposite": "ensoleillé",
+        "oppositeEmoji": "☀️"
     },
     {
         "word": "chaud",
@@ -174,7 +194,9 @@
         "plural": "chauds",
         "femininePlural": "chaudes",
         "subtext": "très chaud / temps chaud / trop chaud",
-        "synonyms": ["une boisson chaude"],
+        "synonyms": [
+            "une boisson chaude"
+        ],
         "comparative": "plus chaud",
         "superlative": "le plus chaud"
     },
@@ -198,7 +220,10 @@
         "plural": "froids",
         "femininePlural": "froides",
         "subtext": "très froid / temps froid / trop froid",
-        "synonyms": ["matinée froide", "une boisson froide"],
+        "synonyms": [
+            "matinée froide",
+            "une boisson froide"
+        ],
         "comparative": "plus froid",
         "superlative": "le plus froid"
     },
@@ -244,7 +269,10 @@
         "plural": "bon marché",
         "femininePlural": "bon marché",
         "subtext": "prix bas, bon marché / très bon marché",
-        "synonyms": ["vol pas cher", "simple et efficace"],
+        "synonyms": [
+            "vol pas cher",
+            "simple et efficace"
+        ],
         "comparative": "plus bon marché",
         "superlative": "le plus bon marché"
     },
@@ -268,7 +296,11 @@
         "plural": "chers",
         "femininePlural": "chères",
         "subtext": "très cher / trop cher",
-        "synonyms": ["coûteux", "prix élevé", "goûts de luxe"],
+        "synonyms": [
+            "coûteux",
+            "prix élevé",
+            "goûts de luxe"
+        ],
         "comparative": "plus cher",
         "superlative": "le plus cher"
     },
@@ -292,7 +324,12 @@
         "plural": "bons",
         "femininePlural": "bonnes",
         "subtext": "bon rapport qualité-prix",
-        "synonyms": ["génial", "agréable", "bonne idée", "bonne chance"],
+        "synonyms": [
+            "génial",
+            "agréable",
+            "bonne idée",
+            "bonne chance"
+        ],
         "comparative": "meilleur",
         "superlative": "le meilleur"
     },
@@ -316,7 +353,13 @@
         "plural": "mauvais",
         "femininePlural": "mauvaises",
         "subtext": "",
-        "synonyms": ["terrible", "affreux", "mauvaises nouvelles", "malchance", "mauvaise décision"],
+        "synonyms": [
+            "terrible",
+            "affreux",
+            "mauvaises nouvelles",
+            "malchance",
+            "mauvaise décision"
+        ],
         "comparative": "pire",
         "superlative": "le pire"
     },
@@ -340,7 +383,10 @@
         "plural": "grands",
         "femininePlural": "grandes",
         "subtext": "grand, immense / assez grand",
-        "synonyms": ["une grande maison", "un gros problème"],
+        "synonyms": [
+            "une grande maison",
+            "un gros problème"
+        ],
         "comparative": "plus grand",
         "superlative": "le plus grand"
     },
@@ -374,7 +420,7 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "difficile",
-        "oppositeEmoji": "❌",
+        "oppositeEmoji": "🧩",
         "definitions": [
             {
                 "text": "Pas difficile.",
@@ -387,7 +433,9 @@
         "plural": "faciles",
         "femininePlural": "faciles",
         "subtext": "facile à faire / pas facile",
-        "synonyms": ["simple comme bonjour"],
+        "synonyms": [
+            "simple comme bonjour"
+        ],
         "comparative": "plus facile",
         "superlative": "le plus facile"
     },
@@ -433,7 +481,9 @@
         "femininePlural": "heureuses",
         "subtext": "heureux, joyeux / se sentir heureux / content de quelque chose / un jour de bonheur",
         "comparative": "plus heureux",
-        "superlative": "le plus heureux"
+        "superlative": "le plus heureux",
+        "opposite": "triste",
+        "oppositeEmoji": "😢"
     },
     {
         "word": "fatigué",
@@ -453,9 +503,14 @@
         "plural": "fatigués",
         "femininePlural": "fatiguées",
         "subtext": "se sentir fatigué / fatigué de quelque chose / très fatigué",
-        "synonyms": ["somnolent", "épuisé"],
+        "synonyms": [
+            "somnolent",
+            "épuisé"
+        ],
         "comparative": "plus fatigué",
-        "superlative": "le plus fatigué"
+        "superlative": "le plus fatigué",
+        "opposite": "énergique",
+        "oppositeEmoji": "⚡"
     },
     {
         "word": "à plein temps",
@@ -497,7 +552,9 @@
             }
         ],
         "subtext": "travail à temps partiel / étudiant à temps partiel",
-        "synonyms": ["emploi à mi-temps"],
+        "synonyms": [
+            "emploi à mi-temps"
+        ],
         "comparative": "plus à temps partiel",
         "superlative": "le plus à temps partiel",
         "feminine": "à temps partiel",
@@ -513,7 +570,10 @@
         "opposite": "sale",
         "oppositeEmoji": "💩",
         "subtext": "",
-        "synonyms": ["net", "impeccable"],
+        "synonyms": [
+            "net",
+            "impeccable"
+        ],
         "definitions": [
             {
                 "text": "Exempt de saleté.",
@@ -545,10 +605,13 @@
             }
         ],
         "subtext": "régime sain",
-        "synonyms": ["en bonne santé", "en forme"],
+        "synonyms": [
+            "en bonne santé",
+            "en forme"
+        ],
         "comparative": "plus sain",
         "superlative": "le plus sain",
-        "opposite": "unhealthy",
+        "opposite": "malsain",
         "oppositeEmoji": "🍔"
     },
     {
@@ -568,7 +631,9 @@
             }
         ],
         "subtext": "malade",
-        "synonyms": ["se sentir mal"],
+        "synonyms": [
+            "se sentir mal"
+        ],
         "comparative": "plus malade",
         "superlative": "le plus malade",
         "opposite": "well",
@@ -580,7 +645,7 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
+        "opposite": "hors ligne",
         "oppositeEmoji": "📴",
         "definitions": [
             {
@@ -637,7 +702,9 @@
             }
         ],
         "subtext": "se sentir détendu",
-        "synonyms": ["calme"],
+        "synonyms": [
+            "calme"
+        ],
         "comparative": "plus détendu",
         "superlative": "le plus détendu",
         "opposite": "stressé",
@@ -660,7 +727,9 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["anxious"],
+        "synonyms": [
+            "anxious"
+        ],
         "comparative": "plus inquiet",
         "superlative": "le plus inquiet",
         "opposite": "calm",
@@ -684,9 +753,13 @@
         "plural": "occupés",
         "femininePlural": "occupées",
         "subtext": "très occupé / emploi du temps chargé / trop occupé",
-        "synonyms": ["journée chargée"],
+        "synonyms": [
+            "journée chargée"
+        ],
         "comparative": "plus occupé",
-        "superlative": "le plus occupé"
+        "superlative": "le plus occupé",
+        "opposite": "libre",
+        "oppositeEmoji": "🆓"
     },
     {
         "word": "utile",
@@ -705,7 +778,9 @@
             }
         ],
         "subtext": "utile",
-        "synonyms": ["pratique"],
+        "synonyms": [
+            "pratique"
+        ],
         "comparative": "plus utile",
         "superlative": "le plus utile",
         "opposite": "inutile",
@@ -718,7 +793,9 @@
         "emoji": "❗",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["essentiel"],
+        "synonyms": [
+            "essentiel"
+        ],
         "definitions": [
             {
                 "text": "Ayant une grande valeur ou un grand effet.",
@@ -731,7 +808,9 @@
         "plural": "importants",
         "femininePlural": "importantes",
         "comparative": "plus important",
-        "superlative": "le plus important"
+        "superlative": "le plus important",
+        "opposite": "peu important",
+        "oppositeEmoji": "🍃"
     },
     {
         "word": "rouge",
@@ -866,7 +945,10 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["sans frais", "cadeau"],
+        "synonyms": [
+            "sans frais",
+            "cadeau"
+        ],
         "definitions": [
             {
                 "text": "Qui ne coûte pas d'argent.",
@@ -879,7 +961,9 @@
         "plural": "libres",
         "femininePlural": "libres",
         "comparative": "plus libre",
-        "superlative": "le plus libre"
+        "superlative": "le plus libre",
+        "opposite": "occupé",
+        "oppositeEmoji": "💼"
     },
     {
         "word": "ouvert",
@@ -890,7 +974,9 @@
         "opposite": "fermé",
         "oppositeEmoji": "🔒",
         "subtext": "",
-        "synonyms": ["libre d'accès"],
+        "synonyms": [
+            "libre d'accès"
+        ],
         "definitions": [
             {
                 "text": "Qui n'est pas fermé ; permettant l'entrée.",
@@ -912,9 +998,12 @@
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "ouvert",
-        "oppositeEmoji": "📖",
+        "oppositeEmoji": "🔓",
         "subtext": "",
-        "synonyms": ["clos", "non accessible"],
+        "synonyms": [
+            "clos",
+            "non accessible"
+        ],
         "definitions": [
             {
                 "text": "Qui n'est pas ouvert ; clos.",
@@ -947,7 +1036,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["une grande ville", "une grande entreprise", "une grande quantité"],
+        "synonyms": [
+            "une grande ville",
+            "une grande entreprise",
+            "une grande quantité"
+        ],
         "comparative": "plus grand",
         "superlative": "le plus grand"
     },
@@ -969,7 +1062,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["a little bit", "a little money", "too little"],
+        "synonyms": [
+            "a little bit",
+            "a little money",
+            "too little"
+        ],
         "comparative": "plus petit",
         "superlative": "le plus petit"
     },
@@ -991,7 +1088,10 @@
             }
         ],
         "subtext": "un long voyage",
-        "synonyms": ["une longue journée", "une longue durée"],
+        "synonyms": [
+            "une longue journée",
+            "une longue durée"
+        ],
         "comparative": "plus long",
         "superlative": "le plus long"
     },
@@ -1013,7 +1113,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["high price", "high rent", "high quality"],
+        "synonyms": [
+            "high price",
+            "high rent",
+            "high quality"
+        ],
         "comparative": "plus haut",
         "superlative": "le plus haut"
     },
@@ -1035,7 +1139,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["low price", "low salary", "low quality"],
+        "synonyms": [
+            "low price",
+            "low salary",
+            "low quality"
+        ],
         "comparative": "plus bas",
         "superlative": "le plus bas"
     },
@@ -1057,9 +1165,13 @@
             }
         ],
         "subtext": "plein temps / plein de monde",
-        "synonyms": ["une journée complète"],
+        "synonyms": [
+            "une journée complète"
+        ],
         "comparative": "plus plein",
-        "superlative": "le plus plein"
+        "superlative": "le plus plein",
+        "opposite": "vide",
+        "oppositeEmoji": "🫙"
     },
     {
         "word": "vide",
@@ -1080,7 +1192,9 @@
         ],
         "subtext": "un appartement vide / une pièce vide / presque vide",
         "comparative": "plus vide",
-        "superlative": "le plus vide"
+        "superlative": "le plus vide",
+        "opposite": "plein",
+        "oppositeEmoji": "🍷"
     },
     {
         "word": "tiède",
@@ -1100,7 +1214,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["warm weather", "a warm welcome", "keep warm"],
+        "synonyms": [
+            "warm weather",
+            "a warm welcome",
+            "keep warm"
+        ],
         "comparative": "plus tiède",
         "superlative": "le plus tiède"
     },
@@ -1122,7 +1240,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["cool weather", "a cool drink", "stay cool"],
+        "synonyms": [
+            "cool weather",
+            "a cool drink",
+            "stay cool"
+        ],
         "comparative": "plus frais",
         "superlative": "le plus frais"
     },
@@ -1144,7 +1266,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["wet weather", "wet clothes", "get wet"],
+        "synonyms": [
+            "wet weather",
+            "wet clothes",
+            "get wet"
+        ],
         "comparative": "plus mouillé",
         "superlative": "le plus mouillé"
     },
@@ -1166,7 +1292,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["dry weather", "dry skin", "keep dry"],
+        "synonyms": [
+            "dry weather",
+            "dry skin",
+            "keep dry"
+        ],
         "comparative": "plus sec",
         "superlative": "le plus sec"
     },
@@ -1188,9 +1318,15 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["dirty hands", "dirty clothes", "get dirty"],
+        "synonyms": [
+            "dirty hands",
+            "dirty clothes",
+            "get dirty"
+        ],
         "comparative": "plus sale",
-        "superlative": "le plus sale"
+        "superlative": "le plus sale",
+        "opposite": "propre",
+        "oppositeEmoji": "✨"
     },
     {
         "word": "dur",
@@ -1210,9 +1346,15 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["travail difficile", "une décision difficile", "trop difficile"],
+        "synonyms": [
+            "travail difficile",
+            "une décision difficile",
+            "trop difficile"
+        ],
         "comparative": "plus dur",
-        "superlative": "le plus dur"
+        "superlative": "le plus dur",
+        "opposite": "mou",
+        "oppositeEmoji": "🧸"
     },
     {
         "word": "doux",
@@ -1232,7 +1374,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["soft light", "soft music", "soft skills"],
+        "synonyms": [
+            "soft light",
+            "soft music",
+            "soft skills"
+        ],
         "comparative": "plus doux",
         "superlative": "le plus doux"
     },
@@ -1254,9 +1400,15 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["heavy traffic", "heavy rain", "too heavy"],
+        "synonyms": [
+            "heavy traffic",
+            "heavy rain",
+            "too heavy"
+        ],
         "comparative": "plus lourd",
-        "superlative": "le plus lourd"
+        "superlative": "le plus lourd",
+        "opposite": "clair",
+        "oppositeEmoji": "🪶"
     },
     {
         "word": "léger",
@@ -1276,7 +1428,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["light rain", "light traffic", "a light meal"],
+        "synonyms": [
+            "light rain",
+            "light traffic",
+            "a light meal"
+        ],
         "comparative": "plus léger",
         "superlative": "le plus léger"
     },
@@ -1298,7 +1454,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["dark brown", "light brown", "brown bread"],
+        "synonyms": [
+            "dark brown",
+            "light brown",
+            "brown bread"
+        ],
         "comparative": "plus brun",
         "superlative": "le plus brun"
     },
@@ -1320,7 +1480,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["grey area", "grey sky", "pale grey"],
+        "synonyms": [
+            "grey area",
+            "grey sky",
+            "pale grey"
+        ],
         "comparative": "plus gris",
         "superlative": "le plus gris"
     },
@@ -1342,7 +1506,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["light pink", "bright pink", "hot pink"],
+        "synonyms": [
+            "light pink",
+            "bright pink",
+            "hot pink"
+        ],
         "comparative": "plus rose",
         "superlative": "le plus rose"
     },
@@ -1385,7 +1553,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["une excellente idée", "une excellente opportunité", "excellente valeur"],
+        "synonyms": [
+            "une excellente idée",
+            "une excellente opportunité",
+            "excellente valeur"
+        ],
         "comparative": "plus génial",
         "superlative": "le plus génial"
     },
@@ -1407,7 +1579,10 @@
             }
         ],
         "subtext": "une personne sympa",
-        "synonyms": ["une belle journée", "un bel endroit"],
+        "synonyms": [
+            "une belle journée",
+            "un bel endroit"
+        ],
         "comparative": "plus sympa",
         "superlative": "le plus sympa"
     },
@@ -1429,7 +1604,9 @@
             }
         ],
         "subtext": "un moment merveilleux",
-        "synonyms": ["une opportunité merveilleuse"],
+        "synonyms": [
+            "une opportunité merveilleuse"
+        ],
         "comparative": "plus merveilleux",
         "superlative": "le plus merveilleux"
     },
@@ -1472,7 +1649,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["awful weather", "awful news", "simply awful"],
+        "synonyms": [
+            "awful weather",
+            "awful news",
+            "simply awful"
+        ],
         "comparative": "plus affreux",
         "superlative": "le plus affreux"
     },
@@ -1494,7 +1675,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["an amazing result", "an amazing offer", "truly amazing"],
+        "synonyms": [
+            "an amazing result",
+            "an amazing offer",
+            "truly amazing"
+        ],
         "comparative": "plus incroyable",
         "superlative": "le plus incroyable"
     },
@@ -1516,7 +1701,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["fantastic news", "a fantastic opportunity", "truly fantastic"],
+        "synonyms": [
+            "fantastic news",
+            "a fantastic opportunity",
+            "truly fantastic"
+        ],
         "comparative": "plus fantastique",
         "superlative": "le plus fantastique"
     },
@@ -1539,7 +1728,9 @@
         ],
         "subtext": "se sentir triste / une situation triste / profondément triste",
         "comparative": "plus triste",
-        "superlative": "le plus triste"
+        "superlative": "le plus triste",
+        "opposite": "heureux",
+        "oppositeEmoji": "😊"
     },
     {
         "word": "affamé",
@@ -1559,7 +1750,10 @@
             }
         ],
         "subtext": "rester sur sa faim",
-        "synonyms": ["avoir faim", "très faim"],
+        "synonyms": [
+            "avoir faim",
+            "très faim"
+        ],
         "comparative": "plus affamé",
         "superlative": "le plus affamé"
     },
@@ -1581,7 +1775,9 @@
             }
         ],
         "subtext": "se sentir en colère / fâché contre quelqu'un",
-        "synonyms": ["très en colère"],
+        "synonyms": [
+            "très en colère"
+        ],
         "comparative": "plus fâché",
         "superlative": "le plus fâché"
     },
@@ -1603,7 +1799,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["s'ennuyer", "s'ennuyer de", "s'ennuie facilement"],
+        "synonyms": [
+            "s'ennuyer",
+            "s'ennuyer de",
+            "s'ennuie facilement"
+        ],
         "comparative": "plus ennuyé",
         "superlative": "le plus ennuyé"
     },
@@ -1646,7 +1846,10 @@
             }
         ],
         "subtext": "profondément effrayé",
-        "synonyms": ["peur de", "avoir peur"],
+        "synonyms": [
+            "peur de",
+            "avoir peur"
+        ],
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
     },
@@ -1689,7 +1892,10 @@
             }
         ],
         "subtext": "tout à fait raison",
-        "synonyms": ["bonne réponse", "bon moment"],
+        "synonyms": [
+            "bonne réponse",
+            "bon moment"
+        ],
         "comparative": "plus correct",
         "superlative": "le plus correct"
     },
@@ -1711,7 +1917,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["mauvaise réponse", "se tromper", "complètement faux"],
+        "synonyms": [
+            "mauvaise réponse",
+            "se tromper",
+            "complètement faux"
+        ],
         "comparative": "pire",
         "superlative": "le pire"
     },
@@ -1734,7 +1944,9 @@
         ],
         "subtext": "nouveau travail / tout nouveau / complètement nouveau",
         "comparative": "plus nouveau",
-        "superlative": "le plus nouveau"
+        "superlative": "le plus nouveau",
+        "opposite": "vieux",
+        "oppositeEmoji": "📦"
     },
     {
         "word": "différent",
@@ -1797,7 +2009,9 @@
         ],
         "subtext": "restauration rapide / train rapide / très rapide",
         "comparative": "plus rapide",
-        "superlative": "le plus rapide"
+        "superlative": "le plus rapide",
+        "opposite": "lent",
+        "oppositeEmoji": "🐢"
     },
     {
         "word": "lent",
@@ -1818,7 +2032,9 @@
         ],
         "subtext": "progrès lents / internet lent / très lent",
         "comparative": "plus lent",
-        "superlative": "le plus lent"
+        "superlative": "le plus lent",
+        "opposite": "rapide",
+        "oppositeEmoji": "🏎️"
     },
     {
         "word": "calme",
@@ -1839,7 +2055,9 @@
         ],
         "subtext": "quartier calme / rester calme / bien calme",
         "comparative": "plus calme",
-        "superlative": "le plus calme"
+        "superlative": "le plus calme",
+        "opposite": "bruyant",
+        "oppositeEmoji": "📢"
     },
     {
         "word": "bruyant",
@@ -1859,9 +2077,15 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["bruit fort", "trop fort", "une voix forte"],
+        "synonyms": [
+            "bruit fort",
+            "trop fort",
+            "une voix forte"
+        ],
         "comparative": "plus bruyant",
-        "superlative": "le plus bruyant"
+        "superlative": "le plus bruyant",
+        "opposite": "calme",
+        "oppositeEmoji": "🤫"
     },
     {
         "word": "sûr",
@@ -1881,7 +2105,9 @@
             }
         ],
         "subtext": "sûr à faire / se sentir en sécurité",
-        "synonyms": ["zone sûre"],
+        "synonyms": [
+            "zone sûre"
+        ],
         "comparative": "plus sûr",
         "superlative": "le plus sûr"
     },
@@ -1903,7 +2129,9 @@
             }
         ],
         "subtext": "très dangereux / potentiellement dangereux",
-        "synonyms": ["situation dangereuse"],
+        "synonyms": [
+            "situation dangereuse"
+        ],
         "comparative": "plus dangereux",
         "superlative": "le plus dangereux"
     },
@@ -1965,7 +2193,9 @@
         ],
         "subtext": "se sentir stressé / très stressé / à bout de nerfs",
         "comparative": "plus stressé",
-        "superlative": "le plus stressé"
+        "superlative": "le plus stressé",
+        "opposite": "détendu",
+        "oppositeEmoji": "😌"
     },
     {
         "word": "confiant",
@@ -1984,7 +2214,9 @@
             }
         ],
         "subtext": "se sentir confiant / très confiant",
-        "synonyms": ["confiance en soi"],
+        "synonyms": [
+            "confiance en soi"
+        ],
         "comparative": "plus confiant",
         "superlative": "le plus confiant"
     },
@@ -2025,7 +2257,10 @@
             }
         ],
         "subtext": "très effrayé",
-        "synonyms": ["avoir peur", "peur de"],
+        "synonyms": [
+            "avoir peur",
+            "peur de"
+        ],
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
     },
@@ -2086,9 +2321,15 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["belle vue", "belle ville", "absolument magnifique"],
+        "synonyms": [
+            "belle vue",
+            "belle ville",
+            "absolument magnifique"
+        ],
         "comparative": "plus beau",
-        "superlative": "le plus beau"
+        "superlative": "le plus beau",
+        "opposite": "laid",
+        "oppositeEmoji": "👹"
     },
     {
         "word": "joli",
@@ -2107,7 +2348,10 @@
             }
         ],
         "subtext": "assez joli",
-        "synonyms": ["assez bien", "un bel endroit"],
+        "synonyms": [
+            "assez bien",
+            "un bel endroit"
+        ],
         "comparative": "plus joli",
         "superlative": "le plus joli"
     },
@@ -2128,9 +2372,13 @@
             }
         ],
         "subtext": "café fort / très fort",
-        "synonyms": ["opinion tranchée"],
+        "synonyms": [
+            "opinion tranchée"
+        ],
         "comparative": "plus fort",
-        "superlative": "le plus fort"
+        "superlative": "le plus fort",
+        "opposite": "faible",
+        "oppositeEmoji": "🧣"
     },
     {
         "word": "faible",
@@ -2150,7 +2398,9 @@
         ],
         "subtext": "connexion faible / un argument faible / très faible",
         "comparative": "plus faible",
-        "superlative": "le plus faible"
+        "superlative": "le plus faible",
+        "opposite": "fort",
+        "oppositeEmoji": "💪"
     },
     {
         "word": "en forme",
@@ -2169,7 +2419,9 @@
             }
         ],
         "subtext": "en bonne forme physique / rester en forme",
-        "synonyms": ["garder la forme"],
+        "synonyms": [
+            "garder la forme"
+        ],
         "comparative": "plus en forme",
         "superlative": "le plus en forme"
     },
@@ -2210,7 +2462,9 @@
             }
         ],
         "subtext": "moment parfait / absolument parfait",
-        "synonyms": ["une occasion parfaite"],
+        "synonyms": [
+            "une occasion parfaite"
+        ],
         "comparative": "plus parfait",
         "superlative": "le plus parfait"
     },
@@ -2251,7 +2505,10 @@
             }
         ],
         "subtext": "tout à fait exact",
-        "synonyms": ["bonne réponse", "la bonne manière"],
+        "synonyms": [
+            "bonne réponse",
+            "la bonne manière"
+        ],
         "comparative": "plus correct",
         "superlative": "le plus correct"
     },
@@ -2272,7 +2529,9 @@
             }
         ],
         "subtext": "trouver intéressant / très intéressant",
-        "synonyms": ["une idée intéressante"],
+        "synonyms": [
+            "une idée intéressante"
+        ],
         "comparative": "plus intéressant",
         "superlative": "le plus intéressant"
     },
@@ -2293,7 +2552,9 @@
             }
         ],
         "subtext": "très ennuyeux / trouver ennuyeux",
-        "synonyms": ["une réunion ennuyeuse"],
+        "synonyms": [
+            "une réunion ennuyeuse"
+        ],
         "comparative": "plus ennuyeux",
         "superlative": "le plus ennuyeux"
     },
@@ -2374,7 +2635,10 @@
             }
         ],
         "subtext": "très spécial",
-        "synonyms": ["une offre spéciale", "occasion spéciale"],
+        "synonyms": [
+            "une offre spéciale",
+            "occasion spéciale"
+        ],
         "comparative": "plus spécial",
         "superlative": "le plus spécial"
     },
@@ -2415,7 +2679,9 @@
             }
         ],
         "subtext": "très similaire / résultats similaires",
-        "synonyms": ["semblable à"],
+        "synonyms": [
+            "semblable à"
+        ],
         "comparative": "plus similaire",
         "superlative": "le plus similaire"
     },
@@ -2436,7 +2702,9 @@
             }
         ],
         "subtext": "très amical / un visage amical",
-        "synonyms": ["atmosphère amicale"],
+        "synonyms": [
+            "atmosphère amicale"
+        ],
         "comparative": "plus amical",
         "superlative": "le plus amical"
     },
@@ -2457,7 +2725,9 @@
             }
         ],
         "subtext": "très gentil / gentil de votre part",
-        "synonyms": ["une personne gentille"],
+        "synonyms": [
+            "une personne gentille"
+        ],
         "comparative": "plus gentil",
         "superlative": "le plus gentil"
     },
@@ -2498,7 +2768,10 @@
             }
         ],
         "subtext": "très intelligent",
-        "synonyms": ["une idée intelligente", "assez malin"],
+        "synonyms": [
+            "une idée intelligente",
+            "assez malin"
+        ],
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent"
     },
@@ -2519,7 +2792,9 @@
             }
         ],
         "subtext": "très poli / assez poli",
-        "synonyms": ["demande polie"],
+        "synonyms": [
+            "demande polie"
+        ],
         "comparative": "plus poli",
         "superlative": "le plus poli"
     },
@@ -2560,7 +2835,9 @@
             }
         ],
         "subtext": "très paresseux / trop paresseux",
-        "synonyms": ["une approche paresseuse"],
+        "synonyms": [
+            "une approche paresseuse"
+        ],
         "comparative": "plus paresseux",
         "superlative": "le plus paresseux"
     },
@@ -2944,7 +3221,9 @@
         ],
         "subtext": "laid",
         "comparative": "plus laid",
-        "superlative": "le plus laid"
+        "superlative": "le plus laid",
+        "opposite": "beau",
+        "oppositeEmoji": "🌸"
     },
     {
         "word": "proche",
@@ -2963,7 +3242,9 @@
         ],
         "subtext": "proche",
         "comparative": "plus proche",
-        "superlative": "le plus proche"
+        "superlative": "le plus proche",
+        "opposite": "loin",
+        "oppositeEmoji": "🔭"
     },
     {
         "word": "lointain",
@@ -3001,7 +3282,9 @@
         ],
         "subtext": "riche",
         "comparative": "plus riche",
-        "superlative": "le plus riche"
+        "superlative": "le plus riche",
+        "opposite": "pauvre",
+        "oppositeEmoji": "💸"
     },
     {
         "word": "pauvre",
@@ -3020,7 +3303,9 @@
         ],
         "subtext": "pauvre",
         "comparative": "plus pauvre",
-        "superlative": "le plus pauvre"
+        "superlative": "le plus pauvre",
+        "opposite": "riche",
+        "oppositeEmoji": "💰"
     },
     {
         "word": "matinal",
@@ -3210,7 +3495,9 @@
         ],
         "subtext": "clair",
         "comparative": "plus clair",
-        "superlative": "le plus clair"
+        "superlative": "le plus clair",
+        "opposite": "lourd",
+        "oppositeEmoji": "🏋️"
     },
     {
         "word": "commun",
@@ -3343,7 +3630,9 @@
         ],
         "subtext": "mince",
         "comparative": "plus mince",
-        "superlative": "le plus mince"
+        "superlative": "le plus mince",
+        "opposite": "épais",
+        "oppositeEmoji": "🍔"
     },
     {
         "word": "bouclé",
@@ -3476,7 +3765,9 @@
         ],
         "subtext": "sombre",
         "comparative": "plus sombre",
-        "superlative": "le plus sombre"
+        "superlative": "le plus sombre",
+        "opposite": "clair",
+        "oppositeEmoji": "💡"
     },
     {
         "word": "lumineux",
@@ -3666,7 +3957,9 @@
         ],
         "subtext": "large",
         "comparative": "plus large",
-        "superlative": "le plus large"
+        "superlative": "le plus large",
+        "opposite": "étroit",
+        "oppositeEmoji": "🤏"
     },
     {
         "word": "étroit",
@@ -3685,7 +3978,9 @@
         ],
         "subtext": "étroit",
         "comparative": "plus étroit",
-        "superlative": "le plus étroit"
+        "superlative": "le plus étroit",
+        "opposite": "large",
+        "oppositeEmoji": "↔️"
     },
     {
         "word": "antipathique",
@@ -3761,7 +4056,9 @@
         ],
         "subtext": "faux",
         "comparative": "plus faux",
-        "superlative": "le plus faux"
+        "superlative": "le plus faux",
+        "opposite": "juste",
+        "oppositeEmoji": "✅"
     },
     {
         "word": "malchanceux",
@@ -3928,6 +4225,42 @@
         "transcription": "nɔʁ.mal",
         "opposite": "étrange"
     },
+    {
+        "word": "assoiffé",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "form": "adjective",
+        "transcription": "a.swa.fe",
+        "feminine": "assoiffée",
+        "plural": "assoiffés",
+        "subtext": "être assoiffé",
+        "definitions": [
+            {
+                "text": "Qui a besoin de boire.",
+                "examples": [
+                    "Après le sport, je suis assoiffé."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "timide",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ti.mid",
+        "feminine": "timide",
+        "plural": "timides",
+        "subtext": "un enfant timide",
+        "definitions": [
+            {
+                "text": "Qui manque d'assurance devant les autres.",
+                "examples": [
+                    "Il est trop timide pour parler."
+                ]
+            }
+        ]
+    }
 ];
     const lang = "fr";
     window.adjectivesData = window.adjectivesData || {};
