@@ -9,7 +9,6 @@
         "synonyms": ["à la maison"],
         "form": "verb",
         "transcription": "ɛtʁ",
-        "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Exister ; avoir une qualité ou un état.",
@@ -34,7 +33,6 @@
         "subtext": "avoir un travail / avoir déjeuner / avoir un problème",
         "form": "verb",
         "transcription": "avwaʁ",
-        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Posséder quelque chose ; éprouver quelque chose.",
@@ -59,7 +57,6 @@
         "subtext": "se sentir fatigué / se sentir mieux / se sentir bien",
         "form": "verb",
         "transcription": "sə sɑ̃.tiʁ",
-        "image": "https://images.unsplash.com/photo-1499209974431-9dac3adaf477?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Éprouver une émotion ou une sensation physique.",
@@ -86,7 +83,6 @@
         "oppositeEmoji": "👜",
         "form": "verb",
         "transcription": "dɔ.ne",
-        "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Remettre ou transférer quelque chose à quelqu un.",
@@ -112,7 +108,6 @@
         "oppositeEmoji": "🎁",
         "form": "verb",
         "transcription": "pʁɑ̃dʁ",
-        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Tenir et déplacer quelque chose ; utiliser ou consommer.",
@@ -137,7 +132,6 @@
         "synonyms": ["se fatiguer", "s améliorer"],
         "form": "verb",
         "transcription": "ɔb.tə.niʁ",
-        "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Recevoir, obtenir ou devenir.",
@@ -163,7 +157,6 @@
         "synonyms": ["ranger", "poser le téléphone"],
         "form": "verb",
         "transcription": "mɛtʁ",
-        "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Placer quelque chose dans une position.",
@@ -188,7 +181,6 @@
         "synonyms": ["prendre une décision"],
         "form": "verb",
         "transcription": "fɛʁ",
-        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Créer ou produire quelque chose ; causer.",
@@ -235,7 +227,6 @@
         "subtext": "utiliser un téléphone / utiliser les transports / utiliser un ordinateur",
         "form": "verb",
         "transcription": "y.ti.li.ze",
-        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Employer quelque chose dans un but précis.",
@@ -261,7 +252,6 @@
         "oppositeEmoji": "🔒",
         "form": "verb",
         "transcription": "u.vʁiʁ",
-        "image": "https://images.unsplash.com/photo-1506377585622-bedcbb027afc?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Faire en sorte que quelque chose ne soit pas fermé ; commencer.",
@@ -287,7 +277,6 @@
         "oppositeEmoji": "📖",
         "form": "verb",
         "transcription": "fɛʁ.me",
-        "image": "https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Faire en sorte que quelque chose ne soit pas ouvert ; finir.",
@@ -313,7 +302,6 @@
         "oppositeEmoji": "🏁",
         "form": "verb",
         "transcription": "kɔ.mɑ̃.se",
-        "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=150&h=150&fit=crop",
         "definitions": [
             {
                 "text": "Débuter quelque chose.",
@@ -4365,6 +4353,118 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "touché",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "allumer",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💡",
+        "form": "verb",
+        "transcription": "aly.me",
+        "definitions": [
+            {
+                "text": "Mettre en marche un appareil ou une lumière.",
+                "examples": [
+                    "Allume la lumière, s'il te plaît.",
+                    "Il allume son ordinateur à neuf heures."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "allumé",
+        "group": "er",
+        "auxiliary": "avoir",
+        "opposite": "éteindre"
+    },
+    {
+        "word": "éteindre",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "form": "verb",
+        "transcription": "e.tɛ̃dʁ",
+        "definitions": [
+            {
+                "text": "Cesser de faire fonctionner un appareil ou une lumière.",
+                "examples": [
+                    "N'oublie pas d'éteindre les lumières.",
+                    "Elle éteint son téléphone pendant les réunions."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "éteint",
+        "group": "re",
+        "auxiliary": "avoir",
+        "opposite": "allumer"
+    },
+    {
+        "word": "respirer",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🫁",
+        "form": "verb",
+        "transcription": "ʁɛs.pi.ʁe",
+        "definitions": [
+            {
+                "text": "Prendre de l'air dans les poumons et le rejeter.",
+                "examples": [
+                    "Respire profondément.",
+                    "Il est difficile de respirer ici."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "respiré",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "tousser",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "😷",
+        "form": "verb",
+        "transcription": "tu.se",
+        "definitions": [
+            {
+                "text": "Expulser l'air des poumons avec un bruit soudain.",
+                "examples": [
+                    "Il tousse parce qu'il a un rhume.",
+                    "Arrête de tousser !"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "toussé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "éternuer",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤧",
+        "form": "verb",
+        "transcription": "e.tɛʁ.nye",
+        "definitions": [
+            {
+                "text": "Expulser l'air par le nez et la bouche de façon soudaine et bruyante.",
+                "examples": [
+                    "À tes souhaits ! Tu as éternué ?",
+                    "Je n'arrête pas d'éternuer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "éternué",
         "group": "er",
         "auxiliary": "avoir"
     },

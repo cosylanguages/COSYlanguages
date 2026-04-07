@@ -32,7 +32,7 @@
     },
     {
         "word": "Russia",
-        "transcription": "ˈrusːja",
+        "transcription": "ˈrusja",
         "definitions": [
             {
                 "text": "Il paese più grande del mondo.",
@@ -47,7 +47,7 @@
     },
     {
         "word": "Grecia",
-        "transcription": "ˈɡrɛːtʃa",
+        "transcription": "ˈɡrɛtʃa",
         "definitions": [
             {
                 "text": "Un paese dell'Europa meridionale con molte isole.",
@@ -62,7 +62,7 @@
     },
     {
         "word": "Inghilterra",
-        "transcription": "iŋɡilˈtɛrːa",
+        "transcription": "iŋɡilˈtɛra",
         "definitions": [
             {
                 "text": "Parte del Regno Unito.",
@@ -77,7 +77,7 @@
     },
     {
         "word": "Spagna",
-        "transcription": "ˈspaɲːa",
+        "transcription": "ˈspaɲa",
         "definitions": [
             {
                 "text": "Un paese della penisola iberica.",
@@ -107,7 +107,7 @@
     },
     {
         "word": "Germania",
-        "transcription": "dʒerˈmaːnja",
+        "transcription": "dʒerˈmanja",
         "definitions": [
             {
                 "text": "Un paese dell'Europa centrale.",
@@ -122,7 +122,7 @@
     },
     {
         "word": "Giappone",
-        "transcription": "dʒapˈpoːne",
+        "transcription": "dʒapˈpone",
         "definitions": [
             {
                 "text": "Un paese insulare in Asia orientale.",
@@ -137,7 +137,7 @@
     },
     {
         "word": "Cina",
-        "transcription": "ˈtʃiːna",
+        "transcription": "ˈtʃina",
         "definitions": [
             {
                 "text": "Un grande paese in Asia orientale.",
@@ -167,7 +167,7 @@
     },
     {
         "word": "Brasile",
-        "transcription": "braˈziːle",
+        "transcription": "braˈzile",
         "definitions": [
             {
                 "text": "Il paese più grande del Sud America.",
@@ -182,7 +182,7 @@
     },
     {
         "word": "Australia",
-        "transcription": "auˈstraːlja",
+        "transcription": "auˈstralja",
         "definitions": [
             {
                 "text": "Un paese e continente nell'emisfero australe.",
@@ -197,7 +197,7 @@
     },
     {
         "word": "Egitto",
-        "transcription": "eˈdʒitːo",
+        "transcription": "eˈdʒito",
         "definitions": [
             {
                 "text": "Un paese nel Nord Africa famoso per le piramidi.",
@@ -242,7 +242,7 @@
     },
     {
         "word": "Argentina",
-        "transcription": "ardʒenˈtiːna",
+        "transcription": "ardʒenˈtina",
         "definitions": [
             {
                 "text": "Un grande paese nel Sud America.",
@@ -332,7 +332,7 @@
     },
     {
         "word": "Paesi Bassi",
-        "transcription": "paˈeːzi ˈbasːi",
+        "transcription": "paˈezi ˈbasi",
         "definitions": [
             {
                 "text": "Un paese dell'Europa settentrionale.",
@@ -347,7 +347,7 @@
     },
     {
         "word": "Svezia",
-        "transcription": "ˈzvɛːtsja",
+        "transcription": "ˈzvɛtsja",
         "definitions": [
             {
                 "text": "Un paese in Scandinavia.",
@@ -362,7 +362,7 @@
     },
     {
         "word": "Norvegia",
-        "transcription": "norˈvɛːdʒa",
+        "transcription": "norˈvɛdʒa",
         "definitions": [
             {
                 "text": "Un paese montuoso in Scandinavia.",
@@ -392,7 +392,7 @@
     },
     {
         "word": "Roma",
-        "transcription": "ˈroːma",
+        "transcription": "ˈroma",
         "definitions": [
             {
                 "text": "La capitale dell'Italia.",
@@ -407,7 +407,7 @@
     },
     {
         "word": "Milano",
-        "transcription": "miˈlaːno",
+        "transcription": "miˈlano",
         "definitions": [
             {
                 "text": "Una grande città nel nord Italia.",
@@ -452,7 +452,7 @@
     },
     {
         "word": "Napoli",
-        "transcription": "ˈnaːpoli",
+        "transcription": "ˈnapoli",
         "definitions": [
             {
                 "text": "Città nel sud Italia famosa per la pizza.",
@@ -512,7 +512,7 @@
     },
     {
         "word": "Berlino",
-        "transcription": "berˈliːno",
+        "transcription": "berˈlino",
         "definitions": [
             {
                 "text": "La capitale della Germania.",
@@ -542,7 +542,7 @@
     },
     {
         "word": "Pechino",
-        "transcription": "peˈkiːno",
+        "transcription": "peˈkino",
         "definitions": [
             {
                 "text": "La capitale della Cina.",
@@ -602,7 +602,7 @@
     },
     {
         "word": "Barcellona",
-        "transcription": "bartʃelˈloːna",
+        "transcription": "bartʃelˈlona",
         "definitions": [
             {
                 "text": "Una città sulla costa della Spagna.",
@@ -647,7 +647,7 @@
     },
     {
         "word": "Praga",
-        "transcription": "ˈpraːɡa",
+        "transcription": "ˈpraɡa",
         "definitions": [
             {
                 "text": "La capitale della Repubblica Ceca.",
@@ -662,7 +662,7 @@
     },
     {
         "word": "Dublino",
-        "transcription": "dubˈliːno",
+        "transcription": "dubˈlino",
         "definitions": [
             {
                 "text": "La capitale dell'Irlanda.",
@@ -677,7 +677,7 @@
     },
     {
         "word": "Lisbona",
-        "transcription": "lizˈboːna",
+        "transcription": "lizˈbona",
         "definitions": [
             {
                 "text": "La capitale del Portogallo.",
@@ -692,7 +692,7 @@
     },
     {
         "word": "Zurigo",
-        "transcription": "dzuˈriːɡo",
+        "transcription": "dzuˈriɡo",
         "definitions": [
             {
                 "text": "Una grande città in Svizzera.",
@@ -707,7 +707,7 @@
     },
     {
         "word": "Chicago",
-        "transcription": "ʃiˈkaːɡo",
+        "transcription": "ʃiˈkaɡo",
         "definitions": [
             {
                 "text": "Una grande città negli Stati Uniti.",
@@ -737,7 +737,7 @@
     },
     {
         "word": "Miami",
-        "transcription": "maˈjaːmi",
+        "transcription": "maˈjami",
         "definitions": [
             {
                 "text": "Una città sulla costa della Florida.",
@@ -827,7 +827,7 @@
     },
     {
         "word": "Ginevra",
-        "transcription": "dʒiˈnɛːvra",
+        "transcription": "dʒiˈnɛvra",
         "definitions": [
             {
                 "text": "Una città internazionale in Svizzera.",

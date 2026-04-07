@@ -3832,7 +3832,7 @@
         "v3": "creduto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈkreːdere",
+        "transcription": "ˈkredere",
         "subtext": "credere a qualcuno / credere in qualcosa"
     },
     {
@@ -4625,7 +4625,7 @@
         "v3": "cercato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "tʃerˈkaːre",
+        "transcription": "tʃerˈkare",
         "subtext": "cercare di fare"
     },
     {
@@ -4723,7 +4723,7 @@
         "emoji": "💪",
         "subtext": "posso aiutare?",
         "form": "verb",
-        "transcription": "poˈteːre",
+        "transcription": "poˈtere",
         "definitions": [
             {
                 "text": "Essere in grado di fare qualcosa; avere il permesso.",
@@ -4792,7 +4792,7 @@
         "emoji": "🏠",
         "subtext": "stare bene / stare a casa",
         "form": "verb",
-        "transcription": "ˈstaːre",
+        "transcription": "ˈstare",
         "definitions": [
             {
                 "text": "Trovarsi in un luogo o in una condizione.",
@@ -4861,7 +4861,7 @@
         "emoji": "🚪",
         "subtext": "entrare in casa",
         "form": "verb",
-        "transcription": "enˈtraːre",
+        "transcription": "enˈtrare",
         "definitions": [
             {
                 "text": "Andare all'interno di un luogo.",
@@ -4883,7 +4883,7 @@
         "emoji": "🪜",
         "subtext": "salire le scale / salire sull'autobus",
         "form": "verb",
-        "transcription": "saˈliːre",
+        "transcription": "saˈlire",
         "definitions": [
             {
                 "text": "Andare verso l'alto o su un mezzo di trasporto.",
@@ -4919,6 +4919,296 @@
         "v3": "sceso",
         "group": "ere",
         "auxiliary": "essere"
+    },
+    {
+        "word": "accendere",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💡",
+        "form": "verb",
+        "transcription": "atˈtʃɛndere",
+        "definitions": [
+            {
+                "text": "Far funzionare un apparecchio o una luce.",
+                "examples": [
+                    "Accendi la luce, per favore.",
+                    "Lui accende il computer alle nove."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "acceso",
+        "group": "ere",
+        "auxiliary": "avere",
+        "opposite": "spegnere"
+    },
+    {
+        "word": "spegnere",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "form": "verb",
+        "transcription": "ˈspeɲɲere",
+        "definitions": [
+            {
+                "text": "Far cessare di funzionare un apparecchio o una luce.",
+                "examples": [
+                    "Non dimenticare di spegnere le luci.",
+                    "Spegne il telefono durante le riunioni."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "spento",
+        "group": "ere",
+        "auxiliary": "avere",
+        "opposite": "accendere"
+    },
+    {
+        "word": "respirare",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🫁",
+        "form": "verb",
+        "transcription": "respiˈrare",
+        "definitions": [
+            {
+                "text": "Prendere aria nei polmoni e buttarla fuori.",
+                "examples": [
+                    "Respira profondamente.",
+                    "È difficile respirare qui dentro."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "respirato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "tossire",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "😷",
+        "form": "verb",
+        "transcription": "tosˈsire",
+        "definitions": [
+            {
+                "text": "Espellere aria dai polmoni con un rumore improvviso.",
+                "examples": [
+                    "Lui tossisce perché ha il raffreddore.",
+                    "Smetti di tossire!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "tossito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "starnutire",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤧",
+        "form": "verb",
+        "transcription": "starnuˈtire",
+        "definitions": [
+            {
+                "text": "Espellere aria dal naso e dalla bocca in modo improvviso e rumoroso.",
+                "examples": [
+                    "Salute! Hai starnutito?",
+                    "Starnutisco sempre quando c'è polvere."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "starnutito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "sbadigliare",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "emoji": "🥱",
+        "form": "verb",
+        "transcription": "zbadidˈʎare",
+        "definitions": [
+            {
+                "text": "Aprire la bocca involontariamente per sonno o noia.",
+                "examples": [
+                    "Ha sbadigliato durante la riunione.",
+                    "Sbadiglio perché sono stanco."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sbadigliato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "arrampicarsi",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧗",
+        "form": "verb",
+        "transcription": "arrampiˈkarsi",
+        "definitions": [
+            {
+                "text": "Salire su qualcosa usando mani e piedi.",
+                "examples": [
+                    "Il gatto si arrampica sull'albero.",
+                    "Ci arrampichiamo sulla collina per vedere il panorama."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "arrampicato",
+        "group": "riflessivo",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "vestirsi",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👗",
+        "form": "verb",
+        "transcription": "vesˈtirsi",
+        "definitions": [
+            {
+                "text": "Mettersi i vestiti.",
+                "examples": [
+                    "Mi vesto alle sette.",
+                    "Si veste sempre di nero."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "vestito",
+        "group": "riflessivo",
+        "auxiliary": "essere",
+        "opposite": "spogliarsi"
+    },
+    {
+        "word": "spogliarsi",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👕",
+        "form": "verb",
+        "transcription": "spoʎˈʎarsi",
+        "definitions": [
+            {
+                "text": "Togliersi i vestiti.",
+                "examples": [
+                    "Si spoglia e va a letto.",
+                    "Spogliati e fai il bagno."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "spogliato",
+        "group": "riflessivo",
+        "auxiliary": "essere",
+        "opposite": "vestirsi"
+    },
+    {
+        "word": "riempire",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🫗",
+        "form": "verb",
+        "transcription": "riemˈpire",
+        "definitions": [
+            {
+                "text": "Rendere pieno qualcosa.",
+                "examples": [
+                    "Per favore riempi il bicchiere d'acqua.",
+                    "Riempi il modulo con i tuoi dati."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "riempito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "desiderare",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤞",
+        "form": "verb",
+        "transcription": "dezideˈrare",
+        "definitions": [
+            {
+                "text": "Volere qualcosa che si ritiene piacevole o necessario.",
+                "examples": [
+                    "Desidero un po' di pace.",
+                    "Cosa desidera per cena?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v3": "desiderato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "descrivere",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "verb",
+        "transcription": "deˈskrivere",
+        "definitions": [
+            {
+                "text": "Dire o scrivere com'è qualcuno o qualcosa.",
+                "examples": [
+                    "Puoi descrivere la tua casa?",
+                    "Ha descritto il suo viaggio nei minimi dettagli."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "descritto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "annotare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "transcription": "annoˈtare",
+        "definitions": [
+            {
+                "text": "Scrivere qualcosa per ricordarsene.",
+                "examples": [
+                    "Annota l'ora dell'appuntamento.",
+                    "Prendi appunti durante la lezione."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "annotato",
+        "group": "are",
+        "auxiliary": "avere"
     }
 ];
     const lang = "it";
