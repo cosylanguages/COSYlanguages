@@ -44,16 +44,30 @@ const SM2 = {
   // Pick items for a session, weighted by urgency
   selectItems(allItems, pool, language, sessionSize = 20) {
     const now = Date.now();
-    return pool.sort((a, b) => {
+
+    // 1. Shuffle the pool first to ensure randomness among items with identical scores
+    const shuffledPool = [...pool];
+    for (let i = shuffledPool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledPool[i], shuffledPool[j]] = [shuffledPool[j], shuffledPool[i]];
+    }
+
+    return shuffledPool.sort((a, b) => {
       const idA = language + '::' + (a.word || a.text || a.topic || a.digit);
       const idB = language + '::' + (b.word || b.text || b.topic || b.digit);
       const ia = allItems[idA] || {nextReview: 0, easeFactor: 2.5};
       const ib = allItems[idB] || {nextReview: 0, easeFactor: 2.5};
+
       // Overdue items first, then by ease factor (harder items = lower ease)
-      const urgencyA = Math.max(0, now - ia.nextReview) / 86400000;
-      const urgencyB = Math.max(0, now - ib.nextReview) / 86400000;
-      const easeA = 5 - ia.easeFactor; // lower ease = higher priority
+      // We add a tiny random jitter (0-0.1) to break ties even after shuffle
+      const jitterA = Math.random() * 0.1;
+      const jitterB = Math.random() * 0.1;
+
+      const urgencyA = (Math.max(0, now - ia.nextReview) / 86400000) + jitterA;
+      const urgencyB = (Math.max(0, now - ib.nextReview) / 86400000) + jitterB;
+      const easeA = 5 - ia.easeFactor;
       const easeB = 5 - ib.easeFactor;
+
       return (urgencyB + easeB) - (urgencyA + easeA);
     }).slice(0, sessionSize);
   }
@@ -142,9 +156,15 @@ function smartTaskType(itemId, language, preferredType) {
 
   let result = pref;
 
-  if (!item || item.repetitions < 2) {
-    // New item: use easiest task type
-    result = 'multipleChoice';
+  if (!item || item.repetitions < 1) {
+    // New item: allow preferred type immediately if it's not a 'hard' typing task,
+    // otherwise 50% chance to start with something easier like MC.
+    const hardTypingTypes = ['cloze', 'opposite', 'type-cl', 'type-op'];
+    if (hardTypingTypes.includes(pref)) {
+      result = Math.random() > 0.5 ? 'multipleChoice' : pref;
+    } else {
+      result = pref;
+    }
   } else if (item.repetitions < 5 && item.easeFactor > 2.0) {
     // Known but not mastered: use preferred type
     result = pref || 'multipleChoice';
