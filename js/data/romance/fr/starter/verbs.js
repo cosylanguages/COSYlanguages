@@ -1,12 +1,15 @@
 (function() {
     const data = [
+
     {
         "word": "être",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👤",
         "subtext": "être prêt / être fatigué / être ouvert",
-        "synonyms": ["à la maison"],
+        "synonyms": [
+            "à la maison"
+        ],
         "form": "verb",
         "transcription": "ɛtʁ",
         "definitions": [
@@ -129,7 +132,10 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "obtenir un travail",
-        "synonyms": ["se fatiguer", "s améliorer"],
+        "synonyms": [
+            "se fatiguer",
+            "s améliorer"
+        ],
         "form": "verb",
         "transcription": "ɔb.tə.niʁ",
         "definitions": [
@@ -154,7 +160,10 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "mettre",
-        "synonyms": ["ranger", "poser le téléphone"],
+        "synonyms": [
+            "ranger",
+            "poser le téléphone"
+        ],
         "form": "verb",
         "transcription": "mɛtʁ",
         "definitions": [
@@ -178,7 +187,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "faire du café / faire une erreur",
-        "synonyms": ["prendre une décision"],
+        "synonyms": [
+            "prendre une décision"
+        ],
         "form": "verb",
         "transcription": "fɛʁ",
         "definitions": [
@@ -413,7 +424,9 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "trouver un travail / trouver cela difficile",
-        "synonyms": ["découvrir"],
+        "synonyms": [
+            "découvrir"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -436,7 +449,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "garder une trace",
-        "synonyms": ["continuer", "rester silencieux"],
+        "synonyms": [
+            "continuer",
+            "rester silencieux"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -484,7 +500,10 @@
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "couper en deux",
-        "synonyms": ["réduire les coûts", "réduire les dépenses"],
+        "synonyms": [
+            "réduire les coûts",
+            "réduire les dépenses"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -507,7 +526,10 @@
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "tourner à gauche / tourner à droite",
-        "synonyms": ["allumer", "éteindre"],
+        "synonyms": [
+            "allumer",
+            "éteindre"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -574,7 +596,9 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "dire la vérité / dire à quelqu un",
-        "synonyms": ["raconter une histoire"],
+        "synonyms": [
+            "raconter une histoire"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -597,7 +621,9 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "demander de l aide / demander à propos de",
-        "synonyms": ["poser une question"],
+        "synonyms": [
+            "poser une question"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -664,7 +690,10 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "appeler quelqu un",
-        "synonyms": ["rappeler", "convoquer une réunion"],
+        "synonyms": [
+            "rappeler",
+            "convoquer une réunion"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -801,7 +830,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "aller au travail / aller à la maison",
-        "synonyms": ["sortir"],
+        "synonyms": [
+            "sortir"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -824,7 +855,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "rentrer à la maison / venir au travail",
-        "synonyms": ["revenir"],
+        "synonyms": [
+            "revenir"
+        ],
         "opposite": "aller",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -849,7 +882,9 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "marcher au travail / marcher vite",
-        "synonyms": ["rentrer à pied"],
+        "synonyms": [
+            "rentrer à pied"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -872,7 +907,9 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "conduire au travail / conduire une voiture",
-        "synonyms": ["rentrer en voiture"],
+        "synonyms": [
+            "rentrer en voiture"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -939,7 +976,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "partir tôt",
-        "synonyms": ["quitter la maison", "quitter le travail"],
+        "synonyms": [
+            "quitter la maison",
+            "quitter le travail"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -962,7 +1002,10 @@
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "emménager dans une ville",
-        "synonyms": ["déménager", "continuer"],
+        "synonyms": [
+            "déménager",
+            "continuer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -985,7 +1028,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "rentrer à la maison",
-        "synonyms": ["retourner au travail"],
+        "synonyms": [
+            "retourner au travail"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1030,7 +1075,11 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "",
-        "synonyms": ["prendre le petit-déjeuner", "déjeuner", "dîner"],
+        "synonyms": [
+            "prendre le petit-déjeuner",
+            "déjeuner",
+            "dîner"
+        ],
         "opposite": "boire",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1103,7 +1152,9 @@
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "cuisiner un repas",
-        "synonyms": ["préparer le dîner"],
+        "synonyms": [
+            "préparer le dîner"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1170,7 +1221,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "laver les vêtements / se laver les mains",
-        "synonyms": ["faire la vaisselle"],
+        "synonyms": [
+            "faire la vaisselle"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1239,7 +1292,9 @@
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "dépenser de l argent",
-        "synonyms": ["passer du temps"],
+        "synonyms": [
+            "passer du temps"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1332,7 +1387,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "penser à / penser de",
-        "synonyms": ["réfléchir attentivement"],
+        "synonyms": [
+            "réfléchir attentivement"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1355,7 +1412,10 @@
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "savoir comment",
-        "synonyms": ["connaître quelqu un", "connaître la réponse"],
+        "synonyms": [
+            "connaître quelqu un",
+            "connaître la réponse"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1401,7 +1461,11 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "",
-        "synonyms": ["besoin d aide", "besoin de temps", "besoin d argent"],
+        "synonyms": [
+            "besoin d aide",
+            "besoin de temps",
+            "besoin d argent"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1448,7 +1512,11 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "",
-        "synonyms": ["aimer quelqu un", "aimer faire", "aimer un lieu"],
+        "synonyms": [
+            "aimer quelqu un",
+            "aimer faire",
+            "aimer un lieu"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1581,7 +1649,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "décider de faire / se décider pour",
-        "synonyms": ["prendre une décision"],
+        "synonyms": [
+            "prendre une décision"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1716,7 +1786,10 @@
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "regarder",
-        "synonyms": ["chercher", "ressembler à"],
+        "synonyms": [
+            "chercher",
+            "ressembler à"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1761,7 +1834,9 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "courir / courir une course",
-        "synonyms": ["diriger une entreprise"],
+        "synonyms": [
+            "diriger une entreprise"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1808,7 +1883,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "se tenir debout",
-        "synonyms": ["se lever", "être debout"],
+        "synonyms": [
+            "se lever",
+            "être debout"
+        ],
         "opposite": "s asseoir",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1988,7 +2066,9 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "mourir / mourir de",
-        "synonyms": ["s éteindre"],
+        "synonyms": [
+            "s éteindre"
+        ],
         "opposite": "vivre",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2056,7 +2136,9 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "tomber / tomber amoureux",
-        "synonyms": ["s endormir"],
+        "synonyms": [
+            "s endormir"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2124,7 +2206,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "tirer / tirer la porte",
-        "synonyms": ["s éloigner"],
+        "synonyms": [
+            "s éloigner"
+        ],
         "opposite": "pousser",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2194,7 +2278,9 @@
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "casser / casser le verre",
-        "synonyms": ["faire une pause"],
+        "synonyms": [
+            "faire une pause"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2485,7 +2571,10 @@
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "faire le trajet",
-        "synonyms": ["trajet quotidien", "long trajet"],
+        "synonyms": [
+            "trajet quotidien",
+            "long trajet"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2617,7 +2706,9 @@
             }
         ],
         "subtext": "petit-déjeuner à la maison",
-        "synonyms": ["sauter le petit-déjeuner"],
+        "synonyms": [
+            "sauter le petit-déjeuner"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "pris le petit-déjeuner",
@@ -2744,7 +2835,9 @@
             }
         ],
         "subtext": "assister à une réunion / assister à un événement",
-        "synonyms": ["suivre un cours"],
+        "synonyms": [
+            "suivre un cours"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "assisté",
@@ -2934,7 +3027,9 @@
             }
         ],
         "subtext": "se faire mal au dos / faire mal à quelqu un",
-        "synonyms": ["ça fait mal"],
+        "synonyms": [
+            "ça fait mal"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v3": "fait mal",
@@ -3019,7 +3114,9 @@
             }
         ],
         "subtext": "faire sa valise / faire des bagages légers",
-        "synonyms": ["faire son sac"],
+        "synonyms": [
+            "faire son sac"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait sa valise",
@@ -3120,7 +3217,9 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "remercier quelqu un / remercier pour",
-        "synonyms": ["un grand merci"],
+        "synonyms": [
+            "un grand merci"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3184,7 +3283,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "réparer quelque chose / faire réparer",
-        "synonyms": ["frais de réparation"],
+        "synonyms": [
+            "frais de réparation"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3206,7 +3307,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "que s est-il passé / arriver à quelqu un",
-        "synonyms": ["ça arrive"],
+        "synonyms": [
+            "ça arrive"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3312,7 +3415,10 @@
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "croître rapidement",
-        "synonyms": ["développer une entreprise", "se transformer en"],
+        "synonyms": [
+            "développer une entreprise",
+            "se transformer en"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3334,7 +3440,9 @@
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "inclure quelque chose / inclure dans",
-        "synonyms": ["non inclus"],
+        "synonyms": [
+            "non inclus"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3377,7 +3485,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "appartenir à quelqu un / appartenir à",
-        "synonyms": ["avoir sa place"],
+        "synonyms": [
+            "avoir sa place"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3420,7 +3530,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "construire une carrière / construire une équipe",
-        "synonyms": ["instaurer la confiance"],
+        "synonyms": [
+            "instaurer la confiance"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -4468,6 +4580,46 @@
         "group": "er",
         "auxiliary": "avoir"
     },
+    {
+        "word": "produire",
+        "level": "starter",
+        "theme": "work_employment_A1",
+        "form": "verb",
+        "transcription": "pʁɔ.dɥiʁ",
+        "group": "re",
+        "classification": "irregular",
+        "v3": "produit",
+        "auxiliary": "avoir",
+        "subtext": "produire un effet",
+        "definitions": [
+            {
+                "text": "Créer ou fabriquer quelque chose.",
+                "examples": [
+                    "Cette usine produit des voitures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "projeter",
+        "level": "starter",
+        "theme": "work_employment_A1",
+        "form": "verb",
+        "transcription": "pʁɔ.ʒte",
+        "group": "er",
+        "classification": "regular",
+        "v3": "projeté",
+        "auxiliary": "avoir",
+        "subtext": "projeter un film",
+        "definitions": [
+            {
+                "text": "Former le projet de faire quelque chose.",
+                "examples": [
+                    "Nous projetons de partir en voyage."
+                ]
+            }
+        ]
+    }
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};

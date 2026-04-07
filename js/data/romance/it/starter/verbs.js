@@ -1,5 +1,6 @@
 (function() {
     const data = [
+
     {
         "word": "essere",
         "level": "starter",
@@ -4697,7 +4698,7 @@
     {
         "word": "toccare",
         "level": "starter",
-        "theme": "five_senses_A1",
+        "theme": "health_body_A1",
         "emoji": "🫫",
         "form": "verb",
         "definitions": [
@@ -5209,6 +5210,117 @@
         "v3": "annotato",
         "group": "are",
         "auxiliary": "avere"
+    },
+    {
+        "word": "produrre",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🏭",
+        "form": "verb",
+        "transcription": "proˈdurre",
+        "definitions": [
+            {
+                "text": "Creare o fabbricare qualcosa.",
+                "examples": [
+                    "L'azienda produce auto."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "prodotto",
+        "group": "urre",
+        "auxiliary": "avere",
+        "subtext": ""
+    },
+    {
+        "word": "progettare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📐",
+        "form": "verb",
+        "transcription": "prodʒetˈtare",
+        "definitions": [
+            {
+                "text": "Fare un progetto per qualcosa.",
+                "examples": [
+                    "L'ingegnere progetta un ponte."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "progettato",
+        "group": "are",
+        "auxiliary": "avere",
+        "subtext": ""
+    },
+    {
+        "word": "funzionare",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "⚙️",
+        "form": "verb",
+        "transcription": "funtsjoˈnare",
+        "definitions": [
+            {
+                "text": "Operare correttamente.",
+                "examples": [
+                    "Il computer non funziona."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v3": "funzionato",
+        "group": "are",
+        "auxiliary": "avere",
+        "subtext": ""
+    },
+    {
+        "word": "smettere",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛑",
+        "form": "verb",
+        "transcription": "ˈzmettere",
+        "definitions": [
+            {
+                "text": "Finire di fare qualcosa.",
+                "examples": [
+                    "Smetti di parlare!",
+                    "Ha smesso di piovere."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "smesso",
+        "group": "ere",
+        "auxiliary": "avere",
+        "subtext": "smettere di"
+    },
+    {
+        "word": "completare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✅",
+        "form": "verb",
+        "transcription": "kompleˈtare",
+        "definitions": [
+            {
+                "text": "Rendere completo qualcosa.",
+                "examples": [
+                    "Completa il modulo, per favore."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "completato",
+        "group": "are",
+        "auxiliary": "avere",
+        "subtext": ""
     }
 ];
     const lang = "it";

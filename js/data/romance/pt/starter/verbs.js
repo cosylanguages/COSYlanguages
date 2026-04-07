@@ -1,12 +1,17 @@
 (function() {
     const data = [
+
     {
         "word": "ser",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👤",
         "subtext": "ser feliz",
-        "synonyms": ["estar cansado", "estar no trabalho", "estar pronto"],
+        "synonyms": [
+            "estar cansado",
+            "estar no trabalho",
+            "estar pronto"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -30,7 +35,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "ter um emprego / ter um problema / ter tempo",
-        "synonyms": ["almoçar"],
+        "synonyms": [
+            "almoçar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -101,7 +108,11 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "tomar remédios",
-        "synonyms": ["apanhar o autocarro", "fazer uma pausa", "levar tempo"],
+        "synonyms": [
+            "apanhar o autocarro",
+            "fazer uma pausa",
+            "levar tempo"
+        ],
         "opposite": "dar",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -127,7 +138,12 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["conseguir um emprego", "ficar cansado", "melhorar", "chegar a casa"],
+        "synonyms": [
+            "conseguir um emprego",
+            "ficar cansado",
+            "melhorar",
+            "chegar a casa"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -152,7 +168,11 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "pôr",
-        "synonyms": ["arrumar", "desligar o telefone", "poupar dinheiro"],
+        "synonyms": [
+            "arrumar",
+            "desligar o telefone",
+            "poupar dinheiro"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -176,7 +196,11 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "fazer café",
-        "synonyms": ["tomar uma decisão", "cometer um erro", "ganhar dinheiro"],
+        "synonyms": [
+            "tomar uma decisão",
+            "cometer um erro",
+            "ganhar dinheiro"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -346,7 +370,10 @@
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "ajudar alguém / ajudar com uma tarefa",
-        "synonyms": ["dar uma mão", "pedir ajuda"],
+        "synonyms": [
+            "dar uma mão",
+            "pedir ajuda"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -369,7 +396,10 @@
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "tentar fazer / tentar algo novo",
-        "synonyms": ["esforçar-se", "experimentar"],
+        "synonyms": [
+            "esforçar-se",
+            "experimentar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -414,7 +444,10 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "encontrar um emprego / encontrar tempo",
-        "synonyms": ["descobrir", "achar difícil"],
+        "synonyms": [
+            "descobrir",
+            "achar difícil"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -438,7 +471,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "manter-se calado / manter um registo / manter o contacto",
-        "synonyms": ["continuar"],
+        "synonyms": [
+            "continuar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -487,7 +522,9 @@
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "cortar custos / cortar gastos / cortar ao meio",
-        "synonyms": ["interromper"],
+        "synonyms": [
+            "interromper"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -511,7 +548,10 @@
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "virar à esquerda / virar à direita",
-        "synonyms": ["ligar", "desligar"],
+        "synonyms": [
+            "ligar",
+            "desligar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -535,7 +575,9 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "trazer alguém / trazer comida / trazer um documento",
-        "synonyms": ["mencionar"],
+        "synonyms": [
+            "mencionar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -582,7 +624,10 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "contar uma história / contar a alguém sobre",
-        "synonyms": ["dizer a verdade", "dizer a alguém"],
+        "synonyms": [
+            "dizer a verdade",
+            "dizer a alguém"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -605,7 +650,10 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "perguntar sobre / perguntar a alguém",
-        "synonyms": ["fazer uma pergunta", "pedir ajuda"],
+        "synonyms": [
+            "fazer uma pergunta",
+            "pedir ajuda"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -673,7 +721,10 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "ligar para alguém / ligar a dizer que está doente",
-        "synonyms": ["retribuir a chamada", "convocar uma reunião"],
+        "synonyms": [
+            "retribuir a chamada",
+            "convocar uma reunião"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -696,7 +747,9 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "escrever um e-mail / escrever um relatório / escrever uma carta",
-        "synonyms": ["tirar notas"],
+        "synonyms": [
+            "tirar notas"
+        ],
         "opposite": "ler",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -770,7 +823,9 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "responder a uma pergunta / responder a um e-mail",
-        "synonyms": ["atender o telefone"],
+        "synonyms": [
+            "atender o telefone"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -817,7 +872,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "ir para o trabalho / ir para casa / ir às compras",
-        "synonyms": ["sair"],
+        "synonyms": [
+            "sair"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -841,7 +898,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "vir para casa / vir para o trabalho / vir aqui",
-        "synonyms": ["voltar"],
+        "synonyms": [
+            "voltar"
+        ],
         "opposite": "ir",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -958,7 +1017,12 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "",
-        "synonyms": ["sair de casa", "sair do trabalho", "sair cedo", "sair tarde"],
+        "synonyms": [
+            "sair de casa",
+            "sair do trabalho",
+            "sair cedo",
+            "sair tarde"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -981,7 +1045,11 @@
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "mudar-se para um novo lugar",
-        "synonyms": ["instalar-se", "mudar-se", "mudar de casa"],
+        "synonyms": [
+            "instalar-se",
+            "mudar-se",
+            "mudar de casa"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1004,7 +1072,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "voltar a casa / voltar ao trabalho / voltar de",
-        "synonyms": ["retribuir uma chamada"],
+        "synonyms": [
+            "retribuir uma chamada"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1050,7 +1120,11 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "comer fora",
-        "synonyms": ["tomar o pequeno-almoço", "almoçar", "jantar"],
+        "synonyms": [
+            "tomar o pequeno-almoço",
+            "almoçar",
+            "jantar"
+        ],
         "opposite": "beber",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1148,7 +1222,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "limpar o apartamento / limpar a cozinha / limpar regularmente",
-        "synonyms": ["arrumar"],
+        "synonyms": [
+            "arrumar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1171,7 +1247,9 @@
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
         "subtext": "vestir um fato / vestir roupa informal",
-        "synonyms": ["usar óculos"],
+        "synonyms": [
+            "usar óculos"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1265,7 +1343,9 @@
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "gastar dinheiro / gastar em comida / gastar na renda",
-        "synonyms": ["passar tempo"],
+        "synonyms": [
+            "passar tempo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1382,7 +1462,10 @@
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "saber a resposta / saber como",
-        "synonyms": ["conhecer alguém", "conhecer um lugar"],
+        "synonyms": [
+            "conhecer alguém",
+            "conhecer um lugar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1525,7 +1608,9 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "esperar / esperar fazer / esperar que",
-        "synonyms": ["espero que sim"],
+        "synonyms": [
+            "espero que sim"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1618,7 +1703,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decidir fazer / decidir sobre / difícil de decidir",
-        "synonyms": ["tomar uma decisão"],
+        "synonyms": [
+            "tomar uma decisão"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1735,7 +1822,12 @@
         "emoji": "📺",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["ver televisão", "ver um filme", "ver as notícias", "observar atentamente"],
+        "synonyms": [
+            "ver televisão",
+            "ver um filme",
+            "ver as notícias",
+            "observar atentamente"
+        ],
         "definitions": [
             {
                 "text": "Olhar para algo por um período de tempo.",
@@ -1757,7 +1849,11 @@
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "olhar para",
-        "synonyms": ["procurar", "parecer-se com", "parecer feliz"],
+        "synonyms": [
+            "procurar",
+            "parecer-se com",
+            "parecer feliz"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1781,7 +1877,11 @@
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "jogar um jogo",
-        "synonyms": ["praticar desporto", "tocar música", "desempenhar um papel"],
+        "synonyms": [
+            "praticar desporto",
+            "tocar música",
+            "desempenhar um papel"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1804,7 +1904,11 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "correr uma corrida",
-        "synonyms": ["gerir um negócio", "ficar sem", "chegar tarde"],
+        "synonyms": [
+            "gerir um negócio",
+            "ficar sem",
+            "chegar tarde"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1828,7 +1932,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "sentar-se / sentar-se a uma secretária / sentar-se em silêncio",
-        "synonyms": ["estar numa reunião"],
+        "synonyms": [
+            "estar numa reunião"
+        ],
         "opposite": "estar de pé",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1853,7 +1959,12 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "",
-        "synonyms": ["levantar-se", "estar numa fila", "apoiar", "destacar-se"],
+        "synonyms": [
+            "levantar-se",
+            "estar numa fila",
+            "apoiar",
+            "destacar-se"
+        ],
         "opposite": "sentar",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1891,7 +2002,11 @@
         "v2": "conheci",
         "v3": "conhecido",
         "subtext": "conhecer-se on-line",
-        "synonyms": ["encontrar um cliente", "encontrar um colega", "encontrar-se para almoçar"],
+        "synonyms": [
+            "encontrar um cliente",
+            "encontrar um colega",
+            "encontrar-se para almoçar"
+        ],
         "group": "irregular",
         "auxiliary": "ter"
     },
@@ -1967,7 +2082,9 @@
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "adicionar açúcar / adicionar a / adicionar um comentário",
-        "synonyms": ["somar"],
+        "synonyms": [
+            "somar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2037,7 +2154,9 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "morrer de / morrer por / morrer de...",
-        "synonyms": ["extinguir-se"],
+        "synonyms": [
+            "extinguir-se"
+        ],
         "opposite": "viver",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2107,7 +2226,10 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "cair / cair de",
-        "synonyms": ["apaixonar-se", "adormecer"],
+        "synonyms": [
+            "apaixonar-se",
+            "adormecer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2154,7 +2276,9 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "vender produtos / vender on-line / vender no mercado",
-        "synonyms": ["campeão de vendas"],
+        "synonyms": [
+            "campeão de vendas"
+        ],
         "opposite": "comprar",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2179,7 +2303,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "puxar a porta / puxar algo",
-        "synonyms": ["encostar", "arrancar"],
+        "synonyms": [
+            "encostar",
+            "arrancar"
+        ],
         "opposite": "empurrar",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2204,7 +2331,11 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "empurrar um carrinho",
-        "synonyms": ["carregar no botão", "afastar", "levar por diante"],
+        "synonyms": [
+            "carregar no botão",
+            "afastar",
+            "levar por diante"
+        ],
         "opposite": "puxar",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2230,7 +2361,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "levar uma mala / levar notas",
-        "synonyms": ["realizar", "continuar"],
+        "synonyms": [
+            "realizar",
+            "continuar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2253,7 +2387,12 @@
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "",
-        "synonyms": ["partir o vidro", "infringir uma lei", "fazer uma pausa", "avariar"],
+        "synonyms": [
+            "partir o vidro",
+            "infringir uma lei",
+            "fazer uma pausa",
+            "avariar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2300,7 +2439,10 @@
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "concordar com alguém / concordar em fazer",
-        "synonyms": ["chegar a acordo", "eu concordo"],
+        "synonyms": [
+            "chegar a acordo",
+            "eu concordo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2324,7 +2466,11 @@
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "desenhar um quadro",
-        "synonyms": ["tirar uma conclusão", "atrair a atenção", "traçar uma linha"],
+        "synonyms": [
+            "tirar uma conclusão",
+            "atrair a atenção",
+            "traçar uma linha"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2371,7 +2517,9 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "sorrir para alguém / sorrir abertamente",
-        "synonyms": ["um grande sorriso"],
+        "synonyms": [
+            "um grande sorriso"
+        ],
         "opposite": "chorar",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2397,7 +2545,10 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "começar a chorar / chorar por algo",
-        "synonyms": ["pedir socorro", "gritar"],
+        "synonyms": [
+            "pedir socorro",
+            "gritar"
+        ],
         "opposite": "sorrir",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2423,7 +2574,9 @@
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "dançar ao som da música / ir dançar / dançar juntos",
-        "synonyms": ["dança lenta"],
+        "synonyms": [
+            "dança lenta"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2447,7 +2600,9 @@
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "cantar uma canção / acompanhar a cantar / cantar bem",
-        "synonyms": ["vocalista"],
+        "synonyms": [
+            "vocalista"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2494,7 +2649,10 @@
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "ir nadar / nadar bem",
-        "synonyms": ["atravessar a nado", "fazer piscinas"],
+        "synonyms": [
+            "atravessar a nado",
+            "fazer piscinas"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2518,7 +2676,9 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "estudar inglês / estudar para um exame / estudar muito",
-        "synonyms": ["auto-estudo"],
+        "synonyms": [
+            "auto-estudo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2541,7 +2701,9 @@
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "ensinar alguém / ensinar uma matéria / ensinar como",
-        "synonyms": ["dar uma aula"],
+        "synonyms": [
+            "dar uma aula"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2564,7 +2726,11 @@
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "deslocar-se para o trabalho",
-        "synonyms": ["trajecto diário", "trajecto longo", "deslocar-se de comboio"],
+        "synonyms": [
+            "trajecto diário",
+            "trajecto longo",
+            "deslocar-se de comboio"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2702,7 +2868,9 @@
             }
         ],
         "subtext": "tomar o pequeno-almoço em casa / tomar um pequeno-almoço rápido",
-        "synonyms": ["saltar o pequeno-almoço"],
+        "synonyms": [
+            "saltar o pequeno-almoço"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "tomei o pequeno-almoço",
@@ -2769,7 +2937,9 @@
             }
         ],
         "subtext": "verificar e-mails / verificar mensagens / verificar um documento",
-        "synonyms": ["ver as horas"],
+        "synonyms": [
+            "ver as horas"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "verifiquei",
@@ -2836,7 +3006,9 @@
             }
         ],
         "subtext": "assistir a uma reunião / assistir a um evento",
-        "synonyms": ["frequentar um curso"],
+        "synonyms": [
+            "frequentar um curso"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "assisti",
@@ -2903,7 +3075,9 @@
             }
         ],
         "subtext": "ter dinheiro para uma casa / ter meios para algo",
-        "synonyms": ["poder viajar"],
+        "synonyms": [
+            "poder viajar"
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "tive meios para",
@@ -3036,7 +3210,9 @@
             }
         ],
         "subtext": "magoar as costas / magoar alguém / magoar-se",
-        "synonyms": ["dói"],
+        "synonyms": [
+            "dói"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v2": "magoei",
@@ -3059,7 +3235,9 @@
             }
         ],
         "subtext": "descansar em casa / descansar depois do trabalho / descansar um pouco",
-        "synonyms": ["precisar de descanso"],
+        "synonyms": [
+            "precisar de descanso"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "descansei",
@@ -3126,7 +3304,10 @@
             }
         ],
         "subtext": "fazer as malas",
-        "synonyms": ["fazer a mala", "levar pouca bagagem"],
+        "synonyms": [
+            "fazer a mala",
+            "levar pouca bagagem"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "fiz as malas",
@@ -3171,7 +3352,9 @@
             }
         ],
         "subtext": "perder um comboio / perder um voo / sentir falta de alguém",
-        "synonyms": ["faltar ao trabalho"],
+        "synonyms": [
+            "faltar ao trabalho"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "perdi",
@@ -3189,7 +3372,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📦",
         "subtext": "encomendar comida / encomendar on-line / encomendar material",
-        "synonyms": ["pedir uma bebida"],
+        "synonyms": [
+            "pedir uma bebida"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3234,7 +3419,10 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "agradecer a alguém",
-        "synonyms": ["obrigado por", "muito obrigado"],
+        "synonyms": [
+            "obrigado por",
+            "muito obrigado"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3301,7 +3489,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "reparar algo / mandar reparar",
-        "synonyms": ["custos de reparação"],
+        "synonyms": [
+            "custos de reparação"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3324,7 +3514,10 @@
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "acontecer a alguém / acontecer novamente",
-        "synonyms": ["o que aconteceu", "acontece"],
+        "synonyms": [
+            "o que aconteceu",
+            "acontece"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3369,7 +3562,10 @@
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "significar algo / não foi por mal",
-        "synonyms": ["o que significa", "querer dizer"],
+        "synonyms": [
+            "o que significa",
+            "querer dizer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3392,7 +3588,10 @@
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "seguir instruções / seguir alguém",
-        "synonyms": ["acompanhar as notícias", "fazer o acompanhamento"],
+        "synonyms": [
+            "acompanhar as notícias",
+            "fazer o acompanhamento"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3437,7 +3636,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "fazer crescer um negócio / crescer rapidamente / crescer em...",
-        "synonyms": ["tornar-se"],
+        "synonyms": [
+            "tornar-se"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3460,7 +3661,10 @@
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "incluir algo / incluir em",
-        "synonyms": ["não incluído", "o preço inclui"],
+        "synonyms": [
+            "não incluído",
+            "o preço inclui"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3505,7 +3709,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "pertencer a alguém / pertencer a",
-        "synonyms": ["sentir-se integrado"],
+        "synonyms": [
+            "sentir-se integrado"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3550,7 +3756,11 @@
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "construir uma carreira",
-        "synonyms": ["formar uma equipa", "ganhar experiência", "criar confiança"],
+        "synonyms": [
+            "formar uma equipa",
+            "ganhar experiência",
+            "criar confiança"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3566,6 +3776,46 @@
         "v3": "construído",
         "group": "irregular",
         "auxiliary": "ter"
+    },
+    {
+        "word": "produzir",
+        "level": "starter",
+        "theme": "work_employment_A1",
+        "form": "verb",
+        "transcription": "pɾu.ðu.ˈziɾ",
+        "group": "ir",
+        "classification": "irregular",
+        "v3": "produzido",
+        "auxiliary": "ter",
+        "subtext": "produzir resultados",
+        "definitions": [
+            {
+                "text": "Criar ou fabricar algo.",
+                "examples": [
+                    "Portugal produz muito vinho."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "projetar",
+        "level": "starter",
+        "theme": "work_employment_A1",
+        "form": "verb",
+        "transcription": "pɾu.ʒɛ.ˈtaɾ",
+        "group": "ar",
+        "classification": "regular",
+        "v3": "projetado",
+        "auxiliary": "ter",
+        "subtext": "projetar uma casa",
+        "definitions": [
+            {
+                "text": "Planear ou idear um projeto.",
+                "examples": [
+                    "Eles projetam viajar pelo mundo."
+                ]
+            }
+        ]
     }
 ];
     const lang = "pt";

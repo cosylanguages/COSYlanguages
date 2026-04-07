@@ -1,5 +1,6 @@
 (function() {
     const data = [
+
     {
         "word": "medico",
         "level": "starter",
@@ -5687,7 +5688,7 @@
     {
         "word": "ragazzo",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
@@ -5711,7 +5712,7 @@
     {
         "word": "ragazza",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -6167,7 +6168,7 @@
     {
         "word": "adulto",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
@@ -6853,7 +6854,7 @@
     {
         "word": "gente",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
@@ -10563,7 +10564,7 @@
     {
         "word": "questo",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "adjective",
         "transcription": "ˈkwesto",
         "feminine": "questa",
@@ -10587,7 +10588,7 @@
     {
         "word": "quello",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "adjective",
         "transcription": "ˈkwello",
         "feminine": "quella",
@@ -10611,7 +10612,7 @@
     {
         "word": "un",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈun",
         "definitions": [
@@ -10630,7 +10631,7 @@
     {
         "word": "una",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈuna",
         "definitions": [
@@ -10649,7 +10650,7 @@
     {
         "word": "il",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈil",
         "definitions": [
@@ -10668,7 +10669,7 @@
     {
         "word": "la",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈla",
         "definitions": [
@@ -10899,7 +10900,7 @@
     {
         "word": "con",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "preposition",
         "transcription": "ˈkon",
         "definitions": [
@@ -10920,7 +10921,7 @@
     {
         "word": "per",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "preposition",
         "transcription": "ˈper",
         "definitions": [
@@ -10939,7 +10940,7 @@
     {
         "word": "persona",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
@@ -11416,7 +11417,7 @@
     {
         "word": "di",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "preposition",
         "transcription": "ˈdi",
         "definitions": [
@@ -11435,7 +11436,7 @@
     {
         "word": "da",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "preposition",
         "transcription": "ˈda",
         "definitions": [
@@ -11496,7 +11497,7 @@
     {
         "word": "uno",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈuno",
         "definitions": [
@@ -11515,7 +11516,7 @@
     {
         "word": "lo",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈlo",
         "definitions": [
@@ -11534,7 +11535,7 @@
     {
         "word": "gli",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈʎi",
         "definitions": [
@@ -11553,7 +11554,7 @@
     {
         "word": "le",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "form": "determiner",
         "transcription": "ˈle",
         "definitions": [
@@ -12777,7 +12778,8 @@
                 ]
             }
         ],
-        "transcription": "mateˈmatika"
+        "transcription": "mateˈmatika",
+        "partitive": "della"
     },
     {
         "word": "storia",
@@ -12797,7 +12799,8 @@
                 ]
             }
         ],
-        "transcription": "ˈstɔrja"
+        "transcription": "ˈstɔrja",
+        "partitive": "della"
     },
     {
         "word": "scienza",
@@ -12817,7 +12820,8 @@
                 ]
             }
         ],
-        "transcription": "ˈʃɛntsa"
+        "transcription": "ˈʃɛntsa",
+        "partitive": "della"
     },
     {
         "word": "geografia",
@@ -12837,12 +12841,13 @@
                 ]
             }
         ],
-        "transcription": "dʒeograˈfia"
+        "transcription": "dʒeograˈfia",
+        "partitive": "della"
     },
     {
         "word": "leone",
         "level": "starter",
-        "theme": "wild_animals_A1",
+        "theme": "animals_A1",
         "emoji": "🦁",
         "form": "noun",
         "gender": "masculine",
@@ -12858,12 +12863,13 @@
                 ]
             }
         ],
-        "transcription": "leˈone"
+        "transcription": "leˈone",
+        "partitive": "del"
     },
     {
         "word": "elefante",
         "level": "starter",
-        "theme": "wild_animals_A1",
+        "theme": "animals_A1",
         "emoji": "🐘",
         "form": "noun",
         "gender": "masculine",
@@ -12879,12 +12885,13 @@
                 ]
             }
         ],
-        "transcription": "eleˈfante"
+        "transcription": "eleˈfante",
+        "partitive": "dell'"
     },
     {
         "word": "tigre",
         "level": "starter",
-        "theme": "wild_animals_A1",
+        "theme": "animals_A1",
         "emoji": "🐅",
         "form": "noun",
         "gender": "feminine",
@@ -12900,12 +12907,13 @@
                 ]
             }
         ],
-        "transcription": "ˈtiɡre"
+        "transcription": "ˈtiɡre",
+        "partitive": "della"
     },
     {
         "word": "scimmia",
         "level": "starter",
-        "theme": "wild_animals_A1",
+        "theme": "animals_A1",
         "emoji": "🐒",
         "form": "noun",
         "gender": "feminine",
@@ -12921,7 +12929,8 @@
                 ]
             }
         ],
-        "transcription": "ˈʃimmja"
+        "transcription": "ˈʃimmja",
+        "partitive": "della"
     },
     {
         "word": "squalo",
@@ -12942,7 +12951,8 @@
                 ]
             }
         ],
-        "transcription": "ˈskwalo"
+        "transcription": "ˈskwalo",
+        "partitive": "dello"
     },
     {
         "word": "balena",
@@ -12963,7 +12973,8 @@
                 ]
             }
         ],
-        "transcription": "baˈlena"
+        "transcription": "baˈlena",
+        "partitive": "della"
     },
     {
         "word": "cerchio",
@@ -12984,7 +12995,8 @@
                 ]
             }
         ],
-        "transcription": "ˈtʃerkjo"
+        "transcription": "ˈtʃerkjo",
+        "partitive": "del"
     },
     {
         "word": "triangolo",
@@ -13005,7 +13017,8 @@
                 ]
             }
         ],
-        "transcription": "triˈanɡolo"
+        "transcription": "triˈanɡolo",
+        "partitive": "del"
     },
     {
         "word": "lavatrice",
@@ -13026,7 +13039,8 @@
                 ]
             }
         ],
-        "transcription": "lavaˈtritʃe"
+        "transcription": "lavaˈtritʃe",
+        "partitive": "della"
     },
     {
         "word": "tostapane",
@@ -13047,7 +13061,8 @@
                 ]
             }
         ],
-        "transcription": "tostaˈpane"
+        "transcription": "tostaˈpane",
+        "partitive": "del"
     },
     {
         "word": "microonde",
@@ -13068,7 +13083,8 @@
                 ]
             }
         ],
-        "transcription": "mikroˈonde"
+        "transcription": "mikroˈonde",
+        "partitive": "del"
     },
     {
         "word": "righello",
@@ -13089,7 +13105,8 @@
                 ]
             }
         ],
-        "transcription": "riˈɡɛllo"
+        "transcription": "riˈɡɛllo",
+        "partitive": "del"
     },
     {
         "word": "contadino",
@@ -14012,9 +14029,131 @@
             }
         ],
         "transcription": "lenˈtswɔlo"
+    },
+    {
+        "word": "esempio",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "esempi",
+        "countability": "countable",
+        "partitive": "dell'",
+        "transcription": "eˈzɛmpjo",
+        "definitions": [
+            {
+                "text": "Cosa che serve a illustrare una regola o un concetto.",
+                "examples": [
+                    "Fai un esempio.",
+                    "Questo è un buon esempio."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "per esempio",
+        "antonyms": []
+    },
+    {
+        "word": "indirizzo email",
+        "level": "starter",
+        "theme": "contact_details_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "📧",
+        "form": "noun",
+        "plural": "indirizzi email",
+        "countability": "countable",
+        "partitive": "dell'",
+        "transcription": "indiˈrittso iˈmeil",
+        "definitions": [
+            {
+                "text": "Indirizzo per la posta elettronica.",
+                "examples": [
+                    "Qual è il tuo indirizzo email?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "numero di telefono",
+        "level": "starter",
+        "theme": "contact_details_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📞",
+        "form": "noun",
+        "plural": "numeri di telefono",
+        "countability": "countable",
+        "partitive": "del",
+        "transcription": "ˈnumere di teˈlɛfono",
+        "definitions": [
+            {
+                "text": "Serie di cifre per chiamare qualcuno.",
+                "examples": [
+                    "Qual è il tuo numero di telefono?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "spazzolino",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🪥",
+        "form": "noun",
+        "plural": "spazzolini",
+        "countability": "countable",
+        "partitive": "dello",
+        "transcription": "spattsoˈlino",
+        "definitions": [
+            {
+                "text": "Strumento per lavarsi i denti.",
+                "examples": [
+                    "Uso lo spazzolino ogni mattina."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+    {
+        "word": "dentifricio",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🦷",
+        "form": "noun",
+        "plural": "dentifrici",
+        "countability": "uncountable",
+        "partitive": "del",
+        "transcription": "dentiˈfritʃo",
+        "definitions": [
+            {
+                "text": "Pasta per lavarsi i denti.",
+                "examples": [
+                    "Metti il dentifricio sullo spazzolino."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
     }
 ];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
 })();

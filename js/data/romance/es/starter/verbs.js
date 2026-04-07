@@ -1,12 +1,16 @@
 (function() {
     const data = [
+
     {
         "word": "ser",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👤",
         "subtext": "ser feliz / estar en el trabajo",
-        "synonyms": ["estar cansado", "estar listo"],
+        "synonyms": [
+            "estar cansado",
+            "estar listo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -30,7 +34,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "tener un trabajo / tener un problema / tener tiempo",
-        "synonyms": ["almorzar"],
+        "synonyms": [
+            "almorzar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -54,7 +60,12 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
         "subtext": "",
-        "synonyms": ["sentirse cansado", "sentirse mejor", "sentirse enfermo", "sentirse estresado"],
+        "synonyms": [
+            "sentirse cansado",
+            "sentirse mejor",
+            "sentirse enfermo",
+            "sentirse estresado"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -127,7 +138,12 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["conseguir un trabajo", "cansarse", "mejorar", "llegar a casa"],
+        "synonyms": [
+            "conseguir un trabajo",
+            "cansarse",
+            "mejorar",
+            "llegar a casa"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -152,7 +168,12 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["ponerse", "guardar", "colgar el teléfono", "ahorrar dinero"],
+        "synonyms": [
+            "ponerse",
+            "guardar",
+            "colgar el teléfono",
+            "ahorrar dinero"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -176,7 +197,11 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "hacer café",
-        "synonyms": ["tomar una decisión", "cometer un error", "ganar dinero"],
+        "synonyms": [
+            "tomar una decisión",
+            "cometer un error",
+            "ganar dinero"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -344,7 +369,10 @@
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "ayudar a alguien / ayudar con una tarea",
-        "synonyms": ["echar una mano", "pedir ayuda"],
+        "synonyms": [
+            "echar una mano",
+            "pedir ayuda"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -367,7 +395,10 @@
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "intentar hacer / intentar algo nuevo",
-        "synonyms": ["esforzarse", "intentarlo"],
+        "synonyms": [
+            "esforzarse",
+            "intentarlo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -412,7 +443,10 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "encontrar un trabajo / encontrar tiempo",
-        "synonyms": ["descubrir", "resultarle difícil"],
+        "synonyms": [
+            "descubrir",
+            "resultarle difícil"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -436,7 +470,12 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["seguir adelante", "guardar silencio", "llevar un registro", "mantenerse en contacto"],
+        "synonyms": [
+            "seguir adelante",
+            "guardar silencio",
+            "llevar un registro",
+            "mantenerse en contacto"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -486,7 +525,11 @@
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "cortar por la mitad",
-        "synonyms": ["reducir costes", "reducir gastos", "interrumpir"],
+        "synonyms": [
+            "reducir costes",
+            "reducir gastos",
+            "interrumpir"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -510,7 +553,10 @@
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "girar a la izquierda / girar a la derecha",
-        "synonyms": ["encender", "apagar"],
+        "synonyms": [
+            "encender",
+            "apagar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -534,7 +580,9 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "traer a alguien / traer comida / traer un documento",
-        "synonyms": ["mencionar"],
+        "synonyms": [
+            "mencionar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -581,7 +629,10 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "decir la verdad / contarle a alguien sobre",
-        "synonyms": ["decirle a alguien", "contar una historia"],
+        "synonyms": [
+            "decirle a alguien",
+            "contar una historia"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -604,7 +655,11 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "preguntar sobre",
-        "synonyms": ["hacer una pregunta", "pedir ayuda", "preguntarle a alguien"],
+        "synonyms": [
+            "hacer una pregunta",
+            "pedir ayuda",
+            "preguntarle a alguien"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -672,7 +727,10 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "llamar a alguien / llamar para decir que estás enfermo",
-        "synonyms": ["devolver la llamada", "convocar una reunión"],
+        "synonyms": [
+            "devolver la llamada",
+            "convocar una reunión"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -695,7 +753,9 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "escribir un correo / escribir un informe / escribir una carta",
-        "synonyms": ["tomar notas"],
+        "synonyms": [
+            "tomar notas"
+        ],
         "opposite": "leer",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -792,7 +852,9 @@
         "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "repetir eso / repetir un pedido",
-        "synonyms": ["repetirse"],
+        "synonyms": [
+            "repetirse"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -816,7 +878,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "ir al trabajo / ir a casa / ir de compras",
-        "synonyms": ["salir"],
+        "synonyms": [
+            "salir"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -840,7 +904,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "venir a casa / venir al trabajo / venir aquí",
-        "synonyms": ["volver"],
+        "synonyms": [
+            "volver"
+        ],
         "opposite": "ir",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -979,7 +1045,11 @@
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "mudarse a un nuevo lugar",
-        "synonyms": ["instalarse", "mudarse", "cambiar de casa"],
+        "synonyms": [
+            "instalarse",
+            "mudarse",
+            "cambiar de casa"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1002,7 +1072,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "volver a casa / volver al trabajo / volver de",
-        "synonyms": ["devolver una llamada"],
+        "synonyms": [
+            "devolver una llamada"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1048,7 +1120,11 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "comer fuera",
-        "synonyms": ["desayunar", "almorzar", "cenar"],
+        "synonyms": [
+            "desayunar",
+            "almorzar",
+            "cenar"
+        ],
         "opposite": "beber",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1146,7 +1222,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "limpiar el piso / limpiar la cocina / limpiar regularmente",
-        "synonyms": ["recoger"],
+        "synonyms": [
+            "recoger"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1192,7 +1270,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "lavar los platos / lavar la ropa",
-        "synonyms": ["lavarse las manos"],
+        "synonyms": [
+            "lavarse las manos"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1263,7 +1343,9 @@
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "gastar dinero / gastar en comida / gastar en alquiler",
-        "synonyms": ["pasar tiempo"],
+        "synonyms": [
+            "pasar tiempo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1357,7 +1439,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "pensar sobre / pensar en / pensar detenidamente",
-        "synonyms": ["creer que es"],
+        "synonyms": [
+            "creer que es"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1381,7 +1465,10 @@
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "saber la respuesta / saber cómo",
-        "synonyms": ["conocer a alguien", "conocer un lugar"],
+        "synonyms": [
+            "conocer a alguien",
+            "conocer un lugar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1524,7 +1611,9 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "esperar algo / esperar hacer / esperar que",
-        "synonyms": ["espero que sí"],
+        "synonyms": [
+            "espero que sí"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1571,7 +1660,9 @@
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "olvidar un nombre / olvidar hacer / olvidar por completo",
-        "synonyms": ["olvidarse de"],
+        "synonyms": [
+            "olvidarse de"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1618,7 +1709,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decidir hacer / decidir sobre / difícil de decidir",
-        "synonyms": ["tomar una decisión"],
+        "synonyms": [
+            "tomar una decisión"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1735,7 +1828,11 @@
         "emoji": "📺",
         "form": "verb",
         "subtext": "mirar de cerca",
-        "synonyms": ["ver la televisión", "ver una película", "ver las noticias"],
+        "synonyms": [
+            "ver la televisión",
+            "ver una película",
+            "ver las noticias"
+        ],
         "definitions": [
             {
                 "text": "Mirar algo durante un período de tiempo.",
@@ -1757,7 +1854,11 @@
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "mirar",
-        "synonyms": ["buscar", "parecerse a", "parecer feliz"],
+        "synonyms": [
+            "buscar",
+            "parecerse a",
+            "parecer feliz"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1781,7 +1882,10 @@
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "jugar a un deporte / jugar a un juego",
-        "synonyms": ["tocar música", "interpretar un papel"],
+        "synonyms": [
+            "tocar música",
+            "interpretar un papel"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1804,7 +1908,11 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "correr una carrera",
-        "synonyms": ["dirigir un negocio", "quedarse sin", "llegar tarde"],
+        "synonyms": [
+            "dirigir un negocio",
+            "quedarse sin",
+            "llegar tarde"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1852,7 +1960,12 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "",
-        "synonyms": ["levantarse", "hacer cola", "estar al lado", "destacar"],
+        "synonyms": [
+            "levantarse",
+            "hacer cola",
+            "estar al lado",
+            "destacar"
+        ],
         "opposite": "sentarse",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1890,7 +2003,10 @@
         "v2": "conocí",
         "v3": "conocido",
         "subtext": "conocer a un cliente / conocer a un colega",
-        "synonyms": ["quedar para almorzar", "conocerse en línea"],
+        "synonyms": [
+            "quedar para almorzar",
+            "conocerse en línea"
+        ],
         "group": "irregular",
         "auxiliary": "haber"
     },
@@ -1944,7 +2060,11 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "parar a alguien",
-        "synonyms": ["dejar de hacer", "dejar de trabajar", "dejar un hábito"],
+        "synonyms": [
+            "dejar de hacer",
+            "dejar de trabajar",
+            "dejar un hábito"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1967,7 +2087,9 @@
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "añadir un poco de azúcar / añadir a / añadir un comentario",
-        "synonyms": ["sumar"],
+        "synonyms": [
+            "sumar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2037,7 +2159,9 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "morir de / morir por / morir a causa de",
-        "synonyms": ["extinguirse"],
+        "synonyms": [
+            "extinguirse"
+        ],
         "opposite": "vivir",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2107,7 +2231,11 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "caer de",
-        "synonyms": ["caerse", "enamorarse", "quedarse dormido"],
+        "synonyms": [
+            "caerse",
+            "enamorarse",
+            "quedarse dormido"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2131,7 +2259,9 @@
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "pasar la pelota / pasar el tiempo / pasar el azúcar",
-        "synonyms": ["aprobar un examen"],
+        "synonyms": [
+            "aprobar un examen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2155,7 +2285,9 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "vender productos / vender en línea / vender en el mercado",
-        "synonyms": ["éxito de ventas"],
+        "synonyms": [
+            "éxito de ventas"
+        ],
         "opposite": "comprar",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2180,7 +2312,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "tirar de la puerta / tirar de algo",
-        "synonyms": ["detenerse", "alejarse"],
+        "synonyms": [
+            "detenerse",
+            "alejarse"
+        ],
         "opposite": "empujar",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2205,7 +2340,11 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "empujar un carrito",
-        "synonyms": ["presionar el botón", "apartar", "salir adelante"],
+        "synonyms": [
+            "presionar el botón",
+            "apartar",
+            "salir adelante"
+        ],
         "opposite": "tirar",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2231,7 +2370,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "llevar una bolsa / llevar notas / llevar a cabo",
-        "synonyms": ["continuar"],
+        "synonyms": [
+            "continuar"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2254,7 +2395,11 @@
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "romper el cristal",
-        "synonyms": ["infringir una ley", "tomarse un descanso", "averiarse"],
+        "synonyms": [
+            "infringir una ley",
+            "tomarse un descanso",
+            "averiarse"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2301,7 +2446,11 @@
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "estar de acuerdo con alguien",
-        "synonyms": ["aceptar hacer", "acordar sobre", "estoy de acuerdo"],
+        "synonyms": [
+            "aceptar hacer",
+            "acordar sobre",
+            "estoy de acuerdo"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2325,7 +2474,10 @@
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "dibujar un cuadro / dibujar una línea",
-        "synonyms": ["sacar una conclusión", "llamar la atención"],
+        "synonyms": [
+            "sacar una conclusión",
+            "llamar la atención"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2372,7 +2524,9 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "sonreír a alguien / sonreír ampliamente",
-        "synonyms": ["una gran sonrisa"],
+        "synonyms": [
+            "una gran sonrisa"
+        ],
         "opposite": "llorar",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2398,7 +2552,10 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "empezar a llorar / llorar por algo",
-        "synonyms": ["pedir socorro", "gritar"],
+        "synonyms": [
+            "pedir socorro",
+            "gritar"
+        ],
         "opposite": "sonreír",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2447,7 +2604,9 @@
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "cantar una canción / cantar a coro / cantar bien",
-        "synonyms": ["cantante principal"],
+        "synonyms": [
+            "cantante principal"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2471,7 +2630,9 @@
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "saltar alto / saltar por encima / saltar dentro",
-        "synonyms": ["dar un salto"],
+        "synonyms": [
+            "dar un salto"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2495,7 +2656,10 @@
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "ir a nadar / nadar bien",
-        "synonyms": ["cruzar nadando", "hacer largos"],
+        "synonyms": [
+            "cruzar nadando",
+            "hacer largos"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2541,7 +2705,9 @@
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "enseñar a alguien / enseñar una materia / enseñar cómo",
-        "synonyms": ["dar clase"],
+        "synonyms": [
+            "dar clase"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2564,7 +2730,12 @@
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "",
-        "synonyms": ["viajar al trabajo", "trayecto diario", "trayecto largo", "viajar en tren"],
+        "synonyms": [
+            "viajar al trabajo",
+            "trayecto diario",
+            "trayecto largo",
+            "viajar en tren"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2702,7 +2873,9 @@
             }
         ],
         "subtext": "desayunar en casa / tomar un desayuno rápido",
-        "synonyms": ["saltarse el desayuno"],
+        "synonyms": [
+            "saltarse el desayuno"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "desayuné",
@@ -2769,7 +2942,9 @@
             }
         ],
         "subtext": "revisar los correos / revisar los mensajes / revisar un documento",
-        "synonyms": ["mirar la hora"],
+        "synonyms": [
+            "mirar la hora"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "revisé",
@@ -2924,7 +3099,9 @@
             }
         ],
         "subtext": "deber dinero / deber mucho / no deber nada",
-        "synonyms": ["deberle a alguien"],
+        "synonyms": [
+            "deberle a alguien"
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "debí",
@@ -3035,7 +3212,11 @@
             }
         ],
         "subtext": "hacer daño a alguien",
-        "synonyms": ["dolor de espalda", "hacerse daño", "duele"],
+        "synonyms": [
+            "dolor de espalda",
+            "hacerse daño",
+            "duele"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v2": "dolió",
@@ -3058,7 +3239,9 @@
             }
         ],
         "subtext": "descansar en casa / descansar después del trabajo / descansar un poco",
-        "synonyms": ["necesitar descanso"],
+        "synonyms": [
+            "necesitar descanso"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "descansé",
@@ -3125,7 +3308,10 @@
             }
         ],
         "subtext": "hacer la maleta",
-        "synonyms": ["hacer la bolsa", "viajar ligero"],
+        "synonyms": [
+            "hacer la bolsa",
+            "viajar ligero"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "hice la maleta",
@@ -3170,7 +3356,9 @@
             }
         ],
         "subtext": "perder un tren / perder un vuelo / echar de menos a alguien",
-        "synonyms": ["faltar al trabajo"],
+        "synonyms": [
+            "faltar al trabajo"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "perdí",
@@ -3232,7 +3420,10 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "agradecer a alguien",
-        "synonyms": ["gracias por", "muchas gracias"],
+        "synonyms": [
+            "gracias por",
+            "muchas gracias"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3255,7 +3446,9 @@
         "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "presentar a alguien / presentar un tema",
-        "synonyms": ["presentarse"],
+        "synonyms": [
+            "presentarse"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3300,7 +3493,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "reparar algo / mandar reparar",
-        "synonyms": ["costes de reparación"],
+        "synonyms": [
+            "costes de reparación"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3323,7 +3518,10 @@
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "suele pasar / pasar de nuevo",
-        "synonyms": ["qué pasó", "pasarle a alguien"],
+        "synonyms": [
+            "qué pasó",
+            "pasarle a alguien"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3346,7 +3544,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "parecer bien / parecer preocupado / parecer feliz",
-        "synonyms": ["parecerse a"],
+        "synonyms": [
+            "parecerse a"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3369,7 +3569,10 @@
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "significar algo / no era mi intención",
-        "synonyms": ["qué significa", "querer decir"],
+        "synonyms": [
+            "qué significa",
+            "querer decir"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3392,7 +3595,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "seguir instrucciones / seguir a alguien / seguir las noticias",
-        "synonyms": ["hacer un seguimiento"],
+        "synonyms": [
+            "hacer un seguimiento"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3437,7 +3642,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "hacer crecer un negocio / crecer rápido / crecer un...",
-        "synonyms": ["convertirse en"],
+        "synonyms": [
+            "convertirse en"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3460,7 +3667,10 @@
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "incluir algo / incluir en",
-        "synonyms": ["no incluido", "el precio incluye"],
+        "synonyms": [
+            "no incluido",
+            "el precio incluye"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3483,7 +3693,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "✨",
         "subtext": "llegar a ser gerente / hacerse popular / hacerse importante",
-        "synonyms": ["aclararse"],
+        "synonyms": [
+            "aclararse"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3506,7 +3718,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "pertenecer a alguien / pertenecer a",
-        "synonyms": ["sentir que encajas"],
+        "synonyms": [
+            "sentir que encajas"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3551,7 +3765,11 @@
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "construir una carrera",
-        "synonyms": ["formar un equipo", "ganar experiencia", "generar confianza"],
+        "synonyms": [
+            "formar un equipo",
+            "ganar experiencia",
+            "generar confianza"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3567,6 +3785,46 @@
         "v3": "construido",
         "group": "irregular",
         "auxiliary": "haber"
+    },
+    {
+        "word": "producir",
+        "level": "starter",
+        "theme": "work_employment_A1",
+        "form": "verb",
+        "transcription": "pɾo.ðu.ˈθiɾ",
+        "group": "ir",
+        "classification": "irregular",
+        "v3": "producido",
+        "auxiliary": "haber",
+        "subtext": "producir energía",
+        "definitions": [
+            {
+                "text": "Crear o fabricar algo.",
+                "examples": [
+                    "La empresa produce muebles."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "proyectar",
+        "level": "starter",
+        "theme": "work_employment_A1",
+        "form": "verb",
+        "transcription": "pɾo.jek.ˈtaɾ",
+        "group": "ar",
+        "classification": "regular",
+        "v3": "proyectado",
+        "auxiliary": "haber",
+        "subtext": "proyectar un edificio",
+        "definitions": [
+            {
+                "text": "Idear o planear un proyecto.",
+                "examples": [
+                    "Proyectan construir una nueva escuela."
+                ]
+            }
+        ]
     }
 ];
     const lang = "es";

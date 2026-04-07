@@ -1,5 +1,6 @@
 (function() {
     const data = [
+
     {
         "word": "médecin",
         "level": "starter",
@@ -21,7 +22,8 @@
                     "Je dois voir un médecin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fruit",
@@ -41,7 +43,8 @@
                     "Les fruits sont bons pour la santé."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "légume",
@@ -61,7 +64,8 @@
                     "Il mange des légumes tous les jours."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pied",
@@ -83,7 +87,8 @@
                     "Elle a de petits pieds."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "professeur",
@@ -104,7 +109,8 @@
                     "C'est un bon professeur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ratatouille",
@@ -122,7 +128,8 @@
                     "La ratatouille est un plat sain."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "croissant",
@@ -140,7 +147,8 @@
                     "Le boulanger fait des croissants frais."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pomme",
@@ -162,7 +170,8 @@
                     "La pomme est sucrée."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pain",
@@ -184,7 +193,8 @@
                     "Je mange du pain au petit-déjeuner."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "oeuf",
@@ -205,7 +215,8 @@
                     "On a besoin d'oeufs pour faire un gâteau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lait",
@@ -225,7 +236,8 @@
                     "Les enfants boivent du lait."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "riz",
@@ -244,7 +256,8 @@
                     "Nous mangeons du riz tous les jours."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "viande",
@@ -263,7 +276,8 @@
                     "Il mange de la viande et des légumes."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "nourriture",
@@ -280,7 +294,8 @@
                     "La nourriture est bonne ici."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "thé",
@@ -300,7 +315,8 @@
                     "Elle boit du thé chaque jour."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "jus",
@@ -319,7 +335,8 @@
                     "Je veux un verre de jus d'orange."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "eau",
@@ -339,7 +356,8 @@
                     "L'eau est froide."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "parc",
@@ -357,7 +375,8 @@
                     "Marchons dans le parc."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "école",
@@ -375,7 +394,8 @@
                     "Mon école est près de ma maison."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "table",
@@ -394,7 +414,8 @@
                     "Le repas est sur la table."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "livre",
@@ -412,7 +433,8 @@
                     "Je lis un livre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stylo",
@@ -430,7 +452,8 @@
                     "Puis-je emprunter ton stylo ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chat",
@@ -450,7 +473,8 @@
                     "Mon chat dort."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chien",
@@ -470,7 +494,8 @@
                     "Je promène mon chien."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oiseau",
@@ -487,7 +512,8 @@
                     "L'oiseau chante."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "poisson",
@@ -504,7 +530,8 @@
                     "Le poisson nage."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tête",
@@ -523,7 +550,8 @@
                     "J'ai un chapeau sur la tête."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "main",
@@ -542,7 +570,8 @@
                     "Lave tes mains."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jambe",
@@ -561,7 +590,8 @@
                     "Il a de longues jambes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oeil",
@@ -580,7 +610,8 @@
                     "Elle a les yeux bleus."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "nez",
@@ -598,7 +629,8 @@
                     "Il a un petit nez."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bouche",
@@ -617,7 +649,8 @@
                     "Ouvre la bouche."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oreille",
@@ -636,7 +669,8 @@
                     "J'ai deux oreilles."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dos",
@@ -655,7 +689,8 @@
                     "J'ai mal au dos."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bras",
@@ -674,7 +709,8 @@
                     "Elle s'est cassé le bras."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mère",
@@ -686,7 +722,9 @@
         "form": "noun",
         "plural": "mères",
         "subtext": "",
-        "synonyms": ["maman"],
+        "synonyms": [
+            "maman"
+        ],
         "definitions": [
             {
                 "text": "La femme qui est votre parent.",
@@ -694,7 +732,8 @@
                     "Ma mère est gentille."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "père",
@@ -706,7 +745,9 @@
         "form": "noun",
         "plural": "pères",
         "subtext": "",
-        "synonyms": ["papa"],
+        "synonyms": [
+            "papa"
+        ],
         "definitions": [
             {
                 "text": "L'homme qui est votre parent.",
@@ -714,7 +755,8 @@
                     "Mon père est au travail."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "famille",
@@ -732,7 +774,8 @@
                     "Ma famille est grande."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ami",
@@ -750,7 +793,8 @@
                     "Elle est mon amie."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "partenaire",
@@ -769,7 +813,8 @@
                     "Mon partenaire travaille ici."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "homme",
@@ -788,7 +833,8 @@
                     "Cet homme est mon patron."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "maison",
@@ -807,7 +853,8 @@
                     "Ils ont une grande maison."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "appartement",
@@ -826,7 +873,8 @@
                     "Elle vit dans un appartement."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "foyer",
@@ -844,7 +892,8 @@
                     "Je rentre à la maison à six heures."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "voiture",
@@ -863,7 +912,8 @@
                     "Sa voiture est rouge."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "argent",
@@ -882,7 +932,8 @@
                     "J'ai de l'argent dans mon sac."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "matin",
@@ -901,7 +952,8 @@
                     "Je commence le travail le matin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soir",
@@ -920,7 +972,8 @@
                     "Nous dînons le soir."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jour",
@@ -938,7 +991,8 @@
                     "Je travaille cinq jours par semaine."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "semaine",
@@ -957,7 +1011,8 @@
                     "Je travaille cinq jours par semaine."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chaque jour",
@@ -989,7 +1044,8 @@
                     "Mon patron est très amical."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "collègue",
@@ -1006,7 +1062,8 @@
                     "Mes collègues sont serviables."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "salaire",
@@ -1017,7 +1074,10 @@
         "form": "noun",
         "plural": "salaires",
         "subtext": "",
-        "synonyms": ["paie", "rémunération"],
+        "synonyms": [
+            "paie",
+            "rémunération"
+        ],
         "definitions": [
             {
                 "text": "L'argent qu'une personne gagne de son travail chaque mois.",
@@ -1025,7 +1085,8 @@
                     "Son salaire est bon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "réunion",
@@ -1036,7 +1097,10 @@
         "form": "noun",
         "plural": "réunions",
         "subtext": "",
-        "synonyms": ["rencontre", "assemblée"],
+        "synonyms": [
+            "rencontre",
+            "assemblée"
+        ],
         "definitions": [
             {
                 "text": "Un moment où les gens se rassemblent pour parler de quelque chose.",
@@ -1044,7 +1108,8 @@
                     "Nous avons une réunion tous les lundis."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "trajet",
@@ -1061,7 +1126,8 @@
                     "Mon trajet prend une heure."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stress",
@@ -1071,7 +1137,10 @@
         "emoji": "😫",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["pression", "tension"],
+        "synonyms": [
+            "pression",
+            "tension"
+        ],
         "definitions": [
             {
                 "text": "Un sentiment d'inquiétude causé par une situation difficile.",
@@ -1079,7 +1148,8 @@
                     "J'ai beaucoup de stress au travail."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "loyer",
@@ -1096,7 +1166,8 @@
                     "Le loyer est cher ici."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "voisin",
@@ -1113,7 +1184,8 @@
                     "Mes voisins sont très gentils."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pièce",
@@ -1130,7 +1202,8 @@
                     "L'appartement a trois pièces."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sommeil",
@@ -1147,7 +1220,8 @@
                     "Je dors huit heures par nuit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "exercice",
@@ -1164,7 +1238,8 @@
                     "Je fais de l'exercice trois fois par semaine."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "relation",
@@ -1175,7 +1250,10 @@
         "form": "noun",
         "plural": "relations",
         "subtext": "",
-        "synonyms": ["rapport", "lien"],
+        "synonyms": [
+            "rapport",
+            "lien"
+        ],
         "definitions": [
             {
                 "text": "Une connexion entre deux personnes.",
@@ -1183,7 +1261,8 @@
                     "Ils ont une bonne relation."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ensemble",
@@ -1217,7 +1296,8 @@
                     "L'hôtel est près de la gare."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "week-end",
@@ -1234,7 +1314,8 @@
                     "Je me détends le week-end."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "temps libre",
@@ -1246,7 +1327,10 @@
         "form": "noun",
         "plural": null,
         "subtext": "",
-        "synonyms": ["loisirs", "détente"],
+        "synonyms": [
+            "loisirs",
+            "détente"
+        ],
         "definitions": [
             {
                 "text": "Moment où vous ne travaillez pas et pouvez faire ce que vous voulez.",
@@ -1254,7 +1338,8 @@
                     "Je lis des livres pendant mon temps libre."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "bière",
@@ -1273,7 +1358,8 @@
                     "Il boit une bière le week-end."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "vin",
@@ -1291,7 +1377,8 @@
                     "Il boit du vin rouge."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "porte",
@@ -1309,7 +1396,8 @@
                     "Ferme la porte, s'il te plaît."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fenêtre",
@@ -1327,7 +1415,8 @@
                     "Ouvre la fenêtre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "infirmier",
@@ -1345,7 +1434,8 @@
                     "L'infirmier travaille à l'hôpital."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "conducteur",
@@ -1363,7 +1453,8 @@
                     "Le conducteur de bus est sympa."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chef",
@@ -1381,7 +1472,8 @@
                     "Le chef prépare le repas."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "directeur",
@@ -1399,7 +1491,8 @@
                     "Le directeur est en réunion."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "avion",
@@ -1417,7 +1510,8 @@
                     "L'avion part à midi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vélo",
@@ -1435,7 +1529,8 @@
                     "Je vais au travail à vélo."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hôpital",
@@ -1453,7 +1548,8 @@
                     "Il est à l'hôpital."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "restaurant",
@@ -1471,7 +1567,8 @@
                     "Allons au restaurant."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "supermarché",
@@ -1489,7 +1586,8 @@
                     "Je fais les courses au supermarché."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soleil",
@@ -1507,7 +1605,8 @@
                     "Le soleil brille."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pluie",
@@ -1525,7 +1624,8 @@
                     "J'aime marcher sous la pluie."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vent",
@@ -1543,7 +1643,8 @@
                     "Le vent est fort."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "nuit",
@@ -1561,7 +1662,8 @@
                     "Bonne nuit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "aujourd'hui",
@@ -1615,7 +1717,8 @@
                     "Mon mari est gentil."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "femme",
@@ -1633,7 +1736,8 @@
                     "C'est sa femme."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "enfant",
@@ -1651,7 +1755,8 @@
                     "Ils ont un enfant."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "parent",
@@ -1669,7 +1774,8 @@
                     "Mes parents habitent ici."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soeur",
@@ -1687,7 +1793,8 @@
                     "J'ai une soeur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "frère",
@@ -1705,7 +1812,8 @@
                     "Mon frère a dix ans."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fils",
@@ -1723,7 +1831,8 @@
                     "C'est mon fils."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "grand-père",
@@ -1741,7 +1850,8 @@
                     "Mon grand-père est vieux."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "grand-mère",
@@ -1759,7 +1869,8 @@
                     "Ma grand-mère cuisine bien."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oncle",
@@ -1777,7 +1888,8 @@
                     "Mon oncle vit à Paris."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tante",
@@ -1795,7 +1907,8 @@
                     "Ma tante est médecin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cousin",
@@ -1813,7 +1926,8 @@
                     "C'est mon cousin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "arbre",
@@ -1831,7 +1945,8 @@
                     "L'arbre est vert."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fleur",
@@ -1849,7 +1964,8 @@
                     "La fleur sent bon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "montagne",
@@ -1867,7 +1983,8 @@
                     "La montagne est haute."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "rivière",
@@ -1885,7 +2002,8 @@
                     "L'eau de la rivière est froide."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mer",
@@ -1903,7 +2021,8 @@
                     "Je nage dans la mer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ciel",
@@ -1921,7 +2040,8 @@
                     "Le ciel est bleu."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lune",
@@ -1939,7 +2059,8 @@
                     "La lune est ronde."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "assiette",
@@ -1957,7 +2078,8 @@
                     "Mets l'assiette sur la table."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tasse",
@@ -1975,7 +2097,8 @@
                     "Une tasse de café."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "verre",
@@ -1993,7 +2116,8 @@
                     "Un verre d'eau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fourchette",
@@ -2011,7 +2135,8 @@
                     "Je mange avec une fourchette."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cuillère",
@@ -2029,7 +2154,8 @@
                     "Une cuillère de sucre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "couteau",
@@ -2047,7 +2173,8 @@
                     "Le couteau coupe bien."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ordinateur portable",
@@ -2065,7 +2192,8 @@
                     "J'utilise mon ordinateur portable."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cinéma",
@@ -2083,7 +2211,8 @@
                     "Allons au cinéma."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "musée",
@@ -2101,7 +2230,8 @@
                     "Le musée est grand."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pharmacie",
@@ -2119,7 +2249,8 @@
                     "Où est la pharmacie ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "poulet",
@@ -2137,7 +2268,8 @@
                     "J'aime le poulet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sucre",
@@ -2155,7 +2287,8 @@
                     "Pas de sucre dans mon thé."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "salade",
@@ -2173,7 +2306,8 @@
                     "Une petite salade, s'il vous plaît."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cou",
@@ -2191,7 +2325,8 @@
                     "J'ai mal au cou."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "épaule",
@@ -2209,7 +2344,8 @@
                     "Mon épaule me fait mal."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dans",
@@ -2353,7 +2489,8 @@
                     "Il y a un problème."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boeuf",
@@ -2371,7 +2508,8 @@
                     "Je mange du boeuf."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "porc",
@@ -2389,7 +2527,8 @@
                     "Elle ne mange pas de porc."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pomme de terre",
@@ -2407,7 +2546,8 @@
                     "Des frites avec des pommes de terre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tomate",
@@ -2425,7 +2565,8 @@
                     "La tomate est mûre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oignon",
@@ -2443,7 +2584,8 @@
                     "Je coupe un oignon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "carotte",
@@ -2461,7 +2603,8 @@
                     "Le lapin mange une carotte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soupe",
@@ -2479,7 +2622,8 @@
                     "La soupe est bonne."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "gâteau",
@@ -2497,7 +2641,8 @@
                     "Un gâteau au chocolat."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chocolat",
@@ -2515,7 +2660,8 @@
                     "J'adore le chocolat."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "glace",
@@ -2533,7 +2679,8 @@
                     "Une glace à la vanille."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "doigt",
@@ -2551,7 +2698,8 @@
                     "J'ai dix doigts."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "orteil",
@@ -2569,7 +2717,8 @@
                     "J'ai mal à l'orteil."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "estomac",
@@ -2587,7 +2736,8 @@
                     "J'ai mal à l'estomac."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "genou",
@@ -2605,7 +2755,8 @@
                     "Je tombe sur le genou."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "herbe",
@@ -2623,7 +2774,8 @@
                     "L'herbe est verte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "nuage",
@@ -2641,7 +2793,8 @@
                     "Il y a des nuages."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "étoile",
@@ -2659,7 +2812,8 @@
                     "Je regarde les étoiles."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "horloge",
@@ -2677,7 +2831,8 @@
                     "Regarde l'horloge."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bibliothèque",
@@ -2695,7 +2850,8 @@
                     "Je vais à la bibliothèque."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lundi",
@@ -2713,7 +2869,8 @@
                     "Lundi est difficile."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mardi",
@@ -2731,7 +2888,8 @@
                     "Mardi, j'ai sport."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mercredi",
@@ -2749,7 +2907,8 @@
                     "Mercredi est calme."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jeudi",
@@ -2767,7 +2926,8 @@
                     "Jeudi soir."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vendredi",
@@ -2785,7 +2945,8 @@
                     "Vendredi, c'est le week-end."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "samedi",
@@ -2803,7 +2964,8 @@
                     "Je fais les courses samedi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dimanche",
@@ -2821,7 +2983,8 @@
                     "Dimanche est un jour de repos."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "janvier",
@@ -2839,7 +3002,8 @@
                     "En janvier, il fait froid."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "février",
@@ -2857,7 +3021,8 @@
                     "Février est court."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mars",
@@ -2875,7 +3040,8 @@
                     "Le printemps commence en mars."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "avril",
@@ -2893,7 +3059,8 @@
                     "En avril, ne te découvre pas d'un fil."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mai",
@@ -2911,7 +3078,8 @@
                     "Fais ce qu'il te plaît en mai."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "juin",
@@ -2929,7 +3097,8 @@
                     "L'été commence en juin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "juillet",
@@ -2947,7 +3116,8 @@
                     "Je pars en vacances en juillet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "août",
@@ -2965,7 +3135,8 @@
                     "Il fait chaud en août."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "septembre",
@@ -2983,7 +3154,8 @@
                     "La rentrée est en septembre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "octobre",
@@ -3001,7 +3173,8 @@
                     "Halloween est en octobre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "novembre",
@@ -3019,7 +3192,8 @@
                     "Il pleut souvent en novembre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "décembre",
@@ -3037,7 +3211,8 @@
                     "Noël est en décembre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "printemps",
@@ -3055,7 +3230,8 @@
                     "Au printemps, les fleurs poussent."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "été",
@@ -3073,7 +3249,8 @@
                     "J'adore l'été."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "automne",
@@ -3091,7 +3268,8 @@
                     "L'automne est beau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hiver",
@@ -3109,7 +3287,8 @@
                     "Il neige en hiver."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lion",
@@ -3127,7 +3306,8 @@
                     "Le lion est le roi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "éléphant",
@@ -3145,7 +3325,8 @@
                     "L'éléphant est gris."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lapin",
@@ -3163,7 +3344,8 @@
                     "Le lapin mange une carotte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cheval",
@@ -3181,7 +3363,8 @@
                     "Je monte à cheval."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vache",
@@ -3199,7 +3382,8 @@
                     "La vache est dans le pré."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cochon",
@@ -3217,7 +3401,8 @@
                     "Le cochon est gras."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mouton",
@@ -3235,7 +3420,8 @@
                     "Un troupeau de moutons."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "citron",
@@ -3253,7 +3439,8 @@
                     "Du citron dans mon thé."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "orange",
@@ -3271,7 +3458,8 @@
                     "Je mange une orange."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fraise",
@@ -3289,7 +3477,8 @@
                     "J'aime les fraises."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "raisin",
@@ -3307,7 +3496,8 @@
                     "Une grappe de raisin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ail",
@@ -3325,7 +3515,8 @@
                     "Je cuisine avec de l'ail."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "toujours",
@@ -3541,7 +3732,8 @@
                     "Bonjour à tous."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "au revoir",
@@ -3559,7 +3751,8 @@
                     "Au revoir, monsieur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "s'il vous plaît",
@@ -3595,7 +3788,8 @@
                     "Merci beaucoup."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pardon",
@@ -3613,7 +3807,8 @@
                     "Pardon, je suis en retard."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oui",
@@ -3667,7 +3862,8 @@
                     "Mon nom est Dupont."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "violet",
@@ -3685,7 +3881,8 @@
                     "J'ai un sac violet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "salle de bain",
@@ -3703,7 +3900,8 @@
                     "La salle de bain est petite."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chambre",
@@ -3721,7 +3919,8 @@
                     "Ma chambre est propre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bébé",
@@ -3739,12 +3938,13 @@
                     "Le bébé dort."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "garçon",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
@@ -3757,12 +3957,13 @@
                     "C'est un petit garçon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fille",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -3775,7 +3976,8 @@
                     "C'est une gentille fille."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "petit ami",
@@ -3793,7 +3995,8 @@
                     "Mon petit ami est là."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "petite amie",
@@ -3811,7 +4014,8 @@
                     "Sa petite amie est française."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "étudiant",
@@ -3829,7 +4033,8 @@
                     "Je suis étudiant."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "camarade de classe",
@@ -3847,7 +4052,8 @@
                     "Mon camarade de classe est sympa."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "appareil photo",
@@ -3865,7 +4071,8 @@
                     "J'ai un nouvel appareil photo."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ordinateur",
@@ -3883,7 +4090,8 @@
                     "Mon ordinateur est rapide."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bouteille",
@@ -3901,7 +4109,8 @@
                     "Une bouteille d'eau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boîte",
@@ -3919,7 +4128,8 @@
                     "Le chat est dans la boîte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ballon",
@@ -3937,7 +4147,8 @@
                     "Jouons au ballon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "immeuble",
@@ -3955,7 +4166,8 @@
                     "Un bel immeuble."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "café",
@@ -3973,7 +4185,8 @@
                     "Allons au café."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "centre",
@@ -3991,7 +4204,8 @@
                     "Le centre-ville."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "beurre",
@@ -4009,7 +4223,8 @@
                     "Du beurre sur le pain."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "fromage",
@@ -4027,7 +4242,8 @@
                     "J'aime le fromage français."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "acteur",
@@ -4045,7 +4261,8 @@
                     "C'est un acteur célèbre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "artiste",
@@ -4063,12 +4280,13 @@
                     "Elle est une grande artiste."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "adulte",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
@@ -4081,7 +4299,8 @@
                     "Un billet pour adulte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "conseil",
@@ -4099,7 +4318,8 @@
                     "Donne-moi un conseil."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "âge",
@@ -4117,7 +4337,8 @@
                     "Quel âge as-tu ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "air",
@@ -4135,7 +4356,8 @@
                     "L'air est pur ici."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "quartier",
@@ -4153,7 +4375,8 @@
                     "C'est mon quartier."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "art",
@@ -4171,7 +4394,8 @@
                     "J'aime l'art moderne."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "groupe",
@@ -4189,7 +4413,8 @@
                     "Un groupe de rock."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bain",
@@ -4207,7 +4432,8 @@
                     "Prendre un bain chaud."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "anniversaire",
@@ -4225,7 +4451,8 @@
                     "Bon anniversaire !"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bateau",
@@ -4243,7 +4470,8 @@
                     "Le bateau est sur la mer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "affaires",
@@ -4261,7 +4489,8 @@
                     "Il voyage pour les affaires."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "université",
@@ -4279,7 +4508,8 @@
                     "Je vais à l'université."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "concert",
@@ -4297,7 +4527,8 @@
                     "Un concert de piano."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "conversation",
@@ -4315,7 +4546,8 @@
                     "Une conversation intéressante."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "encore",
@@ -4423,7 +4655,8 @@
                     "Un crayon de couleur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "papier",
@@ -4441,7 +4674,8 @@
                     "Une feuille de papier."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "monsieur",
@@ -4459,7 +4693,8 @@
                     "Bonjour, monsieur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "madame",
@@ -4477,7 +4712,8 @@
                     "Merci, madame."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ville",
@@ -4495,7 +4731,8 @@
                     "Paris est une grande ville."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pays",
@@ -4513,7 +4750,8 @@
                     "La France est un beau pays."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "monde",
@@ -4531,12 +4769,13 @@
                     "Tout le monde est là."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "gens",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "personal_identity_A1",
         "article": "les",
         "gender": "masculine",
         "emoji": "👥",
@@ -4549,7 +4788,8 @@
                     "Il y a beaucoup de gens."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chose",
@@ -4567,7 +4807,8 @@
                     "C'est une bonne chose."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "temps",
@@ -4585,7 +4826,8 @@
                     "Je n'ai pas le temps."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "heure",
@@ -4603,7 +4845,8 @@
                     "Il est une heure."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "minute",
@@ -4621,7 +4864,8 @@
                     "Attends une minute."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "seconde",
@@ -4639,7 +4883,8 @@
                     "Une seconde, s'il vous plaît."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hier",
@@ -4675,7 +4920,8 @@
                     "Bonne matinée !"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "après-midi",
@@ -4693,7 +4939,8 @@
                     "Je travaille l'après-midi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soirée",
@@ -4711,7 +4958,8 @@
                     "Bonne soirée !"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "minuit",
@@ -4729,7 +4977,8 @@
                     "Il est minuit."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "midi",
@@ -4747,7 +4996,8 @@
                     "Il est midi."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "travail",
@@ -4765,7 +5015,8 @@
                     "Je vais au travail."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boulot",
@@ -4783,7 +5034,8 @@
                     "J'ai trop de boulot."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "métier",
@@ -4801,7 +5053,8 @@
                     "Quel est ton métier ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "entreprise",
@@ -4819,7 +5072,8 @@
                     "Une grande entreprise."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "client",
@@ -4837,7 +5091,8 @@
                     "Le client est content."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "message",
@@ -4855,7 +5110,8 @@
                     "J'ai un message pour toi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "email",
@@ -4873,7 +5129,8 @@
                     "Je réponds aux emails."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "site web",
@@ -4891,7 +5148,8 @@
                     "Regarde ce site web."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mot de passe",
@@ -4909,7 +5167,8 @@
                     "J'ai oublié mon mot de passe."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "clavier",
@@ -4927,7 +5186,8 @@
                     "Un clavier d'ordinateur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "souris",
@@ -4945,7 +5205,8 @@
                     "La souris est à droite."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "écran",
@@ -4963,7 +5224,8 @@
                     "L'écran est grand."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "musique",
@@ -4981,7 +5243,8 @@
                     "J'écoute de la musique."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chanson",
@@ -4999,7 +5262,8 @@
                     "C'est une belle chanson."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "film",
@@ -5017,7 +5281,8 @@
                     "Je regarde un film."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "photo",
@@ -5035,7 +5300,8 @@
                     "Une photo de famille."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sport",
@@ -5053,7 +5319,8 @@
                     "Je fais du sport."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "football",
@@ -5071,7 +5338,8 @@
                     "Jouons au football."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "tennis",
@@ -5089,7 +5357,8 @@
                     "Il joue au tennis."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "natation",
@@ -5107,7 +5376,8 @@
                     "J'aime la natation."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "cafétéria",
@@ -5125,7 +5395,8 @@
                     "On mange à la cafétéria."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ticket",
@@ -5143,7 +5414,8 @@
                     "Un ticket de métro."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "reçu",
@@ -5161,7 +5433,8 @@
                     "Gardez le reçu."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "facture",
@@ -5179,7 +5452,8 @@
                     "Je paie mes factures."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "carte bancaire",
@@ -5197,7 +5471,8 @@
                     "Je paie par carte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "espèces",
@@ -5215,7 +5490,8 @@
                     "Je n'ai pas d'espèces."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vêtement",
@@ -5233,7 +5509,8 @@
                     "Un nouveau vêtement."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sel",
@@ -5251,7 +5528,8 @@
                     "Un peu de sel."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "poivre",
@@ -5269,7 +5547,8 @@
                     "Mets du poivre."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "huile",
@@ -5287,7 +5566,8 @@
                     "De l'huile d'olive."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vinaigre",
@@ -5305,7 +5585,8 @@
                     "Sel, poivre et vinaigre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "petit-déjeuner",
@@ -5323,7 +5604,8 @@
                     "Je prends mon petit-déjeuner."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "goûter",
@@ -5341,7 +5623,8 @@
                     "Les enfants prennent le goûter."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "invité",
@@ -5359,7 +5642,8 @@
                     "Nous avons des invités."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fête",
@@ -5377,7 +5661,8 @@
                     "Bonne fête !"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "voyageur",
@@ -5395,7 +5680,8 @@
                     "Le train est plein de voyageurs."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "rue",
@@ -5413,7 +5699,8 @@
                     "Quelle rue ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chemin",
@@ -5431,7 +5718,8 @@
                     "Le chemin est long."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "route",
@@ -5449,7 +5737,8 @@
                     "La route est belle."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "place",
@@ -5467,7 +5756,8 @@
                     "La place du village."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pont",
@@ -5485,7 +5775,8 @@
                     "Le pont est vieux."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "plage",
@@ -5503,7 +5794,8 @@
                     "J'aime la plage."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "campagne",
@@ -5521,7 +5813,8 @@
                     "Vivre à la campagne."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "village",
@@ -5539,7 +5832,8 @@
                     "C'est un beau village."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "langue",
@@ -5557,7 +5851,8 @@
                     "Le français est une langue."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mot",
@@ -5575,7 +5870,8 @@
                     "Un mot difficile."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "phrase",
@@ -5593,7 +5889,8 @@
                     "Fais une phrase."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "question",
@@ -5611,7 +5908,8 @@
                     "J'ai une question."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "réponse",
@@ -5629,7 +5927,8 @@
                     "La réponse est non."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "idée",
@@ -5647,7 +5946,8 @@
                     "C'est une bonne idée."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "avis",
@@ -5665,7 +5965,8 @@
                     "Donne-moi ton avis."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "opinion",
@@ -5683,7 +5984,8 @@
                     "Une opinion tranchée."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "choix",
@@ -5701,7 +6003,8 @@
                     "C'est ton choix."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "décision",
@@ -5719,7 +6022,8 @@
                     "Prendre une décision."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "projet",
@@ -5737,7 +6041,8 @@
                     "Un nouveau projet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "réussite",
@@ -5755,7 +6060,8 @@
                     "C'est une réussite."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "erreur",
@@ -5773,7 +6079,8 @@
                     "Faire une erreur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "faute",
@@ -5791,7 +6098,8 @@
                     "Une faute de français."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cadeau",
@@ -5809,7 +6117,8 @@
                     "Merci pour le cadeau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "prix",
@@ -5827,7 +6136,8 @@
                     "Quel est le prix ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "achat",
@@ -5845,7 +6155,8 @@
                     "Un achat utile."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "magasin",
@@ -5863,7 +6174,8 @@
                     "Le magasin est grand."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "centre commercial",
@@ -5881,7 +6193,8 @@
                     "Allons au centre commercial."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "monnaie",
@@ -5899,7 +6212,8 @@
                     "Avez-vous de la monnaie ?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "compte",
@@ -5917,7 +6231,8 @@
                     "Ouvrir un compte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "banque",
@@ -5935,7 +6250,8 @@
                     "Je vais à la banque."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "épargne",
@@ -5953,7 +6269,8 @@
                     "Mes épargnes."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "dépense",
@@ -5971,7 +6288,8 @@
                     "Réduire les dépenses."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "paiement",
@@ -5989,7 +6307,8 @@
                     "Paiement par carte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "coût",
@@ -6007,7 +6326,8 @@
                     "Le coût de la vie."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "marché",
@@ -6025,7 +6345,8 @@
                     "Le marché mondial."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "produit",
@@ -6043,7 +6364,8 @@
                     "Un nouveau produit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "service",
@@ -6061,7 +6383,8 @@
                     "Un bon service."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "offre",
@@ -6079,7 +6402,8 @@
                     "Une offre spéciale."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "demande",
@@ -6097,7 +6421,8 @@
                     "La demande est forte."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "livraison",
@@ -6115,7 +6440,8 @@
                     "Livraison à domicile."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "commande",
@@ -6133,7 +6459,8 @@
                     "Passer une commande."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "clientèle",
@@ -6151,7 +6478,8 @@
                     "Une clientèle fidèle."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "vente",
@@ -6169,7 +6497,8 @@
                     "En vente libre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boutique",
@@ -6187,7 +6516,8 @@
                     "Une boutique de mode."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "étage",
@@ -6205,7 +6535,8 @@
                     "J'habite au premier étage."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "entrée",
@@ -6223,7 +6554,8 @@
                     "L'entrée de la maison."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sortie",
@@ -6241,7 +6573,8 @@
                     "La sortie est là."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "escalier",
@@ -6259,7 +6592,8 @@
                     "Monter l'escalier."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ascenseur",
@@ -6277,7 +6611,8 @@
                     "Prendre l'ascenseur."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "couloir",
@@ -6295,7 +6630,8 @@
                     "Le couloir est sombre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "murs",
@@ -6313,7 +6649,8 @@
                     "Des murs blancs."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toit",
@@ -6331,7 +6668,8 @@
                     "Le chat est sur le toit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jardin",
@@ -6349,7 +6687,8 @@
                     "Travailler au jardin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "garage",
@@ -6367,7 +6706,8 @@
                     "La voiture est au garage."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "salon",
@@ -6385,7 +6725,8 @@
                     "Regarder la télé au salon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cuisine",
@@ -6403,7 +6744,8 @@
                     "La cuisine est moderne."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "salle à manger",
@@ -6421,7 +6763,8 @@
                     "Dîner dans la salle à manger."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toilette",
@@ -6439,7 +6782,8 @@
                     "Où sont les toilettes ?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "douche",
@@ -6457,7 +6801,8 @@
                     "Prendre une douche."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "robinet",
@@ -6475,7 +6820,8 @@
                     "Ferme le robinet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "savon",
@@ -6493,7 +6839,8 @@
                     "Se laver avec du savon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "serviette",
@@ -6511,7 +6858,8 @@
                     "Une serviette propre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "miroir",
@@ -6529,7 +6877,8 @@
                     "Se regarder dans le miroir."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lit",
@@ -6547,7 +6896,8 @@
                     "Un lit confortable."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oreiller",
@@ -6565,7 +6915,8 @@
                     "Un oreiller mou."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "couverture",
@@ -6583,7 +6934,8 @@
                     "Une couverture en laine."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "armoire",
@@ -6601,7 +6953,8 @@
                     "Ranger l'armoire."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "étagère",
@@ -6619,7 +6972,8 @@
                     "Une étagère pleine."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bureau",
@@ -6637,7 +6991,8 @@
                     "Travailler à son bureau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chaise",
@@ -6655,7 +7010,8 @@
                     "Une chaise en bois."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fauteuil",
@@ -6673,7 +7029,8 @@
                     "S'asseoir dans un fauteuil."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "canapé",
@@ -6691,7 +7048,8 @@
                     "Dormir sur le canapé."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lampe",
@@ -6709,7 +7067,8 @@
                     "Allume la lampe."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "télévision",
@@ -6727,7 +7086,8 @@
                     "Regarder la télévision."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "radio",
@@ -6745,7 +7105,8 @@
                     "Écouter la radio."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "téléphone",
@@ -6763,7 +7124,8 @@
                     "Répondre au téléphone."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "montre",
@@ -6781,7 +7143,8 @@
                     "Ma montre avance."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sac",
@@ -6799,7 +7162,8 @@
                     "Un sac à main."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "portefeuille",
@@ -6817,7 +7181,8 @@
                     "Oublier son portefeuille."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lunettes",
@@ -6835,7 +7200,8 @@
                     "Porter des lunettes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "parapluie",
@@ -6853,7 +7219,8 @@
                     "Prendre un parapluie."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chaussures",
@@ -6871,7 +7238,8 @@
                     "Mettre ses chaussures."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bottes",
@@ -6889,7 +7257,8 @@
                     "Des bottes de cuir."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chaussettes",
@@ -6907,7 +7276,8 @@
                     "Une paire de chaussettes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pantalon",
@@ -6925,7 +7295,8 @@
                     "Un pantalon bleu."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jean",
@@ -6943,7 +7314,8 @@
                     "Porter un jean."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jupe",
@@ -6961,7 +7333,8 @@
                     "Une jupe plissée."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "robe",
@@ -6979,7 +7352,8 @@
                     "Une robe de soirée."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chemise",
@@ -6997,7 +7371,8 @@
                     "Une chemise blanche."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pull",
@@ -7015,7 +7390,8 @@
                     "Mettre un pull."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "manteau",
@@ -7033,7 +7409,8 @@
                     "Un long manteau."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "veste",
@@ -7051,7 +7428,8 @@
                     "Une veste légère."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "casquette",
@@ -7069,7 +7447,8 @@
                     "Mettre une casquette."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bonnet",
@@ -7087,7 +7466,8 @@
                     "Un bonnet chaud."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "gants",
@@ -7105,7 +7485,8 @@
                     "Une paire de gants."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ceinture",
@@ -7123,7 +7504,8 @@
                     "Une ceinture en cuir."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "maillot de bain",
@@ -7141,7 +7523,8 @@
                     "Prendre son maillot."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pyjama",
@@ -7159,7 +7542,8 @@
                     "Mettre son pyjama."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "valise",
@@ -7177,7 +7561,8 @@
                     "Boucler sa valise."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sac à dos",
@@ -7195,7 +7580,8 @@
                     "Prendre son sac à dos."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "passeport",
@@ -7213,7 +7599,8 @@
                     "Montrer son passeport."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "billet",
@@ -7231,7 +7618,8 @@
                     "Un billet de train."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "carte",
@@ -7249,7 +7637,8 @@
                     "Une carte routière."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "plan",
@@ -7267,7 +7656,8 @@
                     "Un plan de métro."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "gare",
@@ -7285,7 +7675,8 @@
                     "Aller à la gare."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "aéroport",
@@ -7303,7 +7694,8 @@
                     "Prendre un taxi pour l'aéroport."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "station de bus",
@@ -7321,7 +7713,8 @@
                     "Attendre à la station."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "arrêt de bus",
@@ -7339,7 +7732,8 @@
                     "S'arrêter au prochain arrêt."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "quai",
@@ -7357,7 +7751,8 @@
                     "Le train arrive au quai 3."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "voie",
@@ -7375,7 +7770,8 @@
                     "La voie est libre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "train",
@@ -7393,7 +7789,8 @@
                     "Prendre le train."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bus",
@@ -7411,7 +7808,8 @@
                     "Le bus de 8h."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "métro",
@@ -7429,7 +7827,8 @@
                     "Prendre le métro."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "taxi",
@@ -7447,7 +7846,8 @@
                     "Appeler un taxi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vitesse",
@@ -7465,7 +7865,8 @@
                     "Limiter la vitesse."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bagages",
@@ -7483,7 +7884,8 @@
                     "Porter les bagages."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "voyage",
@@ -7501,7 +7903,8 @@
                     "Bon voyage !"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vacances",
@@ -7519,7 +7922,8 @@
                     "Partir en vacances."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "départ",
@@ -7537,7 +7941,8 @@
                     "L'heure du départ."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "arrivée",
@@ -7555,7 +7960,8 @@
                     "L'heure de l'arrivée."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vol",
@@ -7573,7 +7979,8 @@
                     "Un vol de nuit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "réservation",
@@ -7591,7 +7998,8 @@
                     "Faire une réservation."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chambre d'hôtel",
@@ -7609,7 +8017,8 @@
                     "Réserver une chambre d'hôtel."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "clé",
@@ -7627,7 +8036,8 @@
                     "Rendre la clé."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "réception",
@@ -7645,7 +8055,8 @@
                     "Aller à la réception."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "déjeuner",
@@ -7663,7 +8074,8 @@
                     "Un déjeuner léger."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dîner",
@@ -7681,7 +8093,8 @@
                     "Un dîner entre amis."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "souper",
@@ -7699,7 +8112,8 @@
                     "Prendre le souper."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "collation",
@@ -7717,7 +8131,8 @@
                     "Prendre une collation."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "réveil",
@@ -7735,12 +8150,13 @@
                     "Le réveil a sonné."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "je",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "pronoun",
         "definitions": [
@@ -7757,7 +8173,7 @@
     {
         "word": "tu",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "pronoun",
         "definitions": [
@@ -7774,7 +8190,7 @@
     {
         "word": "il",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👨",
         "form": "pronoun",
         "definitions": [
@@ -7791,7 +8207,7 @@
     {
         "word": "elle",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👩",
         "form": "pronoun",
         "definitions": [
@@ -7808,7 +8224,7 @@
     {
         "word": "nous",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👥",
         "form": "pronoun",
         "definitions": [
@@ -7825,7 +8241,7 @@
     {
         "word": "vous",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👥",
         "form": "pronoun",
         "definitions": [
@@ -7842,7 +8258,7 @@
     {
         "word": "ils",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👨‍👨‍👦",
         "form": "pronoun",
         "definitions": [
@@ -7859,7 +8275,7 @@
     {
         "word": "elles",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👩‍👩‍👧",
         "form": "pronoun",
         "definitions": [
@@ -7876,7 +8292,7 @@
     {
         "word": "mon",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "🙋",
         "form": "determiner",
         "definitions": [
@@ -7893,7 +8309,7 @@
     {
         "word": "ma",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "🙋",
         "form": "determiner",
         "definitions": [
@@ -7910,7 +8326,7 @@
     {
         "word": "mes",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "🙋",
         "form": "determiner",
         "definitions": [
@@ -7927,7 +8343,7 @@
     {
         "word": "ton",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "determiner",
         "definitions": [
@@ -7944,7 +8360,7 @@
     {
         "word": "son",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👨",
         "form": "determiner",
         "definitions": [
@@ -7961,7 +8377,7 @@
     {
         "word": "un",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "1️⃣",
         "form": "determiner",
         "definitions": [
@@ -7978,7 +8394,7 @@
     {
         "word": "une",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "1️⃣",
         "form": "determiner",
         "definitions": [
@@ -7995,7 +8411,7 @@
     {
         "word": "le",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "📦",
         "form": "determiner",
         "definitions": [
@@ -8012,7 +8428,7 @@
     {
         "word": "la",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "📦",
         "form": "determiner",
         "definitions": [
@@ -8029,7 +8445,7 @@
     {
         "word": "les",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "📦",
         "form": "determiner",
         "definitions": [
@@ -8046,7 +8462,7 @@
     {
         "word": "ce",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "👉",
         "form": "determiner",
         "definitions": [
@@ -8148,7 +8564,7 @@
     {
         "word": "en",
         "level": "starter",
-        "theme": "prepositions_grammar_A1",
+        "theme": "personal_identity_A1",
         "emoji": "📍",
         "form": "preposition",
         "definitions": [
@@ -8249,7 +8665,7 @@
     {
         "word": "tigre",
         "level": "starter",
-        "theme": "wild_animals_A1",
+        "theme": "animals_A1",
         "emoji": "🐅",
         "form": "noun",
         "gender": "masculine",
@@ -8270,7 +8686,7 @@
     {
         "word": "singe",
         "level": "starter",
-        "theme": "wild_animals_A1",
+        "theme": "animals_A1",
         "emoji": "🐒",
         "form": "noun",
         "gender": "masculine",
@@ -8941,4 +9357,5 @@
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
 })();
