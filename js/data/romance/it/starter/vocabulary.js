@@ -8132,15 +8132,15 @@
         "plural": "parole",
         "definitions": [
             {
-                "text": "Unità del linguaggio.",
+                "text": "Unità minima della lingua dotata di significato.",
                 "examples": [
-                    "Una parola difficile."
+                    "Non capisco questa parola."
                 ]
             }
         ],
         "countability": "countable",
         "partitive": "della",
-        "transcription": "paˈrɔla",
+        "transcription": "pa.ˈɾɔ.la",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
@@ -8156,15 +8156,15 @@
         "plural": "frasi",
         "definitions": [
             {
-                "text": "Insieme di parole.",
+                "text": "Insieme di parole che esprime un concetto compiuto.",
                 "examples": [
-                    "Fai una frase."
+                    "Scrivi una frase alla lavagna."
                 ]
             }
         ],
         "countability": "countable",
         "partitive": "della",
-        "transcription": "ˈfraze",
+        "transcription": "ˈfɾaze",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
@@ -12302,9 +12302,9 @@
         "transcription": "ˈaula",
         "definitions": [
             {
-                "text": "La stanza dove si fanno le lezioni a scuola.",
+                "text": "Locale destinato allo svolgimento delle lezioni.",
                 "examples": [
-                    "L'aula è grande e luminosa."
+                    "Gli studenti sono in aula."
                 ]
             }
         ],
@@ -12373,10 +12373,10 @@
         "emoji": "📕",
         "form": "noun",
         "plural": "dizionari",
-        "transcription": "dittsjoˈnarjo",
+        "transcription": "dit.tsjo.ˈna.ɾjo",
         "definitions": [
             {
-                "text": "Libro che spiega il significato delle parole.",
+                "text": "Libro che raccoglie e spiega le parole di una lingua.",
                 "examples": [
                     "Cerco la parola sul dizionario."
                 ]
@@ -14041,13 +14041,12 @@
         "plural": "esempi",
         "countability": "countable",
         "partitive": "dell'",
-        "transcription": "eˈzɛmpjo",
+        "transcription": "e.ˈzɛm.pjo",
         "definitions": [
             {
-                "text": "Cosa che serve a illustrare una regola o un concetto.",
+                "text": "Fatto o cosa che serve a illustrare una regola.",
                 "examples": [
-                    "Fai un esempio.",
-                    "Questo è un buon esempio."
+                    "Fai un esempio."
                 ]
             }
         ],
@@ -14150,6 +14149,26 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": []
+    },
+    {
+        "word": "pagina",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📄",
+        "definitions": [
+            {
+                "text": "Ciascuna delle due facciate di un foglio di carta.",
+                "examples": [
+                    "Leggi la pagina dieci."
+                ]
+            }
+        ],
+        "transcription": "ˈpaʤina",
+        "article": "la",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della"
     }
 ];
     const lang = "it";

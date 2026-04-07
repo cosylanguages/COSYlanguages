@@ -2904,6 +2904,20 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "chato",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "emoji": "🥱",
+        "definitions": [
+            {
+                "text": "Describing something boring.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
     }
 ];
     const lang = "pt";

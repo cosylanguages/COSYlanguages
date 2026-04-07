@@ -242,8 +242,8 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "speciale",
-        "oppositeEmoji": "✨",
+        "opposite": "incredibile",
+        "oppositeEmoji": "😲",
         "definitions": [
             {
                 "text": "Che rientra nella norma; comune.",
@@ -553,7 +553,7 @@
         "comparative": "più felice",
         "superlative": "il più felice",
         "transcription": "feˈlitʃe",
-        "opposite": "triste",
+        "opposite": "infelice",
         "oppositeEmoji": "😢"
     },
     {
@@ -844,10 +844,9 @@
         "femininePlural": "utili",
         "definitions": [
             {
-                "text": "Che serve a uno scopo; vantaggioso.",
+                "text": "Che serve a uno scopo o è di aiuto.",
                 "examples": [
-                    "Questo libro è molto utile.",
-                    "È un'informazione utile."
+                    "Un coltello è molto utile."
                 ]
             }
         ],
@@ -856,7 +855,7 @@
         "superlative": "il più utile",
         "opposite": "inutile",
         "oppositeEmoji": "🗑️",
-        "transcription": "ˈutile"
+        "transcription": "ˈu.ti.le"
     },
     {
         "word": "importante",
@@ -1703,7 +1702,9 @@
         ],
         "comparative": "più meraviglioso",
         "superlative": "il più meraviglioso",
-        "transcription": "meraviʎˈʎozo"
+        "transcription": "meraviʎˈʎozo",
+        "opposite": "terribile",
+        "oppositeEmoji": "😫"
     },
     {
         "word": "terribile",
@@ -1716,9 +1717,9 @@
         "femininePlural": "terribili",
         "definitions": [
             {
-                "text": "Estremamente cattivo.",
+                "text": "Che incute terrore o è molto brutto.",
                 "examples": [
-                    "Il traffico stamattina era terribile."
+                    "Ho fatto un sogno terribile."
                 ]
             }
         ],
@@ -1728,7 +1729,9 @@
         ],
         "comparative": "più terribile",
         "superlative": "il più terribile",
-        "transcription": "terˈribile"
+        "transcription": "teɾ.ˈɾi.bi.le",
+        "opposite": "meraviglioso",
+        "oppositeEmoji": "🌟"
     },
     {
         "word": "orribile",
@@ -1753,7 +1756,9 @@
         ],
         "comparative": "più orribile",
         "superlative": "il più orribile",
-        "transcription": "orˈribile"
+        "transcription": "orˈribile",
+        "opposite": "fantastico",
+        "oppositeEmoji": "✨"
     },
     {
         "word": "incredibile",
@@ -1775,7 +1780,9 @@
         "subtext": "un risultato incredibile / un'offerta incredibile / davvero incredibile",
         "comparative": "più incredibile",
         "superlative": "il più incredibile",
-        "transcription": "inkreˈdibile"
+        "transcription": "inkreˈdibile",
+        "opposite": "ordinario",
+        "oppositeEmoji": "📦"
     },
     {
         "word": "fantastico",
@@ -1801,7 +1808,9 @@
         ],
         "comparative": "più fantastico",
         "superlative": "il più fantastico",
-        "transcription": "fanˈtastiko"
+        "transcription": "fanˈtastiko",
+        "opposite": "orribile",
+        "oppositeEmoji": "👹"
     },
     {
         "word": "triste",
@@ -2026,7 +2035,7 @@
         "comparative": "più sbagliato",
         "superlative": "il più sbagliato",
         "transcription": "zbaʎˈʎato",
-        "opposite": "giusto",
+        "opposite": "corretto",
         "oppositeEmoji": "✅"
     },
     {
@@ -2080,7 +2089,9 @@
         ],
         "comparative": "più differente",
         "superlative": "il più differente",
-        "transcription": "diffeˈrɛnte"
+        "transcription": "diffeˈrɛnte",
+        "opposite": "stesso",
+        "oppositeEmoji": "👯"
     },
     {
         "word": "stesso",
@@ -2105,7 +2116,9 @@
         ],
         "comparative": "più stesso",
         "superlative": "il più stesso",
-        "transcription": "ˈstesso"
+        "transcription": "ˈstesso",
+        "opposite": "differente",
+        "oppositeEmoji": "🎭"
     },
     {
         "word": "veloce",
@@ -2243,7 +2256,9 @@
         ],
         "comparative": "più sicuro",
         "superlative": "il più sicuro",
-        "transcription": "siˈkuro"
+        "transcription": "siˈkuro",
+        "opposite": "pericoloso",
+        "oppositeEmoji": "⚠️"
     },
     {
         "word": "pericoloso",
@@ -2268,7 +2283,9 @@
         ],
         "comparative": "più pericoloso",
         "superlative": "il più pericoloso",
-        "transcription": "perikoˈlozo"
+        "transcription": "perikoˈlozo",
+        "opposite": "sicuro",
+        "oppositeEmoji": "🛡️"
     },
     {
         "word": "infelice",
@@ -2289,7 +2306,9 @@
         "subtext": "infelice per qualcosa / profondamente infelice",
         "comparative": "più infelice",
         "superlative": "il più infelice",
-        "transcription": "infeˈlitʃe"
+        "transcription": "infeˈlitʃe",
+        "opposite": "felice",
+        "oppositeEmoji": "😊"
     },
     {
         "word": "nervoso",
@@ -2607,9 +2626,9 @@
         "femininePlural": "perfette",
         "definitions": [
             {
-                "text": "Che non ha difetti; compiuto.",
+                "text": "Che non ha difetti o mancanze.",
                 "examples": [
-                    "Il tempismo del lancio è stato perfetto."
+                    "Il tuo lavoro è perfetto."
                 ]
             }
         ],
@@ -2619,7 +2638,7 @@
         ],
         "comparative": "più perfetto",
         "superlative": "il più perfetto",
-        "transcription": "perˈfɛtto"
+        "transcription": "peɾ.ˈfɛt.to"
     },
     {
         "word": "inutile",
@@ -2664,7 +2683,9 @@
         ],
         "comparative": "più corretto",
         "superlative": "il più corretto",
-        "transcription": "korˈrɛtto"
+        "transcription": "korˈrɛtto",
+        "opposite": "sbagliato",
+        "oppositeEmoji": "❌"
     },
     {
         "word": "interessante",
@@ -2676,16 +2697,16 @@
         "femininePlural": "interessanti",
         "definitions": [
             {
-                "text": "Che desta interesse o curiosità.",
+                "text": "Che suscita interesse o attenzione.",
                 "examples": [
-                    "La nuova proposta è molto interessante."
+                    "Questo libro è molto interessante."
                 ]
             }
         ],
         "subtext": "trovare interessante / molto interessante / un'idea interessante",
         "comparative": "più interessante",
         "superlative": "il più interessante",
-        "transcription": "interesˈsante"
+        "transcription": "in.te.ɾes.ˈsante"
     },
     {
         "word": "noioso",
@@ -2697,9 +2718,9 @@
         "femininePlural": "noiose",
         "definitions": [
             {
-                "text": "Che provoca noia; monotono.",
+                "text": "Che provoca noia o mancanza di interesse.",
                 "examples": [
-                    "La sessione di formazione è stata molto noiosa."
+                    "Il film era noioso."
                 ]
             }
         ],
@@ -2709,7 +2730,9 @@
         ],
         "comparative": "più noioso",
         "superlative": "il più noioso",
-        "transcription": "noˈjozo"
+        "transcription": "no.ˈjo.zo",
+        "opposite": "emozionante",
+        "oppositeEmoji": "🎢"
     },
     {
         "word": "necessario",
@@ -2751,7 +2774,9 @@
         "subtext": "al più presto possibile / è possibile / rendere possibile",
         "comparative": "più possibile",
         "superlative": "il più possibile",
-        "transcription": "posˈsibile"
+        "transcription": "posˈsibile",
+        "opposite": "impossibile",
+        "oppositeEmoji": "🚫"
     },
     {
         "word": "impossibile",
@@ -2772,7 +2797,9 @@
         "subtext": "praticamente impossibile / rendere impossibile / quasi impossibile",
         "comparative": "più impossibile",
         "superlative": "il più impossibile",
-        "transcription": "imposˈsibile"
+        "transcription": "imposˈsibile",
+        "opposite": "possibile",
+        "oppositeEmoji": "👍"
     },
     {
         "word": "speciale",
@@ -2862,7 +2889,9 @@
         ],
         "comparative": "più amichevole",
         "superlative": "il più amichevole",
-        "transcription": "amiˈkevole"
+        "transcription": "amiˈkevole",
+        "opposite": "poco amichevole",
+        "oppositeEmoji": "😒"
     },
     {
         "word": "gentile",
@@ -2895,16 +2924,16 @@
         "femininePlural": "divertenti",
         "definitions": [
             {
-                "text": "Che diverte; piacevole.",
+                "text": "Che procura divertimento o allegria.",
                 "examples": [
-                    "Ha un modo divertente di spiegare idee complesse."
+                    "Quella barzelletta è divertente."
                 ]
             }
         ],
         "subtext": "molto divertente / storia divertente / trovarlo divertente",
         "comparative": "più divertente",
         "superlative": "il più divertente",
-        "transcription": "diverˈtente"
+        "transcription": "di.veɾ.ˈtɛnte"
     },
     {
         "word": "intelligente",
@@ -2954,7 +2983,9 @@
         ],
         "comparative": "più educato",
         "superlative": "il più educato",
-        "transcription": "eduˈkato"
+        "transcription": "eduˈkato",
+        "opposite": "maleducato",
+        "oppositeEmoji": "🖕"
     },
     {
         "word": "maleducato",
@@ -2980,7 +3011,9 @@
         ],
         "comparative": "più maleducato",
         "superlative": "il più maleducato",
-        "transcription": "maleduˈkato"
+        "transcription": "maleduˈkato",
+        "opposite": "educato",
+        "oppositeEmoji": "🙏"
     },
     {
         "word": "pigro",
@@ -3001,7 +3034,9 @@
         "subtext": "molto pigro / un approccio pigro / troppo pigro",
         "comparative": "più pigro",
         "superlative": "il più pigro",
-        "transcription": "ˈpiɡro"
+        "transcription": "ˈpiɡro",
+        "opposite": "attivo",
+        "oppositeEmoji": "🏃"
     },
     {
         "word": "onesto",
@@ -3023,7 +3058,9 @@
         "subtext": "molto onesto / brutalmente onesto / del tutto onesto",
         "comparative": "più onesto",
         "superlative": "il più onesto",
-        "transcription": "oˈnɛsto"
+        "transcription": "oˈnɛsto",
+        "opposite": "disonesto",
+        "oppositeEmoji": "🤥"
     },
     {
         "word": "rumoroso",
@@ -3150,17 +3187,16 @@
         "femininePlural": "utili",
         "definitions": [
             {
-                "text": "Che serve a uno scopo; vantaggioso.",
+                "text": "Che serve a uno scopo o è di aiuto.",
                 "examples": [
-                    "Questo libro è molto utile.",
-                    "È un'informazione utile."
+                    "Un coltello è molto utile."
                 ]
             }
         ],
         "subtext": "utile",
         "comparative": "più utile",
         "superlative": "il più utile",
-        "transcription": "ˈutile"
+        "transcription": "ˈu.ti.le"
     },
     {
         "word": "paziente",
@@ -3183,7 +3219,9 @@
         "subtext": "paziente",
         "comparative": "più paziente",
         "superlative": "il più paziente",
-        "transcription": "patˈtsjɛnte"
+        "transcription": "patˈtsjɛnte",
+        "opposite": "impaziente",
+        "oppositeEmoji": "⌚"
     },
     {
         "word": "attivo",
@@ -3206,7 +3244,9 @@
         "subtext": "attivo",
         "comparative": "più attivo",
         "superlative": "il più attivo",
-        "transcription": "atˈtivo"
+        "transcription": "atˈtivo",
+        "opposite": "pigro",
+        "oppositeEmoji": "🦥"
     },
     {
         "word": "attento",
@@ -3229,7 +3269,9 @@
         "subtext": "attento",
         "comparative": "più attento",
         "superlative": "il più attento",
-        "transcription": "atˈtɛnto"
+        "transcription": "atˈtɛnto",
+        "opposite": "disattento",
+        "oppositeEmoji": "🤡"
     },
     {
         "word": "creativo",
@@ -3630,7 +3672,9 @@
         "subtext": "emozionante",
         "comparative": "più emozionante",
         "superlative": "il più emozionante",
-        "transcription": "emotsjoˈnante"
+        "transcription": "emotsjoˈnante",
+        "opposite": "noioso",
+        "oppositeEmoji": "🥱"
     },
     {
         "word": "delizioso",
@@ -3676,7 +3720,9 @@
         "subtext": "dolce",
         "comparative": "più dolce",
         "superlative": "il più dolce",
-        "transcription": "ˈdoltʃe"
+        "transcription": "ˈdoltʃe",
+        "opposite": "acido",
+        "oppositeEmoji": "🍋"
     },
     {
         "word": "comodo",
@@ -3722,7 +3768,9 @@
         "subtext": "vero",
         "comparative": "più vero",
         "superlative": "il più vero",
-        "transcription": "ˈvero"
+        "transcription": "ˈvero",
+        "opposite": "falso",
+        "oppositeEmoji": "✖️"
     },
     {
         "word": "semplice",
@@ -3745,7 +3793,9 @@
         "subtext": "semplice",
         "comparative": "più semplice",
         "superlative": "il più semplice",
-        "transcription": "ˈsemplitʃe"
+        "transcription": "ˈsemplitʃe",
+        "opposite": "complesso",
+        "oppositeEmoji": "🕸️"
     },
     {
         "word": "naturale",
@@ -3768,7 +3818,9 @@
         "subtext": "naturale",
         "comparative": "più naturale",
         "superlative": "il più naturale",
-        "transcription": "natuˈrale"
+        "transcription": "natuˈrale",
+        "opposite": "artificiale",
+        "oppositeEmoji": "🤖"
     },
     {
         "word": "chiaro",
@@ -3839,7 +3891,9 @@
         "subtext": "famoso",
         "comparative": "più famoso",
         "superlative": "il più famoso",
-        "transcription": "faˈmozo"
+        "transcription": "faˈmozo",
+        "opposite": "sconosciuto",
+        "oppositeEmoji": "👤"
     },
     {
         "word": "salato",
@@ -3862,7 +3916,9 @@
         "subtext": "salato",
         "comparative": "più salato",
         "superlative": "il più salato",
-        "transcription": "saˈlato"
+        "transcription": "saˈlato",
+        "opposite": "insipido",
+        "oppositeEmoji": "🥣"
     },
     {
         "word": "acido",
@@ -3885,7 +3941,9 @@
         "subtext": "acido",
         "comparative": "più acido",
         "superlative": "il più acido",
-        "transcription": "ˈatʃido"
+        "transcription": "ˈatʃido",
+        "opposite": "dolce",
+        "oppositeEmoji": "🍭"
     },
     {
         "word": "amaro",
@@ -3931,7 +3989,9 @@
         "subtext": "grasso",
         "comparative": "più grasso",
         "superlative": "il più grasso",
-        "transcription": "ˈɡrasso"
+        "transcription": "ˈɡrasso",
+        "opposite": "magro",
+        "oppositeEmoji": "🥪"
     },
     {
         "word": "magro",
@@ -3954,7 +4014,9 @@
         "subtext": "magro",
         "comparative": "più magro",
         "superlative": "il più magro",
-        "transcription": "ˈmaɡro"
+        "transcription": "ˈmaɡro",
+        "opposite": "grasso",
+        "oppositeEmoji": "🍔"
     },
     {
         "word": "riccio",
@@ -4397,7 +4459,9 @@
         "subtext": "poco amichevole",
         "comparative": "più poco amichevole",
         "superlative": "il più poco amichevole",
-        "transcription": "ˈpɔko amiˈkevole"
+        "transcription": "ˈpɔko amiˈkevole",
+        "opposite": "amichevole",
+        "oppositeEmoji": "🤝"
     },
     {
         "word": "impaziente",
@@ -4420,7 +4484,9 @@
         "subtext": "impaziente",
         "comparative": "più impaziente",
         "superlative": "il più impaziente",
-        "transcription": "impatˈtsjɛnte"
+        "transcription": "impatˈtsjɛnte",
+        "opposite": "paziente",
+        "oppositeEmoji": "⏳"
     },
     {
         "word": "maleducato",
@@ -4466,7 +4532,9 @@
         "subtext": "falso",
         "comparative": "più falso",
         "superlative": "il più falso",
-        "transcription": "ˈfalso"
+        "transcription": "ˈfalso",
+        "opposite": "vero",
+        "oppositeEmoji": "✔️"
     },
     {
         "word": "sfortunato",

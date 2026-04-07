@@ -5865,13 +5865,14 @@
         "plural": "mots",
         "definitions": [
             {
-                "text": "Unité de langage.",
+                "text": "Élément de la langue composé de plusieurs sons.",
                 "examples": [
-                    "Un mot difficile."
+                    "Je ne connais pas ce mot."
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "mo"
     },
     {
         "word": "phrase",
@@ -5884,13 +5885,14 @@
         "plural": "phrases",
         "definitions": [
             {
-                "text": "Ensemble de mots.",
+                "text": "Ensemble de mots ayant un sens complet.",
                 "examples": [
-                    "Fais une phrase."
+                    "Écris une phrase sur ton cahier."
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "fʁaz"
     },
     {
         "word": "question",
@@ -9352,6 +9354,86 @@
             }
         ],
         "transcription": "natyʁ"
+    },
+    {
+        "word": "salle de classe",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "🏫",
+        "definitions": [
+            {
+                "text": "Pièce où les élèves reçoivent un enseignement.",
+                "examples": [
+                    "Nous entrons dans la salle de classe."
+                ]
+            }
+        ],
+        "transcription": "sal də klas",
+        "article": "la",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "page",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📄",
+        "definitions": [
+            {
+                "text": "Une des deux faces d'un feuillet de papier.",
+                "examples": [
+                    "Tournez la page, s'il vous plaît."
+                ]
+            }
+        ],
+        "transcription": "paʒ",
+        "article": "la",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "exemple",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📝",
+        "definitions": [
+            {
+                "text": "Ce qui illustre une règle ou une idée.",
+                "examples": [
+                    "Donne-moi un exemple."
+                ]
+            }
+        ],
+        "transcription": "eg.zɑ̃pl",
+        "article": "l'",
+        "gender": "masculine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "dictionnaire",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📖",
+        "definitions": [
+            {
+                "text": "Ouvrage qui répertorie les mots d'une langue.",
+                "examples": [
+                    "Je cherche la définition dans le dictionnaire."
+                ]
+            }
+        ],
+        "transcription": "dik.sjɔ.nɛʁ",
+        "article": "le",
+        "gender": "masculine",
+        "countability": "countable",
+        "partitive": ""
     }
 ];
     const lang = "fr";

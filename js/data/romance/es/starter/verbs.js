@@ -26,7 +26,8 @@
         "v2": "fui",
         "v3": "sido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ˈseɾ"
     },
     {
         "word": "tener",
@@ -52,7 +53,8 @@
         "v2": "tuve",
         "v3": "tenido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "te.ˈneɾ"
     },
     {
         "word": "sentir",
@@ -105,7 +107,8 @@
         "v2": "di",
         "v3": "dado",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ˈdaɾ"
     },
     {
         "word": "tomar",
@@ -189,7 +192,8 @@
         "v2": "puse",
         "v3": "puesto",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "po.ˈneɾ"
     },
     {
         "word": "hacer",
@@ -217,7 +221,8 @@
         "v2": "hice",
         "v3": "hecho",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "a.ˈθeɾ"
     },
     {
         "word": "hacer",
@@ -240,7 +245,8 @@
         "v2": "hice",
         "v3": "hecho",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "a.ˈθeɾ"
     },
     {
         "word": "usar",
@@ -288,7 +294,8 @@
         "v2": "abrí",
         "v3": "abierto",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "a.ˈβɾiɾ"
     },
     {
         "word": "cerrar",
@@ -313,7 +320,8 @@
         "v2": "cerré",
         "v3": "cerrado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "θe.ˈraɾ"
     },
     {
         "word": "empezar",
@@ -387,7 +395,8 @@
         "v2": "ayudé",
         "v3": "ayudado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "a.ʝu.ˈðaɾ"
     },
     {
         "word": "intentar",
@@ -462,7 +471,8 @@
         "v2": "encontré",
         "v3": "encontrado",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "en.kon.ˈtɾaɾ"
     },
     {
         "word": "mantener",
@@ -621,7 +631,8 @@
         "v2": "dije",
         "v3": "dicho",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "de.ˈθiɾ"
     },
     {
         "word": "decir",
@@ -647,7 +658,8 @@
         "v2": "dije",
         "v3": "dicho",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "de.ˈθiɾ"
     },
     {
         "word": "preguntar",
@@ -697,7 +709,8 @@
         "v2": "hablé",
         "v3": "hablado",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "a.ˈβlaɾ"
     },
     {
         "word": "hablar",
@@ -719,7 +732,8 @@
         "v2": "hablé",
         "v3": "hablado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "a.ˈβlaɾ"
     },
     {
         "word": "llamar",
@@ -773,7 +787,8 @@
         "v2": "escribí",
         "v3": "escrito",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "es.kɾi.ˈβiɾ"
     },
     {
         "word": "leer",
@@ -798,7 +813,8 @@
         "v2": "leí",
         "v3": "leído",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "le.ˈeɾ"
     },
     {
         "word": "escuchar",
@@ -896,7 +912,8 @@
         "v2": "fui",
         "v3": "ido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ˈiɾ"
     },
     {
         "word": "venir",
@@ -924,7 +941,8 @@
         "v2": "vine",
         "v3": "venido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "be.ˈniɾ"
     },
     {
         "word": "caminar",
@@ -1142,7 +1160,8 @@
         "v2": "comí",
         "v3": "comido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ko.ˈmeɾ"
     },
     {
         "word": "beber",
@@ -1167,7 +1186,8 @@
         "v2": "bebí",
         "v3": "bebido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "be.ˈβeɾ"
     },
     {
         "word": "dormir",
@@ -1192,7 +1212,8 @@
         "v2": "dormí",
         "v3": "dormido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "doɾ.ˈmiɾ"
     },
     {
         "word": "cocinar",
@@ -1313,7 +1334,8 @@
         "v2": "compré",
         "v3": "comprado",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "kom.ˈpɾaɾ"
     },
     {
         "word": "pagar",
@@ -1335,7 +1357,8 @@
         "v2": "pagué",
         "v3": "pagado",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "pa.ˈgaɾ"
     },
     {
         "word": "gastar",
@@ -1406,7 +1429,8 @@
         "v2": "trabajé",
         "v3": "trabajado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "tɾa.βa.ˈxaɾ"
     },
     {
         "word": "vivir",
@@ -1431,7 +1455,8 @@
         "v2": "viví",
         "v3": "vivido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "bi.ˈβiɾ"
     },
     {
         "word": "pensar",
@@ -1485,7 +1510,8 @@
         "v2": "supe",
         "v3": "sabido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "sa.ˈβeɾ"
     },
     {
         "word": "querer",
@@ -1509,7 +1535,8 @@
         "v2": "quise",
         "v3": "querido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ke.ˈɾeɾ"
     },
     {
         "word": "necesitar",
@@ -1629,7 +1656,8 @@
         "v2": "esperé",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "es.pe.ˈɾaɾ"
     },
     {
         "word": "recordar",
@@ -1772,7 +1800,8 @@
         "v2": "vi",
         "v3": "visto",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ˈbeɾ"
     },
     {
         "word": "oír",
@@ -2151,7 +2180,8 @@
         "v2": "esperé",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "es.pe.ˈɾaɾ"
     },
     {
         "word": "morir",
@@ -2304,7 +2334,8 @@
         "v2": "vendí",
         "v3": "vendido",
         "group": "irregular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "ben.ˈdeɾ"
     },
     {
         "word": "tirar",
@@ -2697,7 +2728,8 @@
         "v2": "estudié",
         "v3": "estudiado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "transcription": "es.tu.ˈðjaɾ"
     },
     {
         "word": "enseñar",
@@ -3825,6 +3857,48 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "ir al trabajo",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "💼",
+        "definitions": [
+            {
+                "text": "To go to work.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
+    },
+    {
+        "word": "empezar a trabajar",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🏁",
+        "definitions": [
+            {
+                "text": "To start work.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
+    },
+    {
+        "word": "terminar de trabajar",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🛑",
+        "definitions": [
+            {
+                "text": "To finish work.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
     }
 ];
     const lang = "es";

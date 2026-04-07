@@ -35,7 +35,7 @@
         "emoji": "👜",
         "subtext": "avoir un travail / avoir déjeuner / avoir un problème",
         "form": "verb",
-        "transcription": "avwaʁ",
+        "transcription": "a.vwaʁ",
         "definitions": [
             {
                 "text": "Posséder quelque chose ; éprouver quelque chose.",
@@ -228,7 +228,8 @@
         "aspect": "action",
         "v3": "fait",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "fɛʁ"
     },
     {
         "word": "utiliser",
@@ -308,7 +309,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "commencer le travail / commencer une réunion / commencer un nouveau travail",
+        "subtext": "commencer à",
         "opposite": "finir",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -333,7 +334,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finir le travail / finir un projet / finir tôt",
+        "subtext": "finir de",
         "opposite": "commencer",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -357,7 +358,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "aider quelqu un / aider avec / demander de l aide",
+        "subtext": "aider à",
         "form": "verb",
         "definitions": [
             {
@@ -372,14 +373,15 @@
         "aspect": "action",
         "v3": "aidé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "e.de"
     },
     {
         "word": "essayer",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "essayer de faire / essayer fort / essayer quelque chose",
+        "subtext": "essayer de",
         "form": "verb",
         "definitions": [
             {
@@ -441,7 +443,8 @@
         "aspect": "action",
         "v3": "trouvé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "tʁu.ve"
     },
     {
         "word": "garder",
@@ -588,7 +591,8 @@
         "aspect": "action",
         "v3": "dit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "diʁ"
     },
     {
         "word": "dire",
@@ -613,14 +617,15 @@
         "aspect": "action",
         "v3": "dit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "diʁ"
     },
     {
         "word": "demander",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "demander de l aide / demander à propos de",
+        "subtext": "demander de",
         "synonyms": [
             "poser une question"
         ],
@@ -645,7 +650,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "parler à quelqu un / parler une langue / parler clairement",
+        "subtext": "parler de",
         "form": "verb",
         "definitions": [
             {
@@ -660,14 +665,15 @@
         "aspect": "action",
         "v3": "parlé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "paʁ.le"
     },
     {
         "word": "parler",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "parler à quelqu un / parler de / parler ouvertement",
+        "subtext": "parler de",
         "form": "verb",
         "definitions": [
             {
@@ -682,7 +688,8 @@
         "aspect": "action",
         "v3": "parlé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "paʁ.le"
     },
     {
         "word": "appeler",
@@ -732,7 +739,8 @@
         "aspect": "action",
         "v3": "écrit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "e.kʁiʁ"
     },
     {
         "word": "lire",
@@ -756,7 +764,8 @@
         "aspect": "action",
         "v3": "lu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "liʁ"
     },
     {
         "word": "écouter",
@@ -829,7 +838,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "aller au travail / aller à la maison",
+        "subtext": "aller à",
         "synonyms": [
             "sortir"
         ],
@@ -847,14 +856,15 @@
         "aspect": "action",
         "v3": "allé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "a.le"
     },
     {
         "word": "venir",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "rentrer à la maison / venir au travail",
+        "subtext": "venir de",
         "synonyms": [
             "revenir"
         ],
@@ -874,7 +884,8 @@
         "aspect": "action",
         "v3": "venu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "və.niʁ"
     },
     {
         "word": "marcher",
@@ -1096,7 +1107,8 @@
         "aspect": "action",
         "v3": "mangé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "mɑ̃.ʒe"
     },
     {
         "word": "boire",
@@ -1120,7 +1132,8 @@
         "aspect": "action",
         "v3": "bu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "bwaʁ"
     },
     {
         "word": "dormir",
@@ -1144,7 +1157,8 @@
         "aspect": "action",
         "v3": "dormi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "dɔʁ.miʁ"
     },
     {
         "word": "cuisiner",
@@ -1262,7 +1276,8 @@
         "aspect": "action",
         "v3": "acheté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "aʃ.te"
     },
     {
         "word": "payer",
@@ -1284,7 +1299,8 @@
         "aspect": "action",
         "v3": "payé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "pe.je"
     },
     {
         "word": "dépenser",
@@ -1355,7 +1371,8 @@
         "aspect": "action",
         "v3": "travaillé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "tʁa.va.je"
     },
     {
         "word": "vivre",
@@ -1386,7 +1403,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "penser à / penser de",
+        "subtext": "penser à",
         "synonyms": [
             "réfléchir attentivement"
         ],
@@ -1430,7 +1447,8 @@
         "aspect": "stative",
         "v3": "su",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "sa.vwaʁ"
     },
     {
         "word": "vouloir",
@@ -1453,7 +1471,8 @@
         "aspect": "stative",
         "v3": "voulu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "vu.lwaʁ"
     },
     {
         "word": "avoir besoin de",
@@ -1604,7 +1623,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "oublier un nom / oublier de faire / oublier",
+        "subtext": "oublier de",
         "form": "verb",
         "definitions": [
             {
@@ -1648,7 +1667,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "décider de faire / se décider pour",
+        "subtext": "décider de",
         "synonyms": [
             "prendre une décision"
         ],
@@ -1710,7 +1729,8 @@
         "aspect": "both",
         "v3": "vu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "vwaʁ"
     },
     {
         "word": "entendre",
@@ -1745,10 +1765,9 @@
         "oppositeEmoji": "😴",
         "definitions": [
             {
-                "text": "Arrêter de dormir et ouvrir les yeux.",
+                "text": "Cesser di dormir.",
                 "examples": [
-                    "Je me réveille à sept heures.",
-                    "À quelle heure te réveilles-tu ?"
+                    "Je me réveille à six heures."
                 ]
             }
         ],
@@ -1756,7 +1775,8 @@
         "aspect": "action",
         "v3": "réveillé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "sə ʁe.vɛ.je"
     },
     {
         "word": "regarder",
@@ -1932,7 +1952,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "apprendre / apprendre une langue / apprendre vite",
+        "subtext": "apprendre à",
         "form": "verb",
         "definitions": [
             {
@@ -1976,7 +1996,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "arrêter / arrêter de faire / arrêter quelqu un",
+        "subtext": "arrêter de",
         "form": "verb",
         "definitions": [
             {
@@ -2058,7 +2078,8 @@
         "aspect": "action",
         "v3": "attendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "a.tɑ̃dʁ"
     },
     {
         "word": "mourir",
@@ -2198,7 +2219,8 @@
         "aspect": "action",
         "v3": "vendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "vɑ̃dʁ"
     },
     {
         "word": "tirer",
@@ -2541,7 +2563,8 @@
         "aspect": "action",
         "v3": "étudié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "e.ty.dje"
     },
     {
         "word": "enseigner",
@@ -2678,9 +2701,9 @@
         "word": "se lever",
         "definitions": [
             {
-                "text": "Se lever du lit après le réveil.",
+                "text": "Quitter son lit ou se mettre debout.",
                 "examples": [
-                    "Il se lève à sept heures et fait du café immédiatement."
+                    "Je me lève à sept heures."
                 ]
             }
         ],
@@ -2693,7 +2716,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "sə lə.ve"
     },
     {
         "word": "prendre le petit-déjeuner",
@@ -3393,7 +3417,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continuer à travailler / continuer de faire / continuer une tâche",
+        "subtext": "continuer à",
         "form": "verb",
         "definitions": [
             {
@@ -3566,7 +3590,8 @@
         "aspect": "action",
         "v3": "commencé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "subtext": "commencer à"
     },
     {
         "word": "finir",
@@ -3586,7 +3611,8 @@
         "aspect": "action",
         "v3": "fini",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "subtext": "finir de"
     },
     {
         "word": "brosser",
@@ -4386,7 +4412,8 @@
         "aspect": "action",
         "v3": "cherché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "ʃɛʁ.ʃe"
     },
     {
         "word": "sonner",
@@ -4619,6 +4646,60 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "aller au travail",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "💼",
+        "definitions": [
+            {
+                "text": "Se rendre à son lieu d'emploi.",
+                "examples": [
+                    "Je vais au travail en vélo."
+                ]
+            }
+        ],
+        "transcription": "a.le o tʁa.vaj",
+        "v3": "allé au travail",
+        "auxiliary": "être"
+    },
+    {
+        "word": "commencer à travailler",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🏁",
+        "definitions": [
+            {
+                "text": "Débuter sa journée ou sa tâche.",
+                "examples": [
+                    "Je commence à travailler tôt."
+                ]
+            }
+        ],
+        "transcription": "kɔ.mɑ̃.se a tʁa.va.je",
+        "v3": "commencé à travailler",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "finir de travailler",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🛑",
+        "definitions": [
+            {
+                "text": "Terminer son emploi pour la journée.",
+                "examples": [
+                    "Je finis de travailler à dix-huit heures."
+                ]
+            }
+        ],
+        "transcription": "fi.niʁ də tʁa.va.je",
+        "v3": "fini de travailler",
+        "auxiliary": "avoir"
     }
 ];
     const lang = "fr";

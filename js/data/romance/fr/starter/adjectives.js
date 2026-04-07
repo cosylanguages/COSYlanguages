@@ -232,8 +232,8 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "spécial",
-        "oppositeEmoji": "✨",
+        "opposite": "incroyable",
+        "oppositeEmoji": "😲",
         "definitions": [
             {
                 "text": "Normal ou habituel ; pas spécial.",
@@ -482,7 +482,7 @@
         "subtext": "heureux, joyeux / se sentir heureux / content de quelque chose / un jour de bonheur",
         "comparative": "plus heureux",
         "superlative": "le plus heureux",
-        "opposite": "triste",
+        "opposite": "malheureux",
         "oppositeEmoji": "😢"
     },
     {
@@ -771,9 +771,9 @@
         "femininePlural": "utiles",
         "definitions": [
             {
-                "text": "Utile ; ayant un but pratique.",
+                "text": "Qui peut servir à quelque chose.",
                 "examples": [
-                    "Une voiture est très utile à la campagne."
+                    "C'est un outil très utile."
                 ]
             }
         ],
@@ -784,7 +784,8 @@
         "comparative": "plus utile",
         "superlative": "le plus utile",
         "opposite": "inutile",
-        "oppositeEmoji": "🗑️"
+        "oppositeEmoji": "🗑️",
+        "transcription": "y.til"
     },
     {
         "word": "important",
@@ -1380,7 +1381,9 @@
             "soft skills"
         ],
         "comparative": "plus doux",
-        "superlative": "le plus doux"
+        "superlative": "le plus doux",
+        "opposite": "acide",
+        "oppositeEmoji": "🍋"
     },
     {
         "word": "lourd",
@@ -1608,7 +1611,9 @@
             "une opportunité merveilleuse"
         ],
         "comparative": "plus merveilleux",
-        "superlative": "le plus merveilleux"
+        "superlative": "le plus merveilleux",
+        "opposite": "terrible",
+        "oppositeEmoji": "😫"
     },
     {
         "word": "terrible",
@@ -1621,15 +1626,18 @@
         "femininePlural": "terribles",
         "definitions": [
             {
-                "text": "Extrêmement mauvais.",
+                "text": "Qui cause de la peur ou est très mauvais.",
                 "examples": [
-                    "La circulation ce matin était terrible."
+                    "La météo est terrible aujourd'hui."
                 ]
             }
         ],
         "subtext": "terrible weather / a terrible mistake / terrible news",
         "comparative": "plus terrible",
-        "superlative": "le plus terrible"
+        "superlative": "le plus terrible",
+        "transcription": "te.ʁibl",
+        "opposite": "merveilleux",
+        "oppositeEmoji": "🌟"
     },
     {
         "word": "affreux",
@@ -1681,7 +1689,9 @@
             "truly amazing"
         ],
         "comparative": "plus incroyable",
-        "superlative": "le plus incroyable"
+        "superlative": "le plus incroyable",
+        "opposite": "ordinaire",
+        "oppositeEmoji": "📦"
     },
     {
         "word": "fantastique",
@@ -1707,7 +1717,9 @@
             "truly fantastic"
         ],
         "comparative": "plus fantastique",
-        "superlative": "le plus fantastique"
+        "superlative": "le plus fantastique",
+        "opposite": "horrible",
+        "oppositeEmoji": "👹"
     },
     {
         "word": "triste",
@@ -1897,7 +1909,9 @@
             "bon moment"
         ],
         "comparative": "plus correct",
-        "superlative": "le plus correct"
+        "superlative": "le plus correct",
+        "opposite": "incorrect",
+        "oppositeEmoji": "❌"
     },
     {
         "word": "mauvais",
@@ -1967,7 +1981,9 @@
         ],
         "subtext": "complètement différent / très différent / différent de",
         "comparative": "plus différent",
-        "superlative": "le plus différent"
+        "superlative": "le plus différent",
+        "opposite": "même",
+        "oppositeEmoji": "👯"
     },
     {
         "word": "même",
@@ -1988,7 +2004,9 @@
         ],
         "subtext": "le même que / exactement le même / en même temps",
         "comparative": "plus même",
-        "superlative": "le plus même"
+        "superlative": "le plus même",
+        "opposite": "différent",
+        "oppositeEmoji": "🎭"
     },
     {
         "word": "rapide",
@@ -2109,7 +2127,9 @@
             "zone sûre"
         ],
         "comparative": "plus sûr",
-        "superlative": "le plus sûr"
+        "superlative": "le plus sûr",
+        "opposite": "dangereux",
+        "oppositeEmoji": "⚠️"
     },
     {
         "word": "dangereux",
@@ -2133,7 +2153,9 @@
             "situation dangereuse"
         ],
         "comparative": "plus dangereux",
-        "superlative": "le plus dangereux"
+        "superlative": "le plus dangereux",
+        "opposite": "sûr",
+        "oppositeEmoji": "🛡️"
     },
     {
         "word": "malheureux",
@@ -2153,7 +2175,9 @@
         ],
         "subtext": "malheureux de quelque chose / profondément malheureux",
         "comparative": "plus malheureux",
-        "superlative": "le plus malheureux"
+        "superlative": "le plus malheureux",
+        "opposite": "heureux",
+        "oppositeEmoji": "😊"
     },
     {
         "word": "nerveux",
@@ -2455,9 +2479,9 @@
         "femininePlural": "parfaites",
         "definitions": [
             {
-                "text": "Sans aucun défaut ; tout à fait correct.",
+                "text": "Qui possède toutes le qualités requises.",
                 "examples": [
-                    "Le moment du lancement était parfait."
+                    "Ce gâteau è parfait."
                 ]
             }
         ],
@@ -2466,7 +2490,8 @@
             "une occasion parfaite"
         ],
         "comparative": "plus parfait",
-        "superlative": "le plus parfait"
+        "superlative": "le plus parfait",
+        "transcription": "paʁ.fɛ"
     },
     {
         "word": "inutile",
@@ -2522,9 +2547,9 @@
         "femininePlural": "intéressantes",
         "definitions": [
             {
-                "text": "Attirant l'attention ; valant la peine d'être connu.",
+                "text": "Qui attire l'attention ou la curiosité.",
                 "examples": [
-                    "La nouvelle proposition est très intéressante."
+                    "C'est un article intéressant."
                 ]
             }
         ],
@@ -2533,7 +2558,8 @@
             "une idée intéressante"
         ],
         "comparative": "plus intéressant",
-        "superlative": "le plus intéressant"
+        "superlative": "le plus intéressant",
+        "transcription": "ɛ̃.te.ʁɛ.sɑ̃"
     },
     {
         "word": "ennuyeux",
@@ -2545,9 +2571,9 @@
         "femininePlural": "ennuyeuses",
         "definitions": [
             {
-                "text": "Pas intéressant ; ennuyeux.",
+                "text": "Qui cause de l'ennui ou de la lassitude.",
                 "examples": [
-                    "La session de formation était très ennuyeuse."
+                    "Ce long discours est ennuyeux."
                 ]
             }
         ],
@@ -2556,7 +2582,10 @@
             "une réunion ennuyeuse"
         ],
         "comparative": "plus ennuyeux",
-        "superlative": "le plus ennuyeux"
+        "superlative": "le plus ennuyeux",
+        "transcription": "ɑ̃.nɥi.jø",
+        "opposite": "excitant",
+        "oppositeEmoji": "🎢"
     },
     {
         "word": "nécessaire",
@@ -2596,7 +2625,9 @@
         ],
         "subtext": "dès que possible / c'est possible / rendre possible",
         "comparative": "plus possible",
-        "superlative": "le plus possible"
+        "superlative": "le plus possible",
+        "opposite": "impossible",
+        "oppositeEmoji": "🚫"
     },
     {
         "word": "impossible",
@@ -2616,7 +2647,9 @@
         ],
         "subtext": "pratiquement impossible / rendre impossible / presque impossible",
         "comparative": "plus impossible",
-        "superlative": "le plus impossible"
+        "superlative": "le plus impossible",
+        "opposite": "possible",
+        "oppositeEmoji": "👍"
     },
     {
         "word": "spécial",
@@ -2796,7 +2829,9 @@
             "demande polie"
         ],
         "comparative": "plus poli",
-        "superlative": "le plus poli"
+        "superlative": "le plus poli",
+        "opposite": "impoli",
+        "oppositeEmoji": "🖕"
     },
     {
         "word": "impoli",
@@ -2816,7 +2851,9 @@
         ],
         "subtext": "très impoli / incroyablement impoli / délibérément impoli",
         "comparative": "plus impoli",
-        "superlative": "le plus impoli"
+        "superlative": "le plus impoli",
+        "opposite": "poli",
+        "oppositeEmoji": "🙏"
     },
     {
         "word": "paresseux",
@@ -2839,7 +2876,9 @@
             "une approche paresseuse"
         ],
         "comparative": "plus paresseux",
-        "superlative": "le plus paresseux"
+        "superlative": "le plus paresseux",
+        "opposite": "actif",
+        "oppositeEmoji": "🏃"
     },
     {
         "word": "honnête",
@@ -2859,7 +2898,9 @@
         ],
         "subtext": "très honnête / brutalement honnête / tout à fait honnête",
         "comparative": "plus honnête",
-        "superlative": "le plus honnête"
+        "superlative": "le plus honnête",
+        "opposite": "malhonnête",
+        "oppositeEmoji": "🤥"
     },
     {
         "word": "bruyant",
@@ -2993,7 +3034,9 @@
         ],
         "subtext": "patient",
         "comparative": "plus patient",
-        "superlative": "le plus patient"
+        "superlative": "le plus patient",
+        "opposite": "impatient",
+        "oppositeEmoji": "⌚"
     },
     {
         "word": "actif",
@@ -3012,7 +3055,9 @@
         ],
         "subtext": "actif",
         "comparative": "plus actif",
-        "superlative": "le plus actif"
+        "superlative": "le plus actif",
+        "opposite": "paresseux",
+        "oppositeEmoji": "🦥"
     },
     {
         "word": "prudent",
@@ -3438,7 +3483,9 @@
         ],
         "subtext": "vrai",
         "comparative": "plus vrai",
-        "superlative": "le plus vrai"
+        "superlative": "le plus vrai",
+        "opposite": "faux",
+        "oppositeEmoji": "✖️"
     },
     {
         "word": "simple",
@@ -3573,7 +3620,9 @@
         ],
         "subtext": "acide",
         "comparative": "plus acide",
-        "superlative": "le plus acide"
+        "superlative": "le plus acide",
+        "opposite": "doux",
+        "oppositeEmoji": "🍭"
     },
     {
         "word": "amer",
@@ -3611,7 +3660,9 @@
         ],
         "subtext": "gros",
         "comparative": "plus gros",
-        "superlative": "le plus gros"
+        "superlative": "le plus gros",
+        "opposite": "mince",
+        "oppositeEmoji": "🥪"
     },
     {
         "word": "mince",
@@ -3631,7 +3682,7 @@
         "subtext": "mince",
         "comparative": "plus mince",
         "superlative": "le plus mince",
-        "opposite": "épais",
+        "opposite": "gros",
         "oppositeEmoji": "🍔"
     },
     {
@@ -4018,7 +4069,9 @@
         ],
         "subtext": "impatient",
         "comparative": "plus impatient",
-        "superlative": "le plus impatient"
+        "superlative": "le plus impatient",
+        "opposite": "patient",
+        "oppositeEmoji": "⏳"
     },
     {
         "word": "impoli",
@@ -4057,8 +4110,8 @@
         "subtext": "faux",
         "comparative": "plus faux",
         "superlative": "le plus faux",
-        "opposite": "juste",
-        "oppositeEmoji": "✅"
+        "opposite": "vrai",
+        "oppositeEmoji": "✔️"
     },
     {
         "word": "malchanceux",
@@ -4260,6 +4313,22 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "amusant",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "emoji": "😂",
+        "definitions": [
+            {
+                "text": "Qui fait rire o divertit.",
+                "examples": [
+                    "C'est une histoire amusante."
+                ]
+            }
+        ],
+        "transcription": "a.my.zɑ̃"
     }
 ];
     const lang = "fr";

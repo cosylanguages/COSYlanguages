@@ -27,7 +27,8 @@
         "v2": "fui",
         "v3": "sido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈseɾ"
     },
     {
         "word": "ter",
@@ -53,7 +54,8 @@
         "v2": "tive",
         "v3": "tido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈteɾ"
     },
     {
         "word": "sentir",
@@ -100,7 +102,8 @@
         "v2": "dei",
         "v3": "dado",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈdaɾ"
     },
     {
         "word": "tomar",
@@ -188,7 +191,8 @@
         "v2": "pus",
         "v3": "posto",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈpoɾ"
     },
     {
         "word": "fazer",
@@ -216,7 +220,8 @@
         "v2": "fiz",
         "v3": "feito",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "fɐ.ˈzeɾ"
     },
     {
         "word": "fazer",
@@ -239,7 +244,8 @@
         "v2": "fiz",
         "v3": "feito",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "fɐ.ˈzeɾ"
     },
     {
         "word": "usar",
@@ -287,7 +293,8 @@
         "v2": "abri",
         "v3": "aberto",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ɐ.ˈβɾiɾ"
     },
     {
         "word": "fechar",
@@ -312,7 +319,8 @@
         "v2": "fechei",
         "v3": "fechado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "fɨ.ˈʃaɾ"
     },
     {
         "word": "começar",
@@ -388,7 +396,8 @@
         "v2": "ajudei",
         "v3": "ajudado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ɐ.ʒu.ˈðaɾ"
     },
     {
         "word": "tentar",
@@ -463,7 +472,8 @@
         "v2": "encontrei",
         "v3": "encontrado",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ẽ.kõ.ˈtɾaɾ"
     },
     {
         "word": "manter",
@@ -616,7 +626,8 @@
         "v2": "disse",
         "v3": "dito",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "di.ˈzeɾ"
     },
     {
         "word": "contar",
@@ -691,7 +702,8 @@
         "v2": "falei",
         "v3": "falado",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "fɐ.ˈlaɾ"
     },
     {
         "word": "falar",
@@ -713,7 +725,8 @@
         "v2": "falei",
         "v3": "falado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "fɐ.ˈlaɾ"
     },
     {
         "word": "ligar",
@@ -767,7 +780,8 @@
         "v2": "escrevi",
         "v3": "escrito",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ɨʃ.kɾɨ.ˈveɾ"
     },
     {
         "word": "ler",
@@ -792,7 +806,8 @@
         "v2": "li",
         "v3": "lido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈleɾ"
     },
     {
         "word": "ouvir",
@@ -890,7 +905,8 @@
         "v2": "fui",
         "v3": "ido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈiɾ"
     },
     {
         "word": "vir",
@@ -918,7 +934,8 @@
         "v2": "vim",
         "v3": "vindo",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈviɾ"
     },
     {
         "word": "caminhar",
@@ -1142,7 +1159,8 @@
         "v2": "comi",
         "v3": "comido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ku.ˈmeɾ"
     },
     {
         "word": "beber",
@@ -1167,7 +1185,8 @@
         "v2": "bebi",
         "v3": "bebido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "bɨ.ˈβeɾ"
     },
     {
         "word": "dormir",
@@ -1192,7 +1211,8 @@
         "v2": "dormi",
         "v3": "dormido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "duɾ.ˈmiɾ"
     },
     {
         "word": "cozinhar",
@@ -1313,7 +1333,8 @@
         "v2": "comprei",
         "v3": "comprado",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "kõ.ˈpɾaɾ"
     },
     {
         "word": "pagar",
@@ -1335,7 +1356,8 @@
         "v2": "paguei",
         "v3": "pagado",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "pɐ.ˈgaɾ"
     },
     {
         "word": "gastar",
@@ -1406,7 +1428,8 @@
         "v2": "trabalhei",
         "v3": "trabalhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "tɾɐ.βɐ.ˈʎaɾ"
     },
     {
         "word": "viver",
@@ -1431,7 +1454,8 @@
         "v2": "vivi",
         "v3": "vivido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "vi.ˈveɾ"
     },
     {
         "word": "pensar",
@@ -1482,7 +1506,8 @@
         "v2": "soube",
         "v3": "sabido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "sɐ.ˈβeɾ"
     },
     {
         "word": "querer",
@@ -1506,7 +1531,8 @@
         "v2": "quis",
         "v3": "querido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "kɨ.ˈɾeɾ"
     },
     {
         "word": "precisar",
@@ -1626,7 +1652,8 @@
         "v2": "esperei",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ɨʃ.pɨ.ˈɾaɾ"
     },
     {
         "word": "lembrar",
@@ -1766,7 +1793,8 @@
         "v2": "vi",
         "v3": "visto",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ˈveɾ"
     },
     {
         "word": "ouvir",
@@ -2146,7 +2174,8 @@
         "v2": "esperei",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ɨʃ.pɨ.ˈɾaɾ"
     },
     {
         "word": "morrer",
@@ -2295,7 +2324,8 @@
         "v2": "vendi",
         "v3": "vendido",
         "group": "irregular",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "vẽ.ˈdeɾ"
     },
     {
         "word": "puxar",
@@ -2693,7 +2723,8 @@
         "v2": "estudei",
         "v3": "estudado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "transcription": "ɨʃ.tu.ˈðjaɾ"
     },
     {
         "word": "ensinar",
@@ -3816,6 +3847,48 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "ir para o trabalho",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "💼",
+        "definitions": [
+            {
+                "text": "To go to work.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
+    },
+    {
+        "word": "começar a trabalhar",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🏁",
+        "definitions": [
+            {
+                "text": "To start work.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
+    },
+    {
+        "word": "terminar o trabalho",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🛑",
+        "definitions": [
+            {
+                "text": "To finish work.",
+                "examples": []
+            }
+        ],
+        "transcription": ""
     }
 ];
     const lang = "pt";

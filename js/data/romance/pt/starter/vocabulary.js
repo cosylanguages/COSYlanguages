@@ -362,7 +362,7 @@
         "word": "mesa",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "emoji": "table",
+        "emoji": "🪑",
         "form": "noun",
         "definitions": [
             {
@@ -776,30 +776,34 @@
         "form": "noun",
         "definitions": [
             {
-                "text": "Moedas e notas que se usam para comprar.",
-                "examples": []
+                "text": "Moedas e notas.",
+                "examples": [
+                    "Não tenho dinheiro."
+                ]
             }
         ],
         "article": "o",
         "gender": "masculine",
         "transcription": "di.ˈɲɐj.ɾu",
-        "countability": "countable"
+        "countability": "uncountable"
     },
     {
         "word": "loja",
         "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🛒",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🛍️",
         "form": "noun",
         "definitions": [
             {
-                "text": "Lugar para comprar coisas.",
-                "examples": []
+                "text": "Lugar onde se vende algo.",
+                "examples": [
+                    "A loja está aberta."
+                ]
             }
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈloja",
+        "transcription": "ˈlɔ.ʒɐ",
         "countability": "countable"
     },
     {
@@ -1125,13 +1129,13 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "✅",
-        "form": "adverb",
+        "form": "noun",
         "transcription": "ˈsĩ",
         "definitions": [
             {
-                "text": "Exprime afirmação.",
+                "text": "Palavra de afirmação.",
                 "examples": [
-                    "Sim, por favor."
+                    "Sim, quero ir."
                 ]
             }
         ],
@@ -1139,18 +1143,21 @@
         "subtext": "",
         "antonyms": [
             "não"
-        ]
+        ],
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "não",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❌",
-        "form": "adverb",
-        "transcription": "ˈnɐ̃w̃",
+        "form": "noun",
+        "transcription": "ˈnɐ̃w",
         "definitions": [
             {
-                "text": "Exprime negação.",
+                "text": "Palavra de negação.",
                 "examples": [
                     "Não, obrigado."
                 ]
@@ -1160,18 +1167,21 @@
         "subtext": "",
         "antonyms": [
             "sim"
-        ]
+        ],
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "quem",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "👤",
-        "form": "pronoun",
-        "transcription": "ˈkẽj̃",
+        "form": "noun",
+        "transcription": "ˈkɐ̃j",
         "definitions": [
             {
-                "text": "Usado para perguntar pela identidade de uma pessoa.",
+                "text": "Palavra para perguntar por pessoas.",
                 "examples": [
                     "Quem é ele?"
                 ]
@@ -1179,45 +1189,54 @@
         ],
         "synonyms": [],
         "subtext": "pronome interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "onde",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📍",
-        "form": "adverb",
-        "transcription": "ˈõdɨ",
+        "form": "noun",
+        "transcription": "ˈõ.dɨ",
         "definitions": [
             {
-                "text": "Usado para perguntar por um lugar.",
+                "text": "Palavra para perguntar por lugares.",
                 "examples": [
-                    "Onde moras?"
+                    "Onde vives?"
                 ]
             }
         ],
         "synonyms": [],
         "subtext": "advérbio interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "quando",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
-        "emoji": "⌚",
-        "form": "adverb",
-        "transcription": "ˈkwɐ̃du",
+        "emoji": "⏰",
+        "form": "noun",
+        "transcription": "ˈkwɐ̃.du",
         "definitions": [
             {
-                "text": "Usado para perguntar pelo tempo.",
+                "text": "Palavra para perguntar pelo tempo.",
                 "examples": [
-                    "Quando chegas?"
+                    "Quando é o teu aniversário?"
                 ]
             }
         ],
         "synonyms": [],
         "subtext": "advérbio interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "cidade",
@@ -1233,8 +1252,10 @@
         "transcription": "si.ˈða.ðɨ",
         "definitions": [
             {
-                "text": "Povoação grande onde vivem muitas pessoas.",
-                "examples": []
+                "text": "Povoação grande.",
+                "examples": [
+                    "Lisboa é uma grande cidade."
+                ]
             }
         ],
         "synonyms": [],
@@ -1246,7 +1267,7 @@
     {
         "word": "mapa",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "places_geography_A1",
         "article": "o",
         "gender": "masculine",
         "emoji": "🗺️",
@@ -1254,12 +1275,12 @@
         "plural": "mapas",
         "countability": "countable",
         "partitive": "do",
-        "transcription": "ˈmapɐ",
+        "transcription": "ˈma.pɐ",
         "definitions": [
             {
-                "text": "Representação gráfica de um território.",
+                "text": "Desenho da terra.",
                 "examples": [
-                    "Olha para o mapa da cidade."
+                    "Olho para o mapa."
                 ]
             }
         ],
@@ -1270,7 +1291,7 @@
     {
         "word": "presente",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "everyday_shopping_A1",
         "article": "o",
         "gender": "masculine",
         "emoji": "🎁",
@@ -1278,12 +1299,12 @@
         "plural": "presentes",
         "countability": "countable",
         "partitive": "do",
-        "transcription": "pɾɨˈzẽtɨ",
+        "transcription": "pɾɨ.ˈzẽ.tɨ",
         "definitions": [
             {
-                "text": "Coisa que se dá a alguém sem querer dinheiro.",
+                "text": "Coisa que se dá grátis.",
                 "examples": [
-                    "Este é um presente para ti."
+                    "Um presente para ti."
                 ]
             }
         ],
@@ -1316,10 +1337,15 @@
         "definitions": [
             {
                 "text": "Abertura numa parede para entrar ou sair.",
-                "examples": []
+                "examples": [
+                    "Fecha a porta, por favor."
+                ]
             }
         ],
-        "transcription": "ˈpɔɾ.tɐ"
+        "transcription": "ˈpɔɾ.tɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "janela",
@@ -1330,10 +1356,15 @@
         "definitions": [
             {
                 "text": "Abertura numa parede para dar luz e ventilação.",
-                "examples": []
+                "examples": [
+                    "Abre a janela."
+                ]
             }
         ],
-        "transcription": "ʒɐ.ˈnɛ.lɐ"
+        "transcription": "ʒɐ.ˈnɛ.lɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "prato",
@@ -1344,10 +1375,15 @@
         "definitions": [
             {
                 "text": "Recipiente baixo e circular para servir comida.",
-                "examples": []
+                "examples": [
+                    "O prato está na mesa."
+                ]
             }
         ],
-        "transcription": "ˈpɾa.tu"
+        "transcription": "ˈpɾa.tu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "chávena",
@@ -1357,11 +1393,16 @@
         "emoji": "☕",
         "definitions": [
             {
-                "text": "Termo para cup.",
-                "examples": []
+                "text": "Recipiente pequeno com asa para beber líquidos quentes.",
+                "examples": [
+                    "Bebo uma chávena de chá."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈʃa.vɨ.nɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "copo",
@@ -1371,11 +1412,16 @@
         "emoji": "🍷",
         "definitions": [
             {
-                "text": "Termo para glass.",
-                "examples": []
+                "text": "Recipiente cilíndrico para beber líquidos.",
+                "examples": [
+                    "Quero um copo de água."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈkɔ.pu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "garfo",
@@ -1385,11 +1431,16 @@
         "emoji": "🍴",
         "definitions": [
             {
-                "text": "Termo para fork.",
-                "examples": []
+                "text": "Utensílio com dentes para picar os alimentos.",
+                "examples": [
+                    "Como a carne com um garfo."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈgaɾ.fu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "colher",
@@ -1399,11 +1450,16 @@
         "emoji": "🥄",
         "definitions": [
             {
-                "text": "Termo para spoon.",
-                "examples": []
+                "text": "Utensílio côncavo para comer alimentos líquidos ou moles.",
+                "examples": [
+                    "Uso uma colher para a sopa."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ku.ˈʎɛɾ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "faca",
@@ -1413,11 +1469,16 @@
         "emoji": "🔪",
         "definitions": [
             {
-                "text": "Termo para knife.",
-                "examples": []
+                "text": "Utensílio para cortar os alimentos.",
+                "examples": [
+                    "Corta o pão com a faca."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈfa.kɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "secretária",
@@ -1427,11 +1488,16 @@
         "emoji": "🖥️",
         "definitions": [
             {
-                "text": "Termo para desk.",
-                "examples": []
+                "text": "Mesa para escrever ou trabalhar.",
+                "examples": [
+                    "Estudo na minha secretária."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "sɨ.kɾɛ.ˈta.ɾjɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "lâmpada",
@@ -1441,11 +1507,16 @@
         "emoji": "💡",
         "definitions": [
             {
-                "text": "Termo para lamp.",
-                "examples": []
+                "text": "Aparelho que produz luz artificial.",
+                "examples": [
+                    "Ligo a lâmpada."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈlɐ̃.pɐ.ðɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "relógio",
@@ -1455,11 +1526,16 @@
         "emoji": "⏰",
         "definitions": [
             {
-                "text": "Termo para clock.",
-                "examples": []
+                "text": "Aparelho para medir o tempo.",
+                "examples": [
+                    "Olho para o relógio."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ʁɨ.ˈlɔ.ʒju",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "espelho",
@@ -1469,11 +1545,16 @@
         "emoji": "🪞",
         "definitions": [
             {
-                "text": "Termo para mirror.",
-                "examples": []
+                "text": "Superfície de cristal que reflete a imagem.",
+                "examples": [
+                    "Vejo-me no espelho."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ɨʃ.ˈpe.ʎu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "garrafa",
@@ -1483,11 +1564,16 @@
         "emoji": "🍾",
         "definitions": [
             {
-                "text": "Termo para bottle.",
-                "examples": []
+                "text": "Recipiente de vidro ou plástico para líquidos.",
+                "examples": [
+                    "Uma garrafa de vinho."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "gɐ.ˈʁa.fɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "caixa",
@@ -1497,11 +1583,16 @@
         "emoji": "📦",
         "definitions": [
             {
-                "text": "Termo para box.",
-                "examples": []
+                "text": "Recipiente de cartão ou madeira para guardar coisas.",
+                "examples": [
+                    "Põe os brinquedos na caixa."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈkaj.ʃɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "lápis",
@@ -1511,11 +1602,16 @@
         "emoji": "✏️",
         "definitions": [
             {
-                "text": "Termo para pencil.",
-                "examples": []
+                "text": "Instrumento para escrever ou desenhar feito de madeira.",
+                "examples": [
+                    "Escrevo com um lápis."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈla.piʃ",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "papel",
@@ -1525,11 +1621,16 @@
         "emoji": "📄",
         "definitions": [
             {
-                "text": "Termo para paper.",
-                "examples": []
+                "text": "Material em folhas para escrever ou desenhar.",
+                "examples": [
+                    "Preciso de uma folha de papel."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "pɐ.ˈpɛl",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "uncountable"
     },
     {
         "word": "frigorífico",
@@ -1539,11 +1640,16 @@
         "emoji": "🧊",
         "definitions": [
             {
-                "text": "Termo para fridge.",
-                "examples": []
+                "text": "Aparelho para manter a comida fria.",
+                "examples": [
+                    "O leite está no frigorífico."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "fɾi.gu.ˈɾi.fi.ku",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "forno",
@@ -1553,11 +1659,16 @@
         "emoji": "🥯",
         "definitions": [
             {
-                "text": "Termo para oven.",
-                "examples": []
+                "text": "Aparelho para cozinhar alimentos com calor.",
+                "examples": [
+                    "Faço um bolo no forno."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈfɔɾ.nu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "sabão",
@@ -1567,11 +1678,16 @@
         "emoji": "🧼",
         "definitions": [
             {
-                "text": "Termo para soap.",
-                "examples": []
+                "text": "Produto para lavar com água.",
+                "examples": [
+                    "Lavo as mãos com sabão."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "sɐ.ˈβɐ̃w",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "uncountable"
     },
     {
         "word": "toalha",
@@ -1581,11 +1697,16 @@
         "emoji": "🧖",
         "definitions": [
             {
-                "text": "Termo para towel.",
-                "examples": []
+                "text": "Peça de tecido para se secar.",
+                "examples": [
+                    "Seco-me com a toalha."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "tu.ˈa.ʎɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "sofá",
@@ -1595,11 +1716,16 @@
         "emoji": "🛋️",
         "definitions": [
             {
-                "text": "Termo para sofa.",
-                "examples": []
+                "text": "Assento confortável para várias pessoas.",
+                "examples": [
+                    "Descanso no sofá."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "su.ˈfa",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "estante",
@@ -1609,11 +1735,16 @@
         "emoji": "🪜",
         "definitions": [
             {
-                "text": "Termo para shelf.",
-                "examples": []
+                "text": "Tábua horizontal para pôr livros ou objetos.",
+                "examples": [
+                    "Ponho o livro na estante."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ɨʃ.ˈtɐ̃.tɨ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "escova de dentes",
@@ -1623,11 +1754,16 @@
         "emoji": "🪥",
         "definitions": [
             {
-                "text": "Termo para toothbrush.",
-                "examples": []
+                "text": "Escova pequena para limpar os dentes.",
+                "examples": [
+                    "Uso a escova de dentes."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ɨʃ.ˈko.vɐ ðɨ ˈðẽ.tɨʃ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "pasta de dentes",
@@ -1637,11 +1773,16 @@
         "emoji": "🦷",
         "definitions": [
             {
-                "text": "Termo para toothpaste.",
-                "examples": []
+                "text": "Creme para limpar os dentes.",
+                "examples": [
+                    "Ponho pasta de dentes na escova."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈpaʃ.tɐ ðɨ ˈðẽ.tɨʃ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "uncountable"
     },
     {
         "word": "champô",
@@ -1651,11 +1792,16 @@
         "emoji": "🧴",
         "definitions": [
             {
-                "text": "Termo para shampoo.",
-                "examples": []
+                "text": "Sabão líquido para lavar o cabelo.",
+                "examples": [
+                    "Lavo o cabelo com champô."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ʃɐ̃.ˈpo",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "uncountable"
     },
     {
         "word": "pente",
@@ -1665,11 +1811,16 @@
         "emoji": "🪮",
         "definitions": [
             {
-                "text": "Termo para comb.",
-                "examples": []
+                "text": "Utensílio para pentear o cabelo.",
+                "examples": [
+                    "Uso um pente."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈpẽ.tɨ",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "armário",
@@ -1679,11 +1830,16 @@
         "emoji": "👗",
         "definitions": [
             {
-                "text": "Termo para wardrobe.",
-                "examples": []
+                "text": "Móvel com portas para guardar roupa.",
+                "examples": [
+                    "Guardo a minha roupa no armário."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ɐɾ.ˈma.ɾju",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "parede",
@@ -1693,11 +1849,16 @@
         "emoji": "🧱",
         "definitions": [
             {
-                "text": "Termo para wall.",
-                "examples": []
+                "text": "Superfície vertical que fecha um espaço.",
+                "examples": [
+                    "Pinto a parede de branco."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "pɐ.ˈɾe.ðɨ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "chão",
@@ -1707,11 +1868,16 @@
         "emoji": "🪵",
         "definitions": [
             {
-                "text": "Termo para floor.",
-                "examples": []
+                "text": "Superfície horizontal sobre a qual caminhamos.",
+                "examples": [
+                    "O chão está limpo."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈʃɐ̃w",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "uncountable"
     },
     {
         "word": "telhado",
@@ -1721,11 +1887,16 @@
         "emoji": "🏠",
         "definitions": [
             {
-                "text": "Termo para roof.",
-                "examples": []
+                "text": "Parte superior que cobre um edifício.",
+                "examples": [
+                    "A casa tem um telhado vermelho."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "tɨ.ˈʎa.ðu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "jardim",
@@ -1735,11 +1906,16 @@
         "emoji": "🏡",
         "definitions": [
             {
-                "text": "Termo para garden.",
-                "examples": []
+                "text": "Terreno com plantas e flores.",
+                "examples": [
+                    "Há flores no jardim."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ʒɐɾ.ˈðĩ",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "por favor",
@@ -1749,11 +1925,16 @@
         "emoji": "🙏",
         "definitions": [
             {
-                "text": "Termo para please.",
-                "examples": []
+                "text": "Expressão de cortesia para pedir algo.",
+                "examples": [
+                    "Água, por favor."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "puɾ fɐ.ˈvuɾ",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "obrigado",
@@ -1763,11 +1944,16 @@
         "emoji": "🙏",
         "definitions": [
             {
-                "text": "Termo para thanks.",
-                "examples": []
+                "text": "Expressão para dar as graças.",
+                "examples": [
+                    "Muito obrigado."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "u.βɾi.ˈga.ðu",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "olá",
@@ -1777,11 +1963,16 @@
         "emoji": "👋",
         "definitions": [
             {
-                "text": "Termo para hello.",
-                "examples": []
+                "text": "Saudação comum.",
+                "examples": [
+                    "Olá, como estás?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ɔ.ˈla",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "adeus",
@@ -1791,11 +1982,16 @@
         "emoji": "👋",
         "definitions": [
             {
-                "text": "Termo para goodbye.",
-                "examples": []
+                "text": "Palavra para se despedir.",
+                "examples": [
+                    "Adeus, vemo-nos amanhã."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ɐ.ˈðewʃ",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "com licença",
@@ -1805,11 +2001,16 @@
         "emoji": "🙇",
         "definitions": [
             {
-                "text": "Termo para excuse me.",
-                "examples": []
+                "text": "Expressão para pedir desculpas ou chamar a atenção.",
+                "examples": [
+                    "Com licença, onde é a casa de banho?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "kõ li.ˈsẽ.sɐ",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "bem-vindo",
@@ -1819,11 +2020,16 @@
         "emoji": "🤝",
         "definitions": [
             {
-                "text": "Termo para welcome.",
-                "examples": []
+                "text": "Saudação a alguém que chega.",
+                "examples": [
+                    "Bem-vindo a casa!"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈbɐ̃j.ˈvĩ.du",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "o quê",
@@ -1833,11 +2039,16 @@
         "emoji": "❓",
         "definitions": [
             {
-                "text": "Termo para what.",
-                "examples": []
+                "text": "Palavra para perguntar por coisas.",
+                "examples": [
+                    "O que fazes?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "u ˈke",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "porquê",
@@ -1847,11 +2058,16 @@
         "emoji": "🤷",
         "definitions": [
             {
-                "text": "Termo para why.",
-                "examples": []
+                "text": "Palavra para perguntar pela razão.",
+                "examples": [
+                    "Porque estás triste?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "puɾ.ˈke",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "como",
@@ -1861,11 +2077,16 @@
         "emoji": "🤔",
         "definitions": [
             {
-                "text": "Termo para how.",
-                "examples": []
+                "text": "Palavra para perguntar pelo modo.",
+                "examples": [
+                    "Como estás?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈko.mu",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "quantos",
@@ -1875,11 +2096,16 @@
         "emoji": "🔢",
         "definitions": [
             {
-                "text": "Termo para how many.",
-                "examples": []
+                "text": "Palavra para perguntar pela quantidade.",
+                "examples": [
+                    "Quantos irmãos tens?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈkwɐ̃.tuʃ",
+        "article": "",
+        "gender": "",
+        "countability": ""
     },
     {
         "word": "país",
@@ -1889,11 +2115,16 @@
         "emoji": "🗺️",
         "definitions": [
             {
-                "text": "Termo para country.",
-                "examples": []
+                "text": "Nação.",
+                "examples": [
+                    "Portugal é um país."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "pɐ.ˈiʃ",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "montanha",
@@ -1903,11 +2134,16 @@
         "emoji": "⛰️",
         "definitions": [
             {
-                "text": "Termo para mountain.",
-                "examples": []
+                "text": "Grande elevação de terreno.",
+                "examples": [
+                    "Subo à montanha."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "mõ.ˈtɐ.ɲɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "mar",
@@ -1917,11 +2153,16 @@
         "emoji": "🌊",
         "definitions": [
             {
-                "text": "Termo para sea.",
-                "examples": []
+                "text": "Grande massa de água salgada.",
+                "examples": [
+                    "O mar é azul."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈmaɾ",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "uncountable"
     },
     {
         "word": "rio",
@@ -1931,11 +2172,16 @@
         "emoji": "🏞️",
         "definitions": [
             {
-                "text": "Termo para river.",
-                "examples": []
+                "text": "Corrente natural de água.",
+                "examples": [
+                    "O rio é longo."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈʁi.u",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "praia",
@@ -1945,11 +2191,16 @@
         "emoji": "🏖️",
         "definitions": [
             {
-                "text": "Termo para beach.",
-                "examples": []
+                "text": "Ribeira do mar de areia.",
+                "examples": [
+                    "Vou à praia no verão."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈpɾaj.ɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "floresta",
@@ -1959,11 +2210,16 @@
         "emoji": "🌲",
         "definitions": [
             {
-                "text": "Termo para forest.",
-                "examples": []
+                "text": "Lugar com muitas árvores.",
+                "examples": [
+                    "Caminho pela floresta."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "flu.ˈɾɛʃ.tɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "rua",
@@ -1973,11 +2229,16 @@
         "emoji": "🛣️",
         "definitions": [
             {
-                "text": "Termo para street.",
-                "examples": []
+                "text": "Caminho numa cidade.",
+                "examples": [
+                    "A rua é larga."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈʁu.ɐ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "parque",
@@ -1987,11 +2248,16 @@
         "emoji": "🌳",
         "definitions": [
             {
-                "text": "Termo para park.",
-                "examples": []
+                "text": "Lugar público para descansar.",
+                "examples": [
+                    "Jogo no parque."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈpaɾ.kɨ",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "ponte",
@@ -2001,11 +2267,16 @@
         "emoji": "🌉",
         "definitions": [
             {
-                "text": "Termo para bridge.",
-                "examples": []
+                "text": "Construção sobre um rio.",
+                "examples": [
+                    "Cruzo a ponte."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈpõ.tɨ",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable"
     },
     {
         "word": "preço",
@@ -2015,11 +2286,16 @@
         "emoji": "🏷️",
         "definitions": [
             {
-                "text": "Termo para price.",
-                "examples": []
+                "text": "Valor de algo.",
+                "examples": [
+                    "Qual é o preço?"
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ˈpɾe.su",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "recibo",
@@ -2029,11 +2305,16 @@
         "emoji": "🧾",
         "definitions": [
             {
-                "text": "Termo para receipt.",
-                "examples": []
+                "text": "Papel de pagamento.",
+                "examples": [
+                    "Guardo o recibo."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "ʁɨ.ˈsi.bu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "mercado",
@@ -2043,11 +2324,16 @@
         "emoji": "🧺",
         "definitions": [
             {
-                "text": "Termo para market.",
-                "examples": []
+                "text": "Lugar de venda pública.",
+                "examples": [
+                    "Compro no mercado."
+                ]
             }
         ],
-        "transcription": ""
+        "transcription": "mɨɾ.ˈka.ðu",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
     },
     {
         "word": "cartão",
@@ -2057,11 +2343,124 @@
         "emoji": "💳",
         "definitions": [
             {
-                "text": "Termo para card.",
+                "text": "Cartão de pagamento.",
+                "examples": [
+                    "Pago com cartão."
+                ]
+            }
+        ],
+        "transcription": "kɐɾ.ˈtɐ̃w",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable"
+    },
+    {
+        "word": "sala de aula",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "🏫",
+        "definitions": [
+            {
+                "text": "Sala onde se dão as aulas.",
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "página",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📄",
+        "definitions": [
+            {
+                "text": "Uma face de uma folha de um livro.",
+                "examples": []
+            }
+        ],
+        "transcription": "",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "frase",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "🔤",
+        "definitions": [
+            {
+                "text": "Conjunto de palavras com sentido.",
+                "examples": []
+            }
+        ],
+        "transcription": "",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "palavra",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "🔠",
+        "definitions": [
+            {
+                "text": "Conjunto de letras com significado.",
+                "examples": []
+            }
+        ],
+        "transcription": "",
+        "article": "a",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "exemplo",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📝",
+        "definitions": [
+            {
+                "text": "Coisa que serve para ilustrar algo.",
+                "examples": []
+            }
+        ],
+        "transcription": "",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable",
+        "partitive": ""
+    },
+    {
+        "word": "dicionário",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "form": "noun",
+        "emoji": "📖",
+        "definitions": [
+            {
+                "text": "Livro que explica o significado das palavras.",
+                "examples": []
+            }
+        ],
+        "transcription": "",
+        "article": "o",
+        "gender": "masculine",
+        "countability": "countable",
+        "partitive": ""
     }
 ];
     const lang = "pt";

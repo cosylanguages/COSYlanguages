@@ -315,7 +315,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro, iniziare a",
+        "subtext": "iniziare a",
         "opposite": "finire",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -340,7 +340,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finire il lavoro / finire un progetto / finire presto, finire di",
+        "subtext": "finire di",
         "opposite": "iniziare",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -365,7 +365,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "aiutare qualcuno / aiutare con",
+        "subtext": "aiutare a",
         "synonyms": [
             "chiedere aiuto"
         ],
@@ -391,7 +391,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "provare a fare / provare sodo / provare qualcosa",
+        "subtext": "provare a",
         "form": "verb",
         "definitions": [
             {
@@ -638,7 +638,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "chiedere aiuto / chiedere di",
+        "subtext": "chiedere di",
         "synonyms": [
             "fare una domanda"
         ],
@@ -664,7 +664,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "parlare con qualcuno / parlare una lingua / parlare chiaramente, parlare di",
+        "subtext": "parlare di",
         "form": "verb",
         "definitions": [
             {
@@ -687,7 +687,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "parlare con qualcuno / parlare di / parlare apertamente",
+        "subtext": "parlare di",
         "form": "verb",
         "definitions": [
             {
@@ -859,7 +859,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "andare al lavoro / andare a casa / andare a",
+        "subtext": "andare a",
         "synonyms": [
             "uscire"
         ],
@@ -885,7 +885,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "venire a casa / venire al lavoro, venire da",
+        "subtext": "venire da",
         "synonyms": [
             "tornare"
         ],
@@ -1424,7 +1424,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "pensare a / pensare di / pensare attentamente",
+        "subtext": "pensare a",
         "form": "verb",
         "definitions": [
             {
@@ -1648,7 +1648,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "dimenticare un nome / dimenticare di fare",
+        "subtext": "dimenticare di",
         "form": "verb",
         "definitions": [
             {
@@ -1694,7 +1694,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decidere di fare / decidere su",
+        "subtext": "decidere di",
         "synonyms": [
             "prendere una decisione"
         ],
@@ -1799,10 +1799,9 @@
         "oppositeEmoji": "😴",
         "definitions": [
             {
-                "text": "Smettere di dormire e aprire gli occhi.",
+                "text": "Uscire dallo stato di sonno.",
                 "examples": [
-                    "Mi sveglio alle sette.",
-                    "A che ora ti svegli?"
+                    "Mi sveglio alle sette."
                 ]
             }
         ],
@@ -1811,7 +1810,7 @@
         "v3": "svegliato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈsvegliarsi"
+        "transcription": "sve.ˈʎaɾ.si"
     },
     {
         "word": "guardare",
@@ -1997,7 +1996,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "imparare / imparare una lingua / imparare in fretta",
+        "subtext": "imparare a",
         "form": "verb",
         "definitions": [
             {
@@ -2780,9 +2779,9 @@
         "word": "alzarsi",
         "definitions": [
             {
-                "text": "Alzarsi dal letto dopo essersi svegliati.",
+                "text": "Mettersi in piedi dopo essere stati seduti o sdraiati.",
                 "examples": [
-                    "Si alza alle sette e fa subito il caffè."
+                    "Mi alzo subito dal letto."
                 ]
             }
         ],
@@ -2796,7 +2795,7 @@
         "form": "verb",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈalzarsi"
+        "transcription": "al.ˈtsaɾ.si"
     },
     {
         "word": "fare colazione",
@@ -3545,7 +3544,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continuare a lavorare / continuare a fare / continuare un compito",
+        "subtext": "continuare a",
         "form": "verb",
         "definitions": [
             {
@@ -4768,7 +4767,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✅",
-        "subtext": "riuscire a fare / non riesco a",
+        "subtext": "riuscire a",
         "form": "verb",
         "transcription": "rjuˈʃire",
         "definitions": [
@@ -5321,6 +5320,60 @@
         "group": "are",
         "auxiliary": "avere",
         "subtext": ""
+    },
+    {
+        "word": "andare al lavoro",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "💼",
+        "definitions": [
+            {
+                "text": "Recarsi presso il proprio luogo di impiego.",
+                "examples": [
+                    "Vado al lavoro in treno."
+                ]
+            }
+        ],
+        "transcription": "an.ˈda.re al la.ˈvo.ro",
+        "v3": "andato al lavoro",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "iniziare a lavorare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🏁",
+        "definitions": [
+            {
+                "text": "Dare inizio alla propria attività professionale.",
+                "examples": [
+                    "Inizio a lavorare alle nove."
+                ]
+            }
+        ],
+        "transcription": "i.ni.ˈtsja.re a la.vo.ˈra.re",
+        "v3": "iniziato a lavorare",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "finire di lavorare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "form": "verb",
+        "emoji": "🛑",
+        "definitions": [
+            {
+                "text": "Terminare la propria giornata lavorativa.",
+                "examples": [
+                    "Finisco di lavorare alle cinque."
+                ]
+            }
+        ],
+        "transcription": "fi.ˈni.re di la.vo.ˈra.re",
+        "v3": "finito di lavorare",
+        "auxiliary": "avere"
     }
 ];
     const lang = "it";
