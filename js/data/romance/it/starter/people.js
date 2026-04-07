@@ -1,6 +1,12 @@
 (function() {
     const data = [
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Leonardo da Vinci",
         "transcription": "leoˈnardo da ˈvintʃi",
         "subtext": "artista e inventore",
@@ -16,7 +22,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Dante Alighieri",
         "transcription": "ˈdante aliˈɡjɛri",
         "subtext": "poeta",
@@ -32,7 +44,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Michelangelo Buonarroti",
         "transcription": "mikelˈandʒelo bwɔnarˈrɔti",
         "subtext": "scultore e pittore",
@@ -48,7 +66,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Galileo Galilei",
         "transcription": "ɡaliˈlɛo ɡaliˈlɛi",
         "subtext": "scienziato",
@@ -64,7 +88,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Cristoforo Colombo",
         "transcription": "kriˈstɔforo koˈlombo",
         "subtext": "esploratore",
@@ -80,7 +110,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Marco Polo",
         "transcription": "ˈmarko ˈpɔlo",
         "subtext": "viaggiatore",
@@ -96,7 +132,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Luciano Pavarotti",
         "transcription": "luˈtʃano pavaˈrɔti",
         "subtext": "tenore",
@@ -112,7 +154,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Federico Fellini",
         "transcription": "fedeˈriko felˈlini",
         "subtext": "regista",
@@ -128,7 +176,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Enzo Ferrari",
         "transcription": "ˈɛntso ferˈrari",
         "subtext": "imprenditore",
@@ -144,7 +198,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Sophia Loren",
         "transcription": "soˈfia ˈlɔren",
         "subtext": "attrice",
@@ -160,7 +220,13 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "da",
+        "da_article": "da",
+
         "word": "Guglielmo Marconi",
         "transcription": "ɡuʎˈʎɛlmo marˈkoni",
         "subtext": "inventore",
