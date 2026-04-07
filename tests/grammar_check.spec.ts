@@ -130,7 +130,9 @@ test.describe('Practice Engine Grammar Features', () => {
         (window as any).showNextWord();
 
         const meta = document.getElementById('word-meta');
-        return !!(meta && meta.style.display !== 'none' &&
+        // Class 'hidden' means display: none
+        const isHidden = meta?.classList.contains('hidden');
+        return !!(meta && !isHidden &&
                meta.querySelector('.class-badge') &&
                meta.querySelector('.aspect-badge'));
     });

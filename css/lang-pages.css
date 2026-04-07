@@ -222,3 +222,10 @@ footer{background:var(--sage-deep);color:rgba(255,255,255,.78);padding:2.5rem 2r
   .hero h1{font-size:1.7rem;}
   .country-tabs{gap:.4rem;}
 }
+
+/* Language-specific Accent Colors */
+[lang="en"] { --accent:#2a6099; --accent-dark:#1a3f5c; --accent-pale:#eef1fb; }
+[lang="fr"] { --accent:#4a6b50; --accent-dark:#2e4a33; --accent-pale:#e8f0e9; }
+[lang="it"] { --accent:#9e2a2a; --accent-dark:#7a1d1d; --accent-pale:#fbeeee; }
+[lang="ru"] { --accent:#3a5298; --accent-dark:#1e2f6b; --accent-pale:#eef1fb; }
+[lang="el"] { --accent:#5a2d82; --accent-dark:#3a1d5a; --accent-pale:#f4eef9; }

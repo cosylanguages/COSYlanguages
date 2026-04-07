@@ -922,8 +922,6 @@
             wtd_op: "Think of the opposite! Type the antonym.",
             wtd_sc: "Unscramble the letters to spell the word correctly.",
             wtd_tf: "Does the word match the emoji or description? Pick True or False.",
-            wtd_vf: "Provide the requested verb form (V2 or V3).",
-            wtd_vs: "Is this an action verb or a stative verb?",
             wtd_ws: "Sentence Builder: Tap the words in the correct order.",
             zalando: "Zalando",
             zalando_desc: "Online clothing and shoe store.",

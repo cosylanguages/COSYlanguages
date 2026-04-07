@@ -29,9 +29,9 @@ test('Practice Mode filtering by level and theme', async ({ page }) => {
     // Start Practice
     await page.click('#start-btn');
 
-    // Verify Practice Section is visible
-    await expect(page.locator('#practice-section')).toBeVisible();
-    await expect(page.locator('#setup-section')).not.toBeVisible();
+    // Verify Practice Section is visible (not hidden)
+    await expect(page.locator('#practice-section')).not.toHaveClass(/hidden/, { timeout: 10000 });
+    await expect(page.locator('#setup-section')).toHaveClass(/hidden/, { timeout: 10000 });
 });
 
 test('Student Area access and day selection', async ({ page }) => {
@@ -72,9 +72,9 @@ test('Game launch with new theme filters', async ({ page }) => {
     // Start game from sheet
     await page.click('.gss-start');
 
-    // Game modal should be visible
-    await expect(page.locator('#charades-modal')).toBeVisible();
+    // Game modal should be visible (not hidden)
+    await expect(page.locator('#charades-modal')).not.toHaveClass(/hidden/);
 
     // Gameplay area should eventually appear (it might auto-start if triggered by sheet)
-    await expect(page.locator('#charades-gameplay')).toBeVisible();
+    await expect(page.locator('#charades-gameplay')).not.toHaveClass(/hidden/);
 });

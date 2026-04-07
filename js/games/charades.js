@@ -57,9 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const endGame = () => {
             stopTimer();
-            gameArea.style.display = 'none';
-            resultArea.style.display = 'block';
-            setupArea.style.display = 'block';
+            gameArea.classList.add('hidden');
+            resultArea.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
             scoreVal.textContent = score;
 
             // Improvements: ActionHeroGame.buildSummary
@@ -70,17 +70,17 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const openCharades = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            gameArea.style.display = 'none';
-            resultArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            gameArea.classList.add('hidden');
+            resultArea.classList.add('hidden');
             populateThemesLocal();
         };
 
         openBtn?.addEventListener('click', openCharades);
         levelSelect?.addEventListener('change', populateThemesLocal);
         langSelect?.addEventListener('change', populateThemesLocal);
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => modal.classList.add('hidden'));
 
         const startCharades = () => {
             score = 0;
@@ -126,9 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             masterPool = [...pool];
             pool.sort(() => Math.random() - 0.5);
-            setupArea.style.display = 'none';
-            resultArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            resultArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
 
             stopTimer();
             const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');

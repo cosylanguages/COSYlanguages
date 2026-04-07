@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (closeDefinitionBtn) {
         closeDefinitionBtn.addEventListener('click', () => {
-            document.getElementById('definition-modal').style.display = 'none';
+            document.getElementById('definition-modal').classList.add('hidden');
         });
     }
 
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (definitionModal) {
         definitionModal.addEventListener('click', (e) => {
             if (e.target === definitionModal) {
-                definitionModal.style.display = 'none';
+                definitionModal.classList.add('hidden');
             }
         });
     }
@@ -99,14 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const summaryModal = document.getElementById('summary-modal');
 
             // Don't trigger if summary is open
-            if (summaryModal && summaryModal.style.display === 'flex') {
+            if (summaryModal && !summaryModal.classList.contains('hidden')) {
                 return;
             }
 
-            if (nextBtn && nextBtn.style.display === 'block') {
+            if (nextBtn && !nextBtn.classList.contains('hidden')) {
                 nextBtn.click();
                 e.preventDefault();
-            } else if (checkBtn && checkBtn.style.display !== 'none' && !checkBtn.disabled) {
+            } else if (checkBtn && !checkBtn.classList.contains('hidden') && !checkBtn.disabled) {
                 checkBtn.click();
                 e.preventDefault();
             }
@@ -172,7 +172,12 @@ function startLesson() {
             return wordCopy;
         });
 
-        currentLesson.words.sort(() => Math.random() - 0.5);
+        // Fisher-Yates shuffle for robust randomization
+        for (let i = currentLesson.words.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [currentLesson.words[i], currentLesson.words[j]] = [currentLesson.words[j], currentLesson.words[i]];
+        }
+
         currentLesson.currentIndex = 0;
         currentLesson.score = 0;
 
@@ -210,15 +215,15 @@ function showNextWord() {
 
     // Reset UI
     document.getElementById('feedback-message').textContent = '';
-    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('next-btn').classList.add('hidden');
     document.getElementById('opposite-answer').value = '';
-    document.getElementById('opposite-input-container').style.display = 'none';
-    document.getElementById('action-buttons-container').style.display = 'none';
-    document.getElementById('tf-buttons-container').style.display = 'none';
-    document.getElementById('choices-grid').style.display = 'none';
-    document.getElementById('scramble-container').style.display = 'none';
-    document.getElementById('conversation-container').style.display = 'none';
-    document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
+    document.getElementById('opposite-input-container').classList.add('hidden');
+    document.getElementById('action-buttons-container').classList.add('hidden');
+    document.getElementById('tf-buttons-container').classList.add('hidden');
+    document.getElementById('choices-grid').classList.add('hidden');
+    document.getElementById('scramble-container').classList.add('hidden');
+    document.getElementById('conversation-container').classList.add('hidden');
+    document.getElementById('hint-btn').classList.toggle('hidden', (wordObj.type === 'type-tf' || wordObj.type === 'type-cv'));
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
     // Show "What to do" instruction
@@ -241,10 +246,10 @@ function showNextWord() {
         const wtdKey = `wtd_${typeKey}`;
         if (translations[lang] && translations[lang][wtdKey]) {
             wtdEl.textContent = translations[lang][wtdKey];
-            wtdEl.style.display = 'inline-block';
+            wtdEl.classList.remove('hidden');
             wtdEl.setAttribute('data-translate-key', wtdKey);
         } else {
-            wtdEl.style.display = 'none';
+            wtdEl.classList.add('hidden');
         }
     }
 
@@ -275,9 +280,9 @@ function showNextWord() {
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
             exampleEl.textContent = translations[lang][exampleKey];
-            exampleEl.style.display = 'inline-block';
+            exampleEl.classList.remove('hidden');
         } else {
-            exampleEl.style.display = 'none';
+            exampleEl.classList.add('hidden');
         }
     }
 
@@ -286,9 +291,9 @@ function showNextWord() {
     if (subtextEl) {
         if (wordObj.subtext) {
             subtextEl.textContent = wordObj.subtext;
-            subtextEl.style.display = 'block';
+            subtextEl.classList.remove('hidden');
         } else {
-            subtextEl.style.display = 'none';
+            subtextEl.classList.add('hidden');
         }
     }
 
@@ -298,35 +303,35 @@ function showNextWord() {
         document.getElementById('word-display').textContent = isListen ? '???' : ((wordObj.emoji && wordObj.category === 'vocabulary') ? '???' : (wordObj.clozeText || wordObj.word));
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
-        document.getElementById('choices-grid').style.display = 'grid';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'none';
+        document.getElementById('choices-grid').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.add('hidden');
         renderMultipleChoice();
         if (isListen) setTimeout(speakWord, 500);
     } else if (wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         document.getElementById('word-display').textContent = wordObj.type === 'type-np' ? wordObj.numberPlural || wordObj.word : wordObj.clozeText || wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-np' ? 'task_number_plural' : 'task_cloze');
-        document.getElementById('opposite-input-container').style.display = 'flex';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'inline-block';
+        document.getElementById('opposite-input-container').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.remove('hidden');
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'type-sc' || wordObj.type === 'type-ws') {
         document.getElementById('word-display').textContent = '???';
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-ws' ? 'task_word_scramble' : 'task_scramble');
-        document.getElementById('scramble-container').style.display = 'block';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'none';
+        document.getElementById('scramble-container').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.add('hidden');
         if (wordObj.type === 'type-ws') renderWordScramble();
         else renderScramble();
     } else if (wordObj.type === 'type-ga') {
         document.getElementById('word-display').textContent = wordObj.baseWord;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
-        document.getElementById('choices-grid').style.display = 'grid';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'none';
+        document.getElementById('choices-grid').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.add('hidden');
         renderGenderArticles();
     } else if (wordObj.type === 'type-tf') {
         document.getElementById('word-display').textContent = wordObj.word;
@@ -338,21 +343,21 @@ function showNextWord() {
             document.getElementById('emoji-display').textContent = '❓';
         }
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
-        document.getElementById('tf-buttons-container').style.display = 'flex';
+        document.getElementById('tf-buttons-container').classList.remove('hidden');
     } else if (wordObj.type === 'type-cv') {
         document.getElementById('word-display').textContent = wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
-        document.getElementById('conversation-container').style.display = 'block';
+        document.getElementById('conversation-container').classList.remove('hidden');
     } else {
         // type-op (opposite)
         wordObj.type = 'type-op';
         document.getElementById('word-display').textContent = wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji;
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
-        document.getElementById('opposite-input-container').style.display = 'flex';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'inline-block';
+        document.getElementById('opposite-input-container').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.remove('hidden');
         document.getElementById('opposite-answer').focus();
     }
 
@@ -373,7 +378,13 @@ function showNextWord() {
 
 function showWordDefinition() {
     const wordObj = currentLesson.currentWord;
-    if (!wordObj || !wordObj.definitions || wordObj.definitions.length === 0) return;
+    if (!wordObj) return;
+
+    const hasDefinitions = wordObj.definitions && wordObj.definitions.length > 0;
+    const isVerbRelated = (wordObj.form === 'verb' || wordObj.form === 'verb_form' || wordObj.verb);
+    const hasVerbMeta = isVerbRelated && (wordObj.group || wordObj.v2 || wordObj.v3 || wordObj.past_participle);
+
+    if (!hasDefinitions && !hasVerbMeta) return;
 
     const modal = document.getElementById('definition-modal');
     const content = document.getElementById('definition-content');
@@ -391,17 +402,27 @@ function showWordDefinition() {
     const header = document.createElement('div');
     header.className = 'definition-header';
 
-    // Image logic
+    // Visual asset logic (Emoji priority, then Image)
     const imgContainer = document.createElement('div');
     imgContainer.className = 'definition-image-container';
-    const img = document.createElement('img');
-    img.className = 'definition-image';
     const displayWord = wordObj.word || wordObj.text || wordObj.topic || "";
-    // Use wordObj.image if it exists; otherwise use a placeholder
-    img.src = wordObj.image || `https://placehold.co/150?text=${encodeURIComponent(displayWord)}`;
-    img.alt = displayWord;
-    imgContainer.appendChild(img);
-    header.appendChild(imgContainer);
+
+    if (wordObj.emoji) {
+        const emojiEl = document.createElement('div');
+        emojiEl.className = 'definition-emoji-large';
+        emojiEl.textContent = wordObj.emoji;
+        imgContainer.appendChild(emojiEl);
+        header.appendChild(imgContainer);
+    } else if (wordObj.image) {
+        const img = document.createElement('img');
+        img.className = 'definition-image';
+        img.src = wordObj.image;
+        img.alt = displayWord;
+        imgContainer.appendChild(img);
+        header.appendChild(imgContainer);
+    } else {
+        // No visual asset: skip imgContainer
+    }
 
     // Word Info
     const wordInfo = document.createElement('div');
@@ -451,28 +472,30 @@ function showWordDefinition() {
     content.appendChild(header);
 
     // 2. Definitions
-    wordObj.definitions.forEach((def, index) => {
-        const defDiv = document.createElement('div');
-        defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
+    if (wordObj.definitions) {
+        wordObj.definitions.forEach((def, index) => {
+            const defDiv = document.createElement('div');
+            defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
 
-        const textPara = document.createElement('p');
-        textPara.className = 'definition-text';
-        textPara.textContent = def.text;
-        defDiv.appendChild(textPara);
+            const textPara = document.createElement('p');
+            textPara.className = 'definition-text';
+            textPara.textContent = def.text;
+            defDiv.appendChild(textPara);
 
-        // 3. Examples (inside definition block)
-        if (def.examples && def.examples.length > 0) {
-            const exList = document.createElement('ul');
-            exList.className = 'examples-list';
-            def.examples.forEach(ex => {
-                const li = document.createElement('li');
-                li.innerHTML = `<span class="example-prefix">e.g.</span> ${ex}`;
-                exList.appendChild(li);
-            });
-            defDiv.appendChild(exList);
-        }
-        content.appendChild(defDiv);
-    });
+            // 3. Examples (inside definition block)
+            if (def.examples && def.examples.length > 0) {
+                const exList = document.createElement('ul');
+                exList.className = 'examples-list';
+                def.examples.forEach(ex => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<span class="example-prefix">e.g.</span> ${ex}`;
+                    exList.appendChild(li);
+                });
+                defDiv.appendChild(exList);
+            }
+            content.appendChild(defDiv);
+        });
+    }
 
     // 4. Footer (Collocations, Antonyms, Synonyms)
     if (wordObj.subtext || wordObj.opposite || (wordObj.synonyms && wordObj.synonyms.length > 0)) {
@@ -503,7 +526,7 @@ function showWordDefinition() {
         content.appendChild(footer);
     }
 
-    modal.style.display = 'flex';
+    modal.classList.remove('hidden');
     if (typeof setLanguage === 'function') setLanguage(lang);
 }
 
@@ -657,14 +680,15 @@ function showFeedback(isCorrect) {
         document.getElementById('score-count').textContent = currentLesson.score;
         updateTotalScore(10);
         currentLesson.isCorrect = true;
-        document.getElementById('next-btn').style.display = 'block';
+        document.getElementById('next-btn').classList.remove('hidden');
 
-        document.getElementById('opposite-input-container').style.display = 'none';
-        document.getElementById('action-buttons-container').style.display = 'none';
-        document.getElementById('tf-buttons-container').style.display = 'none';
-        document.getElementById('choices-grid').style.display = 'none';
-        document.getElementById('scramble-container').style.display = 'none';
-        document.getElementById('conversation-container').style.display = 'none';
+        document.getElementById('opposite-input-container').classList.add('hidden');
+        document.getElementById('action-buttons-container').classList.add('hidden');
+        document.getElementById('tf-buttons-container').classList.add('hidden');
+        document.getElementById('choices-grid').classList.add('hidden');
+        document.getElementById('scramble-container').classList.add('hidden');
+        document.getElementById('conversation-container').classList.add('hidden');
+        document.getElementById('hint-btn').classList.add('hidden');
     }
 }
 
@@ -724,8 +748,8 @@ function updateProgress() {
 
 function showSummary() {
     updateStreak();
-    document.getElementById('practice-section').style.display = 'none';
-    document.getElementById('summary-modal').style.display = 'flex';
+    document.getElementById('practice-section').classList.add('hidden');
+    document.getElementById('summary-modal').classList.remove('hidden');
     document.getElementById('final-score').textContent = currentLesson.score;
 }
 

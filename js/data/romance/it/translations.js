@@ -914,7 +914,6 @@
             wtd_op: "Scrivi l'opposto (antonimo) della parola visualizzata.",
             wtd_sc: "Clicca sulle lettere nell'ordine giusto per comporre la parola.",
             wtd_tf: "Decidi se l'affermazione o l'immagine corrisponde alla parola.",
-            wtd_vf: "Scrivi la forma verbale corretta come richiesto.",
             wtd_ws: "Disponi le parole per costruire una frase corretta.",
             zalando: "Zalando",
             zalando_desc: "Negozio online di moda.",

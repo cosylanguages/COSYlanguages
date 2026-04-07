@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const showNext = () => {
             if (pool.length === 0) {
                 stopTimer();
-                gameArea.style.display = 'none';
-                setupArea.style.display = 'block';
+                gameArea.classList.add('hidden');
+                setupArea.classList.remove('hidden');
                 return;
             }
             const debate = pool.pop();
@@ -46,33 +46,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
             sideAIdeas.innerHTML = '';
             if (debate.ideasA && debate.ideasA.length > 0) {
-                ideasAContainer.style.display = 'block';
+                ideasAContainer.classList.remove('hidden');
                 debate.ideasA.forEach(idea => {
                     const li = document.createElement('li');
                     li.textContent = idea;
                     sideAIdeas.appendChild(li);
                 });
             } else {
-                ideasAContainer.style.display = 'none';
+                ideasAContainer.classList.add('hidden');
             }
 
             sideBIdeas.innerHTML = '';
             if (debate.ideasB && debate.ideasB.length > 0) {
-                ideasBContainer.style.display = 'block';
+                ideasBContainer.classList.remove('hidden');
                 debate.ideasB.forEach(idea => {
                     const li = document.createElement('li');
                     li.textContent = idea;
                     sideBIdeas.appendChild(li);
                 });
             } else {
-                ideasBContainer.style.display = 'none';
+                ideasBContainer.classList.add('hidden');
             }
         };
 
         const openGame = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            gameArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            gameArea.classList.add('hidden');
             populateThemes(document.getElementById('debates-theme'), document.getElementById('debates-level'), document.getElementById('debates-lang').value, 'speaking');
         };
 
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         levelSelect?.addEventListener('change', () => populateThemes(document.getElementById('debates-theme'), document.getElementById('debates-level'), document.getElementById('debates-lang').value, 'speaking'));
         langSelect?.addEventListener('change', () => populateThemes(document.getElementById('debates-theme'), document.getElementById('debates-level'), document.getElementById('debates-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
-            modal.style.display = 'none';
+            modal.classList.add('hidden');
             stopTimer();
         });
 
@@ -107,8 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             pool.sort(() => Math.random() - 0.5);
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
             showNext();
         };
 
@@ -143,8 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const showNext = () => {
             if (pool.length === 0) {
                 stopTimer();
-                gameArea.style.display = 'none';
-                setupArea.style.display = 'block';
+                gameArea.classList.add('hidden');
+                setupArea.classList.remove('hidden');
                 return;
             }
             const item = pool.pop();
@@ -169,9 +169,9 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const openGame = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            gameArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            gameArea.classList.add('hidden');
             populateThemes(document.getElementById('opinion-theme'), document.getElementById('opinion-level'), document.getElementById('opinion-lang').value, 'speaking');
         };
 
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('opinion-level')?.addEventListener('change', () => populateThemes(document.getElementById('opinion-theme'), document.getElementById('opinion-level'), document.getElementById('opinion-lang').value, 'speaking'));
         document.getElementById('opinion-lang')?.addEventListener('change', () => populateThemes(document.getElementById('opinion-theme'), document.getElementById('opinion-level'), document.getElementById('opinion-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
-            modal.style.display = 'none';
+            modal.classList.add('hidden');
             stopTimer();
         });
 
@@ -206,8 +206,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             pool.sort(() => Math.random() - 0.5);
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
             showNext();
         };
 
@@ -243,8 +243,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const showNext = () => {
             if (pool.length === 0) {
                 stopTimer();
-                gameArea.style.display = 'none';
-                setupArea.style.display = 'block';
+                gameArea.classList.add('hidden');
+                setupArea.classList.remove('hidden');
                 return;
             }
             const item = pool.pop();
@@ -259,9 +259,9 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const openGame = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            gameArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            gameArea.classList.add('hidden');
             populateThemes(document.getElementById('critics-theme'), document.getElementById('critics-level'), document.getElementById('critics-lang').value, 'speaking');
         };
 
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('critics-level')?.addEventListener('change', () => populateThemes(document.getElementById('critics-theme'), document.getElementById('critics-level'), document.getElementById('critics-lang').value, 'speaking'));
         document.getElementById('critics-lang')?.addEventListener('change', () => populateThemes(document.getElementById('critics-theme'), document.getElementById('critics-level'), document.getElementById('critics-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
-            modal.style.display = 'none';
+            modal.classList.add('hidden');
             stopTimer();
         });
 
@@ -296,8 +296,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             pool.sort(() => Math.random() - 0.5);
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
             showNext();
         };
 
@@ -332,8 +332,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const showNext = () => {
             if (pool.length === 0) {
                 stopTimer();
-                gameArea.style.display = 'none';
-                setupArea.style.display = 'block';
+                gameArea.classList.add('hidden');
+                setupArea.classList.remove('hidden');
                 return;
             }
             const item = pool.pop();
@@ -367,9 +367,9 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const openGame = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            gameArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            gameArea.classList.add('hidden');
             populateThemes(document.getElementById('talk-theme'), document.getElementById('talk-level'), document.getElementById('talk-lang').value, 'speaking');
         };
 
@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('talk-level')?.addEventListener('change', () => populateThemes(document.getElementById('talk-theme'), document.getElementById('talk-level'), document.getElementById('talk-lang').value, 'speaking'));
         document.getElementById('talk-lang')?.addEventListener('change', () => populateThemes(document.getElementById('talk-theme'), document.getElementById('talk-level'), document.getElementById('talk-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
-            modal.style.display = 'none';
+            modal.classList.add('hidden');
             stopTimer();
         });
 
@@ -404,8 +404,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             pool.sort(() => Math.random() - 0.5);
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
             showNext();
         };
 

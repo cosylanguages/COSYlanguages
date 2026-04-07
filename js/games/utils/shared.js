@@ -326,7 +326,6 @@ const showGameMessage = (containerOrId, message, type = 'info') => {
 const showGameConfirm = (message, onConfirm) => {
     const overlay = document.createElement('div');
     overlay.className = 'modal-overlay';
-    overlay.style.display = 'flex';
     overlay.style.zIndex = '20000';
 
     const content = document.createElement('div');
@@ -341,9 +340,7 @@ const showGameConfirm = (message, onConfirm) => {
     msg.style.fontWeight = '600';
 
     const actions = document.createElement('div');
-    actions.style.display = 'flex';
-    actions.style.gap = '1rem';
-    actions.style.justifyContent = 'center';
+    actions.className = 'flex-center-gap-1rem';
 
     const confirmBtn = document.createElement('button');
     confirmBtn.className = 'cta-button primary';

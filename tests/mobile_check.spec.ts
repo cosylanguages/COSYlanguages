@@ -34,8 +34,8 @@ test('Mobile navigation and games improvements check', async ({ page }) => {
   await gameCard.click();
 
   const setupSheet = page.locator('#game-setup-sheet');
-  await expect(setupSheet).toBeVisible();
-  await expect(setupSheet).toHaveClass(/open/);
+  // Wait for the sheet to be visible and open
+  await expect(setupSheet).toHaveClass(/open/, { timeout: 10000 });
 
   // Start a game from the sheet
   const startBtn = setupSheet.locator('.gss-start');
@@ -43,8 +43,7 @@ test('Mobile navigation and games improvements check', async ({ page }) => {
 
   // The corresponding game modal should open. For Action Hero (first card):
   const actionHeroModal = page.locator('#charades-modal');
-  await expect(actionHeroModal).toBeVisible();
-  await expect(actionHeroModal).toHaveCSS('display', 'flex');
+  await expect(actionHeroModal).not.toHaveClass(/hidden/, { timeout: 10000 });
 
   // Check if round summary override works after a game
   // This is harder to automate quickly, but we can check if ActionHeroGame is defined

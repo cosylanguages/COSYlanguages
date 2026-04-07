@@ -28,15 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
         let hasWonCurrentCard = false;
 
         const openBingo = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            callerArea.style.display = 'none';
-            playerArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            callerArea.classList.add('hidden');
+            playerArea.classList.add('hidden');
         };
 
         openBtn?.addEventListener('click', openBingo);
         closeBtn?.addEventListener('click', () => {
-            modal.style.display = 'none';
+            modal.classList.add('hidden');
             clearInterval(speedInterval);
             // Improvements: stopAutoCaller
             if (window.LuckyNumbersGame) LuckyNumbersGame.stopAutoCaller();
@@ -151,11 +151,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (existingMsg) existingMsg.remove();
 
             historyDisplay.innerHTML = '';
-            setupArea.style.display = 'none';
-            callerArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            callerArea.classList.remove('hidden');
 
             const autoIndicator = document.getElementById('bingo-auto-indicator');
-            if (autoIndicator) autoIndicator.style.display = 'none';
+            if (autoIndicator) autoIndicator.classList.add('hidden');
 
             clearInterval(speedInterval);
         };
@@ -168,10 +168,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (window.LuckyNumbersGame) {
                 if (LuckyNumbersGame.autoCallerInterval) {
                     LuckyNumbersGame.stopAutoCaller();
-                    document.getElementById('bingo-auto-indicator').style.display = 'none';
+                    document.getElementById('bingo-auto-indicator').classList.add('hidden');
                 } else {
                     LuckyNumbersGame.startAutoCaller(bingoPool, document.getElementById('bingo-lang').value, 4000);
-                    document.getElementById('bingo-auto-indicator').style.display = 'block';
+                    document.getElementById('bingo-auto-indicator').classList.remove('hidden');
                 }
             }
         });
@@ -274,19 +274,19 @@ document.addEventListener('DOMContentLoaded', () => {
             currentCardIndex = 0;
             hasWonCurrentCard = false;
             generatePlayerCard();
-            setupArea.style.display = 'none';
-            playerArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            playerArea.classList.remove('hidden');
 
             const playerLastCalled = document.getElementById('bingo-player-last-called');
             if (playerLastCalled) playerLastCalled.textContent = '---';
 
             const soloMode = document.getElementById('bingo-solo-mode')?.checked;
             const soloIndicator = document.getElementById('bingo-solo-indicator');
-            if (soloIndicator) soloIndicator.style.display = 'none';
+            if (soloIndicator) soloIndicator.classList.add('hidden');
 
             clearInterval(speedInterval);
             if (soloMode) {
-                if (soloIndicator) soloIndicator.style.display = 'block';
+                if (soloIndicator) soloIndicator.classList.remove('hidden');
                 const pool = preparePool();
                 const urlParams = new URLSearchParams(window.location.search);
                 const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();

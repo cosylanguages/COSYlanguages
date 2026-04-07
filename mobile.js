@@ -139,7 +139,7 @@ function openGameSheet(gameName, gameIcon) {
           levelSelect?.dispatchEvent(new Event('change'));
 
           // Open the actual game modal
-          modal.style.display = 'flex';
+          modal.classList.remove('hidden');
 
           // Click start button after a short delay
           setTimeout(() => {

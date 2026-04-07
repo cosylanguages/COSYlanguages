@@ -39,7 +39,7 @@ test.describe('Adjectives Grammar Practice', () => {
         await expect(instruction).toContainText(/Type the correct comparative or superlative form/);
 
         // Verify badge
-        const badge = page.locator('.form-badge');
+        const badge = page.locator('#word-form');
         await expect(badge).toContainText('Adjective');
 
         // Verify cloze text contains "(Comparative)" or "(Superlative)"
@@ -81,7 +81,7 @@ test.describe('Adjectives Grammar Practice', () => {
         await page.click('#start-btn');
 
         // Verify presence of form badge
-        const badge = page.locator('.form-badge');
+        const badge = page.locator('#word-form');
         await expect(badge).toBeVisible();
         await expect(badge).toContainText('Прил.');
     });

@@ -187,8 +187,9 @@
             const btn = document.getElementById(btnId);
             const content = document.getElementById(contentId);
             if (btn && content) btn.addEventListener('click', () => {
-                const isHidden = window.getComputedStyle(content).display === 'none';
-                content.style.display = isHidden ? 'block' : 'none';
+                const isHidden = content.classList.contains('hidden');
+                if (isHidden) content.classList.remove('hidden');
+                else content.classList.add('hidden');
                 btn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
                 if (window.setLanguage) window.setLanguage(localStorage.getItem('language') || 'en');
             });
@@ -205,17 +206,15 @@
                     const filter = btn.getAttribute('data-filter');
                     filterBtns.forEach(b => {
                         b.classList.toggle('active', b === btn);
-                        b.style.background = b === btn ? 'var(--sage)' : '#fff';
-                        b.style.color = b === btn ? '#fff' : 'var(--ink-soft)';
-                        b.style.borderColor = b === btn ? 'var(--sage)' : 'var(--border)';
+                        // Styles are handled by .active class in CSS
                     });
 
                     gameCards.forEach(card => {
                         const level = card.getAttribute('data-level');
                         if (filter === 'all' || level === filter) {
-                            card.style.display = 'flex';
+                            card.classList.remove('hidden');
                         } else {
-                            card.style.display = 'none';
+                            card.classList.add('hidden');
                         }
                     });
                 });

@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const api = {
             open: () => {
-                modal.style.display = 'flex';
-                setupArea.style.display = 'block';
-                gameArea.style.display = 'none';
+                modal.classList.remove('hidden');
+                setupArea.classList.remove('hidden');
+                gameArea.classList.add('hidden');
                 feedback.textContent = '';
                 // Reset areas
-                guessArea.style.display = 'none';
-                storyArea.style.display = 'none';
+                guessArea.classList.add('hidden');
+                storyArea.classList.add('hidden');
                 storyDisplay.textContent = '';
                 storyNameDisplay.textContent = '';
                 populateThemesLocal();
@@ -165,9 +165,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         modeSelect?.addEventListener('change', () => {
             if (modeSelect.value === 'story') {
-                storySetupExtra.style.display = 'block';
+                storySetupExtra.classList.remove('hidden');
             } else {
-                storySetupExtra.style.display = 'none';
+                storySetupExtra.classList.add('hidden');
             }
         });
 
@@ -176,13 +176,13 @@ document.addEventListener('DOMContentLoaded', () => {
             api.open();
             // Reset story setup visibility
             if (modeSelect) modeSelect.value = 'guess';
-            if (storySetupExtra) storySetupExtra.style.display = 'none';
+            if (storySetupExtra) storySetupExtra.classList.add('hidden');
         });
 
         levelSelect?.addEventListener('change', populateThemesLocal);
         langSelect?.addEventListener('change', populateThemesLocal);
 
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => modal.classList.add('hidden'));
 
         startBtn?.addEventListener('click', () => {
             currentGameMode = modeSelect.value;
@@ -211,10 +211,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     showGameMessage(setupArea, t('alert_no_emoji_vocab'), 'error');
                     return;
                 }
-                setupArea.style.display = 'none';
-                gameArea.style.display = 'block';
-                guessArea.style.display = 'block';
-                storyArea.style.display = 'none';
+                setupArea.classList.add('hidden');
+                gameArea.classList.remove('hidden');
+                guessArea.classList.remove('hidden');
+                storyArea.classList.add('hidden');
                 showNextGuess();
             } else {
                 const defaultTitle = t('emoji_story_title_label') || "Our Story";
@@ -226,10 +226,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     storyName = name;
                 }
 
-                setupArea.style.display = 'none';
-                gameArea.style.display = 'block';
-                guessArea.style.display = 'none';
-                storyArea.style.display = 'block';
+                setupArea.classList.add('hidden');
+                gameArea.classList.remove('hidden');
+                guessArea.classList.add('hidden');
+                storyArea.classList.remove('hidden');
                 storyNameDisplay.textContent = `📖 ${storyName}`;
                 startStoryTurn();
             }
@@ -240,9 +240,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         finishBtn?.addEventListener('click', () => {
-            gameArea.style.display = 'none';
-            setupArea.style.display = 'block';
-            storyArea.style.display = 'none';
+            gameArea.classList.add('hidden');
+            setupArea.classList.remove('hidden');
+            storyArea.classList.add('hidden');
             storyDisplay.textContent = '';
             storyNameDisplay.textContent = '';
             feedback.textContent = '';

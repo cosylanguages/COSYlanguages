@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const showTarget = () => {
             if (pool.length === 0) {
-                gameArea.style.display = 'none';
-                setupArea.style.display = 'block';
+                gameArea.classList.add('hidden');
+                setupArea.classList.remove('hidden');
                 return;
             }
             playGameSound('click');
@@ -74,16 +74,16 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const openGame = () => {
-            modal.style.display = 'flex';
-            setupArea.style.display = 'block';
-            gameArea.style.display = 'none';
+            modal.classList.remove('hidden');
+            setupArea.classList.remove('hidden');
+            gameArea.classList.add('hidden');
             populateThemesLocal();
         };
 
         openBtn?.addEventListener('click', openGame);
         modal.querySelector('.game-level')?.addEventListener('change', populateThemesLocal);
         modal.querySelector('.game-lang')?.addEventListener('change', populateThemesLocal);
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => modal.classList.add('hidden'));
 
         const startGame = () => {
             const lang = modal.querySelector('.game-lang').value;
@@ -108,8 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             pool.sort(() => Math.random() - 0.5);
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
             showTarget();
         };
 

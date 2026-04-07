@@ -43,9 +43,9 @@
 
     const game = {
         open() {
-            elements.modal.style.display = 'flex';
-            elements.setup.style.display = 'block';
-            elements.gameplay.style.display = 'none';
+            elements.modal.classList.remove('hidden');
+            elements.setup.classList.remove('hidden');
+            elements.gameplay.classList.add('hidden');
 
             // Sync UI with current global language if any
             const currentLang = getLang();
@@ -54,7 +54,7 @@
         },
 
         close() {
-            elements.modal.style.display = 'none';
+            elements.modal.classList.add('hidden');
             this.reset();
         },
 
@@ -83,8 +83,8 @@
             // Prepare vocabulary
         state.filteredVocab = window.getVocabPool ? window.getVocabPool(state.lang, state.level, state.theme) : [];
 
-            elements.setup.style.display = 'none';
-            elements.gameplay.style.display = 'block';
+            elements.setup.classList.add('hidden');
+            elements.gameplay.classList.remove('hidden');
             elements.input.focus();
         }
     };

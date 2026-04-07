@@ -26,409 +26,6 @@ if ('serviceWorker' in navigator) {
     .catch(e => console.log('SW:', e));
 }
 </script>
-    <style>
-/* ── Design tokens ─────────────────────────────────── */
-:root {
-  --sage:       #6b8f71;
-  --sage-dark:  #4a6b50;
-  --sage-deep:  #2e4a33;
-  --sage-mist:  #f0f5f1;
-  --sage-pale:  #e8f0e9;
-  --cream:      #fdf8f0;
-  --cream-dark: #f5ede0;
-  --honey:      #e8a838;
-  --honey-dark: #a06b10;
-  --honey-pale: #fff8e7;
-  --honey-mid:  #fef0c7;
-  --ink:        #2a2a2a;
-  --ink-soft:   #4a4a4a;
-  --muted:      #6b6b6b;
-  --border:     rgba(74,107,80,.12);
-  --radius:     18px;
-  --radius-sm:  10px;
-  --shadow-sm:  0 2px 12px rgba(46,74,51,.07);
-  --shadow:     0 6px 28px rgba(46,74,51,.10);
-}
-
-body {
-  background: var(--cream);
-  font-family: 'Nunito', sans-serif;
-  color: var(--ink);
-}
-
-/* ── Nav ────────────────────────────────────────────── */
-nav {
-  position: sticky; top: 0; z-index: 200;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-  box-shadow: 0 2px 16px rgba(46,74,51,.06);
-  transition: height .3s ease, padding .3s ease, background .3s ease;
-}
-nav.shrunk {
-  height: 54px;
-  background: rgba(253,248,240,.98);
-  box-shadow: 0 4px 20px rgba(46,74,51,.12);
-}
-.nav-logo { display: flex; align-items: center; gap: .6rem; }
-.nav-logo img { height: 44px; transition: height .3s ease; }
-nav.shrunk .nav-logo img { height: 36px; }
-.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
-.nav-links a {
-  font-weight: 700; font-size: .8rem;
-  padding: .35rem .65rem; border-radius: var(--radius-sm);
-  color: var(--ink-soft);
-  transition: background .18s, color .18s;
-}
-.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
-.nav-links a.active { background: var(--sage-mist); color: var(--sage-deep); box-shadow: inset 0 0 0 1px var(--border); }
-.nav-student {
-  font-size: .75rem !important;
-  color: var(--muted) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: var(--radius-sm) !important;
-}
-.nav-student:hover { background: var(--cream-dark) !important; color: var(--ink) !important; }
-.nav-wa {
-  background: var(--sage) !important;
-  color: #fff !important;
-  border-radius: 999px !important;
-  padding: .38rem .9rem !important;
-}
-.nav-wa:hover { background: var(--sage-dark) !important; color: #fff !important; }
-.nav-lang { display: flex; gap: .2rem; margin-left: .5rem; }
-.nav-lang a {
-  font-size: .73rem; font-weight: 800;
-  padding: .2rem .38rem; border-radius: 6px;
-  color: var(--muted);
-  transition: all .18s;
-  cursor: pointer;
-}
-.nav-lang a:hover { background: var(--sage-pale); color: var(--sage-dark); }
-
-@media (max-width: 560px) {
-  nav { padding: 0 1rem; }
-  .nav-links { gap: .2rem; }
-  .nav-links a { font-size: .72rem; padding: .28rem .45rem; }
-  .nav-links li:nth-child(1), .nav-links li:nth-child(2) { display: none; }
-  .nav-lang { display: none; }
-}
-
-/* ── Events page header ── */
-.events-header {
-  background: linear-gradient(145deg, var(--sage-deep) 0%, var(--sage-dark) 50%, var(--sage) 100%);
-  color: #fff;
-  padding: 3rem 2rem 3.5rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.events-header::before {
-  content: '🎉';
-  position: absolute; right: 2rem; top: -1rem;
-  font-size: 10rem; opacity: .06; pointer-events: none;
-}
-.events-header::after {
-  content: '';
-  position: absolute; bottom: -2px; left: 0; right: 0;
-  height: 40px;
-  background: var(--cream);
-  clip-path: ellipse(52% 100% at 50% 100%);
-}
-.events-header-inner {
-  position: relative; max-width: 640px; margin: 0 auto;
-}
-.eh-free-label {
-  display: inline-flex; align-items: center; gap: .35rem;
-  background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
-  border-radius: 999px; padding: .25rem .85rem;
-  font-size: .72rem; font-weight: 900; letter-spacing: .05em;
-  margin-bottom: 1rem;
-}
-.events-header h1 {
-  font-family: 'Lora', serif !important;
-  font-size: 2rem; font-weight: 700;
-  margin-bottom: .7rem;
-}
-.events-header p {
-  font-size: .95rem; opacity: .9; line-height: 1.7;
-}
-
-/* ── Main content layout ── */
-#events {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-
-.events-hero-stats {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.e-stat {
-  background: #fff; border: 1px solid var(--border);
-  padding: .8rem 1.5rem; border-radius: var(--radius-sm);
-  display: flex; align-items: center; gap: .6rem;
-  box-shadow: var(--shadow-sm);
-}
-.e-stat-icon { font-size: 1.5rem; }
-.e-stat-val { font-weight: 800; color: var(--sage-deep); }
-.e-stat-lbl { font-size: .75rem; color: var(--muted); text-transform: uppercase; font-weight: 700; }
-
-.help-details {
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin-bottom: 2rem;
-  overflow: hidden;
-  transition: all .3s;
-}
-.help-details:hover { border-color: var(--sage); box-shadow: var(--shadow-sm); }
-.help-details summary {
-  padding: 1.2rem;
-  font-weight: 700;
-  color: var(--sage-dark);
-  cursor: pointer;
-  outline: none;
-}
-.info-content { padding: 0 1.2rem 1.2rem; font-size: .9rem; line-height: 1.6; }
-.info-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: .6rem; }
-.info-list li strong { color: var(--sage-deep); }
-
-/* ── Grid of tools/events ── */
-.tools-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 3rem;
-}
-.tool-card {
-  background: #fff;
-  border-radius: var(--radius);
-  padding: 1.8rem;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
-  transition: transform .22s, box-shadow .22s;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-.tool-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
-.tool-card h3 {
-  font-family: 'Lora', serif;
-  font-size: 1.25rem;
-  color: var(--sage-deep);
-  margin-bottom: .8rem;
-}
-.tool-card p {
-  font-size: .88rem;
-  color: var(--muted);
-  line-height: 1.6;
-  margin-bottom: 1.2rem;
-  flex: 1;
-}
-
-/* Speaking Clubs specific highlight */
-.tool-card.speaking-highlight {
-  border-color: var(--honey);
-  background: linear-gradient(180deg, #fff 0%, var(--honey-pale) 100%);
-}
-.tool-card.speaking-highlight h3 { color: var(--honey-dark); }
-
-/* ── Games section ── */
-.games-categories { display: flex; flex-direction: column; gap: 2rem; }
-.game-category h4 {
-  font-family: 'Lora', serif;
-  font-size: 1.1rem;
-  color: var(--sage-dark);
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-.game-category h4::after {
-  content: ''; flex: 1; height: 1px; background: var(--border);
-}
-.game-category.speaking-highlight h4 { color: var(--honey-dark); }
-.game-category.speaking-highlight h4::after { background: var(--honey); opacity: .3; }
-
-.games-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-.game-card-lobby {
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  transition: all .25s ease;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-}
-.game-card-lobby:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow);
-  border-color: var(--sage);
-}
-.game-card-lobby .gc-icon { font-size: 2.5rem; margin-bottom: 1rem; }
-.game-card-lobby .gc-title {
-  font-family: 'Lora', serif;
-  font-size: 1.2rem; font-weight: 700;
-  color: var(--sage-deep); margin-bottom: .4rem;
-}
-.game-card-lobby .gc-desc {
-  font-size: .82rem; color: var(--muted);
-  line-height: 1.5; margin-bottom: 1.2rem;
-  flex: 1;
-}
-.gc-badges { display: flex; gap: .4rem; margin-bottom: 1.2rem; }
-.gc-badge {
-  font-size: .65rem; font-weight: 800;
-  padding: .2rem .6rem; border-radius: 999px;
-  background: var(--sage-pale); color: var(--sage-dark);
-}
-.gc-badge.beginner { background: #e5f4ec; color: #1a6b45; }
-.gc-badge.advanced { background: #fcebeb; color: #a32d2d; }
-
-.gc-actions { display: flex; gap: .5rem; }
-.gc-btn {
-  flex: 1; padding: .5rem; border-radius: 999px;
-  font-size: .75rem; font-weight: 800; border: none; cursor: pointer;
-  transition: background .2s;
-}
-.gc-btn-play { background: var(--sage); color: #fff; }
-.gc-btn-play:hover { background: var(--sage-dark); }
-.gc-btn-friends { background: var(--sage-pale); color: var(--sage-dark); }
-.gc-btn-friends:hover { background: var(--sage-mist); }
-
-.gc-play-btn {
-  width: 100%;
-  margin: 0 !important;
-}
-
-/* Highlighted games */
-.game-category.speaking-highlight .game-card:hover { border-color: var(--honey); background: var(--honey-pale); }
-
-/* ── Footer ───────────────────────────────────────────── */
-footer {
-  background: var(--sage-deep); color: rgba(255,255,255,.78);
-  padding: 2.5rem 2rem; font-size: .82rem;
-  margin-top: 4rem;
-}
-.footer-inner { max-width: 1040px; margin: 0 auto; }
-.footer-top {
-  display: flex; justify-content: space-between; align-items: flex-start;
-  flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,.1);
-}
-.footer-brand .fb-logo { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
-.footer-brand .fb-logo img { height: 36px; }
-.footer-brand .fb-name { font-family: 'Lora', serif; font-weight: 700; font-size: 1rem; color: #fff; }
-.footer-brand p { font-size: .8rem; opacity: .75; max-width: 240px; line-height: 1.6; text-align: left;}
-.footer-links-col h5 { font-size: .73rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: .6rem; text-align: left;}
-.footer-links-col a { display: block; font-size: .8rem; color: rgba(255,255,255,.78); margin-bottom: .3rem; font-weight: 700; transition: color .18s; text-align: left;}
-.footer-links-col a:hover { color: #fff; }
-.footer-bottom { text-align: center; font-size: .75rem; opacity: .5; }
-
-/* ── Topics list ── */
-#speaking-club-topics ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .8rem; margin-top: 1rem; }
-#speaking-club-topics li { background: rgba(255,255,255,.5); padding: .6rem 1rem; border-radius: var(--radius-sm); font-size: .85rem; font-weight: 700; color: var(--sage-deep); border: 1px solid var(--border); }
-.speaking-highlight #speaking-club-topics li { background: #fff; border-color: var(--honey); color: var(--honey-dark); }
-
-.friends-spotlight {
-  background: linear-gradient(135deg, var(--sage-deep), var(--sage-dark));
-  color: #fff; padding: 2rem; border-radius: var(--radius);
-  margin: 3rem 0; display: flex; align-items: center; gap: 2rem;
-  position: relative; overflow: hidden;
-}
-.friends-spotlight::before {
-  content: '👥'; position: absolute; right: -1rem; bottom: -1rem;
-  font-size: 8rem; opacity: .1;
-}
-.fs-content { flex: 1; position: relative; z-index: 1; }
-.fs-content h3 { font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: .6rem; }
-.fs-content p { opacity: .9; font-size: .92rem; line-height: 1.6; }
-.fs-action { margin-top: 1.2rem; }
-
-.log-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
-.log-item {
-  background: #fff; border: 1px solid var(--border); padding: 1rem; border-radius: var(--radius-sm);
-  display: flex; align-items: center; gap: .8rem;
-}
-.log-icon { font-size: 1.8rem; }
-.log-body { font-size: .75rem; }
-.log-name { font-weight: 800; display: block; margin-bottom: .1rem; }
-.log-meta { color: var(--muted); }
-
-/* ── Modals standardisation ── */
-.modal-overlay { z-index: 10000 !important; }
-.modal-content {
-  background: #fff !important;
-  border-radius: var(--radius) !important;
-  padding: 2.5rem 2rem !important;
-  box-shadow: var(--shadow) !important;
-  border-top: 4px solid var(--sage) !important;
-}
-.modal-content h2 {
-  font-family: 'Lora', serif !important;
-  font-size: 1.6rem !important;
-  color: var(--sage-deep) !important;
-  margin-bottom: 1.5rem !important;
-  background: none !important;
-  -webkit-text-fill-color: initial !important;
-}
-.cta-button.primary {
-  background: var(--sage) !important;
-  color: #fff !important;
-  font-family: 'Nunito', sans-serif !important;
-  font-weight: 900 !important;
-  padding: .75rem 2rem !important;
-  border-radius: 999px !important;
-  border: none !important;
-  box-shadow: 0 4px 16px rgba(107,143,113,.3) !important;
-  cursor: pointer;
-  transition: transform .18s, box-shadow .18s;
-}
-.cta-button.primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(107,143,113,.4) !important; }
-
-.cta-button.secondary {
-  background: var(--cream) !important;
-  color: var(--ink-soft) !important;
-  font-family: 'Nunito', sans-serif !important;
-  font-weight: 800 !important;
-  font-size: .85rem !important;
-  padding: .6rem 1.2rem !important;
-  border-radius: 999px !important;
-  border: 1.5px solid var(--border) !important;
-  cursor: pointer !important;
-  transition: all .18s !important;
-  box-shadow: none !important;
-}
-.cta-button.secondary:hover { border-color: var(--sage) !important; background: var(--sage-pale) !important; }
-
-/* Honey styling for Speaking CTA */
-.speaking-highlight .cta-button.primary {
-  background: var(--honey) !important;
-  box-shadow: 0 4px 16px rgba(232,168,56,.3) !important;
-}
-.speaking-highlight .cta-button.primary:hover {
-  box-shadow: 0 6px 20px rgba(232,168,56,.4) !important;
-}
-</style>
 </head>
 <body class="events-page">
     <nav id="main-nav">
@@ -464,7 +61,7 @@ footer {
     <main>
 <div class="session-log" id="session-log-container"><h3>Recently Played 🕒</h3><div class="log-grid" id="session-log-grid"></div></div>
         <section id="events">
-            <h2 data-translate-key="events_title" style="display: none;">Our Events 🎉</h2>
+            <h2 data-translate-key="events_title" class="hidden">Our Events 🎉</h2>
 
             <div class="events-hero-stats">
               <div class="e-stat"><span class="e-stat-icon">🎮</span> <div class="e-stat-body"><span class="e-stat-val">13</span> <span class="e-stat-lbl">Games</span></div></div>
@@ -473,10 +70,10 @@ footer {
             </div>
 
             <!-- Global Preferences Bar -->
-            <div id="global-preferences" class="global-preferences setup-card" style="margin-bottom: 2rem; display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; padding: 1rem !important;">
-                <div class="pref-field" style="display: flex; align-items: center; gap: .8rem;">
-                    <label style="font-size: .8rem; font-weight: 800; color: var(--muted); text-transform: uppercase;">Session Language:</label>
-                    <select id="global-lang-select" class="pill-input" style="width: auto; padding: .4rem 2rem .4rem .8rem; font-size: .8rem;">
+            <div id="global-preferences" class="global-preferences setup-card flex-center-wrap padding-1rem margin-bottom-xl">
+                <div class="pref-field flex-center-gap8">
+                    <label class="label-muted-small">Session Language:</label>
+                    <select id="global-lang-select" class="pill-input select-auto-small">
                         <option value="en">English 🇬🇧</option>
                         <option value="fr">Français 🇫🇷</option>
                         <option value="it">Italiano 🇮🇹</option>
@@ -500,7 +97,7 @@ footer {
             </div>
 
             <details class="help-details glass centered-info" open>
-                <summary style="cursor: pointer; font-weight: bold; color: var(--sage-dark);" data-translate-key="how_it_works">How it works? 💡</summary>
+                <summary class="summary-sage-bold" data-translate-key="how_it_works">How it works? 💡</summary>
                 <div class="info-content">
                     <ul class="info-list">
                         <li data-translate-key="how_it_works_events_li1">🎭 <strong>Games:</strong> Click "Show Games" to see available interactive tools. Perfect for solo or group practice!</li>
@@ -512,14 +109,14 @@ footer {
                 </div>
             </details>
 
-            <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--sage-dark); margin: 2rem 0 1rem; display: flex; align-items: center; gap: .5rem;">🎮 Play Solo or with Friends <span style="flex: 1; height: 1px; background: var(--border);"></span></div>
+            <div class="game-category-label section-divider-sage">🎮 Play Solo or with Friends <span></span></div>
 
             <!-- Game Level Filters -->
-            <div id="game-filters" class="game-filters" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
-                <button class="filter-btn active" data-filter="all" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">All Games</button>
-                <button class="filter-btn" data-filter="beginner" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">Beginner (A1-A2)</button>
-                <button class="filter-btn" data-filter="intermediate" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">Intermediate (B1-B2)</button>
-                <button class="filter-btn" data-filter="advanced" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">Advanced (C1-C2)</button>
+            <div id="game-filters" class="game-filters flex-wrap-gap8 margin-bottom-lg">
+                <button class="filter-btn active" data-filter="all">All Games</button>
+                <button class="filter-btn" data-filter="beginner">Beginner (A1-A2)</button>
+                <button class="filter-btn" data-filter="intermediate">Intermediate (B1-B2)</button>
+                <button class="filter-btn" data-filter="advanced">Advanced (C1-C2)</button>
             </div>
 
             <div class="games-grid">
@@ -639,7 +236,7 @@ footer {
             </div>
 
 
-            <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--sage-dark); margin: 4rem 0 1rem; display: flex; align-items: center; gap: .5rem;">🗣️ Speaking Clubs & More <span style="flex: 1; height: 1px; background: var(--border);"></span></div>
+            <div class="game-category-label section-divider-sage margin-top-4rem">🗣️ Speaking Clubs & More <span></span></div>
 
             <div class="tools-grid">
                 <div class="tool-card speaking-highlight">
@@ -668,21 +265,21 @@ footer {
         </section>
 
         <!-- Charades Game Modal -->
-        <div id="charades-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="charades-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="charades_title">Action Hero 🎭</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="charades_guide_text">One player holds the phone above their head. Others describe the word/emoji without saying it! Use the buttons to mark as Correct or Incorrect.</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="charades_guide_text">One player holds the phone above their head. Others describe the word/emoji without saying it! Use the buttons to mark as Correct or Incorrect.</p>
                 </details>
 
-                <p data-translate-key="charades_instruction" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Grab a phone, set a 1-minute timer, and hold it above your head!</p>
+                <p data-translate-key="charades_instruction" class="text-small-muted margin-bottom-lg">Grab a phone, set a 1-minute timer, and hold it above your head!</p>
 
                 <div id="charades-setup">
-                    <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
+                    <div class="setup-group text-left margin-bottom-1rem">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="charades-lang" class="pill-input game-lang" style="width: 100%;">
+                        <select id="charades-lang" class="pill-input game-lang full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -703,10 +300,10 @@ footer {
                         </select>
                     </div>
 
-                    <div class="setup-row" style="margin-bottom: 1rem;">
-                        <div class="setup-group" style="flex: 1; text-align: left;">
+                    <div class="setup-row margin-bottom-1rem">
+                        <div class="setup-group flex-1 text-left">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="charades-level" class="pill-input game-level" style="width: 100%;">
+                            <select id="charades-level" class="pill-input game-level full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -716,14 +313,14 @@ footer {
                                 <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1; text-align: left;">
+                        <div class="setup-group flex-1 text-left">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                                <select id="charades-theme" class="pill-input game-theme" style="width: 100%;"><option value="all" data-translate-key="theme_all">All Themes</option></select></div>
+                                <select id="charades-theme" class="pill-input game-theme full-width"><option value="all" data-translate-key="theme_all">All Themes</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem;">
-                        <div class="setup-group" style="flex: 1; text-align: left;">
+                    <div class="setup-row margin-bottom-1rem">
+                        <div class="setup-group flex-1 text-left">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="charades-timer-duration" class="pill-input" style="width: 100%;">
+                            <select id="charades-timer-duration" class="pill-input full-width">
                                 <option value="30" data-translate-key="timer_30s">30s</option>
                                 <option value="60" selected data-translate-key="timer_60s">60s</option>
                                 <option value="90" data-translate-key="timer_90s">90s</option>
@@ -736,46 +333,46 @@ footer {
                     <button id="share-charades-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div id="charades-gameplay" class="action-hero-mobile" style="display: none;">
-                    <div id="charades-timer" class="ah-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
+                <div id="charades-gameplay" class="action-hero-mobile hidden">
+                    <div id="charades-timer" class="ah-timer ah-timer-standard">1:00</div>
                     <div id="charades-card" class="game-main-card">
                         <div id="ah-word-display">
                             <div id="charades-emoji" class="game-emoji-large">🍎</div>
                             <div id="charades-word" class="ah-word" data-translate-key="placeholder_loading">Loading...</div>
                         </div>
                     </div>
-                    <div class="ah-buttons" style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
-                        <button id="charades-correct-btn" class="cta-button ah-btn-correct" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
-                        <button id="charades-incorrect-btn" class="cta-button ah-btn-incorrect" style="background: #f44336;" data-translate-key="incorrect_btn">Incorrect ❌</button>
+                    <div class="ah-buttons ah-buttons-flex">
+                        <button id="charades-correct-btn" class="cta-button ah-btn-correct bg-correct" data-translate-key="correct_btn">Correct ✅</button>
+                        <button id="charades-incorrect-btn" class="cta-button ah-btn-incorrect bg-incorrect" data-translate-key="incorrect_btn">Incorrect ❌</button>
                         <button id="charades-stop-btn" class="cta-button secondary" data-translate-key="stop_game">Stop Game 🛑</button>
                     </div>
                 </div>
 
-                <div id="charades-result" style="display: none; margin: 2rem 0;">
+                <div id="charades-result" class="hidden margin-y-2rem">
                     <div id="action-hero-summary">
                         <h3 data-translate-key="game_over">Game Over! 🏁</h3>
-                        <p style="font-size: 1.2rem; margin-top: 1rem;"><span data-translate-key="charades_score">Your Score:</span> <span id="charades-score-val" style="font-weight: 700; color: var(--primary-color);">0</span></p>
+                        <p class="score-para"><span data-translate-key="charades_score">Your Score:</span> <span id="charades-score-val" class="score-val">0</span></p>
                     </div>
                 </div>
 
-                <button id="close-charades-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-charades-btn" class="topics-toggle-btn secondary-btn margin-top-2rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Guess Who Modal -->
-        <div id="guess-who-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="guess-who-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="game_guess_who">Identity Mystery 👤</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="guess_who_guide_text">One person describes a person or profession. Others ask Yes/No questions using the 'Help Questions' to identify them!</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="guess_who_guide_text">One person describes a person or profession. Others ask Yes/No questions using the 'Help Questions' to identify them!</p>
                 </details>
 
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select class="pill-input game-lang" style="width: 100%;">
+                        <select class="pill-input game-lang full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -795,10 +392,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-bottom-1rem-gap">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select class="pill-input game-level" style="width: 100%;">
+                            <select class="pill-input game-level full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -808,9 +405,9 @@ footer {
                                 <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select class="pill-input game-theme" style="width: 100%;">
+                            <select class="pill-input game-theme full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
@@ -818,38 +415,38 @@ footer {
                     <button id="start-guess-who-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-guess-who-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
-                <div class="game-play" style="display: none;">
-                    <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
-                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
-                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
-                        <div style="margin-top: 1.5rem; text-align: left;">
-                            <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
-                            <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
+                <div class="game-play hidden">
+                    <div class="event-item glass event-item-padded">
+                        <div class="target-word target-word-standard">...</div>
+                        <div class="hint-display hint-display-colored"></div>
+                        <div class="margin-top-1-5rem text-left">
+                            <h4 class="margin-bottom-half" data-translate-key="help_questions">Help Questions:</h4>
+                            <ul class="prompt-questions list-none-padding-0"></ul>
                         </div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
-                        <button class="cta-button hint-btn" style="background: var(--secondary-color);" data-translate-key="hint_btn">Hint 💡</button>
+                    <div class="flex-center-gap-1rem">
+                        <button class="cta-button hint-btn bg-secondary" data-translate-key="hint_btn">Hint 💡</button>
                         <button id="guess-who-next-btn" class="cta-button primary" data-translate-key="next_word">Next Person ➡️</button>
                     </div>
                 </div>
-                <button id="close-guess-who-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-guess-who-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Guess What Modal -->
-        <div id="guess-what-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="guess-what-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="game_guess_what">Object Quest 📦</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="guess_what_guide_text">One person describes an object or place. Others ask questions about size, color, or location to guess what it is!</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="guess_what_guide_text">One person describes an object or place. Others ask questions about size, color, or location to guess what it is!</p>
                 </details>
 
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select class="pill-input game-lang" style="width: 100%;">
+                        <select class="pill-input game-lang full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -869,10 +466,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-bottom-1rem-gap">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select class="pill-input game-level" style="width: 100%;">
+                            <select class="pill-input game-level full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -882,9 +479,9 @@ footer {
                                 <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select class="pill-input game-theme" style="width: 100%;">
+                            <select class="pill-input game-theme full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
@@ -892,38 +489,38 @@ footer {
                     <button id="start-guess-what-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-guess-what-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
-                <div class="game-play" style="display: none;">
-                    <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
-                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
-                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
-                        <div style="margin-top: 1.5rem; text-align: left;">
-                            <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
-                            <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
+                <div class="game-play hidden">
+                    <div class="event-item glass event-item-padded">
+                        <div class="target-word target-word-standard">...</div>
+                        <div class="hint-display hint-display-colored"></div>
+                        <div class="margin-top-1-5rem text-left">
+                            <h4 class="margin-bottom-half" data-translate-key="help_questions">Help Questions:</h4>
+                            <ul class="prompt-questions list-none-padding-0"></ul>
                         </div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
-                        <button class="cta-button hint-btn" style="background: var(--secondary-color);" data-translate-key="hint_btn">Hint 💡</button>
+                    <div class="flex-center-gap-1rem">
+                        <button class="cta-button hint-btn bg-secondary" data-translate-key="hint_btn">Hint 💡</button>
                         <button id="guess-what-next-btn" class="cta-button primary" data-translate-key="next_word">Next Object ➡️</button>
                     </div>
                 </div>
-                <button id="close-guess-what-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-guess-what-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Bingo Modal -->
-        <div id="bingo-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="bingo-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="game_bingo">Lucky Numbers 🔢</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="bingo_guide_text">The Caller calls out items. Players mark them on their grid. Use the 'Game Code' to play with friends on the same board!</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="bingo_guide_text">The Caller calls out items. Players mark them on their grid. Use the 'Game Code' to play with friends on the same board!</p>
                 </details>
 
                 <div id="bingo-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="bingo-lang" class="pill-input" style="width: 100%;">
+                        <select id="bingo-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -943,10 +540,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-bottom-1rem-gap">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="bingo_level_label">Level / Type ⚙️</label>
-                            <select id="bingo-level" class="pill-input" style="width: 100%;">
+                            <select id="bingo-level" class="pill-input full-width">
                                 <option value="1" data-translate-key="bingo_lvl_1">Bingo 1 (0-9)</option>
                                 <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (0-19)</option>
                                 <option value="3" data-translate-key="bingo_lvl_3">Bingo 3 (20-99)</option>
@@ -954,77 +551,77 @@ footer {
                                 <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="bingo_content_label">Card Content 🃏</label>
-                            <select id="bingo-content-type" class="pill-input" style="width: 100%;">
+                            <select id="bingo-content-type" class="pill-input full-width">
                                 <option value="numbers" data-translate-key="bingo_content_numbers">Numbers 🔢</option>
                                 <option value="words" data-translate-key="bingo_content_words">Words 🔤</option>
                             </select>
                         </div>
                     </div>
-                    <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <div class="setup-group margin-bottom-1rem flex-wrap-gap1rem">
                         <label class="toggle-chip">
                             <input type="checkbox" id="bingo-solo-mode">
                             <span data-translate-key="solo_mode">Solo Mode 👤</span>
                         </label>
                     </div>
-                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
-                        <button id="start-bingo-caller-btn" class="cta-button primary" data-translate-key="bingo_caller" style="flex: 1;">Caller 📣</button>
-                        <button id="start-bingo-player-btn" class="cta-button primary" data-translate-key="bingo_player" style="flex: 1;">Player 🃏</button>
+                    <div class="flex-gap1rem-margin-bottom-1rem">
+                        <button id="start-bingo-caller-btn" class="cta-button primary flex-1" data-translate-key="bingo_caller">Caller 📣</button>
+                        <button id="start-bingo-player-btn" class="cta-button primary flex-1" data-translate-key="bingo_player">Player 🃏</button>
                     </div>
-                    <button id="share-bingo-btn" class="cta-button secondary" data-translate-key="share_btn" style="width: 100%;">Share 🔗</button>
+                    <button id="share-bingo-btn" class="cta-button secondary full-width" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
                 <!-- Caller Area -->
-                <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
-                    <div id="bingo-auto-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
-                    <div id="bingo-last-called" style="font-size: 10rem; font-weight: 900; color: var(--primary-color); margin-bottom: 2.5rem; text-shadow: 0 4px 20px rgba(0, 168, 150, 0.25);">---</div>
-                    <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
-                    <button id="bingo-auto-caller-toggle-btn" class="cta-button secondary" style="margin-bottom: 2rem;">Auto-Caller ⚡</button>
+                <div id="bingo-caller-area" class="hidden padding-y-2rem">
+                    <div id="bingo-auto-indicator" class="hidden indicator-urgent pulse" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
+                    <div id="bingo-last-called" class="bingo-last-called-style">---</div>
+                    <button id="bingo-call-next-btn" class="cta-button primary margin-bottom-2rem" data-translate-key="bingo_call_next">Call Next 🎲</button>
+                    <button id="bingo-auto-caller-toggle-btn" class="cta-button secondary margin-bottom-2rem">Auto-Caller ⚡</button>
 
                     <div class="game-history-box">
                         <h4 data-translate-key="called_numbers">Called Numbers:</h4>
-                        <div id="bingo-history" style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;"></div>
+                        <div id="bingo-history" class="history-flex"></div>
                     </div>
                 </div>
 
                 <!-- Player Area -->
-                <div id="bingo-player-area" style="display: none; padding: 1rem 0;">
-                    <div id="bingo-solo-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_solo_active">👤 Solo Mode (Auto-Caller) 👤</div>
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div id="bingo-player-area" class="hidden padding-y-1rem">
+                    <div id="bingo-solo-indicator" class="hidden indicator-urgent pulse" data-translate-key="bingo_solo_active">👤 Solo Mode (Auto-Caller) 👤</div>
+                    <div class="flex-between-center">
                         <h3 data-translate-key="bingo_your_card">Your Card</h3>
-                        <div style="font-size: 0.8rem; color: #888;"><span data-translate-key="bingo_card_label">Card #</span><span id="bingo-card-num-display">1</span></div>
+                        <div class="text-xs-muted"><span data-translate-key="bingo_card_label">Card #</span><span id="bingo-card-num-display">1</span></div>
                     </div>
 
-                    <div id="bingo-player-last-called-container" style="margin: 1rem 0; padding: 1rem; background: rgba(0,0,0,0.03); border-radius: 15px;">
-                        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 0.5rem;" data-translate-key="bingo_last_called_label">Last Called</div>
-                        <div id="bingo-player-last-called" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">---</div>
+                    <div id="bingo-player-last-called-container" class="player-last-called-container">
+                        <div class="label-xs-muted" data-translate-key="bingo_last_called_label">Last Called</div>
+                        <div id="bingo-player-last-called" class="player-last-called-value">---</div>
                     </div>
 
-                    <div id="bingo-player-grid" class="bingo-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 1.5rem 0;">
+                    <div id="bingo-player-grid" class="bingo-grid bingo-grid-3cols">
                         <!-- Cells added by JS -->
                     </div>
-                    <button id="bingo-next-card-btn" class="topics-toggle-btn secondary-btn" style="width: 100%; font-size: 0.8rem;" data-translate-key="bingo_new_card">New Card 🃏</button>
+                    <button id="bingo-next-card-btn" class="topics-toggle-btn secondary-btn full-width text-small" data-translate-key="bingo_new_card">New Card 🃏</button>
                 </div>
 
-                <button id="close-bingo-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-bingo-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Debates Modal -->
-        <div id="debates-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 700px;">
+        <div id="debates-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-700">
                 <h2 data-translate-key="debates_title">Battle of Wits ⚖️</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="debates_guide_text">Compare two things! Use the 'General Ideas' to help you build your arguments for or against.</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="debates_guide_text">Compare two things! Use the 'General Ideas' to help you build your arguments for or against.</p>
                 </details>
 
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="debates-lang" class="pill-input" style="width: 100%;">
+                        <select id="debates-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1044,10 +641,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-top-1rem">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="debates-level" class="pill-input" style="width: 100%;">
+                            <select id="debates-level" class="pill-input full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -1056,43 +653,43 @@ footer {
                                 <option value="advanced" data-translate-key="advanced">University (C1)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="debates-theme" class="pill-input game-theme" style="width: 100%;">
+                            <select id="debates-theme" class="pill-input game-theme full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="debates-timer-duration" class="pill-input" style="width: 100%;">
+                            <select id="debates-timer-duration" class="pill-input full-width">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
                                 <option value="120" selected data-translate-key="timer_120s">120s</option>
                                 <option value="180" data-translate-key="timer_180s">180s</option>
                             </select>
                         </div>
                     </div>
-                    <button id="start-debates-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-debates-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-debates-btn" class="cta-button primary margin-top-1-5rem" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-debates-btn" class="cta-button secondary margin-top-1-5rem" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div class="game-play" style="display: none;">
-                    <div id="debates-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">2:00</div>
-                    <h3 id="debate-topic" style="margin: 1.5rem 0; font-size: 1.5rem; color: var(--primary-color);" data-translate-key="placeholder_loading">Topic</h3>
+                <div class="game-play hidden">
+                    <div id="debates-timer" class="timer-standard">2:00</div>
+                    <h3 id="debate-topic" class="debate-topic-style" data-translate-key="placeholder_loading">Topic</h3>
 
-                    <div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 1rem; margin-bottom: 2rem;">
-                        <div class="debate-side glass" style="padding: 1rem; border-radius: 15px;">
-                            <h4 id="side-a-name" style="margin-bottom: 0.8rem; color: var(--accent-color);" data-translate-key="debates_side_a">Side A</h4>
-                            <div style="text-align: left; font-size: 0.85rem;">
+                    <div class="debate-grid">
+                        <div class="debate-side glass debate-side-padded">
+                            <h4 id="side-a-name" class="side-a-title" data-translate-key="debates_side_a">Side A</h4>
+                            <div class="text-left text-xs-085">
                                 <strong data-translate-key="debates_ideas_title">Ideas:</strong>
-                                <ul id="side-a-ideas" style="padding-left: 1.2rem; margin-top: 0.4rem;"></ul>
+                                <ul id="side-a-ideas" class="ideas-list"></ul>
                             </div>
                         </div>
-                        <div style="font-weight: 800; font-size: 1.2rem; align-self: center; color: #888;" data-translate-key="debates_vs">VS</div>
-                        <div class="debate-side glass" style="padding: 1rem; border-radius: 15px;">
-                            <h4 id="side-b-name" style="margin-bottom: 0.8rem; color: var(--vocab-color);" data-translate-key="debates_side_b">Side B</h4>
-                            <div style="text-align: left; font-size: 0.85rem;">
+                        <div class="vs-divider" data-translate-key="debates_vs">VS</div>
+                        <div class="debate-side glass debate-side-padded">
+                            <h4 id="side-b-name" class="side-b-title" data-translate-key="debates_side_b">Side B</h4>
+                            <div class="text-left text-xs-085">
                                 <strong data-translate-key="debates_ideas_title">Ideas:</strong>
-                                <ul id="side-b-ideas" style="padding-left: 1.2rem; margin-top: 0.4rem;"></ul>
+                                <ul id="side-b-ideas" class="ideas-list"></ul>
                             </div>
                         </div>
                     </div>
@@ -1100,24 +697,24 @@ footer {
                     <button id="next-debate-btn" class="cta-button" data-translate-key="next_word">Next Topic ➡️</button>
                 </div>
 
-                <button id="close-debates-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-debates-btn" class="topics-toggle-btn secondary-btn margin-top-2rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Talk That Talk Modal -->
-        <div id="talk-talk-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="talk-talk-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="talk_talk_title">Fluency Flow 🗣️</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="talk_talk_guide_text">Spin the wheel for a random topic. Try to speak for 1-5 minutes about it! Focus on flow and idea generation.</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="talk_talk_guide_text">Spin the wheel for a random topic. Try to speak for 1-5 minutes about it! Focus on flow and idea generation.</p>
                 </details>
 
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="talk-lang" class="pill-input" style="width: 100%;">
+                        <select id="talk-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1137,10 +734,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-top-1rem">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="talk-level" class="pill-input" style="width: 100%;">
+                            <select id="talk-level" class="pill-input full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -1149,54 +746,54 @@ footer {
                                 <option value="advanced" data-translate-key="advanced">University (C1)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="talk-theme" class="pill-input game-theme" style="width: 100%;">
+                            <select id="talk-theme" class="pill-input game-theme full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="talk-timer-duration" class="pill-input" style="width: 100%;">
+                            <select id="talk-timer-duration" class="pill-input full-width">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
                                 <option value="120" data-translate-key="timer_120s">120s</option>
                                 <option value="180" selected data-translate-key="timer_180s">180s</option>
                             </select>
                         </div>
                     </div>
-                    <button id="start-talk-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
-                    <button id="share-talk-talk-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-talk-btn" class="cta-button primary margin-top-1-5rem" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
+                    <button id="share-talk-talk-btn" class="cta-button secondary margin-top-1-5rem" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div class="game-play fluency-flow-mobile" style="display: none; padding: 2rem 0;">
-                    <div id="talk-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">3:00</div>
+                <div class="game-play fluency-flow-mobile hidden padding-y-2rem">
+                    <div id="talk-timer" class="timer-standard-margin">3:00</div>
                     <div id="ff-assessment-area"></div>
-                    <div class="event-item glass ff-topic-card" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="talk-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
+                    <div class="event-item glass ff-topic-card ff-topic-padded">
+                        <div id="talk-topic-display" class="ff-topic-title" data-translate-key="placeholder_loading">Topic</div>
                         <div id="ff-prompts"></div>
                     </div>
-                    <p style="color: #666; font-style: italic; margin-bottom: 2rem;" data-translate-key="talk_time_label">Target Speaking Time: 1-3 minutes</p>
+                    <p class="ff-target-label" data-translate-key="talk_time_label">Target Speaking Time: 1-3 minutes</p>
                     <button id="next-talk-btn" class="cta-button primary ff-spin-btn" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
                 </div>
 
-                <button id="close-talk-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-talk-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Opinion Arena Modal -->
-        <div id="opinion-arena-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="opinion-arena-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="opinion_arena_title">Opinion Arena 🏟️</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="opinion_arena_guide_text">Read the statement and decide if you agree or disagree. Explain your reasoning!</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="opinion_arena_guide_text">Read the statement and decide if you agree or disagree. Explain your reasoning!</p>
                 </details>
 
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="opinion-lang" class="pill-input" style="width: 100%;">
+                        <select id="opinion-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1216,10 +813,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-top-1rem">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="opinion-level" class="pill-input" style="width: 100%;">
+                            <select id="opinion-level" class="pill-input full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -1228,57 +825,57 @@ footer {
                                 <option value="advanced" data-translate-key="advanced">University (C1)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="opinion-theme" class="pill-input game-theme" style="width: 100%;">
+                            <select id="opinion-theme" class="pill-input game-theme full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="opinion-timer-duration" class="pill-input" style="width: 100%;">
+                            <select id="opinion-timer-duration" class="pill-input full-width">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
                                 <option value="120" selected data-translate-key="timer_120s">120s</option>
                                 <option value="180" data-translate-key="timer_180s">180s</option>
                             </select>
                         </div>
                     </div>
-                    <button id="start-opinion-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-opinion-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-opinion-btn" class="cta-button primary margin-top-1-5rem" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-opinion-btn" class="cta-button secondary margin-top-1-5rem" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div class="game-play opinion-arena-mobile" style="display: none; padding: 2rem 0;">
+                <div class="game-play opinion-arena-mobile hidden padding-y-2rem">
                     <div id="oa-group-reveal"></div>
-                    <div id="opinion-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
-                    <div class="event-item glass oa-statement" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
+                    <div id="opinion-timer" class="timer-standard-margin">2:00</div>
+                    <div class="event-item glass oa-statement-padded">
+                        <div id="opinion-statement-display" class="oa-statement-title" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
                     <div id="oa-vocab-support"></div>
-                    <div class="oa-buttons" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <div class="oa-buttons-flex">
                         <button class="cta-button oa-agree" data-translate-key="correct_btn">Agree ✅</button>
                         <button class="cta-button oa-disagree" data-translate-key="incorrect_btn">Disagree ❌</button>
                         <button id="next-opinion-btn" class="cta-button primary" data-translate-key="next_word">Next Statement ➡️</button>
                     </div>
                 </div>
 
-                <button id="close-opinion-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-opinion-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
         <!-- Critic's Corner Modal -->
-        <div id="critics-corner-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="critics-corner-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="critics_corner_title">The Critic's Corner 🎭</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="critics_corner_guide_text">Analyze the famous quote and share your perspective!</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="critics_corner_guide_text">Analyze the famous quote and share your perspective!</p>
                 </details>
 
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="critics-lang" class="pill-input" style="width: 100%;">
+                        <select id="critics-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1298,62 +895,62 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-top-1rem">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="critics-level" class="pill-input" style="width: 100%;">
+                            <select id="critics-level" class="pill-input full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="intermediate" data-translate-key="intermediate">Middle school (B1)</option>
                                 <option value="upper-intermediate" data-translate-key="upper_intermediate">High school (B2)</option>
                                 <option value="advanced" data-translate-key="advanced">University (C1)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="critics-theme" class="pill-input game-theme" style="width: 100%;">
+                            <select id="critics-theme" class="pill-input game-theme full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="critics-timer-duration" class="pill-input" style="width: 100%;">
+                            <select id="critics-timer-duration" class="pill-input full-width">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
                                 <option value="120" selected data-translate-key="timer_120s">120s</option>
                                 <option value="180" data-translate-key="timer_180s">180s</option>
                             </select>
                         </div>
                     </div>
-                    <button id="start-critics-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-critics-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-critics-btn" class="cta-button primary margin-top-1-5rem" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-critics-btn" class="cta-button secondary margin-top-1-5rem" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div class="game-play" style="display: none; padding: 2rem 0;">
-                    <div id="critics-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
-                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="critics-quote-display" style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.4;" data-translate-key="placeholder_loading">Loading...</div>
-                        <div id="critics-author-display" style="margin-top: 1rem; font-style: italic; color: #666;"></div>
+                <div class="game-play hidden padding-y-2rem">
+                    <div id="critics-timer" class="timer-standard-margin">2:00</div>
+                    <div class="event-item glass cc-quote-padded">
+                        <div id="critics-quote-display" class="cc-quote-title" data-translate-key="placeholder_loading">Loading...</div>
+                        <div id="critics-author-display" class="cc-author-style"></div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <div class="flex-center-gap-1rem">
                         <button id="next-critics-btn" class="cta-button primary" data-translate-key="next_word">Next Quote ➡️</button>
                     </div>
                 </div>
 
-                <button id="close-critics-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-critics-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
 <!-- Emoji Odyssey Modal -->
-<div id="emoji-modal" class="modal-overlay" style="display: none;">
-    <div class="modal-content glass" style="max-width: 600px;">
+<div id="emoji-modal" class="modal-overlay hidden">
+    <div class="modal-content glass max-width-600">
         <h2 data-translate-key="game_emoji">Emoji Odyssey 📖</h2>
-        <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-            <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-            <p style="margin-top: 0.5rem;" data-translate-key="emoji_guide_text">Guess the word or phrase based on the emojis shown! Type your answer or select from options.</p>
+        <details class="help-details help-details-compact" open>
+            <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+            <p class="margin-top-half" data-translate-key="emoji_guide_text">Guess the word or phrase based on the emojis shown! Type your answer or select from options.</p>
         </details>
         <div id="emoji-setup">
             <div class="setup-group">
                 <label data-translate-key="select_practice_language">Select language 🌍</label>
-                <select id="emoji-lang" class="pill-input" style="width: 100%;">
+                <select id="emoji-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1373,21 +970,21 @@ footer {
                             </optgroup>
                         </select>
             </div>
-            <div class="setup-group" style="margin-top: 1rem;">
+            <div class="setup-group margin-top-1rem">
                 <label data-translate-key="emoji_mode_label">Game Mode 🎮</label>
-                <select id="emoji-mode" class="pill-input" style="width: 100%;">
+                <select id="emoji-mode" class="pill-input full-width">
                     <option value="guess" data-translate-key="emoji_mode_guess">Guess the Emoji 🧩</option>
                     <option value="story" data-translate-key="emoji_mode_story">Tell a Story 📖</option>
                 </select>
             </div>
-            <div id="emoji-story-setup-extra" style="display: none; margin-top: 1rem;">
+            <div id="emoji-story-setup-extra" class="hidden margin-top-1rem">
                 <label data-translate-key="emoji_story_title_label">Story Name 🏷️</label>
-                <input type="text" id="emoji-story-name-input" class="pill-input" style="width: 100%;" placeholder="Once upon a time...">
+                <input type="text" id="emoji-story-name-input" class="pill-input full-width" placeholder="Once upon a time...">
             </div>
-            <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
-                <div class="setup-group" style="flex: 1;">
+            <div class="setup-row margin-top-1rem-gap">
+                <div class="setup-group flex-1">
                     <label data-translate-key="select_level">Select Level 📊</label>
-                    <select id="emoji-level" class="pill-input game-level" style="width: 100%;">
+                    <select id="emoji-level" class="pill-input game-level full-width">
                         <option value="all" data-translate-key="level_all">All Levels</option>
                     <option value="starter" data-translate-key="starter">Starter (A1)</option>
                     <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -1397,26 +994,26 @@ footer {
                         <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
                     </select>
                 </div>
-                <div class="setup-group" style="flex: 1;">
+                <div class="setup-group flex-1">
                     <label data-translate-key="select_theme">Select Theme 🎨</label>
-                    <select id="emoji-theme" class="pill-input game-theme" style="width: 100%;">
+                    <select id="emoji-theme" class="pill-input game-theme full-width">
                         <option value="all" data-translate-key="theme_all">All Themes</option>
                     </select>
                 </div>
             </div>
-            <button id="start-emoji-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
+            <button id="start-emoji-game-btn" class="cta-button primary margin-top-1rem" data-translate-key="start_game">Start Game 🚀</button>
         </div>
-        <div id="emoji-gameplay" style="display: none; padding: 2rem 0;">
+        <div id="emoji-gameplay" class="hidden padding-y-2rem">
             <div id="emoji-guess-area">
-                <div id="emoji-display-large" style="font-size: 6.5rem; margin-bottom: 2.5rem; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.12));">🍎🍎</div>
+                <div id="emoji-display-large" class="emoji-display-standard">🍎🍎</div>
                 <div id="emoji-options" class="choices-grid"></div>
             </div>
 
-            <div id="emoji-story-area" style="display: none;">
-                <h3 id="emoji-story-name-display" style="color: var(--primary-color); margin-bottom: 1rem;"></h3>
-                <p id="emoji-story-prompt" style="font-style: italic; color: #666; margin-bottom: 1.5rem;" data-translate-key="emoji_story_next_player">Use these 4 emojis to continue the story!</p>
-                <div id="emoji-story-display" class="game-display-box" style="font-size: 5rem; letter-spacing: 15px; min-height: 180px;"></div>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <div id="emoji-story-area" class="hidden">
+                <h3 id="emoji-story-name-display" class="color-primary-margin-bottom-1rem"></h3>
+                <p id="emoji-story-prompt" class="emoji-story-prompt-style" data-translate-key="emoji_story_next_player">Use these 4 emojis to continue the story!</p>
+                <div id="emoji-story-display" class="game-display-box emoji-story-display-style"></div>
+                <div class="flex-center-gap1rem-wrap">
                     <button id="emoji-next-set-btn" class="cta-button primary" data-translate-key="emoji_next_set">Next Player ➡️</button>
                     <button id="emoji-finish-btn" class="cta-button secondary" data-translate-key="emoji_finish_story">Finish Story 🏁</button>
                 </div>
@@ -1424,24 +1021,24 @@ footer {
 
             <div id="emoji-feedback" class="feedback-text"></div>
         </div>
-        <button id="close-emoji-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+        <button id="close-emoji-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
     </div>
 </div>
 
         <!-- Last Letter Modal -->
-        <div id="last-letter-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+        <div id="last-letter-modal" class="modal-overlay hidden">
+            <div class="modal-content glass max-width-600">
                 <h2 data-translate-key="game_last_letter">Last Letter 🔤</h2>
 
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="last_letter_guide_text">Write a word! The next word must start with the last letter of the previous word. (e.g., ca<b>t</b> -> <b>t</b>all -> <b>l</b>ake)</p>
+                <details class="help-details help-details-compact" open>
+                    <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p class="margin-top-half" data-translate-key="last_letter_guide_text">Write a word! The next word must start with the last letter of the previous word. (e.g., ca<b>t</b> -> <b>t</b>all -> <b>l</b>ake)</p>
                 </details>
 
                 <div id="last-letter-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="last-letter-lang" class="pill-input" style="width: 100%;">
+                        <select id="last-letter-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1461,10 +1058,10 @@ footer {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
+                    <div class="setup-row margin-top-1rem-gap">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="last-letter-level" class="pill-input" style="width: 100%;">
+                            <select id="last-letter-level" class="pill-input full-width">
                                 <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter (A1)</option>
                                 <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -1474,62 +1071,62 @@ footer {
                                 <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
+                        <div class="setup-group flex-1">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="last-letter-theme" class="pill-input" style="width: 100%;">
+                            <select id="last-letter-theme" class="pill-input full-width">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
                     </div>
-                    <div class="setup-group" style="margin-top: 1rem;">
+                    <div class="setup-group margin-top-1rem">
                         <label class="toggle-chip">
                             <input type="checkbox" id="last-letter-solo-mode" checked>
                             <span data-translate-key="solo_mode">Solo Mode (vs Computer) 👤</span>
                         </label>
                     </div>
-                    <button id="start-last-letter-btn" class="cta-button primary" style="margin-top: 1.5rem; width: 100%;" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="start-last-letter-btn" class="cta-button primary margin-top-1-5rem full-width" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
 
-                <div id="last-letter-gameplay" style="display: none; padding: 1rem 0;">
-                    <div id="last-letter-history" class="game-display-box" style="min-height: 100px; max-height: 200px; overflow-y: auto; font-size: 1rem; text-align: left; padding: 1rem; margin-bottom: 1rem; background: rgba(255,255,255,0.5); line-height: 1.6;">
+                <div id="last-letter-gameplay" class="hidden padding-y-1rem">
+                    <div id="last-letter-history" class="game-display-box ll-history-box">
                         <!-- History of words -->
                     </div>
 
-                    <div id="ll-word-display" style="margin-bottom: 1.5rem;"></div>
+                    <div id="ll-word-display" class="margin-bottom-1-5rem"></div>
 
-                    <div id="last-letter-target-display" style="margin-bottom: 1.5rem;">
+                    <div id="last-letter-target-display" class="margin-bottom-1-5rem">
                         <span data-translate-key="last_letter_starts_with">Next word starts with: </span>
-                        <span id="target-letter" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">?</span>
+                        <span id="target-letter" class="target-letter-style">?</span>
                     </div>
 
                     <div class="setup-group">
-                        <input type="text" id="last-letter-input" class="pill-input" style="width: 100%; font-size: 1.2rem; text-align: center;" placeholder="Type your word here..." autocomplete="off">
+                        <input type="text" id="last-letter-input" class="pill-input ll-input-style" placeholder="Type your word here..." autocomplete="off">
                     </div>
 
-                    <div id="last-letter-feedback" style="min-height: 1.5rem; margin: 0.5rem 0; font-weight: 600; color: #f44336;"></div>
+                    <div id="last-letter-feedback" class="ll-feedback-style"></div>
 
-                    <div style="display: flex; gap: 0.8rem; margin-top: 1rem;">
-                        <button id="submit-last-letter-btn" class="cta-button primary" style="flex: 2;" data-translate-key="submit_btn">Submit ✅</button>
-                        <button id="hint-last-letter-btn" class="cta-button secondary" style="flex: 1;" data-translate-key="hint_btn">Hint 💡</button>
+                    <div class="ll-actions-flex">
+                        <button id="submit-last-letter-btn" class="cta-button primary flex-2" data-translate-key="submit_btn">Submit ✅</button>
+                        <button id="hint-last-letter-btn" class="cta-button secondary flex-1" data-translate-key="hint_btn">Hint 💡</button>
                     </div>
                 </div>
 
-                <button id="close-last-letter-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-last-letter-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
 <!-- Word Linker Modal -->
-<div id="linker-modal" class="modal-overlay" style="display: none;">
-    <div class="modal-content glass" style="max-width: 600px;">
+<div id="linker-modal" class="modal-overlay hidden">
+    <div class="modal-content glass max-width-600">
         <h2 data-translate-key="game_word_association">Word Linker 🔗</h2>
-        <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-            <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-            <p style="margin-top: 0.5rem;" data-translate-key="linker_guide_text">Find the word that links the given words together. Think of associations!</p>
+        <details class="help-details help-details-compact" open>
+            <summary class="summary-primary-bold" data-translate-key="game_guide_title">How to play 📖</summary>
+            <p class="margin-top-half" data-translate-key="linker_guide_text">Find the word that links the given words together. Think of associations!</p>
         </details>
         <div id="linker-setup">
             <div class="setup-group">
                 <label data-translate-key="select_practice_language">Select language 🌍</label>
-                <select id="linker-lang" class="pill-input" style="width: 100%;">
+                <select id="linker-lang" class="pill-input full-width">
                             <optgroup label="Taught Languages">
                                 <option value="en">English 🇬🇧</option>
                                 <option value="fr">Français 🇫🇷</option>
@@ -1549,17 +1146,17 @@ footer {
                             </optgroup>
                         </select>
             </div>
-            <div class="setup-group" style="margin-top: 1rem;">
+            <div class="setup-group margin-top-1rem">
                 <label data-translate-key="linker_mode_label">Game Mode 🎮</label>
-                <select id="linker-mode" class="pill-input" style="width: 100%;">
+                <select id="linker-mode" class="pill-input full-width">
                     <option value="association" data-translate-key="linker_mode_association">Logical Association 🔗</option>
                     <option value="odd_one" data-translate-key="linker_mode_odd_one">Odd One Out 🧐</option>
                 </select>
             </div>
-            <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
-                <div class="setup-group" style="flex: 1;">
+            <div class="setup-row margin-top-1rem-gap">
+                <div class="setup-group flex-1">
                     <label data-translate-key="select_level">Select Level 📊</label>
-                    <select id="linker-level" class="pill-input game-level" style="width: 100%;">
+                    <select id="linker-level" class="pill-input game-level full-width">
                         <option value="all" data-translate-key="level_all">All Levels</option>
                     <option value="starter" data-translate-key="starter">Starter (A1)</option>
                     <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
@@ -1569,30 +1166,30 @@ footer {
                         <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
                     </select>
                 </div>
-                <div class="setup-group" style="flex: 1;">
+                <div class="setup-group flex-1">
                     <label data-translate-key="select_theme">Select Theme 🎨</label>
-                    <select id="linker-theme" class="pill-input game-theme" style="width: 100%;">
+                    <select id="linker-theme" class="pill-input game-theme full-width">
                         <option value="all" data-translate-key="theme_all">All Themes</option>
                     </select>
                 </div>
             </div>
-            <button id="start-linker-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
+            <button id="start-linker-game-btn" class="cta-button primary margin-top-1rem" data-translate-key="start_game">Start Game 🚀</button>
         </div>
-        <div id="linker-gameplay" style="display: none; padding: 2.5rem 1rem;">
-            <div id="linker-clues" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem;"></div>
-            <div id="linker-options" class="choices-grid" style="max-width: 500px; gap: 1.5rem;"></div>
-            <div id="linker-feedback" class="feedback-text" style="margin-top: 2rem;"></div>
+        <div id="linker-gameplay" class="hidden padding-y-2-5rem-1rem">
+            <div id="linker-clues" class="linker-clues-style"></div>
+            <div id="linker-options" class="choices-grid wl-options-style"></div>
+            <div id="linker-feedback" class="feedback-text margin-top-2rem"></div>
             <div id="wl-explanation-area"></div>
         </div>
-        <button id="close-linker-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+        <button id="close-linker-btn" class="topics-toggle-btn secondary-btn margin-top-1rem" data-translate-key="close_btn">Close ❌</button>
     </div>
 </div>
 
 <!-- Story Chain game panel -->
-<div class="modal-overlay" id="story-chain-modal" style="display:none">
-  <div class="modal-content glass" style="max-width: 600px;">
+<div class="modal-overlay hidden" id="story-chain-modal">
+  <div class="modal-content glass max-width-600">
     <h2>Story Chain 🃏</h2>
-    <div class="game-instructions" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">
+    <div class="game-instructions text-small-muted">
       Each player adds one sentence to a story — but each sentence must
       secretly use a word shown only to that player. Others try to guess
       the hidden word!
@@ -1600,9 +1197,9 @@ footer {
 
     <!-- Setup -->
     <div id="sc-setup">
-        <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
+        <div class="setup-group text-left margin-bottom-1rem">
             <label data-translate-key="select_practice_language">Select language 🌍</label>
-            <select id="sc-lang" class="pill-input game-lang" style="width: 100%;">
+            <select id="sc-lang" class="pill-input game-lang full-width">
                 <option value="en">English 🇬🇧</option>
                 <option value="fr">Français 🇫🇷</option>
                 <option value="it">Italiano 🇮🇹</option>
@@ -1610,10 +1207,10 @@ footer {
                 <option value="el">Ελληνικά 🇬🇷</option>
             </select>
         </div>
-        <div class="setup-row" style="margin-bottom: 1rem; display: flex; gap: 1rem;">
-            <div class="setup-group" style="flex: 1; text-align: left;">
+        <div class="setup-row margin-bottom-1rem flex-gap1rem">
+            <div class="setup-group flex-1 text-left">
                 <label data-translate-key="select_level">Select Level 📊</label>
-                <select id="sc-level" class="pill-input game-level" style="width: 100%;">
+                <select id="sc-level" class="pill-input game-level full-width">
                     <option value="starter">A1</option>
                     <option value="elementary">A2</option>
                     <option value="intermediate">B1</option>
@@ -1621,9 +1218,9 @@ footer {
                     <option value="advanced">C1</option>
                 </select>
             </div>
-            <div class="setup-group" style="flex: 1; text-align: left;">
+            <div class="setup-group flex-1 text-left">
                 <label data-translate-key="select_theme">Select Theme 🎨</label>
-                <select id="sc-theme" class="pill-input game-theme" style="width: 100%;">
+                <select id="sc-theme" class="pill-input game-theme full-width">
                     <option value="all">All Themes</option>
                 </select>
             </div>
@@ -1632,41 +1229,37 @@ footer {
     </div>
 
     <!-- Word reveal (private — only shown to current player) -->
-    <div id="sc-word-reveal" style="display:none; margin: 1.5rem 0;"></div>
+    <div id="sc-word-reveal" class="hidden margin-y-1-5rem"></div>
 
     <!-- Sentence input -->
-    <div id="sc-input-area" style="display:none">
-        <div id="story-display" class="game-display-box" style="padding: 1rem; margin-bottom: 1rem; text-align: left; line-height: 1.6; min-height: 80px;"></div>
-        <textarea id="sc-sentence" rows="3" placeholder="Add your sentence..."
-          style="width:100%; border-radius:10px; border:2px solid rgba(107,143,113,.2);
-            padding:12px; font-family:'Nunito',sans-serif; font-size:.95rem;
-            resize:none; outline:none; margin-bottom: 1rem;"></textarea>
+    <div id="sc-input-area" class="hidden">
+        <div id="story-display" class="game-display-box sc-story-display"></div>
+        <textarea id="sc-sentence" rows="3" placeholder="Add your sentence..." class="sc-textarea"></textarea>
         <button onclick="storyChainAdd()" class="cta-button primary">Add to Story →</button>
     </div>
 
     <!-- Final reveal -->
-    <div id="sc-final-reveal" style="display:none; margin: 1.5rem 0;"></div>
+    <div id="sc-final-reveal" class="hidden margin-y-1-5rem"></div>
 
-    <button onclick="storyChainFinish()" id="sc-finish-btn" class="cta-button secondary"
-      style="display:none; margin: 1.5rem auto 0;">📖 Reveal Full Story</button>
-    <button class="topics-toggle-btn secondary-btn" onclick="document.getElementById('story-chain-modal').style.display='none'" style="margin-top: 1rem;">Close ❌</button>
+    <button onclick="storyChainFinish()" id="sc-finish-btn" class="cta-button secondary sc-finish-btn">📖 Reveal Full Story</button>
+    <button class="topics-toggle-btn secondary-btn margin-top-1rem" onclick="document.getElementById('story-chain-modal').classList.add('hidden')">Close ❌</button>
   </div>
 </div>
 
 <!-- Hot Seat game panel -->
-<div class="modal-overlay" id="hot-seat-modal" style="display:none">
-  <div class="modal-content glass" style="max-width: 600px;">
+<div class="modal-overlay hidden" id="hot-seat-modal">
+  <div class="modal-content glass max-width-600">
     <h2>Hot Seat 🎯</h2>
-    <div class="game-instructions" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">
+    <div class="game-instructions text-small-muted">
       One player is in the hot seat! Answer rapid-fire vocabulary questions
       for 60 seconds. Others judge your answers.
     </div>
 
     <!-- Setup -->
     <div id="hs-setup">
-        <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
+        <div class="setup-group text-left margin-bottom-1rem">
             <label data-translate-key="select_practice_language">Select language 🌍</label>
-            <select id="hs-lang" class="pill-input game-lang" style="width: 100%;">
+            <select id="hs-lang" class="pill-input game-lang full-width">
                 <option value="en">English 🇬🇧</option>
                 <option value="fr">Français 🇫🇷</option>
                 <option value="it">Italiano 🇮🇹</option>
@@ -1674,10 +1267,10 @@ footer {
                 <option value="el">Ελληνικά 🇬🇷</option>
             </select>
         </div>
-        <div class="setup-row" style="margin-bottom: 1rem; display: flex; gap: 1rem;">
-            <div class="setup-group" style="flex: 1; text-align: left;">
+        <div class="setup-row margin-bottom-1rem flex-gap1rem">
+            <div class="setup-group flex-1 text-left">
                 <label data-translate-key="select_level">Select Level 📊</label>
-                <select id="hs-level" class="pill-input game-level" style="width: 100%;">
+                <select id="hs-level" class="pill-input game-level full-width">
                     <option value="starter">A1</option>
                     <option value="elementary">A2</option>
                     <option value="intermediate">B1</option>
@@ -1685,16 +1278,16 @@ footer {
                     <option value="advanced">C1</option>
                 </select>
             </div>
-            <div class="setup-group" style="flex: 1; text-align: left;">
+            <div class="setup-group flex-1 text-left">
                 <label data-translate-key="select_theme">Select Theme 🎨</label>
-                <select id="hs-theme" class="pill-input game-theme" style="width: 100%;">
+                <select id="hs-theme" class="pill-input game-theme full-width">
                     <option value="all">All Themes</option>
                 </select>
             </div>
         </div>
-        <div style="margin: 1.5rem 0; text-align: left;">
-          <label style="display: block; margin-bottom: 0.5rem; font-weight: 700;">Time per game:</label>
-          <div style="display: flex; gap: 10px;">
+        <div class="hs-duration-group">
+          <label class="hs-duration-label">Time per game:</label>
+          <div class="flex-gap10">
               <button class="timer-btn hs-dur-btn cta-button secondary active" data-sec="60" onclick="hsSetDuration(60)">60s</button>
               <button class="timer-btn hs-dur-btn cta-button secondary" data-sec="90" onclick="hsSetDuration(90)">90s</button>
           </div>
@@ -1704,7 +1297,7 @@ footer {
 
     <div id="hot-seat-area"></div>
 
-    <button class="topics-toggle-btn secondary-btn" onclick="document.getElementById('hot-seat-modal').style.display='none'" style="margin-top: 1rem;">Close ❌</button>
+    <button class="topics-toggle-btn secondary-btn margin-top-1rem" onclick="document.getElementById('hot-seat-modal').classList.add('hidden')">Close ❌</button>
   </div>
 </div>
 

@@ -361,7 +361,7 @@ const OpinionArenaGame = {
 window.oaVote = function(choice) {
   const result = document.getElementById('oa-vote-result');
   if (result) {
-    result.style.display = 'block';
+    result.classList.remove('hidden');
     result.textContent = choice === 'agree'
       ? '👍 You agree — now explain why! Speak for at least 30 seconds.'
       : '👎 You disagree — now explain why! Speak for at least 30 seconds.';
@@ -517,12 +517,12 @@ window.storyChainStart = function() {
   const theme = document.getElementById('sc-theme').value;
   const item  = StoryChainGame.init(lang, level, theme);
   if (!item) { alert("No words found!"); return; }
-  document.getElementById('sc-setup').style.display = 'none';
+  document.getElementById('sc-setup').classList.add('hidden');
   document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(item);
-  document.getElementById('sc-word-reveal').style.display = 'block';
-  document.getElementById('sc-input-area').style.display = 'block';
+  document.getElementById('sc-word-reveal').classList.remove('hidden');
+  document.getElementById('sc-input-area').classList.remove('hidden');
   document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
-  document.getElementById('sc-finish-btn').style.display = 'block';
+  document.getElementById('sc-finish-btn').classList.remove('hidden');
 };
 
 window.storyChainAdd = function() {
@@ -536,16 +536,16 @@ window.storyChainAdd = function() {
 };
 
 window.storyChainFinish = function() {
-  document.getElementById('sc-input-area').style.display = 'none';
-  document.getElementById('sc-word-reveal').style.display = 'none';
-  document.getElementById('sc-finish-btn').style.display = 'none';
+  document.getElementById('sc-input-area').classList.add('hidden');
+  document.getElementById('sc-word-reveal').classList.add('hidden');
+  document.getElementById('sc-finish-btn').classList.add('hidden');
   document.getElementById('sc-final-reveal').innerHTML = StoryChainGame.buildFinalReveal();
-  document.getElementById('sc-final-reveal').style.display = 'block';
+  document.getElementById('sc-final-reveal').classList.remove('hidden');
 };
 
 window.storyChainReset = function() {
-  document.getElementById('sc-final-reveal').style.display = 'none';
-  document.getElementById('sc-setup').style.display = 'block';
+  document.getElementById('sc-final-reveal').classList.add('hidden');
+  document.getElementById('sc-setup').classList.remove('hidden');
 };
 
 
@@ -631,7 +631,7 @@ window.hotSeatStart = function() {
   const pool = getVocabPool(lang, level, theme);
   if (pool.length === 0) { alert("No words found!"); return; }
   HotSeatGame.currentQ = 0; HotSeatGame.score = 0; HotSeatGame.DURATION = window.hsDuration; HotSeatGame.questions = HotSeatGame.generateQuestions(pool, 10);
-  document.getElementById('hs-setup').style.display = 'none';
+  document.getElementById('hs-setup').classList.add('hidden');
   document.getElementById('hot-seat-area').innerHTML = HotSeatGame.buildGameUI();
   let t = HotSeatGame.DURATION;
   if (HotSeatGame._interval) clearInterval(HotSeatGame._interval);
@@ -658,7 +658,7 @@ window.hotSeatSubmit = function() {
   hotSeatAnswer(q.accept && q.accept.includes(input.value.trim().toLowerCase()));
 };
 
-window.hotSeatRestart = () => { document.getElementById('hs-setup').style.display = 'block'; document.getElementById('hot-seat-area').innerHTML = ''; };
+window.hotSeatRestart = () => { document.getElementById('hs-setup').classList.remove('hidden'); document.getElementById('hot-seat-area').innerHTML = ''; };
 
 
 // ─────────────────────────────────────────────
@@ -739,11 +739,11 @@ const GameSessionManager = {
 
     const log = JSON.parse(localStorage.getItem(this.LOG_KEY) || '[]');
     if (log.length === 0) {
-      container.style.display = 'none';
+      container.classList.add('hidden');
       return;
     }
 
-    container.style.display = 'block';
+    container.classList.remove('hidden');
     grid.innerHTML = log.map(item => `
       <div class="log-item">
         <div class="log-icon">${item.icon}</div>

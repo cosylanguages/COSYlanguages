@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const api = {
             open: () => {
-                modal.style.display = 'flex';
-                setupArea.style.display = 'block';
-                gameArea.style.display = 'none';
+                modal.classList.remove('hidden');
+                setupArea.classList.remove('hidden');
+                gameArea.classList.add('hidden');
                 populateThemesLocal();
             },
             start: () => startBtn.click()
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
         levelSelect?.addEventListener('change', populateThemesLocal);
         langSelect?.addEventListener('change', populateThemesLocal);
 
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => modal.classList.add('hidden'));
 
         startBtn?.addEventListener('click', () => {
             const lang = document.getElementById('linker-lang').value;
@@ -238,8 +238,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 showGameMessage(setupArea, t('alert_no_vocab_level'), 'error');
                 return;
             }
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
+            setupArea.classList.add('hidden');
+            gameArea.classList.remove('hidden');
             showNext();
         });
     };

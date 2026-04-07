@@ -905,7 +905,6 @@
             wtd_op: "Tapez l'opposé (antonyme) du mot affiché.",
             wtd_sc: "Cliquez sur les lettres dans le bon ordre pour épeler le mot.",
             wtd_tf: "Décidez si l'énoncé ou l'image correspond au mot.",
-            wtd_vf: "Tapez la forme verbale correcte demandée.",
             wtd_ws: "Organisez les mots pour construire une phrase correcte.",
             zalando: "Zalando",
             zalando_desc: "Magasin de vêtements et chaussures en ligne.",

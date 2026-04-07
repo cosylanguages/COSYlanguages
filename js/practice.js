@@ -56,7 +56,6 @@ const SESSION_STORAGE_KEY = 'cosy_practice_session';
 
 var currentPractice = {
     language: 'en',
-    lessons: [],
     words: [],
     currentIndex: 0,
     currentWord: null,
@@ -390,6 +389,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (typeof updateCategoryUI === 'function') updateCategoryUI();
 
+    // Removing validateFeaturesByLesson as everything is now free access by level
+
     if (modeParam === 'wheel') {
         // Auto-select Speaking category for wheel if not specified
         if (!catParam) {
@@ -673,8 +674,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    // Removing validateFeaturesByLesson as everything is now free access by level
 
     catRadios.forEach(radio => {
         radio.addEventListener('change', window.updateCategoryUI);
@@ -1847,8 +1846,9 @@ function showWordDefinition() {
     content.appendChild(header);
 
     // 2. Definitions
-    wordObj.definitions.forEach((def, index) => {
-        const defDiv = document.createElement('div');
+    if (wordObj.definitions) {
+        wordObj.definitions.forEach((def, index) => {
+            const defDiv = document.createElement('div');
         defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
 
         const textPara = document.createElement('p');
@@ -1867,8 +1867,9 @@ function showWordDefinition() {
             });
             defDiv.appendChild(exList);
         }
-        content.appendChild(defDiv);
-    });
+            content.appendChild(defDiv);
+        });
+    }
 
     // 4. Footer (Collocations, Antonyms, Synonyms)
     if (wordObj.subtext || wordObj.opposite || (wordObj.synonyms && wordObj.synonyms.length > 0)) {
@@ -2027,18 +2028,19 @@ function showNextWord() {
         metaContainer.innerHTML = ''; // Clear existing badges
         const lang = currentPractice.language;
 
-        const addBadge = (text, className, translateKey) => {
+        const addBadge = (text, className, translateKey, id) => {
             const span = document.createElement('span');
             span.className = 'meta-badge ' + className;
+            if (id) span.id = id;
             span.textContent = (translateKey && translations[lang] && translations[lang][translateKey]) ? translations[lang][translateKey] : text;
             if (translateKey) span.setAttribute('data-translate-key', translateKey);
             metaContainer.appendChild(span);
         };
 
         if (wordObj.form) {
-            addBadge(wordObj.form, 'form-badge', `form_${wordObj.form}`);
+            addBadge(wordObj.form, 'form-badge', `form_${wordObj.form}`, 'word-form');
         } else if (wordObj.type === 'type-ga' || wordObj.type === 'type-np') {
-            addBadge('noun', 'form-badge', 'form_noun');
+            addBadge('noun', 'form-badge', 'form_noun', 'word-form');
         }
         if (wordObj.classification) {
             addBadge(wordObj.classification, 'class-badge', `verb_classification_${wordObj.classification}`);
@@ -2052,7 +2054,7 @@ function showNextWord() {
         }
         if (wordObj.level) {
             const levelLabel = (translations[lang] && translations[lang]['level_label']) ? translations[lang]['level_label'] : 'Level';
-            addBadge(`${levelLabel}: ${wordObj.level}`, 'level-badge');
+            addBadge(`${levelLabel}: ${wordObj.level}`, 'level-badge', null, 'word-level');
         }
     } else {
         metaContainer.classList.add('hidden');

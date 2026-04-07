@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'story-chain') {
                 const modal = document.getElementById('story-chain-modal');
                 if (modal) {
-                    modal.style.display = 'flex';
+                    modal.classList.remove('hidden');
                     if (lang) setById('sc-lang', lang);
                     if (level) setById('sc-level', level);
                     if (theme) setById('sc-theme', theme);
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'hot-seat') {
                 const modal = document.getElementById('hot-seat-modal');
                 if (modal) {
-                    modal.style.display = 'flex';
+                    modal.classList.remove('hidden');
                     if (lang) setById('hs-lang', lang);
                     if (level) setById('hs-level', level);
                     if (theme) setById('hs-theme', theme);
