@@ -95,7 +95,8 @@
         "synonyms": [
             "giovane persona",
             "giovane professionista",
-            "giovane dentro"
+            "giovane dentro",
+            "piccolo"
         ],
         "word": "giovane",
         "antonyms": []
@@ -127,7 +128,9 @@
         ],
         "subtext": "vecchio amico / molto vecchio",
         "synonyms": [
-            "vecchie abitudini"
+            "vecchie abitudini",
+            "antico",
+            "anziano"
         ],
         "comparative": "più vecchio",
         "superlative": "il più vecchio",
@@ -218,7 +221,9 @@
         "superlative": "il più caldo",
         "transcription": "ˈkaldo",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "bollente"
+        ]
     },
     {
         "word": "freddo",
@@ -244,7 +249,9 @@
         "superlative": "il più freddo",
         "transcription": "ˈfreddo",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "gelato"
+        ]
     },
     {
         "word": "ordinario",
@@ -372,7 +379,9 @@
             "piacevole",
             "buona idea",
             "buona fortuna",
-            "buon valore"
+            "buon valore",
+            "bravo",
+            "gradevole"
         ],
         "comparative": "migliore",
         "superlative": "il migliore",
@@ -411,7 +420,8 @@
             "spiacevole",
             "cattive notizie",
             "sfortuna",
-            "cattiva decisione"
+            "cattiva decisione",
+            "malvagio"
         ],
         "comparative": "peggiore",
         "superlative": "il peggiore",
@@ -446,7 +456,8 @@
         "subtext": "una casa grande / un grande problema / abbastanza grande",
         "synonyms": [
             "ampio",
-            "enorme"
+            "enorme",
+            "vasto"
         ],
         "comparative": "più grande",
         "superlative": "il più grande",
@@ -483,7 +494,10 @@
         "superlative": "il più piccolo",
         "transcription": "ˈpikkolo",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "minuscolo",
+            "piccino"
+        ]
     },
     {
         "word": "facile",
@@ -507,7 +521,8 @@
         ],
         "subtext": "facile da fare / non facile",
         "synonyms": [
-            "semplice e veloce"
+            "semplice e veloce",
+            "semplice"
         ],
         "comparative": "più facile",
         "superlative": "il più facile",
@@ -544,7 +559,10 @@
         "superlative": "il più difficile",
         "transcription": "difˈfitʃile",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "complicato",
+            "complesso"
+        ]
     },
     {
         "word": "felice",
@@ -576,7 +594,10 @@
         "opposite": "triste",
         "oppositeEmoji": "😢",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "lieto",
+            "contento"
+        ]
     },
     {
         "word": "stanco",
@@ -908,7 +929,8 @@
         "subtext": "",
         "synonyms": [
             "essenziale",
-            "fondamentale"
+            "fondamentale",
+            "rilevante"
         ],
         "definitions": [
             {
@@ -1410,7 +1432,8 @@
         "synonyms": [
             "mani sporche",
             "vestiti sporchi",
-            "sporcarsi"
+            "sporcarsi",
+            "disordinato"
         ],
         "comparative": "più sporco",
         "superlative": "il più sporco",
@@ -1653,7 +1676,10 @@
         "synonyms": [
             "una bella giornata",
             "un bel posto",
-            "una bella persona"
+            "una bella persona",
+            "carino",
+            "piacevole",
+            "magnifico"
         ],
         "comparative": "più bello",
         "superlative": "il più bello",
@@ -1820,7 +1846,10 @@
         "opposite": "felice",
         "oppositeEmoji": "😊",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "infelice",
+            "malinconico"
+        ]
     },
     {
         "word": "affamato",
@@ -2058,7 +2087,8 @@
         ],
         "subtext": "nuovo lavoro / completamente nuovo",
         "synonyms": [
-            "fiammante"
+            "fiammante",
+            "recente"
         ],
         "comparative": "più nuovo",
         "superlative": "il più nuovo",
@@ -2141,7 +2171,8 @@
         ],
         "subtext": "treno veloce / molto veloce",
         "synonyms": [
-            "fast food"
+            "fast food",
+            "rapido"
         ],
         "comparative": "più veloce",
         "superlative": "il più veloce",
@@ -2169,7 +2200,8 @@
         ],
         "subtext": "internet lento / molto lento",
         "synonyms": [
-            "progressi lenti"
+            "progressi lenti",
+            "pigro"
         ],
         "comparative": "più lento",
         "superlative": "il più lento",
@@ -2519,7 +2551,9 @@
         "opposite": "debole",
         "oppositeEmoji": "🧣",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "potente"
+        ]
     },
     {
         "word": "debole",
@@ -2544,7 +2578,9 @@
         "opposite": "forte",
         "oppositeEmoji": "💪",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "fragile"
+        ]
     },
     {
         "word": "in forma",
@@ -2714,7 +2750,8 @@
         ],
         "subtext": "molto noioso / trovarlo noioso",
         "synonyms": [
-            "una riunione noiosa"
+            "una riunione noiosa",
+            "annoiato"
         ],
         "comparative": "più noioso",
         "superlative": "il più noioso",
@@ -2939,7 +2976,10 @@
         "superlative": "il più divertente",
         "transcription": "diverˈtente",
         "antonyms": [],
-        "synonyms": [],
+        "synonyms": [
+            "buffo",
+            "simpatico"
+        ],
         "opposite": "noioso"
     },
     {
@@ -2961,7 +3001,9 @@
         ],
         "subtext": "molto intelligente / un'idea intelligente",
         "synonyms": [
-            "abbastanza scaltro"
+            "abbastanza scaltro",
+            "brillante",
+            "saggio"
         ],
         "comparative": "più intelligente",
         "superlative": "il più intelligente",
@@ -3431,7 +3473,10 @@
         "opposite": "bello",
         "oppositeEmoji": "🌸",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "sgradevole",
+            "orribile"
+        ]
     },
     {
         "word": "vicino",
@@ -3512,7 +3557,9 @@
         "opposite": "povero",
         "oppositeEmoji": "💸",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "benestante"
+        ]
     },
     {
         "word": "povero",
@@ -3539,7 +3586,9 @@
         "opposite": "ricco",
         "oppositeEmoji": "💰",
         "antonyms": [],
-        "synonyms": []
+        "synonyms": [
+            "misero"
+        ]
     },
     {
         "word": "presto",
@@ -3851,7 +3900,10 @@
         "superlative": "il più famoso",
         "transcription": "faˈmozo",
         "antonyms": [],
-        "synonyms": [],
+        "synonyms": [
+            "noto",
+            "celebre"
+        ],
         "opposite": "sconosciuto"
     },
     {
@@ -4314,7 +4366,9 @@
         "superlative": "il più moderno",
         "transcription": "moˈdɛrno",
         "antonyms": [],
-        "synonyms": [],
+        "synonyms": [
+            "attuale"
+        ],
         "opposite": "antico"
     },
     {

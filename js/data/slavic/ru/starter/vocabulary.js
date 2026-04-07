@@ -858,7 +858,10 @@
         "form": "noun",
         "plural": "дома",
         "subtext": "",
-        "synonyms": ["дома", "идти домой"]
+        "synonyms": [
+            "дома",
+            "идти домой"
+        ]
     },
     {
         "word": "квартира",
@@ -1020,7 +1023,9 @@
         "form": "noun",
         "plural": "боссы",
         "subtext": "",
-        "synonyms": ["начальник"],
+        "synonyms": [
+            "начальник"
+        ],
         "definitions": [
             {
                 "text": "Человек, который руководит на работе.",
@@ -1056,7 +1061,9 @@
         "form": "noun",
         "plural": "зарплаты",
         "subtext": "",
-        "synonyms": ["заработная плата"],
+        "synonyms": [
+            "заработная плата"
+        ],
         "definitions": [
             {
                 "text": "Деньги, которые человек получает за свою работу каждый месяц.",
@@ -1075,7 +1082,10 @@
         "form": "noun",
         "plural": "собрания",
         "subtext": "",
-        "synonyms": ["встреча", "совещание"],
+        "synonyms": [
+            "встреча",
+            "совещание"
+        ],
         "definitions": [
             {
                 "text": "Время, когда люди собираются вместе, чтобы что-то обсудить.",
@@ -1258,7 +1268,9 @@
         "emoji": "❤️",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["связь"],
+        "synonyms": [
+            "связь"
+        ],
         "definitions": [
             {
                 "text": "Связь между двумя людьми.",
@@ -1294,7 +1306,9 @@
         "form": "noun",
         "plural": "отпуска",
         "subtext": "",
-        "synonyms": ["каникулы"],
+        "synonyms": [
+            "каникулы"
+        ],
         "definitions": [
             {
                 "text": "Период времени вдали от работы, когда вы путешествуете или отдыхаете.",
@@ -1330,7 +1344,9 @@
         "form": "noun",
         "plural": "отели",
         "subtext": "",
-        "synonyms": ["гостиница"],
+        "synonyms": [
+            "гостиница"
+        ],
         "definitions": [
             {
                 "text": "Здание, где люди платят за ночлег.",
@@ -1348,7 +1364,9 @@
         "emoji": "🗓️",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["уикенд"],
+        "synonyms": [
+            "уикенд"
+        ],
         "definitions": [
             {
                 "text": "Суббота и воскресенье.",
@@ -1367,7 +1385,10 @@
         "form": "noun",
         "plural": null,
         "subtext": "",
-        "synonyms": ["досуг", "отдых"],
+        "synonyms": [
+            "досуг",
+            "отдых"
+        ],
         "definitions": [
             {
                 "text": "Время, когда вы не работаете и можете делать то, что хотите.",
@@ -1512,7 +1533,10 @@
         "form": "noun",
         "plural": "менеджеры",
         "subtext": "",
-        "synonyms": ["руководитель", "директор"],
+        "synonyms": [
+            "руководитель",
+            "директор"
+        ],
         "definitions": [
             {
                 "text": "Человек, который руководит командой или бизнесом.",
@@ -1621,7 +1645,10 @@
         "form": "noun",
         "plural": "станции",
         "subtext": "",
-        "synonyms": ["вокзал", "автобусная остановка"],
+        "synonyms": [
+            "вокзал",
+            "автобусная остановка"
+        ],
         "definitions": [
             {
                 "text": "Здание, где останавливаются поезда или автобусы.",
@@ -1727,7 +1754,10 @@
         "form": "noun",
         "plural": "ночи",
         "subtext": "",
-        "synonyms": ["спокойной ночи", "ночью"],
+        "synonyms": [
+            "спокойной ночи",
+            "ночью"
+        ],
         "definitions": [
             {
                 "text": "Тёмное время суток между вечером и утром.",
@@ -1780,7 +1810,10 @@
         "opposite": "жена",
         "oppositeEmoji": "👩",
         "subtext": "",
-        "synonyms": ["супруг", "партнёр"],
+        "synonyms": [
+            "супруг",
+            "партнёр"
+        ],
         "definitions": [
             {
                 "text": "Мужчина, состоящий в браке.",
@@ -1801,7 +1834,10 @@
         "opposite": "муж",
         "oppositeEmoji": "👨",
         "subtext": "",
-        "synonyms": ["супруга", "партнёрша"],
+        "synonyms": [
+            "супруга",
+            "партнёрша"
+        ],
         "definitions": [
             {
                 "text": "Женщина, состоящая в браке.",
@@ -1820,7 +1856,10 @@
         "form": "noun",
         "plural": "дети",
         "subtext": "",
-        "synonyms": ["малыш", "дитя"],
+        "synonyms": [
+            "малыш",
+            "дитя"
+        ],
         "definitions": [
             {
                 "text": "Молодой человек; сын или дочь.",
@@ -1839,7 +1878,9 @@
         "form": "noun",
         "plural": "родители",
         "subtext": "",
-        "synonyms": ["мать или отец"],
+        "synonyms": [
+            "мать или отец"
+        ],
         "definitions": [
             {
                 "text": "Отец или мать.",
@@ -1848,8 +1889,199 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "яблоко",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "gender": "neuter",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "яблоки",
+        "transcription": "ˈjabləkə",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Круглый фрукт красного, зеленого или желтого цвета.",
+                "examples": [
+                    "Я ем яблоко каждый день."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "хлеб",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "gender": "masculine",
+        "emoji": "🍞",
+        "form": "noun",
+        "plural": "хлеба",
+        "transcription": "xlʲep",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Продукт из муки и воды.",
+                "examples": [
+                    "Я покупаю хлеб в магазине."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "собака",
+        "level": "starter",
+        "theme": "animals_A1",
+        "gender": "feminine",
+        "emoji": "🐕",
+        "form": "noun",
+        "plural": "собаки",
+        "transcription": "sɐˈbakə",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Домашнее животное, которое лает.",
+                "examples": [
+                    "Моя собака очень преданная."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "кошка",
+        "level": "starter",
+        "theme": "animals_A1",
+        "gender": "feminine",
+        "emoji": "🐈",
+        "form": "noun",
+        "plural": "кошки",
+        "transcription": "ˈkoʂkə",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Домашнее животное, которое мяукает.",
+                "examples": [
+                    "Кошка спит на диване."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "дом",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "gender": "masculine",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "дома",
+        "transcription": "dom",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Здание, в котором живут люди.",
+                "examples": [
+                    "Дом очень большой."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "школа",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "gender": "feminine",
+        "emoji": "🏫",
+        "form": "noun",
+        "plural": "школы",
+        "transcription": "ˈʂkolə",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Место, где дети учатся.",
+                "examples": [
+                    "Я иду в школу."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "книга",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "gender": "feminine",
+        "emoji": "📖",
+        "form": "noun",
+        "plural": "книги",
+        "transcription": "ˈknʲiɡə",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "То, что человек читает.",
+                "examples": [
+                    "Я читаю интересную книгу."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "стол",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "gender": "masculine",
+        "emoji": "🪑",
+        "form": "noun",
+        "plural": "столы",
+        "transcription": "stol",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Предмет мебели для еды или работы.",
+                "examples": [
+                    "Еда на столе."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "вода",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "gender": "feminine",
+        "emoji": "💧",
+        "form": "noun",
+        "plural": "воды",
+        "transcription": "vɐˈda",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "Прозрачная жидкость, которую мы пьем.",
+                "examples": [
+                    "Я пью воду."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "кофе",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "gender": "masculine",
+        "emoji": "☕",
+        "form": "noun",
+        "plural": "кофе",
+        "transcription": "ˈkofʲe",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "Темный напиток.",
+                "examples": [
+                    "Я пью кофе утром."
+                ]
+            }
+        ]
     }
 ];
+
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

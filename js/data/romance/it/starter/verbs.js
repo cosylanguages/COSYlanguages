@@ -307,7 +307,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro, iniziare a",
+        "subtext": "iniziare il lavoro / iniziare a",
         "opposite": "finire",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -334,7 +334,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finire il lavoro / finire un progetto / finire presto, finire di",
+        "subtext": "finire il lavoro / finire di",
         "opposite": "iniziare",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -388,7 +388,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "provare a fare / provare sodo / provare qualcosa",
+        "subtext": "provare a fare / provare qualcosa",
         "form": "verb",
         "definitions": [
             {
@@ -624,7 +624,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "chiedere aiuto / chiedere di",
+        "subtext": "chiedere di / chiedere a",
         "synonyms": [
             "fare una domanda"
         ],
@@ -651,7 +651,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "parlare con qualcuno / parlare una lingua / parlare chiaramente, parlare di",
+        "subtext": "parlare di / parlare con",
         "form": "verb",
         "definitions": [
             {
@@ -783,7 +783,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "rispondere a una domanda / rispondere al telefono",
+        "subtext": "rispondere a",
         "form": "verb",
         "definitions": [
             {
@@ -862,7 +862,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "venire a casa / venire al lavoro, venire da",
+        "subtext": "venire a casa / venire al lavoro / venire da",
         "synonyms": [
             "tornare"
         ],
@@ -966,7 +966,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrivare al lavoro / arrivare tardi / arrivare in orario",
+        "subtext": "arrivare a / arrivare da",
         "form": "verb",
         "definitions": [
             {
@@ -991,7 +991,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "partire presto",
+        "subtext": "partire per / partire da",
         "synonyms": [
             "lasciare casa",
             "lasciare il lavoro"
@@ -1440,7 +1440,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "pensare a / pensare di / pensare attentamente",
+        "subtext": "pensare a / pensare di",
         "form": "verb",
         "definitions": [
             {
@@ -3586,7 +3586,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continuare a lavorare / continuare a fare / continuare un compito",
+        "subtext": "continuare a lavorare / continuare a fare",
         "form": "verb",
         "definitions": [
             {
@@ -3872,7 +3872,7 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈkredere",
-        "subtext": "credere a qualcuno / credere in qualcosa",
+        "subtext": "credere in / credere a",
         "antonyms": [],
         "synonyms": []
     },
