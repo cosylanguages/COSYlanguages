@@ -4,13 +4,13 @@
         "word": "France",
         "level": "starter",
         "theme": "address_location_A1",
-        "transcription": "fʁɑ̃s",
+        "transcription": "fʁɑ̃s"
     },
     {
         "word": "Italie",
         "level": "starter",
         "theme": "address_location_A1",
-        "transcription": "i.ta.li",
+        "transcription": "i.ta.li"
     },
     {
         "word": "Russie",
@@ -41,13 +41,13 @@
         "word": "Paris",
         "level": "starter",
         "theme": "address_location_A1",
-        "transcription": "pa.ʁi",
+        "transcription": "pa.ʁi"
     },
     {
         "word": "Londres",
         "level": "starter",
         "theme": "address_location_A1",
-        "transcription": "lɔ̃dʁ",
+        "transcription": "lɔ̃dʁ"
     },
     {
         "word": "Rome",
@@ -220,11 +220,6 @@
         "theme": "address_location_A1"
     },
     {
-        "word": "Londres",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
         "word": "Allemagne",
         "level": "starter",
         "theme": "address_location_A1",
@@ -345,10 +340,8 @@
         "transcription": "ʒə.nɛv"
     }
 ];
+
     const lang = "fr";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

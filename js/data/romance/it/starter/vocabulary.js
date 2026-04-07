@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "medico",
         "level": "starter",
@@ -26,7 +25,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "piede",
@@ -52,7 +53,9 @@
         ],
         "synonyms": [],
         "subtext": "piede sinistro, a piedi",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "insegnante",
@@ -76,7 +79,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "pasta",
@@ -100,7 +105,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "lasagna",
@@ -123,7 +130,9 @@
         ],
         "synonyms": [],
         "subtext": "lasagna al forno",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "mela",
@@ -149,7 +158,9 @@
         ],
         "synonyms": [],
         "subtext": "mela rossa",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pane",
@@ -173,7 +184,9 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "uovo",
@@ -197,7 +210,9 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "latte",
@@ -221,7 +236,9 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "riso",
@@ -245,7 +262,9 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "carne",
@@ -269,7 +288,9 @@
         ],
         "transcription": "ˈkarne",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cibo",
@@ -293,7 +314,9 @@
         "transcription": "ˈtʃibo",
         "synonyms": [],
         "subtext": "cibo sano",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "caffè",
@@ -303,7 +326,7 @@
         "gender": "masculine",
         "emoji": "☕",
         "form": "noun",
-        "plural": null,
+        "plural": "caffè",
         "subtext": "caffè espresso",
         "countability": "countable",
         "partitive": "del",
@@ -317,7 +340,9 @@
         ],
         "transcription": "kafˈfɛ",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "tè",
@@ -327,7 +352,7 @@
         "gender": "masculine",
         "emoji": "🍵",
         "form": "noun",
-        "plural": null,
+        "plural": "tè",
         "subtext": "tè verde",
         "countability": "countable",
         "partitive": "del",
@@ -341,7 +366,9 @@
         ],
         "transcription": "ˈtɛ",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "succo",
@@ -351,7 +378,7 @@
         "gender": "masculine",
         "emoji": "🧃",
         "form": "noun",
-        "plural": null,
+        "plural": "succhi",
         "subtext": "succo di frutta",
         "countability": "countable",
         "partitive": "del",
@@ -365,7 +392,9 @@
         ],
         "transcription": "ˈsukkɔ",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "acqua",
@@ -389,7 +418,9 @@
         ],
         "transcription": "ˈakkwa",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "colazione",
@@ -413,7 +444,9 @@
         "transcription": "kolatˈtsjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cena",
@@ -437,7 +470,9 @@
         "transcription": "ˈtʃena",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pranzo",
@@ -461,7 +496,9 @@
         "transcription": "ˈprandzo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "parco",
@@ -485,7 +522,9 @@
         "transcription": "ˈparko",
         "synonyms": [],
         "subtext": "parco giochi",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "scuola",
@@ -509,7 +548,9 @@
         "transcription": "ˈskwɔla",
         "synonyms": [],
         "subtext": "scuola primaria",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "negozio",
@@ -533,7 +574,9 @@
         "transcription": "neˈɡɔttsjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "pantaloni",
@@ -557,7 +600,9 @@
         "transcription": "pantaˈloni",
         "synonyms": [],
         "subtext": "un paio di pantaloni",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "scarpe",
@@ -581,7 +626,9 @@
         "transcription": "ˈskarpe",
         "synonyms": [],
         "subtext": "scarpe da ginnastica",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nelle",
+        "da_article": "dalle"
     },
     {
         "word": "sedia",
@@ -605,7 +652,9 @@
         ],
         "transcription": "ˈsedja",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "tavolo",
@@ -629,7 +678,9 @@
         ],
         "transcription": "ˈtavolo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "letto",
@@ -653,7 +704,9 @@
         ],
         "transcription": "ˈlɛtto",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "chiave",
@@ -677,7 +730,9 @@
         "transcription": "ˈkjave",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "telefono",
@@ -701,7 +756,9 @@
         "transcription": "teˈlɛfono",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "libro",
@@ -725,7 +782,9 @@
         "transcription": "ˈlibro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "borsa",
@@ -749,7 +808,9 @@
         "transcription": "ˈborsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "penna",
@@ -773,7 +834,9 @@
         "transcription": "ˈpenna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "gatto",
@@ -801,7 +864,9 @@
         "subtext": "un bel gatto",
         "antonyms": [
             "cane"
-        ]
+        ],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cane",
@@ -829,7 +894,9 @@
         "subtext": "cane da guardia",
         "antonyms": [
             "gatto"
-        ]
+        ],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "uccello",
@@ -853,7 +920,9 @@
         "transcription": "utˈtʃɛllo",
         "synonyms": [],
         "subtext": "uccello canoro",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "frutta",
@@ -877,7 +946,9 @@
         "partitive": "della",
         "transcription": "ˈfrutta",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "verdura",
@@ -901,7 +972,9 @@
         "partitive": "della",
         "transcription": "verˈdura",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pesce",
@@ -925,7 +998,9 @@
         "transcription": "ˈpeʃʃe",
         "synonyms": [],
         "subtext": "pesce fresco",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "testa",
@@ -949,7 +1024,9 @@
         "transcription": "ˈtɛsta",
         "synonyms": [],
         "subtext": "mal di testa",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "mano",
@@ -973,7 +1050,9 @@
         "transcription": "ˈmano",
         "synonyms": [],
         "subtext": "mano destra",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "gamba",
@@ -997,7 +1076,9 @@
         "transcription": "ˈɡamba",
         "synonyms": [],
         "subtext": "gamba sinistra",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "occhio",
@@ -1021,7 +1102,9 @@
         "transcription": "ˈɔkkjo",
         "synonyms": [],
         "subtext": "chiudere gli occhi",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "naso",
@@ -1045,7 +1128,9 @@
         "transcription": "ˈnazo",
         "synonyms": [],
         "subtext": "naso chiuso",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "bocca",
@@ -1069,7 +1154,9 @@
         "transcription": "ˈbokka",
         "synonyms": [],
         "subtext": "bocca aperta",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "orecchio",
@@ -1093,7 +1180,9 @@
         "transcription": "oˈrekkjo",
         "synonyms": [],
         "subtext": "mal d'orecchio",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "schiena",
@@ -1117,7 +1206,9 @@
         "partitive": "della",
         "transcription": "ˈskjɛna",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "braccio",
@@ -1141,7 +1232,9 @@
         "partitive": "del",
         "transcription": "ˈbrattʃo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "madre",
@@ -1167,7 +1260,9 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmadre",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "padre",
@@ -1193,7 +1288,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpadre",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "famiglia",
@@ -1217,7 +1314,9 @@
         "transcription": "faˈmiʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "amico",
@@ -1241,7 +1340,9 @@
         "transcription": "aˈmiko",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "partner",
@@ -1265,7 +1366,9 @@
         "partitive": "del",
         "transcription": "ˈpartner",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "uomo",
@@ -1291,7 +1394,9 @@
         "transcription": "ˈwɔmo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "donna",
@@ -1317,7 +1422,9 @@
         "transcription": "ˈdɔnna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "casa",
@@ -1341,7 +1448,9 @@
         "partitive": "della",
         "transcription": "ˈkaza",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "appartamento",
@@ -1365,7 +1474,9 @@
         "partitive": "dell'",
         "transcription": "appartaˈmento",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "ufficio",
@@ -1389,7 +1500,9 @@
         "partitive": "dell'",
         "transcription": "ufˈfitʃo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "macchina",
@@ -1413,7 +1526,9 @@
         "partitive": "della",
         "transcription": "ˈmakkina",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "autobus",
@@ -1437,7 +1552,9 @@
         "partitive": "dell'",
         "transcription": "ˈautobus",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "treno",
@@ -1461,7 +1578,9 @@
         "partitive": "del",
         "transcription": "ˈtrɛno",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "denaro",
@@ -1485,7 +1604,9 @@
         ],
         "transcription": "deˈnaro",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mattina",
@@ -1509,7 +1630,9 @@
         "partitive": "della",
         "transcription": "matˈtina",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "sera",
@@ -1536,7 +1659,9 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈsera",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "giorno",
@@ -1560,7 +1685,9 @@
         "transcription": "ˈdʒorno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "settimana",
@@ -1584,7 +1711,9 @@
         "transcription": "settiˈmana",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ogni giorno",
@@ -1627,7 +1756,9 @@
         "transcription": "ˈkapo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "collega",
@@ -1651,7 +1782,9 @@
         "transcription": "kolˈlɛɡa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "stipendio",
@@ -1677,7 +1810,9 @@
         "countability": "countable",
         "partitive": "dello",
         "transcription": "stiˈpɛndjo",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "riunione",
@@ -1703,7 +1838,9 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "rjuˈnjone",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "tragitto",
@@ -1727,7 +1864,9 @@
         "transcription": "traˈdʒitto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "stress",
@@ -1751,7 +1890,9 @@
         "transcription": "ˈstrɛss",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "affitto",
@@ -1775,7 +1916,9 @@
         "transcription": "afˈfitto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "vicino",
@@ -1799,7 +1942,9 @@
         "transcription": "viˈtʃino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "stanza",
@@ -1825,7 +1970,9 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈstantsa",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cucina",
@@ -1849,7 +1996,9 @@
         "transcription": "kuˈtʃina",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "sonno",
@@ -1873,7 +2022,9 @@
         "transcription": "ˈsɔnno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "esercizio",
@@ -1897,7 +2048,9 @@
         "transcription": "ezerˈtʃittsjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "prezzo",
@@ -1921,7 +2074,9 @@
         "transcription": "ˈprɛttso",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "costo",
@@ -1945,7 +2100,9 @@
         "transcription": "ˈkɔsto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "relazione",
@@ -1972,7 +2129,9 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "relatˈtsjone",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "insieme",
@@ -2017,7 +2176,9 @@
         "transcription": "vaˈkantsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "viaggio",
@@ -2041,7 +2202,9 @@
         "transcription": "ˈvjaddʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "hotel",
@@ -2065,7 +2228,9 @@
         "transcription": "oˈtɛl",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "fine settimana",
@@ -2089,7 +2254,9 @@
         "partitive": "del",
         "transcription": "ˈfine settiˈmana",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "tempo libero",
@@ -2116,7 +2283,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtɛmpo ˈlibero",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "birra",
@@ -2126,7 +2295,7 @@
         "gender": "feminine",
         "emoji": "🍺",
         "form": "noun",
-        "plural": null,
+        "plural": "birre",
         "subtext": "birra fredda, alla spina",
         "definitions": [
             {
@@ -2140,7 +2309,9 @@
         "partitive": "della",
         "transcription": "ˈbirra",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "vino",
@@ -2150,7 +2321,7 @@
         "gender": "masculine",
         "emoji": "🍷",
         "form": "noun",
-        "plural": null,
+        "plural": "vini",
         "subtext": "vino rosso, vino bianco, bicchiere di vino",
         "definitions": [
             {
@@ -2164,7 +2335,9 @@
         "partitive": "del",
         "transcription": "ˈvino",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "porta",
@@ -2188,7 +2361,9 @@
         "partitive": "della",
         "transcription": "ˈpɔrta",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "finestra",
@@ -2212,7 +2387,9 @@
         "partitive": "della",
         "transcription": "fiˈnɛstra",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "infermiere",
@@ -2239,7 +2416,9 @@
         "countability": "countable",
         "partitive": "dell'",
         "transcription": "inferˈmjɛre",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "conducente",
@@ -2266,7 +2445,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "konduˈtʃɛnte",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cuoco",
@@ -2293,7 +2474,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "ˈkwɔko",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "direttore",
@@ -2320,7 +2503,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "diretˈtore",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "aereo",
@@ -2344,7 +2529,9 @@
         "partitive": "dell'",
         "transcription": "aˈɛreo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "bicicletta",
@@ -2368,7 +2555,9 @@
         "partitive": "della",
         "transcription": "bitʃiˈkletta",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ospedale",
@@ -2392,7 +2581,9 @@
         "partitive": "dell'",
         "transcription": "ospeˈdale",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "ristorante",
@@ -2416,7 +2607,9 @@
         "partitive": "del",
         "transcription": "ristoˈrante",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "banca",
@@ -2440,7 +2633,9 @@
         "partitive": "della",
         "transcription": "ˈbaŋka",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "stazione",
@@ -2464,7 +2659,9 @@
         "partitive": "della",
         "transcription": "statˈtsjone",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "supermercato",
@@ -2488,7 +2685,9 @@
         "partitive": "del",
         "transcription": "supermerˈkato",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "sole",
@@ -2498,7 +2697,7 @@
         "gender": "masculine",
         "emoji": "☀️",
         "form": "noun",
-        "plural": null,
+        "plural": "soli",
         "subtext": "sole caldo, sole del mattino",
         "definitions": [
             {
@@ -2512,7 +2711,9 @@
         "partitive": "del",
         "transcription": "ˈsole",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "pioggia",
@@ -2522,7 +2723,7 @@
         "gender": "feminine",
         "emoji": "🌧️",
         "form": "noun",
-        "plural": null,
+        "plural": "piogge",
         "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
             {
@@ -2536,7 +2737,9 @@
         "partitive": "della",
         "transcription": "ˈpjɔddʒa",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "vento",
@@ -2546,7 +2749,7 @@
         "gender": "masculine",
         "emoji": "💨",
         "form": "noun",
-        "plural": null,
+        "plural": "venti",
         "subtext": "vento forte, vento freddo",
         "definitions": [
             {
@@ -2560,7 +2763,9 @@
         "partitive": "del",
         "transcription": "ˈvɛnto",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "pomeriggio",
@@ -2584,7 +2789,9 @@
         "partitive": "del",
         "transcription": "pomeˈriddʒo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "notte",
@@ -2608,7 +2815,9 @@
         "partitive": "della",
         "transcription": "ˈnɔtte",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "oggi",
@@ -2681,7 +2890,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "maˈrito",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "moglie",
@@ -2710,7 +2921,9 @@
         "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmɔʎʎe",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "bambino",
@@ -2737,7 +2950,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "bamˈbino",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "genitore",
@@ -2763,7 +2978,9 @@
         "countability": "countable",
         "partitive": "del",
         "transcription": "dʒeniˈtore",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "autista",
@@ -2787,7 +3004,9 @@
         "transcription": "auˈtista",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "chef",
@@ -2811,7 +3030,9 @@
         "transcription": "ˈʃɛf",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "sorella",
@@ -2835,7 +3056,9 @@
         "transcription": "soˈrɛlla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "fratello",
@@ -2859,7 +3082,9 @@
         "transcription": "fraˈtɛllo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "figlio",
@@ -2883,7 +3108,9 @@
         "transcription": "ˈfiʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "figlia",
@@ -2907,7 +3134,9 @@
         "transcription": "ˈfiʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "nonno",
@@ -2931,7 +3160,9 @@
         "transcription": "ˈnɔnno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "nonna",
@@ -2955,7 +3186,9 @@
         "transcription": "ˈnɔnna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "zio",
@@ -2979,7 +3212,9 @@
         "transcription": "ˈtsio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "zia",
@@ -3003,7 +3238,9 @@
         "transcription": "ˈtsia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cugino",
@@ -3027,7 +3264,9 @@
         "transcription": "kuˈdʒino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "albero",
@@ -3051,7 +3290,9 @@
         "transcription": "ˈalbero",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "fiore",
@@ -3075,7 +3316,9 @@
         "transcription": "ˈfjore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "montagna",
@@ -3099,7 +3342,9 @@
         "transcription": "monˈtaɲɲa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "fiume",
@@ -3123,7 +3368,9 @@
         "transcription": "ˈfjume",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mare",
@@ -3147,7 +3394,9 @@
         "transcription": "ˈmare",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "spiaggia",
@@ -3171,7 +3420,9 @@
         "transcription": "ˈspjaddʒa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cielo",
@@ -3195,7 +3446,9 @@
         "transcription": "ˈtʃɛlo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "luna",
@@ -3219,7 +3472,9 @@
         "transcription": "ˈluna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "piatto",
@@ -3243,7 +3498,9 @@
         "transcription": "ˈpjatto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "tazza",
@@ -3267,7 +3524,9 @@
         "transcription": "ˈtattsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "bicchiere",
@@ -3291,7 +3550,9 @@
         "transcription": "bikˈkjɛre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "forchetta",
@@ -3315,7 +3576,9 @@
         "transcription": "forˈketta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cucchiaio",
@@ -3339,7 +3602,9 @@
         "transcription": "kukˈkjajo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "coltello",
@@ -3363,7 +3628,9 @@
         "transcription": "kolˈtɛllo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "computer portatile",
@@ -3387,7 +3654,9 @@
         "transcription": "komˈpjuter porˈtatile",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "televisione",
@@ -3411,7 +3680,9 @@
         "transcription": "televizˈjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cinema",
@@ -3435,7 +3706,9 @@
         "transcription": "ˈtʃinema",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "museo",
@@ -3459,7 +3732,9 @@
         "transcription": "muˈzɛo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "aeroporto",
@@ -3483,7 +3758,9 @@
         "transcription": "ˈaeroporto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "farmacia",
@@ -3507,7 +3784,9 @@
         "transcription": "farmaˈtʃia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pollo",
@@ -3531,7 +3810,9 @@
         "transcription": "ˈpollo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "zucchero",
@@ -3555,7 +3836,9 @@
         "transcription": "ˈtsukkero",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "insalata",
@@ -3579,7 +3862,9 @@
         "transcription": "insaˈlata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "cappotto",
@@ -3603,7 +3888,9 @@
         "transcription": "kapˈpɔtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "calzini",
@@ -3627,7 +3914,9 @@
         "transcription": "kalˈtsini",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "collo",
@@ -3651,7 +3940,9 @@
         "transcription": "ˈkɔllo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "spalla",
@@ -3675,7 +3966,9 @@
         "transcription": "ˈspalla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "in",
@@ -3853,7 +4146,9 @@
         "transcription": "ˈtɛmpo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "problema",
@@ -3877,7 +4172,9 @@
         "transcription": "proˈblɛma",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "manzo",
@@ -3901,7 +4198,9 @@
         "transcription": "ˈmandzo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "maiale",
@@ -3925,7 +4224,9 @@
         "transcription": "maˈjale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "patata",
@@ -3949,7 +4250,9 @@
         "transcription": "paˈtata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pomodoro",
@@ -3973,7 +4276,9 @@
         "transcription": "pomoˈdɔro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cipolla",
@@ -3997,7 +4302,9 @@
         "transcription": "tʃiˈpɔlla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "carota",
@@ -4021,7 +4328,9 @@
         "transcription": "kaˈrɔta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "zuppa",
@@ -4045,7 +4354,9 @@
         "transcription": "ˈtsuppa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "torta",
@@ -4069,7 +4380,9 @@
         "transcription": "ˈtɔrta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cioccolato",
@@ -4093,7 +4406,9 @@
         "transcription": "tʃokkoˈlato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "gelato",
@@ -4117,7 +4432,9 @@
         "transcription": "dʒeˈlato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "maglione",
@@ -4141,7 +4458,9 @@
         "transcription": "maʎˈʎone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "vestito",
@@ -4165,7 +4484,9 @@
         "transcription": "vesˈtito",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "gonna",
@@ -4189,7 +4510,9 @@
         "transcription": "ˈɡɔnna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "stivali",
@@ -4213,7 +4536,9 @@
         "transcription": "stiˈvali",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "negli",
+        "da_article": "dagli"
     },
     {
         "word": "dito",
@@ -4237,7 +4562,9 @@
         "transcription": "ˈdito",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "dito del piede",
@@ -4261,7 +4588,9 @@
         "transcription": "ˈdito del ˈpjɛde",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "stomaco",
@@ -4285,7 +4614,9 @@
         "transcription": "ˈstɔmako",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "ginocchio",
@@ -4309,7 +4640,9 @@
         "transcription": "dʒiˈnɔkkjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "erba",
@@ -4333,7 +4666,9 @@
         "transcription": "ˈɛrba",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "nuvola",
@@ -4357,7 +4692,9 @@
         "transcription": "ˈnuvola",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "stella",
@@ -4381,7 +4718,9 @@
         "transcription": "ˈstɛlla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "scrivania",
@@ -4405,7 +4744,9 @@
         "transcription": "skrivaˈnia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "lampada",
@@ -4429,7 +4770,9 @@
         "transcription": "ˈlampada",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "orologio",
@@ -4453,7 +4796,9 @@
         "transcription": "oroˈlɔdʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "specchio",
@@ -4477,7 +4822,9 @@
         "transcription": "ˈspɛkkjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "biblioteca",
@@ -4501,7 +4848,9 @@
         "transcription": "biblioˈtɛka",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "lunedì",
@@ -4525,7 +4874,9 @@
         "transcription": "luneˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "martedì",
@@ -4549,7 +4900,9 @@
         "transcription": "marteˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mercoledì",
@@ -4573,7 +4926,9 @@
         "transcription": "merkoleˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "giovedì",
@@ -4597,7 +4952,9 @@
         "transcription": "dʒoveˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "venerdì",
@@ -4621,7 +4978,9 @@
         "transcription": "venerˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "sabato",
@@ -4645,7 +5004,9 @@
         "transcription": "ˈsabato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "domenica",
@@ -4669,7 +5030,9 @@
         "transcription": "doˈmenika",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "gennaio",
@@ -4693,7 +5056,9 @@
         "transcription": "dʒenˈnajo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "febbraio",
@@ -4717,7 +5082,9 @@
         "transcription": "febˈbrajo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "marzo",
@@ -4741,7 +5108,9 @@
         "transcription": "ˈmartsɔ",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "aprile",
@@ -4765,7 +5134,9 @@
         "transcription": "aˈprile",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "maggio",
@@ -4789,7 +5160,9 @@
         "transcription": "ˈmaddʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "giugno",
@@ -4813,7 +5186,9 @@
         "transcription": "ˈdʒuɲɲo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "luglio",
@@ -4837,7 +5212,9 @@
         "transcription": "ˈluʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "agosto",
@@ -4861,7 +5238,9 @@
         "transcription": "aˈɡosto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "settembre",
@@ -4885,7 +5264,9 @@
         "transcription": "setˈtɛmbre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ottobre",
@@ -4909,7 +5290,9 @@
         "transcription": "otˈtobre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "novembre",
@@ -4933,7 +5316,9 @@
         "transcription": "noˈvɛmbre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "dicembre",
@@ -4957,7 +5342,9 @@
         "transcription": "diˈtʃɛmbre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "primavera",
@@ -4981,7 +5368,9 @@
         "transcription": "primaˈvɛra",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "estate",
@@ -5005,7 +5394,9 @@
         "transcription": "esˈtate",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "autunno",
@@ -5029,7 +5420,9 @@
         "transcription": "auˈtunno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "inverno",
@@ -5053,7 +5446,9 @@
         "transcription": "inˈvɛrno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "coniglio",
@@ -5077,7 +5472,9 @@
         "transcription": "ˈconiglio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cavallo",
@@ -5101,7 +5498,9 @@
         "transcription": "ˈcavallo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mucca",
@@ -5125,7 +5524,9 @@
         "transcription": "ˈmucca",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pecora",
@@ -5149,7 +5550,9 @@
         "transcription": "ˈpɛkora",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "limone",
@@ -5173,7 +5576,9 @@
         "transcription": "liˈmone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "arancia",
@@ -5197,7 +5602,9 @@
         "transcription": "aˈrantʃa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "fragola",
@@ -5221,7 +5628,9 @@
         "transcription": "ˈfraɡola",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "uva",
@@ -5245,7 +5654,9 @@
         "transcription": "ˈuva",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "aglio",
@@ -5269,7 +5680,9 @@
         "transcription": "ˈaʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "sempre",
@@ -5425,7 +5838,9 @@
         "transcription": "ˈtʃao",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "arrivederci",
@@ -5449,7 +5864,9 @@
         "transcription": "arrivedˈdertʃi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "per favore",
@@ -5495,7 +5912,9 @@
         "transcription": "ˈɡrattsje",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "scusa",
@@ -5519,7 +5938,9 @@
         "transcription": "ˈskuza",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "sì",
@@ -5587,7 +6008,9 @@
         "transcription": "ˈnome",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "viola",
@@ -5611,7 +6034,9 @@
         "transcription": "ˈvjɔla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "bagno",
@@ -5635,7 +6060,9 @@
         "transcription": "ˈbagno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "camera da letto",
@@ -5659,7 +6086,9 @@
         "transcription": "ˈcamera da letto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "neonato",
@@ -5683,7 +6112,9 @@
         "transcription": "neoˈnato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ragazzo",
@@ -5707,7 +6138,9 @@
         "transcription": "raˈɡattso",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ragazza",
@@ -5731,7 +6164,9 @@
         "transcription": "raˈɡattsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "fidanzato",
@@ -5755,7 +6190,9 @@
         "transcription": "ˈfidanzato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "fidanzata",
@@ -5779,7 +6216,9 @@
         "transcription": "ˈfidanzata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "studente",
@@ -5803,7 +6242,9 @@
         "transcription": "stuˈdɛnte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "compagno di classe",
@@ -5827,7 +6268,9 @@
         "transcription": "komˈpaɲɲo di ˈklasse",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "macchina fotografica",
@@ -5851,7 +6294,9 @@
         "transcription": "ˈmakkina fotoˈɡrafika",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "computer",
@@ -5875,7 +6320,9 @@
         "transcription": "komˈpjuter",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "bottiglia",
@@ -5899,7 +6346,9 @@
         "transcription": "botˈtiʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "scatola",
@@ -5923,7 +6372,9 @@
         "transcription": "ˈskatola",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "palla",
@@ -5947,7 +6398,9 @@
         "transcription": "ˈpalla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "regalo",
@@ -5971,7 +6424,9 @@
         "transcription": "ˈregalo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "strada",
@@ -5995,7 +6450,9 @@
         "transcription": "ˈstrada",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "edificio",
@@ -6019,7 +6476,9 @@
         "transcription": "ediˈfitʃo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "bar",
@@ -6043,7 +6502,9 @@
         "transcription": "ˈbar",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "centro",
@@ -6067,7 +6528,9 @@
         "transcription": "ˈtʃɛntro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "burro",
@@ -6091,7 +6554,9 @@
         "transcription": "ˈburro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "formaggio",
@@ -6115,7 +6580,9 @@
         "transcription": "ˈformaggio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "attore",
@@ -6139,7 +6606,9 @@
         "transcription": "atˈtore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "artista",
@@ -6163,7 +6632,9 @@
         "transcription": "arˈtista",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "adulto",
@@ -6187,7 +6658,9 @@
         "transcription": "aˈdulto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "consiglio",
@@ -6211,7 +6684,9 @@
         "transcription": "konˈsiʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "età",
@@ -6235,7 +6710,9 @@
         "transcription": "eˈta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "aria",
@@ -6259,7 +6736,9 @@
         "transcription": "ˈaria",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "quartiere",
@@ -6283,7 +6762,9 @@
         "transcription": "kwarˈtjɛre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "arte",
@@ -6307,7 +6788,9 @@
         "transcription": "ˈarte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "band",
@@ -6331,7 +6814,9 @@
         "transcription": "ˈbɛnd",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "compleanno",
@@ -6355,7 +6840,9 @@
         "transcription": "kompleˈanno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "barca",
@@ -6379,7 +6866,9 @@
         "transcription": "ˈbarka",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "affari",
@@ -6403,7 +6892,9 @@
         "transcription": "afˈfari",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "negli",
+        "da_article": "dagli"
     },
     {
         "word": "università",
@@ -6427,7 +6918,9 @@
         "transcription": "universiˈta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "azienda",
@@ -6451,7 +6944,9 @@
         "transcription": "adˈdzjɛnda",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "concerto",
@@ -6475,7 +6970,9 @@
         "transcription": "konˈtʃɛrto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "conversazione",
@@ -6499,7 +6996,9 @@
         "transcription": "konverzatˈtsjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ancora",
@@ -6633,7 +7132,9 @@
         "transcription": "ˈmatita",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "carta",
@@ -6657,7 +7158,9 @@
         "transcription": "ˈcarta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "portafoglio",
@@ -6681,7 +7184,9 @@
         "transcription": "ˈportafoglio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ombrello",
@@ -6705,7 +7210,9 @@
         "transcription": "ˈombrello",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "occhiali",
@@ -6729,7 +7236,9 @@
         "transcription": "ˈocchiali",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "negli",
+        "da_article": "dagli"
     },
     {
         "word": "signore",
@@ -6753,7 +7262,9 @@
         "transcription": "ˈsignore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "signora",
@@ -6777,7 +7288,9 @@
         "transcription": "ˈsignora",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "città",
@@ -6801,7 +7314,9 @@
         "transcription": "ˈcittà",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "paese",
@@ -6825,7 +7340,9 @@
         "transcription": "ˈpaese",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mondo",
@@ -6849,7 +7366,9 @@
         "transcription": "ˈmondo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "gente",
@@ -6873,7 +7392,9 @@
         "transcription": "ˈgente",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ora",
@@ -6897,7 +7418,9 @@
         "transcription": "ˈora",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "minuto",
@@ -6921,7 +7444,9 @@
         "transcription": "ˈminuto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "secondo",
@@ -6945,7 +7470,9 @@
         "transcription": "ˈsecondo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ieri",
@@ -6977,7 +7504,7 @@
         "gender": "feminine",
         "emoji": "🕛",
         "form": "noun",
-        "plural": "",
+        "plural": "mezzanotti",
         "definitions": [
             {
                 "text": "Le dodici di notte.",
@@ -6991,7 +7518,9 @@
         "transcription": "ˈmezzanotte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "mezzogiorno",
@@ -7001,7 +7530,7 @@
         "gender": "masculine",
         "emoji": "🕛",
         "form": "noun",
-        "plural": "",
+        "plural": "mezzogiorni",
         "definitions": [
             {
                 "text": "Le dodici del giorno.",
@@ -7015,7 +7544,9 @@
         "transcription": "ˈmezzogiorno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "lavoro",
@@ -7039,7 +7570,9 @@
         "transcription": "laˈvoro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "impiego",
@@ -7063,7 +7596,9 @@
         "transcription": "imˈpjɛɡo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "mestiere",
@@ -7087,7 +7622,9 @@
         "transcription": "mesˈtjɛre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cliente",
@@ -7111,7 +7648,9 @@
         "transcription": "ˈcliente",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "messaggio",
@@ -7135,7 +7674,9 @@
         "transcription": "mesˈsaddʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "email",
@@ -7159,7 +7700,9 @@
         "transcription": "ˈimeil",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "sito web",
@@ -7183,7 +7726,9 @@
         "transcription": "ˈsito ˈwɛb",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "password",
@@ -7207,7 +7752,9 @@
         "transcription": "ˈpassvord",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "tastiera",
@@ -7231,7 +7778,9 @@
         "transcription": "tasˈtjɛra",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "mouse",
@@ -7255,7 +7804,9 @@
         "transcription": "ˈmouse",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "schermo",
@@ -7279,7 +7830,9 @@
         "transcription": "ˈskɛrmo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "musica",
@@ -7303,7 +7856,9 @@
         "transcription": "ˈmusica",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "canzone",
@@ -7327,7 +7882,9 @@
         "transcription": "kanˈtsone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "film",
@@ -7351,7 +7908,9 @@
         "transcription": "ˈfilm",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "foto",
@@ -7375,7 +7934,9 @@
         "transcription": "ˈfɔto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "sport",
@@ -7399,7 +7960,9 @@
         "transcription": "ˈsport",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "calcio",
@@ -7409,7 +7972,7 @@
         "gender": "masculine",
         "emoji": "⚽",
         "form": "noun",
-        "plural": "",
+        "plural": "calci",
         "definitions": [
             {
                 "text": "Sport con palla tonda.",
@@ -7423,7 +7986,9 @@
         "transcription": "ˈcalcio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "tennis",
@@ -7433,7 +7998,7 @@
         "gender": "masculine",
         "emoji": "🎾",
         "form": "noun",
-        "plural": "",
+        "plural": "tennis",
         "definitions": [
             {
                 "text": "Sport con la racchetta.",
@@ -7447,7 +8012,9 @@
         "transcription": "ˈtennis",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "nuoto",
@@ -7457,7 +8024,7 @@
         "gender": "masculine",
         "emoji": "🏊",
         "form": "noun",
-        "plural": "",
+        "plural": "nuoti",
         "definitions": [
             {
                 "text": "L'atto di nuotare.",
@@ -7471,7 +8038,9 @@
         "transcription": "ˈnuoto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mensa",
@@ -7495,7 +8064,9 @@
         "transcription": "ˈmɛnsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "mercato",
@@ -7519,7 +8090,9 @@
         "transcription": "merˈkato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "biglietto",
@@ -7543,7 +8116,9 @@
         "transcription": "ˈbiglietto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ricevuta",
@@ -7567,7 +8142,9 @@
         "transcription": "ˈricevuta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "fattura",
@@ -7591,7 +8168,9 @@
         "transcription": "fatˈtura",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "carta di credito",
@@ -7615,7 +8194,9 @@
         "transcription": "ˈkarta di ˈkredito",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "contanti",
@@ -7639,7 +8220,9 @@
         "transcription": "konˈtanti",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "sale",
@@ -7663,7 +8246,9 @@
         "transcription": "ˈsale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "pepe",
@@ -7687,7 +8272,9 @@
         "transcription": "ˈpepe",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "olio",
@@ -7711,7 +8298,9 @@
         "transcription": "ˈolio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "aceto",
@@ -7735,7 +8324,9 @@
         "transcription": "ˈaceto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "merenda",
@@ -7759,7 +8350,9 @@
         "transcription": "meˈrɛnda",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ospite",
@@ -7783,7 +8376,9 @@
         "transcription": "ˈɔspite",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "festa",
@@ -7807,7 +8402,9 @@
         "transcription": "ˈfɛsta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "viaggiatore",
@@ -7831,7 +8428,9 @@
         "transcription": "viaddʒaˈtore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "valigia",
@@ -7855,7 +8454,9 @@
         "transcription": "vaˈlidʒa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "zaino",
@@ -7879,7 +8480,9 @@
         "transcription": "ˈdzaino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "passaporto",
@@ -7903,7 +8506,9 @@
         "transcription": "passaˈpɔrto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "mappa",
@@ -7927,7 +8532,9 @@
         "transcription": "ˈmappa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "piantina",
@@ -7951,7 +8558,9 @@
         "transcription": "pjanˈtina",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "via",
@@ -7975,7 +8584,9 @@
         "transcription": "ˈvia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "sentiero",
@@ -7999,7 +8610,9 @@
         "transcription": "senˈtjɛro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "piazza",
@@ -8023,7 +8636,9 @@
         "transcription": "ˈpjattsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ponte",
@@ -8047,7 +8662,9 @@
         "transcription": "ˈponte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "campagna",
@@ -8071,7 +8688,9 @@
         "transcription": "kamˈpaɲɲa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "villaggio",
@@ -8095,7 +8714,9 @@
         "transcription": "vilˈladdʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "lingua",
@@ -8119,7 +8740,9 @@
         "transcription": "ˈlingua",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "parola",
@@ -8143,7 +8766,9 @@
         "transcription": "paˈrɔla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "frase",
@@ -8167,7 +8792,9 @@
         "transcription": "ˈfraze",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "domanda",
@@ -8191,7 +8818,9 @@
         "transcription": "ˈdomanda",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "risposta",
@@ -8215,7 +8844,9 @@
         "transcription": "risˈpɔsta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "idea",
@@ -8239,7 +8870,9 @@
         "transcription": "iˈdɛa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "parere",
@@ -8263,7 +8896,9 @@
         "transcription": "paˈrere",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "opinione",
@@ -8287,7 +8922,9 @@
         "transcription": "opiniˈone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "scelta",
@@ -8311,7 +8948,9 @@
         "transcription": "ˈʃɛlta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "decisione",
@@ -8335,7 +8974,9 @@
         "transcription": "detʃiziˈone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "piano",
@@ -8359,7 +9000,9 @@
         "transcription": "ˈpjano",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "progetto",
@@ -8383,7 +9026,9 @@
         "transcription": "proˈdʒɛtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "successo",
@@ -8407,7 +9052,9 @@
         "transcription": "sutˈtʃɛsso",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "errore",
@@ -8431,7 +9078,9 @@
         "transcription": "ˈerrore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "sbaglio",
@@ -8455,7 +9104,9 @@
         "transcription": "ˈzbaʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "vendita",
@@ -8479,7 +9130,9 @@
         "transcription": "ˈvendita",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "acquisto",
@@ -8503,7 +9156,9 @@
         "transcription": "akˈkwisto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "boutique",
@@ -8527,7 +9182,9 @@
         "transcription": "buˈtik",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "centro commerciale",
@@ -8551,7 +9208,9 @@
         "transcription": "ˈtʃɛntro kommerˈtʃale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "monete",
@@ -8575,7 +9234,9 @@
         "transcription": "moˈnete",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nelle",
+        "da_article": "dalle"
     },
     {
         "word": "banconota",
@@ -8599,7 +9260,9 @@
         "transcription": "baŋkoˈnɔta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "conto",
@@ -8623,7 +9286,9 @@
         "transcription": "ˈkonto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "risparmio",
@@ -8647,7 +9312,9 @@
         "transcription": "risˈparmjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "spesa",
@@ -8671,7 +9338,9 @@
         "transcription": "ˈspeza",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pagamento",
@@ -8695,7 +9364,9 @@
         "transcription": "paɡaˈmento",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "prodotto",
@@ -8719,7 +9390,9 @@
         "transcription": "proˈdɔtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "servizio",
@@ -8743,7 +9416,9 @@
         "transcription": "serˈvittsjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "offerta",
@@ -8767,7 +9442,9 @@
         "transcription": "ofˈfɛrta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "consegna",
@@ -8791,7 +9468,9 @@
         "transcription": "konˈseɲɲa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ordine",
@@ -8815,7 +9494,9 @@
         "transcription": "ˈordine",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "clientela",
@@ -8839,7 +9520,9 @@
         "transcription": "klijenˈtɛla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "entrata",
@@ -8863,7 +9546,9 @@
         "transcription": "enˈtrata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "uscita",
@@ -8887,7 +9572,9 @@
         "transcription": "uʃˈʃita",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "scale",
@@ -8911,7 +9598,9 @@
         "transcription": "ˈskale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nelle",
+        "da_article": "dalle"
     },
     {
         "word": "ascensore",
@@ -8935,7 +9624,9 @@
         "transcription": "aʃʃenˈsore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "corridoio",
@@ -8959,7 +9650,9 @@
         "transcription": "korriˈdojo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "muri",
@@ -8983,7 +9676,9 @@
         "transcription": "ˈmuri",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "tetto",
@@ -9007,7 +9702,9 @@
         "transcription": "ˈtetto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "giardino",
@@ -9031,7 +9728,9 @@
         "transcription": "dʒarˈdino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "garage",
@@ -9055,7 +9754,9 @@
         "transcription": "ɡaˈraʒ",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "soggiorno",
@@ -9079,7 +9780,9 @@
         "transcription": "sodˈdʒorno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "sala da pranzo",
@@ -9103,7 +9806,9 @@
         "transcription": "ˈsala da ˈprandzo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "doccia",
@@ -9127,7 +9832,9 @@
         "transcription": "ˈdottʃa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "rubinetto",
@@ -9151,7 +9858,9 @@
         "transcription": "rubiˈnetto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "sapone",
@@ -9175,7 +9884,9 @@
         "transcription": "saˈpone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "asciugamano",
@@ -9199,7 +9910,9 @@
         "transcription": "aʃʃuɡaˈmano",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "scaffale",
@@ -9223,7 +9936,9 @@
         "transcription": "skafˈfale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "divano",
@@ -9247,7 +9962,9 @@
         "transcription": "diˈvano",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "radio",
@@ -9271,7 +9988,9 @@
         "transcription": "ˈradjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "sveglia",
@@ -9295,7 +10014,9 @@
         "transcription": "ˈzveʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "camicia",
@@ -9319,7 +10040,9 @@
         "transcription": "kaˈmitʃa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "t-shirt",
@@ -9343,7 +10066,9 @@
         "transcription": "ˈtiʃert",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "giacca",
@@ -9367,7 +10092,9 @@
         "transcription": "ˈdʒakka",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "berretto",
@@ -9391,7 +10118,9 @@
         "transcription": "berˈretto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "zuccotto",
@@ -9415,7 +10144,9 @@
         "transcription": "tsukˈkɔtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "cintura",
@@ -9439,7 +10170,9 @@
         "transcription": "tʃinˈtura",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "costume da bagno",
@@ -9463,7 +10196,9 @@
         "transcription": "kosˈtume da ˈbaɲɲo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "pigiama",
@@ -9487,7 +10222,9 @@
         "transcription": "piˈdʒama",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "fermata dell'autobus",
@@ -9511,7 +10248,9 @@
         "transcription": "ferˈmata delˈlautobus",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "banchina",
@@ -9535,7 +10274,9 @@
         "transcription": "baŋˈkina",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "binario",
@@ -9559,7 +10300,9 @@
         "transcription": "biˈnarjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "metropolitana",
@@ -9583,7 +10326,9 @@
         "transcription": "metropoliˈtana",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "taxi",
@@ -9607,7 +10352,9 @@
         "transcription": "ˈtaksi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "velocità",
@@ -9631,7 +10378,9 @@
         "transcription": "velotʃiˈta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "bagagli",
@@ -9655,7 +10404,9 @@
         "transcription": "baˈɡaʎʎi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "partenza",
@@ -9679,7 +10430,9 @@
         "transcription": "parˈtɛntsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "arrivo",
@@ -9703,7 +10456,9 @@
         "transcription": "arˈrivo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "volo",
@@ -9727,7 +10482,9 @@
         "transcription": "ˈvolo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "prenotazione",
@@ -9751,7 +10508,9 @@
         "transcription": "prenotatˈtsjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "camera d'albergo",
@@ -9775,7 +10534,9 @@
         "transcription": "ˈkamera dalˈbɛrɡo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "reception",
@@ -9799,7 +10560,9 @@
         "transcription": "reˈtʃɛpʃon",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "spuntino",
@@ -9823,7 +10586,9 @@
         "transcription": "spunˈtino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "pasto",
@@ -9847,7 +10612,9 @@
         "transcription": "ˈpasto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "orario",
@@ -9871,7 +10638,9 @@
         "transcription": "oˈrarjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "level": "starter",
@@ -9894,7 +10663,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "level": "starter",
@@ -9917,7 +10688,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "level": "starter",
@@ -9940,7 +10713,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "level": "starter",
@@ -9963,7 +10738,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "level": "starter",
@@ -9986,7 +10763,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "level": "starter",
@@ -10013,7 +10792,9 @@
             "dato"
         ],
         "subtext": "chiedere informazioni",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "level": "starter",
@@ -10037,7 +10818,9 @@
         ],
         "synonyms": [],
         "subtext": "palla di neve",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "level": "starter",
@@ -10061,7 +10844,9 @@
         ],
         "synonyms": [],
         "subtext": "nebbia fitta",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "level": "starter",
@@ -10087,7 +10872,9 @@
             "arredamento"
         ],
         "subtext": "negozio di mobili",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "banana",
@@ -10111,7 +10898,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pizza",
@@ -10135,7 +10924,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "lavastoviglie",
@@ -10159,7 +10950,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "forno",
@@ -10183,7 +10976,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "frigorifero",
@@ -10209,7 +11004,9 @@
             "frigo"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "tenda",
@@ -10233,7 +11030,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pesca",
@@ -10257,7 +11056,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pera",
@@ -10281,7 +11082,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "ciliegia",
@@ -10305,7 +11108,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "io",
@@ -10959,7 +11764,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "completo",
@@ -10985,7 +11792,9 @@
             "abito"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "bevanda",
@@ -11011,7 +11820,9 @@
             "bibita"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cereali",
@@ -11035,7 +11846,9 @@
         "partitive": "dei",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "occhiali da sole",
@@ -11059,7 +11872,9 @@
         "partitive": "degli",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "negli",
+        "da_article": "dagli"
     },
     {
         "word": "rapporto",
@@ -11085,7 +11900,9 @@
             "relazione"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "anno",
@@ -11110,7 +11927,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "mese",
@@ -11134,7 +11953,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "stagione",
@@ -11158,7 +11979,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "faccia",
@@ -11185,7 +12008,9 @@
             "volto"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "capelli",
@@ -11209,7 +12034,9 @@
         "partitive": "dei",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "dente",
@@ -11233,7 +12060,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cravatta",
@@ -11257,7 +12086,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "molto",
@@ -11658,7 +12489,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "adesso",
@@ -11819,7 +12652,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "gomma",
@@ -11843,7 +12678,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "lezione",
@@ -11867,7 +12704,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "classe",
@@ -11891,7 +12730,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "compiti",
@@ -11915,7 +12756,9 @@
         "partitive": "dei",
         "synonyms": [],
         "subtext": "compiti a casa",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "esame",
@@ -11939,7 +12782,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "pavimento",
@@ -11963,7 +12808,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "corpo",
@@ -11987,7 +12834,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cuore",
@@ -12011,7 +12860,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "sinistra",
@@ -12037,7 +12888,9 @@
         "subtext": "",
         "antonyms": [
             "destra"
-        ]
+        ],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "destra",
@@ -12063,7 +12916,9 @@
         "subtext": "",
         "antonyms": [
             "sinistra"
-        ]
+        ],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "tutto",
@@ -12240,7 +13095,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "alfabeto",
@@ -12264,7 +13121,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "nipote",
@@ -12288,7 +13147,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "aula",
@@ -12312,7 +13173,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "giornale",
@@ -12338,7 +13201,9 @@
             "quotidiano"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "rivista",
@@ -12362,7 +13227,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "dizionario",
@@ -12388,7 +13255,9 @@
             "vocabolario"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "lettera",
@@ -12412,7 +13281,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "soffitto",
@@ -12438,7 +13309,9 @@
         "subtext": "",
         "antonyms": [
             "pavimento"
-        ]
+        ],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "quadro",
@@ -12464,7 +13337,9 @@
             "dipinto"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "padella",
@@ -12488,7 +13363,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pentola",
@@ -12512,7 +13389,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "app",
@@ -12538,7 +13417,9 @@
             "applicazione"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "wifi",
@@ -12562,7 +13443,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "astuccio",
@@ -12586,7 +13469,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "scopa",
@@ -12610,7 +13495,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "bambola",
@@ -12634,7 +13521,9 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "delfino",
@@ -12658,7 +13547,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ape",
@@ -12682,7 +13573,9 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "ragno",
@@ -12706,7 +13599,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "violino",
@@ -12730,7 +13625,9 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "gentilezza",
@@ -12758,7 +13655,9 @@
         "subtext": "",
         "antonyms": [
             "maleducazione"
-        ]
+        ],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "matematica",
@@ -12779,7 +13678,9 @@
             }
         ],
         "transcription": "mateˈmatika",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "storia",
@@ -12800,7 +13701,9 @@
             }
         ],
         "transcription": "ˈstɔrja",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "scienza",
@@ -12821,7 +13724,9 @@
             }
         ],
         "transcription": "ˈʃɛntsa",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "geografia",
@@ -12842,7 +13747,9 @@
             }
         ],
         "transcription": "dʒeograˈfia",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "leone",
@@ -12864,7 +13771,9 @@
             }
         ],
         "transcription": "leˈone",
-        "partitive": "del"
+        "partitive": "del",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "elefante",
@@ -12886,7 +13795,9 @@
             }
         ],
         "transcription": "eleˈfante",
-        "partitive": "dell'"
+        "partitive": "dell'",
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "tigre",
@@ -12908,7 +13819,9 @@
             }
         ],
         "transcription": "ˈtiɡre",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "scimmia",
@@ -12930,7 +13843,9 @@
             }
         ],
         "transcription": "ˈʃimmja",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "squalo",
@@ -12952,7 +13867,9 @@
             }
         ],
         "transcription": "ˈskwalo",
-        "partitive": "dello"
+        "partitive": "dello",
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "balena",
@@ -12974,7 +13891,9 @@
             }
         ],
         "transcription": "baˈlena",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cerchio",
@@ -12996,7 +13915,9 @@
             }
         ],
         "transcription": "ˈtʃerkjo",
-        "partitive": "del"
+        "partitive": "del",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "triangolo",
@@ -13018,7 +13939,9 @@
             }
         ],
         "transcription": "triˈanɡolo",
-        "partitive": "del"
+        "partitive": "del",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "lavatrice",
@@ -13040,7 +13963,9 @@
             }
         ],
         "transcription": "lavaˈtritʃe",
-        "partitive": "della"
+        "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "tostapane",
@@ -13062,7 +13987,9 @@
             }
         ],
         "transcription": "tostaˈpane",
-        "partitive": "del"
+        "partitive": "del",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "microonde",
@@ -13084,7 +14011,9 @@
             }
         ],
         "transcription": "mikroˈonde",
-        "partitive": "del"
+        "partitive": "del",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "righello",
@@ -13106,7 +14035,9 @@
             }
         ],
         "transcription": "riˈɡɛllo",
-        "partitive": "del"
+        "partitive": "del",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "contadino",
@@ -13128,7 +14059,9 @@
                 ]
             }
         ],
-        "transcription": "kontaˈdino"
+        "transcription": "kontaˈdino",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "pilota",
@@ -13150,7 +14083,9 @@
                 ]
             }
         ],
-        "transcription": "piˈlɔta"
+        "transcription": "piˈlɔta",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cameriere",
@@ -13172,7 +14107,9 @@
                 ]
             }
         ],
-        "transcription": "kameˈrjɛre"
+        "transcription": "kameˈrjɛre",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "dentista",
@@ -13194,7 +14131,9 @@
                 ]
             }
         ],
-        "transcription": "denˈtista"
+        "transcription": "denˈtista",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "poliziotto",
@@ -13216,7 +14155,9 @@
                 ]
             }
         ],
-        "transcription": "politˈtsjɔtto"
+        "transcription": "politˈtsjɔtto",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "vigile del fuoco",
@@ -13238,7 +14179,9 @@
                 ]
             }
         ],
-        "transcription": "ˈvidʒile del ˈfwɔko"
+        "transcription": "ˈvidʒile del ˈfwɔko",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "soldato",
@@ -13260,7 +14203,9 @@
                 ]
             }
         ],
-        "transcription": "solˈdato"
+        "transcription": "solˈdato",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "scrittore",
@@ -13282,7 +14227,9 @@
                 ]
             }
         ],
-        "transcription": "skritˈtore"
+        "transcription": "skritˈtore",
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "professore",
@@ -13304,7 +14251,9 @@
                 ]
             }
         ],
-        "transcription": "profesˈsore"
+        "transcription": "profesˈsore",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "ingegnere",
@@ -13326,7 +14275,9 @@
                 ]
             }
         ],
-        "transcription": "indʒeɲˈɲɛre"
+        "transcription": "indʒeɲˈɲɛre",
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "segretario",
@@ -13348,7 +14299,9 @@
                 ]
             }
         ],
-        "transcription": "segreˈtarjo"
+        "transcription": "segreˈtarjo",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cappello",
@@ -13370,7 +14323,9 @@
                 ]
             }
         ],
-        "transcription": "kapˈpɛllo"
+        "transcription": "kapˈpɛllo",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "maglietta",
@@ -13392,7 +14347,9 @@
                 ]
             }
         ],
-        "transcription": "maʎˈʎetta"
+        "transcription": "maʎˈʎetta",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "jeans",
@@ -13414,7 +14371,9 @@
                 ]
             }
         ],
-        "transcription": "ˈdʒins"
+        "transcription": "ˈdʒins",
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "pantaloncini",
@@ -13436,7 +14395,9 @@
                 ]
             }
         ],
-        "transcription": "pantalontˈʃini"
+        "transcription": "pantalontˈʃini",
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "stivale",
@@ -13458,7 +14419,9 @@
                 ]
             }
         ],
-        "transcription": "stiˈvale"
+        "transcription": "stiˈvale",
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "sciarpa",
@@ -13480,7 +14443,9 @@
                 ]
             }
         ],
-        "transcription": "ˈʃarpa"
+        "transcription": "ˈʃarpa",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "guanti",
@@ -13502,7 +14467,9 @@
                 ]
             }
         ],
-        "transcription": "ˈɡwanti"
+        "transcription": "ˈɡwanti",
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "terra",
@@ -13523,7 +14490,9 @@
                 ]
             }
         ],
-        "transcription": "ˈtɛrra"
+        "transcription": "ˈtɛrra",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "collina",
@@ -13545,7 +14514,9 @@
                 ]
             }
         ],
-        "transcription": "kolˈlina"
+        "transcription": "kolˈlina",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "valle",
@@ -13567,7 +14538,9 @@
                 ]
             }
         ],
-        "transcription": "ˈvalle"
+        "transcription": "ˈvalle",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "foresta",
@@ -13589,7 +14562,9 @@
                 ]
             }
         ],
-        "transcription": "foˈrɛsta"
+        "transcription": "foˈrɛsta",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "bosco",
@@ -13611,7 +14586,9 @@
                 ]
             }
         ],
-        "transcription": "ˈbɔsko"
+        "transcription": "ˈbɔsko",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "lago",
@@ -13633,7 +14610,9 @@
                 ]
             }
         ],
-        "transcription": "ˈlaɡo"
+        "transcription": "ˈlaɡo",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "campo",
@@ -13655,7 +14634,9 @@
                 ]
             }
         ],
-        "transcription": "ˈkampo"
+        "transcription": "ˈkampo",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "foglia",
@@ -13677,7 +14658,9 @@
                 ]
             }
         ],
-        "transcription": "ˈfɔʎʎa"
+        "transcription": "ˈfɔʎʎa",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "pianta",
@@ -13699,7 +14682,9 @@
                 ]
             }
         ],
-        "transcription": "ˈpjanta"
+        "transcription": "ˈpjanta",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "natura",
@@ -13720,7 +14705,9 @@
                 ]
             }
         ],
-        "transcription": "naˈtura"
+        "transcription": "naˈtura",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "anello",
@@ -13742,7 +14729,9 @@
                 ]
             }
         ],
-        "transcription": "aˈnɛllo"
+        "transcription": "aˈnɛllo",
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "collana",
@@ -13764,7 +14753,9 @@
                 ]
             }
         ],
-        "transcription": "kolˈlana"
+        "transcription": "kolˈlana",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "gioielli",
@@ -13786,7 +14777,9 @@
                 ]
             }
         ],
-        "transcription": "dʒoˈjɛlli"
+        "transcription": "dʒoˈjɛlli",
+        "in_article": "nei",
+        "da_article": "dai"
     },
     {
         "word": "batteria",
@@ -13808,7 +14801,9 @@
                 ]
             }
         ],
-        "transcription": "batteˈria"
+        "transcription": "batteˈria",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "flauto",
@@ -13830,7 +14825,9 @@
                 ]
             }
         ],
-        "transcription": "ˈflauto"
+        "transcription": "ˈflauto",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "poltrona",
@@ -13852,7 +14849,9 @@
                 ]
             }
         ],
-        "transcription": "polˈtrona"
+        "transcription": "polˈtrona",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "libreria",
@@ -13874,7 +14873,9 @@
                 ]
             }
         ],
-        "transcription": "libreˈria"
+        "transcription": "libreˈria",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "armadio",
@@ -13896,7 +14897,9 @@
                 ]
             }
         ],
-        "transcription": "arˈmadjo"
+        "transcription": "arˈmadjo",
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "tappeto",
@@ -13918,7 +14921,9 @@
                 ]
             }
         ],
-        "transcription": "tapˈpɛto"
+        "transcription": "tapˈpɛto",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "cassetto",
@@ -13940,7 +14945,9 @@
                 ]
             }
         ],
-        "transcription": "kasˈsɛtto"
+        "transcription": "kasˈsɛtto",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "telecomando",
@@ -13962,7 +14969,9 @@
                 ]
             }
         ],
-        "transcription": "telekoˈmando"
+        "transcription": "telekoˈmando",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "coperta",
@@ -13984,7 +14993,9 @@
                 ]
             }
         ],
-        "transcription": "koˈpɛrta"
+        "transcription": "koˈpɛrta",
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
         "word": "cuscino",
@@ -14006,7 +15017,9 @@
                 ]
             }
         ],
-        "transcription": "kuʃˈʃino"
+        "transcription": "kuʃˈʃino",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "lenzuolo",
@@ -14028,7 +15041,9 @@
                 ]
             }
         ],
-        "transcription": "lenˈtswɔlo"
+        "transcription": "lenˈtswɔlo",
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "esempio",
@@ -14053,7 +15068,9 @@
         ],
         "synonyms": [],
         "subtext": "per esempio",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "indirizzo email",
@@ -14077,7 +15094,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
         "word": "numero di telefono",
@@ -14101,7 +15120,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "spazzolino",
@@ -14125,7 +15146,9 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nello",
+        "da_article": "dallo"
     },
     {
         "word": "dentifricio",
@@ -14149,11 +15172,341 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
+    },
+    {
+        "word": "pagina",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "ˈpadʒina",
+        "plural": "pagine",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Una delle due facciate di un foglio.",
+                "examples": [
+                    "Apri il libro a pagina dieci."
+                ]
+            }
+        ],
+        "emoji": "📄",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "lavagna",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "laˈvaɲɲa",
+        "plural": "lavagne",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Superficie su cui si scrive a scuola.",
+                "examples": [
+                    "L'insegnante scrive sulla lavagna."
+                ]
+            }
+        ],
+        "emoji": "👩‍🏫",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "studentessa",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "studenˈtessa",
+        "plural": "studentesse",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Donna che studia in una scuola.",
+                "examples": [
+                    "Lei è una brava studentessa."
+                ]
+            }
+        ],
+        "emoji": "👩‍🎓",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "prego",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤝",
+        "form": "adverb",
+        "transcription": "ˈprɛɡo",
+        "definitions": [
+            {
+                "text": "Risposta a un ringraziamento.",
+                "examples": [
+                    "- Grazie! - Prego."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "internet",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "article": "l'",
+        "emoji": "🌐",
+        "form": "noun",
+        "transcription": "ˈintɛrnɛt",
+        "gender": "masculine",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "Rete informatica mondiale.",
+                "examples": [
+                    "Uso internet per studiare."
+                ]
+            }
+        ],
+        "in_article": "nell'",
+        "da_article": "dall'"
+    },
+    {
+        "word": "numero",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "article": "il",
+        "form": "noun",
+        "transcription": "ˈnumere",
+        "plural": "numeri",
+        "gender": "masculine",
+        "countability": "countable",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Simbolo che indica una quantità.",
+                "examples": [
+                    "Il numero dieci."
+                ]
+            }
+        ],
+        "emoji": "🔢",
+        "in_article": "nel",
+        "da_article": "dal"
+    },
+    {
+        "word": "pausa",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "ˈpauza",
+        "plural": "pause",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Breve interruzione del lavoro.",
+                "examples": [
+                    "Faccio una pausa caffè."
+                ]
+            }
+        ],
+        "emoji": "☕",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "calcolatrice",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "kalkolaˈtritʃe",
+        "plural": "calcolatrici",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Macchina per fare calcoli.",
+                "examples": [
+                    "Uso la calcolatrice per la matematica."
+                ]
+            }
+        ],
+        "emoji": "🔢",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "forbici",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "le",
+        "form": "noun",
+        "transcription": "ˈforbitʃi",
+        "plural": "forbici",
+        "gender": "feminine",
+        "countability": "plural-only",
+        "partitive": "delle",
+        "definitions": [
+            {
+                "text": "Strumento per tagliare.",
+                "examples": [
+                    "Uso le forbici per tagliare la carta."
+                ]
+            }
+        ],
+        "emoji": "✂️",
+        "in_article": "nelle",
+        "da_article": "dalle"
+    },
+    {
+        "word": "polizia",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "politˈtsia",
+        "gender": "feminine",
+        "countability": "uncountable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Organo dello Stato che mantiene l'ordine pubblico.",
+                "examples": [
+                    "Chiamare la polizia."
+                ]
+            }
+        ],
+        "emoji": "👮",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "fattoria",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "fattoˈria",
+        "plural": "fattorie",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Luogo in campagna dove si allevano animali e si coltiva la terra.",
+                "examples": [
+                    "Il contadino lavora nella fattoria."
+                ]
+            }
+        ],
+        "emoji": "🚜",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "documento",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "form": "noun",
+        "transcription": "dokuˈmento",
+        "plural": "documenti",
+        "gender": "masculine",
+        "countability": "countable",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Carta o file che contiene informazioni.",
+                "examples": [
+                    "Devo firmare questo documento."
+                ]
+            }
+        ],
+        "emoji": "📄",
+        "in_article": "nel",
+        "da_article": "dal"
+    },
+    {
+        "word": "fabbrica",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "ˈfabbrika",
+        "plural": "fabbriche",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Edificio dove si producono beni in serie.",
+                "examples": [
+                    "Lui lavora in una fabbrica di auto."
+                ]
+            }
+        ],
+        "emoji": "🏭",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "fotografia",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "fotoɡraˈfia",
+        "plural": "fotografie",
+        "gender": "feminine",
+        "countability": "countable",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "L'arte di scattare foto; o l'immagine stessa.",
+                "examples": [
+                    "La fotografia è il mio hobby."
+                ]
+            }
+        ],
+        "emoji": "📷",
+        "in_article": "nella",
+        "da_article": "dalla"
+    },
+    {
+        "word": "assetato",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "form": "adjective",
+        "transcription": "asseˈtato",
+        "definitions": [
+            {
+                "text": "Che ha bisogno di bere.",
+                "examples": [
+                    "Sono molto assetato."
+                ]
+            }
+        ],
+        "emoji": "💧"
     }
 ];
+
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-
 })();

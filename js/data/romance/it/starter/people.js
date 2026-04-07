@@ -13,174 +13,306 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "theme": "places_culture_leisure_A1",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "plural": "Leonardo da Vinci",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
         "word": "Dante Alighieri",
         "transcription": "ˈdante aliˈɡjɛri",
-        "subtext": "poeta",
+        "subtext": "poeta e scrittore",
         "definitions": [
             {
-                "text": "Il sommo poeta italiano.",
+                "text": "Il più grande poeta italiano, autore della Divina Commedia.",
                 "examples": [
-                    "Dante ha scritto la Divina Commedia."
+                    "Dante è il padre della lingua italiana."
                 ]
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "theme": "places_culture_leisure_A1",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "plural": "Dante Alighieri",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
-        "word": "Michelangelo Buonarroti",
-        "transcription": "mikelˈandʒelo bwɔnarˈrɔti",
-        "subtext": "scultore e pittore",
+        "word": "Albert Einstein",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "👨‍🔬",
         "definitions": [
             {
-                "text": "Grande artista del Rinascimento.",
+                "text": "Un famosissimo scienziato tedesco che visse negli USA.",
                 "examples": [
-                    "Michelangelo ha scolpito il David."
+                    "Albert Einstein era un uomo molto intelligente."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famoso scienziato",
+        "transcription": "ˈalbert ˈainstain",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "plural": "Albert Einstein",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
-        "word": "Galileo Galilei",
-        "transcription": "ɡaliˈlɛo ɡaliˈlɛi",
-        "subtext": "scienziato",
+        "word": "Taylor Swift",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🎤",
         "definitions": [
             {
-                "text": "Il padre della scienza moderna.",
+                "text": "Una famosa cantante e cantautrice americana.",
                 "examples": [
-                    "Galileo osservava le stelle."
+                    "Taylor Swift ha molte canzoni popolari."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famosa cantante",
+        "transcription": "ˈteilor ˈswift",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "plural": "Taylor Swift",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
-        "word": "Cristoforo Colombo",
-        "transcription": "kriˈstɔforo koˈlombo",
-        "subtext": "esploratore",
+        "word": "Cristiano Ronaldo",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "⚽",
         "definitions": [
             {
-                "text": "Esploratore che ha scoperto l'America.",
+                "text": "Un famoso calciatore portoghese.",
                 "examples": [
-                    "Cristoforo Colombo è nato a Genova."
+                    "Cristiano Ronaldo è un atleta molto veloce."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famoso atleta",
+        "transcription": "krisˈtjano roˈnaldo",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "plural": "Cristiano Ronaldo",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
-        "word": "Marco Polo",
-        "transcription": "ˈmarko ˈpɔlo",
-        "subtext": "viaggiatore",
+        "word": "Lionel Messi",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "⚽",
         "definitions": [
             {
-                "text": "Viaggiatore veneziano che andò in Cina.",
+                "text": "Un famoso calciatore argentino.",
                 "examples": [
-                    "Il Milione parla dei viaggi di Marco Polo."
+                    "Lionel Messi gioca in una squadra negli USA ora."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famoso atleta",
+        "transcription": "ljoˈnɛl ˈmessi",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "plural": "Lionel Messi",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     },
     {
-        "word": "Luciano Pavarotti",
-        "transcription": "luˈtʃano pavaˈrɔti",
-        "subtext": "tenore",
+        "word": "Beyoncé",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🎤",
         "definitions": [
             {
-                "text": "Uno dei più grandi tenori del mondo.",
+                "text": "Una famosa cantante e ballerina americana.",
                 "examples": [
-                    "Pavarotti era molto famoso."
+                    "Beyoncé è un'artista di grande successo."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famosa cantante",
+        "transcription": "biˈonse",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "plural": "Beyoncé",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
-        "word": "Federico Fellini",
-        "transcription": "fedeˈriko felˈlini",
-        "subtext": "regista",
+        "word": "Elon Musk",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🚀",
         "definitions": [
             {
-                "text": "Famoso regista cinematografico italiano.",
+                "text": "Un famoso uomo d'affari che costruisce auto elettriche e razzi.",
                 "examples": [
-                    "Fellini ha vinto molti premi."
+                    "Elon Musk è il capo di Tesla e SpaceX."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famoso uomo d'affari",
+        "transcription": "ˈilon ˈmask",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "plural": "Elon Musk",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nell'",
+        "da_article": "dall'"
     },
     {
-        "word": "Enzo Ferrari",
-        "transcription": "ˈɛntso ferˈrari",
-        "subtext": "imprenditore",
+        "word": "Regina Elisabetta II",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "👑",
         "definitions": [
             {
-                "text": "Fondatore della casa automobilistica Ferrari.",
+                "text": "La famosa regina del Regno Unito per un tempo lunghissimo.",
                 "examples": [
-                    "Ferrari amava le auto veloci."
+                    "La Regina Elisabetta II viveva a Buckingham Palace."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famosa regina",
+        "transcription": "reˈdʒina elizaˈbetta seˈkonda",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "plural": "Regine Elisabetta II",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
-        "word": "Sophia Loren",
-        "transcription": "soˈfia ˈlɔren",
-        "subtext": "attrice",
+        "word": "Marie Curie",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🧪",
         "definitions": [
             {
-                "text": "Icona del cinema italiano nel mondo.",
+                "text": "Una famosa scienziata polacca e francese che studiò le radiazioni.",
                 "examples": [
-                    "Sophia Loren è un'attrice premiata."
+                    "Marie Curie fu la prima donna a vincere un Premio Nobel."
                 ]
             }
         ],
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "subtext": "famosa scienziata",
+        "transcription": "maˈri kyˈri",
+        "form": "noun",
+        "gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "plural": "Marie Curie",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nella",
+        "da_article": "dalla"
     },
     {
-        "word": "Guglielmo Marconi",
-        "transcription": "ɡuʎˈʎɛlmo marˈkoni",
-        "subtext": "inventore",
+        "word": "Nelson Mandela",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🇿🇦",
         "definitions": [
             {
-                "text": "Inventore della radio.",
+                "text": "Un famoso leader sudafricano che lottò per la pace e l'uguaglianza.",
                 "examples": [
-                    "Marconi ha vinto il premio Nobel."
+                    "Nelson Mandela è stato il primo presidente nero del Sudafrica."
                 ]
             }
         ],
+        "subtext": "famoso leader",
+        "transcription": "ˈnelson manˈdela",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "plural": "Nelson Mandela",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
+    },
+    {
+        "word": "William Shakespeare",
         "level": "starter",
-        "theme": "personal_identity_A1",
-        "form": "noun"
+        "theme": "places_culture_leisure_A1",
+        "emoji": "✍️",
+        "definitions": [
+            {
+                "text": "Un famoso scrittore inglese che scrisse molte opere teatrali e poesie.",
+                "examples": [
+                    "William Shakespeare scrisse Romeo e Giulietta."
+                ]
+            }
+        ],
+        "subtext": "famoso scrittore",
+        "transcription": "ˈwilljam ˈʃekspir",
+        "form": "noun",
+        "gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "plural": "William Shakespeare",
+        "antonyms": [],
+        "synonyms": [],
+        "in_article": "nel",
+        "da_article": "dal"
     }
 ];
+
     const lang = "it";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

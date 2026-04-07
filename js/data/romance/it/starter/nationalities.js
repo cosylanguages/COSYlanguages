@@ -20,7 +20,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "francese",
@@ -42,7 +44,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "inglese",
@@ -64,7 +68,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "americano",
@@ -86,7 +92,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "spagnolo",
@@ -108,7 +116,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "tedesco",
@@ -130,7 +140,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cinese",
@@ -152,7 +164,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "giapponese",
@@ -174,7 +188,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "russo",
@@ -196,7 +212,9 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "opposite": "straniero",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "nazionalità",
@@ -219,13 +237,13 @@
                 ]
             }
         ],
-        "subtext": "nazionalità italiana, doppia nazionalità"
+        "subtext": "nazionalità italiana, doppia nazionalità",
+        "antonyms": [],
+        "synonyms": []
     }
 ];
 
     const lang = "it";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data.filter(i => i.form === "adjective")];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.nationalitiesData = window.nationalitiesData || {};
+    window.nationalitiesData[lang] = [...(window.nationalitiesData[lang] || []), ...data];
 })();

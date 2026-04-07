@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "médico",
         "level": "starter",
@@ -1016,23 +1015,6 @@
         "article": "hoy",
         "gender": "adverb",
         "transcription": "ˈhoy",
-        "countability": "countable"
-    },
-    {
-        "word": "mañana",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "⏭️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "El día después de hoy.",
-                "examples": []
-            }
-        ],
-        "article": "mañana",
-        "gender": "adverb",
-        "transcription": "ˈmañana",
         "countability": "countable"
     },
     {
@@ -2072,8 +2054,8 @@
         "transcription": ""
     }
 ];
+
     const lang = "es";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-
 })();

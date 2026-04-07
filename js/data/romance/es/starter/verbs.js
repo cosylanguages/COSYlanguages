@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "ser",
         "level": "starter",
@@ -209,29 +208,6 @@
                 "examples": [
                     "Hago café por la mañana.",
                     "Ella toma una decisión."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "hice",
-        "v3": "hecho",
-        "group": "irregular",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "hacer",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "hacer el trabajo / hacer la compra / hacer ejercicio / no hacer nada",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Realizar una acción o actividad.",
-                "examples": [
-                    "Hago mi trabajo todos los días.",
-                    "Ella hace las compras."
                 ]
             }
         ],
@@ -624,32 +600,6 @@
         "auxiliary": "haber"
     },
     {
-        "word": "decir",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "🗣️",
-        "subtext": "decir la verdad / contarle a alguien sobre",
-        "synonyms": [
-            "decirle a alguien",
-            "contar una historia"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dar información o instrucciones a alguien.",
-                "examples": [
-                    "Ella le cuenta al equipo los cambios antes de que ocurran."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "dije",
-        "v3": "dicho",
-        "group": "irregular",
-        "auxiliary": "haber"
-    },
-    {
         "word": "preguntar",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -697,28 +647,6 @@
         "v2": "hablé",
         "v3": "hablado",
         "group": "irregular",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "hablar",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "💬",
-        "subtext": "hablar con alguien / hablar sobre / hablar abiertamente / hablar durante mucho tiempo",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Comunicarse hablando.",
-                "examples": [
-                    "Él habla con su gerente sobre el problema."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "hablé",
-        "v3": "hablado",
-        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1849,34 +1777,6 @@
         "auxiliary": "haber"
     },
     {
-        "word": "mirar",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "👀",
-        "subtext": "mirar",
-        "synonyms": [
-            "buscar",
-            "parecerse a",
-            "parecer feliz"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dirigir tus ojos hacia algo.",
-                "examples": [
-                    "Mira esta foto.",
-                    "Él está buscando sus llaves."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "miré",
-        "v3": "mirado",
-        "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
         "word": "jugar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2132,28 +2032,6 @@
         "auxiliary": "haber"
     },
     {
-        "word": "esperar",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏳",
-        "subtext": "esperar a alguien / esperar en la cola / esperar un momento",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Permanecer en un lugar hasta que algo suceda.",
-                "examples": [
-                    "Esperó veinte minutos para que comenzara la reunión."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "esperé",
-        "v3": "esperado",
-        "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
         "word": "morir",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2361,31 +2239,6 @@
         "aspect": "action",
         "v2": "empujé",
         "v3": "empujado",
-        "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "llevar",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🎒",
-        "subtext": "llevar una bolsa / llevar notas / llevar a cabo",
-        "synonyms": [
-            "continuar"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Sostener y llevar algo contigo.",
-                "examples": [
-                    "Llevo mi portátil y mis notas a cada reunión."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "llevé",
-        "v3": "llevado",
         "group": "ar",
         "auxiliary": "haber"
     },
@@ -2888,28 +2741,6 @@
         "auxiliary": "haber"
     },
     {
-        "word": "volver",
-        "definitions": [
-            {
-                "text": "Regresar a un lugar.",
-                "examples": [
-                    "Vuelve del almuerzo a las dos. Vuelve a casa cansado."
-                ]
-            }
-        ],
-        "subtext": "volver a casa / volver tarde / volver de un viaje",
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "volví",
-        "v3": "vuelto",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "auxiliary": "haber"
-    },
-    {
         "word": "acostarse",
         "definitions": [
             {
@@ -2954,28 +2785,6 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "responder",
-        "definitions": [
-            {
-                "text": "Responder a un mensaje o pregunta.",
-                "examples": [
-                    "Él siempre responde a los correos el mismo día."
-                ]
-            }
-        ],
-        "subtext": "responder a un correo / responder rápido / responder a un mensaje",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "respondí",
-        "v3": "respondido",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
         "auxiliary": "haber"
     },
     {
@@ -3111,28 +2920,6 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "ganar",
-        "definitions": [
-            {
-                "text": "Recibir dinero por el trabajo realizado.",
-                "examples": [
-                    "Ella gana un buen sueldo como gerente de proyectos."
-                ]
-            }
-        ],
-        "subtext": "ganar un sueldo / ganar dinero / ganar más / ganar lo suficiente",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "gané",
-        "v3": "ganado",
-        "theme": "money_payment_A1",
-        "emoji": "💶",
-        "level": "starter",
-        "form": "verb",
-        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -3346,31 +3133,6 @@
         "auxiliary": "haber"
     },
     {
-        "word": "perder",
-        "definitions": [
-            {
-                "text": "No alcanzar una conexión de transporte; o sentirse triste por la ausencia.",
-                "examples": [
-                    "Perdió su tren y tuvo que esperar una hora."
-                ]
-            }
-        ],
-        "subtext": "perder un tren / perder un vuelo / echar de menos a alguien",
-        "synonyms": [
-            "faltar al trabajo"
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "perdí",
-        "v3": "perdido",
-        "theme": "public_transport_A1",
-        "emoji": "🏃‍♂️",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "haber"
-    },
-    {
         "word": "pedir",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3441,31 +3203,6 @@
         "auxiliary": "haber"
     },
     {
-        "word": "presentar",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "🤝",
-        "subtext": "presentar a alguien / presentar un tema",
-        "synonyms": [
-            "presentarse"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Presentar a alguien a otra persona.",
-                "examples": [
-                    "Se presentó al comienzo de la reunión."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "presenté",
-        "v3": "presentado",
-        "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
         "word": "relajarse",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3509,32 +3246,6 @@
         "aspect": "action",
         "v2": "reparé",
         "v3": "reparado",
-        "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "pasar",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "❔",
-        "subtext": "suele pasar / pasar de nuevo",
-        "synonyms": [
-            "qué pasó",
-            "pasarle a alguien"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tener lugar; ocurrir.",
-                "examples": [
-                    "¿Qué pasó en la reunión? Algo salió mal."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "pasó",
-        "v3": "pasado",
         "group": "ar",
         "auxiliary": "haber"
     },
@@ -3827,9 +3538,8 @@
         ]
     }
 ];
+
     const lang = "es";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

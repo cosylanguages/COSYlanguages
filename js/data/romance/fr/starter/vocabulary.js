@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "médecin",
         "level": "starter",
@@ -9352,10 +9351,124 @@
             }
         ],
         "transcription": "natyʁ"
+    },
+    {
+        "word": "page",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "la",
+        "form": "noun",
+        "transcription": "paʒ",
+        "plural": "pages",
+        "gender": "feminine",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "L'un des deux côtés d'une feuille.",
+                "examples": [
+                    "Ouvre ton livre à la page dix."
+                ]
+            }
+        ],
+        "emoji": "📄"
+    },
+    {
+        "word": "tableau",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "le",
+        "form": "noun",
+        "transcription": "tablo",
+        "plural": "tableaux",
+        "gender": "masculine",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Surface pour écrire en classe.",
+                "examples": [
+                    "Le professeur écrit au tableau."
+                ]
+            }
+        ],
+        "emoji": "👩‍🏫"
+    },
+    {
+        "word": "étudiante",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "l'",
+        "form": "noun",
+        "transcription": "etydjɑ̃t",
+        "plural": "étudiantes",
+        "gender": "feminine",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Femme qui étudie à l'université.",
+                "examples": [
+                    "C'est une bonne étudiante."
+                ]
+            }
+        ],
+        "emoji": "👩‍🎓"
+    },
+    {
+        "word": "de rien",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤝",
+        "form": "phrase",
+        "transcription": "də ʁjɛ̃",
+        "definitions": [
+            {
+                "text": "Réponse polie à merci.",
+                "examples": [
+                    "- Merci ! - De rien."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "internet",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "🌐",
+        "form": "noun",
+        "transcription": "ɛ̃tɛʁnɛt",
+        "gender": "masculine",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "Réseau informatique mondial.",
+                "examples": [
+                    "Je navigue sur internet."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nombre",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "article": "le",
+        "form": "noun",
+        "transcription": "nɔ̃bʁ",
+        "plural": "nombres",
+        "gender": "masculine",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Symbole de quantité.",
+                "examples": [
+                    "Le nombre un."
+                ]
+            }
+        ],
+        "emoji": "🔢"
     }
 ];
+
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-
 })();
