@@ -882,15 +882,20 @@ function toggleImmersiveMode(active) {
     const header = document.querySelector('.practice-header');
     const nav = document.getElementById('main-nav');
     const log = document.getElementById('session-log-container');
+    const footer = document.querySelector('footer');
 
     if (active) {
         if (header) header.classList.add('hidden');
         if (nav) nav.classList.add('hidden');
         if (log) log.classList.add('hidden');
+        if (footer) footer.classList.add('hidden');
+        document.body.classList.add('practice-active');
     } else {
         if (header) header.classList.remove('hidden');
         if (nav) nav.classList.remove('hidden');
         if (log) log.classList.remove('hidden');
+        if (footer) footer.classList.remove('hidden');
+        document.body.classList.remove('practice-active');
     }
 }
 
@@ -1527,7 +1532,10 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    // Process items into tasks
+    // Process items into tasks with better variety distribution
+    let lastUsedType = "";
+    let typeStreak = 0;
+
     currentPractice.words = rawItems.map(item => {
         let wordCopy = { ...item };
         let possibleTypes = [...enabledTypes];
@@ -1538,19 +1546,15 @@ function startPractice(isWheelMode = false) {
 
         // Respect preferred type from grammar expansion if it's enabled
         if (wordCopy.type && enabledTypes.includes(wordCopy.type)) {
-            // Verbs can be either Cloze or Multiple Choice
-            if (wordCopy.form === 'verb' && (enabledTypes.includes('type-mc') || enabledTypes.includes('type-cl'))) {
-                // If it's a classification or auxiliary task, keep it as MC for better UX
-                const isClassification = wordCopy.secondaryContext === 'reg_vs_irregular' ||
-                                       wordCopy.secondaryContext === 'stative_vs_action' ||
-                                       wordCopy.secondaryContext === 'Avere vs. Essere' ||
-                                       wordCopy.secondaryContext === 'Avoir vs. Être';
+            const isClassification = wordCopy.secondaryContext === 'reg_vs_irregular' ||
+                                   wordCopy.secondaryContext === 'stative_vs_action' ||
+                                   wordCopy.secondaryContext === 'Avere vs. Essere' ||
+                                   wordCopy.secondaryContext === 'Avoir vs. Être';
 
-                if (isClassification) {
-                    wordCopy.type = 'type-mc';
-                } else if (enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl')) {
-                    wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
-                }
+            if (isClassification) {
+                wordCopy.type = 'type-mc';
+            } else if (wordCopy.form === 'verb' && (enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl'))) {
+                wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
             }
             return wordCopy;
         }
@@ -1559,7 +1563,6 @@ function startPractice(isWheelMode = false) {
         if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'type-op');
         if (!wordCopy.clozeText && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'type-cl');
 
-        // Grammar category specific filtering to avoid task type mismatch
         if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
             possibleTypes = possibleTypes.filter(t => t !== 'type-ga' && t !== 'type-np');
         } else if (wordCopy.form === 'singular_to_plural' || wordCopy.form === 'plural_to_singular') {
@@ -1569,7 +1572,15 @@ function startPractice(isWheelMode = false) {
             if (!wordCopy.plural) possibleTypes = possibleTypes.filter(t => t !== 'type-np');
         }
 
-        const isSentence = wordCopy.word && wordCopy.word.includes(' ');
+        const targetText = wordCopy.answer || wordCopy.word || wordCopy.text || wordCopy.topic || "";
+        const hasSlashes = typeof targetText === 'string' && targetText.includes('/');
+        const isSentence = typeof targetText === 'string' && targetText.trim().includes(' ');
+
+        if (hasSlashes) {
+            // Avoid scrambling items with multiple correct answers (slashes)
+            possibleTypes = possibleTypes.filter(t => t !== 'type-sc' && t !== 'type-ws');
+        }
+
         if (isSentence) {
             possibleTypes = possibleTypes.filter(t => t !== 'type-sc');
             if (wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'type-ws');
@@ -1578,23 +1589,33 @@ function startPractice(isWheelMode = false) {
         }
 
         if (possibleTypes.length === 0) return null;
-        let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+
+        // Variety: try to pick a different type than the last one
+        let selectedType;
+        if (possibleTypes.length > 1 && typeStreak >= 2) {
+            const pool = possibleTypes.filter(t => t !== lastUsedType);
+            selectedType = pool[Math.floor(Math.random() * pool.length)];
+        } else {
+            selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+        }
 
         // SRS integration: check for smart task type upgrade/downgrade
         const itemId = wordCopy.word || wordCopy.text || wordCopy.topic || wordCopy.digit;
         selectedType = smartTaskType(itemId, currentPractice.language, selectedType);
 
-        // Ensure the smart type is actually enabled/possible
         if (!possibleTypes.includes(selectedType)) {
             selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
         }
 
-        // Only swap word and opposite for Opposite tasks to maintain metadata alignment for other types
+        // Only swap word and opposite for Opposite tasks
         if (selectedType === 'type-op' && wordCopy.opposite && Math.random() > 0.5) {
             const originalWord = wordCopy.word;
             wordCopy.word = wordCopy.opposite;
             wordCopy.opposite = originalWord;
         }
+
+        if (selectedType === lastUsedType) typeStreak++;
+        else { typeStreak = 1; lastUsedType = selectedType; }
 
         return { ...wordCopy, type: selectedType };
     }).filter(w => w !== null);
