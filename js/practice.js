@@ -25,7 +25,8 @@ window.updateCategoryUI = function() {
         cb.checked = shouldBeChecked;
         const label = cb.closest('.toggle-chip');
         if (label) {
-            label.style.display = isAvailable ? 'block' : 'none';
+            if (isAvailable) label.classList.remove('hidden');
+            else label.classList.add('hidden');
         }
     };
 
@@ -109,7 +110,7 @@ function populatePracticeThemes(categoryId) {
     const subThemeSelect = document.getElementById('practice-sub-theme');
     const subThemeGroup = document.querySelector('.sub-theme-group');
     if (subThemeSelect) subThemeSelect.innerHTML = '';
-    if (subThemeGroup) subThemeGroup.style.display = 'none';
+    if (subThemeGroup) subThemeGroup.classList.add('hidden');
 
     const allOpt = document.createElement('option');
     allOpt.value = 'all';
@@ -213,7 +214,7 @@ function populateSubThemes() {
     subThemeSelect.innerHTML = '';
 
     if (selectedTheme === 'all') {
-        subThemeGroup.style.display = 'none';
+        subThemeGroup.classList.add('hidden');
         updateThemeDescription();
         return;
     }
@@ -221,7 +222,7 @@ function populateSubThemes() {
     if (categoryId === 'grammar') {
         const tenses = ['grammar_present_simple', 'grammar_past_simple', 'grammar_future_simple'];
         if (tenses.includes(selectedTheme)) {
-            subThemeGroup.style.display = 'block';
+            subThemeGroup.classList.remove('hidden');
 
             const allOpt = document.createElement('option');
             allOpt.value = 'all';
@@ -250,7 +251,7 @@ function populateSubThemes() {
         }
 
         if (selectedTheme === 'grammar_adjectives') {
-            subThemeGroup.style.display = 'block';
+            subThemeGroup.classList.remove('hidden');
             const allOpt = document.createElement('option');
             allOpt.value = 'all';
             allOpt.textContent = t['theme_all'] || 'All';
@@ -277,14 +278,14 @@ function populateSubThemes() {
     }
 
     if (selectedLevel === 'all') {
-        subThemeGroup.style.display = 'none';
+        subThemeGroup.classList.add('hidden');
         updateThemeDescription();
         return;
     }
 
     const config = themeConfig[selectedLevel];
     if (config && config.common_themes && config.common_themes[selectedTheme]) {
-        subThemeGroup.style.display = 'block';
+        subThemeGroup.classList.remove('hidden');
 
         // Add "All Sub-Themes"
         const allOpt = document.createElement('option');
@@ -302,7 +303,7 @@ function populateSubThemes() {
             subThemeSelect.appendChild(opt);
         });
     } else {
-        subThemeGroup.style.display = 'none';
+        subThemeGroup.classList.add('hidden');
     }
 
     updateThemeDescription();
@@ -321,7 +322,7 @@ function updateThemeDescription() {
     const t = translations[lang] || translations['en'] || {};
 
     if (level === 'all') {
-        descEl.style.display = 'none';
+        descEl.classList.add('hidden');
         return;
     }
 
@@ -338,9 +339,9 @@ function updateThemeDescription() {
 
     if (descKey && t[descKey]) {
         descEl.textContent = t[descKey];
-        descEl.style.display = 'block';
+        descEl.classList.remove('hidden');
     } else {
-        descEl.style.display = 'none';
+        descEl.classList.add('hidden');
     }
 }
 
@@ -363,8 +364,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('embedded-mode');
         const header = document.querySelector('header');
         const footer = document.querySelector('footer');
-        if (header) header.style.display = 'none';
-        if (footer) footer.style.display = 'none';
+        if (header) header.classList.add('hidden');
+        if (footer) footer.classList.add('hidden');
         // Adjust main padding if needed
         const main = document.querySelector('main');
         if (main) main.style.paddingTop = '20px';
@@ -440,7 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (closeDefinitionBtn) {
         closeDefinitionBtn.addEventListener('click', () => {
-            document.getElementById('definition-modal').style.display = 'none';
+            document.getElementById('definition-modal').classList.add('hidden');
         });
     }
 
@@ -448,7 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (definitionModal) {
         definitionModal.addEventListener('click', (e) => {
             if (e.target === definitionModal) {
-                definitionModal.style.display = 'none';
+                definitionModal.classList.add('hidden');
             }
         });
     }
@@ -501,11 +502,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = currentPractice.language;
             const confirmMsg = (translations[lang] && translations[lang]['exit_confirm']) ? translations[lang]['exit_confirm'] : "Exit practice and return to menu?";
             window.gameUtils.showGameConfirm(confirmMsg, () => {
-                document.getElementById('practice-section').style.display = 'none';
-                document.getElementById('setup-section').style.display = 'block';
+                document.getElementById('practice-section').classList.add('hidden');
+                document.getElementById('setup-section').classList.remove('hidden');
                 // Update resume button visibility since we now have a saved session
                 const resumeBtn = document.getElementById('resume-btn');
-                if (resumeBtn) resumeBtn.style.display = 'inline-block';
+                if (resumeBtn) resumeBtn.classList.remove('hidden');
                 window.scrollTo(0, 0);
             });
         });
@@ -557,8 +558,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const wheelRespondBtn = document.getElementById('wheel-respond-btn');
     if (wheelRespondBtn) {
         wheelRespondBtn.addEventListener('click', () => {
-            document.getElementById('wheel-container').style.display = 'none';
-            document.getElementById('question-card').style.display = 'block';
+            document.getElementById('wheel-container').classList.add('hidden');
+            document.getElementById('question-card').classList.remove('hidden');
             showNextWord();
         });
     }
@@ -572,7 +573,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentPractice.wheelItems.length === 0) {
                 showSummary();
             } else {
-                document.getElementById('wheel-question-area').style.display = 'none';
+                document.getElementById('wheel-question-area').classList.add('hidden');
                 initWheel();
             }
         });
@@ -590,7 +591,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentPractice.wheelItems.length === 0) {
                 showSummary();
             } else {
-                document.getElementById('wheel-question-area').style.display = 'none';
+                document.getElementById('wheel-question-area').classList.add('hidden');
                 initWheel();
             }
         });
@@ -647,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
             resumePractice();
         });
         if (loadSession()) {
-            resumeBtn.style.display = 'inline-block';
+            resumeBtn.classList.remove('hidden');
         }
     }
 
@@ -725,15 +726,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const summaryModal = document.getElementById('summary-modal');
 
             // Don't trigger if setup is visible or summary is open
-            if ((setupSection && setupSection.style.display !== 'none') ||
-                (summaryModal && summaryModal.style.display === 'flex')) {
+            if ((setupSection && !setupSection.classList.contains('hidden')) ||
+                (summaryModal && !summaryModal.classList.contains('hidden'))) {
                 return;
             }
 
-            if (nextBtn && nextBtn.style.display === 'block') {
+            if (nextBtn && !nextBtn.classList.contains('hidden')) {
                 nextBtn.click();
                 e.preventDefault();
-            } else if (checkBtn && checkBtn.style.display !== 'none' && !checkBtn.disabled) {
+            } else if (checkBtn && !checkBtn.classList.contains('hidden') && !checkBtn.disabled) {
                 checkBtn.click();
                 e.preventDefault();
             }
@@ -752,9 +753,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (currentPractice.wheelItems.length === 0) {
                         showSummary();
                     } else {
-                        document.getElementById('question-card').style.display = 'none';
-                        document.getElementById('wheel-container').style.display = 'block';
-                        document.getElementById('wheel-question-area').style.display = 'none';
+                        document.getElementById('question-card').classList.add('hidden');
+                        document.getElementById('wheel-container').classList.remove('hidden');
+                        document.getElementById('wheel-question-area').classList.add('hidden');
                         initWheel();
                     }
                 } else {
@@ -800,11 +801,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (backToMenuBtn) {
         backToMenuBtn.addEventListener('click', () => {
-            document.getElementById('summary-modal').style.display = 'none';
-            document.getElementById('setup-section').style.display = 'block';
+            document.getElementById('summary-modal').classList.add('hidden');
+            document.getElementById('setup-section').classList.remove('hidden');
             clearSession();
             loadStreak();
-            if (resumeBtn) resumeBtn.style.display = 'none';
+            if (resumeBtn) resumeBtn.classList.add('hidden');
         });
     }
 
@@ -1577,25 +1578,25 @@ function startPractice(isWheelMode = false) {
         }
     }
 
-    document.getElementById('setup-section').style.display = 'none';
-    document.getElementById('practice-section').style.display = 'block';
+    document.getElementById('setup-section').classList.add('hidden');
+    document.getElementById('practice-section').classList.remove('hidden');
 
     if (window.GameSessionManager) {
         GameSessionManager.recordSession('Practice', '💡');
     }
 
     if (isWheelMode) {
-        document.getElementById('wheel-container').style.display = 'block';
-        document.getElementById('question-card').style.display = 'none';
-        document.getElementById('practice-progress').style.display = 'none';
-        document.getElementById('progress-text').style.display = 'none';
+        document.getElementById('wheel-container').classList.remove('hidden');
+        document.getElementById('question-card').classList.add('hidden');
+        document.getElementById('practice-progress').classList.add('hidden');
+        document.getElementById('progress-text').classList.add('hidden');
         currentPractice.wheelItems = [...currentPractice.words];
         initWheel();
     } else {
-        document.getElementById('wheel-container').style.display = 'none';
-        document.getElementById('question-card').style.display = 'block';
-        document.getElementById('practice-progress').style.display = 'block';
-        document.getElementById('progress-text').style.display = 'block';
+        document.getElementById('wheel-container').classList.add('hidden');
+        document.getElementById('question-card').classList.remove('hidden');
+        document.getElementById('practice-progress').classList.remove('hidden');
+        document.getElementById('progress-text').classList.remove('hidden');
         updateProgress();
         showNextWord();
     }
@@ -1700,7 +1701,7 @@ function spinWheel() {
 }
 
 function showWheelQuestion(wordObj) {
-    document.getElementById('wheel-question-area').style.display = 'block';
+    document.getElementById('wheel-question-area').classList.remove('hidden');
     document.getElementById('wheel-emoji-display').textContent = wordObj.emoji || "💬";
     document.getElementById('wheel-word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
 
@@ -1708,9 +1709,9 @@ function showWheelQuestion(wordObj) {
     if (subtextEl) {
         if (wordObj.subtext) {
             subtextEl.textContent = wordObj.subtext;
-            subtextEl.style.display = 'block';
+            subtextEl.classList.remove('hidden');
         } else {
-            subtextEl.style.display = 'none';
+            subtextEl.classList.add('hidden');
         }
     }
 
@@ -1720,16 +1721,16 @@ function showWheelQuestion(wordObj) {
 
 function resumePractice() {
     if (currentPractice.isWheelMode) {
-        document.getElementById('wheel-container').style.display = 'block';
-        document.getElementById('question-card').style.display = 'none';
-        document.getElementById('practice-progress').style.display = 'none';
-        document.getElementById('progress-text').style.display = 'none';
+        document.getElementById('wheel-container').classList.remove('hidden');
+        document.getElementById('question-card').classList.add('hidden');
+        document.getElementById('practice-progress').classList.add('hidden');
+        document.getElementById('progress-text').classList.add('hidden');
         initWheel();
     } else {
-        document.getElementById('wheel-container').style.display = 'none';
-        document.getElementById('question-card').style.display = 'block';
-        document.getElementById('practice-progress').style.display = 'block';
-        document.getElementById('progress-text').style.display = 'block';
+        document.getElementById('wheel-container').classList.add('hidden');
+        document.getElementById('question-card').classList.remove('hidden');
+        document.getElementById('practice-progress').classList.remove('hidden');
+        document.getElementById('progress-text').classList.remove('hidden');
     }
 
     if (typeof setLanguage === 'function') {
@@ -1741,8 +1742,8 @@ function resumePractice() {
     }
 
     document.getElementById('score-count').textContent = currentPractice.score;
-    document.getElementById('setup-section').style.display = 'none';
-    document.getElementById('practice-section').style.display = 'block';
+    document.getElementById('setup-section').classList.add('hidden');
+    document.getElementById('practice-section').classList.remove('hidden');
 
     if (!currentPractice.isWheelMode) {
         updateProgress();
@@ -1752,7 +1753,13 @@ function resumePractice() {
 
 function showWordDefinition() {
     const wordObj = currentPractice.currentWord;
-    if (!wordObj || !wordObj.definitions || wordObj.definitions.length === 0) return;
+    if (!wordObj) return;
+
+    const hasDefinitions = wordObj.definitions && wordObj.definitions.length > 0;
+    const isVerbRelated = (wordObj.form === 'verb' || wordObj.form === 'verb_form' || wordObj.verb);
+    const hasVerbMeta = isVerbRelated && (wordObj.group || wordObj.v2 || wordObj.v3 || wordObj.past_participle);
+
+    if (!hasDefinitions && !hasVerbMeta) return;
 
     const modal = document.getElementById('definition-modal');
     const content = document.getElementById('definition-content');
@@ -1770,17 +1777,27 @@ function showWordDefinition() {
     const header = document.createElement('div');
     header.className = 'definition-header';
 
-    // Image logic
+    // Visual asset logic (Emoji priority, then Image)
     const imgContainer = document.createElement('div');
     imgContainer.className = 'definition-image-container';
-    const img = document.createElement('img');
-    img.className = 'definition-image';
     const displayWord = wordObj.word || wordObj.text || wordObj.topic || "";
-    // Use wordObj.image if it exists; otherwise use a placeholder
-    img.src = wordObj.image || `https://placehold.co/150?text=${encodeURIComponent(displayWord)}`;
-    img.alt = displayWord;
-    imgContainer.appendChild(img);
-    header.appendChild(imgContainer);
+
+    if (wordObj.emoji) {
+        const emojiEl = document.createElement('div');
+        emojiEl.className = 'definition-emoji-large';
+        emojiEl.textContent = wordObj.emoji;
+        imgContainer.appendChild(emojiEl);
+        header.appendChild(imgContainer);
+    } else if (wordObj.image) {
+        const img = document.createElement('img');
+        img.className = 'definition-image';
+        img.src = wordObj.image;
+        img.alt = displayWord;
+        imgContainer.appendChild(img);
+        header.appendChild(imgContainer);
+    } else {
+        // No visual asset: skip imgContainer
+    }
 
     // Word Info
     const wordInfo = document.createElement('div');
@@ -1882,7 +1899,7 @@ function showWordDefinition() {
         content.appendChild(footer);
     }
 
-    modal.style.display = 'flex';
+    modal.classList.remove('hidden');
     if (typeof setLanguage === 'function') setLanguage(lang);
 }
 
@@ -1905,15 +1922,20 @@ function showNextWord() {
     currentPractice.isCorrect = false;
 
     document.getElementById('feedback-message').textContent = '';
-    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('next-btn').classList.add('hidden');
     document.getElementById('opposite-answer').value = '';
-    document.getElementById('opposite-input-container').style.display = 'none';
-    document.getElementById('action-buttons-container').style.display = 'none';
-    document.getElementById('tf-buttons-container').style.display = 'none';
-    document.getElementById('choices-grid').style.display = 'none';
-    document.getElementById('scramble-container').style.display = 'none';
-    document.getElementById('conversation-container').style.display = 'none';
-    document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
+    document.getElementById('opposite-input-container').classList.add('hidden');
+    document.getElementById('action-buttons-container').classList.add('hidden');
+    document.getElementById('tf-buttons-container').classList.add('hidden');
+    document.getElementById('choices-grid').classList.add('hidden');
+    document.getElementById('scramble-container').classList.add('hidden');
+    document.getElementById('conversation-container').classList.add('hidden');
+
+    if (wordObj.type === 'type-tf' || wordObj.type === 'type-cv') {
+        document.getElementById('hint-btn').classList.add('hidden');
+    } else {
+        document.getElementById('hint-btn').classList.remove('hidden');
+    }
 
     // Show "What to do" instruction
     const wtdEl = document.getElementById('task-what-to-do');
@@ -1939,10 +1961,10 @@ function showNextWord() {
         const wtdKey = `wtd_${typeKey}`;
         if (translations[lang] && translations[lang][wtdKey]) {
             wtdEl.textContent = translations[lang][wtdKey];
-            wtdEl.style.display = 'inline-block';
+            wtdEl.classList.remove('hidden');
             wtdEl.setAttribute('data-translate-key', wtdKey);
         } else {
-            wtdEl.style.display = 'none';
+            wtdEl.classList.add('hidden');
         }
     }
 
@@ -1979,9 +2001,9 @@ function showNextWord() {
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
             exampleEl.textContent = translations[lang][exampleKey];
-            exampleEl.style.display = 'inline-block';
+            exampleEl.classList.remove('hidden');
         } else {
-            exampleEl.style.display = 'none';
+            exampleEl.classList.add('hidden');
         }
     }
 
@@ -1989,9 +2011,9 @@ function showNextWord() {
     if (subtextEl) {
         if (wordObj.subtext) {
             subtextEl.textContent = wordObj.subtext;
-            subtextEl.style.display = 'block';
+            subtextEl.classList.remove('hidden');
         } else {
-            subtextEl.style.display = 'none';
+            subtextEl.classList.add('hidden');
         }
     }
 
@@ -2001,7 +2023,7 @@ function showNextWord() {
     const levelBadge = document.getElementById('word-level');
 
     if (wordObj.form || wordObj.level || wordObj.classification || wordObj.aspect || wordObj.group) {
-        metaContainer.style.display = 'flex';
+        metaContainer.classList.remove('hidden');
         metaContainer.innerHTML = ''; // Clear existing badges
         const lang = currentPractice.language;
 
@@ -2033,11 +2055,11 @@ function showNextWord() {
             addBadge(`${levelLabel}: ${wordObj.level}`, 'level-badge');
         }
     } else {
-        metaContainer.style.display = 'none';
+        metaContainer.classList.add('hidden');
     }
 
     const subtextDisplay = document.getElementById('subtext-display');
-    if (subtextDisplay) subtextDisplay.style.display = 'none'; // Default hide
+    if (subtextDisplay) subtextDisplay.classList.add('hidden'); // Default hide
 
     if (wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
         const isListen = wordObj.type === 'type-ls';
@@ -2053,13 +2075,14 @@ function showNextWord() {
         const subDisplay = document.getElementById('subtext-display');
         if (subDisplay) {
             subDisplay.textContent = sub || "";
-            subDisplay.style.display = sub ? 'block' : 'none';
+            if (sub) subDisplay.classList.remove('hidden');
+            else subDisplay.classList.add('hidden');
         }
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
-        document.getElementById('choices-grid').style.display = 'grid';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'none'; // Not needed for MC
+        document.getElementById('choices-grid').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.add('hidden'); // Not needed for MC
         renderMultipleChoice();
         if (isListen) {
             setTimeout(speakWord, 500);
@@ -2078,21 +2101,22 @@ function showNextWord() {
         const subDisplay = document.getElementById('subtext-display');
         if (subDisplay) {
             subDisplay.textContent = sub || "";
-            subDisplay.style.display = sub ? 'block' : 'none';
+            if (sub) subDisplay.classList.remove('hidden');
+            else subDisplay.classList.add('hidden');
         }
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
-        document.getElementById('opposite-input-container').style.display = 'flex';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'inline-block';
+        document.getElementById('opposite-input-container').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.remove('hidden');
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'type-sc' || wordObj.type === 'type-ws') {
         document.getElementById('word-display').textContent = '???';
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-ws' ? 'task_word_scramble' : 'task_scramble');
-        document.getElementById('scramble-container').style.display = 'block';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'none'; // Auto-checked
+        document.getElementById('scramble-container').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.add('hidden'); // Auto-checked
         if (wordObj.type === 'type-ws') {
             renderWordScramble();
         } else {
@@ -2102,9 +2126,9 @@ function showNextWord() {
         document.getElementById('word-display').textContent = wordObj.baseWord || wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
-        document.getElementById('choices-grid').style.display = 'grid';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'none';
+        document.getElementById('choices-grid').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.add('hidden');
         renderGenderArticles();
     } else if (wordObj.type === 'type-tf') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
@@ -2121,21 +2145,21 @@ function showNextWord() {
         }
 
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
-        document.getElementById('tf-buttons-container').style.display = 'flex';
+        document.getElementById('tf-buttons-container').classList.remove('hidden');
     } else if (wordObj.type === 'type-cv') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
-        document.getElementById('conversation-container').style.display = 'block';
+        document.getElementById('conversation-container').classList.remove('hidden');
         document.getElementById('conversation-response').value = '';
         document.getElementById('conversation-response').focus();
     } else if (wordObj.type === 'type-op') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         document.getElementById('emoji-display').textContent = wordObj.emoji || "💡";
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
-        document.getElementById('opposite-input-container').style.display = 'flex';
-        document.getElementById('action-buttons-container').style.display = 'flex';
-        document.getElementById('check-opposite-btn').style.display = 'inline-block';
+        document.getElementById('opposite-input-container').classList.remove('hidden');
+        document.getElementById('action-buttons-container').classList.remove('hidden');
+        document.getElementById('check-opposite-btn').classList.remove('hidden');
         document.getElementById('opposite-answer').focus();
     }
 
@@ -2146,7 +2170,11 @@ function showNextWord() {
     // Add definition hint
     const wordDisplay = document.getElementById('word-display');
     if (wordDisplay) {
-        if (wordObj.definitions && wordObj.definitions.length > 0) {
+        const hasDefinitions = wordObj.definitions && wordObj.definitions.length > 0;
+        const isVerbRelated = (wordObj.form === 'verb' || wordObj.form === 'verb_form' || wordObj.verb);
+        const hasVerbMeta = isVerbRelated && (wordObj.group || wordObj.v2 || wordObj.v3 || wordObj.past_participle);
+
+        if (hasDefinitions || hasVerbMeta) {
             wordDisplay.classList.add('has-definition');
             wordDisplay.title = (translations[currentPractice.language] && translations[currentPractice.language]['click_for_definition']) || "Click for definition";
         } else {
@@ -2266,7 +2294,10 @@ function renderScramble() {
     wordAssembly.textContent = '';
     currentPractice.scrambleAnswer = '';
 
-    const wordToScramble = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).replace(/\s/g, '');
+    // Strip punctuation and spaces for letter scramble
+    const wordToScramble = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic)
+        .replace(/[.,!?;:\-]/g, '')
+        .replace(/\s/g, '');
     const letters = wordToScramble.split('').sort(() => Math.random() - 0.5);
 
     letters.forEach(letter => {
@@ -2296,10 +2327,13 @@ function renderWordScramble() {
     currentPractice.scrambleAnswerWords = [];
 
     // For Sentence Builder, we always use the full sentence
-    const sentence = wordObj.word || wordObj.text || wordObj.topic;
-    const words = sentence.split(' ').sort(() => Math.random() - 0.5);
+    const sentence = (wordObj.word || wordObj.text || wordObj.topic).trim();
 
-    words.forEach(word => {
+    // Split by whitespace and filter out empty strings
+    const words = sentence.split(/\s+/).filter(w => w.length > 0);
+    const shuffledWords = [...words].sort(() => Math.random() - 0.5);
+
+    shuffledWords.forEach(word => {
         const btn = document.createElement('button');
         btn.className = 'choice-btn';
         btn.textContent = word;
@@ -2310,7 +2344,7 @@ function renderWordScramble() {
             wordAssembly.textContent = currentPractice.scrambleAnswerWords.join(' ');
             btn.disabled = true;
             btn.style.opacity = '0.3';
-            if (currentPractice.scrambleAnswerWords.length === sentence.split(' ').length) {
+            if (currentPractice.scrambleAnswerWords.length === words.length) {
                 checkWordScrambleAnswer();
             }
         };
@@ -2328,7 +2362,10 @@ function clearScramble() {
 
 function checkScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
-    const target = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).replace(/\s/g, '').toLowerCase();
+    const target = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic)
+        .replace(/[.,!?;:\-]/g, '')
+        .replace(/\s/g, '')
+        .toLowerCase();
     const current = currentPractice.scrambleAnswer.toLowerCase();
 
     if (current === target) {
@@ -2346,8 +2383,19 @@ function checkScrambleAnswer() {
 
 function checkWordScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
-    const target = (wordObj.word || wordObj.text || wordObj.topic).toLowerCase().replace(/[.!?]/g, '').trim();
-    const current = currentPractice.scrambleAnswerWords.join(' ').toLowerCase().replace(/[.!?]/g, '').trim();
+    // Normalize target: remove punctuation and multiple spaces
+    const target = (wordObj.word || wordObj.text || wordObj.topic)
+        .toLowerCase()
+        .replace(/[.,!?;:\-]+/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+    const current = currentPractice.scrambleAnswerWords
+        .join(' ')
+        .toLowerCase()
+        .replace(/[.,!?;:\-]+/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
 
     if (current === target) {
         showFeedback(true);
@@ -2363,24 +2411,25 @@ function checkWordScrambleAnswer() {
 }
 
 function checkTypedAnswer() {
-    const userAnswer = document.getElementById('opposite-answer').value.trim().toLowerCase();
+    const normalize = (s) => s.toLowerCase().replace(/[.,!?;:\-]/g, '').replace(/\s+/g, ' ').trim();
+    const userAnswer = normalize(document.getElementById('opposite-answer').value);
     let correctAnswer;
 
     const type = currentPractice.currentWord.type;
     if (type === 'type-cl' || type === 'type-np') {
-        correctAnswer = (currentPractice.currentWord.answer || "").toLowerCase();
+        correctAnswer = (currentPractice.currentWord.answer || "");
     } else if (type === 'type-op') {
-        correctAnswer = (currentPractice.currentWord.opposite || "").toLowerCase();
+        correctAnswer = (currentPractice.currentWord.opposite || "");
     } else {
         // Fallback for other types that might reach here
         const w = currentPractice.currentWord;
-        correctAnswer = (w.answer || w.word || w.text || w.topic || "").toLowerCase();
+        correctAnswer = (w.answer || w.word || w.text || w.topic || "");
     }
 
-    const possibleAnswers = correctAnswer.split(' / ').map(a => a.trim().toLowerCase());
+    const possibleAnswers = correctAnswer.split(' / ').map(a => normalize(a));
 
-    // User is correct if they type any of the valid alternatives separated by " / " or the full string
-    const isCorrect = possibleAnswers.some(a => a === userAnswer) || (correctAnswer.includes(' / ') && userAnswer === correctAnswer);
+    // User is correct if they type any of the valid alternatives
+    const isCorrect = possibleAnswers.some(a => a === userAnswer);
 
     if (isCorrect) {
         showFeedback(true);
@@ -2411,7 +2460,7 @@ function showSummary() {
     updateStreak();
     clearSession();
     const resumeBtn = document.getElementById('resume-btn');
-    if (resumeBtn) resumeBtn.style.display = 'none';
+    if (resumeBtn) resumeBtn.classList.add('hidden');
 
     const finalScoreEl = document.getElementById('final-score');
     const finalTotalScoreEl = document.getElementById('final-total-score');
@@ -2432,8 +2481,8 @@ function showSummary() {
         streakUnitEl.setAttribute('data-translate-key', dayKey);
     }
 
-    if (summaryModal) summaryModal.style.display = 'flex';
-    if (practiceSection) practiceSection.style.display = 'none';
+    if (summaryModal) summaryModal.classList.remove('hidden');
+    if (practiceSection) practiceSection.classList.add('hidden');
 
     window.gameUtils.createConfetti();
 }
@@ -2473,15 +2522,15 @@ function showFeedback(isCorrect) {
         }
 
         currentPractice.isCorrect = true;
-        document.getElementById('next-btn').style.display = 'block';
+        document.getElementById('next-btn').classList.remove('hidden');
 
         saveSession();
-        document.getElementById('opposite-input-container').style.display = 'none';
-        document.getElementById('action-buttons-container').style.display = 'none';
-        document.getElementById('tf-buttons-container').style.display = 'none';
-        document.getElementById('choices-grid').style.display = 'none';
-        document.getElementById('scramble-container').style.display = 'none';
-        document.getElementById('conversation-container').style.display = 'none';
-        document.getElementById('hint-btn').style.display = 'none';
+        document.getElementById('opposite-input-container').classList.add('hidden');
+        document.getElementById('action-buttons-container').classList.add('hidden');
+        document.getElementById('tf-buttons-container').classList.add('hidden');
+        document.getElementById('choices-grid').classList.add('hidden');
+        document.getElementById('scramble-container').classList.add('hidden');
+        document.getElementById('conversation-container').classList.add('hidden');
+        document.getElementById('hint-btn').classList.add('hidden');
     }
 }
