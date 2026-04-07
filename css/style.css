@@ -898,16 +898,16 @@ footer {
 /* Improved Question Card and Animations */
 #question-card {
     margin: 1.5rem auto;
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 1);
-    padding: 2.5rem 1.5rem;
+    background-color: #fff;
+    border: 1px solid var(--border);
+    padding: 3rem 2rem;
     border-radius: 40px;
     animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
 }
 
 .shake {
@@ -981,10 +981,45 @@ footer {
 /* Multiple Choice Grid */
 .choices-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1.2rem;
-    max-width: 480px;
+    width: 100%;
+    max-width: 520px;
     margin: 0 auto 1.5rem;
+}
+
+/* Base style for session container to ensure it's not hidden if correctly targeted */
+#practice-section {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding-top: 20px;
+}
+
+.session-stats-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 800;
+    color: var(--sage-dark);
+    margin-bottom: 15px;
+}
+
+.session-progress-mobile {
+    width: 100%;
+    max-width: 600px;
+    height: 6px;
+    background: var(--sage-pale);
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+.session-progress-fill {
+    height: 100%;
+    background: var(--sage);
+    width: 0%;
+    transition: width 0.3s ease;
 }
 
 .choice-btn {

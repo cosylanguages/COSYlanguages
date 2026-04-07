@@ -504,6 +504,9 @@ document.addEventListener('DOMContentLoaded', () => {
             window.gameUtils.showGameConfirm(confirmMsg, () => {
                 document.getElementById('practice-section').classList.add('hidden');
                 document.getElementById('setup-section').classList.remove('hidden');
+
+                toggleImmersiveMode(false);
+
                 // Update resume button visibility since we now have a saved session
                 const resumeBtn = document.getElementById('resume-btn');
                 if (resumeBtn) resumeBtn.classList.remove('hidden');
@@ -875,6 +878,39 @@ function playSound(isCorrect) {
     audio.play().catch(e => {});
 }
 
+function toggleImmersiveMode(active) {
+    const header = document.querySelector('.practice-header');
+    const nav = document.getElementById('main-nav');
+    const log = document.getElementById('session-log-container');
+
+    if (active) {
+        if (header) header.classList.add('hidden');
+        if (nav) nav.classList.add('hidden');
+        if (log) log.classList.add('hidden');
+    } else {
+        if (header) header.classList.remove('hidden');
+        if (nav) nav.classList.remove('hidden');
+        if (log) log.classList.remove('hidden');
+    }
+}
+
+function setWordDisplayWithDeduplication(text, sub) {
+    const display = document.getElementById('word-display');
+    const subDisplay = document.getElementById('subtext-display');
+
+    if (display) display.textContent = text;
+
+    if (subDisplay) {
+        // Deduplicate subtext if it's already in the main prompt
+        if (sub && !text.includes(sub)) {
+            subDisplay.textContent = sub;
+            subDisplay.classList.remove('hidden');
+        } else {
+            subDisplay.classList.add('hidden');
+        }
+    }
+}
+
 function updateProgress() {
     const progressFill = document.getElementById('progress-fill');
     const progressText = document.getElementById('progress-text');
@@ -890,13 +926,22 @@ function updateProgress() {
     const displayIndex = current < total ? current + 1 : total;
     const percentage = total > 0 ? (current / total) * 100 : 0;
 
-    progressFill.style.width = percentage + '%';
+    if (progressFill) progressFill.style.width = percentage + '%';
 
     const lang = currentPractice.language;
     const wordLabel = (translations[lang] && translations[lang]['progress_word']) ? translations[lang]['progress_word'] : 'Word';
     const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
 
     progressText.textContent = `${wordLabel} ${displayIndex} ${ofLabel} ${total}`;
+
+    // Sync header stats for all devices
+    const mobileProgressFill = document.querySelector('.session-progress-fill');
+    if (mobileProgressFill) mobileProgressFill.style.width = percentage + '%';
+
+    const mobileScore = document.getElementById('mobile-score-display');
+    const mobileStreak = document.getElementById('mobile-streak-display');
+    if (mobileScore) mobileScore.textContent = `✨ ${currentPractice.score}`;
+    if (mobileStreak) mobileStreak.textContent = `🔥 ${loadStreak()}`;
 
     // Mobile UX: update progress bar
     if (typeof updateProgressBar === 'function') {
@@ -1511,12 +1556,6 @@ function startPractice(isWheelMode = false) {
         }
 
         possibleTypes = possibleTypes.filter(t => t !== 'type-cv');
-        if (wordCopy.opposite && Math.random() > 0.5) {
-            const originalWord = wordCopy.word;
-            wordCopy.word = wordCopy.opposite;
-            wordCopy.opposite = originalWord;
-        }
-
         if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'type-op');
         if (!wordCopy.clozeText && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'type-cl');
 
@@ -1550,6 +1589,13 @@ function startPractice(isWheelMode = false) {
             selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
         }
 
+        // Only swap word and opposite for Opposite tasks to maintain metadata alignment for other types
+        if (selectedType === 'type-op' && wordCopy.opposite && Math.random() > 0.5) {
+            const originalWord = wordCopy.word;
+            wordCopy.word = wordCopy.opposite;
+            wordCopy.opposite = originalWord;
+        }
+
         return { ...wordCopy, type: selectedType };
     }).filter(w => w !== null);
 
@@ -1580,6 +1626,8 @@ function startPractice(isWheelMode = false) {
 
     document.getElementById('setup-section').classList.add('hidden');
     document.getElementById('practice-section').classList.remove('hidden');
+
+    toggleImmersiveMode(true);
 
     if (window.GameSessionManager) {
         GameSessionManager.recordSession('Practice', '💡');
@@ -1744,6 +1792,8 @@ function resumePractice() {
     document.getElementById('score-count').textContent = currentPractice.score;
     document.getElementById('setup-section').classList.add('hidden');
     document.getElementById('practice-section').classList.remove('hidden');
+
+    toggleImmersiveMode(true);
 
     if (!currentPractice.isWheelMode) {
         updateProgress();
@@ -2071,13 +2121,8 @@ function showNextWord() {
             text = "???";
         }
 
-        document.getElementById('word-display').textContent = text;
-        const subDisplay = document.getElementById('subtext-display');
-        if (subDisplay) {
-            subDisplay.textContent = sub || "";
-            if (sub) subDisplay.classList.remove('hidden');
-            else subDisplay.classList.add('hidden');
-        }
+        setWordDisplayWithDeduplication(text, sub);
+
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').classList.remove('hidden');
@@ -2097,13 +2142,8 @@ function showNextWord() {
             text = "???";
         }
 
-        document.getElementById('word-display').textContent = text;
-        const subDisplay = document.getElementById('subtext-display');
-        if (subDisplay) {
-            subDisplay.textContent = sub || "";
-            if (sub) subDisplay.classList.remove('hidden');
-            else subDisplay.classList.add('hidden');
-        }
+        setWordDisplayWithDeduplication(text, sub);
+
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').classList.remove('hidden');
@@ -2483,6 +2523,8 @@ function showSummary() {
 
     if (summaryModal) summaryModal.classList.remove('hidden');
     if (practiceSection) practiceSection.classList.add('hidden');
+
+    toggleImmersiveMode(false);
 
     window.gameUtils.createConfetti();
 }
