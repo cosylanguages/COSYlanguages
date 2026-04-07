@@ -863,11 +863,19 @@ function showHint() {
 }
 
 function speakWord() {
-    if (!currentPractice.currentWord) return;
-    const text = (currentPractice.currentWord.type === 'type-ga' && currentPractice.currentWord.baseWord)
-        ? currentPractice.currentWord.baseWord
-        : (currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.baseWord);
-    window.gameUtils.speak(text, currentPractice.language);
+    const wordObj = currentPractice.currentWord;
+    if (!wordObj) return;
+
+    // For grammar/cloze tasks, we speak the prompt (cue) rather than the answer (which might be in wordObj.word)
+    const text = wordObj.primaryPrompt ||
+                 wordObj.baseWord ||
+                 wordObj.word ||
+                 wordObj.text ||
+                 wordObj.topic;
+
+    if (text) {
+        window.gameUtils.speak(text, currentPractice.language);
+    }
 }
 
 function playSound(isCorrect) {
@@ -1532,11 +1540,15 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    // Process items into tasks with better variety distribution
+    // SRS integration: prioritise due and difficult items
+    const srsData = Store.load();
+    const selectedItems = SM2.selectItems(srsData, rawItems, currentPractice.language, 20);
+
+    // Process selected items into tasks with better variety distribution
     let lastUsedType = "";
     let typeStreak = 0;
 
-    currentPractice.words = rawItems.map(item => {
+    currentPractice.words = selectedItems.map(item => {
         let wordCopy = { ...item };
         let possibleTypes = [...enabledTypes];
 
@@ -1627,10 +1639,6 @@ function startPractice(isWheelMode = false) {
         }
         return;
     }
-
-    // SRS integration: prioritise due and difficult items
-    const srsData = Store.load();
-    currentPractice.words = SM2.selectItems(srsData, currentPractice.words, currentPractice.language, 20);
 
     currentPractice.currentIndex = 0;
     currentPractice.score = 0;

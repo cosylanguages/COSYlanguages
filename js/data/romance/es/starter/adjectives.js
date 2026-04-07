@@ -569,7 +569,7 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "insalubre",
         "oppositeEmoji": "🍔",
         "subtext": "",
         "synonyms": [
@@ -597,7 +597,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "sano",
         "oppositeEmoji": "💪",
         "subtext": "enfermo",
         "synonyms": [
@@ -651,7 +651,7 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "acompañado",
         "oppositeEmoji": "👫",
         "definitions": [
             {

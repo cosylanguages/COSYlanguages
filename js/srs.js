@@ -61,8 +61,12 @@ const SM2 = {
       const ib = allItems[idB] || {nextReview: now - 86400000, easeFactor: 2.5};
 
       // Overdue items first, then by ease factor (harder items = lower ease)
-      const urgencyA = Math.max(0, now - ia.nextReview) / 86400000;
-      const urgencyB = Math.max(0, now - ib.nextReview) / 86400000;
+      // We add a tiny bit of random jitter (0-0.1 days) to break ties and add variety
+      const jitterA = Math.random() * 0.1;
+      const jitterB = Math.random() * 0.1;
+
+      const urgencyA = (Math.max(0, now - ia.nextReview) / 86400000) + jitterA;
+      const urgencyB = (Math.max(0, now - ib.nextReview) / 86400000) + jitterB;
       const easeA = 5 - ia.easeFactor;
       const easeB = 5 - ib.easeFactor;
 
