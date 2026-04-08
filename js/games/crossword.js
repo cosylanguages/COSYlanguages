@@ -145,6 +145,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById(containerId);
             if (!container) return;
 
+            // Setup nav buttons
+            const prevBtn = document.getElementById('cw-prev-clue');
+            const nextBtn = document.getElementById('cw-next-clue');
+            if (prevBtn) prevBtn.onclick = () => this.selectNextWord(-1);
+            if (nextBtn) nextBtn.onclick = () => this.selectNextWord(1);
+
             let html = `<table class="crossword-table" style="border-collapse: collapse; margin: auto;">`;
             for (let y = 0; y < this.grid.length; y++) {
                 html += '<tr>';
@@ -262,7 +268,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Clear previous highlighting
             document.querySelectorAll('.cw-cell').forEach(c => {
                 c.classList.remove('active-word', 'active-cell');
-                c.style.background = '';
             });
 
             // Find active word
@@ -275,16 +280,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 const wx = activeWord.dir === 'H' ? activeWord.x + i : activeWord.x;
                 const wy = activeWord.dir === 'V' ? activeWord.y + i : activeWord.y;
                 const td = document.querySelector(`.cw-cell[data-x="${wx}"][data-y="${wy}"]`);
-                if (td) td.style.background = 'var(--sage-mist)';
+                if (td) td.classList.add('active-word');
             }
 
             // Highlight selected cell
             const selectedTd = document.querySelector(`.cw-cell[data-x="${x}"][data-y="${y}"]`);
-            if (selectedTd) selectedTd.style.background = 'var(--honey-mid)';
+            if (selectedTd) selectedTd.classList.add('active-cell');
 
             // Update clue display
             const dirText = activeWord.dir === 'H' ? t('cw_across') : t('cw_down');
-            document.getElementById('crossword-clue-display').innerHTML = `<span style="font-size: 0.7rem; color: var(--muted); display: block; text-transform: uppercase;">${activeWord.number} ${dirText}</span> ${activeWord.clue}`;
+            document.getElementById('crossword-clue-display').innerHTML = `<span style="font-size: 0.7rem; color: var(--muted); display: block; text-transform: uppercase; margin-bottom: 2px;">${activeWord.number} ${dirText}</span> ${activeWord.clue}`;
 
             // Highlight clue in list
             document.querySelectorAll('.cw-clue-item').forEach(el => {
@@ -318,6 +323,33 @@ document.addEventListener('DOMContentLoaded', () => {
             if (prev) {
                 this.selectCell(nx, ny);
                 prev.focus();
+            }
+        },
+
+        selectNextWord(dir) {
+            console.log('Selecting next word, direction:', dir);
+            if (!this.selectedCell) {
+                const first = this.words[0];
+                if (first) {
+                    this.activeDir = first.dir;
+                    this.selectCell(first.x, first.y);
+                    document.querySelector(`.cw-input[data-x="${first.x}"][data-y="${first.y}"]`)?.focus();
+                }
+                return;
+            }
+            const currentCell = this.grid[this.selectedCell.y][this.selectedCell.x];
+            if (!currentCell) return;
+
+            let currentWordIdx = this.words.findIndex(w => w.dir === this.activeDir && currentCell.wordIndices.includes(this.words.indexOf(w)));
+            if (currentWordIdx === -1) currentWordIdx = currentCell.wordIndices[0];
+
+            let nextIdx = (currentWordIdx + dir + this.words.length) % this.words.length;
+            const nextWord = this.words[nextIdx];
+
+            if (nextWord) {
+                this.activeDir = nextWord.dir;
+                this.selectCell(nextWord.x, nextWord.y);
+                document.querySelector(`.cw-input[data-x="${nextWord.x}"][data-y="${nextWord.y}"]`)?.focus();
             }
         },
 

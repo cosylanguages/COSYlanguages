@@ -973,7 +973,8 @@ body.embedded-mode footer,
 body.embedded-mode .practice-header,
 body.embedded-mode .events-header,
 body.embedded-mode .mobile-nav,
-body.embedded-mode .session-log {
+body.embedded-mode .session-log,
+body.embedded-mode .wa-fab {
   display: none !important;
 }
 
@@ -1085,17 +1086,30 @@ body.embedded-mode main {
   .cw-cell { width: 30px; height: 30px; }
   .cw-input { font-size: 14px; }
   .cw-clues-container { max-height: none; }
-  #crossword-clue-display {
+  #cw-sticky-clue-bar {
     position: sticky;
     top: -10px;
     z-index: 100;
     margin-left: -10px;
     margin-right: -10px;
-    border-radius: 0;
+    background: #fff;
+    padding: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  #crossword-clue-display {
+    border-radius: 0;
+    border: none;
+    background: transparent;
   }
   .cw-clue-list-scroll { display: none; }
   .cw-main-layout { flex-direction: column-reverse; }
+}
+
+.cw-cell.active-word {
+  background: #fffde7;
+}
+.cw-cell.active-cell {
+  background: #ffeb3b !important;
 }
 
 @media (prefers-color-scheme: dark) {

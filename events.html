@@ -1549,8 +1549,12 @@ footer {
                 </div>
 
                 <div class="cw-clues-container">
-                    <div id="crossword-clue-display" style="min-height: 50px; background: var(--sage-mist); padding: 10px; border-radius: 8px; margin-bottom: 1rem; font-weight: 800; color: var(--sage-deep); font-size: 0.95rem; border: 1px solid var(--border);">
-                        Select a cell to start!
+                    <div id="cw-sticky-clue-bar" style="display: flex; align-items: center; gap: 8px; margin-bottom: 1rem;">
+                        <button id="cw-prev-clue" class="cta-button secondary" style="padding: 0 12px; height: 50px; flex-shrink: 0; border-radius: 12px;">←</button>
+                        <div id="crossword-clue-display" style="flex: 1; min-height: 50px; background: var(--sage-mist); padding: 10px; border-radius: 8px; font-weight: 800; color: var(--sage-deep); font-size: 0.95rem; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; text-align: center;">
+                            Select a cell to start!
+                        </div>
+                        <button id="cw-next-clue" class="cta-button secondary" style="padding: 0 12px; height: 50px; flex-shrink: 0; border-radius: 12px;">→</button>
                     </div>
 
                     <div class="cw-clue-list-scroll">
