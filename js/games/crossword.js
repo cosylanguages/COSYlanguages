@@ -354,6 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         check() {
+            console.log('Checking crossword...');
             let allCorrect = true;
             let filled = 0;
             let total = 0;
@@ -419,9 +420,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (allCorrect) {
                 playGameSound('success');
                 gameArea.style.display = 'none';
-                resultArea.style.display = 'block';
+                resultArea.style.display = 'flex';
                 document.getElementById('crossword-score-msg').textContent = t('cw_success');
-                if (window.gameUtils.createConfetti) window.gameUtils.createConfetti();
+                if (window.gameUtils.createConfetti) {
+                    window.gameUtils.createConfetti();
+                    setTimeout(() => window.gameUtils.createConfetti(), 500);
+                    setTimeout(() => window.gameUtils.createConfetti(), 1000);
+                }
             } else {
                 playGameSound('error');
                 showGameMessage(gameArea, t('cw_keep_going').replace('{0}', percent), 'info');

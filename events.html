@@ -294,6 +294,19 @@ nav.shrunk .nav-logo img { height: 36px; }
   line-height: 1.5; margin-bottom: 1.2rem;
   flex: 1;
 }
+
+@media (max-width: 600px) {
+  .game-card-lobby .gc-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.72rem;
+    margin-bottom: 0.8rem;
+  }
+  .game-card-lobby .gc-icon { font-size: 1.8rem; margin-bottom: 0.6rem; }
+  .game-card-lobby .gc-title { font-size: 0.95rem; }
+}
 .gc-badges { display: flex; gap: .4rem; margin-bottom: 1.2rem; }
 .gc-badge {
   font-size: .65rem; font-weight: 800;
@@ -451,6 +464,48 @@ footer {
 .speaking-highlight .cta-button.primary:hover {
   box-shadow: 0 6px 20px rgba(232,168,56,.4) !important;
 }
+
+/* ── Lobby Preferences Bar ── */
+.lobby-preferences-bar {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.pref-pill {
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 8px 4px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: all .2s;
+}
+.pref-pill:focus-within {
+  border-color: var(--sage);
+  box-shadow: 0 0 0 4px rgba(107,143,113,.1);
+}
+.pref-pill select {
+  border: none;
+  background: transparent;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--sage-deep);
+  cursor: pointer;
+  outline: none;
+  padding-right: 12px;
+}
+.pref-icon { font-size: 1.1rem; }
+
+@media (max-width: 600px) {
+  .lobby-preferences-bar { gap: 8px; }
+  .pref-pill { padding: 4px 6px 4px 10px; }
+  .pref-pill select { font-size: 0.78rem; }
+}
 </style>
 </head>
 <body class="events-page">
@@ -496,10 +551,10 @@ footer {
             </div>
 
             <!-- Global Preferences Bar -->
-            <div id="global-preferences" class="global-preferences setup-card" style="margin-bottom: 2rem; display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; padding: 1rem !important;">
-                <div class="pref-field" style="display: flex; align-items: center; gap: .8rem;">
-                    <label style="font-size: .8rem; font-weight: 800; color: var(--muted); text-transform: uppercase;">Session Language:</label>
-                    <select id="global-lang-select" class="pill-input" style="width: auto; padding: .4rem 2rem .4rem .8rem; font-size: .8rem;">
+            <div id="global-preferences" class="lobby-preferences-bar reveal">
+                <div class="pref-pill">
+                    <span class="pref-icon">🌍</span>
+                    <select id="global-lang-select">
                         <option value="en">English 🇬🇧</option>
                         <option value="fr">Français 🇫🇷</option>
                         <option value="it">Italiano 🇮🇹</option>
@@ -507,11 +562,12 @@ footer {
                         <option value="el">Ελληνικά 🇬🇷</option>
                         <option value="es">Español 🇪🇸</option>
                         <option value="de">Deutsch 🇩🇪</option>
+                        <option value="pt">Português 🇵🇹</option>
                     </select>
                 </div>
-                <div class="pref-field" style="display: flex; align-items: center; gap: .8rem;">
-                    <label style="font-size: .8rem; font-weight: 800; color: var(--muted); text-transform: uppercase;">Session Level:</label>
-                    <select id="global-level-select" class="pill-input" style="width: auto; padding: .4rem 2rem .4rem .8rem; font-size: .8rem;">
+                <div class="pref-pill">
+                    <span class="pref-icon">📊</span>
+                    <select id="global-level-select">
                         <option value="starter">A1 (Starter)</option>
                         <option value="elementary">A2 (Elementary)</option>
                         <option value="intermediate">B1 (Intermediate)</option>
@@ -522,7 +578,13 @@ footer {
                 </div>
             </div>
 
-            <details class="help-details glass centered-info" open>
+            <!-- Recommended Section -->
+            <div id="recommended-section" class="reveal" style="display: none; margin-bottom: 2.5rem;">
+                <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--honey-dark); margin: 0 0 1rem; display: flex; align-items: center; gap: .5rem;">✨ Recommended for your level <span style="flex: 1; height: 1px; background: var(--honey); opacity: 0.2;"></span></div>
+                <div id="recommended-grid" class="games-grid"></div>
+            </div>
+
+            <details class="help-details glass centered-info reveal">
                 <summary style="cursor: pointer; font-weight: bold; color: var(--sage-dark);" data-translate-key="how_it_works">How it works? 💡</summary>
                 <div class="info-content">
                     <ul class="info-list">
@@ -1578,10 +1640,11 @@ footer {
             </div>
         </div>
 
-        <div id="crossword-result" style="display: none; margin: 1.5rem 0; text-align: center;">
-            <h3 style="font-family: 'Lora', serif; color: var(--sage-deep);">Puzzle Complete! 🎉</h3>
-            <p id="crossword-score-msg" style="margin: 10px 0; font-weight: 700; color: var(--sage);"></p>
-            <button onclick="document.getElementById('crossword-setup').style.display='block'; document.getElementById('crossword-result').style.display='none';" class="cta-button primary">New Puzzle 🔄</button>
+        <div id="crossword-result" style="display: none; margin: 1.5rem 0; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: var(--sage-mist); padding: 2.5rem; border-radius: 20px; border: 2px solid var(--sage);">
+            <div style="font-size: 4rem; margin-bottom: 1rem;">🏆</div>
+            <h3 style="font-family: 'Lora', serif; font-size: 1.8rem; color: var(--sage-deep); margin-bottom: 0.5rem;">Puzzle Complete! 🎉</h3>
+            <p id="crossword-score-msg" style="margin-bottom: 2rem; font-weight: 800; color: var(--sage-dark); font-size: 1.1rem;"></p>
+            <button onclick="document.getElementById('crossword-setup').style.display='block'; document.getElementById('crossword-result').style.display='none';" class="cta-button primary" style="padding: 1rem 2.5rem; font-size: 1.1rem; box-shadow: 0 10px 25px rgba(107,143,113,0.3);">Play Another 🔄</button>
         </div>
 
         <button id="close-crossword-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
