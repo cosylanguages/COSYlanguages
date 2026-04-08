@@ -975,7 +975,7 @@
             tool_practice_desc: "Exercices de vocabulaire, de grammaire et d'expression orale dans toutes nos langues. Points COSY, séries quotidiennes et 10 types de tâches — l'habitude parfaite entre les leçons, ou un point de départ en douceur avant de commencer.",
             tool_practice_cta: "Essayer la pratique gratuite →",
             tool_games_title: "Jeux linguistiques 🎮",
-            tool_games_desc: "13 jeux linguistiques interactifs — jouez en solo ou avec des amis. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits et plus encore. Toutes langues, tous niveaux CECRL, à tout moment.",
+            tool_games_desc: "14 jeux linguistiques interactifs — jouez en solo ou avec des amis. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits et plus encore. Toutes langues, tous niveaux CECRL, à tout moment.",
             tool_games_cta: "Jouer aux jeux gratuits →",
             events_row_h4: "Événements en direct — Clubs de conversation, Karaoké et Soirées cinéma",
             events_row_p: "Sessions organisées avec un professeur ou un hôte — clubs de conversation sur des thèmes réels, soirées karaoké et soirées cinéma en langue originale. Consultez la page des événements pour les détails et pour savoir comment nous rejoindre.",

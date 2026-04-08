@@ -967,6 +967,21 @@
    DARK MODE
    ══════════════════════════════════ */
 
+/* ── Embedded Mode (Standalone App Mode) ── */
+body.embedded-mode #main-nav,
+body.embedded-mode footer,
+body.embedded-mode .practice-header,
+body.embedded-mode .events-header,
+body.embedded-mode .mobile-nav,
+body.embedded-mode .session-log {
+  display: none !important;
+}
+
+body.embedded-mode main {
+  padding-top: max(var(--safe-top), 20px) !important;
+  padding-bottom: max(var(--safe-bottom), 20px) !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --cream: #1a1f1a;

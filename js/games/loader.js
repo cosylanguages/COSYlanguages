@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const lesson = urlParams.get('lesson');
     const seed = urlParams.get('seed');
     const mode = urlParams.get('mode'); // for bingo: 'caller' or 'player'
+    const embed = urlParams.get('embed');
+
+    if (embed === 'true') {
+        document.body.classList.add('embedded-mode');
+    }
 
     if (game) {
         // Safe helpers

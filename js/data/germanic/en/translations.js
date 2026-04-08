@@ -995,7 +995,7 @@
             tool_practice_desc: "Vocabulary, grammar and speaking exercises across all our languages. COSY points, daily streaks and 10 task types — the perfect habit between lessons, or a gentle starting point before you begin.",
             tool_practice_cta: "Try free practice →",
             tool_games_title: "Language Games 🎮",
-            tool_games_desc: "13 interactive language games — play solo or with friends. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits and more. Any language, any CEFR level, anytime.",
+            tool_games_desc: "14 interactive language games — play solo or with friends. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits and more. Any language, any CEFR level, anytime.",
             tool_games_cta: "Play free games →",
             events_row_h4: "Live events — Speaking Clubs, Karaoke & Cinema Nights",
             events_row_p: "Organised sessions with a teacher or host — speaking clubs on real topics, karaoke nights and cinema evenings in the original language. Check the events page for details and how to join.",
