@@ -55,11 +55,13 @@ const SM2 = {
     return shuffledPool.sort((a, b) => {
       const idA = language + '::' + (a.word || a.text || a.topic || a.digit);
       const idB = language + '::' + (b.word || b.text || b.topic || b.digit);
-      const ia = allItems[idA] || {nextReview: 0, easeFactor: 2.5};
-      const ib = allItems[idB] || {nextReview: 0, easeFactor: 2.5};
+
+      // New items (nextReview === 0) are treated as if they were due yesterday (high priority)
+      const ia = allItems[idA] || {nextReview: now - 86400000, easeFactor: 2.5};
+      const ib = allItems[idB] || {nextReview: now - 86400000, easeFactor: 2.5};
 
       // Overdue items first, then by ease factor (harder items = lower ease)
-      // We add a tiny random jitter (0-0.1) to break ties even after shuffle
+      // We add a tiny bit of random jitter (0-0.1 days) to break ties and add variety
       const jitterA = Math.random() * 0.1;
       const jitterB = Math.random() * 0.1;
 

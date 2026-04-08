@@ -532,6 +532,9 @@ document.addEventListener('DOMContentLoaded', () => {
             window.gameUtils.showGameConfirm(confirmMsg, () => {
                 document.getElementById('practice-section').classList.add('hidden');
                 document.getElementById('setup-section').classList.remove('hidden');
+
+                toggleImmersiveMode(false);
+
                 // Update resume button visibility since we now have a saved session
                 const resumeBtn = document.getElementById('resume-btn');
                 if (resumeBtn) resumeBtn.classList.remove('hidden');
@@ -888,11 +891,19 @@ function showHint() {
 }
 
 function speakWord() {
-    if (!currentPractice.currentWord) return;
-    const text = (currentPractice.currentWord.type === 'type-ga' && currentPractice.currentWord.baseWord)
-        ? currentPractice.currentWord.baseWord
-        : (currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.baseWord);
-    window.gameUtils.speak(text, currentPractice.language);
+    const wordObj = currentPractice.currentWord;
+    if (!wordObj) return;
+
+    // For grammar/cloze tasks, we speak the prompt (cue) rather than the answer (which might be in wordObj.word)
+    const text = wordObj.primaryPrompt ||
+                 wordObj.baseWord ||
+                 wordObj.word ||
+                 wordObj.text ||
+                 wordObj.topic;
+
+    if (text) {
+        window.gameUtils.speak(text, currentPractice.language);
+    }
 }
 
 function playSound(isCorrect) {
@@ -901,6 +912,44 @@ function playSound(isCorrect) {
 
     const audio = new Audio(isCorrect ? successUrl : failUrl);
     audio.play().catch(e => {});
+}
+
+function toggleImmersiveMode(active) {
+    const header = document.querySelector('.practice-header');
+    const nav = document.getElementById('main-nav');
+    const log = document.getElementById('session-log-container');
+    const footer = document.querySelector('footer');
+
+    if (active) {
+        if (header) header.classList.add('hidden');
+        if (nav) nav.classList.add('hidden');
+        if (log) log.classList.add('hidden');
+        if (footer) footer.classList.add('hidden');
+        document.body.classList.add('practice-active');
+    } else {
+        if (header) header.classList.remove('hidden');
+        if (nav) nav.classList.remove('hidden');
+        if (log) log.classList.remove('hidden');
+        if (footer) footer.classList.remove('hidden');
+        document.body.classList.remove('practice-active');
+    }
+}
+
+function setWordDisplayWithDeduplication(text, sub) {
+    const display = document.getElementById('word-display');
+    const subDisplay = document.getElementById('subtext-display');
+
+    if (display) display.textContent = text;
+
+    if (subDisplay) {
+        // Deduplicate subtext if it's already in the main prompt
+        if (sub && !text.includes(sub)) {
+            subDisplay.textContent = sub;
+            subDisplay.classList.remove('hidden');
+        } else {
+            subDisplay.classList.add('hidden');
+        }
+    }
 }
 
 function updateProgress() {
@@ -918,13 +967,22 @@ function updateProgress() {
     const displayIndex = current < total ? current + 1 : total;
     const percentage = total > 0 ? (current / total) * 100 : 0;
 
-    progressFill.style.width = percentage + '%';
+    if (progressFill) progressFill.style.width = percentage + '%';
 
     const lang = currentPractice.language;
     const wordLabel = (translations[lang] && translations[lang]['progress_word']) ? translations[lang]['progress_word'] : 'Word';
     const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
 
     progressText.textContent = `${wordLabel} ${displayIndex} ${ofLabel} ${total}`;
+
+    // Sync header stats for all devices
+    const mobileProgressFill = document.querySelector('.session-progress-fill');
+    if (mobileProgressFill) mobileProgressFill.style.width = percentage + '%';
+
+    const mobileScore = document.getElementById('mobile-score-display');
+    const mobileStreak = document.getElementById('mobile-streak-display');
+    if (mobileScore) mobileScore.textContent = `✨ ${currentPractice.score}`;
+    if (mobileStreak) mobileStreak.textContent = `🔥 ${loadStreak()}`;
 
     // Mobile UX: update progress bar
     if (typeof updateProgressBar === 'function') {
@@ -1510,8 +1568,15 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    // Process items into tasks
-    currentPractice.words = rawItems.map(item => {
+    // SRS integration: prioritise due and difficult items
+    const srsData = Store.load();
+    const selectedItems = SM2.selectItems(srsData, rawItems, currentPractice.language, 20);
+
+    // Process selected items into tasks with better variety distribution
+    let lastUsedType = "";
+    let typeStreak = 0;
+
+    currentPractice.words = selectedItems.map(item => {
         let wordCopy = { ...item };
         let possibleTypes = [...enabledTypes];
 
@@ -1521,34 +1586,23 @@ function startPractice(isWheelMode = false) {
 
         // Respect preferred type from grammar expansion if it's enabled
         if (wordCopy.type && enabledTypes.includes(wordCopy.type)) {
-            // Verbs can be either Cloze or Multiple Choice
-            if (wordCopy.form === 'verb' && (enabledTypes.includes('type-mc') || enabledTypes.includes('type-cl'))) {
-                // If it's a classification or auxiliary task, keep it as MC for better UX
-                const isClassification = wordCopy.secondaryContext === 'reg_vs_irregular' ||
-                                       wordCopy.secondaryContext === 'stative_vs_action' ||
-                                       wordCopy.secondaryContext === 'Avere vs. Essere' ||
-                                       wordCopy.secondaryContext === 'Avoir vs. Être';
+            const isClassification = wordCopy.secondaryContext === 'reg_vs_irregular' ||
+                                   wordCopy.secondaryContext === 'stative_vs_action' ||
+                                   wordCopy.secondaryContext === 'Avere vs. Essere' ||
+                                   wordCopy.secondaryContext === 'Avoir vs. Être';
 
-                if (isClassification) {
-                    wordCopy.type = 'type-mc';
-                } else if (enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl')) {
-                    wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
-                }
+            if (isClassification) {
+                wordCopy.type = 'type-mc';
+            } else if (wordCopy.form === 'verb' && (enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl'))) {
+                wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
             }
             return wordCopy;
         }
 
         possibleTypes = possibleTypes.filter(t => t !== 'type-cv');
-        if (wordCopy.opposite && Math.random() > 0.5) {
-            const originalWord = wordCopy.word;
-            wordCopy.word = wordCopy.opposite;
-            wordCopy.opposite = originalWord;
-        }
-
         if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'type-op');
         if (!wordCopy.clozeText && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'type-cl');
 
-        // Grammar category specific filtering to avoid task type mismatch
         if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
             possibleTypes = possibleTypes.filter(t => t !== 'type-ga' && t !== 'type-np');
         } else if (wordCopy.form === 'singular_to_plural' || wordCopy.form === 'plural_to_singular') {
@@ -1558,7 +1612,15 @@ function startPractice(isWheelMode = false) {
             if (!wordCopy.plural) possibleTypes = possibleTypes.filter(t => t !== 'type-np');
         }
 
-        const isSentence = wordCopy.word && wordCopy.word.includes(' ');
+        const targetText = wordCopy.answer || wordCopy.word || wordCopy.text || wordCopy.topic || "";
+        const hasSlashes = typeof targetText === 'string' && targetText.includes('/');
+        const isSentence = typeof targetText === 'string' && targetText.trim().includes(' ');
+
+        if (hasSlashes) {
+            // Avoid scrambling items with multiple correct answers (slashes)
+            possibleTypes = possibleTypes.filter(t => t !== 'type-sc' && t !== 'type-ws');
+        }
+
         if (isSentence) {
             possibleTypes = possibleTypes.filter(t => t !== 'type-sc');
             if (wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'type-ws');
@@ -1567,16 +1629,33 @@ function startPractice(isWheelMode = false) {
         }
 
         if (possibleTypes.length === 0) return null;
-        let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+
+        // Variety: try to pick a different type than the last one
+        let selectedType;
+        if (possibleTypes.length > 1 && typeStreak >= 2) {
+            const pool = possibleTypes.filter(t => t !== lastUsedType);
+            selectedType = pool[Math.floor(Math.random() * pool.length)];
+        } else {
+            selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+        }
 
         // SRS integration: check for smart task type upgrade/downgrade
         const itemId = wordCopy.word || wordCopy.text || wordCopy.topic || wordCopy.digit;
         selectedType = smartTaskType(itemId, currentPractice.language, selectedType);
 
-        // Ensure the smart type is actually enabled/possible
         if (!possibleTypes.includes(selectedType)) {
             selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
         }
+
+        // Only swap word and opposite for Opposite tasks
+        if (selectedType === 'type-op' && wordCopy.opposite && Math.random() > 0.5) {
+            const originalWord = wordCopy.word;
+            wordCopy.word = wordCopy.opposite;
+            wordCopy.opposite = originalWord;
+        }
+
+        if (selectedType === lastUsedType) typeStreak++;
+        else { typeStreak = 1; lastUsedType = selectedType; }
 
         return { ...wordCopy, type: selectedType };
     }).filter(w => w !== null);
@@ -1588,10 +1667,6 @@ function startPractice(isWheelMode = false) {
         }
         return;
     }
-
-    // SRS integration: prioritise due and difficult items
-    const srsData = Store.load();
-    currentPractice.words = SM2.selectItems(srsData, currentPractice.words, currentPractice.language, 20);
 
     currentPractice.currentIndex = 0;
     currentPractice.score = 0;
@@ -1608,6 +1683,8 @@ function startPractice(isWheelMode = false) {
 
     document.getElementById('setup-section').classList.add('hidden');
     document.getElementById('practice-section').classList.remove('hidden');
+
+    toggleImmersiveMode(true);
 
     if (window.GameSessionManager) {
         GameSessionManager.recordSession('Practice', '💡');
@@ -1772,6 +1849,8 @@ function resumePractice() {
     document.getElementById('score-count').textContent = currentPractice.score;
     document.getElementById('setup-section').classList.add('hidden');
     document.getElementById('practice-section').classList.remove('hidden');
+
+    toggleImmersiveMode(true);
 
     if (!currentPractice.isWheelMode) {
         updateProgress();
@@ -2099,13 +2178,8 @@ function showNextWord() {
             text = "???";
         }
 
-        document.getElementById('word-display').textContent = text;
-        const subDisplay = document.getElementById('subtext-display');
-        if (subDisplay) {
-            subDisplay.textContent = sub || "";
-            if (sub) subDisplay.classList.remove('hidden');
-            else subDisplay.classList.add('hidden');
-        }
+        setWordDisplayWithDeduplication(text, sub);
+
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').classList.remove('hidden');
@@ -2125,13 +2199,8 @@ function showNextWord() {
             text = "???";
         }
 
-        document.getElementById('word-display').textContent = text;
-        const subDisplay = document.getElementById('subtext-display');
-        if (subDisplay) {
-            subDisplay.textContent = sub || "";
-            if (sub) subDisplay.classList.remove('hidden');
-            else subDisplay.classList.add('hidden');
-        }
+        setWordDisplayWithDeduplication(text, sub);
+
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').classList.remove('hidden');
@@ -2511,6 +2580,8 @@ function showSummary() {
 
     if (summaryModal) summaryModal.classList.remove('hidden');
     if (practiceSection) practiceSection.classList.add('hidden');
+
+    toggleImmersiveMode(false);
 
     window.gameUtils.createConfetti();
 }
