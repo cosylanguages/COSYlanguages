@@ -272,7 +272,6 @@ nav.shrunk .nav-logo img { height: 36px; }
   border-radius: var(--radius);
   padding: 1.5rem;
   transition: all .25s ease;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -304,20 +303,44 @@ nav.shrunk .nav-logo img { height: 36px; }
 .gc-badge.beginner { background: #e5f4ec; color: #1a6b45; }
 .gc-badge.advanced { background: #fcebeb; color: #a32d2d; }
 
-.gc-actions { display: flex; gap: .5rem; }
-.gc-btn {
-  flex: 1; padding: .5rem; border-radius: 999px;
-  font-size: .75rem; font-weight: 800; border: none; cursor: pointer;
-  transition: background .2s;
+.gc-actions {
+  display: flex;
+  gap: .5rem;
+  margin-top: auto;
 }
-.gc-btn-play { background: var(--sage); color: #fff; }
-.gc-btn-play:hover { background: var(--sage-dark); }
-.gc-btn-friends { background: var(--sage-pale); color: var(--sage-dark); }
-.gc-btn-friends:hover { background: var(--sage-mist); }
-
-.gc-play-btn {
-  width: 100%;
-  margin: 0 !important;
+.gc-btn {
+  flex: 1;
+  padding: .65rem .5rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: all .2s;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.gc-btn-play {
+  background: var(--sage);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(107,143,113,.2);
+}
+.gc-btn-play:hover {
+  background: var(--sage-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(107,143,113,.3);
+}
+.gc-btn-friends {
+  background: var(--honey-pale);
+  color: var(--honey-dark);
+  border: 1px solid rgba(232,168,56,.3);
+}
+.gc-btn-friends:hover {
+  background: var(--honey-mid);
+  transform: translateY(-1px);
 }
 
 /* Highlighted games */
@@ -523,108 +546,158 @@ footer {
             </div>
 
             <div class="games-grid">
-                <div class="game-card-lobby" data-game="action-hero" data-level="beginner" onclick="openGameSheet('Action Hero', '🎭')">
+                <div class="game-card-lobby" data-game="action-hero" data-level="beginner">
                   <div class="gc-icon">🎭</div>
                   <div class="gc-title">Action Hero</div>
                   <div class="gc-desc">Classic charades with a twist. Describe words or emojis without saying them!</div>
                   <div class="gc-badges"><span class="gc-badge beginner">A1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Action Hero', '🎭', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Action Hero', '🎭', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="emoji-odyssey" data-level="beginner" onclick="openGameSheet('Emoji Odyssey', '📖')">
+                <div class="game-card-lobby" data-game="emoji-odyssey" data-level="beginner">
                   <div class="gc-icon">📖</div>
                   <div class="gc-title">Emoji Odyssey</div>
                   <div class="gc-desc">Guess the word or phrase from emojis. Great for vocabulary association.</div>
                   <div class="gc-badges"><span class="gc-badge beginner">A1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Emoji Odyssey', '📖', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Emoji Odyssey', '📖', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="lucky-numbers" data-level="beginner" onclick="openGameSheet('Lucky Numbers', '🔢')">
+                <div class="game-card-lobby" data-game="lucky-numbers" data-level="beginner">
                   <div class="gc-icon">🔢</div>
                   <div class="gc-title">Lucky Numbers</div>
                   <div class="gc-desc">Interactive Bingo. Listen and mark your board. Perfect for numbers and alphabets.</div>
                   <div class="gc-badges"><span class="gc-badge beginner">A1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Lucky Numbers', '🔢', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Lucky Numbers', '🔢', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="last-letter" data-level="beginner" onclick="openGameSheet('Last Letter', '🔤')">
+                <div class="game-card-lobby" data-game="last-letter" data-level="beginner">
                   <div class="gc-icon">🔤</div>
                   <div class="gc-title">Last Letter</div>
                   <div class="gc-desc">Chain words together using the last letter of the previous word.</div>
                   <div class="gc-badges"><span class="gc-badge beginner">A1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Last Letter', '🔤', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Last Letter', '🔤', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="guess-what" data-level="beginner" onclick="openGameSheet('Object Quest', '📦')">
+                <div class="game-card-lobby" data-game="guess-what" data-level="beginner">
                   <div class="gc-icon">📦</div>
                   <div class="gc-title">Object Quest</div>
                   <div class="gc-desc">Identify the object through descriptive clues and Yes/No questions.</div>
                   <div class="gc-badges"><span class="gc-badge beginner">A1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Object Quest', '📦', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Object Quest', '📦', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="guess-who" data-level="beginner" onclick="openGameSheet('Identity Mystery', '👤')">
+                <div class="game-card-lobby" data-game="guess-who" data-level="beginner">
                   <div class="gc-icon">👤</div>
                   <div class="gc-title">Identity Mystery</div>
                   <div class="gc-desc">Identify the person or profession through Yes/No questions.</div>
                   <div class="gc-badges"><span class="gc-badge beginner">A2+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Identity Mystery', '👤', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Identity Mystery', '👤', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="fluency-flow" data-level="intermediate" onclick="openGameSheet('Fluency Flow', '🗣️')">
+                <div class="game-card-lobby" data-game="crossword" data-level="beginner">
+                  <div class="gc-icon">🧩</div>
+                  <div class="gc-title">Cosy Crossword</div>
+                  <div class="gc-desc">Solve the puzzle using definitions and emojis. A classic challenge!</div>
+                  <div class="gc-badges"><span class="gc-badge beginner">A2+ Recommended</span></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Cosy Crossword', '🧩', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Cosy Crossword', '🧩', 'friends')">With friends</button>
+                  </div>
+                </div>
+
+                <div class="game-card-lobby" data-game="fluency-flow" data-level="intermediate">
                   <div class="gc-icon">🗣️</div>
                   <div class="gc-title">Fluency Flow</div>
                   <div class="gc-desc">Spin for a topic and speak! Focus on your flow and idea generation.</div>
                   <div class="gc-badges"><span class="gc-badge">B1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Fluency Flow', '🗣️', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Fluency Flow', '🗣️', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="opinion-arena" data-level="intermediate" onclick="openGameSheet('Opinion Arena', '🏟️')">
+                <div class="game-card-lobby" data-game="opinion-arena" data-level="intermediate">
                   <div class="gc-icon">🏟️</div>
                   <div class="gc-title">Opinion Arena</div>
                   <div class="gc-desc">Agree or disagree? Defend your position on controversial or funny statements.</div>
                   <div class="gc-badges"><span class="gc-badge">B1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Opinion Arena', '🏟️', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Opinion Arena', '🏟️', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="battle-of-wits" data-level="intermediate" onclick="openGameSheet('Battle of Wits', '⚖️')">
+                <div class="game-card-lobby" data-game="battle-of-wits" data-level="intermediate">
                   <div class="gc-icon">⚖️</div>
                   <div class="gc-title">Battle of Wits</div>
                   <div class="gc-desc">The ultimate debate game. Compare two things and argue why yours is better.</div>
                   <div class="gc-badges"><span class="gc-badge">B2+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Battle of Wits', '⚖️', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Battle of Wits', '⚖️', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="word-linker" data-level="intermediate" onclick="openGameSheet('Word Linker', '🔗')">
+                <div class="game-card-lobby" data-game="word-linker" data-level="intermediate">
                   <div class="gc-icon">🔗</div>
                   <div class="gc-title">Word Linker</div>
                   <div class="gc-desc">Find the logical connection between words. Great for abstract thinking.</div>
                   <div class="gc-badges"><span class="gc-badge">B1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Word Linker', '🔗', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Word Linker', '🔗', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="story-chain" data-level="intermediate" onclick="openGameSheet('Story Chain', '🃏')">
+                <div class="game-card-lobby" data-game="story-chain" data-level="intermediate">
                   <div class="gc-icon">🃏</div>
                   <div class="gc-title">Story Chain</div>
                   <div class="gc-desc">Collaboratively build a story while sneaking in secret words.</div>
                   <div class="gc-badges"><span class="gc-badge">B1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Story Chain', '🃏', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Story Chain', '🃏', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="hot-seat" data-level="intermediate" onclick="openGameSheet('Hot Seat', '🎯')">
+                <div class="game-card-lobby" data-game="hot-seat" data-level="intermediate">
                   <div class="gc-icon">🎯</div>
                   <div class="gc-title">Hot Seat</div>
                   <div class="gc-desc">Rapid-fire vocabulary. Can you answer everything before the timer runs out?</div>
                   <div class="gc-badges"><span class="gc-badge">B1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Hot Seat', '🎯', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Hot Seat', '🎯', 'friends')">With friends</button>
+                  </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="critics-corner" data-level="advanced" onclick="openGameSheet('Critic\'s Corner', '🎭')">
+                <div class="game-card-lobby" data-game="critics-corner" data-level="advanced">
                   <div class="gc-icon">🎭</div>
                   <div class="gc-title">Critic's Corner</div>
                   <div class="gc-desc">Analyze famous quotes. What do they mean? Do you agree with the author?</div>
                   <div class="gc-badges"><span class="gc-badge advanced">C1+ Recommended</span></div>
-                  <div class="gc-actions"><button class="gc-btn gc-btn-play">Play solo</button><button class="gc-btn gc-btn-friends">With friends</button></div>
+                  <div class="gc-actions">
+                    <button class="gc-btn gc-btn-play" onclick="openGameSheet('Critic\'s Corner', '🎭', 'solo')">Play solo</button>
+                    <button class="gc-btn gc-btn-friends" onclick="openGameSheet('Critic\'s Corner', '🎭', 'friends')">With friends</button>
+                  </div>
                 </div>
             </div>
 
@@ -1428,6 +1501,72 @@ footer {
     </div>
 </div>
 
+<!-- Crossword Modal -->
+<div id="crossword-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content glass" style="max-width: 800px; width: 95%;">
+        <h2 data-translate-key="game_crossword">Cosy Crossword 🧩</h2>
+
+        <details class="help-details" style="margin-bottom: 1rem; text-align: left; font-size: 0.85rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
+            <summary style="cursor: pointer; font-weight: bold; color: var(--sage-dark);" data-translate-key="game_guide_title">How to play 📖</summary>
+            <p style="margin-top: 0.5rem;" data-translate-key="crossword_guide_text">Tap a cell to select it. Look at the clues (text or emoji) and type the word. Click "Check" when finished!</p>
+        </details>
+
+        <div id="crossword-setup">
+            <div class="setup-group">
+                <label data-translate-key="select_practice_language">Select language 🌍</label>
+                <select id="crossword-lang" class="pill-input game-lang" style="width: 100%;">
+                    <option value="en">English 🇬🇧</option>
+                    <option value="fr">Français 🇫🇷</option>
+                    <option value="it">Italiano 🇮🇹</option>
+                    <option value="ru">Русский 🇷🇺</option>
+                    <option value="el">Ελληνικά 🇬🇷</option>
+                </select>
+            </div>
+            <div class="setup-row" style="margin-top: 1rem; gap: 1rem; display: flex;">
+                <div class="setup-group" style="flex: 1;">
+                    <label data-translate-key="select_level">Select Level 📊</label>
+                    <select id="crossword-level" class="pill-input game-level" style="width: 100%;">
+                        <option value="starter">A1 (Starter)</option>
+                        <option value="elementary">A2 (Elementary)</option>
+                        <option value="intermediate">B1 (Intermediate)</option>
+                        <option value="upper-intermediate">B2 (Upper)</option>
+                    </select>
+                </div>
+                <div class="setup-group" style="flex: 1;">
+                    <label data-translate-key="select_theme">Select Theme 🎨</label>
+                    <select id="crossword-theme" class="pill-input game-theme" style="width: 100%;">
+                        <option value="all">All Themes</option>
+                    </select>
+                </div>
+            </div>
+            <button id="start-crossword-game-btn" class="cta-button primary" style="margin-top: 1.5rem; width: 100%;">Start Puzzle 🚀</button>
+        </div>
+
+        <div id="crossword-gameplay" style="display: none; padding: 1rem 0;">
+            <div id="crossword-grid-container" style="overflow: auto; margin-bottom: 1.5rem; background: #fff; padding: 10px; border-radius: 10px; box-shadow: inset 0 2px 10px rgba(0,0,0,0.05);">
+                <!-- Grid rendered by JS -->
+            </div>
+
+            <div id="crossword-clue-display" style="min-height: 60px; background: var(--sage-pale); padding: 12px; border-radius: 12px; margin-bottom: 1rem; font-weight: 700; color: var(--sage-deep); text-align: center; border: 1.5px solid var(--sage-mist);">
+                Select a cell to see the clue!
+            </div>
+
+            <div style="display: flex; gap: 0.8rem; justify-content: center;">
+                <button id="crossword-check-btn" class="cta-button primary" style="flex: 1;">Check Puzzle ✅</button>
+                <button id="crossword-hint-btn" class="cta-button secondary" style="flex: 1;">Get Hint 💡</button>
+            </div>
+        </div>
+
+        <div id="crossword-result" style="display: none; margin: 1.5rem 0; text-align: center;">
+            <h3 style="font-family: 'Lora', serif; color: var(--sage-deep);">Puzzle Complete! 🎉</h3>
+            <p id="crossword-score-msg" style="margin: 10px 0; font-weight: 700; color: var(--sage);"></p>
+            <button onclick="document.getElementById('crossword-setup').style.display='block'; document.getElementById('crossword-result').style.display='none';" class="cta-button primary">New Puzzle 🔄</button>
+        </div>
+
+        <button id="close-crossword-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+    </div>
+</div>
+
         <!-- Last Letter Modal -->
         <div id="last-letter-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
@@ -1947,6 +2086,7 @@ footer {
     <script src="js/games/emoji_odyssey.js"></script>
     <script src="js/games/word_linker.js"></script>
     <script src="js/games/charades.js"></script>
+    <script src="js/games/crossword.js"></script>
     <script src="mobile.js"></script>
     <script src="games-improvements.js"></script>
     <script src="js/games/guess_games.js"></script>
@@ -1983,6 +2123,7 @@ footer {
         </div>
 
         <button class="gss-start" data-translate-key="start_game">Start Game 🚀</button>
+        <button id="gss-pin-btn" class="gss-pin" style="width:100%; height:48px; border-radius:999px; background:transparent; color:var(--muted); border:2px solid var(--border); font-family:'Nunito',sans-serif; font-weight:800; font-size:14px; cursor:pointer; margin-top:10px; -webkit-tap-highlight-color:transparent;">Pin to Home Screen 📲</button>
     </div>
 
 

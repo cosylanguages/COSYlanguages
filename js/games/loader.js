@@ -128,6 +128,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (theme) setById('hs-theme', theme);
                     if (window.hotSeatStart) window.hotSeatStart();
                 }
+            } else if (game === 'crossword' || game === 'cosy_crossword') {
+                if (window.crosswordGame) {
+                    window.crosswordGame.open();
+                    if (lang) setById('crossword-lang', lang);
+                    if (level) setById('crossword-level', level);
+                    if (theme) setById('crossword-theme', theme);
+                    window.crosswordGame.start();
+                }
             }
 
             // Apply language to modals if lang param provided

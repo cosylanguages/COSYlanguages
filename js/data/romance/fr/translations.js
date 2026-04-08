@@ -907,6 +907,11 @@
             wtd_tf: "Décidez si l'énoncé ou l'image correspond au mot.",
             wtd_vf: "Tapez la forme verbale correcte demandée.",
             wtd_ws: "Organisez les mots pour construire une phrase correcte.",
+            cw_across: "Horizontal",
+            cw_down: "Vertical",
+            cw_error_pool: "Pas assez de mots pour créer un puzzle ! Essayez un niveau inférieur ou 'Tous les thèmes'.",
+            cw_success: "Excellent ! Vous avez résolu tout le puzzle.",
+            cw_keep_going: "Continuez ! Vous avez rempli {0}% du puzzle.",
             zalando: "Zalando",
             zalando_desc: "Magasin de vêtements et chaussures en ligne.",
             site_title_redesign: "COSYlanguages 🏡 — Apprenez une langue avec des professeurs qui aiment ce qu'ils enseignent.",
@@ -1094,7 +1099,13 @@
             wtd_ac: "Complétez la phrase avec la forme comparative ou superlative correcte.",
             example_ac: "Exemple : 🧩 grand (Comparatif) -> plus grand",
             wtd_aa: "Complétez la phrase avec la forme correcte de l'adjectif (accord).",
-            example_aa: "Exemple : 🧩 La fille est ____ (petit) -> petite"
+            example_aa: "Exemple : 🧩 La fille est ____ (petit) -> petite",
+            pin_title: "Ajouter à l'écran d'accueil",
+            pin_btn_got_it: "J'ai compris !",
+            pin_step_ios: "<strong>Sur iPhone :</strong> Appuyez sur le bouton Partager <span style=\"font-size:1.2rem\">⎋</span>, puis faites défiler vers le bas et appuyez su <strong>\"Sur l'écran d'accueil\"</strong>.",
+            pin_step_android: "<strong>Sur Android :</strong> Appuyez sur le bouton menu <span style=\"font-size:1.2rem\">⋮</span>, puis appuyez sur <strong>\"Ajouter à l'écran d'accueil\"</strong> ou <strong>\"Installer l'application\"</strong>.",
+            pin_desc_template: "Vous êtes sur le point d'ajouter \"{0}\" ({1}, {2}) à votre écran d'accueil.",
+            pin_practice_btn: "Ajouter à l'écran d'accueil 📲"
         }
         };
     window.translations = window.translations || {};

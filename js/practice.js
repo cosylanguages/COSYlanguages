@@ -422,6 +422,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const finishConversationBtn = document.getElementById('finish-conversation-btn');
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
     const shareLinkBtn = document.getElementById('share-link-btn');
+    const pinPracticeBtn = document.getElementById('pin-practice-btn');
+
+    if (pinPracticeBtn) {
+        pinPracticeBtn.onclick = () => {
+            const lang = currentPractice.language;
+            const level = document.getElementById('practice-level').value;
+            const theme = document.getElementById('practice-theme').value;
+            const category = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
+            const baseUrl = window.location.origin + window.location.pathname;
+            const deepLink = `${baseUrl}?lang=${lang}&level=${level}&theme=${theme}&cat=${category}&embed=true`;
+
+            const catLabel = (translations[lang] && translations[lang]['cat_' + category]) || category;
+
+            if (window.showPinModal) {
+                const template = (window.t && window.t('pin_desc_template')) || "You're about to pin \"{0}\" ({1}, {2}) to your home screen.";
+                const desc = template
+                    .replace('{0}', catLabel)
+                    .replace('{1}', lang.toUpperCase())
+                    .replace('{2}', level);
+
+                window.showPinModal(
+                    (window.t && window.t('pin_title')) || 'Add to Home Screen',
+                    desc,
+                    deepLink
+                );
+            }
+        };
+    }
     const exitPracticeBtn = document.getElementById('exit-practice-btn');
     const closeDefinitionBtn = document.getElementById('close-definition-btn');
     const wordDisplay = document.getElementById('word-display');
