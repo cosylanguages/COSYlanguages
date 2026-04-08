@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>iPhone-да:</strong> <span style=\"font-size:1.2rem\">⎋</span> «Уртаклашырга» төймәсенә басыгыз, аска шылдырыгыз һәм <strong>«Экранга „Домой“»</strong> сайлагыз.",
             pin_step_android: "<strong>Android-да:</strong> Меню төймәсенә <span style=\"font-size:1.2rem\">⋮</span> басыгыз, аннары <strong>«Төп экранга өстәү»</strong> яки <strong>«Кушымтаны урнаштыру»</strong> сайлагыз.",
             pin_desc_template: "Сез «{0}» ({1}, {2}) төп экранга беркетергә җыенасыз.",
+            pin_desc_template_cat: "Сез «{0}» ({1}, {2}) төп экранга беркетергә җыенасыз.",
             pin_practice_btn: "Төп экранга өстәү 📲",
             cw_across: "Горизонталь буенча",
             cw_down: "Вертикаль буенча",

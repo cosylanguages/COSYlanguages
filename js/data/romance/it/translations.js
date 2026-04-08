@@ -1104,6 +1104,7 @@
             pin_step_ios: "<strong>Su iPhone:</strong> Tocca il pulsante Condividi <span style=\"font-size:1.2rem\">⎋</span>, quindi scorri verso il basso e tocca <strong>\"Aggiungi alla schermata home\"</strong>.",
             pin_step_android: "<strong>Su Android:</strong> Tocca il pulsante del menu <span style=\"font-size:1.2rem\">⋮</span>, quindi tocca <strong>\"Aggiungi a schermata home\"</strong> o <strong>\"Installa app\"</strong>.",
             pin_desc_template: "Stai per aggiungere \"{0}\" ({1}, {2}) alla tua schermata home.",
+            pin_desc_template_cat: "Stai per aggiungere \"{0}\" ({1}, {2}) alla tua schermata home.",
             pin_practice_btn: "Aggiungi alla schermata home 📲"
          }
         };

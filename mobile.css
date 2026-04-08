@@ -1046,11 +1046,13 @@ body.embedded-mode main {
   background: #fff;
   cursor: pointer;
   transition: background .15s;
+  border-radius: 4px;
 }
 
 .cw-cell.empty {
   background: var(--sage-deep);
   border-color: rgba(255,255,255,0.1);
+  border-radius: 0;
 }
 
 .cw-cell-num {
@@ -1080,9 +1082,20 @@ body.embedded-mode main {
 }
 
 @media (max-width: 600px) {
-  .cw-cell { width: 32px; height: 32px; }
-  .cw-input { font-size: 16px; }
-  .cw-clues-container { max-height: 300px; }
+  .cw-cell { width: 30px; height: 30px; }
+  .cw-input { font-size: 14px; }
+  .cw-clues-container { max-height: none; }
+  #crossword-clue-display {
+    position: sticky;
+    top: -10px;
+    z-index: 100;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .cw-clue-list-scroll { display: none; }
+  .cw-main-layout { flex-direction: column-reverse; }
 }
 
 @media (prefers-color-scheme: dark) {

@@ -926,6 +926,7 @@
             pin_step_ios: "<strong>Σε iPhone:</strong> Πατήστε το κουμπί <span style=\"font-size:1.2rem\">⎋</span> Κοινή χρήση, μετά σύρετε προς τα κάτω και πατήστε <strong>\"Προσθήκη στην οθόνη αφετηρίας\"</strong>.",
             pin_step_android: "<strong>Σε Android:</strong> Πατήστε το κουμπί μενού <span style=\"font-size:1.2rem\">⋮</span>, μετά πατήστε <strong>\"Προσθήκη στην αρχική οθόνη\"</strong> ή <strong>\"Εγκατάσταση εφαρμογής\"</strong>.",
             pin_desc_template: "Πρόκειται να προσθέσετε το \"{0}\" ({1}, {2}) στην αρχική σας οθόνη.",
+            pin_desc_template_cat: "Πρόκειται να προσθέσετε το \"{0}\" ({1}, {2}) στην αρχική σας οθόνη.",
             pin_practice_btn: "Προσθήκη στην Αρχική Οθόνη 📲",
             cw_across: "Οριζόντια",
             cw_down: "Κάθετα",

@@ -922,6 +922,7 @@
             pin_step_ios: "<strong>На iPhone:</strong> Нажмите кнопку <span style=\"font-size:1.2rem\">⎋</span> «Поделиться», прокрутите вниз и выберите <strong>«На экран „Домой“»</strong>.",
             pin_step_android: "<strong>На Android:</strong> Нажмите кнопку меню <span style=\"font-size:1.2rem\">⋮</span>, затем выберите <strong>«Добавить на гл. экран»</strong> или <strong>«Установить приложение»</strong>.",
             pin_desc_template: "Вы собираетесь закрепить «{0}» ({1}, {2}) на главном экране.",
+            pin_desc_template_cat: "Вы собираетесь закрепить «{0}» ({1}, {2}) на главном экране.",
             pin_practice_btn: "Добавить на главный экран 📲",
             cw_across: "По горизонтали",
             cw_down: "По вертикали",

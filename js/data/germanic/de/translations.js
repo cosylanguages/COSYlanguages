@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>Auf dem iPhone:</strong> Tippe auf die Teilen-Schaltfläche <span style=\"font-size:1.2rem\">⎋</span>, scrolle nach unten und tippe auf <strong>\"Zum Home-Bildschirm\"</strong>.",
             pin_step_android: "<strong>Auf Android:</strong> Tippe auf die Menü-Schaltfläche <span style=\"font-size:1.2rem\">⋮</span>, dann auf <strong>\"Zum Startbildschirm hinzufügen\"</strong> oder <strong>\"App installieren\"</strong>.",
             pin_desc_template: "Du bist dabei, \"{0}\" ({1}, {2}) an deinen Home-Bildschirm anzuheften.",
+            pin_desc_template_cat: "Du bist dabei, \"{0}\" ({1}, {2}) an deinen Home-Bildschirm anzuheften.",
             pin_practice_btn: "An Home-Bildschirm anheften 📲",
             cw_across: "Waagerecht",
             cw_down: "Senkrecht",

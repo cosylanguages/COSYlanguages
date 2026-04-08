@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>No iPhone:</strong> Toque no botão Partilhar <span style=\"font-size:1.2rem\">⎋</span>, depois deslize para baixo e toque em <strong>\"Adicionar ao ecrã principal\"</strong>.",
             pin_step_android: "<strong>No Android:</strong> Toque no botão de menu <span style=\"font-size:1.2rem\">⋮</span>, depois toque em <strong>\"Adicionar ao ecrã principal\"</strong> ou <strong>\"Instalar aplicação\"</strong>.",
             pin_desc_template: "Está prestes a adicionar \"{0}\" ({1}, {2}) ao seu ecrã principal.",
+            pin_desc_template_cat: "Está prestes a adicionar \"{0}\" ({1}, {2}) ao seu ecrã principal.",
             pin_practice_btn: "Adicionar ao ecrã principal 📲",
             cw_across: "Horizontais",
             cw_down: "Verticais",

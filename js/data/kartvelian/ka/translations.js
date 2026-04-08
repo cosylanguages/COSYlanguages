@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>iPhone-ზე:</strong> დააჭირეთ <span style=\"font-size:1.2rem\">⎋</span> Share ღილაკს, შემდეგ ჩამოშალეთ და დააჭირეთ <strong>\"Add to Home Screen\"</strong>-ს.",
             pin_step_android: "<strong>Android-ზე:</strong> დააჭირეთ მენიუს <span style=\"font-size:1.2rem\">⋮</span> ღილაკს, შემდეგ დააჭირეთ <strong>\"Add to Home Screen\"</strong>-ს ან <strong>\"Install App\"</strong>-ს.",
             pin_desc_template: "თქვენ აპირებთ „{0}“-ის ({1}, {2}) მთავარ ეკრანზე დამატებას.",
+            pin_desc_template_cat: "თქვენ აპირებთ „{0}“-ის ({1}, {2}) მთავარ ეკრანზე დამატებას.",
             pin_practice_btn: "მთავარ ეკრანზე დამატება 📲",
             cw_across: "ჰორიზონტალურად",
             cw_down: "ვერტიკალურად",
