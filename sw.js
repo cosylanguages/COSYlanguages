@@ -1,4 +1,4 @@
-const CACHE = 'cosy-v2';
+const CACHE = 'cosy-v3';
 const STATIC = [
   '/COSYlanguages/',
   '/COSYlanguages/index.html',

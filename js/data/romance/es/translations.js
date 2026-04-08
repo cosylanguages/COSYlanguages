@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>En iPhone:</strong> Pulsa el botón Compartir <span style=\"font-size:1.2rem\">⎋</span>, desplázate hacia abajo y pulsa <strong>\"Añadir a la pantalla de inicio\"</strong>.",
             pin_step_android: "<strong>En Android:</strong> Pulsa el botón de menú <span style=\"font-size:1.2rem\">⋮</span>, luego pulsa <strong>\"Añadir a la pantalla de inicio\"</strong> o <strong>\"Instalar aplicación\"</strong>.",
             pin_desc_template: "Estás a punto de añadir \"{0}\" ({1}, {2}) a tu pantalla de inicio.",
+            pin_desc_template_cat: "Estás a punto de añadir \"{0}\" ({1}, {2}) a tu pantalla de inicio.",
             pin_practice_btn: "Añadir a la pantalla de inicio 📲",
             cw_across: "Horizontales",
             cw_down: "Verticales",

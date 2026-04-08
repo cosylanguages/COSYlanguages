@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>iPhone-ում.</strong> Սեղմեք <span style=\"font-size:1.2rem\">⎋</span> Share կոճակը, ապա իջեք ներքև և սեղմեք <strong>\"Add to Home Screen\"</strong>:",
             pin_step_android: "<strong>Android-ում.</strong> Սեղմեք մենյուի <span style=\"font-size:1.2rem\">⋮</span> կոճակը, ապա սեղմեք <strong>\"Add to Home Screen\"</strong> կամ <strong>\"Install App\"</strong>:",
             pin_desc_template: "Դուք պատրաստվում եք ամրացնել «{0}» ({1}, {2}) հիմնական էկրանին:",
+            pin_desc_template_cat: "Դուք պատրաստվում եք ամրացնել «{0}» ({1}, {2}) հիմնական էկրանին:",
             pin_practice_btn: "Ավելացնել հիմնական էկրանին 📲",
             cw_across: "Հորիզոնական",
             cw_down: "Ուղղահայաց",

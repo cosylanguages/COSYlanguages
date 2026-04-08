@@ -48,7 +48,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             prompts.forEach(pKey => {
                 const li = document.createElement('li');
-                li.textContent = t(pKey);
+                li.textContent = t(pKey) || pKey;
+                li.style.background = 'rgba(107,143,113,0.1)';
+                li.style.margin = '4px 0';
+                li.style.padding = '8px 12px';
+                li.style.borderRadius = '8px';
+                li.style.fontSize = '0.85rem';
+                li.style.fontWeight = '700';
+                li.style.color = 'var(--sage-deep)';
                 promptList.appendChild(li);
             });
 

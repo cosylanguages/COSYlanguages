@@ -112,26 +112,31 @@
     }
 
     function addWordToHistory(word, turn) {
-        const span = document.createElement('div');
-        span.style.marginBottom = '0.5rem';
-        span.style.padding = '0.4rem 0.8rem';
-        span.style.borderRadius = '10px';
-        span.style.display = 'inline-block';
-        span.style.marginRight = '0.5rem';
+        const div = document.createElement('div');
+        div.style.marginBottom = '0.5rem';
+        div.style.padding = '0.4rem 0.8rem';
+        div.style.borderRadius = '10px';
+        div.style.display = 'inline-block';
+        div.style.marginRight = '0.5rem';
+        div.style.fontSize = '0.9rem';
+        div.style.fontWeight = '700';
 
         if (turn === 'player') {
-            span.style.background = 'var(--primary-color)';
-            span.style.color = 'white';
+            div.style.background = 'var(--sage)';
+            div.style.color = 'white';
         } else {
-            span.style.background = 'var(--secondary-color)';
-            span.style.color = 'white';
+            div.style.background = 'var(--honey)';
+            div.style.color = 'white';
         }
 
         const vocabItem = state.filteredVocab.find(v => normalize(v.word) === normalize(word));
         const displayWord = vocabItem ? `${vocabItem.emoji || ''} ${word}` : word;
 
-        span.textContent = displayWord;
-        elements.history.appendChild(span);
+        div.textContent = displayWord;
+        elements.history.appendChild(div);
+
+        // Ensure the history box is visible and scrolls
+        elements.history.style.display = 'block';
         elements.history.scrollTop = elements.history.scrollHeight;
     }
 

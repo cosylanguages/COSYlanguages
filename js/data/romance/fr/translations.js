@@ -1105,6 +1105,7 @@
             pin_step_ios: "<strong>Sur iPhone :</strong> Appuyez sur le bouton Partager <span style=\"font-size:1.2rem\">⎋</span>, puis faites défiler vers le bas et appuyez su <strong>\"Sur l'écran d'accueil\"</strong>.",
             pin_step_android: "<strong>Sur Android :</strong> Appuyez sur le bouton menu <span style=\"font-size:1.2rem\">⋮</span>, puis appuyez sur <strong>\"Ajouter à l'écran d'accueil\"</strong> ou <strong>\"Installer l'application\"</strong>.",
             pin_desc_template: "Vous êtes sur le point d'ajouter \"{0}\" ({1}, {2}) à votre écran d'accueil.",
+            pin_desc_template_cat: "Vous êtes sur le point d'ajouter \"{0}\" ({1}, {2}) à votre écran d'accueil.",
             pin_practice_btn: "Ajouter à l'écran d'accueil 📲"
         }
         };

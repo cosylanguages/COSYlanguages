@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>iPhone-да:</strong> <span style=\"font-size:1.2rem\">⎋</span> «Уртаҡлашырға» төймәһенә баҫығыҙ, аҫҡа шылдырығыҙ һәм <strong>«Экранға „Домой“»</strong> һайлағыҙ.",
             pin_step_android: "<strong>Android-да:</strong> Меню төймәһенә <span style=\"font-size:1.2rem\">⋮</span> баҫығыҙ, унан һуң <strong>«Төп экранға өҫтәү»</strong> йәки <strong>«Ҡушымтаны урынлаштырыу»</strong> һайлағыҙ.",
             pin_desc_template: "Һеҙ «{0}» ({1}, {2}) төп экранға беркетергә җыйынаһығыҙ.",
+            pin_desc_template_cat: "Һеҙ «{0}» ({1}, {2}) төп экранға беркетергә җыйынаһығыҙ.",
             pin_practice_btn: "Төп экранға өҫтәү 📲",
             cw_across: "Горизонталь буйынса",
             cw_down: "Вертикаль буйынса",

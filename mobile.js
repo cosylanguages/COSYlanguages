@@ -61,37 +61,60 @@ function flashAnswer(correct) {
 
 // ── Game setup bottom sheet
 function openGameSheet(gameName, gameIcon, mode = 'solo') {
+  console.log('Opening game sheet:', gameName, mode);
   const sheet = document.getElementById('game-setup-sheet');
   const overlay = document.getElementById('sheet-overlay');
-  if (!sheet) return;
+  if (!sheet) {
+    console.error("Game setup sheet not found!");
+    return;
+  }
 
   const title = sheet.querySelector('.gss-title');
   if (title) title.innerHTML = `<span>${gameIcon}</span> ${gameName}`;
 
-  // Reset options
+  // Sync with URL params first, then global preferences, then storage
+  const urlParams = new URLSearchParams(window.location.search);
+  const targetLang = urlParams.get('lang') || document.getElementById('global-lang-select')?.value || localStorage.getItem('language') || 'en';
+  const targetLevel = urlParams.get('level') || document.getElementById('global-level-select')?.value || 'starter';
+
   const langOptions = sheet.querySelectorAll('#gss-lang-options .gss-option');
   const levelOptions = sheet.querySelectorAll('#gss-level-options .gss-option');
   const startBtn = sheet.querySelector('.gss-start');
 
-  langOptions.forEach(opt => {
-    opt.onclick = () => {
-      langOptions.forEach(o => o.classList.remove('active'));
-      opt.classList.add('active');
-    };
-  });
+  if (langOptions.length > 0) {
+    langOptions.forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.value === targetLang);
+        opt.onclick = () => {
+          console.log('Language changed in sheet:', opt.dataset.value);
+          langOptions.forEach(o => o.classList.remove('active'));
+          opt.classList.add('active');
+          updateGSSThemes(gameName, langOptions, levelOptions);
+        };
+    });
+    if (!sheet.querySelector('#gss-lang-options .gss-option.active')) langOptions[0].classList.add('active');
+  }
 
-  levelOptions.forEach(opt => {
-    opt.onclick = () => {
-      levelOptions.forEach(o => o.classList.remove('active'));
-      opt.classList.add('active');
-    };
-  });
+  if (levelOptions.length > 0) {
+    levelOptions.forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.value === targetLevel);
+        opt.onclick = () => {
+          console.log('Level changed in sheet:', opt.dataset.value);
+          levelOptions.forEach(o => o.classList.remove('active'));
+          opt.classList.add('active');
+          updateGSSThemes(gameName, langOptions, levelOptions);
+        };
+    });
+    if (!sheet.querySelector('#gss-level-options .gss-option.active')) levelOptions[0].classList.add('active');
+  }
+
+  updateGSSThemes(gameName, langOptions, levelOptions);
 
   const pinBtn = sheet.querySelector('#gss-pin-btn');
   if (pinBtn) {
     pinBtn.onclick = () => {
       const lang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value || 'en';
       const level = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value || 'starter';
+      const theme = sheet.querySelector('#gss-theme-options .gss-option.active')?.dataset.value || 'all';
 
       const gameMapInverse = {
         'Emoji Odyssey': 'emoji_odyssey',
@@ -112,16 +135,16 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
 
       const gameId = gameMapInverse[gameName] || 'practice';
       const baseUrl = window.location.origin + window.location.pathname;
-      const deepLink = `${baseUrl}?game=${gameId}&lang=${lang}&level=${level}&embed=true`;
+      const deepLink = `${baseUrl}?game=${gameId}&lang=${lang}&level=${level}&theme=${theme}&embed=true`;
 
-      const template = (window.t && window.t('pin_desc_template')) || "You're about to pin \"{0}\" ({1}, {2}) to your home screen.";
+      const template = (window.gameUtils && window.gameUtils.t ? window.gameUtils.t('pin_desc_template') : null) || (window.t ? window.t('pin_desc_template') : null) || "You're about to pin \"{0}\" ({1}, {2}) to your home screen.";
       const desc = template
         .replace('{0}', gameName)
         .replace('{1}', lang.toUpperCase())
         .replace('{2}', level);
 
       showPinModal(
-        (window.t && window.t('pin_title')) || 'Add to Home Screen',
+        (window.gameUtils && window.gameUtils.t ? window.gameUtils.t('pin_title') : null) || (window.t ? window.t('pin_title') : null) || 'Add to Home Screen',
         desc,
         deepLink
       );
@@ -130,15 +153,13 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
 
   if (startBtn) {
     startBtn.onclick = () => {
-      const lang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value;
-      const level = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value;
+      console.log('Starting game from sheet:', gameName);
+      const selectedLang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value;
+      const selectedLevel = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value;
+      const selectedTheme = sheet.querySelector('#gss-theme-options .gss-option.active')?.dataset.value || 'all';
 
       closeGameSheet();
 
-      // For Bingo, if it's 'friends', we usually want the setup to show instead of auto-starting
-      // but let's see if we can automate it.
-
-      // Find the existing modal and setup the game
       const gameMap = {
         'Emoji Odyssey': 'emoji',
         'Lucky Numbers': 'bingo',
@@ -157,13 +178,13 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
       };
 
       const prefix = gameMap[gameName];
+      console.log('Game prefix:', prefix);
       if (prefix) {
-        // Set lang and level in the existing desktop-style modal
         const modal = document.getElementById(`${prefix}-modal`);
-
         if (modal) {
           const langSelect = modal.querySelector('.game-lang') || modal.querySelector(`#${prefix}-lang`);
           const levelSelect = modal.querySelector('.game-level') || modal.querySelector(`#${prefix}-level`);
+          const themeSelect = modal.querySelector('.game-theme') || modal.querySelector(`#${prefix}-theme`);
 
           let startBtnId = `#start-${prefix}-game-btn`;
           if (prefix === 'talk-talk' || prefix === 'debates' || prefix === 'opinion-arena' || prefix === 'critics-corner') {
@@ -173,47 +194,50 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
               startBtnId = `#start-${prefix}-btn`;
           }
 
-          const startBtn = modal.querySelector(startBtnId) ||
-                           modal.querySelector('#start-bingo-caller-btn'); // special case for bingo
+          const actualStartBtn = modal.querySelector(startBtnId) ||
+                                modal.querySelector('#start-bingo-caller-btn');
 
-          if (langSelect) langSelect.value = lang;
-          if (levelSelect) levelSelect.value = level;
+          if (langSelect && selectedLang) langSelect.value = selectedLang;
+          if (levelSelect && selectedLevel) levelSelect.value = selectedLevel;
+          if (themeSelect && selectedTheme) themeSelect.value = selectedTheme;
 
-          // Trigger change events if any
           langSelect?.dispatchEvent(new Event('change'));
           levelSelect?.dispatchEvent(new Event('change'));
+          themeSelect?.dispatchEvent(new Event('change'));
 
-          // Open the actual game modal
           modal.style.display = 'flex';
 
-          // Click start button after a short delay
           setTimeout(() => {
-            // Handle solo/friends toggle if it exists
             const soloCheck = modal.querySelector(`#${prefix}-solo-mode`) || modal.querySelector('.solo-mode-check');
             if (soloCheck) {
                 soloCheck.checked = (mode === 'solo');
                 soloCheck.dispatchEvent(new Event('change'));
             }
 
-            if (startBtn) {
+            if (actualStartBtn) {
+                console.log('Clicking actual start button');
                 if (prefix === 'bingo') {
                     if (mode === 'solo') {
                         const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
                         if (soloCheckBingo) soloCheckBingo.checked = true;
                         const callerBtn = modal.querySelector('#start-bingo-caller-btn');
                         if (callerBtn) callerBtn.click();
+                    } else {
+                        const playerBtn = modal.querySelector('#start-bingo-player-btn');
+                        if (playerBtn) playerBtn.click();
                     }
-                } else if (mode === 'solo') {
-                    startBtn.click();
                 } else {
-                    // For friends mode, maybe we just want to show the setup/share button
-                    // But if it's already a direct action, we might still want to click start
-                    // Many games generate the seed upon starting.
-                    startBtn.click();
+                    actualStartBtn.click();
                 }
+            } else {
+                console.error('Actual start button not found in modal:', startBtnId);
             }
-          }, 100);
+          }, 150);
+        } else {
+          console.error('Modal not found:', `${prefix}-modal`);
         }
+      } else {
+          console.error('No prefix found for game:', gameName);
       }
     };
   }
@@ -221,6 +245,51 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
   sheet.classList.add('open');
   overlay?.classList.add('open');
   document.body.style.overflow = 'hidden';
+}
+
+function updateGSSThemes(gameName, langOptions, levelOptions) {
+  const themeField = document.getElementById('gss-theme-field');
+  const themeOptions = document.getElementById('gss-theme-options');
+  if (!themeField || !themeOptions) return;
+
+  const lang = Array.from(langOptions).find(o => o.classList.contains('active'))?.dataset.value || 'en';
+  const level = Array.from(levelOptions).find(o => o.classList.contains('active'))?.dataset.value || 'starter';
+
+  // Only certain games support themes in the setup sheet for now
+  const themedGames = ['Cosy Crossword', 'Lucky Numbers', 'Action Hero', 'Identity Mystery', 'Object Quest', 'Last Letter', 'Battle of Wits', 'Fluency Flow', 'Opinion Arena', "Critic's Corner"];
+
+  if (themedGames.includes(gameName)) {
+    themeField.style.display = 'block';
+    themeOptions.innerHTML = '';
+
+    // Add "All"
+    const allBtn = document.createElement('button');
+    allBtn.className = 'gss-option active';
+    allBtn.dataset.value = 'all';
+    allBtn.textContent = (window.t && window.t('theme_all')) || 'All';
+    allBtn.onclick = () => {
+      themeOptions.querySelectorAll('.gss-option').forEach(o => o.classList.remove('active'));
+      allBtn.classList.add('active');
+    };
+    themeOptions.appendChild(allBtn);
+
+    // Get themes from themeConfig
+    if (window.themeConfig && window.themeConfig[level] && window.themeConfig[level].common_themes) {
+      Object.entries(window.themeConfig[level].common_themes).forEach(([id, label]) => {
+        const btn = document.createElement('button');
+        btn.className = 'gss-option';
+        btn.dataset.value = id;
+        btn.textContent = (window.t && window.t('theme_' + id)) || label;
+        btn.onclick = () => {
+          themeOptions.querySelectorAll('.gss-option').forEach(o => o.classList.remove('active'));
+          btn.classList.add('active');
+        };
+        themeOptions.appendChild(btn);
+      });
+    }
+  } else {
+    themeField.style.display = 'none';
+  }
 }
 
 function closeGameSheet() {
@@ -437,14 +506,93 @@ function injectPinModal() {
   document.body.appendChild(modal);
 }
 
+// ── Auto-launch from deep links
+function checkAutoLaunch() {
+    const params = new URLSearchParams(window.location.search);
+    const gameId = params.get('game');
+    const cat = params.get('cat');
+
+    if (gameId) {
+        const gameMap = {
+            'emoji_odyssey': ['Emoji Odyssey', '📖'],
+            'bingo': ['Lucky Numbers', '🔢'],
+            'word_linker': ['Word Linker', '🔗'],
+            'last_letter': ['Last Letter', '🔤'],
+            'action_hero': ['Action Hero', '🎭'],
+            'guess-who': ['Identity Mystery', '👤'],
+            'guess-what': ['Object Quest', '📦'],
+            'talk-talk': ['Fluency Flow', '🗣️'],
+            'debates': ['Battle of Wits', '⚖️'],
+            'opinion_arena': ['Opinion Arena', '🏟️'],
+            'critics_corner': ["Critic's Corner", '🎭'],
+            'story-chain': ['Story Chain', '🃏'],
+            'hot-seat': ['Hot Seat', '🎯'],
+            'crossword': ['Cosy Crossword', '🧩']
+        };
+
+        const config = gameMap[gameId];
+        if (config) {
+            setTimeout(() => {
+                openGameSheet(config[0], config[1], params.get('mode') || 'solo');
+            }, 500);
+        }
+    } else if (cat && typeof window.startPractice === 'function') {
+        const radio = document.getElementById(`cat-${cat}`);
+        if (radio) {
+            radio.checked = true;
+            if (typeof window.updateCategoryUI === 'function') window.updateCategoryUI();
+            setTimeout(() => window.startPractice(params.get('mode') === 'wheel'), 500);
+        }
+    }
+}
+
 // ── Boot
 function initMobile() {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('embed') === 'true') {
+    document.body.classList.add('embedded-mode');
+  }
+
   injectMobileNav();
   injectAnswerFlash();
   injectSheetOverlay();
   injectPinModal();
   checkInstallPrompt();
   updateMobileNav();
+  checkAutoLaunch();
+
+  // Pin Practice Category
+  const pinPracticeBtn = document.getElementById('pin-practice-btn');
+  if (pinPracticeBtn) {
+    pinPracticeBtn.onclick = () => {
+      const selectedRadio = document.querySelector('input[name="practice-cat"]:checked');
+      const cat = selectedRadio?.id.replace('cat-', '') || 'vocab';
+      const lang = document.querySelector('.lang-selection-card.active')?.dataset.value || 'en';
+      const level = document.getElementById('practice-level')?.value || 'starter';
+      const theme = document.getElementById('practice-theme')?.value || 'all';
+
+      const baseUrl = window.location.origin + window.location.pathname;
+      const deepLink = `${baseUrl}?cat=${cat}&lang=${lang}&level=${level}&theme=${theme}&embed=true`;
+
+      const catNames = {
+          'vocab': (window.t ? window.t('cat_vocab') : 'Vocabulary'),
+          'grammar': (window.t ? window.t('cat_grammar') : 'Grammar'),
+          'speaking': (window.t ? window.t('cat_speaking') : 'Speaking')
+      };
+
+      const template = (window.t ? (window.t('pin_desc_template_cat') || window.t('pin_desc_template')) : null) || "You're about to pin \"{0}\" ({1}, {2}) to your home screen.";
+      const desc = template
+        .replace('{0}', catNames[cat] || cat)
+        .replace('{1}', lang.toUpperCase())
+        .replace('{2}', level);
+
+      showPinModal(
+        (window.t ? window.t('pin_title') : 'Add to Home Screen'),
+        desc,
+        deepLink
+      );
+    };
+  }
 }
 
 if (document.readyState === 'loading') {

@@ -930,6 +930,7 @@
             pin_step_ios: "<strong>On iPhone:</strong> Tap the <span style=\"font-size:1.2rem\">⎋</span> Share button, then scroll down and tap <strong>\"Add to Home Screen\"</strong>.",
             pin_step_android: "<strong>On Android:</strong> Tap the <span style=\"font-size:1.2rem\">⋮</span> menu button, then tap <strong>\"Add to Home Screen\"</strong> or <strong>\"Install App\"</strong>.",
             pin_desc_template: "You're about to pin \"{0}\" ({1}, {2}) to your home screen.",
+            pin_desc_template_cat: "You're about to pin \"{0}\" ({1}, {2}) to your home screen.",
             pin_practice_btn: "Pin to Home Screen 📲",
             zalando: "Zalando",
             zalando_desc: "Online clothing and shoe store.",

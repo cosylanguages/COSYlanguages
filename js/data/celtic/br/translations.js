@@ -906,6 +906,7 @@
             pin_step_ios: "<strong>War iPhone :</strong> Pouezit war an nozelenn Eskemm <span style=\"font-size:1.2rem\">⎋</span>, diskennit ha pouezit war <strong>\"Ouzhpennañ d'ar skramm degemer\"</strong>.",
             pin_step_android: "<strong>War Android :</strong> Pouezit war an nozelenn lañser <span style=\"font-size:1.2rem\">⋮</span>, ha pouezit war <strong>\"Ouzhpennañ d'ar skramm degemer\"</strong> pe <strong>\"Staliañ an arload\"</strong>.",
             pin_desc_template: "Emaoc'h o vont da stagañ \"{0}\" ({1}, {2}) ouzh ho skramm degemer.",
+            pin_desc_template_cat: "Emaoc'h o vont da stagañ \"{0}\" ({1}, {2}) ouzh ho skramm degemer.",
             pin_practice_btn: "Ouzhpennañ d'ar skramm degemer 📲",
             cw_across: "A-blaen",
             cw_down: "A-serzh",
