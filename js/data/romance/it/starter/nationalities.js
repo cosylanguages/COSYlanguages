@@ -210,6 +210,8 @@
         "article": "la",
         "countability": "uncountable",
         "partitive": "della",
+        "in_article": "nella",
+        "da_article": "dalla",
         "definitions": [
             {
                 "text": "Appartenenza di una persona a una nazione.",

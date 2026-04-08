@@ -1,6 +1,12 @@
 (function() {
     const data = [
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Francia",
         "transcription": "ˈfrantʃa",
         "definitions": [
@@ -15,7 +21,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Italia",
         "transcription": "iˈtalja",
         "definitions": [
@@ -30,7 +42,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Russia",
         "transcription": "ˈrusja",
         "definitions": [
@@ -45,7 +63,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Grecia",
         "transcription": "ˈɡrɛtʃa",
         "definitions": [
@@ -60,7 +84,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Inghilterra",
         "transcription": "iŋɡilˈtɛra",
         "definitions": [
@@ -75,7 +105,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Spagna",
         "transcription": "ˈspaɲa",
         "definitions": [
@@ -90,7 +126,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "gli",
+        "countability": "countable",
+        "partitive": "degli",
+        "in_article": "negli",
+        "da_article": "dagli",
+
         "word": "Stati Uniti",
         "transcription": "ˈstati uˈniti",
         "definitions": [
@@ -105,7 +147,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Germania",
         "transcription": "dʒerˈmanja",
         "definitions": [
@@ -120,7 +168,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Giappone",
         "transcription": "dʒapˈpone",
         "definitions": [
@@ -135,7 +189,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Cina",
         "transcription": "ˈtʃina",
         "definitions": [
@@ -150,7 +210,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Canada",
         "transcription": "ˈkanada",
         "definitions": [
@@ -165,7 +231,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Brasile",
         "transcription": "braˈzile",
         "definitions": [
@@ -180,7 +252,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Australia",
         "transcription": "auˈstralja",
         "definitions": [
@@ -195,7 +273,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Egitto",
         "transcription": "eˈdʒito",
         "definitions": [
@@ -210,7 +294,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "India",
         "transcription": "ˈindja",
         "definitions": [
@@ -225,7 +315,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Messico",
         "transcription": "ˈmɛssiko",
         "definitions": [
@@ -240,7 +336,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Argentina",
         "transcription": "ardʒenˈtina",
         "definitions": [
@@ -255,7 +357,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Perù",
         "transcription": "peˈru",
         "definitions": [
@@ -270,9 +378,15 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Portogallo",
-        "transcription": "portoaˈɡallo",
+        "transcription": "portoˈɡallo",
         "definitions": [
             {
                 "text": "Un paese sulla costa atlantica dell'Europa.",
@@ -285,7 +399,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Svizzera",
         "transcription": "ˈzvittsera",
         "definitions": [
@@ -300,7 +420,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Austria",
         "transcription": "ˈaustrja",
         "definitions": [
@@ -315,7 +441,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "il",
+        "countability": "countable",
+        "partitive": "del",
+        "in_article": "in",
+        "da_article": "dal",
+
         "word": "Belgio",
         "transcription": "ˈbɛldʒo",
         "definitions": [
@@ -330,7 +462,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "masculine",
+        "article": "i",
+        "countability": "countable",
+        "partitive": "dei",
+        "in_article": "nei",
+        "da_article": "dai",
+
         "word": "Paesi Bassi",
         "transcription": "paˈezi ˈbasi",
         "definitions": [
@@ -345,7 +483,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Svezia",
         "transcription": "ˈzvɛtsja",
         "definitions": [
@@ -360,7 +504,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "della",
+        "in_article": "in",
+        "da_article": "dalla",
+
         "word": "Norvegia",
         "transcription": "norˈvɛdʒa",
         "definitions": [
@@ -375,7 +525,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "l'",
+        "countability": "countable",
+        "partitive": "dell'",
+        "in_article": "in",
+        "da_article": "dall'",
+
         "word": "Irlanda",
         "transcription": "irˈlanda",
         "definitions": [
@@ -390,7 +546,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Roma",
         "transcription": "ˈroma",
         "definitions": [
@@ -405,7 +567,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Milano",
         "transcription": "miˈlano",
         "definitions": [
@@ -420,7 +588,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Venezia",
         "transcription": "veˈnɛttsja",
         "definitions": [
@@ -435,7 +609,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Firenze",
         "transcription": "fiˈrɛntse",
         "definitions": [
@@ -450,7 +630,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Napoli",
         "transcription": "ˈnapoli",
         "definitions": [
@@ -465,7 +651,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Parigi",
         "transcription": "paˈridʒi",
         "definitions": [
@@ -480,7 +672,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Londra",
         "transcription": "ˈlondra",
         "definitions": [
@@ -495,7 +693,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Madrid",
         "transcription": "maˈdrid",
         "definitions": [
@@ -510,7 +714,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Berlino",
         "transcription": "berˈlino",
         "definitions": [
@@ -525,7 +735,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Tokyo",
         "transcription": "ˈtɔkjo",
         "definitions": [
@@ -540,7 +756,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Pechino",
         "transcription": "peˈkino",
         "definitions": [
@@ -555,7 +777,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Mosca",
         "transcription": "ˈmɔska",
         "definitions": [
@@ -570,7 +798,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "New York",
         "transcription": "nju ˈjɔrk",
         "definitions": [
@@ -585,7 +819,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Los Angeles",
         "transcription": "los ˈandʒeles",
         "definitions": [
@@ -600,7 +840,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Barcellona",
         "transcription": "bartʃelˈlona",
         "definitions": [
@@ -615,7 +861,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Amsterdam",
         "transcription": "ˈamsterdam",
         "definitions": [
@@ -630,7 +882,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Vienna",
         "transcription": "vjɛnˈna",
         "definitions": [
@@ -645,7 +903,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Praga",
         "transcription": "ˈpraɡa",
         "definitions": [
@@ -660,7 +924,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Dublino",
         "transcription": "dubˈlino",
         "definitions": [
@@ -675,7 +945,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Lisbona",
         "transcription": "lizˈbona",
         "definitions": [
@@ -690,7 +966,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Zurigo",
         "transcription": "dzuˈriɡo",
         "definitions": [
@@ -705,7 +987,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Chicago",
         "transcription": "ʃiˈkaɡo",
         "definitions": [
@@ -720,7 +1008,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "San Francisco",
         "transcription": "san franˈtʃisko",
         "definitions": [
@@ -735,7 +1029,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Miami",
         "transcription": "maˈjami",
         "definitions": [
@@ -750,7 +1050,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Washington",
         "transcription": "ˈwɔʃʃinton",
         "definitions": [
@@ -765,7 +1071,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Sydney",
         "transcription": "ˈsidni",
         "definitions": [
@@ -780,7 +1092,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Toronto",
         "transcription": "toˈronto",
         "definitions": [
@@ -795,7 +1113,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Città del Messico",
         "transcription": "tʃitˈta del ˈmɛssiko",
         "definitions": [
@@ -810,7 +1134,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Istanbul",
         "transcription": "ˈistanbul",
         "definitions": [
@@ -825,7 +1155,13 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
-    {
+    {"gender": "feminine",
+        "article": "la",
+        "countability": "countable",
+        "partitive": "di",
+        "in_article": "a",
+        "da_article": "da",
+
         "word": "Ginevra",
         "transcription": "dʒiˈnɛvra",
         "definitions": [
