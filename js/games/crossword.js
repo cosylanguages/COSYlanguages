@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const CrosswordGame = {
         grid: [],
-        words: [], // { word, clue, x, y, dir, length }
+        words: [], // { word, clue, x, y, dir, length, number }
         selectedCell: null,
+        activeDir: 'H',
         lang: 'en',
 
         init(lang, level, theme) {
@@ -14,7 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Pick 10-15 words
             const selection = [...pool].sort(() => Math.random() - 0.5).slice(0, 15);
-            return this.generateGrid(selection);
+            const success = this.generateGrid(selection);
+            if (success) {
+                this.assignNumbers();
+            }
+            return success;
         },
 
         generateGrid(wordPool) {
@@ -31,15 +36,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Try to place other words intersecting
             let attempts = 0;
-            while (sortedWords.length > 0 && attempts < 100) {
+            while (sortedWords.length > 0 && attempts < 200) {
                 const item = sortedWords.shift();
                 if (!this.tryPlaceWord(item)) {
-                    // Skip for now
+                    // Re-add to end if we still have attempts
+                    if (attempts < 100) sortedWords.push(item);
                 }
                 attempts++;
             }
 
             return this.words.length > 3; // Success if at least 4 words placed
+        },
+
+        assignNumbers() {
+            let currentNumber = 1;
+            // Scan the grid to assign numbers to start cells
+            for (let y = 0; y < this.grid.length; y++) {
+                for (let x = 0; x < this.grid[y].length; x++) {
+                    const starts = this.words.filter(w => w.x === x && w.y === y);
+                    if (starts.length > 0) {
+                        starts.forEach(w => w.number = currentNumber);
+                        currentNumber++;
+                    }
+                }
+            }
         },
 
         placeWord(item, x, y, dir) {
@@ -57,20 +77,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 word: word,
                 clue: (item.emoji ? item.emoji + ' ' : '') + (item.definitions?.[0]?.text || ''),
                 x, y, dir,
-                length: word.length
+                length: word.length,
+                number: 0
             });
         },
 
         tryPlaceWord(item) {
             const word = item.word.toUpperCase();
+            // Try every character of the new word
             for (let i = 0; i < word.length; i++) {
                 const char = word[i];
-                // Look for this char on the grid
+                // Scan grid for match
                 for (let gy = 0; gy < this.grid.length; gy++) {
                     for (let gx = 0; gx < this.grid[gy].length; gx++) {
                         if (this.grid[gy][gx]?.char === char) {
-                            // Try horizontal if current is vertical, and vice versa
-                            const newDir = this.grid[gy][gx].wordIndices.some(idx => this.words[idx].dir === 'H') ? 'V' : 'H';
+                            // Match found! Try placing perpendicular
+                            const existingWordIdx = this.grid[gy][gx].wordIndices[0];
+                            const existingDir = this.words[existingWordIdx].dir;
+                            const newDir = existingDir === 'H' ? 'V' : 'H';
+
                             const nx = newDir === 'H' ? gx - i : gx;
                             const ny = newDir === 'V' ? gy - i : gy;
 
@@ -94,14 +119,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 const cx = dir === 'H' ? x + i : x;
                 const cy = dir === 'V' ? y + i : y;
                 const cell = this.grid[cy][cx];
+
+                // If cell occupied, must match char
                 if (cell && cell.char !== word[i]) return false;
 
-                // Avoid adjacent words
+                // If cell empty, must not have parallel adjacent words
                 if (!cell) {
                     if (dir === 'H') {
                         if (this.grid[cy-1]?.[cx] || this.grid[cy+1]?.[cx]) return false;
+                        // Check before/after
+                        if (i === 0 && this.grid[cy]?.[cx-1]) return false;
+                        if (i === word.length - 1 && this.grid[cy]?.[cx+1]) return false;
                     } else {
                         if (this.grid[cy]?.[cx-1] || this.grid[cy]?.[cx+1]) return false;
+                        // Check before/after
+                        if (i === 0 && this.grid[cy-1]?.[cx]) return false;
+                        if (i === word.length - 1 && this.grid[cy+1]?.[cx]) return false;
                     }
                 }
             }
@@ -118,13 +151,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 for (let x = 0; x < this.grid[y].length; x++) {
                     const cell = this.grid[y][x];
                     if (cell) {
-                        const num = cell.isStart ? (this.words.findIndex(w => w.x === x && w.y === y) + 1) : '';
-                        html += `<td class="cw-cell" data-x="${x}" data-y="${y}" style="width: 40px; height: 40px; border: 1.5px solid #2e4a33; position: relative; background: #fff; cursor: pointer;">
-                            ${num ? `<span style="position: absolute; top: 2px; left: 2px; font-size: 10px; font-weight: 800; color: #6b8f71;">${num}</span>` : ''}
-                            <input type="text" maxlength="1" class="cw-input" style="width: 100%; height: 100%; border: none; text-align: center; font-weight: 900; font-size: 20px; text-transform: uppercase; background: transparent; outline: none; caret-color: transparent;">
+                        const startWord = this.words.find(w => w.x === x && w.y === y);
+                        const num = startWord ? startWord.number : '';
+                        html += `<td class="cw-cell" data-x="${x}" data-y="${y}">
+                            ${num ? `<span class="cw-cell-num">${num}</span>` : ''}
+                            <input type="text" maxlength="1" class="cw-input" data-x="${x}" data-y="${y}">
                         </td>`;
                     } else {
-                        html += `<td style="width: 40px; height: 40px; background: #f0f5f1;"></td>`;
+                        html += `<td class="cw-cell empty"></td>`;
                     }
                 }
                 html += '</tr>';
@@ -132,64 +166,158 @@ document.addEventListener('DOMContentLoaded', () => {
             html += '</table>';
             container.innerHTML = html;
 
+            this.renderClues();
+
             // Setup events
-            container.querySelectorAll('.cw-cell').forEach(td => {
+            container.querySelectorAll('.cw-cell:not(.empty)').forEach(td => {
                 const input = td.querySelector('input');
+                const x = parseInt(td.dataset.x);
+                const y = parseInt(td.dataset.y);
+
                 td.addEventListener('click', () => {
-                    this.selectCell(td);
+                    const cell = this.grid[y][x];
+                    if (cell.wordIndices.length > 1 && this.selectedCell?.x === x && this.selectedCell?.y === y) {
+                        // Toggle direction on intersection click
+                        this.activeDir = this.activeDir === 'H' ? 'V' : 'H';
+                    } else if (cell.wordIndices.length === 1) {
+                        this.activeDir = this.words[cell.wordIndices[0]].dir;
+                    }
+                    this.selectCell(x, y);
                     input.focus();
                 });
+
                 input.addEventListener('input', (e) => {
                     if (e.data) {
+                        input.style.color = 'var(--ink)';
                         this.moveNext();
                     }
                 });
+
                 input.addEventListener('keydown', (e) => {
                     if (e.key === 'Backspace' && !input.value) {
                         this.movePrev();
+                        e.preventDefault();
+                    } else if (e.key.startsWith('Arrow')) {
+                        this.handleArrowKey(e.key);
+                        e.preventDefault();
                     }
                 });
             });
+
+            // Initial selection
+            const firstWord = this.words[0];
+            this.activeDir = firstWord.dir;
+            this.selectCell(firstWord.x, firstWord.y);
         },
 
-        selectCell(td) {
-            document.querySelectorAll('.cw-cell').forEach(c => c.style.background = '#fff');
-            td.style.background = 'var(--honey-mid)';
-            const x = parseInt(td.dataset.x);
-            const y = parseInt(td.dataset.y);
+        renderClues() {
+            const acrossList = document.getElementById('cw-clues-across');
+            const downList = document.getElementById('cw-clues-down');
+            if (!acrossList || !downList) return;
+
+            acrossList.innerHTML = '';
+            downList.innerHTML = '';
+
+            this.words.sort((a, b) => a.number - b.number).forEach(w => {
+                const div = document.createElement('div');
+                div.className = 'cw-clue-item';
+                div.dataset.number = w.number;
+                div.dataset.dir = w.dir;
+                div.innerHTML = `<strong>${w.number}.</strong> ${w.clue}`;
+
+                div.onclick = () => {
+                    this.activeDir = w.dir;
+                    this.selectCell(w.x, w.y);
+                    document.querySelector(`.cw-input[data-x="${w.x}"][data-y="${w.y}"]`)?.focus();
+                };
+
+                if (w.dir === 'H') acrossList.appendChild(div);
+                else downList.appendChild(div);
+            });
+        },
+
+        handleArrowKey(key) {
+            if (!this.selectedCell) return;
+            let { x, y } = this.selectedCell;
+            if (key === 'ArrowRight') x++;
+            else if (key === 'ArrowLeft') x--;
+            else if (key === 'ArrowDown') y++;
+            else if (key === 'ArrowUp') y--;
+
+            const nextInput = document.querySelector(`.cw-input[data-x="${x}"][data-y="${y}"]`);
+            if (nextInput) {
+                // Determine direction based on move
+                if (key === 'ArrowRight' || key === 'ArrowLeft') this.activeDir = 'H';
+                if (key === 'ArrowDown' || key === 'ArrowUp') this.activeDir = 'V';
+
+                this.selectCell(x, y);
+                nextInput.focus();
+            }
+        },
+
+        selectCell(x, y) {
+            this.selectedCell = { x, y };
             const cell = this.grid[y][x];
-            if (cell) {
-                const wordIdx = cell.wordIndices[0];
-                const word = this.words[wordIdx];
-                const dirText = word.dir === 'H' ? t('cw_across') : t('cw_down');
-                document.getElementById('crossword-clue-display').textContent = `[${dirText}] ${word.clue}`;
-                this.selectedCell = { x, y };
+
+            // Clear previous highlighting
+            document.querySelectorAll('.cw-cell').forEach(c => {
+                c.classList.remove('active-word', 'active-cell');
+                c.style.background = '';
+            });
+
+            // Find active word
+            let activeWord = this.words.find(w => w.dir === this.activeDir && cell.wordIndices.includes(this.words.indexOf(w)));
+            if (!activeWord) activeWord = this.words[cell.wordIndices[0]];
+            this.activeDir = activeWord.dir;
+
+            // Highlight word
+            for (let i = 0; i < activeWord.length; i++) {
+                const wx = activeWord.dir === 'H' ? activeWord.x + i : activeWord.x;
+                const wy = activeWord.dir === 'V' ? activeWord.y + i : activeWord.y;
+                const td = document.querySelector(`.cw-cell[data-x="${wx}"][data-y="${wy}"]`);
+                if (td) td.style.background = 'var(--sage-mist)';
+            }
+
+            // Highlight selected cell
+            const selectedTd = document.querySelector(`.cw-cell[data-x="${x}"][data-y="${y}"]`);
+            if (selectedTd) selectedTd.style.background = 'var(--honey-mid)';
+
+            // Update clue display
+            const dirText = activeWord.dir === 'H' ? t('cw_across') : t('cw_down');
+            document.getElementById('crossword-clue-display').innerHTML = `<span style="font-size: 0.7rem; color: var(--muted); display: block; text-transform: uppercase;">${activeWord.number} ${dirText}</span> ${activeWord.clue}`;
+
+            // Highlight clue in list
+            document.querySelectorAll('.cw-clue-item').forEach(el => {
+                el.classList.remove('active');
+            });
+            const clueEl = document.querySelector(`.cw-clue-item[data-number="${activeWord.number}"][data-dir="${activeWord.dir}"]`);
+            if (clueEl) {
+                clueEl.classList.add('active');
+                clueEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
         },
 
         moveNext() {
             if (!this.selectedCell) return;
             const { x, y } = this.selectedCell;
-            const wordIdx = this.grid[y][x].wordIndices[0];
-            const word = this.words[wordIdx];
             let nx = x, ny = y;
-            if (word.dir === 'H') nx++; else ny++;
-            const next = document.querySelector(`.cw-cell[data-x="${nx}"][data-y="${ny}"]`);
+            if (this.activeDir === 'H') nx++; else ny++;
+            const next = document.querySelector(`.cw-cell[data-x="${nx}"][data-y="${ny}"] input`);
             if (next) {
-                next.click();
+                this.selectCell(nx, ny);
+                next.focus();
             }
         },
 
         movePrev() {
              if (!this.selectedCell) return;
             const { x, y } = this.selectedCell;
-            const wordIdx = this.grid[y][x].wordIndices[0];
-            const word = this.words[wordIdx];
             let nx = x, ny = y;
-            if (word.dir === 'H') nx--; else ny--;
-            const prev = document.querySelector(`.cw-cell[data-x="${nx}"][data-y="${ny}"]`);
+            if (this.activeDir === 'H') nx--; else ny--;
+            const prev = document.querySelector(`.cw-cell[data-x="${nx}"][data-y="${ny}"] input`);
             if (prev) {
-                prev.click();
+                this.selectCell(nx, ny);
+                prev.focus();
             }
         },
 
@@ -204,17 +332,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (cell) {
                         total++;
                         const input = document.querySelector(`.cw-cell[data-x="${x}"][data-y="${y}"] input`);
-                        if (input.value.toUpperCase() === cell.char) {
+                        const val = input.value.toUpperCase();
+                        if (val === cell.char) {
                             input.style.color = '#1a6b45';
                         } else {
-                            if (input.value) {
+                            if (val) {
                                 input.style.color = '#a32d2d';
                                 allCorrect = false;
                             } else {
                                 allCorrect = false;
                             }
                         }
-                        if (input.value) filled++;
+                        if (val) filled++;
                     }
                 }
             }
@@ -286,6 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 input.value = picked.char;
                 input.style.color = 'var(--honey-dark)';
                 playGameSound('click');
+                CrosswordGame.selectCell(picked.x, picked.y);
             }
         };
 

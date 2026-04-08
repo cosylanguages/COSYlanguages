@@ -27,7 +27,7 @@ test.describe('Overall Website Audit', () => {
         // Specific element checks
         if (pageName === 'index.html') {
           const bodyText = await page.textContent('body');
-          expect(bodyText).toContain('13'); // Verify game count update
+          expect(bodyText).toContain('14'); // Verify game count update
         }
 
         if (pageName === 'events.html') {

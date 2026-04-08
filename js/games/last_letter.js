@@ -25,7 +25,7 @@
         // Buttons
         openBtn: document.getElementById('open-last-letter-btn'),
         closeBtn: document.getElementById('close-last-letter-btn'),
-        startBtn: document.getElementById('start-last-letter-btn'),
+        startBtn: document.getElementById('start-last-letter-game-btn'),
         submitBtn: document.getElementById('submit-last-letter-btn'),
         hintBtn: document.getElementById('hint-last-letter-btn'),
 
@@ -73,7 +73,7 @@
             state.lang = elements.langSelect.value;
             state.level = elements.levelSelect.value;
             state.theme = elements.themeSelect.value;
-            state.isSolo = elements.soloCheck.checked;
+            state.isSolo = elements.soloCheck ? elements.soloCheck.checked : true;
 
             this.reset();
 
@@ -85,7 +85,8 @@
 
             elements.setup.style.display = 'none';
             elements.gameplay.style.display = 'block';
-            elements.input.focus();
+            // Wait for display change before focusing
+            setTimeout(() => elements.input.focus(), 50);
         }
     };
 
@@ -240,9 +241,9 @@
     };
 
     // Event Listeners
-    elements.openBtn.onclick = () => game.open();
-    elements.closeBtn.onclick = () => game.close();
-    elements.startBtn.onclick = () => game.start();
+    if (elements.openBtn) elements.openBtn.onclick = () => game.open();
+    if (elements.closeBtn) elements.closeBtn.onclick = () => game.close();
+    if (elements.startBtn) elements.startBtn.onclick = () => game.start();
     elements.levelSelect.onchange = () => populateThemesLocal();
     elements.langSelect.onchange = () => populateThemesLocal();
     elements.submitBtn.onclick = () => game.submitWord();

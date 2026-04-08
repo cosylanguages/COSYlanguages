@@ -112,7 +112,7 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
 
       const gameId = gameMapInverse[gameName] || 'practice';
       const baseUrl = window.location.origin + window.location.pathname;
-      const deepLink = `${baseUrl}?game=${gameId}&lang=${lang}&level=${level}`;
+      const deepLink = `${baseUrl}?game=${gameId}&lang=${lang}&level=${level}&embed=true`;
 
       const template = (window.t && window.t('pin_desc_template')) || "You're about to pin \"{0}\" ({1}, {2}) to your home screen.";
       const desc = template
@@ -281,10 +281,19 @@ function showPinModal(title, desc, url) {
         gotItBtn.setAttribute('data-translate-key', 'pin_btn_got_it');
     }
 
-    // Update URL without reloading
+    // Update URL and Title for Pinning Context
     window.history.replaceState({}, '', url);
+    const originalTitle = document.title;
+    document.title = title;
 
     pinModal.style.display = 'flex';
+
+    // Restore title on close
+    const closePin = () => {
+        pinModal.style.display = 'none';
+        document.title = originalTitle;
+    };
+    if (gotItBtn) gotItBtn.onclick = closePin;
     if (window.setLanguage) window.setLanguage(localStorage.getItem('language') || 'en');
 }
 
