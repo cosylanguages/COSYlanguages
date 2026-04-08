@@ -81,7 +81,7 @@
         "theme": "political_theory_C2",
         "emoji": "🌍",
         "form": "adjective",
-        "transcription": "ˌpoʊstkəˈloʊniəl",
+        "transcription": "ˌpəʊstkəˈləʊniəl",
         "definitions": [
             {
                 "text": "Relating to the period after colonial rule, or to the critique of colonial legacies.",
@@ -98,7 +98,7 @@
         "theme": "political_theory_C2",
         "emoji": "🌐",
         "form": "adjective",
-        "transcription": "ˌmʌltiˈpoʊlər",
+        "transcription": "ˌmʌltiˈpəʊlər",
         "definitions": [
             {
                 "text": "Describing a world order with several centres of power rather than one or two.",
@@ -159,6 +159,23 @@
             }
         ],
         "subtext": "unconventional"
+    },
+    {
+        "word": "immanent",
+        "level": "proficiency",
+        "theme": "ontology_metaphysics_C2",
+        "emoji": "⚛️",
+        "form": "adjective",
+        "transcription": "ˈɪmənənt",
+        "definitions": [
+            {
+                "text": "Existing or operating within something; not transcendent.",
+                "examples": [
+                    "For Spinoza, God is immanent in nature, not external to it."
+                ]
+            }
+        ],
+        "subtext": "internal/inherent"
     }
 ];
     const lang = "en";

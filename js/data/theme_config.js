@@ -536,7 +536,15 @@ const themeConfig = {
         "description": "desc_c2",
         "common_themes": {
             "ethics_philosophy": {
-                "ontology_metaphysics_C2": "Ontology & metaphysics"
+                "ontology_metaphysics_C2": "Ontology & metaphysics",
+                "ontology_existence_C2": "Ontology & existence",
+                "epistemology_knowledge_C2": "Epistemology & knowledge",
+                "epistemology_truth_C2": "Epistemology & truth",
+                "political_theory_C2": "Political theory",
+                "philosophy_language_C2": "Philosophy of language",
+                "ethics_advanced_C2": "Ethics",
+                "civilisation_history_C2": "Civilisation & history",
+                "mortality_time_C2": "Mortality & time"
             },
             "health_body": {
                 "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
@@ -548,14 +556,6 @@ const themeConfig = {
             "language_communication": {
                 "rhetoric_persuasion_C2": "Rhetoric & persuasion devices",
                 "linguistics_theory_C2": "Linguistics & language theory"
-            },
-            "ethics_philosophy": {
-                "ontology_existence_C2": "Ontology & existence",
-                "epistemology_knowledge_C2": "Epistemology & knowledge",
-                "political_theory_C2": "Political theory",
-                "philosophy_language_C2": "Philosophy of language",
-                "ethics_advanced_C2": "Ethics",
-                "mortality_time_C2": "Mortality & time"
             },
             "opinion_debate": {
                 "meta_argument_deconstruction_C2": "Meta-argument & deconstruction"

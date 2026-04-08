@@ -37,7 +37,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "👤",
         "form": "noun",
-        "plural": "existentialisms"
+        "countability": "uncountable"
     },
     {
         "word": "paradigm shift",
@@ -53,7 +53,6 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🤔",
         "form": "noun",
-        "plural": "aporias",
         "transcription": "əˈpɔːriə",
         "definitions": [
             {
@@ -72,7 +71,6 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🎯",
         "form": "noun",
-        "plural": "teleologies",
         "transcription": "ˌtiːliˈɒlədʒi",
         "definitions": [
             {
@@ -91,7 +89,6 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "👻",
         "form": "noun",
-        "plural": "ontologies",
         "transcription": "ɒnˈtɒlədʒi",
         "definitions": [
             {
@@ -110,7 +107,6 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🧱",
         "form": "noun",
-        "plural": "reifications",
         "transcription": "ˌriːɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -185,7 +181,7 @@
         "theme": "epistemology_knowledge_C2",
         "emoji": "🧠",
         "form": "noun",
-        "transcription": "ˈmoʊtɪveɪtɪd kɒɡˈnɪʃn",
+        "transcription": "ˈməʊtɪveɪtɪd kɒɡˈnɪʃn",
         "definitions": [
             {
                 "text": "The influence of desires and emotions on reasoning and belief formation.",
@@ -203,7 +199,7 @@
         "theme": "ethics_advanced_C2",
         "emoji": "🚀",
         "form": "noun",
-        "transcription": "proʊˈækʃənəri ˈprɪnsəpl",
+        "transcription": "prəʊˈækʃənəri ˈprɪnsəpl",
         "definitions": [
             {
                 "text": "The view that the risks of inaction should be weighed against the risks of action when evaluating new technologies.",
@@ -257,7 +253,7 @@
         "theme": "political_theory_C2",
         "emoji": "👶",
         "form": "noun",
-        "transcription": "ˌproʊˈneɪtəlɪzəm",
+        "transcription": "ˌprəʊˈneɪtəlɪzəm",
         "definitions": [
             {
                 "text": "A policy or ideology that encourages people to have more children.",
@@ -433,6 +429,458 @@
         ],
         "countability": "countable",
         "subtext": "group identifier"
+    },
+    {
+        "word": "phenomenology",
+        "level": "proficiency",
+        "theme": "ontology_metaphysics_C2",
+        "emoji": "🧠",
+        "form": "noun",
+        "transcription": "fəˌnɒmɪˈnɒlədʒi",
+        "definitions": [
+            {
+                "text": "The philosophical study of structures of experience and consciousness.",
+                "examples": [
+                    "He drew on phenomenology to describe the lived experience of unemployment."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "study of consciousness"
+    },
+    {
+        "word": "contingency",
+        "level": "proficiency",
+        "theme": "ontology_existence_C2",
+        "emoji": "🎲",
+        "form": "noun",
+        "plural": "contingencies",
+        "transcription": "kənˈtɪndʒənsi",
+        "definitions": [
+            {
+                "text": "The quality of being possible but not certain; dependent on circumstances.",
+                "examples": [
+                    "History is full of contingency — it could always have gone otherwise."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "possibility/chance"
+    },
+    {
+        "word": "hermeneutics",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "📜",
+        "form": "noun",
+        "transcription": "ˌhɜːmɪˈnjuːtɪks",
+        "definitions": [
+            {
+                "text": "The theory and methodology of interpretation, especially of texts.",
+                "examples": [
+                    "The hermeneutic approach treats every utterance as context-dependent."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "method of interpretation"
+    },
+    {
+        "word": "polysemy",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "🔠",
+        "form": "noun",
+        "transcription": "pəˈlɪsɪmi",
+        "definitions": [
+            {
+                "text": "The property of a word or phrase having multiple related meanings.",
+                "examples": [
+                    "The polysemy of 'freedom' makes political argument almost inevitable."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "multiple meanings"
+    },
+    {
+        "word": "epistemic injustice",
+        "level": "proficiency",
+        "theme": "epistemology_truth_C2",
+        "emoji": "⚖️",
+        "form": "noun",
+        "transcription": "ˌepɪˈstiːmɪk ɪnˈdʒʌstɪs",
+        "definitions": [
+            {
+                "text": "A wrong done to someone in their capacity as a knower, such as dismissing their testimony.",
+                "examples": [
+                    "Miranda Fricker identified testimonial credibility gaps as a form of epistemic injustice."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "unfairness in knowledge"
+    },
+    {
+        "word": "catachresis",
+        "level": "proficiency",
+        "theme": "rhetoric_persuasion_C2",
+        "emoji": "📣",
+        "form": "noun",
+        "transcription": "ˌkætəˈkriːsɪs",
+        "definitions": [
+            {
+                "text": "The deliberate misuse or stretching of a word to create meaning.",
+                "examples": [
+                    "He deployed catachresis brilliantly, calling the policy 'a solution without a problem'."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "stretched metaphor"
+    },
+    {
+        "word": "antinomy",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "⚖️",
+        "form": "noun",
+        "plural": "antinomies",
+        "transcription": "ænˈtɪnəmi",
+        "definitions": [
+            {
+                "text": "A contradiction between two apparently reasonable principles.",
+                "examples": [
+                    "The antinomy between freedom and security lies at the heart of liberal theory."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": "logical contradiction"
+    },
+    {
+        "word": "repression",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🤐",
+        "form": "noun",
+        "transcription": "rɪˈpreʃn",
+        "definitions": [
+            {
+                "text": "The unconscious suppression of thoughts or desires too painful to acknowledge.",
+                "examples": [
+                    "Repression does not eliminate conflict — it delays it."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "unconscious suppression"
+    },
+    {
+        "word": "the uncanny",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🧟",
+        "form": "noun",
+        "transcription": "ði ʌnˈkæni",
+        "definitions": [
+            {
+                "text": "Something familiar made strange in a way that produces unease.",
+                "examples": [
+                    "Freud's concept of the uncanny captures the horror of the almost-human."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "disturbing familiarity"
+    },
+    {
+        "word": "displacement",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🏹",
+        "form": "noun",
+        "transcription": "dɪsˈpleɪsmənt",
+        "definitions": [
+            {
+                "text": "The unconscious shifting of feelings from one object to a safer one.",
+                "examples": [
+                    "Displacement explains why people take work frustrations out on their families."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "shifted emotions"
+    },
+    {
+        "word": "dialectical materialism",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🛠️",
+        "form": "noun",
+        "transcription": "ˌdaɪəˈlektɪkl məˈtɪəriəlɪzəm",
+        "definitions": [
+            {
+                "text": "The Marxist method of analysis based on the conflict between opposing social forces.",
+                "examples": [
+                    "Dialectical materialism predicts that capitalism generates the conditions of its own negation."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "Marxist theory"
+    },
+    {
+        "word": "post-colonialism",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌍",
+        "form": "noun",
+        "transcription": "ˌpəʊstkəˈləʊniəlɪzəm",
+        "definitions": [
+            {
+                "text": "A body of theory examining the lasting cultural and political effects of colonialism.",
+                "examples": [
+                    "Post-colonialism challenges the universality of Enlightenment values."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "critique of colonialism"
+    },
+    {
+        "word": "biopolitics",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🧬",
+        "form": "noun",
+        "transcription": "ˌbaɪəʊˈpɒlətɪks",
+        "definitions": [
+            {
+                "text": "Foucault's concept of the exercise of political power over biological life.",
+                "examples": [
+                    "The pandemic made biopolitics suddenly legible to ordinary citizens."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "power over life"
+    },
+    {
+        "word": "alienation",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "👤",
+        "form": "noun",
+        "transcription": "ˌeɪliəˈneɪʃn",
+        "definitions": [
+            {
+                "text": "In Marxist theory, the estrangement of workers from the product and process of their labour.",
+                "examples": [
+                    "Marx argued that wage labour produces alienation as its necessary by-product."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "worker estrangement"
+    },
+    {
+        "word": "commodification",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏷️",
+        "form": "noun",
+        "transcription": "kəˌmɒdɪfɪˈkeɪʃn",
+        "definitions": [
+            {
+                "text": "The process of transforming something into a tradeable commodity.",
+                "examples": [
+                    "The commodification of care work devalues it while making it visible."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "treating as commodity"
+    },
+    {
+        "word": "bad faith",
+        "level": "proficiency",
+        "theme": "ontology_existence_C2",
+        "emoji": "🎭",
+        "form": "noun",
+        "transcription": "bæd feɪθ",
+        "definitions": [
+            {
+                "text": "In Sartrean existentialism, self-deception about one's freedom and responsibility.",
+                "examples": [
+                    "Taking a job you find meaningless and telling yourself you have no choice is bad faith."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "self-deception"
+    },
+    {
+        "word": "the banality of evil",
+        "level": "proficiency",
+        "theme": "ethics_advanced_C2",
+        "emoji": "🏢",
+        "form": "noun",
+        "transcription": "ðə bəˈnæləti əv ˈiːvl",
+        "definitions": [
+            {
+                "text": "Hannah Arendt's concept that great evil is often carried out by ordinary, unthinking individuals.",
+                "examples": [
+                    "Corporate misconduct demonstrates the banality of evil in bureaucratic settings."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "ordinary evil"
+    },
+    {
+        "word": "finitude",
+        "level": "proficiency",
+        "theme": "mortality_time_C2",
+        "emoji": "⏳",
+        "form": "noun",
+        "transcription": "ˈfɪnɪtjuːd",
+        "definitions": [
+            {
+                "text": "The state of having limits; especially the fact of being mortal.",
+                "examples": [
+                    "Awareness of finitude is the precondition for a meaningful adult life."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "state of being finite"
+    },
+    {
+        "word": "nostalgia",
+        "level": "proficiency",
+        "theme": "mortality_time_C2",
+        "emoji": "📻",
+        "form": "noun",
+        "transcription": "nɒˈstældʒə",
+        "definitions": [
+            {
+                "text": "A sentimental longing for the past, sometimes idealised.",
+                "examples": [
+                    "Political nostalgia for a simpler era drives much of the populist vote."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "longing for the past"
+    },
+    {
+        "word": "entropy",
+        "level": "proficiency",
+        "theme": "civilisation_history_C2",
+        "emoji": "🌪️",
+        "form": "noun",
+        "transcription": "ˈentrəpi",
+        "definitions": [
+            {
+                "text": "The tendency of systems to move toward disorder; also used metaphorically for decline.",
+                "examples": [
+                    "He described the organisation's collapse as a form of social entropy."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "move toward disorder"
+    },
+    {
+        "word": "eschatology",
+        "level": "proficiency",
+        "theme": "civilisation_history_C2",
+        "emoji": "🌋",
+        "form": "noun",
+        "transcription": "ˌeskəˈtɒlədʒi",
+        "definitions": [
+            {
+                "text": "Theological or philosophical doctrine about the ultimate fate of the world or humanity.",
+                "examples": [
+                    "Secular eschatology has replaced divine judgement with existential risk."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "end-times study"
+    },
+    {
+        "word": "mimesis",
+        "level": "proficiency",
+        "theme": "aesthetics_criticism_C2",
+        "emoji": "🎭",
+        "form": "noun",
+        "transcription": "mɪˈmiːsɪs",
+        "definitions": [
+            {
+                "text": "Representation or imitation of reality in art or literature.",
+                "examples": [
+                    "Aristotle's concept of mimesis shaped Western aesthetic theory for centuries."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "artistic imitation"
+    },
+    {
+        "word": "defamiliarisation",
+        "level": "proficiency",
+        "theme": "aesthetics_criticism_C2",
+        "emoji": "🌀",
+        "form": "noun",
+        "transcription": "diːfəˌmɪliəraɪˈzeɪʃn",
+        "definitions": [
+            {
+                "text": "A literary technique making familiar things seem strange to prompt fresh perception.",
+                "examples": [
+                    "Defamiliarisation is central to the modernist aesthetic project."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "strange perception"
+    },
+    {
+        "word": "the sublime",
+        "level": "proficiency",
+        "theme": "aesthetics_criticism_C2",
+        "emoji": "🏔️",
+        "form": "noun",
+        "transcription": "ðə səˈblaɪm",
+        "definitions": [
+            {
+                "text": "An aesthetic quality producing awe mixed with fear at something vast or overwhelming.",
+                "examples": [
+                    "Burke and Kant gave very different accounts of the sublime."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "awesome vastness"
+    },
+    {
+        "word": "kitsch",
+        "level": "proficiency",
+        "theme": "aesthetics_criticism_C2",
+        "emoji": "🦩",
+        "form": "noun",
+        "transcription": "kɪtʃ",
+        "definitions": [
+            {
+                "text": "Art or objects considered to be in poor taste but appreciated ironically or for sentimental reasons.",
+                "examples": [
+                    "He argued that kitsch represents the aesthetic of a society without memory."
+                ]
+            }
+        ],
+        "countability": "uncountable",
+        "subtext": "garish art"
     }
 ];
     const lang = "en";
