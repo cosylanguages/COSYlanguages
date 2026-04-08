@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const lesson = urlParams.get('lesson');
     const seed = urlParams.get('seed');
     const mode = urlParams.get('mode'); // for bingo: 'caller' or 'player'
+    const embed = urlParams.get('embed');
+
+    if (embed === 'true') {
+        document.body.classList.add('embedded-mode');
+    }
 
     if (game) {
         // Safe helpers
@@ -127,6 +132,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (level) setById('hs-level', level);
                     if (theme) setById('hs-theme', theme);
                     if (window.hotSeatStart) window.hotSeatStart();
+                }
+            } else if (game === 'crossword' || game === 'cosy_crossword') {
+                if (window.crosswordGame) {
+                    window.crosswordGame.open();
+                    if (lang) setById('crossword-lang', lang);
+                    if (level) setById('crossword-level', level);
+                    if (theme) setById('crossword-theme', theme);
+                    window.crosswordGame.start();
                 }
             }
 

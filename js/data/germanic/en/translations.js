@@ -925,6 +925,12 @@
             wtd_vf: "Provide the requested verb form (V2 or V3).",
             wtd_vs: "Is this an action verb or a stative verb?",
             wtd_ws: "Sentence Builder: Tap the words in the correct order.",
+            pin_title: "Add to Home Screen",
+            pin_btn_got_it: "Got it!",
+            pin_step_ios: "<strong>On iPhone:</strong> Tap the <span style=\"font-size:1.2rem\">⎋</span> Share button, then scroll down and tap <strong>\"Add to Home Screen\"</strong>.",
+            pin_step_android: "<strong>On Android:</strong> Tap the <span style=\"font-size:1.2rem\">⋮</span> menu button, then tap <strong>\"Add to Home Screen\"</strong> or <strong>\"Install App\"</strong>.",
+            pin_desc_template: "You're about to pin \"{0}\" ({1}, {2}) to your home screen.",
+            pin_practice_btn: "Pin to Home Screen 📲",
             zalando: "Zalando",
             zalando_desc: "Online clothing and shoe store.",
             site_title_redesign: "COSYlanguages 🏡 — Learn a language with teachers who love what they teach",
@@ -989,7 +995,7 @@
             tool_practice_desc: "Vocabulary, grammar and speaking exercises across all our languages. COSY points, daily streaks and 10 task types — the perfect habit between lessons, or a gentle starting point before you begin.",
             tool_practice_cta: "Try free practice →",
             tool_games_title: "Language Games 🎮",
-            tool_games_desc: "13 interactive language games — play solo or with friends. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits and more. Any language, any CEFR level, anytime.",
+            tool_games_desc: "14 interactive language games — play solo or with friends. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits and more. Any language, any CEFR level, anytime.",
             tool_games_cta: "Play free games →",
             events_row_h4: "Live events — Speaking Clubs, Karaoke & Cinema Nights",
             events_row_p: "Organised sessions with a teacher or host — speaking clubs on real topics, karaoke nights and cinema evenings in the original language. Check the events page for details and how to join.",
@@ -1126,7 +1132,12 @@
             wtd_ac: "Type the correct comparative or superlative form.",
             example_ac: "Example: 🧩 big (Comparative) -> bigger",
             wtd_aa: "Type the correct form of the adjective to match the noun.",
-            example_aa: "Example: ⚖️ A ____ house (small) -> small"
+            example_aa: "Example: ⚖️ A ____ house (small) -> small",
+            cw_across: "Across",
+            cw_down: "Down",
+            cw_error_pool: "Not enough words to build a puzzle! Try a lower level or 'All Themes'.",
+            cw_success: "Excellent! You solved the entire puzzle.",
+            cw_keep_going: "Keep going! You've filled {0}% of the puzzle."
         }
         };
     window.translations = window.translations || {};

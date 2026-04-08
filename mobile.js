@@ -60,7 +60,7 @@ function flashAnswer(correct) {
 }
 
 // ── Game setup bottom sheet
-function openGameSheet(gameName, gameIcon) {
+function openGameSheet(gameName, gameIcon, mode = 'solo') {
   const sheet = document.getElementById('game-setup-sheet');
   const overlay = document.getElementById('sheet-overlay');
   if (!sheet) return;
@@ -87,12 +87,56 @@ function openGameSheet(gameName, gameIcon) {
     };
   });
 
+  const pinBtn = sheet.querySelector('#gss-pin-btn');
+  if (pinBtn) {
+    pinBtn.onclick = () => {
+      const lang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value || 'en';
+      const level = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value || 'starter';
+
+      const gameMapInverse = {
+        'Emoji Odyssey': 'emoji_odyssey',
+        'Lucky Numbers': 'bingo',
+        'Word Linker': 'word_linker',
+        'Last Letter': 'last_letter',
+        'Action Hero': 'action_hero',
+        'Identity Mystery': 'guess-who',
+        'Object Quest': 'guess-what',
+        'Fluency Flow': 'talk-talk',
+        'Battle of Wits': 'debates',
+        'Opinion Arena': 'opinion_arena',
+        "Critic's Corner": 'critics_corner',
+        'Story Chain': 'story-chain',
+        'Hot Seat': 'hot-seat',
+        'Cosy Crossword': 'crossword'
+      };
+
+      const gameId = gameMapInverse[gameName] || 'practice';
+      const baseUrl = window.location.origin + window.location.pathname;
+      const deepLink = `${baseUrl}?game=${gameId}&lang=${lang}&level=${level}&embed=true`;
+
+      const template = (window.t && window.t('pin_desc_template')) || "You're about to pin \"{0}\" ({1}, {2}) to your home screen.";
+      const desc = template
+        .replace('{0}', gameName)
+        .replace('{1}', lang.toUpperCase())
+        .replace('{2}', level);
+
+      showPinModal(
+        (window.t && window.t('pin_title')) || 'Add to Home Screen',
+        desc,
+        deepLink
+      );
+    };
+  }
+
   if (startBtn) {
     startBtn.onclick = () => {
       const lang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value;
       const level = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value;
 
       closeGameSheet();
+
+      // For Bingo, if it's 'friends', we usually want the setup to show instead of auto-starting
+      // but let's see if we can automate it.
 
       // Find the existing modal and setup the game
       const gameMap = {
@@ -108,7 +152,8 @@ function openGameSheet(gameName, gameIcon) {
         'Opinion Arena': 'opinion-arena',
         "Critic's Corner": 'critics-corner',
         'Story Chain': 'story-chain',
-        'Hot Seat': 'hot-seat'
+        'Hot Seat': 'hot-seat',
+        'Cosy Crossword': 'crossword'
       };
 
       const prefix = gameMap[gameName];
@@ -143,7 +188,30 @@ function openGameSheet(gameName, gameIcon) {
 
           // Click start button after a short delay
           setTimeout(() => {
-            if (startBtn) startBtn.click();
+            // Handle solo/friends toggle if it exists
+            const soloCheck = modal.querySelector(`#${prefix}-solo-mode`) || modal.querySelector('.solo-mode-check');
+            if (soloCheck) {
+                soloCheck.checked = (mode === 'solo');
+                soloCheck.dispatchEvent(new Event('change'));
+            }
+
+            if (startBtn) {
+                if (prefix === 'bingo') {
+                    if (mode === 'solo') {
+                        const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
+                        if (soloCheckBingo) soloCheckBingo.checked = true;
+                        const callerBtn = modal.querySelector('#start-bingo-caller-btn');
+                        if (callerBtn) callerBtn.click();
+                    }
+                } else if (mode === 'solo') {
+                    startBtn.click();
+                } else {
+                    // For friends mode, maybe we just want to show the setup/share button
+                    // But if it's already a direct action, we might still want to click start
+                    // Many games generate the seed upon starting.
+                    startBtn.click();
+                }
+            }
           }, 100);
         }
       }
@@ -176,6 +244,57 @@ function loadGameSettings() {
 function updateProgressBar(current, total) {
   const fill = document.querySelector('.session-progress-fill');
   if (fill) fill.style.width = Math.round((current / total) * 100) + '%';
+}
+
+// ── Pin to Home Screen logic
+function showPinModal(title, desc, url) {
+    const pinModal = document.getElementById('pin-modal');
+    if (!pinModal) return;
+
+    const pinTitle = document.getElementById('pin-title');
+    const pinDesc = document.getElementById('pin-desc');
+    const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+    if (pinTitle) {
+        pinTitle.textContent = title;
+        pinTitle.setAttribute('data-translate-key', 'pin_title');
+    }
+    if (pinDesc) {
+        pinDesc.textContent = desc;
+        // desc is dynamic, we don't set data-translate-key here
+    }
+
+    const iosStep = document.getElementById('pin-step-ios');
+    const androidStep = document.getElementById('pin-step-android');
+
+    if (iosStep) {
+        iosStep.style.display = isIOS ? 'block' : 'none';
+        iosStep.setAttribute('data-translate-key', 'pin_step_ios');
+    }
+    if (androidStep) {
+        androidStep.style.display = isIOS ? 'none' : 'block';
+        androidStep.setAttribute('data-translate-key', 'pin_step_android');
+    }
+
+    const gotItBtn = pinModal.querySelector('button');
+    if (gotItBtn) {
+        gotItBtn.setAttribute('data-translate-key', 'pin_btn_got_it');
+    }
+
+    // Update URL and Title for Pinning Context
+    window.history.replaceState({}, '', url);
+    const originalTitle = document.title;
+    document.title = title;
+
+    pinModal.style.display = 'flex';
+
+    // Restore title on close
+    const closePin = () => {
+        pinModal.style.display = 'none';
+        document.title = originalTitle;
+    };
+    if (gotItBtn) gotItBtn.onclick = closePin;
+    if (window.setLanguage) window.setLanguage(localStorage.getItem('language') || 'en');
 }
 
 // ── Fluency Flow timer ring
@@ -294,11 +413,36 @@ function injectSheetOverlay() {
   document.body.appendChild(overlay);
 }
 
+// ── Pin Instructions Modal — inject once
+function injectPinModal() {
+  if (document.getElementById('pin-modal')) return;
+  const modal = document.createElement('div');
+  modal.id = 'pin-modal';
+  modal.className = 'modal-overlay';
+  modal.style.display = 'none';
+  modal.innerHTML = `
+    <div class="modal-content glass" style="max-width: 450px; text-align: center;">
+      <div style="font-size: 3rem; margin-bottom: 1rem;">📲</div>
+      <h2 id="pin-title" style="margin-bottom: 0.5rem;" data-translate-key="pin_title">Add to Home Screen</h2>
+      <p id="pin-desc" style="font-size: 0.9rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem;"></p>
+
+      <div id="pin-steps" style="text-align: left; background: var(--sage-mist); padding: 1rem; border-radius: 12px; font-size: 0.85rem; margin-bottom: 1.5rem;">
+          <p id="pin-step-ios" style="display:none" data-translate-key="pin_step_ios"><strong>On iPhone:</strong> Tap the <span style="font-size:1.2rem">⎋</span> Share button, then scroll down and tap <strong>"Add to Home Screen"</strong>.</p>
+          <p id="pin-step-android" style="display:none" data-translate-key="pin_step_android"><strong>On Android:</strong> Tap the <span style="font-size:1.2rem">⋮</span> menu button, then tap <strong>"Add to Home Screen"</strong> or <strong>"Install App"</strong>.</p>
+      </div>
+
+      <button onclick="document.getElementById('pin-modal').style.display='none'" class="cta-button primary" style="width:100%" data-translate-key="pin_btn_got_it">Got it!</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+}
+
 // ── Boot
 function initMobile() {
   injectMobileNav();
   injectAnswerFlash();
   injectSheetOverlay();
+  injectPinModal();
   checkInstallPrompt();
   updateMobileNav();
 }
@@ -314,3 +458,4 @@ window.openGameSheet = openGameSheet;
 window.closeGameSheet = closeGameSheet;
 window.flashAnswer = flashAnswer;
 window.startTimerRing = startTimerRing;
+window.showPinModal = showPinModal;

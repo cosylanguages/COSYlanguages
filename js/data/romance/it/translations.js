@@ -916,6 +916,11 @@
             wtd_tf: "Decidi se l'affermazione o l'immagine corrisponde alla parola.",
             wtd_vf: "Scrivi la forma verbale corretta come richiesto.",
             wtd_ws: "Disponi le parole per costruire una frase corretta.",
+            cw_across: "Orizzontali",
+            cw_down: "Verticali",
+            cw_error_pool: "Non ci sono abbastanza parole per creare un puzzle! Prova un livello più basso o 'Tutti i temi'.",
+            cw_success: "Eccellente! Hai risolto l'intero puzzle.",
+            cw_keep_going: "Continua così! Hai completato il {0}% del puzzle.",
             zalando: "Zalando",
             zalando_desc: "Negozio online di moda.",
             site_title_redesign: "COSYlanguages 🏡 — Impara una lingua con insegnanti che amano ciò che insegnano.",
@@ -979,7 +984,7 @@
             tool_practice_desc: "Esercizi di vocabolario, grammatica e parlato in tutte le nostre lingue. Punti COSY, serie quotidiane e 10 tipi di attività — l'abitudine perfetta tra le lezioni, o un punto di partenza delicato prima di iniziare.",
             tool_practice_cta: "Prova la pratica gratuita →",
             tool_games_title: "Giochi linguistici 🎮",
-            tool_games_desc: "13 giochi linguistici interattivi — gioca da solo o con gli amici. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits e altri. Qualsiasi lingua, qualsiasi livello QCER, in qualsiasi momento.",
+            tool_games_desc: "14 giochi linguistici interattivi — gioca da solo o con gli amici. Action Hero, Fluency Flow, Opinion Arena, Word Linker, Battle of Wits e altri. Qualsiasi lingua, qualsiasi livello QCER, in qualsiasi momento.",
             tool_games_cta: "Gioca ai giochi gratuiti →",
             events_row_h4: "Eventi dal vivo — Speaking Club, Karaoke e Serate Cinema",
             events_row_p: "Sessioni organizzate con un insegnante o un ospite — club di conversazione su argomenti reali, serate karaoke e serate di cinema in lingua originale. Controlla la pagina degli eventi per i dettagli e come partecipare.",
@@ -1093,7 +1098,13 @@
             wtd_ac: "Completa la frase con la forma comparativa o superlativa corretta.",
             example_ac: "Esempio: 🧩 grande (Comparativo) -> più grande",
             wtd_aa: "Completa la frase con la forma corretta dell'aggettivo (accordo).",
-            example_aa: "Esempio: 🧩 La ragazza è ____ (piccolo) -> piccola"
+            example_aa: "Esempio: 🧩 La ragazza è ____ (piccolo) -> piccola",
+            pin_title: "Aggiungi alla schermata home",
+            pin_btn_got_it: "Ho capito!",
+            pin_step_ios: "<strong>Su iPhone:</strong> Tocca il pulsante Condividi <span style=\"font-size:1.2rem\">⎋</span>, quindi scorri verso il basso e tocca <strong>\"Aggiungi alla schermata home\"</strong>.",
+            pin_step_android: "<strong>Su Android:</strong> Tocca il pulsante del menu <span style=\"font-size:1.2rem\">⋮</span>, quindi tocca <strong>\"Aggiungi a schermata home\"</strong> o <strong>\"Installa app\"</strong>.",
+            pin_desc_template: "Stai per aggiungere \"{0}\" ({1}, {2}) alla tua schermata home.",
+            pin_practice_btn: "Aggiungi alla schermata home 📲"
          }
         };
     window.translations = window.translations || {};

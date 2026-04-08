@@ -758,14 +758,14 @@ const GameSessionManager = {
 
 // Override openGameSheet to use global prefs and record session
 const originalOpenGameSheet = window.openGameSheet;
-window.openGameSheet = function(gameName, icon) {
+window.openGameSheet = function(gameName, icon, mode = 'solo') {
   GameSessionManager.recordSession(gameName, icon);
 
   // Set values in the bottom sheet before showing it
   const lang = document.getElementById('global-lang-select')?.value;
   const level = document.getElementById('global-level-select')?.value;
 
-  if (originalOpenGameSheet) originalOpenGameSheet(gameName, icon);
+  if (originalOpenGameSheet) originalOpenGameSheet(gameName, icon, mode);
 
   // After sheet opens, sync options if they exist
   setTimeout(() => {
