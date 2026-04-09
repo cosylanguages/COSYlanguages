@@ -42,7 +42,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "emoji": "🧑‍💻",
-        "form": "adjective",
+        "form": "adjective / adverb",
         "transcription": "ˈfriːlɑːns",
         "subtext": "work freelance, freelance journalist",
         "definitions": [
@@ -414,7 +414,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
-        "transcription": "ɪmˈpɛɪʃnt",
+        "transcription": "ɪmˈpeɪʃnt",
         "definitions": [
             {
                 "text": "Unable to wait calmly; easily irritated by delay.",
@@ -680,8 +680,7 @@
                 ]
             }
         ],
-        "subtext": "very valuable / highly valuable",
-        "synonyms": ["invaluable"]
+        "subtext": "very valuable / invaluable / highly valuable"
     },
     {
         "word": "equal",
@@ -777,8 +776,7 @@
                 ]
             }
         ],
-        "subtext": "social media / social skills",
-        "synonyms": ["socially responsible"]
+        "subtext": "social media / social skills / socially responsible"
     },
     {
         "word": "economic",
@@ -810,8 +808,7 @@
                 ]
             }
         ],
-        "subtext": "environmental impact / environmental policy",
-        "synonyms": ["environmentally friendly"]
+        "subtext": "environmental impact / environmental policy / environmentally friendly"
     },
     {
         "word": "cultural",
@@ -827,8 +824,7 @@
                 ]
             }
         ],
-        "subtext": "cultural differences / cultural event",
-        "synonyms": ["culturally diverse"]
+        "subtext": "cultural differences / cultural event / culturally diverse"
     },
     {
         "word": "educational",
@@ -867,7 +863,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
-        "transcription": "ˈɪzɪkl",
+        "transcription": "ˈfɪzɪkl",
         "definitions": [
             {
                 "text": "Relating to the body rather than the mind.",
@@ -1043,7 +1039,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
-        "transcription": "ˈ kɒmplɪkeɪtɪd",
+        "transcription": "ˈkɒmplɪkeɪtɪd",
         "definitions": [
             {
                 "text": "Involving many parts; difficult to understand.",
