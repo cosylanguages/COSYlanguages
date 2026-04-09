@@ -89,6 +89,7 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           langOptions.forEach(o => o.classList.remove('active'));
           opt.classList.add('active');
           updateGSSThemes(gameName, langOptions, levelOptions);
+          updateGSSTypes(gameName);
         };
     });
     if (!sheet.querySelector('#gss-lang-options .gss-option.active')) langOptions[0].classList.add('active');
@@ -102,12 +103,14 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           levelOptions.forEach(o => o.classList.remove('active'));
           opt.classList.add('active');
           updateGSSThemes(gameName, langOptions, levelOptions);
+          updateGSSTypes(gameName);
         };
     });
     if (!sheet.querySelector('#gss-level-options .gss-option.active')) levelOptions[0].classList.add('active');
   }
 
   updateGSSThemes(gameName, langOptions, levelOptions);
+  updateGSSTypes(gameName);
 
   const pinBtn = sheet.querySelector('#gss-pin-btn');
   if (pinBtn) {
@@ -157,6 +160,7 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
       const selectedLang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value;
       const selectedLevel = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value;
       const selectedTheme = sheet.querySelector('#gss-theme-options .gss-option.active')?.dataset.value || 'all';
+      const selectedType = sheet.querySelector('#gss-type-options .gss-option.active')?.dataset.value;
 
       closeGameSheet();
 
@@ -185,6 +189,7 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           const langSelect = modal.querySelector('.game-lang') || modal.querySelector(`#${prefix}-lang`);
           const levelSelect = modal.querySelector('.game-level') || modal.querySelector(`#${prefix}-level`);
           const themeSelect = modal.querySelector('.game-theme') || modal.querySelector(`#${prefix}-theme`);
+          const typeSelect = modal.querySelector(`#${prefix}-mode`) || modal.querySelector(`#${prefix}-level`);
 
           let startBtnId = `#start-${prefix}-game-btn`;
           if (prefix === 'talk-talk' || prefix === 'debates' || prefix === 'opinion-arena' || prefix === 'critics-corner') {
@@ -200,6 +205,10 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           if (langSelect && selectedLang) langSelect.value = selectedLang;
           if (levelSelect && selectedLevel) levelSelect.value = selectedLevel;
           if (themeSelect && selectedTheme) themeSelect.value = selectedTheme;
+          if (typeSelect && selectedType) {
+              typeSelect.value = selectedType;
+              typeSelect.dispatchEvent(new Event('change'));
+          }
 
           langSelect?.dispatchEvent(new Event('change'));
           levelSelect?.dispatchEvent(new Event('change'));
@@ -256,7 +265,7 @@ function updateGSSThemes(gameName, langOptions, levelOptions) {
   const level = Array.from(levelOptions).find(o => o.classList.contains('active'))?.dataset.value || 'starter';
 
   // Only certain games support themes in the setup sheet for now
-  const themedGames = ['Cosy Crossword', 'Lucky Numbers', 'Action Hero', 'Identity Mystery', 'Object Quest', 'Last Letter', 'Battle of Wits', 'Fluency Flow', 'Opinion Arena', "Critic's Corner"];
+  const themedGames = ['Cosy Crossword', 'Lucky Numbers', 'Action Hero', 'Identity Mystery', 'Object Quest', 'Last Letter', 'Battle of Wits', 'Fluency Flow', 'Opinion Arena', "Critic's Corner", 'Word Linker', 'Emoji Odyssey'];
 
   if (themedGames.includes(gameName)) {
     themeField.style.display = 'block';
@@ -289,6 +298,52 @@ function updateGSSThemes(gameName, langOptions, levelOptions) {
     }
   } else {
     themeField.style.display = 'none';
+  }
+}
+
+function updateGSSTypes(gameName) {
+  const typeField = document.getElementById('gss-type-field');
+  const typeOptions = document.getElementById('gss-type-options');
+  if (!typeField || !typeOptions) return;
+
+  typeOptions.innerHTML = '';
+  let types = [];
+
+  if (gameName === 'Lucky Numbers') {
+    types = [
+      { id: '1', label: (window.t ? window.t('bingo_lvl_1') : 'Bingo 1 (0-9)') },
+      { id: '2', label: (window.t ? window.t('bingo_lvl_2') : 'Bingo 2 (0-19)') },
+      { id: '3', label: (window.t ? window.t('bingo_lvl_3') : 'Bingo 3 (20-99)') },
+      { id: '5', label: (window.t ? window.t('bingo_lvl_5') : 'Bingo 5 (Random)') },
+      { id: 'alphabet', label: (window.t ? window.t('bingo_alphabet') : 'Alphabet') }
+    ];
+  } else if (gameName === 'Emoji Odyssey') {
+    types = [
+      { id: 'guess', label: (window.t ? window.t('emoji_mode_guess') : 'Guess the Emoji 🧩') },
+      { id: 'story', label: (window.t ? window.t('emoji_mode_story') : 'Tell a Story 📖') }
+    ];
+  } else if (gameName === 'Word Linker') {
+    types = [
+      { id: 'association', label: (window.t ? window.t('linker_mode_association') : 'Logical Association 🔗') },
+      { id: 'odd_one', label: (window.t ? window.t('linker_mode_odd_one') : 'Odd One Out 🧐') }
+    ];
+  }
+
+  if (types.length > 0) {
+    typeField.style.display = 'block';
+    types.forEach((type, idx) => {
+      const btn = document.createElement('button');
+      btn.className = 'gss-option' + (idx === 0 ? ' active' : '');
+      btn.dataset.value = type.id;
+      btn.textContent = type.label;
+      btn.onclick = () => {
+        typeOptions.querySelectorAll('.gss-option').forEach(o => o.classList.remove('active'));
+        btn.classList.add('active');
+      };
+      typeOptions.appendChild(btn);
+    });
+  } else {
+    typeField.style.display = 'none';
   }
 }
 
