@@ -108,19 +108,20 @@
         ]
     },
     {
-        "word": "pay gap",
+        "word": "gender pay gap",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
         "emoji": "⚖️📉",
         "form": "noun phrase",
-        "plural": "pay gaps",
-        "subtext": "gender pay gap, close the pay gap",
+        "plural": "gender pay gaps",
+        "transcription": "ˈdʒɛndə peɪ ɡæp",
+        "subtext": "close the pay gap, pay inequality",
         "definitions": [
             {
-                "text": "A difference in average earnings between groups, especially men and women.",
+                "text": "The average difference in earnings between men and women.",
                 "examples": [
-                    "The gender pay gap remains significant in many sectors.",
-                    "They are fighting to end the pay gap."
+                    "The gender pay gap persists across most industries.",
+                    "They are fighting to close the gender pay gap."
                 ]
             }
         ]
@@ -396,20 +397,20 @@
         ]
     },
     {
-        "word": "bias",
+        "word": "implicit bias",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️❌",
-        "form": "noun",
-        "plural": "biases",
-        "subtext": "unconscious bias, media bias",
-        "opposite": "impartiality",
+        "form": "noun phrase",
+        "plural": "implicit biases",
+        "transcription": "ɪmˈplɪsɪt ˈbaɪəs",
+        "subtext": "unconscious bias, cognitive bias",
         "definitions": [
             {
-                "text": "An unfair tendency to favour or oppose someone or something.",
+                "text": "An unconscious attitude or stereotype that influences behaviour.",
                 "examples": [
-                    "Unconscious bias can affect hiring decisions.",
-                    "He accused the reporter of bias."
+                    "Implicit bias in recruitment can affect hiring decisions.",
+                    "Training can help employees recognise their implicit bias."
                 ]
             }
         ]
@@ -640,6 +641,654 @@
                 "examples": [
                     "Sweden has long parental leave. By contrast, the US has very little.",
                     "The first half was exciting. By contrast, the second half was dull."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gig economy",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "💼",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "ˈɡɪɡ ɪˌkɒnəmi",
+        "subtext": "freelance work, flexible working",
+        "definitions": [
+            {
+                "text": "A labour market based on short-term contracts and freelance work rather than permanent jobs.",
+                "examples": [
+                    "The gig economy offers flexibility but little security."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "labour market",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "🤝",
+        "form": "noun",
+        "plural": "labour markets",
+        "transcription": "ˈleɪbə ˈmɑːkɪt",
+        "subtext": "job market, workforce",
+        "definitions": [
+            {
+                "text": "The system in which employers and workers negotiate employment and wages.",
+                "examples": [
+                    "The pandemic fundamentally disrupted the labour market."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pay transparency",
+        "level": "upper-intermediate",
+        "theme": "employment_law_rights_B2",
+        "emoji": "🪟",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "peɪ trænˈspærənsi",
+        "subtext": "salary disclosure, pay equality",
+        "definitions": [
+            {
+                "text": "The practice of openly sharing information about employee salaries.",
+                "examples": [
+                    "Pay transparency can reduce the gender pay gap."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "austerity",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "📉",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ɔːˈstɛrɪti",
+        "subtext": "spending cuts, fiscal policy",
+        "definitions": [
+            {
+                "text": "Government policy of reducing public spending to cut debt.",
+                "examples": [
+                    "Years of austerity weakened public services."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "GDP",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "📈",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ˌdʒiːdiːˈpiː",
+        "subtext": "economic output, Gross Domestic Product",
+        "definitions": [
+            {
+                "text": "Gross Domestic Product — the total value of goods and services produced in a country.",
+                "examples": [
+                    "GDP growth slowed significantly last quarter."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "inflation",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "💸",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ɪnˈfleɪʃn",
+        "subtext": "rising prices, cost of living",
+        "definitions": [
+            {
+                "text": "The rate at which the general level of prices rises over time.",
+                "examples": [
+                    "High inflation reduced the real value of wages."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "democracy",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🗳️",
+        "form": "noun",
+        "plural": "democracies",
+        "transcription": "dɪˈmɒkrəsi",
+        "subtext": "democratic system, voting",
+        "definitions": [
+            {
+                "text": "A system of government in which citizens vote for their leaders.",
+                "examples": [
+                    "Democracy depends on an informed electorate."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "regulation",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "📜",
+        "form": "noun",
+        "plural": "regulations",
+        "transcription": "ˌrɛɡjuˈleɪʃn",
+        "subtext": "official rules, compliance",
+        "definitions": [
+            {
+                "text": "An official rule or law controlling an activity.",
+                "examples": [
+                    "Financial regulation was tightened after the crisis."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "civil liberties",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🗽",
+        "form": "noun phrase",
+        "plural": "civil liberties",
+        "transcription": "ˌsɪvl ˈlɪbətiz",
+        "subtext": "human rights, basic freedoms",
+        "definitions": [
+            {
+                "text": "The basic rights and freedoms guaranteed to citizens by law.",
+                "examples": [
+                    "The new surveillance law threatens civil liberties."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "electorate",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🗳️",
+        "form": "noun",
+        "plural": "electorates",
+        "transcription": "ɪˈlɛktərət",
+        "subtext": "voters, voting population",
+        "definitions": [
+            {
+                "text": "All the people in a country who are entitled to vote.",
+                "examples": [
+                    "The electorate rejected the proposed reforms."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lobbying",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🤝",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ˈlɒbiɪŋ",
+        "subtext": "political influence, advocacy",
+        "definitions": [
+            {
+                "text": "The activity of trying to influence politicians on behalf of a particular group.",
+                "examples": [
+                    "Pharmaceutical lobbying shapes healthcare policy."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "preventive medicine",
+        "level": "upper-intermediate",
+        "theme": "health_society_B2",
+        "emoji": "🛡️💊",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "prɪˈvɛntɪv ˈmɛdsn",
+        "subtext": "preventative care, public health",
+        "definitions": [
+            {
+                "text": "Medical measures taken to prevent diseases rather than curing them.",
+                "examples": [
+                    "Investment in preventive medicine can save lives and reduce costs."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "parental leave",
+        "level": "upper-intermediate",
+        "theme": "gender_equality_B2",
+        "emoji": "👶",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "pəˈrɛntl liːv",
+        "subtext": "maternity leave, paternity leave",
+        "definitions": [
+            {
+                "text": "Time off work given to a parent after the birth of a child.",
+                "examples": [
+                    "Equal parental leave is essential for true gender equality."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "discrimination",
+        "level": "upper-intermediate",
+        "theme": "gender_equality_B2",
+        "emoji": "🚫",
+        "form": "noun",
+        "plural": null,
+        "transcription": "dɪˌskrɪmɪˈneɪʃn",
+        "subtext": "unfair treatment, prejudice",
+        "definitions": [
+            {
+                "text": "Unfair treatment of a person based on their identity or background.",
+                "examples": [
+                    "Age discrimination in hiring is illegal in most countries."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "diversity",
+        "level": "upper-intermediate",
+        "theme": "gender_equality_B2",
+        "emoji": "🌍",
+        "form": "noun",
+        "plural": null,
+        "transcription": "daɪˈvɜːsəti",
+        "subtext": "inclusion, variety",
+        "definitions": [
+            {
+                "text": "The presence of a wide range of different people in a group.",
+                "examples": [
+                    "The company has invested in diversity and inclusion initiatives."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "representation",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "👥",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ˌrɛprɪzɛnˈteɪʃn",
+        "subtext": "proportional representation, political voice",
+        "definitions": [
+            {
+                "text": "The presence of people from different groups in positions of power.",
+                "examples": [
+                    "Better representation in leadership improves decision-making."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "urban planning",
+        "level": "upper-intermediate",
+        "theme": "housing_society_B2",
+        "emoji": "🏗️",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "ˈɜːbən ˈplænɪŋ",
+        "subtext": "city development, land use",
+        "definitions": [
+            {
+                "text": "The design and regulation of land use and development in cities.",
+                "examples": [
+                    "Better urban planning could reduce traffic congestion significantly."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "commuter belt",
+        "level": "upper-intermediate",
+        "theme": "housing_society_B2",
+        "emoji": "🚆",
+        "form": "noun phrase",
+        "plural": "commuter belts",
+        "transcription": "kəˈmjuːtə bɛlt",
+        "subtext": "suburban area, travel to work",
+        "definitions": [
+            {
+                "text": "The area around a city from which people travel in to work.",
+                "examples": [
+                    "House prices in the commuter belt have risen sharply."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "universal healthcare",
+        "level": "upper-intermediate",
+        "theme": "health_society_B2",
+        "emoji": "🏥",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "ˌjuːnɪˈvɜːsl ˈhɛlθkeə",
+        "subtext": "public healthcare, health coverage",
+        "definitions": [
+            {
+                "text": "A system providing medical care to all citizens regardless of ability to pay.",
+                "examples": [
+                    "Most European countries have some form of universal healthcare."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "privatisation",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ˌpraɪvətaɪˈzeɪʃn",
+        "subtext": "private ownership, deregulation",
+        "definitions": [
+            {
+                "text": "The transfer of services from public to private ownership.",
+                "examples": [
+                    "The privatisation of water has been controversial."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "waiting list",
+        "level": "upper-intermediate",
+        "theme": "health_society_B2",
+        "emoji": "⏳",
+        "form": "noun phrase",
+        "plural": "waiting lists",
+        "transcription": "ˈweɪtɪŋ lɪst",
+        "subtext": "queue for treatment, delayed service",
+        "definitions": [
+            {
+                "text": "A list of people waiting to receive treatment or a service.",
+                "examples": [
+                    "The waiting list for the specialist is eighteen months."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "data",
+        "level": "upper-intermediate",
+        "theme": "technology_privacy_B2",
+        "emoji": "📊",
+        "form": "noun",
+        "plural": "data",
+        "transcription": "ˈdeɪtə",
+        "subtext": "information, statistics",
+        "definitions": [
+            {
+                "text": "Information stored and processed by computers.",
+                "examples": [
+                    "Companies collect enormous amounts of personal data."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "disinformation",
+        "level": "upper-intermediate",
+        "theme": "media_misinformation_B2",
+        "emoji": "🤥",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ˌdɪsɪnfəˈmeɪʃn",
+        "subtext": "deliberate lies, propaganda",
+        "definitions": [
+            {
+                "text": "False information deliberately spread to mislead.",
+                "examples": [
+                    "State actors have used disinformation campaigns in elections."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "artificial intelligence",
+        "level": "upper-intermediate",
+        "theme": "applied_sciences_engineering_B2",
+        "emoji": "🤖",
+        "form": "noun phrase",
+        "plural": null,
+        "transcription": "ˌɑːtɪˈfɪʃl ɪnˈtɛlɪdʒəns",
+        "subtext": "AI, machine learning",
+        "definitions": [
+            {
+                "text": "Computer systems that perform tasks normally requiring human intelligence.",
+                "examples": [
+                    "Artificial intelligence is transforming many professional fields."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cybersecurity",
+        "level": "upper-intermediate",
+        "theme": "technology_privacy_B2",
+        "emoji": "🛡️",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ˌsaɪbə sɪˈkjʊərɪti",
+        "subtext": "online protection, network security",
+        "definitions": [
+            {
+                "text": "The protection of computer systems and networks from attack.",
+                "examples": [
+                    "Cybersecurity has become a top priority for businesses."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "whistleblower",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "📢",
+        "form": "noun",
+        "plural": "whistleblowers",
+        "transcription": "ˈwɪslbləʊə",
+        "subtext": "exposing wrongdoing, informant",
+        "definitions": [
+            {
+                "text": "A person who reveals wrongdoing within an organisation.",
+                "examples": [
+                    "The whistleblower exposed widespread fraud in the company."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "consent",
+        "level": "upper-intermediate",
+        "theme": "ethical_dilemmas_B2",
+        "emoji": "✅",
+        "form": "noun",
+        "plural": null,
+        "transcription": "kənˈsɛnt",
+        "subtext": "permission, agreement",
+        "definitions": [
+            {
+                "text": "Permission freely given for something to happen.",
+                "examples": [
+                    "Informed consent is fundamental to medical ethics."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "integrity",
+        "level": "upper-intermediate",
+        "theme": "identity_self_concept_B2",
+        "emoji": "💎",
+        "form": "noun",
+        "plural": null,
+        "transcription": "ɪnˈtɛɡrəti",
+        "subtext": "honesty, strong principles",
+        "definitions": [
+            {
+                "text": "The quality of being honest and having strong moral principles.",
+                "examples": [
+                    "She is known for her absolute integrity."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "perspective",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "👁️",
+        "form": "noun",
+        "plural": "perspectives",
+        "transcription": "pəˈspɛktɪv",
+        "subtext": "viewpoint, standpoint",
+        "definitions": [
+            {
+                "text": "A particular way of thinking about or viewing a situation.",
+                "examples": [
+                    "From a financial perspective, the decision makes sense."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "implication",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "implications",
+        "transcription": "ˌɪmplɪˈkeɪʃn",
+        "subtext": "consequence, suggestion",
+        "definitions": [
+            {
+                "text": "A conclusion that can be drawn from something; an indirect suggestion.",
+                "examples": [
+                    "The implications of this policy are not yet clear."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "framework",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "🏗️",
+        "form": "noun",
+        "plural": "frameworks",
+        "transcription": "ˈfreɪmwɜːk",
+        "subtext": "structure, set of principles",
+        "definitions": [
+            {
+                "text": "A set of ideas or principles used to analyse or understand something.",
+                "examples": [
+                    "He analysed the problem using an economic framework."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "assumption",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "🤔",
+        "form": "noun",
+        "plural": "assumptions",
+        "transcription": "əˈsʌmpʃn",
+        "subtext": "presumption, belief",
+        "definitions": [
+            {
+                "text": "Something accepted as true without direct proof.",
+                "examples": [
+                    "Her argument rests on several questionable assumptions."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "critique",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "✍️",
+        "form": "noun",
+        "plural": "critiques",
+        "transcription": "krɪˈtiːk",
+        "subtext": "detailed assessment, review",
+        "definitions": [
+            {
+                "text": "A detailed analysis and assessment of something.",
+                "examples": [
+                    "The report offers a sharp critique of current housing policy."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "paradox",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "🧩",
+        "form": "noun",
+        "plural": "paradoxes",
+        "transcription": "ˈpærədɒks",
+        "subtext": "contradiction, puzzle",
+        "definitions": [
+            {
+                "text": "A seemingly contradictory statement or situation that may nonetheless be true.",
+                "examples": [
+                    "It is a paradox that working more can make you less productive."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nuance",
+        "level": "upper-intermediate",
+        "theme": "critical_thinking_B2",
+        "emoji": "🌓",
+        "form": "noun",
+        "plural": "nuances",
+        "transcription": "ˈnjuːɑːns",
+        "subtext": "subtle difference, shade of meaning",
+        "definitions": [
+            {
+                "text": "A subtle difference in meaning, expression or feeling.",
+                "examples": [
+                    "Any serious discussion of immigration requires nuance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "veto",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🚫",
+        "form": "noun",
+        "plural": "vetoes",
+        "transcription": "ˈviːtəʊ",
+        "subtext": "power to reject, exercise a veto",
+        "definitions": [
+            {
+                "text": "The right to reject a decision, or to use this right.",
+                "examples": [
+                    "The president has the power to veto legislation."
                 ]
             }
         ]

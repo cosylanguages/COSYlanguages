@@ -1605,6 +1605,28 @@
         "v2": "took into account",
         "v3": "taken into account",
         "group": "irregular"
+    },
+    {
+        "word": "veto",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🚫",
+        "form": "verb",
+        "transcription": "ˈviːtəʊ",
+        "subtext": "veto legislation, exercise a veto",
+        "definitions": [
+            {
+                "text": "To refuse to allow something to be done.",
+                "examples": [
+                    "The president has the power to veto legislation."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "vetoed",
+        "v3": "vetoed",
+        "group": "regular"
     }
 ];
     const lang = 'en';

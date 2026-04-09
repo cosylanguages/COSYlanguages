@@ -1444,6 +1444,26 @@
         "comparative": "more ethical",
         "superlative": "the most ethical",
         "opposite": "unethical"
+    },
+    {
+        "word": "compulsory",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "📜",
+        "form": "adjective",
+        "transcription": "kəmˈpʌlsəri",
+        "subtext": "required by law, not optional",
+        "definitions": [
+            {
+                "text": "Required by law or rule; not optional.",
+                "examples": [
+                    "Voting is compulsory in some countries."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null,
+        "opposite": "voluntary"
     }
 ];
     const lang = "en";
