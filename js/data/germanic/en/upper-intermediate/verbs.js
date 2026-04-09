@@ -771,6 +771,94 @@
         "group": "regular"
     },
     {
+        "word": "depreciate",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "📉",
+        "form": "verb",
+        "transcription": "dɪˈpriːʃieɪt",
+        "subtext": "Formal | depreciate in value / rapidly depreciate / depreciation rate",
+        "definitions": [
+            {
+                "text": "To decrease in value over time.",
+                "examples": [
+                    "Cars depreciate quickly in the first three years."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "depreciated",
+        "v3": "depreciated",
+        "group": "regular"
+    },
+    {
+        "word": "diversify",
+        "level": "upper-intermediate",
+        "theme": "economy_labour_market_B2",
+        "emoji": "🔀",
+        "form": "verb",
+        "transcription": "daɪˈvɜːsɪfaɪ",
+        "subtext": "Formal | diversify a portfolio / diversify the economy / diversify income",
+        "definitions": [
+            {
+                "text": "To develop a wider range of products, skills or investments.",
+                "examples": [
+                    "She diversified her investment portfolio to reduce risk."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "diversified",
+        "v3": "diversified",
+        "group": "regular"
+    },
+    {
+        "word": "contend",
+        "level": "upper-intermediate",
+        "theme": "formal_debate_vocab_B2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "transcription": "kənˈtɛnd",
+        "subtext": "Formal | contend that / strongly contend / the argument contends",
+        "definitions": [
+            {
+                "text": "To argue or assert something strongly.",
+                "examples": [
+                    "She contends that the policy will widen inequality."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "contended",
+        "v3": "contended",
+        "group": "regular"
+    },
+    {
+        "word": "emphasise",
+        "level": "upper-intermediate",
+        "theme": "formal_debate_vocab_B2",
+        "emoji": "🎯",
+        "form": "verb",
+        "transcription": "ˈɛmfəsaɪz",
+        "subtext": "Formal | emphasise the importance / emphasise a point / strongly emphasise",
+        "definitions": [
+            {
+                "text": "To give particular importance or attention to something.",
+                "examples": [
+                    "The report emphasises the need for better regulation."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "emphasised",
+        "v3": "emphasised",
+        "group": "regular"
+    },
+    {
         "word": "perceive",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1349,7 +1437,7 @@
         "emoji": "📚",
         "form": "verb",
         "transcription": "drɔː ɒn",
-        "subtext": "Formal | draw on experience / draw on resources / draw on expertise",
+        "subtext": "Neutral | draw on experience / draw on resources / draw on expertise",
         "definitions": [
             {
                 "text": "To make use of experience, knowledge or resources.",
@@ -1393,7 +1481,7 @@
         "emoji": "📝",
         "form": "verb",
         "transcription": "əˈkaʊnt fɔː",
-        "subtext": "Formal | account for something / account for the difference",
+        "subtext": "Neutral | account for something / account for the difference / hard to account for",
         "definitions": [
             {
                 "text": "To explain the reason for; to make up a proportion.",
