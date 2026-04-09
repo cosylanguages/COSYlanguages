@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "alto",
         "level": "starter",
@@ -1015,54 +1014,6 @@
         "femininePlural": "cerradas"
     },
     {
-        "word": "grande",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "una ciudad grande / una empresa grande",
-        "synonyms": [
-            "una gran cantidad"
-        ],
-        "definitions": [
-            {
-                "text": "De tamaño o cantidad mayor al promedio.",
-                "examples": [
-                    "París es una ciudad muy grande."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más grande",
-        "superlative": "el más grande",
-        "feminine": "grande",
-        "plural": "grandes",
-        "femininePlural": "grandes"
-    },
-    {
-        "word": "pequeño",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "a little bit",
-            "a little money",
-            "too little"
-        ],
-        "definitions": [
-            {
-                "text": "Pequeño en tamaño.",
-                "examples": [
-                    "Él conduce un coche pequeño."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más pequeño",
-        "superlative": "el más pequeño",
-        "feminine": "pequeña",
-        "plural": "pequeños",
-        "femininePlural": "pequeñas"
-    },
-    {
         "word": "largo",
         "level": "starter",
         "form": "adjective",
@@ -1084,56 +1035,6 @@
         "feminine": "larga",
         "plural": "largos",
         "femininePlural": "largas"
-    },
-    {
-        "word": "alto",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "high price",
-            "high rent",
-            "high quality"
-        ],
-        "definitions": [
-            {
-                "text": "De altura o nivel mayor al promedio.",
-                "examples": [
-                    "El alquiler en esta zona es muy alto."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más alto",
-        "superlative": "el más alto",
-        "feminine": "alta",
-        "plural": "altos",
-        "femininePlural": "altas"
-    },
-    {
-        "word": "bajo",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "low price",
-            "low salary",
-            "low quality"
-        ],
-        "definitions": [
-            {
-                "text": "De altura o nivel menor al promedio.",
-                "examples": [
-                    "El sueldo es demasiado bajo."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más bajo",
-        "superlative": "el más bajo",
-        "feminine": "baja",
-        "plural": "bajos",
-        "femininePlural": "bajas"
     },
     {
         "word": "lleno",
@@ -2221,26 +2122,6 @@
         "femininePlural": "orgullosas"
     },
     {
-        "word": "asustado",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Que siente miedo por algo.",
-                "examples": [
-                    "Ella estaba asustada por la presentación."
-                ]
-            }
-        ],
-        "subtext": "sentirse asustado / asustado de / muy asustado",
-        "comparative": "más asustado",
-        "superlative": "el más asustado",
-        "feminine": "asustada",
-        "plural": "asustados",
-        "femininePlural": "asustadas"
-    },
-    {
         "word": "sorprendido",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -2473,30 +2354,6 @@
         "femininePlural": "inútiles"
     },
     {
-        "word": "correcto",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Verdadero o correcto.",
-                "examples": [
-                    "Por favor revisa que las cifras sean correctas."
-                ]
-            }
-        ],
-        "subtext": "totalmente correcto",
-        "synonyms": [
-            "respuesta correcta",
-            "la forma correcta"
-        ],
-        "comparative": "más correcto",
-        "superlative": "el más correcto",
-        "feminine": "correcta",
-        "plural": "correctos",
-        "femininePlural": "correctas"
-    },
-    {
         "word": "interesante",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2515,29 +2372,6 @@
         "feminine": "interesante",
         "plural": "interesantes",
         "femininePlural": "interesantes"
-    },
-    {
-        "word": "aburrido",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "No interesante; soso.",
-                "examples": [
-                    "La sesión de entrenamiento fue muy aburrida."
-                ]
-            }
-        ],
-        "subtext": "muy aburrido / resultarle aburrido",
-        "synonyms": [
-            "una reunión aburrida"
-        ],
-        "comparative": "más aburrido",
-        "superlative": "el más aburrido",
-        "feminine": "aburrida",
-        "plural": "aburridos",
-        "femininePlural": "aburridas"
     },
     {
         "word": "necesario",
@@ -2854,26 +2688,6 @@
         "femininePlural": "honestas"
     },
     {
-        "word": "ruidoso",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Que hace mucho sonido.",
-                "examples": [
-                    "La oficina es muy ruidosa."
-                ]
-            }
-        ],
-        "subtext": "muy ruidoso / entorno ruidoso / demasiado ruidoso",
-        "comparative": "más ruidoso",
-        "superlative": "el más ruidoso",
-        "feminine": "ruidosa",
-        "plural": "ruidosos",
-        "femininePlural": "ruidosas"
-    },
-    {
         "word": "sediento",
         "level": "starter",
         "theme": "health_body_A1",
@@ -2910,9 +2724,11 @@
         ]
     }
 ];
+
     const lang = "es";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    if (window.vocabularyData) {
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

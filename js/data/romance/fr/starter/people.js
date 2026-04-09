@@ -14,7 +14,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Napoléon Bonaparte",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Zinedine Zidane",
@@ -30,7 +37,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Zinedine Zidane",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Victor Hugo",
@@ -46,7 +60,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Victor Hugo",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Marie Curie",
@@ -62,7 +83,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Marie Curie",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Édith Piaf",
@@ -78,7 +106,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Édith Piaf",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Louis Pasteur",
@@ -94,7 +129,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Louis Pasteur",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Claude Monet",
@@ -110,7 +152,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Claude Monet",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Jeanne d'Arc",
@@ -126,7 +175,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Jeanne d'Arc",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Molière",
@@ -142,7 +198,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Molière",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Gustave Eiffel",
@@ -158,7 +221,14 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Gustave Eiffel",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "Coco Chanel",
@@ -174,13 +244,18 @@
         ],
         "level": "starter",
         "theme": "personal_identity_A1",
-        "form": "noun"
+        "form": "noun",
+        "gender": "masculine",
+        "article": "le",
+        "countability": "countable",
+        "partitive": "du",
+        "plural": "Coco Chanel",
+        "antonyms": [],
+        "synonyms": []
     }
 ];
+
     const lang = "fr";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

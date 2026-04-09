@@ -897,10 +897,8 @@
         "emoji": "🇮🇳"
     }
 ];
+
     const lang = "es";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

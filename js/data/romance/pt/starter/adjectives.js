@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "alto",
         "level": "starter",
@@ -999,51 +998,6 @@
         "femininePlural": "fechadas"
     },
     {
-        "word": "grande",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "uma cidade grande / uma empresa grande / uma grande quantidade",
-        "definitions": [
-            {
-                "text": "De tamanho ou quantidade superior à média.",
-                "examples": [
-                    "Lisboa é uma cidade muito grande."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "mais grande",
-        "superlative": "o maior",
-        "feminine": "grande",
-        "plural": "grandes",
-        "femininePlural": "grandes"
-    },
-    {
-        "word": "pequeno",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "a little bit",
-            "a little money",
-            "too little"
-        ],
-        "definitions": [
-            {
-                "text": "Pequeno em tamanho.",
-                "examples": [
-                    "Ele conduz um carro pequeno."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "mais pequeno",
-        "superlative": "o menor",
-        "feminine": "pequena",
-        "plural": "pequenos",
-        "femininePlural": "pequenas"
-    },
-    {
         "word": "longo",
         "level": "starter",
         "form": "adjective",
@@ -1066,56 +1020,6 @@
         "feminine": "longa",
         "plural": "longos",
         "femininePlural": "longas"
-    },
-    {
-        "word": "alto",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "high price",
-            "high rent",
-            "high quality"
-        ],
-        "definitions": [
-            {
-                "text": "De altura ou nível superior à média.",
-                "examples": [
-                    "A renda nesta zona é muito alta."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "mais alto",
-        "superlative": "o mais alto",
-        "feminine": "alta",
-        "plural": "altos",
-        "femininePlural": "alta"
-    },
-    {
-        "word": "baixo",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "low price",
-            "low salary",
-            "low quality"
-        ],
-        "definitions": [
-            {
-                "text": "De altura ou nível inferior à média.",
-                "examples": [
-                    "O salário é demasiado baixo."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "mais baixo",
-        "superlative": "o mais baixo",
-        "feminine": "baixa",
-        "plural": "baixos",
-        "femininePlural": "baixas"
     },
     {
         "word": "cheio",
@@ -2203,26 +2107,6 @@
         "femininePlural": "orgulhosas"
     },
     {
-        "word": "assustado",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Que sente medo de algo.",
-                "examples": [
-                    "Ela estava assustada em dar a apresentação."
-                ]
-            }
-        ],
-        "subtext": "sentir-se assustado / assustado de / muito assustado",
-        "comparative": "mais assustado",
-        "superlative": "o mais assustado",
-        "feminine": "assustada",
-        "plural": "assustados",
-        "femininePlural": "assustadas"
-    },
-    {
         "word": "surpreendido",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -2465,30 +2349,6 @@
         "feminine": "inútil",
         "plural": "inúteis",
         "femininePlural": "inúteis"
-    },
-    {
-        "word": "correto",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Verdadeiro ou correto.",
-                "examples": [
-                    "Por favor, verifique se os números estão corretos."
-                ]
-            }
-        ],
-        "subtext": "totalmente correto",
-        "synonyms": [
-            "resposta correta",
-            "a forma correta"
-        ],
-        "comparative": "mais correto",
-        "superlative": "o mais correto",
-        "feminine": "correta",
-        "plural": "corretos",
-        "femininePlural": "corretas"
     },
     {
         "word": "interessante",
@@ -2850,26 +2710,6 @@
         "femininePlural": "honestas"
     },
     {
-        "word": "barulhento",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Que faz muito som.",
-                "examples": [
-                    "O escritório é muito barulhento."
-                ]
-            }
-        ],
-        "subtext": "muito barulhento / ambiente barulhento / barulhento demais",
-        "comparative": "mais barulhento",
-        "superlative": "o mais barulhento",
-        "feminine": "barulhenta",
-        "plural": "barulhentos",
-        "femininePlural": "barulhentas"
-    },
-    {
         "word": "sedento",
         "level": "starter",
         "theme": "health_body_A1",
@@ -2906,9 +2746,11 @@
         ]
     }
 ];
+
     const lang = "pt";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    if (window.vocabularyData) {
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

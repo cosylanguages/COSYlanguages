@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "essere",
         "level": "starter",
@@ -23,7 +22,9 @@
         "aspect": "stative",
         "v3": "stato",
         "group": "ere",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "avere",
@@ -50,7 +51,8 @@
         "aspect": "stative",
         "v3": "avuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": []
     },
     {
         "word": "sentire",
@@ -79,7 +81,8 @@
         "aspect": "both",
         "v3": "sentito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": []
     },
     {
         "word": "dare",
@@ -104,7 +107,9 @@
         "aspect": "action",
         "v3": "dato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "prendere",
@@ -132,7 +137,8 @@
         "aspect": "action",
         "v3": "preso",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": []
     },
     {
         "word": "ottenere",
@@ -160,7 +166,8 @@
         "aspect": "action",
         "v3": "ottenuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": []
     },
     {
         "word": "mettere",
@@ -186,7 +193,8 @@
         "aspect": "action",
         "v3": "messo",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": []
     },
     {
         "word": "fare",
@@ -212,30 +220,8 @@
         "v3": "fatto",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare"
-    },
-    {
-        "word": "fare",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "fare il lavoro / fare la spesa / fare esercizio",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Compiere un azione o un attività.",
-                "examples": [
-                    "Faccio il mio lavoro ogni giorno.",
-                    "Lei fa la spesa."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "fatto",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈfare"
+        "transcription": "ˈfare",
+        "antonyms": []
     },
     {
         "word": "usare",
@@ -258,7 +244,9 @@
         "v3": "usato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈusare"
+        "transcription": "ˈusare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "aprire",
@@ -283,7 +271,9 @@
         "v3": "aperto",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈaprire"
+        "transcription": "ˈaprire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "chiudere",
@@ -308,14 +298,16 @@
         "v3": "chiuso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈchiudere"
+        "transcription": "ˈchiudere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "iniziare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro, iniziare a",
+        "subtext": "iniziare il lavoro / iniziare a",
         "opposite": "finire",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -333,14 +325,16 @@
         "aspect": "action",
         "v3": "iniziato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "finire",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finire il lavoro / finire un progetto / finire presto, finire di",
+        "subtext": "finire il lavoro / finire di",
         "opposite": "iniziare",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -358,7 +352,9 @@
         "aspect": "action",
         "v3": "finito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "aiutare",
@@ -384,14 +380,15 @@
         "v3": "aiutato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaiutare"
+        "transcription": "ˈaiutare",
+        "antonyms": []
     },
     {
         "word": "provare",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "provare a fare / provare sodo / provare qualcosa",
+        "subtext": "provare a fare / provare qualcosa",
         "form": "verb",
         "definitions": [
             {
@@ -407,7 +404,9 @@
         "v3": "provato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈprovare"
+        "transcription": "ˈprovare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "mostrare",
@@ -430,7 +429,9 @@
         "v3": "mostrato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈmostrare"
+        "transcription": "ˈmostrare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "trovare",
@@ -456,7 +457,8 @@
         "v3": "trovato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtrovare"
+        "transcription": "ˈtrovare",
+        "antonyms": []
     },
     {
         "word": "tenere",
@@ -483,7 +485,8 @@
         "v3": "tenuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈtenere"
+        "transcription": "ˈtenere",
+        "antonyms": []
     },
     {
         "word": "perdere",
@@ -509,7 +512,9 @@
         "v3": "perso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈperdere"
+        "transcription": "ˈperdere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "tagliare",
@@ -532,7 +537,9 @@
         "v3": "tagliato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtagliare"
+        "transcription": "ˈtagliare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "girare",
@@ -559,7 +566,8 @@
         "v3": "girato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈgirare"
+        "transcription": "ˈgirare",
+        "antonyms": []
     },
     {
         "word": "portare",
@@ -582,7 +590,9 @@
         "v3": "portato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈportare"
+        "transcription": "ˈportare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dire",
@@ -605,40 +615,16 @@
         "v3": "detto",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈdire"
-    },
-    {
-        "word": "dire",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "🗣️",
-        "subtext": "dire la verità / dire a qualcuno",
-        "synonyms": [
-            "raccontare una storia"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dare informazioni a qualcuno.",
-                "examples": [
-                    "Dice la verità.",
-                    "Lei mi racconta della sua giornata."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "detto",
-        "group": "ire",
-        "auxiliary": "avere",
-        "transcription": "ˈdire"
+        "transcription": "ˈdire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "chiedere",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "chiedere aiuto / chiedere di",
+        "subtext": "chiedere di / chiedere a",
         "synonyms": [
             "fare una domanda"
         ],
@@ -657,14 +643,15 @@
         "v3": "chiesto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈchiedere"
+        "transcription": "ˈchiedere",
+        "antonyms": []
     },
     {
         "word": "parlare",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "parlare con qualcuno / parlare una lingua / parlare chiaramente, parlare di",
+        "subtext": "parlare di / parlare con",
         "form": "verb",
         "definitions": [
             {
@@ -680,30 +667,9 @@
         "v3": "parlato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈparlare"
-    },
-    {
-        "word": "parlare",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "💬",
-        "subtext": "parlare con qualcuno / parlare di / parlare apertamente",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avere una conversazione.",
-                "examples": [
-                    "Parliamo di lavoro ogni lunedì.",
-                    "Lei parla molto."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "parlato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈparlare"
+        "transcription": "ˈparlare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "chiamare",
@@ -730,7 +696,8 @@
         "v3": "chiamato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈchiamare"
+        "transcription": "ˈchiamare",
+        "antonyms": []
     },
     {
         "word": "scrivere",
@@ -755,7 +722,9 @@
         "v3": "scritto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈscrivere"
+        "transcription": "ˈscrivere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "leggere",
@@ -780,7 +749,9 @@
         "v3": "letto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈleggere"
+        "transcription": "ˈleggere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ascoltare",
@@ -803,14 +774,16 @@
         "v3": "ascoltato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈascoltare"
+        "transcription": "ˈascoltare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "rispondere",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "rispondere a una domanda / rispondere al telefono",
+        "subtext": "rispondere a",
         "form": "verb",
         "definitions": [
             {
@@ -826,7 +799,9 @@
         "v3": "risposto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈrispondere"
+        "transcription": "ˈrispondere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ripetere",
@@ -852,7 +827,8 @@
         "v3": "ripetuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈripetere"
+        "transcription": "ˈripetere",
+        "antonyms": []
     },
     {
         "word": "andare",
@@ -878,14 +854,15 @@
         "v3": "andato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈandare"
+        "transcription": "ˈandare",
+        "antonyms": []
     },
     {
         "word": "venire",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "venire a casa / venire al lavoro, venire da",
+        "subtext": "venire a casa / venire al lavoro / venire da",
         "synonyms": [
             "tornare"
         ],
@@ -906,7 +883,8 @@
         "v3": "venuto",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈvenire"
+        "transcription": "ˈvenire",
+        "antonyms": []
     },
     {
         "word": "camminare",
@@ -929,7 +907,9 @@
         "v3": "camminato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcamminare"
+        "transcription": "ˈcamminare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "guidare",
@@ -952,7 +932,9 @@
         "v3": "guidato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguidare"
+        "transcription": "ˈguidare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "volare",
@@ -975,14 +957,16 @@
         "v3": "volato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈvolare"
+        "transcription": "ˈvolare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "arrivare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrivare al lavoro / arrivare tardi / arrivare in orario",
+        "subtext": "arrivare a / arrivare da",
         "form": "verb",
         "definitions": [
             {
@@ -998,14 +982,16 @@
         "v3": "arrivato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈarrivare"
+        "transcription": "ˈarrivare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "partire",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "partire presto",
+        "subtext": "partire per / partire da",
         "synonyms": [
             "lasciare casa",
             "lasciare il lavoro"
@@ -1025,7 +1011,8 @@
         "v3": "partito",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈpartire"
+        "transcription": "ˈpartire",
+        "antonyms": []
     },
     {
         "word": "muovere",
@@ -1052,7 +1039,8 @@
         "v3": "mosso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈmuovere"
+        "transcription": "ˈmuovere",
+        "antonyms": []
     },
     {
         "word": "tornare",
@@ -1075,7 +1063,9 @@
         "v3": "tornato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈtornare"
+        "transcription": "ˈtornare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "viaggiare",
@@ -1098,7 +1088,9 @@
         "v3": "viaggiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈviaggiare"
+        "transcription": "ˈviaggiare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "mangiare",
@@ -1128,7 +1120,8 @@
         "v3": "mangiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈmangiare"
+        "transcription": "ˈmangiare",
+        "antonyms": []
     },
     {
         "word": "bere",
@@ -1153,7 +1146,9 @@
         "v3": "bevuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈbere"
+        "transcription": "ˈbere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dormire",
@@ -1178,7 +1173,9 @@
         "v3": "dormito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈdormire"
+        "transcription": "ˈdormire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cucinare",
@@ -1201,7 +1198,9 @@
         "v3": "cucinato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcucinare"
+        "transcription": "ˈcucinare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "pulire",
@@ -1224,7 +1223,9 @@
         "v3": "pulito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈpulire"
+        "transcription": "ˈpulire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "indossare",
@@ -1247,7 +1248,9 @@
         "v3": "indossato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈindossare"
+        "transcription": "ˈindossare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "lavare",
@@ -1273,7 +1276,8 @@
         "v3": "lavato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈlavare"
+        "transcription": "ˈlavare",
+        "antonyms": []
     },
     {
         "word": "comprare",
@@ -1298,7 +1302,9 @@
         "v3": "comprato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcomprare"
+        "transcription": "ˈcomprare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "pagare",
@@ -1321,7 +1327,9 @@
         "v3": "pagato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpagare"
+        "transcription": "ˈpagare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "spendere",
@@ -1344,7 +1352,9 @@
         "v3": "speso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈspendere"
+        "transcription": "ˈspendere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "risparmiare",
@@ -1369,7 +1379,9 @@
         "v3": "risparmiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈrisparmiare"
+        "transcription": "ˈrisparmiare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "lavorare",
@@ -1392,7 +1404,9 @@
         "v3": "lavorato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈlavorare"
+        "transcription": "ˈlavorare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vivere",
@@ -1417,14 +1431,16 @@
         "v3": "vissuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvivere"
+        "transcription": "ˈvivere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "pensare",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "pensare a / pensare di / pensare attentamente",
+        "subtext": "pensare a / pensare di",
         "form": "verb",
         "definitions": [
             {
@@ -1440,7 +1456,9 @@
         "v3": "pensato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpensare"
+        "transcription": "ˈpensare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sapere",
@@ -1466,7 +1484,8 @@
         "v3": "saputo",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈsapere"
+        "transcription": "ˈsapere",
+        "antonyms": []
     },
     {
         "word": "volere",
@@ -1490,7 +1509,9 @@
         "v3": "voluto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvolere"
+        "transcription": "ˈvolere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "avere bisogno di",
@@ -1519,7 +1540,8 @@
         "v3": "avuto bisogno",
         "group": "locution",
         "auxiliary": "avere",
-        "transcription": "ˈavere bisogno di"
+        "transcription": "ˈavere bisogno di",
+        "antonyms": []
     },
     {
         "word": "piacere",
@@ -1546,7 +1568,8 @@
         "v3": "piaciuto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈpiacere"
+        "transcription": "ˈpiacere",
+        "antonyms": []
     },
     {
         "word": "amare",
@@ -1569,7 +1592,9 @@
         "v3": "amato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈamare"
+        "transcription": "ˈamare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "odiare",
@@ -1592,7 +1617,9 @@
         "v3": "odiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈodiare"
+        "transcription": "ˈodiare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sperare",
@@ -1618,7 +1645,8 @@
         "v3": "sperato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈsperare"
+        "transcription": "ˈsperare",
+        "antonyms": []
     },
     {
         "word": "ricordare",
@@ -1641,7 +1669,9 @@
         "v3": "ricordato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈricordare"
+        "transcription": "ˈricordare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dimenticare",
@@ -1664,7 +1694,9 @@
         "v3": "dimenticato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈdimenticare"
+        "transcription": "ˈdimenticare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "capire",
@@ -1687,7 +1719,9 @@
         "v3": "capito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈcapire"
+        "transcription": "ˈcapire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "decidere",
@@ -1713,7 +1747,8 @@
         "v3": "deciso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈdecidere"
+        "transcription": "ˈdecidere",
+        "antonyms": []
     },
     {
         "word": "godere",
@@ -1740,7 +1775,8 @@
         "v3": "goduto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈgodere"
+        "transcription": "ˈgodere",
+        "antonyms": []
     },
     {
         "word": "vedere",
@@ -1763,7 +1799,9 @@
         "v3": "visto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvedere"
+        "transcription": "ˈvedere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "udire",
@@ -1786,7 +1824,9 @@
         "v3": "udito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈudire"
+        "transcription": "ˈudire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "svegliarsi",
@@ -1811,7 +1851,9 @@
         "v3": "svegliato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈsvegliarsi"
+        "transcription": "ˈsvegliarsi",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "guardare",
@@ -1834,34 +1876,9 @@
         "v3": "guardato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguardare"
-    },
-    {
-        "word": "guardare",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "👀",
-        "subtext": "guardare",
-        "synonyms": [
-            "cercare",
-            "assomigliare a"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dirigere gli occhi verso qualcosa.",
-                "examples": [
-                    "Guarda questa foto.",
-                    "Lui sta cercando le sue chiavi."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v3": "guardato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈguardare"
+        "transcription": "ˈguardare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "giocare",
@@ -1884,7 +1901,9 @@
         "v3": "giocato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈgiocare"
+        "transcription": "ˈgiocare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "correre",
@@ -1910,7 +1929,8 @@
         "v3": "corso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈcorrere"
+        "transcription": "ˈcorrere",
+        "antonyms": []
     },
     {
         "word": "sedersi",
@@ -1938,7 +1958,8 @@
         "v3": "seduto",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "seˈdersi"
+        "transcription": "seˈdersi",
+        "antonyms": []
     },
     {
         "word": "stare in piedi",
@@ -1967,7 +1988,8 @@
         "v3": "stato in piedi",
         "group": "locuzione",
         "auxiliary": "essere",
-        "transcription": "ˈstare in piˈɛdi"
+        "transcription": "ˈstare in piˈɛdi",
+        "antonyms": []
     },
     {
         "word": "incontrare",
@@ -1990,7 +2012,9 @@
         "subtext": "incontrare qualcuno / incontrare per il pranzo",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈincontrare"
+        "transcription": "ˈincontrare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "imparare",
@@ -2013,7 +2037,9 @@
         "v3": "imparato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈimparare"
+        "transcription": "ˈimparare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cambiare",
@@ -2036,7 +2062,9 @@
         "v3": "cambiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcambiare"
+        "transcription": "ˈcambiare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "fermare",
@@ -2062,7 +2090,8 @@
         "v3": "fermato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfermare"
+        "transcription": "ˈfermare",
+        "antonyms": []
     },
     {
         "word": "aggiungere",
@@ -2085,7 +2114,9 @@
         "v3": "aggiunto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈaggiungere"
+        "transcription": "ˈaggiungere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vincere",
@@ -2109,7 +2140,9 @@
         "v3": "vinto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvincere"
+        "transcription": "ˈvincere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "aspettare",
@@ -2132,7 +2165,9 @@
         "v3": "aspettato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaspettare"
+        "transcription": "ˈaspettare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "morire",
@@ -2159,7 +2194,8 @@
         "v3": "morto",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈmorire"
+        "transcription": "ˈmorire",
+        "antonyms": []
     },
     {
         "word": "inviare",
@@ -2182,7 +2218,9 @@
         "subtext": "inviare / inviare un email / inviare un messaggio",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈinviare"
+        "transcription": "ˈinviare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "restare",
@@ -2205,7 +2243,9 @@
         "v3": "restato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈrestare"
+        "transcription": "ˈrestare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cadere",
@@ -2232,7 +2272,8 @@
         "v3": "caduto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈcadere"
+        "transcription": "ˈcadere",
+        "antonyms": []
     },
     {
         "word": "passare",
@@ -2255,7 +2296,9 @@
         "v3": "passato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpassare"
+        "transcription": "ˈpassare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vendere",
@@ -2279,7 +2322,9 @@
         "v3": "venduto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvendere"
+        "transcription": "ˈvendere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "tirare",
@@ -2306,7 +2351,8 @@
         "v3": "tirato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtirare"
+        "transcription": "ˈtirare",
+        "antonyms": []
     },
     {
         "word": "spingere",
@@ -2331,7 +2377,9 @@
         "v3": "spinto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈspingere"
+        "transcription": "ˈspingere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "trasportare",
@@ -2354,7 +2402,9 @@
         "v3": "trasportato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtrasportare"
+        "transcription": "ˈtrasportare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "rompere",
@@ -2380,7 +2430,8 @@
         "v3": "rotto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈrompere"
+        "transcription": "ˈrompere",
+        "antonyms": []
     },
     {
         "word": "ricevere",
@@ -2403,7 +2454,9 @@
         "v3": "ricevuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈricevere"
+        "transcription": "ˈricevere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "essere d accordo",
@@ -2426,7 +2479,9 @@
         "v3": "stato d accordo",
         "group": "locution",
         "auxiliary": "essere",
-        "transcription": "ˈessere d accordo"
+        "transcription": "ˈessere d accordo",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "disegnare",
@@ -2449,7 +2504,9 @@
         "v3": "disegnato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈdisegnare"
+        "transcription": "ˈdisegnare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "condividere",
@@ -2472,7 +2529,9 @@
         "v3": "condiviso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈcondividere"
+        "transcription": "ˈcondividere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sorridere",
@@ -2497,7 +2556,9 @@
         "v3": "sorriso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈsorridere"
+        "transcription": "ˈsorridere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "piangere",
@@ -2522,7 +2583,9 @@
         "v3": "pianto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈpiangere"
+        "transcription": "ˈpiangere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ballare",
@@ -2545,7 +2608,9 @@
         "v3": "ballato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈballare"
+        "transcription": "ˈballare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cantare",
@@ -2568,7 +2633,9 @@
         "v3": "cantato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcantare"
+        "transcription": "ˈcantare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "saltare",
@@ -2591,7 +2658,9 @@
         "v3": "saltato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈsaltare"
+        "transcription": "ˈsaltare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "nuotare",
@@ -2614,7 +2683,9 @@
         "v3": "nuotato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈnuotare"
+        "transcription": "ˈnuotare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "studiare",
@@ -2637,7 +2708,9 @@
         "v3": "studiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈstudiare"
+        "transcription": "ˈstudiare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "insegnare",
@@ -2660,7 +2733,9 @@
         "v3": "insegnato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈinsegnare"
+        "transcription": "ˈinsegnare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "fare il pendolare",
@@ -2686,7 +2761,8 @@
         "v3": "fatto il pendolare",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare il pendolare"
+        "transcription": "ˈfare il pendolare",
+        "antonyms": []
     },
     {
         "word": "affittare",
@@ -2708,7 +2784,9 @@
         "v3": "affittato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaffittare"
+        "transcription": "ˈaffittare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "esercitarsi",
@@ -2730,7 +2808,9 @@
         "subtext": "esercitarsi / esercitarsi regolarmente / esercitarsi in palestra",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈesercitarsi"
+        "transcription": "ˈesercitarsi",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "costare",
@@ -2752,7 +2832,9 @@
         "subtext": "costare / costare molto / costare soldi",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈcostare"
+        "transcription": "ˈcostare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "invitare",
@@ -2774,7 +2856,9 @@
         "subtext": "invitare / invitare qualcuno / invitare a cena",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈinvitare"
+        "transcription": "ˈinvitare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "alzarsi",
@@ -2796,7 +2880,9 @@
         "form": "verb",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈalzarsi"
+        "transcription": "ˈalzarsi",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "fare colazione",
@@ -2822,29 +2908,8 @@
         "form": "verb",
         "group": "locution",
         "auxiliary": "avere",
-        "transcription": "ˈfare colazione"
-    },
-    {
-        "word": "tornare",
-        "definitions": [
-            {
-                "text": "Tornare in un luogo.",
-                "examples": [
-                    "Torna dal pranzo alle due."
-                ]
-            }
-        ],
-        "subtext": "tornare a casa / tornare tardi / tornare da un viaggio",
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "tornato",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "are",
-        "auxiliary": "essere",
-        "transcription": "ˈtornare"
+        "transcription": "ˈfare colazione",
+        "antonyms": []
     },
     {
         "word": "andare a letto",
@@ -2866,7 +2931,9 @@
         "form": "verb",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈandare a letto"
+        "transcription": "ˈandare a letto",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "controllare",
@@ -2888,29 +2955,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcontrollare"
-    },
-    {
-        "word": "rispondere",
-        "definitions": [
-            {
-                "text": "Rispondere a un messaggio o a una domanda.",
-                "examples": [
-                    "Risponde sempre alle email il giorno stesso."
-                ]
-            }
-        ],
-        "subtext": "rispondere a un email / rispondere velocemente / rispondere a un messaggio",
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "risposto",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "ere",
-        "auxiliary": "avere",
-        "transcription": "ˈrispondere"
+        "transcription": "ˈcontrollare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "presentare",
@@ -2932,7 +2979,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpresentare"
+        "transcription": "ˈpresentare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "partecipare",
@@ -2957,7 +3006,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpartecipare"
+        "transcription": "ˈpartecipare",
+        "antonyms": []
     },
     {
         "word": "gestire",
@@ -2979,7 +3029,9 @@
         "form": "verb",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈgestire"
+        "transcription": "ˈgestire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "addebitare",
@@ -3004,7 +3056,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaddebitare"
+        "transcription": "ˈaddebitare",
+        "antonyms": []
     },
     {
         "word": "permettersi",
@@ -3026,7 +3079,9 @@
         "form": "verb",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈpermettersi"
+        "transcription": "ˈpermettersi",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dovere",
@@ -3048,7 +3103,9 @@
         "form": "verb",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈdovere"
+        "transcription": "ˈdovere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "guadagnare",
@@ -3070,7 +3127,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguadagnare"
+        "transcription": "ˈguadagnare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "visitare",
@@ -3092,7 +3151,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈvisitare"
+        "transcription": "ˈvisitare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "festeggiare",
@@ -3114,7 +3175,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfesteggiare"
+        "transcription": "ˈfesteggiare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "consigliare",
@@ -3139,7 +3202,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈconsigliare"
+        "transcription": "ˈconsigliare",
+        "antonyms": []
     },
     {
         "word": "far male",
@@ -3164,7 +3228,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfar male"
+        "transcription": "ˈfar male",
+        "antonyms": []
     },
     {
         "word": "riposare",
@@ -3186,7 +3251,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈriposare"
+        "transcription": "ˈriposare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "guarire",
@@ -3208,7 +3275,9 @@
         "form": "verb",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈguarire"
+        "transcription": "ˈguarire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "prenotare",
@@ -3230,7 +3299,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈprenotare"
+        "transcription": "ˈprenotare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "fare le valigie",
@@ -3257,7 +3328,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare le valigie"
+        "transcription": "ˈfare le valigie",
+        "antonyms": []
     },
     {
         "word": "annullare",
@@ -3279,29 +3351,9 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈannullare"
-    },
-    {
-        "word": "perdere",
-        "definitions": [
-            {
-                "text": "Non riuscire a prendere un mezzo di trasporto; o sentirsi tristi per l assenza.",
-                "examples": [
-                    "Ha perso il treno e ha dovuto aspettare un ora."
-                ]
-            }
-        ],
-        "subtext": "perdere un treno / perdere un volo / sentire la mancanza di qualcuno",
-        "classification": "regular",
-        "aspect": "both",
-        "v3": "perso",
-        "theme": "public_transport_A1",
-        "emoji": "🏃‍♂️",
-        "level": "starter",
-        "form": "verb",
-        "group": "ere",
-        "auxiliary": "avere",
-        "transcription": "ˈperdere"
+        "transcription": "ˈannullare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ordinare",
@@ -3323,7 +3375,9 @@
         "v3": "ordinato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈordinare"
+        "transcription": "ˈordinare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "spiegare",
@@ -3345,7 +3399,9 @@
         "v3": "spiegato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈspiegare"
+        "transcription": "ˈspiegare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ringraziare",
@@ -3370,32 +3426,8 @@
         "v3": "ringraziato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈringraziare"
-    },
-    {
-        "word": "presentare",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "🤝",
-        "subtext": "presentare qualcuno / presentare un argomento",
-        "synonyms": [
-            "presentarsi"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Presentare qualcuno a un altra persona.",
-                "examples": [
-                    "Si è presentata all inizio della riunione."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "presentato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈpresentare"
+        "transcription": "ˈringraziare",
+        "antonyms": []
     },
     {
         "word": "rilassarsi",
@@ -3417,7 +3449,9 @@
         "v3": "rilassato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈrilassarsi"
+        "transcription": "ˈrilassarsi",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "riparare",
@@ -3442,7 +3476,8 @@
         "v3": "riparato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈriparare"
+        "transcription": "ˈriparare",
+        "antonyms": []
     },
     {
         "word": "succedere",
@@ -3468,7 +3503,8 @@
         "v3": "successo",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈsuccedere"
+        "transcription": "ˈsuccedere",
+        "antonyms": []
     },
     {
         "word": "sembrare",
@@ -3490,7 +3526,9 @@
         "v3": "sembrato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈsembrare"
+        "transcription": "ˈsembrare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "significare",
@@ -3516,7 +3554,8 @@
         "v3": "significato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈsignificare"
+        "transcription": "ˈsignificare",
+        "antonyms": []
     },
     {
         "word": "seguire",
@@ -3538,14 +3577,16 @@
         "v3": "seguito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈseguire"
+        "transcription": "ˈseguire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "continuare",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continuare a lavorare / continuare a fare / continuare un compito",
+        "subtext": "continuare a lavorare / continuare a fare",
         "form": "verb",
         "definitions": [
             {
@@ -3560,7 +3601,9 @@
         "v3": "continuato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcontinuare"
+        "transcription": "ˈcontinuare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "crescere",
@@ -3585,7 +3628,8 @@
         "v3": "cresciuto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈcrescere"
+        "transcription": "ˈcrescere",
+        "antonyms": []
     },
     {
         "word": "includere",
@@ -3610,7 +3654,8 @@
         "v3": "incluso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈincludere"
+        "transcription": "ˈincludere",
+        "antonyms": []
     },
     {
         "word": "diventare",
@@ -3632,7 +3677,9 @@
         "v3": "diventato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈdiventare"
+        "transcription": "ˈdiventare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "appartenere",
@@ -3657,7 +3704,8 @@
         "v3": "appartenuto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈappartenere"
+        "transcription": "ˈappartenere",
+        "antonyms": []
     },
     {
         "word": "scegliere",
@@ -3679,7 +3727,9 @@
         "v3": "scelto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈscegliere"
+        "transcription": "ˈscegliere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "costruire",
@@ -3701,7 +3751,9 @@
         "v3": "costruito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈcostruire"
+        "transcription": "ˈcostruire",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cominciare",
@@ -3723,29 +3775,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcominciare",
-        "subtext": "cominciare a"
-    },
-    {
-        "word": "finire",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Finire ; fermarsi.",
-                "examples": [
-                    "La lezione finisce alle tre."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "finito",
-        "group": "ire",
-        "auxiliary": "avere",
-        "transcription": "ˈfinire",
-        "subtext": "finire di"
+        "subtext": "cominciare a",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "spazzolare",
@@ -3767,7 +3799,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈspazzolare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cavalcare",
@@ -3789,7 +3823,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcavalcare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sognare",
@@ -3811,7 +3847,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsognare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "credere",
@@ -3834,7 +3872,9 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈkredere",
-        "subtext": "credere a qualcuno / credere in qualcosa"
+        "subtext": "credere in / credere a",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "preferire",
@@ -3856,51 +3896,9 @@
         "group": "ire",
         "auxiliary": "avere",
         "transcription": "ˈpreferire",
-        "subtext": ""
-    },
-    {
-        "word": "prendere",
-        "level": "starter",
-        "theme": "public_transport_A1",
-        "emoji": "🧤",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prendere qualcosa ; salire su un autobus o un treno.",
-                "examples": [
-                    "Devo prendere l'autobus alle otto."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "preso",
-        "group": "ere",
-        "auxiliary": "avere",
-        "transcription": "ˈprendere",
-        "subtext": ""
-    },
-    {
-        "word": "riparare",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Riparare qualcosa che è rotto.",
-                "examples": [
-                    "Puoi riparare il mio telefono?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "riparato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈriparare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "creare",
@@ -3922,7 +3920,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcreare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "notare",
@@ -3944,7 +3944,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈnotare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "migliorare",
@@ -3966,7 +3968,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈmigliorare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "preparare",
@@ -3988,7 +3992,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpreparare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "organizzare",
@@ -4010,7 +4016,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈorganizzare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "pianificare",
@@ -4032,7 +4040,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpianificare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "prendere in prestito",
@@ -4054,7 +4064,9 @@
         "group": "locution",
         "auxiliary": "avere",
         "transcription": "ˈprendere in prestito",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "prestare",
@@ -4076,7 +4088,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈprestare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "odorare",
@@ -4098,7 +4112,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈodorare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "assaggiare",
@@ -4120,7 +4136,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈassaggiare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sdraiarsi",
@@ -4142,7 +4160,9 @@
         "group": "riflessivo",
         "auxiliary": "essere",
         "transcription": "ˈsdraiarsi",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ridere",
@@ -4164,7 +4184,9 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈridere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "preoccuparsi",
@@ -4186,7 +4208,9 @@
         "group": "riflessivo",
         "auxiliary": "essere",
         "transcription": "ˈpreoccuparsi",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "suonare",
@@ -4208,7 +4232,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsuonare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "compitare",
@@ -4230,7 +4256,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcompitare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "indicare",
@@ -4252,7 +4280,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈindicare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "gridare",
@@ -4274,7 +4304,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈgridare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "salutare",
@@ -4296,7 +4328,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsalutare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "calciare",
@@ -4318,7 +4352,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcalciare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "lanciare",
@@ -4340,7 +4376,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈlanciare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "rimbalzare",
@@ -4362,7 +4400,9 @@
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈrimbalzare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dipingere",
@@ -4384,7 +4424,9 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈdipingere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "saltellare",
@@ -4406,29 +4448,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsaltellare",
-        "subtext": ""
-    },
-    {
-        "word": "saltare",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏃",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Muoversi saltando da un piede all'altro.",
-                "examples": [
-                    "I bambini saltano la corda nel parco giochi."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "saltato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈsaltare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "contare",
@@ -4450,7 +4472,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcontare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "segnare",
@@ -4472,7 +4496,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsegnare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "barrare",
@@ -4494,7 +4520,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈbarrare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "colorare",
@@ -4516,51 +4544,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcolorare",
-        "subtext": ""
-    },
-    {
-        "word": "tenere",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🤲",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avere o tenere qualcosa nelle mani o nelle braccia.",
-                "examples": [
-                    "Tieni il bambino con cura."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "tenuto",
-        "group": "ere",
-        "auxiliary": "avere",
-        "transcription": "ˈtenere",
-        "subtext": ""
-    },
-    {
-        "word": "guidare",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "👤",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Controllare un gruppo di persone, un paese o una situazione.",
-                "examples": [
-                    "Lei guida una piccola squadra."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "guidato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈguidare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "combattere",
@@ -4582,7 +4568,9 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈcombattere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "nascondere",
@@ -4604,7 +4592,9 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈnascondere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cercare",
@@ -4627,29 +4617,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "tʃerˈkare",
-        "subtext": "cercare di fare"
-    },
-    {
-        "word": "suonare",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🔔",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fare un suono come una campana.",
-                "examples": [
-                    "Il telefono squilla."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "suonato",
-        "group": "are",
-        "auxiliary": "avere",
-        "transcription": "ˈsuonare",
-        "subtext": ""
+        "subtext": "cercare di fare",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "mandare un SMS",
@@ -4671,7 +4641,9 @@
         "group": "locution",
         "auxiliary": "avere",
         "transcription": "ˈmandare un sms",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sussurrare",
@@ -4693,7 +4665,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsussurrare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "toccare",
@@ -4715,7 +4689,9 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈtoccare",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "potere",
@@ -4738,7 +4714,9 @@
         "aspect": "stative",
         "v3": "potuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "conoscere",
@@ -4761,7 +4739,9 @@
         "aspect": "stative",
         "v3": "conosciuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "riuscire",
@@ -4784,7 +4764,9 @@
         "aspect": "action",
         "v3": "riuscito",
         "group": "ire",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "stare",
@@ -4807,7 +4789,9 @@
         "aspect": "stative",
         "v3": "stato",
         "group": "are",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "uscire",
@@ -4830,30 +4814,9 @@
         "aspect": "action",
         "v3": "uscito",
         "group": "ire",
-        "auxiliary": "essere"
-    },
-    {
-        "word": "dovere",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⚠️",
-        "subtext": "dovere fare qualcosa",
-        "form": "verb",
-        "transcription": "doˈvere",
-        "definitions": [
-            {
-                "text": "Essere obbligato a fare qualcosa.",
-                "examples": [
-                    "Devo andare al lavoro.",
-                    "Dobbiamo finire il progetto."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v3": "dovuto",
-        "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "entrare",
@@ -4875,7 +4838,9 @@
         "aspect": "action",
         "v3": "entrato",
         "group": "are",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "salire",
@@ -4897,7 +4862,9 @@
         "aspect": "action",
         "v3": "salito",
         "group": "ire",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "scendere",
@@ -4919,7 +4886,9 @@
         "aspect": "action",
         "v3": "sceso",
         "group": "ere",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "accendere",
@@ -4942,7 +4911,10 @@
         "v3": "acceso",
         "group": "ere",
         "auxiliary": "avere",
-        "opposite": "spegnere"
+        "opposite": "spegnere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "spegnere",
@@ -4965,7 +4937,10 @@
         "v3": "spento",
         "group": "ere",
         "auxiliary": "avere",
-        "opposite": "accendere"
+        "opposite": "accendere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "respirare",
@@ -4987,7 +4962,10 @@
         "aspect": "action",
         "v3": "respirato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "tossire",
@@ -5009,7 +4987,10 @@
         "aspect": "action",
         "v3": "tossito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "starnutire",
@@ -5031,7 +5012,10 @@
         "aspect": "action",
         "v3": "starnutito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "sbadigliare",
@@ -5053,7 +5037,10 @@
         "aspect": "action",
         "v3": "sbadigliato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "arrampicarsi",
@@ -5075,7 +5062,10 @@
         "aspect": "action",
         "v3": "arrampicato",
         "group": "riflessivo",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "vestirsi",
@@ -5098,7 +5088,10 @@
         "v3": "vestito",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "opposite": "spogliarsi"
+        "opposite": "spogliarsi",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "spogliarsi",
@@ -5121,7 +5114,10 @@
         "v3": "spogliato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "opposite": "vestirsi"
+        "opposite": "vestirsi",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "riempire",
@@ -5143,7 +5139,10 @@
         "aspect": "action",
         "v3": "riempito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "desiderare",
@@ -5165,7 +5164,10 @@
         "aspect": "stative",
         "v3": "desiderato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "descrivere",
@@ -5187,7 +5189,10 @@
         "aspect": "action",
         "v3": "descritto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "annotare",
@@ -5209,7 +5214,10 @@
         "aspect": "action",
         "v3": "annotato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "produrre",
@@ -5231,7 +5239,9 @@
         "v3": "prodotto",
         "group": "urre",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "progettare",
@@ -5253,7 +5263,9 @@
         "v3": "progettato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "funzionare",
@@ -5275,7 +5287,9 @@
         "v3": "funzionato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "smettere",
@@ -5298,7 +5312,9 @@
         "v3": "smesso",
         "group": "ere",
         "auxiliary": "avere",
-        "subtext": "smettere di"
+        "subtext": "smettere di",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "completare",
@@ -5320,13 +5336,35 @@
         "v3": "completato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [],
+        "synonyms": []
+    },
+    {
+        "word": "spedire",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✉️",
+        "form": "verb",
+        "transcription": "speˈdir",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spedii",
+        "v3": "spedito",
+        "group": "ire",
+        "auxiliary": "avere",
+        "definitions": [
+            {
+                "text": "Mandare qualcosa per posta o email.",
+                "examples": [
+                    "Spedisco il pacco domani."
+                ]
+            }
+        ]
     }
 ];
+
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

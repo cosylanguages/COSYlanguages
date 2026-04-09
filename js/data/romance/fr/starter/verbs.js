@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "être",
         "level": "starter",
@@ -26,7 +25,8 @@
         "aspect": "stative",
         "v3": "été",
         "group": "auxiliary",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "avoir",
@@ -50,7 +50,9 @@
         "aspect": "stative",
         "v3": "eu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "se sentir",
@@ -74,7 +76,9 @@
         "aspect": "both",
         "v3": "senti",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "donner",
@@ -99,7 +103,9 @@
         "aspect": "action",
         "v3": "donné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "prendre",
@@ -124,7 +130,9 @@
         "aspect": "action",
         "v3": "pris",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "obtenir",
@@ -152,7 +160,8 @@
         "aspect": "action",
         "v3": "obtenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "mettre",
@@ -179,7 +188,8 @@
         "aspect": "action",
         "v3": "mis",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "faire",
@@ -205,30 +215,8 @@
         "aspect": "action",
         "v3": "fait",
         "group": "re",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "faire",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "faire le travail / faire de l exercice / faire les courses",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Effectuer une tâche ou une activité.",
-                "examples": [
-                    "Je fais mon travail.",
-                    "Elle fait la cuisine.",
-                    "Il ne fait rien."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "fait",
-        "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "utiliser",
@@ -251,7 +239,9 @@
         "aspect": "action",
         "v3": "utilisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ouvrir",
@@ -276,7 +266,9 @@
         "aspect": "action",
         "v3": "ouvert",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "fermer",
@@ -301,7 +293,9 @@
         "aspect": "action",
         "v3": "fermé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "commencer",
@@ -326,7 +320,9 @@
         "aspect": "action",
         "v3": "commencé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "finir",
@@ -350,7 +346,9 @@
         "aspect": "action",
         "v3": "fini",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "aider",
@@ -372,7 +370,9 @@
         "aspect": "action",
         "v3": "aidé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "essayer",
@@ -394,7 +394,9 @@
         "aspect": "action",
         "v3": "essayé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "montrer",
@@ -416,7 +418,9 @@
         "aspect": "action",
         "v3": "montré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "trouver",
@@ -441,7 +445,8 @@
         "aspect": "action",
         "v3": "trouvé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "garder",
@@ -467,7 +472,8 @@
         "aspect": "both",
         "v3": "gardé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "perdre",
@@ -492,7 +498,9 @@
         "aspect": "action",
         "v3": "perdu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "couper",
@@ -518,7 +526,8 @@
         "aspect": "action",
         "v3": "coupé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "tourner",
@@ -544,7 +553,8 @@
         "aspect": "action",
         "v3": "tourné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "apporter",
@@ -566,7 +576,9 @@
         "aspect": "action",
         "v3": "apporté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dire",
@@ -588,32 +600,9 @@
         "aspect": "action",
         "v3": "dit",
         "group": "re",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "dire",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "emoji": "🗣️",
-        "subtext": "dire la vérité / dire à quelqu un",
-        "synonyms": [
-            "raconter une histoire"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Donner des informations à quelqu un.",
-                "examples": [
-                    "Il dit la vérité.",
-                    "Elle me raconte sa journée."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "dit",
-        "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "demander",
@@ -638,7 +627,8 @@
         "aspect": "action",
         "v3": "demandé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "parler",
@@ -660,29 +650,9 @@
         "aspect": "action",
         "v3": "parlé",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "parler",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "💬",
-        "subtext": "parler à quelqu un / parler de / parler ouvertement",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avoir une conversation.",
-                "examples": [
-                    "Nous parlons du travail chaque lundi.",
-                    "Elle parle beaucoup."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "parlé",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "appeler",
@@ -708,7 +678,8 @@
         "aspect": "action",
         "v3": "appelé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "écrire",
@@ -732,7 +703,9 @@
         "aspect": "action",
         "v3": "écrit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "lire",
@@ -756,7 +729,9 @@
         "aspect": "action",
         "v3": "lu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "écouter",
@@ -778,7 +753,9 @@
         "aspect": "action",
         "v3": "écouté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "répondre",
@@ -800,7 +777,9 @@
         "aspect": "action",
         "v3": "répondu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "répéter",
@@ -822,7 +801,9 @@
         "aspect": "action",
         "v3": "répété",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "aller",
@@ -847,7 +828,8 @@
         "aspect": "action",
         "v3": "allé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "venir",
@@ -874,7 +856,8 @@
         "aspect": "action",
         "v3": "venu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "marcher",
@@ -899,7 +882,8 @@
         "aspect": "action",
         "v3": "marché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "conduire",
@@ -924,7 +908,8 @@
         "aspect": "action",
         "v3": "conduit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "voler",
@@ -946,7 +931,9 @@
         "aspect": "action",
         "v3": "volé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "arriver",
@@ -968,7 +955,9 @@
         "aspect": "action",
         "v3": "arrivé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "partir",
@@ -994,7 +983,8 @@
         "aspect": "action",
         "v3": "parti",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "bouger",
@@ -1020,7 +1010,8 @@
         "aspect": "action",
         "v3": "bougé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "revenir",
@@ -1045,7 +1036,8 @@
         "aspect": "action",
         "v3": "revenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "voyager",
@@ -1067,7 +1059,9 @@
         "aspect": "action",
         "v3": "voyagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "manger",
@@ -1096,7 +1090,8 @@
         "aspect": "action",
         "v3": "mangé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "boire",
@@ -1120,7 +1115,9 @@
         "aspect": "action",
         "v3": "bu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dormir",
@@ -1144,7 +1141,9 @@
         "aspect": "action",
         "v3": "dormi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "cuisiner",
@@ -1169,7 +1168,8 @@
         "aspect": "action",
         "v3": "cuisiné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "nettoyer",
@@ -1191,7 +1191,9 @@
         "aspect": "action",
         "v3": "nettoyé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "porter",
@@ -1213,7 +1215,9 @@
         "aspect": "action",
         "v3": "porté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "laver",
@@ -1238,7 +1242,8 @@
         "aspect": "action",
         "v3": "lavé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "acheter",
@@ -1262,7 +1267,9 @@
         "aspect": "action",
         "v3": "acheté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "payer",
@@ -1284,7 +1291,9 @@
         "aspect": "action",
         "v3": "payé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dépenser",
@@ -1309,7 +1318,8 @@
         "aspect": "action",
         "v3": "dépensé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "économiser",
@@ -1333,7 +1343,9 @@
         "aspect": "action",
         "v3": "économisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "travailler",
@@ -1355,7 +1367,9 @@
         "aspect": "action",
         "v3": "travaillé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vivre",
@@ -1379,7 +1393,9 @@
         "aspect": "stative",
         "v3": "vécu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "penser",
@@ -1404,7 +1420,8 @@
         "aspect": "both",
         "v3": "pensé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "savoir",
@@ -1430,7 +1447,8 @@
         "aspect": "stative",
         "v3": "su",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "vouloir",
@@ -1453,7 +1471,9 @@
         "aspect": "stative",
         "v3": "voulu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "avoir besoin de",
@@ -1481,7 +1501,8 @@
         "aspect": "stative",
         "v3": "eu besoin",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "aimer",
@@ -1504,7 +1525,9 @@
         "aspect": "stative",
         "v3": "aimé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "adorer",
@@ -1531,7 +1554,8 @@
         "aspect": "stative",
         "v3": "adoré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "détester",
@@ -1553,7 +1577,9 @@
         "aspect": "stative",
         "v3": "détesté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "espérer",
@@ -1575,7 +1601,9 @@
         "aspect": "stative",
         "v3": "espéré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "se souvenir",
@@ -1597,7 +1625,9 @@
         "aspect": "stative",
         "v3": "souvenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "oublier",
@@ -1619,7 +1649,9 @@
         "aspect": "stative",
         "v3": "oublié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "comprendre",
@@ -1641,7 +1673,9 @@
         "aspect": "stative",
         "v3": "compris",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "décider",
@@ -1666,7 +1700,8 @@
         "aspect": "stative",
         "v3": "décidé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "apprécier",
@@ -1688,7 +1723,9 @@
         "aspect": "stative",
         "v3": "apprécié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "voir",
@@ -1710,7 +1747,9 @@
         "aspect": "both",
         "v3": "vu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "entendre",
@@ -1732,7 +1771,9 @@
         "aspect": "both",
         "v3": "entendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "se réveiller",
@@ -1756,7 +1797,9 @@
         "aspect": "action",
         "v3": "réveillé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "regarder",
@@ -1778,33 +1821,9 @@
         "aspect": "action",
         "v3": "regardé",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "regarder",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "👀",
-        "subtext": "regarder",
-        "synonyms": [
-            "chercher",
-            "ressembler à"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Diriger ses yeux vers quelque chose.",
-                "examples": [
-                    "Regarde cette photo.",
-                    "Il cherche ses clés."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v3": "regardé",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "jouer",
@@ -1826,7 +1845,9 @@
         "aspect": "action",
         "v3": "joué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "courir",
@@ -1851,7 +1872,8 @@
         "aspect": "action",
         "v3": "couru",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "s asseoir",
@@ -1875,7 +1897,9 @@
         "aspect": "action",
         "v3": "assis",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "se tenir debout",
@@ -1903,7 +1927,8 @@
         "aspect": "action",
         "v3": "tenu debout",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "rencontrer",
@@ -1925,7 +1950,9 @@
         "v3": "rencontré",
         "subtext": "rencontrer quelqu un / rencontrer pour le déjeuner",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "apprendre",
@@ -1947,7 +1974,9 @@
         "aspect": "action",
         "v3": "appris",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "changer",
@@ -1969,7 +1998,9 @@
         "aspect": "action",
         "v3": "changé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "arrêter",
@@ -1991,7 +2022,9 @@
         "aspect": "action",
         "v3": "arrêté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "ajouter",
@@ -2013,7 +2046,9 @@
         "aspect": "action",
         "v3": "ajouté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "gagner",
@@ -2036,7 +2071,9 @@
         "aspect": "action",
         "v3": "gagné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "attendre",
@@ -2058,7 +2095,9 @@
         "aspect": "action",
         "v3": "attendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "mourir",
@@ -2084,7 +2123,8 @@
         "aspect": "action",
         "v3": "mort",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "envoyer",
@@ -2106,7 +2146,9 @@
         "v3": "envoyé",
         "subtext": "envoyer / envoyer un email / envoyer un message",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "rester",
@@ -2128,7 +2170,9 @@
         "aspect": "action",
         "v3": "resté",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "tomber",
@@ -2153,7 +2197,8 @@
         "aspect": "action",
         "v3": "tombé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "passer",
@@ -2175,7 +2220,9 @@
         "aspect": "action",
         "v3": "passé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vendre",
@@ -2198,7 +2245,9 @@
         "aspect": "action",
         "v3": "vendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "tirer",
@@ -2224,7 +2273,8 @@
         "aspect": "action",
         "v3": "tiré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "pousser",
@@ -2248,29 +2298,9 @@
         "aspect": "action",
         "v3": "poussé",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "porter",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🎒",
-        "subtext": "porter / porter un sac / porter des notes",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tenir quelque chose et le déplacer d un endroit à un autre.",
-                "examples": [
-                    "Je porte mon sac à l école.",
-                    "Peux-tu m aider à porter cette boîte ?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "porté",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "casser",
@@ -2295,7 +2325,8 @@
         "aspect": "action",
         "v3": "cassé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "recevoir",
@@ -2317,7 +2348,9 @@
         "aspect": "action",
         "v3": "reçu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "être d accord",
@@ -2339,7 +2372,9 @@
         "aspect": "stative",
         "v3": "été d accord",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "dessiner",
@@ -2361,7 +2396,9 @@
         "aspect": "action",
         "v3": "dessiné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "partager",
@@ -2383,7 +2420,9 @@
         "aspect": "action",
         "v3": "partagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sourire",
@@ -2407,7 +2446,9 @@
         "aspect": "action",
         "v3": "souri",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "pleurer",
@@ -2431,7 +2472,9 @@
         "aspect": "action",
         "v3": "pleuré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "danser",
@@ -2453,7 +2496,9 @@
         "aspect": "action",
         "v3": "dansé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "chanter",
@@ -2475,7 +2520,9 @@
         "aspect": "action",
         "v3": "chanté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "sauter",
@@ -2497,7 +2544,9 @@
         "aspect": "action",
         "v3": "sauté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "nager",
@@ -2519,7 +2568,9 @@
         "aspect": "action",
         "v3": "nagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "étudier",
@@ -2541,7 +2592,9 @@
         "aspect": "action",
         "v3": "étudié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "enseigner",
@@ -2563,7 +2616,9 @@
         "aspect": "action",
         "v3": "enseigné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "faire le trajet",
@@ -2588,7 +2643,8 @@
         "aspect": "action",
         "v3": "fait le trajet",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "louer",
@@ -2609,7 +2665,9 @@
         "aspect": "action",
         "v3": "loué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "s exercer",
@@ -2630,7 +2688,9 @@
         "v3": "exercé",
         "subtext": "s exercer / s exercer régulièrement / s exercer à la gym",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "coûter",
@@ -2651,7 +2711,9 @@
         "v3": "coûté",
         "subtext": "coûter / coûter cher / coûter de l argent",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "inviter",
@@ -2672,7 +2734,9 @@
         "v3": "invité",
         "subtext": "inviter / inviter quelqu un / inviter à dîner",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "se lever",
@@ -2693,7 +2757,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "prendre le petit-déjeuner",
@@ -2717,28 +2783,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "revenir",
-        "definitions": [
-            {
-                "text": "Retourner dans un lieu.",
-                "examples": [
-                    "Elle revient du déjeuner à quatorze heures."
-                ]
-            }
-        ],
-        "subtext": "revenir à la maison / revenir tard / revenir de voyage",
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "revenu",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "se coucher",
@@ -2759,7 +2805,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vérifier",
@@ -2780,28 +2828,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "répondre",
-        "definitions": [
-            {
-                "text": "Répondre à un message ou à une question.",
-                "examples": [
-                    "Il répond toujours aux emails le jour même."
-                ]
-            }
-        ],
-        "subtext": "répondre à un email / répondre rapidement / répondre à un message",
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "répondu",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "présenter",
@@ -2822,7 +2851,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "assister à",
@@ -2846,7 +2877,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "gérer",
@@ -2867,7 +2899,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "facturer",
@@ -2888,7 +2922,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "avoir les moyens",
@@ -2909,7 +2945,9 @@
         "level": "starter",
         "form": "verb",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "devoir",
@@ -2930,28 +2968,9 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "gagner",
-        "definitions": [
-            {
-                "text": "Recevoir de l argent pour un travail effectué.",
-                "examples": [
-                    "Elle gagne un bon salaire en tant que chef de projet."
-                ]
-            }
-        ],
-        "subtext": "gagner un salaire / gagner de l argent / gagner plus",
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "gagné",
-        "theme": "money_payment_A1",
-        "emoji": "💶",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "visiter",
@@ -2972,7 +2991,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "fêter",
@@ -2993,7 +3014,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "recommander",
@@ -3014,7 +3037,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "faire mal",
@@ -3038,7 +3063,8 @@
         "level": "starter",
         "form": "verb",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "se reposer",
@@ -3059,7 +3085,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "se rétablir",
@@ -3080,7 +3108,9 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "réserver",
@@ -3101,7 +3131,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "faire sa valise",
@@ -3125,7 +3157,8 @@
         "level": "starter",
         "form": "verb",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "annuler",
@@ -3146,7 +3179,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "manquer",
@@ -3167,7 +3202,9 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "commander",
@@ -3188,7 +3225,9 @@
         "aspect": "action",
         "v3": "commandé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "expliquer",
@@ -3209,7 +3248,9 @@
         "aspect": "action",
         "v3": "expliqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "remercier",
@@ -3233,28 +3274,8 @@
         "aspect": "action",
         "v3": "remercié",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "présenter",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "🤝",
-        "subtext": "se présenter / présenter quelqu un / présenter un sujet",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Présenter quelqu un à une autre personne.",
-                "examples": [
-                    "Elle s est présentée au début de la réunion."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "présenté",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "se détendre",
@@ -3275,7 +3296,9 @@
         "aspect": "action",
         "v3": "détendu",
         "group": "re",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "réparer",
@@ -3299,7 +3322,8 @@
         "aspect": "action",
         "v3": "réparé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "se passer",
@@ -3323,7 +3347,8 @@
         "aspect": "action",
         "v3": "passé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": []
     },
     {
         "word": "sembler",
@@ -3344,7 +3369,9 @@
         "aspect": "stative",
         "v3": "semblé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "vouloir dire",
@@ -3365,7 +3392,9 @@
         "aspect": "stative",
         "v3": "voulu dire",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "suivre",
@@ -3386,7 +3415,9 @@
         "aspect": "action",
         "v3": "suivi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "continuer",
@@ -3407,7 +3438,9 @@
         "aspect": "action",
         "v3": "continué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "croître",
@@ -3432,7 +3465,8 @@
         "aspect": "action",
         "v3": "crû",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "inclure",
@@ -3456,7 +3490,8 @@
         "aspect": "stative",
         "v3": "inclus",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "devenir",
@@ -3477,7 +3512,9 @@
         "aspect": "action",
         "v3": "devenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "appartenir",
@@ -3501,7 +3538,8 @@
         "aspect": "stative",
         "v3": "appartenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "choisir",
@@ -3522,7 +3560,9 @@
         "aspect": "action",
         "v3": "choisi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "construire",
@@ -3546,47 +3586,8 @@
         "aspect": "action",
         "v3": "construit",
         "group": "re",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "commencer",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "▶️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Commencer à faire quelque chose.",
-                "examples": [
-                    "Nous commençons la réunion à neuf heures."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "commencé",
-        "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "finir",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Terminer ; s'arrêter.",
-                "examples": [
-                    "Le cours finit à trois heures."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "fini",
-        "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": []
     },
     {
         "word": "brosser",
@@ -3606,7 +3607,10 @@
         "aspect": "action",
         "v3": "brossé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "monter",
@@ -3626,7 +3630,10 @@
         "aspect": "action",
         "v3": "monté",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "rêver",
@@ -3646,7 +3653,10 @@
         "aspect": "action",
         "v3": "rêvé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "croire",
@@ -3666,7 +3676,10 @@
         "aspect": "action",
         "v3": "cru",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "préférer",
@@ -3686,7 +3699,10 @@
         "aspect": "action",
         "v3": "préféré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "attraper",
@@ -3706,27 +3722,10 @@
         "aspect": "action",
         "v3": "attrapé",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "réparer",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Réparer quelque chose qui est cassé.",
-                "examples": [
-                    "Peux-tu réparer mon téléphone ?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "réparé",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "créer",
@@ -3746,7 +3745,10 @@
         "aspect": "action",
         "v3": "créé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "remarquer",
@@ -3766,7 +3768,10 @@
         "aspect": "action",
         "v3": "remarqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "améliorer",
@@ -3786,7 +3791,10 @@
         "aspect": "action",
         "v3": "amélioré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "préparer",
@@ -3806,7 +3814,10 @@
         "aspect": "action",
         "v3": "préparer",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "organiser",
@@ -3826,7 +3837,10 @@
         "aspect": "action",
         "v3": "organisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "planifier",
@@ -3846,7 +3860,10 @@
         "aspect": "action",
         "v3": "planifié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "emprunter",
@@ -3866,7 +3883,10 @@
         "aspect": "action",
         "v3": "emprunté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "prêter",
@@ -3886,7 +3906,10 @@
         "aspect": "action",
         "v3": "prêté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "sentir",
@@ -3906,7 +3929,10 @@
         "aspect": "action",
         "v3": "senti",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "goûter",
@@ -3926,7 +3952,10 @@
         "aspect": "action",
         "v3": "goûté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "s'allonger",
@@ -3946,7 +3975,10 @@
         "aspect": "action",
         "v3": "allongé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "rire",
@@ -3966,7 +3998,10 @@
         "aspect": "action",
         "v3": "ri",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "s'inquiéter",
@@ -3986,7 +4021,10 @@
         "aspect": "action",
         "v3": "inquiété",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "sonner",
@@ -4006,7 +4044,10 @@
         "aspect": "action",
         "v3": "sonné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "épeler",
@@ -4026,7 +4067,10 @@
         "aspect": "action",
         "v3": "épelé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "pointer",
@@ -4046,7 +4090,10 @@
         "aspect": "action",
         "v3": "pointé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "crier",
@@ -4066,7 +4113,10 @@
         "aspect": "action",
         "v3": "crié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "saluer",
@@ -4086,7 +4136,10 @@
         "aspect": "action",
         "v3": "salué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "donner un coup de pied",
@@ -4106,7 +4159,10 @@
         "aspect": "action",
         "v3": "donné un coup de pied",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "jeter",
@@ -4126,7 +4182,10 @@
         "aspect": "action",
         "v3": "jeté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "rebondir",
@@ -4146,7 +4205,10 @@
         "aspect": "action",
         "v3": "rebondi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "peindre",
@@ -4166,7 +4228,10 @@
         "aspect": "action",
         "v3": "peint",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "sautiller",
@@ -4186,27 +4251,10 @@
         "aspect": "action",
         "v3": "sautillé",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "sauter",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏃",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer en sautant d'un pied sur l'autre.",
-                "examples": [
-                    "Les enfants sautent à la corde dans la cour de récréation."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "sauté",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "compter",
@@ -4226,7 +4274,10 @@
         "aspect": "action",
         "v3": "compté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "cocher",
@@ -4246,7 +4297,10 @@
         "aspect": "action",
         "v3": "coché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "barrer",
@@ -4266,7 +4320,10 @@
         "aspect": "action",
         "v3": "barré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "colorier",
@@ -4286,7 +4343,10 @@
         "aspect": "action",
         "v3": "colorié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "tenir",
@@ -4306,7 +4366,10 @@
         "aspect": "action",
         "v3": "tenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "mener",
@@ -4326,7 +4389,10 @@
         "aspect": "action",
         "v3": "mené",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "se battre",
@@ -4346,7 +4412,10 @@
         "aspect": "action",
         "v3": "battu",
         "group": "re",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "cacher",
@@ -4366,7 +4435,10 @@
         "aspect": "action",
         "v3": "caché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "chercher",
@@ -4386,27 +4458,10 @@
         "aspect": "action",
         "v3": "cherché",
         "group": "er",
-        "auxiliary": "avoir"
-    },
-    {
-        "word": "sonner",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🔔",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Faire un bruit comme une cloche.",
-                "examples": [
-                    "Le téléphone sonne."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v3": "sonné",
-        "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "envoyer un SMS",
@@ -4426,7 +4481,10 @@
         "aspect": "action",
         "v3": "envoyé un SMS",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "chuchoter",
@@ -4446,7 +4504,10 @@
         "aspect": "action",
         "v3": "chuchoté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "toucher",
@@ -4466,7 +4527,10 @@
         "aspect": "action",
         "v3": "touché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "allumer",
@@ -4489,7 +4553,10 @@
         "v3": "allumé",
         "group": "er",
         "auxiliary": "avoir",
-        "opposite": "éteindre"
+        "opposite": "éteindre",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "éteindre",
@@ -4512,7 +4579,10 @@
         "v3": "éteint",
         "group": "re",
         "auxiliary": "avoir",
-        "opposite": "allumer"
+        "opposite": "allumer",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "respirer",
@@ -4534,7 +4604,10 @@
         "aspect": "action",
         "v3": "respiré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "tousser",
@@ -4556,7 +4629,10 @@
         "aspect": "action",
         "v3": "toussé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "éternuer",
@@ -4578,7 +4654,10 @@
         "aspect": "action",
         "v3": "éternué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "antonyms": [],
+        "synonyms": [],
+        "subtext": ""
     },
     {
         "word": "produire",
@@ -4598,7 +4677,9 @@
                     "Cette usine produit des voitures."
                 ]
             }
-        ]
+        ],
+        "antonyms": [],
+        "synonyms": []
     },
     {
         "word": "projeter",
@@ -4618,13 +4699,13 @@
                     "Nous projetons de partir en voyage."
                 ]
             }
-        ]
+        ],
+        "antonyms": [],
+        "synonyms": []
     }
 ];
+
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

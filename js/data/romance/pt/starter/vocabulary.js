@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "médico",
         "level": "starter",
@@ -2064,8 +2063,8 @@
         "transcription": ""
     }
 ];
+
     const lang = "pt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-
 })();

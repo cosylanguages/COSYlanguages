@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "ser",
         "level": "starter",
@@ -208,29 +207,6 @@
                 "examples": [
                     "Eu faço café de manhã.",
                     "Ela faz uma decisão."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "fiz",
-        "v3": "feito",
-        "group": "irregular",
-        "auxiliary": "ter"
-    },
-    {
-        "word": "fazer",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "fazer o trabalho / fazer as compras / fazer exercício / não fazer nada",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Realizar uma ação ou atividade.",
-                "examples": [
-                    "Eu faço o meu trabalho todos os dias.",
-                    "Ela faz as compras."
                 ]
             }
         ],
@@ -691,28 +667,6 @@
         "v2": "falei",
         "v3": "falado",
         "group": "irregular",
-        "auxiliary": "ter"
-    },
-    {
-        "word": "falar",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "💬",
-        "subtext": "falar com alguém / falar sobre / falar abertamente / falar durante muito tempo",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Comunicar falando.",
-                "examples": [
-                    "Ele fala com o seu gerente sobre o problema."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "falei",
-        "v3": "falado",
-        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -1769,29 +1723,6 @@
         "auxiliary": "ter"
     },
     {
-        "word": "ouvir",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "👂",
-        "subtext": "ouvir notícias / ter notícias de alguém / ouvir um som / ouvir com clareza",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Perceber o som através dos ouvidos.",
-                "examples": [
-                    "Oiço o alarme todas as manhãs.",
-                    "Pode ouvir-me?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "ouvi",
-        "v3": "ouvido",
-        "group": "irregular",
-        "auxiliary": "ter"
-    },
-    {
         "word": "acordar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2124,28 +2055,6 @@
         "v2": "ganhei",
         "v3": "ganhado",
         "group": "irregular",
-        "auxiliary": "ter"
-    },
-    {
-        "word": "esperar",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏳",
-        "subtext": "esperar por alguém / esperar numa fila / esperar um momento",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Ficar num lugar até que algo aconteça.",
-                "examples": [
-                    "Ele esperou vinte minutos para a reunião começar."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "esperei",
-        "v3": "esperado",
-        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -2883,28 +2792,6 @@
         "auxiliary": "ter"
     },
     {
-        "word": "voltar",
-        "definitions": [
-            {
-                "text": "Regressar a um lugar.",
-                "examples": [
-                    "Ela volta do almoço às duas. Ele volta para casa cansado."
-                ]
-            }
-        ],
-        "subtext": "voltar para casa / voltar tarde / voltar de uma viagem",
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "voltei",
-        "v3": "voltado",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "auxiliary": "ter"
-    },
-    {
         "word": "deitar-se",
         "definitions": [
             {
@@ -2952,28 +2839,6 @@
         "auxiliary": "ter"
     },
     {
-        "word": "responder",
-        "definitions": [
-            {
-                "text": "Responder a uma mensagem ou pergunta.",
-                "examples": [
-                    "Ele responde sempre aos e-mails no mesmo dia."
-                ]
-            }
-        ],
-        "subtext": "responder a um e-mail / responder rapidamente / responder a uma mensagem",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "respondi",
-        "v3": "respondido",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "ter"
-    },
-    {
         "word": "apresentar",
         "definitions": [
             {
@@ -2993,31 +2858,6 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
-    },
-    {
-        "word": "assistir",
-        "definitions": [
-            {
-                "text": "Ir a um evento ou reunião.",
-                "examples": [
-                    "Assisto a uma reunião de gestão todas as segundas-feiras."
-                ]
-            }
-        ],
-        "subtext": "assistir a uma reunião / assistir a um evento",
-        "synonyms": [
-            "frequentar um curso"
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "assisti",
-        "v3": "assistido",
-        "theme": "workplace_basics_A1",
-        "emoji": "📅",
-        "level": "starter",
-        "form": "verb",
-        "group": "ir",
         "auxiliary": "ter"
     },
     {
@@ -3109,28 +2949,6 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "ter"
-    },
-    {
-        "word": "ganhar",
-        "definitions": [
-            {
-                "text": "Receber dinheiro pelo trabalho realizado.",
-                "examples": [
-                    "Ela ganha um bom salário como gestora de projetos."
-                ]
-            }
-        ],
-        "subtext": "ganhar um salário / ganhar dinheiro / ganhar mais / ganhar o suficiente",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "ganhei",
-        "v3": "ganhado",
-        "theme": "money_payment_A1",
-        "emoji": "💶",
-        "level": "starter",
-        "form": "verb",
-        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -3342,31 +3160,6 @@
         "auxiliary": "ter"
     },
     {
-        "word": "perder",
-        "definitions": [
-            {
-                "text": "Falhar em apanhar uma ligação de transporte; ou sentir-se triste pela ausência.",
-                "examples": [
-                    "Ele perdeu o comboio e teve de esperar uma hora."
-                ]
-            }
-        ],
-        "subtext": "perder um comboio / perder um voo / sentir falta de alguém",
-        "synonyms": [
-            "faltar ao trabalho"
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "perdi",
-        "v3": "perdido",
-        "theme": "public_transport_A1",
-        "emoji": "🏃‍♂️",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "ter"
-    },
-    {
         "word": "encomendar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3437,28 +3230,6 @@
         "v2": "agradeci",
         "v3": "agradecido",
         "group": "er",
-        "auxiliary": "ter"
-    },
-    {
-        "word": "apresentar",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "🤝",
-        "subtext": "apresentar-se / apresentar alguém / apresentar um tema",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Apresentar alguém a outra pessoa.",
-                "examples": [
-                    "Ela apresentou-se no início da reunião."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "apresentei",
-        "v3": "apresentado",
-        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -3818,9 +3589,8 @@
         ]
     }
 ];
+
     const lang = "pt";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
