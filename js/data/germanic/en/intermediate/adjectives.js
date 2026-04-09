@@ -5,6 +5,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
+        "transcription": "θɪn",
         "subtext": "paper thin / exceptionally thin / growing thin"
     },
     {
@@ -13,6 +14,7 @@
         "theme": "environment_sustainability_B1",
         "emoji": "⛈️",
         "form": "adjective",
+        "transcription": "ˈstɔːmi",
         "subtext": "stormy weather / a stormy relationship / stormy skies"
     },
     {
@@ -21,6 +23,7 @@
         "theme": "career_development_B1",
         "emoji": "🧑‍💻",
         "form": "adjective",
+        "transcription": "ˌsɛlf ɪmˈplɔɪd",
         "subtext": "freelance, work for yourself",
         "opposite": "employed",
         "definitions": [
@@ -28,7 +31,25 @@
                 "text": "Working for yourself rather than for a company.",
                 "examples": [
                     "She is self-employed as a graphic designer.",
-                    "Being self-employed gives you more freedom."
+                    "Being self-employed gives you more freedom.",
+                    "She has been self-employed for five years."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "freelance",
+        "level": "intermediate",
+        "theme": "career_development_B1",
+        "emoji": "🧑‍💻",
+        "form": "adjective",
+        "transcription": "ˈfriːlɑːns",
+        "subtext": "work freelance, freelance journalist",
+        "definitions": [
+            {
+                "text": "Working independently for different clients rather than one employer.",
+                "examples": [
+                    "He works freelance as a web developer."
                 ]
             }
         ]
@@ -39,13 +60,15 @@
         "theme": "environment_sustainability_B1",
         "emoji": "♻️",
         "form": "adjective",
+        "transcription": "səˈsteɪnəbl",
         "subtext": "sustainable development, eco-friendly",
         "definitions": [
             {
                 "text": "Using resources in a way that does not damage the environment for the future.",
                 "examples": [
                     "We need more sustainable ways of living.",
-                    "This wood comes from a sustainable source."
+                    "This wood comes from a sustainable source.",
+                    "The company is committed to sustainable practices."
                 ]
             }
         ]
@@ -55,6 +78,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ˈæŋkʃəs",
         "definitions": [
             {
                 "text": "Feeling worried and nervous about something uncertain.",
@@ -70,6 +94,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ˌdɪsəˈpɔɪntɪd",
         "definitions": [
             {
                 "text": "Feeling sad because something was not as expected.",
@@ -85,6 +110,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ɪmˈbærəst",
         "definitions": [
             {
                 "text": "Feeling ashamed or self-conscious.",
@@ -100,6 +126,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ɪnˌθjuːziˈæstɪk",
         "definitions": [
             {
                 "text": "Feeling or showing great interest and excitement.",
@@ -115,6 +142,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "frʌˈstreɪtɪd",
         "definitions": [
             {
                 "text": "Feeling annoyed because you cannot do what you want.",
@@ -130,6 +158,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "ˈɡreɪtfl",
         "definitions": [
             {
                 "text": "Feeling or showing thanks for kindness received.",
@@ -145,6 +174,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ˈdʒɛləs",
         "definitions": [
             {
                 "text": "Feeling unhappy because someone has something you want.",
@@ -160,6 +190,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
+        "transcription": "ˈləʊnli",
         "definitions": [
             {
                 "text": "Feeling unhappy because you are without company.",
@@ -175,6 +206,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ˈmɪzrəbl",
         "definitions": [
             {
                 "text": "Feeling very unhappy and without hope.",
@@ -190,6 +222,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ˈnɜːvəs",
         "definitions": [
             {
                 "text": "Feeling worried about something upcoming.",
@@ -205,6 +238,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "rɪˈliːvd",
         "definitions": [
             {
                 "text": "Feeling happy that something bad did not happen.",
@@ -220,6 +254,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "ʃɒkt",
         "definitions": [
             {
                 "text": "Feeling very surprised and upset.",
@@ -235,6 +270,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "æmˈbɪʃəs",
         "definitions": [
             {
                 "text": "Having a strong desire to succeed.",
@@ -250,6 +286,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "breɪv",
         "definitions": [
             {
                 "text": "Willing to face danger or difficulty.",
@@ -265,6 +302,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "kɑːm",
         "definitions": [
             {
                 "text": "Not showing nervousness; peaceful.",
@@ -280,6 +318,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
+        "transcription": "ˈtʃɪəfl",
         "definitions": [
             {
                 "text": "Feeling or showing happiness.",
@@ -295,6 +334,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "dɪˈtɜːmɪnd",
         "definitions": [
             {
                 "text": "Firmly decided to do something and not giving up.",
@@ -310,6 +350,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "ˈdʒɛnərəs",
         "definitions": [
             {
                 "text": "Willing to give time or money; more than expected.",
@@ -325,6 +366,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "ˈdʒɛntl",
         "definitions": [
             {
                 "text": "Kind and calm; not rough or violent.",
@@ -340,6 +382,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "ˈɒnɪst",
         "definitions": [
             {
                 "text": "Telling the truth; not deceiving.",
@@ -355,6 +398,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "ˈhʌmbl",
         "definitions": [
             {
                 "text": "Not thinking you are better than others.",
@@ -370,6 +414,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ɪmˈpɛɪʃnt",
         "definitions": [
             {
                 "text": "Unable to wait calmly; easily irritated by delay.",
@@ -385,6 +430,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ˈməʊtɪveɪtɪd",
         "definitions": [
             {
                 "text": "Having a desire to do something.",
@@ -401,6 +447,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ˈpæʃənət",
         "definitions": [
             {
                 "text": "Having strong feelings about something.",
@@ -416,6 +463,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ˈpeɪʃnt",
         "definitions": [
             {
                 "text": "Able to wait for a long time without getting annoyed.",
@@ -431,6 +479,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
+        "transcription": "ˈsɛnsəbl",
         "definitions": [
             {
                 "text": "Showing good judgement; practical and reasonable.",
@@ -446,6 +495,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
+        "transcription": "ˈædɪkwət",
         "definitions": [
             {
                 "text": "Enough or satisfactory for the purpose.",
@@ -461,6 +511,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
+        "transcription": "əˈprəʊpriət",
         "definitions": [
             {
                 "text": "Suitable or right for a particular situation.",
@@ -476,6 +527,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
+        "transcription": "ɪˈfɛktɪv",
         "definitions": [
             {
                 "text": "Producing the intended result.",
@@ -491,6 +543,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
+        "transcription": "ɪˈfɪʃnt",
         "definitions": [
             {
                 "text": "Achieving maximum result with minimum waste of effort.",
@@ -506,6 +559,7 @@
         "level": "intermediate",
         "theme": "equality_rights_B1",
         "form": "adjective",
+        "transcription": "feə",
         "definitions": [
             {
                 "text": "Treating people equally and without favouritism.",
@@ -521,6 +575,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
+        "transcription": "ɪmˈprɛsɪv",
         "definitions": [
             {
                 "text": "Causing admiration; making a strong effect.",
@@ -536,6 +591,7 @@
         "level": "intermediate",
         "theme": "cultural_heritage_B1",
         "form": "adjective",
+        "transcription": "əˈrɪdʒənl",
         "definitions": [
             {
                 "text": "New and creative; not a copy.",
@@ -551,6 +607,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
+        "transcription": "ˈpɒzətɪv",
         "definitions": [
             {
                 "text": "Feeling hopeful and confident; good.",
@@ -566,6 +623,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
+        "transcription": "ˈnɛɡətɪv",
         "definitions": [
             {
                 "text": "Not hopeful or constructive; bad.",
@@ -581,6 +639,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
+        "transcription": "ˈriːznəbl",
         "definitions": [
             {
                 "text": "Sensible and fair; not extreme.",
@@ -596,6 +655,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "səkˈsɛsfl",
         "definitions": [
             {
                 "text": "Having achieved a desired result.",
@@ -611,6 +671,7 @@
         "level": "intermediate",
         "theme": "finances_investment_B1",
         "form": "adjective",
+        "transcription": "ˈvæljuəbl",
         "definitions": [
             {
                 "text": "Worth a lot; very useful or important.",
@@ -627,6 +688,7 @@
         "level": "intermediate",
         "theme": "equality_rights_B1",
         "form": "adjective",
+        "transcription": "ˈiːkwəl",
         "definitions": [
             {
                 "text": "The same in status, rights or opportunities.",
@@ -642,6 +704,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
+        "transcription": "ˈɡləʊbl",
         "definitions": [
             {
                 "text": "Relating to the whole world.",
@@ -657,6 +720,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
+        "transcription": "ˈləʊkl",
         "definitions": [
             {
                 "text": "Relating to a nearby area.",
@@ -672,6 +736,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
+        "transcription": "ˈnæʃnəl",
         "definitions": [
             {
                 "text": "Relating to a whole country.",
@@ -687,6 +752,7 @@
         "level": "intermediate",
         "theme": "equality_rights_B1",
         "form": "adjective",
+        "transcription": "pəˈlɪtɪkl",
         "definitions": [
             {
                 "text": "Relating to government and politics.",
@@ -702,6 +768,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
+        "transcription": "ˈsəʊʃl",
         "definitions": [
             {
                 "text": "Relating to society and its organisation.",
@@ -718,6 +785,7 @@
         "level": "intermediate",
         "theme": "finances_investment_B1",
         "form": "adjective",
+        "transcription": "ˌiːkəˈnɒmɪk",
         "definitions": [
             {
                 "text": "Relating to money, trade and industry.",
@@ -733,6 +801,7 @@
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
         "form": "adjective",
+        "transcription": "ɪnˌvaɪrənˈmɛntl",
         "definitions": [
             {
                 "text": "Relating to the natural world and its protection.",
@@ -749,6 +818,7 @@
         "level": "intermediate",
         "theme": "cultural_heritage_B1",
         "form": "adjective",
+        "transcription": "ˈkʌltʃərəl",
         "definitions": [
             {
                 "text": "Relating to the arts, ideas and customs of a society.",
@@ -765,6 +835,7 @@
         "level": "intermediate",
         "theme": "higher_education_B1",
         "form": "adjective",
+        "transcription": "ˌɛdʒuˈkeɪʃənl",
         "definitions": [
             {
                 "text": "Relating to education; giving knowledge.",
@@ -780,6 +851,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
+        "transcription": "ˈmɛntl",
         "definitions": [
             {
                 "text": "Relating to the mind and emotions.",
@@ -795,6 +867,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
+        "transcription": "ˈɪzɪkl",
         "definitions": [
             {
                 "text": "Relating to the body rather than the mind.",
@@ -810,6 +883,7 @@
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
         "form": "adjective",
+        "transcription": "ˈkrɒnɪk",
         "definitions": [
             {
                 "text": "Lasting a long time; persistent.",
@@ -825,6 +899,7 @@
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
         "form": "adjective",
+        "transcription": "sɪˈvɪə",
         "definitions": [
             {
                 "text": "Very serious or extreme.",
@@ -840,6 +915,7 @@
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
         "form": "adjective",
+        "transcription": "maɪld",
         "definitions": [
             {
                 "text": "Not extreme; gentle.",
@@ -855,6 +931,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "kəmˈpɛtətɪv",
         "definitions": [
             {
                 "text": "Trying hard to be better than others; involving competition.",
@@ -870,6 +947,7 @@
         "level": "intermediate",
         "theme": "work_life_balance_B1",
         "form": "adjective",
+        "transcription": "dɪˈmɑːndɪŋ",
         "definitions": [
             {
                 "text": "Requiring a lot of effort and attention.",
@@ -885,6 +963,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ˈdɛdɪkeɪtɪd",
         "definitions": [
             {
                 "text": "Working very hard and loyal to something.",
@@ -900,6 +979,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "skɪld",
         "definitions": [
             {
                 "text": "Having particular abilities from training or experience.",
@@ -915,6 +995,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
+        "transcription": "ˈɪnəvətɪv",
         "definitions": [
             {
                 "text": "Introducing or using new ideas and methods.",
@@ -930,6 +1011,7 @@
         "level": "intermediate",
         "theme": "work_life_balance_B1",
         "form": "adjective",
+        "transcription": "ˈəʊvətaɪm",
         "definitions": [
             {
                 "text": "Working beyond normal hours — used predicatively.",
@@ -945,6 +1027,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
+        "transcription": "klɪə",
         "definitions": [
             {
                 "text": "Easy to understand; obvious.",
@@ -960,6 +1043,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
+        "transcription": "ˈ kɒmplɪkeɪtɪd",
         "definitions": [
             {
                 "text": "Involving many parts; difficult to understand.",
@@ -975,6 +1059,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
+        "transcription": "ˈlɒdʒɪkl",
         "definitions": [
             {
                 "text": "Following a sensible and reasonable way of thinking.",
@@ -990,6 +1075,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
+        "transcription": "ˈɒbviəs",
         "definitions": [
             {
                 "text": "Easy to see or understand; clear to everyone.",
@@ -1005,6 +1091,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
+        "transcription": "səˈpraɪzɪŋ",
         "definitions": [
             {
                 "text": "Causing surprise; unexpected.",
@@ -1020,6 +1107,7 @@
         "level": "intermediate",
         "theme": "spatial_description_B1",
         "form": "adjective",
+        "transcription": "ˈtɪpɪkl",
         "definitions": [
             {
                 "text": "Showing the most usual qualities.",
@@ -1035,6 +1123,7 @@
         "level": "intermediate",
         "theme": "probability_certainty_B1",
         "form": "adjective",
+        "transcription": "ʌnˈlaɪkli",
         "definitions": [
             {
                 "text": "Probably not going to happen.",
@@ -1050,6 +1139,7 @@
         "level": "intermediate",
         "theme": "probability_certainty_B1",
         "form": "adjective",
+        "transcription": "ˈlaɪkli",
         "definitions": [
             {
                 "text": "Probably going to happen.",

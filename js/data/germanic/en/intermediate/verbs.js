@@ -18,7 +18,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "photographed",
-        "v3": "photographed"
+        "v3": "photographed",
+        "transcription": "ˈfəʊtəɡrɑːf"
     },
     {
         "word": "garden",
@@ -38,7 +39,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "gardened",
-        "v3": "gardened"
+        "v3": "gardened",
+        "transcription": "ˈɡɑːdn"
     },
     {
         "word": "fish",
@@ -58,7 +60,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "fished",
-        "v3": "fished"
+        "v3": "fished",
+        "transcription": "fɪʃ"
     },
     {
         "word": "volunteer",
@@ -72,14 +75,58 @@
                 "text": "To offer to do something without being paid.",
                 "examples": [
                     "She volunteers at the local food bank.",
-                    "I want to volunteer for the charity event."
+                    "I want to volunteer for the charity event.",
+                    "She volunteers at the local food bank every Saturday."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "volunteered",
-        "v3": "volunteered"
+        "v3": "volunteered",
+        "transcription": "ˌvɒlənˈtɪə"
+    },
+    {
+        "word": "recycle",
+        "level": "intermediate",
+        "theme": "environment_sustainability_B1",
+        "emoji": "♻️",
+        "form": "verb",
+        "subtext": "recycle plastic, recycling bin",
+        "definitions": [
+            {
+                "text": "To convert waste into reusable material.",
+                "examples": [
+                    "They recycle glass, paper and plastic every week."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "recycled",
+        "v3": "recycled",
+        "transcription": "ˌriːˈsaɪkl"
+    },
+    {
+        "word": "argue",
+        "level": "intermediate",
+        "theme": "structured_argument_B1",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "argue about, argue for",
+        "definitions": [
+            {
+                "text": "To present reasons supporting a particular view.",
+                "examples": [
+                    "She argued that remote work reduces productivity."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "argued",
+        "v3": "argued",
+        "transcription": "ˈɑːɡjuː"
     }
 ];
     const lang = "en";
