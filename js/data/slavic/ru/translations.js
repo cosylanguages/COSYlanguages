@@ -55,7 +55,7 @@
             bingo_last_called_label: "Последний номер",
             bingo_level_label: "Уровень / Тип ⚙️",
             bingo_lvl_1: "Бинго 1 (0-9)",
-            bingo_lvl_2: "Бинго 2 (0-19)",
+            bingo_lvl_2: "Бинго 2 (10-19)",
             bingo_lvl_3: "Бинго 3 (20-99)",
             bingo_lvl_4: "Бинго 4 (100-9999)",
             bingo_lvl_5: "Бинго 5 (Случайный)",

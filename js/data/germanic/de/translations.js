@@ -46,7 +46,7 @@
             bingo_last_called_label: "Last Called",
             bingo_level_label: "Level / Type ⚙️",
             bingo_lvl_1: "Bingo 1 (0-9)",
-            bingo_lvl_2: "Bingo 2 (0-19)",
+            bingo_lvl_2: "Bingo 2 (10-19)",
             bingo_lvl_3: "Bingo 3 (20-99)",
             bingo_lvl_4: "Bingo 4 (100-9999)",
             bingo_lvl_5: "Bingo 5 (Random)",

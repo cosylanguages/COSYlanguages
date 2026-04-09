@@ -312,7 +312,7 @@ function updateGSSTypes(gameName) {
   if (gameName === 'Lucky Numbers') {
     types = [
       { id: '1', label: (window.t ? window.t('bingo_lvl_1') : 'Bingo 1 (0-9)') },
-      { id: '2', label: (window.t ? window.t('bingo_lvl_2') : 'Bingo 2 (0-19)') },
+      { id: '2', label: (window.t ? window.t('bingo_lvl_2') : 'Bingo 2 (10-19)') },
       { id: '3', label: (window.t ? window.t('bingo_lvl_3') : 'Bingo 3 (20-99)') },
       { id: '5', label: (window.t ? window.t('bingo_lvl_5') : 'Bingo 5 (Random)') },
       { id: 'alphabet', label: (window.t ? window.t('bingo_alphabet') : 'Alphabet') }
