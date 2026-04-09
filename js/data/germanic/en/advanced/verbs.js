@@ -27,12 +27,12 @@
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
             "emoji": "❓",
-            "subtext": "problematise a concept / problematise the idea",
+            "subtext": "problematise a concept / problematise the idea / problematise assumptions",
             "form": "verb",
             "transcription": "ˈprɒbləmətaɪz",
             "definitions": [
                 {
-                    "text": "To treat something as requiring critical examination.",
+                    "text": "To treat something as a problem worthy of critical analysis.",
                     "examples": [
                         "The seminar sought to problematise the concept of meritocracy."
                     ]
@@ -54,7 +54,7 @@
             "transcription": "kənˈtekstʃuəlaɪz",
             "definitions": [
                 {
-                    "text": "To place something in its broader context.",
+                    "text": "To place something in its broader context to aid understanding.",
                     "examples": [
                         "We must contextualise these statistics within a global framework."
                     ]
@@ -120,9 +120,9 @@
             "transcription": "ˈpɒzɪt",
             "definitions": [
                 {
-                    "text": "To suggest or assume something as a basis for argument.",
+                    "text": "To suggest or assume the existence of something as a basis for argument.",
                     "examples": [
-                        "She posits that late capitalism generates its own critique."
+                        "She posits that late-stage capitalism generates its own critique."
                     ]
                 }
             ],
@@ -142,7 +142,7 @@
             "transcription": "ɪkˈstræpəleɪt",
             "definitions": [
                 {
-                    "text": "To extend conclusions from known data to unknown cases.",
+                    "text": "To extend conclusions from known data to unknown situations.",
                     "examples": [
                         "It is dangerous to extrapolate from one country's experience."
                     ]
@@ -164,9 +164,9 @@
             "transcription": "haɪˈpɒθəsaɪz",
             "definitions": [
                 {
-                    "text": "To put forward a tentative explanation.",
+                    "text": "To put forward a hypothesis or tentative explanation.",
                     "examples": [
-                        "They hypothesised a link between sleep quality and decisions."
+                        "The researchers hypothesised a link between sleep and decision quality."
                     ]
                 }
             ],
@@ -174,50 +174,6 @@
             "aspect": "action",
             "v2": "hypothesised",
             "v3": "hypothesised",
-            "group": "regular"
-        },
-        {
-            "word": "articulate",
-            "level": "advanced",
-            "theme": "language_persuasion_C1",
-            "emoji": "🗣️",
-            "subtext": "articulate an idea / well-articulated / articulate clearly",
-            "form": "verb",
-            "transcription": "ɑːˈtɪkjuleɪt",
-            "definitions": [
-                {
-                    "text": "To express thoughts or feelings fluently and clearly.",
-                    "examples": [
-                        "He articulates the problem more clearly than anyone else."
-                    ]
-                }
-            ],
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "articulated",
-            "v3": "articulated",
-            "group": "regular"
-        },
-        {
-            "word": "elaborate",
-            "level": "advanced",
-            "theme": "language_persuasion_C1",
-            "emoji": "➕",
-            "subtext": "elaborate on / elaborate further / need to elaborate",
-            "form": "verb",
-            "transcription": "ɪˈlæbəreɪt",
-            "definitions": [
-                {
-                    "text": "To add more detail or explanation to something.",
-                    "examples": [
-                        "Could you elaborate further on that point about wellbeing?"
-                    ]
-                }
-            ],
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "elaborated",
-            "v3": "elaborated",
             "group": "regular"
         },
         {
@@ -230,9 +186,9 @@
             "transcription": "kəʊˈɜːs",
             "definitions": [
                 {
-                    "text": "To force someone by threats or pressure.",
+                    "text": "To force someone to do something by using threats or pressure.",
                     "examples": [
-                        "Workers claimed they were coerced into signing new contracts."
+                        "Workers claimed they were coerced into signing the new contracts."
                     ]
                 }
             ],
@@ -252,9 +208,9 @@
             "transcription": "məˈnɪpjuleɪt",
             "definitions": [
                 {
-                    "text": "To control someone cleverly and dishonestly.",
+                    "text": "To control someone or something cleverly and dishonestly.",
                     "examples": [
-                        "The data had been manipulated to support the chosen conclusion."
+                        "The data had been manipulated to support the desired conclusion."
                     ]
                 }
             ],
@@ -274,9 +230,9 @@
             "transcription": "ˌʌndəˈmaɪn",
             "definitions": [
                 {
-                    "text": "To weaken or damage something gradually.",
+                    "text": "To weaken or damage something gradually or insidiously.",
                     "examples": [
-                        "The leaks seriously undermined confidence in the leadership."
+                        "The leaks undermined confidence in the leadership team."
                     ]
                 }
             ],
@@ -318,9 +274,9 @@
             "transcription": "kəʊˈɒpt",
             "definitions": [
                 {
-                    "text": "To absorb something into a group, often to neutralise it.",
+                    "text": "To absorb someone or something into a group, often to neutralise opposition.",
                     "examples": [
-                        "The government co-opted the language of protest to justify cuts."
+                        "The government co-opted the language of protest to justify the policy."
                     ]
                 }
             ],
@@ -362,9 +318,9 @@
             "transcription": "kənˈsɒlɪdeɪt",
             "definitions": [
                 {
-                    "text": "To combine or strengthen something.",
+                    "text": "To combine things to make them stronger or more secure.",
                     "examples": [
-                        "The merger consolidated their position as market leader."
+                        "The merger consolidated their position as the market leader."
                     ]
                 }
             ],
@@ -378,7 +334,7 @@
             "word": "compel",
             "level": "advanced",
             "theme": "power_institutions_C1",
-            "emoji": "⚠️",
+            "emoji": "⚖️",
             "subtext": "compel someone to / feel compelled / compelling evidence",
             "form": "verb",
             "transcription": "kəmˈpel",
@@ -406,7 +362,7 @@
             "transcription": "pəˈpetʃueɪt",
             "definitions": [
                 {
-                    "text": "To make something continue indefinitely, especially bad things.",
+                    "text": "To make something continue indefinitely, especially something bad.",
                     "examples": [
                         "Stereotyping perpetuates inequality across generations."
                     ]
@@ -430,7 +386,7 @@
                 {
                     "text": "To cause something unusual to be regarded as normal.",
                     "examples": [
-                        "Social media has normalised constant digital availability."
+                        "Social media has normalised constant availability."
                     ]
                 }
             ],
@@ -474,7 +430,7 @@
                 {
                     "text": "To oppose or struggle against something.",
                     "examples": [
-                        "Workers resisted the attempts to increase workplace surveillance."
+                        "Workers resisted the attempts to increase surveillance."
                     ]
                 }
             ],
@@ -482,6 +438,28 @@
             "aspect": "action",
             "v2": "resisted",
             "v3": "resisted",
+            "group": "regular"
+        },
+        {
+            "word": "challenge",
+            "level": "advanced",
+            "theme": "discourse_argument_C1",
+            "emoji": "🥊",
+            "subtext": "challenge assumptions / challenge authority / challenge the status quo",
+            "form": "verb",
+            "transcription": "ˈtʃælɪndʒ",
+            "definitions": [
+                {
+                    "text": "To question the validity or truth of something.",
+                    "examples": [
+                        "She challenged the premise of the argument itself."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "challenged",
+            "v3": "challenged",
             "group": "regular"
         },
         {
@@ -518,7 +496,7 @@
                 {
                     "text": "To absorb and accept ideas or values as one's own.",
                     "examples": [
-                        "He internalised the belief that hard work always brings reward."
+                        "He internalised the belief that hard work always leads to success."
                     ]
                 }
             ],
@@ -560,9 +538,9 @@
             "transcription": "ˈræʃnəlaɪz",
             "definitions": [
                 {
-                    "text": "To attempt to explain behaviour with plausible reasons.",
+                    "text": "To attempt to explain one's behaviour with plausible but false reasons.",
                     "examples": [
-                        "He rationalised staying in a bad job as financial necessity."
+                        "He rationalised his decision to stay in the bad job as loyalty."
                     ]
                 }
             ],
@@ -582,9 +560,9 @@
             "transcription": "səˈpres",
             "definitions": [
                 {
-                    "text": "To consciously prevent an emotion or information from emerging.",
+                    "text": "To consciously prevent a feeling or information from being expressed.",
                     "examples": [
-                        "She suppressed her frustration and continued the presentation."
+                        "She suppressed her frustration and continued the meeting."
                     ]
                 }
             ],
@@ -592,6 +570,28 @@
             "aspect": "action",
             "v2": "suppressed",
             "v3": "suppressed",
+            "group": "regular"
+        },
+        {
+            "word": "repress",
+            "level": "advanced",
+            "theme": "psychological_states_C1",
+            "emoji": "🧠",
+            "subtext": "repress memories / repress desires / psychologically repressed",
+            "form": "verb",
+            "transcription": "rɪˈpres",
+            "definitions": [
+                {
+                    "text": "To prevent thoughts from entering conscious awareness.",
+                    "examples": [
+                        "Freud argued that we repress desires that are socially unacceptable."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "repressed",
+            "v3": "repressed",
             "group": "regular"
         },
         {
@@ -604,7 +604,7 @@
             "transcription": "dɪsˈpleɪs",
             "definitions": [
                 {
-                    "text": "To shift an emotion from its true object to another.",
+                    "text": "To shift an emotion from its true target to a safer one.",
                     "examples": [
                         "He displaced his anger at his employer onto his family."
                     ]
@@ -626,7 +626,7 @@
             "transcription": "ˈnjuːɑːns",
             "definitions": [
                 {
-                    "text": "To give subtle distinctions to an argument or position.",
+                    "text": "To give subtle and fine distinctions to an argument or position.",
                     "examples": [
                         "She nuanced her argument to acknowledge the complexity involved."
                     ]
@@ -643,12 +643,12 @@
             "level": "advanced",
             "theme": "discourse_argument_C1",
             "emoji": "🏷️",
-            "subtext": "qualify a statement / qualifying remark / with the caveat that",
+            "subtext": "qualify a statement / with the caveat / qualifying remark",
             "form": "verb",
             "transcription": "ˈkwɒlɪfaɪ",
             "definitions": [
                 {
-                    "text": "To modify a statement to limit its scope.",
+                    "text": "To modify a statement to limit its scope or add conditions.",
                     "examples": [
                         "He qualified his optimism with a list of serious reservations."
                     ]
@@ -672,7 +672,7 @@
                 {
                     "text": "To make two apparently conflicting things compatible.",
                     "examples": [
-                        "She struggled to reconcile her professional and personal values."
+                        "She struggled to reconcile her ambitions with her values."
                     ]
                 }
             ],
@@ -692,7 +692,7 @@
             "transcription": "ʌnˈpæk",
             "definitions": [
                 {
-                    "text": "To examine the components of something in detail.",
+                    "text": "To examine the components or implications of something in detail.",
                     "examples": [
                         "Let us unpack what is meant by the term 'flexible working'."
                     ]
@@ -702,6 +702,50 @@
             "aspect": "action",
             "v2": "unpacked",
             "v3": "unpacked",
+            "group": "regular"
+        },
+        {
+            "word": "articulate",
+            "level": "advanced",
+            "theme": "language_persuasion_C1",
+            "emoji": "🗣️",
+            "subtext": "articulate an idea / well-articulated / articulate clearly",
+            "form": "verb",
+            "transcription": "ɑːˈtɪkjuleɪt",
+            "definitions": [
+                {
+                    "text": "To express thoughts or feelings fluently and coherently.",
+                    "examples": [
+                        "He articulates the problem more clearly than anyone else."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "articulated",
+            "v3": "articulated",
+            "group": "regular"
+        },
+        {
+            "word": "elaborate",
+            "level": "advanced",
+            "theme": "language_persuasion_C1",
+            "emoji": "➕",
+            "subtext": "elaborate on / elaborate further / need to elaborate",
+            "form": "verb",
+            "transcription": "ɪˈlæbəreɪt",
+            "definitions": [
+                {
+                    "text": "To add more detail or explanation to something said or written.",
+                    "examples": [
+                        "Could you elaborate further on that point about wellbeing?"
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "elaborated",
+            "v3": "elaborated",
             "group": "regular"
         },
         {
