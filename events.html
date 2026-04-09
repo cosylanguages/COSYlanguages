@@ -1083,7 +1083,7 @@ footer {
                             <label data-translate-key="bingo_level_label">Level / Type ⚙️</label>
                             <select id="bingo-level" class="pill-input" style="width: 100%;">
                                 <option value="1" data-translate-key="bingo_lvl_1">Bingo 1 (0-9)</option>
-                                <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (0-19)</option>
+                                <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (10-19)</option>
                                 <option value="3" data-translate-key="bingo_lvl_3">Bingo 3 (20-99)</option>
                                 <option value="5" data-translate-key="bingo_lvl_5">Bingo 5 (Random)</option>
                                 <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
@@ -2206,6 +2206,26 @@ footer {
                 <button class="gss-option" data-value="upper-intermediate">B2</button>
                 <button class="gss-option" data-value="advanced">C1</button>
             </div>
+        </div>
+
+        <div class="gss-field" id="gss-theme-field" style="display: none;">
+            <label data-translate-key="select_theme">Select Theme 🎨</label>
+            <div class="gss-options" id="gss-theme-options"></div>
+        </div>
+
+        <div class="gss-field" id="gss-type-field" style="display: none;">
+            <label data-translate-key="select_type">Select Type / Mode ⚙️</label>
+            <div class="gss-options" id="gss-type-options"></div>
+        </div>
+
+        <div class="gss-field" id="gss-bingo-content-field" style="display: none;">
+            <label data-translate-key="bingo_content_label">Card Content 🃏</label>
+            <div class="gss-options" id="gss-bingo-content-options"></div>
+        </div>
+
+        <div class="gss-field" id="gss-timer-field" style="display: none;">
+            <label data-translate-key="timer_label">Timer Duration ⏱️</label>
+            <div class="gss-options" id="gss-timer-options"></div>
         </div>
 
         <button class="gss-start" data-translate-key="start_game">Start Game 🚀</button>

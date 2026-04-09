@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 let min = 0, max = 9;
                 if (level === '1') { min = 0; max = 9; }
-                else if (level === '2') { min = 0; max = 19; }
+                else if (level === '2') { min = 10; max = 19; }
                 else if (level === '3') { min = 20; max = 99; }
                 else { min = 0; max = 99; }
 
