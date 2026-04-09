@@ -1,96 +1,13 @@
 (function() {
     const data = [
     {
-        "word": "civic",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
-        "emoji": "🏛️",
-        "form": "adjective",
-        "subtext": "civic duty, civic engagement",
-        "definitions": [
-            {
-                "text": "Relating to a town, city, or the people who live there.",
-                "examples": [
-                    "Voting is a civic duty.",
-                    "The city was awarded a prize for civic improvement."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chronic",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "emoji": "⏳🤒",
-        "form": "adjective",
-        "subtext": "chronic pain, chronic illness",
-        "opposite": "acute",
-        "definitions": [
-            {
-                "text": "Lasting a long time; of a health condition that is persistent.",
-                "examples": [
-                    "She suffers from chronic back pain.",
-                    "He has a chronic respiratory condition."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "preventive",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "emoji": "🛡️",
-        "form": "adjective",
-        "subtext": "preventive medicine, preventive measure",
-        "definitions": [
-            {
-                "text": "Designed to stop something bad from happening.",
-                "examples": [
-                    "Preventive medicine reduces long-term costs.",
-                    "They took preventive action to avoid a strike."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "moral",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "emoji": "⚖️",
-        "form": "adjective",
-        "subtext": "moral decision, moral obligation",
-        "definitions": [
-            {
-                "text": "Relating to principles of right and wrong behaviour.",
-                "examples": [
-                    "She made a moral decision to refuse the money.",
-                    "Is it a moral issue or a legal one?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ethical",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "emoji": "🤔⚖️",
-        "form": "adjective",
-        "subtext": "ethical investment, ethical standards",
-        "definitions": [
-            {
-                "text": "Relating to ethics; following accepted rules of right conduct.",
-                "examples": [
-                    "Companies must operate in an ethical way.",
-                    "Is it ethical to experiment on animals?"
-                ]
-            }
-        ]
-    },
-    {
         "word": "accurate",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "🎯",
         "form": "adjective",
+        "transcription": "ˈækjərət",
+        "subtext": "Formal | highly accurate / very accurate / accurate data",
         "definitions": [
             {
                 "text": "Correct in every detail; free from error.",
@@ -99,13 +16,18 @@
                 ]
             }
         ],
-        "subtext": "highly accurate / very accurate / accurate data"
+        "comparative": "more accurate",
+        "superlative": "the most accurate",
+        "opposite": "inaccurate"
     },
     {
         "word": "adequate",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🆗",
         "form": "adjective",
+        "transcription": "ˈædɪkwət",
+        "subtext": "Formal | barely adequate / more than adequate / deemed adequate",
         "definitions": [
             {
                 "text": "Enough for the purpose; satisfactory.",
@@ -114,13 +36,18 @@
                 ]
             }
         ],
-        "subtext": "barely adequate / more than adequate / deemed adequate"
+        "comparative": "more adequate",
+        "superlative": "the most adequate",
+        "opposite": "inadequate"
     },
     {
         "word": "appropriate",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "✅",
         "form": "adjective",
+        "transcription": "əˈprəʊprieɪt",
+        "subtext": "Neutral | entirely appropriate / wholly appropriate / deem appropriate",
         "definitions": [
             {
                 "text": "Suitable for a particular situation.",
@@ -129,13 +56,18 @@
                 ]
             }
         ],
-        "subtext": "entirely appropriate / wholly appropriate / deem appropriate"
+        "comparative": "more appropriate",
+        "superlative": "the most appropriate",
+        "opposite": "inappropriate"
     },
     {
         "word": "crucial",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "❗",
         "form": "adjective",
+        "transcription": "ˈkruːʃl",
+        "subtext": "Formal | absolutely crucial / play a crucial role / of crucial importance",
         "definitions": [
             {
                 "text": "Extremely important; critical.",
@@ -144,13 +76,18 @@
                 ]
             }
         ],
-        "subtext": "absolutely crucial / play a crucial role / of crucial importance"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "trivial"
     },
     {
         "word": "genuine",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "💎",
         "form": "adjective",
+        "transcription": "ˈdʒɛnjuɪn",
+        "subtext": "Neutral | a genuine concern / completely genuine / genuinely interested",
         "definitions": [
             {
                 "text": "Truly what it appears to be; authentic.",
@@ -159,14 +96,18 @@
                 ]
             }
         ],
-        "subtext": "a genuine concern / completely genuine",
-        "synonyms": ["genuinely interested"]
+        "comparative": "more genuine",
+        "superlative": "the most genuine",
+        "opposite": "fake"
     },
     {
         "word": "outstanding",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🌟",
         "form": "adjective",
+        "transcription": "aʊtˈstændɪŋ",
+        "subtext": "Formal | truly outstanding / outstanding work / an outstanding candidate",
         "definitions": [
             {
                 "text": "Exceptionally good; beyond the expected level.",
@@ -175,13 +116,18 @@
                 ]
             }
         ],
-        "subtext": "truly outstanding / outstanding work / an outstanding candidate"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "mediocre"
     },
     {
         "word": "remarkable",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "😲",
         "form": "adjective",
+        "transcription": "rɪˈmɑːkəbl",
+        "subtext": "Formal | truly remarkable / quite remarkable / a remarkable result",
         "definitions": [
             {
                 "text": "Worthy of special notice; impressive.",
@@ -190,13 +136,18 @@
                 ]
             }
         ],
-        "subtext": "truly remarkable / quite remarkable / a remarkable result"
+        "comparative": "more remarkable",
+        "superlative": "the most remarkable",
+        "opposite": "unremarkable"
     },
     {
         "word": "sufficient",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "📈",
         "form": "adjective",
+        "transcription": "səˈfɪʃnt",
+        "subtext": "Formal | more than sufficient / quite sufficient / deemed sufficient",
         "definitions": [
             {
                 "text": "Enough for the purpose.",
@@ -205,13 +156,18 @@
                 ]
             }
         ],
-        "subtext": "more than sufficient / quite sufficient / deemed sufficient"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "insufficient"
     },
     {
         "word": "tough",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🧱",
         "form": "adjective",
+        "transcription": "tʌf",
+        "subtext": "Neutral | very tough / a tough decision / incredibly tough",
         "definitions": [
             {
                 "text": "Difficult; demanding strength or effort.",
@@ -220,13 +176,18 @@
                 ]
             }
         ],
-        "subtext": "very tough / a tough decision / incredibly tough"
+        "comparative": "tougher",
+        "superlative": "the toughest",
+        "opposite": "easy"
     },
     {
         "word": "worthwhile",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "💎",
         "form": "adjective",
+        "transcription": "ˌwɜːθˈwaɪl",
+        "subtext": "Neutral | well worthwhile / very worthwhile / prove worthwhile",
         "definitions": [
             {
                 "text": "Worth the time, money or effort spent.",
@@ -235,13 +196,18 @@
                 ]
             }
         ],
-        "subtext": "well worthwhile / very worthwhile / prove worthwhile"
+        "comparative": "more worthwhile",
+        "superlative": "the most worthwhile",
+        "opposite": "pointless"
     },
     {
         "word": "absurd",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "🤡",
         "form": "adjective",
+        "transcription": "əbˈsɜːd",
+        "subtext": "Neutral | utterly absurd / perfectly absurd / sound absurd",
         "definitions": [
             {
                 "text": "Completely unreasonable or illogical; ridiculous.",
@@ -250,13 +216,18 @@
                 ]
             }
         ],
-        "subtext": "utterly absurd / perfectly absurd / sound absurd"
+        "comparative": "more absurd",
+        "superlative": "the most absurd",
+        "opposite": "sensible"
     },
     {
         "word": "ridiculous",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "😂",
         "form": "adjective",
+        "transcription": "rɪˈdɪkjələs",
+        "subtext": "Neutral | absolutely ridiculous / utterly ridiculous / totally ridiculous",
         "definitions": [
             {
                 "text": "Deserving to be laughed at; very unreasonable.",
@@ -265,13 +236,18 @@
                 ]
             }
         ],
-        "subtext": "absolutely ridiculous / utterly ridiculous / totally ridiculous"
+        "comparative": "more ridiculous",
+        "superlative": "the most ridiculous",
+        "opposite": "sensible"
     },
     {
         "word": "subtle",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🌓",
         "form": "adjective",
+        "transcription": "ˈsʌtl",
+        "subtext": "Formal | very subtle / quite subtle / a subtle distinction",
         "definitions": [
             {
                 "text": "Not obvious; delicate and careful.",
@@ -280,13 +256,18 @@
                 ]
             }
         ],
-        "subtext": "very subtle / quite subtle / a subtle distinction"
+        "comparative": "subtler",
+        "superlative": "the subtlest",
+        "opposite": "obvious"
     },
     {
         "word": "anxious",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😟",
         "form": "adjective",
+        "transcription": "ˈæŋkʃəs",
+        "subtext": "Neutral | feel anxious / deeply anxious / increasingly anxious",
         "definitions": [
             {
                 "text": "Worried and nervous about something.",
@@ -295,13 +276,18 @@
                 ]
             }
         ],
-        "subtext": "feel anxious / deeply anxious / increasingly anxious"
+        "comparative": "more anxious",
+        "superlative": "the most anxious",
+        "opposite": "calm"
     },
     {
         "word": "ashamed",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "🤦",
         "form": "adjective",
+        "transcription": "əˈʃeɪmd",
+        "subtext": "Neutral | feel ashamed / deeply ashamed / ashamed of",
         "definitions": [
             {
                 "text": "Feeling guilt or embarrassment.",
@@ -310,13 +296,18 @@
                 ]
             }
         ],
-        "subtext": "feel ashamed / deeply ashamed / ashamed of"
+        "comparative": "more ashamed",
+        "superlative": "the most ashamed",
+        "opposite": "proud"
     },
     {
         "word": "bitter",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "🍋",
         "form": "adjective",
+        "transcription": "ˈbɪtə",
+        "subtext": "Neutral | feel bitter / bitterly disappointed / a bitter argument",
         "definitions": [
             {
                 "text": "Feeling strong anger and sadness; sharp in taste.",
@@ -325,14 +316,18 @@
                 ]
             }
         ],
-        "subtext": "feel bitter / a bitter argument",
-        "synonyms": ["bitterly disappointed"]
+        "comparative": "bitterer",
+        "superlative": "the bitterest",
+        "opposite": "sweet"
     },
     {
         "word": "concerned",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😟",
         "form": "adjective",
+        "transcription": "kənˈsɜːnd",
+        "subtext": "Neutral | deeply concerned / seriously concerned / concerned about",
         "definitions": [
             {
                 "text": "Worried or troubled about something.",
@@ -341,13 +336,18 @@
                 ]
             }
         ],
-        "subtext": "deeply concerned / seriously concerned / concerned about"
+        "comparative": "more concerned",
+        "superlative": "the most concerned",
+        "opposite": "indifferent"
     },
     {
         "word": "convinced",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "🧠",
         "form": "adjective",
+        "transcription": "kənˈvɪnst",
+        "subtext": "Neutral | fully convinced / utterly convinced / not entirely convinced",
         "definitions": [
             {
                 "text": "Completely certain; having no doubt.",
@@ -356,13 +356,18 @@
                 ]
             }
         ],
-        "subtext": "fully convinced / utterly convinced / not entirely convinced"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "doubtful"
     },
     {
         "word": "delighted",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😊",
         "form": "adjective",
+        "transcription": "dɪˈlaɪtɪd",
+        "subtext": "Neutral | absolutely delighted / truly delighted / delighted to hear",
         "definitions": [
             {
                 "text": "Feeling great pleasure or happiness.",
@@ -371,13 +376,18 @@
                 ]
             }
         ],
-        "subtext": "absolutely delighted / truly delighted / delighted to hear"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "disappointed"
     },
     {
         "word": "depressed",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😔",
         "form": "adjective",
+        "transcription": "dɪˈprɛst",
+        "subtext": "Neutral | feel depressed / deeply depressed / clinically depressed",
         "definitions": [
             {
                 "text": "Feeling very unhappy and without hope.",
@@ -386,13 +396,18 @@
                 ]
             }
         ],
-        "subtext": "feel depressed / deeply depressed / clinically depressed"
+        "comparative": "more depressed",
+        "superlative": "the most depressed",
+        "opposite": "cheerful"
     },
     {
         "word": "eager",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "🤩",
         "form": "adjective",
+        "transcription": "ˈiːɡə",
+        "subtext": "Neutral | very eager / keen and eager / eager to learn",
         "definitions": [
             {
                 "text": "Very willing and enthusiastic; keen.",
@@ -401,13 +416,18 @@
                 ]
             }
         ],
-        "subtext": "very eager / keen and eager / eager to learn"
+        "comparative": "eagerer",
+        "superlative": "the eagerest",
+        "opposite": "indifferent"
     },
     {
         "word": "enthusiastic",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "🙌",
         "form": "adjective",
+        "transcription": "ɪnˌθjuːziˈæstɪk",
+        "subtext": "Neutral | very enthusiastic / wildly enthusiastic / enthusiastically",
         "definitions": [
             {
                 "text": "Showing great excitement and interest.",
@@ -416,14 +436,18 @@
                 ]
             }
         ],
-        "subtext": "very enthusiastic / wildly enthusiastic",
-        "synonyms": ["enthusiastically"]
+        "comparative": "more enthusiastic",
+        "superlative": "the most enthusiastic",
+        "opposite": "apathetic"
     },
     {
         "word": "frustrated",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😤",
         "form": "adjective",
+        "transcription": "frʌˈstreɪtɪd",
+        "subtext": "Neutral | deeply frustrated / increasingly frustrated / frustrated by",
         "definitions": [
             {
                 "text": "Annoyed because you cannot achieve something.",
@@ -432,13 +456,18 @@
                 ]
             }
         ],
-        "subtext": "deeply frustrated / increasingly frustrated / frustrated by"
+        "comparative": "more frustrated",
+        "superlative": "the most frustrated",
+        "opposite": "satisfied"
     },
     {
         "word": "furious",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😡",
         "form": "adjective",
+        "transcription": "ˈfjʊəriəs",
+        "subtext": "Neutral | absolutely furious / utterly furious / furious about",
         "definitions": [
             {
                 "text": "Extremely angry.",
@@ -447,13 +476,18 @@
                 ]
             }
         ],
-        "subtext": "absolutely furious / utterly furious / furious about"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "calm"
     },
     {
         "word": "impatient",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "⌚",
         "form": "adjective",
+        "transcription": "ɪmˈpeɪʃnt",
+        "subtext": "Neutral | grow impatient / very impatient / increasingly impatient",
         "definitions": [
             {
                 "text": "Unwilling to wait; easily irritated.",
@@ -462,13 +496,18 @@
                 ]
             }
         ],
-        "subtext": "grow impatient / very impatient / increasingly impatient"
+        "comparative": "more impatient",
+        "superlative": "the most impatient",
+        "opposite": "patient"
     },
     {
         "word": "miserable",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😫",
         "form": "adjective",
+        "transcription": "ˈmɪzrəbl",
+        "subtext": "Neutral | absolutely miserable / make someone miserable / feel miserable",
         "definitions": [
             {
                 "text": "Very unhappy and uncomfortable.",
@@ -477,13 +516,18 @@
                 ]
             }
         ],
-        "subtext": "absolutely miserable / make someone miserable / feel miserable"
+        "comparative": "more miserable",
+        "superlative": "the most miserable",
+        "opposite": "cheerful"
     },
     {
         "word": "relieved",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "😌",
         "form": "adjective",
+        "transcription": "rɪˈliːvd",
+        "subtext": "Neutral | greatly relieved / hugely relieved / relieved to find out",
         "definitions": [
             {
                 "text": "Feeling happy because a worry has ended.",
@@ -492,13 +536,18 @@
                 ]
             }
         ],
-        "subtext": "greatly relieved / hugely relieved / relieved to find out"
+        "comparative": "more relieved",
+        "superlative": "the most relieved",
+        "opposite": "anxious"
     },
     {
         "word": "sympathetic",
         "level": "upper-intermediate",
         "theme": "emotional_intelligence_B2",
+        "emoji": "🤝",
         "form": "adjective",
+        "transcription": "ˌsɪmpəˈθɛtɪk",
+        "subtext": "Neutral | very sympathetic / quite sympathetic / a sympathetic ear",
         "definitions": [
             {
                 "text": "Showing understanding of another's problems.",
@@ -507,13 +556,18 @@
                 ]
             }
         ],
-        "subtext": "very sympathetic / quite sympathetic / a sympathetic ear"
+        "comparative": "more sympathetic",
+        "superlative": "the most sympathetic",
+        "opposite": "unsympathetic"
     },
     {
         "word": "aggressive",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "👊",
         "form": "adjective",
+        "transcription": "əˈɡrɛsɪv",
+        "subtext": "Neutral | very aggressive / highly aggressive / an aggressive approach",
         "definitions": [
             {
                 "text": "Ready to attack; forceful in a negative way.",
@@ -522,13 +576,18 @@
                 ]
             }
         ],
-        "subtext": "very aggressive / highly aggressive / an aggressive approach"
+        "comparative": "more aggressive",
+        "superlative": "the most aggressive",
+        "opposite": "gentle"
     },
     {
         "word": "bold",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
+        "emoji": "🦁",
         "form": "adjective",
+        "transcription": "bəʊld",
+        "subtext": "Neutral | very bold / incredibly bold / a bold move",
         "definitions": [
             {
                 "text": "Willing to take risks; very confident.",
@@ -537,13 +596,18 @@
                 ]
             }
         ],
-        "subtext": "very bold / incredibly bold / a bold move"
+        "comparative": "bolder",
+        "superlative": "the boldest",
+        "opposite": "timid"
     },
     {
         "word": "capable",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
+        "emoji": "💪",
         "form": "adjective",
+        "transcription": "ˈkeɪpəbl",
+        "subtext": "Neutral | very capable / highly capable / fully capable",
         "definitions": [
             {
                 "text": "Having the ability to do something.",
@@ -552,13 +616,18 @@
                 ]
             }
         ],
-        "subtext": "very capable / highly capable / fully capable"
+        "comparative": "more capable",
+        "superlative": "the most capable",
+        "opposite": "incapable"
     },
     {
         "word": "charming",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "✨",
         "form": "adjective",
+        "transcription": "ˈtʃɑːmɪŋ",
+        "subtext": "Neutral | very charming / utterly charming / naturally charming",
         "definitions": [
             {
                 "text": "Pleasing and attractive in a persuasive way.",
@@ -567,13 +636,18 @@
                 ]
             }
         ],
-        "subtext": "very charming / utterly charming / naturally charming"
+        "comparative": "more charming",
+        "superlative": "the most charming",
+        "opposite": "unpleasant"
     },
     {
         "word": "dishonest",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
+        "emoji": "🤥",
         "form": "adjective",
+        "transcription": "dɪsˈɒnɪst",
+        "subtext": "Neutral | completely dishonest / deeply dishonest / dishonest about",
         "definitions": [
             {
                 "text": "Not truthful; intended to deceive.",
@@ -582,13 +656,18 @@
                 ]
             }
         ],
-        "subtext": "completely dishonest / deeply dishonest / dishonest about"
+        "comparative": "more dishonest",
+        "superlative": "the most dishonest",
+        "opposite": "honest"
     },
     {
         "word": "modest",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
+        "emoji": "🙇",
         "form": "adjective",
+        "transcription": "ˈmɒdɪst",
+        "subtext": "Neutral | very modest / quite modest / genuinely modest",
         "definitions": [
             {
                 "text": "Not boasting about your abilities.",
@@ -597,13 +676,18 @@
                 ]
             }
         ],
-        "subtext": "very modest / quite modest / genuinely modest"
+        "comparative": "more modest",
+        "superlative": "the most modest",
+        "opposite": "arrogant"
     },
     {
         "word": "stubborn",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
+        "emoji": "🐂",
         "form": "adjective",
+        "transcription": "ˈstʌbən",
+        "subtext": "Neutral | very stubborn / incredibly stubborn / stubbornly refused",
         "definitions": [
             {
                 "text": "Refusing to change your opinion or plans.",
@@ -612,14 +696,18 @@
                 ]
             }
         ],
-        "subtext": "very stubborn / incredibly stubborn",
-        "synonyms": ["stubbornly refused"]
+        "comparative": "more stubborn",
+        "superlative": "the most stubborn",
+        "opposite": "flexible"
     },
     {
         "word": "selfish",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
+        "emoji": "🤳",
         "form": "adjective",
+        "transcription": "ˈsɛlfɪʃ",
+        "subtext": "Neutral | very selfish / deeply selfish / incredibly selfish",
         "definitions": [
             {
                 "text": "Thinking only of yourself; not caring about others.",
@@ -628,13 +716,18 @@
                 ]
             }
         ],
-        "subtext": "very selfish / deeply selfish / incredibly selfish"
+        "comparative": "more selfish",
+        "superlative": "the most selfish",
+        "opposite": "selfless"
     },
     {
         "word": "optimistic",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "🌅",
         "form": "adjective",
+        "transcription": "ˌɒptɪˈmɪstɪk",
+        "subtext": "Neutral | cautiously optimistic / very optimistic / remain optimistic",
         "definitions": [
             {
                 "text": "Expecting the best outcome; hopeful.",
@@ -643,13 +736,18 @@
                 ]
             }
         ],
-        "subtext": "cautiously optimistic / very optimistic / remain optimistic"
+        "comparative": "more optimistic",
+        "superlative": "the most optimistic",
+        "opposite": "pessimistic"
     },
     {
         "word": "pessimistic",
         "level": "upper-intermediate",
         "theme": "complex_emotions_B2",
+        "emoji": "☁️",
         "form": "adjective",
+        "transcription": "ˌpɛsɪˈmɪstɪk",
+        "subtext": "Neutral | deeply pessimistic / very pessimistic / unduly pessimistic",
         "definitions": [
             {
                 "text": "Expecting the worst; not hopeful.",
@@ -658,13 +756,18 @@
                 ]
             }
         ],
-        "subtext": "deeply pessimistic / very pessimistic / unduly pessimistic"
+        "comparative": "more pessimistic",
+        "superlative": "the most pessimistic",
+        "opposite": "optimistic"
     },
     {
         "word": "democratic",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
+        "emoji": "🗳️",
         "form": "adjective",
+        "transcription": "ˌdɛməˈkrætɪk",
+        "subtext": "Formal | fully democratic / more democratic / democratic process",
         "definitions": [
             {
                 "text": "Based on the principle of equal rights and representation.",
@@ -673,13 +776,18 @@
                 ]
             }
         ],
-        "subtext": "fully democratic / more democratic / democratic process"
+        "comparative": "more democratic",
+        "superlative": "the most democratic",
+        "opposite": "authoritarian"
     },
     {
         "word": "controversial",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🗣️",
         "form": "adjective",
+        "transcription": "ˌkɒntrəˈvɜːʃl",
+        "subtext": "Formal | highly controversial / deeply controversial / spark controversy",
         "definitions": [
             {
                 "text": "Causing disagreement or strong public debate.",
@@ -688,14 +796,18 @@
                 ]
             }
         ],
-        "subtext": "highly controversial / deeply controversial",
-        "synonyms": ["spark controversy"]
+        "comparative": "more controversial",
+        "superlative": "the most controversial",
+        "opposite": "uncontroversial"
     },
     {
         "word": "corrupt",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
+        "emoji": "💸",
         "form": "adjective",
+        "transcription": "kəˈrʌpt",
+        "subtext": "Formal | deeply corrupt / completely corrupt / a corrupt system",
         "definitions": [
             {
                 "text": "Acting dishonestly for personal gain.",
@@ -704,13 +816,18 @@
                 ]
             }
         ],
-        "subtext": "deeply corrupt / completely corrupt / a corrupt system"
+        "comparative": "more corrupt",
+        "superlative": "the most corrupt",
+        "opposite": "honest"
     },
     {
         "word": "diverse",
         "level": "upper-intermediate",
         "theme": "globalisation_geography_B2",
+        "emoji": "🌍",
         "form": "adjective",
+        "transcription": "daɪˈvɜːs",
+        "subtext": "Neutral | very diverse / hugely diverse / ethnically diverse",
         "definitions": [
             {
                 "text": "Having a great deal of variety.",
@@ -719,13 +836,18 @@
                 ]
             }
         ],
-        "subtext": "very diverse / hugely diverse / ethnically diverse"
+        "comparative": "more diverse",
+        "superlative": "the most diverse",
+        "opposite": "homogeneous"
     },
     {
         "word": "domestic",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
+        "emoji": "🏠",
         "form": "adjective",
+        "transcription": "dəˈmɛstɪk",
+        "subtext": "Formal | domestic market / domestic policy / domestic violence",
         "definitions": [
             {
                 "text": "Relating to the home or one's own country.",
@@ -734,13 +856,18 @@
                 ]
             }
         ],
-        "subtext": "domestic market / domestic policy / domestic violence"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "international"
     },
     {
         "word": "liberal",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
+        "emoji": "🗽",
         "form": "adjective",
+        "transcription": "ˈlɪbərəl",
+        "subtext": "Neutral | very liberal / quite liberal / a liberal approach",
         "definitions": [
             {
                 "text": "Open to new ideas; favouring individual freedom.",
@@ -749,13 +876,18 @@
                 ]
             }
         ],
-        "subtext": "very liberal / quite liberal / a liberal approach"
+        "comparative": "more liberal",
+        "superlative": "the most liberal",
+        "opposite": "conservative"
     },
     {
         "word": "radical",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🧨",
         "form": "adjective",
+        "transcription": "ˈrædɪkl",
+        "subtext": "Neutral | quite radical / deeply radical / a radical idea",
         "definitions": [
             {
                 "text": "Very different from traditional; extreme in change.",
@@ -764,13 +896,18 @@
                 ]
             }
         ],
-        "subtext": "quite radical / deeply radical / a radical idea"
+        "comparative": "more radical",
+        "superlative": "the most radical",
+        "opposite": "moderate"
     },
     {
         "word": "widespread",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🌍",
         "form": "adjective",
+        "transcription": "ˈwaɪdsprɛd",
+        "subtext": "Formal | increasingly widespread / very widespread / extremely widespread",
         "definitions": [
             {
                 "text": "Found or occurring over a large area.",
@@ -779,13 +916,18 @@
                 ]
             }
         ],
-        "subtext": "increasingly widespread / very widespread / extremely widespread"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "rare"
     },
     {
         "word": "complex",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🧩",
         "form": "adjective",
+        "transcription": "ˈkɒmplɛks",
+        "subtext": "Formal | very complex / highly complex / increasingly complex",
         "definitions": [
             {
                 "text": "Consisting of many related parts; not simple.",
@@ -794,13 +936,18 @@
                 ]
             }
         ],
-        "subtext": "very complex / highly complex / increasingly complex"
+        "comparative": "more complex",
+        "superlative": "the most complex",
+        "opposite": "simple"
     },
     {
         "word": "comprehensive",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "📚",
         "form": "adjective",
+        "transcription": "ˌkɒmprɪˈhɛnsɪv",
+        "subtext": "Formal | truly comprehensive / very comprehensive / a comprehensive review",
         "definitions": [
             {
                 "text": "Including all or most of what is needed.",
@@ -809,13 +956,18 @@
                 ]
             }
         ],
-        "subtext": "truly comprehensive / very comprehensive / a comprehensive review"
+        "comparative": "more comprehensive",
+        "superlative": "the most comprehensive",
+        "opposite": "partial"
     },
     {
         "word": "consistent",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🔄",
         "form": "adjective",
+        "transcription": "kənˈsɪstənt",
+        "subtext": "Formal | highly consistent / very consistent / entirely consistent",
         "definitions": [
             {
                 "text": "Always acting in the same way; regular.",
@@ -824,13 +976,18 @@
                 ]
             }
         ],
-        "subtext": "highly consistent / very consistent / entirely consistent"
+        "comparative": "more consistent",
+        "superlative": "the most consistent",
+        "opposite": "inconsistent"
     },
     {
         "word": "conventional",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🎩",
         "form": "adjective",
+        "transcription": "kənˈvɛnʃənl",
+        "subtext": "Formal | very conventional / highly conventional / conventional thinking",
         "definitions": [
             {
                 "text": "Following what is traditional or expected.",
@@ -839,13 +996,18 @@
                 ]
             }
         ],
-        "subtext": "very conventional / highly conventional / conventional thinking"
+        "comparative": "more conventional",
+        "superlative": "the most conventional",
+        "opposite": "unconventional"
     },
     {
         "word": "distinct",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🌓",
         "form": "adjective",
+        "transcription": "dɪˈstɪŋkt",
+        "subtext": "Formal | clearly distinct / quite distinct / a distinct difference",
         "definitions": [
             {
                 "text": "Clearly different; easily recognised.",
@@ -854,13 +1016,18 @@
                 ]
             }
         ],
-        "subtext": "clearly distinct / quite distinct / a distinct difference"
+        "comparative": "more distinct",
+        "superlative": "the most distinct",
+        "opposite": "indistinct"
     },
     {
         "word": "dominant",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🦁",
         "form": "adjective",
+        "transcription": "ˈdɒmɪnənt",
+        "subtext": "Formal | largely dominant / clearly dominant / the dominant force",
         "definitions": [
             {
                 "text": "Most important or powerful.",
@@ -869,13 +1036,18 @@
                 ]
             }
         ],
-        "subtext": "largely dominant / clearly dominant / the dominant force"
+        "comparative": "more dominant",
+        "superlative": "the most dominant",
+        "opposite": "subordinate"
     },
     {
         "word": "fundamental",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🧱",
         "form": "adjective",
+        "transcription": "ˌfʌndəˈmɛntl",
+        "subtext": "Formal | absolutely fundamental / truly fundamental / a fundamental flaw",
         "definitions": [
             {
                 "text": "Central to and essential to the existence of.",
@@ -884,13 +1056,18 @@
                 ]
             }
         ],
-        "subtext": "absolutely fundamental / truly fundamental / a fundamental flaw"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "superficial"
     },
     {
         "word": "inherent",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🧬",
         "form": "adjective",
+        "transcription": "ɪnˈhɪərənt",
+        "subtext": "Formal | inherent risk / inherent problem / naturally inherent",
         "definitions": [
             {
                 "text": "Existing as a natural part of something.",
@@ -899,13 +1076,18 @@
                 ]
             }
         ],
-        "subtext": "inherent risk / inherent problem / naturally inherent"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "acquired"
     },
     {
         "word": "rational",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
+        "emoji": "🧠",
         "form": "adjective",
+        "transcription": "ˈræʃənl",
+        "subtext": "Formal | entirely rational / very rational / a rational approach",
         "definitions": [
             {
                 "text": "Based on clear and logical thinking.",
@@ -914,13 +1096,18 @@
                 ]
             }
         ],
-        "subtext": "entirely rational / very rational / a rational approach"
+        "comparative": "more rational",
+        "superlative": "the most rational",
+        "opposite": "irrational"
     },
     {
         "word": "relevant",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "🔗",
         "form": "adjective",
+        "transcription": "ˈrɛləvənt",
+        "subtext": "Neutral | directly relevant / highly relevant / relevant to",
         "definitions": [
             {
                 "text": "Directly connected to the matter being discussed.",
@@ -929,13 +1116,18 @@
                 ]
             }
         ],
-        "subtext": "directly relevant / highly relevant / relevant to"
+        "comparative": "more relevant",
+        "superlative": "the most relevant",
+        "opposite": "irrelevant"
     },
     {
         "word": "significant",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "📈",
         "form": "adjective",
+        "transcription": "sɪɡˈnɪfɪkənt",
+        "subtext": "Formal | very significant / highly significant / statistically significant",
         "definitions": [
             {
                 "text": "Important; large enough to have an effect.",
@@ -944,13 +1136,18 @@
                 ]
             }
         ],
-        "subtext": "very significant / highly significant / statistically significant"
+        "comparative": "more significant",
+        "superlative": "the most significant",
+        "opposite": "insignificant"
     },
     {
         "word": "straightforward",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "📏",
         "form": "adjective",
+        "transcription": "ˌstreɪtˈfɔːwəd",
+        "subtext": "Neutral | very straightforward / quite straightforward / perfectly straightforward",
         "definitions": [
             {
                 "text": "Easy to understand; not complicated.",
@@ -959,13 +1156,18 @@
                 ]
             }
         ],
-        "subtext": "very straightforward / quite straightforward / perfectly straightforward"
+        "comparative": "more straightforward",
+        "superlative": "the most straightforward",
+        "opposite": "complex"
     },
     {
         "word": "underlying",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "⚓",
         "form": "adjective",
+        "transcription": "ˌʌndəˈlaɪɪŋ",
+        "subtext": "Formal | the underlying cause / underlying issue / underlying trend",
         "definitions": [
             {
                 "text": "Existing beneath the surface; basic and important.",
@@ -974,13 +1176,18 @@
                 ]
             }
         ],
-        "subtext": "the underlying cause / underlying issue / underlying trend"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "superficial"
     },
     {
         "word": "valid",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
+        "emoji": "✅",
         "form": "adjective",
+        "transcription": "ˈvælɪd",
+        "subtext": "Formal | entirely valid / perfectly valid / a valid argument",
         "definitions": [
             {
                 "text": "Legally or officially acceptable; well-founded.",
@@ -989,13 +1196,18 @@
                 ]
             }
         ],
-        "subtext": "entirely valid / perfectly valid / a valid argument"
+        "comparative": "more valid",
+        "superlative": "the most valid",
+        "opposite": "invalid"
     },
     {
         "word": "enormous",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🐘",
         "form": "adjective",
+        "transcription": "ɪˈnɔːməs",
+        "subtext": "Neutral | an enormous amount / enormous pressure / truly enormous",
         "definitions": [
             {
                 "text": "Very large in size or amount.",
@@ -1004,13 +1216,18 @@
                 ]
             }
         ],
-        "subtext": "an enormous amount / enormous pressure / truly enormous"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "tiny"
     },
     {
         "word": "extreme",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🌋",
         "form": "adjective",
+        "transcription": "ɪkˈstriːm",
+        "subtext": "Neutral | extremely well / at the extreme end / an extreme case",
         "definitions": [
             {
                 "text": "Very great in degree; going beyond normal limits.",
@@ -1019,14 +1236,18 @@
                 ]
             }
         ],
-        "subtext": "at the extreme end / an extreme case",
-        "synonyms": ["extremely well"]
+        "comparative": "more extreme",
+        "superlative": "the most extreme",
+        "opposite": "moderate"
     },
     {
         "word": "intense",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🔥",
         "form": "adjective",
+        "transcription": "ɪnˈtɛns",
+        "subtext": "Neutral | very intense / highly intense / an intense debate",
         "definitions": [
             {
                 "text": "Very strong or concentrated.",
@@ -1035,13 +1256,18 @@
                 ]
             }
         ],
-        "subtext": "very intense / highly intense / an intense debate"
+        "comparative": "intenser",
+        "superlative": "the intensest",
+        "opposite": "mild"
     },
     {
         "word": "massive",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🏔️",
         "form": "adjective",
+        "transcription": "ˈmæsɪv",
+        "subtext": "Neutral | a massive difference / truly massive / a massive problem",
         "definitions": [
             {
                 "text": "Very large in amount or degree.",
@@ -1050,13 +1276,18 @@
                 ]
             }
         ],
-        "subtext": "a massive difference / truly massive / a massive problem"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "tiny"
     },
     {
         "word": "moderate",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "🌡️",
         "form": "adjective",
+        "transcription": "ˈmɒdərət",
+        "subtext": "Formal | very moderate / fairly moderate / a moderate improvement",
         "definitions": [
             {
                 "text": "Average; not extreme.",
@@ -1065,13 +1296,18 @@
                 ]
             }
         ],
-        "subtext": "very moderate / fairly moderate / a moderate improvement"
+        "comparative": "more moderate",
+        "superlative": "the most moderate",
+        "opposite": "extreme"
     },
     {
         "word": "severe",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "⛈️",
         "form": "adjective",
+        "transcription": "sɪˈvɪə",
+        "subtext": "Formal | very severe / extremely severe / severe consequences",
         "definitions": [
             {
                 "text": "Very serious or intense.",
@@ -1080,13 +1316,18 @@
                 ]
             }
         ],
-        "subtext": "very severe / extremely severe / severe consequences"
+        "comparative": "severer",
+        "superlative": "the severest",
+        "opposite": "mild"
     },
     {
         "word": "substantial",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
+        "emoji": "💰",
         "form": "adjective",
+        "transcription": "səbˈstænʃl",
+        "subtext": "Formal | very substantial / quite substantial / a substantial amount",
         "definitions": [
             {
                 "text": "Large in size, amount or importance.",
@@ -1095,7 +1336,134 @@
                 ]
             }
         ],
-        "subtext": "very substantial / quite substantial / a substantial amount"
+        "comparative": null,
+        "superlative": null,
+        "opposite": "insignificant"
+    },
+    {
+        "word": "civic",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "🏛️",
+        "form": "adjective",
+        "transcription": "ˈsɪvɪk",
+        "subtext": "Formal | civic duty / civic engagement / civic improvement",
+        "definitions": [
+            {
+                "text": "Relating to a town, city, or the people who live there.",
+                "examples": [
+                    "Voting is a civic duty.",
+                    "The city was awarded a prize for civic improvement."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null,
+        "opposite": null
+    },
+    {
+        "word": "chronic",
+        "level": "upper-intermediate",
+        "theme": "serious_illness_treatment_B2",
+        "emoji": "⏳🤒",
+        "form": "adjective",
+        "transcription": "ˈkrɒnɪk",
+        "subtext": "Formal | chronic pain / chronic illness / chronic respiratory condition",
+        "definitions": [
+            {
+                "text": "Lasting a long time; of a health condition that is persistent.",
+                "examples": [
+                    "She suffers from chronic back pain.",
+                    "He has a chronic respiratory condition."
+                ]
+            }
+        ],
+        "comparative": "more chronic",
+        "superlative": "the most chronic",
+        "opposite": "acute"
+    },
+    {
+        "word": "preventive",
+        "level": "upper-intermediate",
+        "theme": "serious_illness_treatment_B2",
+        "emoji": "🛡️",
+        "form": "adjective",
+        "transcription": "prɪˈvɛntɪv",
+        "subtext": "Formal | preventive medicine / preventive measure / preventive action",
+        "definitions": [
+            {
+                "text": "Designed to stop something bad from happening.",
+                "examples": [
+                    "Preventive medicine reduces long-term costs.",
+                    "They took preventive action to avoid a strike."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null,
+        "opposite": null
+    },
+    {
+        "word": "moral",
+        "level": "upper-intermediate",
+        "theme": "ethical_dilemmas_B2",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "transcription": "ˈmɒrəl",
+        "subtext": "Neutral | moral decision / moral obligation / moral issue",
+        "definitions": [
+            {
+                "text": "Relating to principles of right and wrong behaviour.",
+                "examples": [
+                    "She made a moral decision to refuse the money.",
+                    "Is it a moral issue or a legal one?"
+                ]
+            }
+        ],
+        "comparative": "more moral",
+        "superlative": "the most moral",
+        "opposite": "immoral"
+    },
+    {
+        "word": "ethical",
+        "level": "upper-intermediate",
+        "theme": "ethical_dilemmas_B2",
+        "emoji": "🤔⚖️",
+        "form": "adjective",
+        "transcription": "ˈɛθɪkl",
+        "subtext": "Formal | ethical investment / ethical standards / ethical way",
+        "definitions": [
+            {
+                "text": "Relating to ethics; following accepted rules of right conduct.",
+                "examples": [
+                    "Companies must operate in an ethical way.",
+                    "Is it ethical to experiment on animals?"
+                ]
+            }
+        ],
+        "comparative": "more ethical",
+        "superlative": "the most ethical",
+        "opposite": "unethical"
+    },
+    {
+        "word": "compulsory",
+        "level": "upper-intermediate",
+        "theme": "politics_governance_B2",
+        "emoji": "📜",
+        "form": "adjective",
+        "transcription": "kəmˈpʌlsəri",
+        "subtext": "required by law, not optional",
+        "definitions": [
+            {
+                "text": "Required by law or rule; not optional.",
+                "examples": [
+                    "Voting is compulsory in some countries."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null,
+        "opposite": "voluntary"
     }
 ];
     const lang = "en";
