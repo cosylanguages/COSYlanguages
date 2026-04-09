@@ -404,7 +404,8 @@
                     "Remote work has become normal for many professionals."
                 ]
             }
-        ]
+        ],
+        "subtext": "remote work policy, shift to remote work"
     },
     {
         "word": "global warming",
@@ -1301,7 +1302,10 @@
         "form": "phrase",
         "transcription": "ɒn ði ˈʌðə hænd",
         "subtext": "",
-        "synonyms": ["alternatively", "conversely"],
+        "synonyms": [
+            "alternatively",
+            "conversely"
+        ],
         "definitions": [
             {
                 "text": "Used to introduce a contrasting point.",
@@ -1339,7 +1343,10 @@
         "form": "phrase",
         "transcription": "æz ə rɪˈzʌlt",
         "subtext": "",
-        "synonyms": ["consequently", "therefore"],
+        "synonyms": [
+            "consequently",
+            "therefore"
+        ],
         "definitions": [
             {
                 "text": "Because of this; consequently.",
@@ -1366,7 +1373,8 @@
                     "She was passed over for promotion twice."
                 ]
             }
-        ]
+        ],
+        "subtext": "get a promotion, job promotion"
     },
     {
         "word": "skill set",
@@ -1384,7 +1392,8 @@
                     "Her skill set makes her very employable."
                 ]
             }
-        ]
+        ],
+        "subtext": "diverse skill set, professional skill set"
     },
     {
         "word": "appraisal",
@@ -1402,7 +1411,8 @@
                     "Her annual appraisal is next week."
                 ]
             }
-        ]
+        ],
+        "subtext": "performance appraisal, annual appraisal"
     },
     {
         "word": "workplace",
@@ -1420,7 +1430,8 @@
                     "The new workplace is much more modern."
                 ]
             }
-        ]
+        ],
+        "subtext": "modern workplace, workplace culture"
     },
     {
         "word": "leadership",
@@ -1438,7 +1449,8 @@
                     "Strong leadership is essential in a crisis."
                 ]
             }
-        ]
+        ],
+        "subtext": "strong leadership, leadership skills"
     },
     {
         "word": "flexible hours",
@@ -1456,7 +1468,8 @@
                     "Flexible hours make the job much more attractive."
                 ]
             }
-        ]
+        ],
+        "subtext": "work flexible hours, offer flexible hours"
     },
     {
         "word": "annual leave",
@@ -1474,7 +1487,8 @@
                     "She has ten days of annual leave remaining."
                 ]
             }
-        ]
+        ],
+        "subtext": "take annual leave, annual leave entitlement"
     },
     {
         "word": "anxiety",
@@ -1492,7 +1506,8 @@
                     "He suffers from anxiety before presentations."
                 ]
             }
-        ]
+        ],
+        "subtext": "social anxiety, anxiety attack"
     },
     {
         "word": "depression",
@@ -1510,7 +1525,8 @@
                     "Depression affects millions of working adults."
                 ]
             }
-        ]
+        ],
+        "subtext": "clinical depression, suffer from depression"
     },
     {
         "word": "resilience",
@@ -1528,7 +1544,8 @@
                     "Resilience is one of the most valuable qualities in adult life."
                 ]
             }
-        ]
+        ],
+        "subtext": "build resilience, emotional resilience"
     },
     {
         "word": "mindfulness",
@@ -1546,7 +1563,8 @@
                     "He practises mindfulness for ten minutes every morning."
                 ]
             }
-        ]
+        ],
+        "subtext": "practise mindfulness, mindfulness meditation"
     },
     {
         "word": "self-care",
@@ -1564,7 +1582,8 @@
                     "Self-care is not a luxury — it is a necessity."
                 ]
             }
-        ]
+        ],
+        "subtext": "self-care routine, importance of self-care"
     },
     {
         "word": "tax return",
@@ -1582,7 +1601,8 @@
                     "He needs to submit his tax return by January."
                 ]
             }
-        ]
+        ],
+        "subtext": "submit a tax return, annual tax return"
     },
     {
         "word": "expenditure",
@@ -1600,7 +1620,8 @@
                     "They tracked their monthly expenditure carefully."
                 ]
             }
-        ]
+        ],
+        "subtext": "monthly expenditure, reduce expenditure"
     },
     {
         "word": "credit",
@@ -1618,7 +1639,8 @@
                     "He used credit to buy the car."
                 ]
             }
-        ]
+        ],
+        "subtext": "credit card, buy on credit"
     },
     {
         "word": "mortgage",
@@ -1636,7 +1658,8 @@
                     "The mortgage is spread over twenty-five years."
                 ]
             }
-        ]
+        ],
+        "subtext": "take out a mortgage, pay off a mortgage"
     },
     {
         "word": "property",
@@ -1654,7 +1677,8 @@
                     "Property prices have risen sharply in this city."
                 ]
             }
-        ]
+        ],
+        "subtext": "property market, rental property"
     },
     {
         "word": "equity",
@@ -1672,7 +1696,8 @@
                     "They have built up significant equity in their home."
                 ]
             }
-        ]
+        ],
+        "subtext": "home equity, negative equity"
     },
     {
         "word": "renovation",
@@ -1690,7 +1715,8 @@
                     "They spent a year on renovations before moving in."
                 ]
             }
-        ]
+        ],
+        "subtext": "home renovation, undergo renovations"
     },
     {
         "word": "survey",
@@ -1708,7 +1734,8 @@
                     "The survey revealed serious problems with the roof."
                 ]
             }
-        ]
+        ],
+        "subtext": "property survey, conduct a survey"
     },
     {
         "word": "paternity leave",
@@ -1726,7 +1753,8 @@
                     "He took two weeks of paternity leave."
                 ]
             }
-        ]
+        ],
+        "subtext": "take paternity leave, paid paternity leave"
     },
     {
         "word": "childcare",
@@ -1744,7 +1772,8 @@
                     "Childcare costs are a major expense for families."
                 ]
             }
-        ]
+        ],
+        "subtext": "childcare costs, professional childcare"
     },
     {
         "word": "upbringing",
@@ -1762,7 +1791,8 @@
                     "Her upbringing influenced her approach to money."
                 ]
             }
-        ]
+        ],
+        "subtext": "strict upbringing, childhood upbringing"
     },
     {
         "word": "charity",
@@ -1780,7 +1810,8 @@
                     "He donates to several charities each year."
                 ]
             }
-        ]
+        ],
+        "subtext": "donate to charity, registered charity"
     },
     {
         "word": "emissions",
@@ -1798,7 +1829,8 @@
                     "The government wants to reduce carbon emissions."
                 ]
             }
-        ]
+        ],
+        "subtext": "carbon emissions, reduce emissions"
     },
     {
         "word": "point of view",
@@ -1816,7 +1848,8 @@
                     "From my point of view, the policy is unfair."
                 ]
             }
-        ]
+        ],
+        "subtext": "from my point of view, different point of view"
     },
     {
         "word": "evidence",
@@ -1834,7 +1867,8 @@
                     "There is strong evidence that exercise reduces stress."
                 ]
             }
-        ]
+        ],
+        "subtext": "scientific evidence, lack of evidence"
     },
     {
         "word": "opinion",
@@ -1852,7 +1886,8 @@
                     "In my opinion, working from home is more productive."
                 ]
             }
-        ]
+        ],
+        "subtext": "public opinion, give an opinion"
     },
     {
         "word": "against",
@@ -1868,7 +1903,8 @@
                     "He is strongly against the new policy."
                 ]
             }
-        ]
+        ],
+        "subtext": "be against, vote against"
     },
     {
         "word": "in favour of",
@@ -1884,7 +1920,8 @@
                     "Most employees are in favour of flexible working."
                 ]
             }
-        ]
+        ],
+        "subtext": "be in favour of, vote in favour of"
     }
 ];
     const lang = "en";
