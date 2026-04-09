@@ -121,6 +121,18 @@ function populatePracticeThemes(categoryId) {
     let themes = [];
 
     if (categoryId === 'grammar') {
+        if (typeof COMMON_GRAMMAR_THEMES !== 'undefined') {
+            COMMON_GRAMMAR_THEMES.forEach(ct => {
+                const opt = document.createElement('option');
+                opt.value = ct.id;
+                opt.textContent = t[ct.label] || ct.id;
+                opt.setAttribute('data-translate-key', ct.label);
+                themeSelect.appendChild(opt);
+            });
+            populateSubThemes();
+            return;
+        }
+        // Fallback to legacy grammar themes if COMMON_GRAMMAR_THEMES is missing
         const baseThemes = [
             { value: 'grammar_plurals', key: 'theme_grammar_plurals' },
             { value: 'grammar_present_simple', key: 'theme_grammar_present_simple' },
@@ -132,7 +144,6 @@ function populatePracticeThemes(categoryId) {
         ];
 
         if (lang === 'en') {
-            // English: Replace Gender and Future Simple (not used)
             themes = baseThemes.filter(th => th.value !== 'grammar_gender' && th.value !== 'grammar_future_simple');
             themes.push({ value: 'grammar_reg_irregular', key: 'theme_grammar_reg_irregular' });
             themes.push({ value: 'grammar_stative_action', key: 'theme_grammar_stative_action' });
@@ -220,6 +231,55 @@ function populateSubThemes() {
     }
 
     if (categoryId === 'grammar') {
+        const config = themeConfig[selectedLevel];
+        if (config && config.common_grammar_themes && config.common_grammar_themes[selectedTheme]) {
+            subThemeGroup.classList.remove('hidden');
+
+            const allOpt = document.createElement('option');
+            allOpt.value = 'all';
+            allOpt.textContent = t['theme_all'] || 'All Themes';
+            allOpt.setAttribute('data-translate-key', 'theme_all');
+            subThemeSelect.appendChild(allOpt);
+
+            const subThemes = config.common_grammar_themes[selectedTheme];
+            Object.entries(subThemes).forEach(([id, label]) => {
+                const opt = document.createElement('option');
+                opt.value = id;
+                opt.textContent = t['theme_' + id] || label;
+                opt.setAttribute('data-translate-key', 'theme_' + id);
+                subThemeSelect.appendChild(opt);
+            });
+            return;
+        } else if (selectedLevel === 'all') {
+            const allSubThemes = [];
+            Object.values(themeConfig).forEach(lv => {
+                if (lv.common_grammar_themes && lv.common_grammar_themes[selectedTheme]) {
+                    Object.entries(lv.common_grammar_themes[selectedTheme]).forEach(([id, label]) => {
+                        if (!allSubThemes.some(s => s.id === id)) allSubThemes.push({ id, label });
+                    });
+                }
+            });
+
+            if (allSubThemes.length > 0) {
+                subThemeGroup.classList.remove('hidden');
+                const allOpt = document.createElement('option');
+                allOpt.value = 'all';
+                allOpt.textContent = t['theme_all'] || 'All Themes';
+                allOpt.setAttribute('data-translate-key', 'theme_all');
+                subThemeSelect.appendChild(allOpt);
+
+                allSubThemes.forEach(st => {
+                    const opt = document.createElement('option');
+                    opt.value = st.id;
+                    opt.textContent = t['theme_' + st.id] || st.label;
+                    opt.setAttribute('data-translate-key', 'theme_' + st.id);
+                    subThemeSelect.appendChild(opt);
+                });
+                return;
+            }
+        }
+
+        // Verb group sub-themes for specific grammar themes
         const tenses = ['grammar_present_simple', 'grammar_past_simple', 'grammar_future_simple'];
         if (tenses.includes(selectedTheme)) {
             subThemeGroup.classList.remove('hidden');
@@ -1455,10 +1515,28 @@ function startPractice(isWheelMode = false) {
         if (selectedTheme === 'numbers_math') {
             rawItems = rawItems.filter(item => item.theme.startsWith('numbers_') || item.theme.startsWith('fractions_') || item.theme.startsWith('decimals_') || item.theme.startsWith('percentages_') || item.theme.startsWith('basic_arithmetic_') || item.theme.startsWith('approximation_') || item.theme.startsWith('mathematical_'));
         } else if (selectedCat === 'grammar') {
-            // Primary Grammar theme filter (Tense/Topic)
-            rawItems = rawItems.filter(item => item.theme === selectedTheme);
+            // Filter by any sub-theme belonging to the common grammar theme
+            const config = themeConfig[selectedLevel];
+            if (config && config.common_grammar_themes && config.common_grammar_themes[selectedTheme]) {
+                const subThemes = Object.keys(config.common_grammar_themes[selectedTheme]);
+                rawItems = rawItems.filter(item => subThemes.includes(item.theme) || subThemes.includes(item.originalTheme) || subThemes.includes(item.subTheme));
+            } else if (selectedLevel === 'all') {
+                const allSubThemes = [];
+                Object.values(themeConfig).forEach(lv => {
+                    if (lv.common_grammar_themes && lv.common_grammar_themes[selectedTheme]) {
+                        allSubThemes.push(...Object.keys(lv.common_grammar_themes[selectedTheme]));
+                    }
+                });
+                if (allSubThemes.length > 0) {
+                    rawItems = rawItems.filter(item => allSubThemes.includes(item.theme) || allSubThemes.includes(item.originalTheme) || allSubThemes.includes(item.subTheme));
+                } else {
+                    rawItems = rawItems.filter(item => (item.theme === selectedTheme || item.originalTheme === selectedTheme || item.subTheme === selectedTheme));
+                }
+            } else {
+                rawItems = rawItems.filter(item => (item.theme === selectedTheme || item.originalTheme === selectedTheme || item.subTheme === selectedTheme));
+            }
 
-            // Secondary Grammar theme filter (Group)
+            // Secondary Grammar theme filter (Group or specific sub-theme)
             if (selectedSubTheme && selectedSubTheme !== 'all' && selectedSubTheme !== '') {
                 if (selectedSubTheme.startsWith('verb_group_')) {
                     const targetGroup = selectedSubTheme.replace('verb_group_', '');

@@ -27,9 +27,67 @@ const COMMON_THEMES = [
     { id: "opinion_debate", label: "common_theme_opinion_debate" }
 ];
 
+const COMMON_GRAMMAR_THEMES = [
+    { id: "verb_to_be", label: "grammar_theme_verb_to_be" },
+    { id: "present_tenses", label: "grammar_theme_present_tenses" },
+    { id: "past_tenses", label: "grammar_theme_past_tenses" },
+    { id: "future_forms", label: "grammar_theme_future_forms" },
+    { id: "modal_verbs", label: "grammar_theme_modal_verbs" },
+    { id: "passive_voice", label: "grammar_theme_passive_voice" },
+    { id: "conditionals", label: "grammar_theme_conditionals" },
+    { id: "reported_speech", label: "grammar_theme_reported_speech" },
+    { id: "questions", label: "grammar_theme_questions" },
+    { id: "relative_clauses", label: "grammar_theme_relative_clauses" },
+    { id: "noun_phrases_nouns", label: "grammar_theme_noun_phrases_nouns" },
+    { id: "pronouns", label: "grammar_theme_pronouns" },
+    { id: "determiners_articles", label: "grammar_theme_determiners_articles" },
+    { id: "adjectives", label: "grammar_theme_adjectives" },
+    { id: "adverbs", label: "grammar_theme_adverbs" },
+    { id: "prepositions", label: "grammar_theme_prepositions" },
+    { id: "conjunctions_connectors", label: "grammar_theme_conjunctions_connectors" },
+    { id: "gerunds_infinitives", label: "grammar_theme_gerunds_infinitives" },
+    { id: "clauses_sentence_structure", label: "grammar_theme_clauses_sentence_structure" },
+    { id: "inversion", label: "grammar_theme_inversion" },
+    { id: "emphasis_focus", label: "grammar_theme_emphasis_focus" },
+    { id: "subjunctive", label: "grammar_theme_subjunctive" },
+    { id: "word_formation", label: "grammar_theme_word_formation" },
+    { id: "indirect_speech_hedging", label: "grammar_theme_indirect_speech_hedging" },
+    { id: "discourse_cohesion", label: "grammar_theme_discourse_cohesion" }
+];
+
+const SHARED_GRAMMAR_MAPPING = {
+    "present_tenses": {
+        "grammar_present_simple": "Present Simple"
+    },
+    "past_tenses": {
+        "grammar_past_simple": "Past Simple",
+        "grammar_verb_forms": "Verb Forms (V1, V2, V3)",
+        "grammar_auxiliary": "Auxiliary Verbs"
+    },
+    "future_forms": {
+        "grammar_future_simple": "Future Simple"
+    },
+    "noun_phrases_nouns": {
+        "grammar_plurals": "Plurals"
+    },
+    "adjectives": {
+        "grammar_adjectives": "Adjectives"
+    },
+    "determiners_articles": {
+        "grammar_gender": "Gender & Articles"
+    },
+    "word_formation": {
+        "grammar_reg_irregular": "Regular vs. Irregular"
+    },
+    "clauses_sentence_structure": {
+        "grammar_stative_action": "Stative vs. Action"
+    }
+};
+
 const themeConfig = {
     "starter": {
         "description": "desc_a1",
+        "common_grammar_themes": SHARED_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "numbers_0_9_A1": "Cardinal numbers 0–9",
@@ -182,6 +240,7 @@ const themeConfig = {
     },
     "elementary": {
         "description": "desc_a2",
+        "common_grammar_themes": SHARED_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "fractions_A2": "Fractions",
@@ -292,6 +351,7 @@ const themeConfig = {
     },
     "intermediate": {
         "description": "desc_b1",
+        "common_grammar_themes": SHARED_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "approximation_estimation_B1": "Approximation & estimation"
@@ -384,6 +444,7 @@ const themeConfig = {
     },
     "upper-intermediate": {
         "description": "desc_b2",
+        "common_grammar_themes": SHARED_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "mathematical_operations_B2": "Mathematical operations"
@@ -484,6 +545,7 @@ const themeConfig = {
     },
     "advanced": {
         "description": "desc_c1",
+        "common_grammar_themes": SHARED_GRAMMAR_MAPPING,
         "common_themes": {
             "personal_identity": {
                 "social_identity_belonging_C1": "Social identity & belonging"
@@ -534,6 +596,7 @@ const themeConfig = {
     },
     "proficiency": {
         "description": "desc_c2",
+        "common_grammar_themes": SHARED_GRAMMAR_MAPPING,
         "common_themes": {
             "ethics_philosophy": {
                 "ontology_metaphysics_C2": "Ontology & metaphysics",
