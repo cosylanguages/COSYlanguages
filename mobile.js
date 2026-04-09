@@ -90,6 +90,8 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           opt.classList.add('active');
           updateGSSThemes(gameName, langOptions, levelOptions);
           updateGSSTypes(gameName);
+          updateGSSBingoContent(gameName);
+          updateGSSTimers(gameName);
         };
     });
     if (!sheet.querySelector('#gss-lang-options .gss-option.active')) langOptions[0].classList.add('active');
@@ -104,6 +106,8 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           opt.classList.add('active');
           updateGSSThemes(gameName, langOptions, levelOptions);
           updateGSSTypes(gameName);
+          updateGSSBingoContent(gameName);
+          updateGSSTimers(gameName);
         };
     });
     if (!sheet.querySelector('#gss-level-options .gss-option.active')) levelOptions[0].classList.add('active');
@@ -111,6 +115,8 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
 
   updateGSSThemes(gameName, langOptions, levelOptions);
   updateGSSTypes(gameName);
+  updateGSSBingoContent(gameName);
+  updateGSSTimers(gameName);
 
   const pinBtn = sheet.querySelector('#gss-pin-btn');
   if (pinBtn) {
@@ -161,6 +167,8 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
       const selectedLevel = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value;
       const selectedTheme = sheet.querySelector('#gss-theme-options .gss-option.active')?.dataset.value || 'all';
       const selectedType = sheet.querySelector('#gss-type-options .gss-option.active')?.dataset.value;
+      const selectedTimer = sheet.querySelector('#gss-timer-options .gss-option.active')?.dataset.value;
+      const selectedBingoContent = sheet.querySelector('#gss-bingo-content-options .gss-option.active')?.dataset.value;
 
       closeGameSheet();
 
@@ -190,6 +198,9 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           const levelSelect = modal.querySelector('.game-level') || modal.querySelector(`#${prefix}-level`);
           const themeSelect = modal.querySelector('.game-theme') || modal.querySelector(`#${prefix}-theme`);
           const typeSelect = modal.querySelector(`#${prefix}-mode`) || modal.querySelector(`#${prefix}-level`);
+          const timerSelect = modal.querySelector(`#${prefix}-timer-duration`) ||
+                              modal.querySelector(`#${prefix.split('-')[0]}-timer-duration`);
+          const bingoContentSelect = modal.querySelector('#bingo-content-type');
 
           let startBtnId = `#start-${prefix}-game-btn`;
           if (prefix === 'talk-talk' || prefix === 'debates' || prefix === 'opinion-arena' || prefix === 'critics-corner') {
@@ -208,6 +219,19 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
           if (typeSelect && selectedType) {
               typeSelect.value = selectedType;
               typeSelect.dispatchEvent(new Event('change'));
+          }
+          if (selectedTimer) {
+              if (prefix === 'hot-seat') {
+                  const timerBtn = modal.querySelector(`.hs-dur-btn[data-sec="${selectedTimer}"]`);
+                  if (timerBtn) timerBtn.click();
+              } else if (timerSelect) {
+                  timerSelect.value = selectedTimer;
+                  timerSelect.dispatchEvent(new Event('change'));
+              }
+          }
+          if (bingoContentSelect && selectedBingoContent) {
+              bingoContentSelect.value = selectedBingoContent;
+              bingoContentSelect.dispatchEvent(new Event('change'));
           }
 
           langSelect?.dispatchEvent(new Event('change'));
@@ -265,7 +289,7 @@ function updateGSSThemes(gameName, langOptions, levelOptions) {
   const level = Array.from(levelOptions).find(o => o.classList.contains('active'))?.dataset.value || 'starter';
 
   // Only certain games support themes in the setup sheet for now
-  const themedGames = ['Cosy Crossword', 'Lucky Numbers', 'Action Hero', 'Identity Mystery', 'Object Quest', 'Last Letter', 'Battle of Wits', 'Fluency Flow', 'Opinion Arena', "Critic's Corner", 'Word Linker', 'Emoji Odyssey'];
+  const themedGames = ['Cosy Crossword', 'Lucky Numbers', 'Action Hero', 'Identity Mystery', 'Object Quest', 'Last Letter', 'Battle of Wits', 'Fluency Flow', 'Opinion Arena', "Critic's Corner", 'Word Linker', 'Emoji Odyssey', 'Story Chain', 'Hot Seat'];
 
   if (themedGames.includes(gameName)) {
     themeField.style.display = 'block';
@@ -306,6 +330,7 @@ function updateGSSTypes(gameName) {
   const typeOptions = document.getElementById('gss-type-options');
   if (!typeField || !typeOptions) return;
 
+  const currentSelection = typeOptions.querySelector('.gss-option.active')?.dataset.value;
   typeOptions.innerHTML = '';
   let types = [];
 
@@ -333,7 +358,8 @@ function updateGSSTypes(gameName) {
     typeField.style.display = 'block';
     types.forEach((type, idx) => {
       const btn = document.createElement('button');
-      btn.className = 'gss-option' + (idx === 0 ? ' active' : '');
+      const isActive = currentSelection ? (type.id === currentSelection) : (idx === 0);
+      btn.className = 'gss-option' + (isActive ? ' active' : '');
       btn.dataset.value = type.id;
       btn.textContent = type.label;
       btn.onclick = () => {
@@ -344,6 +370,94 @@ function updateGSSTypes(gameName) {
     });
   } else {
     typeField.style.display = 'none';
+  }
+}
+
+function updateGSSBingoContent(gameName) {
+  const field = document.getElementById('gss-bingo-content-field');
+  const options = document.getElementById('gss-bingo-content-options');
+  if (!field || !options) return;
+
+  if (gameName === 'Lucky Numbers') {
+    field.style.display = 'block';
+    options.innerHTML = '';
+    const contentTypes = [
+      { id: 'numbers', label: (window.t ? window.t('bingo_content_numbers') : 'Numbers 🔢') },
+      { id: 'words', label: (window.t ? window.t('bingo_content_words') : 'Words 🔤') }
+    ];
+    contentTypes.forEach((type, idx) => {
+      const btn = document.createElement('button');
+      btn.className = 'gss-option' + (idx === 0 ? ' active' : '');
+      btn.dataset.value = type.id;
+      btn.textContent = type.label;
+      btn.onclick = () => {
+        options.querySelectorAll('.gss-option').forEach(o => o.classList.remove('active'));
+        btn.classList.add('active');
+      };
+      options.appendChild(btn);
+    });
+  } else {
+    field.style.display = 'none';
+  }
+}
+
+function updateGSSTimers(gameName) {
+  const timerField = document.getElementById('gss-timer-field');
+  const timerOptions = document.getElementById('gss-timer-options');
+  if (!timerField || !timerOptions) return;
+
+  const currentSelection = timerOptions.querySelector('.gss-option.active')?.dataset.value;
+  timerOptions.innerHTML = '';
+  let timers = [];
+
+  if (gameName === 'Action Hero') {
+    timers = [
+      { id: '30', label: (window.t ? window.t('timer_30s') : '30s') },
+      { id: '60', label: (window.t ? window.t('timer_60s') : '60s') },
+      { id: '90', label: (window.t ? window.t('timer_90s') : '90s') },
+      { id: '120', label: (window.t ? window.t('timer_120s') : '120s') }
+    ];
+  } else if (gameName === 'Battle of Wits' || gameName === 'Opinion Arena' || gameName === "Critic's Corner") {
+    timers = [
+      { id: '60', label: (window.t ? window.t('timer_60s') : '60s') },
+      { id: '120', label: (window.t ? window.t('timer_120s') : '120s') },
+      { id: '180', label: (window.t ? window.t('timer_180s') : '180s') }
+    ];
+  } else if (gameName === 'Fluency Flow') {
+    timers = [
+      { id: '60', label: (window.t ? window.t('timer_60s') : '60s') },
+      { id: '120', label: (window.t ? window.t('timer_120s') : '120s') },
+      { id: '180', label: (window.t ? window.t('timer_180s') : '180s') }
+    ];
+  } else if (gameName === 'Hot Seat') {
+    timers = [
+      { id: '60', label: (window.t ? window.t('timer_60s') : '60s') },
+      { id: '90', label: (window.t ? window.t('timer_90s') : '90s') }
+    ];
+  }
+
+  if (timers.length > 0) {
+    timerField.style.display = 'block';
+    timers.forEach((timer, idx) => {
+      const btn = document.createElement('button');
+      // Default select 60s or 180s for Fluency Flow, but respect current selection if any
+      let isActive = false;
+      if (currentSelection) {
+          isActive = (timer.id === currentSelection);
+      } else {
+          isActive = (gameName === 'Fluency Flow' ? timer.id === '180' : timer.id === '60');
+      }
+      btn.className = 'gss-option' + (isActive ? ' active' : '');
+      btn.dataset.value = timer.id;
+      btn.textContent = timer.label;
+      btn.onclick = () => {
+        timerOptions.querySelectorAll('.gss-option').forEach(o => o.classList.remove('active'));
+        btn.classList.add('active');
+      };
+      timerOptions.appendChild(btn);
+    });
+  } else {
+    timerField.style.display = 'none';
   }
 }
 
