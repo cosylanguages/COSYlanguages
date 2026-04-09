@@ -1186,7 +1186,25 @@ function expandGrammarItems(items, lang) {
 
             for (const [tense, forms] of Object.entries(item.tenses)) {
                 if (lang === 'en' && tense === 'future_simple') continue;
-                const theme = 'grammar_' + tense;
+
+                // Map internal tense keys to the new CEFR-specific grammar sub-themes
+                let theme = 'grammar_' + tense;
+                if (item.level === 'starter') {
+                    if (tense === 'present_simple') theme = 'grammar_present_simple_A1';
+                    else if (tense === 'past_simple') theme = 'grammar_past_simple_A1';
+                    else if (tense === 'future_going_to') theme = 'grammar_future_going_to_A1';
+                } else if (item.level === 'elementary') {
+                    if (tense === 'present_perfect') theme = 'grammar_present_perfect_A2';
+                    else if (tense === 'past_continuous') theme = 'grammar_past_continuous_A2';
+                } else if (item.level === 'intermediate') {
+                    if (tense === 'present_perfect_continuous') theme = 'grammar_present_perfect_continuous_B1';
+                    else if (tense === 'past_perfect') theme = 'grammar_past_perfect_B1';
+                    else if (tense === 'future_continuous') theme = 'grammar_future_continuous_B1';
+                } else if (item.level === 'upper-intermediate') {
+                    if (tense === 'past_perfect_continuous') theme = 'grammar_past_perfect_continuous_B2';
+                    else if (tense === 'future_perfect') theme = 'grammar_future_perfect_B2';
+                }
+
                 for (const [formType, conjugations] of Object.entries(forms)) {
                     conjugations.forEach((conj, idx) => {
                         const pronoun = pronouns[idx];
@@ -1254,6 +1272,10 @@ function expandGrammarItems(items, lang) {
         if (lang === 'en' && item.form === 'verb' && item.classification) {
             const regLabel = (translations[lang] && translations[lang]['verb_classification_regular']) || 'Regular';
             const irregLabel = (translations[lang] && translations[lang]['verb_classification_irregular']) || 'Irregular';
+
+            // Map to A1 Word Families if Starter
+            const theme = (item.level === 'starter') ? 'grammar_word_families_basic_A1' : 'grammar_reg_irregular';
+
             expanded.push({
                 ...item,
                 type: 'type-mc',
@@ -1261,7 +1283,7 @@ function expandGrammarItems(items, lang) {
                 secondaryContext: 'reg_vs_irregular',
                 answer: item.classification === 'regular' ? regLabel : irregLabel,
                 distractors: [item.classification === 'regular' ? irregLabel : regLabel],
-                theme: 'grammar_reg_irregular'
+                theme: theme
             });
         }
 
