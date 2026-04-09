@@ -1451,6 +1451,116 @@
             "v2": "called into question",
             "v3": "called into question",
             "group": "regular"
+        },
+        {
+            "word": "commodify",
+            "level": "advanced",
+            "theme": "sociology_structures_C1",
+            "emoji": "🏷️",
+            "subtext": "commodify relationships / commodify culture / process of commodification",
+            "form": "verb",
+            "transcription": "kəˈmɒdɪfaɪ",
+            "definitions": [
+                {
+                    "text": "To treat something as a commercial product, especially something that should not be.",
+                    "examples": [
+                        "Modern culture tends to commodify personal relationships."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "commodified",
+            "v3": "commodified",
+            "group": "regular"
+        },
+        {
+            "word": "instrumentalise",
+            "level": "advanced",
+            "theme": "moral_philosophy_C1",
+            "emoji": "🛠️",
+            "subtext": "instrumentalise people / instrumentalise an idea / purely instrumental",
+            "form": "verb",
+            "transcription": "ˌɪnstrʊˈmentəlaɪz",
+            "definitions": [
+                {
+                    "text": "To use a person or concept purely as a means to achieve an end.",
+                    "examples": [
+                        "She argued that performance reviews instrumentalise employees."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "instrumentalised",
+            "v3": "instrumentalised",
+            "group": "regular"
+        },
+        {
+            "word": "sublimate",
+            "level": "advanced",
+            "theme": "psychological_states_C1",
+            "emoji": "⚗️",
+            "subtext": "sublimate desires / sublimate aggression / psychological sublimation",
+            "form": "verb",
+            "transcription": "ˈsʌblɪmeɪt",
+            "definitions": [
+                {
+                    "text": "To redirect a desire or impulse into something socially acceptable.",
+                    "examples": [
+                        "Freud argued that art allows us to sublimate aggressive drives."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "sublimated",
+            "v3": "sublimated",
+            "group": "regular"
+        },
+        {
+            "word": "elide",
+            "level": "advanced",
+            "theme": "discourse_argument_C1",
+            "emoji": "🌫️",
+            "subtext": "elide distinctions / elide differences / elide details",
+            "form": "verb",
+            "transcription": "ɪˈlaɪd",
+            "definitions": [
+                {
+                    "text": "To omit or ignore a distinction; to merge or obscure differences.",
+                    "examples": [
+                        "The report elides the distinction between correlation and causation."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "elided",
+            "v3": "elided",
+            "group": "regular"
+        },
+        {
+            "word": "valorise",
+            "level": "advanced",
+            "theme": "sociology_structures_C1",
+            "emoji": "💎",
+            "subtext": "valorise productivity / valorise tradition / valorise the individual",
+            "form": "verb",
+            "transcription": "ˈvæləraɪz",
+            "definitions": [
+                {
+                    "text": "To give or assign value to something, often in a cultural or ideological context.",
+                    "examples": [
+                        "Contemporary culture valorises productivity above all else."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "valorised",
+            "v3": "valorised",
+            "group": "regular"
         }
     ];
     const lang = "en";
