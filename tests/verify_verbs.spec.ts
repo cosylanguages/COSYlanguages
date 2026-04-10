@@ -29,7 +29,7 @@ for (const lang of languages) {
     await page.selectOption('#practice-level', 'starter');
 
     // Pick a tense theme
-    await page.selectOption('#practice-theme', 'grammar_present_simple');
+    await page.selectOption('#practice-theme', 'present_tenses');
 
     await page.click('#start-btn');
     await expect(page.locator('#practice-section')).toBeVisible();
@@ -43,7 +43,8 @@ test('English Verb Classification Task (Regular vs Irregular)', async ({ page })
   await page.click('.lang-selection-card[data-value="en"]');
   await page.click('span[data-translate-key="cat_grammar"]');
   await page.selectOption('#practice-level', 'starter');
-  await page.selectOption('#practice-theme', 'grammar_reg_irregular');
+  await page.selectOption('#practice-theme', 'word_formation');
+  await page.selectOption('#practice-sub-theme', 'grammar_word_families_basic_A1');
   await page.click('#start-btn');
 
   await expect(page.locator('#practice-section')).toBeVisible();
@@ -59,7 +60,8 @@ test('English Verb Classification Task (Regular vs Irregular)', async ({ page })
 test('French Verb Form Task integration in Past Simple', async ({ page }) => {
   await page.click('.lang-selection-card[data-value="fr"]');
   await page.click('span[data-translate-key="cat_grammar"]');
-  await page.selectOption('#practice-theme', 'grammar_past_simple');
+  await page.selectOption('#practice-level', 'starter');
+  await page.selectOption('#practice-theme', 'past_tenses');
   await page.click('#start-btn');
 
   await expect(page.locator('#practice-section')).toBeVisible();

@@ -27,9 +27,272 @@ const COMMON_THEMES = [
     { id: "opinion_debate", label: "common_theme_opinion_debate" }
 ];
 
+const COMMON_GRAMMAR_THEMES = [
+    { id: "verb_to_be", label: "grammar_theme_verb_to_be" },
+    { id: "present_tenses", label: "grammar_theme_present_tenses" },
+    { id: "past_tenses", label: "grammar_theme_past_tenses" },
+    { id: "future_forms", label: "grammar_theme_future_forms" },
+    { id: "modal_verbs", label: "grammar_theme_modal_verbs" },
+    { id: "passive_voice", label: "grammar_theme_passive_voice" },
+    { id: "conditionals", label: "grammar_theme_conditionals" },
+    { id: "reported_speech", label: "grammar_theme_reported_speech" },
+    { id: "questions", label: "grammar_theme_questions" },
+    { id: "relative_clauses", label: "grammar_theme_relative_clauses" },
+    { id: "noun_phrases_nouns", label: "grammar_theme_noun_phrases_nouns" },
+    { id: "pronouns", label: "grammar_theme_pronouns" },
+    { id: "determiners_articles", label: "grammar_theme_determiners_articles" },
+    { id: "adjectives", label: "grammar_theme_adjectives" },
+    { id: "adverbs", label: "grammar_theme_adverbs" },
+    { id: "prepositions", label: "grammar_theme_prepositions" },
+    { id: "conjunctions_connectors", label: "grammar_theme_conjunctions_connectors" },
+    { id: "gerunds_infinitives", label: "grammar_theme_gerunds_infinitives" },
+    { id: "clauses_sentence_structure", label: "grammar_theme_clauses_sentence_structure" },
+    { id: "inversion", label: "grammar_theme_inversion" },
+    { id: "emphasis_focus", label: "grammar_theme_emphasis_focus" },
+    { id: "subjunctive", label: "grammar_theme_subjunctive" },
+    { id: "word_formation", label: "grammar_theme_word_formation" },
+    { id: "indirect_speech_hedging", label: "grammar_theme_indirect_speech_hedging" },
+    { id: "discourse_cohesion", label: "grammar_theme_discourse_cohesion" }
+];
+
+const STARTER_GRAMMAR_MAPPING = {
+    "verb_to_be": {
+        "grammar_be_present_A1": "To Be: Present Simple",
+        "grammar_be_past_A1": "To Be: Past Simple"
+    },
+    "present_tenses": {
+        "grammar_present_simple_A1": "Present Simple",
+        "grammar_present_continuous_A1": "Present Continuous",
+        "grammar_present_simple": "Present Simple"
+    },
+    "past_tenses": {
+        "grammar_past_simple_A1": "Past Simple",
+        "grammar_past_simple": "Past Simple",
+        "grammar_verb_forms": "Verb Forms"
+    },
+    "future_forms": {
+        "grammar_future_going_to_A1": "Future: 'Going to'",
+        "grammar_future_will_A1": "Future: 'Will' (Basic)",
+        "grammar_future_simple": "Future Simple"
+    },
+    "modal_verbs": {
+        "grammar_modal_can_A1": "Modals: Can/Can't"
+    },
+    "questions": {
+        "grammar_questions_basic_A1": "Basic Questions & Word Order"
+    },
+    "noun_phrases_nouns": {
+        "grammar_nouns_plurals_A1": "Nouns: Singular & Plural",
+        "grammar_nouns_countable_A1": "Nouns: Countable & Uncountable",
+        "grammar_plurals": "Singular & Plural"
+    },
+    "pronouns": {
+        "grammar_pronouns_personal_A1": "Personal Pronouns",
+        "grammar_pronouns_possessive_A1": "Possessive Adjectives & Pronouns"
+    },
+    "determiners_articles": {
+        "grammar_articles_basic_A1": "Articles: A/An/The",
+        "grammar_determiners_this_that_A1": "Determiners: This/That/These/Those",
+        "grammar_gender": "Gender & Articles"
+    },
+    "adjectives": {
+        "grammar_adjectives_basic_A1": "Basic Adjectives",
+        "grammar_adjectives": "Adjectives"
+    },
+    "prepositions": {
+        "grammar_prepositions_place_A1": "Prepositions of Place",
+        "grammar_prepositions_time_A1": "Prepositions of Time"
+    },
+    "conjunctions_connectors": {
+        "grammar_conjunctions_basic_A1": "Basic Conjunctions (and, but, or)"
+    },
+    "clauses_sentence_structure": {
+        "grammar_sentence_order_A1": "Basic Sentence Order (SVO)",
+        "grammar_stative_action": "Stative vs. Action"
+    },
+    "word_formation": {
+        "grammar_word_families_basic_A1": "Basic Word Families",
+        "grammar_reg_irregular": "Regular vs. Irregular"
+    }
+};
+
+const ELEMENTARY_GRAMMAR_MAPPING = {
+    "verb_to_be": {
+        "grammar_be_perfect_A2": "To Be: Present Perfect"
+    },
+    "present_tenses": {
+        "grammar_present_perfect_A2": "Present Perfect Simple"
+    },
+    "past_tenses": {
+        "grammar_past_continuous_A2": "Past Continuous"
+    },
+    "future_forms": {
+        "grammar_future_will_A2": "Future: 'Will' vs. 'Going to'"
+    },
+    "modal_verbs": {
+        "grammar_modal_should_must_A2": "Modals: Should, Must, Have to",
+        "grammar_modal_possibility_A2": "Modals: Might, May"
+    },
+    "passive_voice": {
+        "grammar_passive_basic_A2": "Basic Passive Voice"
+    },
+    "conditionals": {
+        "grammar_conditionals_zero_first_A2": "Conditionals: Zero & First"
+    },
+    "relative_clauses": {
+        "grammar_relative_clauses_basic_A2": "Defining Relative Clauses"
+    },
+    "noun_phrases_nouns": {
+        "grammar_nouns_compounds_A2": "Compound Nouns"
+    },
+    "adjectives": {
+        "grammar_adjectives_comparative_A2": "Comparatives & Superlatives"
+    },
+    "adverbs": {
+        "grammar_adverbs_manner_A2": "Adverbs of Manner & Frequency"
+    },
+    "gerunds_infinitives": {
+        "grammar_gerunds_infinitives_basic_A2": "Gerunds vs. Infinitives (Basic)"
+    }
+};
+
+const INTERMEDIATE_GRAMMAR_MAPPING = {
+    "present_tenses": {
+        "grammar_present_perfect_continuous_B1": "Present Perfect Continuous"
+    },
+    "past_tenses": {
+        "grammar_past_perfect_B1": "Past Perfect Simple",
+        "grammar_used_to_B1": "Used to / Would",
+        "grammar_auxiliary": "Auxiliary Verbs"
+    },
+    "future_forms": {
+        "grammar_future_continuous_B1": "Future Continuous"
+    },
+    "modal_verbs": {
+        "grammar_modals_deduction_present_B1": "Modals of Deduction (Present)",
+        "grammar_modals_ability_past_B1": "Modals of Ability (Past)"
+    },
+    "passive_voice": {
+        "grammar_passive_all_tenses_B1": "Passive in All Tenses"
+    },
+    "conditionals": {
+        "grammar_conditionals_second_B1": "Second Conditional"
+    },
+    "reported_speech": {
+        "grammar_reported_speech_basic_B1": "Reported Speech: Statements & Questions"
+    },
+    "relative_clauses": {
+        "grammar_relative_clauses_non_defining_B1": "Non-defining Relative Clauses"
+    },
+    "pronouns": {
+        "grammar_pronouns_reflexive_B1": "Reflexive & Reciprocal Pronouns"
+    },
+    "gerunds_infinitives": {
+        "grammar_verb_patterns_B1": "Complex Verb Patterns"
+    },
+    "clauses_sentence_structure": {
+        "grammar_clauses_purpose_result_B1": "Clauses of Purpose, Reason, & Result"
+    }
+};
+
+const UPPER_INTERMEDIATE_GRAMMAR_MAPPING = {
+    "past_tenses": {
+        "grammar_past_perfect_continuous_B2": "Past Perfect Continuous",
+        "grammar_narrative_tenses_B2": "Narrative Tenses"
+    },
+    "future_forms": {
+        "grammar_future_perfect_B2": "Future Perfect Tenses"
+    },
+    "modal_verbs": {
+        "grammar_modals_deduction_past_B2": "Modals of Deduction (Past)",
+        "grammar_modals_speculation_B2": "Modals of Speculation"
+    },
+    "passive_voice": {
+        "grammar_passive_causative_B2": "Causative Passive (Have/Get something done)"
+    },
+    "conditionals": {
+        "grammar_conditionals_third_mixed_B2": "Third & Mixed Conditionals",
+        "grammar_wish_if_only_B2": "Wish & If Only"
+    },
+    "reported_speech": {
+        "grammar_reporting_verbs_B2": "Reporting Verbs"
+    },
+    "relative_clauses": {
+        "grammar_relative_clauses_reduced_B2": "Reduced Relative Clauses"
+    },
+    "gerunds_infinitives": {
+        "grammar_gerunds_infinitives_advanced_B2": "Advanced Gerunds & Infinitives"
+    },
+    "clauses_sentence_structure": {
+        "grammar_clauses_concession_B2": "Clauses of Concession (Although, despite)"
+    },
+    "emphasis_focus": {
+        "grammar_cleft_sentences_B2": "Cleft Sentences"
+    },
+    "discourse_cohesion": {
+        "grammar_discourse_markers_B2": "Discourse Markers"
+    }
+};
+
+const ADVANCED_GRAMMAR_MAPPING = {
+    "future_forms": {
+        "grammar_future_in_the_past_C1": "Future in the Past"
+    },
+    "modal_verbs": {
+        "grammar_modals_advanced_C1": "Advanced Modal Meanings"
+    },
+    "passive_voice": {
+        "grammar_passive_distancing_C1": "Passive for Distancing (It is said that...)"
+    },
+    "conditionals": {
+        "grammar_conditionals_inverted_C1": "Inverted Conditionals"
+    },
+    "inversion": {
+        "grammar_inversion_negative_C1": "Negative Inversion"
+    },
+    "emphasis_focus": {
+        "grammar_emphasis_fronting_C1": "Fronting & Emphasis"
+    },
+    "subjunctive": {
+        "grammar_subjunctive_formal_C1": "The Subjunctive (Formal)"
+    },
+    "indirect_speech_hedging": {
+        "grammar_hedging_distancing_C1": "Hedging & Distancing"
+    },
+    "discourse_cohesion": {
+        "grammar_cohesion_advanced_C1": "Advanced Cohesion & Ellipsis"
+    },
+    "clauses_sentence_structure": {
+        "grammar_participle_clauses_C1": "Participle Clauses",
+        "grammar_nominal_clauses_C1": "Nominal Clauses"
+    }
+};
+
+const PROFICIENCY_GRAMMAR_MAPPING = {
+    "clauses_sentence_structure": {
+        "grammar_complex_syntax_C2": "Complex Syntax & Periodicity"
+    },
+    "inversion": {
+        "grammar_complex_inversion_C2": "Complex Inversion & Stylistic Fronting"
+    },
+    "emphasis_focus": {
+        "grammar_rhetorical_focus_C2": "Rhetorical Focus & Emphasis"
+    },
+    "word_formation": {
+        "grammar_neologisms_etymology_C2": "Neologisms & Etymological Nuance"
+    },
+    "indirect_speech_hedging": {
+        "grammar_nuanced_hedging_C2": "Nuanced Hedging & Modality"
+    },
+    "discourse_cohesion": {
+        "grammar_mastery_cohesion_C2": "Mastery of Cohesion & Register"
+    }
+};
+
 const themeConfig = {
     "starter": {
         "description": "desc_a1",
+        "common_grammar_themes": STARTER_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "numbers_0_9_A1": "Cardinal numbers 0–9",
@@ -182,6 +445,7 @@ const themeConfig = {
     },
     "elementary": {
         "description": "desc_a2",
+        "common_grammar_themes": ELEMENTARY_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "fractions_A2": "Fractions",
@@ -292,6 +556,7 @@ const themeConfig = {
     },
     "intermediate": {
         "description": "desc_b1",
+        "common_grammar_themes": INTERMEDIATE_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "approximation_estimation_B1": "Approximation & estimation"
@@ -384,6 +649,7 @@ const themeConfig = {
     },
     "upper-intermediate": {
         "description": "desc_b2",
+        "common_grammar_themes": UPPER_INTERMEDIATE_GRAMMAR_MAPPING,
         "common_themes": {
             "numbers_math": {
                 "mathematical_operations_B2": "Mathematical operations"
@@ -484,6 +750,7 @@ const themeConfig = {
     },
     "advanced": {
         "description": "desc_c1",
+        "common_grammar_themes": ADVANCED_GRAMMAR_MAPPING,
         "common_themes": {
             "personal_identity": {
                 "social_identity_belonging_C1": "Social identity & belonging"
@@ -534,6 +801,7 @@ const themeConfig = {
     },
     "proficiency": {
         "description": "desc_c2",
+        "common_grammar_themes": PROFICIENCY_GRAMMAR_MAPPING,
         "common_themes": {
             "ethics_philosophy": {
                 "ontology_metaphysics_C2": "Ontology & metaphysics",
