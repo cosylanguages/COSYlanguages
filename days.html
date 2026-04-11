@@ -307,6 +307,12 @@ footer {
                     </div>
                     <button id="start-day-btn" class="cta-button primary" style="margin-top: 2rem; width: 100%;" data-translate-key="start_day_practice">Start Lesson 🚀</button>
                 </div>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
+                    <h3 data-translate-key="grammar_roadmap_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Grammar Reference 📐</h3>
+                    <p data-translate-key="grammar_roadmap_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the complete grammar roadmap and reference cards.</p>
+                    <button id="open-grammar-btn" class="cta-button secondary" style="width: 100%;" data-translate-key="grammar_roadmap_btn">Open Grammar Roadmap →</button>
+                </div>
             </div>
         </section>
     </main>
@@ -530,6 +536,11 @@ footer {
                 const lang = localStorage.getItem('language') || 'en';
                 // Redirect to lesson page with params
                 window.location.href = `lesson.html?lang=${lang}&lesson=${day}`;
+            });
+
+            document.getElementById('open-grammar-btn').addEventListener('click', () => {
+                const lang = localStorage.getItem('language') || 'en';
+                window.location.href = `grammar.html?lang=${lang}`;
             });
         });
     </script>
