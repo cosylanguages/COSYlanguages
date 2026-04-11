@@ -4,7 +4,7 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Verbo SER — COSYlanguages</title>
+<title>Verbo ESTAR — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
 <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -14,26 +14,26 @@
   <ul class="nav-links"><li><a href="es.html">🇪🇸 Mapa de Gramática</a></li></ul>
 </nav>
 <div class="grammar-header">
-  <h1>🇪🇸 Verbo SER</h1>
+  <h1>🇪🇸 Verbo ESTAR</h1>
 </div>
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
   <a class="gs-item active" href="#present">Presente</a>
   <a class="gs-item" href="#quiz">Quiz Interactivo</a>
-  <div class="gs-label">Próximos pasos</div>
-  <a class="gs-item" href="#">→ Verbo ESTAR</a>
+  <div class="gs-label">Comparación</div>
+  <a class="gs-item" href="es-ser.html">← Verbo SER</a>
 </nav>
 <main class="grammar-main">
-  <div class="grammar-section-title">Español — Verbo SER</div>
+  <div class="grammar-section-title">Español — Verbo ESTAR</div>
   <div class="g-card" id="present">
     <div class="g-card-title">Presente de Indicativo</div>
     <table class="g-table">
-      <tr><td class="row-label">yo</td><td class="content"><span class="key-verb">soy</span></td></tr>
-      <tr><td class="row-label">tú</td><td class="content"><span class="key-verb">eres</span></td></tr>
-      <tr><td class="row-label">él/ella/usted</td><td class="content"><span class="key-verb">es</span></td></tr>
-      <tr><td class="row-label">nosotros/as</td><td class="content"><span class="key-verb">somos</span></td></tr>
-      <tr><td class="row-label">vosotros/as</td><td class="content"><span class="key-verb">sois</span></td></tr>
-      <tr><td class="row-label">ellos/ellas/ustedes</td><td class="content"><span class="key-verb">son</span></td></tr>
+      <tr><td class="row-label">yo</td><td class="content"><span class="key-verb">estoy</span></td></tr>
+      <tr><td class="row-label">tú</td><td class="content"><span class="key-verb">estás</span></td></tr>
+      <tr><td class="row-label">él/ella/usted</td><td class="content"><span class="key-verb">está</span></td></tr>
+      <tr><td class="row-label">nosotros/as</td><td class="content"><span class="key-verb">estamos</span></td></tr>
+      <tr><td class="row-label">vosotros/as</td><td class="content"><span class="key-verb">estáis</span></td></tr>
+      <tr><td class="row-label">ellos/ellas/ustedes</td><td class="content"><span class="key-verb">están</span></td></tr>
     </table>
   </div>
 
@@ -41,10 +41,10 @@
     <div class="g-card-title">Quiz Interactivo</div>
     <div class="g-quiz-body">
       <div class="g-quiz-q" id="q1">
-        <div class="g-quiz-prompt">Nosotros ___ estudiantes.</div>
+        <div class="g-quiz-prompt">Yo ___ en Madrid.</div>
         <div class="g-quiz-options">
-          <button class="g-quiz-opt" onclick="answer(this,'q1','somos')">somos</button>
-          <button class="g-quiz-opt" onclick="answer(this,'q1','son')">son</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','estoy')">estoy</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','está')">está</button>
         </div>
         <div class="quiz-feedback" id="fb-q1"></div>
       </div>
@@ -53,7 +53,7 @@
 </main>
 </div>
 <script>
-const answers={q1:'somos'};
+const answers={q1:'estoy'};
 function answer(btn,qid,chosen){
   const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
   if(chosen===correct){ btn.classList.add('correct'); fb.textContent='¡Correcto!'; }

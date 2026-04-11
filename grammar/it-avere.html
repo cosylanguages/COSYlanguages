@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verbo AVERE — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
+  <ul class="nav-links"><li><a href="it.html">🇮🇹 Programma di Grammatica</a></li></ul>
+</nav>
+<div class="grammar-header">
+  <h1>🇮🇹 Verbo AVERE</h1>
+</div>
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#present">Presente</a>
+  <a class="gs-item" href="#quiz">Quiz Interattivo</a>
+  <div class="gs-label">Ritorno</div>
+  <a class="gs-item" href="it-essere-1.html">← Verbo ESSERE</a>
+</nav>
+<main class="grammar-main">
+  <div class="grammar-section-title">Italiano — Verbo AVERE</div>
+
+  <div class="g-card" id="present">
+    <div class="g-card-title">Presente Indicativo</div>
+    <table class="g-table">
+      <tr><td class="row-label">io</td><td class="content"><span class="key-verb">ho</span></td></tr>
+      <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">hai</span></td></tr>
+      <tr><td class="row-label">lui/lei/Lei</td><td class="content"><span class="key-verb">ha</span></td></tr>
+      <tr><td class="row-label">noi</td><td class="content"><span class="key-verb">abbiamo</span></td></tr>
+      <tr><td class="row-label">voi</td><td class="content"><span class="key-verb">avete</span></td></tr>
+      <tr><td class="row-label">loro</td><td class="content"><span class="key-verb">hanno</span></td></tr>
+    </table>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Quiz Interattivo</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Io ___ un gatto.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','ho')">ho</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','ha')">ha</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'ho'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Esatto!'; }
+  else { btn.classList.add('wrong'); fb.textContent='Non proprio.'; }
+}
+</script>
+</body>
+</html>

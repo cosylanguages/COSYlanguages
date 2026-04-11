@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plurals — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
+  <ul class="nav-links"><li><a href="en.html">🇬🇧 English Roadmap</a></li></ul>
+</nav>
+<div class="grammar-header">
+  <h1>🇬🇧 Plurals</h1>
+</div>
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#regular">Regular Plurals</a>
+  <a class="gs-item" href="#irregular">Irregular Plurals</a>
+  <a class="gs-item" href="#quiz">Interactive Quiz</a>
+</nav>
+<main class="grammar-main">
+  <div class="grammar-section-title">English — Nouns & Plurals</div>
+
+  <div class="g-card" id="regular">
+    <div class="g-card-title">Regular Plurals: +S</div>
+    <div style="padding:1.5rem; color: var(--black);">
+        <p>Add <strong style="color:var(--honey)">-s</strong> to most nouns:</p>
+        <ul style="margin-top:1rem; list-style: none; font-weight:700;">
+          <li>book → book<span style="color:var(--honey)">s</span></li>
+          <li>car → car<span style="color:var(--honey)">s</span></li>
+          <li>apple → apple<span style="color:var(--honey)">s</span></li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="g-card" id="irregular">
+    <div class="g-card-title">Common Irregular Plurals</div>
+    <table class="g-table">
+      <tr><td class="row-label">Man</td><td class="content"><span class="key-verb">Men</span></td></tr>
+      <tr><td class="row-label">Woman</td><td class="content"><span class="key-verb">Women</span></td></tr>
+      <tr><td class="row-label">Child</td><td class="content"><span class="key-verb">Children</span></td></tr>
+      <tr><td class="row-label">Person</td><td class="content"><span class="key-verb">People</span></td></tr>
+    </table>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">One car, two ___.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','cars')">cars</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','cares')">cares</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+      <div class="g-quiz-q" id="q2">
+        <div class="g-quiz-prompt">One child, many ___.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q2','children')">children</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q2','childs')">childs</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q2"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'cars',q2:'children'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }
+  else { btn.classList.add('wrong'); fb.textContent='Not quite.'; }
+}
+</script>
+</body>
+</html>
