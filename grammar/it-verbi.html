@@ -1,192 +1,100 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verbi -ARE / -ERE / -IRE · COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../mobile.css">
-<style>
-:root {
-  --sage:        #6b8f71;
-  --sage-dark:   #4a6b50;
-  --sage-deep:   #2e4a33;
-  --sage-light:  #8aab8f;
-  --cream:       #fdf8f0;
-  --honey:       #e8a838;
-  --black:       #2a2a2a;
-  --white:       #FFFFFF;
-  --yellow:      #FFE135;
-  --red:         #FF4136;
-  --orange:      #FF6B1A;
-  --green:       #2ECC40;
-  --blue:        #0074D9;
-  --it-red:      #CE2B37;
-  --it-green:    #009246;
-  --are-col:     #0074D9;
-  --ere-col:     #FF6B1A;
-  --ire-col:     #9B59B6;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--sage);
-  color: var(--black);
-  min-height: 100vh;
-}
-
-/* ── Nav ────────────────────────────────────────────── */
-nav#main-nav {
-  position: sticky; top: 0; z-index: 1000;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-}
-.nav-logo img { height: 44px; }
-.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
-.nav-links a { font-weight: 700; font-size: .8rem; padding: .35rem .65rem; color: #4a4a4a; text-decoration: none; }
-
-.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
-.page-header h1 { font-family: 'Lora', serif; font-size: 1.3rem; font-weight: 700; }
-.nav-pills { display: flex; gap: .5rem; margin-top: .8rem; flex-wrap: wrap; }
-.nav-pill { background: rgba(255,255,255,.12); border: 2px solid rgba(255,255,255,.3); border-radius: 999px; color: #fff; font-size: .78rem; font-weight: 800; padding: .25rem .9rem; text-decoration: none; }
-.nav-pill.active { background: var(--sage); border-color: var(--sage); }
-
-/* ── Group tabs ── */
-.group-tabs { display: flex; gap: 0; border-bottom: 3px solid var(--black); margin-bottom: 1.5rem; background: rgba(255,255,255,0.1); border-radius: 4px 4px 0 0; overflow: hidden; }
-.group-tab {
-  flex: 1; padding: .8rem 1rem; text-align: center; cursor: pointer;
-  font-family: 'Nunito', sans-serif; font-size: .95rem; font-weight: 900;
-  border: none; border-right: 3px solid var(--black); transition: all .15s;
-  letter-spacing: .03em; background: transparent;
-}
-.group-tab:last-child { border-right: none; }
-.group-tab.active.are { background: var(--are-col); color: #fff; }
-.group-tab.active.ere { background: var(--ere-col); color: #fff; }
-.group-tab.active.ire { background: var(--ire-col); color: #fff; }
-
-.group-block { display: none; }
-.group-block.show { display: block; }
-
-.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 126px); }
-.sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); position: sticky; top: 66px; height: calc(100vh - 66px); overflow-y: auto; }
-.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
-.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
-.sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
-
-.main { padding: 2rem; background: var(--sage); }
-.section-title { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; border-bottom: 3px solid var(--black); padding-bottom: .5rem; margin-bottom: 1.2rem; display: flex; align-items: center; gap: .7rem; }
-.it-badge { background: var(--it-red); color: #fff; font-size: .7rem; font-weight: 900; padding: .2rem .7rem; border-radius: 999px; }
-
-.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
-.card-title { background: var(--black); color: var(--white); font-family: 'Lora', serif; font-size: 1.05rem; padding: .65rem 1.1rem; text-align: center; }
-.card-title.are-bg { background: var(--are-col); }
-.card-title.ere-bg { background: var(--ere-col); }
-.card-title.ire-bg { background: var(--ire-col); }
-.card-title .sub { font-family: 'Nunito', sans-serif; font-size: .75rem; display: block; opacity: .8; }
-
-.gtable { width: 100%; border-collapse: collapse; }
-.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; }
-.gtable .row-label { background: var(--black); color: var(--white); width: 22%; }
-.gtable td.content { background: var(--sage); text-align: center; }
-.gtable td.content-left { background: var(--sage); text-align: left; }
-.section-row td { background: rgba(0,0,0,.18); color: var(--white); text-transform: uppercase; font-size: .8rem; }
-.note-row td { background: rgba(0,0,0,.12); font-style: italic; text-align: center; }
-
-.key-verb { color: var(--honey); font-weight: 900; }
-.key-are { color: var(--are-col); font-weight: 900; }
-.key-ere { color: var(--ere-col); font-weight: 900; }
-.key-ire { color: var(--ire-col); font-weight: 900; }
-
-.ending-demo { padding: 1rem 1.2rem; display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; font-size: 1.2rem; font-weight: 900; }
-.end { padding: .1rem .4rem; border-radius: 4px; color: #fff; }
-.end.are { background: var(--are-col); }
-.end.ere { background: var(--ere-col); }
-.end.ire { background: var(--ire-col); }
-
-.formula-card { background: var(--cream); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; box-shadow: 5px 5px 0 var(--black); overflow: hidden; }
-.formula-title { background: var(--it-green); color: #fff; font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; padding: .65rem 1.1rem; text-align: center; }
-.formula-body { padding: 1.2rem 1.4rem; }
-.formula-display { display: flex; align-items: center; flex-wrap: wrap; gap: .3rem; padding: .8rem 1rem; background: rgba(0,0,0,.06); border: 2px solid rgba(0,0,0,.15); border-radius: 4px; margin-bottom: 1rem; min-height: 56px; font-size: 1.1rem; font-weight: 900; }
-.f-piece { padding: .25rem .6rem; border-radius: 4px; }
-.f-stem { background: var(--black); color: #fff; }
-.f-end { color: #fff; border-radius: 4px; padding: .25rem .6rem; }
-.f-end.are { background: var(--are-col); }
-.f-end.ere { background: var(--ere-col); }
-.f-end.ire { background: var(--ire-col); }
-
-.ending-bank { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
-.ending-btn { border: 2.5px solid var(--black); border-radius: 4px; font-size: .9rem; font-weight: 900; padding: .35rem .9rem; cursor: pointer; background: var(--white); }
-.ending-btn.selected.are { background: var(--are-col); color: #fff; }
-.ending-btn.selected.ere { background: var(--ere-col); color: #fff; }
-.ending-btn.selected.ire { background: var(--ire-col); color: #fff; }
-
-.pronoun-row { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; margin-bottom: .5rem; }
-.pr-label { font-size: .95rem; font-weight: 900; min-width: 65px; }
-.pr-drop { border: 2.5px dashed rgba(0,0,0,.3); border-radius: 4px; min-width: 70px; padding: .3rem .6rem; font-size: .9rem; font-weight: 800; cursor: pointer; background: rgba(255,255,255,.5); text-align: center; }
-.pr-drop.placed { border-style: solid; }
-.pr-drop.correct { background: var(--it-green) !important; color: #fff !important; }
-.pr-drop.wrong { background: var(--it-red) !important; color: #fff !important; }
-
-.check-btn { background: var(--black); color: var(--yellow); padding: .6rem 1.8rem; border-radius: 4px; font-weight: 900; cursor: pointer; }
-.result-banner { margin-top: .8rem; padding: .6rem 1rem; border-radius: 4px; font-size: .9rem; font-weight: 800; text-align: center; display: none; }
-.result-banner.show { display: block; }
-.result-banner.success { background: var(--it-green); color: #fff; }
-
-.comp-table { width: 100%; border-collapse: collapse; }
-.comp-table td, .comp-table th { border: 2px solid var(--black); padding: .55rem .9rem; font-size: .9rem; font-weight: 700; text-align: center; }
-.comp-table th { background: var(--black); color: #fff; font-size: .8rem; }
-.comp-table .pron-col { background: rgba(0,0,0,.08); text-align: left; }
-
-.verb-examples { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr)); gap: .8rem; padding: 1rem; }
-.verb-chip { background: var(--white); border: 2.5px solid var(--black); border-radius: 4px; padding: .6rem .8rem; text-align: center; }
-
-@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } .group-tabs { flex-direction: column; } }
-</style>
 </head>
-<body>
+<body class="grammar-body">
 <nav id="main-nav">
   <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
   <ul class="nav-links"><li><a href="it.html">🇮🇹 Italian Roadmap</a></li></ul>
 </nav>
-<div class="page-header">
+<div class="grammar-header">
   <h1>🇮🇹 Verbi regolari</h1>
-  <div class="nav-pills">
-    <a class="nav-pill" href="it-essere-1.html">ESSERE Parte 1</a>
-    <a class="nav-pill" href="it-essere-2.html">ESSERE Parte 2</a>
-    <a class="nav-pill active" href="it-verbi.html">Verbi -ARE / -ERE / -IRE</a>
-  </div>
 </div>
-<div class="layout">
-<nav class="sidebar">
-  <div class="sidebar-label">Verbi regolari</div>
-  <a class="sidebar-item active" href="#intro">Introduzione</a>
-  <a class="sidebar-item" href="#are">Verbi in -ARE</a>
-  <a class="sidebar-item" href="#ere">Verbi in -ERE</a>
-  <a class="sidebar-item" href="#ire">Verbi in -IRE</a>
-  <a class="sidebar-item" href="#compare">Confronto</a>
-  <a class="sidebar-item" href="#builder">🏗️ Costruisci</a>
-  <div class="sidebar-label">Navigazione</div>
-  <a class="sidebar-item" href="it.html">← Torna alla Roadmap</a>
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#intro">Introduzione</a>
+  <a class="gs-item" href="#are">Verbi in -ARE</a>
+  <a class="gs-item" href="#ere">Verbi in -ERE</a>
+  <a class="gs-item" href="#ire">Verbi in -IRE</a>
+  <a class="gs-item" href="#compare">Confronto</a>
+  <a class="gs-item" href="#builder">🏗️ Costruisci</a>
+  <div class="gs-label">Navigazione</div>
+  <a class="gs-item" href="it.html">← Torna alla Roadmap</a>
 </nav>
-<main class="main">
-  <div class="section-title">Italiano — Verbi regolari <span class="it-badge">A1</span></div>
-  <div class="card" id="intro">
-    <div class="card-title">📖 Radice + Desinenza</div>
+<main class="grammar-main">
+  <div class="grammar-section-title">Italiano — Verbi regolari <span class="it-badge">A1</span></div>
+
+  <div class="g-card" id="intro">
+    <div class="g-card-title">📖 Radice + Desinenza</div>
     <div style="padding:1rem">
-        <p style="font-weight:700">La formula: RADICE + DESINENZA</p>
-        <table class="gtable" style="margin-top:1rem">
-            <tr><td class="content">parl<span class="key-are">are</span></td><td class="content-left">→ parl- (radice) + -are (desinenza)</td></tr>
-            <tr><td class="content">vend<span class="key-ere">ere</span></td><td class="content-left">→ vend- (radice) + -ere (desinenza)</td></tr>
-            <tr><td class="content">dorm<span class="key-ire">ire</span></td><td class="content-left">→ dorm- (radice) + -ire (desinenza)</td></tr>
+        <p style="font-weight:700; color: var(--black);">La formula: RADICE + DESINENZA</p>
+        <table class="g-table" style="margin-top:1rem">
+            <tr><td class="content">parl<span style="color:var(--are-col)">are</span></td><td>→ parl- (radice) + -are (desinenza)</td></tr>
+            <tr><td class="content">vend<span style="color:var(--ere-col)">ere</span></td><td>→ vend- (radice) + -ere (desinenza)</td></tr>
+            <tr><td class="content">dorm<span style="color:var(--ire-col)">ire</span></td><td>→ dorm- (radice) + -ire (desinenza)</td></tr>
         </table>
     </div>
   </div>
+
+  <style>
+    .group-tabs { display: flex; gap: 0; border-bottom: 3px solid var(--black); margin-bottom: 1.5rem; background: rgba(255,255,255,0.1); border-radius: 4px 4px 0 0; overflow: hidden; }
+    .group-tab {
+      flex: 1; padding: .8rem 1rem; text-align: center; cursor: pointer;
+      font-family: inherit; font-size: .95rem; font-weight: 900;
+      border: none; border-right: 3px solid var(--black); transition: all .15s;
+      letter-spacing: .03em; background: transparent; color: var(--black);
+    }
+    .group-tab:last-child { border-right: none; }
+    .group-tab.active.are { background: var(--are-col); color: #fff; }
+    .group-tab.active.ere { background: var(--ere-col); color: #fff; }
+    .group-tab.active.ire { background: var(--ire-col); color: #fff; }
+    .group-block { display: none; }
+    .group-block.show { display: block; }
+
+    .formula-display { display: flex; align-items: center; flex-wrap: wrap; gap: .3rem; padding: .8rem 1rem; background: rgba(0,0,0,.06); border: 2px solid rgba(0,0,0,.15); border-radius: 4px; margin-bottom: 1rem; min-height: 56px; font-size: 1.1rem; font-weight: 900; color: var(--black); }
+    .f-piece { padding: .25rem .6rem; border-radius: 4px; }
+    .f-stem { background: var(--black); color: #fff; }
+    .f-end { color: #fff; border-radius: 4px; padding: .25rem .6rem; }
+    .f-end.are { background: var(--are-col); }
+    .f-end.ere { background: var(--ere-col); }
+    .f-end.ire { background: var(--ire-col); }
+
+    .ending-bank { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+    .ending-btn { border: 2.5px solid var(--black); border-radius: 4px; font-size: .9rem; font-weight: 900; padding: .35rem .9rem; cursor: pointer; background: var(--white); color: var(--black); }
+    .ending-btn.selected.are { background: var(--are-col); color: #fff; }
+    .ending-btn.selected.ere { background: var(--ere-col); color: #fff; }
+    .ending-btn.selected.ire { background: var(--ire-col); color: #fff; }
+
+    .pronoun-row { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; margin-bottom: .5rem; color: var(--black); }
+    .pr-label { font-size: .95rem; font-weight: 900; min-width: 65px; }
+    .pr-drop { border: 2.5px dashed rgba(0,0,0,.3); border-radius: 4px; min-width: 70px; padding: .3rem .6rem; font-size: .9rem; font-weight: 800; cursor: pointer; background: rgba(255,255,255,.5); text-align: center; }
+    .pr-drop.placed { border-style: solid; }
+    .pr-drop.correct { background: var(--it-green) !important; color: #fff !important; }
+    .pr-drop.wrong { background: var(--it-red) !important; color: #fff !important; }
+    .pr-drop.are { border-color: var(--are-col); }
+    .pr-drop.ere { border-color: var(--ere-col); }
+    .pr-drop.ire { border-color: var(--ire-col); }
+
+    .check-btn { background: var(--black); color: var(--yellow); padding: .6rem 1.8rem; border-radius: 4px; font-weight: 900; cursor: pointer; border: none; }
+    .result-banner { margin-top: .8rem; padding: .6rem 1rem; border-radius: 4px; font-size: .9rem; font-weight: 800; text-align: center; display: none; }
+    .result-banner.show { display: block; }
+    .result-banner.success { background: var(--it-green); color: #fff; }
+
+    .comp-table { width: 100%; border-collapse: collapse; }
+    .comp-table td, .comp-table th { border: 2px solid var(--black); padding: .55rem .9rem; font-size: .9rem; font-weight: 700; text-align: center; color: var(--black); }
+    .comp-table th { background: var(--black); color: #fff; font-size: .8rem; }
+    .comp-table .pron-col { background: rgba(0,0,0,.08); text-align: left; }
+
+    .verb-examples { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr)); gap: .8rem; padding: 1rem; }
+    .verb-chip { background: var(--white); border: 2.5px solid var(--black); border-radius: 4px; padding: .6rem .8rem; text-align: center; color: var(--black); }
+    .it-badge { background: var(--it-red); color: #fff; font-size: .7rem; font-weight: 900; padding: .2rem .7rem; border-radius: 999px; }
+  </style>
 
   <div class="group-tabs">
     <button class="group-tab active are" onclick="showGroup('are',this)">🔵 -ARE</button>
@@ -195,49 +103,49 @@ nav#main-nav {
   </div>
 
   <div class="group-block show" id="group-are">
-    <div class="card" id="are">
-      <div class="card-title are-bg">🔵 -ARE — parlare (to speak)</div>
-      <table class="gtable">
-        <tr><td class="row-label">io</td><td class="content">parl<span class="key-are">o</span></td></tr>
-        <tr><td class="row-label">tu</td><td class="content">parl<span class="key-are">i</span></td></tr>
-        <tr><td class="row-label">lui/lei</td><td class="content">parl<span class="key-are">a</span></td></tr>
-        <tr><td class="row-label">noi</td><td class="content">parl<span class="key-are">iamo</span></td></tr>
-        <tr><td class="row-label">voi</td><td class="content">parl<span class="key-are">ate</span></td></tr>
-        <tr><td class="row-label">loro</td><td class="content">parl<span class="key-are">ano</span></td></tr>
+    <div class="g-card" id="are">
+      <div class="g-card-title" style="background:var(--are-col)">🔵 -ARE — parlare (to speak)</div>
+      <table class="g-table">
+        <tr><td class="row-label">io</td><td>parl<span style="color:var(--are-col)">o</span></td></tr>
+        <tr><td class="row-label">tu</td><td>parl<span style="color:var(--are-col)">i</span></td></tr>
+        <tr><td class="row-label">lui/lei</td><td>parl<span style="color:var(--are-col)">a</span></td></tr>
+        <tr><td class="row-label">noi</td><td>parl<span style="color:var(--are-col)">iamo</span></td></tr>
+        <tr><td class="row-label">voi</td><td>parl<span style="color:var(--are-col)">ate</span></td></tr>
+        <tr><td class="row-label">loro</td><td>parl<span style="color:var(--are-col)">ano</span></td></tr>
       </table>
     </div>
   </div>
 
   <div class="group-block" id="group-ere">
-    <div class="card" id="ere">
-      <div class="card-title ere-bg">🟠 -ERE — vendere (to sell)</div>
-      <table class="gtable">
-        <tr><td class="row-label">io</td><td class="content">vend<span class="key-ere">o</span></td></tr>
-        <tr><td class="row-label">tu</td><td class="content">vend<span class="key-ere">i</span></td></tr>
-        <tr><td class="row-label">lui/lei</td><td class="content">vend<span class="key-ere">e</span></td></tr>
-        <tr><td class="row-label">noi</td><td class="content">vend<span class="key-ere">iamo</span></td></tr>
-        <tr><td class="row-label">voi</td><td class="content">vend<span class="key-ere">ete</span></td></tr>
-        <tr><td class="row-label">loro</td><td class="content">vend<span class="key-ere">ono</span></td></tr>
+    <div class="g-card" id="ere">
+      <div class="g-card-title" style="background:var(--ere-col)">🟠 -ERE — vendere (to sell)</div>
+      <table class="g-table">
+        <tr><td class="row-label">io</td><td>vend<span style="color:var(--ere-col)">o</span></td></tr>
+        <tr><td class="row-label">tu</td><td>vend<span style="color:var(--ere-col)">i</span></td></tr>
+        <tr><td class="row-label">lui/lei</td><td>vend<span style="color:var(--ere-col)">e</span></td></tr>
+        <tr><td class="row-label">noi</td><td>vend<span style="color:var(--ere-col)">iamo</span></td></tr>
+        <tr><td class="row-label">voi</td><td>vend<span style="color:var(--ere-col)">ete</span></td></tr>
+        <tr><td class="row-label">loro</td><td>vend<span style="color:var(--ere-col)">ono</span></td></tr>
       </table>
     </div>
   </div>
 
   <div class="group-block" id="group-ire">
-    <div class="card" id="ire">
-      <div class="card-title ire-bg">🟣 -IRE — dormire (to sleep)</div>
-      <table class="gtable">
-        <tr><td class="row-label">io</td><td class="content">dorm<span class="key-ire">o</span></td></tr>
-        <tr><td class="row-label">tu</td><td class="content">dorm<span class="key-ire">i</span></td></tr>
-        <tr><td class="row-label">lui/lei</td><td class="content">dorm<span class="key-ire">e</span></td></tr>
-        <tr><td class="row-label">noi</td><td class="content">dorm<span class="key-ire">iamo</span></td></tr>
-        <tr><td class="row-label">voi</td><td class="content">dorm<span class="key-ire">ite</span></td></tr>
-        <tr><td class="row-label">loro</td><td class="content">dorm<span class="key-ire">ono</span></td></tr>
+    <div class="g-card" id="ire">
+      <div class="g-card-title" style="background:var(--ire-col)">🟣 -IRE — dormire (to sleep)</div>
+      <table class="g-table">
+        <tr><td class="row-label">io</td><td>dorm<span style="color:var(--ire-col)">o</span></td></tr>
+        <tr><td class="row-label">tu</td><td>dorm<span style="color:var(--ire-col)">i</span></td></tr>
+        <tr><td class="row-label">lui/lei</td><td>dorm<span style="color:var(--ire-col)">e</span></td></tr>
+        <tr><td class="row-label">noi</td><td>dorm<span style="color:var(--ire-col)">iamo</span></td></tr>
+        <tr><td class="row-label">voi</td><td>dorm<span style="color:var(--ire-col)">ite</span></td></tr>
+        <tr><td class="row-label">loro</td><td>dorm<span style="color:var(--ire-col)">ono</span></td></tr>
       </table>
     </div>
   </div>
 
-  <div class="card" id="compare">
-    <div class="card-title">📊 Confronto</div>
+  <div class="g-card" id="compare">
+    <div class="g-card-title">📊 Confronto</div>
     <div style="padding:1rem;overflow-x:auto">
       <table class="comp-table">
         <tr><th class="pron-col">Pronome</th><th style="background:var(--are-col)">-ARE</th><th style="background:var(--ere-col)">-ERE</th><th style="background:var(--ire-col)">-IRE</th></tr>
@@ -251,9 +159,9 @@ nav#main-nav {
     </div>
   </div>
 
-  <div class="formula-card" id="builder">
-    <div class="formula-title">🏗️ Formula Builder — Clicca sul gruppo, poi sulle desinenze</div>
-    <div class="formula-body">
+  <div class="g-card" id="builder">
+    <div class="g-card-title" style="background:var(--it-green)">🏗️ Formula Builder — Clicca sul gruppo, poi sulle desinenze</div>
+    <div style="padding:1.2rem 1.4rem">
       <div class="ending-bank" id="group-selector">
         <button class="ending-btn are" onclick="selectGroup('are',this)">-ARE</button>
         <button class="ending-btn ere" onclick="selectGroup('ere',this)">-ERE</button>
@@ -269,8 +177,8 @@ nav#main-nav {
     </div>
   </div>
 
-  <div class="card" id="verbi-list">
-    <div class="card-title">📚 Verbi utili</div>
+  <div class="g-card" id="verbi-list">
+    <div class="g-card-title">📚 Verbi utili</div>
     <div class="verb-examples">
       <div class="verb-chip"><strong>mangiare</strong><br><small>to eat</small></div>
       <div class="verb-chip"><strong>studiare</strong><br><small>to study</small></div>
@@ -304,7 +212,7 @@ function selectGroup(grp,btn){
   document.getElementById('formula-display').innerHTML=`<span class="f-piece f-stem">${d.stem}-</span> + <span class="f-end ${grp}">${d.label}</span>`;
   document.getElementById('ending-bank').innerHTML=d.endings.map(e=>`<button class="ending-btn ${grp}" onclick="pickEnding(this)">${e}</button>`).join('');
   document.getElementById('pronoun-rows').innerHTML=['io','tu','lui/lei','noi','voi','loro'].map(p=>`
-    <div class="pronoun-row"><span class="pr-label">${p}</span><span class="pr-stem">${d.stem}</span><div class="pr-drop" data-pron="${p}" onclick="placeEnding(this)">+?</div></div>
+    <div class="pronoun-row"><span class="pr-label">${p}</span><span class="pr-stem">${d.stem}</span><div class="pr-drop ${grp}" data-pron="${p}" onclick="placeEnding(this)">+?</div></div>
   `).join('');
   document.getElementById('formula-result').className='result-banner';
 }
@@ -326,7 +234,7 @@ function checkFormula(){
   });
   const res=document.getElementById('formula-result');
   if(ok===6) { res.textContent='🎉 Eccellente!'; res.className='result-banner success show'; }
-  else { res.textContent=`${ok}/6 corrette — riprova!`; res.className='result-banner show'; res.style.background='var(--orange)'; }
+  else { res.textContent=`${ok}/6 corrette — riprova!`; res.className='result-banner show'; res.style.background='#FF6B1A'; }
 }
 </script>
 </body>
