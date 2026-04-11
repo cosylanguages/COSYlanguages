@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Articoli — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+:root { --sage: #6b8f71; --sage-dark: #4a6b50; --cream: #fdf8f0; --honey: #e8a838; --black: #2a2a2a; --white: #FFFFFF; --green: #2ECC40; --red: #FF4136; }
+body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
+nav#main-nav { height: 66px; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; background: #fff; }
+.nav-logo img { height: 44px; }
+.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 126px); }
+.sidebar { background: var(--sage-dark); padding: 1.5rem 0; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; }
+.main { padding: 2rem; background: var(--sage); }
+.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; overflow: hidden; box-shadow: 5px 5px 0 var(--black); margin-bottom: 2rem; }
+.card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; }
+.quiz-card { background: var(--cream); border: 3px solid var(--black); border-radius: 4px; padding: 1.5rem; }
+.quiz-opt { background: #fff; border: 2px solid var(--black); padding: .4rem 1rem; cursor: pointer; font-weight: 800; border-radius: 4px; margin-right: .5rem; }
+.quiz-opt.correct { background: var(--green); color: #fff; }
+.quiz-opt.wrong { background: var(--red); color: #fff; }
+</style>
+</head>
+<body>
+<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
+<div class="page-header"><h1>🇮🇹 Articoli</h1></div>
+<div class="layout">
+<nav class="sidebar"><a class="sidebar-item" href="it.html">← Italian Roadmap</a></nav>
+<main class="main">
+  <div class="card">
+    <div class="card-title">Maschile vs Femminile</div>
+    <div style="padding:1.5rem">
+        <p><strong>il</strong> (maschile): il libro</p>
+        <p><strong>la</strong> (femminile): la casa</p>
+    </div>
+  </div>
+  <div class="quiz-card">
+    <h3>Quiz Articoli</h3>
+    <div style="margin-top:1rem">
+      <p>___ pizza.</p>
+      <button class="quiz-opt" onclick="this.classList.add('wrong')">il</button>
+      <button class="quiz-opt" onclick="this.classList.add('correct')">la</button>
+    </div>
+  </div>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Verbes en -ER — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+:root { --sage: #6b8f71; --sage-dark: #4a6b50; --honey: #e8a838; --black: #2a2a2a; --white: #FFFFFF; --green: #2ECC40; --red: #FF4136; --fr-blue: #0055A4; }
+body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
+nav#main-nav { height: 66px; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; background: #fff; }
+.nav-logo img { height: 44px; }
+.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 126px); }
+.sidebar { background: var(--sage-dark); padding: 1.5rem 0; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; }
+.main { padding: 2rem; background: var(--sage); }
+.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; overflow: hidden; box-shadow: 5px 5px 0 var(--black); margin-bottom: 2rem; }
+.card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; }
+.gtable { width: 100%; border-collapse: collapse; }
+.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-weight: 700; }
+.key-verb { color: var(--honey); }
+.formula-card { background: #fdf8f0; border: 3px solid var(--black); padding: 1.5rem; border-radius: 4px; box-shadow: 5px 5px 0 var(--black); }
+.pr-drop { border: 2.5px dashed rgba(0,0,0,.3); border-radius: 4px; min-width: 70px; padding: .3rem .6rem; cursor: pointer; text-align: center; background: #fff; display: inline-block; font-weight: 800; }
+.pr-drop.correct { background: var(--green); color: #fff; }
+</style>
+</head>
+<body>
+<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
+<div class="page-header"><h1>🇫🇷 Verbes en -ER</h1></div>
+<div class="layout">
+<nav class="sidebar"><a class="sidebar-item" href="fr.html">← French Roadmap</a></nav>
+<main class="main">
+  <div class="card">
+    <div class="card-title">parler (to speak)</div>
+    <table class="gtable">
+      <tr><td style="background:#000;color:#fff">je</td><td>parl<span style="color:var(--fr-blue)">e</span></td></tr>
+      <tr><td style="background:#000;color:#fff">tu</td><td>parl<span style="color:var(--fr-blue)">es</span></td></tr>
+      <tr><td style="background:#000;color:#fff">il/elle</td><td>parl<span style="color:var(--fr-blue)">e</span></td></tr>
+    </table>
+  </div>
+  <div class="formula-card">
+    <h3>Practice: Choose the ending</h3>
+    <div style="margin-top:1rem">
+      <p>Je parl<span class="pr-drop" id="d1" onclick="this.textContent='e';this.classList.add('correct')">?</span></p>
+      <div style="margin-top:1rem">
+        <button onclick="document.getElementById('d1').textContent='e';document.getElementById('d1').classList.add('correct')">e</button>
+        <button onclick="document.getElementById('d1').textContent='es';document.getElementById('d1').classList.remove('correct')">es</button>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+</body>
+</html>

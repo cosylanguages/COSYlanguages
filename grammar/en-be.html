@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verb TO BE — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../mobile.css">
+<style>
+:root {
+  --sage:        #6b8f71;
+  --sage-dark:   #4a6b50;
+  --sage-deep:   #2e4a33;
+  --sage-light:  #8aab8f;
+  --cream:       #fdf8f0;
+  --honey:       #e8a838;
+  --black:       #2a2a2a;
+  --white:       #FFFFFF;
+  --yellow:      #FFE135;
+  --red:         #FF4136;
+  --green:       #2ECC40;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--sage);
+  color: var(--black);
+  min-height: 100vh;
+}
+
+nav#main-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: rgba(253,248,240,.96);
+  backdrop-filter: blur(12px);
+  height: 66px; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo img { height: 44px; }
+.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
+.nav-links a { font-weight: 700; font-size: .8rem; padding: .35rem .65rem; color: #4a4a4a; text-decoration: none; }
+
+.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
+.page-header h1 { font-family: 'Lora', serif; font-size: 1.3rem; font-weight: 700; }
+
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 126px); }
+.sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); position: sticky; top: 66px; height: calc(100vh - 66px); overflow-y: auto; }
+.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
+.sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
+
+.main { padding: 2rem; background: var(--sage); }
+.section-title { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; border-bottom: 3px solid var(--black); padding-bottom: .5rem; margin-bottom: 1.2rem; display: flex; align-items: center; gap: .7rem; }
+
+.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
+.card-title { background: var(--black); color: var(--white); font-family: 'Lora', serif; font-size: 1.05rem; padding: .65rem 1.1rem; text-align: center; }
+
+.gtable { width: 100%; border-collapse: collapse; }
+.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; }
+.gtable .row-label { background: var(--black); color: var(--white); width: 22%; }
+.gtable td.content { background: var(--sage); text-align: center; }
+.gtable td.content-left { background: var(--sage); text-align: left; }
+.section-row td { background: rgba(0,0,0,.18); color: var(--white); text-transform: uppercase; font-size: .8rem; }
+
+.key-verb { color: var(--honey); font-weight: 900; }
+
+.quiz-card { background: var(--cream); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; box-shadow: 5px 5px 0 var(--black); overflow: hidden; }
+.quiz-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; font-family: 'Lora', serif; }
+.quiz-body { padding: 1.2rem 1.4rem; }
+.quiz-q { margin-bottom: 1.2rem; border-bottom: 2px dashed rgba(0,0,0,0.1); padding-bottom: 1rem; }
+.quiz-prompt { font-weight: 800; margin-bottom: .6rem; }
+.quiz-opt { background: var(--white); border: 2px solid var(--black); padding: .4rem 1rem; cursor: pointer; border-radius: 4px; font-weight: 800; margin-right: .5rem; }
+.quiz-opt.correct { background: var(--green); color: #fff; }
+.quiz-opt.wrong { background: var(--red); color: #fff; }
+.quiz-feedback { font-size: .82rem; font-weight: 700; margin-top: .5rem; }
+
+.score-banner { background: var(--green); color: #fff; padding: .7rem; text-align: center; border-radius: 4px; margin-top: 1rem; display: none; }
+.score-banner.show { display: block; }
+
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } }
+</style>
+</head>
+<body>
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
+  <ul class="nav-links"><li><a href="en.html">🇬🇧 English Roadmap</a></li></ul>
+</nav>
+<div class="page-header">
+  <h1>🇬🇧 Verb TO BE</h1>
+</div>
+<div class="layout">
+<nav class="sidebar">
+  <a class="sidebar-item active" href="#present">Present Simple</a>
+  <a class="sidebar-item" href="#quiz">Interactive Quiz</a>
+  <div class="sidebar-label">Next steps</div>
+  <a class="sidebar-item" href="en-have.html">→ Verb TO HAVE</a>
+</nav>
+<main class="main">
+  <div class="section-title">English — Verb TO BE</div>
+  <div class="card" id="present">
+    <div class="card-title">Present Simple Forms</div>
+    <table class="gtable">
+      <tr class="section-row"><td colspan="3">Affirmative</td></tr>
+      <tr><td class="row-label">I</td><td class="content"><span class="key-verb">am</span></td><td>I am a student.</td></tr>
+      <tr><td class="row-label">You/We/They</td><td class="content"><span class="key-verb">are</span></td><td>We are ready.</td></tr>
+      <tr><td class="row-label">He/She/It</td><td class="content"><span class="key-verb">is</span></td><td>She is happy.</td></tr>
+    </table>
+  </div>
+
+  <div class="quiz-card" id="quiz">
+    <div class="quiz-title">Interactive Quiz</div>
+    <div class="quiz-body">
+      <div class="quiz-q" id="q1"><div class="quiz-prompt">They ___ my friends.</div><div class="quiz-options"><button class="quiz-opt" onclick="answer(this,'q1','are')">are</button><button class="quiz-opt" onclick="answer(this,'q1','is')">is</button></div><div class="quiz-feedback" id="fb-q1"></div></div>
+      <div class="quiz-q" id="q2"><div class="quiz-prompt">It ___ a beautiful day.</div><div class="quiz-options"><button class="quiz-opt" onclick="answer(this,'q2','is')">is</button><button class="quiz-opt" onclick="answer(this,'q2','am')">am</button></div><div class="quiz-feedback" id="fb-q2"></div></div>
+      <div class="score-banner" id="score-banner"></div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'are',q2:'is'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }
+  else { btn.classList.add('wrong'); fb.textContent='Not quite.'; }
+}
+</script>
+</body>
+</html>
