@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESSERE — Parte 2 · COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../mobile.css">
+<style>
+:root {
+  --sage:        #6b8f71;
+  --sage-dark:   #4a6b50;
+  --sage-deep:   #2e4a33;
+  --sage-light:  #8aab8f;
+  --cream:       #fdf8f0;
+  --honey:       #e8a838;
+  --black:       #2a2a2a;
+  --white:       #FFFFFF;
+  --yellow:      #FFE135;
+  --red:         #FF4136;
+  --orange:      #FF6B1A;
+  --green:       #2ECC40;
+  --blue:        #0074D9;
+  --it-red:      #CE2B37;
+  --it-green:    #009246;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--sage);
+  color: var(--black);
+  min-height: 100vh;
+}
+
+nav#main-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: rgba(253,248,240,.96);
+  backdrop-filter: blur(12px);
+  height: 66px; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo img { height: 44px; }
+.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
+.nav-links a { font-weight: 700; font-size: .8rem; padding: .35rem .65rem; color: #4a4a4a; text-decoration: none; }
+
+.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
+.page-header h1 { font-family: 'Lora', serif; font-size: 1.3rem; font-weight: 700; }
+.nav-pills { display: flex; gap: .5rem; margin-top: .8rem; }
+.nav-pill { background: rgba(255,255,255,.12); border: 2px solid rgba(255,255,255,.3); border-radius: 999px; color: #fff; font-size: .78rem; font-weight: 800; padding: .25rem .9rem; text-decoration: none; }
+.nav-pill.active { background: var(--sage); border-color: var(--sage); }
+
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 126px); }
+.sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); position: sticky; top: 66px; height: calc(100vh - 66px); overflow-y: auto; }
+.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
+.sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
+
+.main { padding: 2rem; background: var(--sage); }
+.section-title { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; border-bottom: 3px solid var(--black); padding-bottom: .5rem; margin-bottom: 1.2rem; display: flex; align-items: center; gap: .7rem; }
+.it-badge { background: var(--it-red); color: #fff; font-size: .7rem; font-weight: 900; padding: .2rem .7rem; border-radius: 999px; }
+
+.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
+.card-title { background: var(--black); color: var(--white); font-family: 'Lora', serif; font-size: 1.05rem; padding: .65rem 1.1rem; text-align: center; }
+.card-title .sub { font-family: 'Nunito', sans-serif; font-size: .75rem; display: block; opacity: .6; }
+
+.gtable { width: 100%; border-collapse: collapse; }
+.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; }
+.gtable .row-label { background: var(--black); color: var(--white); width: 22%; }
+.gtable .row-label.new { background: var(--it-green); }
+.gtable td.content { background: var(--sage); text-align: center; }
+.gtable td.content-left { background: var(--sage); text-align: left; }
+.section-row td { background: rgba(0,0,0,.18); color: var(--white); text-transform: uppercase; font-size: .8rem; }
+.note-row td { background: rgba(0,0,0,.12); font-style: italic; text-align: center; }
+
+.key-verb { color: var(--honey); font-weight: 900; }
+.key-new { color: var(--it-green); font-weight: 900; }
+
+.paradigm-grid { display: grid; grid-template-columns: 1fr 1fr; border: 3px solid var(--black); }
+.paradigm-cell { border: 2px solid var(--black); padding: .7rem 1rem; text-align: center; }
+.paradigm-cell.header { background: var(--black); color: var(--white); font-size: .75rem; text-transform: uppercase; }
+.paradigm-cell.known { background: rgba(107,143,113,0.3); }
+.paradigm-cell.new-c { background: rgba(0,146,70,0.2); }
+.paradigm-cell .pron { font-size: .82rem; color: rgba(0,0,0,0.5); }
+.paradigm-cell .form { font-size: 1.3rem; font-weight: 900; display: block; }
+.paradigm-cell .ex { font-size: .72rem; color: rgba(0,0,0,0.55); }
+
+.quiz-card { background: var(--cream); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; box-shadow: 5px 5px 0 var(--black); overflow: hidden; }
+.quiz-title { background: var(--it-red); color: var(--white); padding: .65rem 1.1rem; text-align: center; font-family: 'Lora', serif; }
+.quiz-body { padding: 1.2rem 1.4rem; }
+.quiz-q { margin-bottom: 1.2rem; border-bottom: 2px dashed rgba(0,0,0,0.1); padding-bottom: 1rem; }
+.quiz-prompt { font-weight: 800; margin-bottom: .6rem; }
+.quiz-opt { background: var(--white); border: 2px solid var(--black); padding: .4rem 1rem; cursor: pointer; border-radius: 4px; font-weight: 800; margin-right: .5rem; }
+.quiz-opt.correct { background: var(--it-green); color: #fff; }
+.quiz-opt.wrong { background: var(--it-red); color: #fff; }
+.quiz-feedback { font-size: .82rem; font-weight: 700; margin-top: .5rem; }
+
+.sentence-builder { background: var(--cream); border: 3px solid var(--black); padding: 1.2rem 1.4rem; border-radius: 4px; box-shadow: 5px 5px 0 var(--black); }
+.sb-input-row { display: flex; align-items: center; gap: .5rem; margin-bottom: .5rem; }
+.sb-input { border: 2px solid var(--black); padding: .35rem .7rem; border-radius: 4px; font-weight: 800; }
+.sb-input.ok { border-color: var(--it-green); }
+.sb-input.err { border-color: var(--it-red); }
+
+.score-banner { background: var(--it-green); color: #fff; padding: .7rem; text-align: center; border-radius: 4px; margin-top: 1rem; display: none; }
+.score-banner.show { display: block; }
+
+.check-btn { background: var(--black); color: var(--yellow); padding: .6rem 1.8rem; border-radius: 4px; font-weight: 900; cursor: pointer; }
+.reset-btn { background: transparent; border: 2px solid var(--black); padding: .45rem 1.2rem; border-radius: 4px; cursor: pointer; font-weight: 800; }
+
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } .paradigm-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
+  <ul class="nav-links"><li><a href="it.html">🇮🇹 Italian Roadmap</a></li></ul>
+</nav>
+<div class="page-header">
+  <h1>🇮🇹 ESSERE — Parte 2</h1>
+  <div class="nav-pills">
+    <a class="nav-pill" href="it-essere-1.html">ESSERE Parte 1</a>
+    <a class="nav-pill active" href="it-essere-2.html">ESSERE Parte 2</a>
+  </div>
+</div>
+<div class="layout">
+<nav class="sidebar">
+  <a class="sidebar-item active" href="#recap">Ripasso</a>
+  <a class="sidebar-item" href="#nuove">Nuove forme</a>
+  <a class="sidebar-item" href="#quiz">Quiz</a>
+  <a class="sidebar-item" href="#frasi">Costruisci frasi</a>
+</nav>
+<main class="main">
+  <div class="section-title">Italiano — ESSERE al completo <span class="it-badge">A1</span></div>
+  <div class="card" id="recap">
+    <div class="card-title">Ripasso Parte 1</div>
+    <table class="gtable">
+      <tr><td class="row-label">io</td><td class="content">sono</td><td>Io sono italiano.</td></tr>
+      <tr><td class="row-label">tu</td><td class="content">sei</td><td>Tu sei pronto?</td></tr>
+      <tr><td class="row-label">lui/lei</td><td class="content">è</td><td>Lei è medico.</td></tr>
+    </table>
+  </div>
+  <div class="card" id="nuove">
+    <div class="card-title">Parte 2 — noi, voi, loro</div>
+    <table class="gtable">
+      <tr><td class="row-label new">noi</td><td class="content"><span class="key-new">siamo</span></td><td>Noi siamo qui.</td></tr>
+      <tr><td class="row-label new">voi</td><td class="content"><span class="key-new">siete</span></td><td>Voi siete stanchi?</td></tr>
+      <tr><td class="row-label new">loro</td><td class="content"><span class="key-new">sono</span></td><td>Loro sono amici.</td></tr>
+      <tr class="note-row"><td colspan="3">io and loro both use <strong>sono</strong>!</td></tr>
+    </table>
+  </div>
+
+  <div class="quiz-card" id="quiz">
+    <div class="quiz-title">Quiz rapido</div>
+    <div class="quiz-body">
+      <div class="quiz-q" id="q1"><div class="quiz-prompt">Noi ___ a Milano.</div><div class="quiz-options"><button class="quiz-opt" onclick="answer(this,'q1','siamo')">siamo</button><button class="quiz-opt" onclick="answer(this,'q1','siete')">siete</button></div><div class="quiz-feedback" id="fb-q1"></div></div>
+      <div class="quiz-q" id="q2"><div class="quiz-prompt">Voi ___ stanchi?</div><div class="quiz-options"><button class="quiz-opt" onclick="answer(this,'q2','siete')">siete</button><button class="quiz-opt" onclick="answer(this,'q2','siamo')">siamo</button></div><div class="quiz-feedback" id="fb-q2"></div></div>
+      <div class="quiz-q" id="q3"><div class="quiz-prompt">Loro ___ amici.</div><div class="quiz-options"><button class="quiz-opt" onclick="answer(this,'q3','sono')">sono</button><button class="quiz-opt" onclick="answer(this,'q3','è')">è</button></div><div class="quiz-feedback" id="fb-q3"></div></div>
+      <div class="score-banner" id="score-banner"></div>
+    </div>
+  </div>
+
+  <div class="sentence-builder" id="frasi">
+    <div class="sb-title">Costruisci frasi</div>
+    <div class="sb-input-row"><span>noi </span><input class="sb-input" data-answer="siamo" oninput="liveCheck(this)"><span> italiani.</span></div>
+    <div class="sb-input-row"><span>voi </span><input class="sb-input" data-answer="siete" oninput="liveCheck(this)"><span> a casa?</span></div>
+    <div class="sb-input-row"><span>loro </span><input class="sb-input" data-answer="sono" oninput="liveCheck(this)"><span> medici.</span></div>
+    <button class="check-btn" onclick="checkAll()">Controlla tutto</button>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'siamo',q2:'siete',q3:'sono'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Esatto!'; }
+  else { btn.classList.add('wrong'); fb.textContent='Sbagliato.'; }
+}
+function liveCheck(inp){ if(inp.value.toLowerCase()===inp.dataset.answer) inp.classList.add('ok'); else inp.classList.remove('ok'); }
+function checkAll(){
+    document.querySelectorAll('.sb-input').forEach(i=>{ if(i.value.toLowerCase()===i.dataset.answer) i.classList.add('ok'); else i.classList.add('err'); });
+}
+</script>
+</body>
+</html>

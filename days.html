@@ -540,7 +540,22 @@ footer {
 
             document.getElementById('open-grammar-btn').addEventListener('click', () => {
                 const lang = localStorage.getItem('language') || 'en';
-                window.location.href = `grammar.html?lang=${lang}`;
+                // Try to go to language specific roadmap if it exists, otherwise landing page
+                const roadmapMap = {
+                    'en': 'grammar/en.html',
+                    'fr': 'grammar/fr.html',
+                    'it': 'grammar/it.html',
+                    'ru': 'grammar/ru.html',
+                    'el': 'grammar/el.html',
+                    'es': 'grammar/es.html',
+                    'de': 'grammar/de.html',
+                    'pt': 'grammar/pt.html'
+                };
+                if (roadmapMap[lang]) {
+                    window.location.href = roadmapMap[lang];
+                } else {
+                    window.location.href = `grammar.html?lang=${lang}`;
+                }
             });
         });
     </script>

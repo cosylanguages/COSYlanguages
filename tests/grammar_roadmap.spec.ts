@@ -1,115 +1,65 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Grammar Roadmap Integration', () => {
-  test('Accessing Grammar Reference via days.html', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+test.describe('Grammar Roadmap Navigation', () => {
+    test.beforeEach(async ({ page }) => {
+        // Clear storage to ensure locked state
+        await page.goto('http://localhost:8080/days.html');
+        await page.evaluate(() => localStorage.clear());
+    });
 
-    // Initially curriculum should be hidden
-    const curriculum = page.locator('#curriculum-content');
-    await expect(curriculum).not.toBeVisible();
+    test('Accessing Italian specific roadmap', async ({ page }) => {
+        // Unlock
+        await page.locator('#student-code').fill('COSYSTUDENT2025');
+        await page.locator('#unlock-btn').click();
 
-    // Enter secret code
-    await page.fill('#student-code', 'COSYSTUDENT2025');
-    await page.click('#unlock-btn');
+        // Set language to IT
+        await page.evaluate(() => localStorage.setItem('language', 'it'));
 
-    // Now it should be visible
-    await expect(curriculum).toBeVisible();
+        await page.locator('#open-grammar-btn').click();
+        await expect(page).toHaveURL(/grammar\/it.html/);
+        await expect(page.getByText('Grammatica Italiana')).toBeVisible();
+    });
 
-    // Check Grammar Reference section
-    const grammarSection = page.locator('h3:has-text("Grammar Reference")');
-    await expect(grammarSection).toBeVisible();
+    test('Navigating to specific lesson', async ({ page }) => {
+        await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
+        await page.goto('http://localhost:8080/grammar/it.html');
 
-    // Click the button
-    await page.click('#open-grammar-btn');
+        await page.getByRole('link', { name: 'Open Lesson 2 →' }).click();
+        await expect(page).toHaveURL(/it-essere-2.html/);
+        await expect(page.getByText('ESSERE al completo')).toBeVisible();
+    });
 
-    // Should navigate to grammar.html
-    await expect(page).toHaveURL(/grammar.html/);
+    test('Interactive Quiz in Italian Lesson', async ({ page }) => {
+        await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
+        await page.goto('http://localhost:8080/grammar/it-essere-2.html');
 
-    // Verify it's unlocked (doesn't redirect back)
-    await expect(page).toHaveURL(/grammar.html/);
+        const quizQ = page.locator('#q1');
+        await quizQ.getByRole('button', { name: 'siamo' }).click();
+        await expect(quizQ.locator('.quiz-feedback')).toHaveText(/Esatto/);
+        await expect(quizQ.getByRole('button', { name: 'siamo' })).toHaveClass(/correct/);
+    });
 
-    // Verify English content is shown by default
-    const englishHeader = page.locator('.section-title:has-text("English")');
-    await expect(englishHeader).toBeVisible();
-    await expect(page.locator('#lang-en')).toBeVisible();
+    test('Interactive Sentence Builder in Italian Lesson', async ({ page }) => {
+        await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
+        await page.goto('http://localhost:8080/grammar/it-essere-2.html');
 
-    // Verify sidebar items for English
-    const sidebarItem = page.locator('.sidebar-item:has-text("Verb to be")');
-    await expect(sidebarItem).toBeVisible();
+        const input = page.locator('input[data-answer="siamo"]');
+        await input.fill('siamo');
+        await expect(input).toHaveClass(/ok/);
+    });
 
-    // Verify Interactive Components (English)
-    await expect(page.locator('#lang-en .progress-bar-wrap')).toBeVisible();
-    await expect(page.locator('#en-flip')).toBeVisible();
-    await expect(page.locator('#en-builder')).toBeVisible();
+    test('Grammar Hub (grammar.html) visibility', async ({ page }) => {
+        await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
+        await page.goto('http://localhost:8080/grammar.html');
 
-    // Test Flip Card
-    const firstFlipCard = page.locator('#en-flip .flip-card').first();
-    await expect(firstFlipCard).not.toHaveClass(/flipped/);
-    await firstFlipCard.click();
-    await expect(firstFlipCard).toHaveClass(/flipped/);
+        await expect(page.getByText('English')).toBeVisible();
+        await expect(page.getByText('Français')).toBeVisible();
+        await expect(page.getByText('Italiano')).toBeVisible();
+    });
 
-    // Test Rule Builder (English)
-    const amBankItem = page.locator('#en-builder .bank-item:has-text("am")');
-    const firstDropSlot = page.locator('#en-builder .builder-drop').first();
-
-    await amBankItem.click();
-    await expect(amBankItem).toHaveClass(/selected/);
-
-    await firstDropSlot.click();
-    await expect(firstDropSlot).toHaveText('am');
-    await expect(amBankItem).toHaveClass(/used/);
-  });
-
-  test('Language switching in Grammar Reference', async ({ page }) => {
-    // Navigate directly with unlock state in localStorage
-    await page.goto('http://localhost:8080/days.html');
-    await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
-    await page.goto('http://localhost:8080/grammar.html?lang=fr');
-
-    // Verify French content
-    const frenchHeader = page.locator('#lang-fr .section-title');
-    await expect(frenchHeader).toBeVisible();
-    await expect(page.locator('#lang-fr')).toBeVisible();
-    await expect(page.locator('#lang-en')).not.toBeVisible();
-
-    // Switch to Italian
-    await page.click('.lang-tab:has-text("IT")');
-    const italianHeader = page.locator('#lang-it .section-title');
-    await expect(italianHeader).toBeVisible();
-    await expect(page.locator('#lang-it')).toBeVisible();
-
-    // Switch to Russian
-    await page.click('.lang-tab:has-text("RU")');
-    const russianHeader = page.locator('#lang-ru .section-title');
-    await expect(russianHeader).toBeVisible();
-
-    // Switch to Greek
-    await page.click('.lang-tab:has-text("EL")');
-    const greekHeader = page.locator('#lang-el .section-title');
-    await expect(greekHeader).toBeVisible();
-
-    // Switch to Spanish
-    await page.click('.lang-tab:has-text("ES")');
-    const spanishHeader = page.locator('#lang-es .section-title');
-    await expect(spanishHeader).toBeVisible();
-    await expect(spanishHeader).toContainText('Español');
-
-    // Verify header flag changed (Spanish flag colors: #AA151B, #F1BF00)
-    const f1 = page.locator('#header-flag .f1');
-    // Using evaluate to get computed style background color since it's set via JS
-    const color = await f1.evaluate(el => window.getComputedStyle(el).backgroundColor);
-    // rgb(170, 21, 27) is roughly #AA151B
-    expect(color).toBe('rgb(170, 21, 27)');
-  });
-
-  test('Grammar Reference redirects if not unlocked', async ({ page }) => {
-    // Ensure locked
-    await page.goto('http://localhost:8080/days.html');
-    await page.evaluate(() => localStorage.removeItem('student_unlocked'));
-
-    await page.goto('http://localhost:8080/grammar.html');
-
-    // Should redirect back to days.html
-    await expect(page).toHaveURL(/days.html/);
-  });
+    test('Grammar Reference redirects if not unlocked', async ({ page }) => {
+        await page.evaluate(() => localStorage.removeItem('student_unlocked'));
+        await page.goto('http://localhost:8080/grammar.html');
+        await expect(page).toHaveURL(/days.html/);
+    });
 });

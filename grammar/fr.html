@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>French Grammar Roadmap — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+:root {
+  --sage:        #6b8f71;
+  --sage-dark:   #4a6b50;
+  --sage-deep:   #2e4a33;
+  --sage-light:  #8aab8f;
+  --cream:       #fdf8f0;
+  --honey:       #e8a838;
+  --black:       #2a2a2a;
+  --white:       #FFFFFF;
+  --yellow:      #FFE135;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
+
+nav#main-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: rgba(253,248,240,.96);
+  backdrop-filter: blur(12px);
+  height: 66px; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo img { height: 44px; }
+
+.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
+.page-header h1 { font-family: 'Lora', serif; font-size: 1.3rem; }
+
+.layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 126px); }
+.sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); }
+.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
+.sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
+
+.main { padding: 2rem; background: var(--sage); }
+.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
+.card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; font-family: 'Lora', serif; font-size: 1.05rem; }
+
+.lesson-btn { display: inline-block; background: var(--black); color: var(--yellow); padding: .5rem 1.2rem; border-radius: 4px; text-decoration: none; font-weight: 800; font-size: .85rem; margin-top: 1rem; }
+</style>
+</head>
+<body>
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
+</nav>
+<div class="page-header"><h1>French Grammar Roadmap 🇫🇷</h1></div>
+<div class="layout">
+<nav class="sidebar">
+  <div class="sidebar-label">A1 — A2</div>
+  <a class="sidebar-item active" href="#conjugaison">Conjugaison</a>
+</nav>
+<main class="main">
+  <div class="card" id="conjugaison">
+    <div class="card-title">Verbes essentiels</div>
+    <div style="padding:1.5rem">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
+        <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
+          <h4>Le verbe ÊTRE</h4>
+          <p style="font-size:.85rem">To be.</p>
+          <a href="fr-etre.html" class="lesson-btn">Ouvrir →</a>
+        </div>
+        <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
+          <h4>Le verbe AVOIR</h4>
+          <p style="font-size:.85rem">To have.</p>
+          <a href="fr-avoir.html" class="lesson-btn">Ouvrir →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+</body>
+</html>
