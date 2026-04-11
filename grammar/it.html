@@ -7,221 +7,108 @@
 <link rel="icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../mobile.css">
 <style>
-:root {
-  --sage:        #6b8f71;
-  --sage-dark:   #4a6b50;
-  --sage-deep:   #2e4a33;
-  --sage-light:  #8aab8f;
-  --sage-pale:   #e8f0e9;
-  --sage-mist:   #f0f5f1;
-  --cream:       #fdf8f0;
-  --cream-dark:  #f5ede0;
-  --honey:       #e8a838;
-  --black:       #2a2a2a;
-  --white:       #FFFFFF;
-  --yellow:      #FFE135;
-  --red:         #FF4136;
-  --orange:      #FF6B1A;
-  --green:       #2ECC40;
-  --blue:        #0074D9;
-  --it-red:      #CE2B37;
-  --it-green:    #009246;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--sage);
-  color: var(--black);
-  min-height: 100vh;
-}
-
-/* ── Nav ────────────────────────────────────────────── */
-nav#main-nav {
-  position: sticky; top: 0; z-index: 1000;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(74,107,80,.12);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-  box-shadow: 0 2px 16px rgba(46,74,51,.06);
-}
-.nav-logo { display: flex; align-items: center; gap: .6rem; }
+:root { --sage: #6b8f71; --sage-dark: #4a6b50; --honey: #e8a838; --black: #2a2a2a; --white: #FFFFFF; --it-red: #CE2B37; }
+body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
+nav#main-nav { position: sticky; top: 0; background: #fff; height: 66px; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.1); }
 .nav-logo img { height: 44px; }
-.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
-.nav-links a {
-  font-weight: 700; font-size: .8rem;
-  padding: .35rem .65rem; border-radius: 10px;
-  color: #4a4a4a;
-  transition: background .18s, color .18s;
-  text-decoration: none;
-}
-.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
-
-/* ── Page header ── */
-.page-header {
-  background: var(--black);
-  color: var(--white);
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: .8rem;
-}
-.page-header h1 {
-  font-family: 'Lora', serif;
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-.breadcrumb { font-size: .78rem; opacity: .6; }
-
-/* ── Layout ── */
-.layout {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  min-height: calc(100vh - 126px);
-}
-
-/* ── Sidebar ── */
-.sidebar {
-  background: var(--sage-dark);
-  padding: 1.5rem 0;
-  border-right: 3px solid var(--black);
-  position: sticky;
-  top: 66px;
-  height: calc(100vh - 66px);
-  overflow-y: auto;
-}
-.sidebar-section { margin-bottom: .3rem; }
-.sidebar-label {
-  font-size: .62rem; font-weight: 900; letter-spacing: .1em;
-  text-transform: uppercase; color: rgba(255,255,255,.55);
-  padding: .8rem 1.2rem .3rem;
-}
-.sidebar-item {
-  display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700;
-  color: rgba(255,255,255,.85); cursor: pointer; border-left: 3px solid transparent;
-  transition: all .15s; text-decoration: none;
-}
+.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
+.layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 126px); }
+.sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); overflow-y: auto; height: calc(100vh - 66px); position: sticky; top: 66px; }
+.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
 .sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
-
 .main { padding: 2rem; background: var(--sage); }
-
-.section-title {
-  font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700;
-  color: var(--black); margin-bottom: 1.2rem; padding-bottom: .5rem;
-  border-bottom: 3px solid var(--black); display: flex; align-items: center; gap: .7rem;
-}
-
-.it-badge {
-  font-family: 'Nunito', sans-serif; font-size: .7rem; font-weight: 900;
-  background: var(--it-red); color: #fff; padding: .2rem .7rem;
-  border-radius: 999px; letter-spacing: .08em; text-transform: uppercase;
-}
-
-.card {
-  background: var(--sage); border: 3px solid var(--black); border-radius: 4px;
-  margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black);
-}
-.card-title {
-  background: var(--black); color: var(--white); font-family: 'Lora', serif;
-  font-size: 1.05rem; font-weight: 700; padding: .65rem 1.1rem; text-align: center;
-}
-
-.gtable { width: 100%; border-collapse: collapse; }
-.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; }
-.gtable .row-label { background: var(--black); color: var(--white); width: 25%; }
-.gtable td.content { background: var(--sage); text-align: center; }
-.gtable td.content-left { background: var(--sage); text-align: left; }
-.section-row td { background: rgba(0,0,0,0.18); color: var(--white); font-weight: 900; text-transform: uppercase; font-size: .8rem; }
-.note-row td { background: rgba(0,0,0,0.1); font-style: italic; font-size: .85rem; text-align: center; }
-
-.key-verb { color: var(--honey); font-weight: 900; }
-.key-neg  { color: var(--red); font-weight: 900; }
-
-.lesson-btn {
-  display: inline-block; background: var(--black); color: var(--yellow);
-  padding: .5rem 1.2rem; border-radius: 4px; text-decoration: none;
-  font-weight: 800; font-size: .85rem; margin-top: 1rem;
-}
-.lesson-btn:hover { background: var(--sage-dark); color: #fff; }
-
-@media (max-width: 800px) {
-  .layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-}
+.section-title { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; border-bottom: 3px solid var(--black); padding-bottom: .5rem; margin-bottom: 1.5rem; }
+.level-badge { background: var(--black); color: var(--honey); font-size: .75rem; font-weight: 900; padding: .3rem .9rem; border-radius: 999px; margin-bottom: 1rem; display: inline-block; }
+.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
+.card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; font-family: 'Lora', serif; font-size: 1.05rem; }
+.lesson-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 1.5rem; }
+.lesson-btn { display: block; background: rgba(255,255,255,0.1); border: 2px solid var(--black); padding: .8rem; border-radius: 4px; text-decoration: none; color: var(--black); font-weight: 800; font-size: .85rem; transition: background .15s; }
+.lesson-btn:hover { background: rgba(255,255,255,0.2); }
+.lesson-btn .status { display: block; font-size: .65rem; opacity: .6; margin-top: .2rem; }
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } }
 </style>
 </head>
 <body>
-
-<nav id="main-nav">
-  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
-  <ul class="nav-links">
-    <li><a href="../days.html">My Lessons 🔐</a></li>
-    <li><a href="it.html" class="nav-wa">🇮🇹 Italian Roadmap</a></li>
-  </ul>
-</nav>
-
-<div class="page-header">
-  <div>
-     <div class="breadcrumb"><a href="../days.html" style="color:inherit">My Lessons 🔐</a> → <a href="../grammar.html" style="color:inherit">Grammar</a> → Italiano</div>
-     <h1>Italian Grammar Roadmap 🇮🇹</h1>
-  </div>
-</div>
-
+<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
+<div class="page-header"><h1>Italian Grammar Roadmap 🇮🇹</h1></div>
 <div class="layout">
 <nav class="sidebar">
   <div class="sidebar-label">Starter (A1)</div>
-  <a class="sidebar-item active" href="#essere">Verbo ESSERE</a>
-  <a class="sidebar-item" href="#verbi">Verbi regolari</a>
-  <a class="sidebar-item" href="#avere">Verbo AVERE</a>
-  <a class="sidebar-item" href="#articoli">Articoli</a>
-  <a class="sidebar-item" href="#plurali">Plurali</a>
+  <a class="sidebar-item" href="#a1-be">Verb to be</a>
+  <a class="sidebar-item" href="#a1-present">Present Tenses</a>
+  <a class="sidebar-item" href="#a1-nouns">Nouns & Plurals</a>
+  <a class="sidebar-item" href="#a1-articles">Articles</a>
+  <a class="sidebar-item" href="#a1-pronouns">Pronouns</a>
+  <a class="sidebar-item" href="#a1-questions">Questions</a>
+  <div class="sidebar-label">Elementary (A2)</div>
+  <a class="sidebar-item" href="#a2-past">Past Tenses</a>
+  <a class="sidebar-item" href="#a2-future">Future Forms</a>
+  <a class="sidebar-item" href="#a2-modals">Modal Verbs</a>
+  <a class="sidebar-item" href="#a2-adjectives">Adjectives</a>
 </nav>
-
 <main class="main">
-  <div class="section-title">Grammatica Italiana <span class="it-badge">A1</span></div>
+  <div class="section-title">Programma di Grammatica</div>
 
-  <div class="card" id="essere">
-    <div class="card-title">Verbo ESSERE (To Be)</div>
-    <div style="padding:1.5rem">
-      <p style="font-weight:700;margin-bottom:1rem">Learn the most essential verb in Italian. We split it into two parts for easier learning.</p>
-
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
-        <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
-          <h4 style="margin-bottom:.5rem">Parte 1: I, You, He/She</h4>
-          <p style="font-size:.85rem;margin-bottom:1rem">Focus on the singular forms: <em>sono, sei, è</em>.</p>
-          <a href="it-essere-1.html" class="lesson-btn">Open Lesson 1 →</a>
-        </div>
-        <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
-          <h4 style="margin-bottom:.5rem">Parte 2: We, You all, They</h4>
-          <p style="font-size:.85rem;margin-bottom:1rem">Master the plural forms: <em>siamo, siete, sono</em>.</p>
-          <a href="it-essere-2.html" class="lesson-btn">Open Lesson 2 →</a>
-        </div>
+  <div id="a1-be">
+    <div class="level-badge">STARTER (A1)</div>
+    <div class="card">
+      <div class="card-title">Verb to be</div>
+      <div class="lesson-grid">
+        <a href="it-essere-1.html" class="lesson-btn">ESSERE: Singular<span class="status">Interactive Lesson</span></a>
+        <a href="it-essere-2.html" class="lesson-btn">ESSERE: Plural<span class="status">Interactive Lesson</span></a>
       </div>
     </div>
   </div>
 
-  <div class="card" id="verbi">
-    <div class="card-title">Verbi regolari (-ARE, -ERE, -IRE)</div>
-    <div style="padding:1.5rem">
-      <p style="font-weight:700;margin-bottom:1rem">Master the 3 groups of regular verbs in the present tense.</p>
-      <a href="it-verbi.html" class="lesson-btn">Open Lesson →</a>
+  <div id="a1-present">
+    <div class="card">
+      <div class="card-title">Present Tenses</div>
+      <div class="lesson-grid">
+        <a href="it-verbi.html" class="lesson-btn">Regular Verbs (-ARE/ERE/IRE)<span class="status">Interactive Lesson</span></a>
+      </div>
     </div>
   </div>
 
-  <div class="card" id="avere">
-    <div class="card-title">Verbo AVERE (To Have)</div>
-    <table class="gtable">
-      <tr><td class="row-label">io</td><td class="content"><span class="key-verb">ho</span></td><td class="content-left">Io <span class="key-verb">ho</span> fame.</td></tr>
-      <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">hai</span></td><td class="content-left">Tu <span class="key-verb">hai</span> un cane?</td></tr>
-      <tr><td class="row-label">lui/lei</td><td class="content"><span class="key-verb">ha</span></td><td class="content-left">Lui <span class="key-verb">ha</span> tempo.</td></tr>
-    </table>
+  <div id="a1-articles">
+    <div class="card">
+      <div class="card-title">Determiners & Articles</div>
+      <div class="lesson-grid">
+        <a href="it-articoli.html" class="lesson-btn">Articoli: Gender & Number<span class="status">Interactive Lesson</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="a1-nouns">
+    <div class="card">
+      <div class="card-title">Noun Phrases</div>
+      <div class="lesson-grid">
+        <a href="it-plurali.html" class="lesson-btn">Singular & Plural Nouns<span class="status">Coming soon</span></a>
+        <a href="#" class="lesson-btn">Countable & Uncountable<span class="status">Coming soon</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="a1-pronouns">
+    <div class="card">
+      <div class="card-title">Pronouns</div>
+      <div class="lesson-grid">
+        <a href="#" class="lesson-btn">Personal Pronouns<span class="status">Coming soon</span></a>
+        <a href="#" class="lesson-btn">Possessive Adjectives<span class="status">Coming soon</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="a2-past">
+    <div class="level-badge">ELEMENTARY (A2)</div>
+    <div class="card">
+      <div class="card-title">Past Tenses</div>
+      <div class="lesson-grid">
+        <a href="#" class="lesson-btn">Passato Prossimo<span class="status">Coming soon</span></a>
+        <a href="#" class="lesson-btn">Imperfetto<span class="status">Coming soon</span></a>
+      </div>
+    </div>
   </div>
 </main>
 </div>

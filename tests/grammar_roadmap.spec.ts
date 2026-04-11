@@ -17,14 +17,14 @@ test.describe('Grammar Roadmap Navigation', () => {
 
         await page.locator('#open-grammar-btn').click();
         await expect(page).toHaveURL(/grammar\/it.html/);
-        await expect(page.getByText('Grammatica Italiana')).toBeVisible();
+        await expect(page.getByText('Programma di Grammatica')).toBeVisible();
     });
 
     test('Navigating to specific lesson', async ({ page }) => {
         await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
         await page.goto('http://localhost:8080/grammar/it.html');
 
-        await page.getByRole('link', { name: 'Open Lesson 2 →' }).click();
+        await page.getByRole('link', { name: 'ESSERE: Plural' }).click();
         await expect(page).toHaveURL(/it-essere-2.html/);
         await expect(page.getByText('ESSERE al completo')).toBeVisible();
     });
