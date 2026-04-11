@@ -54,7 +54,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "📑",
         "form": "adjective",
-        "opposite": "imaginary",
+        "opposite": "potential",
         "definitions": [
             {
                 "text": "Existing in fact or reality.",
@@ -843,7 +843,7 @@
         "theme": "condition_state_A2",
         "emoji": "📅",
         "form": "adjective",
-        "opposite": "rare",
+        "opposite": "annual",
         "definitions": [
             {
                 "text": "Happening every day.",
@@ -1072,7 +1072,7 @@
         "theme": "environmental_protection_A2",
         "emoji": "🌳",
         "form": "adjective",
-        "opposite": "industrial",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Relating to the environment.",
@@ -1681,7 +1681,7 @@
         "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "adjective",
-        "opposite": "agricultural",
+        "opposite": null,
         "definitions": [
             {
                 "text": "Relating to industry.",
@@ -1848,7 +1848,7 @@
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
         "form": "adjective",
-        "opposite": "national",
+        "opposite": "global",
         "definitions": [
             {
                 "text": "Relating to a particular area, city, or town.",
@@ -1991,7 +1991,7 @@
         "theme": "condition_state_A2",
         "emoji": "🧺",
         "form": "adjective",
-        "opposite": "neat",
+        "opposite": "tidy",
         "definitions": [
             {
                 "text": "Untidy or dirty.",
@@ -2379,7 +2379,7 @@
         "theme": "health_body_A2",
         "emoji": "💪",
         "form": "adjective",
-        "opposite": "mental",
+        "opposite": "spiritual",
         "definitions": [
             {
                 "text": "Relating to the body rather than the mind.",
@@ -2497,7 +2497,7 @@
         "theme": "condition_state_A2",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "impractical",
+        "opposite": "academic",
         "definitions": [
             {
                 "text": "Useful in real situations; sensible.",
@@ -2544,7 +2544,7 @@
         "theme": "condition_state_A2",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "public",
+        "opposite": "commercial",
         "definitions": [
             {
                 "text": "Only for one person or group and not for everyone.",
@@ -2615,7 +2615,7 @@
         "theme": "condition_state_A2",
         "emoji": "🏢",
         "form": "adjective",
-        "opposite": "private",
+        "opposite": "personal",
         "definitions": [
             {
                 "text": "Relating to or available to everyone.",
@@ -2663,7 +2663,7 @@
         "theme": "quantity_degree_A2",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "common",
+        "opposite": "frequent",
         "definitions": [
             {
                 "text": "Not common; very unusual.",
@@ -3534,7 +3534,7 @@
         "theme": "condition_state_A2",
         "emoji": "🌀",
         "form": "adjective",
-        "opposite": "usual",
+        "opposite": "typical",
         "definitions": [
             {
                 "text": "Different from what is usual or expected.",
@@ -4085,7 +4085,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "primary",
+        "opposite": "main",
         "transcription": "ˈsɛkəndri"
     },
     {
@@ -4240,7 +4240,7 @@
         "theme": "weather_climate_A2",
         "emoji": "🌤️",
         "form": "adjective",
-        "opposite": "extreme",
+        "opposite": "severe",
         "definitions": [
             {
                 "text": "Not severe or extreme, especially when referring to the weather.",

@@ -71,7 +71,7 @@
         "v2": "felt",
         "v3": "felt",
         "group": "irregular",
-        "opposite": "act"
+        "opposite": "think"
     },
     {
         "word": "give",
@@ -252,7 +252,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "open a door / open an account / open a shop / open at nine",
-        "opposite": "closed",
+        "opposite": "close",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -302,7 +302,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "start work / start a meeting / start a new job",
-        "opposite": "stop",
+        "opposite": "finish",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -329,7 +329,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "finish work / finish a project / finish early / finish late",
-        "opposite": "end",
+        "opposite": "start",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -479,7 +479,7 @@
         "v2": "kept",
         "v3": "kept",
         "group": "irregular",
-        "opposite": "give away",
+        "opposite": "share",
         "transcription": "kip",
         "synonyms": [
             "retain"
@@ -748,7 +748,7 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "opposite": "hang up",
+        "opposite": "text",
         "transcription": "kɔl",
         "synonyms": [
             "phone"
@@ -831,7 +831,7 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "opposite": "say",
+        "opposite": "talk",
         "transcription": "ˈlɪsən",
         "synonyms": [
             "hear"
@@ -954,7 +954,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
-        "opposite": "run",
+        "opposite": "skip",
         "oppositeEmoji": "🏃",
         "form": "verb",
         "definitions": [
@@ -1167,7 +1167,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
-        "opposite": "drink",
+        "opposite": "cook",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -1223,7 +1223,7 @@
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
-        "opposite": "wake up",
+        "opposite": "wake",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1412,7 +1412,7 @@
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "spend money / spend on food / spend on rent / spend time",
-        "opposite": "save",
+        "opposite": "earn",
         "oppositeEmoji": "💰",
         "form": "verb",
         "definitions": [
@@ -1466,7 +1466,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "work from home / work full-time / work hard / work late",
-        "opposite": "rest",
+        "opposite": "relax",
         "oppositeEmoji": "🛋️",
         "form": "verb",
         "definitions": [
@@ -2025,7 +2025,7 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "opposite": "work",
+        "opposite": "study",
         "transcription": "pleɪ"
     },
     {
@@ -2168,7 +2168,7 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "opposite": "stay",
+        "opposite": "repeat",
         "transcription": "ʧeɪnʤ"
     },
     {
@@ -2348,7 +2348,7 @@
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
-        "opposite": "leave",
+        "opposite": "travel",
         "oppositeEmoji": "🚪",
         "form": "verb",
         "definitions": [
@@ -2373,7 +2373,7 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "fall down / fall off / fall in love / fall asleep",
-        "opposite": "rise",
+        "opposite": "jump",
         "oppositeEmoji": "🌅",
         "form": "verb",
         "definitions": [
@@ -2697,7 +2697,7 @@
         "synonyms": [
             "start crying"
         ],
-        "opposite": "smile",
+        "opposite": "laugh",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
@@ -3489,7 +3489,7 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "opposite": "work",
+        "opposite": "worry",
         "transcription": "rɪˈlæks"
     },
     {
@@ -3582,7 +3582,7 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "opposite": "remain",
+        "opposite": "be",
         "transcription": "bɪˈkəm"
     },
     {
@@ -3641,7 +3641,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "form": "verb",
-        "opposite": "begin",
+        "opposite": "start",
         "oppositeEmoji": "▶️",
         "subtext": "end a class / at the end",
         "synonyms": [
@@ -4471,7 +4471,7 @@
         "theme": "toys_games_A1",
         "emoji": "🙈",
         "subtext": "hide and seek / hide from someone / hide something",
-        "opposite": "show",
+        "opposite": "seek",
         "oppositeEmoji": "📽️",
         "form": "verb",
         "definitions": [
@@ -4565,7 +4565,7 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "opposite": "call",
+        "opposite": "phone",
         "transcription": "tɛkst"
     },
     {
@@ -4889,7 +4889,7 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "opposite": "be natural",
+        "opposite": "wait",
         "transcription": "ækt"
     },
     {
@@ -4981,7 +4981,7 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "opposite": "leave",
+        "opposite": "cut",
         "transcription": "ʤɔɪn"
     },
     {

@@ -37,7 +37,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "tall",
+        "opposite": "long",
         "oppositeEmoji": "🗼",
         "emoji": "📏",
         "definitions": [
@@ -125,7 +125,7 @@
         "theme": "weather_A1",
         "emoji": "☀️",
         "form": "adjective",
-        "opposite": "rainy",
+        "opposite": "cloudy",
         "oppositeEmoji": "🌧️",
         "definitions": [
             {
@@ -392,7 +392,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "large",
+        "opposite": "big",
         "oppositeEmoji": "🐘",
         "subtext": "a small flat / a small salary / too small",
         "synonyms": [
@@ -1078,7 +1078,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "closed",
+        "opposite": "close",
         "oppositeEmoji": "🔒",
         "subtext": "now open, open for business / open door / open to ideas / wide open",
         "definitions": [
@@ -1146,7 +1146,7 @@
         "word": "little",
         "level": "starter",
         "form": "adjective",
-        "opposite": "small",
+        "opposite": "big",
         "oppositeEmoji": "🐘",
         "subtext": "a little bit / a little money / too little",
         "definitions": [
@@ -1380,7 +1380,7 @@
         "word": "hard",
         "level": "starter",
         "form": "adjective",
-        "opposite": "soft",
+        "opposite": "easy",
         "oppositeEmoji": "☁️",
         "subtext": "hard work / a hard decision / too hard",
         "synonyms": [
@@ -1560,7 +1560,7 @@
         "word": "great",
         "level": "starter",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "bad",
         "oppositeEmoji": "😫",
         "subtext": "a great idea / a great opportunity / great value",
         "synonyms": [
@@ -1635,7 +1635,7 @@
         "word": "terrible",
         "level": "starter",
         "form": "adjective",
-        "opposite": "bad",
+        "opposite": "great",
         "oppositeEmoji": "🌟",
         "subtext": "terrible weather / a terrible mistake / terrible news",
         "synonyms": [
@@ -1710,7 +1710,7 @@
         "word": "fantastic",
         "level": "starter",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "terrible",
         "oppositeEmoji": "😫",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
         "synonyms": [
@@ -1812,7 +1812,7 @@
         "word": "bored",
         "level": "starter",
         "form": "adjective",
-        "opposite": "interesting",
+        "opposite": "interested",
         "oppositeEmoji": "🧐",
         "subtext": "feel bored / bored with / easily bored",
         "synonyms": [
@@ -2542,7 +2542,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": "interesting",
+        "opposite": "exciting",
         "oppositeEmoji": "🤩",
         "definitions": [
             {
@@ -3267,7 +3267,7 @@
         "level": "starter",
         "theme": "distance_A1",
         "form": "adjective",
-        "opposite": "close",
+        "opposite": "near",
         "oppositeEmoji": "📍",
         "subtext": "far away / far from",
         "synonyms": [
@@ -3464,7 +3464,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🍬",
         "form": "adjective",
-        "opposite": "bitter",
+        "opposite": "sour",
         "oppositeEmoji": "🍋",
         "subtext": "sweet fruit / sweet tooth / very sweet",
         "synonyms": [
@@ -3955,7 +3955,7 @@
         "theme": "describing_things_A1",
         "emoji": "🌑",
         "form": "adjective",
-        "opposite": "bright",
+        "opposite": "light",
         "oppositeEmoji": "💡",
         "subtext": "dark blue / a dark night",
         "synonyms": [
@@ -4270,7 +4270,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "stormy",
+        "opposite": "angry",
         "oppositeEmoji": "😟",
         "subtext": "stay calm / a calm sea",
         "synonyms": [
