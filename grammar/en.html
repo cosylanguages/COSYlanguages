@@ -2,77 +2,70 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>English Grammar Roadmap — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 <style>
-:root {
-  --sage:        #6b8f71;
-  --sage-dark:   #4a6b50;
-  --sage-deep:   #2e4a33;
-  --sage-light:  #8aab8f;
-  --cream:       #fdf8f0;
-  --honey:       #e8a838;
-  --black:       #2a2a2a;
-  --white:       #FFFFFF;
-  --yellow:      #FFE135;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --sage: #6b8f71; --sage-dark: #4a6b50; --honey: #e8a838; --black: #2a2a2a; --white: #FFFFFF; --yellow: #FFE135; }
 body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
-
-nav#main-nav {
-  position: sticky; top: 0; z-index: 1000;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-}
+nav#main-nav { height: 66px; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; background: #fff; }
 .nav-logo img { height: 44px; }
-
 .page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
-.page-header h1 { font-family: 'Lora', serif; font-size: 1.3rem; }
-
 .layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 126px); }
 .sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); }
 .sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
 .sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
-.sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
-
 .main { padding: 2rem; background: var(--sage); }
+.section-title { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; border-bottom: 3px solid var(--black); padding-bottom: .5rem; margin-bottom: 1.2rem; }
 .card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
 .card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; font-family: 'Lora', serif; font-size: 1.05rem; }
-
 .lesson-btn { display: inline-block; background: var(--black); color: var(--yellow); padding: .5rem 1.2rem; border-radius: 4px; text-decoration: none; font-weight: 800; font-size: .85rem; margin-top: 1rem; }
 </style>
 </head>
 <body>
-<nav id="main-nav">
-  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
-</nav>
+<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
 <div class="page-header"><h1>English Grammar Roadmap 🇬🇧</h1></div>
 <div class="layout">
 <nav class="sidebar">
-  <div class="sidebar-label">A1 — A2</div>
-  <a class="sidebar-item active" href="#tenses">Verb Tenses</a>
-  <a class="sidebar-item" href="#articles">Articles</a>
+  <div class="sidebar-label">Starter (A1)</div>
+  <a class="sidebar-item" href="en-be.html">Verb TO BE</a>
+  <a class="sidebar-item" href="en-have.html">Verb TO HAVE</a>
+  <div class="sidebar-label">Elementary (A2)</div>
+  <a class="sidebar-item" href="en-past-simple.html">Past Simple</a>
 </nav>
 <main class="main">
-  <div class="card" id="tenses">
-    <div class="card-title">Verb Tenses</div>
+  <div class="section-title">English Grammar Roadmap</div>
+  <div class="card">
+    <div class="card-title">Essential Verbs</div>
+    <div style="padding:1.5rem">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
+        <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
+          <h4>Verb TO BE</h4>
+          <p style="font-size:.85rem">am, are, is.</p>
+          <a href="en-be.html" class="lesson-btn">Open Lesson →</a>
+        </div>
+        <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
+          <h4>Verb TO HAVE</h4>
+          <p style="font-size:.85rem">have, has.</p>
+          <a href="en-have.html" class="lesson-btn">Open Lesson →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-title">Tenses</div>
     <div style="padding:1.5rem">
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
         <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
           <h4>Present Simple</h4>
-          <p style="font-size:.85rem">Habits and routines.</p>
-          <a href="en-present-simple.html" class="lesson-btn">Open →</a>
+          <p style="font-size:.85rem">I work, she works.</p>
+          <a href="en-present-simple.html" class="lesson-btn">Open Lesson →</a>
         </div>
         <div style="border:2px solid var(--black);padding:1rem;border-radius:4px;background:rgba(255,255,255,0.1)">
           <h4>Past Simple</h4>
-          <p style="font-size:.85rem">Completed actions.</p>
-          <a href="en-past-simple.html" class="lesson-btn">Open →</a>
+          <p style="font-size:.85rem">I worked, they went.</p>
+          <a href="en-past-simple.html" class="lesson-btn">Open Lesson →</a>
         </div>
       </div>
     </div>
