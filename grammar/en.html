@@ -4,143 +4,138 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>English Grammar Roadmap — COSYlanguages</title>
+<title>English Grammar Reference — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="grammar-header"><h1>English Grammar Roadmap 🇬🇧</h1></div>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>English Grammar 🇬🇧</h1>
+  </div>
+  <div class="lang-tabs">
+    <a href="en.html" class="lang-tab active">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab">🇬🇷 EL</a>
+    <a href="es.html" class="lang-tab">🇪🇸 ES</a>
+    <a href="de.html" class="lang-tab">🇩🇪 DE</a>
+    <a href="pt.html" class="lang-tab">🇵🇹 PT</a>
+  </div>
+</div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Categories</div>
-  <a class="gs-item active" href="#verb_to_be">Verb 'To Be'</a>
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#verb_to_be">Verb to be</a>
   <a class="gs-item" href="#present_tenses">Present Tenses</a>
+  <a class="gs-item" href="#determiners_articles">Articles & Determiners</a>
+  <a class="gs-item" href="#noun_phrases_nouns">Nouns & Plurals</a>
+  <a class="gs-item" href="#pronouns">Pronouns</a>
+
+  <div class="gs-label">Elementary (A2)</div>
   <a class="gs-item" href="#past_tenses">Past Tenses</a>
   <a class="gs-item" href="#future_forms">Future Forms</a>
   <a class="gs-item" href="#modal_verbs">Modal Verbs</a>
-  <a class="gs-item" href="#determiners_articles">Articles & Determiners</a>
-  <a class="gs-item" href="#noun_phrases_nouns">Nouns</a>
-  <a class="gs-item" href="#adjectives">Adjectives</a>
-  <a class="gs-item" href="#pronouns">Pronouns</a>
-  <a class="gs-item" href="#questions">Questions</a>
 </nav>
+
 <main class="grammar-main">
-  <div class="grammar-section-title">English Curriculum Overview</div>
+  <div class="grammar-section-title">English — Grammar Reference & Roadmap</div>
 
-  <!-- Verb to be -->
-  <div id="verb_to_be">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2</div>
+  <!-- VERB TO BE -->
+  <div class="level-section" id="verb_to_be">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">The Verb 'To Be'</div>
-      <div class="g-lesson-grid">
-        <a href="en-be.html" class="g-lesson-btn">To Be: Present Simple<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">To Be: Past Simple<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">To Be: Present Perfect<span class="g-status">Elementary (A2)</span></a>
+      <div class="g-card-title">Verb TO BE — Present Simple</div>
+      <table class="gtable">
+        <tr class="section-row"><td colspan="3">✅ Affirmative</td></tr>
+        <tr>
+          <td class="row-label">I</td>
+          <td class="content"><span class="key-verb">am</span></td>
+          <td class="content">I <span class="key-verb">am</span> a teacher.</td>
+        </tr>
+        <tr>
+          <td class="row-label">You / We / They</td>
+          <td class="content"><span class="key-verb">are</span></td>
+          <td class="content">We <span class="key-verb">are</span> ready.</td>
+        </tr>
+        <tr>
+          <td class="row-label">He / She / It</td>
+          <td class="content"><span class="key-verb">is</span></td>
+          <td class="content">She <span class="key-verb">is</span> French.</td>
+        </tr>
+        <tr class="section-row"><td colspan="3">❌ Negative</td></tr>
+        <tr>
+          <td class="row-label">I</td>
+          <td class="content"><span class="key-neg">am not</span></td>
+          <td class="content">I <span class="key-neg">am not</span> tired.</td>
+        </tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="en-be.html" class="g-lesson-btn">Open Interactive Lesson: To Be 🚀</a>
       </div>
     </div>
   </div>
 
-  <!-- Present Tenses -->
-  <div id="present_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2, B1</div>
+  <!-- PRESENT TENSES -->
+  <div class="level-section" id="present_tenses">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Present Tenses</div>
-      <div class="g-lesson-grid">
-        <a href="en-present-simple.html" class="g-lesson-btn">Present Simple<span class="g-status">Starter (A1)</span></a>
-        <a href="en-have.html" class="g-lesson-btn">To Have: Present Simple<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Present Continuous<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Present Perfect Simple<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Present Perfect Continuous<span class="g-status">Intermediate (B1)</span></a>
+      <div class="g-card-title">Present Simple</div>
+      <table class="gtable">
+        <tr>
+          <td class="row-label">I / You / We / They</td>
+          <td class="content"><span class="key-verb">work</span></td>
+          <td class="content">I <span class="key-verb">work</span> here.</td>
+        </tr>
+        <tr>
+          <td class="row-label">He / She / It</td>
+          <td class="content"><span class="key-verb">works</span></td>
+          <td class="content">He <span class="key-verb">works</span> in London.</td>
+        </tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="en-present-simple.html" class="g-lesson-btn">Lesson: Present Simple</a>
+        <a href="en-have.html" class="g-lesson-btn">Lesson: To Have</a>
       </div>
     </div>
   </div>
 
-  <!-- Past Tenses -->
-  <div id="past_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2, B1, B2</div>
+  <!-- ARTICLES -->
+  <div class="level-section" id="determiners_articles">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Past Tenses</div>
+      <div class="g-card-title">Articles — A, AN, THE</div>
       <div class="g-lesson-grid">
-        <a href="en-past-simple.html" class="g-lesson-btn">Past Simple<span class="g-status">Starter (A1) / Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Past Continuous<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Past Perfect Simple<span class="g-status">Intermediate (B1)</span></a>
-        <a href="#" class="g-lesson-btn">Used to / Would<span class="g-status">Intermediate (B1)</span></a>
-        <a href="#" class="g-lesson-btn">Past Perfect Continuous<span class="g-status">Upper-Int (B2)</span></a>
-        <a href="#" class="g-lesson-btn">Narrative Tenses<span class="g-status">Upper-Int (B2)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Future Forms -->
-  <div id="future_forms">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2, B1, B2, C1</div>
-    <div class="g-card">
-      <div class="g-card-title">Future Forms</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Future Simple (Will)<span class="g-status">Starter (A1)</span></a>
-        <a href="en-future-going-to.html" class="g-lesson-btn">Future: 'Going to'<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Will vs Going to<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Future Continuous<span class="g-status">Intermediate (B1)</span></a>
-        <a href="#" class="g-lesson-btn">Future Perfect<span class="g-status">Upper-Int (B2)</span></a>
-        <a href="#" class="g-lesson-btn">Future in the Past<span class="g-status">Advanced (C1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Determiners & Articles -->
-  <div id="determiners_articles">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1</div>
-    <div class="g-card">
-      <div class="g-card-title">Determiners & Articles</div>
-      <div class="g-lesson-grid">
-        <a href="en-articles.html" class="g-lesson-btn">Articles: A, AN, THE<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Determiners: This, That, These, Those<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Verbs -->
-  <div id="modal_verbs">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2, B1, B2, C1</div>
-    <div class="g-card">
-      <div class="g-card-title">Modal Verbs</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Ability: Can/Can't<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Obligation: Should, Must, Have to<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Possibility: Might, May<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Deduction (Present)<span class="g-status">Intermediate (B1)</span></a>
-        <a href="#" class="g-lesson-btn">Deduction (Past)<span class="g-status">Upper-Int (B2)</span></a>
-        <a href="#" class="g-lesson-btn">Advanced Modals<span class="g-status">Advanced (C1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Pronouns -->
-  <div id="pronouns">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, B1</div>
-    <div class="g-card">
-      <div class="g-card-title">Pronouns</div>
-      <div class="g-lesson-grid">
-        <a href="en-pronouns.html" class="g-lesson-btn">Personal & Possessive<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Nouns -->
-  <div id="noun_phrases_nouns">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2</div>
-    <div class="g-card">
-      <div class="g-card-title">Noun Phrases & Nouns</div>
-      <div class="g-lesson-grid">
-        <a href="en-plurals.html" class="g-lesson-btn">Singular & Plural Nouns<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Countable & Uncountable<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Compound Nouns<span class="g-status">Elementary (A2)</span></a>
+        <a href="en-articles.html" class="g-lesson-btn">Interactive Lesson: Articles</a>
       </div>
     </div>
   </div>
 
 </main>
 </div>
+
+<script>
+// Sidebar active state on scroll
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+
+sections.forEach(s => observer.observe(s));
+</script>
+
 </body>
 </html>

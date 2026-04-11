@@ -6,31 +6,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Present Simple — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav">
-  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
-  <ul class="nav-links"><li><a href="en.html">🇬🇧 English Roadmap</a></li></ul>
-</nav>
-<div class="grammar-header">
-  <h1>🇬🇧 Present Simple</h1>
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">English Roadmap → Present Simple</div>
+    <h1>Present Simple</h1>
+  </div>
+  <a href="en.html" class="lang-tab active">Back to Roadmap</a>
 </div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <a class="gs-item active" href="#rules">The "S" Rule</a>
+  <a class="gs-item active" href="#rules">Rules</a>
   <a class="gs-item" href="#quiz">Interactive Quiz</a>
-  <div class="gs-label">Next steps</div>
-  <a class="gs-item" href="en-past-simple.html">→ Past Simple</a>
 </nav>
 <main class="grammar-main">
   <div class="grammar-section-title">English — Present Simple</div>
+
   <div class="g-card" id="rules">
-    <div class="g-card-title">The Third Person</div>
-    <table class="g-table">
-      <tr class="section-row"><td colspan="2">Affirmative</td></tr>
-      <tr><td class="row-label">I/You/We/They</td><td>work</td></tr>
-      <tr><td class="row-label">He/She/It</td><td>work<span class="key-verb">s</span></td></tr>
+    <div class="g-card-title">Present Simple — Regular Verbs</div>
+    <table class="gtable">
+      <tr class="section-row"><td colspan="3">📌 Use: habits, routines, general truths</td></tr>
+      <tr>
+        <td class="row-label">I / You / We / They</td>
+        <td class="content"><span class="key-verb">work</span></td>
+        <td class="content">I <span class="key-verb">work</span> every day.</td>
+      </tr>
+      <tr>
+        <td class="row-label">He / She / It</td>
+        <td class="content"><span class="key-verb">works</span> &nbsp;<span style="font-size:.72rem;opacity:.7">(+s)</span></td>
+        <td class="content">She <span class="key-verb">works</span> in Paris.</td>
+      </tr>
+      <tr class="section-row"><td colspan="3">❌ Negative — use <span class="key-neg">don't / doesn't</span></td></tr>
+      <tr>
+        <td class="row-label">I / You / We / They</td>
+        <td class="content"><span class="key-neg">don't</span> work</td>
+        <td class="content">I <span class="key-neg">don't</span> work on Sundays.</td>
+      </tr>
+      <tr>
+        <td class="row-label">He / She / It</td>
+        <td class="content"><span class="key-neg">doesn't</span> work</td>
+        <td class="content">He <span class="key-neg">doesn't</span> like coffee.</td>
+      </tr>
+      <tr class="section-row"><td colspan="3">❓ Question — use <span class="key-verb">Do / Does</span></td></tr>
+      <tr>
+        <td class="row-label">I / You / We / They</td>
+        <td class="content"><span class="key-verb">Do</span> you …?</td>
+        <td class="content"><span class="key-verb">Do</span> you speak French?</td>
+      </tr>
+      <tr>
+        <td class="row-label">He / She / It</td>
+        <td class="content"><span class="key-verb">Does</span> he / she …?</td>
+        <td class="content"><span class="key-verb">Does</span> she live here?</td>
+      </tr>
+      <tr class="note-row">
+        <td colspan="3">⚠️ With <span class="key-neg">doesn't / does</span>, the verb has <strong>no -s</strong>: ✅ She <span class="key-verb">does</span> like it. &nbsp; ❌ <del>She does likes it.</del></td>
+      </tr>
     </table>
   </div>
 
@@ -53,8 +87,8 @@
 const answers={q1:'works'};
 function answer(btn,qid,chosen){
   const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
-  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }
-  else { btn.classList.add('wrong'); fb.textContent='Not quite.'; }
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Not quite. ❌'; }
 }
 </script>
 </body>

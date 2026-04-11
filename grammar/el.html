@@ -4,45 +4,67 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ελληνική Γραμματική — COSYlanguages</title>
+<title>Greek Grammar Reference — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="grammar-header"><h1>Greek Grammar Roadmap 🇬🇷</h1></div>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Ελληνική Γραμματική 🇬🇷</h1>
+  </div>
+  <div class="lang-tabs">
+    <a href="en.html" class="lang-tab">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab active">🇬🇷 EL</a>
+    <a href="es.html" class="lang-tab">🇪🇸 ES</a>
+    <a href="de.html" class="lang-tab">🇩🇪 DE</a>
+    <a href="pt.html" class="lang-tab">🇵🇹 PT</a>
+  </div>
+</div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Κατηγορίες</div>
-  <a class="gs-item active" href="#verb_to_be">Είμαι & Έχω</a>
-  <a class="gs-item" href="#present_tenses">Ενεστώτας</a>
-  <a class="gs-item" href="#alphabet">Αλφάβητο</a>
-  <a class="gs-item" href="#articles">Άρθρα</a>
+  <div class="gs-label">Αρχάριοι (A1)</div>
+  <a class="gs-item active" href="#be_verb">Ρήμα «είμαι»</a>
 </nav>
+
 <main class="grammar-main">
-  <div class="grammar-section-title">Ελληνική Γραμματική</div>
+  <div class="grammar-section-title">Ελληνικά — Γραμματική αναφορά</div>
 
-  <div id="alphabet">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVEL: A1</div>
+  <div class="level-section" id="be_verb">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Αλφάβητο</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Ελληνικό Αλφάβητο<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <div id="articles">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVEL: A1</div>
-    <div class="g-card">
-      <div class="g-card-title">Άρθρα</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Οριστικό Άρθρο (ο, η, το)<span class="g-status">Starter (A1)</span></a>
-      </div>
+      <div class="card-title">Ρήμα ΕΙΜΑΙ — Ενεστώτας</div>
+      <table class="gtable">
+        <tr><td class="row-label">εγώ</td><td class="content"><span class="key-verb">είμαι</span></td><td class="content">Εγώ <span class="key-verb">είμαι</span> δάσκαλος.</td></tr>
+        <tr><td class="row-label">εσύ</td><td class="content"><span class="key-verb">είσαι</span></td><td class="content">Εσύ <span class="key-verb">είσαι</span> εδώ;</td></tr>
+      </table>
     </div>
   </div>
 
 </main>
 </div>
+
+<script>
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
 </body>
 </html>

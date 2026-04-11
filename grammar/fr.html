@@ -4,102 +4,76 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>French Grammar Roadmap — COSYlanguages</title>
+<title>French Grammar Reference — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="grammar-header"><h1>French Grammar Roadmap 🇫🇷</h1></div>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Grammaire Française 🇫🇷</h1>
+  </div>
+  <div class="lang-tabs">
+    <a href="en.html" class="lang-tab">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab active">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab">🇬🇷 EL</a>
+    <a href="es.html" class="lang-tab">🇪🇸 ES</a>
+    <a href="de.html" class="lang-tab">🇩🇪 DE</a>
+    <a href="pt.html" class="lang-tab">🇵🇹 PT</a>
+  </div>
+</div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Catégories</div>
-  <a class="gs-item active" href="#verb_to_be">Être & Avoir</a>
-  <a class="gs-item" href="#present_tenses">Présent</a>
-  <a class="gs-item" href="#past_tenses">Passé</a>
-  <a class="gs-item" href="#future_forms">Futur</a>
-  <a class="gs-item" href="#determiners_articles">Articles</a>
-  <a class="gs-item" href="#negation">Négation</a>
-  <a class="gs-item" href="#modal_verbs">Verbes Modaux</a>
-  <a class="gs-item" href="#pronouns">Pronoms</a>
+  <div class="gs-label">Débutant (A1)</div>
+  <a class="gs-item active" href="#etre_avoir">Être & Avoir</a>
+  <a class="gs-item" href="#present_tenses">Le Présent (-er)</a>
+  <a class="gs-item" href="#articles">Les Articles</a>
+  <a class="gs-item" href="#negation">La Négation</a>
 </nav>
+
 <main class="grammar-main">
-  <div class="grammar-section-title">Parcours de Grammaire</div>
+  <div class="grammar-section-title">Français — Grammaire de référence</div>
 
-  <!-- Verb to be & have -->
-  <div id="verb_to_be">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVEAUX : A1</div>
+  <!-- ÊTRE & AVOIR -->
+  <div class="level-section" id="etre_avoir">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Être & Avoir</div>
-      <div class="g-lesson-grid">
-        <a href="fr-etre.html" class="g-lesson-btn">Le verbe ÊTRE<span class="g-status">Starter (A1)</span></a>
-        <a href="fr-avoir.html" class="g-lesson-btn">Le verbe AVOIR<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Present Tenses -->
-  <div id="present_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVEAUX : A1, A2</div>
-    <div class="g-card">
-      <div class="g-card-title">Présent</div>
-      <div class="g-lesson-grid">
-        <a href="fr-verbes-er.html" class="g-lesson-btn">Verbes en -ER (Réguliers)<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Verbes en -IR / -RE<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Présent Continu (être en train de)<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Past Tenses -->
-  <div id="past_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVEAUX : A2, B1</div>
-    <div class="g-card">
-      <div class="g-card-title">Passé</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Passé Composé<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Imparfait<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Plus-que-parfait<span class="g-status">Intermediate (B1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Determiners & Articles -->
-  <div id="determiners_articles">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVEAUX : A1</div>
-    <div class="g-card">
-      <div class="g-card-title">Articles</div>
-      <div class="g-lesson-grid">
-        <a href="fr-articles.html" class="g-lesson-btn">Les Articles (Définis / Indéfinis)<span class="g-status">Starter (A1)</span></a>
-        <a href="fr-articles-partitifs.html" class="g-lesson-btn">Les Articles Partitifs (du, de la)<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Pronouns -->
-  <div id="pronouns">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVEAU : A1</div>
-    <div class="g-card">
-      <div class="g-card-title">Pronoms</div>
-      <div class="g-lesson-grid">
-        <a href="fr-pronoms.html" class="g-lesson-btn">Les Pronoms Sujets<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Negation -->
-  <div id="negation">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVEAUX : A1, A2</div>
-    <div class="g-card">
-      <div class="g-card-title">Négation</div>
-      <div class="g-lesson-grid">
-        <a href="fr-negation.html" class="g-lesson-btn">La Négation (ne...pas)<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Négations complexes (ne...plus, jamais)<span class="g-status">Elementary (A2)</span></a>
+      <div class="card-title">Le verbe ÊTRE — Présent</div>
+      <table class="gtable">
+        <tr><td class="row-label">je</td><td class="content"><span class="key-verb">suis</span></td><td class="content">Je <span class="key-verb">suis</span> professeur.</td></tr>
+        <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">es</span></td><td class="content">Tu <span class="key-verb">es</span> français ?</td></tr>
+        <tr><td class="row-label">il / elle / on</td><td class="content"><span class="key-verb">est</span></td><td class="content">Elle <span class="key-verb">est</span> médecin.</td></tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="fr-etre.html" class="g-lesson-btn">Leçon: Verbe Être</a>
+        <a href="fr-avoir.html" class="g-lesson-btn">Leçon: Verbe Avoir</a>
       </div>
     </div>
   </div>
 
 </main>
 </div>
+
+<script>
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
 </body>
 </html>

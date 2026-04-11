@@ -4,77 +4,75 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mapa de Gramática — COSYlanguages</title>
+<title>Spanish Grammar Reference — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="grammar-header"><h1>Mapa de Gramática 🇪🇸</h1></div>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Gramática Española 🇪🇸</h1>
+  </div>
+  <div class="lang-tabs">
+    <a href="en.html" class="lang-tab">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab">🇬🇷 EL</a>
+    <a href="es.html" class="lang-tab active">🇪🇸 ES</a>
+    <a href="de.html" class="lang-tab">🇩🇪 DE</a>
+    <a href="pt.html" class="lang-tab">🇵🇹 PT</a>
+  </div>
+</div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Categorías</div>
-  <a class="gs-item active" href="#verb_to_be">Ser & Estar</a>
-  <a class="gs-item" href="#present_tenses">Presente</a>
-  <a class="gs-item" href="#past_tenses">Pasado</a>
-  <a class="gs-item" href="#future_forms">Futuro</a>
-  <a class="gs-item" href="#determiners_articles">Artículos</a>
-  <a class="gs-item" href="#pronouns">Pronombres</a>
-  <a class="gs-item" href="#adjectives">Adjetivos</a>
+  <div class="gs-label">Principiante (A1)</div>
+  <a class="gs-item active" href="#ser_estar">Ser & Estar</a>
+  <a class="gs-item" href="#present_tenses">Presente Regular</a>
+  <a class="gs-item" href="#articles">Artículos</a>
 </nav>
+
 <main class="grammar-main">
-  <div class="grammar-section-title">Mapa de Gramática</div>
+  <div class="grammar-section-title">Español — Gramática de referencia</div>
 
-  <!-- Verb to be -->
-  <div id="verb_to_be">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A1</div>
+  <!-- SER & ESTAR -->
+  <div class="level-section" id="ser_estar">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Ser & Estar</div>
-      <div class="g-lesson-grid">
-        <a href="es-ser.html" class="g-lesson-btn">Verbo SER<span class="g-status">Starter (A1)</span></a>
-        <a href="es-estar.html" class="g-lesson-btn">Verbo ESTAR<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Determiners & Articles -->
-  <div id="determiners_articles">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A1</div>
-    <div class="g-card">
-      <div class="g-card-title">Artículos</div>
-      <div class="g-lesson-grid">
-        <a href="es-articulos.html" class="g-lesson-btn">Artículos & Género<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Present Tenses -->
-  <div id="present_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A1, A2</div>
-    <div class="g-card">
-      <div class="g-card-title">Presente</div>
-      <div class="g-lesson-grid">
-        <a href="es-presente-reg.html" class="g-lesson-btn">Verbos Regulares (-AR/ER/IR)<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Presente Continuo<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Pretérito Perfecto<span class="g-status">Elementary (A2)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Past Tenses -->
-  <div id="past_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A2, B1</div>
-    <div class="g-card">
-      <div class="g-card-title">Pasado</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Pretérito Indefinido<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Pretérito Imperfecto<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Pluscuamperfecto<span class="g-status">Intermediate (B1)</span></a>
+      <div class="card-title">Verbo SER — Presente</div>
+      <table class="gtable">
+        <tr><td class="row-label">yo</td><td class="content"><span class="key-verb">soy</span></td><td class="content">Yo <span class="key-verb">soy</span> estudiante.</td></tr>
+        <tr><td class="row-label">tú</td><td class="content"><span class="key-verb">eres</span></td><td class="content">Tú <span class="key-verb">eres</span> mi amigo.</td></tr>
+        <tr><td class="row-label">él / ella / usted</td><td class="content"><span class="key-verb">es</span></td><td class="content">Él <span class="key-verb">es</span> profesor.</td></tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="es-ser.html" class="g-lesson-btn">Lección: Verbo Ser</a>
+        <a href="es-estar.html" class="g-lesson-btn">Lección: Verbo Estar</a>
       </div>
     </div>
   </div>
 
 </main>
 </div>
+
+<script>
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
 </body>
 </html>
