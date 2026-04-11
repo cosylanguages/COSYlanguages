@@ -287,6 +287,7 @@
         "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "breɪv",
+        "emoji": "🦁",
         "definitions": [
             {
                 "text": "Willing to face danger or difficulty.",
@@ -295,7 +296,9 @@
                 ]
             }
         ],
-        "subtext": "very brave / incredibly brave / a brave decision"
+        "subtext": "very brave / incredibly brave / a brave decision",
+        "antonym": "cowardly",
+        "synonyms": ["courageous", "fearless", "daring"]
     },
     {
         "word": "calm",
