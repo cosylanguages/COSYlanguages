@@ -1,78 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Español Grammar Roadmap — COSYlanguages</title>
+<title>Mapa de Gramática — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
-<style>
-:root { --sage: #6b8f71; --sage-dark: #4a6b50; --honey: #e8a838; --black: #2a2a2a; --white: #FFFFFF; }
-body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
-nav#main-nav { position: sticky; top: 0; background: #fff; height: 66px; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.1); }
-.nav-logo img { height: 44px; }
-.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
-.layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 126px); }
-.sidebar { background: var(--sage-dark); padding: 1.5rem 0; border-right: 3px solid var(--black); overflow-y: auto; height: calc(100vh - 66px); position: sticky; top: 66px; }
-.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
-.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; border-left: 3px solid transparent; }
-.sidebar-item.active { border-left-color: var(--honey); background: rgba(0,0,0,.2); color: var(--honey); }
-.main { padding: 2rem; background: var(--sage); }
-.section-title { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; border-bottom: 3px solid var(--black); padding-bottom: .5rem; margin-bottom: 1.5rem; }
-.level-badge { background: var(--black); color: var(--honey); font-size: .75rem; font-weight: 900; padding: .3rem .9rem; border-radius: 999px; margin-bottom: 1rem; display: inline-block; }
-.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black); }
-.card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; font-family: 'Lora', serif; font-size: 1.05rem; }
-.lesson-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 1.5rem; }
-.lesson-btn { display: block; background: rgba(255,255,255,0.1); border: 2px solid var(--black); padding: .8rem; border-radius: 4px; text-decoration: none; color: var(--black); font-weight: 800; font-size: .85rem; transition: background .15s; }
-.lesson-btn:hover { background: rgba(255,255,255,0.2); }
-.lesson-btn .status { display: block; font-size: .65rem; opacity: .6; margin-top: .2rem; }
-@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } }
-</style>
 </head>
-<body>
+<body class="grammar-body">
 <nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="page-header"><h1>Español Grammar Roadmap 🇪🇸</h1></div>
-<div class="layout">
-<nav class="sidebar">
-  <div class="sidebar-label">Starter (A1)</div>
-  <a class="sidebar-item" href="#a1-be">Verb to be</a>
-  <a class="sidebar-item" href="#a1-present">Present Tenses</a>
-  <a class="sidebar-item" href="#a1-articles">Articles</a>
-  <div class="sidebar-label">Elementary (A2)</div>
-  <a class="sidebar-item" href="#a2-past">Past Tenses</a>
+<div class="grammar-header"><h1>Mapa de Gramática 🇪🇸</h1></div>
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <div class="gs-label">Categorías</div>
+  <a class="gs-item active" href="#verb_to_be">Ser & Estar</a>
+  <a class="gs-item" href="#present_tenses">Presente</a>
+  <a class="gs-item" href="#past_tenses">Pasado</a>
+  <a class="gs-item" href="#future_forms">Futuro</a>
+  <a class="gs-item" href="#determiners_articles">Artículos</a>
+  <a class="gs-item" href="#pronouns">Pronombres</a>
+  <a class="gs-item" href="#adjectives">Adjetivos</a>
 </nav>
-<main class="main">
-  <div class="section-title">Mapa de Gramática</div>
+<main class="grammar-main">
+  <div class="grammar-section-title">Mapa de Gramática</div>
 
-  <div id="a1-be">
-    <div class="level-badge">STARTER (A1)</div>
-    <div class="card">
-      <div class="card-title">Verb to be</div>
-      <div class="lesson-grid">
-        <a href="es-ser.html" class="lesson-btn">Verbo SER<span class="status">Interactive Lesson</span></a>
-        <a href="#" class="lesson-btn">Verbo ESTAR<span class="status">Coming soon</span></a>
+  <!-- Verb to be -->
+  <div id="verb_to_be">
+    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A1</div>
+    <div class="g-card">
+      <div class="g-card-title">Ser & Estar</div>
+      <div class="g-lesson-grid">
+        <a href="es-ser.html" class="g-lesson-btn">Verbo SER<span class="g-status">Starter (A1)</span></a>
+        <a href="#" class="g-lesson-btn">Verbo ESTAR<span class="g-status">Starter (A1)</span></a>
       </div>
     </div>
   </div>
 
-  <div id="a1-present">
-    <div class="card">
-      <div class="card-title">Present Tenses</div>
-      <div class="lesson-grid">
-        <a href="#" class="lesson-btn">Regular Verbs (-AR/ER/IR)<span class="status">Coming soon</span></a>
+  <!-- Present Tenses -->
+  <div id="present_tenses">
+    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A1, A2</div>
+    <div class="g-card">
+      <div class="g-card-title">Presente</div>
+      <div class="g-lesson-grid">
+        <a href="#" class="g-lesson-btn">Verbos Regulares (-AR/ER/IR)<span class="g-status">Starter (A1)</span></a>
+        <a href="#" class="g-lesson-btn">Presente Continuo<span class="g-status">Starter (A1)</span></a>
+        <a href="#" class="g-lesson-btn">Pretérito Perfecto<span class="g-status">Elementary (A2)</span></a>
       </div>
     </div>
   </div>
 
-  <div id="a1-articles">
-    <div class="card">
-      <div class="card-title">Articles</div>
-      <div class="lesson-grid">
-        <a href="#" class="lesson-btn">Gender & Number<span class="status">Coming soon</span></a>
+  <!-- Past Tenses -->
+  <div id="past_tenses">
+    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">NIVELES: A2, B1</div>
+    <div class="g-card">
+      <div class="g-card-title">Pasado</div>
+      <div class="g-lesson-grid">
+        <a href="#" class="g-lesson-btn">Pretérito Indefinido<span class="g-status">Elementary (A2)</span></a>
+        <a href="#" class="g-lesson-btn">Pretérito Imperfecto<span class="g-status">Elementary (A2)</span></a>
+        <a href="#" class="g-lesson-btn">Pluscuamperfecto<span class="g-status">Intermediate (B1)</span></a>
       </div>
     </div>
   </div>
+
 </main>
 </div>
 </body>

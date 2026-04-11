@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Articles: A, AN, THE — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
-<style>
-:root { --sage: #6b8f71; --sage-dark: #4a6b50; --cream: #fdf8f0; --honey: #e8a838; --black: #2a2a2a; --white: #FFFFFF; --green: #2ECC40; --red: #FF4136; }
-body { font-family: 'Nunito', sans-serif; background: var(--sage); color: var(--black); min-height: 100vh; }
-nav#main-nav { height: 66px; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; background: #fff; }
-.nav-logo img { height: 44px; }
-.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; }
-.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 126px); }
-.sidebar { background: var(--sage-dark); padding: 1.5rem 0; }
-.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); text-decoration: none; }
-.main { padding: 2rem; background: var(--sage); }
-.card { background: var(--sage); border: 3px solid var(--black); border-radius: 4px; overflow: hidden; box-shadow: 5px 5px 0 var(--black); margin-bottom: 2rem; }
-.card-title { background: var(--black); color: var(--white); padding: .65rem 1.1rem; text-align: center; }
-.quiz-card { background: var(--cream); border: 3px solid var(--black); border-radius: 4px; padding: 1.5rem; }
-.quiz-opt { background: #fff; border: 2px solid var(--black); padding: .4rem 1rem; cursor: pointer; font-weight: 800; border-radius: 4px; margin-right: .5rem; }
-.quiz-opt.correct { background: var(--green); color: #fff; }
-.quiz-opt.wrong { background: var(--red); color: #fff; }
-</style>
 </head>
-<body>
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="page-header"><h1>🇬🇧 Articles: A, AN, THE</h1></div>
-<div class="layout">
-<nav class="sidebar"><a class="sidebar-item" href="en.html">← English Roadmap</a></nav>
-<main class="main">
-  <div class="card">
-    <div class="card-title">A vs AN</div>
-    <div style="padding:1.5rem">
-        <p>Use <strong>A</strong> before consonant sounds:</p>
-        <p style="font-weight:700">a book, a car, a university</p>
-        <p style="margin-top:1rem">Use <strong>AN</strong> before vowel sounds:</p>
-        <p style="font-weight:700">an apple, an egg, an hour</p>
+<body class="grammar-body">
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
+  <ul class="nav-links"><li><a href="en.html">🇬🇧 English Roadmap</a></li></ul>
+</nav>
+<div class="grammar-header">
+  <h1>🇬🇧 Articles: A, AN, THE</h1>
+</div>
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#rules">Basic Rules</a>
+  <a class="gs-item" href="#quiz">Interactive Quiz</a>
+  <div class="gs-label">Next steps</div>
+  <a class="gs-item" href="en-present-simple.html">→ Present Simple</a>
+</nav>
+<main class="grammar-main">
+  <div class="grammar-section-title">English — Articles</div>
+  <div class="g-card" id="rules">
+    <div class="g-card-title">A vs AN</div>
+    <div style="padding:1.5rem; color: var(--black); font-weight: 700;">
+        <p>Use <strong style="color: var(--honey);">A</strong> before consonant sounds:</p>
+        <p style="margin-bottom:1rem; opacity: 0.8;">a book, a car, a university</p>
+        <p>Use <strong style="color: var(--honey);">AN</strong> before vowel sounds:</p>
+        <p style="opacity: 0.8;">an apple, an egg, an hour</p>
     </div>
   </div>
-  <div class="quiz-card">
-    <h3>Article Quiz</h3>
-    <div style="margin-top:1rem">
-      <p>I have ___ apple.</p>
-      <button class="quiz-opt" onclick="this.classList.add('wrong')">a</button>
-      <button class="quiz-opt" onclick="this.classList.add('correct')">an</button>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">I have ___ apple.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','an')">an</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','a')">a</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
     </div>
   </div>
 </main>
 </div>
+<script>
+const answers={q1:'an'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }
+  else { btn.classList.add('wrong'); fb.textContent='Not quite.'; }
+}
+</script>
 </body>
 </html>
