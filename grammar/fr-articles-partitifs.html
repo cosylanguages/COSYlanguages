@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les Articles Partitifs — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"></head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">French Roadmap → Les Articles Partitifs</div>
+    <h1>Les Articles Partitifs</h1>
+  </div>
+  <a href="fr.html" class="lang-tab active">← Curriculum</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+<a class="gs-item active" href="#rules">Du, De la, Des</a>
+  <a class="gs-item" href="#quiz">Quiz Interactif</a>
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="fr.html">← Curriculum</a>
+</nav>
+<main class="grammar-main">
+  <div class="grammar-section-title">Français — Les Articles Partitifs</div>
+
+  <div class="g-card" id="rules">
+    <div class="g-card-title">Some / Any</div>
+    <div style="padding:1.5rem; color: var(--black); font-weight: 700;">
+        <p>Used for unspecified quantities (food, drink):</p>
+        <ul style="margin-top:1rem; list-style: none; opacity: 0.8;">
+          <li><span style="color:var(--honey)">Du</span> + Masculin (du café)</li>
+          <li><span style="color:var(--honey)">De la</span> + Féminin (de la bière)</li>
+          <li><span style="color:var(--honey)">De l'</span> + Voyelle (de l'eau)</li>
+          <li><span style="color:var(--honey)">Des</span> + Pluriel (des pâtes)</li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Quiz Interactif</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Je veux ___ café.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','du')">du</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','des')">des</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'du'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Bravo !'; }
+  else { btn.classList.add('wrong'); fb.textContent='Pas tout à fait.'; }
+}
+</script>
+</body>
+</html>

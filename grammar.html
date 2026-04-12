@@ -1,121 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grammar Reference — COSYlanguages</title>
+<title>Grammar Reference Roadmaps — COSYlanguages</title>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <style>
-:root {
-  --sage:        #6b8f71;
-  --sage-dark:   #4a6b50;
-  --sage-deep:   #2e4a33;
-  --sage-light:  #8aab8f;
-  --cream:       #fdf8f0;
-  --honey:       #e8a838;
-  --black:       #2a2a2a;
-  --white:       #FFFFFF;
-  --yellow:      #FFE135;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--sage);
-  color: var(--black);
-  min-height: 100vh;
-}
-
-nav#main-nav {
-  position: sticky; top: 0; z-index: 1000;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-}
-.nav-logo img { height: 44px; }
-
-.page-header { background: var(--black); color: var(--white); padding: 1rem 2rem; text-align: center; }
-.page-header h1 { font-family: 'Lora', serif; font-size: 1.5rem; }
-
-.main { padding: 4rem 2rem; max-width: 1000px; margin: 0 auto; }
-
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-
-.lang-card {
-    background: var(--cream); border: 3px solid var(--black); border-radius: 12px;
-    padding: 2rem; text-align: center; transition: transform .2s, box-shadow .2s;
-    text-decoration: none; color: var(--black);
-    box-shadow: 6px 6px 0 var(--black);
-}
-.lang-card:hover { transform: translateY(-5px); box-shadow: 10px 10px 0 var(--black); }
-.lang-card .flag { font-size: 3rem; margin-bottom: 1rem; display: block; }
-.lang-card h3 { font-family: 'Lora', serif; font-size: 1.4rem; margin-bottom: .5rem; }
-.lang-card p { font-size: .9rem; font-weight: 700; opacity: .7; }
-
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+  .lang-card {
+      background: var(--gh-teal); border: 3px solid var(--gh-black); border-radius: 12px;
+      padding: 2rem; text-align: center; transition: transform .2s, box-shadow .2s;
+      text-decoration: none; color: var(--gh-black);
+      box-shadow: 6px 6px 0 var(--gh-black);
+  }
+  .lang-card:hover { transform: translateY(-5px); box-shadow: 10px 10px 0 var(--gh-black); }
+  .lang-card .flag { font-size: 3rem; margin-bottom: 1rem; display: block; }
+  .lang-card h3 { font-family: 'Lora', serif; font-size: 1.4rem; margin-bottom: .5rem; font-weight: 700; }
+  .lang-card p { font-size: .9rem; font-weight: 800; opacity: .8; }
 </style>
 </head>
-<body>
-<nav id="main-nav">
-  <a class="nav-logo" href="index.html"><img src="images/cosylanguages.png"></a>
-</nav>
+<body class="grammar-body">
 
-<div class="page-header">
-  <h1>Grammar Reference Roadmaps 📐</h1>
-  <p style="margin-top:.5rem;opacity:.8;font-weight:700">Select your language to explore the curriculum.</p>
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Grammar Roadmaps 📐</h1>
+  </div>
 </div>
 
-<main class="main">
+<main class="grammar-main" style="max-width: 1100px; margin: 0 auto; padding-top: 4rem;">
   <div class="grid">
     <a href="grammar/en.html" class="lang-card">
       <span class="flag">🇬🇧</span>
       <h3>English</h3>
-      <p>Roadmap for A1 to C1 levels.</p>
+      <p>Starter to Advanced</p>
     </a>
     <a href="grammar/fr.html" class="lang-card">
       <span class="flag">🇫🇷</span>
       <h3>Français</h3>
-      <p>Roadmap de A1 à B2.</p>
+      <p>Débutant à Intermédiaire</p>
     </a>
     <a href="grammar/it.html" class="lang-card">
       <span class="flag">🇮🇹</span>
       <h3>Italiano</h3>
-      <p>Roadmap da A1 a B1.</p>
+      <p>Base a Intermedio</p>
     </a>
     <a href="grammar/ru.html" class="lang-card">
       <span class="flag">🇷🇺</span>
       <h3>Русский</h3>
-      <p>Roadmap для уровней A1-A2.</p>
+      <p>Начальный уровень</p>
     </a>
     <a href="grammar/el.html" class="lang-card">
       <span class="flag">🇬🇷</span>
       <h3>Ελληνικά</h3>
-      <p>Roadmap για επίπεδα A1-A2.</p>
+      <p>Επίπεδο Αρχαρίων</p>
     </a>
     <a href="grammar/es.html" class="lang-card">
       <span class="flag">🇪🇸</span>
       <h3>Español</h3>
-      <p>Roadmap de A1 a B2.</p>
+      <p>Principiante a Intermedio</p>
     </a>
     <a href="grammar/de.html" class="lang-card">
       <span class="flag">🇩🇪</span>
       <h3>Deutsch</h3>
-      <p>Roadmap für A1 bis B1.</p>
+      <p>Grundstufe</p>
     </a>
     <a href="grammar/pt.html" class="lang-card">
       <span class="flag">🇵🇹</span>
       <h3>Português</h3>
-      <p>Roadmap de A1 a B1.</p>
+      <p>Iniciante</p>
     </a>
   </div>
 </main>
 
-<script>
-if (localStorage.getItem('student_unlocked') !== 'true') {
-  window.location.href = 'days.html';
-}
-</script>
 </body>
 </html>

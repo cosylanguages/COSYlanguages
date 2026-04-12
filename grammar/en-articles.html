@@ -2,38 +2,51 @@
 <html lang="en">
 <head>
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
-<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Articles: A, AN, THE — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
-<link rel="stylesheet" href="../css/style.css">
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"></head>
 <body class="grammar-body">
-<nav id="main-nav">
-  <a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a>
-  <ul class="nav-links"><li><a href="en.html">🇬🇧 English Roadmap</a></li></ul>
-</nav>
-<div class="grammar-header">
-  <h1>🇬🇧 Articles: A, AN, THE</h1>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">English Roadmap → Articles</div>
+    <h1>Articles: A, AN, THE</h1>
+  </div>
+  <a href="en.html" class="lang-tab active">← Roadmap</a>
 </div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <a class="gs-item active" href="#rules">Basic Rules</a>
+<a class="gs-item active" href="#rules">Basic Rules</a>
   <a class="gs-item" href="#quiz">Interactive Quiz</a>
-  <div class="gs-label">Next steps</div>
-  <a class="gs-item" href="en-present-simple.html">→ Present Simple</a>
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="en.html">← Roadmap</a>
 </nav>
 <main class="grammar-main">
   <div class="grammar-section-title">English — Articles</div>
+
   <div class="g-card" id="rules">
-    <div class="g-card-title">A vs AN</div>
-    <div style="padding:1.5rem; color: var(--black); font-weight: 700;">
-        <p>Use <strong style="color: var(--honey);">A</strong> before consonant sounds:</p>
-        <p style="margin-bottom:1rem; opacity: 0.8;">a book, a car, a university</p>
-        <p>Use <strong style="color: var(--honey);">AN</strong> before vowel sounds:</p>
-        <p style="opacity: 0.8;">an apple, an egg, an hour</p>
-    </div>
+    <div class="g-card-title">A, AN, THE</div>
+    <table class="gtable">
+      <tr>
+        <td class="row-label"><span class="key-verb">a</span></td>
+        <td class="content">consonant sound → <strong>a</strong> car, <strong>a</strong> book</td>
+      </tr>
+      <tr>
+        <td class="row-label"><span class="key-verb">an</span></td>
+        <td class="content">vowel sound → <strong>an</strong> apple, <strong>an</strong> hour</td>
+      </tr>
+      <tr>
+        <td class="row-label"><span class="key-verb">the</span></td>
+        <td class="content">specific / known → <strong>the</strong> car I bought</td>
+      </tr>
+      <tr class="note-row">
+        <td colspan="2">No article → general: I love <strong>coffee</strong>. She plays <strong>guitar</strong>.</td>
+      </tr>
+    </table>
   </div>
 
   <div class="g-quiz-card" id="quiz">
@@ -55,8 +68,8 @@
 const answers={q1:'an'};
 function answer(btn,qid,chosen){
   const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
-  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }
-  else { btn.classList.add('wrong'); fb.textContent='Not quite.'; }
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Not quite. ❌'; }
 }
 </script>
 </body>

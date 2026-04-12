@@ -4,48 +4,94 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Русская грамматика — COSYlanguages</title>
+<title>Russian Grammar Reference — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="grammar-header"><h1>Russian Grammar Roadmap 🇷🇺</h1></div>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Русская Грамматика 🇷🇺</h1>
+  </div>
+  <div class="lang-tabs">
+    <a href="en.html" class="lang-tab">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab active">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab">🇬🇷 EL</a>
+    <a href="es.html" class="lang-tab">🇪🇸 ES</a>
+    <a href="de.html" class="lang-tab">🇩🇪 DE</a>
+    <a href="pt.html" class="lang-tab">🇵🇹 PT</a>
+  </div>
+</div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Категории</div>
-  <a class="gs-item active" href="#verb_to_be">Быть & Идти</a>
-  <a class="gs-item" href="#present_tenses">Настоящее время</a>
-  <a class="gs-item" href="#past_tenses">Прошедшее время</a>
-  <a class="gs-item" href="#cases">Падежи</a>
-  <a class="gs-item" href="#alphabet">Алфавит</a>
-</nav>
-<main class="grammar-main">
-  <div class="grammar-section-title">Русская грамматика</div>
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#be_verb">Verb 'To Be'</a>
+  <a class="gs-item" href="#pronouns">Pronouns</a>
+  <a class="gs-item" href="#nouns">Nouns & Gender</a>
 
-  <div id="alphabet">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVEL: A1</div>
+  <div class="gs-label">Навигация</div>
+  <a class="gs-item" href="../grammar.html">← Все темы</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="grammar-section-title">Русский — Grammar Reference & Roadmap</div>
+
+  <!-- BE VERB -->
+  <div class="level-section" id="be_verb">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Алфавит & Фонетика</div>
+      <div class="card-title">Глагол БЫТЬ — Настоящее время</div>
       <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Кириллица<span class="g-status">Starter (A1)</span></a>
+        <a href="ru-be.html" class="g-lesson-btn">Урок: Глагол БЫТЬ 🚀</a>
       </div>
     </div>
   </div>
 
-  <div id="cases">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LEVELS: A1, A2, B1</div>
+  <!-- PRONOUNS -->
+  <div class="level-section" id="pronouns">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Падежи (Cases)</div>
+      <div class="card-title">Personal Pronouns</div>
       <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Именительный (Nominative)<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Предложный (Prepositional)<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Винительный (Accusative)<span class="g-status">Elementary (A2)</span></a>
+        <a href="ru-pronouns.html" class="g-lesson-btn">Interactive Lesson: Pronouns</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOUNS -->
+  <div class="level-section" id="nouns">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Noun Gender</div>
+      <div class="g-lesson-grid">
+        <a href="ru-nouns-gender.html" class="g-lesson-btn">Interactive Lesson: Noun Gender</a>
       </div>
     </div>
   </div>
 
 </main>
 </div>
+
+<script>
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
 </body>
 </html>

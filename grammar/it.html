@@ -4,93 +4,128 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Italian Grammar Roadmap — COSYlanguages</title>
+<title>Italian Grammar Reference — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
-<nav id="main-nav"><a class="nav-logo" href="../index.html"><img src="../images/cosylanguages.png"></a></nav>
-<div class="grammar-header"><h1>Italian Grammar Roadmap 🇮🇹</h1></div>
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Grammatica Italiana 🇮🇹</h1>
+  </div>
+  <div class="lang-tabs">
+    <a href="en.html" class="lang-tab">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab active">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab">🇬🇷 EL</a>
+    <a href="es.html" class="lang-tab">🇪🇸 ES</a>
+    <a href="de.html" class="lang-tab">🇩🇪 DE</a>
+    <a href="pt.html" class="lang-tab">🇵🇹 PT</a>
+  </div>
+</div>
+
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Categorie</div>
+  <div class="gs-label">Base (A1)</div>
   <a class="gs-item active" href="#verb_to_be">Essere & Avere</a>
   <a class="gs-item" href="#present_tenses">Presente</a>
-  <a class="gs-item" href="#past_tenses">Passato</a>
-  <a class="gs-item" href="#future_forms">Futuro</a>
-  <a class="gs-item" href="#modal_verbs">Verbi Modali</a>
-  <a class="gs-item" href="#noun_phrases_nouns">Nomi & Plurali</a>
-  <a class="gs-item" href="#determiners_articles">Articoli</a>
+  <a class="gs-item" href="#articles">Articoli</a>
+  <a class="gs-item" href="#nouns_plurals">Nomi & Plurali</a>
   <a class="gs-item" href="#pronouns">Pronomi</a>
-  <a class="gs-item" href="#adjectives">Aggettivi</a>
+
+  <div class="gs-label">Intermedio (A2-B1)</div>
+  <a class="gs-item" href="#past_tenses">Passato Prossimo</a>
+  <a class="gs-item" href="#future_forms">Futuro</a>
+  <a class="gs-item" href="#modals">Verbi Modali</a>
+
+  <div class="gs-label">Navigazione</div>
+  <a class="gs-item" href="../grammar.html">← Tutti i programmi</a>
 </nav>
+
 <main class="grammar-main">
-  <div class="grammar-section-title">Programma di Grammatica</div>
+  <div class="grammar-section-title">Italiano — Grammar Reference & Roadmap</div>
 
-  <!-- Verb to be -->
-  <div id="verb_to_be">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LIVELLI: A1</div>
+  <!-- ESSERE & AVERE -->
+  <div class="level-section" id="verb_to_be">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Essere & Avere</div>
-      <div class="g-lesson-grid">
-        <a href="it-essere-1.html" class="g-lesson-btn">ESSERE: Singolare<span class="g-status">Starter (A1)</span></a>
-        <a href="it-essere-2.html" class="g-lesson-btn">ESSERE: Plurale<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">AVERE: Presente<span class="g-status">Starter (A1)</span></a>
+      <div class="card-title">Verbi fondamentali: Essere & Avere</div>
+      <table class="gtable">
+        <tr><td class="row-label">io</td><td class="content">sono / ho</td><td class="content">Io sono felice. / Ho fame.</td></tr>
+        <tr><td class="row-label">tu</td><td class="content">sei / hai</td><td class="content">Tu sei a casa. / Hai un libro.</td></tr>
+        <tr><td class="row-label">lui / lei</td><td class="content">è / ha</td><td class="content">Lei è medico. / Ha tempo.</td></tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="it-essere-1.html" class="g-lesson-btn">Lezione: Essere (Singolare)</a>
+        <a href="it-essere-2.html" class="g-lesson-btn">Lezione: Essere (Plurale)</a>
+        <a href="it-avere.html" class="g-lesson-btn">Lezione: Verbo Avere</a>
       </div>
     </div>
   </div>
 
-  <!-- Present Tenses -->
-  <div id="present_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LIVELLI: A1, A2</div>
+  <!-- PRESENTE -->
+  <div class="level-section" id="present_tenses">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Presente</div>
-      <div class="g-lesson-grid">
-        <a href="it-verbi.html" class="g-lesson-btn">Verbi Regolari (-ARE/ERE/IRE)<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Verbi Irregolari Comuni<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Stare + Gerundio<span class="g-status">Starter (A1)</span></a>
+      <div class="card-title">Presente Indicativo (-ARE, -ERE, -IRE)</div>
+      <table class="gtable">
+        <tr><td class="row-label">-ARE</td><td class="content">parl<span class="key-verb">o</span></td><td class="content">io parlo</td></tr>
+        <tr><td class="row-label">-ERE</td><td class="content">vend<span class="key-verb">o</span></td><td class="content">io vendo</td></tr>
+        <tr><td class="row-label">-IRE</td><td class="content">dorm<span class="key-verb">o</span></td><td class="content">io dormo</td></tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="it-verbi.html" class="g-lesson-btn">Lezione Interattiva: Verbi Regolari 🚀</a>
       </div>
     </div>
   </div>
 
-  <!-- Past Tenses -->
-  <div id="past_tenses">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LIVELLI: A2, B1</div>
+  <!-- NOMI & PLURALI -->
+  <div class="level-section" id="nouns_plurals">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Passato</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Passato Prossimo<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Imperfetto<span class="g-status">Elementary (A2)</span></a>
-        <a href="#" class="g-lesson-btn">Trapassato Prossimo<span class="g-status">Intermediate (B1)</span></a>
+      <div class="card-title">Nomi: Singolare & Plurale</div>
+      <table class="gtable">
+        <tr><td class="row-label">Maschile</td><td class="content">-o → -i</td><td class="content">il libro → i libri</td></tr>
+        <tr><td class="row-label">Femminile</td><td class="content">-a → -e</td><td class="content">la casa → le case</td></tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="it-plurali.html" class="g-lesson-btn">Lezione: Nomi & Plurali</a>
       </div>
     </div>
   </div>
 
-  <!-- Determiners & Articles -->
-  <div id="determiners_articles">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LIVELLI: A1</div>
+  <!-- ARTICOLI -->
+  <div class="level-section" id="articles">
+    <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="g-card-title">Articoli</div>
+      <div class="card-title">Articoli Determinativi</div>
       <div class="g-lesson-grid">
-        <a href="it-articoli.html" class="g-lesson-btn">Articoli Determinativi<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Articoli Indeterminativi<span class="g-status">Starter (A1)</span></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Nouns -->
-  <div id="noun_phrases_nouns">
-    <div class="level-badge" style="background:var(--black); color:var(--honey); padding:.2rem .6rem; border-radius:4px; font-size:.7rem; font-weight:900;">LIVELLI: A1, A2</div>
-    <div class="g-card">
-      <div class="g-card-title">Nomi & Plurali</div>
-      <div class="g-lesson-grid">
-        <a href="#" class="g-lesson-btn">Sostantivi: Singolare & Plurale<span class="g-status">Starter (A1)</span></a>
-        <a href="#" class="g-lesson-btn">Nomi Composti<span class="g-status">Elementary (A2)</span></a>
+        <a href="it-articoli.html" class="g-lesson-btn">Lezione: Gli Articoli</a>
       </div>
     </div>
   </div>
 
 </main>
 </div>
+
+<script>
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
 </body>
 </html>

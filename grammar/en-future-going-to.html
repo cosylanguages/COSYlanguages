@@ -4,7 +4,7 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Past Simple — COSYlanguages</title>
+<title>Future: Going to — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css"></head>
@@ -12,29 +12,31 @@
 
 <div class="grammar-header-new">
   <div>
-    <div class="breadcrumb">English Roadmap → Past Simple</div>
-    <h1>Past Simple</h1>
+    <div class="breadcrumb">English Roadmap → Future</div>
+    <h1>Future: Going to</h1>
   </div>
   <a href="en.html" class="lang-tab active">← Roadmap</a>
 </div>
 
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-<a class="gs-item active" href="#rules">Regular Verbs</a>
+<a class="gs-item active" href="#rules">Structure</a>
   <a class="gs-item" href="#quiz">Interactive Quiz</a>
-  <div class="gs-label">Intermediate</div>
-  <a class="gs-item" href="en.html#b1-perfect">→ Present Perfect</a>
   <div class="gs-label">Navigation</div>
   <a class="gs-item" href="en.html">← Roadmap</a>
 </nav>
 <main class="grammar-main">
-  <div class="grammar-section-title">English — Past Simple</div>
+  <div class="grammar-section-title">English — Future Intentions</div>
+
   <div class="g-card" id="rules">
-    <div class="g-card-title">Regular Verbs: +ED</div>
-    <div style="padding:1.5rem; color: var(--black); font-weight: 700;">
-        <p>Most verbs just add <strong style="color: var(--honey);">-ed</strong>:</p>
-        <p style="margin-top:1rem">work → work<span style="color:var(--honey)">ed</span></p>
-        <p>play → play<span style="color:var(--honey)">ed</span></p>
+    <div class="g-card-title">Formula: BE + GOING TO + VERB</div>
+    <div style="padding:1.5rem; color: var(--black);">
+        <p>Use this for <strong>plans</strong> and <strong>intentions</strong>:</p>
+        <table class="gtable" style="margin-top:1rem">
+          <tr><td class="row-label">I</td><td>am going to travel.</td></tr>
+          <tr><td class="row-label">You/We/They</td><td>are going to work.</td></tr>
+          <tr><td class="row-label">He/She/It</td><td>is going to rain.</td></tr>
+        </table>
     </div>
   </div>
 
@@ -42,19 +44,27 @@
     <div class="g-card-title">Interactive Quiz</div>
     <div class="g-quiz-body">
       <div class="g-quiz-q" id="q1">
-        <div class="g-quiz-prompt">Yesterday, I ___ to the gym.</div>
+        <div class="g-quiz-prompt">I ___ going to study tonight.</div>
         <div class="g-quiz-options">
-          <button class="g-quiz-opt" onclick="answer(this,'q1','walked')">walked</button>
-          <button class="g-quiz-opt" onclick="answer(this,'q1','walk')">walk</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','am')">am</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','is')">is</button>
         </div>
         <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+      <div class="g-quiz-q" id="q2">
+        <div class="g-quiz-prompt">They are ___ to visit us.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q2','going')">going</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q2','go')">go</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q2"></div>
       </div>
     </div>
   </div>
 </main>
 </div>
 <script>
-const answers={q1:'walked'};
+const answers={q1:'am',q2:'going'};
 function answer(btn,qid,chosen){
   const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
   if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }

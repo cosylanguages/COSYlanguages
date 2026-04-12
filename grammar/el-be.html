@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verb 'To Be' · Greek Grammar — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Greek Roadmap → Verb 'To Be'</div>
+    <h1>Verb 'To Be' · Greek Grammar</h1>
+  </div>
+  <a href="el.html" class="lang-tab active">← Πρόγραμμα</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#rules">Rules</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Πλοήγηση</div>
+  <a class="gs-item" href="el.html">← Πρόγραμμα</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="level-section" id="rules">
+    <div class="g-card">
+      <div class="card-title">Verb ΕΙΜΑΙ (Present)</div>
+      <table class="gtable">
+        <tr><td class="row-label">εγώ</td><td class="content"><span class="key-verb">είμαι</span></td><td class="content">egó eímai</td></tr>
+        <tr><td class="row-label">εσύ</td><td class="content"><span class="key-verb">είσαι</span></td><td class="content">esý eísai</td></tr>
+        <tr><td class="row-label">αυτός / ή / ό</td><td class="content"><span class="key-verb">είναι</span></td><td class="content">aftós eínai</td></tr>
+        <tr><td class="row-label">εμείς</td><td class="content"><span class="key-verb">είμαστε</span></td><td class="content">emeís eímaste</td></tr>
+        <tr><td class="row-label">εσείς</td><td class="content"><span class="key-verb">είστε</span></td><td class="content">eseís eíste</td></tr>
+        <tr><td class="row-label">αυτοί</td><td class="content"><span class="key-verb">είναι</span></td><td class="content">aftoí eínai</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Εγώ ___ εδώ.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','είμαι')">είμαι</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','είσαι')">είσαι</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'είμαι'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Σωστά! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Προσπαθήστε ξανά! ❌'; }
+}
+</script>
+</body>
+</html>

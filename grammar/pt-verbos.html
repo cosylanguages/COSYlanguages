@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<title>Verbos Regulares · Portuguese Verbs — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Portuguese Roadmap → Verbos Regulares</div>
+    <h1>Verbos Regulares · Portuguese Verbs</h1>
+  </div>
+  <a href="pt.html" class="lang-tab active">← Programa</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#rules">Conjugação</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Navegação</div>
+  <a class="gs-item" href="pt.html">← Programa</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="g-card" id="rules">
+    <div class="g-card-title">Presente do Indicativo (falar)</div>
+    <table class="gtable">
+      <tr><td class="row-label">eu</td><td class="content">fal<span class="key-verb">o</span></td></tr>
+      <tr><td class="row-label">tu</td><td class="content">fal<span class="key-verb">as</span></td></tr>
+      <tr><td class="row-label">ele/ela/você</td><td class="content">fal<span class="key-verb">a</span></td></tr>
+      <tr><td class="row-label">nós</td><td class="content">fal<span class="key-verb">amos</span></td></tr>
+      <tr><td class="row-label">eles/elas/vocês</td><td class="content">fal<span class="key-verb">am</span></td></tr>
+    </table>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Quiz Interativo</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Eu ___ (falar) português.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','falo')">falo</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','fala')">fala</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'falo'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correto! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Tente novamente! ❌'; }
+}
+</script>
+</body>
+</html>

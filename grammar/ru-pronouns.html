@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Личные местоимения · Russian Pronouns — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"></head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Russian Roadmap → Личные местоимения</div>
+    <h1>Личные местоимения · Russian Pronouns</h1>
+  </div>
+  <a href="ru.html" class="lang-tab active">← План</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+<a class="gs-item active" href="#rules">Rules</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Навигация</div>
+  <a class="gs-item" href="ru.html">← План</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="level-section" id="rules">
+    <div class="g-card">
+      <div class="g-card-title">Russian Personal Pronouns</div>
+      <table class="gtable">
+        <tr class="section-row"><td colspan="3">Singular</td></tr>
+        <tr><td class="row-label">Я</td><td class="content"><span class="key-verb">Ya</span></td><td class="content">I</td></tr>
+        <tr><td class="row-label">Ты</td><td class="content"><span class="key-verb">Ty</span></td><td class="content">You (singular/informal)</td></tr>
+        <tr><td class="row-label">Он / Она / Оно</td><td class="content"><span class="key-verb">On / Ona / Ono</span></td><td class="content">He / She / It</td></tr>
+        <tr class="section-row"><td colspan="3">Plural</td></tr>
+        <tr><td class="row-label">Мы</td><td class="content"><span class="key-verb">My</span></td><td class="content">We</td></tr>
+        <tr><td class="row-label">Вы</td><td class="content"><span class="key-verb">Vy</span></td><td class="content">You (plural/formal)</td></tr>
+        <tr><td class="row-label">Они</td><td class="content"><span class="key-verb">Oni</span></td><td class="content">They</td></tr>
+      </table>
+      <div class="tip-box">
+        ⚠️ <strong>Вы</strong> is used for both a group of people AND as a formal "you" for one person (like 'vous' in French or 'Lei' in Italian).
+      </div>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">How do you say "We" in Russian?</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','мы')">Мы</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','вы')">Вы</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'мы'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Try again! ❌'; }
+}
+</script>
+</body>
+</html>

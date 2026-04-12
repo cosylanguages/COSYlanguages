@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verb 'sein' · German Grammar — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">German Roadmap → Verb 'sein'</div>
+    <h1>Verb 'sein' · German Grammar</h1>
+  </div>
+  <a href="de.html" class="lang-tab active">← Roadmap</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#rules">Konjugation</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="de.html">← Roadmap</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="level-section" id="rules">
+    <div class="g-card">
+      <div class="card-title">Verb SEIN (Present)</div>
+      <table class="gtable">
+        <tr><td class="row-label">ich</td><td class="content"><span class="key-verb">bin</span></td><td class="content">Ich bin hier.</td></tr>
+        <tr><td class="row-label">du</td><td class="content"><span class="key-verb">bist</span></td><td class="content">Du bist bereit.</td></tr>
+        <tr><td class="row-label">er / sie / es</td><td class="content"><span class="key-verb">ist</span></td><td class="content">Er ist müde.</td></tr>
+        <tr><td class="row-label">wir</td><td class="content"><span class="key-verb">sind</span></td><td class="content">Wir sind Lehrer.</td></tr>
+        <tr><td class="row-label">ihr</td><td class="content"><span class="key-verb">seid</span></td><td class="content">Seid ihr fertig?</td></tr>
+        <tr><td class="row-label">sie / Sie</td><td class="content"><span class="key-verb">sind</span></td><td class="content">Sie sind willkommen.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Ich ___ Student.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','bin')">bin</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','ist')">ist</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'bin'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Richtig! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Falsch! ❌'; }
+}
+</script>
+</body>
+</html>

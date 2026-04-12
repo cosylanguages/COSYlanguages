@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronouns — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"></head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">English Roadmap → Pronouns</div>
+    <h1>Pronouns</h1>
+  </div>
+  <a href="en.html" class="lang-tab active">← Roadmap</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+<a class="gs-item active" href="#personal">Personal Pronouns</a>
+  <a class="gs-item" href="#possessive">Possessive Adjectives</a>
+  <a class="gs-item" href="#quiz">Interactive Quiz</a>
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="en.html">← Roadmap</a>
+</nav>
+<main class="grammar-main">
+  <div class="grammar-section-title">English — Pronouns</div>
+
+  <div class="g-card" id="personal">
+    <div class="g-card-title">Personal Pronouns (Subject)</div>
+    <table class="gtable">
+      <tr><td class="row-label">I</td><td>I am a teacher.</td></tr>
+      <tr><td class="row-label">You</td><td>You are a student.</td></tr>
+      <tr><td class="row-label">He</td><td>He is my friend.</td></tr>
+      <tr><td class="row-label">She</td><td>She is Italian.</td></tr>
+      <tr><td class="row-label">It</td><td>It is a nice day.</td></tr>
+      <tr><td class="row-label">We</td><td>We are ready.</td></tr>
+      <tr><td class="row-label">They</td><td>They are here.</td></tr>
+    </table>
+  </div>
+
+  <div class="g-card" id="possessive">
+    <div class="g-card-title">Possessive Adjectives</div>
+    <table class="gtable">
+      <tr><td class="row-label">My</td><td>This is <span class="key-verb">my</span> book.</td></tr>
+      <tr><td class="row-label">Your</td><td>What is <span class="key-verb">your</span> name?</td></tr>
+      <tr><td class="row-label">His</td><td>It is <span class="key-verb">his</span> car.</td></tr>
+      <tr><td class="row-label">Her</td><td>This is <span class="key-verb">her</span> dog.</td></tr>
+      <tr><td class="row-label">Our</td><td>Welcome to <span class="key-verb">our</span> home.</td></tr>
+      <tr><td class="row-label">Their</td><td>They love <span class="key-verb">their</span> city.</td></tr>
+    </table>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">___ am from London.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','I')">I</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','He')">He</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+      <div class="g-quiz-q" id="q2">
+        <div class="g-quiz-prompt">This is ___ car. (I own it)</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q2','my')">my</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q2','your')">your</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q2"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'I',q2:'my'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct!'; }
+  else { btn.classList.add('wrong'); fb.textContent='Not quite.'; }
+}
+</script>
+</body>
+</html>
