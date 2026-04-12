@@ -693,13 +693,11 @@ window.gameSpeak = gameSpeak;
 // 10. SESSION LOG & PREFERENCES
 // ─────────────────────────────────────────────
 
-const GameSessionManager = {
-  LOG_KEY: 'cosy_session_log',
+const GamePreferenceManager = {
   PREF_KEY: 'cosy_game_prefs',
 
   init() {
     this.setupGlobalPrefs();
-    this.renderLog();
   },
 
   setupGlobalPrefs() {
@@ -719,48 +717,12 @@ const GameSessionManager = {
     };
     langSelect.addEventListener('change', update);
     levelSelect.addEventListener('change', update);
-  },
-
-  recordSession(gameName, icon) {
-    let lang = document.getElementById('global-lang-select')?.value || localStorage.getItem('language') || 'en';
-    let level = document.getElementById('global-level-select')?.value || 'starter';
-    let log = JSON.parse(localStorage.getItem(this.LOG_KEY) || '[]');
-
-    // Add new at start, limit to 4
-    log = [{ gameName, icon, lang, level, date: new Date().toISOString() }, ...log.filter(l => l.gameName !== gameName)].slice(0, 4);
-    localStorage.setItem(this.LOG_KEY, JSON.stringify(log));
-    this.renderLog();
-  },
-
-  renderLog() {
-    const container = document.getElementById('session-log-container');
-    const grid = document.getElementById('session-log-grid');
-    if (!container || !grid) return;
-
-    const log = JSON.parse(localStorage.getItem(this.LOG_KEY) || '[]');
-    if (log.length === 0) {
-      container.style.display = 'none';
-      return;
-    }
-
-    container.style.display = 'block';
-    grid.innerHTML = log.map(item => `
-      <div class="log-item">
-        <div class="log-icon">${item.icon}</div>
-        <div class="log-body">
-          <span class="log-name">${item.gameName}</span>
-          <div class="log-meta">${item.lang.toUpperCase()} · ${item.level}</div>
-        </div>
-      </div>
-    `).join('');
   }
 };
 
-// Override openGameSheet to use global prefs and record session
+// Override openGameSheet to use global prefs
 const originalOpenGameSheet = window.openGameSheet;
 window.openGameSheet = function(gameName, icon, mode = 'solo') {
-  GameSessionManager.recordSession(gameName, icon);
-
   // Set values in the bottom sheet before showing it
   const lang = document.getElementById('global-lang-select')?.value;
   const level = document.getElementById('global-level-select')?.value;
@@ -780,4 +742,4 @@ window.openGameSheet = function(gameName, icon, mode = 'solo') {
   }, 50);
 };
 
-document.addEventListener('DOMContentLoaded', () => GameSessionManager.init());
+document.addEventListener('DOMContentLoaded', () => GamePreferenceManager.init());

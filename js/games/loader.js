@@ -16,46 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('embedded-mode');
     }
 
-    // Level-based Recommendation Logic
-    const globalLevelSelect = document.getElementById('global-level-select');
-    const recommendedSection = document.getElementById('recommended-section');
-    const recommendedGrid = document.getElementById('recommended-grid');
-
-    const updateRecommendations = () => {
-        const level = globalLevelSelect?.value || 'starter';
-        const mapping = {
-            'starter': ['action-hero', 'emoji-odyssey', 'lucky-numbers'],
-            'elementary': ['guess-what', 'crossword', 'last-letter'],
-            'intermediate': ['fluency-flow', 'opinion-arena', 'story-chain'],
-            'upper-intermediate': ['battle-of-wits', 'hot-seat', 'word-linker'],
-            'advanced': ['critics-corner', 'battle-of-wits', 'fluency-flow'],
-            'proficiency': ['critics-corner', 'opinion-arena', 'battle-of-wits']
-        };
-
-        const recs = mapping[level] || mapping.starter;
-        if (!recommendedGrid) return;
-
-        recommendedGrid.innerHTML = '';
-        let foundCount = 0;
-
-        recs.forEach(gameId => {
-            const originalCard = document.querySelector(`.game-card-lobby[data-game="${gameId}"]`);
-            if (originalCard) {
-                const clone = originalCard.cloneNode(true);
-                // Remove level badge from clone to keep it clean
-                clone.querySelector('.gc-badges')?.remove();
-                recommendedGrid.appendChild(clone);
-                foundCount++;
-            }
-        });
-
-        if (recommendedSection) {
-            recommendedSection.style.display = foundCount > 0 ? 'block' : 'none';
-        }
-    };
-
-    globalLevelSelect?.addEventListener('change', updateRecommendations);
-    updateRecommendations();
 
     if (game) {
         // Safe helpers

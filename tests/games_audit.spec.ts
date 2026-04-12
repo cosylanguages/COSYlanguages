@@ -34,11 +34,14 @@ test.describe('Comprehensive Games Audit', () => {
       const soloBtn = card.locator('button').filter({ hasText: 'Play solo' });
       await soloBtn.click();
 
-      const setupSheet = page.locator('#game-setup-sheet');
-      await expect(setupSheet).toHaveClass(/open/);
+      // On Desktop, the setup sheet is bypassed
+      if (page.viewportSize()?.width && page.viewportSize()!.width <= 768) {
+          const setupSheet = page.locator('#game-setup-sheet');
+          await expect(setupSheet).toHaveClass(/open/);
 
-      const startBtn = setupSheet.locator('button.gss-start');
-      await startBtn.click();
+          const startBtn = setupSheet.locator('button.gss-start');
+          await startBtn.click();
+      }
 
       const modal = page.locator(game.modal);
       if (game.id === 'last-letter') {

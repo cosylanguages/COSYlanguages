@@ -59,9 +59,136 @@ function flashAnswer(correct) {
   setTimeout(() => flash.classList.remove('show'), 400);
 }
 
+// ── Game Launcher Logic (Shared between Desktop & Mobile)
+function launchGame(gameName, mode, settings) {
+  const { selectedLang, selectedLevel, selectedTheme, selectedType, selectedTimer, selectedBingoContent } = settings;
+
+  const gameMap = {
+    'Emoji Odyssey': 'emoji',
+    'Lucky Numbers': 'bingo',
+    'Word Linker': 'linker',
+    'Last Letter': 'last-letter',
+    'Action Hero': 'charades',
+    'Identity Mystery': 'guess-who',
+    'Object Quest': 'guess-what',
+    'Fluency Flow': 'talk-talk',
+    'Battle of Wits': 'debates',
+    'Opinion Arena': 'opinion-arena',
+    "Critic's Corner": 'critics-corner',
+    'Story Chain': 'story-chain',
+    'Hot Seat': 'hot-seat',
+    'Cosy Crossword': 'crossword'
+  };
+
+  const prefix = gameMap[gameName];
+  console.log('Launching game:', gameName, 'Prefix:', prefix, 'Mode:', mode);
+
+  if (prefix) {
+    const modal = document.getElementById(`${prefix}-modal`);
+    if (modal) {
+      const langSelect = modal.querySelector('.game-lang') || modal.querySelector(`#${prefix}-lang`);
+      const levelSelect = modal.querySelector('.game-level') || modal.querySelector(`#${prefix}-level`);
+      const themeSelect = modal.querySelector('.game-theme') || modal.querySelector(`#${prefix}-theme`);
+      const typeSelect = modal.querySelector(`#${prefix}-mode`) || modal.querySelector(`#${prefix}-level`);
+      const timerSelect = modal.querySelector(`#${prefix}-timer-duration`) ||
+                          modal.querySelector(`#${prefix.split('-')[0]}-timer-duration`);
+      const bingoContentSelect = modal.querySelector('#bingo-content-type');
+
+      let startBtnId = `#start-${prefix}-game-btn`;
+      if (prefix === 'talk-talk' || prefix === 'debates' || prefix === 'opinion-arena' || prefix === 'critics-corner') {
+          startBtnId = `#start-${prefix.split('-')[0]}-btn`;
+      }
+      if (prefix === 'guess-who' || prefix === 'guess-what') {
+          startBtnId = `#start-${prefix}-btn`;
+      }
+
+      const actualStartBtn = modal.querySelector(startBtnId) ||
+                            modal.querySelector('#start-bingo-caller-btn');
+
+      if (langSelect && selectedLang) langSelect.value = selectedLang;
+      if (levelSelect && selectedLevel) levelSelect.value = selectedLevel;
+      if (themeSelect && selectedTheme) themeSelect.value = selectedTheme;
+      if (typeSelect && selectedType) {
+          typeSelect.value = selectedType;
+          typeSelect.dispatchEvent(new Event('change'));
+      }
+      if (selectedTimer) {
+          if (prefix === 'hot-seat') {
+              const timerBtn = modal.querySelector(`.hs-dur-btn[data-sec="${selectedTimer}"]`);
+              if (timerBtn) timerBtn.click();
+          } else if (timerSelect) {
+              timerSelect.value = selectedTimer;
+              timerSelect.dispatchEvent(new Event('change'));
+          }
+      }
+      if (bingoContentSelect && selectedBingoContent) {
+          bingoContentSelect.value = selectedBingoContent;
+          bingoContentSelect.dispatchEvent(new Event('change'));
+      }
+
+      langSelect?.dispatchEvent(new Event('change'));
+      levelSelect?.dispatchEvent(new Event('change'));
+      themeSelect?.dispatchEvent(new Event('change'));
+
+      modal.style.display = 'flex';
+
+      setTimeout(() => {
+        const soloCheck = modal.querySelector(`#${prefix}-solo-mode`) || modal.querySelector('.solo-mode-check');
+        if (soloCheck) {
+            soloCheck.checked = (mode === 'solo');
+            soloCheck.dispatchEvent(new Event('change'));
+        }
+
+        if (actualStartBtn) {
+            console.log('Clicking actual start button');
+            if (prefix === 'bingo') {
+                if (mode === 'solo') {
+                    const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
+                    if (soloCheckBingo) soloCheckBingo.checked = true;
+                    const callerBtn = modal.querySelector('#start-bingo-caller-btn');
+                    if (callerBtn) callerBtn.click();
+                } else {
+                    const playerBtn = modal.querySelector('#start-bingo-player-btn');
+                    if (playerBtn) playerBtn.click();
+                }
+            } else {
+                actualStartBtn.click();
+            }
+        } else {
+            console.error('Actual start button not found in modal:', startBtnId);
+        }
+      }, 150);
+    } else {
+      console.error('Modal not found:', `${prefix}-modal`);
+    }
+  } else {
+      console.error('No prefix found for game:', gameName);
+  }
+}
+
 // ── Game setup bottom sheet
 function openGameSheet(gameName, gameIcon, mode = 'solo') {
   console.log('Opening game sheet:', gameName, mode);
+
+  // Desktop Bypass: If screen is wide, open the game modal directly
+  if (window.innerWidth > 768) {
+      const selectedLang = document.getElementById('global-lang-select')?.value || localStorage.getItem('language') || 'en';
+      const selectedLevel = document.getElementById('global-level-select')?.value || 'starter';
+
+      // For desktop, we use default timers/types if they aren't in global prefs
+      const settings = {
+          selectedLang,
+          selectedLevel,
+          selectedTheme: 'all',
+          selectedType: (gameName === 'Lucky Numbers' ? '1' : (gameName === 'Emoji Odyssey' ? 'guess' : (gameName === 'Word Linker' ? 'association' : undefined))),
+          selectedTimer: (gameName === 'Fluency Flow' ? '180' : '60'),
+          selectedBingoContent: 'numbers'
+      };
+
+      launchGame(gameName, mode, settings);
+      return;
+  }
+
   const sheet = document.getElementById('game-setup-sheet');
   const overlay = document.getElementById('sheet-overlay');
   if (!sheet) {
@@ -162,7 +289,6 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
 
   if (startBtn) {
     startBtn.onclick = () => {
-      console.log('Starting game from sheet:', gameName);
       const selectedLang = sheet.querySelector('#gss-lang-options .gss-option.active')?.dataset.value;
       const selectedLevel = sheet.querySelector('#gss-level-options .gss-option.active')?.dataset.value;
       const selectedTheme = sheet.querySelector('#gss-theme-options .gss-option.active')?.dataset.value || 'all';
@@ -172,106 +298,14 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
 
       closeGameSheet();
 
-      const gameMap = {
-        'Emoji Odyssey': 'emoji',
-        'Lucky Numbers': 'bingo',
-        'Word Linker': 'linker',
-        'Last Letter': 'last-letter',
-        'Action Hero': 'charades',
-        'Identity Mystery': 'guess-who',
-        'Object Quest': 'guess-what',
-        'Fluency Flow': 'talk-talk',
-        'Battle of Wits': 'debates',
-        'Opinion Arena': 'opinion-arena',
-        "Critic's Corner": 'critics-corner',
-        'Story Chain': 'story-chain',
-        'Hot Seat': 'hot-seat',
-        'Cosy Crossword': 'crossword'
-      };
-
-      const prefix = gameMap[gameName];
-      console.log('Game prefix:', prefix);
-      if (prefix) {
-        const modal = document.getElementById(`${prefix}-modal`);
-        if (modal) {
-          const langSelect = modal.querySelector('.game-lang') || modal.querySelector(`#${prefix}-lang`);
-          const levelSelect = modal.querySelector('.game-level') || modal.querySelector(`#${prefix}-level`);
-          const themeSelect = modal.querySelector('.game-theme') || modal.querySelector(`#${prefix}-theme`);
-          const typeSelect = modal.querySelector(`#${prefix}-mode`) || modal.querySelector(`#${prefix}-level`);
-          const timerSelect = modal.querySelector(`#${prefix}-timer-duration`) ||
-                              modal.querySelector(`#${prefix.split('-')[0]}-timer-duration`);
-          const bingoContentSelect = modal.querySelector('#bingo-content-type');
-
-          let startBtnId = `#start-${prefix}-game-btn`;
-          if (prefix === 'talk-talk' || prefix === 'debates' || prefix === 'opinion-arena' || prefix === 'critics-corner') {
-              startBtnId = `#start-${prefix.split('-')[0]}-btn`;
-          }
-          if (prefix === 'guess-who' || prefix === 'guess-what') {
-              startBtnId = `#start-${prefix}-btn`;
-          }
-
-          const actualStartBtn = modal.querySelector(startBtnId) ||
-                                modal.querySelector('#start-bingo-caller-btn');
-
-          if (langSelect && selectedLang) langSelect.value = selectedLang;
-          if (levelSelect && selectedLevel) levelSelect.value = selectedLevel;
-          if (themeSelect && selectedTheme) themeSelect.value = selectedTheme;
-          if (typeSelect && selectedType) {
-              typeSelect.value = selectedType;
-              typeSelect.dispatchEvent(new Event('change'));
-          }
-          if (selectedTimer) {
-              if (prefix === 'hot-seat') {
-                  const timerBtn = modal.querySelector(`.hs-dur-btn[data-sec="${selectedTimer}"]`);
-                  if (timerBtn) timerBtn.click();
-              } else if (timerSelect) {
-                  timerSelect.value = selectedTimer;
-                  timerSelect.dispatchEvent(new Event('change'));
-              }
-          }
-          if (bingoContentSelect && selectedBingoContent) {
-              bingoContentSelect.value = selectedBingoContent;
-              bingoContentSelect.dispatchEvent(new Event('change'));
-          }
-
-          langSelect?.dispatchEvent(new Event('change'));
-          levelSelect?.dispatchEvent(new Event('change'));
-          themeSelect?.dispatchEvent(new Event('change'));
-
-          modal.style.display = 'flex';
-
-          setTimeout(() => {
-            const soloCheck = modal.querySelector(`#${prefix}-solo-mode`) || modal.querySelector('.solo-mode-check');
-            if (soloCheck) {
-                soloCheck.checked = (mode === 'solo');
-                soloCheck.dispatchEvent(new Event('change'));
-            }
-
-            if (actualStartBtn) {
-                console.log('Clicking actual start button');
-                if (prefix === 'bingo') {
-                    if (mode === 'solo') {
-                        const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
-                        if (soloCheckBingo) soloCheckBingo.checked = true;
-                        const callerBtn = modal.querySelector('#start-bingo-caller-btn');
-                        if (callerBtn) callerBtn.click();
-                    } else {
-                        const playerBtn = modal.querySelector('#start-bingo-player-btn');
-                        if (playerBtn) playerBtn.click();
-                    }
-                } else {
-                    actualStartBtn.click();
-                }
-            } else {
-                console.error('Actual start button not found in modal:', startBtnId);
-            }
-          }, 150);
-        } else {
-          console.error('Modal not found:', `${prefix}-modal`);
-        }
-      } else {
-          console.error('No prefix found for game:', gameName);
-      }
+      launchGame(gameName, mode, {
+          selectedLang,
+          selectedLevel,
+          selectedTheme,
+          selectedType,
+          selectedTimer,
+          selectedBingoContent
+      });
     };
   }
 
@@ -776,3 +810,4 @@ window.closeGameSheet = closeGameSheet;
 window.flashAnswer = flashAnswer;
 window.startTimerRing = startTimerRing;
 window.showPinModal = showPinModal;
+window.launchGame = launchGame;
