@@ -20,6 +20,209 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="mobile.css">
+    <style>
+.exercise {
+    font-family: 'Nunito', sans-serif;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.ex-prompt {
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 1.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ex-options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .ex-options-grid {
+        grid-template-columns: 1fr;
+    }
+    .ex-prompt {
+        font-size: 1.2rem;
+    }
+}
+
+.ex-option {
+    background: #fff;
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 60px;
+}
+
+.ex-option:hover {
+    border-color: var(--sage);
+    background: #f8faf8;
+}
+
+.ex-option.selected {
+    border-color: var(--sage-dark);
+    background: var(--sage-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.cloze-container {
+    background: #fdf8f0;
+    padding: 1.5rem;
+    border-radius: 16px;
+    border: 2px dashed var(--border);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.cloze-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--ink);
+    margin-bottom: 1rem;
+}
+
+.cloze-input {
+    border: none;
+    border-bottom: 3px solid var(--sage);
+    background: transparent;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--sage-dark);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    outline: none;
+    padding: 8px 4px;
+}
+
+.cloze-input.cloze-correct { color: #1a6b45; border-bottom-color: #1a6b45; }
+.cloze-input.cloze-close { color: #a06b10; border-bottom-color: #e8a838; }
+.cloze-input.cloze-wrong { color: #a32d2d; border-bottom-color: #a32d2d; }
+
+.ex-feedback {
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-weight: 800;
+    text-align: center;
+    animation: slideUp 0.3s ease-out;
+}
+
+.ex-feedback.correct { background: #e5f4ec; color: #1a6b45; }
+.ex-feedback.incorrect { background: #fcebeb; color: #a32d2d; }
+
+.speed-timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.speed-timer-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid var(--sage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: var(--sage-dark);
+}
+
+.sort-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    .sort-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.sort-bucket {
+    background: #fff;
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+    min-height: 150px;
+}
+
+.sort-label {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.builder-area {
+    min-height: 60px;
+    border-bottom: 2px solid var(--sage);
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.word-chip {
+    background: #fff;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.word-chip.used {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+    </style>
     <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js')
@@ -270,6 +473,8 @@
                     <button id="wheel-mode-btn" class="cta-button secondary" data-translate-key="wheel_mode">Spinning Wheel 🎡</button>
                     <button id="resume-btn" class="cta-button secondary hidden" data-translate-key="resume_practice">Resume Practice 🔁</button>
                     <button id="share-link-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="speed-round-btn" class="cta-button secondary" onclick="startSpeedRound()">Speed Round ⚡</button>
+                    <button id="category-sort-btn" class="cta-button secondary" onclick="startCategorySort()">Category Sort 🧩</button>
                     <button id="pin-practice-btn" class="cta-button secondary" style="width: 100%; border: 2px solid var(--border);" data-translate-key="pin_practice_btn">Pin to Home Screen 📲</button>
                 </div>
             </div>
@@ -308,6 +513,8 @@
                     <div id="progress-fill" class="progress-fill"></div>
                 </div>
                 <div id="progress-text"></div>
+
+                <div id="exercise-area"></div>
 
                 <div id="question-card" class="event-item question-card-mobile">
                     <div id="word-meta" class="word-meta-container hidden">
@@ -702,6 +909,68 @@
     <script src="js/data/turkic/ba/translations.js"></script>
     <script src="js/data/celtic/br/translations.js"></script>
     <script src="js/translate.js"></script>
+    <script src="vocab-exercises.js"></script>
+    <script>
+window.selectOption = function(btn, value) {
+  // Deselect others
+  btn.closest('.exercise').querySelectorAll('.ex-option').forEach(b => {
+    b.classList.remove('selected');
+  });
+  btn.classList.add('selected');
+  window.currentSelection = value;
+
+  // For single-choice exercises, we can check immediately or on a "Check" button.
+  // We'll auto-check for these types to keep it fast.
+  const result = window.currentExercise.check(value);
+
+  if (window.innerWidth <= 768) {
+    setTimeout(() => {
+        if (typeof onVocabEngineAnswer === 'function') {
+            onVocabEngineAnswer(result);
+        }
+    }, 200);
+  } else {
+    // On desktop, show feedback in the engine's feedback area
+    const feedback = btn.closest('.exercise').querySelector('.ex-feedback');
+    if (feedback) {
+        feedback.textContent = result === 'correct' ? '✅ Correct!' : '❌ Not quite';
+        feedback.className = `ex-feedback ${result === 'incorrect' ? 'incorrect' : 'correct'}`;
+        feedback.classList.remove('hidden');
+    }
+    setTimeout(() => {
+        if (typeof onVocabEngineAnswer === 'function') {
+            onVocabEngineAnswer(result);
+        }
+    }, 1000);
+  }
+};
+
+window.clozeCheck = function(btn) {
+  const input = btn.closest('.exercise').querySelector('.cloze-input');
+  if (!input) return;
+  const result = window.currentExercise.check(input.value);
+  input.classList.remove('cloze-correct', 'cloze-close', 'cloze-wrong');
+  input.classList.add(
+    result === 'exact' ? 'cloze-correct' :
+    result === 'close' ? 'cloze-close' : 'cloze-wrong'
+  );
+  const feedback = btn.closest('.exercise').querySelector('.ex-feedback');
+  if (feedback) {
+    feedback.textContent = result === 'exact' ? '✅ Correct!' :
+      result === 'close' ? '🟡 Almost — check your spelling' : '❌ Not quite';
+    feedback.className = `ex-feedback ${result === 'wrong' ? 'incorrect' : result === 'close' ? '' : 'correct'}`;
+    feedback.classList.remove('hidden');
+  }
+
+  if (result !== 'wrong') {
+      setTimeout(() => {
+          if (typeof onVocabEngineAnswer === 'function') {
+              onVocabEngineAnswer(result);
+          }
+      }, 1000);
+  }
+};
+    </script>
 
     <script src="js/games/utils/shared.js"></script>
     <script src="js/srs.js"></script>
