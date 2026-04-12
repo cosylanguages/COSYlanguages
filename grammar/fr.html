@@ -13,7 +13,7 @@
 
 <div class="grammar-header-new">
   <div>
-    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <div class="breadcrumb">French Roadmap → Curriculum</div>
     <h1>Grammaire Française 🇫🇷</h1>
   </div>
   <div class="lang-tabs">
@@ -32,27 +32,74 @@
 <nav class="grammar-sidebar">
   <div class="gs-label">Débutant (A1)</div>
   <a class="gs-item active" href="#etre_avoir">Être & Avoir</a>
-  <a class="gs-item" href="#present_tenses">Le Présent (-er)</a>
+  <a class="gs-item" href="#present_tenses">Le Présent</a>
   <a class="gs-item" href="#articles">Les Articles</a>
+  <a class="gs-item" href="#pronouns">Pronoms</a>
   <a class="gs-item" href="#negation">La Négation</a>
+
+  <div class="gs-label">Élémentaire (A2)</div>
+  <a class="gs-item" href="#past_tenses">Passé Composé</a>
+
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="../grammar.html">← Tous les programmes</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Français — Grammaire de référence</div>
+  <div class="grammar-section-title">Français — Grammar Reference & Roadmap</div>
 
   <!-- ÊTRE & AVOIR -->
   <div class="level-section" id="etre_avoir">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="card-title">Le verbe ÊTRE — Présent</div>
-      <table class="gtable">
-        <tr><td class="row-label">je</td><td class="content"><span class="key-verb">suis</span></td><td class="content">Je <span class="key-verb">suis</span> professeur.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">es</span></td><td class="content">Tu <span class="key-verb">es</span> français ?</td></tr>
-        <tr><td class="row-label">il / elle / on</td><td class="content"><span class="key-verb">est</span></td><td class="content">Elle <span class="key-verb">est</span> médecin.</td></tr>
-      </table>
-      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+      <div class="card-title">Verbes de base: Être & Avoir</div>
+      <div class="g-lesson-grid">
         <a href="fr-etre.html" class="g-lesson-btn">Leçon: Verbe Être</a>
         <a href="fr-avoir.html" class="g-lesson-btn">Leçon: Verbe Avoir</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRESENT -->
+  <div class="level-section" id="present_tenses">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Le Présent — Verbes en -ER</div>
+      <div class="g-lesson-grid">
+        <a href="fr-verbes-er.html" class="g-lesson-btn">Leçon: Verbes en -ER 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICLES -->
+  <div class="level-section" id="articles">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Les Articles (le, la, un...)</div>
+      <div class="g-lesson-grid">
+        <a href="fr-articles.html" class="g-lesson-btn">Leçon: Articles (le/la)</a>
+        <a href="fr-articles-partitifs.html" class="g-lesson-btn">Leçon: Partitifs (du/de la)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRONOUNS -->
+  <div class="level-section" id="pronouns">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Les Pronoms</div>
+      <div class="g-lesson-grid">
+        <a href="fr-pronoms.html" class="g-lesson-btn">Leçon: Pronoms Sujets</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEGATION -->
+  <div class="level-section" id="negation">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">La Négation (ne... pas)</div>
+      <div class="g-lesson-grid">
+        <a href="fr-negation.html" class="g-lesson-btn">Leçon: La Négation 🥪</a>
       </div>
     </div>
   </div>
@@ -67,7 +114,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

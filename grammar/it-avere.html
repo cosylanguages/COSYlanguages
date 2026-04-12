@@ -3,39 +3,36 @@
 <head>
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verbo AVERE — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="grammar-body">
+
 <div class="grammar-header-new">
   <div>
-    <div class="breadcrumb">Italian Roadmap → Verbo AVERE — COSYlanguages</div>
-    <h1>Verbo AVERE — COSYlanguages</h1>
+    <div class="breadcrumb">Italian Roadmap → Verbo AVERE</div>
+    <h1>Verbo AVERE</h1>
   </div>
-  <a href="it.html" class="lang-tab active">Back to Roadmap</a>
+  <a href="it.html" class="lang-tab active">← Programma</a>
 </div>
-
-
 
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <a class="gs-item active" href="#present">Presente</a>
-  <a class="gs-item" href="#quiz">Quiz Interattivo</a>
-  <div class="gs-label">Ritorno</div>
-  <a class="gs-item" href="it-essere-1.html">← Verbo ESSERE</a>
+  <a class="gs-item active" href="#conjugation">Conjugazione</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Navigazione</div>
+  <a class="gs-item" href="it.html">← Programma</a>
 </nav>
-<main class="grammar-main">
-  <div class="grammar-section-title">Italiano — Verbo AVERE</div>
 
-  <div class="g-card" id="present">
+<main class="grammar-main">
+  <div class="g-card" id="conjugation">
     <div class="g-card-title">Presente Indicativo</div>
     <table class="gtable">
       <tr><td class="row-label">io</td><td class="content"><span class="key-verb">ho</span></td></tr>
       <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">hai</span></td></tr>
-      <tr><td class="row-label">lui/lei/Lei</td><td class="content"><span class="key-verb">ha</span></td></tr>
+      <tr><td class="row-label">lui / lei / Lei</td><td class="content"><span class="key-verb">ha</span></td></tr>
       <tr><td class="row-label">noi</td><td class="content"><span class="key-verb">abbiamo</span></td></tr>
       <tr><td class="row-label">voi</td><td class="content"><span class="key-verb">avete</span></td></tr>
       <tr><td class="row-label">loro</td><td class="content"><span class="key-verb">hanno</span></td></tr>
@@ -43,12 +40,12 @@
   </div>
 
   <div class="g-quiz-card" id="quiz">
-    <div class="g-card-title">Quiz Interattivo</div>
+    <div class="g-card-title">Quiz Interactif</div>
     <div class="g-quiz-body">
       <div class="g-quiz-q" id="q1">
-        <div class="g-quiz-prompt">Io ___ un gatto.</div>
+        <div class="g-quiz-prompt">Tu ___ un libro.</div>
         <div class="g-quiz-options">
-          <button class="g-quiz-opt" onclick="answer(this,'q1','ho')">ho</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','hai')">hai</button>
           <button class="g-quiz-opt" onclick="answer(this,'q1','ha')">ha</button>
         </div>
         <div class="quiz-feedback" id="fb-q1"></div>
@@ -57,12 +54,15 @@
   </div>
 </main>
 </div>
+
 <script>
-const answers={q1:'ho'};
+const answers={q1:'hai'};
 function answer(btn,qid,chosen){
-  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
-  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Esatto!'; }
-  else { btn.classList.add('wrong'); fb.textContent='Non proprio.'; }
+  const correct=answers[qid]; const fb=document.getElementById("fb-"+qid);
+  if(chosen===correct){ btn.classList.add("correct"); fb.textContent="Esatto! ✅"; }
+  else { btn.classList.add("wrong"); fb.textContent="Riprova! ❌"; }
+}
+  else { btn.classList.add('wrong'); fb.textContent='Riprova! ❌'; }
 }
 </script>
 </body>

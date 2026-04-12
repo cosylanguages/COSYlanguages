@@ -30,22 +30,46 @@
 
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Anfänger (A1)</div>
-  <a class="gs-item active" href="#be_verb">Verb «sein»</a>
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#be_verb">Wichtige Verben</a>
+  <a class="gs-item" href="#regular_verbs">Regelmäßige Verben</a>
+  <a class="gs-item" href="#articles">Artikel</a>
+
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="../grammar.html">← All Roadmaps</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Deutsch — Grammatik-Referenz</div>
+  <div class="grammar-section-title">Deutsch — Grammar Reference & Roadmap</div>
 
   <div class="level-section" id="be_verb">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="card-title">Verb SEIN — Präsens</div>
-      <table class="gtable">
-        <tr><td class="row-label">ich</td><td class="content"><span class="key-verb">bin</span></td><td class="content">Ich <span class="key-verb">bin</span> Lehrer.</td></tr>
-        <tr><td class="row-label">du</td><td class="content"><span class="key-verb">bist</span></td><td class="content">Du <span class="key-verb">bist</span> hier.</td></tr>
-        <tr><td class="row-label">er / sie / es</td><td class="content"><span class="key-verb">ist</span></td><td class="content">Er <span class="key-verb">ist</span> Arzt.</td></tr>
-      </table>
+      <div class="card-title">Wichtige Verben: sein & haben</div>
+      <div class="g-lesson-grid">
+        <a href="de-sein.html" class="g-lesson-btn">Lektion: sein (be)</a>
+        <a href="de-haben.html" class="g-lesson-btn">Lektion: haben (have)</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="level-section" id="regular_verbs">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Regelmäßige Verben</div>
+      <div class="g-lesson-grid">
+        <a href="de-verben.html" class="g-lesson-btn">Lektion: Verben Konjugation 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="level-section" id="articles">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Definite Articles</div>
+      <div class="g-lesson-grid">
+        <a href="de-artikel.html" class="g-lesson-btn">Lektion: Artikel</a>
+      </div>
     </div>
   </div>
 
@@ -59,7 +83,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

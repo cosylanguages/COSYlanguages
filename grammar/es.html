@@ -32,26 +32,56 @@
 <nav class="grammar-sidebar">
   <div class="gs-label">Principiante (A1)</div>
   <a class="gs-item active" href="#ser_estar">Ser & Estar</a>
-  <a class="gs-item" href="#present_tenses">Presente Regular</a>
+  <a class="gs-item" href="#present_tenses">Presente</a>
   <a class="gs-item" href="#articles">Artículos</a>
+  <a class="gs-item" href="#pronouns">Pronombres</a>
+
+  <div class="gs-label">Intermedio (A2-B1)</div>
+  <a class="gs-item" href="#past_tenses">Pasado (Indefinido)</a>
+  <a class="gs-item" href="#future_forms">Futuro</a>
+
+  <div class="gs-label">Navegación</div>
+  <a class="gs-item" href="../grammar.html">← Todos los programas</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Español — Gramática de referencia</div>
+  <div class="grammar-section-title">Español — Grammar Reference & Roadmap</div>
 
   <!-- SER & ESTAR -->
   <div class="level-section" id="ser_estar">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="card-title">Verbo SER — Presente</div>
+      <div class="card-title">Verbos de base: SER & ESTAR</div>
       <table class="gtable">
-        <tr><td class="row-label">yo</td><td class="content"><span class="key-verb">soy</span></td><td class="content">Yo <span class="key-verb">soy</span> estudiante.</td></tr>
-        <tr><td class="row-label">tú</td><td class="content"><span class="key-verb">eres</span></td><td class="content">Tú <span class="key-verb">eres</span> mi amigo.</td></tr>
-        <tr><td class="row-label">él / ella / usted</td><td class="content"><span class="key-verb">es</span></td><td class="content">Él <span class="key-verb">es</span> profesor.</td></tr>
+        <tr><td class="row-label">yo</td><td class="content">soy / estoy</td><td class="content">Soy español. / Estoy bien.</td></tr>
+        <tr><td class="row-label">tú</td><td class="content">eres / estás</td><td class="content">Eres mi amigo. / Estás aquí.</td></tr>
+        <tr><td class="row-label">él / ella</td><td class="content">es / está</td><td class="content">Es médico. / Está cansado.</td></tr>
       </table>
       <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
         <a href="es-ser.html" class="g-lesson-btn">Lección: Verbo Ser</a>
         <a href="es-estar.html" class="g-lesson-btn">Lección: Verbo Estar</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRESENTE -->
+  <div class="level-section" id="present_tenses">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Presente de Indicativo</div>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="es-presente-reg.html" class="g-lesson-btn">Lección: Verbos Regulares 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRONOMBRES -->
+  <div class="level-section" id="pronouns">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Pronombres Personales</div>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="es-pronombres.html" class="g-lesson-btn">Lección: Los Pronombres</a>
       </div>
     </div>
   </div>
@@ -66,7 +96,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

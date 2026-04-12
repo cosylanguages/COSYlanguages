@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Verb 'To Be' · Russian Grammar — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Russian Roadmap → The Verb 'To Be'</div>
+    <h1>The Verb 'To Be' · Russian Grammar</h1>
+  </div>
+  <a href="ru.html" class="lang-tab active">← План</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#rules">Rules</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Навигация</div>
+  <a class="gs-item" href="ru.html">← План</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="level-section" id="rules">
+    <div class="g-card">
+      <div class="card-title">The "Zero" Verb in Present</div>
+      <div style="padding:1.5rem; color:var(--gh-black); font-weight:700;">
+        <p>In Russian, the verb "to be" is almost always <strong>omitted</strong> in the present tense.</p>
+        <p style="margin-top:1rem; font-size:1.1rem;">Я <span class="key-verb">—</span> студент. (I am a student)</p>
+        <p style="font-size:1.1rem;">Это <span class="key-verb">—</span> книга. (This is a book)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">How do you say "I am at home"?</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','zero')">Я дома</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','is')">Я есть дома</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'zero'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Try again! ❌'; }
+}
+</script>
+</body>
+</html>

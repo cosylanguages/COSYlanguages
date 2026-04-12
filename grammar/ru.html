@@ -30,23 +30,48 @@
 
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Начинающий (A1)</div>
-  <a class="gs-item active" href="#be_verb">Глагол «быть»</a>
-  <a class="gs-item" href="#cases">Падежи (Введение)</a>
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#be_verb">Verb 'To Be'</a>
+  <a class="gs-item" href="#pronouns">Pronouns</a>
+  <a class="gs-item" href="#nouns">Nouns & Gender</a>
+
+  <div class="gs-label">Навигация</div>
+  <a class="gs-item" href="../grammar.html">← Все темы</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Русский — Справочник по грамматике</div>
+  <div class="grammar-section-title">Русский — Grammar Reference & Roadmap</div>
 
+  <!-- BE VERB -->
   <div class="level-section" id="be_verb">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
       <div class="card-title">Глагол БЫТЬ — Настоящее время</div>
-      <table class="gtable">
-        <tr class="section-row"><td colspan="2">📌 В настоящем времени глагол «быть» опускается</td></tr>
-        <tr><td class="row-label">Я</td><td class="content">Я <span class="key-verb">—</span> учитель.</td></tr>
-        <tr><td class="row-label">Ты</td><td class="content">Ты <span class="key-verb">—</span> студент.</td></tr>
-      </table>
+      <div class="g-lesson-grid">
+        <a href="ru-be.html" class="g-lesson-btn">Урок: Глагол БЫТЬ 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRONOUNS -->
+  <div class="level-section" id="pronouns">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Personal Pronouns</div>
+      <div class="g-lesson-grid">
+        <a href="ru-pronouns.html" class="g-lesson-btn">Interactive Lesson: Pronouns</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOUNS -->
+  <div class="level-section" id="nouns">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Noun Gender</div>
+      <div class="g-lesson-grid">
+        <a href="ru-nouns-gender.html" class="g-lesson-btn">Interactive Lesson: Noun Gender</a>
+      </div>
     </div>
   </div>
 
@@ -60,7 +85,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

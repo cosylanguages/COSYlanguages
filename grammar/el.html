@@ -30,21 +30,48 @@
 
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Αρχάριοι (A1)</div>
-  <a class="gs-item active" href="#be_verb">Ρήμα «είμαι»</a>
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#be_verb">Verb 'To Be'</a>
+  <a class="gs-item" href="#pronouns">Pronouns</a>
+  <a class="gs-item" href="#articles">Articles</a>
+
+  <div class="gs-label">Πλοήγηση</div>
+  <a class="gs-item" href="../grammar.html">← Όλα τα προγράμματα</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Ελληνικά — Γραμματική αναφορά</div>
+  <div class="grammar-section-title">Ελληνικά — Grammar Reference & Roadmap</div>
 
+  <!-- BE VERB -->
   <div class="level-section" id="be_verb">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
       <div class="card-title">Ρήμα ΕΙΜΑΙ — Ενεστώτας</div>
-      <table class="gtable">
-        <tr><td class="row-label">εγώ</td><td class="content"><span class="key-verb">είμαι</span></td><td class="content">Εγώ <span class="key-verb">είμαι</span> δάσκαλος.</td></tr>
-        <tr><td class="row-label">εσύ</td><td class="content"><span class="key-verb">είσαι</span></td><td class="content">Εσύ <span class="key-verb">είσαι</span> εδώ;</td></tr>
-      </table>
+      <div class="g-lesson-grid">
+        <a href="el-be.html" class="g-lesson-btn">Μάθημα: Ρήμα ΕΙΜΑΙ 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRONOUNS -->
+  <div class="level-section" id="pronouns">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Personal Pronouns</div>
+      <div class="g-lesson-grid">
+        <a href="el-pronouns.html" class="g-lesson-btn">Interactive Lesson: Pronouns</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICLES -->
+  <div class="level-section" id="articles">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Definite Articles (The)</div>
+      <div class="g-lesson-grid">
+        <a href="el-articles.html" class="g-lesson-btn">Interactive Lesson: Articles</a>
+      </div>
     </div>
   </div>
 
@@ -58,7 +85,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

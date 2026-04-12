@@ -32,32 +32,53 @@
 <nav class="grammar-sidebar">
   <div class="gs-label">Base (A1)</div>
   <a class="gs-item active" href="#verb_to_be">Essere & Avere</a>
-  <a class="gs-item" href="#present_tenses">Presente Indicativo</a>
-  <a class="gs-item" href="#nouns_plurals">Nomi & Plurali</a>
+  <a class="gs-item" href="#present_tenses">Presente</a>
   <a class="gs-item" href="#articles">Articoli</a>
+  <a class="gs-item" href="#nouns_plurals">Nomi & Plurali</a>
+  <a class="gs-item" href="#pronouns">Pronomi</a>
 
   <div class="gs-label">Intermedio (A2-B1)</div>
   <a class="gs-item" href="#past_tenses">Passato Prossimo</a>
   <a class="gs-item" href="#future_forms">Futuro</a>
+  <a class="gs-item" href="#modals">Verbi Modali</a>
+
+  <div class="gs-label">Navigazione</div>
+  <a class="gs-item" href="../grammar.html">← Tutti i programmi</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Italiano — Grammatica di riferimento</div>
+  <div class="grammar-section-title">Italiano — Grammar Reference & Roadmap</div>
 
   <!-- ESSERE & AVERE -->
   <div class="level-section" id="verb_to_be">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="card-title">Verbo ESSERE — Presente</div>
+      <div class="card-title">Verbi fondamentali: Essere & Avere</div>
       <table class="gtable">
-        <tr><td class="row-label">io</td><td class="content"><span class="key-verb">sono</span></td><td class="content">Io <span class="key-verb">sono</span> italiano.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">sei</span></td><td class="content">Tu <span class="key-verb">sei</span> a casa?</td></tr>
-        <tr><td class="row-label">lui / lei</td><td class="content"><span class="key-verb">è</span></td><td class="content">Lei <span class="key-verb">è</span> medico.</td></tr>
+        <tr><td class="row-label">io</td><td class="content">sono / ho</td><td class="content">Io sono felice. / Ho fame.</td></tr>
+        <tr><td class="row-label">tu</td><td class="content">sei / hai</td><td class="content">Tu sei a casa. / Hai un libro.</td></tr>
+        <tr><td class="row-label">lui / lei</td><td class="content">è / ha</td><td class="content">Lei è medico. / Ha tempo.</td></tr>
       </table>
       <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
         <a href="it-essere-1.html" class="g-lesson-btn">Lezione: Essere (Singolare)</a>
         <a href="it-essere-2.html" class="g-lesson-btn">Lezione: Essere (Plurale)</a>
         <a href="it-avere.html" class="g-lesson-btn">Lezione: Verbo Avere</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRESENTE -->
+  <div class="level-section" id="present_tenses">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Presente Indicativo (-ARE, -ERE, -IRE)</div>
+      <table class="gtable">
+        <tr><td class="row-label">-ARE</td><td class="content">parl<span class="key-verb">o</span></td><td class="content">io parlo</td></tr>
+        <tr><td class="row-label">-ERE</td><td class="content">vend<span class="key-verb">o</span></td><td class="content">io vendo</td></tr>
+        <tr><td class="row-label">-IRE</td><td class="content">dorm<span class="key-verb">o</span></td><td class="content">io dormo</td></tr>
+      </table>
+      <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
+        <a href="it-verbi.html" class="g-lesson-btn">Lezione Interattiva: Verbi Regolari 🚀</a>
       </div>
     </div>
   </div>
@@ -68,13 +89,22 @@
     <div class="g-card">
       <div class="card-title">Nomi: Singolare & Plurale</div>
       <table class="gtable">
-        <tr class="section-row"><td colspan="3">Maschile</td></tr>
-        <tr><td class="row-label">-o → -i</td><td class="content">il libr<span class="key-verb">o</span></td><td class="content">i libr<span class="key-verb">i</span></td></tr>
-        <tr class="section-row"><td colspan="3">Femminile</td></tr>
-        <tr><td class="row-label">-a → -e</td><td class="content">la cas<span class="key-verb">a</span></td><td class="content">le cas<span class="key-verb">e</span></td></tr>
+        <tr><td class="row-label">Maschile</td><td class="content">-o → -i</td><td class="content">il libro → i libri</td></tr>
+        <tr><td class="row-label">Femminile</td><td class="content">-a → -e</td><td class="content">la casa → le case</td></tr>
       </table>
       <div class="g-lesson-grid" style="border-top: 3px solid var(--gh-black); background: rgba(0,0,0,0.05);">
         <a href="it-plurali.html" class="g-lesson-btn">Lezione: Nomi & Plurali</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICOLI -->
+  <div class="level-section" id="articles">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Articoli Determinativi</div>
+      <div class="g-lesson-grid">
+        <a href="it-articoli.html" class="g-lesson-btn">Lezione: Gli Articoli</a>
       </div>
     </div>
   </div>
@@ -89,7 +119,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

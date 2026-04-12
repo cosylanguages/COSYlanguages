@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Order · English Grammar — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">English Roadmap → Word Order</div>
+    <h1>Word Order · English Grammar</h1>
+  </div>
+  <a href="en.html" class="lang-tab active">← Roadmap</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <a class="gs-item active" href="#rules">Rules</a>
+  <a class="gs-item" href="#questions">Questions</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="en.html">← Roadmap</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="level-section" id="rules">
+    <div class="g-card">
+      <div class="card-title">Subject + Verb + Object (SVO)</div>
+      <div style="padding:1.5rem; color:var(--gh-black); font-weight:700;">
+        <p>In English, the basic sentence order is almost always:</p>
+        <p style="margin-top:1rem; font-size:1.2rem;"><span class="key-blue">Subject</span> + <span class="key-verb">Verb</span> + <span class="key-label">Object</span></p>
+        <p style="margin-top:0.5rem;"><span class="key-blue">I</span> <span class="key-verb">speak</span> <span class="key-label">English</span>.</p>
+        <p><span class="key-blue">They</span> <span class="key-verb">like</span> <span class="key-label">pizza</span>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="level-section" id="questions">
+    <div class="g-card">
+      <div class="card-title">Question Order (ASI / QUASI)</div>
+      <table class="gtable">
+        <tr class="section-row"><td colspan="3">Auxiliary + Subject + Infinitive (ASI)</td></tr>
+        <tr><td class="row-label">Do</td><td class="content">you</td><td class="content">work?</td></tr>
+        <tr class="section-row"><td colspan="4">Question Word + ASI (QUASI)</td></tr>
+        <tr><td class="row-label">Where</td><td class="content">do</td><td class="content">you</td><td class="content">live?</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Choose the correct order:</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','correct')">I drink coffee.</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','wrong')">Coffee I drink.</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'correct'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Try again! ❌'; }
+}
+</script>
+</body>
+</html>

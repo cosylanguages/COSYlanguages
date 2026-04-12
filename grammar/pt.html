@@ -30,22 +30,45 @@
 
 <div class="grammar-layout">
 <nav class="grammar-sidebar">
-  <div class="gs-label">Iniciante (A1)</div>
-  <a class="gs-item active" href="#be_verb">Verbo «ser»</a>
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#be_verb">Verbos Ser & Estar</a>
+  <a class="gs-item" href="#regular_verbs">Verbos Regulares</a>
+  <a class="gs-item" href="#articles">Artigos</a>
+
+  <div class="gs-label">Navegação</div>
+  <a class="gs-item" href="../grammar.html">← Todos os programas</a>
 </nav>
 
 <main class="grammar-main">
-  <div class="grammar-section-title">Português — Gramática de referência</div>
+  <div class="grammar-section-title">Português — Grammar Reference & Roadmap</div>
 
   <div class="level-section" id="be_verb">
     <div class="level-badge">A1 — STARTER</div>
     <div class="g-card">
-      <div class="card-title">Verbo SER — Presente</div>
-      <table class="gtable">
-        <tr><td class="row-label">eu</td><td class="content"><span class="key-verb">sou</span></td><td class="content">Eu <span class="key-verb">sou</span> professor.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">és</span></td><td class="content">Tu <span class="key-verb">és</span> aqui?</td></tr>
-        <tr><td class="row-label">ele / ela</td><td class="content"><span class="key-verb">é</span></td><td class="content">Ele <span class="key-verb">é</span> médico.</td></tr>
-      </table>
+      <div class="card-title">Verbos de Ligação: SER e ESTAR</div>
+      <div class="g-lesson-grid">
+        <a href="pt-ser-estar.html" class="g-lesson-btn">Lição: Ser vs Estar 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="level-section" id="regular_verbs">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Verbos em -AR</div>
+      <div class="g-lesson-grid">
+        <a href="pt-verbos.html" class="g-lesson-btn">Lição: Verbos Regulares</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="level-section" id="articles">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Artigos Definidos</div>
+      <div class="g-lesson-grid">
+        <a href="pt-artigos.html" class="g-lesson-btn">Lição: Artigos 🚀</a>
+      </div>
     </div>
   </div>
 
@@ -59,7 +82,7 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.gs-item[href="#${entry.target.id}"]`);
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
       if (link) link.classList.add('active');
     }
   });

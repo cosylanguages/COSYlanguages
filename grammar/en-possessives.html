@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Possessive Adjectives · English Grammar — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"></head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">English Roadmap → Possessive Adjectives</div>
+    <h1>Possessive Adjectives · English Grammar</h1>
+  </div>
+  <a href="en.html" class="lang-tab active">← Roadmap</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+<a class="gs-item active" href="#rules">Rules</a>
+  <a class="gs-item" href="#quiz">Quiz</a>
+  <div class="gs-label">Navigation</div>
+  <a class="gs-item" href="en.html">← Roadmap</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="level-section" id="rules">
+    <div class="g-card">
+      <div class="g-card-title">Possessive Adjectives (my, your, his...)</div>
+      <table class="gtable">
+        <tr><td class="row-label">I</td><td class="content"><span class="key-verb">my</span></td><td class="content">my book</td></tr>
+        <tr><td class="row-label">you</td><td class="content"><span class="key-verb">your</span></td><td class="content">your car</td></tr>
+        <tr><td class="row-label">he</td><td class="content"><span class="key-verb">his</span></td><td class="content">his dog</td></tr>
+        <tr><td class="row-label">she</td><td class="content"><span class="key-verb">her</span></td><td class="content">her house</td></tr>
+        <tr><td class="row-label">it</td><td class="content"><span class="key-verb">its</span></td><td class="content">its bone</td></tr>
+        <tr><td class="row-label">we</td><td class="content"><span class="key-verb">our</span></td><td class="content">our city</td></tr>
+        <tr><td class="row-label">they</td><td class="content"><span class="key-verb">their</span></td><td class="content">their family</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Interactive Quiz</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">I have a cat. ___ name is Luna.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','its')">its</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','his')">his</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','her')">her</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const answers={q1:'its'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Correct! ✅'; }
+  else { btn.classList.add('wrong'); fb.textContent='Try again! ❌'; }
+}
+</script>
+</body>
+</html>
