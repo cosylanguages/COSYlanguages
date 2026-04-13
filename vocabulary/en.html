@@ -13,11 +13,13 @@
     <script src="../js/data/germanic/en/starter/verbs.js"></script>
     <script src="../js/data/germanic/en/starter/people.js"></script>
     <script src="../js/data/germanic/en/starter/locations.js"></script>
+    <script src="../js/data/germanic/en/starter/nationalities.js"></script>
     <script src="../js/data/germanic/en/elementary/vocabulary.js"></script>
     <script src="../js/data/germanic/en/elementary/adjectives.js"></script>
     <script src="../js/data/germanic/en/elementary/verbs.js"></script>
     <script src="../js/data/germanic/en/elementary/people.js"></script>
     <script src="../js/data/germanic/en/elementary/locations.js"></script>
+    <script src="../js/data/germanic/en/elementary/nationalities.js"></script>
     <script src="../js/data/germanic/en/intermediate/vocabulary.js"></script>
     <script src="../js/data/germanic/en/intermediate/adjectives.js"></script>
     <script src="../js/data/germanic/en/intermediate/verbs.js"></script>
@@ -711,24 +713,44 @@ const VOCAB_CONFIG = {
 let VOCAB = {};
 
 function initDynamicVocab() {
-  const rawData = window.vocabularyData["en"] || [];
   const levels = ["A1", "A2", "B1", "B2", "C1", "C2"];
-
   levels.forEach(lv => {
     VOCAB[lv] = { ...VOCAB_CONFIG[lv], words: [] };
   });
 
-  rawData.forEach(item => {
+  // Collect data from all potential sources to be robust
+  const sources = [
+    window.vocabularyData?.["en"],
+    window.verbsData?.["en"],
+    window.adjectivesData?.["en"]
+  ].filter(Boolean).flat();
+
+  // De-duplicate items based on word and level
+  const uniqueItems = [];
+  const seen = new Set();
+
+  sources.forEach(item => {
+    if (!item || !item.word || !item.level) return;
+    const key = `${item.word.toLowerCase()}|${item.level}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    uniqueItems.push(item);
+  });
+
+  uniqueItems.forEach(item => {
     const lvKey = VOCAB_MAP[item.level];
     if (lvKey && VOCAB[lvKey]) {
       // Find theme label
       let themeLabel = item.theme;
       if (window.themeConfig) {
-        for (const topTheme in window.themeConfig[item.level]?.common_themes) {
-          const subThemes = window.themeConfig[item.level].common_themes[topTheme];
-          if (subThemes[item.theme]) {
-            themeLabel = subThemes[item.theme];
-            break;
+        const levelConfig = window.themeConfig[item.level];
+        if (levelConfig?.common_themes) {
+          for (const topTheme in levelConfig.common_themes) {
+            const subThemes = levelConfig.common_themes[topTheme];
+            if (subThemes[item.theme]) {
+              themeLabel = subThemes[item.theme];
+              break;
+            }
           }
         }
       }
@@ -740,7 +762,7 @@ function initDynamicVocab() {
         ex: item.definitions?.[0]?.examples?.[0] || "",
         pron: item.transcription ? `/${item.transcription}/` : "",
         err: item.subtext || "", // Use subtext as "info/error" for now
-        topic: themeLabel,
+        topic: themeLabel || item.theme,
         raw: item // Keep raw for deeper integration if needed
       });
     }

@@ -388,13 +388,13 @@ const UNITS = [
   arc:'Daily routines → Work → Home → Money → Food → Tech → Free time → Community',
   lessons_count:10,
   grammar_summary:[
-    {name:'Present Simple (all forms)', desc:'Full paradigm with frequency adverbs', ex:'"She usually works from home."'},
-    {name:'Should / Shouldn\'t', desc:'Advice in health and daily life', ex:'"You should eat more vegetables."'},
-    {name:'Have to / Don\'t have to', desc:'Obligation and lack of obligation', ex:'"I have to pay rent by Friday."'},
-    {name:'Like / Love / Hate + -ing', desc:'Gradable opinion scale with gerund', ex:'"I really enjoy cooking at weekends."'},
-    {name:'Comparatives (review)', desc:'Recycled from A0, extended to opinions', ex:'"My commute is longer than before."'},
+    {name:'Present Simple (all forms)', desc:'Full paradigm with frequency adverbs', ex:'"She usually works from home."', ref:'present-simple'},
+    {name:'Should / Shouldn\'t', desc:'Advice in health and daily life', ex:'"You should eat more vegetables."', ref:'modals'},
+    {name:'Have to / Don\'t have to', desc:'Obligation and lack of obligation', ex:'"I have to pay rent by Friday."', ref:'modals'},
+    {name:'Like / Love / Hate + -ing', desc:'Gradable opinion scale with gerund', ex:'"I really enjoy cooking at weekends."', ref:'present-simple'},
+    {name:'Comparatives (review)', desc:'Recycled from A0, extended to opinions', ex:'"My commute is longer than before."', ref:'grammar-reference.html'},
   ],
-  vocab_themes:['Work Basics','Home & Housing','Daily Routine','Health Basics','Money & Shopping','Technology','Leisure & Social Life'],
+  vocab_themes:['Workplace basics','Rooms of a home','Daily work routines','Common illnesses & symptoms','Money & payment','Basic technology devices','Leisure activities'],
   lessons:[
     { code:'A1-01', num:1, title:'A day in my life — routines revisited',
       grammar:'Present simple: all persons + frequency adverbs (mid-position)',
@@ -523,14 +523,14 @@ const UNITS = [
   arc:'Career story → Past continuous → Used to → Present perfect (experience/recent/duration) → Narrative → Reported speech',
   lessons_count:10,
   grammar_summary:[
-    {name:'Past Simple (extended)', desc:'Regular + irregular, career narrative, time expressions', ex:'"She left her job in 2019 and started her own company."'},
-    {name:'Past Continuous', desc:'Actions in progress; contrast with past simple', ex:'"I was working when she called."'},
-    {name:'Used to', desc:'Past habits and states no longer true', ex:'"I used to live in Paris but now I live in London."'},
-    {name:'Present Perfect — experience', desc:'ever/never; life experiences', ex:'"Have you ever worked abroad?"'},
-    {name:'Present Perfect — recent/duration', desc:'just, already, yet; for/since', ex:'"I\'ve just finished. She\'s worked here for five years."'},
-    {name:'Reported Speech (intro)', desc:'say/tell + that; tense shift', ex:'"She said (that) she was tired."'},
+    {name:'Past Simple (extended)', desc:'Regular + irregular, career narrative, time expressions', ex:'"She left her job in 2019 and started her own company."', ref:'past-simple'},
+    {name:'Past Continuous', desc:'Actions in progress; contrast with past simple', ex:'"I was working when she called."', ref:'past-simple'},
+    {name:'Used to', desc:'Past habits and states no longer true', ex:'"I used to live in Paris but now I live in London."', ref:'past-simple'},
+    {name:'Present Perfect — experience', desc:'ever/never; life experiences', ex:'"Have you ever worked abroad?"', ref:'present-perfect'},
+    {name:'Present Perfect — recent/duration', desc:'just, already, yet; for/since', ex:'"I\'ve just finished. She\'s worked here for five years."', ref:'present-perfect'},
+    {name:'Reported Speech (intro)', desc:'say/tell + that; tense shift', ex:'"She said (that) she was tired."', ref:'grammar-reference.html'},
   ],
-  vocab_themes:['Career history verbs','Past time expressions','Narrative connectors','Reporting verbs'],
+  vocab_themes:['Career development','Daily work routines','Conjunctions & connectors','Greetings & social phrases'],
   lessons:[
     { code:'A1-11', num:1, title:'My career story — past simple review',
       grammar:'Past simple: regular + irregular review + time expressions (in 2015, after that, then)',
@@ -659,14 +659,14 @@ const UNITS = [
   arc:'Going to → Will → Arrangements → First conditional → Second conditional → Comparisons → Advice → Obligations → Requests',
   lessons_count:10,
   grammar_summary:[
-    {name:'Going to + will', desc:'Plans, intentions, predictions and spontaneous decisions', ex:'"I\'m going to change jobs. I think it will be difficult."'},
-    {name:'Present continuous (future)', desc:'Fixed arrangements in diary', ex:'"I\'m meeting a client on Friday."'},
-    {name:'First conditional', desc:'Real/possible future conditions', ex:'"If you work hard, you will succeed."'},
-    {name:'Second conditional (intro)', desc:'Imagined/unlikely situations', ex:'"If I had more time, I would travel."'},
-    {name:'Must / Need to / Have to', desc:'Necessity, obligation, prohibition', ex:'"You must arrive on time. You don\'t have to wear a tie."'},
-    {name:'Could you / Would you mind', desc:'Polite requests and offers', ex:'"Could you send me the report? Would you mind helping?"'},
+    {name:'Going to + will', desc:'Plans, intentions, predictions and spontaneous decisions', ex:'"I\'m going to change jobs. I think it will be difficult."', ref:'future-plans'},
+    {name:'Present continuous (future)', desc:'Fixed arrangements in diary', ex:'"I\'m meeting a client on Friday."', ref:'future-plans'},
+    {name:'First conditional', desc:'Real/possible future conditions', ex:'"If you work hard, you will succeed."', ref:'conditionals'},
+    {name:'Second conditional (intro)', desc:'Imagined/unlikely situations', ex:'"If I had more time, I would travel."', ref:'conditionals'},
+    {name:'Must / Need to / Have to', desc:'Necessity, obligation, prohibition', ex:'"You must arrive on time. You don\'t have to wear a tie."', ref:'modals'},
+    {name:'Could you / Would you mind', desc:'Polite requests and offers', ex:'"Could you send me the report? Would you mind helping?"', ref:'modals'},
   ],
-  vocab_themes:['Future plans vocabulary','Conditional language','Advice vocabulary','Obligation vocabulary'],
+  vocab_themes:['Booking & planning a trip','Giving reasons','Giving opinions','Money & payment'],
   lessons:[
     { code:'A1-21', num:1, title:'I\'m going to change — plans and intentions',
       grammar:'Going to + infinitive for intention; present continuous for fixed arrangements',
@@ -795,13 +795,13 @@ const UNITS = [
   arc:'Personality → Relative clauses → Discussion skills → Indirect questions → Opinions → Culture → Social invitations → Phone English → Email writing',
   lessons_count:10,
   grammar_summary:[
-    {name:'Adjective + preposition', desc:'good at, bad at, interested in, worried about, etc.', ex:'"She is really good at dealing with clients."'},
-    {name:'Defining relative clauses', desc:'who, which/that, where', ex:'"The person who manages the team is very experienced."'},
-    {name:'Question tags', desc:'Positive → negative; negative → positive', ex:'"She\'s your boss, isn\'t she?"'},
-    {name:'Indirect questions', desc:'Polite enquiry with statement word order', ex:'"Could you tell me where the meeting room is?"'},
-    {name:'Opinion phrases', desc:'I think/believe/feel that + clause', ex:'"In my opinion, remote working is more productive."'},
+    {name:'Adjective + preposition', desc:'good at, bad at, interested in, worried about, etc.', ex:'"She is really good at dealing with clients."', ref:'grammar-reference.html'},
+    {name:'Defining relative clauses', desc:'who, which/that, where', ex:'"The person who manages the team is very experienced."', ref:'grammar-reference.html'},
+    {name:'Question tags', desc:'Positive → negative; negative → positive', ex:'"She\'s your boss, isn\'t she?"', ref:'grammar-reference.html'},
+    {name:'Indirect questions', desc:'Polite enquiry with statement word order', ex:'"Could you tell me where the meeting room is?"', ref:'grammar-reference.html'},
+    {name:'Opinion phrases', desc:'I think/believe/feel that + clause', ex:'"In my opinion, remote working is more productive."', ref:'grammar-reference.html'},
   ],
-  vocab_themes:['Personality adjectives','Relative pronouns','Agreement phrases','Opinion language','Cultural vocabulary','Email register'],
+  vocab_themes:['Personality & Character','Asking & answering questions','Agreeing & disagreeing','Giving opinions','Customs & traditions','Contact details'],
   lessons:[
     { code:'A1-31', num:1, title:'Describing people — personality in depth',
       grammar:'Adjective + preposition: good at, bad at, interested in, worried about',
@@ -1177,8 +1177,38 @@ function posLabel(pos){
 }
 
 function renderVocabPills(words){
+  const verbs = [
+    'be','have','feel','give','take','get','put','make','do','use','open','close','start','finish','help','try','show','find','keep','lose',
+    'cut','turn','bring','say','tell','ask','speak','talk','call','write','read','listen','answer','repeat','go','come','walk','drive','fly',
+    'arrive','leave','move','return','travel','eat','drink','sleep','cook','clean','wear','wash','buy','pay','spend','save','work','live',
+    'think','know','want','need','like','dislike','love','hate','hope','remember','forget','understand','decide','enjoy','see','hear',
+    'wake up','watch','look','play','run','sit','stand','meet','learn','change','stop','add','subtract','win','wait','die','send','stay',
+    'fall','rise','pass','sell','pull','push','carry','break','receive','agree','draw','share','smile','cry','dance','sing','jump','swim',
+    'study','teach','rent','exercise','cost','invite','get up','have breakfast','come back','go to bed','check','unpack','reply','present',
+    'attend','manage','earn','visit','celebrate','hurt','rest','book','pack','cancel','miss','order','thank','introduce','relax','mean',
+    'follow','grow','become','choose','begin','end','brush','ride','believe','prefer','catch','fix','plan','borrow','smell','taste','lie',
+    'laugh','worry','sound','spell','point','shout','wave','kick','throw','bounce','paint','hop','skip','count','tick','cross','colour',
+    'hold','lead','fight','hide','seek','ring','text','whisper','touch','let','set','email','phone','climb','dress','undress','turn on',
+    'turn off','welcome','act','copy','fill','fit','join','note','pick','wish','collect','describe','breathe','cough','sneeze','yawn',
+    'explain','prepare','depend','belong','can','must','accept','achieve','admire','admit','advise','afford','allow','analyze','announce',
+    'apologise','appear','apply','apply for','appreciate','argue','arrange','arrest','assist','attach','attract','avoid','beat','behave',
+    'bite','blame','brush teeth','budget','build','calculate','carry on','challenge','charge','claim','collaborate','communicate','compare',
+    'compete','complain','complete','compromise','concentrate','confirm','confuse','connect','conserve','consider','contact','contain',
+    'continue','contract','control','convince','create','cure','cut down on','damage','decorate','decrease','delegate','deliver','deposit',
+    'design','destroy','develop','diagnose','disagree','discover','discuss','dismiss','divide','doubt','dream','encourage','entertain',
+    'escape','evaluate','evolve','examine','excite','exhale','expand','expect','explore','fail','find out','forgive','freeze','give up',
+    'graduate','greet','guess','happen','hire','identify','ignore','imagine','impress','improve','improve skills','include','increase',
+    'inform','inhale','injure','intend','interview','invent','invest','kill','lend','log out','look after','look for','lose weight',
+    'measure','memorise','mention','multiply','negotiate','notice','observe','offer','organize','owe','participate','perform','pollute',
+    'predict','prevent','produce','prohibit','promise','promote','protect','provide','put off','reach','react','realize','recommend',
+    'record','recover','recycle','reduce','refuse','remain','repair','replace','require','reserve','resign','retire','schedule','search',
+    'seem','serve','set up','solve','sort out','succeed','suffer','suggest','support','swallow','take on','transfer','treat','trust',
+    'turn down','vote','withdraw','wonder','insist','interrupt','involve','obtain','occur','operate','persuade','publish','recognize',
+    'reflect','release','rely','remind','remove','represent','request','rescue','resolve','respond','rehearse','applaud','check in',
+    'overtake','break up','check out'
+  ];
   return words.map(w=>{
-    const cls = w.endsWith(' verb')||['wake up','get up','leave','arrive','start','finish','check','send','meet','reply','attend','manage','help','order','visit','call','ask','explain','tell','show','thank','introduce','recommend','pay','spend','cost','save','earn','afford','charge','book','travel','pack','cancel','miss','relax','enjoy','exercise','feel','hurt','rest','recover','cook','clean','repair','rent','move','invite','celebrate','happen','seem','mean','follow','change','continue','stop','try','wait','watch','sit','stand','carry','grow','learn','study','teach','play','include','become','belong','choose','build'].includes(w.toLowerCase()) ? 'verb' : 'noun';
+    const cls = w.endsWith(' verb')||verbs.includes(w.toLowerCase()) ? 'verb' : 'noun';
     return `<a href="../../vocabulary/en.html?search=${encodeURIComponent(w)}" class="vp ${cls}">${w}</a>`;
   }).join('');
 }
@@ -1201,18 +1231,18 @@ function buildContent(){
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.6rem">`;
 
   const themes={
-    'Work Basics':     ['job','work','boss','colleague','salary','office','meeting','email','full-time','part-time','commute'],
-    'Home & Housing':  ['rent','flat','landlord','tenant','neighbour','furniture','heating','bill'],
-    'Daily Routine':   ['alarm','breakfast','lunch','dinner','shower','supermarket'],
-    'Health Basics':   ['ill','tired','headache','doctor','hospital','medicine','sleep','exercise','stress'],
-    'Money & Shopping':['spend','save','pay','cost','cheap','expensive','cash','card','receipt','discount'],
-    'Technology':      ['phone','app','password','internet','online','screen'],
-    'Leisure':         ['holiday','weekend','free time','friend','invitation','party','hobby'],
-    'Feelings':        ['happy','worried','relaxed','bored','angry','nervous','confident','friendly','honest','patient'],
+    'Workplace basics':['job','work','boss','colleague','salary','office','meeting','email','full-time','part-time','commute'],
+    'Rooms of a home': ['rent','flat','landlord','tenant','neighbour','furniture','heating','bill'],
+    'Daily work routines':['alarm','breakfast','lunch','dinner','shower','supermarket'],
+    'Common illnesses & symptoms':['ill','tired','headache','doctor','hospital','medicine','sleep','exercise','stress'],
+    'Money & payment': ['spend','save','pay','cost','cheap','expensive','cash','card','receipt','discount'],
+    'Basic technology devices':['phone','app','password','internet','online','screen'],
+    'Leisure activities':['holiday','weekend','free time','friend','invitation','party','hobby'],
+    'Basic negative emotions':['happy','worried','relaxed','bored','angry','nervous','confident','friendly','honest','patient'],
   };
-  const themeColours={'Work Basics':'#3B82F6','Home & Housing':'#8B5CF6','Daily Routine':'#10B981',
-    'Health Basics':'#EF4444','Money & Shopping':'#F59E0B','Technology':'#06B6D4',
-    'Leisure':'#EC4899','Feelings':'#84CC16'};
+  const themeColours={'Workplace basics':'#3B82F6','Rooms of a home':'#8B5CF6','Daily work routines':'#10B981',
+    'Common illnesses & symptoms':'#EF4444','Money & payment':'#F59E0B','Basic technology devices':'#06B6D4',
+    'Leisure activities':'#EC4899','Basic negative emotions':'#84CC16'};
 
   for(const [theme,words] of Object.entries(themes)){
     const col=themeColours[theme]||'#666';
@@ -1240,11 +1270,12 @@ function buildContent(){
 
   const allGrammar=UNITS.flatMap(u=>u.grammar_summary);
   allGrammar.forEach(g=>{
-    grammarHtml+=`<div class="gp-item">
+    const href = g.ref ? (g.ref.includes('.html') ? `../../${g.ref}` : `../../grammar-reference.html#${g.ref}`) : '../../grammar-reference.html';
+    grammarHtml+=`<a href="${href}" style="text-decoration:none;"><div class="gp-item">
       <div class="gp-name">${g.name}</div>
       <div class="gp-desc">${g.desc}</div>
       <div class="gp-ex">${g.ex}</div>
-    </div>`;
+    </div></a>`;
   });
   grammarHtml+=`</div></div>`;
 
@@ -1256,6 +1287,7 @@ function buildContent(){
     const lessonsHtml=u.lessons.map(l=>{
       const isDone=done.has(l.code);
       const isOpen=open.has(l.code);
+      const lessonId = parseInt(l.code.split('-')[1]);
 
       // Vocab pills (show first 8 to avoid overflow)
       const vocabDisplay=[...new Set([...l.vocab,...l.verbs,...l.adj])].slice(0,12);
@@ -1300,7 +1332,7 @@ function buildContent(){
           <div class="hw-box">${l.hw}</div>
           <div class="can-do">${l.cando}</div>
           <div style="margin-top:1.2rem;text-align:center;">
-            <a href="../../lesson.html?lang=en&lesson=${l.num}" class="tb-btn active" style="font-size:.85rem;padding:.5rem 1.5rem">🚀 Start Lesson Practice</a>
+            <a href="../../lesson.html?lang=en&lesson=${lessonId}" class="tb-btn active" style="font-size:.85rem;padding:.5rem 1.5rem">🚀 Start Lesson Practice</a>
           </div>
         </div>
       </div>`;
