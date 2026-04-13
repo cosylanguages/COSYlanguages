@@ -5,6 +5,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grammar Reference — COSYlanguages</title>
+    <!-- Data Dependencies -->
+    <script src="js/data/germanic/en/starter/grammar.js"></script>
+    <script src="js/data/romance/fr/starter/grammar.js"></script>
+    <script src="js/data/romance/it/starter/grammar.js"></script>
+    <script src="js/data/slavic/ru/starter/grammar.js"></script>
+    <script src="js/data/hellenic/el/starter/grammar.js"></script>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <style>
@@ -295,230 +301,35 @@ body {
 </div>
 
 <script>
-const GRAMMAR_DATA = {
-  en: {
-    name: "English",
-    sections: [
-      {
-        label: "A0 — A1",
-        items: [
-          {
-            id: "verb-to-be",
-            title: "Verb TO BE — Present",
-            table: `
-              <tr class="section-row"><td colspan="3">✅ Affirmative</td></tr>
-              <tr><td class="row-label">I</td><td class="content"><span class="key-verb">am</span></td><td class="content">I <span class="key-verb">am</span> a teacher.</td></tr>
-              <tr><td class="row-label">You / We / They</td><td class="content"><span class="key-verb">are</span></td><td class="content">We <span class="key-verb">are</span> at home.</td></tr>
-              <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-verb">is</span></td><td class="content">She <span class="key-verb">is</span> French.</td></tr>
-              <tr class="section-row"><td colspan="3">❌ Negative</td></tr>
-              <tr><td class="row-label">I</td><td class="content"><span class="key-neg">am not</span></td><td class="content">I <span class="key-neg">'m not</span> tired.</td></tr>
-              <tr><td class="row-label">You / We / They</td><td class="content"><span class="key-neg">aren't</span></td><td class="content">They <span class="key-neg">aren't</span> here.</td></tr>
-              <tr class="section-row"><td colspan="3">❓ Question</td></tr>
-              <tr><td class="row-label">I</td><td class="content"><span class="key-verb">Am</span> I …?</td><td class="content"><span class="key-verb">Am</span> I late?</td></tr>
-              <tr class="note-row"><td colspan="3">Short answers: Yes, I <span class="key-verb">am</span>. / No, I <span class="key-neg">'m not</span>.</td></tr>
-            `
-          },
-          {
-            id: "word-order",
-            title: "Word Order — Basic",
-            table: `
-              <tr class="section-row"><td colspan="2">❓ Questions</td></tr>
-              <tr><td class="content" style="width:25%">What</td><td class="content"><span class="key-verb">is</span> it?</td></tr>
-              <tr><td class="content"></td><td class="content"><span class="key-verb">Is</span> it coffee?</td></tr>
-              <tr class="section-row"><td colspan="2">✅ Affirmative & ❌ Negative</td></tr>
-              <tr><td class="content">Yes,</td><td class="content">it <span class="key-verb">is</span> coffee.</td></tr>
-              <tr><td class="content">No,</td><td class="content">it <span class="key-neg">isn't</span> coffee.</td></tr>
-            `
-          },
-          {
-            id: "present-simple",
-            title: "Present Simple",
-            table: `
-              <tr class="section-row"><td colspan="3">📌 Habits & Routines</td></tr>
-              <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-verb">work</span></td><td class="content">I <span class="key-verb">work</span> every day.</td></tr>
-              <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-verb">works</span></td><td class="content">She <span class="key-verb">works</span> in Paris.</td></tr>
-              <tr class="section-row"><td colspan="3">❌ Negative (don't / doesn't)</td></tr>
-              <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-neg">don't</span> work</td><td class="content">I <span class="key-neg">don't</span> work today.</td></tr>
-              <tr class="section-row"><td colspan="3">❓ Question (Do / Does)</td></tr>
-              <tr><td class="row-label">You</td><td class="content"><span class="key-verb">Do</span> you speak...?</td><td class="content"><span class="key-verb">Do</span> you speak English?</td></tr>
-            `
-          },
-          {
-            id: "past-simple",
-            title: "Past Simple",
-            table: `
-              <tr class="section-row"><td colspan="3">✅ Affirmative (Regular -ed)</td></tr>
-              <tr><td class="row-label">All persons</td><td class="content"><span class="key-verb">worked</span></td><td class="content">I <span class="key-verb">worked</span> yesterday.</td></tr>
-              <tr class="section-row"><td colspan="3">❌ Negative (didn't)</td></tr>
-              <tr><td class="row-label">All persons</td><td class="content"><span class="key-neg">didn't</span> work</td><td class="content">She <span class="key-neg">didn't</span> work.</td></tr>
-              <tr class="section-row"><td colspan="3">❓ Question (Did)</td></tr>
-              <tr><td class="row-label">All persons</td><td class="content"><span class="key-verb">Did</span> you ...?</td><td class="content"><span class="key-verb">Did</span> you like it?</td></tr>
-            `
-          },
-          {
-            id: "future-plans",
-            title: "Future — Going to & Will",
-            table: `
-              <tr class="section-row"><td colspan="3">📅 Plans (Going to)</td></tr>
-              <tr><td class="row-label">I</td><td class="content"><span class="key-verb">am going to</span></td><td class="content">I <span class="key-verb">'m going to</span> travel.</td></tr>
-              <tr class="section-row"><td colspan="3">🔮 Predictions / Spontaneous (Will)</td></tr>
-              <tr><td class="row-label">All persons</td><td class="content"><span class="key-verb">will</span></td><td class="content">It <span class="key-verb">will</span> rain later.</td></tr>
-            `
-          },
-          {
-            id: "modals",
-            title: "Modal Verbs (Can, Should, Must)",
-            table: `
-              <tr class="section-row"><td colspan="2">💪 Ability (Can)</td></tr>
-              <tr><td class="content">I <span class="key-verb">can</span> swim.</td><td class="content">I <span class="key-neg">can't</span> fly.</td></tr>
-              <tr class="section-row"><td colspan="2">⚠️ Advice (Should)</td></tr>
-              <tr><td class="content">You <span class="key-verb">should</span> go.</td><td class="content">You <span class="key-neg">shouldn't</span> stay.</td></tr>
-              <tr class="section-row"><td colspan="2">❗ Obligation (Must / Have to)</td></tr>
-              <tr><td class="content">I <span class="key-verb">must</span> work.</td><td class="content">I <span class="key-verb">have to</span> go.</td></tr>
-            `
-          }
-        ]
-      },
-      {
-        label: "A2 — B1",
-        items: [
-          {
-            id: "present-perfect",
-            title: "Present Perfect",
-            table: `
-              <tr class="section-row"><td colspan="3">✅ Have/Has + V3</td></tr>
-              <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-verb">have seen</span></td><td class="content">I <span class="key-verb">'ve seen</span> it.</td></tr>
-              <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-verb">has seen</span></td><td class="content">She <span class="key-verb">has seen</span> it.</td></tr>
-              <tr class="note-row"><td colspan="3">Experience: "Have you ever...?" / Recent: "I've just..."</td></tr>
-            `
-          },
-          {
-            id: "conditionals",
-            title: "Conditionals (1st & 2nd)",
-            table: `
-              <tr class="section-row"><td colspan="2">🌱 1st Conditional (Real)</td></tr>
-              <tr><td class="content" colspan="2">If it <span class="key-verb">rains</span>, I <span class="key-verb">will stay</span> home.</td></tr>
-              <tr class="section-row"><td colspan="2">💭 2nd Conditional (Imagined)</td></tr>
-              <tr><td class="content" colspan="2">If I <span class="key-verb">won</span> the lottery, I <span class="key-verb">would travel</span>.</td></tr>
-            `
-          }
-        ]
-      }
-    ]
-  },
-  fr: {
-    name: "Français",
-    sections: [
-      {
-        label: "Débutant",
-        items: [
-          {
-            id: "etre",
-            title: "Verbe ÊTRE — Présent",
-            table: `
-              <tr><td class="row-label">je</td><td class="content"><span class="key-verb">suis</span></td><td class="content">Je <span class="key-verb">suis</span> français.</td></tr>
-              <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">es</span></td><td class="content">Tu <span class="key-verb">es</span> étudiant.</td></tr>
-              <tr><td class="row-label">il / elle</td><td class="content"><span class="key-verb">est</span></td><td class="content">Il <span class="key-verb">est</span> avocat.</td></tr>
-              <tr><td class="row-label">nous</td><td class="content"><span class="key-verb">sommes</span></td><td class="content">Nous <span class="key-verb">sommes</span> ici.</td></tr>
-              <tr><td class="row-label">vous</td><td class="content"><span class="key-verb">êtes</span></td><td class="content">Vous <span class="key-verb">êtes</span> prêt ?</td></tr>
-              <tr><td class="row-label">ils / elles</td><td class="content"><span class="key-verb">sont</span></td><td class="content">Elles <span class="key-verb">sont</span> là.</td></tr>
-            `
-          },
-          {
-            id: "negation",
-            title: "La Négation — ne ... pas",
-            table: `
-              <tr><td class="row-label">Structure</td><td class="content" colspan="2">Sujet + <span class="key-neg">ne</span> + verbe + <span class="key-neg">pas</span></td></tr>
-              <tr><td class="row-label">Exemple</td><td class="content" colspan="2">Je <span class="key-neg">ne</span> suis <span class="key-neg">pas</span> fatigué.</td></tr>
-              <tr class="note-row"><td colspan="3">⚠️ À l'oral, on oublie souvent le "ne".</td></tr>
-            `
-          }
-        ]
-      }
-    ]
-  },
-  it: {
-    name: "Italiano",
-    sections: [
-      {
-        label: "Base",
-        items: [
-          {
-            id: "essere",
-            title: "Verbo ESSERE — Presente",
-            table: `
-              <tr><td class="row-label">io</td><td class="content"><span class="key-verb">sono</span></td><td class="content">Io <span class="key-verb">sono</span> stanco.</td></tr>
-              <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">sei</span></td><td class="content">Tu <span class="key-verb">sei</span> pronto?</td></tr>
-              <tr><td class="row-label">lui / lei</td><td class="content"><span class="key-verb">è</span></td><td class="content">Lei <span class="key-verb">è</span> italiana.</td></tr>
-              <tr><td class="row-label">noi</td><td class="content"><span class="key-verb">siamo</span></td><td class="content">Noi <span class="key-verb">siamo</span> felici.</td></tr>
-              <tr><td class="row-label">voi</td><td class="content"><span class="key-verb">siete</span></td><td class="content">Voi <span class="key-verb">siete</span> a casa?</td></tr>
-              <tr><td class="row-label">loro</td><td class="content"><span class="key-verb">sono</span></td><td class="content">Loro <span class="key-verb">sono</span> pronti.</td></tr>
-            `
-          }
-        ]
-      }
-    ]
-  },
-  ru: {
-    name: "Русский",
-    sections: [
-      {
-        label: "Начальный",
-        items: [
-          {
-            id: "be-present",
-            title: "Глагол БЫТЬ — Настоящее время",
-            table: `
-              <tr class="section-row"><td colspan="2">📌 Глагол «быть» опускается</td></tr>
-              <tr><td class="row-label">Я</td><td class="content">Я — <span class="key-verb">учитель</span>. (I am a teacher.)</td></tr>
-              <tr><td class="row-label">Она</td><td class="content">Она — <span class="key-verb">дома</span>. (She is at home.)</td></tr>
-              <tr class="section-row"><td colspan="2">❌ Отрицание (НЕ)</td></tr>
-              <tr><td class="row-label">Я</td><td class="content">Я <span class="key-neg">не</span> дома. (I am not at home.)</td></tr>
-            `
-          }
-        ]
-      }
-    ]
-  },
-  el: {
-    name: "Ελληνικά",
-    sections: [
-      {
-        label: "Αρχάριοι",
-        items: [
-          {
-            id: "be-present",
-            title: "Ρήμα ΕΙΜΑΙ — Ενεστώτας",
-            table: `
-              <tr><td class="row-label">εγώ</td><td class="content"><span class="key-verb">είμαι</span></td><td class="content">Εγώ <span class="key-verb">είμαι</span> εδώ.</td></tr>
-              <tr><td class="row-label">εσύ</td><td class="content"><span class="key-verb">είσαι</span></td><td class="content">Εσύ <span class="key-verb">είσαι</span> έτοιμος;</td></tr>
-              <tr><td class="row-label">αυτός / αυτή / αυτό</td><td class="content"><span class="key-verb">είναι</span></td><td class="content">Αυτή <span class="key-verb">είναι</span> δασκάλα.</td></tr>
-            `
-          }
-        ]
-      }
-    ]
-  }
-};
-
 let currentObserver = null;
+const LANG_NAMES = { en: "English", fr: "Français", it: "Italiano", ru: "Русский", el: "Ελληνικά" };
 
 function setLang(lang) {
-  const data = GRAMMAR_DATA[lang];
-  if (!data) return;
+  const verbs = window.grammarData?.[lang] || [];
+  if (!verbs.length) {
+    console.warn("No grammar data found for lang:", lang);
+  }
 
   // Update tabs
   document.querySelectorAll('.lang-tab').forEach(t => {
     t.classList.toggle('active', t.dataset.lang === lang);
   });
 
+  // Build items grouping by level
+  const levels = {};
+  verbs.forEach(v => {
+    const lv = v.level || "starter";
+    if (!levels[lv]) levels[lv] = [];
+    levels[lv].push(v);
+  });
+
   // Render Sidebar
   const sidebar = document.getElementById('sidebar');
-  sidebar.innerHTML = data.sections.map(section => `
+  sidebar.innerHTML = Object.keys(levels).map(lv => `
     <div class="sidebar-section">
-      <div class="sidebar-label">${section.label}</div>
-      ${section.items.map(item => `
-        <a class="sidebar-item" href="#${item.id}">${item.title}</a>
+      <div class="sidebar-label">${lv.toUpperCase()}</div>
+      ${levels[lv].map(v => `
+        <a class="sidebar-item" href="#verb-${v.verb.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.verb}</a>
       `).join('')}
     </div>
   `).join('');
@@ -526,48 +337,70 @@ function setLang(lang) {
   // Render Content
   const main = document.getElementById('main-content');
   main.innerHTML = `
-    <div class="section-title">${data.name} — Grammar Reference</div>
-    ${data.sections.map(section => `
+    <div class="section-title">${LANG_NAMES[lang]} — Grammar Reference</div>
+    ${Object.keys(levels).map(lv => `
       <div class="level-section">
-        <div class="level-badge">${section.label}</div>
+        <div class="level-badge">${lv}</div>
         <div class="cards-grid">
-          ${section.items.map(item => `
-            <div class="card" id="${item.id}">
-              <div class="card-title">${item.title}</div>
-              <table class="gtable">${item.table}</table>
-            </div>
-          `).join('')}
+          ${levels[lv].map(v => renderVerbCard(v)).join('')}
         </div>
       </div>
     `).join('')}
   `;
 
-  // Re-init scroll spy
   initScrollSpy();
 }
 
-function initScrollSpy() {
-  if (currentObserver) {
-    currentObserver.disconnect();
+function renderVerbCard(v) {
+  const id = `verb-${v.verb.replace(/\s+/g, '-')}`;
+  let tableRows = "";
+
+  if (v.tenses && v.tenses.present_simple) {
+    const ps = v.tenses.present_simple;
+    tableRows += `<tr class="section-row"><td colspan="3">✅ Present Simple</td></tr>`;
+    v.pronouns.forEach((p, i) => {
+      tableRows += `
+        <tr>
+          <td class="row-label">${p}</td>
+          <td class="content"><span class="key-verb">${ps.positive[i]}</span></td>
+          <td class="content"><span class="key-neg">${ps.negative[i]}</span></td>
+        </tr>`;
+    });
   }
 
+  return `
+    <div class="card" id="${id}">
+      <div class="card-title">Verb: ${v.verb.toUpperCase()}</div>
+      <table class="gtable">${tableRows}</table>
+    </div>
+  `;
+}
+
+function setActiveLink(el) {
+  document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+  el.classList.add('active');
+}
+
+function initScrollSpy() {
+  if (currentObserver) currentObserver.disconnect();
   const items = document.querySelectorAll('.sidebar-item');
   const cards = document.querySelectorAll('.card');
 
   currentObserver = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        items.forEach(i => i.classList.remove('active'));
-        const link = document.querySelector(`.sidebar-item[href="#${entry.target.id}"]`);
-        if (link) link.classList.add('active');
-      }
-    });
-  }, { threshold: 0.5 });
+    // Find the entry that is MOST visible or just the first one intersecting
+    const visible = entries.filter(e => e.isIntersecting);
+    if (visible.length > 0) {
+      // Sort by intersection ratio or just take the first
+      const best = visible[0];
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(`.sidebar-item[href="#${best.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  }, { threshold: 0.2 });
 
   cards.forEach(c => currentObserver.observe(c));
 }
 
-// Initialize with EN
 document.addEventListener('DOMContentLoaded', () => {
   setLang('en');
 });

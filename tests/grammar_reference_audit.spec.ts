@@ -24,7 +24,7 @@ test.describe('Grammar Reference Audit - Authorized', () => {
     // Switch to French
     await page.click('.lang-tab[data-lang="fr"]');
     await expect(page.locator('.section-title')).toContainText('Français');
-    await expect(page.locator('#etre')).toBeVisible();
+    await expect(page.locator('#verb-être')).toBeVisible();
 
     // Switch to Russian
     await page.click('.lang-tab[data-lang="ru"]');
@@ -34,10 +34,11 @@ test.describe('Grammar Reference Audit - Authorized', () => {
   test('Sidebar scroll-spy and navigation', async ({ page }) => {
     await page.goto('http://localhost:8080/grammar-reference.html');
 
-    // Click sidebar item
-    await page.click('.sidebar-item[href="#present-simple"]');
-    await expect(page.locator('#present-simple')).toBeInViewport();
-    await expect(page.locator('.sidebar-item[href="#present-simple"]')).toHaveClass(/active/);
+    // Click sidebar item for "to be" (English default)
+    const beLink = '.sidebar-item[href="#verb-to-be"]';
+    await page.click(beLink);
+    await expect(page.locator('#verb-to-be')).toBeInViewport();
+    await expect(page.locator(beLink)).toHaveClass(/active/);
   });
 });
 
