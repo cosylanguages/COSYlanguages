@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocabulary Reference — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal:    #00B5A3;
+  --teal-dk: #008F80;
+  --teal-lt: #E0FAF7;
+  --black:   #111;
+  --white:   #fff;
+  --cream:   #FFFEF8;
+  --yellow:  #FFE135;
+  --red:     #FF3B30;
+  --orange:  #FF6B1A;
+  --green:   #2ECC71;
+  --blue:    #0A7FFF;
+  --ink:     #1A1A1A;
+  --muted:   #666;
+
+  /* level colours */
+  --a0: #2E7D32; --a0-lt: #E8F5E9;
+  --a1: #1565C0; --a1-lt: #E3F2FD;
+  --a2: #6A1B9A; --a2-lt: #F3E5F5;
+  --b1: #E65100; --b1-lt: #FFF3E0;
+  --b2: #AD1457; --b2-lt: #FCE4EC;
+  --c1: #004D40; --c1-lt: #E0F2F1;
+  --c2: #1A237E; --c2-lt: #E8EAF6;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--teal);
+  color: var(--black);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── TOP BAR ── */
+.topbar {
+  background: var(--black);
+  color: #fff;
+  padding: .7rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: sticky; top: 0; z-index: 300;
+  border-bottom: 3px solid var(--yellow);
+}
+.tb-left { display: flex; align-items: center; gap: .7rem; }
+.tb-title { font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; }
+.tb-sub   { font-size: .68rem; opacity: .6; }
+.back-link {
+  font-size: .75rem; font-weight: 800; color: rgba(255,255,255,.7);
+  border: 1.5px solid rgba(255,255,255,.3); border-radius: 999px;
+  padding: .22rem .7rem; text-decoration: none; transition: all .15s;
+}
+.back-link:hover { color: #fff; border-color: #fff; }
+
+/* ── LAYOUT ── */
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: calc(100vh - 54px);
+}
+
+/* ── SIDEBAR ── */
+.sidebar {
+  background: var(--teal-dk);
+  border-right: 3px solid var(--black);
+  padding: 1rem 0 3rem;
+  position: sticky; top: 54px;
+  height: calc(100vh - 54px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.sb-section { margin-bottom: .3rem; }
+.sb-label {
+  font-size: .6rem; font-weight: 900; letter-spacing: .1em;
+  text-transform: uppercase; color: rgba(255,255,255,.4);
+  padding: .9rem 1.1rem .25rem; display: block;
+}
+.sb-item {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .42rem 1.1rem;
+  font-size: .78rem; font-weight: 700;
+  color: rgba(255,255,255,.8);
+  cursor: pointer; border-left: 3px solid transparent;
+  transition: all .15s; text-decoration: none;
+}
+.sb-item:hover { background: rgba(0,0,0,.2); color: #fff; }
+.sb-item.active {
+  border-left-color: var(--yellow);
+  background: rgba(0,0,0,.25); color: var(--yellow);
+}
+.sb-dot {
+  width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0;
+  border: 2px solid rgba(255,255,255,.4);
+}
+.sb-dot.filled { border-color: transparent; }
+
+/* Level dots */
+.dot-a0 { background: var(--a0); }
+.dot-a1 { background: var(--a1); }
+.dot-a2 { background: var(--a2); }
+.dot-b1 { background: var(--b1); }
+.dot-b2 { background: var(--b2); }
+.dot-c1 { background: var(--c1); }
+.dot-c2 { background: var(--c2); }
+
+/* Sidebar stats */
+.sb-stat {
+  margin: .8rem 1rem;
+  background: rgba(0,0,0,.2);
+  border-radius: 8px;
+  padding: .6rem .8rem;
+  font-size: .75rem;
+  color: rgba(255,255,255,.7);
+}
+.sb-stat .sn { font-size: 1.2rem; font-weight: 900; color: var(--yellow); display: block; }
+.sb-stat .sl { font-size: .65rem; opacity: .7; }
+
+/* ── MAIN ── */
+.main {
+  padding: 1.6rem 1.8rem 5rem;
+  background: var(--teal);
+}
+
+/* ── LEVEL HEADER ── */
+.level-header {
+  display: flex; align-items: center; gap: .8rem;
+  margin-bottom: 1.3rem;
+  padding-bottom: .55rem;
+  border-bottom: 3px solid var(--black);
+}
+.level-badge {
+  font-size: .9rem; font-weight: 900; color: #fff;
+  padding: .3rem .8rem; border-radius: 6px;
+  border: 2.5px solid var(--black);
+  box-shadow: 3px 3px 0 var(--black);
+  letter-spacing: .04em;
+}
+.level-title {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem; font-weight: 700;
+}
+.level-desc {
+  font-size: .8rem; color: rgba(0,0,0,.6); margin-left: auto;
+  font-style: italic;
+}
+
+/* ── MODE SWITCHER ── */
+.mode-bar {
+  display: flex; align-items: center; gap: .5rem;
+  margin-bottom: 1.4rem; flex-wrap: wrap;
+}
+.mode-label { font-size: .72rem; font-weight: 900; color: rgba(0,0,0,.5); margin-right: .3rem; text-transform: uppercase; letter-spacing: .06em; }
+.mode-btn {
+  display: flex; align-items: center; gap: .35rem;
+  background: rgba(0,0,0,.1);
+  border: 2.5px solid var(--black);
+  border-radius: 6px;
+  padding: .35rem .8rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: .78rem; font-weight: 800;
+  cursor: pointer;
+  transition: all .15s;
+  box-shadow: 2px 2px 0 var(--black);
+  color: var(--black);
+}
+.mode-btn:hover { background: rgba(0,0,0,.18); transform: translateY(-1px); }
+.mode-btn.active {
+  background: var(--black); color: var(--yellow);
+  box-shadow: none; transform: translateY(1px);
+}
+.mode-icon { font-size: .95rem; }
+
+/* ── SEARCH BAR ── */
+.search-row {
+  display: flex; gap: .6rem; margin-bottom: 1.2rem; flex-wrap: wrap;
+}
+.search-input {
+  flex: 1; min-width: 180px; height: 42px;
+  border: 2.5px solid var(--black); border-radius: 6px;
+  background: rgba(255,255,255,.4);
+  padding: 0 1rem;
+  font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700;
+  outline: none; color: var(--black);
+  box-shadow: 2px 2px 0 var(--black);
+  transition: background .18s;
+}
+.search-input:focus { background: rgba(255,255,255,.7); }
+.search-input::placeholder { color: rgba(0,0,0,.4); }
+
+/* ── REFERENCE TABLE ── */
+.ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.ref-table th {
+  background: var(--black);
+  color: #fff;
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: .5rem .8rem;
+  text-align: left;
+  border: 2px solid rgba(255,255,255,.1);
+}
+.ref-table td {
+  border: 2px solid var(--black);
+  padding: .6rem .8rem;
+  vertical-align: top;
+  font-size: .84rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background: var(--white);
+}
+.ref-table tr:nth-child(even) td { background: #F7FFFE; }
+.ref-table tr:hover td { background: var(--teal-lt); }
+
+.rt-word {
+  font-family: 'Lora', serif;
+  font-size: 1rem; font-weight: 700; color: var(--black);
+  display: block;
+}
+.rt-pos {
+  font-size: .68rem; font-weight: 700; color: var(--muted);
+  font-style: italic; margin-top: .1rem;
+}
+.rt-topic {
+  display: inline-block; font-size: .65rem; font-weight: 900;
+  background: var(--teal-lt); color: var(--teal-dk);
+  border-radius: 4px; padding: .1rem .4rem; margin-top: .3rem;
+  border: 1px solid rgba(0,181,163,.2);
+}
+.rt-def  { color: var(--ink); }
+.rt-ex   { color: var(--muted); font-style: italic; font-size: .8rem; }
+.rt-ex::before { content: '"'; }
+.rt-ex::after  { content: '"'; }
+.rt-pron {
+  font-family: 'Lora', serif;
+  font-size: .78rem; color: var(--blue);
+  font-style: italic; display: block;
+}
+.rt-error {
+  font-size: .76rem; color: var(--red);
+  display: flex; align-items: flex-start; gap: .3rem;
+}
+.rt-error::before { content: '⚠️'; flex-shrink: 0; }
+.rt-score {
+  font-size: .7rem; font-weight: 900;
+  color: var(--muted); text-align: center;
+  cursor: pointer; transition: all .15s;
+  padding: .2rem; border-radius: 4px;
+  line-height: 1.3;
+}
+.rt-score:hover { background: rgba(0,0,0,.08); }
+.rt-score .stars { font-size: .85rem; letter-spacing: -1px; }
+
+/* Mastery states */
+tr.mastered td { opacity: .55; }
+tr.mastered .rt-word { text-decoration: line-through; color: var(--muted); }
+tr.mastered { position: relative; }
+
+/* ── FLIP CARDS ── */
+.flip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.flip-wrap {
+  height: 130px;
+  perspective: 800px;
+  cursor: pointer;
+}
+.flip-inner {
+  width: 100%; height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .45s cubic-bezier(.4,.2,.2,1);
+}
+.flip-wrap.flipped .flip-inner { transform: rotateY(180deg); }
+
+.flip-front, .flip-back {
+  position: absolute; inset: 0;
+  backface-visibility: hidden;
+  border: 3px solid var(--black);
+  border-radius: 6px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: .8rem;
+  box-shadow: 4px 4px 0 var(--black);
+}
+.flip-front {
+  background: var(--black); color: var(--yellow);
+}
+.flip-front .fw  { font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 700; }
+.flip-front .fp  { font-size: .7rem; opacity: .6; margin-top: .3rem; font-style: italic; }
+.flip-badge {
+  position: absolute; top: .4rem; right: .4rem;
+  font-size: .6rem; font-weight: 900;
+  background: rgba(255,255,255,.2);
+  border-radius: 4px; padding: .1rem .35rem;
+}
+.flip-back  { background: var(--yellow); color: var(--black); transform: rotateY(180deg); }
+.flip-back  .fd  { font-size: .8rem; font-weight: 700; line-height: 1.45; }
+.flip-back  .fe  { font-size: .72rem; color: rgba(0,0,0,.6); margin-top: .4rem; font-style: italic; }
+
+/* ── TYPING EXERCISE ── */
+.typing-exercise {
+  margin-bottom: 1.5rem;
+}
+.type-card {
+  background: var(--white);
+  border: 3px solid var(--black);
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: .8rem;
+  box-shadow: 4px 4px 0 var(--black);
+}
+.tc-prompt {
+  font-size: .78rem; font-weight: 900;
+  letter-spacing: .05em; text-transform: uppercase;
+  color: var(--teal-dk); margin-bottom: .5rem;
+}
+.tc-def {
+  font-size: .95rem; font-weight: 700; color: var(--ink);
+  line-height: 1.6; margin-bottom: .6rem;
+}
+.tc-ex {
+  font-size: .82rem; color: var(--muted); font-style: italic;
+  margin-bottom: .9rem; padding: .5rem .8rem;
+  background: rgba(0,181,163,.1);
+  border-radius: 4px; border-left: 3px solid var(--teal);
+}
+.tc-ex .blank {
+  display: inline-block;
+  min-width: 100px;
+  border-bottom: 2.5px solid var(--black);
+  font-style: normal; font-weight: 900;
+  color: transparent; position: relative;
+}
+.tc-input-row { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; }
+.tc-input {
+  flex: 1; min-width: 160px; height: 46px;
+  border: 2.5px solid var(--black);
+  border-radius: 6px;
+  background: rgba(0,181,163,.08);
+  padding: 0 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem; font-weight: 800;
+  outline: none; color: var(--black);
+  transition: background .18s, border-color .18s;
+}
+.tc-input:focus  { background: #fff; border-color: var(--teal); }
+.tc-input.correct { background: #E8F5E9; border-color: #2E7D32; color: #2E7D32; }
+.tc-input.wrong   { background: #FFEBEE; border-color: #C62828; color: #C62828;
+  animation: shake .25s ease; }
+.tc-input.close   { background: #FFF8E1; border-color: #F57F17; color: #F57F17; }
+@keyframes shake {
+  0%,100%{transform:translateX(0)}
+  25%{transform:translateX(-5px)}75%{transform:translateX(5px)}
+}
+.tc-btn {
+  height: 46px; padding: 0 1.2rem;
+  background: var(--black); color: var(--yellow);
+  border: 2.5px solid var(--black); border-radius: 6px;
+  font-family: 'Nunito', sans-serif; font-weight: 900; font-size: .85rem;
+  cursor: pointer; transition: opacity .15s;
+  box-shadow: 2px 2px 0 rgba(0,0,0,.3);
+}
+.tc-btn:hover { opacity: .85; }
+.tc-btn.hint-btn {
+  background: rgba(0,0,0,.1); color: var(--black);
+  border-color: var(--black);
+  box-shadow: 2px 2px 0 rgba(0,0,0,.2);
+}
+.tc-feedback {
+  font-size: .8rem; font-weight: 800; margin-top: .5rem;
+  padding: .4rem .7rem; border-radius: 4px; display: none;
+}
+.tc-feedback.show { display: block; }
+.tc-feedback.ok  { background: #E8F5E9; color: #2E7D32; }
+.tc-feedback.err { background: #FFEBEE; color: #C62828; }
+.tc-feedback.near{ background: #FFF8E1; color: #F57F17; }
+.tc-pron { font-size: .75rem; color: var(--blue); font-style: italic; }
+
+/* ── MULTIPLE CHOICE ── */
+.mc-exercise { margin-bottom: 1.5rem; }
+.mc-card {
+  background: var(--white);
+  border: 3px solid var(--black); border-radius: 6px;
+  padding: 1.2rem 1.4rem; margin-bottom: .8rem;
+  box-shadow: 4px 4px 0 var(--black);
+}
+.mc-question {
+  font-size: .95rem; font-weight: 700; color: var(--ink);
+  margin-bottom: 1rem; line-height: 1.55;
+}
+.mc-options { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.mc-opt {
+  padding: .7rem 1rem; border-radius: 6px;
+  border: 2.5px solid rgba(0,0,0,.15);
+  background: #F9F9F9;
+  font-family: 'Nunito', sans-serif;
+  font-size: .85rem; font-weight: 700;
+  cursor: pointer; text-align: left;
+  transition: all .15s; line-height: 1.4;
+  -webkit-tap-highlight-color: transparent;
+}
+.mc-opt:hover  { background: var(--teal-lt); border-color: var(--teal); }
+.mc-opt.chosen { background: var(--teal-lt); border-color: var(--teal); }
+.mc-opt.correct{ background: #E8F5E9; border-color: #2E7D32 !important; color: #2E7D32 !important; font-weight: 900; }
+.mc-opt.wrong  { background: #FFEBEE; border-color: #C62828 !important; color: #C62828 !important; }
+.mc-word-display {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem; font-weight: 700;
+  text-align: center; padding: .8rem;
+  background: var(--black); color: var(--yellow);
+  border-radius: 4px; margin-bottom: .8rem;
+  border: 2.5px solid var(--black);
+  letter-spacing: .03em;
+}
+
+/* ── MATCHING PAIRS ── */
+.match-exercise { margin-bottom: 1.5rem; }
+.match-container {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  background: rgba(0,0,0,.08);
+  border: 3px solid var(--black); border-radius: 6px;
+  padding: 1.2rem; box-shadow: 4px 4px 0 var(--black);
+}
+.match-col-title {
+  font-size: .68rem; font-weight: 900; letter-spacing: .08em;
+  text-transform: uppercase; color: rgba(0,0,0,.5);
+  margin-bottom: .6rem; text-align: center;
+}
+.match-items { display: flex; flex-direction: column; gap: .4rem; }
+.match-item {
+  padding: .6rem .9rem; border-radius: 6px;
+  border: 2.5px solid var(--black);
+  font-size: .84rem; font-weight: 700;
+  cursor: pointer; transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.4;
+}
+.match-word { background: var(--black); color: var(--yellow); }
+.match-def  { background: var(--white); color: var(--black); }
+.match-item.selected-word { background: var(--teal); color: #fff; border-color: var(--teal-dk); }
+.match-item.selected-def  { background: var(--teal-lt); border-color: var(--teal); }
+.match-item.matched-ok    { background: #E8F5E9; color: #2E7D32; border-color: #2E7D32; opacity: .7; pointer-events: none; }
+.match-item.matched-bad   { background: #FFEBEE; color: #C62828; border-color: #C62828; animation: shake .25s ease; }
+
+/* ── SCORE WIDGET ── */
+.score-widget {
+  position: fixed; bottom: 1.2rem; right: 1.2rem;
+  background: var(--black); color: var(--yellow);
+  border: 3px solid var(--yellow);
+  border-radius: 8px; padding: .5rem 1rem;
+  font-size: .82rem; font-weight: 900;
+  box-shadow: 4px 4px 0 var(--yellow); z-index: 200;
+  cursor: default; transition: transform .2s;
+}
+.score-widget:hover { transform: scale(1.05); }
+.sw-pts { font-size: 1.3rem; display: block; text-align: center; }
+
+/* ── PROGRESS BAR ── */
+.level-progress {
+  background: rgba(0,0,0,.15);
+  border: 2px solid var(--black); border-radius: 999px;
+  height: 8px; overflow: hidden; margin-bottom: 1.2rem;
+}
+.lp-fill {
+  height: 100%; border-radius: 999px;
+  background: var(--yellow);
+  transition: width .5s ease;
+}
+
+/* ── SECTION DIVIDER ── */
+hr.sec-div {
+  border: none; border-top: 2.5px solid var(--black);
+  margin: 2rem 0 1.5rem; opacity: .3;
+}
+
+/* ── TOPIC PILL ── */
+.topic-filter {
+  display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1rem;
+}
+.tf-pill {
+  background: rgba(0,0,0,.1);
+  border: 2px solid var(--black); border-radius: 999px;
+  padding: .2rem .7rem; font-size: .72rem; font-weight: 800;
+  cursor: pointer; transition: all .15s; color: var(--black);
+}
+.tf-pill.active { background: var(--black); color: var(--yellow); }
+.tf-pill:hover  { background: rgba(0,0,0,.2); }
+
+/* ── EXERCISE CONTROLS ── */
+.ex-controls {
+  display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: 1rem; align-items: center;
+}
+.ex-btn {
+  height: 38px; padding: 0 1rem;
+  border: 2.5px solid var(--black); border-radius: 6px;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .78rem;
+  cursor: pointer; transition: all .15s;
+  box-shadow: 2px 2px 0 var(--black);
+}
+.ex-btn.primary { background: var(--black); color: var(--yellow); }
+.ex-btn.secondary { background: rgba(0,0,0,.1); color: var(--black); }
+.ex-btn:hover { opacity: .85; }
+.ex-score-inline {
+  font-size: .78rem; font-weight: 900; margin-left: auto;
+  color: rgba(0,0,0,.6);
+}
+
+/* ── LEVEL SECTIONS ── */
+.level-section { margin-bottom: 2.5rem; }
+
+/* ── ANIMATIONS ── */
+@keyframes popIn { from{opacity:0;transform:scale(.95)} to{opacity:1;transform:scale(1)} }
+.ref-table, .flip-grid, .type-card, .mc-card, .match-container {
+  animation: popIn .3s ease both;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 780px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .mc-options { grid-template-columns: 1fr; }
+  .match-container { grid-template-columns: 1fr; }
+  .main { padding: 1rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="tb-left">
+    <div>
+      <div class="tb-sub" style="opacity: 0.6; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;">My Lessons 🔐 → Vocabulary</div>
+      <div class="tb-title" style="font-size: 1.4rem;">English Vocabulary 🇬🇧</div>
+    </div>
+  </div>
+  <div style="display: flex; gap: 0.5rem; align-items: center;">
+    <a href="../grammar.html" class="back-link">📐 Grammar</a>
+    <a href="../days.html" class="back-link">🏠 Home</a>
+  </div>
+</div>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <div class="sb-stat">
+    <span class="sn" id="total-words">0</span>
+    <span class="sl">words in your reference</span>
+  </div>
+  <div class="sb-stat">
+    <span class="sn" id="total-mastered">0</span>
+    <span class="sl">marked as mastered ✓</span>
+  </div>
+
+  <div class="sb-section">
+    <span class="sb-label">Levels</span>
+    <a class="sb-item active" onclick="jumpLevel('A0')">
+      <span class="sb-dot filled dot-a0"></span>A0 — Absolute Beginner
+    </a>
+    <a class="sb-item" onclick="jumpLevel('A1')">
+      <span class="sb-dot filled dot-a1"></span>A1 — Beginner
+    </a>
+    <a class="sb-item" onclick="jumpLevel('A2')">
+      <span class="sb-dot filled dot-a2"></span>A2 — Elementary
+    </a>
+    <a class="sb-item" onclick="jumpLevel('B1')">
+      <span class="sb-dot filled dot-b1"></span>B1 — Intermediate
+    </a>
+    <a class="sb-item" onclick="jumpLevel('B2')">
+      <span class="sb-dot filled dot-b2"></span>B2 — Upper-Intermediate
+    </a>
+    <a class="sb-item" onclick="jumpLevel('C1')">
+      <span class="sb-dot filled dot-c1"></span>C1 — Advanced
+    </a>
+    <a class="sb-item" onclick="jumpLevel('C2')">
+      <span class="sb-dot filled dot-c2"></span>C2 — Proficiency
+    </a>
+  </div>
+
+  <div class="sb-section">
+    <span class="sb-label">Quick actions</span>
+    <a class="sb-item" onclick="setMode('ref')">
+      <span class="sb-dot"></span>📋 Reference table
+    </a>
+    <a class="sb-item" onclick="setMode('flip')">
+      <span class="sb-dot"></span>🎴 Flip cards
+    </a>
+    <a class="sb-item" onclick="setMode('type')">
+      <span class="sb-dot"></span>✏️ Typing exercise
+    </a>
+    <a class="sb-item" onclick="setMode('mc')">
+      <span class="sb-dot"></span>❓ Multiple choice
+    </a>
+    <a class="sb-item" onclick="setMode('match')">
+      <span class="sb-dot"></span>🔗 Matching pairs
+    </a>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="main" id="main-content">
+
+<!-- Score widget -->
+<div class="score-widget" id="score-widget" title="Your practice score">
+  ⭐ <span class="sw-pts" id="score-num">0</span>
+</div>
+
+<!-- Global search -->
+<div class="search-row">
+  <input class="search-input" type="text" id="global-search"
+    placeholder="🔍  Search any word, definition or example…"
+    oninput="globalSearch(this.value)">
+</div>
+
+<!-- Mode switcher -->
+<div class="mode-bar">
+  <span class="mode-label">Mode:</span>
+  <button class="mode-btn active" id="btn-ref"   onclick="setMode('ref')">
+    <span class="mode-icon">📋</span> Reference
+  </button>
+  <button class="mode-btn" id="btn-flip"  onclick="setMode('flip')">
+    <span class="mode-icon">🎴</span> Flip cards
+  </button>
+  <button class="mode-btn" id="btn-type"  onclick="setMode('type')">
+    <span class="mode-icon">✏️</span> Type it
+  </button>
+  <button class="mode-btn" id="btn-mc"    onclick="setMode('mc')">
+    <span class="mode-icon">❓</span> Quiz me
+  </button>
+  <button class="mode-btn" id="btn-match" onclick="setMode('match')">
+    <span class="mode-icon">🔗</span> Match
+  </button>
+</div>
+
+<!-- LEVEL SECTIONS rendered by JS -->
+<div id="content-area"></div>
+
+</main>
+</div><!-- /layout -->
+
+<script>
+// ══════════════════════════════════════════════════════════════════
+// DATA — 7 levels, real words from COSYlanguages curriculum
+// ══════════════════════════════════════════════════════════════════
+const VOCAB = {
+A0: {
+  color: '#2E7D32', lt: '#E8F5E9', name: 'Absolute Beginner',
+  desc: 'Essential words for everyday survival',
+  words: [
+    { w:'head',    pos:'noun',      def:'The top part of the body, where the brain and face are.',
+      ex:'My head hurts today.',    pron:'/hɛd/',
+      err:'Do not say "I have headache" — always use the article: I have a headache.',
+      topic:'The Body' },
+    { w:'hand',    pos:'noun',      def:'The part at the end of the arm, with five fingers.',
+      ex:'She is holding a phone in her hand.',  pron:'/hænd/',
+      err:'Plural is hands (two hands), not "hand" for both.',
+      topic:'The Body' },
+    { w:'eye',     pos:'noun',      def:'The part of the body used for seeing.',
+      ex:'He has very blue eyes.',  pron:'/aɪ/',
+      err:'Almost always used in plural: eyes. Say "my eyes hurt", not "my eye hurt" (unless one eye specifically).',
+      topic:'The Body' },
+    { w:'eat',     pos:'verb',      def:'To put food in your mouth, chew it and swallow it.',
+      ex:'We eat dinner at seven o\'clock every evening.',  pron:'/iːt/',
+      err:'Irregular past: eat → ate (not "eated"). "I ate breakfast" ✓',
+      topic:'Daily Life' },
+    { w:'big',     pos:'adjective', def:'Large in size; more than average in size.',
+      ex:'They live in a very big house in the countryside.',  pron:'/bɪɡ/',
+      err:'Comparative: bigger (not "more big"). "This house is bigger than mine." ✓',
+      topic:'Descriptive' },
+    { w:'home',    pos:'noun',      def:'The place where you live; where you feel you belong.',
+      ex:'I am going home after work today.',  pron:'/həʊm/',
+      err:'"At home" (not "at the home"). "I am at home" ✓ / "I am at the home" ✗',
+      topic:'Places' },
+    { w:'good',    pos:'adjective', def:'Of high quality; pleasant or satisfactory.',
+      ex:'That was a really good film — I loved the ending.',  pron:'/ɡʊd/',
+      err:'Irregular comparative: good → better → best. Never "more good" or "gooder".',
+      topic:'Descriptive' },
+    { w:'work',    pos:'noun/verb', def:'Employment; or to do a task in exchange for money.',
+      ex:'He works in a hospital and loves his job.',  pron:'/wɜːk/',
+      err:'"I go to work" (not "I go to the work"). No article for general concept.',
+      topic:'Daily Life' },
+    { w:'money',   pos:'noun',      def:'Coins and banknotes used to buy things.',
+      ex:'Do you have enough money to pay for lunch?',  pron:'/ˈmʌni/',
+      err:'"Money" is uncountable — never say "moneys" or "a money". Say "some money".',
+      topic:'Numbers & Money' },
+    { w:'day',     pos:'noun',      def:'A period of 24 hours; or the time when it is light outside.',
+      ex:'I have a meeting every day this week.',  pron:'/deɪ/',
+      err:'Days of the week take a capital letter: Monday, Tuesday… (not "monday").',
+      topic:'Days & Time' },
+    { w:'water',   pos:'noun',      def:'The clear liquid that fills oceans, rivers and that we drink.',
+      ex:'Could I have a glass of water, please?',  pron:'/ˈwɔːtə/',
+      err:'"Water" is uncountable. Say "a glass of water" (not "a water"). Ordering: "I\'ll have water" ✓',
+      topic:'Food & Drink' },
+    { w:'friend',  pos:'noun',      def:'A person you like and enjoy spending time with.',
+      ex:'She is my best friend and we met at school.',  pron:'/frɛnd/',
+      err:'"A friend of mine" (not "a friend of me"). "He is a friend of mine" ✓',
+      topic:'People' },
+    { w:'number',  pos:'noun',      def:'A word or symbol that represents a quantity.',
+      ex:'What is your phone number?',  pron:'/ˈnʌmbə/',
+      err:'Say "phone number" (not "telephone number of me"). "What is your number?" ✓',
+      topic:'Numbers & Money' },
+    { w:'time',    pos:'noun',      def:'The thing measured in seconds, minutes and hours.',
+      ex:'What time does the film start?',  pron:'/taɪm/',
+      err:'"At" for clock times: "at 7pm". "In" for periods: "in the morning".',
+      topic:'Days & Time' },
+    { w:'city',    pos:'noun',      def:'A large and important town where many people live and work.',
+      ex:'Paris is a beautiful city with many museums.',  pron:'/ˈsɪti/',
+      err:'"In a city" / "in the city centre". Never "at the city".',
+      topic:'Places' },
+  ]
+},
+A1: {
+  color: '#1565C0', lt: '#E3F2FD', name: 'Beginner',
+  desc: 'Building blocks for real conversations',
+  words: [
+    { w:'job',       pos:'noun',      def:'The work a person does regularly to earn money.',
+      ex:'She has a new job in a marketing company in London.',  pron:'/dʒɒb/',
+      err:'"I have a job" (not "I have job"). Always needs an article.',
+      topic:'Work Basics' },
+    { w:'colleague', pos:'noun',      def:'A person you work with in the same organisation.',
+      ex:'My colleagues are very helpful and supportive.',  pron:'/ˈkɒliːɡ/',
+      err:'Often confused with "coworker" — both are correct. "Colleague" is slightly more formal.',
+      topic:'Work Basics' },
+    { w:'salary',    pos:'noun',      def:'A fixed regular payment made by an employer, usually monthly.',
+      ex:'Her salary is paid on the last day of the month.',  pron:'/ˈsæləri/',
+      err:'"Salary" is for monthly-paid professionals. "Wage" is for hourly workers. Both are common.',
+      topic:'Work Basics' },
+    { w:'meeting',   pos:'noun',      def:'A gathering of people to discuss or decide something together.',
+      ex:'We have a team meeting every Monday morning at nine.',  pron:'/ˈmiːtɪŋ/',
+      err:'"Attend a meeting" or "go to a meeting" ✓. Never "assist to a meeting" (false friend from French).',
+      topic:'Work Basics' },
+    { w:'busy',      pos:'adjective', def:'Occupied with work or activity; having too much to do.',
+      ex:'I am really busy this week — can we talk next Monday?',  pron:'/ˈbɪzi/',
+      err:'Do not use "occupied" when "busy" is more natural: "Are you busy?" ✓ (not "Are you occupied?")',
+      topic:'Feelings & Personality' },
+    { w:'tired',     pos:'adjective', def:'Feeling the need to sleep or rest; lacking energy.',
+      ex:'She was so tired after the long flight that she slept for twelve hours.',  pron:'/ˈtaɪəd/',
+      err:'"I am tired" (not "I am tire"). Always use the full adjective form.',
+      topic:'Feelings & Personality' },
+    { w:'borrow',    pos:'verb',      def:'To take and use something that belongs to someone else, then return it.',
+      ex:'Can I borrow your pen for a moment?',  pron:'/ˈbɒrəʊ/',
+      err:'Confused with "lend". YOU borrow FROM someone. THEY lend TO you. "Can I borrow your pen?" ✓',
+      topic:'Social Life' },
+    { w:'travel',    pos:'verb/noun', def:'To go from one place to another, usually over a long distance.',
+      ex:'I love to travel and have visited fifteen countries.',  pron:'/ˈtrævəl/',
+      err:'British spelling: travelling (double l). "I enjoy travelling" ✓ (not "travell-ing")',
+      topic:'Travel & Leisure' },
+    { w:'learn',     pos:'verb',      def:'To gain knowledge or a skill through study or experience.',
+      ex:'She is learning French and Italian at the same time.',  pron:'/lɜːn/',
+      err:'"Learn" and "teach" are often confused. You learn a language. A teacher teaches you.',
+      topic:'Daily Life' },
+    { w:'healthy',   pos:'adjective', def:'In good physical or mental condition; promoting good health.',
+      ex:'Eating vegetables and exercising regularly helps you stay healthy.',  pron:'/ˈhɛlθi/',
+      err:'"Be healthy" (state). "Get healthy" (change). Do not confuse with "health" (noun).',
+      topic:'Health Basics' },
+    { w:'ask',       pos:'verb',      def:'To say something as a question in order to get information or a favour.',
+      ex:'I asked my boss if I could leave early on Friday.',  pron:'/ɑːsk/',
+      err:'"Ask someone FOR something" or "ask someone TO do something". "I asked for help" ✓',
+      topic:'Communication' },
+    { w:'neighbour', pos:'noun',      def:'A person who lives next door or very close to you.',
+      ex:'My neighbours are very friendly and always say good morning.',  pron:'/ˈneɪbə/',
+      err:'British spelling: neighbour. American: neighbor. Both are correct in different contexts.',
+      topic:'Home & Housing' },
+    { w:'arrive',    pos:'verb',      def:'To reach a place at the end of a journey.',
+      ex:'What time does the train arrive at Paris Gare du Nord?',  pron:'/əˈraɪv/',
+      err:'"Arrive IN a city / country". "Arrive AT a building / station". Never "arrive TO".',
+      topic:'Travel & Leisure' },
+    { w:'look',      pos:'verb',      def:'To direct your eyes towards something in order to see it.',
+      ex:'Look at that beautiful view from the window!',  pron:'/lʊk/',
+      err:'"Look AT" (direct gaze). "Look FOR" (search). "Look LIKE" (resemble). Each needs its preposition.',
+      topic:'Communication' },
+    { w:'start',     pos:'verb',      def:'To begin doing something or to begin happening.',
+      ex:'The film starts at eight o\'clock. Don\'t be late!',  pron:'/stɑːt/',
+      err:'"Start + -ing" or "start + infinitive" both work: "I started learning" / "I started to learn" ✓',
+      topic:'Daily Life' },
+  ]
+},
+A2: {
+  color: '#6A1B9A', lt: '#F3E5F5', name: 'Elementary',
+  desc: 'Language for real adult situations',
+  words: [
+    { w:'career',     pos:'noun',      def:'The series of jobs and professional roles a person has over their working life.',
+      ex:'She has had a very successful career in international banking.',  pron:'/kəˈrɪə/',
+      err:'"A career IN" a field (not "a career OF"). "A career in medicine" ✓',
+      topic:'Career & Workplace' },
+    { w:'promotion',  pos:'noun',      def:'A move to a higher and better-paid position within the same company.',
+      ex:'He worked very hard for two years and finally got a promotion.',  pron:'/prəˈməʊʃn/',
+      err:'"Get a promotion" or "be promoted" ✓. Never "make a promotion".',
+      topic:'Career & Workplace' },
+    { w:'deadline',   pos:'noun',      def:'The latest time or date by which something must be finished.',
+      ex:'The deadline for the project is Friday at 5pm — no extensions.',  pron:'/ˈdɛdlaɪn/',
+      err:'"Meet a deadline" (achieve it). "Miss a deadline" (fail it). "The deadline IS" (not "makes").',
+      topic:'Career & Workplace' },
+    { w:'advice',     pos:'noun',      def:'Guidance or suggestions about what to do in a particular situation.',
+      ex:'She gave me some really useful advice about my CV.',  pron:'/ədˈvaɪs/',
+      err:'"Advice" is UNCOUNTABLE. Never "an advice" or "advices". Say "some advice" or "a piece of advice".',
+      topic:'Communication' },
+    { w:'although',   pos:'conjunction', def:'Used to introduce a contrasting idea despite what has just been said.',
+      ex:'Although she was tired, she stayed to finish the report.',  pron:'/ɔːlˈðəʊ/',
+      err:'Cannot use "although" and "but" in the same clause: "Although it was late, she worked" ✓ / "Although it was late but she worked" ✗',
+      topic:'Grammar Words' },
+    { w:'suggest',    pos:'verb',      def:'To put forward an idea or plan for someone else to consider.',
+      ex:'I suggest we meet for coffee to discuss this in person.',  pron:'/səˈdʒɛst/',
+      err:'"Suggest + -ing" or "suggest that + clause": "I suggest going" / "I suggest (that) we go" ✓. Never "suggest to go".',
+      topic:'Communication' },
+    { w:'improve',    pos:'verb',      def:'To become or make something better than it was before.',
+      ex:'Her French has improved dramatically since she started lessons.',  pron:'/ɪmˈpruːv/',
+      err:'"Improve" is often used without a preposition. "Your English is improving" ✓ (not "improving up").',
+      topic:'Learning' },
+    { w:'afford',     pos:'verb',      def:'To have enough money to pay for something without serious difficulty.',
+      ex:'We cannot afford to go on holiday this year — we are saving.',  pron:'/əˈfɔːd/',
+      err:'"Can afford TO do" something: "I can\'t afford to buy it" ✓. Do not omit "to".',
+      topic:'Personal Finances' },
+    { w:'experience', pos:'noun',      def:'Knowledge or skill you have because you have done something before.',
+      ex:'She has ten years of experience in project management.',  pron:'/ɪkˈspɪərɪəns/',
+      err:'"Experience" (uncountable, general) vs "an experience" (countable, one event): "I gained experience" / "It was a wonderful experience".',
+      topic:'Career & Workplace' },
+    { w:'manage',     pos:'verb',      def:'To succeed in doing something difficult; or to be in charge of something.',
+      ex:'He managed to finish the report despite all the interruptions.',  pron:'/ˈmænɪdʒ/',
+      err:'"Manage TO do" (succeed at something difficult). Not interchangeable with "can": "I managed to fix it" ≠ "I could fix it".',
+      topic:'Career & Workplace' },
+    { w:'decision',   pos:'noun',      def:'A choice you make after considering different possibilities.',
+      ex:'It was a very difficult decision but she chose to resign.',  pron:'/dɪˈsɪʒn/',
+      err:'"Make a decision" ✓ (not "take a decision" in British English). "Reach a decision" is also correct (formal).',
+      topic:'Communication' },
+    { w:'support',    pos:'verb/noun', def:'To help or encourage someone; or the help and encouragement given.',
+      ex:'Her family has always supported her in her career choices.',  pron:'/səˈpɔːt/',
+      err:'"Support someone IN something": "Support me in my decision" ✓. Also: "emotional support", "financial support".',
+      topic:'Relationships & Family' },
+    { w:'flat',       pos:'noun',      def:'A set of rooms for living in, all on one floor of a building.',
+      ex:'She lives in a small flat in the centre of the city.',  pron:'/flæt/',
+      err:'British: flat. American: apartment. Both used in international English — know both.',
+      topic:'Housing' },
+    { w:'actually',   pos:'adverb',    def:'Used to express something surprising or to correct a misunderstanding.',
+      ex:'I thought he was French but he is actually Belgian.',  pron:'/ˈæktʃuəli/',
+      err:'False friend: does NOT mean "currently/now". "Actually" means "in fact" or "surprisingly". Very common error for French/Spanish speakers.',
+      topic:'Grammar Words' },
+    { w:'remember',   pos:'verb',      def:'To bring a fact, event or person back into your mind.',
+      ex:'Do you remember what time the meeting starts tomorrow?',  pron:'/rɪˈmɛmbə/',
+      err:'"Remember + -ing" (past event): "I remember meeting her". "Remember + to do" (future task): "Remember to call him". Meaning changes!',
+      topic:'Daily Life' },
+  ]
+},
+B1: {
+  color: '#E65100', lt: '#FFF3E0', name: 'Intermediate',
+  desc: 'Nuance, precision and real fluency',
+  words: [
+    { w:'ambition',     pos:'noun',      def:'A strong desire to achieve something, especially in your career or life.',
+      ex:'Her ambition has always been to run her own company.',  pron:'/æmˈbɪʃn/',
+      err:'"Ambition TO do" something: "an ambition to become a doctor" ✓. "Ambitious" is the adjective.',
+      topic:'Career Development' },
+    { w:'redundancy',   pos:'noun',      def:'Losing your job because the employer no longer needs your role.',
+      ex:'After fifteen years at the company, he faced redundancy.',  pron:'/rɪˈdʌndənsi/',
+      err:'British term. American equivalent: "layoff". "Made redundant" ✓ (not "fired" — different meaning).',
+      topic:'Career Development' },
+    { w:'freelance',    pos:'adj/verb',  def:'Working independently for different companies rather than being employed by one.',
+      ex:'She went freelance three years ago and has never looked back.',  pron:'/ˈfriːlɑːns/',
+      err:'"Go freelance" / "work freelance" / "be a freelancer" — all correct. "Freelance" as adjective: "a freelance journalist".',
+      topic:'Career Development' },
+    { w:'perspective',  pos:'noun',      def:'A particular way of thinking about something, especially one influenced by your situation.',
+      ex:'Travelling gives you a completely different perspective on your own country.',  pron:'/pəˈspɛktɪv/',
+      err:'"From my perspective" ✓. Often confused with "prospective" (= expected/future). Very different words.',
+      topic:'Abstract Concepts' },
+    { w:'negotiate',    pos:'verb',      def:'To discuss something formally to reach an agreement with another person.',
+      ex:'They spent two hours negotiating the terms of the contract.',  pron:'/nɪˈɡəʊʃɪeɪt/',
+      err:'"Negotiate + noun": "negotiate a deal / a salary". "Negotiate WITH someone". Never "negotiate to someone".',
+      topic:'Professional Communication' },
+    { w:'attitude',     pos:'noun',      def:'A settled way of thinking or feeling about something, often shown in your behaviour.',
+      ex:'Her positive attitude to change made her very popular with colleagues.',  pron:'/ˈætɪtjuːd/',
+      err:'"Attitude TOWARDS something" (British) / "attitude TOWARD something" (American). Both correct.',
+      topic:'Personality' },
+    { w:'significantly',pos:'adverb',   def:'In an important way; to a great degree that is worth noticing.',
+      ex:'The results improved significantly after the new process was introduced.',  pron:'/sɪɡˈnɪfɪkəntli/',
+      err:'Used with comparatives: "significantly better / larger / more". Not "significantly very good".',
+      topic:'Academic Language' },
+    { w:'reluctant',    pos:'adjective', def:'Unwilling or not very enthusiastic about doing something.',
+      ex:'He was reluctant to admit that he had made a mistake.',  pron:'/rɪˈlʌktənt/',
+      err:'"Reluctant TO do" something ✓. "Reluctantly" is the adverb. Not "reluctant of doing".',
+      topic:'Feelings' },
+    { w:'consequence',  pos:'noun',      def:'A result or effect of an action or condition, often a negative one.',
+      ex:'The consequences of the decision were felt throughout the organisation.',  pron:'/ˈkɒnsɪkwəns/',
+      err:'"As a consequence OF" (not "because of consequence"). "Have consequences FOR" someone.',
+      topic:'Abstract Concepts' },
+    { w:'sustainable',  pos:'adjective', def:'Able to be maintained over time without damaging the environment or depleting resources.',
+      ex:'The company has moved to a more sustainable model of production.',  pron:'/səˈsteɪnəbl/',
+      err:'Often overused vaguely. When using it, be specific: "environmentally sustainable" / "financially sustainable".',
+      topic:'Environment' },
+    { w:'challenge',    pos:'noun/verb', def:'A difficult task that tests your abilities; or to question something.',
+      ex:'Starting a new business is an exciting but challenging experience.',  pron:'/ˈtʃælɪndʒ/',
+      err:'"A challenging situation" ✓. "Challenge someone ON something" (dispute). Do not use as synonym for "problem" in all contexts.',
+      topic:'Career Development' },
+    { w:'whereas',      pos:'conjunction',def:'Used to contrast two facts or situations, often to highlight a difference.',
+      ex:'He earns a high salary, whereas his sister chose a lower-paid creative career.',  pron:'/wɛərˈæz/',
+      err:'Similar to "while" for contrast, but "whereas" is slightly more formal and emphatic.',
+      topic:'Grammar Words' },
+    { w:'despite',      pos:'preposition',def:'Without being affected by something; used to introduce a contrasting point.',
+      ex:'Despite working long hours, she always found time for her family.',  pron:'/dɪˈspaɪt/',
+      err:'"Despite + noun/gerund": "despite the rain" / "despite working". NEVER "despite that + clause". Use "although" instead.',
+      topic:'Grammar Words' },
+    { w:'tendency',     pos:'noun',      def:'An inclination to do a particular thing; a pattern of behaviour.',
+      ex:'There is a tendency for people to overestimate their own abilities.',  pron:'/ˈtɛndənsi/',
+      err:'"Tendency TO do" something ✓ or "tendency TOWARDS" something. "A tendency to procrastinate".',
+      topic:'Personality' },
+    { w:'assume',       pos:'verb',      def:'To believe something is true without having proof.',
+      ex:'Don\'t assume she agrees — you should ask her directly.',  pron:'/əˈsjuːm/',
+      err:'"Assume" has a negative connotation (assuming without checking). Different from "suppose" (more neutral hypothetical).',
+      topic:'Critical Thinking' },
+  ]
+},
+B2: {
+  color: '#AD1457', lt: '#FCE4EC', name: 'Upper-Intermediate',
+  desc: 'Complex ideas, register and precision',
+  words: [
+    { w:'automation',     pos:'noun',       def:'The use of machines or software to perform tasks previously done by humans.',
+      ex:'Automation is reshaping the manufacturing labour market fundamentally.',  pron:'/ˌɔːtəˈmeɪʃn/',
+      err:'"Automation OF" tasks / processes. The verb is "automate": "to automate a process".',
+      topic:'Economy & Labour' },
+    { w:'precarity',      pos:'noun',       def:'A condition of unpredictability and insecurity, especially in employment.',
+      ex:'The rise of the gig economy has increased precarity for millions of workers.',  pron:'/prɪˈkærɪti/',
+      err:'More common as the adjective "precarious": "precarious working conditions". "Precarity" is slightly more academic.',
+      topic:'Economy & Labour' },
+    { w:'nuance',         pos:'noun/verb',  def:'A subtle distinction in meaning, expression or sound; to add such distinctions.',
+      ex:'The report fails to capture the nuances of the situation on the ground.',  pron:'/ˈnjuːɑːns/',
+      err:'"Nuance" is often used loosely. When you use it, specify what the nuance IS. "Nuanced argument" = argument with many subtle distinctions.',
+      topic:'Abstract Language' },
+    { w:'rhetoric',       pos:'noun',       def:'Language designed to persuade or impress, sometimes hollow or misleading.',
+      ex:'The politician\'s rhetoric was compelling but lacked substantive policy proposals.',  pron:'/ˈrɛtərɪk/',
+      err:'Can be neutral (the art of persuasion) or negative (empty/manipulative language). Context determines meaning.',
+      topic:'Language & Politics' },
+    { w:'implicit',       pos:'adjective',  def:'Suggested or understood without being directly stated.',
+      ex:'There was an implicit assumption in the report that growth is always desirable.',  pron:'/ɪmˈplɪsɪt/',
+      err:'Opposite of "explicit" (stated clearly). "Implicit in" something: "The risks are implicit in the proposal".',
+      topic:'Academic Language' },
+    { w:'leverage',       pos:'noun/verb',  def:'The use of a small amount of force or resource to produce a larger effect; to use to maximum advantage.',
+      ex:'She leveraged her network to get an introduction to the company\'s CEO.',  pron:'/ˈliːvərɪdʒ/',
+      err:'Common in business language. Can be overused. As a verb: "leverage your skills/position/network".',
+      topic:'Business Language' },
+    { w:'pragmatic',      pos:'adjective',  def:'Dealing with problems in a practical, realistic way rather than following fixed theories.',
+      ex:'We need a pragmatic approach to this — not an ideological one.',  pron:'/præɡˈmætɪk/',
+      err:'"Pragmatic" (adjective), "pragmatism" (noun), "pragmatist" (person), "pragmatically" (adverb). A rich word family.',
+      topic:'Abstract Language' },
+    { w:'undermine',      pos:'verb',       def:'To weaken or damage something gradually, especially someone\'s confidence or an institution.',
+      ex:'Constant criticism can undermine a person\'s confidence over time.',  pron:'/ˌʌndəˈmaɪn/',
+      err:'"Undermine + noun". Often used with: authority, confidence, trust, position, stability.',
+      topic:'Abstract Language' },
+    { w:'discrepancy',    pos:'noun',       def:'A difference between things that should be the same or very similar.',
+      ex:'There is a significant discrepancy between the official figures and the survey data.',  pron:'/dɪˈskrɛpənsi/',
+      err:'"Discrepancy BETWEEN two things" or "IN the data". Not "discrepancy of".',
+      topic:'Academic Language' },
+    { w:'compelling',     pos:'adjective',  def:'Evoking interest, attention or admiration; convincing.',
+      ex:'She made a compelling case for restructuring the team.',  pron:'/kəmˈpɛlɪŋ/',
+      err:'"Compelling argument / evidence / case / reason" — common collocations. Not used for people ("she is compelling" sounds unusual).',
+      topic:'Academic Language' },
+    { w:'fragmented',     pos:'adjective',  def:'Broken into separate, disconnected parts; lacking coherence.',
+      ex:'The market is highly fragmented, with no single dominant player.',  pron:'/ˈfræɡmɛntɪd/',
+      err:'"Fragmented" suggests things that SHOULD be unified but are not. Different from "diverse" (positive variation).',
+      topic:'Abstract Language' },
+    { w:'mitigate',       pos:'verb',       def:'To make something less severe, painful or serious.',
+      ex:'Several measures were introduced to mitigate the environmental impact.',  pron:'/ˈmɪtɪɡeɪt/',
+      err:'"Mitigate + noun": mitigate risk / damage / effects. Often confused with "alleviate" (relieve suffering). Both B2+ vocabulary.',
+      topic:'Academic Language' },
+    { w:'transparent',    pos:'adjective',  def:'Open, honest and not secretive; easy to see through.',
+      ex:'The organisation needs to be more transparent about how decisions are made.',  pron:'/trænsˈpærənt/',
+      err:'"Transparency" is the noun. "Transparent ABOUT" something: "be transparent about the process" ✓.',
+      topic:'Business Language' },
+    { w:'sceptical',      pos:'adjective',  def:'Not easily convinced; having doubts about something.',
+      ex:'I am sceptical about claims that are not supported by solid evidence.',  pron:'/ˈskɛptɪkl/',
+      err:'British: sceptical. American: skeptical. "Sceptical ABOUT/OF" something. "Healthy scepticism" = positive critical thinking.',
+      topic:'Critical Thinking' },
+    { w:'counterpart',    pos:'noun',       def:'A person or thing that has the same position or function in a different place or organisation.',
+      ex:'She met her French counterpart at the international conference last month.',  pron:'/ˈkaʊntəpɑːt/',
+      err:'Used for equivalent roles across different contexts — countries, organisations, departments. Not a synonym for "colleague".',
+      topic:'Professional Language' },
+  ]
+},
+C1: {
+  color: '#004D40', lt: '#E0F2F1', name: 'Advanced',
+  desc: 'Precision, register and rhetorical skill',
+  words: [
+    { w:'hegemony',       pos:'noun',       def:'Dominance of one group or state over others, often through cultural or ideological means.',
+      ex:'Gramsci\'s concept of cultural hegemony explains how consent is manufactured.',  pron:'/hɪˈdʒɛməni/',
+      err:'Often mispronounced: stress on second syllable: he-GEM-ony. From Greek "hēgemonia" (leadership).',
+      topic:'Power & Institutions' },
+    { w:'ideology',       pos:'noun',       def:'A system of ideas that forms the basis of a political or economic theory.',
+      ex:'The ideology of meritocracy obscures structural inequality.',  pron:'/ˌaɪdɪˈɒlədʒi/',
+      err:'"Ideological" (adjective), "ideologically" (adverb), "ideologue" (person who holds fixed views). Note the soft "g".',
+      topic:'Power & Institutions' },
+    { w:'vested interest', pos:'noun phrase', def:'A personal stake in a situation that motivates self-serving behaviour.',
+      ex:'The fossil fuel industry has a vested interest in delaying climate legislation.',  pron:'/ˈvɛstɪd ˈɪntrəst/',
+      err:'Always plural when used generally: "vested interests". Singular for one specific instance.',
+      topic:'Power & Institutions' },
+    { w:'nuanced',        pos:'adjective',  def:'Showing awareness of subtle distinctions; not simplistic.',
+      ex:'Her analysis is admirably nuanced — she avoids easy conclusions.',  pron:'/ˈnjuːɑːnst/',
+      err:'"Nuanced" implies complexity and intellectual care. Overused in academic contexts — use it only when you can specify the nuances.',
+      topic:'Academic Language' },
+    { w:'paradox',        pos:'noun',       def:'A situation that seems contradictory or impossible but may nonetheless be true.',
+      ex:'There is a paradox at the heart of liberal democracy: freedom requires limits.',  pron:'/ˈpærədɒks/',
+      err:'"Paradoxically" (adverb). "The paradox OF" something. "Paradox" ≠ "irony" — they are different rhetorical concepts.',
+      topic:'Critical Thinking' },
+    { w:'ubiquitous',     pos:'adjective',  def:'Present, appearing or found everywhere at the same time.',
+      ex:'Smartphones have become so ubiquitous that their absence feels strange.',  pron:'/juːˈbɪkwɪtəs/',
+      err:'"Ubiquity" (noun). From Latin "ubique" (everywhere). Often used with slight irony about things that have spread too far.',
+      topic:'Modern Language' },
+    { w:'predicated',     pos:'adjective',  def:'Based on; dependent on a particular idea, fact or condition being true.',
+      ex:'The entire argument is predicated on the assumption that growth is infinite.',  pron:'/ˈp rɛdɪkeɪtɪd/',
+      err:'"Predicated ON" something ✓. Do not confuse with "predicated" as a grammar term (the predicate of a sentence).',
+      topic:'Academic Language' },
+    { w:'pragmatism',     pos:'noun',       def:'An approach that assesses the truth or value of ideas by their practical consequences.',
+      ex:'Political pragmatism sometimes conflicts with moral principle.',  pron:'/ˈpræɡmətɪzm/',
+      err:'Philosophical pragmatism (a specific school) vs everyday "pragmatism" (practical-mindedness). Context usually clarifies.',
+      topic:'Philosophy & Ethics' },
+    { w:'conflate',       pos:'verb',       def:'To combine two or more concepts into one, treating them as the same when they are not.',
+      ex:'It is important not to conflate correlation with causation in data analysis.',  pron:'/kənˈfleɪt/',
+      err:'"Conflate" has a NEGATIVE connotation — it implies a mistake. "Do not conflate X and Y" = you are making an error.',
+      topic:'Critical Thinking' },
+    { w:'tacit',          pos:'adjective',  def:'Understood or implied without being stated explicitly.',
+      ex:'There was a tacit agreement between them not to discuss the matter again.',  pron:'/ˈtæsɪt/',
+      err:'Close to "implicit" and "unspoken". "Tacit" is slightly more formal and often used for agreements or consent.',
+      topic:'Academic Language' },
+    { w:'inherent',       pos:'adjective',  def:'Existing as a natural and inseparable part of something.',
+      ex:'There is an inherent tension between individual freedom and collective responsibility.',  pron:'/ɪnˈhɪərənt/',
+      err:'"Inherent IN" something ✓. "Inherently" (adverb): "the situation is inherently unstable".',
+      topic:'Academic Language' },
+    { w:'arbitrary',      pos:'adjective',  def:'Based on random choice or personal whim rather than any principle or system.',
+      ex:'The distinction between the two categories seems entirely arbitrary.',  pron:'/ˈɑːbɪtrəri/',
+      err:'"Arbitrarily" (adverb). Often used to critique decisions that lack clear rationale. Strong critical word.',
+      topic:'Critical Thinking' },
+    { w:'discourse',      pos:'noun',       def:'Written or spoken communication or debate; the language used in a particular field.',
+      ex:'Academic discourse has its own conventions and vocabulary.',  pron:'/ˈdɪskɔːs/',
+      err:'Can mean a conversation (formal) or a broader system of language/meaning. In linguistics and social theory, has a very specific meaning.',
+      topic:'Academic Language' },
+    { w:'precedent',      pos:'noun',       def:'An earlier event or action that serves as an example for future decisions.',
+      ex:'The court ruling set a precedent that affected all subsequent cases.',  pron:'/ˈprɛsɪdənt/',
+      err:'"SET a precedent" ✓ (not "make a precedent"). "Without precedent" = has never happened before. Not to be confused with "president".',
+      topic:'Legal & Institutional' },
+    { w:'unequivocal',    pos:'adjective',  def:'Leaving no doubt; clear and without ambiguity.',
+      ex:'The evidence is unequivocal: smoking causes serious health damage.',  pron:'/ˌʌnɪˈkwɪvəkl/',
+      err:'"Unequivocally" (adverb). Used to emphasise absolute clarity: "unequivocal proof / support / rejection".',
+      topic:'Academic Language' },
+  ]
+},
+C2: {
+  color: '#1A237E', lt: '#E8EAF6', name: 'Proficiency',
+  desc: 'Mastery — philosophical, rhetorical, exact',
+  words: [
+    { w:'ontology',       pos:'noun',       def:'The branch of philosophy concerned with the fundamental nature of being and existence.',
+      ex:'Her ontological assumptions shape the entire theoretical framework of the book.',  pron:'/ɒnˈtɒlədʒi/',
+      err:'"Ontological" (adjective). Different from "epistemology" (theory of knowledge). Often confused in academic writing.',
+      topic:'Ontology & Metaphysics' },
+    { w:'teleology',      pos:'noun',       def:'The study of purpose or end-goals as explanatory principles in nature or history.',
+      ex:'A teleological view of history assumes that progress is both inevitable and directional.',  pron:'/ˌtɛlɪˈɒlədʒi/',
+      err:'"Teleological" (adjective). Implies things develop towards a pre-determined end. Often used critically.',
+      topic:'Philosophy' },
+    { w:'reification',    pos:'noun',       def:'The act of treating an abstract concept as if it were a concrete, independent thing.',
+      ex:'The reification of market forces conceals the human decisions and values behind them.',  pron:'/ˌreɪɪfɪˈkeɪʃn/',
+      err:'From Marx\'s concept "Verdinglichung". "Reify" is the verb: "to reify an abstract concept".',
+      topic:'Philosophy & Critical Theory' },
+    { w:'phenomenology',  pos:'noun',       def:'A philosophical method focusing on conscious experience as it presents itself to awareness.',
+      ex:'Husserl\'s phenomenology transformed how philosophers approach subjective experience.',  pron:'/fɪˌnɒmɪˈnɒlədʒi/',
+      err:'Pronunciation is challenging: fi-NOM-i-NOL-o-ji. "Phenomenological" (adjective). Foundational to Continental philosophy.',
+      topic:'Philosophy' },
+    { w:'contingency',    pos:'noun',       def:'The possibility that something might occur; or dependence on uncertain conditions.',
+      ex:'The plan needs to account for contingency — not all variables are controllable.',  pron:'/kənˈtɪndʒənsi/',
+      err:'"Contingency plan" (common usage). Philosophical contingency = something that could have been otherwise.',
+      topic:'Philosophy & Planning' },
+    { w:'aporia',         pos:'noun',       def:'A state of genuine philosophical puzzlement or doubt in the face of irresolvable questions.',
+      ex:'Socrates often led his interlocutors to aporia — the productive awareness of not knowing.',  pron:'/əˈpɔːrɪə/',
+      err:'From Greek "a-" (without) + "poros" (passage). A POSITIVE state in Socratic method — the beginning of real inquiry.',
+      topic:'Philosophy' },
+    { w:'epistemology',   pos:'noun',       def:'The theory of knowledge — what we can know, how we know it, and what justifies belief.',
+      ex:'The debate is fundamentally epistemological: what counts as valid evidence?',  pron:'/ɪˌpɪstɪˈmɒlədʒi/',
+      err:'Often confused with ontology. EPISTEMOLOGY = knowledge. ONTOLOGY = existence/being.',
+      topic:'Philosophy' },
+    { w:'dialectic',      pos:'noun/adj',   def:'A method of reasoning through contradictions; or the tension between opposing forces.',
+      ex:'The dialectic between tradition and innovation drives cultural evolution.',  pron:'/ˌdaɪəˈlɛktɪk/',
+      err:'Hegelian dialectic: thesis → antithesis → synthesis. "Dialectical" (adjective). Do not confuse with "dialectal" (relating to dialect).',
+      topic:'Philosophy & Critical Theory' },
+    { w:'heuristic',      pos:'adj/noun',   def:'Enabling learning or discovery through practical problem-solving; a mental shortcut.',
+      ex:'The algorithm uses a heuristic approach rather than exhaustive computation.',  pron:'/hjʊˈrɪstɪk/',
+      err:'Psychology usage: heuristics as cognitive shortcuts (often leading to bias). Computing: approximate problem-solving.',
+      topic:'Cognitive Science' },
+    { w:'tautology',      pos:'noun',       def:'Saying the same thing twice in different words; a statement necessarily true by definition.',
+      ex:'"A free gift" is a tautology — all gifts are, by definition, free.',  pron:'/tɔːˈtɒlədʒi/',
+      err:'"Tautological" (adjective). In logic, tautologies are necessarily true. In rhetoric, they are redundant and weak.',
+      topic:'Rhetoric & Logic' },
+    { w:'equivocal',      pos:'adjective',  def:'Open to more than one interpretation; deliberately ambiguous.',
+      ex:'His equivocal response suggested he was not fully committed to the plan.',  pron:'/ɪˈkwɪvəkl/',
+      err:'"Equivocate" (verb) = to speak evasively. "Equivocation" (noun). Often used critically: "an equivocal answer".',
+      topic:'Academic Language' },
+    { w:'ineffable',      pos:'adjective',  def:'Too great or extreme to be expressed in words; defying verbal description.',
+      ex:'There is an ineffable quality to great music that analysis cannot fully capture.',  pron:'/ɪnˈɛfəbl/',
+      err:'Rare and striking — use sparingly. From Latin "ineffabilis" (unspeakable). Beautiful word for precisely that which language cannot reach.',
+      topic:'Aesthetics & Philosophy' },
+    { w:'interlocutor',   pos:'noun',       def:'A person who takes part in a dialogue or conversation.',
+      ex:'A skilled teacher makes the student feel heard as a genuine interlocutor.',  pron:'/ˌɪntəˈlɒkjʊtə/',
+      err:'Formal word for conversation partner. Used in linguistics, philosophy and diplomacy. "Interlocution" (noun for the dialogue itself).',
+      topic:'Language & Communication' },
+    { w:'circumlocution', pos:'noun',       def:'The use of many words where fewer would do; indirect or roundabout expression.',
+      ex:'His speech was full of circumlocution — it took ten minutes to say nothing.',  pron:'/ˌsɜːkəmləˈkjuːʃn/',
+      err:'"Circumcute" (verb, rare). "Circumlocutory" (adjective). Often used critically to describe politicians or bureaucrats.',
+      topic:'Rhetoric & Language' },
+    { w:'liminal',        pos:'adjective',  def:'Relating to a threshold or transitional state; occupying a position between two different states.',
+      ex:'Adolescence is a liminal phase — neither childhood nor adulthood.',  pron:'/ˈlɪmɪnl/',
+      err:'Anthropological origin (Victor Turner). Overused in cultural criticism — only use when the "threshold" meaning is precise and necessary.',
+      topic:'Philosophy & Cultural Theory' },
+  ]
+}
+};
+
+// ══════════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════════
+let currentMode     = 'ref';
+let score           = 0;
+let masteredWords   = new Set(JSON.parse(localStorage.getItem('vr_mastered')||'[]'));
+let activeLevel     = 'A0';
+const LEVELS        = ['A0','A1','A2','B1','B2','C1','C2'];
+const LEVEL_NAMES   = {A0:'Absolute Beginner',A1:'Beginner',A2:'Elementary',
+                       B1:'Intermediate',B2:'Upper-Intermediate',C1:'Advanced',C2:'Proficiency'};
+
+// MC state per card
+const mcState = {};
+// Match state
+let matchSelectedWord = null;
+let matchMatched      = new Set();
+
+// ══════════════════════════════════════════════════════════════════
+// SCORE
+// ══════════════════════════════════════════════════════════════════
+function addScore(pts) {
+  score += pts;
+  const el = document.getElementById('score-num');
+  el.textContent = score;
+  const w = document.getElementById('score-widget');
+  w.style.transform = 'scale(1.15)';
+  w.style.borderColor = '#FFE135';
+  setTimeout(()=>{ w.style.transform=''; },350);
+}
+
+// ══════════════════════════════════════════════════════════════════
+// MASTERY
+// ══════════════════════════════════════════════════════════════════
+function toggleMastery(word) {
+  const key = word.toLowerCase();
+  if (masteredWords.has(key)) masteredWords.delete(key);
+  else { masteredWords.add(key); addScore(5); }
+  localStorage.setItem('vr_mastered', JSON.stringify([...masteredWords]));
+  updateStats();
+  renderContent();
+}
+
+function updateStats() {
+  const total = Object.values(VOCAB).reduce((a,lv)=>a+lv.words.length,0);
+  document.getElementById('total-words').textContent = total;
+  document.getElementById('total-mastered').textContent = masteredWords.size;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// FUZZY MATCH
+// ══════════════════════════════════════════════════════════════════
+function fuzzy(input, target) {
+  const a = input.trim().toLowerCase();
+  const b = target.trim().toLowerCase();
+  if (a === b) return 'exact';
+  // levenshtein ≤ 1
+  if (Math.abs(a.length-b.length) > 2) return 'wrong';
+  let diff = 0;
+  for (let i=0;i<Math.max(a.length,b.length);i++) if (a[i]!==b[i]) diff++;
+  return diff <= 1 ? 'close' : 'wrong';
+}
+
+// ══════════════════════════════════════════════════════════════════
+// MODE SWITCHER
+// ══════════════════════════════════════════════════════════════════
+function setMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('btn-'+mode)?.classList.add('active');
+  // Update sidebar
+  document.querySelectorAll('.sb-item').forEach(i=>i.classList.remove('active'));
+  renderContent();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// JUMP TO LEVEL
+// ══════════════════════════════════════════════════════════════════
+function jumpLevel(lv) {
+  activeLevel = lv;
+  document.querySelectorAll('.sb-item').forEach(i=>i.classList.remove('active'));
+  const el = document.getElementById('level-sec-'+lv);
+  if (el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  else renderContent();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// GLOBAL SEARCH
+// ══════════════════════════════════════════════════════════════════
+function globalSearch(query) {
+  if (!query.trim()) { renderContent(); return; }
+  const q = query.toLowerCase();
+  const area = document.getElementById('content-area');
+  const results = [];
+  LEVELS.forEach(lv => {
+    VOCAB[lv].words.forEach(item => {
+      if (item.w.toLowerCase().includes(q) ||
+          item.def.toLowerCase().includes(q) ||
+          item.ex.toLowerCase().includes(q) ||
+          item.topic.toLowerCase().includes(q)) {
+        results.push({...item, level:lv});
+      }
+    });
+  });
+  if (!results.length) {
+    area.innerHTML = `<div style="text-align:center;padding:3rem;font-size:.9rem;color:rgba(0,0,0,.5)">No results for "${query}"</div>`;
+    return;
+  }
+  area.innerHTML = `
+    <div class="level-header">
+      <span class="level-badge" style="background:#555">🔍</span>
+      <span class="level-title">Search results for "${query}" (${results.length})</span>
+    </div>
+    ${buildRefTable(results, 'search')}`;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// RENDER CONTENT
+// ══════════════════════════════════════════════════════════════════
+function renderContent() {
+  const area = document.getElementById('content-area');
+  let html = '';
+  LEVELS.forEach(lv => {
+    const data = VOCAB[lv];
+    html += renderLevel(lv, data);
+  });
+  area.innerHTML = html;
+  // Re-attach events after render
+  attachFlipEvents();
+  updateStats();
+}
+
+function renderLevel(lv, data) {
+  const badge = `<span class="level-badge" style="background:${data.color}">${lv}</span>`;
+  const progress = Math.round(
+    data.words.filter(w=>masteredWords.has(w.w.toLowerCase())).length / data.words.length * 100
+  );
+
+  let inner = '';
+  if (currentMode === 'ref')   inner = buildRef(data.words, lv);
+  if (currentMode === 'flip')  inner = buildFlip(data.words, lv);
+  if (currentMode === 'type')  inner = buildType(data.words, lv);
+  if (currentMode === 'mc')    inner = buildMC(data.words, lv);
+  if (currentMode === 'match') inner = buildMatch(data.words, lv);
+
+  return `
+    <div class="level-section" id="level-sec-${lv}">
+      <div class="level-header">
+        ${badge}
+        <span class="level-title">${data.name}</span>
+        <span class="level-desc">${data.desc}</span>
+      </div>
+      <div class="level-progress">
+        <div class="lp-fill" style="width:${progress}%;background:${data.color}"></div>
+      </div>
+      ${inner}
+      <hr class="sec-div">
+    </div>`;
+}
+
+// ── REFERENCE TABLE ──────────────────────────────────────────────
+function buildRef(words, lv) {
+  return buildRefTable(words, lv);
+}
+
+function buildRefTable(words, lv) {
+  const rows = words.map(item => {
+    const key       = item.w.toLowerCase();
+    const isMast    = masteredWords.has(key);
+    const mastClass = isMast ? ' mastered' : '';
+    const stars     = isMast ? '⭐ done' : '☆ learn';
+    return `<tr class="${mastClass}" data-word="${key}">
+      <td>
+        <span class="rt-word">${item.w}</span>
+        <span class="rt-pos">${item.pos}</span>
+        <span class="rt-topic">${item.topic}</span>
+      </td>
+      <td class="rt-def">${item.def}</td>
+      <td>
+        <span class="rt-ex">${item.ex}</span>
+        ${item.pron ? `<span class="rt-pron">${item.pron}</span>` : ''}
+      </td>
+      <td class="rt-error">${item.err}</td>
+      <td>
+        <div class="rt-score" onclick="toggleMastery('${item.w}')">
+          <div class="stars">${isMast ? '⭐' : '○'}</div>
+          <div style="font-size:.6rem;margin-top:.1rem">${stars}</div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+  return `
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th style="width:14%">Word</th>
+          <th style="width:26%">Definition</th>
+          <th style="width:28%">Example & pronunciation</th>
+          <th style="width:28%">Common learner error</th>
+          <th style="width:4%"></th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// ── FLIP CARDS ────────────────────────────────────────────────────
+function buildFlip(words, lv) {
+  const cards = words.map((item,i) => `
+    <div class="flip-wrap" id="flip-${lv}-${i}" onclick="this.classList.toggle('flipped')">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="fw">${item.w}</div>
+          <div class="fp">${item.pos} · ${item.pron || ''}</div>
+          <div class="flip-badge">${item.topic}</div>
+        </div>
+        <div class="flip-back">
+          <div class="fd">${item.def}</div>
+          <div class="fe">${item.ex}</div>
+        </div>
+      </div>
+    </div>`).join('');
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">Click a card to reveal the definition</span>
+      <button class="ex-btn secondary" onclick="flipAll('${lv}',${words.length})">Flip all</button>
+      <button class="ex-btn secondary" onclick="resetFlip('${lv}',${words.length})">Reset</button>
+    </div>
+    <div class="flip-grid">${cards}</div>`;
+}
+
+function attachFlipEvents() {} // cards use onclick inline
+
+window.flipAll = function(lv, n) {
+  for (let i=0;i<n;i++) document.getElementById(`flip-${lv}-${i}`)?.classList.add('flipped');
+};
+window.resetFlip = function(lv, n) {
+  for (let i=0;i<n;i++) document.getElementById(`flip-${lv}-${i}`)?.classList.remove('flipped');
+};
+
+// ── TYPING EXERCISE ───────────────────────────────────────────────
+function buildType(words, lv) {
+  const cards = words.map((item,i) => {
+    const id = `type-${lv}-${i}`;
+    // Blank the word in the example
+    const re = new RegExp('\\b'+item.w.replace(/[-[\]{}()*+?.,\\^$|#\s]/g,'\\$&')+'s?\\b','i');
+    const blankedEx = item.ex.replace(re, `<span class="blank">${'_'.repeat(item.w.length)}</span>`);
+    return `
+      <div class="type-card">
+        <div class="tc-prompt">Type the word</div>
+        <div class="tc-def">${item.def}</div>
+        <div class="tc-ex">${blankedEx}</div>
+        ${item.pron ? `<div class="tc-pron">${item.pron}</div>` : ''}
+        <div class="tc-input-row">
+          <input class="tc-input" type="text" id="${id}"
+            placeholder="Type the word…"
+            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+            data-answer="${item.w}" data-level="${lv}" data-idx="${i}"
+            onkeydown="if(event.key==='Enter')checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">
+          <button class="tc-btn" onclick="checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">Check ✓</button>
+          <button class="tc-btn hint-btn" onclick="typeHint('${id}','${item.w.replace(/'/g,"\\'")}')">💡</button>
+        </div>
+        <div class="tc-feedback" id="fb-${id}"></div>
+      </div>`;
+  }).join('');
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">
+        Type the word that matches each definition
+      </span>
+      <button class="ex-btn secondary" onclick="resetType('${lv}',${words.length})">↺ Reset all</button>
+    </div>
+    <div class="typing-exercise">${cards}</div>`;
+}
+
+window.checkType = function(id, answer, lv) {
+  const input = document.getElementById(id);
+  const fb    = document.getElementById('fb-'+id);
+  if (!input||!fb) return;
+  const result = fuzzy(input.value, answer);
+  input.classList.remove('correct','wrong','close');
+  fb.classList.remove('show','ok','err','near');
+  if (result === 'exact') {
+    input.classList.add('correct');
+    fb.textContent = '✅ Correct!';
+    fb.classList.add('show','ok');
+    input.disabled = true;
+    addScore(10);
+  } else if (result === 'close') {
+    input.classList.add('close');
+    fb.textContent = `Almost! Check spelling — answer: "${answer}"`;
+    fb.classList.add('show','near');
+    addScore(3);
+  } else {
+    input.classList.add('wrong');
+    fb.textContent = `❌ The answer is: "${answer}"`;
+    fb.classList.add('show','err');
+  }
+};
+
+window.typeHint = function(id, answer) {
+  const input = document.getElementById(id);
+  if (!input) return;
+  const current = input.value.length;
+  if (current < answer.length)
+    input.placeholder = `${answer[0].toUpperCase()}${'_'.repeat(answer.length-1)} (${answer.length} letters)`;
+  if (current === 0) input.value = answer[0];
+};
+
+window.resetType = function(lv, n) {
+  for (let i=0;i<n;i++) {
+    const id = `type-${lv}-${i}`;
+    const input = document.getElementById(id);
+    const fb    = document.getElementById('fb-'+id);
+    if (input) { input.value=''; input.disabled=false; input.classList.remove('correct','wrong','close'); }
+    if (fb)    { fb.classList.remove('show','ok','err','near'); }
+  }
+};
+
+// ── MULTIPLE CHOICE ───────────────────────────────────────────────
+function buildMC(words, lv) {
+  const cards = words.map((item,i) => {
+    const stateKey = `${lv}-${i}`;
+    // Pick 3 distractors from other words in same or adjacent levels
+    const all  = Object.values(VOCAB).flatMap(d=>d.words);
+    const pool = all.filter(w=>w.w!==item.w);
+    const shuffle = arr => [...arr].sort(()=>Math.random()-.5);
+    const distractors = shuffle(pool).slice(0,3).map(w=>w.def.length>80?w.def.slice(0,80)+'…':w.def);
+    const correct = item.def.length>80 ? item.def.slice(0,80)+'…' : item.def;
+    const options = shuffle([correct, ...distractors]);
+
+    const opts = options.map((opt,oi)=>`
+      <div class="mc-opt" data-option="${oi}" data-correct="${opt===correct}"
+           onclick="checkMC(this,'${stateKey}')">
+        ${opt}
+      </div>`).join('');
+
+    return `
+      <div class="mc-card" id="mc-${stateKey}">
+        <div class="mc-word-display">${item.w} <span style="font-size:.9rem;opacity:.5">${item.pron||''}</span></div>
+        <div class="tc-prompt">Which definition is correct?</div>
+        <div class="mc-options">${opts}</div>
+        <div class="tc-feedback" id="mc-fb-${stateKey}"></div>
+      </div>`;
+  }).join('');
+  return `<div class="mc-exercise">${cards}</div>`;
+}
+
+window.checkMC = function(btn, key) {
+  if (mcState[key]) return; // already answered
+  mcState[key] = true;
+  const correct = btn.dataset.correct === 'true';
+  const card    = document.getElementById('mc-'+key);
+  const fb      = document.getElementById('mc-fb-'+key);
+  card.querySelectorAll('.mc-opt').forEach(b=>{
+    b.style.pointerEvents='none';
+    if (b.dataset.correct==='true') b.classList.add('correct');
+  });
+  if (correct) {
+    btn.classList.add('correct');
+    if (fb) { fb.textContent='✅ Correct! +8 points'; fb.classList.add('show','ok'); }
+    addScore(8);
+  } else {
+    btn.classList.add('wrong');
+    if (fb) { fb.textContent='❌ Not quite — correct answer highlighted in green.'; fb.classList.add('show','err'); }
+  }
+};
+
+// ── MATCHING PAIRS ────────────────────────────────────────────────
+function buildMatch(words, lv) {
+  const subset = words.slice(0, Math.min(8, words.length));
+  const shuffle = arr => [...arr].sort(()=>Math.random()-.5);
+  const shuffledWords = shuffle(subset.map((_,i)=>i));
+  const shuffledDefs  = shuffle(subset.map((_,i)=>i));
+
+  const wordCol = shuffledWords.map(i=>`
+    <div class="match-item match-word" data-idx="${i}" data-type="word"
+         id="mw-${lv}-${i}" onclick="matchClick(this,'${lv}')">
+      ${subset[i].w}
+    </div>`).join('');
+  const defCol = shuffledDefs.map(i=>`
+    <div class="match-item match-def" data-idx="${i}" data-type="def"
+         id="md-${lv}-${i}" onclick="matchClick(this,'${lv}')">
+      ${subset[i].def.length>70?subset[i].def.slice(0,70)+'…':subset[i].def}
+    </div>`).join('');
+
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">
+        Match each word to its definition
+      </span>
+      <button class="ex-btn secondary" onclick="resetMatch('${lv}',${subset.length})">↺ Reset</button>
+      <span class="ex-score-inline" id="match-score-${lv}">0 / ${subset.length}</span>
+    </div>
+    <div class="match-exercise">
+      <div class="match-container">
+        <div>
+          <div class="match-col-title">📝 Words</div>
+          <div class="match-items">${wordCol}</div>
+        </div>
+        <div>
+          <div class="match-col-title">📖 Definitions</div>
+          <div class="match-items">${defCol}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+let matchWord = null; // {lv, idx, el}
+window.matchClick = function(el, lv) {
+  if (el.classList.contains('matched-ok')) return;
+  const type = el.dataset.type;
+  const idx  = parseInt(el.dataset.idx);
+
+  if (type === 'word') {
+    if (matchWord) matchWord.el.classList.remove('selected-word');
+    matchWord = {lv, idx, el};
+    el.classList.add('selected-word');
+  } else {
+    // def selected — check against selected word
+    if (!matchWord || matchWord.lv !== lv) {
+      el.classList.toggle('selected-def');
+      return;
+    }
+    // evaluate
+    const correct = matchWord.idx === idx;
+    if (correct) {
+      el.classList.add('matched-ok');
+      matchWord.el.classList.add('matched-ok');
+      addScore(12);
+      // update score counter
+      const sc = document.getElementById(`match-score-${lv}`);
+      if (sc) {
+        const cur = parseInt(sc.textContent.split('/')[0]) + 1;
+        const tot = sc.textContent.split('/')[1].trim();
+        sc.textContent = `${cur} / ${tot}`;
+        if (cur === parseInt(tot)) {
+          sc.style.color = '#2E7D32';
+          sc.style.fontWeight = '900';
+          sc.textContent += ' ✅';
+        }
+      }
+    } else {
+      el.classList.add('matched-bad');
+      matchWord.el.classList.add('matched-bad');
+      setTimeout(()=>{
+        el.classList.remove('matched-bad','selected-def');
+        matchWord.el.classList.remove('matched-bad','selected-word');
+        matchWord = null;
+      }, 600);
+      return;
+    }
+    matchWord = null;
+    document.querySelectorAll('.match-item.selected-def').forEach(b=>b.classList.remove('selected-def'));
+  }
+};
+
+window.resetMatch = function(lv, n) {
+  matchWord = null;
+  for (let i=0;i<n;i++) {
+    const w = document.getElementById(`mw-${lv}-${i}`);
+    const d = document.getElementById(`md-${lv}-${i}`);
+    if (w) w.classList.remove('matched-ok','matched-bad','selected-word');
+    if (d) d.classList.remove('matched-ok','matched-bad','selected-def');
+  }
+  const sc = document.getElementById(`match-score-${lv}`);
+  if (sc) { const tot=sc.textContent.split('/')[1]?.split(' ')[0]?.trim()||n;
+    sc.textContent=`0 / ${tot}`; sc.style.color=''; sc.style.fontWeight=''; }
+};
+
+// ══════════════════════════════════════════════════════════════════
+// SCROLL → SIDEBAR HIGHLIGHT
+// ══════════════════════════════════════════════════════════════════
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      activeLevel = e.target.id.replace('level-sec-','');
+    }
+  });
+}, {threshold:.15});
+
+// ══════════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+  renderContent();
+  // Observe sections after render
+  setTimeout(() => {
+    LEVELS.forEach(lv => {
+      const el = document.getElementById('level-sec-'+lv);
+      if (el) io.observe(el);
+    });
+  }, 100);
+});
+</script>
+</body>
+</html>
