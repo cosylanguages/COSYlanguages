@@ -313,6 +313,12 @@ footer {
                     <button id="open-a1-roadmap-btn" class="cta-button primary" style="width: 100%;" data-translate-key="a1_roadmap_btn">Open A1 Roadmap →</button>
                 </div>
 
+                <div id="en-vocab-reference" style="display: none; margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
+                    <h3 data-translate-key="vocab_ref_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Vocabulary Reference 📖</h3>
+                    <p data-translate-key="vocab_ref_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the comprehensive vocabulary reference and practice tools.</p>
+                    <button id="open-vocab-ref-btn" class="cta-button primary" style="width: 100%;" data-translate-key="vocab_ref_btn">Open Vocabulary Reference →</button>
+                </div>
+
                 <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
                     <h3 data-translate-key="grammar_roadmap_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Grammar Reference 📐</h3>
                     <p data-translate-key="grammar_roadmap_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the complete grammar roadmap and reference cards.</p>
@@ -509,11 +515,13 @@ footer {
         function checkLanguageRoadmap(lang) {
             lang = lang || localStorage.getItem('language') || 'en';
             const roadmapDiv = document.getElementById('en-a1-roadmap');
-            if (!roadmapDiv) return;
+            const vocabDiv = document.getElementById('en-vocab-reference');
             if (lang === 'en') {
-                roadmapDiv.style.display = 'block';
+                if (roadmapDiv) roadmapDiv.style.display = 'block';
+                if (vocabDiv) vocabDiv.style.display = 'block';
             } else {
-                roadmapDiv.style.display = 'none';
+                if (roadmapDiv) roadmapDiv.style.display = 'none';
+                if (vocabDiv) vocabDiv.style.display = 'none';
             }
         }
         window.checkLanguageRoadmap = checkLanguageRoadmap;
@@ -552,6 +560,10 @@ footer {
 
             document.getElementById('open-a1-roadmap-btn').addEventListener('click', () => {
                 window.location.href = 'curriculum/en/a1.html';
+            });
+
+            document.getElementById('open-vocab-ref-btn').addEventListener('click', () => {
+                window.location.href = 'vocabulary/en.html';
             });
 
             document.getElementById('start-day-btn').addEventListener('click', () => {

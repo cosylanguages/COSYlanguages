@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>A1 Curriculum Roadmap — COSYlanguages</title>
@@ -207,8 +207,8 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--white);
 .vp{font-size:.7rem;font-weight:700;padding:.18rem .55rem;
   border-radius:4px;background:var(--surface2);
   color:var(--white);border:1px solid var(--border);
-  cursor:default;transition:background .15s;}
-.vp:hover{background:var(--border);}
+  cursor:pointer;transition:all .15s;text-decoration:none;display:inline-block;}
+.vp:hover{background:var(--border);border-color:var(--accent);transform:translateY(-1px);}
 .vp.verb  {border-color:rgba(245,200,66,.3);color:var(--accent);}
 .vp.adj   {border-color:rgba(78,205,196,.3);color:var(--accent2);}
 .vp.noun  {border-color:rgba(116,185,255,.3);color:#74B9FF;}
@@ -307,13 +307,13 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--white);
 <!-- TOPBAR -->
 <div class="topbar">
   <div>
-    <a href="../days.html" class="tb-brand">COSYlanguages</a>
+    <a href="../../days.html" class="tb-brand">COSYlanguages</a>
     <div class="tb-sub">A1 — Beginner Curriculum Roadmap</div>
   </div>
   <nav class="tb-nav">
-    <a href="../grammar.html" class="tb-btn">📐 Grammar</a>
-    <a href="../practice.html" class="tb-btn">💡 Practice</a>
-    <a href="../days.html" class="tb-btn">🔐 Student Area</a>
+    <a href="../../grammar.html" class="tb-btn">📐 Grammar</a>
+    <a href="../../vocabulary/en.html" class="tb-btn">📖 Vocabulary</a>
+    <a href="../../days.html" class="tb-btn">🔐 Student Area</a>
   </nav>
 </div>
 
@@ -1064,13 +1064,14 @@ const UNITS = [
 // ══════════════════════════════════════════════════════════════════
 // STATE
 // ══════════════════════════════════════════════════════════════════
-let score = 0;
+let score = parseInt(localStorage.getItem('cosy_total_points') || '0');
 let done  = new Set(JSON.parse(localStorage.getItem('a1_done')||'[]'));
 let open  = new Set();
 
 function saveState(){ localStorage.setItem('a1_done',JSON.stringify([...done])); }
 function addScore(n){
   score+=n;
+  localStorage.setItem('cosy_total_points', score);
   document.getElementById('score-num').textContent=score;
   const w=document.getElementById('score-fixed');
   w.style.boxShadow='0 0 20px rgba(245,200,66,.5)';
@@ -1178,7 +1179,7 @@ function posLabel(pos){
 function renderVocabPills(words){
   return words.map(w=>{
     const cls = w.endsWith(' verb')||['wake up','get up','leave','arrive','start','finish','check','send','meet','reply','attend','manage','help','order','visit','call','ask','explain','tell','show','thank','introduce','recommend','pay','spend','cost','save','earn','afford','charge','book','travel','pack','cancel','miss','relax','enjoy','exercise','feel','hurt','rest','recover','cook','clean','repair','rent','move','invite','celebrate','happen','seem','mean','follow','change','continue','stop','try','wait','watch','sit','stand','carry','grow','learn','study','teach','play','include','become','belong','choose','build'].includes(w.toLowerCase()) ? 'verb' : 'noun';
-    return `<span class="vp ${cls}">${w}</span>`;
+    return `<a href="../../vocabulary/en.html?search=${encodeURIComponent(w)}" class="vp ${cls}">${w}</a>`;
   }).join('');
 }
 
@@ -1338,6 +1339,7 @@ function setupObserver(){
 // INIT
 // ══════════════════════════════════════════════════════════════════
 document.addEventListener('DOMContentLoaded',()=>{
+  document.getElementById('score-num').textContent=score;
   buildSidebar();
   buildContent();
   updateProgress();
