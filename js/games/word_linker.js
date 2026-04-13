@@ -1,3 +1,15 @@
+const WordLinkerGame = {
+  buildExplanation(item, reason) {
+    return `
+      <div style="background:#e8f0e9;border-radius:10px;padding:12px 14px;font-family:'Nunito',sans-serif;margin-top:8px;border-left:3px solid #6b8f71;">
+        <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:#4a6b50;margin-bottom:4px">Why it's different:</div>
+        <div style="font-size:.88rem;color:#2e4a33;line-height:1.55">${reason || item.explanation || "This word belongs to a different logical group."}</div>
+      </div>
+    `;
+  }
+};
+window.WordLinkerGame = WordLinkerGame;
+
 document.addEventListener('DOMContentLoaded', () => {
     const { getLang, t, speak, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
@@ -139,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             speak(opt, lang);
 
                             // Improvements: WordLinkerGame.buildExplanation
-                            if (window.WordLinkerGame) {
+                            if (true) {
                                 document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, null);
                             }
 
@@ -191,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             speak(opt, lang);
 
                             // Improvements: WordLinkerGame.buildExplanation
-                            if (window.WordLinkerGame) {
+                            if (true) {
                                 document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, current.explanation);
                             }
 

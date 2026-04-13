@@ -19,10 +19,10 @@
 <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="mobile.css">
+<link rel="stylesheet" href="css/mobile.css">
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+  navigator.serviceWorker.register('sw.js')
     .catch(e => console.log('SW:', e));
 }
 </script>
@@ -540,7 +540,6 @@ footer {
     </header>
 
     <main>
-<div class="session-log" id="session-log-container"><h3>Recently Played 🕒</h3><div class="log-grid" id="session-log-grid"></div></div>
         <section id="events">
             <h2 data-translate-key="events_title" style="display: none;">Our Events 🎉</h2>
 
@@ -578,11 +577,6 @@ footer {
                 </div>
             </div>
 
-            <!-- Recommended Section -->
-            <div id="recommended-section" class="reveal" style="display: none; margin-bottom: 2.5rem;">
-                <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--honey-dark); margin: 0 0 1rem; display: flex; align-items: center; gap: .5rem;">✨ Recommended for your level <span style="flex: 1; height: 1px; background: var(--honey); opacity: 0.2;"></span></div>
-                <div id="recommended-grid" class="games-grid"></div>
-            </div>
 
             <details class="help-details glass centered-info reveal">
                 <summary style="cursor: pointer; font-weight: bold; color: var(--sage-dark);" data-translate-key="how_it_works">How it works? 💡</summary>
@@ -1970,7 +1964,6 @@ footer {
 
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/numbers.js"></script>
-    <script src="js/data/emojis.js"></script>
     <script src="js/data/armenian/hy/alphabets.js"></script>
     <script src="js/data/celtic/br/alphabets.js"></script>
     <script src="js/data/germanic/de/alphabets.js"></script>
@@ -2173,12 +2166,13 @@ footer {
     <script src="js/games/word_linker.js"></script>
     <script src="js/games/charades.js"></script>
     <script src="js/games/crossword.js"></script>
-    <script src="mobile.js"></script>
-    <script src="games-improvements.js"></script>
+    <script src="js/mobile.js"></script>
     <script src="js/games/guess_games.js"></script>
     <script src="js/games/bingo.js"></script>
     <script src="js/games/speaking_games.js"></script>
     <script src="js/games/last_letter.js"></script>
+    <script src="js/games/hot_seat.js"></script>
+    <script src="js/games/story_chain.js"></script>
     <script src="js/games/loader.js"></script>
 
     <!-- Game Setup Bottom Sheet Template -->

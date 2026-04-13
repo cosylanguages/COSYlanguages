@@ -25,13 +25,9 @@ test('Mobile navigation and games improvements check', async ({ page }) => {
   const gamesItem = page.locator('#mnav-games');
   await expect(gamesItem).toHaveClass(/active/);
 
-  // Check if "Recently Played" session log exists (it might be empty initially)
-  const sessionLog = page.locator('#session-log-container');
-  // It might be hidden if log is empty
-
   // Try opening a game sheet (mobile setup sheet)
   const gameCard = page.locator('.game-card-lobby').first();
-  await gameCard.click();
+  await gameCard.locator("button.gc-btn-play").click();
 
   const setupSheet = page.locator('#game-setup-sheet');
   await expect(setupSheet).toBeVisible();
@@ -51,9 +47,4 @@ test('Mobile navigation and games improvements check', async ({ page }) => {
   const isAHDefined = await page.evaluate(() => typeof window.ActionHeroGame !== 'undefined');
   expect(isAHDefined).toBe(true);
 
-  // Check if recently played log updated
-  await page.goto('http://localhost:8080/index.html');
-  await expect(sessionLog).toBeVisible();
-  const logItem = page.locator('.log-item');
-  await expect(logItem).toBeVisible();
 });

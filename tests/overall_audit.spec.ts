@@ -49,12 +49,6 @@ test.describe('Overall Website Audit', () => {
           }
         }
 
-        // Check for Recently Played container where expected
-        if (pageName === 'index.html' || pageName === 'events.html') {
-             const recentlyPlayed = page.locator('#session-log-container');
-             // It might be hidden if empty, but it should exist in DOM
-             await expect(recentlyPlayed).toBeDefined();
-        }
 
         await page.screenshot({
           path: `audit_screenshots/${pageName.replace('/', '_')}_${vp.name.toLowerCase()}.png`,

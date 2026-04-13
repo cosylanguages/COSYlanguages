@@ -527,6 +527,20 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
     return itemTheme === selectedTheme;
 };
 
+const getVocabPool = (lang, level, theme) => {
+  const pool = (window.vocabularyData?.[lang] || []);
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const targetIdx = levels.indexOf(level);
+
+  return pool.filter(item => {
+    const levelMatch = level === "all" || (levels.indexOf(item.level || "starter") <= targetIdx);
+    const themeMatch = !theme || theme === "all" || isThemeMatch(item.theme, theme);
+    return levelMatch && themeMatch;
+  });
+};
+
+const gameSpeak = (text, lang) => speak(text, lang);
+
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm, getNumberWord, populateThemes, isThemeMatch
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, populateThemes, isThemeMatch
 };
