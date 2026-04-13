@@ -1,3 +1,54 @@
+let bingoAutoCallerInterval = null;
+const stopBingoAutoCaller = () => {
+    if (bingoAutoCallerInterval) {
+        clearInterval(bingoAutoCallerInterval);
+        bingoAutoCallerInterval = null;
+    }
+    window.speechSynthesis?.cancel();
+};
+const startBingoAutoCaller = (items, lang, intervalMs = 4000) => {
+    stopBingoAutoCaller();
+    let idx = 0;
+    const call = () => {
+        if (idx >= items.length) {
+            stopBingoAutoCaller();
+            return;
+        }
+        speak(items[idx].toString(), lang);
+        const btn = document.getElementById("bingo-call-next-btn");
+        if (btn) btn.click();
+        idx++;
+    };
+    call();
+    bingoAutoCallerInterval = setInterval(call, intervalMs);
+};
+const celebrateBingo = () => {
+    if (window.gameUtils && window.gameUtils.createConfetti) {
+        window.gameUtils.createConfetti();
+        window.gameUtils.playGameSound("success");
+    }
+    const el = document.createElement("div");
+    el.style.cssText = `
+      position:fixed;inset:0;z-index:999;
+      background:rgba(46,74,51,.9);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      font-family:"Nunito,sans-serif;color:#fff;text-align:center;
+    `;
+    el.innerHTML = `
+      <div style="font-size:5rem;margin-bottom:8px;animation:bounce .6s ease both">🎉</div>
+      <div style="font-family:"Lora,serif;font-size:2.5rem;font-weight:700;margin-bottom:4px">BINGO!</div>
+      <div style="font-size:1rem;opacity:.8;margin-bottom:24px">Well done! 🏆</div>
+      <button onclick="this.parentNode.remove()" style="
+        height:48px;padding:0 28px;border-radius:999px;
+        background:#e8a838;color:#fff;border:none;
+        font-family:"Nunito,sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
+        Continue →
+      </button>
+    `;
+    document.body.appendChild(el);
+    if (navigator.vibrate) navigator.vibrate([100, 50, 100, 50, 200]);
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     const { speak, seededShuffle, handleShare, playGameSound, getNumberWord } = window.gameUtils;
 
@@ -39,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'none';
             clearInterval(speedInterval);
             // Improvements: stopAutoCaller
-            if (window.LuckyNumbersGame) LuckyNumbersGame.stopAutoCaller();
+            if (true) stopBingoAutoCaller();
             window.speechSynthesis.cancel();
         });
 
@@ -118,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Improvements: speakCalled
             if (window.LuckyNumbersGame && contentType === 'numbers') {
-                LuckyNumbersGame.speakCalled(item, lang);
+                speak(item.toString(), lang);
             }
 
             const histSpan = document.createElement('span');
@@ -165,9 +216,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Improvements: auto-caller toggle
         document.getElementById('bingo-auto-caller-toggle-btn')?.addEventListener('click', () => {
-            if (window.LuckyNumbersGame) {
-                if (LuckyNumbersGame.autoCallerInterval) {
-                    LuckyNumbersGame.stopAutoCaller();
+            if (true) {
+                if (bingoAutoCallerInterval) {
+                    stopBingoAutoCaller();
                     document.getElementById('bingo-auto-indicator').style.display = 'none';
                 } else {
                     LuckyNumbersGame.startAutoCaller(bingoPool, document.getElementById('bingo-lang').value, 4000);
@@ -255,8 +306,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (!hasWonCurrentCard && checkWin(playerGrid, cols, rows)) {
                             hasWonCurrentCard = true;
                             // Improvements: celebrate
-                            if (window.LuckyNumbersGame) {
-                                LuckyNumbersGame.celebrate();
+                            if (true) {
+                                celebrateBingo();
                             } else {
                                 playGameSound('success');
                                 createConfetti();

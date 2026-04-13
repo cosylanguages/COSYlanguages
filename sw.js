@@ -7,7 +7,6 @@ const STATIC = [
   '/COSYlanguages/days.html',
   '/COSYlanguages/css/mobile.css',
   '/COSYlanguages/js/mobile.js',
-  '/COSYlanguages/js/games-improvements.js',
   '/COSYlanguages/js/srs.js',
   '/COSYlanguages/images/cosylanguages.png',
   '/COSYlanguages/images/cosyenglish.png',

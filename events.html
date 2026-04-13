@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="css/mobile.css">
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+  navigator.serviceWorker.register('sw.js')
     .catch(e => console.log('SW:', e));
 }
 </script>
@@ -1964,7 +1964,6 @@ footer {
 
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/numbers.js"></script>
-    <script src="js/data/emojis.js"></script>
     <script src="js/data/armenian/hy/alphabets.js"></script>
     <script src="js/data/celtic/br/alphabets.js"></script>
     <script src="js/data/germanic/de/alphabets.js"></script>
@@ -2168,11 +2167,12 @@ footer {
     <script src="js/games/charades.js"></script>
     <script src="js/games/crossword.js"></script>
     <script src="js/mobile.js"></script>
-    <script src="js/games-improvements.js"></script>
     <script src="js/games/guess_games.js"></script>
     <script src="js/games/bingo.js"></script>
     <script src="js/games/speaking_games.js"></script>
     <script src="js/games/last_letter.js"></script>
+    <script src="js/games/hot_seat.js"></script>
+    <script src="js/games/story_chain.js"></script>
     <script src="js/games/loader.js"></script>
 
     <!-- Game Setup Bottom Sheet Template -->

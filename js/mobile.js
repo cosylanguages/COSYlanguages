@@ -455,11 +455,35 @@ function initMobile() {
     };
   }
 
-  updateMobileNav(); checkAutoLaunch();
+  updateMobileNav(); checkAutoLaunch(); GamePreferenceManager.init();
 }
 
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initMobile);
 else initMobile();
 
 window.updateMobileNav = updateMobileNav; window.openGameSheet = openGameSheet; window.closeGameSheet = closeGameSheet;
+const GamePreferenceManager = {
+  PREF_KEY: "cosy_game_prefs",
+  init() { this.setupGlobalPrefs(); },
+  setupGlobalPrefs() {
+    const langSelect = document.getElementById("global-lang-select"), levelSelect = document.getElementById("global-level-select");
+    if (!langSelect || !levelSelect) return;
+    const saved = JSON.parse(localStorage.getItem(this.PREF_KEY) || "{}");
+    if (saved.lang) langSelect.value = saved.lang;
+    if (saved.level) levelSelect.value = saved.level;
+    const update = () => { localStorage.setItem(this.PREF_KEY, JSON.stringify({ lang: langSelect.value, level: levelSelect.value })); };
+    langSelect.addEventListener("change", update); levelSelect.addEventListener("change", update);
+  }
+};
+
+const originalOpenGameSheet = window.openGameSheet;
+window.openGameSheet = function(gameName, icon, mode = "solo") {
+  const lang = document.getElementById("global-lang-select")?.value, level = document.getElementById("global-level-select")?.value;
+  if (originalOpenGameSheet) originalOpenGameSheet(gameName, icon, mode);
+  setTimeout(() => {
+    if (lang) { const opt = document.querySelector(`#gss-lang-options .gss-option[data-value="${lang}"]`); if (opt) opt.click(); }
+    if (level) { const opt = document.querySelector(`#gss-level-options .gss-option[data-value="${level}"]`); if (opt) opt.click(); }
+  }, 50);
+};
+
 window.flashAnswer = flashAnswer; window.showPinModal = showPinModal; window.launchGame = launchGame;

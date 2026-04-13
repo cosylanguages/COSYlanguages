@@ -1,5 +1,56 @@
+const lastLetterWordCard = (item) => {
+  return `
+    <div class="ll-word-card" style="
+      background:#e8f0e9;border-radius:10px;padding:10px 14px;
+      display:flex;align-items:center;gap:10px;margin:6px 0;
+      font-family:'Nunito',sans-serif;
+    ">
+      <span style="font-size:1.4rem">${item.emoji || '📝'}</span>
+      <div>
+        <div style="font-weight:800;font-size:.95rem;color:#2e4a33">${item.word}</div>
+        <div style="font-size:.78rem;color:#6b8f71;line-height:1.4">${item.definitions?.[0]?.text || ''}</div>
+      </div>
+      <button onclick="window.gameUtils.gameSpeak('${item.word.replace(/'/g, "\\'")}', document.getElementById('last-letter-lang').value)"
+        style="margin-left:auto;background:none;border:none;font-size:1.1rem;cursor:pointer">🔊</button>
+    </div>
+  `;
+};
+
+const LastLetterGame = {
+  pool: [], usedWords: new Set(), requiredLetter: null,
+  init(lang, level, theme) {
+    this.pool = window.gameUtils.getVocabPool(lang, level, theme);
+    this.usedWords = new Set();
+    const starter = this.pool[Math.floor(Math.random() * this.pool.length)];
+    if (starter) {
+        this.usedWords.add(starter.word.toLowerCase());
+        this.requiredLetter = starter.word[starter.word.length - 1].toLowerCase();
+    }
+    return starter;
+  },
+  validate(typed, requiredLetter, pool) {
+    const word = typed.trim().toLowerCase();
+    if (!word) return { ok: false, message: 'Please type a word!' };
+    if (requiredLetter && word[0] !== requiredLetter.toLowerCase()) return { ok: false, message: `Must start with "${requiredLetter.toUpperCase()}"` };
+    if (this.usedWords.has(word)) return { ok: false, message: 'That word has already been used!' };
+    const match = pool.find(item => item.word.toLowerCase() === word);
+    if (!match) return { ok: false, message: `"${typed}" is not in the word list for this level.` };
+    this.usedWords.add(word); this.requiredLetter = word[word.length - 1];
+    return { ok: true, item: match };
+  },
+  computerTurn(requiredLetter, pool) {
+    const candidates = pool.filter(item => { const w = item.word.toLowerCase(); return w[0] === requiredLetter && !this.usedWords.has(w); });
+    if (candidates.length === 0 || Math.random() < 0.2) return null;
+    const picked = candidates[Math.floor(Math.random() * Math.min(candidates.length, 5))];
+    this.usedWords.add(picked.word.toLowerCase()); this.requiredLetter = picked.word[picked.word.length - 1];
+    return picked;
+  }
+};
+window.LastLetterGame = LastLetterGame;
+window.lastLetterWordCard = lastLetterWordCard;
+
 (function() {
-    const { getLang, t, setBySelector, showGameMessage, showGameConfirm, playGameSound, populateThemes, isThemeMatch } = window.gameUtils;
+    const { getLang, t, showGameMessage, playGameSound, populateThemes } = window.gameUtils;
 
     const state = {
         lang: 'en',
@@ -18,9 +69,9 @@
         setup: document.getElementById('last-letter-setup'),
         gameplay: document.getElementById('last-letter-gameplay'),
         history: document.getElementById('last-letter-history'),
-        targetLetterDisplay: document.getElementById('target-letter'),
         input: document.getElementById('last-letter-input'),
         feedback: document.getElementById('last-letter-feedback'),
+        targetLetterDisplay: document.getElementById('target-letter'),
 
         // Buttons
         openBtn: document.getElementById('open-last-letter-btn'),
@@ -77,11 +128,11 @@
 
             this.reset();
 
-        // Improvements: init LastLetterGame helper
-        if (window.LastLetterGame) window.LastLetterGame.init(state.lang, state.level, state.theme);
+            // Improvements: init LastLetterGame helper
+            if (window.LastLetterGame) window.LastLetterGame.init(state.lang, state.level, state.theme);
 
             // Prepare vocabulary
-        state.filteredVocab = window.getVocabPool ? window.getVocabPool(state.lang, state.level, state.theme) : [];
+            state.filteredVocab = window.gameUtils.getVocabPool ? window.gameUtils.getVocabPool(state.lang, state.level, state.theme) : [];
 
             elements.setup.style.display = 'none';
             elements.gameplay.style.display = 'block';
@@ -153,8 +204,7 @@
             if (result.ok) {
                 // Valid word — show the word card with definition
                 document.getElementById('ll-word-display').innerHTML = lastLetterWordCard(result.item);
-                if (typeof window.gameSpeak === 'function') window.gameSpeak(result.item.word, state.lang);
-                else speak(result.item.word, state.lang);
+                window.gameUtils.gameSpeak(result.item.word, state.lang);
 
                 this.processWord(result.item.word, state.turn);
             } else {
@@ -203,8 +253,7 @@
             const compWord = window.LastLetterGame.computerTurn(nextLetter, state.filteredVocab);
             if (compWord) {
                 document.getElementById('ll-word-display').innerHTML = lastLetterWordCard(compWord);
-                if (typeof window.gameSpeak === 'function') window.gameSpeak(compWord.word, state.lang);
-                else speak(compWord.word, state.lang);
+                window.gameUtils.gameSpeak(compWord.word, state.lang);
                 this.processWord(compWord.word, 'computer');
             } else {
                 showGameMessage(elements.gameplay, 'The computer couldn\'t find a word — you win! 🏆');

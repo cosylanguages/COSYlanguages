@@ -1,6 +1,96 @@
 document.addEventListener('DOMContentLoaded', () => {
     const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
+    const ActionHeroGame = {
+      roundResults: [],
+
+      getTabooWords(item, pool) {
+        if (!item || !pool) return [];
+        const obvious = [item.word.toLowerCase()];
+        if (item.plural) obvious.push(item.plural.toLowerCase());
+        const sameTheme = pool
+          .filter(p => p.theme === item.theme && p.word !== item.word)
+          .slice(0, 2)
+          .map(p => p.word);
+        return [...obvious, ...sameTheme];
+      },
+
+      record(item, correct) {
+        this.roundResults.push({ word: item.word, emoji: item.emoji, correct });
+      },
+
+      buildSummary(totalTime) {
+        const correct = this.roundResults.filter(r => r.correct);
+        const wrong   = this.roundResults.filter(r => !r.correct);
+        const wordList = (items, icon) => items.map(r =>
+          `<div style="display:flex;align-items:center;gap:8px;padding:6px 0;
+            border-bottom:0.5px solid rgba(0,0,0,.06);">
+            <span style="font-size:1.2rem">${r.emoji || icon}</span>
+            <span style="font-weight:700;font-size:.88rem;color:#2e4a33">${r.word}</span>
+          </div>`
+        ).join('');
+
+        return `
+          <div style="font-family:'Nunito',sans-serif;padding:16px;">
+            <div style="text-align:center;margin-bottom:16px;">
+              <div style="font-size:2.5rem;margin-bottom:4px">
+                ${correct.length >= wrong.length ? '🏆' : '💪'}
+              </div>
+              <div style="font-family:'Lora',serif;font-size:1.4rem;font-weight:700;color:#2e4a33">
+                ${correct.length} / ${this.roundResults.length} correct
+              </div>
+              <div style="font-size:.8rem;color:#aaa;margin-top:2px">in ${totalTime} seconds</div>
+            </div>
+            ${correct.length ? `
+              <div style="font-size:.7rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;
+                color:#1a6b45;margin-bottom:6px">✅ Got it (${correct.length})</div>
+              <div style="background:#e5f4ec;border-radius:8px;padding:8px 12px;margin-bottom:12px">
+                ${wordList(correct, '✅')}
+              </div>` : ''}
+            ${wrong.length ? `
+              <div style="font-size:.7rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;
+                color:#a32d2d;margin-bottom:6px">❌ Missed (${wrong.length})</div>
+              <div style="background:#fcebeb;border-radius:8px;padding:8px 12px;margin-bottom:12px">
+                ${wordList(wrong, '❌')}
+              </div>` : ''}
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">
+              <button onclick="document.getElementById('start-charades-game-btn').click()"
+                style="height:48px;border-radius:999px;background:#6b8f71;color:#fff;
+                  border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:.9rem;cursor:pointer">
+                Play Again 🔄
+              </button>
+              <button onclick="document.getElementById('close-charades-btn').click()"
+                style="height:48px;border-radius:999px;background:#fdf8f0;color:#6b6b6b;
+                  border:2px solid rgba(0,0,0,.1);font-family:'Nunito',sans-serif;font-weight:800;font-size:.9rem;cursor:pointer">
+                Done ✓
+              </button>
+            </div>
+          </div>
+        `;
+      },
+
+      buildWordDisplay(item, pool, level) {
+        const showTaboo = ['intermediate','upper-intermediate','advanced','proficiency'].includes(level);
+        const taboos = showTaboo ? this.getTabooWords(item, pool).slice(1) : [];
+        return `
+          <div style="text-align:center;padding:12px;">
+            ${showTaboo && taboos.length ? `
+              <div style="margin-bottom:8px">
+                ${taboos.map(t =>
+                  `<span style="display:inline-block;background:#fcebeb;color:#a32d2d;
+                    border-radius:999px;padding:2px 10px;font-size:.72rem;font-weight:800;
+                    margin:2px;text-decoration:line-through">${t}</span>`
+                ).join('')}
+              </div>` : ''}
+            <div style="font-size:5rem;line-height:1.1;margin-bottom:8px">${item.emoji || '❓'}</div>
+            <div style="font-family:'Lora',serif;font-size:1.8rem;font-weight:700;color:#2e4a33">
+              ${item.word}
+            </div>
+          </div>
+        `;
+      }
+    };
+
     const initCharades = () => {
         const modal = document.getElementById('charades-modal');
         if (!modal) return;
@@ -45,14 +135,9 @@ document.addEventListener('DOMContentLoaded', () => {
             currentItem = pool.pop();
 
             // Improvements: ActionHeroGame.buildWordDisplay
-            if (window.ActionHeroGame) {
-                const currentLevel = levelSelect.value;
-                const vocabPool = window.getVocabPool(langSelect.value, currentLevel, themeSelect.value);
-                document.getElementById('ah-word-display').innerHTML = ActionHeroGame.buildWordDisplay(currentItem, vocabPool, currentLevel);
-            } else {
-                wordDisplay.textContent = typeof currentItem === 'string' ? currentItem : (currentItem.answer || currentItem.word);
-                emojiDisplay.textContent = currentItem.emoji || '🎭';
-            }
+            const currentLevel = levelSelect.value;
+            const vocabPool = window.gameUtils.getVocabPool(langSelect.value, currentLevel, themeSelect.value);
+            document.getElementById('ah-word-display').innerHTML = ActionHeroGame.buildWordDisplay(currentItem, vocabPool, currentLevel);
         };
 
         const endGame = () => {
@@ -63,10 +148,8 @@ document.addEventListener('DOMContentLoaded', () => {
             scoreVal.textContent = score;
 
             // Improvements: ActionHeroGame.buildSummary
-            if (window.ActionHeroGame) {
-                const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
-                document.getElementById('action-hero-summary').innerHTML = ActionHeroGame.buildSummary(duration);
-            }
+            const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
+            document.getElementById('action-hero-summary').innerHTML = ActionHeroGame.buildSummary(duration);
         };
 
         const openCharades = () => {
@@ -85,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const startCharades = () => {
             score = 0;
             // Improvements: reset round results
-            if (window.ActionHeroGame) ActionHeroGame.roundResults = [];
+            ActionHeroGame.roundResults = [];
 
             const lang = langSelect.value;
             const theme = themeSelect.value;
@@ -145,13 +228,13 @@ document.addEventListener('DOMContentLoaded', () => {
             score++;
             playGameSound('success');
             // Improvements: record answer
-            if (window.ActionHeroGame && currentItem) ActionHeroGame.record(currentItem, true);
+            if (currentItem) ActionHeroGame.record(currentItem, true);
             showNext();
         });
         incorrectBtn?.addEventListener('click', () => {
             playGameSound('error');
             // Improvements: record answer
-            if (window.ActionHeroGame && currentItem) ActionHeroGame.record(currentItem, false);
+            if (currentItem) ActionHeroGame.record(currentItem, false);
             showNext();
         });
         stopBtn?.addEventListener('click', endGame);
@@ -168,4 +251,5 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     window.charadesGame = initCharades();
+    window.ActionHeroGame = ActionHeroGame;
 });
