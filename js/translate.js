@@ -73,6 +73,7 @@ function setLanguage(lang) {
 
     if (window.calcPrice) window.calcPrice();
     if (window.updateDailyDose) window.updateDailyDose();
+    if (typeof window.checkLanguageRoadmap === 'function') window.checkLanguageRoadmap(lang);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
