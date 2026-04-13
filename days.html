@@ -322,7 +322,10 @@ footer {
                 <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
                     <h3 data-translate-key="grammar_roadmap_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Grammar Reference 📐</h3>
                     <p data-translate-key="grammar_roadmap_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the complete grammar roadmap and reference cards.</p>
-                    <button id="open-grammar-btn" class="cta-button secondary" style="width: 100%;" data-translate-key="grammar_roadmap_btn">Open Grammar Roadmap →</button>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button id="open-grammar-btn" class="cta-button secondary" style="flex: 1; min-width: 200px;" data-translate-key="grammar_roadmap_btn">Open Grammar Roadmap →</button>
+                        <button id="open-grammar-ref-btn" class="cta-button primary" style="flex: 1; min-width: 200px;">Interactive Grammar Reference →</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -591,6 +594,10 @@ footer {
                 } else {
                     window.location.href = `grammar.html?lang=${lang}`;
                 }
+            });
+
+            document.getElementById('open-grammar-ref-btn').addEventListener('click', () => {
+                window.location.href = 'grammar-reference.html';
             });
         });
     </script>

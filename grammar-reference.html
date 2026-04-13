@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grammar Reference — COSYlanguages</title>
+<link rel="icon" href="images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal:     #00B5A3;
+  --teal-dk:  #008F80;
+  --teal-lt:  #00CFC0;
+  --black:    #111111;
+  --white:    #FFFFFF;
+  --yellow:   #FFE135;
+  --red:      #FF4136;
+  --orange:   #FF6B1A;
+  --green:    #2ECC40;
+  --blue:     #0074D9;
+  --cream:    #FFFDF5;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--teal);
+  color: var(--black);
+  min-height: 100vh;
+}
+
+/* ── Page header ── */
+.page-header {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .8rem;
+  position: sticky; top: 0; z-index: 300;
+  border-bottom: 3px solid var(--yellow);
+}
+.page-header h1 {
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.page-header .breadcrumb {
+  font-size: .78rem;
+  opacity: .6;
+}
+.lang-tabs {
+  display: flex;
+  gap: .4rem;
+}
+.lang-tab {
+  background: rgba(255,255,255,.12);
+  border: 2px solid rgba(255,255,255,.3);
+  border-radius: 999px;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: .78rem;
+  font-weight: 800;
+  padding: .25rem .75rem;
+  cursor: pointer;
+  transition: all .18s;
+  text-decoration: none;
+}
+.lang-tab.active {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--black);
+}
+.lang-tab:hover { background: var(--teal-dk); border-color: var(--teal-dk); }
+
+/* ── Layout ── */
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: calc(100vh - 60px);
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  background: var(--teal-dk);
+  padding: 1.5rem 0;
+  border-right: 3px solid var(--black);
+  position: sticky;
+  top: 66px;
+  height: calc(100vh - 66px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.sidebar-section {
+  margin-bottom: .3rem;
+}
+.sidebar-label {
+  font-size: .62rem;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.55);
+  padding: .8rem 1.2rem .3rem;
+}
+.sidebar-item {
+  display: block;
+  padding: .5rem 1.2rem;
+  font-size: .82rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.85);
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all .15s;
+  text-decoration: none;
+}
+.sidebar-item:hover { background: rgba(0,0,0,.15); color: #fff; }
+.sidebar-item.active {
+  border-left-color: var(--yellow);
+  background: rgba(0,0,0,.2);
+  color: var(--yellow);
+}
+
+/* ── Main content ── */
+.main {
+  padding: 2rem;
+  background: var(--teal);
+}
+
+.level-section {
+  margin-bottom: 2.5rem;
+}
+
+.level-badge {
+  display: inline-block;
+  background: var(--black);
+  color: var(--yellow);
+  font-size: .75rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: .3rem .9rem;
+  border-radius: 999px;
+  margin-bottom: .8rem;
+}
+
+/* ── Grammar card — THE CORE ELEMENT ── */
+.card {
+  background: var(--teal);
+  border: 3px solid var(--black);
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  box-shadow: 5px 5px 0 var(--black);
+  animation: popIn 0.3s ease both;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.card-title {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'Lora', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: .65rem 1.1rem;
+  text-align: center;
+  letter-spacing: .02em;
+}
+
+/* Grammar table inside card */
+.gtable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gtable td, .gtable th {
+  border: 2px solid var(--black);
+  padding: .6rem .9rem;
+  font-size: .92rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+.gtable .row-label {
+  background: var(--black);
+  color: var(--white);
+  font-size: .82rem;
+  font-weight: 800;
+  text-align: left;
+  padding: .5rem 1rem;
+  width: 28%;
+}
+
+.gtable td.content {
+  background: var(--white);
+  font-size: .95rem;
+}
+
+/* Section header rows */
+.gtable .section-row td {
+  background: rgba(0,0,0,.18);
+  color: var(--white);
+  font-size: .82rem;
+  font-weight: 900;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: .45rem 1rem;
+  border-color: var(--black);
+}
+
+/* The full-width note rows */
+.gtable .note-row td {
+  background: rgba(0,0,0,.12);
+  font-size: .86rem;
+  font-weight: 700;
+  text-align: center;
+  padding: .55rem 1rem;
+  font-style: italic;
+}
+
+/* Coloured key terms */
+.key-verb   { color: var(--blue); font-weight: 900; }
+.key-label  { color: var(--orange); font-weight: 900; }
+.key-neg    { color: var(--red);    font-weight: 900; }
+.key-pos    { color: var(--green);  font-weight: 900; }
+
+/* Grid for two-column cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+/* Section title */
+.section-title {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 1.2rem;
+  padding-bottom: .5rem;
+  border-bottom: 3px solid var(--black);
+}
+
+/* Language block visibility */
+.lang-block { display: none; }
+.lang-block.show { display: block; }
+
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .cards-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Grammar Reference 📐</h1>
+  </div>
+  <div class="lang-tabs">
+    <button class="lang-tab active" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
+    <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
+    <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
+    <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
+    <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <!-- Sidebar content injected by JS -->
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main" id="main-content">
+  <!-- Content injected by JS -->
+</main>
+</div>
+
+<script>
+const GRAMMAR_DATA = {
+  en: {
+    name: "English",
+    sections: [
+      {
+        label: "A0 — A1",
+        items: [
+          {
+            id: "verb-to-be",
+            title: "Verb TO BE — Present",
+            table: `
+              <tr class="section-row"><td colspan="3">✅ Affirmative</td></tr>
+              <tr><td class="row-label">I</td><td class="content"><span class="key-verb">am</span></td><td class="content">I <span class="key-verb">am</span> a teacher.</td></tr>
+              <tr><td class="row-label">You / We / They</td><td class="content"><span class="key-verb">are</span></td><td class="content">We <span class="key-verb">are</span> at home.</td></tr>
+              <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-verb">is</span></td><td class="content">She <span class="key-verb">is</span> French.</td></tr>
+              <tr class="section-row"><td colspan="3">❌ Negative</td></tr>
+              <tr><td class="row-label">I</td><td class="content"><span class="key-neg">am not</span></td><td class="content">I <span class="key-neg">'m not</span> tired.</td></tr>
+              <tr><td class="row-label">You / We / They</td><td class="content"><span class="key-neg">aren't</span></td><td class="content">They <span class="key-neg">aren't</span> here.</td></tr>
+              <tr class="section-row"><td colspan="3">❓ Question</td></tr>
+              <tr><td class="row-label">I</td><td class="content"><span class="key-verb">Am</span> I …?</td><td class="content"><span class="key-verb">Am</span> I late?</td></tr>
+              <tr class="note-row"><td colspan="3">Short answers: Yes, I <span class="key-verb">am</span>. / No, I <span class="key-neg">'m not</span>.</td></tr>
+            `
+          },
+          {
+            id: "word-order",
+            title: "Word Order — Basic",
+            table: `
+              <tr class="section-row"><td colspan="2">❓ Questions</td></tr>
+              <tr><td class="content" style="width:25%">What</td><td class="content"><span class="key-verb">is</span> it?</td></tr>
+              <tr><td class="content"></td><td class="content"><span class="key-verb">Is</span> it coffee?</td></tr>
+              <tr class="section-row"><td colspan="2">✅ Affirmative & ❌ Negative</td></tr>
+              <tr><td class="content">Yes,</td><td class="content">it <span class="key-verb">is</span> coffee.</td></tr>
+              <tr><td class="content">No,</td><td class="content">it <span class="key-neg">isn't</span> coffee.</td></tr>
+            `
+          },
+          {
+            id: "present-simple",
+            title: "Present Simple",
+            table: `
+              <tr class="section-row"><td colspan="3">📌 Habits & Routines</td></tr>
+              <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-verb">work</span></td><td class="content">I <span class="key-verb">work</span> every day.</td></tr>
+              <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-verb">works</span></td><td class="content">She <span class="key-verb">works</span> in Paris.</td></tr>
+              <tr class="section-row"><td colspan="3">❌ Negative (don't / doesn't)</td></tr>
+              <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-neg">don't</span> work</td><td class="content">I <span class="key-neg">don't</span> work today.</td></tr>
+              <tr class="section-row"><td colspan="3">❓ Question (Do / Does)</td></tr>
+              <tr><td class="row-label">You</td><td class="content"><span class="key-verb">Do</span> you speak...?</td><td class="content"><span class="key-verb">Do</span> you speak English?</td></tr>
+            `
+          }
+        ]
+      }
+    ]
+  },
+  fr: {
+    name: "Français",
+    sections: [
+      {
+        label: "Débutant",
+        items: [
+          {
+            id: "etre",
+            title: "Verbe ÊTRE — Présent",
+            table: `
+              <tr><td class="row-label">je</td><td class="content"><span class="key-verb">suis</span></td><td class="content">Je <span class="key-verb">suis</span> français.</td></tr>
+              <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">es</span></td><td class="content">Tu <span class="key-verb">es</span> étudiant.</td></tr>
+              <tr><td class="row-label">il / elle</td><td class="content"><span class="key-verb">est</span></td><td class="content">Il <span class="key-verb">est</span> avocat.</td></tr>
+              <tr><td class="row-label">nous</td><td class="content"><span class="key-verb">sommes</span></td><td class="content">Nous <span class="key-verb">sommes</span> ici.</td></tr>
+              <tr><td class="row-label">vous</td><td class="content"><span class="key-verb">êtes</span></td><td class="content">Vous <span class="key-verb">êtes</span> prêt ?</td></tr>
+              <tr><td class="row-label">ils / elles</td><td class="content"><span class="key-verb">sont</span></td><td class="content">Elles <span class="key-verb">sont</span> là.</td></tr>
+            `
+          },
+          {
+            id: "negation",
+            title: "La Négation — ne ... pas",
+            table: `
+              <tr><td class="row-label">Structure</td><td class="content" colspan="2">Sujet + <span class="key-neg">ne</span> + verbe + <span class="key-neg">pas</span></td></tr>
+              <tr><td class="row-label">Exemple</td><td class="content" colspan="2">Je <span class="key-neg">ne</span> suis <span class="key-neg">pas</span> fatigué.</td></tr>
+              <tr class="note-row"><td colspan="3">⚠️ À l'oral, on oublie souvent le "ne".</td></tr>
+            `
+          }
+        ]
+      }
+    ]
+  },
+  it: {
+    name: "Italiano",
+    sections: [
+      {
+        label: "Base",
+        items: [
+          {
+            id: "essere",
+            title: "Verbo ESSERE — Presente",
+            table: `
+              <tr><td class="row-label">io</td><td class="content"><span class="key-verb">sono</span></td><td class="content">Io <span class="key-verb">sono</span> stanco.</td></tr>
+              <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">sei</span></td><td class="content">Tu <span class="key-verb">sei</span> pronto?</td></tr>
+              <tr><td class="row-label">lui / lei</td><td class="content"><span class="key-verb">è</span></td><td class="content">Lei <span class="key-verb">è</span> italiana.</td></tr>
+              <tr><td class="row-label">noi</td><td class="content"><span class="key-verb">siamo</span></td><td class="content">Noi <span class="key-verb">siamo</span> felici.</td></tr>
+              <tr><td class="row-label">voi</td><td class="content"><span class="key-verb">siete</span></td><td class="content">Voi <span class="key-verb">siete</span> a casa?</td></tr>
+              <tr><td class="row-label">loro</td><td class="content"><span class="key-verb">sono</span></td><td class="content">Loro <span class="key-verb">sono</span> pronti.</td></tr>
+            `
+          }
+        ]
+      }
+    ]
+  },
+  ru: {
+    name: "Русский",
+    sections: [
+      {
+        label: "Начальный",
+        items: [
+          {
+            id: "be-present",
+            title: "Глагол БЫТЬ — Настоящее время",
+            table: `
+              <tr class="section-row"><td colspan="2">📌 Глагол «быть» опускается</td></tr>
+              <tr><td class="row-label">Я</td><td class="content">Я — <span class="key-verb">учитель</span>. (I am a teacher.)</td></tr>
+              <tr><td class="row-label">Она</td><td class="content">Она — <span class="key-verb">дома</span>. (She is at home.)</td></tr>
+              <tr class="section-row"><td colspan="2">❌ Отрицание (НЕ)</td></tr>
+              <tr><td class="row-label">Я</td><td class="content">Я <span class="key-neg">не</span> дома. (I am not at home.)</td></tr>
+            `
+          }
+        ]
+      }
+    ]
+  },
+  el: {
+    name: "Ελληνικά",
+    sections: [
+      {
+        label: "Αρχάριοι",
+        items: [
+          {
+            id: "be-present",
+            title: "Ρήμα ΕΙΜΑΙ — Ενεστώτας",
+            table: `
+              <tr><td class="row-label">εγώ</td><td class="content"><span class="key-verb">είμαι</span></td><td class="content">Εγώ <span class="key-verb">είμαι</span> εδώ.</td></tr>
+              <tr><td class="row-label">εσύ</td><td class="content"><span class="key-verb">είσαι</span></td><td class="content">Εσύ <span class="key-verb">είσαι</span> έτοιμος;</td></tr>
+              <tr><td class="row-label">αυτός / αυτή / αυτό</td><td class="content"><span class="key-verb">είναι</span></td><td class="content">Αυτή <span class="key-verb">είναι</span> δασκάλα.</td></tr>
+            `
+          }
+        ]
+      }
+    ]
+  }
+};
+
+let currentObserver = null;
+
+function setLang(lang) {
+  const data = GRAMMAR_DATA[lang];
+  if (!data) return;
+
+  // Update tabs
+  document.querySelectorAll('.lang-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.lang === lang);
+  });
+
+  // Render Sidebar
+  const sidebar = document.getElementById('sidebar');
+  sidebar.innerHTML = data.sections.map(section => `
+    <div class="sidebar-section">
+      <div class="sidebar-label">${section.label}</div>
+      ${section.items.map(item => `
+        <a class="sidebar-item" href="#${item.id}">${item.title}</a>
+      `).join('')}
+    </div>
+  `).join('');
+
+  // Render Content
+  const main = document.getElementById('main-content');
+  main.innerHTML = `
+    <div class="section-title">${data.name} — Grammar Reference</div>
+    ${data.sections.map(section => `
+      <div class="level-section">
+        <div class="level-badge">${section.label}</div>
+        <div class="cards-grid">
+          ${section.items.map(item => `
+            <div class="card" id="${item.id}">
+              <div class="card-title">${item.title}</div>
+              <table class="gtable">${item.table}</table>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('')}
+  `;
+
+  // Re-init scroll spy
+  initScrollSpy();
+}
+
+function initScrollSpy() {
+  if (currentObserver) {
+    currentObserver.disconnect();
+  }
+
+  const items = document.querySelectorAll('.sidebar-item');
+  const cards = document.querySelectorAll('.card');
+
+  currentObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        items.forEach(i => i.classList.remove('active'));
+        const link = document.querySelector(`.sidebar-item[href="#${entry.target.id}"]`);
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  cards.forEach(c => currentObserver.observe(c));
+}
+
+// Initialize with EN
+document.addEventListener('DOMContentLoaded', () => {
+  setLang('en');
+});
+</script>
+</body>
+</html>
