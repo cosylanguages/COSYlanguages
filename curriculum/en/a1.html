@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Curriculum Roadmap — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0F1923;
+  --surface:#16202B;
+  --surface2:#1D2D3E;
+  --border:#2A3F55;
+  --accent:#F5C842;
+  --accent2:#4ECDC4;
+  --accent3:#FF6B6B;
+  --muted:#7A9BB5;
+  --white:#F0F6FF;
+
+  /* Unit colours */
+  --u1:#3B82F6;  --u1-lt:#1E3A5F;
+  --u2:#8B5CF6;  --u2-lt:#3B1F6B;
+  --u3:#10B981;  --u3-lt:#0A4A35;
+  --u4:#F59E0B;  --u4-lt:#5A3A00;
+  --u5:#EC4899;  --u5-lt:#5A0F35;
+
+  /* skill colours */
+  --sp:#F5C842;
+  --li:#4ECDC4;
+  --rd:#74B9FF;
+  --wr:#A29BFE;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--white);
+  min-height:100vh;overflow-x:hidden;}
+
+/* ── TOPBAR ── */
+.topbar{background:rgba(15,25,35,.95);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:.65rem 1.8rem;display:flex;align-items:center;
+  justify-content:space-between;gap:.8rem;flex-wrap:wrap;
+  position:sticky;top:0;z-index:300;}
+.tb-brand{font-family:'Lora',serif;font-size:1rem;font-weight:700;
+  color:var(--accent);letter-spacing:.02em;text-decoration:none;}
+.tb-sub{font-size:.7rem;color:var(--muted);margin-top:.1rem;}
+.tb-nav{display:flex;gap:.4rem;flex-wrap:wrap;}
+.tb-btn{background:rgba(255,255,255,.07);border:1px solid var(--border);
+  color:var(--muted);border-radius:6px;padding:.28rem .75rem;
+  font-family:'Nunito',sans-serif;font-size:.72rem;font-weight:800;
+  cursor:pointer;transition:all .15s;text-decoration:none;}
+.tb-btn:hover,.tb-btn.active{background:var(--accent);color:var(--bg);border-color:var(--accent);}
+
+/* ── HERO ── */
+.hero{padding:3.5rem 2rem 2rem;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(245,200,66,.08) 0%,transparent 70%);
+  pointer-events:none;}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:.5rem;
+  background:rgba(245,200,66,.12);border:1px solid rgba(245,200,66,.3);
+  border-radius:999px;padding:.28rem 1rem;
+  font-size:.7rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:1.1rem;}
+.hero h1{font-family:'Lora',serif;font-size:clamp(2rem,5vw,3.2rem);
+  font-weight:700;line-height:1.15;margin-bottom:.75rem;
+  background:linear-gradient(135deg,var(--white) 30%,var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.hero-sub{color:var(--muted);font-size:.95rem;max-width:560px;
+  margin:0 auto 1.8rem;line-height:1.7;}
+
+/* Stats row */
+.hero-stats{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;margin-bottom:2rem;}
+.hs-item{text-align:center;}
+.hs-num{font-family:'Lora',serif;font-size:2rem;font-weight:700;
+  color:var(--accent);display:block;line-height:1;}
+.hs-label{font-size:.68rem;font-weight:800;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.07em;margin-top:.2rem;}
+
+/* Narrative arc */
+.arc-strip{display:flex;align-items:center;justify-content:center;
+  gap:0;margin:0 auto 2.5rem;max-width:700px;flex-wrap:wrap;}
+.arc-node{background:var(--surface2);border:1.5px solid var(--border);
+  border-radius:8px;padding:.4rem .9rem;font-size:.75rem;font-weight:800;
+  color:var(--white);white-space:nowrap;}
+.arc-arrow{color:var(--muted);font-size:.9rem;margin:0 .3rem;}
+
+/* ── LAYOUT ── */
+.layout{display:grid;grid-template-columns:260px 1fr;
+  min-height:calc(100vh - 60px);gap:0;}
+
+/* ── SIDEBAR ── */
+.sidebar{background:var(--surface);border-right:1px solid var(--border);
+  padding:1.5rem 0 3rem;position:sticky;top:56px;
+  height:calc(100vh - 56px);overflow-y:auto;scrollbar-width:thin;
+  scrollbar-color:var(--border) transparent;}
+
+.sb-head{padding:.2rem 1.2rem .6rem;
+  font-size:.6rem;font-weight:900;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);}
+
+.sb-unit{margin-bottom:.2rem;}
+.sb-unit-header{display:flex;align-items:center;gap:.6rem;
+  padding:.55rem 1.2rem;font-size:.78rem;font-weight:900;
+  color:var(--white);cursor:pointer;border-left:3px solid transparent;
+  transition:all .15s;}
+.sb-unit-header:hover{background:rgba(255,255,255,.04);}
+.sb-unit-header.active{border-left-color:var(--accent);}
+.sb-unit-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+
+.sb-lesson{display:flex;align-items:center;gap:.5rem;
+  padding:.35rem 1.2rem .35rem 2.2rem;
+  font-size:.73rem;font-weight:700;color:var(--muted);
+  cursor:pointer;border-left:3px solid transparent;
+  transition:all .15s;text-decoration:none;}
+.sb-lesson:hover{color:var(--white);background:rgba(255,255,255,.03);}
+.sb-lesson.active{color:var(--accent);border-left-color:var(--accent);}
+.sb-lesson-code{font-family:'Lora',serif;font-size:.65rem;
+  color:var(--muted);min-width:38px;flex-shrink:0;}
+.sb-progress-mini{flex:1;height:3px;background:rgba(255,255,255,.08);
+  border-radius:999px;overflow:hidden;margin-left:.3rem;}
+.sb-progress-fill{height:100%;background:var(--accent);border-radius:999px;transition:width .4s;}
+
+/* ── MAIN ── */
+.main{padding:2rem 2.2rem 5rem;overflow-x:hidden;}
+
+/* ── UNIT BLOCK ── */
+.unit-block{margin-bottom:3.5rem;}
+.unit-header{display:flex;align-items:flex-start;gap:1.2rem;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;padding:1.4rem 1.6rem;margin-bottom:1.5rem;
+  position:relative;overflow:hidden;}
+.unit-header::before{content:'';position:absolute;left:0;top:0;bottom:0;
+  width:4px;border-radius:14px 0 0 14px;}
+.u1 .unit-header::before{background:var(--u1);}
+.u2 .unit-header::before{background:var(--u2);}
+.u3 .unit-header::before{background:var(--u3);}
+.u4 .unit-header::before{background:var(--u4);}
+.u5 .unit-header::before{background:var(--u5);}
+
+.uh-num{font-family:'Lora',serif;font-size:2.2rem;font-weight:700;
+  line-height:1;opacity:.25;flex-shrink:0;margin-top:.1rem;}
+.uh-body h2{font-family:'Lora',serif;font-size:1.2rem;font-weight:700;
+  margin-bottom:.25rem;}
+.uh-arc{font-size:.78rem;color:var(--muted);font-style:italic;
+  margin-bottom:.6rem;line-height:1.5;}
+.uh-tags{display:flex;gap:.4rem;flex-wrap:wrap;}
+.uh-tag{font-size:.65rem;font-weight:900;padding:.18rem .55rem;
+  border-radius:999px;background:rgba(255,255,255,.08);
+  color:var(--muted);border:1px solid var(--border);}
+
+/* ── LESSON CARD ── */
+.lesson-card{background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;margin-bottom:.75rem;overflow:hidden;
+  transition:border-color .2s,transform .15s;}
+.lesson-card:hover{border-color:rgba(255,255,255,.15);transform:translateY(-1px);}
+.lesson-card.done{opacity:.55;}
+.lesson-card.done .lc-title{text-decoration:line-through;}
+
+.lc-header{display:flex;align-items:center;gap:.9rem;
+  padding:.85rem 1.1rem;cursor:pointer;}
+.lc-code{font-family:'Lora',serif;font-size:.72rem;color:var(--muted);
+  min-width:46px;flex-shrink:0;}
+.lc-num{width:28px;height:28px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.72rem;font-weight:900;flex-shrink:0;
+  border:2px solid var(--border);}
+.lc-title{font-size:.9rem;font-weight:800;color:var(--white);flex:1;}
+.lc-done-btn{background:none;border:1.5px solid var(--border);
+  border-radius:6px;color:var(--muted);font-size:.65rem;font-weight:900;
+  padding:.18rem .5rem;cursor:pointer;transition:all .15s;flex-shrink:0;}
+.lc-done-btn:hover{border-color:var(--accent);color:var(--accent);}
+.lesson-card.done .lc-done-btn{background:rgba(245,200,66,.15);
+  border-color:var(--accent);color:var(--accent);}
+.lc-expand{color:var(--muted);font-size:.7rem;transition:transform .25s;flex-shrink:0;}
+.lesson-card.open .lc-expand{transform:rotate(180deg);}
+
+/* Skill pills on card header */
+.lc-skills{display:flex;gap:.3rem;flex-shrink:0;}
+.skill-pill{font-size:.6rem;font-weight:900;padding:.1rem .4rem;
+  border-radius:4px;letter-spacing:.04em;}
+.sp-s{background:rgba(245,200,66,.15);color:var(--sp);}
+.sp-l{background:rgba(78,205,196,.15);color:var(--li);}
+.sp-r{background:rgba(116,185,255,.15);color:var(--rd);}
+.sp-w{background:rgba(162,155,254,.15);color:var(--wr);}
+
+/* ── LESSON BODY (expanded) ── */
+.lc-body{display:none;padding:0 1.1rem 1.1rem;
+  border-top:1px solid var(--border);}
+.lesson-card.open .lc-body{display:block;}
+
+.lb-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.9rem;}
+.lb-col{background:var(--bg);border-radius:8px;padding:.75rem .9rem;
+  border:1px solid var(--border);}
+.lb-col-title{font-size:.6rem;font-weight:900;letter-spacing:.08em;
+  text-transform:uppercase;margin-bottom:.5rem;display:flex;
+  align-items:center;gap:.35rem;}
+.lb-items{display:flex;flex-direction:column;gap:.3rem;}
+.lb-item{font-size:.78rem;color:var(--muted);line-height:1.5;
+  display:flex;align-items:flex-start;gap:.4rem;}
+.lb-item::before{content:'·';color:var(--accent);flex-shrink:0;margin-top:.05rem;}
+.lb-item strong{color:var(--white);}
+
+/* Vocabulary pills in lesson */
+.vocab-pills{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem;}
+.vp{font-size:.7rem;font-weight:700;padding:.18rem .55rem;
+  border-radius:4px;background:var(--surface2);
+  color:var(--white);border:1px solid var(--border);
+  cursor:default;transition:background .15s;}
+.vp:hover{background:var(--border);}
+.vp.verb  {border-color:rgba(245,200,66,.3);color:var(--accent);}
+.vp.adj   {border-color:rgba(78,205,196,.3);color:var(--accent2);}
+.vp.noun  {border-color:rgba(116,185,255,.3);color:#74B9FF;}
+.vp.phrase{border-color:rgba(255,107,107,.3);color:var(--accent3);}
+
+/* Can-do outcome */
+.can-do{background:rgba(245,200,66,.07);border:1px solid rgba(245,200,66,.2);
+  border-radius:8px;padding:.65rem .9rem;margin-top:.8rem;
+  font-size:.8rem;font-weight:700;color:var(--white);
+  display:flex;align-items:flex-start;gap:.5rem;line-height:1.5;}
+.can-do::before{content:'✓';color:var(--accent);font-weight:900;flex-shrink:0;}
+
+/* Speaking task highlight */
+.speaking-task{background:rgba(245,200,66,.05);border-left:3px solid var(--accent);
+  border-radius:0 8px 8px 0;padding:.55rem .85rem;margin-top:.6rem;
+  font-size:.79rem;color:var(--muted);font-style:italic;}
+.speaking-task strong{color:var(--accent);font-style:normal;}
+
+/* Grammar focus */
+.grammar-box{background:rgba(78,205,196,.06);border:1px solid rgba(78,205,196,.2);
+  border-radius:8px;padding:.55rem .85rem;
+  font-size:.78rem;color:var(--muted);
+  display:flex;align-items:flex-start;gap:.5rem;line-height:1.5;}
+.grammar-box::before{content:'📐';flex-shrink:0;}
+
+/* Homework pill */
+.hw-box{background:var(--surface2);border-radius:8px;padding:.5rem .85rem;
+  font-size:.75rem;color:var(--muted);
+  display:flex;align-items:flex-start;gap:.4rem;margin-top:.5rem;}
+.hw-box::before{content:'📝';flex-shrink:0;}
+
+/* ── VOCAB SUMMARY PANEL ── */
+.vocab-panel{background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;padding:1.2rem 1.5rem;margin-bottom:2rem;}
+.vp-title{font-family:'Lora',serif;font-size:1rem;font-weight:700;
+  margin-bottom:.9rem;display:flex;align-items:center;gap:.5rem;}
+.vp-section{margin-bottom:.9rem;}
+.vp-sec-label{font-size:.65rem;font-weight:900;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:.5rem;}
+.vp-pills{display:flex;flex-wrap:wrap;gap:.35rem;}
+
+/* ── GRAMMAR SUMMARY ── */
+.grammar-panel{background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;padding:1.2rem 1.5rem;margin-bottom:2rem;}
+.gp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.7rem;}
+.gp-item{background:var(--bg);border-radius:8px;padding:.65rem .8rem;
+  border:1px solid var(--border);}
+.gp-name{font-size:.8rem;font-weight:800;color:var(--white);margin-bottom:.2rem;}
+.gp-desc{font-size:.7rem;color:var(--muted);line-height:1.5;}
+.gp-ex{font-size:.7rem;color:var(--accent2);font-style:italic;margin-top:.25rem;}
+
+/* ── PROGRESS BAR ── */
+.progress-strip{background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;padding:1.1rem 1.5rem;margin-bottom:1.5rem;}
+.ps-header{display:flex;justify-content:space-between;align-items:center;
+  margin-bottom:.7rem;}
+.ps-title{font-size:.78rem;font-weight:800;}
+.ps-count{font-size:.75rem;color:var(--muted);}
+.ps-bar{background:rgba(255,255,255,.08);border-radius:999px;height:10px;overflow:hidden;}
+.ps-fill{height:100%;background:linear-gradient(90deg,var(--u1),var(--accent));
+  border-radius:999px;transition:width .5s ease;}
+.ps-units{display:grid;grid-template-columns:repeat(5,1fr);gap:.4rem;margin-top:.7rem;}
+.psu{text-align:center;font-size:.65rem;font-weight:900;}
+.psu-bar{height:4px;border-radius:999px;margin-bottom:.2rem;background:rgba(255,255,255,.1);}
+.psu-fill{height:100%;border-radius:999px;transition:width .4s;}
+.psu-label{color:var(--muted);}
+
+/* ── SCORE ── */
+.score-fixed{position:fixed;bottom:1.2rem;right:1.2rem;z-index:200;
+  background:var(--surface);border:1.5px solid var(--accent);
+  border-radius:10px;padding:.5rem .9rem;
+  font-size:.8rem;font-weight:900;color:var(--accent);
+  box-shadow:0 4px 20px rgba(245,200,66,.15);}
+.score-fixed span{font-size:1.2rem;display:block;text-align:center;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:800px){
+  .layout{grid-template-columns:1fr;}
+  .sidebar{display:none;}
+  .lb-grid{grid-template-columns:1fr;}
+  .main{padding:1.2rem;}
+  .hero{padding:2rem 1rem 1.5rem;}
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.unit-block{animation:fadeIn .4s ease both;}
+.unit-block:nth-child(2){animation-delay:.05s;}
+.unit-block:nth-child(3){animation-delay:.1s;}
+.unit-block:nth-child(4){animation-delay:.15s;}
+.unit-block:nth-child(5){animation-delay:.2s;}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div>
+    <a href="../days.html" class="tb-brand">COSYlanguages</a>
+    <div class="tb-sub">A1 — Beginner Curriculum Roadmap</div>
+  </div>
+  <nav class="tb-nav">
+    <a href="../grammar.html" class="tb-btn">📐 Grammar</a>
+    <a href="../practice.html" class="tb-btn">💡 Practice</a>
+    <a href="../days.html" class="tb-btn">🔐 Student Area</a>
+  </nav>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-eyebrow">🇬🇧 A1 — Beginner</div>
+  <h1>My life today. My work.<br>My past. My plans.</h1>
+  <p class="hero-sub">50 lessons · 100–120 hours · Structural–Functional approach — every grammar point unlocks a real communicative act. Speaking first, always.</p>
+  <div class="hero-stats">
+    <div class="hs-item"><span class="hs-num">50</span><span class="hs-label">Lessons</span></div>
+    <div class="hs-item"><span class="hs-num">5</span><span class="hs-label">Units</span></div>
+    <div class="hs-item"><span class="hs-num">203</span><span class="hs-label">New words</span></div>
+    <div class="hs-item"><span class="hs-num">16</span><span class="hs-label">Grammar points</span></div>
+    <div class="hs-item"><span class="hs-num">120h</span><span class="hs-label">Max hours</span></div>
+  </div>
+  <div class="arc-strip">
+    <div class="arc-node" style="border-color:#3B82F6;color:#93C5FD">My life today</div>
+    <span class="arc-arrow">→</span>
+    <div class="arc-node" style="border-color:#8B5CF6;color:#C4B5FD">My past</div>
+    <span class="arc-arrow">→</span>
+    <div class="arc-node" style="border-color:#10B981;color:#6EE7B7">My plans</div>
+    <span class="arc-arrow">→</span>
+    <div class="arc-node" style="border-color:#F59E0B;color:#FCD34D">My world</div>
+    <span class="arc-arrow">→</span>
+    <div class="arc-node" style="border-color:#EC4899;color:#F9A8D4">Mastery</div>
+  </div>
+</header>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <div class="sb-head">Lessons</div>
+  <div id="sb-content"></div>
+</nav>
+
+<!-- MAIN -->
+<main class="main">
+
+<!-- Progress strip -->
+<div class="progress-strip" id="progress-strip">
+  <div class="ps-header">
+    <span class="ps-title">Your A1 progress</span>
+    <span class="ps-count" id="ps-count">0 / 50 lessons</span>
+  </div>
+  <div class="ps-bar"><div class="ps-fill" id="ps-fill" style="width:0%"></div></div>
+  <div class="ps-units" id="ps-units"></div>
+</div>
+
+<!-- Score -->
+<div class="score-fixed" id="score-fixed">⭐ <span id="score-num">0</span></div>
+
+<!-- CONTENT AREA -->
+<div id="content"></div>
+
+</main>
+</div><!-- /layout -->
+
+<script>
+// ══════════════════════════════════════════════════════════════════
+// ALL A1 DATA — 50 lessons across 5 units
+// Drawn directly from CEFR_Progressive_Curriculum.xlsx A1 sheet
+// + vocabulary from CEFR_Vocabulary_Flashcards_Adult.xlsx A1
+// + verbs from CEFR_Verb_Lists_Complete.xlsx A1
+// + adjectives from CEFR_Adjective_Lists_Complete.xlsx A1
+// ══════════════════════════════════════════════════════════════════
+
+const UNITS = [
+{
+  id:'u1', num:1, color:'#3B82F6', label:'My Life Today',
+  arc:'Daily routines → Work → Home → Money → Food → Tech → Free time → Community',
+  lessons_count:10,
+  grammar_summary:[
+    {name:'Present Simple (all forms)', desc:'Full paradigm with frequency adverbs', ex:'"She usually works from home."'},
+    {name:'Should / Shouldn\'t', desc:'Advice in health and daily life', ex:'"You should eat more vegetables."'},
+    {name:'Have to / Don\'t have to', desc:'Obligation and lack of obligation', ex:'"I have to pay rent by Friday."'},
+    {name:'Like / Love / Hate + -ing', desc:'Gradable opinion scale with gerund', ex:'"I really enjoy cooking at weekends."'},
+    {name:'Comparatives (review)', desc:'Recycled from A0, extended to opinions', ex:'"My commute is longer than before."'},
+  ],
+  vocab_themes:['Work Basics','Home & Housing','Daily Routine','Health Basics','Money & Shopping','Technology','Leisure & Social Life'],
+  lessons:[
+    { code:'A1-01', num:1, title:'A day in my life — routines revisited',
+      grammar:'Present simple: all persons + frequency adverbs (mid-position)',
+      vocab:['always','usually','often','sometimes','rarely','never','wake up','get up','leave','arrive','finish'],
+      verbs:['wake up','get up','leave','arrive','start','finish'],
+      adj:[],
+      speaking:'Compare routines with 2 partners using frequency adverbs',
+      listening:'Extended daily routine (3 speakers)',
+      reading:'A "day in the life" magazine article',
+      writing:'Full daily routine paragraph (8 sentences + frequency)',
+      task:'Class routine survey: who does what, how often?',
+      cando:'Can describe daily routines using all frequency adverbs',
+      hw:'Write a detailed weekly routine with frequency adverbs' },
+    { code:'A1-02', num:2, title:'My job — describing work in detail',
+      grammar:'Present simple: "I work with/for/in; I am responsible for…"',
+      vocab:['job','work','boss','colleague','salary','office','meeting','email','full-time','part-time'],
+      verbs:['manage','attend','check','send','meet','reply','help','order','visit'],
+      adj:['busy'],
+      speaking:'Describe your job in 5 sentences to a partner',
+      listening:'3 job descriptions from real professionals',
+      reading:'A short job description from a job advert',
+      writing:'Job description for your own role (6 sentences)',
+      task:'Job description swap: guess the job from description',
+      cando:'Can describe what their job involves using present simple',
+      hw:'Write a job description as if for a LinkedIn profile' },
+    { code:'A1-03', num:3, title:'My commute and workplace',
+      grammar:'"How long does it take? / How far is it?" + It takes / It is',
+      vocab:['commute','floor','department','delay','rush hour'],
+      verbs:['travel','leave','arrive'],
+      adj:['busy','free','difficult'],
+      speaking:'Tell a partner about your commute in detail',
+      listening:'Two people discussing their commutes',
+      reading:'Short article on commuting in cities',
+      writing:'Paragraph about your commute and workplace',
+      task:'Commute debate: which is the best way to travel?',
+      cando:'Can discuss commute and workplace location',
+      hw:'Write a 60-word commute description' },
+    { code:'A1-04', num:4, title:'Earning and spending — money vocabulary',
+      grammar:'How much do you earn/spend? Present simple + object; too + adjective / enough',
+      vocab:['spend','save','pay','cost','cash','card','receipt','discount','bill'],
+      verbs:['earn','afford','charge','pay','spend','save'],
+      adj:['cheap','expensive'],
+      speaking:'Discuss spending habits: what do you spend most on?',
+      listening:'People discussing financial habits',
+      reading:'Short article on managing money',
+      writing:'Monthly budget plan in full sentences',
+      task:'Budget challenge: live on €1,500/month (group task)',
+      cando:'Can discuss earning and spending habits',
+      hw:'Write a paragraph about your financial habits' },
+    { code:'A1-05', num:5, title:'My home — renting and buying',
+      grammar:'Have to / don\'t have to (obligation intro); How much does it cost?',
+      vocab:['rent','flat','landlord','tenant','neighbour','furniture','heating','bill'],
+      verbs:['rent','move','repair','clean','cook'],
+      adj:['cheap','expensive','different'],
+      speaking:'Role-play: tenant phones landlord about a flat',
+      listening:'A rental enquiry phone call',
+      reading:'A property advert',
+      writing:'Email to a landlord asking about a flat',
+      task:'Flat hunting: compare two properties and decide',
+      cando:'Can ask about and describe a rental property',
+      hw:'Write a short email enquiry about a flat to rent' },
+    { code:'A1-06', num:6, title:'Food and health — what you eat, how you feel',
+      grammar:'Should / shouldn\'t for advice: "You should eat more… / You shouldn\'t…"',
+      vocab:['ill','tired','headache','doctor','hospital','medicine','sleep','exercise','stress'],
+      verbs:['feel','rest','recover','exercise','hurt'],
+      adj:['healthy','ill','fit','tired','stressed'],
+      speaking:'Give a partner 3 pieces of health advice',
+      listening:'A nutritionist giving advice',
+      reading:'A healthy eating guide',
+      writing:'5 health advice sentences using should/shouldn\'t',
+      task:'Health clinic: one person describes habits, partner gives advice',
+      cando:'Can give and receive basic health advice using should',
+      hw:'Write a 5-tip healthy lifestyle guide' },
+    { code:'A1-07', num:7, title:'Technology in my life',
+      grammar:'Present simple + adverbs of frequency + like + -ing for tech habits',
+      vocab:['phone','app','password','internet','online','screen'],
+      verbs:['check','send','watch','follow','learn'],
+      adj:['online','free','popular'],
+      speaking:'Discuss your technology habits with a partner',
+      listening:'People describing tech habits',
+      reading:'A short survey on technology use',
+      writing:'A paragraph about your technology use',
+      task:'Tech debate: is your phone your best friend?',
+      cando:'Can describe technology habits using present simple',
+      hw:'Write: "How I use technology every day"' },
+    { code:'A1-08', num:8, title:'My interests and free time',
+      grammar:'Love / like / enjoy / don\'t mind / hate / can\'t stand + -ing (gradable scale)',
+      vocab:['holiday','weekend','free time','friend','invitation','party','hobby'],
+      verbs:['relax','enjoy','invite','celebrate','play'],
+      adj:['happy','relaxed','bored','excited','free'],
+      speaking:'Discuss free time preferences using the full scale',
+      listening:'A leisure preferences survey',
+      reading:'A "My free time" blog entry',
+      writing:'"My interests" paragraph (6–8 sentences)',
+      task:'Interest match: find someone with the same top hobby',
+      cando:'Can express interests with gradable opinion verbs',
+      hw:'Write a short paragraph about your ideal weekend' },
+    { code:'A1-09', num:9, title:'My neighbourhood and community',
+      grammar:'There is/are + quantity; adjectives for opinions; comparatives review',
+      vocab:['neighbour','local','convenient','community'],
+      verbs:['live','move','seem','happen'],
+      adj:['quiet','noisy','convenient','popular','special','different','similar'],
+      speaking:'Describe your neighbourhood to a partner',
+      listening:'Two people comparing neighbourhoods',
+      reading:'A "Where I live" blog post',
+      writing:'Neighbourhood description (6 sentences)',
+      task:'My ideal neighbourhood: design and present',
+      cando:'Can describe and evaluate a neighbourhood',
+      hw:'Write a "Where I live" paragraph' },
+    { code:'A1-10', num:10, title:'Unit 1 Review — My life today',
+      grammar:'Present simple (all forms) + should + have to + frequency + like -ing',
+      vocab:['ALL Unit 1 vocabulary + recycled A0'],
+      verbs:['ALL Unit 1 verbs'],
+      adj:['ALL Unit 1 adjectives'],
+      speaking:'Oral: describe your life today (3 minutes, all topics)',
+      listening:'Extended listening — 3 speakers describing their lives',
+      reading:'Full "My adult life" profile',
+      writing:'"My life today" paragraph (150 words)',
+      task:'Speed networking: 2 min each, 3 partners',
+      cando:'Can describe all aspects of present adult life',
+      hw:'Portfolio: write your "My Life Today" profile' },
+  ]
+},
+{
+  id:'u2', num:2, color:'#8B5CF6', label:'My Past',
+  arc:'Career story → Past continuous → Used to → Present perfect (experience/recent/duration) → Narrative → Reported speech',
+  lessons_count:10,
+  grammar_summary:[
+    {name:'Past Simple (extended)', desc:'Regular + irregular, career narrative, time expressions', ex:'"She left her job in 2019 and started her own company."'},
+    {name:'Past Continuous', desc:'Actions in progress; contrast with past simple', ex:'"I was working when she called."'},
+    {name:'Used to', desc:'Past habits and states no longer true', ex:'"I used to live in Paris but now I live in London."'},
+    {name:'Present Perfect — experience', desc:'ever/never; life experiences', ex:'"Have you ever worked abroad?"'},
+    {name:'Present Perfect — recent/duration', desc:'just, already, yet; for/since', ex:'"I\'ve just finished. She\'s worked here for five years."'},
+    {name:'Reported Speech (intro)', desc:'say/tell + that; tense shift', ex:'"She said (that) she was tired."'},
+  ],
+  vocab_themes:['Career history verbs','Past time expressions','Narrative connectors','Reporting verbs'],
+  lessons:[
+    { code:'A1-11', num:1, title:'My career story — past simple review',
+      grammar:'Past simple: regular + irregular review + time expressions (in 2015, after that, then)',
+      vocab:['career','promotion','colleague'],
+      verbs:['study','work','move','change','leave','join','start','become'],
+      adj:['different','new','old'],
+      speaking:'Tell your career story in 3 minutes to a partner',
+      listening:'A career biography',
+      reading:'A short professional biography',
+      writing:'6-sentence career history',
+      task:'Career timeline: draw and present your career path',
+      cando:'Can narrate a basic career history in past simple',
+      hw:'Write your career history as a timeline with sentences' },
+    { code:'A1-12', num:2, title:'What were you doing? — past continuous',
+      grammar:'Past continuous: was/were + -ing; contrast with past simple (while, when)',
+      vocab:['while','when','at that moment','suddenly'],
+      verbs:['happen','continue','stop','sit','stand','carry'],
+      adj:['surprised','worried'],
+      speaking:'Tell a "when it happened" story using both tenses',
+      listening:'An eyewitness account using both tenses',
+      reading:'A short news-style account',
+      writing:'3 sentences: "I was ___ when ___"',
+      task:'Alibi game: where were you, what were you doing?',
+      cando:'Can use past continuous for an ongoing past action',
+      hw:'Write about what you were doing yesterday at specific times' },
+    { code:'A1-13', num:3, title:'I used to… — past habits and states',
+      grammar:'Used to + infinitive for past habits and states no longer true',
+      vocab:['anymore','not anymore','in the past','these days','now'],
+      verbs:['used to + any verb'],
+      adj:['different','similar'],
+      speaking:'Tell a partner 3 things you used to do but don\'t anymore',
+      listening:'People comparing past and present habits',
+      reading:'A "My life before and after" article',
+      writing:'5 "used to" sentences comparing past and present life',
+      task:'Before and after: draw a timeline and present',
+      cando:'Can describe past habits using "used to"',
+      hw:'Write a paragraph: "My life before and now"' },
+    { code:'A1-14', num:4, title:'Have you ever…? — life experiences',
+      grammar:'Present perfect: have/has + past participle + ever/never for experience',
+      vocab:['ever','never','once','twice','many times'],
+      verbs:['visit','travel','try','meet','see','eat','do'],
+      adj:['amazing','fantastic','terrible','interesting'],
+      speaking:'Ask a partner 5 "Have you ever…?" questions',
+      listening:'An interview about life experiences',
+      reading:'A "bucket list" article',
+      writing:'5 sentences: "I have / have never ___"',
+      task:'"Have you ever…?" class survey — find someone who has',
+      cando:'Can ask and talk about life experiences using present perfect',
+      hw:'Write a "Things I have and haven\'t done" list with sentences' },
+    { code:'A1-15', num:5, title:'I have just… — recent events',
+      grammar:'Present perfect: just, already, yet — meaning and position',
+      vocab:['just','already','yet','recently','this week'],
+      verbs:['finish','start','hear','arrive','send'],
+      adj:['recent'],
+      speaking:'Give 3 "just/already" updates to a partner',
+      listening:'A series of short updates ("I\'ve just heard…")',
+      reading:'A news update text with just/already/yet',
+      writing:'5 sentences using just, already and yet',
+      task:'Office updates game: report news using just/already/yet',
+      cando:'Can report recent events using just, already and yet',
+      hw:'Write a "news update" paragraph about your week' },
+    { code:'A1-16', num:6, title:'Since when? For how long? — duration',
+      grammar:'Present perfect: for + period, since + point in time; How long have you…?',
+      vocab:['for','since','how long','a week','a year','last month'],
+      verbs:['live','work','study','know','have'],
+      adj:['long'],
+      speaking:'Ask 3 partners: "How long have you worked here/lived there?"',
+      listening:'People discussing how long they have lived/worked somewhere',
+      reading:'A "How long have you been here?" magazine feature',
+      writing:'5 sentences about duration using for and since',
+      task:'Duration timeline: display your for/since facts to the class',
+      cando:'Can ask and say how long something has been the case',
+      hw:'Write a paragraph using for and since about your life' },
+    { code:'A1-17', num:7, title:'Telling a story — narrative skills',
+      grammar:'Past simple + past continuous + present perfect (mixed past narrative)',
+      vocab:['first','then','next','after that','suddenly','in the end','finally'],
+      verbs:['happen','tell','show','follow','mean','seem'],
+      adj:['surprised','excited','worried','disappointed'],
+      speaking:'Tell a 2-minute personal story to a partner',
+      listening:'A personal narrative story (3 minutes)',
+      reading:'A short story with mixed past tenses',
+      writing:'120-word story about a memorable event',
+      task:'Story competition: most interesting true story',
+      cando:'Can tell a coherent personal story in the past',
+      hw:'Write a 150-word personal narrative' },
+    { code:'A1-18', num:8, title:'A difficult situation — problem narration',
+      grammar:'Past tenses + wish/if only (intro): "I wish I had…"',
+      vocab:['difficulty','challenge','decision','mistake','consequence','solution'],
+      verbs:['try','manage','continue','stop','change','choose','build'],
+      adj:['difficult','wrong','correct','important'],
+      speaking:'Describe a difficult situation you faced (2 minutes)',
+      listening:'Someone describing a difficult work situation',
+      reading:'A problem-solution narrative',
+      writing:'100-word narrative about a challenge',
+      task:'Problem sharing: listen and give advice using "you should have"',
+      cando:'Can narrate a difficult past situation',
+      hw:'Write about a difficult situation and how you handled it' },
+    { code:'A1-19', num:9, title:'Reporting what people said',
+      grammar:'Reported speech: say/tell + tense shift (present → past)',
+      vocab:['say','tell','ask','explain','mention','that'],
+      verbs:['say','tell','ask','explain','mention'],
+      adj:[],
+      speaking:'Report what a partner told you to the class',
+      listening:'Reported speech examples',
+      reading:'A short article with reported quotes',
+      writing:'5 reported speech sentences',
+      task:'Telephone message relay: report what you heard',
+      cando:'Can report what someone said using basic reported speech',
+      hw:'Write 5 sentences reporting a recent conversation' },
+    { code:'A1-20', num:10, title:'Unit 2 Review — My past',
+      grammar:'Past simple, past continuous, used to, present perfect (all uses)',
+      vocab:['ALL Unit 2 vocabulary + recycled A0–U1'],
+      verbs:['ALL Unit 2 verbs'],
+      adj:['ALL Unit 2 adjectives'],
+      speaking:'Oral: tell your "life story" so far (3 minutes)',
+      listening:'Listening test: mixed past tenses (15 items)',
+      reading:'A full narrative text',
+      writing:'200-word biographical paragraph',
+      task:'Life story presentation to a small group',
+      cando:'Can narrate personal history using all past forms',
+      hw:'Portfolio: write your best personal narrative' },
+  ]
+},
+{
+  id:'u3', num:3, color:'#10B981', label:'My Future & Plans',
+  arc:'Going to → Will → Arrangements → First conditional → Second conditional → Comparisons → Advice → Obligations → Requests',
+  lessons_count:10,
+  grammar_summary:[
+    {name:'Going to + will', desc:'Plans, intentions, predictions and spontaneous decisions', ex:'"I\'m going to change jobs. I think it will be difficult."'},
+    {name:'Present continuous (future)', desc:'Fixed arrangements in diary', ex:'"I\'m meeting a client on Friday."'},
+    {name:'First conditional', desc:'Real/possible future conditions', ex:'"If you work hard, you will succeed."'},
+    {name:'Second conditional (intro)', desc:'Imagined/unlikely situations', ex:'"If I had more time, I would travel."'},
+    {name:'Must / Need to / Have to', desc:'Necessity, obligation, prohibition', ex:'"You must arrive on time. You don\'t have to wear a tie."'},
+    {name:'Could you / Would you mind', desc:'Polite requests and offers', ex:'"Could you send me the report? Would you mind helping?"'},
+  ],
+  vocab_themes:['Future plans vocabulary','Conditional language','Advice vocabulary','Obligation vocabulary'],
+  lessons:[
+    { code:'A1-21', num:1, title:'I\'m going to change — plans and intentions',
+      grammar:'Going to + infinitive for intention; present continuous for fixed arrangements',
+      vocab:['plan','intention','goal','next year','soon','eventually'],
+      verbs:['plan','decide','change','move','start','save','travel'],
+      adj:['different','exciting','possible'],
+      speaking:'Tell a partner your top 3 plans for the next 6 months',
+      listening:'People discussing future plans',
+      reading:'A "My goals for next year" article',
+      writing:'"My plans" paragraph (5–6 sentences)',
+      task:'Goal-setting workshop: share and compare plans',
+      cando:'Can describe future plans and intentions using going to',
+      hw:'Write your top 5 goals for the next year' },
+    { code:'A1-22', num:2, title:'It will be… — predictions and decisions',
+      grammar:'Will: predictions and spontaneous decisions; contrast with going to',
+      vocab:['probably','definitely','perhaps','maybe','I think'],
+      verbs:['will + any verb'],
+      adj:['possible','impossible','certain','necessary'],
+      speaking:'Make 3 predictions about your life in 5 years',
+      listening:'Someone making predictions about their future',
+      reading:'A short prediction article',
+      writing:'5 will sentences (predictions + spontaneous decisions)',
+      task:'Future prediction game: class makes predictions',
+      cando:'Can use will for predictions and spontaneous decisions',
+      hw:'Write a paragraph: "My life in 10 years"' },
+    { code:'A1-23', num:3, title:'What are you doing on Friday? — arrangements',
+      grammar:'Present continuous for fixed future arrangements',
+      vocab:['appointment','diary','available','schedule','arrange','confirm'],
+      verbs:['meet','book','cancel','miss','arrive'],
+      adj:['busy','free','available'],
+      speaking:'Discuss what you are doing next week with a partner',
+      listening:'A diary being discussed',
+      reading:'A diary for next week',
+      writing:'Your schedule for next week in full sentences',
+      task:'Diary clash: find a time when everyone is free',
+      cando:'Can talk about fixed future arrangements',
+      hw:'Write an email confirming a future appointment' },
+    { code:'A1-24', num:4, title:'If you work hard… — real conditions',
+      grammar:'First conditional: if + present simple + will',
+      vocab:['if','unless','when','as soon as','result','condition'],
+      verbs:['will + any verb'],
+      adj:['possible','necessary','important'],
+      speaking:'Give 3 pieces of advice using first conditionals',
+      listening:'Advice using first conditionals',
+      reading:'A "success tips" article with conditionals',
+      writing:'5 first conditional sentences',
+      task:'Conditional advice clinic: give real advice',
+      cando:'Can use first conditional for real situations',
+      hw:'Write 5 first conditional sentences about career decisions' },
+    { code:'A1-25', num:5, title:'What would you do? — imagined situations',
+      grammar:'Second conditional (intro): if + past + would; "I would love to / If I had…"',
+      vocab:['ideal','imagine','dream','wish','would'],
+      verbs:['would + any verb'],
+      adj:['ideal','amazing','different'],
+      speaking:'Discuss: "What would you do if you won €100,000?"',
+      listening:'Someone describing their dream job',
+      reading:'A "What would you do if…?" magazine feature',
+      writing:'3 second conditional sentences about dreams',
+      task:'Dream job pitch: if I could do any job, I would…',
+      cando:'Can use second conditional for imagined situations',
+      hw:'Write a paragraph about your ideal life' },
+    { code:'A1-26', num:6, title:'Making decisions — comparing options',
+      grammar:'Comparatives and superlatives (extended); "It is better to… / the best option is…"',
+      vocab:['option','choice','pro','con','advantage','disadvantage','worth'],
+      verbs:['choose','decide','compare','prefer'],
+      adj:['better','best','worse','worst','more/less + adj'],
+      speaking:'Compare two career paths or cities using comparatives',
+      listening:'People comparing two options',
+      reading:'A pros/cons article',
+      writing:'A pros and cons list as full sentences',
+      task:'Decision debate: buy or rent? Remote or office?',
+      cando:'Can compare options and justify a decision',
+      hw:'Write a 100-word pros and cons analysis' },
+    { code:'A1-27', num:7, title:'What should I do? — giving advice',
+      grammar:'Should/shouldn\'t; "Why don\'t you + infinitive"; imperative for strong advice',
+      vocab:['advice','idea','suggestion','problem','solution','option'],
+      verbs:['suggest','recommend','advise','try','think about'],
+      adj:['good','bad','useful','important'],
+      speaking:'Role-play: give advice to someone about a problem',
+      listening:'A radio advice programme',
+      reading:'A problem page with advice column',
+      writing:'A reply to a problem page letter',
+      task:'Advice circle: each person presents a problem, others advise',
+      cando:'Can ask for and give advice in real adult contexts',
+      hw:'Write a letter of advice to a friend with a problem' },
+    { code:'A1-28', num:8, title:'I need to… — obligation and necessity',
+      grammar:'Need to / must / have to — necessity; mustn\'t for prohibition',
+      vocab:['urgent','deadline','required','necessary','compulsory'],
+      verbs:['need to','must','have to','mustn\'t'],
+      adj:['necessary','important','urgent'],
+      speaking:'Discuss: what do you need to do this week?',
+      listening:'Work instructions using obligation verbs',
+      reading:'A workplace rules document',
+      writing:'A list of 5 things you must do this week',
+      task:'Work priorities task: rank what must be done today',
+      cando:'Can express obligation and necessity using modal verbs',
+      hw:'Write a to-do list with modal verbs for each item' },
+    { code:'A1-29', num:9, title:'Making requests and offers',
+      grammar:'Could you / Would you mind -ing / Shall I… / Would you like me to…',
+      vocab:['request','offer','favour','appreciate','mind','wonder'],
+      verbs:['could','would','shall'],
+      adj:['polite','formal','informal'],
+      speaking:'Practise 3 polite requests with a partner',
+      listening:'Formal and informal request dialogues',
+      reading:'A series of emails making requests',
+      writing:'A formal email with 2 polite requests',
+      task:'Office role-play: chain of requests at work',
+      cando:'Can make and respond to polite requests',
+      hw:'Write a formal email making 3 polite requests' },
+    { code:'A1-30', num:10, title:'Unit 3 Review — My future',
+      grammar:'Going to, will, present continuous (future), first + second conditional, should, must',
+      vocab:['ALL Unit 3 vocabulary'],
+      verbs:['ALL Unit 3 verbs'],
+      adj:['ALL Unit 3 adjectives'],
+      speaking:'Oral: describe future plans and give someone advice (3 min)',
+      listening:'Listening test: future language (15 items)',
+      reading:'A "My plans for the future" article',
+      writing:'"My future plans" essay (200 words)',
+      task:'Future planning simulation: life at 50',
+      cando:'Can discuss the future using all A1 future structures',
+      hw:'Portfolio: write "My plans for the next 5 years"' },
+  ]
+},
+{
+  id:'u4', num:4, color:'#F59E0B', label:'My World',
+  arc:'Personality → Relative clauses → Discussion skills → Indirect questions → Opinions → Culture → Social invitations → Phone English → Email writing',
+  lessons_count:10,
+  grammar_summary:[
+    {name:'Adjective + preposition', desc:'good at, bad at, interested in, worried about, etc.', ex:'"She is really good at dealing with clients."'},
+    {name:'Defining relative clauses', desc:'who, which/that, where', ex:'"The person who manages the team is very experienced."'},
+    {name:'Question tags', desc:'Positive → negative; negative → positive', ex:'"She\'s your boss, isn\'t she?"'},
+    {name:'Indirect questions', desc:'Polite enquiry with statement word order', ex:'"Could you tell me where the meeting room is?"'},
+    {name:'Opinion phrases', desc:'I think/believe/feel that + clause', ex:'"In my opinion, remote working is more productive."'},
+  ],
+  vocab_themes:['Personality adjectives','Relative pronouns','Agreement phrases','Opinion language','Cultural vocabulary','Email register'],
+  lessons:[
+    { code:'A1-31', num:1, title:'Describing people — personality in depth',
+      grammar:'Adjective + preposition: good at, bad at, interested in, worried about',
+      vocab:['reliable','organised','ambitious','creative','sensitive','tolerant','stubborn','generous'],
+      verbs:['seem','appear','become'],
+      adj:['reliable','organised','ambitious','creative','confident','friendly','honest','patient'],
+      speaking:'Describe 3 people you know using 3 adjectives each',
+      listening:'Descriptions of colleagues',
+      reading:'A character sketch',
+      writing:'100-word character description',
+      task:'Ideal colleague: build a profile together',
+      cando:'Can describe personality with adjectives and prepositions',
+      hw:'Write a description of your ideal manager' },
+    { code:'A1-32', num:2, title:'The person who… — relative clauses',
+      grammar:'Defining relative clauses: who (people), which/that (things), where (places)',
+      vocab:['who','which','that','where','the one who','the place where'],
+      verbs:['define','describe'],
+      adj:['special','useful','important'],
+      speaking:'Define 5 words using "it is something that/which…"',
+      listening:'Relative clauses in descriptions',
+      reading:'A text rich in relative clauses',
+      writing:'5 sentences with relative clauses',
+      task:'Definition game: describe a word using a relative clause',
+      cando:'Can use defining relative clauses to describe people and things',
+      hw:'Write 5 descriptions using relative clauses' },
+    { code:'A1-33', num:3, title:'Agreeing and discussing — question tags',
+      grammar:'Question tags: positive statement → negative tag; negative → positive',
+      vocab:['exactly','absolutely','I agree','that\'s true','isn\'t it','don\'t you'],
+      verbs:['agree','disagree','think'],
+      adj:['right','wrong'],
+      speaking:'Practise agreeing and using tags with a partner',
+      listening:'Natural conversation with question tags',
+      reading:'A dialogue with agreement markers',
+      writing:'5 sentences with appropriate question tags',
+      task:'Discussion: agree or disagree with 5 statements',
+      cando:'Can use question tags in natural conversation',
+      hw:'Write a dialogue that includes 4 question tags' },
+    { code:'A1-34', num:4, title:'Could you tell me…? — indirect questions',
+      grammar:'Indirect questions: statement word order after question intro',
+      vocab:['I wonder if','do you know','I\'d like to know','could you tell me'],
+      verbs:['wonder','know','tell','explain'],
+      adj:['polite','formal'],
+      speaking:'Practise 4 indirect questions in a role-play',
+      listening:'Polite professional enquiries',
+      reading:'A formal email with indirect questions',
+      writing:'4 indirect question forms',
+      task:'Information request at work or a service',
+      cando:'Can use indirect questions for polite professional communication',
+      hw:'Write an email using 3 indirect questions' },
+    { code:'A1-35', num:5, title:'What do you think? — opinions and discussions',
+      grammar:'Opinion phrases: "I think/believe that + clause"; agreeing/disagreeing',
+      vocab:['opinion','view','perspective','I think','I believe','personally','in my opinion'],
+      verbs:['think','believe','feel','agree','disagree'],
+      adj:['important','interesting','different','similar'],
+      speaking:'Give your opinion on 3 topics to a partner',
+      listening:'A short discussion with opinions',
+      reading:'An opinion piece',
+      writing:'100-word opinion paragraph',
+      task:'Class opinion poll: vote and justify',
+      cando:'Can express and justify an opinion',
+      hw:'Write a 100-word opinion on a topic of your choice' },
+    { code:'A1-36', num:6, title:'Talking about culture — customs and norms',
+      grammar:'Present simple for general truths; "It is + adjective + to + infinitive"',
+      vocab:['custom','tradition','norm','polite','rude','different','common','respect'],
+      verbs:['respect','follow','understand','compare'],
+      adj:['polite','rude','normal','strange','different','common'],
+      speaking:'Compare cultural norms at work with a partner',
+      listening:'People comparing cultural norms',
+      reading:'A short cultural comparison text',
+      writing:'5 sentences about cultural norms in your country',
+      task:'Cultural differences discussion: is it polite to…?',
+      cando:'Can discuss cultural norms and compare customs',
+      hw:'Write a short guide to your country\'s work culture' },
+    { code:'A1-37', num:7, title:'A community event — social English',
+      grammar:'Inviting: "Would you like to…?" / "Could you come to…?" Accepting/declining politely',
+      vocab:['invitation','celebration','RSVP','event','arrange','accept','decline'],
+      verbs:['invite','celebrate','meet','join','arrange'],
+      adj:['free','busy','available','sorry'],
+      speaking:'Role-play: invite and respond to 3 different events',
+      listening:'Social invitation conversations',
+      reading:'An invitation and two replies (accept + decline)',
+      writing:'A formal invitation and an informal one',
+      task:'Event planning simulation: organise a work event',
+      cando:'Can invite, accept and decline invitations',
+      hw:'Write a formal invitation and a polite decline' },
+    { code:'A1-38', num:8, title:'On the phone — telephone English',
+      grammar:'Formal telephone phrases; modal verbs for politeness (could, would)',
+      vocab:['hold on','put through','leave a message','call back','available','speaking'],
+      verbs:['call','phone','hold','put through','leave','call back'],
+      adj:['available','busy','urgent'],
+      speaking:'Role-play: 3 different phone situations',
+      listening:'3 telephone conversations',
+      reading:'Phone message scripts',
+      writing:'A phone message from dictation',
+      task:'Phone relay: message passed through 3 people',
+      cando:'Can make and receive professional phone calls',
+      hw:'Write a script for a professional phone call' },
+    { code:'A1-39', num:9, title:'Writing an email — formal and informal',
+      grammar:'Formal vs informal register; tenses in emails (present + past + future)',
+      vocab:['subject','salutation','closing','attached','regarding','sincerely','kind regards'],
+      verbs:['write','reply','attach','send','thank'],
+      adj:['formal','informal','polite'],
+      speaking:'Discuss: what makes an email professional?',
+      listening:'An email being read aloud',
+      reading:'Formal vs informal emails — compare',
+      writing:'A formal and informal version of the same email',
+      task:'Email correction challenge: fix 6 register errors',
+      cando:'Can write a simple formal and informal email',
+      hw:'Write a formal email and an informal one on the same topic' },
+    { code:'A1-40', num:10, title:'Unit 4 Review — Relationships and communication',
+      grammar:'Relative clauses, question tags, indirect questions, opinion phrases, modal verbs',
+      vocab:['ALL Unit 4 vocabulary'],
+      verbs:['ALL Unit 4 verbs'],
+      adj:['ALL Unit 4 adjectives'],
+      speaking:'Role-play simulation: 3 workplace communication scenarios',
+      listening:'Extended listening: social and professional dialogues',
+      reading:'A full social/professional text',
+      writing:'150-word professional email',
+      task:'Communication challenge: all Unit 4 skills in one task',
+      cando:'Can communicate naturally in social and professional adult contexts',
+      hw:'Portfolio: best email + description' },
+  ]
+},
+{
+  id:'u5', num:5, color:'#EC4899', label:'Mastery & Extension',
+  arc:'Discussion → Fluency → Vocabulary building → Pronunciation → Reading strategies → Writing → A2 preview → Revision → Assessment',
+  lessons_count:10,
+  grammar_summary:[
+    {name:'Mixed A1 grammar in fluency', desc:'All structures used naturally without being the focus', ex:'Extended conversation on real topics'},
+    {name:'Collocations: do/make/have/take', desc:'Common fixed verb+noun combinations', ex:'"Make a decision. Do your homework. Take notes."'},
+    {name:'Word stress & sentence stress', desc:'Correct stress patterns for intelligibility', ex:'"I WORK in a HOSpital" (content words stressed)'},
+    {name:'Discourse connectors', desc:'Firstly, also, however, for example, in conclusion', ex:'"However, there are some disadvantages."'},
+  ],
+  vocab_themes:['Conversation strategies','Word families','Collocations','Academic preview vocabulary'],
+  lessons:[
+    { code:'A1-41', num:1, title:'My opinions on the world — discussion topics',
+      grammar:'Mixed A1 grammar in discussion; because + connectors: however, so, but',
+      vocab:['environment','relationship','health','opinion','reason','because'],
+      verbs:['discuss','debate','argue','agree','disagree','think'],
+      adj:['important','interesting','difficult','necessary'],
+      speaking:'Discuss 2 topics using opinion language',
+      listening:'A short radio discussion (3 speakers)',
+      reading:'A short opinion article',
+      writing:'100-word opinion paragraph on a topic',
+      task:'Class debate on a simple real-world topic',
+      cando:'Can discuss real-world topics at A1 with simple opinions',
+      hw:'Write a 120-word opinion on a topic you care about' },
+    { code:'A1-42', num:2, title:'Real conversations — fluency practice',
+      grammar:'Review of all A1 grammar through fluency tasks',
+      vocab:['well','actually','you know','I mean','kind of','sort of','by the way'],
+      verbs:['ALL A1 verbs in natural speech'],
+      adj:['ALL A1 adjectives in natural speech'],
+      speaking:'Extended conversation: 5 minutes on a topic',
+      listening:'Authentic short conversations (TV/radio extract)',
+      reading:'A full dialogue — analyse and discuss',
+      writing:'Self-record a 2-minute monologue',
+      task:'Partner feedback: fluency, grammar, vocabulary',
+      cando:'Can maintain a short extended conversation at A1',
+      hw:'Write a script and then speak without reading it' },
+    { code:'A1-43', num:3, title:'Building vocabulary — word families and collocations',
+      grammar:'Collocations: do + noun, make + noun, have + noun, take + noun',
+      vocab:['do homework / exercise / research','make a decision / progress / a mistake','have a meeting / lunch / time','take notes / a break / care'],
+      verbs:['do','make','have','take'],
+      adj:[],
+      speaking:'Collocation matching game',
+      listening:'Collocations in authentic short clips',
+      reading:'A text — find and note collocations',
+      writing:'Write 8 collocations in full sentences',
+      task:'Collocation bingo',
+      cando:'Can use common collocations naturally',
+      hw:'Create a collocation word map for 5 key verbs' },
+    { code:'A1-44', num:4, title:'Pronunciation — stress and intonation',
+      grammar:'Word and sentence stress; rising vs falling intonation in questions',
+      vocab:['stress pattern','intonation','syllable','emphasis'],
+      verbs:['ALL — focus on correct stress'],
+      adj:['ALL — focus on correct stress'],
+      speaking:'Drill: say sentences with correct stress pattern',
+      listening:'Listen and mark_stress; identify question intonation',
+      reading:'Read sentences aloud with marked stress',
+      writing:'Write stress marks on 10 words',
+      task:'Pronunciation challenge: read and record',
+      cando:'Can produce correct word stress in known vocabulary',
+      hw:'Learn stress patterns for 20 key A1 words' },
+    { code:'A1-45', num:5, title:'Reading strategies — understanding more',
+      grammar:'Mixed A1 grammar in reading context',
+      vocab:['skim','scan','infer','predict','context clue','main idea','detail'],
+      verbs:['read','understand','predict','infer','summarise'],
+      adj:['main','key','important','unclear'],
+      speaking:'Discuss: main idea vs detail in a text',
+      listening:'How to read strategically',
+      reading:'A text using skimming then scanning',
+      writing:'A summary of a 200-word text',
+      task:'Speed reading: who finds the answer first?',
+      cando:'Can use skimming and scanning to read efficiently',
+      hw:'Read one article at home and write a 50-word summary' },
+    { code:'A1-46', num:6, title:'Writing paragraphs — structure and cohesion',
+      grammar:'Discourse connectors: firstly, also, however, for example, in conclusion',
+      vocab:['firstly','also','however','for example','in conclusion','therefore','furthermore'],
+      verbs:['write','structure','link','connect'],
+      adj:['clear','structured','logical'],
+      speaking:'Discuss: what makes a good paragraph?',
+      listening:'A short structured talk',
+      reading:'3 model paragraphs — identify structure',
+      writing:'A structured paragraph on a given topic',
+      task:'Peer editing: improve a partner\'s paragraph',
+      cando:'Can write a structured paragraph with connectors',
+      hw:'Write a paragraph on your favourite topic using full structure' },
+    { code:'A1-47', num:7, title:'A2 preview — What\'s coming next?',
+      grammar:'Past simple vs present perfect (contrast); going to vs will (contrast)',
+      vocab:['A2 preview vocabulary: conditionals, reported speech, comparisons'],
+      verbs:['ALL — seen in A2 context'],
+      adj:['ALL — seen in A2 context'],
+      speaking:'Discuss: what do you find hardest in English?',
+      listening:'A short A2-level dialogue',
+      reading:'A short A2-level article',
+      writing:'Your personal language learning goals',
+      task:'A1 reflection: what have you learned?',
+      cando:'Can identify areas to develop at A2',
+      hw:'Write your 5 goals for A2' },
+    { code:'A1-48', num:8, title:'Revision day — grammar',
+      grammar:'ALL A1 grammar structures — error-focused revision',
+      vocab:['ALL A1 vocabulary — student choice'],
+      verbs:['ALL'],
+      adj:['ALL'],
+      speaking:'Grammar auction game',
+      listening:'Dictation: 15 A1 sentences',
+      reading:'Grammar reading: identify and correct errors',
+      writing:'Grammar test: all A1 structures',
+      task:'Error correction relay',
+      cando:'Can recognise and correct common A1 grammar errors',
+      hw:'Complete a personal grammar correction log' },
+    { code:'A1-49', num:9, title:'Oral assessment preparation',
+      grammar:'ALL A1 grammar in spoken context',
+      vocab:['ALL A1 topics'],
+      verbs:['ALL'],
+      adj:['ALL'],
+      speaking:'Mock oral exam: 5 minutes (introduction + topic)',
+      listening:'Practice listening tasks',
+      reading:'Oral exam preparation texts',
+      writing:'Preparation notes',
+      task:'Peer assessment using scoring rubric',
+      cando:'Can complete a full A1 oral assessment task',
+      hw:'Prepare and practise your oral exam speech' },
+    { code:'A1-50', num:10, title:'Final assessment and reflection',
+      grammar:'ALL A1 grammar',
+      vocab:['ALL A1 vocabulary'],
+      verbs:['ALL'],
+      adj:['ALL'],
+      speaking:'A1 oral assessment: 5 minutes',
+      listening:'A1 listening test (20 items)',
+      reading:'A1 reading test (full text + questions)',
+      writing:'A1 writing test: email + paragraph',
+      task:'Portfolio review',
+      cando:'Can demonstrate all A1 competencies',
+      hw:'Write a reflection: "What I can do now in English"' },
+  ]
+}
+];
+
+// ══════════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════════
+let score = 0;
+let done  = new Set(JSON.parse(localStorage.getItem('a1_done')||'[]'));
+let open  = new Set();
+
+function saveState(){ localStorage.setItem('a1_done',JSON.stringify([...done])); }
+function addScore(n){
+  score+=n;
+  document.getElementById('score-num').textContent=score;
+  const w=document.getElementById('score-fixed');
+  w.style.boxShadow='0 0 20px rgba(245,200,66,.5)';
+  setTimeout(()=>w.style.boxShadow='',400);
+}
+
+// ══════════════════════════════════════════════════════════════════
+// PROGRESS
+// ══════════════════════════════════════════════════════════════════
+function updateProgress(){
+  const total=50, count=done.size;
+  document.getElementById('ps-count').textContent=`${count} / ${total} lessons`;
+  document.getElementById('ps-fill').style.width=`${count/total*100}%`;
+
+  const uDiv=document.getElementById('ps-units');
+  uDiv.innerHTML=UNITS.map(u=>{
+    const ucodes=u.lessons.map(l=>l.code);
+    const udone=ucodes.filter(c=>done.has(c)).length;
+    const pct=Math.round(udone/ucodes.length*100);
+    return `<div class="psu">
+      <div class="psu-bar"><div class="psu-fill" style="width:${pct}%;background:${u.color}"></div></div>
+      <div class="psu-label">U${u.num} ${udone}/${ucodes.length}</div>
+    </div>`;
+  }).join('');
+}
+
+// ══════════════════════════════════════════════════════════════════
+// SIDEBAR
+// ══════════════════════════════════════════════════════════════════
+function buildSidebar(){
+  const sb=document.getElementById('sb-content');
+  sb.innerHTML=UNITS.map(u=>`
+    <div class="sb-unit">
+      <div class="sb-unit-header" onclick="jumpUnit('${u.id}')">
+        <span class="sb-unit-dot" style="background:${u.color}"></span>
+        Unit ${u.num}: ${u.label}
+      </div>
+      ${u.lessons.map(l=>{
+        const isDone=done.has(l.code);
+        const progress=isDone?100:0;
+        return `<a class="sb-lesson" id="sb-${l.code}" onclick="jumpLesson('${l.code}')">
+          <span class="sb-lesson-code">${l.code}</span>
+          <span style="flex:1;font-size:.72rem">${l.title}</span>
+          ${isDone?'<span style="color:var(--accent);font-size:.7rem">✓</span>':''}
+        </a>`;
+      }).join('')}
+    </div>`).join('');
+}
+
+function jumpUnit(id){
+  document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function jumpLesson(code){
+  const el=document.getElementById(`lesson-${code}`);
+  if(!el) return;
+  el.scrollIntoView({behavior:'smooth',block:'start'});
+  // open it
+  if(!open.has(code)){ toggleLesson(code); }
+}
+
+// ══════════════════════════════════════════════════════════════════
+// LESSON TOGGLE
+// ══════════════════════════════════════════════════════════════════
+function toggleLesson(code){
+  const card=document.getElementById(`lesson-${code}`);
+  if(!card) return;
+  if(open.has(code)){
+    open.delete(code);
+    card.classList.remove('open');
+  } else {
+    open.add(code);
+    card.classList.add('open');
+  }
+}
+
+function markDone(code,e){
+  e.stopPropagation();
+  const card=document.getElementById(`lesson-${code}`);
+  const btn=document.getElementById(`done-btn-${code}`);
+  if(done.has(code)){
+    done.delete(code);
+    card?.classList.remove('done');
+    if(btn) btn.textContent='Mark done ✓';
+  } else {
+    done.add(code);
+    card?.classList.add('done');
+    if(btn) btn.textContent='✓ Done';
+    addScore(20);
+  }
+  saveState();
+  updateProgress();
+  buildSidebar();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// RENDER
+// ══════════════════════════════════════════════════════════════════
+function posLabel(pos){
+  if(pos.includes('verb')) return 'verb';
+  if(pos.includes('adj'))  return 'adj';
+  if(pos.includes('phrase')||pos.includes('adv')) return 'phrase';
+  return 'noun';
+}
+
+function renderVocabPills(words){
+  return words.map(w=>{
+    const cls = w.endsWith(' verb')||['wake up','get up','leave','arrive','start','finish','check','send','meet','reply','attend','manage','help','order','visit','call','ask','explain','tell','show','thank','introduce','recommend','pay','spend','cost','save','earn','afford','charge','book','travel','pack','cancel','miss','relax','enjoy','exercise','feel','hurt','rest','recover','cook','clean','repair','rent','move','invite','celebrate','happen','seem','mean','follow','change','continue','stop','try','wait','watch','sit','stand','carry','grow','learn','study','teach','play','include','become','belong','choose','build'].includes(w.toLowerCase()) ? 'verb' : 'noun';
+    return `<span class="vp ${cls}">${w}</span>`;
+  }).join('');
+}
+
+function renderSkillPills(l){
+  return `<div class="lc-skills">
+    <span class="skill-pill sp-s">🗣️</span>
+    <span class="skill-pill sp-l">👂</span>
+    <span class="skill-pill sp-r">📖</span>
+    <span class="skill-pill sp-w">✍️</span>
+  </div>`;
+}
+
+function buildContent(){
+  const area=document.getElementById('content');
+
+  // ── Vocabulary Summary Panel ──
+  let vocabHtml=`<div class="vocab-panel">
+    <div class="vp-title">📖 A1 Vocabulary — 203 items across 8 themes</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.6rem">`;
+
+  const themes={
+    'Work Basics':     ['job','work','boss','colleague','salary','office','meeting','email','full-time','part-time','commute'],
+    'Home & Housing':  ['rent','flat','landlord','tenant','neighbour','furniture','heating','bill'],
+    'Daily Routine':   ['alarm','breakfast','lunch','dinner','shower','supermarket'],
+    'Health Basics':   ['ill','tired','headache','doctor','hospital','medicine','sleep','exercise','stress'],
+    'Money & Shopping':['spend','save','pay','cost','cheap','expensive','cash','card','receipt','discount'],
+    'Technology':      ['phone','app','password','internet','online','screen'],
+    'Leisure':         ['holiday','weekend','free time','friend','invitation','party','hobby'],
+    'Feelings':        ['happy','worried','relaxed','bored','angry','nervous','confident','friendly','honest','patient'],
+  };
+  const themeColours={'Work Basics':'#3B82F6','Home & Housing':'#8B5CF6','Daily Routine':'#10B981',
+    'Health Basics':'#EF4444','Money & Shopping':'#F59E0B','Technology':'#06B6D4',
+    'Leisure':'#EC4899','Feelings':'#84CC16'};
+
+  for(const [theme,words] of Object.entries(themes)){
+    const col=themeColours[theme]||'#666';
+    vocabHtml+=`<div style="background:var(--bg);border:1px solid var(--border);border-radius:8px;
+      padding:.65rem .8rem;border-left:3px solid ${col}">
+      <div style="font-size:.62rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;
+        color:${col};margin-bottom:.45rem">${theme}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:.25rem">
+        ${words.map(w=>`<span style="font-size:.68rem;font-weight:700;
+          background:rgba(255,255,255,.06);border:1px solid var(--border);
+          border-radius:4px;padding:.1rem .4rem;color:var(--muted)">${w}</span>`).join('')}
+      </div>
+    </div>`;
+  }
+  vocabHtml+=`</div></div>`;
+
+  // ── Grammar Summary Panel ──
+  let grammarHtml=`<div class="grammar-panel">
+    <div class="vp-title">📐 A1 Grammar — 16 structures introduced</div>
+    <div class="gp-grid">`;
+
+  const allGrammar=UNITS.flatMap(u=>u.grammar_summary);
+  allGrammar.forEach(g=>{
+    grammarHtml+=`<div class="gp-item">
+      <div class="gp-name">${g.name}</div>
+      <div class="gp-desc">${g.desc}</div>
+      <div class="gp-ex">${g.ex}</div>
+    </div>`;
+  });
+  grammarHtml+=`</div></div>`;
+
+  // ── Units ──
+  let unitsHtml=UNITS.map(u=>{
+    const isDoneMap=u.lessons.map(l=>done.has(l.code));
+    const pct=Math.round(isDoneMap.filter(Boolean).length/u.lessons.length*100);
+
+    const lessonsHtml=u.lessons.map(l=>{
+      const isDone=done.has(l.code);
+      const isOpen=open.has(l.code);
+
+      // Vocab pills (show first 8 to avoid overflow)
+      const vocabDisplay=[...new Set([...l.vocab,...l.verbs,...l.adj])].slice(0,12);
+
+      return `<div class="lesson-card${isDone?' done':''}${isOpen?' open':''}"
+               id="lesson-${l.code}">
+        <div class="lc-header" onclick="toggleLesson('${l.code}')">
+          <span class="lc-code">${l.code}</span>
+          <span class="lc-num" style="border-color:${u.color};color:${u.color}">${l.num}</span>
+          <span class="lc-title">${l.title}</span>
+          ${renderSkillPills(l)}
+          <button class="lc-done-btn" id="done-btn-${l.code}"
+            onclick="markDone('${l.code}',event)">${isDone?'✓ Done':'Mark done ✓'}</button>
+          <span class="lc-expand">▼</span>
+        </div>
+        <div class="lc-body">
+
+          <div class="grammar-box">${l.grammar}</div>
+          <div class="speaking-task"><strong>🗣️ Speaking task:</strong> ${l.speaking}</div>
+
+          <div class="lb-grid">
+            <div class="lb-col">
+              <div class="lb-col-title" style="color:var(--li)">👂 Listening</div>
+              <div class="lb-item">${l.listening}</div>
+              <div class="lb-col-title" style="color:var(--rd);margin-top:.6rem">📖 Reading</div>
+              <div class="lb-item">${l.reading}</div>
+            </div>
+            <div class="lb-col">
+              <div class="lb-col-title" style="color:var(--wr)">✍️ Writing</div>
+              <div class="lb-item">${l.writing}</div>
+              <div class="lb-col-title" style="color:var(--accent);margin-top:.6rem">🎯 Communicative task</div>
+              <div class="lb-item">${l.task}</div>
+            </div>
+          </div>
+
+          <div style="margin-top:.8rem">
+            <div style="font-size:.6rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;
+              color:var(--muted);margin-bottom:.4rem">Vocabulary focus</div>
+            <div class="vocab-pills">${renderVocabPills(vocabDisplay)}</div>
+          </div>
+
+          <div class="hw-box">${l.hw}</div>
+          <div class="can-do">${l.cando}</div>
+        </div>
+      </div>`;
+    }).join('');
+
+    return `<div class="unit-block ${u.id}" id="${u.id}">
+      <div class="unit-header">
+        <div class="uh-num" style="color:${u.color}">0${u.num}</div>
+        <div class="uh-body">
+          <h2>Unit ${u.num}: ${u.label}</h2>
+          <div class="uh-arc">${u.arc}</div>
+          <div class="uh-tags">
+            <span class="uh-tag">${u.lessons_count} lessons</span>
+            ${u.vocab_themes.map(t=>`<span class="uh-tag">${t}</span>`).join('')}
+            <span class="uh-tag" style="color:${u.color};border-color:${u.color}">${pct}% complete</span>
+          </div>
+        </div>
+      </div>
+      ${lessonsHtml}
+    </div>`;
+  }).join('');
+
+  area.innerHTML = vocabHtml + grammarHtml + unitsHtml;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// SIDEBAR INTERSECTION OBSERVER
+// ══════════════════════════════════════════════════════════════════
+function setupObserver(){
+  const io=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        const code=e.target.id.replace('lesson-','');
+        document.querySelectorAll('.sb-lesson').forEach(l=>l.classList.remove('active'));
+        document.getElementById(`sb-${code}`)?.classList.add('active');
+      }
+    });
+  },{threshold:.4});
+  document.querySelectorAll('.lesson-card').forEach(c=>io.observe(c));
+}
+
+// ══════════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded',()=>{
+  buildSidebar();
+  buildContent();
+  updateProgress();
+  // Restore done state on cards
+  done.forEach(code=>{
+    document.getElementById(`lesson-${code}`)?.classList.add('done');
+    const btn=document.getElementById(`done-btn-${code}`);
+    if(btn) btn.textContent='✓ Done';
+  });
+  setTimeout(setupObserver,200);
+});
+</script>
+</body>
+</html>
