@@ -40,7 +40,8 @@ test.describe('Private Area Integration', () => {
     await jobPill.click();
     await page.waitForURL(/vocabulary\/en\.html\?search=job/);
     await expect(page.locator('#global-search')).toHaveValue('job');
-    await expect(page.locator('.rt-word').filter({ hasText: 'job' })).toBeVisible();
+    // Filter to exactly "job" to avoid ambiguity with "Steve Jobs" etc.
+    await expect(page.locator('.rt-word', { hasText: /^job$/ })).toBeVisible();
   });
 
   test('Roadmap score updates global points', async ({ page }) => {
