@@ -48,11 +48,12 @@ test('Student Area access and day selection', async ({ page }) => {
     await expect(page.locator('#curriculum-content')).toBeVisible();
     await expect(page.locator('#unlock-gate')).not.toBeVisible();
 
-    // Select Day 2 and Start
-    await page.click('input[name="day-selection"][value="2"] + span');
-    await page.click('#start-day-btn');
+    // Find lesson A1-02, click it to expand, then click Practice
+    // Note: lesson codes are A1-01, A1-02...
+    await page.click('#lesson-A1-02 .lc-header');
+    await page.click('#lesson-A1-02 .cta-button.primary');
 
-    // Should redirect to lesson.html with params
+    // Should redirect to lesson.html with params (mapped to lesson=2)
     await expect(page).toHaveURL(/lesson.html.*lesson=2/);
 });
 
