@@ -4,21 +4,176 @@
  */
 
 const COURSES = {
-  "COSY-FR-B1-GEN": { lang: "FR", level: "B1", type: "GEN" },
+  // --- ENGLISH ---
   "COSY-EN-A1-GEN": { lang: "EN", level: "A1", type: "GEN" },
   "COSY-EN-A2-GEN": { lang: "EN", level: "A2", type: "GEN" },
-  "COSY-IT-B2-SPK": { lang: "IT", level: "B2", type: "SPK" },
-  "COSY-RU-A1-GEN": { lang: "RU", level: "A1", type: "GEN" },
-  "COSY-EL-C1-EXM": { lang: "EL", level: "C1", type: "EXM" },
-  "COSY-FR-A1-GEN": { lang: "FR", level: "A1", type: "GEN" },
+  "COSY-EN-B1-GEN": { lang: "EN", level: "B1", type: "GEN" },
+  "COSY-EN-B2-GEN": { lang: "EN", level: "B2", type: "GEN" },
+  "COSY-EN-C1-GEN": { lang: "EN", level: "C1", type: "GEN" },
+  "COSY-EN-C2-GEN": { lang: "EN", level: "C2", type: "GEN" },
+  "COSY-EN-A1-SPK": { lang: "EN", level: "A1", type: "SPK" },
+  "COSY-EN-A2-SPK": { lang: "EN", level: "A2", type: "SPK" },
+  "COSY-EN-B1-SPK": { lang: "EN", level: "B1", type: "SPK" },
   "COSY-EN-B2-SPK": { lang: "EN", level: "B2", type: "SPK" },
-  "DEMO":           { lang: "FR", level: "B1", type: "GEN" },
+  "COSY-EN-C1-SPK": { lang: "EN", level: "C1", type: "SPK" },
+  "COSY-EN-C2-SPK": { lang: "EN", level: "C2", type: "SPK" },
+  "COSY-EN-A1-EXM": { lang: "EN", level: "A1", type: "EXM" },
+  "COSY-EN-A2-EXM": { lang: "EN", level: "A2", type: "EXM" },
+  "COSY-EN-B1-EXM": { lang: "EN", level: "B1", type: "EXM" },
+  "COSY-EN-B2-EXM": { lang: "EN", level: "B2", type: "EXM" },
+  "COSY-EN-C1-EXM": { lang: "EN", level: "C1", type: "EXM" },
+  "COSY-EN-C2-EXM": { lang: "EN", level: "C2", type: "EXM" },
+
+  // --- FRENCH ---
+  "COSY-FR-A1-GEN": { lang: "FR", level: "A1", type: "GEN" },
+  "COSY-FR-A2-GEN": { lang: "FR", level: "A2", type: "GEN" },
+  "COSY-FR-B1-GEN": { lang: "FR", level: "B1", type: "GEN" },
+  "COSY-FR-B2-GEN": { lang: "FR", level: "B2", type: "GEN" },
+  "COSY-FR-C1-GEN": { lang: "FR", level: "C1", type: "GEN" },
+  "COSY-FR-C2-GEN": { lang: "FR", level: "C2", type: "GEN" },
+  "COSY-FR-A1-SPK": { lang: "FR", level: "A1", type: "SPK" },
+  "COSY-FR-A2-SPK": { lang: "FR", level: "A2", type: "SPK" },
+  "COSY-FR-B1-SPK": { lang: "FR", level: "B1", type: "SPK" },
+  "COSY-FR-B2-SPK": { lang: "FR", level: "B2", type: "SPK" },
+  "COSY-FR-C1-SPK": { lang: "FR", level: "C1", type: "SPK" },
+  "COSY-FR-C2-SPK": { lang: "FR", level: "C2", type: "SPK" },
+  "COSY-FR-A1-EXM": { lang: "FR", level: "A1", type: "EXM" },
+  "COSY-FR-A2-EXM": { lang: "FR", level: "A2", type: "EXM" },
+  "COSY-FR-B1-EXM": { lang: "FR", level: "B1", type: "EXM" },
+  "COSY-FR-B2-EXM": { lang: "FR", level: "B2", type: "EXM" },
+  "COSY-FR-C1-EXM": { lang: "FR", level: "C1", type: "EXM" },
+  "COSY-FR-C2-EXM": { lang: "FR", level: "C2", type: "EXM" },
+
+  // --- ITALIAN ---
+  "COSY-IT-A1-GEN": { lang: "IT", level: "A1", type: "GEN" },
+  "COSY-IT-A2-GEN": { lang: "IT", level: "A2", type: "GEN" },
+  "COSY-IT-B1-GEN": { lang: "IT", level: "B1", type: "GEN" },
+  "COSY-IT-B2-GEN": { lang: "IT", level: "B2", type: "GEN" },
+  "COSY-IT-C1-GEN": { lang: "IT", level: "C1", type: "GEN" },
+  "COSY-IT-C2-GEN": { lang: "IT", level: "C2", type: "GEN" },
+  "COSY-IT-A1-SPK": { lang: "IT", level: "A1", type: "SPK" },
+  "COSY-IT-A2-SPK": { lang: "IT", level: "A2", type: "SPK" },
+  "COSY-IT-B1-SPK": { lang: "IT", level: "B1", type: "SPK" },
+  "COSY-IT-B2-SPK": { lang: "IT", level: "B2", type: "SPK" },
+  "COSY-IT-C1-SPK": { lang: "IT", level: "C1", type: "SPK" },
+  "COSY-IT-C2-SPK": { lang: "IT", level: "C2", type: "SPK" },
+  "COSY-IT-A1-EXM": { lang: "IT", level: "A1", type: "EXM" },
+  "COSY-IT-A2-EXM": { lang: "IT", level: "A2", type: "EXM" },
+  "COSY-IT-B1-EXM": { lang: "IT", level: "B1", type: "EXM" },
+  "COSY-IT-B2-EXM": { lang: "IT", level: "B2", type: "EXM" },
+  "COSY-IT-C1-EXM": { lang: "IT", level: "C1", type: "EXM" },
+  "COSY-IT-C2-EXM": { lang: "IT", level: "C2", type: "EXM" },
+
+  // --- SPANISH ---
+  "COSY-ES-A1-GEN": { lang: "ES", level: "A1", type: "GEN" },
+  "COSY-ES-A2-GEN": { lang: "ES", level: "A2", type: "GEN" },
+  "COSY-ES-B1-GEN": { lang: "ES", level: "B1", type: "GEN" },
+  "COSY-ES-B2-GEN": { lang: "ES", level: "B2", type: "GEN" },
+  "COSY-ES-C1-GEN": { lang: "ES", level: "C1", type: "GEN" },
+  "COSY-ES-C2-GEN": { lang: "ES", level: "C2", type: "GEN" },
+  "COSY-ES-A1-SPK": { lang: "ES", level: "A1", type: "SPK" },
+  "COSY-ES-A2-SPK": { lang: "ES", level: "A2", type: "SPK" },
+  "COSY-ES-B1-SPK": { lang: "ES", level: "B1", type: "SPK" },
+  "COSY-ES-B2-SPK": { lang: "ES", level: "B2", type: "SPK" },
+  "COSY-ES-C1-SPK": { lang: "ES", level: "C1", type: "SPK" },
+  "COSY-ES-C2-SPK": { lang: "ES", level: "C2", type: "SPK" },
+  "COSY-ES-A1-EXM": { lang: "ES", level: "A1", type: "EXM" },
+  "COSY-ES-A2-EXM": { lang: "ES", level: "A2", type: "EXM" },
+  "COSY-ES-B1-EXM": { lang: "ES", level: "B1", type: "EXM" },
+  "COSY-ES-B2-EXM": { lang: "ES", level: "B2", type: "EXM" },
+  "COSY-ES-C1-EXM": { lang: "ES", level: "C1", type: "EXM" },
+  "COSY-ES-C2-EXM": { lang: "ES", level: "C2", type: "EXM" },
+
+  // --- GERMAN ---
+  "COSY-DE-A1-GEN": { lang: "DE", level: "A1", type: "GEN" },
+  "COSY-DE-A2-GEN": { lang: "DE", level: "A2", type: "GEN" },
+  "COSY-DE-B1-GEN": { lang: "DE", level: "B1", type: "GEN" },
+  "COSY-DE-B2-GEN": { lang: "DE", level: "B2", type: "GEN" },
+  "COSY-DE-C1-GEN": { lang: "DE", level: "C1", type: "GEN" },
+  "COSY-DE-C2-GEN": { lang: "DE", level: "C2", type: "GEN" },
+  "COSY-DE-A1-SPK": { lang: "DE", level: "A1", type: "SPK" },
+  "COSY-DE-A2-SPK": { lang: "DE", level: "A2", type: "SPK" },
+  "COSY-DE-B1-SPK": { lang: "DE", level: "B1", type: "SPK" },
+  "COSY-DE-B2-SPK": { lang: "DE", level: "B2", type: "SPK" },
+  "COSY-DE-C1-SPK": { lang: "DE", level: "C1", type: "SPK" },
+  "COSY-DE-C2-SPK": { lang: "DE", level: "C2", type: "SPK" },
+  "COSY-DE-A1-EXM": { lang: "DE", level: "A1", type: "EXM" },
+  "COSY-DE-A2-EXM": { lang: "DE", level: "A2", type: "EXM" },
+  "COSY-DE-B1-EXM": { lang: "DE", level: "B1", type: "EXM" },
+  "COSY-DE-B2-EXM": { lang: "DE", level: "B2", type: "EXM" },
+  "COSY-DE-C1-EXM": { lang: "DE", level: "C1", type: "EXM" },
+  "COSY-DE-C2-EXM": { lang: "DE", level: "C2", type: "EXM" },
+
+  // --- PORTUGUESE ---
+  "COSY-PT-A1-GEN": { lang: "PT", level: "A1", type: "GEN" },
+  "COSY-PT-A2-GEN": { lang: "PT", level: "A2", type: "GEN" },
+  "COSY-PT-B1-GEN": { lang: "PT", level: "B1", type: "GEN" },
+  "COSY-PT-B2-GEN": { lang: "PT", level: "B2", type: "GEN" },
+  "COSY-PT-C1-GEN": { lang: "PT", level: "C1", type: "GEN" },
+  "COSY-PT-C2-GEN": { lang: "PT", level: "C2", type: "GEN" },
+  "COSY-PT-A1-SPK": { lang: "PT", level: "A1", type: "SPK" },
+  "COSY-PT-A2-SPK": { lang: "PT", level: "A2", type: "SPK" },
+  "COSY-PT-B1-SPK": { lang: "PT", level: "B1", type: "SPK" },
+  "COSY-PT-B2-SPK": { lang: "PT", level: "B2", type: "SPK" },
+  "COSY-PT-C1-SPK": { lang: "PT", level: "C1", type: "SPK" },
+  "COSY-PT-C2-SPK": { lang: "PT", level: "C2", type: "SPK" },
+  "COSY-PT-A1-EXM": { lang: "PT", level: "A1", type: "EXM" },
+  "COSY-PT-A2-EXM": { lang: "PT", level: "A2", type: "EXM" },
+  "COSY-PT-B1-EXM": { lang: "PT", level: "B1", type: "EXM" },
+  "COSY-PT-B2-EXM": { lang: "PT", level: "B2", type: "EXM" },
+  "COSY-PT-C1-EXM": { lang: "PT", level: "C1", type: "EXM" },
+  "COSY-PT-C2-EXM": { lang: "PT", level: "C2", type: "EXM" },
+
+  // --- RUSSIAN ---
+  "COSY-RU-A1-GEN": { lang: "RU", level: "A1", type: "GEN" },
+  "COSY-RU-A2-GEN": { lang: "RU", level: "A2", type: "GEN" },
+  "COSY-RU-B1-GEN": { lang: "RU", level: "B1", type: "GEN" },
+  "COSY-RU-B2-GEN": { lang: "RU", level: "B2", type: "GEN" },
+  "COSY-RU-C1-GEN": { lang: "RU", level: "C1", type: "GEN" },
+  "COSY-RU-C2-GEN": { lang: "RU", level: "C2", type: "GEN" },
+  "COSY-RU-A1-SPK": { lang: "RU", level: "A1", type: "SPK" },
+  "COSY-RU-A2-SPK": { lang: "RU", level: "A2", type: "SPK" },
+  "COSY-RU-B1-SPK": { lang: "RU", level: "B1", type: "SPK" },
+  "COSY-RU-B2-SPK": { lang: "RU", level: "B2", type: "SPK" },
+  "COSY-RU-C1-SPK": { lang: "RU", level: "C1", type: "SPK" },
+  "COSY-RU-C2-SPK": { lang: "RU", level: "C2", type: "SPK" },
+  "COSY-RU-A1-EXM": { lang: "RU", level: "A1", type: "EXM" },
+  "COSY-RU-A2-EXM": { lang: "RU", level: "A2", type: "EXM" },
+  "COSY-RU-B1-EXM": { lang: "RU", level: "B1", type: "EXM" },
+  "COSY-RU-B2-EXM": { lang: "RU", level: "B2", type: "EXM" },
+  "COSY-RU-C1-EXM": { lang: "RU", level: "C1", type: "EXM" },
+  "COSY-RU-C2-EXM": { lang: "RU", level: "C2", type: "EXM" },
+
+  // --- GREEK ---
+  "COSY-EL-A1-GEN": { lang: "EL", level: "A1", type: "GEN" },
+  "COSY-EL-A2-GEN": { lang: "EL", level: "A2", type: "GEN" },
+  "COSY-EL-B1-GEN": { lang: "EL", level: "B1", type: "GEN" },
+  "COSY-EL-B2-GEN": { lang: "EL", level: "B2", type: "GEN" },
+  "COSY-EL-C1-GEN": { lang: "EL", level: "C1", type: "GEN" },
+  "COSY-EL-C2-GEN": { lang: "EL", level: "C2", type: "GEN" },
+  "COSY-EL-A1-SPK": { lang: "EL", level: "A1", type: "SPK" },
+  "COSY-EL-A2-SPK": { lang: "EL", level: "A2", type: "SPK" },
+  "COSY-EL-B1-SPK": { lang: "EL", level: "B1", type: "SPK" },
+  "COSY-EL-B2-SPK": { lang: "EL", level: "B2", type: "SPK" },
+  "COSY-EL-C1-SPK": { lang: "EL", level: "C1", type: "SPK" },
+  "COSY-EL-C2-SPK": { lang: "EL", level: "C2", type: "SPK" },
+  "COSY-EL-A1-EXM": { lang: "EL", level: "A1", type: "EXM" },
+  "COSY-EL-A2-EXM": { lang: "EL", level: "A2", type: "EXM" },
+  "COSY-EL-B1-EXM": { lang: "EL", level: "B1", type: "EXM" },
+  "COSY-EL-B2-EXM": { lang: "EL", level: "B2", type: "EXM" },
+  "COSY-EL-C1-EXM": { lang: "EL", level: "C1", type: "EXM" },
+  "COSY-EL-C2-EXM": { lang: "EL", level: "C2", type: "EXM" },
+
+  "DEMO": { lang: "FR", level: "B1", type: "GEN" },
 };
 
 const LANGS = {
   EN: { label: "English", flag: "🇬🇧" },
   FR: { label: "Français", flag: "🇫🇷" },
   IT: { label: "Italiano", flag: "🇮🇹" },
+  ES: { label: "Español", flag: "🇪🇸" },
+  DE: { label: "Deutsch", flag: "🇩🇪" },
+  PT: { label: "Português", flag: "🇵🇹" },
   RU: { label: "Русский", flag: "🇷🇺" },
   EL: { label: "Ελληνικά", flag: "🇬🇷" }
 };
@@ -102,6 +257,66 @@ const REFS = {
       ]
     },
   ],
+  ES: [
+    {
+      group: "Dictionaries & pronunciation", items: [
+        { icon: "📖", name: "RAE", desc: "Official Spanish dictionary", url: "https://dle.rae.es/" },
+        { icon: "🔤", name: "WordReference", desc: "ES↔EN dictionary", url: "https://www.wordreference.com/es/en/translation.asp" },
+        { icon: "🔊", name: "Forvo", desc: "Spanish pronunciation guide", url: "https://forvo.com/languages/es/" },
+      ]
+    },
+    {
+      group: "Grammar & conjugation", items: [
+        { icon: "🔧", name: "Cooljugator", desc: "Spanish verb conjugation", url: "https://cooljugator.com/es" },
+      ]
+    },
+    {
+      group: "Immersion", items: [
+        { icon: "📺", name: "RTVE Play", desc: "Spanish public TV online", url: "https://www.rtve.es/play/" },
+        { icon: "📻", name: "Radio Garden", desc: "Live Spanish radio", url: "https://radio.garden/" },
+      ]
+    },
+  ],
+  DE: [
+    {
+      group: "Dictionaries & pronunciation", items: [
+        { icon: "📖", name: "Duden", desc: "Official German dictionary", url: "https://www.duden.de/" },
+        { icon: "🔤", name: "Dict.cc", desc: "DE↔EN dictionary", url: "https://www.dict.cc/" },
+        { icon: "🔊", name: "Forvo", desc: "German pronunciation guide", url: "https://forvo.com/languages/de/" },
+      ]
+    },
+    {
+      group: "Grammar & conjugation", items: [
+        { icon: "🔧", name: "Verbformen", desc: "German verb conjugation", url: "https://www.verbformen.com/" },
+      ]
+    },
+    {
+      group: "Immersion", items: [
+        { icon: "📺", name: "ARD Mediathek", desc: "German public TV", url: "https://www.ardmediathek.de/" },
+        { icon: "📻", name: "Radio Garden", desc: "Live German radio", url: "https://radio.garden/" },
+      ]
+    },
+  ],
+  PT: [
+    {
+      group: "Dictionaries & pronunciation", items: [
+        { icon: "📖", name: "Infopédia", desc: "Portuguese dictionary", url: "https://www.infopedia.pt/" },
+        { icon: "🔤", name: "WordReference", desc: "PT↔EN dictionary", url: "https://www.wordreference.com/pten/" },
+        { icon: "🔊", name: "Forvo", desc: "Portuguese pronunciation guide", url: "https://forvo.com/languages/pt/" },
+      ]
+    },
+    {
+      group: "Grammar & conjugation", items: [
+        { icon: "🔧", name: "Cooljugator", desc: "Portuguese verb conjugation", url: "https://cooljugator.com/pt" },
+      ]
+    },
+    {
+      group: "Immersion", items: [
+        { icon: "📺", name: "RTP Play", desc: "Portuguese public TV", url: "https://www.rtp.pt/play/" },
+        { icon: "📻", name: "Radio Garden", desc: "Live Portuguese radio", url: "https://radio.garden/" },
+      ]
+    },
+  ],
   RU: [
     {
       group: "Dictionaries & pronunciation", items: [
@@ -145,11 +360,9 @@ const REFS = {
 
 const CURRICULUM = {
   EN: {
-    GEN: {
-      A1: "FROM_EN_A1_DATA",
-      A2: []
-    },
-    SPK: { B2: [] }
+    GEN: { A1: "FROM_EN_A1_DATA", A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
   },
   FR: {
     GEN: {
@@ -234,6 +447,7 @@ const CURRICULUM = {
           ],
         },
       ],
+      A2: [],
       B1: [
         {
           title: "Opinions & Arguments", subtitle: "Agreeing, disagreeing, justifying",
@@ -271,51 +485,82 @@ const CURRICULUM = {
           ],
         },
       ],
+      B2: [], C1: [], C2: []
     },
-    SPK: {
-      B2: [
+    SPK: { A1: [], A2: [], B1: [], B2: [
+      {
+        title: "Podcast Style", subtitle: "Extended fluent monologue",
+        skills: ["speaking", "listening"], desc: "Talk about a topic for 5 minutes without stopping. Your teacher only asks follow-up questions.", duration: "30 min", practiceTheme: "Conversation",
+        grammar: [],
+        vocab: [{
+          group: "Filler & thinking phrases", words: [
+            { w: "Ça me fait penser à…", phon: "", trans: "That makes me think of…", key: true },
+            { w: "Je dirais que…", phon: "", trans: "I would say that…", key: true },
+            { w: "Dans une certaine mesure", phon: "", trans: "To a certain extent", key: false },
+            { w: "En quelque sorte…", phon: "", trans: "In a way…", key: false },
+            { w: "Il va sans dire que…", phon: "", trans: "It goes without saying that…", key: true },
+          ]
+        }],
+      },
+    ], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+  },
+  IT: {
+    GEN: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+  },
+  ES: {
+    GEN: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+  },
+  DE: {
+    GEN: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+  },
+  PT: {
+    GEN: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+  },
+  RU: {
+    GEN: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+  },
+  EL: {
+    GEN: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
+    EXM: {
+      A1: [], A2: [], B1: [], B2: [],
+      C1: [
         {
-          title: "Podcast Style", subtitle: "Extended fluent monologue",
-          skills: ["speaking", "listening"], desc: "Talk about a topic for 5 minutes without stopping. Your teacher only asks follow-up questions.", duration: "30 min", practiceTheme: "Conversation",
-          grammar: [],
+          title: "Advanced Register", subtitle: "C1 vocabulary and grammar targets",
+          skills: ["grammar", "vocab", "writing"], desc: "The specific grammar and vocabulary ranges that separate B2 from C1 in the exam marking criteria.", duration: "120 min", practiceTheme: "Advanced",
+          grammar: [
+            {
+              point: "Nominalisation (verbal nouns)", tag: "C1 style",
+              explain: "Advanced French uses nouns derived from verbs to make writing more concise and formal. This is a key C1 exam marker.",
+              rule: "verb → noun: décider → la décision · analyser → l'analyse · développer → le développement",
+              examples: [{ t: "Ils ont décidé de partir. → La décision de partir…", e: "They decided to leave → The decision to leave…" }, { t: "On a analysé les résultats. → L'analyse des résultats…", e: "They analysed results → The analysis of results…" }],
+              tip: "💡 Nominalisations are essential in formal writing. Practise converting full sentences.",
+              practiceTheme: "Advanced",
+            },
+          ],
           vocab: [{
-            group: "Filler & thinking phrases", words: [
-              { w: "Ça me fait penser à…", phon: "", trans: "That makes me think of…", key: true },
-              { w: "Je dirais que…", phon: "", trans: "I would say that…", key: true },
-              { w: "Dans une certaine mesure", phon: "", trans: "To a certain extent", key: false },
-              { w: "En quelque sorte…", phon: "", trans: "In a way…", key: false },
-              { w: "Il va sans dire que…", phon: "", trans: "It goes without saying that…", key: true },
+            group: "C1 academic phrases", words: [
+              { w: "force est de constater que", phon: "", trans: "one must acknowledge that", key: true },
+              { w: "il convient de souligner", phon: "", trans: "it is worth emphasising", key: true },
+              { w: "à cet égard", phon: "", trans: "in this regard", key: false },
+              { w: "dans la mesure où", phon: "", trans: "insofar as", key: true },
+              { w: "quoi qu'il en soit", phon: "", trans: "be that as it may", key: true },
             ]
           }],
         },
-      ]
-    }
-  },
-  IT: { SPK: { B2: [] } },
-  RU: { GEN: { A1: [] } },
-  EL: { EXM: { C1: [
-    {
-      title: "Advanced Register", subtitle: "C1 vocabulary and grammar targets",
-      skills: ["grammar", "vocab", "writing"], desc: "The specific grammar and vocabulary ranges that separate B2 from C1 in the exam marking criteria.", duration: "120 min", practiceTheme: "Advanced",
-      grammar: [
-        {
-          point: "Nominalisation (verbal nouns)", tag: "C1 style",
-          explain: "Advanced French uses nouns derived from verbs to make writing more concise and formal. This is a key C1 exam marker.",
-          rule: "verb → noun: décider → la décision · analyser → l'analyse · développer → le développement",
-          examples: [{ t: "Ils ont décidé de partir. → La décision de partir…", e: "They decided to leave → The decision to leave…" }, { t: "On a analysé les résultats. → L'analyse des résultats…", e: "They analysed results → The analysis of results…" }],
-          tip: "💡 Nominalisations are essential in formal writing. Practise converting full sentences.",
-          practiceTheme: "Advanced",
-        },
       ],
-      vocab: [{
-        group: "C1 academic phrases", words: [
-          { w: "force est de constater que", phon: "", trans: "one must acknowledge that", key: true },
-          { w: "il convient de souligner", phon: "", trans: "it is worth emphasising", key: true },
-          { w: "à cet égard", phon: "", trans: "in this regard", key: false },
-          { w: "dans la mesure où", phon: "", trans: "insofar as", key: true },
-          { w: "quoi qu'il en soit", phon: "", trans: "be that as it may", key: true },
-        ]
-      }],
+      C2: []
     },
-  ] } }
+  },
 };
