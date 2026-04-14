@@ -8,20 +8,25 @@ test.describe('Grammar Roadmap Navigation', () => {
     });
 
     test('Accessing Italian specific roadmap', async ({ page }) => {
-        // Unlock
-        await page.locator('#student-code').fill('COSYSTUDENT2025');
-        await page.locator('#unlock-btn').click();
+        // Unlock using the new course code system
+        // We use COSY-IT-B2-SPK for Italian
+        await page.locator('#ci').fill('COSY-IT-B2-SPK');
+        // The button doesn't have an ID in the new design, but we can use the text
+        await page.getByRole('button', { name: /Unlock/i }).click();
 
-        // Set language to IT
-        await page.evaluate(() => localStorage.setItem('language', 'it'));
+        // Check if we are unlocked
+        await expect(page.locator('#area')).toBeVisible();
 
-        await page.locator('#open-grammar-btn').click();
-        await expect(page).toHaveURL(/grammar\/it.html/);
-        await expect(page.getByText('Grammatica Italiana')).toBeVisible();
+        // In the new design, there is a Grammar Ref button
+        await page.locator('#open-grammar-ref-btn').click();
+        await expect(page).toHaveURL(/grammar-reference.html/);
     });
 
     test('Navigating to specific lesson', async ({ page }) => {
-        await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
+        await page.evaluate(() => {
+            localStorage.setItem('student_unlocked', 'true');
+            localStorage.setItem('student_course_code', 'COSY-IT-B2-SPK');
+        });
         await page.goto('http://localhost:8080/grammar/it.html');
 
         await page.getByRole('link', { name: 'Lezione: Essere (Plurale)' }).click();

@@ -1071,7 +1071,7 @@
             faq_1_q: "Comment se déroulent les cours ?",
             faq_1_a: "Les cours sont individuels via Google Meet ou Zoom. Nous nous concentrons sur la communication active, en utilisant la méthodologie COSY pour vous faire parler dès le premier jour.",
             faq_2_q: "Ai-je besoin d'une expérience préalable ?",
-            faq_2_a: "Pas du tout. Nous enseignons à des étudiants allant du débutant complet (A0) au niveau expert (C2). Votre professeur adaptera le rythme et le contenu à votre niveau.",
+            faq_2_a: "Pas du tout. Nous enseignons à des étudiants allant du débutant complet (A1) au niveau expert (C2). Votre professeur adaptera le rythme et le contenu à votre niveau.",
             faq_3_q: "À quelle vitesse vais-je progresser ?",
             faq_3_a: "Le progrès dépend de votre régularité. Avec notre habitude quotidienne 'Spoken' et nos cours individuels, la plupart des étudiants ressentent une différence significative de confiance en 4 à 8 semaines.",
             faq_4_q: "Puis-je modifier mon emploi du temps ?",
