@@ -17,7 +17,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="COSYlanguages">
     <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
     <script>
@@ -27,227 +28,196 @@
     }
     </script>
     <style>
-/* ── Design tokens ─────────────────────────────────── */
+/* ── STUDENT AREA SPECIFIC STYLES ──────────────────── */
 :root {
-  --sage:       #6b8f71;
-  --sage-dark:  #4a6b50;
-  --sage-deep:  #2e4a33;
-  --sage-mist:  #f0f5f1;
-  --sage-pale:  #e8f0e9;
-  --cream:      #fdf8f0;
-  --cream-dark: #f5ede0;
-  --honey:      #e8a838;
-  --honey-dark: #a06b10;
-  --honey-pale: #fff8e7;
-  --honey-mid:  #fef0c7;
-  --ink:        #2a2a2a;
-  --ink-soft:   #4a4a4a;
-  --muted:      #6b6b6b;
-  --border:     rgba(74,107,80,.12);
-  --radius:     18px;
-  --radius-sm:  10px;
-  --shadow-sm:  0 2px 12px rgba(46,74,51,.07);
-  --shadow:     0 6px 28px rgba(46,74,51,.10);
+  --cream:       #FAF8F3;
+  --white:       #FFFFFF;
+  --ink:         #1A1714;
+  --ink-muted:   #5C5751;
+  --ink-faint:   #A09A93;
+  --border-new:  #E8E2D9;
+  --border-med:  #CEC7BC;
+  --green-new:   #2A7A4F;
+  --green-bg:    #EBF5EE;
+  --green-txt:   #1D5C38;
+  --amber-bg:    #FFF3E0;
+  --amber-txt:   #7A4500;
+  --blue-bg:     #EAF1FB;
+  --blue-txt:    #0C3470;
+  --purple-bg:   #F2EEFB;
+  --purple-txt:  #4A2580;
+  --red-bg:      #FDECED;
+  --orange-bg:   #FFF0E6;
+  --orange-txt:  #8B3A00;
+  --r-new:       12px;
+  --r-sm:        8px;
+  --shadow-new:  0 1px 3px rgba(26,23,20,.08), 0 4px 16px rgba(26,23,20,.05);
 }
 
-body {
-  background: var(--cream);
-  font-family: 'Nunito', sans-serif;
-  color: var(--ink);
-}
+.student-page { background: var(--cream); color: var(--ink); }
 
-/* ── Nav ────────────────────────────────────────────── */
-nav {
-  position: sticky; top: 0; z-index: 200;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-  box-shadow: 0 2px 16px rgba(46,74,51,.06);
+/* GATE */
+#gate { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 72vh; text-align: center; }
+.gate-card { background: var(--white); border: 1px solid var(--border-new); border-radius: var(--r-new); padding: 2.5rem 2rem; max-width: 440px; width: 100%; box-shadow: var(--shadow-new); }
+.gate-lock { font-size: 42px; display: block; margin-bottom: 1rem; }
+.gate-card h1 { font-family: 'DM Serif Display', serif; font-size: 26px; font-weight: 400; margin-bottom: .4rem; text-align: center; }
+.gate-card > p { color: var(--ink-muted); font-size: 14px; margin-bottom: 1.75rem; text-align: center; }
+.code-group { display: flex; flex-direction: column; gap: 10px; }
+.code-group input { width: 100%; padding: 12px 16px; font-family: 'DM Mono', monospace; font-size: 15px; font-weight: 500; letter-spacing: .08em; text-align: center; text-transform: uppercase; border: 1.5px solid var(--border-med); border-radius: var(--r-sm); background: var(--cream); color: var(--ink); outline: none; transition: border-color .2s; }
+.code-group input:focus { border-color: var(--green-new); }
+.code-group input.err { border-color: #D94040; background: var(--red-bg); }
+.err-msg { display: none; color: #C0392B; font-size: 13px; }
+.err-msg a { color: inherit; }
+.btn-primary-new { padding: 12px 24px; background: var(--ink); color: white; border: none; border-radius: var(--r-sm); font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; transition: background .2s, transform .1s; }
+.btn-primary-new:hover { background: #333; }
+.btn-primary-new:active { transform: scale(.98); }
+.gate-foot { margin-top: 1.5rem; font-size: 13px; color: var(--ink-faint); text-align: center; }
+.gate-foot a { color: var(--ink-muted); text-decoration: underline; text-underline-offset: 2px; }
+
+/* STUDENT AREA */
+#area { display: none; max-width: 980px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+.s-header { background: var(--white); border: 1px solid var(--border-new); border-radius: var(--r-new); padding: 1.4rem 1.75rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.s-header h2 { font-family: 'DM Serif Display', serif; font-size: 22px; font-weight: 400; margin-bottom: .2rem; text-align: left; }
+.s-header p { color: var(--ink-muted); font-size: 13px; text-align: left; }
+.badges { display: flex; flex-wrap: wrap; gap: 7px; }
+.badge { display: inline-flex; align-items: center; gap: 4px; padding: 4px 11px; border-radius: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.b-lang   { background: var(--blue-bg);   color: var(--blue-txt); }
+.b-level  { background: var(--amber-bg);  color: var(--amber-txt); }
+.b-course { background: var(--green-bg);  color: var(--green-txt); }
+.btn-out { background: none; border: 1px solid var(--border-med); border-radius: var(--r-sm); padding: 7px 14px; font-family: 'DM Sans', sans-serif; font-size: 13px; color: var(--ink-muted); cursor: pointer; transition: all .2s; }
+.btn-out:hover { color: var(--ink); border-color: var(--ink); }
+
+/* PROGRESS */
+.prog-box { background: var(--white); border: 1px solid var(--border-new); border-radius: var(--r-new); padding: 1.25rem 1.75rem; margin-bottom: 1.5rem; }
+.prog-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem; }
+.prog-row span { font-size: 13px; font-weight: 500; color: var(--ink-muted); }
+.prog-track-new { height: 8px; background: var(--border-new); border-radius: 4px; overflow: hidden; }
+.prog-fill-new { height: 100%; background: linear-gradient(90deg, #2A7A4F, #3BAD6F); border-radius: 4px; transition: width .6s ease; }
+.dots { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.dot { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; cursor: pointer; transition: transform .15s; border: 1.5px solid transparent; }
+.dot:hover { transform: scale(1.12); }
+.dot-done    { background: var(--green-bg); color: var(--green-txt); border-color: #A3D8B8; }
+.dot-current { background: var(--ink); color: white; }
+.dot-locked  { background: var(--cream); color: var(--ink-faint); border-color: var(--border-new); }
+
+/* SECTION */
+.sec-title { font-family: 'DM Serif Display', serif; font-size: 20px; font-weight: 400; margin-bottom: 1rem; text-align: left; }
+.day-jump { display: flex; align-items: center; gap: 10px; margin-bottom: 1.25rem; flex-wrap: wrap; }
+.day-jump label { font-size: 13px; font-weight: 500; color: var(--ink-muted); }
+.day-jump select { padding: 8px 12px; border: 1px solid var(--border-med); border-radius: var(--r-sm); background: var(--white); font-family: 'DM Sans', sans-serif; font-size: 13px; color: var(--ink); cursor: pointer; outline: none; }
+
+/* LESSON CARD */
+.lesson { background: var(--white); border: 1px solid var(--border-new); border-radius: var(--r-new); overflow: hidden; box-shadow: var(--shadow-new); margin-bottom: 1rem; transition: border-color .2s; }
+.lesson:hover { border-color: var(--border-med); }
+.l-head { padding: 1.1rem 1.4rem; display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; cursor: pointer; user-select: none; }
+.l-head-left { flex: 1; min-width: 0; text-align: left; }
+.l-day-num { font-size: 11px; font-weight: 600; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 3px; }
+.l-title { font-family: 'DM Serif Display', serif; font-size: 17px; font-weight: 400; margin-bottom: 2px; color: var(--ink); }
+.l-sub { font-size: 13px; color: var(--ink-muted); }
+.l-head-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
+.spill { padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+.s-done    { background: var(--green-bg); color: var(--green-txt); }
+.s-current { background: var(--ink); color: white; }
+.s-locked  { background: var(--border-new); color: var(--ink-faint); }
+.exp-icon { font-size: 12px; color: var(--ink-faint); transition: transform .25s; }
+.lesson.open .exp-icon { transform: rotate(180deg); }
+.l-body { display: none; border-top: 1px solid var(--border-new); text-align: left; }
+.lesson.open .l-body { display: block; }
+
+/* TABS */
+.tabs-bar { display: flex; border-bottom: 1px solid var(--border-new); background: var(--cream); overflow-x: auto; scrollbar-width: none; }
+.tabs-bar::-webkit-scrollbar { display: none; }
+.tab-btn { padding: 10px 16px; background: none; border: none; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; color: var(--ink-muted); cursor: pointer; white-space: nowrap; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color .2s, border-color .2s; }
+.tab-btn:hover { color: var(--ink); }
+.tab-btn.active { color: var(--ink); border-bottom-color: var(--ink); }
+.tab-panel { display: none; padding: 1.25rem 1.4rem; }
+.tab-panel.active { display: block; }
+
+/* CHIPS */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: .9rem; }
+.chip { padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 500; background: var(--cream); color: var(--ink-muted); border: 1px solid var(--border-new); }
+.chip-speaking  { background: var(--orange-bg); color: var(--orange-txt); border-color: #FFD4A8; }
+.chip-grammar   { background: var(--blue-bg);   color: var(--blue-txt);   border-color: #BBCFEE; }
+.chip-vocab     { background: var(--amber-bg);  color: var(--amber-txt);  border-color: #F7D08A; }
+.chip-listening { background: var(--purple-bg); color: var(--purple-txt); border-color: #D5C0EC; }
+.chip-writing   { background: var(--green-bg);  color: var(--green-txt);  border-color: #A3D8B8; }
+
+/* OVERVIEW */
+.l-desc { font-size: 14px; color: var(--ink-muted); line-height: 1.65; margin-bottom: 1.1rem; }
+.l-actions { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+.btn-start-new { padding: 9px 18px; background: var(--ink); color: white; border: none; border-radius: var(--r-sm); font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; cursor: pointer; transition: background .2s; text-decoration: none; display: inline-block; }
+.btn-start-new:hover { background: #333; }
+.btn-start-new.locked { background: var(--border-new); color: var(--ink-faint); cursor: not-allowed; pointer-events: none; }
+.btn-mark-new { padding: 8px 14px; background: none; color: var(--ink-muted); border: 1px solid var(--border-med); border-radius: var(--r-sm); font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; cursor: pointer; transition: all .2s; }
+.btn-mark-new:hover { color: var(--green-new); border-color: var(--green-new); }
+.btn-mark-new.done { background: var(--green-bg); color: var(--green-txt); border-color: #A3D8B8; }
+.dur-label { font-size: 12px; color: var(--ink-faint); margin-left: auto; }
+
+/* GRAMMAR */
+.gram-point { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-new); }
+.gram-point:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.gram-heading { font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: .35rem; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.gram-tag { padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; background: var(--blue-bg); color: var(--blue-txt); }
+.gram-explain { font-size: 14px; color: var(--ink-muted); margin-bottom: .75rem; line-height: 1.6; }
+.gram-rule { background: var(--blue-bg); border-left: 3px solid #4A80C8; border-radius: 0 var(--r-sm) var(--r-sm) 0; padding: .6rem .9rem; margin-bottom: .75rem; font-family: 'DM Mono', monospace; font-size: 13px; color: var(--blue-txt); }
+.ex-header-new { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); padding: 0 12px; margin-bottom: 4px; }
+.ex-row-new { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; padding: 8px 12px; background: var(--cream); border-radius: var(--r-sm); border: 1px solid var(--border-new); margin-bottom: 5px; }
+.ex-t { font-weight: 500; color: var(--ink); }
+.ex-e { color: var(--ink-muted); font-style: italic; }
+.gram-tip { font-size: 13px; color: var(--amber-txt); background: var(--amber-bg); padding: .5rem .85rem; border-radius: var(--r-sm); border: 1px solid #F7D08A; margin-top: .75rem; }
+.plink { display: inline-flex; align-items: center; gap: 7px; margin-top: .85rem; padding: 8px 14px; background: none; border: 1px solid var(--border-med); border-radius: var(--r-sm); font-size: 13px; font-weight: 500; color: var(--ink-muted); text-decoration: none; transition: all .2s; }
+.plink:hover { color: var(--ink); border-color: var(--ink); background: var(--cream); }
+.plink.hi { background: var(--green-bg); color: var(--green-txt); border-color: #A3D8B8; font-weight: 600; }
+.plink.hi:hover { background: #D4EDDB; }
+
+/* VOCAB */
+.vocab-intro { font-size: 13px; color: var(--ink-muted); margin-bottom: 1rem; }
+.vocab-group { margin-bottom: 1.25rem; }
+.vocab-group-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-faint); margin-bottom: .5rem; }
+.vocab-table-new { width: 100%; border-collapse: collapse; }
+.vocab-table-new th { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--border-new); }
+.vocab-table-new td { padding: 8px 10px; font-size: 13px; border-bottom: 1px solid var(--border-new); vertical-align: top; }
+.vocab-table-new tr:last-child td { border-bottom: none; }
+.vocab-table-new tr:hover td { background: var(--cream); }
+.v-word { font-weight: 600; color: var(--ink); }
+.v-phon { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--ink-faint); }
+.v-trans { color: var(--ink-muted); }
+.v-note { font-size: 12px; color: var(--ink-faint); font-style: italic; }
+.vtag { padding: 2px 7px; border-radius: 10px; font-size: 10px; font-weight: 600; background: var(--amber-bg); color: var(--amber-txt); }
+.vtag.key { background: var(--green-bg); color: var(--green-txt); }
+.vocab-actions { display: flex; align-items: center; gap: 8px; margin-top: 1rem; flex-wrap: wrap; }
+
+/* REFERENCES */
+.ref-sec-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-faint); margin: 1.25rem 0 .6rem; text-align: left; }
+.ref-sec-title:first-child { margin-top: 0; }
+.ref-grid-new { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 9px; }
+.ref-card-new { background: var(--cream); border: 1px solid var(--border-new); border-radius: var(--r-sm); padding: .85rem 1rem; text-decoration: none; color: var(--ink); transition: all .2s; display: flex; flex-direction: column; gap: 3px; }
+.ref-card-new:hover { border-color: var(--border-med); background: var(--white); }
+.ref-icon-new { font-size: 18px; margin-bottom: 2px; }
+.ref-name-new { font-size: 13px; font-weight: 600; text-align: left; }
+.ref-desc-new { font-size: 12px; color: var(--ink-muted); line-height: 1.4; text-align: left; }
+
+/* HELP */
+.help-card-new { background: var(--white); border: 1px solid var(--border-new); border-radius: var(--r-new); padding: 1.4rem 1.75rem; margin-top: 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.help-card-new h3 { font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 0; text-align: left; }
+.help-card-new p { font-size: 13px; color: var(--ink-muted); margin-top: 3px; text-align: left; }
+.btn-wa-new { display: inline-flex; align-items: center; gap: 7px; padding: 10px 16px; background: #25D366; color: white; text-decoration: none; border-radius: var(--r-sm); font-size: 13px; font-weight: 600; white-space: nowrap; transition: background .2s; }
+.btn-wa-new:hover { background: #1EBD5A; }
+
+.empty { text-align: center; padding: 3rem 1rem; color: var(--ink-faint); }
+.empty p { font-size: 14px; margin-top: .5rem; }
+
+@media(max-width: 640px) {
+  .s-header { flex-direction: column; align-items: flex-start; }
+  .ex-row-new { grid-template-columns: 1fr; gap: 2px; }
+  .ex-header-new { display: none; }
+  .ref-grid-new { grid-template-columns: 1fr 1fr; }
 }
-.nav-logo { display: flex; align-items: center; gap: .6rem; }
-.nav-logo img { height: 44px; }
-.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
-.nav-links a {
-  font-weight: 700; font-size: .8rem;
-  padding: .35rem .65rem; border-radius: var(--radius-sm);
-  color: var(--ink-soft);
-  transition: background .18s, color .18s;
-}
-.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
-.nav-links a.active { background: var(--sage-mist); color: var(--sage-deep); box-shadow: inset 0 0 0 1px var(--border); }
-.nav-student {
-  font-size: .75rem !important;
-  color: var(--muted) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: var(--radius-sm) !important;
-}
-.nav-student:hover { background: var(--cream-dark) !important; color: var(--ink) !important; }
-.nav-wa {
-  background: var(--sage) !important;
-  color: #fff !important;
-  border-radius: 999px !important;
-  padding: .38rem .9rem !important;
-}
-.nav-wa:hover { background: var(--sage-dark) !important; color: #fff !important; }
-.nav-lang { display: flex; gap: .2rem; margin-left: .5rem; }
-.nav-lang a {
-  font-size: .73rem; font-weight: 800;
-  padding: .2rem .38rem; border-radius: 6px;
-  color: var(--muted);
-  transition: all .18s;
-  cursor: pointer;
-}
-.nav-lang a:hover { background: var(--sage-pale); color: var(--sage-dark); }
 
 @media (max-width: 560px) {
-  nav { padding: 0 1rem; }
-  .nav-links { gap: .2rem; }
-  .nav-links a { font-size: .72rem; padding: .28rem .45rem; }
-  .nav-links li:nth-child(1), .nav-links li:nth-child(2) { display: none; }
-  .nav-lang { display: none; }
+  .nav-links li:nth-child(1), .nav-links li:nth-child(2), .nav-links li:nth-child(3), .nav-links li:nth-child(5) { display: none; }
 }
-
-/* ── Header ── */
-.student-header {
-  background: linear-gradient(145deg, var(--sage-deep) 0%, var(--sage-dark) 50%, var(--sage) 100%);
-  color: #fff;
-  padding: 3rem 2rem 3.5rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.student-header::before {
-  content: '🎓';
-  position: absolute; right: 2rem; top: -1rem;
-  font-size: 10rem; opacity: .06; pointer-events: none;
-}
-.student-header::after {
-  content: '';
-  position: absolute; bottom: -2px; left: 0; right: 0;
-  height: 40px;
-  background: var(--cream);
-  clip-path: ellipse(52% 100% at 50% 100%);
-}
-.student-header-inner {
-  position: relative; max-width: 640px; margin: 0 auto;
-}
-.sh-locked-label {
-  display: inline-flex; align-items: center; gap: .35rem;
-  background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
-  border-radius: 999px; padding: .25rem .85rem;
-  font-size: .72rem; font-weight: 900; letter-spacing: .05em;
-  margin-bottom: 1rem;
-}
-.student-header h1 {
-  font-family: 'Lora', serif !important;
-  font-size: 2rem; font-weight: 700;
-  margin-bottom: .7rem;
-}
-.student-header p {
-  font-size: .95rem; opacity: .9; line-height: 1.7;
-}
-
-/* ── Content Area ── */
-#days-section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-
-.setup-card {
-  background: #fff !important;
-  border-radius: var(--radius) !important;
-  padding: 2.5rem !important;
-  box-shadow: var(--shadow) !important;
-  border: 1px solid var(--border) !important;
-  text-align: center;
-}
-
-.setup-card h2 {
-  font-family: 'Lora', serif;
-  font-size: 1.6rem;
-  color: var(--sage-deep);
-  margin-bottom: 1.2rem;
-}
-
-.pill-input {
-  width: 100%;
-  padding: .75rem 1.2rem;
-  border-radius: var(--radius-sm);
-  border: 2px solid var(--border);
-  background: var(--sage-mist);
-  font-family: 'Nunito', sans-serif;
-  font-size: .95rem;
-  font-weight: 700;
-  color: var(--ink);
-  outline: none;
-  transition: all .2s;
-}
-.pill-input:focus { border-color: var(--sage); background: #fff; box-shadow: 0 0 0 4px rgba(107,143,113,.1); }
-
-.cta-button.primary {
-  background: var(--sage) !important;
-  color: #fff !important;
-  font-family: 'Nunito', sans-serif !important;
-  font-weight: 900 !important;
-  padding: .8rem 2rem !important;
-  border-radius: 999px !important;
-  border: none !important;
-  cursor: pointer !important;
-  box-shadow: 0 4px 16px rgba(107,143,113,.3) !important;
-  transition: transform .18s, box-shadow .18s !important;
-}
-.cta-button.primary:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 20px rgba(107,143,113,.4) !important;
-}
-
-.toggle-chip span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: .8rem 1.5rem;
-  background: var(--sage-pale);
-  border: 2px solid transparent;
-  border-radius: var(--radius-sm);
-  font-weight: 800;
-  color: var(--sage-dark);
-  cursor: pointer;
-  transition: all .2s;
-}
-.toggle-chip input:checked + span {
-  background: var(--sage);
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(107,143,113,.25);
-}
-
-/* ── Footer ───────────────────────────────────────────── */
-footer {
-  background: var(--sage-deep); color: rgba(255,255,255,.78);
-  padding: 2.5rem 2rem; font-size: .82rem;
-  margin-top: 4rem;
-}
-.footer-inner { max-width: 1040px; margin: 0 auto; }
-.footer-top {
-  display: flex; justify-content: space-between; align-items: flex-start;
-  flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,.1);
-}
-.footer-brand .fb-logo { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
-.footer-brand .fb-logo img { height: 36px; }
-.footer-brand .fb-name { font-family: 'Lora', serif; font-weight: 700; font-size: 1rem; color: #fff; }
-.footer-brand p { font-size: .8rem; opacity: .75; max-width: 240px; line-height: 1.6; text-align: left;}
-.footer-links-col h5 { font-size: .73rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: .6rem; text-align: left;}
-.footer-links-col a { display: block; font-size: .8rem; color: rgba(255,255,255,.78); margin-bottom: .3rem; font-weight: 700; transition: color .18s; text-align: left;}
-.footer-links-col a:hover { color: #fff; }
-.footer-bottom { text-align: center; font-size: .75rem; opacity: .5; }
-</style>
+    </style>
 </head>
 <body class="student-page">
     <nav id="main-nav">
@@ -272,342 +242,382 @@ footer {
       </div>
     </nav>
 
-    <header class="student-header">
-      <div class="student-header-inner">
-        <div class="sh-locked-label">🔐 Student Area Only</div>
-        <h1 data-translate-key="student_area_title">Student Area 🎓</h1>
-        <p data-translate-key="unlock_desc">Access your personalized language learning curriculum. Enter your student code to continue.</p>
+    <main id="main-content">
+      <div id="gate">
+        <div class="gate-card">
+          <span class="gate-lock">🔐</span>
+          <h1 data-translate-key="student_area_title">My Lessons</h1>
+          <p data-translate-key="unlock_desc">Enter your student code to access your curriculum, grammar references, vocabulary lists and practice links.</p>
+          <div class="code-group">
+            <input id="ci" type="text" placeholder="COSY-FR-B1-GEN" maxlength="24" autocomplete="off" spellcheck="false">
+            <div class="err-msg" id="em">❌ Code not found. <a href="https://wa.me/330766784195" target="_blank">Contact us →</a></div>
+            <button class="btn-primary-new" onclick="unlock()" data-translate-key="unlock_btn">Unlock my lessons 🔓</button>
+          </div>
+          <div class="gate-foot">No code yet? <a href="https://wa.me/330766784195" target="_blank">Message us on WhatsApp →</a></div>
+        </div>
       </div>
-    </header>
 
-    <main>
-        <section id="days-section">
-            <div id="unlock-gate" class="setup-card">
-                <h2 data-translate-key="student_area_title" style="display: none;">Student Area 🎓</h2>
-                <p data-translate-key="unlock_desc">Please enter your unique student code to access the structured curriculum.</p>
-                <div style="display: flex; gap: 1rem; margin-top: 1.5rem; justify-content: center; flex-wrap: wrap;">
-                    <input type="text" id="student-code" class="pill-input" placeholder="Enter code here..." style="max-width: 250px;">
-                    <button id="unlock-btn" class="cta-button primary" data-translate-key="unlock_btn">Unlock 🔓</button>
-                </div>
-                <p id="unlock-error" style="color: var(--accent-color); margin-top: 1rem; display: none;" data-translate-key="invalid_code">Invalid code. Please try again or contact us.</p>
-            </div>
+      <div id="area">
+        <div class="s-header">
+          <div><h2 id="wh">Welcome back 👋</h2><p id="wp">Your personalised curriculum</p></div>
+          <div class="badges" id="bdg"></div>
+          <button class="btn-out" onclick="logout()">Log out</button>
+        </div>
+        <div class="prog-box">
+          <div class="prog-row"><span>Your progress</span><span id="pc" style="font-size:13px;color:var(--ink-faint)">0 / 0</span></div>
+          <div class="prog-track-new"><div class="prog-fill-new" id="pf" style="width:0%"></div></div>
+          <div class="dots" id="dt"></div>
+        </div>
+        <div class="day-jump">
+          <label for="ds">Jump to day:</label>
+          <select id="ds" onchange="jumpTo(this.value)"></select>
+        </div>
 
-            <div id="curriculum-content" style="display: none;" class="setup-card">
-                <h3 data-translate-key="curriculum_title" style="font-family: 'Lora', serif; font-size: 1.6rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Days Curriculum 🗓️</h3>
-                <p data-translate-key="curriculum_desc" style="color: var(--muted); margin-bottom: 2rem;">Choose a day to practice the structured lesson content.</p>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <h2 class="sec-title" id="ct" style="margin-bottom: 0;">Curriculum</h2>
+          <div style="display: flex; gap: 0.5rem;">
+             <button id="open-grammar-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📐 Grammar Ref</button>
+             <button id="open-vocab-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📖 Vocab Ref</button>
+          </div>
+        </div>
 
-                <div id="lesson-selector" class="setup-group" style="text-align: left;">
-                    <label data-translate-key="select_day_label" style="font-family: 'Lora', serif; font-weight: 700; color: var(--sage-dark); margin-bottom: 1rem; display: block;">Select Day 📚</label>
-                    <div class="chips-group wrap" id="day-chips" style="display: flex; gap: 0.8rem; flex-wrap: wrap; justify-content: center;">
-                        <label class="toggle-chip"><input type="radio" name="day-selection" value="1" checked><span data-translate-key="day_1">Day 1</span></label>
-                        <label class="toggle-chip"><input type="radio" name="day-selection" value="2"><span data-translate-key="day_2">Day 2</span></label>
-                        <label class="toggle-chip"><input type="radio" name="day-selection" value="3"><span data-translate-key="day_3">Day 3</span></label>
-                        <label class="toggle-chip"><input type="radio" name="day-selection" value="4"><span data-translate-key="day_4">Day 4</span></label>
-                    </div>
-                    <button id="start-day-btn" class="cta-button primary" style="margin-top: 2rem; width: 100%;" data-translate-key="start_day_practice">Start Lesson 🚀</button>
-                </div>
+        <div id="ls"></div>
 
-                <div id="en-a1-roadmap" style="display: none; margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
-                    <h3 data-translate-key="a1_roadmap_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">A1 English Roadmap 🗺️</h3>
-                    <p data-translate-key="a1_roadmap_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the full English A1 beginner curriculum and learning path.</p>
-                    <button id="open-a1-roadmap-btn" class="cta-button primary" style="width: 100%;" data-translate-key="a1_roadmap_btn">Open A1 Roadmap →</button>
-                </div>
-
-                <div id="en-vocab-reference" style="display: none; margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
-                    <h3 data-translate-key="vocab_ref_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Vocabulary Reference 📖</h3>
-                    <p data-translate-key="vocab_ref_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the comprehensive vocabulary reference and practice tools.</p>
-                    <button id="open-vocab-ref-btn" class="cta-button primary" style="width: 100%;" data-translate-key="vocab_ref_btn">Open Vocabulary Reference →</button>
-                </div>
-
-                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px dashed var(--border);">
-                    <h3 data-translate-key="grammar_roadmap_title" style="font-family: 'Lora', serif; font-size: 1.4rem; color: var(--sage-deep); margin-bottom: 0.8rem;">Grammar Reference 📐</h3>
-                    <p data-translate-key="grammar_roadmap_desc" style="color: var(--muted); margin-bottom: 1.5rem;">Access the complete grammar roadmap and reference cards.</p>
-                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                        <button id="open-grammar-btn" class="cta-button secondary" style="flex: 1; min-width: 200px;" data-translate-key="grammar_roadmap_btn">Open Grammar Roadmap →</button>
-                        <button id="open-grammar-ref-btn" class="cta-button primary" style="flex: 1; min-width: 200px;">Interactive Grammar Reference →</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="help-card-new">
+          <div><h3>Have a question about a lesson?</h3><p>Message your teacher — we reply fast.</p></div>
+          <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20a%20question%20about%20my%20lesson." target="_blank" class="btn-wa-new">💬 WhatsApp</a>
+        </div>
+      </div>
     </main>
 
     <script src="js/data/theme_config.js"></script>
-    <script src="js/data/numbers.js"></script>
-    <script src="js/data/emojis.js"></script>
-    <script src="js/data/armenian/hy/alphabets.js"></script>
-    <script src="js/data/celtic/br/alphabets.js"></script>
-    <script src="js/data/germanic/de/alphabets.js"></script>
-    <script src="js/data/germanic/en/alphabets.js"></script>
-    <script src="js/data/hellenic/el/alphabets.js"></script>
-    <script src="js/data/kartvelian/ka/alphabets.js"></script>
-    <script src="js/data/romance/es/alphabets.js"></script>
-    <script src="js/data/romance/fr/alphabets.js"></script>
-    <script src="js/data/romance/it/alphabets.js"></script>
-    <script src="js/data/romance/pt/alphabets.js"></script>
-    <script src="js/data/slavic/ru/alphabets.js"></script>
-    <script src="js/data/turkic/ba/alphabets.js"></script>
-    <script src="js/data/turkic/tt/alphabets.js"></script>
-    <script src="js/data/germanic/en/starter/grammar.js"></script>
-    <script src="js/data/hellenic/el/starter/grammar.js"></script>
-    <script src="js/data/romance/fr/starter/grammar.js"></script>
-    <script src="js/data/romance/it/starter/grammar.js"></script>
-    <script src="js/data/slavic/ru/starter/grammar.js"></script>
-    <script src="js/data/germanic/en/advanced/adjectives.js"></script>
-    <script src="js/data/germanic/en/advanced/verbs.js"></script>
-    <script src="js/data/germanic/en/advanced/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/adjectives.js"></script>
-    <script src="js/data/germanic/en/elementary/vocabulary.js"></script>
-    <script src="js/data/germanic/en/intermediate/adjectives.js"></script>
-    <script src="js/data/germanic/en/intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/proficiency/adjectives.js"></script>
-    <script src="js/data/germanic/en/proficiency/verbs.js"></script>
-    <script src="js/data/germanic/en/proficiency/vocabulary.js"></script>
-    <script src="js/data/germanic/en/starter/adjectives.js"></script>
-    <script src="js/data/germanic/en/starter/nationalities.js"></script>
-    <script src="js/data/germanic/en/starter/vocabulary.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/adjectives.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/advanced/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/elementary/adjectives.js"></script>
-    <script src="js/data/hellenic/el/elementary/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/intermediate/adjectives.js"></script>
-    <script src="js/data/hellenic/el/intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/proficiency/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/starter/adjectives.js"></script>
-    <script src="js/data/hellenic/el/starter/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/adjectives.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/advanced/vocabulary.js"></script>
-    <script src="js/data/romance/fr/elementary/adjectives.js"></script>
-    <script src="js/data/romance/fr/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/fr/intermediate/adjectives.js"></script>
-    <script src="js/data/romance/fr/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/fr/starter/adjectives.js"></script>
-    <script src="js/data/romance/fr/starter/vocabulary.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/adjectives.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/elementary/adjectives.js"></script>
-    <script src="js/data/romance/it/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/it/intermediate/adjectives.js"></script>
-    <script src="js/data/romance/it/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/it/starter/adjectives.js"></script>
-    <script src="js/data/romance/it/starter/vocabulary.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/adjectives.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/elementary/adjectives.js"></script>
-    <script src="js/data/slavic/ru/elementary/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/intermediate/adjectives.js"></script>
-    <script src="js/data/slavic/ru/intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/proficiency/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/starter/adjectives.js"></script>
-    <script src="js/data/slavic/ru/starter/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/adjectives.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/verbs.js"></script>
-    <script src="js/data/germanic/en/intermediate/verbs.js"></script>
-    <script src="js/data/germanic/en/starter/verbs.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/verbs.js"></script>
-    <script src="js/data/hellenic/el/elementary/verbs.js"></script>
-    <script src="js/data/hellenic/el/intermediate/verbs.js"></script>
-    <script src="js/data/hellenic/el/starter/verbs.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/verbs.js"></script>
-    <script src="js/data/romance/fr/advanced/verbs.js"></script>
-    <script src="js/data/romance/fr/elementary/verbs.js"></script>
-    <script src="js/data/romance/fr/intermediate/verbs.js"></script>
-    <script src="js/data/romance/fr/proficiency/verbs.js"></script>
-    <script src="js/data/romance/fr/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/advanced/verbs.js"></script>
-    <script src="js/data/romance/it/elementary/verbs.js"></script>
-    <script src="js/data/romance/it/intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/proficiency/verbs.js"></script>
-    <script src="js/data/romance/it/starter/verbs.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/advanced/verbs.js"></script>
-    <script src="js/data/slavic/ru/elementary/verbs.js"></script>
-    <script src="js/data/slavic/ru/intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/proficiency/verbs.js"></script>
-    <script src="js/data/slavic/ru/starter/verbs.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/verbs.js"></script>
-    <script src="js/data/armenian/hy/elementary/locations.js"></script>
-    <script src="js/data/armenian/hy/intermediate/locations.js"></script>
-    <script src="js/data/armenian/hy/starter/locations.js"></script>
-    <script src="js/data/celtic/br/elementary/locations.js"></script>
-    <script src="js/data/celtic/br/intermediate/locations.js"></script>
-    <script src="js/data/celtic/br/starter/locations.js"></script>
-    <script src="js/data/germanic/de/elementary/locations.js"></script>
-    <script src="js/data/germanic/de/intermediate/locations.js"></script>
-    <script src="js/data/germanic/de/starter/locations.js"></script>
-    <script src="js/data/germanic/en/elementary/locations.js"></script>
-    <script src="js/data/germanic/en/intermediate/locations.js"></script>
-    <script src="js/data/germanic/en/starter/locations.js"></script>
-    <script src="js/data/hellenic/el/elementary/locations.js"></script>
-    <script src="js/data/hellenic/el/intermediate/locations.js"></script>
-    <script src="js/data/hellenic/el/starter/locations.js"></script>
-    <script src="js/data/kartvelian/ka/elementary/locations.js"></script>
-    <script src="js/data/kartvelian/ka/intermediate/locations.js"></script>
-    <script src="js/data/kartvelian/ka/starter/locations.js"></script>
-    <script src="js/data/romance/es/elementary/locations.js"></script>
-    <script src="js/data/romance/es/intermediate/locations.js"></script>
-    <script src="js/data/romance/es/starter/locations.js"></script>
-    <script src="js/data/romance/fr/elementary/locations.js"></script>
-    <script src="js/data/romance/fr/intermediate/locations.js"></script>
-    <script src="js/data/romance/fr/starter/locations.js"></script>
-    <script src="js/data/romance/it/elementary/locations.js"></script>
-    <script src="js/data/romance/it/intermediate/locations.js"></script>
-    <script src="js/data/romance/it/starter/locations.js"></script>
-    <script src="js/data/romance/pt/elementary/locations.js"></script>
-    <script src="js/data/romance/pt/intermediate/locations.js"></script>
-    <script src="js/data/romance/pt/starter/locations.js"></script>
-    <script src="js/data/slavic/ru/elementary/locations.js"></script>
-    <script src="js/data/slavic/ru/intermediate/locations.js"></script>
-    <script src="js/data/slavic/ru/starter/locations.js"></script>
-    <script src="js/data/turkic/ba/elementary/locations.js"></script>
-    <script src="js/data/turkic/ba/intermediate/locations.js"></script>
-    <script src="js/data/turkic/ba/starter/locations.js"></script>
-    <script src="js/data/turkic/tt/elementary/locations.js"></script>
-    <script src="js/data/turkic/tt/intermediate/locations.js"></script>
-    <script src="js/data/turkic/tt/starter/locations.js"></script>
-    <script src="js/data/germanic/en/advanced/people.js"></script>
-    <script src="js/data/germanic/en/elementary/people.js"></script>
-    <script src="js/data/germanic/en/intermediate/people.js"></script>
-    <script src="js/data/germanic/en/proficiency/people.js"></script>
-    <script src="js/data/germanic/en/starter/people.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/advanced/people.js"></script>
-    <script src="js/data/hellenic/el/elementary/people.js"></script>
-    <script src="js/data/hellenic/el/intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/starter/people.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/fr/advanced/people.js"></script>
-    <script src="js/data/romance/fr/elementary/people.js"></script>
-    <script src="js/data/romance/fr/intermediate/people.js"></script>
-    <script src="js/data/romance/fr/proficiency/people.js"></script>
-    <script src="js/data/romance/fr/starter/people.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/it/advanced/people.js"></script>
-    <script src="js/data/romance/it/elementary/people.js"></script>
-    <script src="js/data/romance/it/intermediate/people.js"></script>
-    <script src="js/data/romance/it/starter/people.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/advanced/people.js"></script>
-    <script src="js/data/slavic/ru/elementary/people.js"></script>
-    <script src="js/data/slavic/ru/intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/starter/people.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/people.js"></script>
-    <script src="js/data/lessons/day1.js"></script>
-    <script src="js/data/lessons/day2.js"></script>
-    <script src="js/data/lessons/day3.js"></script>
-    <script src="js/data/lessons/day4.js"></script>
+    <script src="js/data/curriculum_data.js"></script>
+    <!-- Include translations needed for some UI elements if relevant, though logic now uses curriculum_data.js -->
     <script src="js/data/germanic/en/translations.js"></script>
     <script src="js/data/romance/fr/translations.js"></script>
     <script src="js/data/romance/it/translations.js"></script>
     <script src="js/data/slavic/ru/translations.js"></script>
     <script src="js/data/hellenic/el/translations.js"></script>
-    <script src="js/data/romance/es/translations.js"></script>
-    <script src="js/data/germanic/de/translations.js"></script>
-    <script src="js/data/romance/pt/translations.js"></script>
-    <script src="js/data/armenian/hy/translations.js"></script>
-    <script src="js/data/kartvelian/ka/translations.js"></script>
-    <script src="js/data/turkic/tt/translations.js"></script>
-    <script src="js/data/turkic/ba/translations.js"></script>
-    <script src="js/data/celtic/br/translations.js"></script>
-    <script>
-        function checkLanguageRoadmap(lang) {
-            lang = lang || localStorage.getItem('language') || 'en';
-            const roadmapDiv = document.getElementById('en-a1-roadmap');
-            const vocabDiv = document.getElementById('en-vocab-reference');
-            if (lang === 'en') {
-                if (roadmapDiv) roadmapDiv.style.display = 'block';
-                if (vocabDiv) vocabDiv.style.display = 'block';
-            } else {
-                if (roadmapDiv) roadmapDiv.style.display = 'none';
-                if (vocabDiv) vocabDiv.style.display = 'none';
-            }
-        }
-        window.checkLanguageRoadmap = checkLanguageRoadmap;
-    </script>
     <script src="js/translate.js"></script>
     <script src="js/mobile.js"></script>
-
     <script src="js/games/utils/shared.js"></script>
+
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const unlockBtn = document.getElementById('unlock-btn');
-            const codeInput = document.getElementById('student-code');
-            const errorMsg = document.getElementById('unlock-error');
-            const gate = document.getElementById('unlock-gate');
-            const content = document.getElementById('curriculum-content');
+/**
+ * STUDENT AREA LOGIC
+ */
+let S = null, done = {};
 
-            // The code is hidden here in a simple way as requested
-            const SECRET_CODE = "COSYSTUDENT2025";
+function unlock() {
+  const raw = document.getElementById('ci').value.trim().toUpperCase();
+  const inp = document.getElementById('ci'), err = document.getElementById('em');
+  const course = COURSES[raw];
 
-            unlockBtn.addEventListener('click', () => {
-                if (codeInput.value.trim().toUpperCase() === SECRET_CODE) {
-                    gate.style.display = 'none';
-                    content.style.display = 'block';
-                    localStorage.setItem('student_unlocked', 'true');
-                    checkLanguageRoadmap();
-                } else {
-                    errorMsg.style.display = 'block';
-                }
-            });
+  if (!course) {
+    inp.classList.add('err');
+    err.style.display = 'block';
+    return;
+  }
 
-            if (localStorage.getItem('student_unlocked') === 'true') {
-                gate.style.display = 'none';
-                content.style.display = 'block';
-                checkLanguageRoadmap();
-            }
+  inp.classList.remove('err');
+  err.style.display = 'none';
 
-            document.getElementById('open-a1-roadmap-btn').addEventListener('click', () => {
-                window.location.href = 'curriculum/en/a1.html';
-            });
+  S = { ...course, code: raw, name: "Student" }; // Generic student name for shared codes
+  localStorage.setItem('student_unlocked', 'true');
+  localStorage.setItem('student_course_code', raw);
 
-            document.getElementById('open-vocab-ref-btn').addEventListener('click', () => {
-                window.location.href = 'vocabulary/en.html';
-            });
+  const sv = localStorage.getItem('cosy_p_' + raw);
+  done = sv ? JSON.parse(sv) : {};
 
-            document.getElementById('start-day-btn').addEventListener('click', () => {
-                const day = document.querySelector('input[name="day-selection"]:checked').value;
-                const lang = localStorage.getItem('language') || 'en';
-                // Redirect to lesson page with params
-                window.location.href = `lesson.html?lang=${lang}&lesson=${day}`;
-            });
+  showArea();
+}
 
-            document.getElementById('open-grammar-btn').addEventListener('click', () => {
-                const lang = localStorage.getItem('language') || 'en';
-                // Try to go to language specific roadmap if it exists, otherwise landing page
-                const roadmapMap = {
-                    'en': 'grammar/en.html',
-                    'fr': 'grammar/fr.html',
-                    'it': 'grammar/it.html',
-                    'ru': 'grammar/ru.html',
-                    'el': 'grammar/el.html',
-                    'es': 'grammar/es.html',
-                    'de': 'grammar/de.html',
-                    'pt': 'grammar/pt.html'
-                };
-                if (roadmapMap[lang]) {
-                    window.location.href = roadmapMap[lang];
-                } else {
-                    window.location.href = `grammar.html?lang=${lang}`;
-                }
-            });
+function logout() {
+  S = null;
+  done = {};
+  localStorage.removeItem('student_unlocked');
+  localStorage.removeItem('student_course_code');
+  document.getElementById('area').style.display = 'none';
+  document.getElementById('gate').style.display = 'flex';
+  document.getElementById('ci').value = '';
+}
 
-            document.getElementById('open-grammar-ref-btn').addEventListener('click', () => {
-                window.location.href = 'grammar-reference.html';
-            });
-        });
+function showArea() {
+  document.getElementById('gate').style.display = 'none';
+  document.getElementById('area').style.display = 'block';
+
+  const lm = LANGS[S.lang] || { label: S.lang, flag: '' };
+  const tm = TYPES[S.type] || { label: S.type, icon: '' };
+
+  document.getElementById('wh').textContent = `Welcome back 👋`;
+  document.getElementById('wp').textContent = 'Your personalised curriculum ↓';
+  document.getElementById('bdg').innerHTML = `
+    <span class="badge b-lang">${lm.flag} ${lm.label}</span>
+    <span class="badge b-level">${LEVELS[S.level] || S.level}</span>
+    <span class="badge b-course">${tm.icon} ${tm.label}</span>
+  `;
+
+  renderAll();
+}
+
+function getLessons() {
+  return ((CURRICULUM[S.type] || {})[S.level]) || [];
+}
+
+function renderAll() {
+  const lessons = getLessons();
+  const doneN = Object.values(done).filter(Boolean).length;
+  const total = lessons.length;
+
+  document.getElementById('pc').textContent = `${doneN} / ${total} completed`;
+  document.getElementById('pf').style.width = total ? Math.round(doneN / total * 100) + '%' : '0%';
+
+  // Progress dots
+  const dtEl = document.getElementById('dt');
+  dtEl.innerHTML = '';
+  lessons.forEach((_, i) => {
+    const d = document.createElement('div');
+    const isDone = !!done[i];
+    // Find first not done
+    const nextToFix = lessons.findIndex((_, idx) => !done[idx]);
+    const isCurrent = (nextToFix === -1 && i === total - 1) || (i === nextToFix);
+
+    d.className = 'dot ' + (isDone ? 'dot-done' : isCurrent ? 'dot-current' : 'dot-locked');
+    d.textContent = i + 1;
+    d.title = lessons[i].title;
+    d.onclick = () => jumpTo(i);
+    dtEl.appendChild(d);
+  });
+
+  // Jump select
+  const sel = document.getElementById('ds');
+  sel.innerHTML = lessons.map((l, i) => `<option value="${i}">Day ${i + 1} — ${l.title}</option>`).join('');
+
+  const lm = LANGS[S.lang] || { flag: '', label: S.lang };
+  const tm = TYPES[S.type] || { label: S.type };
+  document.getElementById('ct').textContent = `${lm.flag} ${lm.label} · ${tm.label}`;
+
+  const c = document.getElementById('ls');
+  if (!lessons.length) {
+    c.innerHTML = '<div class="empty"><p style="font-size:32px">📚</p><p>No curriculum found. Please contact your teacher.</p></div>';
+    return;
+  }
+
+  // Determine current day for card styling
+  const nextToFix = lessons.findIndex((_, idx) => !done[idx]);
+  const curIdx = nextToFix === -1 ? total : nextToFix;
+
+  c.innerHTML = lessons.map((l, i) => cardHTML(l, i, curIdx)).join('');
+}
+
+function pURL(lang, level, cat, theme) {
+  // Mapping CEFR level keys to the internal practice level keys
+  const levelMap = { "A1": "starter", "A2": "elementary", "B1": "intermediate", "B2": "upper-intermediate", "C1": "advanced", "C2": "proficiency" };
+  const pLevel = levelMap[level] || level.toLowerCase();
+  const pLang = lang.toLowerCase();
+  const pCat = cat.toLowerCase();
+  return `practice.html?lang=${pLang}&level=${pLevel}&cat=${pCat}&theme=${encodeURIComponent(theme || '')}`;
+}
+
+function cardHTML(l, i, curIdx) {
+  const isDone = !!done[i];
+  const isCur = i === curIdx;
+  const isLocked = i > curIdx && !isDone;
+  const stxt = isDone ? '✓ Done' : isCur ? '▶ Current' : '🔒 Upcoming';
+  const scls = isDone ? 's-done' : isCur ? 's-current' : 's-locked';
+  const chips = l.skills.map(sk => `<span class="chip chip-${sk}">${cap(sk)}</span>`).join('');
+
+  // Grammar tab
+  let gramHTML = '';
+  if (l.grammar && l.grammar.length) {
+    gramHTML = l.grammar.map(g => {
+      const exRows = g.examples.map(ex => `<div class="ex-row-new"><span class="ex-t">${ex.t}</span><span class="ex-e">${ex.e}</span></div>`).join('');
+      return `<div class="gram-point">
+        <div class="gram-heading">${g.point} <span class="gram-tag">${g.tag}</span></div>
+        <p class="gram-explain">${g.explain}</p>
+        ${g.rule ? `<div class="gram-rule">${g.rule}</div>` : ''}
+        <div class="ex-header-new"><span>Target language</span><span>English meaning</span></div>
+        ${exRows}
+        ${g.tip ? `<div class="gram-tip">${g.tip}</div>` : ''}
+        <a class="plink hi" href="${pURL(S.lang, S.level, 'Grammar', g.practiceTheme)}" target="_blank">💡 Practice this grammar point →</a>
+      </div>`;
+    }).join('');
+  } else {
+    gramHTML = '<p style="font-size:14px;color:var(--ink-faint)">No specific grammar focus — this is a pure speaking session!</p>';
+  }
+
+  // Vocab tab
+  let vocHTML = '';
+  if (l.vocab && l.vocab.length) {
+    vocHTML = `<p class="vocab-intro">Key words for Day ${i + 1}. Items marked KEY are ones your teacher expects you to use actively this lesson.</p>`;
+    vocHTML += l.vocab.map(vg => {
+      const rows = vg.words.map(w => `<tr>
+        <td><span class="v-word">${w.w}</span>${w.key ? ` <span class="vtag key">KEY</span>` : ''} ${w.note ? `<br><span class="v-note">${w.note}</span>` : ''}</td>
+        <td class="v-phon">${w.phon || '—'}</td>
+        <td class="v-trans">${w.trans}</td>
+      </tr>`).join('');
+      return `<div class="vocab-group">
+        <div class="vocab-group-title">${vg.group}</div>
+        <table class="vocab-table-new">
+          <thead><tr><th>Word / Phrase</th><th>Pronunciation</th><th>Meaning</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+    }).join('');
+    vocHTML += `<div class="vocab-actions">
+      <a class="plink hi" href="${pURL(S.lang, S.level, 'Vocab', l.practiceTheme)}" target="_blank">📖 Practice this vocabulary →</a>
+      <a class="plink" href="${pURL(S.lang, S.level, 'Speaking', l.practiceTheme)}" target="_blank">🗣️ Speaking practice on this theme →</a>
+    </div>`;
+  } else {
+    vocHTML = '<p style="font-size:14px;color:var(--ink-faint)">Vocabulary is embedded in the speaking tasks for this session.</p>';
+  }
+
+  // References tab
+  const refData = REFS[S.lang] || [];
+  let refHTML = refData.map(grp => `
+    <div class="ref-sec-title">${grp.group}</div>
+    <div class="ref-grid-new">${grp.items.map(r => `
+      <a class="ref-card-new" href="${r.url}" target="_blank">
+        <span class="ref-icon-new">${r.icon}</span>
+        <span class="ref-name-new">${r.name}</span>
+        <span class="ref-desc-new">${r.desc}</span>
+      </a>`).join('')}
+    </div>`).join('');
+  refHTML += `
+    <div class="ref-sec-title">Practice on COSYlanguages — pre-filtered for this lesson</div>
+    <div class="ref-grid-new">
+      <a class="ref-card-new" href="${pURL(S.lang, S.level, 'Vocab', l.practiceTheme)}" target="_blank">
+        <span class="ref-icon-new">📖</span>
+        <span class="ref-name-new">Vocabulary practice</span>
+        <span class="ref-desc-new">${LANGS[S.lang]?.label || S.lang} · ${LEVELS[S.level] || S.level} · ${l.practiceTheme || 'this theme'}</span>
+      </a>
+      <a class="ref-card-new" href="${pURL(S.lang, S.level, 'Grammar', l.practiceTheme)}" target="_blank">
+        <span class="ref-icon-new">🔤</span>
+        <span class="ref-name-new">Grammar practice</span>
+        <span class="ref-desc-new">${LANGS[S.lang]?.label || S.lang} · ${LEVELS[S.level] || S.level} · ${l.practiceTheme || 'this theme'}</span>
+      </a>
+      <a class="ref-card-new" href="${pURL(S.lang, S.level, 'Speaking', l.practiceTheme)}" target="_blank">
+        <span class="ref-icon-new">🗣️</span>
+        <span class="ref-name-new">Speaking practice</span>
+        <span class="ref-desc-new">${LANGS[S.lang]?.label || S.lang} · ${LEVELS[S.level] || S.level} · ${l.practiceTheme || 'this theme'}</span>
+      </a>
+    </div>`;
+
+  const lessonPageUrl = `lesson.html?lang=${S.lang.toLowerCase()}&lesson=${i + 1}`;
+  const startBtn = isLocked
+    ? `<button class="btn-start-new locked" onclick="alertLk()">🔒 Upcoming</button>`
+    : `<a class="btn-start-new" href="${lessonPageUrl}">${isDone ? 'Review ↩' : 'Start interactive lesson →'}</a>`;
+
+  const waBtn = `<a class="btn-mark-new" style="text-decoration:none; display:inline-flex; align-items:center;" href="https://wa.me/330766784195?text=Ready+for+Day+${i + 1}:+${encodeURIComponent(l.title)}+(${S.lang}+${S.level}+${S.type})" target="_blank">💬 WhatsApp</a>`;
+
+  return `<div class="lesson" id="d${i}">
+    <div class="l-head" onclick="toggle(${i})">
+      <div class="l-head-left">
+        <div class="l-day-num">Day ${i + 1} · ${l.duration}</div>
+        <div class="l-title">${l.title}</div>
+        <div class="l-sub">${l.subtitle}</div>
+      </div>
+      <div class="l-head-right">
+        <span class="spill ${scls}">${stxt}</span>
+        <span class="exp-icon">▼</span>
+      </div>
+    </div>
+    <div class="l-body">
+      <div class="tabs-bar">
+        <button class="tab-btn active" onclick="tab(this,${i},'ov')">📋 Overview</button>
+        <button class="tab-btn" onclick="tab(this,${i},'gr')">🔤 Grammar</button>
+        <button class="tab-btn" onclick="tab(this,${i},'vo')">📖 Vocabulary</button>
+        <button class="tab-btn" onclick="tab(this,${i},'rf')">🔗 References</button>
+      </div>
+      <div id="ov-${i}" class="tab-panel active">
+        <div class="chips">${chips}</div>
+        <p class="l-desc">${l.desc}</p>
+        <div class="l-actions">
+          ${startBtn}
+          ${waBtn}
+          <button class="btn-mark-new${isDone ? ' done' : ''}" id="mk-${i}" onclick="toggleDone(${i})">${isDone ? '✓ Completed' : '✓ Mark complete'}</button>
+          <span class="dur-label">${l.duration}</span>
+        </div>
+      </div>
+      <div id="gr-${i}" class="tab-panel">${gramHTML}</div>
+      <div id="vo-${i}" class="tab-panel">${vocHTML}</div>
+      <div id="rf-${i}" class="tab-panel">${refHTML}</div>
+    </div>
+  </div>`;
+}
+
+function toggle(i) {
+  document.getElementById('d' + i).classList.toggle('open');
+}
+
+function tab(btn, i, which) {
+  ['ov', 'gr', 'vo', 'rf'].forEach(id => {
+    const el = document.getElementById(id + '-' + i);
+    if (el) el.classList.remove('active');
+  });
+  btn.closest('.tabs-bar').querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  const target = document.getElementById(which + '-' + i);
+  if (target) target.classList.add('active');
+  btn.classList.add('active');
+}
+
+function toggleDone(i) {
+  done[i] = !done[i];
+  localStorage.setItem('cosy_p_' + S.code, JSON.stringify(done));
+  renderAll();
+  // Small delay to allow render before scroll
+  setTimeout(() => jumpTo(i), 60);
+}
+
+function jumpTo(i) {
+  const el = document.getElementById('d' + parseInt(i));
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function alertLk() {
+  alert('Complete your current day first, or contact your teacher to unlock the next lesson.');
+}
+
+function cap(s) {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const ci = document.getElementById('ci');
+  if (ci) {
+    ci.addEventListener('keydown', e => {
+      if (e.key === 'Enter') unlock();
+      ci.classList.remove('err');
+      document.getElementById('em').style.display = 'none';
+    });
+  }
+
+  // Check for auto-unlock
+  const savedCode = localStorage.getItem('student_course_code');
+  if (localStorage.getItem('student_unlocked') === 'true' && savedCode && COURSES[savedCode]) {
+    S = { ...COURSES[savedCode], code: savedCode, name: "Student" };
+    const sv = localStorage.getItem('cosy_p_' + savedCode);
+    done = sv ? JSON.parse(sv) : {};
+    showArea();
+  }
+
+  // Old buttons integration
+  const vocabBtn = document.getElementById('open-vocab-ref-btn');
+  if (vocabBtn) {
+    vocabBtn.onclick = () => {
+      const lang = S ? S.lang.toLowerCase() : 'en';
+      window.location.href = `vocabulary/${lang}.html`;
+    };
+  }
+
+  const gramRefBtn = document.getElementById('open-grammar-ref-btn');
+  if (gramRefBtn) {
+    gramRefBtn.onclick = () => {
+      window.location.href = 'grammar-reference.html';
+    };
+  }
+});
     </script>
-
-
-
-
-
-
-
     <script src="js/script.js"></script>
 </body>
 </html>
