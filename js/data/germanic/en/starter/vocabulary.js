@@ -9,7 +9,7 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "doctors",
-        "transcription": "ˈdɒktə",
+        "transcription": "🇬🇧 ˈdɒktə | 🇺🇸 ˈdɑːktər",
         "subtext": "see a doctor, family doctor",
         "definitions": [
             {
@@ -36,7 +36,7 @@
         "emoji": "🥤",
         "form": "noun",
         "plural": "sodas",
-        "transcription": "ˈsəʊdə",
+        "transcription": "🇬🇧 ˈsəʊdə | 🇺🇸 ˈsoʊdə",
         "subtext": "fizzy drink, soft drink",
         "definitions": [
             {
@@ -843,7 +843,7 @@
         "plural": "pants",
         "subtext": "related to items of clothing",
         "synonyms": [
-            "trousers"
+            "🇬🇧 trousers"
         ],
         "definitions": [
             {
@@ -1523,6 +1523,9 @@
         "form": "noun",
         "plural": "flats",
         "subtext": "apartment, live in a flat, small flat",
+        "synonyms": [
+            "🇺🇸 apartment"
+        ],
         "definitions": [
             {
                 "text": "A set of rooms on one floor of a building.",
@@ -2192,6 +2195,9 @@
         "form": "noun",
         "plural": "holidays",
         "subtext": "vacation, go on holiday",
+        "synonyms": [
+            "🇺🇸 vacation"
+        ],
         "definitions": [
             {
                 "text": "A period of time away from work when you travel or relax.",
@@ -3604,7 +3610,7 @@
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
-        "transcription": "ɒn",
+        "transcription": "🇬🇧 ɒn | 🇺🇸 ɑːn",
         "definitions": [
             {
                 "text": "Supported by or touching a surface.",
@@ -3724,7 +3730,7 @@
         "subtext": "related to conjunctions connectors",
         "opposite": "so",
         "emoji": "💡",
-        "transcription": "bɪˈkɒz"
+        "transcription": "🇬🇧 bɪˈkɒz | 🇺🇸 bɪˈkɑːz"
     },
     {
         "word": "time",
@@ -3977,7 +3983,7 @@
         "plural": "sweaters",
         "subtext": "related to items of clothing",
         "synonyms": [
-            "jumper"
+            "🇬🇧 jumper"
         ],
         "definitions": [
             {
@@ -4718,7 +4724,7 @@
         "form": "noun",
         "subtext": "related to seasons climate",
         "synonyms": [
-            "fall"
+            "🇺🇸 fall"
         ],
         "definitions": [
             {
@@ -6587,7 +6593,7 @@
         "subtext": "related to conjunctions connectors",
         "opposite": "because",
         "emoji": "💡",
-        "transcription": "səʊ"
+        "transcription": "🇬🇧 səʊ | 🇺🇸 soʊ"
     },
     {
         "word": "game",
@@ -8506,7 +8512,7 @@
         "plural": "erasers",
         "subtext": "related to school stationery",
         "synonyms": [
-            "rubber"
+            "🇬🇧 rubber"
         ],
         "definitions": [
             {
@@ -9211,7 +9217,7 @@
         "plural": "trucks",
         "subtext": "related to modes of transport",
         "synonyms": [
-            "lorry"
+            "🇬🇧 lorry"
         ],
         "definitions": [
             {
@@ -9893,7 +9899,7 @@
         "plural": "cookies",
         "subtext": "related to basic foods",
         "synonyms": [
-            "biscuit"
+            "🇬🇧 biscuit"
         ],
         "definitions": [
             {
@@ -9916,7 +9922,7 @@
         "plural": "biscuits",
         "subtext": "related to basic foods",
         "synonyms": [
-            "cookie"
+            "🇺🇸 cookie"
         ],
         "definitions": [
             {
@@ -10416,7 +10422,7 @@
         "plural": "trainers",
         "subtext": "related to items of clothing",
         "synonyms": [
-            "sneakers"
+            "🇺🇸 sneakers"
         ],
         "definitions": [
             {
@@ -10571,7 +10577,7 @@
         ],
         "countability": "uncountable",
         "opposite": null,
-        "transcription": "kləʊðz"
+        "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz"
     },
     {
         "word": "furniture",
@@ -11236,6 +11242,9 @@
         "form": "noun",
         "plural": "apartments",
         "subtext": "flat, studio apartment",
+        "synonyms": [
+            "🇬🇧 flat"
+        ],
         "definitions": [
             {
                 "text": "A set of rooms for living in, especially on one floor of a building.",
@@ -12001,6 +12010,7 @@
         "plural": "chips",
         "subtext": "related to basic foods",
         "synonyms": [
+            "🇺🇸 fries",
             "french fries"
         ],
         "definitions": [
@@ -12023,6 +12033,9 @@
         "form": "noun",
         "plural": "fries",
         "subtext": "french fries, chips",
+        "synonyms": [
+            "🇬🇧 chips"
+        ],
         "definitions": [
             {
                 "text": "Long thin pieces of potato cooked in oil.",
@@ -13355,7 +13368,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "ɡəʊ"
+        "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ"
     },
     {
         "word": "come",
@@ -14724,6 +14737,9 @@
         "opposite": "rise",
         "oppositeEmoji": "🌅",
         "form": "verb",
+        "synonyms": [
+            "🇬🇧 autumn"
+        ],
         "definitions": [
             {
                 "text": "To move down toward the ground.",
@@ -17617,7 +17633,7 @@
         "theme": "personal_identity_A1",
         "emoji": "🏠",
         "form": "verb",
-        "transcription": "bɪˈlɒŋ",
+        "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
         "definitions": [
             {
                 "text": "To be the property of someone.",
@@ -18481,7 +18497,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "ɡəʊ"
+        "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ"
     },
     {
         "word": "come",
@@ -19850,6 +19866,9 @@
         "opposite": "rise",
         "oppositeEmoji": "🌅",
         "form": "verb",
+        "synonyms": [
+            "🇬🇧 autumn"
+        ],
         "definitions": [
             {
                 "text": "To move down toward the ground.",
@@ -22743,7 +22762,7 @@
         "theme": "personal_identity_A1",
         "emoji": "🏠",
         "form": "verb",
-        "transcription": "bɪˈlɒŋ",
+        "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
         "definitions": [
             {
                 "text": "To be the property of someone.",
@@ -27857,7 +27876,7 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "impossible",
-        "transcription": "ˈpɒsəbl",
+        "transcription": "🇬🇧 ˈpɒsəbl | 🇺🇸 ˈpɑːsəbl",
         "definitions": [
             {
                 "text": "Able to be done or achieved.",
@@ -27899,7 +27918,7 @@
         "emoji": "💼",
         "form": "noun",
         "plural": "occupations",
-        "transcription": "ˌɒkjuˈpeɪʃn",
+        "transcription": "🇬🇧 ˌɒkjuˈpeɪʃn | 🇺🇸 ˌɑːkjuˈpeɪʃn",
         "definitions": [
             {
                 "text": "A person's job or profession.",
@@ -27981,7 +28000,7 @@
             }
         ],
         "emoji": "🔗",
-        "transcription": "ɒv",
+        "transcription": "🇬🇧 ɒv | 🇺🇸 ɑːv",
         "subtext": "of"
     },
     {
@@ -28585,7 +28604,7 @@
         "theme": "prepositions_grammar_A1",
         "emoji": "👉",
         "form": "determiner",
-        "transcription": "ðəʊz",
+        "transcription": "🇬🇧 ðəʊz | 🇺🇸 ðoʊz",
         "definitions": [
             {
                 "text": "The plural form of 'that'.",
@@ -28622,7 +28641,7 @@
         "theme": "contact_details_A1",
         "emoji": "📞",
         "form": "noun",
-        "transcription": "fəʊn ˈnʌmbə(r)",
+        "transcription": "🇬🇧 fəʊn ˈnʌmbə(r) | 🇺🇸 foʊn ˈnʌmbə(r)",
         "definitions": [
             {
                 "text": "The set of numbers that you use to call someone on the phone.",
@@ -28641,7 +28660,10 @@
         "emoji": "👗",
         "form": "noun",
         "plural": "wardrobes",
-        "transcription": "ˈwɔːdrəʊb",
+        "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
+        "synonyms": [
+            "🇺🇸 closet"
+        ],
         "definitions": [
             {
                 "text": "A large cupboard for hanging or storing clothes.",
@@ -28712,7 +28734,7 @@
         "theme": "frequency_adverbs_A1",
         "emoji": "📈",
         "form": "adverb",
-        "transcription": "ˈɒfn",
+        "transcription": "🇬🇧 ˈɒfn | 🇺🇸 ˈɑːfn",
         "definitions": [
             {
                 "text": "Many times; frequently.",

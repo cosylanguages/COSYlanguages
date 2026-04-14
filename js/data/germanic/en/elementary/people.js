@@ -318,7 +318,7 @@
         ],
         "subtext": "famous astronaut",
         "emoji": "👨‍🚀",
-        "transcription": "niːl ˈɑːrmstrɒŋ"
+        "transcription": "🇬🇧 niːl ˈɑːrmstrɒŋ | 🇺🇸 niːl ˈɑːrmstrɑːŋ"
     },
     {
         "word": "Oprah Winfrey",
@@ -398,7 +398,7 @@
         ],
         "subtext": "famous person",
         "emoji": "🍎",
-        "transcription": "stiːv dʒɒbz"
+        "transcription": "🇬🇧 stiːv dʒɒbz | 🇺🇸 stiːv dʒɑːbz"
     },
     {
         "word": "Vincent van Gogh",
@@ -414,7 +414,7 @@
         ],
         "subtext": "famous artist",
         "emoji": "🎨",
-        "transcription": "ˈvɪnsənt væn ɡɒx"
+        "transcription": "🇬🇧 ˈvɪnsənt væn ɡɒx | 🇺🇸 ˈvɪnsənt væn ɡɑːx"
     },
     {
         "word": "Walt Disney",

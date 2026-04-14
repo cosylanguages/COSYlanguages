@@ -915,7 +915,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "ɡəʊ",
+        "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ",
         "synonyms": [
             "move"
         ]
@@ -2376,6 +2376,9 @@
         "opposite": "rise",
         "oppositeEmoji": "🌅",
         "form": "verb",
+        "synonyms": [
+            "🇬🇧 autumn"
+        ],
         "definitions": [
             {
                 "text": "To move down toward the ground.",
@@ -5269,7 +5272,7 @@
         "theme": "personal_identity_A1",
         "emoji": "🏠",
         "form": "verb",
-        "transcription": "bɪˈlɒŋ",
+        "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
         "definitions": [
             {
                 "text": "To be the property of someone.",

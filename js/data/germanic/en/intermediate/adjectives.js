@@ -190,7 +190,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
-        "transcription": "ˈləʊnli",
+        "transcription": "🇬🇧 ˈləʊnli | 🇺🇸 ˈloʊnli",
         "definitions": [
             {
                 "text": "Feeling unhappy because you are without company.",
@@ -254,7 +254,7 @@
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
         "form": "adjective",
-        "transcription": "ʃɒkt",
+        "transcription": "🇬🇧 ʃɒkt | 🇺🇸 ʃɑːkt",
         "definitions": [
             {
                 "text": "Feeling very surprised and upset.",
@@ -382,7 +382,7 @@
         "level": "intermediate",
         "theme": "values_beliefs_B1",
         "form": "adjective",
-        "transcription": "ˈɒnɪst",
+        "transcription": "🇬🇧 ˈɒnɪst | 🇺🇸 ˈɑːnɪst",
         "definitions": [
             {
                 "text": "Telling the truth; not deceiving.",
@@ -430,7 +430,7 @@
         "level": "intermediate",
         "theme": "career_development_B1",
         "form": "adjective",
-        "transcription": "ˈməʊtɪveɪtɪd",
+        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd | 🇺🇸 ˈmoʊtɪveɪtɪd",
         "definitions": [
             {
                 "text": "Having a desire to do something.",
@@ -511,7 +511,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
-        "transcription": "əˈprəʊpriət",
+        "transcription": "🇬🇧 əˈprəʊpriət | 🇺🇸 əˈproʊpriət",
         "definitions": [
             {
                 "text": "Suitable or right for a particular situation.",
@@ -559,7 +559,7 @@
         "level": "intermediate",
         "theme": "equality_rights_B1",
         "form": "adjective",
-        "transcription": "feə",
+        "transcription": "🇬🇧 feə | 🇺🇸 feər",
         "definitions": [
             {
                 "text": "Treating people equally and without favouritism.",
@@ -607,7 +607,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
-        "transcription": "ˈpɒzətɪv",
+        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
         "definitions": [
             {
                 "text": "Feeling hopeful and confident; good.",
@@ -703,7 +703,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
-        "transcription": "ˈɡləʊbl",
+        "transcription": "🇬🇧 ˈɡləʊbl | 🇺🇸 ˈɡloʊbl",
         "definitions": [
             {
                 "text": "Relating to the whole world.",
@@ -719,7 +719,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
-        "transcription": "ˈləʊkl",
+        "transcription": "🇬🇧 ˈləʊkl | 🇺🇸 ˈloʊkl",
         "definitions": [
             {
                 "text": "Relating to a nearby area.",
@@ -767,7 +767,7 @@
         "level": "intermediate",
         "theme": "society_community_B1",
         "form": "adjective",
-        "transcription": "ˈsəʊʃl",
+        "transcription": "🇬🇧 ˈsəʊʃl | 🇺🇸 ˈsoʊʃl",
         "definitions": [
             {
                 "text": "Relating to society and its organisation.",
@@ -783,7 +783,7 @@
         "level": "intermediate",
         "theme": "finances_investment_B1",
         "form": "adjective",
-        "transcription": "ˌiːkəˈnɒmɪk",
+        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
         "definitions": [
             {
                 "text": "Relating to money, trade and industry.",
@@ -879,7 +879,7 @@
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
         "form": "adjective",
-        "transcription": "ˈkrɒnɪk",
+        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
         "definitions": [
             {
                 "text": "Lasting a long time; persistent.",
@@ -895,7 +895,7 @@
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
         "form": "adjective",
-        "transcription": "sɪˈvɪə",
+        "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
         "definitions": [
             {
                 "text": "Very serious or extreme.",
@@ -1007,7 +1007,7 @@
         "level": "intermediate",
         "theme": "work_life_balance_B1",
         "form": "adjective",
-        "transcription": "ˈəʊvətaɪm",
+        "transcription": "🇬🇧 ˈəʊvətaɪm | 🇺🇸 ˈoʊvətaɪm",
         "definitions": [
             {
                 "text": "Working beyond normal hours — used predicatively.",
@@ -1023,7 +1023,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
-        "transcription": "klɪə",
+        "transcription": "🇬🇧 klɪə | 🇺🇸 klɪər",
         "definitions": [
             {
                 "text": "Easy to understand; obvious.",
@@ -1039,7 +1039,7 @@
         "level": "intermediate",
         "theme": "workplace_communication_B1",
         "form": "adjective",
-        "transcription": "ˈkɒmplɪkeɪtɪd",
+        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
         "definitions": [
             {
                 "text": "Involving many parts; difficult to understand.",
@@ -1055,7 +1055,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
-        "transcription": "ˈlɒdʒɪkl",
+        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
         "definitions": [
             {
                 "text": "Following a sensible and reasonable way of thinking.",
@@ -1071,7 +1071,7 @@
         "level": "intermediate",
         "theme": "structured_argument_B1",
         "form": "adjective",
-        "transcription": "ˈɒbviəs",
+        "transcription": "🇬🇧 ˈɒbviəs | 🇺🇸 ˈɑːbviəs",
         "definitions": [
             {
                 "text": "Easy to see or understand; clear to everyone.",

@@ -71,7 +71,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🎯",
         "form": "noun",
-        "transcription": "ˌtiːliˈɒlədʒi",
+        "transcription": "🇬🇧 ˌtiːliˈɒlədʒi | 🇺🇸 ˌtiːliˈɑːlədʒi",
         "definitions": [
             {
                 "text": "The philosophical study of purpose or goal-directedness in nature or history.",
@@ -89,7 +89,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "👻",
         "form": "noun",
-        "transcription": "ɒnˈtɒlədʒi",
+        "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
         "definitions": [
             {
                 "text": "The branch of philosophy concerned with the nature of being or existence.",
@@ -181,7 +181,7 @@
         "theme": "epistemology_knowledge_C2",
         "emoji": "🧠",
         "form": "noun",
-        "transcription": "ˈməʊtɪveɪtɪd kɒɡˈnɪʃn",
+        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd kɒɡˈnɪʃn | 🇺🇸 ˈmoʊtɪveɪtɪd kɑːɡˈnɪʃn",
         "definitions": [
             {
                 "text": "The influence of desires and emotions on reasoning and belief formation.",
@@ -199,7 +199,7 @@
         "theme": "ethics_advanced_C2",
         "emoji": "🚀",
         "form": "noun",
-        "transcription": "prəʊˈækʃənəri ˈprɪnsəpl",
+        "transcription": "🇬🇧 prəʊˈækʃənəri ˈprɪnsəpl | 🇺🇸 proʊˈækʃənəri ˈprɪnsəpl",
         "definitions": [
             {
                 "text": "The view that the risks of inaction should be weighed against the risks of action when evaluating new technologies.",
@@ -253,7 +253,7 @@
         "theme": "political_theory_C2",
         "emoji": "👶",
         "form": "noun",
-        "transcription": "ˌprəʊˈneɪtəlɪzəm",
+        "transcription": "🇬🇧 ˌprəʊˈneɪtəlɪzəm | 🇺🇸 ˌproʊˈneɪtəlɪzəm",
         "definitions": [
             {
                 "text": "A policy or ideology that encourages people to have more children.",
@@ -289,7 +289,7 @@
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🔥",
         "form": "noun",
-        "transcription": "ˌʒwiːsɒ̃s",
+        "transcription": "🇬🇧 ˌʒwiːsɒ̃s | 🇺🇸 ˌʒwiːsɑː̃s",
         "definitions": [
             {
                 "text": "In psychoanalytic theory, an excessive or transgressive form of enjoyment.",
@@ -307,7 +307,7 @@
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "💀",
         "form": "noun",
-        "transcription": "ˈθænətɒs",
+        "transcription": "🇬🇧 ˈθænətɒs | 🇺🇸 ˈθænətɑːs",
         "definitions": [
             {
                 "text": "In Freudian theory, the death drive; an instinct towards self-destruction.",
@@ -325,7 +325,7 @@
         "theme": "aesthetics_criticism_C2",
         "emoji": "📉",
         "form": "noun",
-        "transcription": "ˈbeɪθɒs",
+        "transcription": "🇬🇧 ˈbeɪθɒs | 🇺🇸 ˈbeɪθɑːs",
         "definitions": [
             {
                 "text": "An abrupt, disappointing transition from the elevated to the trivial.",
@@ -343,7 +343,7 @@
         "theme": "rhetoric_persuasion_C2",
         "emoji": "🤫",
         "form": "noun",
-        "transcription": "əˈpɒfəsɪs",
+        "transcription": "🇬🇧 əˈpɒfəsɪs | 🇺🇸 əˈpɑːfəsɪs",
         "definitions": [
             {
                 "text": "A rhetorical device of drawing attention to something by claiming not to mention it.",
@@ -436,7 +436,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🧠",
         "form": "noun",
-        "transcription": "fəˌnɒmɪˈnɒlədʒi",
+        "transcription": "🇬🇧 fəˌnɒmɪˈnɒlədʒi | 🇺🇸 fəˌnɑːmɪˈnɑːlədʒi",
         "definitions": [
             {
                 "text": "The philosophical study of structures of experience and consciousness.",
@@ -636,7 +636,7 @@
         "theme": "political_theory_C2",
         "emoji": "🌍",
         "form": "noun",
-        "transcription": "ˌpəʊstkəˈləʊniəlɪzəm",
+        "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəlɪzəm | 🇺🇸 ˌpoʊstkəˈloʊniəlɪzəm",
         "definitions": [
             {
                 "text": "A body of theory examining the lasting cultural and political effects of colonialism.",
@@ -654,7 +654,7 @@
         "theme": "political_theory_C2",
         "emoji": "🧬",
         "form": "noun",
-        "transcription": "ˌbaɪəʊˈpɒlətɪks",
+        "transcription": "🇬🇧 ˌbaɪəʊˈpɒlətɪks | 🇺🇸 ˌbaɪoʊˈpɑːlətɪks",
         "definitions": [
             {
                 "text": "Foucault's concept of the exercise of political power over biological life.",
@@ -690,7 +690,7 @@
         "theme": "political_theory_C2",
         "emoji": "🏷️",
         "form": "noun",
-        "transcription": "kəˌmɒdɪfɪˈkeɪʃn",
+        "transcription": "🇬🇧 kəˌmɒdɪfɪˈkeɪʃn | 🇺🇸 kəˌmɑːdɪfɪˈkeɪʃn",
         "definitions": [
             {
                 "text": "The process of transforming something into a tradeable commodity.",
@@ -762,7 +762,7 @@
         "theme": "mortality_time_C2",
         "emoji": "📻",
         "form": "noun",
-        "transcription": "nɒˈstældʒə",
+        "transcription": "🇬🇧 nɒˈstældʒə | 🇺🇸 nɑːˈstældʒə",
         "definitions": [
             {
                 "text": "A sentimental longing for the past, sometimes idealised.",
@@ -798,7 +798,7 @@
         "theme": "civilisation_history_C2",
         "emoji": "🌋",
         "form": "noun",
-        "transcription": "ˌeskəˈtɒlədʒi",
+        "transcription": "🇬🇧 ˌeskəˈtɒlədʒi | 🇺🇸 ˌeskəˈtɑːlədʒi",
         "definitions": [
             {
                 "text": "Theological or philosophical doctrine about the ultimate fate of the world or humanity.",

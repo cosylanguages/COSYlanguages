@@ -78,7 +78,7 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "biˈɒnseɪ"
+        "transcription": "🇬🇧 biˈɒnseɪ | 🇺🇸 biˈɑːnseɪ"
     },
     {
         "word": "Elon Musk",
@@ -94,7 +94,7 @@
             }
         ],
         "subtext": "famous businessman",
-        "transcription": "ˈiːlɒn ˈmʌsk"
+        "transcription": "🇬🇧 ˈiːlɒn ˈmʌsk | 🇺🇸 ˈiːlɑːn ˈmʌsk"
     },
     {
         "word": "Queen Elizabeth II",

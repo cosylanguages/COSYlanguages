@@ -7,7 +7,7 @@
         "emoji": "👷",
         "form": "noun",
         "plural": "engineers",
-        "transcription": "ˌɛndʒɪˈnɪə",
+        "transcription": "🇬🇧 ˌɛndʒɪˈnɪə | 🇺🇸 ˌɛndʒɪˈnɪər",
         "countability": "countable",
         "definitions": [
             {
@@ -204,8 +204,12 @@
         "emoji": "🧶",
         "form": "noun",
         "plural": "sweaters",
-        "transcription": "ˈswɛtə",
+        "transcription": "🇬🇧 ˈswɛtə | 🇺🇸 ˈswɛtər",
         "countability": "countable"
+    ,
+        "synonyms": [
+            "🇬🇧 jumper"
+        ]
     },
     {
         "word": "scarf",
@@ -224,8 +228,12 @@
         "emoji": "👗",
         "form": "noun",
         "plural": "wardrobes",
-        "transcription": "ˈwɔːdrəʊb",
+        "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
         "countability": "countable"
+    ,
+        "synonyms": [
+            "🇺🇸 closet"
+        ]
     },
     {
         "word": "shelf",
@@ -244,7 +252,7 @@
         "emoji": "🪞",
         "form": "noun",
         "plural": "mirrors",
-        "transcription": "ˈmɪrə",
+        "transcription": "🇬🇧 ˈmɪrə | 🇺🇸 ˈmɪrər",
         "countability": "countable"
     },
     {
@@ -264,7 +272,7 @@
         "emoji": "💻",
         "form": "noun",
         "plural": "laptops",
-        "transcription": "ˈlæptɒp",
+        "transcription": "🇬🇧 ˈlæptɒp | 🇺🇸 ˈlæptɑːp",
         "countability": "countable"
     },
     {
@@ -295,7 +303,7 @@
         "emoji": "💻",
         "form": "noun",
         "plural": "software developers",
-        "transcription": "ˈsɒftweə dɪˈvɛləpə",
+        "transcription": "🇬🇧 ˈsɒftweə dɪˈvɛləpə | 🇺🇸 ˈsɑːftweə dɪˈvɛləpər",
         "countability": "countable",
         "definitions": [
             {
@@ -365,7 +373,7 @@
         "emoji": "🗳️",
         "form": "noun",
         "plural": "democracies",
-        "transcription": "dɪˈmɒkrəsi",
+        "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
         "countability": "countable"
     },
     {
@@ -375,7 +383,7 @@
         "emoji": "🌲",
         "form": "noun",
         "plural": "ecosystems",
-        "transcription": "ˈiːkəʊˌsɪstəm",
+        "transcription": "🇬🇧 ˈiːkəʊˌsɪstəm | 🇺🇸 ˈiːkoʊˌsɪstəm",
         "countability": "countable"
     },
     {
@@ -385,7 +393,7 @@
         "emoji": "👥",
         "form": "noun",
         "plural": "colleagues",
-        "transcription": "ˈkɒliːɡ",
+        "transcription": "🇬🇧 ˈkɒliːɡ | 🇺🇸 ˈkɑːliːɡ",
         "countability": "countable"
     },
     {
@@ -395,7 +403,7 @@
         "emoji": "💻",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "rɪˈməʊt wɜːk",
+        "transcription": "🇬🇧 rɪˈməʊt wɜːk | 🇺🇸 rɪˈmoʊt wɜːk",
         "countability": "uncountable",
         "definitions": [
             {
@@ -414,7 +422,7 @@
         "emoji": "🌡️",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "ˈɡləʊbl ˈwɔːmɪŋ",
+        "transcription": "🇬🇧 ˈɡləʊbl ˈwɔːmɪŋ | 🇺🇸 ˈɡloʊbl ˈwɔːmɪŋ",
         "countability": "uncountable"
     },
     {
@@ -424,7 +432,7 @@
         "emoji": "🚆",
         "form": "noun",
         "plural": "commuters",
-        "transcription": "kəˈmjuːtə",
+        "transcription": "🇬🇧 kəˈmjuːtə | 🇺🇸 kəˈmjuːtər",
         "countability": "countable",
         "definitions": [
             {
@@ -494,7 +502,7 @@
         "emoji": "📈",
         "form": "noun",
         "plural": "careers",
-        "transcription": "kəˈrɪə",
+        "transcription": "🇬🇧 kəˈrɪə | 🇺🇸 kəˈrɪər",
         "countability": "countable",
         "subtext": "career path, long-term career",
         "definitions": [
@@ -576,7 +584,7 @@
         "emoji": "📚",
         "form": "noun",
         "plural": "workloads",
-        "transcription": "ˈwɜːkləʊd",
+        "transcription": "🇬🇧 ˈwɜːkləʊd | 🇺🇸 ˈwɜːkloʊd",
         "countability": "countable",
         "subtext": "heavy workload, manage workload",
         "definitions": [
@@ -948,7 +956,7 @@
         "emoji": "⚔️",
         "form": "noun",
         "plural": "conflicts",
-        "transcription": "ˈkɒnflɪkt",
+        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
         "countability": "countable",
         "subtext": "resolve conflict, armed conflict",
         "opposite": "harmony",
@@ -970,7 +978,7 @@
         "emoji": "🤲",
         "form": "noun",
         "plural": "responsibilities",
-        "transcription": "rɪˌspɒnsəˈbɪlɪti",
+        "transcription": "🇬🇧 rɪˌspɒnsəˈbɪlɪti | 🇺🇸 rɪˌspɑːnsəˈbɪlɪti",
         "countability": "countable",
         "subtext": "take responsibility, a sense of responsibility",
         "definitions": [
@@ -1054,7 +1062,7 @@
         "emoji": "⚖️",
         "form": "noun",
         "plural": null,
-        "transcription": "iˈkwɒlɪti",
+        "transcription": "🇬🇧 iˈkwɒlɪti | 🇺🇸 iˈkwɑːlɪti",
         "countability": "uncountable",
         "subtext": "gender equality, racial equality",
         "opposite": "inequality",
@@ -1097,7 +1105,7 @@
         "emoji": "🚫⚖️",
         "form": "noun",
         "plural": "inequalities",
-        "transcription": "ˌɪnɪˈkwɒlɪti",
+        "transcription": "🇬🇧 ˌɪnɪˈkwɒlɪti | 🇺🇸 ˌɪnɪˈkwɑːlɪti",
         "countability": "uncountable",
         "subtext": "income inequality, social inequality",
         "opposite": "equality",
@@ -1119,7 +1127,7 @@
         "emoji": "🙋",
         "form": "noun",
         "plural": "volunteers",
-        "transcription": "ˌvɒlənˈtɪə",
+        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
         "countability": "countable",
         "subtext": "volunteer work, unpaid work",
         "definitions": [
@@ -1264,7 +1272,7 @@
         "theme": "discourse_markers_B1",
         "emoji": "🤔",
         "form": "adverb",
-        "transcription": "haʊˈɛvə",
+        "transcription": "🇬🇧 haʊˈɛvə | 🇺🇸 haʊˈɛvər",
         "subtext": "nevertheless, on the other hand",
         "definitions": [
             {
@@ -1282,7 +1290,7 @@
         "theme": "discourse_markers_B1",
         "emoji": "🔄",
         "form": "conjunction",
-        "transcription": "ɔːlˈðəʊ",
+        "transcription": "🇬🇧 ɔːlˈðəʊ | 🇺🇸 ɔːlˈðoʊ",
         "subtext": "even though, despite the fact",
         "definitions": [
             {
@@ -1300,7 +1308,7 @@
         "theme": "discourse_markers_B1",
         "emoji": "⚖️",
         "form": "phrase",
-        "transcription": "ɒn ði ˈʌðə hænd",
+        "transcription": "🇬🇧 ɒn ði ˈʌðə hænd | 🇺🇸 ɑːn ði ˈʌðə hænd",
         "subtext": "",
         "synonyms": [
             "alternatively",
@@ -1364,7 +1372,7 @@
         "emoji": "📈",
         "form": "noun",
         "plural": "promotions",
-        "transcription": "prəˈməʊʃn",
+        "transcription": "🇬🇧 prəˈməʊʃn | 🇺🇸 prəˈmoʊʃn",
         "countability": "countable",
         "definitions": [
             {
@@ -1573,7 +1581,7 @@
         "emoji": "🛁",
         "form": "noun",
         "plural": null,
-        "transcription": "sɛlf ˈkeə",
+        "transcription": "🇬🇧 sɛlf ˈkeə | 🇺🇸 sɛlf ˈkeər",
         "countability": "uncountable",
         "definitions": [
             {
@@ -1611,7 +1619,7 @@
         "emoji": "💸",
         "form": "noun",
         "plural": "expenditures",
-        "transcription": "ɪkˈspɛndɪtʃə",
+        "transcription": "🇬🇧 ɪkˈspɛndɪtʃə | 🇺🇸 ɪkˈspɛndɪtʃər",
         "countability": "uncountable",
         "definitions": [
             {
@@ -1668,7 +1676,7 @@
         "emoji": "🏡",
         "form": "noun",
         "plural": "properties",
-        "transcription": "ˈprɒpəti",
+        "transcription": "🇬🇧 ˈprɒpəti | 🇺🇸 ˈprɑːpəti",
         "countability": "countable",
         "definitions": [
             {
@@ -1763,7 +1771,7 @@
         "emoji": "🧸",
         "form": "noun",
         "plural": null,
-        "transcription": "ˈtʃaɪldkeə",
+        "transcription": "🇬🇧 ˈtʃaɪldkeə | 🇺🇸 ˈtʃaɪldkeər",
         "countability": "uncountable",
         "definitions": [
             {

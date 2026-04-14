@@ -46,7 +46,7 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "✅",
         "form": "adjective",
-        "transcription": "əˈprəʊprieɪt",
+        "transcription": "🇬🇧 əˈprəʊprieɪt | 🇺🇸 əˈproʊprieɪt",
         "subtext": "Neutral | entirely appropriate / wholly appropriate / deem appropriate",
         "definitions": [
             {
@@ -306,7 +306,7 @@
         "theme": "complex_emotions_B2",
         "emoji": "🍋",
         "form": "adjective",
-        "transcription": "ˈbɪtə",
+        "transcription": "🇬🇧 ˈbɪtə | 🇺🇸 ˈbɪtər",
         "subtext": "Neutral | feel bitter / bitterly disappointed / a bitter argument",
         "definitions": [
             {
@@ -406,7 +406,7 @@
         "theme": "complex_emotions_B2",
         "emoji": "🤩",
         "form": "adjective",
-        "transcription": "ˈiːɡə",
+        "transcription": "🇬🇧 ˈiːɡə | 🇺🇸 ˈiːɡər",
         "subtext": "Neutral | very eager / keen and eager / eager to learn",
         "definitions": [
             {
@@ -586,7 +586,7 @@
         "theme": "identity_self_concept_B2",
         "emoji": "🦁",
         "form": "adjective",
-        "transcription": "bəʊld",
+        "transcription": "🇬🇧 bəʊld | 🇺🇸 boʊld",
         "subtext": "Neutral | very bold / incredibly bold / a bold move",
         "definitions": [
             {
@@ -646,7 +646,7 @@
         "theme": "identity_self_concept_B2",
         "emoji": "🤥",
         "form": "adjective",
-        "transcription": "dɪsˈɒnɪst",
+        "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst",
         "subtext": "Neutral | completely dishonest / deeply dishonest / dishonest about",
         "definitions": [
             {
@@ -666,7 +666,7 @@
         "theme": "identity_self_concept_B2",
         "emoji": "🙇",
         "form": "adjective",
-        "transcription": "ˈmɒdɪst",
+        "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst",
         "subtext": "Neutral | very modest / quite modest / genuinely modest",
         "definitions": [
             {
@@ -726,7 +726,7 @@
         "theme": "complex_emotions_B2",
         "emoji": "🌅",
         "form": "adjective",
-        "transcription": "ˌɒptɪˈmɪstɪk",
+        "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk",
         "subtext": "Neutral | cautiously optimistic / very optimistic / remain optimistic",
         "definitions": [
             {
@@ -786,7 +786,7 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "adjective",
-        "transcription": "ˌkɒntrəˈvɜːʃl",
+        "transcription": "🇬🇧 ˌkɒntrəˈvɜːʃl | 🇺🇸 ˌkɑːntrəˈvɜːʃl",
         "subtext": "Formal | highly controversial / deeply controversial / spark controversy",
         "definitions": [
             {
@@ -926,7 +926,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🧩",
         "form": "adjective",
-        "transcription": "ˈkɒmplɛks",
+        "transcription": "🇬🇧 ˈkɒmplɛks | 🇺🇸 ˈkɑːmplɛks",
         "subtext": "Formal | very complex / highly complex / increasingly complex",
         "definitions": [
             {
@@ -946,7 +946,7 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "📚",
         "form": "adjective",
-        "transcription": "ˌkɒmprɪˈhɛnsɪv",
+        "transcription": "🇬🇧 ˌkɒmprɪˈhɛnsɪv | 🇺🇸 ˌkɑːmprɪˈhɛnsɪv",
         "subtext": "Formal | truly comprehensive / very comprehensive / a comprehensive review",
         "definitions": [
             {
@@ -1026,7 +1026,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🦁",
         "form": "adjective",
-        "transcription": "ˈdɒmɪnənt",
+        "transcription": "🇬🇧 ˈdɒmɪnənt | 🇺🇸 ˈdɑːmɪnənt",
         "subtext": "Formal | largely dominant / clearly dominant / the dominant force",
         "definitions": [
             {
@@ -1286,7 +1286,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🌡️",
         "form": "adjective",
-        "transcription": "ˈmɒdərət",
+        "transcription": "🇬🇧 ˈmɒdərət | 🇺🇸 ˈmɑːdərət",
         "subtext": "Formal | very moderate / fairly moderate / a moderate improvement",
         "definitions": [
             {
@@ -1306,7 +1306,7 @@
         "theme": "abstract_description_B2",
         "emoji": "⛈️",
         "form": "adjective",
-        "transcription": "sɪˈvɪə",
+        "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
         "subtext": "Formal | very severe / extremely severe / severe consequences",
         "definitions": [
             {
@@ -1367,7 +1367,7 @@
         "theme": "serious_illness_treatment_B2",
         "emoji": "⏳🤒",
         "form": "adjective",
-        "transcription": "ˈkrɒnɪk",
+        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
         "subtext": "Formal | chronic pain / chronic illness / chronic respiratory condition",
         "definitions": [
             {
@@ -1409,7 +1409,7 @@
         "theme": "ethical_dilemmas_B2",
         "emoji": "⚖️",
         "form": "adjective",
-        "transcription": "ˈmɒrəl",
+        "transcription": "🇬🇧 ˈmɒrəl | 🇺🇸 ˈmɑːrəl",
         "subtext": "Neutral | moral decision / moral obligation / moral issue",
         "definitions": [
             {

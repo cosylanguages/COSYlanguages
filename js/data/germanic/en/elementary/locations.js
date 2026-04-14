@@ -62,7 +62,7 @@
         ],
         "subtext": "city",
         "emoji": "🇹🇭",
-        "transcription": "ˈbæŋkɒk"
+        "transcription": "🇬🇧 ˈbæŋkɒk | 🇺🇸 ˈbæŋkɑːk"
     },
     {
         "word": "Brussels",
@@ -270,7 +270,7 @@
         ],
         "subtext": "city",
         "emoji": "🇭🇰",
-        "transcription": "hɒŋ kɒŋ"
+        "transcription": "🇬🇧 hɒŋ kɒŋ | 🇺🇸 hɑːŋ kɑːŋ"
     },
     {
         "word": "Hungary",
@@ -574,7 +574,7 @@
         ],
         "subtext": "country in North Africa",
         "emoji": "🇲🇦",
-        "transcription": "məˈrɒkoʊ"
+        "transcription": "🇬🇧 məˈrɒkoʊ | 🇺🇸 məˈrɑːkoʊ"
     },
     {
         "word": "Mumbai",
@@ -686,7 +686,7 @@
         ],
         "subtext": "city",
         "emoji": "🇳🇴",
-        "transcription": "ˈɒzloʊ"
+        "transcription": "🇬🇧 ˈɒzloʊ | 🇺🇸 ˈɑːzloʊ"
     },
     {
         "word": "Peru",
@@ -782,7 +782,7 @@
         ],
         "subtext": "country",
         "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "transcription": "ˈskɒtlənd"
+        "transcription": "🇬🇧 ˈskɒtlənd | 🇺🇸 ˈskɑːtlənd"
     },
     {
         "word": "Seoul",
@@ -862,7 +862,7 @@
         ],
         "subtext": "city",
         "emoji": "🇸🇪",
-        "transcription": "ˈstɒkhoʊm"
+        "transcription": "🇬🇧 ˈstɒkhoʊm | 🇺🇸 ˈstɑːkhoʊm"
     },
     {
         "word": "Tbilisi",
@@ -894,7 +894,7 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇦",
-        "transcription": "təˈrɒntoʊ"
+        "transcription": "🇬🇧 təˈrɒntoʊ | 🇺🇸 təˈrɑːntoʊ"
     },
     {
         "word": "Turkey",

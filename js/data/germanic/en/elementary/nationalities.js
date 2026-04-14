@@ -90,7 +90,7 @@
         "theme": "places_geography_A2",
         "emoji": "🇦🇺",
         "form": "adjective",
-        "transcription": "ɒˈstreɪliən",
+        "transcription": "🇬🇧 ɒˈstreɪliən | 🇺🇸 ɑːˈstreɪliən",
         "definitions": [
             {
                 "text": "From or connected with Australia.",

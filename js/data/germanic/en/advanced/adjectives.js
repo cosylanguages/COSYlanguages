@@ -83,7 +83,7 @@
             "emoji": "💸",
             "subtext": "very costly / extremely costly / a costly mistake",
             "form": "adjective",
-            "transcription": "ˈkɒstli",
+            "transcription": "🇬🇧 ˈkɒstli | 🇺🇸 ˈkɑːstli",
             "definitions": [
                 {
                     "text": "Causing a lot of harm, loss or expense.",
@@ -254,7 +254,7 @@
             "emoji": "😠",
             "subtext": "deeply hostile / very hostile / a hostile environment",
             "form": "adjective",
-            "transcription": "ˈhɒstaɪl",
+            "transcription": "🇬🇧 ˈhɒstaɪl | 🇺🇸 ˈhɑːstaɪl",
             "definitions": [
                 {
                     "text": "Showing strong opposition; unfriendly.",
@@ -311,7 +311,7 @@
             "emoji": "⚖️",
             "subtext": "quite moderate / fairly moderate / a moderate improvement",
             "form": "adjective",
-            "transcription": "ˈmɒdərət",
+            "transcription": "🇬🇧 ˈmɒdərət | 🇺🇸 ˈmɑːdərət",
             "definitions": [
                 {
                     "text": "Not extreme; somewhere in the middle.",
@@ -330,7 +330,7 @@
             "emoji": "🥨",
             "subtext": "very peculiar / quite peculiar / find peculiar",
             "form": "adjective",
-            "transcription": "pɪˈkjuːliə",
+            "transcription": "🇬🇧 pɪˈkjuːliə | 🇺🇸 pɪˈkjuːliər",
             "definitions": [
                 {
                     "text": "Strange; unlike what is normal.",
@@ -368,7 +368,7 @@
             "emoji": "⚠️",
             "subtext": "very problematic / highly problematic / deeply problematic",
             "form": "adjective",
-            "transcription": "ˌprɒbləˈmætɪk",
+            "transcription": "🇬🇧 ˌprɒbləˈmætɪk | 🇺🇸 ˌprɑːbləˈmætɪk",
             "definitions": [
                 {
                     "text": "Involving or presenting a problem.",
@@ -406,7 +406,7 @@
             "emoji": "💰",
             "subtext": "very profitable / highly profitable / a profitable venture",
             "form": "adjective",
-            "transcription": "ˈprɒfɪtəbl",
+            "transcription": "🇬🇧 ˈprɒfɪtəbl | 🇺🇸 ˈprɑːfɪtəbl",
             "definitions": [
                 {
                     "text": "Producing financial gain.",
@@ -577,7 +577,7 @@
             "emoji": "↔️",
             "subtext": "directly comparable / not really comparable / fully comparable",
             "form": "adjective",
-            "transcription": "ˈkɒmpərəbl",
+            "transcription": "🇬🇧 ˈkɒmpərəbl | 🇺🇸 ˈkɑːmpərəbl",
             "definitions": [
                 {
                     "text": "Similar enough to compare; of equivalent quality.",
@@ -842,7 +842,7 @@
             "emoji": "🕊️",
             "subtext": "purely symbolic / deeply symbolic / a symbolic gesture",
             "form": "adjective",
-            "transcription": "sɪmˈbɒlɪk",
+            "transcription": "🇬🇧 sɪmˈbɒlɪk | 🇺🇸 sɪmˈbɑːlɪk",
             "definitions": [
                 {
                     "text": "Representing something; not having real significance.",
@@ -1164,7 +1164,7 @@
             "emoji": "⌛",
             "subtext": "a chronic problem / chronically underfunded / chronic shortage",
             "form": "adjective",
-            "transcription": "ˈkrɒnɪk",
+            "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
             "definitions": [
                 {
                     "text": "Lasting a long time; recurring.",
@@ -1202,7 +1202,7 @@
             "emoji": "📉",
             "subtext": "prone to / highly prone / be prone to errors",
             "form": "adjective",
-            "transcription": "prəʊn",
+            "transcription": "🇬🇧 prəʊn | 🇺🇸 proʊn",
             "definitions": [
                 {
                     "text": "Likely to be affected by something negative.",
@@ -1278,7 +1278,7 @@
             "emoji": "🧠",
             "subtext": "cognitive ability / cognitive bias / a cognitive approach",
             "form": "adjective",
-            "transcription": "ˈkɒɡnətɪv",
+            "transcription": "🇬🇧 ˈkɒɡnətɪv | 🇺🇸 ˈkɑːɡnətɪv",
             "definitions": [
                 {
                     "text": "Relating to mental processes of understanding.",

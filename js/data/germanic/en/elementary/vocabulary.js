@@ -372,7 +372,7 @@
             "science subject"
         ],
         "countability": "uncountable",
-        "transcription": "baɪˈɒlədʒi"
+        "transcription": "🇬🇧 baɪˈɒlədʒi | 🇺🇸 baɪˈɑːlədʒi"
     },
     {
         "word": "blood",
@@ -882,7 +882,7 @@
             "contest"
         ],
         "countability": "countable",
-        "transcription": "ˌkɒmpəˈtɪʃn"
+        "transcription": "🇬🇧 ˌkɒmpəˈtɪʃn | 🇺🇸 ˌkɑːmpəˈtɪʃn"
     },
     {
         "word": "compromise",
@@ -904,7 +904,7 @@
             "middle ground"
         ],
         "countability": "countable",
-        "transcription": "ˈkɒmprəmaɪz"
+        "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz"
     },
     {
         "word": "conservation",
@@ -926,7 +926,7 @@
             "nature protection"
         ],
         "countability": "uncountable",
-        "transcription": "ˌkɒnsərˈveɪʃn"
+        "transcription": "🇬🇧 ˌkɒnsərˈveɪʃn | 🇺🇸 ˌkɑːnsərˈveɪʃn"
     },
     {
         "word": "contract",
@@ -948,7 +948,7 @@
             "legal document"
         ],
         "countability": "countable",
-        "transcription": "ˈkɒntrækt"
+        "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt"
     },
     {
         "word": "credit card",
@@ -1209,7 +1209,7 @@
             "security payment"
         ],
         "countability": "countable",
-        "transcription": "dɪˈpɒzɪt"
+        "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt"
     },
     {
         "word": "destination",
@@ -1332,7 +1332,7 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "transcription": "ˈdɪʃwɒʃər"
+        "transcription": "🇬🇧 ˈdɪʃwɒʃər | 🇺🇸 ˈdɪʃwɑːʃər"
     },
     {
         "word": "division",
@@ -1466,7 +1466,7 @@
             "nature science"
         ],
         "countability": "uncountable",
-        "transcription": "iˈkɒlədʒi"
+        "transcription": "🇬🇧 iˈkɒlədʒi | 🇺🇸 iˈkɑːlədʒi"
     },
     {
         "word": "economy",
@@ -1487,7 +1487,7 @@
             "financial system"
         ],
         "countability": "countable",
-        "transcription": "ɪˈkɒnəmi"
+        "transcription": "🇬🇧 ɪˈkɒnəmi | 🇺🇸 ɪˈkɑːnəmi"
     },
     {
         "word": "election",
@@ -1796,7 +1796,7 @@
             "old remains"
         ],
         "countability": "countable",
-        "transcription": "ˈfɒsl"
+        "transcription": "🇬🇧 ˈfɒsl | 🇺🇸 ˈfɑːsl"
     },
     {
         "word": "freedom",
@@ -2075,8 +2075,8 @@
         ],
         "subtext": "main road, motorway",
         "synonyms": [
-            "main road",
-            "motorway"
+            "🇬🇧 motorway",
+            "main road"
         ],
         "countability": "countable",
         "transcription": "ˈhaɪweɪ"
@@ -2497,7 +2497,7 @@
             "lab"
         ],
         "countability": "countable",
-        "transcription": "ləˈbɒrətri"
+        "transcription": "🇬🇧 ləˈbɒrətri | 🇺🇸 ləˈbɑːrətri"
     },
     {
         "word": "landfill",
@@ -2911,7 +2911,7 @@
             "screen"
         ],
         "countability": "countable",
-        "transcription": "ˈmɒnɪtər"
+        "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər"
     },
     {
         "word": "mortgage",
@@ -3109,7 +3109,7 @@
             "parking area"
         ],
         "countability": "countable",
-        "transcription": "ˈpɑːrkɪŋ lɒt"
+        "transcription": "🇬🇧 ˈpɑːrkɪŋ lɒt | 🇺🇸 ˈpɑːrkɪŋ lɑːt"
     },
     {
         "word": "password",
@@ -3207,6 +3207,9 @@
         "emoji": "💊",
         "form": "noun",
         "plural": "pharmacies",
+        "synonyms": [
+            "🇬🇧 chemist"
+        ],
         "definitions": [
             {
                 "text": "A shop where you can buy medicine.",
@@ -3238,7 +3241,7 @@
             "thinking system"
         ],
         "countability": "uncountable",
-        "transcription": "fəˈlɒsəfi"
+        "transcription": "🇬🇧 fəˈlɒsəfi | 🇺🇸 fəˈlɑːsəfi"
     },
     {
         "word": "physics",
@@ -3304,7 +3307,7 @@
             "online radio"
         ],
         "countability": "countable",
-        "transcription": "ˈpɒdkæst"
+        "transcription": "🇬🇧 ˈpɒdkæst | 🇺🇸 ˈpɑːdkæst"
     },
     {
         "word": "policy",
@@ -3326,7 +3329,7 @@
             "official rules"
         ],
         "countability": "countable",
-        "transcription": "ˈpɒləsi"
+        "transcription": "🇬🇧 ˈpɒləsi | 🇺🇸 ˈpɑːləsi"
     },
     {
         "word": "pollution",
@@ -3367,7 +3370,7 @@
             "inhabitants"
         ],
         "countability": "countable",
-        "transcription": "ˌpɒpjuˈneɪʃn"
+        "transcription": "🇬🇧 ˌpɒpjuˈneɪʃn | 🇺🇸 ˌpɑːpjuˈneɪʃn"
     },
     {
         "word": "privacy",
@@ -3455,7 +3458,7 @@
             "mind science"
         ],
         "countability": "uncountable",
-        "transcription": "saɪˈkɒlədʒi"
+        "transcription": "🇬🇧 saɪˈkɒlədʒi | 🇺🇸 saɪˈkɑːlədʒi"
     },
     {
         "word": "quarter",
@@ -3977,7 +3980,7 @@
         ],
         "countability": "uncountable",
         "opposite": "hardware",
-        "transcription": "ˈsɒftwɛər"
+        "transcription": "🇬🇧 ˈsɒftwɛər | 🇺🇸 ˈsɑːftwɛər"
     },
     {
         "word": "solar energy",
@@ -4336,7 +4339,7 @@
             "high-tech"
         ],
         "countability": "uncountable",
-        "transcription": "tɛkˈnɒlədʒi"
+        "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi"
     },
     {
         "word": "tenant",
@@ -4535,7 +4538,7 @@
             "shopping cart"
         ],
         "countability": "countable",
-        "transcription": "ˈtrɒli"
+        "transcription": "🇬🇧 ˈtrɒli | 🇺🇸 ˈtrɑːli"
     },
     {
         "word": "trust",
@@ -4751,7 +4754,7 @@
         ],
         "countability": "countable",
         "subtext": "related to everyday shopping",
-        "transcription": "ˈwɒlɪt"
+        "transcription": "🇬🇧 ˈwɒlɪt | 🇺🇸 ˈwɑːlɪt"
     },
     {
         "word": "waste",
@@ -5291,7 +5294,7 @@
             "self-belief"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkɒnfɪdəns"
+        "transcription": "🇬🇧 ˈkɒnfɪdəns | 🇺🇸 ˈkɑːnfɪdəns"
     },
     {
         "word": "conflict",
@@ -5314,7 +5317,7 @@
             "disagreement"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkɒnflɪkt"
+        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt"
     },
     {
         "word": "connection",
@@ -5360,7 +5363,7 @@
             "outcome"
         ],
         "countability": "countable",
-        "transcription": "ˈkɒnsɪkwəns"
+        "transcription": "🇬🇧 ˈkɒnsɪkwəns | 🇺🇸 ˈkɑːnsɪkwəns"
     },
     {
         "word": "context",
@@ -5383,7 +5386,7 @@
             "setting"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkɒntɛkst"
+        "transcription": "🇬🇧 ˈkɒntɛkst | 🇺🇸 ˈkɑːntɛkst"
     },
     {
         "word": "cooperation",
@@ -5405,7 +5408,7 @@
             "working together"
         ],
         "countability": "uncountable",
-        "transcription": "koʊˌɒpəˈreɪʃn"
+        "transcription": "🇬🇧 koʊˌɒpəˈreɪʃn | 🇺🇸 koʊˌɑːpəˈreɪʃn"
     },
     {
         "word": "courage",
@@ -6135,7 +6138,7 @@
         "synonyms": [
             "unpaid worker"
         ],
-        "transcription": "ˌvɒlənˈtɪər"
+        "transcription": "🇬🇧 ˌvɒlənˈtɪər | 🇺🇸 ˌvɑːlənˈtɪər"
     },
     {
         "word": "exhibition",
@@ -6249,7 +6252,7 @@
             "humorous show",
             "funny movie"
         ],
-        "transcription": "ˈkɒmədi"
+        "transcription": "🇬🇧 ˈkɒmədi | 🇺🇸 ˈkɑːmədi"
     },
     {
         "word": "documentary",
@@ -6273,7 +6276,7 @@
             "factual program",
             "non-fiction film"
         ],
-        "transcription": "ˌdɒkjuˈmɛntri"
+        "transcription": "🇬🇧 ˌdɒkjuˈmɛntri | 🇺🇸 ˌdɑːkjuˈmɛntri"
     },
     {
         "word": "drama",
@@ -6476,7 +6479,7 @@
         "synonyms": [
             "cheap hotel"
         ],
-        "transcription": "ˈhɒstl"
+        "transcription": "🇬🇧 ˈhɒstl | 🇺🇸 ˈhɑːstl"
     },
     {
         "word": "campsite",
@@ -6618,7 +6621,7 @@
             "browsing",
             "looking only"
         ],
-        "transcription": "ˈwɪndoʊ ˈʃɒpɪŋ"
+        "transcription": "🇬🇧 ˈwɪndoʊ ˈʃɒpɪŋ | 🇺🇸 ˈwɪndoʊ ˈʃɑːpɪŋ"
     },
     {
         "word": "painkiller",
@@ -6761,7 +6764,7 @@
             "intersection",
             "crossing"
         ],
-        "transcription": "ˈkrɒsroʊdz"
+        "transcription": "🇬🇧 ˈkrɒsroʊdz | 🇺🇸 ˈkrɑːsroʊdz"
     },
     {
         "word": "single room",
@@ -6973,7 +6976,7 @@
             "powerfully"
         ],
         "opposite": "weakly",
-        "transcription": "ˈstrɒŋli"
+        "transcription": "🇬🇧 ˈstrɒŋli | 🇺🇸 ˈstrɑːŋli"
     }
 ];
     const lang = "en";

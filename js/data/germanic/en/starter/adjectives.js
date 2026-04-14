@@ -5123,7 +5123,7 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "impossible",
-        "transcription": "ˈpɒsəbl",
+        "transcription": "🇬🇧 ˈpɒsəbl | 🇺🇸 ˈpɑːsəbl",
         "definitions": [
             {
                 "text": "Able to be done or achieved.",
