@@ -276,6 +276,7 @@
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
           <h2 class="sec-title" id="ct" style="margin-bottom: 0;">Curriculum</h2>
           <div style="display: flex; gap: 0.5rem;">
+             <button id="open-roadmap-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px; display: none;">🗺️ Full Roadmap</button>
              <button id="open-grammar-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📐 Grammar Ref</button>
              <button id="open-vocab-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📖 Vocab Ref</button>
           </div>
@@ -292,6 +293,7 @@
 
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/curriculum_data.js"></script>
+    <script src="js/data/curriculum/en_a1.js"></script>
     <!-- Include translations needed for some UI elements if relevant, though logic now uses curriculum_data.js -->
     <script src="js/data/germanic/en/translations.js"></script>
     <script src="js/data/romance/fr/translations.js"></script>
@@ -357,11 +359,32 @@ function showArea() {
     <span class="badge b-course">${tm.icon} ${tm.label}</span>
   `;
 
+  // Roadmap button visibility
+  const roadmapBtn = document.getElementById('open-roadmap-btn');
+  if (roadmapBtn) {
+    if (S.lang === "EN" && S.level === "A1") {
+      roadmapBtn.style.display = "block";
+      roadmapBtn.onclick = () => window.location.href = "curriculum/en/a1.html";
+    } else {
+      roadmapBtn.style.display = "none";
+    }
+  }
+
   renderAll();
 }
 
 function getLessons() {
-  return ((CURRICULUM[S.type] || {})[S.level]) || [];
+  let raw = ((CURRICULUM[S.lang] || {})[S.type] || {})[S.level];
+  if (raw === "FROM_EN_A1_DATA") {
+    const data = window.curriculumData?.en_a1 || [];
+    // Flatten units into a single lesson list for the daily view
+    return data.flatMap(u => u.lessons.map(l => ({
+      ...l,
+      unitColor: u.color,
+      unitLabel: u.label
+    })));
+  }
+  return raw || [];
 }
 
 function renderAll() {
@@ -420,16 +443,27 @@ function pURL(lang, level, cat, theme) {
 }
 
 function cardHTML(l, i, curIdx) {
-  const isDone = !!done[i];
+  // Handle both simplified (array of objects) and rich (from en_a1.js) formats
+  const isRich = !!l.code;
+  const isDone = isRich ? (JSON.parse(localStorage.getItem('a1_done') || '[]')).includes(l.code) : !!done[i];
   const isCur = i === curIdx;
   const isLocked = i > curIdx && !isDone;
   const stxt = isDone ? '✓ Done' : isCur ? '▶ Current' : '🔒 Upcoming';
   const scls = isDone ? 's-done' : isCur ? 's-current' : 's-locked';
-  const chips = l.skills.map(sk => `<span class="chip chip-${sk}">${cap(sk)}</span>`).join('');
+
+  // Rich lessons have skills as a string or implied; simplified has skills as array
+  const skills = l.skills || ["speaking", "listening", "reading", "writing"];
+  const chips = skills.map(sk => `<span class="chip chip-${sk}">${cap(sk)}</span>`).join('');
 
   // Grammar tab
   let gramHTML = '';
-  if (l.grammar && l.grammar.length) {
+  if (isRich) {
+    gramHTML = `<div class="gram-point">
+      <div class="gram-heading">Grammar Focus</div>
+      <p class="gram-explain">${l.grammar}</p>
+      <a class="plink hi" href="${pURL(S.lang, S.level, 'Grammar', l.title)}" target="_blank">💡 Practice Grammar →</a>
+    </div>`;
+  } else if (l.grammar && l.grammar.length) {
     gramHTML = l.grammar.map(g => {
       const exRows = g.examples.map(ex => `<div class="ex-row-new"><span class="ex-t">${ex.t}</span><span class="ex-e">${ex.e}</span></div>`).join('');
       return `<div class="gram-point">
@@ -448,7 +482,16 @@ function cardHTML(l, i, curIdx) {
 
   // Vocab tab
   let vocHTML = '';
-  if (l.vocab && l.vocab.length) {
+  if (isRich) {
+    const vocabList = [...new Set([...(l.vocab||[]), ...(l.verbs||[]), ...(l.adj||[])])];
+    vocHTML = `<p class="vocab-intro">Key vocabulary for this lesson.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:5px; margin-bottom:15px;">
+        ${vocabList.map(v => `<span class="vtag">${v}</span>`).join('')}
+      </div>
+      <div class="vocab-actions">
+        <a class="plink hi" href="${pURL(S.lang, S.level, 'Vocab', l.title)}" target="_blank">📖 Practice Vocab →</a>
+      </div>`;
+  } else if (l.vocab && l.vocab.length) {
     vocHTML = `<p class="vocab-intro">Key words for Day ${i + 1}. Items marked KEY are ones your teacher expects you to use actively this lesson.</p>`;
     vocHTML += l.vocab.map(vg => {
       const rows = vg.words.map(w => `<tr>
@@ -510,12 +553,18 @@ function cardHTML(l, i, curIdx) {
 
   const waBtn = `<a class="btn-mark-new" style="text-decoration:none; display:inline-flex; align-items:center;" href="https://wa.me/330766784195?text=Ready+for+Day+${i + 1}:+${encodeURIComponent(l.title)}+(${S.lang}+${S.level}+${S.type})" target="_blank">💬 WhatsApp</a>`;
 
+  const markBtn = isRich
+    ? `<button class="btn-mark-new${isDone ? ' done' : ''}" id="mk-${l.code}" onclick="toggleDoneRich('${l.code}', ${i})">${isDone ? '✓ Completed' : '✓ Mark complete'}</button>`
+    : `<button class="btn-mark-new${isDone ? ' done' : ''}" id="mk-${i}" onclick="toggleDone(${i})">${isDone ? '✓ Completed' : '✓ Mark complete'}</button>`;
+
+  const duration = l.duration || "60 min";
+
   return `<div class="lesson" id="d${i}">
     <div class="l-head" onclick="toggle(${i})">
       <div class="l-head-left">
-        <div class="l-day-num">Day ${i + 1} · ${l.duration}</div>
+        <div class="l-day-num">Day ${i + 1} · ${duration}</div>
         <div class="l-title">${l.title}</div>
-        <div class="l-sub">${l.subtitle}</div>
+        <div class="l-sub">${l.subtitle || (l.unitLabel ? `Unit ${l.num}: ${l.unitLabel}` : '')}</div>
       </div>
       <div class="l-head-right">
         <span class="spill ${scls}">${stxt}</span>
@@ -531,12 +580,19 @@ function cardHTML(l, i, curIdx) {
       </div>
       <div id="ov-${i}" class="tab-panel active">
         <div class="chips">${chips}</div>
-        <p class="l-desc">${l.desc}</p>
+        <p class="l-desc">${l.desc || l.task || "Interactive speaking and grammar session."}</p>
+        ${isRich ? `
+          <div style="margin-top:10px; font-size:13px; color:var(--ink-muted);">
+            <strong>Speaking:</strong> ${l.speaking}<br>
+            <strong>Listening:</strong> ${l.listening}<br>
+            <strong>Writing:</strong> ${l.writing}
+          </div>
+        ` : ''}
         <div class="l-actions">
           ${startBtn}
           ${waBtn}
-          <button class="btn-mark-new${isDone ? ' done' : ''}" id="mk-${i}" onclick="toggleDone(${i})">${isDone ? '✓ Completed' : '✓ Mark complete'}</button>
-          <span class="dur-label">${l.duration}</span>
+          ${markBtn}
+          <span class="dur-label">${duration}</span>
         </div>
       </div>
       <div id="gr-${i}" class="tab-panel">${gramHTML}</div>
@@ -566,6 +622,18 @@ function toggleDone(i) {
   localStorage.setItem('cosy_p_' + S.code, JSON.stringify(done));
   renderAll();
   // Small delay to allow render before scroll
+  setTimeout(() => jumpTo(i), 60);
+}
+
+function toggleDoneRich(code, i) {
+  let a1_done = JSON.parse(localStorage.getItem('a1_done') || '[]');
+  if (a1_done.includes(code)) {
+    a1_done = a1_done.filter(c => c !== code);
+  } else {
+    a1_done.push(code);
+  }
+  localStorage.setItem('a1_done', JSON.stringify(a1_done));
+  renderAll();
   setTimeout(() => jumpTo(i), 60);
 }
 

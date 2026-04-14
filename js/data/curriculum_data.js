@@ -5,6 +5,7 @@
 
 const COURSES = {
   "COSY-FR-B1-GEN": { lang: "FR", level: "B1", type: "GEN" },
+  "COSY-EN-A1-GEN": { lang: "EN", level: "A1", type: "GEN" },
   "COSY-EN-A2-GEN": { lang: "EN", level: "A2", type: "GEN" },
   "COSY-IT-B2-SPK": { lang: "IT", level: "B2", type: "SPK" },
   "COSY-RU-A1-GEN": { lang: "RU", level: "A1", type: "GEN" },
@@ -143,344 +144,180 @@ const REFS = {
 };
 
 const CURRICULUM = {
-  GEN: {
-    A1: [
-      {
-        title: "Hello, I'm…", subtitle: "Introductions & greetings",
-        skills: ["speaking", "vocab"], desc: "Say your name, nationality and job. Greet people naturally in your new language for the very first time.", duration: "60 min", practiceTheme: "Greetings",
-        grammar: [
-          {
-            point: "Subject pronouns + être (to be)", tag: "Present tense",
-            explain: "In French every sentence needs a subject pronoun. The verb être is the first irregular verb you'll meet — and also the most useful.",
-            rule: "je suis · tu es · il/elle est · nous sommes · vous êtes · ils/elles sont",
-            examples: [{ t: "Je suis Marie.", e: "I am Marie." }, { t: "Tu es anglais ?", e: "Are you English?" }, { t: "Elle est professeure.", e: "She is a teacher." }, { t: "Vous êtes d'où ?", e: "Where are you from?" }],
-            tip: "💡 Professions don't use an article: je suis professeur — not je suis un professeur.",
-            practiceTheme: "Greetings",
-          },
-          {
-            point: "tu vs vous — formality", tag: "Register",
-            explain: "French has two words for 'you'. Use tu with friends and family. Use vous with strangers, colleagues and anyone older.",
-            rule: "tu (informal / singular) · vous (formal OR plural)",
-            examples: [{ t: "Comment tu t'appelles ?", e: "What's your name? (informal)" }, { t: "Comment vous appelez-vous ?", e: "What is your name? (formal)" }],
-            tip: "💡 When in doubt, always use vous — it's polite and never offensive.",
-            practiceTheme: "Greetings",
-          },
-        ],
-        vocab: [
-          {
-            group: "Essential greetings", words: [
-              { w: "Bonjour", phon: "/bɔ̃.ʒuʁ/", trans: "Hello / Good morning", key: true },
-              { w: "Bonsoir", phon: "/bɔ̃.swaʁ/", trans: "Good evening", key: false },
-              { w: "Salut", phon: "/sa.ly/", trans: "Hi (informal)", key: true },
-              { w: "Au revoir", phon: "/o.ʁə.vwaʁ/", trans: "Goodbye", key: true },
-              { w: "Merci", phon: "/mɛʁ.si/", trans: "Thank you", key: true },
-              { w: "S'il vous plaît", phon: "/sil.vu.plɛ/", trans: "Please (formal)", key: true },
+  FR: {
+    GEN: {
+      A1: [
+        {
+          title: "Hello, I'm…", subtitle: "Introductions & greetings",
+          skills: ["speaking", "vocab"], desc: "Say your name, nationality and job. Greet people naturally in your new language for the very first time.", duration: "60 min", practiceTheme: "Greetings",
+          grammar: [
+            {
+              point: "Subject pronouns + être (to be)", tag: "Present tense",
+              explain: "In French every sentence needs a subject pronoun. The verb être is the first irregular verb you'll meet — and also the most useful.",
+              rule: "je suis · tu es · il/elle est · nous sommes · vous êtes · ils/elles sont",
+              examples: [{ t: "Je suis Marie.", e: "I am Marie." }, { t: "Tu es anglais ?", e: "Are you English?" }, { t: "Elle est professeure.", e: "She is a teacher." }, { t: "Vous êtes d'où ?", e: "Where are you from?" }],
+              tip: "💡 Professions don't use an article: je suis professeur — not je suis un professeur.",
+              practiceTheme: "Greetings",
+            },
+            {
+              point: "tu vs vous — formality", tag: "Register",
+              explain: "French has two words for 'you'. Use tu with friends and family. Use vous with strangers, colleagues and anyone older.",
+              rule: "tu (informal / singular) · vous (formal OR plural)",
+              examples: [{ t: "Comment tu t'appelles ?", e: "What's your name? (informal)" }, { t: "Comment vous appelez-vous ?", e: "What is your name? (formal)" }],
+              tip: "💡 When in doubt, always use vous — it's polite and never offensive.",
+              practiceTheme: "Greetings",
+            },
+          ],
+          vocab: [
+            {
+              group: "Essential greetings", words: [
+                { w: "Bonjour", phon: "/bɔ̃.ʒuʁ/", trans: "Hello / Good morning", key: true },
+                { w: "Bonsoir", phon: "/bɔ̃.swaʁ/", trans: "Good evening", key: false },
+                { w: "Salut", phon: "/sa.ly/", trans: "Hi (informal)", key: true },
+                { w: "Au revoir", phon: "/o.ʁə.vwaʁ/", trans: "Goodbye", key: true },
+                { w: "Merci", phon: "/mɛʁ.si/", trans: "Thank you", key: true },
+                { w: "S'il vous plaît", phon: "/sil.vu.plɛ/", trans: "Please (formal)", key: true },
+              ]
+            },
+            {
+              group: "Introducing yourself", words: [
+                { w: "Je m'appelle…", phon: "/ʒə.ma.pɛl/", trans: "My name is…", key: true },
+                { w: "Je suis…", phon: "/ʒə.sɥi/", trans: "I am… (nationality/job)", key: true },
+                { w: "J'habite à…", phon: "/ʒa.bit.a/", trans: "I live in…", key: false },
+                { w: "Je viens de…", phon: "/ʒə.vjɛ̃.də/", trans: "I'm from…", key: false },
+                { w: "Enchanté(e)", phon: "/ɑ̃.ʃɑ̃.te/", trans: "Nice to meet you", key: true },
+              ]
+            },
+          ],
+        },
+        {
+          title: "My Family", subtitle: "People & relationships",
+          skills: ["speaking", "vocab", "grammar"], desc: "Describe your family members and their jobs. First possessive structures.", duration: "60 min", practiceTheme: "Family",
+          grammar: [
+            {
+              point: "Possessive adjectives", tag: "Agreement",
+              explain: "In French possessive adjectives agree with the noun they describe — not with the owner. 'My sister' is ma sœur but 'my brother' is mon frère.",
+              rule: "mon / ma / mes (my) · ton / ta / tes (your) · son / sa / ses (his/her)",
+              examples: [{ t: "Mon père est médecin.", e: "My father is a doctor." }, { t: "Ma mère s'appelle Claire.", e: "My mother's name is Claire." }, { t: "Mes frères habitent à Paris.", e: "My brothers live in Paris." }, { t: "Son mari est sympa.", e: "Her husband is nice." }],
+              tip: "💡 Use mon/ton/son before feminine nouns starting with a vowel: mon amie (not ma amie).",
+              practiceTheme: "Family",
+            },
+            {
+              point: "avoir (to have) — present tense", tag: "Irregular verb",
+              explain: "Avoir is the second essential irregular verb. You'll use it to describe your family and possessions constantly.",
+              rule: "j'ai · tu as · il/elle a · nous avons · vous avez · ils/elles ont",
+              examples: [{ t: "J'ai deux sœurs.", e: "I have two sisters." }, { t: "Tu as des enfants ?", e: "Do you have children?" }, { t: "Elle a un frère.", e: "She has a brother." }],
+              tip: "💡 Don't confuse a (has) with à (at/to). No accent on the verb!",
+              practiceTheme: "Family",
+            },
+          ],
+          vocab: [
+            {
+              group: "Family members", words: [
+                { w: "le père", phon: "/lɛ.pɛʁ/", trans: "father", key: true },
+                { w: "la mère", phon: "/la.mɛʁ/", trans: "mother", key: true },
+                { w: "le frère", phon: "/lɛ.fʁɛʁ/", trans: "brother", key: true },
+                { w: "la sœur", phon: "/la.sœʁ/", trans: "sister", key: true },
+                { w: "le mari", phon: "/lɛ.ma.ʁi/", trans: "husband", key: false },
+                { w: "la femme", phon: "/la.fam/", trans: "wife / woman", key: false, note: "context-dependent" },
+                { w: "les enfants", phon: "/le.zɑ̃.fɑ̃/", trans: "children", key: true },
+                { w: "les grands-parents", phon: "/le.gʁɑ̃.pa.ʁɑ̃/", trans: "grandparents", key: false },
+              ]
+            },
+          ],
+        },
+      ],
+      B1: [
+        {
+          title: "Opinions & Arguments", subtitle: "Agreeing, disagreeing, justifying",
+          skills: ["speaking", "grammar", "vocab"], desc: "Express and defend opinions clearly. Discourse markers and hedging language.", duration: "60 min", practiceTheme: "Opinions",
+          grammar: [
+            {
+              point: "Subjunctive after opinion verbs", tag: "Subjonctif",
+              explain: "The subjunctive is triggered after verbs expressing doubt, emotion, or subjective judgement. It's a key B1→B2 marker.",
+              rule: "Je pense que + indicatif · Je ne pense pas que + subjonctif",
+              examples: [{ t: "Je pense que c'est vrai.", e: "I think it's true. (indicative)" }, { t: "Je ne pense pas que ce soit vrai.", e: "I don't think it's true. (subjunctive)" }, { t: "Il faut qu'on parle.", e: "We need to talk." }, { t: "Je veux qu'il vienne.", e: "I want him to come." }],
+              tip: "💡 Learn the most common triggers first: il faut que, je veux que, bien que, pour que.",
+              practiceTheme: "Opinions",
+            },
+            {
+              point: "Discourse markers for debate", tag: "Connectors",
+              explain: "These linking phrases are what make spoken French sound structured and natural. They are the backbone of any well-argued opinion.",
+              rule: "D'abord… · Ensuite… · De plus… · En revanche… · En fin de compte…",
+              examples: [{ t: "D'abord, je pense que…", e: "First of all, I think that…" }, { t: "En revanche, il faut admettre que…", e: "On the other hand, we must admit that…" }, { t: "En fin de compte, cela dépend de…", e: "Ultimately, it depends on…" }, { t: "Certes, mais…", e: "Granted, but…" }],
+              tip: "💡 Certes, mais… is a powerful B1/B2 move — it acknowledges the other view before countering it.",
+              practiceTheme: "Opinions",
+            },
+          ],
+          vocab: [
+            {
+              group: "Giving opinions", words: [
+                { w: "À mon avis", phon: "/a.mɔ̃.na.vi/", trans: "In my opinion", key: true },
+                { w: "Il me semble que", phon: "/il.mə.sɑ̃bl.kə/", trans: "It seems to me that", key: true },
+                { w: "Tout à fait", phon: "/tu.ta.fɛ/", trans: "Absolutely / Exactly", key: true },
+                { w: "Pas du tout", phon: "/pa.dy.tu/", trans: "Not at all", key: true },
+                { w: "C'est discutable", phon: "/se.dis.ky.tabl/", trans: "That's debatable", key: false },
+                { w: "Ça dépend", phon: "/sa.de.pɑ̃/", trans: "It depends", key: true },
+                { w: "Je suis convaincu(e) que", phon: "", trans: "I am convinced that", key: false },
+              ]
+            },
+          ],
+        },
+      ],
+    },
+    SPK: {
+      B2: [
+        {
+          title: "Podcast Style", subtitle: "Extended fluent monologue",
+          skills: ["speaking", "listening"], desc: "Talk about a topic for 5 minutes without stopping. Your teacher only asks follow-up questions.", duration: "30 min", practiceTheme: "Conversation",
+          grammar: [],
+          vocab: [{
+            group: "Filler & thinking phrases", words: [
+              { w: "Ça me fait penser à…", phon: "", trans: "That makes me think of…", key: true },
+              { w: "Je dirais que…", phon: "", trans: "I would say that…", key: true },
+              { w: "Dans une certaine mesure", phon: "", trans: "To a certain extent", key: false },
+              { w: "En quelque sorte…", phon: "", trans: "In a way…", key: false },
+              { w: "Il va sans dire que…", phon: "", trans: "It goes without saying that…", key: true },
             ]
-          },
-          {
-            group: "Introducing yourself", words: [
-              { w: "Je m'appelle…", phon: "/ʒə.ma.pɛl/", trans: "My name is…", key: true },
-              { w: "Je suis…", phon: "/ʒə.sɥi/", trans: "I am… (nationality/job)", key: true },
-              { w: "J'habite à…", phon: "/ʒa.bit.a/", trans: "I live in…", key: false },
-              { w: "Je viens de…", phon: "/ʒə.vjɛ̃.də/", trans: "I'm from…", key: false },
-              { w: "Enchanté(e)", phon: "/ɑ̃.ʃɑ̃.te/", trans: "Nice to meet you", key: true },
-            ]
-          },
-        ],
-      },
-      {
-        title: "My Family", subtitle: "People & relationships",
-        skills: ["speaking", "vocab", "grammar"], desc: "Describe your family members and their jobs. First possessive structures.", duration: "60 min", practiceTheme: "Family",
-        grammar: [
-          {
-            point: "Possessive adjectives", tag: "Agreement",
-            explain: "In French possessive adjectives agree with the noun they describe — not with the owner. 'My sister' is ma sœur but 'my brother' is mon frère.",
-            rule: "mon / ma / mes (my) · ton / ta / tes (your) · son / sa / ses (his/her)",
-            examples: [{ t: "Mon père est médecin.", e: "My father is a doctor." }, { t: "Ma mère s'appelle Claire.", e: "My mother's name is Claire." }, { t: "Mes frères habitent à Paris.", e: "My brothers live in Paris." }, { t: "Son mari est sympa.", e: "Her husband is nice." }],
-            tip: "💡 Use mon/ton/son before feminine nouns starting with a vowel: mon amie (not ma amie).",
-            practiceTheme: "Family",
-          },
-          {
-            point: "avoir (to have) — present tense", tag: "Irregular verb",
-            explain: "Avoir is the second essential irregular verb. You'll use it to describe your family and possessions constantly.",
-            rule: "j'ai · tu as · il/elle a · nous avons · vous avez · ils/elles ont",
-            examples: [{ t: "J'ai deux sœurs.", e: "I have two sisters." }, { t: "Tu as des enfants ?", e: "Do you have children?" }, { t: "Elle a un frère.", e: "She has a brother." }],
-            tip: "💡 Don't confuse a (has) with à (at/to). No accent on the verb!",
-            practiceTheme: "Family",
-          },
-        ],
-        vocab: [
-          {
-            group: "Family members", words: [
-              { w: "le père", phon: "/lɛ.pɛʁ/", trans: "father", key: true },
-              { w: "la mère", phon: "/la.mɛʁ/", trans: "mother", key: true },
-              { w: "le frère", phon: "/lɛ.fʁɛʁ/", trans: "brother", key: true },
-              { w: "la sœur", phon: "/la.sœʁ/", trans: "sister", key: true },
-              { w: "le mari", phon: "/lɛ.ma.ʁi/", trans: "husband", key: false },
-              { w: "la femme", phon: "/la.fam/", trans: "wife / woman", key: false, note: "context-dependent" },
-              { w: "les enfants", phon: "/le.zɑ̃.fɑ̃/", trans: "children", key: true },
-              { w: "les grands-parents", phon: "/le.gʁɑ̃.pa.ʁɑ̃/", trans: "grandparents", key: false },
-            ]
-          },
-        ],
-      },
-      {
-        title: "Where I Live", subtitle: "Places & home",
-        skills: ["vocab", "grammar", "speaking"], desc: "Talk about your city, your home and your neighbourhood. Prepositions of place.", duration: "60 min", practiceTheme: "Home & City",
-        grammar: [
-          {
-            point: "Prepositions of place", tag: "Prepositions",
-            explain: "Prepositions tell us where things are. These are the core ones for talking about your home and neighbourhood.",
-            rule: "dans (in) · sur (on) · sous (under) · devant (in front of) · derrière (behind) · à côté de (next to) · en face de (opposite)",
-            examples: [{ t: "J'habite dans un appartement.", e: "I live in a flat." }, { t: "Le salon est au rez-de-chaussée.", e: "The living room is on the ground floor." }, { t: "La banque est en face du café.", e: "The bank is opposite the café." }, { t: "Ma chambre est à côté de la cuisine.", e: "My bedroom is next to the kitchen." }],
-            tip: "💡 à + le = au · à + les = aux. This contraction is mandatory — never à le.",
-            practiceTheme: "Home & City",
-          },
-        ],
-        vocab: [
-          {
-            group: "Rooms of the house", words: [
-              { w: "la cuisine", phon: "/la.kɥi.zin/", trans: "kitchen", key: true },
-              { w: "le salon", phon: "/lɛ.sa.lɔ̃/", trans: "living room", key: true },
-              { w: "la chambre", phon: "/la.ʃɑ̃bʁ/", trans: "bedroom", key: true },
-              { w: "la salle de bains", phon: "/sa.lə.də.bɛ̃/", trans: "bathroom", key: false },
-              { w: "le bureau", phon: "/lɛ.by.ʁo/", trans: "office / desk", key: false },
-            ]
-          },
-          {
-            group: "Places in the city", words: [
-              { w: "la boulangerie", phon: "/bu.lɑ̃.ʒʁi/", trans: "bakery", key: true },
-              { w: "le supermarché", phon: "/sy.pɛʁ.maʁ.ʃe/", trans: "supermarket", key: true },
-              { w: "la gare", phon: "/la.gaʁ/", trans: "train station", key: true },
-              { w: "la mairie", phon: "/la.mɛ.ʁi/", trans: "town hall", key: false },
-              { w: "le musée", phon: "/lɛ.my.ze/", trans: "museum", key: false },
-            ]
-          },
-        ],
-      },
-      {
-        title: "Daily Routine", subtitle: "Time & activities",
-        skills: ["grammar", "speaking", "vocab"], desc: "Tell the time and describe your daily schedule. Present tense -ER verbs in context.", duration: "60 min", practiceTheme: "Daily Life",
-        grammar: [
-          {
-            point: "-ER verbs — present tense", tag: "Regular verbs",
-            explain: "-ER verbs are the largest verb family in French. The pattern is regular — once you know it, you can conjugate hundreds of verbs immediately.",
-            rule: "parler → je parle · tu parles · il parle · nous parlons · vous parlez · ils parlent",
-            examples: [{ t: "Je travaille de 9h à 17h.", e: "I work from 9am to 5pm." }, { t: "Elle mange à midi.", e: "She eats at midday." }, { t: "Nous habitons à Lyon.", e: "We live in Lyon." }, { t: "Ils regardent la télé le soir.", e: "They watch TV in the evening." }],
-            tip: "💡 The -e, -es, -e endings are all silent. Only -ons, -ez change the sound.",
-            practiceTheme: "Daily Life",
-          },
-        ],
-        vocab: [
-          {
-            group: "Daily activities", words: [
-              { w: "se lever", phon: "/sə.lə.ve/", trans: "to get up", key: true },
-              { w: "prendre le petit-déjeuner", phon: "", trans: "to have breakfast", key: true },
-              { w: "travailler", phon: "/tʁa.va.je/", trans: "to work", key: true },
-              { w: "déjeuner", phon: "/de.ʒø.ne/", trans: "to have lunch", key: false },
-              { w: "rentrer", phon: "/ʁɑ̃.tʁe/", trans: "to go home", key: true },
-              { w: "se coucher", phon: "/sə.ku.ʃe/", trans: "to go to bed", key: true },
-            ]
-          },
-          {
-            group: "Time expressions", words: [
-              { w: "le matin", phon: "/lɛ.ma.tɛ̃/", trans: "in the morning", key: true },
-              { w: "l'après-midi", phon: "/la.pʁɛ.mi.di/", trans: "in the afternoon", key: true },
-              { w: "le soir", phon: "/lɛ.swaʁ/", trans: "in the evening", key: true },
-              { w: "d'habitude", phon: "/da.bi.tyd/", trans: "usually", key: true },
-              { w: "parfois", phon: "/paʁ.fwa/", trans: "sometimes", key: false },
-              { w: "toujours", phon: "/tu.ʒuʁ/", trans: "always", key: false },
-            ]
-          },
-        ],
-      },
-      {
-        title: "Food & Drink", subtitle: "Ordering & preferences",
-        skills: ["speaking", "vocab", "listening"], desc: "Order at a café or restaurant. Express likes and dislikes with real confidence.", duration: "60 min", practiceTheme: "Food & Drink",
-        grammar: [
-          {
-            point: "aimer / adorer / détester + infinitive", tag: "Expressing likes",
-            explain: "To express likes and dislikes about activities, French uses aimer + infinitive. With nouns, always use the definite article.",
-            rule: "j'aime + infinitif · je n'aime pas + infinitif · j'adore / je déteste",
-            examples: [{ t: "J'adore cuisiner.", e: "I love cooking." }, { t: "Tu aimes le café ?", e: "Do you like coffee?" }, { t: "Elle déteste les épinards.", e: "She hates spinach." }, { t: "Je n'aime pas le sport.", e: "I don't like sport." }],
-            tip: "💡 With nouns, always use the article: j'aime le café (not j'aime café).",
-            practiceTheme: "Food & Drink",
-          },
-        ],
-        vocab: [
-          {
-            group: "At the café / restaurant", words: [
-              { w: "Je voudrais…", phon: "/ʒə.vu.dʁɛ/", trans: "I would like…", key: true },
-              { w: "un café", phon: "/kafe/", trans: "a coffee (espresso)", key: true },
-              { w: "une bière", phon: "/bjɛʁ/", trans: "a beer", key: false },
-              { w: "l'addition", phon: "/la.di.sjɔ̃/", trans: "the bill", key: true },
-              { w: "C'est délicieux !", phon: "", trans: "It's delicious!", key: false },
-              { w: "Qu'est-ce que vous recommandez ?", phon: "", trans: "What do you recommend?", key: false },
-            ]
-          },
-        ],
-      },
-    ],
-    B1: [
-      {
-        title: "Opinions & Arguments", subtitle: "Agreeing, disagreeing, justifying",
-        skills: ["speaking", "grammar", "vocab"], desc: "Express and defend opinions clearly. Discourse markers and hedging language.", duration: "60 min", practiceTheme: "Opinions",
-        grammar: [
-          {
-            point: "Subjunctive after opinion verbs", tag: "Subjonctif",
-            explain: "The subjunctive is triggered after verbs expressing doubt, emotion, or subjective judgement. It's a key B1→B2 marker.",
-            rule: "Je pense que + indicatif · Je ne pense pas que + subjonctif",
-            examples: [{ t: "Je pense que c'est vrai.", e: "I think it's true. (indicative)" }, { t: "Je ne pense pas que ce soit vrai.", e: "I don't think it's true. (subjunctive)" }, { t: "Il faut qu'on parle.", e: "We need to talk." }, { t: "Je veux qu'il vienne.", e: "I want him to come." }],
-            tip: "💡 Learn the most common triggers first: il faut que, je veux que, bien que, pour que.",
-            practiceTheme: "Opinions",
-          },
-          {
-            point: "Discourse markers for debate", tag: "Connectors",
-            explain: "These linking phrases are what make spoken French sound structured and natural. They are the backbone of any well-argued opinion.",
-            rule: "D'abord… · Ensuite… · De plus… · En revanche… · En fin de compte…",
-            examples: [{ t: "D'abord, je think that…", e: "First of all, I think that…" }, { t: "En revanche, il faut admettre que…", e: "On the other hand, we must admit that…" }, { t: "En fin de compte, cela dépend de…", e: "Ultimately, it depends on…" }, { t: "Certes, mais…", e: "Granted, but…" }],
-            tip: "💡 Certes, mais… is a powerful B1/B2 move — it acknowledges the other view before countering it.",
-            practiceTheme: "Opinions",
-          },
-        ],
-        vocab: [
-          {
-            group: "Giving opinions", words: [
-              { w: "À mon avis", phon: "/a.mɔ̃.na.vi/", trans: "In my opinion", key: true },
-              { w: "Il me semble que", phon: "/il.mə.sɑ̃bl.kə/", trans: "It seems to me that", key: true },
-              { w: "Tout à fait", phon: "/tu.ta.fɛ/", trans: "Absolutely / Exactly", key: true },
-              { w: "Pas du tout", phon: "/pa.dy.tu/", trans: "Not at all", key: true },
-              { w: "C'est discutable", phon: "/se.dis.ky.tabl/", trans: "That's debatable", key: false },
-              { w: "Ça dépend", phon: "/sa.de.pɑ̃/", trans: "It depends", key: true },
-              { w: "Je suis convaincu(e) que", phon: "", trans: "I am convinced that", key: false },
-            ]
-          },
-        ],
-      },
-      {
-        title: "Travel Stories", subtitle: "Narrative past tenses",
-        skills: ["grammar", "speaking"], desc: "Tell a rich travel story using passé composé, imparfait and plus-que-parfait together.", duration: "60 min", practiceTheme: "Travel",
-        grammar: [
-          {
-            point: "Passé composé vs Imparfait", tag: "Narration",
-            explain: "This is the heart of B1 French. Passé composé = completed action (what happened). Imparfait = background, description, habit (what was going on).",
-            rule: "PC: avoir/être + participe passé · Imparfait: stem + -ais/-ait/-ions/-iez/-aient",
-            examples: [{ t: "Je visitais Paris quand j'ai rencontré Marie.", e: "I was visiting Paris when I met Marie." }, { t: "Il faisait beau, donc nous avons décidé de marcher.", e: "The weather was nice, so we decided to walk." }, { t: "Avant, j'habitais à Londres.", e: "I used to live in London." }, { t: "Soudain, le train s'est arrêté.", e: "Suddenly, the train stopped." }],
-            tip: "💡 soudain / tout à coup → passé composé · autrefois / d'habitude → imparfait.",
-            practiceTheme: "Travel",
-          },
-        ],
-        vocab: [
-          {
-            group: "Narration connectors", words: [
-              { w: "tout à coup", phon: "/tu.ta.ku/", trans: "suddenly", key: true },
-              { w: "c'est alors que", phon: "", trans: "that's when", key: true },
-              { w: "à ce moment-là", phon: "", trans: "at that moment", key: true },
-              { w: "finalement", phon: "/fi.nal.mɑ̃/", trans: "finally / eventually", key: true },
-              { w: "malheureusement", phon: "/mal.œ.ʁøz.mɑ̃/", trans: "unfortunately", key: false },
-              { w: "heureusement", phon: "/œ.ʁøz.mɑ̃/", trans: "fortunately", key: false },
-              { w: "au bout d'un moment", phon: "", trans: "after a while", key: false },
-            ]
-          },
-        ],
-      },
-      {
-        title: "Media & News", subtitle: "Talking about current events",
-        skills: ["speaking", "vocab", "listening"], desc: "Discuss a news story. Passive voice in context. Media vocabulary.", duration: "60 min", practiceTheme: "Media",
-        grammar: [
-          {
-            point: "The passive voice", tag: "Passive",
-            explain: "The passive shifts focus from the doer to the action. In French: être (conjugated) + past participle. The past participle agrees with the subject.",
-            rule: "être (conjugated) + participe passé (+ par + agent)",
-            examples: [{ t: "Le rapport a été publié hier.", e: "The report was published yesterday." }, { t: "Les décisions sont prises par le gouvernement.", e: "Decisions are made by the government." }, { t: "L'article a été écrit par une journaliste.", e: "The article was written by a journalist." }],
-            tip: "💡 In spoken French, on often replaces the passive: On a publié le rapport = The report was published.",
-            practiceTheme: "Media",
-          },
-        ],
-        vocab: [
-          {
-            group: "Media vocabulary", words: [
-              { w: "l'actualité", phon: "/lak.ty.a.li.te/", trans: "current events / news", key: true },
-              { w: "un reportage", phon: "/ʁə.pɔʁ.taʒ/", trans: "a news report / documentary", key: false },
-              { w: "une enquête", phon: "/yn.ɑ̃.kɛt/", trans: "an investigation", key: true },
-              { w: "selon les sources", phon: "", trans: "according to sources", key: false },
-              { w: "il s'avère que", phon: "", trans: "it turns out that", key: true },
-              { w: "faire face à", phon: "", trans: "to face / deal with", key: true },
-            ]
-          },
-        ],
-      },
-    ],
+          }],
+        },
+      ]
+    }
   },
-  SPK: {
-    B2: [
-      {
-        title: "Podcast Style", subtitle: "Extended fluent monologue",
-        skills: ["speaking", "listening"], desc: "Talk about a topic for 5 minutes without stopping. Your teacher only asks follow-up questions.", duration: "30 min", practiceTheme: "Conversation",
-        grammar: [],
-        vocab: [{
-          group: "Filler & thinking phrases", words: [
-            { w: "Ça me fait penser à…", phon: "", trans: "That makes me think of…", key: true },
-            { w: "Je dirais que…", phon: "", trans: "I would say that…", key: true },
-            { w: "Dans une certaine mesure", phon: "", trans: "To a certain extent", key: false },
-            { w: "En quelque sorte…", phon: "", trans: "In a way…", key: false },
-            { w: "Il va sans dire que…", phon: "", trans: "It goes without saying that…", key: true },
-          ]
-        }],
-      },
-      {
-        title: "Rapid Fire", subtitle: "Fast reaction speaking",
-        skills: ["speaking"], desc: "Your teacher fires topics one by one. You respond immediately — no pause to translate.", duration: "30 min", practiceTheme: "Conversation",
-        grammar: [],
-        vocab: [{
-          group: "Spontaneous reaction phrases", words: [
-            { w: "Honnêtement…", phon: "", trans: "Honestly…", key: true },
-            { w: "Ça dépend vraiment…", phon: "", trans: "It really depends…", key: true },
-            { w: "Ce qui est sûr, c'est que…", phon: "", trans: "What's certain is that…", key: false },
-            { w: "Je n'avais pas pensé à ça.", phon: "", trans: "I hadn't thought of that.", key: false },
-          ]
-        }],
-      },
-    ],
+  EN: {
+    GEN: {
+      A1: "FROM_EN_A1_DATA", // Marker to use window.curriculumData.en_a1
+      A2: [],
+    },
+    SPK: {
+      B2: []
+    }
   },
-  EXM: {
-    C1: [
-      {
-        title: "Advanced Register", subtitle: "C1 vocabulary and grammar targets",
-        skills: ["grammar", "vocab", "writing"], desc: "The specific grammar and vocabulary ranges that separate B2 from C1 in the exam marking criteria.", duration: "120 min", practiceTheme: "Advanced",
-        grammar: [
-          {
-            point: "Nominalisation (verbal nouns)", tag: "C1 style",
-            explain: "Advanced French uses nouns derived from verbs to make writing more concise and formal. This is a key C1 exam marker.",
-            rule: "verb → noun: décider → la décision · analyser → l'analyse · développer → le développement",
-            examples: [{ t: "Ils ont décidé de partir. → La décision de partir…", e: "They decided to leave → The decision to leave…" }, { t: "On a analysé les résultats. → L'analyse des résultats…", e: "They analysed results → The analysis of results…" }],
-            tip: "💡 Nominalisations are essential in formal writing. Practise converting full sentences.",
-            practiceTheme: "Advanced",
-          },
-        ],
-        vocab: [{
-          group: "C1 academic phrases", words: [
-            { w: "force est de constater que", phon: "", trans: "one must acknowledge that", key: true },
-            { w: "il convient de souligner", phon: "", trans: "it is worth emphasising", key: true },
-            { w: "à cet égard", phon: "", trans: "in this regard", key: false },
-            { w: "dans la mesure où", phon: "", trans: "insofar as", key: true },
-            { w: "quoi qu'il en soit", phon: "", trans: "be that as it may", key: true },
-          ]
-        }],
-      },
-      {
-        title: "C1 Speaking Simulation", subtitle: "Full oral exam run-through",
-        skills: ["speaking"], desc: "Timed simulation of all speaking components with real-time feedback and scoring against official criteria.", duration: "120 min", practiceTheme: "Advanced",
-        grammar: [],
-        vocab: [{
-          group: "Oral exam expressions", words: [
-            { w: "Si je comprends bien la question…", phon: "", trans: "If I understand the question correctly…", key: true },
-            { w: "Pour nuancer mon propos…", phon: "", trans: "To add nuance to what I said…", key: true },
-            { w: "En ce qui concerne…", phon: "", trans: "As regards / Regarding…", key: false },
-            { w: "Je me permets d'ajouter que…", phon: "", trans: "I would add that…", key: false },
-          ]
-        }],
-      },
-    ],
-  },
+  IT: { SPK: { B2: [] } },
+  RU: { GEN: { A1: [] } },
+  EL: { EXM: { C1: [
+    {
+      title: "Advanced Register", subtitle: "C1 vocabulary and grammar targets",
+      skills: ["grammar", "vocab", "writing"], desc: "The specific grammar and vocabulary ranges that separate B2 from C1 in the exam marking criteria.", duration: "120 min", practiceTheme: "Advanced",
+      grammar: [
+        {
+          point: "Nominalisation (verbal nouns)", tag: "C1 style",
+          explain: "Advanced French uses nouns derived from verbs to make writing more concise and formal. This is a key C1 exam marker.",
+          rule: "verb → noun: décider → la décision · analyser → l'analyse · développer → le développement",
+          examples: [{ t: "Ils ont décidé de partir. → La décision de partir…", e: "They decided to leave → The decision to leave…" }, { t: "On a analysé les résultats. → L'analyse des résultats…", e: "They analysed results → The analysis of results…" }],
+          tip: "💡 Nominalisations are essential in formal writing. Practise converting full sentences.",
+          practiceTheme: "Advanced",
+        },
+      ],
+      vocab: [{
+        group: "C1 academic phrases", words: [
+          { w: "force est de constater que", phon: "", trans: "one must acknowledge that", key: true },
+          { w: "il convient de souligner", phon: "", trans: "it is worth emphasising", key: true },
+          { w: "à cet égard", phon: "", trans: "in this regard", key: false },
+          { w: "dans la mesure où", phon: "", trans: "insofar as", key: true },
+          { w: "quoi qu'il en soit", phon: "", trans: "be that as it may", key: true },
+        ]
+      }],
+    },
+  ] } }
 };
