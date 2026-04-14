@@ -1,18 +1,18 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Student Area Exclusivity', () => {
-    test('Entering English A0 code shows only English A0 content and hides site navigation', async ({ page }) => {
+    test('Entering English A1 code shows only English A1 content and hides site navigation', async ({ page }) => {
         await page.goto('http://localhost:8080/days.html');
 
-        // Unlock with A0 code
-        await page.locator('#ci').fill('COSY-EN-A0-GEN');
+        // Unlock with A1 code
+        await page.locator('#ci').fill('COSY-EN-A1-GEN');
         await page.getByRole('button', { name: /Unlock/i }).click();
 
         // Check header identity
-        await expect(page.locator('#ct')).toHaveText(/English · Pre-Baby \(A0\) · General Course/);
+        await expect(page.locator('#ct')).toHaveText(/English · Baby \(A1\) · General Course/);
 
         // Verify lesson content
-        await expect(page.locator('.l-title').first()).toHaveText('The Alphabet & Sounds');
+        await expect(page.locator('.l-title').first()).toHaveText('A day in my life — routines revisited');
 
         // Verify exclusivity: navigation links should be hidden
         await expect(page.locator('.nav-links li:has-text("How it works")')).not.toBeVisible();
@@ -24,7 +24,7 @@ test.describe('Student Area Exclusivity', () => {
 
     test('Logout restores navigation', async ({ page }) => {
         await page.goto('http://localhost:8080/days.html');
-        await page.locator('#ci').fill('COSY-EN-A0-GEN');
+        await page.locator('#ci').fill('COSY-EN-A1-GEN');
         await page.getByRole('button', { name: /Unlock/i }).click();
 
         await page.getByRole('button', { name: /Log out/i }).click();

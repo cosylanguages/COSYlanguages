@@ -1080,7 +1080,7 @@
             faq_1_q: "Come funzionano le lezioni?",
             faq_1_a: "Le lezioni sono individuali tramite Google Meet o Zoom. Ci concentriamo sulla comunicazione attiva, utilizzando la metodologia COSY per farti parlare fin dal primo giorno.",
             faq_2_q: "Ho bisogno di esperienza precedente?",
-            faq_2_a: "Niente affatto. Insegniamo a studenti dal livello principiante assoluto (A0) al livello avanzato (C2). Il tuo insegnante adatterà il ritmo e il contenuto al tuo livello.",
+            faq_2_a: "Niente affatto. Insegniamo a studenti dal livello principiante assoluto (A1) al livello avanzato (C2). Il tuo insegnante adatterà il ritmo e il contenuto al tuo livello.",
             faq_3_q: "Quanto velocemente progredirò?",
             faq_3_a: "Il progresso dipende dalla tua costanza. Con la nostra abitudine quotidiana 'Spoken' e le lezioni individuali, la maggior parte degli studenti avverte una differenza significativa nella fiducia in se stessi entro 4-8 settimane.",
             faq_4_q: "Posso cambiare il mio programma?",
