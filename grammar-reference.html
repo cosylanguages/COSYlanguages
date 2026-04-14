@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grammar Reference — COSYlanguages</title>
+    <!-- Data Dependencies -->
+    <script src="js/data/germanic/en/starter/grammar.js"></script>
+    <script src="js/data/romance/fr/starter/grammar.js"></script>
+    <script src="js/data/romance/it/starter/grammar.js"></script>
+    <script src="js/data/slavic/ru/starter/grammar.js"></script>
+    <script src="js/data/hellenic/el/starter/grammar.js"></script>
+<link rel="icon" href="images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal:     #00B5A3;
+  --teal-dk:  #008F80;
+  --teal-lt:  #00CFC0;
+  --black:    #111111;
+  --white:    #FFFFFF;
+  --yellow:   #FFE135;
+  --red:      #FF4136;
+  --orange:   #FF6B1A;
+  --green:    #2ECC40;
+  --blue:     #0074D9;
+  --cream:    #FFFDF5;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--teal);
+  color: var(--black);
+  min-height: 100vh;
+}
+
+/* ── Page header ── */
+.page-header {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .8rem;
+  position: sticky; top: 0; z-index: 300;
+  border-bottom: 3px solid var(--yellow);
+}
+.page-header h1 {
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.page-header .breadcrumb {
+  font-size: .78rem;
+  opacity: .6;
+}
+.lang-tabs {
+  display: flex;
+  gap: .4rem;
+}
+.lang-tab {
+  background: rgba(255,255,255,.12);
+  border: 2px solid rgba(255,255,255,.3);
+  border-radius: 999px;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: .78rem;
+  font-weight: 800;
+  padding: .25rem .75rem;
+  cursor: pointer;
+  transition: all .18s;
+  text-decoration: none;
+}
+.lang-tab.active {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--black);
+}
+.lang-tab:hover { background: var(--teal-dk); border-color: var(--teal-dk); }
+
+/* ── Layout ── */
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: calc(100vh - 60px);
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  background: var(--teal-dk);
+  padding: 1.5rem 0;
+  border-right: 3px solid var(--black);
+  position: sticky;
+  top: 66px;
+  height: calc(100vh - 66px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.sidebar-section {
+  margin-bottom: .3rem;
+}
+.sidebar-label {
+  font-size: .62rem;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.55);
+  padding: .8rem 1.2rem .3rem;
+}
+.sidebar-item {
+  display: block;
+  padding: .5rem 1.2rem;
+  font-size: .82rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.85);
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all .15s;
+  text-decoration: none;
+}
+.sidebar-item:hover { background: rgba(0,0,0,.15); color: #fff; }
+.sidebar-item.active {
+  border-left-color: var(--yellow);
+  background: rgba(0,0,0,.2);
+  color: var(--yellow);
+}
+
+/* ── Main content ── */
+.main {
+  padding: 2rem;
+  background: var(--teal);
+}
+
+.level-section {
+  margin-bottom: 2.5rem;
+}
+
+.level-badge {
+  display: inline-block;
+  background: var(--black);
+  color: var(--yellow);
+  font-size: .75rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: .3rem .9rem;
+  border-radius: 999px;
+  margin-bottom: .8rem;
+}
+
+/* ── Grammar card — THE CORE ELEMENT ── */
+.card {
+  background: var(--teal);
+  border: 3px solid var(--black);
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  box-shadow: 5px 5px 0 var(--black);
+  animation: popIn 0.3s ease both;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.card-title {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'Lora', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: .65rem 1.1rem;
+  text-align: center;
+  letter-spacing: .02em;
+}
+
+/* Grammar table inside card */
+.gtable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gtable td, .gtable th {
+  border: 2px solid var(--black);
+  padding: .6rem .9rem;
+  font-size: .92rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+.gtable .row-label {
+  background: var(--black);
+  color: var(--white);
+  font-size: .82rem;
+  font-weight: 800;
+  text-align: left;
+  padding: .5rem 1rem;
+  width: 28%;
+}
+
+.gtable td.content {
+  background: var(--white);
+  font-size: .95rem;
+}
+
+/* Section header rows */
+.gtable .section-row td {
+  background: rgba(0,0,0,.18);
+  color: var(--white);
+  font-size: .82rem;
+  font-weight: 900;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: .45rem 1rem;
+  border-color: var(--black);
+}
+
+/* The full-width note rows */
+.gtable .note-row td {
+  background: rgba(0,0,0,.12);
+  font-size: .86rem;
+  font-weight: 700;
+  text-align: center;
+  padding: .55rem 1rem;
+  font-style: italic;
+}
+
+/* Coloured key terms */
+.key-verb   { color: var(--blue); font-weight: 900; }
+.key-label  { color: var(--orange); font-weight: 900; }
+.key-neg    { color: var(--red);    font-weight: 900; }
+.key-pos    { color: var(--green);  font-weight: 900; }
+
+/* Grid for two-column cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+/* Section title */
+.section-title {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 1.2rem;
+  padding-bottom: .5rem;
+  border-bottom: 3px solid var(--black);
+}
+
+/* Language block visibility */
+.lang-block { display: none; }
+.lang-block.show { display: block; }
+
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .cards-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div>
+    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <h1>Grammar Reference 📐</h1>
+  </div>
+  <div class="lang-tabs">
+    <button class="lang-tab active" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
+    <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
+    <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
+    <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
+    <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <!-- Sidebar content injected by JS -->
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main" id="main-content">
+  <!-- Content injected by JS -->
+</main>
+</div>
+
+<script>
+let currentObserver = null;
+const LANG_NAMES = { en: "English", fr: "Français", it: "Italiano", ru: "Русский", el: "Ελληνικά" };
+
+function setLang(lang) {
+  const verbs = window.grammarData?.[lang] || [];
+  if (!verbs.length) {
+    console.warn("No grammar data found for lang:", lang);
+  }
+
+  // Update tabs
+  document.querySelectorAll('.lang-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.lang === lang);
+  });
+
+  // Build items grouping by level
+  const levels = {};
+  verbs.forEach(v => {
+    const lv = v.level || "starter";
+    if (!levels[lv]) levels[lv] = [];
+    levels[lv].push(v);
+  });
+
+  // Render Sidebar
+  const sidebar = document.getElementById('sidebar');
+  sidebar.innerHTML = Object.keys(levels).map(lv => `
+    <div class="sidebar-section">
+      <div class="sidebar-label">${lv.toUpperCase()}</div>
+      ${levels[lv].map(v => `
+        <a class="sidebar-item" href="#verb-${v.verb.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.verb}</a>
+      `).join('')}
+    </div>
+  `).join('');
+
+  // Render Content
+  const main = document.getElementById('main-content');
+  main.innerHTML = `
+    <div class="section-title">${LANG_NAMES[lang]} — Grammar Reference</div>
+    ${Object.keys(levels).map(lv => `
+      <div class="level-section">
+        <div class="level-badge">${lv}</div>
+        <div class="cards-grid">
+          ${levels[lv].map(v => renderVerbCard(v)).join('')}
+        </div>
+      </div>
+    `).join('')}
+  `;
+
+  initScrollSpy();
+}
+
+function renderVerbCard(v) {
+  const id = `verb-${v.verb.replace(/\s+/g, '-')}`;
+  let tableRows = "";
+
+  if (v.tenses && v.tenses.present_simple) {
+    const ps = v.tenses.present_simple;
+    tableRows += `<tr class="section-row"><td colspan="3">✅ Present Simple</td></tr>`;
+    v.pronouns.forEach((p, i) => {
+      tableRows += `
+        <tr>
+          <td class="row-label">${p}</td>
+          <td class="content"><span class="key-verb">${ps.positive[i]}</span></td>
+          <td class="content"><span class="key-neg">${ps.negative[i]}</span></td>
+        </tr>`;
+    });
+  }
+
+  return `
+    <div class="card" id="${id}">
+      <div class="card-title">Verb: ${v.verb.toUpperCase()}</div>
+      <table class="gtable">${tableRows}</table>
+    </div>
+  `;
+}
+
+function setActiveLink(el) {
+  document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+  el.classList.add('active');
+}
+
+function initScrollSpy() {
+  if (currentObserver) currentObserver.disconnect();
+  const items = document.querySelectorAll('.sidebar-item');
+  const cards = document.querySelectorAll('.card');
+
+  currentObserver = new IntersectionObserver(entries => {
+    // Find the entry that is MOST visible or just the first one intersecting
+    const visible = entries.filter(e => e.isIntersecting);
+    if (visible.length > 0) {
+      // Sort by intersection ratio or just take the first
+      const best = visible[0];
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(`.sidebar-item[href="#${best.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  }, { threshold: 0.2 });
+
+  cards.forEach(c => currentObserver.observe(c));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  setLang('en');
+});
+</script>
+</body>
+</html>

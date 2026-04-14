@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocabulary Reference — COSYlanguages</title>
+    <!-- Data Dependencies -->
+    <script src="../js/data/theme_config.js"></script>
+    <!-- English Data Files -->
+    <script src="../js/data/germanic/en/starter/vocabulary.js"></script>
+    <script src="../js/data/germanic/en/starter/adjectives.js"></script>
+    <script src="../js/data/germanic/en/starter/verbs.js"></script>
+    <script src="../js/data/germanic/en/starter/people.js"></script>
+    <script src="../js/data/germanic/en/starter/locations.js"></script>
+    <script src="../js/data/germanic/en/starter/nationalities.js"></script>
+    <script src="../js/data/germanic/en/elementary/vocabulary.js"></script>
+    <script src="../js/data/germanic/en/elementary/adjectives.js"></script>
+    <script src="../js/data/germanic/en/elementary/verbs.js"></script>
+    <script src="../js/data/germanic/en/elementary/people.js"></script>
+    <script src="../js/data/germanic/en/elementary/locations.js"></script>
+    <script src="../js/data/germanic/en/elementary/nationalities.js"></script>
+    <script src="../js/data/germanic/en/intermediate/vocabulary.js"></script>
+    <script src="../js/data/germanic/en/intermediate/adjectives.js"></script>
+    <script src="../js/data/germanic/en/intermediate/verbs.js"></script>
+    <script src="../js/data/germanic/en/intermediate/people.js"></script>
+    <script src="../js/data/germanic/en/intermediate/locations.js"></script>
+    <script src="../js/data/germanic/en/upper-intermediate/vocabulary.js"></script>
+    <script src="../js/data/germanic/en/upper-intermediate/adjectives.js"></script>
+    <script src="../js/data/germanic/en/upper-intermediate/verbs.js"></script>
+    <script src="../js/data/germanic/en/upper-intermediate/people.js"></script>
+    <script src="../js/data/germanic/en/advanced/vocabulary.js"></script>
+    <script src="../js/data/germanic/en/advanced/adjectives.js"></script>
+    <script src="../js/data/germanic/en/advanced/verbs.js"></script>
+    <script src="../js/data/germanic/en/advanced/people.js"></script>
+    <script src="../js/data/germanic/en/proficiency/vocabulary.js"></script>
+    <script src="../js/data/germanic/en/proficiency/adjectives.js"></script>
+    <script src="../js/data/germanic/en/proficiency/verbs.js"></script>
+    <script src="../js/data/germanic/en/proficiency/people.js"></script>
+<link rel="icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal:    #00B5A3;
+  --teal-dk: #008F80;
+  --teal-lt: #E0FAF7;
+  --black:   #111;
+  --white:   #fff;
+  --cream:   #FFFEF8;
+  --yellow:  #FFE135;
+  --red:     #FF3B30;
+  --orange:  #FF6B1A;
+  --green:   #2ECC71;
+  --blue:    #0A7FFF;
+  --ink:     #1A1A1A;
+  --muted:   #666;
+
+  /* level colours */
+  --a0: #2E7D32; --a0-lt: #E8F5E9;
+  --a1: #1565C0; --a1-lt: #E3F2FD;
+  --a2: #6A1B9A; --a2-lt: #F3E5F5;
+  --b1: #E65100; --b1-lt: #FFF3E0;
+  --b2: #AD1457; --b2-lt: #FCE4EC;
+  --c1: #004D40; --c1-lt: #E0F2F1;
+  --c2: #1A237E; --c2-lt: #E8EAF6;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--teal);
+  color: var(--black);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── TOP BAR ── */
+.topbar {
+  background: var(--black);
+  color: #fff;
+  padding: .7rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: sticky; top: 0; z-index: 300;
+  border-bottom: 3px solid var(--yellow);
+}
+.tb-left { display: flex; align-items: center; gap: .7rem; }
+.tb-title { font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; }
+.tb-sub   { font-size: .68rem; opacity: .6; }
+.back-link {
+  font-size: .75rem; font-weight: 800; color: rgba(255,255,255,.7);
+  border: 1.5px solid rgba(255,255,255,.3); border-radius: 999px;
+  padding: .22rem .7rem; text-decoration: none; transition: all .15s;
+}
+.back-link:hover { color: #fff; border-color: #fff; }
+
+/* ── LAYOUT ── */
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: calc(100vh - 54px);
+}
+
+/* ── SIDEBAR ── */
+.sidebar {
+  background: var(--teal-dk);
+  border-right: 3px solid var(--black);
+  padding: 1rem 0 3rem;
+  position: sticky; top: 54px;
+  height: calc(100vh - 54px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.sb-section { margin-bottom: .3rem; }
+.sb-label {
+  font-size: .6rem; font-weight: 900; letter-spacing: .1em;
+  text-transform: uppercase; color: rgba(255,255,255,.4);
+  padding: .9rem 1.1rem .25rem; display: block;
+}
+.sb-item {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .42rem 1.1rem;
+  font-size: .78rem; font-weight: 700;
+  color: rgba(255,255,255,.8);
+  cursor: pointer; border-left: 3px solid transparent;
+  transition: all .15s; text-decoration: none;
+}
+.sb-item:hover { background: rgba(0,0,0,.2); color: #fff; }
+.sb-item.active {
+  border-left-color: var(--yellow);
+  background: rgba(0,0,0,.25); color: var(--yellow);
+}
+.sb-dot {
+  width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0;
+  border: 2px solid rgba(255,255,255,.4);
+}
+.sb-dot.filled { border-color: transparent; }
+
+/* Level dots */
+.dot-a0 { background: var(--a0); }
+.dot-a1 { background: var(--a1); }
+.dot-a2 { background: var(--a2); }
+.dot-b1 { background: var(--b1); }
+.dot-b2 { background: var(--b2); }
+.dot-c1 { background: var(--c1); }
+.dot-c2 { background: var(--c2); }
+
+/* Sidebar stats */
+.sb-stat {
+  margin: .8rem 1rem;
+  background: rgba(0,0,0,.2);
+  border-radius: 8px;
+  padding: .6rem .8rem;
+  font-size: .75rem;
+  color: rgba(255,255,255,.7);
+}
+.sb-stat .sn { font-size: 1.2rem; font-weight: 900; color: var(--yellow); display: block; }
+.sb-stat .sl { font-size: .65rem; opacity: .7; }
+
+/* ── MAIN ── */
+.main {
+  padding: 1.6rem 1.8rem 5rem;
+  background: var(--teal);
+}
+
+/* ── LEVEL HEADER ── */
+.level-header {
+  display: flex; align-items: center; gap: .8rem;
+  margin-bottom: 1.3rem;
+  padding-bottom: .55rem;
+  border-bottom: 3px solid var(--black);
+}
+.level-badge {
+  font-size: .9rem; font-weight: 900; color: #fff;
+  padding: .3rem .8rem; border-radius: 6px;
+  border: 2.5px solid var(--black);
+  box-shadow: 3px 3px 0 var(--black);
+  letter-spacing: .04em;
+}
+.level-title {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem; font-weight: 700;
+}
+.level-desc {
+  font-size: .8rem; color: rgba(0,0,0,.6); margin-left: auto;
+  font-style: italic;
+}
+
+/* ── MODE SWITCHER ── */
+.mode-bar {
+  display: flex; align-items: center; gap: .5rem;
+  margin-bottom: 1.4rem; flex-wrap: wrap;
+}
+.mode-label { font-size: .72rem; font-weight: 900; color: rgba(0,0,0,.5); margin-right: .3rem; text-transform: uppercase; letter-spacing: .06em; }
+.mode-btn {
+  display: flex; align-items: center; gap: .35rem;
+  background: rgba(0,0,0,.1);
+  border: 2.5px solid var(--black);
+  border-radius: 6px;
+  padding: .35rem .8rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: .78rem; font-weight: 800;
+  cursor: pointer;
+  transition: all .15s;
+  box-shadow: 2px 2px 0 var(--black);
+  color: var(--black);
+}
+.mode-btn:hover { background: rgba(0,0,0,.18); transform: translateY(-1px); }
+.mode-btn.active {
+  background: var(--black); color: var(--yellow);
+  box-shadow: none; transform: translateY(1px);
+}
+.mode-icon { font-size: .95rem; }
+
+/* ── SEARCH BAR ── */
+.search-row {
+  display: flex; gap: .6rem; margin-bottom: 1.2rem; flex-wrap: wrap;
+}
+.search-input {
+  flex: 1; min-width: 180px; height: 42px;
+  border: 2.5px solid var(--black); border-radius: 6px;
+  background: rgba(255,255,255,.4);
+  padding: 0 1rem;
+  font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700;
+  outline: none; color: var(--black);
+  box-shadow: 2px 2px 0 var(--black);
+  transition: background .18s;
+}
+.search-input:focus { background: rgba(255,255,255,.7); }
+.search-input::placeholder { color: rgba(0,0,0,.4); }
+
+/* ── REFERENCE TABLE ── */
+.ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.ref-table th {
+  background: var(--black);
+  color: #fff;
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: .5rem .8rem;
+  text-align: left;
+  border: 2px solid rgba(255,255,255,.1);
+}
+.ref-table td {
+  border: 2px solid var(--black);
+  padding: .6rem .8rem;
+  vertical-align: top;
+  font-size: .84rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background: var(--white);
+}
+.ref-table tr:nth-child(even) td { background: #F7FFFE; }
+.ref-table tr:hover td { background: var(--teal-lt); }
+
+.rt-word {
+  font-family: 'Lora', serif;
+  font-size: 1rem; font-weight: 700; color: var(--black);
+  display: block;
+}
+.rt-pos {
+  font-size: .68rem; font-weight: 700; color: var(--muted);
+  font-style: italic; margin-top: .1rem;
+}
+.rt-topic {
+  display: inline-block; font-size: .65rem; font-weight: 900;
+  background: var(--teal-lt); color: var(--teal-dk);
+  border-radius: 4px; padding: .1rem .4rem; margin-top: .3rem;
+  border: 1px solid rgba(0,181,163,.2);
+}
+.rt-def  { color: var(--ink); }
+.rt-ex   { color: var(--muted); font-style: italic; font-size: .8rem; }
+.rt-ex::before { content: '"'; }
+.rt-ex::after  { content: '"'; }
+.rt-pron {
+  font-family: 'Lora', serif;
+  font-size: .78rem; color: var(--blue);
+  font-style: italic; display: block;
+}
+.rt-error {
+  font-size: .76rem; color: var(--red);
+  display: flex; align-items: flex-start; gap: .3rem;
+}
+.rt-error::before { content: '⚠️'; flex-shrink: 0; }
+.rt-score {
+  font-size: .7rem; font-weight: 900;
+  color: var(--muted); text-align: center;
+  cursor: pointer; transition: all .15s;
+  padding: .2rem; border-radius: 4px;
+  line-height: 1.3;
+}
+.rt-score:hover { background: rgba(0,0,0,.08); }
+.rt-score .stars { font-size: .85rem; letter-spacing: -1px; }
+
+/* Mastery states */
+tr.mastered td { opacity: .55; }
+tr.mastered .rt-word { text-decoration: line-through; color: var(--muted); }
+tr.mastered { position: relative; }
+
+/* ── FLIP CARDS ── */
+.flip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.flip-wrap {
+  height: 130px;
+  perspective: 800px;
+  cursor: pointer;
+}
+.flip-inner {
+  width: 100%; height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .45s cubic-bezier(.4,.2,.2,1);
+}
+.flip-wrap.flipped .flip-inner { transform: rotateY(180deg); }
+
+.flip-front, .flip-back {
+  position: absolute; inset: 0;
+  backface-visibility: hidden;
+  border: 3px solid var(--black);
+  border-radius: 6px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: .8rem;
+  box-shadow: 4px 4px 0 var(--black);
+}
+.flip-front {
+  background: var(--black); color: var(--yellow);
+}
+.flip-front .fw  { font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 700; }
+.flip-front .fp  { font-size: .7rem; opacity: .6; margin-top: .3rem; font-style: italic; }
+.flip-back  { background: var(--yellow); color: var(--black); transform: rotateY(180deg); }
+.flip-back  .fd  { font-size: .8rem; font-weight: 700; line-height: 1.45; }
+.flip-back  .fe  { font-size: .72rem; color: rgba(0,0,0,.6); margin-top: .4rem; font-style: italic; }
+.flip-badge {
+  position: absolute; top: .4rem; right: .4rem;
+  font-size: .6rem; font-weight: 900;
+  background: rgba(255,255,255,.2);
+  border-radius: 4px; padding: .1rem .35rem;
+}
+
+/* ── TYPING EXERCISE ── */
+.typing-exercise {
+  margin-bottom: 1.5rem;
+}
+.type-card {
+  background: var(--white);
+  border: 3px solid var(--black);
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: .8rem;
+  box-shadow: 4px 4px 0 var(--black);
+}
+.tc-prompt {
+  font-size: .78rem; font-weight: 900;
+  letter-spacing: .05em; text-transform: uppercase;
+  color: var(--teal-dk); margin-bottom: .5rem;
+}
+.tc-def {
+  font-size: .95rem; font-weight: 700; color: var(--ink);
+  line-height: 1.6; margin-bottom: .6rem;
+}
+.tc-ex {
+  font-size: .82rem; color: var(--muted); font-style: italic;
+  margin-bottom: .9rem; padding: .5rem .8rem;
+  background: rgba(0,181,163,.1);
+  border-radius: 4px; border-left: 3px solid var(--teal);
+}
+.tc-ex .blank {
+  display: inline-block;
+  min-width: 100px;
+  border-bottom: 2.5px solid var(--black);
+  font-style: normal; font-weight: 900;
+  color: transparent; position: relative;
+}
+.tc-input-row { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; }
+.tc-input {
+  flex: 1; min-width: 160px; height: 46px;
+  border: 2.5px solid var(--black);
+  border-radius: 6px;
+  background: rgba(0,181,163,.08);
+  padding: 0 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem; font-weight: 800;
+  outline: none; color: var(--black);
+  transition: background .18s, border-color .18s;
+}
+.tc-input:focus  { background: #fff; border-color: var(--teal); }
+.tc-input.correct { background: #E8F5E9; border-color: #2E7D32; color: #2E7D32; }
+.tc-input.wrong   { background: #FFEBEE; border-color: #C62828; color: #C62828;
+  animation: shake .25s ease; }
+.tc-input.close   { background: #FFF8E1; border-color: #F57F17; color: #F57F17; }
+@keyframes shake {
+  0%,100%{transform:translateX(0)}
+  25%{transform:translateX(-5px)}75%{transform:translateX(5px)}
+}
+.tc-btn {
+  height: 46px; padding: 0 1.2rem;
+  background: var(--black); color: var(--yellow);
+  border: 2.5px solid var(--black); border-radius: 6px;
+  font-family: 'Nunito', sans-serif; font-weight: 900; font-size: .85rem;
+  cursor: pointer; transition: opacity .15s;
+  box-shadow: 2px 2px 0 rgba(0,0,0,.3);
+}
+.tc-btn:hover { opacity: .85; }
+.tc-btn.hint-btn {
+  background: rgba(0,0,0,.1); color: var(--black);
+  border-color: var(--black);
+  box-shadow: 2px 2px 0 rgba(0,0,0,.2);
+}
+.tc-feedback {
+  font-size: .8rem; font-weight: 800; margin-top: .5rem;
+  padding: .4rem .7rem; border-radius: 4px; display: none;
+}
+.tc-feedback.show { display: block; }
+.tc-feedback.ok  { background: #E8F5E9; color: #2E7D32; }
+.tc-feedback.err { background: #FFEBEE; color: #C62828; }
+.tc-feedback.near{ background: #FFF8E1; color: #F57F17; }
+.tc-pron { font-size: .75rem; color: var(--blue); font-style: italic; }
+
+/* ── MULTIPLE CHOICE ── */
+.mc-exercise { margin-bottom: 1.5rem; }
+.mc-card {
+  background: var(--white);
+  border: 3px solid var(--black); border-radius: 6px;
+  padding: 1.2rem 1.4rem; margin-bottom: .8rem;
+  box-shadow: 4px 4px 0 var(--black);
+}
+.mc-question {
+  font-size: .95rem; font-weight: 700; color: var(--ink);
+  margin-bottom: 1rem; line-height: 1.55;
+}
+.mc-options { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.mc-opt {
+  padding: .7rem 1rem; border-radius: 6px;
+  border: 2.5px solid rgba(0,0,0,.15);
+  background: #F9F9F9;
+  font-family: 'Nunito', sans-serif;
+  font-size: .85rem; font-weight: 700;
+  cursor: pointer; text-align: left;
+  transition: all .15s; line-height: 1.4;
+  -webkit-tap-highlight-color: transparent;
+}
+.mc-opt:hover  { background: var(--teal-lt); border-color: var(--teal); }
+.mc-opt.chosen { background: var(--teal-lt); border-color: var(--teal); }
+.mc-opt.correct{ background: #E8F5E9; border-color: #2E7D32 !important; color: #2E7D32 !important; font-weight: 900; }
+.mc-opt.wrong  { background: #FFEBEE; border-color: #C62828 !important; color: #C62828 !important; }
+.mc-word-display {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem; font-weight: 700;
+  text-align: center; padding: .8rem;
+  background: var(--black); color: var(--yellow);
+  border-radius: 4px; margin-bottom: .8rem;
+  border: 2.5px solid var(--black);
+  letter-spacing: .03em;
+}
+
+/* ── MATCHING PAIRS ── */
+.match-exercise { margin-bottom: 1.5rem; }
+.match-container {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  background: rgba(0,0,0,.08);
+  border: 3px solid var(--black); border-radius: 6px;
+  padding: 1.2rem; box-shadow: 4px 4px 0 var(--black);
+}
+.match-col-title {
+  font-size: .68rem; font-weight: 900; letter-spacing: .08em;
+  text-transform: uppercase; color: rgba(0,0,0,.5);
+  margin-bottom: .6rem; text-align: center;
+}
+.match-items { display: flex; flex-direction: column; gap: .4rem; }
+.match-item {
+  padding: .6rem .9rem; border-radius: 6px;
+  border: 2.5px solid var(--black);
+  font-size: .84rem; font-weight: 700;
+  cursor: pointer; transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.4;
+}
+.match-word { background: var(--black); color: var(--yellow); }
+.match-def  { background: var(--white); color: var(--black); }
+.match-item.selected-word { background: var(--teal); color: #fff; border-color: var(--teal-dk); }
+.match-item.selected-def  { background: var(--teal-lt); border-color: var(--teal); }
+.match-item.matched-ok    { background: #E8F5E9; color: #2E7D32; border-color: #2E7D32; opacity: .7; pointer-events: none; }
+.match-item.matched-bad   { background: #FFEBEE; color: #C62828; border-color: #C62828; animation: shake .25s ease; }
+
+/* ── SCORE WIDGET ── */
+.score-widget {
+  position: fixed; bottom: 1.2rem; right: 1.2rem;
+  background: var(--black); color: var(--yellow);
+  border: 3px solid var(--yellow);
+  border-radius: 8px; padding: .5rem 1rem;
+  font-size: .82rem; font-weight: 900;
+  box-shadow: 4px 4px 0 var(--yellow); z-index: 200;
+  cursor: default; transition: transform .2s;
+}
+.score-widget:hover { transform: scale(1.05); }
+.sw-pts { font-size: 1.3rem; display: block; text-align: center; }
+
+/* ── PROGRESS BAR ── */
+.level-progress {
+  background: rgba(0,0,0,.15);
+  border: 2px solid var(--black); border-radius: 999px;
+  height: 8px; overflow: hidden; margin-bottom: 1.2rem;
+}
+.lp-fill {
+  height: 100%; border-radius: 999px;
+  background: var(--yellow);
+  transition: width .5s ease;
+}
+
+/* ── SECTION DIVIDER ── */
+hr.sec-div {
+  border: none; border-top: 2.5px solid var(--black);
+  margin: 2rem 0 1.5rem; opacity: .3;
+}
+
+/* ── TOPIC PILL ── */
+.topic-filter {
+  display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1rem;
+}
+.tf-pill {
+  background: rgba(0,0,0,.1);
+  border: 2px solid var(--black); border-radius: 999px;
+  padding: .2rem .7rem; font-size: .72rem; font-weight: 800;
+  cursor: pointer; transition: all .15s; color: var(--black);
+}
+.tf-pill.active { background: var(--black); color: var(--yellow); }
+.tf-pill:hover  { background: rgba(0,0,0,.2); }
+
+/* ── EXERCISE CONTROLS ── */
+.ex-controls {
+  display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: 1rem; align-items: center;
+}
+.ex-btn {
+  height: 38px; padding: 0 1rem;
+  border: 2.5px solid var(--black); border-radius: 6px;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .78rem;
+  cursor: pointer; transition: all .15s;
+  box-shadow: 2px 2px 0 var(--black);
+}
+.ex-btn.primary { background: var(--black); color: var(--yellow); }
+.ex-btn.secondary { background: rgba(0,0,0,.1); color: var(--black); }
+.ex-btn:hover { opacity: .85; }
+.ex-score-inline {
+  font-size: .78rem; font-weight: 900; margin-left: auto;
+  color: rgba(0,0,0,.6);
+}
+
+/* ── LEVEL SECTIONS ── */
+.level-section { margin-bottom: 2.5rem; }
+
+/* ── ANIMATIONS ── */
+@keyframes popIn { from{opacity:0;transform:scale(.95)} to{opacity:1;transform:scale(1)} }
+.ref-table, .flip-grid, .type-card, .mc-card, .match-container {
+  animation: popIn .3s ease both;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 780px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .mc-options { grid-template-columns: 1fr; }
+  .match-container { grid-template-columns: 1fr; }
+  .main { padding: 1rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="tb-left">
+    <div>
+      <a href="../days.html" style="text-decoration: none; color: inherit;"><div class="tb-title">📖 Vocabulary Reference</div></a>
+      <div class="tb-sub">COSYlanguages · Private lessons</div>
+    </div>
+  </div>
+  <div style="display: flex; gap: .6rem;">
+    <a href="../grammar-reference.html" class="back-link">📐 Grammar</a>
+    <a href="../days.html" class="back-link">🔐 Student Area</a>
+  </div>
+</div>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <div class="sb-stat">
+    <span class="sn" id="total-words">0</span>
+    <span class="sl">words in your reference</span>
+  </div>
+  <div class="sb-stat">
+    <span class="sn" id="total-mastered">0</span>
+    <span class="sl">marked as mastered ✓</span>
+  </div>
+
+  <div class="sb-section">
+    <span class="sb-label">Levels</span>
+    <a class="sb-item active" onclick="jumpLevel('A1')">
+      <span class="sb-dot filled dot-a1"></span>A1 — Beginner
+    </a>
+    <a class="sb-item" onclick="jumpLevel('A2')">
+      <span class="sb-dot filled dot-a2"></span>A2 — Elementary
+    </a>
+    <a class="sb-item" onclick="jumpLevel('B1')">
+      <span class="sb-dot filled dot-b1"></span>B1 — Intermediate
+    </a>
+    <a class="sb-item" onclick="jumpLevel('B2')">
+      <span class="sb-dot filled dot-b2"></span>B2 — Upper-Intermediate
+    </a>
+    <a class="sb-item" onclick="jumpLevel('C1')">
+      <span class="sb-dot filled dot-c1"></span>C1 — Advanced
+    </a>
+    <a class="sb-item" onclick="jumpLevel('C2')">
+      <span class="sb-dot filled dot-c2"></span>C2 — Proficiency
+    </a>
+  </div>
+
+  <div class="sb-section">
+    <span class="sb-label">Quick actions</span>
+    <a class="sb-item" onclick="setMode('ref')">
+      <span class="sb-dot"></span>📋 Reference table
+    </a>
+    <a class="sb-item" onclick="setMode('flip')">
+      <span class="sb-dot"></span>🎴 Flip cards
+    </a>
+    <a class="sb-item" onclick="setMode('type')">
+      <span class="sb-dot"></span>✏️ Typing exercise
+    </a>
+    <a class="sb-item" onclick="setMode('mc')">
+      <span class="sb-dot"></span>❓ Multiple choice
+    </a>
+    <a class="sb-item" onclick="setMode('match')">
+      <span class="sb-dot"></span>🔗 Matching pairs
+    </a>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="main" id="main-content">
+
+<!-- Score widget -->
+<div class="score-widget" id="score-widget" title="Your practice score">
+  ⭐ <span class="sw-pts" id="score-num">0</span>
+</div>
+
+<!-- Global search -->
+<div class="search-row">
+  <input class="search-input" type="text" id="global-search"
+    placeholder="🔍  Search any word, definition or example…"
+    oninput="globalSearch(this.value)">
+</div>
+
+<!-- Mode switcher -->
+<div class="mode-bar">
+  <span class="mode-label">Mode:</span>
+  <button class="mode-btn active" id="btn-ref"   onclick="setMode('ref')">
+    <span class="mode-icon">📋</span> Reference
+  </button>
+  <button class="mode-btn" id="btn-flip"  onclick="setMode('flip')">
+    <span class="mode-icon">🎴</span> Flip cards
+  </button>
+  <button class="mode-btn" id="btn-type"  onclick="setMode('type')">
+    <span class="mode-icon">✏️</span> Type it
+  </button>
+  <button class="mode-btn" id="btn-mc"    onclick="setMode('mc')">
+    <span class="mode-icon">❓</span> Quiz me
+  </button>
+  <button class="mode-btn" id="btn-match" onclick="setMode('match')">
+    <span class="mode-icon">🔗</span> Match
+  </button>
+</div>
+
+<!-- LEVEL SECTIONS rendered by JS -->
+<div id="content-area"></div>
+
+</main>
+</div><!-- /layout -->
+
+<script>
+const VOCAB_MAP = {
+  "starter": "A1",
+  "elementary": "A2",
+  "intermediate": "B1",
+  "upper-intermediate": "B2",
+  "advanced": "C1",
+  "proficiency": "C2"
+};
+
+const VOCAB_CONFIG = {
+  A1: { color: '#1565C0', lt: '#E3F2FD', name: 'Beginner', desc: 'Building blocks for real conversations' },
+  A2: { color: '#6A1B9A', lt: '#F3E5F5', name: 'Elementary', desc: 'Language for real adult situations' },
+  B1: { color: '#E65100', lt: '#FFF3E0', name: 'Intermediate', desc: 'Nuance, precision and real fluency' },
+  B2: { color: '#AD1457', lt: '#FCE4EC', name: 'Upper-Intermediate', desc: 'Complex ideas, register and precision' },
+  C1: { color: '#004D40', lt: '#E0F2F1', name: 'Advanced', desc: 'Precision, register and rhetorical skill' },
+  C2: { color: '#1A237E', lt: '#E8EAF6', name: 'Proficiency', desc: 'Mastery — philosophical, rhetorical, exact' }
+};
+
+let VOCAB = {};
+
+function initDynamicVocab() {
+  const levels = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  levels.forEach(lv => {
+    VOCAB[lv] = { ...VOCAB_CONFIG[lv], words: [] };
+  });
+
+  // Collect data from all potential sources to be robust
+  const sources = [
+    window.vocabularyData?.["en"],
+    window.verbsData?.["en"],
+    window.adjectivesData?.["en"]
+  ].filter(Boolean).flat();
+
+  // De-duplicate items based on word and level
+  const uniqueItems = [];
+  const seen = new Set();
+
+  sources.forEach(item => {
+    if (!item || !item.word || !item.level) return;
+    const key = `${item.word.toLowerCase()}|${item.level}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    uniqueItems.push(item);
+  });
+
+  uniqueItems.forEach(item => {
+    const lvKey = VOCAB_MAP[item.level];
+    if (lvKey && VOCAB[lvKey]) {
+      // Find theme label
+      let themeLabel = item.theme;
+      if (window.themeConfig) {
+        const levelConfig = window.themeConfig[item.level];
+        if (levelConfig?.common_themes) {
+          for (const topTheme in levelConfig.common_themes) {
+            const subThemes = levelConfig.common_themes[topTheme];
+            if (subThemes[item.theme]) {
+              themeLabel = subThemes[item.theme];
+              break;
+            }
+          }
+        }
+      }
+
+      VOCAB[lvKey].words.push({
+        w: item.word,
+        pos: item.form,
+        def: item.definitions?.[0]?.text || "",
+        ex: item.definitions?.[0]?.examples?.[0] || "",
+        pron: item.transcription ? `/${item.transcription}/` : "",
+        err: item.subtext || "", // Use subtext as "info/error" for now
+        topic: themeLabel || item.theme,
+        raw: item // Keep raw for deeper integration if needed
+      });
+    }
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════════
+let currentMode     = 'ref';
+let score           = parseInt(localStorage.getItem('cosy_total_points') || '0');
+let masteredWords   = new Set(JSON.parse(localStorage.getItem('vr_mastered')||'[]'));
+let activeLevel     = 'A1';
+const LEVELS        = ['A1','A2','B1','B2','C1','C2'];
+const LEVEL_NAMES   = {A1:'Beginner',A2:'Elementary',
+                       B1:'Intermediate',B2:'Upper-Intermediate',C1:'Advanced',C2:'Proficiency'};
+
+// MC state per card
+const mcState = {};
+// Match state
+let matchSelectedWord = null;
+let matchMatched      = new Set();
+
+// ══════════════════════════════════════════════════════════════════
+// SCORE
+// ══════════════════════════════════════════════════════════════════
+function addScore(pts) {
+  score += pts;
+  localStorage.setItem('cosy_total_points', score);
+  const el = document.getElementById('score-num');
+  el.textContent = score;
+  const w = document.getElementById('score-widget');
+  w.style.transform = 'scale(1.15)';
+  w.style.borderColor = '#FFE135';
+  setTimeout(()=>{ w.style.transform=''; },350);
+}
+
+// ══════════════════════════════════════════════════════════════════
+// MASTERY
+// ══════════════════════════════════════════════════════════════════
+function toggleMastery(word) {
+  const key = word.toLowerCase();
+  if (masteredWords.has(key)) masteredWords.delete(key);
+  else { masteredWords.add(key); addScore(5); }
+  localStorage.setItem('vr_mastered', JSON.stringify([...masteredWords]));
+  updateStats();
+  renderContent();
+}
+
+function updateStats() {
+  const total = Object.values(VOCAB).reduce((a,lv)=>a+(lv.words?.length || 0),0);
+  document.getElementById('total-words').textContent = total;
+  document.getElementById('total-mastered').textContent = masteredWords.size;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// FUZZY MATCH
+// ══════════════════════════════════════════════════════════════════
+function fuzzy(input, target) {
+  const a = input.trim().toLowerCase();
+  const b = target.trim().toLowerCase();
+  if (a === b) return 'exact';
+  // levenshtein ≤ 1
+  if (Math.abs(a.length-b.length) > 2) return 'wrong';
+  let diff = 0;
+  for (let i=0;i<Math.max(a.length,b.length);i++) if (a[i]!==b[i]) diff++;
+  return diff <= 1 ? 'close' : 'wrong';
+}
+
+// ══════════════════════════════════════════════════════════════════
+// MODE SWITCHER
+// ══════════════════════════════════════════════════════════════════
+function setMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('btn-'+mode)?.classList.add('active');
+  // Update sidebar
+  document.querySelectorAll('.sb-item').forEach(i=>i.classList.remove('active'));
+  renderContent();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// JUMP TO LEVEL
+// ══════════════════════════════════════════════════════════════════
+function jumpLevel(lv) {
+  activeLevel = lv;
+  document.querySelectorAll('.sb-item').forEach(i=>i.classList.remove('active'));
+  const el = document.getElementById('level-sec-'+lv);
+  if (el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  else renderContent();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// GLOBAL SEARCH
+// ══════════════════════════════════════════════════════════════════
+function globalSearch(query) {
+  if (!query.trim()) { renderContent(); return; }
+  const q = query.toLowerCase();
+  const area = document.getElementById('content-area');
+  const results = [];
+  LEVELS.forEach(lv => {
+    VOCAB[lv].words.forEach(item => {
+      if (item.w.toLowerCase().includes(q) ||
+          item.def.toLowerCase().includes(q) ||
+          item.ex.toLowerCase().includes(q) ||
+          item.topic.toLowerCase().includes(q)) {
+        results.push({...item, level:lv});
+      }
+    });
+  });
+  if (!results.length) {
+    area.innerHTML = `<div style="text-align:center;padding:3rem;font-size:.9rem;color:rgba(0,0,0,.5)">No results for "${query}"</div>`;
+    return;
+  }
+  area.innerHTML = `
+    <div class="level-header">
+      <span class="level-badge" style="background:#555">🔍</span>
+      <span class="level-title">Search results for "${query}" (${results.length})</span>
+    </div>
+    ${buildRefTable(results, 'search')}`;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// RENDER CONTENT
+// ══════════════════════════════════════════════════════════════════
+function renderContent() {
+  const area = document.getElementById('content-area');
+  let html = '';
+  LEVELS.forEach(lv => {
+    const data = VOCAB[lv];
+    html += renderLevel(lv, data);
+  });
+  area.innerHTML = html;
+  // Re-attach events after render
+  attachFlipEvents();
+  updateStats();
+}
+
+function renderLevel(lv, data) {
+  const badge = `<span class="level-badge" style="background:${data.color}">${lv}</span>`;
+  const progress = Math.round(
+    data.words.filter(w=>masteredWords.has(w.w.toLowerCase())).length / data.words.length * 100
+  );
+
+  let inner = '';
+  if (currentMode === 'ref')   inner = buildRef(data.words, lv);
+  if (currentMode === 'flip')  inner = buildFlip(data.words, lv);
+  if (currentMode === 'type')  inner = buildType(data.words, lv);
+  if (currentMode === 'mc')    inner = buildMC(data.words, lv);
+  if (currentMode === 'match') inner = buildMatch(data.words, lv);
+
+  return `
+    <div class="level-section" id="level-sec-${lv}">
+      <div class="level-header">
+        ${badge}
+        <span class="level-title">${data.name}</span>
+        <span class="level-desc">${data.desc}</span>
+      </div>
+      <div class="level-progress">
+        <div class="lp-fill" style="width:${progress}%;background:${data.color}"></div>
+      </div>
+      ${inner}
+      <hr class="sec-div">
+    </div>`;
+}
+
+// ── REFERENCE TABLE ──────────────────────────────────────────────
+function buildRef(words, lv) {
+  return buildRefTable(words, lv);
+}
+
+function buildRefTable(words, lv) {
+  const rows = words.map(item => {
+    const key       = item.w.toLowerCase();
+    const isMast    = masteredWords.has(key);
+    const mastClass = isMast ? ' mastered' : '';
+    const stars     = isMast ? '⭐ done' : '☆ learn';
+    return `<tr class="${mastClass}" data-word="${key}">
+      <td>
+        <span class="rt-word">${item.w}</span>
+        <span class="rt-pos">${item.pos}</span>
+        <span class="rt-topic">${item.topic}</span>
+      </td>
+      <td class="rt-def">${item.def}</td>
+      <td>
+        <span class="rt-ex">${item.ex}</span>
+        ${item.pron ? `<span class="rt-pron">${item.pron}</span>` : ''}
+      </td>
+      <td class="rt-error">${item.err}</td>
+      <td>
+        <div class="rt-score" onclick="toggleMastery('${item.w}')">
+          <div class="stars">${isMast ? '⭐' : '○'}</div>
+          <div style="font-size:.6rem;margin-top:.1rem">${stars}</div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+  return `
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th style="width:14%">Word</th>
+          <th style="width:26%">Definition</th>
+          <th style="width:28%">Example & pronunciation</th>
+          <th style="width:28%">Common learner error</th>
+          <th style="width:4%"></th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// ── FLIP CARDS ────────────────────────────────────────────────────
+function buildFlip(words, lv) {
+  const cards = words.map((item,i) => `
+    <div class="flip-wrap" id="flip-${lv}-${i}" onclick="this.classList.toggle('flipped')">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="fw">${item.w}</div>
+          <div class="fp">${item.pos} · ${item.pron || ''}</div>
+          <div class="flip-badge">${item.topic}</div>
+        </div>
+        <div class="flip-back">
+          <div class="fd">${item.def}</div>
+          <div class="fe">${item.ex}</div>
+        </div>
+      </div>
+    </div>`).join('');
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">Click a card to reveal the definition</span>
+      <button class="ex-btn secondary" onclick="flipAll('${lv}',${words.length})">Flip all</button>
+      <button class="ex-btn secondary" onclick="resetFlip('${lv}',${words.length})">Reset</button>
+    </div>
+    <div class="flip-grid">${cards}</div>`;
+}
+
+function attachFlipEvents() {} // cards use onclick inline
+
+window.flipAll = function(lv, n) {
+  for (let i=0;i<n;i++) document.getElementById(`flip-${lv}-${i}`)?.classList.add('flipped');
+};
+window.resetFlip = function(lv, n) {
+  for (let i=0;i<n;i++) document.getElementById(`flip-${lv}-${i}`)?.classList.remove('flipped');
+};
+
+// ── TYPING EXERCISE ───────────────────────────────────────────────
+function buildType(words, lv) {
+  const cards = words.map((item,i) => {
+    const id = `type-${lv}-${i}`;
+    // Blank the word in the example
+    const re = new RegExp('\\b'+item.w.replace(/[-[\]{}()*+?.,\\^$|#\s]/g,'\\$&')+'s?\\b','i');
+    const blankedEx = item.ex.replace(re, `<span class="blank">${'_'.repeat(item.w.length)}</span>`);
+    return `
+      <div class="type-card">
+        <div class="tc-prompt">Type the word</div>
+        <div class="tc-def">${item.def}</div>
+        <div class="tc-ex">${blankedEx}</div>
+        ${item.pron ? `<div class="tc-pron">${item.pron}</div>` : ''}
+        <div class="tc-input-row">
+          <input class="tc-input" type="text" id="${id}"
+            placeholder="Type the word…"
+            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+            data-answer="${item.w}" data-level="${lv}" data-idx="${i}"
+            onkeydown="if(event.key==='Enter')checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">
+          <button class="tc-btn" onclick="checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">Check ✓</button>
+          <button class="tc-btn hint-btn" onclick="typeHint('${id}','${item.w.replace(/'/g,"\\'")}')">💡</button>
+        </div>
+        <div class="tc-feedback" id="fb-${id}"></div>
+      </div>`;
+  }).join('');
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">
+        Type the word that matches each definition
+      </span>
+      <button class="ex-btn secondary" onclick="resetType('${lv}',${words.length})">↺ Reset all</button>
+    </div>
+    <div class="typing-exercise">${cards}</div>`;
+}
+
+window.checkType = function(id, answer, lv) {
+  const input = document.getElementById(id);
+  const fb    = document.getElementById('fb-'+id);
+  if (!input||!fb) return;
+  const result = fuzzy(input.value, answer);
+  input.classList.remove('correct','wrong','close');
+  fb.classList.remove('show','ok','err','near');
+  if (result === 'exact') {
+    input.classList.add('correct');
+    fb.textContent = '✅ Correct!';
+    fb.classList.add('show','ok');
+    input.disabled = true;
+    addScore(10);
+  } else if (result === 'close') {
+    input.classList.add('close');
+    fb.textContent = `Almost! Check spelling — answer: "${answer}"`;
+    fb.classList.add('show','near');
+    addScore(3);
+  } else {
+    input.classList.add('wrong');
+    fb.textContent = `❌ The answer is: "${answer}"`;
+    fb.classList.add('show','err');
+  }
+};
+
+window.typeHint = function(id, answer) {
+  const input = document.getElementById(id);
+  if (!input) return;
+  const current = input.value.length;
+  if (current < answer.length)
+    input.placeholder = `${answer[0].toUpperCase()}${'_'.repeat(answer.length-1)} (${answer.length} letters)`;
+  if (current === 0) input.value = answer[0];
+};
+
+window.resetType = function(lv, n) {
+  for (let i=0;i<n;i++) {
+    const id = `type-${lv}-${i}`;
+    const input = document.getElementById(id);
+    const fb    = document.getElementById('fb-'+id);
+    if (input) { input.value=''; input.disabled=false; input.classList.remove('correct','wrong','close'); }
+    if (fb)    { fb.classList.remove('show','ok','err','near'); }
+  }
+};
+
+// ── MULTIPLE CHOICE ───────────────────────────────────────────────
+function buildMC(words, lv) {
+  const cards = words.map((item,i) => {
+    const stateKey = `${lv}-${i}`;
+    // Pick 3 distractors from other words in same or adjacent levels
+    const all  = Object.values(VOCAB).flatMap(d=>d.words);
+    const pool = all.filter(w=>w.w!==item.w);
+    const shuffle = arr => [...arr].sort(()=>Math.random()-.5);
+    const distractors = shuffle(pool).slice(0,3).map(w=>w.def.length>80?w.def.slice(0,80)+'…':w.def);
+    const correct = item.def.length>80 ? item.def.slice(0,80)+'…' : item.def;
+    const options = shuffle([correct, ...distractors]);
+
+    const opts = options.map((opt,oi)=>`
+      <div class="mc-opt" data-option="${oi}" data-correct="${opt===correct}"
+           onclick="checkMC(this,'${stateKey}')">
+        ${opt}
+      </div>`).join('');
+
+    return `
+      <div class="mc-card" id="mc-${stateKey}">
+        <div class="mc-word-display">${item.w} <span style="font-size:.9rem;opacity:.5">${item.pron||''}</span></div>
+        <div class="tc-prompt">Which definition is correct?</div>
+        <div class="mc-options">${opts}</div>
+        <div class="tc-feedback" id="mc-fb-${stateKey}"></div>
+      </div>`;
+  }).join('');
+  return `<div class="mc-exercise">${cards}</div>`;
+}
+
+window.checkMC = function(btn, key) {
+  if (mcState[key]) return; // already answered
+  mcState[key] = true;
+  const correct = btn.dataset.correct === 'true';
+  const card    = document.getElementById('mc-'+key);
+  const fb      = document.getElementById('mc-fb-'+key);
+  card.querySelectorAll('.mc-opt').forEach(b=>{
+    b.style.pointerEvents='none';
+    if (b.dataset.correct==='true') b.classList.add('correct');
+  });
+  if (correct) {
+    btn.classList.add('correct');
+    if (fb) { fb.textContent='✅ Correct! +8 points'; fb.classList.add('show','ok'); }
+    addScore(8);
+  } else {
+    btn.classList.add('wrong');
+    if (fb) { fb.textContent='❌ Not quite — correct answer highlighted in green.'; fb.classList.add('show','err'); }
+  }
+};
+
+// ── MATCHING PAIRS ────────────────────────────────────────────────
+function buildMatch(words, lv) {
+  const subset = words.slice(0, Math.min(8, words.length));
+  const shuffle = arr => [...arr].sort(()=>Math.random()-.5);
+  const shuffledWords = shuffle(subset.map((_,i)=>i));
+  const shuffledDefs  = shuffle(subset.map((_,i)=>i));
+
+  const wordCol = shuffledWords.map(i=>`
+    <div class="match-item match-word" data-idx="${i}" data-type="word"
+         id="mw-${lv}-${i}" onclick="matchClick(this,'${lv}')">
+      ${subset[i].w}
+    </div>`).join('');
+  const defCol = shuffledDefs.map(i=>`
+    <div class="match-item match-def" data-idx="${i}" data-type="def"
+         id="md-${lv}-${i}" onclick="matchClick(this,'${lv}')">
+      ${subset[i].def.length>70?subset[i].def.slice(0,70)+'…':subset[i].def}
+    </div>`).join('');
+
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">
+        Match each word to its definition
+      </span>
+      <button class="ex-btn secondary" onclick="resetMatch('${lv}',${subset.length})">↺ Reset</button>
+      <span class="ex-score-inline" id="match-score-${lv}">0 / ${subset.length}</span>
+    </div>
+    <div class="match-exercise">
+      <div class="match-container">
+        <div>
+          <div class="match-col-title">📝 Words</div>
+          <div class="match-items">${wordCol}</div>
+        </div>
+        <div>
+          <div class="match-col-title">📖 Definitions</div>
+          <div class="match-items">${defCol}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+let matchWord = null; // {lv, idx, el}
+window.matchClick = function(el, lv) {
+  if (el.classList.contains('matched-ok')) return;
+  const type = el.dataset.type;
+  const idx  = parseInt(el.dataset.idx);
+
+  if (type === 'word') {
+    if (matchWord) matchWord.el.classList.remove('selected-word');
+    matchWord = {lv, idx, el};
+    el.classList.add('selected-word');
+  } else {
+    // def selected — check against selected word
+    if (!matchWord || matchWord.lv !== lv) {
+      el.classList.toggle('selected-def');
+      return;
+    }
+    // evaluate
+    const correct = matchWord.idx === idx;
+    if (correct) {
+      el.classList.add('matched-ok');
+      matchWord.el.classList.add('matched-ok');
+      addScore(12);
+      // update score counter
+      const sc = document.getElementById(`match-score-${lv}`);
+      if (sc) {
+        const cur = parseInt(sc.textContent.split('/')[0]) + 1;
+        const tot = sc.textContent.split('/')[1].trim();
+        sc.textContent = `${cur} / ${tot}`;
+        if (cur === parseInt(tot)) {
+          sc.style.color = '#2E7D32';
+          sc.style.fontWeight = '900';
+          sc.textContent += ' ✅';
+        }
+      }
+    } else {
+      el.classList.add('matched-bad');
+      matchWord.el.classList.add('matched-bad');
+      setTimeout(()=>{
+        el.classList.remove('matched-bad','selected-def');
+        matchWord.el.classList.remove('matched-bad','selected-word');
+        matchWord = null;
+      }, 600);
+      return;
+    }
+    matchWord = null;
+    document.querySelectorAll('.match-item.selected-def').forEach(b=>b.classList.remove('selected-def'));
+  }
+};
+
+window.resetMatch = function(lv, n) {
+  matchWord = null;
+  for (let i=0;i<n;i++) {
+    const w = document.getElementById(`mw-${lv}-${i}`);
+    const d = document.getElementById(`md-${lv}-${i}`);
+    if (w) w.classList.remove('matched-ok','matched-bad','selected-word');
+    if (d) d.classList.remove('matched-ok','matched-bad','selected-def');
+  }
+  const sc = document.getElementById(`match-score-${lv}`);
+  if (sc) { const tot=sc.textContent.split('/')[1]?.split(' ')[0]?.trim()||n;
+    sc.textContent=`0 / ${tot}`; sc.style.color=''; sc.style.fontWeight=''; }
+};
+
+// ══════════════════════════════════════════════════════════════════
+// SCROLL → SIDEBAR HIGHLIGHT
+// ══════════════════════════════════════════════════════════════════
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      activeLevel = e.target.id.replace('level-sec-','');
+    }
+  });
+}, {threshold:.15});
+
+// ══════════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+  initDynamicVocab();
+  document.getElementById('score-num').textContent = score;
+  renderContent();
+
+  // Handle auto-search from URL parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchQuery = urlParams.get('search');
+  if (searchQuery) {
+    const searchInput = document.getElementById('global-search');
+    if (searchInput) {
+      searchInput.value = searchQuery;
+      globalSearch(searchQuery);
+    }
+  }
+
+  // Observe sections after render
+  setTimeout(() => {
+    LEVELS.forEach(lv => {
+      const el = document.getElementById('level-sec-'+lv);
+      if (el) io.observe(el);
+    });
+  }, 100);
+});
+</script>
+</body>
+</html>
