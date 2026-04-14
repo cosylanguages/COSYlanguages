@@ -381,9 +381,18 @@ function showArea() {
   // Roadmap button visibility
   const roadmapBtn = document.getElementById('open-roadmap-btn');
   if (roadmapBtn) {
-    if (S.lang === "EN" && S.level === "A1") {
+    // Show roadmap for all supported languages
+    const supported = ["EN","FR","IT","ES","DE","PT","RU","EL"];
+    if (supported.includes(S.lang)) {
       roadmapBtn.style.display = "block";
-      roadmapBtn.onclick = () => window.location.href = "curriculum/en/a1.html";
+      roadmapBtn.onclick = () => {
+        // Special case for EN A1 which has a rich standalone roadmap
+        if (S.lang === "EN" && S.level === "A1") {
+          window.location.href = "curriculum/en/a1.html";
+        } else {
+          window.location.href = `grammar/${S.lang.toLowerCase()}.html`;
+        }
+      };
     } else {
       roadmapBtn.style.display = "none";
     }
@@ -689,19 +698,20 @@ document.addEventListener('DOMContentLoaded', () => {
     showArea();
   }
 
-  // Old buttons integration
+  // Reference buttons integration
   const vocabBtn = document.getElementById('open-vocab-ref-btn');
   if (vocabBtn) {
     vocabBtn.onclick = () => {
       const lang = S ? S.lang.toLowerCase() : 'en';
-      window.location.href = `vocabulary/${lang}.html`;
+      window.location.href = `vocabulary-reference.html?lang=${lang}`;
     };
   }
 
   const gramRefBtn = document.getElementById('open-grammar-ref-btn');
   if (gramRefBtn) {
     gramRefBtn.onclick = () => {
-      window.location.href = 'grammar-reference.html';
+      const lang = S ? S.lang.toLowerCase() : 'en';
+      window.location.href = `grammar-reference.html?lang=${lang}`;
     };
   }
 });

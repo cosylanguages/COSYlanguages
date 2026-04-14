@@ -187,11 +187,22 @@ function startLesson() {
         showNextWord();
     } else {
         const lang = currentLesson.language;
-        const msg = (translations[lang] && translations[lang]['alert_lesson_not_found']) ? translations[lang]['alert_lesson_not_found'] : "Lesson data not found!";
-        if (showGameMessage) {
-            showGameMessage(document.body, msg, 'error');
+        const msg = `<h3>Coming Soon! 🚧</h3><p>Interactive practice for Day ${day} in ${lang.toUpperCase()} is being prepared.</p><p>Check back soon or message your teacher!</p>`;
+
+        // Use a more stylized full-screen message
+        const container = document.getElementById('practice-container');
+        if (container) {
+            container.innerHTML = `
+                <div class="empty" style="padding: 4rem 2rem; background: #fff; border-radius: 20px; border: 1.5px solid var(--border); box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 4rem; margin-bottom: 1.5rem;">📚</div>
+                    ${msg}
+                    <button class="cta-button primary" onclick="window.location.href='days.html'" style="margin-top: 2rem;">Back to My Lessons 🏠</button>
+                </div>
+            `;
+        } else {
+            alert("Lesson data not found!");
+            window.location.href = 'days.html';
         }
-        setTimeout(() => window.location.href = 'days.html', 3000);
     }
 }
 
