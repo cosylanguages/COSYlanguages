@@ -7,6 +7,7 @@
 <title>Vocabulary Reference — COSYlanguages</title>
     <!-- Data Dependencies -->
     <script src="js/data/theme_config.js"></script>
+    <script src="js/data/curriculum_data.js"></script>
     <!-- ENGLISH -->
     <script src="js/data/germanic/en/starter/vocabulary.js"></script>
     <script src="js/data/germanic/en/starter/adjectives.js"></script>
@@ -723,10 +724,10 @@ hr.sec-div {
   <div class="tb-left">
     <div>
       <a href="days.html" style="text-decoration: none; color: inherit;"><div class="tb-title">📖 Vocabulary Reference</div></a>
-      <div class="tb-sub">COSYlanguages · Private lessons</div>
+      <div class="tb-sub">Student Area 🔐</div>
     </div>
   </div>
-  <div class="lang-tabs">
+  <div class="lang-tabs" id="ref-lang-tabs">
     <a href="?lang=en" class="lang-tab" data-l="en">🇬🇧 EN</a>
     <a href="?lang=fr" class="lang-tab" data-l="fr">🇫🇷 FR</a>
     <a href="?lang=it" class="lang-tab" data-l="it">🇮🇹 IT</a>
@@ -756,24 +757,24 @@ hr.sec-div {
     <span class="sl">marked as mastered ✓</span>
   </div>
 
-  <div class="sb-section">
+  <div class="sb-section" id="sb-levels-sec">
     <span class="sb-label">Levels</span>
-    <a class="sb-item active" onclick="jumpLevel('A1')">
+    <a class="sb-item active" id="sb-A1" onclick="jumpLevel('A1')">
       <span class="sb-dot filled dot-a1"></span>A1 — Beginner
     </a>
-    <a class="sb-item" onclick="jumpLevel('A2')">
+    <a class="sb-item" id="sb-A2" onclick="jumpLevel('A2')">
       <span class="sb-dot filled dot-a2"></span>A2 — Elementary
     </a>
-    <a class="sb-item" onclick="jumpLevel('B1')">
+    <a class="sb-item" id="sb-B1" onclick="jumpLevel('B1')">
       <span class="sb-dot filled dot-b1"></span>B1 — Intermediate
     </a>
-    <a class="sb-item" onclick="jumpLevel('B2')">
+    <a class="sb-item" id="sb-B2" onclick="jumpLevel('B2')">
       <span class="sb-dot filled dot-b2"></span>B2 — Upper-Intermediate
     </a>
-    <a class="sb-item" onclick="jumpLevel('C1')">
+    <a class="sb-item" id="sb-C1" onclick="jumpLevel('C1')">
       <span class="sb-dot filled dot-c1"></span>C1 — Advanced
     </a>
-    <a class="sb-item" onclick="jumpLevel('C2')">
+    <a class="sb-item" id="sb-C2" onclick="jumpLevel('C2')">
       <span class="sb-dot filled dot-c2"></span>C2 — Proficiency
     </a>
   </div>
@@ -1067,13 +1068,34 @@ function globalSearch(query) {
 function renderContent() {
   const area = document.getElementById('content-area');
   let html = '';
+
+  // Exclusivity: Get student's current level if applicable
+  let restrictedLevel = null;
+  const code = localStorage.getItem('student_course_code');
+  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
+    restrictedLevel = COURSES[code].level;
+  }
+
   LEVELS.forEach(lv => {
+    // If restricted, only show the student's level
+    if (restrictedLevel && lv !== restrictedLevel) {
+       const sbItem = document.getElementById('sb-' + lv);
+       if (sbItem) sbItem.style.display = 'none';
+       return;
+    }
+
     const data = VOCAB[lv];
     if (data.words.length > 0) {
         html += renderLevel(lv, data);
     }
   });
-  if (!html) html = `<div style="text-align:center;padding:4rem;color:rgba(0,0,0,.4)">No data available for this language yet.</div>`;
+
+  if (restrictedLevel) {
+    const tabs = document.getElementById('ref-lang-tabs');
+    if (tabs) tabs.style.display = 'none';
+  }
+
+  if (!html) html = `<div style="text-align:center;padding:4rem;color:rgba(0,0,0,.4)">No data available for your level yet.</div>`;
   area.innerHTML = html;
   updateStats();
 }
