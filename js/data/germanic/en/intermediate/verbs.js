@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "photographed",
         "v3": "photographed",
-        "transcription": "ˈfəʊtəɡrɑːf"
+        "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf"
     },
     {
         "word": "garden",
@@ -84,7 +84,7 @@
         "aspect": "action",
         "v2": "volunteered",
         "v3": "volunteered",
-        "transcription": "ˌvɒlənˈtɪə"
+        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər"
     },
     {
         "word": "recycle",
@@ -218,7 +218,7 @@
         "theme": "career_development_B1",
         "emoji": "🤔",
         "form": "verb",
-        "transcription": "kənˈsɪdə",
+        "transcription": "🇬🇧 kənˈsɪdə | 🇺🇸 kənˈsɪdər",
         "subtext": "consider an option / consider carefully / consider someone for a role",
         "definitions": [
             {
@@ -281,7 +281,7 @@
         "theme": "workplace_communication_B1",
         "emoji": "🤝",
         "form": "verb",
-        "transcription": "əkˈnɒlɪdʒ",
+        "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
         "subtext": "acknowledge a problem / acknowledge someone / acknowledge that",
         "definitions": [
             {
@@ -470,7 +470,7 @@
         "theme": "career_development_B1",
         "emoji": "🔥",
         "form": "verb",
-        "transcription": "ˈməʊtɪveɪt",
+        "transcription": "🇬🇧 ˈməʊtɪveɪt | 🇺🇸 ˈmoʊtɪveɪt",
         "subtext": "motivate a team / feel motivated / self-motivated",
         "definitions": [
             {
@@ -491,7 +491,7 @@
         "theme": "work_life_balance_B1",
         "emoji": "🔝",
         "form": "verb",
-        "transcription": "praɪˈɒrɪtaɪz",
+        "transcription": "🇬🇧 praɪˈɒrɪtaɪz | 🇺🇸 praɪˈɑːrɪtaɪz",
         "subtext": "prioritise work / prioritise health / set priorities",
         "definitions": [
             {
@@ -512,7 +512,7 @@
         "theme": "workplace_communication_B1",
         "emoji": "✅",
         "form": "verb",
-        "transcription": "rɪˈzɒlv",
+        "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
         "subtext": "resolve a conflict / resolve an issue / resolve quickly",
         "definitions": [
             {
@@ -785,7 +785,7 @@
         "theme": "society_community_B1",
         "emoji": "🗳️",
         "form": "verb",
-        "transcription": "vəʊt",
+        "transcription": "🇬🇧 vəʊt | 🇺🇸 voʊt",
         "subtext": "vote for / vote against / vote in an election",
         "definitions": [
             {
@@ -1016,7 +1016,7 @@
         "theme": "workplace_communication_B1",
         "emoji": "📋",
         "form": "verb",
-        "transcription": "teɪk ɒn",
+        "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
         "subtext": "take on responsibility / take on more work / take on a role",
         "definitions": [
             {
@@ -1037,7 +1037,7 @@
         "theme": "work_life_balance_B1",
         "emoji": "⏳",
         "form": "verb",
-        "transcription": "pʊt ɒf",
+        "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
         "subtext": "put off a decision / stop putting things off / keep putting off",
         "definitions": [
             {
@@ -1058,7 +1058,7 @@
         "theme": "workplace_communication_B1",
         "emoji": "🤝",
         "form": "verb",
-        "transcription": "kʌm əˈkrɒs",
+        "transcription": "🇬🇧 kʌm əˈkrɒs | 🇺🇸 kʌm əˈkrɑːs",
         "subtext": "come across well / come across a problem / come across as",
         "definitions": [
             {

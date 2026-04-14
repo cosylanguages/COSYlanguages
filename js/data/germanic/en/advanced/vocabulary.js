@@ -7,7 +7,7 @@
         "emoji": "👨‍🚒",
         "form": "noun",
         "plural": "firefighters",
-        "transcription": "ˈfaɪəˌfaɪtə",
+        "transcription": "🇬🇧 ˈfaɪəˌfaɪtə | 🇺🇸 ˈfaɪəˌfaɪtər",
         "definitions": [
             {
                 "text": "A person whose job is to stop fires from burning.",
@@ -60,7 +60,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "⚛️",
         "form": "noun",
-        "transcription": "ˈkwɒntəm mɪˈkænɪks",
+        "transcription": "🇬🇧 ˈkwɒntəm mɪˈkænɪks | 🇺🇸 ˈkwɑːntəm mɪˈkænɪks",
         "definitions": [
             {
                 "text": "The branch of mechanics that deals with the mathematical description of the motion and interaction of subatomic particles.",
@@ -96,7 +96,7 @@
         "subtext": "prevailing ideology / political ideology / dominant ideology",
         "form": "noun",
         "plural": "ideologies",
-        "transcription": "ˌaɪdiˈɒlədʒi",
+        "transcription": "🇬🇧 ˌaɪdiˈɒlədʒi | 🇺🇸 ˌaɪdiˈɑːlədʒi",
         "definitions": [
             {
                 "text": "A system of ideas and ideals, especially one which forms the basis of economic or political theory.",
@@ -131,7 +131,7 @@
         "subtext": "belief in meritocracy / myth of meritocracy / move toward meritocracy",
         "form": "noun",
         "plural": "meritocracies",
-        "transcription": "ˌmerɪˈtɒkrəsi",
+        "transcription": "🇬🇧 ˌmerɪˈtɒkrəsi | 🇺🇸 ˌmerɪˈtɑːkrəsi",
         "definitions": [
             {
                 "text": "A system where power and privilege are based on individual ability and effort.",
@@ -148,7 +148,7 @@
         "emoji": "💹",
         "subtext": "rise of neoliberalism / neoliberal policies / neoliberal agenda",
         "form": "noun",
-        "transcription": "ˌniːəʊˈlɪbərəˌlɪzəm",
+        "transcription": "🇬🇧 ˌniːəʊˈlɪbərəˌlɪzəm | 🇺🇸 ˌniːoʊˈlɪbərəˌlɪzəm",
         "definitions": [
             {
                 "text": "A political approach that favors free-market capitalism, deregulation, and reduction in government spending.",
@@ -217,7 +217,7 @@
         "emoji": "🪜",
         "subtext": "upward social mobility / lack of social mobility / facilitate social mobility",
         "form": "noun",
-        "transcription": "ˌsəʊʃl məʊˈbɪləti",
+        "transcription": "🇬🇧 ˌsəʊʃl məʊˈbɪləti | 🇺🇸 ˌsoʊʃl moʊˈbɪləti",
         "definitions": [
             {
                 "text": "The movement of individuals or groups between different social layers or statuses.",
@@ -285,7 +285,7 @@
         "emoji": "⚖️",
         "subtext": "maintain objectivity / lack of objectivity / objective reality",
         "form": "noun",
-        "transcription": "ˌɒbdʒekˈtɪvəti",
+        "transcription": "🇬🇧 ˌɒbdʒekˈtɪvəti | 🇺🇸 ˌɑːbdʒekˈtɪvəti",
         "definitions": [
             {
                 "text": "The quality of being impartial and based on facts rather than feelings or opinions.",
@@ -319,7 +319,7 @@
         "emoji": "📚",
         "subtext": "feminist epistemology / social epistemology / epistemological break",
         "form": "noun",
-        "transcription": "ɪˌpɪstəˈmɒlədʒi",
+        "transcription": "🇬🇧 ɪˌpɪstəˈmɒlədʒi | 🇺🇸 ɪˌpɪstəˈmɑːlədʒi",
         "definitions": [
             {
                 "text": "The theory of knowledge, especially with regard to its methods, validity, and scope.",
@@ -336,7 +336,7 @@
         "emoji": "🌌",
         "subtext": "ontological status / social ontology / ontological security",
         "form": "noun",
-        "transcription": "ɒnˈtɒlədʒi",
+        "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
         "definitions": [
             {
                 "text": "The branch of metaphysics dealing with the nature of being.",
@@ -493,7 +493,7 @@
         "emoji": "🏷️",
         "subtext": "concept of commodity fetishism / critique of commodity fetishism",
         "form": "noun",
-        "transcription": "kəˈmɒdəti ˈfetɪʃɪzəm",
+        "transcription": "🇬🇧 kəˈmɒdəti ˈfetɪʃɪzəm | 🇺🇸 kəˈmɑːdəti ˈfetɪʃɪzəm",
         "definitions": [
             {
                 "text": "The perception of social relationships involved in production as economic relationships among money and commodities.",
@@ -598,7 +598,7 @@
         "subtext": "central paradox / apparent paradox / solve a paradox",
         "form": "noun",
         "plural": "paradoxes",
-        "transcription": "ˈpærədɒks",
+        "transcription": "🇬🇧 ˈpærədɒks | 🇺🇸 ˈpærədɑːks",
         "definitions": [
             {
                 "text": "A seemingly absurd or self-contradictory statement that may prove to be true.",
@@ -634,7 +634,7 @@
         "subtext": "false dichotomy / clear dichotomy / sharp dichotomy",
         "form": "noun",
         "plural": "dichotomies",
-        "transcription": "daɪˈkɒtəmi",
+        "transcription": "🇬🇧 daɪˈkɒtəmi | 🇺🇸 daɪˈkɑːtəmi",
         "definitions": [
             {
                 "text": "A division or contrast between two things that are opposed or entirely different.",
@@ -670,7 +670,7 @@
         "subtext": "aging infrastructure / critical infrastructure / digital infrastructure",
         "form": "noun",
         "plural": "infrastructures",
-        "transcription": "ˈɪnfrəˌstrʌktʃə",
+        "transcription": "🇬🇧 ˈɪnfrəˌstrʌktʃə | 🇺🇸 ˈɪnfrəˌstrʌktʃər",
         "definitions": [
             {
                 "text": "The basic physical and organizational structures needed for the operation of a society.",
@@ -688,7 +688,7 @@
         "subtext": "ideological superstructure / social superstructure",
         "form": "noun",
         "plural": "superstructures",
-        "transcription": "ˈsuːpəˌstrʌktʃə",
+        "transcription": "🇬🇧 ˈsuːpəˌstrʌktʃə | 🇺🇸 ˈsuːpəˌstrʌktʃər",
         "definitions": [
             {
                 "text": "The institutions and culture built on an economic base in Marxist theory.",
@@ -774,7 +774,7 @@
         "subtext": "government bureaucracy / cut through bureaucracy / excessive bureaucracy",
         "form": "noun",
         "plural": "bureaucracies",
-        "transcription": "bjʊəˈrɒkrəsi",
+        "transcription": "🇬🇧 bjʊəˈrɒkrəsi | 🇺🇸 bjʊəˈrɑːkrəsi",
         "definitions": [
             {
                 "text": "A system of government where decisions are made by state officials rather than elected representatives.",
@@ -825,7 +825,7 @@
         "emoji": "🌐",
         "subtext": "economic globalization / cultural globalization / impact of globalization",
         "form": "noun",
-        "transcription": "ˌɡləʊbəlaɪˈzeɪʃn",
+        "transcription": "🇬🇧 ˌɡləʊbəlaɪˈzeɪʃn | 🇺🇸 ˌɡloʊbəlaɪˈzeɪʃn",
         "definitions": [
             {
                 "text": "The process by which organizations develop international influence or start operating globally.",
@@ -893,7 +893,7 @@
         "emoji": "🦋",
         "subtext": "loss of biodiversity / conserve biodiversity / promote biodiversity",
         "form": "noun",
-        "transcription": "ˌbaɪəʊdaɪˈvɜːsəti",
+        "transcription": "🇬🇧 ˌbaɪəʊdaɪˈvɜːsəti | 🇺🇸 ˌbaɪoʊdaɪˈvɜːsəti",
         "definitions": [
             {
                 "text": "The variety of plant and animal life in the world or in a particular habitat.",
@@ -911,7 +911,7 @@
         "subtext": "large ecological footprint / measure ecological footprint",
         "form": "noun",
         "plural": "ecological footprints",
-        "transcription": "ˌiːkəˈlɒdʒɪkl ˈfʊtprɪnt",
+        "transcription": "🇬🇧 ˌiːkəˈlɒdʒɪkl ˈfʊtprɪnt | 🇺🇸 ˌiːkəˈlɑːdʒɪkl ˈfʊtprɪnt",
         "definitions": [
             {
                 "text": "The impact of a person or community on the environment, expressed as land required.",

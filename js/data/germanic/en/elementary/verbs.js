@@ -63,7 +63,7 @@
         "theme": "social_emotions_A2",
         "emoji": "🤩",
         "form": "verb",
-        "transcription": "ədˈmaɪə",
+        "transcription": "🇬🇧 ədˈmaɪə | 🇺🇸 ədˈmaɪər",
         "subtext": "respect, look up to",
         "synonyms": [
             "respect",
@@ -263,7 +263,7 @@
         "v2": "apologised",
         "v3": "apologised",
         "opposite": "offend",
-        "transcription": "əˈpɒlədʒaɪz"
+        "transcription": "🇬🇧 əˈpɒlədʒaɪz | 🇺🇸 əˈpɑːlədʒaɪz"
     },
     {
         "word": "appear",
@@ -761,7 +761,7 @@
         "v2": "carried on",
         "v3": "carried on",
         "opposite": "stop",
-        "transcription": "ˈkæri ɒn"
+        "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn"
     },
     {
         "word": "challenge",
@@ -1003,7 +1003,7 @@
         "v2": "compromised",
         "v3": "compromised",
         "opposite": "demand",
-        "transcription": "ˈkɒmprəmaɪz"
+        "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz"
     },
     {
         "word": "concentrate",
@@ -1025,7 +1025,7 @@
         "v2": "concentrated",
         "v3": "concentrated",
         "opposite": "distract",
-        "transcription": "ˈkɒnsəntreɪt"
+        "transcription": "🇬🇧 ˈkɒnsəntreɪt | 🇺🇸 ˈkɑːnsəntreɪt"
     },
     {
         "word": "confirm",
@@ -1180,7 +1180,7 @@
             "call",
             "message"
         ],
-        "transcription": "ˈkɒntækt"
+        "transcription": "🇬🇧 ˈkɒntækt | 🇺🇸 ˈkɑːntækt"
     },
     {
         "word": "contain",
@@ -1259,7 +1259,7 @@
         "v2": "contracted",
         "v3": "contracted",
         "opposite": "cancel",
-        "transcription": "ˈkɒntrækt"
+        "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt"
     },
     {
         "word": "control",
@@ -1386,7 +1386,7 @@
         "v2": "cut down on",
         "v3": "cut down on",
         "opposite": "increase",
-        "transcription": "kʌt daʊn ɒn"
+        "transcription": "🇬🇧 kʌt daʊn ɒn | 🇺🇸 kʌt daʊn ɑːn"
     },
     {
         "word": "damage",
@@ -1540,7 +1540,7 @@
         "synonyms": [
             "put in"
         ],
-        "transcription": "dɪˈpɒzɪt"
+        "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt"
     },
     {
         "word": "design",
@@ -1935,7 +1935,7 @@
         "v2": "evolved",
         "v3": "evolved",
         "opposite": "stagnate",
-        "transcription": "ɪˈvɒlv"
+        "transcription": "🇬🇧 ɪˈvɒlv | 🇺🇸 ɪˈvɑːlv"
     },
     {
         "word": "examine",
@@ -2785,7 +2785,7 @@
         "v2": "logged out",
         "v3": "logged out",
         "opposite": "log in",
-        "transcription": "lɒɡ aʊt"
+        "transcription": "🇬🇧 lɒɡ aʊt | 🇺🇸 lɑːɡ aʊt"
     },
     {
         "word": "look after",
@@ -3052,7 +3052,7 @@
         "v2": "offered",
         "v3": "offered",
         "opposite": "refuse",
-        "transcription": "ˈɒfər",
+        "transcription": "🇬🇧 ˈɒfər | 🇺🇸 ˈɑːfər",
         "synonyms": [
             "give"
         ]
@@ -3308,7 +3308,7 @@
         "v2": "promised",
         "v3": "promised",
         "opposite": "lie",
-        "transcription": "ˈprɒmɪs",
+        "transcription": "🇬🇧 ˈprɒmɪs | 🇺🇸 ˈprɑːmɪs",
         "synonyms": [
             "vow"
         ]
@@ -3411,7 +3411,7 @@
         "v2": "put off",
         "v3": "put off",
         "opposite": "do now",
-        "transcription": "pʊt ɒf"
+        "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf"
     },
     {
         "word": "reach",
@@ -3969,7 +3969,7 @@
         "v2": "solved",
         "v3": "solved",
         "opposite": "complicate",
-        "transcription": "sɒlv"
+        "transcription": "🇬🇧 sɒlv | 🇺🇸 sɑːlv"
     },
     {
         "word": "sort out",
@@ -4119,7 +4119,7 @@
         "v2": "swallowed",
         "v3": "swallowed",
         "opposite": "spit out",
-        "transcription": "ˈswɒloʊ",
+        "transcription": "🇬🇧 ˈswɒloʊ | 🇺🇸 ˈswɑːloʊ",
         "synonyms": [
             "eat"
         ]
@@ -4144,7 +4144,7 @@
         "v2": "took on",
         "v3": "taken on",
         "opposite": "refuse",
-        "transcription": "teɪk ɒn"
+        "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn"
     },
     {
         "word": "transfer",
@@ -4394,7 +4394,7 @@
         "v2": "involved",
         "v3": "involved",
         "opposite": "exclude",
-        "transcription": "ɪnˈvɒlv"
+        "transcription": "🇬🇧 ɪnˈvɒlv | 🇺🇸 ɪnˈvɑːlv"
     },
     {
         "word": "obtain",
@@ -4474,7 +4474,7 @@
         "v2": "operated",
         "v3": "operated",
         "opposite": "break down",
-        "transcription": "ˈɒpəreɪt"
+        "transcription": "🇬🇧 ˈɒpəreɪt | 🇺🇸 ˈɑːpəreɪt"
     },
     {
         "word": "persuade",
@@ -4791,7 +4791,7 @@
         "v2": "resolved",
         "v3": "resolved",
         "opposite": "complicate",
-        "transcription": "rɪˈzɒlv"
+        "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv"
     },
     {
         "word": "respond",
@@ -4818,7 +4818,7 @@
         "v2": "responded",
         "v3": "responded",
         "opposite": "ignore",
-        "transcription": "rɪˈspɒnd"
+        "transcription": "🇬🇧 rɪˈspɒnd | 🇺🇸 rɪˈspɑːnd"
     },
     {
         "word": "rehearse",

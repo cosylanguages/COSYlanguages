@@ -29,7 +29,7 @@
             "emoji": "❓",
             "subtext": "problematise a concept / problematise the idea / problematise assumptions",
             "form": "verb",
-            "transcription": "ˈprɒbləmətaɪz",
+            "transcription": "🇬🇧 ˈprɒbləmətaɪz | 🇺🇸 ˈprɑːbləmətaɪz",
             "definitions": [
                 {
                     "text": "To treat something as a problem worthy of critical analysis.",
@@ -117,7 +117,7 @@
             "emoji": "📍",
             "subtext": "posit a theory / posit that / posit the existence of",
             "form": "verb",
-            "transcription": "ˈpɒzɪt",
+            "transcription": "🇬🇧 ˈpɒzɪt | 🇺🇸 ˈpɑːzɪt",
             "definitions": [
                 {
                     "text": "To suggest or assume the existence of something as a basis for argument.",
@@ -161,7 +161,7 @@
             "emoji": "🧪",
             "subtext": "hypothesise that / hypothesise a connection / working hypothesis",
             "form": "verb",
-            "transcription": "haɪˈpɒθəsaɪz",
+            "transcription": "🇬🇧 haɪˈpɒθəsaɪz | 🇺🇸 haɪˈpɑːθəsaɪz",
             "definitions": [
                 {
                     "text": "To put forward a hypothesis or tentative explanation.",
@@ -183,7 +183,7 @@
             "emoji": "⛓️",
             "subtext": "coerce someone into / coercive pressure / coerce compliance",
             "form": "verb",
-            "transcription": "kəʊˈɜːs",
+            "transcription": "🇬🇧 kəʊˈɜːs | 🇺🇸 koʊˈɜːs",
             "definitions": [
                 {
                     "text": "To force someone to do something by using threats or pressure.",
@@ -271,7 +271,7 @@
             "emoji": "🤝",
             "subtext": "co-opt a movement / co-opt language / be co-opted by",
             "form": "verb",
-            "transcription": "kəʊˈɒpt",
+            "transcription": "🇬🇧 kəʊˈɒpt | 🇺🇸 koʊˈɑːpt",
             "definitions": [
                 {
                     "text": "To absorb someone or something into a group, often to neutralise opposition.",
@@ -315,7 +315,7 @@
             "emoji": "🧱",
             "subtext": "consolidate power / consolidate a position / consolidate gains",
             "form": "verb",
-            "transcription": "kənˈsɒlɪdeɪt",
+            "transcription": "🇬🇧 kənˈsɒlɪdeɪt | 🇺🇸 kənˈsɑːlɪdeɪt",
             "definitions": [
                 {
                     "text": "To combine things to make them stronger or more secure.",
@@ -645,7 +645,7 @@
             "emoji": "🏷️",
             "subtext": "qualify a statement / with the caveat / qualifying remark",
             "form": "verb",
-            "transcription": "ˈkwɒlɪfaɪ",
+            "transcription": "🇬🇧 ˈkwɒlɪfaɪ | 🇺🇸 ˈkwɑːlɪfaɪ",
             "definitions": [
                 {
                     "text": "To modify a statement to limit its scope or add conditions.",
@@ -755,7 +755,7 @@
             "emoji": "🚫",
             "subtext": "abolish a law / abolish the death penalty / be abolished",
             "form": "verb",
-            "transcription": "əˈbɒlɪʃ",
+            "transcription": "🇬🇧 əˈbɒlɪʃ | 🇺🇸 əˈbɑːlɪʃ",
             "definitions": [
                 {
                     "text": "To formally put an end to a law, system or institution.",
@@ -799,7 +799,7 @@
             "emoji": "📎",
             "subtext": "adhere to a rule / adhere to a principle / strict adherence",
             "form": "verb",
-            "transcription": "ədˈhɪə",
+            "transcription": "🇬🇧 ədˈhɪə | 🇺🇸 ədˈhɪər",
             "definitions": [
                 {
                     "text": "To follow or stick to a rule or principle.",
@@ -1063,7 +1063,7 @@
             "emoji": "🧘",
             "subtext": "contemplate a change / contemplate doing / contemplate the future",
             "form": "verb",
-            "transcription": "ˈkɒntəmpleɪt",
+            "transcription": "🇬🇧 ˈkɒntəmpleɪt | 🇺🇸 ˈkɑːntəmpleɪt",
             "definitions": [
                 {
                     "text": "To think about something carefully; to consider doing it.",
@@ -1173,7 +1173,7 @@
             "emoji": "❤️",
             "subtext": "devote time to / devote yourself to / be devoted to",
             "form": "verb",
-            "transcription": "dɪˈvəʊt",
+            "transcription": "🇬🇧 dɪˈvəʊt | 🇺🇸 dɪˈvoʊt",
             "definitions": [
                 {
                     "text": "To give time or effort exclusively to something.",
@@ -1261,7 +1261,7 @@
             "emoji": "🚧",
             "subtext": "hinder progress / hinder growth / hinder someone from doing",
             "form": "verb",
-            "transcription": "ˈhɪndə",
+            "transcription": "🇬🇧 ˈhɪndə | 🇺🇸 ˈhɪndər",
             "definitions": [
                 {
                     "text": "To slow down or make something difficult.",
@@ -1327,7 +1327,7 @@
             "emoji": "🤝",
             "subtext": "negotiate terms / negotiate a deal / negotiate a salary",
             "form": "verb",
-            "transcription": "nɪˈɡəʊʃieɪt",
+            "transcription": "🇬🇧 nɪˈɡəʊʃieɪt | 🇺🇸 nɪˈɡoʊʃieɪt",
             "definitions": [
                 {
                     "text": "To discuss to reach an agreement.",
@@ -1459,7 +1459,7 @@
             "emoji": "🏷️",
             "subtext": "commodify relationships / commodify culture / process of commodification",
             "form": "verb",
-            "transcription": "kəˈmɒdɪfaɪ",
+            "transcription": "🇬🇧 kəˈmɒdɪfaɪ | 🇺🇸 kəˈmɑːdɪfaɪ",
             "definitions": [
                 {
                     "text": "To treat something as a commercial product, especially something that should not be.",

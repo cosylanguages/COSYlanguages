@@ -360,7 +360,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˌbaɪəˈlɒdʒɪkl"
+        "transcription": "🇬🇧 ˌbaɪəˈlɒdʒɪkl | 🇺🇸 ˌbaɪəˈlɑːdʒɪkl"
     },
     {
         "word": "brief",
@@ -619,7 +619,7 @@
         ],
         "comparative": "more complicated",
         "superlative": "the most complicated",
-        "transcription": "ˈkɒmplɪkeɪtɪd"
+        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd"
     },
     {
         "word": "confident",
@@ -644,7 +644,7 @@
         ],
         "comparative": "more confident",
         "superlative": "the most confident",
-        "transcription": "ˈkɒnfɪdənt"
+        "transcription": "🇬🇧 ˈkɒnfɪdənt | 🇺🇸 ˈkɑːnfɪdənt"
     },
     {
         "word": "confidential",
@@ -669,7 +669,7 @@
         ],
         "comparative": "more confidential",
         "superlative": "the most confidential",
-        "transcription": "ˌkɒnfɪˈdɛnʃl"
+        "transcription": "🇬🇧 ˌkɒnfɪˈdɛnʃl | 🇺🇸 ˌkɑːnfɪˈdɛnʃl"
     },
     {
         "word": "conscious",
@@ -692,7 +692,7 @@
         ],
         "comparative": "more conscious",
         "superlative": "the most conscious",
-        "transcription": "ˈkɒnʃəs"
+        "transcription": "🇬🇧 ˈkɒnʃəs | 🇺🇸 ˈkɑːnʃəs"
     },
     {
         "word": "convenient",
@@ -946,7 +946,7 @@
         ],
         "comparative": "more dishonest",
         "superlative": "the most dishonest",
-        "transcription": "dɪsˈɒnɪst"
+        "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst"
     },
     {
         "word": "dissatisfied",
@@ -993,7 +993,7 @@
         ],
         "comparative": "more economic",
         "superlative": "the most economic",
-        "transcription": "ˌiːkəˈnɒmɪk"
+        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk"
     },
     {
         "word": "efficient",
@@ -1294,7 +1294,7 @@
         ],
         "comparative": "more foreign",
         "superlative": "the most foreign",
-        "transcription": "ˈfɒrən"
+        "transcription": "🇬🇧 ˈfɒrən | 🇺🇸 ˈfɑːrən"
     },
     {
         "word": "formal",
@@ -1647,7 +1647,7 @@
         "subtext": "virtually impossible / make impossible / nearly impossible",
         "comparative": "more impossible",
         "superlative": "the most impossible",
-        "transcription": "ɪmˈpɒsəbl",
+        "transcription": "🇬🇧 ɪmˈpɒsəbl | 🇺🇸 ɪmˈpɑːsəbl",
         "synonyms": [
             "unachievable"
         ]
@@ -1889,7 +1889,7 @@
         ],
         "comparative": "more logical",
         "superlative": "the most logical",
-        "transcription": "ˈlɒdʒɪkl"
+        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl"
     },
     {
         "word": "loose",
@@ -2056,7 +2056,7 @@
         ],
         "comparative": "more modest",
         "superlative": "the most modest",
-        "transcription": "ˈmɒdɪst"
+        "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst"
     },
     {
         "word": "neat",
@@ -2176,7 +2176,7 @@
         ],
         "comparative": "odder",
         "superlative": "the oddest",
-        "transcription": "ɒd"
+        "transcription": "🇬🇧 ɒd | 🇺🇸 ɑːd"
     },
     {
         "word": "official",
@@ -2226,7 +2226,7 @@
         ],
         "comparative": "more optimistic",
         "superlative": "the most optimistic",
-        "transcription": "ˌɒptɪˈmɪstɪk"
+        "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk"
     },
     {
         "word": "ordinary",
@@ -2438,7 +2438,7 @@
         "subtext": "very popular / popular choice / a popular person",
         "comparative": "more popular",
         "superlative": "the most popular",
-        "transcription": "ˈpɒpjələr",
+        "transcription": "🇬🇧 ˈpɒpjələr | 🇺🇸 ˈpɑːpjələr",
         "synonyms": [
             "famous",
             "liked"
@@ -2466,7 +2466,7 @@
         ],
         "comparative": "more positive",
         "superlative": "the most positive",
-        "transcription": "ˈpɒzətɪv"
+        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv"
     },
     {
         "word": "potential",
@@ -2655,7 +2655,7 @@
         "synonyms": [
             "trained"
         ],
-        "transcription": "ˈkwɒlɪfaɪd"
+        "transcription": "🇬🇧 ˈkwɒlɪfaɪd | 🇺🇸 ˈkwɑːlɪfaɪd"
     },
     {
         "word": "rare",
@@ -2841,7 +2841,7 @@
         "subtext": "responsible for / very responsible / highly responsible",
         "comparative": "more responsible",
         "superlative": "the most responsible",
-        "transcription": "rɪˈspɒnsəbl",
+        "transcription": "🇬🇧 rɪˈspɒnsəbl | 🇺🇸 rɪˈspɑːnsəbl",
         "synonyms": [
             "accountable"
         ]
@@ -3523,7 +3523,7 @@
         "subtext": "disliked / unpopular decision / become unpopular",
         "comparative": "more unpopular",
         "superlative": "the most unpopular",
-        "transcription": "ʌnˈpɒpjələr",
+        "transcription": "🇬🇧 ʌnˈpɒpjələr | 🇺🇸 ʌnˈpɑːpjələr",
         "synonyms": [
             "disliked"
         ]

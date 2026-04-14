@@ -138,7 +138,7 @@
         "theme": "critical_thinking_B2",
         "emoji": "📏",
         "form": "verb",
-        "transcription": "ˈmɛʒə",
+        "transcription": "🇬🇧 ˈmɛʒə | 🇺🇸 ˈmɛʒər",
         "subtext": "Neutral | measure success / measure impact / difficult to measure",
         "definitions": [
             {
@@ -248,7 +248,7 @@
         "theme": "formal_debate_vocab_B2",
         "emoji": "🛡️",
         "form": "verb",
-        "transcription": "ˈkaʊntə",
+        "transcription": "🇬🇧 ˈkaʊntə | 🇺🇸 ˈkaʊntər",
         "subtext": "Formal | counter an argument / counter a claim / offer a counter",
         "definitions": [
             {
@@ -754,7 +754,7 @@
         "theme": "economy_labour_market_B2",
         "emoji": "🤝",
         "form": "verb",
-        "transcription": "əˈkwaɪə",
+        "transcription": "🇬🇧 əˈkwaɪə | 🇺🇸 əˈkwaɪər",
         "subtext": "Formal | acquire a company / acquire skills / acquire assets",
         "definitions": [
             {
@@ -930,7 +930,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🙈",
         "form": "verb",
-        "transcription": "ˌəʊvəˈlʊk",
+        "transcription": "🇬🇧 ˌəʊvəˈlʊk | 🇺🇸 ˌoʊvəˈlʊk",
         "subtext": "Neutral | overlook a detail / easy to overlook / overlook a problem",
         "definitions": [
             {
@@ -952,7 +952,7 @@
         "theme": "abstract_description_B2",
         "emoji": "✅",
         "form": "verb",
-        "transcription": "əkˈnɒlɪdʒ",
+        "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
         "subtext": "Neutral | acknowledge a weakness / acknowledge that / widely acknowledged",
         "definitions": [
             {
@@ -1018,7 +1018,7 @@
         "theme": "abstract_description_B2",
         "emoji": "✅",
         "form": "verb",
-        "transcription": "ɪnˈʃʊə",
+        "transcription": "🇬🇧 ɪnˈʃʊə | 🇺🇸 ɪnˈʃʊər",
         "subtext": "Formal | ensure that / ensure quality / ensure compliance",
         "definitions": [
             {
@@ -1172,7 +1172,7 @@
         "theme": "abstract_description_B2",
         "emoji": "💡",
         "form": "verb",
-        "transcription": "prəˈpəʊz",
+        "transcription": "🇬🇧 prəˈpəʊz | 🇺🇸 prəˈpoʊz",
         "subtext": "Neutral | propose a solution / propose a change / propose that",
         "definitions": [
             {
@@ -1216,7 +1216,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🧱",
         "form": "verb",
-        "transcription": "ˈkɒnstɪtjuːt",
+        "transcription": "🇬🇧 ˈkɒnstɪtjuːt | 🇺🇸 ˈkɑːnstɪtjuːt",
         "subtext": "Formal | constitute a breach / constitute evidence / constitute a problem",
         "definitions": [
             {
@@ -1238,7 +1238,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🔓",
         "form": "verb",
-        "transcription": "ɪkˈspəʊz",
+        "transcription": "🇬🇧 ɪkˈspəʊz | 🇺🇸 ɪkˈspoʊz",
         "subtext": "Neutral | expose wrongdoing / expose someone to risk / be exposed to",
         "definitions": [
             {
@@ -1282,7 +1282,7 @@
         "theme": "abstract_description_B2",
         "emoji": "🏆",
         "form": "verb",
-        "transcription": "ˌəʊvəˈkʌm",
+        "transcription": "🇬🇧 ˌəʊvəˈkʌm | 🇺🇸 ˌoʊvəˈkʌm",
         "subtext": "Neutral | overcome a challenge / overcome obstacles / overcome fear",
         "definitions": [
             {
@@ -1392,7 +1392,7 @@
         "theme": "abstract_description_B2",
         "emoji": "✅",
         "form": "verb",
-        "transcription": "əˈdɒpt",
+        "transcription": "🇬🇧 əˈdɒpt | 🇺🇸 əˈdɑːpt",
         "subtext": "Neutral | adopt a policy / adopt an approach / adopt a new system",
         "definitions": [
             {
@@ -1436,7 +1436,7 @@
         "theme": "persuasion_rhetoric_B2",
         "emoji": "📚",
         "form": "verb",
-        "transcription": "drɔː ɒn",
+        "transcription": "🇬🇧 drɔː ɒn | 🇺🇸 drɔː ɑːn",
         "subtext": "Neutral | draw on experience / draw on resources / draw on expertise",
         "definitions": [
             {
@@ -1502,7 +1502,7 @@
         "theme": "persuasion_rhetoric_B2",
         "emoji": "🏗️",
         "form": "verb",
-        "transcription": "bɪld ɒn",
+        "transcription": "🇬🇧 bɪld ɒn | 🇺🇸 bɪld ɑːn",
         "subtext": "Neutral | build on success / build on experience / build on foundations",
         "definitions": [
             {
@@ -1612,7 +1612,7 @@
         "theme": "politics_governance_B2",
         "emoji": "🚫",
         "form": "verb",
-        "transcription": "ˈviːtəʊ",
+        "transcription": "🇬🇧 ˈviːtəʊ | 🇺🇸 ˈviːtoʊ",
         "subtext": "veto legislation, exercise a veto",
         "definitions": [
             {

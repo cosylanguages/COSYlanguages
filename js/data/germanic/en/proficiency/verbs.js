@@ -183,7 +183,7 @@
             "emoji": "🌫️",
             "subtext": "obfuscate the truth / deliberate obfuscation / obfuscate with jargon",
             "form": "verb",
-            "transcription": "ˈɒbfʌskeɪt",
+            "transcription": "🇬🇧 ˈɒbfʌskeɪt | 🇺🇸 ˈɑːbfʌskeɪt",
             "definitions": [
                 {
                     "text": "To make something unclear or difficult to understand deliberately.",
@@ -227,7 +227,7 @@
             "emoji": "📜",
             "subtext": "invoke a right / invoke precedent / invoke an argument",
             "form": "verb",
-            "transcription": "ɪnˈvəʊk",
+            "transcription": "🇬🇧 ɪnˈvəʊk | 🇺🇸 ɪnˈvoʊk",
             "definitions": [
                 {
                     "text": "To call upon or cite something to support an argument.",
@@ -315,7 +315,7 @@
             "emoji": "🏷️",
             "subtext": "commodify labour / commodify care / commodification of attention",
             "form": "verb",
-            "transcription": "kəˈmɒdɪfaɪ",
+            "transcription": "🇬🇧 kəˈmɒdɪfaɪ | 🇺🇸 kəˈmɑːdɪfaɪ",
             "definitions": [
                 {
                     "text": "To treat something that is not a product as a commercial commodity.",
@@ -602,7 +602,7 @@
             "emoji": "❓",
             "subtext": "problematise a concept / resist the urge to problematise / critically problematise",
             "form": "verb",
-            "transcription": "ˈprɒbləmətaɪz",
+            "transcription": "🇬🇧 ˈprɒbləmətaɪz | 🇺🇸 ˈprɑːbləmətaɪz",
             "definitions": [
                 {
                     "text": "To identify and articulate the problematic aspects of a concept or practice.",
@@ -646,7 +646,7 @@
             "emoji": "🚪",
             "subtext": "foreclose an option / foreclose debate / foreclose the possibility of",
             "form": "verb",
-            "transcription": "fɔːˈkləʊz",
+            "transcription": "🇬🇧 fɔːˈkləʊz | 🇺🇸 fɔːˈkloʊz",
             "definitions": [
                 {
                     "text": "To prevent a possibility from being considered; to preclude.",
@@ -690,7 +690,7 @@
             "emoji": "📜",
             "subtext": "contravene a law / contravene regulations / contravene an agreement",
             "form": "verb",
-            "transcription": "ˌkɒntrəˈviːn",
+            "transcription": "🇬🇧 ˌkɒntrəˈviːn | 🇺🇸 ˌkɑːntrəˈviːn",
             "definitions": [
                 {
                     "text": "To act against a rule, law or agreement.",
@@ -822,7 +822,7 @@
             "emoji": "✅",
             "subtext": "corroborate a claim / corroborate evidence / be corroborated by",
             "form": "verb",
-            "transcription": "kəˈrɒbəreɪt",
+            "transcription": "🇬🇧 kəˈrɒbəreɪt | 🇺🇸 kəˈrɑːbəreɪt",
             "definitions": [
                 {
                     "text": "To confirm or support a statement with evidence.",
@@ -1152,7 +1152,7 @@
             "emoji": "🚪",
             "subtext": "hinge on a decision / hinge on a single factor / everything hinges on",
             "form": "verb",
-            "transcription": "hɪndʒ ɒn",
+            "transcription": "🇬🇧 hɪndʒ ɒn | 🇺🇸 hɪndʒ ɑːn",
             "definitions": [
                 {
                     "text": "To depend entirely on a particular factor.",
@@ -1196,7 +1196,7 @@
             "emoji": "🎨",
             "subtext": "gloss over a problem / gloss over the details / not gloss over",
             "form": "verb",
-            "transcription": "ɡlɒs ˈəʊvər",
+            "transcription": "🇬🇧 ɡlɒs ˈəʊvər | 🇺🇸 ɡlɑːs ˈoʊvər",
             "definitions": [
                 {
                     "text": "To deal with something too quickly to avoid difficulty.",
@@ -1218,7 +1218,7 @@
             "emoji": "📄",
             "subtext": "paper over a problem / paper over cracks / paper over differences",
             "form": "verb",
-            "transcription": "ˈpeɪpər ˈəʊvər",
+            "transcription": "🇬🇧 ˈpeɪpər ˈəʊvər | 🇺🇸 ˈpeɪpər ˈoʊvər",
             "definitions": [
                 {
                     "text": "To hide or obscure a problem without resolving it.",

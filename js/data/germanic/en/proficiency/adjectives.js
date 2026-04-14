@@ -30,7 +30,7 @@
         "theme": "meta_argument_deconstruction_C2",
         "emoji": "🔄",
         "form": "adjective",
-        "transcription": "ˌtɔːtəˈlɒdʒɪkl",
+        "transcription": "🇬🇧 ˌtɔːtəˈlɒdʒɪkl | 🇺🇸 ˌtɔːtəˈlɑːdʒɪkl",
         "definitions": [
             {
                 "text": "Saying the same thing twice in different words; circular in reasoning.",
@@ -47,7 +47,7 @@
         "theme": "linguistics_theory_C2",
         "emoji": "🔠",
         "form": "adjective",
-        "transcription": "ˌpɒliˈsiːməs",
+        "transcription": "🇬🇧 ˌpɒliˈsiːməs | 🇺🇸 ˌpɑːliˈsiːməs",
         "definitions": [
             {
                 "text": "Having multiple meanings.",
@@ -81,7 +81,7 @@
         "theme": "political_theory_C2",
         "emoji": "🌍",
         "form": "adjective",
-        "transcription": "ˌpəʊstkəˈləʊniəl",
+        "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəl | 🇺🇸 ˌpoʊstkəˈloʊniəl",
         "definitions": [
             {
                 "text": "Relating to the period after colonial rule, or to the critique of colonial legacies.",
@@ -98,7 +98,7 @@
         "theme": "political_theory_C2",
         "emoji": "🌐",
         "form": "adjective",
-        "transcription": "ˌmʌltiˈpəʊlər",
+        "transcription": "🇬🇧 ˌmʌltiˈpəʊlər | 🇺🇸 ˌmʌltiˈpoʊlər",
         "definitions": [
             {
                 "text": "Describing a world order with several centres of power rather than one or two.",
@@ -115,7 +115,7 @@
         "theme": "political_theory_C2",
         "emoji": "🏙️",
         "form": "adjective",
-        "transcription": "ˌkɒzməˈpɒlɪtən",
+        "transcription": "🇬🇧 ˌkɒzməˈpɒlɪtən | 🇺🇸 ˌkɑːzməˈpɑːlɪtən",
         "definitions": [
             {
                 "text": "Familiar with and at ease in many different countries and cultures; or relating to cosmopolitanism.",
@@ -149,7 +149,7 @@
         "theme": "meta_argument_deconstruction_C2",
         "emoji": "🚩",
         "form": "adjective",
-        "transcription": "ˈhetərədɒks",
+        "transcription": "🇬🇧 ˈhetərədɒks | 🇺🇸 ˈhetərədɑːks",
         "definitions": [
             {
                 "text": "Contrary to established or accepted beliefs or doctrine.",
@@ -351,7 +351,7 @@
         "theme": "rhetoric_persuasion_C2",
         "emoji": "❗",
         "form": "adjective",
-        "transcription": "ˌkætəˈɡɒrɪkl",
+        "transcription": "🇬🇧 ˌkætəˈɡɒrɪkl | 🇺🇸 ˌkætəˈɡɑːrɪkl",
         "definitions": [
             {
                 "text": "Absolute; expressed without any exceptions or conditions.",
@@ -739,7 +739,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🔢",
         "form": "adjective",
-        "transcription": "ˈmænɪfəʊld",
+        "transcription": "🇬🇧 ˈmænɪfəʊld | 🇺🇸 ˈmænɪfoʊld",
         "definitions": [
             {
                 "text": "Many and of several different kinds.",
@@ -859,7 +859,7 @@
         "theme": "rhetoric_persuasion_C2",
         "emoji": "🌑",
         "form": "adjective",
-        "transcription": "əʊˈpeɪk",
+        "transcription": "🇬🇧 əʊˈpeɪk | 🇺🇸 oʊˈpeɪk",
         "definitions": [
             {
                 "text": "Not transparent; difficult to understand.",
@@ -883,7 +883,7 @@
         "theme": "meta_argument_deconstruction_C2",
         "emoji": "🎭",
         "form": "adjective",
-        "transcription": "ɒˈstensəbl",
+        "transcription": "🇬🇧 ɒˈstensəbl | 🇺🇸 ɑːˈstensəbl",
         "definitions": [
             {
                 "text": "Appearing to be something; stated as real or true.",
@@ -907,7 +907,7 @@
         "theme": "meta_argument_deconstruction_C2",
         "emoji": "🔄",
         "form": "adjective",
-        "transcription": "ˌpærəˈdɒksɪkl",
+        "transcription": "🇬🇧 ˌpærəˈdɒksɪkl | 🇺🇸 ˌpærəˈdɑːksɪkl",
         "definitions": [
             {
                 "text": "Contradicting itself while containing truth.",
@@ -955,7 +955,7 @@
         "theme": "political_theory_C2",
         "emoji": "🧲",
         "form": "adjective",
-        "transcription": "ˈpəʊləraɪzɪŋ",
+        "transcription": "🇬🇧 ˈpəʊləraɪzɪŋ | 🇺🇸 ˈpoʊləraɪzɪŋ",
         "definitions": [
             {
                 "text": "Causing people to take opposing positions.",

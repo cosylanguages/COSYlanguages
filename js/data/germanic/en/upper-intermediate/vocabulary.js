@@ -652,7 +652,7 @@
         "emoji": "💼",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "ˈɡɪɡ ɪˌkɒnəmi",
+        "transcription": "🇬🇧 ˈɡɪɡ ɪˌkɒnəmi | 🇺🇸 ˈɡɪɡ ɪˌkɑːnəmi",
         "subtext": "freelance work, flexible working",
         "definitions": [
             {
@@ -760,7 +760,7 @@
         "emoji": "🗳️",
         "form": "noun",
         "plural": "democracies",
-        "transcription": "dɪˈmɒkrəsi",
+        "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
         "subtext": "democratic system, voting",
         "definitions": [
             {
@@ -832,7 +832,7 @@
         "emoji": "🤝",
         "form": "noun",
         "plural": null,
-        "transcription": "ˈlɒbiɪŋ",
+        "transcription": "🇬🇧 ˈlɒbiɪŋ | 🇺🇸 ˈlɑːbiɪŋ",
         "subtext": "political influence, advocacy",
         "definitions": [
             {
@@ -976,7 +976,7 @@
         "emoji": "🏥",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "ˌjuːnɪˈvɜːsl ˈhɛlθkeə",
+        "transcription": "🇬🇧 ˌjuːnɪˈvɜːsl ˈhɛlθkeə | 🇺🇸 ˌjuːnɪˈvɜːsl ˈhɛlθkeər",
         "subtext": "public healthcare, health coverage",
         "definitions": [
             {
@@ -1102,7 +1102,7 @@
         "emoji": "📢",
         "form": "noun",
         "plural": "whistleblowers",
-        "transcription": "ˈwɪslbləʊə",
+        "transcription": "🇬🇧 ˈwɪslbləʊə | 🇺🇸 ˈwɪslbloʊər",
         "subtext": "exposing wrongdoing, informant",
         "definitions": [
             {
@@ -1246,7 +1246,7 @@
         "emoji": "🧩",
         "form": "noun",
         "plural": "paradoxes",
-        "transcription": "ˈpærədɒks",
+        "transcription": "🇬🇧 ˈpærədɒks | 🇺🇸 ˈpærədɑːks",
         "subtext": "contradiction, puzzle",
         "definitions": [
             {
@@ -1282,7 +1282,7 @@
         "emoji": "🚫",
         "form": "noun",
         "plural": "vetoes",
-        "transcription": "ˈviːtəʊ",
+        "transcription": "🇬🇧 ˈviːtəʊ | 🇺🇸 ˈviːtoʊ",
         "subtext": "power to reject, exercise a veto",
         "definitions": [
             {
