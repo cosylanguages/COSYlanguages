@@ -5,6 +5,7 @@
 
 const COURSES = {
   "COSY-FR-B1-GEN": { lang: "FR", level: "B1", type: "GEN" },
+  "COSY-EN-A0-GEN": { lang: "EN", level: "A0", type: "GEN" },
   "COSY-EN-A1-GEN": { lang: "EN", level: "A1", type: "GEN" },
   "COSY-EN-A2-GEN": { lang: "EN", level: "A2", type: "GEN" },
   "COSY-IT-B2-SPK": { lang: "IT", level: "B2", type: "SPK" },
@@ -24,6 +25,7 @@ const LANGS = {
 };
 
 const LEVELS = {
+  A0: "Pre-Baby (A0)",
   A1: "Baby (A1)",
   A2: "Primary (A2)",
   B1: "Middle (B1)",
@@ -144,6 +146,37 @@ const REFS = {
 };
 
 const CURRICULUM = {
+  EN: {
+    GEN: {
+      A0: [
+        {
+          title: "The Alphabet & Sounds", subtitle: "First steps in English",
+          skills: ["speaking", "listening"], desc: "Learn the English alphabet and the core sounds of the language. Your very first step towards fluency.", duration: "60 min", practiceTheme: "Alphabet",
+          grammar: [
+            {
+              point: "The verb 'To Be' (singular)", tag: "Basics",
+              explain: "English sentences always need a verb. 'To be' is the most important one.",
+              rule: "I am · You are · He/She/It is",
+              examples: [{ t: "I am a student.", e: "I am a student." }, { t: "You are here.", e: "You are here." }],
+              tip: "💡 In spoken English, we almost always use contractions: I'm, you're, he's.",
+              practiceTheme: "Greetings",
+            }
+          ],
+          vocab: [
+            {
+              group: "Letters & Sounds", words: [
+                { w: "A, B, C...", phon: "", trans: "The Alphabet", key: true },
+                { w: "Vowel", phon: "/ˈvaʊəl/", trans: "A, E, I, O, U", key: false },
+              ]
+            }
+          ]
+        }
+      ],
+      A1: "FROM_EN_A1_DATA",
+      A2: []
+    },
+    SPK: { B2: [] }
+  },
   FR: {
     GEN: {
       A1: [
@@ -282,15 +315,6 @@ const CURRICULUM = {
           }],
         },
       ]
-    }
-  },
-  EN: {
-    GEN: {
-      A1: "FROM_EN_A1_DATA", // Marker to use window.curriculumData.en_a1
-      A2: [],
-    },
-    SPK: {
-      B2: []
     }
   },
   IT: { SPK: { B2: [] } },

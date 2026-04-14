@@ -54,7 +54,7 @@
   --shadow-new:  0 1px 3px rgba(26,23,20,.08), 0 4px 16px rgba(26,23,20,.05);
 }
 
-.student-page { background: var(--cream); color: var(--ink); }
+.student-page { background: var(--cream); color: var(--ink); font-family: 'DM Sans', sans-serif; }
 
 /* GATE */
 #gate { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 72vh; text-align: center; }
@@ -342,11 +342,30 @@ function logout() {
   document.getElementById('area').style.display = 'none';
   document.getElementById('gate').style.display = 'flex';
   document.getElementById('ci').value = '';
+
+  // Restore navigation
+  document.body.classList.remove('student-unlocked-mode');
+  const navLinks = document.querySelector('.nav-links');
+  if (navLinks) {
+    navLinks.querySelectorAll('li').forEach(li => li.style.display = '');
+  }
+  const langSwitcher = document.querySelector('.nav-lang-switcher');
+  if (langSwitcher) langSwitcher.style.display = '';
 }
 
 function showArea() {
   document.getElementById('gate').style.display = 'none';
   document.getElementById('area').style.display = 'block';
+
+  // Exclusivity: Hide global navigation and language switcher to focus only on the curriculum
+  document.body.classList.add('student-unlocked-mode');
+  const navLinks = document.querySelector('.nav-links');
+  if (navLinks) {
+    // Keep only "My Lessons" and "Contact" or hide all and rely on the student area UI
+    navLinks.querySelectorAll('li:not(:has(.nav-student)):not(:has(.nav-wa))').forEach(li => li.style.display = 'none');
+  }
+  const langSwitcher = document.querySelector('.nav-lang-switcher');
+  if (langSwitcher) langSwitcher.style.display = 'none';
 
   const lm = LANGS[S.lang] || { label: S.lang, flag: '' };
   const tm = TYPES[S.type] || { label: S.type, icon: '' };
@@ -418,7 +437,8 @@ function renderAll() {
 
   const lm = LANGS[S.lang] || { flag: '', label: S.lang };
   const tm = TYPES[S.type] || { label: S.type };
-  document.getElementById('ct').textContent = `${lm.flag} ${lm.label} · ${tm.label}`;
+  const lv = LEVELS[S.level] || S.level;
+  document.getElementById('ct').textContent = `${lm.flag} ${lm.label} · ${lv} · ${tm.label}`;
 
   const c = document.getElementById('ls');
   if (!lessons.length) {
