@@ -137,8 +137,8 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--
 .gtable .row-label { background: var(--black); color: var(--white); font-size: .82rem; font-weight: 800; text-align: left; padding: .5rem 1rem; white-space: nowrap; }
 .gtable td.content { background: var(--teal); font-size: .95rem; }
 .gtable td.content-l { background: var(--teal); font-size: .95rem; text-align: left; }
-.section-row td { background: rgba(0,0,0,.18); color: var(--white); font-size: .82rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; text-align: left; padding: .45rem 1rem; border-color: var(--black); }
-.note-row td { background: rgba(0,0,0,.12); font-size: .86rem; font-weight: 700; text-align: center; padding: .55rem 1rem; font-style: italic; }
+.section-row td { background: rgba(0,0,0,0.18); color: var(--white); font-size: 0.82rem; font-weight: 900; letter-spacing: 0.05em; text-transform: uppercase; text-align: left; padding: 0.45rem 1rem; border-color: var(--black); }
+.note-row td { background: rgba(0,0,0,0.12); font-size: 0.86rem; font-weight: 700; text-align: center; padding: 0.55rem 1rem; font-style: italic; }
 
 /* Phonetic-specific helpers */
 .ipa  { font-family: 'Lora', serif; font-style: italic; color: var(--blue); font-weight: 700; }
@@ -179,7 +179,7 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--
 .sound-cell { padding: .6rem .9rem; font-size: .92rem; font-weight: 700; border-right: 2px solid var(--black); }
 .sound-cell:last-child { border-right: none; }
 .sound-cell.head { background: var(--black); color: #fff; font-size: .8rem; font-weight: 900; letter-spacing: .04em; }
-.sound-cell.label-cell { background: rgba(0,0,0,.08); }
+.sound-cell.label-cell { background: rgba(0,0,0,0.08); }
 
 /* Stress marker */
 .stress { text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--red); text-underline-offset: 3px; font-weight: 900; }
@@ -243,66 +243,91 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--
   <div class="section-title">🇬🇧 English — Pronunciation</div>
   <div class="level-nav">
     <button class="level-nav-btn a1" onclick="scrollToId('en-a1')">A1 Basics</button>
-    <button class="level-nav-btn a2" onclick="scrollToId('en-a2')">A2 Vowels</button>
-    <button class="level-nav-btn b1" onclick="scrollToId('en-b1')">B1 Stress</button>
-    <button class="level-nav-btn b2" onclick="scrollToId('en-b2')">B2 Connected</button>
-    <button class="level-nav-btn c1" onclick="scrollToId('en-c1')">C1 Advanced</button>
+    <button class="level-nav-btn a2" onclick="scrollToId('en-a2')">A2 Patterns</button>
+    <button class="level-nav-btn b1" onclick="scrollToId('en-b1')">B1 Schwa & Stress</button>
+    <button class="level-nav-btn b2" onclick="scrollToId('en-b2')">B2 Connections</button>
   </div>
-  <div class="level-divider" id="en-a1" data-level="a1"><span class="level-badge a1">A1 — Absolute Beginner</span><hr><span class="level-desc">Alphabet & Core Sounds</span></div>
-  <div class="card" id="en-card-alpha"><div class="card-title"><span class="lvl-dot a1"></span> The 26 Letters — Vowels vs Consonants</div><table class="gtable"><tr class="section-row"><td colspan="2">🔤 Vowel letters</td></tr><tr><td class="row-label">Letters</td><td class="content-l"><span class="snd">A  E  I  O  U</span></td></tr><tr class="section-row"><td colspan="2">🔤 Consonant letters</td></tr><tr><td class="row-label">Letters</td><td class="content-l">B C D F G H J K L M N P Q R S T V W X Y Z</td></tr></table></div>
-  <div class="card" id="en-card-vowels"><div class="card-title"><span class="lvl-dot a1"></span> Basic Vowel Sounds — Short vs Long</div><div class="sound-row"><div class="sound-cell head">Pattern</div><div class="sound-cell head">Sound</div><div class="sound-cell head">Examples</div></div><div class="sound-row"><div class="sound-cell label-cell"><strong>short A</strong></div><div class="sound-cell"><span class="ipa">/æ/</span></div><div class="sound-cell"><span class="ex">cat, hat, man</span></div></div><div class="sound-row"><div class="sound-cell label-cell"><strong>long A</strong></div><div class="sound-cell"><span class="ipa">/eɪ/</span></div><div class="sound-cell"><span class="ex">cake, name</span></div></div><div class="sound-row"><div class="sound-cell label-cell"><strong>short E</strong></div><div class="sound-cell"><span class="ipa">/ɛ/</span></div><div class="sound-cell"><span class="ex">bed, red, leg</span></div></div><div class="sound-row"><div class="sound-cell label-cell"><strong>long E</strong></div><div class="sound-cell"><span class="ipa">/iː/</span></div><div class="sound-cell"><span class="ex">see, tea, feet</span></div></div></div>
-  <div class="level-divider" id="en-a2" data-level="a2"><span class="level-badge a2">A2 — Elementary</span><hr><span class="level-desc">Digraphs & Endings</span></div>
-  <div class="card" id="en-card-ed"><div class="card-title"><span class="lvl-dot a2"></span> Past -ed Endings</div><table class="gtable"><tr><td class="row-label">/t/</td><td class="content-l">walked, cooked, watched</td></tr><tr><td class="row-label">/d/</td><td class="content-l">played, called, cleaned</td></tr><tr><td class="row-label">/ɪd/</td><td class="content-l">wanted, needed</td></tr></table></div>
-  <div class="level-divider" id="en-b1" data-level="b1"><span class="level-badge b1">B1 — Intermediate</span><hr><span class="level-desc">Stress & Schwa</span></div>
-  <div class="card" id="en-card-schwa"><div class="card-title"><span class="lvl-dot b1"></span> The Schwa <span class="ipa">/ə/</span></div><table class="gtable"><tr><td class="row-label">to</td><td class="content"><span class="ipa">/tə/</span></td></tr><tr><td class="row-label">the</td><td class="content"><span class="ipa">/ðə/</span></td></tr><tr><td class="row-label">and</td><td class="content"><span class="ipa">/ən/</span></td></tr></table></div>
+
+  <div class="level-divider" id="en-a1" data-level="a1"><span class="level-badge a1">A1 — Beginner</span><hr><span class="level-desc">Alphabet & Core Sounds</span></div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Basic Vowel Sounds</div>
+    <div class="sound-row"><div class="sound-cell head">Pattern</div><div class="sound-cell head">IPA</div><div class="sound-cell head">Examples</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">short A</div><div class="sound-cell ipa">/æ/</div><div class="sound-cell ex">c<span class="hi">a</span>t, h<span class="hi">a</span>t</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">long A</div><div class="sound-cell ipa">/eɪ/</div><div class="sound-cell ex">c<span class="hi">a</span>ke, n<span class="hi">a</span>me</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">short E</div><div class="sound-cell ipa">/e/</div><div class="sound-cell ex">r<span class="hi">e</span>d, b<span class="hi">e</span>d</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">long E</div><div class="sound-cell ipa">/i:/</div><div class="sound-cell ex">s<span class="hi">ee</span>, m<span class="hi">e</span></div></div>
+  </div>
+
+  <div class="level-divider" id="en-a2" data-level="a2"><span class="level-badge a2">A2 — Elementary</span><hr><span class="level-desc">Common Patterns</span></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a2"></span> Digraphs</div><table class="gtable"><tr><td class="row-label">TH</td><td class="content"><span class="ipa">/θ/</span> <span class="ex">think</span> or <span class="ipa">/ð/</span> <span class="ex">the</span></td></tr><tr><td class="row-label">CH</td><td class="content"><span class="ipa">/tʃ/</span> <span class="ex">chair, cheese</span></td></tr><tr><td class="row-label">SH</td><td class="content"><span class="ipa">/ʃ/</span> <span class="ex">shoe, shop</span></td></tr></table></div>
+
+  <div class="level-divider" id="en-b1" data-level="b1"><span class="level-badge b1">B1 — Intermediate</span><hr><span class="level-desc">Stress & The Schwa</span></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot b1"></span> The Schwa /ə/</div><div class="tip-box">The most common sound in English! Used in unstressed syllables.</div><table class="gtable"><tr><td class="row-label">About</td><td class="content"><span class="ipa">/ə'baʊt/</span></td></tr><tr><td class="row-label">Teacher</td><td class="content"><span class="ipa">/'ti:tʃə/</span></td></tr></table></div>
 </div>
 
 <!-- 🇫🇷 FRENCH -->
 <div class="lang-block" id="lang-fr" data-lang="fr">
   <div class="section-title">🇫🇷 Français — Prononciation</div>
   <div class="level-divider" id="fr-a1" data-level="a1"><span class="level-badge a1">A1 — Débutant</span><hr></div>
-  <div class="card" id="fr-card-accents"><div class="card-title"><span class="lvl-dot a1"></span> Les Accents</div><div class="sound-row"><div class="sound-cell head">Accent</div><div class="sound-cell head">Nom</div><div class="sound-cell head">Exemples</div></div><div class="sound-row"><div class="sound-cell label-cell"><strong>é</strong></div><div class="sound-cell">aigu</div><div class="sound-cell"><span class="ex">été, café</span></div></div><div class="sound-row"><div class="sound-cell label-cell"><strong>è / ê</strong></div><div class="sound-cell">grave / circonflexe</div><div class="sound-cell"><span class="ex">père, fête</span></div></div></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Silent Final Consonants</div><div class="tip-box">Most final consonants are NOT pronounced (exceptions: C, R, F, L).</div><table class="gtable"><tr><td class="row-label">T, S, X, Z</td><td class="content">Salu<span class="mute">t</span>, Pari<span class="mute">s</span>, Deu<span class="mute">x</span>, Ne<span class="mute">z</span></td></tr></table></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Les Accents</div><div class="sound-row"><div class="sound-cell head">Accent</div><div class="sound-cell head">Sound</div><div class="sound-cell head">Examples</div></div><div class="sound-row"><div class="sound-cell label-cell">é (aigu)</div><div class="sound-cell ipa">/e/</div><div class="sound-cell ex">caf<span class="hi">é</span>, ét<span class="hi">é</span></div></div><div class="sound-row"><div class="sound-cell label-cell">è (grave)</div><div class="sound-cell ipa">/ɛ/</div><div class="sound-cell ex">tr<span class="hi">è</span>s, m<span class="hi">è</span>re</div></div></div>
 </div>
 
 <!-- 🇮🇹 ITALIAN -->
 <div class="lang-block" id="lang-it" data-lang="it">
   <div class="section-title">🇮🇹 Italiano — Pronuncia</div>
   <div class="level-divider" id="it-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
-  <div class="card" id="it-card-cg"><div class="card-title"><span class="lvl-dot a1"></span> La regola C e G</div><table class="gtable"><tr><td class="row-label">C + A, O, U</td><td class="content">/k/ — casa, come</td></tr><tr><td class="row-label">C + E, I</td><td class="content">/tʃ/ — cena, cibo</td></tr></table></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The C and G Rules</div><table class="gtable"><tr><td class="row-label">Hard (A, O, U)</td><td class="content"><span class="ipa">/k/</span> c<span class="hi">a</span>sa, c<span class="hi">o</span>sa | <span class="ipa">/g/</span> g<span class="hi">a</span>tto</td></tr><tr><td class="row-label">Soft (E, I)</td><td class="content"><span class="ipa">/tʃ/</span> c<span class="hi">e</span>na, c<span class="hi">i</span>ao | <span class="ipa">/dʒ/</span> g<span class="hi">e</span>lato</td></tr><tr><td class="row-label">H fixes it</td><td class="content">C<span class="hi">h</span>ianti (hard), G<span class="hi">h</span>etto (hard)</td></tr></table></div>
 </div>
 
 <!-- 🇷🇺 RUSSIAN -->
 <div class="lang-block" id="lang-ru" data-lang="ru">
   <div class="section-title">🇷🇺 Русский — Произношение</div>
   <div class="level-divider" id="ru-a1" data-level="a1"><span class="level-badge a1">A1 — Начальный</span><hr></div>
-  <div class="card" id="ru-card-alpha"><div class="card-title"><span class="lvl-dot a1"></span> The Alphabet</div><div class="alpha-grid"><div class="alpha-cell"><span class="letter">А а</span><span class="ipa-sm">/a/</span></div><div class="alpha-cell highlight"><span class="letter">В в</span><span class="ipa-sm">/v/</span></div><div class="alpha-cell highlight"><span class="letter">Р р</span><span class="ipa-sm">/r/</span></div><div class="alpha-cell highlight"><span class="letter">Н н</span><span class="ipa-sm">/n/</span></div><div class="alpha-cell highlight"><span class="letter">С с</span><span class="ipa-sm">/s/</span></div><div class="alpha-cell highlight"><span class="letter">У у</span><span class="ipa-sm">/u/</span></div></div></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Vowel Reduction (O)</div><div class="tip-box">When 'O' is NOT stressed, it sounds like 'A'.</div><table class="gtable"><tr><td class="row-label">Молоко</td><td class="content"><span class="ipa">/mala'ko/</span> (Milk)</td></tr><tr><td class="row-label">Хорошо</td><td class="content"><span class="ipa">/hara'ʃo/</span> (Good)</td></tr></table></div>
 </div>
 
 <!-- 🇬🇷 GREEK -->
 <div class="lang-block" id="lang-el" data-lang="el">
   <div class="section-title">🇬🇷 Ελληνικά — Προφορά</div>
   <div class="level-divider" id="el-a1" data-level="a1"><span class="level-badge a1">A1 — Αρχάριος</span><hr></div>
-  <div class="card" id="el-card-alpha"><div class="card-title"><span class="lvl-dot a1"></span> Το Αλφάβητο</div><div class="alpha-grid"><div class="alpha-cell"><span class="letter">Α α</span><span class="ipa-sm">/a/</span></div><div class="alpha-cell highlight"><span class="letter">Β β</span><span class="ipa-sm">/v/</span></div><div class="alpha-cell highlight"><span class="letter">Δ δ</span><span class="ipa-sm">/ð/</span></div><div class="alpha-cell highlight"><span class="letter">Η η</span><span class="ipa-sm">/i/</span></div><div class="alpha-cell highlight"><span class="letter">Υ υ</span><span class="ipa-sm">/i/</span></div><div class="alpha-cell highlight"><span class="letter">Ω ω</span><span class="ipa-sm">/o/</span></div></div></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Key Consonants</div><table class="gtable"><tr><td class="row-label">Β β</td><td class="content"><span class="ipa">/v/</span> as in <span class="ex">very</span></td></tr><tr><td class="row-label">Δ δ</td><td class="content"><span class="ipa">/ð/</span> as in <span class="ex">this</span></td></tr><tr><td class="row-label">Γ γ</td><td class="content"><span class="ipa">/ɣ/</span> soft gargle</td></tr></table></div>
 </div>
 
-<!-- Placeholder for others -->
-<div class="lang-block" id="lang-es" data-lang="es"><div class="section-title">🇪🇸 Español — Pronunciación</div><div class="level-divider"><span class="level-badge a1">Coming Soon</span></div></div>
-<div class="lang-block" id="lang-de" data-lang="de"><div class="section-title">🇩🇪 Deutsch — Aussprache</div><div class="level-divider"><span class="level-badge a1">Coming Soon</span></div></div>
-<div class="lang-block" id="lang-pt" data-lang="pt"><div class="section-title">🇵🇹 Português — Pronúncia</div><div class="level-divider"><span class="level-badge a1">Coming Soon</span></div></div>
+<!-- 🇪🇸 SPANISH -->
+<div class="lang-block" id="lang-es" data-lang="es">
+  <div class="section-title">🇪🇸 Español — Pronunciación</div>
+  <div class="level-divider" id="es-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 5 Vowels</div><div class="tip-box">Spanish vowels are ALWAYS the same. Short and clear.</div><table class="gtable"><tr><td class="row-label">A, E, I, O, U</td><td class="content"><span class="ex">padre, mesa, cine, hola, uno</span></td></tr></table></div>
+</div>
+
+<!-- 🇩🇪 GERMAN -->
+<div class="lang-block" id="lang-de" data-lang="de">
+  <div class="section-title">🇩🇪 Deutsch — Aussprache</div>
+  <div class="level-divider" id="de-a1" data-level="a1"><span class="level-badge a1">A1 — Anfänger</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 'ICH' and 'ACH' sounds</div><table class="gtable"><tr><td class="row-label">CH (after E, I)</td><td class="content"><span class="ipa">/ç/</span> i<span class="hi">ch</span>, di<span class="hi">ch</span></td></tr><tr><td class="row-label">CH (after A, O, U)</td><td class="content"><span class="ipa">/x/</span> a<span class="hi">ch</span>, bu<span class="hi">ch</span></td></tr></table></div>
+</div>
+
+<!-- 🇵🇹 PORTUGUESE -->
+<div class="lang-block" id="lang-pt" data-lang="pt">
+  <div class="section-title">🇵🇹 Português — Pronúncia</div>
+  <div class="level-divider" id="pt-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Nasal Vowels</div><table class="gtable"><tr><td class="row-label">~ (Tilde)</td><td class="content">p<span class="hi">ão</span>, m<span class="hi">ão</span> (Nasal sound)</td></tr></table></div>
+</div>
 
 </main>
 </div>
 
 <script>
 const langSidebars = {
-  en: [{ label: 'A1 — Beginner', items: [['#en-a1','🟢 Basics']] },{ label: 'A2 — Elementary', items: [['#en-a2','🔵 Endings']] },{ label: 'B1 — Intermediate', items: [['#en-b1','🟠 Schwa']] }],
-  fr: [{ label: 'A1 — Débutant', items: [['#fr-a1','🟢 Accents']] }],
-  it: [{ label: 'A1 — Principiante', items: [['#it-a1','🟢 C e G']] }],
-  ru: [{ label: 'A1 — Начальный', items: [['#ru-a1','🟢 Алфавит']] }],
-  el: [{ label: 'A1 — Αρχάριος', items: [['#el-a1','🟢 Αλφάβητο']] }],
-  es: [{ label: 'A1 — Principiante', items: [['#','⏳ Soon']] }],
-  de: [{ label: 'A1 — Anfänger', items: [['#','⏳ Soon']] }],
-  pt: [{ label: 'A1 — Principiante', items: [['#','⏳ Soon']] }]
+  en: [{ label: 'A1 — Beginner', items: [['#en-a1','🟢 Basics']] },{ label: 'A2 — Elementary', items: [['#en-a2','🔵 Patterns']] },{ label: 'B1 — Intermediate', items: [['#en-b1','🟠 Schwa & Stress']] }],
+  fr: [{ label: 'A1 — Débutant', items: [['#fr-a1','🟢 Silent Letters'], ['#fr-a1','🟢 Accents']] }],
+  it: [{ label: 'A1 — Principiante', items: [['#it-a1','🟢 C and G']] }],
+  ru: [{ label: 'A1 — Начальный', items: [['#ru-a1','🟢 Vowel Reduction']] }],
+  el: [{ label: 'A1 — Αρχάριος', items: [['#el-a1','🟢 Key Consonants']] }],
+  es: [{ label: 'A1 — Principiante', items: [['#es-a1','🟢 Vowels']] }],
+  de: [{ label: 'A1 — Anfänger', items: [['#de-a1','🟢 CH sounds']] }],
+  pt: [{ label: 'A1 — Principiante', items: [['#pt-a1','🟢 Nasal Vowels']] }]
 };
 
 let S = null;

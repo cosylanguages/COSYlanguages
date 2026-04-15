@@ -112,6 +112,9 @@ body { font-family: 'Nunito', sans-serif; background: #f5f5f0; color: #111; min-
       <button class="ls-btn" data-lang="en" onclick="setLang('en',this)">🇬🇧 EN</button>
       <button class="ls-btn" data-lang="fr" onclick="setLang('fr',this)">🇫🇷 FR</button>
       <button class="ls-btn" data-lang="it" onclick="setLang('it',this)">🇮🇹 IT</button>
+      <button class="ls-btn" data-lang="es" onclick="setLang('es',this)">🇪🇸 ES</button>
+      <button class="ls-btn" data-lang="de" onclick="setLang('de',this)">🇩🇪 DE</button>
+      <button class="ls-btn" data-lang="pt" onclick="setLang('pt',this)">🇵🇹 PT</button>
       <button class="ls-btn" data-lang="ru" onclick="setLang('ru',this)">🇷🇺 RU</button>
       <button class="ls-btn" data-lang="el" onclick="setLang('el',this)">🇬🇷 EL</button>
     </div>
@@ -218,26 +221,10 @@ body { font-family: 'Nunito', sans-serif; background: #f5f5f0; color: #111; min-
   </div>
 </div>
 
-<!-- PAGE 3 - EN B1-B2 -->
-<div class="print-page visible" id="page-en-b1" data-lang="en" data-level="b1">
-  <div class="doc-header">
-    <div class="doc-header-left"><h2>🇬🇧 English Grammar — B1–B2</h2><p>Conditionals · Passive · Modals</p></div>
-    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammar Reference</small></div></div>
-  </div>
-  <div class="g-table-wrap keep-together">
-    <div class="g-table-title"><span>Conditionals</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
-    <table class="g-table">
-      <tr><td class="row-label">1st (Real)</td><td class="content-l">If it <span class="key-v">rains</span>, I <span class="key-v">will</span> stay home.</td></tr>
-      <tr><td class="row-label">2nd (Unreal)</td><td class="content-l">If I <span class="key-v">had</span> money, I <span class="key-v">would</span> travel.</td></tr>
-      <tr><td class="row-label">3rd (Regret)</td><td class="content-l">If I <span class="key-v">had studied</span>, I <span class="key-v">would have passed</span>.</td></tr>
-    </table>
-  </div>
-</div>
-
-<!-- PAGE 4 - FR A1-B1 -->
+<!-- PAGE 3 - FR A1 -->
 <div class="print-page visible" id="page-fr-a1" data-lang="fr" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left"><h2>🇫🇷 Grammaire française — A1–B1</h2><p>Être · Verbes -ER · Passé composé</p></div>
+    <div class="doc-header-left"><h2>🇫🇷 Grammaire française — A1</h2><p>Être · Avoir · Verbes -ER</p></div>
     <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Référence</small></div></div>
   </div>
   <span class="doc-level-badge a1">A1 — Débutant</span>
@@ -251,51 +238,138 @@ body { font-family: 'Nunito', sans-serif; background: #f5f5f0; color: #111; min-
       </table>
     </div>
     <div class="g-table-wrap">
-      <div class="g-table-title"><span>Verbes -ER (parler)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+      <div class="g-table-title"><span>AVOIR — Présent</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
       <table class="g-table">
-        <tr><td class="row-label">parle / es / e</td></tr>
-        <tr><td class="row-label">ons / ez / ent</td></tr>
+        <tr><td class="row-label">j'ai</td><td class="row-label">tu as</td></tr>
+        <tr><td class="row-label">il a</td><td class="row-label">nous avons</td></tr>
+        <tr><td class="row-label">vous avez</td><td class="row-label">ils ont</td></tr>
       </table>
     </div>
   </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>Verbes en -ER (parler)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">je parle</td><td class="row-label">tu parles</td><td class="row-label">il parle</td></tr>
+      <tr><td class="row-label">nous parlons</td><td class="row-label">vous parlez</td><td class="row-label">ils parlent</td></tr>
+    </table>
+  </div>
 </div>
 
-<!-- PAGE 5 - IT A1 -->
+<!-- PAGE 4 - IT A1 -->
 <div class="print-page visible" id="page-it-a1" data-lang="it" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left"><h2>🇮🇹 Grammatica italiana — A1</h2><p>ESSERE · Verbi · Regola C/G</p></div>
+    <div class="doc-header-left"><h2>🇮🇹 Grammatica italiana — A1</h2><p>ESSERE · AVERE · Verbi -ARE</p></div>
     <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammatica</small></div></div>
   </div>
   <div class="g-table-wrap">
     <div class="g-table-title"><span>ESSERE — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
     <table class="g-table">
-      <tr><td class="row-label">io sono</td><td class="row-label">tu sei</td><td class="row-label">lui è</td></tr>
+      <tr><td class="row-label">io sono</td><td class="row-label">tu sei</td><td class="row-label">lui/lei è</td></tr>
       <tr><td class="row-label">noi siamo</td><td class="row-label">voi siete</td><td class="row-label">loro sono</td></tr>
+    </table>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>AVERE — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">io ho</td><td class="row-label">tu hai</td><td class="row-label">lui/lei ha</td></tr>
+      <tr><td class="row-label">noi abbiamo</td><td class="row-label">voi avete</td><td class="row-label">loro hanno</td></tr>
     </table>
   </div>
 </div>
 
-<!-- PAGE 6 - RU A1 -->
-<div class="print-page visible" id="page-ru-a1" data-lang="ru" data-level="a1">
+<!-- PAGE 5 - ES A1 -->
+<div class="print-page visible" id="page-es-a1" data-lang="es" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left"><h2>🇷🇺 Русская грамматика — A1</h2><p>Алфавит · Гласные пары</p></div>
-    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Справочник</small></div></div>
+    <div class="doc-header-left"><h2>🇪🇸 Gramática española — A1</h2><p>SER · ESTAR · TENER</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Referencia</small></div></div>
   </div>
   <div class="g-table-wrap">
-    <div class="g-table-title"><span>Алфавит</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
-    <table class="g-table"><tr><td class="content">А а /a/</td><td class="content">Б б /b/</td><td class="content">В в /v/</td><td class="content">Г г /g/</td></tr></table>
+    <div class="g-table-title"><span>SER (to be) — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">yo soy</td><td class="row-label">tú eres</td><td class="row-label">él/ella es</td></tr>
+      <tr><td class="row-label">nosotros somos</td><td class="row-label">vosotros sois</td><td class="row-label">ellos/ellas son</td></tr>
+    </table>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>TENER (to have) — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">yo tengo</td><td class="row-label">tú tienes</td><td class="row-label">él tiene</td></tr>
+      <tr><td class="row-label">nosotros tenemos</td><td class="row-label">vosotros tenéis</td><td class="row-label">ellos tienen</td></tr>
+    </table>
   </div>
 </div>
 
-<!-- PAGE 7 - EL A1 -->
+<!-- PAGE 6 - DE A1 -->
+<div class="print-page visible" id="page-de-a1" data-lang="de" data-level="a1">
+  <div class="doc-header">
+    <div class="doc-header-left"><h2>🇩🇪 Deutsche Grammatik — A1</h2><p>SEIN · HABEN · Verben</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammatik</small></div></div>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>SEIN (to be) — Präsens</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">ich bin</td><td class="row-label">du bist</td><td class="row-label">er/sie/es ist</td></tr>
+      <tr><td class="row-label">wir sind</td><td class="row-label">ihr seid</td><td class="row-label">sie/Sie sind</td></tr>
+    </table>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>HABEN (to have) — Präsens</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">ich habe</td><td class="row-label">du hast</td><td class="row-label">er hat</td></tr>
+      <tr><td class="row-label">wir haben</td><td class="row-label">ihr habt</td><td class="row-label">sie haben</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- PAGE 7 - PT A1 -->
+<div class="print-page visible" id="page-pt-a1" data-lang="pt" data-level="a1">
+  <div class="doc-header">
+    <div class="doc-header-left"><h2>🇵🇹 Gramática portuguesa — A1</h2><p>SER · ESTAR · TER</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Referência</small></div></div>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>SER (to be) — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">eu sou</td><td class="row-label">tu és</td><td class="row-label">ele/ela é</td></tr>
+      <tr><td class="row-label">nós somos</td><td class="row-label">vós sois</td><td class="row-label">eles/elas são</td></tr>
+    </table>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>TER (to have) — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">eu tenho</td><td class="row-label">tu tens</td><td class="row-label">ele tem</td></tr>
+      <tr><td class="row-label">nós temos</td><td class="row-label">vós tendes</td><td class="row-label">eles têm</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- PAGE 8 - RU A1 -->
+<div class="print-page visible" id="page-ru-a1" data-lang="ru" data-level="a1">
+  <div class="doc-header">
+    <div class="doc-header-left"><h2>🇷🇺 Русская грамматика — A1</h2><p>Алфавит · Личные местоимения</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Справочник</small></div></div>
+  </div>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>Личные местоимения (Pronouns)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">я (I)</td><td class="row-label">ты (you)</td><td class="row-label">он/она (he/she)</td></tr>
+      <tr><td class="row-label">мы (we)</td><td class="row-label">вы (you pl)</td><td class="row-label">они (they)</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- PAGE 9 - EL A1 -->
 <div class="print-page visible" id="page-el-a1" data-lang="el" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left"><h2>🇬🇷 Ελληνική Γραμματική — A1</h2><p>Αλφάβητο · ΕΊΜΑΙ</p></div>
+    <div class="doc-header-left"><h2>🇬🇷 Ελληνική Γραμματική — A1</h2><p>ΕΊΜΑΙ · Άρθρα · Ουσιαστικά</p></div>
     <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Γραμματική</small></div></div>
   </div>
   <div class="g-table-wrap">
-    <div class="g-table-title"><span>ΕΊΜΑΙ (To be)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
-    <table class="g-table"><tr><td class="row-label">είμαι / είσαι / είναι</td></tr><tr><td class="row-label">είμαστε / είστε / είναι</td></tr></table>
+    <div class="g-table-title"><span>ΕΊΜΑΙ (To be) — Ενεστώτας</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">εγώ είμαι</td><td class="row-label">εσύ είσαι</td><td class="row-label">αυτός είναι</td></tr>
+      <tr><td class="row-label">εμείς είμαστε</td><td class="row-label">εσείς είστε</td><td class="row-label">αυτοί είναι</td></tr>
+    </table>
   </div>
 </div>
 
