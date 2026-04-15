@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronunciation Reference — COSYlanguages</title>
+<link rel="icon" href="images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<script src="js/data/curriculum_data.js"></script>
+<style>
+/* ══════════════════════════════════════════
+   DESIGN TOKENS — identical to grammar ref
+══════════════════════════════════════════ */
+:root {
+  --teal:    #00B5A3;
+  --teal-dk: #008F80;
+  --teal-lt: #00CFC0;
+  --black:   #111111;
+  --white:   #FFFFFF;
+  --yellow:  #FFE135;
+  --red:     #FF4136;
+  --orange:  #FF6B1A;
+  --green:   #2ECC40;
+  --blue:    #0074D9;
+  --cream:   #FFFDF5;
+  /* level colours */
+  --a1: #2ECC40;
+  --a2: #0074D9;
+  --b1: #FF6B1A;
+  --b2: #9B59B6;
+  --c1: #CE2B37;
+  --c2: #111111;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--black); min-height: 100vh; }
+
+/* ── Header ── */
+.page-header {
+  background: var(--black); color: var(--white);
+  padding: 1rem 2rem; display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: .8rem;
+  position: sticky; top: 0; z-index: 300;
+  border-bottom: 3px solid var(--yellow);
+}
+.page-header h1 { font-family: 'Lora', serif; font-size: 1.3rem; font-weight: 700; letter-spacing: .02em; }
+.breadcrumb { font-size: .78rem; opacity: .6; }
+.lang-tabs { display: flex; gap: .4rem; flex-wrap: wrap; }
+.lang-tab {
+  background: rgba(255,255,255,.12); border: 2px solid rgba(255,255,255,.25);
+  border-radius: 999px; color: #fff; font-family: 'Nunito', sans-serif;
+  font-size: .78rem; font-weight: 800; padding: .25rem .75rem;
+  cursor: pointer; transition: all .18s;
+}
+.lang-tab.active { background: var(--teal); border-color: var(--teal); color: var(--black); }
+.lang-tab:hover  { background: var(--teal-dk); border-color: var(--teal-dk); }
+
+/* ── Layout ── */
+.layout { display: grid; grid-template-columns: 250px 1fr; min-height: calc(100vh - 64px); }
+
+/* ── Sidebar ── */
+.sidebar {
+  background: var(--teal-dk); padding: 1.5rem 0;
+  border-right: 3px solid var(--black);
+  position: sticky; top: 67px; height: calc(100vh - 67px); overflow-y: auto;
+}
+.sidebar-section { margin-bottom: .3rem; }
+.sidebar-label {
+  font-size: .62rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem;
+}
+.sidebar-item {
+  display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700;
+  color: rgba(255,255,255,.85); cursor: pointer; border-left: 3px solid transparent;
+  transition: all .15s; text-decoration: none;
+}
+.sidebar-item:hover { background: rgba(0,0,0,.15); color: #fff; }
+.sidebar-item.active { border-left-color: var(--yellow); background: rgba(0,0,0,.2); color: var(--yellow); }
+
+/* ── Main ── */
+.main { padding: 2rem; background: var(--teal); }
+
+/* Language block */
+.lang-block { display: none; }
+.lang-block.show { display: block; }
+
+/* Section title */
+.section-title {
+  font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700;
+  color: var(--black); margin-bottom: 1.2rem; padding-bottom: .5rem;
+  border-bottom: 3px solid var(--black); display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
+}
+
+/* Level divider */
+.level-divider {
+  display: flex; align-items: center; gap: .8rem; margin: 2rem 0 1.1rem;
+}
+.level-badge {
+  display: inline-flex; align-items: center; gap: .4rem;
+  color: #fff; font-size: .8rem; font-weight: 900; letter-spacing: .08em;
+  text-transform: uppercase; padding: .35rem 1rem; border-radius: 999px;
+}
+.level-badge.a1 { background: var(--a1); }
+.level-badge.a2 { background: var(--a2); }
+.level-badge.b1 { background: var(--b1); }
+.level-badge.b2 { background: var(--b2); }
+.level-badge.c1 { background: var(--c1); }
+.level-badge.c2 { background: var(--c2); }
+.level-divider hr { flex: 1; border: none; border-top: 2.5px solid rgba(0,0,0,.2); }
+.level-desc { font-size: .8rem; font-weight: 700; color: rgba(0,0,0,.55); }
+
+/* ── Card ── */
+.card {
+  background: var(--teal); border: 3px solid var(--black); border-radius: 4px;
+  margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black);
+}
+.card-title {
+  background: var(--black); color: var(--white); font-family: 'Lora', serif;
+  font-size: 1.05rem; font-weight: 700; padding: .65rem 1.1rem;
+  text-align: center; letter-spacing: .02em;
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .6rem;
+}
+.card-title .lvl-dot {
+  width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+}
+.lvl-dot.a1 { background: var(--a1); }
+.lvl-dot.a2 { background: var(--a2); }
+.lvl-dot.b1 { background: var(--b1); }
+.lvl-dot.b2 { background: var(--b2); }
+.lvl-dot.c1 { background: var(--c1); }
+.lvl-dot.c2 { background: var(--c2); }
+
+/* Grammar table style tables */
+.gtable { width: 100%; border-collapse: collapse; }
+.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.4; }
+.gtable .row-label { background: var(--black); color: var(--white); font-size: .82rem; font-weight: 800; text-align: left; padding: .5rem 1rem; white-space: nowrap; }
+.gtable td.content { background: var(--teal); font-size: .95rem; }
+.gtable td.content-l { background: var(--teal); font-size: .95rem; text-align: left; }
+.section-row td { background: rgba(0,0,0,0.18); color: var(--white); font-size: 0.82rem; font-weight: 900; letter-spacing: 0.05em; text-transform: uppercase; text-align: left; padding: 0.45rem 1rem; border-color: var(--black); }
+.note-row td { background: rgba(0,0,0,0.12); font-size: 0.86rem; font-weight: 700; text-align: center; padding: 0.55rem 1rem; font-style: italic; }
+
+/* Phonetic-specific helpers */
+.ipa  { font-family: 'Lora', serif; font-style: italic; color: var(--blue); font-weight: 700; }
+.snd  { color: var(--yellow); font-weight: 900; font-size: 1.05em; }
+.ex   { color: var(--orange); font-weight: 800; }
+.mute { color: var(--red); font-weight: 900; text-decoration: line-through; }
+.hi   { background: rgba(255,225,53,.45); border-radius: 3px; padding: 0 .2rem; font-weight: 900; }
+.lnk  { color: var(--blue); font-weight: 900; }
+
+/* Tip box */
+.tip-box {
+  border: 2.5px solid var(--black); border-top: none;
+  background: rgba(255,255,255,.15); padding: .75rem 1.1rem;
+  font-size: .83rem; font-weight: 700; line-height: 1.6;
+}
+
+/* Alphabet grid */
+.alpha-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(86px,1fr)); gap: .5rem; padding: 1rem;
+}
+.alpha-cell {
+  border: 2.5px solid var(--black); border-radius: 4px; background: var(--white);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: .55rem .3rem; text-align: center; min-height: 72px;
+}
+.alpha-cell .letter { font-size: 1.5rem; font-weight: 900; line-height: 1; }
+.alpha-cell .letter-sm { font-size: .95rem; font-weight: 800; color: rgba(0,0,0,.5); }
+.alpha-cell .ipa-sm  { font-family: 'Lora', serif; font-style: italic; font-size: .75rem; color: var(--blue); margin-top: .2rem; }
+.alpha-cell .eng-sm  { font-size: .7rem; font-weight: 700; color: rgba(0,0,0,.45); margin-top: .15rem; }
+.alpha-cell.highlight { background: var(--yellow); border-color: var(--black); }
+.alpha-cell.tricky    { background: rgba(255,65,54,.12); }
+
+/* Sound demo rows */
+.sound-row {
+  display: grid; grid-template-columns: 130px 1fr 1fr; border-bottom: 2px solid var(--black);
+}
+.sound-row:last-child { border-bottom: none; }
+.sound-cell { padding: .6rem .9rem; font-size: .92rem; font-weight: 700; border-right: 2px solid var(--black); }
+.sound-cell:last-child { border-right: none; }
+.sound-cell.head { background: var(--black); color: #fff; font-size: .8rem; font-weight: 900; letter-spacing: .04em; }
+.sound-cell.label-cell { background: rgba(0,0,0,0.08); }
+
+/* Stress marker */
+.stress { text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--red); text-underline-offset: 3px; font-weight: 900; }
+
+/* Progress nav */
+.level-nav {
+  display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.5rem;
+}
+.level-nav-btn {
+  border: 2.5px solid var(--black); border-radius: 999px;
+  font-family: 'Nunito', sans-serif; font-size: .78rem; font-weight: 800;
+  padding: .25rem .85rem; cursor: pointer; transition: all .15s; color: #fff;
+}
+.level-nav-btn:hover { opacity: .8; }
+.level-nav-btn.a1 { background: var(--a1); }
+.level-nav-btn.a2 { background: var(--a2); }
+.level-nav-btn.b1 { background: var(--b1); }
+.level-nav-btn.b2 { background: var(--b2); }
+.level-nav-btn.c1 { background: var(--c1); }
+.level-nav-btn.c2 { background: var(--c2); }
+
+@media (max-width: 820px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .sound-row { grid-template-columns: 100px 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══ PAGE HEADER ══ -->
+<div class="page-header">
+  <div>
+    <div class="breadcrumb">Student Area 🔐 → Pronunciation Reference</div>
+    <h1>Pronunciation Reference 🔊</h1>
+  </div>
+  <div class="lang-tabs" id="lang-tabs">
+    <button class="lang-tab active" data-lang="en" onclick="setLang('en',this)">🇬🇧 EN</button>
+    <button class="lang-tab"        data-lang="fr" onclick="setLang('fr',this)">🇫🇷 FR</button>
+    <button class="lang-tab"        data-lang="it" onclick="setLang('it',this)">🇮🇹 IT</button>
+    <button class="lang-tab"        data-lang="ru" onclick="setLang('ru',this)">🇷🇺 RU</button>
+    <button class="lang-tab"        data-lang="el" onclick="setLang('el',this)">🇬🇷 EL</button>
+    <button class="lang-tab"        data-lang="es" onclick="setLang('es',this)">🇪🇸 ES</button>
+    <button class="lang-tab"        data-lang="de" onclick="setLang('de',this)">🇩🇪 DE</button>
+    <button class="lang-tab"        data-lang="pt" onclick="setLang('pt',this)">🇵🇹 PT</button>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- ══ SIDEBAR ══ -->
+<nav class="sidebar" id="sidebar">
+  <!-- filled dynamically -->
+</nav>
+
+<!-- ══ MAIN ══ -->
+<main class="main" id="main-content">
+
+<!-- 🇬🇧 ENGLISH -->
+<div class="lang-block show" id="lang-en" data-lang="en">
+  <div class="section-title">🇬🇧 English — Pronunciation</div>
+  <div class="level-nav">
+    <button class="level-nav-btn a1" onclick="scrollToId('en-a1')">A1 Basics</button>
+    <button class="level-nav-btn a2" onclick="scrollToId('en-a2')">A2 Patterns</button>
+    <button class="level-nav-btn b1" onclick="scrollToId('en-b1')">B1 Schwa & Stress</button>
+    <button class="level-nav-btn b2" onclick="scrollToId('en-b2')">B2 Connections</button>
+  </div>
+
+  <div class="level-divider" id="en-a1" data-level="a1"><span class="level-badge a1">A1 — Beginner</span><hr><span class="level-desc">Alphabet & Core Sounds</span></div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Basic Vowel Sounds</div>
+    <div class="sound-row"><div class="sound-cell head">Pattern</div><div class="sound-cell head">IPA</div><div class="sound-cell head">Examples</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">short A</div><div class="sound-cell ipa">/æ/</div><div class="sound-cell ex">c<span class="hi">a</span>t, h<span class="hi">a</span>t</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">long A</div><div class="sound-cell ipa">/eɪ/</div><div class="sound-cell ex">c<span class="hi">a</span>ke, n<span class="hi">a</span>me</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">short E</div><div class="sound-cell ipa">/e/</div><div class="sound-cell ex">r<span class="hi">e</span>d, b<span class="hi">e</span>d</div></div>
+    <div class="sound-row"><div class="sound-cell label-cell">long E</div><div class="sound-cell ipa">/i:/</div><div class="sound-cell ex">s<span class="hi">ee</span>, m<span class="hi">e</span></div></div>
+  </div>
+
+  <div class="level-divider" id="en-a2" data-level="a2"><span class="level-badge a2">A2 — Elementary</span><hr><span class="level-desc">Common Patterns</span></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a2"></span> Digraphs</div><table class="gtable"><tr><td class="row-label">TH</td><td class="content"><span class="ipa">/θ/</span> <span class="ex">think</span> or <span class="ipa">/ð/</span> <span class="ex">the</span></td></tr><tr><td class="row-label">CH</td><td class="content"><span class="ipa">/tʃ/</span> <span class="ex">chair, cheese</span></td></tr><tr><td class="row-label">SH</td><td class="content"><span class="ipa">/ʃ/</span> <span class="ex">shoe, shop</span></td></tr></table></div>
+
+  <div class="level-divider" id="en-b1" data-level="b1"><span class="level-badge b1">B1 — Intermediate</span><hr><span class="level-desc">Stress & The Schwa</span></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot b1"></span> The Schwa /ə/</div><div class="tip-box">The most common sound in English! Used in unstressed syllables.</div><table class="gtable"><tr><td class="row-label">About</td><td class="content"><span class="ipa">/ə'baʊt/</span></td></tr><tr><td class="row-label">Teacher</td><td class="content"><span class="ipa">/'ti:tʃə/</span></td></tr></table></div>
+</div>
+
+<!-- 🇫🇷 FRENCH -->
+<div class="lang-block" id="lang-fr" data-lang="fr">
+  <div class="section-title">🇫🇷 Français — Prononciation</div>
+  <div class="level-divider" id="fr-a1" data-level="a1"><span class="level-badge a1">A1 — Débutant</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Silent Final Consonants</div><div class="tip-box">Most final consonants are NOT pronounced (exceptions: C, R, F, L).</div><table class="gtable"><tr><td class="row-label">T, S, X, Z</td><td class="content">Salu<span class="mute">t</span>, Pari<span class="mute">s</span>, Deu<span class="mute">x</span>, Ne<span class="mute">z</span></td></tr></table></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Les Accents</div><div class="sound-row"><div class="sound-cell head">Accent</div><div class="sound-cell head">Sound</div><div class="sound-cell head">Examples</div></div><div class="sound-row"><div class="sound-cell label-cell">é (aigu)</div><div class="sound-cell ipa">/e/</div><div class="sound-cell ex">caf<span class="hi">é</span>, ét<span class="hi">é</span></div></div><div class="sound-row"><div class="sound-cell label-cell">è (grave)</div><div class="sound-cell ipa">/ɛ/</div><div class="sound-cell ex">tr<span class="hi">è</span>s, m<span class="hi">è</span>re</div></div></div>
+</div>
+
+<!-- 🇮🇹 ITALIAN -->
+<div class="lang-block" id="lang-it" data-lang="it">
+  <div class="section-title">🇮🇹 Italiano — Pronuncia</div>
+  <div class="level-divider" id="it-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The C and G Rules</div><table class="gtable"><tr><td class="row-label">Hard (A, O, U)</td><td class="content"><span class="ipa">/k/</span> c<span class="hi">a</span>sa, c<span class="hi">o</span>sa | <span class="ipa">/g/</span> g<span class="hi">a</span>tto</td></tr><tr><td class="row-label">Soft (E, I)</td><td class="content"><span class="ipa">/tʃ/</span> c<span class="hi">e</span>na, c<span class="hi">i</span>ao | <span class="ipa">/dʒ/</span> g<span class="hi">e</span>lato</td></tr><tr><td class="row-label">H fixes it</td><td class="content">C<span class="hi">h</span>ianti (hard), G<span class="hi">h</span>etto (hard)</td></tr></table></div>
+</div>
+
+<!-- 🇷🇺 RUSSIAN -->
+<div class="lang-block" id="lang-ru" data-lang="ru">
+  <div class="section-title">🇷🇺 Русский — Произношение</div>
+  <div class="level-divider" id="ru-a1" data-level="a1"><span class="level-badge a1">A1 — Начальный</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Vowel Reduction (O)</div><div class="tip-box">When 'O' is NOT stressed, it sounds like 'A'.</div><table class="gtable"><tr><td class="row-label">Молоко</td><td class="content"><span class="ipa">/mala'ko/</span> (Milk)</td></tr><tr><td class="row-label">Хорошо</td><td class="content"><span class="ipa">/hara'ʃo/</span> (Good)</td></tr></table></div>
+</div>
+
+<!-- 🇬🇷 GREEK -->
+<div class="lang-block" id="lang-el" data-lang="el">
+  <div class="section-title">🇬🇷 Ελληνικά — Προφορά</div>
+  <div class="level-divider" id="el-a1" data-level="a1"><span class="level-badge a1">A1 — Αρχάριος</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Key Consonants</div><table class="gtable"><tr><td class="row-label">Β β</td><td class="content"><span class="ipa">/v/</span> as in <span class="ex">very</span></td></tr><tr><td class="row-label">Δ δ</td><td class="content"><span class="ipa">/ð/</span> as in <span class="ex">this</span></td></tr><tr><td class="row-label">Γ γ</td><td class="content"><span class="ipa">/ɣ/</span> soft gargle</td></tr></table></div>
+</div>
+
+<!-- 🇪🇸 SPANISH -->
+<div class="lang-block" id="lang-es" data-lang="es">
+  <div class="section-title">🇪🇸 Español — Pronunciación</div>
+  <div class="level-divider" id="es-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 5 Vowels</div><div class="tip-box">Spanish vowels are ALWAYS the same. Short and clear.</div><table class="gtable"><tr><td class="row-label">A, E, I, O, U</td><td class="content"><span class="ex">padre, mesa, cine, hola, uno</span></td></tr></table></div>
+</div>
+
+<!-- 🇩🇪 GERMAN -->
+<div class="lang-block" id="lang-de" data-lang="de">
+  <div class="section-title">🇩🇪 Deutsch — Aussprache</div>
+  <div class="level-divider" id="de-a1" data-level="a1"><span class="level-badge a1">A1 — Anfänger</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 'ICH' and 'ACH' sounds</div><table class="gtable"><tr><td class="row-label">CH (after E, I)</td><td class="content"><span class="ipa">/ç/</span> i<span class="hi">ch</span>, di<span class="hi">ch</span></td></tr><tr><td class="row-label">CH (after A, O, U)</td><td class="content"><span class="ipa">/x/</span> a<span class="hi">ch</span>, bu<span class="hi">ch</span></td></tr></table></div>
+</div>
+
+<!-- 🇵🇹 PORTUGUESE -->
+<div class="lang-block" id="lang-pt" data-lang="pt">
+  <div class="section-title">🇵🇹 Português — Pronúncia</div>
+  <div class="level-divider" id="pt-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Nasal Vowels</div><table class="gtable"><tr><td class="row-label">~ (Tilde)</td><td class="content">p<span class="hi">ão</span>, m<span class="hi">ão</span> (Nasal sound)</td></tr></table></div>
+</div>
+
+</main>
+</div>
+
+<script>
+const langSidebars = {
+  en: [{ label: 'A1 — Beginner', items: [['#en-a1','🟢 Basics']] },{ label: 'A2 — Elementary', items: [['#en-a2','🔵 Patterns']] },{ label: 'B1 — Intermediate', items: [['#en-b1','🟠 Schwa & Stress']] }],
+  fr: [{ label: 'A1 — Débutant', items: [['#fr-a1','🟢 Silent Letters'], ['#fr-a1','🟢 Accents']] }],
+  it: [{ label: 'A1 — Principiante', items: [['#it-a1','🟢 C and G']] }],
+  ru: [{ label: 'A1 — Начальный', items: [['#ru-a1','🟢 Vowel Reduction']] }],
+  el: [{ label: 'A1 — Αρχάριος', items: [['#el-a1','🟢 Key Consonants']] }],
+  es: [{ label: 'A1 — Principiante', items: [['#es-a1','🟢 Vowels']] }],
+  de: [{ label: 'A1 — Anfänger', items: [['#de-a1','🟢 CH sounds']] }],
+  pt: [{ label: 'A1 — Principiante', items: [['#pt-a1','🟢 Nasal Vowels']] }]
+};
+
+let S = null;
+
+function init() {
+  const code = localStorage.getItem('student_course_code');
+  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
+    S = { ...COURSES[code], code: code };
+    document.getElementById('lang-tabs').style.display = 'none';
+    setLang(S.lang.toLowerCase());
+  } else setLang('en');
+}
+
+function buildSidebar(lang) {
+  const nav = document.getElementById('sidebar');
+  const data = langSidebars[lang] || [];
+  let filtered = data;
+  if (S) {
+    const sLevel = S.level.toLowerCase();
+    filtered = data.filter(s => {
+       const label = s.label.split(' ')[0].toLowerCase();
+       return levelOrder(label) <= levelOrder(sLevel);
+    });
+  }
+  nav.innerHTML = filtered.map(s => `<div class="sidebar-section"><div class="sidebar-label">${s.label}</div>${s.items.map(([h,l]) => `<a class="sidebar-item" href="${h}" onclick="scrollToId('${h.substring(1)}')">${l}</a>`).join('')}</div>`).join('');
+}
+
+function setLang(lang, btn) {
+  document.querySelectorAll('.lang-block').forEach(b => b.classList.remove('show'));
+  document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+  const block = document.getElementById('lang-' + lang);
+  if (block) {
+    block.classList.add('show');
+    if (S) {
+      const sLevel = S.level.toLowerCase();
+      block.querySelectorAll('.level-divider, .card').forEach(el => {
+        const elLevel = el.dataset.level || el.closest('.level-divider')?.dataset.level;
+        if (elLevel && levelOrder(elLevel) > levelOrder(sLevel)) el.style.display = 'none';
+      });
+    }
+  }
+  if (btn) btn.classList.add('active');
+  else { const t = document.querySelector(`.lang-tab[data-lang="${lang}"]`); if (t) t.classList.add('active'); }
+  buildSidebar(lang);
+}
+
+function levelOrder(lv) {
+  const m = { a1:1, a2:2, b1:3, b2:4, c1:5, c2:6, starter:1, elementary:2, intermediate:3, 'upper int.':4, advanced:5, proficiency:6 };
+  return m[lv] || 1;
+}
+
+function scrollToId(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+      const l = document.querySelector(`.sidebar-item[href="#${e.target.id}"]`);
+      if (l) l.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+
+document.querySelectorAll('.level-divider').forEach(s => observer.observe(s));
+init();
+</script>
+</body>
+</html>

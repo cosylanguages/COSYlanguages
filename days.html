@@ -276,6 +276,7 @@
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
           <h2 class="sec-title" id="ct" style="margin-bottom: 0;">Curriculum</h2>
           <div style="display: flex; gap: 0.5rem;">
+             <button id="open-workbook-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📓 Workbook</button>
              <button id="open-roadmap-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px; display: none;">🗺️ Full Roadmap</button>
              <button id="open-grammar-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📐 Grammar Ref</button>
              <button id="open-vocab-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📖 Vocab Ref</button>
@@ -712,6 +713,13 @@ document.addEventListener('DOMContentLoaded', () => {
     gramRefBtn.onclick = () => {
       const lang = S ? S.lang.toLowerCase() : 'en';
       window.location.href = `grammar-reference.html?lang=${lang}`;
+    };
+  }
+
+  const workbookBtn = document.getElementById('open-workbook-btn');
+  if (workbookBtn) {
+    workbookBtn.onclick = () => {
+      window.location.href = 'workbook.html';
     };
   }
 });
