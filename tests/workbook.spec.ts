@@ -36,4 +36,14 @@ test('Verify Workbook page', async ({ page }) => {
     // For COSY-EN-A1-GEN, it should show English A1 page
     await expect(visiblePages).toHaveCount(1);
     await expect(visiblePages.first()).toHaveAttribute('data-lang', 'en');
+
+    // Check Pronunciation Guide link
+    await page.goto('http://localhost:8080/workbook.html');
+    await page.click('.quick-card:has-text("Pronunciation Guide")');
+    await expect(page).toHaveURL(/.*pronunciation-reference.html/);
+
+    // Verify student auto-filtering in pronunciation guide
+    const visibleBlocks = await page.locator('.lang-block.show');
+    await expect(visibleBlocks).toHaveCount(1);
+    await expect(visibleBlocks.first()).toHaveAttribute('data-lang', 'en');
 });

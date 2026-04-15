@@ -9,7 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <script src="js/data/curriculum_data.js"></script>
 <style>
-
 /* ══════════════════════════════════
    SCREEN STYLES — control bar
 ══════════════════════════════════ */
@@ -20,191 +19,88 @@
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
+body { font-family: 'Nunito', sans-serif; background: #f5f5f0; color: #111; min-height: 100vh; }
 
-body {
-  font-family: 'Nunito', sans-serif;
-  background: #f5f5f0;
-  color: #111;
-  min-height: 100vh;
-}
-
-/* Control bar — hidden when printing */
 .control-bar {
   background: var(--black); color: #fff;
   padding: .9rem 2rem; display: flex; align-items: center;
   justify-content: space-between; flex-wrap: wrap; gap: .8rem;
-  position: sticky; top: 0; z-index: 50;
-  border-bottom: 3px solid var(--yellow);
+  position: sticky; top: 0; z-index: 50; border-bottom: 3px solid var(--yellow);
 }
 .cb-brand { font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; display: flex; align-items: center; gap: .5rem; }
 .cb-brand small { font-family: 'Nunito', sans-serif; font-size: .7rem; font-weight: 800; background: var(--yellow); color: var(--black); padding: .1rem .45rem; border-radius: 4px; letter-spacing: .05em; text-transform: uppercase; }
 .cb-controls { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
-.lang-selector { display: flex; gap: .3rem; }
 .ls-btn {
   background: rgba(255,255,255,.12); border: 2px solid rgba(255,255,255,.25);
   border-radius: 4px; color: #fff; font-family: 'Nunito', sans-serif;
   font-size: .78rem; font-weight: 800; padding: .25rem .7rem; cursor: pointer; transition: all .15s;
 }
 .ls-btn.active { background: var(--teal); border-color: var(--teal); color: var(--black); }
-.ls-btn:hover  { background: var(--teal-dk); border-color: var(--teal-dk); }
-.print-btn {
-  background: var(--yellow); color: var(--black); border: 2.5px solid var(--yellow);
-  border-radius: 4px; font-family: 'Nunito', sans-serif; font-size: .85rem; font-weight: 900;
-  padding: .45rem 1.2rem; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: .4rem;
-}
-.print-btn:hover { background: #ffd000; }
-.back-link { color: rgba(255,255,255,.6); font-size: .78rem; font-weight: 800; text-decoration: none; transition: color .15s; }
-.back-link:hover { color: #fff; }
-.print-tip { font-size: .72rem; font-weight: 700; color: rgba(255,255,255,.5); }
+.print-btn { background: var(--yellow); color: var(--black); border: 2.5px solid var(--yellow); border-radius: 4px; font-family: 'Nunito', sans-serif; font-size: .85rem; font-weight: 900; padding: .45rem 1.2rem; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: .4rem; }
+.back-link { color: rgba(255,255,255,.6); font-size: .78rem; font-weight: 800; text-decoration: none; }
 
-/* Level filter */
 .level-filter { display: flex; gap: .3rem; flex-wrap: wrap; padding: 1rem 2rem; background: #eeede8; border-bottom: 2px solid #ccc; }
-.lf-btn {
-  border: 2px solid #ccc; border-radius: 999px; font-family: 'Nunito', sans-serif;
-  font-size: .75rem; font-weight: 900; padding: .2rem .75rem; cursor: pointer; background: #fff; transition: all .14s;
-}
-.lf-btn:hover { border-color: #999; }
+.lf-btn { border: 2px solid #ccc; border-radius: 999px; font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 900; padding: .2rem .75rem; cursor: pointer; background: #fff; }
 .lf-btn.active { color: #fff; border-color: transparent; }
-.lf-btn.lv-all  { background: var(--black); color: #fff; border-color: var(--black); }
+.lf-btn.lv-all { background: var(--black); color: #fff; }
 .lf-btn.lv-a1.active { background: var(--a1); }
 .lf-btn.lv-a2.active { background: var(--a2); }
 .lf-btn.lv-b1.active { background: var(--b1); }
 .lf-btn.lv-b2.active { background: var(--b2); }
 
-/* ══════════════════════════════════
-   PRINT DOCUMENT AREA
-══════════════════════════════════ */
-.doc-wrapper {
-  max-width: 820px; margin: 2rem auto; padding: 0 1.5rem;
-}
-
-/* A4 page simulation */
-.print-page {
-  background: #fff; border: 1px solid #d0d0d0;
-  box-shadow: 0 4px 20px rgba(0,0,0,.12);
-  margin-bottom: 2rem; border-radius: 2px;
-  padding: 40px 48px;
-  display: none; /* shown by JS */
-}
+.doc-wrapper { max-width: 820px; margin: 2rem auto; padding: 0 1.5rem; }
+.print-page { background: #fff; border: 1px solid #d0d0d0; box-shadow: 0 4px 20px rgba(0,0,0,.12); margin-bottom: 2rem; padding: 40px 48px; display: none; }
 .print-page.visible { display: block; }
 
-/* Page header */
-.doc-header {
-  display: flex; align-items: flex-end; justify-content: space-between;
-  border-bottom: 3px solid #111; padding-bottom: .5rem; margin-bottom: 1.5rem;
-}
+.doc-header { display: flex; align-items: flex-end; justify-content: space-between; border-bottom: 3px solid #111; padding-bottom: .5rem; margin-bottom: 1.5rem; }
 .doc-header-left h2 { font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700; color: #111; }
-.doc-header-left p  { font-size: .75rem; font-weight: 700; color: #666; margin-top: .15rem; }
-.doc-header-right   { text-align: right; }
+.doc-header-left p { font-size: .75rem; font-weight: 700; color: #666; }
 .doc-logo { font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; color: #111; }
 .doc-logo small { font-size: .65rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; display: block; color: #666; }
 
-/* Level badge in doc */
-.doc-level-badge {
-  display: inline-flex; align-items: center; gap: .3rem;
-  font-size: .65rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase;
-  padding: .2rem .7rem; border-radius: 999px; color: #fff; margin-bottom: .9rem;
-}
+.doc-level-badge { display: inline-flex; align-items: center; gap: .3rem; font-size: .65rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; padding: .2rem .7rem; border-radius: 999px; color: #fff; margin-bottom: .9rem; }
 .doc-level-badge.a1 { background: var(--a1); }
 .doc-level-badge.a2 { background: var(--a2); }
 .doc-level-badge.b1 { background: var(--b1); }
 .doc-level-badge.b2 { background: var(--b2); }
-.doc-level-badge.c1 { background: var(--c1); }
 
-/* Grammar table */
 .g-table-wrap { margin-bottom: 1.5rem; position: relative; }
-.g-table-title {
-  background: #111; color: #fff; font-family: 'Lora', serif;
-  font-size: .88rem; font-weight: 700; padding: .45rem .9rem;
-  letter-spacing: .02em;
-  display: flex; justify-content: space-between; align-items: center;
-}
-.g-table {
-  width: 100%; border-collapse: collapse;
-  border: 2px solid #111;
-}
-.g-table td {
-  border: 1.5px solid #111; padding: .4rem .75rem;
-  font-size: .82rem; font-weight: 700; vertical-align: middle; line-height: 1.4;
-}
-.g-table .row-label {
-  background: #111; color: #fff; font-size: .75rem; font-weight: 800;
-  text-align: left; white-space: nowrap; width: 26%;
-}
-.g-table .row-label.mid { background: #444; }
-.g-table td.content { background: #fff; text-align: center; }
-.g-table td.content-l { background: #fff; text-align: left; }
-.g-table .sec-row td { background: #e8e8e8; font-size: .72rem; font-weight: 900; text-transform: uppercase; letter-spacing: .05em; text-align: left; padding: .3rem .75rem; }
-.g-table .note-row td { background: #f5f5f5; font-size: .72rem; font-weight: 700; text-align: center; padding: .35rem .75rem; font-style: italic; }
-.key { font-weight: 900; }
-.key-v { font-weight: 900; }   /* verb form — bold only in print */
-.key-n { font-weight: 900; }   /* negative */
-.blank-line { display: inline-block; border-bottom: 1.5px solid #111; min-width: 60px; }
+.g-table-title { background: #111; color: #fff; font-family: 'Lora', serif; font-size: .88rem; font-weight: 700; padding: .45rem .9rem; letter-spacing: .02em; display: flex; justify-content: space-between; align-items: center; }
+.g-table { width: 100%; border-collapse: collapse; border: 2px solid #111; }
+.g-table td { border: 1.5px solid #111; padding: .4rem .75rem; font-size: .82rem; font-weight: 700; vertical-align: middle; line-height: 1.4; }
+.g-table .row-label { background: #111; color: #fff; font-size: .75rem; font-weight: 800; text-align: left; width: 26%; }
+.g-table .sec-row td { background: #e8e8e8; font-size: .72rem; font-weight: 900; text-transform: uppercase; letter-spacing: .05em; text-align: left; }
+.g-table .note-row td { background: #f5f5f5; font-size: .72rem; font-weight: 700; text-align: center; font-style: italic; }
+.key-v { font-weight: 900; }
+.key-n { font-weight: 900; }
 
-/* Table control (screen only) */
-.table-toggle {
-  background: var(--yellow); color: #111; border: none;
-  font-size: .65rem; font-weight: 900; padding: .2rem .5rem;
-  border-radius: 3px; cursor: pointer;
-}
+.table-toggle { background: var(--yellow); color: #111; border: none; font-size: .65rem; font-weight: 900; padding: .2rem .5rem; border-radius: 3px; cursor: pointer; }
 .table-toggle.off { background: #555; color: #ccc; }
 
-/* Write-in practice section */
 .practice-section { margin-top: 1.2rem; border: 1.5px solid #ccc; border-radius: 2px; padding: .8rem 1rem; }
 .practice-title { font-size: .75rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: #666; margin-bottom: .6rem; }
 .practice-line { border-bottom: 1.5px solid #ddd; height: 28px; margin-bottom: .3rem; }
-
-/* Two-col layout */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
 
-/* Tip box */
-.doc-tip {
-  background: #f5f5f5; border-left: 4px solid #111;
-  padding: .5rem .8rem; font-size: .75rem; font-weight: 700; line-height: 1.5;
-  margin-top: .5rem; margin-bottom: 1rem;
-}
-
-/* Page break control */
-.page-break { border: none; border-top: 2px dashed #ddd; margin: 2rem 0; }
-.keep-together { break-inside: avoid; page-break-inside: avoid; }
-
-/* Student info line */
-.student-info-line {
-  display: flex; gap: 2rem; margin-bottom: 1.5rem; padding-bottom: .8rem;
-  border-bottom: 1.5px dashed #ccc;
-}
+.student-info-line { display: flex; gap: 2rem; margin-bottom: 1.5rem; padding-bottom: .8rem; border-bottom: 1.5px dashed #ccc; }
 .info-field { flex: 1; display: flex; flex-direction: column; gap: .2rem; }
 .info-label { font-size: .65rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; color: #888; }
-.info-line  { border-bottom: 1.5px solid #111; height: 22px; }
+.info-line { border-bottom: 1.5px solid #111; height: 22px; }
 
-/* Page footer */
-.doc-footer {
-  margin-top: 2rem; padding-top: .6rem; border-top: 1.5px solid #ddd;
-  display: flex; justify-content: space-between; font-size: .65rem; font-weight: 700; color: #aaa;
-}
+.doc-footer { margin-top: 2rem; padding-top: .6rem; border-top: 1.5px solid #ddd; display: flex; justify-content: space-between; font-size: .65rem; font-weight: 700; color: #aaa; }
 
-/* ══════════════════════════════════
-   PRINT MEDIA — the real magic
-══════════════════════════════════ */
 @media print {
-  .control-bar, .level-filter, .doc-wrapper > .screen-only, .table-toggle { display: none !important; }
+  .control-bar, .level-filter, .table-toggle { display: none !important; }
   body { background: #fff; }
   .doc-wrapper { max-width: 100%; margin: 0; padding: 0; }
   .print-page { display: block !important; box-shadow: none; border: none; margin: 0; padding: 30px 40px; break-after: page; border-radius: 0; }
-  .print-page:last-child { break-after: auto; }
-  .print-page.hidden-page { display: none !important; }
-  .g-table-wrap.hidden-table { display: none !important; }
-  .g-table td { font-size: .78rem; padding: .32rem .65rem; }
-  .doc-header { padding-bottom: .4rem; margin-bottom: 1.2rem; }
-  a { color: inherit; text-decoration: none; }
+  .print-page.hidden-page, .g-table-wrap.hidden-table { display: none !important; }
 }
-
 @page { size: A4; margin: 0; }
 </style>
 </head>
 <body>
 
-<!-- CONTROL BAR -->
 <div class="control-bar">
   <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
     <div class="cb-brand">🖨 Grammar Sheets <small>Print-ready</small></div>
@@ -223,7 +119,6 @@ body {
   </div>
 </div>
 
-<!-- LEVEL FILTER -->
 <div class="level-filter" id="level-filter">
   <span style="font-size:.75rem;font-weight:800;color:#666;align-self:center;margin-right:.3rem">Show levels:</span>
   <button class="lf-btn lv-all active" onclick="setLevels('all',this)">All levels</button>
@@ -236,34 +131,20 @@ body {
 
 <div class="doc-wrapper">
 
-<!-- ══════════════════════════════════════════════
-     PAGE 1 — ENGLISH A1
-══════════════════════════════════════════════ -->
+<!-- PAGE 1 - EN A1 -->
 <div class="print-page visible" id="page-en-a1" data-lang="en" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left">
-      <h2>🇬🇧 English Grammar — A1 Core Tables</h2>
-      <p>Verb to BE · Present Simple · There is/are · Articles · Can</p>
-    </div>
-    <div class="doc-header-right">
-      <div class="doc-logo">COSYlanguages<small>Grammar Reference</small></div>
-    </div>
+    <div class="doc-header-left"><h2>🇬🇧 English Grammar — A1 Core</h2><p>Verb to BE · Present Simple · There is/are · Articles · Can</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammar Reference</small></div></div>
   </div>
-
   <div class="student-info-line">
     <div class="info-field"><span class="info-label">Name</span><div class="info-line"></div></div>
     <div class="info-field"><span class="info-label">Date</span><div class="info-line"></div></div>
-    <div class="info-field"><span class="info-label">Level</span><div class="info-line"></div></div>
   </div>
-
   <span class="doc-level-badge a1">A1 — Beginner</span>
 
-  <!-- TO BE -->
   <div class="g-table-wrap keep-together">
-    <div class="g-table-title">
-      <span>Verb TO BE — Present (am / is / are)</span>
-      <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-    </div>
+    <div class="g-table-title"><span>Verb TO BE — Present (am / is / are)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
     <table class="g-table">
       <tr class="sec-row"><td colspan="3">✅ Affirmative</td></tr>
       <tr><td class="row-label">I</td><td class="content"><span class="key-v">am</span> / 'm</td><td class="content-l">I <span class="key-v">am</span> a student.</td></tr>
@@ -277,341 +158,166 @@ body {
       <tr><td class="row-label">I</td><td class="content">Am I …?</td><td class="content-l">Am I late?</td></tr>
       <tr><td class="row-label">You / We / They</td><td class="content">Are you / we …?</td><td class="content-l">Are you ready?</td></tr>
       <tr><td class="row-label">He / She / It</td><td class="content">Is he / she …?</td><td class="content-l">Is she a doctor?</td></tr>
-      <tr class="note-row"><td colspan="3">Short answers: Yes, I <span class="key-v">am</span>. / No, I <span class="key-n">'m not</span>. &nbsp;|&nbsp; Yes, she <span class="key-v">is</span>. / No, she <span class="key-n">isn't</span>.</td></tr>
     </table>
   </div>
 
   <div class="two-col">
-    <!-- THERE IS -->
     <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>There is / There are</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
+      <div class="g-table-title"><span>There is / There are</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
       <table class="g-table">
-        <tr><td class="row-label">Singular →</td><td class="content-l"><span class="key-v">There is</span> / There's a park.</td></tr>
-        <tr><td class="row-label">Plural →</td><td class="content-l"><span class="key-v">There are</span> three cafés.</td></tr>
-        <tr><td class="row-label">Negative sing.</td><td class="content-l"><span class="key-n">There isn't</span> a supermarket.</td></tr>
-        <tr><td class="row-label">Negative pl.</td><td class="content-l"><span class="key-n">There aren't</span> any buses.</td></tr>
-        <tr><td class="row-label">Question sing.</td><td class="content-l"><span class="key-v">Is there</span> a hotel?</td></tr>
-        <tr><td class="row-label">Question pl.</td><td class="content-l"><span class="key-v">Are there</span> any taxis?</td></tr>
+        <tr><td class="row-label">Singular</td><td class="content-l"><span class="key-v">There is</span> a park.</td></tr>
+        <tr><td class="row-label">Plural</td><td class="content-l"><span class="key-v">There are</span> cafés.</td></tr>
+        <tr><td class="row-label">Negative</td><td class="content-l"><span class="key-n">There isn't</span> a car.</td></tr>
+        <tr><td class="row-label">Question</td><td class="content-l"><span class="key-v">Is there</span> a pool?</td></tr>
       </table>
     </div>
-    <!-- CAN -->
     <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>Can / Can't — Ability</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
+      <div class="g-table-title"><span>Can / Can't</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
       <table class="g-table">
         <tr><td class="row-label">✅ Ability</td><td class="content-l">I <span class="key-v">can</span> swim.</td></tr>
         <tr><td class="row-label">❌ Inability</td><td class="content-l">She <span class="key-n">can't</span> drive.</td></tr>
-        <tr><td class="row-label">❓ Question</td><td class="content-l"><span class="key-v">Can</span> you play piano?</td></tr>
-        <tr class="note-row"><td colspan="2">can + infinitive (no to): I can <span class="key-v">swim</span> ✅</td></tr>
       </table>
     </div>
   </div>
 
-  <!-- PRESENT SIMPLE -->
   <div class="g-table-wrap keep-together">
-    <div class="g-table-title">
-      <span>Present Simple — Regular Verbs (work)</span>
-      <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-    </div>
+    <div class="g-table-title"><span>Present Simple — work</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
     <table class="g-table">
-      <tr class="sec-row"><td colspan="3">Use: habits, routines, general truths</td></tr>
       <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-v">work</span></td><td class="content-l">I <span class="key-v">work</span> every day.</td></tr>
-      <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-v">works</span> (+s)</td><td class="content-l">She <span class="key-v">works</span> in Paris.</td></tr>
-      <tr class="sec-row"><td colspan="3">❌ Negative — don't / doesn't</td></tr>
-      <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-n">don't</span> work</td><td class="content-l">I <span class="key-n">don't</span> work on Sundays.</td></tr>
-      <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-n">doesn't</span> work</td><td class="content-l">He <span class="key-n">doesn't</span> like coffee.</td></tr>
-      <tr class="sec-row"><td colspan="3">❓ Question — Do / Does</td></tr>
-      <tr><td class="row-label">I / You / We / They</td><td class="content"><span class="key-v">Do</span> you …?</td><td class="content-l"><span class="key-v">Do</span> you speak French?</td></tr>
-      <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-v">Does</span> she …?</td><td class="content-l"><span class="key-v">Does</span> she live here?</td></tr>
-      <tr class="note-row"><td colspan="3">⚠️ After doesn't/does: NO -s on verb. ✅ Does she like. ❌ Does she likes.</td></tr>
+      <tr><td class="row-label">He / She / It</td><td class="content"><span class="key-v">works</span></td><td class="content-l">She <span class="key-v">works</span> in Paris.</td></tr>
+      <tr><td class="row-label">Negative</td><td class="content"><span class="key-n">don't / doesn't</span></td><td class="content-l">I <span class="key-n">don't</span> work.</td></tr>
+      <tr><td class="row-label">Question</td><td class="content">Do / Does …?</td><td class="content-l"><span class="key-v">Do</span> you work?</td></tr>
     </table>
   </div>
-
-  <div class="practice-section">
-    <div class="practice-title">✍ My practice sentences</div>
-    <div class="practice-line"></div>
-    <div class="practice-line"></div>
-  </div>
-
-  <div class="doc-footer">
-    <span>COSYlanguages · Grammar Reference Sheet · A1 English</span>
-    <span>Page 1</span>
-  </div>
+  <div class="practice-section"><div class="practice-title">✍ My practice sentences</div><div class="practice-line"></div><div class="practice-line"></div></div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     PAGE 2 — ENGLISH A2
-══════════════════════════════════════════════ -->
+<!-- PAGE 2 - EN A2-B1 -->
 <div class="print-page visible" id="page-en-a2" data-lang="en" data-level="a2">
   <div class="doc-header">
-    <div class="doc-header-left">
-      <h2>🇬🇧 English Grammar — A2 Core Tables</h2>
-      <p>Past Simple · Present Continuous · Going to · Comparatives</p>
-    </div>
-    <div class="doc-header-right">
-      <div class="doc-logo">COSYlanguages<small>Grammar Reference</small></div>
-    </div>
+    <div class="doc-header-left"><h2>🇬🇧 English Grammar — A2–B1</h2><p>Past Simple · Present Perfect · Continuous · Going to</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammar Reference</small></div></div>
   </div>
-
   <span class="doc-level-badge a2">A2 — Elementary</span>
-
-  <!-- PAST SIMPLE -->
   <div class="g-table-wrap keep-together">
-    <div class="g-table-title">
-      <span>Past Simple — Regular &amp; Irregular</span>
-      <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-    </div>
+    <div class="g-table-title"><span>Past Simple</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
     <table class="g-table">
-      <tr class="sec-row"><td colspan="3">Use: completed actions in the past</td></tr>
-      <tr><td class="row-label">Regular verbs</td><td class="content">verb + <span class="key-v">-ed</span></td><td class="content-l">I <span class="key-v">worked</span>. She <span class="key-v">walked</span>.</td></tr>
-      <tr><td class="row-label">Irregular verbs</td><td class="content">own form</td><td class="content-l">go → <span class="key-v">went</span> &nbsp; eat → <span class="key-v">ate</span> &nbsp; see → <span class="key-v">saw</span></td></tr>
-      <tr class="sec-row"><td colspan="3">❌ Negative — didn't + infinitive (ALL subjects)</td></tr>
-      <tr><td class="row-label">All subjects</td><td class="content"><span class="key-n">didn't</span> + verb</td><td class="content-l">I <span class="key-n">didn't</span> go. She <span class="key-n">didn't</span> eat.</td></tr>
-      <tr class="sec-row"><td colspan="3">❓ Question — Did + subject + infinitive</td></tr>
-      <tr><td class="row-label">All subjects</td><td class="content"><span class="key-v">Did</span> + verb</td><td class="content-l"><span class="key-v">Did</span> you see her? &nbsp; <span class="key-v">Did</span> he call?</td></tr>
+      <tr><td class="row-label">Regular</td><td class="content-l">I <span class="key-v">worked</span>.</td></tr>
+      <tr><td class="row-label">Irregular</td><td class="content-l">go → <span class="key-v">went</span> · eat → <span class="key-v">ate</span></td></tr>
+      <tr><td class="row-label">Negative</td><td class="content-l">I <span class="key-n">didn't</span> go.</td></tr>
+      <tr><td class="row-label">Question</td><td class="content-l"><span class="key-v">Did</span> you go?</td></tr>
     </table>
   </div>
-
-  <div class="two-col">
-    <!-- GOING TO -->
-    <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>Going to — Future Plans</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
-      <table class="g-table">
-        <tr><td class="row-label">Affirmative</td><td class="content-l">I <span class="key-v">am going to</span> travel.</td></tr>
-        <tr><td class="row-label">Negative</td><td class="content-l">She <span class="key-n">isn't going to</span> come.</td></tr>
-        <tr><td class="row-label">Question</td><td class="content-l"><span class="key-v">Are</span> you <span class="key-v">going to</span> stay?</td></tr>
-      </table>
-    </div>
-    <!-- PRES CONTINUOUS -->
-    <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>Present Continuous</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
-      <table class="g-table">
-        <tr><td class="row-label">I</td><td class="content-l">I <span class="key-v">am working</span> now.</td></tr>
-        <tr><td class="row-label">He / She / It</td><td class="content-l">She <span class="key-v">is studying</span>.</td></tr>
-        <tr><td class="row-label">We / You / They</td><td class="content-l">They <span class="key-v">are eating</span>.</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="doc-footer">
-    <span>COSYlanguages · Grammar Reference Sheet · A2 English</span>
-    <span>Page 2</span>
+  <span class="doc-level-badge b1">B1 — Intermediate</span>
+  <div class="g-table-wrap keep-together">
+    <div class="g-table-title"><span>Present Perfect</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">Affirmative</td><td class="content-l">I <span class="key-v">have lived</span> here for 5 years.</td></tr>
+      <tr><td class="row-label">Experience</td><td class="content-l"><span class="key-v">Have</span> you <span class="key-v">ever</span> been to Japan?</td></tr>
+    </table>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     PAGE 3 — FRENCH A1
-══════════════════════════════════════════════ -->
+<!-- PAGE 3 - EN B1-B2 -->
+<div class="print-page visible" id="page-en-b1" data-lang="en" data-level="b1">
+  <div class="doc-header">
+    <div class="doc-header-left"><h2>🇬🇧 English Grammar — B1–B2</h2><p>Conditionals · Passive · Modals</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammar Reference</small></div></div>
+  </div>
+  <div class="g-table-wrap keep-together">
+    <div class="g-table-title"><span>Conditionals</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">1st (Real)</td><td class="content-l">If it <span class="key-v">rains</span>, I <span class="key-v">will</span> stay home.</td></tr>
+      <tr><td class="row-label">2nd (Unreal)</td><td class="content-l">If I <span class="key-v">had</span> money, I <span class="key-v">would</span> travel.</td></tr>
+      <tr><td class="row-label">3rd (Regret)</td><td class="content-l">If I <span class="key-v">had studied</span>, I <span class="key-v">would have passed</span>.</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- PAGE 4 - FR A1-B1 -->
 <div class="print-page visible" id="page-fr-a1" data-lang="fr" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left">
-      <h2>🇫🇷 Grammaire française — A1</h2>
-      <p>Être · Avoir · Verbes -ER · Négation</p>
-    </div>
-    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Référence Grammaticale</small></div></div>
+    <div class="doc-header-left"><h2>🇫🇷 Grammaire française — A1–B1</h2><p>Être · Verbes -ER · Passé composé</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Référence</small></div></div>
   </div>
   <span class="doc-level-badge a1">A1 — Débutant</span>
-
   <div class="two-col">
-    <!-- ÊTRE -->
-    <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>Le verbe ÊTRE — Présent</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
+    <div class="g-table-wrap">
+      <div class="g-table-title"><span>ÊTRE — Présent</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
       <table class="g-table">
-        <tr><td class="row-label">je</td><td class="content-l"><span class="key-v">suis</span> — Je suis professeur.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content-l"><span class="key-v">es</span> — Tu es français ?</td></tr>
-        <tr><td class="row-label">il / elle / on</td><td class="content-l"><span class="key-v">est</span> — Elle est médecin.</td></tr>
-        <tr><td class="row-label">nous</td><td class="content-l"><span class="key-v">sommes</span> — Nous sommes à Paris.</td></tr>
-        <tr><td class="row-label">vous</td><td class="content-l"><span class="key-v">êtes</span> — Vous êtes prêt ?</td></tr>
-        <tr><td class="row-label">ils / elles</td><td class="content-l"><span class="key-v">sont</span> — Ils sont en retard.</td></tr>
+        <tr><td class="row-label">je suis</td><td class="row-label">tu es</td></tr>
+        <tr><td class="row-label">il est</td><td class="row-label">nous sommes</td></tr>
+        <tr><td class="row-label">vous êtes</td><td class="row-label">ils sont</td></tr>
       </table>
     </div>
-    <!-- AVOIR -->
-    <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>Le verbe AVOIR — Présent</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
+    <div class="g-table-wrap">
+      <div class="g-table-title"><span>Verbes -ER (parler)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
       <table class="g-table">
-        <tr><td class="row-label">j'</td><td class="content-l"><span class="key-v">ai</span> — J'ai 20 ans.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content-l"><span class="key-v">as</span> — Tu as un frère ?</td></tr>
-        <tr><td class="row-label">il / elle</td><td class="content-l"><span class="key-v">a</span> — Elle a une voiture.</td></tr>
-        <tr><td class="row-label">nous</td><td class="content-l"><span class="key-v">avons</span> — Nous avons faim.</td></tr>
-        <tr><td class="row-label">vous</td><td class="content-l"><span class="key-v">avez</span> — Vous avez l'heure ?</td></tr>
-        <tr><td class="row-label">ils / elles</td><td class="content-l"><span class="key-v">ont</span> — Ils ont un chien.</td></tr>
+        <tr><td class="row-label">parle / es / e</td></tr>
+        <tr><td class="row-label">ons / ez / ent</td></tr>
       </table>
     </div>
-  </div>
-
-  <div class="doc-footer">
-    <span>COSYlanguages · Fiche de Grammaire · A1 Français</span><span>Page 3</span>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     PAGE 4 — ITALIAN A1
-══════════════════════════════════════════════ -->
+<!-- PAGE 5 - IT A1 -->
 <div class="print-page visible" id="page-it-a1" data-lang="it" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left">
-      <h2>🇮🇹 Grammatica italiana — A1</h2>
-      <p>ESSERE · AVERE · Verbi -ARE / -ERE / -IRE</p>
-    </div>
-    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammatica di Riferimento</small></div></div>
+    <div class="doc-header-left"><h2>🇮🇹 Grammatica italiana — A1</h2><p>ESSERE · Verbi · Regola C/G</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Grammatica</small></div></div>
   </div>
-  <span class="doc-level-badge a1">A1 — Principiante</span>
-
-  <div class="two-col">
-    <!-- ESSERE -->
-    <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>ESSERE — Presente</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
-      <table class="g-table">
-        <tr><td class="row-label">io</td><td class="content-l"><span class="key-v">sono</span> — Sono italiano.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content-l"><span class="key-v">sei</span> — Sei a casa?</td></tr>
-        <tr><td class="row-label">lui / lei</td><td class="content-l"><span class="key-v">è</span> — Lei è medico.</td></tr>
-        <tr><td class="row-label">noi</td><td class="content-l"><span class="key-v">siamo</span> — Siamo a Roma.</td></tr>
-        <tr><td class="row-label">voi</td><td class="content-l"><span class="key-v">siete</span> — Siete pronti?</td></tr>
-        <tr><td class="row-label">loro</td><td class="content-l"><span class="key-v">sono</span> — Sono amici.</td></tr>
-      </table>
-    </div>
-    <!-- AVERE -->
-    <div class="g-table-wrap keep-together">
-      <div class="g-table-title">
-        <span>AVERE — Presente</span>
-        <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-      </div>
-      <table class="g-table">
-        <tr><td class="row-label">io</td><td class="content-l"><span class="key-v">ho</span> — Ho fame.</td></tr>
-        <tr><td class="row-label">tu</td><td class="content-l"><span class="key-v">hai</span> — Hai un cane?</td></tr>
-        <tr><td class="row-label">lui / lei</td><td class="content-l"><span class="key-v">ha</span> — Ha un libro.</td></tr>
-        <tr><td class="row-label">noi</td><td class="content-l"><span class="key-v">abbiamo</span> — Abbiamo sete.</td></tr>
-        <tr><td class="row-label">voi</td><td class="content-l"><span class="key-v">avete</span> — Avete fame?</td></tr>
-        <tr><td class="row-label">loro</td><td class="content-l"><span class="key-v">hanno</span> — Hanno amici.</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="doc-footer">
-    <span>COSYlanguages · Scheda di Grammatica · A1 Italiano</span><span>Page 4</span>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>ESSERE — Presente</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table">
+      <tr><td class="row-label">io sono</td><td class="row-label">tu sei</td><td class="row-label">lui è</td></tr>
+      <tr><td class="row-label">noi siamo</td><td class="row-label">voi siete</td><td class="row-label">loro sono</td></tr>
+    </table>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     PAGE 5 — RUSSIAN A1
-══════════════════════════════════════════════ -->
+<!-- PAGE 6 - RU A1 -->
 <div class="print-page visible" id="page-ru-a1" data-lang="ru" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left">
-      <h2>🇷🇺 Русская грамматика — A1</h2>
-      <p>Алфавит · Личные местоимения · Быть</p>
-    </div>
-    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Справочник по грамматике</small></div></div>
+    <div class="doc-header-left"><h2>🇷🇺 Русская грамматика — A1</h2><p>Алфавит · Гласные пары</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Справочник</small></div></div>
   </div>
-  <span class="doc-level-badge a1">A1 — Начальный</span>
-
-  <div class="g-table-wrap keep-together">
-    <div class="g-table-title">
-      <span>Русский Алфавит</span>
-      <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-    </div>
-    <table class="g-table">
-      <tr>
-        <td class="content">А а /a/</td><td class="content">Б б /b/</td><td class="content">В в /v/</td><td class="content">Г г /g/</td><td class="content">Д д /d/</td><td class="content">Е е /ye/</td>
-      </tr>
-      <tr>
-        <td class="content">Ё ё /yo/</td><td class="content">Ж ж /zh/</td><td class="content">З з /z/</td><td class="content">И и /i/</td><td class="content">Й й /y/</td><td class="content">К к /k/</td>
-      </tr>
-      <tr>
-        <td class="content">Л л /l/</td><td class="content">М м /m/</td><td class="content">Н н /n/</td><td class="content">О о /o/</td><td class="content">П п /p/</td><td class="content">Р р /r/</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="doc-footer">
-    <span>COSYlanguages · Grammar Reference Sheet · A1 Russian</span><span>Page 5</span>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>Алфавит</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table"><tr><td class="content">А а /a/</td><td class="content">Б б /b/</td><td class="content">В в /v/</td><td class="content">Г г /g/</td></tr></table>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     PAGE 6 — GREEK A1
-══════════════════════════════════════════════ -->
+<!-- PAGE 7 - EL A1 -->
 <div class="print-page visible" id="page-el-a1" data-lang="el" data-level="a1">
   <div class="doc-header">
-    <div class="doc-header-left">
-      <h2>🇬🇷 Ελληνική Γραμματική — A1</h2>
-      <p>Αλφάβητο · Verb ΕΊΜΑΙ · Άρθρα</p>
-    </div>
-    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Γραμματική Αναφοράς</small></div></div>
+    <div class="doc-header-left"><h2>🇬🇷 Ελληνική Γραμματική — A1</h2><p>Αλφάβητο · ΕΊΜΑΙ</p></div>
+    <div class="doc-header-right"><div class="doc-logo">COSYlanguages<small>Γραμματική</small></div></div>
   </div>
-  <span class="doc-level-badge a1">A1 — Αρχάριος</span>
-
-  <div class="g-table-wrap keep-together">
-    <div class="g-table-title">
-      <span>ΕΊΜΑΙ — Ενεστώτας (to be)</span>
-      <button class="table-toggle" onclick="toggleTable(this)">Exclude</button>
-    </div>
-    <table class="g-table">
-      <tr><td class="row-label">εγώ</td><td class="content-l"><span class="key-v">είμαι</span> — Είμαι δάσκαλος.</td></tr>
-      <tr><td class="row-label">εσύ</td><td class="content-l"><span class="key-v">είσαι</span> — Είσαι εδώ?</td></tr>
-      <tr><td class="row-label">αυτός / αυτή</td><td class="content-l"><span class="key-v">είναι</span> — Αυτή είναι γιατρός.</td></tr>
-      <tr><td class="row-label">εμείς</td><td class="content-l"><span class="key-v">είμαστε</span> — Είμαστε φίλοι.</td></tr>
-      <tr><td class="row-label">εσείς</td><td class="content-l"><span class="key-v">είστε</span> — Είστε έτοιμοι?</td></tr>
-      <tr><td class="row-label">αυτοί / αυτές</td><td class="content-l"><span class="key-v">είναι</span> — Αυτοί είναι εδώ.</td></tr>
-    </table>
-  </div>
-
-  <div class="doc-footer">
-    <span>COSYlanguages · Grammar Reference Sheet · A1 Greek</span><span>Page 6</span>
+  <div class="g-table-wrap">
+    <div class="g-table-title"><span>ΕΊΜΑΙ (To be)</span><button class="table-toggle" onclick="toggleTable(this)">Exclude</button></div>
+    <table class="g-table"><tr><td class="row-label">είμαι / είσαι / είναι</td></tr><tr><td class="row-label">είμαστε / είστε / είναι</td></tr></table>
   </div>
 </div>
 
 </div><!-- /doc-wrapper -->
 
 <script>
-// Read URL param for pre-selected language
 const params = new URLSearchParams(window.location.search);
 const initLang = params.get('lang') || 'all';
-
-let currentLang  = 'all';
-let currentLevel = 'all';
-let S = null;
+let currentLang = 'all', currentLevel = 'all', S = null;
 
 function init() {
   const code = localStorage.getItem('student_course_code');
   if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
     S = { ...COURSES[code], code: code };
-    // Auto-filter based on student course
-    currentLang = S.lang.toLowerCase();
-    currentLevel = S.level.toLowerCase();
-
-    // Update UI
-    document.querySelectorAll('.ls-btn').forEach(b => {
-       if (b.dataset.lang === currentLang) b.classList.add('active');
-       else b.classList.remove('active');
-    });
-    // Hide lang selector and level filter if restricted
+    currentLang = S.lang.toLowerCase(); currentLevel = S.level.toLowerCase();
+    document.querySelectorAll('.ls-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === currentLang));
     document.getElementById('lang-selector').style.display = 'none';
     document.getElementById('level-filter').style.display = 'none';
   } else if (initLang !== 'all') {
+    currentLang = initLang;
     const btn = document.querySelector(`.ls-btn[data-lang="${initLang}"]`);
     if (btn) {
-      currentLang = initLang;
       document.querySelectorAll('.ls-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     }
@@ -628,33 +334,22 @@ function setLang(lang, btn) {
 
 function setLevels(lvl, btn) {
   currentLevel = lvl;
-  document.querySelectorAll('.level-filter .lf-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.lf-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   applyFilters();
 }
 
 function applyFilters() {
-  const allPages = document.querySelectorAll('.print-page');
-  allPages.forEach(page => {
-    const pageLang  = page.dataset.lang;
-    const pageLevel = page.dataset.level;
-
-    const langOk  = currentLang === 'all' || pageLang === currentLang;
-    let levelOk = currentLevel === 'all' || levelOrder(pageLevel) <= levelOrder(currentLevel);
-
-    // If student mode, show their level AND any foundational A1 stuff if relevant
-    if (S) {
-      levelOk = (pageLevel === currentLevel || pageLevel === 'a1');
-    }
-
+  document.querySelectorAll('.print-page').forEach(page => {
+    const langOk = currentLang === 'all' || page.dataset.lang === currentLang;
+    let levelOk = currentLevel === 'all' || levelOrder(page.dataset.level) <= levelOrder(currentLevel);
+    if (S) levelOk = (page.dataset.level === currentLevel || page.dataset.level === 'a1');
     page.classList.toggle('visible', langOk && levelOk);
     page.classList.toggle('hidden-page', !(langOk && levelOk));
   });
 }
 
-function levelOrder(lv) {
-  return { a1:1, a2:2, b1:3, b2:4, c1:5 }[lv] || 99;
-}
+function levelOrder(lv) { return { a1:1, a2:2, b1:3, b2:4, c1:5 }[lv] || 99; }
 
 function toggleTable(btn) {
   const wrap = btn.closest('.g-table-wrap');
@@ -663,10 +358,8 @@ function toggleTable(btn) {
   btn.classList.toggle('off', isHidden);
 }
 
-// Initial set up of button text
 document.querySelectorAll('.table-toggle').forEach(btn => {
-  const isHidden = btn.closest('.g-table-wrap').classList.contains('hidden-table');
-  btn.textContent = isHidden ? 'Include' : 'Exclude';
+  btn.textContent = btn.closest('.g-table-wrap').classList.contains('hidden-table') ? 'Include' : 'Exclude';
 });
 
 init();
