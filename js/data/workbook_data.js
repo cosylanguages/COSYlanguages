@@ -58,14 +58,27 @@ const WORKBOOK_TOPICS = [
         title: 'Dire bonjour',
         html: `
         <table class="wb-table">
+          <tr class="wt-sec"><td colspan="2">🇫🇷 Greetings</td></tr>
           <tr><td class="wt-label">Bonjour / Salut</td><td class="wt-l"><span class="key-v">Bonjour !</span> · <span class="key-v">Salut !</span></td></tr>
           <tr><td class="wt-label">Je m'appelle…</td><td class="wt-l"><span class="key-v">Je m'appelle</span> Marie.</td></tr>
           <tr><td class="wt-label">Au revoir</td><td class="wt-l"><span class="key-v">Au revoir !</span> · <span class="key-v">À bientôt !</span></td></tr>
         </table>`
+      },
+      {
+        title: 'Les Accents',
+        html: `
+        <table class="wb-table">
+          <tr class="wt-sec"><td colspan="3">🔡 French Accents</td></tr>
+          <tr><td class="wt-label">é</td><td class="wt-c">accent aigu</td><td class="wt-l">café</td></tr>
+          <tr><td class="wt-label">à / è / ù</td><td class="wt-c">accent grave</td><td class="wt-l">très, à</td></tr>
+          <tr><td class="wt-label">â / ê / î / ô / û</td><td class="wt-c">circonflexe</td><td class="wt-l">hôtel</td></tr>
+          <tr><td class="wt-label">ç</td><td class="wt-c">cédille</td><td class="wt-l">français</td></tr>
+        </table>`
       }
     ],
     exercises: [
-      { id: 'fr-a1-0-1', q: 'How do you say "Hello" in French (formal)?', type: 'fill', ans: 'Bonjour', fb: '✅ Bonjour !' }
+      { id: 'fr-a1-0-1', q: 'How do you say "Hello" in French (formal)?', type: 'fill', ans: 'Bonjour', fb: '✅ Bonjour !' },
+      { id: 'fr-a1-0-2', q: 'Which accent is in the word "café"?', type: 'mcq', opts: ['grave', 'aigu', 'cédille'], ans: 'aigu', fb: '✅ é = accent aigu' }
     ]
   },
 
@@ -119,13 +132,19 @@ const WORKBOOK_TOPICS = [
         title: 'Basic greetings',
         html: `
         <table class="wb-table">
-          <tr><td class="wt-label">Hallo / Guten Tag</td><td class="wt-l"><span class="key-v">Hallo!</span> · <span class="key-v">Guten Tag</span></td></tr>
-          <tr><td class="wt-label">Ich heiße…</td><td class="wt-l"><span class="key-v">Ich heiße</span> Hans. / <span class="key-v">Mein Name ist</span> Hans.</td></tr>
+          <tr class="wt-sec"><td colspan="2">📌 Greetings</td></tr>
+          <tr><td class="wt-label">Hello / Good day</td><td class="wt-l"><span class="key-v">Hallo!</span> / <span class="key-v">Guten Tag</span></td></tr>
+          <tr><td class="wt-label">My name is…</td><td class="wt-l"><span class="key-v">Ich heiße</span> Hans. / <span class="key-v">Mein Name ist</span>...</td></tr>
+          <tr><td class="wt-label">Nice to meet you</td><td class="wt-l"><span class="key-v">Freut mich!</span></td></tr>
+          <tr class="wt-sec"><td colspan="2">🔢 Numbers 1-5</td></tr>
+          <tr><td class="wt-label">1, 2, 3</td><td class="wt-l">eins, zwei, drei</td></tr>
+          <tr><td class="wt-label">4, 5</td><td class="wt-l">vier, fünf</td></tr>
         </table>`
       }
     ],
     exercises: [
-      { id: 'de-a1-0-1', q: 'How do you say "My name is" in German?', type: 'fill', ans: 'Ich heiße', fb: '✅ Ich heiße Hans.' }
+      { id: 'de-a1-0-1', q: 'How do you say "My name is" in German?', type: 'fill', ans: 'Ich heiße', fb: '✅ Ich heiße Hans.' },
+      { id: 'de-a1-0-2', q: 'What is "two" in German?', type: 'mcq', opts: ['eins', 'zwei', 'drei'], ans: 'zwei', fb: '✅ zwei = 2' }
     ]
   },
 
@@ -136,17 +155,21 @@ const WORKBOOK_TOPICS = [
     img: 'images/cosyrussian.png',
     grammarBlocks: [
       {
-        title: 'False Friends',
+        title: 'False Friends (Looks like English, sounds different)',
         html: `
         <table class="wb-table">
-          <tr><td class="wt-label">В в</td><td class="wt-c">/v/</td><td class="wt-l">NOT "w"!</td></tr>
-          <tr><td class="wt-label">Н н</td><td class="wt-c">/n/</td><td class="wt-l">NOT "h"!</td></tr>
-          <tr><td class="wt-label">Р р</td><td class="wt-c">/r/</td><td class="wt-l">NOT "p"!</td></tr>
+          <tr class="wt-sec"><td colspan="3">⚠️ Watch out!</td></tr>
+          <tr><td class="wt-label">В в</td><td class="wt-c">/v/</td><td class="wt-l">Like <span class="key-v">V</span>et (NOT W)</td></tr>
+          <tr><td class="wt-label">Н н</td><td class="wt-c">/n/</td><td class="wt-l">Like <span class="key-v">N</span>et (NOT H)</td></tr>
+          <tr><td class="wt-label">Р р</td><td class="wt-c">/r/</td><td class="wt-l">Like <span class="key-v">R</span>at (NOT P)</td></tr>
+          <tr><td class="wt-label">Х х</td><td class="wt-c">/h/</td><td class="wt-l">Like <span class="key-v">H</span>ot (NOT X)</td></tr>
+          <tr class="wt-note"><td colspan="3">Russian "P" is always rolled! 👅</td></tr>
         </table>`
       }
     ],
     exercises: [
-      { id: 'ru-a1-0-1', q: 'В in Russian sounds like English...', type: 'mcq', opts: ['W', 'V', 'B'], ans: 'V', fb: '✅ В = /v/' }
+      { id: 'ru-a1-0-1', q: 'В in Russian sounds like English...', type: 'mcq', opts: ['W', 'V', 'B'], ans: 'V', fb: '✅ В = /v/' },
+      { id: 'ru-a1-0-2', q: 'Which Russian letter sounds like "N"?', type: 'mcq', opts: ['Н', 'H', 'П'], ans: 'Н', fb: '✅ Н = /n/' }
     ]
   },
 
@@ -160,13 +183,18 @@ const WORKBOOK_TOPICS = [
         title: 'Tricky Letters',
         html: `
         <table class="wb-table">
-          <tr><td class="wt-label">Β β</td><td class="wt-c">/v/</td><td class="wt-l">NOT "b"!</td></tr>
-          <tr><td class="wt-label">Δ δ</td><td class="wt-c">/ð/</td><td class="wt-l">Like "the"</td></tr>
+          <tr class="wt-sec"><td colspan="3">🇬🇷 Alphabet Essentials</td></tr>
+          <tr><td class="wt-label">Β β</td><td class="wt-c">/v/</td><td class="wt-l">Like <span class="key-v">V</span>ase (NOT B)</td></tr>
+          <tr><td class="wt-label">Δ δ</td><td class="wt-c">/ð/</td><td class="wt-l">Like <span class="key-v">th</span>e (soft TH)</td></tr>
+          <tr><td class="wt-label">Γ γ</td><td class="wt-c">/ɣ/</td><td class="wt-l">Soft "g" / "y" sound</td></tr>
+          <tr><td class="wt-label">Ρ ρ</td><td class="wt-c">/r/</td><td class="wt-l">Rolled R</td></tr>
+          <tr class="wt-note"><td colspan="3">To say "B" sound, Greek uses <span class="key-v">μπ</span></td></tr>
         </table>`
       }
     ],
     exercises: [
-      { id: 'el-a1-0-1', q: 'Β in Greek sounds like...', type: 'mcq', opts: ['B', 'V', 'W'], ans: 'V', fb: '✅ Β = /v/' }
+      { id: 'el-a1-0-1', q: 'Β in Greek sounds like...', type: 'mcq', opts: ['B', 'V', 'W'], ans: 'V', fb: '✅ Β = /v/' },
+      { id: 'el-a1-0-2', q: 'How do you write the "TH" sound in "the"?', type: 'mcq', opts: ['Δ', 'Γ', 'Β'], ans: 'Δ', fb: '✅ Δ = /ð/' }
     ]
   },
 

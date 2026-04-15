@@ -130,13 +130,18 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal-lt); color: var
 .panel-body { padding: 1.2rem 1.4rem; }
 
 /* TABLE STYLES */
-.wb-table { width: 100%; border-collapse: collapse; margin-bottom: .8rem; }
-.wb-table td { border: 2px solid var(--black); padding: .45rem .8rem; font-size: .88rem; font-weight: 700; vertical-align: middle; line-height: 1.4; }
-.wb-table .wt-label { background: var(--black); color: var(--white); font-size: .78rem; font-weight: 800; text-align: left; white-space: nowrap; }
-.wb-table td.wt-c  { background: var(--cream); text-align: center; }
-.wb-table td.wt-l  { background: var(--cream); text-align: left; }
-.wb-table .wt-sec td { background: rgba(0,0,0,.08); font-size: .76rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; text-align: left; padding: .32rem .8rem; }
-.wb-table .wt-note td { background: #f5f5f0; font-size: .78rem; font-weight: 700; text-align: center; font-style: italic; padding: .4rem .8rem; }
+.wb-table {
+  width: 100%; border-collapse: separate; border-spacing: 0;
+  margin-bottom: 1.2rem; border: 3px solid var(--black);
+  border-radius: 8px; overflow: hidden;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+}
+.wb-table td, .wb-table th { border: 1.5px solid var(--black); padding: .65rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.5; }
+.wb-table .wt-label { background: var(--black); color: var(--white); font-size: .82rem; font-weight: 800; text-align: left; white-space: nowrap; }
+.wb-table td.wt-c  { background: var(--white); text-align: center; }
+.wb-table td.wt-l  { background: var(--white); text-align: left; }
+.wb-table .wt-sec td { background: var(--sand); color: var(--black); font-size: .78rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; text-align: left; padding: .5rem .9rem; border-bottom-width: 3px; }
+.wb-table .wt-note td { background: var(--teal-lt); font-size: .8rem; font-weight: 700; text-align: center; font-style: italic; padding: .6rem .9rem; color: var(--teal-dk); }
 
 .key-v { color: var(--teal-dk); font-weight: 900; }
 .key-n { color: var(--red); font-weight: 900; }
@@ -537,6 +542,16 @@ function renderGrammar() {
               ${verbData.pronouns.map((p, i) => `<tr><td class="wt-label">${p}</td><td class="wt-c"><span class="key-v">${verbData.tenses.present_simple.positive[i]}</span></td></tr>`).join('')}
             </tbody>
           </table>
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+            <a class="ref-btn" style="background:var(--black); color:var(--yellow); border:none;"
+               href="practice.html?lang=${S.lang.toLowerCase()}&level=starter&cat=grammar&theme=${encodeURIComponent(topic.verbKey)}" target="_blank">
+               💡 Practice this verb →
+            </a>
+            <a class="ref-btn" style="background:rgba(0,0,0,0.05); color:var(--black); border:1.5px solid var(--black);"
+               href="grammar-reference.html?lang=${S.lang.toLowerCase()}#verb-${topic.verbKey.replace(/\s+/g, '-')}" target="_blank">
+               📐 View Reference
+            </a>
+          </div>
         </div>`;
       }
     }
@@ -547,6 +562,10 @@ function renderGrammar() {
         topicHtml += `<div style="margin-bottom:1.5rem">
           <div class="ex-label">${block.title}</div>
           ${block.html}
+          <a class="ref-btn" style="background:var(--black); color:var(--white); border:none; margin-top:0.5rem;"
+             href="practice.html?lang=${S.lang.toLowerCase()}&level=starter&cat=grammar&theme=${encodeURIComponent(topic.title)}" target="_blank">
+             🎯 Quick Practice →
+          </a>
         </div>`;
       });
     }
@@ -611,6 +630,13 @@ function renderExercises() {
 
       html += `<div class="ex-fb ${isDone ? (isCorrect ? 'ok' : 'err') : ''}">${isDone ? (isCorrect ? ex.fb : '❌ Correct answer: ' + ex.ans) : ''}</div></div>`;
     });
+
+    html += `<div style="margin-bottom:3rem; text-align:center;">
+      <a class="ref-btn" style="background:var(--teal-dk); color:white; border:none; padding: 0.6rem 1.5rem;"
+         href="practice.html?lang=${S.lang.toLowerCase()}&level=starter&cat=vocab&theme=${encodeURIComponent(topic.title)}" target="_blank">
+         🚀 Need more? Try Vocab Practice →
+      </a>
+    </div>`;
   });
 
   body.innerHTML = html || '<p>No exercises available for this level yet.</p>';

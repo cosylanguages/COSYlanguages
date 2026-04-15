@@ -556,6 +556,21 @@ function cardHTML(l, i, curIdx) {
         <span class="ref-desc-new">${r.desc}</span>
       </a>`).join('')}
     </div>`).join('');
+
+  // Recommended Games Section
+  const recGames = getRecGames(l);
+  if (recGames.length) {
+    refHTML += `<div class="ref-sec-title">🎮 Recommended Games for this Lesson</div>
+      <div class="ref-grid-new">
+        ${recGames.map(g => `
+          <a class="ref-card-new" href="events.html?game=${g.id}&lang=${S.lang.toLowerCase()}&level=${(S.level==='A1'?'starter':S.level.toLowerCase())}&mode=solo" target="_blank">
+            <span class="ref-icon-new">${g.icon}</span>
+            <span class="ref-name-new">${g.name}</span>
+            <span class="ref-desc-new">${g.desc}</span>
+          </a>`).join('')}
+      </div>`;
+  }
+
   refHTML += `
     <div class="ref-sec-title">Practice on COSYlanguages — pre-filtered for this lesson</div>
     <div class="ref-grid-new">
@@ -678,6 +693,37 @@ function alertLk() {
 
 function cap(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function getRecGames(l) {
+  const games = [];
+  const txt = (l.title + ' ' + (l.subtitle||'') + ' ' + (l.practiceTheme||'') + ' ' + (l.desc||'') + ' ' + (l.task||'')).toLowerCase();
+
+  if (txt.includes('number') || txt.includes('count') || txt.includes('alphabet') || txt.includes('digit')) {
+    games.push({ id: 'bingo', name: 'Lucky Numbers', icon: '🔢', desc: 'Interactive Bingo for numbers & alphabet.' });
+  }
+  if (txt.includes('speaking') || txt.includes('conversation') || txt.includes('fluency') || txt.includes('routine') || txt.includes('daily')) {
+    games.push({ id: 'talk-talk', name: 'Fluency Flow', icon: '🗣️', desc: 'Spin for a topic and practice your flow.' });
+  }
+  if (txt.includes('opinion') || txt.includes('debate') || txt.includes('agree') || txt.includes('disagree')) {
+    games.push({ id: 'opinion_arena', name: 'Opinion Arena', icon: '🏟️', desc: 'Defend your position on funny statements.' });
+  }
+  if (txt.includes('people') || txt.includes('job') || txt.includes('person') || txt.includes('who')) {
+    games.push({ id: 'guess-who', name: 'Identity Mystery', icon: '👤', desc: 'Identify the person through Yes/No questions.' });
+  }
+  if (txt.includes('home') || txt.includes('house') || txt.includes('object') || txt.includes('thing') || txt.includes('what')) {
+    games.push({ id: 'guess-what', name: 'Object Quest', icon: '📦', desc: 'Identify the object through descriptive clues.' });
+  }
+  if (txt.includes('vocab') || txt.includes('word')) {
+    games.push({ id: 'emoji_odyssey', name: 'Emoji Odyssey', icon: '📖', desc: 'Guess the word or phrase from emojis.' });
+  }
+
+  // Fallback for any lesson
+  if (games.length === 0) {
+    games.push({ id: 'action_hero', name: 'Action Hero', icon: '🎭', desc: 'Classic charades — describe words to your friends!' });
+  }
+
+  return games.slice(0, 3); // Max 3 recommendations
 }
 
 document.addEventListener('DOMContentLoaded', () => {
