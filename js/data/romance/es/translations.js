@@ -15,6 +15,7 @@
             alert_no_quest_items: "The quest ends here! No items found.",
             alert_no_task_type: "Please select at least one task type!",
             alert_no_tasks_generated: "Could not generate tasks for these items. Try enabling more task types!",
+            review_ref: "Ver en la referencia 📚",
             alert_no_vocab_level: "No vocabulary found for this level/language!",
             argos: "Argos",
             argos_desc: "Catalogue retailer for electronics and home goods.",

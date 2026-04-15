@@ -15,6 +15,7 @@
             alert_no_quest_items: "La quête s'arrête ici ! Aucun élément trouvé.",
             alert_no_task_type: "Veuillez sélectionner au moins un type de tâche !",
             alert_no_tasks_generated: "Impossible de générer des tâches pour ces éléments. Essayez d'activer plus de types de tâches !",
+            review_ref: "Consulter la Référence 📚",
             alert_no_vocab_level: "Aucun vocabulaire trouvé pour ce niveau/cette langue !",
             argos: "Argos",
             argos_desc: "Détaillant de catalogue pour l'électronique et les articles ménagers.",

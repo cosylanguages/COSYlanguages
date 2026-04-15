@@ -2660,5 +2660,22 @@ function showFeedback(isCorrect) {
         document.getElementById('scramble-container').classList.add('hidden');
         document.getElementById('conversation-container').classList.add('hidden');
         document.getElementById('hint-btn').classList.add('hidden');
+    } else {
+        const wordObj = currentPractice.currentWord;
+        const lang = currentPractice.language;
+        let reviewURL = "";
+        const cat = document.querySelector('input[name="practice-cat"]:checked')?.id.replace('cat-', '');
+
+        if (cat === 'grammar') {
+            const verb = wordObj.verb || wordObj.baseWord || wordObj.word;
+            reviewURL = `grammar-reference.html?lang=${lang}#verb-${verb.replace(/\s+/g, '-')}`;
+        } else {
+            const search = wordObj.word || wordObj.text || wordObj.topic;
+            reviewURL = `vocabulary-reference.html?lang=${lang}&search=${encodeURIComponent(search)}`;
+        }
+
+        const reviewLabel = (translations[lang] && translations[lang]['review_ref']) || "Review in Reference 📚";
+        const linkHTML = `<br><a href="${reviewURL}" target="_blank" style="color:inherit; font-size:0.85em; text-decoration:underline;">${reviewLabel}</a>`;
+        feedbackMsg.innerHTML += linkHTML;
     }
 }

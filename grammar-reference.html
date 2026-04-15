@@ -279,7 +279,7 @@ body {
 <!-- PAGE HEADER -->
 <div class="page-header">
   <div>
-    <div class="breadcrumb">Student Area 🔐</div>
+    <div class="breadcrumb">Student Area 🔒</div>
     <h1>Grammar Reference 📐</h1>
   </div>
   <div class="lang-tabs" id="ref-lang-tabs">
@@ -403,10 +403,18 @@ function renderVerbCard(v) {
     });
   }
 
+  const pLevel = restrictedLevel || 'starter';
+  const practiceURL = `practice.html?lang=${lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.verb)}`;
+
   return `
     <div class="card" id="${id}">
       <div class="card-title">Verb: ${v.verb.toUpperCase()}</div>
       <table class="gtable">${tableRows}</table>
+      <div style="padding:0.75rem; border-top:1.5px solid var(--black); background:rgba(0,0,0,0.03); display:flex; justify-content:center;">
+        <a href="${practiceURL}" target="_blank" class="lang-tab" style="background:var(--black); color:var(--yellow); border-color:var(--black);">
+          💡 Practice this verb →
+        </a>
+      </div>
     </div>
   `;
 }
