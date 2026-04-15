@@ -3,9 +3,9 @@
  */
 
 const WORKBOOK_TOPICS = [
-  // ─── ENGLISH A0 ───
+  // ─── ENGLISH A1 ───
   {
-    id: 'en-a0-intro', lang: 'en', flag: '🇬🇧', level: 'a0', title: 'Introducing Yourself',
+    id: 'en-a1-intro', lang: 'en', flag: '🇬🇧', level: 'a1', title: 'Introducing Yourself',
     desc: 'Basic greetings & introductions',
     img: 'images/cosyenglish.png',
     grammarBlocks: [
@@ -22,12 +22,12 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'en-a0-1', q: '"Nice to ___!" (greeting)', type: 'fill', ans: 'meet you', fb: '✅ Nice to meet you!' },
-      { id: 'en-a0-2', q: 'How do you say "My name is" in a shorter way?', type: 'fill', ans: "I'm", fb: "✅ I'm Maria." }
+      { id: 'en-a1-0-1', q: '"Nice to ___!" (greeting)', type: 'fill', ans: 'meet you', fb: '✅ Nice to meet you!' },
+      { id: 'en-a1-0-2', q: 'How do you say "My name is" in a shorter way?', type: 'fill', ans: "I'm", fb: "✅ I'm Maria." }
     ]
   },
   {
-    id: 'en-a0-tobe', lang: 'en', flag: '🇬🇧', level: 'a0', title: 'Verb TO BE — Core',
+    id: 'en-a1-tobe-core', lang: 'en', flag: '🇬🇧', level: 'a1', title: 'Verb TO BE — Core',
     desc: 'I am / You are / He is',
     verbKey: 'to be',
     img: 'images/cosyenglish.png',
@@ -43,14 +43,14 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'en-a0-3', q: 'I ___ a student.', type: 'mcq', opts: ['am', 'is', 'are'], ans: 'am', fb: '✅ I am' },
-      { id: 'en-a0-4', q: 'She ___ French.', type: 'mcq', opts: ['am', 'is', 'are'], ans: 'is', fb: '✅ She is' }
+      { id: 'en-a1-0-3', q: 'I ___ a student.', type: 'mcq', opts: ['am', 'is', 'are'], ans: 'am', fb: '✅ I am' },
+      { id: 'en-a1-0-4', q: 'She ___ French.', type: 'mcq', opts: ['am', 'is', 'are'], ans: 'is', fb: '✅ She is' }
     ]
   },
 
-  // ─── FRENCH A0 ───
+  // ─── FRENCH A1 ───
   {
-    id: 'fr-a0-intro', lang: 'fr', flag: '🇫🇷', level: 'a0', title: 'Salutations',
+    id: 'fr-a1-intro', lang: 'fr', flag: '🇫🇷', level: 'a1', title: 'Salutations',
     desc: 'Greetings & introductions',
     img: 'images/cosyfrench.png',
     grammarBlocks: [
@@ -65,13 +65,13 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'fr-a0-1', q: 'How do you say "Hello" in French (formal)?', type: 'fill', ans: 'Bonjour', fb: '✅ Bonjour !' }
+      { id: 'fr-a1-0-1', q: 'How do you say "Hello" in French (formal)?', type: 'fill', ans: 'Bonjour', fb: '✅ Bonjour !' }
     ]
   },
 
-  // ─── ITALIAN A0 ───
+  // ─── ITALIAN A1 ───
   {
-    id: 'it-a0-intro', lang: 'it', flag: '🇮🇹', level: 'a0', title: 'Saluti',
+    id: 'it-a1-intro', lang: 'it', flag: '🇮🇹', level: 'a1', title: 'Saluti',
     desc: 'Greetings & introductions',
     img: 'images/cosyitalian.png',
     grammarBlocks: [
@@ -85,13 +85,13 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'it-a0-1', q: 'How do you say "My name is" in Italian?', type: 'fill', ans: 'Mi chiamo', fb: '✅ Mi chiamo Luca.' }
+      { id: 'it-a1-0-1', q: 'How do you say "My name is" in Italian?', type: 'fill', ans: 'Mi chiamo', fb: '✅ Mi chiamo Luca.' }
     ]
   },
 
-  // ─── SPANISH A0 ───
+  // ─── SPANISH A1 ───
   {
-    id: 'es-a0-intro', lang: 'es', flag: '🇪🇸', level: 'a0', title: 'Saludos',
+    id: 'es-a1-intro', lang: 'es', flag: '🇪🇸', level: 'a1', title: 'Saludos',
     desc: 'Greetings & introductions',
     img: 'images/cosyspanish.png',
     grammarBlocks: [
@@ -105,13 +105,13 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'es-a0-1', q: 'How do you say "Hello" in Spanish?', type: 'fill', ans: 'Hola', fb: '✅ ¡Hola!' }
+      { id: 'es-a1-0-1', q: 'How do you say "Hello" in Spanish?', type: 'fill', ans: 'Hola', fb: '✅ ¡Hola!' }
     ]
   },
 
-  // ─── GERMAN A0 ───
+  // ─── GERMAN A1 ───
   {
-    id: 'de-a0-intro', lang: 'de', flag: '🇩🇪', level: 'a0', title: 'Begrüßungen',
+    id: 'de-a1-intro', lang: 'de', flag: '🇩🇪', level: 'a1', title: 'Begrüßungen',
     desc: 'Greetings & introductions',
     img: 'images/cosygerman.png',
     grammarBlocks: [
@@ -125,13 +125,13 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'de-a0-1', q: 'How do you say "My name is" in German?', type: 'fill', ans: 'Ich heiße', fb: '✅ Ich heiße Hans.' }
+      { id: 'de-a1-0-1', q: 'How do you say "My name is" in German?', type: 'fill', ans: 'Ich heiße', fb: '✅ Ich heiße Hans.' }
     ]
   },
 
-  // ─── RUSSIAN A0 ───
+  // ─── RUSSIAN A1 ───
   {
-    id: 'ru-a0-alpha', lang: 'ru', flag: '🇷🇺', level: 'a0', title: 'Алфавит',
+    id: 'ru-a1-alpha', lang: 'ru', flag: '🇷🇺', level: 'a1', title: 'Алфавит',
     desc: 'The Cyrillic Alphabet',
     img: 'images/cosyrussian.png',
     grammarBlocks: [
@@ -146,13 +146,13 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'ru-a0-1', q: 'В in Russian sounds like English...', type: 'mcq', opts: ['W', 'V', 'B'], ans: 'V', fb: '✅ В = /v/' }
+      { id: 'ru-a1-0-1', q: 'В in Russian sounds like English...', type: 'mcq', opts: ['W', 'V', 'B'], ans: 'V', fb: '✅ В = /v/' }
     ]
   },
 
-  // ─── GREEK A0 ───
+  // ─── GREEK A1 ───
   {
-    id: 'el-a0-alpha', lang: 'el', flag: '🇬🇷', level: 'a0', title: 'Αλφάβητο',
+    id: 'el-a1-alpha', lang: 'el', flag: '🇬🇷', level: 'a1', title: 'Αλφάβητο',
     desc: 'The Greek Alphabet',
     img: 'images/cosygreek.png',
     grammarBlocks: [
@@ -166,13 +166,13 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'el-a0-1', q: 'Β in Greek sounds like...', type: 'mcq', opts: ['B', 'V', 'W'], ans: 'V', fb: '✅ Β = /v/' }
+      { id: 'el-a1-0-1', q: 'Β in Greek sounds like...', type: 'mcq', opts: ['B', 'V', 'W'], ans: 'V', fb: '✅ Β = /v/' }
     ]
   },
 
-  // ─── PORTUGUESE A0 ───
+  // ─── PORTUGUESE A1 ───
   {
-    id: 'pt-a0-intro', lang: 'pt', flag: '🇵🇹', level: 'a0', title: 'Saudações',
+    id: 'pt-a1-intro', lang: 'pt', flag: '🇵🇹', level: 'a1', title: 'Saudações',
     desc: 'Greetings & introductions',
     img: 'images/cosyportugese.png',
     grammarBlocks: [
@@ -186,7 +186,7 @@ const WORKBOOK_TOPICS = [
       }
     ],
     exercises: [
-      { id: 'pt-a0-1', q: 'How do you say "Hello" in Portuguese?', type: 'fill', ans: 'Olá', fb: '✅ Olá!' }
+      { id: 'pt-a1-0-1', q: 'How do you say "Hello" in Portuguese?', type: 'fill', ans: 'Olá', fb: '✅ Olá!' }
     ]
   }
 ];
@@ -199,41 +199,41 @@ const WORKBOOK_HW_TASKS = [
 ];
 
 const WORKBOOK_COURSE_CATALOGUE = {
-  'en-a0': {
+  'en-a1': {
     phonetics: { ref: 'pronunciation-reference.html#en-a1', text: 'Focus on alphabet and basic vowels.' },
     homework: [
-      { id: 'en-a0-h1', text: 'Write 5 sentences about yourself', tag: 'writing' },
-      { id: 'en-a0-h2', text: 'Practise the TH sound', tag: 'phonetics' }
+      { id: 'en-a1-h1', text: 'Write 5 sentences about yourself', tag: 'writing' },
+      { id: 'en-a1-h2', text: 'Practise the TH sound', tag: 'phonetics' }
     ]
   },
-  'fr-a0': {
+  'fr-a1': {
     phonetics: { ref: 'pronunciation-reference.html#fr-a1', text: 'Focus on accents and nasal vowels.' },
     homework: [
-      { id: 'fr-a0-h1', text: 'Learn numbers 1-10', tag: 'grammar' }
+      { id: 'fr-a1-h1', text: 'Learn numbers 1-10', tag: 'grammar' }
     ]
   },
-  'it-a0': {
+  'it-a1': {
     phonetics: { ref: 'pronunciation-reference.html#it-a1', text: 'Focus on pronunciation of C and G.' },
-    homework: [ { id: 'it-a0-h1', text: 'Learn common Italian greetings', tag: 'grammar' } ]
+    homework: [ { id: 'it-a1-h1', text: 'Learn common Italian greetings', tag: 'grammar' } ]
   },
-  'es-a0': {
+  'es-a1': {
     phonetics: { ref: 'pronunciation-reference.html#es-a1', text: 'Focus on vowel clarity and the letter J.' },
-    homework: [ { id: 'es-a0-h1', text: 'Learn the Spanish alphabet', tag: 'phonetics' } ]
+    homework: [ { id: 'es-a1-h1', text: 'Learn the Spanish alphabet', tag: 'phonetics' } ]
   },
-  'de-a0': {
+  'de-a1': {
     phonetics: { ref: 'pronunciation-reference.html#de-a1', text: 'Focus on compound vowels (ei, ie, eu).' },
-    homework: [ { id: 'de-a0-h1', text: 'Learn numbers 1-12 in German', tag: 'grammar' } ]
+    homework: [ { id: 'de-a1-h1', text: 'Learn numbers 1-12 in German', tag: 'grammar' } ]
   },
-  'ru-a0': {
+  'ru-a1': {
     phonetics: { ref: 'pronunciation-reference.html#ru-a1', text: 'Focus on vowel reduction (A vs O).' },
-    homework: [ { id: 'ru-a0-h1', text: 'Memorize the Russian alphabet', tag: 'phonetics' } ]
+    homework: [ { id: 'ru-a1-h1', text: 'Memorize the Russian alphabet', tag: 'phonetics' } ]
   },
-  'el-a0': {
+  'el-a1': {
     phonetics: { ref: 'pronunciation-reference.html#el-a1', text: 'Focus on diphthongs like OU and OI.' },
-    homework: [ { id: 'el-a0-h1', text: 'Learn common Greek phrases', tag: 'grammar' } ]
+    homework: [ { id: 'el-a1-h1', text: 'Learn common Greek phrases', tag: 'grammar' } ]
   },
-  'pt-a0': {
+  'pt-a1': {
     phonetics: { ref: 'pronunciation-reference.html#pt-a1', text: 'Focus on nasal sounds and the letter LH.' },
-    homework: [ { id: 'pt-a0-h1', text: 'Learn Portuguese numbers 1-10', tag: 'grammar' } ]
+    homework: [ { id: 'pt-a1-h1', text: 'Learn Portuguese numbers 1-10', tag: 'grammar' } ]
   }
 };
