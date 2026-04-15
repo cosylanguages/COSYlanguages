@@ -1,108 +1,239 @@
 /**
- * WORKBOOK DATA — exercises & homework
+ * WORKBOOK DATA — exercises, grammar blocks & homework
  */
+
 const WORKBOOK_TOPICS = [
+  // ─── ENGLISH A0 ───
   {
-    id: 'en-tobe', lang: 'en', flag: '🇬🇧', level: 'a1', title: 'Verb TO BE — Present',
-    desc: 'am / is / are · affirmative, negative & questions',
-    ref: 'grammar-reference.html#verb-to-be',
+    id: 'en-a0-intro', lang: 'en', flag: '🇬🇧', level: 'a0', title: 'Introducing Yourself',
+    desc: 'Basic greetings & introductions',
+    img: 'images/cosyenglish.png',
+    grammarBlocks: [
+      {
+        title: 'Basic greetings & introductions',
+        html: `
+        <table class="wb-table">
+          <tr class="wt-sec"><td colspan="2">📌 Greetings</td></tr>
+          <tr><td class="wt-label">Hello / Hi</td><td class="wt-l"><span class="key-v">Hello!</span> / <span class="key-v">Hi!</span></td></tr>
+          <tr><td class="wt-label">My name is…</td><td class="wt-l"><span class="key-v">My name is</span> Maria. / <span class="key-v">I'm</span> Maria.</td></tr>
+          <tr><td class="wt-label">Nice to meet you</td><td class="wt-l"><span class="key-v">Nice to meet you!</span></td></tr>
+          <tr><td class="wt-label">How are you?</td><td class="wt-l"><span class="key-v">How are you?</span> → I'm <span class="key-v">fine</span>, thank you.</td></tr>
+        </table>`
+      }
+    ],
+    exercises: [
+      { id: 'en-a0-1', q: '"Nice to ___!" (greeting)', type: 'fill', ans: 'meet you', fb: '✅ Nice to meet you!' },
+      { id: 'en-a0-2', q: 'How do you say "My name is" in a shorter way?', type: 'fill', ans: "I'm", fb: "✅ I'm Maria." }
+    ]
+  },
+  {
+    id: 'en-a0-tobe', lang: 'en', flag: '🇬🇧', level: 'a0', title: 'Verb TO BE — Core',
+    desc: 'I am / You are / He is',
     verbKey: 'to be',
     img: 'images/cosyenglish.png',
+    grammarBlocks: [
+      {
+        title: 'Core Forms (Singular)',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">I</td><td class="wt-c"><span class="key-v">am</span> / 'm</td></tr>
+          <tr><td class="wt-label">you</td><td class="wt-c"><span class="key-v">are</span> / 're</td></tr>
+          <tr><td class="wt-label">he / she / it</td><td class="wt-c"><span class="key-v">is</span> / 's</td></tr>
+        </table>`
+      }
+    ],
     exercises: [
-      { type: 'mcq', q: 'She ___ a doctor.', opts: ['am','is','are'], answer: 'is', fb: '✅ He/She/It → IS' },
-      { type: 'mcq', q: 'We ___ at school.', opts: ['am','is','are'], answer: 'are', fb: '✅ We/You/They → ARE' },
-      { type: 'mcq', q: 'I ___ not tired.', opts: ["am","is","are"], answer: 'am', fb: '✅ I → AM' },
-      { type: 'fill', q: '___ they from France? (Am/Is/Are)', answer: 'Are', fb: '✅ They → Are (question)' },
-      { type: 'fill', q: 'He ___ not happy. (am/is/are)', answer: 'is', fb: '✅ He → is not happy' },
-      { type: 'mcq', q: '"___ you ready?" — "Yes, I ___."', opts: ['Are / am','Is / are','Am / is'], answer: 'Are / am', fb: '✅ Are you…? — Yes, I am.' },
+      { id: 'en-a0-3', q: 'I ___ a student.', type: 'mcq', opts: ['am', 'is', 'are'], ans: 'am', fb: '✅ I am' },
+      { id: 'en-a0-4', q: 'She ___ French.', type: 'mcq', opts: ['am', 'is', 'are'], ans: 'is', fb: '✅ She is' }
     ]
   },
+
+  // ─── FRENCH A0 ───
   {
-    id: 'en-present', lang: 'en', flag: '🇬🇧', level: 'a1', title: 'Present Simple',
-    desc: 'Habits & routines · don\'t / doesn\'t · Do / Does questions',
-    ref: 'grammar-reference.html#present-simple',
-    verbKey: 'to work',
-    img: 'images/cosyenglish.png',
-    exercises: [
-      { type: 'mcq', q: 'She ___ in Paris. (work)', opts: ['work','works','working'], answer: 'works', fb: '✅ He/She/It → add -s' },
-      { type: 'mcq', q: 'They ___ coffee. (like)', opts: ['likes','like','liking'], answer: 'like', fb: '✅ They → no -s' },
-      { type: 'fill', q: 'He ___ not speak Spanish. (do/does)', answer: 'does', fb: '✅ He → doesn\'t (does not)' },
-      { type: 'mcq', q: '___ she work on Saturdays?', opts: ['Do','Does','Is'], answer: 'Does', fb: '✅ She → Does she…?' },
-      { type: 'fill', q: 'I ___ to the gym every day. (go)', answer: 'go', fb: '✅ I → go (no change)' },
-    ]
-  },
-  {
-    id: 'fr-etre', lang: 'fr', flag: '🇫🇷', level: 'a1', title: 'Verbe ÊTRE',
-    desc: 'suis / es / est / sommes / êtes / sont · affirmation & négation',
-    ref: 'grammar-reference.html#lang-fr',
-    verbKey: 'être',
+    id: 'fr-a0-intro', lang: 'fr', flag: '🇫🇷', level: 'a0', title: 'Salutations',
+    desc: 'Greetings & introductions',
     img: 'images/cosyfrench.png',
+    grammarBlocks: [
+      {
+        title: 'Dire bonjour',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">Bonjour / Salut</td><td class="wt-l"><span class="key-v">Bonjour !</span> · <span class="key-v">Salut !</span></td></tr>
+          <tr><td class="wt-label">Je m'appelle…</td><td class="wt-l"><span class="key-v">Je m'appelle</span> Marie.</td></tr>
+          <tr><td class="wt-label">Au revoir</td><td class="wt-l"><span class="key-v">Au revoir !</span> · <span class="key-v">À bientôt !</span></td></tr>
+        </table>`
+      }
+    ],
     exercises: [
-      { type: 'mcq', q: 'Je ___ professeur.', opts: ['suis','es','est'], answer: 'suis', fb: '✅ Je → suis' },
-      { type: 'mcq', q: 'Vous ___ prêts ?', opts: ['sommes','êtes','sont'], answer: 'êtes', fb: '✅ Vous → êtes' },
-      { type: 'fill', q: 'Ils ___ en retard. (être)', answer: 'sont', fb: '✅ Ils/Elles → sont' },
-      { type: 'mcq', q: 'Je ne ___ pas fatigué.', opts: ['suis','est','es'], answer: 'suis', fb: '✅ Négation : je ne suis pas' },
-      { type: 'fill', q: 'Elle ___ médecin. (être)', answer: 'est', fb: '✅ Il/Elle/On → est' },
+      { id: 'fr-a0-1', q: 'How do you say "Hello" in French (formal)?', type: 'fill', ans: 'Bonjour', fb: '✅ Bonjour !' }
     ]
   },
+
+  // ─── ITALIAN A0 ───
   {
-    id: 'it-essere1', lang: 'it', flag: '🇮🇹', level: 'a1', title: 'ESSERE — Parte 1',
-    desc: 'sono / sei / è · io, tu, lui, lei · interactif',
-    ref: 'italiano-essere-1.html',
-    verbKey: 'essere',
+    id: 'it-a0-intro', lang: 'it', flag: '🇮🇹', level: 'a0', title: 'Saluti',
+    desc: 'Greetings & introductions',
     img: 'images/cosyitalian.png',
+    grammarBlocks: [
+      {
+        title: 'Basic greetings',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">Buongiorno / Ciao</td><td class="wt-l"><span class="key-v">Buongiorno!</span> · <span class="key-v">Ciao!</span></td></tr>
+          <tr><td class="wt-label">Mi chiamo…</td><td class="wt-l"><span class="key-v">Mi chiamo</span> Luca.</td></tr>
+        </table>`
+      }
+    ],
     exercises: [
-      { type: 'mcq', q: 'Io ___ italiano.', opts: ['sei','sono','è'], answer: 'sono', fb: '✅ Io → sono' },
-      { type: 'mcq', q: 'Tu ___ a casa?', opts: ['sono','è','sei'], answer: 'sei', fb: '✅ Tu → sei' },
-      { type: 'fill', q: 'Lei ___ professoressa. (essere)', answer: 'è', fb: '✅ Lui/Lei → è' },
-      { type: 'mcq', q: 'Io non ___ stanco.', opts: ['sono','sei','è'], answer: 'sono', fb: '✅ Io non sono…' },
+      { id: 'it-a0-1', q: 'How do you say "My name is" in Italian?', type: 'fill', ans: 'Mi chiamo', fb: '✅ Mi chiamo Luca.' }
     ]
   },
+
+  // ─── SPANISH A0 ───
   {
-    id: 'es-ser', lang: 'es', flag: '🇪🇸', level: 'a1', title: 'Verbo SER',
-    desc: 'soy / eres / es / somos / sois / son · identidad y origen',
-    ref: 'grammar-reference.html#lang-es',
-    verbKey: 'ser',
+    id: 'es-a0-intro', lang: 'es', flag: '🇪🇸', level: 'a0', title: 'Saludos',
+    desc: 'Greetings & introductions',
     img: 'images/cosyspanish.png',
+    grammarBlocks: [
+      {
+        title: 'Basic greetings',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">Hola / Buenos días</td><td class="wt-l"><span class="key-v">¡Hola!</span> · <span class="key-v">Buenos días</span></td></tr>
+          <tr><td class="wt-label">Me llamo…</td><td class="wt-l"><span class="key-v">Me llamo</span> Carlos.</td></tr>
+        </table>`
+      }
+    ],
     exercises: [
-      { type: 'mcq', q: 'Yo ___ de Madrid.', opts: ['soy','eres','es'], answer: 'soy', fb: '✅ Yo → soy' },
-      { type: 'mcq', q: 'Nosotros ___ estudiantes.', opts: ['somos','sois','son'], answer: 'somos', fb: '✅ Nosotros → somos' },
-      { type: 'fill', q: 'Ellos ___ simpáticos. (ser)', answer: 'son', fb: '✅ Ellos/Ellas → son' },
-      { type: 'mcq', q: '¿De dónde ___ tú?', opts: ['soy','eres','es'], answer: 'eres', fb: '✅ Tú → eres' },
-      { type: 'fill', q: 'Ella ___ mi hermana. (ser)', answer: 'es', fb: '✅ Él/Ella/Usted → es' },
+      { id: 'es-a0-1', q: 'How do you say "Hello" in Spanish?', type: 'fill', ans: 'Hola', fb: '✅ ¡Hola!' }
     ]
   },
+
+  // ─── GERMAN A0 ───
   {
-    id: 'ru-alpha', lang: 'ru', flag: '🇷🇺', level: 'a1', title: 'Алфавит — False Friends',
-    desc: 'Cyrillic letters that look like Latin but sound different',
-    ref: 'pronunciation-reference.html#ru-a1',
+    id: 'de-a0-intro', lang: 'de', flag: '🇩🇪', level: 'a0', title: 'Begrüßungen',
+    desc: 'Greetings & introductions',
+    img: 'images/cosygerman.png',
+    grammarBlocks: [
+      {
+        title: 'Basic greetings',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">Hallo / Guten Tag</td><td class="wt-l"><span class="key-v">Hallo!</span> · <span class="key-v">Guten Tag</span></td></tr>
+          <tr><td class="wt-label">Ich heiße…</td><td class="wt-l"><span class="key-v">Ich heiße</span> Hans. / <span class="key-v">Mein Name ist</span> Hans.</td></tr>
+        </table>`
+      }
+    ],
+    exercises: [
+      { id: 'de-a0-1', q: 'How do you say "My name is" in German?', type: 'fill', ans: 'Ich heiße', fb: '✅ Ich heiße Hans.' }
+    ]
+  },
+
+  // ─── RUSSIAN A0 ───
+  {
+    id: 'ru-a0-alpha', lang: 'ru', flag: '🇷🇺', level: 'a0', title: 'Алфавит',
+    desc: 'The Cyrillic Alphabet',
     img: 'images/cosyrussian.png',
+    grammarBlocks: [
+      {
+        title: 'False Friends',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">В в</td><td class="wt-c">/v/</td><td class="wt-l">NOT "w"!</td></tr>
+          <tr><td class="wt-label">Н н</td><td class="wt-c">/n/</td><td class="wt-l">NOT "h"!</td></tr>
+          <tr><td class="wt-label">Р р</td><td class="wt-c">/r/</td><td class="wt-l">NOT "p"!</td></tr>
+        </table>`
+      }
+    ],
     exercises: [
-      { type: 'mcq', q: 'В in Russian sounds like…', opts: ['"W" as in water','"V" as in very','"B" as in ball'], answer: '"V" as in very', fb: '✅ В = /v/ — not W!' },
-      { type: 'mcq', q: 'Р in Russian sounds like…', opts: ['"P" as in pen','Rolled "R"','"R" as in ring'], answer: 'Rolled "R"', fb: '✅ Р = rolled /r/ — looks like P but isn\'t!' },
-      { type: 'mcq', q: 'С in Russian sounds like…', opts: ['"C" as in city','"S" as in sun','"K" as in key'], answer: '"S" as in sun', fb: '✅ С = /s/' },
-      { type: 'fill', q: 'Н in Russian sounds like the English letter ___', answer: 'N', fb: '✅ Н = /n/ — looks like H but sounds like N' },
+      { id: 'ru-a0-1', q: 'В in Russian sounds like English...', type: 'mcq', opts: ['W', 'V', 'B'], ans: 'V', fb: '✅ В = /v/' }
     ]
   },
+
+  // ─── GREEK A0 ───
   {
-    id: 'el-alpha', lang: 'el', flag: '🇬🇷', level: 'a1', title: 'Αλφάβητο — Key Letters',
-    desc: 'Letters with unexpected sounds · digraphs μπ, ντ, γκ, τσ',
-    ref: 'pronunciation-reference.html#el-a1',
+    id: 'el-a0-alpha', lang: 'el', flag: '🇬🇷', level: 'a0', title: 'Αλφάβητο',
+    desc: 'The Greek Alphabet',
     img: 'images/cosygreek.png',
+    grammarBlocks: [
+      {
+        title: 'Tricky Letters',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">Β β</td><td class="wt-c">/v/</td><td class="wt-l">NOT "b"!</td></tr>
+          <tr><td class="wt-label">Δ δ</td><td class="wt-c">/ð/</td><td class="wt-l">Like "the"</td></tr>
+        </table>`
+      }
+    ],
     exercises: [
-      { type: 'mcq', q: 'Β (βήτα) in modern Greek sounds like…', opts: ['"B" as in ball','"V" as in very','"W" as in water'], answer: '"V" as in very', fb: '✅ Β = /v/ in modern Greek!' },
-      { type: 'mcq', q: 'What sound does μπ make at the start of a word?', opts: ['/mp/','/b/','/m/'], answer: '/b/', fb: '✅ μπ = /b/ at word start — like in μπύρα (beer)' },
-      { type: 'mcq', q: 'Δ (δέλτα) sounds like…', opts: ['"D" as in door','"TH" as in THE','"TH" as in THINK'], answer: '"TH" as in THE', fb: '✅ Δ = /ð/ — voiced TH as in "the", "this"' },
-      { type: 'fill', q: 'ΟΥ in Greek sounds like ___ in "food"', answer: 'oo', fb: '✅ ΟΥ = /u/ — like "oo" in food' },
+      { id: 'el-a0-1', q: 'Β in Greek sounds like...', type: 'mcq', opts: ['B', 'V', 'W'], ans: 'V', fb: '✅ Β = /v/' }
     ]
   },
+
+  // ─── PORTUGUESE A0 ───
+  {
+    id: 'pt-a0-intro', lang: 'pt', flag: '🇵🇹', level: 'a0', title: 'Saudações',
+    desc: 'Greetings & introductions',
+    img: 'images/cosyportugese.png',
+    grammarBlocks: [
+      {
+        title: 'Basic greetings',
+        html: `
+        <table class="wb-table">
+          <tr><td class="wt-label">Olá / Bom dia</td><td class="wt-l"><span class="key-v">Olá!</span> · <span class="key-v">Bom dia</span></td></tr>
+          <tr><td class="wt-label">Chamo-me…</td><td class="wt-l"><span class="key-v">Chamo-me</span> Ana.</td></tr>
+        </table>`
+      }
+    ],
+    exercises: [
+      { id: 'pt-a0-1', q: 'How do you say "Hello" in Portuguese?', type: 'fill', ans: 'Olá', fb: '✅ Olá!' }
+    ]
+  }
 ];
 
 const WORKBOOK_HW_TASKS = [
-  { id: 'hw1', text: 'Review the <span class="hw-link" onclick="window.location=\'grammar-reference.html\'">Grammar Reference</span> for your target language', tag: 'grammar' },
-  { id: 'hw2', text: 'Complete the <strong>Verb to BE</strong> workbook exercise below (aim for 100%!)', tag: 'grammar' },
-  { id: 'hw3', text: 'Read the <span class="hw-link" onclick="window.location=\'pronunciation-reference.html\'">Pronunciation Guide</span> A1 section for your language', tag: 'phonetics' },
-  { id: 'hw4', text: 'Print or download your grammar sheet and keep it somewhere visible', tag: 'review' },
-  { id: 'hw5', text: 'Write 5 original sentences using the grammar from your last lesson — use the Notes section below', tag: 'writing' },
-  { id: 'hw6', text: 'Do the <strong>Past Simple</strong> exercise (English) or <strong>Passé Composé</strong> in your grammar reference', tag: 'grammar' },
+  { id: 'hw1', text: 'Review the Grammar Reference for your target language', tag: 'grammar' },
+  { id: 'hw2', text: 'Complete the workbook exercises for this topic', tag: 'grammar' },
+  { id: 'hw3', text: 'Read the Pronunciation Guide section', tag: 'phonetics' },
+  { id: 'hw4', text: 'Write 5 original sentences using the new grammar', tag: 'writing' }
 ];
+
+const WORKBOOK_COURSE_CATALOGUE = {
+  'en-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#en-a1', text: 'Focus on alphabet and basic vowels.' },
+    homework: [
+      { id: 'en-a0-h1', text: 'Write 5 sentences about yourself', tag: 'writing' },
+      { id: 'en-a0-h2', text: 'Practise the TH sound', tag: 'phonetics' }
+    ]
+  },
+  'fr-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#fr-a1', text: 'Focus on accents and nasal vowels.' },
+    homework: [
+      { id: 'fr-a0-h1', text: 'Learn numbers 1-10', tag: 'grammar' }
+    ]
+  },
+  'it-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#it-a1', text: 'Focus on pronunciation of C and G.' },
+    homework: [ { id: 'it-a0-h1', text: 'Learn common Italian greetings', tag: 'grammar' } ]
+  },
+  'es-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#es-a1', text: 'Focus on vowel clarity and the letter J.' },
+    homework: [ { id: 'es-a0-h1', text: 'Learn the Spanish alphabet', tag: 'phonetics' } ]
+  },
+  'de-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#de-a1', text: 'Focus on compound vowels (ei, ie, eu).' },
+    homework: [ { id: 'de-a0-h1', text: 'Learn numbers 1-12 in German', tag: 'grammar' } ]
+  },
+  'ru-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#ru-a1', text: 'Focus on vowel reduction (A vs O).' },
+    homework: [ { id: 'ru-a0-h1', text: 'Memorize the Russian alphabet', tag: 'phonetics' } ]
+  },
+  'el-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#el-a1', text: 'Focus on diphthongs like OU and OI.' },
+    homework: [ { id: 'el-a0-h1', text: 'Learn common Greek phrases', tag: 'grammar' } ]
+  },
+  'pt-a0': {
+    phonetics: { ref: 'pronunciation-reference.html#pt-a1', text: 'Focus on nasal sounds and the letter LH.' },
+    homework: [ { id: 'pt-a0-h1', text: 'Learn Portuguese numbers 1-10', tag: 'grammar' } ]
+  }
+};

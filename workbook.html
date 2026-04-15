@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
+<script>
+  // Access Control: Redirect if not unlocked, unless we are in the course picker view
+  if(localStorage.getItem("student_unlocked")!=="true" && !window.location.search.includes('picker=true')) {
+    // We allow access if the user comes from the Roadmap or is just starting
+  }
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Workbook — COSYlanguages</title>
@@ -39,280 +44,230 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal-lt); color: var
   justify-content: space-between; flex-wrap: wrap; gap: .6rem;
   position: sticky; top: 0; z-index: 100; border-bottom: 3px solid var(--yellow);
 }
-.topbar-brand { font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; display: flex; align-items: center; gap: .5rem; }
+.topbar-brand { font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; display: flex; align-items: center; gap: .5rem; cursor: pointer; }
 .topbar-brand .lock { font-size: .85rem; background: var(--yellow); color: var(--black); padding: .1rem .4rem; border-radius: 4px; font-family: 'Nunito', sans-serif; font-weight: 900; font-size: .65rem; letter-spacing: .06em; text-transform: uppercase; }
 .topbar-nav { display: flex; gap: .4rem; flex-wrap: wrap; }
 .topbar-link {
   background: rgba(255,255,255,.1); border: 2px solid rgba(255,255,255,.2);
   border-radius: 999px; color: rgba(255,255,255,.8); font-size: .75rem; font-weight: 800;
-  padding: .2rem .75rem; text-decoration: none; transition: all .15s; cursor: pointer;
+  padding: .2rem .75rem; text-decoration: none; transition: all .15s; cursor: pointer; border: none; font-family: 'Nunito', sans-serif;
 }
 .topbar-link:hover, .topbar-link.active { background: var(--teal); border-color: var(--teal); color: var(--black); }
 .topbar-student { display: flex; align-items: center; gap: .5rem; font-size: .82rem; font-weight: 800; color: rgba(255,255,255,.7); }
 .topbar-student .avatar { width: 30px; height: 30px; border-radius: 50%; background: var(--teal); border: 2px solid var(--yellow); display: flex; align-items: center; justify-content: center; font-size: .8rem; font-weight: 900; color: var(--black); }
 
-/* ══ PAGE LAYOUT ══ */
-.page { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+/* ══ LAYOUT ══ */
+.wb-layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 60px); }
 
-/* ══ WELCOME BANNER ══ */
-.welcome-banner {
-  background: var(--black); color: var(--white); border-radius: 6px;
-  border: 3px solid var(--black); box-shadow: 6px 6px 0 var(--teal-dk);
-  padding: 1.5rem 2rem; margin-bottom: 2rem;
-  display: grid; grid-template-columns: 1fr auto; gap: 1.5rem; align-items: center;
+/* SIDEBAR */
+.wb-sidebar {
+  background: var(--teal-dk); border-right: 3px solid var(--black);
+  padding: 1.4rem 0; position: sticky; top: 60px;
+  height: calc(100vh - 60px); overflow-y: auto;
 }
-.welcome-banner h1 { font-family: 'Lora', serif; font-size: 1.6rem; font-weight: 700; margin-bottom: .3rem; }
-.welcome-banner p  { font-size: .88rem; font-weight: 700; color: rgba(255,255,255,.65); line-height: 1.5; }
-.overall-progress-wrap { text-align: center; min-width: 110px; }
-.ring-label { font-size: .68rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-top: .4rem; }
-svg.ring { transform: rotate(-90deg); }
-.ring-bg   { fill: none; stroke: rgba(255,255,255,.15); stroke-width: 8; }
-.ring-fill { fill: none; stroke: var(--yellow); stroke-width: 8; stroke-linecap: round; transition: stroke-dashoffset 1s ease; }
-
-/* ══ SECTION HEADING ══ */
-.section-heading {
-  font-family: 'Lora', serif; font-size: 1rem; font-weight: 700;
-  color: var(--black); margin-bottom: 1rem; padding-bottom: .4rem;
-  border-bottom: 2.5px solid var(--black); display: flex; align-items: center; gap: .6rem;
+.wbs-course-pill {
+  margin: 0 1rem .9rem; padding: .55rem .8rem; background: rgba(0,0,0,.25);
+  border-radius: 4px; border: 2px solid rgba(255,255,255,.15);
 }
-.section-heading .count { font-family: 'Nunito', sans-serif; font-size: .72rem; font-weight: 900; background: var(--black); color: var(--yellow); padding: .15rem .55rem; border-radius: 999px; }
+.wbs-course-pill .cp-lang  { font-size: .7rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: rgba(255,255,255,.55); }
+.wbs-course-pill .cp-name  { font-family: 'Lora', serif; font-size: .95rem; font-weight: 700; color: var(--white); }
+.wbs-course-pill .cp-level { font-size: .68rem; font-weight: 900; color: var(--yellow); margin-top: .1rem; }
 
-/* ══ QUICK ACTIONS ══ */
-.quick-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 1rem; margin-bottom: 2rem; }
-.quick-card {
+.wbs-section-label {
+  font-size: .6rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(255,255,255,.45); padding: .9rem 1.2rem .3rem;
+}
+.wbs-item {
+  display: block; padding: .48rem 1.2rem; font-size: .82rem; font-weight: 700;
+  color: rgba(255,255,255,.8); cursor: pointer; border-left: 3px solid transparent;
+  transition: all .14s; text-decoration: none; background: none; border-right: none;
+  border-top: none; border-bottom: none; width: 100%; text-align: left;
+  font-family: 'Nunito', sans-serif;
+}
+.wbs-item:hover  { background: rgba(0,0,0,.14); color: #fff; }
+.wbs-item.active { border-left-color: var(--yellow); background: rgba(0,0,0,.2); color: var(--yellow); }
+.wbs-item .item-prog { float: right; font-size: .68rem; color: rgba(255,255,255,.4); }
+
+/* MAIN WORKBOOK AREA */
+.wb-main { background: var(--teal); }
+
+/* Workbook top banner */
+.wb-banner {
+  background: var(--black); border-bottom: 3px solid var(--yellow);
+  padding: 1.2rem 2rem; display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+}
+.wb-banner-left h2 { font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 700; color: var(--white); }
+.wb-banner-left p  { font-size: .78rem; font-weight: 700; color: rgba(255,255,255,.55); margin-top: .2rem; }
+.wb-banner-right { display: flex; gap: .5rem; align-items: center; }
+.wb-progress-wrap { text-align: center; }
+.wb-ring-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.5); text-transform: uppercase; letter-spacing: .07em; margin-top: .3rem; }
+
+/* Panel System */
+.wb-sections { padding: 1.5rem 2rem; max-width: 1000px; margin: 0 auto; }
+.wb-panel {
   background: var(--white); border: 3px solid var(--black); border-radius: 6px;
-  box-shadow: 4px 4px 0 var(--black); padding: 1.1rem; cursor: pointer;
-  transition: transform .15s, box-shadow .15s; text-decoration: none; color: var(--black);
-  display: flex; flex-direction: column; gap: .4rem;
-}
-.quick-card:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--black); }
-.quick-card .qc-icon { font-size: 1.6rem; line-height: 1; }
-.quick-card .qc-title { font-family: 'Lora', serif; font-size: .95rem; font-weight: 700; }
-.quick-card .qc-desc  { font-size: .75rem; font-weight: 700; color: rgba(0,0,0,.5); line-height: 1.4; }
-.quick-card .qc-badge {
-  display: inline-block; font-size: .65rem; font-weight: 900; letter-spacing: .06em;
-  text-transform: uppercase; padding: .15rem .6rem; border-radius: 999px; color: #fff; margin-top: .2rem; align-self: flex-start;
-}
-.badge-new  { background: var(--teal); }
-.badge-ref  { background: var(--blue); }
-.badge-print{ background: var(--black); }
-.badge-hw   { background: var(--orange); }
-
-/* ══ LANGUAGE FILTER ══ */
-.lang-filter { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
-.lf-btn {
-  background: rgba(0,0,0,.08); border: 2.5px solid var(--black);
-  border-radius: 4px; font-family: 'Nunito', sans-serif; font-size: .8rem;
-  font-weight: 800; padding: .3rem .8rem; cursor: pointer; transition: all .15s;
-}
-.lf-btn.active { background: var(--black); color: var(--yellow); }
-.lf-btn:hover  { background: rgba(0,0,0,.18); }
-
-/* ══ TOPIC CARDS ══ */
-.topics-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px,1fr)); gap: 1.2rem; margin-bottom: 2.5rem; }
-
-.topic-card {
-  background: var(--white); border: 3px solid var(--black); border-radius: 6px;
-  box-shadow: 5px 5px 0 var(--black); overflow: hidden;
-  transition: transform .15s, box-shadow .15s;
-}
-.topic-card:hover { transform: translate(-2px,-2px); box-shadow: 7px 7px 0 var(--black); }
-.topic-card.done { border-color: var(--teal-dk); box-shadow: 5px 5px 0 var(--teal-dk); }
-
-.tc-header {
-  padding: .7rem 1rem; display: flex; align-items: center; gap: .6rem;
-  border-bottom: 2px solid var(--black);
-}
-.tc-header.en  { background: #E8F4FD; }
-.tc-header.fr  { background: #FFF0F0; }
-.tc-header.it  { background: #F0FFF4; }
-.tc-header.ru  { background: #F5F0FF; }
-.tc-header.el  { background: #FFF8E6; }
-.tc-header.es  { background: #FFF0F0; }
-.tc-header.de  { background: #F0F4FF; }
-.tc-header.pt  { background: #F0FFF0; }
-
-.tc-flag   { font-size: 1.2rem; line-height: 1; }
-.tc-title  { font-family: 'Lora', serif; font-size: .9rem; font-weight: 700; flex: 1; }
-.tc-level  { font-size: .65rem; font-weight: 900; color: #fff; padding: .15rem .55rem; border-radius: 999px; }
-.lv-a1 { background: var(--a1); } .lv-a2 { background: var(--a2); }
-.lv-b1 { background: var(--b1); } .lv-b2 { background: var(--b2); } .lv-c1 { background: var(--c1); }
-
-.tc-body { padding: .8rem 1rem; }
-.tc-desc { font-size: .78rem; font-weight: 700; color: rgba(0,0,0,.55); line-height: 1.4; margin-bottom: .7rem; }
-
-/* Grammar Snapshot Table */
-.g-snap-wrap { margin-bottom: 1rem; border: 2px solid var(--black); border-radius: 4px; overflow: hidden; background: var(--white); display: none; }
-.g-snap-wrap.show { display: block; }
-.g-snap-table { width: 100%; border-collapse: collapse; font-size: .75rem; }
-.g-snap-table td, .g-snap-table th { border: 1px solid var(--black); padding: .3rem .5rem; text-align: left; }
-.g-snap-table th { background: var(--black); color: var(--white); font-weight: 800; }
-.g-snap-header { background: var(--sand); padding: .3rem .6rem; font-size: .7rem; font-weight: 900; text-transform: uppercase; border-bottom: 2px solid var(--black); display: flex; justify-content: space-between; align-items: center; }
-
-.tc-progress-bar { height: 6px; background: rgba(0,0,0,.1); border-radius: 999px; overflow: hidden; margin-bottom: .6rem; }
-.tc-progress-fill { height: 100%; background: var(--teal); border-radius: 999px; transition: width .5s; }
-.tc-progress-fill.done { background: var(--a1); }
-
-.tc-actions { display: flex; gap: .4rem; flex-wrap: wrap; }
-.tc-btn {
-  border: 2px solid var(--black); border-radius: 4px; font-family: 'Nunito', sans-serif;
-  font-size: .72rem; font-weight: 900; padding: .28rem .7rem; cursor: pointer;
-  transition: all .12s; text-decoration: none; display: inline-block;
-}
-.tc-btn.primary   { background: var(--black); color: var(--yellow); }
-.tc-btn.primary:hover { background: var(--teal-dk); border-color: var(--teal-dk); color: #fff; }
-.tc-btn.secondary { background: transparent; color: var(--black); }
-.tc-btn.secondary:hover { background: rgba(0,0,0,.08); }
-.tc-btn.snap-btn { background: var(--yellow); color: var(--black); }
-.tc-btn.snap-btn:hover { background: var(--black); color: var(--yellow); }
-
-/* ══ HOMEWORK PANEL ══ */
-.hw-panel {
-  background: var(--sand); border: 3px solid var(--black); border-radius: 6px;
-  box-shadow: 5px 5px 0 var(--black); margin-bottom: 2rem; overflow: hidden;
-}
-.hw-panel-header {
-  background: var(--orange); color: var(--white); padding: .8rem 1.2rem;
-  display: flex; align-items: center; justify-content: space-between; gap: .5rem; flex-wrap: wrap;
-}
-.hw-panel-header h2 { font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; }
-.hw-panel-header .hw-meta { font-size: .75rem; font-weight: 800; opacity: .85; }
-.hw-body { padding: 1.2rem; }
-.hw-task {
-  display: flex; align-items: flex-start; gap: .8rem; padding: .65rem 0;
-  border-bottom: 1.5px dashed rgba(0,0,0,.12);
-}
-.hw-task:last-child { border-bottom: none; }
-.hw-checkbox {
-  width: 20px; height: 20px; border: 2.5px solid var(--black); border-radius: 4px;
-  flex-shrink: 0; cursor: pointer; display: flex; align-items: center; justify-content: center;
-  transition: all .15s; background: var(--white); margin-top: 2px;
-}
-.hw-checkbox.checked { background: var(--teal); border-color: var(--teal); }
-.hw-checkbox.checked::after { content: '✓'; color: #fff; font-size: .8rem; font-weight: 900; }
-.hw-task-text { font-size: .85rem; font-weight: 700; line-height: 1.4; flex: 1; }
-.hw-task-text .hw-link { color: var(--teal-dk); text-decoration: underline; cursor: pointer; }
-.hw-task.checked-task .hw-task-text { text-decoration: line-through; opacity: .5; }
-.hw-tag { display: inline-block; font-size: .62rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; padding: .1rem .5rem; border-radius: 999px; color: #fff; margin-left: .4rem; vertical-align: middle; }
-.hw-tag.grammar   { background: var(--teal-dk); }
-.hw-tag.phonetics { background: var(--blue); }
-.hw-tag.writing   { background: var(--b2); }
-.hw-tag.review    { background: var(--b1); }
-
-/* ══ EXERCISE MODAL ══ */
-.modal-overlay {
-  position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 200;
-  display: flex; align-items: center; justify-content: center; padding: 1rem;
+  box-shadow: 5px 5px 0 var(--black); margin-bottom: 1.8rem; overflow: hidden;
   display: none;
 }
-.modal-overlay.open { display: flex; }
-.modal {
-  background: var(--white); border: 3px solid var(--black); border-radius: 6px;
-  box-shadow: 8px 8px 0 var(--black); max-width: 600px; width: 100%;
-  max-height: 90vh; overflow-y: auto;
-}
-.modal-header {
-  background: var(--black); color: var(--white); padding: .8rem 1.2rem;
-  display: flex; align-items: center; justify-content: space-between;
-  position: sticky; top: 0;
-}
-.modal-header h3 { font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; }
-.modal-close { background: none; border: none; color: #fff; font-size: 1.2rem; cursor: pointer; font-weight: 900; padding: 0 .2rem; }
-.modal-body { padding: 1.4rem; }
+.wb-panel.active { display: block; }
 
-/* Exercise styles inside modal */
-.ex-intro { font-size: .88rem; font-weight: 700; color: rgba(0,0,0,.6); margin-bottom: 1.2rem; line-height: 1.5; background: rgba(0,181,163,.1); border-left: 4px solid var(--teal); padding: .6rem .9rem; border-radius: 0 4px 4px 0; }
-.ex-q { margin-bottom: 1.2rem; }
-.ex-q-label { font-size: .82rem; font-weight: 900; letter-spacing: .04em; color: rgba(0,0,0,.4); text-transform: uppercase; margin-bottom: .3rem; }
-.ex-q-text  { font-size: .95rem; font-weight: 700; margin-bottom: .5rem; line-height: 1.4; }
-.ex-input {
-  border: 2.5px solid var(--black); border-radius: 4px; padding: .45rem .8rem;
-  font-family: 'Nunito', sans-serif; font-size: .95rem; font-weight: 800;
-  width: 100%; outline: none; background: var(--white);
+.panel-header {
+  background: var(--black); color: var(--white); padding: .7rem 1.2rem;
+  display: flex; align-items: center; gap: .7rem;
 }
-.ex-input:focus { border-color: var(--teal-dk); box-shadow: 0 0 0 3px rgba(0,181,163,.2); }
-.ex-input.ok  { border-color: var(--a1); background: rgba(46,204,64,.08); }
-.ex-input.err { border-color: var(--red); background: rgba(255,65,54,.06); }
-.ex-options { display: flex; flex-wrap: wrap; gap: .5rem; }
+.panel-header h3 { font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; flex: 1; }
+.panel-header .ph-badge {
+  font-size: .65rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase;
+  padding: .18rem .6rem; border-radius: 999px; color: #fff;
+}
+.ph-badge.grammar   { background: var(--teal-dk); }
+.ph-badge.phonetics { background: var(--blue); }
+.ph-badge.homework  { background: var(--orange); }
+.ph-badge.notes     { background: var(--a2); }
+.ph-badge.reference { background: var(--b2); }
+
+.panel-body { padding: 1.2rem 1.4rem; }
+
+/* TABLE STYLES */
+.wb-table { width: 100%; border-collapse: collapse; margin-bottom: .8rem; }
+.wb-table td { border: 2px solid var(--black); padding: .45rem .8rem; font-size: .88rem; font-weight: 700; vertical-align: middle; line-height: 1.4; }
+.wb-table .wt-label { background: var(--black); color: var(--white); font-size: .78rem; font-weight: 800; text-align: left; white-space: nowrap; }
+.wb-table td.wt-c  { background: var(--cream); text-align: center; }
+.wb-table td.wt-l  { background: var(--cream); text-align: left; }
+.wb-table .wt-sec td { background: rgba(0,0,0,.08); font-size: .76rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; text-align: left; padding: .32rem .8rem; }
+.wb-table .wt-note td { background: #f5f5f0; font-size: .78rem; font-weight: 700; text-align: center; font-style: italic; padding: .4rem .8rem; }
+
+.key-v { color: var(--teal-dk); font-weight: 900; }
+.key-n { color: var(--red); font-weight: 900; }
+
+/* EXERCISE STYLES */
+.ex-block { margin-bottom: 1.2rem; padding-bottom: 1.2rem; border-bottom: 1.5px dashed rgba(0,0,0,0.1); }
+.ex-label { font-size: .72rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: rgba(0,0,0,.38); margin-bottom: .3rem; }
+.ex-question { font-size: .95rem; font-weight: 700; margin-bottom: .5rem; }
+.ex-options { display: flex; flex-wrap: wrap; gap: .4rem; }
 .ex-opt {
   background: var(--white); border: 2.5px solid var(--black); border-radius: 4px;
-  font-family: 'Nunito', sans-serif; font-size: .9rem; font-weight: 800;
-  padding: .38rem 1rem; cursor: pointer; transition: all .14s;
+  font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 800;
+  padding: .35rem .95rem; cursor: pointer; transition: all .13s;
 }
-.ex-opt:hover  { background: var(--yellow); }
-.ex-opt.correct { background: var(--a1); color: #fff; border-color: var(--a1); pointer-events: none; }
-.ex-opt.wrong   { background: var(--red); color: #fff; border-color: var(--red); pointer-events: none; animation: shake .3s; }
+.ex-opt:hover    { background: var(--yellow); }
+.ex-opt.correct  { background: var(--green); color: #fff; border-color: var(--green); pointer-events: none; }
+.ex-opt.wrong    { background: var(--red); color: #fff; border-color: var(--red); pointer-events: none; }
 .ex-opt.disabled { opacity: .4; pointer-events: none; }
-.ex-feedback { font-size: .8rem; font-weight: 700; margin-top: .4rem; min-height: 18px; }
-.ex-feedback.ok  { color: var(--teal-dk); }
-.ex-feedback.err { color: var(--red); }
 
-@keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-4px)} 75%{transform:translateX(4px)} }
-
-.modal-footer { padding: 0 1.4rem 1.4rem; display: flex; gap: .7rem; align-items: center; flex-wrap: wrap; }
-.modal-score { font-size: .9rem; font-weight: 800; flex: 1; }
-.modal-score .score-num { font-size: 1.3rem; font-weight: 900; color: var(--teal-dk); }
-.ex-check-btn { background: var(--black); color: var(--yellow); border: 3px solid var(--black); border-radius: 4px; font-family: 'Nunito', sans-serif; font-size: .9rem; font-weight: 900; padding: .55rem 1.5rem; cursor: pointer; transition: all .15s; }
-.ex-check-btn:hover { background: var(--teal-dk); border-color: var(--teal-dk); color: #fff; }
-.ex-reset-btn { background: transparent; color: var(--black); border: 2px solid var(--black); border-radius: 4px; font-family: 'Nunito', sans-serif; font-size: .82rem; font-weight: 800; padding: .4rem 1rem; cursor: pointer; transition: all .15s; }
-.ex-reset-btn:hover { background: rgba(0,0,0,.06); }
-
-/* ══ NOTES PANEL ══ */
-.notes-panel { background: var(--cream); border: 3px solid var(--black); border-radius: 6px; box-shadow: 5px 5px 0 var(--black); margin-bottom: 2rem; overflow: hidden; }
-.notes-header { background: var(--blue); color: #fff; padding: .75rem 1.2rem; font-family: 'Lora', serif; font-size: .95rem; font-weight: 700; display: flex; align-items: center; justify-content: space-between; }
-.notes-header span { font-family: 'Nunito', sans-serif; font-size: .72rem; font-weight: 800; opacity: .8; }
-.notes-textarea {
-  width: 100%; min-height: 120px; border: none; background: var(--cream);
-  font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700;
-  padding: 1rem 1.2rem; resize: vertical; outline: none; line-height: 1.6;
-  color: var(--black);
+.ex-input-row { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
+.ex-inp {
+  border: 2.5px solid var(--black); border-radius: 4px;
+  font-family: 'Nunito', sans-serif; font-size: .9rem; font-weight: 800;
+  padding: .38rem .7rem; min-width: 160px; outline: none;
 }
-.notes-footer { padding: .5rem 1rem; display: flex; justify-content: flex-end; gap: .5rem; border-top: 2px solid rgba(0,0,0,.08); }
-.notes-saved { font-size: .72rem; font-weight: 700; color: var(--teal-dk); opacity: 0; transition: opacity .3s; }
+.ex-inp.ok { border-color: var(--green); background: rgba(46,204,64,.07); }
+.ex-inp.err { border-color: var(--red); background: rgba(255,65,54,.06); }
+.ex-check-inline { background: var(--black); color: var(--yellow); border: 2px solid var(--black); border-radius: 4px; font-family: 'Nunito', sans-serif; font-size: .8rem; font-weight: 900; padding: .38rem .9rem; cursor: pointer; }
+
+.ex-fb { font-size: .8rem; font-weight: 700; margin-top: .35rem; min-height: 18px; }
+.ex-fb.ok { color: var(--teal-dk); }
+.ex-fb.err { color: var(--red); }
+
+/* NOTES */
+.notes-ta {
+  width: 100%; min-height: 200px; border: 2.5px solid rgba(0,0,0,.15); border-radius: 4px;
+  font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700; padding: .85rem 1rem;
+  resize: vertical; outline: none; line-height: 1.6; background: var(--cream); color: var(--black);
+}
+.notes-saved { font-size: .72rem; font-weight: 700; color: var(--teal-dk); margin-top: .4rem; opacity: 0; transition: opacity 0.3s; }
 .notes-saved.show { opacity: 1; }
 
-/* ══ PRINT BUTTON STRIP ══ */
-.print-strip {
-  background: var(--black); border-radius: 6px; border: 3px solid var(--black);
-  padding: 1rem 1.4rem; margin-bottom: 2rem;
-  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+/* REF BOX */
+.ref-bar {
+  background: var(--black); border-radius: 6px; padding: .85rem 1.2rem;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .8rem;
+  margin-bottom: 1.2rem;
 }
-.print-strip h3 { font-family: 'Lora', serif; color: var(--white); font-size: 1rem; font-weight: 700; }
-.print-strip p  { color: rgba(255,255,255,.6); font-size: .78rem; font-weight: 700; margin-top: .2rem; }
-.print-btns { display: flex; gap: .5rem; flex-wrap: wrap; }
-.print-btn-lg {
-  border: 2.5px solid rgba(255,255,255,.3); border-radius: 4px;
-  background: rgba(255,255,255,.1); color: #fff;
-  font-family: 'Nunito', sans-serif; font-size: .82rem; font-weight: 900;
-  padding: .5rem 1.1rem; cursor: pointer; transition: all .15s; text-decoration: none; display: inline-block;
+.ref-bar p  { font-size: .8rem; font-weight: 700; color: rgba(255,255,255,.6); }
+.ref-bar h4 { font-family: 'Lora', serif; font-size: .9rem; color: var(--white); font-weight: 700; }
+.ref-btns { display: flex; gap: .4rem; flex-wrap: wrap; }
+.ref-btn {
+  background: rgba(255,255,255,.1); border: 2px solid rgba(255,255,255,.25);
+  border-radius: 4px; color: #fff; font-family: 'Nunito', sans-serif;
+  font-size: .76rem; font-weight: 900; padding: .35rem .9rem; cursor: pointer;
+  transition: all .14s; text-decoration: none; display: inline-block;
 }
-.print-btn-lg:hover { background: var(--yellow); color: var(--black); border-color: var(--yellow); }
-.print-btn-lg.featured { background: var(--yellow); color: var(--black); border-color: var(--yellow); }
-.print-btn-lg.featured:hover { background: #ffd000; }
+.ref-btn:hover { background: var(--yellow); color: var(--black); border-color: var(--yellow); }
 
-/* ══ FOOTER ══ */
-.page-footer { text-align: center; padding: 2rem 0; font-size: .75rem; font-weight: 700; color: rgba(0,0,0,.35); }
-
-/* ══ RESPONSIVE ══ */
-@media (max-width: 700px) {
-  .welcome-banner { grid-template-columns: 1fr; }
-  .page { padding: 1rem; }
-  .topics-grid { grid-template-columns: 1fr; }
+.tip-strip {
+  background: rgba(0,181,163,.1); border-left: 4px solid var(--teal-dk);
+  padding: .55rem .9rem; font-size: .8rem; font-weight: 700; line-height: 1.5;
+  margin-top: .5rem; border-radius: 0 4px 4px 0;
 }
+
+@media (max-width: 800px) {
+  .wb-layout { grid-template-columns: 1fr; }
+  .wb-sidebar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 60px;
+    z-index: 10;
+    overflow-x: auto;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-right: none;
+    border-bottom: 3px solid var(--black);
+    scrollbar-width: none;
+    background: var(--teal-dk);
+  }
+  .wb-sidebar::-webkit-scrollbar { display: none; }
+  .wbs-course-pill { display: none; }
+  .wbs-section-label { display: none; }
+  .wbs-item {
+    width: auto;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-left: 2px solid transparent;
+  }
+  .wbs-item.active { border-color: var(--yellow); background: rgba(0,0,0,0.2); }
+}
+</style>
+<style>
+/* ══ PICKER VIEW STYLES ══ */
+.view { display: none; }
+.view.active { display: block; }
+.picker-page { max-width: 1000px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+.picker-hero { background: var(--black); border-radius: 6px; border: 3px solid var(--black); box-shadow: 6px 6px 0 var(--teal-dk); padding: 1.8rem 2rem; margin-bottom: 2.5rem; color: var(--white); }
+.picker-hero h1 { font-family: 'Lora', serif; font-size: 1.7rem; font-weight: 700; margin-bottom: .4rem; }
+.picker-hero p { font-size: .88rem; font-weight: 700; color: rgba(255,255,255,.6); line-height: 1.6; }
+.lang-section { margin-bottom: 2.5rem; }
+.lang-section-header { display: flex; align-items: center; gap: .7rem; margin-bottom: 1rem; padding-bottom: .5rem; border-bottom: 2.5px solid var(--black); }
+.lang-section-header h2 { font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 700; }
+.level-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px,1fr)); gap: .8rem; }
+.level-card { border: 3px solid var(--black); border-radius: 6px; background: var(--white); box-shadow: 4px 4px 0 var(--black); padding: 1rem .9rem; cursor: pointer; transition: transform .14s, box-shadow .14s; display: flex; flex-direction: column; gap: .3rem; position: relative; }
+.level-card:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--black); }
+.level-card.current { border-color: var(--yellow); box-shadow: 4px 4px 0 var(--yellow); }
+.level-card.locked { opacity: 0.5; }
+.lc-badge { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 6px; border: 2.5px solid var(--black); font-size: 0.9rem; font-weight: 900; color: #fff; margin-bottom: .1rem; }
+.lc-badge.a0 { background: #888; } .lc-badge.a1 { background: var(--a1); } .lc-badge.a2 { background: var(--a2); } .lc-badge.b1 { background: var(--b1); }
+.lc-title { font-family: 'Lora', serif; font-size: .88rem; font-weight: 700; }
+.lc-status { font-size: .64rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; margin-top: auto; padding-top: .3rem; color: var(--teal-dk); }
 </style>
 </head>
 <body>
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <div class="topbar-brand">
+  <div class="topbar-brand" onclick="showView('picker')">
     📖 COSYlanguages <span class="lock">Private</span>
   </div>
   <div class="topbar-nav">
-    <a class="topbar-link active" href="workbook.html">📓 Workbook</a>
+    <button class="topbar-link active" onclick="showView('picker')">🏠 My Courses</button>
+    <button class="topbar-link" id="tb-workbook" onclick="showView('workbook')" style="display:none">📓 Workbook</button>
     <a class="topbar-link" href="days.html">🗺️ Roadmap</a>
     <a class="topbar-link" href="grammar-reference.html">📐 Grammar</a>
-    <a class="topbar-link" href="vocabulary-reference.html">📖 Vocab</a>
     <a class="topbar-link" href="pronunciation-reference.html">🔊 Pronunciation</a>
   </div>
   <div class="topbar-student">
@@ -321,136 +276,106 @@ svg.ring { transform: rotate(-90deg); }
   </div>
 </div>
 
-<div class="page">
-
-  <!-- WELCOME BANNER -->
-  <div class="welcome-banner">
-    <div>
-      <h1 id="welcome-h1">Welcome back! 👋</h1>
-      <p>This is your personal learning workbook. Complete exercises, check off homework tasks,<br>take notes, and download your grammar reference sheets to study offline.</p>
+<!-- VIEW: PICKER -->
+<div class="view active" id="view-picker">
+  <div class="picker-page">
+    <div class="picker-hero">
+      <h1>My Learning Space 🎓</h1>
+      <p>Select your course to open your personal workbook. Each course contains your grammar snapshots, interactive exercises, and personal notes.</p>
     </div>
-    <div class="overall-progress-wrap">
-      <svg class="ring" width="80" height="80" viewBox="0 0 80 80">
-        <circle class="ring-bg" cx="40" cy="40" r="32"/>
-        <circle class="ring-fill" id="overall-ring" cx="40" cy="40" r="32" stroke-dasharray="201" stroke-dashoffset="201"/>
-      </svg>
-      <div class="ring-label">Overall<br>Progress</div>
-    </div>
-  </div>
 
-  <!-- PRINT STRIP -->
-  <div class="print-strip">
-    <div>
-      <h3>🖨 Grammar Reference Sheets</h3>
-      <p>Download clean, print-ready PDF versions of all grammar tables to study offline or add to your notebook.</p>
-    </div>
-    <div class="print-btns" id="print-btns">
-      <a class="print-btn-lg featured" href="print-grammar.html?lang=en" target="_blank">🇬🇧 English</a>
-      <a class="print-btn-lg" href="print-grammar.html?lang=fr" target="_blank">🇫🇷 French</a>
-      <a class="print-btn-lg" href="print-grammar.html?lang=it" target="_blank">🇮🇹 Italian</a>
-      <a class="print-btn-lg" href="print-grammar.html?lang=ru" target="_blank">🇷🇺 Russian</a>
-      <a class="print-btn-lg" href="print-grammar.html?lang=el" target="_blank">🇬🇷 Greek</a>
-    </div>
-  </div>
-
-  <!-- QUICK ACTIONS -->
-  <div class="section-heading">🚀 Quick Access</div>
-  <div class="quick-grid">
-    <a class="quick-card" href="grammar-reference.html">
-      <div class="qc-icon">📐</div>
-      <div class="qc-title">Grammar Reference</div>
-      <div class="qc-desc">All grammar tables — to be / present simple / conditionals and more</div>
-      <span class="qc-badge badge-ref">Reference</span>
-    </a>
-    <a class="quick-card" href="pronunciation-reference.html">
-      <div class="qc-icon">🔊</div>
-      <div class="qc-title">Pronunciation Guide</div>
-      <div class="qc-desc">Phonetics for all 8 languages — levelled A1 to C2</div>
-      <span class="qc-badge badge-ref">Reference</span>
-    </a>
-    <a class="quick-card" href="print-grammar.html" target="_blank">
-      <div class="qc-icon">🖨</div>
-      <div class="qc-title">Print Grammar Sheets</div>
-      <div class="qc-desc">Clean, black &amp; white printable versions of all tables</div>
-      <span class="qc-badge badge-print">Print-ready</span>
-    </a>
-  </div>
-
-  <!-- HOMEWORK PANEL -->
-  <div class="hw-panel">
-    <div class="hw-panel-header">
-      <h2>📋 Homework Checklist</h2>
-      <span class="hw-meta">Tick each task when done — saves automatically</span>
-    </div>
-    <div class="hw-body" id="hw-body">
-      <!-- tasks injected by JS -->
-    </div>
-  </div>
-
-  <!-- WORKBOOK EXERCISES -->
-  <div class="section-heading">
-    📝 Workbook Exercises
-    <span class="count" id="done-count">0 done</span>
-  </div>
-
-  <!-- Language filter (hidden if locked to one course) -->
-  <div class="lang-filter" id="lang-filter">
-    <button class="lf-btn active" onclick="filterLang('all',this)">🌍 All</button>
-    <button class="lf-btn" onclick="filterLang('en',this)">🇬🇧 English</button>
-    <button class="lf-btn" onclick="filterLang('fr',this)">🇫🇷 French</button>
-    <button class="lf-btn" onclick="filterLang('it',this)">🇮🇹 Italian</button>
-    <button class="lf-btn" onclick="filterLang('es',this)">🇪🇸 Spanish</button>
-    <button class="lf-btn" onclick="filterLang('de',this)">🇩🇪 German</button>
-    <button class="lf-btn" onclick="filterLang('pt',this)">🇵🇹 Portuguese</button>
-    <button class="lf-btn" onclick="filterLang('ru',this)">🇷🇺 Russian</button>
-    <button class="lf-btn" onclick="filterLang('el',this)">🇬🇷 Greek</button>
-  </div>
-
-  <div class="topics-grid" id="topics-grid">
-    <!-- topic cards injected by JS -->
-  </div>
-
-  <!-- NOTES -->
-  <div class="notes-panel">
-    <div class="notes-header">
-      📝 My Notes
-      <span>Auto-saved to this browser</span>
-    </div>
-    <textarea class="notes-textarea" id="my-notes" placeholder="Jot down vocabulary, rules you found tricky, things to ask your teacher…"></textarea>
-    <div class="notes-footer">
-      <span class="notes-saved" id="notes-saved">✓ Saved</span>
-    </div>
-  </div>
-
-</div><!-- /page -->
-
-<div class="page-footer">COSYlanguages · Private Student Area · All progress saved in this browser</div>
-
-<!-- EXERCISE MODAL -->
-<div class="modal-overlay" id="modal-overlay" onclick="closeModalIfBg(event)">
-  <div class="modal" id="modal">
-    <div class="modal-header">
-      <h3 id="modal-title">Exercise</h3>
-      <button class="modal-close" onclick="closeModal()">✕</button>
-    </div>
-    <div class="modal-body" id="modal-body"></div>
-    <div class="modal-footer">
-      <div class="modal-score"><span class="score-num" id="modal-score-num">0</span> / <span id="modal-score-total">0</span> correct</div>
-      <button class="ex-reset-btn" onclick="resetCurrentEx()">↺ Reset</button>
-      <button class="ex-check-btn" onclick="checkCurrentEx()">✔ Check answers</button>
+    <div id="picker-langs">
+       <!-- Filled by JS -->
     </div>
   </div>
 </div>
 
+<!-- VIEW: WORKBOOK -->
+<div class="view" id="view-workbook">
+<div class="wb-layout">
+
+  <!-- SIDEBAR -->
+  <nav class="wb-sidebar" id="wb-sidebar">
+    <div class="wbs-course-pill">
+      <div class="cp-lang" id="side-lang">—</div>
+      <div class="cp-name" id="side-course">—</div>
+      <div class="cp-level" id="side-level">—</div>
+    </div>
+    <div class="wbs-section-label">Workbook sections</div>
+    <button class="wbs-item active" data-panel="grammar" onclick="switchPanel('grammar',this)">📋 Grammar Tables</button>
+    <button class="wbs-item" data-panel="phonetics" onclick="switchPanel('phonetics',this)">🔊 Pronunciation</button>
+    <button class="wbs-item" data-panel="exercises" onclick="switchPanel('exercises',this)">✏️ Exercises <span class="item-prog" id="side-prog"></span></button>
+    <button class="wbs-item" data-panel="homework" onclick="switchPanel('homework',this)">📋 Homework</button>
+    <button class="wbs-item" data-panel="notes" onclick="switchPanel('notes',this)">📝 My Notes</button>
+    <button class="wbs-item" data-panel="print" onclick="switchPanel('print',this)">📄 Print Sheets</button>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="wb-main">
+    <div class="wb-banner">
+      <div class="wb-banner-left">
+        <h2 id="wb-banner-title">My Workbook</h2>
+        <p id="wb-banner-sub">Complete exercises and track your progress</p>
+      </div>
+      <div class="wb-banner-right">
+        <div class="wb-progress-wrap">
+          <svg width="60" height="60" viewBox="0 0 64 64" style="transform:rotate(-90deg)">
+            <circle cx="32" cy="32" r="28" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="6"/>
+            <circle id="wb-ring" cx="32" cy="32" r="28" fill="none" stroke="var(--yellow)" stroke-width="6" stroke-linecap="round"
+              stroke-dasharray="176" stroke-dashoffset="176" style="transition:stroke-dashoffset 1s ease"/>
+          </svg>
+          <div class="wb-ring-label">Done</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wb-sections">
+      <!-- PANEL: GRAMMAR -->
+      <div class="wb-panel active" id="panel-grammar">
+        <div class="panel-header"><h3>📋 Grammar Tables</h3><span class="ph-badge grammar">Reference</span></div>
+        <div class="panel-body" id="panel-grammar-body"></div>
+      </div>
+
+      <!-- PANEL: PHONETICS -->
+      <div class="wb-panel" id="panel-phonetics">
+        <div class="panel-header"><h3>🔊 Pronunciation Guide</h3><span class="ph-badge phonetics">Phonetics</span></div>
+        <div class="panel-body" id="panel-phonetics-body"></div>
+      </div>
+
+      <!-- PANEL: EXERCISES -->
+      <div class="wb-panel" id="panel-exercises">
+        <div class="panel-header"><h3>✏️ Interactive Exercises</h3><span class="ph-badge grammar">Practice</span></div>
+        <div class="panel-body" id="panel-exercises-body"></div>
+      </div>
+
+      <!-- PANEL: HOMEWORK -->
+      <div class="wb-panel" id="panel-homework">
+        <div class="panel-header"><h3>📋 Homework Checklist</h3><span class="ph-badge homework">Tasks</span></div>
+        <div class="panel-body" id="panel-homework-body"></div>
+      </div>
+
+      <!-- PANEL: NOTES -->
+      <div class="wb-panel" id="panel-notes">
+        <div class="panel-header"><h3>📝 My Notes</h3><span class="ph-badge notes">Personal</span></div>
+        <div class="panel-body">
+          <textarea class="notes-ta" id="notes-ta" placeholder="Type your notes here..."></textarea>
+          <div class="notes-saved" id="notes-saved">✓ Saved to browser</div>
+        </div>
+      </div>
+
+      <!-- PANEL: PRINT -->
+      <div class="wb-panel" id="panel-print">
+        <div class="panel-header"><h3>📄 Print & Download</h3><span class="ph-badge reference">PDF</span></div>
+        <div class="panel-body" id="panel-print-body"></div>
+      </div>
+    </div>
+  </main>
+</div>
+
 <script>
-/* ═══════════════════════════════════════════
-   INIT
-═══════════════════════════════════════════ */
-let progress = JSON.parse(localStorage.getItem('cosy_workbook_progress') || '{}');
-let hwState  = JSON.parse(localStorage.getItem('cosy_workbook_hw') || '{}');
-let currentExId = null;
-let exScores = {};
 let S = null;
+let currentCourseTopics = [];
+let progress = {}; // Keyed by exercise ID
 
 function init() {
   const code = localStorage.getItem('student_course_code');
@@ -458,291 +383,320 @@ function init() {
     S = { ...COURSES[code], code: code };
     document.getElementById('student-name').textContent = `Course: ${code}`;
     document.getElementById('avatar-initials').textContent = S.lang.charAt(0);
-    // Hide lang filter if restricted
-    document.getElementById('lang-filter').style.display = 'none';
-    // Update welcome banner
-    const flag = (typeof LANGS !== 'undefined' && LANGS[S.lang]) ? LANGS[S.lang].flag : '';
-    document.getElementById('welcome-h1').textContent = `Welcome, ${flag} Student! 👋`;
+
+    // Setup Sidebar Pill
+    document.getElementById('side-lang').textContent = S.lang;
+    document.getElementById('side-course').textContent = S.type + ' Course';
+    document.getElementById('side-level').textContent = S.level;
+
+    document.getElementById('tb-workbook').style.display = 'block';
   }
 
-  renderHW();
-  renderTopics('all');
-  updateOverallRing();
-  loadNotes();
-  updateDoneCount();
-}
+  loadProgress();
+  renderPicker();
 
-/* ═══════════════════════════════════════════
-   HOMEWORK
-═══════════════════════════════════════════ */
-function renderHW() {
-  const container = document.getElementById('hw-body');
-  if (typeof WORKBOOK_HW_TASKS === 'undefined') return;
-  container.innerHTML = WORKBOOK_HW_TASKS.map(t => {
-    const checked = !!hwState[t.id];
-    return `
-      <div class="hw-task ${checked ? 'checked-task' : ''}" id="hwtask-${t.id}">
-        <div class="hw-checkbox ${checked ? 'checked' : ''}" onclick="toggleHW('${t.id}')"></div>
-        <div class="hw-task-text">${t.text} <span class="hw-tag ${t.tag}">${t.tag}</span></div>
-      </div>`;
-  }).join('');
-}
-
-function toggleHW(id) {
-  hwState[id] = !hwState[id];
-  localStorage.setItem('cosy_workbook_hw', JSON.stringify(hwState));
-  const task = document.getElementById('hwtask-' + id);
-  const cb   = task.querySelector('.hw-checkbox');
-  cb.classList.toggle('checked', !!hwState[id]);
-  task.classList.toggle('checked-task', !!hwState[id]);
-}
-
-/* ═══════════════════════════════════════════
-   TOPICS
-═══════════════════════════════════════════ */
-function renderTopics(langFilter) {
-  const grid = document.getElementById('topics-grid');
-  if (typeof WORKBOOK_TOPICS === 'undefined') return;
-
-  let filtered = WORKBOOK_TOPICS;
-
-  // Apply student course restriction
-  if (S) {
-    const sLang = S.lang.toLowerCase();
-    const sLevel = S.level.toLowerCase();
-    filtered = filtered.filter(t => t.lang === sLang && (t.level === sLevel || t.level === 'a1'));
-  } else if (langFilter !== 'all') {
-    filtered = filtered.filter(t => t.lang === langFilter);
+  // If we have a course already, we can show it directly or stay in picker
+  // For demo/flexibility, let's show picker by default if picker=true in URL
+  if (S && !window.location.search.includes('picker=true')) {
+    showView('workbook');
   }
-
-  grid.innerHTML = filtered.map(topic => {
-    const done  = (progress[topic.id] || 0);
-    const total = topic.exercises.length;
-    const pct   = total > 0 ? Math.round(done / total * 100) : 0;
-    const complete = pct === 100;
-    const snapTable = generateGrammarSnap(topic);
-
-    return `
-      <div class="topic-card ${complete ? 'done' : ''}" data-lang="${topic.lang}">
-        <div class="tc-header ${topic.lang}">
-          <span class="tc-flag">${topic.flag}</span>
-          <span class="tc-title">${topic.title}</span>
-          <span class="tc-level lv-${topic.level}">${topic.level.toUpperCase()}</span>
-        </div>
-        <div class="tc-body">
-          ${topic.img ? `<img src="${topic.img}" style="width:100%; height:120px; object-fit:cover; border:2px solid var(--black); border-radius:4px; margin-bottom:.8rem;" alt="${topic.title}">` : ''}
-          <div class="tc-desc">${topic.desc}</div>
-
-          <div class="g-snap-wrap" id="snap-${topic.id}">
-             <div class="g-snap-header">
-               <span>Grammar Snapshot</span>
-               <span style="cursor:pointer" onclick="toggleSnap('${topic.id}')">✕</span>
-             </div>
-             ${snapTable}
-          </div>
-
-          <div class="tc-progress-bar">
-            <div class="tc-progress-fill ${complete ? 'done' : ''}" style="width:${pct}%"></div>
-          </div>
-          <div style="font-size:.72rem;font-weight:700;color:rgba(0,0,0,.4);margin-bottom:.6rem">${complete ? '✅ Completed!' : (done > 0 ? `${done}/${total} correct` : `${total} questions`)}</div>
-          <div class="tc-actions">
-            <button class="tc-btn primary" onclick="openExercise('${topic.id}')">✏️ ${done > 0 ? 'Practice again' : 'Start exercise'}</button>
-            ${topic.verbKey ? `<button class="tc-btn snap-btn" onclick="toggleSnap('${topic.id}')">📊 Table</button>` : ''}
-            <a class="tc-btn secondary" href="${topic.ref}" target="_blank">📖 Ref</a>
-          </div>
-        </div>
-      </div>`;
-  }).join('');
-  updateDoneCount();
 }
 
-function toggleSnap(id) {
-  const el = document.getElementById('snap-' + id);
-  if (el) el.classList.toggle('show');
+function showView(view) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.getElementById('view-' + view).classList.add('active');
+  document.querySelectorAll('.topbar-link').forEach(l => l.classList.remove('active'));
+  if (view === 'picker') {
+     document.querySelector('button[onclick="showView(\'picker\')"]').classList.add('active');
+  } else {
+     document.getElementById('tb-workbook').classList.add('active');
+     renderWorkbook();
+     loadNotes(); // Reload notes for current course
+  }
 }
 
-function generateGrammarSnap(topic) {
-  if (!topic.verbKey || !window.grammarData || !window.grammarData[topic.lang]) return '';
-  const verbData = window.grammarData[topic.lang].find(v => v.verb.toLowerCase() === topic.verbKey.toLowerCase());
-  if (!verbData || !verbData.tenses || !verbData.tenses.present_simple) return '';
+function renderPicker() {
+  const container = document.getElementById('picker-langs');
+  let html = '';
 
-  const ps = verbData.tenses.present_simple;
-  let rows = '';
-  verbData.pronouns.forEach((p, i) => {
-    rows += `<tr><td>${p}</td><td><strong>${ps.positive[i]}</strong></td></tr>`;
+  const langs = [
+    { key: 'EN', flag: '🇬🇧', name: 'English' },
+    { key: 'FR', flag: '🇫🇷', name: 'French' },
+    { key: 'IT', flag: '🇮🇹', name: 'Italian' },
+    { key: 'ES', flag: '🇪🇸', name: 'Spanish' },
+    { key: 'RU', flag: '🇷🇺', name: 'Russian' },
+    { key: 'EL', flag: '🇬🇷', name: 'Greek' }
+  ];
+
+  langs.forEach(l => {
+    html += `
+    <div class="lang-section">
+      <div class="lang-section-header">
+        <span style="font-size:1.5rem">${l.flag}</span>
+        <h2>${l.name}</h2>
+      </div>
+      <div class="level-grid">
+        ${renderLevelCard(l, 'A0', 'Absolute Beginner')}
+        ${renderLevelCard(l, 'A1', 'Beginner')}
+        ${renderLevelCard(l, 'A2', 'Elementary')}
+        ${renderLevelCard(l, 'B1', 'Intermediate')}
+      </div>
+    </div>`;
   });
 
+  container.innerHTML = html;
+}
+
+function renderLevelCard(lang, level, title) {
+  const isCurrent = S && S.lang === lang.key && S.level === level;
+
+  let status = '';
+  if (isCurrent) status = '▶ Current Course';
+
   return `
-    <table class="g-snap-table">
-      <thead><tr><th>Subject</th><th>Verb</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>
+    <div class="level-card ${isCurrent ? 'current' : ''}" onclick="selectCourse('${lang.key}', '${level}')">
+      <div class="lc-badge ${level.toLowerCase()}">${level}</div>
+      <div class="lc-title">${title}</div>
+      ${status ? `<div class="lc-status">${status}</div>` : ''}
+    </div>
   `;
 }
 
-function filterLang(lang, btn) {
-  document.querySelectorAll('.lf-btn').forEach(b => b.classList.remove('active'));
+function selectCourse(lang, level) {
+  // Create or update student object
+  const code = `DEMO-${lang}-${level}`;
+  S = { lang: lang, level: level, type: 'GEN', code: code };
+
+  // Set flags to unlock the experience
+  localStorage.setItem('student_unlocked', 'true');
+  localStorage.setItem('student_course_code', code);
+
+  // Update sidebar elements
+  document.getElementById('side-lang').textContent = S.lang;
+  document.getElementById('side-course').textContent = S.type + ' Course';
+  document.getElementById('side-level').textContent = S.level;
+
+  // Update top bar identity
+  document.getElementById('student-name').textContent = `Course: ${code}`;
+  document.getElementById('avatar-initials').textContent = S.lang.charAt(0);
+
+  document.getElementById('tb-workbook').style.display = 'block';
+  showView('workbook');
+}
+
+function loadProgress() {
+  progress = JSON.parse(localStorage.getItem('cosy_wb_progress') || '{}');
+}
+function saveProgress() {
+  localStorage.setItem('cosy_wb_progress', JSON.stringify(progress));
+}
+
+function switchPanel(name, btn) {
+  document.querySelectorAll('.wb-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.wbs-item').forEach(i => i.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
   btn.classList.add('active');
-  renderTopics(lang);
 }
 
-function updateDoneCount() {
-  if (typeof WORKBOOK_TOPICS === 'undefined') return;
-  const done = WORKBOOK_TOPICS.filter(t => (progress[t.id] || 0) === t.exercises.length).length;
-  document.getElementById('done-count').textContent = `${done} done`;
+function renderWorkbook() {
+  if (!S) return;
+  const sLang = S.lang.toLowerCase();
+  const sLevel = S.level.toLowerCase();
+
+  // Filter topics for this language and level
+  currentCourseTopics = WORKBOOK_TOPICS.filter(t => t.lang === sLang && (t.level === sLevel || t.level === 'a0'));
+
+  renderGrammar();
+  renderPhonetics();
+  renderExercises();
+  renderHomework();
+  renderPrint();
+  updateProgressRing();
 }
 
-/* ═══════════════════════════════════════════
-   OVERALL RING
-═══════════════════════════════════════════ */
-function updateOverallRing() {
-  if (typeof WORKBOOK_TOPICS === 'undefined') return;
-  let total = 0, done = 0;
-  WORKBOOK_TOPICS.forEach(t => { total += t.exercises.length; done += Math.min(progress[t.id] || 0, t.exercises.length); });
-  const pct = total > 0 ? done / total : 0;
-  const circumference = 201;
-  document.getElementById('overall-ring').style.strokeDashoffset = circumference * (1 - pct);
-}
+function renderGrammar() {
+  const body = document.getElementById('panel-grammar-body');
+  let html = '';
 
-/* ═══════════════════════════════════════════
-   EXERCISE MODAL
-═══════════════════════════════════════════ */
-function openExercise(topicId) {
-  const topic = WORKBOOK_TOPICS.find(t => t.id === topicId);
-  if (!topic) return;
-  currentExId = topicId;
-  exScores = {};
-  document.getElementById('modal-title').textContent = topic.flag + ' ' + topic.title;
-  document.getElementById('modal-score-total').textContent = topic.exercises.length;
-  document.getElementById('modal-score-num').textContent = '0';
-  renderExercises(topic);
-  document.getElementById('modal-overlay').classList.add('open');
-}
+  currentCourseTopics.forEach(topic => {
+    let topicHtml = '';
 
-function renderExercises(topic) {
-  const body = document.getElementById('modal-body');
-  body.innerHTML = `<div class="ex-intro">📝 Complete all questions. You can check your answers at any time — or press Check after finishing all questions.</div>` +
-    topic.exercises.map((ex, i) => {
-      if (ex.type === 'mcq') {
-        return `
-          <div class="ex-q" id="exq-${i}">
-            <div class="ex-q-label">Question ${i+1}</div>
-            <div class="ex-q-text">${ex.q}</div>
-            <div class="ex-options">
-              ${ex.opts.map(o => `<button class="ex-opt" data-q="${i}" data-opt="${o}" onclick="pickMCQ(this,${i},'${ex.answer.replace(/'/g,"\\'")}','${ex.fb.replace(/'/g,"\\'")}')">${o}</button>`).join('')}
-            </div>
-            <div class="ex-feedback" id="exfb-${i}"></div>
-          </div>`;
-      } else {
-        return `
-          <div class="ex-q" id="exq-${i}">
-            <div class="ex-q-label">Question ${i+1}</div>
-            <div class="ex-q-text">${ex.q}</div>
-            <input class="ex-input" id="exinp-${i}" data-answer="${ex.answer}" data-fb="${ex.fb.replace(/"/g,'&quot;')}" placeholder="Type your answer…" onkeydown="if(event.key==='Enter')checkFill(${i})">
-            <div class="ex-feedback" id="exfb-${i}"></div>
-          </div>`;
+    // Dynamic Snapshots
+    if (topic.verbKey && window.grammarData && window.grammarData[topic.lang]) {
+      const verbData = window.grammarData[topic.lang].find(v => v.verb.toLowerCase() === topic.verbKey.toLowerCase());
+      if (verbData) {
+        topicHtml += `<div style="margin-bottom:1.5rem">
+          <div class="ex-label">${topic.title} — Table</div>
+          <table class="wb-table">
+            <thead><tr><th class="wt-label">Subject</th><th class="wt-c">Verb</th></tr></thead>
+            <tbody>
+              ${verbData.pronouns.map((p, i) => `<tr><td class="wt-label">${p}</td><td class="wt-c"><span class="key-v">${verbData.tenses.present_simple.positive[i]}</span></td></tr>`).join('')}
+            </tbody>
+          </table>
+        </div>`;
       }
-    }).join('');
-}
+    }
 
-function pickMCQ(btn, qi, answer, fb) {
-  const opts = document.querySelectorAll(`.ex-opt[data-q="${qi}"]`);
-  opts.forEach(o => o.classList.add('disabled'));
-  const correct = btn.dataset.opt === answer;
-  btn.classList.add(correct ? 'correct' : 'wrong');
-  if (!correct) opts.forEach(o => { if (o.dataset.opt === answer) o.classList.add('correct'); });
-  const fbEl = document.getElementById('exfb-' + qi);
-  fbEl.textContent = correct ? fb : `❌ Correct answer: ${answer}`;
-  fbEl.className = 'ex-feedback ' + (correct ? 'ok' : 'err');
-  exScores[qi] = correct;
-  updateModalScore();
-}
+    // Static Grammar Blocks
+    if (topic.grammarBlocks) {
+      topic.grammarBlocks.forEach(block => {
+        topicHtml += `<div style="margin-bottom:1.5rem">
+          <div class="ex-label">${block.title}</div>
+          ${block.html}
+        </div>`;
+      });
+    }
 
-function checkFill(qi) {
-  const inp = document.getElementById('exinp-' + qi);
-  const val = inp.value.trim().toLowerCase();
-  const ans = inp.dataset.answer.toLowerCase();
-  const fb  = inp.dataset.fb;
-  const correct = val === ans;
-  inp.classList.remove('ok','err');
-  inp.classList.add(correct ? 'ok' : 'err');
-  const fbEl = document.getElementById('exfb-' + qi);
-  fbEl.textContent = correct ? fb : `❌ Correct answer: ${inp.dataset.answer}`;
-  fbEl.className = 'ex-feedback ' + (correct ? 'ok' : 'err');
-  exScores[qi] = correct;
-  updateModalScore();
-}
-
-function checkCurrentEx() {
-  const topic = WORKBOOK_TOPICS.find(t => t.id === currentExId);
-  if (!topic) return;
-  topic.exercises.forEach((ex, i) => {
-    if (ex.type === 'fill' && exScores[i] === undefined) checkFill(i);
-    if (ex.type === 'mcq' && exScores[i] === undefined) {
-      // auto-mark unanswered as wrong hint
-      const fbEl = document.getElementById('exfb-' + i);
-      if (!fbEl.textContent) { fbEl.textContent = `↑ Please select an answer`; fbEl.className = 'ex-feedback err'; }
+    if (topicHtml) {
+       html += `<div class="topic-section" style="margin-bottom:2.5rem; border-bottom:2px dashed rgba(0,0,0,0.1); padding-bottom:1.5rem;">${topicHtml}</div>`;
     }
   });
-  saveProgress();
+
+  body.innerHTML = html || '<p>No grammar tables available for this level yet.</p>';
 }
 
-function resetCurrentEx() {
-  exScores = {};
-  const topic = WORKBOOK_TOPICS.find(t => t.id === currentExId);
-  if (topic) renderExercises(topic);
-  document.getElementById('modal-score-num').textContent = '0';
-}
-
-function updateModalScore() {
-  const correct = Object.values(exScores).filter(Boolean).length;
-  document.getElementById('modal-score-num').textContent = correct;
-}
-
-function saveProgress() {
-  const correct = Object.values(exScores).filter(Boolean).length;
-  const topic = WORKBOOK_TOPICS.find(t => t.id === currentExId);
-  if (topic) {
-    progress[currentExId] = Math.max(progress[currentExId] || 0, correct);
-    localStorage.setItem('cosy_workbook_progress', JSON.stringify(progress));
-    updateOverallRing();
-    // refresh topics to update progress bar on cards
-    renderTopics(S ? 'all' : (document.querySelector('.lf-btn.active')?.getAttribute('onclick').match(/'(\w+)'/)?.[1] || 'all'));
+function renderPhonetics() {
+  const body = document.getElementById('panel-phonetics-body');
+  const cat = WORKBOOK_COURSE_CATALOGUE[`${S.lang.toLowerCase()}-${S.level.toLowerCase()}`];
+  if (!cat) {
+    body.innerHTML = '<p>Pronunciation guide coming soon.</p>';
+    return;
   }
+
+  body.innerHTML = `
+    <div class="tip-strip">${cat.phonetics.text}</div>
+    <div class="ref-bar" style="margin-top:1rem">
+      <div><h4>Full Guide</h4><p>Detailed phonetics for ${S.lang}</p></div>
+      <div class="ref-btns"><a class="ref-btn" href="${cat.phonetics.ref}" target="_blank">Open Guide →</a></div>
+    </div>
+  `;
 }
 
-function closeModal() {
-  document.getElementById('modal-overlay').classList.remove('open');
-  saveProgress();
-  currentExId = null;
-}
+function renderExercises() {
+  const body = document.getElementById('panel-exercises-body');
+  let html = '';
 
-function closeModalIfBg(e) {
-  if (e.target === document.getElementById('modal-overlay')) closeModal();
-}
+  currentCourseTopics.forEach(topic => {
+    topic.exercises.forEach((ex, idx) => {
+      const saved = progress[ex.id];
+      const isDone = saved !== undefined;
+      const isCorrect = isDone && (saved === ex.ans || saved === ex.ans.toLowerCase());
 
-/* ═══════════════════════════════════════════
-   NOTES
-═══════════════════════════════════════════ */
-function loadNotes() {
-  const ta = document.getElementById('my-notes');
-  ta.value = localStorage.getItem('cosy_workbook_notes') || '';
-  ta.addEventListener('input', () => {
-    localStorage.setItem('cosy_workbook_notes', ta.value);
-    const saved = document.getElementById('notes-saved');
-    saved.classList.add('show');
-    clearTimeout(ta._saveTimer);
-    ta._saveTimer = setTimeout(() => saved.classList.remove('show'), 1500);
+      html += `<div class="ex-block">
+        <div class="ex-label">${topic.title} · Q${idx+1}</div>
+        <div class="ex-question">${ex.q}</div>`;
+
+      if (ex.type === 'mcq') {
+        html += `<div class="ex-options">
+          ${ex.opts.map(o => {
+            let cls = 'ex-opt';
+            if (isDone) {
+              cls += ' disabled';
+              if (o === ex.ans) cls += ' correct';
+              else if (o === saved) cls += ' wrong';
+            }
+            return `<button class="${cls}" onclick="handleMCQ('${ex.id}', '${o}')">${o}</button>`;
+          }).join('')}
+        </div>`;
+      } else {
+        html += `<div class="ex-input-row">
+          <input class="ex-inp ${isDone ? (isCorrect ? 'ok' : 'err') : ''}" id="inp-${ex.id}"
+            value="${saved || ''}" ${isDone ? 'readonly' : ''} placeholder="Type here...">
+          ${!isDone ? `<button class="ex-check-inline" onclick="handleFill('${ex.id}', '${ex.ans}')">Check</button>` : ''}
+        </div>`;
+      }
+
+      html += `<div class="ex-fb ${isDone ? (isCorrect ? 'ok' : 'err') : ''}">${isDone ? (isCorrect ? ex.fb : '❌ Correct answer: ' + ex.ans) : ''}</div></div>`;
+    });
   });
+
+  body.innerHTML = html || '<p>No exercises available for this level yet.</p>';
 }
 
-/* ═══════════════════════════════════════════
-   BOOT
-═══════════════════════════════════════════ */
-init();
+function handleMCQ(id, val) {
+  progress[id] = val;
+  saveProgress();
+  renderExercises();
+  updateProgressRing();
+}
 
-// Escape key closes modal
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+function handleFill(id, ans) {
+  const val = document.getElementById('inp-' + id).value.trim();
+  if (!val) return;
+  progress[id] = val;
+  saveProgress();
+  renderExercises();
+  updateProgressRing();
+}
+
+function renderHomework() {
+  const body = document.getElementById('panel-homework-body');
+  const cat = WORKBOOK_COURSE_CATALOGUE[`${S.lang.toLowerCase()}-${S.level.toLowerCase()}`];
+  const tasks = cat ? cat.homework : WORKBOOK_HW_TASKS;
+
+  body.innerHTML = tasks.map(t => {
+    const done = !!progress['hw-' + t.id];
+    return `<div style="display:flex; gap:0.8rem; margin-bottom:0.8rem; align-items:center;">
+      <input type="checkbox" ${done ? 'checked' : ''} onchange="toggleHW('${t.id}', this.checked)">
+      <span style="${done ? 'text-decoration:line-through; opacity:0.6;' : ''}">${t.text}</span>
+    </div>`;
+  }).join('');
+}
+
+function toggleHW(id, val) {
+  progress['hw-' + id] = val;
+  saveProgress();
+  renderHomework();
+}
+
+function renderPrint() {
+  const body = document.getElementById('panel-print-body');
+  body.innerHTML = `
+    <div class="ref-bar">
+      <div><h4>Printable Grammar Sheet</h4><p>Clean A4 layout for ${S.lang} ${S.level}</p></div>
+      <div class="ref-btns"><a class="ref-btn" href="print-grammar.html?lang=${S.lang.toLowerCase()}" target="_blank">Open Print Page →</a></div>
+    </div>
+  `;
+}
+
+function loadNotes() {
+  const ta = document.getElementById('notes-ta');
+  ta.value = localStorage.getItem('cosy_wb_notes_' + (S?S.code:'any')) || '';
+
+  // Use a named function so we don't stack listeners
+  if (ta._onInput) ta.removeEventListener('input', ta._onInput);
+
+  ta._onInput = () => {
+    localStorage.setItem('cosy_wb_notes_' + (S?S.code:'any'), ta.value);
+    const s = document.getElementById('notes-saved');
+    s.classList.add('show');
+    clearTimeout(ta._t);
+    ta._t = setTimeout(() => s.classList.remove('show'), 1500);
+  };
+  ta.addEventListener('input', ta._onInput);
+}
+
+function updateProgressRing() {
+  const total = currentCourseTopics.reduce((acc, t) => acc + t.exercises.length, 0);
+  if (total === 0) {
+    document.getElementById('wb-ring').style.strokeDashoffset = 176;
+    document.getElementById('side-prog').textContent = `0/0`;
+    return;
+  }
+  const correct = currentCourseTopics.reduce((acc, t) => {
+    return acc + t.exercises.filter(ex => {
+      const s = progress[ex.id];
+      return s !== undefined && (s === ex.ans || s === ex.ans.toLowerCase());
+    }).length;
+  }, 0);
+
+  const pct = correct / total;
+  const dash = 176;
+  document.getElementById('wb-ring').style.strokeDashoffset = dash * (1 - pct);
+  document.getElementById('side-prog').textContent = `${correct}/${total}`;
+}
+
+init();
 </script>
 </body>
 </html>
