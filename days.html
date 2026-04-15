@@ -463,10 +463,13 @@ function renderAll() {
   c.innerHTML = lessons.map((l, i) => cardHTML(l, i, curIdx)).join('');
 }
 
-function pURL(lang, level, cat, theme) {
-  // Mapping CEFR level keys to the internal practice level keys
+function getPLevel(level) {
   const levelMap = { "A1": "starter", "A2": "elementary", "B1": "intermediate", "B2": "upper-intermediate", "C1": "advanced", "C2": "proficiency" };
-  const pLevel = levelMap[level] || level.toLowerCase();
+  return levelMap[level] || level.toLowerCase();
+}
+
+function pURL(lang, level, cat, theme) {
+  const pLevel = getPLevel(level);
   const pLang = lang.toLowerCase();
   const pCat = cat.toLowerCase();
   return `practice.html?lang=${pLang}&level=${pLevel}&cat=${pCat}&theme=${encodeURIComponent(theme || '')}`;
@@ -547,7 +550,23 @@ function cardHTML(l, i, curIdx) {
 
   // References tab
   const refData = REFS[S.lang] || [];
-  let refHTML = refData.map(grp => `
+  let refHTML = `
+    <div class="ref-sec-title">📓 Personal Learning Tools</div>
+    <div class="ref-grid-new">
+      <a class="ref-card-new" href="workbook.html" style="background:var(--amber-bg); border-color:#F7D08A;">
+        <span class="ref-icon-new">📓</span>
+        <span class="ref-name-new">Open My Workbook</span>
+        <span class="ref-desc-new">Snapshots & exercises for ${S.lang} ${S.level}</span>
+      </a>
+      <a class="ref-card-new" href="grammar-reference.html?lang=${S.lang.toLowerCase()}" style="background:var(--blue-bg); border-color:#BBCFEE;">
+        <span class="ref-icon-new">📐</span>
+        <span class="ref-name-new">Grammar Hub</span>
+        <span class="ref-desc-new">Complete tables for all verbs</span>
+      </a>
+    </div>
+  `;
+
+  refHTML += refData.map(grp => `
     <div class="ref-sec-title">${grp.group}</div>
     <div class="ref-grid-new">${grp.items.map(r => `
       <a class="ref-card-new" href="${r.url}" target="_blank">
@@ -563,7 +582,7 @@ function cardHTML(l, i, curIdx) {
     refHTML += `<div class="ref-sec-title">🎮 Recommended Games for this Lesson</div>
       <div class="ref-grid-new">
         ${recGames.map(g => `
-          <a class="ref-card-new" href="events.html?game=${g.id}&lang=${S.lang.toLowerCase()}&level=${(S.level==='A1'?'starter':S.level.toLowerCase())}&mode=solo" target="_blank">
+          <a class="ref-card-new" href="events.html?game=${g.id}&lang=${S.lang.toLowerCase()}&level=${getPLevel(S.level)}&mode=solo" target="_blank">
             <span class="ref-icon-new">${g.icon}</span>
             <span class="ref-name-new">${g.name}</span>
             <span class="ref-desc-new">${g.desc}</span>
@@ -699,8 +718,11 @@ function getRecGames(l) {
   const games = [];
   const txt = (l.title + ' ' + (l.subtitle||'') + ' ' + (l.practiceTheme||'') + ' ' + (l.desc||'') + ' ' + (l.task||'')).toLowerCase();
 
-  if (txt.includes('number') || txt.includes('count') || txt.includes('alphabet') || txt.includes('digit')) {
-    games.push({ id: 'bingo', name: 'Lucky Numbers', icon: '🔢', desc: 'Interactive Bingo for numbers & alphabet.' });
+  if (txt.includes('number') || txt.includes('count') || txt.includes('digit') || txt.includes('how many') || txt.includes('age')) {
+    games.push({ id: 'bingo', name: 'Lucky Numbers', icon: '🔢', desc: 'Interactive Bingo for numbers & quantities.' });
+  }
+  if (txt.includes('alphabet') || txt.includes('letter') || txt.includes('sound') || txt.includes('spell')) {
+    games.push({ id: 'bingo', name: 'Phonetic Bingo', icon: '🅰️', desc: 'Master the sounds of the alphabet.' });
   }
   if (txt.includes('speaking') || txt.includes('conversation') || txt.includes('fluency') || txt.includes('routine') || txt.includes('daily')) {
     games.push({ id: 'talk-talk', name: 'Fluency Flow', icon: '🗣️', desc: 'Spin for a topic and practice your flow.' });

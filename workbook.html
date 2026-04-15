@@ -132,16 +132,16 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal-lt); color: var
 /* TABLE STYLES */
 .wb-table {
   width: 100%; border-collapse: separate; border-spacing: 0;
-  margin-bottom: 1.2rem; border: 3px solid var(--black);
-  border-radius: 8px; overflow: hidden;
-  box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem; border: 3px solid var(--black);
+  border-radius: 0; overflow: hidden;
+  box-shadow: 6px 6px 0 var(--black);
 }
-.wb-table td, .wb-table th { border: 1.5px solid var(--black); padding: .65rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.5; }
-.wb-table .wt-label { background: var(--black); color: var(--white); font-size: .82rem; font-weight: 800; text-align: left; white-space: nowrap; }
+.wb-table td, .wb-table th { border: 2px solid var(--black); padding: .75rem 1rem; font-size: .95rem; font-weight: 800; vertical-align: middle; line-height: 1.4; }
+.wb-table .wt-label { background: var(--black); color: var(--white); font-size: .85rem; font-weight: 900; text-align: left; white-space: nowrap; }
 .wb-table td.wt-c  { background: var(--white); text-align: center; }
 .wb-table td.wt-l  { background: var(--white); text-align: left; }
-.wb-table .wt-sec td { background: var(--sand); color: var(--black); font-size: .78rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; text-align: left; padding: .5rem .9rem; border-bottom-width: 3px; }
-.wb-table .wt-note td { background: var(--teal-lt); font-size: .8rem; font-weight: 700; text-align: center; font-style: italic; padding: .6rem .9rem; color: var(--teal-dk); }
+.wb-table .wt-sec td { background: var(--yellow); color: var(--black); font-size: .8rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; text-align: left; padding: .6rem 1rem; border-bottom: 3px solid var(--black); }
+.wb-table .wt-note td { background: var(--teal-lt); font-size: .85rem; font-weight: 800; text-align: center; font-style: italic; padding: .7rem 1rem; color: var(--black); }
 
 .key-v { color: var(--teal-dk); font-weight: 900; }
 .key-n { color: var(--red); font-weight: 900; }
@@ -266,6 +266,7 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal-lt); color: var
 <!-- TOP BAR -->
 <div class="topbar">
   <div class="topbar-brand" onclick="showView('picker')">
+    <div style="font-size:0.7rem; opacity:0.6; margin-bottom:-4px; font-family:'Nunito'">Student Area 🔒</div>
     📖 COSYlanguages <span class="lock">Private</span>
   </div>
   <div class="topbar-nav">
@@ -401,9 +402,11 @@ function init() {
   renderPicker();
 
   // If we have a course already, we can show it directly or stay in picker
-  // For demo/flexibility, let's show picker by default if picker=true in URL
   if (S && !window.location.search.includes('picker=true')) {
     showView('workbook');
+  } else if (!S && !window.location.search.includes('picker=true')) {
+     // No course yet? Show picker
+     showView('picker');
   }
 }
 
@@ -518,6 +521,12 @@ function renderWorkbook() {
   updateProgressRing();
 }
 
+function getPracticeURL(cat, theme) {
+  const levelMap = { "A1": "starter", "A2": "elementary", "B1": "intermediate", "B2": "upper-intermediate", "C1": "advanced", "C2": "proficiency" };
+  const pLevel = levelMap[S.level] || S.level.toLowerCase();
+  return `practice.html?lang=${S.lang.toLowerCase()}&level=${pLevel}&cat=${cat.toLowerCase()}&theme=${encodeURIComponent(theme || '')}`;
+}
+
 function renderGrammar() {
   const body = document.getElementById('panel-grammar-body');
   let html = '';
@@ -544,7 +553,7 @@ function renderGrammar() {
           </table>
           <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
             <a class="ref-btn" style="background:var(--black); color:var(--yellow); border:none;"
-               href="practice.html?lang=${S.lang.toLowerCase()}&level=starter&cat=grammar&theme=${encodeURIComponent(topic.verbKey)}" target="_blank">
+               href="${getPracticeURL('Grammar', topic.verbKey)}" target="_blank">
                💡 Practice this verb →
             </a>
             <a class="ref-btn" style="background:rgba(0,0,0,0.05); color:var(--black); border:1.5px solid var(--black);"
@@ -563,7 +572,7 @@ function renderGrammar() {
           <div class="ex-label">${block.title}</div>
           ${block.html}
           <a class="ref-btn" style="background:var(--black); color:var(--white); border:none; margin-top:0.5rem;"
-             href="practice.html?lang=${S.lang.toLowerCase()}&level=starter&cat=grammar&theme=${encodeURIComponent(topic.title)}" target="_blank">
+             href="${getPracticeURL('Grammar', topic.title)}" target="_blank">
              🎯 Quick Practice →
           </a>
         </div>`;
@@ -633,7 +642,7 @@ function renderExercises() {
 
     html += `<div style="margin-bottom:3rem; text-align:center;">
       <a class="ref-btn" style="background:var(--teal-dk); color:white; border:none; padding: 0.6rem 1.5rem;"
-         href="practice.html?lang=${S.lang.toLowerCase()}&level=starter&cat=vocab&theme=${encodeURIComponent(topic.title)}" target="_blank">
+         href="${getPracticeURL('Vocab', topic.title)}" target="_blank">
          🚀 Need more? Try Vocab Practice →
       </a>
     </div>`;
