@@ -305,6 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         playGameSound('click');
                         if (!hasWonCurrentCard && checkWin(playerGrid, cols, rows)) {
                             hasWonCurrentCard = true;
+                            if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(20);
                             // Improvements: celebrate
                             if (true) {
                                 celebrateBingo();

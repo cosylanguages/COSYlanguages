@@ -148,6 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (opt === current.word) {
                             feedback.textContent = t('correct');
                             feedback.style.color = 'var(--primary-color)';
+                            if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
                             speak(opt, lang);
 
                             // Improvements: WordLinkerGame.buildExplanation
@@ -200,6 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (opt === current.word) {
                             feedback.textContent = t('correct');
                             feedback.style.color = 'var(--primary-color)';
+                            if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
                             speak(opt, lang);
 
                             // Improvements: WordLinkerGame.buildExplanation

@@ -112,6 +112,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const levelSelect = document.getElementById('charades-level');
         const langSelect = document.getElementById('charades-lang');
 
+        // Solo vs Robot elements
+        const soloToggle = document.getElementById('charades-solo-mode');
+        const robotGuessArea = document.getElementById('charades-robot-guess-area');
+        const playerInput = document.getElementById('charades-player-input');
+        const submitGuessBtn = document.getElementById('charades-submit-guess-btn');
+
         const populateThemesLocal = () => {
             if (!themeSelect || !levelSelect || !langSelect) return;
             populateThemes(themeSelect, levelSelect, langSelect.value);
@@ -134,10 +140,55 @@ document.addEventListener('DOMContentLoaded', () => {
             playGameSound('click');
             currentItem = pool.pop();
 
+            const isSolo = soloToggle ? soloToggle.checked : false;
+
             // Improvements: ActionHeroGame.buildWordDisplay
             const currentLevel = levelSelect.value;
             const vocabPool = window.gameUtils.getVocabPool(langSelect.value, currentLevel, themeSelect.value);
-            document.getElementById('ah-word-display').innerHTML = ActionHeroGame.buildWordDisplay(currentItem, vocabPool, currentLevel);
+
+            if (isSolo) {
+                // Robot Mode: Hide the word, show definition/emoji, reveal input
+                const displayHtml = `
+                    <div style="text-align:center;padding:12px;">
+                        <div style="font-size:5rem;line-height:1.1;margin-bottom:8px">${currentItem.emoji || '❓'}</div>
+                        <div style="background:rgba(107,143,113,0.1); padding:1rem; border-radius:12px; margin-bottom:1rem; font-size:.9rem; color:var(--sage-deep); font-weight:700;">
+                            "${currentItem.definitions?.[0]?.text || 'No definition available'}"
+                        </div>
+                    </div>
+                `;
+                document.getElementById('ah-word-display').innerHTML = displayHtml;
+                if (robotGuessArea) robotGuessArea.style.display = 'block';
+                if (correctBtn) correctBtn.style.display = 'none';
+                if (incorrectBtn) incorrectBtn.style.display = 'none';
+                if (playerInput) {
+                    playerInput.value = '';
+                    playerInput.focus();
+                }
+            } else {
+                document.getElementById('ah-word-display').innerHTML = ActionHeroGame.buildWordDisplay(currentItem, vocabPool, currentLevel);
+                if (robotGuessArea) robotGuessArea.style.display = 'none';
+                if (correctBtn) correctBtn.style.display = 'inline-block';
+                if (incorrectBtn) incorrectBtn.style.display = 'inline-block';
+            }
+        };
+
+        const checkGuess = () => {
+            if (!currentItem) return;
+            const guess = playerInput.value.trim().toLowerCase();
+            const target = currentItem.word.toLowerCase();
+
+            if (guess === target) {
+                score++;
+                if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(5);
+                playGameSound('success');
+                ActionHeroGame.record(currentItem, true);
+                showNext();
+            } else {
+                playGameSound('error');
+                // Maybe shake input or show error
+                playerInput.style.borderColor = '#f44336';
+                setTimeout(() => playerInput.style.borderColor = '', 500);
+            }
         };
 
         const endGame = () => {
@@ -236,6 +287,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Improvements: record answer
             if (currentItem) ActionHeroGame.record(currentItem, false);
             showNext();
+        });
+        submitGuessBtn?.addEventListener('click', checkGuess);
+        playerInput?.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') checkGuess();
         });
         stopBtn?.addEventListener('click', endGame);
 

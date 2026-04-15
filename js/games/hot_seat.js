@@ -93,7 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     window.hotSeatAnswer = function(correct) {
-      if (correct) { HotSeatGame.score++; if (window.gameUtils?.playGameSound) window.gameUtils.playGameSound('success'); }
+      if (correct) {
+          HotSeatGame.score++;
+          if (window.gameUtils?.playGameSound) window.gameUtils.playGameSound('success');
+          if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
+      }
       else { if (window.gameUtils?.playGameSound) window.gameUtils.playGameSound('error'); }
       HotSeatGame.currentQ++;
       const area = document.getElementById('hot-seat-area');

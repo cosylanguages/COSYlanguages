@@ -1,47 +1,26 @@
 const OpinionArenaGame = {
-  PHRASES: {
-    en: {
-      agree:    ["I completely agree...", "That's a good point because...", "I think so too, especially...", "Absolutely, and I'd add that..."],
-      disagree: ["I'm not sure I agree...", "On the other hand...", "I see it differently...", "That may be true, but..."],
-      neutral:  ["It depends on...", "To some extent...", "There are two sides to this...", "I can see both perspectives..."],
-    },
-    fr: {
-      agree:    ["Je suis tout à fait d'accord...", "C'est un bon point parce que...", "Moi aussi, surtout...", "Absolument, et j'ajouterais que..."],
-      disagree: ["Je ne suis pas sûr(e) d'être d'accord...", "D'un autre côté...", "Je vois les choses différemment...", "C'est peut-être vrai, mais..."],
-      neutral:  ["Ça dépend de...", "Dans une certaine mesure...", "Il y a deux aspects...", "Je comprends les deux perspectives..."],
-    },
-    it: {
-      agree:    ["Sono completamente d'accordo...", "È un buon punto perché...", "Anch'io, soprattutto...", "Assolutamente, e aggiungerei che..."],
-      disagree: ["Non sono sicuro/a di essere d'accordo...", "D'altra parte...", "La vedo diversamente...", "Può essere vero, ma..."],
-      neutral:  ["Dipende da...", "In una certa misura...", "Ci sono due aspetti...", "Capisco entrambe le prospettive..."],
-    },
-    ru: {
-      agree:    ["Я полностью согласен/согласна...", "Это хорошая мысль, потому что...", "Я тоже так думаю, особенно...", "Абсолютно, и я бы добавил(а)..."],
-      disagree: ["Я не уверен(а), что согласен(а)...", "С другой стороны...", "Я вижу это иначе...", "Возможно, это и так, но..."],
-      neutral:  ["Это зависит от...", "В определённой степени...", "Есть две стороны...", "Я понимаю обе точки зрения..."],
-    },
-    el: {
-      agree:    ["Συμφωνώ απόλυτα...", "Είναι ένα καλό σημείο γιατί...", "Το ίδιο πιστεύω κι εγώ, ειδικά...", "Απολύτως, και θα πρόσθετα ότι..."],
-      disagree: ["Δεν είμαι σίγουρος ότι συμφωνώ...", "Από την άλλη πλευρά...", "Το βλέπω διαφορετικά...", "Αυτό μπορεί να είναι αλήθεια, αλλά..."],
-      neutral:  ["Εξαρτάται από...", "Σε κάποιο βαθμό...", "Υπάρχουν δύο πλευρές σε αυτό...", "Μπορώ να δω και τις δύο προοπτικές..."],
-    }
-  },
-
   buildVocabSupport(lang) {
-    const phrases = this.PHRASES[lang] || this.PHRASES["en"];
-    const rand = arr => arr[Math.floor(Math.random() * arr.length)];
+    const t = window.gameUtils.t;
+    const phrases = {
+      agree: t('oa_phrases_agree') || [],
+      disagree: t('oa_phrases_disagree') || [],
+      neutral: t('oa_phrases_neutral') || []
+    };
+    const rand = arr => arr && arr.length > 0 ? arr[Math.floor(Math.random() * arr.length)] : "...";
+
     return `
       <div style="font-family:'Nunito',sans-serif;margin-top:12px;
         background:#f0f5f1;border-radius:12px;padding:12px 14px;">
         <div style="font-size:.68rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
-          color:#6b8f71;margin-bottom:8px">💬 Useful phrases</div>
+          color:#6b8f71;margin-bottom:8px" data-translate-key="oa_useful_phrases">${t('oa_useful_phrases')}</div>
         <div style="display:grid;gap:6px;">
           ${["agree","disagree","neutral"].map(type => `
             <div style="background:#fff;border-radius:8px;padding:8px 10px;
               border-left:3px solid ${type==="agree"?"#1a6b45":type==="disagree"?"#a32d2d":"#e8a838"}">
               <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;color:${
-                type==="agree"?"#1a6b45":type==="disagree"?"#a32d2d":"#a06b10"};margin-bottom:3px">
-                ${type==="agree"?"To agree":"To disagree or nuance"}${type==="neutral"?"":""}
+                type==="agree"?"#1a6b45":type==="disagree"?"#a32d2d":"#a06b10"};margin-bottom:3px"
+                data-translate-key="${type === 'agree' ? 'oa_to_agree' : 'oa_to_disagree'}">
+                ${type === 'agree' ? t('oa_to_agree') : t('oa_to_disagree')}
               </div>
               <div style="font-size:.82rem;color:#2e4a33;font-weight:700">
                 "${rand(phrases[type])}"
@@ -54,22 +33,25 @@ const OpinionArenaGame = {
   },
 
   buildGroupReveal() {
+    const t = window.gameUtils.t;
     return `
       <div style="font-family:'Nunito',sans-serif;text-align:center;padding:12px;">
         <div style="font-size:.75rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
-          color:#6b8f71;margin-bottom:10px">What do you think?</div>
+          color:#6b8f71;margin-bottom:10px" data-translate-key="oa_what_think">${t('oa_what_think')}</div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
           <button id="oa-agree" onclick="oaVote('agree')" style="
             height:64px;border-radius:12px;background:#e5f4ec;
             border:2px solid #1a6b45;color:#1a6b45;
-            font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
-            👍 Agree
+            font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer"
+            data-translate-key="oa_agree_btn">
+            ${t('oa_agree_btn')}
           </button>
           <button id="oa-disagree" onclick="oaVote('disagree')" style="
             height:64px;border-radius:12px;background:#fcebeb;
             border:2px solid #a32d2d;color:#a32d2d;
-            font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
-            👎 Disagree
+            font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer"
+            data-translate-key="oa_disagree_btn">
+            ${t('oa_disagree_btn')}
           </button>
         </div>
       </div>
@@ -87,19 +69,31 @@ window.oaVote = (type) => {
 
 window.OpinionArenaGame = OpinionArenaGame;
 
+const CriticsCornerGame = {
+  getAnalysis(lang) {
+    const t = window.gameUtils.t;
+    const pool = t('cc_analysis_pool') || [];
+    return pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : "...";
+  }
+};
+window.CriticsCornerGame = CriticsCornerGame;
+
 const FluentyFlowGame = {
   getPrompts(topic, level) {
-    const starterPrompts = {
-      starter:    ["What is it?", "Do you like it?", "Where is it?"],
-      elementary: ["Describe it.", "Do you have experience with it?", "Is it important?"],
-      intermediate: ["What are the pros and cons?", "How does it affect daily life?", "Give an example."],
-      "upper-intermediate": ["What are the societal implications?", "How has it changed over time?", "What is your personal experience?"],
-      advanced: ["Analyse critically.", "What are the ethical dimensions?", "Compare different perspectives."],
+    const t = window.gameUtils.t;
+    const promptsMap = {
+      starter: t('ff_prompts_starter'),
+      elementary: t('ff_prompts_elementary'),
+      intermediate: t('ff_prompts_intermediate'),
+      "upper-intermediate": t('ff_prompts_upper_intermediate'),
+      advanced: t('ff_prompts_advanced')
     };
-    return starterPrompts[level] || starterPrompts["intermediate"];
+    return promptsMap[level] || promptsMap["intermediate"] || [];
   },
 
   buildSelfAssessment(topic) {
+    const t = window.gameUtils.t;
+    const topicText = topic.topic || topic;
     return `
       <div id="fluency-assessment" style="
         font-family:'Nunito',sans-serif;padding:16px;text-align:center;
@@ -107,13 +101,13 @@ const FluentyFlowGame = {
         margin-top:12px;
       ">
         <div style="font-size:.75rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
-          color:#6b8f71;margin-bottom:8px">How did you do on "${topic.topic || topic}"?</div>
+          color:#6b8f71;margin-bottom:8px">${t('ff_how_did_you_do').replace('{0}', topicText)}</div>
         <div style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;">
           ${[
-            { emoji: '😬', label: 'Struggled', score: 1 },
-            { emoji: '🙂', label: 'OK',       score: 3 },
-            { emoji: '😊', label: 'Good',     score: 4 },
-            { emoji: '🔥', label: 'Nailed it',score: 5 },
+            { emoji: '😬', label: t('ff_struggled'), score: 1, key: 'ff_struggled' },
+            { emoji: '🙂', label: t('ff_ok'),        score: 3, key: 'ff_ok' },
+            { emoji: '😊', label: t('ff_good'),      score: 4, key: 'ff_good' },
+            { emoji: '🔥', label: t('ff_nailed_it'), score: 5, key: 'ff_nailed_it' },
           ].map(opt => `
             <button onclick="fluencyAssess(${opt.score})" style="
               display:flex;flex-direction:column;align-items:center;gap:4px;
@@ -122,7 +116,7 @@ const FluentyFlowGame = {
               transition:all .15s;min-width:64px;
             ">
               <span style="font-size:1.6rem">${opt.emoji}</span>
-              <span style="font-size:.72rem;font-weight:800;color:#6b6b6b">${opt.label}</span>
+              <span style="font-size:.72rem;font-weight:800;color:#6b6b6b" data-translate-key="${opt.key}">${opt.label}</span>
             </button>`
           ).join("")}
         </div>
@@ -133,10 +127,11 @@ const FluentyFlowGame = {
 };
 
 window.fluencyAssess = function(score) {
+  const t = window.gameUtils.t;
   const msg = document.getElementById("fluency-assess-msg");
-  if (msg) msg.textContent = score >= 4 ? 'Great! That topic will appear less often.' :
-    score <= 2 ? 'Got it — you\'ll see similar topics again soon.' :
-    'Saved. Keep practising!';
+  if (msg) msg.textContent = score >= 4 ? t('ff_msg_good') :
+    score <= 2 ? t('ff_msg_struggled') :
+    t('ff_msg_ok');
   document.querySelectorAll("#fluency-assessment button").forEach(b => {
     b.style.opacity = ".5"; b.style.pointerEvents = "none";
   });
@@ -158,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const nextBtn = document.getElementById('next-debate-btn');
         const levelSelect = document.getElementById('debates-level');
         const langSelect = document.getElementById('debates-lang');
+        const soloToggle = document.getElementById('debates-solo-mode');
 
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
@@ -179,7 +175,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const debate = pool.pop();
             topicDisplay.textContent = debate.topic;
             sideAName.textContent = debate.sideA;
-            sideBName.textContent = debate.sideB;
+
+            const isSolo = soloToggle ? soloToggle.checked : false;
+            sideBName.textContent = isSolo ? `🤖 ${debate.sideB} (Robot)` : debate.sideB;
 
             stopTimer();
             const duration = parseInt(document.getElementById('debates-timer-duration')?.value || '120');
@@ -259,7 +257,10 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         startBtn?.addEventListener('click', startGame);
-        nextBtn?.addEventListener('click', showNext);
+        nextBtn?.addEventListener('click', () => {
+            if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(5);
+            showNext();
+        });
 
         handleShare('share-debates-btn', {
             game: 'battle_of_wits',
@@ -279,6 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.getElementById('close-opinion-btn');
         const startBtn = document.getElementById('start-opinion-btn');
         const nextBtn = document.getElementById('next-opinion-btn');
+        const soloToggle = document.getElementById('opinion-arena-solo-mode');
 
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
@@ -305,11 +307,21 @@ document.addEventListener('DOMContentLoaded', () => {
             stopTimer();
             const duration = parseInt(document.getElementById('opinion-timer-duration')?.value || '120');
             const lang = document.getElementById('opinion-lang').value;
+            const isSolo = soloToggle ? soloToggle.checked : false;
+
             startTimer('opinion-timer', duration, () => {
                 statementDisplay.textContent += ` (${t('time_up')})`;
                 // Improvements: buildVocabSupport
                 if (true) {
                     document.getElementById('oa-vocab-support').innerHTML = OpinionArenaGame.buildVocabSupport(lang);
+                }
+
+                if (isSolo) {
+                    const robotOpinion = Math.random() > 0.5 ? "agree" : "disagree";
+                    setTimeout(() => {
+                        oaVote(robotOpinion);
+                        showGameMessage(gameArea, robotOpinion === "agree" ? t('oa_robot_agree') : t('oa_robot_disagree'));
+                    }, 1000);
                 }
             });
         };
@@ -358,7 +370,10 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         startBtn?.addEventListener('click', startGame);
-        nextBtn?.addEventListener('click', showNext);
+        nextBtn?.addEventListener('click', () => {
+            if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(5);
+            showNext();
+        });
 
         handleShare('share-opinion-btn', {
             game: 'opinion_arena',
@@ -378,6 +393,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.getElementById('close-critics-btn');
         const startBtn = document.getElementById('start-critics-btn');
         const nextBtn = document.getElementById('next-critics-btn');
+        const soloToggle = document.getElementById('critics-corner-solo-mode');
 
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
@@ -399,8 +415,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
             stopTimer();
             const duration = parseInt(document.getElementById('critics-timer-duration')?.value || '120');
+            const lang = document.getElementById('critics-lang').value;
+            const isSolo = soloToggle ? soloToggle.checked : false;
+
             startTimer('critics-timer', duration, () => {
                 quoteDisplay.textContent += ` (${t('time_up')})`;
+                if (isSolo) {
+                    setTimeout(() => {
+                        const analysis = CriticsCornerGame.getAnalysis(lang);
+                        showGameMessage(gameArea, t('cc_robot_feedback').replace('{0}', analysis));
+                    }, 1500);
+                }
             });
         };
 
@@ -448,7 +473,10 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         startBtn?.addEventListener('click', startGame);
-        nextBtn?.addEventListener('click', showNext);
+        nextBtn?.addEventListener('click', () => {
+            if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(5);
+            showNext();
+        });
 
         handleShare('share-critics-btn', {
             game: 'critics_corner',
@@ -468,6 +496,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.getElementById('close-talk-btn');
         const startBtn = document.getElementById('start-talk-btn');
         const nextBtn = document.getElementById('next-talk-btn');
+        const soloToggle = document.getElementById('talk-talk-solo-mode');
 
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
@@ -503,11 +532,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             stopTimer();
             const duration = parseInt(document.getElementById('talk-timer-duration')?.value || '180');
+            const isSolo = soloToggle ? soloToggle.checked : false;
+
             startTimer('talk-timer', duration, () => {
                 topicDisplay.textContent += ` (${t('time_up')})`;
                 // Improvements: buildSelfAssessment
                 if (true) {
                     document.getElementById('ff-assessment-area').innerHTML = FluentyFlowGame.buildSelfAssessment(item);
+                }
+                if (isSolo) {
+                    setTimeout(() => {
+                        showGameMessage(gameArea, t('ff_robot_feedback'));
+                    }, 2000);
                 }
             });
         };
@@ -556,7 +592,10 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         startBtn?.addEventListener('click', startGame);
-        nextBtn?.addEventListener('click', showNext);
+        nextBtn?.addEventListener('click', () => {
+            if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(5);
+            showNext();
+        });
 
         handleShare('share-talk-talk-btn', {
             game: 'fluency_flow',

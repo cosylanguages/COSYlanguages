@@ -419,6 +419,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const { allCorrect, percent } = CrosswordGame.check();
             if (allCorrect) {
                 playGameSound('success');
+                if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(20);
                 gameArea.style.display = 'none';
                 resultArea.style.display = 'flex';
                 document.getElementById('crossword-score-msg').textContent = t('cw_success');
