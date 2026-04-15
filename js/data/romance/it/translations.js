@@ -24,6 +24,7 @@
             alert_no_quest_items: "La ricerca finisce qui! Nessun elemento trovato.",
             alert_no_task_type: "Seleziona almeno un tipo di attività!",
             alert_no_tasks_generated: "Impossibile generare attività per questi elementi. Prova ad abilitare più tipi di attività!",
+            review_ref: "Consulta il Riferimento 📚",
             alert_no_vocab_level: "Nessun vocabolo trovato per questo livello/lingua!",
             argos: "Argos",
             argos_desc: "Rivenditore a catalogo di elettronica e articoli per la casa.",

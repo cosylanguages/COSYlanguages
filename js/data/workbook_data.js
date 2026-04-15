@@ -74,6 +74,17 @@ const WORKBOOK_TOPICS = [
           <tr><td class="wt-label">â / ê / î / ô / û</td><td class="wt-c">circonflexe</td><td class="wt-l">hôtel</td></tr>
           <tr><td class="wt-label">ç</td><td class="wt-c">cédille</td><td class="wt-l">français</td></tr>
         </table>`
+      },
+      {
+        title: 'Les Nombres 1-10',
+        html: `
+        <table class="wb-table">
+          <tr class="wt-sec"><td colspan="2">🔢 Numbers 1-10</td></tr>
+          <tr><td class="wt-label">1-3</td><td class="wt-l">un, deux, trois</td></tr>
+          <tr><td class="wt-label">4-6</td><td class="wt-l">quatre, cinq, six</td></tr>
+          <tr><td class="wt-label">7-10</td><td class="wt-l">sept, huit, neuf, dix</td></tr>
+          <tr class="wt-note"><td colspan="2">💡 Watch the pronunciation of "six" and "dix"!</td></tr>
+        </table>`
       }
     ],
     exercises: [
@@ -213,21 +224,34 @@ const WORKBOOK_TOPICS = [
 
   // ─── PORTUGUESE A1 ───
   {
-    id: 'pt-a1-intro', lang: 'pt', flag: '🇵🇹', level: 'a1', title: 'Saudações',
-    desc: 'Greetings & introductions',
+    id: 'pt-a1-intro', lang: 'pt', flag: '🇵🇹', level: 'a1', title: 'Saudações e Alfabeto',
+    desc: 'Greetings & foundational sounds',
     img: 'images/cosyportugese.png',
     grammarBlocks: [
       {
         title: 'Basic greetings',
         html: `
         <table class="wb-table">
+          <tr class="wt-sec"><td colspan="2">🇵🇹 Saudações</td></tr>
           <tr><td class="wt-label">Olá / Bom dia</td><td class="wt-l"><span class="key-v">Olá!</span> · <span class="key-v">Bom dia</span></td></tr>
           <tr><td class="wt-label">Chamo-me…</td><td class="wt-l"><span class="key-v">Chamo-me</span> Ana.</td></tr>
+        </table>`
+      },
+      {
+        title: 'Alfabeto e Sons',
+        html: `
+        <table class="wb-table">
+          <tr class="wt-sec"><td colspan="2">🔡 Tricky Sounds</td></tr>
+          <tr><td class="wt-label">LH</td><td class="wt-l">Like "mi<span class="key-v">lli</span>on" (filho)</td></tr>
+          <tr><td class="wt-label">NH</td><td class="wt-l">Like "opi<span class="key-v">ni</span>on" (manhã)</td></tr>
+          <tr><td class="wt-label">Ç</td><td class="wt-l">Soft "s" sound (coração)</td></tr>
+          <tr><td class="wt-label">~ (til)</td><td class="wt-l">Nasal sound (pão)</td></tr>
         </table>`
       }
     ],
     exercises: [
-      { id: 'pt-a1-0-1', q: 'How do you say "Hello" in Portuguese?', type: 'fill', ans: 'Olá', fb: '✅ Olá!' }
+      { id: 'pt-a1-0-1', q: 'How do you say "Hello" in Portuguese?', type: 'fill', ans: 'Olá', fb: '✅ Olá!' },
+      { id: 'pt-a1-0-2', q: 'Which sound is like the "lli" in million?', type: 'mcq', opts: ['LH', 'NH', 'RR'], ans: 'LH', fb: '✅ LH = /ʎ/' }
     ]
   }
 ];
