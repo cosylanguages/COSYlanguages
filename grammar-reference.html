@@ -11,6 +11,10 @@
     <script src="js/data/romance/it/starter/grammar.js"></script>
     <script src="js/data/slavic/ru/starter/grammar.js"></script>
     <script src="js/data/hellenic/el/starter/grammar.js"></script>
+    <script src="js/data/romance/es/starter/grammar.js"></script>
+    <script src="js/data/germanic/de/starter/grammar.js"></script>
+    <script src="js/data/romance/pt/starter/grammar.js"></script>
+    <script src="js/data/curriculum_data.js"></script>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <style>
@@ -275,13 +279,16 @@ body {
 <!-- PAGE HEADER -->
 <div class="page-header">
   <div>
-    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <div class="breadcrumb">Student Area 🔐</div>
     <h1>Grammar Reference 📐</h1>
   </div>
-  <div class="lang-tabs">
+  <div class="lang-tabs" id="ref-lang-tabs">
     <button class="lang-tab active" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
     <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
     <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
+    <button class="lang-tab" data-lang="es" onclick="setLang('es')">🇪🇸 ES</button>
+    <button class="lang-tab" data-lang="de" onclick="setLang('de')">🇩🇪 DE</button>
+    <button class="lang-tab" data-lang="pt" onclick="setLang('pt')">🇵🇹 PT</button>
     <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
     <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
   </div>
@@ -302,12 +309,39 @@ body {
 
 <script>
 let currentObserver = null;
-const LANG_NAMES = { en: "English", fr: "Français", it: "Italiano", ru: "Русский", el: "Ελληνικά" };
+const LANG_NAMES = {
+  en: "English",
+  fr: "Français",
+  it: "Italiano",
+  es: "Español",
+  de: "Deutsch",
+  pt: "Português",
+  ru: "Русский",
+  el: "Ελληνικά"
+};
 
 function setLang(lang) {
   const verbs = window.grammarData?.[lang] || [];
   if (!verbs.length) {
     console.warn("No grammar data found for lang:", lang);
+  }
+
+  // Exclusivity: Get student's current level if applicable
+  let restrictedLevel = null;
+  const code = localStorage.getItem('student_course_code');
+  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
+    restrictedLevel = COURSES[code].level.toLowerCase();
+    if (restrictedLevel === 'a1') restrictedLevel = 'starter';
+    if (restrictedLevel === 'a2') restrictedLevel = 'elementary';
+    if (restrictedLevel === 'b1') restrictedLevel = 'intermediate';
+    if (restrictedLevel === 'b2') restrictedLevel = 'upper-intermediate';
+    if (restrictedLevel === 'c1') restrictedLevel = 'advanced';
+    if (restrictedLevel === 'c2') restrictedLevel = 'proficiency';
+  }
+
+  if (restrictedLevel) {
+    const tabs = document.getElementById('ref-lang-tabs');
+    if (tabs) tabs.style.display = 'none';
   }
 
   // Update tabs
@@ -319,6 +353,7 @@ function setLang(lang) {
   const levels = {};
   verbs.forEach(v => {
     const lv = v.level || "starter";
+    if (restrictedLevel && lv !== restrictedLevel) return;
     if (!levels[lv]) levels[lv] = [];
     levels[lv].push(v);
   });
@@ -402,7 +437,9 @@ function initScrollSpy() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  setLang('en');
+  const urlParams = new URLSearchParams(window.location.search);
+  const lang = urlParams.get('lang') || 'en';
+  setLang(lang);
 });
 </script>
 </body>

@@ -13,10 +13,10 @@
 
 <div class="grammar-header-new">
   <div>
-    <div class="breadcrumb">My Lessons 🔐 → Grammar Reference</div>
+    <div class="breadcrumb">Student Area 🔐</div>
     <h1>Ελληνική Γραμματική 🇬🇷</h1>
   </div>
-  <div class="lang-tabs">
+  <div class="lang-tabs" id="roadmap-lang-tabs">
     <a href="en.html" class="lang-tab">🇬🇧 EN</a>
     <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
     <a href="it.html" class="lang-tab">🇮🇹 IT</a>
@@ -36,7 +36,7 @@
   <a class="gs-item" href="#articles">Articles</a>
 
   <div class="gs-label">Πλοήγηση</div>
-  <a class="gs-item" href="../grammar.html">← Όλα τα προγράμματα</a>
+  <a class="gs-item" id="all-roadmaps-link" href="../grammar.html">← Όλα τα προγράμματα</a>
 </nav>
 
 <main class="grammar-main">
@@ -93,5 +93,40 @@ const observer = new IntersectionObserver(entries => {
 sections.forEach(s => observer.observe(s));
 </script>
 
+<script src="../js/data/curriculum_data.js"></script>
+<script>
+(function() {
+  const code = localStorage.getItem("student_course_code");
+  if (code && typeof COURSES !== "undefined" && COURSES[code]) {
+    const restrictedLevel = COURSES[code].level.toUpperCase();
+    const lt = document.getElementById("roadmap-lang-tabs");
+    if (lt) lt.style.display = "none";
+    const arl = document.getElementById("all-roadmaps-link");
+    if (arl) arl.style.display = "none";
+    const nl = document.getElementById("nav-label");
+    if (nl) nl.style.display = "none";
+
+    document.querySelectorAll(".level-section").forEach(sec => {
+      const badge = sec.querySelector(".level-badge");
+      if (badge && !badge.textContent.includes(restrictedLevel)) {
+        sec.style.display = "none";
+        const id = sec.id;
+        document.querySelectorAll(`.gs-item[href="#${id}"]`).forEach(item => item.style.display = "none");
+      }
+    });
+    document.querySelectorAll(".grammar-sidebar").forEach(sb => {
+        sb.querySelectorAll(".gs-label").forEach(label => {
+            let next = label.nextElementSibling;
+            let hasVisible = false;
+            while(next && next.classList.contains("gs-item")) {
+                if (next.style.display !== "none") { hasVisible = true; break; }
+                next = next.nextElementSibling;
+            }
+            if (!hasVisible) label.style.display = "none";
+        });
+    });
+  }
+})();
+</script>
 </body>
 </html>

@@ -25,7 +25,7 @@ test.describe('Grammar Roadmap Navigation', () => {
     test('Navigating to specific lesson', async ({ page }) => {
         await page.evaluate(() => {
             localStorage.setItem('student_unlocked', 'true');
-            localStorage.setItem('student_course_code', 'COSY-IT-B2-SPK');
+            localStorage.setItem('student_course_code', 'COSY-IT-A1-GEN');
         });
         await page.goto('http://localhost:8080/grammar/it.html');
 
