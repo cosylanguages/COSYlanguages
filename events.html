@@ -859,6 +859,12 @@ footer {
                                 <option value="120" data-translate-key="timer_120s">120s</option>
                             </select>
                         </div>
+                        <div class="setup-group" style="flex: 1; text-align: left; display: flex; align-items: flex-end; padding-bottom: 5px;">
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="charades-solo-mode" class="solo-mode-check">
+                                <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                            </label>
+                        </div>
                     </div>
 
                     <button id="start-charades-game-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
@@ -873,6 +879,12 @@ footer {
                             <div id="charades-word" class="ah-word" data-translate-key="placeholder_loading">Loading...</div>
                         </div>
                     </div>
+
+                    <div id="charades-robot-guess-area" style="display: none; margin-bottom: 1.5rem;">
+                        <input type="text" id="charades-player-input" class="pill-input" placeholder="Type the word..." style="width: 100%; text-align: center; font-size: 1.2rem; border: 2px solid var(--sage-pale); margin-bottom: 10px;">
+                        <button id="charades-submit-guess-btn" class="cta-button primary" style="width: 100%;">Guess! 🎯</button>
+                    </div>
+
                     <div class="ah-buttons" style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
                         <button id="charades-correct-btn" class="cta-button ah-btn-correct" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
                         <button id="charades-incorrect-btn" class="cta-button ah-btn-incorrect" style="background: #f44336;" data-translate-key="incorrect_btn">Incorrect ❌</button>
@@ -944,13 +956,19 @@ footer {
                             </select>
                         </div>
                     </div>
+                    <div class="setup-group" style="margin-bottom: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="guess-who-solo-mode" class="solo-mode-check">
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                        </label>
+                    </div>
                     <button id="start-guess-who-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-guess-who-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
                 <div class="game-play" style="display: none;">
                     <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
-                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
-                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
+                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--sage-dark);">...</div>
+                        <div class="hint-display" style="margin-top: 1rem; color: var(--sage-deep); font-weight: 700; min-height: 1.5rem;"></div>
                         <div style="margin-top: 1.5rem; text-align: left;">
                             <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
                             <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
@@ -1017,6 +1035,12 @@ footer {
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
+                    </div>
+                    <div class="setup-group" style="margin-bottom: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="guess-what-solo-mode" class="solo-mode-check">
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                        </label>
                     </div>
                     <button id="start-guess-what-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-guess-what-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
@@ -1093,8 +1117,8 @@ footer {
                     </div>
                     <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                         <label class="toggle-chip">
-                            <input type="checkbox" id="bingo-solo-mode">
-                            <span data-translate-key="solo_mode">Solo Mode 👤</span>
+                            <input type="checkbox" id="bingo-solo-mode" class="solo-mode-check">
+                            <span data-translate-key="solo_mode">Solo Mode (Auto-Caller) 👤</span>
                         </label>
                     </div>
                     <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
@@ -1200,7 +1224,13 @@ footer {
                             </select>
                         </div>
                     </div>
-                    <button id="start-debates-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="debates-solo-mode" class="solo-mode-check" checked>
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                        </label>
+                    </div>
+                    <button id="start-debates-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-debates-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
@@ -1293,7 +1323,13 @@ footer {
                             </select>
                         </div>
                     </div>
-                    <button id="start-talk-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="talk-talk-solo-mode" class="solo-mode-check" checked>
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                        </label>
+                    </div>
+                    <button id="start-talk-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
                     <button id="share-talk-talk-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
@@ -1372,7 +1408,13 @@ footer {
                             </select>
                         </div>
                     </div>
-                    <button id="start-opinion-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="opinion-arena-solo-mode" class="solo-mode-check" checked>
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                        </label>
+                    </div>
+                    <button id="start-opinion-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-opinion-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
@@ -1452,7 +1494,13 @@ footer {
                             </select>
                         </div>
                     </div>
-                    <button id="start-critics-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="critics-corner-solo-mode" class="solo-mode-check" checked>
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
+                        </label>
+                    </div>
+                    <button id="start-critics-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
                     <button id="share-critics-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
@@ -1532,6 +1580,12 @@ footer {
                         <option value="all" data-translate-key="theme_all">All Themes</option>
                     </select>
                 </div>
+            </div>
+            <div class="setup-group" style="margin-top: 1rem;">
+                <label class="toggle-chip">
+                    <input type="checkbox" id="emoji-solo-mode" class="solo-mode-check" checked>
+                    <span>Solo Mode (vs Robot) 👤</span>
+                </label>
             </div>
             <button id="start-emoji-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
         </div>
@@ -1700,8 +1754,8 @@ footer {
                     </div>
                     <div class="setup-group" style="margin-top: 1rem;">
                         <label class="toggle-chip">
-                            <input type="checkbox" id="last-letter-solo-mode" checked>
-                            <span data-translate-key="solo_mode">Solo Mode (vs Computer) 👤</span>
+                            <input type="checkbox" id="last-letter-solo-mode" class="solo-mode-check" checked>
+                            <span data-translate-key="solo_mode">Solo Mode (vs Robot) 👤</span>
                         </label>
                     </div>
                     <button id="start-last-letter-game-btn" class="cta-button primary" style="margin-top: 1.5rem; width: 100%;" data-translate-key="start_game">Start Game 🚀</button>
@@ -1845,6 +1899,12 @@ footer {
                 </select>
             </div>
         </div>
+        <div class="setup-group" style="margin-bottom: 1rem;">
+            <label class="toggle-chip">
+                <input type="checkbox" id="story-chain-solo-mode" class="solo-mode-check" checked>
+                <span>Solo Mode (vs Robot) 👤</span>
+            </label>
+        </div>
         <button id="start-story-chain-game-btn" onclick="storyChainStart()" class="cta-button primary">Start Story 🚀</button>
     </div>
 
@@ -1915,6 +1975,12 @@ footer {
               <button class="timer-btn hs-dur-btn cta-button secondary active" data-sec="60" onclick="hsSetDuration(60)">60s</button>
               <button class="timer-btn hs-dur-btn cta-button secondary" data-sec="90" onclick="hsSetDuration(90)">90s</button>
           </div>
+        </div>
+        <div class="setup-group" style="margin-bottom: 1rem; text-align: left;">
+            <label class="toggle-chip">
+                <input type="checkbox" id="hot-seat-solo-mode" class="solo-mode-check">
+                <span>Solo Mode (vs Robot) 👤</span>
+            </label>
         </div>
         <button id="start-hot-seat-game-btn" onclick="hotSeatStart()" class="cta-button primary">Start Hot Seat 🔥</button>
     </div>

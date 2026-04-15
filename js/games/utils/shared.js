@@ -541,6 +541,12 @@ const getVocabPool = (lang, level, theme) => {
 
 const gameSpeak = (text, lang) => speak(text, lang);
 
+const addGamePoints = (points) => {
+    const total = parseInt(localStorage.getItem('cosy_total_points') || 0);
+    localStorage.setItem('cosy_total_points', total + points);
+    // Maybe show a mini notification
+};
+
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, populateThemes, isThemeMatch
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, populateThemes, isThemeMatch, addGamePoints
 };

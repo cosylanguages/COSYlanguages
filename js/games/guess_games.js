@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const themeSelect = modal.querySelector('.game-theme');
         const levelSelect = modal.querySelector('.game-level');
         const langSelect = modal.querySelector('.game-lang');
+        const soloToggle = modal.querySelector('.solo-mode-check');
 
         const populateThemesLocal = () => {
             if (!themeSelect || !levelSelect || !langSelect) return;
@@ -39,7 +40,22 @@ document.addEventListener('DOMContentLoaded', () => {
             hintsRevealed = 0;
 
             const wordText = typeof currentItem === 'string' ? currentItem : (currentItem.word || currentItem);
-            targetDisplay.textContent = wordText;
+            const isSolo = soloToggle ? soloToggle.checked : false;
+
+            if (isSolo) {
+                targetDisplay.textContent = '???';
+                targetDisplay.classList.add('robot-mode');
+                const hintDisplay = modal.querySelector('.hint-display');
+                if (hintDisplay) {
+                    hintDisplay.textContent = "🤖 Robot is thinking of something...";
+                    setTimeout(() => {
+                        if (hintsRevealed === 0) revealHint();
+                    }, 1200);
+                }
+            } else {
+                targetDisplay.textContent = wordText;
+                targetDisplay.classList.remove('robot-mode');
+            }
 
             promptList.innerHTML = '';
             const prompts = gameType === 'who' ?
@@ -70,13 +86,30 @@ document.addEventListener('DOMContentLoaded', () => {
             playGameSound('click');
             hintsRevealed++;
             const wordText = typeof currentItem === 'string' ? currentItem : currentItem.word;
+            const isSolo = soloToggle ? soloToggle.checked : false;
 
-            if (hintsRevealed === 1) {
-                hintDisplay.textContent = `${t('hint_first_letter')}: ${wordText[0]}...`;
-            } else if (hintsRevealed === 2) {
-                hintDisplay.textContent = `${t('hint_length')}: ${wordText.length} ${t('letters')}`;
+            if (isSolo) {
+                // In solo mode, hints are the main gameplay
+                if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(2);
+                if (hintsRevealed === 1) {
+                    hintDisplay.textContent = `${t('hint_first_letter')}: ${wordText[0]}...`;
+                } else if (hintsRevealed === 2) {
+                    hintDisplay.textContent = `${t('hint_length')}: ${wordText.length} ${t('letters')}`;
+                } else if (hintsRevealed === 3) {
+                    const def = currentItem.definitions?.[0]?.text || '';
+                    hintDisplay.textContent = def ? `💡 ${def}` : `${t('hint_length')}: ${wordText.length} ${t('letters')}`;
+                } else {
+                    targetDisplay.textContent = wordText;
+                    hintDisplay.textContent = wordText;
+                }
             } else {
-                hintDisplay.textContent = wordText;
+                if (hintsRevealed === 1) {
+                    hintDisplay.textContent = `${t('hint_first_letter')}: ${wordText[0]}...`;
+                } else if (hintsRevealed === 2) {
+                    hintDisplay.textContent = `${t('hint_length')}: ${wordText.length} ${t('letters')}`;
+                } else {
+                    hintDisplay.textContent = wordText;
+                }
             }
         };
 

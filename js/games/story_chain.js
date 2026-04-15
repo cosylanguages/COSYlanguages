@@ -76,8 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const lang  = document.getElementById('sc-lang').value;
       const level = document.getElementById('sc-level').value;
       const theme = document.getElementById('sc-theme').value;
+      const isSolo = document.getElementById('story-chain-solo-mode')?.checked || false;
+
       const item  = StoryChainGame.init(lang, level, theme);
       if (!item) { window.gameUtils.showGameMessage(document.getElementById("sc-setup"), t("alert_no_adventure_items") || "No words found!", "error"); return; }
+
       document.getElementById('sc-setup').style.display = 'none';
       document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(item);
       document.getElementById('sc-word-reveal').style.display = 'block';
@@ -89,11 +92,33 @@ document.addEventListener('DOMContentLoaded', () => {
     window.storyChainAdd = function() {
       const sentence = document.getElementById('sc-sentence').value.trim();
       if (!sentence) return;
+      if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(10);
+
+      const isSolo = document.getElementById('story-chain-solo-mode')?.checked || false;
       const nextItem = StoryChainGame.addSentence(sentence, 'Player');
+
       document.getElementById('sc-sentence').value = '';
       document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
-      if (nextItem) document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(nextItem);
-      else document.getElementById('sc-word-reveal').innerHTML = '<div style="text-align:center; color:#aaa">No more words! Keep writing or reveal.</div>';
+
+      if (isSolo && nextItem) {
+          // Robot Turn
+          setTimeout(() => {
+              const robotSentence = `The ${nextItem.word} was very interesting.`; // Simple template
+              const afterRobotItem = StoryChainGame.addSentence(robotSentence, 'Robot 🤖');
+              document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
+
+              if (afterRobotItem) {
+                  document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(afterRobotItem);
+              } else {
+                  document.getElementById('sc-word-reveal').innerHTML = '<div style="text-align:center; color:#aaa">No more words! Keep writing or reveal.</div>';
+              }
+          }, 1000);
+
+          document.getElementById('sc-word-reveal').innerHTML = '<div style="text-align:center; color:#aaa">Robot is thinking... 🤖</div>';
+      } else {
+          if (nextItem) document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(nextItem);
+          else document.getElementById('sc-word-reveal').innerHTML = '<div style="text-align:center; color:#aaa">No more words! Keep writing or reveal.</div>';
+      }
     };
 
     window.storyChainFinish = function() {

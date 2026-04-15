@@ -108,6 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         feedback.textContent = t('correct');
                         feedback.style.color = 'var(--primary-color)';
                         playGameSound('success');
+                        if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
                         speak(opt, lang);
                         setTimeout(showNextGuess, 1500);
                     } else {
