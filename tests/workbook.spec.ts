@@ -26,4 +26,14 @@ test('Verify Workbook page', async ({ page }) => {
     // Check if homework is rendered
     const hwTasks = await page.locator('.hw-task');
     await expect(hwTasks).toHaveCount(6);
+
+    // Check Print Sheets page directly (it has target="_blank" in workbook.html)
+    await page.goto('http://localhost:8080/print-grammar.html');
+    await expect(page).toHaveURL(/.*print-grammar.html/);
+
+    // Verify student auto-filtering in print sheets
+    const visiblePages = await page.locator('.print-page.visible');
+    // For COSY-EN-A1-GEN, it should show English A1 page
+    await expect(visiblePages).toHaveCount(1);
+    await expect(visiblePages.first()).toHaveAttribute('data-lang', 'en');
 });
