@@ -4,84 +4,331 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ESSERE: Plurale — COSYlanguages</title>
+<title>ESSERE — Parte 2 · COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css"></head>
 <body class="grammar-body">
 
 <div class="grammar-header-new">
   <div>
-    <div class="breadcrumb">Student Area 🔐</div>
-    <h1>ESSERE: Plurale</h1>
+    <div class="breadcrumb">Grammar Reference 🇮🇹 → Italiano → ESSERE</div>
+    <h1>🇮🇹 ESSERE — Parte 2</h1>
   </div>
-  <a href="it.html" class="lang-tab active">← Programma</a>
+  <div>
+    <div class="lang-tabs">
+      <a class="lang-tab" href="it-essere-1.html">ESSERE Parte 1</a>
+      <a class="lang-tab active" href="it-essere-2.html">ESSERE Parte 2</a>
+      <a class="lang-tab" href="it-verbi.html">Verbi -ARE / -ERE / -IRE</a>
+    </div>
+  </div>
 </div>
 
 <div class="grammar-layout">
+
 <nav class="grammar-sidebar">
-<a class="gs-item active" href="#present">Plurale</a>
-  <a class="gs-item" href="#quiz">Quiz Interattivo</a>
-  <a class="gs-item" href="#sentence-builder">Costruttore</a>
-  <div class="gs-label">Ritorno</div>
-  <a class="gs-item" href="it-essere-1.html">← Singolare</a>
-  <div class="gs-label">Navigazione</div>
-  <a class="gs-item" href="it.html">← Programma</a>
+  <div class="gs-label">ESSERE — Parte 2</div>
+  <a class="gs-item active" href="#recap">🔁 Ripasso Parte 1</a>
+  <a class="gs-item" href="#nuove-forme">🆕 noi, voi, loro</a>
+  <a class="gs-item" href="#paradigma">📊 Paradigma completo</a>
+  <a class="gs-item" href="#quiz">📝 Quiz rapido</a>
+  <a class="gs-item" href="#frasi">✍️ Costruisci frasi</a>
+  <div class="gs-label">Prossimi passi</div>
+  <a class="gs-item" href="it-verbi.html">→ Verbi regolari</a>
 </nav>
+
 <main class="grammar-main">
-  <div class="grammar-section-title">Italiano — ESSERE al completo</div>
-  <div class="g-card" id="present">
-    <div class="g-card-title">Forme Plurali</div>
+
+  <div class="grammar-section-title">
+    <img src="../images/italy_flag.png" alt="Italy" style="height: 24px; border-radius: 4px; border: 1px solid var(--gh-black);">
+    Italiano — ESSERE al completo
+    <span class="it-badge">A1</span>
+  </div>
+
+  <!-- RECAP -->
+  <div class="g-card" id="recap">
+    <div class="g-card-title">🔁 Ripasso — Le forme che già conosci</div>
     <table class="gtable">
-      <tr><td class="row-label">noi</td><td class="content"><span class="key-verb">siamo</span></td></tr>
-      <tr><td class="row-label">voi</td><td class="content"><span class="key-verb">siete</span></td></tr>
-      <tr><td class="row-label">loro</td><td class="content"><span class="key-verb">sono</span></td></tr>
+      <tr class="section-row"><td colspan="3">✅ Parte 1 — già studiate</td></tr>
+      <tr><td class="row-label">io</td><td class="content"><span class="key-verb">sono</span></td><td class="content-left">Io <span class="key-verb">sono</span> italiano.</td></tr>
+      <tr><td class="row-label">tu</td><td class="content"><span class="key-verb">sei</span></td><td class="content-left">Tu <span class="key-verb">sei</span> a casa?</td></tr>
+      <tr><td class="row-label">lui / lei</td><td class="content"><span class="key-verb">è</span></td><td class="content-left">Lei <span class="key-verb">è</span> medico.</td></tr>
     </table>
   </div>
 
+  <!-- NUOVE FORME -->
+  <div class="g-card" id="nuove-forme">
+    <div class="g-card-title">
+      🆕 Forme nuove — noi, voi, loro
+    </div>
+    <table class="gtable">
+      <tr class="section-row"><td colspan="3">🆕 Plurale — forme nuove</td></tr>
+      <tr>
+        <td class="row-label new">noi</td>
+        <td class="content"><span class="key-pos">siamo</span></td>
+        <td class="content-left">Noi <span class="key-pos">siamo</span> a Roma.</td>
+      </tr>
+      <tr>
+        <td class="row-label new">voi</td>
+        <td class="content"><span class="key-pos">siete</span></td>
+        <td class="content-left">Voi <span class="key-pos">siete</span> pronti?</td>
+      </tr>
+      <tr>
+        <td class="row-label new">loro</td>
+        <td class="content"><span class="key-pos">sono</span></td>
+        <td class="content-left">Loro <span class="key-pos">sono</span> amici.</td>
+      </tr>
+      <tr class="note-row">
+        <td colspan="3">🔄 Attenzione! <strong>io</strong> e <strong>loro</strong> usano la stessa forma: <span class="key-verb">sono</span>!</td>
+      </tr>
+    </table>
+    <div class="tip-box">
+      🧠 <strong>Trucco mnemonico:</strong> <em>siam-o</em> (noi), <em>siet-e</em> (voi) — le terminazioni <strong>-o</strong> e <strong>-e</strong> ti aiutano a distinguerle. <em>Loro sono</em> = come <em>io sono</em>.
+    </div>
+  </div>
+
+  <!-- FULL PARADIGM -->
+  <div class="g-card" id="paradigma">
+    <div class="g-card-title">📊 Paradigma completo — tutte le 6 forme</div>
+    <div style="padding: 1rem;">
+      <div class="paradigm-grid">
+        <div class="paradigm-cell header">Singolare</div>
+        <div class="paradigm-cell header">Plurale</div>
+
+        <div class="paradigm-cell known">
+          <span class="pron">io</span>
+          <span class="form" style="color:var(--gh-teal-dk)">sono</span>
+          <span class="ex">Sono stanco.</span>
+        </div>
+        <div class="paradigm-cell new-c">
+          <span class="pron">noi</span>
+          <span class="form" style="color:var(--it-green)">siamo</span>
+          <span class="ex">Siamo a casa.</span>
+        </div>
+
+        <div class="paradigm-cell known">
+          <span class="pron">tu</span>
+          <span class="form" style="color:var(--gh-teal-dk)">sei</span>
+          <span class="ex">Sei italiano?</span>
+        </div>
+        <div class="paradigm-cell new-c">
+          <span class="pron">voi</span>
+          <span class="form" style="color:var(--it-green)">siete</span>
+          <span class="ex">Siete pronti?</span>
+        </div>
+
+        <div class="paradigm-cell known">
+          <span class="pron">lui / lei</span>
+          <span class="form" style="color:var(--gh-teal-dk)">è</span>
+          <span class="ex">È medico.</span>
+        </div>
+        <div class="paradigm-cell new-c">
+          <span class="pron">loro</span>
+          <span class="form" style="color:var(--it-green)">sono</span>
+          <span class="ex">Sono amici.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:1rem;margin-top:.8rem;flex-wrap:wrap;">
+        <span style="font-size:.8rem;font-weight:800">🟦 = già studiato (Parte 1)</span>
+        <span style="font-size:.8rem;font-weight:800">🟩 = nuovo (Parte 2)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUIZ -->
   <div class="g-quiz-card" id="quiz">
-    <div class="g-card-title">Quiz Interattivo</div>
+    <div class="g-card-title">📝 Quiz rapido — Scegli la forma giusta</div>
     <div class="g-quiz-body">
+
       <div class="g-quiz-q" id="q1">
-        <div class="g-quiz-prompt">Noi ___ a casa.</div>
+        <div class="g-quiz-prompt">Noi ___ a Milano.</div>
         <div class="g-quiz-options">
           <button class="g-quiz-opt" onclick="answer(this,'q1','siamo')">siamo</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','siete')">siete</button>
           <button class="g-quiz-opt" onclick="answer(this,'q1','sono')">sono</button>
         </div>
         <div class="quiz-feedback" id="fb-q1"></div>
       </div>
-    </div>
-  </div>
 
-  <div class="g-card" id="sentence-builder">
-    <div class="g-card-title">Sentence Builder</div>
-    <div style="padding: 1.5rem; text-align: center;">
-      <p style="margin-bottom: 1rem; color: var(--black); font-weight: 700;">Complete the sentence:</p>
-      <div style="font-size: 1.2rem; font-weight: 800; color: var(--black);">
-        Noi <input type="text" data-answer="siamo" oninput="checkInput(this)" style="width: 80px; padding: 5px; border: 2px solid var(--black); border-radius: 4px; text-align: center; font-family: inherit;"> pronti.
+      <div class="g-quiz-q" id="q2">
+        <div class="g-quiz-prompt">Voi ___ stanchi?</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q2','siete')">siete</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q2','siamo')">siamo</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q2','sei')">sei</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q2"></div>
+      </div>
+
+      <div class="g-quiz-q" id="q3">
+        <div class="g-quiz-prompt">Loro ___ amici di Marco.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q3','sono')">sono</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q3','è')">è</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q3','siamo')">siamo</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q3"></div>
+      </div>
+
+      <div class="g-quiz-q" id="q4">
+        <div class="g-quiz-prompt">Tu ___ pronto?</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q4','sei')">sei</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q4','siete')">siete</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q4','sono')">sono</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q4"></div>
+      </div>
+
+      <div class="g-quiz-q" id="q5">
+        <div class="g-quiz-prompt">Io e Maria ___ a Roma. (= noi)</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q5','siamo')">siamo</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q5','siete')">siete</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q5','sono')">sono</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q5"></div>
+      </div>
+
+      <div class="g-score-banner" id="score-banner"></div>
+      <div style="display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.8rem">
+        <button class="g-reset-btn" onclick="resetQuiz()">↺ Ricomincia</button>
       </div>
     </div>
   </div>
+
+  <!-- SENTENCE BUILDER -->
+  <div class="sentence-builder" id="frasi">
+    <div class="sb-title">✍️ Costruisci le frasi — Scrivi la forma corretta</div>
+    <div class="sb-task">
+      Scrivi la forma giusta di <strong>ESSERE</strong> per ogni pronome. Premi <strong>Invio</strong> o clicca su <em>Controlla</em> per vedere il risultato.
+    </div>
+
+    <div id="sb-rows">
+      <div class="sb-input-row">
+        <span class="sb-label">noi</span>
+        <input class="sb-input" data-answer="siamo" placeholder="…" oninput="liveCheck(this)" onkeydown="if(event.key==='Enter')liveCheck(this,true)">
+        <span class="sb-hint">___ italiani.</span>
+      </div>
+      <div class="sb-input-row">
+        <span class="sb-label">voi</span>
+        <input class="sb-input" data-answer="siete" placeholder="…" oninput="liveCheck(this)" onkeydown="if(event.key==='Enter')liveCheck(this,true)">
+        <span class="sb-hint">___ a scuola?</span>
+      </div>
+      <div class="sb-input-row">
+        <span class="sb-label">loro</span>
+        <input class="sb-input" data-answer="sono" placeholder="…" oninput="liveCheck(this)" onkeydown="if(event.key==='Enter')liveCheck(this,true)">
+        <span class="sb-hint">___ amici.</span>
+      </div>
+      <div class="sb-input-row">
+        <span class="sb-label">io</span>
+        <input class="sb-input" data-answer="sono" placeholder="…" oninput="liveCheck(this)" onkeydown="if(event.key==='Enter')liveCheck(this,true)">
+        <span class="sb-hint">___ stanco.</span>
+      </div>
+      <div class="sb-input-row">
+        <span class="sb-label">lui</span>
+        <input class="sb-input" data-answer="è" placeholder="…" oninput="liveCheck(this)" onkeydown="if(event.key==='Enter')liveCheck(this,true)">
+        <span class="sb-hint">___ medico.</span>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.9rem">
+      <button class="g-check-btn" onclick="checkAll()">✔ Controlla tutto</button>
+      <button class="g-reset-btn" onclick="resetSB()">↺ Azzera</button>
+    </div>
+    <div class="g-score-banner" id="sb-banner"></div>
+  </div>
+
 </main>
 </div>
+
 <script>
-const answers={q1:'siamo'};
-function answer(btn,qid,chosen){
-  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
-  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='Esatto!'; }
-  else { btn.classList.add('wrong'); fb.textContent='Non proprio.'; }
-}
-function checkInput(el) {
-  const target = el.getAttribute('data-answer');
-  if (el.value.toLowerCase() === target) {
-    el.style.backgroundColor = '#2ECC40';
-    el.style.color = '#fff';
-    el.classList.add('ok');
+// ── Sidebar spy ──
+const sideItems = document.querySelectorAll('.gs-item[href^="#"]');
+['recap','nuove-forme','paradigma','quiz','frasi'].map(id => document.getElementById(id)).filter(Boolean).forEach(s => {
+  new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        sideItems.forEach(i => i.classList.remove('active'));
+        const a = document.querySelector(`.gs-item[href="#${e.target.id}"]`);
+        if (a) a.classList.add('active');
+      }
+    });
+  }, { threshold: 0.4 }).observe(s);
+});
+
+// ── Quiz ──
+const answers = { q1:'siamo', q2:'siete', q3:'sono', q4:'sei', q5:'siamo' };
+const feedbackText = { q1:'✅ Esatto! Noi siamo.', q2:'✅ Esatto! Voi siete.', q3:'✅ Esatto! Loro sono.', q4:'✅ Esatto! Tu sei.', q5:'✅ Esatto! Io e Maria = noi → siamo.' };
+let scores = { q1:null, q2:null, q3:null, q4:null, q5:null };
+
+function answer(btn, qid, chosen) {
+  const correct = answers[qid];
+  const fb = document.getElementById('fb-' + qid);
+  const opts = btn.closest('.g-quiz-q').querySelectorAll('.g-quiz-opt');
+  opts.forEach(o => { o.disabled = true; o.style.opacity = '0.5'; });
+  if (chosen === correct) {
+    btn.classList.add('correct');
+    btn.style.opacity = '1';
+    fb.textContent = feedbackText[qid];
+    fb.className = 'quiz-feedback ok';
+    scores[qid] = true;
   } else {
-    el.style.backgroundColor = '';
-    el.style.color = '';
-    el.classList.remove('ok');
+    btn.classList.add('wrong');
+    btn.style.opacity = '1';
+    fb.textContent = `❌ Non esatto. La risposta è: ${correct}`;
+    fb.className = 'quiz-feedback err';
+    opts.forEach(o => { if (o.textContent === correct) { o.classList.add('correct'); o.style.opacity = '1'; } });
+    scores[qid] = false;
   }
+  checkQuizComplete();
+}
+
+function checkQuizComplete() {
+  const vals = Object.values(scores);
+  if (!vals.every(v => v !== null)) return;
+  const ok = vals.filter(Boolean).length;
+  const banner = document.getElementById('score-banner');
+  banner.textContent = ok === 5 ? `🎉 Perfetto! ${ok}/5 — Hai imparato ESSERE al completo!` : `${ok}/5 — Riprova per migliorare! ↺`;
+  banner.classList.add('show');
+}
+
+function resetQuiz() {
+  scores = { q1:null, q2:null, q3:null, q4:null, q5:null };
+  document.querySelectorAll('.g-quiz-opt').forEach(o => { o.className = 'g-quiz-opt'; o.disabled = false; o.style.opacity = '1'; });
+  document.querySelectorAll('.quiz-feedback').forEach(f => { f.textContent = ''; f.className = 'quiz-feedback'; });
+  document.getElementById('score-banner').className = 'g-score-banner';
+}
+
+// ── Sentence builder ──
+function liveCheck(input, force) {
+  const val = input.value.trim().toLowerCase();
+  const ans = input.dataset.answer;
+  input.classList.remove('ok','err');
+  if (val === ans) {
+    input.classList.add('ok');
+  } else if (force && val.length > 0) {
+    input.classList.add('err');
+  }
+}
+
+function checkAll() {
+  let ok = 0;
+  document.querySelectorAll('.sb-input').forEach(inp => {
+    const val = inp.value.trim().toLowerCase();
+    inp.classList.remove('ok','err');
+    if (val === inp.dataset.answer) { inp.classList.add('ok'); ok++; }
+    else if (val.length > 0)        { inp.classList.add('err'); }
+  });
+  const total = document.querySelectorAll('.sb-input').length;
+  const banner = document.getElementById('sb-banner');
+  banner.textContent = ok === total ? `🎉 ${ok}/${total} — Perfetto!` : `${ok}/${total} corrette — controlla in rosso.`;
+  banner.classList.add('show');
+}
+
+function resetSB() {
+  document.querySelectorAll('.sb-input').forEach(i => { i.value = ''; i.className = 'sb-input'; });
+  document.getElementById('sb-banner').className = 'g-score-banner';
 }
 </script>
 
@@ -91,13 +338,6 @@ function checkInput(el) {
   const code = localStorage.getItem("student_course_code");
   if (code && typeof COURSES !== "undefined" && COURSES[code]) {
     const restrictedLevel = COURSES[code].level.toUpperCase();
-    const lt = document.getElementById("roadmap-lang-tabs");
-    if (lt) lt.style.display = "none";
-    const arl = document.getElementById("all-roadmaps-link");
-    if (arl) arl.style.display = "none";
-    const nl = document.getElementById("nav-label");
-    if (nl) nl.style.display = "none";
-
     document.querySelectorAll(".level-section").forEach(sec => {
       const badge = sec.querySelector(".level-badge");
       if (badge && !badge.textContent.includes(restrictedLevel)) {
@@ -105,17 +345,6 @@ function checkInput(el) {
         const id = sec.id;
         document.querySelectorAll(`.gs-item[href="#${id}"]`).forEach(item => item.style.display = "none");
       }
-    });
-    document.querySelectorAll(".grammar-sidebar").forEach(sb => {
-        sb.querySelectorAll(".gs-label").forEach(label => {
-            let next = label.nextElementSibling;
-            let hasVisible = false;
-            while(next && next.classList.contains("gs-item")) {
-                if (next.style.display !== "none") { hasVisible = true; break; }
-                next = next.nextElementSibling;
-            }
-            if (!hasVisible) label.style.display = "none";
-        });
     });
   }
 })();
