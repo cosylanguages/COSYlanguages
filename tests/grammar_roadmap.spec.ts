@@ -17,6 +17,9 @@ test.describe('Grammar Roadmap Navigation', () => {
         // Check if we are unlocked
         await expect(page.locator('#area')).toBeVisible();
 
+        // In the new design, we need to switch to the Library tab first
+        await page.locator('#btn-tab-library').click();
+
         // In the new design, there is a Grammar Ref button
         await page.locator('#open-grammar-ref-btn').click();
         await expect(page).toHaveURL(/grammar-reference.html/);

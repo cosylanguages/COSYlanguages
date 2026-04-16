@@ -87,6 +87,37 @@
 .btn-out { background: none; border: 1px solid var(--border-med); border-radius: var(--r-sm); padding: 7px 14px; font-family: 'DM Sans', sans-serif; font-size: 13px; color: var(--ink-muted); cursor: pointer; transition: all .2s; }
 .btn-out:hover { color: var(--ink); border-color: var(--ink); }
 
+/* Dashboard Tabs */
+.s-tabs {
+  display: flex; gap: 8px; margin-bottom: 2rem; position: sticky; top: 66px; background: var(--cream); z-index: 90; padding: 10px 0; border-bottom: 1px solid var(--border-new);
+}
+.s-tab-btn {
+  padding: 10px 18px; background: var(--white); border: 2.5px solid var(--ink); border-radius: var(--r-sm); font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 700; color: var(--ink); cursor: pointer; transition: all .15s; box-shadow: 3px 3px 0 var(--ink);
+}
+.s-tab-btn:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
+.s-tab-btn.active { background: var(--ink); color: var(--white); transform: translate(1px, 1px); box-shadow: 0 0 0 var(--ink); }
+
+/* Next Up Hero */
+.hero-card {
+  background: var(--white); border: 3px solid var(--ink); border-radius: var(--r-new); padding: 1.5rem; margin-bottom: 2rem; cursor: pointer; transition: all .2s; box-shadow: 6px 6px 0 var(--ink); display: block; text-decoration: none; color: var(--ink); text-align: left; width: 100%;
+}
+.hero-card:hover { transform: translate(-3px, -3px); box-shadow: 9px 9px 0 var(--ink); }
+.hero-label { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: var(--green-new); margin-bottom: 8px; }
+.hero-content { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.hero-day { font-size: 13px; font-weight: 500; color: var(--ink-muted); }
+.hero-title { font-family: 'DM Serif Display', serif; font-size: 22px; margin-top: 2px; }
+.hero-btn { background: var(--green-new); color: white; padding: 8px 16px; border-radius: var(--r-sm); font-size: 14px; font-weight: 600; }
+
+/* Library Grid */
+.lib-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1rem; }
+.lib-card {
+  background: var(--white); border: 3px solid var(--ink); border-radius: var(--r-new); padding: 1.5rem; display: flex; align-items: flex-start; gap: 1rem; cursor: pointer; transition: all .2s; box-shadow: 5px 5px 0 var(--ink); text-align: left; width: 100%;
+}
+.lib-card:hover { transform: translate(-3px, -3px); box-shadow: 8px 8px 0 var(--ink); }
+.lib-icon { font-size: 28px; }
+.lib-info h3 { font-family: 'DM Serif Display', serif; font-size: 19px; margin-bottom: 4px; }
+.lib-info p { font-size: 13px; color: var(--ink-muted); line-height: 1.5; }
+
 /* PROGRESS */
 .prog-box { background: var(--white); border: 1px solid var(--border-new); border-radius: var(--r-new); padding: 1.25rem 1.75rem; margin-bottom: 1.5rem; }
 .prog-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem; }
@@ -208,6 +239,8 @@
 .empty p { font-size: 14px; margin-top: .5rem; }
 
 @media(max-width: 640px) {
+  .s-tabs { overflow-x: auto; padding-bottom: 12px; margin-bottom: 1.5rem; }
+  .s-tab-btn { white-space: nowrap; }
   .s-header { flex-direction: column; align-items: flex-start; }
   .ex-row-new { grid-template-columns: 1fr; gap: 2px; }
   .ex-header-new { display: none; }
@@ -263,31 +296,70 @@
           <div class="badges" id="bdg"></div>
           <button class="btn-out" onclick="logout()">Log out</button>
         </div>
-        <div class="prog-box">
-          <div class="prog-row"><span>Your progress</span><span id="pc" style="font-size:13px;color:var(--ink-faint)">0 / 0</span></div>
-          <div class="prog-track-new"><div class="prog-fill-new" id="pf" style="width:0%"></div></div>
-          <div class="dots" id="dt"></div>
-        </div>
-        <div class="day-jump">
-          <label for="ds">Jump to day:</label>
-          <select id="ds" onchange="jumpTo(this.value)"></select>
+        <nav class="s-tabs">
+          <button class="s-tab-btn active" id="btn-tab-roadmap" onclick="switchAreaTab('roadmap')">📍 My Roadmap</button>
+          <button class="s-tab-btn" id="btn-tab-library" onclick="switchAreaTab('library')">🧰 Study Library</button>
+          <button class="s-tab-btn" id="btn-tab-support" onclick="switchAreaTab('support')">💬 Support</button>
+        </nav>
+
+        <div id="tab-roadmap" class="s-tab-content">
+          <div id="next-up-hero"></div>
+
+          <div class="prog-box">
+            <div class="prog-row"><span>Your progress</span><span id="pc" style="font-size:13px;color:var(--ink-faint)">0 / 0</span></div>
+            <div class="prog-track-new"><div class="prog-fill-new" id="pf" style="width:0%"></div></div>
+            <div class="dots" id="dt"></div>
+          </div>
+
+          <div class="day-jump">
+            <label for="ds">Jump to day:</label>
+            <select id="ds" onchange="jumpTo(this.value)"></select>
+          </div>
+
+          <h2 class="sec-title" id="ct">Curriculum</h2>
+          <div id="ls"></div>
         </div>
 
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-          <h2 class="sec-title" id="ct" style="margin-bottom: 0;">Curriculum</h2>
-          <div style="display: flex; gap: 0.5rem;">
-             <button id="open-workbook-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📓 Workbook</button>
-             <button id="open-roadmap-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px; display: none;">🗺️ Full Roadmap</button>
-             <button id="open-grammar-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📐 Grammar Ref</button>
-             <button id="open-vocab-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📖 Vocab Ref</button>
+        <div id="tab-library" class="s-tab-content" style="display:none">
+          <h2 class="sec-title">Study Library</h2>
+          <div class="lib-grid">
+            <button class="lib-card" id="open-workbook-btn">
+              <span class="lib-icon">📓</span>
+              <span class="lib-info">
+                <h3>My Workbook</h3>
+                <p>Interactive exercises and grammar snapshots tailored to your level.</p>
+              </span>
+            </button>
+            <button class="lib-card" id="open-grammar-ref-btn">
+              <span class="lib-icon">📐</span>
+              <span class="lib-info">
+                <h3>Grammar Hub</h3>
+                <p>Complete reference tables for verbs, tenses, and structures.</p>
+              </span>
+            </button>
+            <button class="lib-card" id="open-vocab-ref-btn">
+              <span class="lib-icon">📖</span>
+              <span class="lib-info">
+                <h3>Vocabulary Hub</h3>
+                <p>Master thousands of words with interactive flashcards and games.</p>
+              </span>
+            </button>
+            <button class="lib-card" id="open-roadmap-btn" style="display:none">
+              <span class="lib-icon">🗺️</span>
+              <span class="lib-info">
+                <h3>Full Roadmap</h3>
+                <p>View the entire course structure from start to finish.</p>
+              </span>
+            </button>
           </div>
         </div>
 
-        <div id="ls"></div>
-
-        <div class="help-card-new">
-          <div><h3>Have a question about a lesson?</h3><p>Message your teacher — we reply fast.</p></div>
-          <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20a%20question%20about%20my%20lesson." target="_blank" class="btn-wa-new">💬 WhatsApp</a>
+        <div id="tab-support" class="s-tab-content" style="display:none">
+          <h2 class="sec-title">Student Support</h2>
+          <div class="help-card-new">
+            <div><h3>Have a question about a lesson?</h3><p>Message your teacher — we reply fast.</p></div>
+            <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20a%20question%20about%20my%20lesson." target="_blank" class="btn-wa-new">💬 WhatsApp</a>
+          </div>
         </div>
       </div>
     </main>
@@ -399,7 +471,23 @@ function showArea() {
     }
   }
 
+  switchAreaTab('roadmap');
   renderAll();
+}
+
+function switchAreaTab(tabId) {
+  // Hide all contents
+  document.querySelectorAll('.s-tab-content').forEach(c => c.style.display = 'none');
+  // Deactivate all buttons
+  document.querySelectorAll('.s-tab-btn').forEach(b => b.classList.remove('active'));
+
+  // Show target
+  const target = document.getElementById('tab-' + tabId);
+  if (target) target.style.display = 'block';
+
+  // Activate button
+  const btn = document.getElementById('btn-tab-' + tabId);
+  if (btn) btn.classList.add('active');
 }
 
 function getLessons() {
@@ -459,6 +547,31 @@ function renderAll() {
   // Determine current day for card styling
   const nextToFix = lessons.findIndex((_, idx) => !done[idx]);
   const curIdx = nextToFix === -1 ? total : nextToFix;
+
+  // Hero card for Next Up
+  const heroEl = document.getElementById('next-up-hero');
+  if (heroEl) {
+    if (curIdx < total) {
+      const l = lessons[curIdx];
+      heroEl.innerHTML = `
+        <button class="hero-card" onclick="jumpTo(${curIdx})">
+          <span class="hero-label">NEXT UP</span>
+          <span class="hero-content">
+            <span class="hero-text">
+              <span class="hero-day">Day ${curIdx + 1}</span>
+              <span class="hero-title">${l.title}</span>
+            </span>
+            <span class="hero-action">
+              <span class="hero-btn">Resume path →</span>
+            </span>
+          </span>
+        </button>
+      `;
+      heroEl.style.display = 'block';
+    } else {
+      heroEl.style.display = 'none';
+    }
+  }
 
   c.innerHTML = lessons.map((l, i) => cardHTML(l, i, curIdx)).join('');
 }
