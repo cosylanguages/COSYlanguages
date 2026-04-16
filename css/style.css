@@ -1945,3 +1945,20 @@ select.pill-input:focus {
   .gs-item { border-left: none; border-radius: 4px; background: rgba(0,0,0,0.1); margin-right: 0.5rem; padding: 0.4rem 0.8rem; }
   .gs-item.active { border-left: none; background: var(--gh-yellow); color: var(--gh-black); }
 }
+
+/* Full-screen correct/incorrect flash */
+.answer-flash {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s;
+}
+.answer-flash.correct-flash { background: rgba(26,107,69,.15); }
+.answer-flash.incorrect-flash { background: rgba(163,45,45,.12); }
+.answer-flash.show { opacity: 1; pointer-events: all; }

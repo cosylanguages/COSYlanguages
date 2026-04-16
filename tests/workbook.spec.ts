@@ -14,20 +14,19 @@ test('Verify Workbook page', async ({ page }) => {
     await page.goto('http://localhost:8080/workbook.html');
     await expect(page).toHaveURL(/.*workbook.html/);
 
-    // Check if topics are rendered
-    const topics = await page.locator('.topic-card');
-    await expect(topics).toHaveCount(2); // en-tobe and en-present are a1
+    // Check if topics are rendered (en-a1 has 2 topics)
+    const topics = await page.locator('.topic-section');
+    await expect(topics).toHaveCount(2);
 
-    // Check if grammar snapshot works
-    await page.click('button:has-text("📊 Table")');
-    const snapTable = await page.locator('.g-snap-wrap.show');
-    await expect(snapTable).toBeVisible();
+    // Check if grammar snapshot table is present (it is rendered by default now, not hidden in modal)
+    const snapTable = await page.locator('.wb-table');
+    await expect(snapTable.first()).toBeVisible();
 
-    // Check if homework is rendered
-    const hwTasks = await page.locator('.hw-task');
-    await expect(hwTasks).toHaveCount(6);
+    // Check if homework is rendered (en-a1 has 2 homework tasks)
+    const hwItems = await page.locator('#panel-homework-body input[type="checkbox"]');
+    await expect(hwItems).toHaveCount(2);
 
-    // Check Print Sheets page directly (it has target="_blank" in workbook.html)
+    // Check Print Sheets page directly
     await page.goto('http://localhost:8080/print-grammar.html');
     await expect(page).toHaveURL(/.*print-grammar.html/);
 
@@ -39,8 +38,8 @@ test('Verify Workbook page', async ({ page }) => {
 
     // Check Pronunciation Guide link
     await page.goto('http://localhost:8080/workbook.html');
-    await page.click('.quick-card:has-text("Pronunciation Guide")');
-    await expect(page).toHaveURL(/.*pronunciation-reference.html/);
+    await page.click('a:has-text("Open Guide →")');
+    await expect(page).toHaveURL(/.*pronunciation-reference.html#en-a1/);
 
     // Verify student auto-filtering in pronunciation guide
     const visibleBlocks = await page.locator('.lang-block.show');

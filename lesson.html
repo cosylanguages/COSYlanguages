@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate-key="nav_courses">Lesson Practice 📚 — COSYlanguages</title>
@@ -310,6 +311,7 @@ footer {
 </style>
 </head>
 <body class="student-page">
+    <div id="answer-flash" class="answer-flash"></div>
     <nav id="main-nav">
       <a class="nav-logo" href="index.html">
         <img src="images/cosylanguages.png" alt="COSYlanguages">
@@ -637,6 +639,7 @@ footer {
     <script src="js/translate.js"></script>
     <script src="js/games/utils/shared.js"></script>
     <script src="js/mobile.js"></script>
+    <script src="js/exercise-core.js"></script>
     <script src="js/lesson.js"></script>
 
 

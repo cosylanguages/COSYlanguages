@@ -2359,83 +2359,6 @@ function showNextWord() {
     }
 }
 
-function renderMultipleChoice() {
-    const wordObj = currentPractice.currentWord;
-    const choicesGrid = document.getElementById('choices-grid');
-    choicesGrid.innerHTML = '';
-
-    const correctAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic;
-    const choices = [correctAnswer];
-
-    let distractors = [];
-    if (wordObj.distractors && wordObj.distractors.length > 0) {
-        distractors = wordObj.distractors.sort(() => Math.random() - 0.5).slice(0, 2);
-    } else {
-        const pool = vocabularyData[currentPractice.language] || [];
-        const distractorPool = pool
-            .map(w => w.answer || w.word || w.text || w.topic)
-            .filter(val => val && val.toLowerCase() !== correctAnswer.toLowerCase());
-
-        const shuffledPool = distractorPool.sort(() => Math.random() - 0.5);
-        distractors = [...new Set(shuffledPool)].slice(0, 2);
-    }
-
-    choices.push(...distractors);
-    choices.sort(() => Math.random() - 0.5);
-
-    choices.forEach(choice => {
-        const btn = document.createElement('button');
-        btn.className = 'choice-btn';
-        btn.textContent = choice;
-        btn.onclick = () => checkMultipleChoiceAnswer(choice, btn);
-        choicesGrid.appendChild(btn);
-    });
-}
-
-function renderGenderArticles() {
-    const wordObj = currentPractice.currentWord;
-    const choicesGrid = document.getElementById('choices-grid');
-    choicesGrid.innerHTML = '';
-
-    const lang = currentPractice.language;
-    const config = (typeof GRAMMAR_CONFIG !== 'undefined') ? GRAMMAR_CONFIG[lang] : null;
-
-    let choices = [];
-    if (wordObj.distractors && wordObj.distractors.length > 0) {
-        choices = [wordObj.answer, ...wordObj.distractors];
-    } else if (config && config.articles) {
-        choices = config.articles;
-    } else {
-        const articlesMap = {
-            it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
-            fr: ['le', 'la', "l'", 'les'],
-            el: ['ο', 'η', 'το', 'οι', 'τα'],
-            ru: ['он', 'она', 'оно']
-        };
-        choices = articlesMap[lang] || [];
-    }
-
-    const targetValue = wordObj.answer || wordObj.article || wordObj.gender;
-    const possibleAnswers = targetValue.split(' / ').map(a => a.trim().toLowerCase());
-
-    choices = [...new Set(choices)].sort(() => Math.random() - 0.5);
-
-    choices.forEach(article => {
-        const btn = document.createElement('button');
-        btn.className = 'choice-btn';
-        btn.textContent = article;
-        btn.onclick = () => {
-            if (possibleAnswers.includes(article.toLowerCase())) {
-                btn.classList.add('correct');
-                showFeedback(true);
-            } else {
-                btn.classList.add('incorrect');
-                showFeedback(false);
-            }
-        };
-        choicesGrid.appendChild(btn);
-    });
-}
 
 function checkMultipleChoiceAnswer(choice, btn) {
     const wordObj = currentPractice.currentWord;
@@ -2460,80 +2383,7 @@ function checkMultipleChoiceAnswer(choice, btn) {
     }
 }
 
-function renderScramble() {
-    const wordObj = currentPractice.currentWord;
-    const scrambleLetters = document.getElementById('scramble-letters');
-    const wordAssembly = document.getElementById('word-assembly');
 
-    scrambleLetters.innerHTML = '';
-    wordAssembly.textContent = '';
-    currentPractice.scrambleAnswer = '';
-
-    // Strip punctuation and spaces for letter scramble
-    const wordToScramble = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic)
-        .replace(/[.,!?;:\-]/g, '')
-        .replace(/\s/g, '');
-    const letters = wordToScramble.split('').sort(() => Math.random() - 0.5);
-
-    letters.forEach(letter => {
-        const btn = document.createElement('button');
-        btn.className = 'choice-btn';
-        btn.textContent = letter;
-        btn.onclick = () => {
-            currentPractice.scrambleAnswer += letter;
-            wordAssembly.textContent = currentPractice.scrambleAnswer;
-            btn.disabled = true;
-            btn.style.opacity = '0.3';
-            if (currentPractice.scrambleAnswer.length === wordToScramble.length) {
-                checkScrambleAnswer();
-            }
-        };
-        scrambleLetters.appendChild(btn);
-    });
-}
-
-function renderWordScramble() {
-    const wordObj = currentPractice.currentWord;
-    const scrambleLetters = document.getElementById('scramble-letters');
-    const wordAssembly = document.getElementById('word-assembly');
-
-    scrambleLetters.innerHTML = '';
-    wordAssembly.textContent = '';
-    currentPractice.scrambleAnswerWords = [];
-
-    // For Sentence Builder, we always use the full sentence
-    const sentence = (wordObj.word || wordObj.text || wordObj.topic).trim();
-
-    // Split by whitespace and filter out empty strings
-    const words = sentence.split(/\s+/).filter(w => w.length > 0);
-    const shuffledWords = [...words].sort(() => Math.random() - 0.5);
-
-    shuffledWords.forEach(word => {
-        const btn = document.createElement('button');
-        btn.className = 'choice-btn';
-        btn.textContent = word;
-        btn.style.width = 'auto';
-        btn.style.padding = '0.5rem 1rem';
-        btn.onclick = () => {
-            currentPractice.scrambleAnswerWords.push(word);
-            wordAssembly.textContent = currentPractice.scrambleAnswerWords.join(' ');
-            btn.disabled = true;
-            btn.style.opacity = '0.3';
-            if (currentPractice.scrambleAnswerWords.length === words.length) {
-                checkWordScrambleAnswer();
-            }
-        };
-        scrambleLetters.appendChild(btn);
-    });
-}
-
-function clearScramble() {
-    if (currentPractice.currentWord.type === 'type-ws') {
-        renderWordScramble();
-    } else {
-        renderScramble();
-    }
-}
 
 function checkScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
@@ -2731,36 +2581,6 @@ function showFeedback(isCorrect) {
     }
 }
 
-function renderMatching() {
-    const container = document.getElementById('match-words');
-    const defContainer = document.getElementById('match-defs');
-    container.innerHTML = '';
-    defContainer.innerHTML = '';
-
-    const pool = currentPractice.words.slice(currentPractice.currentIndex, currentPractice.currentIndex + 5);
-    currentPractice.matchState.totalPairs = pool.length;
-    currentPractice.matchState.matchedCount = 0;
-    currentPractice.matchState.selectedWord = null;
-
-    const words = pool.map((w, i) => ({ text: w.word || w.text, id: i }));
-    const defs = pool.map((w, i) => ({ text: (w.definitions && w.definitions[0]?.text) || w.answer || w.opposite, id: i }));
-
-    words.sort(() => Math.random() - 0.5).forEach(w => {
-        const div = document.createElement('div');
-        div.className = 'match-item';
-        div.textContent = w.text;
-        div.onclick = () => selectMatchItem(div, w.id, 'word');
-        container.appendChild(div);
-    });
-
-    defs.sort(() => Math.random() - 0.5).forEach(d => {
-        const div = document.createElement('div');
-        div.className = 'match-item';
-        div.textContent = d.text;
-        div.onclick = () => selectMatchItem(div, d.id, 'def');
-        defContainer.appendChild(div);
-    });
-}
 
 function selectMatchItem(el, id, type) {
     if (el.classList.contains('matched')) return;
@@ -2798,36 +2618,6 @@ function selectMatchItem(el, id, type) {
     }
 }
 
-function renderSorting() {
-    const itemEl = document.getElementById('sorting-item');
-    const bucketsEl = document.getElementById('sorting-buckets');
-    bucketsEl.innerHTML = '';
-
-    const pool = currentPractice.words.slice(currentPractice.currentIndex, currentPractice.currentIndex + 6);
-    currentPractice.sortingState.items = pool;
-    currentPractice.sortingState.currentIndex = 0;
-
-    let buckets = [];
-    if (currentPractice.language === 'fr' || currentPractice.language === 'it') {
-        buckets = ['m', 'f'];
-    } else if (currentPractice.language === 'en') {
-        buckets = ['regular', 'irregular'];
-    } else {
-        buckets = [...new Set(pool.map(w => w.group || w.gender || 'Other'))];
-    }
-
-    buckets.forEach(b => {
-        const div = document.createElement('div');
-        div.className = 'sorting-bucket';
-        const label = (translations[currentPractice.language] && translations[currentPractice.language]['verb_group_' + b]) || b;
-        div.textContent = label;
-        div.onclick = () => checkSortingItem(b);
-        bucketsEl.appendChild(div);
-    });
-
-    showNextSortingItem();
-}
-
 function showNextSortingItem() {
     const itemEl = document.getElementById('sorting-item');
     if (currentPractice.sortingState.currentIndex >= currentPractice.sortingState.items.length) {
@@ -2849,74 +2639,7 @@ function checkSortingItem(bucket) {
     }
 }
 
-function renderLabeling() {
-    const imgArea = document.getElementById('labeling-image-area');
-    const inputArea = document.getElementById('labeling-input-area');
-    imgArea.innerHTML = '';
-    inputArea.innerHTML = '';
 
-    const wordObj = currentPractice.currentWord;
-    if (wordObj.image) {
-        const img = document.createElement('img');
-        img.src = wordObj.image;
-        img.style.maxWidth = '100%';
-        img.style.borderRadius = '10px';
-        imgArea.appendChild(img);
-    }
-
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.className = 'app-input';
-    input.placeholder = 'Type the word...';
-    input.onkeyup = (e) => {
-        if (e.key === 'Enter') {
-            if (input.value.toLowerCase() === (wordObj.word || wordObj.text).toLowerCase()) showFeedback(true);
-            else showFeedback(false);
-        }
-    };
-    inputArea.appendChild(input);
-    input.focus();
-}
-
-function renderWordBank() {
-    const sentenceEl = document.getElementById('word-bank-sentence');
-    const boxEl = document.getElementById('word-bank-box');
-    sentenceEl.innerHTML = '';
-    boxEl.innerHTML = '';
-
-    const wordObj = currentPractice.currentWord;
-    const sentence = wordObj.clozeText || wordObj.word;
-    const parts = sentence.split('____');
-
-    parts.forEach((p, i) => {
-        sentenceEl.appendChild(document.createTextNode(p));
-        if (i < parts.length - 1) {
-            const span = document.createElement('span');
-            span.className = 'blank';
-            span.textContent = '____';
-            sentenceEl.appendChild(span);
-        }
-    });
-
-    const choices = [wordObj.answer || wordObj.word];
-    const distractors = currentPractice.words
-        .map(w => w.answer || w.word)
-        .filter(v => v && v !== choices[0])
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3);
-    choices.push(...distractors);
-    choices.sort(() => Math.random() - 0.5);
-
-    choices.forEach(c => {
-        const btn = document.createElement('button');
-        btn.className = 'choice-btn';
-        btn.textContent = c;
-        btn.onclick = () => {
-            if (c.toLowerCase() === (wordObj.answer || wordObj.word).toLowerCase()) {
-                sentenceEl.querySelector('.blank').textContent = c;
-                showFeedback(true);
-            } else {
-                showFeedback(false);
             }
         };
         boxEl.appendChild(btn);
