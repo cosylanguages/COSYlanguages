@@ -148,6 +148,10 @@ function startLesson() {
             if (wordCopy.clozeText) possibleTypes.push('type-cl');
             if (wordCopy.article || wordCopy.gender) possibleTypes.push('type-ga');
             if (wordCopy.numberPlural) possibleTypes.push('type-np');
+            if (wordCopy.definitions) possibleTypes.push('type-ma');
+            if (wordCopy.gender || wordCopy.classification) possibleTypes.push('type-si');
+            if (wordCopy.image) possibleTypes.push('type-lp');
+            if (wordCopy.clozeText) possibleTypes.push('type-bb');
 
             if (wordCopy.type === 'conversation' || wordCopy.category === 'conversation') {
                 possibleTypes = ['type-cv'];
@@ -229,6 +233,10 @@ function showNextWord() {
     document.getElementById('choices-grid').style.display = 'none';
     document.getElementById('scramble-container').style.display = 'none';
     document.getElementById('conversation-container').style.display = 'none';
+    document.getElementById('matching-container').style.display = 'none';
+    document.getElementById('sorting-container').style.display = 'none';
+    document.getElementById('labeling-container').style.display = 'none';
+    document.getElementById('word-bank-container').style.display = 'none';
     document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
@@ -355,6 +363,30 @@ function showNextWord() {
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
         document.getElementById('conversation-container').style.display = 'block';
+    } else if (wordObj.type === 'type-ma') {
+        document.getElementById('word-display').style.display = 'none';
+        document.getElementById('emoji-display').textContent = '🧩';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_matching');
+        document.getElementById('matching-container').style.display = 'block';
+        renderMatching();
+    } else if (wordObj.type === 'type-si') {
+        document.getElementById('word-display').style.display = 'none';
+        document.getElementById('emoji-display').textContent = '🗂️';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_sorting');
+        document.getElementById('sorting-container').style.display = 'block';
+        renderSorting();
+    } else if (wordObj.type === 'type-lp') {
+        document.getElementById('word-display').style.display = 'none';
+        document.getElementById('emoji-display').textContent = '🖼️';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_labeling');
+        document.getElementById('labeling-container').style.display = 'block';
+        renderLabeling();
+    } else if (wordObj.type === 'type-bb') {
+        document.getElementById('word-display').style.display = 'none';
+        document.getElementById('emoji-display').textContent = '📥';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_word_bank');
+        document.getElementById('word-bank-container').style.display = 'block';
+        renderWordBank();
     } else {
         // type-op (opposite)
         wordObj.type = 'type-op';
@@ -676,6 +708,10 @@ function showFeedback(isCorrect) {
         document.getElementById('choices-grid').style.display = 'none';
         document.getElementById('scramble-container').style.display = 'none';
         document.getElementById('conversation-container').style.display = 'none';
+        document.getElementById('matching-container').style.display = 'none';
+        document.getElementById('sorting-container').style.display = 'none';
+        document.getElementById('labeling-container').style.display = 'none';
+        document.getElementById('word-bank-container').style.display = 'none';
     }
 }
 
@@ -775,4 +811,134 @@ function showHint() {
 function clearScramble() {
     if (currentLesson.currentWord.type === 'type-ws') renderWordScramble();
     else renderScramble();
+}
+
+function renderMatching() {
+    const container = document.getElementById('match-words');
+    const defContainer = document.getElementById('match-defs');
+    container.innerHTML = '';
+    defContainer.innerHTML = '';
+    const pool = currentLesson.words.slice(currentLesson.currentIndex, currentLesson.currentIndex + 5);
+    const words = pool.map((w, i) => ({ text: w.word, id: i }));
+    const defs = pool.map((w, i) => ({ text: w.definitions[0].text, id: i }));
+    currentLesson.matchState = { total: pool.length, count: 0, selected: null };
+
+    words.sort(() => Math.random() - 0.5).forEach(w => {
+        const div = document.createElement('div');
+        div.className = 'match-item';
+        div.textContent = w.text;
+        div.onclick = () => selectMatch(div, w.id, 'word');
+        container.appendChild(div);
+    });
+    defs.sort(() => Math.random() - 0.5).forEach(d => {
+        const div = document.createElement('div');
+        div.className = 'match-item';
+        div.textContent = d.text;
+        div.onclick = () => selectMatch(div, d.id, 'def');
+        defContainer.appendChild(div);
+    });
+}
+
+function selectMatch(el, id, type) {
+    if (el.classList.contains('matched')) return;
+    if (!currentLesson.matchState.selected) {
+        currentLesson.matchState.selected = { el, id, type };
+        el.classList.add('selected');
+    } else {
+        const prev = currentLesson.matchState.selected;
+        if (prev.type === type) {
+            prev.el.classList.remove('selected');
+            currentLesson.matchState.selected = { el, id, type };
+            el.classList.add('selected');
+        } else {
+            if (prev.id === id) {
+                prev.el.classList.remove('selected');
+                prev.el.classList.add('matched');
+                el.classList.add('matched');
+                currentLesson.matchState.selected = null;
+                currentLesson.matchState.count++;
+                if (currentLesson.matchState.count === currentLesson.matchState.total) showFeedback(true);
+            } else {
+                prev.el.classList.remove('selected');
+                prev.el.classList.add('incorrect');
+                el.classList.add('incorrect');
+                setTimeout(() => { prev.el.classList.remove('incorrect'); el.classList.remove('incorrect'); }, 500);
+                currentLesson.matchState.selected = null;
+            }
+        }
+    }
+}
+
+function renderSorting() {
+    const itemEl = document.getElementById('sorting-item');
+    const bucketsEl = document.getElementById('sorting-buckets');
+    bucketsEl.innerHTML = '';
+    const pool = currentLesson.words.slice(currentLesson.currentIndex, currentLesson.currentIndex + 6);
+    currentLesson.sortingItems = pool;
+    currentLesson.sortingIndex = 0;
+    const buckets = [...new Set(pool.map(w => w.gender || w.classification || 'Other'))];
+    buckets.forEach(b => {
+        const div = document.createElement('div');
+        div.className = 'sorting-bucket';
+        div.textContent = b;
+        div.onclick = () => {
+            if ((currentLesson.sortingItems[currentLesson.sortingIndex].gender || currentLesson.sortingItems[currentLesson.sortingIndex].classification) === b) {
+                currentLesson.sortingIndex++;
+                if (currentLesson.sortingIndex >= currentLesson.sortingItems.length) showFeedback(true);
+                else itemEl.textContent = currentLesson.sortingItems[currentLesson.sortingIndex].word;
+            } else showFeedback(false);
+        };
+        bucketsEl.appendChild(div);
+    });
+    itemEl.textContent = currentLesson.sortingItems[0].word;
+}
+
+function renderLabeling() {
+    const imgArea = document.getElementById('labeling-image-area');
+    const inputArea = document.getElementById('labeling-input-area');
+    imgArea.innerHTML = ''; inputArea.innerHTML = '';
+    const wordObj = currentLesson.currentWord;
+    if (wordObj.image) {
+        const img = document.createElement('img');
+        img.src = wordObj.image;
+        img.style.maxWidth = '100%';
+        imgArea.appendChild(img);
+    }
+    const input = document.createElement('input');
+    input.className = 'app-input';
+    input.onkeyup = (e) => { if (e.key === 'Enter') { if (input.value.toLowerCase() === wordObj.word.toLowerCase()) showFeedback(true); else showFeedback(false); } };
+    inputArea.appendChild(input);
+    input.focus();
+}
+
+function renderWordBank() {
+    const sentenceEl = document.getElementById('word-bank-sentence');
+    const boxEl = document.getElementById('word-bank-box');
+    sentenceEl.innerHTML = ''; boxEl.innerHTML = '';
+    const wordObj = currentLesson.currentWord;
+    const parts = (wordObj.clozeText || wordObj.word).split('____');
+    parts.forEach((p, i) => {
+        sentenceEl.appendChild(document.createTextNode(p));
+        if (i < parts.length - 1) {
+            const span = document.createElement('span');
+            span.className = 'blank';
+            span.textContent = '____';
+            sentenceEl.appendChild(span);
+        }
+    });
+    const choices = [wordObj.answer || wordObj.word];
+    const distractors = currentLesson.words.map(w => w.answer || w.word).filter(v => v !== choices[0]).slice(0, 3);
+    choices.push(...distractors);
+    choices.sort(() => Math.random() - 0.5).forEach(c => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = c;
+        btn.onclick = () => {
+            if (c.toLowerCase() === (wordObj.answer || wordObj.word).toLowerCase()) {
+                sentenceEl.querySelector('.blank').textContent = c;
+                showFeedback(true);
+            } else showFeedback(false);
+        };
+        boxEl.appendChild(btn);
+    });
 }

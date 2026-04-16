@@ -1844,6 +1844,95 @@ select.pill-input:focus {
 .g-quiz-opt.correct { background: var(--gh-green) !important; color: #fff !important; }
 .g-quiz-opt.wrong { background: var(--gh-red) !important; color: #fff !important; }
 
+/* ── New Exercise Types Styles ── */
+.match-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.match-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.match-item {
+    background: #fff;
+    border: 3px solid var(--black);
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.2s;
+    box-shadow: 4px 4px 0 var(--black);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.match-item:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--black); }
+.match-item.selected { background: var(--secondary-color); color: #fff; }
+.match-item.matched { background: var(--green); color: #fff; opacity: 0.6; cursor: default; transform: none !important; box-shadow: 2px 2px 0 var(--black); }
+.match-item.incorrect { background: var(--red); color: #fff; animation: shake 0.4s; }
+
+.sorting-active-item {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--gh-cream);
+    border: 3px solid var(--black);
+    box-shadow: 6px 6px 0 var(--black);
+}
+.sorting-buckets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+.sorting-bucket {
+    background: #fff;
+    border: 4px dashed var(--black);
+    padding: 2rem 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.sorting-bucket:hover { background: var(--gh-cream); border-style: solid; }
+
+.labeling-image-container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.labeling-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.word-bank-sentence {
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--gh-cream);
+    border: 2px solid var(--black);
+    border-radius: 8px;
+}
+.word-bank-sentence .blank {
+    display: inline-block;
+    min-width: 80px;
+    border-bottom: 3px solid var(--black);
+    margin: 0 8px;
+    padding: 0 10px;
+    color: var(--sage-dark);
+    cursor: pointer;
+}
+
 @media (max-width: 800px) {
   .grammar-layout { grid-template-columns: 1fr; }
   .grammar-sidebar {

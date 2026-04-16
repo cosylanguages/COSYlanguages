@@ -32,18 +32,18 @@ window.updateCategoryUI = function() {
 
     if (categoryId === 'speaking') {
         configureTask('type-cv', true, true);
-        ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf', 'type-ga', 'type-np', 'type-ws'].forEach(id => configureTask(id, false, false));
+        ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf', 'type-ga', 'type-np', 'type-ws', 'type-ma', 'type-si', 'type-lp', 'type-bb'].forEach(id => configureTask(id, false, false));
     } else if (categoryId === 'grammar') {
-        const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np', 'type-mc'];
+        const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np', 'type-mc', 'type-ma', 'type-si', 'type-bb'];
         taskCheckboxes.forEach(cb => {
             let isGrammar = grammarTasks.includes(cb.id);
             if (currentPractice.language === 'en' && cb.id === 'type-ga') isGrammar = false;
             configureTask(cb.id, isGrammar, isGrammar);
         });
-        ['type-cv', 'type-ls', 'type-sc', 'type-op', 'type-tf'].forEach(id => configureTask(id, false, false));
+        ['type-cv', 'type-ls', 'type-sc', 'type-op', 'type-tf', 'type-lp'].forEach(id => configureTask(id, false, false));
     } else {
         // vocab
-        const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf'];
+        const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf', 'type-ma', 'type-si', 'type-lp', 'type-bb'];
         taskCheckboxes.forEach(cb => {
             const isVocab = vocabTasks.includes(cb.id);
             configureTask(cb.id, isVocab, isVocab);
@@ -62,6 +62,15 @@ var currentPractice = {
     currentWord: null,
     isCorrect: false,
     scrambleAnswer: "",
+    matchState: {
+        selectedWord: null,
+        matchedCount: 0,
+        totalPairs: 0
+    },
+    sortingState: {
+        items: [],
+        currentIndex: 0
+    },
     score: 0,
     wheelItems: [],
     hintLevel: 0,
@@ -860,6 +869,11 @@ document.addEventListener('DOMContentLoaded', () => {
         checkOppositeBtn.addEventListener('click', checkTypedAnswer);
     }
 
+    const clearMatching = () => {
+        currentPractice.matchState.selectedWord = null;
+        currentPractice.matchState.matchedCount = 0;
+        renderMatching();
+    };
 
     if (trueBtn) {
         trueBtn.addEventListener('click', () => checkTrueFalseAnswer(true));
@@ -1460,6 +1474,10 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-ga').checked) enabledTypes.push('type-ga');
     if (document.getElementById('type-cv').checked) enabledTypes.push('type-cv');
     if (document.getElementById('type-np').checked) enabledTypes.push('type-np');
+    if (document.getElementById('type-ma').checked) enabledTypes.push('type-ma');
+    if (document.getElementById('type-si').checked) enabledTypes.push('type-si');
+    if (document.getElementById('type-lp').checked) enabledTypes.push('type-lp');
+    if (document.getElementById('type-bb').checked) enabledTypes.push('type-bb');
 
     if (enabledTypes.length === 0) {
         const msg = translations[lang]['alert_no_task_type'] || "Please select at least one task type!";
@@ -2051,6 +2069,7 @@ function showNextWord() {
 
     document.getElementById('feedback-message').textContent = '';
     document.getElementById('next-btn').classList.add('hidden');
+    document.getElementById('word-display').classList.remove('hidden');
     document.getElementById('opposite-answer').value = '';
     document.getElementById('opposite-input-container').classList.add('hidden');
     document.getElementById('action-buttons-container').classList.add('hidden');
@@ -2058,6 +2077,10 @@ function showNextWord() {
     document.getElementById('choices-grid').classList.add('hidden');
     document.getElementById('scramble-container').classList.add('hidden');
     document.getElementById('conversation-container').classList.add('hidden');
+    document.getElementById('matching-container').classList.add('hidden');
+    document.getElementById('sorting-container').classList.add('hidden');
+    document.getElementById('labeling-container').classList.add('hidden');
+    document.getElementById('word-bank-container').classList.add('hidden');
 
     if (wordObj.type === 'type-tf' || wordObj.type === 'type-cv') {
         document.getElementById('hint-btn').classList.add('hidden');
@@ -2289,6 +2312,30 @@ function showNextWord() {
         document.getElementById('action-buttons-container').classList.remove('hidden');
         document.getElementById('check-opposite-btn').classList.remove('hidden');
         document.getElementById('opposite-answer').focus();
+    } else if (wordObj.type === 'type-ma') {
+        document.getElementById('word-display').classList.add('hidden');
+        document.getElementById('emoji-display').textContent = '🧩';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_matching');
+        document.getElementById('matching-container').classList.remove('hidden');
+        renderMatching();
+    } else if (wordObj.type === 'type-si') {
+        document.getElementById('word-display').classList.add('hidden');
+        document.getElementById('emoji-display').textContent = '🗂️';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_sorting');
+        document.getElementById('sorting-container').classList.remove('hidden');
+        renderSorting();
+    } else if (wordObj.type === 'type-lp') {
+        document.getElementById('word-display').classList.add('hidden');
+        document.getElementById('emoji-display').textContent = '🖼️';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_labeling');
+        document.getElementById('labeling-container').classList.remove('hidden');
+        renderLabeling();
+    } else if (wordObj.type === 'type-bb') {
+        document.getElementById('word-display').classList.add('hidden');
+        document.getElementById('emoji-display').textContent = '📥';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_word_bank');
+        document.getElementById('word-bank-container').classList.remove('hidden');
+        renderWordBank();
     }
 
     if (typeof setLanguage === 'function') {
@@ -2659,6 +2706,10 @@ function showFeedback(isCorrect) {
         document.getElementById('choices-grid').classList.add('hidden');
         document.getElementById('scramble-container').classList.add('hidden');
         document.getElementById('conversation-container').classList.add('hidden');
+        document.getElementById('matching-container').classList.add('hidden');
+        document.getElementById('sorting-container').classList.add('hidden');
+        document.getElementById('labeling-container').classList.add('hidden');
+        document.getElementById('word-bank-container').classList.add('hidden');
         document.getElementById('hint-btn').classList.add('hidden');
     } else {
         const wordObj = currentPractice.currentWord;
@@ -2678,4 +2729,196 @@ function showFeedback(isCorrect) {
         const linkHTML = `<br><a href="${reviewURL}" target="_blank" style="color:inherit; font-size:0.85em; text-decoration:underline;">${reviewLabel}</a>`;
         feedbackMsg.innerHTML += linkHTML;
     }
+}
+
+function renderMatching() {
+    const container = document.getElementById('match-words');
+    const defContainer = document.getElementById('match-defs');
+    container.innerHTML = '';
+    defContainer.innerHTML = '';
+
+    const pool = currentPractice.words.slice(currentPractice.currentIndex, currentPractice.currentIndex + 5);
+    currentPractice.matchState.totalPairs = pool.length;
+    currentPractice.matchState.matchedCount = 0;
+    currentPractice.matchState.selectedWord = null;
+
+    const words = pool.map((w, i) => ({ text: w.word || w.text, id: i }));
+    const defs = pool.map((w, i) => ({ text: (w.definitions && w.definitions[0]?.text) || w.answer || w.opposite, id: i }));
+
+    words.sort(() => Math.random() - 0.5).forEach(w => {
+        const div = document.createElement('div');
+        div.className = 'match-item';
+        div.textContent = w.text;
+        div.onclick = () => selectMatchItem(div, w.id, 'word');
+        container.appendChild(div);
+    });
+
+    defs.sort(() => Math.random() - 0.5).forEach(d => {
+        const div = document.createElement('div');
+        div.className = 'match-item';
+        div.textContent = d.text;
+        div.onclick = () => selectMatchItem(div, d.id, 'def');
+        defContainer.appendChild(div);
+    });
+}
+
+function selectMatchItem(el, id, type) {
+    if (el.classList.contains('matched')) return;
+
+    if (!currentPractice.matchState.selectedWord) {
+        currentPractice.matchState.selectedWord = { el, id, type };
+        el.classList.add('selected');
+    } else {
+        const prev = currentPractice.matchState.selectedWord;
+        if (prev.type === type) {
+            prev.el.classList.remove('selected');
+            currentPractice.matchState.selectedWord = { el, id, type };
+            el.classList.add('selected');
+        } else {
+            if (prev.id === id) {
+                prev.el.classList.remove('selected');
+                prev.el.classList.add('matched');
+                el.classList.add('matched');
+                currentPractice.matchState.selectedWord = null;
+                currentPractice.matchState.matchedCount++;
+                if (currentPractice.matchState.matchedCount === currentPractice.matchState.totalPairs) {
+                    showFeedback(true);
+                }
+            } else {
+                prev.el.classList.remove('selected');
+                prev.el.classList.add('incorrect');
+                el.classList.add('incorrect');
+                setTimeout(() => {
+                    prev.el.classList.remove('incorrect');
+                    el.classList.remove('incorrect');
+                }, 500);
+                currentPractice.matchState.selectedWord = null;
+            }
+        }
+    }
+}
+
+function renderSorting() {
+    const itemEl = document.getElementById('sorting-item');
+    const bucketsEl = document.getElementById('sorting-buckets');
+    bucketsEl.innerHTML = '';
+
+    const pool = currentPractice.words.slice(currentPractice.currentIndex, currentPractice.currentIndex + 6);
+    currentPractice.sortingState.items = pool;
+    currentPractice.sortingState.currentIndex = 0;
+
+    let buckets = [];
+    if (currentPractice.language === 'fr' || currentPractice.language === 'it') {
+        buckets = ['m', 'f'];
+    } else if (currentPractice.language === 'en') {
+        buckets = ['regular', 'irregular'];
+    } else {
+        buckets = [...new Set(pool.map(w => w.group || w.gender || 'Other'))];
+    }
+
+    buckets.forEach(b => {
+        const div = document.createElement('div');
+        div.className = 'sorting-bucket';
+        const label = (translations[currentPractice.language] && translations[currentPractice.language]['verb_group_' + b]) || b;
+        div.textContent = label;
+        div.onclick = () => checkSortingItem(b);
+        bucketsEl.appendChild(div);
+    });
+
+    showNextSortingItem();
+}
+
+function showNextSortingItem() {
+    const itemEl = document.getElementById('sorting-item');
+    if (currentPractice.sortingState.currentIndex >= currentPractice.sortingState.items.length) {
+        showFeedback(true);
+        return;
+    }
+    const item = currentPractice.sortingState.items[currentPractice.sortingState.currentIndex];
+    itemEl.textContent = item.word || item.text;
+}
+
+function checkSortingItem(bucket) {
+    const item = currentPractice.sortingState.items[currentPractice.sortingState.currentIndex];
+    const correct = item.gender || item.classification || item.group;
+    if (correct === bucket) {
+        currentPractice.sortingState.currentIndex++;
+        showNextSortingItem();
+    } else {
+        showFeedback(false);
+    }
+}
+
+function renderLabeling() {
+    const imgArea = document.getElementById('labeling-image-area');
+    const inputArea = document.getElementById('labeling-input-area');
+    imgArea.innerHTML = '';
+    inputArea.innerHTML = '';
+
+    const wordObj = currentPractice.currentWord;
+    if (wordObj.image) {
+        const img = document.createElement('img');
+        img.src = wordObj.image;
+        img.style.maxWidth = '100%';
+        img.style.borderRadius = '10px';
+        imgArea.appendChild(img);
+    }
+
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'app-input';
+    input.placeholder = 'Type the word...';
+    input.onkeyup = (e) => {
+        if (e.key === 'Enter') {
+            if (input.value.toLowerCase() === (wordObj.word || wordObj.text).toLowerCase()) showFeedback(true);
+            else showFeedback(false);
+        }
+    };
+    inputArea.appendChild(input);
+    input.focus();
+}
+
+function renderWordBank() {
+    const sentenceEl = document.getElementById('word-bank-sentence');
+    const boxEl = document.getElementById('word-bank-box');
+    sentenceEl.innerHTML = '';
+    boxEl.innerHTML = '';
+
+    const wordObj = currentPractice.currentWord;
+    const sentence = wordObj.clozeText || wordObj.word;
+    const parts = sentence.split('____');
+
+    parts.forEach((p, i) => {
+        sentenceEl.appendChild(document.createTextNode(p));
+        if (i < parts.length - 1) {
+            const span = document.createElement('span');
+            span.className = 'blank';
+            span.textContent = '____';
+            sentenceEl.appendChild(span);
+        }
+    });
+
+    const choices = [wordObj.answer || wordObj.word];
+    const distractors = currentPractice.words
+        .map(w => w.answer || w.word)
+        .filter(v => v && v !== choices[0])
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3);
+    choices.push(...distractors);
+    choices.sort(() => Math.random() - 0.5);
+
+    choices.forEach(c => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = c;
+        btn.onclick = () => {
+            if (c.toLowerCase() === (wordObj.answer || wordObj.word).toLowerCase()) {
+                sentenceEl.querySelector('.blank').textContent = c;
+                showFeedback(true);
+            } else {
+                showFeedback(false);
+            }
+        };
+        boxEl.appendChild(btn);
+    });
 }

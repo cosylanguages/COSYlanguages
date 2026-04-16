@@ -15,6 +15,8 @@ test.describe('Events Page & Crossword Game', () => {
     });
 
     test('Open and Verify Crossword Game', async ({ page }) => {
+        // Force mobile viewport to ensure sheet logic triggers correctly
+        await page.setViewportSize({ width: 375, height: 667 });
         const card = page.locator('.game-card-lobby[data-game="crossword"]');
         await card.locator('.gc-btn-play').click();
         await expect(page.locator('#game-setup-sheet')).toHaveClass(/open/);
@@ -29,6 +31,7 @@ test.describe('Events Page & Crossword Game', () => {
     });
 
     test('Verify Pin to Home Feature on Events', async ({ page }) => {
+        await page.setViewportSize({ width: 375, height: 667 });
         const card = page.locator('.game-card-lobby[data-game="crossword"]');
         await card.locator('.gc-btn-play').click();
         const pinBtn = page.locator('#gss-pin-btn');
