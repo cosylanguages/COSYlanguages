@@ -18,6 +18,9 @@ test('Verify English A1 General curriculum in student area', async ({ page }) =>
     await expect(page.locator('.l-title').getByText('A day in my life — routines revisited')).toBeVisible();
     await expect(page.locator('.l-title').getByText('Final assessment and reflection')).toBeVisible();
 
+    // In the new design, we need to switch to the Library tab first
+    await page.locator('#btn-tab-library').click();
+
     // Check for "Full Roadmap" button
     await expect(page.locator('#open-roadmap-btn')).toBeVisible();
     await page.locator('#open-roadmap-btn').click();
@@ -39,6 +42,9 @@ test('Verify French B1 simplified curriculum in student area', async ({ page }) 
 
     // Check for first lesson in curriculum_data.js for FR B1
     await expect(page.locator('.l-title').getByText('Opinions & Arguments')).toBeVisible();
+
+    // In the new design, we need to switch to the Library tab first
+    await page.locator('#btn-tab-library').click();
 
     // Check that Full Roadmap IS visible for FR B1 (since we now enable it for all supported languages)
     await expect(page.locator('#open-roadmap-btn')).toBeVisible();
