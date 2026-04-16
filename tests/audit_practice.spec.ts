@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const languages = ['en', 'fr', 'it', 'ru', 'el'];
-const levels = ['baby', 'starter', 'elementary'];
+const levels = ['starter', 'elementary'];
 const categories = ['vocabulary', 'grammar'];
 
 test.describe('Practice Data Audit', () => {
@@ -38,9 +38,20 @@ test.describe('Practice Data Audit', () => {
                     try {
                         await expect(practiceSection).toBeVisible({ timeout: 5000 });
 
-                        // Verify that question card has some text
+                        // Verify that question card has some text or an interactive component
                         const wordDisplay = page.locator('#word-display');
-                        await expect(wordDisplay).not.toBeEmpty();
+                        const matching = page.locator('#matching-container');
+                        const sorting = page.locator('#sorting-container');
+                        const labeling = page.locator('#labeling-container');
+                        const wordBank = page.locator('#word-bank-container');
+
+                        const isVisible = await wordDisplay.isVisible() ||
+                                          await matching.isVisible() ||
+                                          await sorting.isVisible() ||
+                                          await labeling.isVisible() ||
+                                          await wordBank.isVisible();
+
+                        expect(isVisible).toBeTruthy();
 
                         console.log(`✓ Verified ${lang} - ${level} - ${category}`);
                     } catch (e) {

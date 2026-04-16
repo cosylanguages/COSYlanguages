@@ -257,6 +257,22 @@
                                 <input type="checkbox" id="type-np" checked>
                                 <span data-translate-key="type_np">Numbers & Plurals</span>
                             </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-ma" checked>
+                                <span data-translate-key="type_ma">Matching</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-si" checked>
+                                <span data-translate-key="type_si">Sorting</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-lp" checked>
+                                <span data-translate-key="type_lp">Label Pictures</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-bb" checked>
+                                <span data-translate-key="type_bb">Word Bank</span>
+                            </label>
                         </div>
                     </div>
                 </details>
@@ -361,6 +377,32 @@
                         <div id="conversation-container" class="hidden">
                             <textarea id="conversation-response" class="pill-input area-input" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
                             <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
+                        </div>
+
+                        <!-- Matching task -->
+                        <div id="matching-container" class="hidden full-width">
+                            <div class="match-container">
+                                <div><div class="match-col-title" data-translate-key="match_words">Words</div><div id="match-words" class="match-items"></div></div>
+                                <div><div class="match-col-title" data-translate-key="match_defs">Definitions</div><div id="match-defs" class="match-items"></div></div>
+                            </div>
+                        </div>
+
+                        <!-- Sorting task -->
+                        <div id="sorting-container" class="hidden full-width">
+                            <div id="sorting-item" class="sorting-active-item"></div>
+                            <div id="sorting-buckets" class="sorting-buckets-grid"></div>
+                        </div>
+
+                        <!-- Labeling task -->
+                        <div id="labeling-container" class="hidden full-width">
+                            <div id="labeling-image-area" class="labeling-image-container"></div>
+                            <div id="labeling-input-area" class="labeling-input-container"></div>
+                        </div>
+
+                        <!-- Word Bank task -->
+                        <div id="word-bank-container" class="hidden full-width">
+                            <div id="word-bank-sentence" class="word-bank-sentence"></div>
+                            <div id="word-bank-box" class="choices-grid"></div>
                         </div>
                     </div>
 
