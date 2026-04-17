@@ -356,68 +356,94 @@ footer {
                 </div>
             </div>
 
-            <div id="practice-section">
+            <div id="practice-section" class="session-ui-mobile">
                 <div id="practice-progress" class="progress-bar-container">
                     <div id="progress-fill" class="progress-fill"></div>
                 </div>
                 <div id="progress-text"></div>
 
-                <div id="question-card">
+                <div id="question-card" class="event-item">
                     <div id="lesson-info" class="lesson-badge"></div>
-                    <div id="emoji-display" class="practice-emoji"></div>
+                    <div id="emoji-display" class="practice-emoji large-emoji"></div>
                     <div id="task-instruction" class="task-text"></div>
-                    <div id="task-what-to-do" class="what-to-do-box" style="display: none;"></div>
-                    <div id="task-example" class="subtext-display" style="display: none; background: rgba(255, 193, 7, 0.1); border-color: var(--secondary-color); margin-bottom: 1rem;"></div>
-                    <div class="word-container">
-                        <div id="word-display" class="word-text"></div>
-                        <button id="listen-btn" class="cta-button secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-top: 0.5rem;" data-translate-key="listen_btn">Listen 🔊</button>
+                    <div id="task-what-to-do" class="what-to-do-box hidden"></div>
+                    <div id="task-example" class="subtext-display task-example hidden"></div>
+                    <div class="word-container stack-column gap-sm margin-bottom-xl">
+                        <div id="word-display" class="word-text jumbo-text"></div>
+                        <button id="listen-btn" class="cta-button secondary btn-sm" data-translate-key="listen_btn">Listen 🔊</button>
                     </div>
                     <div id="subtext-display" class="subtext-display"></div>
 
-                    <div id="answer-area">
+                    <div id="answer-area" class="answers-mobile">
                         <!-- Opposite/Cloze task -->
-                        <div id="opposite-input-container" style="display: none; flex-direction: column; align-items: center; width: 100%;">
-                            <input type="text" id="opposite-answer" class="app-input" data-translate-key="placeholder_type_here" placeholder="..." autocomplete="off" autocapitalize="off" spellcheck="false" style="width: 100%; max-width: 400px; font-size: 1.5rem; border-radius: 20px; padding: 1.2rem; margin-bottom: 1.5rem; border: 3px solid var(--border); text-align: center;">
+                        <div id="opposite-input-container" class="hidden stack-column align-center full-width">
+                            <input type="text" id="opposite-answer" class="app-input jumbo-input" data-translate-key="placeholder_type_here" placeholder="..." autocomplete="off" autocapitalize="off" spellcheck="false">
                         </div>
 
-                        <div id="action-buttons-container" style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem;">
+                        <div id="action-buttons-container" class="hidden">
                             <button id="check-opposite-btn" class="cta-button primary" data-translate-key="check_btn">Check 🔍</button>
                             <button id="hint-btn" class="cta-button secondary" data-translate-key="hint_btn">Hint 💡</button>
                         </div>
 
                         <!-- True/False task -->
-                        <div id="tf-buttons-container" style="display: none;">
+                        <div id="tf-buttons-container" class="hidden">
                             <button id="true-btn" class="topics-toggle-btn" data-translate-key="true_btn">True ✅</button>
                             <button id="false-btn" class="topics-toggle-btn" data-translate-key="false_btn">False ❌</button>
                         </div>
 
                         <!-- Multiple Choice task -->
-                        <div id="choices-grid" class="choices-grid" style="display: none;">
+                        <div id="choices-grid" class="choices-grid hidden">
                             <!-- Buttons will be generated here -->
                         </div>
 
                         <!-- Scramble task -->
-                        <div id="scramble-container" style="display: none;">
+                        <div id="scramble-container" class="hidden">
                             <div id="word-assembly" class="word-assembly"></div>
                             <div id="scramble-letters" class="choices-grid"></div>
                             <button id="clear-scramble-btn" class="topics-toggle-btn secondary-btn" data-translate-key="clear_btn">Clear 🔄</button>
                         </div>
 
                         <!-- Conversation task -->
-                        <div id="conversation-container" style="display: none;">
-                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
+                        <div id="conversation-container" class="hidden">
+                            <textarea id="conversation-response" class="pill-input area-input" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
                             <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
+                        </div>
+
+                        <!-- Matching task -->
+                        <div id="matching-container" class="hidden full-width">
+                            <div class="match-container">
+                                <div><div class="match-col-title" data-translate-key="match_words">Words</div><div id="match-words" class="match-items"></div></div>
+                                <div><div class="match-col-title" data-translate-key="match_defs">Definitions</div><div id="match-defs" class="match-items"></div></div>
+                            </div>
+                        </div>
+
+                        <!-- Sorting task -->
+                        <div id="sorting-container" class="hidden full-width">
+                            <div id="sorting-item" class="sorting-active-item"></div>
+                            <div id="sorting-buckets" class="sorting-buckets-grid"></div>
+                        </div>
+
+                        <!-- Labeling task -->
+                        <div id="labeling-container" class="hidden full-width">
+                            <div id="labeling-image-area" class="labeling-image-container"></div>
+                            <div id="labeling-input-area" class="labeling-input-container"></div>
+                        </div>
+
+                        <!-- Word Bank task -->
+                        <div id="word-bank-container" class="hidden full-width">
+                            <div id="word-bank-sentence" class="word-bank-sentence"></div>
+                            <div id="word-bank-box" class="choices-grid"></div>
                         </div>
                     </div>
 
                     <div id="feedback-message" class="feedback-text"></div>
-                    <button id="next-btn" class="cta-button" style="display: none;" data-translate-key="next_word">Next Word ➡️</button>
+                    <button id="next-btn" class="cta-button hidden" data-translate-key="next_word">Next Word ➡️</button>
                 </div>
 
-                <div class="practice-footer" style="display: flex; justify-content: center; gap: 2rem; margin-top: 20px;">
+                <div class="practice-footer">
                     <div><span data-translate-key="score_label">COSY Points: ✨</span> <span id="score-count">0</span></div>
                 </div>
-                <div style="text-align: center; margin-top: 30px;">
+                <div class="exit-container">
                     <button id="exit-lesson-btn" class="cta-button secondary" data-translate-key="exit_btn">Exit Lesson 🏠</button>
                 </div>
             </div>
@@ -453,6 +479,7 @@ footer {
 
 
     <script src="js/data/theme_config.js"></script>
+    <script src="js/data/grammar_config.js"></script>
     <script src="js/translate.js"></script>
     <script src="js/games/utils/shared.js"></script>
     <script src="js/srs.js"></script>

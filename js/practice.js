@@ -913,61 +913,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-function showHint() {
-    const wordObj = currentPractice.currentWord;
-    if (!wordObj) return;
-    currentPractice.usedHint = true;
-
-    let targetAnswer = "";
-    const taskType = wordObj.type;
-    if (taskType === 'type-cl' || taskType === 'type-mc' || taskType === 'type-sc' || taskType === 'type-ga' || taskType === 'type-np' || taskType === 'type-ls' || taskType === 'type-ws') {
-        targetAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic || wordObj.article || wordObj.gender;
-    } else if (taskType === 'type-op') {
-        targetAnswer = wordObj.opposite;
-    } else {
-        return; // No hint for type-tf or type-cv
-    }
-
-    if (!targetAnswer) return;
-
-    let tip = "";
-    if (wordObj.classification) {
-        const classLabel = (translations[currentPractice.language] && translations[currentPractice.language][`verb_classification_${wordObj.classification}`]) || wordObj.classification;
-        tip += classLabel + " ";
-    }
-    if (wordObj.group) {
-        tip += "(" + wordObj.group + ") ";
-    }
-    if (tip) tip = tip.trim() + ": ";
-
-    // Support multiple correct answers
-    const answers = targetAnswer.split(' / ').map(a => a.trim());
-    currentPractice.hintLevel = (currentPractice.hintLevel || 0) + 1;
-
-    const hints = answers.map(ans => {
-        // Reveal up to length - 2 characters to keep some challenge
-        const maxReveal = Math.max(1, ans.length - 2);
-        const revealCount = Math.min(currentPractice.hintLevel, maxReveal);
-        let hintPart = ans.substring(0, revealCount);
-        if (hintPart) {
-            hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
-            return hintPart + "...";
-        }
-        return "...";
-    });
-
-    const feedbackMsg = document.getElementById('feedback-message');
-    feedbackMsg.className = 'feedback-text hint';
-    feedbackMsg.textContent = "Hint: " + tip + hints.join(' / ');
-}
-
-function speakWord() {
-    if (!currentPractice.currentWord) return;
-    const text = (currentPractice.currentWord.type === 'type-ga' && currentPractice.currentWord.baseWord)
-        ? currentPractice.currentWord.baseWord
-        : (currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.baseWord);
-    window.gameUtils.speak(text, currentPractice.language);
-}
 
 function playSound(isCorrect) {
     const successUrl = 'https://assets.mixkit.co/active_storage/sfx/2013/2013-preview.mp3';
@@ -977,99 +922,8 @@ function playSound(isCorrect) {
     audio.play().catch(e => {});
 }
 
-function updateProgress() {
-    const progressFill = document.getElementById('progress-fill');
-    const progressText = document.getElementById('progress-text');
-    if (!progressFill || !progressText) return;
 
-    const total = currentPractice.words.length;
-    let current = currentPractice.currentIndex;
 
-    if (currentPractice.isWheelMode) {
-        current = total - currentPractice.wheelItems.length;
-    }
-
-    const displayIndex = current < total ? current + 1 : total;
-    const percentage = total > 0 ? (current / total) * 100 : 0;
-
-    progressFill.style.width = percentage + '%';
-
-    const lang = currentPractice.language;
-    const wordLabel = (translations[lang] && translations[lang]['progress_word']) ? translations[lang]['progress_word'] : 'Word';
-    const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
-
-    progressText.textContent = `${wordLabel} ${displayIndex} ${ofLabel} ${total}`;
-
-    // Mobile UX: update progress bar
-    if (typeof updateProgressBar === 'function') {
-        updateProgressBar(current, total);
-    }
-}
-
-function loadStreak() {
-    const streak = localStorage.getItem('practice_streak') || 0;
-    const streakCountEl = document.getElementById('streak-count');
-    if (streakCountEl) {
-        streakCountEl.textContent = streak;
-    }
-    return parseInt(streak);
-}
-
-function loadTotalScore() {
-    const total = parseInt(localStorage.getItem('cosy_total_points') || 0);
-    const totalScoreEl = document.getElementById('total-score-count');
-    const setupTotalScoreEl = document.getElementById('setup-total-score');
-    if (totalScoreEl) {
-        totalScoreEl.textContent = total;
-    }
-    if (setupTotalScoreEl) {
-        setupTotalScoreEl.textContent = total;
-    }
-    return total;
-}
-
-function updateTotalScore(points) {
-    let total = loadTotalScore();
-    total += points;
-    localStorage.setItem('cosy_total_points', total);
-    const totalScoreEl = document.getElementById('total-score-count');
-    const setupTotalScoreEl = document.getElementById('setup-total-score');
-    if (totalScoreEl) {
-        totalScoreEl.textContent = total;
-    }
-    if (setupTotalScoreEl) {
-        setupTotalScoreEl.textContent = total;
-    }
-    return total;
-}
-
-function updateStreak() {
-    const lastDate = localStorage.getItem('last_practice_date');
-    const today = new Date().toDateString();
-
-    if (lastDate === today) return;
-
-    let streak = parseInt(localStorage.getItem('practice_streak') || 0);
-
-    if (lastDate) {
-        const lastPractice = new Date(lastDate);
-        const todayDate = new Date(today);
-        const diffTime = Math.abs(todayDate - lastPractice);
-        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-
-        if (diffDays === 1) {
-            streak++;
-        } else {
-            streak = 1;
-        }
-    } else {
-        streak = 1;
-    }
-
-    localStorage.setItem('practice_streak', streak);
-    localStorage.setItem('last_practice_date', today);
-    loadStreak();
-}
 
 function triggerAnimation(type) {
     const card = document.getElementById('question-card');
@@ -1086,61 +940,6 @@ function triggerAnimation(type) {
         setTimeout(() => card.classList.remove('shake'), 500);
     }
 }
-
-const GRAMMAR_CONFIG = {
-    fr: {
-        articles: ['le', 'la', "l'", 'les'],
-        pronouns: ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles']
-    },
-    it: {
-        articles: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le'],
-        pronouns: ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro']
-    },
-    ru: {
-        articles: ['он', 'она', 'оно', 'они'],
-        pronouns: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они']
-    },
-    el: {
-        articles: ['ο', 'η', 'το', 'οι', 'τα'],
-        pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί', 'αυτές', 'αυτά']
-    },
-    en: {
-        articles: ['the'],
-        pronouns: ['I', 'you', 'he', 'she', 'it', 'we', 'they']
-    },
-    es: {
-        articles: ['el', 'la', 'los', 'las'],
-        pronouns: ['yo', 'tú', 'él', 'ella', 'nosotros', 'vosotros', 'ellos', 'ellas']
-    },
-    pt: {
-        articles: ['o', 'a', 'os', 'as'],
-        pronouns: ['eu', 'tu', 'ele', 'ela', 'nós', 'vós', 'eles', 'elas']
-    },
-    de: {
-        articles: ['der', 'die', 'das'],
-        pronouns: ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'sie']
-    },
-    hy: {
-        articles: [],
-        pronouns: ['ես', 'դու', 'նա', 'մենք', 'դուք', 'նրանք']
-    },
-    ka: {
-        articles: [],
-        pronouns: ['მე', 'შენ', 'ის', 'ჩვენ', 'თქვენ', 'ისინი']
-    },
-    tt: {
-        articles: [],
-        pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар']
-    },
-    ba: {
-        articles: [],
-        pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар']
-    },
-    br: {
-        articles: ['an', 'al', 'ar'],
-        pronouns: ["me", "te", "eñ", "hi", "ni", "c'hwi", "int"]
-    }
-};
 
 function expandGrammarItems(items, lang) {
     let expanded = [];
@@ -1733,6 +1532,10 @@ async function startPractice(isWheelMode = false) {
 
         if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'type-op');
         if (!wordCopy.clozeText && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'type-cl');
+        if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'type-bb');
+        if (!(wordCopy.definitions && wordCopy.definitions.length > 0) && !wordCopy.answer && !wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'type-ma');
+        if (!wordCopy.group && !wordCopy.gender && !wordCopy.classification && !wordCopy.form) possibleTypes = possibleTypes.filter(t => t !== 'type-si');
+        if (!wordCopy.image && !wordCopy.emoji) possibleTypes = possibleTypes.filter(t => t !== 'type-lp');
 
         // Grammar category specific filtering to avoid task type mismatch
         if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
@@ -1965,160 +1768,14 @@ function resumePractice() {
     }
 }
 
-function showWordDefinition() {
-    const wordObj = currentPractice.currentWord;
-    if (!wordObj) return;
-
-    const hasDefinitions = wordObj.definitions && wordObj.definitions.length > 0;
-    const isVerbRelated = (wordObj.form === 'verb' || wordObj.form === 'verb_form' || wordObj.verb);
-    const hasVerbMeta = isVerbRelated && (wordObj.group || wordObj.v2 || wordObj.v3 || wordObj.past_participle);
-
-    if (!hasDefinitions && !hasVerbMeta) return;
-
-    const modal = document.getElementById('definition-modal');
-    const content = document.getElementById('definition-content');
-    const titleEl = document.getElementById('definition-modal-title');
-    const lang = currentPractice.language;
-    const t = translations[lang] || translations['en'];
-
-    // Update Modal Title
-    titleEl.textContent = (t['definition_modal_title'] || 'Definition');
-    titleEl.removeAttribute('data-translate-key');
-
-    content.innerHTML = '';
-
-    // 1. Header (Image + Word + Transcription + Verb Info)
-    const header = document.createElement('div');
-    header.className = 'definition-header';
-
-    // Visual asset logic (Emoji priority, then Image)
-    const imgContainer = document.createElement('div');
-    imgContainer.className = 'definition-image-container';
-    const displayWord = wordObj.word || wordObj.text || wordObj.topic || "";
-
-    if (wordObj.emoji) {
-        const emojiEl = document.createElement('div');
-        emojiEl.className = 'definition-emoji-large';
-        emojiEl.textContent = wordObj.emoji;
-        imgContainer.appendChild(emojiEl);
-        header.appendChild(imgContainer);
-    } else if (wordObj.image) {
-        const img = document.createElement('img');
-        img.className = 'definition-image';
-        img.src = wordObj.image;
-        img.alt = displayWord;
-        imgContainer.appendChild(img);
-        header.appendChild(imgContainer);
-    } else {
-        // No visual asset: skip imgContainer
-    }
-
-    // Word Info
-    const wordInfo = document.createElement('div');
-    wordInfo.className = 'definition-word-info';
-
-    const wordTitle = document.createElement('h3');
-    wordTitle.className = 'word-title-main';
-    wordTitle.textContent = displayWord;
-    wordInfo.appendChild(wordTitle);
-
-    if (wordObj.transcription) {
-        const trans = document.createElement('div');
-        trans.className = 'definition-transcription';
-        trans.textContent = `[${wordObj.transcription}]`;
-        wordInfo.appendChild(trans);
-    }
-
-    // Verb Info (Irregular forms + Group)
-    if (wordObj.form === 'verb') {
-        const verbInfo = document.createElement('div');
-        verbInfo.className = 'definition-verb-info';
-
-        if (wordObj.v2 || wordObj.v3) {
-            const irreg = document.createElement('span');
-            irreg.className = 'irregular-forms';
-            let irregText = "";
-            if (wordObj.v2) irregText += wordObj.v2;
-            if (wordObj.v2 && wordObj.v3) irregText += " / ";
-            if (wordObj.v3) irregText += wordObj.v3;
-            irreg.textContent = irregText;
-            verbInfo.appendChild(irreg);
-        }
-
-        if (wordObj.group) {
-            const groupBadge = document.createElement('span');
-            groupBadge.className = 'verb-group-badge';
-            const groupKey = 'verb_group_' + wordObj.group.toLowerCase().replace(/^-/, '').replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/_$/, '');
-            groupBadge.textContent = t[groupKey] || wordObj.group;
-            verbInfo.appendChild(groupBadge);
-        }
-
-        if (verbInfo.children.length > 0) {
-            wordInfo.appendChild(verbInfo);
-        }
-    }
-    header.appendChild(wordInfo);
-    content.appendChild(header);
-
-    // 2. Definitions
-    wordObj.definitions.forEach((def, index) => {
-        const defDiv = document.createElement('div');
-        defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
-
-        const textPara = document.createElement('p');
-        textPara.className = 'definition-text';
-        textPara.textContent = def.text;
-        defDiv.appendChild(textPara);
-
-        // 3. Examples (inside definition block)
-        if (def.examples && def.examples.length > 0) {
-            const exList = document.createElement('ul');
-            exList.className = 'examples-list';
-            def.examples.forEach(ex => {
-                const li = document.createElement('li');
-                li.innerHTML = `<span class="example-prefix">e.g.</span> ${ex}`;
-                exList.appendChild(li);
-            });
-            defDiv.appendChild(exList);
-        }
-        content.appendChild(defDiv);
-    });
-
-    // 4. Footer (Collocations, Antonyms, Synonyms)
-    if (wordObj.subtext || wordObj.opposite || (wordObj.synonyms && wordObj.synonyms.length > 0)) {
-        const footer = document.createElement('div');
-        footer.className = 'definition-footer';
-
-        if (wordObj.subtext) {
-            const collPara = document.createElement('div');
-            collPara.className = 'synonym-antonym-item';
-            collPara.innerHTML = `<span class="synonym-symbol">🔗</span>${wordObj.subtext}`;
-            footer.appendChild(collPara);
-        }
-
-        if (wordObj.opposite) {
-            const antPara = document.createElement('div');
-            antPara.className = 'synonym-antonym-item';
-            antPara.innerHTML = `<span class="antonym-symbol">≠</span>${wordObj.opposite}`;
-            footer.appendChild(antPara);
-        }
-
-        if (wordObj.synonyms && wordObj.synonyms.length > 0) {
-            const synPara = document.createElement('div');
-            synPara.className = 'synonym-antonym-item';
-            synPara.innerHTML = `<span class="synonym-symbol">=</span>${wordObj.synonyms.join(', ')}`;
-            footer.appendChild(synPara);
-        }
-
-        content.appendChild(footer);
-    }
-
-    modal.classList.remove('hidden');
-    if (typeof setLanguage === 'function') setLanguage(lang);
-}
 
 function showNextWord() {
     if (!currentPractice.isWheelMode) {
+        // Skip words already consumed by Matching/Sorting tasks
+        while (currentPractice.currentIndex < currentPractice.words.length && currentPractice.words[currentPractice.currentIndex].used) {
+            currentPractice.currentIndex++;
+        }
+
         if (currentPractice.currentIndex >= currentPractice.words.length) {
             updateProgress();
             showSummary();
@@ -2135,20 +1792,12 @@ function showNextWord() {
     const wordObj = currentPractice.currentWord;
     currentPractice.isCorrect = false;
 
-    document.getElementById('feedback-message').textContent = '';
-    document.getElementById('next-btn').classList.add('hidden');
+    if (typeof resetExerciseUI === 'function') {
+        resetExerciseUI();
+    }
+
     document.getElementById('word-display').classList.remove('hidden');
     document.getElementById('opposite-answer').value = '';
-    document.getElementById('opposite-input-container').classList.add('hidden');
-    document.getElementById('action-buttons-container').classList.add('hidden');
-    document.getElementById('tf-buttons-container').classList.add('hidden');
-    document.getElementById('choices-grid').classList.add('hidden');
-    document.getElementById('scramble-container').classList.add('hidden');
-    document.getElementById('conversation-container').classList.add('hidden');
-    document.getElementById('matching-container').classList.add('hidden');
-    document.getElementById('sorting-container').classList.add('hidden');
-    document.getElementById('labeling-container').classList.add('hidden');
-    document.getElementById('word-bank-container').classList.add('hidden');
 
     if (wordObj.type === 'type-tf' || wordObj.type === 'type-cv') {
         document.getElementById('hint-btn').classList.add('hidden');
@@ -2428,283 +2077,13 @@ function showNextWord() {
 }
 
 
-function checkMultipleChoiceAnswer(choice, btn) {
-    const wordObj = currentPractice.currentWord;
-    const targetValue = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).toLowerCase();
-    const possibleAnswers = targetValue.split(' / ').map(a => a.trim().toLowerCase());
-
-    // In MC mode, the choice could be a single correct variant OR the full concatenated answer string.
-    // We check if the clicked button's text is one of the valid single answers or matches the full string.
-    const isCorrect = possibleAnswers.some(a => a === choice.toLowerCase()) || choice.toLowerCase() === targetValue;
-
-    if (isCorrect) {
-        btn.classList.add('correct');
-        showFeedback(true);
-    } else {
-        btn.classList.add('incorrect');
-        // SRS integration: record incorrect
-        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
-        if (itemId) {
-            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
-        }
-        showFeedback(false);
-    }
-}
 
 
 
-function checkScrambleAnswer() {
-    const wordObj = currentPractice.currentWord;
-    const target = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic)
-        .replace(/[.,!?;:\-]/g, '')
-        .replace(/\s/g, '')
-        .toLowerCase();
-    const current = currentPractice.scrambleAnswer.toLowerCase();
-
-    if (current === target) {
-        showFeedback(true);
-    } else {
-        // SRS integration: record incorrect
-        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
-        if (itemId) {
-            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
-        }
-        showFeedback(false);
-        setTimeout(clearScramble, 1000);
-    }
-}
-
-function checkWordScrambleAnswer() {
-    const wordObj = currentPractice.currentWord;
-    // Normalize target: remove punctuation and multiple spaces
-    const target = (wordObj.word || wordObj.text || wordObj.topic)
-        .toLowerCase()
-        .replace(/[.,!?;:\-]+/g, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-
-    const current = currentPractice.scrambleAnswerWords
-        .join(' ')
-        .toLowerCase()
-        .replace(/[.,!?;:\-]+/g, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-
-    if (current === target) {
-        showFeedback(true);
-    } else {
-        // SRS integration: record incorrect
-        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
-        if (itemId) {
-            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
-        }
-        showFeedback(false);
-        setTimeout(clearScramble, 1000);
-    }
-}
-
-function checkTypedAnswer() {
-    const normalize = (s) => s.toLowerCase().replace(/[.,!?;:\-]/g, '').replace(/\s+/g, ' ').trim();
-    const userAnswer = normalize(document.getElementById('opposite-answer').value);
-    let correctAnswer;
-
-    const type = currentPractice.currentWord.type;
-    if (type === 'type-cl' || type === 'type-np') {
-        correctAnswer = (currentPractice.currentWord.answer || "");
-    } else if (type === 'type-op') {
-        correctAnswer = (currentPractice.currentWord.opposite || "");
-    } else {
-        // Fallback for other types that might reach here
-        const w = currentPractice.currentWord;
-        correctAnswer = (w.answer || w.word || w.text || w.topic || "");
-    }
-
-    const possibleAnswers = correctAnswer.split(' / ').map(a => normalize(a));
-
-    // User is correct if they type any of the valid alternatives
-    const isCorrect = possibleAnswers.some(a => a === userAnswer);
-
-    if (isCorrect) {
-        showFeedback(true);
-    } else {
-        // SRS integration: record incorrect
-        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
-        if (itemId) {
-            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
-        }
-        showFeedback(false);
-    }
-}
-
-function checkTrueFalseAnswer(userAnswer) {
-    if (userAnswer === currentPractice.tfCorrectAnswer) {
-        showFeedback(true);
-    } else {
-        // SRS integration: record incorrect
-        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
-        if (itemId) {
-            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
-        }
-        showFeedback(false);
-    }
-}
-
-function showSummary() {
-    updateStreak();
-    clearSession();
-    const resumeBtn = document.getElementById('resume-btn');
-    if (resumeBtn) resumeBtn.classList.add('hidden');
-
-    const finalScoreEl = document.getElementById('final-score');
-    const finalTotalScoreEl = document.getElementById('final-total-score');
-    const finalStreakEl = document.getElementById('final-streak');
-    const streakUnitEl = document.getElementById('streak-unit');
-    const summaryModal = document.getElementById('summary-modal');
-    const practiceSection = document.getElementById('practice-section');
-
-    if (finalScoreEl) finalScoreEl.textContent = currentPractice.score;
-    if (finalTotalScoreEl) finalTotalScoreEl.textContent = loadTotalScore();
-
-    const streak = loadStreak();
-    if (finalStreakEl) finalStreakEl.textContent = streak;
-    if (streakUnitEl) {
-        const lang = currentPractice.language;
-        const dayKey = streak === 1 ? 'streak_day' : 'streak_days';
-        streakUnitEl.textContent = (translations[lang] && translations[lang][dayKey]) ? translations[lang][dayKey] : 'days';
-        streakUnitEl.setAttribute('data-translate-key', dayKey);
-    }
-
-    if (summaryModal) summaryModal.classList.remove('hidden');
-    if (practiceSection) practiceSection.classList.add('hidden');
-
-    window.gameUtils.createConfetti();
-}
-
-function showFeedback(isCorrect) {
-    const feedbackMsg = document.getElementById('feedback-message');
-    feedbackMsg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
-
-    if (typeof flashAnswer === 'function') {
-        flashAnswer(isCorrect);
-    }
-    feedbackMsg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
-
-    // Mobile UX: flash feedback
-    if (typeof flashAnswer === 'function') {
-        flashAnswer(isCorrect);
-    }
-
-    playSound(isCorrect);
-    if (!isCorrect) {
-        triggerAnimation('shake');
-    }
-
-    if (typeof setLanguage === 'function') {
-        setLanguage(currentPractice.language);
-    }
-
-    if (isCorrect) {
-        currentPractice.score += 10;
-        document.getElementById('score-count').textContent = currentPractice.score;
-        updateTotalScore(10);
-
-        // SRS integration: record performance
-        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
-        if (itemId) {
-            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, true, currentPractice.usedHint);
-        }
-
-        currentPractice.isCorrect = true;
-        document.getElementById('next-btn').classList.remove('hidden');
-
-        saveSession();
-        document.getElementById('opposite-input-container').classList.add('hidden');
-        document.getElementById('action-buttons-container').classList.add('hidden');
-        document.getElementById('tf-buttons-container').classList.add('hidden');
-        document.getElementById('choices-grid').classList.add('hidden');
-        document.getElementById('scramble-container').classList.add('hidden');
-        document.getElementById('conversation-container').classList.add('hidden');
-        document.getElementById('matching-container').classList.add('hidden');
-        document.getElementById('sorting-container').classList.add('hidden');
-        document.getElementById('labeling-container').classList.add('hidden');
-        document.getElementById('word-bank-container').classList.add('hidden');
-        document.getElementById('hint-btn').classList.add('hidden');
-    } else {
-        const wordObj = currentPractice.currentWord;
-        const lang = currentPractice.language;
-        let reviewURL = "";
-        const cat = document.querySelector('input[name="practice-cat"]:checked')?.id.replace('cat-', '');
-
-        if (cat === 'grammar') {
-            const verb = wordObj.verb || wordObj.baseWord || wordObj.word;
-            reviewURL = `grammar-reference.html?lang=${lang}#verb-${verb.replace(/\s+/g, '-')}`;
-        } else {
-            const search = wordObj.word || wordObj.text || wordObj.topic;
-            reviewURL = `vocabulary-reference.html?lang=${lang}&search=${encodeURIComponent(search)}`;
-        }
-
-        const reviewLabel = (translations[lang] && translations[lang]['review_ref']) || "Review in Reference 📚";
-        const linkHTML = `<br><a href="${reviewURL}" target="_blank" style="color:inherit; font-size:0.85em; text-decoration:underline;">${reviewLabel}</a>`;
-        feedbackMsg.innerHTML += linkHTML;
-    }
-}
 
 
-function selectMatchItem(el, id, type) {
-    if (el.classList.contains('matched')) return;
 
-    if (!currentPractice.matchState.selectedWord) {
-        currentPractice.matchState.selectedWord = { el, id, type };
-        el.classList.add('selected');
-    } else {
-        const prev = currentPractice.matchState.selectedWord;
-        if (prev.type === type) {
-            prev.el.classList.remove('selected');
-            currentPractice.matchState.selectedWord = { el, id, type };
-            el.classList.add('selected');
-        } else {
-            if (prev.id === id) {
-                prev.el.classList.remove('selected');
-                prev.el.classList.add('matched');
-                el.classList.add('matched');
-                currentPractice.matchState.selectedWord = null;
-                currentPractice.matchState.matchedCount++;
-                if (currentPractice.matchState.matchedCount === currentPractice.matchState.totalPairs) {
-                    showFeedback(true);
-                }
-            } else {
-                prev.el.classList.remove('selected');
-                prev.el.classList.add('incorrect');
-                el.classList.add('incorrect');
-                setTimeout(() => {
-                    prev.el.classList.remove('incorrect');
-                    el.classList.remove('incorrect');
-                }, 500);
-                currentPractice.matchState.selectedWord = null;
-            }
-        }
-    }
-}
 
-function showNextSortingItem() {
-    const itemEl = document.getElementById('sorting-item');
-    if (currentPractice.sortingState.currentIndex >= currentPractice.sortingState.items.length) {
-        showFeedback(true);
-        return;
-    }
-    const item = currentPractice.sortingState.items[currentPractice.sortingState.currentIndex];
-    itemEl.textContent = item.word || item.text;
-}
 
-function checkSortingItem(bucket) {
-    const item = currentPractice.sortingState.items[currentPractice.sortingState.currentIndex];
-    const correct = item.gender || item.classification || item.group;
-    if (correct === bucket) {
-        currentPractice.sortingState.currentIndex++;
-        showNextSortingItem();
-    } else {
-        showFeedback(false);
-    }
-}
 
 
