@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosy-v4';
+const CACHE_NAME = 'cosy-v5';
 const STATIC_ASSETS = [
   '/COSYlanguages/',
   '/COSYlanguages/index.html',
@@ -41,13 +41,21 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Network-First for HTML files (always see latest content)
-  if (e.request.mode === 'navigate' || e.request.url.endsWith('.html')) {
+  // Network-First for Code Files (HTML, JS, CSS)
+  // This ensures that if online, users always see the latest pricing and logic.
+  const isCodeFile = e.request.mode === 'navigate' ||
+                     url.pathname.endsWith('.html') ||
+                     url.pathname.endsWith('.js') ||
+                     url.pathname.endsWith('.css');
+
+  if (isCodeFile) {
     e.respondWith(
       fetch(e.request)
         .then(res => {
-          const clone = res.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          if (res.ok) {
+            const clone = res.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          }
           return res;
         })
         .catch(() => caches.match(e.request))
@@ -55,13 +63,15 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Stale-While-Revalidate for other assets (JS, CSS, Images)
+  // Cache-First with background update for Media (Images, Fonts)
   e.respondWith(
     caches.match(e.request).then(cached => {
       const networked = fetch(e.request)
         .then(res => {
-          const clone = res.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          if (res.ok) {
+            const clone = res.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          }
           return res;
         })
         .catch(() => null);
