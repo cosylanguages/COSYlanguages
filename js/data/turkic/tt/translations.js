@@ -317,6 +317,7 @@
             ikea_it_desc: "Swedish home furnishing retailer.",
             incorrect: "Incorrect. Try again! ❌",
             incorrect_btn: "Incorrect ❌",
+            review_ref: "Белешмәлектә карарга 📚",
             intermediate: "Middle school (B1)",
             invalid_code: "Invalid code. Please try again or contact us.",
             invalid_selection: "Invalid selection",
