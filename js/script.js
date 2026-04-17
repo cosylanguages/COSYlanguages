@@ -76,7 +76,7 @@
         el: { 15: 15, 30: 20, 60: 30, 90: 40, 120: 50 },
     };
     const TYPE_M = { general: 1.0, spoken: 0.9, exam: 1.2 };
-    const DISC = { 1: 0, 8: .10, 16: .15, 32: .20 };
+    const DISC = { 1: 0, 8: .05, 16: .10, 32: .15 };
     const CUR_R = { EUR: 1, USD: 1.08, RUB: 92 };
     const CUR_S = { EUR: '€', USD: '$', RUB: '₽' };
     const GRP_LG = { en: 'English 🇬🇧', fr: 'Français 🇫🇷', it: 'Italiano 🇮🇹', ru: 'Русский 🇷🇺', el: 'Ελληνικά 🇬🇷' };
