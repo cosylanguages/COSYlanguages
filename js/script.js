@@ -69,17 +69,17 @@
 
     // --- Calculator ---
     const RATES = {
-        en: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
-        fr: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
-        it: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
-        ru: { 15: 5, 30: 9, 60: 16, 90: 22, 120: 28 },
-        el: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
+        en: { 15: 5, 30: 10, 60: 20, 90: 30, 120: 40 },
+        fr: { 15: 10, 30: 15, 60: 25, 90: 35, 120: 45 },
+        it: { 15: 10, 30: 15, 60: 25, 90: 35, 120: 45 },
+        ru: { 15: 15, 30: 20, 60: 30, 90: 40, 120: 50 },
+        el: { 15: 15, 30: 20, 60: 30, 90: 40, 120: 50 },
     };
-    const TYPE_M = { general: 1.0, spoken: 0.9, exam: 1.15 };
+    const TYPE_M = { general: 1.0, spoken: 1.0, exam: 1.0 };
     const DISC = { 1: 0, 8: .05, 16: .10, 32: .15 };
     const CUR_R = { EUR: 1, USD: 1.08, RUB: 92 };
     const CUR_S = { EUR: '€', USD: '$', RUB: '₽' };
-    const GRP_LG = { en: 'English 🇬🇧', fr: 'Français 🇫🇷', it: 'Italiano 🇮🇹', ru: 'Русский 🇷🇺' };
+    const GRP_LG = { en: 'English 🇬🇧', fr: 'Français 🇫🇷', it: 'Italiano 🇮🇹', ru: 'Русский 🇷🇺', el: 'Ελληνικά 🇬🇷' };
 
     window.calcPrice = function() {
         const langSelect = document.getElementById('calc-lang');
@@ -118,15 +118,6 @@
         packField.style.opacity = '';
         durField.style.pointerEvents = '';
         packField.style.pointerEvents = '';
-
-        if (lang === 'el') {
-            el('calc-total').textContent = window.t('lang_coming_soon');
-            el('calc-detail').textContent = window.t('calc_greek_soon');
-            el('calc-note').textContent = '';
-            el('calc-cta').textContent = window.t('calc_get_notified');
-            el('calc-cta').href = 'https://wa.me/330766784195?text=Hi!%20Please%20notify%20me%20when%20Greek%20lessons%20are%20available.';
-            return;
-        }
 
         const base = RATES[lang][dur];
         const multiplier = TYPE_M[type];
