@@ -1087,61 +1087,6 @@ function triggerAnimation(type) {
     }
 }
 
-const GRAMMAR_CONFIG = {
-    fr: {
-        articles: ['le', 'la', "l'", 'les'],
-        pronouns: ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles']
-    },
-    it: {
-        articles: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le'],
-        pronouns: ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro']
-    },
-    ru: {
-        articles: ['он', 'она', 'оно', 'они'],
-        pronouns: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они']
-    },
-    el: {
-        articles: ['ο', 'η', 'το', 'οι', 'τα'],
-        pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί', 'αυτές', 'αυτά']
-    },
-    en: {
-        articles: ['the'],
-        pronouns: ['I', 'you', 'he', 'she', 'it', 'we', 'they']
-    },
-    es: {
-        articles: ['el', 'la', 'los', 'las'],
-        pronouns: ['yo', 'tú', 'él', 'ella', 'nosotros', 'vosotros', 'ellos', 'ellas']
-    },
-    pt: {
-        articles: ['o', 'a', 'os', 'as'],
-        pronouns: ['eu', 'tu', 'ele', 'ela', 'nós', 'vós', 'eles', 'elas']
-    },
-    de: {
-        articles: ['der', 'die', 'das'],
-        pronouns: ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'sie']
-    },
-    hy: {
-        articles: [],
-        pronouns: ['ես', 'դու', 'նա', 'մենք', 'դուք', 'նրանք']
-    },
-    ka: {
-        articles: [],
-        pronouns: ['მე', 'შენ', 'ის', 'ჩვენ', 'თქვენ', 'ისინი']
-    },
-    tt: {
-        articles: [],
-        pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар']
-    },
-    ba: {
-        articles: [],
-        pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар']
-    },
-    br: {
-        articles: ['an', 'al', 'ar'],
-        pronouns: ["me", "te", "eñ", "hi", "ni", "c'hwi", "int"]
-    }
-};
-
 function expandGrammarItems(items, lang) {
     let expanded = [];
     const config = GRAMMAR_CONFIG[lang] || { articles: [], pronouns: [] };
@@ -2139,16 +2084,24 @@ function showNextWord() {
     document.getElementById('next-btn').classList.add('hidden');
     document.getElementById('word-display').classList.remove('hidden');
     document.getElementById('opposite-answer').value = '';
-    document.getElementById('opposite-input-container').classList.add('hidden');
-    document.getElementById('action-buttons-container').classList.add('hidden');
-    document.getElementById('tf-buttons-container').classList.add('hidden');
-    document.getElementById('choices-grid').classList.add('hidden');
-    document.getElementById('scramble-container').classList.add('hidden');
-    document.getElementById('conversation-container').classList.add('hidden');
-    document.getElementById('matching-container').classList.add('hidden');
-    document.getElementById('sorting-container').classList.add('hidden');
-    document.getElementById('labeling-container').classList.add('hidden');
-    document.getElementById('word-bank-container').classList.add('hidden');
+
+    // Explicitly reset all task type containers
+    const containers = [
+        'opposite-input-container',
+        'action-buttons-container',
+        'tf-buttons-container',
+        'choices-grid',
+        'scramble-container',
+        'conversation-container',
+        'matching-container',
+        'sorting-container',
+        'labeling-container',
+        'word-bank-container'
+    ];
+    containers.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add('hidden');
+    });
 
     if (wordObj.type === 'type-tf' || wordObj.type === 'type-cv') {
         document.getElementById('hint-btn').classList.add('hidden');

@@ -308,6 +308,14 @@ function renderLabeling() {
         img.style.maxWidth = '100%';
         img.style.borderRadius = '10px';
         imgArea.appendChild(img);
+    } else if (wordObj.emoji) {
+        const emojiEl = document.createElement('div');
+        emojiEl.className = 'labeling-emoji';
+        emojiEl.style.fontSize = '5rem';
+        emojiEl.style.textAlign = 'center';
+        emojiEl.style.marginBottom = '1rem';
+        emojiEl.textContent = wordObj.emoji;
+        imgArea.appendChild(emojiEl);
     }
 
     const input = document.createElement('input');
