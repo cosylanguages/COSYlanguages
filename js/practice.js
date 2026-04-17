@@ -1451,13 +1451,82 @@ function expandGrammarItems(items, lang) {
 }
 
 
-function startPractice(isWheelMode = false) {
+const LANG_PATH_MAP = {
+    'en': 'germanic/en',
+    'de': 'germanic/de',
+    'fr': 'romance/fr',
+    'it': 'romance/it',
+    'es': 'romance/es',
+    'pt': 'romance/pt',
+    'ru': 'slavic/ru',
+    'el': 'hellenic/el',
+    'hy': 'armenian/hy',
+    'ka': 'kartvelian/ka',
+    'tt': 'turkic/tt',
+    'ba': 'turkic/ba',
+    'br': 'celtic/br'
+};
+
+async function loadPracticeData(lang, level, cat) {
+    const levels = level === "all" ? ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"] : [level];
+    const familyPath = LANG_PATH_MAP[lang];
+    if (!familyPath) return;
+
+    const categories = {
+        'vocab': ['vocabulary', 'locations', 'people', 'nationalities'],
+        'grammar': ['grammar', 'verbs', 'adjectives'],
+        'speaking': ['speaking']
+    };
+
+    const files = categories[cat] || [];
+    const promises = [];
+
+    // Base path adjustment if needed
+    const prefix = ""; // practice.html is at root
+
+    for (const file of files) {
+        levels.forEach(lv => { const path = `${prefix}js/data/${familyPath}/${lv}/${file}.js`; promises.push(loadScript(path)); });
+    }
+
+    if (levels.includes('starter')) {
+        promises.push(loadScript(`${prefix}js/data/${familyPath}/alphabets.js`));
+    }
+
+    if (!window.numbersData) promises.push(loadScript(`${prefix}js/data/numbers.js`));
+
+    await Promise.allSettled(promises);
+}
+
+function loadScript(path) {
+    return new Promise((resolve) => {
+        if (document.querySelector(`script[src*="${path}"]`)) return resolve();
+        const script = document.createElement('script');
+        script.src = path;
+        script.async = true;
+        script.onload = resolve;
+        script.onerror = resolve;
+        document.head.appendChild(script);
+    });
+}
+
+async function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
     const lang = activeLangCard ? activeLangCard.getAttribute('data-value') : 'en';
     currentPractice.language = lang;
 
+    const selectedLevel = document.getElementById('practice-level').value;
+    const selectedCat = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
+
+    // Dynamic loading
+    const loadingMsg = (window.translations && window.translations[lang] && window.translations[lang]['loading']) || "Loading data...";
+    if (window.gameUtils && window.gameUtils.showGameMessage) {
+        window.gameUtils.showGameMessage('setup-section', loadingMsg);
+    }
+
+    await loadPracticeData(lang, selectedLevel, selectedCat);
+
+
     const urlParams = new URLSearchParams(window.location.search);
-    const selectedLevel = urlParams.get('level') || document.getElementById('practice-level').value;
     const selectedTheme = urlParams.get('theme') || document.getElementById('practice-theme').value;
     const selectedSubTheme = urlParams.get('subTheme') || document.getElementById('practice-sub-theme').value;
 
@@ -1487,7 +1556,6 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    const selectedCat = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
 
     let rawItems = [];
 
@@ -2640,8 +2708,3 @@ function checkSortingItem(bucket) {
 }
 
 
-            }
-        };
-        boxEl.appendChild(btn);
-    });
-}

@@ -6,14 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grammar Reference — COSYlanguages</title>
     <!-- Data Dependencies -->
-    <script src="js/data/germanic/en/starter/grammar.js"></script>
-    <script src="js/data/romance/fr/starter/grammar.js"></script>
-    <script src="js/data/romance/it/starter/grammar.js"></script>
-    <script src="js/data/slavic/ru/starter/grammar.js"></script>
-    <script src="js/data/hellenic/el/starter/grammar.js"></script>
-    <script src="js/data/romance/es/starter/grammar.js"></script>
-    <script src="js/data/germanic/de/starter/grammar.js"></script>
-    <script src="js/data/romance/pt/starter/grammar.js"></script>
     <script src="js/data/curriculum_data.js"></script>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
@@ -320,7 +312,26 @@ const LANG_NAMES = {
   el: "Ελληνικά"
 };
 
-function setLang(lang) {
+async function loadGrammarData(lang) {
+  const family = {
+    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
+    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
+  }[lang];
+  if (!family) return;
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const ps = [];
+  levels.forEach(lv => {
+    const path = `js/data/${family}/${lv}/grammar.js`;
+    ps.push(new Promise(res => {
+      const s = document.createElement("script");
+      s.src = path; s.onload = res; s.onerror = res;
+      document.head.appendChild(s);
+    }));
+  });
+  await Promise.all(ps);
+}
+async function setLang(lang) {
+  await loadGrammarData(lang);
   const verbs = window.grammarData?.[lang] || [];
   if (!verbs.length) {
     console.warn("No grammar data found for lang:", lang);
@@ -444,10 +455,10 @@ function initScrollSpy() {
   cards.forEach(c => currentObserver.observe(c));
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   const urlParams = new URLSearchParams(window.location.search);
   const lang = urlParams.get('lang') || 'en';
-  setLang(lang);
+  await setLang(lang);
 });
 </script>
 </body>
