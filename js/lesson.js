@@ -13,7 +13,7 @@ var currentLesson = {
     hintLevel: 0
 };
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     // Initial setup
     const urlParams = new URLSearchParams(window.location.search);
     currentLesson.language = urlParams.get('lang') || 'en';
@@ -113,12 +113,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    startLesson();
+    await startLesson();
 });
 
-function startLesson() {
+async function loadLessonData(day) {
+    const path = `js/data/lessons/day${day}.js`;
+    if (document.querySelector(`script[src*="${path}"]`)) return;
+    return new Promise(res => {
+        const s = document.createElement("script");
+        s.src = path; s.onload = res; s.onerror = res;
+        document.head.appendChild(s);
+    });
+}
+async function startLesson() {
+
     const lang = currentLesson.language;
     const day = currentLesson.day;
+    await loadLessonData(day);
 
     const { showGameMessage } = window.gameUtils || {};
 
@@ -190,6 +201,7 @@ function startLesson() {
 
         showNextWord();
     } else {
+
         const lang = currentLesson.language;
         const msg = `<h3>Coming Soon! 🚧</h3><p>Interactive practice for Day ${day} in ${lang.toUpperCase()} is being prepared.</p><p>Check back soon or message your teacher!</p>`;
 
@@ -243,6 +255,7 @@ function showNextWord() {
     // Show "What to do" instruction
     const wtdEl = document.getElementById('task-what-to-do');
     if (wtdEl) {
+
         const lang = currentLesson.language;
         const typeKey = wordObj.form === 'verb_form' ? 'vf' :
                         wordObj.form === 'verb' ? 'gv' :
@@ -270,6 +283,7 @@ function showNextWord() {
     // Task Example
     const exampleEl = document.getElementById('task-example');
     if (exampleEl) {
+
         const lang = currentLesson.language;
         let typeKey = "";
         if (wordObj.form === 'verb_form') {
@@ -421,6 +435,7 @@ function showWordDefinition() {
     const modal = document.getElementById('definition-modal');
     const content = document.getElementById('definition-content');
     const titleEl = document.getElementById('definition-modal-title');
+
     const lang = currentLesson.language;
     const t = translations[lang] || translations['en'];
 
@@ -641,6 +656,7 @@ function updateProgress() {
     const percentage = (current / total) * 100;
     if (fill) fill.style.width = percentage + '%';
     if (text) {
+
         const lang = currentLesson.language;
         const wordLabel = (translations[lang] && translations[lang]['progress_word']) ? translations[lang]['progress_word'] : 'Word';
         const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
