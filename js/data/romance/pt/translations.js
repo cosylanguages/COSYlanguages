@@ -64,7 +64,7 @@
             calculator_course_type: "Course Type 🎓:",
             calculator_currency: "Currency 💵:",
             calculator_duration: "Lesson Duration (minutes) ⏱️:",
-            calculator_greek_coming_soon: "Ελληνικά 🇬🇷 (coming soon)",
+            calculator_greek_coming_soon: "Ελληνικά 🇬🇷",
             calculator_language: "Language 🌍:",
             calculator_lesson_pack: "Lesson Pack 📦:",
             calculator_title: "Price Calculator 🧮",
