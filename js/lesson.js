@@ -248,7 +248,7 @@ function showNextWord() {
     if (hintBtn) {
         hintBtn.classList.toggle('hidden', wordObj.type === 'type-tf' || wordObj.type === 'type-cv');
     }
-    document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
+    document.getElementById('lesson-info').textContent = wordObj.lessonTitle || `Day ${currentLesson.day}`;
 
     // Show "What to do" instruction
     const wtdEl = document.getElementById('task-what-to-do');
@@ -441,7 +441,6 @@ function showNextWord() {
     if (typeof setLanguage === 'function') setLanguage(currentLesson.language);
 
     // Add definition hint
-    const wordDisplay = document.getElementById('word-display');
     if (wordDisplay) {
         if (wordObj.definitions && wordObj.definitions.length > 0) {
             wordDisplay.classList.add('has-definition');
