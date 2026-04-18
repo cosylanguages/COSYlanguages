@@ -251,7 +251,7 @@
           <div class="code-group">
             <input id="ci" type="text" placeholder="COSY-FR-B1-GEN" maxlength="24" autocomplete="off" spellcheck="false">
             <div class="err-msg" id="em">❌ Code not found. <a href="https://wa.me/330766784195" target="_blank">Contact us →</a></div>
-            <button class="btn-primary-new" onclick="unlock()" data-translate-key="unlock_btn">Unlock my lessons 🔓</button>
+            <button class="btn-primary-new" onclick="cosyDays.unlock()" data-translate-key="unlock_btn">Unlock my lessons 🔓</button>
           </div>
           <div class="gate-foot">No code yet? <a href="https://wa.me/330766784195" target="_blank">Message us on WhatsApp →</a></div>
         </div>
@@ -261,7 +261,7 @@
         <div class="s-header">
           <div><h2 id="wh">Welcome back 👋</h2><p id="wp">Your personalised curriculum</p></div>
           <div class="badges" id="bdg"></div>
-          <button class="btn-out" onclick="logout()">Log out</button>
+          <button class="btn-out" onclick="cosyDays.logout()">Log out</button>
         </div>
         <div class="prog-box">
           <div class="prog-row"><span>Your progress</span><span id="pc" style="font-size:13px;color:var(--ink-faint)">0 / 0</span></div>
@@ -270,7 +270,7 @@
         </div>
         <div class="day-jump">
           <label for="ds">Jump to day:</label>
-          <select id="ds" onchange="jumpTo(this.value)"></select>
+          <select id="ds" onchange="cosyDays.jumpTo(this.value)"></select>
         </div>
 
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
@@ -295,6 +295,7 @@
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/curriculum_data.js"></script>
     <script src="js/translate.js"></script>
+    <script src="js/days.js"></script>
     <script src="js/mobile.js"></script>
     <script src="js/script.js"></script>
 </body>

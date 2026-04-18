@@ -43,18 +43,19 @@ test.describe('Grammar Roadmap Navigation', () => {
         await expect(quizQ.locator('.quiz-feedback')).toHaveText(/Correct|Esatto/);
     });
 
-    test('Grammar Hub (grammar.html) visibility', async ({ page }) => {
+    test('Grammar Hub (grammar-reference.html) visibility', async ({ page }) => {
         await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
-        await page.goto('http://localhost:8080/grammar.html');
+        await page.goto('http://localhost:8080/grammar-reference.html');
 
-        await expect(page.getByText('English')).toBeVisible();
-        await expect(page.getByText('Français')).toBeVisible();
-        await expect(page.getByText('Italiano')).toBeVisible();
+        // Use exact matches or specific roles to avoid matching substrings like "Student"
+        await expect(page.getByRole('button', { name: /EN/ })).toBeVisible();
+        await expect(page.getByRole('button', { name: /FR/ })).toBeVisible();
+        await expect(page.getByRole('button', { name: /IT/ })).toBeVisible();
     });
 
     test('Grammar Reference redirects if not unlocked', async ({ page }) => {
         await page.evaluate(() => localStorage.removeItem('student_unlocked'));
-        await page.goto('http://localhost:8080/grammar.html');
+        await page.goto('http://localhost:8080/grammar-reference.html');
         await expect(page).toHaveURL(/days.html/);
     });
 });
