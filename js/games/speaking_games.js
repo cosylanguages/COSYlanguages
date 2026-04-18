@@ -250,7 +250,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            pool.sort(() => Math.random() - 0.5);
+            const seed = setupArea.querySelector(".game-seed")?.value;
+            if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
+            else pool.sort(() => Math.random() - 0.5);
             setupArea.style.display = 'none';
             gameArea.style.display = 'block';
             showNext();
@@ -299,10 +301,8 @@ document.addEventListener('DOMContentLoaded', () => {
             statementDisplay.textContent = item.text;
 
             // Improvements: buildGroupReveal
-            if (true) {
-                document.getElementById('oa-group-reveal').innerHTML = OpinionArenaGame.buildGroupReveal();
-                document.getElementById('oa-vocab-support').innerHTML = ''; // Hide until end
-            }
+            document.getElementById('oa-group-reveal').innerHTML = OpinionArenaGame.buildGroupReveal();
+            document.getElementById('oa-vocab-support').innerHTML = ''; // Hide until end
 
             stopTimer();
             const duration = parseInt(document.getElementById('opinion-timer-duration')?.value || '120');
@@ -312,9 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
             startTimer('opinion-timer', duration, () => {
                 statementDisplay.textContent += ` (${t('time_up')})`;
                 // Improvements: buildVocabSupport
-                if (true) {
-                    document.getElementById('oa-vocab-support').innerHTML = OpinionArenaGame.buildVocabSupport(lang);
-                }
+                document.getElementById('oa-vocab-support').innerHTML = OpinionArenaGame.buildVocabSupport(lang);
 
                 if (isSolo) {
                     const robotOpinion = Math.random() > 0.5 ? "agree" : "disagree";
@@ -515,20 +513,18 @@ document.addEventListener('DOMContentLoaded', () => {
             topicDisplay.textContent = item.topic;
 
             // Improvements: FluentyFlowGame.getPrompts
-            if (true) {
-                const currentLevel = document.getElementById('talk-level').value;
-                const prompts = FluentyFlowGame.getPrompts(item, currentLevel);
-                const promptsHtml = `
-                    <div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:8px">
-                        ${prompts.map(p =>
-                        `<span style="background:#e8f0e9;color:#4a6b50;border-radius:999px;
-                            padding:4px 12px;font-size:.78rem;font-weight:700">${p}</span>`
-                        ).join('')}
-                    </div>
-                `;
-                document.getElementById('ff-prompts').innerHTML = promptsHtml;
-                document.getElementById('ff-assessment-area').innerHTML = '';
-            }
+            const currentLevel = document.getElementById('talk-level').value;
+            const prompts = FluentyFlowGame.getPrompts(item, currentLevel);
+            const promptsHtml = `
+                <div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:8px">
+                    ${prompts.map(p =>
+                    `<span style="background:#e8f0e9;color:#4a6b50;border-radius:999px;
+                        padding:4px 12px;font-size:.78rem;font-weight:700">${p}</span>`
+                    ).join('')}
+                </div>
+            `;
+            document.getElementById('ff-prompts').innerHTML = promptsHtml;
+            document.getElementById('ff-assessment-area').innerHTML = '';
 
             stopTimer();
             const duration = parseInt(document.getElementById('talk-timer-duration')?.value || '180');
@@ -537,9 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
             startTimer('talk-timer', duration, () => {
                 topicDisplay.textContent += ` (${t('time_up')})`;
                 // Improvements: buildSelfAssessment
-                if (true) {
-                    document.getElementById('ff-assessment-area').innerHTML = FluentyFlowGame.buildSelfAssessment(item);
-                }
+                document.getElementById('ff-assessment-area').innerHTML = FluentyFlowGame.buildSelfAssessment(item);
                 if (isSolo) {
                     setTimeout(() => {
                         showGameMessage(gameArea, t('ff_robot_feedback'));

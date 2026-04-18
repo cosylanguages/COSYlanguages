@@ -130,24 +130,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = themeSelect.value;
             const level = modal.querySelector('.game-level').value;
 
-            const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-            pool = vocab.filter(item => isThemeMatch(item.theme, theme));
-
-            if (level !== 'all') {
-                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
-                const targetIdx = levels.indexOf(level);
-                pool = pool.filter(item => {
-                    const itemIdx = levels.indexOf(item.level || 'starter');
-                    return itemIdx !== -1 && itemIdx <= targetIdx;
-                });
-            }
+            pool = window.gameUtils.getVocabPool(lang, level, theme);
 
             if (pool.length === 0) {
                 showGameMessage(modal.querySelector('.game-setup'), t('alert_no_quest_items'), 'error');
                 return;
             }
 
-            pool.sort(() => Math.random() - 0.5);
+            const seed = modal.querySelector(".game-seed")?.value;
+            if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
+            else pool.sort(() => Math.random() - 0.5);
             setupArea.style.display = 'none';
             gameArea.style.display = 'block';
             showTarget();

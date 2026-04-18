@@ -282,6 +282,8 @@
             game_emoji: "Οδύσσεια των Emoji 📖",
             game_guess_what: "Αναζήτηση Αντικειμένου 📦",
             game_guess_who: "Μυστήριο Ταυτότητας 👤",
+            game_hot_seat: "Καυτή Καρέκλα 🎯",
+            game_story_chain: "Αλυσίδα Ιστοριών 🃏",
             game_guide_title: "Πώς να παίξετε 📖",
             game_last_letter: "Τελευταίο Γράμμα 🔤",
             game_opinion_arena: "Αρένα Απόψεων 🏟️",

@@ -272,6 +272,8 @@
             game_emoji: "Emoji Odyssey 📖",
             game_guess_what: "Object Quest 📦",
             game_guess_who: "Identity Mystery 👤",
+            game_hot_seat: "Hot Seat 🎯",
+            game_story_chain: "Story Chain 🃏",
             game_guide_title: "How to play 📖",
             game_last_letter: "Last Letter 🔤",
             game_opinion_arena: "Opinion Arena 🏟️",

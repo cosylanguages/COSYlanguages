@@ -105,10 +105,7 @@ function launchGame(gameName, mode, settings) {
       typeSelect.dispatchEvent(new Event('change'));
   }
   if (selectedTimer) {
-      if (prefix === 'hot-seat') {
-          const timerBtn = modal.querySelector(`.hs-dur-btn[data-sec="${selectedTimer}"]`);
-          if (timerBtn) timerBtn.click();
-      } else if (timerSelect) {
+      if (timerSelect) {
           timerSelect.value = selectedTimer;
           timerSelect.dispatchEvent(new Event('change'));
       }
@@ -151,13 +148,17 @@ function launchGame(gameName, mode, settings) {
 
 // ── Game setup bottom sheet
 function openGameSheet(gameName, gameIcon, mode = 'solo') {
+  // Capture global preferences
+  const globalLang = document.getElementById("global-lang-select")?.value;
+  const globalLevel = document.getElementById("global-level-select")?.value;
+
   if (window.innerWidth > 768) {
-      const selectedLang = document.getElementById('global-lang-select')?.value || localStorage.getItem('language') || 'en';
-      const selectedLevel = document.getElementById('global-level-select')?.value || 'starter';
+      const selectedLang = globalLang || localStorage.getItem('language') || 'en';
+      const selectedLevel = globalLevel || 'starter';
       launchGame(gameName, mode, {
           selectedLang, selectedLevel, selectedTheme: 'all',
           selectedType: (gameName === 'Lucky Numbers' ? '1' : (gameName === 'Emoji Odyssey' ? 'guess' : (gameName === 'Word Linker' ? 'association' : undefined))),
-          selectedTimer: (gameName === 'Fluency Flow' ? '180' : '60'),
+          selectedTimer: (['Fluency Flow', 'Battle of Wits', 'Opinion Arena', "Critic's Corner"].includes(gameName) ? '120' : '60'),
           selectedBingoContent: 'numbers'
       });
       return;
@@ -170,8 +171,8 @@ function openGameSheet(gameName, gameIcon, mode = 'solo') {
   const title = sheet.querySelector('.gss-title');
   if (title) title.innerHTML = `<span>${gameIcon}</span> ${gameName}`;
 
-  const targetLang = new URLSearchParams(window.location.search).get('lang') || document.getElementById('global-lang-select')?.value || localStorage.getItem('language') || 'en';
-  const targetLevel = new URLSearchParams(window.location.search).get('level') || document.getElementById('global-level-select')?.value || 'starter';
+  const targetLang = new URLSearchParams(window.location.search).get('lang') || globalLang || localStorage.getItem('language') || 'en';
+  const targetLevel = new URLSearchParams(window.location.search).get('level') || globalLevel || 'starter';
 
   const langOptions = sheet.querySelectorAll('#gss-lang-options .gss-option');
   const levelOptions = sheet.querySelectorAll('#gss-level-options .gss-option');
@@ -334,8 +335,8 @@ function updateGSSTimers(gameName) {
   options.innerHTML = '';
   let timers = [];
   if (gameName === 'Action Hero') timers = [{ id: '30', label: '30s' }, { id: '60', label: '60s' }, { id: '90', label: '90s' }, { id: '120', label: '120s' }];
-  else if (['Battle of Wits', 'Opinion Arena', "Critic's Corner", 'Fluency Flow'].includes(gameName)) timers = [{ id: '60', label: '60s' }, { id: '120', label: '120s' }, { id: '180', label: '180s' }];
-  else if (gameName === 'Hot Seat') timers = [{ id: '60', label: '60s' }, { id: '90', label: '90s' }];
+  else if (['Battle of Wits', 'Opinion Arena', "Critic's Corner", 'Fluency Flow'].includes(gameName)) timers = [{ id: '60', label: '60s' }, { id: '90', label: '90s' }, { id: '120', label: '120s' }, { id: '180', label: '180s' }];
+  else if (gameName === 'Hot Seat') timers = [{ id: '60', label: '60s' }, { id: '90', label: '90s' }, { id: '120', label: '120s' }];
 
   if (timers.length > 0) {
     field.style.display = 'block';
@@ -476,14 +477,6 @@ const GamePreferenceManager = {
   }
 };
 
-const originalOpenGameSheet = window.openGameSheet;
-window.openGameSheet = function(gameName, icon, mode = "solo") {
-  const lang = document.getElementById("global-lang-select")?.value, level = document.getElementById("global-level-select")?.value;
-  if (originalOpenGameSheet) originalOpenGameSheet(gameName, icon, mode);
-  setTimeout(() => {
-    if (lang) { const opt = document.querySelector(`#gss-lang-options .gss-option[data-value="${lang}"]`); if (opt) opt.click(); }
-    if (level) { const opt = document.querySelector(`#gss-level-options .gss-option[data-value="${level}"]`); if (opt) opt.click(); }
-  }, 50);
-};
+
 
 window.flashAnswer = flashAnswer; window.showPinModal = showPinModal; window.launchGame = launchGame;

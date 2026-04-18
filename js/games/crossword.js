@@ -10,11 +10,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         init(lang, level, theme) {
             this.lang = lang;
-            const pool = window.getVocabPool(lang, level, theme);
+            const pool = window.gameUtils.getVocabPool(lang, level, theme);
             if (pool.length < 5) return null;
 
             // Pick 10-15 words
-            const selection = [...pool].sort(() => Math.random() - 0.5).slice(0, 15);
+            const seed = document.querySelector("#crossword-setup .game-seed")?.value;
+            let selection = [...pool];
+            if (seed) window.gameUtils.seededShuffle(selection, parseInt(seed));
+            else selection.sort(() => Math.random() - 0.5);
+            selection = selection.slice(0, 15);
             const success = this.generateGrid(selection);
             if (success) {
                 this.assignNumbers();

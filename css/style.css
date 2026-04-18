@@ -1248,6 +1248,12 @@ footer {
     text-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
+.robot-mode {
+    color: var(--muted) !important;
+    opacity: 0.6;
+    font-family: monospace;
+}
+
 .help-details {
     border: 1px solid rgba(0, 168, 150, 0.1);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
