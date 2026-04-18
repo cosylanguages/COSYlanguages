@@ -38,11 +38,18 @@ test('Verify Workbook page', async ({ page }) => {
 
     // Check Pronunciation Guide link
     await page.goto('http://localhost:8080/workbook.html');
-    await page.click('a:has-text("Open Guide →")');
-    await expect(page).toHaveURL(/.*pronunciation-reference.html#en-a1/);
+    await page.click('button[data-panel="phonetics"]');
+
+    // Wait for navigation after click
+    const [popup] = await Promise.all([
+        page.waitForEvent('popup'),
+        page.click('a:has-text("Open Guide →")')
+    ]);
+    await expect(popup).toHaveURL(/.*pronunciation-reference.html#en-a1/);
 
     // Verify student auto-filtering in pronunciation guide
-    const visibleBlocks = await page.locator('.lang-block.show');
+    const visibleBlocks = await popup.locator('.lang-block.show');
     await expect(visibleBlocks).toHaveCount(1);
     await expect(visibleBlocks.first()).toHaveAttribute('data-lang', 'en');
+    await popup.close();
 });

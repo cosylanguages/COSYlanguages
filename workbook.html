@@ -4,7 +4,7 @@
 <script>
   // Access Control: Redirect if not unlocked, unless we are in the course picker view
   if(localStorage.getItem("student_unlocked")!=="true" && !window.location.search.includes('picker=true')) {
-    // We allow access if the user comes from the Roadmap or is just starting
+    window.location.href = "days.html";
   }
 </script>
 <meta charset="UTF-8">
@@ -16,14 +16,6 @@
 <!-- Data Dependencies -->
 <script src="js/data/curriculum_data.js"></script>
 <script src="js/data/workbook_data.js"></script>
-<script src="js/data/germanic/en/starter/grammar.js"></script>
-<script src="js/data/romance/fr/starter/grammar.js"></script>
-<script src="js/data/romance/it/starter/grammar.js"></script>
-<script src="js/data/slavic/ru/starter/grammar.js"></script>
-<script src="js/data/hellenic/el/starter/grammar.js"></script>
-<script src="js/data/romance/es/starter/grammar.js"></script>
-<script src="js/data/germanic/de/starter/grammar.js"></script>
-<script src="js/data/romance/pt/starter/grammar.js"></script>
 
 <style>
 :root {
@@ -505,13 +497,34 @@ function switchPanel(name, btn) {
   btn.classList.add('active');
 }
 
-function renderWorkbook() {
+async function loadGrammarData(lang) {
+  const family = {
+    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
+    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
+  }[lang];
+  if (!family) return;
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const ps = [];
+  levels.forEach(lv => {
+    const path = `js/data/${family}/${lv}/grammar.js`;
+    ps.push(new Promise(res => {
+      const s = document.createElement("script");
+      s.src = path; s.onload = res; s.onerror = res;
+      document.head.appendChild(s);
+    }));
+  });
+  await Promise.all(ps);
+}
+
+async function renderWorkbook() {
   if (!S) return;
   const sLang = S.lang.toLowerCase();
   const sLevel = S.level.toLowerCase();
 
+  await loadGrammarData(sLang);
+
   // Filter topics for this language and level
-  currentCourseTopics = WORKBOOK_TOPICS.filter(t => t.lang === sLang && t.level === sLevel);
+  currentCourseTopics = WORKBOOK_TOPICS.filter(t => t.lang === sLang && (t.level === sLevel || (sLevel === 'a1' && t.level === 'starter')));
 
   renderGrammar();
   renderPhonetics();

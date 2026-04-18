@@ -66,8 +66,13 @@
         // Update Header
         const wh = document.getElementById('wh');
         const wp = document.getElementById('wp');
-        if (wh) wh.textContent = `Welcome back 👋`;
-        if (wp) wp.textContent = `Your personalised ${langInfo.label} curriculum`;
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+
+        if (wh) wh.textContent = t('welcome_back');
+        if (wp) {
+            const template = t('your_personalised_curriculum');
+            wp.textContent = template.includes('{0}') ? template.replace('{0}', langInfo.label) : `Your personalised ${langInfo.label} curriculum`;
+        }
 
         // Update Badges
         const badgeCont = document.getElementById('bdg');
@@ -140,9 +145,11 @@
         const ds = document.getElementById('ds');
         if (!ls || !ds) return;
 
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+
         ls.innerHTML = '';
         ds.innerHTML = '';
-        const defaultOpt = createEl('option', '', 'Select day...');
+        const defaultOpt = createEl('option', '', t('select_day_placeholder'));
         defaultOpt.value = '';
         ds.appendChild(defaultOpt);
 
@@ -150,20 +157,32 @@
         if (!curriculum.length) {
             const { lang, level, type } = currentCourse;
             if (window.CURRICULUM && window.CURRICULUM[lang] && window.CURRICULUM[lang][type] && window.CURRICULUM[lang][type][level]) {
-                curriculum = [{ lessons: window.CURRICULUM[lang][type][level] }];
+                const raw = window.CURRICULUM[lang][type][level];
+                if (Array.isArray(raw)) {
+                    curriculum = [{ lessons: raw }];
+                }
             }
         }
 
-        if (!curriculum.length || !curriculum[0].lessons || !Array.isArray(curriculum[0].lessons)) {
+        // Flatten curriculum if it contains units
+        let allLessons = [];
+        if (curriculum.length > 0) {
+            curriculum.forEach(unit => {
+                if (unit.lessons && Array.isArray(unit.lessons)) {
+                    allLessons.push(...unit.lessons);
+                }
+            });
+        }
+
+        if (!allLessons.length) {
             const emptyDiv = createEl('div', 'empty');
-            emptyDiv.append(createEl('h3', '', 'Curriculum coming soon! 🚧'));
-            emptyDiv.append(createEl('p', '', 'Your learning path is being prepared by our team.'));
+            emptyDiv.append(createEl('h3', '', t('curriculum_coming_soon')));
+            emptyDiv.append(createEl('p', '', t('curriculum_coming_soon_desc')));
             ls.appendChild(emptyDiv);
             return;
         }
 
-        const lessons = curriculum[0].lessons;
-        lessons.forEach((lesson, idx) => {
+        allLessons.forEach((lesson, idx) => {
             const dayNum = idx + 1;
 
             // Add to Jump Select
@@ -197,10 +216,10 @@
                 </div>
                 <div class="l-body">
                     <div class="tabs-bar">
-                        <button class="tab-btn active" data-target="ov-${dayNum}">Overview</button>
-                        <button class="tab-btn" data-target="gr-${dayNum}">Grammar</button>
-                        <button class="tab-btn" data-target="vo-${dayNum}">Vocabulary</button>
-                        <button class="tab-btn" data-target="rf-${dayNum}">References</button>
+                        <button class="tab-btn active" data-target="ov-${dayNum}" data-translate-key="overview_tab">${t('overview_tab')}</button>
+                        <button class="tab-btn" data-target="gr-${dayNum}" data-translate-key="grammar_tab">${t('grammar_tab')}</button>
+                        <button class="tab-btn" data-target="vo-${dayNum}" data-translate-key="vocab_tab">${t('vocab_tab')}</button>
+                        <button class="tab-btn" data-target="rf-${dayNum}" data-translate-key="refs_tab">${t('refs_tab')}</button>
                     </div>
 
                     <div class="tab-panel active" id="ov-${dayNum}">
@@ -210,11 +229,11 @@
                         <p class="l-desc">${lesson.desc || 'No description available.'}</p>
                         <div class="l-actions">
                             <a href="lesson.html?lang=${currentCourse.lang.toLowerCase()}&lesson=${dayNum}"
-                               class="btn-start-new ${dayNum > nextLessonNum ? 'locked' : ''}">
-                               Start Lesson 🚀
+                               class="btn-start-new ${dayNum > nextLessonNum ? 'locked' : ''}" data-translate-key="start_lesson_btn">
+                               ${t('start_lesson_btn')}
                             </a>
-                            <button class="btn-mark-new ${isDone ? 'done' : ''}" data-day="${dayNum}">
-                                ${isDone ? '✓ Completed' : 'Mark as done'}
+                            <button class="btn-mark-new ${isDone ? 'done' : ''}" data-day="${dayNum}" data-translate-key="${isDone ? 'completed_btn' : 'mark_as_done'}">
+                                ${isDone ? t('completed_btn') : t('mark_as_done')}
                             </button>
                             <span class="dur-label">🕒 ${lesson.duration || '60 min'}</span>
                         </div>
@@ -253,10 +272,11 @@
     }
 
     function renderGrammarTabContent(lesson) {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
         const points = lesson.grammarPoints || (Array.isArray(lesson.grammar) ? lesson.grammar : []);
         if (!points || !points.length) {
-            return `<p class="vocab-intro">Grammar summary coming soon.</p>
-                    <a href="grammar-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Grammar Hub 📐</a>`;
+            return `<p class="vocab-intro" data-translate-key="grammar_summary_soon">${t('grammar_summary_soon')}</p>
+                    <a href="grammar-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink" data-translate-key="open_grammar_hub">${t('open_grammar_hub')}</a>`;
         }
 
         return points.map(p => `
@@ -282,6 +302,7 @@
     }
 
     function renderVocabTabContent(lesson) {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
         let words = [];
         if (lesson.vocabWords) words = lesson.vocabWords;
         else if (Array.isArray(lesson.vocab)) {
@@ -293,14 +314,14 @@
         }
 
         if (!words.length) {
-            return `<p class="vocab-intro">Key vocabulary list coming soon.</p>
-                    <a href="vocabulary-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Vocab Ref 📖</a>`;
+            return `<p class="vocab-intro" data-translate-key="vocab_list_soon">${t('vocab_list_soon')}</p>
+                    <a href="vocabulary-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink" data-translate-key="open_vocab_ref">${t('open_vocab_ref')}</a>`;
         }
 
         return `
             <table class="vocab-table-new">
                 <thead>
-                    <tr><th>Word</th><th>Meaning</th></tr>
+                    <tr><th data-translate-key="word_of_the_day">Word</th><th data-translate-key="meaning_label">Meaning</th></tr>
                 </thead>
                 <tbody>
                     ${words.map(w => `
@@ -318,24 +339,25 @@
                 </tbody>
             </table>
             <div class="vocab-actions">
-                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=vocab&theme=${encodeURIComponent(lesson.practiceTheme || '')}" class="plink hi">
-                    Flashcards & Quiz 🚀
+                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=vocab&theme=${encodeURIComponent(lesson.practiceTheme || '')}" class="plink hi" data-translate-key="flashcards_quiz_btn">
+                    ${t('flashcards_quiz_btn')}
                 </a>
             </div>
         `;
     }
 
     function renderRefsTabContent() {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
         const lang = currentCourse.lang;
         const level = currentCourse.level;
         const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
         const query = `?lang=${lang.toLowerCase()}&level=${pLevel}`;
 
         const internalRefs = [
-            { group: "Course Tools", items: [
-                { icon: "📓", name: "Open My Workbook", desc: "Your personal exercises & notes", url: `workbook.html${query}` },
-                { icon: "📐", name: "Grammar Hub", desc: "Interactive grammar reference", url: `grammar-reference.html${query}` },
-                { icon: "📖", name: "Vocab Reference", desc: "Interactive vocabulary lists", url: `vocabulary-reference.html${query}` },
+            { group: t('learning_resources'), items: [
+                { icon: "📓", name: t('workbook_btn'), desc: "Your personal exercises & notes", url: `workbook.html${query}` },
+                { icon: "📐", name: t('grammar_ref_btn'), desc: "Interactive grammar reference", url: `grammar-reference.html${query}` },
+                { icon: "📖", name: t('vocab_ref_btn'), desc: "Interactive vocabulary lists", url: `vocabulary-reference.html${query}` },
             ]}
         ];
 
@@ -415,11 +437,18 @@
         updateProgressUI();
     }
 
+    function getAllLessonsCount() {
+        let total = 0;
+        curriculum.forEach(unit => {
+            if (unit.lessons) total += unit.lessons.length;
+        });
+        return total;
+    }
+
     function getNextLessonNum() {
         const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
         const done = prog[currentCourse.code] || [];
-        const lessons = curriculum[0]?.lessons;
-        const total = lessons ? lessons.length : 0;
+        const total = getAllLessonsCount();
 
         for (let i = 1; i <= total; i++) {
             if (!done.includes(i)) return i;
@@ -430,8 +459,7 @@
     function updateProgressUI() {
         const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
         const done = (currentCourse && prog[currentCourse.code]) ? prog[currentCourse.code] : [];
-        const lessons = curriculum[0]?.lessons;
-        const total = lessons ? lessons.length : 0;
+        const total = getAllLessonsCount();
 
         const pf = document.getElementById('pf');
         const pc = document.getElementById('pc');
