@@ -5,7 +5,10 @@ test.describe('Grammar Reference Audit - Authorized', () => {
   test.beforeEach(async ({ page }) => {
     // Unlock student area
     await page.goto('http://localhost:8080/days.html');
-    await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
+    await page.evaluate(() => {
+      localStorage.setItem('student_unlocked', 'true');
+      localStorage.setItem('student_course_code', 'COSY-EN-A1-GEN');
+    });
     await page.goto('http://localhost:8080/days.html');
   });
 

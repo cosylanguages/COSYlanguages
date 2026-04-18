@@ -300,7 +300,7 @@ function resetExerciseUI() {
         const el = document.getElementById(id);
         if (el) {
             el.classList.add('hidden');
-            el.style.display = ''; // Clear any inline styles from lesson.js
+            el.style.display = 'none'; // Force hide for both engines
         }
     });
 
@@ -310,7 +310,13 @@ function resetExerciseUI() {
     const nextBtn = document.getElementById('next-btn');
     if (nextBtn) {
         nextBtn.classList.add('hidden');
-        nextBtn.style.display = '';
+        nextBtn.style.display = 'none';
+    }
+
+    const wordDisplay = document.getElementById('word-display');
+    if (wordDisplay) {
+        wordDisplay.classList.remove('hidden');
+        wordDisplay.style.display = '';
     }
 }
 

@@ -337,6 +337,8 @@ async function setLang(lang) {
     console.warn("No grammar data found for lang:", lang);
   }
 
+  window.lang = lang; // Set global lang for URLs
+
   // Exclusivity: Get student's current level if applicable
   let restrictedLevel = null;
   const code = localStorage.getItem('student_course_code');
@@ -353,6 +355,7 @@ async function setLang(lang) {
   if (restrictedLevel) {
     const tabs = document.getElementById('ref-lang-tabs');
     if (tabs) tabs.style.display = 'none';
+    window.restrictedLevel = restrictedLevel;
   }
 
   // Update tabs
@@ -414,8 +417,8 @@ function renderVerbCard(v) {
     });
   }
 
-  const pLevel = restrictedLevel || 'starter';
-  const practiceURL = `practice.html?lang=${lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.verb)}`;
+  const pLevel = window.restrictedLevel || 'starter';
+  const practiceURL = `practice.html?lang=${window.lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.verb)}`;
 
   return `
     <div class="card" id="${id}">

@@ -176,8 +176,36 @@
         }
 
         // Topbar meta
+        const tbCourseText = `${langInfo.label} · ${levelLabel} · ${typeInfo.label}`;
         const tbCourse = document.getElementById('tb-course-name');
-        if (tbCourse) tbCourse.textContent = `${langInfo.label} ${levelLabel}`;
+        if (tbCourse) tbCourse.textContent = tbCourseText;
+
+        const ct = document.getElementById('ct');
+        if (ct) {
+            ct.textContent = tbCourseText;
+            ct.removeAttribute('data-translate-key');
+        }
+
+        // Add Full Roadmap link if it exists for this lang/level
+        const roadmapBtnId = 'open-roadmap-btn';
+        let roadmapBtn = document.getElementById(roadmapBtnId);
+        if (!roadmapBtn) {
+            roadmapBtn = createEl('button', 'btn-out', '🗺️ Full Roadmap');
+            roadmapBtn.id = roadmapBtnId;
+            roadmapBtn.style.padding = '4px 10px';
+            roadmapBtn.style.fontSize = '11px';
+            const btnGroup = document.querySelector('.day-jump').nextElementSibling.querySelector('div');
+            if (btnGroup) btnGroup.prepend(roadmapBtn);
+        }
+
+        const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
+        roadmapBtn.onclick = () => window.location.href = roadmapPath;
+        // Check if roadmap file exists (basic check via path, could be refined)
+        if (lang.toLowerCase() === 'en' && level.toLowerCase() === 'a1') {
+            roadmapBtn.style.display = 'inline-block';
+        } else {
+            roadmapBtn.style.display = 'none';
+        }
 
         // Update Badges
         const badgeCont = document.getElementById('bdg');
@@ -260,12 +288,16 @@
         ds.appendChild(defaultOpt);
 
         // Fallback to CURRICULUM object from curriculum_data.js if local curriculum is empty
-        if (!curriculum.length) {
+        if (!curriculum || !curriculum.length) {
             const { lang, level, type } = currentCourse;
             if (window.CURRICULUM && window.CURRICULUM[lang] && window.CURRICULUM[lang][type] && window.CURRICULUM[lang][type][level]) {
                 const raw = window.CURRICULUM[lang][type][level];
                 if (Array.isArray(raw)) {
-                    curriculum = [{ lessons: raw }];
+                    if (raw.length > 0 && (raw[0].lessons || raw[0].title)) {
+                        curriculum = raw;
+                    } else {
+                        curriculum = [{ lessons: raw }];
+                    }
                 }
             }
         }
@@ -276,6 +308,9 @@
             curriculum.forEach(unit => {
                 if (unit.lessons && Array.isArray(unit.lessons)) {
                     allLessons.push(...unit.lessons);
+                } else if (unit.title) {
+                    // Fallback for flat lesson lists where unit IS a lesson
+                    allLessons.push(unit);
                 }
             });
         }

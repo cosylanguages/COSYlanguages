@@ -3,7 +3,7 @@
  * Shared access codes for specific courses.
  */
 
-const COURSES = {
+var COURSES = {
   // --- ENGLISH ---
   "COSY-EN-A1-GEN": { lang: "EN", level: "A1", type: "GEN" },
   "COSY-EN-A2-GEN": { lang: "EN", level: "A2", type: "GEN" },
@@ -167,7 +167,7 @@ const COURSES = {
   "DEMO": { lang: "FR", level: "B1", type: "GEN" },
 };
 
-const LANGS = {
+var LANGS = {
   EN: { label: "English", flag: "🇬🇧" },
   FR: { label: "Français", flag: "🇫🇷" },
   IT: { label: "Italiano", flag: "🇮🇹" },
@@ -178,7 +178,7 @@ const LANGS = {
   EL: { label: "Ελληνικά", flag: "🇬🇷" }
 };
 
-const LEVELS = {
+var LEVELS = {
   A1: "Baby (A1)",
   A2: "Primary (A2)",
   B1: "Middle (B1)",
@@ -187,13 +187,13 @@ const LEVELS = {
   C2: "Prof (C2)"
 };
 
-const TYPES = {
+var TYPES = {
   GEN: { label: "General Course", icon: "📖" },
   SPK: { label: "Spoken Course", icon: "🗣️" },
   EXM: { label: "Exam Prep", icon: "📝" }
 };
 
-const REFS = {
+var REFS = {
   FR: [
     {
       group: "Dictionaries & pronunciation", items: [
@@ -358,7 +358,7 @@ const REFS = {
   ],
 };
 
-const CURRICULUM = {
+var CURRICULUM = {
   EN: {
     GEN: { A1: "FROM_DATA", A2: [], B1: [], B2: [], C1: [], C2: [] },
     SPK: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },

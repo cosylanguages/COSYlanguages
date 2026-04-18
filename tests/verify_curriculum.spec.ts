@@ -40,6 +40,6 @@ test('Verify French B1 simplified curriculum in student area', async ({ page }) 
     // Check for first lesson in curriculum_data.js for FR B1
     await expect(page.locator('.l-title').getByText('Opinions & Arguments')).toBeVisible();
 
-    // Check that Full Roadmap IS visible for FR B1 (since we now enable it for all supported languages)
-    await expect(page.locator('#open-roadmap-btn')).toBeVisible();
+    // Check that Full Roadmap is NOT visible for FR B1 (since it only exists for EN A1 currently)
+    await expect(page.locator('#open-roadmap-btn')).not.toBeVisible();
 });
