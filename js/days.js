@@ -6,6 +6,8 @@
 (function() {
     let currentCourse = null;
     let curriculum = [];
+    let isTeacher = false;
+    const TEACHER_PIN = '2025';
 
     // ── Authentication & Initialization ───────────────────
 
@@ -47,15 +49,114 @@
     function logout() {
         localStorage.removeItem('student_unlocked');
         localStorage.removeItem('student_course_code');
+        isTeacher = false;
+        document.body.classList.remove('teacher');
         window.location.reload();
+    }
+
+    function resetProgress() {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        if (!confirm(t('reset_confirm') || 'Reset all your progress? This cannot be undone.')) return;
+
+        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+        delete prog[currentCourse.code];
+        localStorage.setItem('cosy_progress', JSON.stringify(prog));
+
+        renderCurriculum();
+        buildSidebar();
+        updateProgressUI();
+        showToast(t('progress_reset_toast') || 'Progress reset ↺');
+    }
+
+    // ── Teacher Mode ──
+
+    function showPinModal() {
+        const modal = document.getElementById('pin-modal');
+        const input = document.getElementById('pin-input');
+        const error = document.getElementById('pin-error');
+        if (modal) modal.classList.add('show');
+        if (input) input.value = '';
+        if (error) error.style.display = 'none';
+    }
+
+    function hidePinModal() {
+        const modal = document.getElementById('pin-modal');
+        if (modal) modal.classList.remove('show');
+    }
+
+    function checkPin() {
+        const input = document.getElementById('pin-input');
+        const error = document.getElementById('pin-error');
+        if (input.value === TEACHER_PIN) {
+            isTeacher = true;
+            document.body.classList.add('teacher');
+            hidePinModal();
+            updateModeUI();
+            renderCurriculum();
+            const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+            showToast(t('teacher_mode_unlocked') || 'Teacher mode unlocked 👩‍🏫');
+        } else {
+            if (error) error.style.display = 'block';
+            input.classList.add('err');
+            setTimeout(() => input.classList.remove('err'), 500);
+        }
+    }
+
+    function updateModeUI() {
+        const badge = document.getElementById('mode-badge');
+        const label = document.getElementById('tb-mode-label');
+        const btn = document.getElementById('teacher-switch-btn');
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+
+        if (isTeacher) {
+            if (badge) { badge.textContent = t('teacher_badge') || '👩‍🏫 Teacher'; badge.className = 'tb-mode teacher-mode'; }
+            if (label) label.textContent = t('teacher_view_label') || 'Teacher View';
+            if (btn) { btn.textContent = t('lock_teacher_btn') || '🔒 Lock Teacher Mode'; btn.onclick = lockTeacher; }
+        } else {
+            if (badge) { badge.textContent = t('student_badge') || '👤 Student'; badge.className = 'tb-mode'; }
+            if (label) label.textContent = t('student_view_label') || 'Student View';
+            if (btn) { btn.textContent = t('switch_to_teacher_btn') || '👩‍🏫 Switch to Teacher'; btn.onclick = showPinModal; }
+        }
+    }
+
+    function lockTeacher() {
+        isTeacher = false;
+        document.body.classList.remove('teacher');
+        updateModeUI();
+        renderCurriculum();
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        showToast(t('teacher_mode_locked') || 'Teacher mode locked 🔒');
+    }
+
+    function showToast(msg) {
+        const toast = document.getElementById('toast');
+        if (!toast) return;
+        toast.textContent = msg;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    function copyText(text) {
+        if (!navigator.clipboard) return;
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        navigator.clipboard.writeText(text).then(() => {
+            showToast(t('copied_to_clipboard') || 'Copied to clipboard! 📋');
+        });
     }
 
     // ── Dashboard Core ──────────────────────────────────
 
     async function initDashboard() {
         const gate = document.getElementById('gate');
+        const layout = document.getElementById('main-layout');
+        const topbar = document.getElementById('topbar');
         const area = document.getElementById('area');
+        const nav = document.getElementById('main-nav');
+
         if (gate) gate.style.display = 'none';
+        if (nav) nav.style.display = 'none';
+        if (layout) layout.style.display = 'grid';
+        if (topbar) topbar.style.display = 'flex';
         if (area) area.style.display = 'block';
 
         const { lang, level, type } = currentCourse;
@@ -73,6 +174,10 @@
             const template = t('your_personalised_curriculum');
             wp.textContent = template.includes('{0}') ? template.replace('{0}', langInfo.label) : `Your personalised ${langInfo.label} curriculum`;
         }
+
+        // Topbar meta
+        const tbCourse = document.getElementById('tb-course-name');
+        if (tbCourse) tbCourse.textContent = `${langInfo.label} ${levelLabel}`;
 
         // Update Badges
         const badgeCont = document.getElementById('bdg');
@@ -99,6 +204,7 @@
         // Load curriculum data
         await loadCurriculumData(lang, level);
         renderCurriculum();
+        buildSidebar();
         updateProgressUI();
     }
 
@@ -204,8 +310,8 @@
             // Use innerHTML for the complex card structure, but keep it as safe as possible
             lessonEl.innerHTML = `
                 <div class="l-head" data-day="${dayNum}">
+                    <div class="l-day-num">${dayNum}</div>
                     <div class="l-head-left">
-                        <div class="l-day-num">Day ${dayNum}</div>
                         <div class="l-title">${lesson.title}</div>
                         <div class="l-sub">${sub}</div>
                     </div>
@@ -220,13 +326,20 @@
                         <button class="tab-btn" data-target="gr-${dayNum}" data-translate-key="grammar_tab">${t('grammar_tab')}</button>
                         <button class="tab-btn" data-target="vo-${dayNum}" data-translate-key="vocab_tab">${t('vocab_tab')}</button>
                         <button class="tab-btn" data-target="rf-${dayNum}" data-translate-key="refs_tab">${t('refs_tab')}</button>
+                        ${isTeacher ? `<button class="tab-btn" data-target="tn-${dayNum}" style="color:var(--gold)">👩‍🏫 Notes</button>` : ''}
                     </div>
 
                     <div class="tab-panel active" id="ov-${dayNum}">
+                        ${lesson.cando ? `<div class="obj-bar">${lesson.cando}</div>` : ''}
+
                         <div class="chips">
                             ${(lesson.skills || []).map(s => `<span class="chip chip-${s}">${s}</span>`).join('')}
                         </div>
                         <p class="l-desc">${lesson.desc || 'No description available.'}</p>
+
+                        ${renderRoleplaySection(lesson)}
+                        ${renderCulturalSection(lesson)}
+
                         <div class="l-actions">
                             <a href="lesson.html?lang=${currentCourse.lang.toLowerCase()}&lesson=${dayNum}"
                                class="btn-start-new ${dayNum > nextLessonNum ? 'locked' : ''}" data-translate-key="start_lesson_btn">
@@ -250,6 +363,12 @@
                     <div class="tab-panel" id="rf-${dayNum}">
                         ${renderRefsTabContent()}
                     </div>
+
+                    ${isTeacher ? `
+                    <div class="tab-panel" id="tn-${dayNum}">
+                        ${renderTeacherTabContent(lesson)}
+                    </div>
+                    ` : ''}
                 </div>
             `;
 
@@ -272,6 +391,26 @@
     }
 
     function renderGrammarTabContent(lesson) {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+
+        if (lesson.phrases && lesson.phrases.length) {
+            const phrasesHtml = lesson.phrases.map((p, i) => `
+                <div class="phrase-item">
+                    <div class="ph-text">
+                        <div class="ph-en">${p.en}</div>
+                        <div class="ph-translations">${p.fr || p.it || p.ru || p.el || ''}</div>
+                    </div>
+                    <button class="ph-copy" onclick="cosyDays.copyText('${p.en.replace(/'/g, "\\'")}')">Copy</button>
+                </div>
+            `).join('');
+            return `<div class="sb-label" style="padding:0 0 .5rem 0;">💬 Key Phrases</div><div class="phrases-list">${phrasesHtml}</div>` +
+                   renderGrammarPoints(lesson);
+        }
+
+        return renderGrammarPoints(lesson);
+    }
+
+    function renderGrammarPoints(lesson) {
         const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
         const points = lesson.grammarPoints || (Array.isArray(lesson.grammar) ? lesson.grammar : []);
         if (!points || !points.length) {
@@ -319,29 +458,104 @@
         }
 
         return `
-            <table class="vocab-table-new">
-                <thead>
-                    <tr><th data-translate-key="word_of_the_day">Word</th><th data-translate-key="meaning_label">Meaning</th></tr>
-                </thead>
-                <tbody>
-                    ${words.map(w => `
-                        <tr>
-                            <td>
-                                <div class="v-word">${w.w}</div>
-                                <div class="v-phon">${w.phon || ''}</div>
-                            </td>
-                            <td>
-                                <div class="v-trans">${w.trans || ''}</div>
-                                ${w.key ? '<span class="vtag key">KEY</span>' : ''}
-                            </td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
+            <div class="vocab-grid">
+                ${words.map(w => `
+                    <div class="vocab-card" onclick="cosyDays.copyText('${w.w.replace(/'/g, "\\'")}')">
+                        <div class="vc-word">${w.w}</div>
+                        <div class="vc-phon">${w.phon || ''}</div>
+                        <div class="vc-def">${w.trans || ''}</div>
+                    </div>
+                `).join('')}
+            </div>
             <div class="vocab-actions">
                 <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=vocab&theme=${encodeURIComponent(lesson.practiceTheme || '')}" class="plink hi" data-translate-key="flashcards_quiz_btn">
                     ${t('flashcards_quiz_btn')}
                 </a>
+            </div>
+        `;
+    }
+
+    function renderRoleplaySection(lesson) {
+        if (!lesson.roleplay) return '';
+        const rp = lesson.roleplay;
+        return `
+            <div class="roleplay-card">
+                <div class="sb-label" style="color:var(--sky); padding:0 0 .5rem 0;">🎭 Role-play</div>
+                <div class="rp-scenario">"${rp.scenario}"</div>
+                <div class="rp-roles">
+                    ${(rp.roles || []).map(r => `
+                        <div class="rp-role">
+                            <div class="rp-role-label">${r.label}</div>
+                            <div class="rp-instructions">${r.instructions}</div>
+                            <div class="rp-prompts">
+                                ${(r.prompts || []).map(p => `<div class="rp-prompt">${p}</div>`).join('')}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    function renderCulturalSection(lesson) {
+        if (!lesson.cultural || !lesson.cultural.length) return '';
+        return `
+            <div class="culture-accordion">
+                <div class="sb-label" style="padding:0 0 .5rem 0;">🌍 Country Notes</div>
+                ${lesson.cultural.map((c, i) => `
+                    <div class="ca-country" id="ca-${lesson.code}-${i}">
+                        <div class="ca-header" onclick="this.parentElement.classList.toggle('open')">
+                            <span class="ca-flag">${c.flag || '📍'}</span>
+                            <span class="ca-name">${c.country}</span>
+                            <span class="ca-arr">▼</span>
+                        </div>
+                        <div class="ca-body">${c.note}</div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    function renderTeacherTabContent(lesson) {
+        const t = lesson.teacher || {};
+        return `
+            <div class="teacher-panel">
+                ${t.timing ? `<div class="timing-badge">${t.timing}</div>` : ''}
+
+                <div style="margin-bottom:1rem">
+                    <div class="tp-label">🎯 Lesson Aim</div>
+                    <div class="tp-body">${t.aim || 'Focus on confidence and practical use.'}</div>
+                </div>
+
+                ${t.teacher_notes ? `
+                <div style="margin-bottom:1rem">
+                    <div class="tp-label">📝 Teacher Notes</div>
+                    <div class="tp-body">${t.teacher_notes}</div>
+                </div>
+                ` : ''}
+
+                ${(t.tips || []).map(tip => `<div class="tp-tip">${tip}</div>`).join('')}
+
+                ${t.discussion ? `
+                <div style="margin-top:1rem">
+                    <div class="tp-label">💬 Discussion Opener</div>
+                    <div class="tp-body" style="font-style:italic">"${t.discussion}"</div>
+                </div>
+                ` : ''}
+
+                ${t.adaptations ? `
+                <div style="margin-top:1rem">
+                    <div class="tp-label">🔧 Adaptations by Level</div>
+                    <div class="adapt-grid">
+                        ${t.adaptations.map(a => `
+                            <div class="adapt-item">
+                                <div class="adapt-level ${a.level.toLowerCase()}">${a.level}</div>
+                                <div class="adapt-desc">${a.desc}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
             </div>
         `;
     }
@@ -408,7 +622,17 @@
 
     function jumpTo(day) {
         if (!day) return;
-        toggleLesson(day);
+
+        // Ensure lesson is open
+        const el = document.getElementById(`day-${day}`);
+        if (el && !el.classList.contains('open')) {
+            toggleLesson(day);
+        } else if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        // On mobile, maybe we want to close the sidebar if we had one,
+        // but here it's just hidden by CSS.
     }
 
     // ── Progress Management ────────────────────────────
@@ -434,6 +658,7 @@
 
         localStorage.setItem('cosy_progress', JSON.stringify(prog));
         renderCurriculum(); // Re-render to update labels/classes
+        buildSidebar();
         updateProgressUI();
     }
 
@@ -482,10 +707,81 @@
         }
     }
 
+    function buildSidebar() {
+        const lsCont = document.getElementById('ls');
+        const sb = document.getElementById('sb-content');
+        if (!lsCont || !sb) return;
+
+        const { lang, level, type } = currentCourse;
+        const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
+        const query = `?lang=${lang.toLowerCase()}&level=${pLevel}`;
+
+        // Get curriculum count
+        let allLessons = [];
+        if (curriculum.length > 0) {
+            curriculum.forEach(unit => {
+                if (unit.lessons && Array.isArray(unit.lessons)) {
+                    allLessons.push(...unit.lessons);
+                }
+            });
+        }
+
+        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+        const doneSet = new Set(prog[currentCourse.code] || []);
+
+        const pct = allLessons.length ? Math.round(doneSet.size / allLessons.length * 100) : 0;
+        const pf = document.getElementById('sb-pf');
+        const pc = document.getElementById('sb-pc');
+        if (pf) pf.style.width = pct + '%';
+        if (pc) pc.textContent = `${doneSet.size} / ${allLessons.length} lessons complete`;
+
+        sb.innerHTML = (curriculum.length > 0 ? curriculum : [{lessons: allLessons}]).map((unit, uIdx) => {
+            const unitLabel = unit.label || `Unit ${uIdx + 1}`;
+            const unitEmoji = unit.emoji || '📘';
+
+            const lessonsHtml = (unit.lessons || []).map(l => {
+                const dayNum = allLessons.indexOf(l) + 1;
+                const isDone = doneSet.has(dayNum);
+                return `
+                    <a class="sb-item${isDone ? ' done' : ''}" id="sb-day-${dayNum}" onclick="cosyDays.jumpTo(${dayNum})">
+                        <span class="sb-num">${dayNum}</span>
+                        <span style="flex:1">${l.title}</span>
+                        <span class="sb-check">✓</span>
+                    </a>
+                `;
+            }).join('');
+
+            return `
+                <div class="sb-unit">
+                    <div class="sb-label">${unitLabel}</div>
+                    ${lessonsHtml}
+                </div>
+            `;
+        }).join('');
+
+        // Also add quick links
+        sb.innerHTML += `
+            <div class="sb-unit" style="margin-top: 1rem; border-top: 1px solid var(--border); padding-top: 1rem;">
+                <div class="sb-label">Resources</div>
+                <a class="sb-item" href="workbook.html${query}"><span class="sb-num">📓</span> Workbook</a>
+                <a class="sb-item" href="grammar-reference.html${query}"><span class="sb-num">📐</span> Grammar Ref</a>
+                <a class="sb-item" href="vocabulary-reference.html${query}"><span class="sb-num">📖</span> Vocab Ref</a>
+            </div>
+        `;
+    }
+
     // Global scope exposures for HTML calls
     window.cosyDays = {
         unlock,
         logout,
-        jumpTo
+        jumpTo,
+        buildSidebar,
+        showPinModal,
+        hidePinModal,
+        checkPin,
+        lockTeacher,
+        resetProgress,
+        showToast,
+        copyText
     };
 })();
