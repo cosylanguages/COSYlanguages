@@ -1,13 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
     const { getVocabPool, t } = window.gameUtils;
 
+    const populateThemesLocal = () => {
+        const themeSelect = document.getElementById('hs-theme');
+        const levelSelect = document.getElementById('hs-level');
+        const langSelect = document.getElementById('hs-lang');
+        if (!themeSelect || !levelSelect || !langSelect) return;
+        window.gameUtils.populateThemes(themeSelect, levelSelect, langSelect.value);
+    };
+
     const HotSeatGame = {
       DURATION: 60, questions: [], currentQ: 0, score: 0, _interval: null,
 
       generateQuestions(pool, count = 10) {
-        const items = [...pool].sort(() => Math.random() - .5).slice(0, count);
+        const items = [...pool];
+        const seed = document.querySelector("#hs-setup .game-seed")?.value;
+        if (seed) window.gameUtils.seededShuffle(items, parseInt(seed));
+        else items.sort(() => Math.random() - 0.5);
+        const finalItems = items.slice(0, count);
         const types = ['plural', 'definition', 'use_in_sentence'];
-        return items.map(item => {
+        return finalItems.map(item => {
           const type = types[Math.floor(Math.random() * types.length)];
           return this.buildQuestion(item, type);
         }).filter(Boolean);
@@ -74,11 +86,14 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.hs-dur-btn').forEach(btn => btn.classList.toggle('active', parseInt(btn.dataset.sec) === sec));
     };
 
+    document.getElementById('hs-lang')?.addEventListener('change', populateThemesLocal);
+    document.getElementById('hs-level')?.addEventListener('change', populateThemesLocal);
+
     window.hotSeatStart = function() {
       const lang = document.getElementById('hs-lang').value, level = document.getElementById('hs-level').value, theme = document.getElementById('hs-theme').value;
       const pool = getVocabPool(lang, level, theme);
       if (pool.length === 0) { window.gameUtils.showGameMessage(document.getElementById("hs-setup"), t("alert_no_adventure_items") || "No words found!", "error"); return; }
-      HotSeatGame.currentQ = 0; HotSeatGame.score = 0; HotSeatGame.DURATION = window.hsDuration; HotSeatGame.questions = HotSeatGame.generateQuestions(pool, 10);
+      HotSeatGame.currentQ = 0; HotSeatGame.score = 0; HotSeatGame.DURATION = parseInt(document.getElementById('hs-timer-duration')?.value || '60'); HotSeatGame.questions = HotSeatGame.generateQuestions(pool, 10);
       document.getElementById('hs-setup').style.display = 'none';
       document.getElementById('hot-seat-area').innerHTML = HotSeatGame.buildGameUI();
       let t = HotSeatGame.DURATION;
@@ -113,4 +128,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.hotSeatRestart = () => { document.getElementById('hs-setup').style.display = 'block'; document.getElementById('hot-seat-area').innerHTML = ''; };
 
     window.HotSeatGame = HotSeatGame;
+    // Auto-populate on first load if visible
+    setTimeout(populateThemesLocal, 500);
 });

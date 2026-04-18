@@ -18,15 +18,24 @@ const lastLetterWordCard = (item) => {
 
 const LastLetterGame = {
   pool: [], usedWords: new Set(), requiredLetter: null,
-  init(lang, level, theme) {
+  init(lang, level, theme, seed) {
     this.pool = window.gameUtils.getVocabPool(lang, level, theme);
     this.usedWords = new Set();
-    const starter = this.pool[Math.floor(Math.random() * this.pool.length)];
+    let starter;
+    if (seed) {
+        const rng = window.gameUtils.mulberry32 ? window.gameUtils.mulberry32(parseInt(seed)) : Math.random;
+        starter = this.pool[Math.floor((typeof rng === "function" ? rng() : Math.random()) * this.pool.length)];
+    } else {
+        starter = this.pool[Math.floor(Math.random() * this.pool.length)];
+    }
     if (starter) {
         this.usedWords.add(starter.word.toLowerCase());
         this.requiredLetter = starter.word[starter.word.length - 1].toLowerCase();
     }
     return starter;
+  },
+  getRequiredLetter() {
+    return this.requiredLetter;
   },
   validate(typed, requiredLetter, pool) {
     const word = typed.trim().toLowerCase();
@@ -129,7 +138,16 @@ window.lastLetterWordCard = lastLetterWordCard;
             this.reset();
 
             // Improvements: init LastLetterGame helper
-            if (window.LastLetterGame) window.LastLetterGame.init(state.lang, state.level, state.theme);
+            if (window.LastLetterGame) {
+                const seed = elements.setup.querySelector(".game-seed")?.value;
+                const starter = window.LastLetterGame.init(state.lang, state.level, state.theme, seed);
+                if (starter) {
+                    state.targetLetter = window.LastLetterGame.getRequiredLetter();
+                    addWordToHistory(starter.word, 'computer');
+                    document.getElementById('ll-word-display').innerHTML = lastLetterWordCard(starter);
+                    elements.targetLetterDisplay.textContent = state.targetLetter.toUpperCase();
+                }
+            }
 
             // Prepare vocabulary
             state.filteredVocab = window.gameUtils.getVocabPool ? window.gameUtils.getVocabPool(state.lang, state.level, state.theme) : [];

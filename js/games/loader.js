@@ -12,8 +12,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const mode = urlParams.get('mode'); // for bingo: 'caller' or 'player'
     const embed = urlParams.get('embed');
 
+
     if (embed === 'true') {
         document.body.classList.add('embedded-mode');
+        // Hide standard UI elements to focus only on the game
+        const toHide = [
+            '#global-preferences',
+            '#events',
+            '.friends-spotlight',
+            '.game-category-label',
+            '.help-details.centered-info',
+            'header.events-header'
+        ];
+        toHide.forEach(selector => {
+            const el = document.querySelector(selector);
+            if (el) el.style.display = 'none';
+        });
     }
 
 
@@ -35,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (game === 'charades' || game === 'action_hero') {
                 if (window.charadesGame) {
                     window.charadesGame.open();
+                    if (seed) setBySelector('charades-setup', '.game-seed', seed);
                     if (lang) setById('charades-lang', lang);
                     if (level) setById('charades-level', level);
                     if (theme) setById('charades-theme', theme);
@@ -44,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'guess-who' || game === 'identity_mystery') {
                 if (window.guessWhoGame) {
                     window.guessWhoGame.open();
+                    if (seed) setBySelector('guess-who-modal', '.game-seed', seed);
                     if (lang) setBySelector('guess-who-modal', '.game-lang', lang);
                     if (level) setBySelector('guess-who-modal', '.game-level', level);
                     if (theme) setBySelector('guess-who-modal', '.game-theme', theme);
@@ -52,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'guess-what' || game === 'object_quest') {
                 if (window.guessWhatGame) {
                     window.guessWhatGame.open();
+                    if (seed) setBySelector('guess-what-modal', '.game-seed', seed);
                     if (lang) setBySelector('guess-what-modal', '.game-lang', lang);
                     if (level) setBySelector('guess-what-modal', '.game-level', level);
                     if (theme) setBySelector('guess-what-modal', '.game-theme', theme);
@@ -69,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'debates' || game === 'battle_of_wits') {
                 if (window.debatesGame) {
                     window.debatesGame.open();
+                    if (seed) setBySelector('debates-modal', '.game-seed', seed);
                     if (lang) setById('debates-lang', lang);
                     if (level) setById('debates-level', level);
                     window.debatesGame.start();
@@ -76,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'talk-talk' || game === 'fluency_flow') {
                 if (window.talkTalkGame) {
                     window.talkTalkGame.open();
+                    if (seed) setBySelector('talk-talk-modal', '.game-seed', seed);
                     if (lang) setById('talk-lang', lang);
                     if (level) setById('talk-level', level);
                     window.talkTalkGame.start();
@@ -83,6 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'opinion_arena') {
                 if (window.opinionArenaGame) {
                     window.opinionArenaGame.open();
+                    if (seed) setBySelector('opinion-arena-modal', '.game-seed', seed);
                     if (lang) setById('opinion-lang', lang);
                     if (level) setById('opinion-level', level);
                     window.opinionArenaGame.start();
@@ -90,6 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'critics_corner') {
                 if (window.criticsCornerGame) {
                     window.criticsCornerGame.open();
+                    if (seed) setBySelector('critics-corner-modal', '.game-seed', seed);
                     if (lang) setById('critics-lang', lang);
                     if (level) setById('critics-level', level);
                     window.criticsCornerGame.start();
@@ -97,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'emoji_odyssey') {
                 if (window.emojiOdysseyGame) {
                     window.emojiOdysseyGame.open();
+                    if (seed) setBySelector('emoji-setup', '.game-seed', seed);
                     if (lang) setById('emoji-lang', lang);
                     if (level) setById('emoji-level', level);
                     window.emojiOdysseyGame.start();
@@ -104,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'word_linker') {
                 if (window.wordLinkerGame) {
                     window.wordLinkerGame.open();
+                    if (seed) setBySelector('linker-setup', '.game-seed', seed);
                     if (lang) setById('linker-lang', lang);
                     if (level) setById('linker-level', level);
                     window.wordLinkerGame.start();
@@ -111,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'last_letter') {
                 if (window.lastLetterGame) {
                     window.lastLetterGame.open();
+                    if (seed) setBySelector('last-letter-setup', '.game-seed', seed);
                     if (lang) setById('last-letter-lang', lang);
                     if (level) setById('last-letter-level', level);
                     if (theme) setById('last-letter-theme', theme);
@@ -120,6 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const modal = document.getElementById('story-chain-modal');
                 if (modal) {
                     modal.style.display = 'flex';
+                    if (seed) setBySelector('sc-setup', '.game-seed', seed);
                     if (lang) setById('sc-lang', lang);
                     if (level) setById('sc-level', level);
                     if (theme) setById('sc-theme', theme);
@@ -129,6 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const modal = document.getElementById('hot-seat-modal');
                 if (modal) {
                     modal.style.display = 'flex';
+                    if (seed) setBySelector('hs-setup', '.game-seed', seed);
                     if (lang) setById('hs-lang', lang);
                     if (level) setById('hs-level', level);
                     if (theme) setById('hs-theme', theme);
@@ -137,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (game === 'crossword' || game === 'cosy_crossword') {
                 if (window.crosswordGame) {
                     window.crosswordGame.open();
+                    if (seed) setBySelector('crossword-setup', '.game-seed', seed);
                     if (lang) setById('crossword-lang', lang);
                     if (level) setById('crossword-level', level);
                     if (theme) setById('crossword-theme', theme);

@@ -226,11 +226,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = levelSelect.value;
             const lessonInput = document.getElementById('charades-lessons')?.value;
 
-            pool = [];
-
-            const filterByTheme = (w) => isThemeMatch(w.theme, theme);
-
             if (lessonInput) {
+                pool = [];
+                const filterByTheme = (w) => isThemeMatch(w.theme, theme);
                 const lessons = parseLessons(lessonInput);
                 lessons.forEach(num => {
                     if (window.lessonsData && window.lessonsData[lang] && window.lessonsData[lang][num]) {
@@ -240,17 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
             } else {
-                const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-                pool = vocab.filter(item => filterByTheme(item));
-            }
-
-            if (level !== 'all') {
-                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
-                const targetIdx = levels.indexOf(level);
-                pool = pool.filter(item => {
-                    const itemIdx = levels.indexOf(item.level || 'starter');
-                    return itemIdx !== -1 && itemIdx <= targetIdx;
-                });
+                pool = window.gameUtils.getVocabPool(lang, level, theme);
             }
 
             if (pool.length === 0) {
@@ -259,7 +247,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             masterPool = [...pool];
-            pool.sort(() => Math.random() - 0.5);
+            const seed = document.querySelector("#charades-setup .game-seed")?.value;
+            if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
+            else pool.sort(() => Math.random() - 0.5);
             setupArea.style.display = 'none';
             resultArea.style.display = 'none';
             gameArea.style.display = 'block';
@@ -267,8 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stopTimer();
             const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
             startTimer('charades-timer', duration, () => {
-                wordDisplay.textContent = t('time_up');
-                emojiDisplay.textContent = '⏰';
+                endGame();
             });
 
             showNext();

@@ -1,6 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     const { getVocabPool, t } = window.gameUtils;
 
+    const populateThemesLocal = () => {
+        const themeSelect = document.getElementById('sc-theme');
+        const levelSelect = document.getElementById('sc-level');
+        const langSelect = document.getElementById('sc-lang');
+        if (!themeSelect || !levelSelect || !langSelect) return;
+        window.gameUtils.populateThemes(themeSelect, levelSelect, langSelect.value);
+    };
+
     const StoryChainGame = {
       story: [], pool: [], currentWord: null,
 
@@ -13,7 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
       nextWord() {
         const unused = this.pool.filter(item => !this.story.some(s => s.word === item.word));
         if (unused.length === 0) return null;
-        this.currentWord = unused[Math.floor(Math.random() * unused.length)];
+        const seed = document.querySelector("#sc-setup .game-seed")?.value;
+        if (seed) {
+            const rng = window.gameUtils.mulberry32(parseInt(seed) + this.story.length);
+            this.currentWord = unused[Math.floor(rng() * unused.length)];
+        } else {
+            this.currentWord = unused[Math.floor(Math.random() * unused.length)];
+        }
         return this.currentWord;
       },
 
@@ -71,6 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
     };
+
+    document.getElementById('sc-lang')?.addEventListener('change', populateThemesLocal);
+    document.getElementById('sc-level')?.addEventListener('change', populateThemesLocal);
 
     window.storyChainStart = function() {
       const lang  = document.getElementById('sc-lang').value;
@@ -135,4 +152,6 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     window.StoryChainGame = StoryChainGame;
+    // Auto-populate on first load if visible
+    setTimeout(populateThemesLocal, 500);
 });

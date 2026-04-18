@@ -192,21 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = themeSelect.value;
 
             if (currentGameMode === 'guess') {
-                let vocab = (window.vocabularyData[lang] || [])
+                let vocab = window.gameUtils.getVocabPool(lang, level, theme)
                     .filter(v => v.theme !== 'famous_people'); // Never include names in Emoji Odyssey
 
-                vocab = vocab.filter(v => isThemeMatch(v.theme, theme));
-
-                if (level !== 'all') {
-                    const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
-                    const targetIdx = levels.indexOf(level);
-                    vocab = vocab.filter(v => {
-                        const itemIdx = levels.indexOf(v.level || 'starter');
-                        return itemIdx <= targetIdx;
-                    });
-                }
-
-                pool = vocab.filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
+                pool = vocab.filter(v => v.emoji);
+                const seed = setupArea.querySelector(".game-seed")?.value;
+                if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
+                else pool.sort(() => Math.random() - 0.5);
+                pool = pool.slice(0, 10);
 
                 if (pool.length === 0) {
                     showGameMessage(setupArea, t('alert_no_emoji_vocab'), 'error');

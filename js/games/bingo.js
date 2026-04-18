@@ -6,21 +6,29 @@ const stopBingoAutoCaller = () => {
     }
     window.speechSynthesis?.cancel();
 };
-const startBingoAutoCaller = (items, lang, intervalMs = 4000) => {
-    stopBingoAutoCaller();
-    let idx = 0;
-    const call = () => {
-        if (idx >= items.length) {
-            stopBingoAutoCaller();
-            return;
-        }
-        speak(items[idx].toString(), lang);
-        const btn = document.getElementById("bingo-call-next-btn");
-        if (btn) btn.click();
-        idx++;
-    };
-    call();
-    bingoAutoCallerInterval = setInterval(call, intervalMs);
+const LuckyNumbersGame = {
+    startAutoCaller: (items, lang, intervalMs = 4000) => {
+        stopBingoAutoCaller();
+        let idx = 0;
+        const call = () => {
+            if (idx >= items.length) {
+                stopBingoAutoCaller();
+                return;
+            }
+            if (window.gameUtils && window.gameUtils.speak) {
+                window.gameUtils.speak(items[idx].toString(), lang);
+            }
+            const btn = document.getElementById("bingo-call-next-btn");
+            if (btn) btn.click();
+            idx++;
+        };
+        call();
+        bingoAutoCallerInterval = setInterval(call, intervalMs);
+    }
+};
+
+window.LuckyNumbersGame = LuckyNumbersGame;
+
 };
 const celebrateBingo = () => {
     if (window.gameUtils && window.gameUtils.createConfetti) {
@@ -90,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'none';
             clearInterval(speedInterval);
             // Improvements: stopAutoCaller
-            if (true) stopBingoAutoCaller();
+            stopBingoAutoCaller();
             window.speechSynthesis.cancel();
         });
 
@@ -168,10 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
             updateDisplay(document.getElementById('bingo-player-last-called'), item);
 
             // Improvements: speakCalled
-            if (window.LuckyNumbersGame && contentType === 'numbers') {
-                speak(item.toString(), lang);
-            }
-
             const histSpan = document.createElement('span');
             histSpan.className = 'badge';
             histSpan.style.background = 'var(--primary-color)';
@@ -216,14 +220,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Improvements: auto-caller toggle
         document.getElementById('bingo-auto-caller-toggle-btn')?.addEventListener('click', () => {
-            if (true) {
-                if (bingoAutoCallerInterval) {
-                    stopBingoAutoCaller();
-                    document.getElementById('bingo-auto-indicator').style.display = 'none';
-                } else {
-                    LuckyNumbersGame.startAutoCaller(bingoPool, document.getElementById('bingo-lang').value, 4000);
-                    document.getElementById('bingo-auto-indicator').style.display = 'block';
-                }
+            if (bingoAutoCallerInterval) {
+                stopBingoAutoCaller();
+                document.getElementById('bingo-auto-indicator').style.display = 'none';
+            } else {
+                LuckyNumbersGame.startAutoCaller(bingoPool, document.getElementById('bingo-lang').value, 4000);
+                document.getElementById('bingo-auto-indicator').style.display = 'block';
             }
         });
 
@@ -307,12 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             hasWonCurrentCard = true;
                             if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(20);
                             // Improvements: celebrate
-                            if (true) {
-                                celebrateBingo();
-                            } else {
-                                playGameSound('success');
-                                createConfetti();
-                            }
+                            celebrateBingo();
                             window.gameUtils.showGameMessage(playerArea, "BINGO! 🎉");
                         }
                     }

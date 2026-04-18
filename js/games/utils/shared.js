@@ -196,12 +196,25 @@ const seededShuffle = (array, seed) => {
     return array;
 };
 
+
 const handleShare = (btnId, params) => {
     const btn = document.getElementById(btnId);
     if (!btn) return;
     btn.addEventListener('click', () => {
         const baseUrl = window.location.href.split('?')[0];
         const queryParts = [];
+
+        // Find seed if not provided
+        if (!params.seed) {
+            const modal = btn.closest('.modal-overlay') || btn.closest('.modal-content');
+            if (modal) {
+                const seedInput = modal.querySelector('.game-seed');
+                if (seedInput) {
+                    params.seed = () => seedInput.value || Math.floor(Math.random() * 1000000);
+                }
+            }
+        }
+
         for (const [k, v] of Object.entries(params)) {
             const val = typeof v === 'function' ? v() : v;
             if (val) queryParts.push(`${k}=${encodeURIComponent(val)}`);
@@ -548,5 +561,5 @@ const addGamePoints = (points) => {
 };
 
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, populateThemes, isThemeMatch, addGamePoints
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints
 };

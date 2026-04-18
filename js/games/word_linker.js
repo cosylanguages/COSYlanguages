@@ -152,9 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             speak(opt, lang);
 
                             // Improvements: WordLinkerGame.buildExplanation
-                            if (true) {
-                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, null);
-                            }
+                            document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, null);
 
                             setTimeout(showNext, 3000);
                         } else {
@@ -205,9 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             speak(opt, lang);
 
                             // Improvements: WordLinkerGame.buildExplanation
-                            if (true) {
-                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, current.explanation);
-                            }
+                            document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, current.explanation);
 
                             setTimeout(showNext, 3000);
                         } else {
@@ -232,21 +228,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = themeSelect.value;
             currentGameMode = document.getElementById('linker-mode')?.value || 'association';
 
-            let allVocab = (window.vocabularyData[lang] || [])
+            let allVocab = window.gameUtils.getVocabPool(lang, level, theme)
                 .filter(v => v.theme !== 'famous_people'); // Exclude names from Word Linker
 
-            allVocab = allVocab.filter(v => isThemeMatch(v.theme, theme));
-
-            // Filter by level (cumulative) if not "all"
-            if (level !== 'all') {
-                const levelIndex = levelsOrder.indexOf(level);
-                allVocab = allVocab.filter(v => {
-                    const vIndex = levelsOrder.indexOf(v.level || 'starter');
-                    return vIndex !== -1 && vIndex <= levelIndex;
-                });
-            }
-
-            pool = allVocab.filter(v => v.theme).sort(() => Math.random() - 0.5).slice(0, 10);
+            pool = allVocab.filter(v => v.theme);
+            const seed = setupArea.querySelector(".game-seed")?.value;
+            if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
+            else pool.sort(() => Math.random() - 0.5);
+            pool = pool.slice(0, 10);
 
             if (pool.length === 0) {
                 showGameMessage(setupArea, t('alert_no_vocab_level'), 'error');
