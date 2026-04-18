@@ -259,35 +259,34 @@
 
       <div id="area">
         <div class="s-header">
-          <div><h2 id="wh">Welcome back 👋</h2><p id="wp">Your personalised curriculum</p></div>
+          <div><h2 id="wh" data-translate-key="welcome_back">Welcome back 👋</h2><p id="wp">Your personalised curriculum</p></div>
           <div class="badges" id="bdg"></div>
-          <button class="btn-out" onclick="cosyDays.logout()">Log out</button>
+          <button class="btn-out" onclick="cosyDays.logout()" data-translate-key="logout_btn">Log out</button>
         </div>
         <div class="prog-box">
-          <div class="prog-row"><span>Your progress</span><span id="pc" style="font-size:13px;color:var(--ink-faint)">0 / 0</span></div>
+          <div class="prog-row"><span data-translate-key="your_progress">Your progress</span><span id="pc" style="font-size:13px;color:var(--ink-faint)">0 / 0</span></div>
           <div class="prog-track-new"><div class="prog-fill-new" id="pf" style="width:0%"></div></div>
           <div class="dots" id="dt"></div>
         </div>
         <div class="day-jump">
-          <label for="ds">Jump to day:</label>
+          <label for="ds" data-translate-key="jump_to_day">Jump to day:</label>
           <select id="ds" onchange="cosyDays.jumpTo(this.value)"></select>
         </div>
 
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-          <h2 class="sec-title" id="ct" style="margin-bottom: 0;">Curriculum</h2>
+          <h2 class="sec-title" id="ct" style="margin-bottom: 0;" data-translate-key="courses_title">Curriculum</h2>
           <div style="display: flex; gap: 0.5rem;">
-             <button id="open-workbook-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📓 Workbook</button>
-             <button id="open-roadmap-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px; display: none;">🗺️ Full Roadmap</button>
-             <button id="open-grammar-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📐 Grammar Ref</button>
-             <button id="open-vocab-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;">📖 Vocab Ref</button>
+             <button id="open-workbook-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;" data-translate-key="workbook_btn">📓 Workbook</button>
+             <button id="open-grammar-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;" data-translate-key="grammar_ref_btn">📐 Grammar Ref</button>
+             <button id="open-vocab-ref-btn" class="btn-out" style="padding: 4px 10px; font-size: 11px;" data-translate-key="vocab_ref_btn">📖 Vocab Ref</button>
           </div>
         </div>
 
         <div id="ls"></div>
 
         <div class="help-card-new">
-          <div><h3>Have a question about a lesson?</h3><p>Message your teacher — we reply fast.</p></div>
-          <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20a%20question%20about%20my%20lesson." target="_blank" class="btn-wa-new">💬 WhatsApp</a>
+          <div><h3 data-translate-key="question_about_lesson">Have a question about a lesson?</h3><p data-translate-key="message_teacher_fast">Message your teacher — we reply fast.</p></div>
+          <a href="https://wa.me/330766784195?text=Hi!%20I%20have%20a%20question%20about%20my%20lesson." target="_blank" class="btn-wa-new" data-translate-key="nav_contact">💬 WhatsApp</a>
         </div>
       </div>
     </main>
