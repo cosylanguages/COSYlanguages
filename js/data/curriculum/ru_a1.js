@@ -15,7 +15,25 @@ window.curriculumData.ru_a1 = [
   lessons:[
     { code:'RU-01', num:1, title:'Привет! Как тебя зовут?',
       grammar:'Алфавит + Личные местоимения + Нулевая связка',
-      vocab:['Привет','Здравствуйте','Спасибо','Пожалуйста','Пока'],
+      pronunciation: [
+        {
+          point: "The Cyrillic Alphabet — Vowels",
+          explain: "Russian has 10 vowels, which can be hard or soft.",
+          examples: [
+            { pattern: "А", ipa: "/a/", word: "мама" },
+            { pattern: "О", ipa: "/o/", word: "кот" },
+            { pattern: "И", ipa: "/i/", word: "вид" }
+          ],
+          tip: "Vowels change sound significantly when they are not stressed."
+        }
+      ],
+      vocab:[
+        {w:'Привет', emoji:'👋', trans:'Hi'},
+        {w:'Здравствуйте', emoji:'🤝', trans:'Hello (formal)'},
+        {w:'Спасибо', emoji:'🙏', trans:'Thank you'},
+        {w:'Пожалуйста', emoji:'🥺', trans:'Please / You\'re welcome'},
+        {w:'Пока', emoji:'🖐️', trans:'Bye'}
+      ],
       verbs:['быть','звать'],
       adj:['русский','красивый'],
       speaking:'Поздороваться и представить себя',
@@ -27,7 +45,25 @@ window.curriculumData.ru_a1 = [
       hw:'Выучить алфавит' },
     { code:'RU-02', num:2, title:'Кто я? Моя работа',
       grammar:'Род существительных + Профессии',
-      vocab:['работа','офис','коллега','бизнес','врач'],
+      pronunciation: [
+        {
+          point: "Vowel Reduction: The 'O'",
+          explain: "When 'O' is not stressed, it sounds like 'A'.",
+          examples: [
+            { pattern: "о", ipa: "/ma.la.'ko/", word: "молоко" },
+            { pattern: "о", ipa: "/xa.ra.'ʃo/", word: "хорошо" },
+            { pattern: "о", ipa: "/'o.kna/", word: "окна" }
+          ],
+          tip: "Listen for the stress! Only the stressed 'O' sounds like 'O'."
+        }
+      ],
+      vocab:[
+        {w:'работа', emoji:'💼', trans:'work'},
+        {w:'офис', emoji:'🏢', trans:'office'},
+        {w:'коллега', emoji:'🤝', trans:'colleague'},
+        {w:'бизнес', emoji:'👔', trans:'business'},
+        {w:'врач', emoji:'🩺', trans:'doctor'}
+      ],
       verbs:['работать'],
       adj:['занят','свободен'],
       speaking:'Рассказать о своей профессии',

@@ -1,0 +1,17 @@
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /days.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /css/mobile.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /images/cosylanguages.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/data/theme_config.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/data/curriculum_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/translate.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/days.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/mobile.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] code 404, message File not found
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /COSYlanguages/sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/data/germanic/en/translations.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /days.html HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] code 404, message File not found
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /COSYlanguages/sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [19/Apr/2026 15:47:56] "GET /js/data/curriculum/en_a1.js HTTP/1.1" 200 -

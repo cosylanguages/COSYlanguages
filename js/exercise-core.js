@@ -184,10 +184,11 @@ function showWordDefinition() {
         wordTitle.textContent = displayWord;
         wordInfo.appendChild(wordTitle);
 
-        if (wordObj.transcription) {
+        if (wordObj.transcription || wordObj.phon) {
+            const transStr = wordObj.transcription || wordObj.phon;
             const trans = document.createElement('div');
             trans.className = 'definition-transcription';
-            trans.textContent = `[${wordObj.transcription}]`;
+            trans.innerHTML = `<span class="vc-phon" style="font-size: 1.1rem; cursor: pointer;" onclick="window.gameUtils.speak('${displayWord.replace(/'/g, "\\'")}', '${ctx.language}', 0.6)">[${transStr}] 🐢</span>`;
             wordInfo.appendChild(trans);
         }
 
@@ -383,7 +384,8 @@ function speakWord() {
         : (wordObj.word || wordObj.text || wordObj.topic || wordObj.baseWord);
 
     if (window.gameUtils && window.gameUtils.speak) {
-        window.gameUtils.speak(text, ctx.language);
+        const slow = localStorage.getItem('cosy_slow_speech') === 'true';
+        window.gameUtils.speak(text, ctx.language, slow ? 0.6 : 1.0);
     }
 }
 

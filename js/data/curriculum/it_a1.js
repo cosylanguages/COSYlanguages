@@ -15,7 +15,27 @@ window.curriculumData.it_a1 = [
   lessons:[
     { code:'IT-01', num:1, title:'Buongiorno, mi chiamo...',
       grammar:'Presente di ESSERE + pronomi personali',
-      vocab:['Buongiorno','Ciao','Grazie','Per favore','Piacere'],
+      pronunciation: [
+        {
+          point: "The Italian Alphabet & Vowels",
+          explain: "Italian vowels are always clear and short. There are no diphthongs like in English.",
+          examples: [
+            { pattern: "A", ipa: "/a/", word: "casa" },
+            { pattern: "E", ipa: "/e/", word: "mela" },
+            { pattern: "I", ipa: "/i/", word: "bici" },
+            { pattern: "O", ipa: "/o/", word: "notte" },
+            { pattern: "U", ipa: "/u/", word: "uva" }
+          ],
+          tip: "Open your mouth more than you do in English for 'A'."
+        }
+      ],
+      vocab:[
+        {w:'Buongiorno', emoji:'☀️', trans:'Good morning'},
+        {w:'Ciao', emoji:'👋', trans:'Hello / Hi'},
+        {w:'Grazie', emoji:'🙏', trans:'Thank you'},
+        {w:'Per favore', emoji:'🥺', trans:'Please'},
+        {w:'Piacere', emoji:'🤝', trans:'Nice to meet you'}
+      ],
       verbs:['essere','chiamarsi'],
       adj:['italiano','americano'],
       speaking:'Presentarsi e salutare in classe',
@@ -27,7 +47,25 @@ window.curriculumData.it_a1 = [
       hw:'Imparare i numeri da 1 a 20' },
     { code:'IT-02', num:2, title:'Il mio lavoro — cosa faccio',
       grammar:'Presente di AVERE + articoli indeterminativi',
-      vocab:['lavoro','ufficio','collega','stipendio','computer'],
+      pronunciation: [
+        {
+          point: "Hard and Soft 'C'",
+          explain: "'C' is soft (ch) before E and I, but hard (k) before A, O, U.",
+          examples: [
+            { pattern: "ce", ipa: "/ˈtʃe.na/", word: "cena" },
+            { pattern: "ca", ipa: "/ˈka.za/", word: "casa" },
+            { pattern: "chi", ipa: "/ˈkjan.ti/", word: "chianti" }
+          ],
+          tip: "Add an 'H' to keep the 'K' sound before E or I."
+        }
+      ],
+      vocab:[
+        {w:'lavoro', emoji:'💼', trans:'work'},
+        {w:'ufficio', emoji:'🏢', trans:'office'},
+        {w:'collega', emoji:'🤝', trans:'colleague'},
+        {w:'stipendio', emoji:'💰', trans:'salary'},
+        {w:'computer', emoji:'💻', trans:'computer'}
+      ],
       verbs:['avere','lavorare'],
       adj:['occupato','libero'],
       speaking:'Descrivere il proprio lavoro e gli strumenti',

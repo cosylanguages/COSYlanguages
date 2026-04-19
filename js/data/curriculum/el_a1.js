@@ -15,7 +15,25 @@ window.curriculumData.el_a1 = [
   lessons:[
     { code:'EL-01', num:1, title:'Γεια σου! Με λένε...',
       grammar:'Αλφάβητο + Προσωπικές αντωνυμίες + Ρήμα είμαι',
-      vocab:['Γεια','Ευχαριστώ','Παρακαλώ','Χαίρετε','Αντίο'],
+      pronunciation: [
+        {
+          point: "The Greek Alphabet — Vowels",
+          explain: "Greek has 7 vowel letters but only 5 vowel sounds (a, e, i, o, u).",
+          examples: [
+            { pattern: "Α, α", ipa: "/a/", word: "καλά" },
+            { pattern: "Ε, ε / ΑΙ, αι", ipa: "/e/", word: "ναι" },
+            { pattern: "Η, η / Ι, ι / Υ, υ", ipa: "/i/", word: "είμαι" }
+          ],
+          tip: "Vowels are always short and clear in Greek."
+        }
+      ],
+      vocab:[
+        {w:'Γεια', emoji:'👋', trans:'Hi / Bye'},
+        {w:'Ευχαριστώ', emoji:'🙏', trans:'Thank you'},
+        {w:'Παρακαλώ', emoji:'🥺', trans:'Please / You\'re welcome'},
+        {w:'Χαίρετε', emoji:'🤝', trans:'Greetings (formal)'},
+        {w:'Αντίο', emoji:'🖐️', trans:'Goodbye'}
+      ],
       verbs:['είμαι','λέω'],
       adj:['Έλληνας','καλός'],
       speaking:'Συστήνομαι και χαιρετάω στην τάξη',
@@ -27,7 +45,25 @@ window.curriculumData.el_a1 = [
       hw:'Μαθαίνω το αλφάβητο' },
     { code:'EL-02', num:2, title:'Η δουλειά μου — τι κάνω',
       grammar:'Άρθρο + Ουσιαστικά (Επαγγέλματα)',
-      vocab:['δουλειά','γραφείο','συνάδελφος','μισθός','υπολογιστής'],
+      pronunciation: [
+        {
+          point: "Special Consonants: Γ, Δ, Θ",
+          explain: "These sounds are 'fricatives' and differ from English equivalents.",
+          examples: [
+            { pattern: "Γ, γ", ipa: "/ɣ/", word: "γραφείο" },
+            { pattern: "Δ, δ", ipa: "/ð/", word: "δουλειά" },
+            { pattern: "Θ, θ", ipa: "/θ/", word: "θέλω" }
+          ],
+          tip: "Γ is like a soft gargle; Δ is like 'th' in 'this'; Θ is like 'th' in 'think'."
+        }
+      ],
+      vocab:[
+        {w:'δουλειά', emoji:'💼', trans:'work / job'},
+        {w:'γραφείο', emoji:'🏢', trans:'office / desk'},
+        {w:'συνάδελφος', emoji:'🤝', trans:'colleague'},
+        {w:'μισθός', emoji:'💰', trans:'salary'},
+        {w:'υπολογιστής', emoji:'💻', trans:'computer'}
+      ],
       verbs:['δουλεύω','κάνω'],
       adj:['πολυάσχολος','ελεύθερος'],
       speaking:'Περιγράφω το επάγγελμά μου',

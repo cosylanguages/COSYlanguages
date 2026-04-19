@@ -106,7 +106,7 @@ const parseLessons = (input) => {
     return lessons;
 };
 
-const speak = (text, lang) => {
+const speak = (text, lang, rate) => {
     if (!window.speechSynthesis) return;
 
     // Cancel ongoing speech to prevent overlaps and delays
@@ -125,6 +125,14 @@ const speak = (text, lang) => {
     }
 
     msg.text = textToSpeak;
+
+    // Use provided rate, or check localStorage, or default to 1.0
+    if (rate) {
+        msg.rate = rate;
+    } else {
+        const isSlow = localStorage.getItem('cosy_slow_speech') === 'true';
+        msg.rate = isSlow ? 0.6 : 1.0;
+    }
 
     const langMap = {
         'en': 'en-GB',

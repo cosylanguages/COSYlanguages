@@ -15,7 +15,41 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-01', num:1, title:'A day in my life — routines revisited',
       grammar:'Present simple: all persons + frequency adverbs (mid-position)',
-      vocab:['always','usually','often','sometimes','rarely','never','wake up','get up','leave','arrive','finish'],
+      pronunciation: [
+        {
+          point: "Starter Foundation: The Alphabet Sounds",
+          explain: "Master the vowel sounds in the alphabet which often cause confusion.",
+          examples: [
+            { pattern: "A, H, J, K", ipa: "/eɪ/", word: "Alphabet" },
+            { pattern: "E, B, C, D, G, P, T, V", ipa: "/iː/", word: "Email" },
+            { pattern: "I, Y", ipa: "/aɪ/", word: "Identity" }
+          ],
+          tip: "English vowels 'A' and 'E' are often swapped by learners from other languages!"
+        },
+        {
+          point: "The Schwa Sound /ə/",
+          explain: "The most common sound in English. It's short, weak, and found in unstressed syllables.",
+          examples: [
+            { pattern: "a", ipa: "/ə'baʊt/", word: "about" },
+            { pattern: "er", ipa: "/'tiːtʃə/", word: "teacher" },
+            { pattern: "o", ipa: "/'pəʊlɪs/", word: "police" }
+          ],
+          tip: "Relax your mouth completely to make this sound."
+        }
+      ],
+      vocab:[
+        {w:'always', emoji:'♾️', trans:'always'},
+        {w:'usually', emoji:'🔄', trans:'usually'},
+        {w:'often', emoji:'🔁', trans:'often'},
+        {w:'sometimes', emoji:'⏱️', trans:'sometimes'},
+        {w:'rarely', emoji:'📉', trans:'rarely'},
+        {w:'never', emoji:'❌', trans:'never'},
+        {w:'wake up', emoji:'⏰', trans:'wake up'},
+        {w:'get up', emoji:'🧍', trans:'get up'},
+        {w:'leave', emoji:'🚪', trans:'leave'},
+        {w:'arrive', emoji:'🏁', trans:'arrive'},
+        {w:'finish', emoji:'🔚', trans:'finish'}
+      ],
       verbs:['wake up','get up','leave','arrive','start','finish'],
       adj:[],
       speaking:'Compare routines with 2 partners using frequency adverbs',
@@ -27,7 +61,30 @@ window.curriculumData.en_a1 = [
       hw:'Write a detailed weekly routine with frequency adverbs' },
     { code:'A1-02', num:2, title:'My job — describing work in detail',
       grammar:'Present simple: "I work with/for/in; I am responsible for…"',
-      vocab:['job','work','boss','colleague','salary','office','meeting','email','full-time','part-time'],
+      pronunciation: [
+        {
+          point: "Word Stress in Occupations",
+          explain: "Multi-syllable words always have one syllable that is stronger than the others.",
+          examples: [
+            { pattern: "oo", ipa: "/ˌen.dʒɪˈnɪər/", word: "engineer" },
+            { pattern: "o", ipa: "/ˈfəʊ.tə.ɡrɑː.fər/", word: "photographer" },
+            { pattern: "a", ipa: "/ˈmæn.ɪ.dʒər/", word: "manager" }
+          ],
+          tip: "Tap your finger on the desk for the stressed syllable."
+        }
+      ],
+      vocab:[
+        {w:'job', emoji:'💼', trans:'job'},
+        {w:'work', emoji:'🛠️', trans:'work'},
+        {w:'boss', emoji:'👔', trans:'boss'},
+        {w:'colleague', emoji:'🤝', trans:'colleague'},
+        {w:'salary', emoji:'💰', trans:'salary'},
+        {w:'office', emoji:'🏢', trans:'office'},
+        {w:'meeting', emoji:'👥', trans:'meeting'},
+        {w:'email', emoji:'📧', trans:'email'},
+        {w:'full-time', emoji:'⏲️', trans:'full-time'},
+        {w:'part-time', emoji:'⏱️', trans:'part-time'}
+      ],
       verbs:['manage','attend','check','send','meet','reply','help','order','visit'],
       adj:['busy'],
       speaking:'Describe your job in 5 sentences to a partner',
@@ -39,7 +96,25 @@ window.curriculumData.en_a1 = [
       hw:'Write a job description as if for a LinkedIn profile' },
     { code:'A1-03', num:3, title:'My commute and workplace',
       grammar:'"How long does it take? / How far is it?" + It takes / It is',
-      vocab:['commute','floor','department','delay','rush hour'],
+      pronunciation: [
+        {
+          point: "The /θ/ and /ð/ Sounds",
+          explain: "English 'th' has two sounds: unvoiced /θ/ (think) and voiced /ð/ (the).",
+          examples: [
+            { pattern: "th", ipa: "/θɪŋk/", word: "think" },
+            { pattern: "th", ipa: "/ðə/", word: "the" },
+            { pattern: "th", ipa: "/'ɜː.θɪŋ/", word: "earth" }
+          ],
+          tip: "Put your tongue between your teeth and blow."
+        }
+      ],
+      vocab:[
+        {w:'commute', emoji:'🚆', trans:'commute'},
+        {w:'floor', emoji:'🏢', trans:'floor'},
+        {w:'department', emoji:'🏬', trans:'department'},
+        {w:'delay', emoji:'⏳', trans:'delay'},
+        {w:'rush hour', emoji:'🚗🚗🚗', trans:'rush hour'}
+      ],
       verbs:['travel','leave','arrive'],
       adj:['busy','free','difficult'],
       speaking:'Tell a partner about your commute in detail',
@@ -51,7 +126,29 @@ window.curriculumData.en_a1 = [
       hw:'Write a 60-word commute description' },
     { code:'A1-04', num:4, title:'Earning and spending — money vocabulary',
       grammar:'How much do you earn/spend? Present simple + object; too + adjective / enough',
-      vocab:['spend','save','pay','cost','cash','card','receipt','discount','bill'],
+      pronunciation: [
+        {
+          point: "Numbers and Word Stress",
+          explain: "Differentiate between -teen and -ty numbers using stress.",
+          examples: [
+            { pattern: "teen", ipa: "/ˌθɜːˈtiːn/", word: "thirteen" },
+            { pattern: "ty", ipa: "/ˈθɜː.ti/", word: "thirty" },
+            { pattern: "teen", ipa: "/ˌfɔːˈtiːn/", word: "fourteen" }
+          ],
+          tip: "The '-teen' is long and high; the '-ty' is short and low."
+        }
+      ],
+      vocab:[
+        {w:'spend', emoji:'💸', trans:'spend'},
+        {w:'save', emoji:'🏦', trans:'save'},
+        {w:'pay', emoji:'💳', trans:'pay'},
+        {w:'cost', emoji:'🏷️', trans:'cost'},
+        {w:'cash', emoji:'💵', trans:'cash'},
+        {w:'card', emoji:'💳', trans:'card'},
+        {w:'receipt', emoji:'🧾', trans:'receipt'},
+        {w:'discount', emoji:'📉', trans:'discount'},
+        {w:'bill', emoji:'📄', trans:'bill'}
+      ],
       verbs:['earn','afford','charge','pay','spend','save'],
       adj:['cheap','expensive'],
       speaking:'Discuss spending habits: what do you spend most on?',
@@ -63,7 +160,28 @@ window.curriculumData.en_a1 = [
       hw:'Write a paragraph about your financial habits' },
     { code:'A1-05', num:5, title:'My home — renting and buying',
       grammar:'Have to / don\'t have to (obligation intro); How much does it cost?',
-      vocab:['rent','flat','landlord','tenant','neighbour','furniture','heating','bill'],
+      pronunciation: [
+        {
+          point: "Vowel Sound /eɪ/ (Long A)",
+          explain: "Common in words like 'name' and 'station'. It's a diphthong (two sounds in one).",
+          examples: [
+            { pattern: "a_e", ipa: "/neɪm/", word: "name" },
+            { pattern: "ai", ipa: "/peɪ/", word: "pay" },
+            { pattern: "ay", ipa: "/deɪ/", word: "day" }
+          ],
+          tip: "Open your mouth then move your jaw up slightly."
+        }
+      ],
+      vocab:[
+        {w:'rent', emoji:'🏠', trans:'rent'},
+        {w:'flat', emoji:'🏢', trans:'flat'},
+        {w:'landlord', emoji:'👨‍💼', trans:'landlord'},
+        {w:'tenant', emoji:'👤', trans:'tenant'},
+        {w:'neighbour', emoji:'🏘️', trans:'neighbour'},
+        {w:'furniture', emoji:'🛋️', trans:'furniture'},
+        {w:'heating', emoji:'🔥', trans:'heating'},
+        {w:'bill', emoji:'📄', trans:'bill'}
+      ],
       verbs:['rent','move','repair','clean','cook'],
       adj:['cheap','expensive','different'],
       speaking:'Role-play: tenant phones landlord about a flat',
@@ -75,7 +193,29 @@ window.curriculumData.en_a1 = [
       hw:'Write a short email enquiry about a flat to rent' },
     { code:'A1-06', num:6, title:'Food and health — what you eat, how you feel',
       grammar:'Should / shouldn\'t for advice: "You should eat more… / You shouldn\'t…"',
-      vocab:['ill','tired','headache','doctor','hospital','medicine','sleep','exercise','stress'],
+      pronunciation: [
+        {
+          point: "The /i:/ and /ɪ/ Sounds",
+          explain: "Differentiate between long 'ee' (feel) and short 'i' (ill).",
+          examples: [
+            { pattern: "ee", ipa: "/fiːl/", word: "feel" },
+            { pattern: "i", ipa: "/ɪl/", word: "ill" },
+            { pattern: "ea", ipa: "/iːt/", word: "eat" }
+          ],
+          tip: "Think of a 'smile' for the long /i:/ sound."
+        }
+      ],
+      vocab:[
+        {w:'ill', emoji:'🤒', trans:'ill'},
+        {w:'tired', emoji:'🥱', trans:'tired'},
+        {w:'headache', emoji:'🤕', trans:'headache'},
+        {w:'doctor', emoji:'👨‍⚕️', trans:'doctor'},
+        {w:'hospital', emoji:'🏥', trans:'hospital'},
+        {w:'medicine', emoji:'💊', trans:'medicine'},
+        {w:'sleep', emoji:'😴', trans:'sleep'},
+        {w:'exercise', emoji:'🏃', trans:'exercise'},
+        {w:'stress', emoji:'😫', trans:'stress'}
+      ],
       verbs:['feel','rest','recover','exercise','hurt'],
       adj:['healthy','ill','fit','tired','stressed'],
       speaking:'Give a partner 3 pieces of health advice',
@@ -87,7 +227,26 @@ window.curriculumData.en_a1 = [
       hw:'Write a 5-tip healthy lifestyle guide' },
     { code:'A1-07', num:7, title:'Technology in my life',
       grammar:'Present simple + adverbs of frequency + like + -ing for tech habits',
-      vocab:['phone','app','password','internet','online','screen'],
+      pronunciation: [
+        {
+          point: "Silent 'e' in Tech Words",
+          explain: "The final 'e' is often silent but changes the previous vowel sound.",
+          examples: [
+            { pattern: "_one", ipa: "/fəʊn/", word: "phone" },
+            { pattern: "_ine", ipa: "/'ɒn.laɪn/", word: "online" },
+            { pattern: "een", ipa: "/skriːn/", word: "screen" }
+          ],
+          tip: "The vowel before the consonant becomes 'long' because of the magic 'e'."
+        }
+      ],
+      vocab:[
+        {w:'phone', emoji:'📱', trans:'phone'},
+        {w:'app', emoji:'📲', trans:'app'},
+        {w:'password', emoji:'🔑', trans:'password'},
+        {w:'internet', emoji:'🌐', trans:'internet'},
+        {w:'online', emoji:'📶', trans:'online'},
+        {w:'screen', emoji:'🖥️', trans:'screen'}
+      ],
       verbs:['check','send','watch','follow','learn'],
       adj:['online','free','popular'],
       speaking:'Discuss your technology habits with a partner',
@@ -99,7 +258,27 @@ window.curriculumData.en_a1 = [
       hw:'Write: "How I use technology every day"' },
     { code:'A1-08', num:8, title:'My interests and free time',
       grammar:'Love / like / enjoy / don\'t mind / hate / can\'t stand + -ing (gradable scale)',
-      vocab:['holiday','weekend','free time','friend','invitation','party','hobby'],
+      pronunciation: [
+        {
+          point: "The /-ing/ Ending /ŋ/",
+          explain: "The 'g' is not fully pronounced. It's a nasal sound made at the back of the throat.",
+          examples: [
+            { pattern: "ing", ipa: "/ˈpleɪ.ɪŋ/", word: "playing" },
+            { pattern: "ing", ipa: "/ˈrɪː.dɪŋ/", word: "reading" },
+            { pattern: "ing", ipa: "/ˈkʊk.ɪŋ/", word: "cooking" }
+          ],
+          tip: "Keep the back of your tongue up against the roof of your mouth."
+        }
+      ],
+      vocab:[
+        {w:'holiday', emoji:'🏖️', trans:'holiday'},
+        {w:'weekend', emoji:'🗓️', trans:'weekend'},
+        {w:'free time', emoji:'🧘', trans:'free time'},
+        {w:'friend', emoji:'🫂', trans:'friend'},
+        {w:'invitation', emoji:'📩', trans:'invitation'},
+        {w:'party', emoji:'🥳', trans:'party'},
+        {w:'hobby', emoji:'🎨', trans:'hobby'}
+      ],
       verbs:['relax','enjoy','invite','celebrate','play'],
       adj:['happy','relaxed','bored','excited','free'],
       speaking:'Discuss free time preferences using the full scale',
@@ -111,7 +290,24 @@ window.curriculumData.en_a1 = [
       hw:'Write a short paragraph about your ideal weekend' },
     { code:'A1-09', num:9, title:'My neighbourhood and community',
       grammar:'There is/are + quantity; adjectives for opinions; comparatives review',
-      vocab:['neighbour','local','convenient','community'],
+      pronunciation: [
+        {
+          point: "The /v/ and /b/ Sounds",
+          explain: "Many learners confuse these. /v/ is a 'fricative' (vibration), /b/ is a 'plosive' (stop).",
+          examples: [
+            { pattern: "v", ipa: "/'vɪl.ɪdʒ/", word: "village" },
+            { pattern: "v", ipa: "/'veɹ.i/", word: "very" },
+            { pattern: "b", ipa: "/'bɪl.dɪŋ/", word: "building" }
+          ],
+          tip: "For /v/, your top teeth should touch your bottom lip."
+        }
+      ],
+      vocab:[
+        {w:'neighbour', emoji:'🏠👤', trans:'neighbour'},
+        {w:'local', emoji:'📍', trans:'local'},
+        {w:'convenient', emoji:'👌', trans:'convenient'},
+        {w:'community', emoji:'🏘️', trans:'community'}
+      ],
       verbs:['live','move','seem','happen'],
       adj:['quiet','noisy','convenient','popular','special','different','similar'],
       speaking:'Describe your neighbourhood to a partner',

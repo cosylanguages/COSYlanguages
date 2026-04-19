@@ -453,6 +453,10 @@ footer {
 
                 <div class="practice-footer">
                     <div><span data-translate-key="score_label">COSY Points: ✨</span> <span id="score-count">0</span></div>
+                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                        <span style="font-size: 0.8rem; font-weight: 800; color: var(--muted);">🐢 Slow</span>
+                        <input type="checkbox" id="slow-speech-toggle-lesson" onchange="localStorage.setItem('cosy_slow_speech', this.checked)" style="width: 18px; height: 18px; cursor: pointer;">
+                    </div>
                 </div>
                 <div class="exit-container">
                     <button id="exit-lesson-btn" class="cta-button secondary" data-translate-key="exit_btn">Exit Lesson 🏠</button>

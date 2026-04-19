@@ -113,6 +113,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
+    const slowToggle = document.getElementById('slow-speech-toggle-lesson');
+    if (slowToggle) {
+        slowToggle.checked = localStorage.getItem('cosy_slow_speech') === 'true';
+    }
+
     await startLesson();
 });
 

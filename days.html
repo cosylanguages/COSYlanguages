@@ -417,6 +417,7 @@ body.teacher .teacher-only { display: block; }
       </div>
       <div class="tb-right">
         <span class="tb-mode" id="mode-badge" data-translate-key="student_badge">👤 Student</span>
+        <button class="tb-btn" onclick="cosyDays.showSettingsModal()">⚙️ Settings</button>
         <button class="tb-btn" onclick="cosyDays.showPinModal()" id="teacher-switch-btn" data-translate-key="switch_to_teacher_btn">👩‍🏫 Switch to Teacher</button>
         <button class="tb-btn" onclick="cosyDays.resetProgress()" data-translate-key="reset_progress_btn">↺ Reset</button>
         <button class="tb-btn" onclick="cosyDays.logout()" data-translate-key="logout_btn">Log out</button>
@@ -451,6 +452,42 @@ body.teacher .teacher-only { display: block; }
           <div class="pin-error" id="pin-error" style="color:var(--ember); font-size:.8rem; margin-top:.5rem; display:none;" data-translate-key="incorrect_pin_msg">Incorrect PIN. Try again.</div>
           <button class="pin-btn" onclick="cosyDays.checkPin()" data-translate-key="enter_btn">Enter →</button>
           <button class="pin-cancel" onclick="cosyDays.hidePinModal()" data-translate-key="cancel_btn">Cancel</button>
+        </div>
+      </div>
+
+      <!-- ── SETTINGS MODAL ── -->
+      <div class="pin-modal" id="settings-modal">
+        <div class="pin-box" style="max-width: 440px;">
+          <h3>Dashboard Settings ⚙️</h3>
+          <p>Personalize your private area experience.</p>
+
+          <div style="text-align: left; margin-top: 1.5rem;">
+            <label class="sb-label" style="padding-left: 0;">Theme Appearance</label>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+              <button class="tb-btn" style="flex: 1; min-width: 100px; padding: 10px;" onclick="cosyDays.setTheme('earth')">🟤 Earth</button>
+              <button class="tb-btn" style="flex: 1; min-width: 100px; padding: 10px;" onclick="cosyDays.setTheme('paper')">⚪ Paper</button>
+              <button class="tb-btn" style="flex: 1; min-width: 100px; padding: 10px;" onclick="cosyDays.setTheme('contrast')">⚫ Contrast</button>
+            </div>
+
+            <label class="sb-label" style="padding-left: 0;">Pronunciation Engine</label>
+            <div class="phrase-item" style="margin-bottom: 0.5rem;">
+              <div class="ph-text">
+                <div class="ph-en">Slow Speech Mode</div>
+                <div class="ph-translations">Reduce TTS speed for better clarity.</div>
+              </div>
+              <input type="checkbox" id="slow-speech-toggle" onchange="cosyDays.toggleSlowSpeech(this.checked)" style="width: 20px; height: 20px; cursor: pointer;">
+            </div>
+
+            <div class="phrase-item">
+              <div class="ph-text">
+                <div class="ph-en">Auto-Speak Definitions</div>
+                <div class="ph-translations">Play audio automatically when opening cards.</div>
+              </div>
+              <input type="checkbox" id="auto-speak-toggle" onchange="cosyDays.toggleAutoSpeak(this.checked)" style="width: 20px; height: 20px; cursor: pointer;">
+            </div>
+          </div>
+
+          <button class="pin-btn" onclick="cosyDays.hideSettingsModal()" style="background: var(--sienna);">Save & Close</button>
         </div>
       </div>
 

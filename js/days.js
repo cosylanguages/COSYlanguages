@@ -15,6 +15,9 @@
         const unlocked = localStorage.getItem('student_unlocked') === 'true';
         const code = localStorage.getItem('student_course_code');
 
+        const savedTheme = localStorage.getItem('cosy_dashboard_theme') || 'earth';
+        document.body.classList.add('theme-' + savedTheme);
+
         if (unlocked && code && typeof COURSES !== 'undefined' && COURSES[code]) {
             currentCourse = { ...COURSES[code], code: code };
             initDashboard();
@@ -95,6 +98,37 @@
         if (modal) modal.classList.remove('show');
     }
 
+    function showSettingsModal() {
+        const modal = document.getElementById('settings-modal');
+        if (modal) {
+            modal.classList.add('show');
+            document.getElementById('slow-speech-toggle').checked = localStorage.getItem('cosy_slow_speech') === 'true';
+            document.getElementById('auto-speak-toggle').checked = localStorage.getItem('cosy_auto_speak') === 'true';
+        }
+    }
+
+    function hideSettingsModal() {
+        const modal = document.getElementById('settings-modal');
+        if (modal) modal.classList.remove('show');
+    }
+
+    function setTheme(theme) {
+        const themes = ['theme-earth', 'theme-paper', 'theme-contrast'];
+        document.body.classList.remove(...themes);
+        document.body.classList.add('theme-' + theme);
+
+        localStorage.setItem('cosy_dashboard_theme', theme);
+        showToast('Theme updated to ' + theme + ' ✨');
+    }
+
+    function toggleSlowSpeech(val) {
+        localStorage.setItem('cosy_slow_speech', val);
+    }
+
+    function toggleAutoSpeak(val) {
+        localStorage.setItem('cosy_auto_speak', val);
+    }
+
     function checkPin() {
         const input = document.getElementById('pin-input');
         const error = document.getElementById('pin-error');
@@ -153,6 +187,13 @@
         navigator.clipboard.writeText(text).then(() => {
             showToast(t('copied_to_clipboard') || 'Copied to clipboard! 📋');
         });
+    }
+
+    function speakText(text) {
+        if (window.gameUtils && window.gameUtils.speak) {
+            const slow = localStorage.getItem('cosy_slow_speech') === 'true';
+            window.gameUtils.speak(text, currentCourse.lang.toLowerCase(), slow ? 0.6 : 1.0);
+        }
     }
 
     // ── Dashboard Core ──────────────────────────────────
@@ -404,6 +445,7 @@
                         <button class="tab-btn active" data-target="ov-${dayNum}" data-translate-key="overview_tab">${t('overview_tab')}</button>
                         <button class="tab-btn" data-target="gr-${dayNum}" data-translate-key="grammar_tab">${t('grammar_tab')}</button>
                         <button class="tab-btn" data-target="vo-${dayNum}" data-translate-key="vocab_tab">${t('vocab_tab')}</button>
+                        <button class="tab-btn" data-target="pr-${dayNum}" data-translate-key="pronunciation_tab">${t('pronunciation_tab') || 'Pronunciation'}</button>
                         <button class="tab-btn" data-target="rf-${dayNum}" data-translate-key="refs_tab">${t('refs_tab')}</button>
                         ${isTeacher ? `<button class="tab-btn" data-target="tn-${dayNum}" style="color:var(--gold)">👩‍🏫 Notes</button>` : ''}
                     </div>
@@ -437,6 +479,10 @@
 
                     <div class="tab-panel" id="vo-${dayNum}">
                         ${renderVocabTabContent(lesson)}
+                    </div>
+
+                    <div class="tab-panel" id="pr-${dayNum}">
+                        ${renderPronunciationTabContent(lesson)}
                     </div>
 
                     <div class="tab-panel" id="rf-${dayNum}">
@@ -503,17 +549,27 @@
                 </div>
                 <p class="gram-explain">${p.explain || ''}</p>
                 ${p.rule ? `<div class="gram-rule">${p.rule}</div>` : ''}
-                <div class="ex-header-new"><span>Target</span><span>Translation</span></div>
-                ${(p.examples || []).map(ex => `
-                    <div class="ex-row-new">
-                        <span class="ex-t">${ex.t}</span>
-                        <span class="ex-e">${ex.e}</span>
-                    </div>
-                `).join('')}
+
+                <table class="gtable" style="margin-bottom: 1rem;">
+                    <thead>
+                        <tr class="section-row"><th colspan="2" style="text-align: left;" data-translate-key="examples_label">${t('examples_label') || 'Examples'}</th></tr>
+                    </thead>
+                    <tbody>
+                        ${(p.examples || []).map(ex => `
+                            <tr class="example-row">
+                                <td class="content-l">${ex.t}</td>
+                                <td class="content-l" style="font-style: italic; opacity: 0.7;">${ex.e}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+
                 ${p.tip ? `<div class="gram-tip">${p.tip}</div>` : ''}
-                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=grammar&theme=${encodeURIComponent(p.practiceTheme || p.point || '')}" class="plink hi">
-                    Practice this point 🎯
-                </a>
+                <div class="vocab-actions">
+                    <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=grammar&theme=${encodeURIComponent(p.practiceTheme || p.point || '')}" class="plink hi">
+                        Practice this point 🎯
+                    </a>
+                </div>
             </div>
         `).join('');
     }
@@ -521,12 +577,17 @@
     function renderVocabTabContent(lesson) {
         const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
         let words = [];
-        if (lesson.vocabWords) words = lesson.vocabWords;
-        else if (Array.isArray(lesson.vocab)) {
+        if (lesson.vocabWords) {
+            words = lesson.vocabWords;
+        } else if (Array.isArray(lesson.vocab) && lesson.vocab.length > 0) {
             if (typeof lesson.vocab[0] === 'string') {
                 words = lesson.vocab.map(v => ({ w: v, trans: '...' }));
+            } else if (lesson.vocab[0].words) {
+                // Grouped
+                words = lesson.vocab.flatMap(g => g.words || []).map(w => (typeof w === 'string' ? { w: w, trans: '...' } : w));
             } else {
-                words = lesson.vocab.flatMap(g => g.words || []);
+                // Flat objects
+                words = lesson.vocab;
             }
         }
 
@@ -536,21 +597,76 @@
         }
 
         return `
-            <div class="vocab-grid">
-                ${words.map(w => `
-                    <div class="vocab-card" onclick="cosyDays.copyText('${w.w.replace(/'/g, "\\'")}')">
-                        <div class="vc-word">${w.w}</div>
-                        <div class="vc-phon">${w.phon || ''}</div>
-                        <div class="vc-def">${w.trans || ''}</div>
-                    </div>
-                `).join('')}
-            </div>
+            <table class="gtable" style="margin-bottom: 1.5rem;">
+                <thead>
+                    <tr class="section-row">
+                        <th style="text-align: left;">Word</th>
+                        <th style="text-align: left;">Phonetic</th>
+                        <th style="text-align: left;">Translation</th>
+                        <th style="width: 40px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${words.map(w => `
+                        <tr>
+                            <td class="content-l"><strong class="vc-word-title">${w.w}</strong></td>
+                            <td class="content-l">${w.phon ? `<span class="vc-phon">${w.phon}</span>` : ''}</td>
+                            <td class="content-l" style="font-size: 0.85rem;">${w.trans || ''}</td>
+                            <td><button class="ph-copy" onclick="cosyDays.speakText('${w.w.replace(/'/g, "\\'")}')">🔊</button></td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
             <div class="vocab-actions">
                 <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=vocab&theme=${encodeURIComponent(lesson.practiceTheme || '')}" class="plink hi" data-translate-key="flashcards_quiz_btn">
                     ${t('flashcards_quiz_btn')}
                 </a>
+                <a href="vocabulary-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">
+                    ${t('open_vocab_ref')}
+                </a>
             </div>
         `;
+    }
+
+    function renderPronunciationTabContent(lesson) {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        const points = lesson.pronunciation || [];
+
+        if (!points.length) {
+            return `<p class="vocab-intro">Pronunciation focus for this lesson is being prepared.</p>
+                    <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Pronunciation Guide 🔊</a>`;
+        }
+
+        return points.map(p => `
+            <div class="gram-point">
+                <div class="gram-heading">
+                    ${p.point} <span class="gram-tag">Sound</span>
+                </div>
+                <p class="gram-explain">${p.explain || ''}</p>
+
+                <table class="gtable">
+                    <thead>
+                        <tr class="section-row">
+                            <th style="text-align: left;">Pattern</th>
+                            <th style="text-align: left;">IPA</th>
+                            <th style="text-align: left;">Examples</th>
+                            <th style="width: 50px;">Listen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${(p.examples || []).map(ex => `
+                            <tr>
+                                <td class="content"><strong>${ex.pattern || ''}</strong></td>
+                                <td class="content" style="color:var(--sky); font-style:italic;">${ex.ipa || ''}</td>
+                                <td class="content-l">${ex.word || ''}</td>
+                                <td><button class="ph-copy" onclick="cosyDays.speakText('${ex.word.replace(/'/g, "\\'")}')">🔊</button></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+                ${p.tip ? `<div class="gram-tip" style="background:var(--sky-lt); border-color:var(--sky); color:var(--sky)">💡 ${p.tip}</div>` : ''}
+            </div>
+        `).join('');
     }
 
     function renderRoleplaySection(lesson) {
@@ -856,10 +972,16 @@
         buildSidebar,
         showPinModal,
         hidePinModal,
+        showSettingsModal,
+        hideSettingsModal,
+        setTheme,
+        toggleSlowSpeech,
+        toggleAutoSpeak,
         checkPin,
         lockTeacher,
         resetProgress,
         showToast,
-        copyText
+        copyText,
+        speakText
     };
 })();

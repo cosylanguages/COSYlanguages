@@ -15,7 +15,37 @@ window.curriculumData.fr_a1 = [
   lessons:[
     { code:'FR-01', num:1, title:'Bonjour, je m\'appelle...',
       grammar:'Être au présent + pronoms sujets',
-      vocab:['Bonjour','Salut','Merci','S\'il vous plaît','Enchanté'],
+      pronunciation: [
+        {
+          point: "Starter Foundation: The French Alphabet",
+          explain: "Vowels in the French alphabet are key to understanding the phonetic system.",
+          examples: [
+            { pattern: "A", ipa: "/a/", word: "chat" },
+            { pattern: "E", ipa: "/ə/", word: "le" },
+            { pattern: "I", ipa: "/i/", word: "lit" },
+            { pattern: "O", ipa: "/o/", word: "dos" },
+            { pattern: "U", ipa: "/y/", word: "tu" }
+          ],
+          tip: "Vowels are much 'tighter' in French than in English."
+        },
+        {
+          point: "Silent Final Consonants",
+          explain: "In French, many final consonants are not pronounced.",
+          examples: [
+            { pattern: "t", ipa: "/sa.ly/", word: "salut" },
+            { pattern: "s", ipa: "/vʊ/", word: "vous" },
+            { pattern: "d", ipa: "/tɑ̃/", word: "tard" }
+          ],
+          tip: "Remember: C, R, F, L (CaReFuL) are usually pronounced at the end."
+        }
+      ],
+      vocab:[
+        {w:'Bonjour', emoji:'👋', trans:'Hello'},
+        {w:'Salut', emoji:'🖐️', trans:'Hi / Bye'},
+        {w:'Merci', emoji:'🙏', trans:'Thank you'},
+        {w:'S\'il vous plaît', emoji:'🥺', trans:'Please'},
+        {w:'Enchanté', emoji:'🤝', trans:'Nice to meet you'}
+      ],
       verbs:['être','s\'appeler'],
       adj:['français','anglais'],
       speaking:'Se présenter et saluer en classe',
@@ -27,7 +57,25 @@ window.curriculumData.fr_a1 = [
       hw:'Apprendre les nombres de 1 à 20' },
     { code:'FR-02', num:2, title:'Mon travail au quotidien',
       grammar:'Avoir au présent + articles indéfinis',
-      vocab:['travail','bureau','collègue','salaire','ordinateur'],
+      pronunciation: [
+        {
+          point: "The Accent Aigu (é)",
+          explain: "The 'é' makes a short, closed 'e' sound, like 'ay' in 'play' but shorter.",
+          examples: [
+            { pattern: "é", ipa: "/e.ka.nɔ.mi/", word: "économie" },
+            { pattern: "é", ipa: "/ka.fe/", word: "café" },
+            { pattern: "é", ipa: "/e.te/", word: "été" }
+          ],
+          tip: "Smile slightly when pronouncing this sound."
+        }
+      ],
+      vocab:[
+        {w:'travail', emoji:'💼', trans:'work'},
+        {w:'bureau', emoji:'🏢', trans:'office / desk'},
+        {w:'collègue', emoji:'🤝', trans:'colleague'},
+        {w:'salaire', emoji:'💰', trans:'salary'},
+        {w:'ordinateur', emoji:'💻', trans:'computer'}
+      ],
       verbs:['avoir','travailler'],
       adj:['occupé','libre'],
       speaking:'Décrire son métier et ses outils',
@@ -39,7 +87,25 @@ window.curriculumData.fr_a1 = [
       hw:'Énumérer 10 objets de son bureau' },
     { code:'FR-03', num:3, title:'Où j\'habite — ma maison',
       grammar:'Habiter + prépositions de lieu (à, en)',
-      vocab:['appartement','maison','ville','pays','rue'],
+      pronunciation: [
+        {
+          point: "The Sound /u/ (ou)",
+          explain: "Like the 'oo' in 'food', but with more rounded lips.",
+          examples: [
+            { pattern: "ou", ipa: "/u/", word: "où" },
+            { pattern: "ou", ipa: "/bu.lɑ̃.ʒe/", word: "boulanger" },
+            { pattern: "ou", ipa: "/vʊ/", word: "vous" }
+          ],
+          tip: "Imagine you are blowing out a candle."
+        }
+      ],
+      vocab:[
+        {w:'appartement', emoji:'🏢', trans:'apartment'},
+        {w:'maison', emoji:'🏠', trans:'house'},
+        {w:'ville', emoji:'🏙️', trans:'city'},
+        {w:'pays', emoji:'🗺️', trans:'country'},
+        {w:'rue', emoji:'🛣️', trans:'street'}
+      ],
       verbs:['habiter','habiter'],
       adj:['grand','petit','moderne'],
       speaking:'Décrire son domicile et sa localisation',
@@ -51,7 +117,25 @@ window.curriculumData.fr_a1 = [
       hw:'Apprendre le vocabulaire des pièces de la maison' },
     { code:'FR-04', num:4, title:'Ma famille et mes proches',
       grammar:'Adjectifs possessifs (mon, ma, mes)',
-      vocab:['père','mère','frère','sœur','enfant'],
+      pronunciation: [
+        {
+          point: "The Sound /y/ (u)",
+          explain: "A sound that doesn't exist in English. Shape your lips for 'oo' but say 'ee'.",
+          examples: [
+            { pattern: "u", ipa: "/y/", word: "tu" },
+            { pattern: "u", ipa: "/mə.ny/", word: "menu" },
+            { pattern: "u", ipa: "/sal.y/", word: "salut" }
+          ],
+          tip: "Keep your tongue forward and your lips very tight."
+        }
+      ],
+      vocab:[
+        {w:'père', emoji:'👨', trans:'father'},
+        {w:'mère', emoji:'👩', trans:'mother'},
+        {w:'frère', emoji:'👦', trans:'brother'},
+        {w:'sœur', emoji:'👧', trans:'sister'},
+        {w:'enfant', emoji:'👶', trans:'child'}
+      ],
       verbs:['avoir','aimer'],
       adj:['marié','célibataire'],
       speaking:'Présenter sa famille à l\'aide de photos',
@@ -63,7 +147,26 @@ window.curriculumData.fr_a1 = [
       hw:'Faire son arbre généalogique en français' },
     { code:'FR-05', num:5, title:'Combien ça coûte ? (Argent)',
       grammar:'Les nombres jusqu\'à 100 + interrogatifs',
-      vocab:['prix','argent','carte','espèces','cher','bon marché'],
+      pronunciation: [
+        {
+          point: "The Nasal Sound /ɑ̃/ (an, en)",
+          explain: "Air comes out of both your nose and mouth. Like the 'on' in 'song' but more open.",
+          examples: [
+            { pattern: "en", ipa: "/ɑ̃.fɑ̃/", word: "enfant" },
+            { pattern: "an", ipa: "/mɑ̃.ʒe/", word: "manger" },
+            { pattern: "an", ipa: "/fʁɑ̃.sɛ/", word: "français" }
+          ],
+          tip: "Don't pronounce the 'n' or 'm' fully."
+        }
+      ],
+      vocab:[
+        {w:'prix', emoji:'🏷️', trans:'price'},
+        {w:'argent', emoji:'💵', trans:'money'},
+        {w:'carte', emoji:'💳', trans:'card'},
+        {w:'espèces', emoji:'💰', trans:'cash'},
+        {w:'cher', emoji:'💎', trans:'expensive'},
+        {w:'bon marché', emoji:'🏷️', trans:'cheap'}
+      ],
       verbs:['payer','acheter','coûter'],
       adj:['cher','gratuit'],
       speaking:'Acheter des articles dans un magasin fictif',
@@ -75,7 +178,26 @@ window.curriculumData.fr_a1 = [
       hw:'Mémoriser les nombres jusqu\'à 100' },
     { code:'FR-06', num:6, title:'Manger et boire à la française',
       grammar:'Articles partitifs (du, de la, des)',
-      vocab:['pain','café','eau','vin','fromage','repas'],
+      pronunciation: [
+        {
+          point: "The Sound /ɔ̃/ (on, om)",
+          explain: "A nasal sound like 'on' in 'song', but with very rounded lips.",
+          examples: [
+            { pattern: "on", ipa: "/bɔ̃/", word: "bon" },
+            { pattern: "om", ipa: "/nɔ̃/", word: "nom" },
+            { pattern: "on", ipa: "/pɔ̃/", word: "pont" }
+          ],
+          tip: "Push your lips forward into an 'O' shape."
+        }
+      ],
+      vocab:[
+        {w:'pain', emoji:'🥖', trans:'bread'},
+        {w:'café', emoji:'☕', trans:'coffee'},
+        {w:'eau', emoji:'🚰', trans:'water'},
+        {w:'vin', emoji:'🍷', trans:'wine'},
+        {w:'fromage', emoji:'🧀', trans:'cheese'},
+        {w:'repas', emoji:'🍽️', trans:'meal'}
+      ],
       verbs:['manger','boire','vouloir'],
       adj:['bon','mauvais','froid','chaud'],
       speaking:'Commander au restaurant',
@@ -87,7 +209,25 @@ window.curriculumData.fr_a1 = [
       hw:'Apprendre 10 noms d\'aliments de base' },
     { code:'FR-07', num:7, title:'Ma santé, mon corps',
       grammar:'L\'expression "avoir mal à..."',
-      vocab:['tête','dos','ventre','médecin','médicament'],
+      pronunciation: [
+        {
+          point: "The 'R' sound /ʁ/",
+          explain: "The famous French 'R' is made in the back of the throat, like clearing your throat gently.",
+          examples: [
+            { pattern: "r", ipa: "/ʁə.pa/", word: "repas" },
+            { pattern: "r", ipa: "/fʁɑ̃.sɛ/", word: "français" },
+            { pattern: "r", ipa: "/tʁɑ̃.vwa/", word: "travail" }
+          ],
+          tip: "Keep the tip of your tongue down behind your bottom teeth."
+        }
+      ],
+      vocab:[
+        {w:'tête', emoji:'💆', trans:'head'},
+        {w:'dos', emoji:'🤺', trans:'back'},
+        {w:'ventre', emoji:'🤰', trans:'stomach'},
+        {w:'médecin', emoji:'👨‍⚕️', trans:'doctor'},
+        {w:'médicament', emoji:'💊', trans:'medicine'}
+      ],
       verbs:['dormir','marcher','souffrir'],
       adj:['fatigué','malade','en forme'],
       speaking:'Expliquer ses symptômes au médecin',
