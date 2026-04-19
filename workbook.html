@@ -19,11 +19,39 @@
 
 <style>
 :root {
-  --teal:    #00B5A3; --teal-dk: #008F80; --teal-lt: #E6FAF8;
-  --black:   #111111; --white:   #FFFFFF; --yellow:  #FFE135;
-  --red:     #FF4136; --orange:  #FF6B1A; --green:   #2ECC40;
-  --blue:    #0074D9; --cream:   #FFFDF5; --sand:    #FFF8E8;
-  --a1: #2ECC40; --a2: #0074D9; --b1: #FF6B1A; --b2: #9B59B6; --c1: #CE2B37;
+  --earth:      #3D2B1F;
+  --bark:       #5C3D2E;
+  --sienna:     #8B5E3C;
+  --sand:       #C4956A;
+  --cream:      #F9F3E8;
+  --paper:      #FDF8F0;
+  --warm-white: #FFFDF7;
+  --sage:       #5C7A5C;
+  --sage-lt:    #EAF0EA;
+  --sky:        #3A6B8A;
+  --sky-lt:     #E3EEF5;
+  --ember:      #C0392B;
+  --ember-lt:   #FAEBEA;
+  --gold:       #D4A017;
+  --gold-lt:    #FDF6DC;
+  --ink:        #1C1008;
+  --muted:      #7A6A5A;
+  --border:     rgba(93,61,42,.15);
+  --shadow:     0 4px 24px rgba(61,43,31,.10);
+  --shadow-lg:  0 12px 40px rgba(61,43,31,.15);
+
+  /* Mapping old vars to new theme */
+  --teal:    var(--sage);
+  --teal-dk: var(--earth);
+  --teal-lt: var(--cream);
+  --black:   var(--earth);
+  --white:   var(--warm-white);
+  --yellow:  var(--sand);
+  --red:     var(--ember);
+  --orange:  var(--sienna);
+  --green:   var(--sage);
+  --blue:    var(--sky);
+  --a1: var(--sage); --a2: var(--sky); --b1: var(--sienna); --b2: var(--bark); --c1: var(--ember);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -396,8 +424,8 @@ function init() {
   // If we have a course already, we can show it directly or stay in picker
   if (S && !window.location.search.includes('picker=true')) {
     showView('workbook');
-  } else if (!S && !window.location.search.includes('picker=true')) {
-     // No course yet? Show picker
+  } else {
+     // Default to picker if no valid course or explicit picker request
      showView('picker');
   }
 }
@@ -463,8 +491,13 @@ function renderLevelCard(lang, level, title) {
 
 function selectCourse(lang, level) {
   // Create or update student object
-  const code = `DEMO-${lang}-${level}`;
-  S = { lang: lang, level: level, type: 'GEN', code: code };
+  const code = `COSY-${lang}-${level}-GEN`;
+  // Check if course exists in COURSES
+  if (typeof COURSES !== 'undefined' && COURSES[code]) {
+      S = { ...COURSES[code], code: code };
+  } else {
+      S = { lang: lang, level: level, type: 'GEN', code: code };
+  }
 
   // Set flags to unlock the experience
   localStorage.setItem('student_unlocked', 'true');

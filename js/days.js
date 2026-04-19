@@ -39,6 +39,17 @@
             currentCourse = { ...COURSES[code], code: code };
             errMsg.style.display = 'none';
             initDashboard();
+        } else if (code.startsWith('COSY-') || code.match(/^[A-Z]{2}-A1$/)) {
+            // Flexible fallback for A1 codes (e.g., FR-A1) if not explicitly in COURSES
+            const parts = code.split('-');
+            const lang = parts.length > 1 ? parts[1] : parts[0];
+            const level = parts.length > 2 ? parts[2] : (parts.length > 1 ? parts[1] : 'A1');
+
+            localStorage.setItem('student_unlocked', 'true');
+            localStorage.setItem('student_course_code', code);
+            currentCourse = { lang: lang, level: level, type: 'GEN', code: code };
+            errMsg.style.display = 'none';
+            initDashboard();
         } else {
             errMsg.style.display = 'block';
             input.classList.add('err');
@@ -176,8 +187,37 @@
         }
 
         // Topbar meta
+        const tbCourseText = `${langInfo.label} · ${levelLabel} · ${typeInfo.label}`;
         const tbCourse = document.getElementById('tb-course-name');
-        if (tbCourse) tbCourse.textContent = `${langInfo.label} ${levelLabel}`;
+        if (tbCourse) tbCourse.textContent = tbCourseText;
+
+        const ct = document.getElementById('ct');
+        if (ct) {
+            ct.textContent = tbCourseText;
+            ct.removeAttribute('data-translate-key');
+        }
+
+        // Add Full Roadmap link if it exists for this lang/level
+        const roadmapBtnId = 'open-roadmap-btn';
+        let roadmapBtn = document.getElementById(roadmapBtnId);
+        if (!roadmapBtn) {
+            roadmapBtn = createEl('button', 'btn-out', t('footer_roadmap') || '🗺️ Full Roadmap');
+            roadmapBtn.id = roadmapBtnId;
+            roadmapBtn.style.padding = '4px 10px';
+            roadmapBtn.style.fontSize = '11px';
+            const btnGroup = document.querySelector('.day-jump').nextElementSibling.querySelector('div');
+            if (btnGroup) btnGroup.prepend(roadmapBtn);
+        }
+
+        const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
+        roadmapBtn.onclick = () => window.location.href = roadmapPath;
+        // Enable roadmap for all primary languages at A1 level where we have files
+        const supportedA1 = ['en', 'fr', 'it', 'ru', 'el'];
+        if (supportedA1.includes(lang.toLowerCase()) && level.toLowerCase() === 'a1') {
+            roadmapBtn.style.display = 'inline-block';
+        } else {
+            roadmapBtn.style.display = 'none';
+        }
 
         // Update Badges
         const badgeCont = document.getElementById('bdg');
@@ -260,44 +300,83 @@
         ds.appendChild(defaultOpt);
 
         // Fallback to CURRICULUM object from curriculum_data.js if local curriculum is empty
-        if (!curriculum.length) {
+        if (!curriculum || !curriculum.length) {
             const { lang, level, type } = currentCourse;
             if (window.CURRICULUM && window.CURRICULUM[lang] && window.CURRICULUM[lang][type] && window.CURRICULUM[lang][type][level]) {
                 const raw = window.CURRICULUM[lang][type][level];
                 if (Array.isArray(raw)) {
-                    curriculum = [{ lessons: raw }];
+                    if (raw.length > 0 && (raw[0].lessons || raw[0].title)) {
+                        curriculum = raw;
+                    } else {
+                        curriculum = [{ lessons: raw }];
+                    }
                 }
             }
         }
 
-        // Flatten curriculum if it contains units
+        const hasUnits = curriculum.length > 0 && curriculum[0].lessons;
         let allLessons = [];
-        if (curriculum.length > 0) {
-            curriculum.forEach(unit => {
-                if (unit.lessons && Array.isArray(unit.lessons)) {
-                    allLessons.push(...unit.lessons);
-                }
+
+        if (hasUnits) {
+            curriculum.forEach((unit, uIdx) => {
+                const unitLessons = unit.lessons || [];
+                const unitStartNum = allLessons.length + 1;
+                allLessons.push(...unitLessons);
+
+                // Render Unit Header in Main area
+                const unitHeader = document.createElement('div');
+                unitHeader.className = `unit-block u${uIdx + 1}`;
+                unitHeader.id = unit.id || `u${uIdx + 1}`;
+                const pct = Math.round(unitLessons.filter(l => isLessonDone(allLessons.indexOf(l) + 1)).length / unitLessons.length * 100);
+
+                unitHeader.innerHTML = `
+                    <div class="unit-header" style="margin-top: 2rem; border-left: 5px solid ${unit.color || 'var(--sienna)'}">
+                        <div class="uh-num" style="color:${unit.color || 'var(--sienna)'}">${String(uIdx + 1).padStart(2, '0')}</div>
+                        <div class="uh-body">
+                            <h2 style="font-family:'Lora',serif; font-size:1.4rem;">${unit.label}</h2>
+                            <div class="uh-arc" style="font-size:0.8rem; color:var(--muted); font-style:italic; margin-bottom:0.5rem;">${unit.arc || ''}</div>
+                            <div class="uh-tags">
+                                <span class="uh-tag" style="font-size:0.7rem; background:rgba(0,0,0,0.05); padding:2px 8px; border-radius:10px;">${unitLessons.length} lessons</span>
+                                <span class="uh-tag" style="font-size:0.7rem; color:${unit.color || 'var(--sienna)'}">${pct}% complete</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                ls.appendChild(unitHeader);
+
+                unitLessons.forEach(lesson => {
+                    const dayNum = allLessons.indexOf(lesson) + 1;
+                    renderLessonCard(lesson, dayNum, ls);
+
+                    // Add to Jump Select
+                    const opt = createEl('option', '', `Day ${dayNum}: ${lesson.title}`);
+                    opt.value = dayNum;
+                    ds.appendChild(opt);
+                });
+            });
+        } else {
+            allLessons = curriculum;
+            if (!allLessons.length) {
+                const emptyDiv = createEl('div', 'empty');
+                emptyDiv.append(createEl('h3', '', t('curriculum_coming_soon')));
+                emptyDiv.append(createEl('p', '', t('curriculum_coming_soon_desc')));
+                ls.appendChild(emptyDiv);
+                return;
+            }
+            allLessons.forEach((lesson, idx) => {
+                const dayNum = idx + 1;
+                renderLessonCard(lesson, dayNum, ls);
+                const opt = createEl('option', '', `Day ${dayNum}: ${lesson.title}`);
+                opt.value = dayNum;
+                ds.appendChild(opt);
             });
         }
+    }
 
-        if (!allLessons.length) {
-            const emptyDiv = createEl('div', 'empty');
-            emptyDiv.append(createEl('h3', '', t('curriculum_coming_soon')));
-            emptyDiv.append(createEl('p', '', t('curriculum_coming_soon_desc')));
-            ls.appendChild(emptyDiv);
-            return;
-        }
-
-        allLessons.forEach((lesson, idx) => {
-            const dayNum = idx + 1;
-
-            // Add to Jump Select
-            const opt = createEl('option', '', `Day ${dayNum}: ${lesson.title}`);
-            opt.value = dayNum;
-            ds.appendChild(opt);
-
-            // Create Lesson Card
-            const lessonEl = createEl('div', 'lesson');
+    function renderLessonCard(lesson, dayNum, container) {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        // Create Lesson Card
+        const lessonEl = createEl('div', 'lesson');
             lessonEl.id = `day-${dayNum}`;
 
             const isDone = isLessonDone(dayNum);
@@ -386,8 +465,7 @@
             const markBtn = lessonEl.querySelector('.btn-mark-new');
             markBtn.onclick = () => toggleLessonDone(dayNum);
 
-            ls.appendChild(lessonEl);
-        });
+            container.appendChild(lessonEl);
     }
 
     function renderGrammarTabContent(lesson) {
@@ -735,12 +813,12 @@
         if (pf) pf.style.width = pct + '%';
         if (pc) pc.textContent = `${doneSet.size} / ${allLessons.length} lessons complete`;
 
-        sb.innerHTML = (curriculum.length > 0 ? curriculum : [{lessons: allLessons}]).map((unit, uIdx) => {
+        sb.innerHTML = (curriculum.length > 0 && curriculum[0].lessons ? curriculum : [{lessons: allLessons}]).map((unit, uIdx) => {
             const unitLabel = unit.label || `Unit ${uIdx + 1}`;
             const unitEmoji = unit.emoji || '📘';
 
             const lessonsHtml = (unit.lessons || []).map(l => {
-                const dayNum = allLessons.indexOf(l) + 1;
+                const dayNum = allLessons.findIndex(al => al.code === l.code) + 1;
                 const isDone = doneSet.has(dayNum);
                 return `
                     <a class="sb-item${isDone ? ' done' : ''}" id="sb-day-${dayNum}" onclick="cosyDays.jumpTo(${dayNum})">
