@@ -988,6 +988,12 @@
             vocab_list_soon: "Vokabelliste kommt bald.",
             open_vocab_ref: "Vokabel-Ref öffnen 📖",
             flashcards_quiz_btn: "Lernkarten & Quiz 🚀",
+            practice_sounds_btn: "Töne üben 🎯",
+            full_pronunciation_guide: "Vollständige Aussprachehilfe 🔊",
+            status_done: "ERLEDIGT",
+            status_current: "AKTUELL",
+            status_locked: "GESPERRT",
+            pronunciation_tab: "Aussprache",
             question_about_lesson: "Haben Sie eine Frage zur Lektion?",
             message_teacher_fast: "Schreiben Sie Ihrem Lehrer — wir antworten schnell."
         }

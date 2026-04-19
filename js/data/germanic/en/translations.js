@@ -1314,6 +1314,12 @@
             vocab_list_soon: "Key vocabulary list coming soon.",
             open_vocab_ref: "Open Vocab Ref 📖",
             flashcards_quiz_btn: "Flashcards & Quiz 🚀",
+            practice_sounds_btn: "Practice these sounds 🎯",
+            full_pronunciation_guide: "Full Pronunciation Guide 🔊",
+            status_done: "DONE",
+            status_current: "CURRENT",
+            status_locked: "LOCKED",
+            pronunciation_tab: "Pronunciation",
             question_about_lesson: "Have a question about a lesson?",
             message_teacher_fast: "Message your teacher — we reply fast."
         }

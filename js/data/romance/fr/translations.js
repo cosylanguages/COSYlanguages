@@ -1204,6 +1204,12 @@
             vocab_list_soon: "Liste de vocabulaire bientôt disponible.",
             open_vocab_ref: "Ouvrir la Réf. Vocabulaire 📖",
             flashcards_quiz_btn: "Cartes & Quiz 🚀",
+            practice_sounds_btn: "Pratiquer les sons 🎯",
+            full_pronunciation_guide: "Guide complet de prononciation 🔊",
+            status_done: "FAIT",
+            status_current: "ACTUEL",
+            status_locked: "VERROUILLÉ",
+            pronunciation_tab: "Prononciation",
             question_about_lesson: "Une question sur une leçon ?",
             message_teacher_fast: "Écrivez à votre prof — réponse rapide."
         }

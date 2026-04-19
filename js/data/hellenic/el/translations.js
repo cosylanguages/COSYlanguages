@@ -1181,6 +1181,12 @@
             vocab_list_soon: "Η λίστα λεξιλογίου έρχεται σύντομα.",
             open_vocab_ref: "Άνοιγμα Λεξιλογίου 📖",
             flashcards_quiz_btn: "Κάρτες & Κουίζ 🚀",
+            practice_sounds_btn: "Εξάσκηση προφοράς 🎯",
+            full_pronunciation_guide: "Πλήρης οδηγός προφοράς 🔊",
+            status_done: "ΟΛΟΚΛΗΡΩΘΗΚΕ",
+            status_current: "ΤΡΕΧΟΝ",
+            status_locked: "ΚΛΕΙΔΩΜΕΝΟ",
+            pronunciation_tab: "Προφορά",
             question_about_lesson: "Έχετε ερώτηση για το μάθημα;",
             message_teacher_fast: "Στείλτε μήνυμα στον καθηγητή σας."
         }

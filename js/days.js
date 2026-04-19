@@ -422,7 +422,8 @@
 
             const isDone = isLessonDone(dayNum);
             const nextLessonNum = getNextLessonNum();
-            const statusLabel = isDone ? 'DONE' : (dayNum === nextLessonNum ? 'CURRENT' : 'LOCKED');
+            const unitEmoji = (lesson.code && (lesson.code.includes('-00') || lesson.code.endsWith('-0'))) ? '🅰️' : '';
+            const statusLabel = (unitEmoji ? unitEmoji + ' ' : '') + (isDone ? (t('status_done') || 'DONE') : (dayNum === nextLessonNum ? (t('status_current') || 'CURRENT') : (t('status_locked') || 'LOCKED')));
             const statusClass = isDone ? 's-done' : (dayNum === nextLessonNum ? 's-current' : 's-locked');
 
             const sub = (typeof lesson.grammar === 'string') ? lesson.grammar : (lesson.subtitle || '');
@@ -637,7 +638,7 @@
                     <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Pronunciation Guide 🔊</a>`;
         }
 
-        return points.map(p => {
+        let mainHtml = points.map(p => {
             let html = `
                 <div class="gram-point">
                     <div class="gram-heading">
@@ -648,20 +649,23 @@
 
             if (p.alphabet) {
                 html += `
-                    <div class="alpha-grid" style="grid-template-columns: repeat(auto-fill, minmax(60px,1fr)); padding:0; margin-bottom:1rem;">
-                        ${p.alphabet.map(a => `
-                            <div class="alpha-cell" style="min-height:50px; cursor:pointer;" onclick="cosyDays.speakText('${a.l}')">
-                                <div class="letter" style="font-size:1.1rem;">${a.l}</div>
-                                <div class="ipa-sm" style="font-size:0.65rem;">${a.ipa}</div>
-                            </div>
-                        `).join('')}
+                    <div class="gtable-container" style="margin-bottom: 1rem;">
+                        <div class="alpha-grid" style="grid-template-columns: repeat(auto-fill, minmax(60px,1fr)); padding:0;">
+                            ${p.alphabet.map(a => `
+                                <div class="alpha-cell" style="min-height:50px; cursor:pointer;" onclick="cosyDays.speakText('${a.l}')">
+                                    <div class="letter" style="font-size:1.1rem;">${a.l}</div>
+                                    <div class="ipa-sm" style="font-size:0.65rem;">${a.ipa}</div>
+                                </div>
+                            `).join('')}
+                        </div>
                     </div>
                 `;
             }
 
             if (p.minimalPairs) {
                 html += `
-                    <table class="gtable" style="margin-bottom:1rem;">
+                    <div class="gtable-container" style="margin-bottom:1rem;">
+                    <table class="gtable" style="margin-bottom:0;">
                         <thead>
                             <tr class="section-row">
                                 <th style="text-align: left;">Word 1</th>
@@ -681,12 +685,14 @@
                             `).join('')}
                         </tbody>
                     </table>
+                    </div>
                 `;
             }
 
             if (p.examples && p.examples.length) {
                 html += `
-                    <table class="gtable">
+                    <div class="gtable-container">
+                    <table class="gtable" style="margin-bottom:0;">
                         <thead>
                             <tr class="section-row">
                                 <th style="text-align: left;">Pattern</th>
@@ -706,6 +712,7 @@
                             `).join('')}
                         </tbody>
                     </table>
+                    </div>
                 `;
             }
 
@@ -716,6 +723,21 @@
             html += `</div>`;
             return html;
         }).join('');
+
+        // Add Practice link
+        mainHtml += `
+            <div class="vocab-actions" style="margin-top: 1rem;">
+                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=pronunciation&theme=${encodeURIComponent(lesson.title)}"
+                   class="plink hi" data-translate-key="practice_sounds_btn">
+                    ${t('practice_sounds_btn') || 'Practice these sounds 🎯'}
+                </a>
+                <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}"
+                   class="plink" data-translate-key="full_pronunciation_guide">
+                    ${t('full_pronunciation_guide') || 'Full Pronunciation Guide 🔊'}
+                </a>
+            </div>
+        `;
+        return mainHtml;
     }
 
     function renderRoleplaySection(lesson) {

@@ -1203,6 +1203,12 @@
             vocab_list_soon: "Список слов скоро появится.",
             open_vocab_ref: "Открыть словарь 📖",
             flashcards_quiz_btn: "Карточки и Тесты 🚀",
+            practice_sounds_btn: "Практика звуков 🎯",
+            full_pronunciation_guide: "Полный гид по произношению 🔊",
+            status_done: "ГОТОВО",
+            status_current: "ТЕКУЩИЙ",
+            status_locked: "ЗАБЛОКИРОВАНО",
+            pronunciation_tab: "Произношение",
             question_about_lesson: "Есть вопрос по уроку?",
             message_teacher_fast: "Напишите учителю — мы отвечаем быстро."
         }
