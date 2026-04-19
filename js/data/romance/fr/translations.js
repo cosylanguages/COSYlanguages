@@ -1204,14 +1204,25 @@
             vocab_list_soon: "Liste de vocabulaire bientôt disponible.",
             open_vocab_ref: "Ouvrir la Réf. Vocabulaire 📖",
             flashcards_quiz_btn: "Cartes & Quiz 🚀",
-            practice_sounds_btn: "Pratiquer les sons 🎯",
-            full_pronunciation_guide: "Guide complet de prononciation 🔊",
-            status_done: "FAIT",
-            status_current: "ACTUEL",
-            status_locked: "VERROUILLÉ",
-            pronunciation_tab: "Prononciation",
             question_about_lesson: "Une question sur une leçon ?",
-            message_teacher_fast: "Écrivez à votre prof — réponse rapide."
+            message_teacher_fast: "Écrivez à votre prof — réponse rapide.",
+            "dashboard_settings": "Settings",
+            "theme_appearance": "Appearance",
+            "theme_earth": "Earth",
+            "theme_paper": "Paper",
+            "theme_contrast": "Contrast",
+            "pronunciation_engine": "Voice",
+            "preferred_voice": "Voice",
+            "voice_desc": "Select voice",
+            "default_voice": "Default",
+            "voice_pitch": "Pitch",
+            "pitch_desc": "Adjust pitch",
+            "slow_speech_mode": "Slow",
+            "slow_speech_desc": "Slower TTS",
+            "auto_speak_defs": "Auto-speak",
+            "auto_speak_desc": "Auto play audio",
+            "save_close": "Save",
+            "cat_pronunciation": "Pronunciation"
         }
     };
     window.translations = window.translations || {};

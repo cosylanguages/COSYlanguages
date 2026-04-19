@@ -134,6 +134,11 @@ const speak = (text, lang, rate) => {
         msg.rate = isSlow ? 0.6 : 1.0;
     }
 
+    const pitch = localStorage.getItem('cosy_voice_pitch');
+    if (pitch) {
+        msg.pitch = parseFloat(pitch);
+    }
+
     const langMap = {
         'en': 'en-GB',
         'fr': 'fr-FR',
@@ -155,8 +160,17 @@ const speak = (text, lang, rate) => {
 
     // Try to find a matching voice
     const voices = window.speechSynthesis.getVoices();
+    const preferredVoiceName = localStorage.getItem('cosy_preferred_voice');
+
     if (voices.length > 0) {
-        let voice = voices.find(v => v.lang === targetLang);
+        let voice = null;
+        if (preferredVoiceName) {
+            voice = voices.find(v => v.name === preferredVoiceName);
+        }
+
+        if (!voice) {
+            voice = voices.find(v => v.lang === targetLang);
+        }
         if (!voice) {
             voice = voices.find(v => v.lang.startsWith(targetLang.split('-')[0]));
         }

@@ -102,8 +102,19 @@
         const modal = document.getElementById('settings-modal');
         if (modal) {
             modal.classList.add('show');
-            document.getElementById('slow-speech-toggle').checked = localStorage.getItem('cosy_slow_speech') === 'true';
-            document.getElementById('auto-speak-toggle').checked = localStorage.getItem('cosy_auto_speak') === 'true';
+            const slow = localStorage.getItem('cosy_slow_speech') === 'true';
+            const auto = localStorage.getItem('cosy_auto_speak') === 'true';
+            const pitch = localStorage.getItem('cosy_voice_pitch') || '1.0';
+
+            document.getElementById('slow-speech-toggle').checked = slow;
+            document.getElementById('auto-speak-toggle').checked = auto;
+
+            const pRange = document.getElementById('pitch-range');
+            const pVal = document.getElementById('pitch-val');
+            if (pRange) pRange.value = pitch;
+            if (pVal) pVal.textContent = pitch;
+
+            populateVoiceSelect();
         }
     }
 
@@ -118,7 +129,18 @@
         document.body.classList.add('theme-' + theme);
 
         localStorage.setItem('cosy_dashboard_theme', theme);
-        showToast('Theme updated to ' + theme + ' ✨');
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        showToast((t('theme_updated') || 'Theme updated to ') + theme + ' ✨');
+    }
+
+    function setPitch(val) {
+        localStorage.setItem('cosy_voice_pitch', val);
+        const pVal = document.getElementById('pitch-val');
+        if (pVal) pVal.textContent = val;
+    }
+
+    function setVoice(val) {
+        localStorage.setItem('cosy_preferred_voice', val);
     }
 
     function toggleSlowSpeech(val) {
@@ -127,6 +149,31 @@
 
     function toggleAutoSpeak(val) {
         localStorage.setItem('cosy_auto_speak', val);
+    }
+
+    function populateVoiceSelect() {
+        const select = document.getElementById('voice-select');
+        if (!select || !window.speechSynthesis) return;
+
+        const lang = currentCourse.lang.toLowerCase();
+        const voices = window.speechSynthesis.getVoices();
+        const preferred = localStorage.getItem('cosy_preferred_voice');
+
+        // Keep default option
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        select.innerHTML = `<option value="">${t('default_voice') || 'Default'}</option>`;
+
+        const langMap = { 'en': 'en', 'fr': 'fr', 'it': 'it', 'ru': 'ru', 'el': 'el', 'es': 'es', 'de': 'de', 'pt': 'pt' };
+        const targetPrefix = langMap[lang] || lang;
+
+        const filtered = voices.filter(v => v.lang.startsWith(targetPrefix));
+        filtered.forEach(v => {
+            const opt = document.createElement('option');
+            opt.value = v.name;
+            opt.textContent = v.name + (v.localService ? ' (Local)' : '');
+            if (v.name === preferred) opt.selected = true;
+            select.appendChild(opt);
+        });
     }
 
     function checkPin() {
@@ -246,8 +293,15 @@
             roadmapBtn.id = roadmapBtnId;
             roadmapBtn.style.padding = '4px 10px';
             roadmapBtn.style.fontSize = '11px';
-            const btnGroup = document.querySelector('.day-jump').nextElementSibling.querySelector('div');
+
+            const dayJump = document.querySelector('.day-jump');
+            const btnGroup = dayJump ? dayJump.nextElementSibling?.querySelector('div') : null;
             if (btnGroup) btnGroup.prepend(roadmapBtn);
+            else {
+                // Fallback: append to area if group not found
+                const area = document.getElementById('area');
+                if (area) area.prepend(roadmapBtn);
+            }
         }
 
         const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
@@ -645,6 +699,7 @@
                         ${p.point} <span class="gram-tag">Sound</span>
                     </div>
                     <p class="gram-explain">${p.explain || ''}</p>
+                    ${p.image ? `<img src="${p.image}" alt="${p.point}" style="max-width:100%; border-radius:var(--radius-sm); margin-bottom:1rem; border:1.5px solid var(--border);">` : ''}
             `;
 
             if (p.alphabet) {
@@ -1046,6 +1101,8 @@
         showSettingsModal,
         hideSettingsModal,
         setTheme,
+        setPitch,
+        setVoice,
         toggleSlowSpeech,
         toggleAutoSpeak,
         checkPin,

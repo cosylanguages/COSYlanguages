@@ -41,6 +41,13 @@ window.updateCategoryUI = function() {
             configureTask(cb.id, isGrammar, isGrammar);
         });
         ['type-cv', 'type-ls', 'type-sc', 'type-op', 'type-tf', 'type-lp'].forEach(id => configureTask(id, false, false));
+    } else if (categoryId === 'pronunciation') {
+        const pronTasks = ['type-ls', 'type-mc', 'type-sc', 'type-cl'];
+        taskCheckboxes.forEach(cb => {
+            const isPron = pronTasks.includes(cb.id);
+            configureTask(cb.id, isPron, isPron);
+        });
+        ['type-cv', 'type-ga', 'type-np', 'type-ws', 'type-op', 'type-tf', 'type-ma', 'type-si', 'type-lp', 'type-bb'].forEach(id => configureTask(id, false, false));
     } else {
         // vocab
         const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf', 'type-ma', 'type-si', 'type-lp', 'type-bb'];
@@ -48,7 +55,7 @@ window.updateCategoryUI = function() {
             const isVocab = vocabTasks.includes(cb.id);
             configureTask(cb.id, isVocab, isVocab);
         });
-        ['type-cv', 'type-ga', 'type-np', 'type-ws'].forEach(id => configureTask(id, false, false));
+        ['type-cv', 'type-ga', 'type-np', 'type-ws', 'type-bb'].forEach(id => configureTask(id, false, false));
     }
 };
 

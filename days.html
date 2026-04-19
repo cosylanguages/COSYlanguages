@@ -469,25 +469,41 @@ body.teacher .teacher-only { display: block; }
               <button class="tb-btn" style="flex: 1; min-width: 100px; padding: 10px;" onclick="cosyDays.setTheme('contrast')">⚫ Contrast</button>
             </div>
 
-            <label class="sb-label" style="padding-left: 0;">Pronunciation Engine</label>
-            <div class="phrase-item" style="margin-bottom: 0.5rem;">
+            <label class="sb-label" style="padding-left: 0;" data-translate-key="pronunciation_engine">Pronunciation Engine</label>
+
+            <div style="margin-bottom: 1rem;">
+              <label class="sb-label" style="padding: 0 0 .3rem 0; font-size: .65rem;" data-translate-key="preferred_voice">Preferred Voice</label>
+              <select id="voice-select" class="day-jump select" style="width: 100%;" onchange="cosyDays.setVoice(this.value)">
+                <option value="" data-translate-key="default_voice">Default</option>
+              </select>
+            </div>
+
+            <div style="margin-bottom: 1.2rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <label class="sb-label" style="padding: 0; font-size: .65rem;" data-translate-key="voice_pitch">Voice Pitch</label>
+                <span id="pitch-val" style="font-size: .7rem; font-weight: 800; color: var(--sienna);">1.0</span>
+              </div>
+              <input type="range" id="pitch-range" min="0.5" max="1.5" step="0.1" value="1.0" style="width: 100%; margin-top: .4rem;" oninput="cosyDays.setPitch(this.value)">
+            </div>
+
+            <div class="phrase-item" style="margin-bottom: 0.5rem; padding: .6rem .8rem;">
               <div class="ph-text">
-                <div class="ph-en">Slow Speech Mode</div>
-                <div class="ph-translations">Reduce TTS speed for better clarity.</div>
+                <div class="ph-en" data-translate-key="slow_speech_mode">Slow Speech Mode</div>
+                <div class="ph-translations" data-translate-key="slow_speech_desc">Reduce TTS speed for better clarity.</div>
               </div>
               <input type="checkbox" id="slow-speech-toggle" onchange="cosyDays.toggleSlowSpeech(this.checked)" style="width: 20px; height: 20px; cursor: pointer;">
             </div>
 
-            <div class="phrase-item">
+            <div class="phrase-item" style="padding: .6rem .8rem;">
               <div class="ph-text">
-                <div class="ph-en">Auto-Speak Definitions</div>
-                <div class="ph-translations">Play audio automatically when opening cards.</div>
+                <div class="ph-en" data-translate-key="auto_speak_defs">Auto-Speak Definitions</div>
+                <div class="ph-translations" data-translate-key="auto_speak_desc">Play audio automatically when opening cards.</div>
               </div>
               <input type="checkbox" id="auto-speak-toggle" onchange="cosyDays.toggleAutoSpeak(this.checked)" style="width: 20px; height: 20px; cursor: pointer;">
             </div>
           </div>
 
-          <button class="pin-btn" onclick="cosyDays.hideSettingsModal()" style="background: var(--sienna);">Save & Close</button>
+          <button class="pin-btn" onclick="cosyDays.hideSettingsModal()" style="background: var(--sienna);" data-translate-key="save_close">Save & Close</button>
         </div>
       </div>
 

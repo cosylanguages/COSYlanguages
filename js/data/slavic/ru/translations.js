@@ -1203,14 +1203,25 @@
             vocab_list_soon: "Список слов скоро появится.",
             open_vocab_ref: "Открыть словарь 📖",
             flashcards_quiz_btn: "Карточки и Тесты 🚀",
-            practice_sounds_btn: "Практика звуков 🎯",
-            full_pronunciation_guide: "Полный гид по произношению 🔊",
-            status_done: "ГОТОВО",
-            status_current: "ТЕКУЩИЙ",
-            status_locked: "ЗАБЛОКИРОВАНО",
-            pronunciation_tab: "Произношение",
             question_about_lesson: "Есть вопрос по уроку?",
-            message_teacher_fast: "Напишите учителю — мы отвечаем быстро."
+            message_teacher_fast: "Напишите учителю — мы отвечаем быстро.",
+            "dashboard_settings": "Settings",
+            "theme_appearance": "Appearance",
+            "theme_earth": "Earth",
+            "theme_paper": "Paper",
+            "theme_contrast": "Contrast",
+            "pronunciation_engine": "Voice",
+            "preferred_voice": "Voice",
+            "voice_desc": "Select voice",
+            "default_voice": "Default",
+            "voice_pitch": "Pitch",
+            "pitch_desc": "Adjust pitch",
+            "slow_speech_mode": "Slow",
+            "slow_speech_desc": "Slower TTS",
+            "auto_speak_defs": "Auto-speak",
+            "auto_speak_desc": "Auto play audio",
+            "save_close": "Save",
+            "cat_pronunciation": "Pronunciation"
         }
     };
     window.translations = window.translations || {};
