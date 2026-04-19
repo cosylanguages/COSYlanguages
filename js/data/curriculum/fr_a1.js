@@ -1,6 +1,120 @@
 if(!window.curriculumData) window.curriculumData = {};
 window.curriculumData.fr_a1 = [
 {
+  id:'u0', num:0, color:'#10B981', label:'Unité 0 : Premiers pas (A0)',
+  arc:'Salutations → L\'alphabet → Nombres 1-20 → Prononciation de base',
+  lessons_count:5,
+  lessons:[
+    { code:'FR-001', num:1, title:'Bonjour & Bienvenue',
+      grammar:'Verbe être (présent) — formes affirmatives',
+      pronunciation: [
+        {
+          point: "L'alphabet français",
+          explain: "Le français a 26 lettres. Les voyelles sont essentielles pour la prononciation.",
+          alphabet: [
+            {l:'A', ipa:'/a/'}, {l:'B', ipa:'/be/'}, {l:'C', ipa:'/se/'}, {l:'D', ipa:'/de/'}, {l:'E', ipa:'/ə/'},
+            {l:'F', ipa:'/ef/'}, {l:'G', ipa:'/ʒe/'}, {l:'H', ipa:'/aʃ/'}, {l:'I', ipa:'/i/'}, {l:'J', ipa:'/ʒi/'},
+            {l:'K', ipa:'/ka/'}, {l:'L', ipa:'/el/'}, {l:'M', ipa:'/em/'}, {l:'N', ipa:'/en/'}, {l:'O', ipa:'/o/'},
+            {l:'P', ipa:'/pe/'}, {l:'Q', ipa:'/ky/'}, {l:'R', ipa:'/ɛʁ/'}, {l:'S', ipa:'/es/'}, {l:'T', ipa:'/te/'},
+            {l:'U', ipa:'/y/'}, {l:'V', ipa:'/ve/'}, {l:'W', ipa:'/dubləve/'}, {l:'X', ipa:'/iks/'}, {l:'Y', ipa:'/igʁɛk/'}, {l:'Z', ipa:'/zɛd/'}
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Bonjour', emoji:'👋', trans:'Hello'},
+        {w:'Salut', emoji:'🖐️', trans:'Hi / Bye'},
+        {w:'Bienvenue', emoji:'🙏', trans:'Welcome'},
+        {w:'Merci', emoji:'🙏', trans:'Thank you'},
+        {w:'Au revoir', emoji:'👋', trans:'Goodbye'}
+      ],
+      cando:'Peut saluer et dire au revoir',
+      hw:'Apprendre la chanson de l\'alphabet' },
+    { code:'FR-002', num:2, title:'Comment t\'appelles-tu ?',
+      grammar:'Verbe s\'appeler (présent)',
+      pronunciation: [
+        {
+          point: "La liaison",
+          explain: "En français, on lie souvent la consonne finale muette d'un mot à la voyelle initiale du mot suivant.",
+          examples: [
+            { pattern: "Vous avez", ipa: "/vu.za.ve/", word: "vous avez" },
+            { pattern: "Mes amis", ipa: "/me.za.mi/", word: "mes amis" }
+          ],
+          tip: "La liaison transforme un 's' muet en un son 'z'."
+        }
+      ],
+      vocab:[
+        {w:'Nom', emoji:'🆔', trans:'Name'},
+        {w:'Comment', emoji:'❓', trans:'How'},
+        {w:'Enchanté', emoji:'🤝', trans:'Nice to meet you'}
+      ],
+      cando:'Peut se présenter',
+      hw:'Épeler son nom en français' },
+    { code:'FR-003', num:3, title:'Les nombres 1-20',
+      grammar:'Le pluriel des noms (introduction)',
+      pronunciation: [
+        {
+          point: "Les nombres nasaux",
+          explain: "Certains nombres ont des sons nasaux importants : 1 (un), 5 (cinq), 11 (onze).",
+          examples: [
+            { pattern: "un", ipa: "/œ̃/", word: "un" },
+            { pattern: "cinq", ipa: "/sɛ̃k/", word: "cinq" },
+            { pattern: "onze", ipa: "/ɔ̃z/", word: "onze" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'un', emoji:'1️⃣', trans:'one'},
+        {w:'deux', emoji:'2️⃣', trans:'two'},
+        {w:'trois', emoji:'3️⃣', trans:'three'},
+        {w:'dix', emoji:'🔟', trans:'ten'},
+        {w:'vingt', emoji:'2️⃣0️⃣', trans:'twenty'}
+      ],
+      cando:'Peut compter de 1 à 20',
+      hw:'Compter les objets dans la pièce' },
+    { code:'FR-004', num:4, title:'Paires minimales : Voyelles',
+      grammar:'Structure de base de la phrase',
+      pronunciation: [
+        {
+          point: "Le son /u/ vs /y/",
+          explain: "Distinguer entre 'ou' and 'u' est crucial en français.",
+          minimalPairs: [
+            { w1: "roue", p1: "/ʁu/", w2: "rue", p2: "/ʁy/" },
+            { w1: "dessous", p1: "/də.su/", w2: "dessus", p2: "/də.sy/" },
+            { w1: "bu", p1: "/by/", w2: "bout", p2: "/bu/" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'rue', emoji:'🛣️', trans:'street'},
+        {w:'dessus', emoji:'⬆️', trans:'above'},
+        {w:'dessous', emoji:'⬇️', trans:'below'}
+      ],
+      cando:'Peut distinguer les sons /u/ et /y/',
+      hw:'S\'enregistrer en disant rue et roue' },
+    { code:'FR-005', num:5, title:'Phrases essentielles',
+      grammar:'Requêtes polies (S\'il vous plaît)',
+      pronunciation: [
+        {
+          point: "L'accent tonique",
+          explain: "En français, l'accent est toujours sur la dernière syllabe prononcée du groupe de mots.",
+          examples: [
+            { pattern: "S'il vous plaît", ipa: "/sil.vu.ple/", word: "S'il vous plaît" },
+            { pattern: "Pardon", ipa: "/paʁ.dɔ̃/", word: "Pardon" },
+            { pattern: "Désolé", ipa: "/de.zɔ.le/", word: "Désolé" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'S\'il vous plaît', emoji:'🙏', trans:'Please'},
+        {w:'Merci beaucoup', emoji:'🙏', trans:'Thank you very much'},
+        {w:'Pardon', emoji:'🙋', trans:'Excuse me'},
+        {w:'Désolé', emoji:'🙇', trans:'Sorry'}
+      ],
+      cando:'Peut utiliser les phrases de politesse de base',
+      hw:'Utiliser trois phrases de politesse demain' }
+  ]
+},
+{
   id:'u1', num:1, color:'#3B82F6', label:'Ma vie aujourd\'hui',
   arc:'Présentations → Travail → Maison → Argent → Santé → Technologie → Loisirs',
   lessons_count:10,

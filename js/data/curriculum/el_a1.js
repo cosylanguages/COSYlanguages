@@ -1,6 +1,120 @@
 if(!window.curriculumData) window.curriculumData = {};
 window.curriculumData.el_a1 = [
 {
+  id:'u0', num:0, color:'#10B981', label:'Ενότητα 0: Πρώτα Βήματα (A0)',
+  arc:'Χαιρετισμοί → Το Αλφάβητο → Αριθμοί 1-20 → Βασική Προφορά',
+  lessons_count:5,
+  lessons:[
+    { code:'EL-001', num:1, title:'Γεια σας & Καλώς ήρθατε',
+      grammar:'Ρήμα "είμαι" (ενεστώτας) — καταφατικός τύπος',
+      pronunciation: [
+        {
+          point: "Το Ελληνικό Αλφάβητο",
+          explain: "Το ελληνικό αλφάβητο έχει 24 γράμματα. Ξεκινήστε με τα ονόματα των γραμμάτων.",
+          alphabet: [
+            {l:'Α α', ipa:'/a/'}, {l:'Β β', ipa:'/v/'}, {l:'Γ γ', ipa:'/ɣ/'}, {l:'Δ δ', ipa:'/ð/'}, {l:'Ε ε', ipa:'/e/'},
+            {l:'Ζ ζ', ipa:'/z/'}, {l:'Η η', ipa:'/i/'}, {l:'Θ θ', ipa:'/θ/'}, {l:'Ι ι', ipa:'/i/'}, {l:'Κ κ', ipa:'/k/'},
+            {l:'Λ λ', ipa:'/l/'}, {l:'Μ μ', ipa:'/m/'}, {l:'Ν ν', ipa:'/n/'}, {l:'Ξ ξ', ipa:'/ks/'}, {l:'Ο ο', ipa:'/o/'},
+            {l:'Π π', ipa:'/p/'}, {l:'Ρ ρ', ipa:'/r/'}, {l:'Σ σ/ς', ipa:'/s/'}, {l:'Τ τ', ipa:'/t/'}, {l:'Υ υ', ipa:'/i/'},
+            {l:'Φ φ', ipa:'/f/'}, {l:'Χ χ', ipa:'/x/'}, {l:'Ψ ψ', ipa:'/ps/'}, {l:'Ω ω', ipa:'/o/'}
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Γεια σας', emoji:'👋', trans:'Hello'},
+        {w:'Καλημέρα', emoji:'🌅', trans:'Good morning'},
+        {w:'Ευχαριστώ', emoji:'🙏', trans:'Thank you'},
+        {w:'Παρακαλώ', emoji:'🥺', trans:'Please / You\'re welcome'},
+        {w:'Αντίο', emoji:'👋', trans:'Goodbye'}
+      ],
+      cando:'Μπορεί να χαιρετά και να αποχαιρετά',
+      hw:'Μάθετε το τραγούδι του αλφαβήτου' },
+    { code:'EL-002', num:2, title:'Πώς σε λένε;',
+      grammar:'Ρήμα "λέγομαι" & "με λένε"',
+      pronunciation: [
+        {
+          point: "Δίψηφα Φωνήεντα",
+          explain: "Στα ελληνικά, δύο φωνήεντα μαζί μπορούν να βγάζουν έναν ήχο.",
+          examples: [
+            { pattern: "ει, οι, υι", ipa: "/i/", word: "είμαι" },
+            { pattern: "αι", ipa: "/e/", word: "και" },
+            { pattern: "ου", ipa: "/u/", word: "μου" }
+          ],
+          tip: "Όλα τα 'ι', 'η', 'υ', 'ει', 'οι' ακούγονται ίδια: /i/!"
+        }
+      ],
+      vocab:[
+        {w:'Όνομα', emoji:'🆔', trans:'Name'},
+        {w:'Πώς', emoji:'❓', trans:'How'},
+        {w:'Χάρηκα', emoji:'🤝', trans:'Nice to meet you'}
+      ],
+      cando:'Μπορεί να συστήνεται',
+      hw:'Εξασκηθείτε στο να συλλαβίζετε το όνομά σας' },
+    { code:'EL-003', num:3, title:'Αριθμοί 1-20',
+      grammar:'Γένη ουσιαστικών (εισαγωγή)',
+      pronunciation: [
+        {
+          point: "Ο Τόνος",
+          explain: "Κάθε ελληνική λέξη με δύο ή περισσότερες συλλαβές έχει έναν τόνο.",
+          examples: [
+            { pattern: "ένα", ipa: "/ˈe.na/", word: "ένα" },
+            { pattern: "δύο", ipa: "/ˈði.o/", word: "δύο" },
+            { pattern: "έντεκα", ipa: "/ˈen.de.ka/", word: "έντεκα" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'ένα', emoji:'1️⃣', trans:'one'},
+        {w:'δύο', emoji:'2️⃣', trans:'two'},
+        {w:'τρία', emoji:'3️⃣', trans:'three'},
+        {w:'δέκα', emoji:'🔟', trans:'ten'},
+        {w:'είκοσι', emoji:'2️⃣0️⃣', trans:'twenty'}
+      ],
+      cando:'Μπορεί να μετρά από το 1 έως το 20',
+      hw:'Μετρήστε αντικείμενα στο δωμάτιο' },
+    { code:'EL-004', num:4, title:'Ζεύγη: Σύμφωνα',
+      grammar:'Βασική δομή πρότασης',
+      pronunciation: [
+        {
+          point: "Δίψηφα Σύμφωνα",
+          explain: "Συνδυασμοί συμφώνων που αλλάζουν τον ήχο.",
+          minimalPairs: [
+            { w1: "ντομάτα", p1: "/do.ˈma.ta/", w2: "τόπος", p2: "/ˈto.pos/" },
+            { w1: "μπύρα", p1: "/ˈbi.ra/", w2: "πόλη", p2: "/ˈpo.li/" },
+            { w1: "γκολ", p1: "/ɡol/", w2: "καλό", p2: "/ka.ˈlo/" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'ντομάτα', emoji:'🍅', trans:'tomato'},
+        {w:'μπύρα', emoji:'🍺', trans:'beer'},
+        {w:'πόλη', emoji:'🏙️', trans:'city'}
+      ],
+      cando:'Μπορεί να διακρίνει ήχους όπως μπ, ντ, γκ',
+      hw:'Ηχογραφήστε τον εαυτό σας' },
+    { code:'EL-005', num:5, title:'Βασικές Φράσεις',
+      grammar:'Ευγενικές αιτήσεις (Παρακαλώ)',
+      pronunciation: [
+        {
+          point: "Ερωτηματική Ιντονάσια",
+          explain: "Στις ερωτήσεις η φωνή ανεβαίνει στο τέλος.",
+          examples: [
+            { pattern: "Τι κάνετε;", ipa: "/ti ˈka.ne.te?/", word: "Τι κάνετε;" },
+            { pattern: "Είστε καλά;", ipa: "/ˈis.te ka.ˈla?/", word: "Είστε καλά;" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Συγνώμη', emoji:'🙋', trans:'Excuse me'},
+        {w:'Λυπάμαι', emoji:'🙇', trans:'Sorry'},
+        {w:'Ναι', emoji:'✅', trans:'Yes'},
+        {w:'Όχι', emoji:'❌', trans:'No'}
+      ],
+      cando:'Μπορεί να χρησιμοποιεί βασικές φράσεις ευγενείας',
+      hw:'Χρησιμοποιήστε τρεις φράσεις ευγενείας αύριο' }
+  ]
+},
+{
   id:'u1', num:1, color:'#3B82F6', label:'Η ζωή μου σήμερα',
   arc:'Αλφάβητο → Γνωριμία → Εργασία → Σπίτι → Χρήματα → Υγεία → Τεχνολογία → Ελεύθερος χρόνος',
   lessons_count:10,

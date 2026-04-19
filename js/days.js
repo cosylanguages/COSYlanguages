@@ -637,36 +637,85 @@
                     <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Pronunciation Guide 🔊</a>`;
         }
 
-        return points.map(p => `
-            <div class="gram-point">
-                <div class="gram-heading">
-                    ${p.point} <span class="gram-tag">Sound</span>
-                </div>
-                <p class="gram-explain">${p.explain || ''}</p>
+        return points.map(p => {
+            let html = `
+                <div class="gram-point">
+                    <div class="gram-heading">
+                        ${p.point} <span class="gram-tag">Sound</span>
+                    </div>
+                    <p class="gram-explain">${p.explain || ''}</p>
+            `;
 
-                <table class="gtable">
-                    <thead>
-                        <tr class="section-row">
-                            <th style="text-align: left;">Pattern</th>
-                            <th style="text-align: left;">IPA</th>
-                            <th style="text-align: left;">Examples</th>
-                            <th style="width: 50px;">Listen</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${(p.examples || []).map(ex => `
-                            <tr>
-                                <td class="content"><strong>${ex.pattern || ''}</strong></td>
-                                <td class="content" style="color:var(--sky); font-style:italic;">${ex.ipa || ''}</td>
-                                <td class="content-l">${ex.word || ''}</td>
-                                <td><button class="ph-copy" onclick="cosyDays.speakText('${ex.word.replace(/'/g, "\\'")}')">🔊</button></td>
-                            </tr>
+            if (p.alphabet) {
+                html += `
+                    <div class="alpha-grid" style="grid-template-columns: repeat(auto-fill, minmax(60px,1fr)); padding:0; margin-bottom:1rem;">
+                        ${p.alphabet.map(a => `
+                            <div class="alpha-cell" style="min-height:50px; cursor:pointer;" onclick="cosyDays.speakText('${a.l}')">
+                                <div class="letter" style="font-size:1.1rem;">${a.l}</div>
+                                <div class="ipa-sm" style="font-size:0.65rem;">${a.ipa}</div>
+                            </div>
                         `).join('')}
-                    </tbody>
-                </table>
-                ${p.tip ? `<div class="gram-tip" style="background:var(--sky-lt); border-color:var(--sky); color:var(--sky)">💡 ${p.tip}</div>` : ''}
-            </div>
-        `).join('');
+                    </div>
+                `;
+            }
+
+            if (p.minimalPairs) {
+                html += `
+                    <table class="gtable" style="margin-bottom:1rem;">
+                        <thead>
+                            <tr class="section-row">
+                                <th style="text-align: left;">Word 1</th>
+                                <th style="text-align: left;">IPA 1</th>
+                                <th style="text-align: left;">Word 2</th>
+                                <th style="text-align: left;">IPA 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${p.minimalPairs.map(mp => `
+                                <tr>
+                                    <td class="content-l"><strong class="vc-word-title" style="cursor:pointer" onclick="cosyDays.speakText('${mp.w1.replace(/'/g, "\\'")}')">${mp.w1}</strong></td>
+                                    <td class="content-l"><span class="vc-phon">${mp.p1}</span></td>
+                                    <td class="content-l"><strong class="vc-word-title" style="cursor:pointer" onclick="cosyDays.speakText('${mp.w2.replace(/'/g, "\\'")}')">${mp.w2}</strong></td>
+                                    <td class="content-l"><span class="vc-phon">${mp.p2}</span></td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                `;
+            }
+
+            if (p.examples && p.examples.length) {
+                html += `
+                    <table class="gtable">
+                        <thead>
+                            <tr class="section-row">
+                                <th style="text-align: left;">Pattern</th>
+                                <th style="text-align: left;">IPA</th>
+                                <th style="text-align: left;">Examples</th>
+                                <th style="width: 50px;">Listen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${p.examples.map(ex => `
+                                <tr>
+                                    <td class="content"><strong>${ex.pattern || ''}</strong></td>
+                                    <td class="content" style="color:var(--sky); font-style:italic;">${ex.ipa || ''}</td>
+                                    <td class="content-l">${ex.word || ''}</td>
+                                    <td><button class="ph-copy" onclick="cosyDays.speakText('${ex.word.replace(/'/g, "\\'")}')">🔊</button></td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                `;
+            }
+
+            if (p.tip) {
+                html += `<div class="gram-tip" style="background:var(--sky-lt); border-color:var(--sky); color:var(--sky)">💡 ${p.tip}</div>`;
+            }
+
+            html += `</div>`;
+            return html;
+        }).join('');
     }
 
     function renderRoleplaySection(lesson) {

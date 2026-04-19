@@ -1,6 +1,122 @@
 if(!window.curriculumData) window.curriculumData = {};
 window.curriculumData.en_a1 = [
 {
+  id:'u0', num:0, color:'#10B981', label:'Unit 0: First Steps (A0)',
+  arc:'Greetings → The Alphabet → Numbers 1-20 → Basic Pronunciation',
+  lessons_count:5,
+  lessons:[
+    { code:'A1-001', num:1, title:'Hello & Welcome',
+      grammar:'Verb "to be" (am/is/are) — positive forms',
+      pronunciation: [
+        {
+          point: "The English Alphabet",
+          explain: "English has 26 letters but many more sounds. Start with the names of the letters.",
+          alphabet: [
+            {l:'A', ipa:'/eɪ/'}, {l:'B', ipa:'/biː/'}, {l:'C', ipa:'/siː/'}, {l:'D', ipa:'/diː/'}, {l:'E', ipa:'/iː/'},
+            {l:'F', ipa:'/ef/'}, {l:'G', ipa:'/dʒiː/'}, {l:'H', ipa:'/eɪtʃ/'}, {l:'I', ipa:'/aɪ/'}, {l:'J', ipa:'/dʒeɪ/'},
+            {l:'K', ipa:'/keɪ/'}, {l:'L', ipa:'/el/'}, {l:'M', ipa:'/em/'}, {l:'N', ipa:'/en/'}, {l:'O', ipa:'/əʊ/'},
+            {l:'P', ipa:'/piː/'}, {l:'Q', ipa:'/kjuː/'}, {l:'R', ipa:'/ɑː/'}, {l:'S', ipa:'/es/'}, {l:'T', ipa:'/tiː/'},
+            {l:'U', ipa:'/juː/'}, {l:'V', ipa:'/viː/'}, {l:'W', ipa:'/ˈdʌb.əl.juː/'}, {l:'X', ipa:'/eks/'}, {l:'Y', ipa:'/waɪ/'}, {l:'Z', ipa:'/zed/'}
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Hello', emoji:'👋', trans:'Hello'},
+        {w:'Hi', emoji:'🖐️', trans:'Hi'},
+        {w:'Good morning', emoji:'🌅', trans:'Good morning'},
+        {w:'Good afternoon', emoji:'☀️', trans:'Good afternoon'},
+        {w:'Good evening', emoji:'🌆', trans:'Good evening'},
+        {w:'Goodbye', emoji:'👋', trans:'Goodbye'}
+      ],
+      cando:'Can greet people and say goodbye',
+      hw:'Learn the alphabet song' },
+    { code:'A1-002', num:2, title:'What is your name?',
+      grammar:'Verb "to be" — questions (What is...?)',
+      pronunciation: [
+        {
+          point: "Contractions",
+          explain: "In spoken English, we often combine words. 'What is' becomes 'What's'.",
+          examples: [
+            { pattern: "What is", ipa: "/wɒt ɪz/", word: "What's" },
+            { pattern: "I am", ipa: "/aɪ æm/", word: "I'm" },
+            { pattern: "My name is", ipa: "/maɪ neɪm ɪz/", word: "My name's" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Name', emoji:'🆔', trans:'Name'},
+        {w:'What', emoji:'❓', trans:'What'},
+        {w:'How', emoji:'❓', trans:'How'},
+        {w:'Nice to meet you', emoji:'🤝', trans:'Nice to meet you'}
+      ],
+      cando:'Can introduce themselves',
+      hw:'Practice spelling your name' },
+    { code:'A1-003', num:3, title:'Numbers 1-20',
+      grammar:'Singular and Plural nouns (intro)',
+      pronunciation: [
+        {
+          point: "Numbers -teen vs -ty",
+          explain: "Stress is key to distinguish numbers like 13 and 30.",
+          examples: [
+            { pattern: "13", ipa: "/ˌθɜːˈtiːn/", word: "thirteen" },
+            { pattern: "30", ipa: "/ˈθɜː.ti/", word: "thirty" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'one', emoji:'1️⃣', trans:'one'},
+        {w:'two', emoji:'2️⃣', trans:'two'},
+        {w:'three', emoji:'3️⃣', trans:'three'},
+        {w:'ten', emoji:'🔟', trans:'ten'},
+        {w:'twenty', emoji:'2️⃣0️⃣', trans:'twenty'}
+      ],
+      cando:'Can count from 1 to 20',
+      hw:'Count objects in your room' },
+    { code:'A1-004', num:4, title:'Minimal Pairs 1: Vowels',
+      grammar:'Basic sentence structure',
+      pronunciation: [
+        {
+          point: "Short vs Long Vowels",
+          explain: "Short sounds vs long sounds can change the meaning of a word.",
+          minimalPairs: [
+            { w1: "ship", p1: "/ʃɪp/", w2: "sheep", p2: "/ʃiːp/" },
+            { w1: "bit", p1: "/bɪt/", w2: "beat", p2: "/biːt/" },
+            { w1: "fit", p1: "/fɪt/", w2: "feet", p2: "/fiːt/" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'ship', emoji:'🚢', trans:'ship'},
+        {w:'sheep', emoji:'🐑', trans:'sheep'},
+        {w:'feet', emoji:'🦶', trans:'feet'},
+        {w:'sit', emoji:'🪑', trans:'sit'}
+      ],
+      cando:'Can distinguish between short and long vowel sounds',
+      hw:'Record yourself saying ship and sheep' },
+    { code:'A1-005', num:5, title:'Essential Phrases',
+      grammar:'Polite requests (Please, Thank you)',
+      pronunciation: [
+        {
+          point: "Word Stress",
+          explain: "The most important part of the word is louder and longer.",
+          examples: [
+            { pattern: "Please", ipa: "/pliːz/", word: "please" },
+            { pattern: "Thank you", ipa: "/ˈθæŋk.juː/", word: "thank you" },
+            { pattern: "Excuse me", ipa: "/ɪkˈskjuːz.miː/", word: "excuse me" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Please', emoji:'🙏', trans:'Please'},
+        {w:'Thank you', emoji:'🙏', trans:'Thank you'},
+        {w:'Excuse me', emoji:'🙋', trans:'Excuse me'},
+        {w:'Sorry', emoji:'🙇', trans:'Sorry'}
+      ],
+      cando:'Can use basic polite phrases',
+      hw:'Use three polite phrases tomorrow' }
+  ]
+},
+{
   id:'u1', num:1, color:'#3B82F6', label:'My Life Today',
   arc:'Daily routines → Work → Home → Money → Food → Tech → Free time → Community',
   lessons_count:10,
