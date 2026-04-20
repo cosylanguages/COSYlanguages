@@ -7,6 +7,27 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-001', num:1, title:'Hello & Welcome',
       grammar:'Verb "to be" (am/is/are) — positive forms',
+      grammarPoints: [
+        {
+          point: 'Verb "to be": Positive Forms',
+          tag: 'A1 Starter',
+          explain: 'Use "to be" to talk about names, nationalities, and feelings.',
+          rule: 'I am / You are / He-She-It is / We are / They are',
+          fullTable: [
+            ['Subject', 'To Be', 'Example'],
+            ['I', 'am', 'I am Jules.'],
+            ['You', 'are', 'You are a student.'],
+            ['He/She/It', 'is', 'It is sunny.'],
+            ['We', 'are', 'We are happy.'],
+            ['They', 'are', 'They are here.']
+          ],
+          examples: [
+            { t: 'I am a teacher.', e: 'I am a teacher.' },
+            { t: 'They are from London.', e: 'They are from London.' }
+          ],
+          tip: 'In conversation, we usually say "I\'m" instead of "I am".'
+        }
+      ],
       pronunciation: [
         {
           point: "The English Alphabet",
@@ -32,6 +53,25 @@ window.curriculumData.en_a1 = [
       hw:'Learn the alphabet song' },
     { code:'A1-002', num:2, title:'What is your name?',
       grammar:'Verb "to be" — questions (What is...?)',
+      grammarPoints: [
+        {
+          point: 'Verb "to be": Questions',
+          tag: 'A1 Starter',
+          explain: 'To make a question, we swap the Subject and the Verb.',
+          rule: 'Am I? / Are you? / Is he-she-it? / Are we? / Are they?',
+          fullTable: [
+            ['Statement', 'Question'],
+            ['You are hungry.', 'Are you hungry?'],
+            ['She is Mary.', 'Is she Mary?'],
+            ['They are ready.', 'Are they ready?']
+          ],
+          examples: [
+            { t: 'What is your name?', e: 'What is your name?' },
+            { t: 'Are you from France?', e: 'Are you from France?' }
+          ],
+          tip: 'Start your question with "What", "How", or "Where" followed by "is" or "are".'
+        }
+      ],
       pronunciation: [
         {
           point: "Contractions",
@@ -53,6 +93,21 @@ window.curriculumData.en_a1 = [
       hw:'Practice spelling your name' },
     { code:'A1-003', num:3, title:'Numbers 1-20',
       grammar:'Singular and Plural nouns (intro)',
+      grammarPoints: [
+        {
+          point: 'Nouns: Singular & Plural',
+          tag: 'A1 Starter',
+          explain: 'To make a word plural, we usually add -s.',
+          rule: '1 book → 2 books / 1 friend → many friends',
+          fullTable: [
+            ['Quantity', 'Noun', 'Form'],
+            ['One', 'Student', 'Singular'],
+            ['Two', 'Students', 'Plural'],
+            ['Ten', 'Cities', 'Plural (-ies)']
+          ],
+          tip: 'If a word ends in -y (like City), change -y to -ies (Cities).'
+        }
+      ],
       pronunciation: [
         {
           point: "Numbers -teen vs -ty",
@@ -131,6 +186,21 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-01', num:1, title:'A day in my life — routines revisited',
       grammar:'Present simple: all persons + frequency adverbs (mid-position)',
+      grammarPoints: [
+        {
+          point: 'Present Simple: Daily Routines',
+          tag: 'A1 Mastery',
+          explain: 'Use the Present Simple to talk about facts and habits.',
+          rule: 'Add -s or -es for He, She, It (e.g., I work → He works).',
+          fullTable: [
+            ['Subject', 'Action', 'Frequency'],
+            ['I', 'wake up', 'always'],
+            ['He / She', 'wakes up', 'usually'],
+            ['We / They', 'start', 'often']
+          ],
+          extension: 'Frequency adverbs (always, often, never) go BEFORE the main verb, but AFTER the verb "to be". Example: "I ALWAYS wake up at 7" vs "I am ALWAYS happy".'
+        }
+      ],
       pronunciation: [
         {
           point: "Starter Foundation: The Alphabet Sounds",
@@ -177,6 +247,20 @@ window.curriculumData.en_a1 = [
       hw:'Write a detailed weekly routine with frequency adverbs' },
     { code:'A1-02', num:2, title:'My job — describing work in detail',
       grammar:'Present simple: "I work with/for/in; I am responsible for…"',
+      grammarPoints: [
+        {
+          point: 'Work Prepositions',
+          tag: 'A1 Mastery',
+          explain: 'Use different prepositions depending on what you are talking about.',
+          fullTable: [
+            ['Preposition', 'Use Case', 'Example'],
+            ['FOR', 'Company Name', 'I work for Google.'],
+            ['IN', 'Department', 'I work in Marketing.'],
+            ['WITH', 'People/Tools', 'I work with kids.']
+          ],
+          tip: 'Use "AS A" for your job title: "I work AS A teacher."'
+        }
+      ],
       pronunciation: [
         {
           point: "Word Stress in Occupations",

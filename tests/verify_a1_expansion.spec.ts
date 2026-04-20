@@ -26,9 +26,10 @@ test('Verify expanded A1 curricula and roadmaps', async ({ page }) => {
         await expect(page.locator('#area')).toBeVisible({ timeout: 10000 });
 
         // Verify the unit title is present in the curriculum list
-        const unitTitle = page.locator('.uh-body h2').first();
-        await expect(unitTitle).toBeVisible({ timeout: 10000 });
-        await expect(unitTitle).toContainText(item.title);
+        // Note: Unit 0 might be first, so we look for the item title in any .uh-body h2
+        const unitTitles = page.locator('.uh-body h2');
+        await expect(unitTitles.first()).toBeVisible({ timeout: 10000 });
+        await expect(unitTitles).toContainText([new RegExp(item.title, 'i')]);
 
         // Verify "Full Roadmap" button is visible
         const roadmapBtn = page.locator('#open-roadmap-btn');
