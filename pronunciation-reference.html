@@ -133,7 +133,8 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--
 
 /* Grammar table style tables */
 .gtable { width: 100%; border-collapse: collapse; }
-.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.4; }
+.gtable tr:hover td { background: rgba(0,0,0,0.03); }
+.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.4; transition: background 0.1s; }
 .gtable .row-label { background: var(--black); color: var(--white); font-size: .82rem; font-weight: 800; text-align: left; padding: .5rem 1rem; white-space: nowrap; }
 .gtable td.content { background: var(--teal); font-size: .95rem; }
 .gtable td.content-l { background: var(--teal); font-size: .95rem; text-align: left; }
@@ -298,21 +299,74 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--
 <div class="lang-block" id="lang-es" data-lang="es">
   <div class="section-title">🇪🇸 Español — Pronunciación</div>
   <div class="level-divider" id="es-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 5 Vowels</div><div class="tip-box">Spanish vowels are ALWAYS the same. Short and clear.</div><table class="gtable"><tr><td class="row-label">A, E, I, O, U</td><td class="content"><span class="ex">padre, mesa, cine, hola, uno</span></td></tr></table></div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Core Vowels</div>
+    <div class="tip-box">Spanish vowels are short, clear, and never change their sound.</div>
+    <table class="gtable">
+      <tr class="section-row"><td colspan="3">Vowels (Las Vocales)</td></tr>
+      <tr><td class="row-label">A</td><td class="ipa">/a/</td><td class="content"><span class="ex" onclick="speak('casa','es')">c<span class="hi">a</span>s<span class="hi">a</span></span>, <span class="ex" onclick="speak('padre','es')">p<span class="hi">a</span>dre</span></td></tr>
+      <tr><td class="row-label">E</td><td class="ipa">/e/</td><td class="content"><span class="ex" onclick="speak('mesa','es')">m<span class="hi">e</span>sa</span>, <span class="ex" onclick="speak('bebé','es')">b<span class="hi">e</span>b<span class="hi">é</span></span></td></tr>
+      <tr><td class="row-label">I</td><td class="ipa">/i/</td><td class="content"><span class="ex" onclick="speak('cine','es')">c<span class="hi">i</span>ne</span>, <span class="ex" onclick="speak('hijo','es')">h<span class="hi">i</span>jo</span></td></tr>
+      <tr><td class="row-label">O</td><td class="ipa">/o/</td><td class="content"><span class="ex" onclick="speak('hola','es')">h<span class="hi">o</span>la</span>, <span class="ex" onclick="speak('perro','es')">perr<span class="hi">o</span></span></td></tr>
+      <tr><td class="row-label">U</td><td class="ipa">/u/</td><td class="content"><span class="ex" onclick="speak('uno','es')"><span class="hi">u</span>no</span>, <span class="ex" onclick="speak('luna','es')">l<span class="hi">u</span>na</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Consonants: C, G, J</div>
+    <table class="gtable">
+      <tr class="section-row"><td colspan="3">Key Consonants</td></tr>
+      <tr><td class="row-label">C (+ a, o, u)</td><td class="ipa">/k/</td><td class="content"><span class="ex">casa, coche</span></td></tr>
+      <tr><td class="row-label">C (+ e, i)</td><td class="ipa">/θ/</td><td class="content"><span class="ex">cine, cero</span> (Spain)</td></tr>
+      <tr><td class="row-label">G (+ a, o, u)</td><td class="ipa">/g/</td><td class="content"><span class="ex">gato, gol</span></td></tr>
+      <tr><td class="row-label">G (+ e, i) / J</td><td class="ipa">/x/</td><td class="content"><span class="ex">gente, jamón</span> (Harsh H)</td></tr>
+      <tr><td class="row-label">Ñ</td><td class="ipa">/ɲ/</td><td class="content"><span class="ex">niño, España</span></td></tr>
+    </table>
+  </div>
 </div>
 
 <!-- 🇩🇪 GERMAN -->
 <div class="lang-block" id="lang-de" data-lang="de">
   <div class="section-title">🇩🇪 Deutsch — Aussprache</div>
   <div class="level-divider" id="de-a1" data-level="a1"><span class="level-badge a1">A1 — Anfänger</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 'ICH' and 'ACH' sounds</div><table class="gtable"><tr><td class="row-label">CH (after E, I)</td><td class="content"><span class="ipa">/ç/</span> i<span class="hi">ch</span>, di<span class="hi">ch</span></td></tr><tr><td class="row-label">CH (after A, O, U)</td><td class="content"><span class="ipa">/x/</span> a<span class="hi">ch</span>, bu<span class="hi">ch</span></td></tr></table></div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The Umlaute</div>
+    <div class="alpha-grid">
+      <div class="alpha-cell" onclick="speak('Äpfel','de')"><div class="letter">Ä ä</div><div class="ipa-sm">/ɛː/</div><div class="eng-sm">like 'air'</div></div>
+      <div class="alpha-cell" onclick="speak('Öl','de')"><div class="letter">Ö ö</div><div class="ipa-sm">/øː/</div><div class="eng-sm">rounded 'e'</div></div>
+      <div class="alpha-cell" onclick="speak('Über','de')"><div class="letter">Ü ü</div><div class="ipa-sm">/yː/</div><div class="eng-sm">rounded 'i'</div></div>
+      <div class="alpha-cell" onclick="speak('Fuß','de')"><div class="letter">ß</div><div class="ipa-sm">/s/</div><div class="eng-sm">sharp S</div></div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 'CH' Sounds</div>
+    <table class="gtable">
+      <tr><td class="row-label">ICH-Laut</td><td class="ipa">/ç/</td><td class="content">after e, i, ä, ö, ü <br><span class="ex">i<span class="hi">ch</span>, di<span class="hi">ch</span>, lä<span class="hi">ch</span>eln</span></td></tr>
+      <tr><td class="row-label">ACH-Laut</td><td class="ipa">/x/</td><td class="content">after a, o, u, au <br><span class="ex">a<span class="hi">ch</span>, do<span class="hi">ch</span>, Bu<span class="hi">ch</span></span></td></tr>
+    </table>
+  </div>
 </div>
 
 <!-- 🇵🇹 PORTUGUESE -->
 <div class="lang-block" id="lang-pt" data-lang="pt">
   <div class="section-title">🇵🇹 Português — Pronúncia</div>
   <div class="level-divider" id="pt-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Nasal Vowels</div><table class="gtable"><tr><td class="row-label">~ (Tilde)</td><td class="content">p<span class="hi">ão</span>, m<span class="hi">ão</span> (Nasal sound)</td></tr></table></div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Nasal Vowels</div>
+    <div class="tip-box">Air comes out of both nose and mouth. The tilde (~) is the main indicator.</div>
+    <table class="gtable">
+      <tr><td class="row-label">ão</td><td class="ipa">/ɐ̃w̃/</td><td class="content"><span class="ex">p<span class="hi">ão</span>, m<span class="hi">ão</span>, n<span class="hi">ão</span></span></td></tr>
+      <tr><td class="row-label">ã</td><td class="ipa">/ɐ̃/</td><td class="content"><span class="ex">manh<span class="hi">ã</span>, irm<span class="hi">ã</span></span></td></tr>
+      <tr><td class="row-label">am / an</td><td class="ipa">/ɐ̃/</td><td class="content"><span class="ex">falar<span class="hi">am</span>, c<span class="hi">an</span>to</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Digraphs</div>
+    <table class="gtable">
+      <tr><td class="row-label">LH</td><td class="ipa">/ʎ/</td><td class="content">like 'million' <br><span class="ex">fi<span class="hi">lh</span>a, tru<span class="hi">lh</span>a</span></td></tr>
+      <tr><td class="row-label">NH</td><td class="ipa">/ɲ/</td><td class="content">like 'onion' <br><span class="ex">ba<span class="hi">nh</span>o, ama<span class="hi">nh</span>ã</span></td></tr>
+      <tr><td class="row-label">CH</td><td class="ipa">/ʃ/</td><td class="content">like 'shoe' <br><span class="ex">c<span class="hi">h</span>ave, c<span class="hi">h</span>á</span></td></tr>
+    </table>
+  </div>
 </div>
 
 </main>
@@ -353,6 +407,12 @@ function buildSidebar(lang) {
     });
   }
   nav.innerHTML = filtered.map(s => `<div class="sidebar-section"><div class="sidebar-label">${s.label}</div>${s.items.map(([h,l]) => `<a class="sidebar-item" href="${h}" onclick="scrollToId('${h.substring(1)}')">${l}</a>`).join('')}</div>`).join('');
+}
+
+function speak(text, lang) {
+  if (window.gameUtils && window.gameUtils.speak) {
+    window.gameUtils.speak(text, lang, 0.7);
+  }
 }
 
 function setLang(lang, btn) {

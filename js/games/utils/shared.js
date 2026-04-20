@@ -106,7 +106,7 @@ const parseLessons = (input) => {
     return lessons;
 };
 
-const speak = (text, lang) => {
+const speak = (text, lang, rate) => {
     if (!window.speechSynthesis) return;
 
     // Cancel ongoing speech to prevent overlaps and delays
@@ -125,6 +125,19 @@ const speak = (text, lang) => {
     }
 
     msg.text = textToSpeak;
+
+    // Use provided rate, or check localStorage, or default to 1.0
+    if (rate) {
+        msg.rate = rate;
+    } else {
+        const isSlow = localStorage.getItem('cosy_slow_speech') === 'true';
+        msg.rate = isSlow ? 0.6 : 1.0;
+    }
+
+    const pitch = localStorage.getItem('cosy_voice_pitch');
+    if (pitch) {
+        msg.pitch = parseFloat(pitch);
+    }
 
     const langMap = {
         'en': 'en-GB',
@@ -147,8 +160,17 @@ const speak = (text, lang) => {
 
     // Try to find a matching voice
     const voices = window.speechSynthesis.getVoices();
+    const preferredVoiceName = localStorage.getItem('cosy_preferred_voice');
+
     if (voices.length > 0) {
-        let voice = voices.find(v => v.lang === targetLang);
+        let voice = null;
+        if (preferredVoiceName) {
+            voice = voices.find(v => v.name === preferredVoiceName);
+        }
+
+        if (!voice) {
+            voice = voices.find(v => v.lang === targetLang);
+        }
         if (!voice) {
             voice = voices.find(v => v.lang.startsWith(targetLang.split('-')[0]));
         }

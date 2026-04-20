@@ -1,6 +1,120 @@
 if(!window.curriculumData) window.curriculumData = {};
 window.curriculumData.it_a1 = [
 {
+  id:'u0', num:0, color:'#10B981', label:'Unità 0: Primi passi (A0)',
+  arc:'Saluti → L\'alfabeto → Numeri 1-20 → Pronuncia di base',
+  lessons_count:5,
+  lessons:[
+    { code:'IT-001', num:1, title:'Buongiorno & Benvenuti',
+      grammar:'Verbo essere (presente) — forme affermative',
+      pronunciation: [
+        {
+          point: "L'alfabeto italiano",
+          explain: "L'italiano ha 21 lettere. Le vocali sono sempre chiare e distinte.",
+          alphabet: [
+            {l:'A', ipa:'/a/'}, {l:'B', ipa:'/be/'}, {l:'C', ipa:'/tʃe/'}, {l:'D', ipa:'/de/'}, {l:'E', ipa:'/e/'},
+            {l:'F', ipa:'/ɛf.fe/'}, {l:'G', ipa:'/dʒe/'}, {l:'H', ipa:'/ak.ka/'}, {l:'I', ipa:'/i/'}, {l:'L', ipa:'/ɛl.le/'},
+            {l:'M', ipa:'/ɛm.me/'}, {l:'N', ipa:'/ɛn.ne/'}, {l:'O', ipa:'/o/'}, {l:'P', ipa:'/pe/'}, {l:'Q', ipa:'/ku/'},
+            {l:'R', ipa:'/ɛr.re/'}, {l:'S', ipa:'/ɛs.se/'}, {l:'T', ipa:'/te/'}, {l:'U', ipa:'/u/'}, {l:'V', ipa:'/vu/'}, {l:'Z', ipa:'/dzɛ.ta/'}
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Buongiorno', emoji:'👋', trans:'Hello'},
+        {w:'Ciao', emoji:'🖐️', trans:'Hi / Bye'},
+        {w:'Benvenuti', emoji:'🙏', trans:'Welcome'},
+        {w:'Grazie', emoji:'🙏', trans:'Thank you'},
+        {w:'Arrivederci', emoji:'👋', trans:'Goodbye'}
+      ],
+      cando:'Sa salutare e dire arrivederci',
+      hw:'Imparare la canzone dell\'alfabeto' },
+    { code:'IT-002', num:2, title:'Come ti chiami?',
+      grammar:'Verbo chiamarsi (presente)',
+      pronunciation: [
+        {
+          point: "La Doppia Consonante",
+          explain: "In italiano, le doppie consonanti si pronunciano con più forza e durata.",
+          examples: [
+            { pattern: "nn", ipa: "/ˈnon.no/", word: "nonno" },
+            { pattern: "tt", ipa: "/ˈfat.to/", word: "fatto" },
+            { pattern: "ll", ipa: "/ˈbel.lo/", word: "bello" }
+          ],
+          tip: "Immagina di fare una piccola pausa sulla doppia."
+        }
+      ],
+      vocab:[
+        {w:'Nome', emoji:'🆔', trans:'Name'},
+        {w:'Come', emoji:'❓', trans:'How'},
+        {w:'Piacere', emoji:'🤝', trans:'Nice to meet you'}
+      ],
+      cando:'Sa presentarsi',
+      hw:'Compitare il proprio nome in italiano' },
+    { code:'IT-003', num:3, title:'I numeri 1-20',
+      grammar:'Il plurale dei nomi (introduzione)',
+      pronunciation: [
+        {
+          point: "Accento sulle parole",
+          explain: "La maggior parte delle parole italiane ha l'accento sulla penultima sillaba.",
+          examples: [
+            { pattern: "undici", ipa: "/ˈun.di.tʃi/", word: "undici" },
+            { pattern: "dodici", ipa: "/ˈdo.di.tʃi/", word: "dodici" },
+            { pattern: "venti", ipa: "/ˈven.ti/", word: "venti" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'uno', emoji:'1️⃣', trans:'one'},
+        {w:'due', emoji:'2️⃣', trans:'two'},
+        {w:'tre', emoji:'3️⃣', trans:'three'},
+        {w:'dieci', emoji:'🔟', trans:'ten'},
+        {w:'venti', emoji:'2️⃣0️⃣', trans:'twenty'}
+      ],
+      cando:'Sa contare da 1 a 20',
+      hw:'Contare gli oggetti nella stanza' },
+    { code:'IT-004', num:4, title:'Paire minime: Consonanti',
+      grammar:'Struttura base della frase',
+      pronunciation: [
+        {
+          point: "C vs G",
+          explain: "Distinguere tra suoni duri e dolci di C e G.",
+          minimalPairs: [
+            { w1: "casa", p1: "/ˈka.za/", w2: "gara", p2: "/ˈɡa.ra/" },
+            { w1: "cena", p1: "/ˈtʃe.na/", w2: "gena", p2: "/ˈdʒɛ.na/" },
+            { w1: "chi", p1: "/ki/", w2: "ghi", p2: "/ɡi/" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'casa', emoji:'🏠', trans:'house'},
+        {w:'cena', emoji:'🍽️', trans:'dinner'},
+        {w:'chi', emoji:'❓', trans:'who'}
+      ],
+      cando:'Sa distinguere i suoni C e G',
+      hw:'Registrarsi dicendo casa e gara' },
+    { code:'IT-005', num:5, title:'Frasi essenziali',
+      grammar:'Richieste gentili (Per favore)',
+      pronunciation: [
+        {
+          point: "Intonazione delle domande",
+          explain: "Nelle domande, la voce sale alla fine della frase.",
+          examples: [
+            { pattern: "Per favore", ipa: "/per fa.ˈvo.re/", word: "Per favore" },
+            { pattern: "Scusa", ipa: "/ˈsku.za/", word: "Scusa" },
+            { pattern: "Prego", ipa: "/ˈprɛ.ɡo/", word: "Prego" }
+          ]
+        }
+      ],
+      vocab:[
+        {w:'Per favore', emoji:'🙏', trans:'Please'},
+        {w:'Grazie mille', emoji:'🙏', trans:'Thank you very much'},
+        {w:'Scusa', emoji:'🙋', trans:'Excuse me'},
+        {w:'Prego', emoji:'🙇', trans:'You are welcome'}
+      ],
+      cando:'Sa usare frasi di cortesia di base',
+      hw:'Usare tre frasi di cortesia domani' }
+  ]
+},
+{
   id:'u1', num:1, color:'#3B82F6', label:'La mia vita oggi',
   arc:'Presentazioni → Lavoro → Casa → Soldi → Salute → Tecnologia → Tempo libero',
   lessons_count:10,
@@ -15,7 +129,27 @@ window.curriculumData.it_a1 = [
   lessons:[
     { code:'IT-01', num:1, title:'Buongiorno, mi chiamo...',
       grammar:'Presente di ESSERE + pronomi personali',
-      vocab:['Buongiorno','Ciao','Grazie','Per favore','Piacere'],
+      pronunciation: [
+        {
+          point: "The Italian Alphabet & Vowels",
+          explain: "Italian vowels are always clear and short. There are no diphthongs like in English.",
+          examples: [
+            { pattern: "A", ipa: "/a/", word: "casa" },
+            { pattern: "E", ipa: "/e/", word: "mela" },
+            { pattern: "I", ipa: "/i/", word: "bici" },
+            { pattern: "O", ipa: "/o/", word: "notte" },
+            { pattern: "U", ipa: "/u/", word: "uva" }
+          ],
+          tip: "Open your mouth more than you do in English for 'A'."
+        }
+      ],
+      vocab:[
+        {w:'Buongiorno', emoji:'☀️', trans:'Good morning'},
+        {w:'Ciao', emoji:'👋', trans:'Hello / Hi'},
+        {w:'Grazie', emoji:'🙏', trans:'Thank you'},
+        {w:'Per favore', emoji:'🥺', trans:'Please'},
+        {w:'Piacere', emoji:'🤝', trans:'Nice to meet you'}
+      ],
       verbs:['essere','chiamarsi'],
       adj:['italiano','americano'],
       speaking:'Presentarsi e salutare in classe',
@@ -27,7 +161,25 @@ window.curriculumData.it_a1 = [
       hw:'Imparare i numeri da 1 a 20' },
     { code:'IT-02', num:2, title:'Il mio lavoro — cosa faccio',
       grammar:'Presente di AVERE + articoli indeterminativi',
-      vocab:['lavoro','ufficio','collega','stipendio','computer'],
+      pronunciation: [
+        {
+          point: "Hard and Soft 'C'",
+          explain: "'C' is soft (ch) before E and I, but hard (k) before A, O, U.",
+          examples: [
+            { pattern: "ce", ipa: "/ˈtʃe.na/", word: "cena" },
+            { pattern: "ca", ipa: "/ˈka.za/", word: "casa" },
+            { pattern: "chi", ipa: "/ˈkjan.ti/", word: "chianti" }
+          ],
+          tip: "Add an 'H' to keep the 'K' sound before E or I."
+        }
+      ],
+      vocab:[
+        {w:'lavoro', emoji:'💼', trans:'work'},
+        {w:'ufficio', emoji:'🏢', trans:'office'},
+        {w:'collega', emoji:'🤝', trans:'colleague'},
+        {w:'stipendio', emoji:'💰', trans:'salary'},
+        {w:'computer', emoji:'💻', trans:'computer'}
+      ],
       verbs:['avere','lavorare'],
       adj:['occupato','libero'],
       speaking:'Descrivere il proprio lavoro e gli strumenti',

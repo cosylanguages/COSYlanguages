@@ -15,6 +15,9 @@
         const unlocked = localStorage.getItem('student_unlocked') === 'true';
         const code = localStorage.getItem('student_course_code');
 
+        const savedTheme = localStorage.getItem('cosy_dashboard_theme') || 'earth';
+        document.body.classList.add('theme-' + savedTheme);
+
         if (unlocked && code && typeof COURSES !== 'undefined' && COURSES[code]) {
             currentCourse = { ...COURSES[code], code: code };
             initDashboard();
@@ -95,6 +98,84 @@
         if (modal) modal.classList.remove('show');
     }
 
+    function showSettingsModal() {
+        const modal = document.getElementById('settings-modal');
+        if (modal) {
+            modal.classList.add('show');
+            const slow = localStorage.getItem('cosy_slow_speech') === 'true';
+            const auto = localStorage.getItem('cosy_auto_speak') === 'true';
+            const pitch = localStorage.getItem('cosy_voice_pitch') || '1.0';
+
+            document.getElementById('slow-speech-toggle').checked = slow;
+            document.getElementById('auto-speak-toggle').checked = auto;
+
+            const pRange = document.getElementById('pitch-range');
+            const pVal = document.getElementById('pitch-val');
+            if (pRange) pRange.value = pitch;
+            if (pVal) pVal.textContent = pitch;
+
+            populateVoiceSelect();
+        }
+    }
+
+    function hideSettingsModal() {
+        const modal = document.getElementById('settings-modal');
+        if (modal) modal.classList.remove('show');
+    }
+
+    function setTheme(theme) {
+        const themes = ['theme-earth', 'theme-paper', 'theme-contrast'];
+        document.body.classList.remove(...themes);
+        document.body.classList.add('theme-' + theme);
+
+        localStorage.setItem('cosy_dashboard_theme', theme);
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        showToast((t('theme_updated') || 'Theme updated to ') + theme + ' ✨');
+    }
+
+    function setPitch(val) {
+        localStorage.setItem('cosy_voice_pitch', val);
+        const pVal = document.getElementById('pitch-val');
+        if (pVal) pVal.textContent = val;
+    }
+
+    function setVoice(val) {
+        localStorage.setItem('cosy_preferred_voice', val);
+    }
+
+    function toggleSlowSpeech(val) {
+        localStorage.setItem('cosy_slow_speech', val);
+    }
+
+    function toggleAutoSpeak(val) {
+        localStorage.setItem('cosy_auto_speak', val);
+    }
+
+    function populateVoiceSelect() {
+        const select = document.getElementById('voice-select');
+        if (!select || !window.speechSynthesis) return;
+
+        const lang = currentCourse.lang.toLowerCase();
+        const voices = window.speechSynthesis.getVoices();
+        const preferred = localStorage.getItem('cosy_preferred_voice');
+
+        // Keep default option
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        select.innerHTML = `<option value="">${t('default_voice') || 'Default'}</option>`;
+
+        const langMap = { 'en': 'en', 'fr': 'fr', 'it': 'it', 'ru': 'ru', 'el': 'el', 'es': 'es', 'de': 'de', 'pt': 'pt' };
+        const targetPrefix = langMap[lang] || lang;
+
+        const filtered = voices.filter(v => v.lang.startsWith(targetPrefix));
+        filtered.forEach(v => {
+            const opt = document.createElement('option');
+            opt.value = v.name;
+            opt.textContent = v.name + (v.localService ? ' (Local)' : '');
+            if (v.name === preferred) opt.selected = true;
+            select.appendChild(opt);
+        });
+    }
+
     function checkPin() {
         const input = document.getElementById('pin-input');
         const error = document.getElementById('pin-error');
@@ -155,6 +236,13 @@
         });
     }
 
+    function speakText(text) {
+        if (window.gameUtils && window.gameUtils.speak) {
+            const slow = localStorage.getItem('cosy_slow_speech') === 'true';
+            window.gameUtils.speak(text, currentCourse.lang.toLowerCase(), slow ? 0.6 : 1.0);
+        }
+    }
+
     // ── Dashboard Core ──────────────────────────────────
 
     async function initDashboard() {
@@ -205,8 +293,15 @@
             roadmapBtn.id = roadmapBtnId;
             roadmapBtn.style.padding = '4px 10px';
             roadmapBtn.style.fontSize = '11px';
-            const btnGroup = document.querySelector('.day-jump').nextElementSibling.querySelector('div');
+
+            const dayJump = document.querySelector('.day-jump');
+            const btnGroup = dayJump ? dayJump.nextElementSibling?.querySelector('div') : null;
             if (btnGroup) btnGroup.prepend(roadmapBtn);
+            else {
+                // Fallback: append to area if group not found
+                const area = document.getElementById('area');
+                if (area) area.prepend(roadmapBtn);
+            }
         }
 
         const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
@@ -381,7 +476,8 @@
 
             const isDone = isLessonDone(dayNum);
             const nextLessonNum = getNextLessonNum();
-            const statusLabel = isDone ? 'DONE' : (dayNum === nextLessonNum ? 'CURRENT' : 'LOCKED');
+            const unitEmoji = (lesson.code && (lesson.code.includes('-00') || lesson.code.endsWith('-0'))) ? '🅰️' : '';
+            const statusLabel = (unitEmoji ? unitEmoji + ' ' : '') + (isDone ? (t('status_done') || 'DONE') : (dayNum === nextLessonNum ? (t('status_current') || 'CURRENT') : (t('status_locked') || 'LOCKED')));
             const statusClass = isDone ? 's-done' : (dayNum === nextLessonNum ? 's-current' : 's-locked');
 
             const sub = (typeof lesson.grammar === 'string') ? lesson.grammar : (lesson.subtitle || '');
@@ -404,6 +500,7 @@
                         <button class="tab-btn active" data-target="ov-${dayNum}" data-translate-key="overview_tab">${t('overview_tab')}</button>
                         <button class="tab-btn" data-target="gr-${dayNum}" data-translate-key="grammar_tab">${t('grammar_tab')}</button>
                         <button class="tab-btn" data-target="vo-${dayNum}" data-translate-key="vocab_tab">${t('vocab_tab')}</button>
+                        <button class="tab-btn" data-target="pr-${dayNum}" data-translate-key="pronunciation_tab">${t('pronunciation_tab') || 'Pronunciation'}</button>
                         <button class="tab-btn" data-target="rf-${dayNum}" data-translate-key="refs_tab">${t('refs_tab')}</button>
                         ${isTeacher ? `<button class="tab-btn" data-target="tn-${dayNum}" style="color:var(--gold)">👩‍🏫 Notes</button>` : ''}
                     </div>
@@ -437,6 +534,10 @@
 
                     <div class="tab-panel" id="vo-${dayNum}">
                         ${renderVocabTabContent(lesson)}
+                    </div>
+
+                    <div class="tab-panel" id="pr-${dayNum}">
+                        ${renderPronunciationTabContent(lesson)}
                     </div>
 
                     <div class="tab-panel" id="rf-${dayNum}">
@@ -503,17 +604,27 @@
                 </div>
                 <p class="gram-explain">${p.explain || ''}</p>
                 ${p.rule ? `<div class="gram-rule">${p.rule}</div>` : ''}
-                <div class="ex-header-new"><span>Target</span><span>Translation</span></div>
-                ${(p.examples || []).map(ex => `
-                    <div class="ex-row-new">
-                        <span class="ex-t">${ex.t}</span>
-                        <span class="ex-e">${ex.e}</span>
-                    </div>
-                `).join('')}
+
+                <table class="gtable" style="margin-bottom: 1rem;">
+                    <thead>
+                        <tr class="section-row"><th colspan="2" style="text-align: left;" data-translate-key="examples_label">${t('examples_label') || 'Examples'}</th></tr>
+                    </thead>
+                    <tbody>
+                        ${(p.examples || []).map(ex => `
+                            <tr class="example-row">
+                                <td class="content-l">${ex.t}</td>
+                                <td class="content-l" style="font-style: italic; opacity: 0.7;">${ex.e}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+
                 ${p.tip ? `<div class="gram-tip">${p.tip}</div>` : ''}
-                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=grammar&theme=${encodeURIComponent(p.practiceTheme || p.point || '')}" class="plink hi">
-                    Practice this point 🎯
-                </a>
+                <div class="vocab-actions">
+                    <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=grammar&theme=${encodeURIComponent(p.practiceTheme || p.point || '')}" class="plink hi">
+                        Practice this point 🎯
+                    </a>
+                </div>
             </div>
         `).join('');
     }
@@ -521,12 +632,17 @@
     function renderVocabTabContent(lesson) {
         const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
         let words = [];
-        if (lesson.vocabWords) words = lesson.vocabWords;
-        else if (Array.isArray(lesson.vocab)) {
+        if (lesson.vocabWords) {
+            words = lesson.vocabWords;
+        } else if (Array.isArray(lesson.vocab) && lesson.vocab.length > 0) {
             if (typeof lesson.vocab[0] === 'string') {
                 words = lesson.vocab.map(v => ({ w: v, trans: '...' }));
+            } else if (lesson.vocab[0].words) {
+                // Grouped
+                words = lesson.vocab.flatMap(g => g.words || []).map(w => (typeof w === 'string' ? { w: w, trans: '...' } : w));
             } else {
-                words = lesson.vocab.flatMap(g => g.words || []);
+                // Flat objects
+                words = lesson.vocab;
             }
         }
 
@@ -536,21 +652,147 @@
         }
 
         return `
-            <div class="vocab-grid">
-                ${words.map(w => `
-                    <div class="vocab-card" onclick="cosyDays.copyText('${w.w.replace(/'/g, "\\'")}')">
-                        <div class="vc-word">${w.w}</div>
-                        <div class="vc-phon">${w.phon || ''}</div>
-                        <div class="vc-def">${w.trans || ''}</div>
-                    </div>
-                `).join('')}
-            </div>
+            <table class="gtable" style="margin-bottom: 1.5rem;">
+                <thead>
+                    <tr class="section-row">
+                        <th style="text-align: left;">Word</th>
+                        <th style="text-align: left;">Phonetic</th>
+                        <th style="text-align: left;">Translation</th>
+                        <th style="width: 40px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${words.map(w => `
+                        <tr>
+                            <td class="content-l"><strong class="vc-word-title">${w.w}</strong></td>
+                            <td class="content-l">${w.phon ? `<span class="vc-phon">${w.phon}</span>` : ''}</td>
+                            <td class="content-l" style="font-size: 0.85rem;">${w.trans || ''}</td>
+                            <td><button class="ph-copy" onclick="cosyDays.speakText('${w.w.replace(/'/g, "\\'")}')">🔊</button></td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
             <div class="vocab-actions">
                 <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=vocab&theme=${encodeURIComponent(lesson.practiceTheme || '')}" class="plink hi" data-translate-key="flashcards_quiz_btn">
                     ${t('flashcards_quiz_btn')}
                 </a>
+                <a href="vocabulary-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">
+                    ${t('open_vocab_ref')}
+                </a>
             </div>
         `;
+    }
+
+    function renderPronunciationTabContent(lesson) {
+        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        const points = lesson.pronunciation || [];
+
+        if (!points.length) {
+            return `<p class="vocab-intro">Pronunciation focus for this lesson is being prepared.</p>
+                    <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Pronunciation Guide 🔊</a>`;
+        }
+
+        let mainHtml = points.map(p => {
+            let html = `
+                <div class="gram-point">
+                    <div class="gram-heading">
+                        ${p.point} <span class="gram-tag">Sound</span>
+                    </div>
+                    <p class="gram-explain">${p.explain || ''}</p>
+                    ${p.image ? `<img src="${p.image}" alt="${p.point}" style="max-width:100%; border-radius:var(--radius-sm); margin-bottom:1rem; border:1.5px solid var(--border);">` : ''}
+            `;
+
+            if (p.alphabet) {
+                html += `
+                    <div class="gtable-container" style="margin-bottom: 1rem;">
+                        <div class="alpha-grid" style="grid-template-columns: repeat(auto-fill, minmax(60px,1fr)); padding:0;">
+                            ${p.alphabet.map(a => `
+                                <div class="alpha-cell" style="min-height:50px; cursor:pointer;" onclick="cosyDays.speakText('${a.l}')">
+                                    <div class="letter" style="font-size:1.1rem;">${a.l}</div>
+                                    <div class="ipa-sm" style="font-size:0.65rem;">${a.ipa}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (p.minimalPairs) {
+                html += `
+                    <div class="gtable-container" style="margin-bottom:1rem;">
+                    <table class="gtable" style="margin-bottom:0;">
+                        <thead>
+                            <tr class="section-row">
+                                <th style="text-align: left;">Word 1</th>
+                                <th style="text-align: left;">IPA 1</th>
+                                <th style="text-align: left;">Word 2</th>
+                                <th style="text-align: left;">IPA 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${p.minimalPairs.map(mp => `
+                                <tr>
+                                    <td class="content-l"><strong class="vc-word-title" style="cursor:pointer" onclick="cosyDays.speakText('${mp.w1.replace(/'/g, "\\'")}')">${mp.w1}</strong></td>
+                                    <td class="content-l"><span class="vc-phon">${mp.p1}</span></td>
+                                    <td class="content-l"><strong class="vc-word-title" style="cursor:pointer" onclick="cosyDays.speakText('${mp.w2.replace(/'/g, "\\'")}')">${mp.w2}</strong></td>
+                                    <td class="content-l"><span class="vc-phon">${mp.p2}</span></td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                    </div>
+                `;
+            }
+
+            if (p.examples && p.examples.length) {
+                html += `
+                    <div class="gtable-container">
+                    <table class="gtable" style="margin-bottom:0;">
+                        <thead>
+                            <tr class="section-row">
+                                <th style="text-align: left;">Pattern</th>
+                                <th style="text-align: left;">IPA</th>
+                                <th style="text-align: left;">Examples</th>
+                                <th style="width: 50px;">Listen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${p.examples.map(ex => `
+                                <tr>
+                                    <td class="content"><strong>${ex.pattern || ''}</strong></td>
+                                    <td class="content" style="color:var(--sky); font-style:italic;">${ex.ipa || ''}</td>
+                                    <td class="content-l">${ex.word || ''}</td>
+                                    <td><button class="ph-copy" onclick="cosyDays.speakText('${ex.word.replace(/'/g, "\\'")}')">🔊</button></td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                    </div>
+                `;
+            }
+
+            if (p.tip) {
+                html += `<div class="gram-tip" style="background:var(--sky-lt); border-color:var(--sky); color:var(--sky)">💡 ${p.tip}</div>`;
+            }
+
+            html += `</div>`;
+            return html;
+        }).join('');
+
+        // Add Practice link
+        mainHtml += `
+            <div class="vocab-actions" style="margin-top: 1rem;">
+                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=pronunciation&theme=${encodeURIComponent(lesson.title)}"
+                   class="plink hi" data-translate-key="practice_sounds_btn">
+                    ${t('practice_sounds_btn') || 'Practice these sounds 🎯'}
+                </a>
+                <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}"
+                   class="plink" data-translate-key="full_pronunciation_guide">
+                    ${t('full_pronunciation_guide') || 'Full Pronunciation Guide 🔊'}
+                </a>
+            </div>
+        `;
+        return mainHtml;
     }
 
     function renderRoleplaySection(lesson) {
@@ -856,10 +1098,18 @@
         buildSidebar,
         showPinModal,
         hidePinModal,
+        showSettingsModal,
+        hideSettingsModal,
+        setTheme,
+        setPitch,
+        setVoice,
+        toggleSlowSpeech,
+        toggleAutoSpeak,
         checkPin,
         lockTeacher,
         resetProgress,
         showToast,
-        copyText
+        copyText,
+        speakText
     };
 })();
