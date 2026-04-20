@@ -694,7 +694,14 @@
                     <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Pronunciation Guide 🔊</a>`;
         }
 
-        let mainHtml = points.map(p => {
+        const rate = localStorage.getItem('cosy_slow_speech') === 'true' ? 0.6 : 1.0;
+        let mainHtml = `<div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; opacity: 0.8;">
+            <span>🔊 Speed:</span>
+            <button class="ph-copy${rate === 1.0 ? ' active-speed' : ''}" onclick="localStorage.setItem('cosy_slow_speech', 'false'); cosyDays.renderCurriculum();" style="padding: 2px 8px;">1.0x</button>
+            <button class="ph-copy${rate === 0.6 ? ' active-speed' : ''}" onclick="localStorage.setItem('cosy_slow_speech', 'true'); cosyDays.renderCurriculum();" style="padding: 2px 8px;">0.6x 🐢</button>
+        </div>`;
+
+        mainHtml += points.map(p => {
             let html = `
                 <div class="gram-point">
                     <div class="gram-heading">
@@ -898,6 +905,7 @@
             { group: t('learning_resources'), items: [
                 { icon: "📓", name: t('workbook_btn'), desc: "Your personal exercises & notes", url: `workbook.html${query}` },
                 { icon: "📐", name: t('grammar_ref_btn'), desc: "Interactive grammar reference", url: `grammar-reference.html${query}` },
+                { icon: "🔊", name: t('pronunciation_reference_title') || 'Pronunciation Ref', desc: "Interactive sounds & IPA guide", url: `pronunciation-reference.html${query}` },
                 { icon: "📖", name: t('vocab_ref_btn'), desc: "Interactive vocabulary lists", url: `vocabulary-reference.html${query}` },
             ]}
         ];
@@ -1102,6 +1110,7 @@
     window.cosyDays = {
         unlock,
         logout,
+        renderCurriculum,
         jumpTo,
         buildSidebar,
         showPinModal,

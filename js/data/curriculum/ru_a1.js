@@ -146,7 +146,8 @@ window.curriculumData.ru_a1 = [
             { pattern: "О", ipa: "/o/", word: "кот" },
             { pattern: "И", ipa: "/i/", word: "вид" }
           ],
-          tip: "Vowels change sound significantly when they are not stressed."
+          extension: "Русские гласные очень четкие под ударением, но сильно меняются в безударном положении. Это одна из главных сложностей для иностранцев.",
+          visual: "👄"
         }
       ],
       vocab:[
@@ -176,7 +177,9 @@ window.curriculumData.ru_a1 = [
             { pattern: "о", ipa: "/xa.ra.'ʃo/", word: "хорошо" },
             { pattern: "о", ipa: "/'o.kna/", word: "окна" }
           ],
-          tip: "Listen for the stress! Only the stressed 'O' sounds like 'O'."
+          tip: "Listen for the stress! Only the stressed 'O' sounds like 'O'.",
+          extension: "Это явление называется 'аканье'. Оно делает русскую речь более мягкой и мелодичной.",
+          visual: "🅾️➡️🅰️"
         }
       ],
       vocab:[
@@ -196,7 +199,20 @@ window.curriculumData.ru_a1 = [
       cando:'Может говорить о своей работе',
       hw:'Выучить названия 10 профессий' },
     { code:'RU-03', num:3, title:'Мой дом и мой город',
-      grammar:'Притяжательные местоимения (мой, твой, его)',
+      grammar:'Притяжательные местоиμεния (мой, твой, его)',
+      pronunciation: [
+        {
+          point: "The Sound 'Ы'",
+          explain: "A unique Russian sound. Imagine someone hit you in the stomach!",
+          examples: [
+            { pattern: "ы", ipa: "/ɨ/", word: "мы" },
+            { pattern: "ы", ipa: "/tɨ/", word: "ты" },
+            { pattern: "ы", ipa: "/vɨ/", word: "вы" }
+          ],
+          extension: "Чтобы произнести 'Ы', отодвиньте язык назад, как будто хотите сказать 'И', но глубже в горле.",
+          visual: "🥊"
+        }
+      ],
       vocab:['дом','квартира','город','улица','центр'],
       verbs:['жить'],
       adj:['большой','маленький','новый'],

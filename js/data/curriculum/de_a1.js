@@ -136,7 +136,9 @@ window.curriculumData.de_a1 = [
           examples: [
             { pattern: "Apfel", ipa: "/ˈʔapfl̩/", word: "Apfel" },
             { pattern: "Eis", ipa: "/ˈʔaɪs/", word: "Eis" }
-          ]
+          ],
+          extension: "Im Deutschen klingen Wörter, die mit Vokalen beginnen, oft 'abgehackt'. Das liegt an diesem Glottal-Stopp. Er ist kein Buchstabe, aber ein wichtiger Laut für den deutschen Rhythmus.",
+          visual: "⏹️"
         }
       ],
       vocab:[
@@ -145,7 +147,38 @@ window.curriculumData.de_a1 = [
         {w:'Deutsch', emoji:'🇩🇪', trans:'German'}
       ],
       cando:'Can introduce themselves and use basic verbs',
-      hw:'Write 3 sentences about your job in German' }
+      hw:'Write 3 sentences about your job in German' },
+    { code:'DE-02', num:2, title:'Mein Beruf',
+      grammar:'Berufe und Artikel',
+      pronunciation: [
+        {
+          point: "Auslautverhärtung",
+          explain: "B, D und G am Ende eines Wortes werden wie P, T und K ausgesprochen.",
+          examples: [
+            { pattern: "b -> p", ipa: "/ap/", word: "ab" },
+            { pattern: "d -> t", ipa: "/hant/", word: "Hand" },
+            { pattern: "g -> k", ipa: "/taːk/", word: "Tag" }
+          ],
+          extension: "Das ist einer der Gründe, warum Deutsch für manche 'hart' klingt. Wir machen weiche Konsonanten am Ende hart und stimmlos.",
+          visual: "🔨"
+        }
+      ]
+    },
+    { code:'DE-03', num:3, title:'Wo ich wohne',
+      grammar:'Wohnen und Präpositionen',
+      pronunciation: [
+        {
+          point: "Das 'R' im Deutschen",
+          explain: "Am Wortanfang wird es im Rachen gerieben, am Ende fast wie ein 'A' ausgesprochen.",
+          examples: [
+            { pattern: "r-", ipa: "/ʁɔt/", word: "rot" },
+            { pattern: "-er", ipa: "/ˈvɪndɐ/", word: "Winter" }
+          ],
+          extension: "Das vokalisierte 'r' am Ende (wie in 'Mutter', 'Bier') klingt fast wie ein kurzes 'a'. Das ist sehr wichtig für eine natürliche Aussprache.",
+          visual: "🗣️"
+        }
+      ]
+    }
   ]
 }
 ];

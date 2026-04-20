@@ -135,8 +135,8 @@ window.curriculumData.fr_a1 = [
       grammar:'Être au présent + pronoms sujets',
       pronunciation: [
         {
-          point: "Starter Foundation: The French Alphabet",
-          explain: "Vowels in the French alphabet are key to understanding the phonetic system.",
+          point: "The French Alphabet - Vowels",
+          explain: "French vowels are much 'tighter' and more forward in the mouth than in English.",
           examples: [
             { pattern: "A", ipa: "/a/", word: "chat" },
             { pattern: "E", ipa: "/ə/", word: "le" },
@@ -144,17 +144,20 @@ window.curriculumData.fr_a1 = [
             { pattern: "O", ipa: "/o/", word: "dos" },
             { pattern: "U", ipa: "/y/", word: "tu" }
           ],
-          tip: "Vowels are much 'tighter' in French than in English."
+          extension: "En français, les voyelles sont pures. Elles ne changent pas de son à la fin, contrairement à l'anglais où elles glissent souvent.",
+          visual: "👄"
         },
         {
           point: "Silent Final Consonants",
           explain: "In French, many final consonants are not pronounced.",
           examples: [
             { pattern: "t", ipa: "/sa.ly/", word: "salut" },
-            { pattern: "s", ipa: "/vʊ/", word: "vous" },
-            { pattern: "d", ipa: "/tɑ̃/", word: "tard" }
+            { pattern: "s", ipa: "/vu/", word: "vous" },
+            { pattern: "d", ipa: "/taʁ/", word: "tard" }
           ],
-          tip: "Remember: C, R, F, L (CaReFuL) are usually pronounced at the end."
+          tip: "Remember: C, R, F, L (CaReFuL) are usually pronounced at the end.",
+          extension: "C'est l'une des règles les plus importantes : on ne prononce pas le 's' du pluriel, ni le 't' ou le 'd' final dans la plupart des cas.",
+          visual: "🔇"
         }
       ],
       vocab:[
@@ -212,9 +215,11 @@ window.curriculumData.fr_a1 = [
           examples: [
             { pattern: "ou", ipa: "/u/", word: "où" },
             { pattern: "ou", ipa: "/bu.lɑ̃.ʒe/", word: "boulanger" },
-            { pattern: "ou", ipa: "/vʊ/", word: "vous" }
+            { pattern: "ou", ipa: "/vu/", word: "vous" }
           ],
-          tip: "Imagine you are blowing out a candle."
+          tip: "Imagine you are blowing out a candle.",
+          extension: "Ne confondez pas le 'ou' (/u/) avec le 'u' (/y/). Le 'ou' est profond et arrondi.",
+          visual: "🕯️"
         }
       ],
       vocab:[

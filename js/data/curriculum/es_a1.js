@@ -144,7 +144,52 @@ window.curriculumData.es_a1 = [
         {w:'español', emoji:'🇪🇸', trans:'Spanish'}
       ],
       cando:'Can introduce themselves and their profession',
-      hw:'Write 3 sentences about yourself using "ser"' }
+      hw:'Write 3 sentences about yourself using "ser"' },
+    { code:'ES-02', num:2, title:'Mi trabajo y oficina',
+      grammar:'Verbo tener + artículos indeterminados',
+      pronunciation: [
+        {
+          point: "La letra C",
+          explain: "La 'c' suena como 'k' ante a, o, u, y como 'θ' (en España) ante e, i.",
+          examples: [
+            { pattern: "ca, co, cu", ipa: "/k/", word: "casa" },
+            { pattern: "ce, ci", ipa: "/θ/", word: "cena" }
+          ],
+          tip: "¡Recuerda! 'Que, qui' suena como 'ke, ki'.",
+          visual: "🏠🍴"
+        }
+      ]
+    },
+    { code:'ES-03', num:3, title:'Mi casa y barrio',
+      grammar:'Estar + preposiciones de lugar',
+      pronunciation: [
+        {
+          point: "La letra J y G fuerte",
+          explain: "La 'j' y la 'g' (ante e, i) tienen un sonido fuerte desde la garganta.",
+          examples: [
+            { pattern: "j", ipa: "/x/", word: "jardín" },
+            { pattern: "ge, gi", ipa: "/x/", word: "gimnasio" }
+          ],
+          extension: "Este sonido es muy característico del español. Imagina que estás limpiando tus gafas con el aliento.",
+          visual: "😤"
+        }
+      ]
+    },
+    { code:'ES-04', num:4, title:'Mi familia',
+      grammar:'Adjetivos posesivos',
+      pronunciation: [
+        {
+          point: "La letra V vs B",
+          explain: "En español, la 'v' y la 'b' se pronuncian exactamente igual.",
+          minimalPairs: [
+            { w1: "vaca", p1: "/ˈba.ka/", w2: "baca", p2: "/ˈba.ka/" },
+            { w1: "vino", p1: "/ˈbi.no/", w2: "pino", p2: "/ˈpi.no/" }
+          ],
+          tip: "No muerdas el labio para la 'v'; usa ambos labios como con la 'b'.",
+          visual: "👄"
+        }
+      ]
+    }
   ]
 }
 ];

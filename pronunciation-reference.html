@@ -8,6 +8,7 @@
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <script src="js/data/curriculum_data.js"></script>
+<script src="js/translate.js"></script>
 <script src="js/games/utils/shared.js"></script>
 <style>
 /* ══════════════════════════════════════════
@@ -61,7 +62,15 @@ body.theme-contrast {
   --shadow: transparent;
   --teal: #00FFCC;
   --yellow: #FFFF00;
+  --blue: #00FFFF;
+  --orange: #FFCC00;
+  --cream: #1A1A1A;
 }
+
+body.theme-contrast .alpha-cell { background: #000; border-color: #555; }
+body.theme-contrast .alpha-cell:hover { background: #333; border-color: var(--yellow); }
+body.theme-contrast .gtable th { background: #222; }
+body.theme-contrast .card { box-shadow: 6px 6px 0 #333; }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -200,7 +209,7 @@ body { font-family: 'Nunito', sans-serif; background: var(--bg); color: var(--te
 <div class="layout">
   <nav class="sidebar" id="sidebar"></nav>
   <main class="main" id="main-content">
-    <div id="engine-status" style="text-align:center; padding: 3rem; font-weight: 800; opacity: 0.5;">
+    <div id="engine-status" style="text-align:center; padding: 3rem; font-weight: 800; opacity: 0.5;" data-translate-key="loading_engine">
       Loading Pronunciation Engine...
     </div>
   </main>
@@ -210,7 +219,7 @@ body { font-family: 'Nunito', sans-serif; background: var(--bg); color: var(--te
 let currentLang = 'en';
 let currentCurriculum = [];
 
-function init() {
+async function init() {
   const savedTheme = localStorage.getItem('cosy_dashboard_theme') || 'earth';
   document.body.className = 'theme-' + savedTheme;
 
@@ -221,6 +230,10 @@ function init() {
     startLang = COURSES[code].lang.toLowerCase();
     document.getElementById('lang-tabs').style.display = 'none';
   }
+
+  // Load translations
+  await loadLanguageFile('en');
+  if (startLang !== 'en') await loadLanguageFile(startLang);
 
   // Build tabs if visible
   const tabCont = document.getElementById('lang-tabs');
@@ -307,6 +320,44 @@ function renderContent() {
 
   // Render Main
   main.innerHTML = `<div class="section-title">${LANGS[currentLang.toUpperCase()]?.label} — A1 Pronunciation</div>`;
+
+  // Master Summary Table
+  const summaryCard = document.createElement('div');
+  summaryCard.className = 'card';
+  summaryCard.style.background = 'var(--cream)';
+
+  const masterTitle = window.t('master_ipa_summary', currentLang);
+  const masterDesc = window.t('master_ipa_desc', currentLang);
+
+  let summaryHtml = `
+    <div class="card-title" style="background:var(--sienna, #8B5E3C)">📊 ${masterTitle}</div>
+    <div class="card-body">
+      <p style="margin-bottom: 1rem; font-size: 0.85rem; opacity: 0.8;">${masterDesc}</p>
+      <div class="alpha-grid" style="grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));">
+  `;
+
+  const uniqueIpas = new Map();
+  allPoints.forEach(p => {
+    if (p.alphabet) p.alphabet.forEach(a => { if(!uniqueIpas.has(a.ipa)) uniqueIpas.set(a.ipa, a.l); });
+    if (p.examples) p.examples.forEach(ex => { if(!uniqueIpas.has(ex.ipa)) uniqueIpas.set(ex.ipa, ex.word); });
+    if (p.minimalPairs) p.minimalPairs.forEach(mp => {
+        if(!uniqueIpas.has(mp.p1)) uniqueIpas.set(mp.p1, mp.w1);
+        if(!uniqueIpas.has(mp.p2)) uniqueIpas.set(mp.p2, mp.w2);
+    });
+  });
+
+  uniqueIpas.forEach((example, ipa) => {
+    summaryHtml += `
+      <div class="alpha-cell" style="min-height: 60px;" onclick="speakPhonetic('${example.replace(/'/g, "\\'")}')">
+        <div class="ipa-sm" style="font-size: 1.1rem; color: var(--sienna, #8B5E3C); font-weight: 800;">${ipa}</div>
+        <div style="font-size: 0.65rem; opacity: 0.6;">${example}</div>
+      </div>
+    `;
+  });
+
+  summaryHtml += `</div></div>`;
+  summaryCard.innerHTML = summaryHtml;
+  main.appendChild(summaryCard);
 
   allPoints.forEach((p, i) => {
     const card = document.createElement('div');

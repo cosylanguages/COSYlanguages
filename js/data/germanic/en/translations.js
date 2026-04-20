@@ -1340,7 +1340,10 @@
             "pronunciation_rules_title": "Rules & Patterns 📖",
             "pronunciation_extension_title": "Pedagogical Notes 💡",
             "pronunciation_visual_title": "Visual Guide 🖼️",
-            "wtd_pronunciation": "Listen carefully to the sounds and patterns."
+            "wtd_pronunciation": "Listen carefully to the sounds and patterns.",
+            "loading_engine": "Loading Pronunciation Engine...",
+            "master_ipa_summary": "Master IPA Summary",
+            "master_ipa_desc": "Quick reference of all unique sounds introduced at this level."
         }
     };
     window.translations = window.translations || {};

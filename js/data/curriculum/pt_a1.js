@@ -134,7 +134,9 @@ window.curriculumData.pt_a1 = [
           examples: [
             { pattern: "excelente", ipa: "/ɐj.sə.ˈlẽ.tə/", word: "excelente" },
             { pattern: "português", ipa: "/puɾ.tu.ˈɡeʃ/", word: "português" }
-          ]
+          ],
+          extension: "Esta redução é a principal diferença entre o português de Portugal (mais 'fechado') e o do Brasil (mais 'aberto'). Ouvir estas diferenças ajuda muito na compreensão auditiva.",
+          visual: "📉"
         }
       ],
       vocab:[
@@ -143,7 +145,38 @@ window.curriculumData.pt_a1 = [
         {w:'português', emoji:'🇵🇹', trans:'Portuguese'}
       ],
       cando:'Can introduce themselves and use basic verbs',
-      hw:'Write a small intro about yourself in Portuguese' }
+      hw:'Write a small intro about yourself in Portuguese' },
+    { code:'PT-02', num:2, title:'O meu trabalho',
+      grammar:'Verbo ter + artigos indefinidos',
+      pronunciation: [
+        {
+          point: "O som do 'X'",
+          explain: "A letra 'x' pode ter vários sons em português: 'sh', 'z', 'ks' ou 's'.",
+          examples: [
+            { pattern: "sh", ipa: "/ʃ/", word: "caixa" },
+            { pattern: "z", ipa: "/z/", word: "exame" },
+            { pattern: "ks", ipa: "/ks/", word: "táxi" }
+          ],
+          tip: "Não há uma regra fixa, é preciso aprender caso a caso!",
+          visual: "✖️"
+        }
+      ]
+    },
+    { code:'PT-03', num:3, title:'A minha casa',
+      grammar:'Verbos de lugar + preposições',
+      pronunciation: [
+        {
+          point: "O 'R' vibrante e o 'RR'",
+          explain: "O 'r' no início da palavra ou o 'rr' no meio é forte e vem da garganta.",
+          examples: [
+            { pattern: "r-", ipa: "/ʁ/", word: "rua" },
+            { pattern: "rr", ipa: "/ʁ/", word: "carro" }
+          ],
+          extension: "Em Portugal, este som é muitas vezes produzido na úvula, de forma semelhante ao 'r' francês ou alemão.",
+          visual: "🦁"
+        }
+      ]
+    }
   ]
 }
 ];

@@ -144,7 +144,8 @@ window.curriculumData.el_a1 = [
             { pattern: "Ε, ε / ΑΙ, αι", ipa: "/e/", word: "ναι" },
             { pattern: "Η, η / Ι, ι / Υ, υ", ipa: "/i/", word: "είμαι" }
           ],
-          tip: "Vowels are always short and clear in Greek."
+          extension: "Η ελληνική γλώσσα είναι πολύ σταθερή στην προφορά της. Παρόλο που υπάρχουν πολλοί τρόποι να γράψεις τον ήχο /i/, η προφορά παραμένει η ίδια.",
+          visual: "👄"
         }
       ],
       vocab:[
@@ -174,7 +175,9 @@ window.curriculumData.el_a1 = [
             { pattern: "Δ, δ", ipa: "/ð/", word: "δουλειά" },
             { pattern: "Θ, θ", ipa: "/θ/", word: "θέλω" }
           ],
-          tip: "Γ is like a soft gargle; Δ is like 'th' in 'this'; Θ is like 'th' in 'think'."
+          tip: "Γ is like a soft gargle; Δ is like 'th' in 'this'; Θ is like 'th' in 'think'.",
+          extension: "Αυτά τα σύμφωνα δίνουν στα ελληνικά τον ιδιαίτερο ήχο τους. Χρειάζονται συνεχή ροή αέρα για να προφερθούν σωστά.",
+          visual: "💨"
         }
       ],
       vocab:[
@@ -195,6 +198,18 @@ window.curriculumData.el_a1 = [
       hw:'Λίστα με 10 αντικείμενα γραφείου' },
     { code:'EL-03', num:3, title:'Πού μένω — το σπίτι μου',
       grammar:'Ρήμα "μένω" + Προθέσεις τόπου (σε, από)',
+      pronunciation: [
+        {
+          point: "The Sound 'Χ'",
+          explain: "Like 'h' in English but stronger, or like 'ch' in Scottish 'loch'.",
+          examples: [
+            { pattern: "χα, χο, χυ", ipa: "/x/", word: "χαρά" },
+            { pattern: "χε, χι", ipa: "/ç/", word: "χέρι" }
+          ],
+          extension: "Το 'Χ' αλλάζει ήχο ανάλογα με το φωνήεν που ακολουθεί. Πριν από 'ε' και 'ι' γίνεται πιο μαλακό.",
+          visual: "🧣"
+        }
+      ],
       vocab:['διαμέρισμα','σπίτι','πόλη','οδός','όροφος'],
       verbs:['μένω','ζω'],
       adj:['μεγάλος','μικρός','μοντέρνος'],

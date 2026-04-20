@@ -1409,10 +1409,12 @@ async function startPractice(isWheelMode = false) {
                             p.minimalPairs.forEach(mp => {
                                 rawItems.push({
                                     word: mp.w1, trans: mp.p1, emoji: '👂', type: 'type-mc', theme: p.point, level: 'starter',
+                                    answer: mp.w1,
                                     distractors: [mp.w2]
                                 });
                                 rawItems.push({
                                     word: mp.w2, trans: mp.p2, emoji: '👂', type: 'type-mc', theme: p.point, level: 'starter',
+                                    answer: mp.w2,
                                     distractors: [mp.w1]
                                 });
                             });
@@ -1420,8 +1422,17 @@ async function startPractice(isWheelMode = false) {
                         if (p.examples) {
                             p.examples.forEach(ex => rawItems.push({
                                 word: ex.word, trans: ex.ipa, emoji: '🗣️', type: 'type-cl', theme: p.point, level: 'starter',
-                                primaryPrompt: ex.pattern, clozeText: `Pattern ${ex.pattern}: ____`
+                                primaryPrompt: ex.pattern, clozeText: `Pattern ${ex.pattern}: ____`,
+                                answer: ex.word
                             }));
+                        }
+                        if (p.explain && p.point) {
+                            // Rule recognition task
+                            rawItems.push({
+                                word: p.point, trans: p.explain, emoji: '📖', type: 'type-mc', theme: 'Pronunciation Rules', level: 'starter',
+                                primaryPrompt: p.explain, clozeText: `Which rule is this?: ____`,
+                                answer: p.point, distractors: ['Silent Letters', 'Word Stress', 'Vowel Reduction', 'Liaison'].filter(d => d !== p.point)
+                            });
                         }
                     });
                 }
