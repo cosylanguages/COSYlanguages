@@ -1332,7 +1332,18 @@
             "auto_speak_defs": "Auto-speak",
             "auto_speak_desc": "Auto play audio",
             "save_close": "Save",
-            "cat_pronunciation": "Pronunciation"
+            "cat_pronunciation": "Pronunciation",
+            "pronunciation_tab": "Pronunciation",
+            "full_pronunciation_guide": "Full Pronunciation Guide 🗣️",
+            "pronunciation_reference_title": "Pronunciation Reference 🗣️",
+            "pronunciation_reference_subtitle": "Master the sounds, rhythm, and intonation of the language.",
+            "pronunciation_rules_title": "Rules & Patterns 📖",
+            "pronunciation_extension_title": "Pedagogical Notes 💡",
+            "pronunciation_visual_title": "Visual Guide 🖼️",
+            "wtd_pronunciation": "Listen carefully to the sounds and patterns.",
+            "loading_engine": "Loading Pronunciation Engine...",
+            "master_ipa_summary": "Master IPA Summary",
+            "master_ipa_desc": "Quick reference of all unique sounds introduced at this level."
         }
     };
     window.translations = window.translations || {};

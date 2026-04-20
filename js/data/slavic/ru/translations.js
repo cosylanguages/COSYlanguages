@@ -1221,7 +1221,15 @@
             "auto_speak_defs": "Auto-speak",
             "auto_speak_desc": "Auto play audio",
             "save_close": "Save",
-            "cat_pronunciation": "Pronunciation"
+            "cat_pronunciation": "Pronunciation",
+            "pronunciation_tab": "Произношение",
+            "full_pronunciation_guide": "Полное руководство по произношению 🗣️",
+            "pronunciation_reference_title": "Справочник по произношению 🗣️",
+            "pronunciation_reference_subtitle": "Освойте звуки, ритм и интонацию языка.",
+            "pronunciation_rules_title": "Правила и закономерности 📖",
+            "pronunciation_extension_title": "Педагогические заметки 💡",
+            "pronunciation_visual_title": "Наглядное пособие 🖼️",
+            "wtd_pronunciation": "Внимательно слушайте звуки и закономерности."
         }
     };
     window.translations = window.translations || {};

@@ -18,7 +18,9 @@ window.curriculumData.de_a1 = [
             {l:'P p', ipa:'/peː/'}, {l:'Q q', ipa:'/kuː/'}, {l:'R r', ipa:'/ɛʁ/'}, {l:'S s', ipa:'/ɛs/'}, {l:'T t', ipa:'/teː/'},
             {l:'U u', ipa:'/uː/'}, {l:'V v', ipa:'/faʊ/'}, {l:'W w', ipa:'/veː/'}, {l:'X x', ipa:'/ɪks/'}, {l:'Y y', ipa:'/ˈʏpsilɔn/'}, {l:'Z z', ipa:'/tsɛt/'},
             {l:'Ä ä', ipa:'/ɛː/'}, {l:'Ö ö', ipa:'/øː/'}, {l:'Ü ü', ipa:'/yː/'}, {l:'ß', ipa:'/ɛsˈtsɛt/'}
-          ]
+          ],
+          extension: "Das deutsche Alphabet hat 26 Standardbuchstaben plus 4 Spezialzeichen: Ä, Ö, Ü und ß. Die Aussprache ist im Vergleich zum Englischen sehr konsistent.",
+          visual: "🇩🇪🔤"
         }
       ],
       vocab:[
@@ -42,7 +44,9 @@ window.curriculumData.de_a1 = [
             { pattern: "ü", ipa: "/yː/", word: "Über" },
             { pattern: "ß", ipa: "/s/", word: "heißen" }
           ],
-          tip: "Das 'ß' wird wie ein scharfes 'S' ausgesprochen."
+          tip: "Das 'ß' wird wie ein scharfes 'S' ausgesprochen.",
+          extension: "Umlaute verändern den Klang des Vokals. Wenn man keine Umlaute auf der Tastatur hat, kann man sie als ae, oe, ue umschreiben.",
+          visual: "🥨"
         }
       ],
       vocab:[
@@ -83,8 +87,10 @@ window.curriculumData.de_a1 = [
           minimalPairs: [
             { w1: "ich", p1: "/ɪç/", w2: "ach", p2: "/ax/" },
             { w1: "dich", p1: "/dɪç/", w2: "Dach", p2: "/dax/" },
-            { w1: "Kirche", p1: "/ˈkɪʁçə/", word: "Küche", p2: "/ˈkʏçə/" }
-          ]
+            { w1: "Kirche", p1: "/ˈkɪʁçə/", w2: "Küche", p2: "/ˈkʏçə/" }
+          ],
+          extension: "Der 'ch'-Laut ist charakteristisch für die deutsche Sprache. Er wird im Rachen gebildet, aber unterschiedlich weit hinten, je nachdem, welcher Vokal davor steht.",
+          visual: "🗣️"
         }
       ],
       vocab:[
@@ -130,7 +136,9 @@ window.curriculumData.de_a1 = [
           examples: [
             { pattern: "Apfel", ipa: "/ˈʔapfl̩/", word: "Apfel" },
             { pattern: "Eis", ipa: "/ˈʔaɪs/", word: "Eis" }
-          ]
+          ],
+          extension: "Im Deutschen klingen Wörter, die mit Vokalen beginnen, oft 'abgehackt'. Das liegt an diesem Glottal-Stopp. Er ist kein Buchstabe, aber ein wichtiger Laut für den deutschen Rhythmus.",
+          visual: "⏹️"
         }
       ],
       vocab:[
@@ -139,7 +147,38 @@ window.curriculumData.de_a1 = [
         {w:'Deutsch', emoji:'🇩🇪', trans:'German'}
       ],
       cando:'Can introduce themselves and use basic verbs',
-      hw:'Write 3 sentences about your job in German' }
+      hw:'Write 3 sentences about your job in German' },
+    { code:'DE-02', num:2, title:'Mein Beruf',
+      grammar:'Berufe und Artikel',
+      pronunciation: [
+        {
+          point: "Auslautverhärtung",
+          explain: "B, D und G am Ende eines Wortes werden wie P, T und K ausgesprochen.",
+          examples: [
+            { pattern: "b -> p", ipa: "/ap/", word: "ab" },
+            { pattern: "d -> t", ipa: "/hant/", word: "Hand" },
+            { pattern: "g -> k", ipa: "/taːk/", word: "Tag" }
+          ],
+          extension: "Das ist einer der Gründe, warum Deutsch für manche 'hart' klingt. Wir machen weiche Konsonanten am Ende hart und stimmlos.",
+          visual: "🔨"
+        }
+      ]
+    },
+    { code:'DE-03', num:3, title:'Wo ich wohne',
+      grammar:'Wohnen und Präpositionen',
+      pronunciation: [
+        {
+          point: "Das 'R' im Deutschen",
+          explain: "Am Wortanfang wird es im Rachen gerieben, am Ende fast wie ein 'A' ausgesprochen.",
+          examples: [
+            { pattern: "r-", ipa: "/ʁɔt/", word: "rot" },
+            { pattern: "-er", ipa: "/ˈvɪndɐ/", word: "Winter" }
+          ],
+          extension: "Das vokalisierte 'r' am Ende (wie in 'Mutter', 'Bier') klingt fast wie ein kurzes 'a'. Das ist sehr wichtig für eine natürliche Aussprache.",
+          visual: "🗣️"
+        }
+      ]
+    }
   ]
 }
 ];

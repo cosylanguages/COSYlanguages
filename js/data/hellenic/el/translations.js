@@ -1199,7 +1199,15 @@
             "auto_speak_defs": "Auto-speak",
             "auto_speak_desc": "Auto play audio",
             "save_close": "Save",
-            "cat_pronunciation": "Pronunciation"
+            "cat_pronunciation": "Pronunciation",
+            "pronunciation_tab": "Προφορά",
+            "full_pronunciation_guide": "Πλήρης Οδηγός Προφοράς 🗣️",
+            "pronunciation_reference_title": "Αναφορά Προφοράς 🗣️",
+            "pronunciation_reference_subtitle": "Κατακτήστε τους ήχους, τον ρυθμό και τον τονισμό της γλώσσας.",
+            "pronunciation_rules_title": "Κανόνες & Πρότυπα 📖",
+            "pronunciation_extension_title": "Παιδαγωγικές Σημειώσεις 💡",
+            "pronunciation_visual_title": "Οπτικός Οδηγός 🖼️",
+            "wtd_pronunciation": "Ακούστε προσεκτικά τους ήχους και τα πρότυπα."
         }
     };
     window.translations = window.translations || {};

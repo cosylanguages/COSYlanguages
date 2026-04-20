@@ -1006,7 +1006,15 @@
             "auto_speak_defs": "Auto-speak",
             "auto_speak_desc": "Auto play audio",
             "save_close": "Save",
-            "cat_pronunciation": "Pronunciation"
+            "cat_pronunciation": "Pronunciation",
+            "pronunciation_tab": "Aussprache",
+            "full_pronunciation_guide": "Vollständiger Ausspracheführer 🗣️",
+            "pronunciation_reference_title": "Aussprache-Referenz 🗣️",
+            "pronunciation_reference_subtitle": "Meistern Sie die Klänge, den Rhythmus und die Intonation der Sprache.",
+            "pronunciation_rules_title": "Regeln & Muster 📖",
+            "pronunciation_extension_title": "Pädagogische Hinweise 💡",
+            "pronunciation_visual_title": "Visuelle Anleitung 🖼️",
+            "wtd_pronunciation": "Hören Sie genau auf die Klänge und Muster."
         }
     };
     window.translations = window.translations || {};

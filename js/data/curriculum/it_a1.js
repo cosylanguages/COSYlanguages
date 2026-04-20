@@ -16,7 +16,9 @@ window.curriculumData.it_a1 = [
             {l:'F', ipa:'/ɛf.fe/'}, {l:'G', ipa:'/dʒe/'}, {l:'H', ipa:'/ak.ka/'}, {l:'I', ipa:'/i/'}, {l:'L', ipa:'/ɛl.le/'},
             {l:'M', ipa:'/ɛm.me/'}, {l:'N', ipa:'/ɛn.ne/'}, {l:'O', ipa:'/o/'}, {l:'P', ipa:'/pe/'}, {l:'Q', ipa:'/ku/'},
             {l:'R', ipa:'/ɛr.re/'}, {l:'S', ipa:'/ɛs.se/'}, {l:'T', ipa:'/te/'}, {l:'U', ipa:'/u/'}, {l:'V', ipa:'/vu/'}, {l:'Z', ipa:'/dzɛ.ta/'}
-          ]
+          ],
+          extension: "L'italiano è una lingua fonetica: si scrive quasi esattamente come si pronuncia. Imparare l'alfabeto è il primo passo per leggere correttamente ogni parola.",
+          visual: "🇮🇹🔤"
         }
       ],
       vocab:[
@@ -39,7 +41,9 @@ window.curriculumData.it_a1 = [
             { pattern: "tt", ipa: "/ˈfat.to/", word: "fatto" },
             { pattern: "ll", ipa: "/ˈbel.lo/", word: "bello" }
           ],
-          tip: "Immagina di fare una piccola pausa sulla doppia."
+          tip: "Immagina di fare una piccola pausa sulla doppia.",
+          extension: "Le doppie sono fondamentali! Cambiano il significato delle parole: 'casa' (house) vs 'cassa' (box). Ascolta bene la vibrazione più lunga.",
+          visual: "⚡"
         }
       ],
       vocab:[
@@ -140,7 +144,9 @@ window.curriculumData.it_a1 = [
             { pattern: "O", ipa: "/o/", word: "notte" },
             { pattern: "U", ipa: "/u/", word: "uva" }
           ],
-          tip: "Open your mouth more than you do in English for 'A'."
+          tip: "Open your mouth more than you do in English for 'A'.",
+          extension: "In English, vowels like 'A' often have two sounds combined (a diphthong). In Italian, 'A' is just 'A', pure and simple. Keep it short!",
+          visual: "👄"
         }
       ],
       vocab:[
@@ -170,7 +176,9 @@ window.curriculumData.it_a1 = [
             { pattern: "ca", ipa: "/ˈka.za/", word: "casa" },
             { pattern: "chi", ipa: "/ˈkjan.ti/", word: "chianti" }
           ],
-          tip: "Add an 'H' to keep the 'K' sound before E or I."
+          tip: "Add an 'H' to keep the 'K' sound before E or I.",
+          extension: "La pronuncia della 'C' è uno dei pilastri della fonetica italiana. Ricorda: C + H = Suono Duro (K).",
+          visual: "🍕"
         }
       ],
       vocab:[
@@ -191,6 +199,18 @@ window.curriculumData.it_a1 = [
       hw:'Elencare 10 oggetti dell\'ufficio' },
     { code:'IT-03', num:3, title:'Dove vivo — la mia casa',
       grammar:'Verbi in -ARE (abitare) + preposizioni di luogo',
+      pronunciation: [
+        {
+          point: "GLI and GN",
+          explain: "Special sounds that require specific tongue placement.",
+          examples: [
+            { pattern: "gli", ipa: "/ʎi/", word: "famiglia" },
+            { pattern: "gn", ipa: "/ɲ/", word: "bagno" }
+          ],
+          extension: "Il suono 'GN' è simile alla 'ñ' spagnola. Il suono 'GLI' è unico: appoggia la lingua al palato e lascia uscire l'aria dai lati.",
+          visual: "🍝"
+        }
+      ],
       vocab:['appartamento','casa','città','via','piano'],
       verbs:['abitare','vivere'],
       adj:['grande','piccolo','bello'],

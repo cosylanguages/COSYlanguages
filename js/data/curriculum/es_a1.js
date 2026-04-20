@@ -18,7 +18,9 @@ window.curriculumData.es_a1 = [
             {l:'O o', ipa:'/o/'}, {l:'P p', ipa:'/pe/'}, {l:'Q q', ipa:'/ku/'}, {l:'R r', ipa:'/ere/'}, {l:'S s', ipa:'/ese/'},
             {l:'T t', ipa:'/te/'}, {l:'U u', ipa:'/u/'}, {l:'V v', ipa:'/ube/'}, {l:'W w', ipa:'/ube doble/'}, {l:'X x', ipa:'/ekis/'},
             {l:'Y y', ipa:'/i griega/'}, {l:'Z z', ipa:'/θeta/'}
-          ]
+          ],
+          extension: "El español es un idioma con una correspondencia casi perfecta entre letras y sonidos. ¡Si sabes cómo se escribe, sabes cómo se pronuncia!",
+          visual: "🇪🇸🔤"
         }
       ],
       vocab:[
@@ -41,7 +43,9 @@ window.curriculumData.es_a1 = [
             { pattern: "rr", ipa: "/r/", word: "perro" },
             { pattern: "h", ipa: "-", word: "hola" }
           ],
-          tip: "¡Nunca pronuncies la H en español!"
+          tip: "¡Nunca pronuncies la H en español!",
+          extension: "La 'rr' requiere que la lengua vibre contra el paladar. La 'h' es puramente decorativa en la pronunciación moderna.",
+          visual: "🐕"
         }
       ],
       vocab:[
@@ -83,7 +87,9 @@ window.curriculumData.es_a1 = [
             { w1: "casa", p1: "/ˈka.sa/", w2: "caza", p2: "/ˈka.θa/" },
             { w1: "siento", p1: "/ˈsjen.to/", w2: "ciento", p2: "/ˈθjen.to/" },
             { w1: "cocer", p1: "/ko.ˈθer/", w2: "coser", p2: "/ko.ˈser/" }
-          ]
+          ],
+          extension: "Esta distinción es típica del español de España (Castellano). En gran parte de Latinoamérica, 's', 'c' y 'z' se pronuncian igual (/s/), lo que se llama 'seseo'.",
+          visual: "👅"
         }
       ],
       vocab:[
@@ -138,7 +144,52 @@ window.curriculumData.es_a1 = [
         {w:'español', emoji:'🇪🇸', trans:'Spanish'}
       ],
       cando:'Can introduce themselves and their profession',
-      hw:'Write 3 sentences about yourself using "ser"' }
+      hw:'Write 3 sentences about yourself using "ser"' },
+    { code:'ES-02', num:2, title:'Mi trabajo y oficina',
+      grammar:'Verbo tener + artículos indeterminados',
+      pronunciation: [
+        {
+          point: "La letra C",
+          explain: "La 'c' suena como 'k' ante a, o, u, y como 'θ' (en España) ante e, i.",
+          examples: [
+            { pattern: "ca, co, cu", ipa: "/k/", word: "casa" },
+            { pattern: "ce, ci", ipa: "/θ/", word: "cena" }
+          ],
+          tip: "¡Recuerda! 'Que, qui' suena como 'ke, ki'.",
+          visual: "🏠🍴"
+        }
+      ]
+    },
+    { code:'ES-03', num:3, title:'Mi casa y barrio',
+      grammar:'Estar + preposiciones de lugar',
+      pronunciation: [
+        {
+          point: "La letra J y G fuerte",
+          explain: "La 'j' y la 'g' (ante e, i) tienen un sonido fuerte desde la garganta.",
+          examples: [
+            { pattern: "j", ipa: "/x/", word: "jardín" },
+            { pattern: "ge, gi", ipa: "/x/", word: "gimnasio" }
+          ],
+          extension: "Este sonido es muy característico del español. Imagina que estás limpiando tus gafas con el aliento.",
+          visual: "😤"
+        }
+      ]
+    },
+    { code:'ES-04', num:4, title:'Mi familia',
+      grammar:'Adjetivos posesivos',
+      pronunciation: [
+        {
+          point: "La letra V vs B",
+          explain: "En español, la 'v' y la 'b' se pronuncian exactamente igual.",
+          minimalPairs: [
+            { w1: "vaca", p1: "/ˈba.ka/", w2: "baca", p2: "/ˈba.ka/" },
+            { w1: "vino", p1: "/ˈbi.no/", w2: "pino", p2: "/ˈpi.no/" }
+          ],
+          tip: "No muerdas el labio para la 'v'; usa ambos labios como con la 'b'.",
+          visual: "👄"
+        }
+      ]
+    }
   ]
 }
 ];

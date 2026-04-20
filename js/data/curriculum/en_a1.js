@@ -17,7 +17,9 @@ window.curriculumData.en_a1 = [
             {l:'K', ipa:'/keɪ/'}, {l:'L', ipa:'/el/'}, {l:'M', ipa:'/em/'}, {l:'N', ipa:'/en/'}, {l:'O', ipa:'/əʊ/'},
             {l:'P', ipa:'/piː/'}, {l:'Q', ipa:'/kjuː/'}, {l:'R', ipa:'/ɑː/'}, {l:'S', ipa:'/es/'}, {l:'T', ipa:'/tiː/'},
             {l:'U', ipa:'/juː/'}, {l:'V', ipa:'/viː/'}, {l:'W', ipa:'/ˈdʌb.əl.juː/'}, {l:'X', ipa:'/eks/'}, {l:'Y', ipa:'/waɪ/'}, {l:'Z', ipa:'/zed/'}
-          ]
+          ],
+          extension: "Did you know? The letters A, E, I, O, U are vowels. All other letters are consonants. In English, one letter can often represent multiple different sounds!",
+          visual: "🔤"
         }
       ],
       vocab:[
@@ -40,7 +42,9 @@ window.curriculumData.en_a1 = [
             { pattern: "What is", ipa: "/wɒt ɪz/", word: "What's" },
             { pattern: "I am", ipa: "/aɪ æm/", word: "I'm" },
             { pattern: "My name is", ipa: "/maɪ neɪm ɪz/", word: "My name's" }
-          ]
+          ],
+          extension: "Contractions make your English sound more natural and fluent. We use them almost all the time when speaking!",
+          visual: "🔗"
         }
       ],
       vocab:[
@@ -82,7 +86,9 @@ window.curriculumData.en_a1 = [
             { w1: "ship", p1: "/ʃɪp/", w2: "sheep", p2: "/ʃiːp/" },
             { w1: "bit", p1: "/bɪt/", w2: "beat", p2: "/biːt/" },
             { w1: "fit", p1: "/fɪt/", w2: "feet", p2: "/fiːt/" }
-          ]
+          ],
+          extension: "The length of the vowel is very important in English. Notice how your mouth stays in a similar position but the sound lasts longer for 'sheep' and 'beat'.",
+          visual: "🚢↔️🐑"
         }
       ],
       vocab:[
@@ -463,6 +469,19 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-11', num:1, title:'My career story — past simple review',
       grammar:'Past simple: regular + irregular review + time expressions (in 2015, after that, then)',
+      pronunciation: [
+        {
+          point: "Past Simple '-ed' Endings",
+          explain: "The suffix '-ed' can be pronounced in three different ways: /t/, /d/, or /ɪd/.",
+          examples: [
+            { pattern: "worked", ipa: "/wɜːkt/", word: "worked" },
+            { pattern: "played", ipa: "/pleɪd/", word: "played" },
+            { pattern: "started", ipa: "/ˈstɑː.tɪd/", word: "started" }
+          ],
+          extension: "Use /ɪd/ only when the base verb ends in 't' or 'd'. For most others, it's just a quick /t/ or /d/ sound.",
+          visual: "⌚"
+        }
+      ],
       vocab:['career','promotion','colleague'],
       verbs:['study','work','move','change','leave','join','start','become'],
       adj:['different','new','old'],
@@ -475,6 +494,18 @@ window.curriculumData.en_a1 = [
       hw:'Write your career history as a timeline with sentences' },
     { code:'A1-12', num:2, title:'What were you doing? — past continuous',
       grammar:'Past continuous: was/were + -ing; contrast with past simple (while, when)',
+      pronunciation: [
+        {
+          point: "Weak forms of 'was' and 'were'",
+          explain: "In sentences, these auxiliary verbs are usually unstressed and sound weak.",
+          examples: [
+            { pattern: "I was", ipa: "/aɪ wəz/", word: "I was working" },
+            { pattern: "They were", ipa: "/ðeɪ wə/", word: "They were talking" }
+          ],
+          extension: "Instead of saying 'WAZ' or 'WERE' strongly, use the schwa sound /ə/ to sound more natural.",
+          visual: "☁️"
+        }
+      ],
       vocab:['while','when','at that moment','suddenly'],
       verbs:['happen','continue','stop','sit','stand','carry'],
       adj:['surprised','worried'],
@@ -487,6 +518,17 @@ window.curriculumData.en_a1 = [
       hw:'Write about what you were doing yesterday at specific times' },
     { code:'A1-13', num:3, title:'I used to… — past habits and states',
       grammar:'Used to + infinitive for past habits and states no longer true',
+      pronunciation: [
+        {
+          point: "The 'used to' Liaison",
+          explain: "The 'd' in 'used' and the 't' in 'to' blend into a single /tu/ sound.",
+          examples: [
+            { pattern: "used to", ipa: "/ˈjuːs.tə/", word: "I used to live..." }
+          ],
+          tip: "It sounds like 'yoos-ta'.",
+          visual: "🔗"
+        }
+      ],
       vocab:['anymore','not anymore','in the past','these days','now'],
       verbs:['used to + any verb'],
       adj:['different','similar'],
@@ -499,6 +541,18 @@ window.curriculumData.en_a1 = [
       hw:'Write a paragraph: "My life before and now"' },
     { code:'A1-14', num:4, title:'Have you ever…? — life experiences',
       grammar:'Present perfect: have/has + past participle + ever/never for experience',
+      pronunciation: [
+        {
+          point: "Been vs Gone",
+          explain: "Differentiate between these two participles in connected speech.",
+          examples: [
+            { pattern: "been", ipa: "/biːn/", word: "I've been to Paris" },
+            { pattern: "gone", ipa: "/ɡɒn/", word: "He's gone to Paris" }
+          ],
+          extension: "'Been' implies a return, while 'Gone' implies the person is still there. Pronunciation is clear: /iː/ vs /ɒ/.",
+          visual: "🛫↔️🛬"
+        }
+      ],
       vocab:['ever','never','once','twice','many times'],
       verbs:['visit','travel','try','meet','see','eat','do'],
       adj:['amazing','fantastic','terrible','interesting'],

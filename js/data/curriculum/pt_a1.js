@@ -17,7 +17,9 @@ window.curriculumData.pt_a1 = [
             {l:'K k', ipa:'/ka/'}, {l:'L l', ipa:'/ɛle/'}, {l:'M m', ipa:'/ɛme/'}, {l:'N n', ipa:'/ɛne/'}, {l:'O o', ipa:'/ɔ/'},
             {l:'P p', ipa:'/pe/'}, {l:'Q q', ipa:'/ke/'}, {l:'R r', ipa:'/ɛʁe/'}, {l:'S s', ipa:'/ɛse/'}, {l:'T t', ipa:'/te/'},
             {l:'U u', ipa:'/u/'}, {l:'V v', ipa:'/ve/'}, {l:'W w', ipa:'/dabliu/'}, {l:'X x', ipa:'/ʃis/'}, {l:'Y y', ipa:'/ipsilɔn/'}, {l:'Z z', ipa:'/ze/'}
-          ]
+          ],
+          extension: "O português é falado em muitos países, e existem diferenças de pronúncia entre o Brasil e Portugal. Aqui focamos na base comum e clara.",
+          visual: "🇵🇹🔤"
         }
       ],
       vocab:[
@@ -40,7 +42,9 @@ window.curriculumData.pt_a1 = [
             { pattern: "ã", ipa: "/ɐ̃/", word: "manhã" },
             { pattern: "ões", ipa: "/õj̃s/", word: "lições" }
           ],
-          tip: "Pense no som do sino: 'tão, tão'."
+          tip: "Pense no som do sino: 'tão, tão'.",
+          extension: "Os sons nasais são uma das características mais marcantes do português. É o que dá à língua o seu som melódico único.",
+          visual: "👃"
         }
       ],
       vocab:[
@@ -81,8 +85,10 @@ window.curriculumData.pt_a1 = [
           minimalPairs: [
             { w1: "filha", p1: "/ˈfi.ʎɐ/", w2: "fila", p2: "/ˈfi.lɐ/" },
             { w1: "banho", p1: "/ˈba.ɲu/", w2: "bano", p2: "/ˈba.nu/" },
-            { w1: "chave", p1: "/ˈʃa.ve/", word: "chá", p2: "/ʃa/" }
-          ]
+            { w1: "chave", p1: "/ˈʃa.ve/", w2: "chá", p2: "/ʃa/" }
+          ],
+          extension: "LH soa como 'li' em 'milhão'. NH soa como 'ni' em 'ninho'. CH soa como 'sh' em 'show'.",
+          visual: "🇵🇹"
         }
       ],
       vocab:[
@@ -128,7 +134,9 @@ window.curriculumData.pt_a1 = [
           examples: [
             { pattern: "excelente", ipa: "/ɐj.sə.ˈlẽ.tə/", word: "excelente" },
             { pattern: "português", ipa: "/puɾ.tu.ˈɡeʃ/", word: "português" }
-          ]
+          ],
+          extension: "Esta redução é a principal diferença entre o português de Portugal (mais 'fechado') e o do Brasil (mais 'aberto'). Ouvir estas diferenças ajuda muito na compreensão auditiva.",
+          visual: "📉"
         }
       ],
       vocab:[
@@ -137,7 +145,38 @@ window.curriculumData.pt_a1 = [
         {w:'português', emoji:'🇵🇹', trans:'Portuguese'}
       ],
       cando:'Can introduce themselves and use basic verbs',
-      hw:'Write a small intro about yourself in Portuguese' }
+      hw:'Write a small intro about yourself in Portuguese' },
+    { code:'PT-02', num:2, title:'O meu trabalho',
+      grammar:'Verbo ter + artigos indefinidos',
+      pronunciation: [
+        {
+          point: "O som do 'X'",
+          explain: "A letra 'x' pode ter vários sons em português: 'sh', 'z', 'ks' ou 's'.",
+          examples: [
+            { pattern: "sh", ipa: "/ʃ/", word: "caixa" },
+            { pattern: "z", ipa: "/z/", word: "exame" },
+            { pattern: "ks", ipa: "/ks/", word: "táxi" }
+          ],
+          tip: "Não há uma regra fixa, é preciso aprender caso a caso!",
+          visual: "✖️"
+        }
+      ]
+    },
+    { code:'PT-03', num:3, title:'A minha casa',
+      grammar:'Verbos de lugar + preposições',
+      pronunciation: [
+        {
+          point: "O 'R' vibrante e o 'RR'",
+          explain: "O 'r' no início da palavra ou o 'rr' no meio é forte e vem da garganta.",
+          examples: [
+            { pattern: "r-", ipa: "/ʁ/", word: "rua" },
+            { pattern: "rr", ipa: "/ʁ/", word: "carro" }
+          ],
+          extension: "Em Portugal, este som é muitas vezes produzido na úvula, de forma semelhante ao 'r' francês ou alemão.",
+          visual: "🦁"
+        }
+      ]
+    }
   ]
 }
 ];

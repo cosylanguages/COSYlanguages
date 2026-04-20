@@ -17,7 +17,9 @@ window.curriculumData.el_a1 = [
             {l:'Λ λ', ipa:'/l/'}, {l:'Μ μ', ipa:'/m/'}, {l:'Ν ν', ipa:'/n/'}, {l:'Ξ ξ', ipa:'/ks/'}, {l:'Ο ο', ipa:'/o/'},
             {l:'Π π', ipa:'/p/'}, {l:'Ρ ρ', ipa:'/r/'}, {l:'Σ σ/ς', ipa:'/s/'}, {l:'Τ τ', ipa:'/t/'}, {l:'Υ υ', ipa:'/i/'},
             {l:'Φ φ', ipa:'/f/'}, {l:'Χ χ', ipa:'/x/'}, {l:'Ψ ψ', ipa:'/ps/'}, {l:'Ω ω', ipa:'/o/'}
-          ]
+          ],
+          extension: "Το ελληνικό αλφάβητο είναι η βάση πολλών επιστημών. Πολλά γράμματα μοιάζουν με τα λατινικά, αλλά οι ήχοι μπορεί να διαφέρουν!",
+          visual: "🇬🇷🔤"
         }
       ],
       vocab:[
@@ -40,7 +42,9 @@ window.curriculumData.el_a1 = [
             { pattern: "αι", ipa: "/e/", word: "και" },
             { pattern: "ου", ipa: "/u/", word: "μου" }
           ],
-          tip: "Όλα τα 'ι', 'η', 'υ', 'ει', 'οι' ακούγονται ίδια: /i/!"
+          tip: "Όλα τα 'ι', 'η', 'υ', 'ει', 'οι' ακούγονται ίδια: /i/!",
+          extension: "Αυτή η ιστορική ορθογραφία είναι που κάνει τα ελληνικά να φαίνονται δύσκολα, αλλά η προφορά είναι πάντα σταθερή.",
+          visual: "🔠"
         }
       ],
       vocab:[
@@ -82,7 +86,9 @@ window.curriculumData.el_a1 = [
             { w1: "ντομάτα", p1: "/do.ˈma.ta/", w2: "τόπος", p2: "/ˈto.pos/" },
             { w1: "μπύρα", p1: "/ˈbi.ra/", w2: "πόλη", p2: "/ˈpo.li/" },
             { w1: "γκολ", p1: "/ɡol/", w2: "καλό", p2: "/ka.ˈlo/" }
-          ]
+          ],
+          extension: "Τα 'μπ', 'ντ', 'γκ' χρησιμοποιούνται συχνά για ήχους που δεν υπήρχαν στα αρχαία ελληνικά, ειδικά σε ξένες λέξεις.",
+          visual: "🍅🍺"
         }
       ],
       vocab:[
@@ -138,7 +144,8 @@ window.curriculumData.el_a1 = [
             { pattern: "Ε, ε / ΑΙ, αι", ipa: "/e/", word: "ναι" },
             { pattern: "Η, η / Ι, ι / Υ, υ", ipa: "/i/", word: "είμαι" }
           ],
-          tip: "Vowels are always short and clear in Greek."
+          extension: "Η ελληνική γλώσσα είναι πολύ σταθερή στην προφορά της. Παρόλο που υπάρχουν πολλοί τρόποι να γράψεις τον ήχο /i/, η προφορά παραμένει η ίδια.",
+          visual: "👄"
         }
       ],
       vocab:[
@@ -168,7 +175,9 @@ window.curriculumData.el_a1 = [
             { pattern: "Δ, δ", ipa: "/ð/", word: "δουλειά" },
             { pattern: "Θ, θ", ipa: "/θ/", word: "θέλω" }
           ],
-          tip: "Γ is like a soft gargle; Δ is like 'th' in 'this'; Θ is like 'th' in 'think'."
+          tip: "Γ is like a soft gargle; Δ is like 'th' in 'this'; Θ is like 'th' in 'think'.",
+          extension: "Αυτά τα σύμφωνα δίνουν στα ελληνικά τον ιδιαίτερο ήχο τους. Χρειάζονται συνεχή ροή αέρα για να προφερθούν σωστά.",
+          visual: "💨"
         }
       ],
       vocab:[
@@ -189,6 +198,18 @@ window.curriculumData.el_a1 = [
       hw:'Λίστα με 10 αντικείμενα γραφείου' },
     { code:'EL-03', num:3, title:'Πού μένω — το σπίτι μου',
       grammar:'Ρήμα "μένω" + Προθέσεις τόπου (σε, από)',
+      pronunciation: [
+        {
+          point: "The Sound 'Χ'",
+          explain: "Like 'h' in English but stronger, or like 'ch' in Scottish 'loch'.",
+          examples: [
+            { pattern: "χα, χο, χυ", ipa: "/x/", word: "χαρά" },
+            { pattern: "χε, χι", ipa: "/ç/", word: "χέρι" }
+          ],
+          extension: "Το 'Χ' αλλάζει ήχο ανάλογα με το φωνήεν που ακολουθεί. Πριν από 'ε' και 'ι' γίνεται πιο μαλακό.",
+          visual: "🧣"
+        }
+      ],
       vocab:['διαμέρισμα','σπίτι','πόλη','οδός','όροφος'],
       verbs:['μένω','ζω'],
       adj:['μεγάλος','μικρός','μοντέρνος'],

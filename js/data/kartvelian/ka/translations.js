@@ -1008,7 +1008,15 @@
             open_vocab_ref: "ლექსიკონის გახსნა 📖",
             flashcards_quiz_btn: "ბარათები და ქვიზი 🚀",
             question_about_lesson: "გაქვთ კითხვა გაკვეთილთან დაკავშირებით?",
-            message_teacher_fast: "მიწერეთ თქვენს მასწავლებელს — ჩვენ სწრაფად გიპასუხებთ."
+            message_teacher_fast: "მიწერეთ თქვენს მასწავლებელს — ჩვენ სწრაფად გიპასუხებთ.",
+            "pronunciation_tab": "გამოთქმა",
+            "full_pronunciation_guide": "გამოთქმის სრული სახელმძღვანელო 🗣️",
+            "pronunciation_reference_title": "გამოთქმის ცნობარი 🗣️",
+            "pronunciation_reference_subtitle": "დაეუფლეთ ენის ბგერებს, რიტმს და ინტონაციას.",
+            "pronunciation_rules_title": "წესები და ნიმუშები 📖",
+            "pronunciation_extension_title": "პედაგოგიური შენიშვნები 💡",
+            "pronunciation_visual_title": "ვიზუალური სახელმძღვანელო 🖼️",
+            "wtd_pronunciation": "ყურადღებით მოუსმინეთ ბგერებს და ნიმუშებს."
         }
     };
     window.translations = window.translations || {};

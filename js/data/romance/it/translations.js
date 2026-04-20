@@ -1223,7 +1223,15 @@
             "auto_speak_defs": "Auto-speak",
             "auto_speak_desc": "Auto play audio",
             "save_close": "Save",
-            "cat_pronunciation": "Pronunciation"
+            "cat_pronunciation": "Pronunciation",
+            "pronunciation_tab": "Pronuncia",
+            "full_pronunciation_guide": "Guida completa alla pronuncia 🗣️",
+            "pronunciation_reference_title": "Riferimento di pronuncia 🗣️",
+            "pronunciation_reference_subtitle": "Padroneggia i suoni, il ritmo e l'intonazione della lingua.",
+            "pronunciation_rules_title": "Regole e Modelli 📖",
+            "pronunciation_extension_title": "Note pedagogiche 💡",
+            "pronunciation_visual_title": "Guida visuale 🖼️",
+            "wtd_pronunciation": "Ascolta attentamente i suoni e i modelli."
         }
     };
     window.translations = window.translations || {};

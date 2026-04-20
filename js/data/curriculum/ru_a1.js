@@ -19,7 +19,9 @@ window.curriculumData.ru_a1 = [
             {l:'У', ipa:'/u/'}, {l:'Ф', ipa:'/f/'}, {l:'Х', ipa:'/x/'}, {l:'Ц', ipa:'/ts/'}, {l:'Ч', ipa:'/tɕ/'},
             {l:'Ш', ipa:'/ʂ/'}, {l:'Щ', ipa:'/ɕː/'}, {l:'Ъ', ipa:'-'}, {l:'Ы', ipa:'/ɨ/'}, {l:'Ь', ipa:'-'},
             {l:'Э', ipa:'/e/'}, {l:'Ю', ipa:'/ju/'}, {l:'Я', ipa:'/ja/'}
-          ]
+          ],
+          extension: "Кириллица может показаться сложной, но она очень логична. Как только вы выучите буквы, вы сможете прочитать любое русское слово!",
+          visual: "🇷🇺🔤"
         }
       ],
       vocab:[
@@ -42,7 +44,9 @@ window.curriculumData.ru_a1 = [
             { pattern: "Молоко", ipa: "/məlɐˈko/", word: "молоко" },
             { pattern: "Россия", ipa: "/rɐˈsʲijə/", word: "Россия" }
           ],
-          tip: "Слушайте ударение — это меняет звук 'О'!"
+          tip: "Слушайте ударение — это меняет звук 'О'!",
+          extension: "Это явление называется 'аканье'. Оно делает русскую речь более мягкой и мелодичной. Ударный слог всегда долгий и четкий.",
+          visual: "🅾️➡️🅰️"
         }
       ],
       vocab:[
@@ -84,7 +88,9 @@ window.curriculumData.ru_a1 = [
             { w1: "мат", p1: "/mat/", w2: "мать", p2: "/matʲ/" },
             { w1: "брат", p1: "/brat/", w2: "брать", p2: "/bratʲ/" },
             { w1: "угол", p1: "/ˈuɡəl/", w2: "уголь", p2: "/ˈuɡəlʲ/" }
-          ]
+          ],
+          extension: "Разница между твердыми и мягкими согласными очень важна! Например, 'мат' — это нехорошее слово, а 'мать' — это мама.",
+          visual: "🧊☁️"
         }
       ],
       vocab:[
@@ -140,7 +146,8 @@ window.curriculumData.ru_a1 = [
             { pattern: "О", ipa: "/o/", word: "кот" },
             { pattern: "И", ipa: "/i/", word: "вид" }
           ],
-          tip: "Vowels change sound significantly when they are not stressed."
+          extension: "Русские гласные очень четкие под ударением, но сильно меняются в безударном положении. Это одна из главных сложностей для иностранцев.",
+          visual: "👄"
         }
       ],
       vocab:[
@@ -170,7 +177,9 @@ window.curriculumData.ru_a1 = [
             { pattern: "о", ipa: "/xa.ra.'ʃo/", word: "хорошо" },
             { pattern: "о", ipa: "/'o.kna/", word: "окна" }
           ],
-          tip: "Listen for the stress! Only the stressed 'O' sounds like 'O'."
+          tip: "Listen for the stress! Only the stressed 'O' sounds like 'O'.",
+          extension: "Это явление называется 'аканье'. Оно делает русскую речь более мягкой и мелодичной.",
+          visual: "🅾️➡️🅰️"
         }
       ],
       vocab:[
@@ -190,7 +199,20 @@ window.curriculumData.ru_a1 = [
       cando:'Может говорить о своей работе',
       hw:'Выучить названия 10 профессий' },
     { code:'RU-03', num:3, title:'Мой дом и мой город',
-      grammar:'Притяжательные местоимения (мой, твой, его)',
+      grammar:'Притяжательные местоиμεния (мой, твой, его)',
+      pronunciation: [
+        {
+          point: "The Sound 'Ы'",
+          explain: "A unique Russian sound. Imagine someone hit you in the stomach!",
+          examples: [
+            { pattern: "ы", ipa: "/ɨ/", word: "мы" },
+            { pattern: "ы", ipa: "/tɨ/", word: "ты" },
+            { pattern: "ы", ipa: "/vɨ/", word: "вы" }
+          ],
+          extension: "Чтобы произнести 'Ы', отодвиньте язык назад, как будто хотите сказать 'И', но глубже в горле.",
+          visual: "🥊"
+        }
+      ],
       vocab:['дом','квартира','город','улица','центр'],
       verbs:['жить'],
       adj:['большой','маленький','новый'],
