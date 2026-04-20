@@ -603,14 +603,30 @@
                     ${p.point} <span class="gram-tag">${p.tag || ''}</span>
                 </div>
                 <p class="gram-explain">${p.explain || ''}</p>
+
+                ${p.image ? `<div class="gram-img-box" style="margin-bottom:1rem;"><img src="${p.image}" alt="${p.point}" class="gram-image" style="max-width:100%; border-radius:var(--radius-sm); border:1.5px solid var(--border);"></div>` : ''}
+
                 ${p.rule ? `<div class="gram-rule">${p.rule}</div>` : ''}
 
+                ${p.fullTable ? `
+                <div class="gtable-container" style="margin-bottom: 1rem;">
+                <table class="gtable gram-ext-table">
+                    ${p.fullTable.map((row, rIdx) => `
+                        <tr class="${rIdx === 0 ? 'section-row' : ''}">
+                            ${row.map(cell => `<td class="${rIdx === 0 ? 'content' : 'content-l'}" style="${rIdx === 0 ? 'font-weight:900; text-align:left;' : ''}">${cell}</td>`).join('')}
+                        </tr>
+                    `).join('')}
+                </table>
+                </div>
+                ` : ''}
+
+                ${(p.examples && p.examples.length) ? `
                 <table class="gtable" style="margin-bottom: 1rem;">
                     <thead>
                         <tr class="section-row"><th colspan="2" style="text-align: left;" data-translate-key="examples_label">${t('examples_label') || 'Examples'}</th></tr>
                     </thead>
                     <tbody>
-                        ${(p.examples || []).map(ex => `
+                        ${p.examples.map(ex => `
                             <tr class="example-row">
                                 <td class="content-l">${ex.t}</td>
                                 <td class="content-l" style="font-style: italic; opacity: 0.7;">${ex.e}</td>
@@ -618,8 +634,17 @@
                         `).join('')}
                     </tbody>
                 </table>
+                ` : ''}
 
                 ${p.tip ? `<div class="gram-tip">${p.tip}</div>` : ''}
+
+                ${p.extension ? `
+                <div class="gram-ext" style="margin-top:1rem; padding:1rem; background:var(--paper); border-radius:var(--radius-sm); border-left:4px solid var(--sienna); box-shadow:var(--shadow);">
+                    <div class="tp-label" style="color:var(--sienna); font-size:0.65rem; margin-bottom:0.4rem;">🚀 ADVANCED EXTENSION</div>
+                    <p class="gram-explain" style="margin-bottom:0; font-size:0.85rem;">${p.extension}</p>
+                </div>
+                ` : ''}
+
                 <div class="vocab-actions">
                     <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=grammar&theme=${encodeURIComponent(p.practiceTheme || p.point || '')}" class="plink hi">
                         Practice this point 🎯
