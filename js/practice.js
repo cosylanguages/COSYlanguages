@@ -1278,10 +1278,16 @@ async function loadPracticeData(lang, level, cat) {
     const familyPath = LANG_PATH_MAP[lang];
     if (!familyPath) return;
 
+    if (cat === 'pronunciation') {
+        const dataKey = `${lang.toLowerCase()}_a1`;
+        await loadScript(`js/data/curriculum/${dataKey}.js`);
+    }
+
     const categories = {
         'vocab': ['vocabulary', 'locations', 'people', 'nationalities'],
         'grammar': ['grammar', 'verbs', 'adjectives'],
-        'speaking': ['speaking']
+        'speaking': ['speaking'],
+        'pronunciation': []
     };
 
     const files = categories[cat] || [];
@@ -1387,6 +1393,43 @@ async function startPractice(isWheelMode = false) {
             item.aspect || item.auxiliary || item.form === 'adjective'
         );
         rawItems = expandGrammarItems([...gd, ...vd], lang);
+    } else if (selectedCat === 'pronunciation') {
+        const dataKey = `${lang.toLowerCase()}_a1`;
+        const curr = (window.curriculumData && window.curriculumData[dataKey]) || [];
+        curr.forEach(unit => {
+            (unit.lessons || []).forEach(lesson => {
+                if (lesson.pronunciation) {
+                    lesson.pronunciation.forEach(p => {
+                        if (p.alphabet) {
+                            p.alphabet.forEach(a => rawItems.push({
+                                word: a.l, trans: a.ipa, emoji: '🔤', type: 'type-ls', theme: p.point, level: 'starter'
+                            }));
+                        }
+                        if (p.minimalPairs) {
+                            p.minimalPairs.forEach(mp => {
+                                rawItems.push({
+                                    word: mp.w1, trans: mp.p1, emoji: '👂', type: 'type-mc', theme: p.point, level: 'starter',
+                                    distractors: [mp.w2]
+                                });
+                                rawItems.push({
+                                    word: mp.w2, trans: mp.p2, emoji: '👂', type: 'type-mc', theme: p.point, level: 'starter',
+                                    distractors: [mp.w1]
+                                });
+                            });
+                        }
+                        if (p.examples) {
+                            p.examples.forEach(ex => rawItems.push({
+                                word: ex.word, trans: ex.ipa, emoji: '🗣️', type: 'type-cl', theme: p.point, level: 'starter',
+                                primaryPrompt: ex.pattern, clozeText: `Pattern ${ex.pattern}: ____`
+                            }));
+                        }
+                    });
+                }
+            });
+        });
+        // Also add some general vocab with phonetics if available
+        const vd = (vocabularyData[lang] || []).filter(v => v.phon);
+        vd.forEach(v => rawItems.push({ ...v, type: 'type-ls' }));
     } else {
         rawItems = [...(vocabularyData[lang] || [])];
 

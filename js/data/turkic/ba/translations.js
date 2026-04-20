@@ -1012,7 +1012,15 @@
             open_vocab_ref: "Otvori vokabular 📖",
             flashcards_quiz_btn: "Kartice i kviz 🚀",
             question_about_lesson: "Imate li pitanje o lekciji?",
-            message_teacher_fast: "Pošaljite poruku nastavniku — odgovaramo brzo."
+            message_teacher_fast: "Pošaljite poruku nastavniku — odgovaramo brzo.",
+            "pronunciation_tab": "Әйթелеш",
+            "full_pronunciation_guide": "Тулы әйթелеш ҡулланмаһы 🗣️",
+            "pronunciation_reference_title": "Әйթелеш белешмәһе 🗣️",
+            "pronunciation_reference_subtitle": "Телдең өндәрен, ритмын һәм интонацияһын үҙләштерегеҙ.",
+            "pronunciation_rules_title": "Ҡағиҙәләр һәм өлгөләр 📖",
+            "pronunciation_extension_title": "Педагогик иҫкәрмәләр 💡",
+            "pronunciation_visual_title": "Күргәҙмә ҡулланμα 🖼️",
+            "wtd_pronunciation": "Өндәргә һәм өлгөләргә иғтибар менән тыңлағыҙ."
         }
     };
     window.translations = window.translations || {};

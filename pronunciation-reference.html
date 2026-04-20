@@ -4,13 +4,14 @@
 <script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="days.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pronunciation Reference — COSYlanguages</title>
+<title>Pronunciation Engine — COSYlanguages</title>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <script src="js/data/curriculum_data.js"></script>
+<script src="js/games/utils/shared.js"></script>
 <style>
 /* ══════════════════════════════════════════
-   DESIGN TOKENS — identical to grammar ref
+   DESIGN TOKENS & THEMES
 ══════════════════════════════════════════ */
 :root {
   --teal:    #00B5A3;
@@ -24,21 +25,51 @@
   --green:   #2ECC40;
   --blue:    #0074D9;
   --cream:   #FFFDF5;
-  /* level colours */
-  --a1: #2ECC40;
-  --a2: #0074D9;
-  --b1: #FF6B1A;
-  --b2: #9B59B6;
-  --c1: #CE2B37;
-  --c2: #111111;
+  --sky:     #3B82F6;
+  --sky-lt:  #DBEAFE;
+
+  /* theme defaults (Earth) */
+  --bg: var(--teal);
+  --sidebar-bg: var(--teal-dk);
+  --card-bg: var(--teal);
+  --text: var(--black);
+  --header-bg: var(--black);
+  --header-text: var(--white);
+  --border: var(--black);
+  --shadow: var(--black);
 }
+
+body.theme-paper {
+  --bg: #F4F1EA;
+  --sidebar-bg: #E8E4D8;
+  --card-bg: #FFFFFF;
+  --text: #2C2C2C;
+  --header-bg: #2C2C2C;
+  --header-text: #F4F1EA;
+  --border: #4A4A4A;
+  --shadow: rgba(0,0,0,0.1);
+}
+
+body.theme-contrast {
+  --bg: #000000;
+  --sidebar-bg: #1A1A1A;
+  --card-bg: #1A1A1A;
+  --text: #FFFFFF;
+  --header-bg: #FFFFFF;
+  --header-text: #000000;
+  --border: #FFFFFF;
+  --shadow: transparent;
+  --teal: #00FFCC;
+  --yellow: #FFFF00;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--black); min-height: 100vh; }
+body { font-family: 'Nunito', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; transition: all 0.3s ease; }
 
 /* ── Header ── */
 .page-header {
-  background: var(--black); color: var(--white);
+  background: var(--header-bg); color: var(--header-text);
   padding: 1rem 2rem; display: flex; align-items: center;
   justify-content: space-between; flex-wrap: wrap; gap: .8rem;
   position: sticky; top: 0; z-index: 300;
@@ -54,408 +85,353 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal); color: var(--
   cursor: pointer; transition: all .18s;
 }
 .lang-tab.active { background: var(--teal); border-color: var(--teal); color: var(--black); }
-.lang-tab:hover  { background: var(--teal-dk); border-color: var(--teal-dk); }
+.lang-tab:hover  { background: var(--teal-lt); border-color: var(--teal-lt); }
 
 /* ── Layout ── */
 .layout { display: grid; grid-template-columns: 250px 1fr; min-height: calc(100vh - 64px); }
 
 /* ── Sidebar ── */
 .sidebar {
-  background: var(--teal-dk); padding: 1.5rem 0;
-  border-right: 3px solid var(--black);
+  background: var(--sidebar-bg); padding: 1.5rem 0;
+  border-right: 3px solid var(--border);
   position: sticky; top: 67px; height: calc(100vh - 67px); overflow-y: auto;
 }
 .sidebar-section { margin-bottom: .3rem; }
 .sidebar-label {
   font-size: .62rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase;
-  color: rgba(255,255,255,.55); padding: .8rem 1.2rem .3rem;
+  color: var(--text); opacity: 0.5; padding: .8rem 1.2rem .3rem;
 }
 .sidebar-item {
   display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700;
-  color: rgba(255,255,255,.85); cursor: pointer; border-left: 3px solid transparent;
+  color: var(--text); cursor: pointer; border-left: 3px solid transparent;
   transition: all .15s; text-decoration: none;
 }
-.sidebar-item:hover { background: rgba(0,0,0,.15); color: #fff; }
-.sidebar-item.active { border-left-color: var(--yellow); background: rgba(0,0,0,.2); color: var(--yellow); }
+.sidebar-item:hover { background: rgba(0,0,0,.05); color: var(--text); }
+.sidebar-item.active { border-left-color: var(--yellow); background: rgba(0,0,0,.1); font-weight: 900; }
 
 /* ── Main ── */
-.main { padding: 2rem; background: var(--teal); }
-
-/* Language block */
-.lang-block { display: none; }
-.lang-block.show { display: block; }
+.main { padding: 2rem; background: var(--bg); max-width: 900px; margin: 0 auto; }
 
 /* Section title */
 .section-title {
-  font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700;
-  color: var(--black); margin-bottom: 1.2rem; padding-bottom: .5rem;
-  border-bottom: 3px solid var(--black); display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
+  font-family: 'Lora', serif; font-size: 1.8rem; font-weight: 700;
+  color: var(--text); margin-bottom: 1.2rem; padding-bottom: .5rem;
+  border-bottom: 3px solid var(--border); display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
 }
-
-/* Level divider */
-.level-divider {
-  display: flex; align-items: center; gap: .8rem; margin: 2rem 0 1.1rem;
-}
-.level-badge {
-  display: inline-flex; align-items: center; gap: .4rem;
-  color: #fff; font-size: .8rem; font-weight: 900; letter-spacing: .08em;
-  text-transform: uppercase; padding: .35rem 1rem; border-radius: 999px;
-}
-.level-badge.a1 { background: var(--a1); }
-.level-badge.a2 { background: var(--a2); }
-.level-badge.b1 { background: var(--b1); }
-.level-badge.b2 { background: var(--b2); }
-.level-badge.c1 { background: var(--c1); }
-.level-badge.c2 { background: var(--c2); }
-.level-divider hr { flex: 1; border: none; border-top: 2.5px solid rgba(0,0,0,.2); }
-.level-desc { font-size: .8rem; font-weight: 700; color: rgba(0,0,0,.55); }
 
 /* ── Card ── */
 .card {
-  background: var(--teal); border: 3px solid var(--black); border-radius: 4px;
-  margin-bottom: 1.5rem; overflow: hidden; box-shadow: 5px 5px 0 var(--black);
+  background: var(--card-bg); border: 3px solid var(--border); border-radius: 12px;
+  margin-bottom: 2rem; overflow: hidden; box-shadow: 6px 6px 0 var(--border);
+  transition: transform 0.2s ease;
 }
+.card:hover { transform: translateY(-2px); }
+
 .card-title {
-  background: var(--black); color: var(--white); font-family: 'Lora', serif;
-  font-size: 1.05rem; font-weight: 700; padding: .65rem 1.1rem;
-  text-align: center; letter-spacing: .02em;
-  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .6rem;
+  background: var(--border); color: var(--white); font-family: 'Lora', serif;
+  font-size: 1.1rem; font-weight: 700; padding: .8rem 1.2rem;
+  display: flex; align-items: center; gap: .8rem;
 }
-.card-title .lvl-dot {
-  width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
-}
-.lvl-dot.a1 { background: var(--a1); }
-.lvl-dot.a2 { background: var(--a2); }
-.lvl-dot.b1 { background: var(--b1); }
-.lvl-dot.b2 { background: var(--b2); }
-.lvl-dot.c1 { background: var(--c1); }
-.lvl-dot.c2 { background: var(--c2); }
+.card-body { padding: 1.5rem; }
 
 /* Grammar table style tables */
-.gtable { width: 100%; border-collapse: collapse; }
-.gtable tr:hover td { background: rgba(0,0,0,0.03); }
-.gtable td { border: 2px solid var(--black); padding: .6rem .9rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.4; transition: background 0.1s; }
-.gtable .row-label { background: var(--black); color: var(--white); font-size: .82rem; font-weight: 800; text-align: left; padding: .5rem 1rem; white-space: nowrap; }
-.gtable td.content { background: var(--teal); font-size: .95rem; }
-.gtable td.content-l { background: var(--teal); font-size: .95rem; text-align: left; }
-.section-row td { background: rgba(0,0,0,0.18); color: var(--white); font-size: 0.82rem; font-weight: 900; letter-spacing: 0.05em; text-transform: uppercase; text-align: left; padding: 0.45rem 1rem; border-color: var(--black); }
-.note-row td { background: rgba(0,0,0,0.12); font-size: 0.86rem; font-weight: 700; text-align: center; padding: 0.55rem 1rem; font-style: italic; }
+.gtable { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+.gtable td, .gtable th { border: 2px solid var(--border); padding: .7rem 1rem; font-size: .92rem; font-weight: 700; vertical-align: middle; line-height: 1.4; }
+.gtable th { background: rgba(0,0,0,0.05); text-align: left; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
 
 /* Phonetic-specific helpers */
 .ipa  { font-family: 'Lora', serif; font-style: italic; color: var(--blue); font-weight: 700; }
-.snd  { color: var(--yellow); font-weight: 900; font-size: 1.05em; }
-.ex   { color: var(--orange); font-weight: 800; }
-.mute { color: var(--red); font-weight: 900; text-decoration: line-through; }
-.hi   { background: rgba(255,225,53,.45); border-radius: 3px; padding: 0 .2rem; font-weight: 900; }
-.lnk  { color: var(--blue); font-weight: 900; }
+.ex   { color: var(--orange); font-weight: 800; cursor: pointer; }
+.ex:hover { text-decoration: underline; }
+.hi   { background: rgba(255,225,53,.3); border-radius: 3px; padding: 0 .2rem; }
 
-/* Tip box */
+/* Tip box & Extension */
+.extension-box {
+  background: var(--sky-lt); border-left: 5px solid var(--sky);
+  padding: 1rem; margin-top: 1rem; font-size: .88rem; font-weight: 700;
+  color: var(--sky); border-radius: 0 8px 8px 0;
+}
 .tip-box {
-  border: 2.5px solid var(--black); border-top: none;
-  background: rgba(255,255,255,.15); padding: .75rem 1.1rem;
-  font-size: .83rem; font-weight: 700; line-height: 1.6;
+  background: #FFFBEB; border: 2px dashed var(--orange);
+  padding: 0.8rem; margin: 1rem 0; font-size: 0.85rem; border-radius: 8px; color: var(--orange);
 }
 
 /* Alphabet grid */
 .alpha-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(86px,1fr)); gap: .5rem; padding: 1rem;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(70px,1fr)); gap: .6rem; margin-bottom: 1rem;
 }
 .alpha-cell {
-  border: 2.5px solid var(--black); border-radius: 4px; background: var(--white);
+  border: 2px solid var(--border); border-radius: 8px; background: var(--white);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  padding: .55rem .3rem; text-align: center; min-height: 72px;
+  padding: .6rem; text-align: center; cursor: pointer; transition: all 0.2s;
+  color: var(--black);
 }
-.alpha-cell .letter { font-size: 1.5rem; font-weight: 900; line-height: 1; }
-.alpha-cell .letter-sm { font-size: .95rem; font-weight: 800; color: rgba(0,0,0,.5); }
-.alpha-cell .ipa-sm  { font-family: 'Lora', serif; font-style: italic; font-size: .75rem; color: var(--blue); margin-top: .2rem; }
-.alpha-cell .eng-sm  { font-size: .7rem; font-weight: 700; color: rgba(0,0,0,.45); margin-top: .15rem; }
-.alpha-cell.highlight { background: var(--yellow); border-color: var(--black); }
-.alpha-cell.tricky    { background: rgba(255,65,54,.12); }
+.alpha-cell:hover { background: var(--yellow); transform: scale(1.05); }
+.alpha-cell .letter { font-size: 1.4rem; font-weight: 900; }
+.alpha-cell .ipa-sm  { font-family: 'Lora', serif; font-style: italic; font-size: .7rem; color: var(--blue); }
 
-/* Sound demo rows */
-.sound-row {
-  display: grid; grid-template-columns: 130px 1fr 1fr; border-bottom: 2px solid var(--black);
+/* Practice button */
+.btn-practice {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--yellow); color: var(--black); border: 2px solid var(--border);
+  padding: 0.5rem 1rem; border-radius: 999px; font-weight: 800; font-size: 0.85rem;
+  cursor: pointer; text-decoration: none; margin-top: 0.5rem;
 }
-.sound-row:last-child { border-bottom: none; }
-.sound-cell { padding: .6rem .9rem; font-size: .92rem; font-weight: 700; border-right: 2px solid var(--black); }
-.sound-cell:last-child { border-right: none; }
-.sound-cell.head { background: var(--black); color: #fff; font-size: .8rem; font-weight: 900; letter-spacing: .04em; }
-.sound-cell.label-cell { background: rgba(0,0,0,0.08); }
-
-/* Stress marker */
-.stress { text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--red); text-underline-offset: 3px; font-weight: 900; }
-
-/* Progress nav */
-.level-nav {
-  display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.5rem;
-}
-.level-nav-btn {
-  border: 2.5px solid var(--black); border-radius: 999px;
-  font-family: 'Nunito', sans-serif; font-size: .78rem; font-weight: 800;
-  padding: .25rem .85rem; cursor: pointer; transition: all .15s; color: #fff;
-}
-.level-nav-btn:hover { opacity: .8; }
-.level-nav-btn.a1 { background: var(--a1); }
-.level-nav-btn.a2 { background: var(--a2); }
-.level-nav-btn.b1 { background: var(--b1); }
-.level-nav-btn.b2 { background: var(--b2); }
-.level-nav-btn.c1 { background: var(--c1); }
-.level-nav-btn.c2 { background: var(--c2); }
+.btn-practice:hover { background: var(--white); }
 
 @media (max-width: 820px) {
   .layout { grid-template-columns: 1fr; }
   .sidebar { display: none; }
-  .sound-row { grid-template-columns: 100px 1fr; }
 }
 </style>
 </head>
 <body>
 
-<!-- ══ PAGE HEADER ══ -->
 <div class="page-header">
   <div>
-    <a href="days.html" style="text-decoration: none; color: inherit;"><div class="breadcrumb">Student Area 🔒</div></a>
+    <a href="days.html" style="text-decoration: none; color: inherit;"><div class="breadcrumb">Student Area 🔑</div></a>
     <h1>Pronunciation Reference 🔊</h1>
   </div>
   <div class="lang-tabs" id="lang-tabs">
-    <button class="lang-tab active" data-lang="en" onclick="setLang('en',this)">🇬🇧 EN</button>
-    <button class="lang-tab"        data-lang="fr" onclick="setLang('fr',this)">🇫🇷 FR</button>
-    <button class="lang-tab"        data-lang="it" onclick="setLang('it',this)">🇮🇹 IT</button>
-    <button class="lang-tab"        data-lang="ru" onclick="setLang('ru',this)">🇷🇺 RU</button>
-    <button class="lang-tab"        data-lang="el" onclick="setLang('el',this)">🇬🇷 EL</button>
-    <button class="lang-tab"        data-lang="es" onclick="setLang('es',this)">🇪🇸 ES</button>
-    <button class="lang-tab"        data-lang="de" onclick="setLang('de',this)">🇩🇪 DE</button>
-    <button class="lang-tab"        data-lang="pt" onclick="setLang('pt',this)">🇵🇹 PT</button>
+    <!-- Buttons filled from curriculum_data.js -->
   </div>
 </div>
 
 <div class="layout">
-
-<!-- ══ SIDEBAR ══ -->
-<nav class="sidebar" id="sidebar">
-  <!-- filled dynamically -->
-</nav>
-
-<!-- ══ MAIN ══ -->
-<main class="main" id="main-content">
-
-<!-- 🇬🇧 ENGLISH -->
-<div class="lang-block show" id="lang-en" data-lang="en">
-  <div class="section-title">🇬🇧 English — Pronunciation</div>
-  <div class="level-nav">
-    <button class="level-nav-btn a1" onclick="scrollToId('en-a1')">A1 Basics</button>
-    <button class="level-nav-btn a2" onclick="scrollToId('en-a2')">A2 Patterns</button>
-    <button class="level-nav-btn b1" onclick="scrollToId('en-b1')">B1 Schwa & Stress</button>
-    <button class="level-nav-btn b2" onclick="scrollToId('en-b2')">B2 Connections</button>
-  </div>
-
-  <div class="level-divider" id="en-a1" data-level="a1"><span class="level-badge a1">A1 — Beginner</span><hr><span class="level-desc">Alphabet & Core Sounds</span></div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Basic Vowel Sounds</div>
-    <div class="sound-row"><div class="sound-cell head">Pattern</div><div class="sound-cell head">IPA</div><div class="sound-cell head">Examples</div></div>
-    <div class="sound-row"><div class="sound-cell label-cell">short A</div><div class="sound-cell ipa">/æ/</div><div class="sound-cell ex">c<span class="hi">a</span>t, h<span class="hi">a</span>t</div></div>
-    <div class="sound-row"><div class="sound-cell label-cell">long A</div><div class="sound-cell ipa">/eɪ/</div><div class="sound-cell ex">c<span class="hi">a</span>ke, n<span class="hi">a</span>me</div></div>
-    <div class="sound-row"><div class="sound-cell label-cell">short E</div><div class="sound-cell ipa">/e/</div><div class="sound-cell ex">r<span class="hi">e</span>d, b<span class="hi">e</span>d</div></div>
-    <div class="sound-row"><div class="sound-cell label-cell">long E</div><div class="sound-cell ipa">/i:/</div><div class="sound-cell ex">s<span class="hi">ee</span>, m<span class="hi">e</span></div></div>
-  </div>
-
-  <div class="level-divider" id="en-a2" data-level="a2"><span class="level-badge a2">A2 — Elementary</span><hr><span class="level-desc">Common Patterns</span></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a2"></span> Digraphs</div><table class="gtable"><tr><td class="row-label">TH</td><td class="content"><span class="ipa">/θ/</span> <span class="ex">think</span> or <span class="ipa">/ð/</span> <span class="ex">the</span></td></tr><tr><td class="row-label">CH</td><td class="content"><span class="ipa">/tʃ/</span> <span class="ex">chair, cheese</span></td></tr><tr><td class="row-label">SH</td><td class="content"><span class="ipa">/ʃ/</span> <span class="ex">shoe, shop</span></td></tr></table></div>
-
-  <div class="level-divider" id="en-b1" data-level="b1"><span class="level-badge b1">B1 — Intermediate</span><hr><span class="level-desc">Stress & The Schwa</span></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot b1"></span> The Schwa /ə/</div><div class="tip-box">The most common sound in English! Used in unstressed syllables.</div><table class="gtable"><tr><td class="row-label">About</td><td class="content"><span class="ipa">/ə'baʊt/</span></td></tr><tr><td class="row-label">Teacher</td><td class="content"><span class="ipa">/'ti:tʃə/</span></td></tr></table></div>
-</div>
-
-<!-- 🇫🇷 FRENCH -->
-<div class="lang-block" id="lang-fr" data-lang="fr">
-  <div class="section-title">🇫🇷 Français — Prononciation</div>
-  <div class="level-divider" id="fr-a1" data-level="a1"><span class="level-badge a1">A1 — Débutant</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Silent Final Consonants</div><div class="tip-box">Most final consonants are NOT pronounced (exceptions: C, R, F, L).</div><table class="gtable"><tr><td class="row-label">T, S, X, Z</td><td class="content">Salu<span class="mute">t</span>, Pari<span class="mute">s</span>, Deu<span class="mute">x</span>, Ne<span class="mute">z</span></td></tr></table></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Les Accents</div><div class="sound-row"><div class="sound-cell head">Accent</div><div class="sound-cell head">Sound</div><div class="sound-cell head">Examples</div></div><div class="sound-row"><div class="sound-cell label-cell">é (aigu)</div><div class="sound-cell ipa">/e/</div><div class="sound-cell ex">caf<span class="hi">é</span>, ét<span class="hi">é</span></div></div><div class="sound-row"><div class="sound-cell label-cell">è (grave)</div><div class="sound-cell ipa">/ɛ/</div><div class="sound-cell ex">tr<span class="hi">è</span>s, m<span class="hi">è</span>re</div></div></div>
-</div>
-
-<!-- 🇮🇹 ITALIAN -->
-<div class="lang-block" id="lang-it" data-lang="it">
-  <div class="section-title">🇮🇹 Italiano — Pronuncia</div>
-  <div class="level-divider" id="it-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The C and G Rules</div><table class="gtable"><tr><td class="row-label">Hard (A, O, U)</td><td class="content"><span class="ipa">/k/</span> c<span class="hi">a</span>sa, c<span class="hi">o</span>sa | <span class="ipa">/g/</span> g<span class="hi">a</span>tto</td></tr><tr><td class="row-label">Soft (E, I)</td><td class="content"><span class="ipa">/tʃ/</span> c<span class="hi">e</span>na, c<span class="hi">i</span>ao | <span class="ipa">/dʒ/</span> g<span class="hi">e</span>lato</td></tr><tr><td class="row-label">H fixes it</td><td class="content">C<span class="hi">h</span>ianti (hard), G<span class="hi">h</span>etto (hard)</td></tr></table></div>
-</div>
-
-<!-- 🇷🇺 RUSSIAN -->
-<div class="lang-block" id="lang-ru" data-lang="ru">
-  <div class="section-title">🇷🇺 Русский — Произношение</div>
-  <div class="level-divider" id="ru-a1" data-level="a1"><span class="level-badge a1">A1 — Начальный</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Vowel Reduction (O)</div><div class="tip-box">When 'O' is NOT stressed, it sounds like 'A'.</div><table class="gtable"><tr><td class="row-label">Молоко</td><td class="content"><span class="ipa">/mala'ko/</span> (Milk)</td></tr><tr><td class="row-label">Хорошо</td><td class="content"><span class="ipa">/hara'ʃo/</span> (Good)</td></tr></table></div>
-</div>
-
-<!-- 🇬🇷 GREEK -->
-<div class="lang-block" id="lang-el" data-lang="el">
-  <div class="section-title">🇬🇷 Ελληνικά — Προφορά</div>
-  <div class="level-divider" id="el-a1" data-level="a1"><span class="level-badge a1">A1 — Αρχάριος</span><hr></div>
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Key Consonants</div><table class="gtable"><tr><td class="row-label">Β β</td><td class="content"><span class="ipa">/v/</span> as in <span class="ex">very</span></td></tr><tr><td class="row-label">Δ δ</td><td class="content"><span class="ipa">/ð/</span> as in <span class="ex">this</span></td></tr><tr><td class="row-label">Γ γ</td><td class="content"><span class="ipa">/ɣ/</span> soft gargle</td></tr></table></div>
-</div>
-
-<!-- 🇪🇸 SPANISH -->
-<div class="lang-block" id="lang-es" data-lang="es">
-  <div class="section-title">🇪🇸 Español — Pronunciación</div>
-  <div class="level-divider" id="es-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Core Vowels</div>
-    <div class="tip-box">Spanish vowels are short, clear, and never change their sound.</div>
-    <table class="gtable">
-      <tr class="section-row"><td colspan="3">Vowels (Las Vocales)</td></tr>
-      <tr><td class="row-label">A</td><td class="ipa">/a/</td><td class="content"><span class="ex" onclick="speak('casa','es')">c<span class="hi">a</span>s<span class="hi">a</span></span>, <span class="ex" onclick="speak('padre','es')">p<span class="hi">a</span>dre</span></td></tr>
-      <tr><td class="row-label">E</td><td class="ipa">/e/</td><td class="content"><span class="ex" onclick="speak('mesa','es')">m<span class="hi">e</span>sa</span>, <span class="ex" onclick="speak('bebé','es')">b<span class="hi">e</span>b<span class="hi">é</span></span></td></tr>
-      <tr><td class="row-label">I</td><td class="ipa">/i/</td><td class="content"><span class="ex" onclick="speak('cine','es')">c<span class="hi">i</span>ne</span>, <span class="ex" onclick="speak('hijo','es')">h<span class="hi">i</span>jo</span></td></tr>
-      <tr><td class="row-label">O</td><td class="ipa">/o/</td><td class="content"><span class="ex" onclick="speak('hola','es')">h<span class="hi">o</span>la</span>, <span class="ex" onclick="speak('perro','es')">perr<span class="hi">o</span></span></td></tr>
-      <tr><td class="row-label">U</td><td class="ipa">/u/</td><td class="content"><span class="ex" onclick="speak('uno','es')"><span class="hi">u</span>no</span>, <span class="ex" onclick="speak('luna','es')">l<span class="hi">u</span>na</span></td></tr>
-    </table>
-  </div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Consonants: C, G, J</div>
-    <table class="gtable">
-      <tr class="section-row"><td colspan="3">Key Consonants</td></tr>
-      <tr><td class="row-label">C (+ a, o, u)</td><td class="ipa">/k/</td><td class="content"><span class="ex">casa, coche</span></td></tr>
-      <tr><td class="row-label">C (+ e, i)</td><td class="ipa">/θ/</td><td class="content"><span class="ex">cine, cero</span> (Spain)</td></tr>
-      <tr><td class="row-label">G (+ a, o, u)</td><td class="ipa">/g/</td><td class="content"><span class="ex">gato, gol</span></td></tr>
-      <tr><td class="row-label">G (+ e, i) / J</td><td class="ipa">/x/</td><td class="content"><span class="ex">gente, jamón</span> (Harsh H)</td></tr>
-      <tr><td class="row-label">Ñ</td><td class="ipa">/ɲ/</td><td class="content"><span class="ex">niño, España</span></td></tr>
-    </table>
-  </div>
-</div>
-
-<!-- 🇩🇪 GERMAN -->
-<div class="lang-block" id="lang-de" data-lang="de">
-  <div class="section-title">🇩🇪 Deutsch — Aussprache</div>
-  <div class="level-divider" id="de-a1" data-level="a1"><span class="level-badge a1">A1 — Anfänger</span><hr></div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The Umlaute</div>
-    <div class="alpha-grid">
-      <div class="alpha-cell" onclick="speak('Äpfel','de')"><div class="letter">Ä ä</div><div class="ipa-sm">/ɛː/</div><div class="eng-sm">like 'air'</div></div>
-      <div class="alpha-cell" onclick="speak('Öl','de')"><div class="letter">Ö ö</div><div class="ipa-sm">/øː/</div><div class="eng-sm">rounded 'e'</div></div>
-      <div class="alpha-cell" onclick="speak('Über','de')"><div class="letter">Ü ü</div><div class="ipa-sm">/yː/</div><div class="eng-sm">rounded 'i'</div></div>
-      <div class="alpha-cell" onclick="speak('Fuß','de')"><div class="letter">ß</div><div class="ipa-sm">/s/</div><div class="eng-sm">sharp S</div></div>
+  <nav class="sidebar" id="sidebar"></nav>
+  <main class="main" id="main-content">
+    <div id="engine-status" style="text-align:center; padding: 3rem; font-weight: 800; opacity: 0.5;">
+      Loading Pronunciation Engine...
     </div>
-  </div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> The 'CH' Sounds</div>
-    <table class="gtable">
-      <tr><td class="row-label">ICH-Laut</td><td class="ipa">/ç/</td><td class="content">after e, i, ä, ö, ü <br><span class="ex">i<span class="hi">ch</span>, di<span class="hi">ch</span>, lä<span class="hi">ch</span>eln</span></td></tr>
-      <tr><td class="row-label">ACH-Laut</td><td class="ipa">/x/</td><td class="content">after a, o, u, au <br><span class="ex">a<span class="hi">ch</span>, do<span class="hi">ch</span>, Bu<span class="hi">ch</span></span></td></tr>
-    </table>
-  </div>
-</div>
-
-<!-- 🇵🇹 PORTUGUESE -->
-<div class="lang-block" id="lang-pt" data-lang="pt">
-  <div class="section-title">🇵🇹 Português — Pronúncia</div>
-  <div class="level-divider" id="pt-a1" data-level="a1"><span class="level-badge a1">A1 — Principiante</span><hr></div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Nasal Vowels</div>
-    <div class="tip-box">Air comes out of both nose and mouth. The tilde (~) is the main indicator.</div>
-    <table class="gtable">
-      <tr><td class="row-label">ão</td><td class="ipa">/ɐ̃w̃/</td><td class="content"><span class="ex">p<span class="hi">ão</span>, m<span class="hi">ão</span>, n<span class="hi">ão</span></span></td></tr>
-      <tr><td class="row-label">ã</td><td class="ipa">/ɐ̃/</td><td class="content"><span class="ex">manh<span class="hi">ã</span>, irm<span class="hi">ã</span></span></td></tr>
-      <tr><td class="row-label">am / an</td><td class="ipa">/ɐ̃/</td><td class="content"><span class="ex">falar<span class="hi">am</span>, c<span class="hi">an</span>to</span></td></tr>
-    </table>
-  </div>
-
-  <div class="card"><div class="card-title"><span class="lvl-dot a1"></span> Digraphs</div>
-    <table class="gtable">
-      <tr><td class="row-label">LH</td><td class="ipa">/ʎ/</td><td class="content">like 'million' <br><span class="ex">fi<span class="hi">lh</span>a, tru<span class="hi">lh</span>a</span></td></tr>
-      <tr><td class="row-label">NH</td><td class="ipa">/ɲ/</td><td class="content">like 'onion' <br><span class="ex">ba<span class="hi">nh</span>o, ama<span class="hi">nh</span>ã</span></td></tr>
-      <tr><td class="row-label">CH</td><td class="ipa">/ʃ/</td><td class="content">like 'shoe' <br><span class="ex">c<span class="hi">h</span>ave, c<span class="hi">h</span>á</span></td></tr>
-    </table>
-  </div>
-</div>
-
-</main>
+  </main>
 </div>
 
 <script>
-const langSidebars = {
-  en: [{ label: 'A1 — Beginner', items: [['#en-a1','🟢 Basics']] },{ label: 'A2 — Elementary', items: [['#en-a2','🔵 Patterns']] },{ label: 'B1 — Intermediate', items: [['#en-b1','🟠 Schwa & Stress']] }],
-  fr: [{ label: 'A1 — Débutant', items: [['#fr-a1','🟢 Silent Letters'], ['#fr-a1','🟢 Accents']] }],
-  it: [{ label: 'A1 — Principiante', items: [['#it-a1','🟢 C and G']] }],
-  ru: [{ label: 'A1 — Начальный', items: [['#ru-a1','🟢 Vowel Reduction']] }],
-  el: [{ label: 'A1 — Αρχάριος', items: [['#el-a1','🟢 Key Consonants']] }],
-  es: [{ label: 'A1 — Principiante', items: [['#es-a1','🟢 Vowels']] }],
-  de: [{ label: 'A1 — Anfänger', items: [['#de-a1','🟢 CH sounds']] }],
-  pt: [{ label: 'A1 — Principiante', items: [['#pt-a1','🟢 Nasal Vowels']] }]
-};
-
-let S = null;
+let currentLang = 'en';
+let currentCurriculum = [];
 
 function init() {
-  const code = localStorage.getItem('student_course_code');
-  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
-    S = { ...COURSES[code], code: code };
-    document.getElementById('lang-tabs').style.display = 'none';
-    setLang(S.lang.toLowerCase());
-  } else setLang('en');
-}
+  const savedTheme = localStorage.getItem('cosy_dashboard_theme') || 'earth';
+  document.body.className = 'theme-' + savedTheme;
 
-function buildSidebar(lang) {
-  const nav = document.getElementById('sidebar');
-  const data = langSidebars[lang] || [];
-  let filtered = data;
-  if (S) {
-    const sLevel = S.level.toLowerCase();
-    filtered = data.filter(s => {
-       const label = s.label.split(' ')[0].toLowerCase();
-       return levelOrder(label) <= levelOrder(sLevel);
+  const code = localStorage.getItem('student_course_code');
+  let startLang = 'en';
+
+  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
+    startLang = COURSES[code].lang.toLowerCase();
+    document.getElementById('lang-tabs').style.display = 'none';
+  }
+
+  // Build tabs if visible
+  const tabCont = document.getElementById('lang-tabs');
+  if (tabCont.style.display !== 'none') {
+    Object.entries(LANGS).forEach(([id, info]) => {
+      const btn = document.createElement('button');
+      btn.className = 'lang-tab' + (id.toLowerCase() === startLang ? ' active' : '');
+      btn.textContent = `${info.flag} ${id}`;
+      btn.onclick = () => setLang(id.toLowerCase());
+      btn.dataset.lang = id.toLowerCase();
+      tabCont.appendChild(btn);
     });
   }
-  nav.innerHTML = filtered.map(s => `<div class="sidebar-section"><div class="sidebar-label">${s.label}</div>${s.items.map(([h,l]) => `<a class="sidebar-item" href="${h}" onclick="scrollToId('${h.substring(1)}')">${l}</a>`).join('')}</div>`).join('');
+
+  setLang(startLang);
 }
 
-function speak(text, lang) {
-  if (window.gameUtils && window.gameUtils.speak) {
-    window.gameUtils.speak(text, lang, 0.7);
+async function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
+
+  const status = document.getElementById('engine-status');
+  if (status) status.style.display = 'block';
+
+  try {
+    await loadData(lang);
+    renderContent();
+  } catch (e) {
+    console.error('Error in setLang:', e);
   }
 }
 
-function setLang(lang, btn) {
-  document.querySelectorAll('.lang-block').forEach(b => b.classList.remove('show'));
-  document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
-  const block = document.getElementById('lang-' + lang);
-  if (block) {
-    block.classList.add('show');
-    if (S) {
-      const sLevel = S.level.toLowerCase();
-      block.querySelectorAll('.level-divider, .card').forEach(el => {
-        const elLevel = el.dataset.level || el.closest('.level-divider')?.dataset.level;
-        if (elLevel && levelOrder(elLevel) > levelOrder(sLevel)) el.style.display = 'none';
-      });
-    }
-  }
-  if (btn) btn.classList.add('active');
-  else { const t = document.querySelector(`.lang-tab[data-lang="${lang}"]`); if (t) t.classList.add('active'); }
-  buildSidebar(lang);
-}
+async function loadData(lang) {
+  const dataKey = `${lang.toLowerCase()}_a1`;
+  const path = `js/data/curriculum/${dataKey}.js`;
 
-function levelOrder(lv) {
-  const m = { a1:1, a2:2, b1:3, b2:4, c1:5, c2:6, starter:1, elementary:2, intermediate:3, 'upper int.':4, advanced:5, proficiency:6 };
-  return m[lv] || 1;
-}
-
-function scrollToId(id) {
-  const el = document.getElementById(id);
-  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
-      const l = document.querySelector(`.sidebar-item[href="#${e.target.id}"]`);
-      if (l) l.classList.add('active');
-    }
+  return new Promise((resolve) => {
+    const script = document.createElement('script');
+    script.src = path;
+    script.onload = () => {
+      if (window.curriculumData && window.curriculumData[dataKey]) {
+        currentCurriculum = window.curriculumData[dataKey];
+      }
+      resolve();
+    };
+    script.onerror = () => {
+      console.warn(`Curriculum not found for ${dataKey}`);
+      currentCurriculum = [];
+      resolve();
+    };
+    document.head.appendChild(script);
   });
-}, { threshold: 0.3 });
+}
 
-document.querySelectorAll('.level-divider').forEach(s => observer.observe(s));
-init();
+function renderContent() {
+  const main = document.getElementById('main-content');
+  const sidebar = document.getElementById('sidebar');
+
+  let allPoints = [];
+  currentCurriculum.forEach(unit => {
+    (unit.lessons || []).forEach(lesson => {
+      if (lesson.pronunciation) {
+        lesson.pronunciation.forEach(p => {
+          allPoints.push({ ...p, lessonTitle: lesson.title });
+        });
+      }
+    });
+  });
+
+  if (allPoints.length === 0) {
+    main.innerHTML = `<div class="section-title">${LANGS[currentLang.toUpperCase()]?.label || currentLang} Pronunciation</div>
+                      <p style="text-align:center; padding: 2rem;">No pronunciation data found for this level yet.</p>`;
+    sidebar.innerHTML = "";
+    return;
+  }
+
+  // Render Sidebar
+  sidebar.innerHTML = `<div class="sidebar-section">
+    <div class="sidebar-label">A1 Topics</div>
+    ${allPoints.map((p, i) => `
+      <a class="sidebar-item" href="#point-${i}" id="side-item-${i}" onclick="scrollToPoint(event, ${i})">${p.point}</a>
+    `).join('')}
+  </div>`;
+
+  // Render Main
+  main.innerHTML = `<div class="section-title">${LANGS[currentLang.toUpperCase()]?.label} — A1 Pronunciation</div>`;
+
+  allPoints.forEach((p, i) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.id = `point-${i}`;
+
+    let html = `
+      <div class="card-title">${p.visual || '🔊'} ${p.point}</div>
+      <div class="card-body">
+        <p style="margin-bottom: 1rem; line-height: 1.5;">${p.explain}</p>
+        ${p.image ? `<img src="${p.image}" alt="${p.point}" style="max-width:100%; border-radius:12px; margin-bottom:1rem; border:2px solid var(--border);">` : ''}
+    `;
+
+    if (p.alphabet) {
+      html += `<div class="alpha-grid">
+        ${p.alphabet.map(a => `
+          <div class="alpha-cell" onclick="speakPhonetic('${a.l.replace(/'/g, "\\'")}')">
+            <div class="letter">${a.l}</div>
+            <div class="ipa-sm">${a.ipa}</div>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
+    if (p.minimalPairs) {
+      html += `<table class="gtable">
+        <thead><tr><th>Word 1</th><th>IPA</th><th>Word 2</th><th>IPA</th></tr></thead>
+        <tbody>
+          ${p.minimalPairs.map(mp => `
+            <tr>
+              <td class="ex" onclick="speakPhonetic('${mp.w1.replace(/'/g, "\\'")}')">${mp.w1}</td>
+              <td class="ipa">${mp.p1}</td>
+              <td class="ex" onclick="speakPhonetic('${mp.w2.replace(/'/g, "\\'")}')">${mp.w2}</td>
+              <td class="ipa">${mp.p2}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>`;
+    }
+
+    if (p.examples) {
+      html += `<table class="gtable">
+        <thead><tr><th>Pattern</th><th>IPA</th><th>Example</th></tr></thead>
+        <tbody>
+          ${p.examples.map(ex => `
+            <tr>
+              <td><strong>${ex.pattern}</strong></td>
+              <td class="ipa">${ex.ipa}</td>
+              <td class="ex" onclick="speakPhonetic('${ex.word.replace(/'/g, "\\'")}')">${ex.word}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>`;
+    }
+
+    if (p.tip) {
+      html += `<div class="tip-box">💡 <strong>Tip:</strong> ${p.tip}</div>`;
+    }
+
+    if (p.extension) {
+      html += `<div class="extension-box">${p.extension}</div>`;
+    }
+
+    html += `
+        <div style="margin-top: 1.5rem; display: flex; justify-content: flex-end;">
+          <a href="practice.html?lang=${currentLang}&cat=pronunciation&theme=${encodeURIComponent(p.point)}" class="btn-practice">
+            🎯 Practice these sounds
+          </a>
+        </div>
+      </div>
+    `;
+
+    card.innerHTML = html;
+    main.appendChild(card);
+  });
+
+  initScrollSpy();
+}
+
+function speakPhonetic(text) {
+  if (window.gameUtils && window.gameUtils.speak) {
+    window.gameUtils.speak(text, currentLang, 0.7);
+  } else if (window.speechSynthesis) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = currentLang;
+    utterance.rate = 0.7;
+    window.speechSynthesis.speak(utterance);
+  }
+}
+
+function scrollToPoint(e, i) {
+  if (e) e.preventDefault();
+  const el = document.getElementById(`point-${i}`);
+  if (el) {
+    const offset = 80;
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = el.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
+}
+
+function initScrollSpy() {
+  const options = { rootMargin: '-100px 0px -70% 0px', threshold: 0 };
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+        const id = entry.target.id.split('-')[1];
+        const item = document.getElementById(`side-item-${id}`);
+        if (item) item.classList.add('active');
+      }
+    });
+  }, options);
+
+  document.querySelectorAll('.card').forEach(card => observer.observe(card));
+}
+
+document.addEventListener('DOMContentLoaded', init);
 </script>
 </body>
 </html>

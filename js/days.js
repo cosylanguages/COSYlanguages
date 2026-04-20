@@ -330,10 +330,12 @@
 
         const workbookBtn = document.getElementById('open-workbook-btn');
         const grammarBtn = document.getElementById('open-grammar-ref-btn');
+        const pronBtn = document.getElementById('open-pron-ref-btn');
         const vocabBtn = document.getElementById('open-vocab-ref-btn');
 
         if (workbookBtn) workbookBtn.onclick = () => window.location.href = `workbook.html${query}`;
         if (grammarBtn) grammarBtn.onclick = () => window.location.href = `grammar-reference.html${query}`;
+        if (pronBtn) pronBtn.onclick = () => window.location.href = `pronunciation-reference.html${query}`;
         if (vocabBtn) vocabBtn.onclick = () => window.location.href = `vocabulary-reference.html${query}`;
 
         // Load curriculum data
@@ -696,6 +698,7 @@
             let html = `
                 <div class="gram-point">
                     <div class="gram-heading">
+                        ${p.visual ? `<span style="margin-right:8px">${p.visual}</span>` : ''}
                         ${p.point} <span class="gram-tag">Sound</span>
                     </div>
                     <p class="gram-explain">${p.explain || ''}</p>
@@ -773,6 +776,10 @@
 
             if (p.tip) {
                 html += `<div class="gram-tip" style="background:var(--sky-lt); border-color:var(--sky); color:var(--sky)">💡 ${p.tip}</div>`;
+            }
+
+            if (p.extension) {
+                html += `<div class="gram-tip" style="margin-top:0.5rem; background:rgba(0,0,0,0.03); border-color:var(--muted); font-style:italic;">${p.extension}</div>`;
             }
 
             html += `</div>`;
@@ -1085,6 +1092,7 @@
                 <div class="sb-label">Resources</div>
                 <a class="sb-item" href="workbook.html${query}"><span class="sb-num">📓</span> Workbook</a>
                 <a class="sb-item" href="grammar-reference.html${query}"><span class="sb-num">📐</span> Grammar Ref</a>
+                <a class="sb-item" href="pronunciation-reference.html${query}"><span class="sb-num">🔊</span> Pronunciation</a>
                 <a class="sb-item" href="vocabulary-reference.html${query}"><span class="sb-num">📖</span> Vocab Ref</a>
             </div>
         `;

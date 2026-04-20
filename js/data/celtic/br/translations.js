@@ -986,7 +986,15 @@
             open_vocab_ref: "Digeriñ an daveennoù geriaoueg 📖",
             flashcards_quiz_btn: "Kartennoù ha kwiz 🚀",
             question_about_lesson: "Ur goulenn ho peus diwar-benn ur gentel ?",
-            message_teacher_fast: "Kasit ur gemennadenn d'ho kelennour — respont a reomp buan."
+            message_teacher_fast: "Kasit ur gemennadenn d'ho kelennour — respont a reomp buan.",
+            "pronunciation_tab": "Distagadur",
+            "full_pronunciation_guide": "Heñchadur distagadur klok 🗣️",
+            "pronunciation_reference_title": "Daveenn distagadur 🗣️",
+            "pronunciation_reference_subtitle": "Mistriit sonioù, lusk ha pouez-mouezh ar yezh.",
+            "pronunciation_rules_title": "Reolennoù & Patromoù 📖",
+            "pronunciation_extension_title": "Notennoù kelennadurezh 💡",
+            "pronunciation_visual_title": "Heñchadur gwelet 🖼️",
+            "wtd_pronunciation": "Selaouit pizh ouzh ar sonioù hag ar patromoù."
         }
     };
     window.translations = window.translations || {};

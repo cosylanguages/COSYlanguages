@@ -18,7 +18,9 @@ window.curriculumData.es_a1 = [
             {l:'O o', ipa:'/o/'}, {l:'P p', ipa:'/pe/'}, {l:'Q q', ipa:'/ku/'}, {l:'R r', ipa:'/ere/'}, {l:'S s', ipa:'/ese/'},
             {l:'T t', ipa:'/te/'}, {l:'U u', ipa:'/u/'}, {l:'V v', ipa:'/ube/'}, {l:'W w', ipa:'/ube doble/'}, {l:'X x', ipa:'/ekis/'},
             {l:'Y y', ipa:'/i griega/'}, {l:'Z z', ipa:'/θeta/'}
-          ]
+          ],
+          extension: "El español es un idioma con una correspondencia casi perfecta entre letras y sonidos. ¡Si sabes cómo se escribe, sabes cómo se pronuncia!",
+          visual: "🇪🇸🔤"
         }
       ],
       vocab:[
@@ -41,7 +43,9 @@ window.curriculumData.es_a1 = [
             { pattern: "rr", ipa: "/r/", word: "perro" },
             { pattern: "h", ipa: "-", word: "hola" }
           ],
-          tip: "¡Nunca pronuncies la H en español!"
+          tip: "¡Nunca pronuncies la H en español!",
+          extension: "La 'rr' requiere que la lengua vibre contra el paladar. La 'h' es puramente decorativa en la pronunciación moderna.",
+          visual: "🐕"
         }
       ],
       vocab:[
@@ -83,7 +87,9 @@ window.curriculumData.es_a1 = [
             { w1: "casa", p1: "/ˈka.sa/", w2: "caza", p2: "/ˈka.θa/" },
             { w1: "siento", p1: "/ˈsjen.to/", w2: "ciento", p2: "/ˈθjen.to/" },
             { w1: "cocer", p1: "/ko.ˈθer/", w2: "coser", p2: "/ko.ˈser/" }
-          ]
+          ],
+          extension: "Esta distinción es típica del español de España (Castellano). En gran parte de Latinoamérica, 's', 'c' y 'z' se pronuncian igual (/s/), lo que se llama 'seseo'.",
+          visual: "👅"
         }
       ],
       vocab:[

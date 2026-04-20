@@ -1010,7 +1010,15 @@
             open_vocab_ref: "Բացել բառապաշարը 📖",
             flashcards_quiz_btn: "Քարտեր և թեստեր 🚀",
             question_about_lesson: "Հարցեր ունե՞ք դասի վերաբերյալ:",
-            message_teacher_fast: "Գրեք ձեր ուսուցչին — մենք արագ ենք պատասխանում:"
+            message_teacher_fast: "Գրեք ձեր ուսուցչին — մենք արագ ենք պատասխանում:",
+            "pronunciation_tab": "Արտասանություն",
+            "full_pronunciation_guide": "Արտասանության ամբողջական ուղեցույց 🗣️",
+            "pronunciation_reference_title": "Արտասանության տեղեկատու 🗣️",
+            "pronunciation_reference_subtitle": "Յուրացրեք լեզվի հնչյունները, ռիթմը և հնչերանգը:",
+            "pronunciation_rules_title": "Կանոններ և նմուշներ 📖",
+            "pronunciation_extension_title": "Մանկավարժական նշումներ 💡",
+            "pronunciation_visual_title": "Տեսողական ուղեցույց 🖼️",
+            "wtd_pronunciation": "Ուշադիր լսեք հնչյունները և նմուշները:"
         }
     };
     window.translations = window.translations || {};

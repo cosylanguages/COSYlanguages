@@ -17,7 +17,9 @@ window.curriculumData.en_a1 = [
             {l:'K', ipa:'/keɪ/'}, {l:'L', ipa:'/el/'}, {l:'M', ipa:'/em/'}, {l:'N', ipa:'/en/'}, {l:'O', ipa:'/əʊ/'},
             {l:'P', ipa:'/piː/'}, {l:'Q', ipa:'/kjuː/'}, {l:'R', ipa:'/ɑː/'}, {l:'S', ipa:'/es/'}, {l:'T', ipa:'/tiː/'},
             {l:'U', ipa:'/juː/'}, {l:'V', ipa:'/viː/'}, {l:'W', ipa:'/ˈdʌb.əl.juː/'}, {l:'X', ipa:'/eks/'}, {l:'Y', ipa:'/waɪ/'}, {l:'Z', ipa:'/zed/'}
-          ]
+          ],
+          extension: "Did you know? The letters A, E, I, O, U are vowels. All other letters are consonants. In English, one letter can often represent multiple different sounds!",
+          visual: "🔤"
         }
       ],
       vocab:[
@@ -40,7 +42,9 @@ window.curriculumData.en_a1 = [
             { pattern: "What is", ipa: "/wɒt ɪz/", word: "What's" },
             { pattern: "I am", ipa: "/aɪ æm/", word: "I'm" },
             { pattern: "My name is", ipa: "/maɪ neɪm ɪz/", word: "My name's" }
-          ]
+          ],
+          extension: "Contractions make your English sound more natural and fluent. We use them almost all the time when speaking!",
+          visual: "🔗"
         }
       ],
       vocab:[
@@ -82,7 +86,9 @@ window.curriculumData.en_a1 = [
             { w1: "ship", p1: "/ʃɪp/", w2: "sheep", p2: "/ʃiːp/" },
             { w1: "bit", p1: "/bɪt/", w2: "beat", p2: "/biːt/" },
             { w1: "fit", p1: "/fɪt/", w2: "feet", p2: "/fiːt/" }
-          ]
+          ],
+          extension: "The length of the vowel is very important in English. Notice how your mouth stays in a similar position but the sound lasts longer for 'sheep' and 'beat'.",
+          visual: "🚢↔️🐑"
         }
       ],
       vocab:[

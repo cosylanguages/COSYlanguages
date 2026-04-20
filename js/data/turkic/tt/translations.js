@@ -1012,7 +1012,15 @@
             open_vocab_ref: "Сүзлекне ачу 📖",
             flashcards_quiz_btn: "Карточкалар һәм тестлар 🚀",
             question_about_lesson: "Дәрес буенча соравыгыз бармы?",
-            message_teacher_fast: "Укытучыга языгыз — без тиз җавап бирәбез."
+            message_teacher_fast: "Укытучыга языгыз — без тиз җавап бирәбез.",
+            "pronunciation_tab": "Әйтелеш",
+            "full_pronunciation_guide": "Тулы әйтелеш кулланмасы 🗣️",
+            "pronunciation_reference_title": "Әйтелеш белешмәсе 🗣️",
+            "pronunciation_reference_subtitle": "Телнең авазларын, ритмын һәм интонациясен үзләштерегез.",
+            "pronunciation_rules_title": "Кагыйдәләр һәм үрнәкләр 📖",
+            "pronunciation_extension_title": "Педагогик искәрмәләр 💡",
+            "pronunciation_visual_title": "Күрсәтмә кулланма 🖼️",
+            "wtd_pronunciation": "Авазларга һәм үрнәкләргә игътибар белән тыңлагыз."
         }
     };
     window.translations = window.translations || {};

@@ -17,7 +17,9 @@ window.curriculumData.fr_a1 = [
             {l:'K', ipa:'/ka/'}, {l:'L', ipa:'/el/'}, {l:'M', ipa:'/em/'}, {l:'N', ipa:'/en/'}, {l:'O', ipa:'/o/'},
             {l:'P', ipa:'/pe/'}, {l:'Q', ipa:'/ky/'}, {l:'R', ipa:'/ɛʁ/'}, {l:'S', ipa:'/es/'}, {l:'T', ipa:'/te/'},
             {l:'U', ipa:'/y/'}, {l:'V', ipa:'/ve/'}, {l:'W', ipa:'/dubləve/'}, {l:'X', ipa:'/iks/'}, {l:'Y', ipa:'/igʁɛk/'}, {l:'Z', ipa:'/zɛd/'}
-          ]
+          ],
+          extension: "L'alphabet français utilise les mêmes lettres que l'anglais, mais les sons sont très différents, surtout pour les voyelles.",
+          visual: "🇫🇷🔤"
         }
       ],
       vocab:[
@@ -39,7 +41,9 @@ window.curriculumData.fr_a1 = [
             { pattern: "Vous avez", ipa: "/vu.za.ve/", word: "vous avez" },
             { pattern: "Mes amis", ipa: "/me.za.mi/", word: "mes amis" }
           ],
-          tip: "La liaison transforme un 's' muet en un son 'z'."
+          tip: "La liaison transforme un 's' muet en un son 'z'.",
+          extension: "La liaison est obligatoire dans certains cas (comme après 'vous', 'nous', 'mes') et interdite dans d'autres. Elle donne au français son rythme fluide caractéristique.",
+          visual: "🔗"
         }
       ],
       vocab:[
