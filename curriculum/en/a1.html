@@ -312,8 +312,8 @@ body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--white);
     <div class="tb-sub">A1 — Beginner Curriculum Roadmap</div>
   </div>
   <nav class="tb-nav">
-    <a href="../../grammar-reference.html" class="tb-btn">📐 Grammar</a>
-    <a href="../../vocabulary/en.html" class="tb-btn">📖 Vocabulary</a>
+    <a href="../../grammar-reference.html?lang=en" class="tb-btn">📐 Grammar</a>
+    <a href="../../vocabulary-reference.html?lang=en" class="tb-btn">📖 Vocabulary</a>
     <a href="../../days.html" class="tb-btn">🔐 Student Area</a>
   </nav>
 </div>
@@ -525,7 +525,7 @@ function renderVocabPills(words){
   ];
   return words.map(w=>{
     const cls = w.endsWith(' verb')||verbs.includes(w.toLowerCase()) ? 'verb' : 'noun';
-    return `<a href="../../vocabulary/en.html?search=${encodeURIComponent(w)}" class="vp ${cls}">${w}</a>`;
+    return `<a href="../../vocabulary-reference.html?lang=en&search=${encodeURIComponent(w)}" class="vp ${cls}">${w}</a>`;
   }).join('');
 }
 
@@ -564,12 +564,12 @@ function buildContent(){
     const col=themeColours[theme]||'#666';
     vocabHtml+=`<div style="background:var(--bg);border:1px solid var(--border);border-radius:8px;
       padding:.65rem .8rem;border-left:3px solid ${col}">
-      <a href="../../vocabulary/en.html?search=${encodeURIComponent(theme)}" style="text-decoration:none;display:block;">
+      <a href="../../vocabulary-reference.html?lang=en&search=${encodeURIComponent(theme)}" style="text-decoration:none;display:block;">
         <div style="font-size:.62rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;
           color:${col};margin-bottom:.45rem">${theme}</div>
       </a>
       <div style="display:flex;flex-wrap:wrap;gap:.25rem">
-        ${words.map(w=>`<a href="../../vocabulary/en.html?search=${encodeURIComponent(w)}" style="text-decoration:none;">
+        ${words.map(w=>`<a href="../../vocabulary-reference.html?lang=en&search=${encodeURIComponent(w)}" style="text-decoration:none;">
           <span style="font-size:.68rem;font-weight:700;
           background:rgba(255,255,255,.06);border:1px solid var(--border);
           border-radius:4px;padding:.1rem .4rem;color:var(--muted);transition:all .1s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">${w}</span>

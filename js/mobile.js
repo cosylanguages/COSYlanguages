@@ -409,7 +409,16 @@ function initMobile() {
   if (new URLSearchParams(window.location.search).get('embed') === 'true') document.body.classList.add('embedded-mode');
 
   if (!document.querySelector('.mobile-nav')) {
-      const nav = document.createElement('nav'), base = window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/';
+      const nav = document.createElement('nav');
+      let base = window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/';
+
+      // If we are already deep in subfolders, use relative up-levels instead of absolute path
+      // to ensure it works on local servers without the /COSYlanguages/ prefix
+      const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
+      if (depth > 0) {
+          base = '../'.repeat(depth);
+      }
+
       nav.className = 'mobile-nav';
       nav.innerHTML = `
         <a href="${base}practice.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>

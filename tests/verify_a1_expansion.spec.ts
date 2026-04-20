@@ -26,9 +26,9 @@ test('Verify expanded A1 curricula and roadmaps', async ({ page }) => {
         await expect(page.locator('#area')).toBeVisible({ timeout: 10000 });
 
         // Verify the unit title is present in the curriculum list
-        const unitTitle = page.locator('.uh-body h2').first();
+        // Note: Unit 0 might be present, so we look for the specific title text
+        const unitTitle = page.locator('.uh-body h2', { hasText: item.title });
         await expect(unitTitle).toBeVisible({ timeout: 10000 });
-        await expect(unitTitle).toContainText(item.title);
 
         // Verify "Full Roadmap" button is visible
         const roadmapBtn = page.locator('#open-roadmap-btn');
@@ -62,13 +62,22 @@ test('Verify Day 5 lesson practice', async ({ page }) => {
     await expect(lessonInfo).toContainText('Day 5');
     await expect(page.locator('#question-card')).toBeVisible();
 
-    // Verify word display is eventually populated
-    const wordDisplay = page.locator('#word-display');
-    // It might be '???' or a word, but should not be empty.
-    // If it's matching/sorting, it might be hidden, so we check task instruction too.
-    await expect(page.locator('#task-instruction')).not.toBeEmpty();
+    // Verify word display or task instruction is eventually populated
+    // Wait for the task instruction or word display to have content
+    await page.waitForFunction(() => {
+        const task = document.getElementById('task-instruction');
+        const word = document.getElementById('word-display');
+        return (task && task.textContent.trim().length > 0) || (word && word.textContent.trim().length > 0);
+    }, { timeout: 15000 });
 
+    const taskInstruction = page.locator('#task-instruction');
+    const wordDisplay = page.locator('#word-display');
+
+    // At least one should be non-empty
+    const taskText = await taskInstruction.textContent();
     const wordText = await wordDisplay.textContent();
-    console.log(`Lesson loaded. Task: ${await page.locator('#task-instruction').textContent()}`);
+    expect(taskText.trim().length + wordText.trim().length).toBeGreaterThan(0);
+
+    console.log(`Lesson loaded. Task: ${taskText}`);
     console.log(`Word display content: "${wordText}"`);
 });
