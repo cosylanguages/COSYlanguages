@@ -9,6 +9,15 @@
     let isTeacher = false;
     const TEACHER_PIN = '2025';
 
+    // ── Internal Utilities ───────────────────────────────
+
+    function createEl(tag, className, text) {
+        const el = document.createElement(tag);
+        if (className) el.className = className;
+        if (text) el.textContent = text;
+        return el;
+    }
+
     // ── Authentication & Initialization ───────────────────
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -306,13 +315,15 @@
 
         const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
         roadmapBtn.onclick = () => window.location.href = roadmapPath;
-        // Enable roadmap for all primary languages at A1 level where we have files
-        const supportedA1 = ['en', 'fr', 'it', 'ru', 'el'];
-        if (supportedA1.includes(lang.toLowerCase()) && level.toLowerCase() === 'a1') {
-            roadmapBtn.style.display = 'inline-block';
-        } else {
-            roadmapBtn.style.display = 'none';
-        }
+
+        // Check if roadmap file exists before showing button
+        fetch(roadmapPath, { method: 'HEAD' })
+            .then(res => {
+                roadmapBtn.style.display = res.ok ? 'inline-block' : 'none';
+            })
+            .catch(() => {
+                roadmapBtn.style.display = 'none';
+            });
 
         // Update Badges
         const badgeCont = document.getElementById('bdg');
@@ -370,15 +381,6 @@
             };
             document.head.appendChild(script);
         });
-    }
-
-    // ── Rendering Utilities ──────────────────────────
-
-    function createEl(tag, className, text) {
-        const el = document.createElement(tag);
-        if (className) el.className = className;
-        if (text) el.textContent = text;
-        return el;
     }
 
     // ── Rendering ──────────────────────────────────────
@@ -520,7 +522,9 @@
 
                         <div class="l-actions">
                             <a href="lesson.html?lang=${currentCourse.lang.toLowerCase()}&lesson=${dayNum}"
-                               class="btn-start-new ${dayNum > nextLessonNum ? 'locked' : ''}" data-translate-key="start_lesson_btn">
+                               class="btn-start-new ${dayNum > nextLessonNum ? 'locked' : ''}"
+                               id="btn-lesson-${dayNum}"
+                               data-translate-key="start_lesson_btn">
                                ${t('start_lesson_btn')}
                             </a>
                             <button class="btn-mark-new ${isDone ? 'done' : ''}" data-day="${dayNum}" data-translate-key="${isDone ? 'completed_btn' : 'mark_as_done'}">
@@ -569,6 +573,39 @@
             markBtn.onclick = () => toggleLessonDone(dayNum);
 
             container.appendChild(lessonEl);
+
+            // Async check if lesson data exists
+            checkLessonData(dayNum);
+    }
+
+    function checkLessonData(dayNum) {
+        const btn = document.getElementById(`btn-lesson-${dayNum}`);
+        if (!btn) return;
+
+        const path = `js/data/lessons/day${dayNum}.js`;
+        fetch(path, { method: 'HEAD' })
+            .then(res => {
+                if (!res.ok) {
+                    btn.classList.add('locked');
+                    const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+                    btn.textContent = (t('start_lesson_btn') || 'Start Lesson') + ' 🚧';
+                    btn.title = 'Interactive content coming soon';
+
+                    // Add a small "Coming Soon" badge if missing
+                    const actions = btn.parentElement;
+                    if (actions && !actions.querySelector('.coming-soon-badge')) {
+                        const badge = createEl('span', 'coming-soon-badge', 'Coming Soon');
+                        badge.style.fontSize = '10px';
+                        badge.style.background = 'var(--muted)';
+                        badge.style.color = 'white';
+                        badge.style.padding = '2px 6px';
+                        badge.style.borderRadius = '4px';
+                        badge.style.marginLeft = '10px';
+                        actions.appendChild(badge);
+                    }
+                }
+            })
+            .catch(() => {});
     }
 
     function renderGrammarTabContent(lesson) {

@@ -404,6 +404,10 @@ let currentCourseTopics = [];
 let progress = {}; // Keyed by exercise ID
 
 function init() {
+  // Apply theme
+  const savedTheme = localStorage.getItem('cosy_dashboard_theme') || 'earth';
+  document.body.classList.add('theme-' + savedTheme);
+
   const code = localStorage.getItem('student_course_code');
   if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
     S = { ...COURSES[code], code: code };
@@ -412,7 +416,7 @@ function init() {
 
     // Setup Sidebar Pill
     document.getElementById('side-lang').textContent = S.lang;
-    document.getElementById('side-course').textContent = S.type + ' Course';
+    document.getElementById('side-course').textContent = (TYPES[S.type]?.label || S.type) + ' Course';
     document.getElementById('side-level').textContent = S.level;
 
     document.getElementById('tb-workbook').style.display = 'block';
