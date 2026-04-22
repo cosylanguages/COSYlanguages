@@ -12,7 +12,10 @@
         "form": "noun",
         "plural": "γιατροί",
         "subtext": "",
-        "synonyms": ["βλέπω γιατρό", "παθολόγος"],
+        "synonyms": [
+            "βλέπω γιατρό",
+            "παθολόγος"
+        ],
         "definitions": [
             {
                 "text": "Ένα άτομο που βοηθά τους άρρωστους ανθρώπους.",
@@ -21,7 +24,9 @@
                     "Πρέπει να δω έναν γιατρό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ʝaˈtros/",
+        "countability": "countable"
     },
     {
         "word": "μπράτσο",
@@ -40,7 +45,8 @@
                     "Έσπασε το μπράτσο της."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "πόδι",
@@ -61,7 +67,10 @@
                     "Πονάει το πόδι μου."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈpoði/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "δάσκαλος",
@@ -81,7 +90,8 @@
                     "Ο δάσκαλος μου είναι πολύ καλός."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "μουσακάς",
@@ -98,7 +108,9 @@
                     "Μου αρέσει ο μουσακάς."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "μήλο",
@@ -118,7 +130,10 @@
                     "Τρώω ένα μήλο κάθε μέρα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈmilo/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "ψωμί",
@@ -138,7 +153,8 @@
                     "Αγοράζω ψωμί από τον φούρνο."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "αυγό",
@@ -157,7 +173,8 @@
                     "Τρώω ένα αυγό για πρωινό."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "γάλα",
@@ -176,7 +193,8 @@
                     "Πίνω γάλα το πρωί."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "ρύζι",
@@ -195,7 +213,9 @@
                     "Τρώμε ρύζι με το φαγητό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈrizi/",
+        "countability": "uncountable"
     },
     {
         "word": "κρέας",
@@ -214,7 +234,9 @@
                     "Δεν τρώω κρέας."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈkreas/",
+        "countability": "uncountable"
     },
     {
         "word": "φαγητό",
@@ -232,7 +254,9 @@
                     "Το φαγητό είναι έτοιμο."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable",
+        "subtext": ""
     },
     {
         "word": "καφές",
@@ -251,7 +275,8 @@
                     "Πίνω καφέ κάθε πρωί."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "τσάι",
@@ -270,7 +295,8 @@
                     "Πίνω τσάι το βράδυ."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "νερό",
@@ -289,7 +315,8 @@
                     "Πίνω πολύ νερό."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "καρέκλα",
@@ -308,7 +335,9 @@
                     "Παρακαλώ καθίστε στην καρέκλα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/kaˈreka/",
+        "countability": "countable"
     },
     {
         "word": "τραπέζι",
@@ -327,7 +356,9 @@
                     "Το φαγητό είναι στο τραπέζι."
                 ]
             }
-        ]
+        ],
+        "transcription": "/traˈpezi/",
+        "countability": "countable"
     },
     {
         "word": "κρεβάτι",
@@ -346,7 +377,9 @@
                     "Το κρεβάτι μου είναι άνετο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/kreˈvati/",
+        "countability": "countable"
     },
     {
         "word": "μαγαζί",
@@ -358,7 +391,10 @@
         "form": "noun",
         "plural": "μαγαζιά",
         "subtext": "",
-        "synonyms": ["κατάστημα", "ψωνίζω"],
+        "synonyms": [
+            "κατάστημα",
+            "ψωνίζω"
+        ],
         "definitions": [
             {
                 "text": "Ένα μέρος όπου αγοράζεις πράγματα.",
@@ -366,7 +402,8 @@
                     "Το μαγαζί είναι ανοιχτό."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "κεφάλι",
@@ -385,7 +422,9 @@
                     "Φοράω καπέλο στο κεφάλι."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ceˈfali/",
+        "countability": "countable"
     },
     {
         "word": "χέρι",
@@ -404,7 +443,9 @@
                     "Δώσε μου το χέρι σου."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈçeri/",
+        "countability": "countable"
     },
     {
         "word": "μάτι",
@@ -423,7 +464,9 @@
                     "Έχει γαλανά μάτια."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈmati/",
+        "countability": "countable"
     },
     {
         "word": "στόμα",
@@ -442,7 +485,9 @@
                     "Άνοιξε το στόμα σου."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈstoma/",
+        "countability": "countable"
     },
     {
         "word": "αυτί",
@@ -461,7 +506,9 @@
                     "Έχω δύο αυτιά."
                 ]
             }
-        ]
+        ],
+        "transcription": "/afˈti/",
+        "countability": "countable"
     },
     {
         "word": "πλάτη",
@@ -480,7 +527,8 @@
                     "Έχω πόνο στην πλάτη."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "σπίτι",
@@ -499,7 +547,9 @@
                     "Μένω σε ένα μεγάλο σπίτι."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈspiti/",
+        "countability": "countable"
     },
     {
         "word": "διαμέρισμα",
@@ -518,7 +568,9 @@
                     "Το διαμέρισμα είναι μικρό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ðiaˈmerizma/",
+        "countability": "countable"
     },
     {
         "word": "γραφείο",
@@ -537,7 +589,8 @@
                     "Το γραφείο μου είναι στο κέντρο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "αυτοκίνητο",
@@ -556,7 +609,9 @@
                     "Έχω ένα κόκκινο αυτοκίνητο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/aftoˈcinito/",
+        "countability": "countable"
     },
     {
         "word": "λεωφορείο",
@@ -575,7 +630,8 @@
                     "Πηγαίνω στη δουλειά με το λεωφορείο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "τρένο",
@@ -594,7 +650,8 @@
                     "Το τρένο είναι γρήγορο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "λεφτά",
@@ -613,7 +670,8 @@
                     "Δεν έχω λεφτά σήμερα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "πρωί",
@@ -632,7 +690,9 @@
                     "Δουλεύω το πρωί."
                 ]
             }
-        ]
+        ],
+        "transcription": "/proˈi/",
+        "countability": "countable"
     },
     {
         "word": "απόγευμα",
@@ -644,7 +704,9 @@
         "form": "noun",
         "plural": "απογεύματα",
         "subtext": "",
-        "synonyms": ["καλησπέρα"],
+        "synonyms": [
+            "καλησπέρα"
+        ],
         "definitions": [
             {
                 "text": "Το μέρος της ημέρας μετά το μεσημέρι.",
@@ -652,7 +714,8 @@
                     "Θα σε δω το απόγευμα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "βδομάδα",
@@ -664,7 +727,9 @@
         "form": "noun",
         "plural": "βδομάδες",
         "subtext": "",
-        "synonyms": ["εβδομάδα"],
+        "synonyms": [
+            "εβδομάδα"
+        ],
         "definitions": [
             {
                 "text": "Μια περίοδος επτά ημερών.",
@@ -672,7 +737,8 @@
                     "Δουλεύω πέντε μέρες τη βδομάδα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "δωμάτιο",
@@ -690,7 +756,10 @@
                     "Το διαμέρισμα έχει τρία δωμάτια."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ðoˈmatio/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "κουζίνα",
@@ -708,7 +777,9 @@
                     "Μαγειρεύω στην κουζίνα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "τιμή",
@@ -720,7 +791,9 @@
         "form": "noun",
         "plural": "τιμές",
         "subtext": "",
-        "synonyms": ["κόστος"],
+        "synonyms": [
+            "κόστος"
+        ],
         "definitions": [
             {
                 "text": "Το ποσό των χρημάτων που πληρώνεις για κάτι.",
@@ -728,7 +801,8 @@
                     "Η τιμή είναι υψηλή."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "πόρτα",
@@ -747,7 +821,9 @@
                     "Παρακαλώ κλείστε την πόρτα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈporda/",
+        "countability": "countable"
     },
     {
         "word": "παράθυρο",
@@ -766,7 +842,9 @@
                     "Άνοιξε το παράθυρο, κάνει ζέστη."
                 ]
             }
-        ]
+        ],
+        "transcription": "/paˈraθiro/",
+        "countability": "countable"
     },
     {
         "word": "νοσοκομείο",
@@ -784,7 +862,10 @@
                     "Πήγε στο νοσοκομείο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/nosocoˈmio/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "εστιατόριο",
@@ -802,7 +883,10 @@
                     "Πάμε σε ένα εστιατόριο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/estiaˈtorio/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "τράπεζα",
@@ -820,7 +904,9 @@
                     "Η τράπεζα είναι κοντά."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "σταθμός",
@@ -839,7 +925,8 @@
                     "Ο σταθμός είναι δέκα λεπτά από εδώ."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "σούπερ μάρκετ",
@@ -857,7 +944,10 @@
                     "Πάω στο σούπερ μάρκετ τα Σάββατα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈsuper ˈmarcet/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "ήλιος",
@@ -875,7 +965,10 @@
                     "Ο ήλιος είναι πολύ δυνατός σήμερα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈilios/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "βροχή",
@@ -893,7 +986,10 @@
                     "Έχει πολλή βροχή το φθινόπωρο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vroˈçi/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "αέρας",
@@ -905,7 +1001,9 @@
         "form": "noun",
         "plural": "αέρηδες",
         "subtext": "",
-        "synonyms": ["άνεμος"],
+        "synonyms": [
+            "άνεμος"
+        ],
         "definitions": [
             {
                 "text": "Ο αέρας που κινείται, ο άνεμος.",
@@ -913,7 +1011,8 @@
                     "Φυσάει δυνατός αέρας."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "σήμερα",
@@ -922,7 +1021,9 @@
         "emoji": "📅",
         "form": "adverb",
         "subtext": "",
-        "synonyms": ["αυτή τη μέρα"],
+        "synonyms": [
+            "αυτή τη μέρα"
+        ],
         "definitions": [
             {
                 "text": "Την τρέχουσα ημέρα.",
@@ -930,7 +1031,8 @@
                     "Έχω ραντεβού σήμερα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈsimera/"
     },
     {
         "word": "αύριο",
@@ -939,7 +1041,9 @@
         "emoji": "🔜",
         "form": "adverb",
         "subtext": "",
-        "synonyms": ["την επόμενη μέρα"],
+        "synonyms": [
+            "την επόμενη μέρα"
+        ],
         "definitions": [
             {
                 "text": "Την ημέρα μετά τη σημερινή.",
@@ -947,7 +1051,8 @@
                     "Θα πάω στον γιατρό αύριο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈavrio/"
     },
     {
         "word": "βράδυ",
@@ -959,7 +1064,10 @@
         "form": "noun",
         "plural": "βράδια",
         "subtext": "",
-        "synonyms": ["εσπέρα", "καλησπέρα"],
+        "synonyms": [
+            "εσπέρα",
+            "καλησπέρα"
+        ],
         "definitions": [
             {
                 "text": "Το τελευταίο μέρος της ημέρας.",
@@ -967,7 +1075,9 @@
                     "Τρώμε βραδινό το βράδυ."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈvraði/",
+        "countability": "countable"
     },
     {
         "word": "νύχτα",
@@ -979,7 +1089,9 @@
         "form": "noun",
         "plural": "νύχτες",
         "subtext": "",
-        "synonyms": ["καληνύχτα"],
+        "synonyms": [
+            "καληνύχτα"
+        ],
         "definitions": [
             {
                 "text": "Η περίοδος του σκότους μεταξύ απογεύματος και πρωινού.",
@@ -987,7 +1099,9 @@
                     "Κοιμάμαι οκτώ ώρες κάθε νύχτα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈnixta/",
+        "countability": "countable"
     },
     {
         "word": "φρούτο",
@@ -1006,7 +1120,9 @@
                     "Τα φρούτα είναι υγιεινά."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈfruto/",
+        "countability": "countable"
     },
     {
         "word": "λαχανικό",
@@ -1025,7 +1141,9 @@
                     "Τρώει λαχανικά κάθε μέρα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/laxaniˈko/",
+        "countability": "countable"
     },
     {
         "word": "μπύρα",
@@ -1044,7 +1162,9 @@
                     "Πίνει μια μπύρα το Σαββατοκύριακο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈbira/",
+        "countability": "uncountable"
     },
     {
         "word": "κρασί",
@@ -1063,7 +1183,9 @@
                     "Πίνει ένα ποτήρι κρασί το βράδυ."
                 ]
             }
-        ]
+        ],
+        "transcription": "/kraˈsi/",
+        "countability": "uncountable"
     },
     {
         "word": "νοσοκόμα",
@@ -1081,7 +1203,10 @@
                     "Η νοσοκόμα ελέγχει την πίεση."
                 ]
             }
-        ]
+        ],
+        "transcription": "/nosoˈkoma/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "οδηγός",
@@ -1100,7 +1225,9 @@
                     "Ο οδηγός του λεωφορείου ήταν ευγενικός."
                 ]
             }
-        ]
+        ],
+        "transcription": "/oðiˈɣos/",
+        "countability": "countable"
     },
     {
         "word": "μάγειρας",
@@ -1112,7 +1239,9 @@
         "form": "noun",
         "plural": "μάγειρες",
         "subtext": "",
-        "synonyms": ["σεφ"],
+        "synonyms": [
+            "σεφ"
+        ],
         "definitions": [
             {
                 "text": "Επαγγελματίας που μαγειρεύει φαγητά.",
@@ -1120,7 +1249,9 @@
                     "Ο μάγειρας φτιάχνει εξαιρετικό φαγητό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈmaʝiras/",
+        "countability": "countable"
     },
     {
         "word": "διευθυντής",
@@ -1132,7 +1263,9 @@
         "form": "noun",
         "plural": "διευθυντές",
         "subtext": "",
-        "synonyms": ["μάνατζερ"],
+        "synonyms": [
+            "μάνατζερ"
+        ],
         "definitions": [
             {
                 "text": "Άτομο που είναι υπεύθυνο για μια ομάδα ή επιχείρηση.",
@@ -1140,7 +1273,9 @@
                     "Ο διευθυντής μου δουλεύει πολλές ώρες."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ðiefθinˈdis/",
+        "countability": "countable"
     },
     {
         "word": "αεροπλάνο",
@@ -1158,7 +1293,10 @@
                     "Το αεροπλάνο προσγειώνεται στις εννέα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/aeroplano/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "ποδήλατο",
@@ -1177,7 +1315,9 @@
                     "Πηγαίνει στη δουλειά με το ποδήλατο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/poˈðilato/",
+        "countability": "countable"
     },
     {
         "word": "σύντροφος",
@@ -1189,7 +1329,10 @@
         "form": "noun",
         "plural": "σύντροφοι",
         "subtext": "",
-        "synonyms": ["παρτενέρ", "σύζυγος"],
+        "synonyms": [
+            "παρτενέρ",
+            "σύζυγος"
+        ],
         "definitions": [
             {
                 "text": "Το άτομο με το οποίο ζεις ή έχεις σχέση.",
@@ -1197,7 +1340,9 @@
                     "Ο σύντροφός μου δουλεύει εδώ."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈsindrofos/",
+        "countability": "countable"
     },
     {
         "word": "άντρας",
@@ -1209,7 +1354,9 @@
         "form": "noun",
         "plural": "άντρες",
         "subtext": "",
-        "synonyms": ["σύζυγος"],
+        "synonyms": [
+            "σύζυγος"
+        ],
         "definitions": [
             {
                 "text": "Ένας ενήλικος άνδρας ή ο σύζυγος.",
@@ -1217,7 +1364,9 @@
                     "Ο άντρας της είναι γιατρός."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈandras/",
+        "countability": "countable"
     },
     {
         "word": "γυναίκα",
@@ -1229,7 +1378,9 @@
         "form": "noun",
         "plural": "γυναίκες",
         "subtext": "",
-        "synonyms": ["σύζυγος"],
+        "synonyms": [
+            "σύζυγος"
+        ],
         "definitions": [
             {
                 "text": "Μια ενήλικη γυναίκα ή η σύζυγος.",
@@ -1237,7 +1388,9 @@
                     "Η γυναίκα του είναι δασκάλα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ʝiˈneka/",
+        "countability": "countable"
     },
     {
         "word": "παιδί",
@@ -1249,7 +1402,9 @@
         "form": "noun",
         "plural": "παιδιά",
         "subtext": "",
-        "synonyms": ["γιος ή κόρη"],
+        "synonyms": [
+            "γιος ή κόρη"
+        ],
         "definitions": [
             {
                 "text": "Ένας νέος άνθρωπος, γιος ή κόρη.",
@@ -1257,7 +1412,9 @@
                     "Έχουν δύο παιδιά."
                 ]
             }
-        ]
+        ],
+        "transcription": "/peˈði/",
+        "countability": "countable"
     },
     {
         "word": "γονέας",
@@ -1269,7 +1426,9 @@
         "form": "noun",
         "plural": "γονείς",
         "subtext": "",
-        "synonyms": ["μητέρα ή πατέρας"],
+        "synonyms": [
+            "μητέρα ή πατέρας"
+        ],
         "definitions": [
             {
                 "text": "Η μητέρα ή ο πατέρας.",
@@ -1277,7 +1436,9 @@
                     "Οι γονείς μου μένουν στην Αθήνα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ɣoˈneas/",
+        "countability": "countable"
     },
     {
         "word": "πίτσα",
@@ -1296,7 +1457,9 @@
                     "Θέλεις πίτσα;"
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈpitsa/",
+        "countability": "countable"
     },
     {
         "word": "ζυμαρικά",
@@ -1308,7 +1471,9 @@
         "form": "noun",
         "plural": "ζυμαρικά",
         "subtext": "",
-        "synonyms": ["μακαρόνια και πέννες"],
+        "synonyms": [
+            "μακαρόνια και πέννες"
+        ],
         "definitions": [
             {
                 "text": "Ιταλικό φαγητό από αλεύρι.",
@@ -1316,7 +1481,8 @@
                     "Μου αρέσουν τα ζυμαρικά."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "μπανάνα",
@@ -1328,7 +1494,9 @@
         "form": "noun",
         "plural": "μπανάνες",
         "subtext": "",
-        "synonyms": ["κίτρινο φρούτο"],
+        "synonyms": [
+            "κίτρινο φρούτο"
+        ],
         "definitions": [
             {
                 "text": "Ένα μακρόστενο κίτρινο φρούτο.",
@@ -1336,7 +1504,8 @@
                     "Τρώω μια μπανάνα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "χυμός",
@@ -1355,7 +1524,8 @@
                     "Θέλεις χυμό;"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "πάρκο",
@@ -1374,7 +1544,8 @@
                     "Περπατάω στο πάρκο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "σχολείο",
@@ -1393,7 +1564,8 @@
                     "Το σχολείο είναι κλειστό."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "μπλουζάκι",
@@ -1412,7 +1584,8 @@
                     "Φοράω ένα μπλε μπλουζάκι."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "παντελόνι",
@@ -1431,7 +1604,8 @@
                     "Το παντελόνι είναι νέο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "παπούτσι",
@@ -1443,7 +1617,9 @@
         "form": "noun",
         "plural": "παπούτσια",
         "subtext": "",
-        "synonyms": ["ζευγάρι παπούτσια"],
+        "synonyms": [
+            "ζευγάρι παπούτσια"
+        ],
         "definitions": [
             {
                 "text": "Κάλυμμα για το πόδι.",
@@ -1451,7 +1627,8 @@
                     "Χρειάζομαι νέα παπούτσια."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "καπέλο",
@@ -1470,7 +1647,8 @@
                     "Πού είναι το καπέλο μου;"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "κλειδί",
@@ -1489,7 +1667,8 @@
                     "Έχασα τα κλειδιά μου."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "τηλέφωνο",
@@ -1508,7 +1687,8 @@
                     "Πάρε με τηλέφωνο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "βιβλίο",
@@ -1527,7 +1707,9 @@
                     "Αυτό το βιβλίο είναι καλό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/viˈvlio/",
+        "countability": "countable"
     },
     {
         "word": "τσάντα",
@@ -1546,7 +1728,8 @@
                     "Η τσάντα είναι βαριά."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "στυλό",
@@ -1565,7 +1748,9 @@
                     "Έχεις ένα στυλό;"
                 ]
             }
-        ]
+        ],
+        "transcription": "/stiˈlo/",
+        "countability": "countable"
     },
     {
         "word": "γάτα",
@@ -1577,7 +1762,9 @@
         "form": "noun",
         "plural": "γάτες",
         "subtext": "",
-        "synonyms": ["κατοικίδιο ζώο"],
+        "synonyms": [
+            "κατοικίδιο ζώο"
+        ],
         "definitions": [
             {
                 "text": "Ένα μικρό ζώο.",
@@ -1585,7 +1772,9 @@
                     "Η γάτα κοιμάται."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈɣata/",
+        "countability": "countable"
     },
     {
         "word": "σκύλος",
@@ -1604,7 +1793,9 @@
                     "Ο σκύλος παίζει."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈscilos/",
+        "countability": "countable"
     },
     {
         "word": "πουλί",
@@ -1623,7 +1814,9 @@
                     "Ακούω το πουλί."
                 ]
             }
-        ]
+        ],
+        "transcription": "/puˈli/",
+        "countability": "countable"
     },
     {
         "word": "ψάρι",
@@ -1642,7 +1835,9 @@
                     "Τρώω ψάρι."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈpsari/",
+        "countability": "countable"
     },
     {
         "word": "πόδι",
@@ -1661,7 +1856,9 @@
                     "Έχω δύο πόδια."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈpoði/",
+        "countability": "countable"
     },
     {
         "word": "μύτη",
@@ -1680,7 +1877,9 @@
                     "Έχω μικρή μύτη."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈmiti/",
+        "countability": "countable"
     },
     {
         "word": "έξυπνο τηλέφωνο",
@@ -1699,7 +1898,8 @@
                     "Το κινητό μου είναι νέο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "μητέρα",
@@ -1711,7 +1911,9 @@
         "form": "noun",
         "plural": "μητέρες",
         "subtext": "",
-        "synonyms": ["η μαμά μου"],
+        "synonyms": [
+            "η μαμά μου"
+        ],
         "definitions": [
             {
                 "text": "Γυναίκα γονέας.",
@@ -1719,7 +1921,9 @@
                     "Η μητέρα μου είναι δασκάλα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/miˈtera/",
+        "countability": "countable"
     },
     {
         "word": "πατέρας",
@@ -1731,7 +1935,9 @@
         "form": "noun",
         "plural": "πατέρες",
         "subtext": "",
-        "synonyms": ["ο μπαμπάς μου"],
+        "synonyms": [
+            "ο μπαμπάς μου"
+        ],
         "definitions": [
             {
                 "text": "Άνδρας γονέας.",
@@ -1739,7 +1945,9 @@
                     "Ο πατέρας μου δουλεύει."
                 ]
             }
-        ]
+        ],
+        "transcription": "/paˈteras/",
+        "countability": "countable"
     },
     {
         "word": "δουλειά",
@@ -1758,7 +1966,8 @@
                     "Έχω πολλή δουλειά."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "εργασία",
@@ -1770,7 +1979,9 @@
         "form": "noun",
         "plural": "εργασίες",
         "subtext": "",
-        "synonyms": ["εύρεση εργασίας"],
+        "synonyms": [
+            "εύρεση εργασίας"
+        ],
         "definitions": [
             {
                 "text": "Το επάγγελμα κάποιου.",
@@ -1778,7 +1989,8 @@
                     "Η εργασία μου είναι ενδιαφέρουσα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "σπίτι",
@@ -1797,7 +2009,9 @@
                     "Το σπίτι μου είναι μικρό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈspiti/",
+        "countability": "countable"
     },
     {
         "word": "πρωινό",
@@ -1816,7 +2030,8 @@
                     "Το πρωινό είναι έτοιμο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "βραδινό",
@@ -1835,7 +2050,8 @@
                     "Τι θα φάμε για βραδινό;"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "φίλος",
@@ -1854,7 +2070,9 @@
                     "Ο φίλος μου είναι εδώ."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈfilos/",
+        "countability": "countable"
     },
     {
         "word": "ημέρα",
@@ -1873,7 +2091,8 @@
                     "Η ημέρα είναι μεγάλη."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "κάθε μέρα",
@@ -1889,7 +2108,8 @@
                     "Τρέχω κάθε μέρα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "μεσημεριανό",
@@ -1908,7 +2128,8 @@
                     "Τρώμε μεσημεριανό στις δύο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "αφεντικό",
@@ -1927,7 +2148,9 @@
                     "Το αφεντικό μου είναι καλό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/afenˈdiko/",
+        "countability": "countable"
     },
     {
         "word": "συνάδελφος",
@@ -1939,7 +2162,9 @@
         "form": "noun",
         "plural": "συνάδελφοι",
         "subtext": "",
-        "synonyms": ["συνεργάζομαι με συναδέλφους"],
+        "synonyms": [
+            "συνεργάζομαι με συναδέλφους"
+        ],
         "definitions": [
             {
                 "text": "Άτομο που εργάζεται μαζί μας.",
@@ -1947,7 +2172,9 @@
                     "Ο συνάδελφός μου βοηθάει."
                 ]
             }
-        ]
+        ],
+        "transcription": "/siˈnaðelfos/",
+        "countability": "countable"
     },
     {
         "word": "μισθός",
@@ -1966,7 +2193,9 @@
                     "Ο μισθός μου είναι ικανοποιητικός."
                 ]
             }
-        ]
+        ],
+        "transcription": "/misˈθos/",
+        "countability": "countable"
     },
     {
         "word": "συνάντηση",
@@ -1985,7 +2214,9 @@
                     "Η συνάντηση ξεκινά τώρα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/siˈnandisi/",
+        "countability": "countable"
     },
     {
         "word": "μετακίνηση",
@@ -2004,7 +2235,8 @@
                     "Η μετακίνηση διαρκεί μια ώρα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "άγχος",
@@ -2022,7 +2254,9 @@
                     "Το άγχος δεν είναι καλό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈanxos/",
+        "countability": "countable"
     },
     {
         "word": "ενοίκιο",
@@ -2041,7 +2275,9 @@
                     "Το ενοίκιο είναι ακριβό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/eˈnicio/",
+        "countability": "countable"
     },
     {
         "word": "γείτονας",
@@ -2060,7 +2296,9 @@
                     "Ο γείτονας είναι φιλικός."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈʝitonas/",
+        "countability": "countable"
     },
     {
         "word": "ύπνος",
@@ -2071,7 +2309,9 @@
         "emoji": "😴",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["χρειάζομαι ύπνο"],
+        "synonyms": [
+            "χρειάζομαι ύπνο"
+        ],
         "definitions": [
             {
                 "text": "Η ξεκούραση τη νύχτα.",
@@ -2079,7 +2319,9 @@
                     "Ο ύπνος είναι σημαντικός."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈipnos/",
+        "countability": "countable"
     },
     {
         "word": "άσκηση",
@@ -2098,7 +2340,9 @@
                     "Η άσκηση κάνει καλό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈascisi/",
+        "countability": "countable"
     },
     {
         "word": "τιμή",
@@ -2117,7 +2361,8 @@
                     "Ποια είναι η τιμή;"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "κόστος",
@@ -2135,7 +2380,8 @@
                     "Το κόστος είναι μεγάλο."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "σχέση",
@@ -2154,7 +2400,9 @@
                     "Η σχέση μας είναι καλή."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈsçesi/",
+        "countability": "countable"
     },
     {
         "word": "μαζί",
@@ -2170,7 +2418,9 @@
                     "Είμαστε μαζί."
                 ]
             }
-        ]
+        ],
+        "transcription": "/maˈzi/",
+        "countability": "countable"
     },
     {
         "word": "διακοπές",
@@ -2189,7 +2439,8 @@
                     "Καλές διακοπές!"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ξενοδοχείο",
@@ -2208,7 +2459,9 @@
                     "Το ξενοδοχείο είναι καθαρό."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ksenoðoˈçio/",
+        "countability": "countable"
     },
     {
         "word": "ελεύθερος χρόνος",
@@ -2226,7 +2479,9 @@
                     "Δεν έχω ελεύθερο χρόνο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/eˈlefθeros ˈxronos/",
+        "countability": "countable"
     },
     {
         "word": "ταξίδι",
@@ -2245,7 +2500,9 @@
                     "Το ταξίδι ήταν ωραίο."
                 ]
             }
-        ]
+        ],
+        "transcription": "/taˈksiði/",
+        "countability": "countable"
     },
     {
         "word": "απόγευμα",
@@ -2264,7 +2521,8 @@
                     "Θα σε δω το απόγευμα."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "αύριο",
@@ -2280,7 +2538,9 @@
                     "Αύριο είναι Δευτέρα."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈavrio/",
+        "countability": "countable"
     },
     {
         "word": "σύζυγος",
@@ -2292,7 +2552,10 @@
         "form": "noun",
         "plural": "σύζυγοι",
         "subtext": "",
-        "synonyms": ["ο σύζυγός μου", "η σύζυγός μου"],
+        "synonyms": [
+            "ο σύζυγός μου",
+            "η σύζυγός μου"
+        ],
         "definitions": [
             {
                 "text": "Άντρας ή γυναίκα σε γάμο.",
@@ -2300,9 +2563,11 @@
                     "Η σύζυγός μου είναι εδώ."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈsizigos/",
+        "countability": "countable"
     }
-];
+]
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

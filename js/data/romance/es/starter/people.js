@@ -187,7 +187,7 @@
         "transcription": "ˈwiljam ˈʃeikspir",
         "form": "noun"
     }
-];
+]
     const lang = "es";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

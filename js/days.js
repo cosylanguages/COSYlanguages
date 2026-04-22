@@ -9,6 +9,17 @@
     let isTeacher = false;
     const TEACHER_PIN = '2025';
 
+    const LANG_FAMILIES = {
+        'en': 'germanic', 'de': 'germanic',
+        'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
+        'ru': 'slavic',
+        'el': 'hellenic',
+        'hy': 'armenian',
+        'ka': 'kartvelian',
+        'ba': 'turkic', 'tt': 'turkic',
+        'br': 'celtic'
+    };
+
     // ── Internal Utilities ───────────────────────────────
 
     function createEl(tag, className, text) {
@@ -351,9 +362,67 @@
 
         // Load curriculum data
         await loadCurriculumData(lang, level);
+        await loadStarterData(lang, level);
         renderCurriculum();
         buildSidebar();
         updateProgressUI();
+    }
+
+    async function loadStarterData(lang, level) {
+        const family = LANG_FAMILIES[lang.toLowerCase()] || 'romance';
+        const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
+        const base = `js/data/${family}/${lang.toLowerCase()}/${pLevel}/`;
+        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar.js'];
+
+        const loads = files.map(f => {
+            return new Promise((resolve) => {
+                const path = base + f;
+                if (document.querySelector(`script[src="${path}"]`)) return resolve();
+                const script = document.createElement('script');
+                script.src = path;
+                script.onload = () => resolve();
+                script.onerror = () => resolve(); // Ignore missing files
+                document.head.appendChild(script);
+            });
+        });
+        return Promise.all(loads);
+    }
+
+    function resolveWord(w) {
+        if (!w || typeof w !== 'string') return w;
+        const lang = currentCourse.lang.toLowerCase();
+
+        const sources = [
+            { data: (window.vocabularyData && window.vocabularyData[lang]) || [], type: 'vocab' },
+            { data: (window.verbsData && window.verbsData[lang]) || [], type: 'verb' },
+            { data: (window.adjectivesData && window.adjectivesData[lang]) || [], type: 'adj' }
+        ];
+
+        for (const source of sources) {
+            const found = source.data.find(item => item.word.toLowerCase() === w.toLowerCase());
+            if (found) {
+                const def = (found.definitions && found.definitions.length > 0) ? found.definitions[0] : null;
+                return {
+                    w: found.word,
+                    phon: found.transcription || found.phon || '',
+                    trans: def ? def.text : '',
+                    examples: def ? (def.examples || []) : [],
+                    subtext: found.subtext || '',
+                    opposite: found.opposite || '',
+                    synonyms: found.synonyms || [],
+                    countability: found.countability || '',
+                    v3: found.v3 || '',
+                    type: source.type
+                };
+            }
+        }
+        return { w: w, trans: '' };
+    }
+
+    function resolveGrammar(point) {
+        const lang = currentCourse.lang.toLowerCase();
+        const grammarSource = (window.grammarData && window.grammarData[lang]) || [];
+        return grammarSource.find(g => g.point === point);
     }
 
     async function loadCurriculumData(lang, level) {
@@ -630,13 +699,21 @@
 
     function renderGrammarPoints(lesson) {
         const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        const points = lesson.grammarPoints || (Array.isArray(lesson.grammar) ? lesson.grammar : []);
+        let points = lesson.grammarPoints || (Array.isArray(lesson.grammar) ? lesson.grammar : []);
+
+        if (typeof points === 'string') points = [points];
         if (!points || !points.length) {
             return `<p class="vocab-intro" data-translate-key="grammar_summary_soon">${t('grammar_summary_soon')}</p>
                     <a href="grammar-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink" data-translate-key="open_grammar_hub">${t('open_grammar_hub')}</a>`;
         }
 
-        return points.map(p => `
+        return points.map(p => {
+            if (typeof p === 'string') {
+                const resolved = resolveGrammar(p);
+                if (resolved) p = resolved;
+                else return `<!-- Resolved grammar point not found for: ${p} -->`;
+            }
+            return `
             <div class="gram-point">
                 <div class="gram-heading">
                     ${p.point} <span class="gram-tag">${p.tag || ''}</span>
@@ -665,25 +742,34 @@
                     </a>
                 </div>
             </div>
-        `).join('');
+        `; }).join('');
     }
 
     function renderVocabTabContent(lesson) {
         const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        let words = [];
+        let rawWords = [];
         if (lesson.vocabWords) {
-            words = lesson.vocabWords;
+            rawWords = lesson.vocabWords;
         } else if (Array.isArray(lesson.vocab) && lesson.vocab.length > 0) {
             if (typeof lesson.vocab[0] === 'string') {
-                words = lesson.vocab.map(v => ({ w: v, trans: '...' }));
+                rawWords = lesson.vocab.map(v => ({ w: v }));
             } else if (lesson.vocab[0].words) {
                 // Grouped
-                words = lesson.vocab.flatMap(g => g.words || []).map(w => (typeof w === 'string' ? { w: w, trans: '...' } : w));
+                rawWords = lesson.vocab.flatMap(g => g.words || []).map(w => (typeof w === 'string' ? { w: w } : w));
             } else {
                 // Flat objects
-                words = lesson.vocab;
+                rawWords = lesson.vocab;
             }
         }
+
+        const words = rawWords.map(rw => {
+            if (typeof rw === 'string') return resolveWord(rw);
+            if (rw.w && (!rw.trans || rw.trans === '...')) {
+                const resolved = resolveWord(rw.w);
+                return { ...resolved, ...rw, trans: rw.trans && rw.trans !== '...' ? rw.trans : resolved.trans, phon: rw.phon || resolved.phon };
+            }
+            return rw;
+        });
 
         if (!words.length) {
             return `<p class="vocab-intro" data-translate-key="vocab_list_soon">${t('vocab_list_soon')}</p>
@@ -701,14 +787,27 @@
                     </tr>
                 </thead>
                 <tbody>
-                    ${words.map(w => `
+                    ${words.map(w => {
+                        const badges = [];
+                        if (w.countability === 'uncountable') badges.push('<span style="font-size:0.6rem; background:var(--muted); color:white; padding:1px 4px; border-radius:3px; vertical-align:middle; margin-left:4px;">U</span>');
+                        if (w.type === 'verb' && w.v3) badges.push(`<span style="font-size:0.6rem; border:1px solid var(--muted); padding:1px 4px; border-radius:3px; vertical-align:middle; margin-left:4px;">v3: ${w.v3}</span>`);
+
+                        return `
                         <tr>
-                            <td class="content-l"><strong class="vc-word-title">${w.w}</strong></td>
+                            <td class="content-l">
+                                <strong class="vc-word-title">${w.w}</strong> ${badges.join('')}
+                                ${w.subtext ? `<div style="font-size: 0.7rem; color: var(--muted); margin-top: 2px;">${w.subtext}</div>` : ''}
+                                ${w.synonyms && w.synonyms.length ? `<div style="font-size: 0.65rem; color: var(--teal-dk); opacity: 0.7; margin-top: 1px;">≈ ${w.synonyms.join(', ')}</div>` : ''}
+                            </td>
                             <td class="content-l">${w.phon ? `<span class="vc-phon">${w.phon}</span>` : ''}</td>
-                            <td class="content-l" style="font-size: 0.85rem;">${w.trans || ''}</td>
+                            <td class="content-l" style="font-size: 0.85rem;">
+                                <div style="font-weight: 500;">${w.trans || ''}</div>
+                                ${w.opposite ? `<div style="font-size: 0.7rem; opacity: 0.8; margin-top: 2px;">↔️ ${w.opposite}</div>` : ''}
+                                ${w.examples && w.examples.length ? `<div style="font-size: 0.75rem; font-style: italic; opacity: 0.6; margin-top: 4px; border-left: 2px solid rgba(0,0,0,0.05); padding-left: 6px;">"${w.examples[0]}"</div>` : ''}
+                            </td>
                             <td><button class="ph-copy" onclick="cosyDays.speakText('${w.w.replace(/'/g, "\\'")}')">🔊</button></td>
                         </tr>
-                    `).join('')}
+                    `; }).join('')}
                 </tbody>
             </table>
             <div class="vocab-actions">

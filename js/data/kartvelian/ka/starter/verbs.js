@@ -3417,7 +3417,7 @@
         "v3": "აშენებული",
         "group": "irregular"
     }
-];
+]
     const lang = "ka";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

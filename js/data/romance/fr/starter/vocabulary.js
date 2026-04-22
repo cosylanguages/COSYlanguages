@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "médecin",
         "level": "starter",
@@ -237,7 +236,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/lɛ/"
     },
     {
         "word": "riz",
@@ -257,7 +257,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/ri/"
     },
     {
         "word": "viande",
@@ -277,7 +278,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/vjɑ̃d/"
     },
     {
         "word": "nourriture",
@@ -295,7 +297,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/nu.ʁi.tyʁ/"
     },
     {
         "word": "thé",
@@ -316,7 +319,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/te/"
     },
     {
         "word": "jus",
@@ -336,7 +340,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/ʒy/"
     },
     {
         "word": "eau",
@@ -357,7 +362,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/o/"
     },
     {
         "word": "parc",
@@ -376,7 +382,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/paʁk/"
     },
     {
         "word": "école",
@@ -395,7 +402,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.kɔl/"
     },
     {
         "word": "table",
@@ -415,7 +423,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tabl/"
     },
     {
         "word": "livre",
@@ -434,7 +443,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/livʁ/"
     },
     {
         "word": "stylo",
@@ -453,7 +463,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sti.lo/"
     },
     {
         "word": "chat",
@@ -474,7 +485,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃa/"
     },
     {
         "word": "chien",
@@ -495,7 +507,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃjɛ̃/"
     },
     {
         "word": "oiseau",
@@ -513,7 +526,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/wa.zo/"
     },
     {
         "word": "poisson",
@@ -531,7 +545,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pwa.sɔ̃/"
     },
     {
         "word": "tête",
@@ -551,7 +566,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tɛt/"
     },
     {
         "word": "main",
@@ -571,7 +587,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛ̃/"
     },
     {
         "word": "jambe",
@@ -591,7 +608,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒɑ̃b/"
     },
     {
         "word": "oeil",
@@ -611,7 +629,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/œj/"
     },
     {
         "word": "nez",
@@ -630,7 +649,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ne/"
     },
     {
         "word": "bouche",
@@ -650,7 +670,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/buʃ/"
     },
     {
         "word": "oreille",
@@ -670,7 +691,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔ.ʁɛj/"
     },
     {
         "word": "dos",
@@ -690,7 +712,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/do/"
     },
     {
         "word": "bras",
@@ -710,7 +733,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bʁa/"
     },
     {
         "word": "mère",
@@ -733,7 +757,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛʁ/"
     },
     {
         "word": "père",
@@ -756,7 +781,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɛʁ/"
     },
     {
         "word": "famille",
@@ -775,7 +801,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fa.mij/"
     },
     {
         "word": "ami",
@@ -794,7 +821,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.mi/"
     },
     {
         "word": "partenaire",
@@ -814,7 +842,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/paʁ.tə.nɛʁ/"
     },
     {
         "word": "homme",
@@ -834,7 +863,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔm/"
     },
     {
         "word": "maison",
@@ -854,7 +884,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛ.zɔ̃/"
     },
     {
         "word": "appartement",
@@ -874,7 +905,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.paʁ.tə.mɑ̃/"
     },
     {
         "word": "foyer",
@@ -893,7 +925,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/fwa.je/"
     },
     {
         "word": "voiture",
@@ -913,7 +946,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vwa.tyʁ/"
     },
     {
         "word": "argent",
@@ -933,7 +967,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/aʁ.ʒɑ̃/"
     },
     {
         "word": "matin",
@@ -953,7 +988,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ma.tɛ̃/"
     },
     {
         "word": "soir",
@@ -973,7 +1009,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/swaʁ/"
     },
     {
         "word": "jour",
@@ -992,7 +1029,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒuʁ/"
     },
     {
         "word": "semaine",
@@ -1012,7 +1050,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sə.mɛn/"
     },
     {
         "word": "chaque jour",
@@ -1027,7 +1066,8 @@
                     "Je bois du café chaque jour."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ʃak ʒuʁ/"
     },
     {
         "word": "patron",
@@ -1045,7 +1085,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pa.tʁɔ̃/"
     },
     {
         "word": "collègue",
@@ -1063,7 +1104,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ.lɛɡ/"
     },
     {
         "word": "salaire",
@@ -1086,7 +1128,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sa.lɛʁ/"
     },
     {
         "word": "réunion",
@@ -1109,7 +1152,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁe.y.njɔ̃/"
     },
     {
         "word": "trajet",
@@ -1127,7 +1171,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tʁa.ʒɛ/"
     },
     {
         "word": "stress",
@@ -1149,7 +1194,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/stʁɛs/"
     },
     {
         "word": "loyer",
@@ -1167,7 +1213,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/lwa.je/"
     },
     {
         "word": "voisin",
@@ -1185,7 +1232,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vwa.zɛ̃/"
     },
     {
         "word": "pièce",
@@ -1203,7 +1251,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pjɛs/"
     },
     {
         "word": "sommeil",
@@ -1221,7 +1270,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɔ.mɛj/"
     },
     {
         "word": "exercice",
@@ -1239,7 +1289,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/eɡ.zɛʁ.sis/"
     },
     {
         "word": "relation",
@@ -1262,7 +1313,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁə.la.sjɔ̃/"
     },
     {
         "word": "ensemble",
@@ -1279,7 +1331,8 @@
                     "Nous dînons ensemble."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ɑ̃.sɑ̃bl/"
     },
     {
         "word": "hôtel",
@@ -1297,7 +1350,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/o.tɛl/"
     },
     {
         "word": "week-end",
@@ -1315,7 +1369,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/wi.kɛnd/"
     },
     {
         "word": "temps libre",
@@ -1339,7 +1394,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/tɑ̃ libʁ/"
     },
     {
         "word": "bière",
@@ -1359,7 +1415,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/bjɛʁ/"
     },
     {
         "word": "vin",
@@ -1378,7 +1435,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/vɛ̃/"
     },
     {
         "word": "porte",
@@ -1397,7 +1455,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɔʁt/"
     },
     {
         "word": "fenêtre",
@@ -1416,7 +1475,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fə.nɛtʁ/"
     },
     {
         "word": "infirmier",
@@ -1435,7 +1495,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛ̃.fiʁ.mje/"
     },
     {
         "word": "conducteur",
@@ -1454,7 +1515,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ̃.dyk.tœʁ/"
     },
     {
         "word": "chef",
@@ -1473,7 +1535,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃɛf/"
     },
     {
         "word": "directeur",
@@ -1492,7 +1555,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/di.ʁɛk.tœʁ/"
     },
     {
         "word": "avion",
@@ -1511,7 +1575,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.vjɔ̃/"
     },
     {
         "word": "vélo",
@@ -1530,7 +1595,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ve.lo/"
     },
     {
         "word": "hôpital",
@@ -1549,7 +1615,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/o.pi.tal/"
     },
     {
         "word": "restaurant",
@@ -1568,7 +1635,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁɛs.tɔ.ʁɑ̃/"
     },
     {
         "word": "supermarché",
@@ -1587,7 +1655,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sy.pɛʁ.maʁ.ʃe/"
     },
     {
         "word": "soleil",
@@ -1606,7 +1675,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɔ.lɛj/"
     },
     {
         "word": "pluie",
@@ -1625,7 +1695,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/plɥi/"
     },
     {
         "word": "vent",
@@ -1644,7 +1715,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɑ̃/"
     },
     {
         "word": "nuit",
@@ -1663,7 +1735,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/nɥi/"
     },
     {
         "word": "aujourd'hui",
@@ -1681,7 +1754,8 @@
                     "Je travaille aujourd'hui."
                 ]
             }
-        ]
+        ],
+        "transcription": "/o.ʒuʁ.dɥi/"
     },
     {
         "word": "demain",
@@ -1699,7 +1773,8 @@
                     "On se voit demain."
                 ]
             }
-        ]
+        ],
+        "transcription": "/də.mɛ̃/"
     },
     {
         "word": "mari",
@@ -1718,7 +1793,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ma.ʁi/"
     },
     {
         "word": "femme",
@@ -1737,7 +1813,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fam/"
     },
     {
         "word": "enfant",
@@ -1756,7 +1833,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɑ̃.fɑ̃/"
     },
     {
         "word": "parent",
@@ -1775,7 +1853,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pa.ʁɑ̃/"
     },
     {
         "word": "soeur",
@@ -1794,7 +1873,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sœʁ/"
     },
     {
         "word": "frère",
@@ -1813,7 +1893,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fʁɛʁ/"
     },
     {
         "word": "fils",
@@ -1832,7 +1913,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fis/"
     },
     {
         "word": "grand-père",
@@ -1851,7 +1933,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡʁɑ̃.pɛʁ/"
     },
     {
         "word": "grand-mère",
@@ -1870,7 +1953,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡʁɑ̃.mɛʁ/"
     },
     {
         "word": "oncle",
@@ -1889,7 +1973,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔ̃kl/"
     },
     {
         "word": "tante",
@@ -1908,7 +1993,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tɑ̃t/"
     },
     {
         "word": "cousin",
@@ -1927,7 +2013,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ku.zɛ̃/"
     },
     {
         "word": "arbre",
@@ -1946,7 +2033,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/aʁbʁ/"
     },
     {
         "word": "fleur",
@@ -1965,7 +2053,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/flœʁ/"
     },
     {
         "word": "montagne",
@@ -1984,7 +2073,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɔ̃.taɲ/"
     },
     {
         "word": "rivière",
@@ -2003,7 +2093,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁi.vjɛʁ/"
     },
     {
         "word": "mer",
@@ -2022,7 +2113,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛʁ/"
     },
     {
         "word": "ciel",
@@ -2041,7 +2133,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sjɛl/"
     },
     {
         "word": "lune",
@@ -2060,7 +2153,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/lyn/"
     },
     {
         "word": "assiette",
@@ -2079,7 +2173,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.sjɛt/"
     },
     {
         "word": "tasse",
@@ -2098,7 +2193,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tas/"
     },
     {
         "word": "verre",
@@ -2117,7 +2213,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɛʁ/"
     },
     {
         "word": "fourchette",
@@ -2136,7 +2233,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fuʁ.ʃɛt/"
     },
     {
         "word": "cuillère",
@@ -2155,7 +2253,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɥi.jɛʁ/"
     },
     {
         "word": "couteau",
@@ -2174,7 +2273,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ku.to/"
     },
     {
         "word": "ordinateur portable",
@@ -2193,7 +2293,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔʁ.di.na.tœʁ pɔʁ.tabl/"
     },
     {
         "word": "cinéma",
@@ -2212,7 +2313,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/si.ne.ma/"
     },
     {
         "word": "musée",
@@ -2231,7 +2333,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/my.ze/"
     },
     {
         "word": "pharmacie",
@@ -2250,7 +2353,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/faʁ.ma.si/"
     },
     {
         "word": "poulet",
@@ -2269,7 +2373,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pu.lɛ/"
     },
     {
         "word": "sucre",
@@ -2288,7 +2393,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/sykʁ/"
     },
     {
         "word": "salade",
@@ -2307,7 +2413,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sa.lad/"
     },
     {
         "word": "cou",
@@ -2326,7 +2433,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ku/"
     },
     {
         "word": "épaule",
@@ -2345,7 +2453,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.pol/"
     },
     {
         "word": "dans",
@@ -2363,7 +2472,8 @@
                     "Le chat est dans la boîte."
                 ]
             }
-        ]
+        ],
+        "transcription": "/dɑ̃/"
     },
     {
         "word": "sur",
@@ -2381,7 +2491,8 @@
                     "Le livre est sur la table."
                 ]
             }
-        ]
+        ],
+        "transcription": "/syʁ/"
     },
     {
         "word": "à",
@@ -2399,7 +2510,8 @@
                     "Je vais à Paris."
                 ]
             }
-        ]
+        ],
+        "transcription": "/a/"
     },
     {
         "word": "sous",
@@ -2417,7 +2529,8 @@
                     "Le chien est sous la table."
                 ]
             }
-        ]
+        ],
+        "transcription": "/su/"
     },
     {
         "word": "et",
@@ -2435,7 +2548,8 @@
                     "Toi et moi."
                 ]
             }
-        ]
+        ],
+        "transcription": "/e/"
     },
     {
         "word": "mais",
@@ -2453,7 +2567,8 @@
                     "C'est bon mais cher."
                 ]
             }
-        ]
+        ],
+        "transcription": "/mɛ/"
     },
     {
         "word": "parce que",
@@ -2471,7 +2586,8 @@
                     "Je dors parce que je suis fatigué."
                 ]
             }
-        ]
+        ],
+        "transcription": "/paʁ.sə kə/"
     },
     {
         "word": "problème",
@@ -2490,7 +2606,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pʁɔ.blɛm/"
     },
     {
         "word": "boeuf",
@@ -2509,7 +2626,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bœf/"
     },
     {
         "word": "porc",
@@ -2528,7 +2646,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɔʁ/"
     },
     {
         "word": "pomme de terre",
@@ -2547,7 +2666,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɔm də tɛʁ/"
     },
     {
         "word": "tomate",
@@ -2566,7 +2686,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tɔ.mat/"
     },
     {
         "word": "oignon",
@@ -2585,7 +2706,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔ.ɲɔ̃/"
     },
     {
         "word": "carotte",
@@ -2604,7 +2726,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ka.ʁɔt/"
     },
     {
         "word": "soupe",
@@ -2623,7 +2746,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/sup/"
     },
     {
         "word": "gâteau",
@@ -2642,7 +2766,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡɑ.to/"
     },
     {
         "word": "chocolat",
@@ -2661,7 +2786,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/ʃɔ.kɔ.la/"
     },
     {
         "word": "glace",
@@ -2680,7 +2806,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/ɡlas/"
     },
     {
         "word": "doigt",
@@ -2699,7 +2826,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/dwa/"
     },
     {
         "word": "orteil",
@@ -2718,7 +2846,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔʁ.tɛj/"
     },
     {
         "word": "estomac",
@@ -2737,7 +2866,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛs.tɔ.ma/"
     },
     {
         "word": "genou",
@@ -2756,7 +2886,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒə.nu/"
     },
     {
         "word": "herbe",
@@ -2775,7 +2906,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛʁb/"
     },
     {
         "word": "nuage",
@@ -2794,7 +2926,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/nɥaʒ/"
     },
     {
         "word": "étoile",
@@ -2813,7 +2946,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.twal/"
     },
     {
         "word": "horloge",
@@ -2832,7 +2966,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔʁ.lɔʒ/"
     },
     {
         "word": "bibliothèque",
@@ -2851,7 +2986,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bi.bli.jɔ.tɛk/"
     },
     {
         "word": "lundi",
@@ -2870,7 +3006,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/lœ̃.di/"
     },
     {
         "word": "mardi",
@@ -2889,7 +3026,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/maʁ.di/"
     },
     {
         "word": "mercredi",
@@ -2908,7 +3046,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛʁ.kʁə.di/"
     },
     {
         "word": "jeudi",
@@ -2927,7 +3066,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒø.di/"
     },
     {
         "word": "vendredi",
@@ -2946,7 +3086,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɑ̃.dʁə.di/"
     },
     {
         "word": "samedi",
@@ -2965,7 +3106,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sam.di/"
     },
     {
         "word": "dimanche",
@@ -2984,7 +3126,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/di.mɑ̃ʃ/"
     },
     {
         "word": "janvier",
@@ -3003,7 +3146,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒɑ̃.vje/"
     },
     {
         "word": "février",
@@ -3022,7 +3166,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fe.vʁi.je/"
     },
     {
         "word": "mars",
@@ -3041,7 +3186,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/maʁs/"
     },
     {
         "word": "avril",
@@ -3060,7 +3206,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.vʁil/"
     },
     {
         "word": "mai",
@@ -3079,7 +3226,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛ/"
     },
     {
         "word": "juin",
@@ -3098,7 +3246,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒɥɛ̃/"
     },
     {
         "word": "juillet",
@@ -3117,7 +3266,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒɥi.jɛ/"
     },
     {
         "word": "août",
@@ -3136,7 +3286,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ut/"
     },
     {
         "word": "septembre",
@@ -3155,7 +3306,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɛp.tɑ̃bʁ/"
     },
     {
         "word": "octobre",
@@ -3174,7 +3326,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔk.tɔbʁ/"
     },
     {
         "word": "novembre",
@@ -3193,7 +3346,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/nɔ.vɑ̃bʁ/"
     },
     {
         "word": "décembre",
@@ -3212,7 +3366,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/de.sɑ̃bʁ/"
     },
     {
         "word": "printemps",
@@ -3231,7 +3386,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pʁɛ̃.tɑ̃/"
     },
     {
         "word": "été",
@@ -3250,7 +3406,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.te/"
     },
     {
         "word": "automne",
@@ -3269,7 +3426,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/o.tɔn/"
     },
     {
         "word": "hiver",
@@ -3288,7 +3446,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/i.vɛʁ/"
     },
     {
         "word": "lion",
@@ -3307,7 +3466,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ljɔ̃/"
     },
     {
         "word": "éléphant",
@@ -3326,7 +3486,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.le.fɑ̃/"
     },
     {
         "word": "lapin",
@@ -3345,7 +3506,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/la.pɛ̃/"
     },
     {
         "word": "cheval",
@@ -3364,7 +3526,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃə.val/"
     },
     {
         "word": "vache",
@@ -3383,7 +3546,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vaʃ/"
     },
     {
         "word": "cochon",
@@ -3402,7 +3566,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ.ʃɔ̃/"
     },
     {
         "word": "mouton",
@@ -3421,7 +3586,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mu.tɔ̃/"
     },
     {
         "word": "citron",
@@ -3440,7 +3606,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/si.tʁɔ̃/"
     },
     {
         "word": "orange",
@@ -3459,7 +3626,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔ.ʁɑ̃ʒ/"
     },
     {
         "word": "fraise",
@@ -3478,7 +3646,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fʁɛz/"
     },
     {
         "word": "raisin",
@@ -3497,7 +3666,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁɛ.zɛ̃/"
     },
     {
         "word": "ail",
@@ -3516,7 +3686,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/aj/"
     },
     {
         "word": "toujours",
@@ -3534,7 +3705,8 @@
                     "Je bois toujours de l'eau."
                 ]
             }
-        ]
+        ],
+        "transcription": "/tu.ʒuʁ/"
     },
     {
         "word": "habituellement",
@@ -3552,7 +3724,8 @@
                     "D'habitude, je finis à 18h."
                 ]
             }
-        ]
+        ],
+        "transcription": "/a.bi.tɥɛl.mɑ̃/"
     },
     {
         "word": "souvent",
@@ -3570,7 +3743,8 @@
                     "Je vais souvent au cinéma."
                 ]
             }
-        ]
+        ],
+        "transcription": "/su.vɑ̃/"
     },
     {
         "word": "quelquefois",
@@ -3588,7 +3762,8 @@
                     "Il arrive quelquefois en retard."
                 ]
             }
-        ]
+        ],
+        "transcription": "/kɛl.kə.fwa/"
     },
     {
         "word": "jamais",
@@ -3606,7 +3781,8 @@
                     "Je ne fume jamais."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ʒa.mɛ/"
     },
     {
         "word": "qui",
@@ -3624,7 +3800,8 @@
                     "Qui est là ?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/ki/"
     },
     {
         "word": "quoi",
@@ -3642,7 +3819,8 @@
                     "C'est quoi ?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/kwa/"
     },
     {
         "word": "où",
@@ -3660,7 +3838,8 @@
                     "Où habites-tu ?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/u/"
     },
     {
         "word": "quand",
@@ -3678,7 +3857,8 @@
                     "Quand viens-tu ?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/kɑ̃/"
     },
     {
         "word": "pourquoi",
@@ -3696,7 +3876,8 @@
                     "Pourquoi dors-tu ?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/puʁ.kwa/"
     },
     {
         "word": "comment",
@@ -3714,7 +3895,8 @@
                     "Comment vas-tu ?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/kɔ.mɑ̃/"
     },
     {
         "word": "bonjour",
@@ -3733,7 +3915,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bɔ̃.ʒuʁ/"
     },
     {
         "word": "au revoir",
@@ -3752,7 +3935,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/o ʁə.vwaʁ/"
     },
     {
         "word": "s'il vous plaît",
@@ -3770,7 +3954,8 @@
                     "Un café, s'il vous plaît."
                 ]
             }
-        ]
+        ],
+        "transcription": "/sil vu plɛ/"
     },
     {
         "word": "merci",
@@ -3789,7 +3974,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɛʁ.si/"
     },
     {
         "word": "pardon",
@@ -3808,7 +3994,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/paʁ.dɔ̃/"
     },
     {
         "word": "oui",
@@ -3826,7 +4013,8 @@
                     "Oui, je veux bien."
                 ]
             }
-        ]
+        ],
+        "transcription": "/wi/"
     },
     {
         "word": "non",
@@ -3844,7 +4032,8 @@
                     "Non, merci."
                 ]
             }
-        ]
+        ],
+        "transcription": "/nɔ̃/"
     },
     {
         "word": "nom",
@@ -3863,7 +4052,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/nɔ̃/"
     },
     {
         "word": "violet",
@@ -3882,7 +4072,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vjɔ.lɛ/"
     },
     {
         "word": "salle de bain",
@@ -3901,7 +4092,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sal də bɛ̃/"
     },
     {
         "word": "chambre",
@@ -3920,7 +4112,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃɑ̃bʁ/"
     },
     {
         "word": "bébé",
@@ -3939,7 +4132,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/be.be/"
     },
     {
         "word": "garçon",
@@ -3958,7 +4152,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡaʁ.sɔ̃/"
     },
     {
         "word": "fille",
@@ -3977,7 +4172,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fij/"
     },
     {
         "word": "petit ami",
@@ -3996,7 +4192,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pə.ti.t‿a.mi/"
     },
     {
         "word": "petite amie",
@@ -4015,7 +4212,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pə.ti.t‿a.mi/"
     },
     {
         "word": "étudiant",
@@ -4034,7 +4232,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.ty.djɑ̃/"
     },
     {
         "word": "camarade de classe",
@@ -4053,7 +4252,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ka.ma.ʁad də klas/"
     },
     {
         "word": "appareil photo",
@@ -4072,7 +4272,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.pa.ʁɛj fo.to/"
     },
     {
         "word": "ordinateur",
@@ -4091,7 +4292,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔʁ.di.na.tœʁ/"
     },
     {
         "word": "bouteille",
@@ -4110,7 +4312,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bu.tɛj/"
     },
     {
         "word": "boîte",
@@ -4129,7 +4332,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bwat/"
     },
     {
         "word": "ballon",
@@ -4148,7 +4352,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ba.lɔ̃/"
     },
     {
         "word": "immeuble",
@@ -4167,7 +4372,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/i.mœbl/"
     },
     {
         "word": "café",
@@ -4186,7 +4392,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/ka.fe/"
     },
     {
         "word": "centre",
@@ -4205,7 +4412,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɑ̃tʁ/"
     },
     {
         "word": "beurre",
@@ -4224,7 +4432,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/bœʁ/"
     },
     {
         "word": "fromage",
@@ -4243,7 +4452,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/fʁɔ.maʒ/"
     },
     {
         "word": "acteur",
@@ -4262,7 +4472,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ak.tœʁ/"
     },
     {
         "word": "artiste",
@@ -4281,7 +4492,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/aʁ.tist/"
     },
     {
         "word": "adulte",
@@ -4300,7 +4512,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.dylt/"
     },
     {
         "word": "conseil",
@@ -4319,7 +4532,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ̃.sɛj/"
     },
     {
         "word": "âge",
@@ -4338,7 +4552,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/aʒ/"
     },
     {
         "word": "air",
@@ -4357,7 +4572,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛʁ/"
     },
     {
         "word": "quartier",
@@ -4376,7 +4592,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kaʁ.tje/"
     },
     {
         "word": "art",
@@ -4395,7 +4612,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/aʁ/"
     },
     {
         "word": "groupe",
@@ -4414,7 +4632,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡʁup/"
     },
     {
         "word": "bain",
@@ -4433,7 +4652,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bɛ̃/"
     },
     {
         "word": "anniversaire",
@@ -4452,7 +4672,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.ni.vɛʁ.sɛʁ/"
     },
     {
         "word": "bateau",
@@ -4471,7 +4692,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ba.to/"
     },
     {
         "word": "affaires",
@@ -4490,7 +4712,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.fɛʁ/"
     },
     {
         "word": "université",
@@ -4509,7 +4732,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/y.ni.vɛʁ.si.te/"
     },
     {
         "word": "concert",
@@ -4528,7 +4752,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ̃.sɛʁ/"
     },
     {
         "word": "conversation",
@@ -4547,7 +4772,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ̃.vɛʁ.sa.sjɔ̃/"
     },
     {
         "word": "encore",
@@ -4565,7 +4791,8 @@
                     "Encore une fois."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ɑ̃.kɔʁ/"
     },
     {
         "word": "il y a",
@@ -4583,7 +4810,8 @@
                     "Il y a deux jours."
                 ]
             }
-        ]
+        ],
+        "transcription": "/i.l‿i.j‿a/"
     },
     {
         "word": "aussi",
@@ -4601,7 +4829,8 @@
                     "Moi aussi."
                 ]
             }
-        ]
+        ],
+        "transcription": "/o.si/"
     },
     {
         "word": "vraiment",
@@ -4619,7 +4848,8 @@
                     "C'est vraiment bien."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vʁɛ.mɑ̃/"
     },
     {
         "word": "là",
@@ -4637,7 +4867,8 @@
                     "Le chat est là."
                 ]
             }
-        ]
+        ],
+        "transcription": "/la/"
     },
     {
         "word": "crayon",
@@ -4656,7 +4887,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kʁɛ.jɔ̃/"
     },
     {
         "word": "papier",
@@ -4675,7 +4907,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pa.pje/"
     },
     {
         "word": "monsieur",
@@ -4694,7 +4927,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mə.sjø/"
     },
     {
         "word": "madame",
@@ -4713,7 +4947,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ma.dam/"
     },
     {
         "word": "ville",
@@ -4732,7 +4967,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vil/"
     },
     {
         "word": "pays",
@@ -4751,7 +4987,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pe.i/"
     },
     {
         "word": "monde",
@@ -4770,7 +5007,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/mɔ̃d/"
     },
     {
         "word": "gens",
@@ -4789,7 +5027,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒɑ̃/"
     },
     {
         "word": "chose",
@@ -4808,7 +5047,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃoz/"
     },
     {
         "word": "temps",
@@ -4827,7 +5067,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/tɑ̃/"
     },
     {
         "word": "heure",
@@ -4846,7 +5087,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/œʁ/"
     },
     {
         "word": "minute",
@@ -4865,7 +5107,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mi.nyt/"
     },
     {
         "word": "seconde",
@@ -4884,7 +5127,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sə.ɡɔ̃d/"
     },
     {
         "word": "hier",
@@ -4902,7 +5146,8 @@
                     "Hier, j'étais fatigué."
                 ]
             }
-        ]
+        ],
+        "transcription": "/jɛʁ/"
     },
     {
         "word": "matinée",
@@ -4921,7 +5166,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ma.ti.ne/"
     },
     {
         "word": "après-midi",
@@ -4940,7 +5186,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.pʁɛ mi.di/"
     },
     {
         "word": "soirée",
@@ -4959,7 +5206,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/swa.ʁe/"
     },
     {
         "word": "minuit",
@@ -4978,7 +5226,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/mi.nɥi/"
     },
     {
         "word": "midi",
@@ -4997,7 +5246,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/mi.di/"
     },
     {
         "word": "travail",
@@ -5016,7 +5266,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tʁa.vaj/"
     },
     {
         "word": "boulot",
@@ -5035,7 +5286,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bu.lo/"
     },
     {
         "word": "métier",
@@ -5054,7 +5306,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/me.tje/"
     },
     {
         "word": "entreprise",
@@ -5073,7 +5326,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɑ̃.tʁə.pʁiz/"
     },
     {
         "word": "client",
@@ -5092,7 +5346,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kli.jɑ̃/"
     },
     {
         "word": "message",
@@ -5111,7 +5366,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/me.saʒ/"
     },
     {
         "word": "email",
@@ -5130,7 +5386,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/i.mɛl/"
     },
     {
         "word": "site web",
@@ -5149,7 +5406,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sit wɛb/"
     },
     {
         "word": "mot de passe",
@@ -5168,7 +5426,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mo də pas/"
     },
     {
         "word": "clavier",
@@ -5187,7 +5446,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kla.vje/"
     },
     {
         "word": "souris",
@@ -5206,7 +5466,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/su.ʁi/"
     },
     {
         "word": "écran",
@@ -5225,7 +5486,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.kʁɑ̃/"
     },
     {
         "word": "musique",
@@ -5244,7 +5506,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/my.zik/"
     },
     {
         "word": "chanson",
@@ -5263,7 +5526,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃɑ̃.sɔ̃/"
     },
     {
         "word": "film",
@@ -5282,7 +5546,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/film/"
     },
     {
         "word": "photo",
@@ -5301,7 +5566,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fo.to/"
     },
     {
         "word": "sport",
@@ -5320,7 +5586,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/spɔʁ/"
     },
     {
         "word": "football",
@@ -5339,7 +5606,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/fut.bal/"
     },
     {
         "word": "tennis",
@@ -5358,7 +5626,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/te.nis/"
     },
     {
         "word": "natation",
@@ -5377,7 +5646,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/na.ta.sjɔ̃/"
     },
     {
         "word": "cafétéria",
@@ -5396,7 +5666,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ka.fe.te.ʁja/"
     },
     {
         "word": "ticket",
@@ -5415,7 +5686,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ti.kɛ/"
     },
     {
         "word": "reçu",
@@ -5434,7 +5706,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁə.sy/"
     },
     {
         "word": "facture",
@@ -5453,7 +5726,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fak.tyʁ/"
     },
     {
         "word": "carte bancaire",
@@ -5472,7 +5746,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kaʁt bɑ̃.kɛʁ/"
     },
     {
         "word": "espèces",
@@ -5491,7 +5766,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛs.pɛs/"
     },
     {
         "word": "vêtement",
@@ -5510,7 +5786,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɛt.mɑ̃/"
     },
     {
         "word": "sel",
@@ -5529,7 +5806,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/sɛl/"
     },
     {
         "word": "poivre",
@@ -5548,7 +5826,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/pwavʁ/"
     },
     {
         "word": "huile",
@@ -5567,7 +5846,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɥil/"
     },
     {
         "word": "vinaigre",
@@ -5586,7 +5866,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vi.nɛɡʁ/"
     },
     {
         "word": "petit-déjeuner",
@@ -5605,7 +5886,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pə.ti de.ʒœ.ne/"
     },
     {
         "word": "goûter",
@@ -5624,7 +5906,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡu.te/"
     },
     {
         "word": "invité",
@@ -5643,7 +5926,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛ̃.vi.te/"
     },
     {
         "word": "fête",
@@ -5662,7 +5946,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fɛt/"
     },
     {
         "word": "voyageur",
@@ -5681,7 +5966,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vwa.ja.ʒœʁ/"
     },
     {
         "word": "rue",
@@ -5700,7 +5986,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁy/"
     },
     {
         "word": "chemin",
@@ -5719,7 +6006,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃə.mɛ̃/"
     },
     {
         "word": "route",
@@ -5738,7 +6026,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁut/"
     },
     {
         "word": "place",
@@ -5757,7 +6046,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/plas/"
     },
     {
         "word": "pont",
@@ -5776,7 +6066,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɔ̃/"
     },
     {
         "word": "plage",
@@ -5795,7 +6086,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/plaʒ/"
     },
     {
         "word": "campagne",
@@ -5814,7 +6106,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/kɑ̃.paɲ/"
     },
     {
         "word": "village",
@@ -5833,7 +6126,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vi.laʒ/"
     },
     {
         "word": "langue",
@@ -5852,7 +6146,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/lɑ̃ɡ/"
     },
     {
         "word": "mot",
@@ -5871,7 +6166,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mo/"
     },
     {
         "word": "phrase",
@@ -5890,7 +6186,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fʁaz/"
     },
     {
         "word": "question",
@@ -5909,7 +6206,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɛs.tjɔ̃/"
     },
     {
         "word": "réponse",
@@ -5928,7 +6226,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁe.pɔ̃s/"
     },
     {
         "word": "idée",
@@ -5947,7 +6246,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/i.de/"
     },
     {
         "word": "avis",
@@ -5966,7 +6266,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.vi/"
     },
     {
         "word": "opinion",
@@ -5985,7 +6286,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔ.pi.njɔ̃/"
     },
     {
         "word": "choix",
@@ -6004,7 +6306,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃwa/"
     },
     {
         "word": "décision",
@@ -6023,7 +6326,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/de.si.zjɔ̃/"
     },
     {
         "word": "projet",
@@ -6042,7 +6346,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pʁɔ.ʒɛ/"
     },
     {
         "word": "réussite",
@@ -6061,7 +6366,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁe.y.sit/"
     },
     {
         "word": "erreur",
@@ -6080,7 +6386,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.ʁœʁ/"
     },
     {
         "word": "faute",
@@ -6099,7 +6406,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fot/"
     },
     {
         "word": "cadeau",
@@ -6118,7 +6426,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ka.do/"
     },
     {
         "word": "prix",
@@ -6137,7 +6446,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pʁi/"
     },
     {
         "word": "achat",
@@ -6156,7 +6466,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.ʃa/"
     },
     {
         "word": "magasin",
@@ -6175,7 +6486,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ma.ɡa.zɛ̃/"
     },
     {
         "word": "centre commercial",
@@ -6194,7 +6506,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɑ̃.tʁə kɔ.mɛʁ.sjal/"
     },
     {
         "word": "monnaie",
@@ -6213,7 +6526,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/mɔ.nɛ/"
     },
     {
         "word": "compte",
@@ -6232,7 +6546,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ̃t/"
     },
     {
         "word": "banque",
@@ -6251,7 +6566,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bɑ̃k/"
     },
     {
         "word": "épargne",
@@ -6270,7 +6586,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/e.paʁɲ/"
     },
     {
         "word": "dépense",
@@ -6289,7 +6606,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/de.pɑ̃s/"
     },
     {
         "word": "paiement",
@@ -6308,7 +6626,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɛ.mɑ̃/"
     },
     {
         "word": "coût",
@@ -6327,7 +6646,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ku/"
     },
     {
         "word": "marché",
@@ -6346,7 +6666,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/maʁ.ʃe/"
     },
     {
         "word": "produit",
@@ -6365,7 +6686,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pʁɔ.dɥi/"
     },
     {
         "word": "service",
@@ -6384,7 +6706,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɛʁ.vis/"
     },
     {
         "word": "offre",
@@ -6403,7 +6726,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔfʁ/"
     },
     {
         "word": "demande",
@@ -6422,7 +6746,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/də.mɑ̃d/"
     },
     {
         "word": "livraison",
@@ -6441,7 +6766,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/li.vʁɛ.zɔ̃/"
     },
     {
         "word": "commande",
@@ -6460,7 +6786,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ.mɑ̃d/"
     },
     {
         "word": "clientèle",
@@ -6479,7 +6806,8 @@
                 ]
             }
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "transcription": "/kli.jɑ̃.tɛl/"
     },
     {
         "word": "vente",
@@ -6498,7 +6826,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɑ̃t/"
     },
     {
         "word": "boutique",
@@ -6517,7 +6846,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bu.tik/"
     },
     {
         "word": "étage",
@@ -6536,7 +6866,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.taʒ/"
     },
     {
         "word": "entrée",
@@ -6555,7 +6886,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɑ̃.tʁe/"
     },
     {
         "word": "sortie",
@@ -6574,7 +6906,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɔʁ.ti/"
     },
     {
         "word": "escalier",
@@ -6593,7 +6926,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɛs.ka.lje/"
     },
     {
         "word": "ascenseur",
@@ -6612,7 +6946,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.sɑ̃.sœʁ/"
     },
     {
         "word": "couloir",
@@ -6631,7 +6966,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ku.lwaʁ/"
     },
     {
         "word": "murs",
@@ -6650,7 +6986,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/myʁ/"
     },
     {
         "word": "toit",
@@ -6669,7 +7006,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/twa/"
     },
     {
         "word": "jardin",
@@ -6688,7 +7026,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒaʁ.dɛ̃/"
     },
     {
         "word": "garage",
@@ -6707,7 +7046,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡa.ʁaʒ/"
     },
     {
         "word": "salon",
@@ -6726,7 +7066,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sa.lɔ̃/"
     },
     {
         "word": "cuisine",
@@ -6745,7 +7086,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɥi.zin/"
     },
     {
         "word": "salle à manger",
@@ -6764,7 +7106,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sal a mɑ̃.ʒe/"
     },
     {
         "word": "toilette",
@@ -6783,7 +7126,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/twa.lɛt/"
     },
     {
         "word": "douche",
@@ -6802,7 +7146,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/duʃ/"
     },
     {
         "word": "robinet",
@@ -6821,7 +7166,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁɔ.bi.nɛ/"
     },
     {
         "word": "savon",
@@ -6840,7 +7186,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sa.vɔ̃/"
     },
     {
         "word": "serviette",
@@ -6859,7 +7206,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɛʁ.vjɛt/"
     },
     {
         "word": "miroir",
@@ -6878,7 +7226,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mi.ʁwaʁ/"
     },
     {
         "word": "lit",
@@ -6897,7 +7246,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/li/"
     },
     {
         "word": "oreiller",
@@ -6916,7 +7266,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɔ.ʁɛ.je/"
     },
     {
         "word": "couverture",
@@ -6935,7 +7286,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ku.vɛʁ.tyʁ/"
     },
     {
         "word": "armoire",
@@ -6954,7 +7306,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/aʁ.mwaʁ/"
     },
     {
         "word": "étagère",
@@ -6973,7 +7326,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/e.ta.ʒɛʁ/"
     },
     {
         "word": "bureau",
@@ -6992,7 +7346,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/by.ʁo/"
     },
     {
         "word": "chaise",
@@ -7011,7 +7366,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃɛz/"
     },
     {
         "word": "fauteuil",
@@ -7030,7 +7386,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/fo.tœj/"
     },
     {
         "word": "canapé",
@@ -7049,7 +7406,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ka.na.pe/"
     },
     {
         "word": "lampe",
@@ -7068,7 +7426,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/lɑ̃p/"
     },
     {
         "word": "télévision",
@@ -7087,7 +7446,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/te.le.vi.zjɔ̃/"
     },
     {
         "word": "radio",
@@ -7106,7 +7466,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁa.djo/"
     },
     {
         "word": "téléphone",
@@ -7125,7 +7486,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/te.le.fɔn/"
     },
     {
         "word": "montre",
@@ -7144,7 +7506,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɔ̃tʁ/"
     },
     {
         "word": "sac",
@@ -7163,7 +7526,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sak/"
     },
     {
         "word": "portefeuille",
@@ -7182,7 +7546,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɔʁ.tə.fœj/"
     },
     {
         "word": "lunettes",
@@ -7201,7 +7566,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ly.nɛt/"
     },
     {
         "word": "parapluie",
@@ -7220,7 +7586,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pa.ʁa.plɥi/"
     },
     {
         "word": "chaussures",
@@ -7239,7 +7606,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃo.syʁ/"
     },
     {
         "word": "bottes",
@@ -7258,7 +7626,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bɔt/"
     },
     {
         "word": "chaussettes",
@@ -7277,7 +7646,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃo.sɛt/"
     },
     {
         "word": "pantalon",
@@ -7296,7 +7666,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pɑ̃.ta.lɔ̃/"
     },
     {
         "word": "jean",
@@ -7315,7 +7686,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/dʒin/"
     },
     {
         "word": "jupe",
@@ -7334,7 +7706,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʒyp/"
     },
     {
         "word": "robe",
@@ -7353,7 +7726,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁɔb/"
     },
     {
         "word": "chemise",
@@ -7372,7 +7746,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃə.miz/"
     },
     {
         "word": "pull",
@@ -7391,7 +7766,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pyl/"
     },
     {
         "word": "manteau",
@@ -7410,7 +7786,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/mɑ̃.to/"
     },
     {
         "word": "veste",
@@ -7429,7 +7806,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɛst/"
     },
     {
         "word": "casquette",
@@ -7448,7 +7826,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kas.kɛt/"
     },
     {
         "word": "bonnet",
@@ -7467,7 +7846,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bɔ.nɛ/"
     },
     {
         "word": "gants",
@@ -7486,7 +7866,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡɑ̃/"
     },
     {
         "word": "ceinture",
@@ -7505,7 +7886,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sɛ̃.tyʁ/"
     },
     {
         "word": "maillot de bain",
@@ -7524,7 +7906,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ma.jo də bɛ̃/"
     },
     {
         "word": "pyjama",
@@ -7543,7 +7926,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pi.ʒa.ma/"
     },
     {
         "word": "valise",
@@ -7562,7 +7946,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/va.liz/"
     },
     {
         "word": "sac à dos",
@@ -7581,7 +7966,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sak a do/"
     },
     {
         "word": "passeport",
@@ -7600,7 +7986,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/pas.pɔʁ/"
     },
     {
         "word": "billet",
@@ -7619,7 +8006,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bi.jɛ/"
     },
     {
         "word": "carte",
@@ -7638,7 +8026,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kaʁt/"
     },
     {
         "word": "plan",
@@ -7657,7 +8046,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/plɑ̃/"
     },
     {
         "word": "gare",
@@ -7676,7 +8066,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ɡaʁ/"
     },
     {
         "word": "aéroport",
@@ -7695,7 +8086,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.e.ʁɔ.pɔʁ/"
     },
     {
         "word": "station de bus",
@@ -7714,7 +8106,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/sta.sjɔ̃ də bys/"
     },
     {
         "word": "arrêt de bus",
@@ -7733,7 +8126,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.ʁɛ də bys/"
     },
     {
         "word": "quai",
@@ -7752,7 +8146,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ke/"
     },
     {
         "word": "voie",
@@ -7771,7 +8166,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vwa/"
     },
     {
         "word": "train",
@@ -7790,7 +8186,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tʁɛ̃/"
     },
     {
         "word": "bus",
@@ -7809,7 +8206,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/bys/"
     },
     {
         "word": "métro",
@@ -7828,7 +8226,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/me.tʁo/"
     },
     {
         "word": "taxi",
@@ -7847,7 +8246,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/tak.si/"
     },
     {
         "word": "vitesse",
@@ -7866,7 +8266,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vi.tɛs/"
     },
     {
         "word": "bagages",
@@ -7885,7 +8286,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ba.ɡaʒ/"
     },
     {
         "word": "voyage",
@@ -7904,7 +8306,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vwa.jaʒ/"
     },
     {
         "word": "vacances",
@@ -7923,7 +8326,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/va.kɑ̃s/"
     },
     {
         "word": "départ",
@@ -7942,7 +8346,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/de.paʁ/"
     },
     {
         "word": "arrivée",
@@ -7961,7 +8366,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/a.ʁi.ve/"
     },
     {
         "word": "vol",
@@ -7980,7 +8386,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/vɔl/"
     },
     {
         "word": "réservation",
@@ -7999,7 +8406,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁe.zɛʁ.va.sjɔ̃/"
     },
     {
         "word": "chambre d'hôtel",
@@ -8018,7 +8426,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʃɑ̃.bʁə d‿o.tɛl/"
     },
     {
         "word": "clé",
@@ -8037,7 +8446,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kle/"
     },
     {
         "word": "réception",
@@ -8056,7 +8466,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁe.sɛp.sjɔ̃/"
     },
     {
         "word": "déjeuner",
@@ -8075,7 +8486,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/de.ʒœ.ne/"
     },
     {
         "word": "dîner",
@@ -8094,7 +8506,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/di.ne/"
     },
     {
         "word": "souper",
@@ -8113,7 +8526,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/su.pe/"
     },
     {
         "word": "collation",
@@ -8132,7 +8546,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/kɔ.la.sjɔ̃/"
     },
     {
         "word": "réveil",
@@ -8151,7 +8566,8 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": "/ʁe.vɛj/"
     },
     {
         "word": "je",
@@ -9353,7 +9769,7 @@
         ],
         "transcription": "natyʁ"
     }
-];
+]
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

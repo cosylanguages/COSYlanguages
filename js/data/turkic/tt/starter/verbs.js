@@ -3416,7 +3416,7 @@
         "v3": "төзегән",
         "group": "regular"
     }
-];
+]
     const lang = "tt";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

@@ -221,7 +221,7 @@
         ],
         "subtext": "nazionalità italiana, doppia nazionalità"
     }
-];
+]
 
     const lang = "it";
     window.adjectivesData = window.adjectivesData || {};

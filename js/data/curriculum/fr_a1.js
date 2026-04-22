@@ -22,13 +22,7 @@ window.curriculumData.fr_a1 = [
           visual: "🇫🇷🔤"
         }
       ],
-      vocab:[
-        {w:'Bonjour', emoji:'👋', trans:'Hello'},
-        {w:'Salut', emoji:'🖐️', trans:'Hi / Bye'},
-        {w:'Bienvenue', emoji:'🙏', trans:'Welcome'},
-        {w:'Merci', emoji:'🙏', trans:'Thank you'},
-        {w:'Au revoir', emoji:'👋', trans:'Goodbye'}
-      ],
+      vocab: ['Bonjour', 'Salut', 'Bienvenue', 'Merci', 'Au revoir'],
       cando:'Peut saluer et dire au revoir',
       hw:'Apprendre la chanson de l\'alphabet' },
     { code:'FR-002', num:2, title:'Comment t\'appelles-tu ?',
@@ -46,11 +40,7 @@ window.curriculumData.fr_a1 = [
           visual: "🔗"
         }
       ],
-      vocab:[
-        {w:'Nom', emoji:'🆔', trans:'Name'},
-        {w:'Comment', emoji:'❓', trans:'How'},
-        {w:'Enchanté', emoji:'🤝', trans:'Nice to meet you'}
-      ],
+      vocab: ['Nom', 'Comment', 'Enchanté'],
       cando:'Peut se présenter',
       hw:'Épeler son nom en français' },
     { code:'FR-003', num:3, title:'Les nombres 1-20',
@@ -66,13 +56,7 @@ window.curriculumData.fr_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'un', emoji:'1️⃣', trans:'one'},
-        {w:'deux', emoji:'2️⃣', trans:'two'},
-        {w:'trois', emoji:'3️⃣', trans:'three'},
-        {w:'dix', emoji:'🔟', trans:'ten'},
-        {w:'vingt', emoji:'2️⃣0️⃣', trans:'twenty'}
-      ],
+      vocab: ['un', 'deux', 'trois', 'dix', 'vingt'],
       cando:'Peut compter de 1 à 20',
       hw:'Compter les objets dans la pièce' },
     { code:'FR-004', num:4, title:'Paires minimales : Voyelles',
@@ -88,11 +72,7 @@ window.curriculumData.fr_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'rue', emoji:'🛣️', trans:'street'},
-        {w:'dessus', emoji:'⬆️', trans:'above'},
-        {w:'dessous', emoji:'⬇️', trans:'below'}
-      ],
+      vocab: ['rue', 'dessus', 'dessous'],
       cando:'Peut distinguer les sons /u/ et /y/',
       hw:'S\'enregistrer en disant rue et roue' },
     { code:'FR-005', num:5, title:'Phrases essentielles',
@@ -108,12 +88,7 @@ window.curriculumData.fr_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'S\'il vous plaît', emoji:'🙏', trans:'Please'},
-        {w:'Merci beaucoup', emoji:'🙏', trans:'Thank you very much'},
-        {w:'Pardon', emoji:'🙋', trans:'Excuse me'},
-        {w:'Désolé', emoji:'🙇', trans:'Sorry'}
-      ],
+      vocab: ["S'il vous plaît", 'Merci beaucoup', 'Pardon', 'Désolé'],
       cando:'Peut utiliser les phrases de politesse de base',
       hw:'Utiliser trois phrases de politesse demain' }
   ]
@@ -160,13 +135,7 @@ window.curriculumData.fr_a1 = [
           visual: "🔇"
         }
       ],
-      vocab:[
-        {w:'Bonjour', emoji:'👋', trans:'Hello'},
-        {w:'Salut', emoji:'🖐️', trans:'Hi / Bye'},
-        {w:'Merci', emoji:'🙏', trans:'Thank you'},
-        {w:'S\'il vous plaît', emoji:'🥺', trans:'Please'},
-        {w:'Enchanté', emoji:'🤝', trans:'Nice to meet you'}
-      ],
+      vocab: ['Bonjour', 'Salut', 'Merci', "S'il vous plaît", 'Enchanté'],
       verbs:['être','s\'appeler'],
       adj:['français','anglais'],
       speaking:'Se présenter et saluer en classe',
@@ -190,13 +159,7 @@ window.curriculumData.fr_a1 = [
           tip: "Smile slightly when pronouncing this sound."
         }
       ],
-      vocab:[
-        {w:'travail', emoji:'💼', trans:'work'},
-        {w:'bureau', emoji:'🏢', trans:'office / desk'},
-        {w:'collègue', emoji:'🤝', trans:'colleague'},
-        {w:'salaire', emoji:'💰', trans:'salary'},
-        {w:'ordinateur', emoji:'💻', trans:'computer'}
-      ],
+      vocab: ['travail', 'bureau', 'collègue', 'salaire', 'ordinateur'],
       verbs:['avoir','travailler'],
       adj:['occupé','libre'],
       speaking:'Décrire son métier et ses outils',
@@ -222,13 +185,7 @@ window.curriculumData.fr_a1 = [
           visual: "🕯️"
         }
       ],
-      vocab:[
-        {w:'appartement', emoji:'🏢', trans:'apartment'},
-        {w:'maison', emoji:'🏠', trans:'house'},
-        {w:'ville', emoji:'🏙️', trans:'city'},
-        {w:'pays', emoji:'🗺️', trans:'country'},
-        {w:'rue', emoji:'🛣️', trans:'street'}
-      ],
+      vocab: ['appartement', 'maison', 'ville', 'pays', 'rue'],
       verbs:['habiter','habiter'],
       adj:['grand','petit','moderne'],
       speaking:'Décrire son domicile et sa localisation',
@@ -252,13 +209,7 @@ window.curriculumData.fr_a1 = [
           tip: "Keep your tongue forward and your lips very tight."
         }
       ],
-      vocab:[
-        {w:'père', emoji:'👨', trans:'father'},
-        {w:'mère', emoji:'👩', trans:'mother'},
-        {w:'frère', emoji:'👦', trans:'brother'},
-        {w:'sœur', emoji:'👧', trans:'sister'},
-        {w:'enfant', emoji:'👶', trans:'child'}
-      ],
+      vocab: ['père', 'mère', 'frère', 'sœur', 'enfant'],
       verbs:['avoir','aimer'],
       adj:['marié','célibataire'],
       speaking:'Présenter sa famille à l\'aide de photos',
@@ -282,14 +233,7 @@ window.curriculumData.fr_a1 = [
           tip: "Don't pronounce the 'n' or 'm' fully."
         }
       ],
-      vocab:[
-        {w:'prix', emoji:'🏷️', trans:'price'},
-        {w:'argent', emoji:'💵', trans:'money'},
-        {w:'carte', emoji:'💳', trans:'card'},
-        {w:'espèces', emoji:'💰', trans:'cash'},
-        {w:'cher', emoji:'💎', trans:'expensive'},
-        {w:'bon marché', emoji:'🏷️', trans:'cheap'}
-      ],
+      vocab: ['prix', 'argent', 'carte', 'espèces', 'cher', 'bon marché'],
       verbs:['payer','acheter','coûter'],
       adj:['cher','gratuit'],
       speaking:'Acheter des articles dans un magasin fictif',
@@ -313,14 +257,7 @@ window.curriculumData.fr_a1 = [
           tip: "Push your lips forward into an 'O' shape."
         }
       ],
-      vocab:[
-        {w:'pain', emoji:'🥖', trans:'bread'},
-        {w:'café', emoji:'☕', trans:'coffee'},
-        {w:'eau', emoji:'🚰', trans:'water'},
-        {w:'vin', emoji:'🍷', trans:'wine'},
-        {w:'fromage', emoji:'🧀', trans:'cheese'},
-        {w:'repas', emoji:'🍽️', trans:'meal'}
-      ],
+      vocab: ['pain', 'café', 'eau', 'vin', 'fromage', 'repas'],
       verbs:['manger','boire','vouloir'],
       adj:['bon','mauvais','froid','chaud'],
       speaking:'Commander au restaurant',
@@ -344,13 +281,7 @@ window.curriculumData.fr_a1 = [
           tip: "Keep the tip of your tongue down behind your bottom teeth."
         }
       ],
-      vocab:[
-        {w:'tête', emoji:'💆', trans:'head'},
-        {w:'dos', emoji:'🤺', trans:'back'},
-        {w:'ventre', emoji:'🤰', trans:'stomach'},
-        {w:'médecin', emoji:'👨‍⚕️', trans:'doctor'},
-        {w:'médicament', emoji:'💊', trans:'medicine'}
-      ],
+      vocab: ['tête', 'dos', 'ventre', 'médecin', 'médicament'],
       verbs:['dormir','marcher','souffrir'],
       adj:['fatigué','malade','en forme'],
       speaking:'Expliquer ses symptômes au médecin',
@@ -362,7 +293,7 @@ window.curriculumData.fr_a1 = [
       hw:'Apprendre les parties du corps' },
     { code:'FR-08', num:8, title:'La technologie dans ma vie',
       grammar:'Verbes en -ER (groupe 1) au présent',
-      vocab:['téléphone','internet','réseaux sociaux','mail','écran'],
+      vocab: ['téléphone','internet','réseaux sociaux','mail','écran'],
       verbs:['utiliser','regarder','envoyer','surfer'],
       adj:['utile','rapide','lent'],
       speaking:'Parler de son usage des écrans',
@@ -374,7 +305,7 @@ window.curriculumData.fr_a1 = [
       hw:'Traduire 5 phrases sur la technologie' },
     { code:'FR-09', num:9, title:'Mes loisirs et passions',
       grammar:'Le verbe "faire" + activités',
-      vocab:['sport','musique','cinéma','voyage','lecture'],
+      vocab: ['sport','musique','cinéma','voyage','lecture'],
       verbs:['faire','aimer','adorer','détester'],
       adj:['amusant','ennuyeux','intéressant'],
       speaking:'Partager ses activités du week-end',
@@ -386,7 +317,7 @@ window.curriculumData.fr_a1 = [
       hw:'Rédiger 5 phrases sur ses goûts' },
     { code:'FR-10', num:10, title:'Révision Unité 1 — Ma vie',
       grammar:'Récapitulatif présent, articles et possessifs',
-      vocab:['Tout le vocabulaire de l\'Unité 1'],
+      vocab: ['Tout le vocabulaire de l\'Unité 1'],
       verbs:['Être','Avoir','Faire','Verbes en -ER'],
       adj:['Accord des adjectifs'],
       speaking:'Bilan oral de 3 minutes sur soi-même',
@@ -412,7 +343,7 @@ window.curriculumData.fr_a1 = [
   lessons:[
     { code:'FR-11', num:1, title:'Hier, j\'ai fait...',
       grammar:'Passé composé avec avoir (verbes réguliers)',
-      vocab:['hier','matin','après-midi','soir'],
+      vocab: ['hier','matin','après-midi','soir'],
       verbs:['manger','travailler','regarder','écouter'],
       adj:[],
       speaking:'Raconter sa journée d\'hier',
@@ -424,7 +355,7 @@ window.curriculumData.fr_a1 = [
       hw:'Liste de verbes au participe passé' },
     { code:'FR-12', num:2, title:'Mon parcours scolaire',
       grammar:'Passé composé (verbes irréguliers courants)',
-      vocab:['école','université','diplôme','examen'],
+      vocab: ['école','université','diplôme','examen'],
       verbs:['faire','apprendre','comprendre','lire','écrire'],
       adj:['difficile','facile'],
       speaking:'Parler de ses études passées',
@@ -436,7 +367,7 @@ window.curriculumData.fr_a1 = [
       hw:'Traduire son diplôme en français' },
     { code:'FR-13', num:3, title:'Je suis allé en vacances',
       grammar:'Passé composé avec être (mouvement)',
-      vocab:['vacances','hôtel','plage','montagne','gare'],
+      vocab: ['vacances','hôtel','plage','montagne','gare'],
       verbs:['aller','partir','venir','revenir','rester'],
       adj:['merveilleux','fatigant'],
       speaking:'Raconter ses dernières vacances',
@@ -448,7 +379,7 @@ window.curriculumData.fr_a1 = [
       hw:'Apprendre la liste des verbes "Maison d\'Être"' },
     { code:'FR-14', num:4, title:'Quand j\'étais petit...',
       grammar:'Imparfait pour la description',
-      vocab:['enfant','jouet','école primaire','campagne'],
+      vocab: ['enfant','jouet','école primaire','campagne'],
       verbs:['être','avoir','habiter','aimer'],
       adj:['petit','jeune','mignon'],
       speaking:'Décrire sa vie à 8 ans',
@@ -460,7 +391,7 @@ window.curriculumData.fr_a1 = [
       hw:'Apporter une photo d\'enfance' },
     { code:'FR-15', num:5, title:'Mes anciens jobs',
       grammar:'Passé composé vs Imparfait (initiation)',
-      vocab:['entreprise','poste','patron','expérience'],
+      vocab: ['entreprise','poste','patron','expérience'],
       verbs:['travailler','gérer','rencontrer'],
       adj:['ancien','nouveau'],
       speaking:'Comparer deux expériences professionnelles',
@@ -472,7 +403,7 @@ window.curriculumData.fr_a1 = [
       hw:'Écrire 5 phrases de comparaison passé/présent' },
     { code:'FR-16', num:6, title:'Il y a deux ans...',
       grammar:'Marqueurs temporels (il y a, pendant, depuis)',
-      vocab:['temps','durée','siècle','époque'],
+      vocab: ['temps','durée','siècle','époque'],
       verbs:['vivre','étudier','attendre'],
       adj:['long','court'],
       speaking:'Utiliser les marqueurs de temps pour son récit',
@@ -484,7 +415,7 @@ window.curriculumData.fr_a1 = [
       hw:'Calculer des durées en français' },
     { code:'FR-17', num:7, title:'Un événement marquant',
       grammar:'Récit complet au passé',
-      vocab:['surprise','accident','fête','mariage','naissance'],
+      vocab: ['surprise','accident','fête','mariage','naissance'],
       verbs:['arriver','se passer','célébrer'],
       adj:['surpris','heureux'],
       speaking:'Raconter une anecdote personnelle',
@@ -496,7 +427,7 @@ window.curriculumData.fr_a1 = [
       hw:'Apprendre 10 verbes d\'action au passé' },
     { code:'FR-18', num:8, title:'Mes habitudes passées',
       grammar:'Imparfait pour l\'habitude',
-      vocab:['habitude','souvent','toujours','parfois'],
+      vocab: ['habitude','souvent','toujours','parfois'],
       verbs:['faire','aller','jouer'],
       adj:['traditionnel','habituel'],
       speaking:'Comparer ses habitudes d\'hier et d\'aujourd\'hui',
@@ -508,7 +439,7 @@ window.curriculumData.fr_a1 = [
       hw:'Interviewer un parent sur ses habitudes' },
     { code:'FR-19', num:9, title:'Rapporter des paroles (Passé)',
       grammar:'Discours rapporté simple (Il a dit que...)',
-      vocab:['dire','raconter','demander','répondre'],
+      vocab: ['dire','raconter','demander','répondre'],
       verbs:['dire','penser'],
       adj:[],
       speaking:'Rapporter une conversation de la veille',
@@ -520,7 +451,7 @@ window.curriculumData.fr_a1 = [
       hw:'Transformer 5 phrases directes en indirectes' },
     { code:'FR-20', num:20, title:'Unit 2 Review — Mon passé',
       grammar:'Bilan Passé composé / Imparfait',
-      vocab:['Tout le vocabulaire de l\'Unité 2'],
+      vocab: ['Tout le vocabulaire de l\'Unité 2'],
       verbs:['Tous les verbes au passé'],
       adj:['Adjectifs de description'],
       speaking:'Présenter son parcours de vie en 5 minutes',

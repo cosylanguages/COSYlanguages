@@ -840,7 +840,7 @@
         "level": "starter",
         "theme": "address_location_A1"
     }
-];
+]
     const lang = "it";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];

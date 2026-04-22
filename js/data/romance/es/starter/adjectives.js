@@ -2909,7 +2909,7 @@
             }
         ]
     }
-];
+]
     const lang = "es";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

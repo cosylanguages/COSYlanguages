@@ -65,7 +65,7 @@
         "level": "starter",
         "theme": "address_location_A1"
     }
-];
+]
     const lang = "ba";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];

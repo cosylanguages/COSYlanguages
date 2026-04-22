@@ -3817,7 +3817,7 @@
             }
         ]
     }
-];
+]
     const lang = "pt";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

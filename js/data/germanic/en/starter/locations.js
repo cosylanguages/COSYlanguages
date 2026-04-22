@@ -896,7 +896,7 @@
         "emoji": "🇮🇳",
         "transcription": "ˈɪndiə"
     }
-];
+]
     const lang = "en";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];

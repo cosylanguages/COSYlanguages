@@ -28871,7 +28871,7 @@
         "subtext": "polite address",
         "countability": "countable"
     }
-];
+]
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

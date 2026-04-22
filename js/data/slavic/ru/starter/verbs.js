@@ -21,7 +21,8 @@
         "aspect": "stative",
         "v2": "был",
         "v3": "была",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/bɨtʲ/"
     },
     {
         "word": "иметь",
@@ -29,7 +30,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "иметь работу / иметь проблему",
-        "synonyms": ["обедать"],
+        "synonyms": [
+            "обедать"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -45,7 +48,8 @@
         "aspect": "stative",
         "v2": "имел",
         "v3": "имела",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/iˈmʲetʲ/"
     },
     {
         "word": "чувствовать",
@@ -68,7 +72,8 @@
         "aspect": "both",
         "v2": "чувствовал",
         "v3": "чувствовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈtʃustvəvətʲ/"
     },
     {
         "word": "давать",
@@ -92,7 +97,8 @@
         "aspect": "action",
         "v2": "давал",
         "v3": "давала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/daˈvatʲ/"
     },
     {
         "word": "брать",
@@ -100,7 +106,10 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "",
-        "synonyms": ["садиться в автобус", "принимать лекарство"],
+        "synonyms": [
+            "садиться в автобус",
+            "принимать лекарство"
+        ],
         "opposite": "давать",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -117,7 +126,8 @@
         "aspect": "action",
         "v2": "брал",
         "v3": "брала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/bratʲ/"
     },
     {
         "word": "получать",
@@ -125,7 +135,11 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["получить работу", "уставать", "становиться лучше"],
+        "synonyms": [
+            "получить работу",
+            "уставать",
+            "становиться лучше"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -141,7 +155,8 @@
         "aspect": "action",
         "v2": "получал",
         "v3": "получала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/paluˈtʃatʲ/"
     },
     {
         "word": "класть",
@@ -149,7 +164,10 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "класть",
-        "synonyms": ["убирать", "положить телефон"],
+        "synonyms": [
+            "убирать",
+            "положить телефон"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -164,7 +182,8 @@
         "aspect": "action",
         "v2": "клал",
         "v3": "клала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/klastʲ/"
     },
     {
         "word": "делать",
@@ -172,7 +191,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "делать кофе",
-        "synonyms": ["принимать решение", "совершать ошибку"],
+        "synonyms": [
+            "принимать решение",
+            "совершать ошибку"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -187,7 +209,8 @@
         "aspect": "action",
         "v2": "делал",
         "v3": "делала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈdʲelətʲ/"
     },
     {
         "word": "делать",
@@ -209,7 +232,8 @@
         "aspect": "action",
         "v2": "делал",
         "v3": "делала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈdʲelətʲ/"
     },
     {
         "word": "использовать",
@@ -217,7 +241,10 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["пользоваться телефоном", "пользоваться транспортом"],
+        "synonyms": [
+            "пользоваться телефоном",
+            "пользоваться транспортом"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -232,7 +259,8 @@
         "aspect": "action",
         "v2": "использовал",
         "v3": "использовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/iˈspolʲzəvətʲ/"
     },
     {
         "word": "открывать",
@@ -256,7 +284,8 @@
         "aspect": "action",
         "v2": "открывал",
         "v3": "открывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/atkʁɨˈvatʲ/"
     },
     {
         "word": "закрывать",
@@ -264,7 +293,9 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "закрывать дверь",
-        "synonyms": ["закрываться в шесть"],
+        "synonyms": [
+            "закрываться в шесть"
+        ],
         "opposite": "открывать",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -281,7 +312,8 @@
         "aspect": "action",
         "v2": "закрывал",
         "v3": "закрывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/zakʁɨˈvatʲ/"
     },
     {
         "word": "начинать",
@@ -305,7 +337,8 @@
         "aspect": "action",
         "v2": "начинал",
         "v3": "начинала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/natʃʲiˈnatʲ/"
     },
     {
         "word": "заканчивать",
@@ -329,7 +362,8 @@
         "aspect": "action",
         "v2": "заканчивал",
         "v3": "заканчивала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/zaˈkantʃʲivətʲ/"
     },
     {
         "word": "помогать",
@@ -337,7 +371,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "помогать кому-то / помогать с",
-        "synonyms": ["просить о помощи"],
+        "synonyms": [
+            "просить о помощи"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -352,7 +388,8 @@
         "aspect": "action",
         "v2": "помогал",
         "v3": "помогала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pamaˈɡatʲ/"
     },
     {
         "word": "пробовать",
@@ -360,7 +397,9 @@
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "пробовать делать / пробовать новое",
-        "synonyms": ["стараться"],
+        "synonyms": [
+            "стараться"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -375,7 +414,8 @@
         "aspect": "action",
         "v2": "пробовал",
         "v3": "пробовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈprobəvətʲ/"
     },
     {
         "word": "показывать",
@@ -397,7 +437,8 @@
         "aspect": "action",
         "v2": "показывал",
         "v3": "показывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/paˈkazɨvətʲ/"
     },
     {
         "word": "находить",
@@ -405,7 +446,11 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "",
-        "synonyms": ["найти работу", "обнаружить", "найти время"],
+        "synonyms": [
+            "найти работу",
+            "обнаружить",
+            "найти время"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -420,7 +465,8 @@
         "aspect": "action",
         "v2": "находил",
         "v3": "находила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/naxaˈdʲitʲ/"
     },
     {
         "word": "хранить",
@@ -428,7 +474,11 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["продолжать", "молчать", "вести учет"],
+        "synonyms": [
+            "продолжать",
+            "молчать",
+            "вести учет"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -443,7 +493,8 @@
         "aspect": "both",
         "v2": "хранил",
         "v3": "хранила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/xraˈnʲitʲ/"
     },
     {
         "word": "терять",
@@ -451,7 +502,9 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "терять деньги / терять вес",
-        "synonyms": ["потерять работу"],
+        "synonyms": [
+            "потерять работу"
+        ],
         "opposite": "побеждать",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -469,7 +522,8 @@
         "aspect": "action",
         "v2": "терял",
         "v3": "теряла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/tʲiˈrʲatʲ/"
     },
     {
         "word": "резать",
@@ -477,7 +531,10 @@
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "резать пополам",
-        "synonyms": ["сокращать расходы", "сокращать время"],
+        "synonyms": [
+            "сокращать расходы",
+            "сокращать время"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -492,7 +549,8 @@
         "aspect": "action",
         "v2": "резал",
         "v3": "резала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈrʲezətʲ/"
     },
     {
         "word": "поворачивать",
@@ -500,7 +558,11 @@
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "поворачивать налево",
-        "synonyms": ["включать", "выключать", "направо"],
+        "synonyms": [
+            "включать",
+            "выключать",
+            "направо"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -515,7 +577,8 @@
         "aspect": "action",
         "v2": "поворачивал",
         "v3": "поворачивала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pavaˈratʃʲivətʲ/"
     },
     {
         "word": "приносить",
@@ -523,7 +586,9 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "приносить еду / приносить документ",
-        "synonyms": ["приводить кого-то"],
+        "synonyms": [
+            "приводить кого-то"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -538,7 +603,8 @@
         "aspect": "action",
         "v2": "приносил",
         "v3": "приносила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/pʁʲinaˈsʲitʲ/"
     },
     {
         "word": "сказать",
@@ -560,7 +626,8 @@
         "aspect": "action",
         "v2": "сказал",
         "v3": "сказала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/skaˈzatʲ/"
     },
     {
         "word": "рассказывать",
@@ -568,7 +635,9 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "рассказывать историю / рассказывать кому-то",
-        "synonyms": ["говорить правду"],
+        "synonyms": [
+            "говорить правду"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -583,7 +652,8 @@
         "aspect": "action",
         "v2": "рассказывал",
         "v3": "рассказывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/rasˈkazɨvətʲ/"
     },
     {
         "word": "спрашивать",
@@ -591,7 +661,10 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "спрашивать о",
-        "synonyms": ["задавать вопрос", "просить о помощи"],
+        "synonyms": [
+            "задавать вопрос",
+            "просить о помощи"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -606,7 +679,8 @@
         "aspect": "action",
         "v2": "спрашивал",
         "v3": "спрашивала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈspraʂɨvətʲ/"
     },
     {
         "word": "говорить",
@@ -628,7 +702,8 @@
         "aspect": "action",
         "v2": "говорил",
         "v3": "говорила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ɡavaˈrʲitʲ/"
     },
     {
         "word": "разговаривать",
@@ -636,7 +711,9 @@
         "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "разговаривать с кем-то / разговаривать о",
-        "synonyms": ["открыто говорить"],
+        "synonyms": [
+            "открыто говорить"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -651,7 +728,8 @@
         "aspect": "action",
         "v2": "разговаривал",
         "v3": "разговаривала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/razɡavaˈrʲivətʲ/"
     },
     {
         "word": "звонить",
@@ -659,7 +737,10 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "звонить кому-то",
-        "synonyms": ["перезванивать", "назначать встречу"],
+        "synonyms": [
+            "перезванивать",
+            "назначать встречу"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -674,7 +755,8 @@
         "aspect": "action",
         "v2": "звонил",
         "v3": "звонила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/zvaˈnʲitʲ/"
     },
     {
         "word": "писать",
@@ -698,7 +780,8 @@
         "aspect": "action",
         "v2": "писал",
         "v3": "писала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʲiˈsatʲ/"
     },
     {
         "word": "читать",
@@ -722,7 +805,8 @@
         "aspect": "action",
         "v2": "читал",
         "v3": "читала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/tʃʲiˈtatʲ/"
     },
     {
         "word": "слушать",
@@ -744,7 +828,8 @@
         "aspect": "action",
         "v2": "слушал",
         "v3": "слушала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈsluʂətʲ/"
     },
     {
         "word": "отвечать",
@@ -752,7 +837,9 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "отвечать на вопрос / отвечать на звонок",
-        "synonyms": ["на письмо"],
+        "synonyms": [
+            "на письмо"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -767,7 +854,8 @@
         "aspect": "action",
         "v2": "отвечал",
         "v3": "отвечала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/atvʲiˈtʃatʲ/"
     },
     {
         "word": "повторять",
@@ -775,7 +863,11 @@
         "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "",
-        "synonyms": ["повторить это", "повторяться", "повторить заказ"],
+        "synonyms": [
+            "повторить это",
+            "повторяться",
+            "повторить заказ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -790,7 +882,8 @@
         "aspect": "action",
         "v2": "повторял",
         "v3": "повторяла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/paftaˈrʲatʲ/"
     },
     {
         "word": "идти",
@@ -798,7 +891,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "идти на работу / идти домой",
-        "synonyms": ["выходить"],
+        "synonyms": [
+            "выходить"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -813,7 +908,8 @@
         "aspect": "action",
         "v2": "шёл",
         "v3": "шла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/iˈtʲi/"
     },
     {
         "word": "приходить",
@@ -821,7 +917,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "приходить домой / приходить сюда",
-        "synonyms": ["возвращаться"],
+        "synonyms": [
+            "возвращаться"
+        ],
         "opposite": "идти",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -838,7 +936,8 @@
         "aspect": "action",
         "v2": "приходил",
         "v3": "приходила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/pʁʲixaˈdʲitʲ/"
     },
     {
         "word": "гулять",
@@ -846,7 +945,9 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "идти на работу пешком / гулять медленно",
-        "synonyms": ["идти домой"],
+        "synonyms": [
+            "идти домой"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -861,7 +962,8 @@
         "aspect": "action",
         "v2": "гулял",
         "v3": "гуляла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ɡuˈlʲatʲ/"
     },
     {
         "word": "водить",
@@ -869,7 +971,10 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "водить машину",
-        "synonyms": ["ехать на работу", "ехать домой"],
+        "synonyms": [
+            "ехать на работу",
+            "ехать домой"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -884,7 +989,8 @@
         "aspect": "action",
         "v2": "водил",
         "v3": "водила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/vaˈdʲitʲ/"
     },
     {
         "word": "летать",
@@ -892,7 +998,10 @@
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
         "subtext": "",
-        "synonyms": ["лететь в город", "лететь бизнес-классом"],
+        "synonyms": [
+            "лететь в город",
+            "лететь бизнес-классом"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -907,7 +1016,8 @@
         "aspect": "action",
         "v2": "летал",
         "v3": "летала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/lʲiˈtatʲ/"
     },
     {
         "word": "приезжать",
@@ -915,7 +1025,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "приезжать на работу / приезжать поздно",
-        "synonyms": ["вовремя"],
+        "synonyms": [
+            "вовремя"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -930,7 +1042,8 @@
         "aspect": "action",
         "v2": "приезжал",
         "v3": "приезжала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʁʲijezˈʐatʲ/"
     },
     {
         "word": "уходить",
@@ -938,7 +1051,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "уходить из дома / уходить рано",
-        "synonyms": ["с работы"],
+        "synonyms": [
+            "с работы"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -953,7 +1068,8 @@
         "aspect": "action",
         "v2": "уходил",
         "v3": "уходила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/uxaˈdʲitʲ/"
     },
     {
         "word": "двигаться",
@@ -961,7 +1077,10 @@
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "двигаться вперед",
-        "synonyms": ["переезжать", "переезжать в город"],
+        "synonyms": [
+            "переезжать",
+            "переезжать в город"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -976,7 +1095,8 @@
         "aspect": "action",
         "v2": "двигался",
         "v3": "двигалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈdvʲiɡətsə/"
     },
     {
         "word": "возвращаться",
@@ -984,7 +1104,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "возвращаться домой",
-        "synonyms": ["на работу"],
+        "synonyms": [
+            "на работу"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -999,7 +1121,8 @@
         "aspect": "action",
         "v2": "возвращался",
         "v3": "возвращалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/vazvraˈɕːatsə/"
     },
     {
         "word": "путешествовать",
@@ -1007,7 +1130,9 @@
         "theme": "public_transport_A1",
         "emoji": "✈️",
         "subtext": "путешествовать по работе",
-        "synonyms": ["за границу"],
+        "synonyms": [
+            "за границу"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1022,7 +1147,8 @@
         "aspect": "action",
         "v2": "путешествовал",
         "v3": "путешествовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/putʲiˈʂestvəvətʲ/"
     },
     {
         "word": "есть",
@@ -1030,7 +1156,11 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "",
-        "synonyms": ["завтракать", "обедать", "ужинать"],
+        "synonyms": [
+            "завтракать",
+            "обедать",
+            "ужинать"
+        ],
         "opposite": "пить",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1047,7 +1177,8 @@
         "aspect": "action",
         "v2": "ел",
         "v3": "ела",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/jesʲtʲ/"
     },
     {
         "word": "пить",
@@ -1071,7 +1202,8 @@
         "aspect": "action",
         "v2": "пил",
         "v3": "пила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʲitʲ/"
     },
     {
         "word": "спать",
@@ -1095,7 +1227,8 @@
         "aspect": "action",
         "v2": "спал",
         "v3": "спала",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/spatʲ/"
     },
     {
         "word": "готовить",
@@ -1117,7 +1250,8 @@
         "aspect": "action",
         "v2": "готовил",
         "v3": "готовила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ɡaˈtovʲitʲ/"
     },
     {
         "word": "чистить",
@@ -1125,7 +1259,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "чистить квартиру / чистить кухню",
-        "synonyms": ["убираться"],
+        "synonyms": [
+            "убираться"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1140,7 +1276,8 @@
         "aspect": "action",
         "v2": "чистил",
         "v3": "чистила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈtʃistʲitʲ/"
     },
     {
         "word": "носить",
@@ -1162,7 +1299,8 @@
         "aspect": "action",
         "v2": "носил",
         "v3": "носила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/naˈsʲitʲ/"
     },
     {
         "word": "мыть",
@@ -1170,7 +1308,9 @@
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "мыть посуду / мыть руки",
-        "synonyms": ["стирать одежду"],
+        "synonyms": [
+            "стирать одежду"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1185,7 +1325,8 @@
         "aspect": "action",
         "v2": "мыл",
         "v3": "мыла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/mɨtʲ/"
     },
     {
         "word": "покупать",
@@ -1209,7 +1350,8 @@
         "aspect": "action",
         "v2": "покупал",
         "v3": "покупала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pakuˈpatʲ/"
     },
     {
         "word": "платить",
@@ -1217,7 +1359,9 @@
         "theme": "money_payment_A1",
         "emoji": "💳",
         "subtext": "платить за аренду / платить картой",
-        "synonyms": ["оплачивать счет"],
+        "synonyms": [
+            "оплачивать счет"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1232,7 +1376,8 @@
         "aspect": "action",
         "v2": "платил",
         "v3": "платила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/plaˈtʲitʲ/"
     },
     {
         "word": "тратить",
@@ -1254,7 +1399,8 @@
         "aspect": "action",
         "v2": "тратил",
         "v3": "тратила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈtratʲitʲ/"
     },
     {
         "word": "сохранять",
@@ -1262,7 +1408,11 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "",
-        "synonyms": ["копить деньги", "копить на дом", "экономить время"],
+        "synonyms": [
+            "копить деньги",
+            "копить на дом",
+            "экономить время"
+        ],
         "opposite": "тратить",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1279,7 +1429,8 @@
         "aspect": "action",
         "v2": "сохранял",
         "v3": "сохраняла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/saxraˈnʲatʲ/"
     },
     {
         "word": "работать",
@@ -1301,7 +1452,8 @@
         "aspect": "action",
         "v2": "работал",
         "v3": "работала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/raˈbotətʲ/"
     },
     {
         "word": "жить",
@@ -1325,7 +1477,8 @@
         "aspect": "stative",
         "v2": "жил",
         "v3": "жила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ʐɨtʲ/"
     },
     {
         "word": "думать",
@@ -1333,7 +1486,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "думать о / внимательно думать",
-        "synonyms": ["размышлять"],
+        "synonyms": [
+            "размышлять"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1348,7 +1503,8 @@
         "aspect": "both",
         "v2": "думал",
         "v3": "думала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈdumətʲ/"
     },
     {
         "word": "знать",
@@ -1370,7 +1526,8 @@
         "aspect": "stative",
         "v2": "знал",
         "v3": "знала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/znatʲ/"
     },
     {
         "word": "хотеть",
@@ -1393,7 +1550,8 @@
         "aspect": "stative",
         "v2": "хотел",
         "v3": "хотела",
-        "group": "mixed_conj"
+        "group": "mixed_conj",
+        "transcription": "/xaˈtʲetʲ/"
     },
     {
         "word": "нуждаться",
@@ -1401,7 +1559,9 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "нуждаться в помощи / нуждаться во времени",
-        "synonyms": ["в деньгах"],
+        "synonyms": [
+            "в деньгах"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1417,7 +1577,8 @@
         "aspect": "stative",
         "v2": "нуждался",
         "v3": "нуждалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/nuʐˈdatsə/"
     },
     {
         "word": "нравиться",
@@ -1425,7 +1586,11 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "",
-        "synonyms": ["мне нравится работа", "нравится путешествовать", "нравится идея"],
+        "synonyms": [
+            "мне нравится работа",
+            "нравится путешествовать",
+            "нравится идея"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1441,7 +1606,8 @@
         "aspect": "stative",
         "v2": "нравился",
         "v3": "нравилась",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈnravʲitsə/"
     },
     {
         "word": "любить",
@@ -1463,7 +1629,8 @@
         "aspect": "stative",
         "v2": "любил",
         "v3": "любила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/lʲuˈbʲitʲ/"
     },
     {
         "word": "ненавидеть",
@@ -1485,7 +1652,8 @@
         "aspect": "stative",
         "v2": "ненавидел",
         "v3": "ненавидела",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/nʲinaˈvʲidʲitʲ/"
     },
     {
         "word": "надеяться",
@@ -1493,7 +1661,10 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "надеяться на / надеяться сделать",
-        "synonyms": ["надеюсь", "что так"],
+        "synonyms": [
+            "надеюсь",
+            "что так"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1508,7 +1679,8 @@
         "aspect": "stative",
         "v2": "надеялся",
         "v3": "надеялась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/naˈdʲejətsə/"
     },
     {
         "word": "помнить",
@@ -1530,7 +1702,8 @@
         "aspect": "stative",
         "v2": "помнил",
         "v3": "помнила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈpomnʲitʲ/"
     },
     {
         "word": "забывать",
@@ -1538,7 +1711,11 @@
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "",
-        "synonyms": ["забыть имя", "забыть сделать", "совсем забыть"],
+        "synonyms": [
+            "забыть имя",
+            "забыть сделать",
+            "совсем забыть"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1553,7 +1730,8 @@
         "aspect": "stative",
         "v2": "забывал",
         "v3": "забывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/zabɨˈvatʲ/"
     },
     {
         "word": "понимать",
@@ -1575,7 +1753,8 @@
         "aspect": "stative",
         "v2": "понимал",
         "v3": "понимала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/panʲiˈmatʲ/"
     },
     {
         "word": "решать",
@@ -1583,7 +1762,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "решать сделать / решать по поводу",
-        "synonyms": ["принимать решение"],
+        "synonyms": [
+            "принимать решение"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1598,7 +1779,8 @@
         "aspect": "stative",
         "v2": "решал",
         "v3": "решала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/rʲiˈʂatʲ/"
     },
     {
         "word": "наслаждаться",
@@ -1606,7 +1788,9 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "subtext": "наслаждаться делом / наслаждаться едой",
-        "synonyms": ["своей работой"],
+        "synonyms": [
+            "своей работой"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1621,7 +1805,8 @@
         "aspect": "stative",
         "v2": "наслаждался",
         "v3": "наслаждалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/naslaʐˈdatsə/"
     },
     {
         "word": "видеть",
@@ -1643,7 +1828,8 @@
         "aspect": "both",
         "v2": "видел",
         "v3": "видела",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈvʲidʲitʲ/"
     },
     {
         "word": "слышать",
@@ -1665,7 +1851,8 @@
         "aspect": "both",
         "v2": "слышал",
         "v3": "слышала",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈslɨʂətʲ/"
     },
     {
         "word": "просыпаться",
@@ -1689,7 +1876,8 @@
         "aspect": "action",
         "v2": "просыпался",
         "v3": "просыпалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʁasɨˈpatsə/"
     },
     {
         "word": "смотреть",
@@ -1711,7 +1899,8 @@
         "aspect": "action",
         "v2": "смотрел",
         "v3": "смотрела",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/smaˈtrʲetʲ/"
     },
     {
         "word": "смотреть",
@@ -1719,7 +1908,10 @@
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "смотреть",
-        "synonyms": ["искать", "выглядеть счастливым"],
+        "synonyms": [
+            "искать",
+            "выглядеть счастливым"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1734,7 +1926,8 @@
         "aspect": "both",
         "v2": "смотрел",
         "v3": "смотрела",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/smaˈtrʲetʲ/"
     },
     {
         "word": "играть",
@@ -1756,7 +1949,8 @@
         "aspect": "action",
         "v2": "играл",
         "v3": "играла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/iˈɡratʲ/"
     },
     {
         "word": "бегать",
@@ -1764,7 +1958,10 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "бегать",
-        "synonyms": ["бежать гонку", "управлять бизнесом"],
+        "synonyms": [
+            "бежать гонку",
+            "управлять бизнесом"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1779,7 +1976,8 @@
         "aspect": "action",
         "v2": "бегал",
         "v3": "бегала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈbʲeɡətʲ/"
     },
     {
         "word": "сидеть",
@@ -1803,7 +2001,8 @@
         "aspect": "action",
         "v2": "сидел",
         "v3": "сидела",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/sʲiˈdʲetʲ/"
     },
     {
         "word": "стоять",
@@ -1811,7 +2010,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "стоять / стоять в очереди",
-        "synonyms": ["вставать"],
+        "synonyms": [
+            "вставать"
+        ],
         "opposite": "сидеть",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1828,7 +2029,8 @@
         "aspect": "action",
         "v2": "стоял",
         "v3": "стояла",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/staˈjatʲ/"
     },
     {
         "word": "встречать",
@@ -1850,8 +2052,11 @@
         "v2": "встречал",
         "v3": "встречала",
         "subtext": "встречать кого-то",
-        "synonyms": ["встретиться за обедом"],
-        "group": "1st_conj"
+        "synonyms": [
+            "встретиться за обедом"
+        ],
+        "group": "1st_conj",
+        "transcription": "/vstrʲiˈtʃatʲ/"
     },
     {
         "word": "учить",
@@ -1859,7 +2064,9 @@
         "theme": "learning_studying_A1",
         "emoji": "📚",
         "subtext": "учить / учить язык",
-        "synonyms": ["учиться быстро"],
+        "synonyms": [
+            "учиться быстро"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1874,7 +2081,8 @@
         "aspect": "action",
         "v2": "учил",
         "v3": "учила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/uˈtʃʲitʲ/"
     },
     {
         "word": "менять",
@@ -1896,7 +2104,8 @@
         "aspect": "action",
         "v2": "менял",
         "v3": "меняла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/mʲiˈnʲatʲ/"
     },
     {
         "word": "останавливать",
@@ -1904,7 +2113,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "останавливать",
-        "synonyms": ["перестать делать", "остановить кого-то"],
+        "synonyms": [
+            "перестать делать",
+            "остановить кого-то"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1919,7 +2131,8 @@
         "aspect": "action",
         "v2": "останавливал",
         "v3": "останавливала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/astaˈnavlʲivətʲ/"
     },
     {
         "word": "добавлять",
@@ -1927,7 +2140,10 @@
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "добавлять",
-        "synonyms": ["добавить комментарий", "добавить сахар"],
+        "synonyms": [
+            "добавить комментарий",
+            "добавить сахар"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1942,7 +2158,8 @@
         "aspect": "action",
         "v2": "добавлял",
         "v3": "добавляла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/dabavˈlʲatʲ/"
     },
     {
         "word": "побеждать",
@@ -1950,7 +2167,10 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "побеждать",
-        "synonyms": ["выиграть приз", "выиграть контракт"],
+        "synonyms": [
+            "выиграть приз",
+            "выиграть контракт"
+        ],
         "opposite": "терять",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1966,7 +2186,8 @@
         "aspect": "action",
         "v2": "побеждал",
         "v3": "побеждала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pabʲiʐˈdatʲ/"
     },
     {
         "word": "ждать",
@@ -1974,7 +2195,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "subtext": "ждать / ждать кого-то",
-        "synonyms": ["подождать минутку"],
+        "synonyms": [
+            "подождать минутку"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1989,7 +2212,8 @@
         "aspect": "action",
         "v2": "ждал",
         "v3": "ждала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ʐdatʲ/"
     },
     {
         "word": "умирать",
@@ -1997,7 +2221,9 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "умирать / умирать от",
-        "synonyms": ["вымирать"],
+        "synonyms": [
+            "вымирать"
+        ],
         "opposite": "жить",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2013,7 +2239,8 @@
         "aspect": "action",
         "v2": "умирал",
         "v3": "умирала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/umʲiˈratʲ/"
     },
     {
         "word": "посылать",
@@ -2035,8 +2262,12 @@
         "v2": "посылал",
         "v3": "посылала",
         "subtext": "посылать",
-        "synonyms": ["отправить письмо", "отправить сообщение"],
-        "group": "1st_conj"
+        "synonyms": [
+            "отправить письмо",
+            "отправить сообщение"
+        ],
+        "group": "1st_conj",
+        "transcription": "/pasɨˈlatʲ/"
     },
     {
         "word": "оставаться",
@@ -2044,7 +2275,9 @@
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "оставаться / оставаться дома",
-        "synonyms": ["остановиться в отеле"],
+        "synonyms": [
+            "остановиться в отеле"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2059,7 +2292,8 @@
         "aspect": "action",
         "v2": "оставался",
         "v3": "оставалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/astaˈvatsə/"
     },
     {
         "word": "падать",
@@ -2067,7 +2301,10 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "падать",
-        "synonyms": ["влюбиться", "заснуть"],
+        "synonyms": [
+            "влюбиться",
+            "заснуть"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2082,7 +2319,8 @@
         "aspect": "action",
         "v2": "падал",
         "v3": "падала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈpadətʲ/"
     },
     {
         "word": "проходить",
@@ -2090,7 +2328,10 @@
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "проходить",
-        "synonyms": ["сдать экзамен", "проводить время"],
+        "synonyms": [
+            "сдать экзамен",
+            "проводить время"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2105,7 +2346,8 @@
         "aspect": "action",
         "v2": "проходил",
         "v3": "проходила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/pʁaxadʲitʲ/"
     },
     {
         "word": "продавать",
@@ -2128,7 +2370,8 @@
         "aspect": "action",
         "v2": "продавал",
         "v3": "продавала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pradaˈvatʲ/"
     },
     {
         "word": "тянуть",
@@ -2136,7 +2379,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "тянуть / тянуть дверь",
-        "synonyms": ["отъезжать"],
+        "synonyms": [
+            "отъезжать"
+        ],
         "opposite": "толкать",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2152,7 +2397,8 @@
         "aspect": "action",
         "v2": "тянул",
         "v3": "тянула",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/tʲiˈnutʲ/"
     },
     {
         "word": "толкать",
@@ -2160,7 +2406,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "толкать / толкать тележку",
-        "synonyms": ["нажать кнопку"],
+        "synonyms": [
+            "нажать кнопку"
+        ],
         "opposite": "тянуть",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2177,7 +2425,8 @@
         "aspect": "action",
         "v2": "толкал",
         "v3": "толкала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/talˈkatʲ/"
     },
     {
         "word": "нести",
@@ -2199,7 +2448,8 @@
         "aspect": "action",
         "v2": "нёс",
         "v3": "несла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/nʲisʲˈtʲi/"
     },
     {
         "word": "ломать",
@@ -2207,7 +2457,10 @@
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "ломать",
-        "synonyms": ["разбить стекло", "сделать перерыв"],
+        "synonyms": [
+            "разбить стекло",
+            "сделать перерыв"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2222,7 +2475,8 @@
         "aspect": "action",
         "v2": "ломал",
         "v3": "ломала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/laˈmatʲ/"
     },
     {
         "word": "получать",
@@ -2230,7 +2484,10 @@
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "получать",
-        "synonyms": ["получить письмо", "получить платеж"],
+        "synonyms": [
+            "получить письмо",
+            "получить платеж"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2245,7 +2502,8 @@
         "aspect": "action",
         "v2": "получал",
         "v3": "получала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/paluˈtʃatʲ/"
     },
     {
         "word": "соглашаться",
@@ -2267,7 +2525,8 @@
         "aspect": "stative",
         "v2": "соглашался",
         "v3": "соглашалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/saɡlaˈʂatsə/"
     },
     {
         "word": "рисовать",
@@ -2289,7 +2548,8 @@
         "aspect": "action",
         "v2": "рисовал",
         "v3": "рисовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ʁʲisaˈvatʲ/"
     },
     {
         "word": "делиться",
@@ -2297,7 +2557,9 @@
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "делиться / делиться идеей",
-        "synonyms": ["делить комнату"],
+        "synonyms": [
+            "делить комнату"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2312,7 +2574,8 @@
         "aspect": "action",
         "v2": "делился",
         "v3": "делилась",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/dʲiˈlʲitsə/"
     },
     {
         "word": "улыбаться",
@@ -2336,7 +2599,8 @@
         "aspect": "action",
         "v2": "улыбался",
         "v3": "улыбалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ulɨˈbatsə/"
     },
     {
         "word": "плакать",
@@ -2360,7 +2624,8 @@
         "aspect": "action",
         "v2": "плакал",
         "v3": "плакала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈplakətʲ/"
     },
     {
         "word": "танцевать",
@@ -2382,7 +2647,8 @@
         "aspect": "action",
         "v2": "танцевал",
         "v3": "танцевала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/tantsɨˈvatʲ/"
     },
     {
         "word": "петь",
@@ -2390,7 +2656,9 @@
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "петь / петь песню",
-        "synonyms": ["подпевать"],
+        "synonyms": [
+            "подпевать"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2405,7 +2673,8 @@
         "aspect": "action",
         "v2": "пел",
         "v3": "пела",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʲetʲ/"
     },
     {
         "word": "прыгать",
@@ -2413,7 +2682,9 @@
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "прыгать / прыгать высоко",
-        "synonyms": ["перепрыгивать"],
+        "synonyms": [
+            "перепрыгивать"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2428,7 +2699,8 @@
         "aspect": "action",
         "v2": "прыгал",
         "v3": "прыгала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈprɨɡətʲ/"
     },
     {
         "word": "плавать",
@@ -2450,7 +2722,8 @@
         "aspect": "action",
         "v2": "плавал",
         "v3": "плавала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈplavətʲ/"
     },
     {
         "word": "учиться",
@@ -2458,7 +2731,10 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "учиться",
-        "synonyms": ["учить английский", "готовиться к экзамену"],
+        "synonyms": [
+            "учить английский",
+            "готовиться к экзамену"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2473,7 +2749,8 @@
         "aspect": "action",
         "v2": "учился",
         "v3": "училась",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/uˈtʃʲitsə/"
     },
     {
         "word": "преподавать",
@@ -2481,7 +2758,9 @@
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "преподавать / преподавать предмет",
-        "synonyms": ["учить кого-то"],
+        "synonyms": [
+            "учить кого-то"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2496,7 +2775,8 @@
         "aspect": "action",
         "v2": "преподавал",
         "v3": "преподавала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʁʲipadaˈvatʲ/"
     },
     {
         "word": "ездить на работу",
@@ -2504,7 +2784,10 @@
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "ездить на работу",
-        "synonyms": ["ежедневная поездка", "долгая поездка"],
+        "synonyms": [
+            "ежедневная поездка",
+            "долгая поездка"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2518,7 +2801,8 @@
         "aspect": "action",
         "v2": "ездил на работу",
         "v3": "ездила на работу",
-        "group": "locution"
+        "group": "locution",
+        "transcription": "/ˈjezʲdʲitʲ na raˈbotu/"
     },
     {
         "word": "снимать",
@@ -2539,7 +2823,8 @@
         "aspect": "action",
         "v2": "снимал",
         "v3": "снимала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/snʲiˈmatʲ/"
     },
     {
         "word": "тренироваться",
@@ -2560,8 +2845,11 @@
         "v2": "тренировался",
         "v3": "тренировалась",
         "subtext": "тренироваться / тренироваться регулярно",
-        "synonyms": ["в зале"],
-        "group": "1st_conj"
+        "synonyms": [
+            "в зале"
+        ],
+        "group": "1st_conj",
+        "transcription": "/trʲinʲiraˈvatsə/"
     },
     {
         "word": "стоить",
@@ -2582,7 +2870,8 @@
         "v2": "стоил",
         "v3": "стоила",
         "subtext": "стоить / стоить дорого / стоить денег",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈstoitʲ/"
     },
     {
         "word": "приглашать",
@@ -2603,8 +2892,12 @@
         "v2": "приглашал",
         "v3": "приглашала",
         "subtext": "приглашать",
-        "synonyms": ["пригласить кого-то", "пригласить на ужин"],
-        "group": "1st_conj"
+        "synonyms": [
+            "пригласить кого-то",
+            "пригласить на ужин"
+        ],
+        "group": "1st_conj",
+        "transcription": "/pʁʲiɡlaˈʂatʲ/"
     },
     {
         "word": "вставать",
@@ -2625,7 +2918,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/vstaˈvatʲ/"
     },
     {
         "word": "завтракать",
@@ -2638,7 +2932,10 @@
             }
         ],
         "subtext": "завтракать дома",
-        "synonyms": ["быстрый завтрак", "пропускать завтрак"],
+        "synonyms": [
+            "быстрый завтрак",
+            "пропускать завтрак"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "завтракал",
@@ -2647,7 +2944,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈzaftrəkəvətʲ/"
     },
     {
         "word": "возвращаться",
@@ -2660,7 +2958,9 @@
             }
         ],
         "subtext": "возвращаться домой / возвращаться поздно",
-        "synonyms": ["из поездки"],
+        "synonyms": [
+            "из поездки"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "возвращался",
@@ -2669,7 +2969,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/vazvraˈɕːatsə/"
     },
     {
         "word": "ложиться спать",
@@ -2682,7 +2983,10 @@
             }
         ],
         "subtext": "ложиться спать рано",
-        "synonyms": ["ложиться поздно", "ложиться уставшим"],
+        "synonyms": [
+            "ложиться поздно",
+            "ложиться уставшим"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "ложился спать",
@@ -2691,7 +2995,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/laˈʐɨtsə spatʲ/"
     },
     {
         "word": "проверять",
@@ -2712,7 +3017,8 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʁavʲiˈrʲatʲ/"
     },
     {
         "word": "отвечать",
@@ -2733,7 +3039,8 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/atvʲiˈtʃatʲ/"
     },
     {
         "word": "презентовать",
@@ -2746,7 +3053,9 @@
             }
         ],
         "subtext": "презентовать отчет / презентовать идеи",
-        "synonyms": ["клиенту"],
+        "synonyms": [
+            "клиенту"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "презентовал",
@@ -2755,7 +3064,8 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pʁʲizʲintaˈvatʲ/"
     },
     {
         "word": "посещать",
@@ -2776,7 +3086,8 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pasʲiˈɕːatʲ/"
     },
     {
         "word": "управлять",
@@ -2789,7 +3100,9 @@
             }
         ],
         "subtext": "управлять командой / управлять проектом",
-        "synonyms": ["временем"],
+        "synonyms": [
+            "временем"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "управлял",
@@ -2798,7 +3111,8 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/upravˈlʲatʲ/"
     },
     {
         "word": "взимать плату",
@@ -2811,7 +3125,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["взимать комиссию", "плата за услугу", "брать дополнительно"],
+        "synonyms": [
+            "взимать комиссию",
+            "плата за услугу",
+            "брать дополнительно"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "взимал плату",
@@ -2820,7 +3138,8 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/vzʲiˈmatʲ ˈplatu/"
     },
     {
         "word": "позволить себе",
@@ -2841,7 +3160,8 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/paˈzvolʲitʲ sʲiˈbʲe/"
     },
     {
         "word": "быть должным",
@@ -2854,7 +3174,9 @@
             }
         ],
         "subtext": "быть должным деньги / быть должным кому-то",
-        "synonyms": ["много"],
+        "synonyms": [
+            "много"
+        ],
         "classification": "irregular",
         "aspect": "stative",
         "v2": "был должен",
@@ -2863,7 +3185,8 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/bɨtʲ ˈdolʐnɨm/"
     },
     {
         "word": "зарабатывать",
@@ -2876,7 +3199,9 @@
             }
         ],
         "subtext": "зарабатывать зарплату / зарабатывать деньги",
-        "synonyms": ["больше"],
+        "synonyms": [
+            "больше"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "зарабатывал",
@@ -2885,7 +3210,8 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/zaˈrabatɨvətʲ/"
     },
     {
         "word": "навещать",
@@ -2898,7 +3224,10 @@
             }
         ],
         "subtext": "навещать семью",
-        "synonyms": ["навестить друга", "посетить город"],
+        "synonyms": [
+            "навестить друга",
+            "посетить город"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "навещал",
@@ -2907,7 +3236,8 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/navʲiˈɕːatʲ/"
     },
     {
         "word": "праздновать",
@@ -2920,7 +3250,9 @@
             }
         ],
         "subtext": "праздновать день рождения / праздновать успех",
-        "synonyms": ["вместе"],
+        "synonyms": [
+            "вместе"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "праздновал",
@@ -2929,7 +3261,8 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈprazdnəvətʲ/"
     },
     {
         "word": "рекомендовать",
@@ -2942,7 +3275,9 @@
             }
         ],
         "subtext": "рекомендовать место / рекомендовать кого-то",
-        "synonyms": ["фильм"],
+        "synonyms": [
+            "фильм"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "рекомендовал",
@@ -2951,7 +3286,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/rʲikəmʲindaˈvatʲ/"
     },
     {
         "word": "болеть",
@@ -2964,7 +3300,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["болит спина", "причинить боль кому-то", "это больно"],
+        "synonyms": [
+            "болит спина",
+            "причинить боль кому-то",
+            "это больно"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v2": "болел",
@@ -2973,7 +3313,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/baˈlʲetʲ/"
     },
     {
         "word": "отдыхать",
@@ -2986,7 +3327,9 @@
             }
         ],
         "subtext": "отдыхать дома / отдыхать после работы",
-        "synonyms": ["нужен отдых"],
+        "synonyms": [
+            "нужен отдых"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "отдыхал",
@@ -2995,7 +3338,8 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/addɨˈxatʲ/"
     },
     {
         "word": "выздоравливать",
@@ -3008,7 +3352,10 @@
             }
         ],
         "subtext": "выздоравливать после болезни",
-        "synonyms": ["быстро", "полностью"],
+        "synonyms": [
+            "быстро",
+            "полностью"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "выздоравливал",
@@ -3017,7 +3364,8 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/vɨzdaˈravlʲivətʲ/"
     },
     {
         "word": "бронировать",
@@ -3030,7 +3378,9 @@
             }
         ],
         "subtext": "бронировать отель / бронировать рейс",
-        "synonyms": ["столик"],
+        "synonyms": [
+            "столик"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "бронировал",
@@ -3039,7 +3389,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/braˈnʲirəvətʲ/"
     },
     {
         "word": "собирать вещи",
@@ -3052,7 +3403,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["собирать сумку", "собирать чемодан", "собираться налегке"],
+        "synonyms": [
+            "собирать сумку",
+            "собирать чемодан",
+            "собираться налегке"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "собирал вещи",
@@ -3061,7 +3416,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/sabʲiˈratʲ ˈvʲeɕːi/"
     },
     {
         "word": "отменять",
@@ -3074,7 +3430,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["отменить рейс", "отменить бронь", "отменить встречу"],
+        "synonyms": [
+            "отменить рейс",
+            "отменить бронь",
+            "отменить встречу"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "отменял",
@@ -3083,7 +3443,8 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/atmʲiˈnʲatʲ/"
     },
     {
         "word": "скучать",
@@ -3096,7 +3457,10 @@
             }
         ],
         "subtext": "скучать по кому-то",
-        "synonyms": ["опоздать на поезд", "опоздать на рейс"],
+        "synonyms": [
+            "опоздать на поезд",
+            "опоздать на рейс"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "скучал",
@@ -3105,7 +3469,8 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/skuˈtʃatʲ/"
     },
     {
         "word": "заказывать",
@@ -3126,7 +3491,8 @@
         "aspect": "action",
         "v2": "заказывал",
         "v3": "заказывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/zaˈkazɨvətʲ/"
     },
     {
         "word": "объяснять",
@@ -3134,7 +3500,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "💡",
         "subtext": "объяснять процесс / объяснять четко",
-        "synonyms": ["кому-то"],
+        "synonyms": [
+            "кому-то"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3148,7 +3516,8 @@
         "aspect": "action",
         "v2": "объяснял",
         "v3": "объясняла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/abjizˈnʲatʲ/"
     },
     {
         "word": "благодарить",
@@ -3156,7 +3525,9 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "благодарить кого-то / благодарить за",
-        "synonyms": ["большое спасибо"],
+        "synonyms": [
+            "большое спасибо"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3170,7 +3541,8 @@
         "aspect": "action",
         "v2": "благодарил",
         "v3": "благодарила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/blaɡadaˈrʲitʲ/"
     },
     {
         "word": "представлять",
@@ -3178,7 +3550,11 @@
         "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "",
-        "synonyms": ["представиться", "представить кого-то", "представить тему"],
+        "synonyms": [
+            "представиться",
+            "представить кого-то",
+            "представить тему"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3192,7 +3568,8 @@
         "aspect": "action",
         "v2": "представлял",
         "v3": "представляла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/prʲidstavˈlʲatʲ/"
     },
     {
         "word": "расслабляться",
@@ -3200,7 +3577,10 @@
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
         "subtext": "расслабляться дома",
-        "synonyms": ["после работы", "на отдыхе"],
+        "synonyms": [
+            "после работы",
+            "на отдыхе"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3214,7 +3594,8 @@
         "aspect": "action",
         "v2": "расслаблялся",
         "v3": "расслаблялась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/raslaˈblʲatsə/"
     },
     {
         "word": "чинить",
@@ -3222,7 +3603,10 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "чинить что-то",
-        "synonyms": ["отремонтировать", "стоимость ремонта"],
+        "synonyms": [
+            "отремонтировать",
+            "стоимость ремонта"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3236,7 +3620,8 @@
         "aspect": "action",
         "v2": "чинил",
         "v3": "чинила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/tʃʲiˈnʲitʲ/"
     },
     {
         "word": "случаться",
@@ -3244,7 +3629,11 @@
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "",
-        "synonyms": ["что случилось", "случиться с кем-то", "это случается"],
+        "synonyms": [
+            "что случилось",
+            "случиться с кем-то",
+            "это случается"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3258,7 +3647,8 @@
         "aspect": "action",
         "v2": "случался",
         "v3": "случалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/sluˈtʃatsə/"
     },
     {
         "word": "казаться",
@@ -3266,7 +3656,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "казаться хорошим / казаться обеспокоенным",
-        "synonyms": ["счастливым"],
+        "synonyms": [
+            "счастливым"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3280,7 +3672,8 @@
         "aspect": "stative",
         "v2": "казался",
         "v3": "казалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/kaˈzatsə/"
     },
     {
         "word": "значить",
@@ -3288,7 +3681,10 @@
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "значить что-то",
-        "synonyms": ["что это значит", "иметь в виду"],
+        "synonyms": [
+            "что это значит",
+            "иметь в виду"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3302,7 +3698,8 @@
         "aspect": "stative",
         "v2": "значил",
         "v3": "значила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈznatʃʲitʲ/"
     },
     {
         "word": "следовать",
@@ -3310,7 +3707,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "следовать инструкциям / следовать за кем-то",
-        "synonyms": ["за новостями"],
+        "synonyms": [
+            "за новостями"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3324,7 +3723,8 @@
         "aspect": "action",
         "v2": "следовал",
         "v3": "следовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/ˈslʲedəvətʲ/"
     },
     {
         "word": "продолжать",
@@ -3332,7 +3732,9 @@
         "theme": "learning_studying_A1",
         "emoji": "⏩",
         "subtext": "продолжать работать / продолжать делать",
-        "synonyms": ["задачу"],
+        "synonyms": [
+            "задачу"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3346,7 +3748,8 @@
         "aspect": "action",
         "v2": "продолжал",
         "v3": "продолжала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/pradalˈʐatʲ/"
     },
     {
         "word": "расти",
@@ -3354,7 +3757,10 @@
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "расти быстро",
-        "synonyms": ["развивать бизнес", "превращаться в"],
+        "synonyms": [
+            "развивать бизнес",
+            "превращаться в"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3368,7 +3774,8 @@
         "aspect": "action",
         "v2": "рос",
         "v3": "росла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/rasˈtʲi/"
     },
     {
         "word": "включать",
@@ -3376,7 +3783,9 @@
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "включать что-то / включать в",
-        "synonyms": ["не включено"],
+        "synonyms": [
+            "не включено"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3390,7 +3799,8 @@
         "aspect": "stative",
         "v2": "включал",
         "v3": "включала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/fklʲuˈtʃatʲ/"
     },
     {
         "word": "становиться",
@@ -3398,7 +3808,11 @@
         "theme": "workplace_basics_A1",
         "emoji": "✨",
         "subtext": "",
-        "synonyms": ["стать менеджером", "стать популярным", "стать понятным"],
+        "synonyms": [
+            "стать менеджером",
+            "стать популярным",
+            "стать понятным"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3412,7 +3826,8 @@
         "aspect": "action",
         "v2": "становился",
         "v3": "становилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/stanavʲitˈsʲa/"
     },
     {
         "word": "принадлежать",
@@ -3420,7 +3835,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "принадлежать кому-то / принадлежать к",
-        "synonyms": ["чувствовать себя своим"],
+        "synonyms": [
+            "чувствовать себя своим"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3434,7 +3851,8 @@
         "aspect": "stative",
         "v2": "принадлежал",
         "v3": "принадлежала",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/pʁʲinadlʲiˈʐatʲ/"
     },
     {
         "word": "выбирать",
@@ -3455,7 +3873,8 @@
         "aspect": "action",
         "v2": "выбирал",
         "v3": "выбирала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "transcription": "/vɨbʲiˈratʲ/"
     },
     {
         "word": "строить",
@@ -3476,9 +3895,10 @@
         "aspect": "action",
         "v2": "строил",
         "v3": "строила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "transcription": "/ˈstroitʲ/"
     }
-];
+]
     const lang = "ru";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

@@ -2393,7 +2393,7 @@
         "plural": null,
         "femininePlural": null
     }
-];
+]
     const lang = "br";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

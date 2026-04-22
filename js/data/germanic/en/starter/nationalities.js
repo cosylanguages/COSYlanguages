@@ -209,7 +209,7 @@
         "countability": "countable",
         "subtext": "British nationality, dual nationality"
     }
-];
+]
     const lang = "en";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data.filter(i => i.form === 'adjective')];

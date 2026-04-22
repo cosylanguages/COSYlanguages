@@ -3310,7 +3310,7 @@
         "v3": "savet",
         "group": "irregular"
     }
-];
+]
     const lang = "br";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

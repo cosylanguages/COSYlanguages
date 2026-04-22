@@ -3584,7 +3584,7 @@
         "group": "en",
         "auxiliary": "haben"
     }
-];
+]
     const lang = "de";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

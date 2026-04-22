@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "être",
         "level": "starter",
@@ -228,7 +227,8 @@
         "aspect": "action",
         "v3": "fait",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fɛʁ/"
     },
     {
         "word": "utiliser",
@@ -350,7 +350,8 @@
         "aspect": "action",
         "v3": "fini",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fi.niʁ/"
     },
     {
         "word": "aider",
@@ -372,7 +373,8 @@
         "aspect": "action",
         "v3": "aidé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.de/"
     },
     {
         "word": "essayer",
@@ -394,7 +396,8 @@
         "aspect": "action",
         "v3": "essayé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.sɛ.je/"
     },
     {
         "word": "montrer",
@@ -416,7 +419,8 @@
         "aspect": "action",
         "v3": "montré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/mɔ̃.tʁe/"
     },
     {
         "word": "trouver",
@@ -441,7 +445,8 @@
         "aspect": "action",
         "v3": "trouvé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/tʁu.ve/"
     },
     {
         "word": "garder",
@@ -467,7 +472,8 @@
         "aspect": "both",
         "v3": "gardé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɡaʁ.de/"
     },
     {
         "word": "perdre",
@@ -492,7 +498,8 @@
         "aspect": "action",
         "v3": "perdu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pɛʁdʁ/"
     },
     {
         "word": "couper",
@@ -518,7 +525,8 @@
         "aspect": "action",
         "v3": "coupé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ku.pe/"
     },
     {
         "word": "tourner",
@@ -544,7 +552,8 @@
         "aspect": "action",
         "v3": "tourné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/tuʁ.ne/"
     },
     {
         "word": "apporter",
@@ -566,7 +575,8 @@
         "aspect": "action",
         "v3": "apporté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.pɔʁ.te/"
     },
     {
         "word": "dire",
@@ -588,7 +598,8 @@
         "aspect": "action",
         "v3": "dit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/diʁ/"
     },
     {
         "word": "dire",
@@ -613,7 +624,8 @@
         "aspect": "action",
         "v3": "dit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/diʁ/"
     },
     {
         "word": "demander",
@@ -638,7 +650,8 @@
         "aspect": "action",
         "v3": "demandé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/də.mɑ̃.de/"
     },
     {
         "word": "parler",
@@ -660,7 +673,8 @@
         "aspect": "action",
         "v3": "parlé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/paʁ.le/"
     },
     {
         "word": "parler",
@@ -682,7 +696,8 @@
         "aspect": "action",
         "v3": "parlé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/paʁ.le/"
     },
     {
         "word": "appeler",
@@ -708,7 +723,8 @@
         "aspect": "action",
         "v3": "appelé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.ple/"
     },
     {
         "word": "écrire",
@@ -732,7 +748,8 @@
         "aspect": "action",
         "v3": "écrit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.kʁiʁ/"
     },
     {
         "word": "lire",
@@ -756,7 +773,8 @@
         "aspect": "action",
         "v3": "lu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/liʁ/"
     },
     {
         "word": "écouter",
@@ -778,7 +796,8 @@
         "aspect": "action",
         "v3": "écouté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.ku.te/"
     },
     {
         "word": "répondre",
@@ -800,7 +819,8 @@
         "aspect": "action",
         "v3": "répondu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁe.pɔ̃dʁ/"
     },
     {
         "word": "répéter",
@@ -822,7 +842,8 @@
         "aspect": "action",
         "v3": "répété",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁe.pe.te/"
     },
     {
         "word": "aller",
@@ -847,7 +868,8 @@
         "aspect": "action",
         "v3": "allé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/a.le/"
     },
     {
         "word": "venir",
@@ -874,7 +896,8 @@
         "aspect": "action",
         "v3": "venu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/və.niʁ/"
     },
     {
         "word": "marcher",
@@ -899,7 +922,8 @@
         "aspect": "action",
         "v3": "marché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/maʁ.ʃe/"
     },
     {
         "word": "conduire",
@@ -924,7 +948,8 @@
         "aspect": "action",
         "v3": "conduit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ̃.dɥiʁ/"
     },
     {
         "word": "voler",
@@ -946,7 +971,8 @@
         "aspect": "action",
         "v3": "volé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vɔ.le/"
     },
     {
         "word": "arriver",
@@ -968,7 +994,8 @@
         "aspect": "action",
         "v3": "arrivé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/a.ʁi.ve/"
     },
     {
         "word": "partir",
@@ -994,7 +1021,8 @@
         "aspect": "action",
         "v3": "parti",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/paʁ.ti/"
     },
     {
         "word": "bouger",
@@ -1020,7 +1048,8 @@
         "aspect": "action",
         "v3": "bougé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/bu.ʒe/"
     },
     {
         "word": "revenir",
@@ -1045,7 +1074,8 @@
         "aspect": "action",
         "v3": "revenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/ʁə.və.niʁ/"
     },
     {
         "word": "voyager",
@@ -1067,7 +1097,8 @@
         "aspect": "action",
         "v3": "voyagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vwa.ja.ʒe/"
     },
     {
         "word": "manger",
@@ -1096,7 +1127,8 @@
         "aspect": "action",
         "v3": "mangé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/mɑ̃.ʒe/"
     },
     {
         "word": "boire",
@@ -1120,7 +1152,8 @@
         "aspect": "action",
         "v3": "bu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/bwaʁ/"
     },
     {
         "word": "dormir",
@@ -1144,7 +1177,8 @@
         "aspect": "action",
         "v3": "dormi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/dɔʁ.miʁ/"
     },
     {
         "word": "cuisiner",
@@ -1169,7 +1203,8 @@
         "aspect": "action",
         "v3": "cuisiné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɥi.zi.ne/"
     },
     {
         "word": "nettoyer",
@@ -1191,7 +1226,8 @@
         "aspect": "action",
         "v3": "nettoyé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/nɛ.twa.je/"
     },
     {
         "word": "porter",
@@ -1213,7 +1249,8 @@
         "aspect": "action",
         "v3": "porté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pɔʁ.te/"
     },
     {
         "word": "laver",
@@ -1238,7 +1275,8 @@
         "aspect": "action",
         "v3": "lavé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/la.ve/"
     },
     {
         "word": "acheter",
@@ -1262,7 +1300,8 @@
         "aspect": "action",
         "v3": "acheté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/aʃ.te/"
     },
     {
         "word": "payer",
@@ -1284,7 +1323,8 @@
         "aspect": "action",
         "v3": "payé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pe.je/"
     },
     {
         "word": "dépenser",
@@ -1309,7 +1349,8 @@
         "aspect": "action",
         "v3": "dépensé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/de.pɑ̃.se/"
     },
     {
         "word": "économiser",
@@ -1333,7 +1374,8 @@
         "aspect": "action",
         "v3": "économisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.kɔ.nɔ.mi.ze/"
     },
     {
         "word": "travailler",
@@ -1355,7 +1397,8 @@
         "aspect": "action",
         "v3": "travaillé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/tʁa.va.je/"
     },
     {
         "word": "vivre",
@@ -1379,7 +1422,8 @@
         "aspect": "stative",
         "v3": "vécu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vivʁ/"
     },
     {
         "word": "penser",
@@ -1404,7 +1448,8 @@
         "aspect": "both",
         "v3": "pensé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pɑ̃.se/"
     },
     {
         "word": "savoir",
@@ -1430,7 +1475,8 @@
         "aspect": "stative",
         "v3": "su",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sa.vwaʁ/"
     },
     {
         "word": "vouloir",
@@ -1453,7 +1499,8 @@
         "aspect": "stative",
         "v3": "voulu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vu.lwaʁ/"
     },
     {
         "word": "avoir besoin de",
@@ -1481,7 +1528,8 @@
         "aspect": "stative",
         "v3": "eu besoin",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.vwaʁ bə.zwɛ̃ də/"
     },
     {
         "word": "aimer",
@@ -1504,7 +1552,8 @@
         "aspect": "stative",
         "v3": "aimé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɛ.me/"
     },
     {
         "word": "adorer",
@@ -1531,7 +1580,8 @@
         "aspect": "stative",
         "v3": "adoré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.dɔ.ʁe/"
     },
     {
         "word": "détester",
@@ -1553,7 +1603,8 @@
         "aspect": "stative",
         "v3": "détesté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/de.tɛs.te/"
     },
     {
         "word": "espérer",
@@ -1575,7 +1626,8 @@
         "aspect": "stative",
         "v3": "espéré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɛs.pe.ʁe/"
     },
     {
         "word": "se souvenir",
@@ -1597,7 +1649,8 @@
         "aspect": "stative",
         "v3": "souvenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə su.və.niʁ/"
     },
     {
         "word": "oublier",
@@ -1619,7 +1672,8 @@
         "aspect": "stative",
         "v3": "oublié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/u.bli.je/"
     },
     {
         "word": "comprendre",
@@ -1641,7 +1695,8 @@
         "aspect": "stative",
         "v3": "compris",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ̃.pʁɑ̃dʁ/"
     },
     {
         "word": "décider",
@@ -1666,7 +1721,8 @@
         "aspect": "stative",
         "v3": "décidé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/de.si.de/"
     },
     {
         "word": "apprécier",
@@ -1688,7 +1744,8 @@
         "aspect": "stative",
         "v3": "apprécié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.pʁe.sje/"
     },
     {
         "word": "voir",
@@ -1710,7 +1767,8 @@
         "aspect": "both",
         "v3": "vu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vwaʁ/"
     },
     {
         "word": "entendre",
@@ -1732,7 +1790,8 @@
         "aspect": "both",
         "v3": "entendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɑ̃.tɑ̃dʁ/"
     },
     {
         "word": "se réveiller",
@@ -1756,7 +1815,8 @@
         "aspect": "action",
         "v3": "réveillé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə ʁe.vɛ.je/"
     },
     {
         "word": "regarder",
@@ -1778,7 +1838,8 @@
         "aspect": "action",
         "v3": "regardé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.ɡaʁ.de/"
     },
     {
         "word": "regarder",
@@ -1804,7 +1865,8 @@
         "aspect": "both",
         "v3": "regardé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.ɡaʁ.de/"
     },
     {
         "word": "jouer",
@@ -1826,7 +1888,8 @@
         "aspect": "action",
         "v3": "joué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʒwe/"
     },
     {
         "word": "courir",
@@ -1851,7 +1914,8 @@
         "aspect": "action",
         "v3": "couru",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ku.ʁiʁ/"
     },
     {
         "word": "s asseoir",
@@ -1875,7 +1939,8 @@
         "aspect": "action",
         "v3": "assis",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sa.swwaʁ/"
     },
     {
         "word": "se tenir debout",
@@ -1903,7 +1968,8 @@
         "aspect": "action",
         "v3": "tenu debout",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə tə.niʁ də.bu/"
     },
     {
         "word": "rencontrer",
@@ -1925,7 +1991,8 @@
         "v3": "rencontré",
         "subtext": "rencontrer quelqu un / rencontrer pour le déjeuner",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁɑ̃.kɔ̃.tʁe/"
     },
     {
         "word": "apprendre",
@@ -1947,7 +2014,8 @@
         "aspect": "action",
         "v3": "appris",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.pʁɑ̃dʁ/"
     },
     {
         "word": "changer",
@@ -1969,7 +2037,8 @@
         "aspect": "action",
         "v3": "changé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʃɑ̃.ʒe/"
     },
     {
         "word": "arrêter",
@@ -1991,7 +2060,8 @@
         "aspect": "action",
         "v3": "arrêté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.ʁɛ.te/"
     },
     {
         "word": "ajouter",
@@ -2013,7 +2083,8 @@
         "aspect": "action",
         "v3": "ajouté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.ʒu.te/"
     },
     {
         "word": "gagner",
@@ -2036,7 +2107,8 @@
         "aspect": "action",
         "v3": "gagné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɡa.ɲe/"
     },
     {
         "word": "attendre",
@@ -2058,7 +2130,8 @@
         "aspect": "action",
         "v3": "attendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.tɑ̃dʁ/"
     },
     {
         "word": "mourir",
@@ -2084,7 +2157,8 @@
         "aspect": "action",
         "v3": "mort",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/mu.ʁiʁ/"
     },
     {
         "word": "envoyer",
@@ -2106,7 +2180,8 @@
         "v3": "envoyé",
         "subtext": "envoyer / envoyer un email / envoyer un message",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɑ̃.vwa.je/"
     },
     {
         "word": "rester",
@@ -2128,7 +2203,8 @@
         "aspect": "action",
         "v3": "resté",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/ʁɛs.te/"
     },
     {
         "word": "tomber",
@@ -2153,7 +2229,8 @@
         "aspect": "action",
         "v3": "tombé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/tɔ̃.be/"
     },
     {
         "word": "passer",
@@ -2175,7 +2252,8 @@
         "aspect": "action",
         "v3": "passé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pa.se/"
     },
     {
         "word": "vendre",
@@ -2198,7 +2276,8 @@
         "aspect": "action",
         "v3": "vendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vɑ̃dʁ/"
     },
     {
         "word": "tirer",
@@ -2224,7 +2303,8 @@
         "aspect": "action",
         "v3": "tiré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ti.ʁe/"
     },
     {
         "word": "pousser",
@@ -2248,7 +2328,8 @@
         "aspect": "action",
         "v3": "poussé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pu.se/"
     },
     {
         "word": "porter",
@@ -2270,7 +2351,8 @@
         "aspect": "action",
         "v3": "porté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pɔʁ.te/"
     },
     {
         "word": "casser",
@@ -2295,7 +2377,8 @@
         "aspect": "action",
         "v3": "cassé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ka.se/"
     },
     {
         "word": "recevoir",
@@ -2317,7 +2400,8 @@
         "aspect": "action",
         "v3": "reçu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.sə.vwaʁ/"
     },
     {
         "word": "être d accord",
@@ -2339,7 +2423,8 @@
         "aspect": "stative",
         "v3": "été d accord",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɛtʁə d‿a.kɔʁ/"
     },
     {
         "word": "dessiner",
@@ -2361,7 +2446,8 @@
         "aspect": "action",
         "v3": "dessiné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/de.si.ne/"
     },
     {
         "word": "partager",
@@ -2383,7 +2469,8 @@
         "aspect": "action",
         "v3": "partagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/paʁ.ta.ʒe/"
     },
     {
         "word": "sourire",
@@ -2407,7 +2494,8 @@
         "aspect": "action",
         "v3": "souri",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/su.ʁiʁ/"
     },
     {
         "word": "pleurer",
@@ -2431,7 +2519,8 @@
         "aspect": "action",
         "v3": "pleuré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/plœ.ʁe/"
     },
     {
         "word": "danser",
@@ -2453,7 +2542,8 @@
         "aspect": "action",
         "v3": "dansé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/dɑ̃.se/"
     },
     {
         "word": "chanter",
@@ -2475,7 +2565,8 @@
         "aspect": "action",
         "v3": "chanté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʃɑ̃.te/"
     },
     {
         "word": "sauter",
@@ -2497,7 +2588,8 @@
         "aspect": "action",
         "v3": "sauté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/so.te/"
     },
     {
         "word": "nager",
@@ -2519,7 +2611,8 @@
         "aspect": "action",
         "v3": "nagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/na.ʒe/"
     },
     {
         "word": "étudier",
@@ -2541,7 +2634,8 @@
         "aspect": "action",
         "v3": "étudié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.ty.dje/"
     },
     {
         "word": "enseigner",
@@ -2563,7 +2657,8 @@
         "aspect": "action",
         "v3": "enseigné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɑ̃.sɛ.ɲe/"
     },
     {
         "word": "faire le trajet",
@@ -2588,7 +2683,8 @@
         "aspect": "action",
         "v3": "fait le trajet",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fɛʁ lə tʁa.ʒɛ/"
     },
     {
         "word": "louer",
@@ -2609,7 +2705,8 @@
         "aspect": "action",
         "v3": "loué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/lwe/"
     },
     {
         "word": "s exercer",
@@ -2630,7 +2727,8 @@
         "v3": "exercé",
         "subtext": "s exercer / s exercer régulièrement / s exercer à la gym",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/s‿ɛɡ.zɛʁ.se/"
     },
     {
         "word": "coûter",
@@ -2651,7 +2749,8 @@
         "v3": "coûté",
         "subtext": "coûter / coûter cher / coûter de l argent",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ku.te/"
     },
     {
         "word": "inviter",
@@ -2672,7 +2771,8 @@
         "v3": "invité",
         "subtext": "inviter / inviter quelqu un / inviter à dîner",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɛ̃.vi.te/"
     },
     {
         "word": "se lever",
@@ -2693,7 +2793,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə lə.ve/"
     },
     {
         "word": "prendre le petit-déjeuner",
@@ -2717,7 +2818,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pʁɑ̃dʁ lə pə.ti de.ʒœ.ne/"
     },
     {
         "word": "revenir",
@@ -2738,7 +2840,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/ʁə.və.niʁ/"
     },
     {
         "word": "se coucher",
@@ -2759,7 +2862,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə ku.ʃe/"
     },
     {
         "word": "vérifier",
@@ -2780,7 +2884,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ve.ʁi.fje/"
     },
     {
         "word": "répondre",
@@ -2801,7 +2906,8 @@
         "level": "starter",
         "form": "verb",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁe.pɔ̃dʁ/"
     },
     {
         "word": "présenter",
@@ -2822,7 +2928,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pʁe.zɑ̃.te/"
     },
     {
         "word": "assister à",
@@ -2846,7 +2953,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.sis.te a/"
     },
     {
         "word": "gérer",
@@ -2867,7 +2975,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʒe.ʁe/"
     },
     {
         "word": "facturer",
@@ -2888,7 +2997,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fak.ty.ʁe/"
     },
     {
         "word": "avoir les moyens",
@@ -2909,7 +3019,8 @@
         "level": "starter",
         "form": "verb",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.vwaʁ le mwa.jɛ̃/"
     },
     {
         "word": "devoir",
@@ -2930,7 +3041,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/də.vwaʁ/"
     },
     {
         "word": "gagner",
@@ -2951,7 +3063,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɡa.ɲe/"
     },
     {
         "word": "visiter",
@@ -2972,7 +3085,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vi.zi.te/"
     },
     {
         "word": "fêter",
@@ -2993,7 +3107,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fɛ.te/"
     },
     {
         "word": "recommander",
@@ -3014,7 +3129,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.kɔ.mɑ̃.de/"
     },
     {
         "word": "faire mal",
@@ -3038,7 +3154,8 @@
         "level": "starter",
         "form": "verb",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fɛʁ mal/"
     },
     {
         "word": "se reposer",
@@ -3059,7 +3176,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə ʁə.po.ze/"
     },
     {
         "word": "se rétablir",
@@ -3080,7 +3198,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə ʁe.ta.bliʁ/"
     },
     {
         "word": "réserver",
@@ -3101,7 +3220,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁe.zɛʁ.ve/"
     },
     {
         "word": "faire sa valise",
@@ -3125,7 +3245,8 @@
         "level": "starter",
         "form": "verb",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fɛʁ sa va.liz/"
     },
     {
         "word": "annuler",
@@ -3146,7 +3267,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.ny.le/"
     },
     {
         "word": "manquer",
@@ -3167,7 +3289,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/mɑ̃.ke/"
     },
     {
         "word": "commander",
@@ -3188,7 +3311,8 @@
         "aspect": "action",
         "v3": "commandé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ.mɑ̃.de/"
     },
     {
         "word": "expliquer",
@@ -3209,7 +3333,8 @@
         "aspect": "action",
         "v3": "expliqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɛks.pli.ke/"
     },
     {
         "word": "remercier",
@@ -3233,7 +3358,8 @@
         "aspect": "action",
         "v3": "remercié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.mɛʁ.sje/"
     },
     {
         "word": "présenter",
@@ -3254,7 +3380,8 @@
         "aspect": "action",
         "v3": "présenté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pʁe.zɑ̃.te/"
     },
     {
         "word": "se détendre",
@@ -3275,7 +3402,8 @@
         "aspect": "action",
         "v3": "détendu",
         "group": "re",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə de.tɑ̃dʁ/"
     },
     {
         "word": "réparer",
@@ -3299,7 +3427,8 @@
         "aspect": "action",
         "v3": "réparé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁe.pa.ʁe/"
     },
     {
         "word": "se passer",
@@ -3323,7 +3452,8 @@
         "aspect": "action",
         "v3": "passé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə pa.se/"
     },
     {
         "word": "sembler",
@@ -3344,7 +3474,8 @@
         "aspect": "stative",
         "v3": "semblé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sɑ̃.ble/"
     },
     {
         "word": "vouloir dire",
@@ -3365,7 +3496,8 @@
         "aspect": "stative",
         "v3": "voulu dire",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/vu.lwaʁ diʁ/"
     },
     {
         "word": "suivre",
@@ -3386,7 +3518,8 @@
         "aspect": "action",
         "v3": "suivi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sɥivʁ/"
     },
     {
         "word": "continuer",
@@ -3407,7 +3540,8 @@
         "aspect": "action",
         "v3": "continué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ̃.ti.ny.e/"
     },
     {
         "word": "croître",
@@ -3432,7 +3566,8 @@
         "aspect": "action",
         "v3": "crû",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kʁwatʁ/"
     },
     {
         "word": "inclure",
@@ -3456,7 +3591,8 @@
         "aspect": "stative",
         "v3": "inclus",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɛ̃.klyʁ/"
     },
     {
         "word": "devenir",
@@ -3477,7 +3613,8 @@
         "aspect": "action",
         "v3": "devenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/də.və.niʁ/"
     },
     {
         "word": "appartenir",
@@ -3501,7 +3638,8 @@
         "aspect": "stative",
         "v3": "appartenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.paʁ.tə.niʁ/"
     },
     {
         "word": "choisir",
@@ -3522,7 +3660,8 @@
         "aspect": "action",
         "v3": "choisi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʃwa.ziʁ/"
     },
     {
         "word": "construire",
@@ -3546,7 +3685,8 @@
         "aspect": "action",
         "v3": "construit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ̃s.tʁɥiʁ/"
     },
     {
         "word": "commencer",
@@ -3566,7 +3706,8 @@
         "aspect": "action",
         "v3": "commencé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ.mɑ̃.se/"
     },
     {
         "word": "finir",
@@ -3586,7 +3727,8 @@
         "aspect": "action",
         "v3": "fini",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/fi.niʁ/"
     },
     {
         "word": "brosser",
@@ -3606,7 +3748,8 @@
         "aspect": "action",
         "v3": "brossé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/bʁɔ.se/"
     },
     {
         "word": "monter",
@@ -3626,7 +3769,8 @@
         "aspect": "action",
         "v3": "monté",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/mɔ̃.te/"
     },
     {
         "word": "rêver",
@@ -3646,7 +3790,8 @@
         "aspect": "action",
         "v3": "rêvé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁɛ.ve/"
     },
     {
         "word": "croire",
@@ -3666,7 +3811,8 @@
         "aspect": "action",
         "v3": "cru",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kʁwaʁ/"
     },
     {
         "word": "préférer",
@@ -3686,7 +3832,8 @@
         "aspect": "action",
         "v3": "préféré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pʁe.fe.ʁe/"
     },
     {
         "word": "attraper",
@@ -3706,7 +3853,8 @@
         "aspect": "action",
         "v3": "attrapé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.tʁa.pe/"
     },
     {
         "word": "réparer",
@@ -3726,7 +3874,8 @@
         "aspect": "action",
         "v3": "réparé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁe.pa.ʁe/"
     },
     {
         "word": "créer",
@@ -3746,7 +3895,8 @@
         "aspect": "action",
         "v3": "créé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kʁe.e/"
     },
     {
         "word": "remarquer",
@@ -3766,7 +3916,8 @@
         "aspect": "action",
         "v3": "remarqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.maʁ.ke/"
     },
     {
         "word": "améliorer",
@@ -3786,7 +3937,8 @@
         "aspect": "action",
         "v3": "amélioré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/a.me.ljo.ʁe/"
     },
     {
         "word": "préparer",
@@ -3806,7 +3958,8 @@
         "aspect": "action",
         "v3": "préparer",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pʁe.pa.ʁe/"
     },
     {
         "word": "organiser",
@@ -3826,7 +3979,8 @@
         "aspect": "action",
         "v3": "organisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɔʁ.ɡa.ni.ze/"
     },
     {
         "word": "planifier",
@@ -3846,7 +4000,8 @@
         "aspect": "action",
         "v3": "planifié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pla.ni.fje/"
     },
     {
         "word": "emprunter",
@@ -3866,7 +4021,8 @@
         "aspect": "action",
         "v3": "emprunté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɑ̃.pʁœ̃.te/"
     },
     {
         "word": "prêter",
@@ -3886,7 +4042,8 @@
         "aspect": "action",
         "v3": "prêté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pʁɛ.te/"
     },
     {
         "word": "sentir",
@@ -3906,7 +4063,8 @@
         "aspect": "action",
         "v3": "senti",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sɑ̃.tiʁ/"
     },
     {
         "word": "goûter",
@@ -3926,7 +4084,8 @@
         "aspect": "action",
         "v3": "goûté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɡu.te/"
     },
     {
         "word": "s'allonger",
@@ -3946,7 +4105,8 @@
         "aspect": "action",
         "v3": "allongé",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sa.lɔ̃.ʒe/"
     },
     {
         "word": "rire",
@@ -3966,7 +4126,8 @@
         "aspect": "action",
         "v3": "ri",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁiʁ/"
     },
     {
         "word": "s'inquiéter",
@@ -3986,7 +4147,8 @@
         "aspect": "action",
         "v3": "inquiété",
         "group": "er",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sɛ̃.kje.te/"
     },
     {
         "word": "sonner",
@@ -4006,7 +4168,8 @@
         "aspect": "action",
         "v3": "sonné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sɔ.ne/"
     },
     {
         "word": "épeler",
@@ -4026,7 +4189,8 @@
         "aspect": "action",
         "v3": "épelé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/e.pə.le/"
     },
     {
         "word": "pointer",
@@ -4046,7 +4210,8 @@
         "aspect": "action",
         "v3": "pointé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pwɛ̃.te/"
     },
     {
         "word": "crier",
@@ -4066,7 +4231,8 @@
         "aspect": "action",
         "v3": "crié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kʁi.je/"
     },
     {
         "word": "saluer",
@@ -4086,7 +4252,8 @@
         "aspect": "action",
         "v3": "salué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sa.lɥe/"
     },
     {
         "word": "donner un coup de pied",
@@ -4106,7 +4273,8 @@
         "aspect": "action",
         "v3": "donné un coup de pied",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/dɔ.ne œ̃ ku də pje/"
     },
     {
         "word": "jeter",
@@ -4126,7 +4294,8 @@
         "aspect": "action",
         "v3": "jeté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʒə.te/"
     },
     {
         "word": "rebondir",
@@ -4146,7 +4315,8 @@
         "aspect": "action",
         "v3": "rebondi",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʁə.bɔ̃.diʁ/"
     },
     {
         "word": "peindre",
@@ -4166,7 +4336,8 @@
         "aspect": "action",
         "v3": "peint",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/pɛ̃dʁ/"
     },
     {
         "word": "sautiller",
@@ -4186,7 +4357,8 @@
         "aspect": "action",
         "v3": "sautillé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/so.ti.je/"
     },
     {
         "word": "sauter",
@@ -4206,7 +4378,8 @@
         "aspect": "action",
         "v3": "sauté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/so.te/"
     },
     {
         "word": "compter",
@@ -4226,7 +4399,8 @@
         "aspect": "action",
         "v3": "compté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ̃.te/"
     },
     {
         "word": "cocher",
@@ -4246,7 +4420,8 @@
         "aspect": "action",
         "v3": "coché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ.ʃe/"
     },
     {
         "word": "barrer",
@@ -4266,7 +4441,8 @@
         "aspect": "action",
         "v3": "barré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ba.ʁe/"
     },
     {
         "word": "colorier",
@@ -4286,7 +4462,8 @@
         "aspect": "action",
         "v3": "colorié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/kɔ.lɔ.ʁje/"
     },
     {
         "word": "tenir",
@@ -4306,7 +4483,8 @@
         "aspect": "action",
         "v3": "tenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/tə.niʁ/"
     },
     {
         "word": "mener",
@@ -4326,7 +4504,8 @@
         "aspect": "action",
         "v3": "mené",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/mə.ne/"
     },
     {
         "word": "se battre",
@@ -4346,7 +4525,8 @@
         "aspect": "action",
         "v3": "battu",
         "group": "re",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "transcription": "/sə batʁ/"
     },
     {
         "word": "cacher",
@@ -4366,7 +4546,8 @@
         "aspect": "action",
         "v3": "caché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ka.ʃe/"
     },
     {
         "word": "chercher",
@@ -4386,7 +4567,8 @@
         "aspect": "action",
         "v3": "cherché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʃɛʁ.ʃe/"
     },
     {
         "word": "sonner",
@@ -4406,7 +4588,8 @@
         "aspect": "action",
         "v3": "sonné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/sɔ.ne/"
     },
     {
         "word": "envoyer un SMS",
@@ -4426,7 +4609,8 @@
         "aspect": "action",
         "v3": "envoyé un SMS",
         "group": "locution",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ɑ̃.vwa.je œ̃ ɛs.ɛm.ɛs/"
     },
     {
         "word": "chuchoter",
@@ -4446,7 +4630,8 @@
         "aspect": "action",
         "v3": "chuchoté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/ʃy.ʃɔ.te/"
     },
     {
         "word": "toucher",
@@ -4466,7 +4651,8 @@
         "aspect": "action",
         "v3": "touché",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": "/tu.ʃe/"
     },
     {
         "word": "allumer",
@@ -4620,7 +4806,7 @@
             }
         ]
     }
-];
+]
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
