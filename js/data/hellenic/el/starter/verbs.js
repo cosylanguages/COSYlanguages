@@ -20,7 +20,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "υπάρξει",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/ˈime/"
     },
     {
         "word": "έχω",
@@ -28,7 +29,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "έχω δουλειά / έχω πρόβλημα",
-        "synonyms": ["τρώω μεσημεριανό"],
+        "synonyms": [
+            "τρώω μεσημεριανό"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -43,7 +46,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "έχει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈexo/"
     },
     {
         "word": "νιώθω",
@@ -88,7 +92,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "δώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈðino/"
     },
     {
         "word": "παίρνω",
@@ -96,7 +101,9 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "παίρνω το λεωφορείο / παίρνω φάρμακο",
-        "synonyms": ["κάνω διάλειμμα"],
+        "synonyms": [
+            "κάνω διάλειμμα"
+        ],
         "opposite": "δίνω",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -112,7 +119,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πάρει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈperno/"
     },
     {
         "word": "παίρνω",
@@ -120,7 +128,11 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["βρίσκω δουλειά", "κουράζομαι", "βελτιώνομαι"],
+        "synonyms": [
+            "βρίσκω δουλειά",
+            "κουράζομαι",
+            "βελτιώνομαι"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -135,7 +147,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πάρει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈperno/"
     },
     {
         "word": "βάζω",
@@ -143,7 +156,9 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "βάζω / αφήνω κάτω το τηλέφωνο",
-        "synonyms": ["τακτοποιώ"],
+        "synonyms": [
+            "τακτοποιώ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -157,7 +172,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "βάλει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈvazo/"
     },
     {
         "word": "φτιάχνω",
@@ -165,7 +181,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "φτιάχνω καφέ",
-        "synonyms": ["παίρνω απόφαση", "κάνω λάθος"],
+        "synonyms": [
+            "παίρνω απόφαση",
+            "κάνω λάθος"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -200,7 +219,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈkano/"
     },
     {
         "word": "χρησιμοποιώ",
@@ -221,7 +241,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χρησιμοποιήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/xrisimopiˈo/"
     },
     {
         "word": "ανοίγω",
@@ -244,7 +265,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ανοίξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aˈniɣo/"
     },
     {
         "word": "κλείνω",
@@ -267,7 +289,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "κλείσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈklino/"
     },
     {
         "word": "ξεκινώ",
@@ -313,7 +336,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "τελειώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/teliˈono/"
     },
     {
         "word": "βοηθώ",
@@ -321,7 +345,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "βοηθώ κάποιον / βοηθώ με μια εργασία",
-        "synonyms": ["ζητώ βοήθεια"],
+        "synonyms": [
+            "ζητώ βοήθεια"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -335,7 +361,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "βοηθήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/voiˈθo/"
     },
     {
         "word": "προσπαθώ",
@@ -343,7 +370,9 @@
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "προσπαθώ να κάνω / προσπαθώ σκληρά",
-        "synonyms": ["δοκιμάζω κάτι νέο"],
+        "synonyms": [
+            "δοκιμάζω κάτι νέο"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -378,7 +407,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "δείξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈðixno/"
     },
     {
         "word": "βρίσκω",
@@ -386,7 +416,9 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "βρίσκω δουλειά / βρίσκω χρόνο",
-        "synonyms": ["ανακαλύπτω"],
+        "synonyms": [
+            "ανακαλύπτω"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -400,7 +432,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "βρει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈvrisko/"
     },
     {
         "word": "κρατώ",
@@ -408,7 +441,10 @@
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "κρατώ αρχείο",
-        "synonyms": ["συνεχίζω", "μένω σιωπηλός"],
+        "synonyms": [
+            "συνεχίζω",
+            "μένω σιωπηλός"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -446,7 +482,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "χάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈxano/"
     },
     {
         "word": "κόβω",
@@ -454,7 +491,9 @@
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "κόβω κόστη / κόβω στη μέση",
-        "synonyms": ["μειώνω δαπάνες"],
+        "synonyms": [
+            "μειώνω δαπάνες"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -468,7 +507,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κόψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈkovo/"
     },
     {
         "word": "στρίβω",
@@ -476,7 +516,10 @@
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "στρίβω αριστερά / στρίβω δεξιά",
-        "synonyms": ["ανάβω", "σβήνω"],
+        "synonyms": [
+            "ανάβω",
+            "σβήνω"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -490,7 +533,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "στρίψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈstrivo/"
     },
     {
         "word": "φέρνω",
@@ -511,7 +555,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φέρει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈferno/"
     },
     {
         "word": "λέω",
@@ -532,7 +577,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πει",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/ˈleo/"
     },
     {
         "word": "λέω",
@@ -553,7 +599,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πει",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/ˈleo/"
     },
     {
         "word": "ρωτώ",
@@ -561,7 +608,10 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "ρωτώ για",
-        "synonyms": ["κάνω ερώτηση", "ζητώ βοήθεια"],
+        "synonyms": [
+            "κάνω ερώτηση",
+            "ζητώ βοήθεια"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -604,7 +654,11 @@
         "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "",
-        "synonyms": ["μιλώ σε κάποιον", "μιλώ για", "μιλώ ανοιχτά"],
+        "synonyms": [
+            "μιλώ σε κάποιον",
+            "μιλώ για",
+            "μιλώ ανοιχτά"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -618,7 +672,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μιλήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/miˈlao/"
     },
     {
         "word": "καλώ",
@@ -626,7 +681,9 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "καλώ κάποιον / καλώ πίσω",
-        "synonyms": ["συγκαλώ συνάντηση"],
+        "synonyms": [
+            "συγκαλώ συνάντηση"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -663,7 +720,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "γράψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈɣrafo/"
     },
     {
         "word": "διαβάζω",
@@ -686,7 +744,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "διαβάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ðiaˈvazo/"
     },
     {
         "word": "ακούω",
@@ -707,7 +766,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ακούσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aˈkuo/"
     },
     {
         "word": "απαντώ",
@@ -736,7 +796,9 @@
         "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "επαναλαμβάνω αυτό",
-        "synonyms": ["επαναλαμβάνομαι"],
+        "synonyms": [
+            "επαναλαμβάνομαι"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -750,7 +812,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επαναλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/epanalavˈvano/"
     },
     {
         "word": "πηγαίνω",
@@ -758,7 +821,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "πηγαίνω δουλειά / πηγαίνω σπίτι",
-        "synonyms": ["βγαίνω έξω"],
+        "synonyms": [
+            "βγαίνω έξω"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -772,7 +837,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πάει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/piˈʝeno/"
     },
     {
         "word": "έρχομαι",
@@ -780,7 +846,9 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "έρχομαι σπίτι / έρχομαι στη δουλειά",
-        "synonyms": ["επιστρέφω"],
+        "synonyms": [
+            "επιστρέφω"
+        ],
         "opposite": "πηγαίνω",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -796,7 +864,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "έρθει",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/ˈerxome/"
     },
     {
         "word": "περπατώ",
@@ -838,7 +907,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "οδηγήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/oðiˈɣo/"
     },
     {
         "word": "πετώ",
@@ -880,7 +950,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "φτάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈftano/"
     },
     {
         "word": "φεύγω",
@@ -901,7 +972,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φύγει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈfefɣo/"
     },
     {
         "word": "μετακινούμαι",
@@ -909,7 +981,11 @@
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["μετακομίζω", "μετακομίζω σε πόλη", "προχωρώ"],
+        "synonyms": [
+            "μετακομίζω",
+            "μετακομίζω σε πόλη",
+            "προχωρώ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -923,7 +999,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μετακινηθεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/metaciˈnume/"
     },
     {
         "word": "επιστρέφω",
@@ -944,7 +1021,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επιστρέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/epiˈstrefo/"
     },
     {
         "word": "ταξιδεύω",
@@ -965,7 +1043,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ταξιδέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/taksiˈðevo/"
     },
     {
         "word": "τρώω",
@@ -973,7 +1052,10 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "τρώω πρωινό",
-        "synonyms": ["μεσημεριανό", "βραδινό"],
+        "synonyms": [
+            "μεσημεριανό",
+            "βραδινό"
+        ],
         "opposite": "πίνω",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -989,7 +1071,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φάει",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/ˈtroo/"
     },
     {
         "word": "πίνω",
@@ -1012,7 +1095,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πιει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈpino/"
     },
     {
         "word": "κοιμάμαι",
@@ -1035,7 +1119,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κοιμηθεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/ciˈmame/"
     },
     {
         "word": "μαγειρεύω",
@@ -1056,7 +1141,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μαγειρέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/maʝiˈrevo/"
     },
     {
         "word": "καθαρίζω",
@@ -1077,7 +1163,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "καθαρίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/kaθaˈrizo/"
     },
     {
         "word": "φοράω",
@@ -1098,7 +1185,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φορέσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/foˈrao/"
     },
     {
         "word": "πλένω",
@@ -1119,7 +1207,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "πλύνει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈpleno/"
     },
     {
         "word": "αγοράζω",
@@ -1142,7 +1231,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "αγοράσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aˈɣorazo/"
     },
     {
         "word": "πληρώνω",
@@ -1150,7 +1240,9 @@
         "theme": "money_payment_A1",
         "emoji": "💳",
         "subtext": "πληρώνω λογαριασμό / πληρώνω ενοίκιο",
-        "synonyms": ["με κάρτα"],
+        "synonyms": [
+            "με κάρτα"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1164,7 +1256,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πληρώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/pliˈrono/"
     },
     {
         "word": "ξοδεύω",
@@ -1185,7 +1278,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "ξοδέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ksoˈðevo/"
     },
     {
         "word": "αποταμιεύω",
@@ -1208,7 +1302,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αποταμιεύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/apotamiˈevo/"
     },
     {
         "word": "δουλεύω",
@@ -1229,7 +1324,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δουλέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ðuˈlevo/"
     },
     {
         "word": "ζω",
@@ -1252,7 +1348,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ζήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/zo/"
     },
     {
         "word": "σκέφτομαι",
@@ -1260,7 +1357,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "σκέφτομαι / σκέφτομαι προσεκτικά",
-        "synonyms": ["νομίζω"],
+        "synonyms": [
+            "νομίζω"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1282,7 +1381,9 @@
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "ξέρω την απάντηση / ξέρω πώς",
-        "synonyms": ["γνωρίζω κάποιον"],
+        "synonyms": [
+            "γνωρίζω κάποιον"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1296,7 +1397,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "ξέρει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈksero/"
     },
     {
         "word": "θέλω",
@@ -1318,7 +1420,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "θέλει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈθelo/"
     },
     {
         "word": "χρειάζομαι",
@@ -1326,7 +1429,9 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "χρειάζομαι βοήθεια / χρειάζομαι χρόνο",
-        "synonyms": ["χρήματα"],
+        "synonyms": [
+            "χρήματα"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1341,7 +1446,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "χρειαστεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/xriˈazome/"
     },
     {
         "word": "μου αρέσει",
@@ -1363,7 +1469,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "αρέσει",
-        "group": "locution"
+        "group": "locution",
+        "transcription": "/mu aˈresi/"
     },
     {
         "word": "αγαπώ",
@@ -1405,7 +1512,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "μισήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/miˈso/"
     },
     {
         "word": "ελπίζω",
@@ -1426,7 +1534,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ελπίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/elˈpizo/"
     },
     {
         "word": "θυμάμαι",
@@ -1447,7 +1556,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "θυμηθεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/θiˈmame/"
     },
     {
         "word": "ξεχνώ",
@@ -1489,7 +1599,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "καταλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/katalaveno/"
     },
     {
         "word": "αποφασίζω",
@@ -1497,7 +1608,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "αποφασίζω να κάνω / αποφασίζω για",
-        "synonyms": ["παίρνω απόφαση"],
+        "synonyms": [
+            "παίρνω απόφαση"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1511,7 +1624,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "αποφασίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/apofaˈsizo/"
     },
     {
         "word": "απολαμβάνω",
@@ -1532,7 +1646,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "απολαύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/apolamˈvano/"
     },
     {
         "word": "βλέπω",
@@ -1553,7 +1668,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "δει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈvlepo/"
     },
     {
         "word": "ακούω",
@@ -1574,7 +1690,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "ακούσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aˈkuo/"
     },
     {
         "word": "ξυπνάω",
@@ -1597,7 +1714,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "ξυπνήσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ksiˈpnao/"
     },
     {
         "word": "βλέπω",
@@ -1618,7 +1736,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈvlepo/"
     },
     {
         "word": "κοιτάζω",
@@ -1626,7 +1745,10 @@
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "κοιτάζω",
-        "synonyms": ["ψάχνω", "μοιάζω με"],
+        "synonyms": [
+            "ψάχνω",
+            "μοιάζω με"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1661,7 +1783,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παίξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈpezo/"
     },
     {
         "word": "τρέχω",
@@ -1669,7 +1792,9 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "τρέχω / τρέχω σε αγώνα",
-        "synonyms": ["διευθύνω επιχείρηση"],
+        "synonyms": [
+            "διευθύνω επιχείρηση"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1683,7 +1808,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "τρέξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈtrexo/"
     },
     {
         "word": "κάθομαι",
@@ -1706,7 +1832,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "καθίσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/ˈkaθome/"
     },
     {
         "word": "στέκομαι",
@@ -1714,7 +1841,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "στέκομαι / στέκομαι στην ουρά",
-        "synonyms": ["σηκώνομαι"],
+        "synonyms": [
+            "σηκώνομαι"
+        ],
         "opposite": "κάθομαι",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1730,7 +1859,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "σταθεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/ˈstecome/"
     },
     {
         "word": "συναντώ",
@@ -1751,7 +1881,9 @@
         "aspect": "action",
         "v3": "συναντήσει",
         "subtext": "συναντώ κάποιον",
-        "synonyms": ["συναντιόμαστε για μεσημεριανό"],
+        "synonyms": [
+            "συναντιόμαστε για μεσημεριανό"
+        ],
         "group": "group_a"
     },
     {
@@ -1773,7 +1905,8 @@
         "classification": "both",
         "aspect": "action",
         "v3": "μάθει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/maˈθeno/"
     },
     {
         "word": "αλλάζω",
@@ -1794,7 +1927,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αλλάξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aˈlazo/"
     },
     {
         "word": "σταματώ",
@@ -1836,7 +1970,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προσθέσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/prosˈθeto/"
     },
     {
         "word": "κερδίζω",
@@ -1858,7 +1993,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κερδίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/cerˈðizo/"
     },
     {
         "word": "περιμένω",
@@ -1879,7 +2015,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "περιμένει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/periˈmeno/"
     },
     {
         "word": "πεθαίνω",
@@ -1887,7 +2024,9 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "πεθαίνω / πεθαίνω από",
-        "synonyms": ["εξαφανίζομαι"],
+        "synonyms": [
+            "εξαφανίζομαι"
+        ],
         "opposite": "ζω",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1902,7 +2041,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "πεθάνει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/peˈθeno/"
     },
     {
         "word": "στέλνω",
@@ -1923,7 +2063,8 @@
         "aspect": "action",
         "v3": "στείλει",
         "subtext": "στέλνω / στέλνω email / στέλνω μήνυμα",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈstelno/"
     },
     {
         "word": "μένω",
@@ -1944,7 +2085,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μείνει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈmeno/"
     },
     {
         "word": "πέφτω",
@@ -1952,7 +2094,9 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "πέφτω / με παίρνει ο ύπνος",
-        "synonyms": ["ερωτεύομαι"],
+        "synonyms": [
+            "ερωτεύομαι"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1966,7 +2110,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πέσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈpefto/"
     },
     {
         "word": "περνώ",
@@ -2017,7 +2162,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "τραβώ / τραβώ την πόρτα",
-        "synonyms": ["απομακρύνομαι"],
+        "synonyms": [
+            "απομακρύνομαι"
+        ],
         "opposite": "σπρώχνω",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2040,7 +2187,9 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "σπρώχνω / σπρώχνω καρότσι",
-        "synonyms": ["πατώ κουμπί"],
+        "synonyms": [
+            "πατώ κουμπί"
+        ],
         "opposite": "τραβώ",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2056,7 +2205,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σπρώξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈsproxno/"
     },
     {
         "word": "κουβαλώ",
@@ -2085,7 +2235,9 @@
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "σπάω / σπάω το γυαλί",
-        "synonyms": ["κάνω διάλειμμα"],
+        "synonyms": [
+            "κάνω διάλειμμα"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2099,7 +2251,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "σπάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈspao/"
     },
     {
         "word": "λαμβάνω",
@@ -2141,7 +2294,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "συμφωνήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/simfoˈno/"
     },
     {
         "word": "σχεδιάζω",
@@ -2162,7 +2316,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "σχεδιάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/sçeˈðiazo/"
     },
     {
         "word": "μοιράζομαι",
@@ -2183,7 +2338,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μοιραστεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/miˈrazome/"
     },
     {
         "word": "χαμογελώ",
@@ -2191,7 +2347,9 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "χαμογελώ / χαμογελώ σε κάποιον",
-        "synonyms": ["πλατιά"],
+        "synonyms": [
+            "πλατιά"
+        ],
         "opposite": "κλαίω",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2230,7 +2388,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "κλάψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈkleo/"
     },
     {
         "word": "χορεύω",
@@ -2238,7 +2397,9 @@
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "χορεύω / χορεύω με μουσική",
-        "synonyms": ["πηγαίνω για χορό"],
+        "synonyms": [
+            "πηγαίνω για χορό"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2252,7 +2413,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χορέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/xoˈrevo/"
     },
     {
         "word": "τραγουδώ",
@@ -2260,7 +2422,9 @@
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "τραγουδώ / τραγουδώ ένα τραγούδι",
-        "synonyms": ["σιγοτραγουδώ"],
+        "synonyms": [
+            "σιγοτραγουδώ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2303,7 +2467,9 @@
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "κολυμπώ / κολυμπώ γύρους",
-        "synonyms": ["πάω για κολύμπι"],
+        "synonyms": [
+            "πάω για κολύμπι"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2325,7 +2491,10 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "σπουδάζω",
-        "synonyms": ["μαθαίνω αγγλικά", "προετοιμάζομαι"],
+        "synonyms": [
+            "μαθαίνω αγγλικά",
+            "προετοιμάζομαι"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2339,7 +2508,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σπουδάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/spuˈðazo/"
     },
     {
         "word": "διδάσκω",
@@ -2347,7 +2517,9 @@
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "διδάσκω / διδάσκω μάθημα",
-        "synonyms": ["μαθαίνω σε κάποιον"],
+        "synonyms": [
+            "μαθαίνω σε κάποιον"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2361,7 +2533,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "διδάξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ðiˈðasko/"
     },
     {
         "word": "μετακινούμαι",
@@ -2369,7 +2542,10 @@
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "μετακινούμαι",
-        "synonyms": ["καθημερινή μετακίνηση", "μακρινή"],
+        "synonyms": [
+            "καθημερινή μετακίνηση",
+            "μακρινή"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2382,7 +2558,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μετακινηθεί",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/metaciˈnume/"
     },
     {
         "word": "νοικιάζω",
@@ -2402,7 +2579,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "νοικιάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/niˈciazo/"
     },
     {
         "word": "γυμνάζομαι",
@@ -2422,8 +2600,11 @@
         "aspect": "action",
         "v3": "γυμναστεί",
         "subtext": "γυμνάζομαι / γυμνάζομαι τακτικά",
-        "synonyms": ["στο γυμναστήριο"],
-        "group": "group_b"
+        "synonyms": [
+            "στο γυμναστήριο"
+        ],
+        "group": "group_b",
+        "transcription": "/ʝiˈmnazome/"
     },
     {
         "word": "κοστίζω",
@@ -2443,8 +2624,12 @@
         "aspect": "stative",
         "v3": "κοστίσει",
         "subtext": "κοστίζω",
-        "synonyms": ["κοστίζει ακριβά", "κοστίζει χρήματα"],
-        "group": "group_a"
+        "synonyms": [
+            "κοστίζει ακριβά",
+            "κοστίζει χρήματα"
+        ],
+        "group": "group_a",
+        "transcription": "/koˈstizo/"
     },
     {
         "word": "προσκαλώ",
@@ -2464,8 +2649,11 @@
         "aspect": "action",
         "v3": "προσκαλέσει",
         "subtext": "προσκαλώ / προσκαλώ σε δείπνο",
-        "synonyms": ["καλώ κάποιον"],
-        "group": "group_b"
+        "synonyms": [
+            "καλώ κάποιον"
+        ],
+        "group": "group_b",
+        "transcription": "/proskaˈlo/"
     },
     {
         "word": "σηκώνομαι",
@@ -2485,7 +2673,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/siˈconome/"
     },
     {
         "word": "τρώω πρωινό",
@@ -2498,7 +2687,10 @@
             }
         ],
         "subtext": "τρώω πρωινό στο σπίτι",
-        "synonyms": ["γρήγορο πρωινό", "παραλείπω"],
+        "synonyms": [
+            "γρήγορο πρωινό",
+            "παραλείπω"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "φάει πρωινό",
@@ -2506,7 +2698,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "locution",
+        "transcription": "/ˈtroo proiˈno/"
     },
     {
         "word": "επιστρέφω",
@@ -2519,7 +2712,9 @@
             }
         ],
         "subtext": "επιστρέφω σπίτι / επιστρέφω αργά",
-        "synonyms": ["από ταξίδι"],
+        "synonyms": [
+            "από ταξίδι"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "επιστρέψει",
@@ -2527,7 +2722,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/epiˈstrefo/"
     },
     {
         "word": "πέφτω για ύπνο",
@@ -2540,7 +2736,10 @@
             }
         ],
         "subtext": "πέφτω για ύπνο νωρίς",
-        "synonyms": ["πέφτω αργά", "κουρασμένος"],
+        "synonyms": [
+            "πέφτω αργά",
+            "κουρασμένος"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "πέσει για ύπνο",
@@ -2568,7 +2767,8 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/eˈleŋxo/"
     },
     {
         "word": "απαντώ",
@@ -2581,7 +2781,9 @@
             }
         ],
         "subtext": "απαντώ σε email / απαντώ γρήγορα",
-        "synonyms": ["σε μήνυμα"],
+        "synonyms": [
+            "σε μήνυμα"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "απαντήσει",
@@ -2602,7 +2804,9 @@
             }
         ],
         "subtext": "παρουσιάζω αναφορά / παρουσιάζω ιδέες",
-        "synonyms": ["σε πελάτη"],
+        "synonyms": [
+            "σε πελάτη"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "παρουσιάσει",
@@ -2610,7 +2814,8 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/parusiˈazo/"
     },
     {
         "word": "παρευρίσκομαι",
@@ -2623,7 +2828,9 @@
             }
         ],
         "subtext": "παρευρίσκομαι σε συνάντηση",
-        "synonyms": ["παρακολουθώ μάθημα"],
+        "synonyms": [
+            "παρακολουθώ μάθημα"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "παρευρεθεί",
@@ -2644,7 +2851,9 @@
             }
         ],
         "subtext": "διαχειρίζομαι ομάδα / διαχειρίζομαι έργο",
-        "synonyms": ["χρόνο"],
+        "synonyms": [
+            "χρόνο"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "διαχειριστεί",
@@ -2652,7 +2861,8 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/ðiaçiriˈzome/"
     },
     {
         "word": "χρεώνω",
@@ -2672,7 +2882,8 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/çreˈono/"
     },
     {
         "word": "έχω την οικονομική δυνατότητα",
@@ -2685,7 +2896,9 @@
             }
         ],
         "subtext": "έχω τη δυνατότητα για σπίτι",
-        "synonyms": ["για ταξίδι"],
+        "synonyms": [
+            "για ταξίδι"
+        ],
         "classification": "irregular",
         "aspect": "stative",
         "v3": "έχει τη δυνατότητα",
@@ -2733,7 +2946,8 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/cerˈðizo/"
     },
     {
         "word": "επισκέπτομαι",
@@ -2746,7 +2960,10 @@
             }
         ],
         "subtext": "επισκέπτομαι οικογένεια",
-        "synonyms": ["φίλο", "πόλη"],
+        "synonyms": [
+            "φίλο",
+            "πόλη"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "επισκεφθεί",
@@ -2754,7 +2971,8 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/epiˈsceptome/"
     },
     {
         "word": "γιορτάζω",
@@ -2767,7 +2985,9 @@
             }
         ],
         "subtext": "γιορτάζω γενέθλια / γιορτάζω επιτυχία",
-        "synonyms": ["μαζί"],
+        "synonyms": [
+            "μαζί"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "γιορτάσει",
@@ -2775,7 +2995,8 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ʝiorˈtazo/"
     },
     {
         "word": "συνιστώ",
@@ -2788,7 +3009,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["συστήνω μέρος", "συστήνω κάποιον", "συστήνω ταινία"],
+        "synonyms": [
+            "συστήνω μέρος",
+            "συστήνω κάποιον",
+            "συστήνω ταινία"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "συστήσει",
@@ -2809,7 +3034,10 @@
             }
         ],
         "subtext": "πονώ κάποιον",
-        "synonyms": ["πονάει η πλάτη", "με πονάει"],
+        "synonyms": [
+            "πονάει η πλάτη",
+            "με πονάει"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v3": "πονέσει",
@@ -2830,7 +3058,10 @@
             }
         ],
         "subtext": "ξεκουράζομαι στο σπίτι",
-        "synonyms": ["μετά τη δουλειά", "χρειάζομαι"],
+        "synonyms": [
+            "μετά τη δουλειά",
+            "χρειάζομαι"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "ξεκουραστεί",
@@ -2838,7 +3069,8 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/ksecuˈrazome/"
     },
     {
         "word": "αναρρώνω",
@@ -2851,7 +3083,10 @@
             }
         ],
         "subtext": "αναρρώνω από ασθένεια",
-        "synonyms": ["γρήγορα", "πλήρως"],
+        "synonyms": [
+            "γρήγορα",
+            "πλήρως"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v3": "αναρρώσει",
@@ -2872,7 +3107,10 @@
             }
         ],
         "subtext": "κάνω κράτηση ξενοδοχείου",
-        "synonyms": ["πτήσης", "τραπεζιού"],
+        "synonyms": [
+            "πτήσης",
+            "τραπεζιού"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει κράτηση",
@@ -2880,7 +3118,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "locution",
+        "transcription": "/ˈkano ˈkratisi/"
     },
     {
         "word": "φτιάχνω βαλίτσα",
@@ -2893,7 +3132,10 @@
             }
         ],
         "subtext": "φτιάχνω βαλίτσα",
-        "synonyms": ["φτιάχνω τσάντα", "παίρνω λίγα"],
+        "synonyms": [
+            "φτιάχνω τσάντα",
+            "παίρνω λίγα"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v3": "φτιάξει βαλίτσα",
@@ -2921,7 +3163,8 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aciˈrono/"
     },
     {
         "word": "χάνω",
@@ -2934,7 +3177,9 @@
             }
         ],
         "subtext": "χάνω τρένο / χάνω πτήση",
-        "synonyms": ["μου λείπει κάποιος"],
+        "synonyms": [
+            "μου λείπει κάποιος"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v3": "χάσει",
@@ -2942,7 +3187,8 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈxano/"
     },
     {
         "word": "παραγγέλνω",
@@ -2950,7 +3196,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "📦",
         "subtext": "παραγγέλνω φαγητό / παραγγέλνω ποτό",
-        "synonyms": ["online"],
+        "synonyms": [
+            "online"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2963,7 +3211,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παραγγείλει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/paraˈŋɡelno/"
     },
     {
         "word": "εξηγώ",
@@ -2983,7 +3232,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "εξηγήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/eksiˈɣo/"
     },
     {
         "word": "ευχαριστώ",
@@ -2991,7 +3241,9 @@
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "ευχαριστώ κάποιον / ευχαριστώ για",
-        "synonyms": ["πολλές ευχαριστίες"],
+        "synonyms": [
+            "πολλές ευχαριστίες"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3004,7 +3256,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ευχαριστήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/efxariˈsto/"
     },
     {
         "word": "συστήνω",
@@ -3012,7 +3265,10 @@
         "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "συστήνω κάποιον",
-        "synonyms": ["συστήνομαι", "παρουσιάζω θέμα"],
+        "synonyms": [
+            "συστήνομαι",
+            "παρουσιάζω θέμα"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3025,7 +3281,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συστήσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/siˈstino/"
     },
     {
         "word": "χαλαρώνω",
@@ -3033,7 +3290,10 @@
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
         "subtext": "χαλαρώνω στο σπίτι",
-        "synonyms": ["μετά τη δουλειά", "στις διακοπές"],
+        "synonyms": [
+            "μετά τη δουλειά",
+            "στις διακοπές"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3046,7 +3306,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χαλαρώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/xalaˈrono/"
     },
     {
         "word": "επισκευάζω",
@@ -3054,7 +3315,10 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "επισκευάζω κάτι",
-        "synonyms": ["κάνω επισκευή", "κόστος επισκευής"],
+        "synonyms": [
+            "κάνω επισκευή",
+            "κόστος επισκευής"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3067,7 +3331,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επισκευάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/episcevˈazo/"
     },
     {
         "word": "συμβαίνει",
@@ -3075,7 +3340,9 @@
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "συμβαίνει σε κάποιον / συμβαίνει",
-        "synonyms": ["τι συνέβη"],
+        "synonyms": [
+            "τι συνέβη"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3088,7 +3355,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συμβεί",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/simˈveni/"
     },
     {
         "word": "φαίνομαι",
@@ -3096,7 +3364,11 @@
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "",
-        "synonyms": ["φαίνεται καλό", "φαίνεται ανήσυχος", "φαίνεται χαρούμενος"],
+        "synonyms": [
+            "φαίνεται καλό",
+            "φαίνεται ανήσυχος",
+            "φαίνεται χαρούμενος"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3117,7 +3389,10 @@
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "σημαίνω κάτι",
-        "synonyms": ["τι σημαίνει", "εννοώ"],
+        "synonyms": [
+            "τι σημαίνει",
+            "εννοώ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3138,7 +3413,9 @@
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "ακολουθώ οδηγίες / ακολουθώ κάποιον",
-        "synonyms": ["τις ειδήσεις"],
+        "synonyms": [
+            "τις ειδήσεις"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3151,7 +3428,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ακολουθήσει",
-        "group": "group_b"
+        "group": "group_b",
+        "transcription": "/akoluˈθo/"
     },
     {
         "word": "συνεχίζω",
@@ -3159,7 +3437,9 @@
         "theme": "learning_studying_A1",
         "emoji": "⏩",
         "subtext": "συνεχίζω να δουλεύω / συνεχίζω να κάνω",
-        "synonyms": ["μια εργασία"],
+        "synonyms": [
+            "μια εργασία"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3172,7 +3452,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συνεχίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/sineˈçizo/"
     },
     {
         "word": "μεγαλώνω",
@@ -3180,7 +3461,10 @@
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "μεγαλώνω γρήγορα",
-        "synonyms": ["αναπτύσσω επιχείρηση", "εξελίσσομαι σε"],
+        "synonyms": [
+            "αναπτύσσω επιχείρηση",
+            "εξελίσσομαι σε"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3193,7 +3477,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "μεγαλώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/meɣaˈlono/"
     },
     {
         "word": "περιλαμβάνω",
@@ -3201,7 +3486,10 @@
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "περιλαμβάνω κάτι",
-        "synonyms": ["περιλαμβάνεται σε", "δεν περιλαμβάνεται"],
+        "synonyms": [
+            "περιλαμβάνεται σε",
+            "δεν περιλαμβάνεται"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3214,7 +3502,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "περιλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/perilamˈvano/"
     },
     {
         "word": "γίνομαι",
@@ -3234,7 +3523,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "γίνει",
-        "group": "irregular"
+        "group": "irregular",
+        "transcription": "/ˈʝinome/"
     },
     {
         "word": "ανήκω",
@@ -3254,7 +3544,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ανήκει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/aˈnico/"
     },
     {
         "word": "επιλέγω",
@@ -3274,7 +3565,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "επιλέξει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/epiˈleɣo/"
     },
     {
         "word": "χτίζω",
@@ -3294,9 +3586,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "χτίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "transcription": "/ˈxtizo/"
     }
-];
+]
     const lang = "el";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

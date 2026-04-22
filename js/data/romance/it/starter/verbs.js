@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "essere",
         "level": "starter",
@@ -4942,7 +4941,8 @@
         "v3": "acceso",
         "group": "ere",
         "auxiliary": "avere",
-        "opposite": "spegnere"
+        "opposite": "spegnere",
+        "subtext": ""
     },
     {
         "word": "spegnere",
@@ -4965,7 +4965,8 @@
         "v3": "spento",
         "group": "ere",
         "auxiliary": "avere",
-        "opposite": "accendere"
+        "opposite": "accendere",
+        "subtext": ""
     },
     {
         "word": "respirare",
@@ -4987,7 +4988,8 @@
         "aspect": "action",
         "v3": "respirato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "tossire",
@@ -5009,7 +5011,8 @@
         "aspect": "action",
         "v3": "tossito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "starnutire",
@@ -5031,7 +5034,8 @@
         "aspect": "action",
         "v3": "starnutito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "sbadigliare",
@@ -5053,7 +5057,8 @@
         "aspect": "action",
         "v3": "sbadigliato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "arrampicarsi",
@@ -5075,7 +5080,8 @@
         "aspect": "action",
         "v3": "arrampicato",
         "group": "riflessivo",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "subtext": ""
     },
     {
         "word": "vestirsi",
@@ -5098,7 +5104,8 @@
         "v3": "vestito",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "opposite": "spogliarsi"
+        "opposite": "spogliarsi",
+        "subtext": ""
     },
     {
         "word": "spogliarsi",
@@ -5121,7 +5128,8 @@
         "v3": "spogliato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "opposite": "vestirsi"
+        "opposite": "vestirsi",
+        "subtext": ""
     },
     {
         "word": "riempire",
@@ -5143,7 +5151,8 @@
         "aspect": "action",
         "v3": "riempito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "desiderare",
@@ -5165,7 +5174,8 @@
         "aspect": "stative",
         "v3": "desiderato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "descrivere",
@@ -5187,7 +5197,8 @@
         "aspect": "action",
         "v3": "descritto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "annotare",
@@ -5209,7 +5220,8 @@
         "aspect": "action",
         "v3": "annotato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "subtext": ""
     },
     {
         "word": "produrre",
@@ -5322,7 +5334,7 @@
         "auxiliary": "avere",
         "subtext": ""
     }
-];
+]
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

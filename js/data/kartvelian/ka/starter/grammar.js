@@ -33,7 +33,7 @@
                 }
             }
         }
-    ];
+    ]
     const lang = "ka";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];

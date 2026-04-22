@@ -2495,7 +2495,7 @@
         "plural": "шау-шулы",
         "femininePlural": "шау-шулы"
     }
-];
+]
     const lang = "tt";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

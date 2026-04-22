@@ -344,7 +344,7 @@
         "theme": "address_location_A1",
         "transcription": "ʒə.nɛv"
     }
-];
+]
     const lang = "fr";
     window.locationsData = window.locationsData || {};
     window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];

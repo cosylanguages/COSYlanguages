@@ -5158,7 +5158,7 @@
         "superlative": "the most useful",
         "subtext": "very useful, useful information"
     }
-];
+]
     const lang = "en";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

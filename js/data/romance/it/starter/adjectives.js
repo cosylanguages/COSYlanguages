@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "alto",
         "level": "starter",
@@ -4555,7 +4554,8 @@
                 ]
             }
         ],
-        "transcription": "viˈɔla"
+        "transcription": "viˈɔla",
+        "subtext": ""
     },
     {
         "word": "sposato",
@@ -4576,7 +4576,8 @@
             }
         ],
         "transcription": "spoˈzato",
-        "opposite": "single"
+        "opposite": "single",
+        "subtext": ""
     },
     {
         "word": "celibe",
@@ -4597,7 +4598,8 @@
             }
         ],
         "transcription": "ˈtʃɛlibe",
-        "opposite": "sposato"
+        "opposite": "sposato",
+        "subtext": ""
     },
     {
         "word": "ruvido",
@@ -4618,7 +4620,8 @@
             }
         ],
         "transcription": "ˈruvido",
-        "opposite": "liscio"
+        "opposite": "liscio",
+        "subtext": ""
     },
     {
         "word": "superficiale",
@@ -4639,7 +4642,8 @@
             }
         ],
         "transcription": "superfitˈtʃale",
-        "opposite": "profondo"
+        "opposite": "profondo",
+        "subtext": ""
     },
     {
         "word": "strano",
@@ -4660,7 +4664,8 @@
             }
         ],
         "transcription": "ˈstrano",
-        "opposite": "normale"
+        "opposite": "normale",
+        "subtext": ""
     },
     {
         "word": "normale",
@@ -4681,7 +4686,8 @@
             }
         ],
         "transcription": "norˈmale",
-        "opposite": "strano"
+        "opposite": "strano",
+        "subtext": ""
     },
     {
         "word": "libero",
@@ -4702,7 +4708,8 @@
             }
         ],
         "transcription": "ˈlibero",
-        "opposite": "occupato"
+        "opposite": "occupato",
+        "subtext": ""
     },
     {
         "word": "pieno",
@@ -4723,7 +4730,8 @@
             }
         ],
         "transcription": "ˈpjɛno",
-        "opposite": "affamato"
+        "opposite": "affamato",
+        "subtext": ""
     },
     {
         "word": "assetato",
@@ -4990,7 +4998,7 @@
             "identico"
         ]
     }
-];
+]
     const lang = "it";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

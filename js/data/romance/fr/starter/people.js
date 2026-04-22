@@ -176,7 +176,7 @@
         "theme": "personal_identity_A1",
         "form": "noun"
     }
-];
+]
     const lang = "fr";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

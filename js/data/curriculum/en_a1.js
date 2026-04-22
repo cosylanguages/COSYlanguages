@@ -22,14 +22,7 @@ window.curriculumData.en_a1 = [
           visual: "🔤"
         }
       ],
-      vocab:[
-        {w:'Hello', emoji:'👋', trans:'Hello'},
-        {w:'Hi', emoji:'🖐️', trans:'Hi'},
-        {w:'Good morning', emoji:'🌅', trans:'Good morning'},
-        {w:'Good afternoon', emoji:'☀️', trans:'Good afternoon'},
-        {w:'Good evening', emoji:'🌆', trans:'Good evening'},
-        {w:'Goodbye', emoji:'👋', trans:'Goodbye'}
-      ],
+      vocab: ['Hello', 'Hi', 'Good morning', 'Good afternoon', 'Good evening', 'Goodbye'],
       cando:'Can greet people and say goodbye',
       hw:'Learn the alphabet song' },
     { code:'A1-002', num:2, title:'What is your name?',
@@ -47,12 +40,7 @@ window.curriculumData.en_a1 = [
           visual: "🔗"
         }
       ],
-      vocab:[
-        {w:'Name', emoji:'🆔', trans:'Name'},
-        {w:'What', emoji:'❓', trans:'What'},
-        {w:'How', emoji:'❓', trans:'How'},
-        {w:'Nice to meet you', emoji:'🤝', trans:'Nice to meet you'}
-      ],
+      vocab: ['Name', 'What', 'How', 'Nice to meet you'],
       cando:'Can introduce themselves',
       hw:'Practice spelling your name' },
     { code:'A1-003', num:3, title:'Numbers 1-20',
@@ -67,13 +55,7 @@ window.curriculumData.en_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'one', emoji:'1️⃣', trans:'one'},
-        {w:'two', emoji:'2️⃣', trans:'two'},
-        {w:'three', emoji:'3️⃣', trans:'three'},
-        {w:'ten', emoji:'🔟', trans:'ten'},
-        {w:'twenty', emoji:'2️⃣0️⃣', trans:'twenty'}
-      ],
+      vocab: ['one', 'two', 'three', 'ten', 'twenty'],
       cando:'Can count from 1 to 20',
       hw:'Count objects in your room' },
     { code:'A1-004', num:4, title:'Minimal Pairs 1: Vowels',
@@ -91,12 +73,7 @@ window.curriculumData.en_a1 = [
           visual: "🚢↔️🐑"
         }
       ],
-      vocab:[
-        {w:'ship', emoji:'🚢', trans:'ship'},
-        {w:'sheep', emoji:'🐑', trans:'sheep'},
-        {w:'feet', emoji:'🦶', trans:'feet'},
-        {w:'sit', emoji:'🪑', trans:'sit'}
-      ],
+      vocab: ['ship', 'sheep', 'feet', 'sit'],
       cando:'Can distinguish between short and long vowel sounds',
       hw:'Record yourself saying ship and sheep' },
     { code:'A1-005', num:5, title:'Essential Phrases',
@@ -112,12 +89,7 @@ window.curriculumData.en_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'Please', emoji:'🙏', trans:'Please'},
-        {w:'Thank you', emoji:'🙏', trans:'Thank you'},
-        {w:'Excuse me', emoji:'🙋', trans:'Excuse me'},
-        {w:'Sorry', emoji:'🙇', trans:'Sorry'}
-      ],
+      vocab: ['Please', 'Thank you', 'Excuse me', 'Sorry'],
       cando:'Can use basic polite phrases',
       hw:'Use three polite phrases tomorrow' }
   ]
@@ -159,19 +131,7 @@ window.curriculumData.en_a1 = [
           tip: "Relax your mouth completely to make this sound."
         }
       ],
-      vocab:[
-        {w:'always', emoji:'♾️', trans:'always'},
-        {w:'usually', emoji:'🔄', trans:'usually'},
-        {w:'often', emoji:'🔁', trans:'often'},
-        {w:'sometimes', emoji:'⏱️', trans:'sometimes'},
-        {w:'rarely', emoji:'📉', trans:'rarely'},
-        {w:'never', emoji:'❌', trans:'never'},
-        {w:'wake up', emoji:'⏰', trans:'wake up'},
-        {w:'get up', emoji:'🧍', trans:'get up'},
-        {w:'leave', emoji:'🚪', trans:'leave'},
-        {w:'arrive', emoji:'🏁', trans:'arrive'},
-        {w:'finish', emoji:'🔚', trans:'finish'}
-      ],
+      vocab: ['always', 'usually', 'often', 'sometimes', 'rarely', 'never', 'wake up', 'get up', 'leave', 'arrive', 'finish'],
       verbs:['wake up','get up','leave','arrive','start','finish'],
       adj:[],
       speaking:'Compare routines with 2 partners using frequency adverbs',
@@ -195,18 +155,7 @@ window.curriculumData.en_a1 = [
           tip: "Tap your finger on the desk for the stressed syllable."
         }
       ],
-      vocab:[
-        {w:'job', emoji:'💼', trans:'job'},
-        {w:'work', emoji:'🛠️', trans:'work'},
-        {w:'boss', emoji:'👔', trans:'boss'},
-        {w:'colleague', emoji:'🤝', trans:'colleague'},
-        {w:'salary', emoji:'💰', trans:'salary'},
-        {w:'office', emoji:'🏢', trans:'office'},
-        {w:'meeting', emoji:'👥', trans:'meeting'},
-        {w:'email', emoji:'📧', trans:'email'},
-        {w:'full-time', emoji:'⏲️', trans:'full-time'},
-        {w:'part-time', emoji:'⏱️', trans:'part-time'}
-      ],
+      vocab: ['job', 'work', 'boss', 'colleague', 'salary', 'office', 'meeting', 'email', 'full-time', 'part-time'],
       verbs:['manage','attend','check','send','meet','reply','help','order','visit'],
       adj:['busy'],
       speaking:'Describe your job in 5 sentences to a partner',
@@ -230,13 +179,7 @@ window.curriculumData.en_a1 = [
           tip: "Put your tongue between your teeth and blow."
         }
       ],
-      vocab:[
-        {w:'commute', emoji:'🚆', trans:'commute'},
-        {w:'floor', emoji:'🏢', trans:'floor'},
-        {w:'department', emoji:'🏬', trans:'department'},
-        {w:'delay', emoji:'⏳', trans:'delay'},
-        {w:'rush hour', emoji:'🚗🚗🚗', trans:'rush hour'}
-      ],
+      vocab: ['commute', 'floor', 'department', 'delay', 'rush hour'],
       verbs:['travel','leave','arrive'],
       adj:['busy','free','difficult'],
       speaking:'Tell a partner about your commute in detail',
@@ -260,17 +203,7 @@ window.curriculumData.en_a1 = [
           tip: "The '-teen' is long and high; the '-ty' is short and low."
         }
       ],
-      vocab:[
-        {w:'spend', emoji:'💸', trans:'spend'},
-        {w:'save', emoji:'🏦', trans:'save'},
-        {w:'pay', emoji:'💳', trans:'pay'},
-        {w:'cost', emoji:'🏷️', trans:'cost'},
-        {w:'cash', emoji:'💵', trans:'cash'},
-        {w:'card', emoji:'💳', trans:'card'},
-        {w:'receipt', emoji:'🧾', trans:'receipt'},
-        {w:'discount', emoji:'📉', trans:'discount'},
-        {w:'bill', emoji:'📄', trans:'bill'}
-      ],
+      vocab: ['spend', 'save', 'pay', 'cost', 'cash', 'card', 'receipt', 'discount', 'bill'],
       verbs:['earn','afford','charge','pay','spend','save'],
       adj:['cheap','expensive'],
       speaking:'Discuss spending habits: what do you spend most on?',
@@ -294,16 +227,7 @@ window.curriculumData.en_a1 = [
           tip: "Open your mouth then move your jaw up slightly."
         }
       ],
-      vocab:[
-        {w:'rent', emoji:'🏠', trans:'rent'},
-        {w:'flat', emoji:'🏢', trans:'flat'},
-        {w:'landlord', emoji:'👨‍💼', trans:'landlord'},
-        {w:'tenant', emoji:'👤', trans:'tenant'},
-        {w:'neighbour', emoji:'🏘️', trans:'neighbour'},
-        {w:'furniture', emoji:'🛋️', trans:'furniture'},
-        {w:'heating', emoji:'🔥', trans:'heating'},
-        {w:'bill', emoji:'📄', trans:'bill'}
-      ],
+      vocab: ['rent', 'flat', 'landlord', 'tenant', 'neighbour', 'furniture', 'heating', 'bill'],
       verbs:['rent','move','repair','clean','cook'],
       adj:['cheap','expensive','different'],
       speaking:'Role-play: tenant phones landlord about a flat',
@@ -327,17 +251,7 @@ window.curriculumData.en_a1 = [
           tip: "Think of a 'smile' for the long /i:/ sound."
         }
       ],
-      vocab:[
-        {w:'ill', emoji:'🤒', trans:'ill'},
-        {w:'tired', emoji:'🥱', trans:'tired'},
-        {w:'headache', emoji:'🤕', trans:'headache'},
-        {w:'doctor', emoji:'👨‍⚕️', trans:'doctor'},
-        {w:'hospital', emoji:'🏥', trans:'hospital'},
-        {w:'medicine', emoji:'💊', trans:'medicine'},
-        {w:'sleep', emoji:'😴', trans:'sleep'},
-        {w:'exercise', emoji:'🏃', trans:'exercise'},
-        {w:'stress', emoji:'😫', trans:'stress'}
-      ],
+      vocab: ['ill', 'tired', 'headache', 'doctor', 'hospital', 'medicine', 'sleep', 'exercise', 'stress'],
       verbs:['feel','rest','recover','exercise','hurt'],
       adj:['healthy','ill','fit','tired','stressed'],
       speaking:'Give a partner 3 pieces of health advice',
@@ -361,14 +275,7 @@ window.curriculumData.en_a1 = [
           tip: "The vowel before the consonant becomes 'long' because of the magic 'e'."
         }
       ],
-      vocab:[
-        {w:'phone', emoji:'📱', trans:'phone'},
-        {w:'app', emoji:'📲', trans:'app'},
-        {w:'password', emoji:'🔑', trans:'password'},
-        {w:'internet', emoji:'🌐', trans:'internet'},
-        {w:'online', emoji:'📶', trans:'online'},
-        {w:'screen', emoji:'🖥️', trans:'screen'}
-      ],
+      vocab: ['phone', 'app', 'password', 'internet', 'online', 'screen'],
       verbs:['check','send','watch','follow','learn'],
       adj:['online','free','popular'],
       speaking:'Discuss your technology habits with a partner',
@@ -392,15 +299,7 @@ window.curriculumData.en_a1 = [
           tip: "Keep the back of your tongue up against the roof of your mouth."
         }
       ],
-      vocab:[
-        {w:'holiday', emoji:'🏖️', trans:'holiday'},
-        {w:'weekend', emoji:'🗓️', trans:'weekend'},
-        {w:'free time', emoji:'🧘', trans:'free time'},
-        {w:'friend', emoji:'🫂', trans:'friend'},
-        {w:'invitation', emoji:'📩', trans:'invitation'},
-        {w:'party', emoji:'🥳', trans:'party'},
-        {w:'hobby', emoji:'🎨', trans:'hobby'}
-      ],
+      vocab: ['holiday', 'weekend', 'free time', 'friend', 'invitation', 'party', 'hobby'],
       verbs:['relax','enjoy','invite','celebrate','play'],
       adj:['happy','relaxed','bored','excited','free'],
       speaking:'Discuss free time preferences using the full scale',
@@ -424,12 +323,7 @@ window.curriculumData.en_a1 = [
           tip: "For /v/, your top teeth should touch your bottom lip."
         }
       ],
-      vocab:[
-        {w:'neighbour', emoji:'🏠👤', trans:'neighbour'},
-        {w:'local', emoji:'📍', trans:'local'},
-        {w:'convenient', emoji:'👌', trans:'convenient'},
-        {w:'community', emoji:'🏘️', trans:'community'}
-      ],
+      vocab: ['neighbour', 'local', 'convenient', 'community'],
       verbs:['live','move','seem','happen'],
       adj:['quiet','noisy','convenient','popular','special','different','similar'],
       speaking:'Describe your neighbourhood to a partner',
@@ -441,7 +335,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a "Where I live" paragraph' },
     { code:'A1-10', num:10, title:'Unit 1 Review — My life today',
       grammar:'Present simple (all forms) + should + have to + frequency + like -ing',
-      vocab:['ALL Unit 1 vocabulary'],
+      vocab: ['ALL Unit 1 vocabulary'],
       verbs:['ALL Unit 1 verbs'],
       adj:['ALL Unit 1 adjectives'],
       speaking:'Oral: describe your life today (3 minutes, all topics)',
@@ -482,7 +376,7 @@ window.curriculumData.en_a1 = [
           visual: "⌚"
         }
       ],
-      vocab:['career','promotion','colleague'],
+      vocab: ['career','promotion','colleague'],
       verbs:['study','work','move','change','leave','join','start','become'],
       adj:['different','new','old'],
       speaking:'Tell your career story in 3 minutes to a partner',
@@ -506,7 +400,7 @@ window.curriculumData.en_a1 = [
           visual: "☁️"
         }
       ],
-      vocab:['while','when','at that moment','suddenly'],
+      vocab: ['while','when','at that moment','suddenly'],
       verbs:['happen','continue','stop','sit','stand','carry'],
       adj:['surprised','worried'],
       speaking:'Tell a "when it happened" story using both tenses',
@@ -529,7 +423,7 @@ window.curriculumData.en_a1 = [
           visual: "🔗"
         }
       ],
-      vocab:['anymore','not anymore','in the past','these days','now'],
+      vocab: ['anymore','not anymore','in the past','these days','now'],
       verbs:['used to + any verb'],
       adj:['different','similar'],
       speaking:'Tell a partner 3 things you used to do but don\'t anymore',
@@ -553,7 +447,7 @@ window.curriculumData.en_a1 = [
           visual: "🛫↔️🛬"
         }
       ],
-      vocab:['ever','never','once','twice','many times'],
+      vocab: ['ever','never','once','twice','many times'],
       verbs:['visit','travel','try','meet','see','eat','do'],
       adj:['amazing','fantastic','terrible','interesting'],
       speaking:'Ask a partner 5 "Have you ever…?" questions',
@@ -565,7 +459,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a "Things I have and haven\'t done" list with sentences' },
     { code:'A1-15', num:5, title:'I have just… — recent events',
       grammar:'Present perfect: just, already, yet — meaning and position',
-      vocab:['just','already','yet','recently','this week'],
+      vocab: ['just','already','yet','recently','this week'],
       verbs:['finish','start','hear','arrive','send'],
       adj:['recent'],
       speaking:'Give 3 "just/already" updates to a partner',
@@ -577,7 +471,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a "news update" paragraph about your week' },
     { code:'A1-16', num:6, title:'Since when? For how long? — duration',
       grammar:'Present perfect: for + period, since + point in time; How long have you…?',
-      vocab:['for','since','how long','a week','a year','last month'],
+      vocab: ['for','since','how long','a week','a year','last month'],
       verbs:['live','work','study','know','have'],
       adj:['long'],
       speaking:'Ask 3 partners: "How long have you worked here/lived there?"',
@@ -589,7 +483,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a paragraph using for and since about your life' },
     { code:'A1-17', num:7, title:'Telling a story — narrative skills',
       grammar:'Past simple + past continuous + present perfect (mixed past narrative)',
-      vocab:['first','then','next','after that','suddenly','in the end','finally'],
+      vocab: ['first','then','next','after that','suddenly','in the end','finally'],
       verbs:['happen','tell','show','follow','mean','seem'],
       adj:['surprised','excited','worried','disappointed'],
       speaking:'Tell a 2-minute personal story to a partner',
@@ -601,7 +495,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a 150-word personal narrative' },
     { code:'A1-18', num:8, title:'A difficult situation — problem narration',
       grammar:'Past tenses + wish/if only (intro): "I wish I had…"',
-      vocab:['difficulty','challenge','decision','mistake','consequence','solution'],
+      vocab: ['difficulty','challenge','decision','mistake','consequence','solution'],
       verbs:['try','manage','continue','stop','change','choose','build'],
       adj:['difficult','wrong','correct','important'],
       speaking:'Describe a difficult situation you faced (2 minutes)',
@@ -613,7 +507,7 @@ window.curriculumData.en_a1 = [
       hw:'Write about a difficult situation and how you handled it' },
     { code:'A1-19', num:9, title:'Reporting what people said',
       grammar:'Reported speech: say/tell + tense shift (present → past)',
-      vocab:['say','tell','ask','explain','mention','that'],
+      vocab: ['say','tell','ask','explain','mention','that'],
       verbs:['say','tell','ask','explain','mention'],
       adj:[],
       speaking:'Report what a partner told you to the class',
@@ -625,7 +519,7 @@ window.curriculumData.en_a1 = [
       hw:'Write 5 sentences reporting a recent conversation' },
     { code:'A1-20', num:10, title:'Unit 2 Review — My past',
       grammar:'Past simple, past continuous, used to, present perfect (all uses)',
-      vocab:['ALL Unit 2 vocabulary'],
+      vocab: ['ALL Unit 2 vocabulary'],
       verbs:['ALL Unit 2 verbs'],
       adj:['ALL Unit 2 adjectives'],
       speaking:'Oral: tell your "life story" so far (3 minutes)',
@@ -653,7 +547,7 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-21', num:1, title:'I\'m going to change — plans and intentions',
       grammar:'Going to + infinitive for intention; present continuous for fixed arrangements',
-      vocab:['plan','intention','goal','next year','soon','eventually'],
+      vocab: ['plan','intention','goal','next year','soon','eventually'],
       verbs:['plan','decide','change','move','start','save','travel'],
       adj:['different','exciting','possible'],
       speaking:'Tell a partner your top 3 plans for the next 6 months',
@@ -665,7 +559,7 @@ window.curriculumData.en_a1 = [
       hw:'Write your top 5 goals for the next year' },
     { code:'A1-22', num:2, title:'It will be… — predictions and decisions',
       grammar:'Will: predictions and spontaneous decisions; contrast with going to',
-      vocab:['probably','definitely','perhaps','maybe','I think'],
+      vocab: ['probably','definitely','perhaps','maybe','I think'],
       verbs:['will + any verb'],
       adj:['possible','impossible','certain','necessary'],
       speaking:'Make 3 predictions about your life in 5 years',
@@ -677,7 +571,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a paragraph: "My life in 10 years"' },
     { code:'A1-23', num:3, title:'What are you doing on Friday? — arrangements',
       grammar:'Present continuous for fixed future arrangements',
-      vocab:['appointment','diary','available','schedule','arrange','confirm'],
+      vocab: ['appointment','diary','available','schedule','arrange','confirm'],
       verbs:['meet','book','cancel','miss','arrive'],
       adj:['busy','free','available'],
       speaking:'Discuss what you are doing next week with a partner',
@@ -689,7 +583,7 @@ window.curriculumData.en_a1 = [
       hw:'Write an email confirming a future appointment' },
     { code:'A1-24', num:4, title:'If you work hard… — real conditions',
       grammar:'First conditional: if + present simple + will',
-      vocab:['if','unless','when','as soon as','result','condition'],
+      vocab: ['if','unless','when','as soon as','result','condition'],
       verbs:['will + any verb'],
       adj:['possible','necessary','important'],
       speaking:'Give 3 pieces of advice using first conditionals',
@@ -701,7 +595,7 @@ window.curriculumData.en_a1 = [
       hw:'Write 5 first conditional sentences about career decisions' },
     { code:'A1-25', num:5, title:'What would you do? — imagined situations',
       grammar:'Second conditional (intro): if + past + would; "I would love to / If I had…"',
-      vocab:['ideal','imagine','dream','wish','would'],
+      vocab: ['ideal','imagine','dream','wish','would'],
       verbs:['would + any verb'],
       adj:['ideal','amazing','different'],
       speaking:'Discuss: "What would you do if you won €100,000?"',
@@ -713,7 +607,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a paragraph about your ideal life' },
     { code:'A1-26', num:6, title:'Making decisions — comparing options',
       grammar:'Comparatives and superlatives (extended); "It is better to… / the best option is…"',
-      vocab:['option','choice','pro','con','advantage','disadvantage','worth'],
+      vocab: ['option','choice','pro','con','advantage','disadvantage','worth'],
       verbs:['choose','decide','compare','prefer'],
       adj:['better','best','worse','worst','more/less + adj'],
       speaking:'Compare two career paths or cities using comparatives',
@@ -725,7 +619,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a 100-word pros and cons analysis' },
     { code:'A1-27', num:7, title:'What should I do? — giving advice',
       grammar:'Should/shouldn\'t; "Why don\'t you + infinitive"; imperative for strong advice',
-      vocab:['advice','idea','suggestion','problem','solution','option'],
+      vocab: ['advice','idea','suggestion','problem','solution','option'],
       verbs:['suggest','recommend','advise','try','think about'],
       adj:['good','bad','useful','important'],
       speaking:'Role-play: give advice to someone about a problem',
@@ -737,7 +631,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a letter of advice to a friend with a problem' },
     { code:'A1-28', num:8, title:'I need to… — obligation and necessity',
       grammar:'Need to / must / have to — necessity; mustn\'t for prohibition',
-      vocab:['urgent','deadline','required','necessary','compulsory'],
+      vocab: ['urgent','deadline','required','necessary','compulsory'],
       verbs:['need to','must','have to','mustn\'t'],
       adj:['necessary','important','urgent'],
       speaking:'Discuss: what do you need to do this week?',
@@ -749,7 +643,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a to-do list with modal verbs for each item' },
     { code:'A1-29', num:9, title:'Making requests and offers',
       grammar:'Could you / Would you mind -ing / Shall I… / Would you like me to…',
-      vocab:['request','offer','favour','appreciate','mind','wonder'],
+      vocab: ['request','offer','favour','appreciate','mind','wonder'],
       verbs:['could','would','shall'],
       adj:['polite','formal','informal'],
       speaking:'Practise 3 polite requests with a partner',
@@ -761,7 +655,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a formal email making 3 polite requests' },
     { code:'A1-30', num:10, title:'Unit 3 Review — My future',
       grammar:'Going to, will, present continuous (future), first + second conditional, should, must',
-      vocab:['ALL Unit 3 vocabulary'],
+      vocab: ['ALL Unit 3 vocabulary'],
       verbs:['ALL Unit 3 verbs'],
       adj:['ALL Unit 3 adjectives'],
       speaking:'Oral: describe future plans and give someone advice (3 min)',
@@ -788,7 +682,7 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-31', num:1, title:'Describing people — personality in depth',
       grammar:'Adjective + preposition: good at, bad at, interested in, worried about',
-      vocab:['reliable','organised','ambitious','creative','sensitive','tolerant','stubborn','generous'],
+      vocab: ['reliable','organised','ambitious','creative','sensitive','tolerant','stubborn','generous'],
       verbs:['seem','appear','become'],
       adj:['reliable','organised','ambitious','creative','confident','friendly','honest','patient'],
       speaking:'Describe 3 people you know using 3 adjectives each',
@@ -800,7 +694,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a description of your ideal manager' },
     { code:'A1-32', num:2, title:'The person who… — relative clauses',
       grammar:'Defining relative clauses: who (people), which/that (things), where (places)',
-      vocab:['who','which','that','where','the one who','the place where'],
+      vocab: ['who','which','that','where','the one who','the place where'],
       verbs:['define','describe'],
       adj:['special','useful','important'],
       speaking:'Define 5 words using "it is something that/which…"',
@@ -812,7 +706,7 @@ window.curriculumData.en_a1 = [
       hw:'Write 5 descriptions using relative clauses' },
     { code:'A1-33', num:3, title:'Agreeing and discussing — question tags',
       grammar:'Question tags: positive statement → negative tag; negative → positive',
-      vocab:['exactly','absolutely','I agree','that\'s true','isn\'t it','don\'t you'],
+      vocab: ['exactly','absolutely','I agree','that\'s true','isn\'t it','don\'t you'],
       verbs:['agree','disagree','think'],
       adj:['right','wrong'],
       speaking:'Practise agreeing and using tags with a partner',
@@ -824,7 +718,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a dialogue that includes 4 question tags' },
     { code:'A1-34', num:4, title:'Could you tell me…? — indirect questions',
       grammar:'Indirect questions: statement word order after question intro',
-      vocab:['I wonder if','do you know','I\'d like to know','could you tell me'],
+      vocab: ['I wonder if','do you know','I\'d like to know','could you tell me'],
       verbs:['wonder','know','tell','explain'],
       adj:['polite','formal'],
       speaking:'Practise 4 indirect questions in a role-play',
@@ -836,7 +730,7 @@ window.curriculumData.en_a1 = [
       hw:'Write an email using 3 indirect questions' },
     { code:'A1-35', num:5, title:'What do you think? — opinions and discussions',
       grammar:'Opinion phrases: "I think/believe that + clause"; agreeing/disagreeing',
-      vocab:['opinion','view','perspective','I think','I believe','personally','in my opinion'],
+      vocab: ['opinion','view','perspective','I think','I believe','personally','in my opinion'],
       verbs:['think','believe','feel','agree','disagree'],
       adj:['important','interesting','different','similar'],
       speaking:'Give your opinion on 3 topics to a partner',
@@ -848,7 +742,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a 100-word opinion on a topic of your choice' },
     { code:'A1-36', num:6, title:'Talking about culture — customs and norms',
       grammar:'Present simple for general truths; "It is + adjective + to + infinitive"',
-      vocab:['custom','tradition','norm','polite','rude','different','common','respect'],
+      vocab: ['custom','tradition','norm','polite','rude','different','common','respect'],
       verbs:['respect','follow','understand','compare'],
       adj:['polite','rude','normal','strange','different','common'],
       speaking:'Compare cultural norms at work with a partner',
@@ -860,7 +754,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a short guide to your country\'s work culture' },
     { code:'A1-37', num:7, title:'A community event — social English',
       grammar:'Inviting: "Would you like to…?" / "Could you come to…?" Accepting/declining politely',
-      vocab:['invitation','celebration','RSVP','event','arrange','accept','decline'],
+      vocab: ['invitation','celebration','RSVP','event','arrange','accept','decline'],
       verbs:['invite','celebrate','meet','join','arrange'],
       adj:['free','busy','available','sorry'],
       speaking:'Role-play: invite and respond to 3 different events',
@@ -872,7 +766,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a formal invitation and a polite decline' },
     { code:'A1-38', num:8, title:'On the phone — telephone English',
       grammar:'Formal telephone phrases; modal verbs for politeness (could, would)',
-      vocab:['hold on','put through','leave a message','call back','available','speaking'],
+      vocab: ['hold on','put through','leave a message','call back','available','speaking'],
       verbs:['call','phone','hold','put through','leave','call back'],
       adj:['available','busy','urgent'],
       speaking:'Role-play: 3 different phone situations',
@@ -884,7 +778,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a script for a professional phone call' },
     { code:'A1-39', num:9, title:'Writing an email — formal and informal',
       grammar:'Formal vs informal register; tenses in emails (present + past + future)',
-      vocab:['subject','salutation','closing','attached','regarding','sincerely','kind regards'],
+      vocab: ['subject','salutation','closing','attached','regarding','sincerely','kind regards'],
       verbs:['write','reply','attach','send','thank'],
       adj:['formal','informal','polite'],
       speaking:'Discuss: what makes an email professional?',
@@ -896,7 +790,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a formal email and an informal one on the same topic' },
     { code:'A1-40', num:10, title:'Unit 4 Review — Relationships and communication',
       grammar:'Relative clauses, question tags, indirect questions, opinion phrases, modal verbs',
-      vocab:['ALL Unit 4 vocabulary'],
+      vocab: ['ALL Unit 4 vocabulary'],
       verbs:['ALL Unit 4 verbs'],
       adj:['ALL Unit 4 adjectives'],
       speaking:'Role-play simulation: 3 workplace communication scenarios',
@@ -922,7 +816,7 @@ window.curriculumData.en_a1 = [
   lessons:[
     { code:'A1-41', num:1, title:'My opinions on the world — discussion topics',
       grammar:'Mixed A1 grammar in discussion; because + connectors: however, so, but',
-      vocab:['environment','relationship','health','opinion','reason','because'],
+      vocab: ['environment','relationship','health','opinion','reason','because'],
       verbs:['discuss','debate','argue','agree','disagree','think'],
       adj:['important','interesting','difficult','necessary'],
       speaking:'Discuss 2 topics using opinion language',
@@ -934,7 +828,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a 120-word opinion on a topic you care about' },
     { code:'A1-42', num:2, title:'Real conversations — fluency practice',
       grammar:'Review of all A1 grammar through fluency tasks',
-      vocab:['well','actually','you know','I mean','kind of','sort of','by the way'],
+      vocab: ['well','actually','you know','I mean','kind of','sort of','by the way'],
       verbs:['ALL A1 verbs in natural speech'],
       adj:['ALL A1 adjectives in natural speech'],
       speaking:'Extended conversation: 5 minutes on a topic',
@@ -946,7 +840,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a script and then speak without reading it' },
     { code:'A1-43', num:3, title:'Building vocabulary — word families and collocations',
       grammar:'Collocations: do + noun, make + noun, have + noun, take + noun',
-      vocab:['do homework / exercise / research','make a decision / progress / a mistake','have a meeting / lunch / time','take notes / a break / care'],
+      vocab: ['do homework / exercise / research','make a decision / progress / a mistake','have a meeting / lunch / time','take notes / a break / care'],
       verbs:['do','make','have','take'],
       adj:[],
       speaking:'Collocation matching game',
@@ -958,7 +852,7 @@ window.curriculumData.en_a1 = [
       hw:'Create a collocation word map for 5 key verbs' },
     { code:'A1-44', num:4, title:'Pronunciation — stress and intonation',
       grammar:'Word and sentence stress; rising vs falling intonation in questions',
-      vocab:['stress pattern','intonation','syllable','emphasis'],
+      vocab: ['stress pattern','intonation','syllable','emphasis'],
       verbs:['ALL — focus on correct stress'],
       adj:['ALL — focus on correct stress'],
       speaking:'Drill: say sentences with correct stress pattern',
@@ -970,7 +864,7 @@ window.curriculumData.en_a1 = [
       hw:'Learn stress patterns for 20 key A1 words' },
     { code:'A1-45', num:5, title:'Reading strategies — understanding more',
       grammar:'Mixed A1 grammar in reading context',
-      vocab:['skim','scan','infer','predict','context clue','main idea','detail'],
+      vocab: ['skim','scan','infer','predict','context clue','main idea','detail'],
       verbs:['read','understand','predict','infer','summarise'],
       adj:['main','key','important','unclear'],
       speaking:'Discuss: main idea vs detail in a text',
@@ -982,7 +876,7 @@ window.curriculumData.en_a1 = [
       hw:'Read one article at home and write a 50-word summary' },
     { code:'A1-46', num:6, title:'Writing paragraphs — structure and cohesion',
       grammar:'Discourse connectors: firstly, also, however, for example, in conclusion',
-      vocab:['firstly','also','however','for example','in conclusion','therefore','furthermore'],
+      vocab: ['firstly','also','however','for example','in conclusion','therefore','furthermore'],
       verbs:['write','structure','link','connect'],
       adj:['clear','structured','logical'],
       speaking:'Discuss: what makes a good paragraph?',
@@ -994,7 +888,7 @@ window.curriculumData.en_a1 = [
       hw:'Write a paragraph on your favourite topic using full structure' },
     { code:'A1-47', num:7, title:'A2 preview — What\'s coming next?',
       grammar:'Past simple vs present perfect (contrast); going to vs will (contrast)',
-      vocab:['A2 preview vocabulary: conditionals, reported speech, comparisons'],
+      vocab: ['A2 preview vocabulary: conditionals, reported speech, comparisons'],
       verbs:['ALL — seen in A2 context'],
       adj:['ALL — seen in A2 context'],
       speaking:'Discuss: what do you find hardest in English?',
@@ -1006,7 +900,7 @@ window.curriculumData.en_a1 = [
       hw:'Write your 5 goals for A2' },
     { code:'A1-48', num:8, title:'Revision day — grammar',
       grammar:'ALL A1 grammar structures — error-focused revision',
-      vocab:['ALL A1 vocabulary — student choice'],
+      vocab: ['ALL A1 vocabulary — student choice'],
       verbs:['ALL'],
       adj:['ALL'],
       speaking:'Grammar auction game',
@@ -1018,7 +912,7 @@ window.curriculumData.en_a1 = [
       hw:'Complete a personal grammar correction log' },
     { code:'A1-49', num:9, title:'Oral assessment preparation',
       grammar:'ALL A1 grammar in spoken context',
-      vocab:['ALL A1 topics'],
+      vocab: ['ALL A1 topics'],
       verbs:['ALL'],
       adj:['ALL'],
       speaking:'Mock oral exam: 5 minutes (introduction + topic)',
@@ -1030,7 +924,7 @@ window.curriculumData.en_a1 = [
       hw:'Prepare and practise your oral exam speech' },
     { code:'A1-50', num:10, title:'Final assessment and reflection',
       grammar:'ALL A1 grammar',
-      vocab:['ALL A1 vocabulary'],
+      vocab: ['ALL A1 vocabulary'],
       verbs:['ALL'],
       adj:['ALL'],
       speaking:'A1 oral assessment: 5 minutes',

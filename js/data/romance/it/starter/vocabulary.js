@@ -1,6 +1,5 @@
 (function() {
     const data = [
-
     {
         "word": "medico",
         "level": "starter",
@@ -12779,7 +12778,8 @@
             }
         ],
         "transcription": "mateˈmatika",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "storia",
@@ -12800,7 +12800,8 @@
             }
         ],
         "transcription": "ˈstɔrja",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "scienza",
@@ -12821,7 +12822,8 @@
             }
         ],
         "transcription": "ˈʃɛntsa",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "geografia",
@@ -12842,7 +12844,8 @@
             }
         ],
         "transcription": "dʒeograˈfia",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "leone",
@@ -12864,7 +12867,8 @@
             }
         ],
         "transcription": "leˈone",
-        "partitive": "del"
+        "partitive": "del",
+        "subtext": ""
     },
     {
         "word": "elefante",
@@ -12886,7 +12890,8 @@
             }
         ],
         "transcription": "eleˈfante",
-        "partitive": "dell'"
+        "partitive": "dell'",
+        "subtext": ""
     },
     {
         "word": "tigre",
@@ -12908,7 +12913,8 @@
             }
         ],
         "transcription": "ˈtiɡre",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "scimmia",
@@ -12930,7 +12936,8 @@
             }
         ],
         "transcription": "ˈʃimmja",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "squalo",
@@ -12952,7 +12959,8 @@
             }
         ],
         "transcription": "ˈskwalo",
-        "partitive": "dello"
+        "partitive": "dello",
+        "subtext": ""
     },
     {
         "word": "balena",
@@ -12974,7 +12982,8 @@
             }
         ],
         "transcription": "baˈlena",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "cerchio",
@@ -12996,7 +13005,8 @@
             }
         ],
         "transcription": "ˈtʃerkjo",
-        "partitive": "del"
+        "partitive": "del",
+        "subtext": ""
     },
     {
         "word": "triangolo",
@@ -13018,7 +13028,8 @@
             }
         ],
         "transcription": "triˈanɡolo",
-        "partitive": "del"
+        "partitive": "del",
+        "subtext": ""
     },
     {
         "word": "lavatrice",
@@ -13040,7 +13051,8 @@
             }
         ],
         "transcription": "lavaˈtritʃe",
-        "partitive": "della"
+        "partitive": "della",
+        "subtext": ""
     },
     {
         "word": "tostapane",
@@ -13062,7 +13074,8 @@
             }
         ],
         "transcription": "tostaˈpane",
-        "partitive": "del"
+        "partitive": "del",
+        "subtext": ""
     },
     {
         "word": "microonde",
@@ -13084,7 +13097,8 @@
             }
         ],
         "transcription": "mikroˈonde",
-        "partitive": "del"
+        "partitive": "del",
+        "subtext": ""
     },
     {
         "word": "righello",
@@ -13106,7 +13120,8 @@
             }
         ],
         "transcription": "riˈɡɛllo",
-        "partitive": "del"
+        "partitive": "del",
+        "subtext": ""
     },
     {
         "word": "contadino",
@@ -13128,7 +13143,8 @@
                 ]
             }
         ],
-        "transcription": "kontaˈdino"
+        "transcription": "kontaˈdino",
+        "subtext": ""
     },
     {
         "word": "pilota",
@@ -13150,7 +13166,8 @@
                 ]
             }
         ],
-        "transcription": "piˈlɔta"
+        "transcription": "piˈlɔta",
+        "subtext": ""
     },
     {
         "word": "cameriere",
@@ -13172,7 +13189,8 @@
                 ]
             }
         ],
-        "transcription": "kameˈrjɛre"
+        "transcription": "kameˈrjɛre",
+        "subtext": ""
     },
     {
         "word": "dentista",
@@ -13194,7 +13212,8 @@
                 ]
             }
         ],
-        "transcription": "denˈtista"
+        "transcription": "denˈtista",
+        "subtext": ""
     },
     {
         "word": "poliziotto",
@@ -13216,7 +13235,8 @@
                 ]
             }
         ],
-        "transcription": "politˈtsjɔtto"
+        "transcription": "politˈtsjɔtto",
+        "subtext": ""
     },
     {
         "word": "vigile del fuoco",
@@ -13238,7 +13258,8 @@
                 ]
             }
         ],
-        "transcription": "ˈvidʒile del ˈfwɔko"
+        "transcription": "ˈvidʒile del ˈfwɔko",
+        "subtext": ""
     },
     {
         "word": "soldato",
@@ -13260,7 +13281,8 @@
                 ]
             }
         ],
-        "transcription": "solˈdato"
+        "transcription": "solˈdato",
+        "subtext": ""
     },
     {
         "word": "scrittore",
@@ -13282,7 +13304,8 @@
                 ]
             }
         ],
-        "transcription": "skritˈtore"
+        "transcription": "skritˈtore",
+        "subtext": ""
     },
     {
         "word": "professore",
@@ -13304,7 +13327,8 @@
                 ]
             }
         ],
-        "transcription": "profesˈsore"
+        "transcription": "profesˈsore",
+        "subtext": ""
     },
     {
         "word": "ingegnere",
@@ -13326,7 +13350,8 @@
                 ]
             }
         ],
-        "transcription": "indʒeɲˈɲɛre"
+        "transcription": "indʒeɲˈɲɛre",
+        "subtext": ""
     },
     {
         "word": "segretario",
@@ -13348,7 +13373,8 @@
                 ]
             }
         ],
-        "transcription": "segreˈtarjo"
+        "transcription": "segreˈtarjo",
+        "subtext": ""
     },
     {
         "word": "cappello",
@@ -13370,7 +13396,8 @@
                 ]
             }
         ],
-        "transcription": "kapˈpɛllo"
+        "transcription": "kapˈpɛllo",
+        "subtext": ""
     },
     {
         "word": "maglietta",
@@ -13392,7 +13419,8 @@
                 ]
             }
         ],
-        "transcription": "maʎˈʎetta"
+        "transcription": "maʎˈʎetta",
+        "subtext": ""
     },
     {
         "word": "jeans",
@@ -13414,7 +13442,8 @@
                 ]
             }
         ],
-        "transcription": "ˈdʒins"
+        "transcription": "ˈdʒins",
+        "subtext": ""
     },
     {
         "word": "pantaloncini",
@@ -13436,7 +13465,8 @@
                 ]
             }
         ],
-        "transcription": "pantalontˈʃini"
+        "transcription": "pantalontˈʃini",
+        "subtext": ""
     },
     {
         "word": "stivale",
@@ -13458,7 +13488,8 @@
                 ]
             }
         ],
-        "transcription": "stiˈvale"
+        "transcription": "stiˈvale",
+        "subtext": ""
     },
     {
         "word": "sciarpa",
@@ -13480,7 +13511,8 @@
                 ]
             }
         ],
-        "transcription": "ˈʃarpa"
+        "transcription": "ˈʃarpa",
+        "subtext": ""
     },
     {
         "word": "guanti",
@@ -13502,7 +13534,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɡwanti"
+        "transcription": "ˈɡwanti",
+        "subtext": ""
     },
     {
         "word": "terra",
@@ -13523,7 +13556,8 @@
                 ]
             }
         ],
-        "transcription": "ˈtɛrra"
+        "transcription": "ˈtɛrra",
+        "subtext": ""
     },
     {
         "word": "collina",
@@ -13545,7 +13579,8 @@
                 ]
             }
         ],
-        "transcription": "kolˈlina"
+        "transcription": "kolˈlina",
+        "subtext": ""
     },
     {
         "word": "valle",
@@ -13567,7 +13602,8 @@
                 ]
             }
         ],
-        "transcription": "ˈvalle"
+        "transcription": "ˈvalle",
+        "subtext": ""
     },
     {
         "word": "foresta",
@@ -13589,7 +13625,8 @@
                 ]
             }
         ],
-        "transcription": "foˈrɛsta"
+        "transcription": "foˈrɛsta",
+        "subtext": ""
     },
     {
         "word": "bosco",
@@ -13611,7 +13648,8 @@
                 ]
             }
         ],
-        "transcription": "ˈbɔsko"
+        "transcription": "ˈbɔsko",
+        "subtext": ""
     },
     {
         "word": "lago",
@@ -13633,7 +13671,8 @@
                 ]
             }
         ],
-        "transcription": "ˈlaɡo"
+        "transcription": "ˈlaɡo",
+        "subtext": ""
     },
     {
         "word": "campo",
@@ -13655,7 +13694,8 @@
                 ]
             }
         ],
-        "transcription": "ˈkampo"
+        "transcription": "ˈkampo",
+        "subtext": ""
     },
     {
         "word": "foglia",
@@ -13677,7 +13717,8 @@
                 ]
             }
         ],
-        "transcription": "ˈfɔʎʎa"
+        "transcription": "ˈfɔʎʎa",
+        "subtext": ""
     },
     {
         "word": "pianta",
@@ -13699,7 +13740,8 @@
                 ]
             }
         ],
-        "transcription": "ˈpjanta"
+        "transcription": "ˈpjanta",
+        "subtext": ""
     },
     {
         "word": "natura",
@@ -13720,7 +13762,8 @@
                 ]
             }
         ],
-        "transcription": "naˈtura"
+        "transcription": "naˈtura",
+        "subtext": ""
     },
     {
         "word": "anello",
@@ -13742,7 +13785,8 @@
                 ]
             }
         ],
-        "transcription": "aˈnɛllo"
+        "transcription": "aˈnɛllo",
+        "subtext": ""
     },
     {
         "word": "collana",
@@ -13764,7 +13808,8 @@
                 ]
             }
         ],
-        "transcription": "kolˈlana"
+        "transcription": "kolˈlana",
+        "subtext": ""
     },
     {
         "word": "gioielli",
@@ -13786,7 +13831,8 @@
                 ]
             }
         ],
-        "transcription": "dʒoˈjɛlli"
+        "transcription": "dʒoˈjɛlli",
+        "subtext": ""
     },
     {
         "word": "batteria",
@@ -13808,7 +13854,8 @@
                 ]
             }
         ],
-        "transcription": "batteˈria"
+        "transcription": "batteˈria",
+        "subtext": ""
     },
     {
         "word": "flauto",
@@ -13830,7 +13877,8 @@
                 ]
             }
         ],
-        "transcription": "ˈflauto"
+        "transcription": "ˈflauto",
+        "subtext": ""
     },
     {
         "word": "poltrona",
@@ -13852,7 +13900,8 @@
                 ]
             }
         ],
-        "transcription": "polˈtrona"
+        "transcription": "polˈtrona",
+        "subtext": ""
     },
     {
         "word": "libreria",
@@ -13874,7 +13923,8 @@
                 ]
             }
         ],
-        "transcription": "libreˈria"
+        "transcription": "libreˈria",
+        "subtext": ""
     },
     {
         "word": "armadio",
@@ -13896,7 +13946,8 @@
                 ]
             }
         ],
-        "transcription": "arˈmadjo"
+        "transcription": "arˈmadjo",
+        "subtext": ""
     },
     {
         "word": "tappeto",
@@ -13918,7 +13969,8 @@
                 ]
             }
         ],
-        "transcription": "tapˈpɛto"
+        "transcription": "tapˈpɛto",
+        "subtext": ""
     },
     {
         "word": "cassetto",
@@ -13940,7 +13992,8 @@
                 ]
             }
         ],
-        "transcription": "kasˈsɛtto"
+        "transcription": "kasˈsɛtto",
+        "subtext": ""
     },
     {
         "word": "telecomando",
@@ -13962,7 +14015,8 @@
                 ]
             }
         ],
-        "transcription": "telekoˈmando"
+        "transcription": "telekoˈmando",
+        "subtext": ""
     },
     {
         "word": "coperta",
@@ -13984,7 +14038,8 @@
                 ]
             }
         ],
-        "transcription": "koˈpɛrta"
+        "transcription": "koˈpɛrta",
+        "subtext": ""
     },
     {
         "word": "cuscino",
@@ -14006,7 +14061,8 @@
                 ]
             }
         ],
-        "transcription": "kuʃˈʃino"
+        "transcription": "kuʃˈʃino",
+        "subtext": ""
     },
     {
         "word": "lenzuolo",
@@ -14028,7 +14084,8 @@
                 ]
             }
         ],
-        "transcription": "lenˈtswɔlo"
+        "transcription": "lenˈtswɔlo",
+        "subtext": ""
     },
     {
         "word": "esempio",
@@ -14155,4 +14212,4 @@
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-
+})();

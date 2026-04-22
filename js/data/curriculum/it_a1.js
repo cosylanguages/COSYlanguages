@@ -21,13 +21,7 @@ window.curriculumData.it_a1 = [
           visual: "🇮🇹🔤"
         }
       ],
-      vocab:[
-        {w:'Buongiorno', emoji:'👋', trans:'Hello'},
-        {w:'Ciao', emoji:'🖐️', trans:'Hi / Bye'},
-        {w:'Benvenuti', emoji:'🙏', trans:'Welcome'},
-        {w:'Grazie', emoji:'🙏', trans:'Thank you'},
-        {w:'Arrivederci', emoji:'👋', trans:'Goodbye'}
-      ],
+      vocab: ['Buongiorno', 'Ciao', 'Benvenuti', 'Grazie', 'Arrivederci'],
       cando:'Sa salutare e dire arrivederci',
       hw:'Imparare la canzone dell\'alfabeto' },
     { code:'IT-002', num:2, title:'Come ti chiami?',
@@ -46,11 +40,7 @@ window.curriculumData.it_a1 = [
           visual: "⚡"
         }
       ],
-      vocab:[
-        {w:'Nome', emoji:'🆔', trans:'Name'},
-        {w:'Come', emoji:'❓', trans:'How'},
-        {w:'Piacere', emoji:'🤝', trans:'Nice to meet you'}
-      ],
+      vocab: ['Nome', 'Come', 'Piacere'],
       cando:'Sa presentarsi',
       hw:'Compitare il proprio nome in italiano' },
     { code:'IT-003', num:3, title:'I numeri 1-20',
@@ -66,13 +56,7 @@ window.curriculumData.it_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'uno', emoji:'1️⃣', trans:'one'},
-        {w:'due', emoji:'2️⃣', trans:'two'},
-        {w:'tre', emoji:'3️⃣', trans:'three'},
-        {w:'dieci', emoji:'🔟', trans:'ten'},
-        {w:'venti', emoji:'2️⃣0️⃣', trans:'twenty'}
-      ],
+      vocab: ['uno', 'due', 'tre', 'dieci', 'venti'],
       cando:'Sa contare da 1 a 20',
       hw:'Contare gli oggetti nella stanza' },
     { code:'IT-004', num:4, title:'Paire minime: Consonanti',
@@ -88,11 +72,7 @@ window.curriculumData.it_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'casa', emoji:'🏠', trans:'house'},
-        {w:'cena', emoji:'🍽️', trans:'dinner'},
-        {w:'chi', emoji:'❓', trans:'who'}
-      ],
+      vocab: ['casa', 'cena', 'chi'],
       cando:'Sa distinguere i suoni C e G',
       hw:'Registrarsi dicendo casa e gara' },
     { code:'IT-005', num:5, title:'Frasi essenziali',
@@ -108,12 +88,7 @@ window.curriculumData.it_a1 = [
           ]
         }
       ],
-      vocab:[
-        {w:'Per favore', emoji:'🙏', trans:'Please'},
-        {w:'Grazie mille', emoji:'🙏', trans:'Thank you very much'},
-        {w:'Scusa', emoji:'🙋', trans:'Excuse me'},
-        {w:'Prego', emoji:'🙇', trans:'You are welcome'}
-      ],
+      vocab: ['Per favore', 'Grazie mille', 'Scusa', 'Prego'],
       cando:'Sa usare frasi di cortesia di base',
       hw:'Usare tre frasi di cortesia domani' }
   ]
@@ -149,13 +124,7 @@ window.curriculumData.it_a1 = [
           visual: "👄"
         }
       ],
-      vocab:[
-        {w:'Buongiorno', emoji:'☀️', trans:'Good morning'},
-        {w:'Ciao', emoji:'👋', trans:'Hello / Hi'},
-        {w:'Grazie', emoji:'🙏', trans:'Thank you'},
-        {w:'Per favore', emoji:'🥺', trans:'Please'},
-        {w:'Piacere', emoji:'🤝', trans:'Nice to meet you'}
-      ],
+      vocab: ['Buongiorno', 'Ciao', 'Grazie', 'Per favore', 'Piacere'],
       verbs:['essere','chiamarsi'],
       adj:['italiano','americano'],
       speaking:'Presentarsi e salutare in classe',
@@ -181,13 +150,7 @@ window.curriculumData.it_a1 = [
           visual: "🍕"
         }
       ],
-      vocab:[
-        {w:'lavoro', emoji:'💼', trans:'work'},
-        {w:'ufficio', emoji:'🏢', trans:'office'},
-        {w:'collega', emoji:'🤝', trans:'colleague'},
-        {w:'stipendio', emoji:'💰', trans:'salary'},
-        {w:'computer', emoji:'💻', trans:'computer'}
-      ],
+      vocab: ['lavoro', 'ufficio', 'collega', 'stipendio', 'computer'],
       verbs:['avere','lavorare'],
       adj:['occupato','libero'],
       speaking:'Descrivere il proprio lavoro e gli strumenti',
@@ -211,7 +174,7 @@ window.curriculumData.it_a1 = [
           visual: "🍝"
         }
       ],
-      vocab:['appartamento','casa','città','via','piano'],
+      vocab: ['appartamento','casa','città','via','piano'],
       verbs:['abitare','vivere'],
       adj:['grande','piccolo','bello'],
       speaking:'Descrivere la propria casa e la zona',
@@ -223,7 +186,7 @@ window.curriculumData.it_a1 = [
       hw:'Vocabolario delle stanze della casa' },
     { code:'IT-04', num:4, title:'La mia famiglia',
       grammar:'Aggettivi possessivi (mio, tuo, suo)',
-      vocab:['padre','madre','fratello','sorella','figlio'],
+      vocab: ['padre','madre','fratello','sorella','figlio'],
       verbs:['avere','volere bene'],
       adj:['sposato','single'],
       speaking:'Presentare la famiglia con delle foto',
@@ -235,7 +198,7 @@ window.curriculumData.it_a1 = [
       hw:'Fare il proprio albero genealogico' },
     { code:'IT-05', num:5, title:'Quanto costa? (Soldi)',
       grammar:'Numeri fino a 100 + interrogativi (Quanto?)',
-      vocab:['prezzo','soldi','carta','contanti','caro','economico'],
+      vocab: ['prezzo','soldi','carta','contanti','caro','economico'],
       verbs:['pagare','comprare','costare'],
       adj:['caro','gratis'],
       speaking:'Fare acquisti in un negozio finto',
@@ -247,7 +210,7 @@ window.curriculumData.it_a1 = [
       hw:'Memorizzare i numeri fino a 100' },
     { code:'IT-06', num:6, title:'Al ristorante — cibo e bevande',
       grammar:'Articoli determinativi (ripasso) + Vorrei...',
-      vocab:['pane','caffè','acqua','vino','pizza','piatto'],
+      vocab: ['pane','caffè','acqua','vino','pizza','piatto'],
       verbs:['mangiare','bere','ordinare'],
       adj:['buono','caldo','freddo'],
       speaking:'Ordinare al ristorante',
@@ -259,7 +222,7 @@ window.curriculumData.it_a1 = [
       hw:'Imparare 10 nomi di alimenti' },
     { code:'IT-07', num:7, title:'Salute e corpo umano',
       grammar:'Espressione "Avere male a..."',
-      vocab:['testa','schiena','pancia','medico','medicina'],
+      vocab: ['testa','schiena','pancia','medico','medicina'],
       verbs:['dormire','camminare','stare male'],
       adj:['stanco','malato','in forma'],
       speaking:'Spiegare i sintomi al medico',
@@ -271,7 +234,7 @@ window.curriculumData.it_a1 = [
       hw:'Parti del corpo umano' },
     { code:'IT-08', num:8, title:'Vita digitale',
       grammar:'Verbi in -ERE e -IRE al presente',
-      vocab:['telefono','internet','social','email','schermo'],
+      vocab: ['telefono','internet','social','email','schermo'],
       verbs:['usare','leggere','scrivere','aprire'],
       adj:['veloce','lento','utile'],
       speaking:'Parlare dell\'uso dello smartphone',
@@ -283,7 +246,7 @@ window.curriculumData.it_a1 = [
       hw:'Tradurre 5 frasi sulla tecnologia' },
     { code:'IT-09', num:9, title:'Hobby e tempo libero',
       grammar:'Verbo FARE + attività del tempo libero',
-      vocab:['sport','musica','cinema','viaggio','lettura'],
+      vocab: ['sport','musica','cinema','viaggio','lettura'],
       verbs:['fare','andare','uscire','divertirsi'],
       adj:['divertente','noioso','interessante'],
       speaking:'Condividere le attività del weekend',
@@ -295,7 +258,7 @@ window.curriculumData.it_a1 = [
       hw:'Scrivere 5 frasi sui propri gusti' },
     { code:'IT-10', num:10, title:'Revisione Unità 1',
       grammar:'Riepilogo presente, articoli e possessivi',
-      vocab:['Tutto il lessico dell\'Unità 1'],
+      vocab: ['Tutto il lessico dell\'Unità 1'],
       verbs:['Essere','Avere','Fare','Verbi regolari'],
       adj:['Concordanza genere/numero'],
       speaking:'Test orale di 3 minuti su se stessi',

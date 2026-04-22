@@ -5334,7 +5334,7 @@
         "group": "modal",
         "subtext": "necessity, obligation"
     }
-];
+]
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

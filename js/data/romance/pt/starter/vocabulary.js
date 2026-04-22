@@ -2063,7 +2063,7 @@
         ],
         "transcription": ""
     }
-];
+]
     const lang = "pt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -3415,7 +3415,7 @@
         "v3": "төҙөгән",
         "group": "regular"
     }
-];
+]
     const lang = "ba";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

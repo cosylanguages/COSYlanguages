@@ -674,7 +674,7 @@
         "aspect": "action",
         "v2": "spoke",
         "v3": "spoken" }
-    ];
+    ]
     const lang = "en";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];

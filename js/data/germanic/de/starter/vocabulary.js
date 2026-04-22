@@ -915,7 +915,7 @@
         "article": "der",
         "gender": "masculine"
     }
-];
+]
     const lang = "de";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -3282,7 +3282,7 @@
         "v3": "կառուցել",
         "group": "irregular"
     }
-];
+]
     const lang = "hy";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

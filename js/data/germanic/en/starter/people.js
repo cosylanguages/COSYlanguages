@@ -176,7 +176,7 @@
         "subtext": "famous writer",
         "transcription": "ˈwɪljəm ˈʃeɪkˌspir"
     }
-];
+]
     const lang = "en";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

@@ -3826,7 +3826,7 @@
             }
         ]
     }
-];
+]
     const lang = "es";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

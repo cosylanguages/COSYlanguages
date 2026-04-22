@@ -19,7 +19,9 @@
                     "Мне нужно пойти к врачу."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vratʃ/",
+        "countability": "countable"
     },
     {
         "word": "рука",
@@ -37,7 +39,9 @@
                     "Она сломала руку."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ruˈka/",
+        "countability": "countable"
     },
     {
         "word": "нога",
@@ -56,7 +60,10 @@
                     "У меня болит нога."
                 ]
             }
-        ]
+        ],
+        "transcription": "/naˈɡa/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "учитель",
@@ -74,7 +81,8 @@
                     "Учитель сейчас в классе."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "борщ",
@@ -87,7 +95,9 @@
             {
                 "text": "Традиционный русский суп со свеклой."
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "салат оливье",
@@ -95,7 +105,16 @@
         "theme": "basic_foods_A1",
         "gender": "он",
         "form": "noun",
-        "plural": "салаты оливье"
+        "plural": "салаты оливье",
+        "transcription": "/saˈlat aliˈvje/",
+        "definitions": [
+            {
+                "text": "Традиционный русский салат из вареных овощей, мяса и майонеза.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "яблоко",
@@ -106,7 +125,16 @@
         "numberPlural": "4 яблоко",
         "answer": "четыре яблока",
         "form": "noun",
-        "plural": "яблоки"
+        "plural": "яблоки",
+        "transcription": "/ˈjabləkə/",
+        "definitions": [
+            {
+                "text": "Круглый фрукт красного, зеленого или желтого цвета.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "хлеб",
@@ -124,7 +152,8 @@
                     "Я ем хлеб на завтрак."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "яйцо",
@@ -142,7 +171,8 @@
                     "Я ем два яйца каждое утро."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "молоко",
@@ -160,7 +190,8 @@
                     "Она добавляет молоко в кофе."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "пицца",
@@ -169,7 +200,16 @@
         "gender": "она",
         "emoji": "🍕",
         "form": "noun",
-        "plural": "пиццы"
+        "plural": "пиццы",
+        "transcription": "/ˈpittsa/",
+        "definitions": [
+            {
+                "text": "Итальянское блюдо из теста с томатами и сыром.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "рис",
@@ -179,7 +219,15 @@
         "emoji": "🍚",
         "form": "noun",
         "plural": null,
-        "subtext": "белый рис, плов"
+        "subtext": "белый рис, плов",
+        "transcription": "/ris/",
+        "definitions": [
+            {
+                "text": "Маленькие белые зерна, которые варят и едят.",
+                "examples": []
+            }
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "мясо",
@@ -189,7 +237,15 @@
         "emoji": "🥩",
         "form": "noun",
         "plural": null,
-        "subtext": "свежее мясо, говядина, курица"
+        "subtext": "свежее мясо, говядина, курица",
+        "transcription": "/ˈmjasə/",
+        "definitions": [
+            {
+                "text": "Продукт питания из животных.",
+                "examples": []
+            }
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "еда",
@@ -206,7 +262,9 @@
                     "Здесь вкусная еда."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable",
+        "subtext": ""
     },
     {
         "word": "фрукт",
@@ -224,7 +282,9 @@
                     "Фрукты — это полезно."
                 ]
             }
-        ]
+        ],
+        "transcription": "/frukt/",
+        "countability": "countable"
     },
     {
         "word": "овощ",
@@ -242,7 +302,9 @@
                     "Он ест овощи каждый день."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈovəɕː/",
+        "countability": "countable"
     },
     {
         "word": "кофе",
@@ -260,7 +322,8 @@
                     "Я пью кофе каждое утро."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "чай",
@@ -278,7 +341,8 @@
                     "Она пьёт чай после ужина."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "сок",
@@ -296,7 +360,8 @@
                     "Я хочу стакан сока."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "вода",
@@ -314,7 +379,8 @@
                     "Пожалуйста, пейте больше воды."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "завтрак",
@@ -331,7 +397,9 @@
                     "Завтрак в семь часов."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "ужин",
@@ -348,7 +416,9 @@
                     "Ужин в восемь часов вечера."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "обед",
@@ -365,7 +435,9 @@
                     "Я обедаю в час дня."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "парк",
@@ -382,7 +454,9 @@
                     "Давай погуляем в парке."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "школа",
@@ -399,7 +473,9 @@
                     "Моя школа рядом с домом."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "магазин",
@@ -416,7 +492,9 @@
                     "Магазин открыт."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "футболка",
@@ -433,7 +511,9 @@
                     "На мне белая футболка."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "брюки",
@@ -450,7 +530,9 @@
                     "Мне нужны новые брюки."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "обувь",
@@ -467,7 +549,9 @@
                     "Надень обувь."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "шапка",
@@ -484,7 +568,9 @@
                     "На ней красивая шапка."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "стул",
@@ -494,7 +580,15 @@
         "emoji": "🪑",
         "form": "noun",
         "plural": "стулья",
-        "subtext": "деревянный стул, сесть на стул"
+        "subtext": "деревянный стул, сесть на стул",
+        "transcription": "/stul/",
+        "definitions": [
+            {
+                "text": "Мебель для сидения со спинкой.",
+                "examples": []
+            }
+        ],
+        "countability": "countable"
     },
     {
         "word": "стол",
@@ -504,7 +598,15 @@
         "emoji": "🪑",
         "form": "noun",
         "plural": "столы",
-        "subtext": "кухонный стол, на столе"
+        "subtext": "кухонный стол, на столе",
+        "transcription": "/stol/",
+        "definitions": [
+            {
+                "text": "Мебель с плоской поверхностью и ножками.",
+                "examples": []
+            }
+        ],
+        "countability": "countable"
     },
     {
         "word": "кровать",
@@ -514,7 +616,15 @@
         "emoji": "🛏️",
         "form": "noun",
         "plural": "кровати",
-        "subtext": "удобная кровать, лечь в кровать"
+        "subtext": "удобная кровать, лечь в кровать",
+        "transcription": "/kraˈvatʲ/",
+        "definitions": [
+            {
+                "text": "Мебель, на которой спят.",
+                "examples": []
+            }
+        ],
+        "countability": "countable"
     },
     {
         "word": "ключ",
@@ -531,7 +641,9 @@
                     "Где мои ключи?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "телефон",
@@ -548,7 +660,9 @@
                     "Я говорю по телефону."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "книга",
@@ -565,7 +679,10 @@
                     "Я читаю книгу."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈkniɡə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "сумка",
@@ -582,7 +699,9 @@
                     "У меня в сумке есть деньги."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "ручка",
@@ -599,7 +718,10 @@
                     "Можно взять твою ручку?"
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈrutʃkə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "кот",
@@ -610,7 +732,16 @@
         "numberPlural": "2 кот",
         "answer": "два кота",
         "form": "noun",
-        "plural": "коты"
+        "plural": "коты",
+        "transcription": "/kot/",
+        "definitions": [
+            {
+                "text": "Маленькое домашнее животное, которое ловит мышей.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "собака",
@@ -621,7 +752,16 @@
         "numberPlural": "5 собака",
         "answer": "пять собак",
         "form": "noun",
-        "plural": "собаки"
+        "plural": "собаки",
+        "transcription": "/saˈbakə/",
+        "definitions": [
+            {
+                "text": "Домашнее животное, лучший друг человека.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "птица",
@@ -638,7 +778,10 @@
                     "Птица поёт."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈptitsə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "рыба",
@@ -655,7 +798,10 @@
                     "Рыба плавает."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈrɨbə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "голова",
@@ -673,7 +819,9 @@
                     "У меня на голове шапка."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ɡəlaˈva/",
+        "countability": "countable"
     },
     {
         "word": "рука",
@@ -691,7 +839,9 @@
                     "Помой руки."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ruˈka/",
+        "countability": "countable"
     },
     {
         "word": "глаз",
@@ -709,7 +859,9 @@
                     "У неё голубые глаза."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ɡlas/",
+        "countability": "countable"
     },
     {
         "word": "нос",
@@ -726,7 +878,10 @@
                     "У него маленький нос."
                 ]
             }
-        ]
+        ],
+        "transcription": "/nos/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "рот",
@@ -744,7 +899,9 @@
                     "Открой рот."
                 ]
             }
-        ]
+        ],
+        "transcription": "/rot/",
+        "countability": "countable"
     },
     {
         "word": "ухо",
@@ -762,7 +919,9 @@
                     "У меня два уха."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈuxə/",
+        "countability": "countable"
     },
     {
         "word": "спина",
@@ -780,7 +939,8 @@
                     "У меня болит спина."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "мать",
@@ -789,7 +949,16 @@
         "gender": "она",
         "emoji": "👩",
         "form": "noun",
-        "plural": "матери"
+        "plural": "матери",
+        "transcription": "/matʲ/",
+        "definitions": [
+            {
+                "text": "Женщина по отношению к своим детям.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "отец",
@@ -798,7 +967,16 @@
         "gender": "он",
         "emoji": "👨",
         "form": "noun",
-        "plural": "отцы"
+        "plural": "отцы",
+        "transcription": "/aˈtjets/",
+        "definitions": [
+            {
+                "text": "Мужчина по отношению к своим детям.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "семья",
@@ -807,7 +985,16 @@
         "gender": "она",
         "emoji": "👪",
         "form": "noun",
-        "plural": "семьи"
+        "plural": "семьи",
+        "transcription": "/sʲiˈmja/",
+        "definitions": [
+            {
+                "text": "Группа людей, состоящая из родителей и детей.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "друг",
@@ -816,7 +1003,16 @@
         "gender": "он",
         "emoji": "👫",
         "form": "noun",
-        "plural": "друзья"
+        "plural": "друзья",
+        "transcription": "/druk/",
+        "definitions": [
+            {
+                "text": "Человек, которого вы любите и хорошо знаете.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "партнёр",
@@ -825,7 +1021,16 @@
         "gender": "он",
         "emoji": "💑",
         "form": "noun",
-        "plural": "партнёры"
+        "plural": "партнёры",
+        "transcription": "/paʁtˈnʲor/",
+        "definitions": [
+            {
+                "text": "Человек, с которым вы живете или состоите в паре.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "мужчина",
@@ -836,7 +1041,16 @@
         "answer": "два мужчины",
         "emoji": "👨",
         "form": "noun",
-        "plural": "мужчины"
+        "plural": "мужчины",
+        "transcription": "/muˈɕːinə/",
+        "definitions": [
+            {
+                "text": "Взрослый человек мужского пола.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "женщина",
@@ -847,7 +1061,16 @@
         "answer": "две женщины",
         "emoji": "👩",
         "form": "noun",
-        "plural": "женщины"
+        "plural": "женщины",
+        "transcription": "/ˈʐenɕːinə/",
+        "definitions": [
+            {
+                "text": "Взрослый человек женского пола.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "дом",
@@ -858,7 +1081,18 @@
         "form": "noun",
         "plural": "дома",
         "subtext": "",
-        "synonyms": ["дома", "идти домой"]
+        "synonyms": [
+            "дома",
+            "идти домой"
+        ],
+        "transcription": "/dom/",
+        "definitions": [
+            {
+                "text": "Здание, где живет семья.",
+                "examples": []
+            }
+        ],
+        "countability": "countable"
     },
     {
         "word": "квартира",
@@ -876,7 +1110,9 @@
                     "Она живет в квартире."
                 ]
             }
-        ]
+        ],
+        "transcription": "/kvaʁˈtiʁə/",
+        "countability": "countable"
     },
     {
         "word": "офис",
@@ -894,7 +1130,8 @@
                     "Он в офисе."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "машина",
@@ -912,7 +1149,9 @@
                     "Его машина красная."
                 ]
             }
-        ]
+        ],
+        "transcription": "/maˈʂɨnə/",
+        "countability": "countable"
     },
     {
         "word": "автобус",
@@ -930,7 +1169,8 @@
                     "Я езжу на работу на автобусе."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "поезд",
@@ -948,7 +1188,8 @@
                     "Поезд едет быстро."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "деньги",
@@ -958,7 +1199,15 @@
         "emoji": "💰",
         "form": "noun",
         "plural": null,
-        "subtext": "тратить деньги, копить деньги"
+        "subtext": "тратить деньги, копить деньги",
+        "transcription": "/ˈdʲenʲɡi/",
+        "definitions": [
+            {
+                "text": "Монеты или купюры для покупки товаров.",
+                "examples": []
+            }
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "утро",
@@ -967,7 +1216,16 @@
         "gender": "оно",
         "emoji": "🌅",
         "form": "noun",
-        "plural": "утра"
+        "plural": "утра",
+        "transcription": "/ˈutrə/",
+        "definitions": [
+            {
+                "text": "Часть дня до полудня.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "вечер",
@@ -976,7 +1234,16 @@
         "gender": "он",
         "emoji": "🌆",
         "form": "noun",
-        "plural": "вечера"
+        "plural": "вечера",
+        "transcription": "/ˈvjetʃʲiʁ/",
+        "definitions": [
+            {
+                "text": "Часть дня после полудня.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "день",
@@ -985,7 +1252,16 @@
         "gender": "он",
         "emoji": "☀️",
         "form": "noun",
-        "plural": "дни"
+        "plural": "дни",
+        "transcription": "/djenʲ/",
+        "definitions": [
+            {
+                "text": "Период времени в 24 часа.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "неделя",
@@ -994,7 +1270,16 @@
         "gender": "она",
         "emoji": "📅",
         "form": "noun",
-        "plural": "недели"
+        "plural": "недели",
+        "transcription": "/nʲiˈdʲelʲə/",
+        "definitions": [
+            {
+                "text": "Период времени в семь дней.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "каждый день",
@@ -1009,7 +1294,8 @@
                     "Я пью кофе каждый день."
                 ]
             }
-        ]
+        ],
+        "subtext": ""
     },
     {
         "word": "босс",
@@ -1020,7 +1306,9 @@
         "form": "noun",
         "plural": "боссы",
         "subtext": "",
-        "synonyms": ["начальник"],
+        "synonyms": [
+            "начальник"
+        ],
         "definitions": [
             {
                 "text": "Человек, который руководит на работе.",
@@ -1028,7 +1316,8 @@
                     "Мой босс очень дружелюбный."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "коллега",
@@ -1045,7 +1334,10 @@
                     "Мои коллеги всегда помогают."
                 ]
             }
-        ]
+        ],
+        "transcription": "/kalˈlʲeɡə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "зарплата",
@@ -1056,7 +1348,9 @@
         "form": "noun",
         "plural": "зарплаты",
         "subtext": "",
-        "synonyms": ["заработная плата"],
+        "synonyms": [
+            "заработная плата"
+        ],
         "definitions": [
             {
                 "text": "Деньги, которые человек получает за свою работу каждый месяц.",
@@ -1064,7 +1358,9 @@
                     "У неё хорошая зарплата."
                 ]
             }
-        ]
+        ],
+        "transcription": "/zaʁˈplatə/",
+        "countability": "countable"
     },
     {
         "word": "собрание",
@@ -1075,7 +1371,10 @@
         "form": "noun",
         "plural": "собрания",
         "subtext": "",
-        "synonyms": ["встреча", "совещание"],
+        "synonyms": [
+            "встреча",
+            "совещание"
+        ],
         "definitions": [
             {
                 "text": "Время, когда люди собираются вместе, чтобы что-то обсудить.",
@@ -1083,7 +1382,8 @@
                     "У нас собрание каждый понедельник."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "поездка на работу",
@@ -1099,7 +1399,9 @@
                     "Моя поездка на работу занимает один час."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "стресс",
@@ -1115,7 +1417,10 @@
                     "У меня много стресса на работе."
                 ]
             }
-        ]
+        ],
+        "transcription": "/strɛs/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "аренда",
@@ -1131,7 +1436,10 @@
                     "Аренда в этом городе дорогая."
                 ]
             }
-        ]
+        ],
+        "transcription": "/aˈrʲendə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "сосед",
@@ -1148,7 +1456,10 @@
                     "Мои соседи очень приятные люди."
                 ]
             }
-        ]
+        ],
+        "transcription": "/saˈsʲet/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "комната",
@@ -1165,7 +1476,10 @@
                     "В квартире три комнаты."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈkomnətə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "кухня",
@@ -1182,7 +1496,9 @@
                     "Я готовлю на кухне."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "сон",
@@ -1198,7 +1514,10 @@
                     "Мне нужен восьмичасовой сон."
                 ]
             }
-        ]
+        ],
+        "transcription": "/son/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "упражнение",
@@ -1215,7 +1534,10 @@
                     "Я делаю упражнения три раза в неделю."
                 ]
             }
-        ]
+        ],
+        "transcription": "/upʁaʐˈnʲenʲijə/",
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "цена",
@@ -1232,7 +1554,9 @@
                     "Цена на еду высокая."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "стоимость",
@@ -1248,7 +1572,9 @@
                     "Стоимость квартиры очень высокая."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "отношения",
@@ -1258,7 +1584,9 @@
         "emoji": "❤️",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["связь"],
+        "synonyms": [
+            "связь"
+        ],
         "definitions": [
             {
                 "text": "Связь между двумя людьми.",
@@ -1266,7 +1594,9 @@
                     "У них хорошие отношения."
                 ]
             }
-        ]
+        ],
+        "transcription": "/atnaˈʂenʲijə/",
+        "countability": "countable"
     },
     {
         "word": "вместе",
@@ -1283,7 +1613,9 @@
                     "Мы ужинаем вместе."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈvmʲestʲi/",
+        "subtext": ""
     },
     {
         "word": "отпуск",
@@ -1294,7 +1626,9 @@
         "form": "noun",
         "plural": "отпуска",
         "subtext": "",
-        "synonyms": ["каникулы"],
+        "synonyms": [
+            "каникулы"
+        ],
         "definitions": [
             {
                 "text": "Период времени вдали от работы, когда вы путешествуете или отдыхаете.",
@@ -1302,7 +1636,8 @@
                     "У нас отпуск в июле."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "путешествие",
@@ -1319,7 +1654,9 @@
                     "Я люблю путешествия."
                 ]
             }
-        ]
+        ],
+        "countability": "countable",
+        "subtext": ""
     },
     {
         "word": "отель",
@@ -1330,7 +1667,9 @@
         "form": "noun",
         "plural": "отели",
         "subtext": "",
-        "synonyms": ["гостиница"],
+        "synonyms": [
+            "гостиница"
+        ],
         "definitions": [
             {
                 "text": "Здание, где люди платят за ночлег.",
@@ -1338,7 +1677,9 @@
                     "Отель находится рядом с вокзалом."
                 ]
             }
-        ]
+        ],
+        "transcription": "/aˈtɛlʲ/",
+        "countability": "countable"
     },
     {
         "word": "выходные",
@@ -1348,7 +1689,9 @@
         "emoji": "🗓️",
         "form": "noun",
         "subtext": "",
-        "synonyms": ["уикенд"],
+        "synonyms": [
+            "уикенд"
+        ],
         "definitions": [
             {
                 "text": "Суббота и воскресенье.",
@@ -1356,7 +1699,9 @@
                     "Я отдыхаю в выходные."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vɨxadˈnɨjə/",
+        "countability": "countable"
     },
     {
         "word": "свободное время",
@@ -1367,7 +1712,10 @@
         "form": "noun",
         "plural": null,
         "subtext": "",
-        "synonyms": ["досуг", "отдых"],
+        "synonyms": [
+            "досуг",
+            "отдых"
+        ],
         "definitions": [
             {
                 "text": "Время, когда вы не работаете и можете делать то, что хотите.",
@@ -1375,7 +1723,9 @@
                     "Я читаю книги в свободное время."
                 ]
             }
-        ]
+        ],
+        "transcription": "/svaˈbodnəjə ˈvrʲemʲə/",
+        "countability": "countable"
     },
     {
         "word": "пиво",
@@ -1393,7 +1743,9 @@
                     "Он пьёт пиво по выходным."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈpʲivə/",
+        "countability": "uncountable"
     },
     {
         "word": "вино",
@@ -1411,7 +1763,9 @@
                     "Она пьёт бокал вина вечером."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vʲiˈno/",
+        "countability": "uncountable"
     },
     {
         "word": "дверь",
@@ -1429,7 +1783,9 @@
                     "Пожалуйста, закройте дверь."
                 ]
             }
-        ]
+        ],
+        "transcription": "/dvʲeʁʲ/",
+        "countability": "countable"
     },
     {
         "word": "окно",
@@ -1447,7 +1803,9 @@
                     "Открой окно — жарко."
                 ]
             }
-        ]
+        ],
+        "transcription": "/akˈno/",
+        "countability": "countable"
     },
     {
         "word": "медсестра",
@@ -1465,7 +1823,9 @@
                     "Медсестра проверяет давление."
                 ]
             }
-        ]
+        ],
+        "transcription": "/mʲitsʲisˈtra/",
+        "countability": "countable"
     },
     {
         "word": "водитель",
@@ -1483,7 +1843,9 @@
                     "Водитель автобуса был вежлив."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vaˈdʲitʲilʲ/",
+        "countability": "countable"
     },
     {
         "word": "повар",
@@ -1501,7 +1863,9 @@
                     "Повар готовит отличную еду."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈpovəʁ/",
+        "countability": "countable"
     },
     {
         "word": "менеджер",
@@ -1512,7 +1876,10 @@
         "form": "noun",
         "plural": "менеджеры",
         "subtext": "",
-        "synonyms": ["руководитель", "директор"],
+        "synonyms": [
+            "руководитель",
+            "директор"
+        ],
         "definitions": [
             {
                 "text": "Человек, который руководит командой или бизнесом.",
@@ -1520,7 +1887,9 @@
                     "Мой менеджер работает допоздна."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈmɛnɨdʐɨʁ/",
+        "countability": "countable"
     },
     {
         "word": "самолёт",
@@ -1538,7 +1907,9 @@
                     "Самолёт приземляется в девять часов."
                 ]
             }
-        ]
+        ],
+        "transcription": "/samaˈlʲot/",
+        "countability": "countable"
     },
     {
         "word": "велосипед",
@@ -1556,7 +1927,9 @@
                     "Он ездит на работу на велосипеде."
                 ]
             }
-        ]
+        ],
+        "transcription": "/vʲilasʲiˈpʲet/",
+        "countability": "countable"
     },
     {
         "word": "больница",
@@ -1574,7 +1947,9 @@
                     "Его отвезли в больницу на скорой."
                 ]
             }
-        ]
+        ],
+        "transcription": "/balʲˈnʲitsə/",
+        "countability": "countable"
     },
     {
         "word": "ресторан",
@@ -1592,7 +1967,9 @@
                     "Мы ходим в ресторан по пятницам."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ʁʲistaˈran/",
+        "countability": "countable"
     },
     {
         "word": "банк",
@@ -1610,7 +1987,8 @@
                     "Банк находится рядом с моим офисом."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "станция",
@@ -1621,7 +1999,10 @@
         "form": "noun",
         "plural": "станции",
         "subtext": "",
-        "synonyms": ["вокзал", "автобусная остановка"],
+        "synonyms": [
+            "вокзал",
+            "автобусная остановка"
+        ],
         "definitions": [
             {
                 "text": "Здание, где останавливаются поезда или автобусы.",
@@ -1629,7 +2010,8 @@
                     "Станция в десяти минутах отсюда."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "супермаркет",
@@ -1647,7 +2029,9 @@
                     "Я хожу в супермаркет по субботам."
                 ]
             }
-        ]
+        ],
+        "transcription": "/supʲiʁˈmaʁkʲit/",
+        "countability": "countable"
     },
     {
         "word": "солнце",
@@ -1665,7 +2049,9 @@
                     "Сегодня очень сильное солнце."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈsontsə/",
+        "countability": "countable"
     },
     {
         "word": "дождь",
@@ -1683,7 +2069,9 @@
                     "Осенью часто идут дожди."
                 ]
             }
-        ]
+        ],
+        "transcription": "/doʃtʲ/",
+        "countability": "countable"
     },
     {
         "word": "ветер",
@@ -1701,7 +2089,9 @@
                     "Сегодня очень сильный ветер."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈvʲetʲiʁ/",
+        "countability": "countable"
     },
     {
         "word": "днём",
@@ -1716,7 +2106,8 @@
                     "Я заканчиваю работу в пять часов дня."
                 ]
             }
-        ]
+        ],
+        "subtext": ""
     },
     {
         "word": "ночь",
@@ -1727,7 +2118,10 @@
         "form": "noun",
         "plural": "ночи",
         "subtext": "",
-        "synonyms": ["спокойной ночи", "ночью"],
+        "synonyms": [
+            "спокойной ночи",
+            "ночью"
+        ],
         "definitions": [
             {
                 "text": "Тёмное время суток между вечером и утром.",
@@ -1735,7 +2129,9 @@
                     "Я сплю восемь часов каждую ночь."
                 ]
             }
-        ]
+        ],
+        "transcription": "/notʃʲ/",
+        "countability": "countable"
     },
     {
         "word": "сегодня",
@@ -1751,7 +2147,8 @@
                     "У меня сегодня встреча в десять."
                 ]
             }
-        ]
+        ],
+        "transcription": "/sʲiˈvodnʲə/"
     },
     {
         "word": "завтра",
@@ -1767,7 +2164,8 @@
                     "У неё завтра визит к врачу."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ˈzaftrə/"
     },
     {
         "word": "муж",
@@ -1780,7 +2178,10 @@
         "opposite": "жена",
         "oppositeEmoji": "👩",
         "subtext": "",
-        "synonyms": ["супруг", "партнёр"],
+        "synonyms": [
+            "супруг",
+            "партнёр"
+        ],
         "definitions": [
             {
                 "text": "Мужчина, состоящий в браке.",
@@ -1788,7 +2189,9 @@
                     "Её муж — врач."
                 ]
             }
-        ]
+        ],
+        "transcription": "/muʂ/",
+        "countability": "countable"
     },
     {
         "word": "жена",
@@ -1801,7 +2204,10 @@
         "opposite": "муж",
         "oppositeEmoji": "👨",
         "subtext": "",
-        "synonyms": ["супруга", "партнёрша"],
+        "synonyms": [
+            "супруга",
+            "партнёрша"
+        ],
         "definitions": [
             {
                 "text": "Женщина, состоящая в браке.",
@@ -1809,7 +2215,9 @@
                     "Его жена работает в финансах."
                 ]
             }
-        ]
+        ],
+        "transcription": "/ʐɨˈna/",
+        "countability": "countable"
     },
     {
         "word": "ребёнок",
@@ -1820,7 +2228,10 @@
         "form": "noun",
         "plural": "дети",
         "subtext": "",
-        "synonyms": ["малыш", "дитя"],
+        "synonyms": [
+            "малыш",
+            "дитя"
+        ],
         "definitions": [
             {
                 "text": "Молодой человек; сын или дочь.",
@@ -1828,7 +2239,9 @@
                     "У них двое детей."
                 ]
             }
-        ]
+        ],
+        "transcription": "/rʲiˈbʲonək/",
+        "countability": "countable"
     },
     {
         "word": "родитель",
@@ -1839,7 +2252,9 @@
         "form": "noun",
         "plural": "родители",
         "subtext": "",
-        "synonyms": ["мать или отец"],
+        "synonyms": [
+            "мать или отец"
+        ],
         "definitions": [
             {
                 "text": "Отец или мать.",
@@ -1847,9 +2262,11 @@
                     "Мои родители живут на севере."
                 ]
             }
-        ]
+        ],
+        "transcription": "/raˈdʲitʲilʲ/",
+        "countability": "countable"
     }
-];
+]
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

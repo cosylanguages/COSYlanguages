@@ -812,7 +812,7 @@
             }
         }
     }
-];
+]
     const lang = "fr";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
