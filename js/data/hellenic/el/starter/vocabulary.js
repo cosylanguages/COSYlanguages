@@ -94,25 +94,6 @@
         "countability": "countable"
     },
     {
-        "word": "μουσακάς",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "article": "ο",
-        "gender": "masculine",
-        "emoji": "🥘",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Παραδοσιακό ελληνικό φαγητό με μελιτζάνες και κιμά.",
-                "examples": [
-                    "Μου αρέσει ο μουσακάς."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": ""
-    },
-    {
         "word": "μήλο",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1013,46 +994,6 @@
             }
         ],
         "countability": "countable"
-    },
-    {
-        "word": "σήμερα",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "📅",
-        "form": "adverb",
-        "subtext": "",
-        "synonyms": [
-            "αυτή τη μέρα"
-        ],
-        "definitions": [
-            {
-                "text": "Την τρέχουσα ημέρα.",
-                "examples": [
-                    "Έχω ραντεβού σήμερα."
-                ]
-            }
-        ],
-        "transcription": "/ˈsimera/"
-    },
-    {
-        "word": "αύριο",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "🔜",
-        "form": "adverb",
-        "subtext": "",
-        "synonyms": [
-            "την επόμενη μέρα"
-        ],
-        "definitions": [
-            {
-                "text": "Την ημέρα μετά τη σημερινή.",
-                "examples": [
-                    "Θα πάω στον γιατρό αύριο."
-                ]
-            }
-        ],
-        "transcription": "/ˈavrio/"
     },
     {
         "word": "βράδυ",
@@ -2095,23 +2036,6 @@
         "countability": "countable"
     },
     {
-        "word": "κάθε μέρα",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "📅",
-        "form": "noun",
-        "subtext": "δουλεύω κάθε μέρα",
-        "definitions": [
-            {
-                "text": "Καθημερινά.",
-                "examples": [
-                    "Τρέχω κάθε μέρα."
-                ]
-            }
-        ],
-        "countability": "countable"
-    },
-    {
         "word": "μεσημεριανό",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -2525,24 +2449,6 @@
         "countability": "countable"
     },
     {
-        "word": "αύριο",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "🌅",
-        "form": "noun",
-        "subtext": "θα σε δω αύριο",
-        "definitions": [
-            {
-                "text": "Η επόμενη ημέρα.",
-                "examples": [
-                    "Αύριο είναι Δευτέρα."
-                ]
-            }
-        ],
-        "transcription": "/ˈavrio/",
-        "countability": "countable"
-    },
-    {
         "word": "σύζυγος",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2567,7 +2473,7 @@
         "transcription": "/ˈsizigos/",
         "countability": "countable"
     }
-]
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
