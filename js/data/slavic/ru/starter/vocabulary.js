@@ -85,38 +85,6 @@
         "countability": "countable"
     },
     {
-        "word": "борщ",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "gender": "он",
-        "form": "noun",
-        "plural": "борщи",
-        "definitions": [
-            {
-                "text": "Традиционный русский суп со свеклой."
-            }
-        ],
-        "countability": "countable",
-        "subtext": ""
-    },
-    {
-        "word": "салат оливье",
-        "level": "starter",
-        "theme": "basic_foods_A1",
-        "gender": "он",
-        "form": "noun",
-        "plural": "салаты оливье",
-        "transcription": "/saˈlat aliˈvje/",
-        "definitions": [
-            {
-                "text": "Традиционный русский салат из вареных овощей, мяса и майонеза.",
-                "examples": []
-            }
-        ],
-        "countability": "countable",
-        "subtext": ""
-    },
-    {
         "word": "яблоко",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1282,22 +1250,6 @@
         "subtext": ""
     },
     {
-        "word": "каждый день",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "🔁",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Ежедневно, без исключений.",
-                "examples": [
-                    "Я пью кофе каждый день."
-                ]
-            }
-        ],
-        "subtext": ""
-    },
-    {
         "word": "босс",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1597,25 +1549,6 @@
         ],
         "transcription": "/atnaˈʂenʲijə/",
         "countability": "countable"
-    },
-    {
-        "word": "вместе",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "👫",
-        "form": "adverb",
-        "opposite": "один",
-        "oppositeEmoji": "🧍",
-        "definitions": [
-            {
-                "text": "С другим человеком или группой.",
-                "examples": [
-                    "Мы ужинаем вместе."
-                ]
-            }
-        ],
-        "transcription": "/ˈvmʲestʲi/",
-        "subtext": ""
     },
     {
         "word": "отпуск",
@@ -2094,22 +2027,6 @@
         "countability": "countable"
     },
     {
-        "word": "днём",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "☀️",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "В дневное время.",
-                "examples": [
-                    "Я заканчиваю работу в пять часов дня."
-                ]
-            }
-        ],
-        "subtext": ""
-    },
-    {
         "word": "ночь",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2132,23 +2049,6 @@
         ],
         "transcription": "/notʃʲ/",
         "countability": "countable"
-    },
-    {
-        "word": "сегодня",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "📅",
-        "form": "adverb",
-        "subtext": "сегодняшняя встреча, начать сегодня",
-        "definitions": [
-            {
-                "text": "В этот день.",
-                "examples": [
-                    "У меня сегодня встреча в десять."
-                ]
-            }
-        ],
-        "transcription": "/sʲiˈvodnʲə/"
     },
     {
         "word": "завтра",
@@ -2266,7 +2166,7 @@
         "transcription": "/raˈdʲitʲilʲ/",
         "countability": "countable"
     }
-]
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

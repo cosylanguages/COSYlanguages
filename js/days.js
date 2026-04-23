@@ -372,7 +372,7 @@
         const family = LANG_FAMILIES[lang.toLowerCase()] || 'romance';
         const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
         const base = `js/data/${family}/${lang.toLowerCase()}/${pLevel}/`;
-        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar.js'];
+        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar.js', 'grammar_elements.js', 'dishes.js'];
 
         const loads = files.map(f => {
             return new Promise((resolve) => {
@@ -390,7 +390,7 @@
 
     function resolveWord(w) {
         if (!w || typeof w !== 'string') return w;
-        const lang = currentCourse.lang.toLowerCase();
+        const lang = currentCourse ? currentCourse.lang.toLowerCase() : (new URLSearchParams(window.location.search).get('lang') || 'en').toLowerCase();
 
         const sources = [
             { data: (window.vocabularyData && window.vocabularyData[lang]) || [], type: 'vocab' },
@@ -1263,6 +1263,7 @@
         resetProgress,
         showToast,
         copyText,
-        speakText
+        speakText,
+        resolveWord
     };
 })();
