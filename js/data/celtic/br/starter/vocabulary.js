@@ -171,6 +171,7 @@
     },
     {
         "word": "skol",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -470,6 +471,7 @@
     },
     {
         "word": "labour",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -639,6 +641,7 @@
     },
     {
         "word": "merenn",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
@@ -652,6 +655,7 @@
     },
     {
         "word": "koan",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",

@@ -248,6 +248,7 @@
     },
     {
         "word": "escuela",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -677,6 +678,7 @@
     },
     {
         "word": "trabajo",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -912,6 +914,7 @@
     },
     {
         "word": "almuerzo",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
@@ -929,6 +932,7 @@
     },
     {
         "word": "cena",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",

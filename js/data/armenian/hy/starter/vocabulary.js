@@ -171,6 +171,7 @@
     },
     {
         "word": "դպրոց",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -470,6 +471,7 @@
     },
     {
         "word": "աշխատանք",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -483,6 +485,7 @@
     },
     {
         "word": "տուն",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
@@ -639,6 +642,7 @@
     },
     {
         "word": "ճաշ",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
@@ -652,6 +656,7 @@
     },
     {
         "word": "ընթրիք",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",

@@ -992,6 +992,7 @@
     },
     {
         "word": "ашау",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1016,6 +1017,7 @@
     },
     {
         "word": "эчү",
+        "image": "images/vocabulary/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1040,6 +1042,7 @@
     },
     {
         "word": "йоклау",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1064,6 +1067,7 @@
     },
     {
         "word": "аш пешерү",
+        "image": "images/vocabulary/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1620,6 +1624,7 @@
     },
     {
         "word": "уяну",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -1756,6 +1761,7 @@
     },
     {
         "word": "тору",
+        "image": "images/vocabulary/get up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
@@ -2542,6 +2548,7 @@
     },
     {
         "word": "тору",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "Йокыдан тору.",
@@ -2564,6 +2571,7 @@
     },
     {
         "word": "иртәнге ашны ашау",
+        "image": "images/vocabulary/have breakfast.png",
         "definitions": [
             {
                 "text": "Иртәнге ашны ашау.",
@@ -2607,6 +2615,7 @@
     },
     {
         "word": "йокларга яту",
+        "image": "images/vocabulary/go to bed.png",
         "definitions": [
             {
                 "text": "Йокларга яту.",

@@ -992,6 +992,7 @@
     },
     {
         "word": "ჭამა",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1040,6 +1041,7 @@
     },
     {
         "word": "ძილი",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1063,6 +1065,7 @@
     },
     {
         "word": "მომზადება",
+        "image": "images/vocabulary/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1617,6 +1620,7 @@
     },
     {
         "word": "გაღვიძება",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2539,6 +2543,7 @@
     },
     {
         "word": "ადგომა",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "ლოგინიდან ადგომა:",
@@ -2605,6 +2610,7 @@
     },
     {
         "word": "დაწოლა",
+        "image": "images/vocabulary/go to bed.png",
         "definitions": [
             {
                 "text": "ლოგინში ჩაწოლა დასაძინებლად:",

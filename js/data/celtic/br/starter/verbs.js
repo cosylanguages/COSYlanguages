@@ -959,6 +959,7 @@
     },
     {
         "word": "debriñ",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -982,6 +983,7 @@
     },
     {
         "word": "evañ",
+        "image": "images/vocabulary/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1005,6 +1007,7 @@
     },
     {
         "word": "kousket",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1569,6 +1572,7 @@
     },
     {
         "word": "dihuniñ",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -1701,6 +1705,7 @@
     },
     {
         "word": "sevel",
+        "image": "images/vocabulary/get up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
@@ -2463,6 +2468,7 @@
     },
     {
         "word": "sevel",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "Sevel diouzh ar gwele d'ar mintin.",
@@ -3291,6 +3297,7 @@
     },
     {
         "word": "sevel",
+        "image": "images/vocabulary/get up.png",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",

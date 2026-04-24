@@ -171,6 +171,7 @@
     },
     {
         "word": "мәктәп",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -470,6 +471,7 @@
     },
     {
         "word": "эш",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -483,6 +485,7 @@
     },
     {
         "word": "өй",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
@@ -652,6 +655,7 @@
     },
     {
         "word": "киске аш",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
