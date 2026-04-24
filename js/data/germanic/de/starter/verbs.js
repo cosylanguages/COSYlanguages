@@ -1053,6 +1053,7 @@
     },
     {
         "word": "essen",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1079,6 +1080,7 @@
     },
     {
         "word": "trinken",
+        "image": "images/vocabulary/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1104,6 +1106,7 @@
     },
     {
         "word": "schlafen",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1129,6 +1132,7 @@
     },
     {
         "word": "kochen",
+        "image": "images/vocabulary/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1715,6 +1719,7 @@
     },
     {
         "word": "aufwachen",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2687,6 +2692,7 @@
     },
     {
         "word": "aufstehen",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "Nach dem Aufwachen aus dem Bett steigen.",
@@ -2709,6 +2715,7 @@
     },
     {
         "word": "frühstücken",
+        "image": "images/vocabulary/have breakfast.png",
         "definitions": [
             {
                 "text": "Die Morgenmahlzeit einnehmen.",
@@ -2753,6 +2760,7 @@
     },
     {
         "word": "ins Bett gehen",
+        "image": "images/vocabulary/go to bed.png",
         "definitions": [
             {
                 "text": "Sich ins Bett legen, um zu schlafen.",

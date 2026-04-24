@@ -248,6 +248,7 @@
     },
     {
         "word": "escola",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -677,6 +678,7 @@
     },
     {
         "word": "trabalho",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
@@ -696,6 +698,7 @@
     },
     {
         "word": "casa",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
@@ -895,6 +898,7 @@
     },
     {
         "word": "pequeno-almoço",
+        "image": "images/vocabulary/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
@@ -912,6 +916,7 @@
     },
     {
         "word": "almoço",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
@@ -929,6 +934,7 @@
     },
     {
         "word": "jantar",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",

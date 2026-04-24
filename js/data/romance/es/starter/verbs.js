@@ -1116,6 +1116,7 @@
     },
     {
         "word": "comer",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1146,6 +1147,7 @@
     },
     {
         "word": "beber",
+        "image": "images/vocabulary/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1171,6 +1173,7 @@
     },
     {
         "word": "dormir",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1196,6 +1199,7 @@
     },
     {
         "word": "cocinar",
+        "image": "images/vocabulary/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1799,6 +1803,7 @@
     },
     {
         "word": "despertarse",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2842,6 +2847,7 @@
     },
     {
         "word": "levantarse",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "Levantarse de la cama después de despertar.",
@@ -2864,6 +2870,7 @@
     },
     {
         "word": "desayunar",
+        "image": "images/vocabulary/have breakfast.png",
         "definitions": [
             {
                 "text": "Comer la comida de la mañana.",
@@ -2911,6 +2918,7 @@
     },
     {
         "word": "acostarse",
+        "image": "images/vocabulary/go to bed.png",
         "definitions": [
             {
                 "text": "Meterse en la cama para dormir.",

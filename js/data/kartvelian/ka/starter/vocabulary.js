@@ -483,6 +483,7 @@
     },
     {
         "word": "სახლი",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
@@ -652,6 +653,7 @@
     },
     {
         "word": "ვახშამი",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
