@@ -1780,7 +1780,7 @@ function spinWheel() {
 
 function showWheelQuestion(wordObj) {
     document.getElementById('wheel-question-area').classList.remove('hidden');
-    document.getElementById('wheel-emoji-display').textContent = wordObj.emoji || "💬";
+    if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('wheel-emoji-display', wordObj.emoji || "💬", wordObj); else document.getElementById('wheel-emoji-display').textContent = wordObj.emoji || "💬";
     document.getElementById('wheel-word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
 
     const subtextEl = document.getElementById('wheel-subtext-display');
@@ -2007,7 +2007,7 @@ function showNextWord() {
             if (sub) subDisplay.classList.remove('hidden');
             else subDisplay.classList.add('hidden');
         }
-        document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', isListen ? '👂' : (wordObj.emoji || '💡'), wordObj); else document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').classList.remove('hidden');
         document.getElementById('action-buttons-container').classList.remove('hidden');
@@ -2033,7 +2033,7 @@ function showNextWord() {
             if (sub) subDisplay.classList.remove('hidden');
             else subDisplay.classList.add('hidden');
         }
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💡', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').classList.remove('hidden');
         document.getElementById('action-buttons-container').classList.remove('hidden');
@@ -2041,7 +2041,7 @@ function showNextWord() {
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'type-sc' || wordObj.type === 'type-ws') {
         document.getElementById('word-display').textContent = '???';
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💡', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-ws' ? 'task_word_scramble' : 'task_scramble');
         document.getElementById('scramble-container').classList.remove('hidden');
         document.getElementById('action-buttons-container').classList.remove('hidden');
@@ -2053,7 +2053,7 @@ function showNextWord() {
         }
     } else if (wordObj.type === 'type-ga') {
         document.getElementById('word-display').textContent = wordObj.baseWord || wordObj.word;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💡', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
         document.getElementById('choices-grid').classList.remove('hidden');
         document.getElementById('action-buttons-container').classList.remove('hidden');
@@ -2065,26 +2065,26 @@ function showNextWord() {
         currentPractice.tfCorrectAnswer = isTrueQuestion;
 
         if (isTrueQuestion) {
-            document.getElementById('emoji-display').textContent = wordObj.emoji;
+            if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji, wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji;
         } else {
             const pool = vocabularyData[currentPractice.language] || [];
             const distractors = pool.filter(v => v.emoji && v.emoji !== wordObj.emoji);
             const distractor = distractors[Math.floor(Math.random() * distractors.length)];
-            document.getElementById('emoji-display').textContent = (distractor ? distractor.emoji : "❓");
+            if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', (distractor ? distractor.emoji : "❓"), wordObj); else document.getElementById('emoji-display').textContent = (distractor ? distractor.emoji : "❓");
         }
 
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
         document.getElementById('tf-buttons-container').classList.remove('hidden');
     } else if (wordObj.type === 'type-cv') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💬', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
         document.getElementById('conversation-container').classList.remove('hidden');
         document.getElementById('conversation-response').value = '';
         document.getElementById('conversation-response').focus();
     } else if (wordObj.type === 'type-op') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || "💡";
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || "💡", wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || "💡";
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
         document.getElementById('opposite-input-container').classList.remove('hidden');
         document.getElementById('action-buttons-container').classList.remove('hidden');
@@ -2092,25 +2092,25 @@ function showNextWord() {
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'type-ma') {
         document.getElementById('word-display').classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '🧩';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '🧩', wordObj); else document.getElementById('emoji-display').textContent = '🧩';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_matching');
         document.getElementById('matching-container').classList.remove('hidden');
         renderMatching();
     } else if (wordObj.type === 'type-si') {
         document.getElementById('word-display').classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '🗂️';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '🗂️', wordObj); else document.getElementById('emoji-display').textContent = '🗂️';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_sorting');
         document.getElementById('sorting-container').classList.remove('hidden');
         renderSorting();
     } else if (wordObj.type === 'type-lp') {
         document.getElementById('word-display').classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '🖼️';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '🖼️', wordObj); else document.getElementById('emoji-display').textContent = '🖼️';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_labeling');
         document.getElementById('labeling-container').classList.remove('hidden');
         renderLabeling();
     } else if (wordObj.type === 'type-bb') {
         document.getElementById('word-display').classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '📥';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '📥', wordObj); else document.getElementById('emoji-display').textContent = '📥';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_word_bank');
         document.getElementById('word-bank-container').classList.remove('hidden');
         renderWordBank();

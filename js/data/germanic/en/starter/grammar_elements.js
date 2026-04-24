@@ -2,6 +2,7 @@
     const data = [
     {
         "word": "next to",
+        "image": "images/vocabulary/next to. by.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -23,6 +24,7 @@
     },
     {
         "word": "between",
+        "image": "images/vocabulary/between.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -41,6 +43,7 @@
     },
     {
         "word": "behind",
+        "image": "images/vocabulary/behind.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -59,6 +62,7 @@
     },
     {
         "word": "in front of",
+        "image": "images/vocabulary/in front of.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -150,6 +154,7 @@
     },
     {
         "word": "in",
+        "image": "images/vocabulary/in.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -178,6 +183,7 @@
     },
     {
         "word": "on",
+        "image": "images/vocabulary/on.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",

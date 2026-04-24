@@ -513,6 +513,7 @@
     },
     {
         "word": "σπίτι",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "το",
@@ -1490,6 +1491,7 @@
     },
     {
         "word": "σχολείο",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "school_subjects_A1",
         "article": "το",
@@ -1892,6 +1894,7 @@
     },
     {
         "word": "δουλειά",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "η",
@@ -1935,6 +1938,7 @@
     },
     {
         "word": "σπίτι",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "address_location_A1",
         "article": "το",
@@ -1956,6 +1960,7 @@
     },
     {
         "word": "πρωινό",
+        "image": "images/vocabulary/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "το",
@@ -1976,6 +1981,7 @@
     },
     {
         "word": "βραδινό",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "το",
@@ -2037,6 +2043,7 @@
     },
     {
         "word": "μεσημεριανό",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "το",

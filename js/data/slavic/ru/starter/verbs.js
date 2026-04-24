@@ -1152,6 +1152,7 @@
     },
     {
         "word": "есть",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1182,6 +1183,7 @@
     },
     {
         "word": "пить",
+        "image": "images/vocabulary/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1207,6 +1209,7 @@
     },
     {
         "word": "спать",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1232,6 +1235,7 @@
     },
     {
         "word": "готовить",
+        "image": "images/vocabulary/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1856,6 +1860,7 @@
     },
     {
         "word": "просыпаться",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2901,6 +2906,7 @@
     },
     {
         "word": "вставать",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "Вставать с постели после пробуждения.",
@@ -2923,6 +2929,7 @@
     },
     {
         "word": "завтракать",
+        "image": "images/vocabulary/have breakfast.png",
         "definitions": [
             {
                 "text": "Принимать утреннюю пищу.",
@@ -2974,6 +2981,7 @@
     },
     {
         "word": "ложиться спать",
+        "image": "images/vocabulary/go to bed.png",
         "definitions": [
             {
                 "text": "Ложиться в постель, чтобы заснуть.",

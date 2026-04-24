@@ -2,6 +2,7 @@
     const data = [
     {
         "word": "in",
+        "image": "images/vocabulary/in.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "article": "",
@@ -24,6 +25,7 @@
     },
     {
         "word": "su",
+        "image": "images/vocabulary/on.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "article": "",
@@ -68,6 +70,7 @@
     },
     {
         "word": "sotto",
+        "image": "images/vocabulary/below.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "article": "",
@@ -665,6 +668,7 @@
     },
     {
         "word": "tra",
+        "image": "images/vocabulary/between.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -686,6 +690,7 @@
     },
     {
         "word": "fra",
+        "image": "images/vocabulary/between.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -944,6 +949,7 @@
     },
     {
         "word": "davanti a",
+        "image": "images/vocabulary/in front of.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "emoji": "🚶",
@@ -1056,6 +1062,7 @@
     },
     {
         "word": "sopra",
+        "image": "images/vocabulary/above.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",

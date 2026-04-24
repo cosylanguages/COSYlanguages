@@ -2,6 +2,7 @@
     const data = [
     {
         "word": "dans",
+        "image": "images/vocabulary/in.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "article": "",
@@ -21,6 +22,7 @@
     },
     {
         "word": "sur",
+        "image": "images/vocabulary/on.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "article": "",
@@ -661,6 +663,7 @@
     },
     {
         "word": "devant",
+        "image": "images/vocabulary/in front of.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "emoji": "🚪",
@@ -678,6 +681,7 @@
     },
     {
         "word": "derrière",
+        "image": "images/vocabulary/behind.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "emoji": "🚪",
