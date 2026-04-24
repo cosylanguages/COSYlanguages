@@ -369,6 +369,7 @@
     },
     {
         "word": "colazione",
+        "image": "images/vocabulary/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
@@ -393,6 +394,7 @@
     },
     {
         "word": "cena",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
@@ -417,6 +419,7 @@
     },
     {
         "word": "pranzo",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "il",
@@ -465,6 +468,7 @@
     },
     {
         "word": "scuola",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "la",
@@ -1297,6 +1301,7 @@
     },
     {
         "word": "casa",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -5415,6 +5420,7 @@
     },
     {
         "word": "bagno",
+        "image": "images/vocabulary/take.have a bath.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "il",
@@ -6819,6 +6825,7 @@
     },
     {
         "word": "lavoro",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "il",
@@ -7539,6 +7546,7 @@
     },
     {
         "word": "merenda",
+        "image": "images/vocabulary/have a snack.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
@@ -8907,6 +8915,7 @@
     },
     {
         "word": "doccia",
+        "image": "images/vocabulary/take.have a shower.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",

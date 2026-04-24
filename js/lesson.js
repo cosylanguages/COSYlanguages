@@ -336,7 +336,7 @@ function showNextWord() {
     if (wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
         const isListen = wordObj.type === 'type-ls';
         wordDisplay.textContent = isListen ? '???' : ((wordObj.emoji && wordObj.category === 'vocabulary') ? '???' : (wordObj.clozeText || wordObj.word));
-        document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', isListen ? '👂' : (wordObj.emoji || '💡'), wordObj); else document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         choicesGrid.classList.remove('hidden');
         choicesGrid.style.display = 'grid';
@@ -347,7 +347,7 @@ function showNextWord() {
         if (isListen) setTimeout(speakWord, 500);
     } else if (wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         wordDisplay.textContent = wordObj.type === 'type-np' ? wordObj.numberPlural || wordObj.word : wordObj.clozeText || wordObj.word;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💡', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-np' ? 'task_number_plural' : 'task_cloze');
         oppositeInput.classList.remove('hidden');
         oppositeInput.style.display = 'flex';
@@ -357,7 +357,7 @@ function showNextWord() {
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'type-sc' || wordObj.type === 'type-ws') {
         wordDisplay.textContent = '???';
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💡', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-ws' ? 'task_word_scramble' : 'task_scramble');
         const sc = document.getElementById('scramble-container');
         sc.classList.remove('hidden');
@@ -369,7 +369,7 @@ function showNextWord() {
         else renderScramble();
     } else if (wordObj.type === 'type-ga') {
         wordDisplay.textContent = wordObj.baseWord;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💡', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
         choicesGrid.classList.remove('hidden');
         choicesGrid.style.display = 'grid';
@@ -382,9 +382,9 @@ function showNextWord() {
         const isTrue = Math.random() > 0.5;
         currentLesson.tfCorrectAnswer = isTrue;
         if (isTrue) {
-            document.getElementById('emoji-display').textContent = wordObj.emoji;
+            if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji, wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji;
         } else {
-            document.getElementById('emoji-display').textContent = '❓';
+            if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '❓', wordObj); else document.getElementById('emoji-display').textContent = '❓';
         }
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
         const tf = document.getElementById('tf-buttons-container');
@@ -392,14 +392,14 @@ function showNextWord() {
         tf.style.display = 'flex';
     } else if (wordObj.type === 'type-cv') {
         wordDisplay.textContent = wordObj.word;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji || '💬', wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
         const cv = document.getElementById('conversation-container');
         cv.classList.remove('hidden');
         cv.style.display = 'block';
     } else if (wordObj.type === 'type-ma') {
         wordDisplay.classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '🧩';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '🧩', wordObj); else document.getElementById('emoji-display').textContent = '🧩';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_matching');
         const ma = document.getElementById('matching-container');
         ma.classList.remove('hidden');
@@ -407,7 +407,7 @@ function showNextWord() {
         renderMatching();
     } else if (wordObj.type === 'type-si') {
         wordDisplay.classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '🗂️';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '🗂️', wordObj); else document.getElementById('emoji-display').textContent = '🗂️';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_sorting');
         const si = document.getElementById('sorting-container');
         si.classList.remove('hidden');
@@ -415,7 +415,7 @@ function showNextWord() {
         renderSorting();
     } else if (wordObj.type === 'type-lp') {
         wordDisplay.classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '🖼️';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '🖼️', wordObj); else document.getElementById('emoji-display').textContent = '🖼️';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_labeling');
         const lp = document.getElementById('labeling-container');
         lp.classList.remove('hidden');
@@ -423,7 +423,7 @@ function showNextWord() {
         renderLabeling();
     } else if (wordObj.type === 'type-bb') {
         wordDisplay.classList.add('hidden');
-        document.getElementById('emoji-display').textContent = '📥';
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', '📥', wordObj); else document.getElementById('emoji-display').textContent = '📥';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_word_bank');
         const bb = document.getElementById('word-bank-container');
         bb.classList.remove('hidden');
@@ -433,7 +433,7 @@ function showNextWord() {
         // type-op (opposite)
         wordObj.type = 'type-op';
         wordDisplay.textContent = wordObj.word;
-        document.getElementById('emoji-display').textContent = wordObj.emoji;
+        if (window.cosyDays && window.cosyDays.updateVisual) window.cosyDays.updateVisual('emoji-display', wordObj.emoji, wordObj); else document.getElementById('emoji-display').textContent = wordObj.emoji;
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
         oppositeInput.classList.remove('hidden');
         oppositeInput.style.display = 'flex';

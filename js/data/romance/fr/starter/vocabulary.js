@@ -368,6 +368,7 @@
     },
     {
         "word": "école",
+        "image": "images/vocabulary/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "l'",
@@ -849,6 +850,7 @@
     },
     {
         "word": "maison",
+        "image": "images/vocabulary/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -4333,6 +4335,7 @@
     },
     {
         "word": "bain",
+        "image": "images/vocabulary/take.have a bath.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
@@ -4947,6 +4950,7 @@
     },
     {
         "word": "travail",
+        "image": "images/vocabulary/go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "le",
@@ -5567,6 +5571,7 @@
     },
     {
         "word": "petit-déjeuner",
+        "image": "images/vocabulary/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -5587,6 +5592,7 @@
     },
     {
         "word": "goûter",
+        "image": "images/vocabulary/have a snack.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -6827,6 +6833,7 @@
     },
     {
         "word": "douche",
+        "image": "images/vocabulary/take.have a shower.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -8167,6 +8174,7 @@
     },
     {
         "word": "déjeuner",
+        "image": "images/vocabulary/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -8187,6 +8195,7 @@
     },
     {
         "word": "dîner",
+        "image": "images/vocabulary/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",

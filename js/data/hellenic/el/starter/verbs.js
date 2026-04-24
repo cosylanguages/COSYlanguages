@@ -1048,6 +1048,7 @@
     },
     {
         "word": "τρώω",
+        "image": "images/vocabulary/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1076,6 +1077,7 @@
     },
     {
         "word": "πίνω",
+        "image": "images/vocabulary/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1100,6 +1102,7 @@
     },
     {
         "word": "κοιμάμαι",
+        "image": "images/vocabulary/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1124,6 +1127,7 @@
     },
     {
         "word": "μαγειρεύω",
+        "image": "images/vocabulary/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1695,6 +1699,7 @@
     },
     {
         "word": "ξυπνάω",
+        "image": "images/vocabulary/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2657,6 +2662,7 @@
     },
     {
         "word": "σηκώνομαι",
+        "image": "images/vocabulary/get up.png",
         "definitions": [
             {
                 "text": "Σηκώνομαι από το κρεβάτι αφού ξυπνήσω.",
@@ -2678,6 +2684,7 @@
     },
     {
         "word": "τρώω πρωινό",
+        "image": "images/vocabulary/have breakfast.png",
         "definitions": [
             {
                 "text": "Παίρνω το πρωινό γεύμα.",
@@ -2727,6 +2734,7 @@
     },
     {
         "word": "πέφτω για ύπνο",
+        "image": "images/vocabulary/go to bed.png",
         "definitions": [
             {
                 "text": "Μπαίνω στο κρεβάτι για να κοιμηθώ.",

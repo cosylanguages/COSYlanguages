@@ -263,6 +263,19 @@
         }
     }
 
+    function updateVisual(containerId, fallbackEmoji, wordObj) {
+        const el = document.getElementById(containerId);
+        if (!el) return;
+        if (wordObj && wordObj.image) {
+            el.innerHTML = `<img src="${wordObj.image}" style="width: 100%; height: 100%; object-fit: contain; max-height: 200px;" alt="">`;
+            el.classList.add('has-image');
+        } else {
+            el.textContent = fallbackEmoji || (wordObj ? wordObj.emoji : '💡');
+            el.innerHTML = el.textContent; // Clear any old img
+            el.classList.remove('has-image');
+        }
+    }
+
     // ── Dashboard Core ──────────────────────────────────
 
     async function initDashboard() {
@@ -412,6 +425,8 @@
                     synonyms: found.synonyms || [],
                     countability: found.countability || '',
                     v3: found.v3 || '',
+                    image: found.image || '',
+                    emoji: found.emoji || '',
                     type: source.type
                 };
             }
@@ -795,7 +810,10 @@
                         return `
                         <tr>
                             <td class="content-l">
-                                <strong class="vc-word-title">${w.w}</strong> ${badges.join('')}
+                                <div style="display: flex; align-items: center; gap: 10px;">
+                                    ${w.image ? `<img src="${w.image}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; background: rgba(0,0,0,0.03);" alt="">` : (w.emoji ? `<span style="font-size: 1.2rem;">${w.emoji}</span>` : '')}
+                                    <strong class="vc-word-title">${w.w}</strong> ${badges.join('')}
+                                </div>
                                 ${w.subtext ? `<div style="font-size: 0.7rem; color: var(--muted); margin-top: 2px;">${w.subtext}</div>` : ''}
                                 ${w.synonyms && w.synonyms.length ? `<div style="font-size: 0.65rem; color: var(--teal-dk); opacity: 0.7; margin-top: 1px;">≈ ${w.synonyms.join(', ')}</div>` : ''}
                             </td>
@@ -1264,6 +1282,7 @@
         showToast,
         copyText,
         speakText,
-        resolveWord
+        resolveWord,
+        updateVisual
     };
 })();

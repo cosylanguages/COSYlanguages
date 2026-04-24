@@ -155,23 +155,23 @@ function showWordDefinition() {
         const header = document.createElement('div');
         header.className = 'definition-header';
 
-        // Visual asset logic (Emoji priority, then Image)
+        // Visual asset logic (Image priority, then Emoji)
         const imgContainer = document.createElement('div');
         imgContainer.className = 'definition-image-container';
         const displayWord = wordObj.word || wordObj.text || wordObj.topic || "";
 
-        if (wordObj.emoji) {
-            const emojiEl = document.createElement('div');
-            emojiEl.className = 'definition-emoji-large';
-            emojiEl.textContent = wordObj.emoji;
-            imgContainer.appendChild(emojiEl);
-            header.appendChild(imgContainer);
-        } else if (wordObj.image) {
+        if (wordObj.image) {
             const img = document.createElement('img');
             img.className = 'definition-image';
             img.src = wordObj.image;
             img.alt = displayWord;
             imgContainer.appendChild(img);
+            header.appendChild(imgContainer);
+        } else if (wordObj.emoji) {
+            const emojiEl = document.createElement('div');
+            emojiEl.className = 'definition-emoji-large';
+            emojiEl.textContent = wordObj.emoji;
+            imgContainer.appendChild(emojiEl);
             header.appendChild(imgContainer);
         }
 
