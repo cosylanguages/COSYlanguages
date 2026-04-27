@@ -1,7 +1,16 @@
 (function() {
     const data = [
-
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "médico",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -20,7 +29,7 @@
         "transcription": "ˈmédico",
         "countability": "countable"
     },
-    {
+{
         "word": "pé",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -39,7 +48,7 @@
         "transcription": "ˈpé",
         "countability": "countable"
     },
-    {
+{
         "word": "professor",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -58,7 +67,7 @@
         "transcription": "ˈprofessor",
         "countability": "countable"
     },
-    {
+{
         "word": "pizza",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -77,7 +86,7 @@
         "transcription": "ˈpizza",
         "countability": "countable"
     },
-    {
+{
         "word": "massa",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -96,7 +105,7 @@
         "transcription": "ˈmassa",
         "countability": "countable"
     },
-    {
+{
         "word": "maçã",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -115,7 +124,7 @@
         "transcription": "ˈmaçã",
         "countability": "countable"
     },
-    {
+{
         "word": "pão",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -134,7 +143,7 @@
         "transcription": "ˈpão",
         "countability": "countable"
     },
-    {
+{
         "word": "ovo",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -153,7 +162,7 @@
         "transcription": "ˈovo",
         "countability": "countable"
     },
-    {
+{
         "word": "leite",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -172,7 +181,7 @@
         "transcription": "ˈleite",
         "countability": "countable"
     },
-    {
+{
         "word": "banana",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -191,7 +200,7 @@
         "transcription": "ˈbanana",
         "countability": "countable"
     },
-    {
+{
         "word": "café",
         "level": "starter",
         "theme": "drinks_A1",
@@ -210,7 +219,7 @@
         "transcription": "ˈcafé",
         "countability": "countable"
     },
-    {
+{
         "word": "chá",
         "level": "starter",
         "theme": "drinks_A1",
@@ -229,7 +238,7 @@
         "transcription": "ˈchá",
         "countability": "countable"
     },
-    {
+{
         "word": "água",
         "level": "starter",
         "theme": "drinks_A1",
@@ -246,7 +255,7 @@
         "transcription": "ˈágua",
         "countability": "countable"
     },
-    {
+{
         "word": "escola",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -265,7 +274,7 @@
         "transcription": "ˈescola",
         "countability": "countable"
     },
-    {
+{
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -284,7 +293,7 @@
         "transcription": "ˈt-shirt",
         "countability": "countable"
     },
-    {
+{
         "word": "calças",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -303,7 +312,7 @@
         "transcription": "ˈcalças",
         "countability": "countable"
     },
-    {
+{
         "word": "sapato",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -320,7 +329,7 @@
         "transcription": "ˈsapato",
         "countability": "countable"
     },
-    {
+{
         "word": "chapéu",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -339,7 +348,7 @@
         "transcription": "ˈchapéu",
         "countability": "countable"
     },
-    {
+{
         "word": "cadeira",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -358,7 +367,7 @@
         "transcription": "kɐ.ˈðej.ɾɐ",
         "countability": "countable"
     },
-    {
+{
         "word": "mesa",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -377,7 +386,7 @@
         "transcription": "ˈme.zɐ",
         "countability": "countable"
     },
-    {
+{
         "word": "cama",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -396,7 +405,7 @@
         "transcription": "ˈkɐ.mɐ",
         "countability": "countable"
     },
-    {
+{
         "word": "chave",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -415,7 +424,7 @@
         "transcription": "ˈʃa.vɨ",
         "countability": "countable"
     },
-    {
+{
         "word": "telefone",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -434,7 +443,7 @@
         "transcription": "ˈtelefone",
         "countability": "countable"
     },
-    {
+{
         "word": "livro",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -453,7 +462,7 @@
         "transcription": "ˈli.vɾu",
         "countability": "countable"
     },
-    {
+{
         "word": "mala",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -472,7 +481,7 @@
         "transcription": "ˈmala",
         "countability": "countable"
     },
-    {
+{
         "word": "caneta",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -489,7 +498,7 @@
         "transcription": "ˈcaneta",
         "countability": "countable"
     },
-    {
+{
         "word": "gato",
         "level": "starter",
         "theme": "animals_A1",
@@ -506,7 +515,7 @@
         "transcription": "ˈgato",
         "countability": "countable"
     },
-    {
+{
         "word": "cão",
         "level": "starter",
         "theme": "animals_A1",
@@ -523,7 +532,7 @@
         "transcription": "ˈcão",
         "countability": "countable"
     },
-    {
+{
         "word": "mão",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -542,7 +551,7 @@
         "transcription": "ˈmão",
         "countability": "countable"
     },
-    {
+{
         "word": "perna",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -561,7 +570,7 @@
         "transcription": "ˈperna",
         "countability": "countable"
     },
-    {
+{
         "word": "olho",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -580,7 +589,7 @@
         "transcription": "ˈolho",
         "countability": "countable"
     },
-    {
+{
         "word": "nariz",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -599,7 +608,7 @@
         "transcription": "ˈnariz",
         "countability": "countable"
     },
-    {
+{
         "word": "boca",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -618,7 +627,7 @@
         "transcription": "ˈboca",
         "countability": "countable"
     },
-    {
+{
         "word": "orelha",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -637,7 +646,7 @@
         "transcription": "ˈorelha",
         "countability": "countable"
     },
-    {
+{
         "word": "mãe",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -656,7 +665,7 @@
         "transcription": "ˈmãe",
         "countability": "countable"
     },
-    {
+{
         "word": "pai",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -675,7 +684,7 @@
         "transcription": "ˈpai",
         "countability": "countable"
     },
-    {
+{
         "word": "trabalho",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -694,7 +703,7 @@
         "transcription": "ˈtrabalho",
         "countability": "countable"
     },
-    {
+{
         "word": "casa",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -713,7 +722,7 @@
         "transcription": "ˈcasa",
         "countability": "countable"
     },
-    {
+{
         "word": "carro",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -732,7 +741,7 @@
         "transcription": "ˈcarro",
         "countability": "countable"
     },
-    {
+{
         "word": "autocarro",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -751,7 +760,7 @@
         "transcription": "ˈautocarro",
         "countability": "countable"
     },
-    {
+{
         "word": "comboio",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -768,7 +777,7 @@
         "transcription": "ˈcomboio",
         "countability": "countable"
     },
-    {
+{
         "word": "dinheiro",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -785,7 +794,7 @@
         "transcription": "di.ˈɲɐj.ɾu",
         "countability": "countable"
     },
-    {
+{
         "word": "loja",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -802,7 +811,7 @@
         "transcription": "ˈloja",
         "countability": "countable"
     },
-    {
+{
         "word": "família",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -819,7 +828,7 @@
         "transcription": "ˈfamília",
         "countability": "countable"
     },
-    {
+{
         "word": "amigo",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -838,7 +847,7 @@
         "transcription": "ˈamigo",
         "countability": "countable"
     },
-    {
+{
         "word": "dia",
         "level": "starter",
         "theme": "times_day_A1",
@@ -855,7 +864,7 @@
         "transcription": "ˈdia",
         "countability": "countable"
     },
-    {
+{
         "word": "semana",
         "level": "starter",
         "theme": "times_day_A1",
@@ -874,7 +883,7 @@
         "transcription": "ˈsemana",
         "countability": "countable"
     },
-    {
+{
         "word": "comida",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -893,7 +902,7 @@
         "transcription": "ˈcomida",
         "countability": "countable"
     },
-    {
+{
         "word": "pequeno-almoço",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -910,7 +919,7 @@
         "transcription": "ˈpequeno-almoço",
         "countability": "countable"
     },
-    {
+{
         "word": "almoço",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -927,7 +936,7 @@
         "transcription": "ˈalmoço",
         "countability": "countable"
     },
-    {
+{
         "word": "jantar",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -946,7 +955,7 @@
         "transcription": "ˈjantar",
         "countability": "countable"
     },
-    {
+{
         "word": "manhã",
         "level": "starter",
         "theme": "times_day_A1",
@@ -965,7 +974,7 @@
         "transcription": "ˈmanhã",
         "countability": "countable"
     },
-    {
+{
         "word": "tarde",
         "level": "starter",
         "theme": "times_day_A1",
@@ -984,7 +993,7 @@
         "transcription": "ˈtarde",
         "countability": "countable"
     },
-    {
+{
         "word": "noite",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1001,7 +1010,7 @@
         "transcription": "ˈnoite",
         "countability": "countable"
     },
-    {
+{
         "word": "hoje",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1018,7 +1027,7 @@
         "transcription": "ˈhoje",
         "countability": "countable"
     },
-    {
+{
         "word": "amanhã",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1035,7 +1044,7 @@
         "transcription": "ˈamanhã",
         "countability": "countable"
     },
-    {
+{
         "word": "marido",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1052,7 +1061,7 @@
         "transcription": "ˈmarido",
         "countability": "countable"
     },
-    {
+{
         "word": "mulher",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1069,7 +1078,7 @@
         "transcription": "ˈmulher",
         "countability": "countable"
     },
-    {
+{
         "word": "criança",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1086,7 +1095,7 @@
         "transcription": "ˈcriança",
         "countability": "countable"
     },
-    {
+{
         "word": "sol",
         "level": "starter",
         "theme": "weather_A1",
@@ -1103,7 +1112,7 @@
         "transcription": "ˈsol",
         "countability": "countable"
     },
-    {
+{
         "word": "chuva",
         "level": "starter",
         "theme": "weather_A1",
@@ -1120,7 +1129,7 @@
         "transcription": "ˈchuva",
         "countability": "countable"
     },
-    {
+{
         "word": "sim",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1141,7 +1150,7 @@
             "não"
         ]
     },
-    {
+{
         "word": "não",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1162,7 +1171,7 @@
             "sim"
         ]
     },
-    {
+{
         "word": "quem",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1181,7 +1190,7 @@
         "subtext": "pronome interrogativo",
         "antonyms": []
     },
-    {
+{
         "word": "onde",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1200,7 +1209,7 @@
         "subtext": "advérbio interrogativo",
         "antonyms": []
     },
-    {
+{
         "word": "quando",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1219,7 +1228,7 @@
         "subtext": "advérbio interrogativo",
         "antonyms": []
     },
-    {
+{
         "word": "cidade",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1243,7 +1252,7 @@
             "campo"
         ]
     },
-    {
+{
         "word": "mapa",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -1267,7 +1276,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "presente",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1293,7 +1302,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bolsa",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1307,7 +1316,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "porta",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1321,7 +1330,7 @@
         ],
         "transcription": "ˈpɔɾ.tɐ"
     },
-    {
+{
         "word": "janela",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1335,7 +1344,7 @@
         ],
         "transcription": "ʒɐ.ˈnɛ.lɐ"
     },
-    {
+{
         "word": "prato",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1349,7 +1358,7 @@
         ],
         "transcription": "ˈpɾa.tu"
     },
-    {
+{
         "word": "chávena",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1363,7 +1372,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "copo",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1377,7 +1386,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "garfo",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1391,7 +1400,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "colher",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1405,7 +1414,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "faca",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1419,7 +1428,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "secretária",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1433,7 +1442,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "lâmpada",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1447,7 +1456,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "relógio",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1461,7 +1470,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "espelho",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1475,7 +1484,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "garrafa",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1489,7 +1498,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "caixa",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1503,7 +1512,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "lápis",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1517,7 +1526,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "papel",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1531,7 +1540,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "frigorífico",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1545,7 +1554,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "forno",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1559,7 +1568,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "sabão",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1573,7 +1582,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "toalha",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1587,7 +1596,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "sofá",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1601,7 +1610,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "estante",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1615,7 +1624,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "escova de dentes",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1629,7 +1638,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "pasta de dentes",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1643,7 +1652,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "champô",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1657,7 +1666,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "pente",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1671,7 +1680,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "armário",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1685,7 +1694,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "parede",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1699,7 +1708,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "chão",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1713,7 +1722,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "telhado",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1727,7 +1736,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "jardim",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1741,7 +1750,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "por favor",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -1755,7 +1764,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "obrigado",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -1769,7 +1778,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "olá",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -1783,7 +1792,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "adeus",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -1797,7 +1806,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "com licença",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -1811,7 +1820,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "bem-vindo",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -1825,7 +1834,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "o quê",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1839,7 +1848,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "porquê",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1853,7 +1862,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "como",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1867,7 +1876,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "quantos",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1881,7 +1890,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "país",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1895,7 +1904,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "montanha",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1909,7 +1918,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "mar",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1923,7 +1932,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "rio",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1937,7 +1946,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "praia",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1951,7 +1960,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "floresta",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1965,7 +1974,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "rua",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1979,7 +1988,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "parque",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -1993,7 +2002,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "ponte",
         "level": "starter",
         "theme": "places_geography_A1",
@@ -2007,7 +2016,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "preço",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2021,7 +2030,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "recibo",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2035,7 +2044,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "mercado",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2049,7 +2058,7 @@
         ],
         "transcription": ""
     },
-    {
+{
         "word": "cartão",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2062,10 +2071,8 @@
             }
         ],
         "transcription": ""
-    }
-]
-    const lang = "pt";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{}
+];
 
 })();

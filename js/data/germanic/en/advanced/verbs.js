@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+{
             "word": "interrogate",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -22,7 +22,7 @@
             "v3": "interrogated",
             "group": "regular"
         },
-        {
+{
             "word": "problematise",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -44,7 +44,7 @@
             "v3": "problematised",
             "group": "regular"
         },
-        {
+{
             "word": "contextualise",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -66,7 +66,7 @@
             "v3": "contextualised",
             "group": "regular"
         },
-        {
+{
             "word": "theorise",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -88,7 +88,7 @@
             "v3": "theorised",
             "group": "regular"
         },
-        {
+{
             "word": "elucidate",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -110,7 +110,7 @@
             "v3": "elucidated",
             "group": "regular"
         },
-        {
+{
             "word": "posit",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -132,7 +132,7 @@
             "v3": "posited",
             "group": "regular"
         },
-        {
+{
             "word": "extrapolate",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -154,7 +154,7 @@
             "v3": "extrapolated",
             "group": "regular"
         },
-        {
+{
             "word": "hypothesise",
             "level": "advanced",
             "theme": "knowledge_epistemology_C1",
@@ -176,7 +176,7 @@
             "v3": "hypothesised",
             "group": "regular"
         },
-        {
+{
             "word": "coerce",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -198,7 +198,7 @@
             "v3": "coerced",
             "group": "regular"
         },
-        {
+{
             "word": "manipulate",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -220,7 +220,7 @@
             "v3": "manipulated",
             "group": "regular"
         },
-        {
+{
             "word": "undermine",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -242,7 +242,7 @@
             "v3": "undermined",
             "group": "regular"
         },
-        {
+{
             "word": "legitimise",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -264,7 +264,7 @@
             "v3": "legitimised",
             "group": "regular"
         },
-        {
+{
             "word": "co-opt",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -286,7 +286,7 @@
             "v3": "co-opted",
             "group": "regular"
         },
-        {
+{
             "word": "exert",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -308,7 +308,7 @@
             "v3": "exerted",
             "group": "regular"
         },
-        {
+{
             "word": "consolidate",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -330,7 +330,7 @@
             "v3": "consolidated",
             "group": "regular"
         },
-        {
+{
             "word": "compel",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -352,7 +352,7 @@
             "v3": "compelled",
             "group": "regular"
         },
-        {
+{
             "word": "perpetuate",
             "level": "advanced",
             "theme": "sociology_structures_C1",
@@ -374,7 +374,7 @@
             "v3": "perpetuated",
             "group": "regular"
         },
-        {
+{
             "word": "normalise",
             "level": "advanced",
             "theme": "sociology_structures_C1",
@@ -396,7 +396,7 @@
             "v3": "normalised",
             "group": "regular"
         },
-        {
+{
             "word": "reinforce",
             "level": "advanced",
             "theme": "sociology_structures_C1",
@@ -418,7 +418,7 @@
             "v3": "reinforced",
             "group": "regular"
         },
-        {
+{
             "word": "resist",
             "level": "advanced",
             "theme": "sociology_structures_C1",
@@ -440,7 +440,7 @@
             "v3": "resisted",
             "group": "regular"
         },
-        {
+{
             "word": "challenge",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -462,7 +462,7 @@
             "v3": "challenged",
             "group": "regular"
         },
-        {
+{
             "word": "endorse",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -484,7 +484,7 @@
             "v3": "endorsed",
             "group": "regular"
         },
-        {
+{
             "word": "internalise",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -506,7 +506,7 @@
             "v3": "internalised",
             "group": "regular"
         },
-        {
+{
             "word": "project",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -528,7 +528,7 @@
             "v3": "projected",
             "group": "regular"
         },
-        {
+{
             "word": "rationalise",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -550,7 +550,7 @@
             "v3": "rationalised",
             "group": "regular"
         },
-        {
+{
             "word": "suppress",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -572,7 +572,7 @@
             "v3": "suppressed",
             "group": "regular"
         },
-        {
+{
             "word": "repress",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -594,7 +594,7 @@
             "v3": "repressed",
             "group": "regular"
         },
-        {
+{
             "word": "displace",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -616,7 +616,7 @@
             "v3": "displaced",
             "group": "regular"
         },
-        {
+{
             "word": "nuance",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -638,7 +638,7 @@
             "v3": "nuanced",
             "group": "regular"
         },
-        {
+{
             "word": "qualify",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -660,7 +660,7 @@
             "v3": "qualified",
             "group": "regular"
         },
-        {
+{
             "word": "reconcile",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -682,7 +682,7 @@
             "v3": "reconciled",
             "group": "regular"
         },
-        {
+{
             "word": "unpack",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -704,7 +704,7 @@
             "v3": "unpacked",
             "group": "regular"
         },
-        {
+{
             "word": "articulate",
             "level": "advanced",
             "theme": "language_persuasion_C1",
@@ -726,7 +726,7 @@
             "v3": "articulated",
             "group": "regular"
         },
-        {
+{
             "word": "elaborate",
             "level": "advanced",
             "theme": "language_persuasion_C1",
@@ -748,7 +748,7 @@
             "v3": "elaborated",
             "group": "regular"
         },
-        {
+{
             "word": "abolish",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -770,7 +770,7 @@
             "v3": "abolished",
             "group": "regular"
         },
-        {
+{
             "word": "accelerate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -792,7 +792,7 @@
             "v3": "accelerated",
             "group": "regular"
         },
-        {
+{
             "word": "adhere",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -814,7 +814,7 @@
             "v3": "adhered",
             "group": "regular"
         },
-        {
+{
             "word": "advocate",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -836,7 +836,7 @@
             "v3": "advocated",
             "group": "regular"
         },
-        {
+{
             "word": "allocate",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -858,7 +858,7 @@
             "v3": "allocated",
             "group": "regular"
         },
-        {
+{
             "word": "amend",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -880,7 +880,7 @@
             "v3": "amended",
             "group": "regular"
         },
-        {
+{
             "word": "assert",
             "level": "advanced",
             "theme": "language_persuasion_C1",
@@ -902,7 +902,7 @@
             "v3": "asserted",
             "group": "regular"
         },
-        {
+{
             "word": "attain",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -924,7 +924,7 @@
             "v3": "attained",
             "group": "regular"
         },
-        {
+{
             "word": "cease",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -946,7 +946,7 @@
             "v3": "ceased",
             "group": "regular"
         },
-        {
+{
             "word": "characterise",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -968,7 +968,7 @@
             "v3": "characterised",
             "group": "regular"
         },
-        {
+{
             "word": "commission",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -990,7 +990,7 @@
             "v3": "commissioned",
             "group": "regular"
         },
-        {
+{
             "word": "comprise",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1012,7 +1012,7 @@
             "v3": "comprised",
             "group": "regular"
         },
-        {
+{
             "word": "conceal",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1034,7 +1034,7 @@
             "v3": "concealed",
             "group": "regular"
         },
-        {
+{
             "word": "confront",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -1056,7 +1056,7 @@
             "v3": "confronted",
             "group": "regular"
         },
-        {
+{
             "word": "contemplate",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -1078,7 +1078,7 @@
             "v3": "contemplated",
             "group": "regular"
         },
-        {
+{
             "word": "contend",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -1100,7 +1100,7 @@
             "v3": "contended",
             "group": "regular"
         },
-        {
+{
             "word": "convey",
             "level": "advanced",
             "theme": "language_persuasion_C1",
@@ -1122,7 +1122,7 @@
             "v3": "conveyed",
             "group": "regular"
         },
-        {
+{
             "word": "cultivate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1144,7 +1144,7 @@
             "v3": "cultivated",
             "group": "regular"
         },
-        {
+{
             "word": "denounce",
             "level": "advanced",
             "theme": "power_institutions_C1",
@@ -1166,7 +1166,7 @@
             "v3": "denounced",
             "group": "regular"
         },
-        {
+{
             "word": "devote",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1188,7 +1188,7 @@
             "v3": "devoted",
             "group": "regular"
         },
-        {
+{
             "word": "embrace",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1210,7 +1210,7 @@
             "v3": "embraced",
             "group": "regular"
         },
-        {
+{
             "word": "facilitate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1232,7 +1232,7 @@
             "v3": "facilitated",
             "group": "regular"
         },
-        {
+{
             "word": "generate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1254,7 +1254,7 @@
             "v3": "generated",
             "group": "regular"
         },
-        {
+{
             "word": "hinder",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1276,7 +1276,7 @@
             "v3": "hindered",
             "group": "regular"
         },
-        {
+{
             "word": "initiate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1298,7 +1298,7 @@
             "v3": "initiated",
             "group": "regular"
         },
-        {
+{
             "word": "mitigate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1320,7 +1320,7 @@
             "v3": "mitigated",
             "group": "regular"
         },
-        {
+{
             "word": "negotiate",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1342,7 +1342,7 @@
             "v3": "negotiated",
             "group": "regular"
         },
-        {
+{
             "word": "give way to",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1364,7 +1364,7 @@
             "v3": "given way to",
             "group": "irregular"
         },
-        {
+{
             "word": "set out",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -1386,7 +1386,7 @@
             "v3": "set out",
             "group": "irregular"
         },
-        {
+{
             "word": "bear out",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -1408,7 +1408,7 @@
             "v3": "borne out",
             "group": "irregular"
         },
-        {
+{
             "word": "bring about",
             "level": "advanced",
             "theme": "advanced_register_C1",
@@ -1430,7 +1430,7 @@
             "v3": "brought about",
             "group": "irregular"
         },
-        {
+{
             "word": "call into question",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -1452,7 +1452,7 @@
             "v3": "called into question",
             "group": "regular"
         },
-        {
+{
             "word": "commodify",
             "level": "advanced",
             "theme": "sociology_structures_C1",
@@ -1474,7 +1474,7 @@
             "v3": "commodified",
             "group": "regular"
         },
-        {
+{
             "word": "instrumentalise",
             "level": "advanced",
             "theme": "moral_philosophy_C1",
@@ -1496,7 +1496,7 @@
             "v3": "instrumentalised",
             "group": "regular"
         },
-        {
+{
             "word": "sublimate",
             "level": "advanced",
             "theme": "psychological_states_C1",
@@ -1518,7 +1518,7 @@
             "v3": "sublimated",
             "group": "regular"
         },
-        {
+{
             "word": "elide",
             "level": "advanced",
             "theme": "discourse_argument_C1",
@@ -1540,7 +1540,7 @@
             "v3": "elided",
             "group": "regular"
         },
-        {
+{
             "word": "valorise",
             "level": "advanced",
             "theme": "sociology_structures_C1",
@@ -1561,11 +1561,8 @@
             "v2": "valorised",
             "v3": "valorised",
             "group": "regular"
-        }
-    ];
-    const lang = "en";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        },
+{},
+{}
+];
 })();

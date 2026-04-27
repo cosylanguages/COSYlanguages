@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "κήπος",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "μηχανικός",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -17,7 +27,7 @@
             }
         ]
     },
-    {
+{
         "word": "πιλότος",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -34,7 +44,7 @@
             }
         ]
     },
-    {
+{
         "word": "προγραμματιστής",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -51,7 +61,7 @@
             }
         ]
     },
-    {
+{
         "word": "καριέρα",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -68,7 +78,7 @@
             }
         ]
     },
-    {
+{
         "word": "απόλυση",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -85,7 +95,7 @@
             }
         ]
     },
-    {
+{
         "word": "ευέλικτο ωράριο",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -102,7 +112,7 @@
             }
         ]
     },
-    {
+{
         "word": "δικτύωση",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -121,7 +131,7 @@
             }
         ]
     },
-    {
+{
         "word": "φόρτος εργασίας",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -138,7 +148,7 @@
             }
         ]
     },
-    {
+{
         "word": "ομαδική εργασία",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -155,7 +165,7 @@
             }
         ]
     },
-    {
+{
         "word": "φιλοδοξία",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -172,7 +182,7 @@
             }
         ]
     },
-    {
+{
         "word": "δεξιότητα",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -191,7 +201,7 @@
             }
         ]
     },
-    {
+{
         "word": "άδεια μητρότητας",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -208,7 +218,7 @@
             }
         ]
     },
-    {
+{
         "word": "σύνταξη",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -225,7 +235,7 @@
             }
         ]
     },
-    {
+{
         "word": "επένδυση",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -242,7 +252,7 @@
             }
         ]
     },
-    {
+{
         "word": "επιτόκιο",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -259,7 +269,7 @@
             }
         ]
     },
-    {
+{
         "word": "εισόδημα",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -276,7 +286,7 @@
             }
         ]
     },
-    {
+{
         "word": "ασφάλεια",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -293,7 +303,7 @@
             }
         ]
     },
-    {
+{
         "word": "φόρος",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -310,7 +320,7 @@
             }
         ]
     },
-    {
+{
         "word": "ευεξία",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -326,7 +336,7 @@
             }
         ]
     },
-    {
+{
         "word": "ψυχική υγεία",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -343,7 +353,7 @@
             }
         ]
     },
-    {
+{
         "word": "εξουθένωση",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -362,7 +372,7 @@
             }
         ]
     },
-    {
+{
         "word": "πρόληψη",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -379,7 +389,7 @@
             }
         ]
     },
-    {
+{
         "word": "σύμπτωμα",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -396,7 +406,7 @@
             }
         ]
     },
-    {
+{
         "word": "θεραπεία",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -413,7 +423,7 @@
             }
         ]
     },
-    {
+{
         "word": "εμπιστοσύνη",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -429,7 +439,7 @@
             }
         ]
     },
-    {
+{
         "word": "σύγκρουση",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -446,7 +456,7 @@
             }
         ]
     },
-    {
+{
         "word": "ευθύνη",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
@@ -465,7 +475,7 @@
             }
         ]
     },
-    {
+{
         "word": "προσδοκία",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -482,7 +492,7 @@
             }
         ]
     },
-    {
+{
         "word": "όριο",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -499,7 +509,7 @@
             }
         ]
     },
-    {
+{
         "word": "διαζύγιο",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -516,7 +526,7 @@
             }
         ]
     },
-    {
+{
         "word": "ισότητα",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -533,7 +543,7 @@
             }
         ]
     },
-    {
+{
         "word": "ελευθερία",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -550,7 +560,7 @@
             }
         ]
     },
-    {
+{
         "word": "ανισότητα",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -568,7 +578,7 @@
             }
         ]
     },
-    {
+{
         "word": "εθελοντής",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -585,7 +595,7 @@
             }
         ]
     },
-    {
+{
         "word": "κοινότητα",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -602,7 +612,7 @@
             }
         ]
     },
-    {
+{
         "word": "γενιά",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -619,7 +629,7 @@
             }
         ]
     },
-    {
+{
         "word": "κλιματική αλλαγή",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -636,7 +646,7 @@
             }
         ]
     },
-    {
+{
         "word": "ανανεώσιμη ενέργεια",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -653,7 +663,7 @@
             }
         ]
     },
-    {
+{
         "word": "ανθρακικό αποτύπωμα",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -670,7 +680,7 @@
             }
         ]
     },
-    {
+{
         "word": "απόβλητα",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -688,7 +698,7 @@
             }
         ]
     },
-    {
+{
         "word": "ωστόσο",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -705,7 +715,7 @@
             }
         ]
     },
-    {
+{
         "word": "αν και",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -722,7 +732,7 @@
             }
         ]
     },
-    {
+{
         "word": "από την άλλη πλευρά",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -737,7 +747,7 @@
             }
         ]
     },
-    {
+{
         "word": "κατά τη γνώμη μου",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -752,7 +762,7 @@
             }
         ]
     },
-    {
+{
         "word": "ως αποτέλεσμα",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -769,7 +779,7 @@
             }
         ]
     },
-    {
+{
         "word": "σουβλάκι",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -786,7 +796,7 @@
             }
         ]
     },
-    {
+{
         "word": "ούζο",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -803,7 +813,7 @@
             }
         ]
     },
-    {
+{
         "word": "βιβλιοθήκη",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -820,7 +830,7 @@
             }
         ]
     },
-    {
+{
         "word": "μουσείο",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -837,7 +847,7 @@
             }
         ]
     },
-    {
+{
         "word": "αεροδρόμιο",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -854,7 +864,7 @@
             }
         ]
     },
-    {
+{
         "word": "ντουλάπα",
         "level": "intermediate",
         "theme": "home_living",
@@ -871,7 +881,7 @@
             }
         ]
     },
-    {
+{
         "word": "ελέφαντας",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -888,7 +898,7 @@
             }
         ]
     },
-    {
+{
         "word": "μαϊμού",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -904,9 +914,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "el";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

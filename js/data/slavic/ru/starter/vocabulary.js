@@ -422,6 +422,25 @@
         "subtext": ""
     },
 {
+        "word": "парк",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "gender": "он",
+        "emoji": "🌳",
+        "form": "noun",
+        "plural": "парки",
+        "definitions": [
+            {
+                "text": "Общественный сад для прогулок.",
+                "examples": [
+                    "Давай погуляем в парке."
+                ]
+            }
+        ],
+        "countability": "countable",
+        "subtext": ""
+    },
+{
         "word": "школа",
         "image": "images/vocabulary/actions/go to school.png",
         "level": "starter",

@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "firefighter",
         "level": "advanced",
         "theme": "advanced_register_C1",
@@ -18,7 +28,7 @@
             }
         ]
     },
-    {
+{
         "word": "data scientist",
         "level": "advanced",
         "theme": "advanced_register_C1",
@@ -36,7 +46,7 @@
             }
         ]
     },
-    {
+{
         "word": "virtual reality",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -54,7 +64,7 @@
             }
         ]
     },
-    {
+{
         "word": "quantum mechanics",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -71,7 +81,7 @@
             }
         ]
     },
-    {
+{
         "word": "hegemony",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -88,7 +98,7 @@
             }
         ]
     },
-    {
+{
         "word": "ideology",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -106,7 +116,7 @@
             }
         ]
     },
-    {
+{
         "word": "intersectionality",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -123,7 +133,7 @@
             }
         ]
     },
-    {
+{
         "word": "meritocracy",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -141,7 +151,7 @@
             }
         ]
     },
-    {
+{
         "word": "neoliberalism",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -158,7 +168,7 @@
             }
         ]
     },
-    {
+{
         "word": "paradigm shift",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -176,7 +186,7 @@
             }
         ]
     },
-    {
+{
         "word": "discourse",
         "level": "advanced",
         "theme": "discourse_argument_C1",
@@ -193,7 +203,7 @@
             }
         ]
     },
-    {
+{
         "word": "stratification",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -210,7 +220,7 @@
             }
         ]
     },
-    {
+{
         "word": "social mobility",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -227,7 +237,7 @@
             }
         ]
     },
-    {
+{
         "word": "cultural capital",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -244,7 +254,7 @@
             }
         ]
     },
-    {
+{
         "word": "agency",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -261,7 +271,7 @@
             }
         ]
     },
-    {
+{
         "word": "subjectivity",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -278,7 +288,7 @@
             }
         ]
     },
-    {
+{
         "word": "objectivity",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -295,7 +305,7 @@
             }
         ]
     },
-    {
+{
         "word": "empirical evidence",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -312,7 +322,7 @@
             }
         ]
     },
-    {
+{
         "word": "epistemology",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -329,7 +339,7 @@
             }
         ]
     },
-    {
+{
         "word": "ontology",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -346,7 +356,7 @@
             }
         ]
     },
-    {
+{
         "word": "rhetoric",
         "level": "advanced",
         "theme": "rhetoric_persuasion_C1",
@@ -363,7 +373,7 @@
             }
         ]
     },
-    {
+{
         "word": "dialectic",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -380,7 +390,7 @@
             }
         ]
     },
-    {
+{
         "word": "synthesis",
         "level": "advanced",
         "theme": "knowledge_epistemology_C1",
@@ -398,7 +408,7 @@
             }
         ]
     },
-    {
+{
         "word": "thesis",
         "level": "advanced",
         "theme": "discourse_argument_C1",
@@ -416,7 +426,7 @@
             }
         ]
     },
-    {
+{
         "word": "antithesis",
         "level": "advanced",
         "theme": "discourse_argument_C1",
@@ -434,7 +444,7 @@
             }
         ]
     },
-    {
+{
         "word": "norm",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -452,7 +462,7 @@
             }
         ]
     },
-    {
+{
         "word": "deviance",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -469,7 +479,7 @@
             }
         ]
     },
-    {
+{
         "word": "alienation",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -486,7 +496,7 @@
             }
         ]
     },
-    {
+{
         "word": "commodity fetishism",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -503,7 +513,7 @@
             }
         ]
     },
-    {
+{
         "word": "reification",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -520,7 +530,7 @@
             }
         ]
     },
-    {
+{
         "word": "authenticity",
         "level": "advanced",
         "theme": "psychological_states_C1",
@@ -537,7 +547,7 @@
             }
         ]
     },
-    {
+{
         "word": "liminality",
         "level": "advanced",
         "theme": "psychological_states_C1",
@@ -554,7 +564,7 @@
             }
         ]
     },
-    {
+{
         "word": "paradigm",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -572,7 +582,7 @@
             }
         ]
     },
-    {
+{
         "word": "nuance",
         "level": "advanced",
         "theme": "language_persuasion_C1",
@@ -590,7 +600,7 @@
             }
         ]
     },
-    {
+{
         "word": "paradox",
         "level": "advanced",
         "theme": "discourse_argument_C1",
@@ -608,7 +618,7 @@
             }
         ]
     },
-    {
+{
         "word": "ambiguity",
         "level": "advanced",
         "theme": "language_persuasion_C1",
@@ -626,7 +636,7 @@
             }
         ]
     },
-    {
+{
         "word": "dichotomy",
         "level": "advanced",
         "theme": "discourse_argument_C1",
@@ -644,7 +654,7 @@
             }
         ]
     },
-    {
+{
         "word": "spectrum",
         "level": "advanced",
         "theme": "discourse_argument_C1",
@@ -662,7 +672,7 @@
             }
         ]
     },
-    {
+{
         "word": "infrastructure",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -680,7 +690,7 @@
             }
         ]
     },
-    {
+{
         "word": "superstructure",
         "level": "advanced",
         "theme": "sociology_structures_C1",
@@ -698,7 +708,7 @@
             }
         ]
     },
-    {
+{
         "word": "consensus",
         "level": "advanced",
         "theme": "language_persuasion_C1",
@@ -715,7 +725,7 @@
             }
         ]
     },
-    {
+{
         "word": "dissent",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -732,7 +742,7 @@
             }
         ]
     },
-    {
+{
         "word": "activism",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -749,7 +759,7 @@
             }
         ]
     },
-    {
+{
         "word": "advocacy",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -766,7 +776,7 @@
             }
         ]
     },
-    {
+{
         "word": "bureaucracy",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -784,7 +794,7 @@
             }
         ]
     },
-    {
+{
         "word": "centralization",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -801,7 +811,7 @@
             }
         ]
     },
-    {
+{
         "word": "decentralization",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -818,7 +828,7 @@
             }
         ]
     },
-    {
+{
         "word": "globalization",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -835,7 +845,7 @@
             }
         ]
     },
-    {
+{
         "word": "isolationism",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -852,7 +862,7 @@
             }
         ]
     },
-    {
+{
         "word": "protectionism",
         "level": "advanced",
         "theme": "power_institutions_C1",
@@ -869,7 +879,7 @@
             }
         ]
     },
-    {
+{
         "word": "sustainability",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -886,7 +896,7 @@
             }
         ]
     },
-    {
+{
         "word": "biodiversity",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -903,7 +913,7 @@
             }
         ]
     },
-    {
+{
         "word": "ecological footprint",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -921,7 +931,7 @@
             }
         ]
     },
-    {
+{
         "word": "renewable energy",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -937,9 +947,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "en";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "jardin",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "artiste",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -24,7 +34,7 @@
             }
         ]
     },
-    {
+{
         "word": "chef",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -48,7 +58,7 @@
             }
         ]
     },
-    {
+{
         "word": "infirmier",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -72,7 +82,7 @@
             }
         ]
     },
-    {
+{
         "word": "crêpe",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -95,7 +105,7 @@
             }
         ]
     },
-    {
+{
         "word": "fondue",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -118,7 +128,7 @@
             }
         ]
     },
-    {
+{
         "word": "fromage",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -142,7 +152,7 @@
             }
         ]
     },
-    {
+{
         "word": "riz",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -166,7 +176,7 @@
             }
         ]
     },
-    {
+{
         "word": "tomate",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -190,7 +200,7 @@
             }
         ]
     },
-    {
+{
         "word": "pomme de terre",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -214,7 +224,7 @@
             }
         ]
     },
-    {
+{
         "word": "vin",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -224,7 +234,7 @@
         "form": "noun",
         "plural": "vin"
     },
-    {
+{
         "word": "bière",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -234,7 +244,7 @@
         "form": "noun",
         "plural": "bière"
     },
-    {
+{
         "word": "hôpital",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -258,7 +268,7 @@
             }
         ]
     },
-    {
+{
         "word": "cinéma",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -282,7 +292,7 @@
             }
         ]
     },
-    {
+{
         "word": "restaurant",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -306,7 +316,7 @@
             }
         ]
     },
-    {
+{
         "word": "robe",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -315,7 +325,7 @@
         "form": "noun",
         "plural": "robes"
     },
-    {
+{
         "word": "veste",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -324,7 +334,7 @@
         "form": "noun",
         "plural": "vestes"
     },
-    {
+{
         "word": "jupe",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -333,7 +343,7 @@
         "form": "noun",
         "plural": "jupes"
     },
-    {
+{
         "word": "canapé",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -342,7 +352,7 @@
         "form": "noun",
         "plural": "canapés"
     },
-    {
+{
         "word": "lampe",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -351,7 +361,7 @@
         "form": "noun",
         "plural": "lampes"
     },
-    {
+{
         "word": "bureau",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -362,21 +372,21 @@
         "form": "noun",
         "plural": "bureaux"
     },
-    {
+{
         "word": "se brosser les dents",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
         "form": "noun"
     },
-    {
+{
         "word": "prendre une douche",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "noun"
     },
-    {
+{
         "word": "montre",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -400,7 +410,7 @@
             }
         ]
     },
-    {
+{
         "word": "portefeuille",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -418,7 +428,7 @@
             }
         ]
     },
-    {
+{
         "word": "lunettes",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -426,7 +436,7 @@
         "form": "noun",
         "plural": "lunettes"
     },
-    {
+{
         "word": "lion",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -435,7 +445,7 @@
         "form": "noun",
         "plural": "lions"
     },
-    {
+{
         "word": "tigre",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -444,7 +454,7 @@
         "form": "noun",
         "plural": "tigres"
     },
-    {
+{
         "word": "cheval",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -453,7 +463,7 @@
         "form": "noun",
         "plural": "chevaux"
     },
-    {
+{
         "word": "bras",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -462,7 +472,7 @@
         "form": "noun",
         "plural": "bras"
     },
-    {
+{
         "word": "université",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -478,7 +488,7 @@
             }
         ]
     },
-    {
+{
         "word": "cuisine locale",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -501,7 +511,7 @@
             }
         ]
     },
-    {
+{
         "word": "oiseau",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -513,98 +523,98 @@
         "form": "noun",
         "plural": "oiseaux"
     },
-    {
+{
         "word": "sembler",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🤔",
         "form": "verb"
     },
-    {
+{
         "word": "devenir",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🦋",
         "form": "verb"
     },
-    {
+{
         "word": "bouger",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb"
     },
-    {
+{
         "word": "croire",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb"
     },
-    {
+{
         "word": "se passer",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb"
     },
-    {
+{
         "word": "inclure",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb"
     },
-    {
+{
         "word": "continuer",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb"
     },
-    {
+{
         "word": "poser",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb"
     },
-    {
+{
         "word": "mener",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👑",
         "form": "verb"
     },
-    {
+{
         "word": "suivre",
         "level": "elementary",
         "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb"
     },
-    {
+{
         "word": "créer",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb"
     },
-    {
+{
         "word": "permettre",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb"
     },
-    {
+{
         "word": "grandir",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb"
     },
-    {
+{
         "word": "pollution",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -620,14 +630,14 @@
             }
         ]
     },
-    {
+{
         "word": "offrir",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
         "form": "verb"
     },
-    {
+{
         "word": "heures supplémentaires",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -644,7 +654,7 @@
             }
         ]
     },
-    {
+{
         "word": "promotion",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -661,7 +671,7 @@
             }
         ]
     },
-    {
+{
         "word": "entretien d'embauche",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -678,7 +688,7 @@
             }
         ]
     },
-    {
+{
         "word": "contrat",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -695,7 +705,7 @@
             }
         ]
     },
-    {
+{
         "word": "date limite",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -712,7 +722,7 @@
             }
         ]
     },
-    {
+{
         "word": "expérience",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -729,7 +739,7 @@
             }
         ]
     },
-    {
+{
         "word": "prêt hypothécaire",
         "level": "elementary",
         "theme": "banking_A2",
@@ -746,7 +756,7 @@
             }
         ]
     },
-    {
+{
         "word": "prêt",
         "level": "elementary",
         "theme": "banking_A2",
@@ -763,7 +773,7 @@
             }
         ]
     },
-    {
+{
         "word": "facture",
         "level": "elementary",
         "theme": "finances_A2",
@@ -780,7 +790,7 @@
             }
         ]
     },
-    {
+{
         "word": "dette",
         "level": "elementary",
         "theme": "finances_A2",
@@ -797,7 +807,7 @@
             }
         ]
     },
-    {
+{
         "word": "compte",
         "level": "elementary",
         "theme": "banking_A2",
@@ -814,7 +824,7 @@
             }
         ]
     },
-    {
+{
         "word": "budget",
         "level": "elementary",
         "theme": "finances_A2",
@@ -831,7 +841,7 @@
             }
         ]
     },
-    {
+{
         "word": "régime",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -848,7 +858,7 @@
             }
         ]
     },
-    {
+{
         "word": "rendez-vous",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -865,7 +875,7 @@
             }
         ]
     },
-    {
+{
         "word": "vitamine",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -882,7 +892,7 @@
             }
         ]
     },
-    {
+{
         "word": "douleur",
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
@@ -899,7 +909,7 @@
             }
         ]
     },
-    {
+{
         "word": "soutien",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -916,7 +926,7 @@
             }
         ]
     },
-    {
+{
         "word": "confiance",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -932,7 +942,7 @@
             }
         ]
     },
-    {
+{
         "word": "compromis",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -949,7 +959,7 @@
             }
         ]
     },
-    {
+{
         "word": "voyage",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -966,7 +976,7 @@
             }
         ]
     },
-    {
+{
         "word": "à l'étranger",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -981,7 +991,7 @@
             }
         ]
     },
-    {
+{
         "word": "destination",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -998,7 +1008,7 @@
             }
         ]
     },
-    {
+{
         "word": "vol",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -1015,7 +1025,7 @@
             }
         ]
     },
-    {
+{
         "word": "bagages",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -1032,7 +1042,7 @@
             }
         ]
     },
-    {
+{
         "word": "quartier",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -1049,7 +1059,7 @@
             }
         ]
     },
-    {
+{
         "word": "communauté",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -1065,9 +1075,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "fr";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

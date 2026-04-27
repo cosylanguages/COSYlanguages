@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "κήπος",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "δικηγόρος",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -17,7 +27,7 @@
             }
         ]
     },
-    {
+{
         "word": "φαρμακείο",
         "level": "upper-intermediate",
         "theme": "places_shops_A1",
@@ -34,7 +44,7 @@
             }
         ]
     },
-    {
+{
         "word": "ψυχολόγος",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -51,7 +61,7 @@
             }
         ]
     },
-    {
+{
         "word": "λογοδοσία",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -70,7 +80,7 @@
             }
         ]
     },
-    {
+{
         "word": "κίνητρο",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -88,7 +98,7 @@
             }
         ]
     },
-    {
+{
         "word": "αυτονομία",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -108,7 +118,7 @@
             }
         ]
     },
-    {
+{
         "word": "επισφάλεια",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -128,7 +138,7 @@
             }
         ]
     },
-    {
+{
         "word": "μισθολογικό χάσμα",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -147,7 +157,7 @@
             }
         ]
     },
-    {
+{
         "word": "πακέτο απόλυσης",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -166,7 +176,7 @@
             }
         ]
     },
-    {
+{
         "word": "επιχειρηματικότητα",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -183,7 +193,7 @@
             }
         ]
     },
-    {
+{
         "word": "παραγωγικότητα",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -202,7 +212,7 @@
             }
         ]
     },
-    {
+{
         "word": "εξωτερική ανάθεση",
         "level": "upper-intermediate",
         "theme": "globalisation_trade_B2",
@@ -221,7 +231,7 @@
             }
         ]
     },
-    {
+{
         "word": "αυτοματοποίηση",
         "level": "upper-intermediate",
         "theme": "applied_sciences_engineering_B2",
@@ -238,7 +248,7 @@
             }
         ]
     },
-    {
+{
         "word": "εξευγενισμός",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -257,7 +267,7 @@
             }
         ]
     },
-    {
+{
         "word": "προσιτή στέγαση",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -276,7 +286,7 @@
             }
         ]
     },
-    {
+{
         "word": "αστική εξάπλωση",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -293,7 +303,7 @@
             }
         ]
     },
-    {
+{
         "word": "υποδομή",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -310,7 +320,7 @@
             }
         ]
     },
-    {
+{
         "word": "κράτος πρόνοιας",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -327,7 +337,7 @@
             }
         ]
     },
-    {
+{
         "word": "πόλωση",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -345,7 +355,7 @@
             }
         ]
     },
-    {
+{
         "word": "λόγος",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -364,7 +374,7 @@
             }
         ]
     },
-    {
+{
         "word": "έλεγχος",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -382,7 +392,7 @@
             }
         ]
     },
-    {
+{
         "word": "συναίνεση",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -401,7 +411,7 @@
             }
         ]
     },
-    {
+{
         "word": "νομοθεσία",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -418,7 +428,7 @@
             }
         ]
     },
-    {
+{
         "word": "προκατάληψη",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -438,7 +448,7 @@
             }
         ]
     },
-    {
+{
         "word": "παχυσαρκία",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -455,7 +465,7 @@
             }
         ]
     },
-    {
+{
         "word": "προσδόκιμο ζωής",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -472,7 +482,7 @@
             }
         ]
     },
-    {
+{
         "word": "δικαιοσύνη",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -491,7 +501,7 @@
             }
         ]
     },
-    {
+{
         "word": "επανένταξη",
         "level": "upper-intermediate",
         "theme": "crime_punishment_B2",
@@ -510,7 +520,7 @@
             }
         ]
     },
-    {
+{
         "word": "διαφάνεια",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -528,7 +538,7 @@
             }
         ]
     },
-    {
+{
         "word": "αλγόριθμος",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -545,7 +555,7 @@
             }
         ]
     },
-    {
+{
         "word": "απόρρητο δεδομένων",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -564,7 +574,7 @@
             }
         ]
     },
-    {
+{
         "word": "παραπληροφόρηση",
         "level": "upper-intermediate",
         "theme": "media_misinformation_B2",
@@ -583,7 +593,7 @@
             }
         ]
     },
-    {
+{
         "word": "επιτήρηση",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -602,7 +612,7 @@
             }
         ]
     },
-    {
+{
         "word": "ενώ",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -617,7 +627,7 @@
             }
         ]
     },
-    {
+{
         "word": "παρόλα αυτά",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -633,7 +643,7 @@
             }
         ]
     },
-    {
+{
         "word": "σε ποιο βαθμό",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -648,7 +658,7 @@
             }
         ]
     },
-    {
+{
         "word": "αντίθετα",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -663,7 +673,7 @@
             }
         ]
     },
-    {
+{
         "word": "τεχνητή νοημοσύνη",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -679,9 +689,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "el";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

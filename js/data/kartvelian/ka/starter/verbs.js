@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "ყოფნა",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -23,7 +23,7 @@
         "v3": "ყოფილი",
         "group": "irregular"
     },
-    {
+{
         "word": "ქონა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -46,7 +46,7 @@
         "v3": "ქონებული",
         "group": "irregular"
     },
-    {
+{
         "word": "გრძნობა",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -68,7 +68,7 @@
         "v3": "გრძნობილი",
         "group": "irregular"
     },
-    {
+{
         "word": "მიცემა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -92,7 +92,7 @@
         "v3": "მიცემული",
         "group": "irregular"
     },
-    {
+{
         "word": "აღება",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -116,7 +116,7 @@
         "v3": "აღებული",
         "group": "irregular"
     },
-    {
+{
         "word": "მიღება",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -138,7 +138,7 @@
         "v3": "მიღებული",
         "group": "irregular"
     },
-    {
+{
         "word": "დადება",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -160,7 +160,7 @@
         "v3": "დადებული",
         "group": "irregular"
     },
-    {
+{
         "word": "გაკეთება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -182,7 +182,7 @@
         "v3": "გაკეთებული",
         "group": "irregular"
     },
-    {
+{
         "word": "კეთება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -204,7 +204,7 @@
         "v3": "გაკეთებული",
         "group": "irregular"
     },
-    {
+{
         "word": "გამოყენება",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -226,7 +226,7 @@
         "v3": "გამოყენებული",
         "group": "regular"
     },
-    {
+{
         "word": "გახსნა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -250,7 +250,7 @@
         "v3": "გახსნილი",
         "group": "regular"
     },
-    {
+{
         "word": "დაკეტვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -274,7 +274,7 @@
         "v3": "დაკეტილი",
         "group": "regular"
     },
-    {
+{
         "word": "დაწყება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -298,7 +298,7 @@
         "v3": "დაწყებული",
         "group": "regular"
     },
-    {
+{
         "word": "დამთავრება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -322,7 +322,7 @@
         "v3": "დამთავრებული",
         "group": "regular"
     },
-    {
+{
         "word": "დახმარება",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -344,7 +344,7 @@
         "v3": "დახმარებული",
         "group": "regular"
     },
-    {
+{
         "word": "ცდა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -366,7 +366,7 @@
         "v3": "ნაცადი",
         "group": "regular"
     },
-    {
+{
         "word": "ჩვენება",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -388,7 +388,7 @@
         "v3": "ნაჩვენები",
         "group": "irregular"
     },
-    {
+{
         "word": "პოვნა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -410,7 +410,7 @@
         "v3": "ნაპოვნი",
         "group": "irregular"
     },
-    {
+{
         "word": "შენახვა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -432,7 +432,7 @@
         "v3": "შენახული",
         "group": "irregular"
     },
-    {
+{
         "word": "დაკარგვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -456,7 +456,7 @@
         "v3": "დაკარგული",
         "group": "irregular"
     },
-    {
+{
         "word": "ჭრა",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -478,7 +478,7 @@
         "v3": "გაჭრილი",
         "group": "irregular"
     },
-    {
+{
         "word": "მობრუნება",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -500,7 +500,7 @@
         "v3": "მობრუნებული",
         "group": "regular"
     },
-    {
+{
         "word": "მოტანა",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -522,7 +522,7 @@
         "v3": "მოტანილი",
         "group": "irregular"
     },
-    {
+{
         "word": "თქმა",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -544,7 +544,7 @@
         "v3": "თქმული",
         "group": "irregular"
     },
-    {
+{
         "word": "თხრობა",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -566,7 +566,7 @@
         "v3": "ნათქვამი",
         "group": "irregular"
     },
-    {
+{
         "word": "კითხვა",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -588,7 +588,7 @@
         "v3": "ნაკითხი",
         "group": "regular"
     },
-    {
+{
         "word": "ლაპარაკი",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -610,7 +610,7 @@
         "v3": "ნალაპარაკები",
         "group": "irregular"
     },
-    {
+{
         "word": "საუბარი",
         "level": "starter",
         "theme": "family_life_A1",
@@ -632,7 +632,7 @@
         "v3": "ნასაუბრები",
         "group": "regular"
     },
-    {
+{
         "word": "დარეკვა",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -654,7 +654,7 @@
         "v3": "დარეკილი",
         "group": "regular"
     },
-    {
+{
         "word": "წერა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -678,7 +678,7 @@
         "v3": "დაწერილი",
         "group": "irregular"
     },
-    {
+{
         "word": "კითხვა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -702,7 +702,7 @@
         "v3": "წაკითხული",
         "group": "irregular"
     },
-    {
+{
         "word": "მოსმენა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -724,7 +724,7 @@
         "v3": "მოსმენილი",
         "group": "regular"
     },
-    {
+{
         "word": "პასუხი",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -746,7 +746,7 @@
         "v3": "გაცემული",
         "group": "regular"
     },
-    {
+{
         "word": "გამეორება",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -768,7 +768,7 @@
         "v3": "გამეორებული",
         "group": "regular"
     },
-    {
+{
         "word": "სვლა",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -790,7 +790,7 @@
         "v3": "წასული",
         "group": "irregular"
     },
-    {
+{
         "word": "მოსვლა",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -814,7 +814,7 @@
         "v3": "მოსული",
         "group": "irregular"
     },
-    {
+{
         "word": "სიარული",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -836,7 +836,7 @@
         "v3": "ვლილი",
         "group": "regular"
     },
-    {
+{
         "word": "მართვა",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -858,7 +858,7 @@
         "v3": "მართული",
         "group": "irregular"
     },
-    {
+{
         "word": "ფრენა",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -880,7 +880,7 @@
         "v3": "ნაფრენი",
         "group": "irregular"
     },
-    {
+{
         "word": "ჩამოსვლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -902,7 +902,7 @@
         "v3": "ჩამოსული",
         "group": "regular"
     },
-    {
+{
         "word": "წასვლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -924,7 +924,7 @@
         "v3": "წასული",
         "group": "irregular"
     },
-    {
+{
         "word": "გადასვლა",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -946,7 +946,7 @@
         "v3": "გადასული",
         "group": "regular"
     },
-    {
+{
         "word": "დაბრუნება",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -968,7 +968,7 @@
         "v3": "დაბრუნებული",
         "group": "regular"
     },
-    {
+{
         "word": "მოგზაურობა",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -990,7 +990,7 @@
         "v3": "ნამოგზაურები",
         "group": "regular"
     },
-    {
+{
         "word": "ჭამა",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1014,7 +1014,7 @@
         "v3": "ნაჭამი",
         "group": "irregular"
     },
-    {
+{
         "word": "სმა",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1038,7 +1038,7 @@
         "v3": "ნასვამი",
         "group": "irregular"
     },
-    {
+{
         "word": "ძილი",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1061,7 +1061,7 @@
         "v3": "ნაძინები",
         "group": "irregular"
     },
-    {
+{
         "word": "მომზადება",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1082,7 +1082,7 @@
         "v3": "მომზადებული",
         "group": "regular"
     },
-    {
+{
         "word": "დასუფთავება",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1104,7 +1104,7 @@
         "v3": "დასუფთავებული",
         "group": "regular"
     },
-    {
+{
         "word": "ტარება",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1125,7 +1125,7 @@
         "v3": "ნატარები",
         "group": "irregular"
     },
-    {
+{
         "word": "რეცხვა",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1147,7 +1147,7 @@
         "v3": "გარეცხილი",
         "group": "regular"
     },
-    {
+{
         "word": "ყიდვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1171,7 +1171,7 @@
         "v3": "ნაყიდი",
         "group": "irregular"
     },
-    {
+{
         "word": "გადახდა",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1193,7 +1193,7 @@
         "v3": "გადახდილი",
         "group": "irregular"
     },
-    {
+{
         "word": "ხარჯვა",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1215,7 +1215,7 @@
         "v3": "დახარჯული",
         "group": "irregular"
     },
-    {
+{
         "word": "დაზოგვა",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1239,7 +1239,7 @@
         "v3": "დაზოგილი",
         "group": "regular"
     },
-    {
+{
         "word": "მუშაობა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1261,7 +1261,7 @@
         "v3": "ნამუშევარი",
         "group": "regular"
     },
-    {
+{
         "word": "ცხოვრება",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1285,7 +1285,7 @@
         "v3": "ნაცხოვრები",
         "group": "regular"
     },
-    {
+{
         "word": "ფიქრი",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1307,7 +1307,7 @@
         "v3": "ნაფიქრი",
         "group": "irregular"
     },
-    {
+{
         "word": "ცოდნა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1329,7 +1329,7 @@
         "v3": "ცნობილი",
         "group": "irregular"
     },
-    {
+{
         "word": "ნდომა",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1351,7 +1351,7 @@
         "v3": "ნანდომი",
         "group": "regular"
     },
-    {
+{
         "word": "საჭიროება",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1373,7 +1373,7 @@
         "v3": "საჭიროებული",
         "group": "regular"
     },
-    {
+{
         "word": "მოწონება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1395,7 +1395,7 @@
         "v3": "მოწონებული",
         "group": "regular"
     },
-    {
+{
         "word": "ყვარება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1417,7 +1417,7 @@
         "v3": "ყვარებული",
         "group": "regular"
     },
-    {
+{
         "word": "სძულება",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1439,7 +1439,7 @@
         "v3": "მოძულებული",
         "group": "regular"
     },
-    {
+{
         "word": "იმედოვნება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1461,7 +1461,7 @@
         "v3": "იმედოვნებული",
         "group": "regular"
     },
-    {
+{
         "word": "გახსენება",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1483,7 +1483,7 @@
         "v3": "გახსენებული",
         "group": "regular"
     },
-    {
+{
         "word": "დავიწყება",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1505,7 +1505,7 @@
         "v3": "დავიწყებული",
         "group": "irregular"
     },
-    {
+{
         "word": "გაგება",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1527,7 +1527,7 @@
         "v3": "გაგებული",
         "group": "irregular"
     },
-    {
+{
         "word": "გადაწყვეტა",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1549,7 +1549,7 @@
         "v3": "გადაწყვეტილი",
         "group": "regular"
     },
-    {
+{
         "word": "სიამოვნება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1571,7 +1571,7 @@
         "v3": "ნასიამოვნები",
         "group": "regular"
     },
-    {
+{
         "word": "დანახვა",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1593,7 +1593,7 @@
         "v3": "ნანახი",
         "group": "irregular"
     },
-    {
+{
         "word": "გაგონება",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1615,7 +1615,7 @@
         "v3": "გაგონილი",
         "group": "irregular"
     },
-    {
+{
         "word": "გაღვიძება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1639,7 +1639,7 @@
         "v3": "გაღვიძებული",
         "group": "irregular"
     },
-    {
+{
         "word": "ყურება",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1661,7 +1661,7 @@
         "v3": "ნანახი",
         "group": "regular"
     },
-    {
+{
         "word": "ყურება",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1683,7 +1683,7 @@
         "v3": "ნანახი",
         "group": "regular"
     },
-    {
+{
         "word": "თამაში",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1705,7 +1705,7 @@
         "v3": "ნათამაშები",
         "group": "regular"
     },
-    {
+{
         "word": "სირბილი",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1727,7 +1727,7 @@
         "v3": "ნარბენი",
         "group": "irregular"
     },
-    {
+{
         "word": "ჯდომა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1751,7 +1751,7 @@
         "v3": "ნაჯდომი",
         "group": "irregular"
     },
-    {
+{
         "word": "დგომა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1775,7 +1775,7 @@
         "v3": "მდგარი",
         "group": "irregular"
     },
-    {
+{
         "word": "შეხვედრა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1797,7 +1797,7 @@
         "synonyms": ["შეხვდე კლიენტს", "კოლეგას", "ისადილოთ"],
         "group": "irregular"
     },
-    {
+{
         "word": "სწავლა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1819,7 +1819,7 @@
         "v3": "ნასწავლი",
         "group": "both"
     },
-    {
+{
         "word": "შეცვლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1841,7 +1841,7 @@
         "v3": "შეცვლილი",
         "group": "regular"
     },
-    {
+{
         "word": "გაჩერება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1863,7 +1863,7 @@
         "v3": "გაჩერებული",
         "group": "regular"
     },
-    {
+{
         "word": "დამატება",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1885,7 +1885,7 @@
         "v3": "დამატებული",
         "group": "regular"
     },
-    {
+{
         "word": "მოგება",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1909,7 +1909,7 @@
         "v3": "მოგებული",
         "group": "irregular"
     },
-    {
+{
         "word": "ლოდინი",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1931,7 +1931,7 @@
         "v3": "ნალოდინები",
         "group": "regular"
     },
-    {
+{
         "word": "კვდომა",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -1955,7 +1955,7 @@
         "v3": "მკვდარი",
         "group": "regular"
     },
-    {
+{
         "word": "გაგზავნა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1977,7 +1977,7 @@
         "synonyms": ["გააგზავნო იმეილი", "შეტყობინება", "ანგარიში"],
         "group": "irregular"
     },
-    {
+{
         "word": "დარჩენა",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1999,7 +1999,7 @@
         "v3": "დარჩენილი",
         "group": "regular"
     },
-    {
+{
         "word": "ვარდნა",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2021,7 +2021,7 @@
         "v3": "დაცემული",
         "group": "irregular"
     },
-    {
+{
         "word": "გავლა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2043,7 +2043,7 @@
         "v3": "გავლილი",
         "group": "regular"
     },
-    {
+{
         "word": "გაყიდვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2067,7 +2067,7 @@
         "v3": "გაყიდული",
         "group": "irregular"
     },
-    {
+{
         "word": "წევა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2091,7 +2091,7 @@
         "v3": "გამოწეული",
         "group": "regular"
     },
-    {
+{
         "word": "მიწოლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2115,7 +2115,7 @@
         "v3": "მიწოლილი",
         "group": "regular"
     },
-    {
+{
         "word": "ტარება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2137,7 +2137,7 @@
         "v3": "ნატარები",
         "group": "regular"
     },
-    {
+{
         "word": "გატეხვა",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2159,7 +2159,7 @@
         "v3": "გატეხილი",
         "group": "irregular"
     },
-    {
+{
         "word": "მიღება",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2181,7 +2181,7 @@
         "v3": "მიღებული",
         "group": "regular"
     },
-    {
+{
         "word": "დათანხმება",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2203,7 +2203,7 @@
         "v3": "დათანხმებული",
         "group": "regular"
     },
-    {
+{
         "word": "ხატვა",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2225,7 +2225,7 @@
         "v3": "დახატული",
         "group": "irregular"
     },
-    {
+{
         "word": "გაზიარება",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2247,7 +2247,7 @@
         "v3": "გაზიარებული",
         "group": "regular"
     },
-    {
+{
         "word": "ღიმილი",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2271,7 +2271,7 @@
         "v3": "გაღიმებული",
         "group": "regular"
     },
-    {
+{
         "word": "ტირილი",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2295,7 +2295,7 @@
         "v3": "ნატირები",
         "group": "regular"
     },
-    {
+{
         "word": "ცეკვა",
         "level": "starter",
         "theme": "music_A1",
@@ -2317,7 +2317,7 @@
         "v3": "ნაცეკვი",
         "group": "regular"
     },
-    {
+{
         "word": "სიმღერა",
         "level": "starter",
         "theme": "music_A1",
@@ -2339,7 +2339,7 @@
         "v3": "ნამღერი",
         "group": "irregular"
     },
-    {
+{
         "word": "ხტომა",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2361,7 +2361,7 @@
         "v3": "ნახტომი",
         "group": "regular"
     },
-    {
+{
         "word": "ცურვა",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2383,7 +2383,7 @@
         "v3": "ნაცურავი",
         "group": "irregular"
     },
-    {
+{
         "word": "სწავლა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2405,7 +2405,7 @@
         "v3": "ნასწავლი",
         "group": "regular"
     },
-    {
+{
         "word": "სწავლება",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2427,7 +2427,7 @@
         "v3": "ნასწავლები",
         "group": "irregular"
     },
-    {
+{
         "word": "მგზავრობა",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2449,7 +2449,7 @@
         "v3": "ნამგზავრები",
         "group": "regular"
     },
-    {
+{
         "word": "ქირაობა",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2471,7 +2471,7 @@
         "v3": "ნაქირავები",
         "group": "regular"
     },
-    {
+{
         "word": "ვარჯიში",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2493,7 +2493,7 @@
         "synonyms": ["ივარჯიშო რეგულარულად", "დარბაზში"],
         "group": "regular"
     },
-    {
+{
         "word": "ღირებულება",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2515,7 +2515,7 @@
         "synonyms": ["ღირდეს ძვირი", "ღირდეს ფული"],
         "group": "irregular"
     },
-    {
+{
         "word": "დაპატიჟება",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2537,7 +2537,7 @@
         "synonyms": ["დაპატიჟო ვინმე", "სადილზე", "წვეულებაზე"],
         "group": "regular"
     },
-    {
+{
         "word": "ადგომა",
         "definitions": [
             {
@@ -2559,7 +2559,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "საუზმობა",
         "definitions": [
             {
@@ -2581,7 +2581,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "დაბრუნება",
         "definitions": [
             {
@@ -2603,7 +2603,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "დაწოლა",
         "definitions": [
             {
@@ -2625,7 +2625,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "შემოწმება",
         "definitions": [
             {
@@ -2647,7 +2647,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "პასუხი",
         "definitions": [
             {
@@ -2669,7 +2669,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "წარდგენა",
         "definitions": [
             {
@@ -2691,7 +2691,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "დასწრება",
         "definitions": [
             {
@@ -2713,7 +2713,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "მართვა",
         "definitions": [
             {
@@ -2735,7 +2735,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "გადახდევინება",
         "definitions": [
             {
@@ -2757,7 +2757,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "წვდომა",
         "definitions": [
             {
@@ -2779,7 +2779,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ვალის ქონა",
         "definitions": [
             {
@@ -2801,7 +2801,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "გამომუშავება",
         "definitions": [
             {
@@ -2823,7 +2823,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "სტუმრობა",
         "definitions": [
             {
@@ -2845,7 +2845,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "აღნიშვნა",
         "definitions": [
             {
@@ -2867,7 +2867,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "რეკომენდაცია",
         "definitions": [
             {
@@ -2889,7 +2889,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ტკივილი",
         "definitions": [
             {
@@ -2911,7 +2911,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "დასვენება",
         "definitions": [
             {
@@ -2933,7 +2933,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "გამოჯანმრთელება",
         "definitions": [
             {
@@ -2955,7 +2955,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "დაჯავშნა",
         "definitions": [
             {
@@ -2977,7 +2977,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ჩალაგება",
         "definitions": [
             {
@@ -2999,7 +2999,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "გაუქმება",
         "definitions": [
             {
@@ -3021,7 +3021,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "გამოტოვება",
         "definitions": [
             {
@@ -3043,7 +3043,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "შეკვეთა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3065,7 +3065,7 @@
         "v3": "შეკვეთილი",
         "group": "regular"
     },
-    {
+{
         "word": "ახსნა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3087,7 +3087,7 @@
         "v3": "ახსნილი",
         "group": "regular"
     },
-    {
+{
         "word": "მადლობა",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3109,7 +3109,7 @@
         "v3": "მადლობა გადახდილი",
         "group": "regular"
     },
-    {
+{
         "word": "წარდგენა",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3131,7 +3131,7 @@
         "v3": "წარდგენილი",
         "group": "regular"
     },
-    {
+{
         "word": "მოდუნება",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3153,7 +3153,7 @@
         "v3": "მოდუნებული",
         "group": "regular"
     },
-    {
+{
         "word": "შეკეთება",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3175,7 +3175,7 @@
         "v3": "შეკეთებული",
         "group": "regular"
     },
-    {
+{
         "word": "მოხდენა",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3197,7 +3197,7 @@
         "v3": "მოხდენილი",
         "group": "regular"
     },
-    {
+{
         "word": "ჩენა",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3219,7 +3219,7 @@
         "v3": "მოჩვენებული",
         "group": "regular"
     },
-    {
+{
         "word": "ნიშნვნა",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3241,7 +3241,7 @@
         "v3": "ნიშნებული",
         "group": "irregular"
     },
-    {
+{
         "word": "მიყოლა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3263,7 +3263,7 @@
         "v3": "მიყოლილი",
         "group": "regular"
     },
-    {
+{
         "word": "გაგრძელება",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3285,7 +3285,7 @@
         "v3": "გაგრძელებული",
         "group": "regular"
     },
-    {
+{
         "word": "ზრდა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3307,7 +3307,7 @@
         "v3": "გაზრდილი",
         "group": "irregular"
     },
-    {
+{
         "word": "მოცვა",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3329,7 +3329,7 @@
         "v3": "მოცული",
         "group": "regular"
     },
-    {
+{
         "word": "გახდომა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3351,7 +3351,7 @@
         "v3": "გამხდარი",
         "group": "irregular"
     },
-    {
+{
         "word": "კუთვნილება",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3373,7 +3373,7 @@
         "v3": "კუთვნილი",
         "group": "regular"
     },
-    {
+{
         "word": "არჩევა",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3395,7 +3395,7 @@
         "v3": "არჩეული",
         "group": "irregular"
     },
-    {
+{
         "word": "შენება",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3416,11 +3416,8 @@
         "v2": "built",
         "v3": "აშენებული",
         "group": "irregular"
-    }
-]
-    const lang = "ka";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{},
+{}
+];
 })();

@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "сад",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "художник",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -24,7 +34,7 @@
             }
         ]
     },
-    {
+{
         "word": "повар",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -48,7 +58,7 @@
             }
         ]
     },
-    {
+{
         "word": "блины",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -57,7 +67,7 @@
         "form": "noun",
         "plural": "блины"
     },
-    {
+{
         "word": "пирожки",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -65,7 +75,7 @@
         "form": "noun",
         "plural": "пирожки"
     },
-    {
+{
         "word": "сыр",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -74,7 +84,7 @@
         "form": "noun",
         "plural": "сыры"
     },
-    {
+{
         "word": "рис",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -83,7 +93,7 @@
         "form": "noun",
         "plural": "рис"
     },
-    {
+{
         "word": "помидор",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -92,7 +102,7 @@
         "form": "noun",
         "plural": "помидоры"
     },
-    {
+{
         "word": "картофель",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -101,7 +111,7 @@
         "form": "noun",
         "plural": "картофель"
     },
-    {
+{
         "word": "вино",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -111,7 +121,7 @@
         "form": "noun",
         "plural": "вино"
     },
-    {
+{
         "word": "пиво",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -121,7 +131,7 @@
         "form": "noun",
         "plural": "пиво"
     },
-    {
+{
         "word": "морс",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -143,7 +153,7 @@
             }
         ]
     },
-    {
+{
         "word": "больница",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -167,7 +177,7 @@
             }
         ]
     },
-    {
+{
         "word": "кинотеатр",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -191,7 +201,7 @@
             }
         ]
     },
-    {
+{
         "word": "ресторан",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -209,7 +219,7 @@
             }
         ]
     },
-    {
+{
         "word": "супермаркет",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
@@ -233,7 +243,7 @@
             }
         ]
     },
-    {
+{
         "word": "платье",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -242,7 +252,7 @@
         "form": "noun",
         "plural": "платья"
     },
-    {
+{
         "word": "куртка",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -251,7 +261,7 @@
         "form": "noun",
         "plural": "куртки"
     },
-    {
+{
         "word": "юбка",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -260,7 +270,7 @@
         "form": "noun",
         "plural": "юбки"
     },
-    {
+{
         "word": "диван",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -269,7 +279,7 @@
         "form": "noun",
         "plural": "диваны"
     },
-    {
+{
         "word": "лампа",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -278,7 +288,7 @@
         "form": "noun",
         "plural": "лампы"
     },
-    {
+{
         "word": "письменный стол",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -287,28 +297,28 @@
         "form": "noun",
         "plural": "письменные столы"
     },
-    {
+{
         "word": "чистить зубы",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
         "form": "noun"
     },
-    {
+{
         "word": "принимать душ",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "noun"
     },
-    {
+{
         "word": "часы",
         "level": "elementary",
         "theme": "accessories_A1",
         "form": "noun",
         "plural": "часы"
     },
-    {
+{
         "word": "кошелек",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -326,7 +336,7 @@
             }
         ]
     },
-    {
+{
         "word": "очки",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -343,7 +353,7 @@
             }
         ]
     },
-    {
+{
         "word": "лев",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -361,7 +371,7 @@
             }
         ]
     },
-    {
+{
         "word": "тигр",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -370,7 +380,7 @@
         "form": "noun",
         "plural": "тигры"
     },
-    {
+{
         "word": "плечо",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -378,7 +388,7 @@
         "form": "noun",
         "plural": "плечи"
     },
-    {
+{
         "word": "университет",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -396,7 +406,7 @@
             }
         ]
     },
-    {
+{
         "word": "местная кухня",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -419,7 +429,7 @@
             }
         ]
     },
-    {
+{
         "word": "море",
         "level": "elementary",
         "theme": "landscape_geography_A2",
@@ -431,98 +441,98 @@
         "form": "noun",
         "plural": "морей"
     },
-    {
+{
         "word": "казаться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🤔",
         "form": "verb"
     },
-    {
+{
         "word": "становиться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🦋",
         "form": "verb"
     },
-    {
+{
         "word": "двигать",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb"
     },
-    {
+{
         "word": "верить",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb"
     },
-    {
+{
         "word": "случаться",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb"
     },
-    {
+{
         "word": "включать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb"
     },
-    {
+{
         "word": "продолжать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb"
     },
-    {
+{
         "word": "устанавливать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb"
     },
-    {
+{
         "word": "вести",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👑",
         "form": "verb"
     },
-    {
+{
         "word": "следовать",
         "level": "elementary",
         "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb"
     },
-    {
+{
         "word": "создавать",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb"
     },
-    {
+{
         "word": "позволять",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb"
     },
-    {
+{
         "word": "расти",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb"
     },
-    {
+{
         "word": "переработка",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -538,7 +548,7 @@
             }
         ]
     },
-    {
+{
         "word": "повышение",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -555,7 +565,7 @@
             }
         ]
     },
-    {
+{
         "word": "собеседование",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -572,7 +582,7 @@
             }
         ]
     },
-    {
+{
         "word": "контракт",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -589,7 +599,7 @@
             }
         ]
     },
-    {
+{
         "word": "дедлайн",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -606,7 +616,7 @@
             }
         ]
     },
-    {
+{
         "word": "опыт",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -622,7 +632,7 @@
             }
         ]
     },
-    {
+{
         "word": "ипотека",
         "level": "elementary",
         "theme": "banking_A2",
@@ -639,7 +649,7 @@
             }
         ]
     },
-    {
+{
         "word": "кредит",
         "level": "elementary",
         "theme": "banking_A2",
@@ -656,7 +666,7 @@
             }
         ]
     },
-    {
+{
         "word": "счёт",
         "level": "elementary",
         "theme": "finances_A2",
@@ -673,7 +683,7 @@
             }
         ]
     },
-    {
+{
         "word": "долг",
         "level": "elementary",
         "theme": "finances_A2",
@@ -690,7 +700,7 @@
             }
         ]
     },
-    {
+{
         "word": "банковский счёт",
         "level": "elementary",
         "theme": "banking_A2",
@@ -707,7 +717,7 @@
             }
         ]
     },
-    {
+{
         "word": "бюджет",
         "level": "elementary",
         "theme": "finances_A2",
@@ -724,7 +734,7 @@
             }
         ]
     },
-    {
+{
         "word": "диета",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -741,7 +751,7 @@
             }
         ]
     },
-    {
+{
         "word": "приём",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -758,7 +768,7 @@
             }
         ]
     },
-    {
+{
         "word": "лишний вес",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -774,7 +784,7 @@
             }
         ]
     },
-    {
+{
         "word": "витамин",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -791,7 +801,7 @@
             }
         ]
     },
-    {
+{
         "word": "боль",
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
@@ -808,7 +818,7 @@
             }
         ]
     },
-    {
+{
         "word": "поддержка",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -824,7 +834,7 @@
             }
         ]
     },
-    {
+{
         "word": "доверие",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -840,7 +850,7 @@
             }
         ]
     },
-    {
+{
         "word": "компромисс",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -857,7 +867,7 @@
             }
         ]
     },
-    {
+{
         "word": "путешествие",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -874,7 +884,7 @@
             }
         ]
     },
-    {
+{
         "word": "за границу",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -889,7 +899,7 @@
             }
         ]
     },
-    {
+{
         "word": "пункт назначения",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -906,7 +916,7 @@
             }
         ]
     },
-    {
+{
         "word": "рейс",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -923,7 +933,7 @@
             }
         ]
     },
-    {
+{
         "word": "багаж",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -939,7 +949,7 @@
             }
         ]
     },
-    {
+{
         "word": "район",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -956,7 +966,7 @@
             }
         ]
     },
-    {
+{
         "word": "сообщество",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -973,7 +983,7 @@
             }
         ]
     },
-    {
+{
         "word": "загрязнение",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -988,9 +998,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "ru";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

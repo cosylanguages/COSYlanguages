@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "Arzt",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -15,7 +25,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Fuß",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -30,7 +40,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Lehrer",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -45,7 +55,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Pizza",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -60,7 +70,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Pasta",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -75,7 +85,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Apfel",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -90,7 +100,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Brot",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -105,7 +115,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Ei",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -120,7 +130,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Milch",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -135,7 +145,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Banane",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -150,7 +160,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Kaffee",
         "level": "starter",
         "theme": "drinks_A1",
@@ -165,7 +175,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Tee",
         "level": "starter",
         "theme": "drinks_A1",
@@ -180,7 +190,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Wasser",
         "level": "starter",
         "theme": "drinks_A1",
@@ -195,7 +205,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Schule",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -210,7 +220,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "T-Shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -225,7 +235,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Hose",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -240,7 +250,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Schuh",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -255,7 +265,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Hut",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -270,7 +280,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Stuhl",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -285,7 +295,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Tisch",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -300,7 +310,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Bett",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -315,7 +325,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Schlüssel",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -330,7 +340,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Telefon",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -345,7 +355,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Buch",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -360,7 +370,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Tasche",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -375,7 +385,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Stift",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -390,7 +400,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Katze",
         "level": "starter",
         "theme": "animals_A1",
@@ -405,7 +415,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Hund",
         "level": "starter",
         "theme": "animals_A1",
@@ -420,7 +430,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Hand",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -435,7 +445,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Bein",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -450,7 +460,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Auge",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -465,7 +475,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Nase",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -480,7 +490,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Mund",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -495,7 +505,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Ohr",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -510,7 +520,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Mutter",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -525,7 +535,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Vater",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -540,7 +550,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Arbeit",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -555,7 +565,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Zuhause",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -570,7 +580,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Auto",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -585,7 +595,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Bus",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -600,7 +610,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Zug",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -615,7 +625,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Geld",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -630,7 +640,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Geschäft",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -645,7 +655,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Familie",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -660,7 +670,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Freund",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -675,7 +685,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Tag",
         "level": "starter",
         "theme": "times_day_A1",
@@ -690,7 +700,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Woche",
         "level": "starter",
         "theme": "times_day_A1",
@@ -705,7 +715,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Essen",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -720,7 +730,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Frühstück",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -735,7 +745,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Mittagessen",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -750,7 +760,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Abendessen",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -765,7 +775,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Morgen",
         "level": "starter",
         "theme": "times_day_A1",
@@ -780,7 +790,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Abend",
         "level": "starter",
         "theme": "times_day_A1",
@@ -795,7 +805,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Nacht",
         "level": "starter",
         "theme": "times_day_A1",
@@ -810,7 +820,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Heute",
         "level": "starter",
         "theme": "times_day_A1",
@@ -825,7 +835,7 @@
         "article": "heute",
         "gender": "neuter"
     },
-    {
+{
         "word": "Morgen",
         "level": "starter",
         "theme": "times_day_A1",
@@ -840,7 +850,7 @@
         "article": "morgen",
         "gender": "neuter"
     },
-    {
+{
         "word": "Ehemann",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -855,7 +865,7 @@
         "article": "der",
         "gender": "masculine"
     },
-    {
+{
         "word": "Ehefrau",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -870,7 +880,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Kind",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -885,7 +895,7 @@
         "article": "das",
         "gender": "neuter"
     },
-    {
+{
         "word": "Sonne",
         "level": "starter",
         "theme": "weather_A1",
@@ -900,7 +910,7 @@
         "article": "die",
         "gender": "feminine"
     },
-    {
+{
         "word": "Regen",
         "level": "starter",
         "theme": "weather_A1",
@@ -914,9 +924,7 @@
         ],
         "article": "der",
         "gender": "masculine"
-    }
-]
-    const lang = "de";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{}
+];
 })();

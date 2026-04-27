@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "булыу",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -22,7 +22,7 @@
         "v3": "булған",
         "group": "irregular"
     },
-    {
+{
         "word": "эйә булыу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -45,7 +45,7 @@
         "v3": "эйә булған",
         "group": "regular"
     },
-    {
+{
         "word": "тойоу",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -67,7 +67,7 @@
         "v3": "тойған",
         "group": "regular"
     },
-    {
+{
         "word": "биреү",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -91,7 +91,7 @@
         "v3": "биргән",
         "group": "regular"
     },
-    {
+{
         "word": "алыу",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -115,7 +115,7 @@
         "v3": "алған",
         "group": "regular"
     },
-    {
+{
         "word": "алыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -137,7 +137,7 @@
         "v3": "алған",
         "group": "regular"
     },
-    {
+{
         "word": "һалыу",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -159,7 +159,7 @@
         "v3": "һалған",
         "group": "regular"
     },
-    {
+{
         "word": "эшләү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -181,7 +181,7 @@
         "v3": "эшләгән",
         "group": "regular"
     },
-    {
+{
         "word": "эшләү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -203,7 +203,7 @@
         "v3": "эшләгән",
         "group": "regular"
     },
-    {
+{
         "word": "ҡулланыу",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -225,7 +225,7 @@
         "v3": "ҡулланған",
         "group": "regular"
     },
-    {
+{
         "word": "асыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -249,7 +249,7 @@
         "v3": "асҡан",
         "group": "regular"
     },
-    {
+{
         "word": "ябыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -273,7 +273,7 @@
         "v3": "япҡан",
         "group": "regular"
     },
-    {
+{
         "word": "башлау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -297,7 +297,7 @@
         "v3": "башлаған",
         "group": "regular"
     },
-    {
+{
         "word": "тамамлау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -321,7 +321,7 @@
         "v3": "тамамлаған",
         "group": "regular"
     },
-    {
+{
         "word": "ярҙам итеү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -343,7 +343,7 @@
         "v3": "ярҙам иткән",
         "group": "regular"
     },
-    {
+{
         "word": "тырышыу",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -365,7 +365,7 @@
         "v3": "тырышҡан",
         "group": "regular"
     },
-    {
+{
         "word": "күрһәтеү",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -387,7 +387,7 @@
         "v3": "күрһәткән",
         "group": "regular"
     },
-    {
+{
         "word": "табыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -409,7 +409,7 @@
         "v3": "тапҡан",
         "group": "regular"
     },
-    {
+{
         "word": "һаҡлау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -431,7 +431,7 @@
         "v3": "һаҡлаған",
         "group": "regular"
     },
-    {
+{
         "word": "юғалтыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -455,7 +455,7 @@
         "v3": "юғалтҡан",
         "group": "regular"
     },
-    {
+{
         "word": "киҫеү",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -477,7 +477,7 @@
         "v3": "киҫкән",
         "group": "regular"
     },
-    {
+{
         "word": "бороу",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -499,7 +499,7 @@
         "v3": "борған",
         "group": "regular"
     },
-    {
+{
         "word": "килтереү",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -521,7 +521,7 @@
         "v3": "килтергән",
         "group": "regular"
     },
-    {
+{
         "word": "әйтеү",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -543,7 +543,7 @@
         "v3": "әйткән",
         "group": "regular"
     },
-    {
+{
         "word": "һөйләү",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -565,7 +565,7 @@
         "v3": "һөйләгән",
         "group": "regular"
     },
-    {
+{
         "word": "һорау",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -587,7 +587,7 @@
         "v3": "һораған",
         "group": "regular"
     },
-    {
+{
         "word": "һөйләшеү",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -609,7 +609,7 @@
         "v3": "һөйләшкән",
         "group": "regular"
     },
-    {
+{
         "word": "һөйләшеү",
         "level": "starter",
         "theme": "family_life_A1",
@@ -631,7 +631,7 @@
         "v3": "һөйләшкән",
         "group": "regular"
     },
-    {
+{
         "word": "шыңғыртыу",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -653,7 +653,7 @@
         "v3": "шыңғыртҡан",
         "group": "regular"
     },
-    {
+{
         "word": "яҙыу",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -677,7 +677,7 @@
         "v3": "яҙған",
         "group": "regular"
     },
-    {
+{
         "word": "уҡыу",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -701,7 +701,7 @@
         "v3": "уҡыған",
         "group": "regular"
     },
-    {
+{
         "word": "тыңлау",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -723,7 +723,7 @@
         "v3": "тыңлаған",
         "group": "regular"
     },
-    {
+{
         "word": "яуап биреү",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -745,7 +745,7 @@
         "v3": "яуап бирҙе",
         "group": "regular"
     },
-    {
+{
         "word": "ҡабатлау",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -767,7 +767,7 @@
         "v3": "ҡабатлаған",
         "group": "regular"
     },
-    {
+{
         "word": "барыу",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -789,7 +789,7 @@
         "v3": "барған",
         "group": "regular"
     },
-    {
+{
         "word": "килеү",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -813,7 +813,7 @@
         "v3": "килгән",
         "group": "regular"
     },
-    {
+{
         "word": "йәйәү йөрөү",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -835,7 +835,7 @@
         "v3": "йөрөгән",
         "group": "regular"
     },
-    {
+{
         "word": "машина йөрөтөү",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -857,7 +857,7 @@
         "v3": "йөрөткән",
         "group": "regular"
     },
-    {
+{
         "word": "осоу",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -879,7 +879,7 @@
         "v3": "оҡҡан",
         "group": "regular"
     },
-    {
+{
         "word": "килеп етеү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -901,7 +901,7 @@
         "v3": "килеп еткән",
         "group": "regular"
     },
-    {
+{
         "word": "китеү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -923,7 +923,7 @@
         "v3": "киткән",
         "group": "regular"
     },
-    {
+{
         "word": "күсеү",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -945,7 +945,7 @@
         "v3": "күскән",
         "group": "regular"
     },
-    {
+{
         "word": "ҡайтыу",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -967,7 +967,7 @@
         "v3": "ҡайтҡан",
         "group": "regular"
     },
-    {
+{
         "word": "сәйәхәт итеү",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -989,7 +989,7 @@
         "v3": "сәйәхәт иткән",
         "group": "regular"
     },
-    {
+{
         "word": "ашау",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1013,7 +1013,7 @@
         "v3": "ашаған",
         "group": "regular"
     },
-    {
+{
         "word": "эсеү",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1037,7 +1037,7 @@
         "v3": "эскән",
         "group": "regular"
     },
-    {
+{
         "word": "йоҡлау",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1061,7 +1061,7 @@
         "v3": "йоҡлаған",
         "group": "regular"
     },
-    {
+{
         "word": "аш бешереү",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1083,7 +1083,7 @@
         "v3": "бешергән",
         "group": "regular"
     },
-    {
+{
         "word": "таҙартыу",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1105,7 +1105,7 @@
         "v3": "таҙартҡан",
         "group": "regular"
     },
-    {
+{
         "word": "кейеү",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1127,7 +1127,7 @@
         "v3": "кейгән",
         "group": "regular"
     },
-    {
+{
         "word": "йыуыу",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1149,7 +1149,7 @@
         "v3": "йыуған",
         "group": "regular"
     },
-    {
+{
         "word": "һатып алыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1173,7 +1173,7 @@
         "v3": "һатып алған",
         "group": "regular"
     },
-    {
+{
         "word": "түләү",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1195,7 +1195,7 @@
         "v3": "түләгән",
         "group": "regular"
     },
-    {
+{
         "word": "тотоноу",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1217,7 +1217,7 @@
         "v3": "тотонған",
         "group": "regular"
     },
-    {
+{
         "word": "һаҡлау",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1241,7 +1241,7 @@
         "v3": "һаҡлаған",
         "group": "regular"
     },
-    {
+{
         "word": "эшләү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1263,7 +1263,7 @@
         "v3": "эшләгән",
         "group": "regular"
     },
-    {
+{
         "word": "йәшәү",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1287,7 +1287,7 @@
         "v3": "йәшәгән",
         "group": "regular"
     },
-    {
+{
         "word": "уйлау",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1309,7 +1309,7 @@
         "v3": "уйлаған",
         "group": "regular"
     },
-    {
+{
         "word": "белеү",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1331,7 +1331,7 @@
         "v3": "белгән",
         "group": "regular"
     },
-    {
+{
         "word": "теләү",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1353,7 +1353,7 @@
         "v3": "теләгән",
         "group": "regular"
     },
-    {
+{
         "word": "кәрәк булыу",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1375,7 +1375,7 @@
         "v3": "кәрәк булған",
         "group": "regular"
     },
-    {
+{
         "word": "ошатыу",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1397,7 +1397,7 @@
         "v3": "ошаған",
         "group": "regular"
     },
-    {
+{
         "word": "яратыу",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1419,7 +1419,7 @@
         "v3": "яратҡан",
         "group": "regular"
     },
-    {
+{
         "word": "нәфрәт итеү",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1441,7 +1441,7 @@
         "v3": "нәфрәт иткән",
         "group": "regular"
     },
-    {
+{
         "word": "өмит итеү",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1463,7 +1463,7 @@
         "v3": "өмит иткән",
         "group": "regular"
     },
-    {
+{
         "word": "хәтерләү",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1485,7 +1485,7 @@
         "v3": "хәтерләгән",
         "group": "regular"
     },
-    {
+{
         "word": "онотоу",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1507,7 +1507,7 @@
         "v3": "онотҡан",
         "group": "regular"
     },
-    {
+{
         "word": "аңлау",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1529,7 +1529,7 @@
         "v3": "аңлаған",
         "group": "regular"
     },
-    {
+{
         "word": "ҡарар итеү",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1551,7 +1551,7 @@
         "v3": "ҡарар иткән",
         "group": "regular"
     },
-    {
+{
         "word": "ләззәт алыу",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1573,7 +1573,7 @@
         "v3": "ләззәт алған",
         "group": "regular"
     },
-    {
+{
         "word": "күреү",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1595,7 +1595,7 @@
         "v3": "күргән",
         "group": "regular"
     },
-    {
+{
         "word": "ишетеү",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1617,7 +1617,7 @@
         "v3": "ишеткән",
         "group": "regular"
     },
-    {
+{
         "word": "уяныу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1641,7 +1641,7 @@
         "v3": "уянған",
         "group": "regular"
     },
-    {
+{
         "word": "ҡарау",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1663,7 +1663,7 @@
         "v3": "ҡараған",
         "group": "regular"
     },
-    {
+{
         "word": "ҡарау",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1685,7 +1685,7 @@
         "v3": "ҡараған",
         "group": "regular"
     },
-    {
+{
         "word": "уйнау",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1707,7 +1707,7 @@
         "v3": "уйнаған",
         "group": "regular"
     },
-    {
+{
         "word": "йүгереү",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1729,7 +1729,7 @@
         "v3": "йүгергән",
         "group": "regular"
     },
-    {
+{
         "word": "олтороу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1753,7 +1753,7 @@
         "v3": "олторған",
         "group": "regular"
     },
-    {
+{
         "word": "тороу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1777,7 +1777,7 @@
         "v3": "торған",
         "group": "regular"
     },
-    {
+{
         "word": "осрашыу",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1799,7 +1799,7 @@
         "synonyms": ["клиент менән осрашырға", "коллега менән осрашырға"],
         "group": "regular"
     },
-    {
+{
         "word": "өйрәнеү",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1821,7 +1821,7 @@
         "v3": "өйрәнгән",
         "group": "regular"
     },
-    {
+{
         "word": "үҙгәртеү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1843,7 +1843,7 @@
         "v3": "үҙгәрткән",
         "group": "regular"
     },
-    {
+{
         "word": "туҡтау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1865,7 +1865,7 @@
         "v3": "туҡтаған",
         "group": "regular"
     },
-    {
+{
         "word": "өҫтәү",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1887,7 +1887,7 @@
         "v3": "өҫтәгән",
         "group": "regular"
     },
-    {
+{
         "word": "еңеү",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1911,7 +1911,7 @@
         "v3": "еңгән",
         "group": "regular"
     },
-    {
+{
         "word": "көтөү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1933,7 +1933,7 @@
         "v3": "көткән",
         "group": "regular"
     },
-    {
+{
         "word": "үлеү",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -1957,7 +1957,7 @@
         "v3": "үлгән",
         "group": "regular"
     },
-    {
+{
         "word": "ебәреү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1979,7 +1979,7 @@
         "synonyms": ["хат ебәрергә", "хәбәр ебәрергә"],
         "group": "regular"
     },
-    {
+{
         "word": "ҡалыу",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2001,7 +2001,7 @@
         "v3": "ҡалған",
         "group": "regular"
     },
-    {
+{
         "word": "йығылыу",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2023,7 +2023,7 @@
         "v3": "йығылған",
         "group": "regular"
     },
-    {
+{
         "word": "үтеү",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2045,7 +2045,7 @@
         "v3": "үткән",
         "group": "regular"
     },
-    {
+{
         "word": "һатыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2069,7 +2069,7 @@
         "v3": "һатҡан",
         "group": "regular"
     },
-    {
+{
         "word": "тартыу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2093,7 +2093,7 @@
         "v3": "тартҡан",
         "group": "regular"
     },
-    {
+{
         "word": "этәреү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2117,7 +2117,7 @@
         "v3": "этәргән",
         "group": "regular"
     },
-    {
+{
         "word": "ташыу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2139,7 +2139,7 @@
         "v3": "ташыған",
         "group": "regular"
     },
-    {
+{
         "word": "һыныу",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2161,7 +2161,7 @@
         "v3": "һынған",
         "group": "regular"
     },
-    {
+{
         "word": "алыу",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2183,7 +2183,7 @@
         "v3": "алған",
         "group": "regular"
     },
-    {
+{
         "word": "риза булыу",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2205,7 +2205,7 @@
         "v3": "риза булған",
         "group": "regular"
     },
-    {
+{
         "word": "һүрәт төшөрөү",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2227,7 +2227,7 @@
         "v3": "төшөргән",
         "group": "regular"
     },
-    {
+{
         "word": "бүлешеү",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2249,7 +2249,7 @@
         "v3": "бүлешкән",
         "group": "regular"
     },
-    {
+{
         "word": "елмәйеү",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2273,7 +2273,7 @@
         "v3": "елмәйгән",
         "group": "regular"
     },
-    {
+{
         "word": "илау",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2297,7 +2297,7 @@
         "v3": "илаған",
         "group": "regular"
     },
-    {
+{
         "word": "бейеү",
         "level": "starter",
         "theme": "music_A1",
@@ -2319,7 +2319,7 @@
         "v3": "бейегән",
         "group": "regular"
     },
-    {
+{
         "word": "йырлау",
         "level": "starter",
         "theme": "music_A1",
@@ -2341,7 +2341,7 @@
         "v3": "йырлаған",
         "group": "regular"
     },
-    {
+{
         "word": "һикереү",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2363,7 +2363,7 @@
         "v3": "һикергән",
         "group": "regular"
     },
-    {
+{
         "word": "йөҙөү",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2385,7 +2385,7 @@
         "v3": "йөҙгән",
         "group": "regular"
     },
-    {
+{
         "word": "өйрәнеү",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2407,7 +2407,7 @@
         "v3": "өйрәнгән",
         "group": "regular"
     },
-    {
+{
         "word": "уҡытыу",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2429,7 +2429,7 @@
         "v3": "уҡытҡан",
         "group": "regular"
     },
-    {
+{
         "word": "эшкә йөрөү",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2451,7 +2451,7 @@
         "v3": "йөрөгән",
         "group": "regular"
     },
-    {
+{
         "word": "ҡуртымға алыу",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2473,7 +2473,7 @@
         "v3": "ҡуртымға алған",
         "group": "regular"
     },
-    {
+{
         "word": "күнегеүҙәр эшләү",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2495,7 +2495,7 @@
         "synonyms": ["күнегеүҙәр яһарға", "спортзал барырға"],
         "group": "regular"
     },
-    {
+{
         "word": "тора",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2517,7 +2517,7 @@
         "synonyms": ["ҡыйбат торорға", "аҡса торорға"],
         "group": "regular"
     },
-    {
+{
         "word": "саҡырыу",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2539,7 +2539,7 @@
         "synonyms": ["берәүҙе саҡырырға", "төшке ашҡа саҡырырға"],
         "group": "regular"
     },
-    {
+{
         "word": "төшөү",
         "definitions": [
             {
@@ -2561,7 +2561,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "иртәнге ашты ашау",
         "definitions": [
             {
@@ -2582,7 +2582,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ҡайтыу",
         "definitions": [
             {
@@ -2604,7 +2604,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "йоҡларға ятыу",
         "definitions": [
             {
@@ -2626,7 +2626,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "тикшереү",
         "definitions": [
             {
@@ -2648,7 +2648,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "яуап биреү",
         "definitions": [
             {
@@ -2670,7 +2670,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "тәҡдим итеү",
         "definitions": [
             {
@@ -2692,7 +2692,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ҡатнашыу",
         "definitions": [
             {
@@ -2714,7 +2714,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "идара итеү",
         "definitions": [
             {
@@ -2735,7 +2735,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "түләү алыу",
         "definitions": [
             {
@@ -2757,7 +2757,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "булдыра алыу",
         "definitions": [
             {
@@ -2778,7 +2778,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "бурыслы булыу",
         "definitions": [
             {
@@ -2800,7 +2800,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "эшләп алыу",
         "definitions": [
             {
@@ -2822,7 +2822,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "барыу",
         "definitions": [
             {
@@ -2844,7 +2844,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "байрам итеү",
         "definitions": [
             {
@@ -2865,7 +2865,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "тәҡдим итеү",
         "definitions": [
             {
@@ -2887,7 +2887,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ауырыу",
         "definitions": [
             {
@@ -2909,7 +2909,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "ял итеү",
         "definitions": [
             {
@@ -2931,7 +2931,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "һауығыу",
         "definitions": [
             {
@@ -2953,7 +2953,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "заказ биреү",
         "definitions": [
             {
@@ -2975,7 +2975,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "йыйыу",
         "definitions": [
             {
@@ -2997,7 +2997,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "бөтөрөү",
         "definitions": [
             {
@@ -3019,7 +3019,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "һағыныу",
         "definitions": [
             {
@@ -3041,7 +3041,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "заказ биреү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3063,7 +3063,7 @@
         "v3": "заказ бирҙе",
         "group": "regular"
     },
-    {
+{
         "word": "аңлатыу",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3085,7 +3085,7 @@
         "v3": "аңлатҡан",
         "group": "regular"
     },
-    {
+{
         "word": "рәхмәт әйтеү",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3107,7 +3107,7 @@
         "v3": "рәхмәт әйтте",
         "group": "regular"
     },
-    {
+{
         "word": "таныштырыу",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3129,7 +3129,7 @@
         "v3": "таныштырған",
         "group": "regular"
     },
-    {
+{
         "word": "ял итеү",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3151,7 +3151,7 @@
         "v3": "ял иткән",
         "group": "regular"
     },
-    {
+{
         "word": "төҙөтеү",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3173,7 +3173,7 @@
         "v3": "төҙөткән",
         "group": "regular"
     },
-    {
+{
         "word": "булыу",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3195,7 +3195,7 @@
         "v3": "булған",
         "group": "regular"
     },
-    {
+{
         "word": "тойола",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3217,7 +3217,7 @@
         "v3": "тойолған",
         "group": "regular"
     },
-    {
+{
         "word": "аңлата",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3239,7 +3239,7 @@
         "v3": "аңлатҡан",
         "group": "regular"
     },
-    {
+{
         "word": "этеү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3261,7 +3261,7 @@
         "v3": "этеү",
         "group": "regular"
     },
-    {
+{
         "word": "дауам итеү",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3283,7 +3283,7 @@
         "v3": "дауам иткән",
         "group": "regular"
     },
-    {
+{
         "word": "үҫеү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3305,7 +3305,7 @@
         "v3": "үҫкән",
         "group": "regular"
     },
-    {
+{
         "word": "үҙ эсенә алыу",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3327,7 +3327,7 @@
         "v3": "алған",
         "group": "regular"
     },
-    {
+{
         "word": "булыу",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3349,7 +3349,7 @@
         "v3": "булған",
         "group": "regular"
     },
-    {
+{
         "word": "ҡарау",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3371,7 +3371,7 @@
         "v3": "ҡараған",
         "group": "regular"
     },
-    {
+{
         "word": "һайлау",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3393,7 +3393,7 @@
         "v3": "һайлаған",
         "group": "regular"
     },
-    {
+{
         "word": "төҙөү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3414,11 +3414,8 @@
         "v2": "built",
         "v3": "төҙөгән",
         "group": "regular"
-    }
-]
-    const lang = "ba";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{},
+{}
+];
 })();

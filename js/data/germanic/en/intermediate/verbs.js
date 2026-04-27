@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "photograph",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -21,7 +21,7 @@
         "v3": "photographed",
         "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf"
     },
-    {
+{
         "word": "garden",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -42,7 +42,7 @@
         "v3": "gardened",
         "transcription": "ˈɡɑːdn"
     },
-    {
+{
         "word": "fish",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -63,7 +63,7 @@
         "v3": "fished",
         "transcription": "fɪʃ"
     },
-    {
+{
         "word": "volunteer",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -86,7 +86,7 @@
         "v3": "volunteered",
         "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər"
     },
-    {
+{
         "word": "recycle",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -107,7 +107,7 @@
         "v2": "recycled",
         "v3": "recycled"
     },
-    {
+{
         "word": "argue",
         "level": "intermediate",
         "theme": "structured_argument_B1",
@@ -128,7 +128,7 @@
         "v2": "argued",
         "v3": "argued"
     },
-    {
+{
         "word": "suggest",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -149,7 +149,7 @@
         "v2": "suggested",
         "v3": "suggested"
     },
-    {
+{
         "word": "claim",
         "level": "intermediate",
         "theme": "structured_argument_B1",
@@ -170,7 +170,7 @@
         "v2": "claimed",
         "v3": "claimed"
     },
-    {
+{
         "word": "believe",
         "level": "intermediate",
         "theme": "values_beliefs_B1",
@@ -191,7 +191,7 @@
         "v2": "believed",
         "v3": "believed"
     },
-    {
+{
         "word": "deny",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -212,7 +212,7 @@
         "v2": "denied",
         "v3": "denied"
     },
-    {
+{
         "word": "consider",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -233,7 +233,7 @@
         "v2": "considered",
         "v3": "considered"
     },
-    {
+{
         "word": "assume",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -254,7 +254,7 @@
         "v2": "assumed",
         "v3": "assumed"
     },
-    {
+{
         "word": "admit",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -275,7 +275,7 @@
         "v2": "admitted",
         "v3": "admitted"
     },
-    {
+{
         "word": "acknowledge",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -296,7 +296,7 @@
         "v2": "acknowledged",
         "v3": "acknowledged"
     },
-    {
+{
         "word": "doubt",
         "level": "intermediate",
         "theme": "probability_certainty_B1",
@@ -317,7 +317,7 @@
         "v2": "doubted",
         "v3": "doubted"
     },
-    {
+{
         "word": "insist",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -338,7 +338,7 @@
         "v2": "insisted",
         "v3": "insisted"
     },
-    {
+{
         "word": "present",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -359,7 +359,7 @@
         "v2": "presented",
         "v3": "presented"
     },
-    {
+{
         "word": "implement",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -380,7 +380,7 @@
         "v2": "implemented",
         "v3": "implemented"
     },
-    {
+{
         "word": "achieve",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -401,7 +401,7 @@
         "v2": "achieved",
         "v3": "achieved"
     },
-    {
+{
         "word": "contribute",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -422,7 +422,7 @@
         "v2": "contributed",
         "v3": "contributed"
     },
-    {
+{
         "word": "identify",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -443,7 +443,7 @@
         "v2": "identified",
         "v3": "identified"
     },
-    {
+{
         "word": "adapt",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -464,7 +464,7 @@
         "v2": "adapted",
         "v3": "adapted"
     },
-    {
+{
         "word": "motivate",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -485,7 +485,7 @@
         "v2": "motivated",
         "v3": "motivated"
     },
-    {
+{
         "word": "prioritise",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -506,7 +506,7 @@
         "v2": "prioritised",
         "v3": "prioritised"
     },
-    {
+{
         "word": "resolve",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -527,7 +527,7 @@
         "v2": "resolved",
         "v3": "resolved"
     },
-    {
+{
         "word": "develop",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -548,7 +548,7 @@
         "v2": "developed",
         "v3": "developed"
     },
-    {
+{
         "word": "increase",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -569,7 +569,7 @@
         "v2": "increased",
         "v3": "increased"
     },
-    {
+{
         "word": "reduce",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -590,7 +590,7 @@
         "v2": "reduced",
         "v3": "reduced"
     },
-    {
+{
         "word": "affect",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -611,7 +611,7 @@
         "v2": "affected",
         "v3": "affected"
     },
-    {
+{
         "word": "cause",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -632,7 +632,7 @@
         "v2": "caused",
         "v3": "caused"
     },
-    {
+{
         "word": "improve",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -653,7 +653,7 @@
         "v2": "improved",
         "v3": "improved"
     },
-    {
+{
         "word": "replace",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -674,7 +674,7 @@
         "v2": "replaced",
         "v3": "replaced"
     },
-    {
+{
         "word": "report",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -695,7 +695,7 @@
         "v2": "reported",
         "v3": "reported"
     },
-    {
+{
         "word": "warn",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -716,7 +716,7 @@
         "v2": "warned",
         "v3": "warned"
     },
-    {
+{
         "word": "confirm",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -737,7 +737,7 @@
         "v2": "confirmed",
         "v3": "confirmed"
     },
-    {
+{
         "word": "explain",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -758,7 +758,7 @@
         "v2": "explained",
         "v3": "explained"
     },
-    {
+{
         "word": "describe",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -779,7 +779,7 @@
         "v2": "described",
         "v3": "described"
     },
-    {
+{
         "word": "vote",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -800,7 +800,7 @@
         "v2": "voted",
         "v3": "voted"
     },
-    {
+{
         "word": "participate",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -821,7 +821,7 @@
         "v2": "participated",
         "v3": "participated"
     },
-    {
+{
         "word": "protest",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -842,7 +842,7 @@
         "v2": "protested",
         "v3": "protested"
     },
-    {
+{
         "word": "support",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -863,7 +863,7 @@
         "v2": "supported",
         "v3": "supported"
     },
-    {
+{
         "word": "raise",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -884,7 +884,7 @@
         "v2": "raised",
         "v3": "raised"
     },
-    {
+{
         "word": "worry",
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
@@ -905,7 +905,7 @@
         "v2": "worried",
         "v3": "worried"
     },
-    {
+{
         "word": "regret",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -926,7 +926,7 @@
         "v2": "regretted",
         "v3": "regretted"
     },
-    {
+{
         "word": "resent",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -947,7 +947,7 @@
         "v2": "resented",
         "v3": "resented"
     },
-    {
+{
         "word": "appreciate",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -968,7 +968,7 @@
         "v2": "appreciated",
         "v3": "appreciated"
     },
-    {
+{
         "word": "blame",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -989,7 +989,7 @@
         "v2": "blamed",
         "v3": "blamed"
     },
-    {
+{
         "word": "encourage",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1010,7 +1010,7 @@
         "v2": "encouraged",
         "v3": "encouraged"
     },
-    {
+{
         "word": "take on",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1031,7 +1031,7 @@
         "v2": "took on",
         "v3": "taken on"
     },
-    {
+{
         "word": "put off",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -1052,7 +1052,7 @@
         "v2": "put off",
         "v3": "put off"
     },
-    {
+{
         "word": "come across",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1073,7 +1073,7 @@
         "v2": "came across",
         "v3": "come across"
     },
-    {
+{
         "word": "deal with",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1094,7 +1094,7 @@
         "v2": "dealt with",
         "v3": "dealt with"
     },
-    {
+{
         "word": "stand for",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -1115,7 +1115,7 @@
         "v2": "stood for",
         "v3": "stood for"
     },
-    {
+{
         "word": "build up",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -1136,7 +1136,7 @@
         "v2": "built up",
         "v3": "built up"
     },
-    {
+{
         "word": "run out",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -1157,7 +1157,7 @@
         "v2": "ran out",
         "v3": "run out"
     },
-    {
+{
         "word": "look into",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1177,12 +1177,11 @@
         "aspect": "action",
         "v2": "looked into",
         "v3": "looked into"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "en";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

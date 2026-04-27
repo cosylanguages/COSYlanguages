@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "լինել",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -23,7 +23,7 @@
         "v3": "եղել",
         "group": "irregular"
     },
-    {
+{
         "word": "ունենալ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -45,7 +45,7 @@
         "v3": "ունեցել",
         "group": "irregular"
     },
-    {
+{
         "word": "զգալ",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -66,7 +66,7 @@
         "v3": "զգացել",
         "group": "irregular"
     },
-    {
+{
         "word": "տալ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -89,7 +89,7 @@
         "v3": "տվել",
         "group": "irregular"
     },
-    {
+{
         "word": "վերցնել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -113,7 +113,7 @@
         "v3": "վերցրել",
         "group": "irregular"
     },
-    {
+{
         "word": "ստանալ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -134,7 +134,7 @@
         "v3": "ստացել",
         "group": "irregular"
     },
-    {
+{
         "word": "դնել",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -155,7 +155,7 @@
         "v3": "դրել",
         "group": "irregular"
     },
-    {
+{
         "word": "պատրաստել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -177,7 +177,7 @@
         "v3": "պատրաստել",
         "group": "irregular"
     },
-    {
+{
         "word": "անել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -198,7 +198,7 @@
         "v3": "արել",
         "group": "irregular"
     },
-    {
+{
         "word": "օգտագործել",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -219,7 +219,7 @@
         "v3": "օգտագործել",
         "group": "el"
     },
-    {
+{
         "word": "բացել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -242,7 +242,7 @@
         "v3": "բացել",
         "group": "el"
     },
-    {
+{
         "word": "փակել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -265,7 +265,7 @@
         "v3": "փակել",
         "group": "el"
     },
-    {
+{
         "word": "սկսել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -288,7 +288,7 @@
         "v3": "սկսել",
         "group": "el"
     },
-    {
+{
         "word": "ավարտել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -311,7 +311,7 @@
         "v3": "ավարտել",
         "group": "el"
     },
-    {
+{
         "word": "օգնել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -332,7 +332,7 @@
         "v3": "օգնել",
         "group": "el"
     },
-    {
+{
         "word": "փորձել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -353,7 +353,7 @@
         "v3": "փորձել",
         "group": "el"
     },
-    {
+{
         "word": "ցույց տալ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -374,7 +374,7 @@
         "v3": "ցույց տվել",
         "group": "irregular"
     },
-    {
+{
         "word": "գտնել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -395,7 +395,7 @@
         "v3": "գտել",
         "group": "irregular"
     },
-    {
+{
         "word": "պահել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -416,7 +416,7 @@
         "v3": "պահել",
         "group": "irregular"
     },
-    {
+{
         "word": "կորցնել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -439,7 +439,7 @@
         "v3": "կորցրել",
         "group": "irregular"
     },
-    {
+{
         "word": "կտրել",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -460,7 +460,7 @@
         "v3": "կտրել",
         "group": "irregular"
     },
-    {
+{
         "word": "պտտել",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -482,7 +482,7 @@
         "v3": "պտտել",
         "group": "el"
     },
-    {
+{
         "word": "բերել",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -503,7 +503,7 @@
         "v3": "բերել",
         "group": "irregular"
     },
-    {
+{
         "word": "ասել",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -524,7 +524,7 @@
         "v3": "ասել",
         "group": "irregular"
     },
-    {
+{
         "word": "պատմել",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -545,7 +545,7 @@
         "v3": "պատմել",
         "group": "irregular"
     },
-    {
+{
         "word": "հարցնել",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -567,7 +567,7 @@
         "v3": "հարցրել",
         "group": "el"
     },
-    {
+{
         "word": "խոսել",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -588,7 +588,7 @@
         "v3": "խոսել",
         "group": "irregular"
     },
-    {
+{
         "word": "զրուցել",
         "level": "starter",
         "theme": "family_life_A1",
@@ -609,7 +609,7 @@
         "v3": "զրուցել",
         "group": "el"
     },
-    {
+{
         "word": "զանգել",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -630,7 +630,7 @@
         "v3": "զանգել",
         "group": "el"
     },
-    {
+{
         "word": "գրել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -653,7 +653,7 @@
         "v3": "գրել",
         "group": "irregular"
     },
-    {
+{
         "word": "կարդալ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -676,7 +676,7 @@
         "v3": "կարդացել",
         "group": "irregular"
     },
-    {
+{
         "word": "լսել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -697,7 +697,7 @@
         "v3": "լսել",
         "group": "el"
     },
-    {
+{
         "word": "պատասխանել",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -718,7 +718,7 @@
         "v3": "պատասխանել",
         "group": "el"
     },
-    {
+{
         "word": "կրկնել",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -739,7 +739,7 @@
         "v3": "կրկնել",
         "group": "el"
     },
-    {
+{
         "word": "գնալ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -760,7 +760,7 @@
         "v3": "գնացել",
         "group": "irregular"
     },
-    {
+{
         "word": "գալ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -783,7 +783,7 @@
         "v3": "եկել",
         "group": "irregular"
     },
-    {
+{
         "word": "քայլել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -804,7 +804,7 @@
         "v3": "քայլել",
         "group": "el"
     },
-    {
+{
         "word": "վարել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -825,7 +825,7 @@
         "v3": "վարել",
         "group": "irregular"
     },
-    {
+{
         "word": "թռչել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -846,7 +846,7 @@
         "v3": "թռել",
         "group": "irregular"
     },
-    {
+{
         "word": "ժամանել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -867,7 +867,7 @@
         "v3": "ժամանել",
         "group": "el"
     },
-    {
+{
         "word": "հեռանալ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -889,7 +889,7 @@
         "v3": "հեռացել",
         "group": "irregular"
     },
-    {
+{
         "word": "տեղափոխվել",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -910,7 +910,7 @@
         "v3": "տեղափոխվել",
         "group": "el"
     },
-    {
+{
         "word": "վերադառնալ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -931,7 +931,7 @@
         "v3": "վերադարձել",
         "group": "al"
     },
-    {
+{
         "word": "ճամփորդել",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -952,7 +952,7 @@
         "v3": "ճամփորդել",
         "group": "el"
     },
-    {
+{
         "word": "ուտել",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -975,7 +975,7 @@
         "v3": "կերել",
         "group": "irregular"
     },
-    {
+{
         "word": "խմել",
         "level": "starter",
         "theme": "drinks_A1",
@@ -998,7 +998,7 @@
         "v3": "խմել",
         "group": "irregular"
     },
-    {
+{
         "word": "քնել",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1021,7 +1021,7 @@
         "v3": "քնել",
         "group": "irregular"
     },
-    {
+{
         "word": "եփել",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1042,7 +1042,7 @@
         "v3": "եփել",
         "group": "el"
     },
-    {
+{
         "word": "մաքրել",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1063,7 +1063,7 @@
         "v3": "մաքրել",
         "group": "el"
     },
-    {
+{
         "word": "հագնել",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1084,7 +1084,7 @@
         "v3": "հագել",
         "group": "irregular"
     },
-    {
+{
         "word": "լվանալ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1105,7 +1105,7 @@
         "v3": "լվացել",
         "group": "al"
     },
-    {
+{
         "word": "գնել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1128,7 +1128,7 @@
         "v3": "գնել",
         "group": "irregular"
     },
-    {
+{
         "word": "վճարել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1149,7 +1149,7 @@
         "v3": "վճարել",
         "group": "irregular"
     },
-    {
+{
         "word": "ծախսել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1170,7 +1170,7 @@
         "v3": "ծախսել",
         "group": "irregular"
     },
-    {
+{
         "word": "խնայել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1193,7 +1193,7 @@
         "v3": "խնայել",
         "group": "el"
     },
-    {
+{
         "word": "աշխատել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1214,7 +1214,7 @@
         "v3": "աշխատել",
         "group": "el"
     },
-    {
+{
         "word": "ապրել",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1237,7 +1237,7 @@
         "v3": "ապրել",
         "group": "el"
     },
-    {
+{
         "word": "մտածել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1258,7 +1258,7 @@
         "v3": "մտածել",
         "group": "irregular"
     },
-    {
+{
         "word": "իմանալ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1279,7 +1279,7 @@
         "v3": "իմացել",
         "group": "irregular"
     },
-    {
+{
         "word": "ուզել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1300,7 +1300,7 @@
         "v3": "ուզել",
         "group": "el"
     },
-    {
+{
         "word": "կարիք ունենալ",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1321,7 +1321,7 @@
         "v3": "կարիք ունեցել",
         "group": "al"
     },
-    {
+{
         "word": "հավանել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1342,7 +1342,7 @@
         "v3": "հավանել",
         "group": "el"
     },
-    {
+{
         "word": "սիրել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1363,7 +1363,7 @@
         "v3": "սիրել",
         "group": "el"
     },
-    {
+{
         "word": "ատել",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1384,7 +1384,7 @@
         "v3": "ատել",
         "group": "el"
     },
-    {
+{
         "word": "հուսալ",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1406,7 +1406,7 @@
         "v3": "հուսացել",
         "group": "al"
     },
-    {
+{
         "word": "հիշել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1427,7 +1427,7 @@
         "v3": "հիշել",
         "group": "el"
     },
-    {
+{
         "word": "մոռանալ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1448,7 +1448,7 @@
         "v3": "մոռացել",
         "group": "irregular"
     },
-    {
+{
         "word": "հասկանալ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1469,7 +1469,7 @@
         "v3": "հասկացել",
         "group": "irregular"
     },
-    {
+{
         "word": "որոշել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1490,7 +1490,7 @@
         "v3": "որոշել",
         "group": "el"
     },
-    {
+{
         "word": "վայելել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1511,7 +1511,7 @@
         "v3": "վայելել",
         "group": "el"
     },
-    {
+{
         "word": "տեսնել",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1532,7 +1532,7 @@
         "v3": "տեսել",
         "group": "irregular"
     },
-    {
+{
         "word": "լսել",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1553,7 +1553,7 @@
         "v3": "լսել",
         "group": "irregular"
     },
-    {
+{
         "word": "արթնանալ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1576,7 +1576,7 @@
         "v3": "արթնացել",
         "group": "irregular"
     },
-    {
+{
         "word": "դիտել",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1597,7 +1597,7 @@
         "v3": "դիտել",
         "group": "el"
     },
-    {
+{
         "word": "նայել",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1618,7 +1618,7 @@
         "v3": "նայել",
         "group": "el"
     },
-    {
+{
         "word": "խաղալ",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1639,7 +1639,7 @@
         "v3": "խաղացել",
         "group": "al"
     },
-    {
+{
         "word": "վազել",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1660,7 +1660,7 @@
         "v3": "վազել",
         "group": "irregular"
     },
-    {
+{
         "word": "նստել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1683,7 +1683,7 @@
         "v3": "նստել",
         "group": "irregular"
     },
-    {
+{
         "word": "կանգնել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1706,7 +1706,7 @@
         "v3": "կանգնել",
         "group": "irregular"
     },
-    {
+{
         "word": "հանդիպել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1727,7 +1727,7 @@
         "subtext": "նոր մարդկանց հանդիպել / օդանավակայանում հանդիպել",
         "group": "irregular"
     },
-    {
+{
         "word": "սովորել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1748,7 +1748,7 @@
         "v3": "սովորել",
         "group": "el"
     },
-    {
+{
         "word": "փոխել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1769,7 +1769,7 @@
         "v3": "փոխել",
         "group": "el"
     },
-    {
+{
         "word": "կանգնեցնել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1791,7 +1791,7 @@
         "v3": "կանգնեցրել",
         "group": "el"
     },
-    {
+{
         "word": "ավելացնել",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1812,7 +1812,7 @@
         "v3": "ավելացրել",
         "group": "el"
     },
-    {
+{
         "word": "հաղթել",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1835,7 +1835,7 @@
         "v3": "հաղթել",
         "group": "irregular"
     },
-    {
+{
         "word": "սպասել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1856,7 +1856,7 @@
         "v3": "սպասել",
         "group": "el"
     },
-    {
+{
         "word": "մահանալ",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -1879,7 +1879,7 @@
         "v3": "մահացել",
         "group": "al"
     },
-    {
+{
         "word": "ուղարկել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1900,7 +1900,7 @@
         "subtext": "նամակ ուղարկել / փաթեթ ուղարկել",
         "group": "irregular"
     },
-    {
+{
         "word": "մնալ",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1921,7 +1921,7 @@
         "v3": "մնացել",
         "group": "al"
     },
-    {
+{
         "word": "ընկնել",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -1942,7 +1942,7 @@
         "v3": "ընկել",
         "group": "irregular"
     },
-    {
+{
         "word": "անցնել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1963,7 +1963,7 @@
         "v3": "անցել",
         "group": "el"
     },
-    {
+{
         "word": "վաճառել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1986,7 +1986,7 @@
         "v3": "վաճառել",
         "group": "irregular"
     },
-    {
+{
         "word": "քաշել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2009,7 +2009,7 @@
         "v3": "քաշել",
         "group": "el"
     },
-    {
+{
         "word": "հրել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2033,7 +2033,7 @@
         "v3": "հրել",
         "group": "el"
     },
-    {
+{
         "word": "տանել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2054,7 +2054,7 @@
         "v3": "տարել",
         "group": "el"
     },
-    {
+{
         "word": "կոտրել",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2075,7 +2075,7 @@
         "v3": "կոտրել",
         "group": "irregular"
     },
-    {
+{
         "word": "ստանալ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2096,7 +2096,7 @@
         "v3": "ստացել",
         "group": "al"
     },
-    {
+{
         "word": "համաձայնել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2117,7 +2117,7 @@
         "v3": "համաձայնել",
         "group": "el"
     },
-    {
+{
         "word": "նկարել",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2139,7 +2139,7 @@
         "v3": "նկարել",
         "group": "irregular"
     },
-    {
+{
         "word": "կիսվել",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2161,7 +2161,7 @@
         "v3": "կիսվել",
         "group": "el"
     },
-    {
+{
         "word": "ժպտալ",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2184,7 +2184,7 @@
         "v3": "ժպտացել",
         "group": "al"
     },
-    {
+{
         "word": "լաց լինել",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2207,7 +2207,7 @@
         "v3": "լաց եղել",
         "group": "el"
     },
-    {
+{
         "word": "պարել",
         "level": "starter",
         "theme": "music_A1",
@@ -2228,7 +2228,7 @@
         "v3": "պարել",
         "group": "el"
     },
-    {
+{
         "word": "երգել",
         "level": "starter",
         "theme": "music_A1",
@@ -2249,7 +2249,7 @@
         "v3": "երգել",
         "group": "irregular"
     },
-    {
+{
         "word": "ցատկել",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2270,7 +2270,7 @@
         "v3": "ցատկել",
         "group": "el"
     },
-    {
+{
         "word": "լողալ",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2291,7 +2291,7 @@
         "v3": "լողացել",
         "group": "irregular"
     },
-    {
+{
         "word": "ուսումնասիրել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2313,7 +2313,7 @@
         "v3": "ուսումնասիրել",
         "group": "el"
     },
-    {
+{
         "word": "դասավանդել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2334,7 +2334,7 @@
         "v3": "դասավանդել",
         "group": "irregular"
     },
-    {
+{
         "word": "երթևեկել",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2355,7 +2355,7 @@
         "v3": "երթևեկել",
         "group": "el"
     },
-    {
+{
         "word": "վարձել",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2376,7 +2376,7 @@
         "v3": "վարձել",
         "group": "el"
     },
-    {
+{
         "word": "մարզվել",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2397,7 +2397,7 @@
         "subtext": "ամեն օր մարզվել / մարզասրահում մարզվել",
         "group": "el"
     },
-    {
+{
         "word": "արժենալ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2418,7 +2418,7 @@
         "subtext": "շատ արժենալ / քիչ արժենալ",
         "group": "irregular"
     },
-    {
+{
         "word": "հրավիրել",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2439,7 +2439,7 @@
         "subtext": "հյուրեր հրավիրել / խնջույքին հրավիրել",
         "group": "el"
     },
-    {
+{
         "word": "վեր կենալ",
         "definitions": [
             {
@@ -2460,7 +2460,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "նախաճաշել",
         "definitions": [
             {
@@ -2481,7 +2481,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "վերադառնալ",
         "definitions": [
             {
@@ -2502,7 +2502,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "անկողին գնալ",
         "definitions": [
             {
@@ -2523,7 +2523,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "ստուգել",
         "definitions": [
             {
@@ -2544,7 +2544,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "պատասխանել",
         "definitions": [
             {
@@ -2565,7 +2565,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "ներկայացնել",
         "definitions": [
             {
@@ -2586,7 +2586,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "մասնակցել",
         "definitions": [
             {
@@ -2607,7 +2607,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "ղեկավարել",
         "definitions": [
             {
@@ -2628,7 +2628,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "գանձել",
         "definitions": [
             {
@@ -2649,7 +2649,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "թույլ տալ",
         "definitions": [
             {
@@ -2670,7 +2670,7 @@
         "form": "verb",
         "group": "al"
     },
-    {
+{
         "word": "պարտք լինել",
         "definitions": [
             {
@@ -2691,7 +2691,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "վաստակել",
         "definitions": [
             {
@@ -2712,7 +2712,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "այցելել",
         "definitions": [
             {
@@ -2733,7 +2733,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "տոնել",
         "definitions": [
             {
@@ -2754,7 +2754,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "խորհուրդ տալ",
         "definitions": [
             {
@@ -2775,7 +2775,7 @@
         "form": "verb",
         "group": "al"
     },
-    {
+{
         "word": "ցավեցնել",
         "definitions": [
             {
@@ -2797,7 +2797,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "հանգստանալ",
         "definitions": [
             {
@@ -2818,7 +2818,7 @@
         "form": "verb",
         "group": "al"
     },
-    {
+{
         "word": "ապաքինվել",
         "definitions": [
             {
@@ -2839,7 +2839,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "ամրագրել",
         "definitions": [
             {
@@ -2860,7 +2860,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "հավաքել",
         "definitions": [
             {
@@ -2881,7 +2881,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "չեղարկել",
         "definitions": [
             {
@@ -2902,7 +2902,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "բաց թողնել",
         "definitions": [
             {
@@ -2923,7 +2923,7 @@
         "form": "verb",
         "group": "el"
     },
-    {
+{
         "word": "պատվիրել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2944,7 +2944,7 @@
         "v3": "պատվիրել",
         "group": "el"
     },
-    {
+{
         "word": "բացատրել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2965,7 +2965,7 @@
         "v3": "բացատրել",
         "group": "el"
     },
-    {
+{
         "word": "շնորհակալություն հայտնել",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -2986,7 +2986,7 @@
         "v3": "շնորհակալություն հայտնել",
         "group": "el"
     },
-    {
+{
         "word": "ներկայացնել",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3007,7 +3007,7 @@
         "v3": "ներկայացրել",
         "group": "el"
     },
-    {
+{
         "word": "թուլանալ",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3028,7 +3028,7 @@
         "v3": "թուլացել",
         "group": "al"
     },
-    {
+{
         "word": "նորոգել",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3049,7 +3049,7 @@
         "v3": "նորոգել",
         "group": "el"
     },
-    {
+{
         "word": "պատահել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3071,7 +3071,7 @@
         "v3": "պատահել",
         "group": "el"
     },
-    {
+{
         "word": "թվալ",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3092,7 +3092,7 @@
         "v3": "թվացել",
         "group": "al"
     },
-    {
+{
         "word": "նշանակել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3114,7 +3114,7 @@
         "v3": "նշանակել",
         "group": "irregular"
     },
-    {
+{
         "word": "հետևել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3135,7 +3135,7 @@
         "v3": "հետևել",
         "group": "el"
     },
-    {
+{
         "word": "շարունակել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3156,7 +3156,7 @@
         "v3": "շարունակել",
         "group": "el"
     },
-    {
+{
         "word": "աճել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3177,7 +3177,7 @@
         "v3": "աճել",
         "group": "irregular"
     },
-    {
+{
         "word": "ներառել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3198,7 +3198,7 @@
         "v3": "ներառել",
         "group": "el"
     },
-    {
+{
         "word": "դառնալ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3219,7 +3219,7 @@
         "v3": "դարձել",
         "group": "irregular"
     },
-    {
+{
         "word": "պատկանել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3240,7 +3240,7 @@
         "v3": "պատկանել",
         "group": "el"
     },
-    {
+{
         "word": "ընտրել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3261,7 +3261,7 @@
         "v3": "ընտրել",
         "group": "irregular"
     },
-    {
+{
         "word": "կառուցել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3281,11 +3281,8 @@
         "v2": "կառուցեց",
         "v3": "կառուցել",
         "group": "irregular"
-    }
-]
-    const lang = "hy";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{},
+{}
+];
 })();

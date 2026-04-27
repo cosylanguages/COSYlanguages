@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "сад",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "инженер",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -18,7 +28,7 @@
             }
         ]
     },
-    {
+{
         "word": "пилот",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -36,7 +46,7 @@
             }
         ]
     },
-    {
+{
         "word": "разработчик ПО",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -53,7 +63,7 @@
             }
         ]
     },
-    {
+{
         "word": "карьера",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -70,7 +80,7 @@
             }
         ]
     },
-    {
+{
         "word": "сокращение",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -88,7 +98,7 @@
             }
         ]
     },
-    {
+{
         "word": "гибкий график",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -105,7 +115,7 @@
             }
         ]
     },
-    {
+{
         "word": "нетворкинг",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -122,7 +132,7 @@
             }
         ]
     },
-    {
+{
         "word": "нагрузка",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -141,7 +151,7 @@
             }
         ]
     },
-    {
+{
         "word": "командная работа",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -158,7 +168,7 @@
             }
         ]
     },
-    {
+{
         "word": "амбиция",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -175,7 +185,7 @@
             }
         ]
     },
-    {
+{
         "word": "навык",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -194,7 +204,7 @@
             }
         ]
     },
-    {
+{
         "word": "декретный отпуск",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -211,7 +221,7 @@
             }
         ]
     },
-    {
+{
         "word": "пенсия",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -228,7 +238,7 @@
             }
         ]
     },
-    {
+{
         "word": "инвестиция",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -245,7 +255,7 @@
             }
         ]
     },
-    {
+{
         "word": "процентная ставка",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -262,7 +272,7 @@
             }
         ]
     },
-    {
+{
         "word": "доход",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -279,7 +289,7 @@
             }
         ]
     },
-    {
+{
         "word": "страховка",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -296,7 +306,7 @@
             }
         ]
     },
-    {
+{
         "word": "налог",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -313,7 +323,7 @@
             }
         ]
     },
-    {
+{
         "word": "благополучие",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -331,7 +341,7 @@
             }
         ]
     },
-    {
+{
         "word": "ментальное здоровье",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -348,7 +358,7 @@
             }
         ]
     },
-    {
+{
         "word": "выгорание",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -366,7 +376,7 @@
             }
         ]
     },
-    {
+{
         "word": "профилактика",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -385,7 +395,7 @@
             }
         ]
     },
-    {
+{
         "word": "симптом",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -402,7 +412,7 @@
             }
         ]
     },
-    {
+{
         "word": "терапия",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -419,7 +429,7 @@
             }
         ]
     },
-    {
+{
         "word": "доверие",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -435,7 +445,7 @@
             }
         ]
     },
-    {
+{
         "word": "конфликт",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -452,7 +462,7 @@
             }
         ]
     },
-    {
+{
         "word": "ответственность",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
@@ -468,7 +478,7 @@
             }
         ]
     },
-    {
+{
         "word": "ожидание",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -485,7 +495,7 @@
             }
         ]
     },
-    {
+{
         "word": "граница",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -504,7 +514,7 @@
             }
         ]
     },
-    {
+{
         "word": "развод",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -521,7 +531,7 @@
             }
         ]
     },
-    {
+{
         "word": "равенство",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -538,7 +548,7 @@
             }
         ]
     },
-    {
+{
         "word": "свобода",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -555,7 +565,7 @@
             }
         ]
     },
-    {
+{
         "word": "неравенство",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -572,7 +582,7 @@
             }
         ]
     },
-    {
+{
         "word": "волонтёр",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -589,7 +599,7 @@
             }
         ]
     },
-    {
+{
         "word": "сообщество",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -608,7 +618,7 @@
             }
         ]
     },
-    {
+{
         "word": "поколение",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -625,7 +635,7 @@
             }
         ]
     },
-    {
+{
         "word": "изменение климата",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -642,7 +652,7 @@
             }
         ]
     },
-    {
+{
         "word": "возобновляемая энергия",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -659,7 +669,7 @@
             }
         ]
     },
-    {
+{
         "word": "углеродный след",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -676,7 +686,7 @@
             }
         ]
     },
-    {
+{
         "word": "отходы",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -695,7 +705,7 @@
             }
         ]
     },
-    {
+{
         "word": "однако",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -712,7 +722,7 @@
             }
         ]
     },
-    {
+{
         "word": "хотя",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -728,7 +738,7 @@
             }
         ]
     },
-    {
+{
         "word": "с другой стороны",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -743,7 +753,7 @@
             }
         ]
     },
-    {
+{
         "word": "по моему мнению",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -760,7 +770,7 @@
             }
         ]
     },
-    {
+{
         "word": "в результате",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -777,7 +787,7 @@
             }
         ]
     },
-    {
+{
         "word": "пельмени",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -793,7 +803,7 @@
             }
         ]
     },
-    {
+{
         "word": "шашлык",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -810,7 +820,7 @@
             }
         ]
     },
-    {
+{
         "word": "квас",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -826,7 +836,7 @@
             }
         ]
     },
-    {
+{
         "word": "библиотека",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -843,7 +853,7 @@
             }
         ]
     },
-    {
+{
         "word": "музей",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -860,7 +870,7 @@
             }
         ]
     },
-    {
+{
         "word": "аэропорт",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -877,7 +887,7 @@
             }
         ]
     },
-    {
+{
         "word": "шкаф",
         "level": "intermediate",
         "theme": "home_living",
@@ -894,7 +904,7 @@
             }
         ]
     },
-    {
+{
         "word": "слон",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -911,7 +921,7 @@
             }
         ]
     },
-    {
+{
         "word": "обезьяна",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -927,9 +937,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "ru";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

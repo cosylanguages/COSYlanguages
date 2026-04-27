@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "engineer",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -25,7 +35,7 @@
             }
         ]
     },
-    {
+{
         "word": "pilot",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -50,7 +60,7 @@
             }
         ]
     },
-    {
+{
         "word": "sushi",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -75,7 +85,7 @@
             }
         ]
     },
-    {
+{
         "word": "pancake",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -100,7 +110,7 @@
             }
         ]
     },
-    {
+{
         "word": "carrot",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -126,7 +136,7 @@
             }
         ]
     },
-    {
+{
         "word": "milkshake",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -151,7 +161,7 @@
             }
         ]
     },
-    {
+{
         "word": "library",
         "level": "intermediate",
         "theme": "neighbourhood_local_A2",
@@ -162,7 +172,7 @@
         "transcription": "ˈlaɪbrəri",
         "countability": "countable"
     },
-    {
+{
         "word": "museum",
         "level": "intermediate",
         "theme": "neighbourhood_local_A2",
@@ -172,7 +182,7 @@
         "transcription": "mjuˈziːəm",
         "countability": "countable"
     },
-    {
+{
         "word": "airport",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -197,7 +207,7 @@
             }
         ]
     },
-    {
+{
         "word": "sweater",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -211,7 +221,7 @@
             "🇬🇧 jumper"
         ]
     },
-    {
+{
         "word": "scarf",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -221,7 +231,7 @@
         "transcription": "skɑːf",
         "countability": "countable"
     },
-    {
+{
         "word": "wardrobe",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -235,7 +245,7 @@
             "🇺🇸 closet"
         ]
     },
-    {
+{
         "word": "shelf",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -245,7 +255,7 @@
         "transcription": "ʃɛlf",
         "countability": "countable"
     },
-    {
+{
         "word": "mirror",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -255,7 +265,7 @@
         "transcription": "🇬🇧 ˈmɪrə | 🇺🇸 ˈmɪrər",
         "countability": "countable"
     },
-    {
+{
         "word": "umbrella",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -265,7 +275,7 @@
         "transcription": "ʌmˈbrɛlə",
         "countability": "countable"
     },
-    {
+{
         "word": "laptop",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -275,7 +285,7 @@
         "transcription": "🇬🇧 ˈlæptɒp | 🇺🇸 ˈlæptɑːp",
         "countability": "countable"
     },
-    {
+{
         "word": "elephant",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -285,7 +295,7 @@
         "transcription": "ˈɛlɪfənt",
         "countability": "countable"
     },
-    {
+{
         "word": "monkey",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -295,7 +305,7 @@
         "transcription": "ˈmʌŋki",
         "countability": "countable"
     },
-    {
+{
         "word": "software developer",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -321,7 +331,7 @@
             }
         ]
     },
-    {
+{
         "word": "architect",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -346,7 +356,7 @@
             }
         ]
     },
-    {
+{
         "word": "algorithm",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -356,7 +366,7 @@
         "transcription": "ˈælɡərɪðəm",
         "countability": "countable"
     },
-    {
+{
         "word": "evolution",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -366,7 +376,7 @@
         "transcription": "ˌiːvəˈluːʃn",
         "countability": "uncountable"
     },
-    {
+{
         "word": "democracy",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -376,7 +386,7 @@
         "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
         "countability": "countable"
     },
-    {
+{
         "word": "ecosystem",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -386,7 +396,7 @@
         "transcription": "🇬🇧 ˈiːkəʊˌsɪstəm | 🇺🇸 ˈiːkoʊˌsɪstəm",
         "countability": "countable"
     },
-    {
+{
         "word": "colleague",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -396,7 +406,7 @@
         "transcription": "🇬🇧 ˈkɒliːɡ | 🇺🇸 ˈkɑːliːɡ",
         "countability": "countable"
     },
-    {
+{
         "word": "remote work",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -415,7 +425,7 @@
         ],
         "subtext": "remote work policy, shift to remote work"
     },
-    {
+{
         "word": "global warming",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -425,7 +435,7 @@
         "transcription": "🇬🇧 ˈɡləʊbl ˈwɔːmɪŋ | 🇺🇸 ˈɡloʊbl ˈwɔːmɪŋ",
         "countability": "uncountable"
     },
-    {
+{
         "word": "commuter",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -450,7 +460,7 @@
             }
         ]
     },
-    {
+{
         "word": "child",
         "theme": "society_community_B1",
         "level": "intermediate",
@@ -471,7 +481,7 @@
             }
         ]
     },
-    {
+{
         "word": "leaf",
         "theme": "environment_sustainability_B1",
         "level": "intermediate",
@@ -483,7 +493,7 @@
         "transcription": "liːf",
         "countability": "countable"
     },
-    {
+{
         "word": "tooth",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -495,7 +505,7 @@
         "transcription": "tuːθ",
         "countability": "countable"
     },
-    {
+{
         "word": "career",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -515,7 +525,7 @@
             }
         ]
     },
-    {
+{
         "word": "redundancy",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -536,7 +546,7 @@
             }
         ]
     },
-    {
+{
         "word": "flexible working",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -556,7 +566,7 @@
             }
         ]
     },
-    {
+{
         "word": "networking",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -577,7 +587,7 @@
             }
         ]
     },
-    {
+{
         "word": "workload",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -598,7 +608,7 @@
             }
         ]
     },
-    {
+{
         "word": "teamwork",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -618,7 +628,7 @@
             }
         ]
     },
-    {
+{
         "word": "ambition",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -639,7 +649,7 @@
             }
         ]
     },
-    {
+{
         "word": "skill",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -659,7 +669,7 @@
             }
         ]
     },
-    {
+{
         "word": "maternity leave",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -679,7 +689,7 @@
             }
         ]
     },
-    {
+{
         "word": "pension",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -700,7 +710,7 @@
             }
         ]
     },
-    {
+{
         "word": "investment",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -721,7 +731,7 @@
             }
         ]
     },
-    {
+{
         "word": "interest rate",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -741,7 +751,7 @@
             }
         ]
     },
-    {
+{
         "word": "income",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -764,7 +774,7 @@
             }
         ]
     },
-    {
+{
         "word": "insurance",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -785,7 +795,7 @@
             }
         ]
     },
-    {
+{
         "word": "tax",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -805,7 +815,7 @@
             }
         ]
     },
-    {
+{
         "word": "wellbeing",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -826,7 +836,7 @@
             }
         ]
     },
-    {
+{
         "word": "mental health",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -846,7 +856,7 @@
             }
         ]
     },
-    {
+{
         "word": "burnout",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -867,7 +877,7 @@
             }
         ]
     },
-    {
+{
         "word": "prevention",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -887,7 +897,7 @@
             }
         ]
     },
-    {
+{
         "word": "symptoms",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -907,7 +917,7 @@
             }
         ]
     },
-    {
+{
         "word": "therapy",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -928,7 +938,7 @@
             }
         ]
     },
-    {
+{
         "word": "trust",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -949,7 +959,7 @@
             }
         ]
     },
-    {
+{
         "word": "conflict",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -971,7 +981,7 @@
             }
         ]
     },
-    {
+{
         "word": "responsibility",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -992,7 +1002,7 @@
             }
         ]
     },
-    {
+{
         "word": "expectation",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -1012,7 +1022,7 @@
             }
         ]
     },
-    {
+{
         "word": "boundary",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -1033,7 +1043,7 @@
             }
         ]
     },
-    {
+{
         "word": "divorce",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -1055,7 +1065,7 @@
             }
         ]
     },
-    {
+{
         "word": "equality",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -1077,7 +1087,7 @@
             }
         ]
     },
-    {
+{
         "word": "freedom",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -1098,7 +1108,7 @@
             }
         ]
     },
-    {
+{
         "word": "inequality",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -1120,7 +1130,7 @@
             }
         ]
     },
-    {
+{
         "word": "volunteer",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -1141,7 +1151,7 @@
             }
         ]
     },
-    {
+{
         "word": "community",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -1161,7 +1171,7 @@
             }
         ]
     },
-    {
+{
         "word": "generation",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -1182,7 +1192,7 @@
             }
         ]
     },
-    {
+{
         "word": "climate change",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -1203,7 +1213,7 @@
             }
         ]
     },
-    {
+{
         "word": "renewable energy",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -1225,7 +1235,7 @@
             }
         ]
     },
-    {
+{
         "word": "carbon footprint",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -1246,7 +1256,7 @@
             }
         ]
     },
-    {
+{
         "word": "waste",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -1266,7 +1276,7 @@
             }
         ]
     },
-    {
+{
         "word": "however",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -1284,7 +1294,7 @@
             }
         ]
     },
-    {
+{
         "word": "although",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -1302,7 +1312,7 @@
             }
         ]
     },
-    {
+{
         "word": "on the other hand",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -1324,7 +1334,7 @@
             }
         ]
     },
-    {
+{
         "word": "in my opinion",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -1343,7 +1353,7 @@
             }
         ]
     },
-    {
+{
         "word": "as a result",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -1365,7 +1375,7 @@
             }
         ]
     },
-    {
+{
         "word": "promotion",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -1384,7 +1394,7 @@
         ],
         "subtext": "get a promotion, job promotion"
     },
-    {
+{
         "word": "skill set",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -1403,7 +1413,7 @@
         ],
         "subtext": "diverse skill set, professional skill set"
     },
-    {
+{
         "word": "appraisal",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -1422,7 +1432,7 @@
         ],
         "subtext": "performance appraisal, annual appraisal"
     },
-    {
+{
         "word": "workplace",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1441,7 +1451,7 @@
         ],
         "subtext": "modern workplace, workplace culture"
     },
-    {
+{
         "word": "leadership",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -1460,7 +1470,7 @@
         ],
         "subtext": "strong leadership, leadership skills"
     },
-    {
+{
         "word": "flexible hours",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -1479,7 +1489,7 @@
         ],
         "subtext": "work flexible hours, offer flexible hours"
     },
-    {
+{
         "word": "annual leave",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -1498,7 +1508,7 @@
         ],
         "subtext": "take annual leave, annual leave entitlement"
     },
-    {
+{
         "word": "anxiety",
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
@@ -1517,7 +1527,7 @@
         ],
         "subtext": "social anxiety, anxiety attack"
     },
-    {
+{
         "word": "depression",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -1536,7 +1546,7 @@
         ],
         "subtext": "clinical depression, suffer from depression"
     },
-    {
+{
         "word": "resilience",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -1555,7 +1565,7 @@
         ],
         "subtext": "build resilience, emotional resilience"
     },
-    {
+{
         "word": "mindfulness",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -1574,7 +1584,7 @@
         ],
         "subtext": "practise mindfulness, mindfulness meditation"
     },
-    {
+{
         "word": "self-care",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -1593,7 +1603,7 @@
         ],
         "subtext": "self-care routine, importance of self-care"
     },
-    {
+{
         "word": "tax return",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -1612,7 +1622,7 @@
         ],
         "subtext": "submit a tax return, annual tax return"
     },
-    {
+{
         "word": "expenditure",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -1631,7 +1641,7 @@
         ],
         "subtext": "monthly expenditure, reduce expenditure"
     },
-    {
+{
         "word": "credit",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -1650,7 +1660,7 @@
         ],
         "subtext": "credit card, buy on credit"
     },
-    {
+{
         "word": "mortgage",
         "level": "intermediate",
         "theme": "buying_property_B1",
@@ -1669,7 +1679,7 @@
         ],
         "subtext": "take out a mortgage, pay off a mortgage"
     },
-    {
+{
         "word": "property",
         "level": "intermediate",
         "theme": "buying_property_B1",
@@ -1688,7 +1698,7 @@
         ],
         "subtext": "property market, rental property"
     },
-    {
+{
         "word": "equity",
         "level": "intermediate",
         "theme": "buying_property_B1",
@@ -1707,7 +1717,7 @@
         ],
         "subtext": "home equity, negative equity"
     },
-    {
+{
         "word": "renovation",
         "level": "intermediate",
         "theme": "buying_property_B1",
@@ -1726,7 +1736,7 @@
         ],
         "subtext": "home renovation, undergo renovations"
     },
-    {
+{
         "word": "survey",
         "level": "intermediate",
         "theme": "buying_property_B1",
@@ -1745,7 +1755,7 @@
         ],
         "subtext": "property survey, conduct a survey"
     },
-    {
+{
         "word": "paternity leave",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -1764,7 +1774,7 @@
         ],
         "subtext": "take paternity leave, paid paternity leave"
     },
-    {
+{
         "word": "childcare",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
@@ -1783,7 +1793,7 @@
         ],
         "subtext": "childcare costs, professional childcare"
     },
-    {
+{
         "word": "upbringing",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
@@ -1802,7 +1812,7 @@
         ],
         "subtext": "strict upbringing, childhood upbringing"
     },
-    {
+{
         "word": "charity",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -1821,7 +1831,7 @@
         ],
         "subtext": "donate to charity, registered charity"
     },
-    {
+{
         "word": "emissions",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -1840,7 +1850,7 @@
         ],
         "subtext": "carbon emissions, reduce emissions"
     },
-    {
+{
         "word": "point of view",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -1859,7 +1869,7 @@
         ],
         "subtext": "from my point of view, different point of view"
     },
-    {
+{
         "word": "evidence",
         "level": "intermediate",
         "theme": "structured_argument_B1",
@@ -1878,7 +1888,7 @@
         ],
         "subtext": "scientific evidence, lack of evidence"
     },
-    {
+{
         "word": "opinion",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -1897,7 +1907,7 @@
         ],
         "subtext": "public opinion, give an opinion"
     },
-    {
+{
         "word": "against",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -1914,7 +1924,7 @@
         ],
         "subtext": "be against, vote against"
     },
-    {
+{
         "word": "in favour of",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -1930,9 +1940,7 @@
             }
         ],
         "subtext": "be in favour of, vote in favour of"
-    }
+    },
+{}
 ];
-    const lang = "en";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

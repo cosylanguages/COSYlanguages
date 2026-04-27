@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "ექიმი",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -13,7 +23,7 @@
             }
         ]
     },
-    {
+{
         "word": "ფეხი",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -26,7 +36,7 @@
             }
         ]
     },
-    {
+{
         "word": "მასწავლებელი",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -39,7 +49,7 @@
             }
         ]
     },
-    {
+{
         "word": "პიცა",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -52,7 +62,7 @@
             }
         ]
     },
-    {
+{
         "word": "პასტა",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -65,7 +75,7 @@
             }
         ]
     },
-    {
+{
         "word": "ვაშლი",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -78,7 +88,7 @@
             }
         ]
     },
-    {
+{
         "word": "პური",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -91,7 +101,7 @@
             }
         ]
     },
-    {
+{
         "word": "კვერცხი",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -104,7 +114,7 @@
             }
         ]
     },
-    {
+{
         "word": "რძე",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -117,7 +127,7 @@
             }
         ]
     },
-    {
+{
         "word": "ბანანი",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -130,7 +140,7 @@
             }
         ]
     },
-    {
+{
         "word": "ყავა",
         "level": "starter",
         "theme": "drinks_A1",
@@ -143,7 +153,7 @@
             }
         ]
     },
-    {
+{
         "word": "ჩაი",
         "level": "starter",
         "theme": "drinks_A1",
@@ -156,7 +166,7 @@
             }
         ]
     },
-    {
+{
         "word": "წყალი",
         "level": "starter",
         "theme": "drinks_A1",
@@ -169,7 +179,7 @@
             }
         ]
     },
-    {
+{
         "word": "სკოლა",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -182,7 +192,7 @@
             }
         ]
     },
-    {
+{
         "word": "მაისური",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -195,7 +205,7 @@
             }
         ]
     },
-    {
+{
         "word": "შარვალი",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -208,7 +218,7 @@
             }
         ]
     },
-    {
+{
         "word": "ფეხსაცმელი",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -221,7 +231,7 @@
             }
         ]
     },
-    {
+{
         "word": "ქუდი",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -234,7 +244,7 @@
             }
         ]
     },
-    {
+{
         "word": "სკამი",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -247,7 +257,7 @@
             }
         ]
     },
-    {
+{
         "word": "მაგიდა",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -260,7 +270,7 @@
             }
         ]
     },
-    {
+{
         "word": "საწოლი",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -273,7 +283,7 @@
             }
         ]
     },
-    {
+{
         "word": "გასაღები",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -286,7 +296,7 @@
             }
         ]
     },
-    {
+{
         "word": "ტელეფონი",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -299,7 +309,7 @@
             }
         ]
     },
-    {
+{
         "word": "წიგნი",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -312,7 +322,7 @@
             }
         ]
     },
-    {
+{
         "word": "ჩანთა",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -325,7 +335,7 @@
             }
         ]
     },
-    {
+{
         "word": "კალამი",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -338,7 +348,7 @@
             }
         ]
     },
-    {
+{
         "word": "კატა",
         "level": "starter",
         "theme": "animals_A1",
@@ -351,7 +361,7 @@
             }
         ]
     },
-    {
+{
         "word": "ძაღლი",
         "level": "starter",
         "theme": "animals_A1",
@@ -364,7 +374,7 @@
             }
         ]
     },
-    {
+{
         "word": "ხელი",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -377,7 +387,7 @@
             }
         ]
     },
-    {
+{
         "word": "ფეხი",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -390,7 +400,7 @@
             }
         ]
     },
-    {
+{
         "word": "თვალი",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -403,7 +413,7 @@
             }
         ]
     },
-    {
+{
         "word": "ცხვირი",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -416,7 +426,7 @@
             }
         ]
     },
-    {
+{
         "word": "პირი",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -429,7 +439,7 @@
             }
         ]
     },
-    {
+{
         "word": "ყური",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -442,7 +452,7 @@
             }
         ]
     },
-    {
+{
         "word": "დედა",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -455,7 +465,7 @@
             }
         ]
     },
-    {
+{
         "word": "მამა",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -468,7 +478,7 @@
             }
         ]
     },
-    {
+{
         "word": "მუშაობა",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -481,7 +491,7 @@
             }
         ]
     },
-    {
+{
         "word": "სახლი",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -494,7 +504,7 @@
             }
         ]
     },
-    {
+{
         "word": "მანქანა",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -507,7 +517,7 @@
             }
         ]
     },
-    {
+{
         "word": "ავტობუსი",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -520,7 +530,7 @@
             }
         ]
     },
-    {
+{
         "word": "მატარებელი",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -533,7 +543,7 @@
             }
         ]
     },
-    {
+{
         "word": "ფული",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -546,7 +556,7 @@
             }
         ]
     },
-    {
+{
         "word": "მაღაზია",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -559,7 +569,7 @@
             }
         ]
     },
-    {
+{
         "word": "ოჯახი",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -572,7 +582,7 @@
             }
         ]
     },
-    {
+{
         "word": "მეგობარი",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -585,7 +595,7 @@
             }
         ]
     },
-    {
+{
         "word": "დღე",
         "level": "starter",
         "theme": "times_day_A1",
@@ -598,7 +608,7 @@
             }
         ]
     },
-    {
+{
         "word": "კვირა",
         "level": "starter",
         "theme": "times_day_A1",
@@ -611,7 +621,7 @@
             }
         ]
     },
-    {
+{
         "word": "საჭმელი",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -624,7 +634,7 @@
             }
         ]
     },
-    {
+{
         "word": "საუზმე",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -637,7 +647,7 @@
             }
         ]
     },
-    {
+{
         "word": "სადილი",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -650,7 +660,7 @@
             }
         ]
     },
-    {
+{
         "word": "ვახშამი",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -663,7 +673,7 @@
             }
         ]
     },
-    {
+{
         "word": "დილა",
         "level": "starter",
         "theme": "times_day_A1",
@@ -676,7 +686,7 @@
             }
         ]
     },
-    {
+{
         "word": "საღამო",
         "level": "starter",
         "theme": "times_day_A1",
@@ -689,7 +699,7 @@
             }
         ]
     },
-    {
+{
         "word": "ღამე",
         "level": "starter",
         "theme": "times_day_A1",
@@ -702,7 +712,7 @@
             }
         ]
     },
-    {
+{
         "word": "დღეს",
         "level": "starter",
         "theme": "times_day_A1",
@@ -715,7 +725,7 @@
             }
         ]
     },
-    {
+{
         "word": "ხვალ",
         "level": "starter",
         "theme": "times_day_A1",
@@ -728,7 +738,7 @@
             }
         ]
     },
-    {
+{
         "word": "ქმარი",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -741,7 +751,7 @@
             }
         ]
     },
-    {
+{
         "word": "ცოლი",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -754,7 +764,7 @@
             }
         ]
     },
-    {
+{
         "word": "ბავშვი",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -767,7 +777,7 @@
             }
         ]
     },
-    {
+{
         "word": "მზე",
         "level": "starter",
         "theme": "weather_A1",
@@ -780,7 +790,7 @@
             }
         ]
     },
-    {
+{
         "word": "წვიმა",
         "level": "starter",
         "theme": "weather_A1",
@@ -792,9 +802,7 @@
                 "examples": []
             }
         ]
-    }
-]
-    const lang = "ka";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{}
+];
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "είμαι",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -23,7 +23,7 @@
         "group": "irregular",
         "transcription": "/ˈime/"
     },
-    {
+{
         "word": "έχω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -49,7 +49,7 @@
         "group": "group_a",
         "transcription": "/ˈexo/"
     },
-    {
+{
         "word": "νιώθω",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -71,7 +71,7 @@
         "v3": "νιώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "δίνω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -95,7 +95,7 @@
         "group": "group_a",
         "transcription": "/ˈðino/"
     },
-    {
+{
         "word": "παίρνω",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -122,7 +122,7 @@
         "group": "group_a",
         "transcription": "/ˈperno/"
     },
-    {
+{
         "word": "παίρνω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -150,7 +150,7 @@
         "group": "group_a",
         "transcription": "/ˈperno/"
     },
-    {
+{
         "word": "βάζω",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -175,7 +175,7 @@
         "group": "group_a",
         "transcription": "/ˈvazo/"
     },
-    {
+{
         "word": "φτιάχνω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -200,7 +200,7 @@
         "v3": "φτιάξει",
         "group": "group_a"
     },
-    {
+{
         "word": "κάνω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -222,7 +222,7 @@
         "group": "group_a",
         "transcription": "/ˈkano/"
     },
-    {
+{
         "word": "χρησιμοποιώ",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -244,7 +244,7 @@
         "group": "group_b",
         "transcription": "/xrisimopiˈo/"
     },
-    {
+{
         "word": "ανοίγω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -268,7 +268,7 @@
         "group": "group_a",
         "transcription": "/aˈniɣo/"
     },
-    {
+{
         "word": "κλείνω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -292,7 +292,7 @@
         "group": "group_a",
         "transcription": "/ˈklino/"
     },
-    {
+{
         "word": "ξεκινώ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -315,7 +315,7 @@
         "v3": "ξεκινήσει",
         "group": "group_a"
     },
-    {
+{
         "word": "τελειώνω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -339,7 +339,7 @@
         "group": "group_a",
         "transcription": "/teliˈono/"
     },
-    {
+{
         "word": "βοηθώ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -364,7 +364,7 @@
         "group": "group_b",
         "transcription": "/voiˈθo/"
     },
-    {
+{
         "word": "προσπαθώ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -388,7 +388,7 @@
         "v3": "προσπαθήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "δείχνω",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -410,7 +410,7 @@
         "group": "group_a",
         "transcription": "/ˈðixno/"
     },
-    {
+{
         "word": "βρίσκω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -435,7 +435,7 @@
         "group": "group_a",
         "transcription": "/ˈvrisko/"
     },
-    {
+{
         "word": "κρατώ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -460,7 +460,7 @@
         "v3": "κρατήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "χάνω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -485,7 +485,7 @@
         "group": "group_a",
         "transcription": "/ˈxano/"
     },
-    {
+{
         "word": "κόβω",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -510,7 +510,7 @@
         "group": "group_a",
         "transcription": "/ˈkovo/"
     },
-    {
+{
         "word": "στρίβω",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -536,7 +536,7 @@
         "group": "group_a",
         "transcription": "/ˈstrivo/"
     },
-    {
+{
         "word": "φέρνω",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -558,7 +558,7 @@
         "group": "group_a",
         "transcription": "/ˈferno/"
     },
-    {
+{
         "word": "λέω",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -580,7 +580,7 @@
         "group": "irregular",
         "transcription": "/ˈleo/"
     },
-    {
+{
         "word": "λέω",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -602,7 +602,7 @@
         "group": "irregular",
         "transcription": "/ˈleo/"
     },
-    {
+{
         "word": "ρωτώ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -627,7 +627,7 @@
         "v3": "ρωτήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "μιλώ",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -648,7 +648,7 @@
         "v3": "μιλήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "μιλάω",
         "level": "starter",
         "theme": "family_life_A1",
@@ -675,7 +675,7 @@
         "group": "group_b",
         "transcription": "/miˈlao/"
     },
-    {
+{
         "word": "καλώ",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -699,7 +699,7 @@
         "v3": "καλέσει",
         "group": "group_b"
     },
-    {
+{
         "word": "γράφω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -723,7 +723,7 @@
         "group": "group_a",
         "transcription": "/ˈɣrafo/"
     },
-    {
+{
         "word": "διαβάζω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -747,7 +747,7 @@
         "group": "group_a",
         "transcription": "/ðiaˈvazo/"
     },
-    {
+{
         "word": "ακούω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -769,7 +769,7 @@
         "group": "group_a",
         "transcription": "/aˈkuo/"
     },
-    {
+{
         "word": "απαντώ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -790,7 +790,7 @@
         "v3": "απαντήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "επαναλαμβάνω",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -815,7 +815,7 @@
         "group": "group_a",
         "transcription": "/epanalavˈvano/"
     },
-    {
+{
         "word": "πηγαίνω",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -840,7 +840,7 @@
         "group": "group_a",
         "transcription": "/piˈʝeno/"
     },
-    {
+{
         "word": "έρχομαι",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -867,7 +867,7 @@
         "group": "irregular",
         "transcription": "/ˈerxome/"
     },
-    {
+{
         "word": "περπατώ",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -888,7 +888,7 @@
         "v3": "περπατήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "οδηγώ",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -910,7 +910,7 @@
         "group": "group_b",
         "transcription": "/oðiˈɣo/"
     },
-    {
+{
         "word": "πετώ",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -931,7 +931,7 @@
         "v3": "πετάξει",
         "group": "group_b"
     },
-    {
+{
         "word": "φτάνω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -953,7 +953,7 @@
         "group": "group_a",
         "transcription": "/ˈftano/"
     },
-    {
+{
         "word": "φεύγω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -975,7 +975,7 @@
         "group": "group_a",
         "transcription": "/ˈfefɣo/"
     },
-    {
+{
         "word": "μετακινούμαι",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1002,7 +1002,7 @@
         "group": "group_b",
         "transcription": "/metaciˈnume/"
     },
-    {
+{
         "word": "επιστρέφω",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1024,7 +1024,7 @@
         "group": "group_a",
         "transcription": "/epiˈstrefo/"
     },
-    {
+{
         "word": "ταξιδεύω",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1046,7 +1046,7 @@
         "group": "group_a",
         "transcription": "/taksiˈðevo/"
     },
-    {
+{
         "word": "τρώω",
         "image": "images/vocabulary/actions/eat.png",
         "level": "starter",
@@ -1075,7 +1075,7 @@
         "group": "irregular",
         "transcription": "/ˈtroo/"
     },
-    {
+{
         "word": "πίνω",
         "image": "images/vocabulary/actions/drink.png",
         "level": "starter",
@@ -1100,7 +1100,7 @@
         "group": "group_a",
         "transcription": "/ˈpino/"
     },
-    {
+{
         "word": "κοιμάμαι",
         "image": "images/vocabulary/actions/fall asleep. sleep.png",
         "level": "starter",
@@ -1125,7 +1125,7 @@
         "group": "group_b",
         "transcription": "/ciˈmame/"
     },
-    {
+{
         "word": "μαγειρεύω",
         "image": "images/vocabulary/actions/cook.png",
         "level": "starter",
@@ -1148,7 +1148,7 @@
         "group": "group_a",
         "transcription": "/maʝiˈrevo/"
     },
-    {
+{
         "word": "καθαρίζω",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1170,7 +1170,7 @@
         "group": "group_a",
         "transcription": "/kaθaˈrizo/"
     },
-    {
+{
         "word": "φοράω",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1192,7 +1192,7 @@
         "group": "group_b",
         "transcription": "/foˈrao/"
     },
-    {
+{
         "word": "πλένω",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1214,7 +1214,7 @@
         "group": "group_a",
         "transcription": "/ˈpleno/"
     },
-    {
+{
         "word": "αγοράζω",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1238,7 +1238,7 @@
         "group": "group_a",
         "transcription": "/aˈɣorazo/"
     },
-    {
+{
         "word": "πληρώνω",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1263,7 +1263,7 @@
         "group": "group_a",
         "transcription": "/pliˈrono/"
     },
-    {
+{
         "word": "ξοδεύω",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1285,7 +1285,7 @@
         "group": "group_a",
         "transcription": "/ksoˈðevo/"
     },
-    {
+{
         "word": "αποταμιεύω",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1309,7 +1309,7 @@
         "group": "group_a",
         "transcription": "/apotamiˈevo/"
     },
-    {
+{
         "word": "δουλεύω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1331,7 +1331,7 @@
         "group": "group_a",
         "transcription": "/ðuˈlevo/"
     },
-    {
+{
         "word": "ζω",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1355,7 +1355,7 @@
         "group": "group_b",
         "transcription": "/zo/"
     },
-    {
+{
         "word": "σκέφτομαι",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1379,7 +1379,7 @@
         "v3": "σκεφτεί",
         "group": "group_b"
     },
-    {
+{
         "word": "ξέρω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1404,7 +1404,7 @@
         "group": "group_a",
         "transcription": "/ˈksero/"
     },
-    {
+{
         "word": "θέλω",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1427,7 +1427,7 @@
         "group": "group_a",
         "transcription": "/ˈθelo/"
     },
-    {
+{
         "word": "χρειάζομαι",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1453,7 +1453,7 @@
         "group": "group_b",
         "transcription": "/xriˈazome/"
     },
-    {
+{
         "word": "μου αρέσει",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1476,7 +1476,7 @@
         "group": "locution",
         "transcription": "/mu aˈresi/"
     },
-    {
+{
         "word": "αγαπώ",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1497,7 +1497,7 @@
         "v3": "αγαπήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "μισώ",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1519,7 +1519,7 @@
         "group": "group_b",
         "transcription": "/miˈso/"
     },
-    {
+{
         "word": "ελπίζω",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1541,7 +1541,7 @@
         "group": "group_a",
         "transcription": "/elˈpizo/"
     },
-    {
+{
         "word": "θυμάμαι",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1563,7 +1563,7 @@
         "group": "group_b",
         "transcription": "/θiˈmame/"
     },
-    {
+{
         "word": "ξεχνώ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1584,7 +1584,7 @@
         "v3": "ξεχάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "καταλαβαίνω",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1606,7 +1606,7 @@
         "group": "group_a",
         "transcription": "/katalaveno/"
     },
-    {
+{
         "word": "αποφασίζω",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1631,7 +1631,7 @@
         "group": "group_a",
         "transcription": "/apofaˈsizo/"
     },
-    {
+{
         "word": "απολαμβάνω",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1653,7 +1653,7 @@
         "group": "group_a",
         "transcription": "/apolamˈvano/"
     },
-    {
+{
         "word": "βλέπω",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1675,7 +1675,7 @@
         "group": "group_a",
         "transcription": "/ˈvlepo/"
     },
-    {
+{
         "word": "ακούω",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1697,7 +1697,7 @@
         "group": "group_a",
         "transcription": "/aˈkuo/"
     },
-    {
+{
         "word": "ξυπνάω",
         "image": "images/vocabulary/actions/wake up.png",
         "level": "starter",
@@ -1722,7 +1722,7 @@
         "group": "group_a",
         "transcription": "/ksiˈpnao/"
     },
-    {
+{
         "word": "βλέπω",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1744,7 +1744,7 @@
         "group": "group_a",
         "transcription": "/ˈvlepo/"
     },
-    {
+{
         "word": "κοιτάζω",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1769,7 +1769,7 @@
         "v3": "κοιτάξει",
         "group": "group_a"
     },
-    {
+{
         "word": "παίζω",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1791,7 +1791,7 @@
         "group": "group_a",
         "transcription": "/ˈpezo/"
     },
-    {
+{
         "word": "τρέχω",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1816,7 +1816,7 @@
         "group": "group_a",
         "transcription": "/ˈtrexo/"
     },
-    {
+{
         "word": "κάθομαι",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1840,7 +1840,7 @@
         "group": "group_b",
         "transcription": "/ˈkaθome/"
     },
-    {
+{
         "word": "στέκομαι",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1867,7 +1867,7 @@
         "group": "group_b",
         "transcription": "/ˈstecome/"
     },
-    {
+{
         "word": "συναντώ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1891,7 +1891,7 @@
         ],
         "group": "group_a"
     },
-    {
+{
         "word": "μαθαίνω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1913,7 +1913,7 @@
         "group": "group_a",
         "transcription": "/maˈθeno/"
     },
-    {
+{
         "word": "αλλάζω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1935,7 +1935,7 @@
         "group": "group_a",
         "transcription": "/aˈlazo/"
     },
-    {
+{
         "word": "σταματώ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1956,7 +1956,7 @@
         "v3": "σταματήσει",
         "group": "group_a"
     },
-    {
+{
         "word": "προσθέτω",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1978,7 +1978,7 @@
         "group": "group_a",
         "transcription": "/prosˈθeto/"
     },
-    {
+{
         "word": "κερδίζω",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2001,7 +2001,7 @@
         "group": "group_a",
         "transcription": "/cerˈðizo/"
     },
-    {
+{
         "word": "περιμένω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2023,7 +2023,7 @@
         "group": "group_a",
         "transcription": "/periˈmeno/"
     },
-    {
+{
         "word": "πεθαίνω",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2049,7 +2049,7 @@
         "group": "group_a",
         "transcription": "/peˈθeno/"
     },
-    {
+{
         "word": "στέλνω",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2071,7 +2071,7 @@
         "group": "group_a",
         "transcription": "/ˈstelno/"
     },
-    {
+{
         "word": "μένω",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2093,7 +2093,7 @@
         "group": "group_a",
         "transcription": "/ˈmeno/"
     },
-    {
+{
         "word": "πέφτω",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2118,7 +2118,7 @@
         "group": "group_a",
         "transcription": "/ˈpefto/"
     },
-    {
+{
         "word": "περνώ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2139,7 +2139,7 @@
         "v3": "περάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "πουλώ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2161,7 +2161,7 @@
         "v3": "πουλήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "τραβώ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2186,7 +2186,7 @@
         "v3": "τραβήξει",
         "group": "group_b"
     },
-    {
+{
         "word": "σπρώχνω",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2213,7 +2213,7 @@
         "group": "group_a",
         "transcription": "/ˈsproxno/"
     },
-    {
+{
         "word": "κουβαλώ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2234,7 +2234,7 @@
         "v3": "κουβαλήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "σπάω",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2259,7 +2259,7 @@
         "group": "group_a",
         "transcription": "/ˈspao/"
     },
-    {
+{
         "word": "λαμβάνω",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2280,7 +2280,7 @@
         "v3": "λάβει",
         "group": "group_a"
     },
-    {
+{
         "word": "συμφωνώ",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2302,7 +2302,7 @@
         "group": "group_b",
         "transcription": "/simfoˈno/"
     },
-    {
+{
         "word": "σχεδιάζω",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2324,7 +2324,7 @@
         "group": "group_a",
         "transcription": "/sçeˈðiazo/"
     },
-    {
+{
         "word": "μοιράζομαι",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2346,7 +2346,7 @@
         "group": "group_b",
         "transcription": "/miˈrazome/"
     },
-    {
+{
         "word": "χαμογελώ",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2372,7 +2372,7 @@
         "v3": "χαμογελάσει",
         "group": "group_b"
     },
-    {
+{
         "word": "κλαίω",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2396,7 +2396,7 @@
         "group": "group_a",
         "transcription": "/ˈkleo/"
     },
-    {
+{
         "word": "χορεύω",
         "level": "starter",
         "theme": "music_A1",
@@ -2421,7 +2421,7 @@
         "group": "group_a",
         "transcription": "/xoˈrevo/"
     },
-    {
+{
         "word": "τραγουδώ",
         "level": "starter",
         "theme": "music_A1",
@@ -2445,7 +2445,7 @@
         "v3": "τραγουδήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "πηδώ",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2466,7 +2466,7 @@
         "v3": "πηδήξει",
         "group": "group_b"
     },
-    {
+{
         "word": "κολυμπώ",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2490,7 +2490,7 @@
         "v3": "κολυμπήσει",
         "group": "group_b"
     },
-    {
+{
         "word": "σπουδάζω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2516,7 +2516,7 @@
         "group": "group_a",
         "transcription": "/spuˈðazo/"
     },
-    {
+{
         "word": "διδάσκω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2541,7 +2541,7 @@
         "group": "group_a",
         "transcription": "/ðiˈðasko/"
     },
-    {
+{
         "word": "μετακινούμαι",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2566,7 +2566,7 @@
         "group": "group_b",
         "transcription": "/metaciˈnume/"
     },
-    {
+{
         "word": "νοικιάζω",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2587,7 +2587,7 @@
         "group": "group_a",
         "transcription": "/niˈciazo/"
     },
-    {
+{
         "word": "γυμνάζομαι",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2611,7 +2611,7 @@
         "group": "group_b",
         "transcription": "/ʝiˈmnazome/"
     },
-    {
+{
         "word": "κοστίζω",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2636,7 +2636,7 @@
         "group": "group_a",
         "transcription": "/koˈstizo/"
     },
-    {
+{
         "word": "προσκαλώ",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2660,7 +2660,7 @@
         "group": "group_b",
         "transcription": "/proskaˈlo/"
     },
-    {
+{
         "word": "σηκώνομαι",
         "image": "images/vocabulary/actions/get up.png",
         "definitions": [
@@ -2682,7 +2682,7 @@
         "group": "group_b",
         "transcription": "/siˈconome/"
     },
-    {
+{
         "word": "τρώω πρωινό",
         "image": "images/vocabulary/actions/have breakfast.png",
         "definitions": [
@@ -2708,7 +2708,7 @@
         "group": "locution",
         "transcription": "/ˈtroo proiˈno/"
     },
-    {
+{
         "word": "επιστρέφω",
         "definitions": [
             {
@@ -2732,7 +2732,7 @@
         "group": "group_a",
         "transcription": "/epiˈstrefo/"
     },
-    {
+{
         "word": "πέφτω για ύπνο",
         "image": "images/vocabulary/actions/go to bed.png",
         "definitions": [
@@ -2757,7 +2757,7 @@
         "form": "verb",
         "group": "locution"
     },
-    {
+{
         "word": "ελέγχω",
         "definitions": [
             {
@@ -2778,7 +2778,7 @@
         "group": "group_a",
         "transcription": "/eˈleŋxo/"
     },
-    {
+{
         "word": "απαντώ",
         "definitions": [
             {
@@ -2801,7 +2801,7 @@
         "form": "verb",
         "group": "group_b"
     },
-    {
+{
         "word": "παρουσιάζω",
         "definitions": [
             {
@@ -2825,7 +2825,7 @@
         "group": "group_a",
         "transcription": "/parusiˈazo/"
     },
-    {
+{
         "word": "παρευρίσκομαι",
         "definitions": [
             {
@@ -2848,7 +2848,7 @@
         "form": "verb",
         "group": "group_b"
     },
-    {
+{
         "word": "διαχειρίζομαι",
         "definitions": [
             {
@@ -2872,7 +2872,7 @@
         "group": "group_b",
         "transcription": "/ðiaçiriˈzome/"
     },
-    {
+{
         "word": "χρεώνω",
         "definitions": [
             {
@@ -2893,7 +2893,7 @@
         "group": "group_a",
         "transcription": "/çreˈono/"
     },
-    {
+{
         "word": "έχω την οικονομική δυνατότητα",
         "definitions": [
             {
@@ -2916,7 +2916,7 @@
         "form": "verb",
         "group": "locution"
     },
-    {
+{
         "word": "χρωστώ",
         "definitions": [
             {
@@ -2936,7 +2936,7 @@
         "form": "verb",
         "group": "group_b"
     },
-    {
+{
         "word": "κερδίζω",
         "definitions": [
             {
@@ -2957,7 +2957,7 @@
         "group": "group_a",
         "transcription": "/cerˈðizo/"
     },
-    {
+{
         "word": "επισκέπτομαι",
         "definitions": [
             {
@@ -2982,7 +2982,7 @@
         "group": "group_b",
         "transcription": "/epiˈsceptome/"
     },
-    {
+{
         "word": "γιορτάζω",
         "definitions": [
             {
@@ -3006,7 +3006,7 @@
         "group": "group_a",
         "transcription": "/ʝiorˈtazo/"
     },
-    {
+{
         "word": "συνιστώ",
         "definitions": [
             {
@@ -3031,7 +3031,7 @@
         "form": "verb",
         "group": "group_a"
     },
-    {
+{
         "word": "πονώ",
         "definitions": [
             {
@@ -3055,7 +3055,7 @@
         "form": "verb",
         "group": "group_b"
     },
-    {
+{
         "word": "ξεκουράζομαι",
         "definitions": [
             {
@@ -3080,7 +3080,7 @@
         "group": "group_b",
         "transcription": "/ksecuˈrazome/"
     },
-    {
+{
         "word": "αναρρώνω",
         "definitions": [
             {
@@ -3104,7 +3104,7 @@
         "form": "verb",
         "group": "group_a"
     },
-    {
+{
         "word": "κάνω κράτηση",
         "definitions": [
             {
@@ -3129,7 +3129,7 @@
         "group": "locution",
         "transcription": "/ˈkano ˈkratisi/"
     },
-    {
+{
         "word": "φτιάχνω βαλίτσα",
         "definitions": [
             {
@@ -3153,7 +3153,7 @@
         "form": "verb",
         "group": "locution"
     },
-    {
+{
         "word": "ακυρώνω",
         "definitions": [
             {
@@ -3174,7 +3174,7 @@
         "group": "group_a",
         "transcription": "/aciˈrono/"
     },
-    {
+{
         "word": "χάνω",
         "definitions": [
             {
@@ -3198,7 +3198,7 @@
         "group": "group_a",
         "transcription": "/ˈxano/"
     },
-    {
+{
         "word": "παραγγέλνω",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3222,7 +3222,7 @@
         "group": "group_a",
         "transcription": "/paraˈŋɡelno/"
     },
-    {
+{
         "word": "εξηγώ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3243,7 +3243,7 @@
         "group": "group_b",
         "transcription": "/eksiˈɣo/"
     },
-    {
+{
         "word": "ευχαριστώ",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3267,7 +3267,7 @@
         "group": "group_b",
         "transcription": "/efxariˈsto/"
     },
-    {
+{
         "word": "συστήνω",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3292,7 +3292,7 @@
         "group": "group_a",
         "transcription": "/siˈstino/"
     },
-    {
+{
         "word": "χαλαρώνω",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3317,7 +3317,7 @@
         "group": "group_a",
         "transcription": "/xalaˈrono/"
     },
-    {
+{
         "word": "επισκευάζω",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3342,7 +3342,7 @@
         "group": "group_a",
         "transcription": "/episcevˈazo/"
     },
-    {
+{
         "word": "συμβαίνει",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3366,7 +3366,7 @@
         "group": "group_a",
         "transcription": "/simˈveni/"
     },
-    {
+{
         "word": "φαίνομαι",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3391,7 +3391,7 @@
         "v3": "φανεί",
         "group": "group_b"
     },
-    {
+{
         "word": "σημαίνω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3415,7 +3415,7 @@
         "v3": "σημάνει",
         "group": "group_a"
     },
-    {
+{
         "word": "ακολουθώ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3439,7 +3439,7 @@
         "group": "group_b",
         "transcription": "/akoluˈθo/"
     },
-    {
+{
         "word": "συνεχίζω",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3463,7 +3463,7 @@
         "group": "group_a",
         "transcription": "/sineˈçizo/"
     },
-    {
+{
         "word": "μεγαλώνω",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3488,7 +3488,7 @@
         "group": "group_a",
         "transcription": "/meɣaˈlono/"
     },
-    {
+{
         "word": "περιλαμβάνω",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3513,7 +3513,7 @@
         "group": "group_a",
         "transcription": "/perilamˈvano/"
     },
-    {
+{
         "word": "γίνομαι",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3534,7 +3534,7 @@
         "group": "irregular",
         "transcription": "/ˈʝinome/"
     },
-    {
+{
         "word": "ανήκω",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3555,7 +3555,7 @@
         "group": "group_a",
         "transcription": "/aˈnico/"
     },
-    {
+{
         "word": "επιλέγω",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3576,7 +3576,7 @@
         "group": "group_a",
         "transcription": "/epiˈleɣo/"
     },
-    {
+{
         "word": "χτίζω",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3596,12 +3596,11 @@
         "v3": "χτίσει",
         "group": "group_a",
         "transcription": "/ˈxtizo/"
-    }
-]
-    const lang = "el";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
+    },
+{},
+{
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
+];
     }
 })();

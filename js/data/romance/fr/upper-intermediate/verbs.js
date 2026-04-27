@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "soutenir que",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -20,12 +20,11 @@
         "aspect": "action",
         "v3": "soutenu",
         "group": "ir"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "fr";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

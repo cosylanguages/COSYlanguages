@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+{
             "word": "reify",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -22,7 +22,7 @@
             "v3": "reified",
             "group": "regular"
         },
-        {
+{
             "word": "sublimate",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -44,7 +44,7 @@
             "v3": "sublimated",
             "group": "regular"
         },
-        {
+{
             "word": "predicate",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -66,7 +66,7 @@
             "v3": "predicated",
             "group": "regular"
         },
-        {
+{
             "word": "instantiate",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -88,7 +88,7 @@
             "v3": "instantiated",
             "group": "regular"
         },
-        {
+{
             "word": "negate",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -110,7 +110,7 @@
             "v3": "negated",
             "group": "regular"
         },
-        {
+{
             "word": "transcend",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -132,7 +132,7 @@
             "v3": "transcended",
             "group": "regular"
         },
-        {
+{
             "word": "mediate",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -154,7 +154,7 @@
             "v3": "mediated",
             "group": "regular"
         },
-        {
+{
             "word": "elide",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -176,7 +176,7 @@
             "v3": "elided",
             "group": "regular"
         },
-        {
+{
             "word": "obfuscate",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -198,7 +198,7 @@
             "v3": "obfuscated",
             "group": "regular"
         },
-        {
+{
             "word": "conflate",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
@@ -220,7 +220,7 @@
             "v3": "conflated",
             "group": "regular"
         },
-        {
+{
             "word": "invoke",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -242,7 +242,7 @@
             "v3": "invoked",
             "group": "regular"
         },
-        {
+{
             "word": "foreground",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -264,7 +264,7 @@
             "v3": "foregrounded",
             "group": "regular"
         },
-        {
+{
             "word": "recuperate",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -286,7 +286,7 @@
             "v3": "recuperated",
             "group": "regular"
         },
-        {
+{
             "word": "destabilise",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -308,7 +308,7 @@
             "v3": "destabilised",
             "group": "regular"
         },
-        {
+{
             "word": "commodify",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -330,7 +330,7 @@
             "v3": "commodified",
             "group": "regular"
         },
-        {
+{
             "word": "instrumentalise",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -352,7 +352,7 @@
             "v3": "instrumentalised",
             "group": "regular"
         },
-        {
+{
             "word": "valorise",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -374,7 +374,7 @@
             "v3": "valorised",
             "group": "regular"
         },
-        {
+{
             "word": "fetishise",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -396,7 +396,7 @@
             "v3": "fetishised",
             "group": "regular"
         },
-        {
+{
             "word": "hegemonise",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -419,7 +419,7 @@
             "v3": "hegemonised",
             "group": "regular"
         },
-        {
+{
             "word": "alienate",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -441,7 +441,7 @@
             "v3": "alienated",
             "group": "regular"
         },
-        {
+{
             "word": "demarcate",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -463,7 +463,7 @@
             "v3": "demarcated",
             "group": "regular"
         },
-        {
+{
             "word": "delimit",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -485,7 +485,7 @@
             "v3": "delimited",
             "group": "regular"
         },
-        {
+{
             "word": "militate",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -507,7 +507,7 @@
             "v3": "militated",
             "group": "regular"
         },
-        {
+{
             "word": "vitiate",
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
@@ -529,7 +529,7 @@
             "v3": "vitiated",
             "group": "regular"
         },
-        {
+{
             "word": "gainsay",
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
@@ -551,7 +551,7 @@
             "v3": "gainsaid",
             "group": "irregular"
         },
-        {
+{
             "word": "abrogate",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -573,7 +573,7 @@
             "v3": "abrogated",
             "group": "regular"
         },
-        {
+{
             "word": "deconstruct",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -595,7 +595,7 @@
             "v3": "deconstructed",
             "group": "regular"
         },
-        {
+{
             "word": "problematise",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -617,7 +617,7 @@
             "v3": "problematised",
             "group": "regular"
         },
-        {
+{
             "word": "unpack",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -639,7 +639,7 @@
             "v3": "unpacked",
             "group": "regular"
         },
-        {
+{
             "word": "foreclose",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -661,7 +661,7 @@
             "v3": "foreclosed",
             "group": "regular"
         },
-        {
+{
             "word": "dialecticise",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
@@ -683,7 +683,7 @@
             "v3": "dialecticised",
             "group": "regular"
         },
-        {
+{
             "word": "contravene",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -705,7 +705,7 @@
             "v3": "contravened",
             "group": "regular"
         },
-        {
+{
             "word": "subsume",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
@@ -727,7 +727,7 @@
             "v3": "subsumed",
             "group": "regular"
         },
-        {
+{
             "word": "accentuate",
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
@@ -749,7 +749,7 @@
             "v3": "accentuated",
             "group": "regular"
         },
-        {
+{
             "word": "acquiesce",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -771,7 +771,7 @@
             "v3": "acquiesced",
             "group": "regular"
         },
-        {
+{
             "word": "alleviate",
             "level": "proficiency",
             "theme": "ethics_advanced_C2",
@@ -793,7 +793,7 @@
             "v3": "alleviated",
             "group": "regular"
         },
-        {
+{
             "word": "circumvent",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -815,7 +815,7 @@
             "v3": "circumvented",
             "group": "regular"
         },
-        {
+{
             "word": "corroborate",
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
@@ -837,7 +837,7 @@
             "v3": "corroborated",
             "group": "regular"
         },
-        {
+{
             "word": "disseminate",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -859,7 +859,7 @@
             "v3": "disseminated",
             "group": "regular"
         },
-        {
+{
             "word": "encapsulate",
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
@@ -881,7 +881,7 @@
             "v3": "encapsulated",
             "group": "regular"
         },
-        {
+{
             "word": "engender",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -903,7 +903,7 @@
             "v3": "engendered",
             "group": "regular"
         },
-        {
+{
             "word": "exacerbate",
             "level": "proficiency",
             "theme": "ethics_advanced_C2",
@@ -925,7 +925,7 @@
             "v3": "exacerbated",
             "group": "regular"
         },
-        {
+{
             "word": "exemplify",
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
@@ -947,7 +947,7 @@
             "v3": "exemplified",
             "group": "regular"
         },
-        {
+{
             "word": "impede",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -969,7 +969,7 @@
             "v3": "impeded",
             "group": "regular"
         },
-        {
+{
             "word": "mitigate",
             "level": "proficiency",
             "theme": "ethics_advanced_C2",
@@ -991,7 +991,7 @@
             "v3": "mitigated",
             "group": "regular"
         },
-        {
+{
             "word": "oblige",
             "level": "proficiency",
             "theme": "political_theory_C2",
@@ -1013,7 +1013,7 @@
             "v3": "obliged",
             "group": "regular"
         },
-        {
+{
             "word": "pervade",
             "level": "proficiency",
             "theme": "civilisation_history_C2",
@@ -1035,7 +1035,7 @@
             "v3": "pervaded",
             "group": "regular"
         },
-        {
+{
             "word": "preclude",
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
@@ -1057,7 +1057,7 @@
             "v3": "precluded",
             "group": "regular"
         },
-        {
+{
             "word": "reconcile",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
@@ -1079,7 +1079,7 @@
             "v3": "reconciled",
             "group": "regular"
         },
-        {
+{
             "word": "supersede",
             "level": "proficiency",
             "theme": "civilisation_history_C2",
@@ -1101,7 +1101,7 @@
             "v3": "superseded",
             "group": "regular"
         },
-        {
+{
             "word": "underpin",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
@@ -1123,7 +1123,7 @@
             "v3": "underpinned",
             "group": "regular"
         },
-        {
+{
             "word": "vindicate",
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
@@ -1145,7 +1145,7 @@
             "v3": "vindicated",
             "group": "regular"
         },
-        {
+{
             "word": "hinge on",
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
@@ -1167,7 +1167,7 @@
             "v3": "hinged on",
             "group": "regular"
         },
-        {
+{
             "word": "grapple with",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
@@ -1189,7 +1189,7 @@
             "v3": "grappled with",
             "group": "regular"
         },
-        {
+{
             "word": "gloss over",
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
@@ -1211,7 +1211,7 @@
             "v3": "glossed over",
             "group": "regular"
         },
-        {
+{
             "word": "paper over",
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
@@ -1232,12 +1232,11 @@
             "v2": "papered over",
             "v3": "papered over",
             "group": "regular"
-        }
-    ];
-    const lang = "en";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
+        },
+{},
+{
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
+];
     }
 })();

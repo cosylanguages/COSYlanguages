@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "giardino",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "artista",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -24,7 +34,7 @@
             }
         ]
     },
-    {
+{
         "word": "chef",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -48,7 +58,7 @@
             }
         ]
     },
-    {
+{
         "word": "risotto",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -71,7 +81,7 @@
             }
         ]
     },
-    {
+{
         "word": "gelato",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -94,7 +104,7 @@
             }
         ]
     },
-    {
+{
         "word": "formaggio",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -118,7 +128,7 @@
             }
         ]
     },
-    {
+{
         "word": "riso",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -127,7 +137,7 @@
         "form": "noun",
         "plural": "riso"
     },
-    {
+{
         "word": "pomodoro",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -136,7 +146,7 @@
         "form": "noun",
         "plural": "pomodori"
     },
-    {
+{
         "word": "patata",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -145,7 +155,7 @@
         "form": "noun",
         "plural": "patate"
     },
-    {
+{
         "word": "vino",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -155,7 +165,7 @@
         "form": "noun",
         "plural": "vino"
     },
-    {
+{
         "word": "birra",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -165,7 +175,7 @@
         "form": "noun",
         "plural": "birra"
     },
-    {
+{
         "word": "ospedale",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -189,7 +199,7 @@
             }
         ]
     },
-    {
+{
         "word": "cinema",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -213,7 +223,7 @@
             }
         ]
     },
-    {
+{
         "word": "ristorante",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -237,7 +247,7 @@
             }
         ]
     },
-    {
+{
         "word": "supermercato",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
@@ -261,7 +271,7 @@
             }
         ]
     },
-    {
+{
         "word": "vestito",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -270,7 +280,7 @@
         "form": "noun",
         "plural": "vestiti"
     },
-    {
+{
         "word": "giacca",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -279,7 +289,7 @@
         "form": "noun",
         "plural": "giacche"
     },
-    {
+{
         "word": "gonna",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -288,7 +298,7 @@
         "form": "noun",
         "plural": "gonne"
     },
-    {
+{
         "word": "divano",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -297,7 +307,7 @@
         "form": "noun",
         "plural": "divani"
     },
-    {
+{
         "word": "lampada",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -306,7 +316,7 @@
         "form": "noun",
         "plural": "lampade"
     },
-    {
+{
         "word": "scrivania",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -315,21 +325,21 @@
         "form": "noun",
         "plural": "scrivanie"
     },
-    {
+{
         "word": "lavarsi i denti",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
         "form": "noun"
     },
-    {
+{
         "word": "fare la doccia",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "noun"
     },
-    {
+{
         "word": "orologio",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -347,7 +357,7 @@
             }
         ]
     },
-    {
+{
         "word": "portafoglio",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -365,7 +375,7 @@
             }
         ]
     },
-    {
+{
         "word": "occhiali",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -383,7 +393,7 @@
             }
         ]
     },
-    {
+{
         "word": "leone",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -401,7 +411,7 @@
             }
         ]
     },
-    {
+{
         "word": "tigre",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -410,7 +420,7 @@
         "form": "noun",
         "plural": "tigri"
     },
-    {
+{
         "word": "cavallo",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -419,7 +429,7 @@
         "form": "noun",
         "plural": "cavalli"
     },
-    {
+{
         "word": "braccio",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -428,7 +438,7 @@
         "form": "noun",
         "plural": "braccia"
     },
-    {
+{
         "word": "università",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -446,7 +456,7 @@
             }
         ]
     },
-    {
+{
         "word": "cucina locale",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -469,98 +479,98 @@
             }
         ]
     },
-    {
+{
         "word": "sembrare",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🤔",
         "form": "verb"
     },
-    {
+{
         "word": "diventare",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🦋",
         "form": "verb"
     },
-    {
+{
         "word": "muovere",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb"
     },
-    {
+{
         "word": "credere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb"
     },
-    {
+{
         "word": "succedere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb"
     },
-    {
+{
         "word": "includere",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb"
     },
-    {
+{
         "word": "continuare",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb"
     },
-    {
+{
         "word": "impostare",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb"
     },
-    {
+{
         "word": "guidare",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👑",
         "form": "verb"
     },
-    {
+{
         "word": "seguire",
         "level": "elementary",
         "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb"
     },
-    {
+{
         "word": "creare",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb"
     },
-    {
+{
         "word": "permettere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb"
     },
-    {
+{
         "word": "crescere",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb"
     },
-    {
+{
         "word": "offrire",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -568,7 +578,7 @@
         "form": "noun",
         "plural": "offriri"
     },
-    {
+{
         "word": "straordinari",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -585,7 +595,7 @@
             }
         ]
     },
-    {
+{
         "word": "promozione",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -602,7 +612,7 @@
             }
         ]
     },
-    {
+{
         "word": "colloquio",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -619,7 +629,7 @@
             }
         ]
     },
-    {
+{
         "word": "contratto",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -636,7 +646,7 @@
             }
         ]
     },
-    {
+{
         "word": "scadenza",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -653,7 +663,7 @@
             }
         ]
     },
-    {
+{
         "word": "esperienza",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -670,7 +680,7 @@
             }
         ]
     },
-    {
+{
         "word": "mutuo",
         "level": "elementary",
         "theme": "banking_A2",
@@ -687,7 +697,7 @@
             }
         ]
     },
-    {
+{
         "word": "prestito",
         "level": "elementary",
         "theme": "banking_A2",
@@ -704,7 +714,7 @@
             }
         ]
     },
-    {
+{
         "word": "bolletta",
         "level": "elementary",
         "theme": "finances_A2",
@@ -721,7 +731,7 @@
             }
         ]
     },
-    {
+{
         "word": "debito",
         "level": "elementary",
         "theme": "finances_A2",
@@ -738,7 +748,7 @@
             }
         ]
     },
-    {
+{
         "word": "conto",
         "level": "elementary",
         "theme": "banking_A2",
@@ -755,7 +765,7 @@
             }
         ]
     },
-    {
+{
         "word": "bilancio",
         "level": "elementary",
         "theme": "finances_A2",
@@ -772,7 +782,7 @@
             }
         ]
     },
-    {
+{
         "word": "dieta",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -789,7 +799,7 @@
             }
         ]
     },
-    {
+{
         "word": "appuntamento",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -806,7 +816,7 @@
             }
         ]
     },
-    {
+{
         "word": "vitamina",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -823,7 +833,7 @@
             }
         ]
     },
-    {
+{
         "word": "dolore",
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
@@ -840,7 +850,7 @@
             }
         ]
     },
-    {
+{
         "word": "sostegno",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -857,7 +867,7 @@
             }
         ]
     },
-    {
+{
         "word": "fiducia",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -873,7 +883,7 @@
             }
         ]
     },
-    {
+{
         "word": "compromesso",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -890,7 +900,7 @@
             }
         ]
     },
-    {
+{
         "word": "viaggio",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -907,7 +917,7 @@
             }
         ]
     },
-    {
+{
         "word": "all'estero",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -922,7 +932,7 @@
             }
         ]
     },
-    {
+{
         "word": "destinazione",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -939,7 +949,7 @@
             }
         ]
     },
-    {
+{
         "word": "volo",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -956,7 +966,7 @@
             }
         ]
     },
-    {
+{
         "word": "bagagli",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -973,7 +983,7 @@
             }
         ]
     },
-    {
+{
         "word": "quartiere",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -990,7 +1000,7 @@
             }
         ]
     },
-    {
+{
         "word": "comunità",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -1007,7 +1017,7 @@
             }
         ]
     },
-    {
+{
         "word": "inquinamento",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1022,9 +1032,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "it";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

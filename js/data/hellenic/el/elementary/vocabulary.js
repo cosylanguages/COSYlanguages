@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "κήπος",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "καλλιτέχνης",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -24,7 +34,7 @@
             }
         ]
     },
-    {
+{
         "word": "σεφ",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -48,7 +58,7 @@
             }
         ]
     },
-    {
+{
         "word": "χωριάτικη σαλάτα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -71,7 +81,7 @@
             }
         ]
     },
-    {
+{
         "word": "γεμιστά",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -94,7 +104,7 @@
             }
         ]
     },
-    {
+{
         "word": "τυρί",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -118,7 +128,7 @@
             }
         ]
     },
-    {
+{
         "word": "ρύζι",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -142,7 +152,7 @@
             }
         ]
     },
-    {
+{
         "word": "ντομάτα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -166,7 +176,7 @@
             }
         ]
     },
-    {
+{
         "word": "πατάτα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -190,7 +200,7 @@
             }
         ]
     },
-    {
+{
         "word": "κρασί",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -215,7 +225,7 @@
             }
         ]
     },
-    {
+{
         "word": "μπίρα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -240,7 +250,7 @@
             }
         ]
     },
-    {
+{
         "word": "νοσοκομείο",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -264,7 +274,7 @@
             }
         ]
     },
-    {
+{
         "word": "κινηματογράφος",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -288,7 +298,7 @@
             }
         ]
     },
-    {
+{
         "word": "εστιατόριο",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -312,7 +322,7 @@
             }
         ]
     },
-    {
+{
         "word": "σούπερ μάρκετ",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
@@ -336,7 +346,7 @@
             }
         ]
     },
-    {
+{
         "word": "φόρεμα",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -345,7 +355,7 @@
         "form": "noun",
         "plural": "φορέματα"
     },
-    {
+{
         "word": "σακάκι",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -354,7 +364,7 @@
         "form": "noun",
         "plural": "σακάκια"
     },
-    {
+{
         "word": "φούστα",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -363,7 +373,7 @@
         "form": "noun",
         "plural": "φούστες"
     },
-    {
+{
         "word": "καναπές",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -372,7 +382,7 @@
         "form": "noun",
         "plural": "καναπέδες"
     },
-    {
+{
         "word": "λάμπα",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -381,7 +391,7 @@
         "form": "noun",
         "plural": "λάμπες"
     },
-    {
+{
         "word": "γραφείο",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -390,21 +400,21 @@
         "form": "noun",
         "plural": "γραφεία"
     },
-    {
+{
         "word": "πλένω τα δόντια",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
         "form": "noun"
     },
-    {
+{
         "word": "κάνω ντους",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "noun"
     },
-    {
+{
         "word": "ρολόι",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -412,7 +422,7 @@
         "form": "noun",
         "plural": "ρολόγια"
     },
-    {
+{
         "word": "πορτοφόλι",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -430,7 +440,7 @@
             }
         ]
     },
-    {
+{
         "word": "γυαλιά",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -455,7 +465,7 @@
             }
         ]
     },
-    {
+{
         "word": "λιοντάρι",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -473,7 +483,7 @@
             }
         ]
     },
-    {
+{
         "word": "τίγρης",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -482,7 +492,7 @@
         "form": "noun",
         "plural": "τίγρεις"
     },
-    {
+{
         "word": "ζωγραφική",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -490,7 +500,7 @@
         "form": "noun",
         "plural": "ζωγραφικές"
     },
-    {
+{
         "word": "μαγειρική",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -498,7 +508,7 @@
         "form": "noun",
         "plural": "μαγειρικές"
     },
-    {
+{
         "word": "ώμος",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -506,7 +516,7 @@
         "form": "noun",
         "plural": "ώμοι"
     },
-    {
+{
         "word": "πανεπιστήμιο",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -523,7 +533,7 @@
             }
         ]
     },
-    {
+{
         "word": "τοπική κουζίνα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -546,119 +556,119 @@
             }
         ]
     },
-    {
+{
         "word": "φαίνομαι",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🤔",
         "form": "verb"
     },
-    {
+{
         "word": "γίνομαι",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🦋",
         "form": "verb"
     },
-    {
+{
         "word": "κουνώ",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb"
     },
-    {
+{
         "word": "πιστεύω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb"
     },
-    {
+{
         "word": "συμβαίνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb"
     },
-    {
+{
         "word": "περιλαμβάνω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb"
     },
-    {
+{
         "word": "συνεχίζω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb"
     },
-    {
+{
         "word": "θέτω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb"
     },
-    {
+{
         "word": "οδηγώ",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👑",
         "form": "verb"
     },
-    {
+{
         "word": "ακολουθώ",
         "level": "elementary",
         "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb"
     },
-    {
+{
         "word": "δημιουργώ",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb"
     },
-    {
+{
         "word": "επιτρέπω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb"
     },
-    {
+{
         "word": "μεγαλώνω",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb"
     },
-    {
+{
         "word": "προσφέρω",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
         "form": "verb"
     },
-    {
+{
         "word": "θεωρώ",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "🤔",
         "form": "verb"
     },
-    {
+{
         "word": "εμφανίζομαι",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb"
     },
-    {
+{
         "word": "υπερωρίες",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -675,7 +685,7 @@
             }
         ]
     },
-    {
+{
         "word": "προαγωγή",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -692,7 +702,7 @@
             }
         ]
     },
-    {
+{
         "word": "συνέντευξη",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -709,7 +719,7 @@
             }
         ]
     },
-    {
+{
         "word": "συμβόλαιο",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -726,7 +736,7 @@
             }
         ]
     },
-    {
+{
         "word": "προθεσμία",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -743,7 +753,7 @@
             }
         ]
     },
-    {
+{
         "word": "εμπειρία",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -760,7 +770,7 @@
             }
         ]
     },
-    {
+{
         "word": "στεγαστικό δάνειο",
         "level": "elementary",
         "theme": "banking_A2",
@@ -777,7 +787,7 @@
             }
         ]
     },
-    {
+{
         "word": "δάνειο",
         "level": "elementary",
         "theme": "banking_A2",
@@ -794,7 +804,7 @@
             }
         ]
     },
-    {
+{
         "word": "λογαριασμός",
         "level": "elementary",
         "theme": "finances_A2",
@@ -811,7 +821,7 @@
             }
         ]
     },
-    {
+{
         "word": "χρέος",
         "level": "elementary",
         "theme": "finances_A2",
@@ -828,7 +838,7 @@
             }
         ]
     },
-    {
+{
         "word": "τραπεζικός λογαριασμός",
         "level": "elementary",
         "theme": "banking_A2",
@@ -845,7 +855,7 @@
             }
         ]
     },
-    {
+{
         "word": "προϋπολογισμός",
         "level": "elementary",
         "theme": "finances_A2",
@@ -862,7 +872,7 @@
             }
         ]
     },
-    {
+{
         "word": "διατροφή",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -879,7 +889,7 @@
             }
         ]
     },
-    {
+{
         "word": "ραντεβού",
         "level": "elementary",
         "theme": "medical_appointments_A1",
@@ -896,7 +906,7 @@
             }
         ]
     },
-    {
+{
         "word": "βιταμίνη",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -913,7 +923,7 @@
             }
         ]
     },
-    {
+{
         "word": "πόνος",
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
@@ -930,7 +940,7 @@
             }
         ]
     },
-    {
+{
         "word": "υποστήριξη",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -946,7 +956,7 @@
             }
         ]
     },
-    {
+{
         "word": "εμπιστοσύνη",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -962,7 +972,7 @@
             }
         ]
     },
-    {
+{
         "word": "συμβιβασμός",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -979,7 +989,7 @@
             }
         ]
     },
-    {
+{
         "word": "ταξίδι",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -996,7 +1006,7 @@
             }
         ]
     },
-    {
+{
         "word": "στο εξωτερικό",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -1011,7 +1021,7 @@
             }
         ]
     },
-    {
+{
         "word": "προορισμός",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -1028,7 +1038,7 @@
             }
         ]
     },
-    {
+{
         "word": "πτήση",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -1045,7 +1055,7 @@
             }
         ]
     },
-    {
+{
         "word": "αποσκευές",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -1062,7 +1072,7 @@
             }
         ]
     },
-    {
+{
         "word": "γειτονιά",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -1079,7 +1089,7 @@
             }
         ]
     },
-    {
+{
         "word": "κοινότητα",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -1096,7 +1106,7 @@
             }
         ]
     },
-    {
+{
         "word": "ρύπανση",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1111,9 +1121,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "el";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

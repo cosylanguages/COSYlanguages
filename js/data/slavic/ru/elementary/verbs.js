@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "чистить зубы",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -21,7 +21,7 @@
         "v3": "чистила зубы",
         "group": "1st_conj"
     },
-    {
+{
         "word": "принимать душ",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -43,7 +43,7 @@
         "v3": "принимала душ",
         "group": "1st_conj"
     },
-    {
+{
         "word": "казаться",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -64,7 +64,7 @@
         "v3": "казалась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "становиться",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -86,7 +86,7 @@
         "v3": "стала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "верить",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -107,7 +107,7 @@
         "v3": "верила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "случаться",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -129,7 +129,7 @@
         "v3": "случилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "включать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -151,7 +151,7 @@
         "v3": "включала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "продолжать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -172,7 +172,7 @@
         "v3": "продолжала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "устанавливать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -194,7 +194,7 @@
         "v3": "установила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "вести",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -215,7 +215,7 @@
         "v3": "вела",
         "group": "1st_conj"
     },
-    {
+{
         "word": "следовать",
         "level": "elementary",
         "theme": "directions_navigation_A1",
@@ -236,7 +236,7 @@
         "v3": "следовала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "создавать",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -258,7 +258,7 @@
         "v3": "создала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "разрешать",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -280,7 +280,7 @@
         "v3": "разрешила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "расти",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -302,7 +302,7 @@
         "v3": "росла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "предлагать",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -324,7 +324,7 @@
         "v3": "предложила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "рассматривать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -346,7 +346,7 @@
         "v3": "рассматривала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "появляться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -368,7 +368,7 @@
         "v3": "появилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "служить",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -390,7 +390,7 @@
         "v3": "служила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "ожидать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -411,7 +411,7 @@
         "v3": "ожидала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "строить",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -432,7 +432,7 @@
         "v3": "строила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "достигать",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -454,7 +454,7 @@
         "v3": "достигла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "убивать",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -476,7 +476,7 @@
         "v3": "убила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "оставаться",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -497,7 +497,7 @@
         "v3": "оставалась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "предлагать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -519,7 +519,7 @@
         "v3": "предложила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "поднимать",
         "level": "elementary",
         "theme": "family_life_A1",
@@ -541,7 +541,7 @@
         "v3": "подняла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "требовать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -562,7 +562,7 @@
         "v3": "требовала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "сообщать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -584,7 +584,7 @@
         "v3": "сообщила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "объяснять",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -606,7 +606,7 @@
         "v3": "объяснила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "развивать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -628,7 +628,7 @@
         "v3": "развивала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "уходить на пенсию",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -650,7 +650,7 @@
         "v3": "ушла на пенсию",
         "group": "1st_conj"
     },
-    {
+{
         "word": "позволить себе",
         "level": "elementary",
         "theme": "finances_A2",
@@ -672,7 +672,7 @@
         "v3": "позволила себе",
         "group": "1st_conj"
     },
-    {
+{
         "word": "перерабатывать",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -694,7 +694,7 @@
         "v3": "перерабатывала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "ударить",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -716,7 +716,7 @@
         "v3": "ударила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "производить",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -738,7 +738,7 @@
         "v3": "производила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "сталкиваться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -760,7 +760,7 @@
         "v3": "столкнулась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "покрывать",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -782,7 +782,7 @@
         "v3": "покрывала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "описывать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -804,7 +804,7 @@
         "v3": "описывала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "ловить",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -826,7 +826,7 @@
         "v3": "ловила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "подавать заявление на",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -848,7 +848,7 @@
         "v3": "подала заявление",
         "group": "1st_conj"
     },
-    {
+{
         "word": "нанимать",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -870,7 +870,7 @@
         "v3": "наняла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "повышать в должности",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -892,7 +892,7 @@
         "v3": "повысила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "увольняться",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -914,7 +914,7 @@
         "v3": "уволилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "увольнять",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -936,7 +936,7 @@
         "v3": "уволила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "делегировать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -958,7 +958,7 @@
         "v3": "делегировала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "вести переговоры",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -980,7 +980,7 @@
         "v3": "вела переговоры",
         "group": "1st_conj"
     },
-    {
+{
         "word": "оценивать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1001,7 +1001,7 @@
         "v3": "оценивала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "сотрудничать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1023,7 +1023,7 @@
         "v3": "сотрудничала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "планировать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1045,7 +1045,7 @@
         "v3": "планировала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "инвестировать",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1067,7 +1067,7 @@
         "v3": "инвестировала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "занимать",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1089,7 +1089,7 @@
         "v3": "занимала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "давать в долг",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1111,7 +1111,7 @@
         "v3": "давала в долг",
         "group": "1st_conj"
     },
-    {
+{
         "word": "планировать бюджет",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1133,7 +1133,7 @@
         "v3": "планировала бюджет",
         "group": "1st_conj"
     },
-    {
+{
         "word": "снимать деньги",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1155,7 +1155,7 @@
         "v3": "снимала деньги",
         "group": "1st_conj"
     },
-    {
+{
         "word": "переводить",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1177,7 +1177,7 @@
         "v3": "переводила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "назначать цену",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1199,7 +1199,7 @@
         "v3": "назначила цену",
         "group": "1st_conj"
     },
-    {
+{
         "word": "требовать",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1220,7 +1220,7 @@
         "v3": "требовала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "спорить",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1241,7 +1241,7 @@
         "v3": "спорила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "доверять",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1262,7 +1262,7 @@
         "v3": "доверяла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "поддерживать",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1283,7 +1283,7 @@
         "v3": "поддерживала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "не соглашаться",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1305,7 +1305,7 @@
         "v3": "не согласилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "извиняться",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1326,7 +1326,7 @@
         "v3": "извинялась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "прощать",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1348,7 +1348,7 @@
         "v3": "простила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "идти на компромисс",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1370,7 +1370,7 @@
         "v3": "пошла на компромисс",
         "group": "1st_conj"
     },
-    {
+{
         "word": "диагностировать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1392,7 +1392,7 @@
         "v3": "диагностировала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "лечить",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1413,7 +1413,7 @@
         "v3": "лечила",
         "group": "2nd_conj"
     },
-    {
+{
         "word": "предотвращать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1435,7 +1435,7 @@
         "v3": "предотвращала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "страдать",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -1456,7 +1456,7 @@
         "v3": "страдала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "рекомендовать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1477,7 +1477,7 @@
         "v3": "рекомендовала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "улучшать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1498,7 +1498,7 @@
         "v3": "улучшала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "арендовать",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1519,7 +1519,7 @@
         "v3": "арендовала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "владеть",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1540,7 +1540,7 @@
         "v3": "владела",
         "group": "1st_conj"
     },
-    {
+{
         "word": "ремонтировать",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -1562,7 +1562,7 @@
         "v3": "ремонтировала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "переезжать",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -1584,7 +1584,7 @@
         "v3": "переехала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "украшать",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1606,7 +1606,7 @@
         "v3": "украшала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "основывать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1628,7 +1628,7 @@
         "v3": "основала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "выяснять",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -1650,7 +1650,7 @@
         "v3": "выяснила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "продолжать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1671,7 +1671,7 @@
         "v3": "продолжала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "сдаваться",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1693,7 +1693,7 @@
         "v3": "сдалась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "улаживать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1715,7 +1715,7 @@
         "v3": "уладила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "присматривать за",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -1736,7 +1736,7 @@
         "v3": "присматривала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "сокращать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1758,7 +1758,7 @@
         "v3": "сократила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "брать на себя",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1780,7 +1780,7 @@
         "v3": "взяла на себя",
         "group": "1st_conj"
     },
-    {
+{
         "word": "отклонять",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -1802,7 +1802,7 @@
         "v3": "отклонила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "откладывать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1824,7 +1824,7 @@
         "v3": "откладывала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "быть должным",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1845,7 +1845,7 @@
         "v3": "была должна",
         "group": "1st_conj"
     },
-    {
+{
         "word": "приглашать",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1867,7 +1867,7 @@
         "v3": "пригласила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "подтверждать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1889,7 +1889,7 @@
         "v3": "подтвердила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "связываться",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1911,7 +1911,7 @@
         "v3": "связалась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "жаловаться",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1933,7 +1933,7 @@
         "v3": "жаловалась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "обсуждать",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1954,7 +1954,7 @@
         "v3": "обсуждала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "представлять",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1976,7 +1976,7 @@
         "v3": "представляла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "принимать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1998,7 +1998,7 @@
         "v3": "приняла",
         "group": "1st_conj"
     },
-    {
+{
         "word": "отказываться",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2020,7 +2020,7 @@
         "v3": "отказалась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "худеть",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -2042,7 +2042,7 @@
         "v3": "худела",
         "group": "1st_conj"
     },
-    {
+{
         "word": "увеличивать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2064,7 +2064,7 @@
         "v3": "увеличивала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "уменьшать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2086,7 +2086,7 @@
         "v3": "уменьшала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "улучшать навыки",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2108,7 +2108,7 @@
         "v3": "улучшала навыки",
         "group": "1st_conj"
     },
-    {
+{
         "word": "предоставлять",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2129,7 +2129,7 @@
         "v3": "предоставила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "решать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2151,7 +2151,7 @@
         "v3": "решила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "делиться",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2173,7 +2173,7 @@
         "v3": "делилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "присоединяться",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2195,7 +2195,7 @@
         "v3": "присоединилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "получать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2217,7 +2217,7 @@
         "v3": "получила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "содержать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2239,7 +2239,7 @@
         "v3": "содержала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "планировать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2260,7 +2260,7 @@
         "v3": "планировала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "готовиться",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2282,7 +2282,7 @@
         "v3": "готовилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "потерпеть неудачу",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2304,7 +2304,7 @@
         "v3": "потерпела неудачу",
         "group": "1st_conj"
     },
-    {
+{
         "word": "преуспевать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2326,7 +2326,7 @@
         "v3": "преуспевала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "соглашаться",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -2347,7 +2347,7 @@
         "v3": "согласилась",
         "group": "1st_conj"
     },
-    {
+{
         "word": "заменять",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2369,7 +2369,7 @@
         "v3": "заменила",
         "group": "1st_conj"
     },
-    {
+{
         "word": "искать",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2390,7 +2390,7 @@
         "v3": "искала",
         "group": "1st_conj"
     },
-    {
+{
         "word": "выходить из системы",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2411,12 +2411,11 @@
         "v2": "вышел из системы",
         "v3": "вышла из системы",
         "group": "1st_conj"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "ru";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "be",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -25,7 +25,7 @@
         "group": "irregular",
         "opposite": "become"
     },
-    {
+{
         "word": "have",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -50,7 +50,7 @@
         "group": "irregular",
         "opposite": "need"
     },
-    {
+{
         "word": "feel",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -73,7 +73,7 @@
         "group": "irregular",
         "opposite": "act"
     },
-    {
+{
         "word": "give",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -98,7 +98,7 @@
         "v3": "given",
         "group": "irregular"
     },
-    {
+{
         "word": "take",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -123,7 +123,7 @@
         "v3": "taken",
         "group": "irregular"
     },
-    {
+{
         "word": "get",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -149,7 +149,7 @@
         "group": "irregular",
         "transcription": "gɪt"
     },
-    {
+{
         "word": "put",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -174,7 +174,7 @@
         "group": "irregular",
         "transcription": "pʊt"
     },
-    {
+{
         "word": "make",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -198,7 +198,7 @@
         "opposite": "destroy",
         "transcription": "meɪk"
     },
-    {
+{
         "word": "do",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -222,7 +222,7 @@
         "opposite": "undo",
         "transcription": "du"
     },
-    {
+{
         "word": "use",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -246,7 +246,7 @@
         "opposite": "waste",
         "transcription": "juz"
     },
-    {
+{
         "word": "open",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -271,7 +271,7 @@
         "group": "regular",
         "transcription": "ˈoʊpən"
     },
-    {
+{
         "word": "close",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -296,7 +296,7 @@
         "group": "regular",
         "transcription": "kloʊz"
     },
-    {
+{
         "word": "start",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -323,7 +323,7 @@
             "begin"
         ]
     },
-    {
+{
         "word": "finish",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -351,7 +351,7 @@
             "end"
         ]
     },
-    {
+{
         "word": "help",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -377,7 +377,7 @@
             "assist"
         ]
     },
-    {
+{
         "word": "try",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -403,7 +403,7 @@
             "attempt"
         ]
     },
-    {
+{
         "word": "show",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -430,7 +430,7 @@
             "demonstrate"
         ]
     },
-    {
+{
         "word": "find",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -458,7 +458,7 @@
             "locate"
         ]
     },
-    {
+{
         "word": "keep",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -485,7 +485,7 @@
             "retain"
         ]
     },
-    {
+{
         "word": "lose",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -513,7 +513,7 @@
             "misplace"
         ]
     },
-    {
+{
         "word": "cut",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -540,7 +540,7 @@
             "slice"
         ]
     },
-    {
+{
         "word": "turn",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -564,7 +564,7 @@
         "opposite": "straighten",
         "transcription": "tərn"
     },
-    {
+{
         "word": "bring",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -592,7 +592,7 @@
             "carry"
         ]
     },
-    {
+{
         "word": "say",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -620,7 +620,7 @@
             "state"
         ]
     },
-    {
+{
         "word": "tell",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -647,7 +647,7 @@
             "inform"
         ]
     },
-    {
+{
         "word": "ask",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -674,7 +674,7 @@
             "request"
         ]
     },
-    {
+{
         "word": "speak",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -701,7 +701,7 @@
             "talk"
         ]
     },
-    {
+{
         "word": "talk",
         "level": "starter",
         "theme": "family_life_A1",
@@ -728,7 +728,7 @@
             "chat"
         ]
     },
-    {
+{
         "word": "call",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -754,7 +754,7 @@
             "phone"
         ]
     },
-    {
+{
         "word": "write",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -782,7 +782,7 @@
             "note down"
         ]
     },
-    {
+{
         "word": "read",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -810,7 +810,7 @@
             "look at"
         ]
     },
-    {
+{
         "word": "listen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -837,7 +837,7 @@
             "hear"
         ]
     },
-    {
+{
         "word": "answer",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -865,7 +865,7 @@
             "reply"
         ]
     },
-    {
+{
         "word": "repeat",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -892,7 +892,7 @@
             "say again"
         ]
     },
-    {
+{
         "word": "go",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -920,7 +920,7 @@
             "move"
         ]
     },
-    {
+{
         "word": "come",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -948,7 +948,7 @@
             "arrive"
         ]
     },
-    {
+{
         "word": "walk",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -976,7 +976,7 @@
             "go on foot"
         ]
     },
-    {
+{
         "word": "drive",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1003,7 +1003,7 @@
             "operate"
         ]
     },
-    {
+{
         "word": "fly",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1030,7 +1030,7 @@
             "travel by air"
         ]
     },
-    {
+{
         "word": "arrive",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1057,7 +1057,7 @@
             "reach"
         ]
     },
-    {
+{
         "word": "leave",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1085,7 +1085,7 @@
             "go away"
         ]
     },
-    {
+{
         "word": "move",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1108,7 +1108,7 @@
         "opposite": "stay",
         "transcription": "muv"
     },
-    {
+{
         "word": "return",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1135,7 +1135,7 @@
             "come back"
         ]
     },
-    {
+{
         "word": "travel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1161,7 +1161,7 @@
             "journey"
         ]
     },
-    {
+{
         "word": "eat",
         "image": "images/vocabulary/actions/eat.png",
         "level": "starter",
@@ -1190,7 +1190,7 @@
             "have a meal"
         ]
     },
-    {
+{
         "word": "drink",
         "image": "images/vocabulary/actions/drink.png",
         "level": "starter",
@@ -1219,7 +1219,7 @@
             "sip"
         ]
     },
-    {
+{
         "word": "sleep",
         "image": "images/vocabulary/actions/fall asleep. sleep.png",
         "level": "starter",
@@ -1248,7 +1248,7 @@
             "rest"
         ]
     },
-    {
+{
         "word": "cook",
         "image": "images/vocabulary/actions/cook.png",
         "level": "starter",
@@ -1275,7 +1275,7 @@
             "prepare food"
         ]
     },
-    {
+{
         "word": "clean",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1302,7 +1302,7 @@
             "tidy"
         ]
     },
-    {
+{
         "word": "wear",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1329,7 +1329,7 @@
             "have on"
         ]
     },
-    {
+{
         "word": "wash",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1356,7 +1356,7 @@
             "clean"
         ]
     },
-    {
+{
         "word": "buy",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1384,7 +1384,7 @@
             "purchase"
         ]
     },
-    {
+{
         "word": "pay",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1410,7 +1410,7 @@
             "spend"
         ]
     },
-    {
+{
         "word": "spend",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1437,7 +1437,7 @@
             "pay"
         ]
     },
-    {
+{
         "word": "save",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1464,7 +1464,7 @@
             "keep"
         ]
     },
-    {
+{
         "word": "work",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1491,7 +1491,7 @@
             "do a job"
         ]
     },
-    {
+{
         "word": "live",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1519,7 +1519,7 @@
             "reside"
         ]
     },
-    {
+{
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1546,7 +1546,7 @@
             "believe"
         ]
     },
-    {
+{
         "word": "know",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1574,7 +1574,7 @@
             "understand"
         ]
     },
-    {
+{
         "word": "want",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1602,7 +1602,7 @@
             "desire"
         ]
     },
-    {
+{
         "word": "need",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1630,7 +1630,7 @@
             "require"
         ]
     },
-    {
+{
         "word": "like",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1659,7 +1659,7 @@
             "enjoy"
         ]
     },
-    {
+{
         "word": "dislike",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1683,7 +1683,7 @@
         "group": "regular",
         "transcription": "dɪsˈlaɪk"
     },
-    {
+{
         "word": "love",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1711,7 +1711,7 @@
             "adore"
         ]
     },
-    {
+{
         "word": "hate",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1739,7 +1739,7 @@
             "dislike"
         ]
     },
-    {
+{
         "word": "hope",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1766,7 +1766,7 @@
             "wish"
         ]
     },
-    {
+{
         "word": "remember",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1791,7 +1791,7 @@
         "group": "regular",
         "transcription": "rɪˈmɛmbər"
     },
-    {
+{
         "word": "forget",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1816,7 +1816,7 @@
         "group": "irregular",
         "transcription": "fərˈgɛt"
     },
-    {
+{
         "word": "understand",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1840,7 +1840,7 @@
         "opposite": "misunderstand",
         "transcription": "ˌəndərˈstænd"
     },
-    {
+{
         "word": "decide",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1867,7 +1867,7 @@
         "opposite": "hesitate",
         "transcription": "ˌdɪˈsaɪd"
     },
-    {
+{
         "word": "enjoy",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1890,7 +1890,7 @@
         "opposite": "hate",
         "transcription": "ˌɛnˈʤɔɪ"
     },
-    {
+{
         "word": "see",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1914,7 +1914,7 @@
         "opposite": "blind",
         "transcription": "si"
     },
-    {
+{
         "word": "hear",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1938,7 +1938,7 @@
         "opposite": "ignore",
         "transcription": "hir"
     },
-    {
+{
         "word": "wake up",
         "image": "images/vocabulary/actions/wake up.png",
         "level": "starter",
@@ -1963,7 +1963,7 @@
         "group": "irregular",
         "transcription": "weɪk əp"
     },
-    {
+{
         "word": "watch",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1986,7 +1986,7 @@
         "opposite": "ignore",
         "transcription": "wɔʧ"
     },
-    {
+{
         "word": "look",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2010,7 +2010,7 @@
         "opposite": "ignore",
         "transcription": "lʊk"
     },
-    {
+{
         "word": "play",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2033,7 +2033,7 @@
         "opposite": "work",
         "transcription": "pleɪ"
     },
-    {
+{
         "word": "run",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2058,7 +2058,7 @@
         "group": "irregular",
         "transcription": "rən"
     },
-    {
+{
         "word": "sit",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2082,7 +2082,7 @@
         "group": "irregular",
         "transcription": "sɪt"
     },
-    {
+{
         "word": "stand",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2106,7 +2106,7 @@
         "group": "irregular",
         "transcription": "stænd"
     },
-    {
+{
         "word": "meet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2129,7 +2129,7 @@
         "opposite": null,
         "transcription": "mit"
     },
-    {
+{
         "word": "learn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2153,7 +2153,7 @@
         "group": "both",
         "transcription": "lərn"
     },
-    {
+{
         "word": "change",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2176,7 +2176,7 @@
         "opposite": "stay",
         "transcription": "ʧeɪnʤ"
     },
-    {
+{
         "word": "stop",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2200,7 +2200,7 @@
         "group": "regular",
         "transcription": "stɑp"
     },
-    {
+{
         "word": "add",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2225,7 +2225,7 @@
         "group": "regular",
         "transcription": "æd"
     },
-    {
+{
         "word": "subtract",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2252,7 +2252,7 @@
         "group": "regular",
         "transcription": "səbˈtrækt"
     },
-    {
+{
         "word": "win",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2276,7 +2276,7 @@
         "group": "irregular",
         "transcription": "wɪn"
     },
-    {
+{
         "word": "wait",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2299,7 +2299,7 @@
         "opposite": "act",
         "transcription": "weɪt"
     },
-    {
+{
         "word": "die",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2323,7 +2323,7 @@
         "group": "regular",
         "transcription": "daɪ"
     },
-    {
+{
         "word": "send",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2347,7 +2347,7 @@
         "group": "irregular",
         "transcription": "sɛnd"
     },
-    {
+{
         "word": "stay",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2372,7 +2372,7 @@
         "group": "regular",
         "transcription": "steɪ"
     },
-    {
+{
         "word": "fall",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2400,7 +2400,7 @@
         "group": "irregular",
         "transcription": "fɔl"
     },
-    {
+{
         "word": "rise",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2425,7 +2425,7 @@
         "group": "irregular",
         "transcription": "raɪz"
     },
-    {
+{
         "word": "pass",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2450,7 +2450,7 @@
         "group": "regular",
         "transcription": "pæs"
     },
-    {
+{
         "word": "sell",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2477,7 +2477,7 @@
         "group": "irregular",
         "transcription": "sɛl"
     },
-    {
+{
         "word": "pull",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2501,7 +2501,7 @@
         "group": "regular",
         "transcription": "pʊl"
     },
-    {
+{
         "word": "push",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2526,7 +2526,7 @@
         "group": "regular",
         "transcription": "pʊʃ"
     },
-    {
+{
         "word": "carry",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2549,7 +2549,7 @@
         "opposite": "drop",
         "transcription": "ˈkɛri"
     },
-    {
+{
         "word": "break",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2573,7 +2573,7 @@
         "opposite": "fix",
         "transcription": "breɪk"
     },
-    {
+{
         "word": "receive",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2598,7 +2598,7 @@
         "group": "regular",
         "transcription": "rɪˈsiv"
     },
-    {
+{
         "word": "agree",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2623,7 +2623,7 @@
         "group": "regular",
         "transcription": "əˈgri"
     },
-    {
+{
         "word": "draw",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2647,7 +2647,7 @@
         "opposite": null,
         "transcription": "drɔ"
     },
-    {
+{
         "word": "share",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2671,7 +2671,7 @@
         "opposite": "keep",
         "transcription": "ʃɛr"
     },
-    {
+{
         "word": "smile",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2696,7 +2696,7 @@
         "group": "regular",
         "transcription": "smaɪl"
     },
-    {
+{
         "word": "cry",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2724,7 +2724,7 @@
         "group": "regular",
         "transcription": "kraɪ"
     },
-    {
+{
         "word": "dance",
         "level": "starter",
         "theme": "music_A1",
@@ -2751,7 +2751,7 @@
         "opposite": "sit",
         "transcription": "dæns"
     },
-    {
+{
         "word": "sing",
         "level": "starter",
         "theme": "music_A1",
@@ -2778,7 +2778,7 @@
         "opposite": "be quiet",
         "transcription": "sɪŋ"
     },
-    {
+{
         "word": "jump",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2802,7 +2802,7 @@
         "opposite": "fall",
         "transcription": "ʤəmp"
     },
-    {
+{
         "word": "swim",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2829,7 +2829,7 @@
         "opposite": "sink",
         "transcription": "swɪm"
     },
-    {
+{
         "word": "study",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2852,7 +2852,7 @@
         "opposite": "play",
         "transcription": "ˈstədi"
     },
-    {
+{
         "word": "teach",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2875,7 +2875,7 @@
         "opposite": "learn",
         "transcription": "tiʧ"
     },
-    {
+{
         "word": "rent",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2898,7 +2898,7 @@
         "opposite": "own",
         "transcription": "rɛnt"
     },
-    {
+{
         "word": "exercise",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2921,7 +2921,7 @@
         "opposite": "rest",
         "transcription": "ˈɛksərˌsaɪz"
     },
-    {
+{
         "word": "cost",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2943,7 +2943,7 @@
         "group": "irregular",
         "transcription": "kɔst"
     },
-    {
+{
         "word": "invite",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2966,7 +2966,7 @@
         "opposite": "reject",
         "transcription": "ˌɪnˈvaɪt"
     },
-    {
+{
         "word": "get up",
         "image": "images/vocabulary/actions/get up.png",
         "definitions": [
@@ -2990,7 +2990,7 @@
         "opposite": null,
         "transcription": "gɪt əp"
     },
-    {
+{
         "word": "have breakfast",
         "image": "images/vocabulary/actions/have breakfast.png",
         "definitions": [
@@ -3017,7 +3017,7 @@
         "opposite": null,
         "transcription": "hæv ˈbrɛkfəst"
     },
-    {
+{
         "word": "come back",
         "definitions": [
             {
@@ -3040,7 +3040,7 @@
         "opposite": null,
         "transcription": "kəm bæk"
     },
-    {
+{
         "word": "go to bed",
         "image": "images/vocabulary/actions/go to bed.png",
         "definitions": [
@@ -3064,7 +3064,7 @@
         "opposite": null,
         "transcription": "goʊ tɪ bɛd"
     },
-    {
+{
         "word": "check",
         "definitions": [
             {
@@ -3087,7 +3087,7 @@
         "opposite": "ignore",
         "transcription": "ʧɛk"
     },
-    {
+{
         "word": "unpack",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -3111,7 +3111,7 @@
         "group": "regular",
         "transcription": "ənˈpæk"
     },
-    {
+{
         "word": "reply",
         "definitions": [
             {
@@ -3134,7 +3134,7 @@
         "opposite": "ignore",
         "transcription": "rɪˈplaɪ"
     },
-    {
+{
         "word": "present",
         "definitions": [
             {
@@ -3157,7 +3157,7 @@
         "opposite": "hide",
         "transcription": "ˈprɛzənt"
     },
-    {
+{
         "word": "attend",
         "definitions": [
             {
@@ -3180,7 +3180,7 @@
         "opposite": "miss",
         "transcription": "əˈtɛnd"
     },
-    {
+{
         "word": "manage",
         "definitions": [
             {
@@ -3203,7 +3203,7 @@
         "opposite": "follow",
         "transcription": "ˈmænɪʤ"
     },
-    {
+{
         "word": "earn",
         "definitions": [
             {
@@ -3226,7 +3226,7 @@
         "opposite": "spend",
         "transcription": "ərn"
     },
-    {
+{
         "word": "visit",
         "definitions": [
             {
@@ -3249,7 +3249,7 @@
         "opposite": "leave",
         "transcription": "ˈvɪzɪt"
     },
-    {
+{
         "word": "celebrate",
         "definitions": [
             {
@@ -3272,7 +3272,7 @@
         "opposite": "mourn",
         "transcription": "ˈsɛləˌbreɪt"
     },
-    {
+{
         "word": "hurt",
         "definitions": [
             {
@@ -3295,7 +3295,7 @@
         "opposite": "heal",
         "transcription": "hərt"
     },
-    {
+{
         "word": "rest",
         "definitions": [
             {
@@ -3318,7 +3318,7 @@
         "opposite": "exercise",
         "transcription": "rɛst"
     },
-    {
+{
         "word": "book",
         "definitions": [
             {
@@ -3341,7 +3341,7 @@
         "opposite": "cancel",
         "transcription": "bʊk"
     },
-    {
+{
         "word": "pack",
         "definitions": [
             {
@@ -3365,7 +3365,7 @@
         "group": "regular",
         "transcription": "pæk"
     },
-    {
+{
         "word": "cancel",
         "definitions": [
             {
@@ -3388,7 +3388,7 @@
         "opposite": "book",
         "transcription": "ˈkænsəl"
     },
-    {
+{
         "word": "miss",
         "definitions": [
             {
@@ -3411,7 +3411,7 @@
         "opposite": "attend",
         "transcription": "mɪs"
     },
-    {
+{
         "word": "order",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3434,7 +3434,7 @@
         "opposite": "deliver",
         "transcription": "ˈɔrdər"
     },
-    {
+{
         "word": "thank",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3457,7 +3457,7 @@
         "opposite": "complain",
         "transcription": "θæŋk"
     },
-    {
+{
         "word": "introduce",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3480,7 +3480,7 @@
         "opposite": "hide",
         "transcription": "ˌɪntrəˈdus"
     },
-    {
+{
         "word": "relax",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3503,7 +3503,7 @@
         "opposite": "work",
         "transcription": "rɪˈlæks"
     },
-    {
+{
         "word": "mean",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3526,7 +3526,7 @@
         "opposite": "nonsense",
         "transcription": "min"
     },
-    {
+{
         "word": "follow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3550,7 +3550,7 @@
         "group": "regular",
         "transcription": "ˈfɑloʊ"
     },
-    {
+{
         "word": "grow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3573,7 +3573,7 @@
         "opposite": "shrink",
         "transcription": "groʊ"
     },
-    {
+{
         "word": "become",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3596,7 +3596,7 @@
         "opposite": "remain",
         "transcription": "bɪˈkəm"
     },
-    {
+{
         "word": "choose",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3619,7 +3619,7 @@
         "opposite": "reject",
         "transcription": "ʧuz"
     },
-    {
+{
         "word": "begin",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3646,7 +3646,7 @@
         "group": "irregular",
         "transcription": "bɪˈgɪn"
     },
-    {
+{
         "word": "end",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3674,7 +3674,7 @@
         "group": "regular",
         "transcription": "ɛnd"
     },
-    {
+{
         "word": "brush",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3700,7 +3700,7 @@
         "opposite": "mess up",
         "transcription": "brəʃ"
     },
-    {
+{
         "word": "ride",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -3723,7 +3723,7 @@
         "opposite": "walk",
         "transcription": "raɪd"
     },
-    {
+{
         "word": "believe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3750,7 +3750,7 @@
         "opposite": "doubt",
         "transcription": "bɪˈliv"
     },
-    {
+{
         "word": "prefer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3773,7 +3773,7 @@
         "opposite": "dislike",
         "transcription": "prɪˈfər"
     },
-    {
+{
         "word": "catch",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -3796,7 +3796,7 @@
         "opposite": "throw",
         "transcription": "kæʧ"
     },
-    {
+{
         "word": "fix",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3822,7 +3822,7 @@
         "opposite": "break",
         "transcription": "fɪks"
     },
-    {
+{
         "word": "plan",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3848,7 +3848,7 @@
         "opposite": "improvise",
         "transcription": "plæn"
     },
-    {
+{
         "word": "borrow",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3871,7 +3871,7 @@
         "opposite": "lend",
         "transcription": "ˈbɑˌroʊ"
     },
-    {
+{
         "word": "smell",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3897,7 +3897,7 @@
         "opposite": "stink",
         "transcription": "smɛl"
     },
-    {
+{
         "word": "taste",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -3923,7 +3923,7 @@
         "opposite": "swallow",
         "transcription": "teɪst"
     },
-    {
+{
         "word": "lie",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3949,7 +3949,7 @@
         "opposite": "stand",
         "transcription": "laɪ"
     },
-    {
+{
         "word": "laugh",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -3976,7 +3976,7 @@
         "group": "regular",
         "transcription": "læf"
     },
-    {
+{
         "word": "worry",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -4002,7 +4002,7 @@
         "opposite": "relax",
         "transcription": "ˈwəri"
     },
-    {
+{
         "word": "sound",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -4028,7 +4028,7 @@
         "opposite": "silence",
         "transcription": "saʊnd"
     },
-    {
+{
         "word": "spell",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4054,7 +4054,7 @@
         "opposite": "misspell",
         "transcription": "spɛl"
     },
-    {
+{
         "word": "point",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4081,7 +4081,7 @@
         "opposite": "hide",
         "transcription": "pɔɪnt"
     },
-    {
+{
         "word": "shout",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4107,7 +4107,7 @@
         "opposite": "whisper",
         "transcription": "ʃaʊt"
     },
-    {
+{
         "word": "wave",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4133,7 +4133,7 @@
         "opposite": "ignore",
         "transcription": "weɪv"
     },
-    {
+{
         "word": "kick",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4159,7 +4159,7 @@
         "opposite": "catch",
         "transcription": "kɪk"
     },
-    {
+{
         "word": "throw",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4185,7 +4185,7 @@
         "opposite": "catch",
         "transcription": "θroʊ"
     },
-    {
+{
         "word": "bounce",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4212,7 +4212,7 @@
         "opposite": "stop",
         "transcription": "baʊns"
     },
-    {
+{
         "word": "paint",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -4239,7 +4239,7 @@
         "opposite": "erase",
         "transcription": "peɪnt"
     },
-    {
+{
         "word": "hop",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4265,7 +4265,7 @@
         "opposite": "walk",
         "transcription": "hɑp"
     },
-    {
+{
         "word": "skip",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4292,7 +4292,7 @@
         "opposite": "walk",
         "transcription": "skɪp"
     },
-    {
+{
         "word": "count",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -4318,7 +4318,7 @@
         "opposite": "estimate",
         "transcription": "kaʊnt"
     },
-    {
+{
         "word": "tick",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4344,7 +4344,7 @@
         "opposite": "cross",
         "transcription": "tɪk"
     },
-    {
+{
         "word": "cross",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4370,7 +4370,7 @@
         "opposite": "tick",
         "transcription": "krɔs"
     },
-    {
+{
         "word": "colour",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4396,7 +4396,7 @@
         "opposite": "erase",
         "transcription": "ˈkələr"
     },
-    {
+{
         "word": "hold",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4423,7 +4423,7 @@
         "opposite": "drop",
         "transcription": "hoʊld"
     },
-    {
+{
         "word": "lead",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4450,7 +4450,7 @@
         "opposite": "follow",
         "transcription": "lɛd"
     },
-    {
+{
         "word": "fight",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -4476,7 +4476,7 @@
         "opposite": "make peace",
         "transcription": "faɪt"
     },
-    {
+{
         "word": "hide",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -4500,7 +4500,7 @@
         "group": "irregular",
         "transcription": "haɪd"
     },
-    {
+{
         "word": "seek",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -4526,7 +4526,7 @@
         "opposite": "hide",
         "transcription": "sik"
     },
-    {
+{
         "word": "ring",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4553,7 +4553,7 @@
         "opposite": "be silent",
         "transcription": "rɪŋ"
     },
-    {
+{
         "word": "text",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -4579,7 +4579,7 @@
         "opposite": "call",
         "transcription": "tɛkst"
     },
-    {
+{
         "word": "whisper",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4606,7 +4606,7 @@
         "opposite": "shout",
         "transcription": "ˈwɪspər"
     },
-    {
+{
         "word": "touch",
         "level": "starter",
         "theme": "five_senses_A1",
@@ -4632,7 +4632,7 @@
         "opposite": null,
         "transcription": "təʧ"
     },
-    {
+{
         "word": "let",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -4656,7 +4656,7 @@
         "opposite": null,
         "transcription": "lɛt"
     },
-    {
+{
         "word": "set",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4680,7 +4680,7 @@
         "opposite": null,
         "transcription": "sɛt"
     },
-    {
+{
         "word": "email",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -4703,7 +4703,7 @@
         "group": "regular",
         "transcription": "iˈmeɪl"
     },
-    {
+{
         "word": "phone",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -4727,7 +4727,7 @@
         "opposite": "text",
         "transcription": "foʊn"
     },
-    {
+{
         "word": "climb",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -4751,7 +4751,7 @@
         "opposite": "descend",
         "transcription": "klaɪm"
     },
-    {
+{
         "word": "dress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4779,7 +4779,7 @@
         "group": "regular",
         "transcription": "drɛs"
     },
-    {
+{
         "word": "undress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4807,7 +4807,7 @@
         "group": "regular",
         "transcription": "ənˈdrɛs"
     },
-    {
+{
         "word": "turn on",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4832,7 +4832,7 @@
         "group": "regular",
         "transcription": "tərn ɔn"
     },
-    {
+{
         "word": "turn off",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4857,7 +4857,7 @@
         "group": "regular",
         "transcription": "tərn ɔf"
     },
-    {
+{
         "word": "welcome",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4880,7 +4880,7 @@
         "opposite": "reject",
         "transcription": "ˈwɛlkəm"
     },
-    {
+{
         "word": "act",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4903,7 +4903,7 @@
         "opposite": "be natural",
         "transcription": "ækt"
     },
-    {
+{
         "word": "copy",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4926,7 +4926,7 @@
         "opposite": "original",
         "transcription": "ˈkɑpi"
     },
-    {
+{
         "word": "fill",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -4949,7 +4949,7 @@
         "opposite": "empty",
         "transcription": "fɪl"
     },
-    {
+{
         "word": "fit",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -4972,7 +4972,7 @@
         "opposite": "unfit",
         "transcription": "fɪt"
     },
-    {
+{
         "word": "join",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -4995,7 +4995,7 @@
         "opposite": "leave",
         "transcription": "ʤɔɪn"
     },
-    {
+{
         "word": "note",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5018,7 +5018,7 @@
         "opposite": "forget",
         "transcription": "noʊt"
     },
-    {
+{
         "word": "pick",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5041,7 +5041,7 @@
         "opposite": "drop",
         "transcription": "pɪk"
     },
-    {
+{
         "word": "wish",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5064,7 +5064,7 @@
         "opposite": "fear",
         "transcription": "wɪʃ"
     },
-    {
+{
         "word": "collect",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -5087,7 +5087,7 @@
         "opposite": "scatter",
         "transcription": "kəˈlɛkt"
     },
-    {
+{
         "word": "describe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5110,7 +5110,7 @@
         "opposite": "summarize",
         "transcription": "dɪˈskraɪb"
     },
-    {
+{
         "word": "breathe",
         "level": "starter",
         "theme": "health_body_A1",
@@ -5136,7 +5136,7 @@
         ],
         "transcription": "brið"
     },
-    {
+{
         "word": "cough",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -5158,7 +5158,7 @@
         "subtext": "have a cough",
         "transcription": "kɔf"
     },
-    {
+{
         "word": "sneeze",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -5183,7 +5183,7 @@
         ],
         "transcription": "sniz"
     },
-    {
+{
         "word": "yawn",
         "level": "starter",
         "theme": "health_body_A1",
@@ -5208,7 +5208,7 @@
         ],
         "transcription": "jɔn"
     },
-    {
+{
         "word": "explain",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -5230,7 +5230,7 @@
         "group": "regular",
         "subtext": "explain something to someone"
     },
-    {
+{
         "word": "prepare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -5252,7 +5252,7 @@
         "group": "regular",
         "subtext": "prepare for something"
     },
-    {
+{
         "word": "depend",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5274,7 +5274,7 @@
         "group": "regular",
         "subtext": "depend ON someone/something"
     },
-    {
+{
         "word": "belong",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -5296,7 +5296,7 @@
         "group": "regular",
         "subtext": "belong TO someone/something"
     },
-    {
+{
         "word": "can",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5319,7 +5319,7 @@
         "group": "modal",
         "subtext": "ability, permission"
     },
-    {
+{
         "word": "must",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5341,12 +5341,11 @@
         "aspect": "stative",
         "group": "modal",
         "subtext": "necessity, obligation"
-    }
-]
-    const lang = "en";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
+    },
+{},
+{
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
+];
     }
 })();

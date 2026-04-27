@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "lavarsi i denti",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -21,7 +21,7 @@
         "v3": "lavato i denti",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "farsi la doccia",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -42,7 +42,7 @@
         "v3": "fatto la doccia",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "sembrare",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -63,7 +63,7 @@
         "v3": "sembrato",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "diventare",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -84,7 +84,7 @@
         "v3": "diventato",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "credere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -105,7 +105,7 @@
         "v3": "creduto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "succedere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -127,7 +127,7 @@
         "v3": "successo",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "includere",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -148,7 +148,7 @@
         "v3": "incluso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "continuare",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -169,7 +169,7 @@
         "v3": "continuato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "impostare",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -190,7 +190,7 @@
         "v3": "impostato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "guidare",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -211,7 +211,7 @@
         "v3": "guidato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "seguire",
         "level": "elementary",
         "theme": "directions_navigation_A1",
@@ -232,7 +232,7 @@
         "v3": "seguito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "creare",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -253,7 +253,7 @@
         "v3": "creato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "permettere",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -275,7 +275,7 @@
         "v3": "permesso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "crescere",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -296,7 +296,7 @@
         "v3": "cresciuto",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "offrire",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -317,7 +317,7 @@
         "v3": "offerto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "considerare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -338,7 +338,7 @@
         "v3": "considerato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "apparire",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -359,7 +359,7 @@
         "v3": "apparso",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "servire",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -380,7 +380,7 @@
         "v3": "servito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "aspettarsi",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -401,7 +401,7 @@
         "v3": "aspettato",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "costruire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -422,7 +422,7 @@
         "v3": "costruito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "raggiungere",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -443,7 +443,7 @@
         "v3": "raggiunto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "uccidere",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -464,7 +464,7 @@
         "v3": "ucciso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "rimanere",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -485,7 +485,7 @@
         "v3": "rimasto",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "suggerire",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -506,7 +506,7 @@
         "v3": "suggerito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "alzare",
         "level": "elementary",
         "theme": "family_life_A1",
@@ -528,7 +528,7 @@
         "v3": "alzato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "richiedere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -549,7 +549,7 @@
         "v3": "richiesto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "riferire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -570,7 +570,7 @@
         "v3": "riferito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "spiegare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -591,7 +591,7 @@
         "v3": "spiegato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "sviluppare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -612,7 +612,7 @@
         "v3": "sviluppato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "andare in pensione",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -634,7 +634,7 @@
         "v3": "andato in pensione",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "permettersi",
         "level": "elementary",
         "theme": "finances_A2",
@@ -656,7 +656,7 @@
         "v3": "permesso",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "riciclare",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -678,7 +678,7 @@
         "v3": "riciclato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "colpire",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -699,7 +699,7 @@
         "v3": "colpito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "produrre",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -720,7 +720,7 @@
         "v3": "prodotto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "affrontare",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -741,7 +741,7 @@
         "v3": "affrontato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "coprire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -762,7 +762,7 @@
         "v3": "coperto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "descrivere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -783,7 +783,7 @@
         "v3": "descritto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "prendere",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -804,7 +804,7 @@
         "v3": "preso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "fare domanda per",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -826,7 +826,7 @@
         "v3": "fatto domanda per",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "assumere",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -847,7 +847,7 @@
         "v3": "assunto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "promuovere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -869,7 +869,7 @@
         "v3": "promosso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "dimettersi",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -891,7 +891,7 @@
         "v3": "dimesso",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "licenziare",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -913,7 +913,7 @@
         "v3": "licenziato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "delegare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -934,7 +934,7 @@
         "v3": "delegato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "negoziare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -955,7 +955,7 @@
         "v3": "negoziato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "valutare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -976,7 +976,7 @@
         "v3": "valutato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "collaborare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -997,7 +997,7 @@
         "v3": "collaborato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "pianificare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1018,7 +1018,7 @@
         "v3": "pianificato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "investire",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1039,7 +1039,7 @@
         "v3": "investito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "prendere in prestito",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1061,7 +1061,7 @@
         "v3": "preso in prestito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "prestare",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1082,7 +1082,7 @@
         "v3": "prestato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "preventivare",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1104,7 +1104,7 @@
         "v3": "preventivato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "prelevare",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1125,7 +1125,7 @@
         "v3": "prelevato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "trasferire",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1147,7 +1147,7 @@
         "v3": "trasferito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "addebitare",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1168,7 +1168,7 @@
         "v3": "addebitato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "richiedere",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1189,7 +1189,7 @@
         "v3": "richiesto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "litigare",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1210,7 +1210,7 @@
         "v3": "litigato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "fidarsi",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1231,7 +1231,7 @@
         "v3": "fidato",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "sostenere",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1252,7 +1252,7 @@
         "v3": "sostenuto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "non essere d'accordo",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1274,7 +1274,7 @@
         "v3": "stato in disaccordo",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "scusarsi",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1295,7 +1295,7 @@
         "v3": "scusato",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "perdonare",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1316,7 +1316,7 @@
         "v3": "perdonato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "scendere a compromessi",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1338,7 +1338,7 @@
         "v3": "sceso a compromessi",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "diagnosticare",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1359,7 +1359,7 @@
         "v3": "diagnosticato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "trattare",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1380,7 +1380,7 @@
         "v3": "trattato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "prevenire",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1402,7 +1402,7 @@
         "v3": "prevenuto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "soffrire",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -1423,7 +1423,7 @@
         "v3": "sofferto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "raccomandare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1444,7 +1444,7 @@
         "v3": "raccomandato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "migliorare",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1465,7 +1465,7 @@
         "v3": "migliorato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "affittare",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1486,7 +1486,7 @@
         "v3": "affittato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "possedere",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1507,7 +1507,7 @@
         "v3": "posseduto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "riparare",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -1529,7 +1529,7 @@
         "v3": "riparato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "traslocare",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -1551,7 +1551,7 @@
         "v3": "traslocato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "decorare",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1573,7 +1573,7 @@
         "v3": "decorato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "avviare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1594,7 +1594,7 @@
         "v3": "avviato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "scoprire",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -1615,7 +1615,7 @@
         "v3": "scoperto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "continuare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1636,7 +1636,7 @@
         "v3": "continuato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "arrendersi",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1658,7 +1658,7 @@
         "v3": "arreso",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "risolvere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1679,7 +1679,7 @@
         "v3": "risolto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "prendersi cura di",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -1701,7 +1701,7 @@
         "v3": "preso cura di",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "ridurre",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1722,7 +1722,7 @@
         "v3": "ridotto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "assumere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1744,7 +1744,7 @@
         "v3": "assunto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "rifiutare",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -1765,7 +1765,7 @@
         "v3": "rifiutato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "rimandare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1786,7 +1786,7 @@
         "v3": "rimandato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "dovere",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1807,7 +1807,7 @@
         "v3": "dovuto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "invitare",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1828,7 +1828,7 @@
         "v3": "invitato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "confermare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1849,7 +1849,7 @@
         "v3": "confermato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "contattare",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1871,7 +1871,7 @@
         "v3": "contattato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "lamentarsi",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1893,7 +1893,7 @@
         "v3": "lamentato",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "discutere",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1914,7 +1914,7 @@
         "v3": "discusso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "presentare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1935,7 +1935,7 @@
         "v3": "presentato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "accettare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1956,7 +1956,7 @@
         "v3": "accettato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "rifiutare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1977,7 +1977,7 @@
         "v3": "rifiutato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "perdere peso",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1999,7 +1999,7 @@
         "v3": "perso peso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "aumentare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2020,7 +2020,7 @@
         "v3": "aumentato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "ridurre",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2041,7 +2041,7 @@
         "v3": "ridotto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "migliorare le competenze",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2063,7 +2063,7 @@
         "v3": "migliorato le competenze",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "fornire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2084,7 +2084,7 @@
         "v3": "fornito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "risolvere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2106,7 +2106,7 @@
         "v3": "risolto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "condividere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2127,7 +2127,7 @@
         "v3": "condiviso",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "unirsi",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2149,7 +2149,7 @@
         "v3": "unito",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "ricevere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2170,7 +2170,7 @@
         "v3": "ricevuto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "contenere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2192,7 +2192,7 @@
         "v3": "contenuto",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "pianificare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2213,7 +2213,7 @@
         "v3": "pianificato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "preparare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2234,7 +2234,7 @@
         "v3": "preparato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "fallire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2256,7 +2256,7 @@
         "v3": "fallito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "avere successo",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2278,7 +2278,7 @@
         "v3": "avuto successo",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "essere d'accordo",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -2300,7 +2300,7 @@
         "v3": "stato d'accordo",
         "auxiliary": "essere"
     },
-    {
+{
         "word": "sostituire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2322,7 +2322,7 @@
         "v3": "sostituito",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "cercare",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2343,7 +2343,7 @@
         "v3": "cercato",
         "auxiliary": "avere"
     },
-    {
+{
         "word": "disconnettersi",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2363,12 +2363,11 @@
         ],
         "v3": "disconnesso",
         "auxiliary": "essere"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "it";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "ισχυρίζονται ότι",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -20,12 +20,11 @@
         "aspect": "action",
         "v3": "ισχυριστούν",
         "group": "group_a"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "el";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

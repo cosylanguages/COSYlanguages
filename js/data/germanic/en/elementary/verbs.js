@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "accept",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -28,7 +28,7 @@
         "v3": "accepted",
         "opposite": "refuse"
     },
-    {
+{
         "word": "achieve",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -57,7 +57,7 @@
         "v3": "achieved",
         "opposite": "fail"
     },
-    {
+{
         "word": "admire",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -84,7 +84,7 @@
         "v3": "admired",
         "opposite": "despise"
     },
-    {
+{
         "word": "admit",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -110,7 +110,7 @@
         "v3": "admitted",
         "opposite": "deny"
     },
-    {
+{
         "word": "advise",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -137,7 +137,7 @@
         "v3": "advised",
         "opposite": "mislead"
     },
-    {
+{
         "word": "afford",
         "level": "elementary",
         "theme": "finances_A2",
@@ -162,7 +162,7 @@
             "pay for"
         ]
     },
-    {
+{
         "word": "allow",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -188,7 +188,7 @@
         "opposite": "forbid",
         "transcription": "əˈlaʊ"
     },
-    {
+{
         "word": "analyze",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -214,7 +214,7 @@
         "opposite": "ignore",
         "transcription": "ˈænəlaɪz"
     },
-    {
+{
         "word": "announce",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -240,7 +240,7 @@
         "opposite": "hide",
         "transcription": "əˈnaʊns"
     },
-    {
+{
         "word": "apologise",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -265,7 +265,7 @@
         "opposite": "offend",
         "transcription": "🇬🇧 əˈpɒlədʒaɪz | 🇺🇸 əˈpɑːlədʒaɪz"
     },
-    {
+{
         "word": "appear",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -290,7 +290,7 @@
         "opposite": "disappear",
         "transcription": "əˈpɪər"
     },
-    {
+{
         "word": "apply",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -315,7 +315,7 @@
             "request"
         ]
     },
-    {
+{
         "word": "apply for",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -340,7 +340,7 @@
         "opposite": "resign",
         "transcription": "əˈplaɪ fɔːr"
     },
-    {
+{
         "word": "appreciate",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -366,7 +366,7 @@
         "opposite": "ignore",
         "transcription": "əˈpriːʃieɪt"
     },
-    {
+{
         "word": "argue",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -392,7 +392,7 @@
         "opposite": "agree",
         "transcription": "ˈɑːrɡjuː"
     },
-    {
+{
         "word": "arrange",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -418,7 +418,7 @@
         "opposite": "disorganize",
         "transcription": "əˈreɪndʒ"
     },
-    {
+{
         "word": "arrest",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -443,7 +443,7 @@
         "opposite": "release",
         "transcription": "əˈrɛst"
     },
-    {
+{
         "word": "assist",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -470,7 +470,7 @@
         "opposite": "hinder",
         "transcription": "əˈsɪst"
     },
-    {
+{
         "word": "attach",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -497,7 +497,7 @@
         "opposite": "detach",
         "transcription": "əˈtætʃ"
     },
-    {
+{
         "word": "attract",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -525,7 +525,7 @@
         "opposite": "repel",
         "transcription": "əˈtrækt"
     },
-    {
+{
         "word": "avoid",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -551,7 +551,7 @@
             "keep away from"
         ]
     },
-    {
+{
         "word": "beat",
         "level": "elementary",
         "theme": "exercise_fitness_A2",
@@ -577,7 +577,7 @@
             "defeat"
         ]
     },
-    {
+{
         "word": "behave",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -603,7 +603,7 @@
             "act"
         ]
     },
-    {
+{
         "word": "bite",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -625,7 +625,7 @@
         "opposite": "lick",
         "transcription": "baɪt"
     },
-    {
+{
         "word": "blame",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -647,7 +647,7 @@
         "opposite": "praise",
         "transcription": "bleɪm"
     },
-    {
+{
         "word": "brush teeth",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -669,7 +669,7 @@
         "opposite": "mess up",
         "transcription": "brʌʃ tiːθ"
     },
-    {
+{
         "word": "budget",
         "level": "elementary",
         "theme": "finances_A2",
@@ -691,7 +691,7 @@
         "opposite": "waste",
         "transcription": "ˈbʌdʒɪt"
     },
-    {
+{
         "word": "build",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -714,7 +714,7 @@
         "opposite": "destroy",
         "transcription": "bɪld"
     },
-    {
+{
         "word": "calculate",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -741,7 +741,7 @@
             "compute"
         ]
     },
-    {
+{
         "word": "carry on",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -763,7 +763,7 @@
         "opposite": "stop",
         "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn"
     },
-    {
+{
         "word": "challenge",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -785,7 +785,7 @@
         "opposite": "comfort",
         "transcription": "ˈtʃælɪndʒ"
     },
-    {
+{
         "word": "charge",
         "level": "elementary",
         "theme": "finances_A2",
@@ -811,7 +811,7 @@
             "bill"
         ]
     },
-    {
+{
         "word": "claim",
         "level": "elementary",
         "theme": "finances_A2",
@@ -833,7 +833,7 @@
         "opposite": "give up",
         "transcription": "kleɪm"
     },
-    {
+{
         "word": "collaborate",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -858,7 +858,7 @@
         "opposite": "work alone",
         "transcription": "kəˈlæbəreɪt"
     },
-    {
+{
         "word": "communicate",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -880,7 +880,7 @@
         "opposite": "be silent",
         "transcription": "kəˈmjuːnɪkeɪt"
     },
-    {
+{
         "word": "compare",
         "level": "elementary",
         "theme": "comparison_A2",
@@ -906,7 +906,7 @@
         "opposite": "differentiate",
         "transcription": "kəmˈpeər"
     },
-    {
+{
         "word": "compete",
         "level": "elementary",
         "theme": "exercise_fitness_A2",
@@ -931,7 +931,7 @@
         "opposite": "cooperate",
         "transcription": "kəmˈpiːt"
     },
-    {
+{
         "word": "complain",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -957,7 +957,7 @@
         "opposite": "praise",
         "transcription": "kəmˈpleɪn"
     },
-    {
+{
         "word": "complete",
         "level": "elementary",
         "theme": "school_life_routines_A2",
@@ -983,7 +983,7 @@
         "opposite": "start",
         "transcription": "kəmˈpliːt"
     },
-    {
+{
         "word": "compromise",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1005,7 +1005,7 @@
         "opposite": "demand",
         "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz"
     },
-    {
+{
         "word": "concentrate",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1027,7 +1027,7 @@
         "opposite": "distract",
         "transcription": "🇬🇧 ˈkɒnsəntreɪt | 🇺🇸 ˈkɑːnsəntreɪt"
     },
-    {
+{
         "word": "confirm",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1053,7 +1053,7 @@
             "check"
         ]
     },
-    {
+{
         "word": "confuse",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1078,7 +1078,7 @@
         "opposite": "clarify",
         "transcription": "kənˈfjuːz"
     },
-    {
+{
         "word": "connect",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1105,7 +1105,7 @@
             "link"
         ]
     },
-    {
+{
         "word": "conserve",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1131,7 +1131,7 @@
         ],
         "transcription": "kənˈsɜːrv"
     },
-    {
+{
         "word": "consider",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1156,7 +1156,7 @@
             "think about"
         ]
     },
-    {
+{
         "word": "contact",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1182,7 +1182,7 @@
         ],
         "transcription": "🇬🇧 ˈkɒntækt | 🇺🇸 ˈkɑːntækt"
     },
-    {
+{
         "word": "contain",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -1209,7 +1209,7 @@
             "hold"
         ]
     },
-    {
+{
         "word": "continue",
         "level": "elementary",
         "theme": "school_life_routines_A2",
@@ -1236,7 +1236,7 @@
         "opposite": "stop",
         "transcription": "kənˈtɪnjuː"
     },
-    {
+{
         "word": "contract",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1261,7 +1261,7 @@
         "opposite": "cancel",
         "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt"
     },
-    {
+{
         "word": "control",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1287,7 +1287,7 @@
             "direct"
         ]
     },
-    {
+{
         "word": "convince",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1313,7 +1313,7 @@
         ],
         "transcription": "kənˈvɪns"
     },
-    {
+{
         "word": "create",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -1338,7 +1338,7 @@
         "opposite": "destroy",
         "transcription": "kriˈeɪt"
     },
-    {
+{
         "word": "cure",
         "level": "elementary",
         "theme": "health_body_A2",
@@ -1363,7 +1363,7 @@
         ],
         "transcription": "kjʊər"
     },
-    {
+{
         "word": "cut down on",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1388,7 +1388,7 @@
         "opposite": "increase",
         "transcription": "🇬🇧 kʌt daʊn ɒn | 🇺🇸 kʌt daʊn ɑːn"
     },
-    {
+{
         "word": "damage",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -1414,7 +1414,7 @@
             "break"
         ]
     },
-    {
+{
         "word": "decorate",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1440,7 +1440,7 @@
         "opposite": "damage",
         "transcription": "ˈdɛkəreɪt"
     },
-    {
+{
         "word": "decrease",
         "level": "elementary",
         "theme": "quantity_degree_A2",
@@ -1467,7 +1467,7 @@
         ],
         "transcription": "dɪˈkriːs"
     },
-    {
+{
         "word": "delegate",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1489,7 +1489,7 @@
         "opposite": "do yourself",
         "transcription": "ˈdɛlɪɡeɪt"
     },
-    {
+{
         "word": "deliver",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -1516,7 +1516,7 @@
             "send"
         ]
     },
-    {
+{
         "word": "deposit",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1542,7 +1542,7 @@
         ],
         "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt"
     },
-    {
+{
         "word": "design",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -1568,7 +1568,7 @@
             "create"
         ]
     },
-    {
+{
         "word": "destroy",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1593,7 +1593,7 @@
         "opposite": "build",
         "transcription": "dɪˈstrɔɪ"
     },
-    {
+{
         "word": "develop",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1619,7 +1619,7 @@
         "opposite": "regress",
         "transcription": "dɪˈvɛləp"
     },
-    {
+{
         "word": "diagnose",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1644,7 +1644,7 @@
         "opposite": "ignore",
         "transcription": "ˌdaɪəɡˈnoʊs"
     },
-    {
+{
         "word": "disagree",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1670,7 +1670,7 @@
             "argue"
         ]
     },
-    {
+{
         "word": "discover",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1695,7 +1695,7 @@
         "opposite": "hide",
         "transcription": "dɪˈskʌvər"
     },
-    {
+{
         "word": "discuss",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1720,7 +1720,7 @@
             "talk about"
         ]
     },
-    {
+{
         "word": "dismiss",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -1746,7 +1746,7 @@
         "opposite": "hire",
         "transcription": "dɪsˈmɪs"
     },
-    {
+{
         "word": "divide",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -1771,7 +1771,7 @@
         "opposite": "multiply",
         "transcription": "dɪˈvaɪd"
     },
-    {
+{
         "word": "doubt",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1796,7 +1796,7 @@
         "opposite": "believe",
         "transcription": "daʊt"
     },
-    {
+{
         "word": "dream",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1821,7 +1821,7 @@
             "imagine"
         ]
     },
-    {
+{
         "word": "encourage",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1846,7 +1846,7 @@
         "opposite": "discourage",
         "transcription": "ɪnˈkʌrɪdʒ"
     },
-    {
+{
         "word": "entertain",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -1871,7 +1871,7 @@
         "opposite": "bore",
         "transcription": "ˌɛntərˈteɪn"
     },
-    {
+{
         "word": "escape",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -1893,7 +1893,7 @@
         "opposite": "capture",
         "transcription": "ɪˈskeɪp"
     },
-    {
+{
         "word": "evaluate",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1915,7 +1915,7 @@
         "opposite": "ignore",
         "transcription": "ɪˈvæljueɪt"
     },
-    {
+{
         "word": "evolve",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1937,7 +1937,7 @@
         "opposite": "stagnate",
         "transcription": "🇬🇧 ɪˈvɒlv | 🇺🇸 ɪˈvɑːlv"
     },
-    {
+{
         "word": "examine",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1964,7 +1964,7 @@
         "opposite": "ignore",
         "transcription": "ɪɡˈzæmɪn"
     },
-    {
+{
         "word": "excite",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1989,7 +1989,7 @@
         "opposite": "bore",
         "transcription": "ɪkˈsaɪt"
     },
-    {
+{
         "word": "exhale",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2011,7 +2011,7 @@
         "opposite": "inhale",
         "transcription": "ɛksˈheɪl"
     },
-    {
+{
         "word": "expand",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2033,7 +2033,7 @@
         "opposite": "shrink",
         "transcription": "ɪkˈspænd"
     },
-    {
+{
         "word": "expect",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2059,7 +2059,7 @@
             "think"
         ]
     },
-    {
+{
         "word": "explore",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -2086,7 +2086,7 @@
             "search"
         ]
     },
-    {
+{
         "word": "fail",
         "level": "elementary",
         "theme": "school_life_routines_A2",
@@ -2112,7 +2112,7 @@
             "not pass"
         ]
     },
-    {
+{
         "word": "find out",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -2134,7 +2134,7 @@
         "opposite": "hide",
         "transcription": "faɪnd aʊt"
     },
-    {
+{
         "word": "forgive",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -2159,7 +2159,7 @@
             "pardon"
         ]
     },
-    {
+{
         "word": "freeze",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -2184,7 +2184,7 @@
         "opposite": "melt",
         "transcription": "friːz"
     },
-    {
+{
         "word": "give up",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2206,7 +2206,7 @@
         "opposite": "continue",
         "transcription": "ɡɪv ʌp"
     },
-    {
+{
         "word": "graduate",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
@@ -2229,7 +2229,7 @@
         "opposite": "drop out",
         "transcription": "ˈɡrædʒueɪt"
     },
-    {
+{
         "word": "greet",
         "level": "elementary",
         "theme": "customs_traditions_A2",
@@ -2255,7 +2255,7 @@
         "opposite": "ignore",
         "transcription": "ɡriːt"
     },
-    {
+{
         "word": "guess",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2281,7 +2281,7 @@
             "estimate"
         ]
     },
-    {
+{
         "word": "happen",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2307,7 +2307,7 @@
         "opposite": "stop",
         "transcription": "ˈhæpən"
     },
-    {
+{
         "word": "hire",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2333,7 +2333,7 @@
             "employ"
         ]
     },
-    {
+{
         "word": "identify",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -2359,7 +2359,7 @@
             "recognize"
         ]
     },
-    {
+{
         "word": "ignore",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2384,7 +2384,7 @@
             "not listen to"
         ]
     },
-    {
+{
         "word": "imagine",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2409,7 +2409,7 @@
             "think of"
         ]
     },
-    {
+{
         "word": "impress",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -2434,7 +2434,7 @@
         "opposite": "disappoint",
         "transcription": "ɪmˈprɛs"
     },
-    {
+{
         "word": "improve",
         "level": "elementary",
         "theme": "school_life_routines_A2",
@@ -2460,7 +2460,7 @@
         "opposite": "worsen",
         "transcription": "ɪmˈpruːv"
     },
-    {
+{
         "word": "improve skills",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2487,7 +2487,7 @@
         "opposite": "lose skills",
         "transcription": "ɪmˈpruːv skɪlz"
     },
-    {
+{
         "word": "include",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2512,7 +2512,7 @@
         "opposite": "exclude",
         "transcription": "ɪnˈkluːd"
     },
-    {
+{
         "word": "increase",
         "level": "elementary",
         "theme": "quantity_degree_A2",
@@ -2539,7 +2539,7 @@
             "go up"
         ]
     },
-    {
+{
         "word": "inform",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -2565,7 +2565,7 @@
         "opposite": "mislead",
         "transcription": "ɪnˈfɔːrm"
     },
-    {
+{
         "word": "inhale",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2587,7 +2587,7 @@
         "opposite": "exhale",
         "transcription": "ɪnˈheɪl"
     },
-    {
+{
         "word": "injure",
         "level": "elementary",
         "theme": "health_body_A2",
@@ -2613,7 +2613,7 @@
         "opposite": "heal",
         "transcription": "ˈɪndʒər"
     },
-    {
+{
         "word": "intend",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2639,7 +2639,7 @@
             "mean"
         ]
     },
-    {
+{
         "word": "interview",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2664,7 +2664,7 @@
         "opposite": "ignore",
         "transcription": "ˈɪntərvjuː"
     },
-    {
+{
         "word": "invent",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -2690,7 +2690,7 @@
         "opposite": "copy",
         "transcription": "ɪnˈvɛnt"
     },
-    {
+{
         "word": "invest",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2715,7 +2715,7 @@
             "put money in"
         ]
     },
-    {
+{
         "word": "kill",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -2740,7 +2740,7 @@
             "die"
         ]
     },
-    {
+{
         "word": "lend",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2765,7 +2765,7 @@
             "give"
         ]
     },
-    {
+{
         "word": "log out",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2787,7 +2787,7 @@
         "opposite": "log in",
         "transcription": "🇬🇧 lɒɡ aʊt | 🇺🇸 lɑːɡ aʊt"
     },
-    {
+{
         "word": "look after",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -2809,7 +2809,7 @@
         "opposite": "neglect",
         "transcription": "lʊk ˈɑːftər"
     },
-    {
+{
         "word": "look for",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2831,7 +2831,7 @@
         "opposite": "find",
         "transcription": "lʊk fɔːr"
     },
-    {
+{
         "word": "lose weight",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -2853,7 +2853,7 @@
         "opposite": "gain weight",
         "transcription": "luːz weɪt"
     },
-    {
+{
         "word": "measure",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -2879,7 +2879,7 @@
             "calculate"
         ]
     },
-    {
+{
         "word": "memorise",
         "level": "elementary",
         "theme": "school_life_routines_A2",
@@ -2904,7 +2904,7 @@
             "learn by heart"
         ]
     },
-    {
+{
         "word": "mention",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2930,7 +2930,7 @@
         "opposite": "ignore",
         "transcription": "ˈmɛnʃən"
     },
-    {
+{
         "word": "multiply",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -2955,7 +2955,7 @@
         "opposite": "divide",
         "transcription": "ˈmʌltɪplaɪ"
     },
-    {
+{
         "word": "negotiate",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2980,7 +2980,7 @@
             "discuss"
         ]
     },
-    {
+{
         "word": "notice",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3006,7 +3006,7 @@
         "opposite": "ignore",
         "transcription": "ˈnoʊtɪs"
     },
-    {
+{
         "word": "observe",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3032,7 +3032,7 @@
             "see"
         ]
     },
-    {
+{
         "word": "offer",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -3057,7 +3057,7 @@
             "give"
         ]
     },
-    {
+{
         "word": "organize",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3084,7 +3084,7 @@
         "opposite": "mess up",
         "transcription": "ˈɔːrɡənaɪz"
     },
-    {
+{
         "word": "owe",
         "level": "elementary",
         "theme": "finances_A2",
@@ -3109,7 +3109,7 @@
             "must pay"
         ]
     },
-    {
+{
         "word": "participate",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -3136,7 +3136,7 @@
         "opposite": "withdraw",
         "transcription": "pɑːrˈtɪsɪpeɪt"
     },
-    {
+{
         "word": "perform",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -3163,7 +3163,7 @@
             "do"
         ]
     },
-    {
+{
         "word": "pollute",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3185,7 +3185,7 @@
         "opposite": "clean",
         "transcription": "pəˈluːt"
     },
-    {
+{
         "word": "predict",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3211,7 +3211,7 @@
             "guess"
         ]
     },
-    {
+{
         "word": "prevent",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -3236,7 +3236,7 @@
             "stop"
         ]
     },
-    {
+{
         "word": "produce",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3262,7 +3262,7 @@
             "create"
         ]
     },
-    {
+{
         "word": "prohibit",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -3288,7 +3288,7 @@
         "opposite": "allow",
         "transcription": "prəˈhɪbɪt"
     },
-    {
+{
         "word": "promise",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -3313,7 +3313,7 @@
             "vow"
         ]
     },
-    {
+{
         "word": "promote",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3338,7 +3338,7 @@
         "opposite": "demote",
         "transcription": "prəˈmoʊt"
     },
-    {
+{
         "word": "protect",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3365,7 +3365,7 @@
             "guard"
         ]
     },
-    {
+{
         "word": "provide",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3391,7 +3391,7 @@
             "supply"
         ]
     },
-    {
+{
         "word": "put off",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3413,7 +3413,7 @@
         "opposite": "do now",
         "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf"
     },
-    {
+{
         "word": "reach",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -3438,7 +3438,7 @@
             "arrive at"
         ]
     },
-    {
+{
         "word": "react",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3463,7 +3463,7 @@
         "opposite": "ignore",
         "transcription": "riˈækt"
     },
-    {
+{
         "word": "realize",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3489,7 +3489,7 @@
             "know"
         ]
     },
-    {
+{
         "word": "recommend",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3515,7 +3515,7 @@
         "opposite": "warn against",
         "transcription": "ˌrɛkəˈmɛnd"
     },
-    {
+{
         "word": "record",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -3541,7 +3541,7 @@
             "save"
         ]
     },
-    {
+{
         "word": "recover",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -3567,7 +3567,7 @@
             "get better"
         ]
     },
-    {
+{
         "word": "recycle",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3592,7 +3592,7 @@
             "reuse"
         ]
     },
-    {
+{
         "word": "reduce",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3618,7 +3618,7 @@
             "cut"
         ]
     },
-    {
+{
         "word": "refuse",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3644,7 +3644,7 @@
             "reject"
         ]
     },
-    {
+{
         "word": "remain",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -3669,7 +3669,7 @@
             "stay"
         ]
     },
-    {
+{
         "word": "repair",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -3694,7 +3694,7 @@
             "fix"
         ]
     },
-    {
+{
         "word": "replace",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3719,7 +3719,7 @@
         "opposite": "keep",
         "transcription": "rɪˈpleɪs"
     },
-    {
+{
         "word": "require",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3744,7 +3744,7 @@
             "need"
         ]
     },
-    {
+{
         "word": "reserve",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -3770,7 +3770,7 @@
             "book"
         ]
     },
-    {
+{
         "word": "resign",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3796,7 +3796,7 @@
             "leave"
         ]
     },
-    {
+{
         "word": "retire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3821,7 +3821,7 @@
             "stop working"
         ]
     },
-    {
+{
         "word": "schedule",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3843,7 +3843,7 @@
         "opposite": "cancel",
         "transcription": "ˈskɛdʒuːl"
     },
-    {
+{
         "word": "search",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -3870,7 +3870,7 @@
             "find"
         ]
     },
-    {
+{
         "word": "seem",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3896,7 +3896,7 @@
             "appear"
         ]
     },
-    {
+{
         "word": "serve",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -3922,7 +3922,7 @@
             "help"
         ]
     },
-    {
+{
         "word": "set up",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3944,7 +3944,7 @@
         "opposite": "close down",
         "transcription": "sɛt ʌp"
     },
-    {
+{
         "word": "solve",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3971,7 +3971,7 @@
         "opposite": "complicate",
         "transcription": "🇬🇧 sɒlv | 🇺🇸 sɑːlv"
     },
-    {
+{
         "word": "sort out",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3996,7 +3996,7 @@
         "opposite": "mess up",
         "transcription": "sɔːrt aʊt"
     },
-    {
+{
         "word": "succeed",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -4022,7 +4022,7 @@
             "do well"
         ]
     },
-    {
+{
         "word": "suffer",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -4047,7 +4047,7 @@
             "be in pain"
         ]
     },
-    {
+{
         "word": "suggest",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4073,7 +4073,7 @@
             "advise"
         ]
     },
-    {
+{
         "word": "support",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -4099,7 +4099,7 @@
             "encourage"
         ]
     },
-    {
+{
         "word": "swallow",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -4124,7 +4124,7 @@
             "eat"
         ]
     },
-    {
+{
         "word": "take on",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -4146,7 +4146,7 @@
         "opposite": "refuse",
         "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn"
     },
-    {
+{
         "word": "transfer",
         "level": "elementary",
         "theme": "banking_A2",
@@ -4172,7 +4172,7 @@
             "send"
         ]
     },
-    {
+{
         "word": "treat",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -4197,7 +4197,7 @@
             "handle"
         ]
     },
-    {
+{
         "word": "trust",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -4222,7 +4222,7 @@
             "believe"
         ]
     },
-    {
+{
         "word": "turn down",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -4244,7 +4244,7 @@
         "opposite": "accept",
         "transcription": "tɜːrn daʊn"
     },
-    {
+{
         "word": "vote",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -4266,7 +4266,7 @@
         "opposite": "abstain",
         "transcription": "voʊt"
     },
-    {
+{
         "word": "withdraw",
         "level": "elementary",
         "theme": "banking_A2",
@@ -4292,7 +4292,7 @@
             "remove"
         ]
     },
-    {
+{
         "word": "wonder",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4318,7 +4318,7 @@
         "opposite": "know",
         "transcription": "ˈwʌndər"
     },
-    {
+{
         "word": "insist",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4344,7 +4344,7 @@
         "opposite": "give in",
         "transcription": "ɪnˈsɪst"
     },
-    {
+{
         "word": "interrupt",
         "level": "elementary",
         "theme": "language_communication_A2",
@@ -4370,7 +4370,7 @@
         "opposite": "continue",
         "transcription": "ˌɪntəˈrʌpt"
     },
-    {
+{
         "word": "involve",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4396,7 +4396,7 @@
         "opposite": "exclude",
         "transcription": "🇬🇧 ɪnˈvɒlv | 🇺🇸 ɪnˈvɑːlv"
     },
-    {
+{
         "word": "obtain",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -4423,7 +4423,7 @@
         "opposite": "lose",
         "transcription": "əbˈteɪn"
     },
-    {
+{
         "word": "occur",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4449,7 +4449,7 @@
         "opposite": "stop",
         "transcription": "əˈkɜːr"
     },
-    {
+{
         "word": "operate",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -4476,7 +4476,7 @@
         "opposite": "break down",
         "transcription": "🇬🇧 ˈɒpəreɪt | 🇺🇸 ˈɑːpəreɪt"
     },
-    {
+{
         "word": "persuade",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4502,7 +4502,7 @@
         "opposite": "dissuade",
         "transcription": "pərˈsweɪd"
     },
-    {
+{
         "word": "publish",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -4529,7 +4529,7 @@
         "opposite": "hide",
         "transcription": "ˈpʌblɪʃ"
     },
-    {
+{
         "word": "recognize",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -4556,7 +4556,7 @@
         "opposite": "forget",
         "transcription": "ˈrɛkəɡnaɪz"
     },
-    {
+{
         "word": "reflect",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -4582,7 +4582,7 @@
         "opposite": "absorb",
         "transcription": "rɪˈflɛkt"
     },
-    {
+{
         "word": "release",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -4609,7 +4609,7 @@
         "opposite": "capture",
         "transcription": "rɪˈliːs"
     },
-    {
+{
         "word": "rely",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4635,7 +4635,7 @@
         "opposite": "distrust",
         "transcription": "rɪˈlaɪ"
     },
-    {
+{
         "word": "remind",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4661,7 +4661,7 @@
         "opposite": "forget",
         "transcription": "rɪˈmaɪnd"
     },
-    {
+{
         "word": "remove",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -4688,7 +4688,7 @@
         "opposite": "add",
         "transcription": "rɪˈmuːv"
     },
-    {
+{
         "word": "represent",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -4714,7 +4714,7 @@
         "opposite": "oppose",
         "transcription": "ˌrɛprɪˈzɛnt"
     },
-    {
+{
         "word": "request",
         "level": "elementary",
         "theme": "language_communication_A2",
@@ -4740,7 +4740,7 @@
         "opposite": "command",
         "transcription": "rɪˈkwɛst"
     },
-    {
+{
         "word": "rescue",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4766,7 +4766,7 @@
         "opposite": "abandon",
         "transcription": "ˈrɛskjuː"
     },
-    {
+{
         "word": "resolve",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4793,7 +4793,7 @@
         "opposite": "complicate",
         "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv"
     },
-    {
+{
         "word": "respond",
         "level": "elementary",
         "theme": "language_communication_A2",
@@ -4820,7 +4820,7 @@
         "opposite": "ignore",
         "transcription": "🇬🇧 rɪˈspɒnd | 🇺🇸 rɪˈspɑːnd"
     },
-    {
+{
         "word": "rehearse",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -4845,7 +4845,7 @@
         "classification": "regular",
         "transcription": "rɪˈhɜːrs"
     },
-    {
+{
         "word": "applaud",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -4871,7 +4871,7 @@
         "classification": "regular",
         "transcription": "əˈplɔːd"
     },
-    {
+{
         "word": "check in",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -4896,7 +4896,7 @@
         "classification": "regular",
         "transcription": "tʃɛk ɪn"
     },
-    {
+{
         "word": "overtake",
         "level": "elementary",
         "theme": "driving_roads_A2",
@@ -4921,7 +4921,7 @@
         "classification": "irregular",
         "transcription": "ˌoʊvərˈteɪk"
     },
-    {
+{
         "word": "break up",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -4947,7 +4947,7 @@
         "classification": "irregular",
         "transcription": "breɪk ʌp"
     },
-    {
+{
         "word": "check out",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -4971,12 +4971,11 @@
         ],
         "classification": "regular",
         "transcription": "tʃɛk aʊt"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "en";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();
