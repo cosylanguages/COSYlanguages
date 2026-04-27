@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "lawyer",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -17,7 +27,7 @@
             }
         ]
     },
-    {
+{
         "word": "police officer",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -33,7 +43,7 @@
             }
         ]
     },
-    {
+{
         "word": "accountability",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -51,7 +61,7 @@
             }
         ]
     },
-    {
+{
         "word": "incentive",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -69,7 +79,7 @@
             }
         ]
     },
-    {
+{
         "word": "autonomy",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -88,7 +98,7 @@
             }
         ]
     },
-    {
+{
         "word": "precarity",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -107,7 +117,7 @@
             }
         ]
     },
-    {
+{
         "word": "gender pay gap",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -126,7 +136,7 @@
             }
         ]
     },
-    {
+{
         "word": "redundancy package",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -144,7 +154,7 @@
             }
         ]
     },
-    {
+{
         "word": "entrepreneurship",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -162,7 +172,7 @@
             }
         ]
     },
-    {
+{
         "word": "productivity",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -180,7 +190,7 @@
             }
         ]
     },
-    {
+{
         "word": "outsourcing",
         "level": "upper-intermediate",
         "theme": "globalisation_trade_B2",
@@ -198,7 +208,7 @@
             }
         ]
     },
-    {
+{
         "word": "automation",
         "level": "upper-intermediate",
         "theme": "applied_sciences_engineering_B2",
@@ -216,7 +226,7 @@
             }
         ]
     },
-    {
+{
         "word": "gentrification",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -234,7 +244,7 @@
             }
         ]
     },
-    {
+{
         "word": "affordable housing",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -252,7 +262,7 @@
             }
         ]
     },
-    {
+{
         "word": "urban sprawl",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -270,7 +280,7 @@
             }
         ]
     },
-    {
+{
         "word": "infrastructure",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -288,7 +298,7 @@
             }
         ]
     },
-    {
+{
         "word": "welfare state",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -306,7 +316,7 @@
             }
         ]
     },
-    {
+{
         "word": "polarisation",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -324,7 +334,7 @@
             }
         ]
     },
-    {
+{
         "word": "discourse",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -342,7 +352,7 @@
             }
         ]
     },
-    {
+{
         "word": "scrutiny",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -360,7 +370,7 @@
             }
         ]
     },
-    {
+{
         "word": "consensus",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -378,7 +388,7 @@
             }
         ]
     },
-    {
+{
         "word": "legislation",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -396,7 +406,7 @@
             }
         ]
     },
-    {
+{
         "word": "implicit bias",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -415,7 +425,7 @@
             }
         ]
     },
-    {
+{
         "word": "obesity",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -433,7 +443,7 @@
             }
         ]
     },
-    {
+{
         "word": "life expectancy",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -451,7 +461,7 @@
             }
         ]
     },
-    {
+{
         "word": "justice",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -470,7 +480,7 @@
             }
         ]
     },
-    {
+{
         "word": "rehabilitation",
         "level": "upper-intermediate",
         "theme": "crime_punishment_B2",
@@ -488,7 +498,7 @@
             }
         ]
     },
-    {
+{
         "word": "transparency",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -507,7 +517,7 @@
             }
         ]
     },
-    {
+{
         "word": "algorithm",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -525,7 +535,7 @@
             }
         ]
     },
-    {
+{
         "word": "data privacy",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -543,7 +553,7 @@
             }
         ]
     },
-    {
+{
         "word": "misinformation",
         "level": "upper-intermediate",
         "theme": "media_misinformation_B2",
@@ -561,7 +571,7 @@
             }
         ]
     },
-    {
+{
         "word": "surveillance",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -579,7 +589,7 @@
             }
         ]
     },
-    {
+{
         "word": "whereas",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -595,7 +605,7 @@
             }
         ]
     },
-    {
+{
         "word": "nevertheless",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -613,7 +623,7 @@
             }
         ]
     },
-    {
+{
         "word": "to what extent",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -629,7 +639,7 @@
             }
         ]
     },
-    {
+{
         "word": "by contrast",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -645,7 +655,7 @@
             }
         ]
     },
-    {
+{
         "word": "gig economy",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -663,7 +673,7 @@
             }
         ]
     },
-    {
+{
         "word": "labour market",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -681,7 +691,7 @@
             }
         ]
     },
-    {
+{
         "word": "pay transparency",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -699,7 +709,7 @@
             }
         ]
     },
-    {
+{
         "word": "austerity",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -717,7 +727,7 @@
             }
         ]
     },
-    {
+{
         "word": "GDP",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -735,7 +745,7 @@
             }
         ]
     },
-    {
+{
         "word": "inflation",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -753,7 +763,7 @@
             }
         ]
     },
-    {
+{
         "word": "democracy",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -771,7 +781,7 @@
             }
         ]
     },
-    {
+{
         "word": "regulation",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -789,7 +799,7 @@
             }
         ]
     },
-    {
+{
         "word": "civil liberties",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -807,7 +817,7 @@
             }
         ]
     },
-    {
+{
         "word": "electorate",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -825,7 +835,7 @@
             }
         ]
     },
-    {
+{
         "word": "lobbying",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -843,7 +853,7 @@
             }
         ]
     },
-    {
+{
         "word": "preventive medicine",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -861,7 +871,7 @@
             }
         ]
     },
-    {
+{
         "word": "parental leave",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -879,7 +889,7 @@
             }
         ]
     },
-    {
+{
         "word": "discrimination",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -897,7 +907,7 @@
             }
         ]
     },
-    {
+{
         "word": "diversity",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -915,7 +925,7 @@
             }
         ]
     },
-    {
+{
         "word": "representation",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -933,7 +943,7 @@
             }
         ]
     },
-    {
+{
         "word": "urban planning",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -951,7 +961,7 @@
             }
         ]
     },
-    {
+{
         "word": "commuter belt",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -969,7 +979,7 @@
             }
         ]
     },
-    {
+{
         "word": "universal healthcare",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -987,7 +997,7 @@
             }
         ]
     },
-    {
+{
         "word": "privatisation",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -1005,7 +1015,7 @@
             }
         ]
     },
-    {
+{
         "word": "waiting list",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -1023,7 +1033,7 @@
             }
         ]
     },
-    {
+{
         "word": "data",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -1041,7 +1051,7 @@
             }
         ]
     },
-    {
+{
         "word": "disinformation",
         "level": "upper-intermediate",
         "theme": "media_misinformation_B2",
@@ -1059,7 +1069,7 @@
             }
         ]
     },
-    {
+{
         "word": "artificial intelligence",
         "level": "upper-intermediate",
         "theme": "applied_sciences_engineering_B2",
@@ -1077,7 +1087,7 @@
             }
         ]
     },
-    {
+{
         "word": "cybersecurity",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -1095,7 +1105,7 @@
             }
         ]
     },
-    {
+{
         "word": "whistleblower",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -1113,7 +1123,7 @@
             }
         ]
     },
-    {
+{
         "word": "consent",
         "level": "upper-intermediate",
         "theme": "ethical_dilemmas_B2",
@@ -1131,7 +1141,7 @@
             }
         ]
     },
-    {
+{
         "word": "integrity",
         "level": "upper-intermediate",
         "theme": "identity_self_concept_B2",
@@ -1149,7 +1159,7 @@
             }
         ]
     },
-    {
+{
         "word": "perspective",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1167,7 +1177,7 @@
             }
         ]
     },
-    {
+{
         "word": "implication",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1185,7 +1195,7 @@
             }
         ]
     },
-    {
+{
         "word": "framework",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1203,7 +1213,7 @@
             }
         ]
     },
-    {
+{
         "word": "assumption",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1221,7 +1231,7 @@
             }
         ]
     },
-    {
+{
         "word": "critique",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1239,7 +1249,7 @@
             }
         ]
     },
-    {
+{
         "word": "paradox",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1257,7 +1267,7 @@
             }
         ]
     },
-    {
+{
         "word": "nuance",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -1275,7 +1285,7 @@
             }
         ]
     },
-    {
+{
         "word": "veto",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -1292,9 +1302,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "en";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

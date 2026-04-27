@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "bezañ",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -23,7 +23,7 @@
         "v3": "bet",
         "group": "irregular"
     },
-    {
+{
         "word": "kaout",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -46,7 +46,7 @@
         "v3": "bet",
         "group": "irregular"
     },
-    {
+{
         "word": "santout",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -67,7 +67,7 @@
         "v3": "santet",
         "group": "irregular"
     },
-    {
+{
         "word": "reiñ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -90,7 +90,7 @@
         "v3": "roet",
         "group": "irregular"
     },
-    {
+{
         "word": "kemer",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -113,7 +113,7 @@
         "v3": "kemeret",
         "group": "irregular"
     },
-    {
+{
         "word": "kaout",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -135,7 +135,7 @@
         "v3": "bet",
         "group": "irregular"
     },
-    {
+{
         "word": "lakaat",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -156,7 +156,7 @@
         "v3": "lakaet",
         "group": "irregular"
     },
-    {
+{
         "word": "ober",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -178,7 +178,7 @@
         "v3": "graet",
         "group": "irregular"
     },
-    {
+{
         "word": "ober",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -199,7 +199,7 @@
         "v3": "graet",
         "group": "irregular"
     },
-    {
+{
         "word": "implijout",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -220,7 +220,7 @@
         "v3": "implijet",
         "group": "regular"
     },
-    {
+{
         "word": "digeriñ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -243,7 +243,7 @@
         "v3": "digoret",
         "group": "iñ"
     },
-    {
+{
         "word": "serriñ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -266,7 +266,7 @@
         "v3": "serret",
         "group": "iñ"
     },
-    {
+{
         "word": "kregiñ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -289,7 +289,7 @@
         "v3": "kroget",
         "group": "iñ"
     },
-    {
+{
         "word": "echuiñ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -312,7 +312,7 @@
         "v3": "echuet",
         "group": "iñ"
     },
-    {
+{
         "word": "sikour",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -333,7 +333,7 @@
         "v3": "sikouret",
         "group": "regular"
     },
-    {
+{
         "word": "klask",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -354,7 +354,7 @@
         "v3": "klasket",
         "group": "regular"
     },
-    {
+{
         "word": "diskouez",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -375,7 +375,7 @@
         "v3": "diskouezet",
         "group": "irregular"
     },
-    {
+{
         "word": "kavout",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -396,7 +396,7 @@
         "v3": "kavet",
         "group": "irregular"
     },
-    {
+{
         "word": "derc'hel",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -418,7 +418,7 @@
         "v3": "dalc'het",
         "group": "irregular"
     },
-    {
+{
         "word": "koll",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -441,7 +441,7 @@
         "v3": "kollet",
         "group": "irregular"
     },
-    {
+{
         "word": "troc'hañ",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -463,7 +463,7 @@
         "v3": "troc'het",
         "group": "irregular"
     },
-    {
+{
         "word": "treiñ",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -485,7 +485,7 @@
         "v3": "troet",
         "group": "iñ"
     },
-    {
+{
         "word": "degas",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -506,7 +506,7 @@
         "v3": "degaset",
         "group": "irregular"
     },
-    {
+{
         "word": "lavarout",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -527,7 +527,7 @@
         "v3": "lavaret",
         "group": "irregular"
     },
-    {
+{
         "word": "kontañ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -548,7 +548,7 @@
         "v3": "kontet",
         "group": "irregular"
     },
-    {
+{
         "word": "goulenn",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -569,7 +569,7 @@
         "v3": "goulennet",
         "group": "regular"
     },
-    {
+{
         "word": "komz",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -590,7 +590,7 @@
         "v3": "komzet",
         "group": "irregular"
     },
-    {
+{
         "word": "kaozeal",
         "level": "starter",
         "theme": "family_life_A1",
@@ -612,7 +612,7 @@
         "v3": "kaozeet",
         "group": "al"
     },
-    {
+{
         "word": "gervel",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -633,7 +633,7 @@
         "v3": "galvet",
         "group": "el"
     },
-    {
+{
         "word": "skrivañ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -656,7 +656,7 @@
         "v3": "skrivet",
         "group": "irregular"
     },
-    {
+{
         "word": "lenn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -679,7 +679,7 @@
         "v3": "lennet",
         "group": "irregular"
     },
-    {
+{
         "word": "selaou",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -700,7 +700,7 @@
         "v3": "selaouet",
         "group": "regular"
     },
-    {
+{
         "word": "respont",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -721,7 +721,7 @@
         "v3": "respontet",
         "group": "regular"
     },
-    {
+{
         "word": "adzlavarout",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -743,7 +743,7 @@
         "v3": "adlavaret",
         "group": "regular"
     },
-    {
+{
         "word": "mont",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -764,7 +764,7 @@
         "v3": "aet",
         "group": "irregular"
     },
-    {
+{
         "word": "dont",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -787,7 +787,7 @@
         "v3": "deut",
         "group": "irregular"
     },
-    {
+{
         "word": "bale",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -808,7 +808,7 @@
         "v3": "balet",
         "group": "regular"
     },
-    {
+{
         "word": "bleniañ",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -829,7 +829,7 @@
         "v3": "bleniet",
         "group": "irregular"
     },
-    {
+{
         "word": "nijout",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -850,7 +850,7 @@
         "v3": "nijet",
         "group": "irregular"
     },
-    {
+{
         "word": "degouezhout",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -872,7 +872,7 @@
         "v3": "degouezhet",
         "group": "regular"
     },
-    {
+{
         "word": "kuitaat",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -893,7 +893,7 @@
         "v3": "kuitaet",
         "group": "irregular"
     },
-    {
+{
         "word": "dilec'hiañ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -915,7 +915,7 @@
         "v3": "dilec'hiet",
         "group": "añ"
     },
-    {
+{
         "word": "distreiñ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -936,7 +936,7 @@
         "v3": "distroet",
         "group": "iñ"
     },
-    {
+{
         "word": "beajiñ",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -957,7 +957,7 @@
         "v3": "beajet",
         "group": "iñ"
     },
-    {
+{
         "word": "debriñ",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -980,7 +980,7 @@
         "v3": "debret",
         "group": "irregular"
     },
-    {
+{
         "word": "evañ",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1003,7 +1003,7 @@
         "v3": "evet",
         "group": "irregular"
     },
-    {
+{
         "word": "kousket",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1026,7 +1026,7 @@
         "v3": "kousket",
         "group": "irregular"
     },
-    {
+{
         "word": "poazhañ",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1048,7 +1048,7 @@
         "v3": "poazhet",
         "group": "añ"
     },
-    {
+{
         "word": "naetaat",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1069,7 +1069,7 @@
         "v3": "naetaet",
         "group": "regular"
     },
-    {
+{
         "word": "dougen",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1090,7 +1090,7 @@
         "v3": "douget",
         "group": "irregular"
     },
-    {
+{
         "word": "walc'hiñ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1111,7 +1111,7 @@
         "v3": "walc'het",
         "group": "iñ"
     },
-    {
+{
         "word": "prenañ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1134,7 +1134,7 @@
         "v3": "prenet",
         "group": "irregular"
     },
-    {
+{
         "word": "paeañ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1155,7 +1155,7 @@
         "v3": "paeet",
         "group": "irregular"
     },
-    {
+{
         "word": "dispendiñ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1177,7 +1177,7 @@
         "v3": "dispendet",
         "group": "irregular"
     },
-    {
+{
         "word": "espern",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1200,7 +1200,7 @@
         "v3": "espernet",
         "group": "regular"
     },
-    {
+{
         "word": "labourat",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1221,7 +1221,7 @@
         "v3": "labouret",
         "group": "regular"
     },
-    {
+{
         "word": "bevañ",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1244,7 +1244,7 @@
         "v3": "bevet",
         "group": "añ"
     },
-    {
+{
         "word": "soñjal",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1265,7 +1265,7 @@
         "v3": "soñjet",
         "group": "irregular"
     },
-    {
+{
         "word": "gouzout",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1287,7 +1287,7 @@
         "v3": "gouezet",
         "group": "irregular"
     },
-    {
+{
         "word": "fellout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1308,7 +1308,7 @@
         "v3": "fallet",
         "group": "regular"
     },
-    {
+{
         "word": "ezhomm",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1329,7 +1329,7 @@
         "v3": "ezhommet",
         "group": "regular"
     },
-    {
+{
         "word": "karet",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1350,7 +1350,7 @@
         "v3": "karet",
         "group": "et"
     },
-    {
+{
         "word": "karout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1372,7 +1372,7 @@
         "v3": "karet",
         "group": "regular"
     },
-    {
+{
         "word": "kazout",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1394,7 +1394,7 @@
         "v3": "kazet",
         "group": "regular"
     },
-    {
+{
         "word": "esperout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1416,7 +1416,7 @@
         "v3": "esperet",
         "group": "regular"
     },
-    {
+{
         "word": "kaout soñj",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1438,7 +1438,7 @@
         "v3": "bet soñj",
         "group": "regular"
     },
-    {
+{
         "word": "ankounac'haat",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1460,7 +1460,7 @@
         "v3": "ankounac'haet",
         "group": "irregular"
     },
-    {
+{
         "word": "kompren",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1481,7 +1481,7 @@
         "v3": "komprenet",
         "group": "irregular"
     },
-    {
+{
         "word": "divizout",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1503,7 +1503,7 @@
         "v3": "divizet",
         "group": "regular"
     },
-    {
+{
         "word": "plijout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1524,7 +1524,7 @@
         "v3": "plijet",
         "group": "regular"
     },
-    {
+{
         "word": "gwelet",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1545,7 +1545,7 @@
         "v3": "gwelet",
         "group": "irregular"
     },
-    {
+{
         "word": "klevet",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1567,7 +1567,7 @@
         "v3": "klevet",
         "group": "irregular"
     },
-    {
+{
         "word": "dihuniñ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1591,7 +1591,7 @@
         "v3": "dihunet",
         "group": "irregular"
     },
-    {
+{
         "word": "sellet",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1612,7 +1612,7 @@
         "v3": "sellet",
         "group": "et"
     },
-    {
+{
         "word": "sellout",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1634,7 +1634,7 @@
         "v3": "sellet",
         "group": "regular"
     },
-    {
+{
         "word": "c'hoari",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1655,7 +1655,7 @@
         "v3": "c'hoariet",
         "group": "regular"
     },
-    {
+{
         "word": "redek",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1676,7 +1676,7 @@
         "v3": "redet",
         "group": "irregular"
     },
-    {
+{
         "word": "azezañ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1699,7 +1699,7 @@
         "v3": "azezeet",
         "group": "irregular"
     },
-    {
+{
         "word": "sevel",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1722,7 +1722,7 @@
         "v3": "savet",
         "group": "irregular"
     },
-    {
+{
         "word": "kejañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1743,7 +1743,7 @@
         "subtext": "kejañ gant ur c'hliant / kejañ evit merenniñ",
         "group": "irregular"
     },
-    {
+{
         "word": "deskiñ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1764,7 +1764,7 @@
         "v3": "desket",
         "group": "iñ"
     },
-    {
+{
         "word": "cheñch",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1785,7 +1785,7 @@
         "v3": "cheñchet",
         "group": "regular"
     },
-    {
+{
         "word": "paouez",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1806,7 +1806,7 @@
         "v3": "paouezet",
         "group": "regular"
     },
-    {
+{
         "word": "ouzhpennañ",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1828,7 +1828,7 @@
         "v3": "ouzhpennet",
         "group": "añ"
     },
-    {
+{
         "word": "gounit",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1851,7 +1851,7 @@
         "v3": "gounezet",
         "group": "irregular"
     },
-    {
+{
         "word": "gortoz",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1872,7 +1872,7 @@
         "v3": "gortozet",
         "group": "regular"
     },
-    {
+{
         "word": "mervel",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -1895,7 +1895,7 @@
         "v3": "marvet",
         "group": "el"
     },
-    {
+{
         "word": "kas",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1916,7 +1916,7 @@
         "subtext": "kas ur postel / kas ur gemennadenn",
         "group": "irregular"
     },
-    {
+{
         "word": "chom",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1937,7 +1937,7 @@
         "v3": "chomet",
         "group": "regular"
     },
-    {
+{
         "word": "kouezhañ",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -1958,7 +1958,7 @@
         "v3": "kouezhet",
         "group": "irregular"
     },
-    {
+{
         "word": "tremen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1979,7 +1979,7 @@
         "v3": "tremenet",
         "group": "regular"
     },
-    {
+{
         "word": "gwerzhañ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2002,7 +2002,7 @@
         "v3": "gwerzhet",
         "group": "irregular"
     },
-    {
+{
         "word": "Sachañ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2026,7 +2026,7 @@
         "v3": "sachet",
         "group": "añ"
     },
-    {
+{
         "word": "pousañ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2049,7 +2049,7 @@
         "v3": "pouset",
         "group": "añ"
     },
-    {
+{
         "word": "dougen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2070,7 +2070,7 @@
         "v3": "douget",
         "group": "regular"
     },
-    {
+{
         "word": "terriñ",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2091,7 +2091,7 @@
         "v3": "torret",
         "group": "irregular"
     },
-    {
+{
         "word": "resev",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2113,7 +2113,7 @@
         "v3": "resevet",
         "group": "regular"
     },
-    {
+{
         "word": "emglev",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2135,7 +2135,7 @@
         "v3": "emglezet",
         "group": "regular"
     },
-    {
+{
         "word": "treset",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2156,7 +2156,7 @@
         "v3": "treset",
         "group": "irregular"
     },
-    {
+{
         "word": "lodennañ",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2178,7 +2178,7 @@
         "v3": "lodennet",
         "group": "añ"
     },
-    {
+{
         "word": "mousc'hoarzhin",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2202,7 +2202,7 @@
         "v3": "mousc'hoarzhet",
         "group": "regular"
     },
-    {
+{
         "word": "gouelañ",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2226,7 +2226,7 @@
         "v3": "gouelet",
         "group": "añ"
     },
-    {
+{
         "word": "dañsal",
         "level": "starter",
         "theme": "music_A1",
@@ -2248,7 +2248,7 @@
         "v3": "dañset",
         "group": "al"
     },
-    {
+{
         "word": "kanañ",
         "level": "starter",
         "theme": "music_A1",
@@ -2269,7 +2269,7 @@
         "v3": "kanet",
         "group": "irregular"
     },
-    {
+{
         "word": "lammat",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2290,7 +2290,7 @@
         "v3": "lammet",
         "group": "regular"
     },
-    {
+{
         "word": "neuñvial",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2312,7 +2312,7 @@
         "v3": "neuñviet",
         "group": "irregular"
     },
-    {
+{
         "word": "studiañ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2333,7 +2333,7 @@
         "v3": "studiet",
         "group": "añ"
     },
-    {
+{
         "word": "kelenn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2354,7 +2354,7 @@
         "v3": "kelennet",
         "group": "irregular"
     },
-    {
+{
         "word": "beajiñ bemdez",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2376,7 +2376,7 @@
         "v3": "beajet bemdez",
         "group": "regular"
     },
-    {
+{
         "word": "feurmiñ",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2397,7 +2397,7 @@
         "v3": "feurmet",
         "group": "iñ"
     },
-    {
+{
         "word": "ober sport",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2418,7 +2418,7 @@
         "subtext": "ober sport / ober sport ingալ",
         "group": "regular"
     },
-    {
+{
         "word": "koustañ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2440,7 +2440,7 @@
         "synonyms": ["koust kalz", "koust arc'hant"],
         "group": "irregular"
     },
-    {
+{
         "word": "pediñ",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2461,7 +2461,7 @@
         "subtext": "pediñ unan bennak / pediñ da goaniañ",
         "group": "iñ"
     },
-    {
+{
         "word": "sevel",
         "definitions": [
             {
@@ -2482,7 +2482,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "lein",
         "definitions": [
             {
@@ -2503,7 +2503,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "distreiñ",
         "definitions": [
             {
@@ -2524,7 +2524,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "mont da gousket",
         "definitions": [
             {
@@ -2545,7 +2545,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "gwiriañ",
         "definitions": [
             {
@@ -2566,7 +2566,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "respont",
         "definitions": [
             {
@@ -2587,7 +2587,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "displegañ",
         "definitions": [
             {
@@ -2609,7 +2609,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "kemer perzh",
         "definitions": [
             {
@@ -2630,7 +2630,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "merañ",
         "definitions": [
             {
@@ -2651,7 +2651,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "fakturiñ",
         "definitions": [
             {
@@ -2673,7 +2673,7 @@
         "form": "verb",
         "group": "iñ"
     },
-    {
+{
         "word": "gellet paeañ",
         "definitions": [
             {
@@ -2694,7 +2694,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "dleout",
         "definitions": [
             {
@@ -2715,7 +2715,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "gounit arc'hant",
         "definitions": [
             {
@@ -2737,7 +2737,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "gweladenniñ",
         "definitions": [
             {
@@ -2758,7 +2758,7 @@
         "form": "verb",
         "group": "iñ"
     },
-    {
+{
         "word": "lidat",
         "definitions": [
             {
@@ -2779,7 +2779,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "erbediñ",
         "definitions": [
             {
@@ -2800,7 +2800,7 @@
         "form": "verb",
         "group": "iñ"
     },
-    {
+{
         "word": "ober droug",
         "definitions": [
             {
@@ -2821,7 +2821,7 @@
         "form": "verb",
         "group": "irregular"
     },
-    {
+{
         "word": "diskuizhañ",
         "definitions": [
             {
@@ -2842,7 +2842,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "pareañ",
         "definitions": [
             {
@@ -2863,7 +2863,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "mirout",
         "definitions": [
             {
@@ -2884,7 +2884,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "aozañ ar malizenn",
         "definitions": [
             {
@@ -2906,7 +2906,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "nullañ",
         "definitions": [
             {
@@ -2927,7 +2927,7 @@
         "form": "verb",
         "group": "añ"
     },
-    {
+{
         "word": "mankout",
         "definitions": [
             {
@@ -2948,7 +2948,7 @@
         "form": "verb",
         "group": "regular"
     },
-    {
+{
         "word": "urzhiañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2969,7 +2969,7 @@
         "v3": "urzhiet",
         "group": "añ"
     },
-    {
+{
         "word": "displegañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2990,7 +2990,7 @@
         "v3": "displeget",
         "group": "añ"
     },
-    {
+{
         "word": "trugarekaat",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3012,7 +3012,7 @@
         "v3": "trugarekaet",
         "group": "regular"
     },
-    {
+{
         "word": "en em ginnig",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3034,7 +3034,7 @@
         "v3": "en em ginniget",
         "group": "regular"
     },
-    {
+{
         "word": "en em zistendañ",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3056,7 +3056,7 @@
         "v3": "en em zistendet",
         "group": "añ"
     },
-    {
+{
         "word": "ratreañ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3077,7 +3077,7 @@
         "v3": "ratreet",
         "group": "añ"
     },
-    {
+{
         "word": "degouezhout",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3098,7 +3098,7 @@
         "v3": "degouezhet",
         "group": "regular"
     },
-    {
+{
         "word": "hañvalout",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3120,7 +3120,7 @@
         "v3": "hañvalet",
         "group": "regular"
     },
-    {
+{
         "word": "talvout",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3142,7 +3142,7 @@
         "v3": "talvezet",
         "group": "irregular"
     },
-    {
+{
         "word": "heuliañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3163,7 +3163,7 @@
         "v3": "heuliet",
         "group": "añ"
     },
-    {
+{
         "word": "kenderc'hel",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3184,7 +3184,7 @@
         "v3": "kendalc'het",
         "group": "el"
     },
-    {
+{
         "word": "kreskiñ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3205,7 +3205,7 @@
         "v3": "kresket",
         "group": "irregular"
     },
-    {
+{
         "word": "e-barzh",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3226,7 +3226,7 @@
         "v3": "bet e-barzh",
         "group": "regular"
     },
-    {
+{
         "word": "dont da vezañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3247,7 +3247,7 @@
         "v3": "deut da vezañ",
         "group": "irregular"
     },
-    {
+{
         "word": "bezañ da",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3268,7 +3268,7 @@
         "v3": "bet da",
         "group": "regular"
     },
-    {
+{
         "word": "dibab",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3289,7 +3289,7 @@
         "v3": "dibabet",
         "group": "irregular"
     },
-    {
+{
         "word": "sevel",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3309,11 +3309,8 @@
         "v2": "savas",
         "v3": "savet",
         "group": "irregular"
-    }
-]
-    const lang = "br";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{},
+{}
+];
 })();

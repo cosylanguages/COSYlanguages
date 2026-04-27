@@ -1,7 +1,18 @@
 (function() {
     const data = [
     {
+        "word": "сад",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "врач",
+        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "gender": "он",
@@ -23,7 +34,7 @@
         "transcription": "/vratʃ/",
         "countability": "countable"
     },
-    {
+{
         "word": "рука",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -43,7 +54,7 @@
         "transcription": "/ruˈka/",
         "countability": "countable"
     },
-    {
+{
         "word": "нога",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -65,7 +76,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "учитель",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -84,8 +95,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "яблоко",
+        "image": "images/vocabulary/food/apple.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "gender": "оно",
@@ -104,7 +116,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "хлеб",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -123,7 +135,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "яйцо",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -142,7 +154,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "молоко",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -161,7 +173,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "пицца",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -179,7 +191,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "рис",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -197,7 +209,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "мясо",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -215,7 +227,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "еда",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -234,7 +246,7 @@
         "countability": "uncountable",
         "subtext": ""
     },
-    {
+{
         "word": "фрукт",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -254,7 +266,7 @@
         "transcription": "/frukt/",
         "countability": "countable"
     },
-    {
+{
         "word": "овощ",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -274,7 +286,7 @@
         "transcription": "/ˈovəɕː/",
         "countability": "countable"
     },
-    {
+{
         "word": "кофе",
         "level": "starter",
         "theme": "drinks_A1",
@@ -293,7 +305,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "чай",
         "level": "starter",
         "theme": "drinks_A1",
@@ -312,7 +324,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "сок",
         "level": "starter",
         "theme": "drinks_A1",
@@ -331,7 +343,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "вода",
         "level": "starter",
         "theme": "drinks_A1",
@@ -350,7 +362,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "завтрак",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -369,9 +381,9 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "ужин",
-        "image": "images/vocabulary/have dinner.png",
+        "image": "images/vocabulary/actions/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "gender": "он",
@@ -389,9 +401,9 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "обед",
-        "image": "images/vocabulary/have lunch.png",
+        "image": "images/vocabulary/actions/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "gender": "он",
@@ -409,7 +421,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "парк",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -428,9 +440,9 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "школа",
-        "image": "images/vocabulary/go to school.png",
+        "image": "images/vocabulary/actions/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "gender": "она",
@@ -448,7 +460,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "магазин",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -467,7 +479,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "футболка",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -486,7 +498,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "брюки",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -505,7 +517,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "обувь",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -524,7 +536,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "шапка",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -543,7 +555,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "стул",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -561,7 +573,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "стол",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -579,7 +591,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "кровать",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -597,7 +609,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "ключ",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -616,7 +628,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "телефон",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -635,7 +647,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "книга",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -655,7 +667,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "сумка",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -674,7 +686,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "ручка",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -694,7 +706,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "кот",
         "level": "starter",
         "theme": "animals_A1",
@@ -714,7 +726,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "собака",
         "level": "starter",
         "theme": "animals_A1",
@@ -734,7 +746,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "птица",
         "level": "starter",
         "theme": "animals_A1",
@@ -754,7 +766,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "рыба",
         "level": "starter",
         "theme": "animals_A1",
@@ -774,7 +786,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "голова",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -794,7 +806,7 @@
         "transcription": "/ɡəlaˈva/",
         "countability": "countable"
     },
-    {
+{
         "word": "рука",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -814,7 +826,7 @@
         "transcription": "/ruˈka/",
         "countability": "countable"
     },
-    {
+{
         "word": "глаз",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -834,7 +846,7 @@
         "transcription": "/ɡlas/",
         "countability": "countable"
     },
-    {
+{
         "word": "нос",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -854,7 +866,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "рот",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -874,7 +886,7 @@
         "transcription": "/rot/",
         "countability": "countable"
     },
-    {
+{
         "word": "ухо",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -894,7 +906,7 @@
         "transcription": "/ˈuxə/",
         "countability": "countable"
     },
-    {
+{
         "word": "спина",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -913,7 +925,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "мать",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -931,7 +943,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "отец",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -949,7 +961,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "семья",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -967,7 +979,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "друг",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -985,7 +997,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "партнёр",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -1003,7 +1015,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "мужчина",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1023,7 +1035,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "женщина",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1043,9 +1055,9 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "дом",
-        "image": "images/vocabulary/go home.png",
+        "image": "images/vocabulary/actions/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "gender": "он",
@@ -1066,7 +1078,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "квартира",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1086,7 +1098,7 @@
         "transcription": "/kvaʁˈtiʁə/",
         "countability": "countable"
     },
-    {
+{
         "word": "офис",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
@@ -1105,7 +1117,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "машина",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1125,7 +1137,7 @@
         "transcription": "/maˈʂɨnə/",
         "countability": "countable"
     },
-    {
+{
         "word": "автобус",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1144,7 +1156,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "поезд",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1163,7 +1175,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "деньги",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1181,7 +1193,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "утро",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1199,7 +1211,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "вечер",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1217,7 +1229,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "день",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1235,7 +1247,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "неделя",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1253,7 +1265,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "босс",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1275,7 +1287,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "коллега",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1295,7 +1307,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "зарплата",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1318,7 +1330,7 @@
         "transcription": "/zaʁˈplatə/",
         "countability": "countable"
     },
-    {
+{
         "word": "собрание",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1341,7 +1353,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "поездка на работу",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1359,7 +1371,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "стресс",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1378,7 +1390,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "аренда",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1397,7 +1409,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "сосед",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1417,7 +1429,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "комната",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1437,7 +1449,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "кухня",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1456,7 +1468,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "сон",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1475,7 +1487,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "упражнение",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1495,7 +1507,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "цена",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1514,7 +1526,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "стоимость",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1532,7 +1544,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "отношения",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1554,7 +1566,7 @@
         "transcription": "/atnaˈʂenʲijə/",
         "countability": "countable"
     },
-    {
+{
         "word": "отпуск",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1576,7 +1588,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "путешествие",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1595,7 +1607,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "отель",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1618,7 +1630,7 @@
         "transcription": "/aˈtɛlʲ/",
         "countability": "countable"
     },
-    {
+{
         "word": "выходные",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1640,7 +1652,7 @@
         "transcription": "/vɨxadˈnɨjə/",
         "countability": "countable"
     },
-    {
+{
         "word": "свободное время",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1664,7 +1676,7 @@
         "transcription": "/svaˈbodnəjə ˈvrʲemʲə/",
         "countability": "countable"
     },
-    {
+{
         "word": "пиво",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1684,7 +1696,7 @@
         "transcription": "/ˈpʲivə/",
         "countability": "uncountable"
     },
-    {
+{
         "word": "вино",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1704,7 +1716,7 @@
         "transcription": "/vʲiˈno/",
         "countability": "uncountable"
     },
-    {
+{
         "word": "дверь",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1724,7 +1736,7 @@
         "transcription": "/dvʲeʁʲ/",
         "countability": "countable"
     },
-    {
+{
         "word": "окно",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1744,7 +1756,7 @@
         "transcription": "/akˈno/",
         "countability": "countable"
     },
-    {
+{
         "word": "медсестра",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1764,7 +1776,7 @@
         "transcription": "/mʲitsʲisˈtra/",
         "countability": "countable"
     },
-    {
+{
         "word": "водитель",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1784,7 +1796,7 @@
         "transcription": "/vaˈdʲitʲilʲ/",
         "countability": "countable"
     },
-    {
+{
         "word": "повар",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1804,7 +1816,7 @@
         "transcription": "/ˈpovəʁ/",
         "countability": "countable"
     },
-    {
+{
         "word": "менеджер",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1828,7 +1840,7 @@
         "transcription": "/ˈmɛnɨdʐɨʁ/",
         "countability": "countable"
     },
-    {
+{
         "word": "самолёт",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1848,7 +1860,7 @@
         "transcription": "/samaˈlʲot/",
         "countability": "countable"
     },
-    {
+{
         "word": "велосипед",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1868,7 +1880,7 @@
         "transcription": "/vʲilasʲiˈpʲet/",
         "countability": "countable"
     },
-    {
+{
         "word": "больница",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1888,7 +1900,7 @@
         "transcription": "/balʲˈnʲitsə/",
         "countability": "countable"
     },
-    {
+{
         "word": "ресторан",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1908,7 +1920,7 @@
         "transcription": "/ʁʲistaˈran/",
         "countability": "countable"
     },
-    {
+{
         "word": "банк",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1927,7 +1939,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "станция",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1950,7 +1962,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "супермаркет",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1970,7 +1982,7 @@
         "transcription": "/supʲiʁˈmaʁkʲit/",
         "countability": "countable"
     },
-    {
+{
         "word": "солнце",
         "level": "starter",
         "theme": "weather_A1",
@@ -1990,7 +2002,7 @@
         "transcription": "/ˈsontsə/",
         "countability": "countable"
     },
-    {
+{
         "word": "дождь",
         "level": "starter",
         "theme": "weather_A1",
@@ -2010,7 +2022,7 @@
         "transcription": "/doʃtʲ/",
         "countability": "countable"
     },
-    {
+{
         "word": "ветер",
         "level": "starter",
         "theme": "weather_A1",
@@ -2030,7 +2042,7 @@
         "transcription": "/ˈvʲetʲiʁ/",
         "countability": "countable"
     },
-    {
+{
         "word": "ночь",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2054,7 +2066,7 @@
         "transcription": "/notʃʲ/",
         "countability": "countable"
     },
-    {
+{
         "word": "завтра",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2071,7 +2083,7 @@
         ],
         "transcription": "/ˈzaftrə/"
     },
-    {
+{
         "word": "муж",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2097,7 +2109,7 @@
         "transcription": "/muʂ/",
         "countability": "countable"
     },
-    {
+{
         "word": "жена",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2123,7 +2135,7 @@
         "transcription": "/ʐɨˈna/",
         "countability": "countable"
     },
-    {
+{
         "word": "ребёнок",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2147,7 +2159,7 @@
         "transcription": "/rʲiˈbʲonək/",
         "countability": "countable"
     },
-    {
+{
         "word": "родитель",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2169,9 +2181,7 @@
         ],
         "transcription": "/raˈdʲitʲilʲ/",
         "countability": "countable"
-    }
+    },
+{}
 ];
-    const lang = "ru";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "abroad",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -20,7 +30,7 @@
             "overseas"
         ]
     },
-    {
+{
         "word": "account",
         "level": "elementary",
         "theme": "banking_A2",
@@ -39,7 +49,7 @@
         "subtext": "bank account / open an account",
         "countability": "countable"
     },
-    {
+{
         "word": "achievement",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -61,7 +71,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "addition",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -82,7 +92,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "advantage",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -105,7 +115,7 @@
         "countability": "countable",
         "opposite": "disadvantage"
     },
-    {
+{
         "word": "advertisement",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -128,7 +138,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "agreement",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -151,7 +161,7 @@
         "opposite": "disagreement",
         "transcription": "əˈɡriːmənt"
     },
-    {
+{
         "word": "aisle",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
@@ -170,7 +180,7 @@
         "countability": "countable",
         "transcription": "aɪl"
     },
-    {
+{
         "word": "application",
         "level": "elementary",
         "theme": "school_life_routines_A2",
@@ -189,7 +199,7 @@
         "countability": "countable",
         "transcription": "ˌæplɪˈkeɪʃn"
     },
-    {
+{
         "word": "appointment",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -208,7 +218,7 @@
         "countability": "countable",
         "transcription": "əˈpɔɪntmənt"
     },
-    {
+{
         "word": "article",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -231,7 +241,7 @@
         "countability": "countable",
         "transcription": "ˈɑːrtɪkl"
     },
-    {
+{
         "word": "artist",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -250,7 +260,7 @@
         "subtext": "related to job titles professions",
         "transcription": "ˈɑːrtɪst"
     },
-    {
+{
         "word": "atmosphere",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -272,7 +282,7 @@
         "countability": "uncountable",
         "transcription": "ˈætməsfɪər"
     },
-    {
+{
         "word": "balcony",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -291,7 +301,7 @@
         "subtext": "related to rooms of a home",
         "transcription": "ˈbælkəni"
     },
-    {
+{
         "word": "benefit",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -313,7 +323,7 @@
         "countability": "countable",
         "transcription": "ˈbɛnɪfɪt"
     },
-    {
+{
         "word": "bill",
         "level": "elementary",
         "theme": "finances_A2",
@@ -332,7 +342,7 @@
         "countability": "countable",
         "transcription": "bɪl"
     },
-    {
+{
         "word": "biodiversity",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -353,7 +363,7 @@
         "countability": "uncountable",
         "transcription": "ˌbaɪoʊdaɪˈvɜːrsəti"
     },
-    {
+{
         "word": "biology",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -374,7 +384,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 baɪˈɒlədʒi | 🇺🇸 baɪˈɑːlədʒi"
     },
-    {
+{
         "word": "blood",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -395,7 +405,7 @@
         "countability": "uncountable",
         "transcription": "blʌd"
     },
-    {
+{
         "word": "boarding pass",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -418,7 +428,7 @@
         "countability": "countable",
         "transcription": "ˈbɔːrdɪŋ pæs"
     },
-    {
+{
         "word": "bone",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -440,7 +450,7 @@
         "countability": "countable",
         "transcription": "boʊn"
     },
-    {
+{
         "word": "border",
         "level": "elementary",
         "theme": "places_geography_A2",
@@ -463,7 +473,7 @@
         "countability": "countable",
         "transcription": "ˈbɔːrdər"
     },
-    {
+{
         "word": "brain",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -485,7 +495,7 @@
         "countability": "countable",
         "transcription": "breɪn"
     },
-    {
+{
         "word": "browser",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -507,7 +517,7 @@
         "countability": "countable",
         "transcription": "ˈbraʊzər"
     },
-    {
+{
         "word": "budget",
         "level": "elementary",
         "theme": "finances_A2",
@@ -529,7 +539,7 @@
         "countability": "countable",
         "transcription": "ˈbʌdʒɪt"
     },
-    {
+{
         "word": "burger",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -559,7 +569,7 @@
         "countability": "countable",
         "transcription": "ˈbɜːrɡər"
     },
-    {
+{
         "word": "candidate",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -581,7 +591,7 @@
         "countability": "countable",
         "transcription": "ˈkændɪdeɪt"
     },
-    {
+{
         "word": "capital",
         "level": "elementary",
         "theme": "places_geography_A2",
@@ -604,7 +614,7 @@
         "countability": "countable",
         "transcription": "ˈkæpɪtl"
     },
-    {
+{
         "word": "carbon footprint",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -625,7 +635,7 @@
         "countability": "countable",
         "transcription": "ˈkɑːrbən ˈfʊtprɪnt"
     },
-    {
+{
         "word": "cash machine",
         "level": "elementary",
         "theme": "finances_A2",
@@ -647,7 +657,7 @@
         "countability": "countable",
         "transcription": "kæʃ məˈʃiːn"
     },
-    {
+{
         "word": "ceiling",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -666,7 +676,7 @@
         "subtext": "related to rooms of a home",
         "transcription": "ˈsiːlɪŋ"
     },
-    {
+{
         "word": "cell",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -687,7 +697,7 @@
         "countability": "countable",
         "transcription": "sɛl"
     },
-    {
+{
         "word": "character",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -709,7 +719,7 @@
         "countability": "uncountable",
         "transcription": "ˈkærəktər"
     },
-    {
+{
         "word": "chemistry",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -730,7 +740,7 @@
         "countability": "uncountable",
         "transcription": "ˈkɛmɪstri"
     },
-    {
+{
         "word": "client",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -752,7 +762,7 @@
         "countability": "countable",
         "transcription": "ˈklaɪənt"
     },
-    {
+{
         "word": "climate",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -775,7 +785,7 @@
         "countability": "countable",
         "transcription": "ˈklaɪmət"
     },
-    {
+{
         "word": "climate change",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -796,7 +806,7 @@
         "countability": "uncountable",
         "transcription": "ˈklaɪmət tʃeɪndʒ"
     },
-    {
+{
         "word": "coast",
         "level": "elementary",
         "theme": "landscape_geography_A2",
@@ -819,7 +829,7 @@
         "countability": "countable",
         "transcription": "koʊst"
     },
-    {
+{
         "word": "communication",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -840,7 +850,7 @@
         "countability": "uncountable",
         "transcription": "kəˌmjuːnɪˈkeɪʃn"
     },
-    {
+{
         "word": "community",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -862,7 +872,7 @@
         "countability": "countable",
         "transcription": "kəˈmjuːnəti"
     },
-    {
+{
         "word": "competition",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -884,7 +894,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˌkɒmpəˈtɪʃn | 🇺🇸 ˌkɑːmpəˈtɪʃn"
     },
-    {
+{
         "word": "compromise",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -906,7 +916,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz"
     },
-    {
+{
         "word": "conservation",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -928,7 +938,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 ˌkɒnsərˈveɪʃn | 🇺🇸 ˌkɑːnsərˈveɪʃn"
     },
-    {
+{
         "word": "contract",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -950,7 +960,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt"
     },
-    {
+{
         "word": "credit card",
         "level": "elementary",
         "theme": "finances_A2",
@@ -972,7 +982,7 @@
         "countability": "countable",
         "transcription": "ˈkrɛdɪt kɑːrd"
     },
-    {
+{
         "word": "currency",
         "level": "elementary",
         "theme": "finances_A2",
@@ -994,7 +1004,7 @@
         "countability": "countable",
         "transcription": "ˈkʌrənsi"
     },
-    {
+{
         "word": "curtain",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1013,7 +1023,7 @@
         "subtext": "related to household items",
         "transcription": "ˈkɜːrtn"
     },
-    {
+{
         "word": "custom",
         "level": "elementary",
         "theme": "customs_traditions_A2",
@@ -1035,7 +1045,7 @@
         "countability": "countable",
         "transcription": "ˈkʌstəm"
     },
-    {
+{
         "word": "data",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1057,7 +1067,7 @@
         "countability": "uncountable",
         "transcription": "ˈdeɪtə"
     },
-    {
+{
         "word": "database",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1079,7 +1089,7 @@
         "countability": "countable",
         "transcription": "ˈdeɪtəbeɪs"
     },
-    {
+{
         "word": "deadline",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1101,7 +1111,7 @@
         "countability": "countable",
         "transcription": "ˈdɛdlaɪn"
     },
-    {
+{
         "word": "debt",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1123,7 +1133,7 @@
         "countability": "uncountable",
         "transcription": "dɛt"
     },
-    {
+{
         "word": "decimal point",
         "level": "elementary",
         "theme": "decimals_A2",
@@ -1145,7 +1155,7 @@
         "countability": "countable",
         "transcription": "ˈdɛsɪml pɔɪnt"
     },
-    {
+{
         "word": "decision",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1166,7 +1176,7 @@
         "countability": "countable",
         "transcription": "dɪˈsɪʒn"
     },
-    {
+{
         "word": "degree",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
@@ -1188,7 +1198,7 @@
         "countability": "countable",
         "transcription": "dɪˈɡriː"
     },
-    {
+{
         "word": "deposit",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1211,7 +1221,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt"
     },
-    {
+{
         "word": "destination",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -1230,7 +1240,7 @@
         "countability": "countable",
         "transcription": "ˌdɛstɪˈneɪʃn"
     },
-    {
+{
         "word": "detail",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1251,7 +1261,7 @@
         "countability": "countable",
         "transcription": "ˈdiːteɪl"
     },
-    {
+{
         "word": "diet",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -1270,7 +1280,7 @@
         "countability": "countable",
         "transcription": "ˈdaɪət"
     },
-    {
+{
         "word": "disadvantage",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1293,7 +1303,7 @@
         "opposite": "advantage",
         "transcription": "ˌdɪsədˈvɑːntɪdʒ"
     },
-    {
+{
         "word": "discovery",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1315,7 +1325,7 @@
         "countability": "countable",
         "transcription": "dɪˈskʌvəri"
     },
-    {
+{
         "word": "dishwasher",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1334,7 +1344,7 @@
         "subtext": "related to household items",
         "transcription": "🇬🇧 ˈdɪʃwɒʃər | 🇺🇸 ˈdɪʃwɑːʃər"
     },
-    {
+{
         "word": "division",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -1355,7 +1365,7 @@
         "countability": "uncountable",
         "transcription": "dɪˈvɪʒn"
     },
-    {
+{
         "word": "download",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1378,7 +1388,7 @@
         "opposite": "upload",
         "transcription": "ˌdaʊnˈloʊd"
     },
-    {
+{
         "word": "driving license",
         "level": "elementary",
         "theme": "transport_travel_A2",
@@ -1401,7 +1411,7 @@
         "countability": "countable",
         "transcription": "ˈdraɪvɪŋ ˈlaɪsns"
     },
-    {
+{
         "word": "duty",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1423,7 +1433,7 @@
         "countability": "countable",
         "transcription": "ˈdjuːti"
     },
-    {
+{
         "word": "earthquake",
         "level": "elementary",
         "theme": "landscape_geography_A2",
@@ -1447,7 +1457,7 @@
         "countability": "countable",
         "transcription": "ˈɜːrθkweɪk"
     },
-    {
+{
         "word": "ecology",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1468,7 +1478,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 iˈkɒlədʒi | 🇺🇸 iˈkɑːlədʒi"
     },
-    {
+{
         "word": "economy",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1489,7 +1499,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ɪˈkɒnəmi | 🇺🇸 ɪˈkɑːnəmi"
     },
-    {
+{
         "word": "election",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -1511,7 +1521,7 @@
         "countability": "countable",
         "transcription": "ɪˈlɛkʃn"
     },
-    {
+{
         "word": "employee",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1534,7 +1544,7 @@
         "opposite": "employer",
         "transcription": "ɪmˈplɔɪiː"
     },
-    {
+{
         "word": "employer",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1558,7 +1568,7 @@
         "opposite": "employee",
         "transcription": "ɪmˈplɔɪər"
     },
-    {
+{
         "word": "energy",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1581,7 +1591,7 @@
         "countability": "uncountable",
         "transcription": "ˈɛnərdʒi"
     },
-    {
+{
         "word": "environment",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1604,7 +1614,7 @@
         "countability": "countable",
         "transcription": "ɪnˈvaɪrənmənt"
     },
-    {
+{
         "word": "evidence",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -1625,7 +1635,7 @@
         "countability": "uncountable",
         "transcription": "ˈɛvɪdəns"
     },
-    {
+{
         "word": "exchange rate",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1647,7 +1657,7 @@
         "countability": "countable",
         "transcription": "ɪksˈtʃeɪndʒ reɪt"
     },
-    {
+{
         "word": "experience",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1665,7 +1675,7 @@
         "countability": "uncountable",
         "transcription": "ɪkˈspɪəriəns"
     },
-    {
+{
         "word": "experiment",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1687,7 +1697,7 @@
         "countability": "countable",
         "transcription": "ɪkˈspɛrɪmənt"
     },
-    {
+{
         "word": "fact",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1709,7 +1719,7 @@
         "countability": "countable",
         "transcription": "fækt"
     },
-    {
+{
         "word": "flight",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -1731,7 +1741,7 @@
         "countability": "countable",
         "transcription": "flaɪt"
     },
-    {
+{
         "word": "flood",
         "level": "elementary",
         "theme": "landscape_geography_A2",
@@ -1755,7 +1765,7 @@
         "countability": "countable",
         "transcription": "flʌd"
     },
-    {
+{
         "word": "formula",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1776,7 +1786,7 @@
         "countability": "countable",
         "transcription": "ˈfɔːrmjulə"
     },
-    {
+{
         "word": "fossil",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1798,7 +1808,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈfɒsl | 🇺🇸 ˈfɑːsl"
     },
-    {
+{
         "word": "freedom",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -1819,7 +1829,7 @@
         "countability": "uncountable",
         "transcription": "ˈfriːdəm"
     },
-    {
+{
         "word": "galaxy",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1841,7 +1851,7 @@
         "countability": "countable",
         "transcription": "ˈɡæləksi"
     },
-    {
+{
         "word": "garage",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1860,7 +1870,7 @@
         "subtext": "related to rooms of a home",
         "transcription": "ˈɡærɑːʒ"
     },
-    {
+{
         "word": "global warming",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -1882,7 +1892,7 @@
         "countability": "uncountable",
         "transcription": "ˈɡloʊbl ˈwɔːrmɪŋ"
     },
-    {
+{
         "word": "goal",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1904,7 +1914,7 @@
         "countability": "countable",
         "transcription": "ɡoʊl"
     },
-    {
+{
         "word": "government",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -1925,7 +1935,7 @@
         "countability": "countable",
         "transcription": "ˈɡʌvərnmənt"
     },
-    {
+{
         "word": "gravity",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -1947,7 +1957,7 @@
         "countability": "uncountable",
         "transcription": "ˈɡrævəti"
     },
-    {
+{
         "word": "guidebook",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -1969,7 +1979,7 @@
         "countability": "countable",
         "transcription": "ˈɡaɪdbʊk"
     },
-    {
+{
         "word": "habitat",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -1991,7 +2001,7 @@
         "countability": "countable",
         "transcription": "ˈhæbɪtæt"
     },
-    {
+{
         "word": "half",
         "level": "elementary",
         "theme": "fractions_A2",
@@ -2013,7 +2023,7 @@
         "countability": "countable",
         "transcription": "hɑːf"
     },
-    {
+{
         "word": "hardware",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2036,7 +2046,7 @@
         "opposite": "software",
         "transcription": "ˈhɑːrdwɛər"
     },
-    {
+{
         "word": "headline",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -2058,7 +2068,7 @@
         "countability": "countable",
         "transcription": "ˈhɛdlaɪn"
     },
-    {
+{
         "word": "highway",
         "level": "elementary",
         "theme": "transport_travel_A2",
@@ -2081,7 +2091,7 @@
         "countability": "countable",
         "transcription": "ˈhaɪweɪ"
     },
-    {
+{
         "word": "identity",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -2103,7 +2113,7 @@
         "countability": "uncountable",
         "transcription": "aɪˈdɛntəti"
     },
-    {
+{
         "word": "impact",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -2125,7 +2135,7 @@
         "countability": "countable",
         "transcription": "ˈɪmpækt"
     },
-    {
+{
         "word": "income",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2147,7 +2157,7 @@
         "countability": "uncountable",
         "transcription": "ˈɪnkʌm"
     },
-    {
+{
         "word": "industry",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2169,7 +2179,7 @@
         "countability": "uncountable",
         "transcription": "ˈɪndəstri"
     },
-    {
+{
         "word": "ingredient",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -2191,7 +2201,7 @@
         "countability": "countable",
         "transcription": "ɪnˈɡriːdiənt"
     },
-    {
+{
         "word": "innovation",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2212,7 +2222,7 @@
         "countability": "countable",
         "transcription": "ˌɪnəˈveɪʃn"
     },
-    {
+{
         "word": "instrument",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -2234,7 +2244,7 @@
         "countability": "countable",
         "transcription": "ˈɪnstrumənt"
     },
-    {
+{
         "word": "insurance",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2257,7 +2267,7 @@
         "countability": "uncountable",
         "transcription": "ɪnˈʃʊərəns"
     },
-    {
+{
         "word": "interest",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2278,7 +2288,7 @@
         "countability": "uncountable",
         "transcription": "ˈɪntrəst"
     },
-    {
+{
         "word": "interest rate",
         "level": "elementary",
         "theme": "banking_A2",
@@ -2300,7 +2310,7 @@
         "countability": "countable",
         "transcription": "ˈɪntrəst reɪt"
     },
-    {
+{
         "word": "interview",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2319,7 +2329,7 @@
         "countability": "countable",
         "transcription": "ˈɪntərvjuː"
     },
-    {
+{
         "word": "invention",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -2340,7 +2350,7 @@
         "countability": "countable",
         "transcription": "ɪnˈvɛnʃn"
     },
-    {
+{
         "word": "investment",
         "level": "elementary",
         "theme": "finances_A2",
@@ -2362,7 +2372,7 @@
         "countability": "countable",
         "transcription": "ɪnˈvɛstmənt"
     },
-    {
+{
         "word": "joint",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2384,7 +2394,7 @@
         "countability": "countable",
         "transcription": "dʒɔɪnt"
     },
-    {
+{
         "word": "journalist",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -2413,7 +2423,7 @@
         "countability": "countable",
         "transcription": "ˈdʒɜːrnəlɪst"
     },
-    {
+{
         "word": "journey",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -2435,7 +2445,7 @@
         "countability": "countable",
         "transcription": "ˈdʒɜːrni"
     },
-    {
+{
         "word": "justice",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -2455,7 +2465,7 @@
         "opposite": "injustice",
         "transcription": "ˈdʒʌstɪs"
     },
-    {
+{
         "word": "kidney",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2477,7 +2487,7 @@
         "countability": "countable",
         "transcription": "ˈkɪdni"
     },
-    {
+{
         "word": "laboratory",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -2499,7 +2509,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ləˈbɒrətri | 🇺🇸 ləˈbɑːrətri"
     },
-    {
+{
         "word": "landfill",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -2521,7 +2531,7 @@
         "countability": "countable",
         "transcription": "ˈlændfɪl"
     },
-    {
+{
         "word": "law",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -2542,7 +2552,7 @@
         "countability": "countable",
         "transcription": "lɔː"
     },
-    {
+{
         "word": "lawyer",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -2565,7 +2575,7 @@
         "countability": "countable",
         "transcription": "ˈlɔɪər"
     },
-    {
+{
         "word": "leader",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -2587,7 +2597,7 @@
         "countability": "countable",
         "transcription": "ˈliːdər"
     },
-    {
+{
         "word": "literature",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -2608,7 +2618,7 @@
         "countability": "uncountable",
         "transcription": "ˈlɪtrətʃər"
     },
-    {
+{
         "word": "liver",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2630,7 +2640,7 @@
         "countability": "countable",
         "transcription": "ˈlɪvər"
     },
-    {
+{
         "word": "loan",
         "level": "elementary",
         "theme": "banking_A2",
@@ -2649,7 +2659,7 @@
         "countability": "countable",
         "transcription": "loʊn"
     },
-    {
+{
         "word": "local cuisine",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -2679,7 +2689,7 @@
         "countability": "countable",
         "transcription": "ˈloʊkl kwɪˈziːn"
     },
-    {
+{
         "word": "luggage",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -2700,7 +2710,7 @@
         "countability": "uncountable",
         "transcription": "ˈlʌɡɪdʒ"
     },
-    {
+{
         "word": "lung",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2722,7 +2732,7 @@
         "countability": "countable",
         "transcription": "lʌŋ"
     },
-    {
+{
         "word": "management",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2745,7 +2755,7 @@
         "countability": "uncountable",
         "transcription": "ˈmænɪdʒmənt"
     },
-    {
+{
         "word": "mathematics",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -2766,7 +2776,7 @@
         "countability": "uncountable",
         "transcription": "ˌmæθəˈmætɪks"
     },
-    {
+{
         "word": "mayor",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -2788,7 +2798,7 @@
         "countability": "countable",
         "transcription": "ˈmeɪər"
     },
-    {
+{
         "word": "mechanic",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2807,7 +2817,7 @@
         "subtext": "related to job titles professions",
         "transcription": "məˈkænɪk"
     },
-    {
+{
         "word": "media",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -2828,7 +2838,7 @@
         "countability": "uncountable",
         "transcription": "ˈmiːdiə"
     },
-    {
+{
         "word": "microscope",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -2850,7 +2860,7 @@
         "countability": "countable",
         "transcription": "ˈmaɪkrəskoʊp"
     },
-    {
+{
         "word": "microwave",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -2869,7 +2879,7 @@
         "subtext": "related to household items",
         "transcription": "ˈmaɪkrəweɪv"
     },
-    {
+{
         "word": "minus",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -2891,7 +2901,7 @@
         ],
         "transcription": "ˈmaɪnəs"
     },
-    {
+{
         "word": "monitor",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2913,7 +2923,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər"
     },
-    {
+{
         "word": "mortgage",
         "level": "elementary",
         "theme": "banking_A2",
@@ -2935,7 +2945,7 @@
         "countability": "countable",
         "transcription": "ˈmɔːrɡɪdʒ"
     },
-    {
+{
         "word": "multiplication",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -2956,7 +2966,7 @@
         "countability": "uncountable",
         "transcription": "ˌmʌltɪplɪˈkeɪʃn"
     },
-    {
+{
         "word": "muscle",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -2978,7 +2988,7 @@
         "countability": "countable",
         "transcription": "ˈmʌsl"
     },
-    {
+{
         "word": "nature reserve",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3000,7 +3010,7 @@
         "countability": "countable",
         "transcription": "ˈneɪtʃər rɪˈzɜːrv"
     },
-    {
+{
         "word": "neighbourhood",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -3022,7 +3032,7 @@
         "countability": "countable",
         "transcription": "ˈneɪbərhʊd"
     },
-    {
+{
         "word": "network",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -3045,7 +3055,7 @@
         "countability": "countable",
         "transcription": "ˈnɛtwɜːrk"
     },
-    {
+{
         "word": "organism",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3066,7 +3076,7 @@
         "countability": "countable",
         "transcription": "ˈɔːrɡənɪzəm"
     },
-    {
+{
         "word": "overtime",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3088,7 +3098,7 @@
         "countability": "uncountable",
         "transcription": "ˈoʊvərtaɪm"
     },
-    {
+{
         "word": "parking lot",
         "level": "elementary",
         "theme": "transport_travel_A2",
@@ -3111,7 +3121,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈpɑːrkɪŋ lɒt | 🇺🇸 ˈpɑːrkɪŋ lɑːt"
     },
-    {
+{
         "word": "password",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -3133,7 +3143,7 @@
         "countability": "countable",
         "transcription": "ˈpæswɜːrd"
     },
-    {
+{
         "word": "pension",
         "level": "elementary",
         "theme": "finances_A2",
@@ -3156,7 +3166,7 @@
         "countability": "countable",
         "transcription": "ˈpɛnʃn"
     },
-    {
+{
         "word": "percent",
         "level": "elementary",
         "theme": "percentages_A2",
@@ -3179,7 +3189,7 @@
         "countability": "uncountable",
         "transcription": "pərˈsɛnt"
     },
-    {
+{
         "word": "perspective",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3200,7 +3210,7 @@
         "countability": "countable",
         "transcription": "pərˈspɛktɪv"
     },
-    {
+{
         "word": "pharmacy",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -3222,7 +3232,7 @@
         "subtext": "related to local places services",
         "transcription": "ˈfɑːrməsi"
     },
-    {
+{
         "word": "philosophy",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3243,7 +3253,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 fəˈlɒsəfi | 🇺🇸 fəˈlɑːsəfi"
     },
-    {
+{
         "word": "physics",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3264,7 +3274,7 @@
         "countability": "uncountable",
         "transcription": "ˈfɪzɪks"
     },
-    {
+{
         "word": "plus",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -3286,7 +3296,7 @@
         ],
         "transcription": "plʌs"
     },
-    {
+{
         "word": "podcast",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -3309,7 +3319,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈpɒdkæst | 🇺🇸 ˈpɑːdkæst"
     },
-    {
+{
         "word": "policy",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -3331,7 +3341,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈpɒləsi | 🇺🇸 ˈpɑːləsi"
     },
-    {
+{
         "word": "pollution",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3349,7 +3359,7 @@
         "countability": "uncountable",
         "transcription": "pəˈluːʃn"
     },
-    {
+{
         "word": "population",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -3372,7 +3382,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˌpɒpjuˈneɪʃn | 🇺🇸 ˌpɑːpjuˈneɪʃn"
     },
-    {
+{
         "word": "privacy",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -3395,7 +3405,7 @@
         "countability": "uncountable",
         "transcription": "ˈpraɪvəsi"
     },
-    {
+{
         "word": "promotion",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -3418,7 +3428,7 @@
         "opposite": "demotion",
         "transcription": "prəˈmoʊʃn"
     },
-    {
+{
         "word": "proof",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -3439,7 +3449,7 @@
         "countability": "uncountable",
         "transcription": "pruːf"
     },
-    {
+{
         "word": "psychology",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3460,7 +3470,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 saɪˈkɒlədʒi | 🇺🇸 saɪˈkɑːlədʒi"
     },
-    {
+{
         "word": "quarter",
         "level": "elementary",
         "theme": "fractions_A2",
@@ -3482,7 +3492,7 @@
         "countability": "countable",
         "transcription": "ˈkwɔːrtər"
     },
-    {
+{
         "word": "reality",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -3504,7 +3514,7 @@
         "countability": "uncountable",
         "transcription": "riˈæləti"
     },
-    {
+{
         "word": "receipt",
         "level": "elementary",
         "theme": "finances_A2",
@@ -3523,7 +3533,7 @@
         "countability": "countable",
         "transcription": "rɪˈsiːt"
     },
-    {
+{
         "word": "reception",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -3545,7 +3555,7 @@
         "countability": "uncountable",
         "transcription": "rɪˈsɛpʃn"
     },
-    {
+{
         "word": "recipe",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -3567,7 +3577,7 @@
         "countability": "countable",
         "transcription": "ˈrɛsəpi"
     },
-    {
+{
         "word": "recycling",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3590,7 +3600,7 @@
         "countability": "uncountable",
         "transcription": "ˌriːˈsaɪklɪŋ"
     },
-    {
+{
         "word": "recycling bin",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3611,7 +3621,7 @@
         "countability": "countable",
         "transcription": "ˌriːˈsaɪklɪŋ bɪn"
     },
-    {
+{
         "word": "region",
         "level": "elementary",
         "theme": "places_geography_A2",
@@ -3634,7 +3644,7 @@
         "countability": "countable",
         "transcription": "ˈriːdʒən"
     },
-    {
+{
         "word": "relationship",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -3653,7 +3663,7 @@
         "subtext": "related to family life",
         "transcription": "rɪˈleɪʃnʃɪp"
     },
-    {
+{
         "word": "renewable energy",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3674,7 +3684,7 @@
         "countability": "uncountable",
         "transcription": "rɪˈnjuːəbl ˈɛnərdʒi"
     },
-    {
+{
         "word": "research",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3695,7 +3705,7 @@
         "countability": "uncountable",
         "transcription": "rɪˈsɜːrtʃ"
     },
-    {
+{
         "word": "resource",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -3717,7 +3727,7 @@
         "countability": "countable",
         "transcription": "ˈriːsɔːrs"
     },
-    {
+{
         "word": "roundabout",
         "level": "elementary",
         "theme": "transport_travel_A2",
@@ -3740,7 +3750,7 @@
         "countability": "countable",
         "transcription": "ˈraʊndəbaʊt"
     },
-    {
+{
         "word": "safety",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -3762,7 +3772,7 @@
         "opposite": "danger",
         "transcription": "ˈseɪfti"
     },
-    {
+{
         "word": "salary",
         "level": "elementary",
         "theme": "finances_A2",
@@ -3786,7 +3796,7 @@
         "countability": "countable",
         "transcription": "ˈsæləri"
     },
-    {
+{
         "word": "satellite",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3808,7 +3818,7 @@
         "countability": "countable",
         "transcription": "ˈsætəlaɪt"
     },
-    {
+{
         "word": "savings",
         "level": "elementary",
         "theme": "finances_A2",
@@ -3829,7 +3839,7 @@
         "countability": "uncountable",
         "transcription": "ˈseɪvɪŋz"
     },
-    {
+{
         "word": "scientist",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -3850,7 +3860,7 @@
         "countability": "countable",
         "transcription": "ˈsaɪəntɪst"
     },
-    {
+{
         "word": "security",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -3872,7 +3882,7 @@
         "countability": "uncountable",
         "transcription": "sɪˈkjʊərəti"
     },
-    {
+{
         "word": "sightseeing",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -3894,7 +3904,7 @@
         "countability": "uncountable",
         "transcription": "ˈsaɪtˌsiːɪŋ"
     },
-    {
+{
         "word": "skeleton",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -3916,7 +3926,7 @@
         "countability": "countable",
         "transcription": "ˈskɛlɪtn"
     },
-    {
+{
         "word": "skin",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -3937,7 +3947,7 @@
         "countability": "uncountable",
         "transcription": "skɪn"
     },
-    {
+{
         "word": "society",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -3959,7 +3969,7 @@
         "countability": "uncountable",
         "transcription": "səˈsaɪəti"
     },
-    {
+{
         "word": "software",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -3982,7 +3992,7 @@
         "opposite": "hardware",
         "transcription": "🇬🇧 ˈsɒftwɛər | 🇺🇸 ˈsɑːftwɛər"
     },
-    {
+{
         "word": "solar energy",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4003,7 +4013,7 @@
         "countability": "uncountable",
         "transcription": "ˈsoʊlər ˈɛnərdʒi"
     },
-    {
+{
         "word": "solar panel",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4024,7 +4034,7 @@
         "countability": "countable",
         "transcription": "ˈsoʊlər ˈpænl"
     },
-    {
+{
         "word": "solar power",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4046,7 +4056,7 @@
         "countability": "uncountable",
         "transcription": "ˈsoʊlər ˈpaʊər"
     },
-    {
+{
         "word": "solution",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4067,7 +4077,7 @@
         "countability": "countable",
         "transcription": "səˈluːʃn"
     },
-    {
+{
         "word": "souvenir",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -4096,7 +4106,7 @@
         "countability": "countable",
         "transcription": "ˌsuːvəˈnɪər"
     },
-    {
+{
         "word": "spine",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -4118,7 +4128,7 @@
         "countability": "countable",
         "transcription": "spaɪn"
     },
-    {
+{
         "word": "stadium",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -4137,7 +4147,7 @@
         "subtext": "related to places culture leisure",
         "transcription": "ˈsteɪdiəm"
     },
-    {
+{
         "word": "streaming",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -4159,7 +4169,7 @@
         "countability": "uncountable",
         "transcription": "ˈstriːmɪŋ"
     },
-    {
+{
         "word": "substance",
         "level": "elementary",
         "theme": "basic_science_A2",
@@ -4180,7 +4190,7 @@
         "countability": "countable",
         "transcription": "ˈsʌbstəns"
     },
-    {
+{
         "word": "subtraction",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -4201,7 +4211,7 @@
         "countability": "uncountable",
         "transcription": "səbˈtrækʃn"
     },
-    {
+{
         "word": "support",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -4222,7 +4232,7 @@
         "countability": "uncountable",
         "transcription": "səˈpɔːrt"
     },
-    {
+{
         "word": "sustainability",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4244,7 +4254,7 @@
         "countability": "uncountable",
         "transcription": "səˌsteɪnəˈbɪləti"
     },
-    {
+{
         "word": "taco",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -4273,7 +4283,7 @@
         "countability": "countable",
         "transcription": "ˈtɑːkoʊ"
     },
-    {
+{
         "word": "target",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -4295,7 +4305,7 @@
         "countability": "countable",
         "transcription": "ˈtɑːrɡɪt"
     },
-    {
+{
         "word": "tax",
         "level": "elementary",
         "theme": "finances_A2",
@@ -4318,7 +4328,7 @@
         "countability": "countable",
         "transcription": "tæks"
     },
-    {
+{
         "word": "technology",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -4341,7 +4351,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi"
     },
-    {
+{
         "word": "tenant",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -4364,7 +4374,7 @@
         "opposite": "landlord",
         "transcription": "ˈtɛnənt"
     },
-    {
+{
         "word": "terminal",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -4386,7 +4396,7 @@
         "countability": "countable",
         "transcription": "ˈtɜːrmɪnl"
     },
-    {
+{
         "word": "threat",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -4408,7 +4418,7 @@
         "countability": "countable",
         "transcription": "θrɛt"
     },
-    {
+{
         "word": "tiger",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -4427,7 +4437,7 @@
         "subtext": "related to animals",
         "transcription": "ˈtaɪɡər"
     },
-    {
+{
         "word": "total",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -4450,7 +4460,7 @@
         "countability": "countable",
         "transcription": "ˈtoʊtl"
     },
-    {
+{
         "word": "tourist",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -4473,7 +4483,7 @@
         "countability": "countable",
         "transcription": "ˈtʊərɪst"
     },
-    {
+{
         "word": "traffic jam",
         "level": "elementary",
         "theme": "transport_travel_A2",
@@ -4496,7 +4506,7 @@
         "countability": "countable",
         "transcription": "ˈtræfɪk dʒæm"
     },
-    {
+{
         "word": "trial",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -4518,7 +4528,7 @@
         "countability": "countable",
         "transcription": "ˈtraɪəl"
     },
-    {
+{
         "word": "trolley",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
@@ -4540,7 +4550,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈtrɒli | 🇺🇸 ˈtrɑːli"
     },
-    {
+{
         "word": "trust",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -4561,7 +4571,7 @@
         "countability": "uncountable",
         "transcription": "trʌst"
     },
-    {
+{
         "word": "truth",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4584,7 +4594,7 @@
         "opposite": "lie",
         "transcription": "truːθ"
     },
-    {
+{
         "word": "upload",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -4607,7 +4617,7 @@
         "opposite": "download",
         "transcription": "ˌʌpˈloʊd"
     },
-    {
+{
         "word": "vacuum cleaner",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -4626,7 +4636,7 @@
         "subtext": "related to household items",
         "transcription": "ˈvækjuːm ˈkliːnər"
     },
-    {
+{
         "word": "valley",
         "level": "elementary",
         "theme": "landscape_geography_A2",
@@ -4649,7 +4659,7 @@
         "countability": "countable",
         "transcription": "ˈvæli"
     },
-    {
+{
         "word": "value",
         "level": "elementary",
         "theme": "finances_A2",
@@ -4671,7 +4681,7 @@
         "countability": "uncountable",
         "transcription": "ˈvæljuː"
     },
-    {
+{
         "word": "virus",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -4693,7 +4703,7 @@
         "countability": "countable",
         "transcription": "ˈvaɪrəs"
     },
-    {
+{
         "word": "vitamin",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -4715,7 +4725,7 @@
         "countability": "countable",
         "transcription": "ˈvaɪtəmɪn"
     },
-    {
+{
         "word": "vote",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -4737,7 +4747,7 @@
         "countability": "countable",
         "transcription": "voʊt"
     },
-    {
+{
         "word": "wallet",
         "level": "elementary",
         "theme": "finances_A2",
@@ -4756,7 +4766,7 @@
         "subtext": "related to everyday shopping",
         "transcription": "🇬🇧 ˈwɒlɪt | 🇺🇸 ˈwɑːlɪt"
     },
-    {
+{
         "word": "waste",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4777,7 +4787,7 @@
         "countability": "uncountable",
         "transcription": "weɪst"
     },
-    {
+{
         "word": "wedding",
         "level": "elementary",
         "theme": "marriage_partnership_A2",
@@ -4799,7 +4809,7 @@
         "countability": "countable",
         "transcription": "ˈwɛdɪŋ"
     },
-    {
+{
         "word": "wildlife",
         "level": "elementary",
         "theme": "animals_nature_A2",
@@ -4821,7 +4831,7 @@
         "countability": "uncountable",
         "transcription": "ˈwaɪldlaɪf"
     },
-    {
+{
         "word": "wind farm",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4843,7 +4853,7 @@
         "countability": "countable",
         "transcription": "wɪnd fɑːrm"
     },
-    {
+{
         "word": "wind turbine",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -4864,7 +4874,7 @@
         "countability": "countable",
         "transcription": "wɪnd ˈtɜːrbaɪn"
     },
-    {
+{
         "word": "witness",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -4886,7 +4896,7 @@
         "countability": "countable",
         "transcription": "ˈwɪtnəs"
     },
-    {
+{
         "word": "workout",
         "level": "elementary",
         "theme": "exercise_fitness_A2",
@@ -4909,7 +4919,7 @@
         "countability": "countable",
         "transcription": "ˈwɜːrkaʊt"
     },
-    {
+{
         "word": "yoga",
         "level": "elementary",
         "theme": "exercise_fitness_A2",
@@ -4931,7 +4941,7 @@
         "countability": "uncountable",
         "transcription": "ˈjoʊɡə"
     },
-    {
+{
         "word": "accident",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -4955,7 +4965,7 @@
         "countability": "countable",
         "transcription": "ˈæksɪdənt"
     },
-    {
+{
         "word": "adventure",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -4979,7 +4989,7 @@
         "countability": "countable",
         "transcription": "ədˈvɛntʃər"
     },
-    {
+{
         "word": "ambulance",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -5001,7 +5011,7 @@
         "countability": "countable",
         "transcription": "ˈæmbjələns"
     },
-    {
+{
         "word": "anniversary",
         "level": "elementary",
         "theme": "customs_traditions_A2",
@@ -5023,7 +5033,7 @@
         "countability": "countable",
         "transcription": "ˌænɪˈvɜːrsəri"
     },
-    {
+{
         "word": "audience",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -5046,7 +5056,7 @@
         "countability": "countable",
         "transcription": "ˈɔːdiəns"
     },
-    {
+{
         "word": "behavior",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -5070,7 +5080,7 @@
         "countability": "uncountable",
         "transcription": "bɪˈheɪvjər"
     },
-    {
+{
         "word": "belief",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -5092,7 +5102,7 @@
         "countability": "countable",
         "transcription": "bɪˈliːf"
     },
-    {
+{
         "word": "celebrity",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -5114,7 +5124,7 @@
         "countability": "countable",
         "transcription": "səˈlɛbrəti"
     },
-    {
+{
         "word": "ceremony",
         "level": "elementary",
         "theme": "customs_traditions_A2",
@@ -5136,7 +5146,7 @@
         "countability": "countable",
         "transcription": "ˈsɛrəməni"
     },
-    {
+{
         "word": "challenge",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -5160,7 +5170,7 @@
         "countability": "countable",
         "transcription": "ˈtʃælɪndʒ"
     },
-    {
+{
         "word": "charity",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -5184,7 +5194,7 @@
         "countability": "uncountable",
         "transcription": "ˈtʃærəti"
     },
-    {
+{
         "word": "clue",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -5207,7 +5217,7 @@
         "countability": "countable",
         "transcription": "kluː"
     },
-    {
+{
         "word": "collection",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -5229,7 +5239,7 @@
         "countability": "countable",
         "transcription": "kəˈlɛkʃn"
     },
-    {
+{
         "word": "comfort",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -5252,7 +5262,7 @@
         "countability": "uncountable",
         "transcription": "ˈkʌmfərt"
     },
-    {
+{
         "word": "complaint",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -5274,7 +5284,7 @@
         "countability": "countable",
         "transcription": "kəmˈpleɪnt"
     },
-    {
+{
         "word": "confidence",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -5296,7 +5306,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 ˈkɒnfɪdəns | 🇺🇸 ˈkɑːnfɪdəns"
     },
-    {
+{
         "word": "conflict",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -5319,7 +5329,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt"
     },
-    {
+{
         "word": "connection",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -5342,7 +5352,7 @@
         "countability": "countable",
         "transcription": "kəˈnɛkʃn"
     },
-    {
+{
         "word": "consequence",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -5365,7 +5375,7 @@
         "countability": "countable",
         "transcription": "🇬🇧 ˈkɒnsɪkwəns | 🇺🇸 ˈkɑːnsɪkwəns"
     },
-    {
+{
         "word": "context",
         "level": "elementary",
         "theme": "language_communication_A2",
@@ -5388,7 +5398,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 ˈkɒntɛkst | 🇺🇸 ˈkɑːntɛkst"
     },
-    {
+{
         "word": "cooperation",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -5410,7 +5420,7 @@
         "countability": "uncountable",
         "transcription": "🇬🇧 koʊˌɒpəˈreɪʃn | 🇺🇸 koʊˌɑːpəˈreɪʃn"
     },
-    {
+{
         "word": "courage",
         "level": "elementary",
         "theme": "personality_character_A2",
@@ -5432,7 +5442,7 @@
         "countability": "uncountable",
         "transcription": "ˈkʌrɪdʒ"
     },
-    {
+{
         "word": "creativity",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -5456,7 +5466,7 @@
         "countability": "uncountable",
         "transcription": "ˌkriːeɪˈtɪvəti"
     },
-    {
+{
         "word": "credit",
         "level": "elementary",
         "theme": "finances_A2",
@@ -5478,7 +5488,7 @@
         "countability": "uncountable",
         "transcription": "ˈkrɛdɪt"
     },
-    {
+{
         "word": "crime",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -5500,7 +5510,7 @@
         "countability": "countable",
         "transcription": "kraɪm"
     },
-    {
+{
         "word": "culture",
         "level": "elementary",
         "theme": "society_politics_A2",
@@ -5524,7 +5534,7 @@
         "countability": "uncountable",
         "transcription": "ˈkʌltʃər"
     },
-    {
+{
         "word": "drought",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -5548,7 +5558,7 @@
         ],
         "transcription": "draʊt"
     },
-    {
+{
         "word": "forecast",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -5572,7 +5582,7 @@
         ],
         "transcription": "ˈfɔːrkæst"
     },
-    {
+{
         "word": "humidity",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -5592,7 +5602,7 @@
         "subtext": "moisture in the air",
         "transcription": "hjuːˈmɪdəti"
     },
-    {
+{
         "word": "stage",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -5616,7 +5626,7 @@
         ],
         "transcription": "steɪdʒ"
     },
-    {
+{
         "word": "script",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -5640,7 +5650,7 @@
         ],
         "transcription": "skrɪpt"
     },
-    {
+{
         "word": "rehearsal",
         "level": "elementary",
         "theme": "theatre_performance_A2",
@@ -5664,7 +5674,7 @@
         ],
         "transcription": "rɪˈhɜːrsl"
     },
-    {
+{
         "word": "reservation",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -5688,7 +5698,7 @@
         ],
         "transcription": "ˌrɛzərˈveɪʃn"
     },
-    {
+{
         "word": "main course",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -5712,7 +5722,7 @@
         ],
         "transcription": "meɪn kɔːrs"
     },
-    {
+{
         "word": "buffet",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -5735,7 +5745,7 @@
         ],
         "transcription": "ˈbʊfeɪ"
     },
-    {
+{
         "word": "tip",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -5759,7 +5769,7 @@
         ],
         "transcription": "tɪp"
     },
-    {
+{
         "word": "fitting room",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -5783,7 +5793,7 @@
         ],
         "transcription": "ˈfɪtɪŋ ruːm"
     },
-    {
+{
         "word": "discount",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -5807,7 +5817,7 @@
         ],
         "transcription": "ˈdɪskaʊnt"
     },
-    {
+{
         "word": "refund",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -5831,7 +5841,7 @@
         ],
         "transcription": "ˈriːfʌnd"
     },
-    {
+{
         "word": "departure",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -5856,7 +5866,7 @@
         "opposite": "arrival",
         "transcription": "dɪˈpɑːrtʃər"
     },
-    {
+{
         "word": "arrival",
         "level": "elementary",
         "theme": "at_the_airport_A2",
@@ -5881,7 +5891,7 @@
         "opposite": "departure",
         "transcription": "əˈraɪvl"
     },
-    {
+{
         "word": "junction",
         "level": "elementary",
         "theme": "driving_roads_A2",
@@ -5905,7 +5915,7 @@
         ],
         "transcription": "ˈdʒʌŋkʃn"
     },
-    {
+{
         "word": "traffic lights",
         "level": "elementary",
         "theme": "driving_roads_A2",
@@ -5929,7 +5939,7 @@
         ],
         "transcription": "ˈtræfɪk laɪts"
     },
-    {
+{
         "word": "removal company",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -5953,7 +5963,7 @@
         ],
         "transcription": "rɪˈmuːvl ˈkʌmpəni"
     },
-    {
+{
         "word": "roughly",
         "level": "elementary",
         "theme": "approximation_A2",
@@ -5975,7 +5985,7 @@
         ],
         "transcription": "ˈrʌfli"
     },
-    {
+{
         "word": "extremely",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -5998,7 +6008,7 @@
         "opposite": "slightly",
         "transcription": "ɪkˈstriːmli"
     },
-    {
+{
         "word": "fairly",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -6021,7 +6031,7 @@
         "opposite": "extremely",
         "transcription": "ˈfɛərli"
     },
-    {
+{
         "word": "certificate",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
@@ -6045,7 +6055,7 @@
         ],
         "transcription": "sərˈtɪfɪkət"
     },
-    {
+{
         "word": "grade",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
@@ -6069,7 +6079,7 @@
         ],
         "transcription": "ɡreɪd"
     },
-    {
+{
         "word": "citizen",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -6093,7 +6103,7 @@
         ],
         "transcription": "ˈsɪtɪzn"
     },
-    {
+{
         "word": "facility",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -6117,7 +6127,7 @@
         ],
         "transcription": "fəˈsɪləti"
     },
-    {
+{
         "word": "volunteer",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
@@ -6140,7 +6150,7 @@
         ],
         "transcription": "🇬🇧 ˌvɒlənˈtɪər | 🇺🇸 ˌvɑːlənˈtɪər"
     },
-    {
+{
         "word": "exhibition",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -6164,7 +6174,7 @@
         ],
         "transcription": "ˌɛksɪˈbɪʃn"
     },
-    {
+{
         "word": "gallery",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -6187,7 +6197,7 @@
         ],
         "transcription": "ˈɡæləri"
     },
-    {
+{
         "word": "portrait",
         "level": "elementary",
         "theme": "art_design_A2",
@@ -6207,7 +6217,7 @@
         "subtext": "picture of a person",
         "transcription": "ˈpɔːrtrət"
     },
-    {
+{
         "word": "couple",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -6230,7 +6240,7 @@
         ],
         "transcription": "ˈkʌpl"
     },
-    {
+{
         "word": "comedy",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -6254,7 +6264,7 @@
         ],
         "transcription": "🇬🇧 ˈkɒmədi | 🇺🇸 ˈkɑːmədi"
     },
-    {
+{
         "word": "documentary",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -6278,7 +6288,7 @@
         ],
         "transcription": "🇬🇧 ˌdɒkjuˈmɛntri | 🇺🇸 ˌdɑːkjuˈmɛntri"
     },
-    {
+{
         "word": "drama",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -6302,7 +6312,7 @@
         ],
         "transcription": "ˈdrɑːmə"
     },
-    {
+{
         "word": "entertainment",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -6326,7 +6336,7 @@
         ],
         "transcription": "ˌɛntərˈteɪnmənt"
     },
-    {
+{
         "word": "lately",
         "level": "elementary",
         "theme": "past_time_A2",
@@ -6348,7 +6358,7 @@
         ],
         "transcription": "ˈleɪtli"
     },
-    {
+{
         "word": "shortly",
         "level": "elementary",
         "theme": "future_time_A2",
@@ -6370,7 +6380,7 @@
         ],
         "transcription": "ˈʃɔːrtli"
     },
-    {
+{
         "word": "eventually",
         "level": "elementary",
         "theme": "future_time_A2",
@@ -6392,7 +6402,7 @@
         ],
         "transcription": "ɪˈvɛntʃuəli"
     },
-    {
+{
         "word": "firstly",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -6414,7 +6424,7 @@
         ],
         "transcription": "ˈfɜːrstli"
     },
-    {
+{
         "word": "secondly",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -6436,7 +6446,7 @@
         ],
         "transcription": "ˈsɛkəndli"
     },
-    {
+{
         "word": "finally",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -6458,7 +6468,7 @@
         ],
         "transcription": "ˈfaɪnəli"
     },
-    {
+{
         "word": "hostel",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -6481,7 +6491,7 @@
         ],
         "transcription": "🇬🇧 ˈhɒstl | 🇺🇸 ˈhɑːstl"
     },
-    {
+{
         "word": "campsite",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -6505,7 +6515,7 @@
         ],
         "transcription": "ˈkæmpsaɪt"
     },
-    {
+{
         "word": "balanced diet",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -6528,7 +6538,7 @@
         ],
         "transcription": "ˈbælənst ˈdaɪət"
     },
-    {
+{
         "word": "calorie",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -6552,7 +6562,7 @@
         ],
         "transcription": "ˈkæləri"
     },
-    {
+{
         "word": "cover letter",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -6576,7 +6586,7 @@
         ],
         "transcription": "ˈkʌvər ˈlɛtər"
     },
-    {
+{
         "word": "estate agent",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -6600,7 +6610,7 @@
         ],
         "transcription": "ɪˈsteɪt ˈeɪdʒənt"
     },
-    {
+{
         "word": "window shopping",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
@@ -6623,7 +6633,7 @@
         ],
         "transcription": "🇬🇧 ˈwɪndoʊ ˈʃɒpɪŋ | 🇺🇸 ˈwɪndoʊ ˈʃɑːpɪŋ"
     },
-    {
+{
         "word": "painkiller",
         "level": "elementary",
         "theme": "health_body_A2",
@@ -6647,7 +6657,7 @@
         ],
         "transcription": "ˈpeɪnkɪlər"
     },
-    {
+{
         "word": "bandage",
         "level": "elementary",
         "theme": "health_body_A2",
@@ -6671,7 +6681,7 @@
         ],
         "transcription": "ˈbændɪdʒ"
     },
-    {
+{
         "word": "prescription",
         "level": "elementary",
         "theme": "health_body_A2",
@@ -6695,7 +6705,7 @@
         ],
         "transcription": "prɪˈskrɪpʃn"
     },
-    {
+{
         "word": "symptom",
         "level": "elementary",
         "theme": "health_body_A2",
@@ -6718,7 +6728,7 @@
         ],
         "transcription": "ˈsɪmptəm"
     },
-    {
+{
         "word": "landmark",
         "level": "elementary",
         "theme": "directions_location_A2",
@@ -6742,7 +6752,7 @@
         ],
         "transcription": "ˈlændmɑːrk"
     },
-    {
+{
         "word": "crossroads",
         "level": "elementary",
         "theme": "directions_location_A2",
@@ -6766,7 +6776,7 @@
         ],
         "transcription": "🇬🇧 ˈkrɒsroʊdz | 🇺🇸 ˈkrɑːsroʊdz"
     },
-    {
+{
         "word": "single room",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -6789,7 +6799,7 @@
         ],
         "transcription": "ˈsɪŋɡl ruːm"
     },
-    {
+{
         "word": "double room",
         "level": "elementary",
         "theme": "accommodation_A2",
@@ -6812,7 +6822,7 @@
         ],
         "transcription": "ˈdʌbl ruːm"
     },
-    {
+{
         "word": "point of view",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -6836,7 +6846,7 @@
         ],
         "transcription": "pɔɪnt əv vjuː"
     },
-    {
+{
         "word": "itinerary",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -6860,7 +6870,7 @@
         ],
         "transcription": "aɪˈtɪnərəri"
     },
-    {
+{
         "word": "travel agent",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -6884,7 +6894,7 @@
         ],
         "transcription": "ˈtrævl ˈeɪdʒənt"
     },
-    {
+{
         "word": "overdraft",
         "level": "elementary",
         "theme": "banking_A2",
@@ -6908,7 +6918,7 @@
         ],
         "transcription": "ˈoʊvərdræft"
     },
-    {
+{
         "word": "statement",
         "level": "elementary",
         "theme": "banking_A2",
@@ -6932,7 +6942,7 @@
         ],
         "transcription": "ˈsteɪtmənt"
     },
-    {
+{
         "word": "partially",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -6955,7 +6965,7 @@
         "opposite": "completely",
         "transcription": "ˈpɑːrʃəli"
     },
-    {
+{
         "word": "strongly",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -6977,9 +6987,7 @@
         ],
         "opposite": "weakly",
         "transcription": "🇬🇧 ˈstrɒŋli | 🇺🇸 ˈstrɑːŋli"
-    }
+    },
+{}
 ];
-    const lang = "en";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

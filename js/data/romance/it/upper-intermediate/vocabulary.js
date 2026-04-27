@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "giardino",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "avvocato",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -17,7 +27,7 @@
             }
         ]
     },
-    {
+{
         "word": "farmacia",
         "level": "upper-intermediate",
         "theme": "places_shops_A1",
@@ -34,7 +44,7 @@
             }
         ]
     },
-    {
+{
         "word": "psicologo",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -51,7 +61,7 @@
             }
         ]
     },
-    {
+{
         "word": "responsabilità",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -69,7 +79,7 @@
             }
         ]
     },
-    {
+{
         "word": "incentivo",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -87,7 +97,7 @@
             }
         ]
     },
-    {
+{
         "word": "autonomia",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -106,7 +116,7 @@
             }
         ]
     },
-    {
+{
         "word": "precarietà",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -126,7 +136,7 @@
             }
         ]
     },
-    {
+{
         "word": "divario retributivo",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -145,7 +155,7 @@
             }
         ]
     },
-    {
+{
         "word": "pacchetto di licenziamento",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -164,7 +174,7 @@
             }
         ]
     },
-    {
+{
         "word": "imprenditorialità",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -183,7 +193,7 @@
             }
         ]
     },
-    {
+{
         "word": "produttività",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -202,7 +212,7 @@
             }
         ]
     },
-    {
+{
         "word": "esternalizzazione",
         "level": "upper-intermediate",
         "theme": "globalisation_trade_B2",
@@ -221,7 +231,7 @@
             }
         ]
     },
-    {
+{
         "word": "automazione",
         "level": "upper-intermediate",
         "theme": "applied_sciences_engineering_B2",
@@ -239,7 +249,7 @@
             }
         ]
     },
-    {
+{
         "word": "gentrificazione",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -258,7 +268,7 @@
             }
         ]
     },
-    {
+{
         "word": "alloggi a prezzi accessibili",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -277,7 +287,7 @@
             }
         ]
     },
-    {
+{
         "word": "espansione urbana",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -295,7 +305,7 @@
             }
         ]
     },
-    {
+{
         "word": "infrastruttura",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -314,7 +324,7 @@
             }
         ]
     },
-    {
+{
         "word": "stato sociale",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -332,7 +342,7 @@
             }
         ]
     },
-    {
+{
         "word": "polarizzazione",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -350,7 +360,7 @@
             }
         ]
     },
-    {
+{
         "word": "discorso",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -369,7 +379,7 @@
             }
         ]
     },
-    {
+{
         "word": "esame minuzioso",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -388,7 +398,7 @@
             }
         ]
     },
-    {
+{
         "word": "consenso",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -407,7 +417,7 @@
             }
         ]
     },
-    {
+{
         "word": "legislazione",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -426,7 +436,7 @@
             }
         ]
     },
-    {
+{
         "word": "pregiudizio",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -446,7 +456,7 @@
             }
         ]
     },
-    {
+{
         "word": "obesità",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -465,7 +475,7 @@
             }
         ]
     },
-    {
+{
         "word": "aspettativa di vita",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -483,7 +493,7 @@
             }
         ]
     },
-    {
+{
         "word": "giustizia",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -502,7 +512,7 @@
             }
         ]
     },
-    {
+{
         "word": "riabilitazione",
         "level": "upper-intermediate",
         "theme": "crime_punishment_B2",
@@ -521,7 +531,7 @@
             }
         ]
     },
-    {
+{
         "word": "trasparenza",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -540,7 +550,7 @@
             }
         ]
     },
-    {
+{
         "word": "algoritmo",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -558,7 +568,7 @@
             }
         ]
     },
-    {
+{
         "word": "privacy dei dati",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -577,7 +587,7 @@
             }
         ]
     },
-    {
+{
         "word": "disinformazione",
         "level": "upper-intermediate",
         "theme": "media_misinformation_B2",
@@ -595,7 +605,7 @@
             }
         ]
     },
-    {
+{
         "word": "sorveglianza",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -613,7 +623,7 @@
             }
         ]
     },
-    {
+{
         "word": "mentre",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -630,7 +640,7 @@
             }
         ]
     },
-    {
+{
         "word": "ciononostante",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -647,7 +657,7 @@
             }
         ]
     },
-    {
+{
         "word": "fino a che punto",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -662,7 +672,7 @@
             }
         ]
     },
-    {
+{
         "word": "per contro",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -679,7 +689,7 @@
             }
         ]
     },
-    {
+{
         "word": "intelligenza artificiale",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -695,9 +705,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "it";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

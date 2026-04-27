@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "βουρτσίζω τα δόντια",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -20,7 +20,7 @@
         "v3": "βουρτσισμένος",
         "group": "group_a"
     },
-    {
+{
         "word": "κάνω ντους",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -40,7 +40,7 @@
         "v3": "κάνει ντους",
         "group": "group_a"
     },
-    {
+{
         "word": "φαίνομαι",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -61,7 +61,7 @@
         "v3": "φανεί",
         "group": "group_a"
     },
-    {
+{
         "word": "γίνομαι",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -81,7 +81,7 @@
         "v3": "γίνει",
         "group": "group_a"
     },
-    {
+{
         "word": "πιστεύω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -101,7 +101,7 @@
         "v3": "πιστέψει",
         "group": "group_a"
     },
-    {
+{
         "word": "συμβαίνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -122,7 +122,7 @@
         "v3": "συμβεί",
         "group": "group_a"
     },
-    {
+{
         "word": "περιλαμβάνω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -143,7 +143,7 @@
         "v3": "περιλάβει",
         "group": "group_a"
     },
-    {
+{
         "word": "συνεχίζω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -163,7 +163,7 @@
         "v3": "συνεχίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "ρυθμίζω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -184,7 +184,7 @@
         "v3": "ρυθμίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "οδηγώ",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -205,7 +205,7 @@
         "v3": "οδηγήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "ακολουθώ",
         "level": "elementary",
         "theme": "directions_navigation_A1",
@@ -225,7 +225,7 @@
         "v3": "ακολουθήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "δημιουργώ",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -245,7 +245,7 @@
         "v3": "δημιουργήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "επιτρέπω",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -266,7 +266,7 @@
         "v3": "επιτρέψει",
         "group": "group_a"
     },
-    {
+{
         "word": "μεγαλώνω",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -286,7 +286,7 @@
         "v3": "μεγαλώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "προσφέρω",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -306,7 +306,7 @@
         "v3": "προσφέρει",
         "group": "group_a"
     },
-    {
+{
         "word": "εξετάζω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -326,7 +326,7 @@
         "v3": "εξετάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "εμφανίζομαι",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -346,7 +346,7 @@
         "v3": "εμφανιστεί",
         "group": "group_a"
     },
-    {
+{
         "word": "σερβίρω",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -367,7 +367,7 @@
         "v3": "σερβίρει",
         "group": "group_a"
     },
-    {
+{
         "word": "περιμένω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -387,7 +387,7 @@
         "v3": "περιμένει",
         "group": "group_a"
     },
-    {
+{
         "word": "χτίζω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -407,7 +407,7 @@
         "v3": "χτίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "φτάνω",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -427,7 +427,7 @@
         "v3": "φτάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "σκοτώνω",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -447,7 +447,7 @@
         "v3": "σκοτώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "παραμένω",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -467,7 +467,7 @@
         "v3": "παραμείνει",
         "group": "group_a"
     },
-    {
+{
         "word": "προτείνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -487,7 +487,7 @@
         "v3": "προτείνει",
         "group": "group_a"
     },
-    {
+{
         "word": "σηκώνω",
         "level": "elementary",
         "theme": "family_life_A1",
@@ -508,7 +508,7 @@
         "v3": "σηκώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "απαιτώ",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -529,7 +529,7 @@
         "v3": "απαιτήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "αναφέρω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -549,7 +549,7 @@
         "v3": "αναφέρει",
         "group": "group_a"
     },
-    {
+{
         "word": "εξηγώ",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -569,7 +569,7 @@
         "v3": "εξηγήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "αναπτύσσω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -589,7 +589,7 @@
         "v3": "αναπτύξει",
         "group": "group_a"
     },
-    {
+{
         "word": "συνταξιοδοτούμαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -610,7 +610,7 @@
         "v3": "συνταξιοδοτηθεί",
         "group": "group_a"
     },
-    {
+{
         "word": "έχω την οικονομική δυνατότητα",
         "level": "elementary",
         "theme": "finances_A2",
@@ -631,7 +631,7 @@
         "v3": "έχει την οικονομική δυνατότητα",
         "group": "group_a"
     },
-    {
+{
         "word": "ανακυκλώνω",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -652,7 +652,7 @@
         "v3": "ανακυκλώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "χτυπώ",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -672,7 +672,7 @@
         "v3": "χτυπήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "παράγω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -692,7 +692,7 @@
         "v3": "παραγάγει",
         "group": "group_a"
     },
-    {
+{
         "word": "αντιμετωπίζω",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -712,7 +712,7 @@
         "v3": "αντιμετωπίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "καλύπτω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -732,7 +732,7 @@
         "v3": "καλύψει",
         "group": "group_a"
     },
-    {
+{
         "word": "περιγράφω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -752,7 +752,7 @@
         "v3": "περιγράψει",
         "group": "group_a"
     },
-    {
+{
         "word": "πιάνω",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -773,7 +773,7 @@
         "v3": "πιάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "κάνω αίτηση για",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -794,7 +794,7 @@
         "v3": "κάνει αίτηση για",
         "group": "group_a"
     },
-    {
+{
         "word": "προσλαμβάνω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -814,7 +814,7 @@
         "v3": "προσλάβει",
         "group": "group_a"
     },
-    {
+{
         "word": "προάγω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -835,7 +835,7 @@
         "v3": "προαγάγει",
         "group": "group_a"
     },
-    {
+{
         "word": "παραιτούμαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -856,7 +856,7 @@
         "v3": "παραιτηθεί",
         "group": "group_a"
     },
-    {
+{
         "word": "απολύω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -877,7 +877,7 @@
         "v3": "απολύσει",
         "group": "group_a"
     },
-    {
+{
         "word": "αναθέτω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -897,7 +897,7 @@
         "v3": "αναθέσει",
         "group": "group_a"
     },
-    {
+{
         "word": "διαπραγματεύομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -917,7 +917,7 @@
         "v3": "διαπραγματευτεί",
         "group": "group_a"
     },
-    {
+{
         "word": "αξιολογώ",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -937,7 +937,7 @@
         "v3": "αξιολογήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "συνεργάζομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -957,7 +957,7 @@
         "v3": "συνεργαστεί",
         "group": "group_a"
     },
-    {
+{
         "word": "προγραμματίζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -977,7 +977,7 @@
         "v3": "προγραμματίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "επενδύω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -997,7 +997,7 @@
         "v3": "επενδύσει",
         "group": "group_a"
     },
-    {
+{
         "word": "δανείζομαι",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1017,7 +1017,7 @@
         "v3": "δανειστεί",
         "group": "group_a"
     },
-    {
+{
         "word": "δανείζω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1037,7 +1037,7 @@
         "v3": "δανείσει",
         "group": "group_a"
     },
-    {
+{
         "word": "προϋπολογίζω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1058,7 +1058,7 @@
         "v3": "προϋπολογίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "κάνω ανάληψη",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1078,7 +1078,7 @@
         "v3": "κάνει ανάληψη",
         "group": "group_a"
     },
-    {
+{
         "word": "μεταφέρω",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1099,7 +1099,7 @@
         "v3": "μεταφέρει",
         "group": "group_a"
     },
-    {
+{
         "word": "χρεώνω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1119,7 +1119,7 @@
         "v3": "χρεώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "διεκδικώ",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1139,7 +1139,7 @@
         "v3": "διεκδικήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "μαλώνω",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1159,7 +1159,7 @@
         "v3": "μαλώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "εμπιστεύομαι",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1179,7 +1179,7 @@
         "v3": "εμπιστευτεί",
         "group": "group_a"
     },
-    {
+{
         "word": "υποστηρίζω",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1199,7 +1199,7 @@
         "v3": "υποστηρίξει",
         "group": "group_a"
     },
-    {
+{
         "word": "διαφωνώ",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1219,7 +1219,7 @@
         "v3": "διαφωνήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "ζητώ συγγνώμη",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1239,7 +1239,7 @@
         "v3": "ζητήσει συγγνώμη",
         "group": "group_a"
     },
-    {
+{
         "word": "συγχωρώ",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1259,7 +1259,7 @@
         "v3": "συγχωρέσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "συμβιβάζομαι",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1280,7 +1280,7 @@
         "v3": "συμβιβαστεί",
         "group": "group_a"
     },
-    {
+{
         "word": "διαγιγνώσκω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1300,7 +1300,7 @@
         "v3": "διαγνώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "θεραπεύω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1320,7 +1320,7 @@
         "v3": "θεραπεύσει",
         "group": "group_a"
     },
-    {
+{
         "word": "προλαμβάνω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1341,7 +1341,7 @@
         "v3": "προλάβει",
         "group": "group_a"
     },
-    {
+{
         "word": "υποφέρω",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -1361,7 +1361,7 @@
         "v3": "υποφέρει",
         "group": "group_a"
     },
-    {
+{
         "word": "συνιστώ",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1381,7 +1381,7 @@
         "v3": "συστήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "βελτιώνω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1401,7 +1401,7 @@
         "v3": "βελτιώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "νοικιάζω",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1421,7 +1421,7 @@
         "v3": "νοικιάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "κατέχω",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1441,7 +1441,7 @@
         "v3": "κατέχει",
         "group": "group_a"
     },
-    {
+{
         "word": "επισκευάζω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -1462,7 +1462,7 @@
         "v3": "επισκευάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "μετακομίζω",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -1482,7 +1482,7 @@
         "v3": "μετακομίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "διακοσμώ",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1503,7 +1503,7 @@
         "v3": "διακοσμήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "ιδρύω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1523,7 +1523,7 @@
         "v3": "ιδρύσει",
         "group": "group_a"
     },
-    {
+{
         "word": "ανακαλύπτω",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -1543,7 +1543,7 @@
         "v3": "ανακαλύψει",
         "group": "group_a"
     },
-    {
+{
         "word": "συνεχίζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1563,7 +1563,7 @@
         "v3": "συνεχίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "παρατάω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1584,7 +1584,7 @@
         "v3": "παρατήσει",
         "group": "group_a"
     },
-    {
+{
         "word": "διευθετώ",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1605,7 +1605,7 @@
         "v3": "διευθετήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "φροντίζω",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -1625,7 +1625,7 @@
         "v3": "φροντίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "περιορίζω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1645,7 +1645,7 @@
         "v3": "περιορίσει",
         "group": "group_a"
     },
-    {
+{
         "word": "αναλαμβάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1665,7 +1665,7 @@
         "v3": "αναλάβει",
         "group": "group_a"
     },
-    {
+{
         "word": "απορρίπτω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -1685,7 +1685,7 @@
         "v3": "απορρίψει",
         "group": "group_a"
     },
-    {
+{
         "word": "αναβάλλω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1705,7 +1705,7 @@
         "v3": "αναβάλει",
         "group": "group_a"
     },
-    {
+{
         "word": "χρωστάω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1725,7 +1725,7 @@
         "v3": "χρωστάει",
         "group": "group_a"
     },
-    {
+{
         "word": "προσκαλώ",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1745,7 +1745,7 @@
         "v3": "προσκαλέσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "επιβεβαιώνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1765,7 +1765,7 @@
         "v3": "επιβεβαιώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "επικοινωνώ",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1786,7 +1786,7 @@
         "v3": "επικοινωνήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "παραπονιέμαι",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1807,7 +1807,7 @@
         "v3": "παραπονεθεί",
         "group": "group_a"
     },
-    {
+{
         "word": "συζητώ",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1827,7 +1827,7 @@
         "v3": "συζητήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "παρουσιάζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1847,7 +1847,7 @@
         "v3": "παρουσιάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "αποδέχομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1867,7 +1867,7 @@
         "v3": "αποδεχτεί",
         "group": "group_a"
     },
-    {
+{
         "word": "αρνούμαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1887,7 +1887,7 @@
         "v3": "αρνηθεί",
         "group": "group_a"
     },
-    {
+{
         "word": "χάνω βάρος",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1908,7 +1908,7 @@
         "v3": "χάσει βάρος",
         "group": "group_a"
     },
-    {
+{
         "word": "αυξάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1929,7 +1929,7 @@
         "v3": "αυξήσει",
         "group": "group_a"
     },
-    {
+{
         "word": "μειώνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1949,7 +1949,7 @@
         "v3": "μειώσει",
         "group": "group_a"
     },
-    {
+{
         "word": "βελτιώνω τις δεξιότητες",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1970,7 +1970,7 @@
         "v3": "βελτιώσει τις δεξιότητες",
         "group": "group_a"
     },
-    {
+{
         "word": "παρέχω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1990,7 +1990,7 @@
         "v3": "παράσχει",
         "group": "group_a"
     },
-    {
+{
         "word": "λύνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2011,7 +2011,7 @@
         "v3": "λύσει",
         "group": "group_a"
     },
-    {
+{
         "word": "μοιράζομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2031,7 +2031,7 @@
         "v3": "μοιραστεί",
         "group": "group_a"
     },
-    {
+{
         "word": "συμμετέχω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2051,7 +2051,7 @@
         "v3": "συμμετάσχει",
         "group": "group_a"
     },
-    {
+{
         "word": "λαμβάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2071,7 +2071,7 @@
         "v3": "λάβει",
         "group": "group_a"
     },
-    {
+{
         "word": "περιέχω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2092,7 +2092,7 @@
         "v3": "περιέχει",
         "group": "group_a"
     },
-    {
+{
         "word": "σχεδιάζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2112,7 +2112,7 @@
         "v3": "σχεδιάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "προετοιμάζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2133,7 +2133,7 @@
         "v3": "προετοιμάσει",
         "group": "group_a"
     },
-    {
+{
         "word": "αποτυγχάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2153,7 +2153,7 @@
         "v3": "αποτύχει",
         "group": "group_a"
     },
-    {
+{
         "word": "πετυχαίνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2173,7 +2173,7 @@
         "v3": "πετύχει",
         "group": "group_a"
     },
-    {
+{
         "word": "συμφωνώ",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -2193,7 +2193,7 @@
         "v3": "συμφωνήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "αντικαθιστώ",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2214,7 +2214,7 @@
         "v3": "αντικαταστήσει",
         "group": "group_b1"
     },
-    {
+{
         "word": "ψάχνω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2234,7 +2234,7 @@
         "v3": "ψάξει",
         "group": "group_a"
     },
-    {
+{
         "word": "αποσυνδέομαι",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2254,12 +2254,11 @@
         "aspect": "action",
         "v3": "αποσυνδεθεί",
         "group": "group_a"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "el";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

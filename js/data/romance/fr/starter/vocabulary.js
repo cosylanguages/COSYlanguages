@@ -1,7 +1,18 @@
 (function() {
     const data = [
     {
+        "word": "jardin",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "médecin",
+        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "article": "le",
@@ -24,7 +35,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "fruit",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -45,7 +56,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "légume",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -66,7 +77,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "pied",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -89,7 +100,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "professeur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -111,7 +122,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "croissant",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -130,8 +141,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "pomme",
+        "image": "images/vocabulary/food/apple.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
@@ -153,7 +165,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "pain",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -176,7 +188,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "oeuf",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -198,7 +210,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "lait",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -220,7 +232,7 @@
         "countability": "uncountable",
         "transcription": "/lɛ/"
     },
-    {
+{
         "word": "riz",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -241,7 +253,7 @@
         "countability": "uncountable",
         "transcription": "/ri/"
     },
-    {
+{
         "word": "viande",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -262,7 +274,7 @@
         "countability": "uncountable",
         "transcription": "/vjɑ̃d/"
     },
-    {
+{
         "word": "nourriture",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -281,7 +293,7 @@
         "countability": "countable",
         "transcription": "/nu.ʁi.tyʁ/"
     },
-    {
+{
         "word": "thé",
         "level": "starter",
         "theme": "drinks_A1",
@@ -303,7 +315,7 @@
         "countability": "uncountable",
         "transcription": "/te/"
     },
-    {
+{
         "word": "jus",
         "level": "starter",
         "theme": "drinks_A1",
@@ -324,7 +336,7 @@
         "countability": "uncountable",
         "transcription": "/ʒy/"
     },
-    {
+{
         "word": "eau",
         "level": "starter",
         "theme": "drinks_A1",
@@ -346,7 +358,7 @@
         "countability": "uncountable",
         "transcription": "/o/"
     },
-    {
+{
         "word": "parc",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -366,9 +378,9 @@
         "countability": "countable",
         "transcription": "/paʁk/"
     },
-    {
+{
         "word": "école",
-        "image": "images/vocabulary/go to school.png",
+        "image": "images/vocabulary/actions/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "l'",
@@ -387,7 +399,7 @@
         "countability": "countable",
         "transcription": "/e.kɔl/"
     },
-    {
+{
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -408,7 +420,7 @@
         "countability": "countable",
         "transcription": "/tabl/"
     },
-    {
+{
         "word": "livre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -428,7 +440,7 @@
         "countability": "countable",
         "transcription": "/livʁ/"
     },
-    {
+{
         "word": "stylo",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -448,7 +460,7 @@
         "countability": "countable",
         "transcription": "/sti.lo/"
     },
-    {
+{
         "word": "chat",
         "level": "starter",
         "theme": "animals_A1",
@@ -470,7 +482,7 @@
         "countability": "countable",
         "transcription": "/ʃa/"
     },
-    {
+{
         "word": "chien",
         "level": "starter",
         "theme": "animals_A1",
@@ -492,7 +504,7 @@
         "countability": "countable",
         "transcription": "/ʃjɛ̃/"
     },
-    {
+{
         "word": "oiseau",
         "level": "starter",
         "theme": "animals_A1",
@@ -511,7 +523,7 @@
         "countability": "countable",
         "transcription": "/wa.zo/"
     },
-    {
+{
         "word": "poisson",
         "level": "starter",
         "theme": "animals_A1",
@@ -530,7 +542,7 @@
         "countability": "countable",
         "transcription": "/pwa.sɔ̃/"
     },
-    {
+{
         "word": "tête",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -551,7 +563,7 @@
         "countability": "countable",
         "transcription": "/tɛt/"
     },
-    {
+{
         "word": "main",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -572,7 +584,7 @@
         "countability": "countable",
         "transcription": "/mɛ̃/"
     },
-    {
+{
         "word": "jambe",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -593,7 +605,7 @@
         "countability": "countable",
         "transcription": "/ʒɑ̃b/"
     },
-    {
+{
         "word": "oeil",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -614,7 +626,7 @@
         "countability": "countable",
         "transcription": "/œj/"
     },
-    {
+{
         "word": "nez",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -634,7 +646,7 @@
         "countability": "countable",
         "transcription": "/ne/"
     },
-    {
+{
         "word": "bouche",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -655,7 +667,7 @@
         "countability": "countable",
         "transcription": "/buʃ/"
     },
-    {
+{
         "word": "oreille",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -676,7 +688,7 @@
         "countability": "countable",
         "transcription": "/ɔ.ʁɛj/"
     },
-    {
+{
         "word": "dos",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -697,7 +709,7 @@
         "countability": "countable",
         "transcription": "/do/"
     },
-    {
+{
         "word": "bras",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -718,7 +730,7 @@
         "countability": "countable",
         "transcription": "/bʁa/"
     },
-    {
+{
         "word": "mère",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -742,7 +754,7 @@
         "countability": "countable",
         "transcription": "/mɛʁ/"
     },
-    {
+{
         "word": "père",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -766,7 +778,7 @@
         "countability": "countable",
         "transcription": "/pɛʁ/"
     },
-    {
+{
         "word": "famille",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -786,7 +798,7 @@
         "countability": "countable",
         "transcription": "/fa.mij/"
     },
-    {
+{
         "word": "ami",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -806,7 +818,7 @@
         "countability": "countable",
         "transcription": "/a.mi/"
     },
-    {
+{
         "word": "partenaire",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -827,7 +839,7 @@
         "countability": "countable",
         "transcription": "/paʁ.tə.nɛʁ/"
     },
-    {
+{
         "word": "homme",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -848,9 +860,9 @@
         "countability": "countable",
         "transcription": "/ɔm/"
     },
-    {
+{
         "word": "maison",
-        "image": "images/vocabulary/go home.png",
+        "image": "images/vocabulary/actions/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -870,7 +882,7 @@
         "countability": "countable",
         "transcription": "/mɛ.zɔ̃/"
     },
-    {
+{
         "word": "appartement",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -891,7 +903,7 @@
         "countability": "countable",
         "transcription": "/a.paʁ.tə.mɑ̃/"
     },
-    {
+{
         "word": "foyer",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -911,7 +923,7 @@
         "countability": "uncountable",
         "transcription": "/fwa.je/"
     },
-    {
+{
         "word": "voiture",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -932,7 +944,7 @@
         "countability": "countable",
         "transcription": "/vwa.tyʁ/"
     },
-    {
+{
         "word": "argent",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -953,7 +965,7 @@
         "countability": "uncountable",
         "transcription": "/aʁ.ʒɑ̃/"
     },
-    {
+{
         "word": "matin",
         "level": "starter",
         "theme": "times_day_A1",
@@ -974,7 +986,7 @@
         "countability": "countable",
         "transcription": "/ma.tɛ̃/"
     },
-    {
+{
         "word": "soir",
         "level": "starter",
         "theme": "times_day_A1",
@@ -995,7 +1007,7 @@
         "countability": "countable",
         "transcription": "/swaʁ/"
     },
-    {
+{
         "word": "jour",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1015,7 +1027,7 @@
         "countability": "countable",
         "transcription": "/ʒuʁ/"
     },
-    {
+{
         "word": "semaine",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1036,7 +1048,7 @@
         "countability": "countable",
         "transcription": "/sə.mɛn/"
     },
-    {
+{
         "word": "chaque jour",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1052,7 +1064,7 @@
         ],
         "transcription": "/ʃak ʒuʁ/"
     },
-    {
+{
         "word": "patron",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1071,7 +1083,7 @@
         "countability": "countable",
         "transcription": "/pa.tʁɔ̃/"
     },
-    {
+{
         "word": "collègue",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1090,7 +1102,7 @@
         "countability": "countable",
         "transcription": "/kɔ.lɛɡ/"
     },
-    {
+{
         "word": "salaire",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1114,7 +1126,7 @@
         "countability": "countable",
         "transcription": "/sa.lɛʁ/"
     },
-    {
+{
         "word": "réunion",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1138,7 +1150,7 @@
         "countability": "countable",
         "transcription": "/ʁe.y.njɔ̃/"
     },
-    {
+{
         "word": "trajet",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1157,7 +1169,7 @@
         "countability": "countable",
         "transcription": "/tʁa.ʒɛ/"
     },
-    {
+{
         "word": "stress",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1180,7 +1192,7 @@
         "countability": "uncountable",
         "transcription": "/stʁɛs/"
     },
-    {
+{
         "word": "loyer",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1199,7 +1211,7 @@
         "countability": "countable",
         "transcription": "/lwa.je/"
     },
-    {
+{
         "word": "voisin",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1218,7 +1230,7 @@
         "countability": "countable",
         "transcription": "/vwa.zɛ̃/"
     },
-    {
+{
         "word": "pièce",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1237,7 +1249,7 @@
         "countability": "countable",
         "transcription": "/pjɛs/"
     },
-    {
+{
         "word": "sommeil",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1256,7 +1268,7 @@
         "countability": "countable",
         "transcription": "/sɔ.mɛj/"
     },
-    {
+{
         "word": "exercice",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1275,7 +1287,7 @@
         "countability": "countable",
         "transcription": "/eɡ.zɛʁ.sis/"
     },
-    {
+{
         "word": "relation",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1299,7 +1311,7 @@
         "countability": "countable",
         "transcription": "/ʁə.la.sjɔ̃/"
     },
-    {
+{
         "word": "ensemble",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1317,7 +1329,7 @@
         ],
         "transcription": "/ɑ̃.sɑ̃bl/"
     },
-    {
+{
         "word": "hôtel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1336,7 +1348,7 @@
         "countability": "countable",
         "transcription": "/o.tɛl/"
     },
-    {
+{
         "word": "week-end",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1355,7 +1367,7 @@
         "countability": "countable",
         "transcription": "/wi.kɛnd/"
     },
-    {
+{
         "word": "temps libre",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1380,7 +1392,7 @@
         "countability": "uncountable",
         "transcription": "/tɑ̃ libʁ/"
     },
-    {
+{
         "word": "bière",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1401,7 +1413,7 @@
         "countability": "uncountable",
         "transcription": "/bjɛʁ/"
     },
-    {
+{
         "word": "vin",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1421,7 +1433,7 @@
         "countability": "uncountable",
         "transcription": "/vɛ̃/"
     },
-    {
+{
         "word": "porte",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1441,7 +1453,7 @@
         "countability": "countable",
         "transcription": "/pɔʁt/"
     },
-    {
+{
         "word": "fenêtre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1461,7 +1473,7 @@
         "countability": "countable",
         "transcription": "/fə.nɛtʁ/"
     },
-    {
+{
         "word": "infirmier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1481,7 +1493,7 @@
         "countability": "countable",
         "transcription": "/ɛ̃.fiʁ.mje/"
     },
-    {
+{
         "word": "conducteur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1501,7 +1513,7 @@
         "countability": "countable",
         "transcription": "/kɔ̃.dyk.tœʁ/"
     },
-    {
+{
         "word": "chef",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1521,7 +1533,7 @@
         "countability": "countable",
         "transcription": "/ʃɛf/"
     },
-    {
+{
         "word": "directeur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1541,7 +1553,7 @@
         "countability": "countable",
         "transcription": "/di.ʁɛk.tœʁ/"
     },
-    {
+{
         "word": "avion",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1561,7 +1573,7 @@
         "countability": "countable",
         "transcription": "/a.vjɔ̃/"
     },
-    {
+{
         "word": "vélo",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1581,7 +1593,7 @@
         "countability": "countable",
         "transcription": "/ve.lo/"
     },
-    {
+{
         "word": "hôpital",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1601,7 +1613,7 @@
         "countability": "countable",
         "transcription": "/o.pi.tal/"
     },
-    {
+{
         "word": "restaurant",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1621,7 +1633,7 @@
         "countability": "countable",
         "transcription": "/ʁɛs.tɔ.ʁɑ̃/"
     },
-    {
+{
         "word": "supermarché",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1641,7 +1653,7 @@
         "countability": "countable",
         "transcription": "/sy.pɛʁ.maʁ.ʃe/"
     },
-    {
+{
         "word": "soleil",
         "level": "starter",
         "theme": "weather_A1",
@@ -1661,7 +1673,7 @@
         "countability": "countable",
         "transcription": "/sɔ.lɛj/"
     },
-    {
+{
         "word": "pluie",
         "level": "starter",
         "theme": "weather_A1",
@@ -1681,7 +1693,7 @@
         "countability": "countable",
         "transcription": "/plɥi/"
     },
-    {
+{
         "word": "vent",
         "level": "starter",
         "theme": "weather_A1",
@@ -1701,7 +1713,7 @@
         "countability": "countable",
         "transcription": "/vɑ̃/"
     },
-    {
+{
         "word": "nuit",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1721,7 +1733,7 @@
         "countability": "countable",
         "transcription": "/nɥi/"
     },
-    {
+{
         "word": "aujourd'hui",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1740,7 +1752,7 @@
         ],
         "transcription": "/o.ʒuʁ.dɥi/"
     },
-    {
+{
         "word": "demain",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1759,7 +1771,7 @@
         ],
         "transcription": "/də.mɛ̃/"
     },
-    {
+{
         "word": "mari",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1779,7 +1791,7 @@
         "countability": "countable",
         "transcription": "/ma.ʁi/"
     },
-    {
+{
         "word": "femme",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1799,7 +1811,7 @@
         "countability": "countable",
         "transcription": "/fam/"
     },
-    {
+{
         "word": "enfant",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1819,7 +1831,7 @@
         "countability": "countable",
         "transcription": "/ɑ̃.fɑ̃/"
     },
-    {
+{
         "word": "parent",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1839,7 +1851,7 @@
         "countability": "countable",
         "transcription": "/pa.ʁɑ̃/"
     },
-    {
+{
         "word": "soeur",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1859,7 +1871,7 @@
         "countability": "countable",
         "transcription": "/sœʁ/"
     },
-    {
+{
         "word": "frère",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1879,7 +1891,7 @@
         "countability": "countable",
         "transcription": "/fʁɛʁ/"
     },
-    {
+{
         "word": "fils",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1899,7 +1911,7 @@
         "countability": "countable",
         "transcription": "/fis/"
     },
-    {
+{
         "word": "grand-père",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -1919,7 +1931,7 @@
         "countability": "countable",
         "transcription": "/ɡʁɑ̃.pɛʁ/"
     },
-    {
+{
         "word": "grand-mère",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -1939,7 +1951,7 @@
         "countability": "countable",
         "transcription": "/ɡʁɑ̃.mɛʁ/"
     },
-    {
+{
         "word": "oncle",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -1959,7 +1971,7 @@
         "countability": "countable",
         "transcription": "/ɔ̃kl/"
     },
-    {
+{
         "word": "tante",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -1979,7 +1991,7 @@
         "countability": "countable",
         "transcription": "/tɑ̃t/"
     },
-    {
+{
         "word": "cousin",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -1999,7 +2011,7 @@
         "countability": "countable",
         "transcription": "/ku.zɛ̃/"
     },
-    {
+{
         "word": "arbre",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -2019,7 +2031,7 @@
         "countability": "countable",
         "transcription": "/aʁbʁ/"
     },
-    {
+{
         "word": "fleur",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -2039,7 +2051,7 @@
         "countability": "countable",
         "transcription": "/flœʁ/"
     },
-    {
+{
         "word": "montagne",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2059,7 +2071,7 @@
         "countability": "countable",
         "transcription": "/mɔ̃.taɲ/"
     },
-    {
+{
         "word": "rivière",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2079,7 +2091,7 @@
         "countability": "countable",
         "transcription": "/ʁi.vjɛʁ/"
     },
-    {
+{
         "word": "mer",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2099,7 +2111,7 @@
         "countability": "countable",
         "transcription": "/mɛʁ/"
     },
-    {
+{
         "word": "ciel",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2119,7 +2131,7 @@
         "countability": "countable",
         "transcription": "/sjɛl/"
     },
-    {
+{
         "word": "lune",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2139,7 +2151,7 @@
         "countability": "countable",
         "transcription": "/lyn/"
     },
-    {
+{
         "word": "assiette",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2159,7 +2171,7 @@
         "countability": "countable",
         "transcription": "/a.sjɛt/"
     },
-    {
+{
         "word": "tasse",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2179,7 +2191,7 @@
         "countability": "countable",
         "transcription": "/tas/"
     },
-    {
+{
         "word": "verre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2199,7 +2211,7 @@
         "countability": "countable",
         "transcription": "/vɛʁ/"
     },
-    {
+{
         "word": "fourchette",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2219,7 +2231,7 @@
         "countability": "countable",
         "transcription": "/fuʁ.ʃɛt/"
     },
-    {
+{
         "word": "cuillère",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2239,7 +2251,7 @@
         "countability": "countable",
         "transcription": "/kɥi.jɛʁ/"
     },
-    {
+{
         "word": "couteau",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2259,7 +2271,7 @@
         "countability": "countable",
         "transcription": "/ku.to/"
     },
-    {
+{
         "word": "ordinateur portable",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -2279,7 +2291,7 @@
         "countability": "countable",
         "transcription": "/ɔʁ.di.na.tœʁ pɔʁ.tabl/"
     },
-    {
+{
         "word": "cinéma",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -2299,7 +2311,7 @@
         "countability": "countable",
         "transcription": "/si.ne.ma/"
     },
-    {
+{
         "word": "musée",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -2319,7 +2331,7 @@
         "countability": "countable",
         "transcription": "/my.ze/"
     },
-    {
+{
         "word": "pharmacie",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2339,7 +2351,7 @@
         "countability": "countable",
         "transcription": "/faʁ.ma.si/"
     },
-    {
+{
         "word": "poulet",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2359,7 +2371,7 @@
         "countability": "countable",
         "transcription": "/pu.lɛ/"
     },
-    {
+{
         "word": "sucre",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2379,7 +2391,7 @@
         "countability": "uncountable",
         "transcription": "/sykʁ/"
     },
-    {
+{
         "word": "salade",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2399,7 +2411,7 @@
         "countability": "countable",
         "transcription": "/sa.lad/"
     },
-    {
+{
         "word": "cou",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2419,7 +2431,7 @@
         "countability": "countable",
         "transcription": "/ku/"
     },
-    {
+{
         "word": "épaule",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2439,7 +2451,7 @@
         "countability": "countable",
         "transcription": "/e.pol/"
     },
-    {
+{
         "word": "et",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -2458,7 +2470,7 @@
         ],
         "transcription": "/e/"
     },
-    {
+{
         "word": "mais",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -2477,7 +2489,7 @@
         ],
         "transcription": "/mɛ/"
     },
-    {
+{
         "word": "parce que",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -2496,7 +2508,7 @@
         ],
         "transcription": "/paʁ.sə kə/"
     },
-    {
+{
         "word": "problème",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -2516,7 +2528,7 @@
         "countability": "countable",
         "transcription": "/pʁɔ.blɛm/"
     },
-    {
+{
         "word": "boeuf",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2536,7 +2548,7 @@
         "countability": "countable",
         "transcription": "/bœf/"
     },
-    {
+{
         "word": "porc",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2556,7 +2568,7 @@
         "countability": "countable",
         "transcription": "/pɔʁ/"
     },
-    {
+{
         "word": "pomme de terre",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2576,7 +2588,7 @@
         "countability": "countable",
         "transcription": "/pɔm də tɛʁ/"
     },
-    {
+{
         "word": "tomate",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2596,7 +2608,7 @@
         "countability": "countable",
         "transcription": "/tɔ.mat/"
     },
-    {
+{
         "word": "oignon",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2616,7 +2628,7 @@
         "countability": "countable",
         "transcription": "/ɔ.ɲɔ̃/"
     },
-    {
+{
         "word": "carotte",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2636,7 +2648,7 @@
         "countability": "countable",
         "transcription": "/ka.ʁɔt/"
     },
-    {
+{
         "word": "soupe",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2656,7 +2668,7 @@
         "countability": "uncountable",
         "transcription": "/sup/"
     },
-    {
+{
         "word": "gâteau",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2676,7 +2688,7 @@
         "countability": "countable",
         "transcription": "/ɡɑ.to/"
     },
-    {
+{
         "word": "chocolat",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2696,7 +2708,7 @@
         "countability": "uncountable",
         "transcription": "/ʃɔ.kɔ.la/"
     },
-    {
+{
         "word": "glace",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2716,7 +2728,7 @@
         "countability": "uncountable",
         "transcription": "/ɡlas/"
     },
-    {
+{
         "word": "doigt",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2736,7 +2748,7 @@
         "countability": "countable",
         "transcription": "/dwa/"
     },
-    {
+{
         "word": "orteil",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2756,7 +2768,7 @@
         "countability": "countable",
         "transcription": "/ɔʁ.tɛj/"
     },
-    {
+{
         "word": "estomac",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2776,7 +2788,7 @@
         "countability": "countable",
         "transcription": "/ɛs.tɔ.ma/"
     },
-    {
+{
         "word": "genou",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2796,7 +2808,7 @@
         "countability": "countable",
         "transcription": "/ʒə.nu/"
     },
-    {
+{
         "word": "herbe",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2816,7 +2828,7 @@
         "countability": "countable",
         "transcription": "/ɛʁb/"
     },
-    {
+{
         "word": "nuage",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2836,7 +2848,7 @@
         "countability": "countable",
         "transcription": "/nɥaʒ/"
     },
-    {
+{
         "word": "étoile",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2856,7 +2868,7 @@
         "countability": "countable",
         "transcription": "/e.twal/"
     },
-    {
+{
         "word": "horloge",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2876,7 +2888,7 @@
         "countability": "countable",
         "transcription": "/ɔʁ.lɔʒ/"
     },
-    {
+{
         "word": "bibliothèque",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -2896,7 +2908,7 @@
         "countability": "countable",
         "transcription": "/bi.bli.jɔ.tɛk/"
     },
-    {
+{
         "word": "lundi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -2916,7 +2928,7 @@
         "countability": "countable",
         "transcription": "/lœ̃.di/"
     },
-    {
+{
         "word": "mardi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -2936,7 +2948,7 @@
         "countability": "countable",
         "transcription": "/maʁ.di/"
     },
-    {
+{
         "word": "mercredi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -2956,7 +2968,7 @@
         "countability": "countable",
         "transcription": "/mɛʁ.kʁə.di/"
     },
-    {
+{
         "word": "jeudi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -2976,7 +2988,7 @@
         "countability": "countable",
         "transcription": "/ʒø.di/"
     },
-    {
+{
         "word": "vendredi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -2996,7 +3008,7 @@
         "countability": "countable",
         "transcription": "/vɑ̃.dʁə.di/"
     },
-    {
+{
         "word": "samedi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3016,7 +3028,7 @@
         "countability": "countable",
         "transcription": "/sam.di/"
     },
-    {
+{
         "word": "dimanche",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3036,7 +3048,7 @@
         "countability": "countable",
         "transcription": "/di.mɑ̃ʃ/"
     },
-    {
+{
         "word": "janvier",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3056,7 +3068,7 @@
         "countability": "countable",
         "transcription": "/ʒɑ̃.vje/"
     },
-    {
+{
         "word": "février",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3076,7 +3088,7 @@
         "countability": "countable",
         "transcription": "/fe.vʁi.je/"
     },
-    {
+{
         "word": "mars",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3096,7 +3108,7 @@
         "countability": "countable",
         "transcription": "/maʁs/"
     },
-    {
+{
         "word": "avril",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3116,7 +3128,7 @@
         "countability": "countable",
         "transcription": "/a.vʁil/"
     },
-    {
+{
         "word": "mai",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3136,7 +3148,7 @@
         "countability": "countable",
         "transcription": "/mɛ/"
     },
-    {
+{
         "word": "juin",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3156,7 +3168,7 @@
         "countability": "countable",
         "transcription": "/ʒɥɛ̃/"
     },
-    {
+{
         "word": "juillet",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3176,7 +3188,7 @@
         "countability": "countable",
         "transcription": "/ʒɥi.jɛ/"
     },
-    {
+{
         "word": "août",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3196,7 +3208,7 @@
         "countability": "countable",
         "transcription": "/ut/"
     },
-    {
+{
         "word": "septembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3216,7 +3228,7 @@
         "countability": "countable",
         "transcription": "/sɛp.tɑ̃bʁ/"
     },
-    {
+{
         "word": "octobre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3236,7 +3248,7 @@
         "countability": "countable",
         "transcription": "/ɔk.tɔbʁ/"
     },
-    {
+{
         "word": "novembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3256,7 +3268,7 @@
         "countability": "countable",
         "transcription": "/nɔ.vɑ̃bʁ/"
     },
-    {
+{
         "word": "décembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -3276,7 +3288,7 @@
         "countability": "countable",
         "transcription": "/de.sɑ̃bʁ/"
     },
-    {
+{
         "word": "printemps",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -3296,7 +3308,7 @@
         "countability": "countable",
         "transcription": "/pʁɛ̃.tɑ̃/"
     },
-    {
+{
         "word": "été",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -3316,7 +3328,7 @@
         "countability": "countable",
         "transcription": "/e.te/"
     },
-    {
+{
         "word": "automne",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -3336,7 +3348,7 @@
         "countability": "countable",
         "transcription": "/o.tɔn/"
     },
-    {
+{
         "word": "hiver",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -3356,7 +3368,7 @@
         "countability": "countable",
         "transcription": "/i.vɛʁ/"
     },
-    {
+{
         "word": "lion",
         "level": "starter",
         "theme": "animals_A1",
@@ -3376,7 +3388,7 @@
         "countability": "countable",
         "transcription": "/ljɔ̃/"
     },
-    {
+{
         "word": "éléphant",
         "level": "starter",
         "theme": "animals_A1",
@@ -3396,7 +3408,7 @@
         "countability": "countable",
         "transcription": "/e.le.fɑ̃/"
     },
-    {
+{
         "word": "lapin",
         "level": "starter",
         "theme": "animals_A1",
@@ -3416,7 +3428,7 @@
         "countability": "countable",
         "transcription": "/la.pɛ̃/"
     },
-    {
+{
         "word": "cheval",
         "level": "starter",
         "theme": "animals_A1",
@@ -3436,7 +3448,7 @@
         "countability": "countable",
         "transcription": "/ʃə.val/"
     },
-    {
+{
         "word": "vache",
         "level": "starter",
         "theme": "animals_A1",
@@ -3456,7 +3468,7 @@
         "countability": "countable",
         "transcription": "/vaʃ/"
     },
-    {
+{
         "word": "cochon",
         "level": "starter",
         "theme": "animals_A1",
@@ -3476,7 +3488,7 @@
         "countability": "countable",
         "transcription": "/kɔ.ʃɔ̃/"
     },
-    {
+{
         "word": "mouton",
         "level": "starter",
         "theme": "animals_A1",
@@ -3496,7 +3508,7 @@
         "countability": "countable",
         "transcription": "/mu.tɔ̃/"
     },
-    {
+{
         "word": "citron",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3516,7 +3528,7 @@
         "countability": "countable",
         "transcription": "/si.tʁɔ̃/"
     },
-    {
+{
         "word": "orange",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3536,7 +3548,7 @@
         "countability": "countable",
         "transcription": "/ɔ.ʁɑ̃ʒ/"
     },
-    {
+{
         "word": "fraise",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3556,7 +3568,7 @@
         "countability": "countable",
         "transcription": "/fʁɛz/"
     },
-    {
+{
         "word": "raisin",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3576,7 +3588,7 @@
         "countability": "countable",
         "transcription": "/ʁɛ.zɛ̃/"
     },
-    {
+{
         "word": "ail",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3596,7 +3608,7 @@
         "countability": "uncountable",
         "transcription": "/aj/"
     },
-    {
+{
         "word": "bonjour",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3616,7 +3628,7 @@
         "countability": "countable",
         "transcription": "/bɔ̃.ʒuʁ/"
     },
-    {
+{
         "word": "au revoir",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3636,7 +3648,7 @@
         "countability": "countable",
         "transcription": "/o ʁə.vwaʁ/"
     },
-    {
+{
         "word": "s'il vous plaît",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3655,7 +3667,7 @@
         ],
         "transcription": "/sil vu plɛ/"
     },
-    {
+{
         "word": "merci",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3675,7 +3687,7 @@
         "countability": "countable",
         "transcription": "/mɛʁ.si/"
     },
-    {
+{
         "word": "pardon",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3695,7 +3707,7 @@
         "countability": "countable",
         "transcription": "/paʁ.dɔ̃/"
     },
-    {
+{
         "word": "oui",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -3714,7 +3726,7 @@
         ],
         "transcription": "/wi/"
     },
-    {
+{
         "word": "non",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -3733,7 +3745,7 @@
         ],
         "transcription": "/nɔ̃/"
     },
-    {
+{
         "word": "nom",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3753,7 +3765,7 @@
         "countability": "countable",
         "transcription": "/nɔ̃/"
     },
-    {
+{
         "word": "violet",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -3773,7 +3785,7 @@
         "countability": "countable",
         "transcription": "/vjɔ.lɛ/"
     },
-    {
+{
         "word": "salle de bain",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -3793,7 +3805,7 @@
         "countability": "countable",
         "transcription": "/sal də bɛ̃/"
     },
-    {
+{
         "word": "chambre",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -3813,7 +3825,7 @@
         "countability": "countable",
         "transcription": "/ʃɑ̃bʁ/"
     },
-    {
+{
         "word": "bébé",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -3833,7 +3845,7 @@
         "countability": "countable",
         "transcription": "/be.be/"
     },
-    {
+{
         "word": "garçon",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -3853,7 +3865,7 @@
         "countability": "countable",
         "transcription": "/ɡaʁ.sɔ̃/"
     },
-    {
+{
         "word": "fille",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -3873,7 +3885,7 @@
         "countability": "countable",
         "transcription": "/fij/"
     },
-    {
+{
         "word": "petit ami",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -3893,7 +3905,7 @@
         "countability": "countable",
         "transcription": "/pə.ti.t‿a.mi/"
     },
-    {
+{
         "word": "petite amie",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -3913,7 +3925,7 @@
         "countability": "countable",
         "transcription": "/pə.ti.t‿a.mi/"
     },
-    {
+{
         "word": "étudiant",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3933,7 +3945,7 @@
         "countability": "countable",
         "transcription": "/e.ty.djɑ̃/"
     },
-    {
+{
         "word": "camarade de classe",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3953,7 +3965,7 @@
         "countability": "countable",
         "transcription": "/ka.ma.ʁad də klas/"
     },
-    {
+{
         "word": "appareil photo",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3973,7 +3985,7 @@
         "countability": "countable",
         "transcription": "/a.pa.ʁɛj fo.to/"
     },
-    {
+{
         "word": "ordinateur",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3993,7 +4005,7 @@
         "countability": "countable",
         "transcription": "/ɔʁ.di.na.tœʁ/"
     },
-    {
+{
         "word": "bouteille",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4013,7 +4025,7 @@
         "countability": "countable",
         "transcription": "/bu.tɛj/"
     },
-    {
+{
         "word": "boîte",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4033,7 +4045,7 @@
         "countability": "countable",
         "transcription": "/bwat/"
     },
-    {
+{
         "word": "ballon",
         "level": "starter",
         "theme": "sports_equipment_A1",
@@ -4053,7 +4065,7 @@
         "countability": "countable",
         "transcription": "/ba.lɔ̃/"
     },
-    {
+{
         "word": "immeuble",
         "level": "starter",
         "theme": "address_location_A1",
@@ -4073,7 +4085,7 @@
         "countability": "countable",
         "transcription": "/i.mœbl/"
     },
-    {
+{
         "word": "café",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -4093,7 +4105,7 @@
         "countability": "uncountable",
         "transcription": "/ka.fe/"
     },
-    {
+{
         "word": "centre",
         "level": "starter",
         "theme": "address_location_A1",
@@ -4113,7 +4125,7 @@
         "countability": "countable",
         "transcription": "/sɑ̃tʁ/"
     },
-    {
+{
         "word": "beurre",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4133,7 +4145,7 @@
         "countability": "uncountable",
         "transcription": "/bœʁ/"
     },
-    {
+{
         "word": "fromage",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4153,7 +4165,7 @@
         "countability": "uncountable",
         "transcription": "/fʁɔ.maʒ/"
     },
-    {
+{
         "word": "acteur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -4173,7 +4185,7 @@
         "countability": "countable",
         "transcription": "/ak.tœʁ/"
     },
-    {
+{
         "word": "artiste",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -4193,7 +4205,7 @@
         "countability": "countable",
         "transcription": "/aʁ.tist/"
     },
-    {
+{
         "word": "adulte",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -4213,7 +4225,7 @@
         "countability": "countable",
         "transcription": "/a.dylt/"
     },
-    {
+{
         "word": "conseil",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4233,7 +4245,7 @@
         "countability": "countable",
         "transcription": "/kɔ̃.sɛj/"
     },
-    {
+{
         "word": "âge",
         "level": "starter",
         "theme": "age_A1",
@@ -4253,7 +4265,7 @@
         "countability": "countable",
         "transcription": "/aʒ/"
     },
-    {
+{
         "word": "air",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -4273,7 +4285,7 @@
         "countability": "countable",
         "transcription": "/ɛʁ/"
     },
-    {
+{
         "word": "quartier",
         "level": "starter",
         "theme": "address_location_A1",
@@ -4293,7 +4305,7 @@
         "countability": "countable",
         "transcription": "/kaʁ.tje/"
     },
-    {
+{
         "word": "art",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -4313,7 +4325,7 @@
         "countability": "countable",
         "transcription": "/aʁ/"
     },
-    {
+{
         "word": "groupe",
         "level": "starter",
         "theme": "music_A1",
@@ -4333,9 +4345,9 @@
         "countability": "countable",
         "transcription": "/ɡʁup/"
     },
-    {
+{
         "word": "bain",
-        "image": "images/vocabulary/take.have a bath.png",
+        "image": "images/vocabulary/actions/take.have a bath.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
@@ -4354,7 +4366,7 @@
         "countability": "countable",
         "transcription": "/bɛ̃/"
     },
-    {
+{
         "word": "anniversaire",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -4374,7 +4386,7 @@
         "countability": "countable",
         "transcription": "/a.ni.vɛʁ.sɛʁ/"
     },
-    {
+{
         "word": "bateau",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -4394,7 +4406,7 @@
         "countability": "countable",
         "transcription": "/ba.to/"
     },
-    {
+{
         "word": "affaires",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4414,7 +4426,7 @@
         "countability": "countable",
         "transcription": "/a.fɛʁ/"
     },
-    {
+{
         "word": "université",
         "level": "starter",
         "theme": "types_of_education_A1",
@@ -4434,7 +4446,7 @@
         "countability": "countable",
         "transcription": "/y.ni.vɛʁ.si.te/"
     },
-    {
+{
         "word": "concert",
         "level": "starter",
         "theme": "music_A1",
@@ -4454,7 +4466,7 @@
         "countability": "countable",
         "transcription": "/kɔ̃.sɛʁ/"
     },
-    {
+{
         "word": "conversation",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4474,7 +4486,7 @@
         "countability": "countable",
         "transcription": "/kɔ̃.vɛʁ.sa.sjɔ̃/"
     },
-    {
+{
         "word": "encore",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -4493,7 +4505,7 @@
         ],
         "transcription": "/ɑ̃.kɔʁ/"
     },
-    {
+{
         "word": "il y a",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -4512,7 +4524,7 @@
         ],
         "transcription": "/i.l‿i.j‿a/"
     },
-    {
+{
         "word": "aussi",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -4531,7 +4543,7 @@
         ],
         "transcription": "/o.si/"
     },
-    {
+{
         "word": "vraiment",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -4550,7 +4562,7 @@
         ],
         "transcription": "/vʁɛ.mɑ̃/"
     },
-    {
+{
         "word": "là",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -4569,7 +4581,7 @@
         ],
         "transcription": "/la/"
     },
-    {
+{
         "word": "crayon",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4589,7 +4601,7 @@
         "countability": "countable",
         "transcription": "/kʁɛ.jɔ̃/"
     },
-    {
+{
         "word": "papier",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4609,7 +4621,7 @@
         "countability": "countable",
         "transcription": "/pa.pje/"
     },
-    {
+{
         "word": "monsieur",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4629,7 +4641,7 @@
         "countability": "countable",
         "transcription": "/mə.sjø/"
     },
-    {
+{
         "word": "madame",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4649,7 +4661,7 @@
         "countability": "countable",
         "transcription": "/ma.dam/"
     },
-    {
+{
         "word": "ville",
         "level": "starter",
         "theme": "address_location_A1",
@@ -4669,7 +4681,7 @@
         "countability": "countable",
         "transcription": "/vil/"
     },
-    {
+{
         "word": "pays",
         "level": "starter",
         "theme": "address_location_A1",
@@ -4689,7 +4701,7 @@
         "countability": "countable",
         "transcription": "/pe.i/"
     },
-    {
+{
         "word": "monde",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -4709,7 +4721,7 @@
         "countability": "uncountable",
         "transcription": "/mɔ̃d/"
     },
-    {
+{
         "word": "gens",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -4729,7 +4741,7 @@
         "countability": "countable",
         "transcription": "/ʒɑ̃/"
     },
-    {
+{
         "word": "chose",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -4749,7 +4761,7 @@
         "countability": "countable",
         "transcription": "/ʃoz/"
     },
-    {
+{
         "word": "temps",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -4769,7 +4781,7 @@
         "countability": "uncountable",
         "transcription": "/tɑ̃/"
     },
-    {
+{
         "word": "heure",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -4789,7 +4801,7 @@
         "countability": "countable",
         "transcription": "/œʁ/"
     },
-    {
+{
         "word": "minute",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -4809,7 +4821,7 @@
         "countability": "countable",
         "transcription": "/mi.nyt/"
     },
-    {
+{
         "word": "seconde",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -4829,7 +4841,7 @@
         "countability": "countable",
         "transcription": "/sə.ɡɔ̃d/"
     },
-    {
+{
         "word": "hier",
         "level": "starter",
         "theme": "times_day_A1",
@@ -4848,7 +4860,7 @@
         ],
         "transcription": "/jɛʁ/"
     },
-    {
+{
         "word": "matinée",
         "level": "starter",
         "theme": "times_day_A1",
@@ -4868,7 +4880,7 @@
         "countability": "countable",
         "transcription": "/ma.ti.ne/"
     },
-    {
+{
         "word": "après-midi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -4888,7 +4900,7 @@
         "countability": "countable",
         "transcription": "/a.pʁɛ mi.di/"
     },
-    {
+{
         "word": "soirée",
         "level": "starter",
         "theme": "times_day_A1",
@@ -4908,7 +4920,7 @@
         "countability": "countable",
         "transcription": "/swa.ʁe/"
     },
-    {
+{
         "word": "minuit",
         "level": "starter",
         "theme": "times_day_A1",
@@ -4928,7 +4940,7 @@
         "countability": "uncountable",
         "transcription": "/mi.nɥi/"
     },
-    {
+{
         "word": "midi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -4948,9 +4960,9 @@
         "countability": "uncountable",
         "transcription": "/mi.di/"
     },
-    {
+{
         "word": "travail",
-        "image": "images/vocabulary/go to work.png",
+        "image": "images/vocabulary/actions/go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "le",
@@ -4969,7 +4981,7 @@
         "countability": "countable",
         "transcription": "/tʁa.vaj/"
     },
-    {
+{
         "word": "boulot",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4989,7 +5001,7 @@
         "countability": "countable",
         "transcription": "/bu.lo/"
     },
-    {
+{
         "word": "métier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -5009,7 +5021,7 @@
         "countability": "countable",
         "transcription": "/me.tje/"
     },
-    {
+{
         "word": "entreprise",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5029,7 +5041,7 @@
         "countability": "countable",
         "transcription": "/ɑ̃.tʁə.pʁiz/"
     },
-    {
+{
         "word": "client",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5049,7 +5061,7 @@
         "countability": "countable",
         "transcription": "/kli.jɑ̃/"
     },
-    {
+{
         "word": "message",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5069,7 +5081,7 @@
         "countability": "countable",
         "transcription": "/me.saʒ/"
     },
-    {
+{
         "word": "email",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5089,7 +5101,7 @@
         "countability": "countable",
         "transcription": "/i.mɛl/"
     },
-    {
+{
         "word": "site web",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5109,7 +5121,7 @@
         "countability": "countable",
         "transcription": "/sit wɛb/"
     },
-    {
+{
         "word": "mot de passe",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5129,7 +5141,7 @@
         "countability": "countable",
         "transcription": "/mo də pas/"
     },
-    {
+{
         "word": "clavier",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5149,7 +5161,7 @@
         "countability": "countable",
         "transcription": "/kla.vje/"
     },
-    {
+{
         "word": "souris",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5169,7 +5181,7 @@
         "countability": "countable",
         "transcription": "/su.ʁi/"
     },
-    {
+{
         "word": "écran",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5189,7 +5201,7 @@
         "countability": "countable",
         "transcription": "/e.kʁɑ̃/"
     },
-    {
+{
         "word": "musique",
         "level": "starter",
         "theme": "music_A1",
@@ -5209,7 +5221,7 @@
         "countability": "countable",
         "transcription": "/my.zik/"
     },
-    {
+{
         "word": "chanson",
         "level": "starter",
         "theme": "music_A1",
@@ -5229,7 +5241,7 @@
         "countability": "countable",
         "transcription": "/ʃɑ̃.sɔ̃/"
     },
-    {
+{
         "word": "film",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -5249,7 +5261,7 @@
         "countability": "countable",
         "transcription": "/film/"
     },
-    {
+{
         "word": "photo",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -5269,7 +5281,7 @@
         "countability": "countable",
         "transcription": "/fo.to/"
     },
-    {
+{
         "word": "sport",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -5289,7 +5301,7 @@
         "countability": "countable",
         "transcription": "/spɔʁ/"
     },
-    {
+{
         "word": "football",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -5309,7 +5321,7 @@
         "countability": "uncountable",
         "transcription": "/fut.bal/"
     },
-    {
+{
         "word": "tennis",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -5329,7 +5341,7 @@
         "countability": "uncountable",
         "transcription": "/te.nis/"
     },
-    {
+{
         "word": "natation",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -5349,7 +5361,7 @@
         "countability": "uncountable",
         "transcription": "/na.ta.sjɔ̃/"
     },
-    {
+{
         "word": "cafétéria",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -5369,7 +5381,7 @@
         "countability": "countable",
         "transcription": "/ka.fe.te.ʁja/"
     },
-    {
+{
         "word": "ticket",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -5389,7 +5401,7 @@
         "countability": "countable",
         "transcription": "/ti.kɛ/"
     },
-    {
+{
         "word": "reçu",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -5409,7 +5421,7 @@
         "countability": "countable",
         "transcription": "/ʁə.sy/"
     },
-    {
+{
         "word": "facture",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -5429,7 +5441,7 @@
         "countability": "countable",
         "transcription": "/fak.tyʁ/"
     },
-    {
+{
         "word": "carte bancaire",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -5449,7 +5461,7 @@
         "countability": "countable",
         "transcription": "/kaʁt bɑ̃.kɛʁ/"
     },
-    {
+{
         "word": "espèces",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -5469,7 +5481,7 @@
         "countability": "countable",
         "transcription": "/ɛs.pɛs/"
     },
-    {
+{
         "word": "vêtement",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -5489,7 +5501,7 @@
         "countability": "countable",
         "transcription": "/vɛt.mɑ̃/"
     },
-    {
+{
         "word": "sel",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5509,7 +5521,7 @@
         "countability": "uncountable",
         "transcription": "/sɛl/"
     },
-    {
+{
         "word": "poivre",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5529,7 +5541,7 @@
         "countability": "uncountable",
         "transcription": "/pwavʁ/"
     },
-    {
+{
         "word": "huile",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5549,7 +5561,7 @@
         "countability": "countable",
         "transcription": "/ɥil/"
     },
-    {
+{
         "word": "vinaigre",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5569,9 +5581,9 @@
         "countability": "countable",
         "transcription": "/vi.nɛɡʁ/"
     },
-    {
+{
         "word": "petit-déjeuner",
-        "image": "images/vocabulary/have breakfast.png",
+        "image": "images/vocabulary/actions/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -5590,9 +5602,9 @@
         "countability": "countable",
         "transcription": "/pə.ti de.ʒœ.ne/"
     },
-    {
+{
         "word": "goûter",
-        "image": "images/vocabulary/have a snack.png",
+        "image": "images/vocabulary/actions/have a snack.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -5611,7 +5623,7 @@
         "countability": "countable",
         "transcription": "/ɡu.te/"
     },
-    {
+{
         "word": "invité",
         "level": "starter",
         "theme": "family_life_A1",
@@ -5631,7 +5643,7 @@
         "countability": "countable",
         "transcription": "/ɛ̃.vi.te/"
     },
-    {
+{
         "word": "fête",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -5651,7 +5663,7 @@
         "countability": "countable",
         "transcription": "/fɛt/"
     },
-    {
+{
         "word": "voyageur",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -5671,7 +5683,7 @@
         "countability": "countable",
         "transcription": "/vwa.ja.ʒœʁ/"
     },
-    {
+{
         "word": "rue",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5691,7 +5703,7 @@
         "countability": "countable",
         "transcription": "/ʁy/"
     },
-    {
+{
         "word": "chemin",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5711,7 +5723,7 @@
         "countability": "countable",
         "transcription": "/ʃə.mɛ̃/"
     },
-    {
+{
         "word": "route",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5731,7 +5743,7 @@
         "countability": "countable",
         "transcription": "/ʁut/"
     },
-    {
+{
         "word": "place",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5751,7 +5763,7 @@
         "countability": "countable",
         "transcription": "/plas/"
     },
-    {
+{
         "word": "pont",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5771,7 +5783,7 @@
         "countability": "countable",
         "transcription": "/pɔ̃/"
     },
-    {
+{
         "word": "plage",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5791,7 +5803,7 @@
         "countability": "countable",
         "transcription": "/plaʒ/"
     },
-    {
+{
         "word": "campagne",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5811,7 +5823,7 @@
         "countability": "uncountable",
         "transcription": "/kɑ̃.paɲ/"
     },
-    {
+{
         "word": "village",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5831,7 +5843,7 @@
         "countability": "countable",
         "transcription": "/vi.laʒ/"
     },
-    {
+{
         "word": "langue",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5851,7 +5863,7 @@
         "countability": "countable",
         "transcription": "/lɑ̃ɡ/"
     },
-    {
+{
         "word": "mot",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5871,7 +5883,7 @@
         "countability": "countable",
         "transcription": "/mo/"
     },
-    {
+{
         "word": "phrase",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5891,7 +5903,7 @@
         "countability": "countable",
         "transcription": "/fʁaz/"
     },
-    {
+{
         "word": "question",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5911,7 +5923,7 @@
         "countability": "countable",
         "transcription": "/kɛs.tjɔ̃/"
     },
-    {
+{
         "word": "réponse",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5931,7 +5943,7 @@
         "countability": "countable",
         "transcription": "/ʁe.pɔ̃s/"
     },
-    {
+{
         "word": "idée",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5951,7 +5963,7 @@
         "countability": "countable",
         "transcription": "/i.de/"
     },
-    {
+{
         "word": "avis",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5971,7 +5983,7 @@
         "countability": "countable",
         "transcription": "/a.vi/"
     },
-    {
+{
         "word": "opinion",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5991,7 +6003,7 @@
         "countability": "countable",
         "transcription": "/ɔ.pi.njɔ̃/"
     },
-    {
+{
         "word": "choix",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -6011,7 +6023,7 @@
         "countability": "countable",
         "transcription": "/ʃwa/"
     },
-    {
+{
         "word": "décision",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -6031,7 +6043,7 @@
         "countability": "countable",
         "transcription": "/de.si.zjɔ̃/"
     },
-    {
+{
         "word": "projet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6051,7 +6063,7 @@
         "countability": "countable",
         "transcription": "/pʁɔ.ʒɛ/"
     },
-    {
+{
         "word": "réussite",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6071,7 +6083,7 @@
         "countability": "countable",
         "transcription": "/ʁe.y.sit/"
     },
-    {
+{
         "word": "erreur",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -6091,7 +6103,7 @@
         "countability": "countable",
         "transcription": "/e.ʁœʁ/"
     },
-    {
+{
         "word": "faute",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -6111,7 +6123,7 @@
         "countability": "countable",
         "transcription": "/fot/"
     },
-    {
+{
         "word": "cadeau",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6131,7 +6143,7 @@
         "countability": "countable",
         "transcription": "/ka.do/"
     },
-    {
+{
         "word": "prix",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6151,7 +6163,7 @@
         "countability": "countable",
         "transcription": "/pʁi/"
     },
-    {
+{
         "word": "achat",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6171,7 +6183,7 @@
         "countability": "countable",
         "transcription": "/a.ʃa/"
     },
-    {
+{
         "word": "magasin",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6191,7 +6203,7 @@
         "countability": "countable",
         "transcription": "/ma.ɡa.zɛ̃/"
     },
-    {
+{
         "word": "centre commercial",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6211,7 +6223,7 @@
         "countability": "countable",
         "transcription": "/sɑ̃.tʁə kɔ.mɛʁ.sjal/"
     },
-    {
+{
         "word": "monnaie",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6231,7 +6243,7 @@
         "countability": "uncountable",
         "transcription": "/mɔ.nɛ/"
     },
-    {
+{
         "word": "compte",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6251,7 +6263,7 @@
         "countability": "countable",
         "transcription": "/kɔ̃t/"
     },
-    {
+{
         "word": "banque",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6271,7 +6283,7 @@
         "countability": "countable",
         "transcription": "/bɑ̃k/"
     },
-    {
+{
         "word": "épargne",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6291,7 +6303,7 @@
         "countability": "uncountable",
         "transcription": "/e.paʁɲ/"
     },
-    {
+{
         "word": "dépense",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6311,7 +6323,7 @@
         "countability": "countable",
         "transcription": "/de.pɑ̃s/"
     },
-    {
+{
         "word": "paiement",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6331,7 +6343,7 @@
         "countability": "countable",
         "transcription": "/pɛ.mɑ̃/"
     },
-    {
+{
         "word": "coût",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6351,7 +6363,7 @@
         "countability": "countable",
         "transcription": "/ku/"
     },
-    {
+{
         "word": "marché",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6371,7 +6383,7 @@
         "countability": "countable",
         "transcription": "/maʁ.ʃe/"
     },
-    {
+{
         "word": "produit",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6391,7 +6403,7 @@
         "countability": "countable",
         "transcription": "/pʁɔ.dɥi/"
     },
-    {
+{
         "word": "service",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6411,7 +6423,7 @@
         "countability": "countable",
         "transcription": "/sɛʁ.vis/"
     },
-    {
+{
         "word": "offre",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6431,7 +6443,7 @@
         "countability": "countable",
         "transcription": "/ɔfʁ/"
     },
-    {
+{
         "word": "demande",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6451,7 +6463,7 @@
         "countability": "countable",
         "transcription": "/də.mɑ̃d/"
     },
-    {
+{
         "word": "livraison",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6471,7 +6483,7 @@
         "countability": "countable",
         "transcription": "/li.vʁɛ.zɔ̃/"
     },
-    {
+{
         "word": "commande",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6491,7 +6503,7 @@
         "countability": "countable",
         "transcription": "/kɔ.mɑ̃d/"
     },
-    {
+{
         "word": "clientèle",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6511,7 +6523,7 @@
         "countability": "uncountable",
         "transcription": "/kli.jɑ̃.tɛl/"
     },
-    {
+{
         "word": "vente",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6531,7 +6543,7 @@
         "countability": "countable",
         "transcription": "/vɑ̃t/"
     },
-    {
+{
         "word": "boutique",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6551,7 +6563,7 @@
         "countability": "countable",
         "transcription": "/bu.tik/"
     },
-    {
+{
         "word": "étage",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6571,7 +6583,7 @@
         "countability": "countable",
         "transcription": "/e.taʒ/"
     },
-    {
+{
         "word": "entrée",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6591,7 +6603,7 @@
         "countability": "countable",
         "transcription": "/ɑ̃.tʁe/"
     },
-    {
+{
         "word": "sortie",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6611,7 +6623,7 @@
         "countability": "countable",
         "transcription": "/sɔʁ.ti/"
     },
-    {
+{
         "word": "escalier",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6631,7 +6643,7 @@
         "countability": "countable",
         "transcription": "/ɛs.ka.lje/"
     },
-    {
+{
         "word": "ascenseur",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6651,7 +6663,7 @@
         "countability": "countable",
         "transcription": "/a.sɑ̃.sœʁ/"
     },
-    {
+{
         "word": "couloir",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6671,7 +6683,7 @@
         "countability": "countable",
         "transcription": "/ku.lwaʁ/"
     },
-    {
+{
         "word": "murs",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6691,7 +6703,7 @@
         "countability": "countable",
         "transcription": "/myʁ/"
     },
-    {
+{
         "word": "toit",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6711,8 +6723,9 @@
         "countability": "countable",
         "transcription": "/twa/"
     },
-    {
+{
         "word": "jardin",
+        "image": "images/vocabulary/home/garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
@@ -6731,7 +6744,7 @@
         "countability": "countable",
         "transcription": "/ʒaʁ.dɛ̃/"
     },
-    {
+{
         "word": "garage",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6751,7 +6764,7 @@
         "countability": "countable",
         "transcription": "/ɡa.ʁaʒ/"
     },
-    {
+{
         "word": "salon",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6771,7 +6784,7 @@
         "countability": "countable",
         "transcription": "/sa.lɔ̃/"
     },
-    {
+{
         "word": "cuisine",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6791,7 +6804,7 @@
         "countability": "countable",
         "transcription": "/kɥi.zin/"
     },
-    {
+{
         "word": "salle à manger",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6811,7 +6824,7 @@
         "countability": "countable",
         "transcription": "/sal a mɑ̃.ʒe/"
     },
-    {
+{
         "word": "toilette",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6831,9 +6844,9 @@
         "countability": "countable",
         "transcription": "/twa.lɛt/"
     },
-    {
+{
         "word": "douche",
-        "image": "images/vocabulary/take.have a shower.png",
+        "image": "images/vocabulary/actions/take.have a shower.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -6852,7 +6865,7 @@
         "countability": "countable",
         "transcription": "/duʃ/"
     },
-    {
+{
         "word": "robinet",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6872,7 +6885,7 @@
         "countability": "countable",
         "transcription": "/ʁɔ.bi.nɛ/"
     },
-    {
+{
         "word": "savon",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -6892,7 +6905,7 @@
         "countability": "countable",
         "transcription": "/sa.vɔ̃/"
     },
-    {
+{
         "word": "serviette",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6912,7 +6925,7 @@
         "countability": "countable",
         "transcription": "/sɛʁ.vjɛt/"
     },
-    {
+{
         "word": "miroir",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6932,7 +6945,7 @@
         "countability": "countable",
         "transcription": "/mi.ʁwaʁ/"
     },
-    {
+{
         "word": "lit",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6952,7 +6965,7 @@
         "countability": "countable",
         "transcription": "/li/"
     },
-    {
+{
         "word": "oreiller",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6972,7 +6985,7 @@
         "countability": "countable",
         "transcription": "/ɔ.ʁɛ.je/"
     },
-    {
+{
         "word": "couverture",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6992,7 +7005,7 @@
         "countability": "countable",
         "transcription": "/ku.vɛʁ.tyʁ/"
     },
-    {
+{
         "word": "armoire",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7012,7 +7025,7 @@
         "countability": "countable",
         "transcription": "/aʁ.mwaʁ/"
     },
-    {
+{
         "word": "étagère",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7032,7 +7045,7 @@
         "countability": "countable",
         "transcription": "/e.ta.ʒɛʁ/"
     },
-    {
+{
         "word": "bureau",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7052,7 +7065,7 @@
         "countability": "countable",
         "transcription": "/by.ʁo/"
     },
-    {
+{
         "word": "chaise",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7072,7 +7085,7 @@
         "countability": "countable",
         "transcription": "/ʃɛz/"
     },
-    {
+{
         "word": "fauteuil",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7092,7 +7105,7 @@
         "countability": "countable",
         "transcription": "/fo.tœj/"
     },
-    {
+{
         "word": "canapé",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7112,7 +7125,7 @@
         "countability": "countable",
         "transcription": "/ka.na.pe/"
     },
-    {
+{
         "word": "lampe",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7132,7 +7145,7 @@
         "countability": "countable",
         "transcription": "/lɑ̃p/"
     },
-    {
+{
         "word": "télévision",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7152,7 +7165,7 @@
         "countability": "countable",
         "transcription": "/te.le.vi.zjɔ̃/"
     },
-    {
+{
         "word": "radio",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7172,7 +7185,7 @@
         "countability": "countable",
         "transcription": "/ʁa.djo/"
     },
-    {
+{
         "word": "téléphone",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7192,7 +7205,7 @@
         "countability": "countable",
         "transcription": "/te.le.fɔn/"
     },
-    {
+{
         "word": "montre",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -7212,7 +7225,7 @@
         "countability": "countable",
         "transcription": "/mɔ̃tʁ/"
     },
-    {
+{
         "word": "sac",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7232,7 +7245,7 @@
         "countability": "countable",
         "transcription": "/sak/"
     },
-    {
+{
         "word": "portefeuille",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7252,7 +7265,7 @@
         "countability": "countable",
         "transcription": "/pɔʁ.tə.fœj/"
     },
-    {
+{
         "word": "lunettes",
         "level": "starter",
         "theme": "accessories_A1",
@@ -7272,7 +7285,7 @@
         "countability": "countable",
         "transcription": "/ly.nɛt/"
     },
-    {
+{
         "word": "parapluie",
         "level": "starter",
         "theme": "weather_A1",
@@ -7292,7 +7305,7 @@
         "countability": "countable",
         "transcription": "/pa.ʁa.plɥi/"
     },
-    {
+{
         "word": "chaussures",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7312,7 +7325,7 @@
         "countability": "countable",
         "transcription": "/ʃo.syʁ/"
     },
-    {
+{
         "word": "bottes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7332,7 +7345,7 @@
         "countability": "countable",
         "transcription": "/bɔt/"
     },
-    {
+{
         "word": "chaussettes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7352,7 +7365,7 @@
         "countability": "countable",
         "transcription": "/ʃo.sɛt/"
     },
-    {
+{
         "word": "pantalon",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7372,7 +7385,7 @@
         "countability": "countable",
         "transcription": "/pɑ̃.ta.lɔ̃/"
     },
-    {
+{
         "word": "jean",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7392,7 +7405,7 @@
         "countability": "countable",
         "transcription": "/dʒin/"
     },
-    {
+{
         "word": "jupe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7412,7 +7425,7 @@
         "countability": "countable",
         "transcription": "/ʒyp/"
     },
-    {
+{
         "word": "robe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7432,7 +7445,7 @@
         "countability": "countable",
         "transcription": "/ʁɔb/"
     },
-    {
+{
         "word": "chemise",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7452,7 +7465,7 @@
         "countability": "countable",
         "transcription": "/ʃə.miz/"
     },
-    {
+{
         "word": "pull",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7472,7 +7485,7 @@
         "countability": "countable",
         "transcription": "/pyl/"
     },
-    {
+{
         "word": "manteau",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7492,7 +7505,7 @@
         "countability": "countable",
         "transcription": "/mɑ̃.to/"
     },
-    {
+{
         "word": "veste",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7512,7 +7525,7 @@
         "countability": "countable",
         "transcription": "/vɛst/"
     },
-    {
+{
         "word": "casquette",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7532,7 +7545,7 @@
         "countability": "countable",
         "transcription": "/kas.kɛt/"
     },
-    {
+{
         "word": "bonnet",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7552,7 +7565,7 @@
         "countability": "countable",
         "transcription": "/bɔ.nɛ/"
     },
-    {
+{
         "word": "gants",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7572,7 +7585,7 @@
         "countability": "countable",
         "transcription": "/ɡɑ̃/"
     },
-    {
+{
         "word": "ceinture",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7592,7 +7605,7 @@
         "countability": "countable",
         "transcription": "/sɛ̃.tyʁ/"
     },
-    {
+{
         "word": "maillot de bain",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7612,7 +7625,7 @@
         "countability": "countable",
         "transcription": "/ma.jo də bɛ̃/"
     },
-    {
+{
         "word": "pyjama",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -7632,7 +7645,7 @@
         "countability": "countable",
         "transcription": "/pi.ʒa.ma/"
     },
-    {
+{
         "word": "valise",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7652,7 +7665,7 @@
         "countability": "countable",
         "transcription": "/va.liz/"
     },
-    {
+{
         "word": "sac à dos",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7672,7 +7685,7 @@
         "countability": "countable",
         "transcription": "/sak a do/"
     },
-    {
+{
         "word": "passeport",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7692,7 +7705,7 @@
         "countability": "countable",
         "transcription": "/pas.pɔʁ/"
     },
-    {
+{
         "word": "billet",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7712,7 +7725,7 @@
         "countability": "countable",
         "transcription": "/bi.jɛ/"
     },
-    {
+{
         "word": "carte",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7732,7 +7745,7 @@
         "countability": "countable",
         "transcription": "/kaʁt/"
     },
-    {
+{
         "word": "plan",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7752,7 +7765,7 @@
         "countability": "countable",
         "transcription": "/plɑ̃/"
     },
-    {
+{
         "word": "gare",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7772,7 +7785,7 @@
         "countability": "countable",
         "transcription": "/ɡaʁ/"
     },
-    {
+{
         "word": "aéroport",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7792,7 +7805,7 @@
         "countability": "countable",
         "transcription": "/a.e.ʁɔ.pɔʁ/"
     },
-    {
+{
         "word": "station de bus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7812,7 +7825,7 @@
         "countability": "countable",
         "transcription": "/sta.sjɔ̃ də bys/"
     },
-    {
+{
         "word": "arrêt de bus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7832,7 +7845,7 @@
         "countability": "countable",
         "transcription": "/a.ʁɛ də bys/"
     },
-    {
+{
         "word": "quai",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7852,7 +7865,7 @@
         "countability": "countable",
         "transcription": "/ke/"
     },
-    {
+{
         "word": "voie",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7872,7 +7885,7 @@
         "countability": "countable",
         "transcription": "/vwa/"
     },
-    {
+{
         "word": "train",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7892,7 +7905,7 @@
         "countability": "countable",
         "transcription": "/tʁɛ̃/"
     },
-    {
+{
         "word": "bus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7912,7 +7925,7 @@
         "countability": "countable",
         "transcription": "/bys/"
     },
-    {
+{
         "word": "métro",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7932,7 +7945,7 @@
         "countability": "countable",
         "transcription": "/me.tʁo/"
     },
-    {
+{
         "word": "taxi",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7952,7 +7965,7 @@
         "countability": "countable",
         "transcription": "/tak.si/"
     },
-    {
+{
         "word": "vitesse",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -7972,7 +7985,7 @@
         "countability": "countable",
         "transcription": "/vi.tɛs/"
     },
-    {
+{
         "word": "bagages",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7992,7 +8005,7 @@
         "countability": "countable",
         "transcription": "/ba.ɡaʒ/"
     },
-    {
+{
         "word": "voyage",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8012,7 +8025,7 @@
         "countability": "countable",
         "transcription": "/vwa.jaʒ/"
     },
-    {
+{
         "word": "vacances",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -8032,7 +8045,7 @@
         "countability": "countable",
         "transcription": "/va.kɑ̃s/"
     },
-    {
+{
         "word": "départ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8052,7 +8065,7 @@
         "countability": "countable",
         "transcription": "/de.paʁ/"
     },
-    {
+{
         "word": "arrivée",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8072,7 +8085,7 @@
         "countability": "countable",
         "transcription": "/a.ʁi.ve/"
     },
-    {
+{
         "word": "vol",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -8092,7 +8105,7 @@
         "countability": "countable",
         "transcription": "/vɔl/"
     },
-    {
+{
         "word": "réservation",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8112,7 +8125,7 @@
         "countability": "countable",
         "transcription": "/ʁe.zɛʁ.va.sjɔ̃/"
     },
-    {
+{
         "word": "chambre d'hôtel",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8132,7 +8145,7 @@
         "countability": "countable",
         "transcription": "/ʃɑ̃.bʁə d‿o.tɛl/"
     },
-    {
+{
         "word": "clé",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8152,7 +8165,7 @@
         "countability": "countable",
         "transcription": "/kle/"
     },
-    {
+{
         "word": "réception",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8172,9 +8185,9 @@
         "countability": "countable",
         "transcription": "/ʁe.sɛp.sjɔ̃/"
     },
-    {
+{
         "word": "déjeuner",
-        "image": "images/vocabulary/have lunch.png",
+        "image": "images/vocabulary/actions/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -8193,9 +8206,9 @@
         "countability": "countable",
         "transcription": "/de.ʒœ.ne/"
     },
-    {
+{
         "word": "dîner",
-        "image": "images/vocabulary/have dinner.png",
+        "image": "images/vocabulary/actions/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -8214,7 +8227,7 @@
         "countability": "countable",
         "transcription": "/di.ne/"
     },
-    {
+{
         "word": "souper",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -8234,7 +8247,7 @@
         "countability": "countable",
         "transcription": "/su.pe/"
     },
-    {
+{
         "word": "collation",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -8254,7 +8267,7 @@
         "countability": "countable",
         "transcription": "/kɔ.la.sjɔ̃/"
     },
-    {
+{
         "word": "réveil",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -8274,7 +8287,7 @@
         "countability": "countable",
         "transcription": "/ʁe.vɛj/"
     },
-    {
+{
         "word": "mathématiques",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -8295,7 +8308,7 @@
         ],
         "transcription": "matematik"
     },
-    {
+{
         "word": "histoire",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -8316,7 +8329,7 @@
         ],
         "transcription": "istwaʁ"
     },
-    {
+{
         "word": "science",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -8337,7 +8350,7 @@
         ],
         "transcription": "sjɑ̃s"
     },
-    {
+{
         "word": "géographie",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -8358,7 +8371,7 @@
         ],
         "transcription": "ʒeɔɡʁafi"
     },
-    {
+{
         "word": "tigre",
         "level": "starter",
         "theme": "animals_A1",
@@ -8379,7 +8392,7 @@
         ],
         "transcription": "tiɡʁ"
     },
-    {
+{
         "word": "singe",
         "level": "starter",
         "theme": "animals_A1",
@@ -8400,7 +8413,7 @@
         ],
         "transcription": "sɛ̃ʒ"
     },
-    {
+{
         "word": "baleine",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -8421,7 +8434,7 @@
         ],
         "transcription": "balɛn"
     },
-    {
+{
         "word": "cercle",
         "level": "starter",
         "theme": "shapes_A1",
@@ -8442,7 +8455,7 @@
         ],
         "transcription": "sɛʁkl"
     },
-    {
+{
         "word": "triangle",
         "level": "starter",
         "theme": "shapes_A1",
@@ -8463,7 +8476,7 @@
         ],
         "transcription": "tʁijɑ̃ɡl"
     },
-    {
+{
         "word": "grille-pain",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8484,7 +8497,7 @@
         ],
         "transcription": "ɡʁij pɛ̃"
     },
-    {
+{
         "word": "four à micro-ondes",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8505,7 +8518,7 @@
         ],
         "transcription": "fuʁ a mikʁo ɔ̃d"
     },
-    {
+{
         "word": "règle",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8526,7 +8539,7 @@
         ],
         "transcription": "ʁɛɡl"
     },
-    {
+{
         "word": "pilote",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8547,7 +8560,7 @@
         ],
         "transcription": "pilɔt"
     },
-    {
+{
         "word": "serveur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8568,7 +8581,7 @@
         ],
         "transcription": "sɛʁvœʁ"
     },
-    {
+{
         "word": "dentiste",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8589,7 +8602,7 @@
         ],
         "transcription": "dɑ̃tist"
     },
-    {
+{
         "word": "policier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8610,7 +8623,7 @@
         ],
         "transcription": "pɔlisje"
     },
-    {
+{
         "word": "pompier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8631,7 +8644,7 @@
         ],
         "transcription": "pɔ̃pje"
     },
-    {
+{
         "word": "soldat",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8652,7 +8665,7 @@
         ],
         "transcription": "sɔlda"
     },
-    {
+{
         "word": "écrivain",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8673,7 +8686,7 @@
         ],
         "transcription": "ekʁivɛ̃"
     },
-    {
+{
         "word": "ingénieur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8694,7 +8707,7 @@
         ],
         "transcription": "ɛ̃ʒenjœʁ"
     },
-    {
+{
         "word": "secrétaire",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8715,7 +8728,7 @@
         ],
         "transcription": "səkʁetɛʁ"
     },
-    {
+{
         "word": "chapeau",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8736,7 +8749,7 @@
         ],
         "transcription": "ʃapo"
     },
-    {
+{
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8757,7 +8770,7 @@
         ],
         "transcription": "ti ʃœʁt"
     },
-    {
+{
         "word": "short",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8778,7 +8791,7 @@
         ],
         "transcription": "ʃɔʁt"
     },
-    {
+{
         "word": "botte",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8799,7 +8812,7 @@
         ],
         "transcription": "bɔt"
     },
-    {
+{
         "word": "écharpe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8820,7 +8833,7 @@
         ],
         "transcription": "eʃaʁp"
     },
-    {
+{
         "word": "gant",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8841,7 +8854,7 @@
         ],
         "transcription": "ɡɑ̃"
     },
-    {
+{
         "word": "terre",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8861,7 +8874,7 @@
         ],
         "transcription": "tɛʁ"
     },
-    {
+{
         "word": "colline",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8882,7 +8895,7 @@
         ],
         "transcription": "kɔlin"
     },
-    {
+{
         "word": "vallée",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8903,7 +8916,7 @@
         ],
         "transcription": "vale"
     },
-    {
+{
         "word": "forêt",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8924,7 +8937,7 @@
         ],
         "transcription": "fɔʁɛ"
     },
-    {
+{
         "word": "bois",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8945,7 +8958,7 @@
         ],
         "transcription": "bwa"
     },
-    {
+{
         "word": "lac",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8966,7 +8979,7 @@
         ],
         "transcription": "lak"
     },
-    {
+{
         "word": "champ",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -8987,7 +9000,7 @@
         ],
         "transcription": "ʃɑ̃"
     },
-    {
+{
         "word": "feuille",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -9008,7 +9021,7 @@
         ],
         "transcription": "fœj"
     },
-    {
+{
         "word": "plante",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -9029,7 +9042,7 @@
         ],
         "transcription": "plɑ̃t"
     },
-    {
+{
         "word": "nature",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9048,9 +9061,7 @@
             }
         ],
         "transcription": "natyʁ"
-    }
+    },
+{}
 ];
-    const lang = "fr";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

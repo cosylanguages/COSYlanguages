@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "doctor",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -29,7 +39,7 @@
         "countability": "countable",
         "opposite": null
     },
-    {
+{
         "word": "soda",
         "level": "starter",
         "theme": "drinks_A1",
@@ -49,7 +59,7 @@
         "countability": "countable",
         "opposite": null
     },
-    {
+{
         "word": "scarf",
         "level": "starter",
         "theme": "accessories_A1",
@@ -69,7 +79,7 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-    {
+{
         "word": "cereal",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -89,7 +99,7 @@
         "subtext": "related to basic foods",
         "opposite": null
     },
-    {
+{
         "word": "gloves",
         "level": "starter",
         "theme": "accessories_A1",
@@ -109,7 +119,7 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-    {
+{
         "word": "sunglasses",
         "level": "starter",
         "theme": "accessories_A1",
@@ -129,7 +139,7 @@
         "subtext": "related to accessories",
         "opposite": null
     },
-    {
+{
         "word": "suit",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -149,7 +159,7 @@
         "countability": "countable",
         "opposite": null
     },
-    {
+{
         "word": "person",
         "level": "starter",
         "theme": "people_A1",
@@ -171,7 +181,7 @@
         "subtext": "related to people",
         "opposite": null
     },
-    {
+{
         "word": "cash",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -191,7 +201,7 @@
         "countability": "uncountable",
         "opposite": null
     },
-    {
+{
         "word": "card",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -211,7 +221,7 @@
         "countability": "countable",
         "opposite": null
     },
-    {
+{
         "word": "report",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -231,7 +241,7 @@
         "opposite": null,
         "transcription": "rɪˈpɔːt"
     },
-    {
+{
         "word": "market",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -251,7 +261,7 @@
         "opposite": null,
         "transcription": "ˈmɑːkɪt"
     },
-    {
+{
         "word": "jacket",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -271,7 +281,7 @@
         "opposite": null,
         "transcription": "ˈdʒækɪt"
     },
-    {
+{
         "word": "shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -291,7 +301,7 @@
         "opposite": null,
         "transcription": "ʃɜːt"
     },
-    {
+{
         "word": "foot",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -314,7 +324,7 @@
         "opposite": null,
         "transcription": "fʊt"
     },
-    {
+{
         "word": "face",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -334,7 +344,7 @@
         "opposite": null,
         "transcription": "feɪs"
     },
-    {
+{
         "word": "hair",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -354,7 +364,7 @@
         "opposite": null,
         "transcription": "heə(r)"
     },
-    {
+{
         "word": "tooth",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -376,7 +386,7 @@
         "opposite": null,
         "transcription": "tuːθ"
     },
-    {
+{
         "word": "teacher",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -404,7 +414,7 @@
         "countability": "countable",
         "transcription": "ˈtiʧər"
     },
-    {
+{
         "word": "pizza",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -433,7 +443,7 @@
         "opposite": null,
         "transcription": "ˈpitsə"
     },
-    {
+{
         "word": "pasta",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -460,7 +470,7 @@
         "opposite": null,
         "transcription": "ˈpɑstə"
     },
-    {
+{
         "word": "apple",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -483,7 +493,7 @@
         "opposite": null,
         "transcription": "ˈæpəl"
     },
-    {
+{
         "word": "bread",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -505,7 +515,7 @@
         "opposite": null,
         "transcription": "brɛd"
     },
-    {
+{
         "word": "egg",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -532,7 +542,7 @@
         "opposite": null,
         "transcription": "ɛg"
     },
-    {
+{
         "word": "milk",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -559,7 +569,7 @@
         "opposite": null,
         "transcription": "mɪlk"
     },
-    {
+{
         "word": "banana",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -586,7 +596,7 @@
         "opposite": null,
         "transcription": "bəˈnænə"
     },
-    {
+{
         "word": "coffee",
         "level": "starter",
         "theme": "drinks_A1",
@@ -614,7 +624,7 @@
         "opposite": null,
         "transcription": "ˈkɔfi"
     },
-    {
+{
         "word": "tea",
         "level": "starter",
         "theme": "drinks_A1",
@@ -642,7 +652,7 @@
         "opposite": null,
         "transcription": "ti"
     },
-    {
+{
         "word": "juice",
         "level": "starter",
         "theme": "drinks_A1",
@@ -669,7 +679,7 @@
         "opposite": null,
         "transcription": "ʤus"
     },
-    {
+{
         "word": "water",
         "level": "starter",
         "theme": "drinks_A1",
@@ -691,7 +701,7 @@
         "opposite": null,
         "transcription": "ˈwɔtər"
     },
-    {
+{
         "word": "park",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -718,7 +728,7 @@
         "opposite": null,
         "transcription": "pɑrk"
     },
-    {
+{
         "word": "school",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -739,7 +749,7 @@
         "opposite": null,
         "transcription": "skul"
     },
-    {
+{
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -759,7 +769,7 @@
         "opposite": null,
         "transcription": "ˈtiˌsərt"
     },
-    {
+{
         "word": "pants",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -782,7 +792,7 @@
         "opposite": null,
         "transcription": "pænts"
     },
-    {
+{
         "word": "shoe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -802,7 +812,7 @@
         "opposite": null,
         "transcription": "ʃu"
     },
-    {
+{
         "word": "hat",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -822,7 +832,7 @@
         "opposite": null,
         "transcription": "hæt"
     },
-    {
+{
         "word": "chair",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -843,7 +853,7 @@
         "opposite": null,
         "transcription": "ʧɛr"
     },
-    {
+{
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -864,7 +874,7 @@
         "opposite": null,
         "transcription": "ˈteɪbəl"
     },
-    {
+{
         "word": "bed",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -885,7 +895,7 @@
         "opposite": null,
         "transcription": "bɛd"
     },
-    {
+{
         "word": "key",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -913,7 +923,7 @@
         "opposite": null,
         "transcription": "ki"
     },
-    {
+{
         "word": "phone",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -936,7 +946,7 @@
         "opposite": null,
         "transcription": "foʊn"
     },
-    {
+{
         "word": "book",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -959,7 +969,7 @@
         "opposite": null,
         "transcription": "bʊk"
     },
-    {
+{
         "word": "bag",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -980,7 +990,7 @@
         "opposite": null,
         "transcription": "bæg"
     },
-    {
+{
         "word": "pen",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1001,7 +1011,7 @@
         "opposite": null,
         "transcription": "pɛn"
     },
-    {
+{
         "word": "cat",
         "level": "starter",
         "theme": "animals_A1",
@@ -1024,7 +1034,7 @@
         "opposite": null,
         "transcription": "kæt"
     },
-    {
+{
         "word": "dog",
         "level": "starter",
         "theme": "animals_A1",
@@ -1047,7 +1057,7 @@
         "opposite": null,
         "transcription": "dɔg"
     },
-    {
+{
         "word": "bird",
         "level": "starter",
         "theme": "animals_A1",
@@ -1068,7 +1078,7 @@
         "opposite": null,
         "transcription": "bərd"
     },
-    {
+{
         "word": "fish",
         "level": "starter",
         "theme": "animals_A1",
@@ -1089,7 +1099,7 @@
         "opposite": null,
         "transcription": "fɪʃ"
     },
-    {
+{
         "word": "head",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1110,7 +1120,7 @@
         "opposite": null,
         "transcription": "hɛd"
     },
-    {
+{
         "word": "hand",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1131,7 +1141,7 @@
         "opposite": null,
         "transcription": "hænd"
     },
-    {
+{
         "word": "leg",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1151,7 +1161,7 @@
         "opposite": null,
         "transcription": "lɛg"
     },
-    {
+{
         "word": "eye",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1172,7 +1182,7 @@
         "opposite": null,
         "transcription": "aɪ"
     },
-    {
+{
         "word": "nose",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1192,7 +1202,7 @@
         "opposite": null,
         "transcription": "noʊz"
     },
-    {
+{
         "word": "mouth",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1212,7 +1222,7 @@
         "opposite": null,
         "transcription": "maʊθ"
     },
-    {
+{
         "word": "ear",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1232,7 +1242,7 @@
         "opposite": null,
         "transcription": "ɪr"
     },
-    {
+{
         "word": "smartphone",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -1252,7 +1262,7 @@
         "opposite": null,
         "transcription": "ˈsmɑːrtfoʊn"
     },
-    {
+{
         "word": "mother",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1273,7 +1283,7 @@
         "opposite": null,
         "transcription": "ˈməðər"
     },
-    {
+{
         "word": "father",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1294,7 +1304,7 @@
         "opposite": null,
         "transcription": "ˈfɑðər"
     },
-    {
+{
         "word": "man",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1318,7 +1328,7 @@
         "opposite": null,
         "transcription": "mæn"
     },
-    {
+{
         "word": "woman",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1342,7 +1352,7 @@
         "opposite": null,
         "transcription": "ˈwʊmən"
     },
-    {
+{
         "word": "work",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1361,7 +1371,7 @@
         "opposite": null,
         "transcription": "wərk"
     },
-    {
+{
         "word": "job",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1381,7 +1391,7 @@
         "opposite": null,
         "transcription": "ʤɑb"
     },
-    {
+{
         "word": "office",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
@@ -1401,7 +1411,7 @@
         "opposite": null,
         "transcription": "ˈɔfəs"
     },
-    {
+{
         "word": "home",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1420,7 +1430,7 @@
         "opposite": null,
         "transcription": "hoʊm"
     },
-    {
+{
         "word": "house",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1440,7 +1450,7 @@
         "opposite": null,
         "transcription": "haʊs"
     },
-    {
+{
         "word": "flat",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1463,7 +1473,7 @@
         "opposite": null,
         "transcription": "flæt"
     },
-    {
+{
         "word": "car",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1483,7 +1493,7 @@
         "opposite": null,
         "transcription": "kɑr"
     },
-    {
+{
         "word": "bus",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1503,7 +1513,7 @@
         "opposite": null,
         "transcription": "bəs"
     },
-    {
+{
         "word": "train",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1523,7 +1533,7 @@
         "opposite": null,
         "transcription": "treɪn"
     },
-    {
+{
         "word": "food",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1542,7 +1552,7 @@
         "opposite": null,
         "transcription": "fud"
     },
-    {
+{
         "word": "rice",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1562,7 +1572,7 @@
         "opposite": null,
         "transcription": "raɪs"
     },
-    {
+{
         "word": "meat",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1582,7 +1592,7 @@
         "opposite": null,
         "transcription": "mit"
     },
-    {
+{
         "word": "breakfast",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1601,7 +1611,7 @@
         "opposite": null,
         "transcription": "ˈbrɛkfəst"
     },
-    {
+{
         "word": "dinner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1620,7 +1630,7 @@
         "opposite": null,
         "transcription": "ˈdɪnər"
     },
-    {
+{
         "word": "money",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1640,7 +1650,7 @@
         "opposite": null,
         "transcription": "ˈməni"
     },
-    {
+{
         "word": "shop",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1660,7 +1670,7 @@
         "opposite": null,
         "transcription": "ʃɑp"
     },
-    {
+{
         "word": "family",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1680,7 +1690,7 @@
         "opposite": null,
         "transcription": "ˈfæməli"
     },
-    {
+{
         "word": "friend",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1700,7 +1710,7 @@
         "opposite": null,
         "transcription": "frɛnd"
     },
-    {
+{
         "word": "partner",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -1720,7 +1730,7 @@
         "opposite": null,
         "transcription": "ˈpɑrtnər"
     },
-    {
+{
         "word": "morning",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1739,7 +1749,7 @@
         "countability": "countable",
         "transcription": "ˈmɔrnɪŋ"
     },
-    {
+{
         "word": "evening",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1758,7 +1768,7 @@
         "countability": "countable",
         "transcription": "ˈivnɪŋ"
     },
-    {
+{
         "word": "day",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1778,7 +1788,7 @@
         "subtext": "related to times day",
         "transcription": "deɪ"
     },
-    {
+{
         "word": "week",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1798,7 +1808,7 @@
         "opposite": null,
         "transcription": "wik"
     },
-    {
+{
         "word": "lunch",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1818,7 +1828,7 @@
         "opposite": null,
         "transcription": "lənʧ"
     },
-    {
+{
         "word": "boss",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1838,7 +1848,7 @@
         "opposite": null,
         "transcription": "bɔs"
     },
-    {
+{
         "word": "colleague",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1858,7 +1868,7 @@
         "opposite": null,
         "transcription": "ˈkɑlig"
     },
-    {
+{
         "word": "meeting",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1879,7 +1889,7 @@
         "opposite": null,
         "transcription": "ˈmitɪŋ"
     },
-    {
+{
         "word": "commute",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1899,7 +1909,7 @@
         "opposite": null,
         "transcription": "kəmˈjut"
     },
-    {
+{
         "word": "stress",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1918,7 +1928,7 @@
         "opposite": null,
         "transcription": "strɛs"
     },
-    {
+{
         "word": "rent",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1937,7 +1947,7 @@
         "opposite": null,
         "transcription": "rɛnt"
     },
-    {
+{
         "word": "neighbour",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1957,7 +1967,7 @@
         "opposite": null,
         "transcription": "ˈneɪbər"
     },
-    {
+{
         "word": "room",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1977,7 +1987,7 @@
         "opposite": null,
         "transcription": "rum"
     },
-    {
+{
         "word": "kitchen",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1997,9 +2007,9 @@
         "opposite": null,
         "transcription": "ˈkɪʧən"
     },
-    {
+{
         "word": "sleep",
-        "image": "images/vocabulary/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/fall asleep. sleep.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "😴",
@@ -2017,7 +2027,7 @@
         "opposite": "wake up",
         "transcription": "slip"
     },
-    {
+{
         "word": "exercise",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2036,7 +2046,7 @@
         "opposite": null,
         "transcription": "ˈɛksərˌsaɪz"
     },
-    {
+{
         "word": "price",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2056,7 +2066,7 @@
         "opposite": null,
         "transcription": "praɪs"
     },
-    {
+{
         "word": "cost",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2076,7 +2086,7 @@
         "opposite": null,
         "transcription": "kɔst"
     },
-    {
+{
         "word": "holiday",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2099,7 +2109,7 @@
         "opposite": null,
         "transcription": "ˈhɑlɪˌdeɪ"
     },
-    {
+{
         "word": "hotel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2119,7 +2129,7 @@
         "opposite": null,
         "transcription": "hoʊˈtɛl"
     },
-    {
+{
         "word": "weekend",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2139,7 +2149,7 @@
         "opposite": null,
         "transcription": "ˈwiˌkɪnd"
     },
-    {
+{
         "word": "free time",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2158,7 +2168,7 @@
         "opposite": null,
         "transcription": "fri taɪm"
     },
-    {
+{
         "word": "travel",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -2177,7 +2187,7 @@
         "opposite": null,
         "transcription": "ˈtrævəl"
     },
-    {
+{
         "word": "back",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2197,7 +2207,7 @@
         "opposite": null,
         "transcription": "bæk"
     },
-    {
+{
         "word": "arm",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -2217,7 +2227,7 @@
         "opposite": null,
         "transcription": "ɑrm"
     },
-    {
+{
         "word": "fruit",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2237,7 +2247,7 @@
         "opposite": null,
         "transcription": "frut"
     },
-    {
+{
         "word": "vegetable",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -2257,7 +2267,7 @@
         "opposite": null,
         "transcription": "ˈvɛʤtəbəl"
     },
-    {
+{
         "word": "beer",
         "level": "starter",
         "theme": "drinks_A1",
@@ -2277,7 +2287,7 @@
         "opposite": null,
         "transcription": "bɪr"
     },
-    {
+{
         "word": "wine",
         "level": "starter",
         "theme": "drinks_A1",
@@ -2297,7 +2307,7 @@
         "opposite": null,
         "transcription": "waɪn"
     },
-    {
+{
         "word": "door",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2317,7 +2327,7 @@
         "opposite": null,
         "transcription": "dɔr"
     },
-    {
+{
         "word": "window",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2337,7 +2347,7 @@
         "opposite": null,
         "transcription": "ˈwɪndoʊ"
     },
-    {
+{
         "word": "driver",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2357,7 +2367,7 @@
         "opposite": null,
         "transcription": "ˈdraɪvər"
     },
-    {
+{
         "word": "manager",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2377,7 +2387,7 @@
         "opposite": null,
         "transcription": "ˈmænɪʤər"
     },
-    {
+{
         "word": "plane",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -2397,7 +2407,7 @@
         "opposite": null,
         "transcription": "pleɪn"
     },
-    {
+{
         "word": "bike",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -2417,7 +2427,7 @@
         "opposite": null,
         "transcription": "baɪk"
     },
-    {
+{
         "word": "hospital",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2437,7 +2447,7 @@
         "opposite": null,
         "transcription": "ˈhɑˌspɪtəl"
     },
-    {
+{
         "word": "restaurant",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2457,7 +2467,7 @@
         "opposite": null,
         "transcription": "ˈrɛˌstrɑnt"
     },
-    {
+{
         "word": "bank",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2477,7 +2487,7 @@
         "opposite": null,
         "transcription": "bæŋk"
     },
-    {
+{
         "word": "station",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2497,7 +2507,7 @@
         "opposite": null,
         "transcription": "ˈsteɪʃən"
     },
-    {
+{
         "word": "supermarket",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2517,7 +2527,7 @@
         "opposite": null,
         "transcription": "ˈsupərˌmɑrkɪt"
     },
-    {
+{
         "word": "sun",
         "level": "starter",
         "theme": "weather_A1",
@@ -2537,7 +2547,7 @@
         "opposite": null,
         "transcription": "sən"
     },
-    {
+{
         "word": "rain",
         "level": "starter",
         "theme": "weather_A1",
@@ -2557,7 +2567,7 @@
         "opposite": null,
         "transcription": "reɪn"
     },
-    {
+{
         "word": "wind",
         "level": "starter",
         "theme": "weather_A1",
@@ -2577,7 +2587,7 @@
         "opposite": null,
         "transcription": "wɪnd"
     },
-    {
+{
         "word": "afternoon",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2596,7 +2606,7 @@
         "countability": "countable",
         "transcription": "ˌæftərˈnun"
     },
-    {
+{
         "word": "night",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2616,7 +2626,7 @@
         "countability": "countable",
         "transcription": "naɪt"
     },
-    {
+{
         "word": "husband",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2641,7 +2651,7 @@
         "countability": "countable",
         "transcription": "ˈhəzbənd"
     },
-    {
+{
         "word": "wife",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2666,7 +2676,7 @@
         "countability": "countable",
         "transcription": "waɪf"
     },
-    {
+{
         "word": "child",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2690,7 +2700,7 @@
         "opposite": "adult",
         "transcription": "ʧaɪld"
     },
-    {
+{
         "word": "parent",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2713,7 +2723,7 @@
         "opposite": null,
         "transcription": "ˈpɛrənt"
     },
-    {
+{
         "word": "sister",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2735,7 +2745,7 @@
         "countability": "countable",
         "transcription": "ˈsɪstər"
     },
-    {
+{
         "word": "brother",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2757,7 +2767,7 @@
         "countability": "countable",
         "transcription": "ˈbrəðər"
     },
-    {
+{
         "word": "son",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2778,7 +2788,7 @@
         "subtext": "related to immediate family",
         "transcription": "sən"
     },
-    {
+{
         "word": "daughter",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2799,7 +2809,7 @@
         "subtext": "related to immediate family",
         "transcription": "ˈdɔtər"
     },
-    {
+{
         "word": "grandfather",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2820,7 +2830,7 @@
         "subtext": "related to extended family",
         "transcription": "ˈgrænˌfɑðər"
     },
-    {
+{
         "word": "grandmother",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2841,7 +2851,7 @@
         "subtext": "related to extended family",
         "transcription": "ˈgrændˌməðər"
     },
-    {
+{
         "word": "uncle",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2862,7 +2872,7 @@
         "subtext": "related to extended family",
         "transcription": "ˈəŋkəl"
     },
-    {
+{
         "word": "aunt",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2883,7 +2893,7 @@
         "subtext": "related to extended family",
         "transcription": "ɔnt"
     },
-    {
+{
         "word": "cousin",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2903,7 +2913,7 @@
         "opposite": null,
         "transcription": "ˈkəzən"
     },
-    {
+{
         "word": "tree",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -2924,7 +2934,7 @@
         "opposite": null,
         "transcription": "tri"
     },
-    {
+{
         "word": "flower",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -2945,7 +2955,7 @@
         "opposite": null,
         "transcription": "flaʊər"
     },
-    {
+{
         "word": "mountain",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2966,7 +2976,7 @@
         "opposite": null,
         "transcription": "ˈmaʊntən"
     },
-    {
+{
         "word": "river",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2987,7 +2997,7 @@
         "opposite": null,
         "transcription": "ˈrɪvər"
     },
-    {
+{
         "word": "sea",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3008,7 +3018,7 @@
         "opposite": null,
         "transcription": "si"
     },
-    {
+{
         "word": "beach",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3029,7 +3039,7 @@
         "opposite": null,
         "transcription": "biʧ"
     },
-    {
+{
         "word": "sky",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3050,7 +3060,7 @@
         "opposite": null,
         "transcription": "skaɪ"
     },
-    {
+{
         "word": "moon",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3070,7 +3080,7 @@
         "opposite": null,
         "transcription": "mun"
     },
-    {
+{
         "word": "plate",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3090,7 +3100,7 @@
         "opposite": null,
         "transcription": "pleɪt"
     },
-    {
+{
         "word": "cup",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3110,7 +3120,7 @@
         "opposite": null,
         "transcription": "kəp"
     },
-    {
+{
         "word": "glass",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3130,7 +3140,7 @@
         "opposite": null,
         "transcription": "glæs"
     },
-    {
+{
         "word": "fork",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3150,7 +3160,7 @@
         "opposite": null,
         "transcription": "fɔrk"
     },
-    {
+{
         "word": "spoon",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3170,7 +3180,7 @@
         "opposite": null,
         "transcription": "spun"
     },
-    {
+{
         "word": "knife",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3190,7 +3200,7 @@
         "opposite": null,
         "transcription": "naɪf"
     },
-    {
+{
         "word": "laptop",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3210,7 +3220,7 @@
         "opposite": null,
         "transcription": "ˈlæpˌtɑp"
     },
-    {
+{
         "word": "television",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3230,7 +3240,7 @@
         "opposite": null,
         "transcription": "ˈtɛləˌvɪʒən"
     },
-    {
+{
         "word": "cinema",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3250,7 +3260,7 @@
         "opposite": null,
         "transcription": "ˈsɪnəmə"
     },
-    {
+{
         "word": "museum",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3270,7 +3280,7 @@
         "opposite": null,
         "transcription": "mˈjuziəm"
     },
-    {
+{
         "word": "airport",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -3290,7 +3300,7 @@
         "opposite": null,
         "transcription": "ˈɛrˌpɔrt"
     },
-    {
+{
         "word": "chicken",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3310,7 +3320,7 @@
         "opposite": null,
         "transcription": "ˈʧɪkən"
     },
-    {
+{
         "word": "sugar",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3330,7 +3340,7 @@
         "opposite": null,
         "transcription": "ˈʃʊgər"
     },
-    {
+{
         "word": "salad",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3350,7 +3360,7 @@
         "opposite": null,
         "transcription": "ˈsæləd"
     },
-    {
+{
         "word": "coat",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3370,7 +3380,7 @@
         "opposite": null,
         "transcription": "koʊt"
     },
-    {
+{
         "word": "socks",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3390,7 +3400,7 @@
         "opposite": null,
         "transcription": "sɑks"
     },
-    {
+{
         "word": "neck",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3410,7 +3420,7 @@
         "opposite": null,
         "transcription": "nɛk"
     },
-    {
+{
         "word": "shoulder",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3430,7 +3440,7 @@
         "opposite": null,
         "transcription": "ˈʃoʊldər"
     },
-    {
+{
         "word": "time",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -3450,7 +3460,7 @@
         "opposite": null,
         "transcription": "taɪm"
     },
-    {
+{
         "word": "problem",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -3471,7 +3481,7 @@
         "opposite": null,
         "transcription": "ˈprɑbləm"
     },
-    {
+{
         "word": "beef",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3491,7 +3501,7 @@
         "opposite": null,
         "transcription": "bif"
     },
-    {
+{
         "word": "pork",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3511,7 +3521,7 @@
         "opposite": null,
         "transcription": "pɔrk"
     },
-    {
+{
         "word": "potato",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3531,7 +3541,7 @@
         "opposite": null,
         "transcription": "pəˈteɪˌtoʊ"
     },
-    {
+{
         "word": "tomato",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3551,7 +3561,7 @@
         "opposite": null,
         "transcription": "təˈmɑˌtoʊ"
     },
-    {
+{
         "word": "onion",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3572,7 +3582,7 @@
         "opposite": null,
         "transcription": "ˈənjən"
     },
-    {
+{
         "word": "carrot",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3592,7 +3602,7 @@
         "opposite": null,
         "transcription": "ˈkɛrət"
     },
-    {
+{
         "word": "soup",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3612,7 +3622,7 @@
         "opposite": null,
         "transcription": "sup"
     },
-    {
+{
         "word": "cake",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3632,7 +3642,7 @@
         "opposite": null,
         "transcription": "keɪk"
     },
-    {
+{
         "word": "chocolate",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3652,7 +3662,7 @@
         "opposite": null,
         "transcription": "ˈʧɔklət"
     },
-    {
+{
         "word": "ice cream",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3672,7 +3682,7 @@
         "opposite": null,
         "transcription": "aɪs krim"
     },
-    {
+{
         "word": "sweater",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3695,7 +3705,7 @@
         "opposite": null,
         "transcription": "sˈwɛtər"
     },
-    {
+{
         "word": "dress",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3715,7 +3725,7 @@
         "opposite": null,
         "transcription": "drɛs"
     },
-    {
+{
         "word": "skirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3735,7 +3745,7 @@
         "opposite": null,
         "transcription": "skərt"
     },
-    {
+{
         "word": "boots",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3755,7 +3765,7 @@
         "opposite": null,
         "transcription": "buts"
     },
-    {
+{
         "word": "finger",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3775,7 +3785,7 @@
         "opposite": null,
         "transcription": "ˈfɪŋgər"
     },
-    {
+{
         "word": "toe",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3795,7 +3805,7 @@
         "opposite": null,
         "transcription": "toʊ"
     },
-    {
+{
         "word": "stomach",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3815,7 +3825,7 @@
         "opposite": null,
         "transcription": "ˈstəmək"
     },
-    {
+{
         "word": "knee",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3835,7 +3845,7 @@
         "opposite": null,
         "transcription": "ni"
     },
-    {
+{
         "word": "grass",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3855,7 +3865,7 @@
         "opposite": null,
         "transcription": "græs"
     },
-    {
+{
         "word": "lake",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3875,7 +3885,7 @@
         "opposite": null,
         "transcription": "leɪk"
     },
-    {
+{
         "word": "cloud",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3895,7 +3905,7 @@
         "opposite": null,
         "transcription": "klaʊd"
     },
-    {
+{
         "word": "star",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3915,7 +3925,7 @@
         "opposite": null,
         "transcription": "stɑr"
     },
-    {
+{
         "word": "desk",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3935,7 +3945,7 @@
         "opposite": null,
         "transcription": "dɛsk"
     },
-    {
+{
         "word": "lamp",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3955,7 +3965,7 @@
         "opposite": null,
         "transcription": "læmp"
     },
-    {
+{
         "word": "clock",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3975,7 +3985,7 @@
         "opposite": null,
         "transcription": "klɑk"
     },
-    {
+{
         "word": "mirror",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3995,7 +4005,7 @@
         "opposite": null,
         "transcription": "ˈmɪrər"
     },
-    {
+{
         "word": "library",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -4015,7 +4025,7 @@
         "opposite": null,
         "transcription": "ˈlaɪbrɛˌri"
     },
-    {
+{
         "word": "Monday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4034,7 +4044,7 @@
         "opposite": null,
         "transcription": "ˈmənˌdeɪ"
     },
-    {
+{
         "word": "Tuesday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4053,7 +4063,7 @@
         "opposite": null,
         "transcription": "ˈtuzˌdeɪ"
     },
-    {
+{
         "word": "Wednesday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4072,7 +4082,7 @@
         "opposite": null,
         "transcription": "ˈwɛnzˌdeɪ"
     },
-    {
+{
         "word": "Thursday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4091,7 +4101,7 @@
         "opposite": null,
         "transcription": "ˈθərzˌdeɪ"
     },
-    {
+{
         "word": "Friday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4110,7 +4120,7 @@
         "opposite": null,
         "transcription": "ˈfraɪˌdeɪ"
     },
-    {
+{
         "word": "Saturday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4129,7 +4139,7 @@
         "opposite": null,
         "transcription": "ˈsæˌtɪˌdeɪ"
     },
-    {
+{
         "word": "Sunday",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4148,7 +4158,7 @@
         "opposite": null,
         "transcription": "ˈsənˌdi"
     },
-    {
+{
         "word": "January",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4167,7 +4177,7 @@
         "opposite": null,
         "transcription": "ˈʤænjuˌɛri"
     },
-    {
+{
         "word": "February",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4186,7 +4196,7 @@
         "opposite": null,
         "transcription": "ˈfɛbruˌɛri"
     },
-    {
+{
         "word": "March",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4205,7 +4215,7 @@
         "opposite": null,
         "transcription": "mɑrʧ"
     },
-    {
+{
         "word": "April",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4224,7 +4234,7 @@
         "opposite": null,
         "transcription": "ˈeɪprəl"
     },
-    {
+{
         "word": "May",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4243,7 +4253,7 @@
         "opposite": null,
         "transcription": "meɪ"
     },
-    {
+{
         "word": "June",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4262,7 +4272,7 @@
         "opposite": null,
         "transcription": "ʤun"
     },
-    {
+{
         "word": "July",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4281,7 +4291,7 @@
         "opposite": null,
         "transcription": "ˌʤuˈlaɪ"
     },
-    {
+{
         "word": "August",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4300,7 +4310,7 @@
         "opposite": null,
         "transcription": "ˈɔgəst"
     },
-    {
+{
         "word": "September",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4319,7 +4329,7 @@
         "opposite": null,
         "transcription": "sɛpˈtɛmbər"
     },
-    {
+{
         "word": "October",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4338,7 +4348,7 @@
         "opposite": null,
         "transcription": "ɑkˈtoʊbər"
     },
-    {
+{
         "word": "November",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4357,7 +4367,7 @@
         "opposite": null,
         "transcription": "noʊˈvɛmbər"
     },
-    {
+{
         "word": "December",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4376,7 +4386,7 @@
         "opposite": null,
         "transcription": "dɪˈsɛmbər"
     },
-    {
+{
         "word": "spring",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4395,7 +4405,7 @@
         "opposite": null,
         "transcription": "spərɪŋ"
     },
-    {
+{
         "word": "summer",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4414,7 +4424,7 @@
         "opposite": null,
         "transcription": "ˈsəmər"
     },
-    {
+{
         "word": "autumn",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4436,7 +4446,7 @@
         "opposite": null,
         "transcription": "ˈɔtəm"
     },
-    {
+{
         "word": "winter",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4455,7 +4465,7 @@
         "opposite": null,
         "transcription": "ˈwɪntər"
     },
-    {
+{
         "word": "lion",
         "level": "starter",
         "theme": "animals_A1",
@@ -4475,7 +4485,7 @@
         "opposite": null,
         "transcription": "laɪən"
     },
-    {
+{
         "word": "elephant",
         "level": "starter",
         "theme": "animals_A1",
@@ -4495,7 +4505,7 @@
         "opposite": null,
         "transcription": "ˈɛləfənt"
     },
-    {
+{
         "word": "rabbit",
         "level": "starter",
         "theme": "animals_A1",
@@ -4515,7 +4525,7 @@
         "opposite": null,
         "transcription": "ˈræbɪt"
     },
-    {
+{
         "word": "horse",
         "level": "starter",
         "theme": "animals_A1",
@@ -4535,7 +4545,7 @@
         "opposite": null,
         "transcription": "hɔrs"
     },
-    {
+{
         "word": "cow",
         "level": "starter",
         "theme": "animals_A1",
@@ -4555,7 +4565,7 @@
         "opposite": null,
         "transcription": "kaʊ"
     },
-    {
+{
         "word": "pig",
         "level": "starter",
         "theme": "animals_A1",
@@ -4575,7 +4585,7 @@
         "opposite": null,
         "transcription": "pɪg"
     },
-    {
+{
         "word": "sheep",
         "level": "starter",
         "theme": "animals_A1",
@@ -4595,7 +4605,7 @@
         "opposite": null,
         "transcription": "ʃip"
     },
-    {
+{
         "word": "lemon",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4615,7 +4625,7 @@
         "opposite": null,
         "transcription": "ˈlɛmən"
     },
-    {
+{
         "word": "orange",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4635,7 +4645,7 @@
         "opposite": null,
         "transcription": "ˈɔrɪnʤ"
     },
-    {
+{
         "word": "strawberry",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4655,7 +4665,7 @@
         "opposite": null,
         "transcription": "ˈstrɔˌbɛri"
     },
-    {
+{
         "word": "grape",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4675,7 +4685,7 @@
         "opposite": null,
         "transcription": "greɪp"
     },
-    {
+{
         "word": "garlic",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -4695,7 +4705,7 @@
         "opposite": null,
         "transcription": "ˈgɑrlɪk"
     },
-    {
+{
         "word": "who",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4713,7 +4723,7 @@
         "opposite": null,
         "transcription": "hu"
     },
-    {
+{
         "word": "what",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4731,7 +4741,7 @@
         "opposite": null,
         "transcription": "wət"
     },
-    {
+{
         "word": "where",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4749,7 +4759,7 @@
         "opposite": null,
         "transcription": "wɛr"
     },
-    {
+{
         "word": "when",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4767,7 +4777,7 @@
         "opposite": null,
         "transcription": "wɪn"
     },
-    {
+{
         "word": "why",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4785,7 +4795,7 @@
         "opposite": null,
         "transcription": "waɪ"
     },
-    {
+{
         "word": "how",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4804,7 +4814,7 @@
         "opposite": null,
         "transcription": "haʊ"
     },
-    {
+{
         "word": "hello",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4823,7 +4833,7 @@
         "subtext": "related to name greeting",
         "transcription": "hɛˈloʊ"
     },
-    {
+{
         "word": "goodbye",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4842,7 +4852,7 @@
         "subtext": "related to name greeting",
         "transcription": "ˌgʊdˈbaɪ"
     },
-    {
+{
         "word": "please",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4860,7 +4870,7 @@
         "opposite": null,
         "transcription": "pliz"
     },
-    {
+{
         "word": "thank you",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4879,7 +4889,7 @@
         "opposite": null,
         "transcription": "θæŋk ju"
     },
-    {
+{
         "word": "yes",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4897,7 +4907,7 @@
         "subtext": "related to asking answering questions",
         "transcription": "jɛs"
     },
-    {
+{
         "word": "no",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4915,7 +4925,7 @@
         "subtext": "related to asking answering questions",
         "transcription": "noʊ"
     },
-    {
+{
         "word": "name",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4934,7 +4944,7 @@
         "opposite": null,
         "transcription": "neɪm"
     },
-    {
+{
         "word": "bathroom",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -4954,7 +4964,7 @@
         "opposite": null,
         "transcription": "ˈbæθˌrum"
     },
-    {
+{
         "word": "bedroom",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -4974,7 +4984,7 @@
         "opposite": null,
         "transcription": "ˈbɛˌdrum"
     },
-    {
+{
         "word": "baby",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -4994,7 +5004,7 @@
         "opposite": null,
         "transcription": "ˈbeɪbi"
     },
-    {
+{
         "word": "boy",
         "level": "starter",
         "theme": "people_A1",
@@ -5015,7 +5025,7 @@
         "subtext": "related to people",
         "transcription": "bɔɪ"
     },
-    {
+{
         "word": "girl",
         "level": "starter",
         "theme": "people_A1",
@@ -5036,7 +5046,7 @@
         "subtext": "related to people",
         "transcription": "gərl"
     },
-    {
+{
         "word": "boyfriend",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -5057,7 +5067,7 @@
         "subtext": "related to marital status",
         "transcription": "ˈbɔɪˌfrɛnd"
     },
-    {
+{
         "word": "girlfriend",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -5078,7 +5088,7 @@
         "subtext": "related to marital status",
         "transcription": "ˈgərlˌfrɛnd"
     },
-    {
+{
         "word": "student",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5099,7 +5109,7 @@
         "subtext": "related to learning studying",
         "transcription": "ˈstudənt"
     },
-    {
+{
         "word": "classmate",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5119,7 +5129,7 @@
         "opposite": null,
         "transcription": "ˈklæsˌmeɪt"
     },
-    {
+{
         "word": "camera",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5139,7 +5149,7 @@
         "opposite": null,
         "transcription": "ˈkæmərə"
     },
-    {
+{
         "word": "computer",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5159,7 +5169,7 @@
         "opposite": null,
         "transcription": "kəmˈpjutər"
     },
-    {
+{
         "word": "bottle",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5179,7 +5189,7 @@
         "opposite": null,
         "transcription": "ˈbɑtəl"
     },
-    {
+{
         "word": "box",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5199,7 +5209,7 @@
         "opposite": null,
         "transcription": "bɑks"
     },
-    {
+{
         "word": "ball",
         "level": "starter",
         "theme": "sports_equipment_A1",
@@ -5219,7 +5229,7 @@
         "opposite": null,
         "transcription": "bɔl"
     },
-    {
+{
         "word": "gift",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -5242,7 +5252,7 @@
         "opposite": null,
         "transcription": "gɪft"
     },
-    {
+{
         "word": "street",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5262,7 +5272,7 @@
         "opposite": null,
         "transcription": "strit"
     },
-    {
+{
         "word": "building",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5282,7 +5292,7 @@
         "opposite": null,
         "transcription": "ˈbɪldɪŋ"
     },
-    {
+{
         "word": "cafe",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -5302,7 +5312,7 @@
         "opposite": null,
         "transcription": "kəˈfeɪ"
     },
-    {
+{
         "word": "centre",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5322,7 +5332,7 @@
         "opposite": null,
         "transcription": "ˈsɛntər"
     },
-    {
+{
         "word": "butter",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5342,7 +5352,7 @@
         "opposite": null,
         "transcription": "ˈbətər"
     },
-    {
+{
         "word": "cheese",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5362,7 +5372,7 @@
         "opposite": null,
         "transcription": "ʧiz"
     },
-    {
+{
         "word": "actor",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -5382,7 +5392,7 @@
         "opposite": null,
         "transcription": "ˈæktər"
     },
-    {
+{
         "word": "adult",
         "level": "starter",
         "theme": "people_A1",
@@ -5403,7 +5413,7 @@
         "subtext": "related to people",
         "transcription": "ˈædəlt"
     },
-    {
+{
         "word": "advice",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5423,7 +5433,7 @@
         "opposite": null,
         "transcription": "ədˈvaɪs"
     },
-    {
+{
         "word": "age",
         "level": "starter",
         "theme": "age_A1",
@@ -5443,7 +5453,7 @@
         "opposite": null,
         "transcription": "eɪʤ"
     },
-    {
+{
         "word": "air",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5463,7 +5473,7 @@
         "opposite": null,
         "transcription": "ɛr"
     },
-    {
+{
         "word": "area",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5483,7 +5493,7 @@
         "opposite": null,
         "transcription": "ˈɛriə"
     },
-    {
+{
         "word": "art",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -5503,7 +5513,7 @@
         "opposite": null,
         "transcription": "ɑrt"
     },
-    {
+{
         "word": "band",
         "level": "starter",
         "theme": "music_A1",
@@ -5523,7 +5533,7 @@
         "opposite": null,
         "transcription": "bænd"
     },
-    {
+{
         "word": "bath",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -5543,7 +5553,7 @@
         "opposite": null,
         "transcription": "bæθ"
     },
-    {
+{
         "word": "birthday",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -5563,7 +5573,7 @@
         "opposite": null,
         "transcription": "ˈbərθˌdeɪ"
     },
-    {
+{
         "word": "boat",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -5583,7 +5593,7 @@
         "opposite": null,
         "transcription": "boʊt"
     },
-    {
+{
         "word": "business",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5603,7 +5613,7 @@
         "opposite": null,
         "transcription": "ˈbɪznɪs"
     },
-    {
+{
         "word": "college",
         "level": "starter",
         "theme": "types_of_education_A1",
@@ -5623,7 +5633,7 @@
         "opposite": null,
         "transcription": "ˈkɑlɪʤ"
     },
-    {
+{
         "word": "company",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5643,7 +5653,7 @@
         "opposite": null,
         "transcription": "ˈkəmpəˌni"
     },
-    {
+{
         "word": "concert",
         "level": "starter",
         "theme": "music_A1",
@@ -5663,7 +5673,7 @@
         "opposite": null,
         "transcription": "ˈkɑnsərt"
     },
-    {
+{
         "word": "conversation",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5683,7 +5693,7 @@
         "opposite": null,
         "transcription": "ˌkɑnvərˈseɪʃən"
     },
-    {
+{
         "word": "again",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -5701,7 +5711,7 @@
         "opposite": null,
         "transcription": "əˈgɛn"
     },
-    {
+{
         "word": "ago",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -5719,7 +5729,7 @@
         "opposite": null,
         "transcription": "əˈgoʊ"
     },
-    {
+{
         "word": "also",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -5737,7 +5747,7 @@
         "opposite": null,
         "transcription": "ˈɔlsoʊ"
     },
-    {
+{
         "word": "really",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -5756,7 +5766,7 @@
         "opposite": null,
         "transcription": "ˈrɪli"
     },
-    {
+{
         "word": "there",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -5774,7 +5784,7 @@
         "opposite": null,
         "transcription": "ðɛr"
     },
-    {
+{
         "word": "pencil",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5794,7 +5804,7 @@
         "opposite": null,
         "transcription": "ˈpɛnsəl"
     },
-    {
+{
         "word": "paper",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5814,7 +5824,7 @@
         "opposite": null,
         "transcription": "ˈpeɪpər"
     },
-    {
+{
         "word": "umbrella",
         "level": "starter",
         "theme": "weather_A1",
@@ -5834,7 +5844,7 @@
         "opposite": null,
         "transcription": "ˈəmˌbrɛlə"
     },
-    {
+{
         "word": "glasses",
         "level": "starter",
         "theme": "accessories_A1",
@@ -5854,7 +5864,7 @@
         "opposite": null,
         "transcription": "ˈglæsɪz"
     },
-    {
+{
         "word": "watch",
         "level": "starter",
         "theme": "accessories_A1",
@@ -5874,7 +5884,7 @@
         "opposite": null,
         "transcription": "wɔʧ"
     },
-    {
+{
         "word": "fridge",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5897,7 +5907,7 @@
         "opposite": null,
         "transcription": "frɪʤ"
     },
-    {
+{
         "word": "oven",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5917,7 +5927,7 @@
         "opposite": null,
         "transcription": "ˈəvən"
     },
-    {
+{
         "word": "soap",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5937,7 +5947,7 @@
         "opposite": null,
         "transcription": "soʊp"
     },
-    {
+{
         "word": "towel",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5957,7 +5967,7 @@
         "opposite": null,
         "transcription": "taʊəl"
     },
-    {
+{
         "word": "city",
         "level": "starter",
         "theme": "cities_towns_A1",
@@ -5977,7 +5987,7 @@
         "opposite": null,
         "transcription": "ˈsɪti"
     },
-    {
+{
         "word": "town",
         "level": "starter",
         "theme": "cities_towns_A1",
@@ -5997,7 +6007,7 @@
         "opposite": null,
         "transcription": "taʊn"
     },
-    {
+{
         "word": "village",
         "level": "starter",
         "theme": "cities_towns_A1",
@@ -6017,7 +6027,7 @@
         "opposite": null,
         "transcription": "ˈvɪlɪʤ"
     },
-    {
+{
         "word": "country",
         "level": "starter",
         "theme": "countries_capitals_A1",
@@ -6037,7 +6047,7 @@
         "opposite": null,
         "transcription": "ˈkəntri"
     },
-    {
+{
         "word": "jeans",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -6057,7 +6067,7 @@
         "opposite": null,
         "transcription": "ʤinz"
     },
-    {
+{
         "word": "belt",
         "level": "starter",
         "theme": "accessories_A1",
@@ -6077,7 +6087,7 @@
         "opposite": null,
         "transcription": "bɛlt"
     },
-    {
+{
         "word": "with",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -6095,7 +6105,7 @@
         "emoji": "➕",
         "transcription": "wɪθ"
     },
-    {
+{
         "word": "without",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -6113,7 +6123,7 @@
         "emoji": "➖",
         "transcription": "wɪˈθaʊt"
     },
-    {
+{
         "word": "to",
         "level": "starter",
         "theme": "prepositions_movement_A1",
@@ -6131,7 +6141,7 @@
         "emoji": "➡️",
         "transcription": "tɪ"
     },
-    {
+{
         "word": "from",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -6149,7 +6159,7 @@
         "emoji": "⬅️",
         "transcription": "frəm"
     },
-    {
+{
         "word": "for",
         "level": "starter",
         "theme": "prepositions_time_A1",
@@ -6167,7 +6177,7 @@
         "emoji": "🎁",
         "transcription": "fər"
     },
-    {
+{
         "word": "or",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -6185,7 +6195,7 @@
         "emoji": "❓",
         "transcription": "ɔː(r)"
     },
-    {
+{
         "word": "so",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -6203,7 +6213,7 @@
         "emoji": "💡",
         "transcription": "🇬🇧 səʊ | 🇺🇸 soʊ"
     },
-    {
+{
         "word": "game",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -6223,7 +6233,7 @@
         "opposite": null,
         "transcription": "geɪm"
     },
-    {
+{
         "word": "music",
         "level": "starter",
         "theme": "music_A1",
@@ -6243,7 +6253,7 @@
         "opposite": null,
         "transcription": "mˈjuzɪk"
     },
-    {
+{
         "word": "song",
         "level": "starter",
         "theme": "music_A1",
@@ -6263,7 +6273,7 @@
         "opposite": null,
         "transcription": "sɔŋ"
     },
-    {
+{
         "word": "sport",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6283,7 +6293,7 @@
         "opposite": null,
         "transcription": "spɔrt"
     },
-    {
+{
         "word": "football",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6306,7 +6316,7 @@
         "opposite": null,
         "transcription": "ˈfʊtˌbɔl"
     },
-    {
+{
         "word": "tennis",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6326,7 +6336,7 @@
         "opposite": null,
         "transcription": "ˈtɛnɪs"
     },
-    {
+{
         "word": "yesterday",
         "level": "starter",
         "theme": "times_day_A1",
@@ -6344,7 +6354,7 @@
         "subtext": "related to times day",
         "transcription": "ˈjɛstərˌdeɪ"
     },
-    {
+{
         "word": "now",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -6362,7 +6372,7 @@
         "opposite": null,
         "transcription": "naʊ"
     },
-    {
+{
         "word": "soon",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -6380,7 +6390,7 @@
         "opposite": null,
         "transcription": "sun"
     },
-    {
+{
         "word": "later",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -6398,7 +6408,7 @@
         "opposite": null,
         "transcription": "ˈleɪtər"
     },
-    {
+{
         "word": "internet",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -6418,7 +6428,7 @@
         "opposite": null,
         "transcription": "ˈɪntərˌnɛt"
     },
-    {
+{
         "word": "website",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -6438,7 +6448,7 @@
         "opposite": null,
         "transcription": "ˈwɛbˌsaɪt"
     },
-    {
+{
         "word": "email",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -6458,7 +6468,7 @@
         "opposite": null,
         "transcription": "iˈmeɪl"
     },
-    {
+{
         "word": "message",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -6478,7 +6488,7 @@
         "opposite": null,
         "transcription": "ˈmɛsɪʤ"
     },
-    {
+{
         "word": "newspaper",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6498,7 +6508,7 @@
         "opposite": null,
         "transcription": "ˈnuzˌpeɪpər"
     },
-    {
+{
         "word": "magazine",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6518,7 +6528,7 @@
         "opposite": null,
         "transcription": "ˈmægəˌzin"
     },
-    {
+{
         "word": "passport",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6538,7 +6548,7 @@
         "opposite": null,
         "transcription": "ˈpæˌspɔrt"
     },
-    {
+{
         "word": "ticket",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6558,7 +6568,7 @@
         "opposite": null,
         "transcription": "ˈtɪkɪt"
     },
-    {
+{
         "word": "salt",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -6578,7 +6588,7 @@
         "opposite": null,
         "transcription": "sɔlt"
     },
-    {
+{
         "word": "snack",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -6598,7 +6608,7 @@
         "opposite": null,
         "transcription": "snæk"
     },
-    {
+{
         "word": "pear",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -6618,7 +6628,7 @@
         "opposite": null,
         "transcription": "pɛr"
     },
-    {
+{
         "word": "cucumber",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -6638,7 +6648,7 @@
         "opposite": null,
         "transcription": "ˈkjukəmbər"
     },
-    {
+{
         "word": "lettuce",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -6658,7 +6668,7 @@
         "opposite": null,
         "transcription": "ˈlɛtəs"
     },
-    {
+{
         "word": "wall",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6678,7 +6688,7 @@
         "opposite": null,
         "transcription": "wɔl"
     },
-    {
+{
         "word": "floor",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6698,7 +6708,7 @@
         "opposite": null,
         "transcription": "flɔr"
     },
-    {
+{
         "word": "stairs",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6718,7 +6728,7 @@
         "opposite": null,
         "transcription": "stɛrz"
     },
-    {
+{
         "word": "map",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -6738,7 +6748,7 @@
         "opposite": null,
         "transcription": "mæp"
     },
-    {
+{
         "word": "ruler",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -6758,7 +6768,7 @@
         "opposite": null,
         "transcription": "ˈrulər"
     },
-    {
+{
         "word": "mouse",
         "level": "starter",
         "theme": "animals_A1",
@@ -6780,7 +6790,7 @@
         "opposite": null,
         "transcription": "maʊs"
     },
-    {
+{
         "word": "snake",
         "level": "starter",
         "theme": "animals_A1",
@@ -6800,7 +6810,7 @@
         "opposite": null,
         "transcription": "sneɪk"
     },
-    {
+{
         "word": "monkey",
         "level": "starter",
         "theme": "animals_A1",
@@ -6820,7 +6830,7 @@
         "opposite": null,
         "transcription": "ˈməŋki"
     },
-    {
+{
         "word": "spider",
         "level": "starter",
         "theme": "animals_A1",
@@ -6840,7 +6850,7 @@
         "opposite": null,
         "transcription": "ˈspaɪdər"
     },
-    {
+{
         "word": "bee",
         "level": "starter",
         "theme": "animals_A1",
@@ -6860,7 +6870,7 @@
         "opposite": null,
         "transcription": "bi"
     },
-    {
+{
         "word": "shower",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6880,7 +6890,7 @@
         "opposite": null,
         "transcription": "ʃaʊər"
     },
-    {
+{
         "word": "toilet",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6900,7 +6910,7 @@
         "opposite": null,
         "transcription": "ˈtɔɪlət"
     },
-    {
+{
         "word": "sink",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -6920,7 +6930,7 @@
         "opposite": null,
         "transcription": "sɪŋk"
     },
-    {
+{
         "word": "sofa",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6943,7 +6953,7 @@
         "opposite": null,
         "transcription": "ˈsoʊfə"
     },
-    {
+{
         "word": "shelf",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6965,7 +6975,7 @@
         "opposite": null,
         "transcription": "ʃɛlf"
     },
-    {
+{
         "word": "toothbrush",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6985,7 +6995,7 @@
         "opposite": null,
         "transcription": "ˈtuθbrəʃ"
     },
-    {
+{
         "word": "toothpaste",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7005,7 +7015,7 @@
         "opposite": null,
         "transcription": "ˈtuθˌpeɪst"
     },
-    {
+{
         "word": "shampoo",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7025,7 +7035,7 @@
         "opposite": null,
         "transcription": "ʃæmˈpu"
     },
-    {
+{
         "word": "history",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -7045,7 +7055,7 @@
         "opposite": null,
         "transcription": "ˈhɪstəri"
     },
-    {
+{
         "word": "science",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -7065,7 +7075,7 @@
         "opposite": null,
         "transcription": "saɪəns"
     },
-    {
+{
         "word": "maths",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -7088,7 +7098,7 @@
         "opposite": null,
         "transcription": "mæθs"
     },
-    {
+{
         "word": "geography",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -7108,7 +7118,7 @@
         "opposite": null,
         "transcription": "ʤiˈɑgrəfi"
     },
-    {
+{
         "word": "hour",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -7128,7 +7138,7 @@
         "opposite": null,
         "transcription": "aʊər"
     },
-    {
+{
         "word": "minute",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -7148,7 +7158,7 @@
         "opposite": null,
         "transcription": "ˈmɪnət"
     },
-    {
+{
         "word": "second",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -7168,7 +7178,7 @@
         "opposite": null,
         "transcription": "ˈsɛkənd"
     },
-    {
+{
         "word": "lesson",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7188,7 +7198,7 @@
         "opposite": null,
         "transcription": "ˈlɛsən"
     },
-    {
+{
         "word": "homework",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7208,7 +7218,7 @@
         "opposite": null,
         "transcription": "ˈhoʊmˌwərk"
     },
-    {
+{
         "word": "guitar",
         "level": "starter",
         "theme": "music_A1",
@@ -7228,7 +7238,7 @@
         "opposite": null,
         "transcription": "gɪˈtɑr"
     },
-    {
+{
         "word": "piano",
         "level": "starter",
         "theme": "music_A1",
@@ -7248,7 +7258,7 @@
         "opposite": null,
         "transcription": "piˈænə"
     },
-    {
+{
         "word": "forest",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7268,7 +7278,7 @@
         "opposite": null,
         "transcription": "ˈfɔrɪst"
     },
-    {
+{
         "word": "island",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7288,7 +7298,7 @@
         "opposite": null,
         "transcription": "ˈaɪlənd"
     },
-    {
+{
         "word": "hill",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7308,7 +7318,7 @@
         "opposite": null,
         "transcription": "hɪl"
     },
-    {
+{
         "word": "duck",
         "level": "starter",
         "theme": "animals_A1",
@@ -7328,7 +7338,7 @@
         "opposite": null,
         "transcription": "dək"
     },
-    {
+{
         "word": "bear",
         "level": "starter",
         "theme": "animals_A1",
@@ -7348,7 +7358,7 @@
         "opposite": null,
         "transcription": "bɛr"
     },
-    {
+{
         "word": "keyboard",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7368,7 +7378,7 @@
         "opposite": null,
         "transcription": "ˈkiˌbɔrd"
     },
-    {
+{
         "word": "screen",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7388,7 +7398,7 @@
         "opposite": null,
         "transcription": "skrin"
     },
-    {
+{
         "word": "dish",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -7408,7 +7418,7 @@
         "opposite": null,
         "transcription": "dɪʃ"
     },
-    {
+{
         "word": "year",
         "level": "starter",
         "theme": "dates_years_A1",
@@ -7428,7 +7438,7 @@
         "opposite": null,
         "transcription": "jɪr"
     },
-    {
+{
         "word": "dad",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -7448,7 +7458,7 @@
         "opposite": null,
         "transcription": "dæd"
     },
-    {
+{
         "word": "mum",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -7468,8 +7478,9 @@
         "opposite": null,
         "transcription": "məm"
     },
-    {
+{
         "word": "garden",
+        "image": "images/vocabulary/home/garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
@@ -7488,7 +7499,7 @@
         "opposite": null,
         "transcription": "ˈgɑrdən"
     },
-    {
+{
         "word": "sandwich",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7508,7 +7519,7 @@
         "opposite": null,
         "transcription": "ˈsænwɪʧ"
     },
-    {
+{
         "word": "trip",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7528,7 +7539,7 @@
         "opposite": null,
         "transcription": "trɪp"
     },
-    {
+{
         "word": "zoo",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -7548,7 +7559,7 @@
         "opposite": null,
         "transcription": "zu"
     },
-    {
+{
         "word": "dictionary",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -7568,7 +7579,7 @@
         "opposite": null,
         "transcription": "ˈdɪkʃəˌnɛri"
     },
-    {
+{
         "word": "something",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -7586,7 +7597,7 @@
         "opposite": null,
         "transcription": "ˈsəmθɪŋ"
     },
-    {
+{
         "word": "someone",
         "level": "starter",
         "theme": "people_A1",
@@ -7604,7 +7615,7 @@
         "opposite": null,
         "transcription": "ˈsəmˌwən"
     },
-    {
+{
         "word": "everyone",
         "level": "starter",
         "theme": "people_A1",
@@ -7622,7 +7633,7 @@
         "opposite": null,
         "transcription": "ˈɛvriˌwən"
     },
-    {
+{
         "word": "already",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -7640,7 +7651,7 @@
         "opposite": null,
         "transcription": "ɔˈrɛdi"
     },
-    {
+{
         "word": "still",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -7658,7 +7669,7 @@
         "opposite": null,
         "transcription": "stɪl"
     },
-    {
+{
         "word": "yet",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -7676,7 +7687,7 @@
         "opposite": null,
         "transcription": "jɛt"
     },
-    {
+{
         "word": "up",
         "level": "starter",
         "theme": "prepositions_movement_A1",
@@ -7694,7 +7705,7 @@
         "subtext": "related to prepositions movement",
         "transcription": "əp"
     },
-    {
+{
         "word": "down",
         "level": "starter",
         "theme": "prepositions_movement_A1",
@@ -7712,7 +7723,7 @@
         "subtext": "related to prepositions movement",
         "transcription": "daʊn"
     },
-    {
+{
         "word": "oil",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7732,7 +7743,7 @@
         "opposite": null,
         "transcription": "ɔɪl"
     },
-    {
+{
         "word": "pepper",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7752,7 +7763,7 @@
         "opposite": null,
         "transcription": "ˈpɛpər"
     },
-    {
+{
         "word": "taxi",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -7772,7 +7783,7 @@
         "opposite": null,
         "transcription": "ˈtæksi"
     },
-    {
+{
         "word": "bridge",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7792,7 +7803,7 @@
         "opposite": null,
         "transcription": "brɪʤ"
     },
-    {
+{
         "word": "heart",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -7812,7 +7823,7 @@
         "opposite": null,
         "transcription": "hɑrt"
     },
-    {
+{
         "word": "theatre",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -7835,7 +7846,7 @@
         "opposite": null,
         "transcription": "ˈθiətər"
     },
-    {
+{
         "word": "tonight",
         "level": "starter",
         "theme": "times_day_A1",
@@ -7853,7 +7864,7 @@
         "opposite": null,
         "transcription": "təˈnaɪt"
     },
-    {
+{
         "word": "world",
         "level": "starter",
         "theme": "countries_capitals_A1",
@@ -7873,7 +7884,7 @@
         "opposite": null,
         "transcription": "wərld"
     },
-    {
+{
         "word": "life",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -7893,7 +7904,7 @@
         "opposite": null,
         "transcription": "laɪf"
     },
-    {
+{
         "word": "way",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -7914,7 +7925,7 @@
         "opposite": null,
         "transcription": "weɪ"
     },
-    {
+{
         "word": "thing",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -7934,7 +7945,7 @@
         "opposite": null,
         "transcription": "θɪŋ"
     },
-    {
+{
         "word": "place",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -7954,7 +7965,7 @@
         "opposite": null,
         "transcription": "pleɪs"
     },
-    {
+{
         "word": "word",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -7974,7 +7985,7 @@
         "opposite": null,
         "transcription": "wərd"
     },
-    {
+{
         "word": "number",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -7994,7 +8005,7 @@
         "opposite": null,
         "transcription": "ˈnəmbər"
     },
-    {
+{
         "word": "body",
         "level": "starter",
         "theme": "health_body_A1",
@@ -8014,7 +8025,7 @@
         "opposite": null,
         "transcription": "ˈbɑdi"
     },
-    {
+{
         "word": "north",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -8033,7 +8044,7 @@
         "subtext": "related to directions navigation",
         "transcription": "nɔrθ"
     },
-    {
+{
         "word": "south",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -8052,7 +8063,7 @@
         "subtext": "related to directions navigation",
         "transcription": "saʊθ"
     },
-    {
+{
         "word": "east",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -8071,7 +8082,7 @@
         "subtext": "related to directions navigation",
         "transcription": "ist"
     },
-    {
+{
         "word": "west",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -8090,7 +8101,7 @@
         "subtext": "related to directions navigation",
         "transcription": "wɛst"
     },
-    {
+{
         "word": "board",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8111,7 +8122,7 @@
         "opposite": null,
         "transcription": "bɔrd"
     },
-    {
+{
         "word": "eraser",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8134,7 +8145,7 @@
         "opposite": null,
         "transcription": "ɪˈreɪsər"
     },
-    {
+{
         "word": "pencil case",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8154,7 +8165,7 @@
         "opposite": null,
         "transcription": "ˈpɛnsəl keɪs"
     },
-    {
+{
         "word": "notebook",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8174,7 +8185,7 @@
         "opposite": null,
         "transcription": "ˈnoʊtˌbʊk"
     },
-    {
+{
         "word": "textbook",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8194,7 +8205,7 @@
         "opposite": null,
         "transcription": "ˈtɛkstˌbʊk"
     },
-    {
+{
         "word": "backpack",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -8214,7 +8225,7 @@
         "opposite": null,
         "transcription": "ˈbækˌpæk"
     },
-    {
+{
         "word": "armchair",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8234,7 +8245,7 @@
         "opposite": null,
         "transcription": "ˈɑrmˌʧɛr"
     },
-    {
+{
         "word": "bookcase",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8254,7 +8265,7 @@
         "opposite": null,
         "transcription": "ˈbʊkˌkeɪs"
     },
-    {
+{
         "word": "cupboard",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8274,7 +8285,7 @@
         "opposite": null,
         "transcription": "ˈkəbərd"
     },
-    {
+{
         "word": "rug",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8294,7 +8305,7 @@
         "opposite": null,
         "transcription": "rəg"
     },
-    {
+{
         "word": "drawer",
         "level": "starter",
         "theme": "household_items_A1",
@@ -8314,7 +8325,7 @@
         "opposite": null,
         "transcription": "drɔr"
     },
-    {
+{
         "word": "toy",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8334,7 +8345,7 @@
         "opposite": null,
         "transcription": "tɔɪ"
     },
-    {
+{
         "word": "doll",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8354,7 +8365,7 @@
         "opposite": null,
         "transcription": "dɑl"
     },
-    {
+{
         "word": "robot",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8374,7 +8385,7 @@
         "opposite": null,
         "transcription": "ˈroʊˌbət"
     },
-    {
+{
         "word": "monster",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8394,7 +8405,7 @@
         "opposite": null,
         "transcription": "ˈmɑnstər"
     },
-    {
+{
         "word": "alien",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8414,7 +8425,7 @@
         "opposite": null,
         "transcription": "ˈeɪliən"
     },
-    {
+{
         "word": "kite",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8434,7 +8445,7 @@
         "opposite": null,
         "transcription": "kaɪt"
     },
-    {
+{
         "word": "balloon",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -8454,7 +8465,7 @@
         "opposite": null,
         "transcription": "bəˈlun"
     },
-    {
+{
         "word": "hobby",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -8474,7 +8485,7 @@
         "opposite": null,
         "transcription": "ˈhɑbi"
     },
-    {
+{
         "word": "pet",
         "level": "starter",
         "theme": "pets_A1",
@@ -8494,7 +8505,7 @@
         "opposite": null,
         "transcription": "pɛt"
     },
-    {
+{
         "word": "hamster",
         "level": "starter",
         "theme": "pets_A1",
@@ -8514,7 +8525,7 @@
         "opposite": null,
         "transcription": "ˈhæmstər"
     },
-    {
+{
         "word": "lizard",
         "level": "starter",
         "theme": "pets_A1",
@@ -8534,7 +8545,7 @@
         "opposite": null,
         "transcription": "ˈlɪzərd"
     },
-    {
+{
         "word": "turtle",
         "level": "starter",
         "theme": "pets_A1",
@@ -8554,7 +8565,7 @@
         "opposite": null,
         "transcription": "ˈtərtəl"
     },
-    {
+{
         "word": "playground",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -8574,7 +8585,7 @@
         "opposite": null,
         "transcription": "ˈpleɪˌgraʊnd"
     },
-    {
+{
         "word": "story",
         "level": "starter",
         "theme": "books_reading_A1",
@@ -8595,7 +8606,7 @@
         "opposite": null,
         "transcription": "ˈstɔri"
     },
-    {
+{
         "word": "painting",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -8615,7 +8626,7 @@
         "opposite": null,
         "transcription": "ˈpeɪnɪŋ"
     },
-    {
+{
         "word": "poster",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -8635,7 +8646,7 @@
         "opposite": null,
         "transcription": "ˈpoʊstər"
     },
-    {
+{
         "word": "sentence",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -8655,7 +8666,7 @@
         "opposite": null,
         "transcription": "ˈsɛntəns"
     },
-    {
+{
         "word": "question",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -8676,7 +8687,7 @@
         "opposite": null,
         "transcription": "kˈwɛʃən"
     },
-    {
+{
         "word": "answer",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -8696,7 +8707,7 @@
         "opposite": "ask",
         "transcription": "ˈænsər"
     },
-    {
+{
         "word": "page",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -8716,7 +8727,7 @@
         "opposite": null,
         "transcription": "peɪʤ"
     },
-    {
+{
         "word": "basketball",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -8736,7 +8747,7 @@
         "opposite": null,
         "transcription": "ˈbæskətˌbɔl"
     },
-    {
+{
         "word": "baseball",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -8756,7 +8767,7 @@
         "opposite": null,
         "transcription": "ˈbeɪsˈbɔl"
     },
-    {
+{
         "word": "bat",
         "level": "starter",
         "theme": "sports_equipment_A1",
@@ -8776,7 +8787,7 @@
         "opposite": null,
         "transcription": "bæt"
     },
-    {
+{
         "word": "scooter",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -8796,7 +8807,7 @@
         "opposite": null,
         "transcription": "ˈskutər"
     },
-    {
+{
         "word": "motorbike",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -8816,7 +8827,7 @@
         "opposite": null,
         "transcription": "ˈmoʊtərˌbaɪk"
     },
-    {
+{
         "word": "truck",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -8839,7 +8850,7 @@
         "opposite": null,
         "transcription": "trək"
     },
-    {
+{
         "word": "farmer",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8859,7 +8870,7 @@
         "opposite": null,
         "transcription": "ˈfɑrmər"
     },
-    {
+{
         "word": "pilot",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8879,7 +8890,7 @@
         "opposite": null,
         "transcription": "ˈpaɪlət"
     },
-    {
+{
         "word": "waiter",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8899,7 +8910,7 @@
         "opposite": null,
         "transcription": "ˈweɪtər"
     },
-    {
+{
         "word": "waitress",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8919,7 +8930,7 @@
         "opposite": null,
         "transcription": "ˈweɪtrəs"
     },
-    {
+{
         "word": "dentist",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8939,7 +8950,7 @@
         "opposite": null,
         "transcription": "ˈdɛntɪst"
     },
-    {
+{
         "word": "police officer",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8959,7 +8970,7 @@
         "opposite": null,
         "transcription": "pəˈlis ˈɔfɪsər"
     },
-    {
+{
         "word": "firefighter",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8979,7 +8990,7 @@
         "opposite": null,
         "transcription": "ˈfaɪrˌfaɪtər"
     },
-    {
+{
         "word": "soldier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -8999,7 +9010,7 @@
         "opposite": null,
         "transcription": "ˈsoʊlʤər"
     },
-    {
+{
         "word": "bowl",
         "level": "starter",
         "theme": "kitchen_items_A1",
@@ -9019,7 +9030,7 @@
         "opposite": null,
         "transcription": "boʊl"
     },
-    {
+{
         "word": "kettle",
         "level": "starter",
         "theme": "kitchen_items_A1",
@@ -9039,7 +9050,7 @@
         "opposite": null,
         "transcription": "ˈkɛtəl"
     },
-    {
+{
         "word": "pan",
         "level": "starter",
         "theme": "kitchen_items_A1",
@@ -9059,7 +9070,7 @@
         "opposite": null,
         "transcription": "pæn"
     },
-    {
+{
         "word": "pot",
         "level": "starter",
         "theme": "kitchen_items_A1",
@@ -9079,7 +9090,7 @@
         "opposite": null,
         "transcription": "pɑt"
     },
-    {
+{
         "word": "crocodile",
         "level": "starter",
         "theme": "animals_A1",
@@ -9099,7 +9110,7 @@
         "opposite": null,
         "transcription": "ˈkrɑkəˌdaɪl"
     },
-    {
+{
         "word": "shark",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -9119,7 +9130,7 @@
         "opposite": null,
         "transcription": "ʃɑrk"
     },
-    {
+{
         "word": "whale",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -9139,7 +9150,7 @@
         "opposite": null,
         "transcription": "weɪl"
     },
-    {
+{
         "word": "dolphin",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -9159,7 +9170,7 @@
         "opposite": null,
         "transcription": "ˈdɑlfən"
     },
-    {
+{
         "word": "octopus",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -9179,7 +9190,7 @@
         "opposite": null,
         "transcription": "ˈɑktəˌpʊs"
     },
-    {
+{
         "word": "butterfly",
         "level": "starter",
         "theme": "insects_A1",
@@ -9199,7 +9210,7 @@
         "opposite": null,
         "transcription": "ˈbətərˌflaɪ"
     },
-    {
+{
         "word": "ant",
         "level": "starter",
         "theme": "insects_A1",
@@ -9219,7 +9230,7 @@
         "opposite": null,
         "transcription": "ænt"
     },
-    {
+{
         "word": "ocean",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9239,7 +9250,7 @@
         "opposite": null,
         "transcription": "ˈoʊʃən"
     },
-    {
+{
         "word": "desert",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9259,7 +9270,7 @@
         "opposite": null,
         "transcription": "ˈdɛzərt"
     },
-    {
+{
         "word": "jungle",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9279,7 +9290,7 @@
         "opposite": null,
         "transcription": "ˈʤəŋgəl"
     },
-    {
+{
         "word": "earth",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9298,7 +9309,7 @@
         "opposite": null,
         "transcription": "ərθ"
     },
-    {
+{
         "word": "planet",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9318,7 +9329,7 @@
         "opposite": null,
         "transcription": "ˈplænət"
     },
-    {
+{
         "word": "violin",
         "level": "starter",
         "theme": "musical_instruments_A1",
@@ -9338,7 +9349,7 @@
         "opposite": null,
         "transcription": "vaɪəˈlɪn"
     },
-    {
+{
         "word": "drums",
         "level": "starter",
         "theme": "musical_instruments_A1",
@@ -9358,7 +9369,7 @@
         "opposite": null,
         "transcription": "drəmz"
     },
-    {
+{
         "word": "flute",
         "level": "starter",
         "theme": "musical_instruments_A1",
@@ -9378,7 +9389,7 @@
         "opposite": null,
         "transcription": "flut"
     },
-    {
+{
         "word": "tie",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9398,7 +9409,7 @@
         "opposite": null,
         "transcription": "taɪ"
     },
-    {
+{
         "word": "ring",
         "level": "starter",
         "theme": "accessories_A1",
@@ -9418,7 +9429,7 @@
         "opposite": null,
         "transcription": "rɪŋ"
     },
-    {
+{
         "word": "necklace",
         "level": "starter",
         "theme": "accessories_A1",
@@ -9438,7 +9449,7 @@
         "opposite": null,
         "transcription": "ˈnɛkləs"
     },
-    {
+{
         "word": "roof",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -9458,7 +9469,7 @@
         "opposite": null,
         "transcription": "rʊf"
     },
-    {
+{
         "word": "fence",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -9478,7 +9489,7 @@
         "opposite": null,
         "transcription": "fɛns"
     },
-    {
+{
         "word": "gate",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -9498,7 +9509,7 @@
         "opposite": null,
         "transcription": "geɪt"
     },
-    {
+{
         "word": "cookie",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9521,7 +9532,7 @@
         "opposite": null,
         "transcription": "ˈkʊki"
     },
-    {
+{
         "word": "biscuit",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9544,7 +9555,7 @@
         "opposite": null,
         "transcription": "ˈbɪskət"
     },
-    {
+{
         "word": "yogurt",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9564,7 +9575,7 @@
         "opposite": null,
         "transcription": "ˈjoʊgərt"
     },
-    {
+{
         "word": "ham",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9584,7 +9595,7 @@
         "opposite": null,
         "transcription": "hæm"
     },
-    {
+{
         "word": "bacon",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9604,7 +9615,7 @@
         "opposite": null,
         "transcription": "ˈbeɪkən"
     },
-    {
+{
         "word": "sausage",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9624,7 +9635,7 @@
         "opposite": null,
         "transcription": "ˈsɔsɪʤ"
     },
-    {
+{
         "word": "honey",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9643,7 +9654,7 @@
         "opposite": null,
         "transcription": "ˈhəni"
     },
-    {
+{
         "word": "jam",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9662,7 +9673,7 @@
         "opposite": null,
         "transcription": "ʤæm"
     },
-    {
+{
         "word": "pineapple",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -9682,7 +9693,7 @@
         "opposite": null,
         "transcription": "ˈpaɪˌnæpəl"
     },
-    {
+{
         "word": "watermelon",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -9702,7 +9713,7 @@
         "opposite": null,
         "transcription": "ˈwɔtərˌmɛlən"
     },
-    {
+{
         "word": "mushroom",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -9722,7 +9733,7 @@
         "opposite": null,
         "transcription": "ˈməʃrum"
     },
-    {
+{
         "word": "broccoli",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -9741,7 +9752,7 @@
         "opposite": null,
         "transcription": "ˈbrɑkəli"
     },
-    {
+{
         "word": "peas",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -9761,7 +9772,7 @@
         "opposite": null,
         "transcription": "piz"
     },
-    {
+{
         "word": "envelope",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -9781,7 +9792,7 @@
         "opposite": null,
         "transcription": "ˈɛnvəˌloʊp"
     },
-    {
+{
         "word": "stamp",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -9801,7 +9812,7 @@
         "opposite": null,
         "transcription": "stæmp"
     },
-    {
+{
         "word": "stapler",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -9821,7 +9832,7 @@
         "opposite": null,
         "transcription": "ˈsteɪpələr"
     },
-    {
+{
         "word": "glue",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -9841,7 +9852,7 @@
         "opposite": null,
         "transcription": "glu"
     },
-    {
+{
         "word": "scissors",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -9861,7 +9872,7 @@
         "opposite": null,
         "transcription": "ˈsɪzərz"
     },
-    {
+{
         "word": "calculator",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -9881,7 +9892,7 @@
         "opposite": null,
         "transcription": "ˈkælkjəˌleɪtər"
     },
-    {
+{
         "word": "washing machine",
         "level": "starter",
         "theme": "household_items_A1",
@@ -9901,7 +9912,7 @@
         "opposite": null,
         "transcription": "ˈwɑʃɪŋ məˈʃin"
     },
-    {
+{
         "word": "toaster",
         "level": "starter",
         "theme": "household_items_A1",
@@ -9921,7 +9932,7 @@
         "opposite": null,
         "transcription": "ˈtoʊstər"
     },
-    {
+{
         "word": "remote control",
         "level": "starter",
         "theme": "household_items_A1",
@@ -9941,7 +9952,7 @@
         "opposite": null,
         "transcription": "rɪˈmoʊt kənˈtroʊl"
     },
-    {
+{
         "word": "rainbow",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9961,7 +9972,7 @@
         "opposite": null,
         "transcription": "ˈreɪnˌboʊ"
     },
-    {
+{
         "word": "storm",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -9981,7 +9992,7 @@
         "opposite": null,
         "transcription": "stɔrm"
     },
-    {
+{
         "word": "pyjamas",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10001,7 +10012,7 @@
         "opposite": null,
         "transcription": "pəˈdʒɑːməz"
     },
-    {
+{
         "word": "shorts",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10021,7 +10032,7 @@
         "opposite": null,
         "transcription": "ʃɔrts"
     },
-    {
+{
         "word": "trainers",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10044,7 +10055,7 @@
         "opposite": null,
         "transcription": "ˈtreɪnərz"
     },
-    {
+{
         "word": "living room",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -10064,7 +10075,7 @@
         "opposite": null,
         "transcription": "ˈlɪvɪŋ rum"
     },
-    {
+{
         "word": "dining room",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -10084,7 +10095,7 @@
         "opposite": null,
         "transcription": "ˈdaɪnɪŋ rum"
     },
-    {
+{
         "word": "break",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -10104,7 +10115,7 @@
         "opposite": null,
         "transcription": "breɪk"
     },
-    {
+{
         "word": "globe",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -10124,7 +10135,7 @@
         "opposite": null,
         "transcription": "gloʊb"
     },
-    {
+{
         "word": "address",
         "level": "starter",
         "theme": "address_location_A1",
@@ -10145,7 +10156,7 @@
         "opposite": null,
         "transcription": "əˈdres"
     },
-    {
+{
         "word": "language",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10166,7 +10177,7 @@
         "opposite": null,
         "transcription": "ˈlæŋɡwɪdʒ"
     },
-    {
+{
         "word": "clothes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10187,7 +10198,7 @@
         "opposite": null,
         "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz"
     },
-    {
+{
         "word": "furniture",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -10208,7 +10219,7 @@
         "opposite": null,
         "transcription": "ˈfɜːnɪtʃə(r)"
     },
-    {
+{
         "word": "information",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -10229,7 +10240,7 @@
         "opposite": null,
         "transcription": "ˌɪnfəˈmeɪʃn"
     },
-    {
+{
         "word": "nature",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -10250,7 +10261,7 @@
         "opposite": null,
         "transcription": "ˈneɪtʃə(r)"
     },
-    {
+{
         "word": "weather",
         "level": "starter",
         "theme": "weather_A1",
@@ -10271,7 +10282,7 @@
         "opposite": null,
         "transcription": "ˈweðə(r)"
     },
-    {
+{
         "word": "temperature",
         "level": "starter",
         "theme": "weather_A1",
@@ -10292,7 +10303,7 @@
         "opposite": null,
         "transcription": "ˈtemprətʃə(r)"
     },
-    {
+{
         "word": "first name",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10316,7 +10327,7 @@
         "countability": "countable",
         "transcription": "fɜːst neɪm"
     },
-    {
+{
         "word": "surname",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10337,7 +10348,7 @@
         "countability": "countable",
         "transcription": "ˈsɜːneɪm"
     },
-    {
+{
         "word": "snow",
         "level": "starter",
         "theme": "weather_A1",
@@ -10358,7 +10369,7 @@
         "opposite": null,
         "transcription": "snoʊ"
     },
-    {
+{
         "word": "news",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -10379,7 +10390,7 @@
         "opposite": null,
         "transcription": "nuz"
     },
-    {
+{
         "word": "bookshop",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -10402,7 +10413,7 @@
         "opposite": null,
         "transcription": "ˈbʊkˌʃɑp"
     },
-    {
+{
         "word": "date",
         "level": "starter",
         "theme": "dates_years_A1",
@@ -10422,7 +10433,7 @@
         "opposite": null,
         "transcription": "deɪt"
     },
-    {
+{
         "word": "exam",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10442,7 +10453,7 @@
         "opposite": null,
         "transcription": "ɪgˈzæm"
     },
-    {
+{
         "word": "example",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -10462,7 +10473,7 @@
         "opposite": null,
         "transcription": "ɪgˈzæmpəl"
     },
-    {
+{
         "word": "film",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -10482,7 +10493,7 @@
         "opposite": null,
         "transcription": "fɪlm"
     },
-    {
+{
         "word": "idea",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -10502,7 +10513,7 @@
         "opposite": null,
         "transcription": "aɪˈdiə"
     },
-    {
+{
         "word": "letter",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -10522,7 +10533,7 @@
         "opposite": null,
         "transcription": "ˈlɛtər"
     },
-    {
+{
         "word": "list",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -10542,7 +10553,7 @@
         "opposite": null,
         "transcription": "lɪst"
     },
-    {
+{
         "word": "meal",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -10562,7 +10573,7 @@
         "opposite": null,
         "transcription": "mil"
     },
-    {
+{
         "word": "movie",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -10582,7 +10593,7 @@
         "opposite": null,
         "transcription": "ˈmuvi"
     },
-    {
+{
         "word": "party",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -10602,7 +10613,7 @@
         "opposite": null,
         "transcription": "ˈpɑrti"
     },
-    {
+{
         "word": "photo",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -10622,7 +10633,7 @@
         "opposite": null,
         "transcription": "ˈfoʊˌtoʊ"
     },
-    {
+{
         "word": "picture",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -10642,7 +10653,7 @@
         "opposite": null,
         "transcription": "ˈpɪkʧər"
     },
-    {
+{
         "word": "road",
         "level": "starter",
         "theme": "address_location_A1",
@@ -10662,7 +10673,7 @@
         "opposite": null,
         "transcription": "roʊd"
     },
-    {
+{
         "word": "test",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10682,7 +10693,7 @@
         "opposite": null,
         "transcription": "tɛst"
     },
-    {
+{
         "word": "university",
         "level": "starter",
         "theme": "types_of_education_A1",
@@ -10702,7 +10713,7 @@
         "opposite": null,
         "transcription": "ˌjunəˈvərsəti"
     },
-    {
+{
         "word": "writer",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -10722,7 +10733,7 @@
         "opposite": null,
         "transcription": "ˈraɪtər"
     },
-    {
+{
         "word": "suitcase",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -10742,7 +10753,7 @@
         "opposite": null,
         "transcription": "ˈsutˌkeɪs"
     },
-    {
+{
         "word": "purse",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -10762,7 +10773,7 @@
         "opposite": null,
         "transcription": "pərs"
     },
-    {
+{
         "word": "pocket",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10782,7 +10793,7 @@
         "opposite": null,
         "transcription": "ˈpɑkət"
     },
-    {
+{
         "word": "comb",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -10802,7 +10813,7 @@
         "opposite": null,
         "transcription": "koʊm"
     },
-    {
+{
         "word": "skill",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10822,7 +10833,7 @@
         "opposite": null,
         "transcription": "skɪl"
     },
-    {
+{
         "word": "opinion",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -10842,7 +10853,7 @@
         "opposite": null,
         "transcription": "əˈpɪnjən"
     },
-    {
+{
         "word": "apartment",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -10865,7 +10876,7 @@
         "opposite": null,
         "transcription": "əˈpɑrtmənt"
     },
-    {
+{
         "word": "bicycle",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -10885,7 +10896,7 @@
         "opposite": null,
         "transcription": "ˈbaɪsɪkəl"
     },
-    {
+{
         "word": "mobile",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -10905,7 +10916,7 @@
         "opposite": null,
         "transcription": "ˈmoʊbəl"
     },
-    {
+{
         "word": "class",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10925,7 +10936,7 @@
         "opposite": null,
         "transcription": "klæs"
     },
-    {
+{
         "word": "classroom",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -10945,7 +10956,7 @@
         "opposite": null,
         "transcription": "ˈklæsˌrum"
     },
-    {
+{
         "word": "staff",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -10969,7 +10980,7 @@
         "opposite": null,
         "transcription": "stæf"
     },
-    {
+{
         "word": "customer",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -10989,7 +11000,7 @@
         "opposite": null,
         "transcription": "ˈkəstəmər"
     },
-    {
+{
         "word": "guest",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -11009,7 +11020,7 @@
         "opposite": null,
         "transcription": "gɛst"
     },
-    {
+{
         "word": "career",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -11029,7 +11040,7 @@
         "opposite": null,
         "transcription": "kərɪr"
     },
-    {
+{
         "word": "profession",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -11053,7 +11064,7 @@
         "opposite": null,
         "transcription": "prəˈfɛʃən"
     },
-    {
+{
         "word": "wage",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -11077,7 +11088,7 @@
         "opposite": null,
         "transcription": "weɪʤ"
     },
-    {
+{
         "word": "factory",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -11097,7 +11108,7 @@
         "opposite": null,
         "transcription": "ˈfæktəri"
     },
-    {
+{
         "word": "file",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -11117,7 +11128,7 @@
         "opposite": null,
         "transcription": "faɪl"
     },
-    {
+{
         "word": "document",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -11137,7 +11148,7 @@
         "opposite": null,
         "transcription": "ˈdɑkjəmɛnt"
     },
-    {
+{
         "word": "radio",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -11157,7 +11168,7 @@
         "opposite": null,
         "transcription": "ˈreɪdiˌoʊ"
     },
-    {
+{
         "word": "printer",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -11177,7 +11188,7 @@
         "opposite": null,
         "transcription": "ˈprɪnər"
     },
-    {
+{
         "word": "dessert",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -11200,7 +11211,7 @@
         "opposite": null,
         "transcription": "dɪˈzərt"
     },
-    {
+{
         "word": "shoes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -11220,7 +11231,7 @@
         "opposite": null,
         "transcription": "ʃuz"
     },
-    {
+{
         "word": "jewelry",
         "level": "starter",
         "theme": "accessories_A1",
@@ -11240,7 +11251,7 @@
         "opposite": null,
         "transcription": "ˈʤuəlri"
     },
-    {
+{
         "word": "nephew",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -11260,7 +11271,7 @@
         "subtext": "related to extended family",
         "transcription": "ˈnɛfju"
     },
-    {
+{
         "word": "niece",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -11280,7 +11291,7 @@
         "subtext": "related to extended family",
         "transcription": "nis"
     },
-    {
+{
         "word": "teenager",
         "level": "starter",
         "theme": "people_A1",
@@ -11300,7 +11311,7 @@
         "opposite": null,
         "transcription": "ˈtiˌneɪʤər"
     },
-    {
+{
         "word": "professor",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -11320,7 +11331,7 @@
         "opposite": null,
         "transcription": "prəˈfɛsər"
     },
-    {
+{
         "word": "month",
         "level": "starter",
         "theme": "dates_years_A1",
@@ -11340,7 +11351,7 @@
         "opposite": null,
         "transcription": "mənθ"
     },
-    {
+{
         "word": "excuse me",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -11361,9 +11372,9 @@
         "opposite": null,
         "transcription": "ɪkˈskjuz mi"
     },
-    {
+{
         "word": "above",
-        "image": "images/vocabulary/above.png",
+        "image": "images/grammar/prepositions/above.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -11380,9 +11391,9 @@
         "emoji": "⬆️",
         "transcription": "əˈbəv"
     },
-    {
+{
         "word": "below",
-        "image": "images/vocabulary/below.png",
+        "image": "images/grammar/prepositions/below.png",
         "level": "starter",
         "theme": "prepositions_place_A1",
         "form": "preposition",
@@ -11399,7 +11410,7 @@
         "emoji": "⬇️",
         "transcription": "bɪˈloʊ"
     },
-    {
+{
         "word": "inside",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -11417,7 +11428,7 @@
         "emoji": "🏠",
         "transcription": "ˌɪnˈsaɪd"
     },
-    {
+{
         "word": "outside",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -11435,7 +11446,7 @@
         "emoji": "🌳",
         "transcription": "ˈaʊtˈsaɪd"
     },
-    {
+{
         "word": "during",
         "level": "starter",
         "theme": "prepositions_time_A1",
@@ -11453,7 +11464,7 @@
         "emoji": "⌛",
         "transcription": "ˈdʊrɪŋ"
     },
-    {
+{
         "word": "before",
         "level": "starter",
         "theme": "prepositions_time_A1",
@@ -11471,7 +11482,7 @@
         "emoji": "⏮️",
         "transcription": "ˌbiˈfɔr"
     },
-    {
+{
         "word": "after",
         "level": "starter",
         "theme": "prepositions_time_A1",
@@ -11489,7 +11500,7 @@
         "emoji": "⏭️",
         "transcription": "ˈæftər"
     },
-    {
+{
         "word": "top",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -11508,7 +11519,7 @@
         "subtext": "related to size shape",
         "transcription": "tɔp"
     },
-    {
+{
         "word": "bottom",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -11527,7 +11538,7 @@
         "subtext": "related to size shape",
         "transcription": "ˈbɑtəm"
     },
-    {
+{
         "word": "first",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -11547,7 +11558,7 @@
         "subtext": "related to sequence order A2",
         "transcription": "fərst"
     },
-    {
+{
         "word": "last",
         "level": "starter",
         "theme": "times_day_A1",
@@ -11567,7 +11578,7 @@
         "subtext": "related to sequence order A2",
         "transcription": "læst"
     },
-    {
+{
         "word": "next",
         "level": "starter",
         "theme": "times_day_A1",
@@ -11587,7 +11598,7 @@
         "subtext": "related to sequence order A2",
         "transcription": "nɛkst"
     },
-    {
+{
         "word": "animal",
         "level": "starter",
         "theme": "animals_A1",
@@ -11611,7 +11622,7 @@
         "opposite": null,
         "transcription": "ˈænəməl"
     },
-    {
+{
         "word": "chips",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -11635,7 +11646,7 @@
         "opposite": null,
         "transcription": "ʧɪps"
     },
-    {
+{
         "word": "fries",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -11658,7 +11669,7 @@
         "opposite": null,
         "transcription": "fraɪz"
     },
-    {
+{
         "word": "gym",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -11681,7 +11692,7 @@
         "opposite": null,
         "transcription": "ʤɪm"
     },
-    {
+{
         "word": "fire",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -11704,7 +11715,7 @@
         "opposite": null,
         "transcription": "faɪər"
     },
-    {
+{
         "word": "group",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -11727,7 +11738,7 @@
         "opposite": null,
         "transcription": "grup"
     },
-    {
+{
         "word": "ice",
         "level": "starter",
         "theme": "weather_A1",
@@ -11749,7 +11760,7 @@
         "opposite": null,
         "transcription": "aɪs"
     },
-    {
+{
         "word": "police",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -11768,7 +11779,7 @@
         "opposite": null,
         "transcription": "pəˈlis"
     },
-    {
+{
         "word": "traffic",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -11791,7 +11802,7 @@
         "opposite": null,
         "transcription": "ˈtræfɪk"
     },
-    {
+{
         "word": "actress",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -11814,7 +11825,7 @@
         "opposite": null,
         "transcription": "ˈæktrəs"
     },
-    {
+{
         "word": "farm",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -11837,7 +11848,7 @@
         "opposite": null,
         "transcription": "fɑrm"
     },
-    {
+{
         "word": "blanket",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11860,7 +11871,7 @@
         ],
         "transcription": "ˈblæŋkɪt"
     },
-    {
+{
         "word": "pillow",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11882,7 +11893,7 @@
         ],
         "transcription": "ˈpɪloʊ"
     },
-    {
+{
         "word": "present",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -11904,7 +11915,7 @@
         ],
         "transcription": "ˈprɛzənt"
     },
-    {
+{
         "word": "carpet",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11927,7 +11938,7 @@
         ],
         "transcription": "ˈkɑrpət"
     },
-    {
+{
         "word": "battery",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -11950,7 +11961,7 @@
         ],
         "transcription": "ˈbætəri"
     },
-    {
+{
         "word": "charger",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -11972,7 +11983,7 @@
         ],
         "transcription": "ˈʧɑrʤər"
     },
-    {
+{
         "word": "calendar",
         "level": "starter",
         "theme": "dates_years_A1",
@@ -11994,7 +12005,7 @@
         ],
         "transcription": "ˈkæləndər"
     },
-    {
+{
         "word": "tape",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -12013,7 +12024,7 @@
         "subtext": "sticky tape",
         "transcription": "teɪp"
     },
-    {
+{
         "word": "sheet",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12035,7 +12046,7 @@
         ],
         "transcription": "ʃit"
     },
-    {
+{
         "word": "nurse",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12054,7 +12065,7 @@
         "countability": "countable",
         "subtext": "hospital nurse, school nurse"
     },
-    {
+{
         "word": "engineer",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12073,7 +12084,7 @@
         "countability": "countable",
         "subtext": "civil engineer, electrical engineer"
     },
-    {
+{
         "word": "chef",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12092,7 +12103,7 @@
         "countability": "countable",
         "subtext": "head chef, pastry chef"
     },
-    {
+{
         "word": "grapes",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -12111,7 +12122,7 @@
         "countability": "countable",
         "subtext": "a bunch of grapes"
     },
-    {
+{
         "word": "corn",
         "level": "starter",
         "theme": "fruits_vegetables_A1",
@@ -12130,7 +12141,7 @@
         "countability": "uncountable",
         "subtext": "sweet corn"
     },
-    {
+{
         "word": "be",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -12155,7 +12166,7 @@
         "group": "irregular",
         "opposite": "become"
     },
-    {
+{
         "word": "have",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -12180,7 +12191,7 @@
         "group": "irregular",
         "opposite": "need"
     },
-    {
+{
         "word": "feel",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -12203,7 +12214,7 @@
         "group": "irregular",
         "opposite": "act"
     },
-    {
+{
         "word": "give",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -12228,7 +12239,7 @@
         "v3": "given",
         "group": "irregular"
     },
-    {
+{
         "word": "take",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -12253,7 +12264,7 @@
         "v3": "taken",
         "group": "irregular"
     },
-    {
+{
         "word": "get",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -12279,7 +12290,7 @@
         "group": "irregular",
         "transcription": "gɪt"
     },
-    {
+{
         "word": "put",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -12304,7 +12315,7 @@
         "group": "irregular",
         "transcription": "pʊt"
     },
-    {
+{
         "word": "make",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -12328,7 +12339,7 @@
         "opposite": "destroy",
         "transcription": "meɪk"
     },
-    {
+{
         "word": "do",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -12352,7 +12363,7 @@
         "opposite": "undo",
         "transcription": "du"
     },
-    {
+{
         "word": "use",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -12376,7 +12387,7 @@
         "opposite": "waste",
         "transcription": "juz"
     },
-    {
+{
         "word": "open",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -12401,7 +12412,7 @@
         "group": "regular",
         "transcription": "ˈoʊpən"
     },
-    {
+{
         "word": "close",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -12426,7 +12437,7 @@
         "group": "regular",
         "transcription": "kloʊz"
     },
-    {
+{
         "word": "start",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -12450,7 +12461,7 @@
         "group": "regular",
         "transcription": "stɑrt"
     },
-    {
+{
         "word": "finish",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -12474,7 +12485,7 @@
         "group": "regular",
         "transcription": "ˈfɪnɪʃ"
     },
-    {
+{
         "word": "help",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -12497,7 +12508,7 @@
         "opposite": "hinder",
         "transcription": "hɛlp"
     },
-    {
+{
         "word": "try",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -12520,7 +12531,7 @@
         "opposite": "give up",
         "transcription": "traɪ"
     },
-    {
+{
         "word": "show",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -12544,7 +12555,7 @@
         "group": "irregular",
         "transcription": "ʃoʊ"
     },
-    {
+{
         "word": "find",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -12569,7 +12580,7 @@
         "group": "irregular",
         "transcription": "faɪnd"
     },
-    {
+{
         "word": "keep",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -12593,7 +12604,7 @@
         "opposite": "give away",
         "transcription": "kip"
     },
-    {
+{
         "word": "lose",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -12618,7 +12629,7 @@
         "group": "irregular",
         "transcription": "luz"
     },
-    {
+{
         "word": "cut",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -12642,7 +12653,7 @@
         "opposite": "join",
         "transcription": "kət"
     },
-    {
+{
         "word": "turn",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -12666,7 +12677,7 @@
         "opposite": "straighten",
         "transcription": "tərn"
     },
-    {
+{
         "word": "bring",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -12691,7 +12702,7 @@
         "group": "irregular",
         "transcription": "brɪŋ"
     },
-    {
+{
         "word": "say",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -12715,7 +12726,7 @@
         "opposite": "listen",
         "transcription": "seɪ"
     },
-    {
+{
         "word": "tell",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -12738,7 +12749,7 @@
         "opposite": "ask",
         "transcription": "tɛl"
     },
-    {
+{
         "word": "ask",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -12762,7 +12773,7 @@
         "group": "regular",
         "transcription": "æsk"
     },
-    {
+{
         "word": "speak",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -12786,7 +12797,7 @@
         "opposite": "be silent",
         "transcription": "spik"
     },
-    {
+{
         "word": "talk",
         "level": "starter",
         "theme": "family_life_A1",
@@ -12809,7 +12820,7 @@
         "opposite": "listen",
         "transcription": "tɔk"
     },
-    {
+{
         "word": "call",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -12832,7 +12843,7 @@
         "opposite": "hang up",
         "transcription": "kɔl"
     },
-    {
+{
         "word": "write",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -12857,7 +12868,7 @@
         "group": "irregular",
         "transcription": "raɪt"
     },
-    {
+{
         "word": "read",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -12882,7 +12893,7 @@
         "group": "irregular",
         "transcription": "rɛd"
     },
-    {
+{
         "word": "listen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -12906,7 +12917,7 @@
         "opposite": "say",
         "transcription": "ˈlɪsən"
     },
-    {
+{
         "word": "answer",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -12931,7 +12942,7 @@
         "group": "regular",
         "transcription": "ˈænsər"
     },
-    {
+{
         "word": "repeat",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -12955,7 +12966,7 @@
         "opposite": "change",
         "transcription": "rɪˈpit"
     },
-    {
+{
         "word": "go",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -12980,7 +12991,7 @@
         "group": "irregular",
         "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ"
     },
-    {
+{
         "word": "come",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -13005,7 +13016,7 @@
         "group": "irregular",
         "transcription": "kʌm"
     },
-    {
+{
         "word": "walk",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -13030,7 +13041,7 @@
         "group": "regular",
         "transcription": "wɔk"
     },
-    {
+{
         "word": "drive",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -13054,7 +13065,7 @@
         "opposite": "walk",
         "transcription": "draɪv"
     },
-    {
+{
         "word": "fly",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -13078,7 +13089,7 @@
         "opposite": "land",
         "transcription": "flaɪ"
     },
-    {
+{
         "word": "arrive",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -13102,7 +13113,7 @@
         "group": "regular",
         "transcription": "əraɪv"
     },
-    {
+{
         "word": "leave",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -13126,7 +13137,7 @@
         "group": "irregular",
         "transcription": "liv"
     },
-    {
+{
         "word": "move",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -13149,7 +13160,7 @@
         "opposite": "stay",
         "transcription": "muv"
     },
-    {
+{
         "word": "return",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -13173,7 +13184,7 @@
         "opposite": "leave",
         "transcription": "rɪˈtərn"
     },
-    {
+{
         "word": "travel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -13196,9 +13207,9 @@
         "opposite": "stay",
         "transcription": "ˈtrævəl"
     },
-    {
+{
         "word": "eat",
-        "image": "images/vocabulary/eat.png",
+        "image": "images/vocabulary/actions/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -13222,9 +13233,9 @@
         "group": "irregular",
         "transcription": "it"
     },
-    {
+{
         "word": "drink",
-        "image": "images/vocabulary/drink.png",
+        "image": "images/vocabulary/actions/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -13248,9 +13259,9 @@
         "group": "irregular",
         "transcription": "drɪŋk"
     },
-    {
+{
         "word": "sleep",
-        "image": "images/vocabulary/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -13274,9 +13285,9 @@
         "group": "irregular",
         "transcription": "slip"
     },
-    {
+{
         "word": "cook",
-        "image": "images/vocabulary/cook.png",
+        "image": "images/vocabulary/actions/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -13298,7 +13309,7 @@
         "opposite": "eat",
         "transcription": "kʊk"
     },
-    {
+{
         "word": "clean",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -13321,7 +13332,7 @@
         "opposite": "dirty",
         "transcription": "klin"
     },
-    {
+{
         "word": "wear",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -13345,7 +13356,7 @@
         "opposite": "undress",
         "transcription": "wɛr"
     },
-    {
+{
         "word": "wash",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -13369,7 +13380,7 @@
         "opposite": "dirty",
         "transcription": "wɑʃ"
     },
-    {
+{
         "word": "buy",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -13394,7 +13405,7 @@
         "group": "irregular",
         "transcription": "baɪ"
     },
-    {
+{
         "word": "pay",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -13417,7 +13428,7 @@
         "opposite": "receive",
         "transcription": "peɪ"
     },
-    {
+{
         "word": "spend",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -13441,7 +13452,7 @@
         "group": "irregular",
         "transcription": "spɛnd"
     },
-    {
+{
         "word": "save",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -13465,7 +13476,7 @@
         "group": "regular",
         "transcription": "seɪv"
     },
-    {
+{
         "word": "work",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -13489,7 +13500,7 @@
         "group": "regular",
         "transcription": "wərk"
     },
-    {
+{
         "word": "live",
         "level": "starter",
         "theme": "address_location_A1",
@@ -13514,7 +13525,7 @@
         "group": "regular",
         "transcription": "lɪv"
     },
-    {
+{
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -13538,7 +13549,7 @@
         "opposite": "feel",
         "transcription": "θɪŋk"
     },
-    {
+{
         "word": "know",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -13563,7 +13574,7 @@
         "opposite": "wonder",
         "transcription": "noʊ"
     },
-    {
+{
         "word": "want",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -13588,7 +13599,7 @@
         "opposite": "refuse",
         "transcription": "wɔnt"
     },
-    {
+{
         "word": "need",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -13613,7 +13624,7 @@
         "opposite": "have",
         "transcription": "nid"
     },
-    {
+{
         "word": "like",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -13639,7 +13650,7 @@
         "group": "regular",
         "transcription": "laɪk"
     },
-    {
+{
         "word": "dislike",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -13663,7 +13674,7 @@
         "group": "regular",
         "transcription": "dɪsˈlaɪk"
     },
-    {
+{
         "word": "love",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -13688,7 +13699,7 @@
         "group": "regular",
         "transcription": "ləv"
     },
-    {
+{
         "word": "hate",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -13713,7 +13724,7 @@
         "group": "regular",
         "transcription": "heɪt"
     },
-    {
+{
         "word": "hope",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -13737,7 +13748,7 @@
         "opposite": "fear",
         "transcription": "hoʊp"
     },
-    {
+{
         "word": "remember",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -13762,7 +13773,7 @@
         "group": "regular",
         "transcription": "rɪˈmɛmbər"
     },
-    {
+{
         "word": "forget",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -13787,7 +13798,7 @@
         "group": "irregular",
         "transcription": "fərˈgɛt"
     },
-    {
+{
         "word": "understand",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -13811,7 +13822,7 @@
         "opposite": "misunderstand",
         "transcription": "ˌəndərˈstænd"
     },
-    {
+{
         "word": "decide",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -13838,7 +13849,7 @@
         "opposite": "hesitate",
         "transcription": "ˌdɪˈsaɪd"
     },
-    {
+{
         "word": "enjoy",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -13861,7 +13872,7 @@
         "opposite": "hate",
         "transcription": "ˌɛnˈʤɔɪ"
     },
-    {
+{
         "word": "see",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -13885,7 +13896,7 @@
         "opposite": "blind",
         "transcription": "si"
     },
-    {
+{
         "word": "hear",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -13909,9 +13920,9 @@
         "opposite": "ignore",
         "transcription": "hir"
     },
-    {
+{
         "word": "wake up",
-        "image": "images/vocabulary/wake up.png",
+        "image": "images/vocabulary/actions/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -13934,7 +13945,7 @@
         "group": "irregular",
         "transcription": "weɪk əp"
     },
-    {
+{
         "word": "watch",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -13957,7 +13968,7 @@
         "opposite": "ignore",
         "transcription": "wɔʧ"
     },
-    {
+{
         "word": "look",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -13981,7 +13992,7 @@
         "opposite": "ignore",
         "transcription": "lʊk"
     },
-    {
+{
         "word": "play",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -14004,7 +14015,7 @@
         "opposite": "work",
         "transcription": "pleɪ"
     },
-    {
+{
         "word": "run",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -14029,7 +14040,7 @@
         "group": "irregular",
         "transcription": "rən"
     },
-    {
+{
         "word": "sit",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14053,7 +14064,7 @@
         "group": "irregular",
         "transcription": "sɪt"
     },
-    {
+{
         "word": "stand",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14077,7 +14088,7 @@
         "group": "irregular",
         "transcription": "stænd"
     },
-    {
+{
         "word": "meet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -14100,7 +14111,7 @@
         "opposite": null,
         "transcription": "mit"
     },
-    {
+{
         "word": "learn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -14124,7 +14135,7 @@
         "group": "both",
         "transcription": "lərn"
     },
-    {
+{
         "word": "change",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14147,7 +14158,7 @@
         "opposite": "stay",
         "transcription": "ʧeɪnʤ"
     },
-    {
+{
         "word": "stop",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14171,7 +14182,7 @@
         "group": "regular",
         "transcription": "stɑp"
     },
-    {
+{
         "word": "add",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -14196,7 +14207,7 @@
         "group": "regular",
         "transcription": "æd"
     },
-    {
+{
         "word": "subtract",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -14223,7 +14234,7 @@
         "group": "regular",
         "transcription": "səbˈtrækt"
     },
-    {
+{
         "word": "win",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -14247,7 +14258,7 @@
         "group": "irregular",
         "transcription": "wɪn"
     },
-    {
+{
         "word": "wait",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14270,7 +14281,7 @@
         "opposite": "act",
         "transcription": "weɪt"
     },
-    {
+{
         "word": "die",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -14294,7 +14305,7 @@
         "group": "regular",
         "transcription": "daɪ"
     },
-    {
+{
         "word": "send",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -14318,7 +14329,7 @@
         "group": "irregular",
         "transcription": "sɛnd"
     },
-    {
+{
         "word": "stay",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -14343,7 +14354,7 @@
         "group": "regular",
         "transcription": "steɪ"
     },
-    {
+{
         "word": "fall",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -14371,7 +14382,7 @@
         "group": "irregular",
         "transcription": "fɔl"
     },
-    {
+{
         "word": "rise",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -14396,7 +14407,7 @@
         "group": "irregular",
         "transcription": "raɪz"
     },
-    {
+{
         "word": "pass",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -14421,7 +14432,7 @@
         "group": "regular",
         "transcription": "pæs"
     },
-    {
+{
         "word": "sell",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -14448,7 +14459,7 @@
         "group": "irregular",
         "transcription": "sɛl"
     },
-    {
+{
         "word": "pull",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14472,7 +14483,7 @@
         "group": "regular",
         "transcription": "pʊl"
     },
-    {
+{
         "word": "push",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14497,7 +14508,7 @@
         "group": "regular",
         "transcription": "pʊʃ"
     },
-    {
+{
         "word": "carry",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -14520,7 +14531,7 @@
         "opposite": "drop",
         "transcription": "ˈkɛri"
     },
-    {
+{
         "word": "break",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -14544,7 +14555,7 @@
         "opposite": "fix",
         "transcription": "breɪk"
     },
-    {
+{
         "word": "receive",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -14569,7 +14580,7 @@
         "group": "regular",
         "transcription": "rɪˈsiv"
     },
-    {
+{
         "word": "agree",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -14594,7 +14605,7 @@
         "group": "regular",
         "transcription": "əˈgri"
     },
-    {
+{
         "word": "draw",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -14618,7 +14629,7 @@
         "opposite": null,
         "transcription": "drɔ"
     },
-    {
+{
         "word": "share",
         "level": "starter",
         "theme": "family_life_A1",
@@ -14642,7 +14653,7 @@
         "opposite": "keep",
         "transcription": "ʃɛr"
     },
-    {
+{
         "word": "smile",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -14667,7 +14678,7 @@
         "group": "regular",
         "transcription": "smaɪl"
     },
-    {
+{
         "word": "cry",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -14695,7 +14706,7 @@
         "group": "regular",
         "transcription": "kraɪ"
     },
-    {
+{
         "word": "dance",
         "level": "starter",
         "theme": "music_A1",
@@ -14722,7 +14733,7 @@
         "opposite": "sit",
         "transcription": "dæns"
     },
-    {
+{
         "word": "sing",
         "level": "starter",
         "theme": "music_A1",
@@ -14749,7 +14760,7 @@
         "opposite": "be quiet",
         "transcription": "sɪŋ"
     },
-    {
+{
         "word": "jump",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -14773,7 +14784,7 @@
         "opposite": "fall",
         "transcription": "ʤəmp"
     },
-    {
+{
         "word": "swim",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -14800,7 +14811,7 @@
         "opposite": "sink",
         "transcription": "swɪm"
     },
-    {
+{
         "word": "study",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -14823,7 +14834,7 @@
         "opposite": "play",
         "transcription": "ˈstədi"
     },
-    {
+{
         "word": "teach",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -14846,7 +14857,7 @@
         "opposite": "learn",
         "transcription": "tiʧ"
     },
-    {
+{
         "word": "rent",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -14869,7 +14880,7 @@
         "opposite": "own",
         "transcription": "rɛnt"
     },
-    {
+{
         "word": "exercise",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -14892,7 +14903,7 @@
         "opposite": "rest",
         "transcription": "ˈɛksərˌsaɪz"
     },
-    {
+{
         "word": "cost",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -14914,7 +14925,7 @@
         "group": "irregular",
         "transcription": "kɔst"
     },
-    {
+{
         "word": "invite",
         "level": "starter",
         "theme": "family_life_A1",
@@ -14937,9 +14948,9 @@
         "opposite": "reject",
         "transcription": "ˌɪnˈvaɪt"
     },
-    {
+{
         "word": "get up",
-        "image": "images/vocabulary/get up.png",
+        "image": "images/vocabulary/actions/get up.png",
         "definitions": [
             {
                 "text": "To rise from bed after waking.",
@@ -14961,9 +14972,9 @@
         "opposite": null,
         "transcription": "gɪt əp"
     },
-    {
+{
         "word": "have breakfast",
-        "image": "images/vocabulary/have breakfast.png",
+        "image": "images/vocabulary/actions/have breakfast.png",
         "definitions": [
             {
                 "text": "To eat the morning meal.",
@@ -14988,7 +14999,7 @@
         "opposite": null,
         "transcription": "hæv ˈbrɛkfəst"
     },
-    {
+{
         "word": "come back",
         "definitions": [
             {
@@ -15011,9 +15022,9 @@
         "opposite": null,
         "transcription": "kəm bæk"
     },
-    {
+{
         "word": "go to bed",
-        "image": "images/vocabulary/go to bed.png",
+        "image": "images/vocabulary/actions/go to bed.png",
         "definitions": [
             {
                 "text": "To get into bed in order to sleep.",
@@ -15035,7 +15046,7 @@
         "opposite": null,
         "transcription": "goʊ tɪ bɛd"
     },
-    {
+{
         "word": "check",
         "definitions": [
             {
@@ -15058,7 +15069,7 @@
         "opposite": "ignore",
         "transcription": "ʧɛk"
     },
-    {
+{
         "word": "unpack",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -15082,7 +15093,7 @@
         "group": "regular",
         "transcription": "ənˈpæk"
     },
-    {
+{
         "word": "reply",
         "definitions": [
             {
@@ -15105,7 +15116,7 @@
         "opposite": "ignore",
         "transcription": "rɪˈplaɪ"
     },
-    {
+{
         "word": "present",
         "definitions": [
             {
@@ -15128,7 +15139,7 @@
         "opposite": "hide",
         "transcription": "ˈprɛzənt"
     },
-    {
+{
         "word": "attend",
         "definitions": [
             {
@@ -15151,7 +15162,7 @@
         "opposite": "miss",
         "transcription": "əˈtɛnd"
     },
-    {
+{
         "word": "manage",
         "definitions": [
             {
@@ -15174,7 +15185,7 @@
         "opposite": "follow",
         "transcription": "ˈmænɪʤ"
     },
-    {
+{
         "word": "earn",
         "definitions": [
             {
@@ -15197,7 +15208,7 @@
         "opposite": "spend",
         "transcription": "ərn"
     },
-    {
+{
         "word": "visit",
         "definitions": [
             {
@@ -15220,7 +15231,7 @@
         "opposite": "leave",
         "transcription": "ˈvɪzɪt"
     },
-    {
+{
         "word": "celebrate",
         "definitions": [
             {
@@ -15243,7 +15254,7 @@
         "opposite": "mourn",
         "transcription": "ˈsɛləˌbreɪt"
     },
-    {
+{
         "word": "hurt",
         "definitions": [
             {
@@ -15266,7 +15277,7 @@
         "opposite": "heal",
         "transcription": "hərt"
     },
-    {
+{
         "word": "rest",
         "definitions": [
             {
@@ -15289,7 +15300,7 @@
         "opposite": "exercise",
         "transcription": "rɛst"
     },
-    {
+{
         "word": "book",
         "definitions": [
             {
@@ -15312,7 +15323,7 @@
         "opposite": "cancel",
         "transcription": "bʊk"
     },
-    {
+{
         "word": "pack",
         "definitions": [
             {
@@ -15336,7 +15347,7 @@
         "group": "regular",
         "transcription": "pæk"
     },
-    {
+{
         "word": "cancel",
         "definitions": [
             {
@@ -15359,7 +15370,7 @@
         "opposite": "book",
         "transcription": "ˈkænsəl"
     },
-    {
+{
         "word": "miss",
         "definitions": [
             {
@@ -15382,7 +15393,7 @@
         "opposite": "attend",
         "transcription": "mɪs"
     },
-    {
+{
         "word": "order",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -15405,7 +15416,7 @@
         "opposite": "deliver",
         "transcription": "ˈɔrdər"
     },
-    {
+{
         "word": "thank",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -15428,7 +15439,7 @@
         "opposite": "complain",
         "transcription": "θæŋk"
     },
-    {
+{
         "word": "introduce",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -15451,7 +15462,7 @@
         "opposite": "hide",
         "transcription": "ˌɪntrəˈdus"
     },
-    {
+{
         "word": "relax",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -15474,7 +15485,7 @@
         "opposite": "work",
         "transcription": "rɪˈlæks"
     },
-    {
+{
         "word": "mean",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -15497,7 +15508,7 @@
         "opposite": "nonsense",
         "transcription": "min"
     },
-    {
+{
         "word": "follow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -15521,7 +15532,7 @@
         "group": "regular",
         "transcription": "ˈfɑloʊ"
     },
-    {
+{
         "word": "grow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -15544,7 +15555,7 @@
         "opposite": "shrink",
         "transcription": "groʊ"
     },
-    {
+{
         "word": "become",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -15567,7 +15578,7 @@
         "opposite": "remain",
         "transcription": "bɪˈkəm"
     },
-    {
+{
         "word": "choose",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -15590,7 +15601,7 @@
         "opposite": "reject",
         "transcription": "ʧuz"
     },
-    {
+{
         "word": "begin",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -15617,7 +15628,7 @@
         "group": "irregular",
         "transcription": "bɪˈgɪn"
     },
-    {
+{
         "word": "end",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -15645,7 +15656,7 @@
         "group": "regular",
         "transcription": "ɛnd"
     },
-    {
+{
         "word": "brush",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -15671,7 +15682,7 @@
         "opposite": "mess up",
         "transcription": "brəʃ"
     },
-    {
+{
         "word": "ride",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -15694,7 +15705,7 @@
         "opposite": "walk",
         "transcription": "raɪd"
     },
-    {
+{
         "word": "believe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -15721,7 +15732,7 @@
         "opposite": "doubt",
         "transcription": "bɪˈliv"
     },
-    {
+{
         "word": "prefer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -15744,7 +15755,7 @@
         "opposite": "dislike",
         "transcription": "prɪˈfər"
     },
-    {
+{
         "word": "catch",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -15767,7 +15778,7 @@
         "opposite": "throw",
         "transcription": "kæʧ"
     },
-    {
+{
         "word": "fix",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -15793,7 +15804,7 @@
         "opposite": "break",
         "transcription": "fɪks"
     },
-    {
+{
         "word": "plan",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -15819,7 +15830,7 @@
         "opposite": "improvise",
         "transcription": "plæn"
     },
-    {
+{
         "word": "borrow",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -15842,7 +15853,7 @@
         "opposite": "lend",
         "transcription": "ˈbɑˌroʊ"
     },
-    {
+{
         "word": "smell",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -15868,7 +15879,7 @@
         "opposite": "stink",
         "transcription": "smɛl"
     },
-    {
+{
         "word": "taste",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -15894,7 +15905,7 @@
         "opposite": "swallow",
         "transcription": "teɪst"
     },
-    {
+{
         "word": "lie",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -15920,7 +15931,7 @@
         "opposite": "stand",
         "transcription": "laɪ"
     },
-    {
+{
         "word": "laugh",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -15947,7 +15958,7 @@
         "group": "regular",
         "transcription": "læf"
     },
-    {
+{
         "word": "worry",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -15973,7 +15984,7 @@
         "opposite": "relax",
         "transcription": "ˈwəri"
     },
-    {
+{
         "word": "sound",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -15999,7 +16010,7 @@
         "opposite": "silence",
         "transcription": "saʊnd"
     },
-    {
+{
         "word": "spell",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16025,7 +16036,7 @@
         "opposite": "misspell",
         "transcription": "spɛl"
     },
-    {
+{
         "word": "point",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16052,7 +16063,7 @@
         "opposite": "hide",
         "transcription": "pɔɪnt"
     },
-    {
+{
         "word": "shout",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16078,7 +16089,7 @@
         "opposite": "whisper",
         "transcription": "ʃaʊt"
     },
-    {
+{
         "word": "wave",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -16104,7 +16115,7 @@
         "opposite": "ignore",
         "transcription": "weɪv"
     },
-    {
+{
         "word": "kick",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -16130,7 +16141,7 @@
         "opposite": "catch",
         "transcription": "kɪk"
     },
-    {
+{
         "word": "throw",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -16156,7 +16167,7 @@
         "opposite": "catch",
         "transcription": "θroʊ"
     },
-    {
+{
         "word": "bounce",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -16183,7 +16194,7 @@
         "opposite": "stop",
         "transcription": "baʊns"
     },
-    {
+{
         "word": "paint",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -16210,7 +16221,7 @@
         "opposite": "erase",
         "transcription": "peɪnt"
     },
-    {
+{
         "word": "hop",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -16236,7 +16247,7 @@
         "opposite": "walk",
         "transcription": "hɑp"
     },
-    {
+{
         "word": "skip",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -16263,7 +16274,7 @@
         "opposite": "walk",
         "transcription": "skɪp"
     },
-    {
+{
         "word": "count",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -16289,7 +16300,7 @@
         "opposite": "estimate",
         "transcription": "kaʊnt"
     },
-    {
+{
         "word": "tick",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16315,7 +16326,7 @@
         "opposite": "cross",
         "transcription": "tɪk"
     },
-    {
+{
         "word": "cross",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16341,7 +16352,7 @@
         "opposite": "tick",
         "transcription": "krɔs"
     },
-    {
+{
         "word": "colour",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16367,7 +16378,7 @@
         "opposite": "erase",
         "transcription": "ˈkələr"
     },
-    {
+{
         "word": "hold",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -16394,7 +16405,7 @@
         "opposite": "drop",
         "transcription": "hoʊld"
     },
-    {
+{
         "word": "lead",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -16421,7 +16432,7 @@
         "opposite": "follow",
         "transcription": "lɛd"
     },
-    {
+{
         "word": "fight",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -16447,7 +16458,7 @@
         "opposite": "make peace",
         "transcription": "faɪt"
     },
-    {
+{
         "word": "hide",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -16471,7 +16482,7 @@
         "group": "irregular",
         "transcription": "haɪd"
     },
-    {
+{
         "word": "seek",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -16497,7 +16508,7 @@
         "opposite": "hide",
         "transcription": "sik"
     },
-    {
+{
         "word": "ring",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -16524,7 +16535,7 @@
         "opposite": "be silent",
         "transcription": "rɪŋ"
     },
-    {
+{
         "word": "text",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -16550,7 +16561,7 @@
         "opposite": "call",
         "transcription": "tɛkst"
     },
-    {
+{
         "word": "whisper",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -16577,7 +16588,7 @@
         "opposite": "shout",
         "transcription": "ˈwɪspər"
     },
-    {
+{
         "word": "touch",
         "level": "starter",
         "theme": "five_senses_A1",
@@ -16603,7 +16614,7 @@
         "opposite": null,
         "transcription": "təʧ"
     },
-    {
+{
         "word": "let",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -16627,7 +16638,7 @@
         "opposite": null,
         "transcription": "lɛt"
     },
-    {
+{
         "word": "set",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -16651,7 +16662,7 @@
         "opposite": null,
         "transcription": "sɛt"
     },
-    {
+{
         "word": "email",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -16674,7 +16685,7 @@
         "group": "regular",
         "transcription": "iˈmeɪl"
     },
-    {
+{
         "word": "phone",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -16698,7 +16709,7 @@
         "opposite": "text",
         "transcription": "foʊn"
     },
-    {
+{
         "word": "climb",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -16722,7 +16733,7 @@
         "opposite": "descend",
         "transcription": "klaɪm"
     },
-    {
+{
         "word": "dress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -16750,7 +16761,7 @@
         "group": "regular",
         "transcription": "drɛs"
     },
-    {
+{
         "word": "undress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -16778,7 +16789,7 @@
         "group": "regular",
         "transcription": "ənˈdrɛs"
     },
-    {
+{
         "word": "turn on",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -16803,7 +16814,7 @@
         "group": "regular",
         "transcription": "tərn ɔn"
     },
-    {
+{
         "word": "turn off",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -16828,7 +16839,7 @@
         "group": "regular",
         "transcription": "tərn ɔf"
     },
-    {
+{
         "word": "welcome",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -16851,7 +16862,7 @@
         "opposite": "reject",
         "transcription": "ˈwɛlkəm"
     },
-    {
+{
         "word": "act",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -16874,7 +16885,7 @@
         "opposite": "be natural",
         "transcription": "ækt"
     },
-    {
+{
         "word": "copy",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -16897,7 +16908,7 @@
         "opposite": "original",
         "transcription": "ˈkɑpi"
     },
-    {
+{
         "word": "fill",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -16920,7 +16931,7 @@
         "opposite": "empty",
         "transcription": "fɪl"
     },
-    {
+{
         "word": "fit",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -16943,7 +16954,7 @@
         "opposite": "unfit",
         "transcription": "fɪt"
     },
-    {
+{
         "word": "join",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -16966,7 +16977,7 @@
         "opposite": "leave",
         "transcription": "ʤɔɪn"
     },
-    {
+{
         "word": "note",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -16989,7 +17000,7 @@
         "opposite": "forget",
         "transcription": "noʊt"
     },
-    {
+{
         "word": "pick",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -17012,7 +17023,7 @@
         "opposite": "drop",
         "transcription": "pɪk"
     },
-    {
+{
         "word": "wish",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -17035,7 +17046,7 @@
         "opposite": "fear",
         "transcription": "wɪʃ"
     },
-    {
+{
         "word": "collect",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -17058,7 +17069,7 @@
         "opposite": "scatter",
         "transcription": "kəˈlɛkt"
     },
-    {
+{
         "word": "describe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -17081,7 +17092,7 @@
         "opposite": "summarize",
         "transcription": "dɪˈskraɪb"
     },
-    {
+{
         "word": "breathe",
         "level": "starter",
         "theme": "health_body_A1",
@@ -17107,7 +17118,7 @@
         ],
         "transcription": "brið"
     },
-    {
+{
         "word": "cough",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -17129,7 +17140,7 @@
         "subtext": "have a cough",
         "transcription": "kɔf"
     },
-    {
+{
         "word": "sneeze",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -17154,7 +17165,7 @@
         ],
         "transcription": "sniz"
     },
-    {
+{
         "word": "yawn",
         "level": "starter",
         "theme": "health_body_A1",
@@ -17179,7 +17190,7 @@
         ],
         "transcription": "jɔn"
     },
-    {
+{
         "word": "explain",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -17201,7 +17212,7 @@
         "group": "regular",
         "subtext": "explain something to someone"
     },
-    {
+{
         "word": "prepare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17223,7 +17234,7 @@
         "group": "regular",
         "subtext": "prepare for something"
     },
-    {
+{
         "word": "depend",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -17245,7 +17256,7 @@
         "group": "regular",
         "subtext": "depend ON someone/something"
     },
-    {
+{
         "word": "belong",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -17267,7 +17278,7 @@
         "group": "regular",
         "subtext": "belong TO someone/something"
     },
-    {
+{
         "word": "be",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -17292,7 +17303,7 @@
         "group": "irregular",
         "opposite": "become"
     },
-    {
+{
         "word": "have",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17317,7 +17328,7 @@
         "group": "irregular",
         "opposite": "need"
     },
-    {
+{
         "word": "feel",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -17340,7 +17351,7 @@
         "group": "irregular",
         "opposite": "act"
     },
-    {
+{
         "word": "give",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -17365,7 +17376,7 @@
         "v3": "given",
         "group": "irregular"
     },
-    {
+{
         "word": "take",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -17390,7 +17401,7 @@
         "v3": "taken",
         "group": "irregular"
     },
-    {
+{
         "word": "get",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -17416,7 +17427,7 @@
         "group": "irregular",
         "transcription": "gɪt"
     },
-    {
+{
         "word": "put",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -17441,7 +17452,7 @@
         "group": "irregular",
         "transcription": "pʊt"
     },
-    {
+{
         "word": "make",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17465,7 +17476,7 @@
         "opposite": "destroy",
         "transcription": "meɪk"
     },
-    {
+{
         "word": "do",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17489,7 +17500,7 @@
         "opposite": "undo",
         "transcription": "du"
     },
-    {
+{
         "word": "use",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -17513,7 +17524,7 @@
         "opposite": "waste",
         "transcription": "juz"
     },
-    {
+{
         "word": "open",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -17538,7 +17549,7 @@
         "group": "regular",
         "transcription": "ˈoʊpən"
     },
-    {
+{
         "word": "close",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -17563,7 +17574,7 @@
         "group": "regular",
         "transcription": "kloʊz"
     },
-    {
+{
         "word": "start",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17587,7 +17598,7 @@
         "group": "regular",
         "transcription": "stɑrt"
     },
-    {
+{
         "word": "finish",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17611,7 +17622,7 @@
         "group": "regular",
         "transcription": "ˈfɪnɪʃ"
     },
-    {
+{
         "word": "help",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -17634,7 +17645,7 @@
         "opposite": "hinder",
         "transcription": "hɛlp"
     },
-    {
+{
         "word": "try",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -17657,7 +17668,7 @@
         "opposite": "give up",
         "transcription": "traɪ"
     },
-    {
+{
         "word": "show",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -17681,7 +17692,7 @@
         "group": "irregular",
         "transcription": "ʃoʊ"
     },
-    {
+{
         "word": "find",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -17706,7 +17717,7 @@
         "group": "irregular",
         "transcription": "faɪnd"
     },
-    {
+{
         "word": "keep",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17730,7 +17741,7 @@
         "opposite": "give away",
         "transcription": "kip"
     },
-    {
+{
         "word": "lose",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -17755,7 +17766,7 @@
         "group": "irregular",
         "transcription": "luz"
     },
-    {
+{
         "word": "cut",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -17779,7 +17790,7 @@
         "opposite": "join",
         "transcription": "kət"
     },
-    {
+{
         "word": "turn",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -17803,7 +17814,7 @@
         "opposite": "straighten",
         "transcription": "tərn"
     },
-    {
+{
         "word": "bring",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -17828,7 +17839,7 @@
         "group": "irregular",
         "transcription": "brɪŋ"
     },
-    {
+{
         "word": "say",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -17852,7 +17863,7 @@
         "opposite": "listen",
         "transcription": "seɪ"
     },
-    {
+{
         "word": "tell",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -17875,7 +17886,7 @@
         "opposite": "ask",
         "transcription": "tɛl"
     },
-    {
+{
         "word": "ask",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -17899,7 +17910,7 @@
         "group": "regular",
         "transcription": "æsk"
     },
-    {
+{
         "word": "speak",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -17923,7 +17934,7 @@
         "opposite": "be silent",
         "transcription": "spik"
     },
-    {
+{
         "word": "talk",
         "level": "starter",
         "theme": "family_life_A1",
@@ -17946,7 +17957,7 @@
         "opposite": "listen",
         "transcription": "tɔk"
     },
-    {
+{
         "word": "call",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -17969,7 +17980,7 @@
         "opposite": "hang up",
         "transcription": "kɔl"
     },
-    {
+{
         "word": "write",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -17994,7 +18005,7 @@
         "group": "irregular",
         "transcription": "raɪt"
     },
-    {
+{
         "word": "read",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -18019,7 +18030,7 @@
         "group": "irregular",
         "transcription": "rɛd"
     },
-    {
+{
         "word": "listen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -18043,7 +18054,7 @@
         "opposite": "say",
         "transcription": "ˈlɪsən"
     },
-    {
+{
         "word": "answer",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -18068,7 +18079,7 @@
         "group": "regular",
         "transcription": "ˈænsər"
     },
-    {
+{
         "word": "repeat",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -18092,7 +18103,7 @@
         "opposite": "change",
         "transcription": "rɪˈpit"
     },
-    {
+{
         "word": "go",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -18117,7 +18128,7 @@
         "group": "irregular",
         "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ"
     },
-    {
+{
         "word": "come",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -18142,7 +18153,7 @@
         "group": "irregular",
         "transcription": "kʌm"
     },
-    {
+{
         "word": "walk",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -18167,7 +18178,7 @@
         "group": "regular",
         "transcription": "wɔk"
     },
-    {
+{
         "word": "drive",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -18191,7 +18202,7 @@
         "opposite": "walk",
         "transcription": "draɪv"
     },
-    {
+{
         "word": "fly",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -18215,7 +18226,7 @@
         "opposite": "land",
         "transcription": "flaɪ"
     },
-    {
+{
         "word": "arrive",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -18239,7 +18250,7 @@
         "group": "regular",
         "transcription": "əraɪv"
     },
-    {
+{
         "word": "leave",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -18263,7 +18274,7 @@
         "group": "irregular",
         "transcription": "liv"
     },
-    {
+{
         "word": "move",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -18286,7 +18297,7 @@
         "opposite": "stay",
         "transcription": "muv"
     },
-    {
+{
         "word": "return",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -18310,7 +18321,7 @@
         "opposite": "leave",
         "transcription": "rɪˈtərn"
     },
-    {
+{
         "word": "travel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -18333,9 +18344,9 @@
         "opposite": "stay",
         "transcription": "ˈtrævəl"
     },
-    {
+{
         "word": "eat",
-        "image": "images/vocabulary/eat.png",
+        "image": "images/vocabulary/actions/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -18359,9 +18370,9 @@
         "group": "irregular",
         "transcription": "it"
     },
-    {
+{
         "word": "drink",
-        "image": "images/vocabulary/drink.png",
+        "image": "images/vocabulary/actions/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -18385,9 +18396,9 @@
         "group": "irregular",
         "transcription": "drɪŋk"
     },
-    {
+{
         "word": "sleep",
-        "image": "images/vocabulary/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -18411,9 +18422,9 @@
         "group": "irregular",
         "transcription": "slip"
     },
-    {
+{
         "word": "cook",
-        "image": "images/vocabulary/cook.png",
+        "image": "images/vocabulary/actions/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -18435,7 +18446,7 @@
         "opposite": "eat",
         "transcription": "kʊk"
     },
-    {
+{
         "word": "clean",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -18458,7 +18469,7 @@
         "opposite": "dirty",
         "transcription": "klin"
     },
-    {
+{
         "word": "wear",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -18482,7 +18493,7 @@
         "opposite": "undress",
         "transcription": "wɛr"
     },
-    {
+{
         "word": "wash",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -18506,7 +18517,7 @@
         "opposite": "dirty",
         "transcription": "wɑʃ"
     },
-    {
+{
         "word": "buy",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -18531,7 +18542,7 @@
         "group": "irregular",
         "transcription": "baɪ"
     },
-    {
+{
         "word": "pay",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -18554,7 +18565,7 @@
         "opposite": "receive",
         "transcription": "peɪ"
     },
-    {
+{
         "word": "spend",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -18578,7 +18589,7 @@
         "group": "irregular",
         "transcription": "spɛnd"
     },
-    {
+{
         "word": "save",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -18602,7 +18613,7 @@
         "group": "regular",
         "transcription": "seɪv"
     },
-    {
+{
         "word": "work",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -18626,7 +18637,7 @@
         "group": "regular",
         "transcription": "wərk"
     },
-    {
+{
         "word": "live",
         "level": "starter",
         "theme": "address_location_A1",
@@ -18651,7 +18662,7 @@
         "group": "regular",
         "transcription": "lɪv"
     },
-    {
+{
         "word": "think",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -18675,7 +18686,7 @@
         "opposite": "feel",
         "transcription": "θɪŋk"
     },
-    {
+{
         "word": "know",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -18700,7 +18711,7 @@
         "opposite": "wonder",
         "transcription": "noʊ"
     },
-    {
+{
         "word": "want",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -18725,7 +18736,7 @@
         "opposite": "refuse",
         "transcription": "wɔnt"
     },
-    {
+{
         "word": "need",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -18750,7 +18761,7 @@
         "opposite": "have",
         "transcription": "nid"
     },
-    {
+{
         "word": "like",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -18776,7 +18787,7 @@
         "group": "regular",
         "transcription": "laɪk"
     },
-    {
+{
         "word": "dislike",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -18800,7 +18811,7 @@
         "group": "regular",
         "transcription": "dɪsˈlaɪk"
     },
-    {
+{
         "word": "love",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -18825,7 +18836,7 @@
         "group": "regular",
         "transcription": "ləv"
     },
-    {
+{
         "word": "hate",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -18850,7 +18861,7 @@
         "group": "regular",
         "transcription": "heɪt"
     },
-    {
+{
         "word": "hope",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -18874,7 +18885,7 @@
         "opposite": "fear",
         "transcription": "hoʊp"
     },
-    {
+{
         "word": "remember",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -18899,7 +18910,7 @@
         "group": "regular",
         "transcription": "rɪˈmɛmbər"
     },
-    {
+{
         "word": "forget",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -18924,7 +18935,7 @@
         "group": "irregular",
         "transcription": "fərˈgɛt"
     },
-    {
+{
         "word": "understand",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -18948,7 +18959,7 @@
         "opposite": "misunderstand",
         "transcription": "ˌəndərˈstænd"
     },
-    {
+{
         "word": "decide",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -18975,7 +18986,7 @@
         "opposite": "hesitate",
         "transcription": "ˌdɪˈsaɪd"
     },
-    {
+{
         "word": "enjoy",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -18998,7 +19009,7 @@
         "opposite": "hate",
         "transcription": "ˌɛnˈʤɔɪ"
     },
-    {
+{
         "word": "see",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -19022,7 +19033,7 @@
         "opposite": "blind",
         "transcription": "si"
     },
-    {
+{
         "word": "hear",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -19046,9 +19057,9 @@
         "opposite": "ignore",
         "transcription": "hir"
     },
-    {
+{
         "word": "wake up",
-        "image": "images/vocabulary/wake up.png",
+        "image": "images/vocabulary/actions/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -19071,7 +19082,7 @@
         "group": "irregular",
         "transcription": "weɪk əp"
     },
-    {
+{
         "word": "watch",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -19094,7 +19105,7 @@
         "opposite": "ignore",
         "transcription": "wɔʧ"
     },
-    {
+{
         "word": "look",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -19118,7 +19129,7 @@
         "opposite": "ignore",
         "transcription": "lʊk"
     },
-    {
+{
         "word": "play",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -19141,7 +19152,7 @@
         "opposite": "work",
         "transcription": "pleɪ"
     },
-    {
+{
         "word": "run",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -19166,7 +19177,7 @@
         "group": "irregular",
         "transcription": "rən"
     },
-    {
+{
         "word": "sit",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19190,7 +19201,7 @@
         "group": "irregular",
         "transcription": "sɪt"
     },
-    {
+{
         "word": "stand",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19214,7 +19225,7 @@
         "group": "irregular",
         "transcription": "stænd"
     },
-    {
+{
         "word": "meet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -19237,7 +19248,7 @@
         "opposite": null,
         "transcription": "mit"
     },
-    {
+{
         "word": "learn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -19261,7 +19272,7 @@
         "group": "both",
         "transcription": "lərn"
     },
-    {
+{
         "word": "change",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19284,7 +19295,7 @@
         "opposite": "stay",
         "transcription": "ʧeɪnʤ"
     },
-    {
+{
         "word": "stop",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19308,7 +19319,7 @@
         "group": "regular",
         "transcription": "stɑp"
     },
-    {
+{
         "word": "add",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -19333,7 +19344,7 @@
         "group": "regular",
         "transcription": "æd"
     },
-    {
+{
         "word": "subtract",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -19360,7 +19371,7 @@
         "group": "regular",
         "transcription": "səbˈtrækt"
     },
-    {
+{
         "word": "win",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -19384,7 +19395,7 @@
         "group": "irregular",
         "transcription": "wɪn"
     },
-    {
+{
         "word": "wait",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19407,7 +19418,7 @@
         "opposite": "act",
         "transcription": "weɪt"
     },
-    {
+{
         "word": "die",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -19431,7 +19442,7 @@
         "group": "regular",
         "transcription": "daɪ"
     },
-    {
+{
         "word": "send",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -19455,7 +19466,7 @@
         "group": "irregular",
         "transcription": "sɛnd"
     },
-    {
+{
         "word": "stay",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -19480,7 +19491,7 @@
         "group": "regular",
         "transcription": "steɪ"
     },
-    {
+{
         "word": "fall",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -19508,7 +19519,7 @@
         "group": "irregular",
         "transcription": "fɔl"
     },
-    {
+{
         "word": "rise",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -19533,7 +19544,7 @@
         "group": "irregular",
         "transcription": "raɪz"
     },
-    {
+{
         "word": "pass",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -19558,7 +19569,7 @@
         "group": "regular",
         "transcription": "pæs"
     },
-    {
+{
         "word": "sell",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -19585,7 +19596,7 @@
         "group": "irregular",
         "transcription": "sɛl"
     },
-    {
+{
         "word": "pull",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19609,7 +19620,7 @@
         "group": "regular",
         "transcription": "pʊl"
     },
-    {
+{
         "word": "push",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19634,7 +19645,7 @@
         "group": "regular",
         "transcription": "pʊʃ"
     },
-    {
+{
         "word": "carry",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -19657,7 +19668,7 @@
         "opposite": "drop",
         "transcription": "ˈkɛri"
     },
-    {
+{
         "word": "break",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -19681,7 +19692,7 @@
         "opposite": "fix",
         "transcription": "breɪk"
     },
-    {
+{
         "word": "receive",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -19706,7 +19717,7 @@
         "group": "regular",
         "transcription": "rɪˈsiv"
     },
-    {
+{
         "word": "agree",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -19731,7 +19742,7 @@
         "group": "regular",
         "transcription": "əˈgri"
     },
-    {
+{
         "word": "draw",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -19755,7 +19766,7 @@
         "opposite": null,
         "transcription": "drɔ"
     },
-    {
+{
         "word": "share",
         "level": "starter",
         "theme": "family_life_A1",
@@ -19779,7 +19790,7 @@
         "opposite": "keep",
         "transcription": "ʃɛr"
     },
-    {
+{
         "word": "smile",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -19804,7 +19815,7 @@
         "group": "regular",
         "transcription": "smaɪl"
     },
-    {
+{
         "word": "cry",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -19832,7 +19843,7 @@
         "group": "regular",
         "transcription": "kraɪ"
     },
-    {
+{
         "word": "dance",
         "level": "starter",
         "theme": "music_A1",
@@ -19859,7 +19870,7 @@
         "opposite": "sit",
         "transcription": "dæns"
     },
-    {
+{
         "word": "sing",
         "level": "starter",
         "theme": "music_A1",
@@ -19886,7 +19897,7 @@
         "opposite": "be quiet",
         "transcription": "sɪŋ"
     },
-    {
+{
         "word": "jump",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -19910,7 +19921,7 @@
         "opposite": "fall",
         "transcription": "ʤəmp"
     },
-    {
+{
         "word": "swim",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -19937,7 +19948,7 @@
         "opposite": "sink",
         "transcription": "swɪm"
     },
-    {
+{
         "word": "study",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -19960,7 +19971,7 @@
         "opposite": "play",
         "transcription": "ˈstədi"
     },
-    {
+{
         "word": "teach",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -19983,7 +19994,7 @@
         "opposite": "learn",
         "transcription": "tiʧ"
     },
-    {
+{
         "word": "rent",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -20006,7 +20017,7 @@
         "opposite": "own",
         "transcription": "rɛnt"
     },
-    {
+{
         "word": "exercise",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -20029,7 +20040,7 @@
         "opposite": "rest",
         "transcription": "ˈɛksərˌsaɪz"
     },
-    {
+{
         "word": "cost",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -20051,7 +20062,7 @@
         "group": "irregular",
         "transcription": "kɔst"
     },
-    {
+{
         "word": "invite",
         "level": "starter",
         "theme": "family_life_A1",
@@ -20074,9 +20085,9 @@
         "opposite": "reject",
         "transcription": "ˌɪnˈvaɪt"
     },
-    {
+{
         "word": "get up",
-        "image": "images/vocabulary/get up.png",
+        "image": "images/vocabulary/actions/get up.png",
         "definitions": [
             {
                 "text": "To rise from bed after waking.",
@@ -20098,9 +20109,9 @@
         "opposite": null,
         "transcription": "gɪt əp"
     },
-    {
+{
         "word": "have breakfast",
-        "image": "images/vocabulary/have breakfast.png",
+        "image": "images/vocabulary/actions/have breakfast.png",
         "definitions": [
             {
                 "text": "To eat the morning meal.",
@@ -20125,7 +20136,7 @@
         "opposite": null,
         "transcription": "hæv ˈbrɛkfəst"
     },
-    {
+{
         "word": "come back",
         "definitions": [
             {
@@ -20148,9 +20159,9 @@
         "opposite": null,
         "transcription": "kəm bæk"
     },
-    {
+{
         "word": "go to bed",
-        "image": "images/vocabulary/go to bed.png",
+        "image": "images/vocabulary/actions/go to bed.png",
         "definitions": [
             {
                 "text": "To get into bed in order to sleep.",
@@ -20172,7 +20183,7 @@
         "opposite": null,
         "transcription": "goʊ tɪ bɛd"
     },
-    {
+{
         "word": "check",
         "definitions": [
             {
@@ -20195,7 +20206,7 @@
         "opposite": "ignore",
         "transcription": "ʧɛk"
     },
-    {
+{
         "word": "unpack",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -20219,7 +20230,7 @@
         "group": "regular",
         "transcription": "ənˈpæk"
     },
-    {
+{
         "word": "reply",
         "definitions": [
             {
@@ -20242,7 +20253,7 @@
         "opposite": "ignore",
         "transcription": "rɪˈplaɪ"
     },
-    {
+{
         "word": "present",
         "definitions": [
             {
@@ -20265,7 +20276,7 @@
         "opposite": "hide",
         "transcription": "ˈprɛzənt"
     },
-    {
+{
         "word": "attend",
         "definitions": [
             {
@@ -20288,7 +20299,7 @@
         "opposite": "miss",
         "transcription": "əˈtɛnd"
     },
-    {
+{
         "word": "manage",
         "definitions": [
             {
@@ -20311,7 +20322,7 @@
         "opposite": "follow",
         "transcription": "ˈmænɪʤ"
     },
-    {
+{
         "word": "earn",
         "definitions": [
             {
@@ -20334,7 +20345,7 @@
         "opposite": "spend",
         "transcription": "ərn"
     },
-    {
+{
         "word": "visit",
         "definitions": [
             {
@@ -20357,7 +20368,7 @@
         "opposite": "leave",
         "transcription": "ˈvɪzɪt"
     },
-    {
+{
         "word": "celebrate",
         "definitions": [
             {
@@ -20380,7 +20391,7 @@
         "opposite": "mourn",
         "transcription": "ˈsɛləˌbreɪt"
     },
-    {
+{
         "word": "hurt",
         "definitions": [
             {
@@ -20403,7 +20414,7 @@
         "opposite": "heal",
         "transcription": "hərt"
     },
-    {
+{
         "word": "rest",
         "definitions": [
             {
@@ -20426,7 +20437,7 @@
         "opposite": "exercise",
         "transcription": "rɛst"
     },
-    {
+{
         "word": "book",
         "definitions": [
             {
@@ -20449,7 +20460,7 @@
         "opposite": "cancel",
         "transcription": "bʊk"
     },
-    {
+{
         "word": "pack",
         "definitions": [
             {
@@ -20473,7 +20484,7 @@
         "group": "regular",
         "transcription": "pæk"
     },
-    {
+{
         "word": "cancel",
         "definitions": [
             {
@@ -20496,7 +20507,7 @@
         "opposite": "book",
         "transcription": "ˈkænsəl"
     },
-    {
+{
         "word": "miss",
         "definitions": [
             {
@@ -20519,7 +20530,7 @@
         "opposite": "attend",
         "transcription": "mɪs"
     },
-    {
+{
         "word": "order",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -20542,7 +20553,7 @@
         "opposite": "deliver",
         "transcription": "ˈɔrdər"
     },
-    {
+{
         "word": "thank",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -20565,7 +20576,7 @@
         "opposite": "complain",
         "transcription": "θæŋk"
     },
-    {
+{
         "word": "introduce",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -20588,7 +20599,7 @@
         "opposite": "hide",
         "transcription": "ˌɪntrəˈdus"
     },
-    {
+{
         "word": "relax",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -20611,7 +20622,7 @@
         "opposite": "work",
         "transcription": "rɪˈlæks"
     },
-    {
+{
         "word": "mean",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -20634,7 +20645,7 @@
         "opposite": "nonsense",
         "transcription": "min"
     },
-    {
+{
         "word": "follow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -20658,7 +20669,7 @@
         "group": "regular",
         "transcription": "ˈfɑloʊ"
     },
-    {
+{
         "word": "grow",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -20681,7 +20692,7 @@
         "opposite": "shrink",
         "transcription": "groʊ"
     },
-    {
+{
         "word": "become",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -20704,7 +20715,7 @@
         "opposite": "remain",
         "transcription": "bɪˈkəm"
     },
-    {
+{
         "word": "choose",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -20727,7 +20738,7 @@
         "opposite": "reject",
         "transcription": "ʧuz"
     },
-    {
+{
         "word": "begin",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -20754,7 +20765,7 @@
         "group": "irregular",
         "transcription": "bɪˈgɪn"
     },
-    {
+{
         "word": "end",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -20782,7 +20793,7 @@
         "group": "regular",
         "transcription": "ɛnd"
     },
-    {
+{
         "word": "brush",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -20808,7 +20819,7 @@
         "opposite": "mess up",
         "transcription": "brəʃ"
     },
-    {
+{
         "word": "ride",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -20831,7 +20842,7 @@
         "opposite": "walk",
         "transcription": "raɪd"
     },
-    {
+{
         "word": "believe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -20858,7 +20869,7 @@
         "opposite": "doubt",
         "transcription": "bɪˈliv"
     },
-    {
+{
         "word": "prefer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -20881,7 +20892,7 @@
         "opposite": "dislike",
         "transcription": "prɪˈfər"
     },
-    {
+{
         "word": "catch",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -20904,7 +20915,7 @@
         "opposite": "throw",
         "transcription": "kæʧ"
     },
-    {
+{
         "word": "fix",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -20930,7 +20941,7 @@
         "opposite": "break",
         "transcription": "fɪks"
     },
-    {
+{
         "word": "plan",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -20956,7 +20967,7 @@
         "opposite": "improvise",
         "transcription": "plæn"
     },
-    {
+{
         "word": "borrow",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -20979,7 +20990,7 @@
         "opposite": "lend",
         "transcription": "ˈbɑˌroʊ"
     },
-    {
+{
         "word": "smell",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -21005,7 +21016,7 @@
         "opposite": "stink",
         "transcription": "smɛl"
     },
-    {
+{
         "word": "taste",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -21031,7 +21042,7 @@
         "opposite": "swallow",
         "transcription": "teɪst"
     },
-    {
+{
         "word": "lie",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -21057,7 +21068,7 @@
         "opposite": "stand",
         "transcription": "laɪ"
     },
-    {
+{
         "word": "laugh",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -21084,7 +21095,7 @@
         "group": "regular",
         "transcription": "læf"
     },
-    {
+{
         "word": "worry",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -21110,7 +21121,7 @@
         "opposite": "relax",
         "transcription": "ˈwəri"
     },
-    {
+{
         "word": "sound",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -21136,7 +21147,7 @@
         "opposite": "silence",
         "transcription": "saʊnd"
     },
-    {
+{
         "word": "spell",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21162,7 +21173,7 @@
         "opposite": "misspell",
         "transcription": "spɛl"
     },
-    {
+{
         "word": "point",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21189,7 +21200,7 @@
         "opposite": "hide",
         "transcription": "pɔɪnt"
     },
-    {
+{
         "word": "shout",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21215,7 +21226,7 @@
         "opposite": "whisper",
         "transcription": "ʃaʊt"
     },
-    {
+{
         "word": "wave",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -21241,7 +21252,7 @@
         "opposite": "ignore",
         "transcription": "weɪv"
     },
-    {
+{
         "word": "kick",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -21267,7 +21278,7 @@
         "opposite": "catch",
         "transcription": "kɪk"
     },
-    {
+{
         "word": "throw",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -21293,7 +21304,7 @@
         "opposite": "catch",
         "transcription": "θroʊ"
     },
-    {
+{
         "word": "bounce",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -21320,7 +21331,7 @@
         "opposite": "stop",
         "transcription": "baʊns"
     },
-    {
+{
         "word": "paint",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -21347,7 +21358,7 @@
         "opposite": "erase",
         "transcription": "peɪnt"
     },
-    {
+{
         "word": "hop",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -21373,7 +21384,7 @@
         "opposite": "walk",
         "transcription": "hɑp"
     },
-    {
+{
         "word": "skip",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -21400,7 +21411,7 @@
         "opposite": "walk",
         "transcription": "skɪp"
     },
-    {
+{
         "word": "count",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -21426,7 +21437,7 @@
         "opposite": "estimate",
         "transcription": "kaʊnt"
     },
-    {
+{
         "word": "tick",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21452,7 +21463,7 @@
         "opposite": "cross",
         "transcription": "tɪk"
     },
-    {
+{
         "word": "cross",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21478,7 +21489,7 @@
         "opposite": "tick",
         "transcription": "krɔs"
     },
-    {
+{
         "word": "colour",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21504,7 +21515,7 @@
         "opposite": "erase",
         "transcription": "ˈkələr"
     },
-    {
+{
         "word": "hold",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -21531,7 +21542,7 @@
         "opposite": "drop",
         "transcription": "hoʊld"
     },
-    {
+{
         "word": "lead",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -21558,7 +21569,7 @@
         "opposite": "follow",
         "transcription": "lɛd"
     },
-    {
+{
         "word": "fight",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -21584,7 +21595,7 @@
         "opposite": "make peace",
         "transcription": "faɪt"
     },
-    {
+{
         "word": "hide",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -21608,7 +21619,7 @@
         "group": "irregular",
         "transcription": "haɪd"
     },
-    {
+{
         "word": "seek",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -21634,7 +21645,7 @@
         "opposite": "hide",
         "transcription": "sik"
     },
-    {
+{
         "word": "ring",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -21661,7 +21672,7 @@
         "opposite": "be silent",
         "transcription": "rɪŋ"
     },
-    {
+{
         "word": "text",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -21687,7 +21698,7 @@
         "opposite": "call",
         "transcription": "tɛkst"
     },
-    {
+{
         "word": "whisper",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -21714,7 +21725,7 @@
         "opposite": "shout",
         "transcription": "ˈwɪspər"
     },
-    {
+{
         "word": "touch",
         "level": "starter",
         "theme": "five_senses_A1",
@@ -21740,7 +21751,7 @@
         "opposite": null,
         "transcription": "təʧ"
     },
-    {
+{
         "word": "let",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -21764,7 +21775,7 @@
         "opposite": null,
         "transcription": "lɛt"
     },
-    {
+{
         "word": "set",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -21788,7 +21799,7 @@
         "opposite": null,
         "transcription": "sɛt"
     },
-    {
+{
         "word": "email",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -21811,7 +21822,7 @@
         "group": "regular",
         "transcription": "iˈmeɪl"
     },
-    {
+{
         "word": "phone",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -21835,7 +21846,7 @@
         "opposite": "text",
         "transcription": "foʊn"
     },
-    {
+{
         "word": "climb",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -21859,7 +21870,7 @@
         "opposite": "descend",
         "transcription": "klaɪm"
     },
-    {
+{
         "word": "dress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -21887,7 +21898,7 @@
         "group": "regular",
         "transcription": "drɛs"
     },
-    {
+{
         "word": "undress",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -21915,7 +21926,7 @@
         "group": "regular",
         "transcription": "ənˈdrɛs"
     },
-    {
+{
         "word": "turn on",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -21940,7 +21951,7 @@
         "group": "regular",
         "transcription": "tərn ɔn"
     },
-    {
+{
         "word": "turn off",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -21965,7 +21976,7 @@
         "group": "regular",
         "transcription": "tərn ɔf"
     },
-    {
+{
         "word": "welcome",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -21988,7 +21999,7 @@
         "opposite": "reject",
         "transcription": "ˈwɛlkəm"
     },
-    {
+{
         "word": "act",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -22011,7 +22022,7 @@
         "opposite": "be natural",
         "transcription": "ækt"
     },
-    {
+{
         "word": "copy",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -22034,7 +22045,7 @@
         "opposite": "original",
         "transcription": "ˈkɑpi"
     },
-    {
+{
         "word": "fill",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -22057,7 +22068,7 @@
         "opposite": "empty",
         "transcription": "fɪl"
     },
-    {
+{
         "word": "fit",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -22080,7 +22091,7 @@
         "opposite": "unfit",
         "transcription": "fɪt"
     },
-    {
+{
         "word": "join",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -22103,7 +22114,7 @@
         "opposite": "leave",
         "transcription": "ʤɔɪn"
     },
-    {
+{
         "word": "note",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -22126,7 +22137,7 @@
         "opposite": "forget",
         "transcription": "noʊt"
     },
-    {
+{
         "word": "pick",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -22149,7 +22160,7 @@
         "opposite": "drop",
         "transcription": "pɪk"
     },
-    {
+{
         "word": "wish",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -22172,7 +22183,7 @@
         "opposite": "fear",
         "transcription": "wɪʃ"
     },
-    {
+{
         "word": "collect",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -22195,7 +22206,7 @@
         "opposite": "scatter",
         "transcription": "kəˈlɛkt"
     },
-    {
+{
         "word": "describe",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -22218,7 +22229,7 @@
         "opposite": "summarize",
         "transcription": "dɪˈskraɪb"
     },
-    {
+{
         "word": "breathe",
         "level": "starter",
         "theme": "health_body_A1",
@@ -22244,7 +22255,7 @@
         ],
         "transcription": "brið"
     },
-    {
+{
         "word": "cough",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -22266,7 +22277,7 @@
         "subtext": "have a cough",
         "transcription": "kɔf"
     },
-    {
+{
         "word": "sneeze",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -22291,7 +22302,7 @@
         ],
         "transcription": "sniz"
     },
-    {
+{
         "word": "yawn",
         "level": "starter",
         "theme": "health_body_A1",
@@ -22316,7 +22327,7 @@
         ],
         "transcription": "jɔn"
     },
-    {
+{
         "word": "explain",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -22338,7 +22349,7 @@
         "group": "regular",
         "subtext": "explain something to someone"
     },
-    {
+{
         "word": "prepare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -22360,7 +22371,7 @@
         "group": "regular",
         "subtext": "prepare for something"
     },
-    {
+{
         "word": "depend",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -22382,7 +22393,7 @@
         "group": "regular",
         "subtext": "depend ON someone/something"
     },
-    {
+{
         "word": "belong",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -22404,7 +22415,7 @@
         "group": "regular",
         "subtext": "belong TO someone/something"
     },
-    {
+{
         "word": "tall",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22436,7 +22447,7 @@
         "superlative": "the tallest",
         "transcription": "tɔl"
     },
-    {
+{
         "word": "short",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22468,7 +22479,7 @@
         "superlative": "the shortest",
         "transcription": "ʃɔrt"
     },
-    {
+{
         "word": "young",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22492,7 +22503,7 @@
         "superlative": "the youngest",
         "transcription": "jəŋ"
     },
-    {
+{
         "word": "old",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22523,7 +22534,7 @@
         "superlative": "the oldest",
         "transcription": "oʊld"
     },
-    {
+{
         "word": "sunny",
         "level": "starter",
         "theme": "weather_A1",
@@ -22549,7 +22560,7 @@
         "superlative": "the sunniest",
         "transcription": "ˈsəni"
     },
-    {
+{
         "word": "rainy",
         "level": "starter",
         "theme": "weather_A1",
@@ -22575,7 +22586,7 @@
         "superlative": "the rainiest",
         "transcription": "ˈreɪni"
     },
-    {
+{
         "word": "hot",
         "level": "starter",
         "theme": "weather_A1",
@@ -22598,7 +22609,7 @@
         "superlative": "the hottest",
         "transcription": "hɑt"
     },
-    {
+{
         "word": "cold",
         "level": "starter",
         "theme": "weather_A1",
@@ -22626,7 +22637,7 @@
         "superlative": "the coldest",
         "transcription": "koʊld"
     },
-    {
+{
         "word": "cheap",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -22657,7 +22668,7 @@
         "superlative": "the cheapest",
         "transcription": "ʧip"
     },
-    {
+{
         "word": "expensive",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -22688,7 +22699,7 @@
         "superlative": "the most expensive",
         "transcription": "ɪkˈspɛnsɪv"
     },
-    {
+{
         "word": "good",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22720,7 +22731,7 @@
         "superlative": "the best",
         "transcription": "gʊd"
     },
-    {
+{
         "word": "bad",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22752,7 +22763,7 @@
         "superlative": "the worst",
         "transcription": "bæd"
     },
-    {
+{
         "word": "big",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22783,7 +22794,7 @@
         "superlative": "the biggest",
         "transcription": "bɪg"
     },
-    {
+{
         "word": "small",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22814,7 +22825,7 @@
         "superlative": "the smallest",
         "transcription": "smɔl"
     },
-    {
+{
         "word": "easy",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22836,7 +22847,7 @@
         "superlative": "the easiest",
         "transcription": "ˈizi"
     },
-    {
+{
         "word": "difficult",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -22863,7 +22874,7 @@
         "superlative": "the most difficult",
         "transcription": "ˈdɪfəkəlt"
     },
-    {
+{
         "word": "happy",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -22895,7 +22906,7 @@
         "superlative": "the happiest",
         "transcription": "ˈhæpi"
     },
-    {
+{
         "word": "tired",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -22917,7 +22928,7 @@
         "superlative": "the most tired",
         "transcription": "taɪərd"
     },
-    {
+{
         "word": "full-time",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -22938,7 +22949,7 @@
         "superlative": null,
         "transcription": "ˈfʊlˌtaɪm"
     },
-    {
+{
         "word": "thirsty",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -22963,7 +22974,7 @@
         "superlative": "the thirstiest",
         "transcription": "ˈθərsti"
     },
-    {
+{
         "word": "part-time",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -22984,7 +22995,7 @@
         "superlative": null,
         "transcription": "ˈpɑrtˈtaɪm"
     },
-    {
+{
         "word": "clean",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -23006,7 +23017,7 @@
         "superlative": "the cleanest",
         "transcription": "klin"
     },
-    {
+{
         "word": "healthy",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -23027,7 +23038,7 @@
         "superlative": "the healthiest",
         "transcription": "ˈhɛlθi"
     },
-    {
+{
         "word": "unhealthy",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -23052,7 +23063,7 @@
         "superlative": "the most unhealthy",
         "transcription": "ənˈhɛlθi"
     },
-    {
+{
         "word": "ill",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -23073,7 +23084,7 @@
         "superlative": "the most ill",
         "transcription": "ɪl"
     },
-    {
+{
         "word": "online",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -23094,7 +23105,7 @@
         "superlative": "the most online",
         "transcription": "ˈɔnˌlaɪn"
     },
-    {
+{
         "word": "offline",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -23118,7 +23129,7 @@
         "superlative": null,
         "transcription": "ˈɔˌflaɪn"
     },
-    {
+{
         "word": "alone",
         "level": "starter",
         "theme": "family_life_A1",
@@ -23139,7 +23150,7 @@
         "superlative": "the most alone",
         "transcription": "əˈloʊn"
     },
-    {
+{
         "word": "relaxed",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -23165,7 +23176,7 @@
         "superlative": "the most relaxed",
         "transcription": "rɪˈlækst"
     },
-    {
+{
         "word": "worried",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -23191,7 +23202,7 @@
         "superlative": "the most worried",
         "transcription": "ˈwərid"
     },
-    {
+{
         "word": "busy",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -23218,7 +23229,7 @@
         "superlative": "the busiest",
         "transcription": "ˈbɪzi"
     },
-    {
+{
         "word": "important",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -23248,7 +23259,7 @@
         "superlative": "the most important",
         "transcription": "ˌɪmˈpɔrtənt"
     },
-    {
+{
         "word": "unimportant",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -23273,7 +23284,7 @@
         "superlative": "the most unimportant",
         "transcription": "ənɪmˈpɔrtənt"
     },
-    {
+{
         "word": "red",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -23299,7 +23310,7 @@
         "superlative": "the reddest",
         "transcription": "rɛd"
     },
-    {
+{
         "word": "blue",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -23325,7 +23336,7 @@
         "superlative": "the bluest",
         "transcription": "blu"
     },
-    {
+{
         "word": "green",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -23351,7 +23362,7 @@
         "superlative": "the greenest",
         "transcription": "grin"
     },
-    {
+{
         "word": "white",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -23378,7 +23389,7 @@
         "superlative": "the whitest",
         "transcription": "waɪt"
     },
-    {
+{
         "word": "black",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -23405,7 +23416,7 @@
         "superlative": "the blackest",
         "transcription": "blæk"
     },
-    {
+{
         "word": "yellow",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -23431,7 +23442,7 @@
         "superlative": "the yellowest",
         "transcription": "ˈjɛloʊ"
     },
-    {
+{
         "word": "free",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -23458,7 +23469,7 @@
         "superlative": "the freest",
         "transcription": "fri"
     },
-    {
+{
         "word": "open",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -23485,7 +23496,7 @@
         "superlative": "the openest",
         "transcription": "ˈoʊpən"
     },
-    {
+{
         "word": "closed",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -23507,7 +23518,7 @@
         "superlative": null,
         "transcription": "kloʊzd"
     },
-    {
+{
         "word": "large",
         "level": "starter",
         "form": "adjective",
@@ -23528,7 +23539,7 @@
         "emoji": "🐘",
         "transcription": "lɑrʤ"
     },
-    {
+{
         "word": "little",
         "level": "starter",
         "form": "adjective",
@@ -23549,7 +23560,7 @@
         "emoji": "🐭",
         "transcription": "ˈlɪtəl"
     },
-    {
+{
         "word": "long",
         "level": "starter",
         "form": "adjective",
@@ -23570,7 +23581,7 @@
         "emoji": "📏",
         "transcription": "lɔŋ"
     },
-    {
+{
         "word": "high",
         "level": "starter",
         "form": "adjective",
@@ -23591,7 +23602,7 @@
         "emoji": "🏔️",
         "transcription": "haɪ"
     },
-    {
+{
         "word": "low",
         "level": "starter",
         "form": "adjective",
@@ -23612,7 +23623,7 @@
         "emoji": "⬇️",
         "transcription": "loʊ"
     },
-    {
+{
         "word": "full",
         "level": "starter",
         "form": "adjective",
@@ -23633,7 +23644,7 @@
         "emoji": "🥛",
         "transcription": "fʊl"
     },
-    {
+{
         "word": "empty",
         "level": "starter",
         "form": "adjective",
@@ -23654,7 +23665,7 @@
         "emoji": "🫙",
         "transcription": "ˈɛmti"
     },
-    {
+{
         "word": "warm",
         "level": "starter",
         "form": "adjective",
@@ -23675,7 +23686,7 @@
         "emoji": "☀️",
         "transcription": "wɔrm"
     },
-    {
+{
         "word": "cool",
         "level": "starter",
         "form": "adjective",
@@ -23696,7 +23707,7 @@
         "emoji": "🌬️",
         "transcription": "kul"
     },
-    {
+{
         "word": "wet",
         "level": "starter",
         "form": "adjective",
@@ -23717,7 +23728,7 @@
         "emoji": "💦",
         "transcription": "wɛt"
     },
-    {
+{
         "word": "dry",
         "level": "starter",
         "form": "adjective",
@@ -23738,7 +23749,7 @@
         "emoji": "🏜️",
         "transcription": "draɪ"
     },
-    {
+{
         "word": "dirty",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -23759,7 +23770,7 @@
         "emoji": "💩",
         "transcription": "ˈdərti"
     },
-    {
+{
         "word": "hard",
         "level": "starter",
         "form": "adjective",
@@ -23785,7 +23796,7 @@
         "emoji": "🧱",
         "transcription": "hɑrd"
     },
-    {
+{
         "word": "soft",
         "level": "starter",
         "form": "adjective",
@@ -23810,7 +23821,7 @@
         "emoji": "☁️",
         "transcription": "sɔft"
     },
-    {
+{
         "word": "heavy",
         "level": "starter",
         "form": "adjective",
@@ -23834,7 +23845,7 @@
         "emoji": "🏋️",
         "transcription": "ˈhɛvi"
     },
-    {
+{
         "word": "light",
         "level": "starter",
         "form": "adjective",
@@ -23859,7 +23870,7 @@
         "emoji": "🪶",
         "transcription": "laɪt"
     },
-    {
+{
         "word": "brown",
         "level": "starter",
         "form": "adjective",
@@ -23879,7 +23890,7 @@
         "emoji": "🤎",
         "transcription": "braʊn"
     },
-    {
+{
         "word": "grey",
         "level": "starter",
         "form": "adjective",
@@ -23899,7 +23910,7 @@
         "emoji": "🩶",
         "transcription": "greɪ"
     },
-    {
+{
         "word": "pink",
         "level": "starter",
         "form": "adjective",
@@ -23919,7 +23930,7 @@
         "emoji": "🩷",
         "transcription": "pɪŋk"
     },
-    {
+{
         "word": "orange",
         "level": "starter",
         "form": "adjective",
@@ -23939,7 +23950,7 @@
         "emoji": "🧡",
         "transcription": "ˈɔrɪnʤ"
     },
-    {
+{
         "word": "great",
         "level": "starter",
         "form": "adjective",
@@ -23964,7 +23975,7 @@
         "emoji": "🌟",
         "transcription": "greɪt"
     },
-    {
+{
         "word": "nice",
         "level": "starter",
         "form": "adjective",
@@ -23989,7 +24000,7 @@
         "emoji": "😊",
         "transcription": "nis"
     },
-    {
+{
         "word": "wonderful",
         "level": "starter",
         "form": "adjective",
@@ -24014,7 +24025,7 @@
         "emoji": "🌈",
         "transcription": "ˈwəndərfəl"
     },
-    {
+{
         "word": "terrible",
         "level": "starter",
         "form": "adjective",
@@ -24039,7 +24050,7 @@
         "emoji": "🤮",
         "transcription": "ˈtɛrəbəl"
     },
-    {
+{
         "word": "awful",
         "level": "starter",
         "form": "adjective",
@@ -24064,7 +24075,7 @@
         "emoji": "💩",
         "transcription": "ˈɔfəl"
     },
-    {
+{
         "word": "amazing",
         "level": "starter",
         "form": "adjective",
@@ -24089,7 +24100,7 @@
         "emoji": "🤩",
         "transcription": "əˈmeɪzɪŋ"
     },
-    {
+{
         "word": "fantastic",
         "level": "starter",
         "form": "adjective",
@@ -24114,7 +24125,7 @@
         "emoji": "🔥",
         "transcription": "fænˈtæstɪk"
     },
-    {
+{
         "word": "sad",
         "level": "starter",
         "form": "adjective",
@@ -24140,7 +24151,7 @@
         "emoji": "😢",
         "transcription": "sæd"
     },
-    {
+{
         "word": "hungry",
         "level": "starter",
         "form": "adjective",
@@ -24165,7 +24176,7 @@
         "emoji": "🍔",
         "transcription": "ˈhəŋgri"
     },
-    {
+{
         "word": "angry",
         "level": "starter",
         "form": "adjective",
@@ -24191,7 +24202,7 @@
         "emoji": "😠",
         "transcription": "ˈæŋgri"
     },
-    {
+{
         "word": "bored",
         "level": "starter",
         "form": "adjective",
@@ -24216,7 +24227,7 @@
         "emoji": "😴",
         "transcription": "bɔrd"
     },
-    {
+{
         "word": "excited",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -24237,7 +24248,7 @@
         "emoji": "🤩",
         "transcription": "ɪkˈsaɪtɪd"
     },
-    {
+{
         "word": "afraid",
         "level": "starter",
         "form": "adjective",
@@ -24263,7 +24274,7 @@
         "emoji": "😨",
         "transcription": "əˈfreɪd"
     },
-    {
+{
         "word": "sorry",
         "level": "starter",
         "form": "adjective",
@@ -24283,7 +24294,7 @@
         "emoji": "🙏",
         "transcription": "ˈsɑri"
     },
-    {
+{
         "word": "right",
         "level": "starter",
         "form": "adjective",
@@ -24309,7 +24320,7 @@
         "emoji": "✅",
         "transcription": "raɪt"
     },
-    {
+{
         "word": "left",
         "level": "starter",
         "form": "adjective",
@@ -24330,7 +24341,7 @@
         "emoji": "⬅️",
         "transcription": "lɛft"
     },
-    {
+{
         "word": "wrong",
         "level": "starter",
         "form": "adjective",
@@ -24354,7 +24365,7 @@
         "emoji": "❌",
         "transcription": "rɔŋ"
     },
-    {
+{
         "word": "new",
         "level": "starter",
         "form": "adjective",
@@ -24379,7 +24390,7 @@
         "emoji": "🆕",
         "transcription": "nu"
     },
-    {
+{
         "word": "different",
         "level": "starter",
         "form": "adjective",
@@ -24403,7 +24414,7 @@
         "emoji": "🌓",
         "transcription": "ˈdɪfərənt"
     },
-    {
+{
         "word": "same",
         "level": "starter",
         "form": "adjective",
@@ -24427,7 +24438,7 @@
         "emoji": "👯",
         "transcription": "seɪm"
     },
-    {
+{
         "word": "fast",
         "level": "starter",
         "form": "adjective",
@@ -24452,7 +24463,7 @@
         "emoji": "🏎️",
         "transcription": "fæst"
     },
-    {
+{
         "word": "slow",
         "level": "starter",
         "form": "adjective",
@@ -24476,7 +24487,7 @@
         "emoji": "🐢",
         "transcription": "sloʊ"
     },
-    {
+{
         "word": "quiet",
         "level": "starter",
         "form": "adjective",
@@ -24501,7 +24512,7 @@
         "emoji": "🤫",
         "transcription": "kwaɪət"
     },
-    {
+{
         "word": "loud",
         "level": "starter",
         "form": "adjective",
@@ -24525,7 +24536,7 @@
         "emoji": "📢",
         "transcription": "laʊd"
     },
-    {
+{
         "word": "safe",
         "level": "starter",
         "form": "adjective",
@@ -24549,7 +24560,7 @@
         "emoji": "🛡️",
         "transcription": "seɪf"
     },
-    {
+{
         "word": "dangerous",
         "level": "starter",
         "form": "adjective",
@@ -24573,7 +24584,7 @@
         "emoji": "🧨",
         "transcription": "ˈdeɪnʤərəs"
     },
-    {
+{
         "word": "unhappy",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -24598,7 +24609,7 @@
         "emoji": "😢",
         "transcription": "ənˈhæpi"
     },
-    {
+{
         "word": "nervous",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -24623,7 +24634,7 @@
         "emoji": "😟",
         "transcription": "ˈnərvəs"
     },
-    {
+{
         "word": "proud",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24648,7 +24659,7 @@
         "emoji": "🤳",
         "transcription": "praʊd"
     },
-    {
+{
         "word": "scared",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -24673,7 +24684,7 @@
         "emoji": "😨",
         "transcription": "skɛrd"
     },
-    {
+{
         "word": "surprised",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -24698,7 +24709,7 @@
         "emoji": "😲",
         "transcription": "səˈpraɪzd"
     },
-    {
+{
         "word": "disappointed",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -24723,7 +24734,7 @@
         "emoji": "😞",
         "transcription": "ˌdɪsəˈpɔɪnɪd"
     },
-    {
+{
         "word": "beautiful",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24744,7 +24755,7 @@
         "emoji": "✨",
         "transcription": "ˈbjutəfəl"
     },
-    {
+{
         "word": "pretty",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24765,7 +24776,7 @@
         "emoji": "🌸",
         "transcription": "ˈprɪti"
     },
-    {
+{
         "word": "strong",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24786,7 +24797,7 @@
         "emoji": "🏋️",
         "transcription": "strɔŋ"
     },
-    {
+{
         "word": "weak",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24807,7 +24818,7 @@
         "emoji": "🥀",
         "transcription": "wik"
     },
-    {
+{
         "word": "fit",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -24832,7 +24843,7 @@
         "emoji": "🏋️",
         "transcription": "fɪt"
     },
-    {
+{
         "word": "unfit",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -24853,7 +24864,7 @@
         "superlative": "the most unfit",
         "transcription": "ənˈfɪt"
     },
-    {
+{
         "word": "perfect",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24874,7 +24885,7 @@
         "emoji": "💯",
         "transcription": "ˈpərˌfɪkt"
     },
-    {
+{
         "word": "correct",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24895,7 +24906,7 @@
         "emoji": "✅",
         "transcription": "kərˈɛkt"
     },
-    {
+{
         "word": "interesting",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24916,7 +24927,7 @@
         "emoji": "🧐",
         "transcription": "ˈɪntəˌrɛstɪŋ"
     },
-    {
+{
         "word": "boring",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24937,7 +24948,7 @@
         "emoji": "😴",
         "transcription": "ˈbɔrɪŋ"
     },
-    {
+{
         "word": "special",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24958,7 +24969,7 @@
         "emoji": "💎",
         "transcription": "ˈspɛʃəl"
     },
-    {
+{
         "word": "friendly",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -24983,7 +24994,7 @@
         "emoji": "👋",
         "transcription": "ˈfrɛndli"
     },
-    {
+{
         "word": "kind",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25008,7 +25019,7 @@
         "emoji": "🤝",
         "transcription": "kaɪnd"
     },
-    {
+{
         "word": "unkind",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25033,7 +25044,7 @@
         "superlative": "the most unkind",
         "transcription": "ənˈkaɪnd"
     },
-    {
+{
         "word": "funny",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25058,7 +25069,7 @@
         "emoji": "😂",
         "transcription": "ˈfəni"
     },
-    {
+{
         "word": "clever",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25083,7 +25094,7 @@
         "emoji": "🎓",
         "transcription": "ˈklɛvər"
     },
-    {
+{
         "word": "polite",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25107,7 +25118,7 @@
         "emoji": "🙏",
         "transcription": "pəˈlaɪt"
     },
-    {
+{
         "word": "rude",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25132,7 +25143,7 @@
         "emoji": "😛",
         "transcription": "rud"
     },
-    {
+{
         "word": "lazy",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25156,7 +25167,7 @@
         "emoji": "🛋️",
         "transcription": "ˈleɪzi"
     },
-    {
+{
         "word": "honest",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25180,7 +25191,7 @@
         "emoji": "⚖️",
         "transcription": "ˈɑnəst"
     },
-    {
+{
         "word": "noisy",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25204,7 +25215,7 @@
         "emoji": "📢",
         "transcription": "ˈnɔɪzi"
     },
-    {
+{
         "word": "round",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -25228,7 +25239,7 @@
         "superlative": "the roundest",
         "transcription": "raʊnd"
     },
-    {
+{
         "word": "square",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -25252,7 +25263,7 @@
         "superlative": "the squarest",
         "transcription": "skwɛr"
     },
-    {
+{
         "word": "helpful",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25277,7 +25288,7 @@
         "superlative": "the most helpful",
         "transcription": "ˈhɛlpfəl"
     },
-    {
+{
         "word": "unhelpful",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25301,7 +25312,7 @@
         "superlative": "the most unhelpful",
         "transcription": "ənˈhɛlpfəl"
     },
-    {
+{
         "word": "patient",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25326,7 +25337,7 @@
         "superlative": "the most patient",
         "transcription": "ˈpeɪʃənt"
     },
-    {
+{
         "word": "active",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25351,7 +25362,7 @@
         "superlative": "the most active",
         "transcription": "ˈæktɪv"
     },
-    {
+{
         "word": "careful",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25374,7 +25385,7 @@
         "superlative": "the most careful",
         "transcription": "ˈkɛrfəl"
     },
-    {
+{
         "word": "creative",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25399,7 +25410,7 @@
         "superlative": "the most creative",
         "transcription": "kriˈeɪtɪv"
     },
-    {
+{
         "word": "cloudy",
         "level": "starter",
         "theme": "weather_A1",
@@ -25423,7 +25434,7 @@
         "superlative": "the cloudiest",
         "transcription": "ˈklaʊdi"
     },
-    {
+{
         "word": "windy",
         "level": "starter",
         "theme": "weather_A1",
@@ -25447,7 +25458,7 @@
         "superlative": "the windiest",
         "transcription": "ˈwɪndi"
     },
-    {
+{
         "word": "snowy",
         "level": "starter",
         "theme": "weather_A1",
@@ -25471,7 +25482,7 @@
         "superlative": "the snowiest",
         "transcription": "snoʊi"
     },
-    {
+{
         "word": "foggy",
         "level": "starter",
         "theme": "weather_A1",
@@ -25495,7 +25506,7 @@
         "superlative": "the foggiest",
         "transcription": "ˈfɑgi"
     },
-    {
+{
         "word": "stormy",
         "level": "starter",
         "theme": "weather_A1",
@@ -25519,7 +25530,7 @@
         "superlative": "the stormiest",
         "transcription": "ˈstɔrmi"
     },
-    {
+{
         "word": "blonde",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -25543,7 +25554,7 @@
         "emoji": "👱‍♀️",
         "transcription": "blɑnd"
     },
-    {
+{
         "word": "smart",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25568,7 +25579,7 @@
         "emoji": "🎓",
         "transcription": "smɑrt"
     },
-    {
+{
         "word": "serious",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25593,7 +25604,7 @@
         "emoji": "😐",
         "transcription": "ˈsɪriəs"
     },
-    {
+{
         "word": "ugly",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -25617,7 +25628,7 @@
         "emoji": "👹",
         "transcription": "ˈəgli"
     },
-    {
+{
         "word": "near",
         "level": "starter",
         "theme": "distance_A1",
@@ -25641,7 +25652,7 @@
         "emoji": "📍",
         "transcription": "nɪr"
     },
-    {
+{
         "word": "far",
         "level": "starter",
         "theme": "distance_A1",
@@ -25665,7 +25676,7 @@
         "emoji": "🔭",
         "transcription": "fɑr"
     },
-    {
+{
         "word": "rich",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -25689,7 +25700,7 @@
         "superlative": "the richest",
         "transcription": "rɪʧ"
     },
-    {
+{
         "word": "poor",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -25714,7 +25725,7 @@
         "superlative": "the poorest",
         "transcription": "pur"
     },
-    {
+{
         "word": "early",
         "level": "starter",
         "theme": "times_day_A1",
@@ -25738,7 +25749,7 @@
         "superlative": "the earliest",
         "transcription": "ˈərli"
     },
-    {
+{
         "word": "late",
         "level": "starter",
         "theme": "times_day_A1",
@@ -25762,7 +25773,7 @@
         "superlative": "the latest",
         "transcription": "leɪt"
     },
-    {
+{
         "word": "hardworking",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25787,7 +25798,7 @@
         "superlative": "the most hardworking",
         "transcription": "ˈhɑrdˌwərkɪŋ"
     },
-    {
+{
         "word": "exciting",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -25812,7 +25823,7 @@
         "superlative": "the most exciting",
         "transcription": "ɪkˈsaɪtɪŋ"
     },
-    {
+{
         "word": "delicious",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -25837,7 +25848,7 @@
         "superlative": "the most delicious",
         "transcription": "dɪˈlɪʃəs"
     },
-    {
+{
         "word": "sweet",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -25861,7 +25872,7 @@
         "superlative": "the sweetest",
         "transcription": "swit"
     },
-    {
+{
         "word": "comfortable",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -25886,7 +25897,7 @@
         "superlative": "the most comfortable",
         "transcription": "ˈkəmfərtəbəl"
     },
-    {
+{
         "word": "uncomfortable",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -25911,7 +25922,7 @@
         "superlative": "the most uncomfortable",
         "transcription": "ənˈkəmfərtəbəl"
     },
-    {
+{
         "word": "real",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25936,7 +25947,7 @@
         "superlative": "the most real",
         "transcription": "ril"
     },
-    {
+{
         "word": "simple",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -25961,7 +25972,7 @@
         "superlative": "the simplest",
         "transcription": "ˈsɪmpəl"
     },
-    {
+{
         "word": "natural",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -25985,7 +25996,7 @@
         "superlative": "the most natural",
         "transcription": "ˈnæʧərəl"
     },
-    {
+{
         "word": "clear",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26012,7 +26023,7 @@
         "superlative": "the clearest",
         "transcription": "klɪr"
     },
-    {
+{
         "word": "common",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26038,7 +26049,7 @@
         "superlative": "the commonest",
         "transcription": "ˈkɑmən"
     },
-    {
+{
         "word": "famous",
         "level": "starter",
         "theme": "people_A1",
@@ -26063,7 +26074,7 @@
         "superlative": "the most famous",
         "transcription": "ˈfeɪməs"
     },
-    {
+{
         "word": "salty",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -26087,7 +26098,7 @@
         "superlative": "the saltiest",
         "transcription": "ˈsɔlti"
     },
-    {
+{
         "word": "sour",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -26111,7 +26122,7 @@
         "superlative": "the sourest",
         "transcription": "saʊər"
     },
-    {
+{
         "word": "bitter",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -26136,7 +26147,7 @@
         "superlative": "the bitterest",
         "transcription": "ˈbɪtər"
     },
-    {
+{
         "word": "fat",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -26161,7 +26172,7 @@
         "superlative": "the fattest",
         "transcription": "fæt"
     },
-    {
+{
         "word": "thin",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -26186,7 +26197,7 @@
         "superlative": "the thinnest",
         "transcription": "θɪn"
     },
-    {
+{
         "word": "curly",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -26210,7 +26221,7 @@
         "superlative": "the curliest",
         "transcription": "ˈkərli"
     },
-    {
+{
         "word": "straight",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -26234,7 +26245,7 @@
         "superlative": "the straightest",
         "transcription": "streɪt"
     },
-    {
+{
         "word": "triangular",
         "level": "starter",
         "theme": "shapes_A1",
@@ -26257,7 +26268,7 @@
         "superlative": null,
         "transcription": "traɪˈæŋgjələr"
     },
-    {
+{
         "word": "rectangular",
         "level": "starter",
         "theme": "shapes_A1",
@@ -26280,7 +26291,7 @@
         "superlative": null,
         "transcription": "rɛkˈtæŋgjələr"
     },
-    {
+{
         "word": "oval",
         "level": "starter",
         "theme": "shapes_A1",
@@ -26303,7 +26314,7 @@
         "superlative": null,
         "transcription": "ˈoʊvəl"
     },
-    {
+{
         "word": "favourite",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26328,7 +26339,7 @@
         "superlative": null,
         "transcription": "ˈfeɪvərɪt"
     },
-    {
+{
         "word": "dark",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26353,7 +26364,7 @@
         "superlative": "the darkest",
         "transcription": "dɑrk"
     },
-    {
+{
         "word": "bright",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26379,7 +26390,7 @@
         "superlative": "the brightest",
         "transcription": "braɪt"
     },
-    {
+{
         "word": "gold",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -26402,7 +26413,7 @@
         "superlative": null,
         "transcription": "goʊld"
     },
-    {
+{
         "word": "silver",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -26425,7 +26436,7 @@
         "superlative": null,
         "transcription": "ˈsɪlvər"
     },
-    {
+{
         "word": "deep",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -26449,7 +26460,7 @@
         "superlative": "the deepest",
         "transcription": "dip"
     },
-    {
+{
         "word": "shallow",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -26473,7 +26484,7 @@
         "superlative": "the shallowest",
         "transcription": "ˈʃæloʊ"
     },
-    {
+{
         "word": "modern",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26498,7 +26509,7 @@
         "superlative": "the most modern",
         "transcription": "ˈmɑdərn"
     },
-    {
+{
         "word": "ancient",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26523,7 +26534,7 @@
         "superlative": "the most ancient",
         "transcription": "ˈeɪnʧənt"
     },
-    {
+{
         "word": "brave",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26547,7 +26558,7 @@
         "superlative": "the bravest",
         "transcription": "breɪv"
     },
-    {
+{
         "word": "cowardly",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26571,7 +26582,7 @@
         "superlative": "the most cowardly",
         "transcription": "ˈkaʊərdli"
     },
-    {
+{
         "word": "wide",
         "level": "starter",
         "theme": "size_measurements_A1",
@@ -26595,7 +26606,7 @@
         "superlative": "the widest",
         "transcription": "waɪd"
     },
-    {
+{
         "word": "narrow",
         "level": "starter",
         "theme": "size_measurements_A1",
@@ -26619,7 +26630,7 @@
         "superlative": "the narrowest",
         "transcription": "ˈnɛroʊ"
     },
-    {
+{
         "word": "lucky",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -26643,7 +26654,7 @@
         "superlative": "the luckiest",
         "transcription": "ˈləki"
     },
-    {
+{
         "word": "calm",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -26669,7 +26680,7 @@
         "superlative": "the calmest",
         "transcription": "kɑm"
     },
-    {
+{
         "word": "married",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -26690,7 +26701,7 @@
         "superlative": null,
         "transcription": "ˈmɛrid"
     },
-    {
+{
         "word": "single",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -26714,7 +26725,7 @@
         "superlative": null,
         "transcription": "ˈsɪŋgəl"
     },
-    {
+{
         "word": "well",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -26740,7 +26751,7 @@
         "superlative": "the best",
         "transcription": "wɛl"
     },
-    {
+{
         "word": "purple",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -26763,7 +26774,7 @@
         "opposite": "yellow",
         "transcription": "ˈpərpəl"
     },
-    {
+{
         "word": "able",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26786,7 +26797,7 @@
         "superlative": "the ablest",
         "transcription": "ˈeɪbəl"
     },
-    {
+{
         "word": "close",
         "level": "starter",
         "theme": "distance_A1",
@@ -26809,7 +26820,7 @@
         "superlative": "the closest",
         "transcription": "kloʊz"
     },
-    {
+{
         "word": "dead",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -26832,7 +26843,7 @@
         "superlative": null,
         "transcription": "dɛd"
     },
-    {
+{
         "word": "fair",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26855,7 +26866,7 @@
         "superlative": "the fairest",
         "transcription": "fɛr"
     },
-    {
+{
         "word": "fine",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26880,7 +26891,7 @@
         "superlative": "the finest",
         "transcription": "faɪn"
     },
-    {
+{
         "word": "glad",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -26904,7 +26915,7 @@
         "superlative": "the gladdest",
         "transcription": "glæd"
     },
-    {
+{
         "word": "interested",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -26927,7 +26938,7 @@
         "superlative": "the most interested",
         "transcription": "ˈɪntəˌrɛstɪd"
     },
-    {
+{
         "word": "only",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26950,7 +26961,7 @@
         "superlative": null,
         "transcription": "ˈoʊnli"
     },
-    {
+{
         "word": "other",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -26973,7 +26984,7 @@
         "superlative": null,
         "transcription": "ˈəðər"
     },
-    {
+{
         "word": "own",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -26996,7 +27007,7 @@
         "superlative": null,
         "transcription": "oʊn"
     },
-    {
+{
         "word": "quick",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -27019,7 +27030,7 @@
         "superlative": "the quickest",
         "transcription": "kwɪk"
     },
-    {
+{
         "word": "ready",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -27042,7 +27053,7 @@
         "superlative": "the readiest",
         "transcription": "ˈrɛdi"
     },
-    {
+{
         "word": "unready",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -27066,7 +27077,7 @@
         "superlative": "the most unready",
         "transcription": "ʌnˈrɛdi"
     },
-    {
+{
         "word": "rough",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -27089,7 +27100,7 @@
         "superlative": "the roughest",
         "transcription": "rəf"
     },
-    {
+{
         "word": "sharp",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -27112,7 +27123,7 @@
         "superlative": "the sharpest",
         "transcription": "ʃɑrp"
     },
-    {
+{
         "word": "shy",
         "level": "starter",
         "theme": "personality_traits_A1",
@@ -27135,7 +27146,7 @@
         "superlative": "the shyest",
         "transcription": "ʃaɪ"
     },
-    {
+{
         "word": "thick",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -27158,7 +27169,7 @@
         "superlative": "the thickest",
         "transcription": "θɪk"
     },
-    {
+{
         "word": "true",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27182,7 +27193,7 @@
         "superlative": "the truest",
         "transcription": "tru"
     },
-    {
+{
         "word": "false",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27206,7 +27217,7 @@
         "superlative": "the falsest",
         "transcription": "fɔls"
     },
-    {
+{
         "word": "stupid",
         "level": "starter",
         "theme": "personality_traits_A1",
@@ -27229,7 +27240,7 @@
         "superlative": "the stupidest",
         "transcription": "ˈstupɪd"
     },
-    {
+{
         "word": "sure",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -27253,7 +27264,7 @@
         "superlative": "the surest",
         "transcription": "ʃʊr"
     },
-    {
+{
         "word": "unsure",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -27277,7 +27288,7 @@
         "superlative": "the most unsure",
         "transcription": "ənˈʃʊr"
     },
-    {
+{
         "word": "nasty",
         "level": "starter",
         "theme": "personality_traits_A1",
@@ -27302,7 +27313,7 @@
         "superlative": "the nastiest",
         "transcription": "ˈnæsti"
     },
-    {
+{
         "word": "incorrect",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27327,7 +27338,7 @@
         "superlative": "the most incorrect",
         "transcription": "ˌɪnkərˈɛkt"
     },
-    {
+{
         "word": "smooth",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -27352,7 +27363,7 @@
         "superlative": "the smoothest",
         "transcription": "smuð"
     },
-    {
+{
         "word": "normal",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27377,7 +27388,7 @@
         "superlative": "the most normal",
         "transcription": "ˈnɔrməl"
     },
-    {
+{
         "word": "alive",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -27401,7 +27412,7 @@
         "superlative": null,
         "transcription": "əˈlaɪv"
     },
-    {
+{
         "word": "many",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -27422,7 +27433,7 @@
         "superlative": "the most",
         "transcription": "ˈmɛni"
     },
-    {
+{
         "word": "shared",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27446,7 +27457,7 @@
         "superlative": null,
         "transcription": "ʃɛrd"
     },
-    {
+{
         "word": "unclear",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27471,7 +27482,7 @@
         "superlative": "the most unclear",
         "transcription": "ənˈklɪr"
     },
-    {
+{
         "word": "few",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -27495,7 +27506,7 @@
         "superlative": "the fewest",
         "transcription": "fju"
     },
-    {
+{
         "word": "possible",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -27516,7 +27527,7 @@
         "superlative": "the most possible",
         "subtext": "as soon as possible, if possible"
     },
-    {
+{
         "word": "useful",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -27537,7 +27548,7 @@
         "superlative": "the most useful",
         "subtext": "very useful, useful information"
     },
-    {
+{
         "word": "occupation",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -27557,7 +27568,7 @@
         "countability": "countable",
         "subtext": "current occupation, professional occupation"
     },
-    {
+{
         "word": "about",
         "level": "starter",
         "theme": "prepositions_time_A1",
@@ -27575,7 +27586,7 @@
         "transcription": "əˈbaʊt",
         "subtext": "about"
     },
-    {
+{
         "word": "around",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -27593,9 +27604,9 @@
         "transcription": "əˈraʊnd",
         "subtext": "around"
     },
-    {
+{
         "word": "by",
-        "image": "images/vocabulary/next to. by.png",
+        "image": "images/grammar/prepositions/next to. by.png",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "form": "preposition",
@@ -27612,7 +27623,7 @@
         "transcription": "baɪ",
         "subtext": "by"
     },
-    {
+{
         "word": "of",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -27630,7 +27641,7 @@
         "transcription": "🇬🇧 ɒv | 🇺🇸 ɑːv",
         "subtext": "of"
     },
-    {
+{
         "word": "hi",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -27648,7 +27659,7 @@
         "countability": "countable",
         "transcription": "haɪ"
     },
-    {
+{
         "word": "thanks",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -27666,7 +27677,7 @@
         "countability": "uncountable",
         "transcription": "θæŋks"
     },
-    {
+{
         "word": "bye",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -27684,7 +27695,7 @@
         "countability": "countable",
         "transcription": "baɪ"
     },
-    {
+{
         "word": "alphabet",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -27702,7 +27713,7 @@
         "countability": "countable",
         "transcription": "ˈælfəˌbɛt"
     },
-    {
+{
         "word": "color",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -27720,7 +27731,7 @@
         "countability": "countable",
         "transcription": "ˈkələr"
     },
-    {
+{
         "word": "season",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -27738,7 +27749,7 @@
         "countability": "countable",
         "transcription": "ˈsizən"
     },
-    {
+{
         "word": "email address",
         "level": "starter",
         "theme": "contact_details_A1",
@@ -27756,7 +27767,7 @@
         "subtext": "contact information",
         "countability": "countable"
     },
-    {
+{
         "word": "phone number",
         "level": "starter",
         "theme": "contact_details_A1",
@@ -27774,7 +27785,7 @@
         "subtext": "contact information",
         "countability": "countable"
     },
-    {
+{
         "word": "wardrobe",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -27796,7 +27807,7 @@
         "countability": "countable",
         "subtext": "furniture for clothes"
     },
-    {
+{
         "word": "Mr",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -27814,7 +27825,7 @@
         "subtext": "title for a man",
         "countability": "countable"
     },
-    {
+{
         "word": "Mrs",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -27832,7 +27843,7 @@
         "subtext": "title for a married woman",
         "countability": "countable"
     },
-    {
+{
         "word": "Ms",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -27850,7 +27861,7 @@
         "subtext": "title for a woman",
         "countability": "countable"
     },
-    {
+{
         "word": "pardon",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -27868,7 +27879,7 @@
         "subtext": "social phrase",
         "countability": "uncountable"
     },
-    {
+{
         "word": "sir",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -27886,7 +27897,7 @@
         "subtext": "polite address",
         "countability": "countable"
     },
-    {
+{
         "word": "madam",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -27903,9 +27914,7 @@
         ],
         "subtext": "polite address",
         "countability": "countable"
-    }
+    },
+{}
 ];
-    const lang = "en";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

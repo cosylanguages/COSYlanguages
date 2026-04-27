@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "jardin",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "ingénieur",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -18,7 +28,7 @@
             }
         ]
     },
-    {
+{
         "word": "pilote",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -36,7 +46,7 @@
             }
         ]
     },
-    {
+{
         "word": "développeur logiciel",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -53,7 +63,7 @@
             }
         ]
     },
-    {
+{
         "word": "carrière",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -70,7 +80,7 @@
             }
         ]
     },
-    {
+{
         "word": "licenciement",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -88,7 +98,7 @@
             }
         ]
     },
-    {
+{
         "word": "travail flexible",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -105,7 +115,7 @@
             }
         ]
     },
-    {
+{
         "word": "réseautage",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -122,7 +132,7 @@
             }
         ]
     },
-    {
+{
         "word": "charge de travail",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -139,7 +149,7 @@
             }
         ]
     },
-    {
+{
         "word": "travail d'équipe",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -156,7 +166,7 @@
             }
         ]
     },
-    {
+{
         "word": "ambition",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -173,7 +183,7 @@
             }
         ]
     },
-    {
+{
         "word": "compétence",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -192,7 +202,7 @@
             }
         ]
     },
-    {
+{
         "word": "congé maternité",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -209,7 +219,7 @@
             }
         ]
     },
-    {
+{
         "word": "retraite",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -228,7 +238,7 @@
             }
         ]
     },
-    {
+{
         "word": "investissement",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -245,7 +255,7 @@
             }
         ]
     },
-    {
+{
         "word": "taux d'intérêt",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -262,7 +272,7 @@
             }
         ]
     },
-    {
+{
         "word": "revenu",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -279,7 +289,7 @@
             }
         ]
     },
-    {
+{
         "word": "assurance",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -296,7 +306,7 @@
             }
         ]
     },
-    {
+{
         "word": "impôt",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -315,7 +325,7 @@
             }
         ]
     },
-    {
+{
         "word": "bien-être",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -332,7 +342,7 @@
             }
         ]
     },
-    {
+{
         "word": "santé mentale",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -349,7 +359,7 @@
             }
         ]
     },
-    {
+{
         "word": "burn-out",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -368,7 +378,7 @@
             }
         ]
     },
-    {
+{
         "word": "prévention",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -385,7 +395,7 @@
             }
         ]
     },
-    {
+{
         "word": "symptôme",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -402,7 +412,7 @@
             }
         ]
     },
-    {
+{
         "word": "thérapie",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -419,7 +429,7 @@
             }
         ]
     },
-    {
+{
         "word": "confiance",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -436,7 +446,7 @@
             }
         ]
     },
-    {
+{
         "word": "conflit",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -453,7 +463,7 @@
             }
         ]
     },
-    {
+{
         "word": "responsabilité",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
@@ -470,7 +480,7 @@
             }
         ]
     },
-    {
+{
         "word": "attente",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -487,7 +497,7 @@
             }
         ]
     },
-    {
+{
         "word": "limite",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -506,7 +516,7 @@
             }
         ]
     },
-    {
+{
         "word": "divorce",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -523,7 +533,7 @@
             }
         ]
     },
-    {
+{
         "word": "égalité",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -541,7 +551,7 @@
             }
         ]
     },
-    {
+{
         "word": "liberté",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -558,7 +568,7 @@
             }
         ]
     },
-    {
+{
         "word": "inégalité",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -576,7 +586,7 @@
             }
         ]
     },
-    {
+{
         "word": "bénévole",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -593,7 +603,7 @@
             }
         ]
     },
-    {
+{
         "word": "communauté",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -610,7 +620,7 @@
             }
         ]
     },
-    {
+{
         "word": "génération",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -627,7 +637,7 @@
             }
         ]
     },
-    {
+{
         "word": "changement climatique",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -644,7 +654,7 @@
             }
         ]
     },
-    {
+{
         "word": "énergie renouvelable",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -661,7 +671,7 @@
             }
         ]
     },
-    {
+{
         "word": "empreinte carbone",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -678,7 +688,7 @@
             }
         ]
     },
-    {
+{
         "word": "gaspillage",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -697,7 +707,7 @@
             }
         ]
     },
-    {
+{
         "word": "cependant",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -714,7 +724,7 @@
             }
         ]
     },
-    {
+{
         "word": "bien que",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -729,7 +739,7 @@
             }
         ]
     },
-    {
+{
         "word": "d'un autre côté",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -745,7 +755,7 @@
             }
         ]
     },
-    {
+{
         "word": "à mon avis",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -761,7 +771,7 @@
             }
         ]
     },
-    {
+{
         "word": "par conséquent",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -777,7 +787,7 @@
             }
         ]
     },
-    {
+{
         "word": "quiche",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -794,7 +804,7 @@
             }
         ]
     },
-    {
+{
         "word": "escargot",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -811,7 +821,7 @@
             }
         ]
     },
-    {
+{
         "word": "limonade",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -828,7 +838,7 @@
             }
         ]
     },
-    {
+{
         "word": "bibliothèque",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -845,7 +855,7 @@
             }
         ]
     },
-    {
+{
         "word": "musée",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -862,7 +872,7 @@
             }
         ]
     },
-    {
+{
         "word": "armoire",
         "level": "intermediate",
         "theme": "home_living",
@@ -879,7 +889,7 @@
             }
         ]
     },
-    {
+{
         "word": "éléphant",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -896,7 +906,7 @@
             }
         ]
     },
-    {
+{
         "word": "singe",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -913,7 +923,7 @@
             }
         ]
     },
-    {
+{
         "word": "algorithme",
         "level": "intermediate",
         "theme": "science_tech",
@@ -929,9 +939,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "fr";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

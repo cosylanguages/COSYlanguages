@@ -1,7 +1,18 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "врач",
+        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
@@ -13,7 +24,7 @@
             }
         ]
     },
-    {
+{
         "word": "аяк",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -26,7 +37,7 @@
             }
         ]
     },
-    {
+{
         "word": "уҡытыусы",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -39,7 +50,7 @@
             }
         ]
     },
-    {
+{
         "word": "пицца",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -52,7 +63,7 @@
             }
         ]
     },
-    {
+{
         "word": "паста",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -65,7 +76,7 @@
             }
         ]
     },
-    {
+{
         "word": "алма",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -78,7 +89,7 @@
             }
         ]
     },
-    {
+{
         "word": "икмәк",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -91,7 +102,7 @@
             }
         ]
     },
-    {
+{
         "word": "йомортҡа",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -104,7 +115,7 @@
             }
         ]
     },
-    {
+{
         "word": "һөт",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -117,7 +128,7 @@
             }
         ]
     },
-    {
+{
         "word": "банан",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -130,7 +141,7 @@
             }
         ]
     },
-    {
+{
         "word": "кофе",
         "level": "starter",
         "theme": "drinks_A1",
@@ -143,7 +154,7 @@
             }
         ]
     },
-    {
+{
         "word": "сәй",
         "level": "starter",
         "theme": "drinks_A1",
@@ -156,7 +167,7 @@
             }
         ]
     },
-    {
+{
         "word": "һыу",
         "level": "starter",
         "theme": "drinks_A1",
@@ -169,7 +180,7 @@
             }
         ]
     },
-    {
+{
         "word": "мәктәп",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -182,7 +193,7 @@
             }
         ]
     },
-    {
+{
         "word": "футболка",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -195,7 +206,7 @@
             }
         ]
     },
-    {
+{
         "word": "салбар",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -208,7 +219,7 @@
             }
         ]
     },
-    {
+{
         "word": "аяк киеме",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -221,7 +232,7 @@
             }
         ]
     },
-    {
+{
         "word": "баш кейеме",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -234,7 +245,7 @@
             }
         ]
     },
-    {
+{
         "word": "олтырғыс",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -247,7 +258,7 @@
             }
         ]
     },
-    {
+{
         "word": "өҫтәл",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -260,7 +271,7 @@
             }
         ]
     },
-    {
+{
         "word": "карауат",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -273,7 +284,7 @@
             }
         ]
     },
-    {
+{
         "word": "асҡыс",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -286,7 +297,7 @@
             }
         ]
     },
-    {
+{
         "word": "телефон",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -299,7 +310,7 @@
             }
         ]
     },
-    {
+{
         "word": "китап",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -312,7 +323,7 @@
             }
         ]
     },
-    {
+{
         "word": "сумка",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -325,7 +336,7 @@
             }
         ]
     },
-    {
+{
         "word": "ручка",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -338,7 +349,7 @@
             }
         ]
     },
-    {
+{
         "word": "беше",
         "level": "starter",
         "theme": "animals_A1",
@@ -351,7 +362,7 @@
             }
         ]
     },
-    {
+{
         "word": "эт",
         "level": "starter",
         "theme": "animals_A1",
@@ -364,7 +375,7 @@
             }
         ]
     },
-    {
+{
         "word": "ҡул",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -377,7 +388,7 @@
             }
         ]
     },
-    {
+{
         "word": "аяк",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -390,7 +401,7 @@
             }
         ]
     },
-    {
+{
         "word": "күҙ",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -403,7 +414,7 @@
             }
         ]
     },
-    {
+{
         "word": "борон",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -416,7 +427,7 @@
             }
         ]
     },
-    {
+{
         "word": "ауыҙ",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -429,7 +440,7 @@
             }
         ]
     },
-    {
+{
         "word": "ҡолаҡ",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -442,7 +453,7 @@
             }
         ]
     },
-    {
+{
         "word": "әсәй",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -455,7 +466,7 @@
             }
         ]
     },
-    {
+{
         "word": "атай",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -468,7 +479,7 @@
             }
         ]
     },
-    {
+{
         "word": "эш",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -481,7 +492,7 @@
             }
         ]
     },
-    {
+{
         "word": "өй",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -494,7 +505,7 @@
             }
         ]
     },
-    {
+{
         "word": "машина",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -507,7 +518,7 @@
             }
         ]
     },
-    {
+{
         "word": "автобус",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -520,7 +531,7 @@
             }
         ]
     },
-    {
+{
         "word": "поезд",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -533,7 +544,7 @@
             }
         ]
     },
-    {
+{
         "word": "аҡса",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -546,7 +557,7 @@
             }
         ]
     },
-    {
+{
         "word": "кибет",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -559,7 +570,7 @@
             }
         ]
     },
-    {
+{
         "word": "ғаилә",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -572,7 +583,7 @@
             }
         ]
     },
-    {
+{
         "word": "дуҫ",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -585,7 +596,7 @@
             }
         ]
     },
-    {
+{
         "word": "көн",
         "level": "starter",
         "theme": "times_day_A1",
@@ -598,7 +609,7 @@
             }
         ]
     },
-    {
+{
         "word": "атна",
         "level": "starter",
         "theme": "times_day_A1",
@@ -611,7 +622,7 @@
             }
         ]
     },
-    {
+{
         "word": "аҙыҡ",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -624,7 +635,7 @@
             }
         ]
     },
-    {
+{
         "word": "иртәнге аш",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -637,7 +648,7 @@
             }
         ]
     },
-    {
+{
         "word": "төшке аш",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -650,7 +661,7 @@
             }
         ]
     },
-    {
+{
         "word": "киске аш",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -663,7 +674,7 @@
             }
         ]
     },
-    {
+{
         "word": "иртә",
         "level": "starter",
         "theme": "times_day_A1",
@@ -676,7 +687,7 @@
             }
         ]
     },
-    {
+{
         "word": "кич",
         "level": "starter",
         "theme": "times_day_A1",
@@ -689,7 +700,7 @@
             }
         ]
     },
-    {
+{
         "word": "төн",
         "level": "starter",
         "theme": "times_day_A1",
@@ -702,7 +713,7 @@
             }
         ]
     },
-    {
+{
         "word": "бөгөн",
         "level": "starter",
         "theme": "times_day_A1",
@@ -715,7 +726,7 @@
             }
         ]
     },
-    {
+{
         "word": "иртәгә",
         "level": "starter",
         "theme": "times_day_A1",
@@ -728,7 +739,7 @@
             }
         ]
     },
-    {
+{
         "word": "ир",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -741,7 +752,7 @@
             }
         ]
     },
-    {
+{
         "word": "ҡатын",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -754,7 +765,7 @@
             }
         ]
     },
-    {
+{
         "word": "бала",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -767,7 +778,7 @@
             }
         ]
     },
-    {
+{
         "word": "ҡояш",
         "level": "starter",
         "theme": "weather_A1",
@@ -780,7 +791,7 @@
             }
         ]
     },
-    {
+{
         "word": "яңгыр",
         "level": "starter",
         "theme": "weather_A1",
@@ -792,9 +803,7 @@
                 "examples": []
             }
         ]
-    }
-]
-    const lang = "ba";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{}
+];
 })();

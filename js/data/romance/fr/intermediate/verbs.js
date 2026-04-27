@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "jardiner",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -21,7 +21,7 @@
         ],
         "v3": "jardiné"
     },
-    {
+{
         "word": "faire du bénévolat",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -41,12 +41,11 @@
             }
         ],
         "v3": "fait du bénévolat"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "fr";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

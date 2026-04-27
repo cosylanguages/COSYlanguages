@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "κάνω κηπουρική",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -19,7 +19,7 @@
         ],
         "v3": "έκανα κηπουρική"
     },
-    {
+{
         "word": "κάνω εθελοντισμό",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -37,12 +37,11 @@
             }
         ],
         "v3": "έκανα εθελοντισμό"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "el";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

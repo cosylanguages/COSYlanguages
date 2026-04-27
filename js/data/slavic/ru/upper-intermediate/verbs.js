@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "утверждать, что",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -21,12 +21,11 @@
         "v2": "утверждал",
         "v3": "утверждала",
         "group": "1st_conj"
+    },
+{},
+{
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    const lang = "ru";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 })();

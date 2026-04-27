@@ -1,7 +1,18 @@
 (function() {
     const data = [
     {
+        "word": "giardino",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "medico",
+        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "article": "il",
@@ -27,7 +38,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "piede",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -53,7 +64,7 @@
         "subtext": "piede sinistro, a piedi",
         "antonyms": []
     },
-    {
+{
         "word": "insegnante",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -77,7 +88,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pasta",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -101,8 +112,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mela",
+        "image": "images/vocabulary/food/apple.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
@@ -127,7 +139,7 @@
         "subtext": "mela rossa",
         "antonyms": []
     },
-    {
+{
         "word": "pane",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -151,7 +163,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "uovo",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -175,7 +187,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "latte",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -199,7 +211,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "riso",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -223,7 +235,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "carne",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -247,7 +259,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "cibo",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -271,7 +283,7 @@
         "subtext": "cibo sano",
         "antonyms": []
     },
-    {
+{
         "word": "caffè",
         "level": "starter",
         "theme": "drinks_A1",
@@ -295,7 +307,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "tè",
         "level": "starter",
         "theme": "drinks_A1",
@@ -319,7 +331,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "succo",
         "level": "starter",
         "theme": "drinks_A1",
@@ -343,7 +355,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "acqua",
         "level": "starter",
         "theme": "drinks_A1",
@@ -367,9 +379,9 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "colazione",
-        "image": "images/vocabulary/have breakfast.png",
+        "image": "images/vocabulary/actions/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
@@ -392,9 +404,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cena",
-        "image": "images/vocabulary/have dinner.png",
+        "image": "images/vocabulary/actions/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
@@ -417,9 +429,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pranzo",
-        "image": "images/vocabulary/have lunch.png",
+        "image": "images/vocabulary/actions/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "il",
@@ -442,7 +454,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "parco",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -466,9 +478,9 @@
         "subtext": "parco giochi",
         "antonyms": []
     },
-    {
+{
         "word": "scuola",
-        "image": "images/vocabulary/go to school.png",
+        "image": "images/vocabulary/actions/go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "la",
@@ -491,7 +503,7 @@
         "subtext": "scuola primaria",
         "antonyms": []
     },
-    {
+{
         "word": "negozio",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -515,7 +527,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pantaloni",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -539,7 +551,7 @@
         "subtext": "un paio di pantaloni",
         "antonyms": []
     },
-    {
+{
         "word": "scarpe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -563,7 +575,7 @@
         "subtext": "scarpe da ginnastica",
         "antonyms": []
     },
-    {
+{
         "word": "sedia",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -587,7 +599,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "tavolo",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -611,7 +623,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "letto",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -635,7 +647,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "chiave",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -659,7 +671,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "telefono",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -683,7 +695,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "libro",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -707,7 +719,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "borsa",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -731,7 +743,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "penna",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -755,7 +767,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gatto",
         "level": "starter",
         "theme": "animals_A1",
@@ -783,7 +795,7 @@
             "cane"
         ]
     },
-    {
+{
         "word": "cane",
         "level": "starter",
         "theme": "animals_A1",
@@ -811,7 +823,7 @@
             "gatto"
         ]
     },
-    {
+{
         "word": "uccello",
         "level": "starter",
         "theme": "animals_A1",
@@ -835,7 +847,7 @@
         "subtext": "uccello canoro",
         "antonyms": []
     },
-    {
+{
         "word": "frutta",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -859,7 +871,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "verdura",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -883,7 +895,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "pesce",
         "level": "starter",
         "theme": "animals_A1",
@@ -907,7 +919,7 @@
         "subtext": "pesce fresco",
         "antonyms": []
     },
-    {
+{
         "word": "testa",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -931,7 +943,7 @@
         "subtext": "mal di testa",
         "antonyms": []
     },
-    {
+{
         "word": "mano",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -955,7 +967,7 @@
         "subtext": "mano destra",
         "antonyms": []
     },
-    {
+{
         "word": "gamba",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -979,7 +991,7 @@
         "subtext": "gamba sinistra",
         "antonyms": []
     },
-    {
+{
         "word": "occhio",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1003,7 +1015,7 @@
         "subtext": "chiudere gli occhi",
         "antonyms": []
     },
-    {
+{
         "word": "naso",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1027,7 +1039,7 @@
         "subtext": "naso chiuso",
         "antonyms": []
     },
-    {
+{
         "word": "bocca",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1051,7 +1063,7 @@
         "subtext": "bocca aperta",
         "antonyms": []
     },
-    {
+{
         "word": "orecchio",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1075,7 +1087,7 @@
         "subtext": "mal d'orecchio",
         "antonyms": []
     },
-    {
+{
         "word": "schiena",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1099,7 +1111,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "braccio",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1123,7 +1135,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "madre",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1149,7 +1161,7 @@
         "transcription": "ˈmadre",
         "antonyms": []
     },
-    {
+{
         "word": "padre",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1175,7 +1187,7 @@
         "transcription": "ˈpadre",
         "antonyms": []
     },
-    {
+{
         "word": "famiglia",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1199,7 +1211,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "amico",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1223,7 +1235,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "partner",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -1247,7 +1259,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "uomo",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1273,7 +1285,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "donna",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1299,9 +1311,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "casa",
-        "image": "images/vocabulary/go home.png",
+        "image": "images/vocabulary/actions/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -1324,7 +1336,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "appartamento",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1348,7 +1360,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "ufficio",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
@@ -1372,7 +1384,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "macchina",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1396,7 +1408,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "autobus",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1420,7 +1432,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "treno",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1444,7 +1456,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "denaro",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1468,7 +1480,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "mattina",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1492,7 +1504,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "sera",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1519,7 +1531,7 @@
         "transcription": "ˈsera",
         "antonyms": []
     },
-    {
+{
         "word": "giorno",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1543,7 +1555,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "settimana",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1567,7 +1579,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ogni giorno",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1586,7 +1598,7 @@
         "antonyms": [],
         "transcription": "ˈɔɲɲi ˈdʒorno"
     },
-    {
+{
         "word": "capo",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1610,7 +1622,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "collega",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1634,7 +1646,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stipendio",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1660,7 +1672,7 @@
         "transcription": "stiˈpɛndjo",
         "antonyms": []
     },
-    {
+{
         "word": "riunione",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1686,7 +1698,7 @@
         "transcription": "rjuˈnjone",
         "antonyms": []
     },
-    {
+{
         "word": "tragitto",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1710,7 +1722,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stress",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1734,7 +1746,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "affitto",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1758,7 +1770,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "vicino",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1782,7 +1794,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stanza",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1808,7 +1820,7 @@
         "transcription": "ˈstantsa",
         "antonyms": []
     },
-    {
+{
         "word": "cucina",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1832,7 +1844,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sonno",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1856,7 +1868,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "esercizio",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1880,7 +1892,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "prezzo",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1904,7 +1916,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "costo",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1928,7 +1940,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "relazione",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1955,7 +1967,7 @@
         "transcription": "relatˈtsjone",
         "antonyms": []
     },
-    {
+{
         "word": "insieme",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1976,7 +1988,7 @@
         "antonyms": [],
         "transcription": "ˈinsieme"
     },
-    {
+{
         "word": "vacanza",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2000,7 +2012,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "viaggio",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -2024,7 +2036,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "hotel",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2048,7 +2060,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fine settimana",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2072,7 +2084,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "tempo libero",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2099,7 +2111,7 @@
         "transcription": "ˈtɛmpo ˈlibero",
         "antonyms": []
     },
-    {
+{
         "word": "birra",
         "level": "starter",
         "theme": "drinks_A1",
@@ -2123,7 +2135,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "vino",
         "level": "starter",
         "theme": "drinks_A1",
@@ -2147,7 +2159,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "porta",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2171,7 +2183,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "finestra",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2195,7 +2207,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "infermiere",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2222,7 +2234,7 @@
         "transcription": "inferˈmjɛre",
         "antonyms": []
     },
-    {
+{
         "word": "conducente",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2249,7 +2261,7 @@
         "transcription": "konduˈtʃɛnte",
         "antonyms": []
     },
-    {
+{
         "word": "cuoco",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2276,7 +2288,7 @@
         "transcription": "ˈkwɔko",
         "antonyms": []
     },
-    {
+{
         "word": "direttore",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2303,7 +2315,7 @@
         "transcription": "diretˈtore",
         "antonyms": []
     },
-    {
+{
         "word": "aereo",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -2327,7 +2339,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "bicicletta",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -2351,7 +2363,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "ospedale",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2375,7 +2387,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "ristorante",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2399,7 +2411,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "banca",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2423,7 +2435,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "stazione",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2447,7 +2459,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "supermercato",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2471,7 +2483,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "sole",
         "level": "starter",
         "theme": "weather_A1",
@@ -2495,7 +2507,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "pioggia",
         "level": "starter",
         "theme": "weather_A1",
@@ -2519,7 +2531,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "vento",
         "level": "starter",
         "theme": "weather_A1",
@@ -2543,7 +2555,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "pomeriggio",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2567,7 +2579,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "notte",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2591,7 +2603,7 @@
         "synonyms": [],
         "antonyms": []
     },
-    {
+{
         "word": "oggi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2613,7 +2625,7 @@
         "antonyms": [],
         "transcription": "ˈɔddʒi"
     },
-    {
+{
         "word": "domani",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2635,7 +2647,7 @@
         "antonyms": [],
         "transcription": "doˈmani"
     },
-    {
+{
         "word": "marito",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2664,7 +2676,7 @@
         "transcription": "maˈrito",
         "antonyms": []
     },
-    {
+{
         "word": "moglie",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2693,7 +2705,7 @@
         "transcription": "ˈmɔʎʎe",
         "antonyms": []
     },
-    {
+{
         "word": "bambino",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2720,7 +2732,7 @@
         "transcription": "bamˈbino",
         "antonyms": []
     },
-    {
+{
         "word": "genitore",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2746,7 +2758,7 @@
         "transcription": "dʒeniˈtore",
         "antonyms": []
     },
-    {
+{
         "word": "autista",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2770,7 +2782,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "chef",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2794,7 +2806,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sorella",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2818,7 +2830,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fratello",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2842,7 +2854,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "figlio",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2866,7 +2878,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "figlia",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2890,7 +2902,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "nonno",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2914,7 +2926,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "nonna",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2938,7 +2950,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "zio",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2962,7 +2974,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "zia",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2986,7 +2998,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cugino",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -3010,7 +3022,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "albero",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -3034,7 +3046,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fiore",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -3058,7 +3070,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "montagna",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3082,7 +3094,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fiume",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3106,7 +3118,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mare",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3130,7 +3142,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "spiaggia",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3154,7 +3166,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cielo",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3178,7 +3190,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "luna",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3202,7 +3214,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "piatto",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3226,7 +3238,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "tazza",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3250,7 +3262,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bicchiere",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3274,7 +3286,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "forchetta",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3298,7 +3310,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cucchiaio",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3322,7 +3334,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "coltello",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3346,7 +3358,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "computer portatile",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3370,7 +3382,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "televisione",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3394,7 +3406,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cinema",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3418,7 +3430,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "museo",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3442,7 +3454,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "aeroporto",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -3466,7 +3478,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "farmacia",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -3490,7 +3502,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pollo",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3514,7 +3526,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "zucchero",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3538,7 +3550,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "insalata",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3562,7 +3574,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cappotto",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3586,7 +3598,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "calzini",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3610,7 +3622,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "collo",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3634,7 +3646,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "spalla",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3658,7 +3670,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "tempo",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -3682,7 +3694,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "problema",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -3706,7 +3718,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "manzo",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3730,7 +3742,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "maiale",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3754,7 +3766,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "patata",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3778,7 +3790,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pomodoro",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3802,7 +3814,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cipolla",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3826,7 +3838,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "carota",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3850,7 +3862,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "zuppa",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3874,7 +3886,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "torta",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3898,7 +3910,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cioccolato",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3922,7 +3934,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gelato",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -3946,7 +3958,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "maglione",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3970,7 +3982,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "vestito",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3994,7 +4006,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gonna",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -4018,7 +4030,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stivali",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -4042,7 +4054,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "dito",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -4066,7 +4078,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "dito del piede",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -4090,7 +4102,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stomaco",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -4114,7 +4126,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ginocchio",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -4138,7 +4150,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "erba",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -4162,7 +4174,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "nuvola",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -4186,7 +4198,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stella",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -4210,7 +4222,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scrivania",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4234,7 +4246,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lampada",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4258,7 +4270,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "orologio",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4282,7 +4294,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "specchio",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -4306,7 +4318,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "biblioteca",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -4330,7 +4342,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lunedì",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4354,7 +4366,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "martedì",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4378,7 +4390,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mercoledì",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4402,7 +4414,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "giovedì",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4426,7 +4438,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "venerdì",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4450,7 +4462,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sabato",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4474,7 +4486,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "domenica",
         "level": "starter",
         "theme": "days_week_A1",
@@ -4498,7 +4510,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gennaio",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4522,7 +4534,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "febbraio",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4546,7 +4558,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "marzo",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4570,7 +4582,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "aprile",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4594,7 +4606,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "maggio",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4618,7 +4630,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "giugno",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4642,7 +4654,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "luglio",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4666,7 +4678,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "agosto",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4690,7 +4702,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "settembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4714,7 +4726,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ottobre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4738,7 +4750,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "novembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4762,7 +4774,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "dicembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4786,7 +4798,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "primavera",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4810,7 +4822,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "estate",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4834,7 +4846,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "autunno",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4858,7 +4870,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "inverno",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4882,7 +4894,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "coniglio",
         "level": "starter",
         "theme": "animals_A1",
@@ -4906,7 +4918,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cavallo",
         "level": "starter",
         "theme": "animals_A1",
@@ -4930,7 +4942,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mucca",
         "level": "starter",
         "theme": "animals_A1",
@@ -4954,7 +4966,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pecora",
         "level": "starter",
         "theme": "animals_A1",
@@ -4978,7 +4990,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "limone",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5002,7 +5014,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "arancia",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5026,7 +5038,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fragola",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5050,7 +5062,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "uva",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5074,7 +5086,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "aglio",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5098,7 +5110,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sempre",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -5120,7 +5132,7 @@
         "antonyms": [],
         "transcription": "ˈsɛmpre"
     },
-    {
+{
         "word": "solitamente",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -5142,7 +5154,7 @@
         "antonyms": [],
         "transcription": "solitaˈmente"
     },
-    {
+{
         "word": "qualche volta",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -5164,7 +5176,7 @@
         "antonyms": [],
         "transcription": "ˈkwalke ˈvɔlta"
     },
-    {
+{
         "word": "dove",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5186,7 +5198,7 @@
         "antonyms": [],
         "transcription": "ˈdove"
     },
-    {
+{
         "word": "quando",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5208,7 +5220,7 @@
         "antonyms": [],
         "transcription": "ˈkwando"
     },
-    {
+{
         "word": "ciao",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -5232,7 +5244,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "arrivederci",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -5256,7 +5268,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "per favore",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5278,7 +5290,7 @@
         "antonyms": [],
         "transcription": "per faˈvore"
     },
-    {
+{
         "word": "grazie",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5302,7 +5314,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scusa",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5326,7 +5338,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sì",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5348,7 +5360,7 @@
         "antonyms": [],
         "transcription": "ˈsi"
     },
-    {
+{
         "word": "no",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5370,7 +5382,7 @@
         "antonyms": [],
         "transcription": "ˈnɔ"
     },
-    {
+{
         "word": "nome",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -5394,7 +5406,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "viola",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -5418,9 +5430,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bagno",
-        "image": "images/vocabulary/take.have a bath.png",
+        "image": "images/vocabulary/actions/take.have a bath.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "il",
@@ -5443,7 +5455,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "camera da letto",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -5467,7 +5479,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "neonato",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -5491,7 +5503,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ragazzo",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -5515,7 +5527,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ragazza",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -5539,7 +5551,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fidanzato",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -5563,7 +5575,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fidanzata",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -5587,7 +5599,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "studente",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5611,7 +5623,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "compagno di classe",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5635,7 +5647,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "macchina fotografica",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5659,7 +5671,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "computer",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5683,7 +5695,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bottiglia",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5707,7 +5719,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scatola",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5731,7 +5743,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "palla",
         "level": "starter",
         "theme": "sports_equipment_A1",
@@ -5755,7 +5767,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "regalo",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -5779,7 +5791,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "strada",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5803,7 +5815,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "edificio",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5827,7 +5839,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bar",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -5851,7 +5863,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "centro",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5875,7 +5887,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "burro",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5899,7 +5911,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "formaggio",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -5923,7 +5935,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "attore",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -5947,7 +5959,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "artista",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -5971,7 +5983,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "adulto",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -5995,7 +6007,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "consiglio",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -6019,7 +6031,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "età",
         "level": "starter",
         "theme": "age_A1",
@@ -6043,7 +6055,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "aria",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -6067,7 +6079,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "quartiere",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6091,7 +6103,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "arte",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -6115,7 +6127,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "band",
         "level": "starter",
         "theme": "music_A1",
@@ -6139,7 +6151,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "compleanno",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -6163,7 +6175,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "barca",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -6187,7 +6199,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "affari",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6211,7 +6223,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "università",
         "level": "starter",
         "theme": "types_of_education_A1",
@@ -6235,7 +6247,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "azienda",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6259,7 +6271,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "concerto",
         "level": "starter",
         "theme": "music_A1",
@@ -6283,7 +6295,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "conversazione",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -6307,7 +6319,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ancora",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -6329,7 +6341,7 @@
         "antonyms": [],
         "transcription": "ˈancora"
     },
-    {
+{
         "word": "fa",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -6351,7 +6363,7 @@
         "antonyms": [],
         "transcription": "ˈfa"
     },
-    {
+{
         "word": "anche",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -6373,7 +6385,7 @@
         "antonyms": [],
         "transcription": "ˈanche"
     },
-    {
+{
         "word": "veramente",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -6395,7 +6407,7 @@
         "antonyms": [],
         "transcription": "ˈveramente"
     },
-    {
+{
         "word": "lì",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -6417,7 +6429,7 @@
         "antonyms": [],
         "transcription": "ˈlì"
     },
-    {
+{
         "word": "matita",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6441,7 +6453,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "carta",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -6465,7 +6477,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "portafoglio",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6489,7 +6501,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ombrello",
         "level": "starter",
         "theme": "weather_A1",
@@ -6513,7 +6525,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "occhiali",
         "level": "starter",
         "theme": "accessories_A1",
@@ -6537,7 +6549,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "signore",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -6561,7 +6573,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "signora",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -6585,7 +6597,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "città",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6609,7 +6621,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "paese",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6633,7 +6645,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mondo",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -6657,7 +6669,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gente",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -6681,7 +6693,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ora",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -6705,7 +6717,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "minuto",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -6729,7 +6741,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "secondo",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -6753,7 +6765,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ieri",
         "level": "starter",
         "theme": "times_day_A1",
@@ -6775,7 +6787,7 @@
         "antonyms": [],
         "transcription": "ˈjɛri"
     },
-    {
+{
         "word": "mezzanotte",
         "level": "starter",
         "theme": "times_day_A1",
@@ -6799,7 +6811,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mezzogiorno",
         "level": "starter",
         "theme": "times_day_A1",
@@ -6823,9 +6835,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lavoro",
-        "image": "images/vocabulary/go to work.png",
+        "image": "images/vocabulary/actions/go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "il",
@@ -6848,7 +6860,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "impiego",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -6872,7 +6884,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mestiere",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -6896,7 +6908,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cliente",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6920,7 +6932,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "messaggio",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6944,7 +6956,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "email",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6968,7 +6980,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sito web",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6992,7 +7004,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "password",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7016,7 +7028,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "tastiera",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7040,7 +7052,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mouse",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7064,7 +7076,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "schermo",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -7088,7 +7100,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "musica",
         "level": "starter",
         "theme": "music_A1",
@@ -7112,7 +7124,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "canzone",
         "level": "starter",
         "theme": "music_A1",
@@ -7136,7 +7148,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "film",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -7160,7 +7172,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "foto",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -7184,7 +7196,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sport",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -7208,7 +7220,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "calcio",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -7232,7 +7244,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "tennis",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -7256,7 +7268,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "nuoto",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -7280,7 +7292,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mensa",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -7304,7 +7316,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mercato",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7328,7 +7340,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "biglietto",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7352,7 +7364,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ricevuta",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7376,7 +7388,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fattura",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7400,7 +7412,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "carta di credito",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7424,7 +7436,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "contanti",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7448,7 +7460,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sale",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7472,7 +7484,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pepe",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7496,7 +7508,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "olio",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7520,7 +7532,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "aceto",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -7544,9 +7556,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "merenda",
-        "image": "images/vocabulary/have a snack.png",
+        "image": "images/vocabulary/actions/have a snack.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
@@ -7569,7 +7581,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ospite",
         "level": "starter",
         "theme": "family_life_A1",
@@ -7593,7 +7605,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "festa",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -7617,7 +7629,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "viaggiatore",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -7641,7 +7653,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "valigia",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7665,7 +7677,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "zaino",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7689,7 +7701,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "passaporto",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7713,7 +7725,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mappa",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7737,7 +7749,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "piantina",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -7761,7 +7773,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "via",
         "level": "starter",
         "theme": "address_location_A1",
@@ -7785,7 +7797,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sentiero",
         "level": "starter",
         "theme": "address_location_A1",
@@ -7809,7 +7821,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "piazza",
         "level": "starter",
         "theme": "address_location_A1",
@@ -7833,7 +7845,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ponte",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7857,7 +7869,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "campagna",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7881,7 +7893,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "villaggio",
         "level": "starter",
         "theme": "address_location_A1",
@@ -7905,7 +7917,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lingua",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7929,7 +7941,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "parola",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7953,7 +7965,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "frase",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7977,7 +7989,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "domanda",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -8001,7 +8013,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "risposta",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -8025,7 +8037,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "idea",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -8049,7 +8061,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "parere",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -8073,7 +8085,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "opinione",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -8097,7 +8109,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scelta",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -8121,7 +8133,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "decisione",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -8145,7 +8157,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "piano",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -8169,7 +8181,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "progetto",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -8193,7 +8205,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "successo",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -8217,7 +8229,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "errore",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -8241,7 +8253,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sbaglio",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -8265,7 +8277,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "vendita",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8289,7 +8301,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "acquisto",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8313,7 +8325,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "boutique",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8337,7 +8349,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "centro commerciale",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8361,7 +8373,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "monete",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -8385,7 +8397,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "banconota",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -8409,7 +8421,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "conto",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -8433,7 +8445,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "risparmio",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -8457,7 +8469,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "spesa",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -8481,7 +8493,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pagamento",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -8505,7 +8517,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "prodotto",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8529,7 +8541,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "servizio",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -8553,7 +8565,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "offerta",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8577,7 +8589,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "consegna",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8601,7 +8613,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ordine",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8625,7 +8637,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "clientela",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -8649,7 +8661,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "entrata",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8673,7 +8685,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "uscita",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8697,7 +8709,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scale",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8721,7 +8733,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ascensore",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8745,7 +8757,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "corridoio",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8769,7 +8781,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "muri",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8793,7 +8805,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "tetto",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8817,8 +8829,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "giardino",
+        "image": "images/vocabulary/home/garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "il",
@@ -8841,7 +8854,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "garage",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8865,7 +8878,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "soggiorno",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8889,7 +8902,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sala da pranzo",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8913,9 +8926,9 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "doccia",
-        "image": "images/vocabulary/take.have a shower.png",
+        "image": "images/vocabulary/actions/take.have a shower.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -8938,7 +8951,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "rubinetto",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8962,7 +8975,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sapone",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -8986,7 +8999,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "asciugamano",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -9010,7 +9023,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scaffale",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -9034,7 +9047,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "divano",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -9058,7 +9071,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "radio",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -9082,7 +9095,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sveglia",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -9106,7 +9119,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "camicia",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9130,7 +9143,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9154,7 +9167,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "giacca",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9178,7 +9191,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "berretto",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9202,7 +9215,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "zuccotto",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9226,7 +9239,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cintura",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9250,7 +9263,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "costume da bagno",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9274,7 +9287,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pigiama",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -9298,7 +9311,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "fermata dell'autobus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9322,7 +9335,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "banchina",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9346,7 +9359,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "binario",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9370,7 +9383,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "metropolitana",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9394,7 +9407,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "taxi",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9418,7 +9431,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "velocità",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -9442,7 +9455,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bagagli",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9466,7 +9479,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "partenza",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9490,7 +9503,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "arrivo",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9514,7 +9527,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "volo",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9538,7 +9551,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "prenotazione",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9562,7 +9575,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "camera d'albergo",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9586,7 +9599,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "reception",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9610,7 +9623,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "spuntino",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -9634,7 +9647,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pasto",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -9658,7 +9671,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "orario",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -9682,7 +9695,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "indirizzi",
@@ -9705,7 +9718,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "cognome",
@@ -9728,7 +9741,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "tempo meteorologici",
@@ -9751,7 +9764,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "temperature",
@@ -9774,7 +9787,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "occupazione",
@@ -9797,7 +9810,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "informazioni",
@@ -9824,7 +9837,7 @@
         "subtext": "chiedere informazioni",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "nevi",
@@ -9848,7 +9861,7 @@
         "subtext": "palla di neve",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "nebbie",
@@ -9872,7 +9885,7 @@
         "subtext": "nebbia fitta",
         "antonyms": []
     },
-    {
+{
         "level": "starter",
         "form": "noun",
         "plural": "mobili",
@@ -9898,7 +9911,7 @@
         "subtext": "negozio di mobili",
         "antonyms": []
     },
-    {
+{
         "word": "banana",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9922,7 +9935,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pizza",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -9946,7 +9959,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lavastoviglie",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -9970,7 +9983,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "forno",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -9994,7 +10007,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "frigorifero",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -10020,7 +10033,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "tenda",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -10044,7 +10057,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pesca",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -10068,7 +10081,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pera",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -10092,7 +10105,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ciliegia",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -10116,7 +10129,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mio",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10138,7 +10151,7 @@
         "subtext": "aggettivo possessivo",
         "antonyms": []
     },
-    {
+{
         "word": "tuo",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10160,7 +10173,7 @@
         "subtext": "aggettivo possessivo",
         "antonyms": []
     },
-    {
+{
         "word": "suo",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10182,7 +10195,7 @@
         "subtext": "aggettivo possessivo",
         "antonyms": []
     },
-    {
+{
         "word": "nostro",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10204,7 +10217,7 @@
         "subtext": "aggettivo possessivo",
         "antonyms": []
     },
-    {
+{
         "word": "vostro",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10226,7 +10239,7 @@
         "subtext": "aggettivo possessivo",
         "antonyms": []
     },
-    {
+{
         "word": "questo",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10250,7 +10263,7 @@
             "quello"
         ]
     },
-    {
+{
         "word": "quello",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10274,7 +10287,7 @@
             "questo"
         ]
     },
-    {
+{
         "word": "quanto",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -10297,7 +10310,7 @@
         "subtext": "aggettivo interrogativo",
         "antonyms": []
     },
-    {
+{
         "word": "persona",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -10321,7 +10334,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "completo",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10347,7 +10360,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bevanda",
         "level": "starter",
         "theme": "drinks_A1",
@@ -10373,7 +10386,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cereali",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -10397,7 +10410,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "occhiali da sole",
         "level": "starter",
         "theme": "accessories_A1",
@@ -10421,7 +10434,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "rapporto",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -10447,7 +10460,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "anno",
         "level": "starter",
         "theme": "dates_years_A1",
@@ -10472,7 +10485,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "mese",
         "level": "starter",
         "theme": "months_year_A1",
@@ -10496,7 +10509,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "stagione",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -10520,7 +10533,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "faccia",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -10547,7 +10560,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "capelli",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -10571,7 +10584,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "dente",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -10595,7 +10608,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cravatta",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -10619,7 +10632,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "molto",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -10643,7 +10656,7 @@
             "poco"
         ]
     },
-    {
+{
         "word": "poco",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -10665,7 +10678,7 @@
             "tanto"
         ]
     },
-    {
+{
         "word": "troppo",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -10684,7 +10697,7 @@
         "subtext": "avverbio di quantità",
         "antonyms": []
     },
-    {
+{
         "word": "bene",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -10705,7 +10718,7 @@
             "male"
         ]
     },
-    {
+{
         "word": "male",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -10726,7 +10739,7 @@
             "bene"
         ]
     },
-    {
+{
         "word": "qui",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -10750,7 +10763,7 @@
             "lì"
         ]
     },
-    {
+{
         "word": "là",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -10774,7 +10787,7 @@
             "qua"
         ]
     },
-    {
+{
         "word": "colore",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -10798,7 +10811,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "quaderno",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -10822,7 +10835,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gomma",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -10846,7 +10859,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lezione",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10870,7 +10883,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "classe",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10894,7 +10907,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "compiti",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10918,7 +10931,7 @@
         "subtext": "compiti a casa",
         "antonyms": []
     },
-    {
+{
         "word": "esame",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -10942,7 +10955,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pavimento",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -10966,7 +10979,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "corpo",
         "level": "starter",
         "theme": "health_body_A1",
@@ -10990,7 +11003,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "cuore",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -11014,7 +11027,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "sinistra",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -11040,7 +11053,7 @@
             "destra"
         ]
     },
-    {
+{
         "word": "destra",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -11066,7 +11079,7 @@
             "sinistra"
         ]
     },
-    {
+{
         "word": "animale",
         "level": "starter",
         "theme": "animals_A1",
@@ -11090,7 +11103,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "alfabeto",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -11114,7 +11127,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "nipote",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -11138,7 +11151,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "aula",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -11162,7 +11175,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "giornale",
         "level": "starter",
         "theme": "books_reading_A1",
@@ -11188,7 +11201,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "rivista",
         "level": "starter",
         "theme": "books_reading_A1",
@@ -11212,7 +11225,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "dizionario",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -11238,7 +11251,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "lettera",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -11262,7 +11275,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "soffitto",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -11288,7 +11301,7 @@
             "pavimento"
         ]
     },
-    {
+{
         "word": "quadro",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -11314,7 +11327,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "padella",
         "level": "starter",
         "theme": "kitchen_items_A1",
@@ -11338,7 +11351,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "pentola",
         "level": "starter",
         "theme": "kitchen_items_A1",
@@ -11362,7 +11375,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "app",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -11388,7 +11401,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "wifi",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -11412,7 +11425,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "astuccio",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -11436,7 +11449,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "scopa",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11460,7 +11473,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "bambola",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -11484,7 +11497,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "delfino",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -11508,7 +11521,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ape",
         "level": "starter",
         "theme": "insects_A1",
@@ -11532,7 +11545,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "ragno",
         "level": "starter",
         "theme": "insects_A1",
@@ -11556,7 +11569,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "violino",
         "level": "starter",
         "theme": "musical_instruments_A1",
@@ -11580,7 +11593,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "gentilezza",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -11608,7 +11621,7 @@
             "maleducazione"
         ]
     },
-    {
+{
         "word": "matematica",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -11630,7 +11643,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "storia",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -11652,7 +11665,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "scienza",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -11674,7 +11687,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "geografia",
         "level": "starter",
         "theme": "school_subjects_A1",
@@ -11696,7 +11709,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "leone",
         "level": "starter",
         "theme": "animals_A1",
@@ -11719,7 +11732,7 @@
         "partitive": "del",
         "subtext": ""
     },
-    {
+{
         "word": "elefante",
         "level": "starter",
         "theme": "animals_A1",
@@ -11742,7 +11755,7 @@
         "partitive": "dell'",
         "subtext": ""
     },
-    {
+{
         "word": "tigre",
         "level": "starter",
         "theme": "animals_A1",
@@ -11765,7 +11778,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "scimmia",
         "level": "starter",
         "theme": "animals_A1",
@@ -11788,7 +11801,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "squalo",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -11811,7 +11824,7 @@
         "partitive": "dello",
         "subtext": ""
     },
-    {
+{
         "word": "balena",
         "level": "starter",
         "theme": "sea_animals_A1",
@@ -11834,7 +11847,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "cerchio",
         "level": "starter",
         "theme": "shapes_A1",
@@ -11857,7 +11870,7 @@
         "partitive": "del",
         "subtext": ""
     },
-    {
+{
         "word": "triangolo",
         "level": "starter",
         "theme": "shapes_A1",
@@ -11880,7 +11893,7 @@
         "partitive": "del",
         "subtext": ""
     },
-    {
+{
         "word": "lavatrice",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11903,7 +11916,7 @@
         "partitive": "della",
         "subtext": ""
     },
-    {
+{
         "word": "tostapane",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11926,7 +11939,7 @@
         "partitive": "del",
         "subtext": ""
     },
-    {
+{
         "word": "microonde",
         "level": "starter",
         "theme": "household_items_A1",
@@ -11949,7 +11962,7 @@
         "partitive": "del",
         "subtext": ""
     },
-    {
+{
         "word": "righello",
         "level": "starter",
         "theme": "school_stationery_A1",
@@ -11972,7 +11985,7 @@
         "partitive": "del",
         "subtext": ""
     },
-    {
+{
         "word": "contadino",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -11995,7 +12008,7 @@
         "transcription": "kontaˈdino",
         "subtext": ""
     },
-    {
+{
         "word": "pilota",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12018,7 +12031,7 @@
         "transcription": "piˈlɔta",
         "subtext": ""
     },
-    {
+{
         "word": "cameriere",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12041,7 +12054,7 @@
         "transcription": "kameˈrjɛre",
         "subtext": ""
     },
-    {
+{
         "word": "dentista",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12064,7 +12077,7 @@
         "transcription": "denˈtista",
         "subtext": ""
     },
-    {
+{
         "word": "poliziotto",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12087,7 +12100,7 @@
         "transcription": "politˈtsjɔtto",
         "subtext": ""
     },
-    {
+{
         "word": "vigile del fuoco",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12110,7 +12123,7 @@
         "transcription": "ˈvidʒile del ˈfwɔko",
         "subtext": ""
     },
-    {
+{
         "word": "soldato",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12133,7 +12146,7 @@
         "transcription": "solˈdato",
         "subtext": ""
     },
-    {
+{
         "word": "scrittore",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12156,7 +12169,7 @@
         "transcription": "skritˈtore",
         "subtext": ""
     },
-    {
+{
         "word": "professore",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12179,7 +12192,7 @@
         "transcription": "profesˈsore",
         "subtext": ""
     },
-    {
+{
         "word": "ingegnere",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12202,7 +12215,7 @@
         "transcription": "indʒeɲˈɲɛre",
         "subtext": ""
     },
-    {
+{
         "word": "segretario",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -12225,7 +12238,7 @@
         "transcription": "segreˈtarjo",
         "subtext": ""
     },
-    {
+{
         "word": "cappello",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12248,7 +12261,7 @@
         "transcription": "kapˈpɛllo",
         "subtext": ""
     },
-    {
+{
         "word": "maglietta",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12271,7 +12284,7 @@
         "transcription": "maʎˈʎetta",
         "subtext": ""
     },
-    {
+{
         "word": "jeans",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12294,7 +12307,7 @@
         "transcription": "ˈdʒins",
         "subtext": ""
     },
-    {
+{
         "word": "pantaloncini",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12317,7 +12330,7 @@
         "transcription": "pantalontˈʃini",
         "subtext": ""
     },
-    {
+{
         "word": "stivale",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12340,7 +12353,7 @@
         "transcription": "stiˈvale",
         "subtext": ""
     },
-    {
+{
         "word": "sciarpa",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12363,7 +12376,7 @@
         "transcription": "ˈʃarpa",
         "subtext": ""
     },
-    {
+{
         "word": "guanti",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -12386,7 +12399,7 @@
         "transcription": "ˈɡwanti",
         "subtext": ""
     },
-    {
+{
         "word": "terra",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12408,7 +12421,7 @@
         "transcription": "ˈtɛrra",
         "subtext": ""
     },
-    {
+{
         "word": "collina",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12431,7 +12444,7 @@
         "transcription": "kolˈlina",
         "subtext": ""
     },
-    {
+{
         "word": "valle",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12454,7 +12467,7 @@
         "transcription": "ˈvalle",
         "subtext": ""
     },
-    {
+{
         "word": "foresta",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12477,7 +12490,7 @@
         "transcription": "foˈrɛsta",
         "subtext": ""
     },
-    {
+{
         "word": "bosco",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12500,7 +12513,7 @@
         "transcription": "ˈbɔsko",
         "subtext": ""
     },
-    {
+{
         "word": "lago",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12523,7 +12536,7 @@
         "transcription": "ˈlaɡo",
         "subtext": ""
     },
-    {
+{
         "word": "campo",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12546,7 +12559,7 @@
         "transcription": "ˈkampo",
         "subtext": ""
     },
-    {
+{
         "word": "foglia",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -12569,7 +12582,7 @@
         "transcription": "ˈfɔʎʎa",
         "subtext": ""
     },
-    {
+{
         "word": "pianta",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -12592,7 +12605,7 @@
         "transcription": "ˈpjanta",
         "subtext": ""
     },
-    {
+{
         "word": "natura",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -12614,7 +12627,7 @@
         "transcription": "naˈtura",
         "subtext": ""
     },
-    {
+{
         "word": "anello",
         "level": "starter",
         "theme": "accessories_A1",
@@ -12637,7 +12650,7 @@
         "transcription": "aˈnɛllo",
         "subtext": ""
     },
-    {
+{
         "word": "collana",
         "level": "starter",
         "theme": "accessories_A1",
@@ -12660,7 +12673,7 @@
         "transcription": "kolˈlana",
         "subtext": ""
     },
-    {
+{
         "word": "gioielli",
         "level": "starter",
         "theme": "accessories_A1",
@@ -12683,7 +12696,7 @@
         "transcription": "dʒoˈjɛlli",
         "subtext": ""
     },
-    {
+{
         "word": "batteria",
         "level": "starter",
         "theme": "musical_instruments_A1",
@@ -12706,7 +12719,7 @@
         "transcription": "batteˈria",
         "subtext": ""
     },
-    {
+{
         "word": "flauto",
         "level": "starter",
         "theme": "musical_instruments_A1",
@@ -12729,7 +12742,7 @@
         "transcription": "ˈflauto",
         "subtext": ""
     },
-    {
+{
         "word": "poltrona",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12752,7 +12765,7 @@
         "transcription": "polˈtrona",
         "subtext": ""
     },
-    {
+{
         "word": "libreria",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12775,7 +12788,7 @@
         "transcription": "libreˈria",
         "subtext": ""
     },
-    {
+{
         "word": "armadio",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12798,7 +12811,7 @@
         "transcription": "arˈmadjo",
         "subtext": ""
     },
-    {
+{
         "word": "tappeto",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12821,7 +12834,7 @@
         "transcription": "tapˈpɛto",
         "subtext": ""
     },
-    {
+{
         "word": "cassetto",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12844,7 +12857,7 @@
         "transcription": "kasˈsɛtto",
         "subtext": ""
     },
-    {
+{
         "word": "telecomando",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12867,7 +12880,7 @@
         "transcription": "telekoˈmando",
         "subtext": ""
     },
-    {
+{
         "word": "coperta",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12890,7 +12903,7 @@
         "transcription": "koˈpɛrta",
         "subtext": ""
     },
-    {
+{
         "word": "cuscino",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12913,7 +12926,7 @@
         "transcription": "kuʃˈʃino",
         "subtext": ""
     },
-    {
+{
         "word": "lenzuolo",
         "level": "starter",
         "theme": "household_items_A1",
@@ -12936,7 +12949,7 @@
         "transcription": "lenˈtswɔlo",
         "subtext": ""
     },
-    {
+{
         "word": "esempio",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -12961,7 +12974,7 @@
         "subtext": "per esempio",
         "antonyms": []
     },
-    {
+{
         "word": "indirizzo email",
         "level": "starter",
         "theme": "contact_details_A1",
@@ -12985,7 +12998,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "numero di telefono",
         "level": "starter",
         "theme": "contact_details_A1",
@@ -13009,7 +13022,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "spazzolino",
         "level": "starter",
         "theme": "household_items_A1",
@@ -13033,7 +13046,7 @@
         "subtext": "",
         "antonyms": []
     },
-    {
+{
         "word": "dentifricio",
         "level": "starter",
         "theme": "household_items_A1",
@@ -13056,9 +13069,7 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": []
-    }
+    },
+{}
 ];
-    const lang = "it";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

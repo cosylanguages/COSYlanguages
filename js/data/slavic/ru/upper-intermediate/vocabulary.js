@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "сад",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "юрист",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -17,7 +27,7 @@
             }
         ]
     },
-    {
+{
         "word": "аптека",
         "level": "upper-intermediate",
         "theme": "places_shops_A1",
@@ -34,7 +44,7 @@
             }
         ]
     },
-    {
+{
         "word": "психолог",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -51,7 +61,7 @@
             }
         ]
     },
-    {
+{
         "word": "подотчётность",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -70,7 +80,7 @@
             }
         ]
     },
-    {
+{
         "word": "стимул",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -88,7 +98,7 @@
             }
         ]
     },
-    {
+{
         "word": "автономия",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -108,7 +118,7 @@
             }
         ]
     },
-    {
+{
         "word": "прекаритет",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -128,7 +138,7 @@
             }
         ]
     },
-    {
+{
         "word": "разрыв в оплате труда",
         "level": "upper-intermediate",
         "theme": "gender_equality_B2",
@@ -146,7 +156,7 @@
             }
         ]
     },
-    {
+{
         "word": "компенсационный пакет",
         "level": "upper-intermediate",
         "theme": "employment_law_rights_B2",
@@ -165,7 +175,7 @@
             }
         ]
     },
-    {
+{
         "word": "предпринимательство",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -184,7 +194,7 @@
             }
         ]
     },
-    {
+{
         "word": "производительность",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -203,7 +213,7 @@
             }
         ]
     },
-    {
+{
         "word": "аутсорсинг",
         "level": "upper-intermediate",
         "theme": "globalisation_trade_B2",
@@ -222,7 +232,7 @@
             }
         ]
     },
-    {
+{
         "word": "автоматизация",
         "level": "upper-intermediate",
         "theme": "applied_sciences_engineering_B2",
@@ -240,7 +250,7 @@
             }
         ]
     },
-    {
+{
         "word": "джентрификация",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -259,7 +269,7 @@
             }
         ]
     },
-    {
+{
         "word": "доступное жильё",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -278,7 +288,7 @@
             }
         ]
     },
-    {
+{
         "word": "разрастание городов",
         "level": "upper-intermediate",
         "theme": "housing_society_B2",
@@ -297,7 +307,7 @@
             }
         ]
     },
-    {
+{
         "word": "инфраструктура",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -315,7 +325,7 @@
             }
         ]
     },
-    {
+{
         "word": "государство всеобщего благосостояния",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -334,7 +344,7 @@
             }
         ]
     },
-    {
+{
         "word": "поляризация",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -352,7 +362,7 @@
             }
         ]
     },
-    {
+{
         "word": "дискурс",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -370,7 +380,7 @@
             }
         ]
     },
-    {
+{
         "word": "тщательная проверка",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -389,7 +399,7 @@
             }
         ]
     },
-    {
+{
         "word": "консенсус",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -408,7 +418,7 @@
             }
         ]
     },
-    {
+{
         "word": "законодательство",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -427,7 +437,7 @@
             }
         ]
     },
-    {
+{
         "word": "предвзятость",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -447,7 +457,7 @@
             }
         ]
     },
-    {
+{
         "word": "ожирение",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -466,7 +476,7 @@
             }
         ]
     },
-    {
+{
         "word": "продолжительность жизни",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -484,7 +494,7 @@
             }
         ]
     },
-    {
+{
         "word": "справедливость",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -503,7 +513,7 @@
             }
         ]
     },
-    {
+{
         "word": "реабилитация",
         "level": "upper-intermediate",
         "theme": "crime_punishment_B2",
@@ -521,7 +531,7 @@
             }
         ]
     },
-    {
+{
         "word": "прозрачность",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -541,7 +551,7 @@
             }
         ]
     },
-    {
+{
         "word": "алгоритм",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -559,7 +569,7 @@
             }
         ]
     },
-    {
+{
         "word": "конфиденциальность данных",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -578,7 +588,7 @@
             }
         ]
     },
-    {
+{
         "word": "дезинформация",
         "level": "upper-intermediate",
         "theme": "media_misinformation_B2",
@@ -596,7 +606,7 @@
             }
         ]
     },
-    {
+{
         "word": "слежка",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -615,7 +625,7 @@
             }
         ]
     },
-    {
+{
         "word": "тогда как",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -631,7 +641,7 @@
             }
         ]
     },
-    {
+{
         "word": "тем не менее",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -648,7 +658,7 @@
             }
         ]
     },
-    {
+{
         "word": "в какой степени",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -663,7 +673,7 @@
             }
         ]
     },
-    {
+{
         "word": "напротив",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -679,7 +689,7 @@
             }
         ]
     },
-    {
+{
         "word": "искусственный интеллект",
         "level": "upper-intermediate",
         "theme": "technology_privacy_B2",
@@ -695,9 +705,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "ru";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

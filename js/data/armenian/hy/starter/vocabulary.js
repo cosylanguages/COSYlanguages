@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "բժիշկ",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -13,7 +23,7 @@
             }
         ]
     },
-    {
+{
         "word": "ոտք",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -26,7 +36,7 @@
             }
         ]
     },
-    {
+{
         "word": "ուսուցիչ",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -39,7 +49,7 @@
             }
         ]
     },
-    {
+{
         "word": "պիցցա",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -52,7 +62,7 @@
             }
         ]
     },
-    {
+{
         "word": "մակարոն",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -65,7 +75,7 @@
             }
         ]
     },
-    {
+{
         "word": "խնձոր",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -78,7 +88,7 @@
             }
         ]
     },
-    {
+{
         "word": "հաց",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -91,7 +101,7 @@
             }
         ]
     },
-    {
+{
         "word": "ձու",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -104,7 +114,7 @@
             }
         ]
     },
-    {
+{
         "word": "կաթ",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -117,7 +127,7 @@
             }
         ]
     },
-    {
+{
         "word": "բանան",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -130,7 +140,7 @@
             }
         ]
     },
-    {
+{
         "word": "սուրճ",
         "level": "starter",
         "theme": "drinks_A1",
@@ -143,7 +153,7 @@
             }
         ]
     },
-    {
+{
         "word": "թեյ",
         "level": "starter",
         "theme": "drinks_A1",
@@ -156,7 +166,7 @@
             }
         ]
     },
-    {
+{
         "word": "ջուր",
         "level": "starter",
         "theme": "drinks_A1",
@@ -169,7 +179,7 @@
             }
         ]
     },
-    {
+{
         "word": "դպրոց",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -182,7 +192,7 @@
             }
         ]
     },
-    {
+{
         "word": "շապիկ",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -195,7 +205,7 @@
             }
         ]
     },
-    {
+{
         "word": "տաբատ",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -208,7 +218,7 @@
             }
         ]
     },
-    {
+{
         "word": "կոշիկ",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -221,7 +231,7 @@
             }
         ]
     },
-    {
+{
         "word": "գլխարկ",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -234,7 +244,7 @@
             }
         ]
     },
-    {
+{
         "word": "աթոռ",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -247,7 +257,7 @@
             }
         ]
     },
-    {
+{
         "word": "սեղան",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -260,7 +270,7 @@
             }
         ]
     },
-    {
+{
         "word": "մահճակալ",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -273,7 +283,7 @@
             }
         ]
     },
-    {
+{
         "word": "բանալի",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -286,7 +296,7 @@
             }
         ]
     },
-    {
+{
         "word": "հեռախոս",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -299,7 +309,7 @@
             }
         ]
     },
-    {
+{
         "word": "գիրք",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -312,7 +322,7 @@
             }
         ]
     },
-    {
+{
         "word": "պայուսակ",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -325,7 +335,7 @@
             }
         ]
     },
-    {
+{
         "word": "գրիչ",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -338,7 +348,7 @@
             }
         ]
     },
-    {
+{
         "word": "կատու",
         "level": "starter",
         "theme": "animals_A1",
@@ -351,7 +361,7 @@
             }
         ]
     },
-    {
+{
         "word": "շուն",
         "level": "starter",
         "theme": "animals_A1",
@@ -364,7 +374,7 @@
             }
         ]
     },
-    {
+{
         "word": "ձեռք",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -377,7 +387,7 @@
             }
         ]
     },
-    {
+{
         "word": "ոտք",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -390,7 +400,7 @@
             }
         ]
     },
-    {
+{
         "word": "աչք",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -403,7 +413,7 @@
             }
         ]
     },
-    {
+{
         "word": "քիթ",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -416,7 +426,7 @@
             }
         ]
     },
-    {
+{
         "word": "բերան",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -429,7 +439,7 @@
             }
         ]
     },
-    {
+{
         "word": "ականջ",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -442,7 +452,7 @@
             }
         ]
     },
-    {
+{
         "word": "մայր",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -455,7 +465,7 @@
             }
         ]
     },
-    {
+{
         "word": "հայր",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -468,7 +478,7 @@
             }
         ]
     },
-    {
+{
         "word": "աշխատանք",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -481,7 +491,7 @@
             }
         ]
     },
-    {
+{
         "word": "տուն",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -494,7 +504,7 @@
             }
         ]
     },
-    {
+{
         "word": "մեքենա",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -507,7 +517,7 @@
             }
         ]
     },
-    {
+{
         "word": "ավտոբուս",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -520,7 +530,7 @@
             }
         ]
     },
-    {
+{
         "word": "գնացք",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -533,7 +543,7 @@
             }
         ]
     },
-    {
+{
         "word": "փող",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -546,7 +556,7 @@
             }
         ]
     },
-    {
+{
         "word": "խանութ",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -559,7 +569,7 @@
             }
         ]
     },
-    {
+{
         "word": "ընտանիք",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -572,7 +582,7 @@
             }
         ]
     },
-    {
+{
         "word": "ընկեր",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -585,7 +595,7 @@
             }
         ]
     },
-    {
+{
         "word": "օր",
         "level": "starter",
         "theme": "times_day_A1",
@@ -598,7 +608,7 @@
             }
         ]
     },
-    {
+{
         "word": "շաբաթ",
         "level": "starter",
         "theme": "times_day_A1",
@@ -611,7 +621,7 @@
             }
         ]
     },
-    {
+{
         "word": "ուտելիք",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -624,7 +634,7 @@
             }
         ]
     },
-    {
+{
         "word": "նախաճաշ",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -637,7 +647,7 @@
             }
         ]
     },
-    {
+{
         "word": "ճաշ",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -650,7 +660,7 @@
             }
         ]
     },
-    {
+{
         "word": "ընթրիք",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -663,7 +673,7 @@
             }
         ]
     },
-    {
+{
         "word": "առավոտ",
         "level": "starter",
         "theme": "times_day_A1",
@@ -676,7 +686,7 @@
             }
         ]
     },
-    {
+{
         "word": "երեկո",
         "level": "starter",
         "theme": "times_day_A1",
@@ -689,7 +699,7 @@
             }
         ]
     },
-    {
+{
         "word": "գիշեր",
         "level": "starter",
         "theme": "times_day_A1",
@@ -702,7 +712,7 @@
             }
         ]
     },
-    {
+{
         "word": "այսօր",
         "level": "starter",
         "theme": "times_day_A1",
@@ -715,7 +725,7 @@
             }
         ]
     },
-    {
+{
         "word": "վաղը",
         "level": "starter",
         "theme": "times_day_A1",
@@ -728,7 +738,7 @@
             }
         ]
     },
-    {
+{
         "word": "ամուսին",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -741,7 +751,7 @@
             }
         ]
     },
-    {
+{
         "word": "կին",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -754,7 +764,7 @@
             }
         ]
     },
-    {
+{
         "word": "երեխա",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -767,7 +777,7 @@
             }
         ]
     },
-    {
+{
         "word": "արև",
         "level": "starter",
         "theme": "weather_A1",
@@ -780,7 +790,7 @@
             }
         ]
     },
-    {
+{
         "word": "անձրև",
         "level": "starter",
         "theme": "weather_A1",
@@ -792,9 +802,7 @@
                 "examples": []
             }
         ]
-    }
-]
-    const lang = "hy";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{}
+];
 })();

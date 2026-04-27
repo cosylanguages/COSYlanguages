@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "garden",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "philosopher",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -23,7 +33,7 @@
             }
         ]
     },
-    {
+{
         "word": "blockchain",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -31,7 +41,7 @@
         "form": "noun",
         "plural": "blockchains"
     },
-    {
+{
         "word": "existentialism",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -39,7 +49,7 @@
         "form": "noun",
         "countability": "uncountable"
     },
-    {
+{
         "word": "paradigm shift",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -47,7 +57,7 @@
         "form": "noun",
         "plural": "paradigm shifts"
     },
-    {
+{
         "word": "aporia",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -65,7 +75,7 @@
         "countability": "uncountable",
         "subtext": "philosophical puzzle"
     },
-    {
+{
         "word": "teleology",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -83,7 +93,7 @@
         "countability": "uncountable",
         "subtext": "study of purpose"
     },
-    {
+{
         "word": "ontology",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -101,7 +111,7 @@
         "countability": "uncountable",
         "subtext": "nature of being"
     },
-    {
+{
         "word": "reification",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -119,7 +129,7 @@
         "countability": "uncountable",
         "subtext": "making abstract concrete"
     },
-    {
+{
         "word": "dialectic",
         "level": "proficiency",
         "theme": "meta_argument_deconstruction_C2",
@@ -138,7 +148,7 @@
         "countability": "countable",
         "subtext": "argument by contradiction"
     },
-    {
+{
         "word": "heuristic",
         "level": "proficiency",
         "theme": "epistemology_knowledge_C2",
@@ -157,7 +167,7 @@
         "countability": "countable",
         "subtext": "mental shortcut"
     },
-    {
+{
         "word": "apophenia",
         "level": "proficiency",
         "theme": "epistemology_knowledge_C2",
@@ -175,7 +185,7 @@
         "countability": "uncountable",
         "subtext": "perceived patterns"
     },
-    {
+{
         "word": "motivated cognition",
         "level": "proficiency",
         "theme": "epistemology_knowledge_C2",
@@ -193,7 +203,7 @@
         "countability": "uncountable",
         "subtext": "biased reasoning"
     },
-    {
+{
         "word": "proactionary principle",
         "level": "proficiency",
         "theme": "ethics_advanced_C2",
@@ -211,7 +221,7 @@
         "countability": "uncountable",
         "subtext": "risk of inaction"
     },
-    {
+{
         "word": "precautionary principle",
         "level": "proficiency",
         "theme": "ethics_advanced_C2",
@@ -229,7 +239,7 @@
         "countability": "uncountable",
         "subtext": "safety first"
     },
-    {
+{
         "word": "liberal neutrality",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -247,7 +257,7 @@
         "countability": "uncountable",
         "subtext": "state impartiality"
     },
-    {
+{
         "word": "pronatalism",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -265,7 +275,7 @@
         "countability": "uncountable",
         "subtext": "encouraging birth"
     },
-    {
+{
         "word": "sublimation",
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
@@ -283,7 +293,7 @@
         "countability": "uncountable",
         "subtext": "redirected impulse"
     },
-    {
+{
         "word": "jouissance",
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
@@ -301,7 +311,7 @@
         "countability": "uncountable",
         "subtext": "excessive enjoyment"
     },
-    {
+{
         "word": "thanatos",
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
@@ -319,7 +329,7 @@
         "countability": "uncountable",
         "subtext": "death drive"
     },
-    {
+{
         "word": "bathos",
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
@@ -337,7 +347,7 @@
         "countability": "uncountable",
         "subtext": "anti-climax"
     },
-    {
+{
         "word": "apophasis",
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
@@ -355,7 +365,7 @@
         "countability": "uncountable",
         "subtext": "mentioning by denial"
     },
-    {
+{
         "word": "paralepsis",
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
@@ -373,7 +383,7 @@
         "countability": "uncountable",
         "subtext": "emphasizing by omission"
     },
-    {
+{
         "word": "liminal space",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -392,7 +402,7 @@
         "countability": "countable",
         "subtext": "threshold state"
     },
-    {
+{
         "word": "chiasmus",
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
@@ -411,7 +421,7 @@
         "countability": "countable",
         "subtext": "inverted parallelism"
     },
-    {
+{
         "word": "shibboleth",
         "level": "proficiency",
         "theme": "linguistics_theory_C2",
@@ -430,7 +440,7 @@
         "countability": "countable",
         "subtext": "group identifier"
     },
-    {
+{
         "word": "phenomenology",
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
@@ -448,7 +458,7 @@
         "countability": "uncountable",
         "subtext": "study of consciousness"
     },
-    {
+{
         "word": "contingency",
         "level": "proficiency",
         "theme": "ontology_existence_C2",
@@ -467,7 +477,7 @@
         "countability": "countable",
         "subtext": "possibility/chance"
     },
-    {
+{
         "word": "hermeneutics",
         "level": "proficiency",
         "theme": "linguistics_theory_C2",
@@ -485,7 +495,7 @@
         "countability": "uncountable",
         "subtext": "method of interpretation"
     },
-    {
+{
         "word": "polysemy",
         "level": "proficiency",
         "theme": "linguistics_theory_C2",
@@ -503,7 +513,7 @@
         "countability": "uncountable",
         "subtext": "multiple meanings"
     },
-    {
+{
         "word": "epistemic injustice",
         "level": "proficiency",
         "theme": "epistemology_truth_C2",
@@ -521,7 +531,7 @@
         "countability": "uncountable",
         "subtext": "unfairness in knowledge"
     },
-    {
+{
         "word": "catachresis",
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
@@ -539,7 +549,7 @@
         "countability": "uncountable",
         "subtext": "stretched metaphor"
     },
-    {
+{
         "word": "antinomy",
         "level": "proficiency",
         "theme": "meta_argument_deconstruction_C2",
@@ -558,7 +568,7 @@
         "countability": "countable",
         "subtext": "logical contradiction"
     },
-    {
+{
         "word": "repression",
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
@@ -576,7 +586,7 @@
         "countability": "uncountable",
         "subtext": "unconscious suppression"
     },
-    {
+{
         "word": "the uncanny",
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
@@ -594,7 +604,7 @@
         "countability": "uncountable",
         "subtext": "disturbing familiarity"
     },
-    {
+{
         "word": "displacement",
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
@@ -612,7 +622,7 @@
         "countability": "uncountable",
         "subtext": "shifted emotions"
     },
-    {
+{
         "word": "dialectical materialism",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -630,7 +640,7 @@
         "countability": "uncountable",
         "subtext": "Marxist theory"
     },
-    {
+{
         "word": "post-colonialism",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -648,7 +658,7 @@
         "countability": "uncountable",
         "subtext": "critique of colonialism"
     },
-    {
+{
         "word": "biopolitics",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -666,7 +676,7 @@
         "countability": "uncountable",
         "subtext": "power over life"
     },
-    {
+{
         "word": "alienation",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -684,7 +694,7 @@
         "countability": "uncountable",
         "subtext": "worker estrangement"
     },
-    {
+{
         "word": "commodification",
         "level": "proficiency",
         "theme": "political_theory_C2",
@@ -702,7 +712,7 @@
         "countability": "uncountable",
         "subtext": "treating as commodity"
     },
-    {
+{
         "word": "bad faith",
         "level": "proficiency",
         "theme": "ontology_existence_C2",
@@ -720,7 +730,7 @@
         "countability": "uncountable",
         "subtext": "self-deception"
     },
-    {
+{
         "word": "the banality of evil",
         "level": "proficiency",
         "theme": "ethics_advanced_C2",
@@ -738,7 +748,7 @@
         "countability": "uncountable",
         "subtext": "ordinary evil"
     },
-    {
+{
         "word": "finitude",
         "level": "proficiency",
         "theme": "mortality_time_C2",
@@ -756,7 +766,7 @@
         "countability": "uncountable",
         "subtext": "state of being finite"
     },
-    {
+{
         "word": "nostalgia",
         "level": "proficiency",
         "theme": "mortality_time_C2",
@@ -774,7 +784,7 @@
         "countability": "uncountable",
         "subtext": "longing for the past"
     },
-    {
+{
         "word": "entropy",
         "level": "proficiency",
         "theme": "civilisation_history_C2",
@@ -792,7 +802,7 @@
         "countability": "uncountable",
         "subtext": "move toward disorder"
     },
-    {
+{
         "word": "eschatology",
         "level": "proficiency",
         "theme": "civilisation_history_C2",
@@ -810,7 +820,7 @@
         "countability": "uncountable",
         "subtext": "end-times study"
     },
-    {
+{
         "word": "mimesis",
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
@@ -828,7 +838,7 @@
         "countability": "uncountable",
         "subtext": "artistic imitation"
     },
-    {
+{
         "word": "defamiliarisation",
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
@@ -846,7 +856,7 @@
         "countability": "uncountable",
         "subtext": "strange perception"
     },
-    {
+{
         "word": "the sublime",
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
@@ -864,7 +874,7 @@
         "countability": "uncountable",
         "subtext": "awesome vastness"
     },
-    {
+{
         "word": "kitsch",
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
@@ -881,9 +891,7 @@
         ],
         "countability": "uncountable",
         "subtext": "garish art"
-    }
+    },
+{}
 ];
-    const lang = "en";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

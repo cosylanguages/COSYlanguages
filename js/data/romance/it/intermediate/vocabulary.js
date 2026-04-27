@@ -1,6 +1,16 @@
 (function() {
     const data = [
     {
+        "word": "giardino",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "ingegnere",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -18,7 +28,7 @@
             }
         ]
     },
-    {
+{
         "word": "pilota",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -36,7 +46,7 @@
             }
         ]
     },
-    {
+{
         "word": "sviluppatore software",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -53,7 +63,7 @@
             }
         ]
     },
-    {
+{
         "word": "carriera",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -70,7 +80,7 @@
             }
         ]
     },
-    {
+{
         "word": "licenziamento",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -89,7 +99,7 @@
             }
         ]
     },
-    {
+{
         "word": "lavoro flessibile",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -106,7 +116,7 @@
             }
         ]
     },
-    {
+{
         "word": "networking",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -123,7 +133,7 @@
             }
         ]
     },
-    {
+{
         "word": "carico di lavoro",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -140,7 +150,7 @@
             }
         ]
     },
-    {
+{
         "word": "lavoro di squadra",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -157,7 +167,7 @@
             }
         ]
     },
-    {
+{
         "word": "ambizione",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -174,7 +184,7 @@
             }
         ]
     },
-    {
+{
         "word": "competenza",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -193,7 +203,7 @@
             }
         ]
     },
-    {
+{
         "word": "lavoratore autonomo",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -212,7 +222,7 @@
             }
         ]
     },
-    {
+{
         "word": "congedo di maternità",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -229,7 +239,7 @@
             }
         ]
     },
-    {
+{
         "word": "pensione",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -246,7 +256,7 @@
             }
         ]
     },
-    {
+{
         "word": "investimento",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -263,7 +273,7 @@
             }
         ]
     },
-    {
+{
         "word": "tasso di interesse",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -280,7 +290,7 @@
             }
         ]
     },
-    {
+{
         "word": "reddito",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -297,7 +307,7 @@
             }
         ]
     },
-    {
+{
         "word": "assicurazione",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -314,7 +324,7 @@
             }
         ]
     },
-    {
+{
         "word": "tassa",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -333,7 +343,7 @@
             }
         ]
     },
-    {
+{
         "word": "benessere",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -350,7 +360,7 @@
             }
         ]
     },
-    {
+{
         "word": "salute mentale",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -367,7 +377,7 @@
             }
         ]
     },
-    {
+{
         "word": "burnout",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -386,7 +396,7 @@
             }
         ]
     },
-    {
+{
         "word": "prevention",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -403,7 +413,7 @@
             }
         ]
     },
-    {
+{
         "word": "sintomo",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
@@ -420,7 +430,7 @@
             }
         ]
     },
-    {
+{
         "word": "terapia",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -437,7 +447,7 @@
             }
         ]
     },
-    {
+{
         "word": "fiducia",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -454,7 +464,7 @@
             }
         ]
     },
-    {
+{
         "word": "conflitto",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -471,7 +481,7 @@
             }
         ]
     },
-    {
+{
         "word": "responsabilità",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
@@ -488,7 +498,7 @@
             }
         ]
     },
-    {
+{
         "word": "aspettativa",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -505,7 +515,7 @@
             }
         ]
     },
-    {
+{
         "word": "confine",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -524,7 +534,7 @@
             }
         ]
     },
-    {
+{
         "word": "divorzio",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
@@ -541,7 +551,7 @@
             }
         ]
     },
-    {
+{
         "word": "uguaglianza",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -559,7 +569,7 @@
             }
         ]
     },
-    {
+{
         "word": "libertà",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -576,7 +586,7 @@
             }
         ]
     },
-    {
+{
         "word": "disuguaglianza",
         "level": "intermediate",
         "theme": "equality_rights_B1",
@@ -594,7 +604,7 @@
             }
         ]
     },
-    {
+{
         "word": "volontario",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -611,7 +621,7 @@
             }
         ]
     },
-    {
+{
         "word": "comunità",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -628,7 +638,7 @@
             }
         ]
     },
-    {
+{
         "word": "generazione",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -645,7 +655,7 @@
             }
         ]
     },
-    {
+{
         "word": "cambiamento climatico",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -662,7 +672,7 @@
             }
         ]
     },
-    {
+{
         "word": "energia rinnovabile",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -679,7 +689,7 @@
             }
         ]
     },
-    {
+{
         "word": "impronta di carbonio",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -696,7 +706,7 @@
             }
         ]
     },
-    {
+{
         "word": "rifiuti",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -715,7 +725,7 @@
             }
         ]
     },
-    {
+{
         "word": "tuttavia",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -732,7 +742,7 @@
             }
         ]
     },
-    {
+{
         "word": "sebbene",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -749,7 +759,7 @@
             }
         ]
     },
-    {
+{
         "word": "d'altra parte",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -766,7 +776,7 @@
             }
         ]
     },
-    {
+{
         "word": "secondo me",
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
@@ -783,7 +793,7 @@
             }
         ]
     },
-    {
+{
         "word": "di conseguenza",
         "level": "intermediate",
         "theme": "discourse_markers_B1",
@@ -800,7 +810,7 @@
             }
         ]
     },
-    {
+{
         "word": "pizza",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -817,7 +827,7 @@
             }
         ]
     },
-    {
+{
         "word": "tiramisù",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -834,7 +844,7 @@
             }
         ]
     },
-    {
+{
         "word": "aranciata",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
@@ -851,7 +861,7 @@
             }
         ]
     },
-    {
+{
         "word": "biblioteca",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -868,7 +878,7 @@
             }
         ]
     },
-    {
+{
         "word": "museo",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -885,7 +895,7 @@
             }
         ]
     },
-    {
+{
         "word": "aeroporto",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
@@ -902,7 +912,7 @@
             }
         ]
     },
-    {
+{
         "word": "armadio",
         "level": "intermediate",
         "theme": "home_living",
@@ -919,7 +929,7 @@
             }
         ]
     },
-    {
+{
         "word": "elefante",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -936,7 +946,7 @@
             }
         ]
     },
-    {
+{
         "word": "scimmia",
         "level": "intermediate",
         "theme": "environment_nature",
@@ -952,9 +962,7 @@
                 ]
             }
         ]
-    }
+    },
+{}
 ];
-    const lang = "it";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

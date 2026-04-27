@@ -1,6 +1,6 @@
 (function() {
     const data = [
-    {
+{
         "word": "sein",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -24,7 +24,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "haben",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -49,7 +49,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "fühlen",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -71,7 +71,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "geben",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -96,7 +96,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "nehmen",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -122,7 +122,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bekommen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -147,7 +147,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "stellen",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -171,7 +171,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "machen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -195,7 +195,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "tun",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -219,7 +219,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "benutzen",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -243,7 +243,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "öffnen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -269,7 +269,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "schließen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -295,7 +295,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "beginnen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -320,7 +320,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "beenden",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -346,7 +346,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "helfen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -369,7 +369,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "versuchen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -392,7 +392,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "zeigen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -415,7 +415,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "finden",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -439,7 +439,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "behalten",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -463,7 +463,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "verlieren",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -489,7 +489,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "schneiden",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -513,7 +513,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "drehen",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -537,7 +537,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bringen",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -560,7 +560,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sagen",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -583,7 +583,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "erzählen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -606,7 +606,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "fragen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -629,7 +629,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sprechen",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -652,7 +652,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "reden",
         "level": "starter",
         "theme": "family_life_A1",
@@ -674,7 +674,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "anrufen",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -697,7 +697,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "schreiben",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -722,7 +722,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "lesen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -747,7 +747,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "hören",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -771,7 +771,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "antworten",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -795,7 +795,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "wiederholen",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -818,7 +818,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "gehen",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -842,7 +842,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "kommen",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -868,7 +868,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "laufen",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -891,7 +891,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "fahren",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -914,7 +914,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "fliegen",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -937,7 +937,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "ankommen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -959,7 +959,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "verlassen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -982,7 +982,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "umziehen",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1005,7 +1005,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "zurückkehren",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1029,7 +1029,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "reisen",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1051,7 +1051,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "essen",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1077,7 +1077,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "trinken",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1102,7 +1102,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "schlafen",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1127,7 +1127,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "kochen",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1149,7 +1149,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "reinigen",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1172,7 +1172,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "tragen",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1195,7 +1195,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "waschen",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1219,7 +1219,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "kaufen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1244,7 +1244,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bezahlen",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1266,7 +1266,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "ausgeben",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1288,7 +1288,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sparen",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1312,7 +1312,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "arbeiten",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1334,7 +1334,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "leben",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1359,7 +1359,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "denken",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1383,7 +1383,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "wissen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1408,7 +1408,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "wollen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1432,7 +1432,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "brauchen",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1457,7 +1457,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "mögen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1482,7 +1482,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "lieben",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1505,7 +1505,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "hassen",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1528,7 +1528,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "hoffen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1552,7 +1552,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "erinnern",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1575,7 +1575,7 @@
         "group": "rn",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "vergessen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1598,7 +1598,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "verstehen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1621,7 +1621,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "entscheiden",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1645,7 +1645,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "genießen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1667,7 +1667,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sehen",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1690,7 +1690,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "hören",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1713,7 +1713,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "aufwachen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1737,7 +1737,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "schauen",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1760,7 +1760,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sehen",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1784,7 +1784,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "spielen",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1807,7 +1807,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "rennen",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1831,7 +1831,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sitzen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1856,7 +1856,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "stehen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1881,7 +1881,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "treffen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1903,7 +1903,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "lernen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1925,7 +1925,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "ändern",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1948,7 +1948,7 @@
         "group": "rn",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "stoppen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1971,7 +1971,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "hinzufügen",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1995,7 +1995,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "gewinnen",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2019,7 +2019,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "warten",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2041,7 +2041,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sterben",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2066,7 +2066,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "senden",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2089,7 +2089,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bleiben",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2113,7 +2113,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "fallen",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2137,7 +2137,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bestehen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2161,7 +2161,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "verkaufen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2186,7 +2186,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "ziehen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2211,7 +2211,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "drücken",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2237,7 +2237,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "tragen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2260,7 +2260,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "brechen",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2284,7 +2284,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "empfangen",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2308,7 +2308,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "zustimmen",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2332,7 +2332,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "zeichnen",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2356,7 +2356,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "teilen",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2379,7 +2379,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "lächeln",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2405,7 +2405,7 @@
         "group": "ln",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "weinen",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2431,7 +2431,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "tanzen",
         "level": "starter",
         "theme": "music_A1",
@@ -2455,7 +2455,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "singen",
         "level": "starter",
         "theme": "music_A1",
@@ -2479,7 +2479,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "springen",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2503,7 +2503,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "schwimmen",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2527,7 +2527,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "studieren",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2550,7 +2550,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "lehren",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2573,7 +2573,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "pendeln",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2596,7 +2596,7 @@
         "group": "ln",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "mieten",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2619,7 +2619,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "trainieren",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2641,7 +2641,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "kosten",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2663,7 +2663,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "einladen",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2685,7 +2685,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "aufstehen",
         "definitions": [
             {
@@ -2707,7 +2707,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "frühstücken",
         "definitions": [
             {
@@ -2729,7 +2729,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "zurückkommen",
         "definitions": [
             {
@@ -2751,7 +2751,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "ins Bett gehen",
         "definitions": [
             {
@@ -2773,7 +2773,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "prüfen",
         "definitions": [
             {
@@ -2795,7 +2795,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "antworten",
         "definitions": [
             {
@@ -2817,7 +2817,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "präsentieren",
         "definitions": [
             {
@@ -2839,7 +2839,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "besuchen",
         "definitions": [
             {
@@ -2861,7 +2861,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "leiten",
         "definitions": [
             {
@@ -2884,7 +2884,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "berechnen",
         "definitions": [
             {
@@ -2906,7 +2906,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "sich leisten",
         "definitions": [
             {
@@ -2929,7 +2929,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "schulden",
         "definitions": [
             {
@@ -2951,7 +2951,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "verdienen",
         "definitions": [
             {
@@ -2973,7 +2973,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "besuchen",
         "definitions": [
             {
@@ -2995,7 +2995,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "feiern",
         "definitions": [
             {
@@ -3017,7 +3017,7 @@
         "group": "rn",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "empfehlen",
         "definitions": [
             {
@@ -3039,7 +3039,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "weh tun",
         "definitions": [
             {
@@ -3062,7 +3062,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "ruhen",
         "definitions": [
             {
@@ -3085,7 +3085,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "erholen",
         "definitions": [
             {
@@ -3107,7 +3107,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "buchen",
         "definitions": [
             {
@@ -3130,7 +3130,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "packen",
         "definitions": [
             {
@@ -3153,7 +3153,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "stornieren",
         "definitions": [
             {
@@ -3176,7 +3176,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "verpassen",
         "definitions": [
             {
@@ -3199,7 +3199,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bestellen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3221,7 +3221,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "erklären",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3243,7 +3243,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "danken",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3266,7 +3266,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "vorstellen",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3288,7 +3288,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "entspannen",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3310,7 +3310,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "reparieren",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3333,7 +3333,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "passieren",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3356,7 +3356,7 @@
         "group": "en",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "scheinen",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3379,7 +3379,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bedeuten",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3402,7 +3402,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "folgen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3425,7 +3425,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "fortsetzen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3448,7 +3448,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "wachsen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3471,7 +3471,7 @@
         "group": "irregular",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "beinhalten",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3494,7 +3494,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "werden",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3516,7 +3516,7 @@
         "group": "irregular",
         "auxiliary": "sein"
     },
-    {
+{
         "word": "gehören",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3539,7 +3539,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "wählen",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3561,7 +3561,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-    {
+{
         "word": "bauen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3583,11 +3583,8 @@
         "v3": "gebaut",
         "group": "en",
         "auxiliary": "haben"
-    }
-]
-    const lang = "de";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    },
+{},
+{}
+];
 })();
