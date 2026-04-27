@@ -1102,7 +1102,7 @@
     },
     {
         "word": "manger",
-        "image": "images/vocabulary/eat.png",
+        "image": "images/vocabulary/actions/eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1133,7 +1133,7 @@
     },
     {
         "word": "boire",
-        "image": "images/vocabulary/drink.png",
+        "image": "images/vocabulary/actions/drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1159,7 +1159,7 @@
     },
     {
         "word": "dormir",
-        "image": "images/vocabulary/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/fall asleep. sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1185,7 +1185,7 @@
     },
     {
         "word": "cuisiner",
-        "image": "images/vocabulary/cook.png",
+        "image": "images/vocabulary/actions/cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1799,7 +1799,7 @@
     },
     {
         "word": "se réveiller",
-        "image": "images/vocabulary/wake up.png",
+        "image": "images/vocabulary/actions/wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2781,7 +2781,7 @@
     },
     {
         "word": "se lever",
-        "image": "images/vocabulary/get up.png",
+        "image": "images/vocabulary/actions/get up.png",
         "definitions": [
             {
                 "text": "Se lever du lit après le réveil.",
@@ -2804,7 +2804,7 @@
     },
     {
         "word": "prendre le petit-déjeuner",
-        "image": "images/vocabulary/have breakfast.png",
+        "image": "images/vocabulary/actions/have breakfast.png",
         "definitions": [
             {
                 "text": "Prendre le repas du matin.",
@@ -2852,7 +2852,7 @@
     },
     {
         "word": "se coucher",
-        "image": "images/vocabulary/go to bed.png",
+        "image": "images/vocabulary/actions/go to bed.png",
         "definitions": [
             {
                 "text": "Aller au lit pour dormir.",
@@ -4076,7 +4076,7 @@
     },
     {
         "word": "goûter",
-        "image": "images/vocabulary/have a snack.png",
+        "image": "images/vocabulary/actions/have a snack.png",
         "level": "starter",
         "theme": "tastes_textures_A1",
         "emoji": "👅",

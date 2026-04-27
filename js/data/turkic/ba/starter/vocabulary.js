@@ -2,6 +2,7 @@
     const data = [
     {
         "word": "врач",
+        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",

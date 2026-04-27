@@ -1,7 +1,18 @@
 (function() {
     const data = [
     {
+        "word": "κήπος",
+        "image": "images/vocabulary/places/garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
+        "countability": "countable"
+    },
+{
         "word": "γιατρός",
+        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "article": "ο",
@@ -28,7 +39,7 @@
         "transcription": "/ʝaˈtros/",
         "countability": "countable"
     },
-    {
+{
         "word": "μπράτσο",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -48,7 +59,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "πόδι",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -72,7 +83,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "δάσκαλος",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -93,8 +104,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "μήλο",
+        "image": "images/vocabulary/food/apple.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "το",
@@ -116,7 +128,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "ψωμί",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -137,7 +149,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "αυγό",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -157,7 +169,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "γάλα",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -177,7 +189,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "ρύζι",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -198,7 +210,7 @@
         "transcription": "/ˈrizi/",
         "countability": "uncountable"
     },
-    {
+{
         "word": "κρέας",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -219,7 +231,7 @@
         "transcription": "/ˈkreas/",
         "countability": "uncountable"
     },
-    {
+{
         "word": "φαγητό",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -239,7 +251,7 @@
         "countability": "uncountable",
         "subtext": ""
     },
-    {
+{
         "word": "καφές",
         "level": "starter",
         "theme": "drinks_A1",
@@ -259,7 +271,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "τσάι",
         "level": "starter",
         "theme": "drinks_A1",
@@ -279,7 +291,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "νερό",
         "level": "starter",
         "theme": "drinks_A1",
@@ -299,7 +311,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "καρέκλα",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -320,7 +332,7 @@
         "transcription": "/kaˈreka/",
         "countability": "countable"
     },
-    {
+{
         "word": "τραπέζι",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -341,7 +353,7 @@
         "transcription": "/traˈpezi/",
         "countability": "countable"
     },
-    {
+{
         "word": "κρεβάτι",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -362,7 +374,7 @@
         "transcription": "/kreˈvati/",
         "countability": "countable"
     },
-    {
+{
         "word": "μαγαζί",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -386,7 +398,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "κεφάλι",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -407,7 +419,7 @@
         "transcription": "/ceˈfali/",
         "countability": "countable"
     },
-    {
+{
         "word": "χέρι",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -428,7 +440,7 @@
         "transcription": "/ˈçeri/",
         "countability": "countable"
     },
-    {
+{
         "word": "μάτι",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -449,7 +461,7 @@
         "transcription": "/ˈmati/",
         "countability": "countable"
     },
-    {
+{
         "word": "στόμα",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -470,7 +482,7 @@
         "transcription": "/ˈstoma/",
         "countability": "countable"
     },
-    {
+{
         "word": "αυτί",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -491,7 +503,7 @@
         "transcription": "/afˈti/",
         "countability": "countable"
     },
-    {
+{
         "word": "πλάτη",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -511,9 +523,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "σπίτι",
-        "image": "images/vocabulary/go home.png",
+        "image": "images/vocabulary/actions/go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "το",
@@ -533,7 +545,7 @@
         "transcription": "/ˈspiti/",
         "countability": "countable"
     },
-    {
+{
         "word": "διαμέρισμα",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -554,7 +566,7 @@
         "transcription": "/ðiaˈmerizma/",
         "countability": "countable"
     },
-    {
+{
         "word": "γραφείο",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
@@ -574,7 +586,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "αυτοκίνητο",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -595,7 +607,7 @@
         "transcription": "/aftoˈcinito/",
         "countability": "countable"
     },
-    {
+{
         "word": "λεωφορείο",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -615,7 +627,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "τρένο",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -635,7 +647,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "λεφτά",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -655,7 +667,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "πρωί",
         "level": "starter",
         "theme": "times_day_A1",
@@ -676,7 +688,7 @@
         "transcription": "/proˈi/",
         "countability": "countable"
     },
-    {
+{
         "word": "απόγευμα",
         "level": "starter",
         "theme": "times_day_A1",
@@ -699,7 +711,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "βδομάδα",
         "level": "starter",
         "theme": "times_day_A1",
@@ -722,7 +734,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "δωμάτιο",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -743,7 +755,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "κουζίνα",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -763,7 +775,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "τιμή",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -786,7 +798,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "πόρτα",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -807,7 +819,7 @@
         "transcription": "/ˈporda/",
         "countability": "countable"
     },
-    {
+{
         "word": "παράθυρο",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -828,7 +840,7 @@
         "transcription": "/paˈraθiro/",
         "countability": "countable"
     },
-    {
+{
         "word": "νοσοκομείο",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -849,7 +861,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "εστιατόριο",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -870,7 +882,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "τράπεζα",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -890,7 +902,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "σταθμός",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -910,7 +922,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "σούπερ μάρκετ",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -931,7 +943,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "ήλιος",
         "level": "starter",
         "theme": "weather_A1",
@@ -952,7 +964,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "βροχή",
         "level": "starter",
         "theme": "weather_A1",
@@ -973,7 +985,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "αέρας",
         "level": "starter",
         "theme": "weather_A1",
@@ -996,7 +1008,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "βράδυ",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1021,7 +1033,7 @@
         "transcription": "/ˈvraði/",
         "countability": "countable"
     },
-    {
+{
         "word": "νύχτα",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1045,7 +1057,7 @@
         "transcription": "/ˈnixta/",
         "countability": "countable"
     },
-    {
+{
         "word": "φρούτο",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1066,7 +1078,7 @@
         "transcription": "/ˈfruto/",
         "countability": "countable"
     },
-    {
+{
         "word": "λαχανικό",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1087,7 +1099,7 @@
         "transcription": "/laxaniˈko/",
         "countability": "countable"
     },
-    {
+{
         "word": "μπύρα",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1108,7 +1120,7 @@
         "transcription": "/ˈbira/",
         "countability": "uncountable"
     },
-    {
+{
         "word": "κρασί",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1129,7 +1141,7 @@
         "transcription": "/kraˈsi/",
         "countability": "uncountable"
     },
-    {
+{
         "word": "νοσοκόμα",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1150,7 +1162,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "οδηγός",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1171,7 +1183,7 @@
         "transcription": "/oðiˈɣos/",
         "countability": "countable"
     },
-    {
+{
         "word": "μάγειρας",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1195,7 +1207,7 @@
         "transcription": "/ˈmaʝiras/",
         "countability": "countable"
     },
-    {
+{
         "word": "διευθυντής",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1219,7 +1231,7 @@
         "transcription": "/ðiefθinˈdis/",
         "countability": "countable"
     },
-    {
+{
         "word": "αεροπλάνο",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1240,7 +1252,7 @@
         "countability": "countable",
         "subtext": ""
     },
-    {
+{
         "word": "ποδήλατο",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1261,7 +1273,7 @@
         "transcription": "/poˈðilato/",
         "countability": "countable"
     },
-    {
+{
         "word": "σύντροφος",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -1286,7 +1298,7 @@
         "transcription": "/ˈsindrofos/",
         "countability": "countable"
     },
-    {
+{
         "word": "άντρας",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1310,7 +1322,7 @@
         "transcription": "/ˈandras/",
         "countability": "countable"
     },
-    {
+{
         "word": "γυναίκα",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1334,7 +1346,7 @@
         "transcription": "/ʝiˈneka/",
         "countability": "countable"
     },
-    {
+{
         "word": "παιδί",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1358,7 +1370,7 @@
         "transcription": "/peˈði/",
         "countability": "countable"
     },
-    {
+{
         "word": "γονέας",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1382,7 +1394,7 @@
         "transcription": "/ɣoˈneas/",
         "countability": "countable"
     },
-    {
+{
         "word": "πίτσα",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1403,7 +1415,7 @@
         "transcription": "/ˈpitsa/",
         "countability": "countable"
     },
-    {
+{
         "word": "ζυμαρικά",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1426,7 +1438,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "μπανάνα",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -1449,7 +1461,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "χυμός",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1469,7 +1481,7 @@
         ],
         "countability": "uncountable"
     },
-    {
+{
         "word": "πάρκο",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1489,9 +1501,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "σχολείο",
-        "image": "images/vocabulary/go to school.png",
+        "image": "images/vocabulary/actions/go to school.png",
         "level": "starter",
         "theme": "school_subjects_A1",
         "article": "το",
@@ -1510,7 +1522,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "μπλουζάκι",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1530,7 +1542,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "παντελόνι",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1550,7 +1562,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "παπούτσι",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1573,7 +1585,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "καπέλο",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1593,7 +1605,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "κλειδί",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1613,7 +1625,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "τηλέφωνο",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -1633,7 +1645,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "βιβλίο",
         "level": "starter",
         "theme": "books_reading_A1",
@@ -1654,7 +1666,7 @@
         "transcription": "/viˈvlio/",
         "countability": "countable"
     },
-    {
+{
         "word": "τσάντα",
         "level": "starter",
         "theme": "accessories_A1",
@@ -1674,7 +1686,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "στυλό",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -1695,7 +1707,7 @@
         "transcription": "/stiˈlo/",
         "countability": "countable"
     },
-    {
+{
         "word": "γάτα",
         "level": "starter",
         "theme": "animals_A1",
@@ -1719,7 +1731,7 @@
         "transcription": "/ˈɣata/",
         "countability": "countable"
     },
-    {
+{
         "word": "σκύλος",
         "level": "starter",
         "theme": "animals_A1",
@@ -1740,7 +1752,7 @@
         "transcription": "/ˈscilos/",
         "countability": "countable"
     },
-    {
+{
         "word": "πουλί",
         "level": "starter",
         "theme": "animals_A1",
@@ -1761,7 +1773,7 @@
         "transcription": "/puˈli/",
         "countability": "countable"
     },
-    {
+{
         "word": "ψάρι",
         "level": "starter",
         "theme": "animals_A1",
@@ -1782,7 +1794,7 @@
         "transcription": "/ˈpsari/",
         "countability": "countable"
     },
-    {
+{
         "word": "πόδι",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1803,7 +1815,7 @@
         "transcription": "/ˈpoði/",
         "countability": "countable"
     },
-    {
+{
         "word": "μύτη",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1824,7 +1836,7 @@
         "transcription": "/ˈmiti/",
         "countability": "countable"
     },
-    {
+{
         "word": "έξυπνο τηλέφωνο",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -1844,7 +1856,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "μητέρα",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1868,7 +1880,7 @@
         "transcription": "/miˈtera/",
         "countability": "countable"
     },
-    {
+{
         "word": "πατέρας",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -1892,9 +1904,9 @@
         "transcription": "/paˈteras/",
         "countability": "countable"
     },
-    {
+{
         "word": "δουλειά",
-        "image": "images/vocabulary/go to work.png",
+        "image": "images/vocabulary/actions/go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "η",
@@ -1913,7 +1925,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "εργασία",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1936,9 +1948,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "σπίτι",
-        "image": "images/vocabulary/go home.png",
+        "image": "images/vocabulary/actions/go home.png",
         "level": "starter",
         "theme": "address_location_A1",
         "article": "το",
@@ -1958,9 +1970,9 @@
         "transcription": "/ˈspiti/",
         "countability": "countable"
     },
-    {
+{
         "word": "πρωινό",
-        "image": "images/vocabulary/have breakfast.png",
+        "image": "images/vocabulary/actions/have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "το",
@@ -1979,9 +1991,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "βραδινό",
-        "image": "images/vocabulary/have dinner.png",
+        "image": "images/vocabulary/actions/have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "το",
@@ -2000,7 +2012,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "φίλος",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2021,7 +2033,7 @@
         "transcription": "/ˈfilos/",
         "countability": "countable"
     },
-    {
+{
         "word": "ημέρα",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2041,9 +2053,9 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "μεσημεριανό",
-        "image": "images/vocabulary/have lunch.png",
+        "image": "images/vocabulary/actions/have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "το",
@@ -2062,7 +2074,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "αφεντικό",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2083,7 +2095,7 @@
         "transcription": "/afenˈdiko/",
         "countability": "countable"
     },
-    {
+{
         "word": "συνάδελφος",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2107,7 +2119,7 @@
         "transcription": "/siˈnaðelfos/",
         "countability": "countable"
     },
-    {
+{
         "word": "μισθός",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2128,7 +2140,7 @@
         "transcription": "/misˈθos/",
         "countability": "countable"
     },
-    {
+{
         "word": "συνάντηση",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2149,7 +2161,7 @@
         "transcription": "/siˈnandisi/",
         "countability": "countable"
     },
-    {
+{
         "word": "μετακίνηση",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2169,7 +2181,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "άγχος",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -2189,7 +2201,7 @@
         "transcription": "/ˈanxos/",
         "countability": "countable"
     },
-    {
+{
         "word": "ενοίκιο",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2210,7 +2222,7 @@
         "transcription": "/eˈnicio/",
         "countability": "countable"
     },
-    {
+{
         "word": "γείτονας",
         "level": "starter",
         "theme": "address_location_A1",
@@ -2231,7 +2243,7 @@
         "transcription": "/ˈʝitonas/",
         "countability": "countable"
     },
-    {
+{
         "word": "ύπνος",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2254,7 +2266,7 @@
         "transcription": "/ˈipnos/",
         "countability": "countable"
     },
-    {
+{
         "word": "άσκηση",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2275,7 +2287,7 @@
         "transcription": "/ˈascisi/",
         "countability": "countable"
     },
-    {
+{
         "word": "τιμή",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2295,7 +2307,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "κόστος",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2314,7 +2326,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "σχέση",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2335,7 +2347,7 @@
         "transcription": "/ˈsçesi/",
         "countability": "countable"
     },
-    {
+{
         "word": "μαζί",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2353,7 +2365,7 @@
         "transcription": "/maˈzi/",
         "countability": "countable"
     },
-    {
+{
         "word": "διακοπές",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -2373,7 +2385,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "ξενοδοχείο",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2394,7 +2406,7 @@
         "transcription": "/ksenoðoˈçio/",
         "countability": "countable"
     },
-    {
+{
         "word": "ελεύθερος χρόνος",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2414,7 +2426,7 @@
         "transcription": "/eˈlefθeros ˈxronos/",
         "countability": "countable"
     },
-    {
+{
         "word": "ταξίδι",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2435,7 +2447,7 @@
         "transcription": "/taˈksiði/",
         "countability": "countable"
     },
-    {
+{
         "word": "απόγευμα",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2455,7 +2467,7 @@
         ],
         "countability": "countable"
     },
-    {
+{
         "word": "σύζυγος",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2479,9 +2491,7 @@
         ],
         "transcription": "/ˈsizigos/",
         "countability": "countable"
-    }
+    },
+{}
 ];
-    const lang = "el";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
