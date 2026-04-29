@@ -3530,6 +3530,7 @@
     },
 {
         "word": "orange",
+        "image": "images/vocabulary/food/orange.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
