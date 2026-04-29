@@ -809,7 +809,7 @@ let currentMode     = 'ref';
 let score           = parseInt(localStorage.getItem('cosy_total_points') || '0');
 let masteredWords   = new Set(JSON.parse(localStorage.getItem('vr_mastered')||'[]'));
 let activeLevel     = 'A1';
-const LEVELS        = ['A1','A2','B1','B2','C1','C2'];
+const VOCAB_LEVELS  = ['A1','A2','B1','B2','C1','C2'];
 
 // MC state per card
 const mcState = {};
@@ -913,7 +913,7 @@ function globalSearch(query) {
   const q = query.toLowerCase();
   const area = document.getElementById('content-area');
   const results = [];
-  LEVELS.forEach(lv => {
+  VOCAB_LEVELS.forEach(lv => {
     VOCAB[lv].words.forEach(item => {
       if (item.w.toLowerCase().includes(q) ||
           item.def.toLowerCase().includes(q) ||
@@ -956,7 +956,7 @@ function renderContent() {
      gameBtn.href = `events.html?lang=${currentLang}&level=${pLevel}&mode=solo`;
   }
 
-  LEVELS.forEach(lv => {
+  VOCAB_LEVELS.forEach(lv => {
     // If restricted, only show the student's level
     if (restrictedLevel && lv !== restrictedLevel) {
        const sbItem = document.getElementById('sb-' + lv);

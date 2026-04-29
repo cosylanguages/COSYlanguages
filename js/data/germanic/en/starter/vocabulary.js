@@ -4627,6 +4627,7 @@
     },
 {
         "word": "orange",
+        "image": "images/vocabulary/food/orange.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍊",
@@ -23932,6 +23933,7 @@
     },
 {
         "word": "orange",
+        "image": "images/vocabulary/colours/orange.png",
         "level": "starter",
         "form": "adjective",
         "opposite": "blue",

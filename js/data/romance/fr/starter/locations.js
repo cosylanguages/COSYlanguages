@@ -2,6 +2,7 @@
     const data = [
     {
         "word": "France",
+        "image": "images/vocabulary/countries/France.png",
         "level": "starter",
         "theme": "address_location_A1",
         "transcription": "fʁɑ̃s",
@@ -268,6 +269,7 @@
     },
     {
         "word": "Portugal",
+        "image": "images/vocabulary/countries/Portugal.png",
         "level": "starter",
         "theme": "address_location_A1",
         "transcription": "pɔʁ.ty.ɡal"
