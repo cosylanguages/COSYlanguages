@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "jardin",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/places/public garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -380,7 +380,7 @@
     },
 {
         "word": "école",
-        "image": "images/vocabulary/actions/go to school.png",
+        "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "l'",
@@ -862,7 +862,7 @@
     },
 {
         "word": "maison",
-        "image": "images/vocabulary/actions/go home.png",
+        "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -3530,7 +3530,7 @@
     },
 {
         "word": "orange",
-        "image": "images/vocabulary/food/orange.png",
+        "image": "images/vocabulary/food/orange fruit.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
@@ -4348,7 +4348,7 @@
     },
 {
         "word": "bain",
-        "image": "images/vocabulary/actions/take.have a bath.png",
+        "image": "images/vocabulary/actions/to take. to have a bath.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
@@ -4963,7 +4963,7 @@
     },
 {
         "word": "travail",
-        "image": "images/vocabulary/actions/go to work.png",
+        "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "article": "le",
@@ -5584,7 +5584,7 @@
     },
 {
         "word": "petit-déjeuner",
-        "image": "images/vocabulary/actions/have breakfast.png",
+        "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -5605,7 +5605,7 @@
     },
 {
         "word": "goûter",
-        "image": "images/vocabulary/actions/have a snack.png",
+        "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -6726,7 +6726,7 @@
     },
 {
         "word": "jardin",
-        "image": "images/vocabulary/home/garden.png",
+        "image": "images/vocabulary/home/residential garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
@@ -6847,7 +6847,7 @@
     },
 {
         "word": "douche",
-        "image": "images/vocabulary/actions/take.have a shower.png",
+        "image": "images/vocabulary/actions/to take. to have a shower.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "la",
@@ -8188,7 +8188,7 @@
     },
 {
         "word": "déjeuner",
-        "image": "images/vocabulary/actions/have lunch.png",
+        "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
@@ -8209,7 +8209,7 @@
     },
 {
         "word": "dîner",
-        "image": "images/vocabulary/actions/have dinner.png",
+        "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",

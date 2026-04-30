@@ -649,6 +649,7 @@
     },
 {
         "word": "brush teeth",
+        "image": "images/vocabulary/actions/to brush teeth.png",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🪥",

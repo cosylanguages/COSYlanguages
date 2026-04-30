@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/places/public garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -1080,6 +1080,7 @@
     },
 {
         "word": "fish",
+        "image": "images/vocabulary/food/fish food.png",
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐟",
@@ -2009,7 +2010,7 @@
     },
 {
         "word": "sleep",
-        "image": "images/vocabulary/actions/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "😴",
@@ -4627,7 +4628,7 @@
     },
 {
         "word": "orange",
-        "image": "images/vocabulary/food/orange.png",
+        "image": "images/vocabulary/food/orange fruit.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍊",
@@ -7481,7 +7482,7 @@
     },
 {
         "word": "garden",
-        "image": "images/vocabulary/home/garden.png",
+        "image": "images/vocabulary/home/residential garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
@@ -12871,6 +12872,7 @@
     },
 {
         "word": "read",
+        "image": "images/vocabulary/actions/to read.png",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
@@ -13210,7 +13212,7 @@
     },
 {
         "word": "eat",
-        "image": "images/vocabulary/actions/eat.png",
+        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -13236,7 +13238,7 @@
     },
 {
         "word": "drink",
-        "image": "images/vocabulary/actions/drink.png",
+        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -13262,7 +13264,7 @@
     },
 {
         "word": "sleep",
-        "image": "images/vocabulary/actions/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -13288,7 +13290,7 @@
     },
 {
         "word": "cook",
-        "image": "images/vocabulary/actions/cook.png",
+        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -13923,7 +13925,7 @@
     },
 {
         "word": "wake up",
-        "image": "images/vocabulary/actions/wake up.png",
+        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -14787,6 +14789,7 @@
     },
 {
         "word": "swim",
+        "image": "images/vocabulary/actions/to swim.png",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
@@ -14951,7 +14954,7 @@
     },
 {
         "word": "get up",
-        "image": "images/vocabulary/actions/get up.png",
+        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "To rise from bed after waking.",
@@ -14975,7 +14978,7 @@
     },
 {
         "word": "have breakfast",
-        "image": "images/vocabulary/actions/have breakfast.png",
+        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "To eat the morning meal.",
@@ -15025,7 +15028,7 @@
     },
 {
         "word": "go to bed",
-        "image": "images/vocabulary/actions/go to bed.png",
+        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "To get into bed in order to sleep.",
@@ -16197,6 +16200,7 @@
     },
 {
         "word": "paint",
+        "image": "images/vocabulary/actions/to paint.png",
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
@@ -18008,6 +18012,7 @@
     },
 {
         "word": "read",
+        "image": "images/vocabulary/actions/to read.png",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
@@ -18347,7 +18352,7 @@
     },
 {
         "word": "eat",
-        "image": "images/vocabulary/actions/eat.png",
+        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -18373,7 +18378,7 @@
     },
 {
         "word": "drink",
-        "image": "images/vocabulary/actions/drink.png",
+        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -18399,7 +18404,7 @@
     },
 {
         "word": "sleep",
-        "image": "images/vocabulary/actions/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -18425,7 +18430,7 @@
     },
 {
         "word": "cook",
-        "image": "images/vocabulary/actions/cook.png",
+        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -19060,7 +19065,7 @@
     },
 {
         "word": "wake up",
-        "image": "images/vocabulary/actions/wake up.png",
+        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -19924,6 +19929,7 @@
     },
 {
         "word": "swim",
+        "image": "images/vocabulary/actions/to swim.png",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
@@ -20088,7 +20094,7 @@
     },
 {
         "word": "get up",
-        "image": "images/vocabulary/actions/get up.png",
+        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "To rise from bed after waking.",
@@ -20112,7 +20118,7 @@
     },
 {
         "word": "have breakfast",
-        "image": "images/vocabulary/actions/have breakfast.png",
+        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "To eat the morning meal.",
@@ -20162,7 +20168,7 @@
     },
 {
         "word": "go to bed",
-        "image": "images/vocabulary/actions/go to bed.png",
+        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "To get into bed in order to sleep.",
@@ -21334,6 +21340,7 @@
     },
 {
         "word": "paint",
+        "image": "images/vocabulary/actions/to paint.png",
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
@@ -23933,7 +23940,7 @@
     },
 {
         "word": "orange",
-        "image": "images/vocabulary/colours/orange.png",
+        "image": "images/vocabulary/colours/orange colour.png",
         "level": "starter",
         "form": "adjective",
         "opposite": "blue",
