@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "jardin",
-        "image": "images/vocabulary/places/public garden.png",
+        "image": "images/vocabulary/places/park.garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -5304,6 +5304,7 @@
     },
 {
         "word": "football",
+        "image": "images/vocabulary/hobbies/football.soccer.png",
         "level": "starter",
         "theme": "common_sports_A1",
         "article": "le",
@@ -6726,7 +6727,7 @@
     },
 {
         "word": "jardin",
-        "image": "images/vocabulary/home/residential garden.png",
+        "image": "images/vocabulary/home/garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
