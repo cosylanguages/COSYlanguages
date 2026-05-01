@@ -44,7 +44,7 @@
     },
 {
         "word": "fish",
-        "image": "images/vocabulary/actions/to fish action.png",
+        "image": "images/vocabulary/actions/to fish.png",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "🎣",
