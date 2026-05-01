@@ -1101,7 +1101,7 @@
     },
 {
         "word": "mangiare",
-        "image": "images/vocabulary/actions/eat.png",
+        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
@@ -1132,7 +1132,7 @@
     },
 {
         "word": "bere",
-        "image": "images/vocabulary/actions/drink.png",
+        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
@@ -1158,7 +1158,7 @@
     },
 {
         "word": "dormire",
-        "image": "images/vocabulary/actions/fall asleep. sleep.png",
+        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
@@ -1184,7 +1184,7 @@
     },
 {
         "word": "cucinare",
-        "image": "images/vocabulary/actions/cook.png",
+        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
@@ -1793,7 +1793,7 @@
     },
 {
         "word": "svegliarsi",
-        "image": "images/vocabulary/actions/wake up.png",
+        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
@@ -2782,7 +2782,7 @@
     },
 {
         "word": "alzarsi",
-        "image": "images/vocabulary/actions/get up.png",
+        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "Alzarsi dal letto dopo essersi svegliati.",
@@ -2805,7 +2805,7 @@
     },
 {
         "word": "fare colazione",
-        "image": "images/vocabulary/actions/have breakfast.png",
+        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "Fare il pasto del mattino.",
@@ -5092,7 +5092,7 @@
     },
 {
         "word": "vestirsi",
-        "image": "images/vocabulary/actions/get dressed.png",
+        "image": "images/vocabulary/actions/to get dressed.png",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👗",

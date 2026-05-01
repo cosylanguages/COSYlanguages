@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/places/public garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
