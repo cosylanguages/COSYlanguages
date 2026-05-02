@@ -385,6 +385,7 @@
         const family = LANG_FAMILIES[lang.toLowerCase()] || 'romance';
         const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
         const base = `js/data/${family}/${lang.toLowerCase()}/${pLevel}/`;
+        const langRoot = `js/data/${family}/${lang.toLowerCase()}/`;
         const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar.js', 'grammar_elements.js', 'dishes.js'];
 
         const loads = files.map(f => {
@@ -398,7 +399,19 @@
                 document.head.appendChild(script);
             });
         });
-        return Promise.all(loads);
+
+        // Also load centralized phrases.js if it exists in language root
+        const phraseLoad = new Promise((resolve) => {
+            const path = langRoot + 'phrases.js';
+            if (document.querySelector(`script[src="${path}"]`)) return resolve();
+            const script = document.createElement('script');
+            script.src = path;
+            script.onload = () => resolve();
+            script.onerror = () => resolve();
+            document.head.appendChild(script);
+        });
+
+        return Promise.all([...loads, phraseLoad]);
     }
 
     function resolveWord(w) {
@@ -415,6 +428,8 @@
             const found = source.data.find(item => item.word.toLowerCase() === w.toLowerCase());
             if (found) {
                 const def = (found.definitions && found.definitions.length > 0) ? found.definitions[0] : null;
+                const phrases = (window.phrasesData && window.phrasesData[lang] && window.phrasesData[lang][found.word.toLowerCase()]) || [];
+
                 return {
                     w: found.word,
                     phon: found.transcription || found.phon || '',
@@ -427,6 +442,7 @@
                     v3: found.v3 || '',
                     image: found.image || '',
                     emoji: found.emoji || '',
+                    phrases: phrases,
                     type: source.type
                 };
             }
@@ -807,6 +823,28 @@
                         if (w.countability === 'uncountable') badges.push('<span style="font-size:0.6rem; background:var(--muted); color:white; padding:1px 4px; border-radius:3px; vertical-align:middle; margin-left:4px;">U</span>');
                         if (w.type === 'verb' && w.v3) badges.push(`<span style="font-size:0.6rem; border:1px solid var(--muted); padding:1px 4px; border-radius:3px; vertical-align:middle; margin-left:4px;">v3: ${w.v3}</span>`);
 
+                        let phrasesHtml = '';
+                        if (w.phrases && w.phrases.length) {
+                            phrasesHtml = `
+                                <div class="vc-phrases" style="margin-top: 10px; padding: 8px; background: rgba(0,0,0,0.02); border-radius: 6px; border-left: 3px solid var(--sand);">
+                                    <div style="font-size: 0.6rem; font-weight: 900; text-transform: uppercase; color: var(--sand); margin-bottom: 6px; letter-spacing: 0.05em;">Collocations & Phrases</div>
+                                    <div style="display: grid; grid-template-columns: 1fr; gap: 8px;">
+                                        ${w.phrases.map(p => `
+                                            <div class="vc-phrase-item">
+                                                <div style="font-weight: 700; font-size: 0.8rem; color: var(--earth); display: flex; align-items: center; gap: 5px;">
+                                                    <span>${p.phrase}</span>
+                                                    <button class="ph-copy" style="padding: 0 4px; font-size: 0.6rem; border: none; background: none; cursor: pointer;" onclick="cosyDays.speakText('${p.phrase.replace(/'/g, "\\'")}')">🔊</button>
+                                                </div>
+                                                <div style="font-size: 0.75rem; color: var(--muted); margin-top: 1px;">${p.definition}</div>
+                                                <div style="font-size: 0.7rem; font-style: italic; opacity: 0.7; margin-top: 2px;">"${p.example}"</div>
+                                                ${p.opposite ? `<div style="font-size: 0.65rem; color: var(--ember); margin-top: 2px;">↔️ ${p.opposite}</div>` : ''}
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `;
+                        }
+
                         return `
                         <tr>
                             <td class="content-l">
@@ -822,6 +860,7 @@
                                 <div style="font-weight: 500;">${w.trans || ''}</div>
                                 ${w.opposite ? `<div style="font-size: 0.7rem; opacity: 0.8; margin-top: 2px;">↔️ ${w.opposite}</div>` : ''}
                                 ${w.examples && w.examples.length ? `<div style="font-size: 0.75rem; font-style: italic; opacity: 0.6; margin-top: 4px; border-left: 2px solid rgba(0,0,0,0.05); padding-left: 6px;">"${w.examples[0]}"</div>` : ''}
+                                ${phrasesHtml}
                             </td>
                             <td><button class="ph-copy" onclick="cosyDays.speakText('${w.w.replace(/'/g, "\\'")}')">🔊</button></td>
                         </tr>
