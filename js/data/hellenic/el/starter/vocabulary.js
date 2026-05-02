@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "κήπος",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -122,7 +122,27 @@
                 "examples": [
                     "Τρώω ένα μήλο κάθε μέρα."
                 ]
+            },
+{
+        "word": "ψάρι",
+        "image": "images/vocabulary/actions/to fish.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🐟",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Η σάρκα του ψαριού που τρώγεται ως τροφή.",
+                "examples": [
+                    "Μου αρέσει το ψητό ψάρι για δείπνο."
+                ]
             }
+        ],
+        "countability": "uncountable",
+        "transcription": "/ˈpsa.ri/"
+    },
         ],
         "transcription": "/ˈmilo/",
         "countability": "countable",
@@ -1341,7 +1361,18 @@
                 "examples": [
                     "Η γυναίκα του είναι δασκάλα."
                 ]
-            }
+            },
+{
+        "word": "γένια",
+        "image": "images/vocabulary/appearance/stubble.bristle.png",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🧔",
+        "form": "noun",
+        "definitions": [{"text": "Κοντές σκληρές τρίχες που μεγαλώνουν στο πρόσωπο ενός άνδρα όταν δεν έχει ξυριστεί για μερικές ημέρες.", "examples": ["Έχει λίγα γένια."]}],
+        "countability": "uncountable",
+        "transcription": "/ˈʝe.ɲa/"
+    },
         ],
         "transcription": "/ʝiˈneka/",
         "countability": "countable"
@@ -1457,7 +1488,18 @@
                 "examples": [
                     "Τρώω μια μπανάνα."
                 ]
-            }
+            },
+{
+        "word": "σνακ",
+        "image": "images/vocabulary/actions/to have a snack.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥨",
+        "form": "noun",
+        "definitions": [{"text": "Μια μικρή ποσότητα φαγητού που τρώγεται ανάμεσα στα γεύματα.", "examples": ["Μου αρέσουν τα υγιεινά σνακ όπως τα φρούτα."]}],
+        "countability": "countable",
+        "transcription": "/snak/"
+    },
         ],
         "countability": "countable"
     },
@@ -1621,7 +1663,18 @@
                 "examples": [
                     "Έχασα τα κλειδιά μου."
                 ]
-            }
+            },
+{
+        "word": "χαρτοφύλακας",
+        "image": "images/vocabulary/actions/to go to work.png",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "definitions": [{"text": "Μια επίπεδη θήκη που χρησιμοποιείται για τη μεταφορά εγγράφων.", "examples": ["Μεταφέρει τα έγγραφά του σε έναν χαρτοφύλακα."]}],
+        "countability": "countable",
+        "transcription": "/xaɾ.to.ˈfi.la.kas/"
+    },
         ],
         "countability": "countable"
     },
@@ -1775,6 +1828,7 @@
     },
 {
         "word": "ψάρι",
+        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals_A1",
         "article": "το",
@@ -2492,6 +2546,5 @@
         "transcription": "/ˈsizigos/",
         "countability": "countable"
     },
-{}
 ];
 })();

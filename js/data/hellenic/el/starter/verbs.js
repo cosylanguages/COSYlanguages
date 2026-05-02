@@ -1150,6 +1150,7 @@
     },
 {
         "word": "καθαρίζω",
+        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
@@ -1194,6 +1195,7 @@
     },
 {
         "word": "πλένω",
+        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
@@ -1455,6 +1457,7 @@
     },
 {
         "word": "μου αρέσει",
+        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
@@ -2282,6 +2285,7 @@
     },
 {
         "word": "συμφωνώ",
+        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2304,6 +2308,7 @@
     },
 {
         "word": "σχεδιάζω",
+        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
@@ -3596,11 +3601,11 @@
         "v3": "χτίσει",
         "group": "group_a",
         "transcription": "/ˈxtizo/"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    }
+    const lang = "el";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

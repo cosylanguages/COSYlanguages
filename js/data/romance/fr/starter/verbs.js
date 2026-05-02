@@ -901,6 +901,7 @@
     },
 {
         "word": "marcher",
+        "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
@@ -1212,6 +1213,7 @@
     },
 {
         "word": "nettoyer",
+        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
@@ -1258,6 +1260,7 @@
     },
 {
         "word": "laver",
+        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
@@ -1537,6 +1540,7 @@
     },
 {
         "word": "aimer",
+        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
@@ -2433,6 +2437,7 @@
     },
 {
         "word": "dessiner",
+        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
@@ -4245,6 +4250,7 @@
     },
 {
         "word": "saluer",
+        "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
@@ -4814,11 +4820,11 @@
                 ]
             }
         ]
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    }
+    const lang = "fr";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

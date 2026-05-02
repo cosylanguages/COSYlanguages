@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "giardino",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -103,7 +103,27 @@
                 "examples": [
                     "Amo la pasta al pomodoro."
                 ]
+            },
+{
+        "word": "pesce",
+        "image": "images/vocabulary/actions/to fish.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐟",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "La carne del pesce mangiata come cibo.",
+                "examples": [
+                    "Mi piace il pesce alla griglia per cena."
+                ]
             }
+        ],
+        "countability": "uncountable",
+        "transcription": "/ˈpeʃʃe/"
+    },
         ],
         "gender": "feminine",
         "countability": "countable",
@@ -897,6 +917,7 @@
     },
 {
         "word": "pesce",
+        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals_A1",
         "article": "il",
@@ -1304,7 +1325,18 @@
                 "examples": [
                     "La donna parla al telefono."
                 ]
-            }
+            },
+{
+        "word": "barba incolta",
+        "image": "images/vocabulary/appearance/stubble.bristle.png",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🧔",
+        "form": "noun",
+        "definitions": [{"text": "Peli corti e rigidi che crescono sul viso di un uomo quando non si rade da qualche giorno.", "examples": ["Ha un po' di barba incolta."]}],
+        "countability": "uncountable",
+        "transcription": "/ˈbarba inˈkɔlta/"
+    },
         ],
         "transcription": "ˈdɔnna",
         "synonyms": [],
@@ -7140,7 +7172,18 @@
                 "examples": [
                     "È una bella canzone."
                 ]
-            }
+            },
+{
+        "word": "chitarra",
+        "image": "images/vocabulary/actions/to play a musical instrument.png",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "🎸",
+        "form": "noun",
+        "definitions": [{"text": "Uno strumento musicale a corde che si suona con le dita.", "examples": ["Lui suona la chitarra."]}],
+        "countability": "countable",
+        "transcription": "/kiˈtarra/"
+    },
         ],
         "countability": "countable",
         "partitive": "della",
@@ -7188,7 +7231,29 @@
                 "examples": [
                     "Una foto ricordo."
                 ]
-            }
+            },
+{
+        "word": "scacchi",
+        "image": "images/vocabulary/actions/to play chess.png",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "♟️",
+        "form": "noun",
+        "definitions": [{"text": "Un gioco per due persone giocato su una scacchiera con case nere e bianche.", "examples": ["Stanno giocando a scacchi."]},
+{
+        "word": "videogioco",
+        "image": "images/vocabulary/actions/to play video games.png",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎮",
+        "form": "noun",
+        "definitions": [{"text": "Un gioco giocato su un computer o un dispositivo speciale.", "examples": ["Lui ama giocare ai videogiochi."]}],
+        "countability": "countable",
+        "transcription": "/ˌvidjoˈʤɔko/"
+    },],
+        "countability": "uncountable",
+        "transcription": "/ˈskakki/"
+    },
         ],
         "countability": "countable",
         "partitive": "della",
@@ -7223,6 +7288,7 @@
     },
 {
         "word": "calcio",
+        "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
         "theme": "common_sports_A1",
         "article": "il",
@@ -8832,7 +8898,7 @@
     },
 {
         "word": "giardino",
-        "image": "images/vocabulary/home/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "il",
@@ -11318,7 +11384,18 @@
                 "examples": [
                     "C'è un bel quadro alla parete."
                 ]
-            }
+            },
+{
+        "word": "valigetta",
+        "image": "images/vocabulary/actions/to go to work.png",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "definitions": [{"text": "Una borsa piatta usata per trasportare carte e documenti.", "examples": ["Porta i suoi documenti in una valigetta."]}],
+        "countability": "countable",
+        "transcription": "/valiˈɡetta/"
+    },
         ],
         "countability": "countable",
         "partitive": "del",
@@ -13071,6 +13148,5 @@
         "subtext": "",
         "antonyms": []
     },
-{}
 ];
 })();

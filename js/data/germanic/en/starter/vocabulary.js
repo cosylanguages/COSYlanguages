@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -730,6 +730,7 @@
     },
 {
         "word": "school",
+        "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
@@ -1080,7 +1081,7 @@
     },
 {
         "word": "fish",
-        "image": "images/vocabulary/food/fish.png",
+        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐟",
@@ -1595,6 +1596,7 @@
     },
 {
         "word": "breakfast",
+        "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
@@ -1614,6 +1616,7 @@
     },
 {
         "word": "dinner",
+        "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
@@ -1811,6 +1814,7 @@
     },
 {
         "word": "lunch",
+        "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
@@ -6297,6 +6301,7 @@
     },
 {
         "word": "football",
+        "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚽",
@@ -6592,6 +6597,7 @@
     },
 {
         "word": "snack",
+        "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
@@ -7222,6 +7228,7 @@
     },
 {
         "word": "guitar",
+        "image": "images/vocabulary/actions/to play a musical instrument.png",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
@@ -7482,7 +7489,7 @@
     },
 {
         "word": "garden",
-        "image": "images/vocabulary/home/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
@@ -27924,6 +27931,5 @@
         "subtext": "polite address",
         "countability": "countable"
     },
-{}
 ];
 })();
