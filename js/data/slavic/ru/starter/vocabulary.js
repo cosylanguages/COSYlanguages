@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "сад",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -111,7 +111,26 @@
             {
                 "text": "Круглый фрукт красного, зеленого или желтого цвета.",
                 "examples": []
+            },
+{
+        "word": "рыба",
+        "image": "images/vocabulary/actions/to fish.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "gender": "она",
+        "emoji": "🐟",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Мясо рыбы, употребляемое в пищу.",
+                "examples": [
+                    "Я люблю жареную рыбу на ужин."
+                ]
             }
+        ],
+        "countability": "uncountable",
+        "transcription": "/ˈrɨbə/"
+    },
         ],
         "countability": "countable",
         "subtext": ""
@@ -281,7 +300,19 @@
                 "examples": [
                     "Он ест овощи каждый день."
                 ]
-            }
+            },
+{
+        "word": "перекус",
+        "image": "images/vocabulary/actions/to have a snack.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥨",
+        "form": "noun",
+        "gender": "он",
+        "definitions": [{"text": "Небольшое количество еды, съедаемое между основными приемами пищи.", "examples": ["Я люблю здоровые перекусы, например фрукты."]}],
+        "countability": "countable",
+        "transcription": "/pʲɪrʲɪˈkus/"
+    },
         ],
         "transcription": "/ˈovəɕː/",
         "countability": "countable"
@@ -364,6 +395,7 @@
     },
 {
         "word": "завтрак",
+        "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "gender": "он",
@@ -768,6 +800,7 @@
     },
 {
         "word": "рыба",
+        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals_A1",
         "gender": "она",
@@ -1050,7 +1083,19 @@
             {
                 "text": "Взрослый человек женского пола.",
                 "examples": []
-            }
+            },
+{
+        "word": "щетина",
+        "image": "images/vocabulary/appearance/stubble.bristle.png",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🧔",
+        "form": "noun",
+        "gender": "она",
+        "definitions": [{"text": "Короткие жесткие волоски, отрастающие на лице мужчины, если он не брился несколько дней.", "examples": ["У него небольшая щетина."]}],
+        "countability": "uncountable",
+        "transcription": "/ɕːɪˈtʲinə/"
+    },
         ],
         "countability": "countable",
         "subtext": ""
@@ -1751,7 +1796,19 @@
                 "examples": [
                     "Открой окно — жарко."
                 ]
-            }
+            },
+{
+        "word": "портфель",
+        "image": "images/vocabulary/actions/to go to work.png",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "gender": "он",
+        "definitions": [{"text": "Плоская сумка для переноски бумаг и документов.", "examples": ["Он носит свои документы в портфеле."]}],
+        "countability": "countable",
+        "transcription": "/pɐrtˈfʲelʲ/"
+    },
         ],
         "transcription": "/akˈno/",
         "countability": "countable"
@@ -2182,6 +2239,5 @@
         "transcription": "/raˈdʲitʲilʲ/",
         "countability": "countable"
     },
-{}
 ];
 })();

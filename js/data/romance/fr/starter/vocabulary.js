@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "jardin",
-        "image": "images/vocabulary/places/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
@@ -52,7 +52,28 @@
                 "examples": [
                     "Les fruits sont bons pour la santé."
                 ]
+            },
+
+{
+        "word": "poisson",
+        "image": "images/vocabulary/actions/to fish.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🐟",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "La chair du poisson consommée comme nourriture.",
+                "examples": [
+                    "J'aime le poisson grillé pour le dîner."
+                ]
             }
+        ],
+        "countability": "uncountable",
+        "transcription": "/pwa.sɔ̃/"
+    },
         ],
         "countability": "countable"
     },
@@ -525,6 +546,7 @@
     },
 {
         "word": "poisson",
+        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals_A1",
         "article": "le",
@@ -855,7 +877,18 @@
                 "examples": [
                     "Cet homme est mon patron."
                 ]
-            }
+            },
+{
+        "word": "barbe de trois jours",
+        "image": "images/vocabulary/appearance/stubble.bristle.png",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🧔",
+        "form": "noun",
+        "definitions": [{"text": "Poils courts et raides poussant sur le visage d'un homme lorsqu'il ne s'est pas rasé depuis quelques jours.", "examples": ["Il a un peu de barbe de trois jours."]}],
+        "countability": "uncountable",
+        "transcription": "/baʁb də tʁwa ʒuʁ/"
+    },
         ],
         "countability": "countable",
         "transcription": "/ɔm/"
@@ -5237,7 +5270,18 @@
                 "examples": [
                     "C'est une belle chanson."
                 ]
-            }
+            },
+{
+        "word": "guitare",
+        "image": "images/vocabulary/actions/to play a musical instrument.png",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "🎸",
+        "form": "noun",
+        "definitions": [{"text": "Un instrument de musique à cordes dont on joue avec les doigts.", "examples": ["Il joue de la guitare."]}],
+        "countability": "countable",
+        "transcription": "/ɡi.taʁ/"
+    },
         ],
         "countability": "countable",
         "transcription": "/ʃɑ̃.sɔ̃/"
@@ -5277,7 +5321,29 @@
                 "examples": [
                     "Une photo de famille."
                 ]
-            }
+            },
+{
+        "word": "échecs",
+        "image": "images/vocabulary/actions/to play chess.png",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "♟️",
+        "form": "noun",
+        "definitions": [{"text": "Un jeu pour deux personnes se jouant sur un plateau avec des cases noires et blanches.", "examples": ["Ils jouent aux échecs."]},
+{
+        "word": "jeu vidéo",
+        "image": "images/vocabulary/actions/to play video games.png",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎮",
+        "form": "noun",
+        "definitions": [{"text": "Un jeu auquel on joue sur un ordinateur ou une console spéciale.", "examples": ["Il adore jouer aux jeux vidéo."]}],
+        "countability": "countable",
+        "transcription": "/ʒø vi.de.o/"
+    },],
+        "countability": "uncountable",
+        "transcription": "/e.ʃɛk/"
+    },
         ],
         "countability": "countable",
         "transcription": "/fo.to/"
@@ -5304,6 +5370,7 @@
     },
 {
         "word": "football",
+        "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
         "theme": "common_sports_A1",
         "article": "le",
@@ -5577,7 +5644,18 @@
                 "examples": [
                     "Sel, poivre et vinaigre."
                 ]
-            }
+            },
+{
+        "word": "snack",
+        "image": "images/vocabulary/actions/to have a snack.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥨",
+        "form": "noun",
+        "definitions": [{"text": "Une petite quantité de nourriture consommée entre les repas.", "examples": ["J'aime les snacks sains comme les fruits."]}],
+        "countability": "countable",
+        "transcription": "/snak/"
+    },
         ],
         "countability": "countable",
         "transcription": "/vi.nɛɡʁ/"
@@ -6726,7 +6804,7 @@
     },
 {
         "word": "jardin",
-        "image": "images/vocabulary/home/garden.png",
+        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "article": "le",
@@ -7241,7 +7319,18 @@
                 "examples": [
                     "Un sac à main."
                 ]
-            }
+            },
+{
+        "word": "mallette",
+        "image": "images/vocabulary/actions/to go to work.png",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "definitions": [{"text": "Un étui plat utilisé pour transporter des papiers et des documents.", "examples": ["Il transporte ses documents dans une mallette."]}],
+        "countability": "countable",
+        "transcription": "/ma.lɛt/"
+    },
         ],
         "countability": "countable",
         "transcription": "/sak/"
@@ -9063,6 +9152,5 @@
         ],
         "transcription": "natyʁ"
     },
-{}
 ];
 })();

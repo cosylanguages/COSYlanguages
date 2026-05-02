@@ -909,6 +909,7 @@
     },
 {
         "word": "camminare",
+        "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
@@ -1208,6 +1209,7 @@
     },
 {
         "word": "pulire",
+        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
@@ -1254,6 +1256,7 @@
     },
 {
         "word": "lavare",
+        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
@@ -1526,6 +1529,7 @@
     },
 {
         "word": "piacere",
+        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
@@ -2411,6 +2415,7 @@
     },
 {
         "word": "essere d accordo",
+        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2434,6 +2439,7 @@
     },
 {
         "word": "disegnare",
+        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
@@ -2854,6 +2860,7 @@
     },
 {
         "word": "andare a letto",
+        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "Mettersi a letto per dormire.",
@@ -4284,6 +4291,7 @@
     },
 {
         "word": "salutare",
+        "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
@@ -5341,11 +5349,11 @@
         "group": "are",
         "auxiliary": "avere",
         "subtext": ""
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
 ];
-    }
+    const lang = "it";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
