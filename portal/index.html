@@ -3,242 +3,311 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="days_title">Student Portal 🔐 — COSYlanguages</title>
-    <meta name="description" data-translate-key="unlock_desc" content="Access your personalized language learning curriculum. Enter your student code to continue.">
+    <title>Student Area — COSYlanguages</title>
     <link rel="icon" href="../images/cosylanguages.png">
-    <link rel="manifest" href="../manifest.json">
-    <meta name="theme-color" content="#4a6b50">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/mobile.css">
     <style>
-/* ── Dashboard & Roadmap Styles ──────────────────── */
-:root {
-  --cosy-green: #6b8f71;
-  --cosy-green-dark: #4a6b50;
-  --cosy-honey: #e8a838;
-  --cosy-cream: #fdf8f0;
-  --cosy-bark: #7a5c3a;
-  --cosy-ink: #2a2a2a;
-}
+        :root {
+            --cosy-green: #6b8f71;
+            --cosy-green-dark: #4a6b50;
+            --sidebar-width: 260px;
+            --bg-muted: #f8f6f0;
+        }
 
-body.theme-earth { --bg: #f9f3e8; --card: #fffdf7; --text: #1c1008; }
-body.theme-paper { --bg: #fdf8f0; --card: #ffffff; --text: #2a2a2a; }
-body.theme-contrast { --bg: #ffffff; --card: #f5f5f5; --text: #000000; }
+        body {
+            background: #fdfcf8;
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Nunito', sans-serif;
+            color: #2a2a2a;
+        }
 
-.dashboard-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-}
+        /* ── Gate ────────────────────────────────────────── */
+        #gate {
+            position: fixed; inset: 0; background: #fdfcf8;
+            display: flex; align-items: center; justify-content: center; z-index: 2000;
+        }
+        .gate-card {
+            background: #fff; padding: 3rem; border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+            max-width: 420px; width: 90%; text-align: center;
+        }
 
-/* Widgets Grid */
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
-}
-.stat-card {
-    background: var(--card, #fff);
-    border-radius: 20px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    border: 1px solid rgba(0,0,0,0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.2s;
-}
-.stat-card:hover { transform: translateY(-3px); }
-.stat-icon { font-size: 2rem; margin-bottom: 0.5rem; }
-.stat-value { font-size: 1.8rem; font-weight: 900; color: var(--cosy-green-dark); }
-.stat-label { font-size: 0.75rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.05em; }
+        /* ── Main Layout ─────────────────────────────────── */
+        #area { display: flex; width: 100%; height: 100%; }
 
-/* Visual Roadmap */
-.roadmap-section {
-    position: relative;
-    padding: 2rem 0 5rem;
-}
-.roadmap-path {
-    max-width: 400px;
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.roadmap-node {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: #e0e0e0;
-    margin: 2rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 1.2rem;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.roadmap-node:hover { transform: scale(1.15); z-index: 10; }
-.roadmap-node.completed { background: var(--cosy-green); color: #fff; }
-.roadmap-node.current {
-    background: var(--cosy-honey);
-    box-shadow: 0 0 0 8px rgba(232, 168, 56, 0.2);
-    animation: pulse-honey 2s infinite;
-}
-.roadmap-node.locked { background: #ccc; cursor: not-allowed; filter: grayscale(1); }
+        /* Sidebar */
+        aside.sidebar {
+            width: var(--sidebar-width);
+            background: #fff;
+            border-right: 1.5px solid #eee;
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            z-index: 100;
+        }
+        .profile-card {
+            background: var(--cosy-green-dark);
+            color: #fff;
+            padding: 1.25rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+        }
+        .stats-mini {
+            display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 1rem;
+        }
+        .stat-mini-item {
+            text-align: center; background: rgba(255,255,255,0.1); padding: 5px; border-radius: 10px;
+        }
+        .stat-mini-val { font-weight: 900; font-size: 0.9rem; display: block; }
+        .stat-mini-lbl { font-size: 0.55rem; opacity: 0.8; text-transform: uppercase; }
 
-@keyframes pulse-honey {
-    0% { box-shadow: 0 0 0 0 rgba(232, 168, 56, 0.4); }
-    70% { box-shadow: 0 0 0 15px rgba(232, 168, 56, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(232, 168, 56, 0); }
-}
+        .nav-menu { flex: 1; }
+        .nav-item {
+            display: flex; align-items: center; gap: 12px;
+            padding: 0.9rem 1rem; margin-bottom: 0.4rem;
+            border-radius: 12px; cursor: pointer;
+            font-weight: 700; color: #666; transition: all 0.2s;
+        }
+        .nav-item:hover { background: #f5f5f5; color: var(--cosy-green-dark); }
+        .nav-item.active { background: var(--cosy-green-dark); color: #fff; }
 
-/* Zig Zag Layout */
-.roadmap-node:nth-child(even) { transform: translateX(60px); }
-.roadmap-node:nth-child(odd) { transform: translateX(-60px); }
-.roadmap-node:nth-child(even):hover { transform: translateX(60px) scale(1.15); }
-.roadmap-node:nth-child(odd):hover { transform: translateX(-60px) scale(1.15); }
+        /* Main Content */
+        main.content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2rem 3rem;
+            background: #fdfcf8;
+        }
 
-/* Connection Lines (simplified) */
-.roadmap-path::before {
-    content: '';
-    position: absolute;
-    top: 40px;
-    bottom: 40px;
-    width: 6px;
-    background: rgba(0,0,0,0.05);
-    z-index: 1;
-}
+        .header-row {
+            display: flex; justify-content: space-between; align-items: flex-start;
+            margin-bottom: 2.5rem;
+        }
+        .welcome-msg h1 { font-family: 'Lora', serif; font-size: 2.2rem; margin: 0; color: var(--cosy-green-dark); }
+        .welcome-msg p { margin: 5px 0 0; color: #888; }
 
-/* Gate Override */
-#gate { min-height: 80vh; display: flex; align-items: center; justify-content: center; }
-.gate-card {
-    background: #fff; padding: 3rem; border-radius: 30px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
-    max-width: 400px; width: 100%; text-align: center;
-}
+        /* Widgets */
+        .widgets-grid {
+            display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.5rem; margin-bottom: 2.5rem;
+        }
+        .widget-card {
+            background: #fff; border-radius: 24px; padding: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03); border: 1px solid #f0f0f0;
+        }
+        .prep-card {
+            background: #4a6b50; color: #fff;
+        }
+        .prep-word {
+            background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 8px; font-size: 0.85rem; font-weight: 700;
+        }
 
-/* Navigation Overrides */
-nav.private-nav {
-    background: var(--cosy-green-dark);
-    color: #fff;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        /* Roadmap Path */
+        .roadmap-path {
+            position: relative; padding: 2rem 0;
+            display: flex; flex-direction: column; align-items: center;
+        }
+        .roadmap-path::before {
+            content: ''; position: absolute; top: 0; bottom: 0; left: 50%;
+            width: 4px; background: #eee; transform: translateX(-50%);
+        }
+        .chapter-node {
+            width: 60px; height: 60px; border-radius: 50%; background: #fff;
+            border: 4px solid #eee; margin: 1.5rem 0;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 900; z-index: 2; cursor: pointer; transition: all 0.3s;
+            position: relative;
+        }
+        .chapter-node.done { border-color: var(--cosy-green); background: var(--cosy-green); color: #fff; }
+        .chapter-node.current {
+            border-color: #e8a838; background: #e8a838; color: #fff;
+            box-shadow: 0 0 0 10px rgba(232,168,56,0.15);
+        }
+        .chapter-node:hover { transform: scale(1.1); }
 
-.view-switcher {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    justify-content: center;
-}
-.view-btn {
-    padding: 0.6rem 1.2rem;
-    border-radius: 999px;
-    border: 1.5px solid var(--cosy-green);
-    background: transparent;
-    font-weight: 800;
-    cursor: pointer;
-    color: var(--cosy-green);
-}
-.view-btn.active {
-    background: var(--cosy-green);
-    color: #fff;
-}
+        /* Zig-zag offset */
+        .chapter-node:nth-child(even) { margin-left: 100px; }
+        .chapter-node:nth-child(odd) { margin-right: 100px; }
+
+        /* Panels */
+        .panel { display: none; }
+        .panel.active { display: block; }
+
+        /* Utility */
+        .badge-new {
+            background: #fff8e7; color: #a06b10; padding: 3px 10px; border-radius: 20px; font-size: 0.7rem; font-weight: 800;
+        }
+        .btn-primary-new {
+            background: var(--cosy-green-dark); color: #fff; border: none; padding: 12px 24px; border-radius: 12px;
+            font-weight: 800; cursor: pointer; font-family: inherit; transition: opacity 0.2s;
+        }
+        .btn-primary-new:hover { opacity: 0.9; }
+
+        /* LD (Lesson Detail) Panel */
+        #ld {
+            position: fixed; right: -400px; top: 0; bottom: 0; width: 380px;
+            background: #fff; box-shadow: -10px 0 40px rgba(0,0,0,0.1);
+            padding: 2.5rem; transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 500; overflow-y: auto;
+        }
+        #ld.open { right: 0; }
+        .ld-close { position: absolute; top: 1.5rem; left: 1.5rem; cursor: pointer; font-size: 1.2rem; }
+
+        #ls { display: flex; flex-direction: column; gap: 1rem; }
     </style>
 </head>
-<body class="student-page">
+<body class="student-portal-pro">
 
-    <div id="gate">
+    <div id="gate" style="display: none;">
         <div class="gate-card">
-            <div style="font-size: 4rem; margin-bottom: 1.5rem;">🔓</div>
-            <h1 data-translate-key="student_area_title">Student Portal</h1>
-            <p data-translate-key="unlock_desc">Enter your code to unlock your learning path.</p>
-            <div style="margin: 2rem 0;">
+            <div style="font-size: 4rem; margin-bottom: 1rem;">🔓</div>
+            <h2 style="font-family: 'Lora', serif; font-size: 1.8rem; margin-bottom: 0.5rem;">Welcome to COSYportal</h2>
+            <p style="color: #666; margin-bottom: 2rem;">Unlock your personalised curriculum path.</p>
+            <div style="margin-bottom: 1.5rem;">
                 <input id="student-code" type="text" placeholder="COSY-EN-A1-GEN" style="width: 100%; padding: 1rem; border-radius: 15px; border: 2.5px solid #eee; text-align: center; font-family: monospace; font-size: 1.1rem; margin-bottom: 1rem;">
                 <div id="em" style="display: none; color: #c0392b; font-size: 0.85rem; margin-bottom: 1rem;">❌ Invalid Code</div>
-                <button onclick="cosyDays.unlock()" style="width: 100%; padding: 1rem; border-radius: 15px; border: none; background: var(--cosy-green-dark); color: #fff; font-weight: 900; font-size: 1rem; cursor: pointer;">Unlock Dashboard</button>
+                <button onclick="cosyDays.unlock()" class="btn-primary-new" style="width: 100%;">Unlock My Path</button>
             </div>
-            <p style="font-size: 0.8rem; color: #888;">Don't have a code? <a href="https://wa.me/330766784195" style="color: var(--cosy-green-dark); font-weight: 800;">Message us →</a></p>
+            <p style="font-size: 0.8rem; color: #888;">No code? <a href="https://wa.me/330766784195" style="color: var(--cosy-green-dark); font-weight: 800;">Message us →</a></p>
         </div>
     </div>
 
-    <div id="main-layout" style="display: none;">
-        <nav class="private-nav">
-            <div style="font-weight: 900; font-size: 1.2rem;">🏠 COSYportal</div>
-            <div style="display: flex; gap: 1rem; align-items: center;">
-                <span id="tb-course-name" style="font-size: 0.8rem; opacity: 0.8;">Course Name</span>
-                <button onclick="cosyDays.logout()" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); color: #fff; padding: 0.4rem 0.8rem; border-radius: 8px; font-size: 0.7rem; font-weight: 800; cursor: pointer;">Log Out</button>
-            </div>
-        </nav>
+    <div id="area">
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
+                <div style="font-weight: 900; font-size: 1.1rem;">Welcome back!</div>
+                <div id="tb-course-name" style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">EN · Starter · General</div>
 
-        <div class="dashboard-container">
-            <header style="margin-bottom: 2rem;">
-                <h1 id="wh" style="font-family: 'Lora', serif; font-size: 2.2rem; color: var(--cosy-green-dark);">Welcome back! 👋</h1>
-                <p id="wp" style="color: #666;">Ready for your next language challenge?</p>
-            </header>
-
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <span class="stat-icon">🔥</span>
-                    <span id="streak-val" class="stat-value">0</span>
-                    <span class="stat-label">Day Streak</span>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-icon">💎</span>
-                    <span id="points-val" class="stat-value">0</span>
-                    <span class="stat-label">COSY Points</span>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-icon">📓</span>
-                    <span id="notebook-val" class="stat-value">0</span>
-                    <span class="stat-label">Words Saved</span>
-                </div>
-                <div class="stat-card" style="background: var(--cosy-honey); color: #fff;">
-                    <span class="stat-icon">📅</span>
-                    <span id="next-lesson-val" class="stat-value" style="color: #fff; font-size: 1.1rem;">Tomorrow 10:00</span>
-                    <span class="stat-label" style="color: rgba(255,255,255,0.8);">Next Lesson</span>
+                <div class="stats-mini">
+                    <div class="stat-mini-item">
+                        <span id="streak-val" class="stat-mini-val">0</span>
+                        <span class="stat-mini-lbl">Streak</span>
+                    </div>
+                    <div class="stat-mini-item">
+                        <span id="done-val" class="stat-mini-val">0</span>
+                        <span class="stat-mini-lbl">Done</span>
+                    </div>
+                    <div class="stat-mini-item">
+                        <span id="points-val" class="stat-mini-val">0</span>
+                        <span class="stat-mini-lbl">Points</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="view-switcher">
-                <button id="btn-view-roadmap" class="view-btn active" onclick="cosyDays.switchView('roadmap')">Visual Path 🗺️</button>
-                <button id="btn-view-list" class="view-btn" onclick="cosyDays.switchView('list')">Detailed List 📋</button>
+            <nav class="nav-menu">
+                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-roadmap')"><span>🗺️</span> Roadmap</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-vocab')"><span>📓</span> Vocab Notebook</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-homework')"><span>📝</span> Homework</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-teacher')"><span>👩‍🏫</span> Teacher Hub</div>
+            </nav>
+
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #eee;">
+                <div class="nav-item" onclick="window.location.href='workbook.html?picker=true'" style="font-size: 0.85rem;"><span>📘</span> Open Workbook</div>
+                <button onclick="cosyDays.logout()" style="width: 100%; background: #f5f5f5; border: none; padding: 0.8rem; border-radius: 10px; font-weight: 800; cursor: pointer; margin-top: 10px; color: #888;">Log Out</button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="header-row">
+                <div class="welcome-msg">
+                    <h1 id="wh">Your Curriculum</h1>
+                    <p id="wp">Progressing from A1 to C2, step by step.</p>
+                </div>
+                <div id="bdg" style="display: flex; gap: 8px;"></div>
             </div>
 
-            <!-- Visual Roadmap View -->
-            <div id="view-roadmap" class="roadmap-section">
-                <div id="roadmap-path" class="roadmap-path">
-                    <!-- Nodes generated by JS -->
+            <!-- Widgets -->
+            <div class="widgets-grid">
+                <div class="widget-card prep-card">
+                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; opacity: 0.8; margin-bottom: 10px;">Pre-Lesson Warmup</div>
+                    <div style="font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 15px;">5 Words for your next session:</div>
+                    <div id="prep-words" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span class="prep-word">Apple</span>
+                        <span class="prep-word">House</span>
+                        <span class="prep-word">Water</span>
+                        <span class="prep-word">Friend</span>
+                        <span class="prep-word">Family</span>
+                    </div>
+                </div>
+                <div class="widget-card">
+                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: #888; margin-bottom: 10px;">Next Lesson</div>
+                    <div id="next-lesson-val" style="font-weight: 900; font-size: 1.2rem; color: var(--cosy-green-dark);">Monday 10:00</div>
+                    <div style="font-size: 0.85rem; color: #666; margin-top: 4px;">Unit 2: Family & Home</div>
                 </div>
             </div>
 
-            <!-- List View (Legacy curric view) -->
-            <div id="view-list" style="display: none;">
-                <div id="ls"></div>
+            <!-- Panels -->
+            <div id="panel-roadmap" class="panel active">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h3 style="margin: 0;">Learning Path</h3>
+                    <div style="display: flex; gap: 10px;">
+                        <button class="badge-new" onclick="cosyDays.switchView('roadmap')">Zig-Zag Path 🗺️</button>
+                        <button class="badge-new" onclick="cosyDays.switchView('list')">Detailed List 📋</button>
+                    </div>
+                </div>
+
+                <div id="view-roadmap" class="roadmap-section">
+                    <div id="roadmap-path" class="roadmap-path"></div>
+                </div>
+                <div id="view-list" style="display: none;">
+                    <div id="ls"></div>
+                </div>
             </div>
 
-            <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid #eee; text-align: center; color: #888; font-size: 0.8rem;">
-                <p>© 2025 COSYlanguages — Learning that feels like home.</p>
-            </footer>
+            <div id="panel-vocab" class="panel">
+                <h3>My Vocabulary Notebook</h3>
+                <p style="color: #666; font-size: 0.9rem; margin-bottom: 2rem;">Words you've encountered and mastered during practice.</p>
+                <div id="notebook-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+                    <div class="info-card-empty" style="text-align: center; grid-column: 1/-1; padding: 3rem; color: #888;">No words saved yet. Start practice to populate your notebook!</div>
+                </div>
+            </div>
+
+            <div id="panel-homework" class="panel">
+                <h3>Assigned Homework</h3>
+                <div id="homework-list" style="background: #fff; border-radius: 20px; padding: 2rem; border: 1px solid #eee;">
+                    <div style="text-align: center; color: #888; padding: 2rem;">No homework assigned for this unit. Enjoy your free time! 🥳</div>
+                </div>
+            </div>
+
+            <div id="panel-teacher" class="panel">
+                <div id="teacher-lock" style="text-align: center; padding: 5rem 0;">
+                    <div style="font-size: 3rem; margin-bottom: 1.5rem;">👩‍🏫</div>
+                    <h3>Teacher Dashboard</h3>
+                    <p style="color: #666; margin-bottom: 2rem;">Enter PIN to manage student assignments and view notes.</p>
+                    <input type="password" id="pin-input" style="max-width: 200px; padding: 1rem; border-radius: 15px; border: 2.5px solid #eee; text-align: center; margin-bottom: 1rem;" placeholder="****">
+                    <div id="pin-error" style="display: none; color: #c0392b; font-size: 0.8rem; margin-bottom: 1rem;">❌ Invalid PIN</div>
+                    <br>
+                    <button onclick="cosyDays.checkPin()" class="btn-primary-new">Unlock Dashboard</button>
+                </div>
+                <div id="teacher-content" style="display: none;">
+                    <h3>Hello Teacher! 👩‍🏫</h3>
+                    <div class="widget-card" style="margin-bottom: 2rem;">
+                        <h4>Assign Homework</h4>
+                        <div style="display: flex; gap: 10px; margin-top: 1rem;">
+                            <input type="text" id="hw-input" placeholder="e.g. Read article on B1 level..." style="flex: 1; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+                            <button onclick="cosyDays.assignHW()" class="btn-primary-new" style="padding: 10px 20px;">Assign</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Lesson Detail Side-panel -->
+        <div id="ld">
+            <span class="ld-close" onclick="cosyDays.closeLD()">✕</span>
+            <div id="ld-content"></div>
         </div>
     </div>
+
+    <div id="toast" class="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
 
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/curriculum_data.js"></script>
     <script src="../js/translate.js"></script>
     <script src="../js/days.js"></script>
-    <script src="../js/mobile.js"></script>
 </body>
 </html>

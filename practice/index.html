@@ -4,502 +4,370 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice 💡 — COSYlanguages</title>
-    <meta name="description" content="Free language practice — vocabulary, grammar and speaking exercises in English, French, Italian, Russian and Greek. All CEFR levels. No account needed.">
-    <meta property="og:title" content="Free Language Practice 💡 — COSYlanguages">
-    <meta property="og:description" content="Vocabulary, grammar and speaking exercises. Free, no account needed. 5 languages, all CEFR levels.">
-    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/practice.html">
+    <meta name="description" content="Free language practice — vocabulary, grammar and speaking exercises. Earn COSY points, build your streak.">
     <link rel="icon" href="../images/cosylanguages.png">
     <link rel="manifest" href="../manifest.json">
-    <meta name="theme-color" content="#4a6b50">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-    <link rel="apple-touch-icon" href="../images/cosylanguages.png">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#1C1917">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mobile.css">
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js')
-        .catch(e => console.log('SW:', e));
-    }
-    </script>
+    <link rel="stylesheet" href="../css/practice-new.css">
 </head>
-<body class="practice-page">
+<body class="practice-page-new">
     <div id="answer-flash" class="answer-flash"></div>
-    <nav id="main-nav">
-      <a class="nav-logo" href="../index.html">
-        <img src="../images/cosylanguages.png" alt="COSYlanguages">
-      </a>
-      <ul class="nav-links">
-        <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
-        <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
-        <li><a href="../index.html#languages" data-translate-key="nav_languages">Languages</a></li>
-        <li><a href="index.html" class="active" data-translate-key="nav_practice">Practice</a></li>
-        <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-        <li><a href="../games/index.html" data-translate-key="nav_events">Events 🎉</a></li>
-        <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
-        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
-      </ul>
-      <div class="nav-lang-switcher">
-        <span class="nav-lang-label">Explore a language:</span>
-        <div class="nav-lang">
-          <a href="../languages/en.html" data-lang="en">EN</a><a href="../languages/fr.html" data-lang="fr">FR</a><a href="../languages/it.html" data-lang="it">IT</a><a href="../languages/ru.html" data-lang="ru">RU</a><a href="../languages/el.html" data-lang="el">EL</a>
+
+    <!-- NAV -->
+    <nav>
+        <a class="nav-logo" href="../index.html">
+            <img src="../images/cosylanguages.png" alt="COSYlanguages">
+            <span>COSYlanguages</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html" class="active">Practice 💡</a></li>
+            <li><a href="../games/index.html">Games 🎮</a></li>
+            <li><a href="../portal/index.html">My Lessons 🔐</a></li>
+            <li><a href="https://wa.me/330766784195" target="_blank">Contact 💬</a></li>
+        </ul>
+        <div class="nav-pts">
+            <div class="pts-pill">✨ <span id="nav-pts">0</span> pts</div>
+            <div class="streak-pill">🔥 <span id="nav-streak">0</span> day streak</div>
         </div>
-      </div>
     </nav>
 
-    <header class="practice-header">
-      <div class="practice-header-inner">
-        <div class="ph-free-label">✅ Free — no account needed</div>
-        <h1>Practice 💡</h1>
-        <p>Vocabulary, grammar and speaking exercises across all our languages.
-           Earn COSY points, build your daily streak, and get better between lessons.</p>
-        <!-- Speaking highlight — this is COSYlanguages' USP -->
-        <div class="ph-speak-note">
-          <span>🗣️</span>
-          <span>The <strong>Speaking</strong> category is our favourite — real conversations, not just word lists. Try it first.</span>
+    <div class="page">
+        <!-- DASHBOARD HEADER -->
+        <div class="dash-hero fade-in">
+            <div>
+                <div class="dash-greeting">Ready to practise?<br><strong>Pick a language</strong> and <em>let's go.</em></div>
+                <div class="dash-stats-row">
+                    <div class="dash-stat">
+                        <div class="ds-icon">✨</div>
+                        <div><div class="ds-val" id="total-pts">0</div><div class="ds-lbl">COSY Points</div></div>
+                    </div>
+                    <div class="dash-stat">
+                        <div class="ds-icon">✅</div>
+                        <div><div class="ds-val" id="total-correct">0</div><div class="ds-lbl">Correct today</div></div>
+                    </div>
+                    <div class="dash-stat">
+                        <div class="ds-icon">📓</div>
+                        <div><div class="ds-val" id="total-sessions">0</div><div class="ds-lbl">Sessions</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="streak-ring-wrap fade-in">
+                <div class="streak-ring">
+                    <svg width="88" height="88" viewBox="0 0 88 88">
+                        <circle cx="44" cy="44" r="36" fill="none" stroke="var(--border)" stroke-width="6"/>
+                        <circle id="streak-arc" cx="44" cy="44" r="36" fill="none" stroke="var(--coral)" stroke-width="6" stroke-linecap="round"
+                            stroke-dasharray="226" stroke-dashoffset="226" style="transition:stroke-dashoffset 1s ease"/>
+                    </svg>
+                    <div class="streak-ring-inner">
+                        <div class="sri-val" id="streak-val">0</div>
+                        <div class="sri-lbl">days</div>
+                    </div>
+                </div>
+                <div class="streak-ring-sub">🔥 Daily streak</div>
+            </div>
         </div>
-      </div>
-    </header>
 
-    <main>
-        <section id="practice-container">
-            <h2 data-translate-key="practice_title" class="hidden">Practice 💡</h2>
+        <!-- DAILY CHALLENGE -->
+        <div class="daily-challenge fade-in" id="daily-challenge">
+            <div class="dc-label">📅 Daily Challenge</div>
+            <div class="dc-title" id="dc-title">Loading today's challenge…</div>
+            <div class="dc-sub" id="dc-sub"></div>
+            <div class="dc-meta" id="dc-meta"></div>
+            <div class="dc-actions">
+                <button class="dc-btn" id="dc-start-btn" onclick="cosyPractice.startDailyChallenge()">▶ Start challenge</button>
+                <button class="dc-skip" onclick="cosyPractice.skipDailyChallenge()">Skip today →</button>
+                <div class="dc-done-badge" id="dc-done-badge">✓ Completed today</div>
+            </div>
+        </div>
 
-            <div id="setup-section" class="setup-card">
-                <details class="help-details glass centered-info" open>
-                    <summary data-translate-key="how_it_works">How it works? 💡</summary>
-                    <div class="info-content">
-                        <ul class="info-list">
-                            <li data-translate-key="practice_guide_1">1. Select the language you want to learn.</li>
-                            <li data-translate-key="practice_guide_2">2. Choose a category: Vocabulary (words), Grammar (rules), or Speaking (conversations).</li>
-                            <li data-translate-key="practice_guide_3">3. Filter by Level and Theme to find the perfect practice set.</li>
-                            <li data-translate-key="practice_guide_4">4. Earn 10 COSY points for each correct answer! Try to maintain your daily streak.</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <div class="total-progress-display glass">
-                    <span data-translate-key="total_score_label">Total Progress: 🏆</span>
-                    <span id="setup-total-score">0</span>
-                    <span class="points-label" data-translate-key="points_label">COSY Points</span>
+        <!-- QUICK START -->
+        <div class="fade-in">
+            <div class="sec-title">⚡ Quick start <span>Jump straight in</span></div>
+            <div class="quickstart-grid">
+                <div class="qs-card" style="--qs-color:var(--teal)" onclick="cosyPractice.quickStart('en','vocab','starter','Daily Life')">
+                    <div class="qs-icon">🇬🇧</div>
+                    <div class="qs-name">English · Vocab</div>
+                    <div class="qs-sub">A1 · Daily Life</div>
                 </div>
-
-                <div class="practice-suggest">
-                  <span>👋 New here?</span>
-                  <span>Try: <strong>English</strong> · <strong>Speaking</strong> · <strong>Starter (A1)</strong> · Conversation</span>
+                <div class="qs-card" style="--qs-color:var(--coral)" onclick="cosyPractice.quickStart('en','speaking','intermediate','Conversation')">
+                    <div class="qs-icon">🗣️</div>
+                    <div class="qs-name">English · Speaking</div>
+                    <div class="qs-sub">B1 · Conversation</div>
                 </div>
-
-                <!-- 1. Language Selection -->
-                <div class="setup-group full-width">
-                    <label data-translate-key="select_practice_language">1. Select language to practice 🌍</label>
-
-                    <div class="lang-selection-container lang-selector-mobile">
-                        <div class="lang-group taught-languages">
-                            <div class="lang-selection-grid" id="lang-selection-grid-main">
-                                <div class="lang-selection-card active highlighted lang-flag-btn" data-value="en">
-                                    <span class="flag">🇬🇧</span>
-                                    <span class="name lf-label" data-translate-key="english">English</span>
-                                </div>
-                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="fr">
-                                    <span class="flag">🇫🇷</span>
-                                    <span class="name lf-label" data-translate-key="french">Français</span>
-                                </div>
-                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="it">
-                                    <span class="flag">🇮🇹</span>
-                                    <span class="name lf-label" data-translate-key="italian">Italiano</span>
-                                </div>
-                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="ru">
-                                    <span class="flag">🇷🇺</span>
-                                    <span class="name lf-label" data-translate-key="russian">Русский</span>
-                                </div>
-                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="el">
-                                    <span class="flag">🇬🇷</span>
-                                    <span class="name lf-label" data-translate-key="greek">Ελληνικά</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="lang-group other-languages">
-                            <div class="lang-selection-grid compact" id="lang-selection-grid-other">
-                                <div class="lang-selection-card lang-flag-btn" data-value="es">
-                                    <span class="flag">🇪🇸</span>
-                                    <span class="name lf-label" data-translate-key="spanish">Español</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="de">
-                                    <span class="flag">🇩🇪</span>
-                                    <span class="name lf-label" data-translate-key="german">Deutsch</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="pt">
-                                    <span class="flag">🇵🇹</span>
-                                    <span class="name lf-label" data-translate-key="portuguese">Português</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="hy">
-                                    <span class="flag">🇦🇲</span>
-                                    <span class="name lf-label" data-translate-key="armenian">Հայերენ</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="ka">
-                                    <span class="flag">🇬🇪</span>
-                                    <span class="name lf-label" data-translate-key="georgian">ქართული</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="tt">
-                                    <span class="flag"><img src="../images/tatarstan_flag.png" class="emoji-flag" alt="Tatar"></span>
-                                    <span class="name lf-label" data-translate-key="tatar">Татарча</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="ba">
-                                    <span class="flag"><img src="../images/bashkortostan_flag.png" class="emoji-flag" alt="Bashkir"></span>
-                                    <span class="name lf-label" data-translate-key="bashkir">Башҡортса</span>
-                                </div>
-                                <div class="lang-selection-card lang-flag-btn" data-value="br">
-                                    <span class="flag"><img src="../images/brittany_flag.png" class="emoji-flag" alt="Breton"></span>
-                                    <span class="name lf-label" data-translate-key="breton">Brezhoneg</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="qs-card" style="--qs-color:var(--plum)" onclick="cosyPractice.quickStart('fr','vocab','starter','Greetings')">
+                    <div class="qs-icon">🇫🇷</div>
+                    <div class="qs-name">Français · Vocab</div>
+                    <div class="qs-sub">A1 · Greetings</div>
                 </div>
+                <div class="qs-card" style="--qs-color:var(--gold)" onclick="cosyPractice.quickStart('en','grammar','intermediate','Tenses')">
+                    <div class="qs-icon">📐</div>
+                    <div class="qs-name">English · Grammar</div>
+                    <div class="qs-sub">B1 · Tenses</div>
+                </div>
+                <div class="qs-card" style="--qs-color:var(--blue)" onclick="cosyPractice.openWheel()">
+                    <div class="qs-icon">🎡</div>
+                    <div class="qs-name">Surprise me!</div>
+                    <div class="qs-sub">Spin the wheel</div>
+                </div>
+                <div class="qs-card" style="--qs-color:var(--coral)" onclick="cosyPractice.startMistakeReview()">
+                    <div class="qs-icon">❌</div>
+                    <div class="qs-name">Review mistakes</div>
+                    <div class="qs-sub" id="mistake-count-qs">0 words to review</div>
+                </div>
+            </div>
+        </div>
 
-                <div class="setup-row">
-                    <!-- 2. Category Selection -->
-                    <div class="setup-group">
-                        <label data-translate-key="category_label">2. Select categories: 🏷️</label>
-                        <div class="chips-group category-pills-mobile">
-                            <label class="toggle-chip">
-                                <input type="radio" name="practice-cat" id="cat-vocab" checked>
-                            <span class="cat-pill cat-vocab-pill" data-translate-key="cat_vocab">Vocab</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="radio" name="practice-cat" id="cat-grammar">
-                            <span class="cat-pill cat-grammar-pill" data-translate-key="cat_grammar">Grammar</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="radio" name="practice-cat" id="cat-speaking">
-                            <span class="category-btn-speaking cat-pill speaking-pill cat-speaking-pill" data-translate-key="cat_speaking">Speaking</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="radio" name="practice-cat" id="cat-pronunciation">
-                            <span class="cat-pill cat-pronunciation-pill" data-translate-key="cat_pronunciation">Pronunciation</span>
-                            </label>
+        <!-- SETUP PANEL -->
+        <div class="fade-in" id="setup-section">
+            <div class="sec-title">⚙️ Custom practice <span>Choose exactly what you want to practise</span></div>
+            <div class="setup-panel">
+                <div class="setup-grid">
+                    <!-- Language -->
+                    <div class="setup-full">
+                        <label class="field-label">1 · Language</label>
+                        <div class="lang-pills" id="lang-pills">
+                            <div class="lang-pill active" data-value="en">🇬🇧 English</div>
+                            <div class="lang-pill" data-value="fr">🇫🇷 Français</div>
+                            <div class="lang-pill" data-value="it">🇮🇹 Italiano</div>
+                            <div class="lang-pill" data-value="ru">🇷🇺 Русский</div>
+                            <div class="lang-pill" data-value="el">🇬🇷 Ελληνικά</div>
+                            <div class="lang-pill" data-value="es">🇪🇸 Español</div>
+                            <div class="lang-pill" data-value="de">🇩🇪 Deutsch</div>
+                            <div class="lang-pill" data-value="pt">🇵🇹 Português</div>
                         </div>
                     </div>
 
-                    <!-- 3. Level & Theme Selection -->
-                    <div class="setup-group">
-                        <label for="practice-level" data-translate-key="select_level">3. Select Level 📊</label>
-                        <select id="practice-level" class="pill-input">
-                            <option value="all" data-translate-key="level_all">All Levels</option>
-                            <option value="starter" data-translate-key="starter">Starter (A1)</option>
-                            <option value="elementary" data-translate-key="elementary">Primary school (A2)</option>
-                            <option value="intermediate" data-translate-key="intermediate">Middle school (B1)</option>
-                            <option value="upper-intermediate" data-translate-key="upper_intermediate">High school (B2)</option>
-                            <option value="advanced" data-translate-key="advanced">University (C1)</option>
-                            <option value="proficiency" data-translate-key="proficiency">Professor (C2)</option>
+                    <!-- Category -->
+                    <div class="setup-full">
+                        <label class="field-label">2 · Category</label>
+                        <div class="cat-pills" id="cat-pills">
+                            <div class="cat-pill active" data-value="vocab">📖 Vocabulary</div>
+                            <div class="cat-pill" data-value="grammar">📐 Grammar</div>
+                            <div class="cat-pill" data-value="speaking">🗣️ Speaking</div>
+                            <div class="cat-pill" data-value="pronunciation">🎵 Pronunciation</div>
+                        </div>
+                    </div>
+
+                    <!-- Level -->
+                    <div>
+                        <label class="field-label">3 · Level</label>
+                        <select class="styled-select" id="practice-level">
+                            <option value="all">All levels</option>
+                            <option value="starter">Starter (A1)</option>
+                            <option value="elementary">Primary (A2)</option>
+                            <option value="intermediate">Middle (B1)</option>
+                            <option value="upper-intermediate">High (B2)</option>
+                            <option value="advanced">Uni (C1)</option>
+                            <option value="proficiency">Prof (C2)</option>
                         </select>
                     </div>
 
-                    <div class="setup-group">
-                        <label for="practice-theme" data-translate-key="select_theme">4. Select Theme 🎨</label>
-                        <select id="practice-theme" class="pill-input">
-                            <option value="all" data-translate-key="theme_all">All Themes</option>
+                    <!-- Theme -->
+                    <div>
+                        <label class="field-label">4 · Theme</label>
+                        <select class="styled-select" id="practice-theme">
+                            <option value="all">All themes</option>
                         </select>
                     </div>
 
-                    <div class="setup-group sub-theme-group hidden">
-                        <label for="practice-sub-theme">5. Select Sub-Theme 🔍</label>
-                        <select id="practice-sub-theme" class="pill-input">
-                            <option value="all" data-translate-key="theme_all">All Sub-Themes</option>
-                        </select>
-                    </div>
-
-                    <div id="theme-description" class="theme-desc-box hidden"></div>
-                </div>
-
-                <!-- 4. Advanced Options -->
-                <details class="advanced-options">
-                    <summary data-translate-key="task_type_label">Advanced: Task Types ⚙️</summary>
-                    <div class="setup-group full-width adv-group-top">
-                        <div class="chips-group wrap">
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-mc" checked>
-                                <span data-translate-key="type_mc">Multiple Choice</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-ls" checked>
-                                <span data-translate-key="type_ls">Listen & Select</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-sc" checked>
-                                <span data-translate-key="type_sc">Scramble</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-ws" checked>
-                                <span data-translate-key="type_ws">Sentence Builder</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-op" checked>
-                                <span data-translate-key="type_op">Opposite</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-cl" checked>
-                                <span data-translate-key="type_cl">Cloze (Typing)</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-tf" checked>
-                                <span data-translate-key="type_tf">True/False</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-ga" checked>
-                                <span data-translate-key="type_ga">Gender & Articles</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-cv" checked>
-                                <span data-translate-key="type_cv">Conversation</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-np" checked>
-                                <span data-translate-key="type_np">Numbers & Plurals</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-ma" checked>
-                                <span data-translate-key="type_ma">Matching</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-si" checked>
-                                <span data-translate-key="type_si">Sorting</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-lp" checked>
-                                <span data-translate-key="type_lp">Label Pictures</span>
-                            </label>
-                            <label class="toggle-chip">
-                                <input type="checkbox" id="type-bb" checked>
-                                <span data-translate-key="type_bb">Word Bank</span>
-                            </label>
-                        </div>
-                    </div>
-                </details>
-
-                <div class="setup-actions">
-                    <button id="start-btn" class="cta-button primary" data-translate-key="start_practice">Start Practice 🚀</button>
-                    <button id="quick-start-btn" class="cta-button secondary">Quick Start ⚡</button>
-                    <button id="daily-challenge-btn" class="cta-button secondary">Daily Challenge 📅</button>
-                    <button id="review-mistakes-btn" class="cta-button secondary">Review Mistakes ❌</button>
-                    <button id="wheel-mode-btn" class="cta-button secondary" data-translate-key="wheel_mode">Spinning Wheel 🎡</button>
-                    <button id="resume-btn" class="cta-button secondary hidden" data-translate-key="resume_practice">Resume Practice 🔁</button>
-                    <button id="share-link-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
-                    <button id="pin-practice-btn" class="cta-button secondary" style="width: 100%; border: 2px solid var(--border);" data-translate-key="pin_practice_btn">Pin to Home Screen 📲</button>
-                </div>
-            </div>
-
-            <div id="practice-section" class="session-ui-mobile hidden">
-                <div class="session-progress-mobile"><div class="session-progress-fill"></div></div>
-                <div class="session-stats-mobile">
-                  <span id="mobile-score-display">✨ 0</span>
-                  <span id="mobile-streak-display">🔥 0</span>
-                </div>
-                <!-- Spinning Wheel Section -->
-                <div id="wheel-container" class="hidden text-center margin-bottom-lg">
-                    <div class="wheel-wrapper relative inline-block">
-                        <canvas id="wheel-canvas" width="500" height="500"></canvas>
-                        <div id="wheel-pointer">▼</div>
-                    </div>
-                    <div class="wheel-controls">
-                        <button id="spin-btn" class="cta-button primary" data-translate-key="spin_btn">Spin! 🎡</button>
-                    </div>
-
-                    <div id="wheel-question-area" class="wheel-question-area hidden">
-                        <div id="wheel-question-card" class="event-item glass">
-                            <div id="wheel-emoji-display" class="practice-emoji"></div>
-                            <div id="wheel-word-display" class="word-text"></div>
-                            <div id="wheel-subtext-display" class="subtext-display"></div>
-                            <div class="wheel-action-buttons">
-                                <button id="wheel-respond-btn" class="topics-toggle-btn" data-translate-key="respond_btn">Respond ✍️</button>
-                                <button id="wheel-skip-btn" class="topics-toggle-btn secondary-btn" data-translate-key="skip_btn">Skip ⏭️</button>
-                                <button id="wheel-done-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
-                            </div>
+                    <!-- Task types -->
+                    <div class="setup-full">
+                        <label class="field-label">5 · Task types</label>
+                        <div class="task-grid" id="task-grid">
+                            <div class="task-toggle active" data-task="mc"><span class="task-toggle-icon">🔘</span>Multiple choice</div>
+                            <div class="task-toggle active" data-task="tf"><span class="task-toggle-icon">✅</span>True / False</div>
+                            <div class="task-toggle" data-task="cl"><span class="task-toggle-icon">✍️</span>Cloze / typing</div>
+                            <div class="task-toggle" data-task="sc"><span class="task-toggle-icon">🔀</span>Sentence scramble</div>
+                            <div class="task-toggle" data-task="op"><span class="task-toggle-icon">↔️</span>Opposites</div>
+                            <div class="task-toggle" data-task="ls"><span class="task-toggle-icon">🔊</span>Listen & select</div>
+                            <div class="task-toggle" data-task="cv"><span class="task-toggle-icon">💬</span>Conversation</div>
+                            <div class="task-toggle" data-task="np"><span class="task-toggle-icon">🔢</span>Numbers</div>
                         </div>
                     </div>
                 </div>
 
-                <div id="practice-progress" class="progress-bar-container">
-                    <div id="progress-fill" class="progress-fill"></div>
+                <div class="start-bar">
+                    <button class="btn-start" id="start-btn" onclick="startPractice()">▶ Start practice</button>
+                    <button class="btn-outline" onclick="cosyPractice.openWheel()">🎡 Spin the wheel</button>
+                    <button id="resume-btn" class="btn-outline hidden">Resume Practice 🔁</button>
                 </div>
-                <div id="progress-text"></div>
-
-                <div id="question-card" class="event-item question-card-mobile">
-                    <div id="word-meta" class="word-meta-container hidden">
-                        <span id="word-form" class="meta-badge form-badge"></span>
-                        <span id="word-level" class="meta-badge level-badge"></span>
-                    </div>
-
-                    <div class="task-header">
-                        <div id="emoji-display" class="practice-emoji large-emoji"></div>
-                        <div id="task-instruction" class="task-text"></div>
-                        <div id="task-what-to-do" class="what-to-do-box hidden"></div>
-                    </div>
-
-                    <div id="task-example" class="subtext-display task-example hidden"></div>
-
-                    <div class="word-container stack-column gap-sm margin-bottom-xl">
-                        <div id="word-display" class="word-text jumbo-text"></div>
-                        <div id="subtext-display" class="subtext-display"></div>
-                        <button id="listen-btn" class="cta-button secondary btn-sm" data-translate-key="listen_btn">Listen 🔊</button>
-                    </div>
-
-                    <div id="answer-area" class="answers-mobile">
-                        <!-- Opposite/Cloze task -->
-                        <div id="opposite-input-container" class="hidden stack-column align-center full-width">
-                            <input type="text" id="opposite-answer" class="app-input jumbo-input" data-translate-key="placeholder_type_here" placeholder="..." autocomplete="off" autocapitalize="off" spellcheck="false">
-                        </div>
-
-                        <div id="action-buttons-container" class="hidden">
-                            <button id="check-opposite-btn" class="cta-button primary" data-translate-key="check_btn">Check 🔍</button>
-                            <button id="hint-btn" class="cta-button secondary" data-translate-key="hint_btn">Hint 💡</button>
-                        </div>
-
-                        <!-- True/False task -->
-                        <div id="tf-buttons-container" class="hidden">
-                            <button id="true-btn" class="topics-toggle-btn" data-translate-key="true_btn">True ✅</button>
-                            <button id="false-btn" class="topics-toggle-btn" data-translate-key="false_btn">False ❌</button>
-                        </div>
-
-                        <!-- Multiple Choice task -->
-                        <div id="choices-grid" class="choices-grid hidden">
-                            <!-- Buttons will be generated here -->
-                        </div>
-
-                        <!-- Scramble task -->
-                        <div id="scramble-container" class="hidden">
-                            <div id="word-assembly" class="word-assembly"></div>
-                            <div id="scramble-letters" class="choices-grid"></div>
-                            <button id="clear-scramble-btn" class="topics-toggle-btn secondary-btn" data-translate-key="clear_btn">Clear 🔄</button>
-                        </div>
-
-                        <!-- Conversation task -->
-                        <div id="conversation-container" class="hidden">
-                            <textarea id="conversation-response" class="pill-input area-input" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
-                            <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
-                        </div>
-
-                        <!-- Matching task -->
-                        <div id="matching-container" class="hidden full-width">
-                            <div class="match-container">
-                                <div><div class="match-col-title" data-translate-key="match_words">Words</div><div id="match-words" class="match-items"></div></div>
-                                <div><div class="match-col-title" data-translate-key="match_defs">Definitions</div><div id="match-defs" class="match-items"></div></div>
-                            </div>
-                        </div>
-
-                        <!-- Sorting task -->
-                        <div id="sorting-container" class="hidden full-width">
-                            <div id="sorting-item" class="sorting-active-item"></div>
-                            <div id="sorting-buckets" class="sorting-buckets-grid"></div>
-                        </div>
-
-                        <!-- Labeling task -->
-                        <div id="labeling-container" class="hidden full-width">
-                            <div id="labeling-image-area" class="labeling-image-container"></div>
-                            <div id="labeling-input-area" class="labeling-input-container"></div>
-                        </div>
-
-                        <!-- Word Bank task -->
-                        <div id="word-bank-container" class="hidden full-width">
-                            <div id="word-bank-sentence" class="word-bank-sentence"></div>
-                            <div id="word-bank-box" class="choices-grid"></div>
-                        </div>
-                    </div>
-
-                    <div id="feedback-message" class="feedback-text"></div>
-                    <button id="next-btn" class="cta-button hidden" data-translate-key="next_word">Next Word ➡️</button>
-                </div>
-
-                <div class="practice-footer">
-                    <div><span data-translate-key="score_label">COSY Points: ✨</span> <span id="score-count">0</span></div>
-                    <div><span data-translate-key="total_score_label">Total: 🏆</span> <span id="total-score-count">0</span></div>
-                    <div><span data-translate-key="streak_label">Daily Streak: 🔥</span> <span id="streak-count">0</span></div>
-                </div>
-                <div class="exit-container">
-                    <button id="exit-practice-btn" class="cta-button secondary" data-translate-key="exit_btn">Exit Practice 🏠</button>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div id="definition-modal" class="modal-overlay hidden">
-        <div class="modal-content glass">
-            <h2 id="definition-modal-title" data-translate-key="definition_modal_title">Definition 📖</h2>
-            <div id="definition-content" class="definition-body">
-                <!-- Content will be injected here -->
-            </div>
-            <button id="close-definition-btn" class="cta-button" data-translate-key="close_btn">Close ❌</button>
-        </div>
-    </div>
-
-    <div id="summary-modal" class="modal-overlay hidden">
-        <div class="modal-content glass">
-            <h2 data-translate-key="session_summary_title">Session Summary 🎉</h2>
-            <div class="summary-stats">
-                <div class="stat-item">
-                    <p data-translate-key="session_points">Session Points:</p>
-                    <span id="final-score" class="stat-value">0</span>
-                    <span class="stat-emoji">✨</span>
-                </div>
-                <div class="stat-item">
-                    <p data-translate-key="total_points">Total Points:</p>
-                    <span id="final-total-score" class="stat-value">0</span>
-                    <span class="stat-emoji">🏆</span>
-                </div>
-                <div class="stat-item">
-                    <p data-translate-key="streak_label">Daily Streak: 🔥</p>
-                    <span id="final-streak" class="stat-value">0</span>
-                    <span id="streak-unit" class="stat-unit" data-translate-key="streak_days">days</span>
-                </div>
-            </div>
-            <button id="back-to-menu-btn" class="cta-button" data-translate-key="back_to_menu">Back to Menu 🏠</button>
-            <div class="summary-cta">
-              <p>Want to go deeper? A real lesson takes you further.</p>
-              <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson%20after%20practising."
-                 class="summary-wa-btn">💬 Book a lesson →</a>
             </div>
         </div>
+
+        <!-- SPINNING WHEEL -->
+        <div class="wheel-section fade-in" id="wheel-container" style="display:none">
+            <div class="sec-title" style="justify-content:center">🎡 Spinning Wheel</div>
+            <p style="font-size:.84rem;color:var(--ink-muted);margin-bottom:.5rem">Spin for a random practice set — commit to whatever it lands on!</p>
+            <div class="wheel-wrap">
+                <div class="wheel-pointer">▼</div>
+                <canvas class="wheel-canvas" id="wheel-canvas" width="200" height="200"></canvas>
+            </div>
+            <div><button class="wheel-btn" id="spin-btn">Spin! 🎡</button></div>
+            <div class="wheel-result" id="wheel-result"></div>
+
+            <div id="wheel-question-area" class="hidden" style="margin-top: 2rem; padding: 2rem; background: var(--warm-white); border-radius: var(--r-xl); border: 1px solid var(--border);">
+                 <div id="wheel-emoji-display" style="font-size: 3rem; margin-bottom: 1rem;"></div>
+                 <div id="wheel-word-display" style="font-family: 'Fraunces', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;"></div>
+                 <div id="wheel-subtext-display" style="color: var(--ink-muted); margin-bottom: 2rem;"></div>
+                 <div style="display: flex; gap: 10px; justify-content: center;">
+                    <button id="wheel-respond-btn" class="btn-start">Respond ✍️</button>
+                    <button id="wheel-skip-btn" class="btn-outline">Skip ⏭️</button>
+                    <button id="wheel-done-btn" class="btn-start" style="background: var(--green);">Done ✅</button>
+                 </div>
+            </div>
+
+            <div style="margin-top:1.5rem"><button class="btn-outline" onclick="cosyPractice.closeWheel()">← Back to practice</button></div>
+        </div>
+
+        <!-- PRACTICE ENGINE -->
+        <div class="practice-engine fade-in" id="practice-section">
+            <div class="pe-topbar">
+                <div class="pe-info">
+                    <div class="pe-session-label">Practising now</div>
+                    <div class="pe-session-title" id="pe-session-title">English · Vocabulary · A1</div>
+                </div>
+                <div class="pe-counters">
+                    <div class="pe-counter"><div class="pec-val" id="score-count">0</div><div class="pec-lbl">Points</div></div>
+                    <div class="pe-counter"><div class="pec-val" id="streak-count">0</div><div class="pec-lbl">Streak</div></div>
+                    <div class="pe-counter"><div class="pec-val" id="q-num">1</div><div class="pec-lbl">Question</div></div>
+                </div>
+            </div>
+            <div class="pe-progress-bar"><div id="progress-fill" class="pe-progress-fill" style="width:0%"></div></div>
+
+            <div class="pe-body" id="pe-body">
+                <div id="word-meta" class="hidden" style="margin-bottom: 1rem; display: flex; gap: 8px;">
+                    <span id="word-form" class="meta-badge"></span>
+                    <span id="word-level" class="meta-badge"></span>
+                </div>
+
+                <div class="task-header" style="text-align: center; margin-bottom: 2rem;">
+                    <div id="emoji-display" class="large-emoji" style="font-size: 4rem; margin-bottom: 1rem;"></div>
+                    <div id="task-instruction" class="pe-task-type" style="font-size: 0.8rem; letter-spacing: 0.1em;"></div>
+                    <div id="task-what-to-do" class="pe-question"></div>
+                </div>
+
+                <div id="task-example" class="pe-question-sub hidden" style="text-align: center; font-style: italic;"></div>
+
+                <div id="word-container" style="text-align: center; margin-bottom: 2rem;">
+                    <div id="word-display" class="pe-question" style="font-size: 2.5rem;"></div>
+                    <div id="subtext-display" class="pe-question-sub"></div>
+                    <button id="listen-btn" class="btn-outline" style="margin-top: 1rem;">Listen 🔊</button>
+                </div>
+
+                <div id="answer-area">
+                    <!-- Multiple Choice -->
+                    <div id="choices-grid" class="mc-options hidden"></div>
+
+                    <!-- Typing -->
+                    <div id="opposite-input-container" class="hidden">
+                        <div class="type-wrap">
+                            <input type="text" id="opposite-answer" class="type-input" placeholder="Type here..." autocomplete="off">
+                            <button id="check-opposite-btn" class="btn-start">Check 🔍</button>
+                        </div>
+                    </div>
+
+                    <!-- True/False -->
+                    <div id="tf-buttons-container" class="tf-btns hidden">
+                        <button id="true-btn" class="tf-btn">✅ True</button>
+                        <button id="false-btn" class="tf-btn">❌ False</button>
+                    </div>
+
+                    <!-- Scramble -->
+                    <div id="scramble-container" class="hidden">
+                        <div id="word-assembly" style="min-height: 50px; border-bottom: 2px solid var(--border); margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px;"></div>
+                        <div id="scramble-letters" class="mc-options" style="grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));"></div>
+                        <button id="clear-scramble-btn" class="btn-outline" style="margin-top: 1rem;">Clear 🔄</button>
+                    </div>
+
+                    <!-- Conversation -->
+                    <div id="conversation-container" class="hidden">
+                         <div style="background:var(--cream);border-radius:var(--r-lg);padding:1rem 1.2rem;margin-bottom:1.3rem;border:1px solid var(--border)">
+                            <div style="font-size:.75rem;color:var(--ink-faint);margin-bottom:.4rem">🗣️ Speak your answer aloud</div>
+                            <textarea id="conversation-response" class="styled-select" style="height: 120px; background: #fff; margin-top: 10px;" placeholder="Optional: type key words here..."></textarea>
+                         </div>
+                         <button id="finish-conversation-btn" class="btn-start" style="width: 100%; justify-content: center;">Done ✅</button>
+                    </div>
+                </div>
+
+                <div id="feedback-message" class="pe-feedback"></div>
+
+                <div class="pe-controls" style="margin-top: 2rem;">
+                    <button id="next-btn" class="pe-btn-next hidden">Next Word ➡️</button>
+                    <button id="hint-btn" class="pe-btn-hint">💡 Hint</button>
+                    <button id="exit-practice-btn" class="pe-btn-exit">Exit ✕</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUMMARY MODAL (Re-styled as page content or modal) -->
+        <div class="summary fade-in" id="summary-modal">
+            <div class="sum-icon">🎉</div>
+            <div class="sum-title">Session complete!</div>
+            <div class="sum-sub">Great practice — keep the streak going!</div>
+            <div class="sum-stats">
+                <div class="sum-stat"><div class="sum-stat-val" id="final-score">0</div><div class="sum-stat-lbl">✨ Points earned</div></div>
+                <div class="sum-stat"><div class="sum-stat-val" id="final-total-score">0</div><div class="sum-stat-lbl">🏆 Total Score</div></div>
+                <div class="sum-stat"><div class="sum-stat-val" id="final-streak">0</div><div class="sum-stat-lbl">🔥 Streak</div></div>
+            </div>
+            <div class="sum-actions">
+                <button id="back-to-menu-btn" class="btn-start">▶ Start again</button>
+                <button class="btn-outline" onclick="cosyPractice.endSession()">← Dashboard</button>
+                <a href="https://wa.me/330766784195" class="btn-outline" target="_blank">💬 Book a lesson</a>
+            </div>
+        </div>
+
+        <!-- RECENT + MISTAKES -->
+        <div class="two-col fade-in" style="margin-top:2rem">
+            <div class="info-card">
+                <div class="sec-title" style="margin-bottom:.8rem">🕘 Recent sessions</div>
+                <div id="recent-list"><div class="info-card-empty">No sessions yet — start practising!</div></div>
+            </div>
+            <div class="info-card">
+                <div class="sec-title" style="margin-bottom:.8rem">❌ Mistakes to review</div>
+                <div id="mistake-list"><div class="info-card-empty">No mistakes saved yet — well done!</div></div>
+            </div>
+        </div>
+
     </div>
 
-<footer>
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="fb-logo">
-          <img src="../images/cosylanguages.png" alt="COSYlanguages">
-          <span class="fb-name">COSYlanguages</span>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="fb-logo">
+                        <img src="../images/cosylanguages.png" alt="COSYlanguages">
+                        <span class="fb-name">COSYlanguages</span>
+                    </div>
+                    <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+                </div>
+                <div class="footer-links-col">
+                    <h5>Courses</h5>
+                    <a href="../portal/index.html">General Course 📖</a>
+                    <a href="../portal/index.html">Spoken Course 🗣️</a>
+                    <a href="../portal/index.html">Exam Preparation 📝</a>
+                </div>
+                <div class="footer-links-col">
+                    <h5>Explore</h5>
+                    <a href="../index.html#languages">Languages 🌍</a>
+                    <a href="index.html">Free Practice 💡</a>
+                    <a href="../games/index.html">Events &amp; Games 🎉</a>
+                </div>
+                <div class="footer-links-col">
+                    <h5>Contact</h5>
+                    <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+                    <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+                    <a href="../portal/index.html">My Lessons 🔐</a>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2025 COSYlanguages — All rights reserved</div>
         </div>
-        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
-      </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_courses">Courses</h5>
-        <a href="../portal/index.html" data-translate-key="course_general">General Course 📖</a>
-        <a href="../portal/index.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-        <a href="../portal/index.html" data-translate-key="course_exam">Exam Preparation 📝</a>
-        <a href="../portal/index.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
-      </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_explore">Explore</h5>
-        <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
-        <a href="index.html" data-translate-key="nav_practice">Free Practice 💡</a>
-        <a href="../games/index.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
-        <a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
-      </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_contact">Contact</h5>
-        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
-        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
-      </div>
-    </div>
-    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
-  </div>
-</footer>
+    </footer>
 
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/grammar_config.js"></script>

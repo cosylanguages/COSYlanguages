@@ -271,7 +271,7 @@
             events_row_cta: "Voir les événements →",
             events_row_h4: "Événements en direct — Clubs de conversation, Karaoké et Soirées cinéma",
             events_row_p: "Sessions organisées avec un professeur ou un hôte — clubs de conversation sur des thèmes réels, soirées karaoké et soirées cinéma en langue originale. Consultez la page des événements pour les détails et pour savoir comment nous rejoindre.",
-            events_title: "Nos événements 🎉",
+            events_title: "14 Games Hub 🎮",
             example_aa: "Exemple : 🧩 La fille est ____ (petit) -> petite",
             example_ac: "Exemple : 🧩 grand (Comparatif) -> plus grand",
             example_cl: "Exemple : 🧩 Un café, ______. -> s'il vous plaît",
