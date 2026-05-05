@@ -53,6 +53,11 @@ function updateStreak() {
     if (streakCountEl) streakCountEl.textContent = streak;
 }
 
+function getPrefix() {
+    const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
+    return depth > 0 ? '../'.repeat(depth) : '';
+}
+
 function getExerciseContext() {
     if (typeof currentPractice !== 'undefined' && currentPractice) return currentPractice;
     if (typeof currentLesson !== 'undefined' && currentLesson) return currentLesson;
@@ -494,13 +499,17 @@ function showFeedback(isCorrect) {
             cat = 'grammar';
         }
 
+        const prefix = getPrefix();
+        const portalPrefix = (window.location.pathname.includes('/portal/')) ? '' : 'portal/';
+        const finalPrefix = prefix + portalPrefix;
+
         let reviewURL = "";
         if (cat === 'grammar') {
             const verb = wordObj.verb || wordObj.baseWord || wordObj.word;
-            reviewURL = `grammar-reference.html?lang=${lang}#verb-${verb.replace(/\s+/g, '-')}`;
+            reviewURL = `${finalPrefix}grammar-reference.html?lang=${lang}#verb-${verb.replace(/\s+/g, '-')}`;
         } else {
             const search = wordObj.word || wordObj.text || wordObj.topic;
-            reviewURL = `vocabulary-reference.html?lang=${lang}&search=${encodeURIComponent(search)}`;
+            reviewURL = `${finalPrefix}vocabulary-reference.html?lang=${lang}&search=${encodeURIComponent(search)}`;
         }
 
         const reviewLabel = (typeof translations !== 'undefined' && translations[lang] && translations[lang]['review_ref']) || "Review in Reference 📚";

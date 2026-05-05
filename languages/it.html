@@ -9,13 +9,13 @@
 <meta property="og:description" content="Imparate l'italiano con un approccio incentrato sulla conversazione. Lezioni private online, A1 a C2. Preparazione CILS, CELI, PLIDA.">
 <meta property="og:image" content="../images/cosylanguages.png">
 <link rel="icon" href="../images/cosylanguages.png">
-<link rel="manifest" href="/COSYlanguages/manifest.json">
+<link rel="manifest" href="../manifest.json">
 <meta name="theme-color" content="#4a6b50">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/lang-pages.css">
 <style>
@@ -25,7 +25,7 @@
 </style>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js').catch(e => console.log('SW:', e));
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
 }
 </script>
     <link rel="stylesheet" href="../css/mobile.css">
@@ -42,10 +42,10 @@ if ('serviceWorker' in navigator) {
     <li><a href="../index.html#how" data-translate-key="nav_how">Come funziona</a></li>
     <li><a href="../index.html#courses" data-translate-key="nav_courses">Corsi</a></li>
     <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Lingue 🌍</a></li>
-    <li><a href="../practice.html" data-translate-key="nav_practice">Pratica 💡</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Pratica 💡</a></li>
     <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Prezzi 🧮</a></li>
-    <li><a href="../events.html" data-translate-key="nav_events">Eventi 🎉</a></li>
-    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Le mie lezioni 🔐</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Eventi 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Le mie lezioni 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contattaci</a></li>
   </ul>
   <div class="nav-lang-switcher">
@@ -67,7 +67,7 @@ if ('serviceWorker' in navigator) {
     <p class="hero-sub">L'italiano è musica, cultura, storia e cucina. Imparate a parlarlo davvero — dalla prima frase fino alla padronanza.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Ciao!%20Vorrei%20iniziare%20le%20lezioni%20di%20italiano." class="btn-primary">💬 Inizia l'italiano</a>
-      <a href="../days.html" class="btn-ghost">Vedi il programma →</a>
+      <a href="../portal/index.html" class="btn-ghost">Vedi il programma →</a>
       <a href="../index.html#calculator" class="btn-ghost">Vedi i prezzi 🏷️</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_it') : 'Aggiungi COSYitaliano alla tua schermata home per l\'accesso istantaneo alle lezioni e alla pratica.'), url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
@@ -91,7 +91,7 @@ if ('serviceWorker' in navigator) {
       <p>Lezioni incentrate sulla conversazione, A1 a C2, individuali o in gruppo.</p>
     </div>
     <div class="ss-links">
-      <a href="../days.html" class="ss-link ss-link-primary">Vedi il programma completo →</a>
+      <a href="../portal/index.html" class="ss-link ss-link-primary">Vedi il programma completo →</a>
       <a href="../index.html#calculator" class="ss-link ss-link-ghost">Vedi i prezzi →</a>
     </div>
   </div>
@@ -101,7 +101,7 @@ if ('serviceWorker' in navigator) {
       <h3>Preparate il CILS, CELI o PLIDA?</h3>
       <p>Copriamo i principali esami di italiano con sessioni di preparazione da 120 minuti — con la prova orale in ogni sessione.</p>
     </div>
-    <a href="../days.html">Vedi la preparazione agli esami →</a>
+    <a href="../portal/index.html">Vedi la preparazione agli esami →</a>
   </div>
 </section>
 
@@ -287,21 +287,21 @@ if ('serviceWorker' in navigator) {
       </div>
       <div class="footer-col">
         <h5>Corsi</h5>
-        <a href="../days.html">Corso Generale 📖</a>
-        <a href="../days.html">Corso di Conversazione 🗣️</a>
-        <a href="../days.html">Preparazione Esami 📝</a>
+        <a href="../portal/index.html">Corso Generale 📖</a>
+        <a href="../portal/index.html">Corso di Conversazione 🗣️</a>
+        <a href="../portal/index.html">Preparazione Esami 📝</a>
       </div>
       <div class="footer-col">
         <h5>Esplora</h5>
         <a href="../index.html#languages">Tutte le lingue 🌍</a>
-        <a href="../practice.html">Pratica gratuita 💡</a>
-        <a href="../events.html">Eventi &amp; Giochi 🎉</a>
+        <a href="../practice/index.html">Pratica gratuita 💡</a>
+        <a href="../games/index.html">Eventi &amp; Giochi 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Contatti</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html">Le mie lezioni 🔐</a>
+        <a href="../portal/index.html">Le mie lezioni 🔐</a>
       </div>
     </div>
     <div class="footer-bottom">© 2025 COSYlanguages — Tutti i diritti riservati</div>

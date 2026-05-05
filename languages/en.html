@@ -9,13 +9,13 @@
 <meta property="og:description" content="Learn English with a speaking-first approach. 1-to-1 online lessons, Baby to Professor. IELTS, Cambridge, TOEFL exam preparation. Free practice and resources.">
 <meta property="og:image" content="../images/cosylanguages.png">
 <link rel="icon" href="../images/cosylanguages.png">
-<link rel="manifest" href="/COSYlanguages/manifest.json">
+<link rel="manifest" href="../manifest.json">
 <meta name="theme-color" content="#4a6b50">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/lang-pages.css">
 <style>
@@ -25,7 +25,7 @@
 </style>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js').catch(e => console.log('SW:', e));
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
 }
 </script>
     <link rel="stylesheet" href="../css/mobile.css">
@@ -42,10 +42,10 @@ if ('serviceWorker' in navigator) {
     <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
     <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
     <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Languages 🌍</a></li>
-    <li><a href="../practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Practice 💡</a></li>
     <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a></li>
-    <li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li>
-    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Events 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
   </ul>
   <div class="nav-lang-switcher">
@@ -67,7 +67,7 @@ if ('serviceWorker' in navigator) {
     <p class="hero-sub">From absolute Baby level to fluent professional and academic discourse at Professor level. Speaking-first, always — because English opens every door.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20start%20English%20lessons." class="btn-primary">💬 Start English lessons</a>
-      <a href="../days.html" class="btn-ghost">See the curriculum →</a>
+      <a href="../portal/index.html" class="btn-ghost">See the curriculum →</a>
       <a href="../index.html#calculator" class="btn-ghost">See pricing 🏷️</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_en') : 'Add COSYEnglish to your home screen for instant access to lessons and practice.'), url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
@@ -91,7 +91,7 @@ if ('serviceWorker' in navigator) {
       <p>Speaking-first lessons, Baby to Professor, 1-to-1 or group. All levels, all course types.</p>
     </div>
     <div class="ss-links">
-      <a href="../days.html" class="ss-link ss-link-primary">See the full curriculum →</a>
+      <a href="../portal/index.html" class="ss-link ss-link-primary">See the full curriculum →</a>
       <a href="../index.html#calculator" class="ss-link ss-link-ghost">See pricing →</a>
     </div>
   </div>
@@ -101,7 +101,7 @@ if ('serviceWorker' in navigator) {
       <h3>Preparing for IELTS, Cambridge or TOEFL?</h3>
       <p>We cover all major English exams with 120-minute preparation sessions — speaking component in every session.</p>
     </div>
-    <a href="../days.html">See exam preparation →</a>
+    <a href="../portal/index.html">See exam preparation →</a>
   </div>
 </section>
 
@@ -417,21 +417,21 @@ if ('serviceWorker' in navigator) {
       </div>
       <div class="footer-col">
         <h5>Courses</h5>
-        <a href="../days.html">General Course 📖</a>
-        <a href="../days.html">Spoken Course 🗣️</a>
-        <a href="../days.html">Exam Prep 📝</a>
+        <a href="../portal/index.html">General Course 📖</a>
+        <a href="../portal/index.html">Spoken Course 🗣️</a>
+        <a href="../portal/index.html">Exam Prep 📝</a>
       </div>
       <div class="footer-col">
         <h5>Explore</h5>
         <a href="../index.html#languages">All Languages 🌍</a>
-        <a href="../practice.html">Free Practice 💡</a>
-        <a href="../events.html">Events &amp; Games 🎉</a>
+        <a href="../practice/index.html">Free Practice 💡</a>
+        <a href="../games/index.html">Events &amp; Games 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Contact</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html">My Lessons 🔐</a>
+        <a href="../portal/index.html">My Lessons 🔐</a>
       </div>
     </div>
     <div class="footer-bottom">© 2025 COSYlanguages — All rights reserved</div>

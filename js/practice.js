@@ -1273,14 +1273,20 @@ const LANG_PATH_MAP = {
     'br': 'celtic/br'
 };
 
+function getPrefix() {
+    const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
+    return depth > 0 ? '../'.repeat(depth) : '';
+}
+
 async function loadPracticeData(lang, level, cat) {
+    const prefix = getPrefix();
     const levels = level === "all" ? ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"] : [level];
     const familyPath = LANG_PATH_MAP[lang];
     if (!familyPath) return;
 
     if (cat === 'pronunciation') {
         const dataKey = `${lang.toLowerCase()}_a1`;
-        await loadScript(`js/data/curriculum/${dataKey}.js`);
+        await loadScript(`${prefix}js/data/curriculum/${dataKey}.js`);
     }
 
     const categories = {
@@ -1292,9 +1298,6 @@ async function loadPracticeData(lang, level, cat) {
 
     const files = categories[cat] || [];
     const promises = [];
-
-    // Base path adjustment if needed
-    const prefix = ""; // practice.html is at root
 
     for (const file of files) {
         levels.forEach(lv => { const path = `${prefix}js/data/${familyPath}/${lv}/${file}.js`; promises.push(loadScript(path)); });

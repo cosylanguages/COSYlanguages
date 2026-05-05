@@ -9,13 +9,13 @@
 <meta property="og:description" content="Apprenez le français avec une approche axée sur la conversation. Cours particuliers en ligne, Baby à Professor. Préparation au DELF et DALF. Free practice and resources.">
 <meta property="og:image" content="../images/cosylanguages.png">
 <link rel="icon" href="../images/cosylanguages.png">
-<link rel="manifest" href="/COSYlanguages/manifest.json">
+<link rel="manifest" href="../manifest.json">
 <meta name="theme-color" content="#4a6b50">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/lang-pages.css">
 <style>
@@ -25,7 +25,7 @@
 </style>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js').catch(e => console.log('SW:', e));
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
 }
 </script>
     <link rel="stylesheet" href="../css/mobile.css">
@@ -42,10 +42,10 @@ if ('serviceWorker' in navigator) {
     <li><a href="../index.html#how" data-translate-key="nav_how">Comment ça marche</a></li>
     <li><a href="../index.html#courses" data-translate-key="nav_courses">Cours</a></li>
     <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Langues 🌍</a></li>
-    <li><a href="../practice.html" data-translate-key="nav_practice">Pratique 💡</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Pratique 💡</a></li>
     <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Tarifs 🧮</a></li>
-    <li><a href="../events.html" data-translate-key="nav_events">Événements 🎉</a></li>
-    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Mes leçons 🔐</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Événements 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Mes leçons 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contactez-nous</a></li>
   </ul>
   <div class="nav-lang-switcher">
@@ -67,7 +67,7 @@ if ('serviceWorker' in navigator) {
     <p class="hero-sub">Du « Bonjour » au niveau Baby au discours professionnel fluide au niveau Professor. La conversation d'abord, toujours — parce que le français est la langue de la culture et de la diplomatie.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20commencer%20des%20cours%20de%20fran%C3%A7ais." class="btn-primary">💬 Commencer le français</a>
-      <a href="../days.html" class="btn-ghost">Voir le programme →</a>
+      <a href="../portal/index.html" class="btn-ghost">Voir le programme →</a>
       <a href="../index.html#calculator" class="btn-ghost">Voir les tarifs 🏷️</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_fr') : 'Ajoutez COSYfrançais à votre écran d\'accueil pour un accès instantané aux cours et à la pratique.'), url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
@@ -91,7 +91,7 @@ if ('serviceWorker' in navigator) {
       <p>Cours axés sur la conversation, Baby à Professor, en solo ou en groupe. Tous niveaux.</p>
     </div>
     <div class="ss-links">
-      <a href="../days.html" class="ss-link ss-link-primary">Voir le programme complet →</a>
+      <a href="../portal/index.html" class="ss-link ss-link-primary">Voir le programme complet →</a>
       <a href="../index.html#calculator" class="ss-link ss-link-ghost">Voir les tarifs →</a>
     </div>
   </div>
@@ -101,7 +101,7 @@ if ('serviceWorker' in navigator) {
       <h3>Vous préparez le DELF ou le DALF ?</h3>
       <p>Nous couvrons le DELF (A1–B2) et le DALF (C1–C2) avec des sessions de préparation de 120 minutes — l'oral à chaque session.</p>
     </div>
-    <a href="../days.html">Voir la préparation aux examens →</a>
+    <a href="../portal/index.html">Voir la préparation aux examens →</a>
   </div>
 </section>
 
@@ -304,21 +304,21 @@ if ('serviceWorker' in navigator) {
       </div>
       <div class="footer-col">
         <h5>Cours</h5>
-        <a href="../days.html">Cours Général 📖</a>
-        <a href="../days.html">Cours de Conversation 🗣️</a>
-        <a href="../days.html">Préparation Examens 📝</a>
+        <a href="../portal/index.html">Cours Général 📖</a>
+        <a href="../portal/index.html">Cours de Conversation 🗣️</a>
+        <a href="../portal/index.html">Préparation Examens 📝</a>
       </div>
       <div class="footer-col">
         <h5>Explorer</h5>
         <a href="../index.html#languages">Toutes les Langues 🌍</a>
-        <a href="../practice.html">Pratique gratuite 💡</a>
-        <a href="../events.html">Événements &amp; Jeux 🎉</a>
+        <a href="../practice/index.html">Pratique gratuite 💡</a>
+        <a href="../games/index.html">Événements &amp; Jeux 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Contact</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html">Mes leçons 🔐</a>
+        <a href="../portal/index.html">Mes leçons 🔐</a>
       </div>
     </div>
     <div class="footer-bottom">© 2025 COSYlanguages — Tous droits réservés</div>

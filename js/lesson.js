@@ -121,8 +121,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     await startLesson();
 });
 
+function getPrefix() {
+    const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
+    return depth > 0 ? '../'.repeat(depth) : '';
+}
+
 async function loadLessonData(day) {
-    const path = `js/data/lessons/day${day}.js`;
+    const prefix = getPrefix();
+    const path = `${prefix}js/data/lessons/day${day}.js`;
     if (document.querySelector(`script[src*="${path}"]`)) return;
     return new Promise(res => {
         const s = document.createElement("script");

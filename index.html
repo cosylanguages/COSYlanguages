@@ -9,18 +9,18 @@
 <meta property="og:description" data-translate-key="site_desc" content="1-to-1 online language lessons with a speaking-first approach. English, French, Italian, Russian, Greek. All levels Starter → Professor.">
 <meta property="og:image" content="images/cosylanguages.png">
 <link rel="icon" href="images/cosylanguages.png">
-<link rel="manifest" href="/COSYlanguages/manifest.json">
+<link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#4a6b50">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link rel="apple-touch-icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/mobile.css">
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+  navigator.serviceWorker.register('sw.js')
     .catch(e => console.log('SW:', e));
 }
 </script>
@@ -666,10 +666,10 @@ footer {
     <li><a href="#how" data-translate-key="nav_how">How it works</a></li>
     <li><a href="#courses" data-translate-key="nav_courses">Courses</a></li>
     <li><a href="#languages" data-translate-key="nav_languages">Languages</a></li>
-    <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
+    <li><a href="practice/index.html" data-translate-key="nav_practice">Practice</a></li>
     <li><a href="#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-    <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
-    <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+    <li><a href="games/index.html" data-translate-key="nav_events">Events 🎉</a></li>
+    <li><a href="portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
   </ul>
   <div class="nav-lang-switcher">
@@ -784,7 +784,7 @@ footer {
         </div>
         <p class="cr-desc" data-translate-key="course_general_desc_long">The complete journey — all four skills growing together. Structured, progressive, built around your real adult life. From absolute beginner to near-native mastery across 430+ lessons and 7 levels. Every grammar point is introduced because it helps you communicate, not because it's next on a list.</p>
         <div class="cr-sessions" data-translate-key="course_general_sessions">⏱️ 60–90 min sessions &nbsp;·&nbsp; 1-to-1 &nbsp;·&nbsp; English, French, Italian, Russian, Greek</div>
-        <a href="days.html" class="cr-link" style="background:#6b8f71" data-translate-key="course_general_cta">See the full curriculum →</a>
+        <a href="portal/index.html" class="cr-link" style="background:#6b8f71" data-translate-key="course_general_cta">See the full curriculum →</a>
       </div>
     </div>
 
@@ -798,7 +798,7 @@ footer {
         </div>
         <p class="cr-desc" data-translate-key="course_spoken_desc_long">No grammar tables. No worksheets. Just you, your teacher and a real conversation. 15 or 30 minutes of focused spoken practice — short enough to fit into any day, focused enough to build fluency fast. The perfect daily habit alongside your main lessons.</p>
         <div class="cr-sessions" data-translate-key="course_spoken_sessions">⏱️ 15 or 30 min sessions &nbsp;·&nbsp; Daily practice &nbsp;·&nbsp; English, French, Italian, Russian, Greek</div>
-        <a href="days.html" class="cr-link" style="background:#e8a838" data-translate-key="course_spoken_cta">See how it works →</a>
+        <a href="portal/index.html" class="cr-link" style="background:#e8a838" data-translate-key="course_spoken_cta">See how it works →</a>
       </div>
     </div>
 
@@ -812,7 +812,7 @@ footer {
         </div>
         <p class="cr-desc" data-translate-key="course_exam_desc_long">We prepare you for the real thing — authentic tasks, exact exam conditions, real marking criteria. Speaking is at the heart of every 120-minute session because the oral component is where most candidates lose the most marks, and where targeted practice makes the biggest difference.</p>
         <div class="cr-sessions" data-translate-key="course_exam_sessions">⏱️ 120 min sessions &nbsp;·&nbsp; English, French, Russian &nbsp;·&nbsp; 6 exams covered</div>
-        <a href="days.html" class="cr-link" style="background:#3a5298" data-translate-key="course_exam_cta">See exam preparation →</a>
+        <a href="portal/index.html" class="cr-link" style="background:#3a5298" data-translate-key="course_exam_cta">See exam preparation →</a>
       </div>
     </div>
 
@@ -980,7 +980,7 @@ footer {
         <span class="tool-pill">Vocab · Grammar · Speaking</span>
         <span class="tool-pill">All CEFR levels</span>
       </div>
-      <a href="practice.html" class="tool-link" data-translate-key="tool_practice_cta">Try free practice →</a>
+      <a href="practice/index.html" class="tool-link" data-translate-key="tool_practice_cta">Try free practice →</a>
     </div>
     <div class="tool-card reveal" data-bg="🎮">
       <div class="tool-free-label" data-translate-key="tool_free_label">✅ Always free</div>
@@ -994,7 +994,7 @@ footer {
         <span class="tool-pill">Solo &amp; multiplayer</span>
         <span class="tool-pill">All languages</span>
       </div>
-      <a href="events.html" class="tool-link" data-translate-key="tool_games_cta">Play free games →</a>
+      <a href="games/index.html" class="tool-link" data-translate-key="tool_games_cta">Play free games →</a>
     </div>
   </div>
   <div class="events-row reveal">
@@ -1003,7 +1003,7 @@ footer {
       <h4 data-translate-key="events_row_h4">Live events — Speaking Clubs, Karaoke &amp; Cinema Nights</h4>
       <p data-translate-key="events_row_p">Organised sessions with a teacher or host — speaking clubs on real topics, karaoke nights and cinema evenings in the original language. Check the events page for details and how to join.</p>
     </div>
-    <a href="events.html" class="er-link" data-translate-key="events_row_cta">See events →</a>
+    <a href="games/index.html" class="er-link" data-translate-key="events_row_cta">See events →</a>
   </div>
 
 </section>
@@ -1132,23 +1132,23 @@ footer {
       </div>
       <div class="footer-links-col">
         <h5 data-translate-key="footer_h5_courses">Courses</h5>
-        <a href="days.html" data-translate-key="course_general">General Course 📖</a>
-        <a href="days.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-        <a href="days.html" data-translate-key="course_exam">Exam Preparation 📝</a>
-        <a href="days.html" data-translate-key="footer_roadmap">My Roadmap 🗺️</a>
+        <a href="portal/index.html" data-translate-key="course_general">General Course 📖</a>
+        <a href="portal/index.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+        <a href="portal/index.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+        <a href="portal/index.html" data-translate-key="footer_roadmap">My Roadmap 🗺️</a>
       </div>
       <div class="footer-links-col">
         <h5 data-translate-key="footer_h5_explore">Explore</h5>
         <a href="#languages" data-translate-key="nav_languages">Languages 🌍</a>
-        <a href="practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
-        <a href="events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
+        <a href="practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+        <a href="games/index.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
         <a href="#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
       </div>
       <div class="footer-links-col">
         <h5 data-translate-key="footer_h5_contact">Contact</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+        <a href="portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
       </div>
     </div>
     <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>

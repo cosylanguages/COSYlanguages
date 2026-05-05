@@ -267,7 +267,7 @@
         const el = document.getElementById(containerId);
         if (!el) return;
         if (wordObj && wordObj.image) {
-            el.innerHTML = `<img src="${wordObj.image}" style="width: 100%; height: 100%; object-fit: contain; max-height: 200px;" alt="">`;
+            el.innerHTML = `<img src="${getPrefix()}${wordObj.image}" style="width: 100%; height: 100%; object-fit: contain; max-height: 200px;" alt="">`;
             el.classList.add('has-image');
         } else {
             el.textContent = fallbackEmoji || (wordObj ? wordObj.emoji : '💡');
@@ -278,7 +278,13 @@
 
     // ── Dashboard Core ──────────────────────────────────
 
+    function getPrefix() {
+        const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
+        return depth > 0 ? '../'.repeat(depth) : '';
+    }
+
     async function initDashboard() {
+        const prefix = getPrefix();
         const gate = document.getElementById('gate');
         const layout = document.getElementById('main-layout');
         const topbar = document.getElementById('topbar');
@@ -337,7 +343,7 @@
             }
         }
 
-        const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
+        const roadmapPath = `${prefix}curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
         roadmapBtn.onclick = () => window.location.href = roadmapPath;
 
         // Check if roadmap file exists before showing button
@@ -382,6 +388,7 @@
     }
 
     async function loadStarterData(lang, level) {
+        const prefix = getPrefix();
         const family = LANG_FAMILIES[lang.toLowerCase()] || 'romance';
         const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
         const base = `js/data/${family}/${lang.toLowerCase()}/${pLevel}/`;
@@ -390,7 +397,7 @@
 
         const loads = files.map(f => {
             return new Promise((resolve) => {
-                const path = base + f;
+                const path = prefix + base + f;
                 if (document.querySelector(`script[src="${path}"]`)) return resolve();
                 const script = document.createElement('script');
                 script.src = path;
@@ -402,7 +409,7 @@
 
         // Also load centralized phrases.js if it exists in language root
         const phraseLoad = new Promise((resolve) => {
-            const path = langRoot + 'phrases.js';
+            const path = prefix + langRoot + 'phrases.js';
             if (document.querySelector(`script[src="${path}"]`)) return resolve();
             const script = document.createElement('script');
             script.src = path;
@@ -457,8 +464,9 @@
     }
 
     async function loadCurriculumData(lang, level) {
+        const prefix = getPrefix();
         const dataKey = `${lang.toLowerCase()}_${level.toLowerCase()}`;
-        const path = `js/data/curriculum/${dataKey}.js`;
+        const path = `${prefix}js/data/curriculum/${dataKey}.js`;
 
         return new Promise((resolve) => {
             if (document.querySelector(`script[src="${path}"]`)) {
@@ -679,10 +687,11 @@
     }
 
     function checkLessonData(dayNum) {
+        const prefix = getPrefix();
         const btn = document.getElementById(`btn-lesson-${dayNum}`);
         if (!btn) return;
 
-        const path = `js/data/lessons/day${dayNum}.js`;
+        const path = `${prefix}js/data/lessons/day${dayNum}.js`;
         fetch(path, { method: 'HEAD' })
             .then(res => {
                 if (!res.ok) {
@@ -849,7 +858,7 @@
                         <tr>
                             <td class="content-l">
                                 <div style="display: flex; align-items: center; gap: 10px;">
-                                    ${w.image ? `<img src="${w.image}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; background: rgba(0,0,0,0.03);" alt="">` : (w.emoji ? `<span style="font-size: 1.2rem;">${w.emoji}</span>` : '')}
+                                    ${w.image ? `<img src="${getPrefix()}${w.image}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; background: rgba(0,0,0,0.03);" alt="">` : (w.emoji ? `<span style="font-size: 1.2rem;">${w.emoji}</span>` : '')}
                                     <strong class="vc-word-title">${w.w}</strong> ${badges.join('')}
                                 </div>
                                 ${w.subtext ? `<div style="font-size: 0.7rem; color: var(--muted); margin-top: 2px;">${w.subtext}</div>` : ''}
@@ -902,7 +911,7 @@
                         ${p.point} <span class="gram-tag">Sound</span>
                     </div>
                     <p class="gram-explain">${p.explain || ''}</p>
-                    ${p.image ? `<img src="${p.image}" alt="${p.point}" style="max-width:100%; border-radius:var(--radius-sm); margin-bottom:1rem; border:1.5px solid var(--border);">` : ''}
+                    ${p.image ? `<img src="${getPrefix()}${p.image}" alt="${p.point}" style="max-width:100%; border-radius:var(--radius-sm); margin-bottom:1rem; border:1.5px solid var(--border);">` : ''}
             `;
 
             if (p.alphabet) {
