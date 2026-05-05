@@ -468,6 +468,17 @@ function showFeedback(isCorrect) {
 
         if (typeof saveSession === 'function') saveSession();
 
+        // Vocab Notebook integration: save correctly answered words
+        if (ctx.currentWord && (ctx.currentWord.word || ctx.currentWord.text || ctx.currentWord.topic)) {
+            const lang = ctx.language;
+            const word = ctx.currentWord.word || ctx.currentWord.text || ctx.currentWord.topic;
+            let notebook = JSON.parse(localStorage.getItem(`cosy_notebook_${lang}`) || '[]');
+            if (!notebook.includes(word)) {
+                notebook.push(word);
+                localStorage.setItem(`cosy_notebook_${lang}`, JSON.stringify(notebook));
+            }
+        }
+
         // Hide task containers
         const containers = [
             'opposite-input-container',
@@ -499,9 +510,7 @@ function showFeedback(isCorrect) {
             cat = 'grammar';
         }
 
-        const prefix = getPrefix();
-        const portalPrefix = (window.location.pathname.includes('/portal/')) ? '' : 'portal/';
-        const finalPrefix = prefix + portalPrefix;
+        const finalPrefix = (window.location.pathname.includes('/portal/')) ? '' : getPrefix() + 'portal/';
 
         let reviewURL = "";
         if (cat === 'grammar') {

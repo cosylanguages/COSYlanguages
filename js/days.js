@@ -50,7 +50,7 @@
     });
 
     function unlock() {
-        const input = document.getElementById('ci');
+        const input = document.getElementById('student-code') || document.getElementById('ci');
         const errMsg = document.getElementById('em');
         if (!input || !errMsg) return;
 
@@ -287,15 +287,11 @@
         const prefix = getPrefix();
         const gate = document.getElementById('gate');
         const layout = document.getElementById('main-layout');
-        const topbar = document.getElementById('topbar');
-        const area = document.getElementById('area');
         const nav = document.getElementById('main-nav');
 
         if (gate) gate.style.display = 'none';
         if (nav) nav.style.display = 'none';
-        if (layout) layout.style.display = 'grid';
-        if (topbar) topbar.style.display = 'flex';
-        if (area) area.style.display = 'block';
+        if (layout) layout.style.display = 'block';
 
         const { lang, level, type } = currentCourse;
         const langInfo = (typeof LANGS !== 'undefined' && LANGS[lang]) ? LANGS[lang] : { label: lang, flag: '🌐' };
@@ -383,8 +379,79 @@
         await loadCurriculumData(lang, level);
         await loadStarterData(lang, level);
         renderCurriculum();
-        buildSidebar();
+        renderRoadmap();
+        initDashboardStats();
         updateProgressUI();
+    }
+
+    function initDashboardStats() {
+        const streak = localStorage.getItem('practice_streak') || 0;
+        const points = localStorage.getItem('cosy_total_points') || 0;
+        const lang = currentCourse.lang.toLowerCase();
+        const notebook = JSON.parse(localStorage.getItem(`cosy_notebook_${lang}`) || '[]');
+
+        const streakEl = document.getElementById('streak-val');
+        const pointsEl = document.getElementById('points-val');
+        const notebookEl = document.getElementById('notebook-val');
+
+        if (streakEl) streakEl.textContent = streak;
+        if (pointsEl) pointsEl.textContent = points;
+        if (notebookEl) notebookEl.textContent = notebook.length;
+    }
+
+    function renderRoadmap() {
+        const container = document.getElementById('roadmap-path');
+        if (!container) return;
+        container.innerHTML = '';
+
+        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+        const done = prog[currentCourse.code] || [];
+        const nextNum = getNextLessonNum();
+
+        // Flatten curriculum if nested
+        let allLessons = [];
+        if (curriculum.length > 0 && curriculum[0].lessons) {
+            allLessons = curriculum.flatMap(u => u.lessons);
+        } else {
+            allLessons = curriculum;
+        }
+
+        allLessons.forEach((lesson, idx) => {
+            const dayNum = idx + 1;
+            const isDone = done.includes(dayNum);
+            const isCurrent = dayNum === nextNum;
+            const isLocked = dayNum > nextNum;
+
+            const node = createEl('div', `roadmap-node ${isDone ? 'completed' : (isCurrent ? 'current' : 'locked')}`, dayNum);
+            node.title = lesson.title;
+            node.onclick = () => {
+                if (!isLocked) {
+                    window.location.href = `lesson.html?lang=${currentCourse.lang.toLowerCase()}&lesson=${dayNum}`;
+                } else {
+                    showToast('Complete previous lessons to unlock! 🔒');
+                }
+            };
+            container.appendChild(node);
+        });
+    }
+
+    function switchView(view) {
+        const roadmap = document.getElementById('view-roadmap');
+        const list = document.getElementById('view-list');
+        const btnRoadmap = document.getElementById('btn-view-roadmap');
+        const btnList = document.getElementById('btn-view-list');
+
+        if (view === 'roadmap') {
+            if (roadmap) roadmap.style.display = 'block';
+            if (list) list.style.display = 'none';
+            if (btnRoadmap) btnRoadmap.classList.add('active');
+            if (btnList) btnList.classList.remove('active');
+        } else {
+            if (roadmap) roadmap.style.display = 'none';
+            if (list) list.style.display = 'block';
+            if (btnRoadmap) btnRoadmap.classList.remove('active');
+            if (btnList) btnList.classList.add('active');
+        }
     }
 
     async function loadStarterData(lang, level) {
@@ -1331,6 +1398,7 @@
         copyText,
         speakText,
         resolveWord,
-        updateVisual
+        updateVisual,
+        switchView
     };
 })();
