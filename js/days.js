@@ -1,1327 +1,277 @@
 /**
  * COSYlanguages — days.js
- * Core logic for the Private Student Area (days.html)
+ * Sophisticated Dashboard Logic
  */
 
 (function() {
     let currentCourse = null;
     let curriculum = [];
-    let isTeacher = false;
     const TEACHER_PIN = '2025';
 
-    const LANG_FAMILIES = {
-        'en': 'germanic', 'de': 'germanic',
-        'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
-        'ru': 'slavic',
-        'el': 'hellenic',
-        'hy': 'armenian',
-        'ka': 'kartvelian',
-        'ba': 'turkic', 'tt': 'turkic',
-        'br': 'celtic'
-    };
-
-    // ── Internal Utilities ───────────────────────────────
-
-    function createEl(tag, className, text) {
-        const el = document.createElement(tag);
-        if (className) el.className = className;
-        if (text) el.textContent = text;
-        return el;
-    }
-
-    // ── Authentication & Initialization ───────────────────
+    // ── Initialization ──────────────────────────────────
 
     document.addEventListener('DOMContentLoaded', () => {
         const unlocked = localStorage.getItem('student_unlocked') === 'true';
         const code = localStorage.getItem('student_course_code');
 
-        const savedTheme = localStorage.getItem('cosy_dashboard_theme') || 'earth';
-        document.body.classList.add('theme-' + savedTheme);
-
-        if (unlocked && code && typeof COURSES !== 'undefined' && COURSES[code]) {
-            currentCourse = { ...COURSES[code], code: code };
-            initDashboard();
+        if (unlocked && code) {
+            initDashboard(code);
         } else {
-            const gate = document.getElementById('gate');
-            const area = document.getElementById('area');
-            if (gate) gate.style.display = 'flex';
-            if (area) area.style.display = 'none';
+            document.getElementById('gate').style.display = 'flex';
+            document.getElementById('area').style.display = 'none';
         }
     });
 
-    function unlock() {
-        const input = document.getElementById('ci');
-        const errMsg = document.getElementById('em');
-        if (!input || !errMsg) return;
+    async function initDashboard(code) {
+        document.getElementById('gate').style.display = 'none';
+        document.getElementById('area').style.display = 'flex';
 
-        const code = input.value.trim().toUpperCase();
-
+        // Mock/Load course
         if (typeof COURSES !== 'undefined' && COURSES[code]) {
-            localStorage.setItem('student_unlocked', 'true');
-            localStorage.setItem('student_course_code', code);
-            currentCourse = { ...COURSES[code], code: code };
-            errMsg.style.display = 'none';
-            initDashboard();
-        } else if (code.startsWith('COSY-') || code.match(/^[A-Z]{2}-A1$/)) {
-            // Flexible fallback for A1 codes (e.g., FR-A1) if not explicitly in COURSES
+            currentCourse = { ...COURSES[code], code };
+        } else {
             const parts = code.split('-');
-            const lang = parts.length > 1 ? parts[1] : parts[0];
-            const level = parts.length > 2 ? parts[2] : (parts.length > 1 ? parts[1] : 'A1');
-
-            localStorage.setItem('student_unlocked', 'true');
-            localStorage.setItem('student_course_code', code);
-            currentCourse = { lang: lang, level: level, type: 'GEN', code: code };
-            errMsg.style.display = 'none';
-            initDashboard();
-        } else {
-            errMsg.style.display = 'block';
-            input.classList.add('err');
-            setTimeout(() => input.classList.remove('err'), 500);
+            currentCourse = { lang: parts[1] || 'en', level: parts[2] || 'A1', type: 'GEN', code };
         }
+
+        const courseName = document.getElementById('tb-course-name');
+        if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
+
+        await loadCurriculum();
+        updateStats();
+        updatePrepCard();
+        renderRoadmap();
+        renderList();
+        renderNotebook();
     }
 
-    function logout() {
-        localStorage.removeItem('student_unlocked');
-        localStorage.removeItem('student_course_code');
-        isTeacher = false;
-        document.body.classList.remove('teacher');
-        window.location.reload();
-    }
-
-    function resetProgress() {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        if (!confirm(t('reset_confirm') || 'Reset all your progress? This cannot be undone.')) return;
-
+    function updateStats() {
+        const streak = localStorage.getItem('practice_streak') || '0';
+        const points = parseInt(localStorage.getItem('cosy_total_points') || '0');
         const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        delete prog[currentCourse.code];
-        localStorage.setItem('cosy_progress', JSON.stringify(prog));
+        const done = prog[currentCourse.code] || [];
 
-        renderCurriculum();
-        buildSidebar();
-        updateProgressUI();
-        showToast(t('progress_reset_toast') || 'Progress reset ↺');
+        if (document.getElementById('streak-val')) document.getElementById('streak-val').textContent = streak;
+        if (document.getElementById('points-val')) document.getElementById('points-val').textContent = points.toLocaleString();
+        if (document.getElementById('done-val')) document.getElementById('done-val').textContent = done.length;
     }
 
-    // ── Teacher Mode ──
+    function updatePrepCard() {
+        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+        const done = prog[currentCourse.code] || [];
+        const nextNum = done.length + 1;
 
-    function showPinModal() {
-        const modal = document.getElementById('pin-modal');
-        const input = document.getElementById('pin-input');
-        const error = document.getElementById('pin-error');
-        if (modal) modal.classList.add('show');
-        if (input) input.value = '';
-        if (error) error.style.display = 'none';
-    }
+        // Flatten lessons
+        const allLessons = curriculum.flatMap(u => u.lessons || [u]);
+        const nextLesson = allLessons[nextNum - 1];
 
-    function hidePinModal() {
-        const modal = document.getElementById('pin-modal');
-        if (modal) modal.classList.remove('show');
-    }
-
-    function showSettingsModal() {
-        const modal = document.getElementById('settings-modal');
-        if (modal) {
-            modal.classList.add('show');
-            const slow = localStorage.getItem('cosy_slow_speech') === 'true';
-            const auto = localStorage.getItem('cosy_auto_speak') === 'true';
-            const pitch = localStorage.getItem('cosy_voice_pitch') || '1.0';
-
-            document.getElementById('slow-speech-toggle').checked = slow;
-            document.getElementById('auto-speak-toggle').checked = auto;
-
-            const pRange = document.getElementById('pitch-range');
-            const pVal = document.getElementById('pitch-val');
-            if (pRange) pRange.value = pitch;
-            if (pVal) pVal.textContent = pitch;
-
-            populateVoiceSelect();
-        }
-    }
-
-    function hideSettingsModal() {
-        const modal = document.getElementById('settings-modal');
-        if (modal) modal.classList.remove('show');
-    }
-
-    function setTheme(theme) {
-        const themes = ['theme-earth', 'theme-paper', 'theme-contrast'];
-        document.body.classList.remove(...themes);
-        document.body.classList.add('theme-' + theme);
-
-        localStorage.setItem('cosy_dashboard_theme', theme);
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        showToast((t('theme_updated') || 'Theme updated to ') + theme + ' ✨');
-    }
-
-    function setPitch(val) {
-        localStorage.setItem('cosy_voice_pitch', val);
-        const pVal = document.getElementById('pitch-val');
-        if (pVal) pVal.textContent = val;
-    }
-
-    function setVoice(val) {
-        localStorage.setItem('cosy_preferred_voice', val);
-    }
-
-    function toggleSlowSpeech(val) {
-        localStorage.setItem('cosy_slow_speech', val);
-    }
-
-    function toggleAutoSpeak(val) {
-        localStorage.setItem('cosy_auto_speak', val);
-    }
-
-    function populateVoiceSelect() {
-        const select = document.getElementById('voice-select');
-        if (!select || !window.speechSynthesis) return;
-
-        const lang = currentCourse.lang.toLowerCase();
-        const voices = window.speechSynthesis.getVoices();
-        const preferred = localStorage.getItem('cosy_preferred_voice');
-
-        // Keep default option
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        select.innerHTML = `<option value="">${t('default_voice') || 'Default'}</option>`;
-
-        const langMap = { 'en': 'en', 'fr': 'fr', 'it': 'it', 'ru': 'ru', 'el': 'el', 'es': 'es', 'de': 'de', 'pt': 'pt' };
-        const targetPrefix = langMap[lang] || lang;
-
-        const filtered = voices.filter(v => v.lang.startsWith(targetPrefix));
-        filtered.forEach(v => {
-            const opt = document.createElement('option');
-            opt.value = v.name;
-            opt.textContent = v.name + (v.localService ? ' (Local)' : '');
-            if (v.name === preferred) opt.selected = true;
-            select.appendChild(opt);
-        });
-    }
-
-    function checkPin() {
-        const input = document.getElementById('pin-input');
-        const error = document.getElementById('pin-error');
-        if (input.value === TEACHER_PIN) {
-            isTeacher = true;
-            document.body.classList.add('teacher');
-            hidePinModal();
-            updateModeUI();
-            renderCurriculum();
-            const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-            showToast(t('teacher_mode_unlocked') || 'Teacher mode unlocked 👩‍🏫');
-        } else {
-            if (error) error.style.display = 'block';
-            input.classList.add('err');
-            setTimeout(() => input.classList.remove('err'), 500);
-        }
-    }
-
-    function updateModeUI() {
-        const badge = document.getElementById('mode-badge');
-        const label = document.getElementById('tb-mode-label');
-        const btn = document.getElementById('teacher-switch-btn');
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-
-        if (isTeacher) {
-            if (badge) { badge.textContent = t('teacher_badge') || '👩‍🏫 Teacher'; badge.className = 'tb-mode teacher-mode'; }
-            if (label) label.textContent = t('teacher_view_label') || 'Teacher View';
-            if (btn) { btn.textContent = t('lock_teacher_btn') || '🔒 Lock Teacher Mode'; btn.onclick = lockTeacher; }
-        } else {
-            if (badge) { badge.textContent = t('student_badge') || '👤 Student'; badge.className = 'tb-mode'; }
-            if (label) label.textContent = t('student_view_label') || 'Student View';
-            if (btn) { btn.textContent = t('switch_to_teacher_btn') || '👩‍🏫 Switch to Teacher'; btn.onclick = showPinModal; }
-        }
-    }
-
-    function lockTeacher() {
-        isTeacher = false;
-        document.body.classList.remove('teacher');
-        updateModeUI();
-        renderCurriculum();
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        showToast(t('teacher_mode_locked') || 'Teacher mode locked 🔒');
-    }
-
-    function showToast(msg) {
-        const toast = document.getElementById('toast');
-        if (!toast) return;
-        toast.textContent = msg;
-        toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 2500);
-    }
-
-    function copyText(text) {
-        if (!navigator.clipboard) return;
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        navigator.clipboard.writeText(text).then(() => {
-            showToast(t('copied_to_clipboard') || 'Copied to clipboard! 📋');
-        });
-    }
-
-    function speakText(text) {
-        if (window.gameUtils && window.gameUtils.speak) {
-            const slow = localStorage.getItem('cosy_slow_speech') === 'true';
-            window.gameUtils.speak(text, currentCourse.lang.toLowerCase(), slow ? 0.6 : 1.0);
-        }
-    }
-
-    function updateVisual(containerId, fallbackEmoji, wordObj) {
-        const el = document.getElementById(containerId);
-        if (!el) return;
-        if (wordObj && wordObj.image) {
-            el.innerHTML = `<img src="${wordObj.image}" style="width: 100%; height: 100%; object-fit: contain; max-height: 200px;" alt="">`;
-            el.classList.add('has-image');
-        } else {
-            el.textContent = fallbackEmoji || (wordObj ? wordObj.emoji : '💡');
-            el.innerHTML = el.textContent; // Clear any old img
-            el.classList.remove('has-image');
-        }
-    }
-
-    // ── Dashboard Core ──────────────────────────────────
-
-    async function initDashboard() {
-        const gate = document.getElementById('gate');
-        const layout = document.getElementById('main-layout');
-        const topbar = document.getElementById('topbar');
-        const area = document.getElementById('area');
-        const nav = document.getElementById('main-nav');
-
-        if (gate) gate.style.display = 'none';
-        if (nav) nav.style.display = 'none';
-        if (layout) layout.style.display = 'grid';
-        if (topbar) topbar.style.display = 'flex';
-        if (area) area.style.display = 'block';
-
-        const { lang, level, type } = currentCourse;
-        const langInfo = (typeof LANGS !== 'undefined' && LANGS[lang]) ? LANGS[lang] : { label: lang, flag: '🌐' };
-        const levelLabel = (typeof LEVELS !== 'undefined' && LEVELS[level]) ? LEVELS[level] : level;
-        const typeInfo = (typeof TYPES !== 'undefined' && TYPES[type]) ? TYPES[type] : { label: type, icon: '📖' };
-
-        // Update Header
-        const wh = document.getElementById('wh');
-        const wp = document.getElementById('wp');
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-
-        if (wh) wh.textContent = t('welcome_back');
-        if (wp) {
-            const template = t('your_personalised_curriculum');
-            wp.textContent = template.includes('{0}') ? template.replace('{0}', langInfo.label) : `Your personalised ${langInfo.label} curriculum`;
+        const nextVal = document.getElementById('next-lesson-val');
+        if (nextVal) {
+            if (nextLesson) nextVal.textContent = nextLesson.title;
+            else nextVal.textContent = "All Done! 🎉";
         }
 
-        // Topbar meta
-        const tbCourseText = `${langInfo.label} · ${levelLabel} · ${typeInfo.label}`;
-        const tbCourse = document.getElementById('tb-course-name');
-        if (tbCourse) tbCourse.textContent = tbCourseText;
+        const card = document.querySelector('.prep-card');
+        const wordCont = document.getElementById('prep-words');
 
-        const ct = document.getElementById('ct');
-        if (ct) {
-            ct.textContent = tbCourseText;
-            ct.removeAttribute('data-translate-key');
-        }
+        if (nextLesson && nextLesson.vocab && wordCont) {
+            card.style.display = 'block';
+            wordCont.innerHTML = '';
+            const raw = Array.isArray(nextLesson.vocab) ? nextLesson.vocab : [];
+            const words = raw.slice(0, 5).map(w => typeof w === 'string' ? w : (w.w || w.word));
 
-        // Add Full Roadmap link if it exists for this lang/level
-        const roadmapBtnId = 'open-roadmap-btn';
-        let roadmapBtn = document.getElementById(roadmapBtnId);
-        if (!roadmapBtn) {
-            roadmapBtn = createEl('button', 'btn-out', t('footer_roadmap') || '🗺️ Full Roadmap');
-            roadmapBtn.id = roadmapBtnId;
-            roadmapBtn.style.padding = '4px 10px';
-            roadmapBtn.style.fontSize = '11px';
-
-            const dayJump = document.querySelector('.day-jump');
-            const btnGroup = dayJump ? dayJump.nextElementSibling?.querySelector('div') : null;
-            if (btnGroup) btnGroup.prepend(roadmapBtn);
-            else {
-                // Fallback: append to area if group not found
-                const area = document.getElementById('area');
-                if (area) area.prepend(roadmapBtn);
-            }
-        }
-
-        const roadmapPath = `curriculum/${lang.toLowerCase()}/${level.toLowerCase()}.html`;
-        roadmapBtn.onclick = () => window.location.href = roadmapPath;
-
-        // Check if roadmap file exists before showing button
-        fetch(roadmapPath, { method: 'HEAD' })
-            .then(res => {
-                roadmapBtn.style.display = res.ok ? 'inline-block' : 'none';
-            })
-            .catch(() => {
-                roadmapBtn.style.display = 'none';
+            words.forEach(w => {
+                const span = document.createElement('span');
+                span.className = 'prep-word';
+                span.textContent = w;
+                wordCont.appendChild(span);
             });
-
-        // Update Badges
-        const badgeCont = document.getElementById('bdg');
-        if (badgeCont) {
-            badgeCont.innerHTML = '';
-            const bLang = createEl('span', 'badge b-lang', `${langInfo.flag} ${langInfo.label}`);
-            const bLevel = createEl('span', 'badge b-level', `🎯 ${levelLabel}`);
-            const bCourse = createEl('span', 'badge b-course', `${typeInfo.icon} ${typeInfo.label}`);
-            badgeCont.append(bLang, bLevel, bCourse);
+        } else if (card) {
+            card.style.display = 'none';
         }
-
-        // Library Links
-        const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
-        const query = `?lang=${lang.toLowerCase()}&level=${pLevel}`;
-
-        const workbookBtn = document.getElementById('open-workbook-btn');
-        const grammarBtn = document.getElementById('open-grammar-ref-btn');
-        const pronBtn = document.getElementById('open-pron-ref-btn');
-        const vocabBtn = document.getElementById('open-vocab-ref-btn');
-
-        if (workbookBtn) workbookBtn.onclick = () => window.location.href = `workbook.html${query}`;
-        if (grammarBtn) grammarBtn.onclick = () => window.location.href = `grammar-reference.html${query}`;
-        if (pronBtn) pronBtn.onclick = () => window.location.href = `pronunciation-reference.html${query}`;
-        if (vocabBtn) vocabBtn.onclick = () => window.location.href = `vocabulary-reference.html${query}`;
-
-        // Load curriculum data
-        await loadCurriculumData(lang, level);
-        await loadStarterData(lang, level);
-        renderCurriculum();
-        buildSidebar();
-        updateProgressUI();
     }
 
-    async function loadStarterData(lang, level) {
-        const family = LANG_FAMILIES[lang.toLowerCase()] || 'romance';
-        const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
-        const base = `js/data/${family}/${lang.toLowerCase()}/${pLevel}/`;
-        const langRoot = `js/data/${family}/${lang.toLowerCase()}/`;
-        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar.js', 'grammar_elements.js', 'dishes.js'];
-
-        const loads = files.map(f => {
-            return new Promise((resolve) => {
-                const path = base + f;
-                if (document.querySelector(`script[src="${path}"]`)) return resolve();
-                const script = document.createElement('script');
-                script.src = path;
-                script.onload = () => resolve();
-                script.onerror = () => resolve(); // Ignore missing files
-                document.head.appendChild(script);
-            });
-        });
-
-        // Also load centralized phrases.js if it exists in language root
-        const phraseLoad = new Promise((resolve) => {
-            const path = langRoot + 'phrases.js';
-            if (document.querySelector(`script[src="${path}"]`)) return resolve();
-            const script = document.createElement('script');
-            script.src = path;
-            script.onload = () => resolve();
-            script.onerror = () => resolve();
-            document.head.appendChild(script);
-        });
-
-        return Promise.all([...loads, phraseLoad]);
-    }
-
-    function resolveWord(w) {
-        if (!w || typeof w !== 'string') return w;
-        const lang = currentCourse ? currentCourse.lang.toLowerCase() : (new URLSearchParams(window.location.search).get('lang') || 'en').toLowerCase();
-
-        const sources = [
-            { data: (window.vocabularyData && window.vocabularyData[lang]) || [], type: 'vocab' },
-            { data: (window.verbsData && window.verbsData[lang]) || [], type: 'verb' },
-            { data: (window.adjectivesData && window.adjectivesData[lang]) || [], type: 'adj' }
-        ];
-
-        for (const source of sources) {
-            const found = source.data.find(item => item.word.toLowerCase() === w.toLowerCase());
-            if (found) {
-                const def = (found.definitions && found.definitions.length > 0) ? found.definitions[0] : null;
-                const phrases = (window.phrasesData && window.phrasesData[lang] && window.phrasesData[lang][found.word.toLowerCase()]) || [];
-
-                return {
-                    w: found.word,
-                    phon: found.transcription || found.phon || '',
-                    trans: def ? def.text : '',
-                    examples: def ? (def.examples || []) : [],
-                    subtext: found.subtext || '',
-                    opposite: found.opposite || '',
-                    synonyms: found.synonyms || [],
-                    countability: found.countability || '',
-                    v3: found.v3 || '',
-                    image: found.image || '',
-                    emoji: found.emoji || '',
-                    phrases: phrases,
-                    type: source.type
-                };
-            }
-        }
-        return { w: w, trans: '' };
-    }
-
-    function resolveGrammar(point) {
+    async function loadCurriculum() {
         const lang = currentCourse.lang.toLowerCase();
-        const grammarSource = (window.grammarData && window.grammarData[lang]) || [];
-        return grammarSource.find(g => g.point === point);
-    }
-
-    async function loadCurriculumData(lang, level) {
-        const dataKey = `${lang.toLowerCase()}_${level.toLowerCase()}`;
-        const path = `js/data/curriculum/${dataKey}.js`;
+        const level = currentCourse.level.toLowerCase();
+        const path = `../js/data/curriculum/${lang}_${level}.js`;
 
         return new Promise((resolve) => {
-            if (document.querySelector(`script[src="${path}"]`)) {
-                if (window.curriculumData && window.curriculumData[dataKey]) {
-                    curriculum = window.curriculumData[dataKey];
-                }
+            if (document.querySelector(`script[src*="${path}"]`)) {
+                const key = `${lang}_${level}`;
+                curriculum = (window.curriculumData && window.curriculumData[key]) || [];
                 return resolve();
             }
             const script = document.createElement('script');
             script.src = path;
             script.onload = () => {
-                if (window.curriculumData && window.curriculumData[dataKey]) {
-                    curriculum = window.curriculumData[dataKey];
-                }
+                const key = `${lang}_${level}`;
+                curriculum = (window.curriculumData && window.curriculumData[key]) || [];
                 resolve();
             };
-            script.onerror = () => {
-                console.warn(`Curriculum data not found for ${dataKey}`);
-                resolve();
-            };
+            script.onerror = () => { resolve(); };
             document.head.appendChild(script);
         });
     }
 
-    // ── Rendering ──────────────────────────────────────
+    function renderRoadmap() {
+        const container = document.getElementById('roadmap-path');
+        if (!container) return;
+        container.innerHTML = '';
 
-    function renderCurriculum() {
-        const ls = document.getElementById('ls');
-        const ds = document.getElementById('ds');
-        if (!ls || !ds) return;
+        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+        const done = prog[currentCourse.code] || [];
+        const nextNum = done.length + 1;
 
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
+        const lessons = curriculum.flatMap(u => u.lessons || [u]);
 
-        ls.innerHTML = '';
-        ds.innerHTML = '';
-        const defaultOpt = createEl('option', '', t('select_day_placeholder'));
-        defaultOpt.value = '';
-        ds.appendChild(defaultOpt);
+        lessons.forEach((l, idx) => {
+            const num = idx + 1;
+            const isDone = done.includes(num);
+            const isCurrent = num === nextNum;
 
-        // Fallback to CURRICULUM object from curriculum_data.js if local curriculum is empty
-        if (!curriculum || !curriculum.length) {
-            const { lang, level, type } = currentCourse;
-            if (window.CURRICULUM && window.CURRICULUM[lang] && window.CURRICULUM[lang][type] && window.CURRICULUM[lang][type][level]) {
-                const raw = window.CURRICULUM[lang][type][level];
-                if (Array.isArray(raw)) {
-                    if (raw.length > 0 && (raw[0].lessons || raw[0].title)) {
-                        curriculum = raw;
-                    } else {
-                        curriculum = [{ lessons: raw }];
-                    }
-                }
-            }
-        }
-
-        const hasUnits = curriculum.length > 0 && curriculum[0].lessons;
-        let allLessons = [];
-
-        if (hasUnits) {
-            curriculum.forEach((unit, uIdx) => {
-                const unitLessons = unit.lessons || [];
-                const unitStartNum = allLessons.length + 1;
-                allLessons.push(...unitLessons);
-
-                // Render Unit Header in Main area
-                const unitHeader = document.createElement('div');
-                unitHeader.className = `unit-block u${uIdx + 1}`;
-                unitHeader.id = unit.id || `u${uIdx + 1}`;
-                const pct = Math.round(unitLessons.filter(l => isLessonDone(allLessons.indexOf(l) + 1)).length / unitLessons.length * 100);
-
-                unitHeader.innerHTML = `
-                    <div class="unit-header" style="margin-top: 2rem; border-left: 5px solid ${unit.color || 'var(--sienna)'}">
-                        <div class="uh-num" style="color:${unit.color || 'var(--sienna)'}">${String(uIdx + 1).padStart(2, '0')}</div>
-                        <div class="uh-body">
-                            <h2 style="font-family:'Lora',serif; font-size:1.4rem;">${unit.label}</h2>
-                            <div class="uh-arc" style="font-size:0.8rem; color:var(--muted); font-style:italic; margin-bottom:0.5rem;">${unit.arc || ''}</div>
-                            <div class="uh-tags">
-                                <span class="uh-tag" style="font-size:0.7rem; background:rgba(0,0,0,0.05); padding:2px 8px; border-radius:10px;">${unitLessons.length} lessons</span>
-                                <span class="uh-tag" style="font-size:0.7rem; color:${unit.color || 'var(--sienna)'}">${pct}% complete</span>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                ls.appendChild(unitHeader);
-
-                unitLessons.forEach(lesson => {
-                    const dayNum = allLessons.indexOf(lesson) + 1;
-                    renderLessonCard(lesson, dayNum, ls);
-
-                    // Add to Jump Select
-                    const opt = createEl('option', '', `Day ${dayNum}: ${lesson.title}`);
-                    opt.value = dayNum;
-                    ds.appendChild(opt);
-                });
-            });
-        } else {
-            allLessons = curriculum;
-            if (!allLessons.length) {
-                const emptyDiv = createEl('div', 'empty');
-                emptyDiv.append(createEl('h3', '', t('curriculum_coming_soon')));
-                emptyDiv.append(createEl('p', '', t('curriculum_coming_soon_desc')));
-                ls.appendChild(emptyDiv);
-                return;
-            }
-            allLessons.forEach((lesson, idx) => {
-                const dayNum = idx + 1;
-                renderLessonCard(lesson, dayNum, ls);
-                const opt = createEl('option', '', `Day ${dayNum}: ${lesson.title}`);
-                opt.value = dayNum;
-                ds.appendChild(opt);
-            });
-        }
-    }
-
-    function renderLessonCard(lesson, dayNum, container) {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        // Create Lesson Card
-        const lessonEl = createEl('div', 'lesson');
-            lessonEl.id = `day-${dayNum}`;
-
-            const isDone = isLessonDone(dayNum);
-            const nextLessonNum = getNextLessonNum();
-            const unitEmoji = (lesson.code && (lesson.code.includes('-00') || lesson.code.endsWith('-0'))) ? '🅰️' : '';
-            const statusLabel = (unitEmoji ? unitEmoji + ' ' : '') + (isDone ? (t('status_done') || 'DONE') : (dayNum === nextLessonNum ? (t('status_current') || 'CURRENT') : (t('status_locked') || 'LOCKED')));
-            const statusClass = isDone ? 's-done' : (dayNum === nextLessonNum ? 's-current' : 's-locked');
-
-            const sub = (typeof lesson.grammar === 'string') ? lesson.grammar : (lesson.subtitle || '');
-
-            // Use innerHTML for the complex card structure, but keep it as safe as possible
-            lessonEl.innerHTML = `
-                <div class="l-head" data-day="${dayNum}">
-                    <div class="l-day-num">${dayNum}</div>
-                    <div class="l-head-left">
-                        <div class="l-title">${lesson.title}</div>
-                        <div class="l-sub">${sub}</div>
-                    </div>
-                    <div class="l-head-right">
-                        <span class="spill ${statusClass}">${statusLabel}</span>
-                        <span class="exp-icon">▼</span>
-                    </div>
-                </div>
-                <div class="l-body">
-                    <div class="tabs-bar">
-                        <button class="tab-btn active" data-target="ov-${dayNum}" data-translate-key="overview_tab">${t('overview_tab')}</button>
-                        <button class="tab-btn" data-target="gr-${dayNum}" data-translate-key="grammar_tab">${t('grammar_tab')}</button>
-                        <button class="tab-btn" data-target="vo-${dayNum}" data-translate-key="vocab_tab">${t('vocab_tab')}</button>
-                        <button class="tab-btn" data-target="pr-${dayNum}" data-translate-key="pronunciation_tab">${t('pronunciation_tab') || 'Pronunciation'}</button>
-                        <button class="tab-btn" data-target="rf-${dayNum}" data-translate-key="refs_tab">${t('refs_tab')}</button>
-                        ${isTeacher ? `<button class="tab-btn" data-target="tn-${dayNum}" style="color:var(--gold)">👩‍🏫 Notes</button>` : ''}
-                    </div>
-
-                    <div class="tab-panel active" id="ov-${dayNum}">
-                        ${lesson.cando ? `<div class="obj-bar">${lesson.cando}</div>` : ''}
-
-                        <div class="chips">
-                            ${(lesson.skills || []).map(s => `<span class="chip chip-${s}">${s}</span>`).join('')}
-                        </div>
-                        <p class="l-desc">${lesson.desc || 'No description available.'}</p>
-
-                        ${renderRoleplaySection(lesson)}
-                        ${renderCulturalSection(lesson)}
-
-                        <div class="l-actions">
-                            <a href="lesson.html?lang=${currentCourse.lang.toLowerCase()}&lesson=${dayNum}"
-                               class="btn-start-new ${dayNum > nextLessonNum ? 'locked' : ''}"
-                               id="btn-lesson-${dayNum}"
-                               data-translate-key="start_lesson_btn">
-                               ${t('start_lesson_btn')}
-                            </a>
-                            <button class="btn-mark-new ${isDone ? 'done' : ''}" data-day="${dayNum}" data-translate-key="${isDone ? 'completed_btn' : 'mark_as_done'}">
-                                ${isDone ? t('completed_btn') : t('mark_as_done')}
-                            </button>
-                            <span class="dur-label">🕒 ${lesson.duration || '60 min'}</span>
-                        </div>
-                    </div>
-
-                    <div class="tab-panel" id="gr-${dayNum}">
-                        ${renderGrammarTabContent(lesson)}
-                    </div>
-
-                    <div class="tab-panel" id="vo-${dayNum}">
-                        ${renderVocabTabContent(lesson)}
-                    </div>
-
-                    <div class="tab-panel" id="pr-${dayNum}">
-                        ${renderPronunciationTabContent(lesson)}
-                    </div>
-
-                    <div class="tab-panel" id="rf-${dayNum}">
-                        ${renderRefsTabContent()}
-                    </div>
-
-                    ${isTeacher ? `
-                    <div class="tab-panel" id="tn-${dayNum}">
-                        ${renderTeacherTabContent(lesson)}
-                    </div>
-                    ` : ''}
-                </div>
-            `;
-
-            // Event Listeners for the card
-            const head = lessonEl.querySelector('.l-head');
-            head.onclick = () => toggleLesson(dayNum);
-
-            const tabBtns = lessonEl.querySelectorAll('.tab-btn');
-            tabBtns.forEach(btn => {
-                btn.onclick = (e) => {
-                    switchTab(e.target, e.target.dataset.target);
-                };
-            });
-
-            const markBtn = lessonEl.querySelector('.btn-mark-new');
-            markBtn.onclick = () => toggleLessonDone(dayNum);
-
-            container.appendChild(lessonEl);
-
-            // Async check if lesson data exists
-            checkLessonData(dayNum);
-    }
-
-    function checkLessonData(dayNum) {
-        const btn = document.getElementById(`btn-lesson-${dayNum}`);
-        if (!btn) return;
-
-        const path = `js/data/lessons/day${dayNum}.js`;
-        fetch(path, { method: 'HEAD' })
-            .then(res => {
-                if (!res.ok) {
-                    btn.classList.add('locked');
-                    const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-                    btn.textContent = (t('start_lesson_btn') || 'Start Lesson') + ' 🚧';
-                    btn.title = 'Interactive content coming soon';
-
-                    // Add a small "Coming Soon" badge if missing
-                    const actions = btn.parentElement;
-                    if (actions && !actions.querySelector('.coming-soon-badge')) {
-                        const badge = createEl('span', 'coming-soon-badge', 'Coming Soon');
-                        badge.style.fontSize = '10px';
-                        badge.style.background = 'var(--muted)';
-                        badge.style.color = 'white';
-                        badge.style.padding = '2px 6px';
-                        badge.style.borderRadius = '4px';
-                        badge.style.marginLeft = '10px';
-                        actions.appendChild(badge);
-                    }
-                }
-            })
-            .catch(() => {});
-    }
-
-    function renderGrammarTabContent(lesson) {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-
-        if (lesson.phrases && lesson.phrases.length) {
-            const phrasesHtml = lesson.phrases.map((p, i) => `
-                <div class="phrase-item">
-                    <div class="ph-text">
-                        <div class="ph-en">${p.en}</div>
-                        <div class="ph-translations">${p.fr || p.it || p.ru || p.el || ''}</div>
-                    </div>
-                    <button class="ph-copy" onclick="cosyDays.copyText('${p.en.replace(/'/g, "\\'")}')">Copy</button>
-                </div>
-            `).join('');
-            return `<div class="sb-label" style="padding:0 0 .5rem 0;">💬 Key Phrases</div><div class="phrases-list">${phrasesHtml}</div>` +
-                   renderGrammarPoints(lesson);
-        }
-
-        return renderGrammarPoints(lesson);
-    }
-
-    function renderGrammarPoints(lesson) {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        let points = lesson.grammarPoints || (Array.isArray(lesson.grammar) ? lesson.grammar : []);
-
-        if (typeof points === 'string') points = [points];
-        if (!points || !points.length) {
-            return `<p class="vocab-intro" data-translate-key="grammar_summary_soon">${t('grammar_summary_soon')}</p>
-                    <a href="grammar-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink" data-translate-key="open_grammar_hub">${t('open_grammar_hub')}</a>`;
-        }
-
-        return points.map(p => {
-            if (typeof p === 'string') {
-                const resolved = resolveGrammar(p);
-                if (resolved) p = resolved;
-                else return `<!-- Resolved grammar point not found for: ${p} -->`;
-            }
-            return `
-            <div class="gram-point">
-                <div class="gram-heading">
-                    ${p.point} <span class="gram-tag">${p.tag || ''}</span>
-                </div>
-                <p class="gram-explain">${p.explain || ''}</p>
-                ${p.rule ? `<div class="gram-rule">${p.rule}</div>` : ''}
-
-                <table class="gtable" style="margin-bottom: 1rem;">
-                    <thead>
-                        <tr class="section-row"><th colspan="2" style="text-align: left;" data-translate-key="examples_label">${t('examples_label') || 'Examples'}</th></tr>
-                    </thead>
-                    <tbody>
-                        ${(p.examples || []).map(ex => `
-                            <tr class="example-row">
-                                <td class="content-l">${ex.t}</td>
-                                <td class="content-l" style="font-style: italic; opacity: 0.7;">${ex.e}</td>
-                            </tr>
-                        `).join('')}
-                    </tbody>
-                </table>
-
-                ${p.tip ? `<div class="gram-tip">${p.tip}</div>` : ''}
-                <div class="vocab-actions">
-                    <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=grammar&theme=${encodeURIComponent(p.practiceTheme || p.point || '')}" class="plink hi">
-                        Practice this point 🎯
-                    </a>
-                </div>
-            </div>
-        `; }).join('');
-    }
-
-    function renderVocabTabContent(lesson) {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        let rawWords = [];
-        if (lesson.vocabWords) {
-            rawWords = lesson.vocabWords;
-        } else if (Array.isArray(lesson.vocab) && lesson.vocab.length > 0) {
-            if (typeof lesson.vocab[0] === 'string') {
-                rawWords = lesson.vocab.map(v => ({ w: v }));
-            } else if (lesson.vocab[0].words) {
-                // Grouped
-                rawWords = lesson.vocab.flatMap(g => g.words || []).map(w => (typeof w === 'string' ? { w: w } : w));
-            } else {
-                // Flat objects
-                rawWords = lesson.vocab;
-            }
-        }
-
-        const words = rawWords.map(rw => {
-            if (typeof rw === 'string') return resolveWord(rw);
-            if (rw.w && (!rw.trans || rw.trans === '...')) {
-                const resolved = resolveWord(rw.w);
-                return { ...resolved, ...rw, trans: rw.trans && rw.trans !== '...' ? rw.trans : resolved.trans, phon: rw.phon || resolved.phon };
-            }
-            return rw;
+            const node = document.createElement('div');
+            node.className = `chapter-node ${isDone ? 'done' : ''} ${isCurrent ? 'current' : ''}`;
+            node.textContent = num;
+            node.title = l.title;
+            node.onclick = () => showLD(l, num);
+            container.appendChild(node);
         });
-
-        if (!words.length) {
-            return `<p class="vocab-intro" data-translate-key="vocab_list_soon">${t('vocab_list_soon')}</p>
-                    <a href="vocabulary-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink" data-translate-key="open_vocab_ref">${t('open_vocab_ref')}</a>`;
-        }
-
-        return `
-            <table class="gtable" style="margin-bottom: 1.5rem;">
-                <thead>
-                    <tr class="section-row">
-                        <th style="text-align: left;">Word</th>
-                        <th style="text-align: left;">Phonetic</th>
-                        <th style="text-align: left;">Translation</th>
-                        <th style="width: 40px;"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${words.map(w => {
-                        const badges = [];
-                        if (w.countability === 'uncountable') badges.push('<span style="font-size:0.6rem; background:var(--muted); color:white; padding:1px 4px; border-radius:3px; vertical-align:middle; margin-left:4px;">U</span>');
-                        if (w.type === 'verb' && w.v3) badges.push(`<span style="font-size:0.6rem; border:1px solid var(--muted); padding:1px 4px; border-radius:3px; vertical-align:middle; margin-left:4px;">v3: ${w.v3}</span>`);
-
-                        let phrasesHtml = '';
-                        if (w.phrases && w.phrases.length) {
-                            phrasesHtml = `
-                                <div class="vc-phrases" style="margin-top: 10px; padding: 8px; background: rgba(0,0,0,0.02); border-radius: 6px; border-left: 3px solid var(--sand);">
-                                    <div style="font-size: 0.6rem; font-weight: 900; text-transform: uppercase; color: var(--sand); margin-bottom: 6px; letter-spacing: 0.05em;">Collocations & Phrases</div>
-                                    <div style="display: grid; grid-template-columns: 1fr; gap: 8px;">
-                                        ${w.phrases.map(p => `
-                                            <div class="vc-phrase-item">
-                                                <div style="font-weight: 700; font-size: 0.8rem; color: var(--earth); display: flex; align-items: center; gap: 5px;">
-                                                    <span>${p.phrase}</span>
-                                                    <button class="ph-copy" style="padding: 0 4px; font-size: 0.6rem; border: none; background: none; cursor: pointer;" onclick="cosyDays.speakText('${p.phrase.replace(/'/g, "\\'")}')">🔊</button>
-                                                </div>
-                                                <div style="font-size: 0.75rem; color: var(--muted); margin-top: 1px;">${p.definition}</div>
-                                                <div style="font-size: 0.7rem; font-style: italic; opacity: 0.7; margin-top: 2px;">"${p.example}"</div>
-                                                ${p.opposite ? `<div style="font-size: 0.65rem; color: var(--ember); margin-top: 2px;">↔️ ${p.opposite}</div>` : ''}
-                                            </div>
-                                        `).join('')}
-                                    </div>
-                                </div>
-                            `;
-                        }
-
-                        return `
-                        <tr>
-                            <td class="content-l">
-                                <div style="display: flex; align-items: center; gap: 10px;">
-                                    ${w.image ? `<img src="${w.image}" style="width: 32px; height: 32px; object-fit: contain; border-radius: 4px; background: rgba(0,0,0,0.03);" alt="">` : (w.emoji ? `<span style="font-size: 1.2rem;">${w.emoji}</span>` : '')}
-                                    <strong class="vc-word-title">${w.w}</strong> ${badges.join('')}
-                                </div>
-                                ${w.subtext ? `<div style="font-size: 0.7rem; color: var(--muted); margin-top: 2px;">${w.subtext}</div>` : ''}
-                                ${w.synonyms && w.synonyms.length ? `<div style="font-size: 0.65rem; color: var(--teal-dk); opacity: 0.7; margin-top: 1px;">≈ ${w.synonyms.join(', ')}</div>` : ''}
-                            </td>
-                            <td class="content-l">${w.phon ? `<span class="vc-phon">${w.phon}</span>` : ''}</td>
-                            <td class="content-l" style="font-size: 0.85rem;">
-                                <div style="font-weight: 500;">${w.trans || ''}</div>
-                                ${w.opposite ? `<div style="font-size: 0.7rem; opacity: 0.8; margin-top: 2px;">↔️ ${w.opposite}</div>` : ''}
-                                ${w.examples && w.examples.length ? `<div style="font-size: 0.75rem; font-style: italic; opacity: 0.6; margin-top: 4px; border-left: 2px solid rgba(0,0,0,0.05); padding-left: 6px;">"${w.examples[0]}"</div>` : ''}
-                                ${phrasesHtml}
-                            </td>
-                            <td><button class="ph-copy" onclick="cosyDays.speakText('${w.w.replace(/'/g, "\\'")}')">🔊</button></td>
-                        </tr>
-                    `; }).join('')}
-                </tbody>
-            </table>
-            <div class="vocab-actions">
-                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=vocab&theme=${encodeURIComponent(lesson.practiceTheme || '')}" class="plink hi" data-translate-key="flashcards_quiz_btn">
-                    ${t('flashcards_quiz_btn')}
-                </a>
-                <a href="vocabulary-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">
-                    ${t('open_vocab_ref')}
-                </a>
-            </div>
-        `;
     }
 
-    function renderPronunciationTabContent(lesson) {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        const points = lesson.pronunciation || [];
+    function renderList() {
+        const container = document.getElementById('ls');
+        if (!container) return;
+        container.innerHTML = '';
 
-        if (!points.length) {
-            return `<p class="vocab-intro">Pronunciation focus for this lesson is being prepared.</p>
-                    <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}" class="plink">Open Pronunciation Guide 🔊</a>`;
-        }
-
-        const rate = localStorage.getItem('cosy_slow_speech') === 'true' ? 0.6 : 1.0;
-        let mainHtml = `<div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; opacity: 0.8;">
-            <span>🔊 Speed:</span>
-            <button class="ph-copy${rate === 1.0 ? ' active-speed' : ''}" onclick="localStorage.setItem('cosy_slow_speech', 'false'); cosyDays.renderCurriculum();" style="padding: 2px 8px;">1.0x</button>
-            <button class="ph-copy${rate === 0.6 ? ' active-speed' : ''}" onclick="localStorage.setItem('cosy_slow_speech', 'true'); cosyDays.renderCurriculum();" style="padding: 2px 8px;">0.6x 🐢</button>
-        </div>`;
-
-        mainHtml += points.map(p => {
-            let html = `
-                <div class="gram-point">
-                    <div class="gram-heading">
-                        ${p.visual ? `<span style="margin-right:8px">${p.visual}</span>` : ''}
-                        ${p.point} <span class="gram-tag">Sound</span>
-                    </div>
-                    <p class="gram-explain">${p.explain || ''}</p>
-                    ${p.image ? `<img src="${p.image}" alt="${p.point}" style="max-width:100%; border-radius:var(--radius-sm); margin-bottom:1rem; border:1.5px solid var(--border);">` : ''}
+        const lessons = curriculum.flatMap(u => u.lessons || [u]);
+        lessons.forEach((l, idx) => {
+            const num = idx + 1;
+            const item = document.createElement('div');
+            item.className = 'widget-card';
+            item.style.display = 'flex';
+            item.style.alignItems = 'center';
+            item.style.justifyContent = 'space-between';
+            item.innerHTML = `
+                <div style="flex: 1;">
+                    <div style="font-weight: 800;">Day ${num}: ${l.title}</div>
+                    <div style="font-size:0.75rem; color:#888; margin-top:3px;">${l.grammar || 'Interactive content'}</div>
+                </div>
+                <button class="btn-mark-new" style="background:none; border:none; font-size:1.2rem; cursor:pointer;" onclick="cosyDays.toggleDone(${num})">
+                    ${isLessonDone(num) ? '✅' : '⭕'}
+                </button>
+                <button onclick="cosyDays.jumpTo(${num})" style="margin-left:10px; background:var(--cosy-green-dark); color:#fff; border:none; padding:5px 10px; border-radius:8px; font-size:0.7rem; cursor:pointer;">Start</button>
             `;
-
-            if (p.alphabet) {
-                html += `
-                    <div class="gtable-container" style="margin-bottom: 1rem;">
-                        <div class="alpha-grid" style="grid-template-columns: repeat(auto-fill, minmax(60px,1fr)); padding:0;">
-                            ${p.alphabet.map(a => `
-                                <div class="alpha-cell" style="min-height:50px; cursor:pointer;" onclick="cosyDays.speakText('${a.l}')">
-                                    <div class="letter" style="font-size:1.1rem;">${a.l}</div>
-                                    <div class="ipa-sm" style="font-size:0.65rem;">${a.ipa}</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                `;
-            }
-
-            if (p.minimalPairs) {
-                html += `
-                    <div class="gtable-container" style="margin-bottom:1rem;">
-                    <table class="gtable" style="margin-bottom:0;">
-                        <thead>
-                            <tr class="section-row">
-                                <th style="text-align: left;">Word 1</th>
-                                <th style="text-align: left;">IPA 1</th>
-                                <th style="text-align: left;">Word 2</th>
-                                <th style="text-align: left;">IPA 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${p.minimalPairs.map(mp => `
-                                <tr>
-                                    <td class="content-l"><strong class="vc-word-title" style="cursor:pointer" onclick="cosyDays.speakText('${mp.w1.replace(/'/g, "\\'")}')">${mp.w1}</strong></td>
-                                    <td class="content-l"><span class="vc-phon">${mp.p1}</span></td>
-                                    <td class="content-l"><strong class="vc-word-title" style="cursor:pointer" onclick="cosyDays.speakText('${mp.w2.replace(/'/g, "\\'")}')">${mp.w2}</strong></td>
-                                    <td class="content-l"><span class="vc-phon">${mp.p2}</span></td>
-                                </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
-                    </div>
-                `;
-            }
-
-            if (p.examples && p.examples.length) {
-                html += `
-                    <div class="gtable-container">
-                    <table class="gtable" style="margin-bottom:0;">
-                        <thead>
-                            <tr class="section-row">
-                                <th style="text-align: left;">Pattern</th>
-                                <th style="text-align: left;">IPA</th>
-                                <th style="text-align: left;">Examples</th>
-                                <th style="width: 50px;">Listen</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${p.examples.map(ex => `
-                                <tr>
-                                    <td class="content"><strong>${ex.pattern || ''}</strong></td>
-                                    <td class="content" style="color:var(--sky); font-style:italic;">${ex.ipa || ''}</td>
-                                    <td class="content-l">${ex.word || ''}</td>
-                                    <td><button class="ph-copy" onclick="cosyDays.speakText('${ex.word.replace(/'/g, "\\'")}')">🔊</button></td>
-                                </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
-                    </div>
-                `;
-            }
-
-            if (p.tip) {
-                html += `<div class="gram-tip" style="background:var(--sky-lt); border-color:var(--sky); color:var(--sky)">💡 ${p.tip}</div>`;
-            }
-
-            if (p.extension) {
-                html += `<div class="gram-tip" style="margin-top:0.5rem; background:rgba(0,0,0,0.03); border-color:var(--muted); font-style:italic;">${p.extension}</div>`;
-            }
-
-            html += `</div>`;
-            return html;
-        }).join('');
-
-        // Add Practice link
-        mainHtml += `
-            <div class="vocab-actions" style="margin-top: 1rem;">
-                <a href="practice.html?lang=${currentCourse.lang.toLowerCase()}&cat=pronunciation&theme=${encodeURIComponent(lesson.title)}"
-                   class="plink hi" data-translate-key="practice_sounds_btn">
-                    ${t('practice_sounds_btn') || 'Practice these sounds 🎯'}
-                </a>
-                <a href="pronunciation-reference.html?lang=${currentCourse.lang.toLowerCase()}"
-                   class="plink" data-translate-key="full_pronunciation_guide">
-                    ${t('full_pronunciation_guide') || 'Full Pronunciation Guide 🔊'}
-                </a>
-            </div>
-        `;
-        return mainHtml;
+            container.appendChild(item);
+        });
     }
-
-    function renderRoleplaySection(lesson) {
-        if (!lesson.roleplay) return '';
-        const rp = lesson.roleplay;
-        return `
-            <div class="roleplay-card">
-                <div class="sb-label" style="color:var(--sky); padding:0 0 .5rem 0;">🎭 Role-play</div>
-                <div class="rp-scenario">"${rp.scenario}"</div>
-                <div class="rp-roles">
-                    ${(rp.roles || []).map(r => `
-                        <div class="rp-role">
-                            <div class="rp-role-label">${r.label}</div>
-                            <div class="rp-instructions">${r.instructions}</div>
-                            <div class="rp-prompts">
-                                ${(r.prompts || []).map(p => `<div class="rp-prompt">${p}</div>`).join('')}
-                            </div>
-                        </div>
-                    `).join('')}
-                </div>
-            </div>
-        `;
-    }
-
-    function renderCulturalSection(lesson) {
-        if (!lesson.cultural || !lesson.cultural.length) return '';
-        return `
-            <div class="culture-accordion">
-                <div class="sb-label" style="padding:0 0 .5rem 0;">🌍 Country Notes</div>
-                ${lesson.cultural.map((c, i) => `
-                    <div class="ca-country" id="ca-${lesson.code}-${i}">
-                        <div class="ca-header" onclick="this.parentElement.classList.toggle('open')">
-                            <span class="ca-flag">${c.flag || '📍'}</span>
-                            <span class="ca-name">${c.country}</span>
-                            <span class="ca-arr">▼</span>
-                        </div>
-                        <div class="ca-body">${c.note}</div>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-    }
-
-    function renderTeacherTabContent(lesson) {
-        const t = lesson.teacher || {};
-        return `
-            <div class="teacher-panel">
-                ${t.timing ? `<div class="timing-badge">${t.timing}</div>` : ''}
-
-                <div style="margin-bottom:1rem">
-                    <div class="tp-label">🎯 Lesson Aim</div>
-                    <div class="tp-body">${t.aim || 'Focus on confidence and practical use.'}</div>
-                </div>
-
-                ${t.teacher_notes ? `
-                <div style="margin-bottom:1rem">
-                    <div class="tp-label">📝 Teacher Notes</div>
-                    <div class="tp-body">${t.teacher_notes}</div>
-                </div>
-                ` : ''}
-
-                ${(t.tips || []).map(tip => `<div class="tp-tip">${tip}</div>`).join('')}
-
-                ${t.discussion ? `
-                <div style="margin-top:1rem">
-                    <div class="tp-label">💬 Discussion Opener</div>
-                    <div class="tp-body" style="font-style:italic">"${t.discussion}"</div>
-                </div>
-                ` : ''}
-
-                ${t.adaptations ? `
-                <div style="margin-top:1rem">
-                    <div class="tp-label">🔧 Adaptations by Level</div>
-                    <div class="adapt-grid">
-                        ${t.adaptations.map(a => `
-                            <div class="adapt-item">
-                                <div class="adapt-level ${a.level.toLowerCase()}">${a.level}</div>
-                                <div class="adapt-desc">${a.desc}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-                ` : ''}
-            </div>
-        `;
-    }
-
-    function renderRefsTabContent() {
-        const t = window.t || (window.gameUtils && window.gameUtils.t) || ((k) => k);
-        const lang = currentCourse.lang;
-        const level = currentCourse.level;
-        const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
-        const query = `?lang=${lang.toLowerCase()}&level=${pLevel}`;
-
-        const internalRefs = [
-            { group: t('learning_resources'), items: [
-                { icon: "📓", name: t('workbook_btn'), desc: "Your personal exercises & notes", url: `workbook.html${query}` },
-                { icon: "📐", name: t('grammar_ref_btn'), desc: "Interactive grammar reference", url: `grammar-reference.html${query}` },
-                { icon: "🔊", name: t('pronunciation_reference_title') || 'Pronunciation Ref', desc: "Interactive sounds & IPA guide", url: `pronunciation-reference.html${query}` },
-                { icon: "📖", name: t('vocab_ref_btn'), desc: "Interactive vocabulary lists", url: `vocabulary-reference.html${query}` },
-            ]}
-        ];
-
-        const externalRefs = (typeof REFS !== 'undefined' && REFS[lang]) ? REFS[lang] : [];
-        const allRefs = [...internalRefs, ...externalRefs];
-
-        return allRefs.map(group => `
-            <div class="ref-sec-title">${group.group}</div>
-            <div class="ref-grid-new">
-                ${group.items.map(item => `
-                    <a href="${item.url}" target="${item.url.startsWith('http') ? '_blank' : '_self'}" class="ref-card-new">
-                        <span class="ref-icon-new">${item.icon}</span>
-                        <span class="ref-name-new">${item.name}</span>
-                        <span class="ref-desc-new">${item.desc}</span>
-                    </a>
-                `).join('')}
-            </div>
-        `).join('');
-    }
-
-    // ── Interactions ──────────────────────────────────
-
-    function toggleLesson(num) {
-        const el = document.getElementById(`day-${num}`);
-        if (!el) return;
-        const isOpen = el.classList.contains('open');
-
-        // Close others
-        document.querySelectorAll('.lesson').forEach(l => l.classList.remove('open'));
-
-        if (!isOpen) {
-            el.classList.add('open');
-            // Force layout
-            void el.offsetHeight;
-            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-    }
-
-    function switchTab(btn, panelId) {
-        const lesson = btn.closest('.lesson');
-        lesson.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        lesson.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-
-        btn.classList.add('active');
-        const panel = document.getElementById(panelId);
-        if (panel) panel.classList.add('active');
-    }
-
-    function jumpTo(day) {
-        if (!day) return;
-
-        // Ensure lesson is open
-        const el = document.getElementById(`day-${day}`);
-        if (el && !el.classList.contains('open')) {
-            toggleLesson(day);
-        } else if (el) {
-            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-
-        // On mobile, maybe we want to close the sidebar if we had one,
-        // but here it's just hidden by CSS.
-    }
-
-    // ── Progress Management ────────────────────────────
 
     function isLessonDone(num) {
         const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const courseKey = currentCourse.code;
-        return prog[courseKey] && prog[courseKey].includes(num);
+        return prog[currentCourse.code] && prog[currentCourse.code].includes(num);
     }
 
-    function toggleLessonDone(num) {
-        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const courseKey = currentCourse.code;
+    function showLD(l, num) {
+        const ld = document.getElementById('ld');
+        const content = document.getElementById('ld-content');
+        if (!ld || !content) return;
 
-        if (!prog[courseKey]) prog[courseKey] = [];
+        content.innerHTML = `
+            <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">Day ${num}</div>
+            <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: 1rem;">${l.title}</h2>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.5rem;">${l.desc || 'Master these concepts with interactive tasks.'}</p>
 
-        const idx = prog[courseKey].indexOf(num);
-        if (idx > -1) {
-            prog[courseKey].splice(idx, 1);
-        } else {
-            prog[courseKey].push(num);
+            <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 2rem; border: 1.5px solid #eee;">
+                <h4 style="margin-bottom: 8px; font-size: 0.85rem;">Focus:</h4>
+                <div style="font-size: 0.85rem; font-weight: 700; color: var(--cosy-green-dark);">${l.grammar || 'Speaking & Vocabulary'}</div>
+            </div>
+
+            <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%;">Open Lesson 🚀</button>
+        `;
+        ld.classList.add('open');
+    }
+
+    function renderNotebook() {
+        const lang = currentCourse.lang.toLowerCase();
+        const words = JSON.parse(localStorage.getItem(`cosy_notebook_${lang}`) || '[]');
+        const container = document.getElementById('notebook-list');
+        if (!container) return;
+
+        if (words.length > 0) {
+            container.innerHTML = words.map(w => `
+                <div class="widget-card" style="text-align: center; display:flex; flex-direction:column; align-items:center; gap:10px;">
+                    <div style="font-size: 1.1rem; font-weight: 800;">${w}</div>
+                    <button class="badge-new" style="border:none; cursor:pointer; padding:5px 15px;" onclick="window.gameUtils.speak('${w.replace(/'/g,"\\'")}', '${lang}')">🔊 Speak</button>
+                </div>
+            `).join('');
         }
-
-        localStorage.setItem('cosy_progress', JSON.stringify(prog));
-        renderCurriculum(); // Re-render to update labels/classes
-        buildSidebar();
-        updateProgressUI();
     }
 
-    function getAllLessonsCount() {
-        let total = 0;
-        curriculum.forEach(unit => {
-            if (unit.lessons) total += unit.lessons.length;
-        });
-        return total;
-    }
+    // ── Public API ──────────────────────────────────────
 
-    function getNextLessonNum() {
-        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const done = prog[currentCourse.code] || [];
-        const total = getAllLessonsCount();
-
-        for (let i = 1; i <= total; i++) {
-            if (!done.includes(i)) return i;
-        }
-        return done.length > 0 ? done.length : 1;
-    }
-
-    function updateProgressUI() {
-        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const done = (currentCourse && prog[currentCourse.code]) ? prog[currentCourse.code] : [];
-        const total = getAllLessonsCount();
-
-        const pf = document.getElementById('pf');
-        const pc = document.getElementById('pc');
-        const dt = document.getElementById('dt');
-
-        const pct = total > 0 ? (done.length / total) * 100 : 0;
-        if (pf) pf.style.width = `${pct}%`;
-        if (pc) pc.textContent = `${done.length} / ${total}`;
-
-        if (dt) {
-            dt.innerHTML = '';
-            const nextNum = getNextLessonNum();
-            for (let i = 1; i <= total; i++) {
-                const isDone = done.includes(i);
-                const isCurrent = i === nextNum;
-                const dot = createEl('div', `dot ${isDone ? 'dot-done' : (isCurrent ? 'dot-current' : 'dot-locked')}`, i);
-                dot.onclick = () => jumpTo(i);
-                dt.appendChild(dot);
+    window.cosyDays = {
+        unlock: () => {
+            const input = document.getElementById('student-code');
+            const code = input.value.trim().toUpperCase();
+            if (code) {
+                localStorage.setItem('student_unlocked', 'true');
+                localStorage.setItem('student_course_code', code);
+                initDashboard(code);
+            }
+        },
+        logout: () => {
+            localStorage.removeItem('student_unlocked');
+            localStorage.removeItem('student_course_code');
+            window.location.reload();
+        },
+        switchTab: (btn, panelId) => {
+            document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById(panelId).classList.add('active');
+            if (panelId === 'panel-vocab') renderNotebook();
+        },
+        switchView: (view) => {
+            document.getElementById('view-roadmap').style.display = view === 'roadmap' ? 'block' : 'none';
+            document.getElementById('view-list').style.display = view === 'list' ? 'block' : 'none';
+        },
+        toggleDone: (num) => {
+            const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+            const done = prog[currentCourse.code] || [];
+            const idx = done.indexOf(num);
+            if (idx > -1) done.splice(idx, 1); else done.push(num);
+            prog[currentCourse.code] = done;
+            localStorage.setItem('cosy_progress', JSON.stringify(prog));
+            renderRoadmap();
+            renderList();
+            updateStats();
+            updatePrepCard();
+        },
+        jumpTo: (num) => {
+            window.location.href = `lesson.html?lang=${currentCourse.lang}&lesson=${num}`;
+        },
+        jumpToNext: () => {
+            const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+            const done = prog[currentCourse.code] || [];
+            const next = done.length + 1;
+            window.location.href = `lesson.html?lang=${currentCourse.lang}&lesson=${next}`;
+        },
+        closeLD: () => document.getElementById('ld').classList.remove('open'),
+        checkPin: () => {
+            const pin = document.getElementById('pin-input').value;
+            if (pin === TEACHER_PIN) {
+                document.getElementById('teacher-lock').style.display = 'none';
+                document.getElementById('teacher-content').style.display = 'block';
+            } else {
+                document.getElementById('pin-error').style.display = 'block';
+            }
+        },
+        assignHW: () => {
+            const val = document.getElementById('hw-input').value;
+            if (val) {
+                alert('Homework assigned to student: ' + val);
+                document.getElementById('hw-input').value = '';
             }
         }
-    }
-
-    function buildSidebar() {
-        const lsCont = document.getElementById('ls');
-        const sb = document.getElementById('sb-content');
-        if (!lsCont || !sb) return;
-
-        const { lang, level, type } = currentCourse;
-        const pLevel = (level === 'A1' ? 'starter' : level.toLowerCase());
-        const query = `?lang=${lang.toLowerCase()}&level=${pLevel}`;
-
-        // Get curriculum count
-        let allLessons = [];
-        if (curriculum.length > 0) {
-            curriculum.forEach(unit => {
-                if (unit.lessons && Array.isArray(unit.lessons)) {
-                    allLessons.push(...unit.lessons);
-                }
-            });
-        }
-
-        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const doneSet = new Set(prog[currentCourse.code] || []);
-
-        const pct = allLessons.length ? Math.round(doneSet.size / allLessons.length * 100) : 0;
-        const pf = document.getElementById('sb-pf');
-        const pc = document.getElementById('sb-pc');
-        if (pf) pf.style.width = pct + '%';
-        if (pc) pc.textContent = `${doneSet.size} / ${allLessons.length} lessons complete`;
-
-        sb.innerHTML = (curriculum.length > 0 && curriculum[0].lessons ? curriculum : [{lessons: allLessons}]).map((unit, uIdx) => {
-            const unitLabel = unit.label || `Unit ${uIdx + 1}`;
-            const unitEmoji = unit.emoji || '📘';
-
-            const lessonsHtml = (unit.lessons || []).map(l => {
-                const dayNum = allLessons.findIndex(al => al.code === l.code) + 1;
-                const isDone = doneSet.has(dayNum);
-                return `
-                    <a class="sb-item${isDone ? ' done' : ''}" id="sb-day-${dayNum}" onclick="cosyDays.jumpTo(${dayNum})">
-                        <span class="sb-num">${dayNum}</span>
-                        <span style="flex:1">${l.title}</span>
-                        <span class="sb-check">✓</span>
-                    </a>
-                `;
-            }).join('');
-
-            return `
-                <div class="sb-unit">
-                    <div class="sb-label">${unitLabel}</div>
-                    ${lessonsHtml}
-                </div>
-            `;
-        }).join('');
-
-        // Also add quick links
-        sb.innerHTML += `
-            <div class="sb-unit" style="margin-top: 1rem; border-top: 1px solid var(--border); padding-top: 1rem;">
-                <div class="sb-label">Resources</div>
-                <a class="sb-item" href="workbook.html${query}"><span class="sb-num">📓</span> Workbook</a>
-                <a class="sb-item" href="grammar-reference.html${query}"><span class="sb-num">📐</span> Grammar Ref</a>
-                <a class="sb-item" href="pronunciation-reference.html${query}"><span class="sb-num">🔊</span> Pronunciation</a>
-                <a class="sb-item" href="vocabulary-reference.html${query}"><span class="sb-num">📖</span> Vocab Ref</a>
-            </div>
-        `;
-    }
-
-    // Global scope exposures for HTML calls
-    window.cosyDays = {
-        unlock,
-        logout,
-        renderCurriculum,
-        jumpTo,
-        buildSidebar,
-        showPinModal,
-        hidePinModal,
-        showSettingsModal,
-        hideSettingsModal,
-        setTheme,
-        setPitch,
-        setVoice,
-        toggleSlowSpeech,
-        toggleAutoSpeak,
-        checkPin,
-        lockTeacher,
-        resetProgress,
-        showToast,
-        copyText,
-        speakText,
-        resolveWord,
-        updateVisual
     };
 })();

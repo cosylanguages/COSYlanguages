@@ -21,16 +21,13 @@ async function loadLanguageFile(lang) {
     let url = TRANSLATION_MAP[lang];
     if (!url) return;
 
-    // Adjust path for subdirectories
-    const pathDepth = window.location.pathname.split('/').filter(Boolean).length;
-    // COSYlanguages is usually a subfolder in GH pages, but let's be safe.
-    // If we are in /COSYlanguages/languages/it.html, pathname is /COSYlanguages/languages/it.html
-    // parts: ['COSYlanguages', 'languages', 'it.html'] -> length 3.
-    // Root is /COSYlanguages/index.html -> parts: ['COSYlanguages', 'index.html'] -> length 2.
-    // So if length > 2, we need to go up.
-    if (window.location.pathname.includes('/languages/') || window.location.pathname.includes('/grammar/')) {
-        url = '../' + url;
+    // Use a robust relative path mechanism
+    const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
+    let prefix = "";
+    if (depth > 0) {
+        prefix = '../'.repeat(depth);
     }
+    url = prefix + url;
 
     return new Promise((resolve, reject) => {
         const script = document.createElement('script');

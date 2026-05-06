@@ -421,11 +421,11 @@ function initMobile() {
 
       nav.className = 'mobile-nav';
       nav.innerHTML = `
-        <a href="${base}practice.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
-        <a href="${base}events.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+        <a href="${base}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
+        <a href="${base}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
         <a href="${base}index.html#languages" class="mobile-nav-item" id="mnav-languages"><span class="mn-icon">🌍</span><span>Languages</span></a>
         <a href="${base}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>
-        <a href="${base}days.html" class="mobile-nav-item" id="mnav-lessons"><span class="mn-icon">🔐</span><span>My Lessons</span></a>
+        <a href="${base}portal/index.html" class="mobile-nav-item" id="mnav-lessons"><span class="mn-icon">🔐</span><span>My Lessons</span></a>
       `;
       document.body.appendChild(nav);
   }

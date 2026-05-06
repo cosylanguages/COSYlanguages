@@ -9,13 +9,13 @@
 <meta property="og:description" content="Изучайте русский язык с акцентом на разговорную практику. Онлайн-уроки 1-на-1, от Baby до Professor. Подготовка к ТРКИ. Бесплатная практика и ресурсы.">
 <meta property="og:image" content="../images/cosylanguages.png">
 <link rel="icon" href="../images/cosylanguages.png">
-<link rel="manifest" href="/COSYlanguages/manifest.json">
+<link rel="manifest" href="../manifest.json">
 <meta name="theme-color" content="#4a6b50">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/lang-pages.css">
 <style>
@@ -25,7 +25,7 @@
 </style>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+  navigator.serviceWorker.register('../sw.js')
     .catch(e => console.log('SW:', e));
 }
 </script>
@@ -43,10 +43,10 @@ if ('serviceWorker' in navigator) {
     <li><a href="../index.html#how" data-translate-key="nav_how">Как это работает</a></li>
     <li><a href="../index.html#courses" data-translate-key="nav_courses">Курсы</a></li>
     <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Языки 🌍</a></li>
-    <li><a href="../practice.html" data-translate-key="nav_practice">Практика 💡</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Практика 💡</a></li>
     <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Цены 🧮</a></li>
-    <li><a href="../events.html" data-translate-key="nav_events">События 🎉</a></li>
-    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Мои уроки 🔐</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">События 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Мои уроки 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Контакты</a></li>
   </ul>
   <div class="nav-lang-switcher">
@@ -68,7 +68,7 @@ if ('serviceWorker' in navigator) {
     <p class="hero-sub">От « Привет » на уровне Baby до свободного профессионального общения на уровне Professor. Разговорная практика прежде всего — потому что русский открывает целый мир.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Здравствуйте!%20Я%20хотел%20бы%20начать%20занятия%20русским%20языком." class="btn-primary">💬 Начать обучение</a>
-      <a href="../days.html" class="btn-ghost">Программа курса →</a>
+      <a href="../portal/index.html" class="btn-ghost">Программа курса →</a>
       <a href="../index.html#calculator" class="btn-ghost">Цены 🏷️</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_ru') : 'Добавьте ТАКОЙрусский на главный экран для мгновенного доступа к урокам и практике.'), url)" class="btn-ghost">📲 В виде приложения</button>
     </div>
@@ -92,7 +92,7 @@ if ('serviceWorker' in navigator) {
       <p>Уроки с фокусом на общение, от Baby до Professor, индивидуально или в группах. Все уровни.</p>
     </div>
     <div class="ss-links">
-      <a href="../days.html" class="ss-link ss-link-primary">Вся программа курса →</a>
+      <a href="../portal/index.html" class="ss-link ss-link-primary">Вся программа курса →</a>
       <a href="../index.html#calculator" class="ss-link ss-link-ghost">Посмотреть цены →</a>
     </div>
   </div>
@@ -102,7 +102,7 @@ if ('serviceWorker' in navigator) {
       <h3>Готовитесь к ТРКИ?</h3>
       <p>Мы готовим ко всем уровням ТРКИ (TORFL) с практическими сессиями по 120 минут — разговорная часть на каждом занятии.</p>
     </div>
-    <a href="../days.html">Подготовка к экзаменам →</a>
+    <a href="../portal/index.html">Подготовка к экзаменам →</a>
   </div>
 </section>
 
@@ -265,21 +265,21 @@ if ('serviceWorker' in navigator) {
       </div>
       <div class="footer-col">
         <h5>Курсы</h5>
-        <a href="../days.html">Общий курс 📖</a>
-        <a href="../days.html">Разговорный курс 🗣️</a>
-        <a href="../days.html">Подготовка к экзаменам 📝</a>
+        <a href="../portal/index.html">Общий курс 📖</a>
+        <a href="../portal/index.html">Разговорный курс 🗣️</a>
+        <a href="../portal/index.html">Подготовка к экзаменам 📝</a>
       </div>
       <div class="footer-col">
         <h5>Исследовать</h5>
         <a href="../index.html#languages">Все языки 🌍</a>
-        <a href="../practice.html">Бесплатная практика 💡</a>
-        <a href="../events.html">События и игры 🎉</a>
+        <a href="../practice/index.html">Бесплатная практика 💡</a>
+        <a href="../games/index.html">События и игры 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Контакты</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html">Мои уроки 🔐</a>
+        <a href="../portal/index.html">Мои уроки 🔐</a>
       </div>
     </div>
     <div class="footer-bottom">© 2025 COSYlanguages — Все права защищены</div>

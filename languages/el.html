@@ -9,13 +9,13 @@
 <meta property="og:description" content="Μάθετε ελληνικά με έμφαση στη συνομιλία. Ατομικά διαδικτυακά μαθήματα, Baby έως Professor. Προετοιμασία ΚΠΓ.">
 <meta property="og:image" content="../images/cosylanguages.png">
 <link rel="icon" href="../images/cosylanguages.png">
-<link rel="manifest" href="/COSYlanguages/manifest.json">
+<link rel="manifest" href="../manifest.json">
 <meta name="theme-color" content="#4a6b50">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/lang-pages.css">
 <style>
@@ -25,7 +25,7 @@
 </style>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/COSYlanguages/sw.js').catch(e => console.log('SW:', e));
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
 }
 </script>
     <link rel="stylesheet" href="../css/mobile.css">
@@ -42,10 +42,10 @@ if ('serviceWorker' in navigator) {
     <li><a href="../index.html#how" data-translate-key="nav_how">Πώς λειτουργεί</a></li>
     <li><a href="../index.html#courses" data-translate-key="nav_courses">Μαθήματα</a></li>
     <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Γλώσσες 🌍</a></li>
-    <li><a href="../practice.html" data-translate-key="nav_practice">Πρακτική 💡</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Πρακτική 💡</a></li>
     <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Τιμές 🧮</a></li>
-    <li><a href="../events.html" data-translate-key="nav_events">Εκδηλώσεις 🎉</a></li>
-    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Τα Μαθήματά μου 🔐</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Εκδηλώσεις 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Τα Μαθήματά μου 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Επικοινωνία</a></li>
   </ul>
   <div class="nav-lang-switcher">
@@ -67,7 +67,7 @@ if ('serviceWorker' in navigator) {
     <p class="hero-sub">Η ελληνική γλώσσα — πάνω από 3.000 χρόνια ιστορίας, πολιτισμού και φιλοσοφίας. Ξεκινήστε να τη μιλάτε από το πρώτο μάθημα.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82!%20%CE%98%CE%B1%20%CE%AE%CE%B8%CE%B5%CE%BB%CE%B1%20%CE%BD%CE%B1%20%CE%BE%CE%B5%CE%BA%CE%B9%CE%BD%CE%AE%CF%83%CF%89%20%CE%BC%CE%B1%CE%B8%CE%AE%CE%BC%CE%B1%CF%84%CE%B1%20%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD." class="btn-primary">💬 Ξεκινήστε ελληνικά</a>
-      <a href="../days.html" class="btn-ghost">Δείτε το πρόγραμμα →</a>
+      <a href="../portal/index.html" class="btn-ghost">Δείτε το πρόγραμμα →</a>
       <a href="../index.html#calculator" class="btn-ghost">Τιμές 🏷️</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_el') : 'Προσθέστε το COSYελληνικά στην αρχική σας οθόνη για άμεση πρόσβαση στα μαθήματα και την πρακτική.'), url)" class="btn-ghost">📲 Στην αρχική οθόνη</button>
     </div>
@@ -91,7 +91,7 @@ if ('serviceWorker' in navigator) {
       <p>Μαθήματα με έμφαση στη συνομιλία, Baby έως Professor, ατομικά ή σε ομάδα.</p>
     </div>
     <div class="ss-links">
-      <a href="../days.html" class="ss-link ss-link-primary">Δείτε το πλήρες πρόγραμμα →</a>
+      <a href="../portal/index.html" class="ss-link ss-link-primary">Δείτε το πλήρες πρόγραμμα →</a>
       <a href="../index.html#calculator" class="ss-link ss-link-ghost">Δείτε τις τιμές →</a>
     </div>
   </div>
@@ -101,7 +101,7 @@ if ('serviceWorker' in navigator) {
       <h3>Προετοιμάζεστε για το ΚΠΓ;</h3>
       <p>Προετοιμάζουμε για το Κρατικό Πιστοποιητικό Γλωσσομάθειας σε όλα τα επίπεδα — με προφορική παραγωγή σε κάθε μάθημα.</p>
     </div>
-    <a href="../days.html">Δείτε προετοιμασία εξετάσεων →</a>
+    <a href="../portal/index.html">Δείτε προετοιμασία εξετάσεων →</a>
   </div>
 </section>
 
@@ -318,21 +318,21 @@ if ('serviceWorker' in navigator) {
       </div>
       <div class="footer-col">
         <h5>Μαθήματα</h5>
-        <a href="../days.html">Γενικό Πρόγραμμα 📖</a>
-        <a href="../days.html">Πρόγραμμα Ομιλίας 🗣️</a>
-        <a href="../days.html">Προετοιμασία Εξετάσεων 📝</a>
+        <a href="../portal/index.html">Γενικό Πρόγραμμα 📖</a>
+        <a href="../portal/index.html">Πρόγραμμα Ομιλίας 🗣️</a>
+        <a href="../portal/index.html">Προετοιμασία Εξετάσεων 📝</a>
       </div>
       <div class="footer-col">
         <h5>Εξερεύνηση</h5>
         <a href="../index.html#languages">Όλες οι Γλώσσες 🌍</a>
-        <a href="../practice.html">Δωρεάν Εξάσκηση 💡</a>
-        <a href="../events.html">Εκδηλώσεις &amp; Παιχνίδια 🎉</a>
+        <a href="../practice/index.html">Δωρεάν Εξάσκηση 💡</a>
+        <a href="../games/index.html">Εκδηλώσεις &amp; Παιχνίδια 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Επικοινωνία</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html">Τα μαθήματά μου 🔐</a>
+        <a href="../portal/index.html">Τα μαθήματά μου 🔐</a>
       </div>
     </div>
     <div class="footer-bottom">© 2025 COSYlanguages — Με επιφύλαξη παντός δικαιώματος</div>

@@ -271,7 +271,7 @@
             events_row_cta: "Vedi gli eventi →",
             events_row_h4: "Eventi dal vivo — Speaking Club, Karaoke e Serate Cinema",
             events_row_p: "Sessioni organizzate con un insegnante o un ospite — club di conversazione su argomenti reali, serate karaoke e serate di cinema in lingua originale. Controlla la pagina degli eventi per i dettagli e come partecipare.",
-            events_title: "I nostri eventi 🎉",
+            events_title: "14 Games Hub 🎮",
             example_aa: "Esempio: 🧩 La ragazza è ____ (piccolo) -> piccola",
             example_ac: "Esempio: 🧩 grande (Comparativo) -> più grande",
             example_cl: "Esempio: 🧩 Un caffè, ______. -> per favore",

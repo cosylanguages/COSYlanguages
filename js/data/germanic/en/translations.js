@@ -275,7 +275,7 @@
             events_row_cta: "See events →",
             events_row_h4: "Live events — Speaking Clubs, Karaoke & Cinema Nights",
             events_row_p: "Organised sessions with a teacher or host — speaking clubs on real topics, karaoke nights and cinema evenings in the original language. Check the events page for details and how to join.",
-            events_title: "Our Events 🎉",
+            events_title: "14 Games Hub 🎮",
             example_aa: "Example: ⚖️ A ____ house (small) -> small",
             example_ac: "Example: 🧩 big (Comparative) -> bigger",
             example_cl: "Example: 🧩 A coffee, _____. -> please",
