@@ -26,6 +26,11 @@
         document.getElementById('gate').style.display = 'none';
         document.getElementById('area').style.display = 'flex';
 
+        const role = localStorage.getItem('cosy_user_role') || (code.startsWith('TCH-') ? 'teacher' : 'student');
+        const userName = localStorage.getItem('cosy_user_name') || 'Learner';
+
+        document.body.setAttribute('data-role', role);
+
         // Mock/Load course
         if (typeof COURSES !== 'undefined' && COURSES[code]) {
             currentCourse = { ...COURSES[code], code };
@@ -35,7 +40,16 @@
         }
 
         const courseName = document.getElementById('tb-course-name');
-        if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
+        if (courseName) {
+            if (role === 'teacher') {
+                courseName.textContent = "Teacher Access · All Curricula";
+            } else {
+                courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
+            }
+        }
+
+        const welcomeBack = document.querySelector('.profile-card div[style*="font-weight: 900"]');
+        if (welcomeBack) welcomeBack.textContent = `Welcome back, ${userName}!`;
 
         await loadCurriculum();
         updateStats();
@@ -43,6 +57,35 @@
         renderRoadmap();
         renderList();
         renderNotebook();
+
+        if (role === 'teacher') {
+            renderTeacherDashboard();
+        }
+    }
+
+    function renderTeacherDashboard() {
+        const studentList = document.getElementById('teacher-student-list');
+        if (!studentList) return;
+
+        // Mock data for teacher view
+        const mocks = [
+            { name: "Alex", code: "COSY-EN-A1-GEN", progress: "3/20 lessons" },
+            { name: "Maria", code: "COSY-FR-B1-GEN", progress: "12/24 lessons" },
+            { name: "Dimitri", code: "COSY-RU-A2-GEN", progress: "8/20 lessons" }
+        ];
+
+        studentList.innerHTML = mocks.map(s => `
+            <div style="background: #f8f6f0; padding: 12px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <div style="font-weight: 800;">${s.name}</div>
+                    <div style="font-size: 0.7rem; color: #888;">${s.code}</div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-size: 0.8rem; font-weight: 700;">${s.progress}</div>
+                    <button class="badge-new" style="border:none; cursor:pointer;" onclick="cosyDays.viewStudent('${s.code}')">View Details</button>
+                </div>
+            </div>
+        `).join('');
     }
 
     function updateStats() {
@@ -210,12 +253,60 @@
     // ── Public API ──────────────────────────────────────
 
     window.cosyDays = {
+        viewStudent: (code) => {
+            localStorage.setItem('student_course_code', code);
+            localStorage.setItem('cosy_user_role', 'student');
+            window.location.reload();
+        },
+        loadLibrary: async () => {
+            const lang = document.getElementById('lib-lang-select').value;
+            const level = document.getElementById('lib-level-select').value;
+            const container = document.getElementById('library-content');
+            if (!container) return;
+
+            container.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:3rem; color:#888;">Fetching curriculum...</div>';
+
+            const path = `../js/data/curriculum/${lang}_${level}.js`;
+            const key = `${lang}_${level}`;
+
+            const loadScript = () => new Promise((resolve) => {
+                const script = document.createElement('script');
+                script.src = path;
+                script.onload = () => resolve();
+                script.onerror = () => resolve();
+                document.head.appendChild(script);
+            });
+
+            await loadScript();
+            const libCurriculum = (window.curriculumData && window.curriculumData[key]) || [];
+
+            if (libCurriculum.length === 0) {
+                container.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:3rem; color:#888;">No curriculum found for this level yet.</div>';
+                return;
+            }
+
+            const lessons = libCurriculum.flatMap(u => u.lessons || [u]);
+            container.innerHTML = lessons.map((l, idx) => `
+                <div class="widget-card">
+                    <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800;">Day ${idx + 1}</div>
+                    <h4 style="margin: 5px 0 10px;">${l.title}</h4>
+                    <p style="font-size: 0.8rem; color: #666; margin-bottom: 15px;">${l.grammar || 'Vocab & Speaking focus'}</p>
+                    <button onclick="window.location.href='lesson.html?lang=${lang}&lesson=${idx + 1}'" class="btn-primary-new" style="padding: 8px 15px; font-size: 0.75rem; width: 100%;">Preview Lesson</button>
+                </div>
+            `).join('');
+        },
         unlock: () => {
             const input = document.getElementById('student-code');
+            const nameInput = document.getElementById('student-name');
             const code = input.value.trim().toUpperCase();
+            const name = nameInput ? nameInput.value.trim() : 'Learner';
+
             if (code) {
+                const role = code.startsWith('TCH-') ? 'teacher' : 'student';
                 localStorage.setItem('student_unlocked', 'true');
                 localStorage.setItem('student_course_code', code);
+                localStorage.setItem('cosy_user_role', role);
+                localStorage.setItem('cosy_user_name', name || 'Learner');
                 initDashboard(code);
             }
         },
