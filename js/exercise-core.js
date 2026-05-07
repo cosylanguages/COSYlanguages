@@ -137,12 +137,23 @@ window.showFeedback = function(isCorrect) {
         // Vocab Notebook integration
         if (ctx.currentWord && (ctx.currentWord.word || ctx.currentWord.text)) {
             const word = ctx.currentWord.word || ctx.currentWord.text;
-            const lang = ctx.language || 'en';
-            let notebook = JSON.parse(localStorage.getItem(`cosy_notebook_${lang.toLowerCase()}`) || '[]');
+            const lang = (ctx.language || 'en').toLowerCase();
+            let notebook = JSON.parse(localStorage.getItem(`cosy_notebook_${lang}`) || '[]');
             if (!notebook.includes(word)) {
                 notebook.push(word);
-                localStorage.setItem(`cosy_notebook_${lang.toLowerCase()}`, JSON.stringify(notebook));
+                localStorage.setItem(`cosy_notebook_${lang}`, JSON.stringify(notebook));
             }
+
+            // New Live COSY Engine integration
+            if (window.COSY?.addMistake && !isCorrect) {
+                // We actually only add mistakes here if it's NOT correct,
+                // but the block is if(isCorrect). Let's fix that below.
+            }
+        }
+    } else {
+        // Record mistake in new engine if available
+        if (window.COSY?.addMistake && ctx.currentWord && ctx.lessonId) {
+            window.COSY.addMistake(ctx.lessonId, ctx.currentWord);
         }
     }
 };

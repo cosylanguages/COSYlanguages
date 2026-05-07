@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     currentLesson.language = urlParams.get('lang') || 'en';
     currentLesson.day = urlParams.get('lesson') || '1';
+    currentLesson.lessonId = `${currentLesson.language}_starter_${currentLesson.day}`;
 
     // UI elements
     const nextBtn = document.getElementById('next-btn');

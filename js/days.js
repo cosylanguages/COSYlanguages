@@ -13,21 +13,24 @@
     document.addEventListener('DOMContentLoaded', () => {
         // Wait for COSY mode detection
         setTimeout(() => {
-            const mode = window.COSY?.currentMode;
-            const code = localStorage.getItem('cosy_user_code');
+            const mode = window.COSY?.mode;
+            const student = window.COSY?.student;
+            const teacher = window.COSY?.teacher;
 
-            if (mode && mode !== 'FREE' && code) {
-                initDashboard(code, mode);
+            if (mode && mode !== 'free' && (student || teacher)) {
+                initDashboard(student?.code || teacher?.code, mode.toUpperCase());
             } else {
-                document.getElementById('gate').style.display = 'flex';
-                document.getElementById('area').style.display = 'none';
+                const gate = document.getElementById('gate');
+                if (gate) gate.style.display = 'flex';
             }
         }, 50);
     });
 
     async function initDashboard(code, mode) {
-        document.getElementById('gate').style.display = 'none';
-        document.getElementById('area').style.display = 'flex';
+        const gate = document.getElementById('gate');
+        const area = document.getElementById('area');
+        if (gate) gate.style.setProperty('display', 'none', 'important');
+        if (area) area.style.display = 'flex';
 
         if (mode === 'TEACHER') {
             // Activate teacher panel and nav
@@ -62,40 +65,44 @@
     }
 
     async function loadStudentData(code) {
-        try {
-            const prefix = window.COSY.getPrefix();
-            const res = await fetch(prefix + 'data/students.json');
-            const data = await res.json();
-            const profile = data[code];
-            if (profile) {
-                if (profile.nickname) {
-                    const welcome = document.getElementById('wh');
-                    if (welcome) welcome.textContent = `Welcome, ${profile.nickname}! 👋`;
-                }
-                if (profile.nextLesson) {
-                    const nextVal = document.getElementById('next-lesson-val');
-                    if (nextVal) nextVal.textContent = profile.nextLesson.date;
-                    const btnJoin = document.getElementById('btn-join');
-                    if (btnJoin) btnJoin.href = profile.nextLesson.meetLink;
-                    const btnMat = document.getElementById('btn-materials');
-                    if (btnMat) btnMat.href = profile.nextLesson.materials;
-                }
-                if (profile.homework) {
-                    const hwList = document.getElementById('homework-list');
-                    if (hwList) {
-                        hwList.innerHTML = profile.homework.map(h => `
-                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; padding:12px; background:#f9f9f9; border-radius:10px;">
-                                <div>
-                                    <div style="font-weight:800; font-size:0.9rem;">${h.title}</div>
-                                    <div style="font-size:0.7rem; color:#888;">Due: ${h.due}</div>
-                                </div>
-                                <a href="${h.link.startsWith('http') ? h.link : prefix + h.link.substring(1)}" class="badge-new" style="text-decoration:none;">Open →</a>
+        // Use COSY engine sync
+        const students = await window.COSY.sync();
+        const profile = students ? students[code] : window.COSY.student;
+        const prefix = window.COSY.getPrefix();
+
+        if (profile) {
+            if (profile.nickname || profile.name) {
+                const welcome = document.getElementById('wh');
+                if (welcome) welcome.textContent = `Welcome, ${profile.nickname || profile.name}! 👋`;
+            }
+            if (profile.nextLesson) {
+                const nextVal = document.getElementById('next-lesson-val');
+                if (nextVal) nextVal.textContent = profile.nextLesson.date;
+                const btnJoin = document.getElementById('btn-join');
+                if (btnJoin) btnJoin.href = profile.nextLesson.meetLink;
+                const btnMat = document.getElementById('btn-materials');
+                if (btnMat) btnMat.href = profile.nextLesson.materials;
+            }
+
+            // Homework Live Sync
+            const hwList = document.getElementById('homework-list');
+            if (hwList) {
+                const hw = profile.homework || [];
+                if (hw.length > 0) {
+                    hwList.innerHTML = hw.map(h => `
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; padding:12px; background:#f9f9f9; border-radius:10px;">
+                            <div>
+                                <div style="font-weight:800; font-size:0.9rem;">${h.title}</div>
+                                <div style="font-size:0.7rem; color:#888;">Due: ${h.due}</div>
                             </div>
-                        `).join('');
-                    }
+                            <a href="${h.link.startsWith('http') ? h.link : prefix + h.link.replace(/^\//, '')}" class="badge-new" style="text-decoration:none;">Open →</a>
+                        </div>
+                    `).join('');
+                } else {
+                    hwList.innerHTML = `<div style="text-align: center; color: #888; padding: 2rem;">No homework assigned for this unit. Enjoy your free time! 🥳</div>`;
                 }
             }
-        } catch (e) {}
+        }
     }
 
     async function renderTeacherDashboard() {
@@ -258,17 +265,44 @@
         const content = document.getElementById('ld-content');
         if (!ld || !content) return;
 
+        const lessonId = `${currentCourse.lang}_${currentCourse.level}_${num}`;
+        const entry = window.COSY.notebook[lessonId] || { notes: '', mistakes: [] };
+
+        // Find teacher notes for this lesson from synced profile
+        const teacherNotes = window.COSY.student?.teacherNotes?.[num] || '';
+
         content.innerHTML = `
             <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">Day ${num}</div>
             <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: 1rem;">${l.title}</h2>
-            <p style="color: #666; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.5rem;">${l.desc || 'Master these concepts with interactive tasks.'}</p>
 
-            <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 2rem; border: 1.5px solid #eee;">
+            <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%; margin-bottom: 2rem;">Open Lesson 🚀</button>
+
+            <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 1.5rem; border: 1.5px solid #eee;">
                 <h4 style="margin-bottom: 8px; font-size: 0.85rem;">Focus:</h4>
                 <div style="font-size: 0.85rem; font-weight: 700; color: var(--cosy-green-dark);">${l.grammar || 'Speaking & Vocabulary'}</div>
             </div>
 
-            <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%;">Open Lesson 🚀</button>
+            ${teacherNotes ? `
+            <div style="background: #fff8e7; padding: 1.25rem; border-radius: 15px; margin-bottom: 1.5rem; border: 1.5px solid #e8a838;">
+                <h4 style="margin-bottom: 8px; font-size: 0.85rem; color: #a06b10;">👩‍🏫 Teacher's Feedback:</h4>
+                <div style="font-size: 0.85rem; font-style: italic;">"${teacherNotes}"</div>
+            </div>
+            ` : ''}
+
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="margin-bottom: 10px; font-size: 0.85rem;">My Study Notes:</h4>
+                <textarea id="ld-notes" style="width:100%; height:120px; border-radius:12px; border:1.5px solid #eee; padding:10px; font-family:inherit; font-size:0.85rem; resize:none;" placeholder="Type your notes here...">${entry.notes}</textarea>
+                <button onclick="cosyDays.saveLessonNotes('${lessonId}')" style="margin-top:8px; width:100%; padding:8px; background:#f5f5f5; border:none; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.75rem;">Save Notes 💾</button>
+            </div>
+
+            ${entry.mistakes.length > 0 ? `
+            <div>
+                <h4 style="margin-bottom: 10px; font-size: 0.85rem;">Mistakes to Review:</h4>
+                <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                    ${entry.mistakes.map(m => `<span class="badge-new" style="background:#fcebeb; color:#a32d2d;">${m.word}</span>`).join('')}
+                </div>
+            </div>
+            ` : ''}
         `;
         ld.classList.add('open');
     }
@@ -337,6 +371,11 @@
             window.location.href = `lesson.html?lang=${currentCourse.lang}&lesson=${next}`;
         },
         closeLD: () => document.getElementById('ld').classList.remove('open'),
+        saveLessonNotes: (lessonId) => {
+            const text = document.getElementById('ld-notes').value;
+            window.COSY.saveNote(lessonId, text);
+            cosyDays.showToast('Notes saved locally 📝');
+        },
         checkPin: () => {
             const pin = document.getElementById('pin-input').value;
             if (pin === TEACHER_PIN) {
