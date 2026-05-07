@@ -80,13 +80,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (finishConversationBtn) finishConversationBtn.addEventListener('click', () => showFeedback(true));
     if (backToMenuBtn) {
         backToMenuBtn.addEventListener('click', () => {
-            window.location.href = 'days.html';
+            const prefix = getPrefix();
+            window.location.href = prefix + 'portal/index.html';
         });
     }
     if (exitLessonBtn) {
         exitLessonBtn.addEventListener('click', () => {
             window.gameUtils.showGameConfirm("Exit lesson and return to student area?", () => {
-                window.location.href = 'days.html';
+                const prefix = getPrefix();
+                window.location.href = prefix + 'portal/index.html';
             });
         });
     }
@@ -231,6 +233,37 @@ async function startLesson() {
             window.location.href = 'days.html';
         }
     }
+}
+
+function updateProgress() {
+    const fill = document.getElementById('progress-fill');
+    if (!fill) return;
+    const pct = (currentLesson.currentIndex / currentLesson.words.length) * 100;
+    fill.style.width = pct + '%';
+}
+
+function showSummary() {
+    const modal = document.getElementById('summary-modal');
+    if (!modal) return;
+
+    document.getElementById('final-score').textContent = currentLesson.score;
+    modal.style.display = 'flex';
+    modal.classList.remove('hidden');
+
+    // Save Progress
+    const code = localStorage.getItem('cosy_user_code') || 'COSY-GUEST';
+    const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
+    if (!prog[code]) prog[code] = [];
+
+    const dayNum = parseInt(currentLesson.day);
+    if (!prog[code].includes(dayNum)) {
+        prog[code].push(dayNum);
+    }
+    localStorage.setItem('cosy_progress', JSON.stringify(prog));
+
+    // Award Points
+    const totalPts = parseInt(localStorage.getItem('cosy_total_points') || '0');
+    localStorage.setItem('cosy_total_points', totalPts + currentLesson.score);
 }
 
 function showNextWord() {

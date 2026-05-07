@@ -18,7 +18,7 @@
     <div id="answer-flash" class="answer-flash"></div>
 
     <!-- NAV -->
-    <nav>
+    <nav id="main-nav">
         <a class="nav-logo" href="../index.html">
             <img src="../images/cosylanguages.png" alt="COSYlanguages">
             <span>COSYlanguages</span>
@@ -89,10 +89,10 @@
         <div class="fade-in">
             <div class="sec-title">⚡ Quick start <span>Jump straight in</span></div>
             <div class="quickstart-grid">
-                <div class="qs-card" style="--qs-color:var(--teal)" onclick="cosyPractice.quickStart('en','vocab','starter','Daily Life')">
+                <div class="qs-card" style="--qs-color:var(--teal)" onclick="cosyPractice.quickStart('en','vocab','starter','all')">
                     <div class="qs-icon">🇬🇧</div>
                     <div class="qs-name">English · Vocab</div>
-                    <div class="qs-sub">A1 · Daily Life</div>
+                    <div class="qs-sub">A1 · All themes</div>
                 </div>
                 <div class="qs-card" style="--qs-color:var(--coral)" onclick="cosyPractice.quickStart('en','speaking','intermediate','Conversation')">
                     <div class="qs-icon">🗣️</div>
@@ -372,6 +372,8 @@
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/grammar_config.js"></script>
     <script src="../js/translate.js"></script>
+    <script src="../js/cosy-mode.js"></script>
+    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
     <script src="../js/games/utils/shared.js"></script>
     <script src="../js/srs.js"></script>
     <script src="../js/exercise-core.js"></script>
