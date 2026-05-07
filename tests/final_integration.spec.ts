@@ -31,6 +31,7 @@ test.describe('COSYlanguages 4-App Integration', () => {
 
     // Dashboard
     await expect(page.locator('.profile-card')).toBeVisible();
+    await expect(page.locator('.chapter-node').first()).toBeVisible();
     const count = await page.locator('.chapter-node').count();
     expect(count).toBeGreaterThan(0);
 

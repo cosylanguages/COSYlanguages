@@ -20,7 +20,7 @@
     <!-- NAV -->
     <nav id="cosy-nav"></nav>
 
-    <div class="page" data-mode="free">
+    <div class="page" data-mode="all">
         <!-- DASHBOARD HEADER -->
         <div class="dash-hero fade-in">
             <div>
@@ -356,6 +356,7 @@
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/grammar_config.js"></script>
     <script src="../js/translate.js"></script>
+    <script src="../js/dashboard-core.js"></script>
     <script src="../js/games/utils/shared.js"></script>
     <script src="../js/srs.js"></script>
     <script src="../js/exercise-core.js"></script>
@@ -363,6 +364,24 @@
     <script src="../js/cosy-mode.js"></script>
     <script src="../js/mobile.js"></script>
     <div id="toast" class="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (window.COSY && window.COSY.mode === 'student') {
+                const course = await window.cosyDashboard.loadStudentData(window.COSY.student.code);
+                if (course) {
+                    const curriculum = await window.cosyDashboard.fetchCurriculum(course.lang, course.level);
+                    window.cosyDashboard.populateWidgets(course, curriculum);
+                }
+            }
+        });
+        document.addEventListener('cosyCourseSwitched', async (e) => {
+            const course = await window.cosyDashboard.loadStudentData(window.COSY.student.code);
+            if (course) {
+                const curriculum = await window.cosyDashboard.fetchCurriculum(course.lang, course.level);
+                window.cosyDashboard.populateWidgets(course, curriculum);
+            }
+        });
+    </script>
     <script src="../js/script.js"></script>
 </body>
 </html>

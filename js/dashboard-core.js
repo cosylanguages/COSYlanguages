@@ -10,7 +10,8 @@ window.cosyDashboard = (function() {
     async function loadStudentData(code, silent = false) {
         let studentData = null;
         try {
-            const prefix = (window.location.pathname.includes('/portal/')) ? '../' : '';
+            const path = window.location.pathname;
+            const prefix = (path.includes('/portal/') || path.includes('/practice/') || path.includes('/games/')) ? '../' : '';
             const resp = await fetch(prefix + 'data/students.json?t=' + Date.now());
             const allStudents = await resp.json();
             studentData = allStudents[code];
@@ -72,7 +73,8 @@ window.cosyDashboard = (function() {
     }
 
     async function fetchCurriculum(lang, level) {
-        const prefix = (window.location.pathname.includes('/portal/')) ? '../' : '';
+        const path_loc = window.location.pathname;
+        const prefix = (path_loc.includes('/portal/') || path_loc.includes('/practice/') || path_loc.includes('/games/')) ? '../' : '';
         const path = `${prefix}js/data/curriculum/${lang.toLowerCase()}_${level.toLowerCase()}.js`;
 
         return new Promise((resolve) => {

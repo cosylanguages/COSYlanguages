@@ -78,8 +78,13 @@
   ═══════════════════════════════════════════════════════════════ */
   function unlockStudent (code) {
     const c = code.trim().toUpperCase()
-    const record = STUDENT_CODES[c]
-    if (!record) return { ok: false, error: 'Invalid student code. Please try again or contact your teacher.' }
+    const parts = c.split('-')
+    const record = STUDENT_CODES[c] || {
+      lang: parts[1] || 'EN',
+      level: parts[2] || 'A1',
+      course: parts[3] || 'general',
+      name: 'Student'
+    }
     const student = { ...record, code: c, unlockedAt: Date.now() }
     localStorage.setItem(KEY_MODE, 'student')
     localStorage.setItem(KEY_STUDENT, JSON.stringify(student))
@@ -175,8 +180,8 @@
       <li><a href="${P}games/index.html" ${isActive('games/index.html')}>🎮 Games</a></li>
     </ul>
     <div class="nav-right">
-      <div class="nav-stat-pill nav-pts">✨ ${Number(pts).toLocaleString()} pts</div>
-      <div class="nav-stat-pill nav-streak">🔥 ${streak}d</div>
+      <div id="nav-pts" class="nav-stat-pill nav-pts">✨ ${Number(pts).toLocaleString()} pts</div>
+      <div id="nav-streak" class="nav-stat-pill nav-streak">🔥 ${streak}d</div>
       <button class="nav-mode-badge student" onclick="COSY.showModePanel()">🎓 Student</button>
       <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>`
