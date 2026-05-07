@@ -245,6 +245,14 @@ document.addEventListener('DOMContentLoaded', () => {
             gameArea.style.display = 'block';
             showNext();
         });
+
+        window.gameUtils.handleShare('share-linker-btn', {
+            game: 'word_linker',
+            lang: () => document.getElementById('linker-lang').value,
+            level: () => document.getElementById('linker-level').value,
+            theme: () => document.getElementById('linker-theme').value,
+            mode: () => document.getElementById('linker-mode')?.value || 'association'
+        });
     };
 
     initWordLinker();

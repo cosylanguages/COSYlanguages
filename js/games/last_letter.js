@@ -326,5 +326,12 @@ window.lastLetterWordCard = lastLetterWordCard;
         if (e.key === 'Enter') elements.submitBtn.click();
     };
 
+    window.gameUtils.handleShare('share-last-letter-btn', {
+      game: 'last_letter',
+      lang: () => elements.langSelect.value,
+      level: () => elements.levelSelect.value,
+      theme: () => elements.themeSelect.value
+    });
+
     window.lastLetterGame = game;
 })();

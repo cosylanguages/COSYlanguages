@@ -434,6 +434,18 @@ const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab'
                 }
             });
         }
+    } else if (dataSourceType === 'pronunciation') {
+        const currKey = `${lang.toLowerCase()}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;
+        const currData = window.curriculumData?.[currKey] || [];
+        currData.forEach(unit => {
+            (unit.lessons || []).forEach(lesson => {
+                if (lesson.pronunciation) {
+                    lesson.pronunciation.forEach(p => {
+                        if (p.point) themes.add(p.point);
+                    });
+                }
+            });
+        });
     } else {
         const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
         vocab.forEach(item => {

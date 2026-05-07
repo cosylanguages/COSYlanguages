@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const checkWin = (grid, cols, rows) => {
             const cells = Array.from(grid.querySelectorAll('.bingo-cell'));
-            if (cells.length < cols * rows) return false; // Not full grid
+            if (cells.length === 0) return false;
 
             // Rows
             for (let r = 0; r < rows; r++) {
@@ -273,15 +273,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const cardShuffled = seededShuffle([...pool], cardSeed);
 
             let count = 9, cols = 3, rows = 3;
-            if (level === '2') { count = 15; cols = 3; rows = 5; }
+            if (level === '1' || level === '2') { count = 9; cols = 3; rows = 3; }
             else if (level === '3') { count = 25; cols = 5; rows = 5; }
             else if (level === '5') { count = 27; cols = 9; rows = 3; }
+            else if (level === 'alphabet') { count = 16; cols = 4; rows = 4; }
+
+            // Ensure count doesn't exceed pool
+            count = Math.min(count, cardShuffled.length);
 
             const myItems = cardShuffled.slice(0, count);
             myItems.sort((a,b) => (typeof a === 'number' ? a - b : a.localeCompare(b)));
 
             playerGrid.innerHTML = '';
             playerGrid.className = 'bingo-grid';
+            if (cols === 4) playerGrid.style.gridTemplateColumns = 'repeat(4, 1fr)';
             if (cols === 5) playerGrid.classList.add('cols-5');
             if (cols === 9) playerGrid.classList.add('cols-9');
 

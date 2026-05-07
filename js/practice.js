@@ -30,6 +30,7 @@
     if (!STATE.todayCorrect) STATE.todayCorrect = 0;
     if (!STATE.sessions)     STATE.sessions     = 0;
     if (!STATE.mistakes)     STATE.mistakes     = [];
+    if (!STATE.history)      STATE.history      = [];
     if (!STATE.dcDone)       STATE.dcDone       = '';
 
     const todayStr = new Date().toISOString().split('T')[0];
@@ -116,7 +117,9 @@
     function selectCat(el) {
       document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
       el.classList.add('active');
-      selectedCat = el.textContent.split(' ')[1]; // Extract name from "📖 Vocabulary"
+      const val = el.dataset.value;
+      const map = { 'vocab': 'Vocabulary', 'grammar': 'Grammar', 'speaking': 'Speaking', 'pronunciation': 'Pronunciation' };
+      selectedCat = map[val] || val;
     }
     window.selectCat = selectCat;
 
@@ -124,8 +127,6 @@
        DATA LOADING
     ══════════════════════════════════════ */
     async function ensureDataLoaded(lang, level) {
-        if (level !== 'starter') return; // For now, only starter has centralized files
-
         const familyMap = {
             'EN': 'germanic', 'DE': 'germanic',
             'FR': 'romance', 'IT': 'romance', 'ES': 'romance', 'PT': 'romance',
@@ -140,9 +141,12 @@
         const family = familyMap[lang];
         if (!family) return;
 
-        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'dishes.js', 'speaking.js'];
+        // Construct correct level segment for path
+        const levelPath = (level === 'all' || !level) ? 'starter' : level;
+
+        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'dishes.js', 'speaking.js', 'locations.js', 'people.js'];
         const promises = files.map(file => {
-            const path = `../js/data/${family}/${lang.toLowerCase()}/starter/${file}`;
+            const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
 
             return new Promise(res => {
@@ -153,6 +157,20 @@
                 document.head.appendChild(s);
             });
         });
+
+        // Also load curriculum data for pronunciation
+        const currKey = `${lang.toLowerCase()}_${levelPath === 'starter' ? 'a1' : (levelPath === 'elementary' ? 'a2' : levelPath)}`;
+        const currPath = `../js/data/curriculum/${currKey}.js`;
+        if (!document.querySelector(`script[src*="${currPath}"]`)) {
+            promises.push(new Promise(res => {
+                const s = document.createElement('script');
+                s.src = currPath;
+                s.onload = res;
+                s.onerror = res;
+                document.head.appendChild(s);
+            }));
+        }
+
         await Promise.all(promises);
         // Small delay to ensure script body execution and window export
         await new Promise(res => setTimeout(res, 1000));
@@ -198,7 +216,26 @@
       } else if (cat === 'Speaking') {
           const speakingData = window.speakingData?.[l]?.talkThatTalk || [];
           pool = speakingData.filter(d => (level === 'all' || d.level === level) && (theme === 'all' || d.theme === theme));
+      } else if (cat === 'Pronunciation') {
+          const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;
+          const currData = window.curriculumData?.[currKey] || [];
+          currData.forEach(unit => {
+              (unit.lessons || []).forEach(lesson => {
+                  if (lesson.pronunciation) {
+                      lesson.pronunciation.forEach(p => {
+                          if (theme === 'all' || p.point === theme) {
+                              pool.push(...(p.examples || []).map(ex => ({ ...ex, theme: p.point, type: 'ls' })));
+                              pool.push(...(p.alphabet || []).map(a => ({ word: a.l, ipa: a.ipa, theme: p.point, type: 'ls' })));
+                          }
+                      });
+                  }
+              });
+          });
       }
+
+      // Read active task types from UI
+      let activeTypes = Array.from(document.querySelectorAll('.task-toggle.active')).map(t => t.dataset.task);
+      if (activeTypes.length === 0) activeTypes = ['mc', 'tf'];
 
       // If pool is empty, try default questions
       let qs = [];
@@ -206,8 +243,13 @@
           qs = pool.map(item => {
               // Convert dynamic item to question format
               if (cat === 'Vocabulary') {
-                  const types = ['mc', 'tf', 'type', 'ls'];
-                  const type = types[Math.floor(Math.random() * types.length)];
+                  let type = activeTypes[Math.floor(Math.random() * activeTypes.length)];
+
+                  // Validation for specific types
+                  if (type === 'op' && !item.opposite) type = 'mc';
+                  if (type === 'sc' && (!item.examples || item.examples.length === 0)) type = 'mc';
+                  if (type === 'np' && !item.plural) type = 'mc';
+                  if (type === 'cv' && !item.word) type = 'mc';
 
                   let qText, ans, opts = null;
 
@@ -225,6 +267,18 @@
                           "something else entirely";
                       qText = `"${item.word}" means "${displayDef}".`;
                       ans = isTrue;
+                  } else if (type === 'op') {
+                      qText = `What is the opposite of "${item.word}"?`;
+                      ans = item.opposite;
+                  } else if (type === 'sc') {
+                      const ex = item.examples[Math.floor(Math.random() * item.examples.length)];
+                      qText = `Scramble: ${ex.translation || 'Translate and arrange'}`;
+                      ans = ex.text;
+                  } else if (type === 'np') {
+                      qText = `What is the plural of "${item.word}"?`;
+                      ans = item.plural;
+                  } else if (type === 'cv') {
+                      qText = `Speak about: "${item.word}"`;
                   } else {
                       qText = `Type the word for: "${item.definitions?.[0]?.text || item.word}"`;
                       ans = item.word;
@@ -241,6 +295,18 @@
                   };
               } else if (cat === 'Speaking') {
                   return { type: 'conv', q: item.topic || item.text, level: item.level, theme: item.theme };
+              } else if (cat === 'Pronunciation') {
+                  const correctIpa = item.ipa;
+                  const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
+                  const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);
+                  return {
+                      type: 'ls',
+                      q: 'Listen and select the correct IPA sound:',
+                      item: item,
+                      ans: opts.indexOf(correctIpa),
+                      opts: opts,
+                      theme: item.theme
+                  };
               }
               return item;
           });
@@ -280,7 +346,7 @@
 
       // Reset visibility
       const containers = [
-          'choices-grid', 'opposite-input-container', 'tf-buttons-container', 'conversation-container'
+          'choices-grid', 'opposite-input-container', 'tf-buttons-container', 'conversation-container', 'scramble-container'
       ];
       containers.forEach(id => {
           const el = document.getElementById(id);
@@ -296,7 +362,7 @@
 
       // Word / Item display
       const wordDisplay = document.getElementById('word-display');
-      if (q.item) {
+      if (q.item && q.type !== 'sc') {
           wordDisplay.textContent = q.item.word;
           document.getElementById('emoji-display').textContent = q.item.emoji || '💡';
       } else {
@@ -310,7 +376,7 @@
         grid.classList.remove('hidden');
 
         let finalOpts = q.opts || [];
-        if (q.item) {
+        if (q.item && window.SESSION.cat === 'Vocabulary') {
             const vocabPool = window.gameUtils.getVocabPool(window.SESSION.lang.toLowerCase(), 'all', 'all');
             const distractors = vocabPool
                 .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)
@@ -337,7 +403,7 @@
         const cont = document.getElementById('tf-buttons-container');
         cont.style.display = 'flex';
         cont.classList.remove('hidden');
-      } else if (q.type === 'type') {
+      } else if (q.type === 'type' || q.type === 'op' || q.type === 'np') {
         const cont = document.getElementById('opposite-input-container');
         cont.style.display = 'block';
         cont.classList.remove('hidden');
@@ -350,11 +416,51 @@
         cont.style.display = 'block';
         cont.classList.remove('hidden');
         document.getElementById('finish-conversation-btn').onclick = () => cosyPractice.nextQ(true);
+      } else if (q.type === 'sc') {
+        const cont = document.getElementById('scramble-container');
+        cont.style.display = 'block';
+        cont.classList.remove('hidden');
+
+        const assembly = document.getElementById('word-assembly');
+        const letters = document.getElementById('scramble-letters');
+        assembly.innerHTML = '';
+
+        // Prepare words
+        const words = q.ans.split(' ').sort(() => Math.random() - 0.5);
+        letters.innerHTML = words.map((w, i) =>
+            `<button class="mc-opt" onclick="cosyPractice.assembleWord(this)">${w}</button>`
+        ).join('');
+
+        document.getElementById('clear-scramble-btn').onclick = () => {
+            assembly.innerHTML = '';
+            letters.querySelectorAll('button').forEach(b => b.style.display = 'inline-block');
+        };
+
+        // Reuse or create check button
+        let checkBtn = cont.querySelector('.sc-check-btn');
+        if (!checkBtn) {
+            checkBtn = document.createElement('button');
+            checkBtn.className = 'btn-start sc-check-btn';
+            checkBtn.textContent = 'Check Scramble ✅';
+            checkBtn.style.marginTop = '1rem';
+            checkBtn.style.width = '100%';
+            cont.appendChild(checkBtn);
+        }
+        checkBtn.onclick = () => cosyPractice.checkScramble();
       }
     }
 
     function taskTypeLabel(t) {
-      const m = { mc:'Multiple choice', tf:'True / False', type:'Type the answer', conv:'Speaking task', ls:'Listen & select' };
+      const m = {
+          mc:'Multiple choice',
+          tf:'True / False',
+          type:'Type the answer',
+          conv:'Speaking task',
+          ls:'Listen & select',
+          sc:'Sentence Scramble',
+          op:'Opposites',
+          np:'Plurals'
+      };
       return m[t] || t;
     }
 
@@ -376,6 +482,22 @@
       updateDashboardUI();
     }
 
+    function recordMistake(q) {
+        if (!q.item) return;
+        const exists = STATE.mistakes.some(m => m.word === q.item.word && m.lang === window.SESSION.lang);
+        if (!exists) {
+            STATE.mistakes.push({
+                ...q.item,
+                lang: window.SESSION.lang,
+                cat: window.SESSION.cat,
+                added: Date.now()
+            });
+            if (STATE.mistakes.length > 50) STATE.mistakes.shift();
+            saveState(STATE);
+            populateRecentAndMistakes();
+        }
+    }
+
     function endSession_summary() {
       document.getElementById('progress-fill').style.width = '100%';
       document.getElementById('practice-section').style.display = 'none';
@@ -386,8 +508,21 @@
 
       if (STATE.lastDate !== todayStr || STATE.sessions === 0) { STATE.streak++; STATE.lastDate = todayStr; }
       STATE.sessions++;
+
+      // Record History
+      STATE.history.unshift({
+          lang: window.SESSION.lang,
+          cat: window.SESSION.cat,
+          pts: window.SESSION.pts,
+          correct: window.SESSION.correct,
+          total: window.SESSION.qs.length,
+          date: Date.now()
+      });
+      if (STATE.history.length > 10) STATE.history.pop();
+
       saveState(STATE);
       updateDashboardUI();
+      populateRecentAndMistakes();
 
       document.getElementById('final-score').textContent = window.SESSION.pts;
       document.getElementById('final-total-score').textContent = STATE.totalPts;
@@ -407,6 +542,64 @@
           const pct = Math.min(STATE.streak / 30, 1);
           arc.style.strokeDashoffset = 226 - (226 * pct);
       }
+    }
+
+    function populateRecentAndMistakes() {
+        const recentList = document.getElementById('recent-list');
+        const mistakeList = document.getElementById('mistake-list');
+        const mistakeCountQs = document.getElementById('mistake-count-qs');
+
+        if (recentList) {
+            if (STATE.history.length === 0) {
+                recentList.innerHTML = '<div class="info-card-empty">No sessions yet — start practising!</div>';
+            } else {
+                recentList.innerHTML = STATE.history.map(s => `
+                    <div style="display:flex; justify-content:space-between; align-items:center; padding:10px; border-bottom:1px solid var(--border);">
+                        <div>
+                            <div style="font-weight:600; font-size:0.9rem;">${s.lang} · ${s.cat}</div>
+                            <div style="font-size:0.75rem; color:var(--ink-faint);">${new Date(s.date).toLocaleDateString()}</div>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-weight:800; color:var(--teal);">${s.pts} pts</div>
+                            <div style="font-size:0.75rem;">${s.correct}/${s.total} ok</div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        }
+
+        if (mistakeList) {
+            if (STATE.mistakes.length === 0) {
+                mistakeList.innerHTML = '<div class="info-card-empty">No mistakes saved yet — well done!</div>';
+            } else {
+                mistakeList.innerHTML = STATE.mistakes.slice(-5).reverse().map(m => `
+                    <div style="display:flex; align-items:center; gap:10px; padding:10px; border-bottom:1px solid var(--border);">
+                        <div style="font-size:1.5rem;">${m.emoji || '💡'}</div>
+                        <div>
+                            <div style="font-weight:700;">${m.word}</div>
+                            <div style="font-size:0.75rem; color:var(--ink-faint);">${m.lang} · ${m.theme}</div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        }
+
+        if (mistakeCountQs) {
+            mistakeCountQs.textContent = `${STATE.mistakes.length} words to review`;
+        }
+    }
+
+    async function updateThemes() {
+        const lang = selectedLang;
+        const level = document.getElementById('practice-level').value;
+        const cat = selectedCat;
+        const themeSelect = document.getElementById('practice-theme');
+        if (!themeSelect) return;
+
+        await ensureDataLoaded(lang, level);
+
+        const dataSource = cat === 'Speaking' ? 'speaking' : (cat === 'Pronunciation' ? 'pronunciation' : 'vocab');
+        window.gameUtils.populateThemes(themeSelect, { value: level }, lang.toLowerCase(), dataSource);
     }
 
     /* ══════════════════════════════════════
@@ -535,20 +728,71 @@
     /* ══════════════════════════════════════
        GLOBAL EXPORTS
     ══════════════════════════════════════ */
+    function loadDailyChallenge() {
+        const dcTitle = document.getElementById('dc-title');
+        const dcSub = document.getElementById('dc-sub');
+        const dcMeta = document.getElementById('dc-meta');
+        if (!dcTitle) return;
+
+        const challenges = [
+            { title: "Vocabulary Sprint", sub: "10 words from English A2", meta: "Double points today! ✨", lang: 'en', cat: 'Vocabulary', level: 'elementary' },
+            { title: "Verb Mastery", sub: "Common French Verbs", meta: "Focus on conjugation 📐", lang: 'fr', cat: 'Vocabulary', level: 'starter' },
+            { title: "Conversation Starter", sub: "Speak about daily life", meta: "Speaking focus 🗣️", lang: 'en', cat: 'Speaking', level: 'intermediate' }
+        ];
+
+        // Seeded by date
+        const day = new Date().getDate();
+        const challenge = challenges[day % challenges.length];
+
+        dcTitle.textContent = challenge.title;
+        dcSub.textContent = challenge.sub;
+        dcMeta.textContent = challenge.meta;
+
+        window.currentDC = challenge;
+    }
+
     window.cosyPractice = {
         quickStart: async (lang, cat, level, theme) => {
-            const lp = document.querySelector(`.lang-pill[data-value="${lang}"]`);
+            const lp = document.querySelector(`.lang-pill[data-value="${lang.toLowerCase()}"]`);
             if (lp) selectLang(lp);
-            const cp = document.querySelector(`.cat-pill[data-value="${cat}"]`);
+            const cp = document.querySelector(`.cat-pill[data-value="${cat.toLowerCase()}"]`);
             if (cp) selectCat(cp);
 
             // Normalize category for session logic
-            const catNorm = { 'vocab': 'Vocabulary', 'grammar': 'Grammar', 'speaking': 'Speaking', 'pronunciation': 'Pronunciation' }[cat] || cat;
+            const catNorm = { 'vocab': 'Vocabulary', 'grammar': 'Grammar', 'speaking': 'Speaking', 'pronunciation': 'Pronunciation' }[cat.toLowerCase()] || cat;
 
             await ensureDataLoaded(lang.toUpperCase(), level);
             beginSession(lang.toUpperCase(), catNorm, level, theme, false);
         },
-        startDailyChallenge: () => beginSession('EN', 'Vocabulary', 'A2', 'all', true),
+        startDailyChallenge: async () => {
+            const c = window.currentDC || { lang: 'EN', cat: 'Vocabulary', level: 'starter' };
+            await ensureDataLoaded(c.lang.toUpperCase(), c.level);
+            beginSession(c.lang.toUpperCase(), c.cat, c.level, 'all', true);
+        },
+        startMistakeReview: () => {
+            if (STATE.mistakes.length === 0) {
+                alert("No mistakes to review yet!");
+                return;
+            }
+            const qs = STATE.mistakes.map(m => {
+                return {
+                    type: 'type',
+                    q: `Review mistake: "${m.definitions?.[0]?.text || m.word}"`,
+                    item: m,
+                    ans: m.word
+                };
+            }).sort(() => Math.random() - 0.5).slice(0, 10);
+
+            window.SESSION = { lang: 'Multi', cat: 'Review', level: 'Mixed', theme: 'Mistakes', qs, idx: 0, pts: 0, correct: 0, mistakes: [], isChallenge: false };
+
+            const titleEl = document.getElementById('pe-session-title');
+            if (titleEl) titleEl.textContent = "Review Mistakes ❌";
+
+            document.getElementById('practice-section').style.display = 'block';
+            document.getElementById('practice-section').classList.add('active');
+            document.getElementById('setup-section').style.display = 'none';
+            renderQuestion();
+        },
         skipDailyChallenge: () => { document.getElementById('daily-challenge').style.opacity = '0.5'; },
         openWheel: () => {
             document.getElementById('setup-section').style.display = 'none';
@@ -566,6 +810,7 @@
                 awardPoints(10);
                 showFeedback(true, 'Correct! +10 pts');
             } else {
+                recordMistake(q);
                 const opts = q.dynamicOpts || q.opts;
                 showFeedback(false, 'Incorrect. Answer: ' + (opts ? opts[ans] : 'Unknown'));
             }
@@ -573,13 +818,38 @@
         checkTF: (val) => {
             const q = window.SESSION.qs[window.SESSION.idx];
             if (val === q.ans) { awardPoints(10); showFeedback(true, 'Correct! +10 pts'); }
-            else { showFeedback(false, 'Incorrect.'); }
+            else { recordMistake(q); showFeedback(false, 'Incorrect.'); }
         },
         checkType: () => {
             const q = window.SESSION.qs[window.SESSION.idx];
             const val = document.getElementById('opposite-answer').value.trim().toLowerCase();
-            if (val === q.ans.toLowerCase()) { awardPoints(15); showFeedback(true, 'Correct! +15 pts'); }
-            else { showFeedback(false, 'Incorrect. Answer: ' + q.ans); }
+            if (val === q.ans.toLowerCase()) {
+                awardPoints(q.type === 'type' ? 10 : 15);
+                showFeedback(true, `Correct! +${q.type === 'type' ? 10 : 15} pts`);
+            }
+            else { recordMistake(q); showFeedback(false, 'Incorrect. Answer: ' + q.ans); }
+        },
+        assembleWord: (btn) => {
+            const assembly = document.getElementById('word-assembly');
+            const clone = btn.cloneNode(true);
+            clone.onclick = () => {
+                clone.remove();
+                btn.style.display = 'inline-block';
+            };
+            assembly.appendChild(clone);
+            btn.style.display = 'none';
+        },
+        checkScramble: () => {
+            const q = window.SESSION.qs[window.SESSION.idx];
+            const assembly = document.getElementById('word-assembly');
+            const val = Array.from(assembly.querySelectorAll('button')).map(b => b.textContent).join(' ');
+            if (val.toLowerCase() === q.ans.toLowerCase()) {
+                awardPoints(20);
+                showFeedback(true, 'Perfectly arranged! +20 pts');
+            } else {
+                recordMistake(q);
+                showFeedback(false, 'Not quite. Correct: ' + q.ans);
+            }
         },
         nextQ: (forceCorrect) => {
             if (forceCorrect) awardPoints(5);
@@ -596,9 +866,34 @@
 
     document.addEventListener('DOMContentLoaded', () => {
         updateDashboardUI();
+        populateRecentAndMistakes();
+        loadDailyChallenge();
         initWheel();
 
         // Wire up static buttons
+        document.querySelectorAll('.lang-pill').forEach(lp => {
+            lp.addEventListener('click', () => {
+                selectLang(lp);
+                updateThemes();
+            });
+        });
+
+        document.querySelectorAll('.cat-pill').forEach(cp => {
+            cp.addEventListener('click', () => {
+                selectCat(cp);
+                updateThemes();
+            });
+        });
+
+        document.getElementById('practice-level')?.addEventListener('change', updateThemes);
+
+        // Task toggles interactivity
+        document.querySelectorAll('.task-toggle').forEach(tt => {
+            tt.addEventListener('click', () => {
+                tt.classList.toggle('active');
+            });
+        });
+
         document.getElementById('true-btn')?.addEventListener('click', () => cosyPractice.checkTF(true));
         document.getElementById('false-btn')?.addEventListener('click', () => cosyPractice.checkTF(false));
         document.getElementById('next-btn')?.addEventListener('click', () => cosyPractice.nextQ());

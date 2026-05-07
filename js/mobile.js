@@ -128,17 +128,11 @@ function launchGame(gameName, mode, settings) {
         soloCheck.dispatchEvent(new Event('change'));
     }
 
-    if (actualStartBtn) {
+    if (actualStartBtn && mode === 'solo') {
         if (prefix === 'bingo') {
-            if (mode === 'solo') {
-                const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
-                if (soloCheckBingo) soloCheckBingo.checked = true;
-                const callerBtn = modal.querySelector('#start-bingo-caller-btn');
-                if (callerBtn) callerBtn.click();
-            } else {
-                const playerBtn = modal.querySelector('#start-bingo-player-btn');
-                if (playerBtn) playerBtn.click();
-            }
+            const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
+            if (soloCheckBingo) soloCheckBingo.checked = true;
+            // Don't auto-click for bingo to allow mode selection (0-9, alphabet, etc.)
         } else {
             actualStartBtn.click();
         }

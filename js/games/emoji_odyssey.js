@@ -241,6 +241,14 @@ document.addEventListener('DOMContentLoaded', () => {
             storyNameDisplay.textContent = '';
             feedback.textContent = '';
         });
+
+        window.gameUtils.handleShare('share-emoji-btn', {
+            game: 'emoji_odyssey',
+            lang: () => document.getElementById('emoji-lang').value,
+            level: () => document.getElementById('emoji-level').value,
+            theme: () => document.getElementById('emoji-theme').value,
+            mode: () => document.getElementById('emoji-mode').value
+        });
     };
 
     initEmojiOdyssey();
