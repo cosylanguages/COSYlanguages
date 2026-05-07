@@ -154,4 +154,11 @@ document.addEventListener('DOMContentLoaded', () => {
     window.StoryChainGame = StoryChainGame;
     // Auto-populate on first load if visible
     setTimeout(populateThemesLocal, 500);
+
+    window.gameUtils.handleShare('share-story-chain-btn', {
+      game: 'story-chain',
+      lang: () => document.getElementById('sc-lang').value,
+      level: () => document.getElementById('sc-level').value,
+      theme: () => document.getElementById('sc-theme').value
+    });
 });

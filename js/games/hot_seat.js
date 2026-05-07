@@ -130,4 +130,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.HotSeatGame = HotSeatGame;
     // Auto-populate on first load if visible
     setTimeout(populateThemesLocal, 500);
+
+    window.gameUtils.handleShare('share-hot-seat-btn', {
+      game: 'hot-seat',
+      lang: () => document.getElementById('hs-lang').value,
+      level: () => document.getElementById('hs-level').value,
+      theme: () => document.getElementById('hs-theme').value,
+      timer: () => document.getElementById('hs-timer-duration')?.value || '60'
+    });
 });

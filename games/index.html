@@ -1571,6 +1571,7 @@ footer {
                 </label>
             </div>
             <button id="start-emoji-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
+            <button id="share-emoji-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
         </div>
         <div id="emoji-gameplay" style="display: none; padding: 2rem 0;">
             <div id="emoji-guess-area">
@@ -1634,6 +1635,7 @@ footer {
                 </div>
             </div>
             <button id="start-crossword-game-btn" class="cta-button primary" style="margin-top: 1.5rem; width: 100%;">Start Puzzle 🚀</button>
+            <button id="share-crossword-btn" class="cta-button secondary" style="margin-top: 1.5rem; width: 100%;" data-translate-key="share_btn">Share 🔗</button>
         </div>
 
         <div id="crossword-gameplay" style="display: none; padding: 1rem 0;">
@@ -1744,6 +1746,7 @@ footer {
                         </label>
                     </div>
                     <button id="start-last-letter-game-btn" class="cta-button primary" style="margin-top: 1.5rem; width: 100%;" data-translate-key="start_game">Start Game 🚀</button>
+            <button id="share-last-letter-btn" class="cta-button secondary" style="margin-top: 1.5rem; width: 100%;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
                 <div id="last-letter-gameplay" style="display: none; padding: 1rem 0;">
@@ -1834,6 +1837,7 @@ footer {
                 </div>
             </div>
             <button id="start-linker-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
+            <button id="share-linker-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
         </div>
         <div id="linker-gameplay" style="display: none; padding: 2.5rem 1rem;">
             <div id="linker-clues" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem;"></div>
@@ -1849,11 +1853,10 @@ footer {
 <div class="modal-overlay" id="story-chain-modal" style="display:none">
   <div class="modal-content glass" style="max-width: 600px;">
     <h2 data-translate-key="game_story_chain">Story Chain 🃏</h2>
-    <div class="game-instructions" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">
-      Each player adds one sentence to a story — but each sentence must
-      secretly use a word shown only to that player. Others try to guess
-      the hidden word!
-    </div>
+    <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
+        <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+        <p style="margin-top: 0.5rem;" data-translate-key="story_chain_guide_text">Each player adds one sentence to a story — but each sentence must secretly use a word shown only to that player. Others try to guess the hidden word!</p>
+    </details>
 
     <!-- Setup -->
     <div id="sc-setup">
@@ -1893,6 +1896,7 @@ footer {
             </label>
         </div>
         <button id="start-story-chain-game-btn" onclick="storyChainStart()" class="cta-button primary">Start Story 🚀</button>
+        <button id="share-story-chain-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
     </div>
 
     <!-- Word reveal (private — only shown to current player) -->
@@ -1921,10 +1925,10 @@ footer {
 <div class="modal-overlay" id="hot-seat-modal" style="display:none">
   <div class="modal-content glass" style="max-width: 600px;">
     <h2 data-translate-key="game_hot_seat">Hot Seat 🎯</h2>
-    <div class="game-instructions" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">
-      One player is in the hot seat! Answer rapid-fire vocabulary questions
-      for 60 seconds. Others judge your answers.
-    </div>
+    <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
+        <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+        <p style="margin-top: 0.5rem;" data-translate-key="hot_seat_guide_text">One player is in the hot seat! Answer rapid-fire vocabulary questions for 60 seconds. Others judge your answers.</p>
+    </details>
 
     <!-- Setup -->
     <div id="hs-setup">
@@ -1975,6 +1979,7 @@ footer {
             </label>
         </div>
         <button id="start-hot-seat-game-btn" onclick="hotSeatStart()" class="cta-button primary">Start Hot Seat 🔥</button>
+        <button id="share-hot-seat-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
     </div>
 
     <div id="hot-seat-area"></div>

@@ -17,7 +17,7 @@ test.describe('Practice Data Audit', () => {
             for (const level of levels) {
                 for (const category of ['vocab', 'grammar']) {
                     // Navigate with parameters directly
-                    await page.goto(`http://localhost:8080/practice.html?lang=${lang}&level=${level}&cat=${category}&theme=all`, { waitUntil: 'networkidle' });
+                    await page.goto(`http://localhost:8080/practice/index.html?lang=${lang}&level=${level}&cat=${category}&theme=all`, { waitUntil: 'networkidle' });
 
                     // Wait for setup to be processed
                     await page.waitForTimeout(1000);
