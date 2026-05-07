@@ -806,4 +806,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['tt'] = [...(window.vocabularyData['tt'] || []), ...data];
 })();

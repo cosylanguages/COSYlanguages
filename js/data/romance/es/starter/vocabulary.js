@@ -2083,4 +2083,6 @@
 {}
 ];
 
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['es'] = [...(window.vocabularyData['es'] || []), ...data];
 })();

@@ -1,11 +1,4 @@
 let bingoAutoCallerInterval = null;
-const stopBingoAutoCaller = () => {
-    if (bingoAutoCallerInterval) {
-        clearInterval(bingoAutoCallerInterval);
-        bingoAutoCallerInterval = null;
-    }
-    window.speechSynthesis?.cancel();
-};
 const LuckyNumbersGame = {
     startAutoCaller: (items, lang, intervalMs = 4000) => {
         stopBingoAutoCaller();
@@ -29,7 +22,14 @@ const LuckyNumbersGame = {
 
 window.LuckyNumbersGame = LuckyNumbersGame;
 
+const stopBingoAutoCaller = () => {
+    if (bingoAutoCallerInterval) {
+        clearInterval(bingoAutoCallerInterval);
+        bingoAutoCallerInterval = null;
+    }
+    window.speechSynthesis?.cancel();
 };
+
 const celebrateBingo = () => {
     if (window.gameUtils && window.gameUtils.createConfetti) {
         window.gameUtils.createConfetti();

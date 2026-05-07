@@ -6990,4 +6990,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['en'] = [...(window.vocabularyData['en'] || []), ...data];
 })();

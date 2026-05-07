@@ -20,7 +20,7 @@ window.updateTotalScore = function(points) {
     if (totalScoreEl) totalScoreEl.textContent = total;
     if (setupTotalScoreEl) setupTotalScoreEl.textContent = total;
     if (totalPtsEl) totalPtsEl.textContent = total.toLocaleString();
-    if (navPtsEl) navPtsEl.textContent = total.toLocaleString();
+    if (navPtsEl) navPtsEl.textContent = `✨ ${total.toLocaleString()} pts`;
 
     return total;
 };
@@ -33,7 +33,7 @@ window.loadStreak = function() {
 
     if (streakCountEl) streakCountEl.textContent = streak;
     if (streakValEl) streakValEl.textContent = streak;
-    if (navStreakEl) navStreakEl.textContent = streak;
+    if (navStreakEl) navStreakEl.textContent = `🔥 ${streak}d`;
 
     const arc = document.getElementById('streak-arc');
     if (arc) {

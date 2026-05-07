@@ -805,4 +805,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['ka'] = [...(window.vocabularyData['ka'] || []), ...data];
 })();

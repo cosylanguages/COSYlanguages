@@ -1,87 +1,1144 @@
-Starting up http-server, serving .
-
-http-server version: 14.1.1
-
-http-server settings:
-CORS: disabled
-Cache: 3600 seconds
-Connection Timeout: 120 seconds
-Directory Listings: visible
-AutoIndex: visible
-Serve GZIP Files: false
-Serve Brotli Files: false
-Default File Extension: none
-
-Available on:
-  http://127.0.0.1:8080
-  http://192.168.0.2:8080
-Hit CTRL-C to stop the server
-
-[2026-05-07T10:39:56.802Z]  "GET /index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-(node:1134413) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
-(Use `node --trace-deprecation ...` to show where the warning was created)
-[2026-05-07T10:39:56.823Z]  "GET /css/mobile.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.824Z]  "GET /images/cosyenglish.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.825Z]  "GET /images/cosyfrench.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.834Z]  "GET /images/cosyitalian.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.835Z]  "GET /images/cosyrussian.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.841Z]  "GET /images/cosygreek.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.842Z]  "GET /js/data/theme_config.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.847Z]  "GET /js/translate.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.848Z]  "GET /js/cosy-mode.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.857Z]  "GET /js/mobile.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.858Z]  "GET /js/dashboard-core.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.862Z]  "GET /js/script.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.862Z]  "GET /images/cosyspanish.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.863Z]  "GET /images/cosygerman.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.863Z]  "GET /images/cosyportugese.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.863Z]  "GET /images/cosyarmenian.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.865Z]  "GET /sw.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.868Z]  "GET /images/cosygeorgian.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.873Z]  "GET /images/cosytatar.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.874Z]  "GET /images/cosybachkir.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.875Z]  "GET /images/cosybreton.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.875Z]  "GET /images/cosylanguages.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.882Z]  "GET /COSYlanguages/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.883Z]  "GET /COSYlanguages/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.883Z]  "GET /COSYlanguages/practice.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.888Z]  "GET /COSYlanguages/events.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.889Z]  "GET /COSYlanguages/days.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.890Z]  "GET /COSYlanguages/css/mobile.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.890Z]  "GET /COSYlanguages/js/mobile.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.891Z]  "GET /COSYlanguages/js/srs.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:56.891Z]  "GET /COSYlanguages/images/cosylanguages.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:57.105Z]  "GET /js/data/germanic/en/translations.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:58.691Z]  "GET /portal/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:58.705Z]  "GET /css/style.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:58.706Z]  "GET /js/data/curriculum_data.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:58.707Z]  "GET /js/days.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:59.929Z]  "GET /data/students.json?t=1778150399924" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:39:59.964Z]  "GET /data/students.json?t=1778150399961" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:00.045Z]  "GET /js/data/curriculum/en_a1.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:00.061Z]  "GET /data/broadcast.json?t=1778150400058" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.962Z]  "GET /sw.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.965Z]  "GET /data/students.json?t=1778150401963" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.977Z]  "GET /COSYlanguages/events.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.978Z]  "GET /COSYlanguages/days.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.979Z]  "GET /COSYlanguages/css/mobile.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.979Z]  "GET /COSYlanguages/js/mobile.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:01.980Z]  "GET /COSYlanguages/js/srs.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.088Z]  "GET /practice/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.100Z]  "GET /css/practice-new.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.102Z]  "GET /js/data/grammar_config.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.104Z]  "GET /js/games/utils/shared.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.113Z]  "GET /js/srs.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.114Z]  "GET /js/exercise-core.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.118Z]  "GET /js/practice.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:03.213Z]  "GET /data/students.json?t=1778150403207" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:04.992Z]  "GET /data/students.json?t=1778150404989" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:05.056Z]  "GET /data/students.json" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.025Z]  "GET /sw.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.047Z]  "GET /COSYlanguages/events.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.048Z]  "GET /COSYlanguages/days.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.048Z]  "GET /COSYlanguages/css/mobile.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.048Z]  "GET /COSYlanguages/js/mobile.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.051Z]  "GET /COSYlanguages/js/srs.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-[2026-05-07T10:40:07.053Z]  "GET /COSYlanguages/images/cosylanguages.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
-http-server stopped.
+npm warn exec The following package was not found and will be installed: serve@14.2.6
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 386 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /index
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 16 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 14 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 17 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 22 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 11 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 11 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 13 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 15 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 9 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 7 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 15 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 14 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 21 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 20 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 20 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 26 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 15 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 7 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 11 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 200 in 7 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 4 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 404 in 8 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 2 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:26:48 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 404 in 1 ms
+ HTTP  5/7/2026 12:26:48 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:49 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:26:49 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /index
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:26:50 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:26:50 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 301 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:26:51 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:26:51 PM ::1 Returned 301 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /data/students.json?t=1778156812066
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /index
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 7 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 304 in 10 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 1 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 7 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 7 ms
+ HTTP  5/7/2026 12:26:52 PM ::1 GET /COSYlanguages/js/srs.js
+ HTTP  5/7/2026 12:26:52 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /index
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 404 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:26:53 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:26:53 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /index
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 9 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 404 in 5 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 301 in 5 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:35:15 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:35:15 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /index
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:38:35 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:38:35 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /portal/index.html
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /portal/index
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /portal
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 200 in 9 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 200 in 9 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 200 in 22 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 304 in 15 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:37 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:38:37 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:38:39 PM ::1 GET /data/students.json?t=1778157519104
+ HTTP  5/7/2026 12:38:39 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:39 PM ::1 GET /data/students.json?t=1778157519165
+ HTTP  5/7/2026 12:38:39 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:39 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:38:39 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:39 PM ::1 GET /data/broadcast.json?t=1778157519273
+ HTTP  5/7/2026 12:38:39 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 404 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 404 in 13 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 404 in 12 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /COSYlanguages/js/srs.js
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /data/students.json?t=1778157521403
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:38:41 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:38:41 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /portal
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /data/students.json?t=1778157522617
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 304 in 0 ms
+ HTTP  5/7/2026 12:38:42 PM ::1 GET /data/broadcast.json?t=1778157522651
+ HTTP  5/7/2026 12:38:42 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /portal
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 0 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:43 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:38:43 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:38:44 PM ::1 GET /data/students.json?t=1778157524815
+ HTTP  5/7/2026 12:38:44 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:38:44 PM ::1 GET /data/students.json
+ HTTP  5/7/2026 12:38:44 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /index
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:42:52 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:42:52 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /portal/index.html
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 301 in 2 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /portal/index
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 301 in 5 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /portal
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 200 in 6 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 304 in 7 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 304 in 7 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:54 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:42:54 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:42:56 PM ::1 GET /data/students.json?t=1778157776138
+ HTTP  5/7/2026 12:42:56 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:56 PM ::1 GET /data/students.json?t=1778157776167
+ HTTP  5/7/2026 12:42:56 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:56 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:42:56 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:56 PM ::1 GET /data/broadcast.json?t=1778157776255
+ HTTP  5/7/2026 12:42:56 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 404 in 1 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 404 in 5 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /COSYlanguages/js/srs.js
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /data/students.json?t=1778157778410
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 7 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 200 in 6 ms
+ HTTP  5/7/2026 12:42:58 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:42:58 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /portal
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 7 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 12 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /data/students.json?t=1778157779640
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:42:59 PM ::1 GET /data/broadcast.json?t=1778157779684
+ HTTP  5/7/2026 12:42:59 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /portal
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:00 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:43:00 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:43:01 PM ::1 GET /data/students.json?t=1778157781837
+ HTTP  5/7/2026 12:43:01 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:43:01 PM ::1 GET /data/students.json
+ HTTP  5/7/2026 12:43:01 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /index.html
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /index
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 5 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/index.html
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/practice.html
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/index
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 404 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/events.html
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/days.html
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /COSYlanguages/js/srs.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 404 in 4 ms
+ HTTP  5/7/2026 12:46:57 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:46:57 PM ::1 Returned 200 in 6 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /portal/index.html
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 301 in 1 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /portal/index
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 301 in 0 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /portal
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 200 in 0 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:46:59 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:46:59 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:01 PM ::1 GET /data/students.json?t=1778158021013
+ HTTP  5/7/2026 12:47:01 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:47:01 PM ::1 GET /data/students.json?t=1778158021043
+ HTTP  5/7/2026 12:47:01 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:47:01 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:47:01 PM ::1 Returned 200 in 3 ms
+ HTTP  5/7/2026 12:47:01 PM ::1 GET /data/broadcast.json?t=1778158021106
+ HTTP  5/7/2026 12:47:01 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 0 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /css/mobile.css
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyenglish.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyfrench.png
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyitalian.png
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyrussian.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosygreek.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/mobile.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /sw.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosygerman.png
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/script.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyspanish.png
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyportugese.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosyarmenian.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosygeorgian.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosytatar.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosybachkir.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosybreton.png
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 9 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 8 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 6 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 5 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages/
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages/practice
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 3 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 2 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages/css/mobile.css
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages/js/mobile.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages/js/srs.js
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /COSYlanguages/images/cosylanguages.png
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 7 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 7 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 7 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 404 in 8 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /data/students.json?t=1778158023299
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 200 in 4 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:47:03 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:47:03 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /portal
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /data/students.json?t=1778158024561
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /js/data/curriculum/en_a1.js
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:04 PM ::1 GET /data/broadcast.json?t=1778158024593
+ HTTP  5/7/2026 12:47:04 PM ::1 Returned 200 in 2 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /portal
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /css/style.css
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/data/theme_config.js
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/data/curriculum_data.js
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/translate.js
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/dashboard-core.js
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/cosy-mode.js
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 4 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 3 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/days.js
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /js/data/germanic/en/translations.js
+ HTTP  5/7/2026 12:47:05 PM ::1 GET /images/cosylanguages.png
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 2 ms
+ HTTP  5/7/2026 12:47:05 PM ::1 Returned 304 in 1 ms
+ HTTP  5/7/2026 12:47:06 PM ::1 GET /data/students.json?t=1778158026728
+ HTTP  5/7/2026 12:47:06 PM ::1 Returned 200 in 1 ms
+ HTTP  5/7/2026 12:47:06 PM ::1 GET /data/students.json
+ HTTP  5/7/2026 12:47:06 PM ::1 Returned 200 in 1 ms

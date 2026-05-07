@@ -1001,4 +1001,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['ru'] = [...(window.vocabularyData['ru'] || []), ...data];
 })();

@@ -2075,4 +2075,6 @@
 {}
 ];
 
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['pt'] = [...(window.vocabularyData['pt'] || []), ...data];
 })();

@@ -805,4 +805,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['br'] = [...(window.vocabularyData['br'] || []), ...data];
 })();

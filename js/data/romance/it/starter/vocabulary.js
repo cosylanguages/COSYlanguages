@@ -13149,4 +13149,6 @@
         "antonyms": []
     },
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['it'] = [...(window.vocabularyData['it'] || []), ...data];
 })();

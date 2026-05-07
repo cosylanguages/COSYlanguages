@@ -806,4 +806,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['ba'] = [...(window.vocabularyData['ba'] || []), ...data];
 })();

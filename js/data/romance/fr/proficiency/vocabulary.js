@@ -35,4 +35,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['fr'] = [...(window.vocabularyData['fr'] || []), ...data];
 })();

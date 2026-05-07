@@ -917,4 +917,6 @@
     },
 {}
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['el'] = [...(window.vocabularyData['el'] || []), ...data];
 })();

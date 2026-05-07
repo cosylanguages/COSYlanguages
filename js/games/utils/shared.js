@@ -578,8 +578,35 @@ const gameSpeak = (text, lang) => speak(text, lang);
 
 const addGamePoints = (points) => {
     const total = parseInt(localStorage.getItem('cosy_total_points') || 0);
-    localStorage.setItem('cosy_total_points', total + points);
-    // Maybe show a mini notification
+    const newTotal = total + points;
+    localStorage.setItem('cosy_total_points', newTotal);
+
+    // Update UI if elements exist
+    const navPts = document.getElementById('nav-pts');
+    const totalPts = document.getElementById('total-pts');
+    if (navPts) navPts.textContent = `✨ ${newTotal.toLocaleString()} pts`;
+    if (totalPts) totalPts.textContent = newTotal.toLocaleString();
+
+    // Check for streak sync
+    const lastDate = localStorage.getItem('last_practice_date');
+    const today = new Date().toDateString();
+    if (lastDate !== today) {
+        let streak = parseInt(localStorage.getItem('practice_streak') || 0);
+        if (lastDate) {
+            const lastPractice = new Date(lastDate);
+            const todayDate = new Date(today);
+            const diffTime = Math.abs(todayDate - lastPractice);
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            if (diffDays === 1) streak++; else streak = 1;
+        } else streak = 1;
+        localStorage.setItem('practice_streak', streak);
+        localStorage.setItem('last_practice_date', today);
+
+        const navStreak = document.getElementById('nav-streak');
+        const streakVal = document.getElementById('streak-val');
+        if (navStreak) navStreak.textContent = `🔥 ${streak}d`;
+        if (streakVal) streakVal.textContent = streak;
+    }
 };
 
 window.gameUtils = {
