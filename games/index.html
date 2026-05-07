@@ -19,6 +19,7 @@
 <link rel="apple-touch-icon" href="../images/cosylanguages.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/cosy-mode.js"></script>
 <link rel="stylesheet" href="../css/mobile.css">
 <script>
 if ('serviceWorker' in navigator) {
@@ -499,27 +500,7 @@ footer {
 </style>
 </head>
 <body class="events-page">
-    <nav id="main-nav">
-      <a class="nav-logo" href="../index.html">
-        <img src="../images/cosylanguages.png" alt="COSYlanguages">
-      </a>
-      <ul class="nav-links">
-        <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
-        <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
-        <li><a href="../index.html#languages" data-translate-key="nav_languages">Languages</a></li>
-        <li><a href="../practice/index.html" data-translate-key="nav_practice">Practice</a></li>
-        <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-        <li><a href="index.html" class="active" data-translate-key="nav_events">Events 🎉</a></li>
-        <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
-        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
-      </ul>
-      <div class="nav-lang-switcher">
-        <span class="nav-lang-label">Explore a language:</span>
-        <div class="nav-lang">
-          <a href="../languages/en.html" data-lang="en">EN</a><a href="../languages/fr.html" data-lang="fr">FR</a><a href="../languages/it.html" data-lang="it">IT</a><a href="../languages/ru.html" data-lang="ru">RU</a><a href="../languages/el.html" data-lang="el">EL</a>
-        </div>
-      </div>
-    </nav>
+    <div id="cosy-nav"></div>
 
     <header class="events-header">
       <div class="events-header-inner">
@@ -2232,6 +2213,7 @@ footer {
     <script src="../js/translate.js"></script>
 
     <script src="../js/data/emojis.js"></script>
+    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
 
     <!-- Games Logic -->
     <script src="../js/games/utils/shared.js"></script>

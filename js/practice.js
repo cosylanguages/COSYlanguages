@@ -154,6 +154,8 @@
             });
         });
         await Promise.all(promises);
+        // Small delay to ensure script body execution and window export
+        await new Promise(res => setTimeout(res, 1000));
     }
 
     /* ══════════════════════════════════════
@@ -270,64 +272,85 @@
       if (window.SESSION.idx >= window.SESSION.qs.length) { endSession_summary(); return; }
       const q = window.SESSION.qs[window.SESSION.idx];
       const pct = (window.SESSION.idx / window.SESSION.qs.length) * 100;
+
       document.getElementById('progress-fill').style.width = pct + '%';
       document.getElementById('q-num').textContent = window.SESSION.idx + 1;
+      document.getElementById('score-count').textContent = window.SESSION.pts;
+      document.getElementById('streak-count').textContent = STATE.streak;
 
-      let html = `<div class="pe-task-type">${taskTypeLabel(q.type)}</div>`;
-      html += `<div class="pe-question">${q.q}</div>`;
-      html += `<div id="pe-fb" class="pe-feedback"></div>`;
+      // Reset visibility
+      const containers = [
+          'choices-grid', 'opposite-input-container', 'tf-buttons-container', 'conversation-container'
+      ];
+      containers.forEach(id => {
+          const el = document.getElementById(id);
+          if (el) { el.style.display = 'none'; el.classList.add('hidden'); }
+      });
+      document.getElementById('feedback-message').innerHTML = '';
+      document.getElementById('next-btn').classList.add('hidden');
+      document.getElementById('listen-btn').classList.add('hidden');
+
+      // Task Labels
+      document.getElementById('task-instruction').textContent = taskTypeLabel(q.type);
+      document.getElementById('task-what-to-do').textContent = q.q;
+
+      // Word / Item display
+      const wordDisplay = document.getElementById('word-display');
+      if (q.item) {
+          wordDisplay.textContent = q.item.word;
+          document.getElementById('emoji-display').textContent = q.item.emoji || '💡';
+      } else {
+          wordDisplay.textContent = '';
+          document.getElementById('emoji-display').textContent = '💡';
+      }
 
       if (q.type === 'mc' || q.type === 'ls') {
-        const opts = q.opts ? [...q.opts] : [];
-        let finalOpts = opts;
-        let correctIdx = q.ans;
+        const grid = document.getElementById('choices-grid');
+        grid.style.display = 'grid';
+        grid.classList.remove('hidden');
 
-        if (q.item && (q.type === 'mc' || q.type === 'ls')) {
+        let finalOpts = q.opts || [];
+        if (q.item) {
             const vocabPool = window.gameUtils.getVocabPool(window.SESSION.lang.toLowerCase(), 'all', 'all');
             const distractors = vocabPool
                 .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)
                 .sort(() => Math.random() - 0.5)
                 .slice(0, 2)
                 .map(v => v.definitions[0].text);
-
-            while (distractors.length < 2) distractors.push("Alternative " + (distractors.length + 1));
-
+            while (distractors.length < 2) distractors.push("Option " + (distractors.length + 1));
             const correctDef = q.item.definitions?.[0]?.text || "Correct definition";
             finalOpts = [correctDef, ...distractors].sort(() => Math.random() - 0.5);
-            correctIdx = finalOpts.indexOf(correctDef);
-            q.dynamicAns = correctIdx;
+            q.dynamicAns = finalOpts.indexOf(correctDef);
             q.dynamicOpts = finalOpts;
         }
 
+        grid.innerHTML = finalOpts.map((o, i) =>
+          `<button class="mc-opt" onclick="cosyPractice.checkMC(${i})">${o}</button>`).join('');
+
         if (q.type === 'ls') {
-            html += `<div style="text-align:center; margin-bottom:1.5rem;"><button class="btn-start" onclick="window.gameUtils.speak('${q.item.word.replace(/'/g,"\\'")}', '${window.SESSION.lang.toLowerCase()}')">🔊 Listen</button></div>`;
+            document.getElementById('listen-btn').classList.remove('hidden');
+            document.getElementById('listen-btn').onclick = () => window.gameUtils.speak(q.item.word, window.SESSION.lang.toLowerCase());
+            wordDisplay.textContent = '???';
         }
 
-        html += `<div class="mc-options">` + finalOpts.map((o, i) =>
-          `<button class="mc-opt" onclick="cosyPractice.checkMC(${i})">${o}</button>`).join('') + `</div>`;
       } else if (q.type === 'tf') {
-        html += `<div class="tf-btns">
-          <button class="tf-btn" onclick="cosyPractice.checkTF(true)">✅ True</button>
-          <button class="tf-btn" onclick="cosyPractice.checkTF(false)">❌ False</button>
-        </div>`;
+        const cont = document.getElementById('tf-buttons-container');
+        cont.style.display = 'flex';
+        cont.classList.remove('hidden');
       } else if (q.type === 'type') {
-        html += `<div class="type-wrap">
-          <input class="type-input" id="type-in" placeholder="Type your answer…" onkeydown="if(event.key==='Enter')cosyPractice.checkType()">
-          <button class="btn-start" style="padding:11px 18px" onclick="cosyPractice.checkType()">Check</button>
-        </div>`;
+        const cont = document.getElementById('opposite-input-container');
+        cont.style.display = 'block';
+        cont.classList.remove('hidden');
+        const inp = document.getElementById('opposite-answer');
+        inp.value = '';
+        inp.focus();
+        document.getElementById('check-opposite-btn').onclick = () => cosyPractice.checkType();
       } else if (q.type === 'conv') {
-        html += `<div style="background:var(--cream);border-radius:var(--r-lg);padding:1rem 1.2rem;margin-bottom:1.3rem;border:1px solid var(--border)">
-          <div style="font-size:.75rem;color:var(--ink-faint);margin-bottom:.4rem">🗣️ Speak your answer aloud</div>
-          <div style="font-size:.92rem;color:var(--ink-muted);line-height:1.5">Aim for at least <strong>1 minute</strong>.</div>
-        </div>`;
+        const cont = document.getElementById('conversation-container');
+        cont.style.display = 'block';
+        cont.classList.remove('hidden');
+        document.getElementById('finish-conversation-btn').onclick = () => cosyPractice.nextQ(true);
       }
-
-      html += `<div class="pe-controls">
-        ${q.type === 'conv' ? `<button class="pe-btn-next" onclick="cosyPractice.nextQ(true)">✓ Done speaking</button>` : `<button class="pe-btn-next" id="pe-next" onclick="cosyPractice.nextQ(null)" style="display:none">Next →</button>`}
-        <button class="pe-btn-exit" onclick="cosyPractice.endSession()">Exit ✕</button>
-      </div>`;
-
-      document.getElementById('pe-body').innerHTML = html;
     }
 
     function taskTypeLabel(t) {
@@ -336,15 +359,11 @@
     }
 
     function showFeedback(ok, msg) {
-      const fb = document.getElementById('pe-fb');
+      const fb = document.getElementById('feedback-message');
       fb.className = `pe-feedback show ${ok ? 'ok' : 'bad'}`;
       fb.innerHTML = msg;
-      fb.style.display = 'block';
-      const nxt = document.getElementById('next-btn') || document.getElementById('pe-next');
-      if (nxt) {
-          nxt.style.display = 'inline-block';
-          nxt.classList.remove('hidden');
-      }
+      const nxt = document.getElementById('next-btn');
+      if (nxt) nxt.classList.remove('hidden');
     }
 
     function awardPoints(pts) {
@@ -522,8 +541,12 @@
             if (lp) selectLang(lp);
             const cp = document.querySelector(`.cat-pill[data-value="${cat}"]`);
             if (cp) selectCat(cp);
+
+            // Normalize category for session logic
+            const catNorm = { 'vocab': 'Vocabulary', 'grammar': 'Grammar', 'speaking': 'Speaking', 'pronunciation': 'Pronunciation' }[cat] || cat;
+
             await ensureDataLoaded(lang.toUpperCase(), level);
-            beginSession(lang.toUpperCase(), cat, level, theme, false);
+            beginSession(lang.toUpperCase(), catNorm, level, theme, false);
         },
         startDailyChallenge: () => beginSession('EN', 'Vocabulary', 'A2', 'all', true),
         skipDailyChallenge: () => { document.getElementById('daily-challenge').style.opacity = '0.5'; },
@@ -554,7 +577,7 @@
         },
         checkType: () => {
             const q = window.SESSION.qs[window.SESSION.idx];
-            const val = document.getElementById('type-in').value.trim().toLowerCase();
+            const val = document.getElementById('opposite-answer').value.trim().toLowerCase();
             if (val === q.ans.toLowerCase()) { awardPoints(15); showFeedback(true, 'Correct! +15 pts'); }
             else { showFeedback(false, 'Incorrect. Answer: ' + q.ans); }
         },
@@ -574,6 +597,16 @@
     document.addEventListener('DOMContentLoaded', () => {
         updateDashboardUI();
         initWheel();
+
+        // Wire up static buttons
+        document.getElementById('true-btn')?.addEventListener('click', () => cosyPractice.checkTF(true));
+        document.getElementById('false-btn')?.addEventListener('click', () => cosyPractice.checkTF(false));
+        document.getElementById('next-btn')?.addEventListener('click', () => cosyPractice.nextQ());
+        document.getElementById('exit-practice-btn')?.addEventListener('click', () => cosyPractice.endSession());
+        document.getElementById('back-to-menu-btn')?.addEventListener('click', () => {
+             document.getElementById('summary-modal').style.display = 'none';
+             startPractice();
+        });
     });
 
 })();

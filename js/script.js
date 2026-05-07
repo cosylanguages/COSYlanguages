@@ -10,7 +10,7 @@
 
     // --- Header Shrink on Scroll ---
     const setupHeaderShrink = () => {
-        const nav = document.getElementById('main-nav');
+        const nav = document.getElementById('cosy-nav') || document.getElementById('main-nav');
         if (!nav) return;
 
         window.addEventListener('scroll', () => {
