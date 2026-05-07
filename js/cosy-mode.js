@@ -151,15 +151,20 @@
   }
 
   function navStudent (student) {
-    const pts   = (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).totalPts  || 0
-    const streak = (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).streak   || 0
-    const langFlag = { EN:'🇬🇧', FR:'🇫🇷', IT:'🇮🇹', RU:'🇷🇺', EL:'🇬🇷' }[student.lang] || '🌍'
+    const activeCourse = (student.courses && student.courses.find(c => c.is_active)) || student;
+    const pts   = student.points || (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).totalPts  || 0
+    const streak = student.streak || (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).streak   || 0
+    const lang = (activeCourse.language || activeCourse.lang || 'EN').toUpperCase();
+    const langFlag = { EN:'🇬🇧', FR:'🇫🇷', IT:'🇮🇹', RU:'🇷🇺', EL:'🇬🇷' }[lang] || '🌍';
+    const level = activeCourse.level || 'A1';
+    const type = activeCourse.type || activeCourse.course || 'General';
+
     return `
     <a class="nav-logo" href="${P}portal/index.html">
-      <div class="nav-avatar">${student.name ? student.name[0].toUpperCase() : '🎓'}</div>
+      <div class="nav-avatar">${student.nickname ? student.nickname[0].toUpperCase() : (student.name ? student.name[0].toUpperCase() : '🎓')}</div>
       <div>
-        <div class="nav-logo-name">${student.name || 'Student'}</div>
-        <div class="nav-logo-sub">${langFlag} ${student.lang} · ${student.level} · ${student.course}</div>
+        <div class="nav-logo-name">${student.nickname || student.name || 'Student'}</div>
+        <div class="nav-logo-sub">${langFlag} ${lang} · ${level} · ${type}</div>
       </div>
     </a>
     <ul class="nav-links" id="nav-links">
@@ -398,10 +403,10 @@
   body.mode-student [data-mode]:not([data-mode~="student"]):not([data-mode~="all"]) { display: none !important; }
   body.mode-teacher [data-mode]:not([data-mode~="teacher"]):not([data-mode~="all"]) { display: none !important; }
 
-  body.mode-free [data-mode~="free"] { display: block !important; }
-  body.mode-student [data-mode~="student"] { display: block !important; }
-  body.mode-teacher [data-mode~="teacher"] { display: block !important; }
-  body [data-mode~="all"] { display: block !important; }
+  body.mode-free [data-mode~="free"] { display: revert !important; }
+  body.mode-student [data-mode~="student"] { display: revert !important; }
+  body.mode-teacher [data-mode~="teacher"] { display: revert !important; }
+  body [data-mode~="all"] { display: revert !important; }
 
   @media (max-width: 700px) {
     #cosy-nav { padding: 0 1rem; }
@@ -453,23 +458,42 @@
   ═══════════════════════════════════════════════════════════════ */
   function modePanelHTML (mode, student, teacher) {
     const langNames = { EN:'English 🇬🇧', FR:'Français 🇫🇷', IT:'Italiano 🇮🇹', RU:'Русский 🇷🇺', EL:'Ελληνικά 🇬🇷' }
-    const courseNames = { general:'General Course 📖', spoken:'Spoken Course 🗣️', exam:'Exam Prep 📝', travel:'Travel 🧳', professional:'Professional 💼' }
 
     let currentSection = ''
     if (mode === 'student' && student) {
-      const pts = (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).totalPts || 0
-      const streak = (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).streak || 0
+      const activeCourse = (student.courses && student.courses.find(c => c.is_active)) || student;
+      const pts = student.points || (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).totalPts || 0
+      const streak = student.streak || (tryParse(localStorage.getItem(KEY_PRACTICE)) || {}).streak || 0
+      const lang = (activeCourse.language || activeCourse.lang || 'EN').toUpperCase();
+
+      let courseSwitchHTML = '';
+      if (student.courses && student.courses.length > 1) {
+        courseSwitchHTML = `
+          <div class="mp-section" style="margin-top:1rem">
+            <div class="mp-section-lbl">Switch Course</div>
+            <div style="display:flex; flex-direction:column; gap:6px;">
+              ${student.courses.map(c => `
+                <button class="mp-info-row" style="width:100%; text-align:left; border:1px solid ${c.is_active ? 'var(--teal)' : 'rgba(0,0,0,0.05)'}; border-radius:8px; background:${c.is_active ? '#f0f9f8' : 'none'}; cursor:pointer; padding:8px 12px;" onclick="COSY.switchCourse('${c.id}')">
+                  <span class="mp-info-val" style="font-size:0.8rem">${langNames[c.language.toUpperCase()] || c.language} · ${c.level}</span>
+                  ${c.is_active ? '✅' : ''}
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
       currentSection = `
         <div class="mp-section">
           <div class="mp-section-lbl">Your profile</div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${student.name}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${student.nickname || student.name}</span></div>
           <div class="mp-info-row"><span class="mp-info-lbl">Code</span><span class="mp-info-val" style="font-family:monospace;font-size:.8rem">${student.code}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Language</span><span class="mp-info-val">${langNames[student.lang] || student.lang}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Level</span><span class="mp-info-val">${student.level}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Course</span><span class="mp-info-val">${COSY.courseName(student.course)}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl">Language</span><span class="mp-info-val">${langNames[lang] || lang}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl">Level</span><span class="mp-info-val">${activeCourse.level}</span></div>
           <div class="mp-info-row"><span class="mp-info-lbl">Points</span><span class="mp-info-val">✨ ${Number(pts).toLocaleString()}</span></div>
           <div class="mp-info-row"><span class="mp-info-lbl">Streak</span><span class="mp-info-val">🔥 ${streak} days</span></div>
         </div>
+        ${courseSwitchHTML}
         <button class="mp-logout-btn" onclick="COSY.logout()">Sign out</button>
         <div class="mp-section" style="margin-top:1.2rem">
           <div class="mp-section-lbl">Switch to teacher view</div>
@@ -607,11 +631,38 @@
     isFree ()      { return STATE.mode === 'free' },
 
     // Auth
-    unlock (code) {
+    async unlock (code) {
       const c = code.trim().toUpperCase()
-      if (STUDENT_CODES[c])  return unlockStudent(c)
+
+      // 1. Check Student Codes (Dynamic)
+      try {
+        const resp = await fetch(P + 'data/students.json?t=' + Date.now())
+        const students = await resp.json()
+        if (students[c]) {
+          const student = {
+            ...students[c],
+            code: c,
+            name: students[c].nickname || students[c].name || 'Student',
+            lang: students[c].language || students[c].lang || 'EN',
+            course: (students[c].courses && students[c].courses[0]?.type) || students[c].course || 'General',
+            level: (students[c].courses && students[c].courses[0]?.level) || students[c].level || 'A1',
+            unlockedAt: Date.now()
+          }
+          localStorage.setItem(KEY_MODE, 'student')
+          localStorage.setItem(KEY_STUDENT, JSON.stringify(student))
+          localStorage.setItem('student_unlocked', 'true')
+          localStorage.setItem('student_course_code', c)
+          localStorage.setItem('cosy_user_name', student.name)
+          STATE = readState()
+          applyMode()
+          return { ok: true, student }
+        }
+      } catch (e) { console.warn('Dynamic student check failed, falling back to pattern.') }
+
+      // 2. Check Teacher Codes
       if (TEACHER_CODES[c])  return unlockTeacher(c)
-      // Fallback for codes that might be dynamic
+
+      // 3. Pattern fallback (allows offline/demo use)
       if (c.startsWith('COSY-')) return unlockStudent(c)
       if (c.startsWith('TEACH-')) return unlockTeacher(c)
 
@@ -636,6 +687,19 @@
       document.body.style.overflow = ''
     },
 
+    switchCourse (courseId) {
+      if (STATE.mode !== 'student' || !STATE.student) return
+      const s = STATE.student
+      if (s.courses) {
+        s.courses.forEach(c => c.is_active = (c.id === courseId))
+        localStorage.setItem(KEY_STUDENT, JSON.stringify(s))
+        STATE = readState()
+        applyMode()
+        // Notify other components
+        document.dispatchEvent(new CustomEvent('cosyCourseSwitched', { detail: { courseId, student: s } }))
+      }
+    },
+
     // Mobile menu
     toggleMobileMenu () {
       const mm = document.getElementById('cosy-mobile-menu')
@@ -643,11 +707,11 @@
     },
 
     // Internal helpers (called from injected HTML)
-    _mpUnlockStudent () {
+    async _mpUnlockStudent () {
       const input = document.getElementById('mp-s-code')
       const error = document.getElementById('mp-s-error')
       if (!input) return
-      const result = COSY.unlock(input.value)
+      const result = await COSY.unlock(input.value)
       if (result.ok && STATE.mode === 'student') {
         COSY.hideModePanel()
         window.location.href = P + 'portal/index.html'
@@ -657,11 +721,11 @@
         setTimeout(() => { input.classList.remove('error'); if (error) error.style.display = 'none' }, 3000)
       }
     },
-    _mpUnlockTeacher () {
+    async _mpUnlockTeacher () {
       const input = document.getElementById('mp-t-code')
       const error = document.getElementById('mp-t-error')
       if (!input) return
-      const result = COSY.unlock(input.value)
+      const result = await COSY.unlock(input.value)
       if (result.ok && STATE.mode === 'teacher') {
         COSY.hideModePanel()
         window.location.href = P + 'portal/index.html'

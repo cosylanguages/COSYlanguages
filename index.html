@@ -661,32 +661,54 @@ footer {
 <nav id="cosy-nav"></nav>
 
 <!-- ── STUDENT DASHBOARD (Mode 2) ───────────────────────── -->
-<div data-mode="student" class="student-dashboard" style="display:none; padding: 2rem; background: var(--cream);">
-  <div style="max-width: 1040px; margin: 0 auto;">
-    <div class="header-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-      <h1 style="font-family: 'Lora', serif; font-size: 2rem; color: var(--sage-deep);">My Dashboard</h1>
-      <div id="student-stats-summary" style="display: flex; gap: 1rem;">
-        <!-- Filled by JS -->
-      </div>
+<div data-mode="student" class="student-dashboard" style="display:none; padding: 3rem 2rem; background: var(--cream);">
+    <div style="max-width: 1040px; margin: 0 auto; width: 100%;">
+        <div style="margin-bottom: 2rem;">
+            <h1 style="font-family: 'Lora', serif; font-size: 2.4rem; margin: 0; color: var(--sage-deep);">Welcome back! 👋</h1>
+            <p style="color: var(--muted); margin-top: 5px;">Your personal roadmap and daily progress.</p>
+        </div>
+
+        <div class="widgets-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+            <!-- Next Lesson -->
+            <div class="widget-card reveal" style="background:#fff; border-radius:24px; padding:1.5rem; border:1px solid var(--border); box-shadow:var(--shadow-sm);">
+                <div style="font-size:0.7rem; font-weight:800; text-transform:uppercase; color:var(--muted); margin-bottom:10px;">Next Lesson</div>
+                <div id="next-lesson-val" style="font-weight:900; font-size:1.3rem; color:var(--sage-dark);">Loading...</div>
+            </div>
+
+            <!-- Streak & Points -->
+            <div class="widget-card reveal" style="background:#fff; border-radius:24px; padding:1.5rem; border:1px solid var(--border); box-shadow:var(--shadow-sm); display:flex; gap:1.5rem; align-items:center;">
+               <div>
+                   <div style="font-size:1.4rem; font-weight:900;" id="streak-val">0</div>
+                   <div style="font-size:0.6rem; text-transform:uppercase; color:var(--muted); font-weight:800;">Day Streak</div>
+               </div>
+               <div style="width:1px; height:40px; background:var(--border);"></div>
+               <div>
+                   <div style="font-size:1.4rem; font-weight:900;" id="points-val">0</div>
+                   <div style="font-size:0.6rem; text-transform:uppercase; color:var(--muted); font-weight:800;">Total Pts</div>
+               </div>
+               <a href="portal/index.html" style="margin-left:auto; text-decoration:none; background:var(--ink); color:white; padding:8px 16px; border-radius:100px; font-size:0.75rem; font-weight:600;">Full Roadmap →</a>
+            </div>
+
+            <!-- Quick Homework -->
+            <div class="widget-card reveal" style="background:#fff; border-radius:24px; padding:1.5rem; border:1px solid var(--border); box-shadow:var(--shadow-sm);">
+                <div style="font-size:0.7rem; font-weight:800; text-transform:uppercase; color:var(--muted); margin-bottom:10px;">Recent Homework</div>
+                <div id="home-homework-list">Loading...</div>
+            </div>
+
+            <!-- Warmup -->
+            <div class="widget-card reveal" style="background:var(--sage-dark); color:white; border-radius:24px; padding:1.5rem; box-shadow:0 4px 20px rgba(45,125,111,0.2);">
+                <div style="font-size:0.7rem; font-weight:800; text-transform:uppercase; opacity:0.8; margin-bottom:10px;">Daily Warmup</div>
+                <div style="font-size:1rem; font-weight:700; margin-bottom:12px;">5 words for today:</div>
+                <div id="prep-words" style="display:flex; flex-wrap:wrap; gap:6px;"></div>
+            </div>
+
+            <!-- Mistakes -->
+            <div class="widget-card reveal" style="background:#fff; border-radius:24px; padding:1.5rem; border:1px solid #feb2b2; box-shadow:var(--shadow-sm); display:none;">
+                <div style="font-size:0.7rem; font-weight:800; text-transform:uppercase; color:#c53030; margin-bottom:10px;">Mistakes to Fix 🎯</div>
+                <div id="mistake-list" style="display:flex; flex-wrap:wrap; gap:6px;"></div>
+            </div>
+        </div>
     </div>
-    <div class="widgets-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem;">
-      <div class="widget-card reveal" style="background: #fff; padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
-        <h3 style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Next Lesson</h3>
-        <div id="dashboard-next-lesson" style="font-weight: 800; font-size: 1.2rem; color: var(--sage-dark);">Loading...</div>
-      </div>
-      <div class="widget-card reveal" style="background: #fff; padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
-        <h3 style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Homework</h3>
-        <div id="dashboard-homework-count" style="font-weight: 800; font-size: 1.2rem; color: var(--honey-dark);">0 pending</div>
-      </div>
-      <div class="widget-card reveal" style="background: #fff; padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
-        <h3 style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Current Streak</h3>
-        <div id="dashboard-streak" style="font-weight: 800; font-size: 1.2rem; color: var(--sage-dark);">0 days 🔥</div>
-      </div>
-    </div>
-    <div style="margin-top: 2rem; text-align: center;">
-      <a href="portal/index.html" class="btn-primary">Go to Full Roadmap →</a>
-    </div>
-  </div>
 </div>
 
 <!-- ── TEACHER DASHBOARD (Mode 3) ───────────────────────── -->
@@ -760,7 +782,7 @@ footer {
 <main data-mode="free">
 
 <!-- ── HOW IT WORKS ─────────────────────────────────────── -->
-<section id="how">
+<section id="how" data-mode="free">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_how">🌱 Simple process</span>
     <h2 data-translate-key="sec_h2_how">How COSYlanguages works</h2>
@@ -786,7 +808,7 @@ footer {
 </section>
 
 <!-- ── COURSES ──────────────────────────────────────────── -->
-<section id="courses">
+<section id="courses" data-mode="free">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_courses">📚 What we offer</span>
     <h2 data-translate-key="sec_h2_courses">Three courses, one promise</h2>
@@ -849,7 +871,7 @@ footer {
 </section>
 
 <!-- ── LANGUAGES ────────────────────────────────────────── -->
-<section id="languages">
+<section id="languages" data-mode="free">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_languages">🌍 Languages</span>
     <h2 data-translate-key="sec_h2_languages">Languages we teach</h2>
@@ -982,7 +1004,7 @@ footer {
 </section>
 
 <!-- ── FREE TOOLS ───────────────────────────────────────── -->
-<section id="tools">
+<section id="tools" data-mode="free">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_tools">🎁 Free to use</span>
     <h2 data-translate-key="sec_h2_tools">Practice between lessons</h2>
@@ -1031,7 +1053,7 @@ footer {
 </section>
 
 <!-- ── CALCULATOR ───────────────────────────────────────── -->
-<section id="calculator">
+<section id="calculator" data-mode="free">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_pricing">🧮 Transparent pricing</span>
     <h2 data-translate-key="sec_h2_pricing">What does it cost?</h2>
@@ -1167,6 +1189,25 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     <script src="js/cosy-mode.js"></script>
     <script src="js/mobile.js"></script>
     <div id="toast" class="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
+    <script src="js/dashboard-core.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (window.COSY && window.COSY.mode === 'student') {
+                const course = await window.cosyDashboard.loadStudentData(window.COSY.student.code);
+                if (course) {
+                    const curriculum = await window.cosyDashboard.fetchCurriculum(course.lang, course.level);
+                    window.cosyDashboard.populateWidgets(course, curriculum);
+                }
+            }
+        });
+        document.addEventListener('cosyCourseSwitched', async (e) => {
+            const course = await window.cosyDashboard.loadStudentData(window.COSY.student.code);
+            if (course) {
+                const curriculum = await window.cosyDashboard.fetchCurriculum(course.lang, course.level);
+                window.cosyDashboard.populateWidgets(course, curriculum);
+            }
+        });
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

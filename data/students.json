@@ -1,37 +1,70 @@
 {
   "COSY-DEMO": {
     "nickname": "Alex",
-    "language": "en",
-    "course": "General",
-    "level": "A1",
-    "current_day": 5,
-    "next_lesson": {
-      "date": "2025-05-20",
-      "time": "10:00",
-      "meet_link": "https://meet.google.com/abc-defg-hij",
-      "progressme_link": "https://progressme.ru/student/123"
-    },
-    "homework": [
-      { "id": 1, "task": "Practice 10 minutes of vocabulary", "due": "2025-05-19", "done": false },
-      { "id": 2, "task": "Complete Unit 2 exercises", "due": "2025-05-18", "done": true }
-    ],
     "points": 1250,
-    "streak": 5
+    "streak": 5,
+    "broadcast_seen": 0,
+    "courses": [
+      {
+        "id": "EN-A1-GEN",
+        "language": "en",
+        "level": "A1",
+        "type": "General",
+        "current_day": 5,
+        "is_active": true,
+        "next_lesson": {
+          "date": "2025-05-20",
+          "time": "10:00",
+          "meet_link": "https://meet.google.com/abc-defg-hij",
+          "progressme_link": "https://progressme.ru/student/123"
+        },
+        "homework": [
+          { "id": 1, "task": "Practice 10 minutes of vocabulary", "due": "2025-05-19", "done": false },
+          { "id": 2, "task": "Complete Unit 2 exercises", "due": "2025-05-18", "done": true }
+        ],
+        "lesson_notes": {
+          "1": "Welcome! You did great in the introductory speaking part.",
+          "2": "Watch out for plural pronunciations in Unit 2.",
+          "5": "Bring your coffee for the morning session!"
+        },
+        "mistakes": ["breakfast", "towel", "Wednesday"]
+      },
+      {
+        "id": "FR-A1-SPO",
+        "language": "fr",
+        "level": "A1",
+        "type": "Spoken",
+        "current_day": 1,
+        "is_active": false,
+        "next_lesson": null,
+        "homework": [],
+        "lesson_notes": {},
+        "mistakes": []
+      }
+    ]
   },
   "COSY-EN-A1-G": {
     "nickname": "Bob",
-    "language": "en",
-    "course": "General",
-    "level": "A1",
-    "current_day": 2,
-    "next_lesson": {
-      "date": "2025-05-21",
-      "time": "14:00",
-      "meet_link": "https://meet.google.com/xyz-pdqr-stu",
-      "progressme_link": "https://progressme.ru/student/456"
-    },
-    "homework": [],
     "points": 450,
-    "streak": 2
+    "streak": 2,
+    "courses": [
+      {
+        "id": "EN-A1-GEN",
+        "language": "en",
+        "level": "A1",
+        "type": "General",
+        "current_day": 2,
+        "is_active": true,
+        "next_lesson": {
+          "date": "2025-05-21",
+          "time": "14:00",
+          "meet_link": "https://meet.google.com/xyz-pdqr-stu",
+          "progressme_link": "https://progressme.ru/student/456"
+        },
+        "homework": [],
+        "lesson_notes": {},
+        "mistakes": []
+      }
+    ]
   }
 }

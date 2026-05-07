@@ -24,6 +24,13 @@
         }
     });
 
+    document.addEventListener('cosyCourseSwitched', (e) => {
+        if (window.COSY && window.COSY.mode === 'student') {
+            initDashboard(window.COSY.student.code);
+            showToast('📚 Switched course!');
+        }
+    });
+
     function initTeacherMode() {
         document.getElementById('gate').style.display = 'none';
         document.getElementById('area').style.display = 'flex';
@@ -39,12 +46,18 @@
         document.getElementById('gate').style.display = 'none';
         document.getElementById('area').style.display = 'flex';
 
-        await refreshStudentData(code);
+        currentCourse = await window.cosyDashboard.loadStudentData(code);
+        if (!currentCourse) {
+            // Fallback to mock/code-parsing
+            const parts = code.split('-');
+            currentCourse = { lang: parts[1] || 'en', level: parts[2] || 'A1', type: 'GEN', code, id: code, homework: [], mistakes: [], lesson_notes: {}, points: 0, streak: 0 };
+        }
 
         const courseName = document.getElementById('tb-course-name');
         if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
 
-        await loadCurriculum();
+        curriculum = await window.cosyDashboard.fetchCurriculum(currentCourse.lang, currentCourse.level);
+
         updateStats();
         updatePrepCard();
         renderRoadmap();
@@ -56,77 +69,32 @@
 
         // Background polling for "live" updates every 30s
         if (!window._cosyPolling) {
-            window._cosyPolling = setInterval(() => {
+            window._cosyPolling = setInterval(async () => {
                 if (window.COSY && window.COSY.mode === 'student') {
-                    refreshStudentData(window.COSY.student.code, true);
+                    const oldHomeworkCount = currentCourse.homework.length;
+                    currentCourse = await window.cosyDashboard.loadStudentData(window.COSY.student.code, true);
+                    renderHomework();
+                    updatePrepCard();
+                    if (currentCourse.homework.length > oldHomeworkCount) {
+                        showToast('📝 New homework assigned!');
+                    }
                 }
             }, 30000);
         }
     }
 
-    async function refreshStudentData(code, silent = false) {
-        // Fetch student data from serverless JSON
-        let studentData = null;
-        try {
-            const resp = await fetch('../data/students.json?t=' + Date.now());
-            const allStudents = await resp.json();
-            studentData = allStudents[code];
-        } catch (e) {
-            console.error('Failed to fetch student data', e);
-        }
-
-        if (studentData) {
-            const oldHomeworkCount = (currentCourse && currentCourse.homework) ? currentCourse.homework.length : 0;
-
-            currentCourse = {
-                lang: studentData.language,
-                level: studentData.level,
-                type: studentData.course,
-                code: code,
-                nickname: studentData.nickname,
-                current_day: studentData.current_day,
-                next_lesson: studentData.next_lesson,
-                homework: studentData.homework,
-                points: studentData.points,
-                streak: studentData.streak
-            };
-            localStorage.setItem('cosy_user_name', studentData.nickname);
-            localStorage.setItem('cosy_total_points', studentData.points);
-            localStorage.setItem('practice_streak', studentData.streak);
-
-            if (silent) {
-                renderHomework();
-                updatePrepCard();
-                if (studentData.homework.length > oldHomeworkCount) {
-                    showToast('📝 New homework assigned!');
-                }
-            }
-        } else {
-            // Fallback to mock/code-parsing
-            const parts = code.split('-');
-            currentCourse = { lang: parts[1] || 'en', level: parts[2] || 'A1', type: 'GEN', code };
-        }
-
-        const courseName = document.getElementById('tb-course-name');
-        if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
-
-        await loadCurriculum();
-        updateStats();
-        updatePrepCard();
-        renderRoadmap();
-        renderList();
-        renderNotebook();
-        renderHomework();
-        loadBroadcast();
-        if (window.cosyMode) window.cosyMode.reshapeUI();
-    }
-
     async function loadBroadcast() {
         try {
-            const resp = await fetch('../data/broadcast.json');
+            const resp = await fetch('../data/broadcast.json?t=' + Date.now());
             const data = await resp.json();
             if (data && data.message) {
-                showToast(`📢 ${data.message}`);
+                // Check if this is a new message since last seen
+                const localStudent = JSON.parse(localStorage.getItem('cosy_student') || '{}');
+                if (localStudent.broadcast_seen !== data.timestamp) {
+                    showToast(`📢 ${data.message}`);
+                    // We'll mark as seen when they interact or after some time,
+                    // but for now let's just show it.
+                }
             }
         } catch (e) {
             console.error('Failed to load broadcast', e);
@@ -142,84 +110,11 @@
     }
 
     function updateStats() {
-        const streak = localStorage.getItem('practice_streak') || '0';
-        const points = parseInt(localStorage.getItem('cosy_total_points') || '0');
-        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const done = prog[currentCourse.code] || [];
-
-        if (document.getElementById('streak-val')) document.getElementById('streak-val').textContent = streak;
-        if (document.getElementById('points-val')) document.getElementById('points-val').textContent = points.toLocaleString();
-        if (document.getElementById('done-val')) document.getElementById('done-val').textContent = done.length;
+        if (window.cosyDashboard) window.cosyDashboard.populateWidgets(currentCourse, curriculum);
     }
 
     function updatePrepCard() {
-        const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const done = prog[currentCourse.code] || [];
-        const nextNum = done.length + 1;
-
-        // Flatten lessons
-        const allLessons = curriculum.flatMap(u => u.lessons || [u]);
-        const nextLesson = allLessons[nextNum - 1];
-
-        const nextVal = document.getElementById('next-lesson-val');
-        if (nextVal) {
-            if (currentCourse.next_lesson) {
-                nextVal.innerHTML = `
-                    <div style="font-size:1.1rem">${currentCourse.next_lesson.date} @ ${currentCourse.next_lesson.time}</div>
-                    <div style="font-size:0.75rem; font-weight:400; margin-top:5px">Unit ${currentCourse.current_day}: ${nextLesson?.title || ''}</div>
-                    <div style="display:flex; gap:8px; margin-top:10px">
-                        <a href="${currentCourse.next_lesson.meet_link}" target="_blank" class="btn-primary-new" style="flex:1; font-size:0.7rem; padding:8px; background:#4285f4; text-align:center;">Join 📹</a>
-                        <a href="${currentCourse.next_lesson.progressme_link}" target="_blank" class="btn-primary-new" style="flex:1; font-size:0.7rem; padding:8px; background:#ff5722; text-align:center;">Materials 📚</a>
-                    </div>
-                `;
-            } else if (nextLesson) {
-                nextVal.textContent = nextLesson.title;
-            } else {
-                nextVal.textContent = "All Done! 🎉";
-            }
-        }
-
-        const card = document.querySelector('.prep-card');
-        const wordCont = document.getElementById('prep-words');
-
-        if (nextLesson && nextLesson.vocab && wordCont) {
-            card.style.display = 'block';
-            wordCont.innerHTML = '';
-            const raw = Array.isArray(nextLesson.vocab) ? nextLesson.vocab : [];
-            const words = raw.slice(0, 5).map(w => typeof w === 'string' ? w : (w.w || w.word));
-
-            words.forEach(w => {
-                const span = document.createElement('span');
-                span.className = 'prep-word';
-                span.textContent = w;
-                wordCont.appendChild(span);
-            });
-        } else if (card) {
-            card.style.display = 'none';
-        }
-    }
-
-    async function loadCurriculum() {
-        const lang = currentCourse.lang.toLowerCase();
-        const level = currentCourse.level.toLowerCase();
-        const path = `../js/data/curriculum/${lang}_${level}.js`;
-
-        return new Promise((resolve) => {
-            if (document.querySelector(`script[src*="${path}"]`)) {
-                const key = `${lang}_${level}`;
-                curriculum = (window.curriculumData && window.curriculumData[key]) || [];
-                return resolve();
-            }
-            const script = document.createElement('script');
-            script.src = path;
-            script.onload = () => {
-                const key = `${lang}_${level}`;
-                curriculum = (window.curriculumData && window.curriculumData[key]) || [];
-                resolve();
-            };
-            script.onerror = () => { resolve(); };
-            document.head.appendChild(script);
-        });
+        if (window.cosyDashboard) window.cosyDashboard.populateWidgets(currentCourse, curriculum);
     }
 
     function renderRoadmap() {
@@ -228,7 +123,8 @@
         container.innerHTML = '';
 
         const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        const done = prog[currentCourse.code] || [];
+        const key = `${currentCourse.code}_${currentCourse.id}`;
+        const done = prog[key] || [];
         const nextNum = done.length + 1;
 
         const lessons = curriculum.flatMap(u => u.lessons || [u]);
@@ -276,7 +172,8 @@
 
     function isLessonDone(num) {
         const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-        return prog[currentCourse.code] && prog[currentCourse.code].includes(num);
+        const key = `${currentCourse.code}_${currentCourse.id}`;
+        return prog[key] && prog[key].includes(num);
     }
 
     function showLD(l, num) {
@@ -294,6 +191,14 @@
             `;
         }
 
+        const notes = currentCourse.lesson_notes ? currentCourse.lesson_notes[num] : null;
+        const notesHTML = notes ? `
+            <div style="background: #eef7ff; padding: 1rem; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid #d0e7ff;">
+                <h4 style="margin-bottom: 5px; font-size: 0.75rem; color: #2b6cb0;">Teacher's Notes:</h4>
+                <div style="font-size: 0.85rem; color: #2c5282; font-style: italic;">"${notes}"</div>
+            </div>
+        ` : '';
+
         content.innerHTML = `
             <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">Day ${num}</div>
             <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: 1rem;">${l.title}</h2>
@@ -304,6 +209,7 @@
                 <div style="font-size: 0.85rem; font-weight: 700; color: var(--cosy-green-dark);">${l.grammar || 'Speaking & Vocabulary'}</div>
             </div>
 
+            ${notesHTML}
             ${lessonActions}
 
             <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%;">Self-Practice 🚀</button>
@@ -336,9 +242,13 @@
         if (currentCourse.homework.length > 0) {
             container.innerHTML = currentCourse.homework.map(hw => `
                 <div class="widget-card" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; border-color:${hw.done ? '#eee' : 'var(--cosy-green)'}">
-                    <div>
-                        <div style="font-weight:800; ${hw.done ? 'text-decoration:line-through; color:#aaa' : ''}">${hw.task}</div>
+                    <div style="flex:1">
+                        <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
+                            <span class="badge-new" style="background:#f0f0f0; color:#555;">${hw.type || 'General'}</span>
+                            <div style="font-weight:800; ${hw.done ? 'text-decoration:line-through; color:#aaa' : ''}">${hw.task}</div>
+                        </div>
                         <div style="font-size:0.75rem; color:#888;">Due: ${hw.due}</div>
+                        ${hw.link ? `<a href="${hw.link}" target="_blank" style="font-size:0.75rem; color:var(--cosy-green-dark); font-weight:700; text-decoration:none; margin-top:5px; display:inline-block;">🔗 Open Task</a>` : ''}
                     </div>
                     <div style="font-size:1.5rem">${hw.done ? '✅' : '⏳'}</div>
                 </div>
@@ -375,7 +285,7 @@
                         <div style="font-weight:900; font-size:1.1rem;">${s.nickname}</div>
                         <div style="font-size:0.65rem; color:#888; font-weight:700;">${code}</div>
                     </div>
-                    <div class="badge-new">${s.language.toUpperCase()} · ${s.level}</div>
+                    <div class="badge-new">${(s.language || 'EN').toUpperCase()} · ${(s.courses && s.courses[0]?.level) || s.level || 'A1'}</div>
                 </div>
                 <div class="stats-mini" style="margin-bottom:1.5rem; color:#2a2a2a;">
                     <div class="stat-mini-item" style="background:#f5f5f5;">
@@ -383,7 +293,7 @@
                         <span class="stat-mini-lbl">Streak</span>
                     </div>
                     <div class="stat-mini-item" style="background:#f5f5f5;">
-                        <span class="stat-mini-val">${s.current_day}</span>
+                        <span class="stat-mini-val">${(s.courses && s.courses[0]?.current_day) || s.current_day || 1}</span>
                         <span class="stat-mini-lbl">Day</span>
                     </div>
                     <div class="stat-mini-item" style="background:#f5f5f5;">
@@ -392,12 +302,22 @@
                     </div>
                 </div>
                 <div style="font-size:0.75rem; color:#666; margin-bottom:1rem;">
-                    <strong>Next:</strong> ${s.next_lesson?.date || 'Not set'} @ ${s.next_lesson?.time || '--:--'}
+                    <strong>Next:</strong> ${(s.courses && s.courses[0]?.next_lesson?.date) || s.next_lesson?.date || 'Not set'}
                 </div>
                 <button onclick="cosyDays.openEditModal('${code}')" class="btn-primary-new" style="width:100%; font-size:0.8rem; padding:8px;">Manage Student ⚙️</button>
             `;
             grid.appendChild(card);
         });
+        showJSONOutput();
+    }
+
+    function showJSONOutput() {
+        const out = document.getElementById('json-output');
+        const box = document.getElementById('teacher-actions');
+        if (out && box) {
+            out.value = JSON.stringify(allStudentsData, null, 2);
+            box.style.display = 'block';
+        }
     }
 
     // ── Public API ──────────────────────────────────────
@@ -407,52 +327,126 @@
         openEditModal: (code) => {
             editingStudentCode = code;
             const s = allStudentsData[code];
+            const course = (s.courses && s.courses.length > 0) ? s.courses[0] : s;
+
             document.getElementById('tm-name').textContent = `Manage ${s.nickname}`;
-            document.getElementById('tm-date').value = s.next_lesson?.date || '';
-            document.getElementById('tm-time').value = s.next_lesson?.time || '';
-            document.getElementById('tm-meet').value = s.next_lesson?.meet_link || '';
+            document.getElementById('tm-date').value = course.next_lesson?.date || '';
+            document.getElementById('tm-time').value = course.next_lesson?.time || '';
+            document.getElementById('tm-meet').value = course.next_lesson?.meet_link || '';
             document.getElementById('tm-hw').value = '';
             document.getElementById('tm-hw-due').value = '';
+
+            const notesArea = document.getElementById('tm-notes');
+            if (notesArea) notesArea.value = course.lesson_notes ? (course.lesson_notes[course.current_day] || '') : '';
+
+            const mistakesArea = document.getElementById('tm-mistakes');
+            if (mistakesArea) mistakesArea.value = course.mistakes ? course.mistakes.join(', ') : '';
+
             document.getElementById('teacher-modal').style.display = 'flex';
         },
         saveStudentEdits: () => {
             const s = allStudentsData[editingStudentCode];
-            s.next_lesson = {
+            const course = (s.courses && s.courses.length > 0) ? s.courses[0] : s;
+
+            course.next_lesson = {
                 date: document.getElementById('tm-date').value,
                 time: document.getElementById('tm-time').value,
                 meet_link: document.getElementById('tm-meet').value,
-                progressme_link: s.next_lesson?.progressme_link || ''
+                progressme_link: course.next_lesson?.progressme_link || ''
             };
 
             const hwTask = document.getElementById('tm-hw').value;
             const hwDue = document.getElementById('tm-hw-due').value;
+            const hwType = document.getElementById('tm-hw-type')?.value || 'General';
+            const hwLink = document.getElementById('tm-hw-link')?.value || '';
+
             if (hwTask) {
-                s.homework.push({
+                if (!course.homework) course.homework = [];
+                course.homework.push({
                     id: Date.now(),
                     task: hwTask,
                     due: hwDue,
+                    type: hwType,
+                    link: hwLink,
                     done: false
                 });
             }
 
-            console.log('Saving edits (Simulated):', editingStudentCode, s);
-            alert(`Saved changes for ${s.nickname}! In a real environment, this would push to GitHub.`);
+            const notes = document.getElementById('tm-notes')?.value;
+            if (notes !== undefined) {
+                if (!course.lesson_notes) course.lesson_notes = {};
+                course.lesson_notes[course.current_day] = notes;
+            }
+
+            const mistakes = document.getElementById('tm-mistakes')?.value;
+            if (mistakes !== undefined) {
+                course.mistakes = mistakes.split(',').map(m => m.trim()).filter(m => m);
+            }
+
             document.getElementById('teacher-modal').style.display = 'none';
             renderStudentGrid();
+            showToast('Changes saved to temporary buffer!');
         },
-        updateBroadcast: () => {
+        openCreateModal: () => {
+            document.getElementById('cm-result').style.display = 'none';
+            document.getElementById('create-modal').style.display = 'flex';
+        },
+        generateStudent: () => {
+            const name = document.getElementById('cm-name').value;
+            const lang = document.getElementById('cm-lang').value;
+            const level = document.getElementById('cm-level').value;
+            if (!name) return alert('Enter a nickname');
+
+            const idNum = Math.floor(100 + Math.random() * 900);
+            const code = `COSY-${lang.toUpperCase()}-${level}-${idNum}`;
+
+            allStudentsData[code] = {
+                nickname: name,
+                points: 0,
+                streak: 0,
+                courses: [{
+                    id: `${lang.toUpperCase()}-${level}-GEN`,
+                    language: lang,
+                    level: level,
+                    type: "General",
+                    current_day: 1,
+                    is_active: true,
+                    next_lesson: null,
+                    homework: [],
+                    lesson_notes: {},
+                    mistakes: []
+                }]
+            };
+
+            document.getElementById('cm-code-val').textContent = code;
+            document.getElementById('cm-result').style.display = 'block';
+            renderStudentGrid();
+        },
+        copyJSON: () => {
+            const out = document.getElementById('json-output');
+            out.select();
+            document.execCommand('copy');
+            showToast('JSON copied to clipboard! 📋');
+        },
+        updateBroadcast: async () => {
             const msg = document.getElementById('broadcast-input').value;
             if (msg) {
-                console.log('Updating broadcast (Simulated):', msg);
-                alert('Broadcast updated! Students will see this on next load.');
-                document.getElementById('broadcast-input').value = '';
+                // In a serverless env, we can't write, but we can provide the JSON to commit
+                const broadcast = { message: msg, timestamp: Date.now() };
+                const out = document.getElementById('json-output');
+                const box = document.getElementById('teacher-actions');
+                if (out && box) {
+                    out.value = `Update broadcast.json with:\n\n${JSON.stringify(broadcast, null, 2)}\n\n--- OR ---\n\nUpdate students.json with:\n\n${JSON.stringify(allStudentsData, null, 2)}`;
+                    box.style.display = 'block';
+                }
+                showToast('Broadcast data ready in the buffer box above! 📢');
             }
         },
-        unlock: () => {
+        unlock: async () => {
             const input = document.getElementById('student-code');
             const code = input.value.trim().toUpperCase();
             if (code) {
-                const result = window.COSY.unlock(code);
+                const result = await window.COSY.unlock(code);
                 if (result.ok) {
                     if (window.COSY.mode === 'student') initDashboard(code);
                     else if (window.COSY.mode === 'teacher') initTeacherMode();
@@ -478,10 +472,11 @@
         },
         toggleDone: (num) => {
             const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-            const done = prog[currentCourse.code] || [];
+            const key = `${currentCourse.code}_${currentCourse.id}`;
+            const done = prog[key] || [];
             const idx = done.indexOf(num);
             if (idx > -1) done.splice(idx, 1); else done.push(num);
-            prog[currentCourse.code] = done;
+            prog[key] = done;
             localStorage.setItem('cosy_progress', JSON.stringify(prog));
             renderRoadmap();
             renderList();
@@ -493,7 +488,8 @@
         },
         jumpToNext: () => {
             const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
-            const done = prog[currentCourse.code] || [];
+            const key = `${currentCourse.code}_${currentCourse.id}`;
+            const done = prog[key] || [];
             const next = done.length + 1;
             window.location.href = `lesson.html?lang=${currentCourse.lang}&lesson=${next}`;
         },
@@ -515,9 +511,12 @@
                 document.getElementById('hw-input').value = '';
             }
         },
-        refreshData: () => {
+        refreshData: async () => {
             if (window.COSY && window.COSY.student) {
-                refreshStudentData(window.COSY.student.code, true);
+                const code = window.COSY.student.code;
+                currentCourse = await window.cosyDashboard.loadStudentData(code, true);
+                renderHomework();
+                updatePrepCard();
                 showToast('🔄 Syncing data...');
             }
         },
