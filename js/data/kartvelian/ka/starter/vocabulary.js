@@ -805,4 +805,7 @@
     },
 {}
 ];
+    const lang = "ka";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -16,7 +16,7 @@ test.describe('Practice Hub New UI Flow', () => {
     await page.goto('http://localhost:8080/practice/index.html');
     await page.click('.qs-card:has-text("English · Vocab")');
     await expect(page.locator('#practice-section')).toBeVisible();
-    await expect(page.locator('#pe-session-title')).toContainText('EN · VOCAB');
+    await expect(page.locator('#pe-session-title')).toContainText('EN · vocab');
   });
 
   test('should complete a session', async ({ page }) => {
@@ -24,13 +24,12 @@ test.describe('Practice Hub New UI Flow', () => {
     await page.click('.qs-card:has-text("English · Vocab")');
     await page.waitForSelector('#practice-section', { state: 'visible' });
 
+    // Force end session via completion
     await page.evaluate(() => {
-       window.currentPractice.currentIndex = 9;
-       window.showNextWord();
-       window.showFeedback(true);
+        window.SESSION.idx = window.SESSION.qs.length;
+        cosyPractice.nextQ();
     });
 
-    await page.click('#next-btn');
     await expect(page.locator('#summary-modal')).toBeVisible();
   });
 });

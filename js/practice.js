@@ -8,9 +8,20 @@
        STATE (persisted in localStorage)
     ══════════════════════════════════════ */
     function loadState() {
-      try { return JSON.parse(localStorage.getItem('cosy_practice') || '{}'); } catch { return {}; }
+      try {
+          const s = JSON.parse(localStorage.getItem('cosy_practice') || '{}');
+          // Sync with global keys
+          s.totalPts = parseInt(localStorage.getItem('cosy_total_points') || '0');
+          s.streak = parseInt(localStorage.getItem('practice_streak') || '0');
+          return s;
+      } catch { return {}; }
     }
-    function saveState(s) { localStorage.setItem('cosy_practice', JSON.stringify(s)); }
+    function saveState(s) {
+        localStorage.setItem('cosy_practice', JSON.stringify(s));
+        // Sync with global keys
+        localStorage.setItem('cosy_total_points', s.totalPts);
+        localStorage.setItem('practice_streak', s.streak);
+    }
 
     let STATE = loadState();
     if (!STATE.totalPts)     STATE.totalPts     = 0;
@@ -25,7 +36,12 @@
     if (STATE.lastDate !== todayStr) {
       const yesterday = new Date(); yesterday.setDate(yesterday.getDate()-1);
       const yStr = yesterday.toISOString().split('T')[0];
-      if (STATE.lastDate !== yStr && STATE.lastDate !== '') STATE.streak = 0;
+      // If we missed a day, streak is NOT reset here but handled by global streak logic if needed
+      // Actually practice.js had its own streak logic. Let's align it.
+      if (STATE.lastDate !== yStr && STATE.lastDate !== '') {
+          STATE.streak = 0;
+          localStorage.setItem('practice_streak', '0');
+      }
       STATE.todayCorrect = 0;
     }
     saveState(STATE);
@@ -105,19 +121,131 @@
     window.selectCat = selectCat;
 
     /* ══════════════════════════════════════
+       DATA LOADING
+    ══════════════════════════════════════ */
+    async function ensureDataLoaded(lang, level) {
+        if (level !== 'starter') return; // For now, only starter has centralized files
+
+        const familyMap = {
+            'EN': 'germanic', 'DE': 'germanic',
+            'FR': 'romance', 'IT': 'romance', 'ES': 'romance', 'PT': 'romance',
+            'RU': 'slavic',
+            'EL': 'hellenic',
+            'HY': 'armenian',
+            'KA': 'kartvelian',
+            'TT': 'turkic',
+            'BA': 'turkic',
+            'BR': 'celtic'
+        };
+        const family = familyMap[lang];
+        if (!family) return;
+
+        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'dishes.js', 'speaking.js'];
+        const promises = files.map(file => {
+            const path = `../js/data/${family}/${lang.toLowerCase()}/starter/${file}`;
+            if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
+
+            return new Promise(res => {
+                const s = document.createElement('script');
+                s.src = path;
+                s.onload = res;
+                s.onerror = res; // Still resolve to not block
+                document.head.appendChild(s);
+            });
+        });
+        await Promise.all(promises);
+    }
+
+    /* ══════════════════════════════════════
        SESSION ENGINE
     ══════════════════════════════════════ */
     window.SESSION = null;
 
-    function startPractice() {
+    async function startPractice() {
       const level = document.getElementById('practice-level').value;
       const theme = document.getElementById('practice-theme').value;
+
+      const startBtn = document.getElementById('start-btn');
+      if (startBtn) {
+          startBtn.disabled = true;
+          startBtn.textContent = 'Loading... ⏳';
+      }
+
+      await ensureDataLoaded(selectedLang, level);
+
+      if (startBtn) {
+          startBtn.disabled = false;
+          startBtn.textContent = '▶ Start practice';
+      }
+
       beginSession(selectedLang, selectedCat, level, theme, false);
     }
     window.startPractice = startPractice;
 
     function beginSession(lang, cat, level, theme, isChallenge) {
-      let qs = getQuestions(lang, cat, level, theme);
+      let pool = [];
+      const l = lang.toLowerCase();
+
+      if (cat === 'Vocabulary') {
+          pool = window.gameUtils.getVocabPool(l, level, theme);
+      } else if (cat === 'Grammar') {
+          // Fallback to static for grammar if no data
+          pool = (QUESTIONS[lang] && QUESTIONS[lang]['Grammar']) || [];
+          if (level !== 'all') pool = pool.filter(q => q.level === level);
+          if (theme !== 'all') pool = pool.filter(q => q.theme === theme);
+      } else if (cat === 'Speaking') {
+          const speakingData = window.speakingData?.[l]?.talkThatTalk || [];
+          pool = speakingData.filter(d => (level === 'all' || d.level === level) && (theme === 'all' || d.theme === theme));
+      }
+
+      // If pool is empty, try default questions
+      let qs = [];
+      if (pool.length > 0) {
+          qs = pool.map(item => {
+              // Convert dynamic item to question format
+              if (cat === 'Vocabulary') {
+                  const types = ['mc', 'tf', 'type', 'ls'];
+                  const type = types[Math.floor(Math.random() * types.length)];
+
+                  let qText, ans, opts = null;
+
+                  if (type === 'mc' || type === 'ls') {
+                      qText = type === 'ls' ? 'Listen and select the correct word:' : `What does "${item.word}" mean?`;
+                      ans = 0; // index in opts, will be randomized in render
+                      opts = [item.definitions?.[0]?.text || 'Correct definition', 'Wrong option 1', 'Wrong option 2'];
+                      if (type === 'ls') {
+                          qText = 'Listen and select the correct meaning:';
+                      }
+                  } else if (type === 'tf') {
+                      const isTrue = Math.random() > 0.5;
+                      const displayDef = isTrue ?
+                          (item.definitions?.[0]?.text || "the correct meaning") :
+                          "something else entirely";
+                      qText = `"${item.word}" means "${displayDef}".`;
+                      ans = isTrue;
+                  } else {
+                      qText = `Type the word for: "${item.definitions?.[0]?.text || item.word}"`;
+                      ans = item.word;
+                  }
+
+                  return {
+                      type,
+                      q: qText,
+                      item: item, // store original item
+                      ans,
+                      opts,
+                      level: item.level,
+                      theme: item.theme
+                  };
+              } else if (cat === 'Speaking') {
+                  return { type: 'conv', q: item.topic || item.text, level: item.level, theme: item.theme };
+              }
+              return item;
+          });
+      } else {
+          qs = getQuestions(lang, cat, level, theme);
+      }
+
       if (!qs.length) qs = getQuestions('EN', 'Vocabulary', 'all', 'all');
       qs = [...qs].sort(() => Math.random() - .5).slice(0, 10);
 
@@ -149,8 +277,33 @@
       html += `<div class="pe-question">${q.q}</div>`;
       html += `<div id="pe-fb" class="pe-feedback"></div>`;
 
-      if (q.type === 'mc') {
-        html += `<div class="mc-options">` + q.opts.map((o, i) =>
+      if (q.type === 'mc' || q.type === 'ls') {
+        const opts = q.opts ? [...q.opts] : [];
+        let finalOpts = opts;
+        let correctIdx = q.ans;
+
+        if (q.item && (q.type === 'mc' || q.type === 'ls')) {
+            const vocabPool = window.gameUtils.getVocabPool(window.SESSION.lang.toLowerCase(), 'all', 'all');
+            const distractors = vocabPool
+                .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)
+                .sort(() => Math.random() - 0.5)
+                .slice(0, 2)
+                .map(v => v.definitions[0].text);
+
+            while (distractors.length < 2) distractors.push("Alternative " + (distractors.length + 1));
+
+            const correctDef = q.item.definitions?.[0]?.text || "Correct definition";
+            finalOpts = [correctDef, ...distractors].sort(() => Math.random() - 0.5);
+            correctIdx = finalOpts.indexOf(correctDef);
+            q.dynamicAns = correctIdx;
+            q.dynamicOpts = finalOpts;
+        }
+
+        if (q.type === 'ls') {
+            html += `<div style="text-align:center; margin-bottom:1.5rem;"><button class="btn-start" onclick="window.gameUtils.speak('${q.item.word.replace(/'/g,"\\'")}', '${window.SESSION.lang.toLowerCase()}')">🔊 Listen</button></div>`;
+        }
+
+        html += `<div class="mc-options">` + finalOpts.map((o, i) =>
           `<button class="mc-opt" onclick="cosyPractice.checkMC(${i})">${o}</button>`).join('') + `</div>`;
       } else if (q.type === 'tf') {
         html += `<div class="tf-btns">
@@ -178,7 +331,7 @@
     }
 
     function taskTypeLabel(t) {
-      const m = { mc:'Multiple choice', tf:'True / False', type:'Type the answer', conv:'Speaking task' };
+      const m = { mc:'Multiple choice', tf:'True / False', type:'Type the answer', conv:'Speaking task', ls:'Listen & select' };
       return m[t] || t;
     }
 
@@ -238,23 +391,161 @@
     }
 
     /* ══════════════════════════════════════
+       SPINNING WHEEL
+    ══════════════════════════════════════ */
+    const WHEEL = {
+        options: [
+            { lang:'EN', cat:'Vocabulary', level:'starter', theme:'all', label: '🇬🇧 English A1' },
+            { lang:'FR', cat:'Vocabulary', level:'starter', theme:'all', label: '🇫🇷 French A1' },
+            { lang:'IT', cat:'Vocabulary', level:'starter', theme:'all', label: '🇮🇹 Italian A1' },
+            { lang:'RU', cat:'Vocabulary', level:'starter', theme:'all', label: '🇷🇺 Russian A1' },
+            { lang:'EL', cat:'Vocabulary', level:'starter', theme:'all', label: '🇬🇷 Greek A1' },
+            { lang:'EN', cat:'Speaking', level:'intermediate', theme:'all', label: '🗣️ English B1' },
+            { lang:'EN', cat:'Grammar', level:'starter', theme:'all', label: '📐 English Grammar' }
+        ],
+        angle: 0,
+        isSpinning: false,
+        canvas: null,
+        ctx: null
+    };
+
+    function initWheel() {
+        WHEEL.canvas = document.getElementById('wheel-canvas');
+        if (!WHEEL.canvas) return;
+        WHEEL.ctx = WHEEL.canvas.getContext('2d');
+        drawWheel();
+
+        document.getElementById('spin-btn')?.addEventListener('click', spinWheel);
+    }
+
+    function drawWheel() {
+        const { ctx, canvas, options, angle } = WHEEL;
+        if (!ctx) return;
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = canvas.width / 2 - 5;
+        const sliceAngle = (Math.PI * 2) / options.length;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        options.forEach((opt, i) => {
+            const startA = angle + i * sliceAngle;
+            const endA = startA + sliceAngle;
+
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.arc(centerX, centerY, radius, startA, endA);
+            ctx.fillStyle = i % 2 === 0 ? '#6b8f71' : '#4a6b50';
+            ctx.fill();
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+
+            // Text
+            ctx.save();
+            ctx.translate(centerX, centerY);
+            ctx.rotate(startA + sliceAngle / 2);
+            ctx.fillStyle = '#fff';
+            ctx.font = 'bold 10px sans-serif';
+            ctx.textAlign = 'right';
+            ctx.fillText(opt.label, radius - 10, 5);
+            ctx.restore();
+        });
+    }
+
+    function spinWheel() {
+        if (WHEEL.isSpinning) return;
+        WHEEL.isSpinning = true;
+        const spinBtn = document.getElementById('spin-btn');
+        if (spinBtn) spinBtn.disabled = true;
+
+        const duration = 3000;
+        const startTime = performance.now();
+        const startAngle = WHEEL.angle;
+        const totalRotation = Math.PI * 2 * 5 + Math.random() * Math.PI * 2;
+
+        function animate(now) {
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+
+            WHEEL.angle = startAngle + totalRotation * easeOut;
+            drawWheel();
+
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                WHEEL.isSpinning = false;
+                if (spinBtn) spinBtn.disabled = false;
+                finalizeSpin();
+            }
+        }
+        requestAnimationFrame(animate);
+    }
+
+    function finalizeSpin() {
+        const sliceAngle = (Math.PI * 2) / WHEEL.options.length;
+        // Normalize angle to [0, 2PI)
+        const normalizedAngle = ((WHEEL.angle % (Math.PI * 2)) + (Math.PI * 2)) % (Math.PI * 2);
+        // The pointer is at the top (3PI/2 in canvas coordinates if 0 is right)
+        // Wait, standard canvas arc 0 is right. Top is 3PI/2 or -PI/2.
+        // We want to find which slice is at the top (angle 3PI/2 relative to rotation)
+        const pointerAngle = 3 * Math.PI / 2;
+        let winningIndex = Math.floor((pointerAngle - normalizedAngle + Math.PI * 4) % (Math.PI * 2) / sliceAngle);
+        winningIndex = winningIndex % WHEEL.options.length;
+
+        const win = WHEEL.options[winningIndex];
+        const resEl = document.getElementById('wheel-result');
+        if (resEl) {
+            resEl.innerHTML = `Landed on: <strong>${win.label}</strong>! 🎡`;
+            resEl.style.opacity = '1';
+        }
+
+        setTimeout(async () => {
+            const lp = document.querySelector(`.lang-pill[data-value="${win.lang.toLowerCase()}"]`);
+            if (lp) selectLang(lp);
+            const cp = document.querySelector(`.cat-pill[data-value="${win.cat.toLowerCase()}"]`);
+            if (cp) selectCat(cp);
+
+            await ensureDataLoaded(win.lang, win.level);
+            beginSession(win.lang, win.cat, win.level, win.theme, false);
+            cosyPractice.closeWheel();
+        }, 1500);
+    }
+
+    /* ══════════════════════════════════════
        GLOBAL EXPORTS
     ══════════════════════════════════════ */
     window.cosyPractice = {
-        quickStart: (lang, cat, level, theme) => {
+        quickStart: async (lang, cat, level, theme) => {
             const lp = document.querySelector(`.lang-pill[data-value="${lang}"]`);
             if (lp) selectLang(lp);
             const cp = document.querySelector(`.cat-pill[data-value="${cat}"]`);
             if (cp) selectCat(cp);
+            await ensureDataLoaded(lang.toUpperCase(), level);
             beginSession(lang.toUpperCase(), cat, level, theme, false);
         },
         startDailyChallenge: () => beginSession('EN', 'Vocabulary', 'A2', 'all', true),
         skipDailyChallenge: () => { document.getElementById('daily-challenge').style.opacity = '0.5'; },
-        openWheel: () => { alert('Spinning wheel coming soon!'); },
+        openWheel: () => {
+            document.getElementById('setup-section').style.display = 'none';
+            document.getElementById('wheel-container').style.display = 'block';
+            if (!WHEEL.canvas) initWheel();
+        },
+        closeWheel: () => {
+            document.getElementById('wheel-container').style.display = 'none';
+            document.getElementById('setup-section').style.display = 'block';
+        },
         checkMC: (i) => {
             const q = window.SESSION.qs[window.SESSION.idx];
-            if (i === q.ans) { awardPoints(10); showFeedback(true, 'Correct! +10 pts'); }
-            else { showFeedback(false, 'Incorrect. Answer: ' + q.opts[q.ans]); }
+            const ans = q.dynamicAns !== undefined ? q.dynamicAns : q.ans;
+            if (i === ans) {
+                awardPoints(10);
+                showFeedback(true, 'Correct! +10 pts');
+            } else {
+                const opts = q.dynamicOpts || q.opts;
+                showFeedback(false, 'Incorrect. Answer: ' + (opts ? opts[ans] : 'Unknown'));
+            }
         },
         checkTF: (val) => {
             const q = window.SESSION.qs[window.SESSION.idx];
@@ -280,6 +571,9 @@
         }
     };
 
-    document.addEventListener('DOMContentLoaded', updateDashboardUI);
+    document.addEventListener('DOMContentLoaded', () => {
+        updateDashboardUI();
+        initWheel();
+    });
 
 })();
