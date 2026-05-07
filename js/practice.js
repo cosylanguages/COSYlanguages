@@ -117,7 +117,9 @@
     function selectCat(el) {
       document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
       el.classList.add('active');
-      selectedCat = el.textContent.split(' ')[1]; // Extract name from "📖 Vocabulary"
+      const val = el.dataset.value;
+      const map = { 'vocab': 'Vocabulary', 'grammar': 'Grammar', 'speaking': 'Speaking', 'pronunciation': 'Pronunciation' };
+      selectedCat = map[val] || val;
     }
     window.selectCat = selectCat;
 
@@ -884,6 +886,13 @@
         });
 
         document.getElementById('practice-level')?.addEventListener('change', updateThemes);
+
+        // Task toggles interactivity
+        document.querySelectorAll('.task-toggle').forEach(tt => {
+            tt.addEventListener('click', () => {
+                tt.classList.toggle('active');
+            });
+        });
 
         document.getElementById('true-btn')?.addEventListener('click', () => cosyPractice.checkTF(true));
         document.getElementById('false-btn')?.addEventListener('click', () => cosyPractice.checkTF(false));

@@ -132,8 +132,7 @@ function launchGame(gameName, mode, settings) {
         if (prefix === 'bingo') {
             const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
             if (soloCheckBingo) soloCheckBingo.checked = true;
-            const callerBtn = modal.querySelector('#start-bingo-caller-btn');
-            if (callerBtn) callerBtn.click();
+            // Don't auto-click for bingo to allow mode selection (0-9, alphabet, etc.)
         } else {
             actualStartBtn.click();
         }

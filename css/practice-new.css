@@ -282,9 +282,9 @@
 }
 .cat-pill:hover { border-color: var(--border-hover); color: var(--ink); }
 .cat-pill.active { border-color: var(--teal); background: var(--teal-light); color: var(--teal); font-weight: 500; }
-.cat-pill[data-cat="Grammar"].active { border-color: var(--plum); background: var(--plum-light); color: var(--plum); }
-.cat-pill[data-cat="Speaking"].active { border-color: var(--coral); background: var(--coral-light); color: var(--coral); }
-.cat-pill[data-cat="Pronunciation"].active { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+.cat-pill[data-value="grammar"].active { border-color: var(--plum); background: var(--plum-light); color: var(--plum); }
+.cat-pill[data-value="speaking"].active { border-color: var(--coral); background: var(--coral-light); color: var(--coral); }
+.cat-pill[data-value="pronunciation"].active { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
 
 /* Selects */
 .styled-select {
