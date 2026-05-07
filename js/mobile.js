@@ -419,23 +419,23 @@ function initMobile() {
           base = '../'.repeat(depth);
       }
 
-      const mode = window.COSY_MODE || 'free';
+      const mode = (window.COSY && window.COSY.mode) || 'free';
 
       nav.className = 'mobile-nav';
       if (mode === 'student') {
         nav.innerHTML = `
           <a href="${base}portal/index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🗺️</span><span>Roadmap</span></a>
-          <a href="${base}portal/index.html?tab=vocab" class="mobile-nav-item"><span class="mn-icon">📓</span><span>Vocab</span></a>
+          <a href="${base}portal/index.html" class="mobile-nav-item" onclick="cosyDays.switchTab(document.querySelector('.nav-item:nth-child(2)'), 'panel-vocab')"><span class="mn-icon">📓</span><span>Vocab</span></a>
           <a href="${base}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
           <a href="${base}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-          <a href="${base}index.html" class="mobile-nav-item" onclick="cosyMode.logout()"><span class="mn-icon">🔑</span><span>Out</span></a>
+          <a href="${base}index.html" class="mobile-nav-item" onclick="COSY.logout()"><span class="mn-icon">🔑</span><span>Out</span></a>
         `;
       } else if (mode === 'teacher') {
         nav.innerHTML = `
           <a href="${base}portal/index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">👩‍🏫</span><span>Students</span></a>
-          <a href="${base}portal/index.html?tab=broadcast" class="mobile-nav-item"><span class="mn-icon">📢</span><span>Broad</span></a>
-          <a href="${base}portal/index.html?tab=codes" class="mobile-nav-item"><span class="mn-icon">🎟️</span><span>Codes</span></a>
-          <a href="${base}index.html" class="mobile-nav-item" onclick="cosyMode.logout()"><span class="mn-icon">🔑</span><span>Out</span></a>
+          <a href="${base}portal/index.html" class="mobile-nav-item" onclick="cosyDays.switchTab(document.querySelector('.nav-item:nth-child(3)'), 'panel-homework')"><span class="mn-icon">📝</span><span>HW</span></a>
+          <a href="${base}portal/index.html" class="mobile-nav-item" onclick="cosyDays.switchTab(document.querySelector('.nav-item:nth-child(4)'), 'panel-teacher')"><span class="mn-icon">🎟️</span><span>Codes</span></a>
+          <a href="${base}index.html" class="mobile-nav-item" onclick="COSY.logout()"><span class="mn-icon">🔑</span><span>Out</span></a>
         `;
       } else {
         nav.innerHTML = `

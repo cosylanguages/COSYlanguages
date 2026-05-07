@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="../js/cosy-mode.js"></script>
 <script>
   // Access Control: Redirect if not unlocked, unless we are in the course picker view
   if(localStorage.getItem("student_unlocked")!=="true" && !window.location.search.includes('picker=true')) {
@@ -282,6 +283,7 @@ body { font-family: 'Nunito', sans-serif; background: var(--teal-lt); color: var
 </style>
 </head>
 <body>
+    <nav id="cosy-nav"></nav>
 
 <!-- TOP BAR -->
 <div class="topbar">

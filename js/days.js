@@ -11,25 +11,64 @@
     // ── Initialization ──────────────────────────────────
 
     document.addEventListener('DOMContentLoaded', () => {
-        const unlocked = localStorage.getItem('student_unlocked') === 'true';
-        const code = localStorage.getItem('student_course_code');
-
-        if (unlocked && code) {
-            initDashboard(code);
-        } else {
-            document.getElementById('gate').style.display = 'flex';
-            document.getElementById('area').style.display = 'none';
+        // Integrate with COSY mode system
+        if (window.COSY) {
+            if (window.COSY.mode === 'student') {
+                initDashboard(window.COSY.student.code);
+            } else if (window.COSY.mode === 'teacher') {
+                initTeacherMode();
+            } else {
+                document.getElementById('gate').style.display = 'flex';
+                document.getElementById('area').style.display = 'none';
+            }
         }
     });
+
+    function initTeacherMode() {
+        document.getElementById('gate').style.display = 'none';
+        document.getElementById('area').style.display = 'flex';
+        // Auto-unlock the dashboard since they are already authenticated via COSY mode
+        const lock = document.getElementById('teacher-lock');
+        const content = document.getElementById('teacher-content');
+        if (lock) lock.style.display = 'none';
+        if (content) content.style.display = 'block';
+        loadTeacherData();
+    }
 
     async function initDashboard(code) {
         document.getElementById('gate').style.display = 'none';
         document.getElementById('area').style.display = 'flex';
 
+        await refreshStudentData(code);
+
+        const courseName = document.getElementById('tb-course-name');
+        if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
+
+        await loadCurriculum();
+        updateStats();
+        updatePrepCard();
+        renderRoadmap();
+        renderList();
+        renderNotebook();
+        renderHomework();
+        loadBroadcast();
+        if (window.cosyMode) window.cosyMode.reshapeUI();
+
+        // Background polling for "live" updates every 30s
+        if (!window._cosyPolling) {
+            window._cosyPolling = setInterval(() => {
+                if (window.COSY && window.COSY.mode === 'student') {
+                    refreshStudentData(window.COSY.student.code, true);
+                }
+            }, 30000);
+        }
+    }
+
+    async function refreshStudentData(code, silent = false) {
         // Fetch student data from serverless JSON
         let studentData = null;
         try {
-            const resp = await fetch('../data/students.json');
+            const resp = await fetch('../data/students.json?t=' + Date.now());
             const allStudents = await resp.json();
             studentData = allStudents[code];
         } catch (e) {
@@ -37,6 +76,8 @@
         }
 
         if (studentData) {
+            const oldHomeworkCount = (currentCourse && currentCourse.homework) ? currentCourse.homework.length : 0;
+
             currentCourse = {
                 lang: studentData.language,
                 level: studentData.level,
@@ -52,6 +93,14 @@
             localStorage.setItem('cosy_user_name', studentData.nickname);
             localStorage.setItem('cosy_total_points', studentData.points);
             localStorage.setItem('practice_streak', studentData.streak);
+
+            if (silent) {
+                renderHomework();
+                updatePrepCard();
+                if (studentData.homework.length > oldHomeworkCount) {
+                    showToast('📝 New homework assigned!');
+                }
+            }
         } else {
             // Fallback to mock/code-parsing
             const parts = code.split('-');
@@ -403,15 +452,18 @@
             const input = document.getElementById('student-code');
             const code = input.value.trim().toUpperCase();
             if (code) {
-                localStorage.setItem('student_unlocked', 'true');
-                localStorage.setItem('student_course_code', code);
-                initDashboard(code);
+                const result = window.COSY.unlock(code);
+                if (result.ok) {
+                    if (window.COSY.mode === 'student') initDashboard(code);
+                    else if (window.COSY.mode === 'teacher') initTeacherMode();
+                } else {
+                    document.getElementById('em').style.display = 'block';
+                    setTimeout(() => { document.getElementById('em').style.display = 'none'; }, 3000);
+                }
             }
         },
         logout: () => {
-            localStorage.removeItem('student_unlocked');
-            localStorage.removeItem('student_course_code');
-            window.location.reload();
+            window.COSY.logout();
         },
         switchTab: (btn, panelId) => {
             document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
@@ -462,6 +514,21 @@
                 alert('Homework assigned to student: ' + val);
                 document.getElementById('hw-input').value = '';
             }
+        },
+        refreshData: () => {
+            if (window.COSY && window.COSY.student) {
+                refreshStudentData(window.COSY.student.code, true);
+                showToast('🔄 Syncing data...');
+            }
+        },
+        sendFeedback: () => {
+            const text = document.getElementById('feedback-text').value;
+            if (!text) return;
+            const student = window.COSY.student;
+            const msg = `Hi! This is ${student.name} (${student.code}). I have a note regarding my homework: ${text}`;
+            const url = `https://wa.me/330766784195?text=${encodeURIComponent(msg)}`;
+            window.open(url, '_blank');
+            document.getElementById('feedback-text').value = '';
         }
     };
 })();
