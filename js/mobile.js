@@ -132,7 +132,9 @@ function launchGame(gameName, mode, settings) {
         if (prefix === 'bingo') {
             const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
             if (soloCheckBingo) soloCheckBingo.checked = true;
-            // Don't auto-click for bingo to allow mode selection (0-9, alphabet, etc.)
+            // For Bingo, we only auto-click if a level was explicitly provided in settings
+            // This allows the user to see the ranges (0-9, etc.) when just clicking "Play solo"
+            if (selectedType) actualStartBtn.click();
         } else {
             actualStartBtn.click();
         }
@@ -389,11 +391,34 @@ function checkAutoLaunch() {
         const gameName = Object.keys(window.COSY_GAMES).find(k => window.COSY_GAMES[k].id === gameId);
         if (gameName) setTimeout(() => openGameSheet(gameName, window.COSY_GAMES[gameName].icon, params.get('mode') || 'solo'), 500);
     } else if (cat && typeof window.startPractice === 'function') {
-        const radio = document.getElementById(`cat-${cat}`);
-        if (radio) {
-            radio.checked = true;
-            if (typeof window.updateCategoryUI === 'function') window.updateCategoryUI();
-            setTimeout(() => window.startPractice(params.get('mode') === 'wheel'), 500);
+        // New Practice Hub Support (Pills)
+        const pill = document.querySelector(`.cat-pill[data-value="${cat}"]`);
+        if (pill && typeof window.selectCat === 'function') {
+            window.selectCat(pill);
+
+            const lang = params.get('lang');
+            if (lang) {
+                const langPill = document.querySelector(`.lang-pill[data-value="${lang}"]`);
+                if (langPill && typeof window.selectLang === 'function') window.selectLang(langPill);
+            }
+
+            const level = params.get('level');
+            const levelSelect = document.getElementById('practice-level');
+            if (level && levelSelect) levelSelect.value = level;
+
+            const theme = params.get('theme');
+            const themeSelect = document.getElementById('practice-theme');
+            if (theme && themeSelect) themeSelect.value = theme;
+
+            setTimeout(() => window.startPractice(), 500);
+        } else {
+            // Legacy Radio Support
+            const radio = document.getElementById(`cat-${cat}`);
+            if (radio) {
+                radio.checked = true;
+                if (typeof window.updateCategoryUI === 'function') window.updateCategoryUI();
+                setTimeout(() => window.startPractice(params.get('mode') === 'wheel'), 500);
+            }
         }
     }
 }

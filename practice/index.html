@@ -22,7 +22,7 @@
     <div id="cosy-nav"></div>
 
     <div class="page">
-        <!-- DASHBOARD HEADER -->
+        <!-- ── DASHBOARD HEADER ── -->
         <div class="dash-hero fade-in">
             <div>
                 <div class="dash-greeting">Ready to practise?<br><strong>Pick a language</strong> and <em>let's go.</em></div>
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        <!-- DAILY CHALLENGE -->
+        <!-- ── DAILY CHALLENGE ── -->
         <div class="daily-challenge fade-in" id="daily-challenge">
             <div class="dc-label">📅 Daily Challenge</div>
             <div class="dc-title" id="dc-title">Loading today's challenge…</div>
@@ -70,8 +70,8 @@
             </div>
         </div>
 
-        <!-- QUICK START -->
-        <div class="fade-in">
+        <!-- ── QUICK START ── -->
+        <div class="fade-in" id="quickstart-section">
             <div class="sec-title">⚡ Quick start <span>Jump straight in</span></div>
             <div class="quickstart-grid">
                 <div class="qs-card" style="--qs-color:var(--teal)" onclick="cosyPractice.quickStart('en','vocab','starter','all')">
@@ -107,7 +107,7 @@
             </div>
         </div>
 
-        <!-- SETUP PANEL -->
+        <!-- ── SETUP PANEL ── -->
         <div class="fade-in" id="setup-section">
             <div class="sec-title">⚙️ Custom practice <span>Choose exactly what you want to practise</span></div>
             <div class="setup-panel">
@@ -162,7 +162,7 @@
 
                     <!-- Task types -->
                     <div class="setup-full">
-                        <label class="field-label">5 · Task types</label>
+                        <label class="field-label">5 · Task types <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--ink-faint)">(select one or more)</span></label>
                         <div class="task-grid" id="task-grid">
                             <div class="task-toggle active" data-task="mc"><span class="task-toggle-icon">🔘</span>Multiple choice</div>
                             <div class="task-toggle active" data-task="tf"><span class="task-toggle-icon">✅</span>True / False</div>
@@ -184,7 +184,7 @@
             </div>
         </div>
 
-        <!-- SPINNING WHEEL -->
+        <!-- ── SPINNING WHEEL ── -->
         <div class="wheel-section fade-in" id="wheel-container" style="display:none">
             <div class="sec-title" style="justify-content:center">🎡 Spinning Wheel</div>
             <p style="font-size:.84rem;color:var(--ink-muted);margin-bottom:.5rem">Spin for a random practice set — commit to whatever it lands on!</p>
@@ -194,22 +194,10 @@
             </div>
             <div><button class="wheel-btn" id="spin-btn">Spin! 🎡</button></div>
             <div class="wheel-result" id="wheel-result"></div>
-
-            <div id="wheel-question-area" class="hidden" style="margin-top: 2rem; padding: 2rem; background: var(--warm-white); border-radius: var(--r-xl); border: 1px solid var(--border);">
-                 <div id="wheel-emoji-display" style="font-size: 3rem; margin-bottom: 1rem;"></div>
-                 <div id="wheel-word-display" style="font-family: 'Fraunces', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;"></div>
-                 <div id="wheel-subtext-display" style="color: var(--ink-muted); margin-bottom: 2rem;"></div>
-                 <div style="display: flex; gap: 10px; justify-content: center;">
-                    <button id="wheel-respond-btn" class="btn-start">Respond ✍️</button>
-                    <button id="wheel-skip-btn" class="btn-outline">Skip ⏭️</button>
-                    <button id="wheel-done-btn" class="btn-start" style="background: var(--green);">Done ✅</button>
-                 </div>
-            </div>
-
-            <div style="margin-top:1.5rem"><button class="btn-outline" onclick="cosyPractice.closeWheel()">← Back to practice</button></div>
+            <div style="margin-top:.8rem"><button class="btn-outline" onclick="cosyPractice.closeWheel()">← Back to practice</button></div>
         </div>
 
-        <!-- PRACTICE ENGINE -->
+        <!-- ── PRACTICE ENGINE ── -->
         <div class="practice-engine fade-in" id="practice-section">
             <div class="pe-topbar">
                 <div class="pe-info">
@@ -225,89 +213,29 @@
             <div class="pe-progress-bar"><div id="progress-fill" class="pe-progress-fill" style="width:0%"></div></div>
 
             <div class="pe-body" id="pe-body">
-                <div id="word-meta" class="hidden" style="margin-bottom: 1rem; display: flex; gap: 8px;">
-                    <span id="word-form" class="meta-badge"></span>
-                    <span id="word-level" class="meta-badge"></span>
+                <!-- injected by JS -->
+            </div>
+
+            <!-- ── SESSION SUMMARY ── -->
+            <div class="summary" id="summary-modal">
+                <div class="sum-icon" id="sum-icon">🎉</div>
+                <div class="sum-title" id="sum-title">Session complete!</div>
+                <div class="sum-sub" id="sum-sub">Great practice — keep the streak going!</div>
+                <div class="sum-stats">
+                    <div class="sum-stat"><div class="sum-stat-val" id="final-score">0</div><div class="sum-stat-lbl">✨ Points earned</div></div>
+                    <div class="sum-stat"><div class="sum-stat-val" id="final-total-score">0</div><div class="sum-stat-lbl">🏆 Total Score</div></div>
+                    <div class="sum-stat"><div class="sum-stat-val" id="final-streak">0</div><div class="sum-stat-lbl">🔥 Streak</div></div>
                 </div>
-
-                <div class="task-header" style="text-align: center; margin-bottom: 2rem;">
-                    <div id="emoji-display" class="large-emoji" style="font-size: 4rem; margin-bottom: 1rem;"></div>
-                    <div id="task-instruction" class="pe-task-type" style="font-size: 0.8rem; letter-spacing: 0.1em;"></div>
-                    <div id="task-what-to-do" class="pe-question"></div>
-                </div>
-
-                <div id="task-example" class="pe-question-sub hidden" style="text-align: center; font-style: italic;"></div>
-
-                <div id="word-container" style="text-align: center; margin-bottom: 2rem;">
-                    <div id="word-display" class="pe-question" style="font-size: 2.5rem;"></div>
-                    <div id="subtext-display" class="pe-question-sub"></div>
-                    <button id="listen-btn" class="btn-outline" style="margin-top: 1rem;">Listen 🔊</button>
-                </div>
-
-                <div id="answer-area">
-                    <!-- Multiple Choice -->
-                    <div id="choices-grid" class="mc-options hidden"></div>
-
-                    <!-- Typing -->
-                    <div id="opposite-input-container" class="hidden">
-                        <div class="type-wrap">
-                            <input type="text" id="opposite-answer" class="type-input" placeholder="Type here..." autocomplete="off">
-                            <button id="check-opposite-btn" class="btn-start">Check 🔍</button>
-                        </div>
-                    </div>
-
-                    <!-- True/False -->
-                    <div id="tf-buttons-container" class="tf-btns hidden">
-                        <button id="true-btn" class="tf-btn">✅ True</button>
-                        <button id="false-btn" class="tf-btn">❌ False</button>
-                    </div>
-
-                    <!-- Scramble -->
-                    <div id="scramble-container" class="hidden">
-                        <div id="word-assembly" style="min-height: 50px; border-bottom: 2px solid var(--border); margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px;"></div>
-                        <div id="scramble-letters" class="mc-options" style="grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));"></div>
-                        <button id="clear-scramble-btn" class="btn-outline" style="margin-top: 1rem;">Clear 🔄</button>
-                    </div>
-
-                    <!-- Conversation -->
-                    <div id="conversation-container" class="hidden">
-                         <div style="background:var(--cream);border-radius:var(--r-lg);padding:1rem 1.2rem;margin-bottom:1.3rem;border:1px solid var(--border)">
-                            <div style="font-size:.75rem;color:var(--ink-faint);margin-bottom:.4rem">🗣️ Speak your answer aloud</div>
-                            <textarea id="conversation-response" class="styled-select" style="height: 120px; background: #fff; margin-top: 10px;" placeholder="Optional: type key words here..."></textarea>
-                         </div>
-                         <button id="finish-conversation-btn" class="btn-start" style="width: 100%; justify-content: center;">Done ✅</button>
-                    </div>
-                </div>
-
-                <div id="feedback-message" class="pe-feedback"></div>
-
-                <div class="pe-controls" style="margin-top: 2rem;">
-                    <button id="next-btn" class="pe-btn-next hidden">Next Word ➡️</button>
-                    <button id="hint-btn" class="pe-btn-hint">💡 Hint</button>
-                    <button id="exit-practice-btn" class="pe-btn-exit">Exit ✕</button>
+                <div class="sum-actions">
+                    <button id="back-to-menu-btn" class="btn-start">▶ Play again</button>
+                    <button class="btn-outline" onclick="cosyPractice.endSession()">← Back to dashboard</button>
+                    <a href="https://wa.me/330766784195" class="btn-outline" target="_blank">💬 Book a lesson</a>
                 </div>
             </div>
         </div>
 
-        <!-- SUMMARY MODAL (Re-styled as page content or modal) -->
-        <div class="summary fade-in" id="summary-modal">
-            <div class="sum-icon">🎉</div>
-            <div class="sum-title">Session complete!</div>
-            <div class="sum-sub">Great practice — keep the streak going!</div>
-            <div class="sum-stats">
-                <div class="sum-stat"><div class="sum-stat-val" id="final-score">0</div><div class="sum-stat-lbl">✨ Points earned</div></div>
-                <div class="sum-stat"><div class="sum-stat-val" id="final-total-score">0</div><div class="sum-stat-lbl">🏆 Total Score</div></div>
-                <div class="sum-stat"><div class="sum-stat-val" id="final-streak">0</div><div class="sum-stat-lbl">🔥 Streak</div></div>
-            </div>
-            <div class="sum-actions">
-                <button id="back-to-menu-btn" class="btn-start">▶ Start again</button>
-                <button class="btn-outline" onclick="cosyPractice.endSession()">← Dashboard</button>
-                <a href="https://wa.me/330766784195" class="btn-outline" target="_blank">💬 Book a lesson</a>
-            </div>
-        </div>
-
-        <!-- RECENT + MISTAKES -->
-        <div class="two-col fade-in" style="margin-top:2rem">
+        <!-- ── RECENT + MISTAKES ── -->
+        <div class="two-col fade-in" style="margin-top:2rem" id="stats-section">
             <div class="info-card">
                 <div class="sec-title" style="margin-bottom:.8rem">🕘 Recent sessions</div>
                 <div id="recent-list"><div class="info-card-empty">No sessions yet — start practising!</div></div>
@@ -322,36 +250,14 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="footer-inner">
-            <div class="footer-top">
-                <div class="footer-brand">
-                    <div class="fb-logo">
-                        <img src="../images/cosylanguages.png" alt="COSYlanguages">
-                        <span class="fb-name">COSYlanguages</span>
-                    </div>
-                    <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
-                </div>
-                <div class="footer-links-col">
-                    <h5>Courses</h5>
-                    <a href="../portal/index.html">General Course 📖</a>
-                    <a href="../portal/index.html">Spoken Course 🗣️</a>
-                    <a href="../portal/index.html">Exam Preparation 📝</a>
-                </div>
-                <div class="footer-links-col">
-                    <h5>Explore</h5>
-                    <a href="../index.html#languages">Languages 🌍</a>
-                    <a href="index.html">Free Practice 💡</a>
-                    <a href="../games/index.html">Events &amp; Games 🎉</a>
-                </div>
-                <div class="footer-links-col">
-                    <h5>Contact</h5>
-                    <a href="https://wa.me/330766784195">WhatsApp 📱</a>
-                    <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-                    <a href="../portal/index.html">My Lessons 🔐</a>
-                </div>
-            </div>
-            <div class="footer-bottom">© 2025 COSYlanguages — All rights reserved</div>
+        <span class="footer-logo">🏡 COSYlanguages</span>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../games/index.html">Games</a>
+            <a href="../portal/index.html">My Lessons</a>
+            <a href="https://wa.me/330766784195" target="_blank">Contact</a>
         </div>
+        <span class="footer-copy">© 2025 COSYlanguages</span>
     </footer>
 
     <script src="../js/data/theme_config.js"></script>
