@@ -37,19 +37,21 @@ const celebrateBingo = () => {
     const el = document.createElement("div");
     el.style.cssText = `
       position:fixed;inset:0;z-index:999;
-      background:rgba(46,74,51,.9);
+      background:rgba(46,74,51,.95);
       display:flex;flex-direction:column;align-items:center;justify-content:center;
-      font-family:"Nunito,sans-serif;color:#fff;text-align:center;
+      font-family:'Nunito', sans-serif; color:#fff; text-align:center;
     `;
     el.innerHTML = `
-      <div style="font-size:5rem;margin-bottom:8px;animation:bounce .6s ease both">🎉</div>
-      <div style="font-family:"Lora,serif;font-size:2.5rem;font-weight:700;margin-bottom:4px">BINGO!</div>
-      <div style="font-size:1rem;opacity:.8;margin-bottom:24px">Well done! 🏆</div>
+      <div style="font-size:6rem;margin-bottom:16px;animation:bounce .6s ease both">🏆</div>
+      <div style="font-family:'Lora', serif; font-size:3.5rem; font-weight:800; margin-bottom:8px; color:#e8a838;">BINGO!</div>
+      <div style="font-size:1.4rem; opacity:.9; margin-bottom:32px;">You've mastered these items! 🎖️</div>
       <button onclick="this.parentNode.remove()" style="
-        height:48px;padding:0 28px;border-radius:999px;
-        background:#e8a838;color:#fff;border:none;
-        font-family:"Nunito,sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
-        Continue →
+        height:56px; padding:0 40px; border-radius:999px;
+        background:#e8a838; color:#fff; border:none;
+        font-family:'Nunito', sans-serif; font-weight:900; font-size:1.1rem;
+        cursor:pointer; box-shadow:0 8px 24px rgba(232,168,56,0.4);
+        transition: transform 0.2s;">
+        Amazing! →
       </button>
     `;
     document.body.appendChild(el);
@@ -163,7 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const updateDisplay = (container, val) => {
                 if (!container) return;
-                if (contentType === 'words' && typeof val === 'number') {
+                // Listening practice: If card content is Numbers, hide the caller digit
+                if (contentType === 'numbers' && typeof val === 'number') {
+                    container.innerHTML = `<div class="listening-ball" style="font-size: 5rem;">🔊</div>`;
+                } else if (contentType === 'words' && typeof val === 'number') {
                     const word = window.gameUtils.getNumberWord(val, lang);
                     container.innerHTML = `<div class="loto-ball" style="font-size: 0.8rem; padding: 5px;">${word}</div>`;
                 } else {
@@ -235,27 +240,38 @@ document.addEventListener('DOMContentLoaded', () => {
             // Rows
             for (let r = 0; r < rows; r++) {
                 let complete = true;
+                let foundAny = false;
                 for (let c = 0; c < cols; c++) {
                     const cell = cells[r * cols + c];
-                    if (!cell || !cell.classList.contains('marked')) {
-                        complete = false;
-                        break;
+                    if (cell) {
+                        foundAny = true;
+                        if (!cell.classList.contains('marked')) {
+                            complete = false;
+                            break;
+                        }
+                    } else {
+                        // If cell doesn't exist, we skip this check or treat as incomplete
+                        // If it's a sparse grid, we shouldn't win on an empty row
                     }
                 }
-                if (complete) return true;
+                if (foundAny && complete) return true;
             }
 
             // Columns
             for (let c = 0; c < cols; c++) {
                 let complete = true;
+                let foundAny = false;
                 for (let r = 0; r < rows; r++) {
                     const cell = cells[r * cols + c];
-                    if (!cell || !cell.classList.contains('marked')) {
-                        complete = false;
-                        break;
+                    if (cell) {
+                        foundAny = true;
+                        if (!cell.classList.contains('marked')) {
+                            complete = false;
+                            break;
+                        }
                     }
                 }
-                if (complete) return true;
+                if (foundAny && complete) return true;
             }
 
             return false;
@@ -356,7 +372,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     const item = bingoPool.pop();
 
                     if (playerLastCalled) {
-                        if (contentType === 'words' && typeof item === 'number') {
+                        if (contentType === 'numbers' && typeof item === 'number') {
+                             playerLastCalled.innerHTML = `<div class="listening-ball" style="font-size: 2rem;">🔊</div>`;
+                        } else if (contentType === 'words' && typeof item === 'number') {
                             const word = window.gameUtils.getNumberWord(item, lang);
                             playerLastCalled.innerHTML = `<div class="loto-ball" style="font-size: 0.8rem; padding: 5px;">${word}</div>`;
                         } else {

@@ -39,17 +39,8 @@ test.describe('Practice Data Audit', () => {
                         await expect(practiceSection).toBeVisible({ timeout: 5000 });
 
                         // Verify that question card has some text or an interactive component
-                        const wordDisplay = page.locator('#word-display');
-                        const matching = page.locator('#matching-container');
-                        const sorting = page.locator('#sorting-container');
-                        const labeling = page.locator('#labeling-container');
-                        const wordBank = page.locator('#word-bank-container');
-
-                        const isVisible = await wordDisplay.isVisible() ||
-                                          await matching.isVisible() ||
-                                          await sorting.isVisible() ||
-                                          await labeling.isVisible() ||
-                                          await wordBank.isVisible();
+                        const peBody = page.locator('#pe-body');
+                        const isVisible = await peBody.isVisible() && (await peBody.innerText()).length > 0;
 
                         expect(isVisible).toBeTruthy();
 
