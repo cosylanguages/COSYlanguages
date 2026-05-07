@@ -29,7 +29,6 @@ const LuckyNumbersGame = {
 
 window.LuckyNumbersGame = LuckyNumbersGame;
 
-};
 const celebrateBingo = () => {
     if (window.gameUtils && window.gameUtils.createConfetti) {
         window.gameUtils.createConfetti();

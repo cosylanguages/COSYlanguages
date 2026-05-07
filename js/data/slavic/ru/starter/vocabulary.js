@@ -2240,4 +2240,7 @@
         "countability": "countable"
     },
 ];
+    const lang = "ru";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

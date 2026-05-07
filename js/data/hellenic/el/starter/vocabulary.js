@@ -2547,4 +2547,7 @@
         "countability": "countable"
     },
 ];
+    const lang = "el";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

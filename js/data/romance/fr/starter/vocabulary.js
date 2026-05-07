@@ -9153,4 +9153,7 @@
         "transcription": "natyʁ"
     },
 ];
+    const lang = "fr";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
