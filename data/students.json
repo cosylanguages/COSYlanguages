@@ -1,0 +1,37 @@
+{
+  "COSY-DEMO": {
+    "nickname": "Alex",
+    "language": "en",
+    "course": "General",
+    "level": "A1",
+    "current_day": 5,
+    "next_lesson": {
+      "date": "2025-05-20",
+      "time": "10:00",
+      "meet_link": "https://meet.google.com/abc-defg-hij",
+      "progressme_link": "https://progressme.ru/student/123"
+    },
+    "homework": [
+      { "id": 1, "task": "Practice 10 minutes of vocabulary", "due": "2025-05-19", "done": false },
+      { "id": 2, "task": "Complete Unit 2 exercises", "due": "2025-05-18", "done": true }
+    ],
+    "points": 1250,
+    "streak": 5
+  },
+  "COSY-EN-A1-G": {
+    "nickname": "Bob",
+    "language": "en",
+    "course": "General",
+    "level": "A1",
+    "current_day": 2,
+    "next_lesson": {
+      "date": "2025-05-21",
+      "time": "14:00",
+      "meet_link": "https://meet.google.com/xyz-pdqr-stu",
+      "progressme_link": "https://progressme.ru/student/456"
+    },
+    "homework": [],
+    "points": 450,
+    "streak": 2
+  }
+}

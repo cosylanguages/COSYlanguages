@@ -284,13 +284,50 @@
                     <button onclick="cosyDays.checkPin()" class="btn-primary-new">Unlock Dashboard</button>
                 </div>
                 <div id="teacher-content" style="display: none;">
-                    <h3>Hello Teacher! 👩‍🏫</h3>
-                    <div class="widget-card" style="margin-bottom: 2rem;">
-                        <h4>Assign Homework</h4>
-                        <div style="display: flex; gap: 10px; margin-top: 1rem;">
-                            <input type="text" id="hw-input" placeholder="e.g. Read article on B1 level..." style="flex: 1; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
-                            <button onclick="cosyDays.assignHW()" class="btn-primary-new" style="padding: 10px 20px;">Assign</button>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                        <h3>Student Management 👩‍🏫</h3>
+                        <button class="badge-new" onclick="cosyDays.loadTeacherData()">Refresh Data 🔄</button>
+                    </div>
+
+                    <div id="broadcast-tool" class="widget-card" style="margin-bottom: 2rem; border-color: var(--honey);">
+                        <h4 style="margin-bottom: 10px;">📢 Global Broadcast</h4>
+                        <div style="display: flex; gap: 10px;">
+                            <input type="text" id="broadcast-input" placeholder="Message for all students..." style="flex: 1; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+                            <button onclick="cosyDays.updateBroadcast()" class="btn-primary-new">Update</button>
                         </div>
+                    </div>
+
+                    <div id="student-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
+                        <!-- Student cards filled by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teacher Edit Student Modal -->
+            <div id="teacher-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:2000; align-items:center; justify-content:center;">
+                <div class="widget-card" style="width: 90%; max-width: 500px; position:relative;">
+                    <span style="position:absolute; top:1rem; right:1rem; cursor:pointer;" onclick="document.getElementById('teacher-modal').style.display='none'">✕</span>
+                    <h3 id="tm-name">Edit Student</h3>
+                    <div style="display:flex; flex-direction:column; gap:1rem; margin-top:1.5rem;">
+                        <div>
+                            <label style="font-size:0.7rem; font-weight:800; color:#888;">NEXT LESSON DATE & TIME</label>
+                            <div style="display:flex; gap:10px;">
+                                <input type="date" id="tm-date" style="flex:1; padding:8px; border-radius:8px; border:1px solid #ddd;">
+                                <input type="time" id="tm-time" style="flex:1; padding:8px; border-radius:8px; border:1px solid #ddd;">
+                            </div>
+                        </div>
+                        <div>
+                            <label style="font-size:0.7rem; font-weight:800; color:#888;">GOOGLE MEET LINK</label>
+                            <input type="text" id="tm-meet" placeholder="https://meet.google.com/..." style="width:100%; padding:8px; border-radius:8px; border:1px solid #ddd;">
+                        </div>
+                        <div>
+                            <label style="font-size:0.7rem; font-weight:800; color:#888;">ASSIGN HOMEWORK</label>
+                            <div style="display:flex; gap:10px;">
+                                <input type="text" id="tm-hw" placeholder="Practice vocabulary..." style="flex:1; padding:8px; border-radius:8px; border:1px solid #ddd;">
+                                <input type="date" id="tm-hw-due" style="width:130px; padding:8px; border-radius:8px; border:1px solid #ddd;">
+                            </div>
+                        </div>
+                        <button onclick="cosyDays.saveStudentEdits()" class="btn-primary-new" style="margin-top:1rem;">Save Changes</button>
                     </div>
                 </div>
             </div>
@@ -308,6 +345,7 @@
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/curriculum_data.js"></script>
     <script src="../js/translate.js"></script>
+    <script src="../js/cosy-mode.js"></script>
     <script src="../js/days.js"></script>
 </body>
 </html>

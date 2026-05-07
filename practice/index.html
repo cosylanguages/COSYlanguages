@@ -18,7 +18,7 @@
     <div id="answer-flash" class="answer-flash"></div>
 
     <!-- NAV -->
-    <nav>
+    <nav id="main-nav">
         <a class="nav-logo" href="../index.html">
             <img src="../images/cosylanguages.png" alt="COSYlanguages">
             <span>COSYlanguages</span>
@@ -36,7 +36,7 @@
         </div>
     </nav>
 
-    <div class="page">
+    <div class="page" data-mode="free">
         <!-- DASHBOARD HEADER -->
         <div class="dash-hero fade-in">
             <div>
@@ -376,7 +376,9 @@
     <script src="../js/srs.js"></script>
     <script src="../js/exercise-core.js"></script>
     <script src="../js/practice.js"></script>
+    <script src="../js/cosy-mode.js"></script>
     <script src="../js/mobile.js"></script>
+    <div id="toast" class="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
     <script src="../js/script.js"></script>
 </body>
 </html>

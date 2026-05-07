@@ -680,8 +680,50 @@ footer {
   </div>
 </nav>
 
+<!-- ── STUDENT DASHBOARD (Mode 2) ───────────────────────── -->
+<div data-mode="student" class="student-dashboard" style="display:none; padding: 2rem; background: var(--cream);">
+  <div style="max-width: 1040px; margin: 0 auto;">
+    <div class="header-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+      <h1 style="font-family: 'Lora', serif; font-size: 2rem; color: var(--sage-deep);">My Dashboard</h1>
+      <div id="student-stats-summary" style="display: flex; gap: 1rem;">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+    <div class="widgets-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem;">
+      <div class="widget-card reveal" style="background: #fff; padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
+        <h3 style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Next Lesson</h3>
+        <div id="dashboard-next-lesson" style="font-weight: 800; font-size: 1.2rem; color: var(--sage-dark);">Loading...</div>
+      </div>
+      <div class="widget-card reveal" style="background: #fff; padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
+        <h3 style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Homework</h3>
+        <div id="dashboard-homework-count" style="font-weight: 800; font-size: 1.2rem; color: var(--honey-dark);">0 pending</div>
+      </div>
+      <div class="widget-card reveal" style="background: #fff; padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
+        <h3 style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Current Streak</h3>
+        <div id="dashboard-streak" style="font-weight: 800; font-size: 1.2rem; color: var(--sage-dark);">0 days 🔥</div>
+      </div>
+    </div>
+    <div style="margin-top: 2rem; text-align: center;">
+      <a href="portal/index.html" class="btn-primary">Go to Full Roadmap →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ── TEACHER DASHBOARD (Mode 3) ───────────────────────── -->
+<div data-mode="teacher" class="teacher-dashboard" style="display:none; padding: 2rem; background: var(--sage-mist);">
+  <div style="max-width: 1040px; margin: 0 auto;">
+    <h1 style="font-family: 'Lora', serif; font-size: 2rem; color: var(--sage-deep); margin-bottom: 2rem;">Teacher Management</h1>
+    <div id="teacher-student-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+       <!-- Student cards -->
+    </div>
+    <div style="margin-top: 2rem; text-align: center;">
+      <a href="portal/index.html" class="btn-primary">Manage Students & Content →</a>
+    </div>
+  </div>
+</div>
+
 <!-- ── HERO ────────────────────────────────────────────── -->
-<header class="hero">
+<header class="hero" data-mode="free">
   <div class="hero-inner">
     <div class="hero-left">
       <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
@@ -735,7 +777,7 @@ footer {
   </div>
 </header>
 
-<main>
+<main data-mode="free">
 
 <!-- ── HOW IT WORKS ─────────────────────────────────────── -->
 <section id="how">
@@ -1078,7 +1120,7 @@ footer {
 
 
 <!-- ── FINAL CTA ─────────────────────────────────────────── -->
-<section style="padding-top:2rem">
+<section style="padding-top:2rem" data-mode="free">
   <div class="cta-section reveal">
     <h2 data-translate-key="final_cta_h2">Ready to start? 🌱</h2>
     <p data-translate-key="final_cta_p">Message us on WhatsApp or Telegram. Tell us which language, roughly where you are and what you'd like to achieve. We'll take it from there.</p>
@@ -1142,7 +1184,9 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 </script>
     <script src="js/data/theme_config.js"></script>
     <script src="js/translate.js"></script>
+    <script src="js/cosy-mode.js"></script>
     <script src="js/mobile.js"></script>
+    <div id="toast" class="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
     <script src="js/script.js"></script>
 </body>
 </html>

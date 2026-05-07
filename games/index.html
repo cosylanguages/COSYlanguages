@@ -521,7 +521,7 @@ footer {
       </div>
     </nav>
 
-    <header class="events-header">
+    <header class="events-header" data-mode="free">
       <div class="events-header-inner">
         <div class="eh-free-label">✅ Free — no account needed</div>
         <h1 data-translate-key="events_title">14 Games Hub 🎮</h1>
@@ -529,7 +529,7 @@ footer {
       </div>
     </header>
 
-    <main>
+    <main data-mode="free">
         <section id="events">
             <div class="events-hero-stats">
               <div class="e-stat"><span class="e-stat-icon">🎮</span> <div class="e-stat-body"><span class="e-stat-val">14</span> <span class="e-stat-lbl">Games</span></div></div>
@@ -2243,6 +2243,7 @@ footer {
     <script src="../js/games/word_linker.js"></script>
     <script src="../js/games/charades.js"></script>
     <script src="../js/games/crossword.js"></script>
+    <script src="../js/cosy-mode.js"></script>
     <script src="../js/mobile.js"></script>
     <script src="../js/games/guess_games.js"></script>
     <script src="../js/games/bingo.js"></script>
@@ -2309,6 +2310,7 @@ footer {
 
 
 
+    <div id="toast" class="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
     <script src="../js/script.js"></script>
 </body>
 </html>
