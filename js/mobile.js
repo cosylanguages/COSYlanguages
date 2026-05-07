@@ -129,13 +129,17 @@ function launchGame(gameName, mode, settings) {
     }
 
     if (actualStartBtn && mode === 'solo') {
-        if (prefix === 'bingo') {
-            const soloCheckBingo = modal.querySelector('#bingo-solo-mode');
-            if (soloCheckBingo) soloCheckBingo.checked = true;
-            // For Bingo, we only auto-click if a level was explicitly provided in settings
-            // This allows the user to see the ranges (0-9, etc.) when just clicking "Play solo"
-            if (selectedType) actualStartBtn.click();
-        } else {
+        const soloCheck = modal.querySelector(`#${prefix}-solo-mode`) || modal.querySelector('.solo-mode-check');
+        if (soloCheck) {
+            soloCheck.checked = true;
+            soloCheck.dispatchEvent(new Event('change'));
+        }
+
+        // We only auto-click if this was a deep-link (embed=true)
+        // OR if it's a simple game without complex sub-modes.
+        // Otherwise, we let the user see the setup menu.
+        const isDeepLink = new URLSearchParams(window.location.search).get('embed') === 'true';
+        if (isDeepLink) {
             actualStartBtn.click();
         }
     }

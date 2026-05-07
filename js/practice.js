@@ -157,11 +157,14 @@
       let pool = [];
       const l = lang.toLowerCase();
 
-      if (cat === 'Vocabulary') {
+      if (cat === 'Vocabulary' || cat === 'Grammar') {
+          // If grammar, we prioritize verbs and grammar_elements, but fallback to general vocab pool
           pool = window.gameUtils.getVocabPool(l, level, theme);
-      } else if (cat === 'Grammar') {
-          pool = (QUESTIONS[lang.toUpperCase()] && QUESTIONS[lang.toUpperCase()]['Grammar']) || [];
-          if (level !== 'all') pool = pool.filter(q => q.level === level);
+          if (cat === 'Grammar') {
+              // Filter for items that have examples (better for grammar tasks) or are explicitly grammar
+              const grammarSpecific = pool.filter(item => item.form === 'verb' || item.form === 'preposition' || item.form === 'conjunction');
+              if (grammarSpecific.length > 5) pool = grammarSpecific;
+          }
       } else if (cat === 'Speaking') {
           const speakingData = window.speakingData?.[l]?.talkThatTalk || [];
           pool = speakingData.filter(d => (level === 'all' || d.level === level) && (theme === 'all' || d.theme === theme));
@@ -189,7 +192,7 @@
       let qs = [];
       if (pool.length > 0) {
           qs = pool.map(item => {
-              if (cat === 'Vocabulary') {
+              if (cat === 'Vocabulary' || cat === 'Grammar') {
                   let type = activeTypes[Math.floor(Math.random() * activeTypes.length)];
                   if (type === 'op' && !item.opposite) type = 'mc';
                   if (type === 'sc' && (!item.examples || item.examples.length === 0)) type = 'mc';
@@ -197,13 +200,15 @@
                   if (type === 'cv' && !item.word) type = 'mc';
 
                   let qText, ans, opts = null;
+                  const definition = item.definitions?.[0]?.text || "the correct meaning";
+
                   if (type === 'mc' || type === 'ls') {
                       qText = type === 'ls' ? 'Listen and select the correct word:' : `What does "${item.word}" mean?`;
                       ans = 0;
-                      opts = [item.definitions?.[0]?.text || 'Correct definition', 'Wrong option 1', 'Wrong option 2'];
+                      opts = [definition, 'Wrong option 1', 'Wrong option 2'];
                   } else if (type === 'tf') {
                       const isTrue = Math.random() > 0.5;
-                      const displayDef = isTrue ? (item.definitions?.[0]?.text || "the correct meaning") : "something else entirely";
+                      const displayDef = isTrue ? definition : "something else entirely";
                       qText = `"${item.word}" means "${displayDef}".`;
                       ans = isTrue;
                   } else if (type === 'op') {
@@ -211,7 +216,7 @@
                       ans = item.opposite;
                   } else if (type === 'sc') {
                       const ex = item.examples[Math.floor(Math.random() * item.examples.length)];
-                      qText = `Scramble: ${ex.translation || 'Translate and arrange'}`;
+                      qText = `Arrange the words into a correct sentence:`;
                       ans = ex.text;
                   } else if (type === 'np') {
                       qText = `What is the plural of "${item.word}"?`;
@@ -272,15 +277,24 @@
       if (q.item && q.type !== 'sc') {
           html += `<div style="text-align:center; margin: 1.5rem 0;">
                      <div style="font-size: 4rem;">${q.item.emoji || '💡'}</div>
-                     <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500;">${q.type === 'ls' ? '???' : q.item.word}</div>
+                     <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500; margin-bottom: 0.5rem;">${q.type === 'ls' ? '???' : q.item.word}</div>
+                     <button class="btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="window.gameUtils.speak('${q.item.word}', '${window.SESSION.lang}')">🔊 Listen</button>
                    </div>`;
+
+          // Show definition if available, but avoid giving away answers in MC/TF/LS(Vocab)
+          const isVocabLS = q.type === 'ls' && window.SESSION.cat === 'Vocabulary';
+          if (q.item.definitions && q.item.definitions[0] && q.type !== 'mc' && q.type !== 'tf' && !isVocabLS) {
+              html += `<div style="text-align:center; font-size: 0.9rem; color: var(--muted); font-style: italic; margin-bottom: 1.5rem;">
+                        "${q.item.definitions[0].text}"
+                       </div>`;
+          }
       }
 
       html += `<div id="pe-fb" class="pe-feedback"></div>`;
 
       if (q.type === 'mc' || q.type === 'ls') {
           let finalOpts = q.opts || [];
-          if (q.item && window.SESSION.cat === 'Vocabulary') {
+          if (q.item && window.SESSION.cat === 'Vocabulary' && q.type !== 'ls') {
               const vocabPool = window.gameUtils.getVocabPool(window.SESSION.lang.toLowerCase(), 'all', 'all');
               const distractors = vocabPool
                   .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)
@@ -419,7 +433,102 @@
         if (document.getElementById('mistake-count-qs')) document.getElementById('mistake-count-qs').textContent = `${STATE.mistakes.length} words to review`;
     }
 
+    /* ══════════════════════════════════════
+       SPINNING WHEEL LOGIC
+    ══════════════════════════════════════ */
+    let wheelAngle = 0;
+    const wheelLangs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt'];
+    const wheelCats = ['vocab', 'grammar', 'speaking', 'pronunciation'];
+    const wheelItems = [];
+    wheelLangs.forEach(l => wheelCats.forEach(c => wheelItems.push({ lang: l, cat: c })));
+
+    function drawWheel() {
+        const canvas = document.getElementById('wheel-canvas');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        const radius = canvas.width / 2;
+        const slice = (Math.PI * 2) / wheelItems.length;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.save();
+        ctx.translate(radius, radius);
+        ctx.rotate(wheelAngle);
+
+        wheelItems.forEach((item, i) => {
+            const angle = i * slice;
+            ctx.beginPath();
+            ctx.fillStyle = i % 2 === 0 ? '#6b8f71' : '#e8a838';
+            ctx.moveTo(0, 0);
+            ctx.arc(0, 0, radius, angle, angle + slice);
+            ctx.fill();
+
+            ctx.save();
+            ctx.rotate(angle + slice / 2);
+            ctx.fillStyle = '#fff';
+            ctx.font = 'bold 14px Nunito, sans-serif';
+            ctx.textAlign = 'right';
+            ctx.fillText(item.lang.toUpperCase(), radius - 15, 5);
+            ctx.restore();
+        });
+        ctx.restore();
+    }
+
+    function spinWheel() {
+        const btn = document.getElementById('spin-btn');
+        if (btn) btn.disabled = true;
+
+        let velocity = 0.3 + Math.random() * 0.2;
+        const friction = 0.985;
+
+        function animate() {
+            wheelAngle += velocity;
+            velocity *= friction;
+            drawWheel();
+
+            if (velocity > 0.002) {
+                requestAnimationFrame(animate);
+            } else {
+                if (btn) btn.disabled = false;
+                const slice = (Math.PI * 2) / wheelItems.length;
+                const normalizedAngle = (Math.PI * 2) - (wheelAngle % (Math.PI * 2));
+                const index = Math.floor(normalizedAngle / slice) % wheelItems.length;
+                const result = wheelItems[index];
+
+                const resEl = document.getElementById('wheel-result');
+                if (resEl) {
+                    const langName = { en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese' };
+                    resEl.innerHTML = `Landed on: <strong>${langName[result.lang]} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
+                    setTimeout(() => {
+                        cosyPractice.closeWheel();
+                        cosyPractice.quickStart(result.lang, result.cat, 'all', 'all');
+                    }, 1500);
+                }
+            }
+        }
+        animate();
+    }
+
+    function generateDailyChallenge() {
+        const seeds = [
+            { lang: 'en', cat: 'Vocabulary', theme: 'Food', title: "English Food Master 🍎", sub: "Learn essential food items in English." },
+            { lang: 'fr', cat: 'Vocabulary', theme: 'Greetings', title: "French Politeness 🇫🇷", sub: "Master basic greetings and etiquette." },
+            { lang: 'it', cat: 'Grammar', theme: 'prepositions', title: "Italian Prepositions 🇮🇹", sub: "Master 'in', 'on', and 'at' in Italian." },
+            { lang: 'ru', cat: 'Vocabulary', theme: 'Numbers', title: "Russian Numbers 🇷🇺", sub: "Count like a pro from 0 to 100." },
+            { lang: 'el', cat: 'Vocabulary', theme: 'Home', title: "Greek Home Life 🇬🇷", sub: "Learn words for rooms and furniture." }
+        ];
+        const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+        const challenge = seeds[dayOfYear % seeds.length];
+
+        const titleEl = document.getElementById('dc-title');
+        const subEl = document.getElementById('dc-sub');
+        if (titleEl) titleEl.textContent = challenge.title;
+        if (subEl) subEl.textContent = challenge.sub;
+
+        return challenge;
+    }
+
     window.cosyPractice = {
+        startPractice: startPractice,
         quickStart: async (lang, cat, level, theme) => {
             const lp = document.querySelector(`.lang-pill[data-value="${lang.toLowerCase()}"]`);
             if (lp) selectLang(lp);
@@ -429,16 +538,22 @@
             beginSession(lang, selectedCat, level, theme, false);
         },
         startDailyChallenge: async () => {
-            const dc = { lang: 'en', cat: 'Vocabulary', level: 'starter' }; // Placeholder
-            await ensureDataLoaded(dc.lang, dc.level);
-            beginSession(dc.lang, dc.cat, dc.level, 'all', true);
+            const dc = generateDailyChallenge();
+            await ensureDataLoaded(dc.lang, 'starter');
+            beginSession(dc.lang, dc.cat, 'starter', dc.theme, true);
         },
         startMistakeReview: () => {
             if (STATE.mistakes.length === 0) return alert("No mistakes to review!");
             const qs = STATE.mistakes.map(m => ({ type: 'type', q: `Review: "${m.definitions?.[0]?.text || m.word}"`, item: m, ans: m.word }));
             window.SESSION = { lang: 'multi', cat: 'Review', level: 'mixed', qs: qs.slice(0, 10), idx: 0, pts: 0, correct: 0, mistakes: [] };
+
             document.getElementById('practice-section').classList.add('active');
+            document.getElementById('summary-modal').style.display = 'none';
             document.getElementById('setup-section').style.display = 'none';
+            document.getElementById('quickstart-section').style.display = 'none';
+            document.getElementById('daily-challenge').style.display = 'none';
+            document.getElementById('stats-section').style.display = 'none';
+
             renderQuestion();
         },
         checkMC: (i) => {
@@ -509,16 +624,25 @@
             updateDashboardUI();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         },
-        openWheel: () => { document.getElementById('setup-section').style.display = 'none'; document.getElementById('wheel-container').style.display = 'block'; },
-        closeWheel: () => { document.getElementById('wheel-container').style.display = 'none'; document.getElementById('setup-section').style.display = 'block'; }
+        openWheel: () => {
+            document.getElementById('setup-section').style.display = 'none';
+            document.getElementById('wheel-container').style.display = 'block';
+            setTimeout(drawWheel, 50);
+        },
+        closeWheel: () => {
+            document.getElementById('wheel-container').style.display = 'none';
+            document.getElementById('setup-section').style.display = 'block';
+        }
     };
 
     document.addEventListener('DOMContentLoaded', () => {
         updateDashboardUI();
         populateRecentAndMistakes();
+        generateDailyChallenge();
         document.querySelectorAll('.lang-pill').forEach(p => p.addEventListener('click', () => selectLang(p)));
         document.querySelectorAll('.cat-pill').forEach(p => p.addEventListener('click', () => selectCat(p)));
         document.querySelectorAll('.task-toggle').forEach(p => p.addEventListener('click', () => toggleTask(p)));
         document.getElementById('practice-level')?.addEventListener('change', () => {});
+        document.getElementById('spin-btn')?.addEventListener('click', spinWheel);
     });
 })();
