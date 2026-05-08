@@ -466,6 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         return {
+            engine: CrosswordGame,
             open: () => {
                 modal.style.display = 'flex';
                 setupArea.style.display = 'block';
