@@ -14,7 +14,7 @@
     <meta name="theme-color" content="#FAF7F2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
     <script src="../js/cosy-mode.js"></script>
     <script>
@@ -25,30 +25,33 @@
 
     <style>
     :root {
-      --cream: #FAF7F2;
+      --sage: #6b8f71;
+      --sage-dark: #4a6b50;
+      --sage-light: #e8f0e9;
+      --cream: #fdfcf8;
       --warm-white: #FFFEFB;
-      --ink: #1C1917;
-      --ink-muted: #78716C;
-      --ink-faint: #A8A29E;
-      --border: rgba(28,25,23,.10);
-      --border-hover: rgba(28,25,23,.22);
+      --ink: #2a2a2a;
+      --ink-muted: #6b6b6b;
+      --ink-faint: #a8a29e;
+      --border: rgba(74,107,80,.12);
+      --border-hover: rgba(74,107,80,.25);
 
-      --teal: #2D7D6F;
-      --teal-light: #E6F4F1;
-      --coral: #C4522A;
-      --coral-light: #FAEEE8;
-      --gold: #B07D2B;
-      --gold-light: #FBF3E2;
-      --plum: #6B3F7C;
-      --plum-light: #F2ECF7;
-      --blue: #2E5FA3;
-      --blue-light: #E8EEF8;
-      --green: #3A7A4A;
-      --green-light: #EAF4EC;
-      --rose: #A63C5E;
-      --rose-light: #F9EBF0;
-      --navy: #2B3E6B;
-      --navy-light: #E8ECF5;
+      --teal: var(--sage);
+      --teal-light: var(--sage-light);
+      --coral: #c4522a;
+      --coral-light: #faeee8;
+      --gold: #e8a838;
+      --gold-light: #fff8e7;
+      --plum: #7a5c3a;
+      --plum-light: #f5ede0;
+      --blue: #3a5298;
+      --blue-light: #eef1fb;
+      --green: #4a6b50;
+      --green-light: #e5f4ec;
+      --rose: #a32d2d;
+      --rose-light: #fcebeb;
+      --navy: #1e2f6b;
+      --navy-light: #e8ecf5;
 
       --r-sm: 8px;
       --r-md: 14px;
@@ -59,11 +62,11 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Nunito', 'DM Sans', sans-serif;
       background: var(--cream);
       color: var(--ink);
       min-height: 100vh;
-      line-height: 1.6;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -213,31 +216,86 @@
     }
     .gc-play:hover { opacity: .9; transform: scale(1.05); }
 
-    /* ── Modals ── */
-    .modal-overlay { position: fixed; inset: 0; background: rgba(28,25,23,.4); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 2000; padding: 1rem; }
-    .modal-content { background: var(--warm-white); border-radius: var(--r-xl); width: 100%; max-width: 600px; max-height: 90vh; overflow-y: auto; padding: 2.5rem; position: relative; box-shadow: 0 20px 50px rgba(0,0,0,.15); }
-    .modal-content h2 { font-family: 'Fraunces', serif; font-size: 1.8rem; margin-bottom: .5rem; color: var(--ink); }
+    /* ── GAME ENGINE OVERLAY ── */
+    .game-overlay { display: none; position: fixed; inset: 0; background: var(--cream); z-index: 2000; flex-direction: column; overflow-y: auto; }
+    .game-overlay.open { display: flex; }
+    .go-topbar { background: var(--ink); color: #fff; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-shrink: 0; }
+    .go-back { background: none; border: 1px solid rgba(255,255,255,.2); color: #fff; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .8rem; padding: 6px 14px; cursor: pointer; transition: background .15s; display: flex; align-items: center; gap: 5px; }
+    .go-back:hover { background: rgba(255,255,255,.1); }
+    .go-title { font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.05rem; }
+    .go-meta { font-size: .76rem; opacity: .55; }
+    .go-body { flex: 1; max-width: 680px; margin: 0 auto; width: 100%; padding: 2rem 1.5rem 4rem; }
 
-    .setup-group { margin-bottom: 1.5rem; }
-    .setup-group label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-faint); margin-bottom: .6rem; }
-    .pill-input { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .9rem; padding: 11px 15px; border: 1.5px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; }
-    .pill-input:focus { border-color: var(--teal); }
+    /* ── SETUP SCREEN ── */
+    .setup-screen h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.5rem; margin-bottom: .4rem; }
+    .setup-screen p { color: var(--ink-muted); font-size: .88rem; margin-bottom: 1.5rem; line-height: 1.55; }
+    .setup-options { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin-bottom: 1.25rem; }
+    .setup-opt { border: 1.5px solid var(--border); background: var(--warm-white); border-radius: var(--r-md); padding: .8rem 1rem; cursor: pointer; transition: all .15s; font-family: 'DM Sans', sans-serif; font-size: .86rem; color: var(--ink-muted); display: flex; align-items: center; gap: 8px; text-align: left; }
+    .setup-opt:hover { border-color: var(--border-hover); color: var(--ink); }
+    .setup-opt.sel { border-color: var(--teal); background: var(--teal-light); color: var(--teal); font-weight: 700; }
+    .setup-opt-icon { font-size: 1.1rem; }
+    .setup-field label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-faint); margin-bottom: .5rem; }
+    .setup-field { margin-bottom: 1rem; }
+    .styled-sel { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .88rem; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; }
+    .styled-sel:focus { border-color: var(--border-hover); }
+    .btn-start-game { background: var(--ink); color: #fff; border: none; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 700; padding: 13px 30px; cursor: pointer; transition: opacity .15s; display: flex; align-items: center; gap: 8px; }
+    .btn-start-game:hover { opacity: .85; }
 
-    .cta-button { font-family: 'DM Sans', sans-serif; font-weight: 700; padding: 12px 28px; border-radius: 100px; border: none; cursor: pointer; transition: all .2s; font-size: .9rem; display: inline-flex; align-items: center; gap: 8px; justify-content: center; }
-    .cta-button.primary { background: var(--ink); color: #fff; }
-    .cta-button.primary:hover { opacity: .9; transform: translateY(-1px); }
-    .cta-button.secondary { background: var(--warm-white); border: 1.5px solid var(--border); color: var(--ink-muted); }
-    .cta-button.secondary:hover { border-color: var(--border-hover); color: var(--ink); }
+    /* ── GAME PLAY AREA ── */
+    .game-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; margin-bottom: 1rem; animation: popIn .25s ease; }
+    @keyframes popIn { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
+    .game-label { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-faint); margin-bottom: .5rem; font-weight: 700; }
+    .game-prompt { font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.35rem; line-height: 1.4; margin-bottom: .5rem; }
+    .game-sub { font-size: .88rem; color: var(--ink-muted); margin-bottom: 1.3rem; line-height: 1.6; }
+    .timer-ring-wrap { display: flex; justify-content: center; margin-bottom: 1.5rem; }
+    .timer-ring { position: relative; width: 90px; height: 90px; }
+    .timer-ring svg { transform: rotate(-90deg); }
+    .timer-inner { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; line-height: 1; }
+    .timer-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.6rem; color: var(--ink); }
+    .timer-lbl { font-size: .6rem; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+    .game-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .btn-g-primary { background: var(--ink); color: #fff; border: none; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .88rem; font-weight: 700; padding: 11px 24px; cursor: pointer; transition: opacity .15s; }
+    .btn-g-primary:hover { opacity: .85; }
+    .btn-g-secondary { background: none; border: 1px solid var(--border); color: var(--ink-muted); border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .86rem; padding: 10px 18px; cursor: pointer; transition: all .15s; font-weight: 500; }
+    .btn-g-secondary:hover { border-color: var(--border-hover); color: var(--ink); }
+    .btn-g-danger { background: none; border: 1px solid rgba(196,82,42,.25); color: var(--coral); border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .82rem; padding: 10px 16px; cursor: pointer; transition: all .15s; margin-left: auto; font-weight: 500; }
+    .btn-g-danger:hover { background: var(--coral-light); }
+    .score-bar { background: var(--sage-light); border-radius: var(--r-lg); padding: .85rem 1.2rem; display: flex; gap: 1.5rem; margin-bottom: 1rem; border: 1px solid var(--border); }
+    .sb-item { text-align: center; }
+    .sb-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.2rem; line-height: 1; color: var(--sage-dark); }
+    .sb-lbl { font-size: .65rem; color: var(--ink-faint); text-transform: uppercase; font-weight: 700; letter-spacing: .05em; }
+    .word-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem; }
+    .word-opt { border: 1.5px solid var(--border); background: var(--cream); border-radius: var(--r-md); padding: .8rem 1rem; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: .9rem; color: var(--ink); transition: all .18s; text-align: left; }
+    .word-opt:hover:not(:disabled) { border-color: var(--teal); background: var(--teal-light); color: var(--teal); }
+    .word-opt.correct { border-color: var(--green); background: var(--green-light); color: var(--green); }
+    .word-opt.wrong { border-color: var(--coral); background: var(--coral-light); color: var(--coral); }
+    .word-opt:disabled { cursor: default; }
+    .input-row { display: flex; gap: 10px; margin-bottom: 1rem; }
+    .game-input { flex: 1; font-family: 'DM Sans', sans-serif; font-size: 1rem; padding: 12px 15px; border: 1.5px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; }
+    .game-input:focus { border-color: var(--teal); }
+    .game-input.ok { border-color: var(--green); background: var(--green-light); }
+    .game-input.bad { border-color: var(--coral); background: var(--coral-light); }
+    .feedback-bar { padding: .8rem 1.1rem; border-radius: var(--r-md); font-size: .88rem; margin-bottom: 1rem; display: none; line-height: 1.6; }
+    .feedback-bar.show { display: block; }
+    .feedback-bar.ok { background: var(--green-light); color: var(--green); border: 1px solid rgba(58,122,74,.2); }
+    .feedback-bar.bad { background: var(--coral-light); color: var(--coral); border: 1px solid rgba(196,82,42,.2); }
+    .chain-display { font-family: 'Fraunces', serif; font-size: 1.15rem; background: var(--cream); border-radius: var(--r-md); padding: .85rem 1.1rem; margin-bottom: .85rem; min-height: 52px; border: 1px solid var(--border); word-break: break-all; }
+    .round-end { text-align: center; padding: 2rem 1rem; }
+    .re-icon { font-size: 3rem; margin-bottom: .8rem; }
+    .re-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.5rem; margin-bottom: .4rem; }
+    .re-sub { color: var(--ink-muted); font-size: .9rem; margin-bottom: 1.5rem; }
+    .re-stats { display: flex; justify-content: center; gap: 2.5rem; margin-bottom: 1.5rem; }
+    .re-stat-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.8rem; line-height: 1.1; }
+    .re-stat-lbl { font-size: .68rem; color: var(--ink-faint); text-transform: uppercase; font-weight: 700; letter-spacing: .05em; }
+    .re-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
 
-    .game-main-card { background: var(--warm-white); border: 1.5px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; margin-bottom: 1.5rem; text-align: center; }
-    .ah-word { font-family: 'Fraunces', serif; font-size: 2.8rem; font-weight: 600; color: var(--ink); margin: 1rem 0; }
-    .game-emoji-large { font-size: 4rem; margin-bottom: 0.5rem; }
-
-    /* ── HELP DETAILS ── */
-    .help-details { background: var(--cream); border-radius: var(--r-md); margin-bottom: 1.5rem; border: 1px solid var(--border); }
-    .help-details summary { padding: 1rem; cursor: pointer; font-weight: 700; font-size: .85rem; color: var(--ink-muted); }
-    .info-content { padding: 0 1rem 1rem; font-size: .85rem; color: var(--ink-muted); }
-    .info-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .fi { opacity: 0; animation: fadeUp .38s ease forwards; }
+    .fi:nth-child(1) { animation-delay: .05s; }
+    .fi:nth-child(2) { animation-delay: .12s; }
+    .fi:nth-child(3) { animation-delay: .19s; }
+    .fi:nth-child(4) { animation-delay: .26s; }
 
     footer { max-width: 960px; margin: 4rem auto 0; padding: 3rem 2rem 4rem; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
     .footer-brand { display: flex; align-items: center; gap: .7rem; }
@@ -254,465 +312,84 @@
     }
     </style>
 </head>
-<body class="events-page">
+<body class="games-hub-page">
     <div id="cosy-nav"></div>
 
-    <div class="hero">
+    <div id="hub">
+      <div class="hero">
         <div class="hero-tag">Free · No account needed</div>
-        <h1 data-translate-key="events_title">Language games that <em>actually teach</em></h1>
-        <p data-translate-key="how_it_works_events_p1">14 interactive games — speaking, vocabulary, guessing. Solo or with friends. Pick one and play.</p>
-    </div>
+        <h1>Language games that <em>actually teach</em></h1>
+        <p>8 interactive games — speaking, vocabulary, guessing. Solo or with friends. Pick one and play.</p>
+      </div>
 
-    <div class="page">
-        <!-- Global Preferences Bar -->
-        <div id="global-preferences" class="lobby-preferences-bar">
-            <div class="pref-pill">
-                <span class="pref-icon">🌍</span>
-                <select id="global-lang-select">
-                    <option value="en">English 🇬🇧</option>
-                    <option value="fr">Français 🇫🇷</option>
-                    <option value="it">Italiano 🇮🇹</option>
-                    <option value="ru">Русский 🇷🇺</option>
-                    <option value="el">Ελληνικά 🇬🇷</option>
-                    <option value="es">Español 🇪🇸</option>
-                    <option value="de">Deutsch 🇩🇪</option>
-                    <option value="pt">Português 🇵🇹</option>
-                </select>
-            </div>
-            <div class="pref-pill">
-                <span class="pref-icon">📊</span>
-                <select id="global-level-select">
-                    <option value="starter">A1 (Starter)</option>
-                    <option value="elementary">A2 (Elementary)</option>
-                    <option value="intermediate">B1 (Intermediate)</option>
-                    <option value="upper-intermediate">B2 (Upper)</option>
-                    <option value="advanced">C1 (Advanced)</option>
-                    <option value="proficiency">C2 (Mastery)</option>
-                </select>
-            </div>
+      <div class="page">
+        <div class="filter-bar fi">
+          <span class="fl">Filter:</span>
+          <button class="fpill active" data-f="all" onclick="setFilter('all',this)">All games</button>
+          <button class="fpill" data-f="solo" onclick="setFilter('solo',this)">Solo</button>
+          <button class="fpill" data-f="group" onclick="setFilter('group',this)">With friends</button>
+          <button class="fpill" data-f="speaking" onclick="setFilter('speaking',this)">Speaking</button>
+          <button class="fpill" data-f="vocab" onclick="setFilter('vocab',this)">Vocabulary</button>
+          <button class="fpill" data-f="mystery" onclick="setFilter('mystery',this)">Mystery</button>
         </div>
 
-        <!-- Filter Bar -->
-        <div class="filter-bar">
-            <span class="fl">Filter:</span>
-            <button class="fpill active" data-f="all">All games</button>
-            <button class="fpill" data-f="solo">Solo</button>
-            <button class="fpill" data-f="group">With friends</button>
-            <button class="fpill" data-f="speaking">Speaking</button>
-            <button class="fpill" data-f="vocab">Vocabulary</button>
-            <button class="fpill" data-f="mystery">Mystery</button>
+        <!-- SPEAKING -->
+        <div class="sec-title fi">🗣️ Speaking & Fluency <span>4 games</span></div>
+        <div class="game-grid fi" id="grid-speaking">
+          <div class="gc" data-tags="speaking solo group" style="--card-accent:var(--teal);--card-bg:var(--teal-light)" onclick="openGame('fluency')">
+            <div class="gc-top"><div class="gc-icon">🗣️</div><div class="gc-name">Fluency Flow</div></div>
+            <div class="gc-desc">Spin for a random topic and speak for 1–5 minutes without stopping. Flow, not perfection.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Speaking</span></div><button class="gc-play" onclick="event.stopPropagation();openGame('fluency')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="speaking group" style="--card-accent:var(--coral);--card-bg:var(--coral-light)" onclick="openGame('battle')">
+            <div class="gc-top"><div class="gc-icon">⚖️</div><div class="gc-name">Battle of Wits</div></div>
+            <div class="gc-desc">Two topics, two sides. Build your arguments and debate in the language you're learning.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag multi">Group</span><span class="gtag">Speaking</span><span class="gtag">B1+</span></div><button class="gc-play" style="background:var(--coral)" onclick="event.stopPropagation();openGame('battle')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="speaking solo group" style="--card-accent:var(--plum);--card-bg:var(--plum-light)" onclick="openGame('opinion')">
+            <div class="gc-top"><div class="gc-icon">🏟️</div><div class="gc-name">Opinion Arena</div></div>
+            <div class="gc-desc">Agree or disagree with a statement, then defend your view. Real opinions, real language.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">A2+</span></div><button class="gc-play" style="background:var(--plum)" onclick="event.stopPropagation();openGame('opinion')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="speaking solo group" style="--card-accent:var(--rose);--card-bg:var(--rose-light)" onclick="openGame('critic')">
+            <div class="gc-top"><div class="gc-icon">🎭</div><div class="gc-name">Critic's Corner</div></div>
+            <div class="gc-desc">A famous quote appears. What does it mean to you? Deep discussion for advanced levels.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B2+</span></div><button class="gc-play" style="background:var(--rose)" onclick="event.stopPropagation();openGame('critic')">▶ Play</button></div>
+          </div>
         </div>
 
-        <!-- Section: Speaking -->
-        <div class="sec-title">🗣️ Speaking & Fluency <span>5 games</span></div>
-        <div class="game-grid" id="grid-speaking">
-            <!-- Fluency Flow -->
-            <div class="gc game-card-lobby" data-game="fluency-flow" data-tags="speaking solo group" style="--card-accent:var(--teal);--card-bg:var(--teal-light)" onclick="openGameSheet('Fluency Flow', '🗣️', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🗣️</div><div class="gc-name">Fluency Flow</div></div>
-                <div class="gc-desc">Spin for a random topic and speak for 1–3 minutes without stopping. Flow, not perfection.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Fluency Flow', '🗣️', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Opinion Arena -->
-            <div class="gc game-card-lobby" data-game="opinion-arena" data-tags="speaking solo group" style="--card-accent:var(--plum);--card-bg:var(--plum-light)" onclick="openGameSheet('Opinion Arena', '🏟️', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🏟️</div><div class="gc-name">Opinion Arena</div></div>
-                <div class="gc-desc">Agree or disagree with a statement, then defend your view. Real opinions, real language.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Opinion Arena', '🏟️', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Battle of Wits -->
-            <div class="gc game-card-lobby" data-game="battle-of-wits" data-tags="speaking solo group" style="--card-accent:var(--coral);--card-bg:var(--coral-light)" onclick="openGameSheet('Battle of Wits', '⚖️', 'solo')">
-                <div class="gc-top"><div class="gc-icon">⚖️</div><div class="gc-name">Battle of Wits</div></div>
-                <div class="gc-desc">Two topics, two sides. Build your arguments and debate in the language you're learning.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag multi">Group</span><span class="gtag">B2+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Battle of Wits', '⚖️', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Story Chain -->
-            <div class="gc game-card-lobby" data-game="story-chain" data-tags="speaking solo group" style="--card-accent:var(--green);--card-bg:var(--green-light)" onclick="openGameSheet('Story Chain', '🃏', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🃏</div><div class="gc-name">Story Chain</div></div>
-                <div class="gc-desc">Collaboratively build a story while sneaking in secret words. Don't get caught!</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Story Chain', '🃏', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Critic's Corner -->
-            <div class="gc game-card-lobby" data-game="critics-corner" data-tags="speaking solo group" style="--card-accent:var(--rose);--card-bg:var(--rose-light)" onclick="openGameSheet('Critic\'s Corner', '🎭', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🎭</div><div class="gc-name">Critic's Corner</div></div>
-                <div class="gc-desc">A famous quote appears. What does it mean to you? Deep discussion for advanced levels.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">C1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Critic\'s Corner', '🎭', 'solo')">▶ Play</button>
-                </div>
-            </div>
+        <!-- MYSTERY -->
+        <div class="sec-title fi">🕵️ Mystery & Guesses <span>2 games</span></div>
+        <div class="game-grid fi" id="grid-mystery">
+          <div class="gc" data-tags="speaking group mystery" style="--card-accent:var(--gold);--card-bg:var(--gold-light)" onclick="openGame('action')">
+            <div class="gc-top"><div class="gc-icon">🎭</div><div class="gc-name">Action Hero</div></div>
+            <div class="gc-desc">Hold the phone to your forehead. Others describe the word — you guess. A crowd favourite.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag multi">Group</span><span class="gtag mystery">Mystery</span></div><button class="gc-play" style="background:var(--gold)" onclick="event.stopPropagation();openGame('action')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="speaking solo group mystery" style="--card-accent:var(--blue);--card-bg:var(--blue-light)" onclick="openGame('identity')">
+            <div class="gc-top"><div class="gc-icon">👤</div><div class="gc-name">Identity Mystery</div></div>
+            <div class="gc-desc">A person or profession is described. Ask yes/no questions to uncover who it is.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag mystery">Mystery</span></div><button class="gc-play" style="background:var(--blue)" onclick="event.stopPropagation();openGame('identity')">▶ Play</button></div>
+          </div>
         </div>
 
-        <!-- Section: Mystery -->
-        <div class="sec-title">🕵️ Mystery & Guesses <span>3 games</span></div>
-        <div class="game-grid" id="grid-mystery">
-            <!-- Action Hero -->
-            <div class="gc game-card-lobby" data-game="action-hero" data-tags="mystery solo group speaking" style="--card-accent:var(--gold);--card-bg:var(--gold-light)" onclick="openGameSheet('Action Hero', '🎭', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🎭</div><div class="gc-name">Action Hero</div></div>
-                <div class="gc-desc">Hold the phone to your forehead. Others describe the word — you guess. A crowd favourite.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag multi">Group</span><span class="gtag">A1+</span><span class="gtag">Mystery</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Action Hero', '🎭', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Identity Mystery -->
-            <div class="gc game-card-lobby" data-game="guess-who" data-tags="mystery solo group speaking" style="--card-accent:var(--blue);--card-bg:var(--blue-light)" onclick="openGameSheet('Identity Mystery', '👤', 'solo')">
-                <div class="gc-top"><div class="gc-icon">👤</div><div class="gc-name">Identity Mystery</div></div>
-                <div class="gc-desc">A person or profession is described. Ask yes/no questions to uncover who it is.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">A2+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Identity Mystery', '👤', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Object Quest -->
-            <div class="gc game-card-lobby" data-game="guess-what" data-tags="mystery solo group" style="--card-accent:var(--navy);--card-bg:var(--navy-light)" onclick="openGameSheet('Object Quest', '📦', 'solo')">
-                <div class="gc-top"><div class="gc-icon">📦</div><div class="gc-name">Object Quest</div></div>
-                <div class="gc-desc">Identify the object through descriptive clues and Yes/No questions. Great for vocab.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">A1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Object Quest', '📦', 'solo')">▶ Play</button>
-                </div>
-            </div>
+        <!-- VOCAB -->
+        <div class="sec-title fi">📖 Vocabulary <span>2 games</span></div>
+        <div class="game-grid fi" id="grid-vocab">
+          <div class="gc" data-tags="vocab solo group" style="--card-accent:var(--teal);--card-bg:var(--teal-light)" onclick="openGame('wordlinker')">
+            <div class="gc-top"><div class="gc-icon">🔗</div><div class="gc-name">Word Linker</div></div>
+            <div class="gc-desc">Find the word that connects the group — or spot the odd one out. Vocabulary in context.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Vocab</span></div><button class="gc-play" onclick="event.stopPropagation();openGame('wordlinker')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="vocab solo group" style="--card-accent:var(--plum);--card-bg:var(--plum-light)" onclick="openGame('lastletter')">
+            <div class="gc-top"><div class="gc-icon">🔤</div><div class="gc-name">Last Letter</div></div>
+            <div class="gc-desc">Each new word must start with the last letter of the previous word. Keep the chain going!</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Vocab</span></div><button class="gc-play" style="background:var(--plum)" onclick="event.stopPropagation();openGame('lastletter')">▶ Play</button></div>
+          </div>
         </div>
+      </div>
 
-        <!-- Section: Vocabulary -->
-        <div class="sec-title">📖 Vocabulary & Logic <span>6 games</span></div>
-        <div class="game-grid" id="grid-vocab">
-            <!-- Word Linker -->
-            <div class="gc game-card-lobby" data-game="word-linker" data-tags="vocab solo group" style="--card-accent:var(--teal);--card-bg:var(--teal-light)" onclick="openGameSheet('Word Linker', '🔗', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🔗</div><div class="gc-name">Word Linker</div></div>
-                <div class="gc-desc">Find the word that connects the group — or spot the odd one out. Lateral thinking.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Word Linker', '🔗', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Last Letter -->
-            <div class="gc game-card-lobby" data-game="last-letter" data-tags="vocab solo group" style="--card-accent:var(--plum);--card-bg:var(--plum-light)" onclick="openGameSheet('Last Letter', '🔤', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🔤</div><div class="gc-name">Last Letter</div></div>
-                <div class="gc-desc">Each new word must start with the last letter of the previous word. Keep the chain going!</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">A1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Last Letter', '🔤', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Emoji Odyssey -->
-            <div class="gc game-card-lobby" data-game="emoji-odyssey" data-tags="vocab solo group" style="--card-accent:var(--coral);--card-bg:var(--coral-light)" onclick="openGameSheet('Emoji Odyssey', '📖', 'solo')">
-                <div class="gc-top"><div class="gc-icon">📖</div><div class="gc-name">Emoji Odyssey</div></div>
-                <div class="gc-desc">Guess the word or phrase from emojis. Great for vocabulary association and fun.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">A1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Emoji Odyssey', '📖', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Lucky Numbers -->
-            <div class="gc game-card-lobby" data-game="lucky-numbers" data-tags="vocab solo group" style="--card-accent:var(--gold);--card-bg:var(--gold-light)" onclick="openGameSheet('Lucky Numbers', '🔢', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🔢</div><div class="gc-name">Lucky Numbers</div></div>
-                <div class="gc-desc">Interactive Bingo. Listen and mark your board. Perfect for numbers and alphabets.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">A1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Lucky Numbers', '🔢', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Cosy Crossword -->
-            <div class="gc game-card-lobby" data-game="crossword" data-tags="vocab solo group" style="--card-accent:var(--green);--card-bg:var(--green-light)" onclick="openGameSheet('Cosy Crossword', '🧩', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🧩</div><div class="gc-name">Cosy Crossword</div></div>
-                <div class="gc-desc">Solve the puzzle using definitions and emojis. A classic challenge for all levels.</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag">A2+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Cosy Crossword', '🧩', 'solo')">▶ Play</button>
-                </div>
-            </div>
-            <!-- Hot Seat -->
-            <div class="gc game-card-lobby" data-game="hot-seat" data-tags="vocab solo group" style="--card-accent:var(--rose);--card-bg:var(--rose-light)" onclick="openGameSheet('Hot Seat', '🎯', 'solo')">
-                <div class="gc-top"><div class="gc-icon">🎯</div><div class="gc-name">Hot Seat</div></div>
-                <div class="gc-desc">Rapid-fire vocabulary. Can you answer everything before the timer runs out?</div>
-                <div class="gc-foot">
-                    <div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B1+</span></div>
-                    <button class="gc-play" onclick="event.stopPropagation();openGameSheet('Hot Seat', '🎯', 'solo')">▶ Play</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ══════════════════════════════════
-         MODALS (RESTORED & STYLED)
-    ══════════════════════════════════ -->
-
-    <!-- Charades (Action Hero) -->
-    <div id="charades-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="charades_title">Action Hero 🎭</h2>
-            <details class="help-details"><summary data-translate-key="game_guide_title">How to play</summary><div class="info-content" data-translate-key="charades_guide_text">One player holds the phone above their head...</div></details>
-            <div id="charades-setup">
-                <div class="setup-group"><label>Language</label><select id="charades-lang" class="pill-input game-lang"><option value="en">English</option><option value="fr">Français</option></select></div>
-                <div class="setup-group"><label>Level</label><select id="charades-level" class="pill-input game-level"><option value="all">All</option></select></div>
-                <div class="setup-group"><label>Timer</label><select id="charades-timer-duration" class="pill-input"><option value="60">60s</option></select></div>
-                <input type="hidden" id="charades-theme" class="game-theme" value="all"><input type="hidden" class="game-seed">
-                <button id="start-charades-game-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div id="charades-gameplay" style="display: none;">
-                <div id="charades-timer" class="ah-word" style="font-size: 2rem;">1:00</div>
-                <div class="game-main-card"><div id="charades-emoji" class="game-emoji-large">🎭</div><div id="charades-word" class="ah-word">Loading...</div></div>
-                <div style="display: flex; gap: 10px;"><button id="charades-correct-btn" class="cta-button primary" style="background:var(--green); flex: 1;">Correct ✅</button><button id="charades-incorrect-btn" class="cta-button secondary" style="flex: 1;">Skip</button></div>
-            </div>
-            <button id="close-charades-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Identity Mystery (Guess Who) -->
-    <div id="guess-who-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_guess_who">Identity Mystery 👤</h2>
-            <div class="game-setup">
-                <div class="setup-group"><label>Language</label><select class="pill-input game-lang"><option value="en">English</option></select></div>
-                <button id="start-guess-who-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div class="game-play" style="display: none;">
-                <div class="game-main-card"><div class="target-word ah-word">...</div><div class="hint-display"></div></div>
-                <button id="guess-who-next-btn" class="cta-button primary" style="width: 100%;">Next Person</button>
-            </div>
-            <button id="close-guess-who-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Object Quest (Guess What) -->
-    <div id="guess-what-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_guess_what">Object Quest 📦</h2>
-            <div class="game-setup">
-                <div class="setup-group"><label>Language</label><select class="pill-input game-lang"><option value="en">English</option></select></div>
-                <button id="start-guess-what-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div class="game-play" style="display: none;">
-                <div class="game-main-card"><div class="target-word ah-word">...</div><div class="hint-display"></div></div>
-                <button id="guess-what-next-btn" class="cta-button primary" style="width: 100%;">Next Object</button>
-            </div>
-            <button id="close-guess-what-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Lucky Numbers (Bingo) -->
-    <div id="bingo-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_bingo">Lucky Numbers 🔢</h2>
-            <div id="bingo-setup">
-                <div class="setup-group"><label>Language</label><select id="bingo-lang" class="pill-input"><option value="en">English</option></select></div>
-                <div style="display: flex; gap: 10px;"><button id="start-bingo-caller-btn" class="cta-button primary" style="flex: 1;">Caller 📣</button><button id="start-bingo-player-btn" class="cta-button primary" style="flex: 1;">Player 🃏</button></div>
-            </div>
-            <div id="bingo-caller-area" style="display: none; text-align: center;">
-                <div id="bingo-last-called" class="ah-word" style="font-size: 5rem;">---</div>
-                <button id="bingo-call-next-btn" class="cta-button primary">Call Next</button>
-            </div>
-            <div id="bingo-player-area" style="display: none;">
-                <div id="bingo-player-last-called" class="ah-word">---</div>
-                <div id="bingo-player-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;"></div>
-            </div>
-            <button id="close-bingo-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Fluency Flow (Talk Talk) -->
-    <div id="talk-talk-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="talk_talk_title">Fluency Flow 🗣️</h2>
-            <div class="game-setup">
-                <div class="setup-group"><label>Language</label><select id="talk-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-talk-btn" class="cta-button primary" style="width: 100%;">Spin for Topic! 🎡</button>
-            </div>
-            <div class="game-play" style="display: none;">
-                <div id="talk-timer" class="ah-word" style="font-size: 2rem;">3:00</div>
-                <div class="game-main-card"><div id="talk-topic-display" class="gc-name" style="font-size: 1.5rem;">Topic</div></div>
-                <button id="next-talk-btn" class="cta-button primary" style="width: 100%;">Spin Again! 🎡</button>
-            </div>
-            <button id="close-talk-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Opinion Arena -->
-    <div id="opinion-arena-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="opinion_arena_title">Opinion Arena 🏟️</h2>
-            <div class="game-setup">
-                <div class="setup-group"><label>Language</label><select id="opinion-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-opinion-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div class="game-play" style="display: none;">
-                <div id="opinion-timer" class="ah-word" style="font-size: 2rem;">2:00</div>
-                <div class="game-main-card"><div id="opinion-statement-display" style="font-weight: 700;">Loading...</div></div>
-                <button id="next-opinion-btn" class="cta-button primary" style="width: 100%;">Next Statement</button>
-            </div>
-            <button id="close-opinion-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Battle of Wits (Debates) -->
-    <div id="debates-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="debates_title">Battle of Wits ⚖️</h2>
-            <div class="game-setup">
-                <div class="setup-group"><label>Language</label><select id="debates-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-debates-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div class="game-play" style="display: none;">
-                <div id="debates-timer" class="ah-word" style="font-size: 2rem;">2:00</div>
-                <div id="debate-topic" class="gc-name">Topic</div>
-                <div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; margin: 1rem 0;">
-                    <div class="game-main-card" style="padding: 1rem;"><div id="side-a-name">Side A</div></div>
-                    <div>VS</div>
-                    <div class="game-main-card" style="padding: 1rem;"><div id="side-b-name">Side B</div></div>
-                </div>
-                <button id="next-debate-btn" class="cta-button primary" style="width: 100%;">Next Topic</button>
-            </div>
-            <button id="close-debates-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Emoji Odyssey -->
-    <div id="emoji-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_emoji">Emoji Odyssey 📖</h2>
-            <div id="emoji-setup">
-                <div class="setup-group"><label>Language</label><select id="emoji-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-emoji-game-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div id="emoji-gameplay" style="display: none;">
-                <div id="emoji-display-large" style="font-size: 4rem; margin-bottom: 1rem;">🍎</div>
-                <div id="emoji-options" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;"></div>
-            </div>
-            <button id="close-emoji-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Cosy Crossword -->
-    <div id="crossword-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content" style="max-width: 800px;">
-            <h2 data-translate-key="game_crossword">Cosy Crossword 🧩</h2>
-            <div id="crossword-setup">
-                <div class="setup-group"><label>Language</label><select id="crossword-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-crossword-game-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div id="crossword-gameplay" style="display: none;">
-                <div id="crossword-grid-container" style="margin-bottom: 1rem;"></div>
-                <div id="crossword-clue-display" class="help-details" style="padding: 10px; font-weight: 700;">Select a cell</div>
-                <button id="crossword-check-btn" class="cta-button primary" style="width: 100%;">Check ✅</button>
-            </div>
-            <button id="close-crossword-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Word Linker -->
-    <div id="linker-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_word_association">Word Linker 🔗</h2>
-            <div id="linker-setup">
-                <div class="setup-group"><label>Language</label><select id="linker-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-linker-game-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div id="linker-gameplay" style="display: none;">
-                <div id="linker-clues" style="display: flex; gap: 8px; justify-content: center; margin-bottom: 1rem;"></div>
-                <div id="linker-options" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;"></div>
-            </div>
-            <button id="close-linker-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Last Letter -->
-    <div id="last-letter-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_last_letter">Last Letter 🔤</h2>
-            <div id="last-letter-setup">
-                <div class="setup-group"><label>Language</label><select id="last-letter-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-last-letter-game-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div id="last-letter-gameplay" style="display: none;">
-                <div id="last-letter-history" class="help-details" style="height: 100px; overflow-y: auto; padding: 10px; text-align: left;"></div>
-                <div style="margin: 1rem 0;">Next letter: <span id="target-letter" class="ah-word" style="font-size: 2rem;">?</span></div>
-                <input type="text" id="last-letter-input" class="pill-input" placeholder="Type here...">
-                <button id="submit-last-letter-btn" class="cta-button primary" style="width: 100%; margin-top: 10px;">Submit</button>
-            </div>
-            <button id="close-last-letter-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Hot Seat -->
-    <div id="hot-seat-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_hot_seat">Hot Seat 🎯</h2>
-            <div id="hs-setup">
-                <div class="setup-group"><label>Language</label><select id="hs-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-hot-seat-game-btn" onclick="hotSeatStart()" class="cta-button primary" style="width: 100%;">Start 🔥</button>
-            </div>
-            <div id="hot-seat-area"></div>
-            <button class="cta-button secondary" onclick="document.getElementById('hot-seat-modal').style.display='none'" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Story Chain -->
-    <div id="story-chain-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="game_story_chain">Story Chain 🃏</h2>
-            <div id="sc-setup">
-                <div class="setup-group"><label>Language</label><select id="sc-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-story-chain-game-btn" onclick="storyChainStart()" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div id="sc-input-area" style="display: none;">
-                <div id="story-display" class="help-details" style="padding: 10px; text-align: left; min-height: 50px;"></div>
-                <textarea id="sc-sentence" class="pill-input" rows="3" placeholder="Next sentence..."></textarea>
-                <button onclick="storyChainAdd()" class="cta-button primary" style="width: 100%; margin-top: 10px;">Add →</button>
-            </div>
-            <button class="cta-button secondary" onclick="document.getElementById('story-chain-modal').style.display='none'" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Critic's Corner -->
-    <div id="critics-corner-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content">
-            <h2 data-translate-key="critics_corner_title">Critic's Corner 🎭</h2>
-            <div class="game-setup">
-                <div class="setup-group"><label>Language</label><select id="critics-lang" class="pill-input"><option value="en">English</option></select></div>
-                <button id="start-critics-btn" class="cta-button primary" style="width: 100%;">Start 🚀</button>
-            </div>
-            <div class="game-play" style="display: none;">
-                <div id="critics-timer" class="ah-word" style="font-size: 2rem;">2:00</div>
-                <div class="game-main-card"><div id="critics-quote-display" style="font-style: italic;">Loading...</div></div>
-                <button id="next-critics-btn" class="cta-button primary" style="width: 100%;">Next Quote</button>
-            </div>
-            <button id="close-critics-btn" class="cta-button secondary" style="margin-top: 1rem; width: 100%;">Close</button>
-        </div>
-    </div>
-
-    <!-- Shared Game Setup Bottom Sheet (Placeholder/Hidden) -->
-    <div id="game-setup-sheet" style="display:none">
-        <div class="gss-options" id="gss-lang-options"></div>
-        <div class="gss-options" id="gss-level-options"></div>
-        <div id="gss-theme-options"></div>
-        <div id="gss-type-options"></div>
-        <div id="gss-bingo-content-options"></div>
-        <div id="gss-timer-options"></div>
-        <button class="gss-start"></button>
-    </div>
-
-    <!-- Hidden standard inputs required by shared.js/mobile.js -->
-    <div style="display:none">
-        <select class="game-level"></select>
-        <select class="game-theme"></select>
-        <select class="game-lang"></select>
-        <input type="checkbox" class="solo-mode-check">
-        <input type="hidden" class="game-seed">
-    </div>
-
-    <footer>
+      <footer>
         <div class="footer-brand">
             <img src="../images/cosylanguages.png" alt="COSYlanguages">
             <span>COSYlanguages</span>
@@ -725,8 +402,24 @@
         </div>
         <div class="footer-copy">© 2025 COSYlanguages — All rights reserved</div>
     </footer>
+  </div><!-- /hub -->
 
-    <!-- Scripts -->
+  <!-- ══════════════════════════════════
+       GAME ENGINE OVERLAY
+  ══════════════════════════════════ -->
+  <div class="game-overlay" id="game-overlay">
+    <div class="go-topbar">
+      <button class="go-back" onclick="closeGame()">← Back to games</button>
+      <div>
+        <div class="go-title" id="go-title">Game</div>
+        <div class="go-meta" id="go-meta"></div>
+      </div>
+      <div id="go-topbar-right"></div>
+    </div>
+    <div class="go-body" id="go-body"></div>
+  </div>
+
+  <!-- Scripts -->
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/emojis.js"></script>
     <script src="../js/data/numbers.js"></script>
@@ -753,21 +446,10 @@
     <script src="../js/translate.js"></script>
     <script src="../js/games/utils/shared.js"></script>
 
-    <!-- Game Engines -->
-    <script src="../js/games/charades.js"></script>
-    <script src="../js/games/emoji_odyssey.js"></script>
-    <script src="../js/games/word_linker.js"></script>
-    <script src="../js/games/crossword.js"></script>
-    <script src="../js/games/bingo.js"></script>
-    <script src="../js/games/speaking_games.js"></script>
-    <script src="../js/games/last_letter.js"></script>
-    <script src="../js/games/hot_seat.js"></script>
-    <script src="../js/games/story_chain.js"></script>
-    <script src="../js/games/guess_games.js"></script>
-
-    <script src="../js/mobile.js"></script>
     <script src="../js/games/loader.js"></script>
     <script src="../js/script.js"></script>
+
+    <script src="../js/games/unified-engine.js"></script>
 
     <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>
 </body>

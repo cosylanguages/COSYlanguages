@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#FAF7F2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
     <script src="js/cosy-mode.js"></script>
     <script>
@@ -24,30 +24,35 @@
 
     <style>
     :root {
-      --cream: #FAF7F2;
+      --sage: #6b8f71;
+      --sage-dark: #4a6b50;
+      --sage-soft: #8fb193;
+      --sage-light: #e8f0e9;
+      --sage-mist: #f0f5f1;
+      --cream: #fdfcf8;
       --warm-white: #FFFEFB;
-      --ink: #1C1917;
-      --ink-muted: #78716C;
-      --ink-faint: #A8A29E;
-      --border: rgba(28,25,23,.10);
-      --border-hover: rgba(28,25,23,.22);
+      --ink: #2a2a2a;
+      --ink-muted: #6b6b6b;
+      --ink-faint: #a8a29e;
+      --border: rgba(74,107,80,.12);
+      --border-hover: rgba(74,107,80,.25);
 
-      --teal: #2D7D6F;
-      --teal-light: #E6F4F1;
-      --coral: #C4522A;
-      --coral-light: #FAEEE8;
-      --gold: #B07D2B;
-      --gold-light: #FBF3E2;
-      --plum: #6B3F7C;
-      --plum-light: #F2ECF7;
-      --blue: #2E5FA3;
-      --blue-light: #E8EEF8;
-      --green: #3A7A4A;
-      --green-light: #EAF4EC;
-      --rose: #A63C5E;
-      --rose-light: #F9EBF0;
-      --navy: #2B3E6B;
-      --navy-light: #E8ECF5;
+      --teal: var(--sage);
+      --teal-light: var(--sage-light);
+      --coral: #c4522a;
+      --coral-light: #faeee8;
+      --gold: #e8a838;
+      --gold-light: #fff8e7;
+      --plum: #7a5c3a;
+      --plum-light: #f5ede0;
+      --blue: #3a5298;
+      --blue-light: #eef1fb;
+      --green: #4a6b50;
+      --green-light: #e5f4ec;
+      --rose: #a32d2d;
+      --rose-light: #fcebeb;
+      --navy: #1e2f6b;
+      --navy-light: #e8ecf5;
 
       --r-sm: 8px;
       --r-md: 14px;
@@ -58,10 +63,10 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Nunito', 'DM Sans', sans-serif;
       background: var(--cream);
       color: var(--ink);
-      line-height: 1.6;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
     a { color: inherit; text-decoration: none; }
@@ -70,9 +75,24 @@
 
     /* ── HERO ── */
     .hero {
-      padding: 6rem 2rem 5rem;
-      max-width: 1100px; margin: 0 auto;
+      padding: 7rem 2rem 7rem;
+      position: relative; overflow: hidden;
+      background:
+        radial-gradient(ellipse at 80% 20%, rgba(143,177,147,.35) 0%, transparent 55%),
+        radial-gradient(ellipse at 15% 80%, rgba(232,168,56,.18) 0%, transparent 50%),
+        linear-gradient(160deg, var(--sage-dark) 0%, var(--sage) 100%);
+      color: #fff;
+    }
+    .hero::before {
+      content: '🏡';
+      position: absolute; right: 3%; top: -1rem;
+      font-size: 18rem; opacity: .06; line-height: 1;
+      pointer-events: none; user-select: none;
+    }
+    .hero-inner {
+      max-width: 1040px; margin: 0 auto;
       display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center;
+      position: relative; z-index: 5;
     }
     .hero-tag {
       display: inline-block;
@@ -94,22 +114,22 @@
       line-height: 1.1;
       margin-bottom: 1.2rem;
     }
-    .hero h1 em { font-style: italic; font-weight: 300; color: var(--coral); }
-    .hero-sub { color: var(--ink-muted); font-size: 1.1rem; margin-bottom: 2rem; max-width: 540px; line-height: 1.7; }
+    .hero h1 em { font-style: italic; font-weight: 300; color: #ffe09a; }
+    .hero-sub { color: rgba(255,255,255,.9); font-size: 1.1rem; margin-bottom: 2rem; max-width: 540px; line-height: 1.7; }
 
     .hero-teacher {
       display: flex; align-items: flex-start; gap: 12px;
-      background: var(--warm-white); border: 1px solid var(--border);
+      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
       padding: 1rem 1.2rem; border-radius: var(--r-md);
-      font-size: .88rem; color: var(--ink-muted); margin-bottom: 2.5rem;
+      font-size: .88rem; color: rgba(255,255,255,.9); margin-bottom: 2.5rem;
     }
     .hero-teacher span:first-child { font-size: 1.3rem; }
 
     .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
-    .btn-primary { background: var(--ink); color: #fff; font-weight: 700; padding: 14px 32px; border-radius: 100px; transition: all .2s; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(28,25,23,.15); }
-    .btn-secondary { background: var(--warm-white); border: 1.5px solid var(--border); color: var(--ink-muted); font-weight: 600; padding: 13px 28px; border-radius: 100px; transition: all .2s; }
-    .btn-secondary:hover { border-color: var(--border-hover); color: var(--ink); }
+    .btn-primary { background: #fff; color: var(--sage-dark); font-weight: 800; padding: 14px 32px; border-radius: 100px; transition: all .2s; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; border: none; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,.15); }
+    .btn-secondary { background: rgba(255,255,255,.12); border: 1.5px solid rgba(255,255,255,.4); color: #fff; font-weight: 600; padding: 13px 28px; border-radius: 100px; transition: all .2s; cursor: pointer; }
+    .btn-secondary:hover { background: rgba(255,255,255,.2); }
 
     .hero-right { position: relative; }
     .speak-badge {
@@ -125,7 +145,8 @@
     .sb-desc { font-size: .95rem; color: var(--ink-muted); line-height: 1.6; }
 
     .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
-    .hstat { background: var(--warm-white); border: 1px solid var(--border); padding: 1.2rem; border-radius: var(--r-lg); text-align: center; }
+    .hstat { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); padding: 1.2rem; border-radius: var(--r-lg); text-align: center; color: #fff; }
+    .hstat .hs-num { color: #ffe09a; }
     .hs-num { font-family: 'Fraunces', serif; font-size: 1.5rem; font-weight: 600; display: block; line-height: 1.2; color: var(--teal); }
     .hs-lbl { font-size: .75rem; color: var(--ink-faint); font-weight: 600; text-transform: uppercase; }
 
@@ -275,32 +296,34 @@
 <nav id="cosy-nav"></nav>
 
 <header class="hero">
-  <div class="hero-left">
-    <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
-    <h1 data-translate-key="hero_h1_speak">Learn a language with <br>teachers who <em>love</em> what they teach.</h1>
-    <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always — because the only way to become fluent is to open your mouth.</p>
-    <div class="hero-teacher">
-      <span>🎓</span>
-      <span data-translate-key="hero_teacher_note">Our teachers aren't just teachers — we're active language learners ourselves. We know exactly what it feels like to struggle, progress and finally feel fluent.</span>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
+      <h1 data-translate-key="hero_h1_speak">Learn a language with <br>teachers who <em>love</em> what they teach.</h1>
+      <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always — because the only way to become fluent is to open your mouth.</p>
+      <div class="hero-teacher">
+        <span>🎓</span>
+        <span data-translate-key="hero_teacher_note">Our teachers aren't just teachers — we're active language learners ourselves. We know exactly what it feels like to struggle, progress and finally feel fluent.</span>
+      </div>
+      <div class="hero-ctas">
+        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa">Chat on WhatsApp</a>
+        <a href="#courses" class="btn-secondary" data-translate-key="hero_cta_courses">Explore courses →</a>
+        <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_home_desc') : 'Add COSYlanguages for instant access.'), url)" class="btn-secondary">📲 Pin to Home</button>
+      </div>
     </div>
-    <div class="hero-ctas">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa">Chat on WhatsApp</a>
-      <a href="#courses" class="btn-secondary" data-translate-key="hero_cta_courses">Explore courses →</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_home_desc') : 'Add COSYlanguages for instant access.'), url)" class="btn-secondary">📲 Pin to Home</button>
-    </div>
-  </div>
 
-  <div class="hero-right">
-    <div class="speak-badge">
-      <span class="sb-label" data-translate-key="hero_badge_label">Speaking-first approach</span>
-      <div class="sb-title" data-translate-key="hero_badge_title">40% of every lesson is speaking — from your very first session.</div>
-      <div class="sb-desc" data-translate-key="hero_badge_desc">Grammar and vocabulary are tools. Speaking is the goal. You say your name and your job in lesson one — and you never stop.</div>
-    </div>
-    <div class="hero-stats">
-      <div class="hstat"><span class="hs-num">5</span><span class="hs-lbl" data-translate-key="hero_stat_languages">Languages</span></div>
-      <div class="hstat"><span class="hs-num">A1→C2</span><span class="hs-lbl" data-translate-key="hero_stat_levels">All levels</span></div>
-      <div class="hstat"><span class="hs-num">3</span><span class="hs-lbl" data-translate-key="hero_stat_courses">Course types</span></div>
-      <div class="hstat"><span class="hs-num">1-to-1</span><span class="hs-lbl" data-translate-key="hero_stat_1to1">Every lesson</span></div>
+    <div class="hero-right">
+      <div class="speak-badge">
+        <span class="sb-label" data-translate-key="hero_badge_label">Speaking-first approach</span>
+        <div class="sb-title" data-translate-key="hero_badge_title">40% of every lesson is speaking — from your very first session.</div>
+        <div class="sb-desc" data-translate-key="hero_badge_desc">Grammar and vocabulary are tools. Speaking is the goal. You say your name and your job in lesson one — and you never stop.</div>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span class="hs-num">5</span><span class="hs-lbl" data-translate-key="hero_stat_languages">Languages</span></div>
+        <div class="hstat"><span class="hs-num">A1→C2</span><span class="hs-lbl" data-translate-key="hero_stat_levels">All levels</span></div>
+        <div class="hstat"><span class="hs-num">6</span><span class="hs-lbl" data-translate-key="hero_stat_courses">Course types</span></div>
+        <div class="hstat"><span class="hs-num">1-to-1</span><span class="hs-lbl" data-translate-key="hero_stat_1to1">Every lesson</span></div>
+      </div>
     </div>
   </div>
 </header>
@@ -379,6 +402,48 @@
         <a href="portal/index.html" class="cr-link" data-translate-key="course_exam_cta">See exams →</a>
       </div>
     </div>
+      <!-- Travelling -->
+      <div class="course-row reveal" style="--c:var(--green); --c-light:var(--green-light)">
+        <div class="cr-icon">✈️</div>
+        <div class="cr-body">
+          <div class="cr-top">
+            <span class="cr-title" data-translate-key="course_travelling">Travelling Course</span>
+            <span class="cr-badge" data-translate-key="course_travelling_badge">A1 → B1 · Survival</span>
+            <span class="cr-speak">🗺️ Journey focused</span>
+          </div>
+          <p class="cr-desc" data-translate-key="course_travelling_desc">Learn to navigate airports, order in restaurants, and have meaningful chats with locals. Focused on essential scenarios.</p>
+          <div class="cr-sessions">⏱️ 45 min sessions &nbsp;·&nbsp; Flexible schedule</div>
+          <a href="portal/index.html" class="cr-link" data-translate-key="course_travelling_cta">Plan your trip →</a>
+        </div>
+      </div>
+      <!-- Professional -->
+      <div class="course-row reveal" style="--c:var(--navy); --c-light:var(--navy-light)">
+        <div class="cr-icon">💼</div>
+        <div class="cr-body">
+          <div class="cr-top">
+            <span class="cr-title" data-translate-key="course_professional">Professional Course</span>
+            <span class="cr-badge" data-translate-key="course_professional_badge">B1 → C2 · Career</span>
+            <span class="cr-speak">🤝 Business oriented</span>
+          </div>
+          <p class="cr-desc" data-translate-key="course_professional_desc">Master interviews, presentations, and emails. Build the confidence to lead meetings and network in your target language.</p>
+          <div class="cr-sessions">⏱️ 60 min sessions &nbsp;·&nbsp; Career growth</div>
+          <a href="portal/index.html" class="cr-link" data-translate-key="course_professional_cta">Boost your career →</a>
+        </div>
+      </div>
+      <!-- Relocation -->
+      <div class="course-row reveal" style="--c:var(--coral); --c-light:var(--coral-light)">
+        <div class="cr-icon">🏡</div>
+        <div class="cr-body">
+          <div class="cr-top">
+            <span class="cr-title" data-translate-key="course_relocation">Relocation Course</span>
+            <span class="cr-badge" data-translate-key="course_relocation_badge">A2 → C1 · Life abroad</span>
+            <span class="cr-speak">📦 Integration first</span>
+          </div>
+          <p class="cr-desc" data-translate-key="course_relocation_desc">Everything you need to live abroad: from renting a flat to understanding local bureaucracy and building a new social circle.</p>
+          <div class="cr-sessions">⏱️ 90 min sessions &nbsp;·&nbsp; Life planning</div>
+          <a href="portal/index.html" class="cr-link" data-translate-key="course_relocation_cta">Start your new life →</a>
+        </div>
+      </div>
   </div>
 
   <div class="group-note reveal">
@@ -530,6 +595,9 @@
           <option value="general" selected data-translate-key="course_general">General Course 📖</option>
           <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
           <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
+          <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
+          <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
+          <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
           <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
         </select>
       </div>
@@ -612,10 +680,11 @@
       <h5 data-translate-key="footer_h5_contact">Contact</h5>
       <a href="https://wa.me/330766784195">WhatsApp 📱</a>
       <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
       <a href="portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
     </div>
   </div>
-  <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020—2026 COSYlanguages — All rights reserved</div>
 </footer>
 
 <script>
