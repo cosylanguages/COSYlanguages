@@ -103,7 +103,19 @@ function logout () {
    ═══════════════════════════════════════════════════════════════ */
 function isActive (href) {
     const path = window.location.pathname;
-    return path.endsWith(href) || (href === 'index.html' && (path.endsWith('/') || path.endsWith('COSYlanguages/'))) ? 'class="active"' : ''
+    const cleanPath = path.replace(/^\/COSYlanguages/, '');
+    const cleanHref = href.split('?')[0].split('#')[0];
+
+    if (cleanHref === 'index.html') {
+        return (cleanPath === '/' || cleanPath === '/index.html' || cleanPath === '') ? 'class="active"' : '';
+    }
+
+    const folder = cleanHref.split('/')[0];
+    if (folder && folder !== 'index.html') {
+        return cleanPath.includes('/' + folder + '/') ? 'class="active"' : '';
+    }
+
+    return path.endsWith(cleanHref) ? 'class="active"' : '';
 }
 
 function navFree () {
@@ -117,7 +129,7 @@ function navFree () {
       <li><a href="${p}index.html" ${isActive('index.html')}>Home</a></li>
       <li><a href="${p}practice/index.html" ${isActive('practice/index.html')}>Practice 💡</a></li>
       <li><a href="${p}games/index.html" ${isActive('games/index.html')}>Games 🎮</a></li>
-      <li><a href="${p}portal/index.html" ${isActive('portal.html')}>My Lessons 🔐</a></li>
+      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>My Lessons 🔐</a></li>
     </ul>
     <div class="nav-right">
       <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank">💬 Contact us</a>
@@ -165,9 +177,9 @@ function navTeacher (teacher) {
     </a>
     <ul class="nav-links">
       <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>👥 Students</a></li>
-      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal.html#assign')}>📋 Assign</a></li>
-      <li><a href="${p}portal/index.html?tab=progress" ${isActive('portal.html#progress')}>📈 Progress</a></li>
-      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal.html#broadcast')}>📣 Broadcast</a></li>
+      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')}>📋 Assign</a></li>
+      <li><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')}>📈 Progress</a></li>
+      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')}>📣 Broadcast</a></li>
     </ul>
     <div class="nav-right">
       <button class="nav-mode-badge teacher" onclick="COSY.showModePanel()">👩‍🏫 Teacher</button>

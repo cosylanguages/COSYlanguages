@@ -15,7 +15,7 @@
                 const cards = document.querySelectorAll('.game-card-lobby');
 
                 cards.forEach(card => {
-                    const tags = card.dataset.tags || '';
+                    const tags = (card.dataset.tags || '').split(' ');
                     if (filter === 'all' || tags.includes(filter)) {
                         card.style.display = 'flex';
                     } else {
