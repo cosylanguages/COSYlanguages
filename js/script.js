@@ -68,14 +68,9 @@
     };
 
     // --- Calculator ---
-    const RATES = {
-        general: { 15: 5, 30: 8, 60: 12, 90: 17, 120: 22 },
-        spoken: { 15: 4, 30: 7, 60: 10, 90: 15, 120: 20 },
-        exam: { 15: 6, 30: 10, 60: 15, 90: 22, 120: 28 },
-        travelling: { 15: 5, 30: 8, 60: 12, 90: 17, 120: 22 },
-        professional: { 15: 6, 30: 10, 60: 15, 90: 22, 120: 28 },
-        relocation: { 15: 6, 30: 9, 60: 14, 90: 20, 120: 26 }
-    };
+    const BASE_DUR = { 15: 5, 30: 10, 60: 20, 90: 30, 120: 40 };
+    const LANG_ADD = { en: 0, fr: 5, it: 5, ru: 10, el: 10 };
+    const TYPE_M = { general: 1.0, spoken: 0.9, exam: 1.2, travelling: 1.0, professional: 1.2, relocation: 1.1 };
     const DISC = { 1: 0, 8: .05, 16: .10, 32: .15 };
     const CUR_R = { EUR: 1, USD: 1.08, RUB: 92 };
     const CUR_S = { EUR: '€', USD: '$', RUB: '₽' };
@@ -119,11 +114,12 @@
         durField.style.pointerEvents = '';
         packField.style.pointerEvents = '';
 
-        const base = (RATES[type] && RATES[type][dur]) ? RATES[type][dur] : (RATES['general'][dur] || 12);
+        const baseVal = (BASE_DUR[dur] || 20);
+        const multiplier = TYPE_M[type] || 1.0;
         const discount = DISC[pack];
         const sym = CUR_S[cur], rate = CUR_R[cur];
 
-        const origBase = base;
+        const origBase = (baseVal * multiplier) + (LANG_ADD[lang] || 0);
         const origTotal = (origBase * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
         const discountedBase = origBase * (1 - discount);
         const discountedSingle = (discountedBase * rate).toFixed(cur === 'RUB' ? 0 : 2);

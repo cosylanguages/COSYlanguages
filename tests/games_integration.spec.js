@@ -40,5 +40,5 @@ test('Price Calculator - Reverted Rates', async ({ page }) => {
 
   // Check total
   const total = page.locator('#calc-total');
-  await expect(total).toHaveText(/€12(\.00)?/);
+  await expect(total).toHaveText(/€20(\.00)?/);
 });
