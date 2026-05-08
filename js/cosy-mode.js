@@ -102,20 +102,27 @@ function logout () {
    4. NAV TEMPLATES
    ═══════════════════════════════════════════════════════════════ */
 function isActive (href) {
-    const path = window.location.pathname;
-    const cleanPath = path.replace(/^\/COSYlanguages/, '');
     const cleanHref = href.split('?')[0].split('#')[0];
+    const path = window.location.pathname;
 
-    if (cleanHref === 'index.html') {
-        return (cleanPath === '/' || cleanPath === '/index.html' || cleanPath === '') ? 'class="active"' : '';
+    // Home page special case (root or index.html not in a subfolder)
+    if (cleanHref === 'index.html' || cleanHref === './index.html') {
+        const isSubfolder = /\/(portal|practice|games)\//.test(path);
+        if (!isSubfolder && (path.endsWith('/') || path.endsWith('index.html'))) return 'class="active"';
     }
 
-    const folder = cleanHref.split('/')[0];
+    // Sub-app matching (e.g. "practice/index.html" matches any path containing "/practice/")
+    const parts = cleanHref.split('/');
+    const folder = parts.find(p => p && p !== '..' && p !== '.');
     if (folder && folder !== 'index.html') {
-        return cleanPath.includes('/' + folder + '/') ? 'class="active"' : '';
+        if (path.includes('/' + folder + '/')) return 'class="active"';
     }
 
-    return path.endsWith(cleanHref) ? 'class="active"' : '';
+    // Direct filename match
+    const filename = parts[parts.length - 1];
+    if (path.endsWith(filename) && path.includes(folder || '')) return 'class="active"';
+
+    return '';
 }
 
 function navFree () {

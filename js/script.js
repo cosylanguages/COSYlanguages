@@ -68,14 +68,16 @@
     };
 
     // --- Calculator ---
-    const RATES = {
-        en: { 15: 5, 30: 10, 60: 20, 90: 30, 120: 40 },
-        fr: { 15: 10, 30: 15, 60: 25, 90: 35, 120: 45 },
-        it: { 15: 10, 30: 15, 60: 25, 90: 35, 120: 45 },
-        ru: { 15: 15, 30: 20, 60: 30, 90: 40, 120: 50 },
-        el: { 15: 15, 30: 20, 60: 30, 90: 40, 120: 50 },
+    const BASE_DUR = { 15: 5, 30: 10, 60: 20, 90: 30, 120: 40 };
+    const LANG_ADD = { en: 0, fr: 5, it: 5, ru: 10, el: 10 };
+    const COURSE_DURS = {
+        spoken: [15, 30],
+        general: [60, 90],
+        professional: [60, 90],
+        relocation: [60, 90],
+        travelling: [60, 90],
+        exam: [120]
     };
-    const TYPE_M = { general: 1.0, spoken: 0.9, exam: 1.2 };
     const DISC = { 1: 0, 8: .05, 16: .10, 32: .15 };
     const CUR_R = { EUR: 1, USD: 1.08, RUB: 92 };
     const CUR_S = { EUR: '€', USD: '$', RUB: '₽' };
@@ -83,11 +85,33 @@
 
     window.calcPrice = function() {
         const langSelect = document.getElementById('calc-lang');
-        if (!langSelect) return;
+        const typeSelect = document.getElementById('calc-type');
+        const durSelect = document.getElementById('calc-dur');
+        if (!langSelect || !typeSelect || !durSelect) return;
 
         const lang = langSelect.value;
-        const type = document.getElementById('calc-type').value;
-        const dur = parseInt(document.getElementById('calc-dur').value);
+        const type = typeSelect.value;
+
+        // Constraint enforcement: Update allowed durations based on course type
+        if (type !== 'group' && COURSE_DURS[type]) {
+            const allowed = COURSE_DURS[type];
+            let currentDur = parseInt(durSelect.value);
+
+            // Sync UI options
+            Array.from(durSelect.options).forEach(opt => {
+                const v = parseInt(opt.value);
+                const isAllowed = allowed.includes(v);
+                opt.disabled = !isAllowed;
+                opt.style.display = isAllowed ? '' : 'none';
+            });
+
+            // Auto-adjust if invalid
+            if (!allowed.includes(currentDur)) {
+                durSelect.value = allowed[0];
+            }
+        }
+
+        const dur = parseInt(durSelect.value);
         const pack = parseInt(document.getElementById('calc-pack').value);
         const cur = document.getElementById('calc-cur').value;
         const el = id => document.getElementById(id);
@@ -119,12 +143,11 @@
         durField.style.pointerEvents = '';
         packField.style.pointerEvents = '';
 
-        const base = RATES[lang][dur];
-        const multiplier = TYPE_M[type];
+        const baseVal = (BASE_DUR[dur] || 20);
         const discount = DISC[pack];
         const sym = CUR_S[cur], rate = CUR_R[cur];
 
-        const origBase = base * multiplier;
+        const origBase = baseVal + (LANG_ADD[lang] || 0);
         const origTotal = (origBase * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
         const discountedBase = origBase * (1 - discount);
         const discountedSingle = (discountedBase * rate).toFixed(cur === 'RUB' ? 0 : 2);
