@@ -492,6 +492,31 @@ footer {
 }
 .pref-icon { font-size: 1.1rem; }
 
+/* ── New Filters ── */
+.fpill {
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: 'Nunito', sans-serif;
+  font-size: .78rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.fpill:hover { border-color: var(--sage); color: var(--sage-dark); }
+.fpill.active { background: var(--sage-deep); color: #fff; border-color: var(--sage-deep); }
+
+/* ── SVG Timer Ring ── */
+.timer-ring-wrap { display: flex; justify-content: center; margin-bottom: 1.3rem; }
+.timer-ring { position: relative; width: 90px; height: 90px; }
+.timer-ring svg { transform: rotate(-90deg); }
+.timer-inner { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; line-height: 1; }
+.timer-val { font-family: 'Lora', serif; font-weight: 700; font-size: 1.6rem; color: var(--ink); }
+.timer-lbl { font-size: .6rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+
 @media (max-width: 600px) {
   .lobby-preferences-bar { gap: 8px; }
   .pref-pill { padding: 4px 6px 4px 10px; }
@@ -505,8 +530,8 @@ footer {
     <header class="events-header">
       <div class="events-header-inner">
         <div class="eh-free-label">✅ Free — no account needed</div>
-        <h1 data-translate-key="events_title">14 Games Hub 🎮</h1>
-        <p data-translate-key="how_it_works_events_p1">14 interactive language games to play solo or with friends. Master vocabulary, improve your speaking and have fun while learning.</p>
+        <h1 data-translate-key="events_title">Language games that <em>actually teach</em></h1>
+        <p data-translate-key="how_it_works_events_p1">14 interactive games — speaking, vocabulary, guessing. Solo or with friends. Pick one and play.</p>
       </div>
     </header>
 
@@ -562,16 +587,19 @@ footer {
 
             <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--sage-dark); margin: 2rem 0 1rem; display: flex; align-items: center; gap: .5rem;">🎮 Play Solo or with Friends <span style="flex: 1; height: 1px; background: var(--border);"></span></div>
 
-            <!-- Game Level Filters -->
-            <div id="game-filters" class="game-filters" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
-                <button class="filter-btn active" data-filter="all" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">All Games</button>
-                <button class="filter-btn" data-filter="beginner" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">Beginner (A1-A2)</button>
-                <button class="filter-btn" data-filter="intermediate" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">Intermediate (B1-B2)</button>
-                <button class="filter-btn" data-filter="advanced" style="padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; font-size: 0.75rem; font-weight: 800; cursor: pointer; transition: all 0.2s;">Advanced (C1-C2)</button>
+            <!-- Game Filters -->
+            <div id="game-filters" class="filter-bar" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                <span style="font-size: .75rem; color: var(--muted); font-weight: 700; margin-right: 5px; align-self: center;">Filter:</span>
+                <button class="fpill active" data-f="all">All games</button>
+                <button class="fpill" data-f="solo">Solo</button>
+                <button class="fpill" data-f="group">With friends</button>
+                <button class="fpill" data-f="speaking">Speaking</button>
+                <button class="fpill" data-f="vocab">Vocabulary</button>
+                <button class="fpill" data-f="mystery">Mystery</button>
             </div>
 
             <div class="games-grid">
-                <div class="game-card-lobby" data-game="action-hero" data-level="beginner">
+                <div class="game-card-lobby" data-game="action-hero" data-level="beginner" data-tags="mystery solo group speaking">
                   <div class="gc-icon">🎭</div>
                   <div class="gc-title">Action Hero</div>
                   <div class="gc-desc">Classic charades with a twist. Describe words or emojis without saying them!</div>
@@ -582,7 +610,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="emoji-odyssey" data-level="beginner">
+                <div class="game-card-lobby" data-game="emoji-odyssey" data-level="beginner" data-tags="vocab solo group">
                   <div class="gc-icon">📖</div>
                   <div class="gc-title">Emoji Odyssey</div>
                   <div class="gc-desc">Guess the word or phrase from emojis. Great for vocabulary association.</div>
@@ -593,7 +621,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="lucky-numbers" data-level="beginner">
+                <div class="game-card-lobby" data-game="lucky-numbers" data-level="beginner" data-tags="vocab solo group">
                   <div class="gc-icon">🔢</div>
                   <div class="gc-title">Lucky Numbers</div>
                   <div class="gc-desc">Interactive Bingo. Listen and mark your board. Perfect for numbers and alphabets.</div>
@@ -604,7 +632,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="last-letter" data-level="beginner">
+                <div class="game-card-lobby" data-game="last-letter" data-level="beginner" data-tags="vocab solo group">
                   <div class="gc-icon">🔤</div>
                   <div class="gc-title">Last Letter</div>
                   <div class="gc-desc">Chain words together using the last letter of the previous word.</div>
@@ -615,7 +643,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="guess-what" data-level="beginner">
+                <div class="game-card-lobby" data-game="guess-what" data-level="beginner" data-tags="mystery solo group">
                   <div class="gc-icon">📦</div>
                   <div class="gc-title">Object Quest</div>
                   <div class="gc-desc">Identify the object through descriptive clues and Yes/No questions.</div>
@@ -626,7 +654,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="guess-who" data-level="beginner">
+                <div class="game-card-lobby" data-game="guess-who" data-level="beginner" data-tags="mystery solo group speaking">
                   <div class="gc-icon">👤</div>
                   <div class="gc-title">Identity Mystery</div>
                   <div class="gc-desc">Identify the person or profession through Yes/No questions.</div>
@@ -637,7 +665,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="crossword" data-level="beginner">
+                <div class="game-card-lobby" data-game="crossword" data-level="beginner" data-tags="vocab solo group">
                   <div class="gc-icon">🧩</div>
                   <div class="gc-title">Cosy Crossword</div>
                   <div class="gc-desc">Solve the puzzle using definitions and emojis. A classic challenge!</div>
@@ -648,7 +676,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="fluency-flow" data-level="intermediate">
+                <div class="game-card-lobby" data-game="fluency-flow" data-level="intermediate" data-tags="speaking solo group">
                   <div class="gc-icon">🗣️</div>
                   <div class="gc-title">Fluency Flow</div>
                   <div class="gc-desc">Spin for a topic and speak! Focus on your flow and idea generation.</div>
@@ -659,7 +687,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="opinion-arena" data-level="intermediate">
+                <div class="game-card-lobby" data-game="opinion-arena" data-level="intermediate" data-tags="speaking solo group">
                   <div class="gc-icon">🏟️</div>
                   <div class="gc-title">Opinion Arena</div>
                   <div class="gc-desc">Agree or disagree? Defend your position on controversial or funny statements.</div>
@@ -670,7 +698,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="battle-of-wits" data-level="intermediate">
+                <div class="game-card-lobby" data-game="battle-of-wits" data-level="intermediate" data-tags="speaking solo group">
                   <div class="gc-icon">⚖️</div>
                   <div class="gc-title">Battle of Wits</div>
                   <div class="gc-desc">The ultimate debate game. Compare two things and argue why yours is better.</div>
@@ -681,7 +709,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="word-linker" data-level="intermediate">
+                <div class="game-card-lobby" data-game="word-linker" data-level="intermediate" data-tags="vocab solo group">
                   <div class="gc-icon">🔗</div>
                   <div class="gc-title">Word Linker</div>
                   <div class="gc-desc">Find the logical connection between words. Great for abstract thinking.</div>
@@ -692,7 +720,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="story-chain" data-level="intermediate">
+                <div class="game-card-lobby" data-game="story-chain" data-level="intermediate" data-tags="speaking solo group">
                   <div class="gc-icon">🃏</div>
                   <div class="gc-title">Story Chain</div>
                   <div class="gc-desc">Collaboratively build a story while sneaking in secret words.</div>
@@ -703,7 +731,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="hot-seat" data-level="intermediate">
+                <div class="game-card-lobby" data-game="hot-seat" data-level="intermediate" data-tags="vocab solo group">
                   <div class="gc-icon">🎯</div>
                   <div class="gc-title">Hot Seat</div>
                   <div class="gc-desc">Rapid-fire vocabulary. Can you answer everything before the timer runs out?</div>
@@ -714,7 +742,7 @@ footer {
                   </div>
                 </div>
 
-                <div class="game-card-lobby" data-game="critics-corner" data-level="advanced">
+                <div class="game-card-lobby" data-game="critics-corner" data-level="advanced" data-tags="speaking solo group">
                   <div class="gc-icon">🎭</div>
                   <div class="gc-title">Critic's Corner</div>
                   <div class="gc-desc">Analyze famous quotes. What do they mean? Do you agree with the author?</div>
