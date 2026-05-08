@@ -7,75 +7,46 @@
     'use strict';
 
     /* ══════════════════════════════════════
-       GAME DATA
+       GAME DATA HELPERS
     ══════════════════════════════════════ */
-    const TOPICS = {
-      fluency: [
-        'Your perfect holiday destination 🌴','A skill you wish you had 🎸','The best meal you ever ate 🍜',
-        'A place you want to visit 🗺️','Your favourite season and why 🍂','A childhood memory 🧸',
-        'The most interesting person you know 🙋','What would you do with 1 million euros? 💰',
-        'Describe your perfect weekend ☀️','A book or film that changed your view 📚',
-        'If you could live anywhere in the world… 🌍','Your morning routine ☕',
-        'Something you\'re proud of 🏆','What does happiness mean to you? 😊',
-        'The last time you tried something new 🎯',
-      ],
-      opinion: [
-        'Social media does more harm than good.','Everyone should learn at least two languages.',
-        'Working from home is better than office work.','Money can\'t buy happiness.',
-        'Technology makes us less sociable.','It\'s never too late to learn something new.',
-        'Travel is the best form of education.','Animals should not be kept in zoos.',
-        'Fast food is one of the worst inventions.','Reading books is more valuable than watching films.',
-        'Cities are better places to live than the countryside.','Artificial intelligence will change everything.',
-        'Cooking at home is always better than eating out.','Children should learn a musical instrument.',
-        'The world would be better with one universal language.',
-      ],
-      battle: [
-        ['Mountains 🏔️','Beach 🏖️'],['Coffee ☕','Tea 🍵'],['Morning person 🌅','Night owl 🦉'],
-        ['City life 🏙️','Country life 🌾'],['Reading 📚','Watching films 🎬'],
-        ['Summer ☀️','Winter ❄️'],['Cats 🐱','Dogs 🐶'],['Working from home 🏠','Office work 🏢'],
-        ['Sweet 🍰','Savoury 🧀'],['Travelling alone ✈️','Travelling with friends 👥'],
-      ],
-      critic: [
-        '"The only way to do great work is to love what you do." — Steve Jobs',
-        '"In the middle of every difficulty lies opportunity." — Albert Einstein',
-        '"The journey of a thousand miles begins with one step." — Lao Tzu',
-        '"Be the change you wish to see in the world." — Gandhi',
-        '"It does not matter how slowly you go as long as you do not stop." — Confucius',
-        '"The best time to plant a tree was 20 years ago. The second best time is now." — Proverb',
-        '"You miss 100% of the shots you don\'t take." — Wayne Gretzky',
-        '"Imagination is more important than knowledge." — Einstein',
-        '"Life is what happens when you\'re busy making other plans." — John Lennon',
-        '"The unexamined life is not worth living." — Socrates',
-      ],
-      action: {
-        A1: ['Cat','Dog','House','Car','Book','Water','Sun','Moon','Tree','Phone','Door','Chair','Bed','Food','Fish'],
-        A2: ['Kitchen','Garden','Train','Doctor','Teacher','Music','Birthday','Swimming','Holiday','Shopping'],
-        B1: ['Museum','Interview','Architect','Journalist','Parliament','Orchestra','Marathon','Exhibition'],
-        B2: ['Philanthropy','Ambassador','Hypothesis','Entrepreneur','Archaeology','Telescope','Symposium'],
-      },
-      identity: [
-        { person:'A firefighter', clue:'They wear a helmet and fight with water.' },
-        { person:'A chef', clue:'They work in a kitchen and create dishes.' },
-        { person:'An astronaut', clue:'They travel beyond our planet.' },
-        { person:'A librarian', clue:'They are surrounded by books all day.' },
-        { person:'A detective', clue:'They solve mysteries and look for clues.' },
-        { person:'A musician', clue:'They use instruments to create sound.' },
-        { person:'An architect', clue:'They design buildings before they are built.' },
-        { person:'A surgeon', clue:'They operate on people inside a hospital.' },
-        { person:'A diplomat', clue:'They work between governments of different countries.' },
-        { person:'A marine biologist', clue:'They study life in the ocean.' },
-      ],
-      wordlinker: [
-        { words:['Apple','Orange','Banana','Carrot'], odd:'Carrot', link:'Fruits', oddReason:'Carrot is a vegetable' },
-        { words:['Paris','Rome','Tokyo','Amazon'], odd:'Amazon', link:'Capital cities', oddReason:'Amazon is a river, not a city' },
-        { words:['Piano','Guitar','Violin','Trumpet'], odd:'none', link:'Musical instruments', oddReason:'All are instruments' },
-        { words:['Happy','Joyful','Melancholy','Cheerful'], odd:'Melancholy', link:'Happy synonyms', oddReason:'Melancholy means sad' },
-        { words:['Run','Jump','Sleep','Swim'], odd:'Sleep', link:'Active physical verbs', oddReason:'Sleep is passive' },
-        { words:['Red','Blue','Heavy','Green'], odd:'Heavy', link:'Colours', oddReason:'Heavy is not a colour' },
-        { words:['Shakespeare','Dickens','Picasso','Austen'], odd:'Picasso', link:'English authors', oddReason:'Picasso was a Spanish painter' },
-        { words:['Sunrise','Dawn','Dusk','Twilight'], odd:'none', link:'Times of day near sunrise/sunset', oddReason:'All describe transitional light' },
-      ],
-    };
+    function getGameData() {
+        const lang = localStorage.getItem('language') || 'en';
+        // Attempt to get specific language data, fallback to English
+        const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : null);
+
+        if (!data) return {};
+
+        // Dynamic extraction from window.vocabularyData for specific games
+        // This ensures the games are "naturally" multilingual if vocabulary is loaded
+        const vocab = (window.vocabularyData && window.vocabularyData[lang]) ? window.vocabularyData[lang] : [];
+
+        if (vocab.length > 0) {
+            // Identity Mystery enrichment: use professions if they exist
+            const professions = vocab.filter(v => v.theme && v.theme.includes('professions')).map(v => ({
+                person: (v.article ? v.article + ' ' : '') + v.word,
+                clue: v.definitions && v.definitions[0] ? v.definitions[0].text : ''
+            }));
+            if (professions.length > 5) data.identity = professions;
+
+            // Action Hero enrichment
+            const themes = {
+                'A1': ['animals', 'home', 'food', 'nature'],
+                'A2': ['local_places', 'education', 'hobbies'],
+                'B1': ['workplace', 'shopping', 'transport'],
+                'B2': ['culture', 'abstract', 'society']
+            };
+
+            for (let lvl in themes) {
+                const words = vocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
+                if (words.length > 10) {
+                    if (!data.action) data.action = {};
+                    data.action[lvl] = words;
+                }
+            }
+        }
+
+        return data;
+    }
 
     const GAME_META = {
       fluency:    { title:'Fluency Flow 🗣️',   meta:'Speaking · Solo or group' },
@@ -305,6 +276,7 @@
         },
 
         startFluency() {
+            const data = getGameData();
             const durStr = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || '2 minutes';
             const dur = parseInt(durStr) * 60;
             const body = document.getElementById('go-body');
@@ -319,7 +291,7 @@
                 </div>
                 <div class="game-card">
                   <div class="game-label">🗣️ Your topic</div>
-                  <div class="game-prompt" id="ff-topic">${pick(TOPICS.fluency)}</div>
+                  <div class="game-prompt" id="ff-topic">${pick(data.fluency || ['...'])}</div>
                   <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes — keep talking!</div>
                   ${renderTimerRing(dur, dur)}
                   <div class="game-controls">
@@ -355,7 +327,8 @@
         },
 
         startOpinion() {
-            const stmt = pick(TOPICS.opinion);
+            const data = getGameData();
+            const stmt = pick(data.opinion || ['...']);
             const body = document.getElementById('go-body');
             const DUR = 90;
 
@@ -403,7 +376,8 @@
         },
 
         startBattle() {
-            const pair = pick(TOPICS.battle);
+            const data = getGameData();
+            const pair = pick(data.battle || [['A','B']]);
             const body = document.getElementById('go-body');
             const DUR = 120;
 
@@ -472,7 +446,8 @@
         },
 
         startCritic() {
-            const quote = pick(TOPICS.critic);
+            const data = getGameData();
+            const quote = pick(data.critic || ['...']);
             const body = document.getElementById('go-body');
             const DUR = 150;
 
@@ -506,8 +481,10 @@
         },
 
         startAction() {
+            const data = getGameData();
             const level = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'A2';
-            const words = shuffle(TOPICS.action[level] || TOPICS.action['A2']);
+            const pool = (data.action && data.action[level]) ? data.action[level] : (data.action ? data.action['A2'] : ['...']);
+            const words = shuffle(pool);
             let idx = 0, correct = 0, skipped = 0;
             const DUR = 60;
 
@@ -559,7 +536,8 @@
         },
 
         startIdentity() {
-            const identity = pick(TOPICS.identity);
+            const data = getGameData();
+            const identity = pick(data.identity || [{person:'...', clue:'...'}]);
             const body = document.getElementById('go-body');
             let questions = 0, maxQ = 20;
 
@@ -601,9 +579,10 @@
         },
 
         startWordLinker() {
+            const data = getGameData();
             let wlScore = 0, wlQ = 0;
             const nextWordLinker = () => {
-                const q = pick(TOPICS.wordlinker);
+                const q = pick(data.wordlinker || [{words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'}]);
                 const body = document.getElementById('go-body');
                 wlQ++;
                 const shuffled = shuffle(q.words);
