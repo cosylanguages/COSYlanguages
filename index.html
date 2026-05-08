@@ -32,8 +32,8 @@
       --cream: #fdfcf8;
       --warm-white: #FFFEFB;
       --ink: #2a2a2a;
-      --ink-muted: #6b6b6b;
-      --ink-faint: #a8a29e;
+      --ink-muted: #4a4a4a;
+      --ink-faint: #6b6b6b;
       --border: rgba(74,107,80,.12);
       --border-hover: rgba(74,107,80,.25);
 
@@ -164,26 +164,44 @@
     .step h3 { font-family: 'Fraunces', serif; font-size: 1.25rem; margin-bottom: .8rem; }
     .step p { font-size: .9rem; color: var(--ink-muted); line-height: 1.6; }
 
-    /* ── COURSES ── */
-    .courses-wrap { display: flex; flex-direction: column; gap: 16px; }
-    .course-row {
-      background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2rem 2.5rem;
-      display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: center;
-      transition: all .2s; position: relative; overflow: hidden;
+    /* ── COURSES REDESIGN ── */
+    .courses-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; }
+    .course-card {
+      background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl);
+      padding: 2.5rem 2rem; display: flex; flex-direction: column; transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+      position: relative;
     }
-    .course-row:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(28,25,23,.06); }
-    .course-row::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--c, var(--teal)); }
-    .cr-icon { font-size: 3.5rem; }
-    .cr-top { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: .5rem; }
-    .cr-title { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; }
-    .cr-badge { font-size: .7rem; font-weight: 700; padding: 4px 12px; border-radius: 100px; background: var(--c-light, var(--teal-light)); color: var(--c, var(--teal)); text-transform: uppercase; }
-    .cr-speak { font-size: .72rem; font-weight: 700; color: var(--gold); background: var(--gold-light); padding: 4px 12px; border-radius: 100px; }
-    .cr-desc { font-size: .95rem; color: var(--ink-muted); margin-bottom: 1.2rem; line-height: 1.7; }
-    .cr-sessions { font-size: .8rem; font-weight: 600; color: var(--ink-faint); margin-bottom: 1.5rem; }
-    .cr-link { font-weight: 700; color: var(--c, var(--teal)); display: inline-flex; align-items: center; gap: 6px; }
-    .cr-link:hover { text-decoration: underline; }
+    .course-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); }
+    .course-card.dark { background: var(--ink); color: #fff; border: none; }
 
-    .group-note { background: var(--navy-light); border: 1px solid rgba(43,62,107,.1); border-radius: var(--r-lg); padding: 1.5rem 2rem; display: flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem; }
+    .cc-icon { font-size: 2.2rem; margin-bottom: 1.5rem; }
+    .cc-title { font-family: 'Fraunces', serif; font-size: 1.55rem; font-weight: 600; margin-bottom: .8rem; line-height: 1.2; }
+
+    .cc-level {
+      display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px;
+      font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start;
+    }
+    .course-card.dark .cc-level { background: rgba(255,255,255,.12); }
+    .cc-level.orange { background: #faeee8; color: #c4522a; }
+    .cc-level.purple { background: #f3f0f7; color: #6a4c93; }
+
+    .cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: 1.2rem; color: var(--coral); }
+    .cc-desc { font-size: .94rem; line-height: 1.6; margin-bottom: 2rem; opacity: .8; flex-grow: 1; min-height: 80px; }
+    .cc-footer { font-size: .78rem; font-weight: 600; opacity: .5; margin-bottom: 1.8rem; display: flex; flex-direction: column; gap: 4px; color: inherit; }
+
+    .cc-btn {
+      display: block; width: 100%;
+      padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800;
+      text-align: center; transition: all .2s; cursor: pointer; border: none;
+    }
+    .course-card.dark .cc-btn { background: #fff; color: var(--ink); }
+    .cc-btn.btn-coral { background: var(--coral); color: #fff; }
+    .cc-btn.btn-plum { background: #7a5c3a; color: #fff; }
+    .cc-btn.btn-green { background: var(--green); color: #fff; }
+    .cc-btn.btn-navy { background: var(--navy); color: #fff; }
+    .cc-btn:hover { opacity: .9; transform: scale(1.02); }
+
+    .group-note { background: #fff8e7; border: 1px solid rgba(232,168,56,.2); border-radius: var(--r-lg); padding: 1.5rem 2rem; display: flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem; }
     .group-note p { font-size: .92rem; color: var(--navy); line-height: 1.6; }
     .group-note a { color: var(--navy); font-weight: 700; text-decoration: underline; }
 
@@ -266,6 +284,9 @@
     .reveal { opacity: 0; transform: translateY(20px); transition: all .6s cubic-bezier(0.22, 1, 0.36, 1); }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
+    @media (max-width: 940px) {
+      .courses-grid { grid-template-columns: 1fr 1fr; }
+    }
     @media (max-width: 860px) {
       .hero { grid-template-columns: 1fr; padding-top: 4rem; text-align: center; }
       .hero-sub { margin-left: auto; margin-right: auto; }
@@ -275,9 +296,9 @@
       .lang-grid { grid-template-columns: repeat(3, 1fr); }
       .tools-grid { grid-template-columns: 1fr; }
       .footer-inner { grid-template-columns: 1fr 1fr; gap: 4rem; }
-      .course-row { grid-template-columns: 1fr; text-align: center; }
-      .course-row::before { left: 0; right: 0; top: 0; bottom: auto; height: 5px; width: 100%; }
-      .cr-top { justify-content: center; }
+    }
+    @media (max-width: 660px) {
+      .courses-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 600px) {
       .lang-grid { grid-template-columns: repeat(2, 1fr); }
@@ -359,91 +380,84 @@
   <h2 class="sec-h2" data-translate-key="sec_h2_courses">Six courses, one promise</h2>
   <p class="sec-p" data-translate-key="sec_p_courses">Every course puts speaking first. Choose the one that fits your life.</p>
 
-  <div class="courses-wrap">
+  <div class="courses-grid">
     <!-- General -->
-    <div class="course-row reveal" style="--c:var(--teal); --c-light:var(--teal-light)">
-      <div class="cr-icon">📖</div>
-      <div class="cr-body">
-        <div class="cr-top">
-          <span class="cr-title" data-translate-key="course_general">General Course</span>
-          <span class="cr-badge" data-translate-key="course_general_badge">A1 → C2 · All levels</span>
-          <span class="cr-speak" data-translate-key="course_general_speak">🗣️ 40% speaking</span>
-        </div>
-        <p class="cr-desc" data-translate-key="course_general_desc_long">The complete journey — all four skills growing together. Structured, progressive, built around your real adult life. From absolute beginner to near-native mastery.</p>
-        <div class="cr-sessions" data-translate-key="course_general_sessions">⏱️ 60–90 min sessions &nbsp;·&nbsp; 1-to-1</div>
-        <a href="portal/index.html" class="cr-link" data-translate-key="course_general_cta">See curriculum →</a>
+    <div class="course-card dark reveal">
+      <div class="cc-icon">📖</div>
+      <h3 class="cc-title" data-translate-key="course_general">General Course</h3>
+      <div class="cc-level" data-translate-key="course_general_badge">A1 → C2 · All levels</div>
+      <div class="cc-speak"><span data-translate-key="course_general_speak">🗣️ 40% speaking every lesson</span></div>
+      <p class="cc-desc" data-translate-key="course_general_desc_long">The complete journey — all four skills growing together. Structured, progressive, built around your real adult life. 430+ lessons, 7 levels, A1 to C2.</p>
+      <div class="cc-footer">
+        <span data-translate-key="course_general_sessions">⏱️ 60–90 min · 1-to-1 · EN, FR, IT, RU, EL</span>
       </div>
+      <a href="portal/index.html" class="cc-btn" data-translate-key="course_general_cta">See full curriculum →</a>
     </div>
+
     <!-- Spoken -->
-    <div class="course-row reveal" style="--c:var(--gold); --c-light:var(--gold-light)">
-      <div class="cr-icon">🗣️</div>
-      <div class="cr-body">
-        <div class="cr-top">
-          <span class="cr-title" data-translate-key="course_spoken">Spoken Course</span>
-          <span class="cr-badge" data-translate-key="course_spoken_badge">All levels · Pure conversation</span>
-          <span class="cr-speak" data-translate-key="course_spoken_speak">🗣️ 100% speaking</span>
-        </div>
-        <p class="cr-desc" data-translate-key="course_spoken_desc_long">No grammar tables. No worksheets. Just you, your teacher and a real conversation. 15 or 30 minutes of focused spoken practice.</p>
-        <div class="cr-sessions" data-translate-key="course_spoken_sessions">⏱️ 15 or 30 min sessions &nbsp;·&nbsp; Daily practice</div>
-        <a href="portal/index.html" class="cr-link" data-translate-key="course_spoken_cta">How it works →</a>
+    <div class="course-card reveal">
+      <div class="cc-icon">👤</div>
+      <h3 class="cc-title" data-translate-key="course_spoken">Spoken Course</h3>
+      <div class="cc-level orange" data-translate-key="course_spoken_badge">All levels · Pure conversation</div>
+      <div class="cc-speak"><span data-translate-key="course_spoken_speak">🗣️ 100% speaking every session</span></div>
+      <p class="cc-desc" data-translate-key="course_spoken_desc_long">No grammar tables. No worksheets. Just you, your teacher and a real conversation. 15 or 30 minutes — short enough for any day, focused enough to build real fluency.</p>
+      <div class="cc-footer">
+        <span data-translate-key="course_spoken_sessions">⏱️ 15 or 30 min · Daily practice · EN, FR, IT, RU, EL</span>
       </div>
+      <a href="https://wa.me/330766784195" class="cc-btn btn-coral" data-translate-key="course_spoken_cta">Ask about this course →</a>
     </div>
+
     <!-- Exam -->
-    <div class="course-row reveal" style="--c:var(--blue); --c-light:var(--blue-light)">
-      <div class="cr-icon">📝</div>
-      <div class="cr-body">
-        <div class="cr-top">
-          <span class="cr-title" data-translate-key="course_exam">Exam Preparation</span>
-          <span class="cr-badge" data-translate-key="course_exam_badge">IELTS · Cambridge · DELF</span>
-          <span class="cr-speak" data-translate-key="course_exam_speak">🎯 Speaking focused</span>
-        </div>
-        <p class="cr-desc" data-translate-key="course_exam_desc_long">We prepare you for the real thing — authentic tasks, exact exam conditions. Speaking is at the heart of every session.</p>
-        <div class="cr-sessions" data-translate-key="course_exam_sessions">⏱️ 120 min sessions &nbsp;·&nbsp; Advanced prep</div>
-        <a href="portal/index.html" class="cr-link" data-translate-key="course_exam_cta">See exams →</a>
+    <div class="course-card reveal">
+      <div class="cc-icon">📝</div>
+      <h3 class="cc-title" data-translate-key="course_exam">Exam Preparation</h3>
+      <div class="cc-level purple" data-translate-key="course_exam_badge">IELTS · Cambridge · DELF · DALF · TORFL</div>
+      <div class="cc-speak">🎯 <span data-translate-key="course_exam_speak">Speaking in every session</span></div>
+      <p class="cc-desc" data-translate-key="course_exam_desc_long">Authentic tasks, exact exam conditions, real marking criteria. The oral component is where most candidates lose the most marks — and where targeted practice makes the biggest difference.</p>
+      <div class="cc-footer">
+        <span data-translate-key="course_exam_sessions">⏱️ 120 min · EN, FR, RU · 6 exams covered</span>
       </div>
+      <a href="https://wa.me/330766784195" class="cc-btn btn-plum" data-translate-key="course_exam_cta">Ask about this course →</a>
     </div>
-      <!-- Travelling -->
-      <div class="course-row reveal" style="--c:var(--green); --c-light:var(--green-light)">
-        <div class="cr-icon">✈️</div>
-        <div class="cr-body">
-          <div class="cr-top">
-            <span class="cr-title" data-translate-key="course_travelling">Travelling Course</span>
-            <span class="cr-badge" data-translate-key="course_travelling_badge">A1 → B1 · Survival</span>
-            <span class="cr-speak">🗺️ Journey focused</span>
-          </div>
-          <p class="cr-desc" data-translate-key="course_travelling_desc">Learn to navigate airports, order in restaurants, and have meaningful chats with locals. Focused on essential scenarios.</p>
-          <div class="cr-sessions">⏱️ 45 min sessions &nbsp;·&nbsp; Flexible schedule</div>
-          <a href="portal/index.html" class="cr-link" data-translate-key="course_travelling_cta">Plan your trip →</a>
-        </div>
+
+    <!-- Travelling -->
+    <div class="course-card reveal">
+      <div class="cc-icon">✈️</div>
+      <h3 class="cc-title" data-translate-key="course_travelling">Travelling Course</h3>
+      <div class="cc-level green" data-translate-key="course_travelling_badge">A1 → B1 · Survival</div>
+      <div class="cc-speak">🗺️ <span data-translate-key="course_travelling_speak">Journey focused</span></div>
+      <p class="cc-desc" data-translate-key="course_travelling_desc">Learn to navigate airports, order in restaurants, and have meaningful chats with locals. Focused on essential travel scenarios and cultural etiquette.</p>
+      <div class="cc-footer">
+        <span data-translate-key="course_travelling_sessions">⏱️ 45 min · EN, FR, IT, EL</span>
       </div>
-      <!-- Professional -->
-      <div class="course-row reveal" style="--c:var(--navy); --c-light:var(--navy-light)">
-        <div class="cr-icon">💼</div>
-        <div class="cr-body">
-          <div class="cr-top">
-            <span class="cr-title" data-translate-key="course_professional">Professional Course</span>
-            <span class="cr-badge" data-translate-key="course_professional_badge">B1 → C2 · Career</span>
-            <span class="cr-speak">🤝 Business oriented</span>
-          </div>
-          <p class="cr-desc" data-translate-key="course_professional_desc">Master interviews, presentations, and emails. Build the confidence to lead meetings and network in your target language.</p>
-          <div class="cr-sessions">⏱️ 60 min sessions &nbsp;·&nbsp; Career growth</div>
-          <a href="portal/index.html" class="cr-link" data-translate-key="course_professional_cta">Boost your career →</a>
-        </div>
+      <a href="https://wa.me/330766784195" class="cc-btn btn-green" data-translate-key="course_travelling_cta">Plan your trip →</a>
+    </div>
+
+    <!-- Professional -->
+    <div class="course-card reveal">
+      <div class="cc-icon">💼</div>
+      <h3 class="cc-title" data-translate-key="course_professional">Professional Course</h3>
+      <div class="cc-level navy" data-translate-key="course_professional_badge">B1 → C2 · Career</div>
+      <div class="cc-speak">🤝 <span data-translate-key="course_professional_speak">Business oriented</span></div>
+      <p class="cc-desc" data-translate-key="course_professional_desc">Master interviews, presentations, and emails. Build the confidence to lead meetings and network effectively in your target language.</p>
+      <div class="cc-footer">
+        <span data-translate-key="course_professional_sessions">⏱️ 60 min · EN, FR, RU</span>
       </div>
-      <!-- Relocation -->
-      <div class="course-row reveal" style="--c:var(--coral); --c-light:var(--coral-light)">
-        <div class="cr-icon">🏡</div>
-        <div class="cr-body">
-          <div class="cr-top">
-            <span class="cr-title" data-translate-key="course_relocation">Relocation Course</span>
-            <span class="cr-badge" data-translate-key="course_relocation_badge">A2 → C1 · Life abroad</span>
-            <span class="cr-speak">📦 Integration first</span>
-          </div>
-          <p class="cr-desc" data-translate-key="course_relocation_desc">Everything you need to live abroad: from renting a flat to understanding local bureaucracy and building a new social circle.</p>
-          <div class="cr-sessions">⏱️ 90 min sessions &nbsp;·&nbsp; Life planning</div>
-          <a href="portal/index.html" class="cr-link" data-translate-key="course_relocation_cta">Start your new life →</a>
-        </div>
+      <a href="https://wa.me/330766784195" class="cc-btn btn-navy" data-translate-key="course_professional_cta">Boost your career →</a>
+    </div>
+
+    <!-- Relocation -->
+    <div class="course-card reveal">
+      <div class="cc-icon">🏡</div>
+      <h3 class="cc-title" data-translate-key="course_relocation">Relocation Course</h3>
+      <div class="cc-level orange" data-translate-key="course_relocation_badge">A2 → C1 · Life abroad</div>
+      <div class="cc-speak">📦 <span data-translate-key="course_relocation_speak">Integration first</span></div>
+      <p class="cc-desc" data-translate-key="course_relocation_desc">Everything you need to live abroad: from renting a flat to understanding local bureaucracy and building a new social circle in your new home.</p>
+      <div class="cc-footer">
+        <span data-translate-key="course_relocation_sessions">⏱️ 90 min · EN, FR, IT, RU, EL</span>
       </div>
+      <a href="https://wa.me/330766784195" class="cc-btn btn-coral" data-translate-key="course_relocation_cta">Start your new life →</a>
+    </div>
   </div>
 
   <div class="group-note reveal">
