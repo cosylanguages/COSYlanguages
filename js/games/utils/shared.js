@@ -5,18 +5,71 @@ const t = (key) => (typeof translations !== 'undefined' && translations[getLang(
 
 let gameTimerInterval = null;
 
+const renderTimerRing = (seconds, total) => {
+    const r = 36, circ = 2 * Math.PI * r;
+    const offset = circ * (1 - seconds / total);
+    const style = getComputedStyle(document.documentElement);
+    const color = seconds > total * 0.4 ? (style.getPropertyValue('--sage') || '#6b8f71') :
+                  seconds > total * 0.2 ? (style.getPropertyValue('--honey') || '#e8a838') : '#a32d2d';
+    return `
+      <div class="timer-ring-wrap">
+        <div class="timer-ring">
+          <svg width="90" height="90" viewBox="0 0 90 90">
+            <circle cx="45" cy="45" r="${r}" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="6"/>
+            <circle class="timer-ring-progress" cx="45" cy="45" r="${r}" fill="none" stroke="${color}" stroke-width="6"
+              stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${offset}"
+              style="transition:stroke-dashoffset .9s linear,stroke .3s"/>
+          </svg>
+          <div class="timer-inner">
+            <div class="timer-val">${seconds}</div>
+            <div class="timer-lbl">sec</div>
+          </div>
+        </div>
+      </div>`;
+};
+
+const updateTimerRing = (container, seconds, total) => {
+    if (!container) return;
+    const r = 36, circ = 2 * Math.PI * r;
+    const offset = circ * (1 - seconds / total);
+    const style = getComputedStyle(document.documentElement);
+    const color = seconds > total * 0.4 ? (style.getPropertyValue('--sage') || '#6b8f71') :
+                  seconds > total * 0.2 ? (style.getPropertyValue('--honey') || '#e8a838') : '#a32d2d';
+    const valDisplay = container.querySelector('.timer-val');
+    if (valDisplay) valDisplay.textContent = seconds;
+    const progressCircle = container.querySelector('.timer-ring-progress');
+    if (progressCircle) {
+        progressCircle.setAttribute('stroke-dashoffset', offset);
+        progressCircle.setAttribute('stroke', color);
+    }
+};
+
 const startTimer = (displayId, duration, onEnd) => {
     clearInterval(gameTimerInterval);
     let timeLeft = duration;
+    let totalTime = duration;
     const display = document.getElementById(displayId);
     if (!display) return;
 
     const updateDisplay = () => {
         const mins = Math.floor(timeLeft / 60);
         const secs = timeLeft % 60;
-        display.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+
+        // Update classic text display
+        if (display.classList.contains('timer-val')) {
+             display.textContent = timeLeft;
+        } else {
+             display.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
         if (timeLeft <= 10) display.style.color = 'var(--accent-color)';
         else display.style.color = 'inherit';
+
+        // Update ring if it exists
+        const ringWrap = display.closest('.timer-ring-wrap');
+        if (ringWrap) {
+            updateTimerRing(ringWrap, timeLeft, totalTime);
+        }
     };
 
     updateDisplay();
@@ -622,5 +675,5 @@ const addGamePoints = (points) => {
 };
 
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints
+    getLang, t, startTimer, stopTimer, renderTimerRing, updateTimerRing, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints
 };

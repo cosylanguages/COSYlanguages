@@ -165,6 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let pool = [];
 
+        let sessionScore = 0;
         const showNext = () => {
             if (pool.length === 0) {
                 stopTimer();
@@ -512,6 +513,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = pool.pop();
             topicDisplay.textContent = item.topic;
 
+            // Reset UI
+            nextBtn.textContent = t('spin_topic_btn') || 'Spin for Topic! 🎡';
+            nextBtn.onclick = () => {
+                if (window.gameUtils.addGamePoints) window.gameUtils.addGamePoints(5);
+                showNext();
+            };
+
             // Improvements: FluentyFlowGame.getPrompts
             const currentLevel = document.getElementById('talk-level').value;
             const prompts = FluentyFlowGame.getPrompts(item, currentLevel);
@@ -530,16 +538,27 @@ document.addEventListener('DOMContentLoaded', () => {
             const duration = parseInt(document.getElementById('talk-timer-duration')?.value || '180');
             const isSolo = soloToggle ? soloToggle.checked : false;
 
-            startTimer('talk-timer', duration, () => {
-                topicDisplay.textContent += ` (${t('time_up')})`;
-                // Improvements: buildSelfAssessment
-                document.getElementById('ff-assessment-area').innerHTML = FluentyFlowGame.buildSelfAssessment(item);
-                if (isSolo) {
-                    setTimeout(() => {
-                        showGameMessage(gameArea, t('ff_robot_feedback'));
-                    }, 2000);
-                }
-            });
+            // Render Ring
+            const timerContainer = document.getElementById('talk-timer');
+            if (timerContainer) {
+                timerContainer.innerHTML = window.gameUtils.renderTimerRing(duration, duration);
+                const valDisplay = timerContainer.querySelector('.timer-val');
+                valDisplay.id = 'ff-timer-val'; // Assign ID for startTimer
+
+                startTimer('ff-timer-val', duration, () => {
+                    topicDisplay.textContent += ` (${t('time_up')})`;
+                    sessionScore++;
+                    nextBtn.textContent = '✓ Done! Next topic →';
+
+                    // Improvements: buildSelfAssessment
+                    document.getElementById('ff-assessment-area').innerHTML = FluentyFlowGame.buildSelfAssessment(item);
+                    if (isSolo) {
+                        setTimeout(() => {
+                            showGameMessage(gameArea, t('ff_robot_feedback'));
+                        }, 2000);
+                    }
+                });
+            }
         };
 
         const openGame = () => {
