@@ -537,6 +537,9 @@
                   <button class="btn-g-secondary" onclick="COSY_ENGINE.startBattle()">New topic ↺</button>
                 </div>
               </div>`;
+
+            const btn = document.getElementById('start-debate-btn');
+            if (btn) btn.onclick = () => this.battleSpeak(topic, DUR);
         },
 
         battleSpeak(pair, dur) {
