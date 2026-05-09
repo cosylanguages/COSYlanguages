@@ -9,12 +9,48 @@
     /* ══════════════════════════════════════
        GAME DATA HELPERS
     ══════════════════════════════════════ */
+    async function loadLevelData(lang, level) {
+        const familyMap = {
+            'en': 'germanic', 'de': 'germanic',
+            'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
+            'ru': 'slavic', 'el': 'hellenic',
+            'hy': 'armenian', 'ka': 'kartvelian',
+            'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
+        };
+        const family = familyMap[lang.toLowerCase()];
+        if (!family) return;
+
+        const levelPath = (level === 'all' || !level) ? 'starter' : level;
+        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js'];
+        const promises = files.map(file => {
+            const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
+            if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
+            return new Promise((resolve, reject) => {
+                const s = document.createElement('script');
+                s.src = path;
+                s.onload = () => resolve();
+                s.onerror = () => {
+                    console.warn(`Failed to load: ${path}`);
+                    resolve(); // Resolve anyway to not block the game
+                };
+                document.head.appendChild(s);
+            });
+        });
+
+        await Promise.all(promises);
+    }
+
     function getGameData() {
         const lang = localStorage.getItem('language') || 'en';
         // Attempt to get specific language data, fallback to English
-        const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : null);
+        const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinion: [], battle: [], critic: [] });
 
-        if (!data) return {};
+        // Merge specialized speaking data if available
+        const s = window.speakingData?.[lang] || {};
+        if (s.talkThatTalk) data.fluency = [...(data.fluency || []), ...s.talkThatTalk.map(d => d.topic)];
+        if (s.opinions) data.opinion = [...(data.opinion || []), ...s.opinions.map(d => d.topic)];
+        if (s.debates) data.battle = [...(data.battle || []), ...s.debates.map(d => [d.sideA, d.sideB])];
+        if (s.quotes) data.critic = [...(data.critic || []), ...s.quotes.map(d => d.topic)];
 
         // Dynamic extraction from window.vocabularyData for specific games
         // This ensures the games are "naturally" multilingual if vocabulary is loaded
@@ -369,7 +405,11 @@
             el.classList.add('sel');
         },
 
-        startFluency() {
+        async startFluency() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all'; // Default for now
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const durStr = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || '2 minutes';
             const dur = parseInt(durStr) * 60;
@@ -420,7 +460,11 @@
             showTopic();
         },
 
-        startOpinion() {
+        async startOpinion() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all';
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const stmt = pick(data.opinion || ['...']);
             const body = document.getElementById('go-body');
@@ -469,7 +513,11 @@
             });
         },
 
-        startBattle() {
+        async startBattle() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all';
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const pair = pick(data.battle || [['A','B']]);
             const body = document.getElementById('go-body');
@@ -539,7 +587,11 @@
             doRound();
         },
 
-        startCritic() {
+        async startCritic() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all';
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const quote = pick(data.critic || ['...']);
             const body = document.getElementById('go-body');
