@@ -16,13 +16,13 @@
         "criticsCorner": [],
         "debates": [
             {
-                "topic": "Café vs thé — quelle est la meilleure boisson du matin ?",
+                "topic": "Café vs thé — qu'est-ce qui est mieux ?",
                 "sideA": "Café",
                 "sideB": "Thé",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Cela donne de l'énergie", "Ça sent bon"],
+                "ideasB": ["C'est très sain", "Cela aide à se détendre"]
             },
             {
                 "topic": "Restaurant vs cuisine maison — qu'est-ce qui est mieux ?",
@@ -30,71 +30,71 @@
                 "sideB": "Cuisine maison",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pas de vaisselle", "Chefs professionnels"],
+                "ideasB": ["C'est moins cher", "C'est plus sain"]
             },
             {
-                "topic": "Petit-déjeuner vs pas de petit-déjeuner — qu'est-ce qui est mieux pour vous ?",
+                "topic": "Petit-déjeuner vs pas de petit-déjeuner — qu'est-ce qui est mieux ?",
                 "sideA": "Petit-déjeuner",
                 "sideB": "Aucun",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Énergie pour le matin", "Bien commencer la journée"],
+                "ideasB": ["Gagne du temps", "Je n'ai pas faim"]
             },
             {
-                "topic": "Eau vs jus — qu'est-ce qui est plus sain ?",
+                "topic": "Eau vs jus — qu'est-ce qui est mieux ?",
                 "sideA": "Eau",
                 "sideB": "Jus",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Zéro calorie", "Très sain"],
+                "ideasB": ["Goût sucré", "Bonnes vitamines"]
             },
             {
-                "topic": "Viande vs légumes — qu'est-ce qui est le plus important dans un repas ?",
+                "topic": "Viande vs légumes — qu'est-ce qui est le plus important ?",
                 "sideA": "Viande",
                 "sideB": "Légumes",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Beaucoup de protéines", "Très savoureux"],
+                "ideasB": ["Beaucoup de vitamines", "Bon pour la santé"]
             },
             {
-                "topic": "Maison vs appartement — où est-il préférable de vivre ?",
+                "topic": "Maison vs appartement — qu'est-ce qui est mieux ?",
                 "sideA": "Maison",
                 "sideB": "Appartement",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Plus d'espace", "Un jardin privé"],
+                "ideasB": ["C'est plus sûr", "Facile à nettoyer"]
             },
             {
-                "topic": "Ville vs village — quel est le meilleur endroit pour vivre ?",
+                "topic": "Ville vs campagne — qu'est-ce qui est mieux ?",
                 "sideA": "Ville",
-                "sideB": "Village",
+                "sideB": "Campagne",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "theme": "address_location_A1",
+                "ideasA": ["Magasins et cinémas", "Beaucoup de monde"],
+                "ideasB": ["Endroit calme", "Air pur"]
             },
             {
-                "topic": "Espèces vs carte — avec quoi est-il préférable de payer ?",
+                "topic": "Espèces vs carte — qu'est-ce qui est mieux ?",
                 "sideA": "Espèces",
                 "sideB": "Carte",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Facile de voir l'argent", "Pas de technologie"],
+                "ideasB": ["Très rapide", "Sûr à porter"]
             },
             {
-                "topic": "Économiser de l'argent vs dépenser de l'argent — qu'est-ce qui est mieux ?",
+                "topic": "Économiser vs dépenser — qu'est-ce qui est mieux ?",
                 "sideA": "Économiser",
                 "sideB": "Dépenser",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Bien pour l'avenir", "Acheter de grandes choses"],
+                "ideasB": ["Amusant maintenant", "Aide les magasins"]
             },
             {
                 "topic": "Louer vs acheter — qu'est-ce qui est mieux ?",
@@ -102,8 +102,8 @@
                 "sideB": "Acheter",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["C'est flexible", "Pas de réparations"],
+                "ideasB": ["C'est à vous", "Bon investissement"]
             },
             {
                 "topic": "Travail du matin vs travail du soir — qu'est-ce qui est mieux ?",
@@ -111,35 +111,35 @@
                 "sideB": "Soir",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Fini tôt", "Soirée libre"],
+                "ideasB": ["Dormir tard", "Temps calme"]
             },
             {
-                "topic": "Voiture vs bus — qu'est-ce qui est mieux pour aller au travail ?",
+                "topic": "Voiture vs bus — qu'est-ce qui est mieux ?",
                 "sideA": "Voiture",
                 "sideB": "Bus",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "theme": "address_location_A1",
+                "ideasA": ["Privé et rapide", "Aller partout"],
+                "ideasB": ["C'est bon marché", "Bien pour la nature"]
             },
             {
-                "topic": "Marcher vs conduire — qu'est-ce qui est mieux en ville ?",
+                "topic": "Marcher vs conduire — qu'est-ce qui est mieux ?",
                 "sideA": "Marcher",
                 "sideB": "Conduire",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "theme": "address_location_A1",
+                "ideasA": ["C'est gratuit", "Bon exercice"],
+                "ideasB": ["Pas de pluie", "Très confortable"]
             },
             {
-                "topic": "Bureau vs maison — quel est le meilleur endroit pour travailler ?",
+                "topic": "Bureau vs maison — qu'est-ce qui est mieux pour travailler ?",
                 "sideA": "Bureau",
                 "sideB": "Maison",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Voir les amis", "Meilleure concentration"],
+                "ideasB": ["Pas de trajets", "Vêtements confortables"]
             },
             {
                 "topic": "Lève-tôt vs couche-tard — qu'est-ce qui est mieux ?",
@@ -147,26 +147,26 @@
                 "sideB": "Couche-tard",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Voir le soleil", "Temps calme"],
+                "ideasB": ["Temps créatif", "Pas de bruit"]
             },
             {
-                "topic": "Été vs hiver — quelle saison est la meilleure ?",
+                "topic": "Été vs hiver — qu'est-ce qui est mieux ?",
                 "sideA": "Été",
                 "sideB": "Hiver",
                 "level": "starter",
                 "theme": "weather_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Temps de plage", "Temps ensoleillé"],
+                "ideasB": ["Neige", "Chocolat chaud"]
             },
             {
                 "topic": "Vacances courtes vs vacances longues — qu'est-ce qui est mieux ?",
                 "sideA": "Courtes",
                 "sideB": "Longues",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "theme": "address_location_A1",
+                "ideasA": ["Facile à planifier", "Beaucoup de voyages"],
+                "ideasB": ["Se détendre plus", "Voir plus d'endroits"]
             },
             {
                 "topic": "Appel téléphonique vs message — qu'est-ce qui est mieux ?",
@@ -174,305 +174,548 @@
                 "sideB": "Message",
                 "level": "starter",
                 "theme": "basic_technology_devices_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Entendre la voix", "C'est plus rapide"],
+                "ideasB": ["Réfléchir avant d'écrire", "Lire plus tard"]
             },
             {
-                "topic": "Douche le matin vs douche le soir — qu'est-ce qui est correct ?",
+                "topic": "Douche le matin vs douche le soir — qu'est-ce qui est mieux ?",
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Réveille", "Commencer frais"],
+                "ideasB": ["Aide à se détendre", "Lit propre"]
             },
             {
-                "topic": "Lundi vs vendredi — quel jour est le meilleur ?",
+                "topic": "Lundi vs vendredi — qu'est-ce qui est mieux ?",
                 "sideA": "Lundi",
                 "sideB": "Vendredi",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Commencer des projets", "Nouvelle semaine"],
+                "ideasB": ["Week-end arrive", "Temps de fête"]
             },
             {
-                "topic": "Trop chaud vs trop froid — qu'est-ce qui est le pire ?",
+                "topic": "Trop chaud vs trop froid — qu'est-ce qui est pire ?",
                 "sideA": "Trop chaud",
                 "sideB": "Trop froid",
                 "level": "starter",
                 "theme": "weather_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["On ne peut pas dormir", "Trop de soleil"],
+                "ideasB": ["Besoin de beaucoup d'habits", "On gèle"]
             },
             {
-                "topic": "Siège côté hublot vs siège côté couloir — qu'est-ce qui est mieux dans un avion ?",
+                "topic": "Siège côté hublot vs siège côté couloir — qu'est-ce qui est mieux ?",
                 "sideA": "Hublot",
                 "sideB": "Couloir",
                 "level": "starter",
-                "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "theme": "address_location_A1",
+                "ideasA": ["Voir les nuages", "Prendre des photos"],
+                "ideasB": ["Facile de marcher", "Plus d'espace"]
             },
             {
-                "topic": "Rouge vs Bleu — quelle couleur est la meilleure ?",
+                "topic": "Rouge vs Bleu — qu'est-ce qui est mieux ?",
                 "sideA": "Rouge",
                 "sideB": "Bleu",
                 "level": "starter",
                 "theme": "colours_patterns_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Couleur forte", "Amour"],
+                "ideasB": ["Couleur calme", "Mer et ciel"]
             },
             {
-                "topic": "Jaune vs Vert — quelle couleur est la plus joyeuse ?",
+                "topic": "Jaune vs Vert — qu'est-ce qui est plus joyeux ?",
                 "sideA": "Jaune",
                 "sideB": "Vert",
                 "level": "starter",
                 "theme": "colours_patterns_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Comme le soleil", "Brillant"],
+                "ideasB": ["Couleur de la nature", "Comme les arbres"]
             },
             {
-                "topic": "Noir vs Blanc — quelle couleur préférez-vous ?",
+                "topic": "Noir vs Blanc — qu'est-ce qui est mieux ?",
                 "sideA": "Noir",
                 "sideB": "Blanc",
                 "level": "starter",
                 "theme": "colours_patterns_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Élégant", "Va avec tout"],
+                "ideasB": ["Propre", "Brillant"]
             },
             {
-                "topic": "Rose vs Violet — quelle couleur est la plus jolie ?",
+                "topic": "Rose vs Violet — qu'est-ce qui est mieux ?",
                 "sideA": "Rose",
                 "sideB": "Violet",
                 "level": "starter",
                 "theme": "colours_patterns_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Couleur mignonne", "Fleurs"],
+                "ideasB": ["Couleur royale", "Beau fruit"]
             },
             {
-                "topic": "Cercle vs Carré — quelle forme est la plus utile ?",
-                "sideA": "Cercle",
-                "sideB": "Carré",
-                "level": "starter",
-                "theme": "numbers_0_9_A1",
-                "ideasA": [],
-                "ideasB": []
-            },
-            {
-                "topic": "Grands vs Petits nombres — lesquels sont les plus amusants ?",
+                "topic": "Grands vs Petits nombres — qu'est-ce qui est plus amusant ?",
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
                 "theme": "numbers_0_9_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Plus d'argent", "Grands comptes"],
+                "ideasB": ["Facile à apprendre", "Rapide"]
             },
             {
-                "topic": "Triangle vs Rectangle — quelle forme est la meilleure ?",
-                "sideA": "Triangle",
-                "sideB": "Rectangle",
-                "level": "starter",
-                "theme": "numbers_0_9_A1",
-                "ideasA": [],
-                "ideasB": []
-            },
-            {
-                "topic": "Ballon vs Poupée — quel jouet est le meilleur ?",
+                "topic": "Ballon vs Poupée — qu'est-ce qui est mieux ?",
                 "sideA": "Ballon",
                 "sideB": "Poupée",
                 "level": "starter",
                 "theme": "leisure_activities_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Jouer avec les amis", "Sport"],
+                "ideasB": ["Raconter des histoires", "Décoration"]
             },
             {
-                "topic": "Crayon vs Stylo — avec quoi est-il préférable d'écrire ?",
+                "topic": "Crayon vs Stylo — qu'est-ce qui est mieux ?",
                 "sideA": "Crayon",
                 "sideB": "Stylo",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["On peut effacer", "Bien pour dessiner"],
+                "ideasB": ["Permanent", "Écriture propre"]
             },
             {
-                "topic": "Livre vs Image — d'où est-il préférable d'apprendre ?",
+                "topic": "Livre vs Image — qu'est-ce qui est mieux ?",
                 "sideA": "Livre",
                 "sideB": "Image",
                 "level": "starter",
                 "theme": "workplace_basics_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Lire des histoires", "Pas de batterie"],
+                "ideasB": ["Rapide à voir", "Beau"]
             },
             {
-                "topic": "Chaise vs Sol — où est-il préférable de s'asseoir ?",
+                "topic": "Chaise vs Sol — qu'est-ce qui est mieux ?",
                 "sideA": "Chaise",
                 "sideB": "Sol",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Bien pour le dos", "Travail à table"],
+                "ideasB": ["Beaucoup d'espace", "Relax"]
             },
             {
-                "topic": "Chat vs Chien — quel animal est le meilleur ?",
+                "topic": "Chat vs Chien — qu'est-ce qui est mieux ?",
                 "sideA": "Chat",
                 "sideB": "Chien",
                 "level": "starter",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Indépendant", "Calme"],
+                "ideasB": ["Ami fidèle", "Jouer dehors"]
             },
             {
-                "topic": "Poisson vs Oiseau — quel est le meilleur animal de compagnie ?",
+                "topic": "Poisson vs Oiseau — qu'est-ce qui est mieux ?",
                 "sideA": "Poisson",
                 "sideB": "Oiseau",
                 "level": "starter",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Belles couleurs", "Entretien facile"],
+                "ideasB": ["Peut chanter", "Sons joyeux"]
             },
             {
-                "topic": "Grands vs Petits animaux — lesquels sont les plus gentils ?",
+                "topic": "Grands vs Petits animaux — qu'est-ce qui est mieux ?",
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Forts", "Intéressants"],
+                "ideasB": ["Mignons", "Petit espace"]
             },
             {
-                "topic": "Lapin vs Hamster — lequel est le plus mignon ?",
+                "topic": "Lapin vs Hamster — qu'est-ce qui est mieux ?",
                 "sideA": "Lapin",
                 "sideB": "Hamster",
                 "level": "starter",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Longues oreilles", "Doux"],
+                "ideasB": ["Petit", "Beau à regarder"]
             },
             {
-                "topic": "Eau vs Jus — qu'est-il préférable de boire ?",
-                "sideA": "Eau",
-                "sideB": "Jus",
-                "level": "starter",
-                "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
-            },
-            {
-                "topic": "Pomme vs Banane — quel fruit est le meilleur ?",
+                "topic": "Pomme vs Banane — qu'est-ce qui est mieux ?",
                 "sideA": "Pomme",
                 "sideB": "Banane",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Croquant", "Sucré"],
+                "ideasB": ["Facile à peler", "Mou"]
             },
             {
-                "topic": "Pain vs Riz — qu'est-il préférable de manger ?",
+                "topic": "Pain vs Riz — qu'est-ce qui est mieux ?",
                 "sideA": "Pain",
                 "sideB": "Riz",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Plusieurs types", "Sandwichs"],
+                "ideasB": ["Sain", "Bon avec la viande"]
             },
             {
-                "topic": "Lait vs Eau — lequel préférez-vous ?",
+                "topic": "Lait vs Eau — qu'est-ce qui est mieux ?",
                 "sideA": "Lait",
                 "sideB": "Eau",
                 "level": "starter",
                 "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Calcium", "Bien pour les os"],
+                "ideasB": ["Frais", "Basique"]
             },
             {
-                "topic": "Rose vs Orange — quelle couleur est la plus jolie ?",
+                "topic": "Rose vs Orange — qu'est-ce qui est mieux ?",
                 "sideA": "Rose",
                 "sideB": "Orange",
                 "level": "starter",
                 "theme": "colours_patterns_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Couleur mignonne", "Fleurs"],
+                "ideasB": ["Brillant", "Comme le fruit"]
             },
             {
-                "topic": "Le chiffre 1 vs le chiffre 10 — quel chiffre est le meilleur ?",
-                "sideA": "1",
-                "sideB": "10",
-                "level": "starter",
-                "theme": "numbers_0_9_A1",
-                "ideasA": [],
-                "ideasB": []
-            },
-            {
-                "topic": "Chaise vs canapé — lequel est le plus confortable ?",
+                "topic": "Chaise vs canapé — qu'est-ce qui est mieux ?",
                 "sideA": "Chaise",
                 "sideB": "Canapé",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Bien pour le dos", "Formel"],
+                "ideasB": ["Très mou", "Regarder la télé"]
             },
             {
-                "topic": "Sac vs boîte — lequel est le plus utile ?",
+                "topic": "Sac vs boîte — qu'est-ce qui est mieux ?",
                 "sideA": "Sac",
                 "sideB": "Boîte",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Facile à porter", "Pour l'école"],
+                "ideasB": ["Pour les jouets", "Protège les choses"]
             },
             {
-                "topic": "Lion vs éléphant — quel animal est le meilleur ?",
+                "topic": "Lion vs éléphant — qu'est-ce qui est mieux ?",
                 "sideA": "Lion",
                 "sideB": "Éléphant",
                 "level": "starter",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Roi", "Fort"],
+                "ideasB": ["Grandes oreilles", "Très intelligent"]
             },
             {
-                "topic": "Chocolat vs bonbons — lequel est le meilleur ?",
-                "sideA": "Chocolat",
-                "sideB": "Bonbons",
-                "level": "starter",
-                "theme": "basic_foods_A1",
-                "ideasA": [],
-                "ideasB": []
-            },
-            {
-                "topic": "Cuillère vs fourchette — laquelle est la meilleure ?",
+                "topic": "Cuillère vs fourchette — qu'est-ce qui est mieux ?",
                 "sideA": "Cuillère",
                 "sideB": "Fourchette",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pour la soupe", "Facile"],
+                "ideasB": ["Pour les pâtes", "Viande"]
             },
             {
-                "topic": "Chapeau vs chaussures — lequel est le plus important ?",
+                "topic": "Chapeau vs chaussures — qu'est-ce qui est mieux ?",
                 "sideA": "Chapeau",
                 "sideB": "Chaussures",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Style cool", "Protection solaire"],
+                "ideasB": ["Protège les pieds", "Pour marcher"]
             },
             {
-                "topic": "Soleil vs lune — lequel est le meilleur ?",
+                "topic": "Soleil vs lune — qu'est-ce qui est mieux ?",
                 "sideA": "Soleil",
                 "sideB": "Lune",
                 "level": "starter",
                 "theme": "weather_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Chaud", "Lumière"],
+                "ideasB": ["Magnifique", "Lumière de nuit"]
             },
             {
-                "topic": "Chaussettes vs pas de chaussettes — qu'est-ce qui est le mieux ?",
+                "topic": "Chaussettes vs pas de chaussettes — qu'est-ce qui est mieux ?",
                 "sideA": "Chaussettes",
-                "sideB": "Sans chaussettes",
+                "sideB": "Pas de chaussettes",
                 "level": "starter",
                 "theme": "furniture_objects_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pieds chauds", "Confortable"],
+                "ideasB": ["Pieds frais", "Été"]
+            },
+            {
+                "topic": "Vivre en famille vs vivre seul — qu'est-ce qui est mieux ?",
+                "sideA": "Famille",
+                "sideB": "Seul",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Jamais seul", "Aide pour la nourriture"],
+                "ideasB": ["Paix", "Tes règles"]
+            },
+            {
+                "topic": "Avoir un frère vs avoir une sœur — qu'est-ce qui est mieux ?",
+                "sideA": "Frère",
+                "sideB": "Sœur",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Jouer à des jeux", "Protection"],
+                "ideasB": ["Partager des secrets", "Gentille"]
+            },
+            {
+                "topic": "Grande famille vs petite famille — qu'est-ce qui est mieux ?",
+                "sideA": "Grande famille",
+                "sideB": "Petite famille",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Maison animée", "Beaucoup d'amis"],
+                "ideasB": ["Calme", "Plus d'espace"]
+            },
+            {
+                "topic": "Être l'aîné vs être le cadet — qu'est-ce qui est mieux ?",
+                "sideA": "Aîné",
+                "sideB": "Cadet",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Leader", "Responsable"],
+                "ideasB": ["Recevoir de l'aide", "Relaxé"]
+            },
+            {
+                "topic": "École le matin vs école l'après-midi — qu'est-ce qui est mieux ?",
+                "sideA": "Matin",
+                "sideB": "Après-midi",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Après-midi libre", "Routine"],
+                "ideasB": ["Dormir tard", "Matin calme"]
+            },
+            {
+                "topic": "Lecture vs maths — qu'est-ce qui est plus amusant ?",
+                "sideA": "Lecture",
+                "sideB": "Maths",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Histoires", "Nouveaux mots"],
+                "ideasB": ["Logique", "Nombres"]
+            },
+            {
+                "topic": "Apprendre à l'école vs apprendre à la maison — qu'est-ce qui est mieux ?",
+                "sideA": "École",
+                "sideB": "Maison",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Amis", "Professeur"],
+                "ideasB": ["Relaxé", "Pas de trajets"]
+            },
+            {
+                "topic": "Faire ses devoirs vs ne pas faire ses devoirs — qu'est-ce qui aide le plus ?",
+                "sideA": "Devoirs",
+                "sideB": "Pas de devoirs",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Pratique", "Apprendre plus"],
+                "ideasB": ["Plus de jeu", "Moins de stress"]
+            },
+            {
+                "topic": "Travailler seul vs travailler avec un partenaire — qu'est-ce qui est mieux ?",
+                "sideA": "Seul",
+                "sideB": "Partenaire",
+                "level": "starter",
+                "theme": "workplace_basics_A1",
+                "ideasA": ["Concentration", "Rapide"],
+                "ideasB": ["Idées partagées", "Amusant"]
+            },
+            {
+                "topic": "Écrire sur papier vs taper sur un ordinateur — qu'est-ce qui est mieux ?",
+                "sideA": "Papier",
+                "sideB": "Ordinateur",
+                "level": "starter",
+                "theme": "basic_technology_devices_A1",
+                "ideasA": ["Pas d'écran", "Facile"],
+                "ideasB": ["Rapide", "Corrige l'orthographe"]
+            },
+            {
+                "topic": "Petit-déjeuner vs dîner — qu'est-ce qui est plus important ?",
+                "sideA": "Petit-déjeuner",
+                "sideB": "Dîner",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Énergie matinale", "Commencer la journée"],
+                "ideasB": ["Temps en famille", "Gros repas"]
+            },
+            {
+                "topic": "Nourriture chaude vs nourriture froide — qu'est-ce qui est mieux ?",
+                "sideA": "Chaude",
+                "sideB": "Froide",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Hiver", "Savoureux"],
+                "ideasB": ["Été", "Salade"]
+            },
+            {
+                "topic": "Nourriture sucrée vs nourriture salée — qu'est-ce qui est mieux ?",
+                "sideA": "Sucrée",
+                "sideB": "Salée",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Délicieux", "Friandise"],
+                "ideasB": ["Vraie nourriture", "Sel"]
+            },
+            {
+                "topic": "Cuisiner avec un parent vs acheter des plats préparés — qu'est-ce qui est mieux ?",
+                "sideA": "Cuisiner",
+                "sideB": "Plats préparés",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Apprendre une compétence", "Amusant"],
+                "ideasB": ["Rapide", "Pas de désordre"]
+            },
+            {
+                "topic": "Se réveiller tôt vs se réveiller tard — qu'est-ce qui est mieux ?",
+                "sideA": "Tôt",
+                "sideB": "Tard",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Plus de temps", "Productif"],
+                "ideasB": ["Plus de sommeil", "Relaxé"]
+            },
+            {
+                "topic": "Matin vs soir — qu'est-ce qui est mieux ?",
+                "sideA": "Matin",
+                "sideB": "Soir",
+                "level": "starter",
+                "theme": "weather_A1",
+                "ideasA": ["Frais", "Soleil"],
+                "ideasB": ["Calme", "Repos"]
+            },
+            {
+                "topic": "Jours de semaine vs week-end — qu'est-ce qui est mieux ?",
+                "sideA": "Semaine",
+                "sideB": "Week-end",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Routine", "École"],
+                "ideasB": ["Amusement", "Hobbies"]
+            },
+            {
+                "topic": "Se coucher tôt vs rester debout tard — qu'est-ce qui est plus sain ?",
+                "sideA": "Tôt",
+                "sideB": "Tard",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Sain", "Reposé"],
+                "ideasB": ["Amusant", "Films"]
+            },
+            {
+                "topic": "Ta chambre vs le salon — qu'est-ce qui est mieux ?",
+                "sideA": "Chambre",
+                "sideB": "Salon",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Intimité", "Tes affaires"],
+                "ideasB": ["Grande télé", "Canapé"]
+            },
+            {
+                "topic": "Jeux d'intérieur vs jeux d'extérieur — qu'est-ce qui est plus amusant ?",
+                "sideA": "Intérieur",
+                "sideB": "Extérieur",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Pas de pluie", "Jeux de société"],
+                "ideasB": ["Soleil", "Course"]
+            },
+            {
+                "topic": "Regarder la télé vs lire un livre — qu'est-ce qui est mieux ?",
+                "sideA": "Télé",
+                "sideB": "Livre",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Détente", "Visuel"],
+                "ideasB": ["Imaginer", "Profond"]
+            },
+            {
+                "topic": "Faire du sport vs jouer à un jeu vidéo — qu'est-ce qui est plus amusant ?",
+                "sideA": "Sport",
+                "sideB": "Jeu vidéo",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Sain", "Actif"],
+                "ideasB": ["Compétences", "Histoire"]
+            },
+            {
+                "topic": "Dessiner vs chanter — qu'est-ce qui est mieux ?",
+                "sideA": "Dessiner",
+                "sideB": "Chanter",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Créer de l'art", "Calme"],
+                "ideasB": ["Utiliser sa voix", "Musique"]
+            },
+            {
+                "topic": "Jouer seul vs jouer avec des amis — qu'est-ce qui est plus amusant ?",
+                "sideA": "Seul",
+                "sideB": "Amis",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Concentration", "Créatif"],
+                "ideasB": ["Partager", "Rire"]
+            },
+            {
+                "topic": "Nager vs courir — qu'est-ce qui est mieux ?",
+                "sideA": "Nager",
+                "sideB": "Courir",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Eau fraîche", "Tout le corps"],
+                "ideasB": ["Air frais", "Facile"]
+            },
+            {
+                "topic": "Musique vs sport — qu'est-ce qui est mieux ?",
+                "sideA": "Musique",
+                "sideB": "Sport",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Écouter", "Se sentir bien"],
+                "ideasB": ["Actif", "Santé"]
+            },
+            {
+                "topic": "Animaux de la ferme vs animaux sauvages — qu'est-ce qui est plus intéressant ?",
+                "sideA": "Ferme",
+                "sideB": "Sauvages",
+                "level": "starter",
+                "theme": "animals_A1",
+                "ideasA": ["Nourriture", "Utiles"],
+                "ideasB": ["Jungle", "Excitant"]
+            },
+            {
+                "topic": "Pluie vs soleil — qu'est-ce qui est mieux ?",
+                "sideA": "Pluie",
+                "sideB": "Soleil",
+                "level": "starter",
+                "theme": "weather_A1",
+                "ideasA": ["Plantes", "Confortable"],
+                "ideasB": ["Plage", "Énergie"]
+            },
+            {
+                "topic": "La mer vs la montagne — qu'est-ce qui est mieux pour les vacances ?",
+                "sideA": "Mer",
+                "sideB": "Montagne",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Nager", "Sable"],
+                "ideasB": ["Randonnée", "Vue"]
+            },
+            {
+                "topic": "Fleurs vs arbres — qu'est-ce qui est plus beau ?",
+                "sideA": "Fleurs",
+                "sideB": "Arbres",
+                "level": "starter",
+                "theme": "weather_A1",
+                "ideasA": ["Parfums", "Couleurs"],
+                "ideasB": ["Ombre", "Oxygène"]
+            },
+            {
+                "topic": "Marcher vs faire du vélo — qu'est-ce qui est mieux pour se déplacer ?",
+                "sideA": "Marcher",
+                "sideB": "Vélo",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Gratuit", "Simple"],
+                "ideasB": ["Rapide", "Amusant"]
+            },
+            {
+                "topic": "Voyager seul vs voyager en famille — qu'est-ce qui est plus amusant ?",
+                "sideA": "Seul",
+                "sideB": "Famille",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Ton propre chemin", "Calme"],
+                "ideasB": ["Amusement partagé", "Sûr"]
             }
         ],
         "talkThatTalk": [

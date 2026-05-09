@@ -49,7 +49,7 @@
         const s = window.speakingData?.[lang] || {};
         if (s.talkThatTalk) data.fluency = [...(data.fluency || []), ...s.talkThatTalk.map(d => d.topic)];
         if (s.opinions) data.opinion = [...(data.opinion || []), ...s.opinions.map(d => d.topic)];
-        if (s.debates) data.battle = [...(data.battle || []), ...s.debates.map(d => [d.sideA, d.sideB])];
+        if (s.debates) data.battle = [...(data.battle || []), ...s.debates];
         if (s.quotes) data.critic = [...(data.critic || []), ...s.quotes.map(d => d.topic)];
 
         // Dynamic extraction from window.vocabularyData for specific games
@@ -519,38 +519,55 @@
             await loadLevelData(lang, level);
 
             const data = getGameData();
-            const pair = pick(data.battle || [['A','B']]);
+            const debate = pick(data.battle || [{sideA:'A', sideB:'B', topic:'Which is better?'}]);
             const body = document.getElementById('go-body');
             const DUR = 120;
+
+            // Normalize debate format
+            const sideA = debate.sideA || (Array.isArray(debate) ? debate[0] : 'A');
+            const sideB = debate.sideB || (Array.isArray(debate) ? debate[1] : 'B');
+            const topic = debate.topic || 'Which is better?';
 
             body.innerHTML = `
               <div class="game-card">
                 <div class="game-label">⚖️ Choose your side</div>
-                <div class="game-prompt">Which is better?</div>
+                <div class="game-prompt">${topic}</div>
                 <div class="setup-options" style="margin:1rem 0">
-                  <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'side')" data-val="0"><span class="setup-opt-icon">🅰️</span>${pair[0]}</div>
-                  <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'side')" data-val="1"><span class="setup-opt-icon">🅱️</span>${pair[1]}</div>
+                  <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'side')" data-val="0"><span class="setup-opt-icon">🅰️</span>${sideA}</div>
+                  <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'side')" data-val="1"><span class="setup-opt-icon">🅱️</span>${sideB}</div>
                 </div>
                 <div class="game-sub">Each side gets 2 minutes to argue their case. Then the group votes!</div>
                 <div class="game-controls" style="margin-top:.5rem">
-                  <button class="btn-g-primary" onclick="COSY_ENGINE.battleSpeak(${JSON.stringify(pair)},${DUR})">▶ Start debate</button>
+                  <button class="btn-g-primary" onclick="COSY_ENGINE.battleSpeak(${JSON.stringify(debate).replace(/"/g, '&quot;')},${DUR})">▶ Start debate</button>
                   <button class="btn-g-secondary" onclick="COSY_ENGINE.startBattle()">New topic ↺</button>
                 </div>
               </div>`;
-
-            const btn = document.getElementById('start-debate-btn');
-            if (btn) btn.onclick = () => this.battleSpeak(topic, DUR);
         },
 
-        battleSpeak(pair, dur) {
+        battleSpeak(debate, dur) {
             let battleRound = 0;
+            const sides = [
+                { name: debate.sideA || debate[0], ideas: debate.ideasA || [] },
+                { name: debate.sideB || debate[1], ideas: debate.ideasB || [] }
+            ];
+
             const doRound = () => {
-              const side = pair[battleRound];
+              const currentSide = sides[battleRound];
               const body = document.getElementById('go-body');
               body.innerHTML = `
                 <div class="game-card">
                   <div class="game-label">⚖️ Round ${battleRound+1} of 2</div>
-                  <div class="game-prompt">Arguing for: <em>${side}</em></div>
+                  <div class="game-prompt">Arguing for: <em>${currentSide.name}</em></div>
+
+                  ${currentSide.ideas.length > 0 ? `
+                    <div style="background:var(--sage-light); padding:1rem; border-radius:var(--r-md); margin:1rem 0; border: 1px solid var(--border);">
+                        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin-bottom:.5rem;">💡 Ideas for you:</div>
+                        <ul style="font-size:.85rem; padding-left:1.2rem; color:var(--ink-muted); line-height:1.4;">
+                            ${currentSide.ideas.map(i => `<li>${i}</li>`).join('')}
+                        </ul>
+                    </div>
+                  ` : ''}
+
                   <div class="game-sub">Speak for 2 minutes. Be convincing!</div>
                   ${renderTimerRing(dur, dur)}
                   <div class="game-controls">
@@ -564,7 +581,7 @@
                     <div class="game-card" style="text-align:center">
                       <div style="font-size:1.8rem;margin-bottom:.5rem">👏</div>
                       <div class="game-prompt">Round ${battleRound} done!</div>
-                      <div class="game-sub">Now it's <strong>${pair[battleRound]}</strong>'s turn.</div>
+                      <div class="game-sub">Now it's <strong>${sides[battleRound].name}</strong>'s turn.</div>
                       <button class="btn-g-primary" style="margin:1rem auto 0;display:block" onclick="COSY_ENGINE._doRound()">▶ Start round ${battleRound+1}</button>
                     </div>`;
                    // Export internal helper
@@ -576,8 +593,8 @@
                       <div class="re-title">Both sides heard!</div>
                       <div class="re-sub">Now vote — who argued most convincingly?</div>
                       <div class="setup-options" style="margin-bottom:1.2rem">
-                        <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'vote')"><span>🅰️</span>${pair[0]}</div>
-                        <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'vote')"><span>🅱️</span>${pair[1]}</div>
+                        <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'vote')"><span>🅰️</span>${sides[0].name}</div>
+                        <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'vote')"><span>🅱️</span>${sides[1].name}</div>
                       </div>
                       <div class="re-actions">
                         <button class="btn-g-primary" onclick="COSY_ENGINE.startBattle()">Play again ↺</button>
