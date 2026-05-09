@@ -481,7 +481,7 @@
                 "level": "starter",
                 "theme": "leisure_activities_A1",
                 "ideasA": ["Storie", "Nuove parole"],
-                "ideasB": ["Logica", "Numeri"]
+                "ideasB": ["Logica", "Numbers"]
             },
             {
                 "topic": "Imparare a scuola vs imparare a casa — cosa è meglio?",
@@ -716,6 +716,258 @@
                 "theme": "address_location_A1",
                 "ideasA": ["Il tuo percorso", "Tranquillo"],
                 "ideasB": ["Divertimento condiviso", "Sicuro"]
+            },
+            {
+                "topic": "Vivere con i nonni vs non vivere con loro — cosa è meglio?",
+                "sideA": "Nonni",
+                "sideB": "Non con loro",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Ricevi aiuto", "Impari storie"],
+                "ideasB": ["Più spazio", "Casa tranquilla"]
+            },
+            {
+                "topic": "La cucina della mamma vs la cucina del papà — cosa è meglio?",
+                "sideA": "Mamma",
+                "sideB": "Papà",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Pasta gustosa", "Molto amore"],
+                "ideasB": ["Migliore pizza", "Nuove ricette"]
+            },
+            {
+                "topic": "Matematica vs arte — cosa è meglio?",
+                "sideA": "Matematica",
+                "sideB": "Arte",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Numeri", "Logica"],
+                "ideasB": ["Colori", "Pittura"]
+            },
+            {
+                "topic": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+                "sideA": "Carta",
+                "sideB": "Tablet",
+                "level": "starter",
+                "theme": "basic_technology_devices_A1",
+                "ideasA": ["Nessuna batteria", "Buona sensazione"],
+                "ideasB": ["Veloce", "Risparmia carta"]
+            },
+            {
+                "topic": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+                "sideA": "Parco",
+                "sideB": "Spiaggia",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Erba verde", "Alberi"],
+                "ideasB": ["Sabbia", "Mare blu"]
+            },
+            {
+                "topic": "Gatti che buttano giù le cose vs cani che masticano le scarpe — cosa è peggio?",
+                "sideA": "Gatti",
+                "sideB": "Cani",
+                "level": "starter",
+                "theme": "animals_A1",
+                "ideasA": ["Vetri rotti", "Disordine"],
+                "ideasB": ["No scarpe", "Costoso"]
+            },
+            {
+                "topic": "Mangiare la pizza con la forchetta vs mangiare la pizza con le mani — cosa è meglio?",
+                "sideA": "Forchetta",
+                "sideB": "Mani",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Mani pulite", "Elegante"],
+                "ideasB": ["Veloce", "Modo vero"]
+            },
+            {
+                "topic": "Dormire con le calze vs dormire senza calze — cosa è meglio?",
+                "sideA": "Calze",
+                "sideB": "Senza calze",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Piedi caldi", "Accogliente"],
+                "ideasB": ["Fresco", "Comodo"]
+            },
+            {
+                "topic": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?",
+                "sideA": "Tempo pieno",
+                "sideB": "Tempo parziale",
+                "level": "starter",
+                "theme": "workplace_basics_A1",
+                "ideasA": ["Più soldi", "Grandi progetti"],
+                "ideasB": ["Più tempo libero", "Meno stress"]
+            },
+            {
+                "topic": "Un lavoro che ami vs un lavoro che paga bene — cosa è meglio?",
+                "sideA": "Amore",
+                "sideB": "Soldi",
+                "level": "starter",
+                "theme": "workplace_basics_A1",
+                "ideasA": ["Felice ogni giorno", "Niente stress"],
+                "ideasB": ["Compra casa grande", "Niente problemi di soldi"]
+            },
+            {
+                "topic": "Grande città vs piccola città — cosa è meglio?",
+                "sideA": "Grande città",
+                "sideB": "Piccola città",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Negozi", "Cinema"],
+                "ideasB": ["Amichevole", "Tranquillo"]
+            },
+            {
+                "topic": "Avere figli vs non avere figli — cosa è meglio?",
+                "sideA": "Figli",
+                "sideB": "Niente figli",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Famiglia futura", "Molto divertimento"],
+                "ideasB": ["Tempo libero", "Viaggi facili"]
+            },
+            {
+                "topic": "Esercizio ogni giorno vs riposo — cosa è meglio?",
+                "sideA": "Esercizio",
+                "sideB": "Riposo",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Corpo forte", "Energia"],
+                "ideasB": ["Recupero", "Relax"]
+            },
+            {
+                "topic": "Andare dal dottore vs aspettare — cosa è meglio?",
+                "sideA": "Dottore",
+                "sideB": "Aspettare",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Aiuto veloce", "Sicuro"],
+                "ideasB": ["Risparmia soldi", "Naturale"]
+            },
+            {
+                "topic": "Dormire otto ore vs dormire meno — cosa è meglio?",
+                "sideA": "8 ore",
+                "sideB": "Meno",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Riposato", "Sano"],
+                "ideasB": ["Finisci lavoro", "Più divertimento"]
+            },
+            {
+                "topic": "Shopping online vs shopping in negozio — cosa è meglio?",
+                "sideA": "Online",
+                "sideB": "Negozio",
+                "level": "starter",
+                "theme": "shopping_basics_A1",
+                "ideasA": ["Facile", "Veloce"],
+                "ideasB": ["Vedi oggetti", "Provi vestiti"]
+            },
+            {
+                "topic": "Cose costose vs cose economiche — cosa è meglio?",
+                "sideA": "Costoso",
+                "sideB": "Economico",
+                "level": "starter",
+                "theme": "shopping_basics_A1",
+                "ideasA": ["Buona qualità", "Dura a lungo"],
+                "ideasB": ["Risparmia soldi", "Molte cose"]
+            },
+            {
+                "topic": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?",
+                "sideA": "Nuovo",
+                "sideB": "Seconda mano",
+                "level": "starter",
+                "theme": "shopping_basics_A1",
+                "ideasA": ["Pulito", "Niente problemi"],
+                "ideasB": ["Economico", "Salva natura"]
+            },
+            {
+                "topic": "Guardare la TV a casa vs uscire — cosa è meglio?",
+                "sideA": "TV a casa",
+                "sideB": "Uscire",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Comodo", "Economico"],
+                "ideasB": ["Vedere amici", "Nuovi posti"]
+            },
+            {
+                "topic": "Vacanze con la famiglia vs vacanze con gli amici — cosa è meglio?",
+                "sideA": "Famiglia",
+                "sideB": "Amici",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Sicuro", "Niente costi"],
+                "ideasB": ["Emozionante", "Festa"]
+            },
+            {
+                "topic": "Restare nel proprio paese vs viaggiare all'estero — cosa è meglio?",
+                "sideA": "Mio paese",
+                "sideB": "Estero",
+                "level": "starter",
+                "theme": "address_location_A1",
+                "ideasA": ["Facile", "Niente aereo"],
+                "ideasB": ["Nuova cultura", "Avventura"]
+            },
+            {
+                "topic": "Sport vs lettura — cosa è meglio?",
+                "sideA": "Sport",
+                "sideB": "Lettura",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Sano", "Forte"],
+                "ideasB": ["Rilassato", "Impari cose"]
+            },
+            {
+                "topic": "Vedere gli amici spesso vs avere tempo da soli — cosa è meglio?",
+                "sideA": "Amici",
+                "sideB": "Tempo solo",
+                "level": "starter",
+                "theme": "immediate_family_A1",
+                "ideasA": ["Divertimento", "Storie condivise"],
+                "ideasB": ["Pace", "Hobby"]
+            },
+            {
+                "topic": "Rispondere alle email subito vs lasciarle per dopo — cosa è più professionale?",
+                "sideA": "Subito",
+                "sideB": "Dopo",
+                "level": "starter",
+                "theme": "workplace_basics_A1",
+                "ideasA": ["Professionale", "Finisci veloce"],
+                "ideasB": ["Pensa bene", "Nessuna fretta"]
+            },
+            {
+                "topic": "Lavare i piatti subito vs lasciarli fino a domani — cosa è meglio?",
+                "sideA": "Subito",
+                "sideB": "Domani",
+                "level": "starter",
+                "theme": "furniture_objects_A1",
+                "ideasA": ["Cucina pulita", "Mattina fresca"],
+                "ideasB": ["Relax ora", "Fai tutto dopo"]
+            },
+            {
+                "topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio?",
+                "sideA": "Anticipo",
+                "sideB": "Ritardo",
+                "level": "starter",
+                "theme": "workplace_basics_A1",
+                "ideasA": ["Aspetti a lungo", "Noia"],
+                "ideasB": ["Non educato", "Perdi inizio"]
+            },
+            {
+                "topic": "Avere una scrivania molto organizzata vs una scrivania disordinata — cosa è meglio?",
+                "sideA": "Organizzata",
+                "sideB": "Disordinata",
+                "level": "starter",
+                "theme": "workplace_basics_A1",
+                "ideasA": ["Trovi cose", "Concentrazione"],
+                "ideasB": ["Creativo", "Veloce"]
+            },
+            {
+                "topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — cosa è meglio?",
+                "sideA": "Parlare di lavoro",
+                "sideB": "Niente lavoro",
+                "level": "starter",
+                "theme": "basic_foods_A1",
+                "ideasA": ["Risolvi problemi", "Condividi giornata"],
+                "ideasB": ["Relax", "Tempo in famiglia"]
             }
         ],
         "talkThatTalk": [

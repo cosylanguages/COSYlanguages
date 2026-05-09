@@ -701,6 +701,258 @@
             "theme": "address_location_A1",
             "ideasA": ["Your path", "Quiet"],
             "ideasB": ["Shared fun", "Safe"]
+        },
+        {
+            "topic": "Living with grandparents vs not living with them — which is better?",
+            "sideA": "Grandparents",
+            "sideB": "No grandparents",
+            "level": "starter",
+            "theme": "immediate_family_A1",
+            "ideasA": ["Get help", "Learn stories"],
+            "ideasB": ["More space", "Quiet house"]
+        },
+        {
+            "topic": "Mum's cooking vs dad's cooking — which is better?",
+            "sideA": "Mum",
+            "sideB": "Dad",
+            "level": "starter",
+            "theme": "basic_foods_A1",
+            "ideasA": ["Tasty pasta", "Lots of love"],
+            "ideasB": ["Best pizza", "New recipes"]
+        },
+        {
+            "topic": "Maths vs art — which is better?",
+            "sideA": "Maths",
+            "sideB": "Art",
+            "level": "starter",
+            "theme": "leisure_activities_A1",
+            "ideasA": ["Numbers", "Logic"],
+            "ideasB": ["Colors", "Painting"]
+        },
+        {
+            "topic": "Writing on paper vs typing on a tablet — which is better?",
+            "sideA": "Paper",
+            "sideB": "Tablet",
+            "level": "starter",
+            "theme": "basic_technology_devices_A1",
+            "ideasA": ["No battery", "Good feel"],
+            "ideasB": ["Fast", "Save paper"]
+        },
+        {
+            "topic": "Day at the park vs day at the beach — which is better?",
+            "sideA": "Park",
+            "sideB": "Beach",
+            "level": "starter",
+            "theme": "address_location_A1",
+            "ideasA": ["Green grass", "Trees"],
+            "ideasB": ["Sand", "Blue sea"]
+        },
+        {
+            "topic": "Cats that knock things off tables vs dogs that chew shoes — which is worse?",
+            "sideA": "Cats",
+            "sideB": "Dogs",
+            "level": "starter",
+            "theme": "animals_A1",
+            "ideasA": ["Broken glass", "Messy"],
+            "ideasB": ["No shoes", "Expensive"]
+        },
+        {
+            "topic": "Eating pizza with a fork vs eating pizza with your hands — which is better?",
+            "sideA": "Fork",
+            "sideB": "Hands",
+            "level": "starter",
+            "theme": "basic_foods_A1",
+            "ideasA": ["Clean hands", "Elegant"],
+            "ideasB": ["Fast", "Real way"]
+        },
+        {
+            "topic": "Sleeping with socks on vs sleeping without socks — which is better?",
+            "sideA": "Socks on",
+            "sideB": "Socks off",
+            "level": "starter",
+            "theme": "furniture_objects_A1",
+            "ideasA": ["Warm feet", "Cozy"],
+            "ideasB": ["Fresh", "Comfortable"]
+        },
+        {
+            "topic": "Working full-time vs working part-time — which is better?",
+            "sideA": "Full-time",
+            "sideB": "Part-time",
+            "level": "starter",
+            "theme": "workplace_basics_A1",
+            "ideasA": ["More money", "Big projects"],
+            "ideasB": ["More free time", "Less stress"]
+        },
+        {
+            "topic": "A job you love vs a job that pays well — which is more important?",
+            "sideA": "Love",
+            "sideB": "Money",
+            "level": "starter",
+            "theme": "workplace_basics_A1",
+            "ideasA": ["Happy every day", "No stress"],
+            "ideasB": ["Buy big house", "No money problems"]
+        },
+        {
+            "topic": "Big city vs small town — which is better?",
+            "sideA": "Big city",
+            "sideB": "Small town",
+            "level": "starter",
+            "theme": "address_location_A1",
+            "ideasA": ["Shops", "Cinemas"],
+            "ideasB": ["Friendly", "Quiet"]
+        },
+        {
+            "topic": "Having children vs not having children — which is better?",
+            "sideA": "Children",
+            "sideB": "No children",
+            "level": "starter",
+            "theme": "immediate_family_A1",
+            "ideasA": ["Future family", "Lots of fun"],
+            "ideasB": ["Free time", "Travel easy"]
+        },
+        {
+            "topic": "Exercise every day vs rest — which is better?",
+            "sideA": "Exercise",
+            "sideB": "Rest",
+            "level": "starter",
+            "theme": "leisure_activities_A1",
+            "ideasA": ["Strong body", "Energy"],
+            "ideasB": ["Recover", "Relax"]
+        },
+        {
+            "topic": "Going to the doctor vs waiting — which is better?",
+            "sideA": "Doctor",
+            "sideB": "Waiting",
+            "level": "starter",
+            "theme": "furniture_objects_A1",
+            "ideasA": ["Fast help", "Safe"],
+            "ideasB": ["Save money", "Natural"]
+        },
+        {
+            "topic": "Sleeping eight hours vs sleeping less — which is better?",
+            "sideA": "8 hours",
+            "sideB": "Less",
+            "level": "starter",
+            "theme": "furniture_objects_A1",
+            "ideasA": ["Rested", "Healthy"],
+            "ideasB": ["Finish work", "More fun"]
+        },
+        {
+            "topic": "Online shopping vs shopping in a store — which is better?",
+            "sideA": "Online",
+            "sideB": "Store",
+            "level": "starter",
+            "theme": "shopping_basics_A1",
+            "ideasA": ["Easy", "Fast"],
+            "ideasB": ["See items", "Try clothes"]
+        },
+        {
+            "topic": "Expensive things vs cheap things — which is better value?",
+            "sideA": "Expensive",
+            "sideB": "Cheap",
+            "level": "starter",
+            "theme": "shopping_basics_A1",
+            "ideasA": ["Good quality", "Last long"],
+            "ideasB": ["Save money", "Many things"]
+        },
+        {
+            "topic": "Buying new vs buying second-hand — which is better?",
+            "sideA": "New",
+            "sideB": "Second-hand",
+            "level": "starter",
+            "theme": "shopping_basics_A1",
+            "ideasA": ["Clean", "No problems"],
+            "ideasB": ["Cheap", "Save nature"]
+        },
+        {
+            "topic": "Watching TV at home vs going out — which is better?",
+            "sideA": "TV at home",
+            "sideB": "Going out",
+            "level": "starter",
+            "theme": "leisure_activities_A1",
+            "ideasA": ["Comfortable", "Cheap"],
+            "ideasB": ["See friends", "New places"]
+        },
+        {
+            "topic": "Holidays with family vs holidays with friends — which is better?",
+            "sideA": "Family",
+            "sideB": "Friends",
+            "level": "starter",
+            "theme": "address_location_A1",
+            "ideasA": ["Safe", "No cost"],
+            "ideasB": ["Exciting", "Party"]
+        },
+        {
+            "topic": "Staying in your country vs travelling abroad — which is better?",
+            "sideA": "My country",
+            "sideB": "Abroad",
+            "level": "starter",
+            "theme": "address_location_A1",
+            "ideasA": ["Easy", "No plane"],
+            "ideasB": ["New culture", "Adventure"]
+        },
+        {
+            "topic": "Sport vs reading — which is better?",
+            "sideA": "Sport",
+            "sideB": "Reading",
+            "level": "starter",
+            "theme": "leisure_activities_A1",
+            "ideasA": ["Healthy", "Strong"],
+            "ideasB": ["Relaxed", "Learn things"]
+        },
+        {
+            "topic": "Seeing friends often vs having time alone — which is better?",
+            "sideA": "Friends",
+            "sideB": "Time alone",
+            "level": "starter",
+            "theme": "immediate_family_A1",
+            "ideasA": ["Fun", "Shared stories"],
+            "ideasB": ["Peace", "Hobbies"]
+        },
+        {
+            "topic": "Replying to emails immediately vs leaving them for later — which is more professional?",
+            "sideA": "Immediately",
+            "sideB": "Later",
+            "level": "starter",
+            "theme": "workplace_basics_A1",
+            "ideasA": ["Professional", "Finish fast"],
+            "ideasB": ["Think well", "No rush"]
+        },
+        {
+            "topic": "Doing the dishes immediately vs leaving them until tomorrow — which is better?",
+            "sideA": "Immediately",
+            "sideB": "Tomorrow",
+            "level": "starter",
+            "theme": "furniture_objects_A1",
+            "ideasA": ["Clean kitchen", "Morning fresh"],
+            "ideasB": ["Relax now", "Do all later"]
+        },
+        {
+            "topic": "Being always early vs always five minutes late — which is worse at work?",
+            "sideA": "Always early",
+            "sideB": "Always late",
+            "level": "starter",
+            "theme": "workplace_basics_A1",
+            "ideasA": ["Wait long", "Bored"],
+            "ideasB": ["Not polite", "Miss start"]
+        },
+        {
+            "topic": "Having a very organised desk vs a messy desk — which is better?",
+            "sideA": "Organised",
+            "sideB": "Messy",
+            "level": "starter",
+            "theme": "workplace_basics_A1",
+            "ideasA": ["Find things", "Focus"],
+            "ideasB": ["Creative", "Fast"]
+        },
+        {
+            "topic": "Talking about work at dinner vs no work talk at dinner — which is better?",
+            "sideA": "Work talk",
+            "sideB": "No work talk",
+            "level": "starter",
+            "theme": "basic_foods_A1",
+            "ideasA": ["Solve problems", "Share day"],
+            "ideasB": ["Relax", "Family time"]
         }
     ];
     if (!window.speakingData) window.speakingData = {};
