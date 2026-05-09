@@ -319,7 +319,7 @@
       <div class="hero">
         <div class="hero-tag">Free · No account needed</div>
         <h1>Language games that <em>actually teach</em></h1>
-        <p>8 interactive games — speaking, vocabulary, guessing. Solo or with friends. Pick one and play.</p>
+        <p>14 interactive games — speaking, vocabulary, mystery and puzzles. Solo or with friends.</p>
       </div>
 
       <div class="page">
@@ -329,12 +329,12 @@
           <button class="fpill" data-f="solo" onclick="setFilter('solo',this)">Solo</button>
           <button class="fpill" data-f="group" onclick="setFilter('group',this)">With friends</button>
           <button class="fpill" data-f="speaking" onclick="setFilter('speaking',this)">Speaking</button>
-          <button class="fpill" data-f="vocab" onclick="setFilter('vocab',this)">Vocabulary</button>
+          <button class="fpill" data-f="vocab" onclick="setFilter('vocab',this)">Vocab & Puzzles</button>
           <button class="fpill" data-f="mystery" onclick="setFilter('mystery',this)">Mystery</button>
         </div>
 
         <!-- SPEAKING -->
-        <div class="sec-title fi">🗣️ Speaking & Fluency <span>4 games</span></div>
+        <div class="sec-title fi">🗣️ Speaking & Fluency <span>6 games</span></div>
         <div class="game-grid fi" id="grid-speaking">
           <div class="gc" data-tags="speaking solo group" style="--card-accent:var(--teal);--card-bg:var(--teal-light)" onclick="openGame('fluency')">
             <div class="gc-top"><div class="gc-icon">🗣️</div><div class="gc-name">Fluency Flow</div></div>
@@ -356,10 +356,20 @@
             <div class="gc-desc">A famous quote appears. What does it mean to you? Deep discussion for advanced levels.</div>
             <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">B2+</span></div><button class="gc-play" style="background:var(--rose)" onclick="event.stopPropagation();openGame('critic')">▶ Play</button></div>
           </div>
+          <div class="gc" data-tags="speaking solo group" style="--card-accent:var(--blue);--card-bg:var(--blue-light)" onclick="openGame('storychain')">
+            <div class="gc-top"><div class="gc-icon">🃏</div><div class="gc-name">Story Chain</div></div>
+            <div class="gc-desc">Build a story together, one sentence at a time. Each player must use a secret word.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Speaking</span></div><button class="gc-play" style="background:var(--blue)" onclick="event.stopPropagation();openGame('storychain')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="speaking solo" style="--card-accent:var(--navy);--card-bg:var(--navy-light)" onclick="openGame('hotseat')">
+            <div class="gc-top"><div class="gc-icon">🎯</div><div class="gc-name">Hot Seat</div></div>
+            <div class="gc-desc">The pressure is on! Quick-fire vocabulary questions against the clock. How many can you get?</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag">Speaking</span></div><button class="gc-play" style="background:var(--navy)" onclick="event.stopPropagation();openGame('hotseat')">▶ Play</button></div>
+          </div>
         </div>
 
         <!-- MYSTERY -->
-        <div class="sec-title fi">🕵️ Mystery & Guesses <span>2 games</span></div>
+        <div class="sec-title fi">🕵️ Mystery & Guesses <span>3 games</span></div>
         <div class="game-grid fi" id="grid-mystery">
           <div class="gc" data-tags="speaking group mystery" style="--card-accent:var(--gold);--card-bg:var(--gold-light)" onclick="openGame('action')">
             <div class="gc-top"><div class="gc-icon">🎭</div><div class="gc-name">Action Hero</div></div>
@@ -371,10 +381,15 @@
             <div class="gc-desc">A person or profession is described. Ask yes/no questions to uncover who it is.</div>
             <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag mystery">Mystery</span></div><button class="gc-play" style="background:var(--blue)" onclick="event.stopPropagation();openGame('identity')">▶ Play</button></div>
           </div>
+          <div class="gc" data-tags="speaking solo group mystery" style="--card-accent:var(--plum);--card-bg:var(--plum-light)" onclick="openGame('objectquest')">
+            <div class="gc-top"><div class="gc-icon">📦</div><div class="gc-name">Object Quest</div></div>
+            <div class="gc-desc">Identify the object from clues and hints. Perfect for learning everyday nouns.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag mystery">Mystery</span></div><button class="gc-play" style="background:var(--plum)" onclick="event.stopPropagation();openGame('objectquest')">▶ Play</button></div>
+          </div>
         </div>
 
         <!-- VOCAB -->
-        <div class="sec-title fi">📖 Vocabulary <span>2 games</span></div>
+        <div class="sec-title fi">🧩 Vocab & Puzzles <span>5 games</span></div>
         <div class="game-grid fi" id="grid-vocab">
           <div class="gc" data-tags="vocab solo group" style="--card-accent:var(--teal);--card-bg:var(--teal-light)" onclick="openGame('wordlinker')">
             <div class="gc-top"><div class="gc-icon">🔗</div><div class="gc-name">Word Linker</div></div>
@@ -385,6 +400,21 @@
             <div class="gc-top"><div class="gc-icon">🔤</div><div class="gc-name">Last Letter</div></div>
             <div class="gc-desc">Each new word must start with the last letter of the previous word. Keep the chain going!</div>
             <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Vocab</span></div><button class="gc-play" style="background:var(--plum)" onclick="event.stopPropagation();openGame('lastletter')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="vocab solo group" style="--card-accent:var(--gold);--card-bg:var(--gold-light)" onclick="openGame('emoji')">
+            <div class="gc-top"><div class="gc-icon">📖</div><div class="gc-name">Emoji Odyssey</div></div>
+            <div class="gc-desc">Decipher common phrases and words hidden behind emojis. Fun visual vocabulary.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Vocab</span></div><button class="gc-play" style="background:var(--gold)" onclick="event.stopPropagation();openGame('emoji')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="vocab solo" style="--card-accent:var(--blue);--card-bg:var(--blue-light)" onclick="openGame('crossword')">
+            <div class="gc-top"><div class="gc-icon">🧩</div><div class="gc-name">Cosy Crossword</div></div>
+            <div class="gc-desc">Classic crossword puzzles generated dynamically from your current vocabulary.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag">Puzzles</span></div><button class="gc-play" style="background:var(--blue)" onclick="event.stopPropagation();openGame('crossword')">▶ Play</button></div>
+          </div>
+          <div class="gc" data-tags="vocab solo group" style="--card-accent:var(--rose);--card-bg:var(--rose-light)" onclick="openGame('bingo')">
+            <div class="gc-top"><div class="gc-icon">🔢</div><div class="gc-name">Lucky Numbers</div></div>
+            <div class="gc-desc">Classic Bingo! Perfect for practicing numbers and listening. Play solo or as a group caller.</div>
+            <div class="gc-foot"><div class="gc-tags"><span class="gtag solo">Solo</span><span class="gtag multi">Group</span><span class="gtag">Puzzles</span></div><button class="gc-play" style="background:var(--rose)" onclick="event.stopPropagation();openGame('bingo')">▶ Play</button></div>
           </div>
         </div>
       </div>
@@ -450,6 +480,13 @@
     <script src="../js/games/loader.js"></script>
     <script src="../js/script.js"></script>
 
+    <!-- Game specific logic (pre-loaded for unified access) -->
+    <script src="../js/games/bingo.js"></script>
+    <script src="../js/games/emoji_odyssey.js"></script>
+    <script src="../js/games/crossword.js"></script>
+    <script src="../js/games/story_chain.js"></script>
+    <script src="../js/games/hot_seat.js"></script>
+    <script src="../js/games/guess_games.js"></script>
     <script src="../js/games/unified-engine.js"></script>
 
     <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>

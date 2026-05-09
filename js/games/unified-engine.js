@@ -9,12 +9,48 @@
     /* ══════════════════════════════════════
        GAME DATA HELPERS
     ══════════════════════════════════════ */
+    async function loadLevelData(lang, level) {
+        const familyMap = {
+            'en': 'germanic', 'de': 'germanic',
+            'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
+            'ru': 'slavic', 'el': 'hellenic',
+            'hy': 'armenian', 'ka': 'kartvelian',
+            'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
+        };
+        const family = familyMap[lang.toLowerCase()];
+        if (!family) return;
+
+        const levelPath = (level === 'all' || !level) ? 'starter' : level;
+        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js'];
+        const promises = files.map(file => {
+            const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
+            if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
+            return new Promise((resolve, reject) => {
+                const s = document.createElement('script');
+                s.src = path;
+                s.onload = () => resolve();
+                s.onerror = () => {
+                    console.warn(`Failed to load: ${path}`);
+                    resolve(); // Resolve anyway to not block the game
+                };
+                document.head.appendChild(s);
+            });
+        });
+
+        await Promise.all(promises);
+    }
+
     function getGameData() {
         const lang = localStorage.getItem('language') || 'en';
         // Attempt to get specific language data, fallback to English
-        const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : null);
+        const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinion: [], battle: [], critic: [] });
 
-        if (!data) return {};
+        // Merge specialized speaking data if available
+        const s = window.speakingData?.[lang] || {};
+        if (s.talkThatTalk) data.fluency = [...(data.fluency || []), ...s.talkThatTalk.map(d => d.topic)];
+        if (s.opinions) data.opinion = [...(data.opinion || []), ...s.opinions.map(d => d.topic)];
+        if (s.debates) data.battle = [...(data.battle || []), ...s.debates.map(d => [d.sideA, d.sideB])];
+        if (s.quotes) data.critic = [...(data.critic || []), ...s.quotes.map(d => d.topic)];
 
         // Dynamic extraction from window.vocabularyData for specific games
         // This ensures the games are "naturally" multilingual if vocabulary is loaded
@@ -53,10 +89,16 @@
       battle:     { title:'Battle of Wits ⚖️',  meta:'Speaking · Group · B1+' },
       opinion:    { title:'Opinion Arena 🏟️',   meta:'Speaking · Solo or group · A2+' },
       critic:     { title:"Critic's Corner 🎭", meta:'Speaking · Solo or group · B2+' },
+      storychain: { title:'Story Chain 🃏',     meta:'Speaking · Solo or group' },
+      hotseat:    { title:'Hot Seat 🎯',        meta:'Vocabulary · Solo' },
       action:     { title:'Action Hero 🎭',     meta:'Mystery · Group' },
       identity:   { title:'Identity Mystery 👤',meta:'Mystery · Solo or group' },
+      objectquest:{ title:'Object Quest 📦',    meta:'Mystery · Solo or group' },
       wordlinker: { title:'Word Linker 🔗',     meta:'Vocabulary · Solo or group' },
       lastletter: { title:'Last Letter 🔤',     meta:'Vocabulary · Solo or group' },
+      emoji:      { title:'Emoji Odyssey 📖',   meta:'Vocabulary · Solo or group' },
+      crossword:  { title:'Cosy Crossword 🧩',  meta:'Vocabulary · Solo' },
+      bingo:      { title:'Lucky Numbers 🔢',   meta:'Puzzles · Solo or group' },
     };
 
     /* ══════════════════════════════════════
@@ -123,6 +165,12 @@
         el._t = setTimeout(() => { el.className = 'feedback-bar'; }, 2500);
     }
 
+    function esc(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
     /* ══════════════════════════════════════
        CORE API
     ══════════════════════════════════════ */
@@ -168,6 +216,7 @@
         const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷'];
         const DUR_OPTS  = ['1 minute','2 minutes','3 minutes','5 minutes'];
         const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)'];
+        const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)', 'Alphabet'];
 
         if (id === 'fluency') {
           body.innerHTML = `
@@ -264,6 +313,87 @@
               <button class="btn-start-game" onclick="COSY_ENGINE.startLastLetter()">▶ Start game</button>
             </div>`;
         }
+        else if (id === 'storychain') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Story Chain 🃏</h2>
+              <p>Build a story together. One person sees a secret word and writes a sentence using it (without saying the word). Others try to guess!</p>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startStoryChain()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'hotseat') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Hot Seat 🎯</h2>
+              <p>Quick-fire round! You have 60 seconds to answer as many vocabulary questions as possible. Plurals, definitions, and sentences.</p>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startHotSeat()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'objectquest') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Object Quest 📦</h2>
+              <p>Describe an object without naming it. Use clues about its size, color, or location. Can others guess what it is?</p>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startObjectQuest()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'emoji') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Emoji Odyssey 📖</h2>
+              <p>Two modes: <strong>Guess</strong> the word behind the emoji, or <strong>Tell a Story</strong> using a set of random emojis.</p>
+              <div class="setup-field"><label>Mode</label>
+                <div class="setup-options">
+                  <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'mode')" data-val="guess">🧩 Guess</div>
+                  <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'mode')" data-val="story">📖 Story</div>
+                </div>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startEmojiOdyssey()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'crossword') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Cosy Crossword 🧩</h2>
+              <p>A crossword puzzle generated just for you. Use the clues to fill in the grid. Great for testing your vocabulary depth.</p>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startCrossword()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'bingo') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Lucky Numbers 🔢</h2>
+              <p>Play Bingo! You can be the <strong>Caller</strong> for a group, or play as a <strong>Player</strong> (solo or with a host).</p>
+              <div class="setup-field"><label>Role</label>
+                <div class="setup-options">
+                  <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'role')" data-val="player">🃏 Player</div>
+                  <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'role')" data-val="caller">📣 Caller</div>
+                </div>
+              </div>
+              <div class="setup-field"><label>Type</label>
+                <select class="styled-sel" id="s-type">${BINGO_LVLS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startBingo()">▶ Start game</button>
+            </div>`;
+        }
     }
 
     /* ══════════════════════════════════════
@@ -275,7 +405,11 @@
             el.classList.add('sel');
         },
 
-        startFluency() {
+        async startFluency() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all'; // Default for now
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const durStr = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || '2 minutes';
             const dur = parseInt(durStr) * 60;
@@ -326,7 +460,11 @@
             showTopic();
         },
 
-        startOpinion() {
+        async startOpinion() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all';
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const stmt = pick(data.opinion || ['...']);
             const body = document.getElementById('go-body');
@@ -375,7 +513,11 @@
             });
         },
 
-        startBattle() {
+        async startBattle() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all';
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const pair = pick(data.battle || [['A','B']]);
             const body = document.getElementById('go-body');
@@ -445,7 +587,11 @@
             doRound();
         },
 
-        startCritic() {
+        async startCritic() {
+            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+            const level = 'all';
+            await loadLevelData(lang, level);
+
             const data = getGameData();
             const quote = pick(data.critic || ['...']);
             const body = document.getElementById('go-body');
@@ -713,6 +859,305 @@
                 showFB(fb, 'ok', `✓ "${word}" accepted! Next word must start with <strong>${word.slice(-1).toUpperCase()}</strong>.`);
                 input.focus();
             };
+        },
+
+        startStoryChain() {
+            const data = getGameData();
+            let story = [], pool = data.storychain || [];
+            if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
+
+            const body = document.getElementById('go-body');
+            let currentWord = pick(pool);
+
+            const renderStory = (reveal = false) => {
+                body.innerHTML = `
+                    <div class="game-card">
+                        <div class="game-label">🤫 Host only — keep secret!</div>
+                        <div class="game-prompt" id="sc-word">${currentWord}</div>
+                        <div class="game-sub">Use this word in a sentence. Don't say it! Others must guess.</div>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-label">📖 The Story So Far</div>
+                        <div class="chain-display" style="font-size:.9rem; line-height:1.5; min-height:100px;">
+                            ${story.length ? story.map(s => `<div style="margin-bottom:8px; border-bottom:1px solid var(--border); padding-bottom:4px;">${esc(s.sentence)} ${reveal ? `(<strong style="color:var(--gold)">${esc(s.word)}</strong>)` : ''}</div>`).join('') : 'No sentences yet…'}
+                        </div>
+                        <div class="input-row">
+                            <input class="game-input" id="sc-input" placeholder="Type your sentence…" autocomplete="off">
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.scAdd()">Add sentence</button>
+                        </div>
+                        <div class="game-controls" style="margin-top:1rem">
+                            <button class="btn-g-secondary" onclick="COSY_ENGINE.scReveal()">Reveal words</button>
+                            <button class="btn-g-danger" onclick="COSY_ENGINE.startStoryChain()">New story ↺</button>
+                        </div>
+                    </div>`;
+            };
+
+            window.COSY_ENGINE.scAdd = () => {
+                const input = document.getElementById('sc-input');
+                if (!input || !input.value.trim()) return;
+                story.push({ sentence: input.value.trim(), word: currentWord });
+                currentWord = pick(pool);
+                renderStory();
+            };
+
+            window.COSY_ENGINE.scReveal = () => renderStory(true);
+
+            renderStory();
+        },
+
+        startHotSeat() {
+            const data = getGameData();
+            const body = document.getElementById('go-body');
+            let score = 0, timeLeft = 60, active = true;
+
+            const vocab = (window.vocabularyData && window.vocabularyData[localStorage.getItem('language') || 'en']) || [];
+            if (vocab.length < 5) { showFB(body, 'bad', 'Not enough vocabulary loaded.'); return; }
+
+            const nextQ = () => {
+                if (!active) return;
+                const item = pick(vocab);
+                const types = ['plural', 'definition', 'sentence'];
+                const type = pick(types);
+
+                let prompt = '', answer = '', example = '';
+                if (type === 'plural') {
+                    prompt = `What is the plural of <strong>${item.word}</strong>?`;
+                    answer = item.plural || (item.word + 's');
+                } else if (type === 'definition') {
+                    prompt = `Define the word <strong>${item.word}</strong>.`;
+                    answer = item.definitions?.[0]?.text || '...';
+                } else {
+                    prompt = `Use <strong>${item.word}</strong> in a sentence.`;
+                    answer = item.definitions?.[0]?.examples?.[0]?.text || item.definitions?.[0]?.examples?.[0] || '...';
+                }
+
+                body.innerHTML = `
+                    <div class="score-bar">
+                        <div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">Score</div></div>
+                        <div class="sb-item"><div class="sb-val" id="hs-timer">${timeLeft}</div><div class="sb-lbl">Sec</div></div>
+                    </div>
+                    <div class="game-card" style="text-align:center">
+                        <div class="game-label">🎯 Hot Seat</div>
+                        <div class="game-prompt" style="font-size:1.4rem">${prompt}</div>
+                        <div style="font-size:.8rem; color:var(--ink-faint); margin: 1rem 0;">Suggested: "${answer}"</div>
+                        <div class="game-controls" style="justify-content:center; gap:1rem">
+                            <button class="btn-g-primary" style="background:var(--green)" onclick="COSY_ENGINE.hsResult(true)">✓ Got it!</button>
+                            <button class="btn-g-secondary" onclick="COSY_ENGINE.hsResult(false)">✗ Missed</button>
+                        </div>
+                    </div>`;
+            };
+
+            window.COSY_ENGINE.hsResult = (ok) => { if (ok) score++; nextQ(); };
+
+            startTimer(60, (t) => {
+                timeLeft = t;
+                const el = document.getElementById('hs-timer');
+                if (el) el.textContent = t;
+            }, () => {
+                active = false;
+                body.innerHTML = `
+                    <div class="round-end">
+                        <div class="re-icon">🏆</div>
+                        <div class="re-title">Round Over!</div>
+                        <div class="re-sub">You answered <strong>${score}</strong> questions.</div>
+                        <div class="re-actions">
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.startHotSeat()">Play again ↺</button>
+                            <button class="btn-g-secondary" onclick="closeGame()">Back to hub</button>
+                        </div>
+                    </div>`;
+            });
+
+            nextQ();
+        },
+
+        startObjectQuest() {
+            const data = getGameData();
+            const body = document.getElementById('go-body');
+            const lang = localStorage.getItem('language') || 'en';
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            const objects = vocab.filter(v => v.theme && !v.theme.includes('professions') && !v.theme.includes('famous_people'));
+
+            if (objects.length < 5) { showFB(body, 'bad', 'Not enough vocabulary.'); return; }
+
+            let current = pick(objects), hints = 0;
+
+            const renderQuest = () => {
+                body.innerHTML = `
+                    <div class="game-card">
+                        <div class="game-label">📦 Your Object</div>
+                        <div class="game-prompt" style="font-size:2rem">${current.word} ${current.emoji || ''}</div>
+                        <div class="game-sub">Describe this to others. Give clues about size, color, or where it is found.</div>
+                    </div>
+                    <div class="game-card" id="hint-card" style="display:${hints > 0 ? 'block' : 'none'}">
+                        <div class="game-label">💡 Help Clues</div>
+                        <div id="hint-list" style="font-size:.9rem; line-height:1.6">
+                            ${hints >= 1 ? `<div>• It starts with <strong>${current.word[0].toUpperCase()}</strong></div>` : ''}
+                            ${hints >= 2 ? `<div>• It has <strong>${current.word.length}</strong> letters</div>` : ''}
+                            ${hints >= 3 ? `<div>• Definition: <em>${current.definitions?.[0]?.text || '...'}</em></div>` : ''}
+                        </div>
+                    </div>
+                    <div class="game-controls">
+                        <button class="btn-g-primary" onclick="COSY_ENGINE.oqHint()">Give a hint</button>
+                        <button class="btn-g-secondary" onclick="COSY_ENGINE.startObjectQuest()">Next object →</button>
+                        <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('objectquest')">Setup</button>
+                    </div>`;
+            };
+
+            window.COSY_ENGINE.oqHint = () => { hints++; renderQuest(); };
+            renderQuest();
+        },
+
+        startEmojiOdyssey() {
+            const mode = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'guess';
+            const body = document.getElementById('go-body');
+            const lang = localStorage.getItem('language') || 'en';
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+
+            if (mode === 'guess') {
+                const pool = vocab.filter(v => v.emoji).slice(0, 15);
+                if (pool.length < 4) { showFB(body, 'bad', 'No emoji data found.'); return; }
+
+                let score = 0, current = pick(pool);
+
+                const renderGuess = () => {
+                    const options = shuffle([current.word, ...shuffle(vocab.filter(v => v.word !== current.word)).slice(0, 3).map(v => v.word)]);
+                    body.innerHTML = `
+                        <div class="score-bar"><div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">Score</div></div></div>
+                        <div class="game-card" style="text-align:center">
+                            <div class="game-label">🧩 What is this?</div>
+                            <div class="game-prompt" style="font-size:5rem">${current.emoji}</div>
+                            <div class="word-options" style="margin-top:1.5rem">
+                                ${options.map(o => `<button class="word-opt" onclick="COSY_ENGINE.eoCheck(this,'${o}','${current.word}')">${o}</button>`).join('')}
+                            </div>
+                        </div>`;
+                };
+
+                window.COSY_ENGINE.eoCheck = (btn, val, correct) => {
+                    if (val === correct) {
+                        btn.classList.add('correct'); score++;
+                        setTimeout(() => { current = pick(pool); renderGuess(); }, 1000);
+                    } else {
+                        btn.classList.add('wrong');
+                    }
+                };
+                renderGuess();
+            } else {
+                const emojis = (window.emojiData || ['🍎','🐶','🚗','🏠','⭐','🍕','✈️','⚽']);
+                const nextSet = () => {
+                    const picked = shuffle(emojis).slice(0, 4);
+                    body.innerHTML = `
+                        <div class="game-card" style="text-align:center">
+                            <div class="game-label">📖 Tell a story using:</div>
+                            <div class="game-prompt" style="font-size:3.5rem; letter-spacing:10px;">${picked.join('')}</div>
+                            <div class="game-sub" style="margin-top:1rem">Build the next part of the story with these symbols!</div>
+                            <div class="game-controls" style="justify-content:center; margin-top:2rem">
+                                <button class="btn-g-primary" onclick="COSY_ENGINE.eoNextSet()">Next player →</button>
+                                <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('emoji')">End Story</button>
+                            </div>
+                        </div>`;
+                };
+                window.COSY_ENGINE.eoNextSet = nextSet;
+                nextSet();
+            }
+        },
+
+        startCrossword() {
+            const body = document.getElementById('go-body');
+            body.innerHTML = `
+                <div class="game-card" style="text-align:center">
+                    <div class="game-label">🧩 Dynamic Puzzle</div>
+                    <div id="crossword-grid-container" style="margin: 1.5rem 0; overflow-x:auto;"></div>
+                    <div class="game-prompt" id="crossword-clue-display" style="font-size:1rem; border-top:1px solid var(--border); padding-top:1rem">Click a cell to start</div>
+                    <div class="game-controls" style="margin-top:1.5rem; justify-content:center">
+                        <button class="btn-g-primary" onclick="COSY_ENGINE.cwCheck()">Check Grid</button>
+                        <button class="btn-g-secondary" onclick="COSY_ENGINE.startCrossword()">New Grid ↺</button>
+                    </div>
+                </div>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:1rem">
+                    <div class="game-card" style="padding:1rem">
+                        <div class="game-label">Across</div>
+                        <div id="cw-clues-across" style="font-size:.8rem; text-align:left"></div>
+                    </div>
+                    <div class="game-card" style="padding:1rem">
+                        <div class="game-label">Down</div>
+                        <div id="cw-clues-down" style="font-size:.8rem; text-align:left"></div>
+                    </div>
+                </div>`;
+
+            if (window.crosswordGame) {
+                const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
+                // Note: Simplified lang mapping for crossword logic which expects 2-char code
+                const code = (lang === 'english' ? 'en' : (lang === 'français' ? 'fr' : (lang === 'italiano' ? 'it' : (lang === 'русский' ? 'ru' : 'el'))));
+
+                // We need to inject minimal necessary crossword logic or trigger existing one
+                // For now, let's assume we use the existing window.crosswordGame but need to point it to these IDs
+                // In a real refactor, crossword.js would be more modular.
+                // Re-running start logic:
+                const CrosswordGame = window.crosswordGame.engine || window.CrosswordGame;
+                if (CrosswordGame) {
+                    CrosswordGame.init(code, 'all', 'all');
+                    CrosswordGame.render('crossword-grid-container');
+                    window.COSY_ENGINE.cwCheck = () => {
+                        const { allCorrect, percent } = CrosswordGame.check();
+                        showFB(body, allCorrect ? 'ok' : 'bad', allCorrect ? 'Perfect! Grid complete.' : `Keep going! ${percent}% correct.`);
+                    };
+                }
+            }
+        },
+
+        startBingo() {
+            const role = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'player';
+            const body = document.getElementById('go-body');
+            const type = document.getElementById('s-type')?.value || 'Bingo 1 (0-9)';
+            const lang = localStorage.getItem('language') || 'en';
+
+            if (role === 'caller') {
+                body.innerHTML = `
+                    <div class="game-card" style="text-align:center">
+                        <div class="game-label">📣 Lucky Caller</div>
+                        <div class="game-prompt" id="bingo-call" style="font-size:5rem">---</div>
+                        <div class="game-sub" id="bingo-call-word">Get ready to call!</div>
+                        <div class="game-controls" style="justify-content:center; margin-top:2rem">
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.bingoNext()">Next Item 🎲</button>
+                            <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('bingo')">Stop</button>
+                        </div>
+                        <div id="bingo-history" style="margin-top:1.5rem; font-size:.8rem; opacity:.6; word-wrap:break-word"></div>
+                    </div>`;
+
+                let pool = [];
+                if (type.includes('Alphabet')) pool = shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''));
+                else pool = shuffle(Array.from({length:100}, (_,i)=>i));
+
+                window.COSY_ENGINE.bingoNext = () => {
+                    if (!pool.length) return;
+                    const item = pool.pop();
+                    document.getElementById('bingo-call').textContent = item;
+                    const hist = document.getElementById('bingo-history');
+                    hist.textContent = (hist.textContent ? hist.textContent + ', ' : '') + item;
+                    if (window.gameUtils?.speak) window.gameUtils.speak(item.toString(), lang);
+                };
+            } else {
+                body.innerHTML = `
+                    <div class="game-card" style="text-align:center">
+                        <div class="game-label">🃏 Your Bingo Card</div>
+                        <div id="bingo-grid" class="bingo-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:1.5rem 0"></div>
+                        <div class="game-controls" style="justify-content:center">
+                            <button class="btn-g-secondary" onclick="COSY_ENGINE.startBingo()">New Card ↺</button>
+                        </div>
+                    </div>`;
+
+                const grid = document.getElementById('bingo-grid');
+                let nums = shuffle(Array.from({length:30}, (_,i)=>i)).slice(0,9).sort((a,b)=>a-b);
+                nums.forEach(n => {
+                    const cell = document.createElement('div');
+                    cell.className = 'word-opt';
+                    cell.style.textAlign = 'center';
+                    cell.style.fontSize = '1.2rem';
+                    cell.textContent = n;
+                    cell.onclick = () => cell.classList.toggle('correct');
+                    grid.appendChild(cell);
+                });
+            }
         },
 
         renderSetup: renderSetup
