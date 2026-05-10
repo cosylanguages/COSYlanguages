@@ -5,8 +5,8 @@
                 "sideB": "Source de misère",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La marchandisation de la passion vs la libération de transformer le travail en sens — « faites ce que vous aimez » est-il un conseil ou un piège ?",
@@ -14,8 +14,8 @@
                 "sideB": "Piège",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La carrière comme identité vs la carrière comme moyen — quelle est la relation la plus cohérente qu'un adulte moderne puisse entretenir avec son travail ?",
@@ -23,8 +23,8 @@
                 "sideB": "Moyen",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Le travailleur acharné vertueux vs l'oisif stratégique — lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?",
@@ -32,8 +32,8 @@
                 "sideB": "Oisif",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude — quelle lecture est la plus honnête psychologiquement ?",
@@ -41,8 +41,8 @@
                 "sideB": "Incapacité à accepter la finitude",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu — lequel est le plus défendable ?",
@@ -50,8 +50,8 @@
                 "sideB": "Mythe commercial",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La transparence radicale dans les relations vs la nécessité d'un moi privé — l'intimité et l'individuation peuvent-elles coexister ?",
@@ -59,8 +59,8 @@
                 "sideB": "Moi privé",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "L'éthique du « care » comme correctif féministe vs comme réassignation des mêmes fardeaux — le concept a-t-il tenu ses promesses ?",
@@ -68,8 +68,8 @@
                 "sideB": "Réassignation des fardeaux",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Choisir de ne pas avoir d'enfants comme résistance à l'idéologie nataliste vs comme décision entièrement personnelle sans dimension politique — peuvent-elles être séparées proprement ?",
@@ -77,8 +77,8 @@
                 "sideB": "Décision personnelle",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle — quelle est la position la plus vivable ?",
@@ -86,8 +86,8 @@
                 "sideB": "Obstacle",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Le vieillissement comme déclin vs le vieillissement comme accumulation — quel récit est le plus honnête, et lequel est le plus utile ?",
@@ -95,8 +95,8 @@
                 "sideB": "Accumulation",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine — où faut-il tracer la limite ?",
@@ -104,8 +104,8 @@
                 "sideB": "Refus",
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable — quelles sont les implications pour la construction du soi ?",
@@ -113,8 +113,8 @@
                 "sideB": "Narrateur peu fiable",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'irrélevance structurelle de la pureté morale individuelle — quel est le cadrage le plus honnête ?",
@@ -122,8 +122,8 @@
                 "sideB": "Irrélevance structurelle",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège — quelle lecture est la plus défendable empiriquement ?",
@@ -131,8 +131,8 @@
                 "sideB": "Privilège",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La justice intergénérationnelle comme défi moral central de notre temps vs comme concept obscurcissant systématiquement les inégalités sociales et raciales actuelles — quelle est la critique la plus forte ?",
@@ -140,8 +140,8 @@
                 "sideB": "Obscurcissement des inégalités",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme — quel verdict les preuves soutiennent-elles ?",
@@ -149,8 +149,8 @@
                 "sideB": "Capacité épuisée",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif — quel récit sert le mieux l'adulte qui veut bien vivre ?",
@@ -158,8 +158,8 @@
                 "sideB": "Mécanisme adaptatif",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen — quand le scepticisme sain devient-il une lâcheté épistémique ?",
@@ -167,8 +167,8 @@
                 "sideB": "Pouvoir institutionnel",
                 "level": "proficiency",
                 "theme": "epistemology_truth_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Le récit comme principal moyen pour les adultes de donner un sens à leur vie vs le récit comme principal moyen pour les adultes de s'égarer — quelle fonction domine ?",
@@ -176,8 +176,8 @@
                 "sideB": "S'égarer",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle — existe-t-il un compte rendu cohérent de la véracité qui survive au contact des relations adultes réelles ?",
@@ -185,8 +185,8 @@
                 "sideB": "Vertu contextuelle",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais — lequel représente une relation plus sophistiquée à la réalité ?",
@@ -194,8 +194,8 @@
                 "sideB": "Accepté l'inconnu",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est empiriquement plus transformatrice, et pourquoi la réponse nous met-elle mal à l'aise ?",
@@ -203,8 +203,8 @@
                 "sideB": "Coiffeur",
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour 1", "Idée pour 2"],
+                "ideasB": ["Idée contre 1", "Idée contre 2"]
             },
             {
                 "topic": "Langage : Constitutif vs Expressif",

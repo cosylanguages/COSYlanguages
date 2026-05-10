@@ -5,8 +5,8 @@
                 "sideB": "Κάθετη δομή",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η λατρεία της παραγωγικότητας εναντίον της υπεράσπισης της απραξίας — τι αντικατοπτρίζει καλύτερα αυτό που πραγματικά χρειάζονται οι άνθρωποι από την εργασία;",
@@ -14,8 +14,8 @@
                 "sideB": "Απραξία",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η ηγεσία ως δεξιότητα που μαθαίνεται εναντίον της ηγεσίας ως έμφυτη ποιότητα — ποια άποψη είναι πιο υπερασπίσιμη εμπειρικά;",
@@ -23,8 +23,8 @@
                 "sideB": "Έμφυτη ποιότητα",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Hustle culture εναντίον slow living — ποιο κερδίζει και ποιο πρέπει να κερδίσει;",
@@ -32,8 +32,8 @@
                 "sideB": "Slow living",
                 "level": "advanced",
                 "theme": "routine_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η εταιρική κοινωνική ευθύνη ως πραγματική δέσμευση εναντίον ως διαχείριση φήμης — ποιο πλαίσιο είναι πιο ειλικρινές;",
@@ -41,8 +41,8 @@
                 "sideB": "Διαχείριση φήμης",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η ταυτότητα του ενήλικα ως σταθερή εναντίον διαρκώς υπό κατασκευή — ποια εκδοχή αντικατοπτρίζει καλύτερα τη βιωμένη εμπειρία;",
@@ -50,8 +50,8 @@
                 "sideB": "Υπό κατασκευή",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η εξημέρωση του φεμινισμού από την καταναλωτική κουλτούρα εναντίον του φεμινισμού που αναδιαμορφώνει πραγματικά την ενήλικη ζωή — τι είναι πιο αληθινό;",
@@ -59,8 +59,8 @@
                 "sideB": "Πραγματική αναδιαμόρφωση",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η κρίση της μέσης ηλικίας ως παθολογία εναντίον ως νόμιμη επαναξιολόγηση — ποιο πλαίσιο είναι πιο χρήσιμο;",
@@ -68,8 +68,8 @@
                 "sideB": "Επαναξιολόγηση",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η πίεση να είσαι εξαιρετικός εναντίον της αξιοπρέπειας μιας συνηθισμένης ζωής — ποιο είναι το πιο ανθρώπινο ιδανικό;",
@@ -77,8 +77,8 @@
                 "sideB": "Συνηθισμένη αξιοπρέπεια",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η υποχρέωση φροντίδας των ηλικιωμένων γονέων εναντίον της ευθύνης του κράτους — πού πρέπει να πέφτει το βάρος;",
@@ -86,8 +86,8 @@
                 "sideB": "Κρατική ευθύνη",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η ριζική ειλικρίνεια στις σχέσεις εναντίον της στρατηγικής σιωπής — ποια είναι η πιο ηθική προσέγγιση στην οικειότητα;",
@@ -95,8 +95,8 @@
                 "sideB": "Στρατηγική σιωπή",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η σκόπιμη επιλογή του κοινωνικού σας κύκλου εναντίον της οργανικής δημιουργίας σχέσεων — τι παράγει πιο αυθεντικές φιλίες ενηλίκων;",
@@ -104,8 +104,8 @@
                 "sideB": "Οργανική δημιουργία",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η πυρηνική οικογένεια ως η βέλτιστη κοινωνική μονάδα εναντίον ως μια ιστορικά συγκυριακή διευθέτηση — ποια άποψη είναι πιο υπερασπίσιμη;",
@@ -113,8 +113,8 @@
                 "sideB": "Ιστορική διευθέτηση",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Τεχνοκρατική διακυβέρνηση εναντίον δημοκρατικού λαϊκισμού — τι ενέχει τον μεγαλύτερο μακροπρόθεσμο κίνδυνο για τους ενήλικες πολίτες;",
@@ -122,8 +122,8 @@
                 "sideB": "Λαϊκισμός",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Διαγενεακή δικαιοσύνη εναντίον τρέχουσας ευημερίας — τι πρέπει να έχει προτεραιότητα στη δημόσια πολιτική;",
@@ -131,8 +131,8 @@
                 "sideB": "Τρέχουσα ευημερία",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η υποχρέωση ψήφου εναντίον του δικαιώματος αποχής — ποια είναι η πιο υπερασπίσιμη πολιτική θέση;",
@@ -140,8 +140,8 @@
                 "sideB": "Δικαίωμα αποχής",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ο πατριωτισμός ως πολιτική αρετή εναντίον του πατριωτισμού ως γνωστική αποτυχία — ποια εκδοχή είναι πιο πειστική;",
@@ -149,8 +149,8 @@
                 "sideB": "Γνωστική αποτυχία",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ο απολυταρχισμός της ελευθερίας του λόγου εναντίον του ρυθμιζόμενου λόγου — τι παράγει καλύτερα αποτελέσματα για τις ενήλικες δημοκρατικές κοινωνίες;",
@@ -158,8 +158,8 @@
                 "sideB": "Ρυθμιζόμενος λόγος",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μια καριέρα με νόημα εναντίον μιας δουλειάς που χρηματοδοτεί μια ιδιωτική ζωή με νόημα — ποια είναι η πιο ειλικρινής φιλοδοξία ενήλικα;",
@@ -167,8 +167,8 @@
                 "sideB": "Χρηματοδότηση ζωής",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Θρησκεία εναντίον κοσμικής φιλοσοφίας — τι αντιμετωπίζει πιο αποτελεσματικά τις υπαρξιακές ανάγκες των σύγχρονων ενηλίκων;",
@@ -176,8 +176,8 @@
                 "sideB": "Κοσμική φιλοσοφία",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Η εξετασμένη ζωή εναντίον της απορροφημένης ζωής — ποια αξίζει περισσότερο να τη ζεις και ποιος αποφασίζει;",
@@ -185,8 +185,8 @@
                 "sideB": "Απορροφημένη ζωή",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Κληρονομιά (legacy) εναντίον παρουσίας — ποιο είναι πιο συνεκτικό πράγμα για να επιδιώκει ένας ενήλικας;",
@@ -194,8 +194,8 @@
                 "sideB": "Παρουσία",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ο ενήλικας που «επιτέλους το κατάλαβε» εναντίον του ενήλικα που έχει αποδεχτεί ότι δεν θα το καταλάβει ποτέ — ποιος έχει μεγαλύτερη αυτογνωσία;",
@@ -203,8 +203,8 @@
                 "sideB": "Αποδέχτηκε την άγνοια",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Να τα λέτε όλα στον θεραπευτή σας εναντίον του να τα λέτε όλα στον κομμωτή σας — ποια επαγγελματική σχέση είναι πιο θεραπευτικά αποτελεσματική;",
@@ -212,8 +212,8 @@
                 "sideB": "Κομμωτής",
                 "level": "advanced",
                 "theme": "psychological_concepts_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Το άγχος της Κυριακής ενός ενήλικα με πλήρες πρόγραμμα εναντίον του άγχους ενός ενήλικα με άδειο πρόγραμμα — τι είναι πιο υπαρξιακά ανησυχητικό;",
@@ -221,8 +221,8 @@
                 "sideB": "Άδειο πρόγραμμα",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Υπερβολική σκέψη για κάθε σημαντική απόφαση ζωής εναντίον λήψης τους παρορμητικά — ποια στρατηγική έχει καλύτερο εμπειρικό ιστορικό;",
@@ -230,8 +230,8 @@
                 "sideB": "Παρορμητικότητα",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ενήλικες που διαβάζουν βιβλία αυτοβελτίωσης εναντίον ενηλίκων που αρνούνται να το κάνουν — ποια ομάδα είναι πιο δύσκολη στη συζήτηση σε ένα δείπνο;",
@@ -239,8 +239,8 @@
                 "sideB": "Αρνούνται",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Δημιουργικότητα ΤΝ εναντίον ανθρώπινης καλλιτεχνίας — μπορούν οι μηχανές να δημιουργήσουν πραγματικά τέχνη;",
@@ -248,8 +248,8 @@
                 "sideB": "Ανθρώπινη τέχνη",
                 "level": "advanced",
                 "theme": "science_tech_society_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εξερεύνηση του διαστήματος εναντίον εξερεύνησης των βαθιών θαλασσών — πού πρέπει να εστιάσουμε τους πόρους μας;",
@@ -257,8 +257,8 @@
                 "sideB": "Βαθιά θάλασσα",
                 "level": "advanced",
                 "theme": "science_tech_society_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ψηφιακό απόρρητο εναντίον εθνικής ασφάλειας — δικαιολογείται ποτέ η ολοκληρωτική παρακολούθηση;",
@@ -266,8 +266,8 @@
                 "sideB": "Ασφάλεια",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γενετικά τροποποιημένα τρόφιμα εναντίον βιολογικής γεωργίας — πώς πρέπει να θρέψουμε τον κόσμο;",
@@ -275,8 +275,8 @@
                 "sideB": "Βιολογική",
                 "level": "advanced",
                 "theme": "science_tech_society_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Καθολικό βασικό εισόδημα εναντίον προγραμμάτων εγγύησης θέσεων εργασίας — ποιο είναι το καλύτερο κοινωνικό δίχτυ ασφαλείας;",
@@ -284,8 +284,8 @@
                 "sideB": "Εγγύηση εργασίας",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             }];
     const lang = "el";
     if (!window.speakingData) window.speakingData = {};

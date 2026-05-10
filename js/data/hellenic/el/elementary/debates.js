@@ -5,8 +5,8 @@
                 "sideB": "Σύντομη διαδρομή",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Συχνή αλλαγή εργασίας εναντίον παραμονής στην ίδια εταιρεία — τι είναι καλύτερο για την καριέρα σας;",
@@ -14,8 +14,8 @@
                 "sideB": "Παραμονή",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασία υπερωριών εναντίον αποχώρησης στην ώρα σας κάθε μέρα — ποια είναι η καλύτερη συνήθεια;",
@@ -23,8 +23,8 @@
                 "sideB": "Στην ώρα μου",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ένα αφεντικό που είναι αυστηρό εναντίον ενός αφεντικού που είναι χαλαρό — για ποιον είναι καλύτερο να εργάζεστε;",
@@ -32,8 +32,8 @@
                 "sideB": "Χαλαρό αφεντικό",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασία σε μια μεγάλη εταιρεία εναντίον μιας μικρής εταιρείας — τι είναι καλύτερο;",
@@ -41,8 +41,8 @@
                 "sideB": "Μικρή εταιρεία",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Απόκτηση προαγωγής εναντίον απόκτησης περισσότερου ελεύθερου χρόνου — τι θα επιλέγατε;",
@@ -50,8 +50,8 @@
                 "sideB": "Ελεύθερος χρόνος",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αγορά σπιτιού εναντίον ενοικίασης για μια ζωή — ποια είναι η πιο έξυπνη οικονομική απόφαση;",
@@ -59,8 +59,8 @@
                 "sideB": "Ενοικίαση",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζωή στο κέντρο της πόλης εναντίον ζωής στα προάστια — τι είναι καλύτερο;",
@@ -68,8 +68,8 @@
                 "sideB": "Προάστια",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Δαπάνη χρημάτων σε εμπειρίες εναντίον σε πράγματα — τι σας κάνει πιο ευτυχισμένους;",
@@ -77,8 +77,8 @@
                 "sideB": "Πράγματα",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μαγειρική κάθε μέρα εναντίον προετοιμασίας γευμάτων μία φορά την εβδομάδα — τι είναι πιο πρακτικό;",
@@ -86,8 +86,8 @@
                 "sideB": "Meal prepping",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ύπαρξη καθαριστή εναντίον προσωπικής ενασχόλησης με τις δουλειές του σπιτιού — ποια είναι η καλύτερη επιλογή;",
@@ -95,8 +95,8 @@
                 "sideB": "Προσωπικά",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζωή με σύντροφο εναντίον ζωής μόνος — τι είναι καλύτερο για τους ενήλικες;",
@@ -104,8 +104,8 @@
                 "sideB": "Μόνος",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Απόκτηση παιδιών νωρίς εναντίον απόκτησης παιδιών αργότερα στη ζωή — τι είναι καλύτερο;",
@@ -113,8 +113,8 @@
                 "sideB": "Αργότερα",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Στενές οικογενειακές σχέσεις εναντίον ανεξαρτησίας από την οικογένεια — τι είναι πιο σημαντικό ως ενήλικας;",
@@ -122,8 +122,8 @@
                 "sideB": "Ανεξαρτησία",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γνωριμία με νέους ανθρώπους εναντίον διατήρησης παλιών φιλιών — τι είναι πιο πολύτιμο;",
@@ -131,8 +131,8 @@
                 "sideB": "Παλιοί φίλοι",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Κοινωνικοποίηση μετά τη δουλειά εναντίον επιστροφής κατευθείαν στο σπίτι — τι είναι καλύτερο για τις εργασιακές σχέσεις;",
@@ -140,8 +140,8 @@
                 "sideB": "Σπίτι",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πηγαίνοντας στο γυμναστήριο εναντίον άσκησης σε εξωτερικούς χώρους — τι είναι καλύτερο για τους ενήλικες;",
@@ -149,8 +149,8 @@
                 "sideB": "Έξω",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αυστηρή δίαιτα εναντίον κατανάλωσης των πάντων με μέτρο — τι είναι πιο υγιεινό;",
@@ -158,8 +158,8 @@
                 "sideB": "Μέτρο",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Επίσκεψη σε γιατρό νωρίς εναντίον αναμονής για να δείτε αν θα γίνετε καλύτερα — τι είναι πιο συνετό;",
@@ -167,8 +167,8 @@
                 "sideB": "Αναμονή",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ύπνος οκτώ ωρών εναντίον ύπνου έξι ωρών αλλά με άσκηση — τι είναι καλύτερο για ενέργεια;",
@@ -176,8 +176,8 @@
                 "sideB": "6 ώρες + άσκηση",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μείωση του στρες μέσω του αθλητισμού εναντίον μέσω της χαλάρωσης — τι λειτουργεί καλύτερα;",
@@ -185,8 +185,8 @@
                 "sideB": "Χαλάρωση",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Smartphones εναντίον συνομιλίας πρόσωπο με πρόσωπο — τι χρησιμοποιούμε περισσότερο και είναι αυτό πρόβλημα;",
@@ -194,8 +194,8 @@
                 "sideB": "Πρόσωπο με πρόσωπο",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Online banking εναντίον επίσκεψης στην τράπεζα — τι είναι καλύτερο;",
@@ -203,8 +203,8 @@
                 "sideB": "Στην τράπεζα",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασία με χαρτί εναντίον ψηφιακής εργασίας — τι είναι πιο αποτελεσματικό;",
@@ -212,8 +212,8 @@
                 "sideB": "Ψηφιακά",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Social media για δικτύωση εναντίον συνάντησης ανθρώπων από κοντά — τι είναι πιο χρήσιμο επαγγελματικά;",
@@ -221,8 +221,8 @@
                 "sideB": "Από κοντά",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Οργανωμένες διακοπές εναντίον ανεξάρτητου ταξιδιού — τι είναι καλύτερο για τους ενήλικες;",
@@ -230,8 +230,8 @@
                 "sideB": "Ανεξάρτητα",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σύντομη απόδραση στην πόλη εναντίον διακοπών στην παραλία — ποιος είναι ο καλύτερος τρόπος για να χαλαρώσετε;",
@@ -239,8 +239,8 @@
                 "sideB": "Στην παραλία",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μία μεγάλη διακοπή το χρόνο εναντίον αρκετών μικρών αποδράσεων — τι είναι καλύτερο;",
@@ -248,8 +248,8 @@
                 "sideB": "Πολλές μικρές",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ταξιδεύοντας ως ζευγάρι εναντίον ταξιδεύοντας μόνος — τι είναι πιο απολαυστικό;",
@@ -257,8 +257,8 @@
                 "sideB": "Μόνος",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Το να λέτε στον σύντροφό σας για κάθε μικρό πρόβλημα εναντίον του να κρατάτε τα πράγματα για τον εαυτό σας — τι είναι πιο υγιές;",
@@ -266,8 +266,8 @@
                 "sideB": "Να τα κρατάτε",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Έλεγχος του τηλεφώνου σας αμέσως το πρωί εναντίον αναμονής μέχρι μετά το πρωινό — ποια είναι η καλύτερη συνήθεια;",
@@ -275,8 +275,8 @@
                 "sideB": "Μετά το πρωινό",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Το να γνωρίζετε τα ονόματα των γειτόνων σας εναντίον του να μην τους γνωρίζετε — ποια είναι η πιο φυσιολογική εμπειρία ενήλικα σήμερα;",
@@ -284,8 +284,8 @@
                 "sideB": "Να μην γνωρίζετε",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ψώνια στο σούπερ μάρκετ με λίστα εναντίον χωρίς λίστα — ποιος τύπος ανθρώπου έχει καλύτερη ζωή;",
@@ -293,8 +293,8 @@
                 "sideB": "Χωρίς λίστα",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Το να λέτε στο αφεντικό σας ότι είστε άρρωστοι εναντίον του να πηγαίνετε στη δουλειά άρρωστοι — ποια είναι η πιο γενναία επιλογή;",
@@ -302,8 +302,8 @@
                 "sideB": "Να πηγαίνετε",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πλήρης απασχόληση εναντίον μερικής απασχόλησης — τι είναι καλύτερο;",
@@ -311,17 +311,17 @@
                 "sideB": "Μερική",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Εργασία σε γραφείο εναντίον εργασίας από το σπίτι — τι προτιμάτε;",
+                "topic": "Εργασία σε γραφείο εναντίον εργασίας από το σπίτι — τι είναι καλύτερο;",
                 "sideA": "Γραφείο",
                 "sideB": "Σπίτι",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μια δουλειά που αγαπάτε εναντίον μιας δουλειάς που πληρώνει καλά — τι είναι πιο σημαντικό;",
@@ -329,8 +329,8 @@
                 "sideB": "Καλή αμοιβή",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασία με άλλους ανθρώπους εναντίον εργασίας μόνος — τι είναι καλύτερο;",
@@ -338,8 +338,8 @@
                 "sideB": "Μόνος",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μια σύντομη διαδρομή εναντίον μιας μεγάλης διαδρομής για τη δουλειά — τι είναι πιο αποδεκτό;",
@@ -347,8 +347,8 @@
                 "sideB": "Μεγάλη",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζωή μόνος εναντίον ζωής με σύντροφο — τι είναι καλύτερο;",
@@ -356,8 +356,8 @@
                 "sideB": "Σύντροφος",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μεγάλη πόλη εναντίον μικρής πόλης — ποιο είναι το καλύτερο μέρος για να ζεις ως ενήλικας;",
@@ -365,8 +365,8 @@
                 "sideB": "Μικρή πόλη",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μαγειρική στο σπίτι εναντίον φαγητού έξω — τι είναι καλύτερο για την καθημερινή ζωή;",
@@ -374,8 +374,8 @@
                 "sideB": "Έξω",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Έχοντας παιδιά εναντίον μη έχοντας παιδιά — ποια ζωή είναι καλύτερη;",
@@ -383,8 +383,8 @@
                 "sideB": "Χωρίς παιδιά",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ενοικίαση διαμερίσματος εναντίον αγοράς σπιτιού — τι είναι καλύτερο για τους νέους ενήλικες;",
@@ -392,8 +392,8 @@
                 "sideB": "Αγορά",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Άσκηση κάθε μέρα εναντίον ξεκούρασης — τι είναι καλύτερο για την υγεία σας;",
@@ -401,8 +401,8 @@
                 "sideB": "Ξεκούραση",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πηγαίνοντας στον γιατρό εναντίον αναμονής — τι είναι καλύτερο όταν νιώθετε άρρωστοι;",
@@ -410,8 +410,8 @@
                 "sideB": "Αναμονή",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ύπνος οκτώ ώρες εναντίον λιγότερου ύπνου — τι είναι πιο ρεαλιστικό για τους ενήλικες;",
@@ -419,8 +419,8 @@
                 "sideB": "Λιγότερο",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Περπάτημα προς τη δουλειά εναντίον χρήσης αυτοκινήτου — τι είναι καλύτερο για την υγεία σας;",
@@ -428,17 +428,17 @@
                 "sideB": "Αυτοκίνητο",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Online αγορές εναντίον αγορών σε κατάστημα — τι προτιμάτε;",
+                "topic": "Online αγορές εναντίον αγορών σε κατάστημα — τι είναι καλύτερο;",
                 "sideA": "Online",
                 "sideB": "Κατάστημα",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αποταμίευση για το μέλλον εναντίον απόλαυσης χρημάτων τώρα — τι είναι πιο συνετό;",
@@ -446,8 +446,8 @@
                 "sideB": "Απόλαυση τώρα",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ακριβά πράγματα εναντίον φθηνών πραγμάτων — τι έχει την καλύτερη αξία;",
@@ -455,8 +455,8 @@
                 "sideB": "Φθηνά",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αγορά καινούργιων εναντίον αγοράς μεταχειρισμένων — τι είναι καλύτερο;",
@@ -464,8 +464,8 @@
                 "sideB": "Μεταχειρισμένα",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Παρακολούθηση τηλεόρασης στο σπίτι εναντίον εξόδου — ποιο είναι το καλύτερο βράδυ;",
@@ -473,8 +473,8 @@
                 "sideB": "Έξοδος",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Διακοπές με την οικογένεια εναντίον διακοπών με φίλους — τι είναι καλύτερο;",
@@ -482,8 +482,8 @@
                 "sideB": "Φίλοι",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Παραμονή στη χώρα σας εναντίον ταξιδιού στο εξωτερικό — ποιες είναι οι καλύτερες διακοπές;",
@@ -491,8 +491,8 @@
                 "sideB": "Εξωτερικό",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αθλητισμός εναντίον ανάγνωσης — ποιο είναι το καλύτερο χόμπι για ενήλικες;",
@@ -500,8 +500,8 @@
                 "sideB": "Ανάγνωση",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Βλέποντας συχνά φίλους εναντίον χρόνου μόνος — τι είναι πιο σημαντικό;",
@@ -509,8 +509,8 @@
                 "sideB": "Χρόνος μόνος",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Απάντηση στα μηνύματα αμέσως εναντίον του να τα αφήνετε για αργότερα — τι είναι πιο επαγγελματικό;",
@@ -518,8 +518,8 @@
                 "sideB": "Αργότερα",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πλύσιμο πιάτων αμέσως εναντίον του να τα αφήνετε μέχρι αύριο — τι είναι καλύτερο;",
@@ -527,8 +527,8 @@
                 "sideB": "Αύριο",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Να είστε πάντα νωρίς εναντίον πάντα πέντε λεπτά αργά — τι είναι χειρότερο στη δουλειά;",
@@ -536,8 +536,8 @@
                 "sideB": "Αργά",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Έχοντας ένα πολύ οργανωμένο γραφείο εναντίον ενός ακατάστατου γραφείου — ποιο άτομο είναι πιο παραγωγικό;",
@@ -545,8 +545,8 @@
                 "sideB": "Ακατάστατο",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Συζήτηση για τη δουλειά στο δείπνο εναντίον καθόλου συζήτησης για τη δουλειά στο δείπνο — ποιος κανόνας είναι καλύτερος;",
@@ -554,8 +554,8 @@
                 "sideB": "Καμία συζήτηση",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζωή με την οικογένεια εναντίον Μόνος — ποιο είναι καλύτερο;",
@@ -563,8 +563,8 @@
                 "sideB": "Μόνος",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αδελφός εναντίον Αδελφής — ποιο είναι καλύτερο;",
@@ -572,8 +572,8 @@
                 "sideB": "Αδελφή",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μεγάλη εναντίον Μικρής οικογένειας — ποια είναι πιο ωραία;",
@@ -581,8 +581,8 @@
                 "sideB": "Μικρή",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μεγαλύτερο εναντίον Μικρότερου παιδιού — ποιο είναι καλύτερο;",
@@ -590,8 +590,8 @@
                 "sideB": "Μικρότερο",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πρωινό εναντίον Απογευματινού σχολείου — ποιο είναι καλύτερο;",
@@ -599,8 +599,8 @@
                 "sideB": "Απόγευμα",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ανάγνωση εναντίον Μαθηματικών — ποιο είναι πιο διασκεδαστικό;",
@@ -608,8 +608,8 @@
                 "sideB": "Μαθηματικά",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σχολείο εναντίον Σπιτιού — ποιο είναι καλύτερο;",
@@ -617,8 +617,8 @@
                 "sideB": "Σπίτι",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασίες εναντίον Καθόλου εργασιών — ποιο βοηθάει περισσότερο;",
@@ -626,17 +626,17 @@
                 "sideB": "Καμία",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Μόνος εναντίον Με συνεργάτη — ποιο προτιμάτε;",
+                "topic": "Μόνος εναντίον Με συνεργάτη — ποιο είναι καλύτερο;",
                 "sideA": "Μόνος",
                 "sideB": "Συνεργάτης",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Χαρτί εναντίον Υπολογιστή — ποιο είναι καλύτερο;",
@@ -644,8 +644,8 @@
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πρωινό εναντίον Δείπνου — ποιο γεύμα είναι πιο σημαντικό;",
@@ -653,8 +653,8 @@
                 "sideB": "Δείπνο",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζεστό εναντίον Κρύου φαγητού — ποιο είναι καλύτερο;",
@@ -662,8 +662,8 @@
                 "sideB": "Κρύο",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σπίτι εναντίον Εστιατορίου — ποιο είναι καλύτερο;",
@@ -671,17 +671,17 @@
                 "sideB": "Εστιατόριο",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Γλυκό εναντίον Αλμυρού — ποιο προτιμάτε;",
+                "topic": "Γλυκό εναντίον Αλμυρού — ποιο είναι καλύτερο;",
                 "sideA": "Γλυκό",
                 "sideB": "Αλμυρό",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μαγειρική εναντίον Έτοιμου φαγητού — ποιο είναι πιο ωραίο;",
@@ -689,8 +689,8 @@
                 "sideB": "Έτοιμο",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πρωινό εναντίον Αργοπορημένου ξυπνήματος — ποιο είναι καλύτερο;",
@@ -698,8 +698,8 @@
                 "sideB": "Αργά",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πρωί εναντίον Βράδυ — ποιο μέρος της ημέρας είναι πιο ωραίο;",
@@ -707,17 +707,17 @@
                 "sideB": "Βράδυ",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Καθημερινές εναντίον Σαββατοκύριακου — ποιο προτιμάτε;",
+                "topic": "Καθημερινές εναντίον Σαββατοκύριακου — ποιο είναι καλύτερο;",
                 "sideA": "Καθημερινές",
                 "sideB": "Σαββατοκύριακο",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Καλοκαίρι εναντίον Χειμώνα — ποια εποχή είναι καλύτερη;",
@@ -725,8 +725,8 @@
                 "sideB": "Χειμώνας",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ύπνος νωρίς εναντίον Ύπνου αργά — ποιο είναι πιο υγιεινό;",
@@ -734,8 +734,8 @@
                 "sideB": "Αργά",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σπίτι εναντίον Διαμερίσματος — ποιο είναι καλύτερο;",
@@ -743,8 +743,8 @@
                 "sideB": "Διαμέρισμα",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πόλη εναντίον Εξοχής — ποιο είναι καλύτερο μέρος για να ζεις;",
@@ -752,17 +752,17 @@
                 "sideB": "Εξοχή",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Υπνοδωμάτιο εναντίον Καθιστικού — ποιο δωμάτιο προτιμάτε;",
+                "topic": "Υπνοδωμάτιο εναντίον Καθιστικού — ποιο δωμάτιο είναι καλύτερο;",
                 "sideA": "Υπνοδωμάτιο",
                 "sideB": "Καθιστικό",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Επιτραπέζια εναντίον Παιχνιδιών έξω — ποια είναι πιο διασκεδαστικά;",
@@ -770,8 +770,8 @@
                 "sideB": "Έξω",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Τηλεόραση εναντίον Βιβλίου — ποιο είναι καλύτερο;",
@@ -779,8 +779,8 @@
                 "sideB": "Βιβλίο",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αθλητισμός εναντίον Βιντεοπαιχνιδιών — ποιο είναι πιο διασκεδαστικό;",
@@ -788,8 +788,8 @@
                 "sideB": "Βιντεοπαιχνίδια",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζωγραφική εναντίον Τραγουδιού — ποιο χόμπι είναι καλύτερο;",
@@ -797,8 +797,8 @@
                 "sideB": "Τραγούδι",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Παιχνίδι μόνος εναντίον Με φίλους — ποιο είναι πιο διασκεδαστικό;",
@@ -806,17 +806,17 @@
                 "sideB": "Φίλοι",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Κολύμβηση εναντίον Τρεξίματος — ποιο σπορ προτιμάτε;",
+                "topic": "Κολύμβηση εναντίον Τρεξίματος — ποιο σπορ είναι καλύτερο;",
                 "sideA": "Κολύμβηση",
                 "sideB": "Τρέξιμο",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μουσική εναντίον Αθλητισμού — ποιο είναι καλύτερο χόμπι;",
@@ -824,8 +824,8 @@
                 "sideB": "Αθλητισμός",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζώα φάρμας εναντίον Άγριων ζώων — ποια είναι πιο ενδιαφέροντα;",
@@ -833,17 +833,17 @@
                 "sideB": "Άγρια",
                 "level": "elementary",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Βροχή εναντίον Λιακάδας — ποιο καιρό προτιμάτε;",
+                "topic": "Βροχή εναντίον Λιακάδας — ποιο καιρό είναι καλύτερο;",
                 "sideA": "Βροχή",
                 "sideB": "Λιακάδα",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Θάλασσα εναντίον Βουνού — ποιο είναι καλύτερο για διακοπές;",
@@ -851,8 +851,8 @@
                 "sideB": "Βουνό",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Λουλούδια εναντίον Δέντρων — ποια είναι πιο όμορφα;",
@@ -860,8 +860,8 @@
                 "sideB": "Δέντρα",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αυτοκίνητο εναντίον Λεωφορείου — ποιο είναι καλύτερο;",
@@ -869,8 +869,8 @@
                 "sideB": "Λεωφορείο",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Περπάτημα εναντίον Ποδηλάτου — ποιο είναι καλύτερο για μετακίνηση;",
@@ -878,8 +878,8 @@
                 "sideB": "Ποδήλατο",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σύντομες εναντίον Μεγάλων διακοπών — ποιο είναι καλύτερο;",
@@ -887,8 +887,8 @@
                 "sideB": "Μεγάλες",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ταξίδι μόνος εναντίον Με οικογένεια — ποιο είναι πιο διασκεδαστικό;",
@@ -896,8 +896,8 @@
                 "sideB": "Οικογένεια",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Online αγορές vs Αγορές με φυσική παρουσία",
@@ -935,8 +935,8 @@
                 "sideB": "Βράδυ",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αυστηροί δάσκαλοι ή φιλικοί δάσκαλοι — ποιοι βοηθούν περισσότερο τους μαθητές;",
@@ -944,8 +944,8 @@
                 "sideB": "Φιλικοί",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μάθηση με σχολικό βιβλίο ή μάθηση με βίντεο — τι είναι πιο αποτελεσματικό;",
@@ -953,8 +953,8 @@
                 "sideB": "Βίντεο",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σύντομα μαθήματα ή μεγάλα μαθήματα — ποια σε βοηθούν να μαθαίνεις καλύτερα;",
@@ -962,17 +962,17 @@
                 "sideB": "Μεγάλα",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Ομαδικές εργασίες ή ατομικές εργασίες — τι προτιμάτε;",
+                "topic": "Ομαδικές εργασίες ή ατομικές εργασίες — τι είναι καλύτερο;",
                 "sideA": "Ομαδικές",
                 "sideB": "Ατομικές",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σχολική στολή ή καθημερινά ρούχα στο σχολείο — τι είναι καλύτερο;",
@@ -980,8 +980,8 @@
                 "sideB": "Καθημερινά",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Σπιτικό φαγητό ή φαστ φουντ — τι είναι καλύτερο;",
@@ -989,8 +989,8 @@
                 "sideB": "Φαστ φουντ",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Τρία μεγάλα γεύματα ή πολλά μικρά σνακ — τι είναι πιο υγιεινό;",
@@ -998,8 +998,8 @@
                 "sideB": "Σνακ",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Χορτοφαγικό φαγητό ή κρέας — ποια διατροφή είναι καλύτερη;",
@@ -1007,8 +1007,8 @@
                 "sideB": "Κρέας",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πίνοντας τσάι ή πίνοντας καφέ — τι είναι καλύτερο;",
@@ -1016,17 +1016,17 @@
                 "sideB": "Καφές",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Τρώγοντας μόνος ή τρώγοντας με άλλους — τι προτιμάτε;",
+                "topic": "Τρώγοντας μόνος ή τρώγοντας με άλλους — τι είναι καλύτερο;",
                 "sideA": "Μόνος",
                 "sideB": "Με άλλους",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Παίζοντας ένα ομαδικό άθλημα ή ένα ατομικό άθλημα — τι είναι καλύτερο;",
@@ -1034,8 +1034,8 @@
                 "sideB": "Ατομικό",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Περνώντας τον ελεύθερο χρόνο μέσα ή έξω — τι είναι καλύτερο;",
@@ -1043,8 +1043,8 @@
                 "sideB": "Έξω",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Κινηματογράφος ή θέατρο — ποια είναι η καλύτερη βραδινή έξοδος;",
@@ -1052,8 +1052,8 @@
                 "sideB": "Θέατρο",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ακούγοντας μουσική ή παίζοντας ένα όργανο — τι είναι πιο απολαυστικό;",
@@ -1061,8 +1061,8 @@
                 "sideB": "Εκτέλεση",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Βιντεοπαιχνίδια ή επιτραπέζια παιχνίδια — ποια έχουν περισσότερη πλάκα;",
@@ -1070,8 +1070,8 @@
                 "sideB": "Επιτραπέζια",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πηγαίνοντας για ψώνια ή μένοντας στο σπίτι — ποιος είναι ο καλύτερος τρόπος για να περάσετε το Σαββατοκύριακο;",
@@ -1079,8 +1079,8 @@
                 "sideB": "Σπίτι",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Κινητό τηλέφωνο ή υπολογιστής — τι είναι πιο χρήσιμο στην καθημερινή ζωή;",
@@ -1088,8 +1088,8 @@
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Στέλνοντας ένα μήνυμα ή κάνοντας ένα τηλεφώνημα — τι είναι καλύτερο;",
@@ -1097,17 +1097,17 @@
                 "sideB": "Κλήση",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Ηλεκτρονικό βιβλίο ή χάρτινο βιβλίο — τι προτιμάτε να διαβάζετε;",
+                "topic": "Ηλεκτρονικό βιβλίο ή χάρτινο βιβλίο — τι είναι καλύτερο να διαβάζετε;",
                 "sideA": "E-book",
                 "sideB": "Χάρτινο βιβλίο",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Βγάζοντας φωτογραφίες με το κινητό σου ή με μια κάμερα — τι δίνει καλύτερα αποτελέσματα;",
@@ -1115,8 +1115,8 @@
                 "sideB": "Κάμερα",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Διακοπές στην παραλία ή διακοπές στο βουνό — τι είναι καλύτερο;",
@@ -1124,8 +1124,8 @@
                 "sideB": "Βουνό",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ταξιδεύοντας με τρένο ή ταξιδεύοντας με αεροπλάνο — τι είναι καλύτερο;",
@@ -1133,8 +1133,8 @@
                 "sideB": "Αεροπλάνο",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Επίσκεψη σε μια διάσημη πόλη ή επίσκεψη σε ένα μικρό χωριό — τι είναι πιο ενδιαφέρον;",
@@ -1142,17 +1142,17 @@
                 "sideB": "Χωριό",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Διαμονή σε ξενοδοχείο ή διαμονή σε μια τοπική οικογένεια — τι προτιμάτε;",
+                "topic": "Διαμονή σε ξενοδοχείο ή διαμονή σε μια τοπική οικογένεια — τι είναι καλύτερο;",
                 "sideA": "Ξενοδοχείο",
                 "sideB": "Τοπική οικογένεια",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ταξιδεύοντας στο εξωτερικό ή εξερευνώντας τη δική σου χώρα — τι αξίζει περισσότερο;",
@@ -1160,8 +1160,8 @@
                 "sideB": "Δική σου χώρα",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Έχοντας πολλούς φίλους ή έχοντας λίγους στενούς φίλους — τι είναι καλύτερο;",
@@ -1169,8 +1169,8 @@
                 "sideB": "Στενοί φίλοι",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Συνάντηση με φίλους από κοντά ή συνομιλία στο διαδίκτυο — τι είναι πιο ικανοποιητικό;",
@@ -1178,8 +1178,8 @@
                 "sideB": "Online",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζώντας με τους γονείς ή ζώντας σε ένα φοιτητικό διαμέρισμα — τι είναι καλύτερο για τους νέους;",
@@ -1187,8 +1187,8 @@
                 "sideB": "Φοιτητικό σπίτι",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γιορτάζοντας τα γενέθλια στο σπίτι ή βγαίνοντας έξω — τι είναι πιο ωραίο;",
@@ -1196,8 +1196,8 @@
                 "sideB": "Έξοδος",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αποταμίευση χρημάτων ή δαπάνη χρημάτων — τι είναι πιο συνετό;",
@@ -1205,8 +1205,8 @@
                 "sideB": "Ξόδεμα",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασία με μερική απασχόληση κατά τη διάρκεια των σπουδών ή εστίαση μόνο στο σχολείο — τι είναι καλύτερο;",
@@ -1214,8 +1214,8 @@
                 "sideB": "Μόνο σχολείο",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Κερδίζοντας πολλά χρήματα ή έχοντας ελεύθερο χρόνο — τι έχει μεγαλύτερη σημασία;",
@@ -1223,8 +1223,8 @@
                 "sideB": "Ελεύθερος χρόνος",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζωή με τους παππούδες εναντίον χωρίς αυτούς — ποιο είναι πιο ωραίο;",
@@ -1232,8 +1232,8 @@
                 "sideB": "Χωρίς αυτούς",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Το φαγητό της μαμάς εναντίον του μπαμπά — ποιο είναι καλύτερο;",
@@ -1241,8 +1241,8 @@
                 "sideB": "Μπαμπά",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μαθηματικά εναντίον καλλιτεχνικών — ποιο μάθημα έχει πιο πολλή πλάκα;",
@@ -1250,8 +1250,8 @@
                 "sideB": "Καλλιτεχνικά",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γράψιμο στο χαρτί εναντίον πληκτρολόγησης σε τάμπλετ — ποιο είναι καλύτερο;",
@@ -1259,8 +1259,8 @@
                 "sideB": "Τάμπλετ",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πίτσα εναντίον μακαρονάδας — ποιο είναι πιο νόστιμο;",
@@ -1268,8 +1268,8 @@
                 "sideB": "Μακαρονάδα",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Παγωτό εναντίον κέικ — ποιο είναι καλύτερο επιδόρπιο;",
@@ -1277,8 +1277,8 @@
                 "sideB": "Κέικ",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μικρές μέρες εναντίον μεγάλες μέρες — ποιο είναι καλύτερο;",
@@ -1286,8 +1286,8 @@
                 "sideB": "Μεγάλες μέρες",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μέρα στο πάρκο εναντίον μέρα στην παραλία — ποιο είναι καλύτερο;",
@@ -1295,8 +1295,8 @@
                 "sideB": "Παραλία",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Αεροπλάνο εναντίον τρένου — ποιο έχει πιο πολλή πλάκα;",
@@ -1304,8 +1304,8 @@
                 "sideB": "Τρένο",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ντους το πρωί εναντίον ντους το βράδυ — ποιο είναι καλύτερο;",
@@ -1313,8 +1313,8 @@
                 "sideB": "Βράδυ",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γάτες που ρίχνουν πράγματα από τα τραπέζια εναντίον σκύλων που μασάνε παπούτσια — ποιο είναι πιο ενοχλητικό;",
@@ -1322,8 +1322,8 @@
                 "sideB": "Σκύλοι",
                 "level": "elementary",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πίτσα με πιρούνι εναντίον πίτσα με τα χέρια — ποιο είναι το σωστό;",
@@ -1331,8 +1331,8 @@
                 "sideB": "Χέρια",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ύπνος με κάλτσες εναντίον ύπνος χωρίς κάλτσες — ποιο είναι καλύτερο;",
@@ -1340,8 +1340,8 @@
                 "sideB": "Χωρίς",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Κάστρο στην άμμο εναντίον χιονάνθρωπου — ποιο έχει πιο πολλή πλάκα να χτίζεις;",
@@ -1349,8 +1349,8 @@
                 "sideB": "Χιονάνθρωπος",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Πολλές εξετάσεις εναντίον πολύ λίγων — ποιο είναι πιο δίκαιο;",
@@ -1358,8 +1358,8 @@
                 "sideB": "Πολύ λίγες",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Έναρξη σχολείου στα 7 εναντίον στα 5 — ποιο είναι καλύτερο για τα παιδιά;",
@@ -1367,8 +1367,8 @@
                 "sideB": "Στα 5",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Φαγητό αργά εναντίον φαγητό γρήγορα — ποιο είναι καλύτερο για σένα;",
@@ -1376,8 +1376,8 @@
                 "sideB": "Γρήγορα",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μαγειρική στο σπίτι εναντίον παραγγελίας online — ποιο είναι καλύτερο;",
@@ -1385,8 +1385,8 @@
                 "sideB": "Παραγγελία",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Μαγειρική εναντίον ζαχαροπλαστικής — ποιο είναι πιο διασκεδαστικό ως χόμπι;",
@@ -1394,8 +1394,8 @@
                 "sideB": "Ζαχαροπλαστική",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γυμναστήριο εναντίον γυμναστικής έξω — ποιο είναι καλύτερο;",
@@ -1403,8 +1403,8 @@
                 "sideB": "Έξω",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Φωτογραφίες στο κινητό εναντίον εκτυπωμένων — ποιο είναι καλύτερο;",
@@ -1412,8 +1412,8 @@
                 "sideB": "Εκτυπωμένες",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Smart TV εναντίον οθόνης υπολογιστή — ποιο είναι καλύτερο για ταινίες;",
@@ -1421,8 +1421,8 @@
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ζεστή χώρα εναντίον κρύας χώρας — ποιος είναι καλύτερος προορισμός διακοπών;",
@@ -1430,17 +1430,17 @@
                 "sideB": "Κρύα",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
-                "topic": "Να δίνεις δώρα εναντίον να παίρνεις δώρα — ποιο προτιμάς;",
+                "topic": "Να δίνεις δώρα εναντίον να παίρνεις δώρα — ποιο είναι καλύτερο;",
                 "sideA": "Να δίνεις",
                 "sideB": "Να παίρνεις",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Εργασία μέσα εναντίον εργασίας έξω — ποιο είναι καλύτερο;",
@@ -1448,8 +1448,8 @@
                 "sideB": "Έξω",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ανανάς στην πίτσα εναντίον χωρίς ανανά — ποιο είναι το σωστό;",
@@ -1457,8 +1457,8 @@
                 "sideB": "Χωρίς ανανά",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γάλα πρώτα εναντίον τσάι πρώτα — ποιο είναι καλύτερο;",
@@ -1466,8 +1466,8 @@
                 "sideB": "Τσάι πρώτα",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Δευτέρα εναντίον Παρασκευής — ποια μέρα είναι στην πραγματικότητα χειρότερη;",
@@ -1475,8 +1475,8 @@
                 "sideB": "Παρασκευή",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Ξύπνημα πέντε λεπτά πριν το ξυπνητήρι εναντίον ύπνου μέχρι το ξυπνητήρι — ποιο είναι πιο ενοχλητικό;",
@@ -1484,8 +1484,8 @@
                 "sideB": "Μέχρι το ξυπνητήρι",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Γάτες εναντίον σκύλων — ποιο ζώο είναι κρυφά το αφεντικό του σπιτιού;",
@@ -1493,8 +1493,8 @@
                 "sideB": "Σκύλοι",
                 "level": "elementary",
                 "theme": "animals_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             },
             {
                 "topic": "Όταν ζεσταίνεσαι πολύ εναντίον όταν κρυώνεις πολύ — ποιο είναι χειρότερο;",
@@ -1502,8 +1502,8 @@
                 "sideB": "Πολύ κρύο",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Contro idea 1", "Contro idea 2"]
             }];
     const lang = "el";
     if (!window.speakingData) window.speakingData = {};
