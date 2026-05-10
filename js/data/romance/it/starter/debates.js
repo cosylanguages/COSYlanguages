@@ -725,8 +725,8 @@
                 "sideB": "Arte",
                 "level": "starter",
                 "theme": "leisure_activities_A1",
-                "ideasA": ["Numeri", "Logica"],
-                "ideasB": ["Colori", "Pittura"]
+                "ideasA": ["Numbers", "Logic"],
+                "ideasB": ["Colors", "Painting"]
             },
             {
                 "topic": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
