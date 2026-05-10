@@ -5,8 +5,8 @@
                 "sideB": "Bureau",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Sécurité d'emploi vs évolution de carrière — que devraient prioriser les adultes ?",
@@ -14,8 +14,8 @@
                 "sideB": "Évolution",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Créer sa propre entreprise vs travailler pour un employeur — quel est le meilleur choix à 30 ans ?",
@@ -23,8 +23,8 @@
                 "sideB": "Employeur",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Ambition vs équilibre vie pro-vie perso — peut-on vraiment avoir les deux ?",
@@ -32,8 +32,8 @@
                 "sideB": "Équilibre",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Réseautage vs renforcement des compétences — qu'est-ce qui fait avancer votre carrière le plus ?",
@@ -41,8 +41,8 @@
                 "sideB": "Compétences",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Commentaires honnêtes d'un manager vs être laissé à travailler de manière indépendante — qu'est-ce qui motive le plus les adultes ?",
@@ -50,8 +50,8 @@
                 "sideB": "Indépendance",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Changer de carrière à 40 ans vs rester dans son domaine — quelle est la décision la plus sage ?",
@@ -59,8 +59,8 @@
                 "sideB": "Rester",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Rembourser son prêt immobilier par anticipation vs investir cet argent — qu'est-ce qui est le plus intelligent ?",
@@ -68,8 +68,8 @@
                 "sideB": "Investir",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Être propriétaire vs louer en permanence — qu'est-ce qui convient le mieux à la vie adulte moderne ?",
@@ -77,8 +77,8 @@
                 "sideB": "Locataire",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Épargner pour la retraite tôt vs profiter de l'argent dans la trentaine — qu'est-ce qui est le plus sage ?",
@@ -86,8 +86,8 @@
                 "sideB": "Profiter maintenant",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant — quelle approche est la plus saine ?",
@@ -95,8 +95,8 @@
                 "sideB": "Profiter maintenant",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Deux revenus dans un foyer vs un partenaire restant à la maison — qu'est-ce qui fonctionne le mieux pour les familles ?",
@@ -104,8 +104,8 @@
                 "sideB": "Un au foyer",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir des enfants vs choisir de ne pas en avoir — qu'est-ce qui est une vie d'adulte plus épanouissante ?",
@@ -113,8 +113,8 @@
                 "sideB": "Sans enfants",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Éducation stricte vs éducation permissive — qu'est-ce qui produit des adultes plus heureux ?",
@@ -122,8 +122,8 @@
                 "sideB": "Permissive",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Relation à long terme vs rester célibataire — qu'est-ce qui est le mieux pour l'épanouissement personnel ?",
@@ -131,8 +131,8 @@
                 "sideB": "Célibataire",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Séparer vie professionnelle et vie privée vs les intégrer — qu'est-ce qui est plus sain ?",
@@ -140,8 +140,8 @@
                 "sideB": "Intégrer",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Partir à l'étranger en couple vs rester proche de sa famille — quel est le bon choix ?",
@@ -149,8 +149,8 @@
                 "sideB": "Rester proche",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Prioriser la santé physique vs la santé mentale — sur quoi les adultes devraient-ils se concentrer en premier ?",
@@ -158,8 +158,8 @@
                 "sideB": "Mentale",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Santé privée vs s'appuyer sur le système public — quelle est la meilleure stratégie pour un adulte ?",
@@ -167,8 +167,8 @@
                 "sideB": "Publique",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Examens médicaux réguliers vs n'y aller que quand on est malade — quelle est l'approche la plus intelligente ?",
@@ -176,8 +176,8 @@
                 "sideB": "Quand malade",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Réduire l'alcool vs réduire le stress — qu'est-ce qui a le plus grand impact sur la santé des adultes ?",
@@ -185,8 +185,8 @@
                 "sideB": "Moins de stress",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Liberté individuelle vs responsabilité communautaire — qu'est-ce qui devrait guider les décisions des adultes ?",
@@ -194,8 +194,8 @@
                 "sideB": "Responsabilité",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Optimisme quant à l'avenir vs réalisme — quelle est l'attitude la plus utile pour les adultes ?",
@@ -203,8 +203,8 @@
                 "sideB": "Réalisme",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Changer le monde vs se construire une vie personnelle stable — quelle est l'ambition la plus honnête ?",
@@ -212,8 +212,8 @@
                 "sideB": "Vie stable",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Consacrer son temps au bénévolat vs donner de l'argent — qu'est-ce qui fait le plus de bien ?",
@@ -221,8 +221,8 @@
                 "sideB": "Don d'argent",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Suivre les valeurs de sa génération vs les remettre en question — qu'est-ce qui est le plus admirable ?",
@@ -230,8 +230,8 @@
                 "sideB": "Questionner",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Savoir combien gagnent vos collègues vs ne pas le savoir — qu'est-ce qui est le mieux pour l'harmonie au bureau ?",
@@ -239,8 +239,8 @@
                 "sideB": "Ne pas savoir",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Répondre aux messages immédiatement vs prendre son temps — qu'est-ce qui est le plus respectueux dans la vie adulte ?",
@@ -248,8 +248,8 @@
                 "sideB": "Prendre son temps",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait — quelle est l'expérience adulte la plus parlante ?",
@@ -257,8 +257,8 @@
                 "sideB": "Prétendre",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie — quelle est la pire habitude adulte ?",
@@ -266,8 +266,8 @@
                 "sideB": "Sortir quand même",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Parler ouvertement d'argent avec ses amis vs garder cela privé — quelle est l'approche la plus mature ?",
@@ -275,8 +275,8 @@
                 "sideB": "Garder privé",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Télétravail vs Travail au bureau",
@@ -314,8 +314,8 @@
                 "sideB": "En classe",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Mémoriser des faits ou apprendre à trouver l'information — quelle compétence est la plus importante ?",
@@ -323,8 +323,8 @@
                 "sideB": "Trouver l'info",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Études universitaires ou formation professionnelle — quelle est la meilleure voie ?",
@@ -332,8 +332,8 @@
                 "sideB": "Pro",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Examens ou contrôle continu — quelle est la manière la plus juste d'évaluer les élèves ?",
@@ -341,8 +341,8 @@
                 "sideB": "Continu",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Apprendre une langue étrangère à l'école ou vivre à l'étranger — qu'est-ce qui est plus efficace ?",
@@ -350,8 +350,8 @@
                 "sideB": "Vivre à l'étranger",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Écoles non mixtes ou écoles mixtes — lesquelles sont meilleures pour les élèves ?",
@@ -359,8 +359,8 @@
                 "sideB": "Mixte",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Réseaux sociaux ou communication en face à face — qu'est-ce qui est mieux pour rester en contact ?",
@@ -368,8 +368,8 @@
                 "sideB": "Face à face",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Services de streaming ou télévision traditionnelle — qu'est-ce qui est mieux ?",
@@ -377,8 +377,8 @@
                 "sideB": "TV classique",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler à domicile ou travailler dans un bureau — qu'est-ce qui est plus productif ?",
@@ -386,8 +386,8 @@
                 "sideB": "Bureau",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Lire les actualités en ligne ou lire un journal — qu'est-ce qui est plus fiable ?",
@@ -395,8 +395,8 @@
                 "sideB": "Journal papier",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Passer du temps sur les réseaux sociaux ou passer du temps dans la nature — qu'est-ce qui est mieux pour votre santé mentale ?",
@@ -404,8 +404,8 @@
                 "sideB": "Nature",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Utiliser les transports en commun ou conduire une voiture — qu'est-ce qui est mieux pour la société ?",
@@ -413,8 +413,8 @@
                 "sideB": "Voiture",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Acheter des vêtements d'occasion ou acheter des vêtements neufs — quelle est la meilleure habitude ?",
@@ -422,8 +422,8 @@
                 "sideB": "Neuf",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre en ville ou vivre à la campagne — qu'est-ce qui convient le mieux aux jeunes ?",
@@ -431,8 +431,8 @@
                 "sideB": "Campagne",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Végétarisme ou manger de la viande — qu'est-ce qui est mieux pour la planète ?",
@@ -440,8 +440,8 @@
                 "sideB": "Viande",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Changements de mode de vie individuels ou action gouvernementale — qu'est-ce qui fait le plus pour l'environnement ?",
@@ -449,8 +449,8 @@
                 "sideB": "Gouvernement",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Un emploi stable ou une carrière créative — quel est le meilleur choix de vie ?",
@@ -458,8 +458,8 @@
                 "sideB": "Carrière créative",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Lancer sa propre entreprise ou travailler pour une société — qu'est-ce qui est mieux ?",
@@ -467,8 +467,8 @@
                 "sideB": "Société",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Salaire élevé ou satisfaction au travail — qu'est-ce qui compte le plus au travail ?",
@@ -476,8 +476,8 @@
                 "sideB": "Satisfaction",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler de longues heures ou avoir un équilibre vie professionnelle-vie privée — qu'est-ce qui mène au succès ?",
@@ -485,8 +485,8 @@
                 "sideB": "Équilibre",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Choisir une carrière par passion ou en fonction des perspectives d'emploi — qu'est-ce qui est plus sage ?",
@@ -494,8 +494,8 @@
                 "sideB": "Perspectives",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre en tant qu'individu ou donner la priorité à la communauté — qu'est-ce qui est plus important ?",
@@ -503,8 +503,8 @@
                 "sideB": "Communauté",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Valeurs traditionnelles ou valeurs modernes — lesquelles est-il plus important de conserver ?",
@@ -512,8 +512,8 @@
                 "sideB": "Modernes",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Bénévolat ou don d'argent à une œuvre caritative — qu'est-ce qui aide le plus ?",
@@ -521,8 +521,8 @@
                 "sideB": "Don",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Célébrité ou faire une différence discrètement — quel est le meilleur objectif de vie ?",
@@ -530,8 +530,8 @@
                 "sideB": "Différence discrète",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Suivre les règles ou penser par soi-même — qu'est-ce qui compte le plus ?",
@@ -539,8 +539,8 @@
                 "sideB": "Pensée propre",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Santé physique ou santé mentale — quelle devrait être la priorité ?",
@@ -548,8 +548,8 @@
                 "sideB": "Mentale",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Prévention ou traitement — quelle est la meilleure approche des soins de santé ?",
@@ -557,8 +557,8 @@
                 "sideB": "Traitement",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Sport de compétition ou exercice pour le plaisir — qu'est-ce qui est mieux pour vous ?",
@@ -566,8 +566,8 @@
                 "sideB": "Plaisir",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Santé privée ou santé publique — quel système est le plus juste ?",
@@ -575,8 +575,8 @@
                 "sideB": "Public",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cinéma ou littérature — quelle est la forme d'art la plus puissante ?",
@@ -584,8 +584,8 @@
                 "sideB": "Littérature",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Art moderne ou art classique — qu'est-ce qui a le plus de valeur ?",
@@ -593,8 +593,8 @@
                 "sideB": "Classique",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Préserver les vieux bâtiments ou en construire de nouveaux — qu'est-ce qui compte le plus ?",
@@ -602,8 +602,8 @@
                 "sideB": "Construire",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Culture locale ou mondialisation — qu'est-ce qui enrichit le plus les communautés ?",
@@ -611,8 +611,8 @@
                 "sideB": "Mondialisation",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Apprendre de ses erreurs vs apprendre de ses succès — qu'est-ce qui instruit le plus ?",
@@ -620,8 +620,8 @@
                 "sideB": "Succès",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Tablettes en classe vs cahiers traditionnels — qu'est-ce qui aide le plus les élèves ?",
@@ -629,8 +629,8 @@
                 "sideB": "Cahiers",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Être toujours joignable vs avoir du temps libre numérique — qu'est-ce qui est mieux ?",
@@ -638,8 +638,8 @@
                 "sideB": "Temps libre",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Réutiliser les objets vs recycler — qu'est-ce qui est le plus efficace ?",
@@ -647,8 +647,8 @@
                 "sideB": "Recycler",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Une seule carrière pour la vie vs changer de carrière souvent — qu'est-ce qui est mieux ?",
@@ -656,8 +656,8 @@
                 "sideB": "Changer souvent",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Le sommeil vs l'exercice — qu'est-ce qui a le plus d'impact sur votre santé ?",
@@ -665,8 +665,8 @@
                 "sideB": "Exercice",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Musique pop vs musique classique — laquelle a le plus d'impact culturel ?",
@@ -674,8 +674,8 @@
                 "sideB": "Classique",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Savoir comment quelque chose se termine vs être surpris — qu'est-ce qui est mieux ?",
@@ -683,8 +683,8 @@
                 "sideB": "Surpris",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Répondre immédiatement aux messages vs prendre son temps — qu'est-ce qui est le plus respectueux ?",
@@ -692,8 +692,8 @@
                 "sideB": "Prendre son temps",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Regarder une série d'un coup vs regarder un épisode par semaine — quelle est la bonne manière ?",
@@ -701,8 +701,8 @@
                 "sideB": "Hebdomadaire",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Siège côté fenêtre vs siège côté couloir — lequel est objectivement le meilleur ?",
@@ -710,8 +710,8 @@
                 "sideB": "Couloir",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Sauter la salle une fois vs y aller et avoir une mauvaise séance — qu'est-ce qui est le pire ?",
@@ -719,8 +719,8 @@
                 "sideB": "Mauvaise séance",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Se parler à soi-même vs parler à son animal — qu'est-ce qui est le plus raisonnable ?",
@@ -728,8 +728,8 @@
                 "sideB": "À son animal",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             }];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};

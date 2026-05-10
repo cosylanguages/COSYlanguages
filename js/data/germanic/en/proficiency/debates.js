@@ -5,8 +5,8 @@
                 "sideB": "Source of misery",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The commodification of passion vs the liberation of turning work into meaning — is \"do what you love\" advice or a trap?",
@@ -14,8 +14,8 @@
                 "sideB": "Trap",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Career as identity vs career as means — which is the more coherent relationship for a modern adult to have with their work?",
@@ -23,8 +23,8 @@
                 "sideB": "Means",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The virtuous overworker vs the strategic idler — which has been more dishonestly celebrated in Western culture?",
@@ -32,8 +32,8 @@
                 "sideB": "Idler",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Adult ambition as admirable vs adult ambition as a failure to accept finitude — which reading is more psychologically honest?",
@@ -41,8 +41,8 @@
                 "sideB": "Failure to accept finitude",
                 "level": "proficiency",
                 "theme": "work_identity_meaning_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth — which is more defensible?",
@@ -50,8 +50,8 @@
                 "sideB": "Commercial myth",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Radical transparency in relationships vs the necessity of a private self — can intimacy and individuation coexist?",
@@ -59,8 +59,8 @@
                 "sideB": "Private self",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The ethics of care as a feminist corrective vs as a reassignment of the same burdens — has the concept delivered on its promise?",
@@ -68,8 +68,8 @@
                 "sideB": "Reassignment of burdens",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension — can these be cleanly separated?",
@@ -77,8 +77,8 @@
                 "sideB": "Personal decision",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle — which is the more liveable position?",
@@ -86,8 +86,8 @@
                 "sideB": "Obstacle",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Ageing as decline vs ageing as accumulation — which narrative is more honest, and which more useful?",
@@ -95,8 +95,8 @@
                 "sideB": "Accumulation",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The medicalisation of ageing as progress vs as a refusal to accept the human condition — where should the line be drawn?",
@@ -104,8 +104,8 @@
                 "sideB": "Refusal",
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Memory as the substance of adult identity vs memory as a highly unreliable narrator — what are the implications for how we construct a self?",
@@ -113,8 +113,8 @@
                 "sideB": "Unreliable narrator",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity — which is the more honest framing?",
@@ -122,8 +122,8 @@
                 "sideB": "Structural irrelevance",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Political disillusionment as a rational response to available evidence vs as a form of privilege — which reading is more empirically defensible?",
@@ -131,8 +131,8 @@
                 "sideB": "Privilege",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality — which is the stronger critique?",
@@ -140,8 +140,8 @@
                 "sideB": "Obscures inequality",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity — which verdict does the evidence support?",
@@ -149,8 +149,8 @@
                 "sideB": "Exhausted capacity",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The capacity for self-deception as a cognitive defect vs as an adaptive mechanism — which account better serves the adult who wants to live well?",
@@ -158,8 +158,8 @@
                 "sideB": "Adaptive mechanism",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny — when does healthy scepticism become epistemic cowardice?",
@@ -167,8 +167,8 @@
                 "sideB": "Institutional power",
                 "level": "proficiency",
                 "theme": "epistemology_truth_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves — which function dominates?",
@@ -176,8 +176,8 @@
                 "sideB": "Misleading",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Honesty as an unconditional virtue vs honesty as a contextual one — is there a coherent account of truthfulness that survives contact with real adult relationships?",
@@ -185,8 +185,8 @@
                 "sideB": "Contextual virtue",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which represents a more sophisticated relationship with reality?",
@@ -194,8 +194,8 @@
                 "sideB": "Accepted never will",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?",
@@ -203,8 +203,8 @@
                 "sideB": "Hairdresser",
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Language: Constitutive vs Expressive",

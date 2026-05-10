@@ -5,8 +5,8 @@
                 "sideB": "Office",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Job security vs career growth — which should adults prioritise?",
@@ -14,8 +14,8 @@
                 "sideB": "Growth",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Starting your own business vs working for an employer — which is the better choice at 30?",
@@ -23,8 +23,8 @@
                 "sideB": "Working for employer",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Ambition vs work-life balance — can you really have both?",
@@ -32,8 +32,8 @@
                 "sideB": "Balance",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Networking vs skill-building — which advances your career more?",
@@ -41,8 +41,8 @@
                 "sideB": "Skills",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Honest feedback from a manager vs being left to work independently — which motivates adults more?",
@@ -50,8 +50,8 @@
                 "sideB": "Independence",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Changing career at 40 vs staying in your field — which is the wiser decision?",
@@ -59,8 +59,8 @@
                 "sideB": "Staying",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Paying off a mortgage early vs investing that money — which is smarter?",
@@ -68,8 +68,8 @@
                 "sideB": "Investing",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Owning a home vs renting permanently — which suits modern adult life better?",
@@ -77,8 +77,8 @@
                 "sideB": "Renting",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Saving for retirement early vs enjoying money in your thirties — which is wiser?",
@@ -86,8 +86,8 @@
                 "sideB": "Enjoying now",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Living below your means vs spending to enjoy life now — which approach is healthier?",
@@ -95,8 +95,8 @@
                 "sideB": "Enjoy now",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Two incomes in a household vs one partner staying home — which works better for families?",
@@ -104,8 +104,8 @@
                 "sideB": "One staying home",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Having children vs choosing not to — which is a more fulfilling adult life?",
@@ -113,8 +113,8 @@
                 "sideB": "No children",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Strict parenting vs permissive parenting — which produces happier adults?",
@@ -122,8 +122,8 @@
                 "sideB": "Permissive",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Long-term relationship vs staying single — which is better for personal growth?",
@@ -131,8 +131,8 @@
                 "sideB": "Single",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Keeping work and personal life separate vs integrating them — which is healthier?",
@@ -140,8 +140,8 @@
                 "sideB": "Integrated",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Moving abroad as a couple vs staying close to family — which is the right call?",
@@ -149,8 +149,8 @@
                 "sideB": "Staying close",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Prioritising physical health vs mental health — which should adults focus on first?",
@@ -158,8 +158,8 @@
                 "sideB": "Mental",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Private healthcare vs relying on the public system — which is the better adult strategy?",
@@ -167,8 +167,8 @@
                 "sideB": "Public",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Regular medical check-ups vs only going when ill — which is the smarter approach?",
@@ -176,8 +176,8 @@
                 "sideB": "Only when ill",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?",
@@ -185,8 +185,8 @@
                 "sideB": "Reducing stress",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Individual freedom vs community responsibility — which should guide adult decisions?",
@@ -194,8 +194,8 @@
                 "sideB": "Responsibility",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Optimism about the future vs realism — which is the more useful attitude for adults?",
@@ -203,8 +203,8 @@
                 "sideB": "Realism",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Changing the world vs building a stable personal life — which is the more honest ambition?",
@@ -212,8 +212,8 @@
                 "sideB": "Stable life",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Volunteering your time vs donating money — which does more good?",
@@ -221,8 +221,8 @@
                 "sideB": "Donating",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Following your generation's values vs questioning them — which is more admirable?",
@@ -230,8 +230,8 @@
                 "sideB": "Questioning",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?",
@@ -239,8 +239,8 @@
                 "sideB": "Not knowing",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Replying to messages immediately vs taking your time — which is more respectful in adult life?",
@@ -248,8 +248,8 @@
                 "sideB": "Taking time",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?",
@@ -257,8 +257,8 @@
                 "sideB": "Pretending",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Cancelling plans at the last minute vs going out when you don't want to — which is the worse adult habit?",
@@ -266,8 +266,8 @@
                 "sideB": "Going anyway",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Talking openly about money with friends vs keeping it private — which is the more mature approach?",
@@ -275,8 +275,8 @@
                 "sideB": "Keeping private",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Work from home vs. Office work",
@@ -314,8 +314,8 @@
                 "sideB": "Classroom",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Memorising facts vs learning how to find information — which skill is more important?",
@@ -323,8 +323,8 @@
                 "sideB": "Finding info",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "University education vs vocational training — which is a better path?",
@@ -332,8 +332,8 @@
                 "sideB": "Vocational",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Exams vs continuous assessment — which is a fairer way to evaluate students?",
@@ -341,8 +341,8 @@
                 "sideB": "Continuous",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Learning a foreign language at school vs living abroad — which is more effective?",
@@ -350,8 +350,8 @@
                 "sideB": "Living abroad",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Single-sex schools vs mixed schools — which are better for students?",
@@ -359,8 +359,8 @@
                 "sideB": "Mixed",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Social media vs face-to-face communication — which is better for staying in touch?",
@@ -368,8 +368,8 @@
                 "sideB": "Face-to-face",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Streaming services vs traditional TV — which is better?",
@@ -377,8 +377,8 @@
                 "sideB": "Traditional TV",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Working from home vs working in an office — which is more productive?",
@@ -386,8 +386,8 @@
                 "sideB": "Office",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Reading news online vs reading a newspaper — which is more reliable?",
@@ -395,8 +395,8 @@
                 "sideB": "Newspaper",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Spending time on social media vs spending time in nature — which is better for your mental health?",
@@ -404,8 +404,8 @@
                 "sideB": "Nature",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Using public transport vs driving a car — which is better for society?",
@@ -413,8 +413,8 @@
                 "sideB": "Car",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Buying second-hand clothes vs buying new clothes — which is the better habit?",
@@ -422,8 +422,8 @@
                 "sideB": "New",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Living in a city vs living in the countryside — which suits young people better?",
@@ -431,8 +431,8 @@
                 "sideB": "Countryside",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Vegetarianism vs eating meat — which is better for the planet?",
@@ -440,8 +440,8 @@
                 "sideB": "Meat",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Individual lifestyle changes vs government action — which does more for the environment?",
@@ -449,8 +449,8 @@
                 "sideB": "Government",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "A stable job vs a creative career — which is the better life choice?",
@@ -458,8 +458,8 @@
                 "sideB": "Creative career",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Starting your own business vs working for a company — which is better?",
@@ -467,8 +467,8 @@
                 "sideB": "Company",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "High salary vs job satisfaction — which matters more at work?",
@@ -476,8 +476,8 @@
                 "sideB": "Satisfaction",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Working long hours vs having a work-life balance — which leads to more success?",
@@ -485,8 +485,8 @@
                 "sideB": "Balance",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Choosing a career based on passion vs based on job prospects — which is wiser?",
@@ -494,8 +494,8 @@
                 "sideB": "Prospects",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Living as an individual vs putting community first — which is more important?",
@@ -503,8 +503,8 @@
                 "sideB": "Community",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Traditional values vs modern values — which are more important to keep?",
@@ -512,8 +512,8 @@
                 "sideB": "Modern",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Volunteering vs donating money to charity — which helps more?",
@@ -521,8 +521,8 @@
                 "sideB": "Donating",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Fame vs making a difference quietly — which is a better goal in life?",
@@ -530,8 +530,8 @@
                 "sideB": "Quiet difference",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Following rules vs thinking for yourself — which matters more?",
@@ -539,8 +539,8 @@
                 "sideB": "Self-thought",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Physical health vs mental health — which should be the priority?",
@@ -548,8 +548,8 @@
                 "sideB": "Mental",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Prevention vs treatment — which is the better approach to healthcare?",
@@ -557,8 +557,8 @@
                 "sideB": "Treatment",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Competitive sport vs exercise for fun — which is better for you?",
@@ -566,8 +566,8 @@
                 "sideB": "For fun",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Private healthcare vs public healthcare — which system is fairer?",
@@ -575,8 +575,8 @@
                 "sideB": "Public",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Cinema vs literature — which is a more powerful art form?",
@@ -584,8 +584,8 @@
                 "sideB": "Literature",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Modern art vs classical art — which is more valuable?",
@@ -593,8 +593,8 @@
                 "sideB": "Classical",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Preserving old buildings vs building new ones — which matters more?",
@@ -602,8 +602,8 @@
                 "sideB": "Building new",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Local culture vs globalisation — which enriches communities more?",
@@ -611,8 +611,8 @@
                 "sideB": "Globalisation",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Learning from mistakes vs learning from success — which teaches more?",
@@ -620,8 +620,8 @@
                 "sideB": "Success",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Tablets in class vs traditional notebooks — which help students more?",
@@ -629,8 +629,8 @@
                 "sideB": "Notebooks",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Being always contactable vs having digital free time — which is better?",
@@ -638,8 +638,8 @@
                 "sideB": "Free time",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Reusing things vs recycling — which is more effective?",
@@ -647,8 +647,8 @@
                 "sideB": "Recycling",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "One career for life vs changing careers often — which is better?",
@@ -656,8 +656,8 @@
                 "sideB": "Changing often",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Sleep vs exercise — which has a bigger impact on your health?",
@@ -665,8 +665,8 @@
                 "sideB": "Exercise",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Pop music vs classical music — which has a bigger cultural impact?",
@@ -674,8 +674,8 @@
                 "sideB": "Classical",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Knowing how something ends before watching it vs being surprised — which is better?",
@@ -683,8 +683,8 @@
                 "sideB": "Surprised",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Replying to messages immediately vs taking your time — which is more respectful?",
@@ -692,8 +692,8 @@
                 "sideB": "Taking time",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Binge-watching a series in one go vs watching one episode a week — which is the right way?",
@@ -701,8 +701,8 @@
                 "sideB": "Weekly",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Window seat vs aisle seat on a plane — which is objectively better?",
@@ -710,8 +710,8 @@
                 "sideB": "Aisle seat",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Skipping the gym once vs going and having a bad session — which is worse?",
@@ -719,8 +719,8 @@
                 "sideB": "Bad session",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Talking to yourself vs talking to your pet — which is more reasonable?",
@@ -728,8 +728,8 @@
                 "sideB": "To pet",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             }];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};

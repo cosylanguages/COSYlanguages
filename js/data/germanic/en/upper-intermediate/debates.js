@@ -5,8 +5,8 @@
                 "sideB": "5-day week",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?",
@@ -14,8 +14,8 @@
                 "sideB": "Targeted welfare",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The gig economy vs permanent employment — which model better serves workers in the long run?",
@@ -23,8 +23,8 @@
                 "sideB": "Permanent employment",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Meritocracy vs structural advantage — which more accurately explains career success?",
@@ -32,8 +32,8 @@
                 "sideB": "Structural advantage",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Pay transparency vs salary privacy — which creates a fairer workplace?",
@@ -41,8 +41,8 @@
                 "sideB": "Privacy",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Automation vs human labour — which is the bigger long-term threat to adult employment?",
@@ -50,8 +50,8 @@
                 "sideB": "Human labour",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Remote work vs office presence — which is better for career progression and team culture?",
@@ -59,8 +59,8 @@
                 "sideB": "Office presence",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?",
@@ -68,8 +68,8 @@
                 "sideB": "Longer maternity",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Choosing not to have children vs social pressure to have a family — which deserves more respect?",
@@ -77,8 +77,8 @@
                 "sideB": "Family pressure",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?",
@@ -86,8 +86,8 @@
                 "sideB": "Cohabitation",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Dual-income households vs one partner staying home — which model is better for children and adults?",
@@ -95,8 +95,8 @@
                 "sideB": "One partner at home",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?",
@@ -104,8 +104,8 @@
                 "sideB": "Individual choices",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?",
@@ -113,8 +113,8 @@
                 "sideB": "Rental market",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?",
@@ -122,8 +122,8 @@
                 "sideB": "Displacement",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Urban density vs suburban sprawl — which is the better model for liveable cities?",
@@ -131,8 +131,8 @@
                 "sideB": "Suburban sprawl",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?",
@@ -140,8 +140,8 @@
                 "sideB": "Moving away",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "An ageing population as a crisis vs as a resource — which framing is more productive?",
@@ -149,8 +149,8 @@
                 "sideB": "Resource",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?",
@@ -158,8 +158,8 @@
                 "sideB": "Systemic factors",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Mental health days as a legitimate workplace right vs a source of abuse — where should employers draw the line?",
@@ -167,8 +167,8 @@
                 "sideB": "Source of abuse",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Preventive medicine vs curative medicine — which should receive more public funding?",
@@ -176,8 +176,8 @@
                 "sideB": "Curative",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?",
@@ -185,8 +185,8 @@
                 "sideB": "Ageing gracefully",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Surveillance technology for public safety vs the right to privacy — where should the balance lie?",
@@ -194,8 +194,8 @@
                 "sideB": "Privacy",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Social media as a tool for civic engagement vs as a driver of polarisation — which effect dominates?",
@@ -203,8 +203,8 @@
                 "sideB": "Polarisation",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "AI in recruitment vs human judgment — which produces fairer hiring decisions?",
@@ -212,8 +212,8 @@
                 "sideB": "Human judgment",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "The right to be forgotten online vs the public's right to information — which should take precedence?",
@@ -221,8 +221,8 @@
                 "sideB": "Right to info",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Compulsory voting vs voluntary voting — which produces healthier democracies?",
@@ -230,8 +230,8 @@
                 "sideB": "Voluntary",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Political engagement through protest vs through institutional channels — which is more effective for adults today?",
@@ -239,8 +239,8 @@
                 "sideB": "Institutional",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "National identity vs European or global identity — which is more meaningful for adults in 2026?",
@@ -248,8 +248,8 @@
                 "sideB": "Global identity",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?",
@@ -257,8 +257,8 @@
                 "sideB": "Spending cuts",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?",
@@ -266,8 +266,8 @@
                 "sideB": "Pretending",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?",
@@ -275,8 +275,8 @@
                 "sideB": "The guest",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Having a strong opinion about your colleagues' kitchen habits vs not caring at all — which person is more tolerable?",
@@ -284,8 +284,8 @@
                 "sideB": "Not caring",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Attending every optional work social event vs never attending any — which strategy is better for your career and sanity?",
@@ -293,8 +293,8 @@
                 "sideB": "Attending none",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?",
@@ -302,8 +302,8 @@
                 "sideB": "Enjoy it",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?",
@@ -311,8 +311,8 @@
                 "sideB": "Pretending fine",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Social media vs face-to-face interactions — which is better for building relationships?",
@@ -320,8 +320,8 @@
                 "sideB": "Face-to-face",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Urban living vs rural living — which offers a better quality of life?",
@@ -329,8 +329,8 @@
                 "sideB": "Rural",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Online learning vs traditional classroom — which is the future of education?",
@@ -338,8 +338,8 @@
                 "sideB": "Classroom",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Renewable energy vs nuclear power — which is the best solution for the climate?",
@@ -347,8 +347,8 @@
                 "sideB": "Nuclear",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             },
             {
                 "topic": "Fast fashion vs sustainable clothing — can we afford to be ethical?",
@@ -356,8 +356,8 @@
                 "sideB": "Sustainable",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Pro idea 1", "Pro idea 2"],
+                "ideasB": ["Con idea 1", "Con idea 2"]
             }];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};

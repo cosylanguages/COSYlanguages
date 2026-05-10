@@ -5,8 +5,8 @@
                 "sideB": "Structure verticale",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Le culte de la productivité vs l'éloge de l'oisiveté — qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?",
@@ -14,8 +14,8 @@
                 "sideB": "Oisiveté",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée — quel récit est le plus défendable empiriquement ?",
@@ -23,8 +23,8 @@
                 "sideB": "Qualité innée",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Culture de la performance (hustle culture) vs slow living — qui gagne, et qui devrait gagner ?",
@@ -32,8 +32,8 @@
                 "sideB": "Slow living",
                 "level": "advanced",
                 "theme": "routine_A1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation — quel cadrage est le plus honnête ?",
@@ -41,8 +41,8 @@
                 "sideB": "Gestion réputation",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'identité adulte comme fixe vs perpétuellement en construction — quel récit reflète le mieux l'expérience vécue ?",
@@ -50,8 +50,8 @@
                 "sideB": "En construction",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte — qu'est-ce qui est le plus vrai ?",
@@ -59,8 +59,8 @@
                 "sideB": "Remodelage réel",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime — quel cadrage est le plus utile ?",
@@ -68,8 +68,8 @@
                 "sideB": "Réévaluation",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire — quel est l'idéal le plus humain à défendre ?",
@@ -77,8 +77,8 @@
                 "sideB": "Dignité ordinaire",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État — où la charge doit-elle retomber ?",
@@ -86,8 +86,8 @@
                 "sideB": "Resp. de l'État",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'honnêteté radicale dans les relations vs le silence stratégique — quelle est l'approche la plus éthique de l'intimité ?",
@@ -95,8 +95,8 @@
                 "sideB": "Silence stratégique",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Choisir son cercle social délibérément vs laisser les relations se former organiquement — qu'est-ce qui produit des amitiés adultes plus authentiques ?",
@@ -104,8 +104,8 @@
                 "sideB": "Formation organique",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent — quelle vue est la plus défendable ?",
@@ -113,8 +113,8 @@
                 "sideB": "Arrangement historique",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Gouvernance technocratique vs populisme démocratique — qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?",
@@ -122,8 +122,8 @@
                 "sideB": "Populisme",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Justice intergénérationnelle vs bien-être actuel — qu'est-ce qui devrait être prioritaire dans les politiques publiques ?",
@@ -131,8 +131,8 @@
                 "sideB": "Bien-être actuel",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'obligation de voter vs le droit de s'abstenir — quelle est la position civique la plus défendable ?",
@@ -140,8 +140,8 @@
                 "sideB": "Droit de s'abstenir",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive — quel récit est le plus convaincant ?",
@@ -149,8 +149,8 @@
                 "sideB": "Défaillance cognitive",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'absolutisme de la liberté d'expression vs la parole régulée — qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?",
@@ -158,8 +158,8 @@
                 "sideB": "Parole régulée",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens — quelle est l'ambition adulte la plus honnête ?",
@@ -167,8 +167,8 @@
                 "sideB": "Financer vie privée",
                 "level": "advanced",
                 "theme": "organisational_culture_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Religion vs philosophie séculière — qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?",
@@ -176,8 +176,8 @@
                 "sideB": "Phil. séculière",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La vie examinée vs la vie absorbée — laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?",
@@ -185,8 +185,8 @@
                 "sideB": "Vie absorbée",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'héritage (legacy) vs la présence — quelle est la chose la plus cohérente à rechercher pour un adulte ?",
@@ -194,8 +194,8 @@
                 "sideB": "Présence",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais — qui est le plus conscient de soi ?",
@@ -203,8 +203,8 @@
                 "sideB": "Accepté l'ignorance",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?",
@@ -212,8 +212,8 @@
                 "sideB": "Coiffeur",
                 "level": "advanced",
                 "theme": "psychological_concepts_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide — qu'est-ce qui est le plus troublant existentiellement ?",
@@ -221,8 +221,8 @@
                 "sideB": "Planning vide",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement — quelle stratégie a le meilleur bilan empirique ?",
@@ -230,8 +230,8 @@
                 "sideB": "Impulsivité",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire — quel groupe est le plus difficile à supporter lors d'un dîner ?",
@@ -239,8 +239,8 @@
                 "sideB": "Refuse de lire",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Créativité de l'IA vs art humain — les machines peuvent-elles vraiment créer de l'art ?",
@@ -248,8 +248,8 @@
                 "sideB": "Art humain",
                 "level": "advanced",
                 "theme": "science_tech_society_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Exploration spatiale vs exploration des grands fonds — où devrions-nous concentrer nos ressources ?",
@@ -257,8 +257,8 @@
                 "sideB": "Grands fonds",
                 "level": "advanced",
                 "theme": "science_tech_society_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vie privée numérique vs sécurité nationale — la surveillance totale est-elle jamais justifiée ?",
@@ -266,8 +266,8 @@
                 "sideB": "Sécurité",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Aliments génétiquement modifiés vs agriculture biologique — comment devrions-nous nourrir le monde ?",
@@ -275,8 +275,8 @@
                 "sideB": "Bio",
                 "level": "advanced",
                 "theme": "science_tech_society_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Revenu universel vs programmes de garantie d'emploi — quel est le meilleur filet de sécurité sociale ?",
@@ -284,8 +284,8 @@
                 "sideB": "Garantie d'emploi",
                 "level": "advanced",
                 "theme": "power_institutions_C1",
-                "ideasA": [],
-                "ideasB": []
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             }];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
