@@ -690,7 +690,7 @@
                 "level": "starter",
                 "theme": "address_location_A1",
                 "ideasA": ["Δωρεάν", "Απλό"],
-                "ideasB": ["Γρήγορο", "Διασκέδαση"]
+                "ideasB": ["Γρήγορο", "Διασκεδαστική"]
             },
             {
                 "topic": "Ταξίδι μόνος εναντίον ταξίδι με οικογένεια — τι είναι πιο διασκεδαστικό;",
@@ -862,6 +862,15 @@
                 "theme": "shopping_basics_A1",
                 "ideasA": ["Καθαρό", "Όχι προβλήματα"],
                 "ideasB": ["Φθηνό", "Σώζεις τη φύση"]
+            },
+            {
+                "topic": "Guardare la TV a casa vs uscire — τι είναι καλύτερο;",
+                "sideA": "TV a casa",
+                "sideB": "Uscire",
+                "level": "starter",
+                "theme": "leisure_activities_A1",
+                "ideasA": ["Comodo", "Economico"],
+                "ideasB": ["Vedere amici", "Nuovi posti"]
             },
             {
                 "topic": "Διακοπές με την οικογένεια εναντίον διακοπές με φίλους — τι είναι καλύτερο;",
