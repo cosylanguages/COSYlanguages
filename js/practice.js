@@ -107,7 +107,7 @@
         if (!family) return;
 
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
-        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'dishes.js', 'speaking.js', 'locations.js', 'people.js'];
+        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js', 'locations.js', 'people.js'];
         const promises = files.map(file => {
             const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();

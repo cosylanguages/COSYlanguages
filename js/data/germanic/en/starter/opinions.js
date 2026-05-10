@@ -1,18 +1,8 @@
 (function() {
-    const data = [
-            {
-                "topic": "Is breakfast the most important meal?",
-                "level": "starter",
-                "theme": "basic_foods_A1"
-            },
-            {
-                "topic": "Are dogs better pets than cats?",
-                "level": "starter",
-                "theme": "leisure_activities_A1"
-            }
-        ];
+    const data = [];
+    const lang = "en";
     if (!window.speakingData) window.speakingData = {};
-    if (!window.speakingData["en"]) window.speakingData["en"] = {};
-    if (!window.speakingData["en"]["opinions"]) window.speakingData["en"]["opinions"] = [];
-    window.speakingData["en"]["opinions"].push(...data);
+    if (!window.speakingData[lang]) window.speakingData[lang] = {};
+    if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];
+    window.speakingData[lang]["opinions"].push(...data);
 })();

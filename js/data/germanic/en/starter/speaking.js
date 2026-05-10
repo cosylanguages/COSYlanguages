@@ -1,14 +1,10 @@
 (function() {
-    const speakingData = {
-    "en": {
-        "opinionArena": [],
-        "criticsCorner": [],
-        "debates": [],
-        "talkThatTalk": []
-    }
-};
-
+    const lang = "en";
     if (!window.speakingData) window.speakingData = {};
-    if (!window.speakingData["en"]) window.speakingData["en"] = {};
-    // This file is now mostly a legacy shell or could be removed if we update all references.
+    if (!window.speakingData[lang]) window.speakingData[lang] = {};
+    const keys = ["talkThatTalk", "debates", "opinions", "quotes", "fluency"];
+    keys.forEach(k => {
+        if (!window.speakingData[lang][k]) window.speakingData[lang][k] = [];
+    });
+    // Legacy shell. Data is split into specialized files.
 })();
