@@ -315,7 +315,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Lavorare in ufficio vs lavorare da casa — cosa preferisci?",
+                "topic": "Lavorare in ufficio vs lavorare da casa — cosa è meglio?",
                 "sideA": "Ufficio",
                 "sideB": "Casa",
                 "level": "elementary",
@@ -432,7 +432,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Acquisti online vs acquisti in un negozio — cosa preferisci?",
+                "topic": "Acquisti online vs acquisti in un negozio — cosa è meglio?",
                 "sideA": "Online",
                 "sideB": "Negozio",
                 "level": "elementary",
@@ -630,7 +630,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Da soli vs In coppia — cosa preferisci?",
+                "topic": "Da soli vs In coppia — cosa è meglio?",
                 "sideA": "Da soli",
                 "sideB": "Coppia",
                 "level": "elementary",
@@ -675,7 +675,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Dolce vs Salato — cosa preferisci?",
+                "topic": "Dolce vs Salato — cosa è meglio?",
                 "sideA": "Dolce",
                 "sideB": "Salato",
                 "level": "elementary",
@@ -711,7 +711,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Giorni feriali vs Fine settimana — cosa preferisci?",
+                "topic": "Giorni feriali vs Fine settimana — cosa è meglio?",
                 "sideA": "Feriali",
                 "sideB": "Fine settimana",
                 "level": "elementary",
@@ -756,7 +756,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Camera vs Soggiorno — quale stanza preferisci?",
+                "topic": "Camera vs Soggiorno — quale stanza è migliore?",
                 "sideA": "Camera",
                 "sideB": "Soggiorno",
                 "level": "elementary",
@@ -810,7 +810,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Nuoto vs Corsa — quale sport preferisci?",
+                "topic": "Nuoto vs Corsa — quale sport è meglio?",
                 "sideA": "Nuoto",
                 "sideB": "Corsa",
                 "level": "elementary",
@@ -837,7 +837,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Pioggia vs Sole — quale tempo preferisci?",
+                "topic": "Pioggia vs Sole — quale tempo è meglio?",
                 "sideA": "Pioggia",
                 "sideB": "Sole",
                 "level": "elementary",
@@ -966,7 +966,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Progetti di gruppo o compiti individuali — cosa preferisci?",
+                "topic": "Progetti di gruppo o compiti individuali — cosa è meglio?",
                 "sideA": "Gruppo",
                 "sideB": "Individuale",
                 "level": "elementary",
@@ -1020,7 +1020,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Mangiare da soli o mangiare con altri — cosa preferisci?",
+                "topic": "Mangiare da soli o mangiare con altri — cosa è meglio?",
                 "sideA": "Da soli",
                 "sideB": "Con altri",
                 "level": "elementary",
@@ -1101,7 +1101,7 @@
                 "ideasB": []
             },
             {
-                "topic": "E-book o libro cartaceo — cosa preferisci leggere?",
+                "topic": "E-book o libro cartaceo — cosa è meglio leggere?",
                 "sideA": "E-book",
                 "sideB": "Libro cartaceo",
                 "level": "elementary",
@@ -1146,7 +1146,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Soggiornare in un hotel o presso una famiglia locale — cosa preferisci?",
+                "topic": "Soggiornare in un hotel o presso una famiglia locale — cosa è meglio?",
                 "sideA": "Hotel",
                 "sideB": "Famiglia locale",
                 "level": "elementary",
@@ -1434,7 +1434,7 @@
                 "ideasB": []
             },
             {
-                "topic": "Fare regali vs ricevere regali — cosa preferisci?",
+                "topic": "Fare regali vs ricevere regali — cosa è meglio?",
                 "sideA": "Fare regali",
                 "sideB": "Ricevere regali",
                 "level": "elementary",
