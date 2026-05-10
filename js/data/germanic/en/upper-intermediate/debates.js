@@ -5,8 +5,8 @@
                 "sideB": "5-day week",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Enhances employee well-being and reduces burnout, leading to higher productivity during working hours.", "Allows for a better work-life balance, which can significantly improve staff retention rates."],
+                "ideasB": ["May lead to increased stress if the same amount of work must be compressed into fewer days.", "Could cause operational challenges for businesses that need to be available to clients five or seven days a week."]
             },
             {
                 "topic": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?",
@@ -14,8 +14,8 @@
                 "sideB": "Targeted welfare",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Eliminates the 'poverty trap' where individuals lose benefits as soon as they start earning a modest income.", "Reduces administrative costs and bureaucratic hurdles associated with means-testing."],
+                "ideasB": ["Targeted systems ensure that limited public resources are directed toward those who need them most.", "A universal payment might be prohibitively expensive and could potentially discourage some from seeking employment."]
             },
             {
                 "topic": "The gig economy vs permanent employment — which model better serves workers in the long run?",
@@ -23,8 +23,8 @@
                 "sideB": "Permanent employment",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Provides unparalleled flexibility, allowing individuals to choose when and where they work.", "Offers the opportunity to diversify one's skill set by working on a variety of different projects simultaneously."],
+                "ideasB": ["Permanent roles offer essential benefits such as paid leave, health insurance, and pension contributions.", "Provides a stable and predictable income, which is crucial for long-term financial planning and security."]
             },
             {
                 "topic": "Meritocracy vs structural advantage — which more accurately explains career success?",
@@ -32,8 +32,8 @@
                 "sideB": "Structural advantage",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Hard work and talent are the primary drivers of advancement in a fair and competitive market.", "Focusing on merit encourages individuals to constantly improve their skills and perform at their best."],
+                "ideasB": ["Factors such as socio-economic background and networking often play a decisive role in opening doors.", "Systemic inequalities can prevent even the most talented individuals from reaching their full potential."]
             },
             {
                 "topic": "Pay transparency vs salary privacy — which creates a fairer workplace?",
@@ -41,8 +41,8 @@
                 "sideB": "Privacy",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Helps to identify and close gender and racial pay gaps by making discrepancies visible.", "Fosters a culture of trust and ensures that compensation is based on objective criteria rather than negotiation skills."],
+                "ideasB": ["Revealing salaries can lead to resentment and friction among colleagues, potentially damaging team morale.", "Respecting privacy allows for more flexibility in rewarding exceptional performance without causing public controversy."]
             },
             {
                 "topic": "Automation vs human labour — which is the bigger long-term threat to adult employment?",
@@ -50,8 +50,8 @@
                 "sideB": "Human labour",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["AI and robotics can perform repetitive tasks more efficiently and cost-effectively than humans.", "Advancements in technology are increasingly threatening complex roles that were previously thought to be safe."],
+                "ideasB": ["Human workers possess unique qualities like empathy, creativity, and critical thinking that machines cannot replicate.", "New technologies often create entirely new industries and job categories that require human oversight."]
             },
             {
                 "topic": "Remote work vs office presence — which is better for career progression and team culture?",
@@ -59,8 +59,8 @@
                 "sideB": "Office presence",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Eliminating the commute saves time and energy, allowing employees to be more focused and productive.", "Access to a global talent pool allows companies to hire the best people regardless of their geographic location."],
+                "ideasB": ["Spontaneous face-to-face interactions often lead to more creative problem-solving and innovation.", "Being physically present makes it easier to build rapport with mentors and stay visible to senior management."]
             },
             {
                 "topic": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?",
@@ -68,8 +68,8 @@
                 "sideB": "Longer maternity",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Encourages a more equal division of childcare responsibilities from the very beginning.", "Reduces the 'motherhood penalty' by ensuring that both parents take time away from the workforce."],
+                "ideasB": ["Acknowledges the physical reality of childbirth and the importance of maternal recovery and breastfeeding.", "Targeted support for mothers might be more culturally and practically appropriate for many families."]
             },
             {
                 "topic": "Choosing not to have children vs social pressure to have a family — which deserves more respect?",
@@ -77,8 +77,8 @@
                 "sideB": "Family pressure",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Individuals should have the autonomy to decide how to lead their lives without facing judgement.", "Opting out of parenthood can be a responsible choice given environmental concerns and financial constraints."],
+                "ideasB": ["Family units are fundamental to the stability and continuation of society and its cultural values.", "The desire to raise a family is a deeply ingrained human instinct that should be supported and celebrated."]
             },
             {
                 "topic": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?",
@@ -86,8 +86,8 @@
                 "sideB": "Cohabitation",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Provides a clear legal and financial framework that protects both partners and their children.", "Represents a public commitment that can strengthen the bond between partners and provide social stability."],
+                "ideasB": ["Modern relationships should be based on mutual trust and commitment rather than a legal contract.", "Cohabitation offers more flexibility and avoids the expensive and complicated process of a potential divorce."]
             },
             {
                 "topic": "Dual-income households vs one partner staying home — which model is better for children and adults?",
@@ -95,8 +95,8 @@
                 "sideB": "One partner at home",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Provides greater financial security and allows both partners to pursue their professional ambitions.", "Sets a positive example for children by demonstrating gender equality in both work and home life."],
+                "ideasB": ["Having a parent at home ensures consistent emotional support and supervision during a child's formative years.", "Reduces the stress of balancing two demanding careers with the complexities of household management."]
             },
             {
                 "topic": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?",
@@ -104,8 +104,8 @@
                 "sideB": "Individual choices",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Unconscious bias and systemic barriers often prevent women from ascending to high-paying leadership roles.", "Society tends to undervalue professions that are traditionally dominated by women, such as care and education."],
+                "ideasB": ["Differences in earnings can often be attributed to personal decisions regarding work hours and career breaks.", "Women may choose more flexible or less hazardous career paths that naturally offer different compensation levels."]
             },
             {
                 "topic": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?",
@@ -113,8 +113,8 @@
                 "sideB": "Rental market",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Provides long-term financial security and an asset that can be passed down to future generations.", "Allows individuals to have complete control over their living environment and make permanent improvements."],
+                "ideasB": ["A professional rental sector offers greater mobility for those who need to move for work or lifestyle changes.", "Renting eliminates the burden of maintenance costs and the financial risks associated with property market fluctuations."]
             },
             {
                 "topic": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?",
@@ -122,8 +122,8 @@
                 "sideB": "Displacement",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Inward investment can revitalise neglected areas, leading to better infrastructure and safer streets.", "Increased property values can boost the local economy and create new business opportunities for residents."],
+                "ideasB": ["Rising rents often force long-standing residents and small businesses to leave their own communities.", "Gentrification can erase the cultural history and social fabric of a neighbourhood, making it unaffordable."]
             },
             {
                 "topic": "Urban density vs suburban sprawl — which is the better model for liveable cities?",
@@ -131,8 +131,8 @@
                 "sideB": "Suburban sprawl",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Compact cities are more sustainable as they reduce the need for cars and support efficient public transport.", "Higher density fosters more vibrant communities with easy access to culture, commerce, and essential services."],
+                "ideasB": ["Suburban living offers more space, privacy, and a quieter environment for families to raise children.", "Lower density can reduce the 'urban heat island' effect and provide more access to green spaces."]
             },
             {
                 "topic": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?",
@@ -140,8 +140,8 @@
                 "sideB": "Moving away",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Proximity to family provides a crucial emotional safety net and practical support, especially for parents.", "Maintaining strong local roots contributes to a sense of belonging and community identity."],
+                "ideasB": ["Relocating can open up significantly better career prospects and higher earning potential.", "Living independently in a new environment fosters personal growth, resilience, and a broader perspective on life."]
             },
             {
                 "topic": "An ageing population as a crisis vs as a resource — which framing is more productive?",
@@ -149,8 +149,8 @@
                 "sideB": "Resource",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["The increasing dependency ratio puts immense pressure on healthcare systems and pension funds.", "A shrinking workforce could lead to economic stagnation and a lack of innovation in the long term."],
+                "ideasB": ["Older adults possess a wealth of experience, wisdom, and institutional knowledge that is invaluable to society.", "The 'silver economy' creates new markets and opportunities for volunteering and intergenerational mentorship."]
             },
             {
                 "topic": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?",
@@ -158,8 +158,8 @@
                 "sideB": "Systemic factors",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Individual choices regarding diet, exercise, and smoking are the most direct causes of many chronic diseases.", "Empowering people to take charge of their own health can lead to better outcomes and lower public costs."],
+                "ideasB": ["Socio-economic status and access to affordable, nutritious food are often beyond an individual's direct control.", "Environmental factors like pollution and working conditions have a profound impact on a population's health."]
             },
             {
                 "topic": "Mental health days as a legitimate workplace right vs a source of abuse — where should employers draw the line?",
@@ -167,8 +167,8 @@
                 "sideB": "Source of abuse",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Recognising mental health as equally important to physical health reduces stigma and prevents long-term burnout.", "Supporting employee well-being leads to higher morale and better productivity in the long run."],
+                "ideasB": ["Without clear guidelines, some employees might use mental health days to avoid deadlines or take extra leave.", "A high frequency of unscheduled absences can disrupt workflows and place an unfair burden on other team members."]
             },
             {
                 "topic": "Preventive medicine vs curative medicine — which should receive more public funding?",
@@ -176,8 +176,8 @@
                 "sideB": "Curative",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Investing in vaccines and healthy lifestyle initiatives can prevent diseases before they even occur.", "Prevention is far more cost-effective than treating advanced illnesses, saving the healthcare system billions."],
+                "ideasB": ["Societal ethics demand that we provide the best possible care for those who are currently suffering from illness.", "Curative medicine is essential for handling emergencies and chronic conditions that cannot be prevented."]
             },
             {
                 "topic": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?",
@@ -185,8 +185,8 @@
                 "sideB": "Ageing gracefully",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Scientific advancements should be used to extend human lifespan and improve the quality of life in later years.", "Combating the biological processes of ageing could alleviate a huge burden of age-related diseases."],
+                "ideasB": ["Ageing is a natural part of the human experience that should be accepted and embraced with dignity.", "The obsession with youth can lead to unnecessary medical procedures and a failure to value the wisdom of age."]
             },
             {
                 "topic": "Surveillance technology for public safety vs the right to privacy — where should the balance lie?",
@@ -194,8 +194,8 @@
                 "sideB": "Privacy",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Widespread use of CCTV and facial recognition can act as a powerful deterrent to crime and terrorism.", "Data monitoring is essential for identifying threats and responding quickly to emergencies in real-time."],
+                "ideasB": ["Mass surveillance can lead to a 'chilling effect' where people feel afraid to express themselves or protest.", "Protecting personal data is a fundamental human right that prevents the abuse of power by governments or corporations."]
             },
             {
                 "topic": "Social media as a tool for civic engagement vs as a driver of polarisation — which effect dominates?",
@@ -203,8 +203,8 @@
                 "sideB": "Polarisation",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Platforms allow for the rapid dissemination of information and the organisation of grassroots movements.", "Provides a voice to marginalised groups who are often overlooked by traditional media outlets."],
+                "ideasB": ["Algorithms tend to create echo chambers that reinforce existing biases and hostility toward opposing views.", "The spread of misinformation and 'fake news' can undermine democratic processes and social cohesion."]
             },
             {
                 "topic": "AI in recruitment vs human judgment — which produces fairer hiring decisions?",
@@ -212,8 +212,8 @@
                 "sideB": "Human judgment",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["AI can be programmed to ignore demographic information, potentially reducing human bias and discrimination.", "Algorithms can efficiently analyse vast amounts of data to find the most qualified candidates for a role."],
+                "ideasB": ["Algorithms can inadvertently learn and replicate existing biases present in the historical data they are trained on.", "Human recruiters can assess 'soft skills', cultural fit, and potential in ways that software cannot currently match."]
             },
             {
                 "topic": "The right to be forgotten online vs the public's right to information — which should take precedence?",
@@ -221,8 +221,8 @@
                 "sideB": "Right to info",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Individuals should be allowed to move on from past mistakes without being haunted by them forever online.", "Personal privacy should include the right to remove outdated or irrelevant information from search results."],
+                "ideasB": ["The public has a legitimate interest in accessing accurate historical records, especially concerning public figures.", "Censoring search results could lead to a distorted view of the truth and undermine the freedom of the press."]
             },
             {
                 "topic": "Compulsory voting vs voluntary voting — which produces healthier democracies?",
@@ -230,8 +230,8 @@
                 "sideB": "Voluntary",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Ensures that the government has a clear mandate from the entire population, not just the most politically active.", "Encourages citizens to stay informed about political issues and take their civic responsibilities seriously."],
+                "ideasB": ["The right to vote should also include the right to choose not to participate if one feels unrepresented.", "Voluntary systems ensure that those who do vote are genuinely engaged and motivated by their convictions."]
             },
             {
                 "topic": "Political engagement through protest vs through institutional channels — which is more effective for adults today?",
@@ -239,8 +239,8 @@
                 "sideB": "Institutional",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Protests can bring urgent issues to the forefront of public attention and force immediate political action.", "Direct action provides a way for people to express their frustration when traditional systems feel unresponsive."],
+                "ideasB": ["Working within established channels, such as lobbying or running for office, leads to more sustainable and legal change.", "Institutional engagement allows for nuanced debate and the complex negotiation required to pass effective legislation."]
             },
             {
                 "topic": "National identity vs European or global identity — which is more meaningful for adults in 2026?",
@@ -248,8 +248,8 @@
                 "sideB": "Global identity",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Shared national history, language, and culture provide a strong sense of belonging and social solidarity.", "Strong national institutions are often the most effective at protecting the rights and welfare of their citizens."],
+                "ideasB": ["Global challenges like climate change and pandemics require a unified identity and international cooperation.", "In an interconnected world, many people feel more aligned with universal values than with narrow national interests."]
             },
             {
                 "topic": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?",
@@ -257,8 +257,8 @@
                 "sideB": "Spending cuts",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Higher taxes allow for the provision of high-quality education and healthcare that benefit everyone.", "Public investment is necessary to maintain infrastructure and support the most vulnerable members of society."],
+                "ideasB": ["Lowering taxes can stimulate economic growth by leaving more money in the hands of individuals and businesses.", "Spending cuts force governments to be more efficient and eliminate wasteful or unnecessary programmes."]
             },
             {
                 "topic": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?",
@@ -266,8 +266,8 @@
                 "sideB": "Pretending",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Financial systems are so complex that admitting confusion is the most honest and common position for most people.", "Honesty about financial literacy can lead to better outcomes if it encourages people to seek professional advice."],
+                "ideasB": ["The pressure to appear competent and in control often leads adults to feign knowledge about financial matters.", "Pretending to understand complex topics is a common social survival strategy in many professional and social settings."]
             },
             {
                 "topic": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?",
@@ -275,8 +275,8 @@
                 "sideB": "The guest",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Organising events requires significant time and mental energy, along with the stress of managing everyone's expectations.", "Planners often feel a burden of responsibility for the success of an event and the enjoyment of all attendees."],
+                "ideasB": ["Always being a guest can lead to a feeling of lack of control and the effort of constantly adapting to others' plans.", "Socialising can be mentally draining even for those who don't have the added responsibility of organization."]
             },
             {
                 "topic": "Having a strong opinion about your colleagues' kitchen habits vs not caring at all — which person is more tolerable?",
@@ -284,8 +284,8 @@
                 "sideB": "Not caring",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Maintaining high standards of cleanliness and respect in shared spaces is essential for a productive work environment.", "Those who care about shared habits are often looking out for the health and comfort of the entire team."],
+                "ideasB": ["A relaxed attitude prevents unnecessary conflict and fosters a more tolerant and less stressful workplace.", "Focusing on work rather than trivial domestic habits makes for a more professional and focused colleague."]
             },
             {
                 "topic": "Attending every optional work social event vs never attending any — which strategy is better for your career and sanity?",
@@ -293,8 +293,8 @@
                 "sideB": "Attending none",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Socialising with colleagues outside of work hours can build strong relationships and open up networking opportunities.", "Showing commitment to the team's social life can make an individual seem more approachable and integrated."],
+                "ideasB": ["Setting clear boundaries between work and personal life is essential for maintaining long-term mental health.", "Sanity is better preserved by spending quality time with family and friends rather than feeling obliged to attend work events."]
             },
             {
                 "topic": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?",
@@ -302,8 +302,8 @@
                 "sideB": "Enjoy it",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Confused people are often more relatable and honest about the frustrations of navigating bureaucratic systems.", "Admitting difficulty with complex tasks is a sign of authenticity rather than trying to project a perfect image."],
+                "ideasB": ["Taking pleasure in meticulous tasks like tax returns suggests a high level of competence, attention to detail, and reliability.", "People who enjoy organization and compliance are likely to be responsible and trustworthy in other areas of life."]
             },
             {
                 "topic": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?",
@@ -311,8 +311,8 @@
                 "sideB": "Pretending fine",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Sharing financial struggles creates a sense of solidarity and allows friends to support each other during tough times.", "Openly discussing economic challenges is a more accurate reflection of the current reality for many people."],
+                "ideasB": ["Maintaining a positive outlook can be a way of managing stress and preventing financial worries from dominating social life.", "Some prefer to keep their financial situation private to maintain their dignity and avoid burdening others with their problems."]
             },
             {
                 "topic": "Social media vs face-to-face interactions — which is better for building relationships?",
@@ -320,8 +320,8 @@
                 "sideB": "Face-to-face",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Allows for constant communication and the ability to maintain connections across great distances.", "Provides a platform for finding and connecting with communities of people who share niche interests."],
+                "ideasB": ["Physical presence and non-verbal cues are essential for building deep trust and emotional intimacy.", "In-person interactions are less likely to be misinterpreted and foster more meaningful and authentic connections."]
             },
             {
                 "topic": "Urban living vs rural living — which offers a better quality of life?",
@@ -329,8 +329,8 @@
                 "sideB": "Rural",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Cities offer a wealth of cultural, educational, and professional opportunities that are unavailable in rural areas.", "Public transport and concentrated services make urban living more convenient and diverse."],
+                "ideasB": ["Rural areas provide a peaceful environment with less pollution, more space, and a stronger connection to nature.", "A slower pace of life and smaller communities can lead to less stress and more meaningful social bonds."]
             },
             {
                 "topic": "Online learning vs traditional classroom — which is the future of education?",
@@ -338,8 +338,8 @@
                 "sideB": "Classroom",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Provides flexibility for students to learn at their own pace and balance education with other commitments.", "Technological tools can offer personalized learning experiences and access to resources from around the world."],
+                "ideasB": ["Face-to-face interaction with teachers and peers is crucial for developing social skills and collaborative abilities.", "A physical classroom provides a structured environment that can be more conducive to focus and discipline for many learners."]
             },
             {
                 "topic": "Renewable energy vs nuclear power — which is the best solution for the climate?",
@@ -347,8 +347,8 @@
                 "sideB": "Nuclear",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Solar and wind power are increasingly cost-effective and provide energy without producing radioactive waste.", "Investing in renewables encourages decentralized energy production and promotes technological innovation."],
+                "ideasB": ["Nuclear power provides a consistent and reliable 'base load' of energy that is not dependent on weather conditions.", "Modern nuclear technology is a proven way to generate massive amounts of electricity with extremely low carbon emissions."]
             },
             {
                 "topic": "Fast fashion vs sustainable clothing — can we afford to be ethical?",
@@ -356,8 +356,188 @@
                 "sideB": "Sustainable",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Con idea 1", "Con idea 2"]
+                "ideasA": ["Provides affordable and stylish clothing for those on a low income, making fashion more democratic.", "The fast fashion industry creates millions of jobs in developing countries and contributes to global trade."],
+                "ideasB": ["Sustainable clothing is higher quality and lasts longer, which is more economical and environmentally friendly in the long run.", "Supporting ethical brands helps to combat the exploitation of workers and the massive environmental damage caused by the industry."]
+            },
+            {
+                "topic": "Specialising early vs broad general education — which better prepares students for life?",
+                "sideA": "Specialisation",
+                "sideB": "Broad education",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Developing deep expertise in a specific field early on can lead to a more successful and focused career path.", "Early specialisation allows students to master complex skills that are highly valued in the modern job market."],
+                "ideasB": ["A broad education fosters critical thinking across different disciplines and prepares students for an unpredictable future.", "Learning a variety of subjects helps individuals discover their true passions and become more well-rounded citizens."]
+            },
+            {
+                "topic": "Critical thinking skills vs subject knowledge — which should schools prioritise?",
+                "sideA": "Critical thinking",
+                "sideB": "Subject knowledge",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Teaching students how to analyze, evaluate, and synthesize information is more important than memorizing facts.", "Critical thinking is a transferable skill that is essential for problem-solving in any professional or personal context."],
+                "ideasB": ["A solid foundation of subject-specific knowledge is necessary before one can begin to think critically about a topic.", "In-depth knowledge of a subject provides the context and evidence required for meaningful and accurate analysis."]
+            },
+            {
+                "topic": "Tuition fees vs free university — which model is fairer?",
+                "sideA": "Tuition fees",
+                "sideB": "Free university",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Charging fees can ensure that universities are well-funded and incentivise students to take their studies seriously.", "A graduate tax or fee system ensures that those who benefit most from a degree contribute to the cost of their education."],
+                "ideasB": ["Higher education should be a fundamental right accessible to all, regardless of their socio-economic background.", "Free university prevents students from graduating with huge debts and encourages social mobility and equal opportunity."]
+            },
+            {
+                "topic": "Standardised testing vs portfolio assessment — which more accurately reflects ability?",
+                "sideA": "Standardised testing",
+                "sideB": "Portfolio assessment",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Provides an objective and consistent way to compare student performance across different schools and regions.", "Testing under timed conditions prepares students for the high-pressure environments they may face in their careers."],
+                "ideasB": ["Portfolios showcase a student's progress and achievements over a long period, providing a more comprehensive view of their skills.", "A variety of work samples allows for the assessment of creativity, persistence, and practical application that tests may miss."]
+            },
+            {
+                "topic": "Academic intelligence vs emotional intelligence — which matters more for success?",
+                "sideA": "Academic intelligence",
+                "sideB": "Emotional intelligence",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["High cognitive ability and technical expertise are often the primary requirements for entering demanding professions.", "Academic achievement is a proven indicator of discipline, analytical power, and the ability to master complex information."],
+                "ideasB": ["The ability to manage emotions and build relationships is crucial for leadership and effective teamwork.", "Emotional intelligence helps individuals navigate social complexities and adapt to the challenges of the modern workplace."]
+            },
+            {
+                "topic": "Teaching creativity vs teaching discipline — which should be the focus of modern education?",
+                "sideA": "Creativity",
+                "sideB": "Discipline",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Fostering creativity is essential for innovation and finding novel solutions to the world's most complex problems.", "Education should encourage students to think outside the box and develop their own unique perspectives and talents."],
+                "ideasB": ["Developing discipline and a strong work ethic is fundamental for achieving long-term goals and professional success.", "A structured environment helps students build the persistence and focus required to master difficult skills."]
+            },
+            {
+                "topic": "Social media regulation vs freedom of expression — which should be prioritised?",
+                "sideA": "Regulation",
+                "sideB": "Freedom of expression",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["Government oversight is necessary to prevent the spread of harmful misinformation and hate speech online.", "Regulation can hold tech giants accountable for the impact of their algorithms on public discourse and mental health."],
+                "ideasB": ["The right to express oneself without censorship is a cornerstone of democracy and should be protected at all costs.", "Excessive regulation could lead to the suppression of dissenting voices and give governments too much power over information."]
+            },
+            {
+                "topic": "Algorithmic curation vs editorial selection — which is the more trustworthy way to deliver news?",
+                "sideA": "Algorithms",
+                "sideB": "Editorial selection",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["Algorithms can provide a wider range of perspectives based on user data rather than the biases of a single editor.", "Automated systems can process information much faster than humans, providing real-time updates on breaking news."],
+                "ideasB": ["Human editors provide essential context, ethical oversight, and a commitment to journalistic standards and accuracy.", "Professional journalists can investigate complex stories and hold power to account in ways that algorithms cannot."]
+            },
+            {
+                "topic": "Economic growth vs environmental protection — can they coexist, or must one give way?",
+                "sideA": "Economic growth",
+                "sideB": "Environmental protection",
+                "level": "upper-intermediate",
+                "theme": "environment_policy_B2",
+                "ideasA": ["Continued economic growth is necessary to fund the research and development of green technologies.", "Rising prosperity allows societies to invest more in conservation and the transition to a sustainable economy."],
+                "ideasB": ["Infinite growth on a finite planet is impossible; we must prioritize the health of the planet over GDP figures.", "Protecting biodiversity and the climate is a prerequisite for any long-term economic stability or human well-being."]
+            },
+            {
+                "topic": "Carbon taxes vs green subsidies — which is the more effective climate policy?",
+                "sideA": "Carbon taxes",
+                "sideB": "Green subsidies",
+                "level": "upper-intermediate",
+                "theme": "environment_policy_B2",
+                "ideasA": ["Putting a price on carbon provides a clear market incentive for businesses and individuals to reduce their emissions.", "Tax revenue can be used to fund public services or returned to citizens to offset the increased cost of energy."],
+                "ideasB": ["Financial incentives for renewable energy and electric vehicles can accelerate the transition to a low-carbon economy.", "Subsidies help to lower the initial cost of green technologies, making them more accessible to the general public."]
+            },
+            {
+                "topic": "Degrowth vs sustainable growth — which is the right response to the climate crisis?",
+                "sideA": "Degrowth",
+                "sideB": "Sustainable growth",
+                "level": "upper-intermediate",
+                "theme": "environment_policy_B2",
+                "ideasA": ["We must intentionally reduce production and consumption in wealthy nations to stay within planetary boundaries.", "A focus on well-being and community rather than material wealth can lead to a more fulfilling and sustainable society."],
+                "ideasB": ["We can decouple economic growth from environmental impact through innovation, efficiency, and renewable energy.", "Sustainable growth provides the resources needed to lift people out of poverty while protecting the environment."]
+            },
+            {
+                "topic": "Individual responsibility vs corporate accountability — who bears more blame for environmental damage?",
+                "sideA": "Individual responsibility",
+                "sideB": "Corporate accountability",
+                "level": "upper-intermediate",
+                "theme": "environment_policy_B2",
+                "ideasA": ["Collective changes in individual behavior, such as diet and travel choices, can have a massive impact on the environment.", "Consumers have the power to drive change by choosing sustainable products and demanding more from companies."],
+                "ideasB": ["A small number of large corporations are responsible for the vast majority of global greenhouse gas emissions.", "Systemic change must be led by those with the most power and resources, rather than placing the burden on individuals."]
+            },
+            {
+                "topic": "Direct democracy vs representative democracy — which is more effective?",
+                "sideA": "Direct democracy",
+                "sideB": "Representative democracy",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Allowing citizens to vote directly on laws and policies ensures that the government truly reflects the will of the people.", "Direct participation fosters a more engaged and politically aware citizenry who take responsibility for their society."],
+                "ideasB": ["Elected representatives have the time and expertise to study complex issues and make informed decisions on behalf of the public.", "Representative systems protect against the 'tyranny of the majority' and ensure that the rights of minorities are respected."]
+            },
+            {
+                "topic": "Strong central government vs regional autonomy — which serves citizens better?",
+                "sideA": "Central government",
+                "sideB": "Regional autonomy",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["A strong central authority can ensure consistent standards and equal rights for all citizens across a nation.", "National governments are better equipped to handle large-scale challenges like national security and economic policy."],
+                "ideasB": ["Regional governments are closer to the people and can better understand and address local needs and cultural differences.", "Autonomy allows for experimentation with different policies, which can then be adopted by other regions if successful."]
+            },
+            {
+                "topic": "Meritocracy vs affirmative action — which is the fairer basis for opportunity?",
+                "sideA": "Meritocracy",
+                "sideB": "Affirmative action",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Rewarding individuals solely on their talent and effort is the most objective and fair way to allocate opportunities.", "A merit-based system encourages everyone to strive for excellence and ensures that the most capable people are in key roles."],
+                "ideasB": ["Proactive measures are necessary to level the playing field and address historical and systemic inequalities.", "Diversity in the workplace and education enriches society and ensures that different perspectives are represented."]
+            },
+            {
+                "topic": "Open borders vs controlled immigration — which better serves both host and migrant communities?",
+                "sideA": "Open borders",
+                "sideB": "Controlled immigration",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Allowing people to move freely can stimulate economic growth and address labor shortages in host countries.", "The right to move is a fundamental human freedom that allows individuals to escape poverty and seek a better life."],
+                "ideasB": ["Controlled systems allow governments to manage public services and ensure the successful integration of new arrivals.", "Regulating immigration can help to protect the wages and working conditions of the existing workforce in the host country."]
+            },
+            {
+                "topic": "Utilitarianism vs deontological ethics — which offers a better moral framework?",
+                "sideA": "Utilitarianism",
+                "sideB": "Deontology",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Focusing on the greatest good for the greatest number provides a practical and objective way to make moral decisions.", "The consequences of an action are what truly matter when evaluating its ethical value."],
+                "ideasB": ["Certain actions are inherently right or wrong, regardless of their consequences; we must follow universal moral rules.", "Respecting individual rights and duties is the only way to ensure true justice and human dignity."]
+            },
+            {
+                "topic": "Freedom of speech vs protection from harm — where should the line be drawn?",
+                "sideA": "Freedom of speech",
+                "sideB": "Protection from harm",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["The open exchange of ideas, even controversial ones, is essential for progress and the search for truth.", "Speech should only be restricted in the most extreme cases, such as direct incitement to violence."],
+                "ideasB": ["Society has a duty to protect vulnerable groups from hate speech and verbal abuse that can lead to real-world harm.", "The right to free expression does not include the right to spread misinformation that endangers public health or safety."]
+            },
+            {
+                "topic": "Cultural relativism vs universal human rights — which is the stronger position?",
+                "sideA": "Cultural relativism",
+                "sideB": "Universal rights",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["We must respect the different values and traditions of other cultures rather than imposing our own beliefs on them.", "Morality is often a product of one's culture, and there is no objective way to say that one system is better than another."],
+                "ideasB": ["Fundamental human rights, such as the right to life and freedom, should be protected everywhere regardless of culture.", "Universal standards are necessary to prevent the oppression of individuals and groups under the guise of tradition."]
+            },
+            {
+                "topic": "Punishment vs rehabilitation — which should be the goal of the justice system?",
+                "sideA": "Punishment",
+                "sideB": "Rehabilitation",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Retributive justice ensures that offenders face consequences for their actions and provides a sense of closure for victims.", "Strict punishments can act as a deterrent, preventing others from committing similar crimes in the future."],
+                "ideasB": ["The primary goal should be to help offenders reintegrate into society and address the root causes of their behavior.", "Rehabilitation is more effective at reducing reoffending rates and building a safer society in the long term."]
             }];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
