@@ -5,8 +5,8 @@
                 "sideB": "5 giorni",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Reddito di base universale vs assistenza sociale mirata — qual è la rete di sicurezza più efficace per gli adulti che lavorano?",
@@ -14,8 +14,8 @@
                 "sideB": "Assistenza mirata",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori a lungo termine?",
@@ -23,8 +23,8 @@
                 "sideB": "Tempo indeterminato",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?",
@@ -32,8 +32,8 @@
                 "sideB": "Vantaggio strutturale",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?",
@@ -41,8 +41,8 @@
                 "sideB": "Privacy",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Automazione vs lavoro umano — qual è la più grande minaccia a lungo termine per l'occupazione degli adulti?",
@@ -50,8 +50,8 @@
                 "sideB": "Lavoro umano",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Lavoro da remoto vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?",
@@ -59,8 +59,8 @@
                 "sideB": "Presenza ufficio",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Congedo parentale uguale per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?",
@@ -68,8 +68,8 @@
                 "sideB": "Maternità lunga",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?",
@@ -77,8 +77,8 @@
                 "sideB": "Pressione sociale",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?",
@@ -86,8 +86,8 @@
                 "sideB": "Convivenza",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Nuclei familiari a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?",
@@ -95,8 +95,8 @@
                 "sideB": "Uno a casa",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?",
@@ -104,8 +104,8 @@
                 "sideB": "Scelte individuali",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?",
@@ -113,8 +113,8 @@
                 "sideB": "Affitto pro",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?",
@@ -122,8 +122,8 @@
                 "sideB": "Spostamento",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Densità urbana vs espansione suburbana — qual è il modello migliore per città vivibili?",
@@ -131,8 +131,8 @@
                 "sideB": "Espansione suburbana",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un miglior benessere a lungo termine?",
@@ -140,8 +140,8 @@
                 "sideB": "Allontanarsi",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Una popolazione che invecchia come una crisi vs come una risorsa — quale inquadramento è più produttivo?",
@@ -149,8 +149,8 @@
                 "sideB": "Risorsa",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati di salute?",
@@ -158,8 +158,8 @@
                 "sideB": "Fattori sistemici",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Giornate per la salute mentale come diritto legittimo sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?",
@@ -167,8 +167,8 @@
                 "sideB": "Fonte di abusi",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?",
@@ -176,8 +176,8 @@
                 "sideB": "Curativa",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?",
@@ -185,8 +185,8 @@
                 "sideB": "Invecchiare con grazia",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?",
@@ -194,8 +194,8 @@
                 "sideB": "Privacy",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?",
@@ -203,8 +203,8 @@
                 "sideB": "Polarizzazione",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?",
@@ -212,8 +212,8 @@
                 "sideB": "Giudizio umano",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?",
@@ -221,8 +221,8 @@
                 "sideB": "Diritto info",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?",
@@ -230,8 +230,8 @@
                 "sideB": "Volontario",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?",
@@ -239,8 +239,8 @@
                 "sideB": "Istituzionale",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?",
@@ -248,8 +248,8 @@
                 "sideB": "Identità globale",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?",
@@ -257,8 +257,8 @@
                 "sideB": "Tagli alla spesa",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?",
@@ -266,8 +266,8 @@
                 "sideB": "Fingere",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?",
@@ -275,8 +275,8 @@
                 "sideB": "L'ospite",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?",
@@ -284,8 +284,8 @@
                 "sideB": "Indifferenza",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?",
@@ -293,8 +293,8 @@
                 "sideB": "Nessuno",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?",
@@ -302,8 +302,8 @@
                 "sideB": "Divertiti",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?",
@@ -311,8 +311,8 @@
                 "sideB": "Fingere tutto bene",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Social media vs interazioni faccia a faccia — cosa è meglio per costruire relazioni?",
@@ -320,8 +320,8 @@
                 "sideB": "Faccia a faccia",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Vita urbana vs vita rurale — quale offre una migliore qualità della vita?",
@@ -329,8 +329,8 @@
                 "sideB": "Rurale",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Apprendimento online vs aula tradizionale — quale è il futuro dell'istruzione?",
@@ -338,8 +338,8 @@
                 "sideB": "Aula",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Energia rinnovabile vs energia nucleare — quale è la soluzione migliore per il clima?",
@@ -347,8 +347,8 @@
                 "sideB": "Nucleare",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             },
             {
                 "topic": "Fast fashion vs abbigliamento sostenibile — possiamo permetterci di essere etici?",
@@ -356,8 +356,8 @@
                 "sideB": "Sostenibile",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Idea per A 1", "Idea per A 2"],
+                "ideasB": ["Idea per B 1", "Idea per B 2"]
             }];
     const lang = "it";
     if (!window.speakingData) window.speakingData = {};

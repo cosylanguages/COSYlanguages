@@ -1,545 +1,65 @@
 (function() {
     const data = [
-        {
-            "topic": "Coffee vs tea — which is better?",
-            "sideA": "Coffee",
-            "sideB": "Tea",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["It gives you energy", "It smells great"],
-            "ideasB": ["It is very healthy", "It helps you relax"]
-        },
-        {
-            "topic": "Restaurant vs home cooking — which is better?",
-            "sideA": "Restaurant",
-            "sideB": "Home cooking",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["No dishes to wash", "Professional chefs"],
-            "ideasB": ["It is cheaper", "It is healthier"]
-        },
-        {
-            "topic": "Breakfast vs no breakfast — which is better?",
-            "sideA": "Breakfast",
-            "sideB": "No breakfast",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Energy for the morning", "Good start to the day"],
-            "ideasB": ["Saves time", "I am not hungry"]
-        },
-        {
-            "topic": "Water vs juice — which is better?",
-            "sideA": "Water",
-            "sideB": "Juice",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Zero calories", "Very healthy"],
-            "ideasB": ["Sweet taste", "Good vitamins"]
-        },
-        {
-            "topic": "Meat vs vegetables — which is more important?",
-            "sideA": "Meat",
-            "sideB": "Vegetables",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Lots of protein", "Very tasty"],
-            "ideasB": ["Lots of vitamins", "Good for health"]
-        },
-        {
-            "topic": "House vs apartment — which is better?",
-            "sideA": "House",
-            "sideB": "Apartment",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["More space", "A private garden"],
-            "ideasB": ["It is safer", "Easy to clean"]
-        },
-        {
-            "topic": "City vs countryside — which is better?",
-            "sideA": "City",
-            "sideB": "Countryside",
-            "level": "starter",
-            "theme": "address_location_A1",
-            "ideasA": ["Shops and cinemas", "Many people"],
-            "ideasB": ["Quiet place", "Clean air"]
-        },
-        {
-            "topic": "Cash vs card — which is better?",
-            "sideA": "Cash",
-            "sideB": "Card",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["Easy to see the money", "No technology needed"],
-            "ideasB": ["Very fast", "Safe to carry"]
-        },
-        {
-            "topic": "Saving vs spending — which is better?",
-            "sideA": "Saving",
-            "sideB": "Spending",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["Good for the future", "Buy big things"],
-            "ideasB": ["Fun now", "Helps shops"]
-        },
-        {
-            "topic": "Renting vs buying — which is better?",
-            "sideA": "Renting",
-            "sideB": "Buying",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["It is flexible", "No repairs"],
-            "ideasB": ["It is yours", "Good investment"]
-        },
-        {
-            "topic": "Working in the morning vs working in the evening — which is better?",
-            "sideA": "Morning",
-            "sideB": "Evening",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["Finish early", "Free evening"],
-            "ideasB": ["Sleep late", "Quiet time"]
-        },
-        {
-            "topic": "Car vs bus — which is better?",
-            "sideA": "Car",
-            "sideB": "Bus",
-            "level": "starter",
-            "theme": "address_location_A1",
-            "ideasA": ["Private and fast", "Go anywhere"],
-            "ideasB": ["It is cheap", "Good for nature"]
-        },
-        {
-            "topic": "Walking vs driving — which is better?",
-            "sideA": "Walking",
-            "sideB": "Driving",
-            "level": "starter",
-            "theme": "address_location_A1",
-            "ideasA": ["It is free", "Good exercise"],
-            "ideasB": ["No rain", "Very comfortable"]
-        },
-        {
-            "topic": "Office vs home — which is better for working?",
-            "sideA": "Office",
-            "sideB": "Home",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["See friends", "Better focus"],
-            "ideasB": ["No travel", "Comfortable clothes"]
-        },
-        {
-            "topic": "Morning person vs night person — which is better?",
-            "sideA": "Morning person",
-            "sideB": "Night person",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["See the sun", "Quiet time"],
-            "ideasB": ["Creative time", "No noise"]
-        },
-        {
-            "topic": "Summer vs winter — which is better?",
-            "sideA": "Summer",
-            "sideB": "Winter",
-            "level": "starter",
-            "theme": "weather_A1",
-            "ideasA": ["Beach time", "Sunny weather"],
-            "ideasB": ["Snow", "Hot chocolate"]
-        },
-        {
-            "topic": "Short holiday vs long holiday — which is better?",
-            "sideA": "Short",
-            "sideB": "Long",
-            "level": "starter",
-            "theme": "address_location_A1",
-            "ideasA": ["Easy to plan", "Many trips"],
-            "ideasB": ["Relax more", "See more places"]
-        },
-        {
-            "topic": "Phone call vs message — which is better?",
-            "sideA": "Call",
-            "sideB": "Message",
-            "level": "starter",
-            "theme": "basic_technology_devices_A1",
-            "ideasA": ["Hear the voice", "It is faster"],
-            "ideasB": ["Think before you write", "Read later"]
-        },
-        {
-            "topic": "Morning shower vs evening shower — which is better?",
-            "sideA": "Morning",
-            "sideB": "Evening",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Wakes you up", "Start fresh"],
-            "ideasB": ["Helps you relax", "Clean bed"]
-        },
-        {
-            "topic": "Monday vs Friday — which is better?",
-            "sideA": "Monday",
-            "sideB": "Friday",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Start projects", "New week"],
-            "ideasB": ["Weekend is coming", "Party time"]
-        },
-        {
-            "topic": "Too hot vs too cold — which is worse?",
-            "sideA": "Too hot",
-            "sideB": "Too cold",
-            "level": "starter",
-            "theme": "weather_A1",
-            "ideasA": ["Cannot sleep", "Too much sun"],
-            "ideasB": ["Need many clothes", "Freezing"]
-        },
-        {
-            "topic": "Window seat vs aisle seat — which is better?",
-            "sideA": "Window",
-            "sideB": "Aisle",
-            "level": "starter",
-            "theme": "address_location_A1",
-            "ideasA": ["See the clouds", "Take photos"],
-            "ideasB": ["Easy to walk", "More space"]
-        },
-        {
-            "topic": "Red vs Blue — which is better?",
-            "sideA": "Red",
-            "sideB": "Blue",
-            "level": "starter",
-            "theme": "colours_patterns_A1",
-            "ideasA": ["Strong colour", "Love"],
-            "ideasB": ["Calm colour", "Sea and sky"]
-        },
-        {
-            "topic": "Yellow vs Green — which is happier?",
-            "sideA": "Yellow",
-            "sideB": "Green",
-            "level": "starter",
-            "theme": "colours_patterns_A1",
-            "ideasA": ["Like the sun", "Bright"],
-            "ideasB": ["Colour of nature", "Like trees"]
-        },
-        {
-            "topic": "Black vs White — which is better?",
-            "sideA": "Black",
-            "sideB": "White",
-            "level": "starter",
-            "theme": "colours_patterns_A1",
-            "ideasA": ["Elegant", "Goes with everything"],
-            "ideasB": ["Clean", "Bright"]
-        },
-        {
-            "topic": "Pink vs Purple — which is better?",
-            "sideA": "Pink",
-            "sideB": "Purple",
-            "level": "starter",
-            "theme": "colours_patterns_A1",
-            "ideasA": ["Cute colour", "Flowers"],
-            "ideasB": ["Royal colour", "Nice fruit"]
-        },
-        {
-            "topic": "Pencil vs Pen — which is better?",
-            "sideA": "Pencil",
-            "sideB": "Pen",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["You can erase", "Good for drawing"],
-            "ideasB": ["Permanent", "Clean writing"]
-        },
-        {
-            "topic": "Book vs Picture — which is better?",
-            "sideA": "Book",
-            "sideB": "Picture",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["Read stories", "No battery"],
-            "ideasB": ["Fast to see", "Beautiful"]
-        },
-        {
-            "topic": "Chair vs Floor — which is better?",
-            "sideA": "Chair",
-            "sideB": "Floor",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Good for back", "Work at table"],
-            "ideasB": ["Lots of space", "Relax"]
-        },
-        {
-            "topic": "Cat vs Dog — which is better?",
-            "sideA": "Cat",
-            "sideB": "Dog",
-            "level": "starter",
-            "theme": "animals_A1",
-            "ideasA": ["Independent", "Quiet"],
-            "ideasB": ["Faithful friend", "Play outside"]
-        },
-        {
-            "topic": "Fish vs Bird — which is better?",
-            "sideA": "Fish",
-            "sideB": "Bird",
-            "level": "starter",
-            "theme": "animals_A1",
-            "ideasA": ["Beautiful colours", "Easy care"],
-            "ideasB": ["Can sing", "Happy sounds"]
-        },
-        {
-            "topic": "Big animals vs small animals — which is better?",
-            "sideA": "Big",
-            "sideB": "Small",
-            "level": "starter",
-            "theme": "animals_A1",
-            "ideasA": ["Strong", "Interesting"],
-            "ideasB": ["Cute", "Small space"]
-        },
-        {
-            "topic": "Rabbit vs Hamster — which is better?",
-            "sideA": "Rabbit",
-            "sideB": "Hamster",
-            "level": "starter",
-            "theme": "animals_A1",
-            "ideasA": ["Long ears", "Soft"],
-            "ideasB": ["Small", "Nice to look at"]
-        },
-        {
-            "topic": "Apple vs Banana — which is better?",
-            "sideA": "Apple",
-            "sideB": "Banana",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Crunchy", "Sweet"],
-            "ideasB": ["Easy to peel", "Soft"]
-        },
-        {
-            "topic": "Bread vs Rice — which is better?",
-            "sideA": "Bread",
-            "sideB": "Rice",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Many types", "Sandwiches"],
-            "ideasB": ["Healthy", "Good with meat"]
-        },
-        {
-            "topic": "Chair vs sofa — which is better?",
-            "sideA": "Chair",
-            "sideB": "Sofa",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Good for back", "Formal"],
-            "ideasB": ["Very soft", "Watch TV"]
-        },
-        {
-            "topic": "Bag vs box — which is better?",
-            "sideA": "Bag",
-            "sideB": "Box",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Easy to carry", "For school"],
-            "ideasB": ["For toys", "Protects things"]
-        },
-        {
-            "topic": "Lion vs elephant — which is better?",
-            "sideA": "Lion",
-            "sideB": "Elephant",
-            "level": "starter",
-            "theme": "animals_A1",
-            "ideasA": ["King", "Strong"],
-            "ideasB": ["Big ears", "Very intelligent"]
-        },
-        {
-            "topic": "Spoon vs fork — which is better?",
-            "sideA": "Spoon",
-            "sideB": "Fork",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["For soup", "Easy"],
-            "ideasB": ["For pasta", "Meat"]
-        },
-        {
-            "topic": "Hat vs shoes — which is better?",
-            "sideA": "Hat",
-            "sideB": "Shoes",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Cool style", "Sun protection"],
-            "ideasB": ["Protect feet", "For walking"]
-        },
-        {
-            "topic": "Sun vs moon — which is better?",
-            "sideA": "Sun",
-            "sideB": "Moon",
-            "level": "starter",
-            "theme": "weather_A1",
-            "ideasA": ["Warm", "Light"],
-            "ideasB": ["Beautiful", "Night light"]
-        },
-        {
-            "topic": "Socks vs no socks — which is better?",
-            "sideA": "Socks",
-            "sideB": "No socks",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Warm feet", "Comfortable"],
-            "ideasB": ["Cool feet", "Summer"]
-        },
-        {
-            "topic": "Living with family vs living alone — which is better?",
-            "sideA": "Family",
-            "sideB": "Alone",
-            "level": "starter",
-            "theme": "immediate_family_A1",
-            "ideasA": ["Never alone", "Help with food"],
-            "ideasB": ["Peace", "Your rules"]
-        },
-        {
-            "topic": "Brother vs sister — which is better?",
-            "sideA": "Brother",
-            "sideB": "Sister",
-            "level": "starter",
-            "theme": "immediate_family_A1",
-            "ideasA": ["Play games", "Protection"],
-            "ideasB": ["Share secrets", "Kind"]
-        },
-        {
-            "topic": "Big family vs small family — which is better?",
-            "sideA": "Big family",
-            "sideB": "Small family",
-            "level": "starter",
-            "theme": "immediate_family_A1",
-            "ideasA": ["Busy house", "Many friends"],
-            "ideasB": ["Quiet", "More space"]
-        },
-        {
-            "topic": "Oldest child vs youngest child — which is better?",
-            "sideA": "Oldest",
-            "sideB": "Youngest",
-            "level": "starter",
-            "theme": "immediate_family_A1",
-            "ideasA": ["Leader", "Responsible"],
-            "ideasB": ["Get help", "Relaxed"]
-        },
-        {
-            "topic": "Morning school vs afternoon school — which is better?",
-            "sideA": "Morning",
-            "sideB": "Afternoon",
-            "level": "starter",
-            "theme": "leisure_activities_A1",
-            "ideasA": ["Free afternoon", "Routine"],
-            "ideasB": ["Sleep late", "Quiet morning"]
-        },
-        {
-            "topic": "Reading vs maths — which is more fun?",
-            "sideA": "Reading",
-            "sideB": "Maths",
-            "level": "starter",
-            "theme": "leisure_activities_A1",
-            "ideasA": ["Stories", "New words"],
-            "ideasB": ["Logic", "Numbers"]
-        },
-        {
-            "topic": "Learning at school vs learning at home — which is better?",
-            "sideA": "School",
-            "sideB": "Home",
-            "level": "starter",
-            "theme": "leisure_activities_A1",
-            "ideasA": ["Friends", "Teacher"],
-            "ideasB": ["Relaxed", "No travel"]
-        },
-        {
-            "topic": "Homework vs no homework — which helps more?",
-            "sideA": "Homework",
-            "sideB": "No homework",
-            "level": "starter",
-            "theme": "leisure_activities_A1",
-            "ideasA": ["Practice", "Learn more"],
-            "ideasB": ["More play", "Less stress"]
-        },
-        {
-            "topic": "Working alone vs working with a partner — which is better?",
-            "sideA": "Alone",
-            "sideB": "Partner",
-            "level": "starter",
-            "theme": "workplace_basics_A1",
-            "ideasA": ["Focus", "Fast"],
-            "ideasB": ["Shared ideas", "Fun"]
-        },
-        {
-            "topic": "Writing on paper vs writing on a computer — which is better?",
-            "sideA": "Paper",
-            "sideB": "Computer",
-            "level": "starter",
-            "theme": "basic_technology_devices_A1",
-            "ideasA": ["No screen", "Easy"],
-            "ideasB": ["Fast", "Fixes spelling"]
-        },
-        {
-            "topic": "Breakfast vs dinner — which meal is more important?",
-            "sideA": "Breakfast",
-            "sideB": "Dinner",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Morning energy", "Start the day"],
-            "ideasB": ["Family time", "Big meal"]
-        },
-        {
-            "topic": "Hot food vs cold food — which is better?",
-            "sideA": "Hot",
-            "sideB": "Cold",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Winter", "Tasty"],
-            "ideasB": ["Summer", "Salad"]
-        },
-        {
-            "topic": "Sweet food vs savoury food — which is better?",
-            "sideA": "Sweet",
-            "sideB": "Savoury",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Delicious", "Treat"],
-            "ideasB": ["Real food", "Salt"]
-        },
-        {
-            "topic": "Cooking with a parent vs buying ready-to-eat food — which is better?",
-            "sideA": "Cooking",
-            "sideB": "Ready food",
-            "level": "starter",
-            "theme": "basic_foods_A1",
-            "ideasA": ["Learn skills", "Fun"],
-            "ideasB": ["Fast", "No mess"]
-        },
-        {
-            "topic": "Waking up early vs waking up late — which is better?",
-            "sideA": "Early",
-            "sideB": "Late",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["More time", "Productive"],
-            "ideasB": ["More sleep", "Relaxed"]
-        },
-        {
-            "topic": "Morning vs evening — which is better?",
-            "sideA": "Morning",
-            "sideB": "Evening",
-            "level": "starter",
-            "theme": "weather_A1",
-            "ideasA": ["Fresh", "Sun"],
-            "ideasB": ["Quiet", "Rest"]
-        },
-        {
-            "topic": "Weekdays vs weekends — which is better?",
-            "sideA": "Weekdays",
-            "sideB": "Weekends",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Routine", "School"],
-            "ideasB": ["Fun", "Hobbies"]
-        },
-        {
-            "topic": "Bedtime: early vs late — which is healthier?",
-            "sideA": "Early",
-            "sideB": "Late",
-            "level": "starter",
-            "theme": "furniture_objects_A1",
-            "ideasA": ["Healthy", "Rested"],
-            "ideasB": ["Fun", "Movies"]
-        }
+        { "topic": "Coffee vs tea — which is better?", "sideA": "Coffee", "sideB": "Tea", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["It gives you energy", "It smells great"], "ideasB": ["It is very healthy", "It helps you relax"] },
+        { "topic": "Restaurant vs home cooking — which is better?", "sideA": "Restaurant", "sideB": "Home cooking", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["No dishes to wash", "Professional chefs"], "ideasB": ["It is cheaper", "It is healthier"] },
+        { "topic": "Cats vs dogs — which is better?", "sideA": "Cats", "sideB": "Dogs", "level": "starter", "theme": "animals_A1", "ideasA": ["They are quiet", "They are independent"], "ideasB": ["They are best friends", "They love to play"] },
+        { "topic": "Summer vs winter — which is better?", "sideA": "Summer", "sideB": "Winter", "level": "starter", "theme": "seasons_A1", "ideasA": ["It is sunny and warm", "You can go to the beach"], "ideasB": ["There is snow", "You can go skiing"] },
+        { "topic": "Book vs film — which is better?", "sideA": "Book", "sideB": "Film", "level": "starter", "theme": "hobbies_A1", "ideasA": ["Use your imagination", "Learn many things"], "ideasB": ["It is fast", "Watch with friends"] },
+        { "topic": "Bicycle vs car — which is better for the city?", "sideA": "Bicycle", "sideB": "Car", "level": "starter", "theme": "transport_A1", "ideasA": ["Good for your body", "It is free"], "ideasB": ["It is very fast", "Warm when it rains"] },
+        { "topic": "Pizza vs burger — which is better?", "sideA": "Pizza", "sideB": "Burger", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["You can share it", "Lots of cheese"], "ideasB": ["Easy to eat", "Good with chips"] },
+        { "topic": "City vs countryside — which is better to live in?", "sideA": "City", "sideB": "Countryside", "level": "starter", "theme": "home_A1", "ideasA": ["Many shops", "Go out at night"], "ideasB": ["It is very quiet", "Clean air"] },
+        { "topic": "Morning vs evening — which is better?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "time_A1", "ideasA": ["Have lots of energy", "The sun rises"], "ideasB": ["Can rest", "Watch films"] },
+        { "topic": "Train vs plane — which is better for travel?", "sideA": "Train", "sideB": "Plane", "level": "starter", "theme": "travel_A1", "ideasA": ["See the window view", "Better for nature"], "ideasB": ["It is very fast", "Go very far"] },
+        { "topic": "Sea vs mountains — which is better for holiday?", "sideA": "Sea", "sideB": "Mountains", "level": "starter", "theme": "travel_A1", "ideasA": ["Can swim", "Lots of sun"], "ideasB": ["Can walk", "Very beautiful"] },
+        { "topic": "Solo work vs team work — which is better?", "sideA": "Solo", "sideB": "Team", "level": "starter", "theme": "work_A1", "ideasA": ["Focus better", "Go faster"], "ideasB": ["More ideas", "More fun"] },
+        { "topic": "Phone call vs text message — which is better?", "sideA": "Call", "sideB": "Text", "level": "starter", "theme": "tech_A1", "ideasA": ["More direct", "Hear the voice"], "ideasB": ["It is faster", "Answer later"] },
+        { "topic": "Comfortable clothes vs smart clothes — which is better?", "sideA": "Comfortable", "sideB": "Smart", "level": "starter", "theme": "clothes_A1", "ideasA": ["Feel good", "Practical"], "ideasB": ["Very beautiful", "Good for work"] },
+        { "topic": "Sugar vs salt — which is more important?", "sideA": "Sugar", "sideB": "Salt", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["For desserts", "Everyone loves chocolate"], "ideasB": ["For main meals", "Gives flavour"] },
+        { "topic": "Morning exercise vs evening exercise — which is better?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "health_A1", "ideasA": ["Start the day well", "Gym is empty"], "ideasB": ["Stop stress", "Sleep better after"] },
+        { "topic": "Big parties vs small dinners — which is better?", "sideA": "Big parties", "sideB": "Small dinners", "level": "starter", "theme": "social_A1", "ideasA": ["Meet new people", "Music is loud"], "ideasB": ["Talk quietly", "It is relaxing"] },
+        { "topic": "House vs apartment — which is better to live in?", "sideA": "House", "sideB": "Apartment", "level": "starter", "theme": "home_A1", "ideasA": ["Has a garden", "More space"], "ideasB": ["Easy to clean", "Often in city centre"] },
+        { "topic": "Money vs free time — which is more important?", "sideA": "Money", "sideB": "Free time", "level": "starter", "theme": "life_A1", "ideasA": ["Can buy things", "It is security"], "ideasB": ["Enjoy life", "Less stress"] },
+        { "topic": "Dark chocolate vs milk chocolate — which is better?", "sideA": "Dark", "sideB": "Milk", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["Good for your heart", "Less sugar"], "ideasB": ["Very sweet", "Good with coffee"] },
+        { "topic": "Cinema vs Netflix at home — which is better?", "sideA": "Cinema", "sideB": "Netflix", "level": "starter", "theme": "hobbies_A1", "ideasA": ["The big screen", "The sound is great"], "ideasB": ["You are comfortable", "Can stop the film"] },
+        { "topic": "Solo travel vs travel with friends — which is better?", "sideA": "Solo", "sideB": "Friends", "level": "starter", "theme": "travel_A1", "ideasA": ["You choose everything", "Meet more people"], "ideasB": ["Share memories", "It is cheaper"] },
+        { "topic": "Podcasts vs music — which is better in the car?", "sideA": "Podcasts", "sideB": "Music", "level": "starter", "theme": "hobbies_A1", "ideasA": ["Learn things", "Interesting stories"], "ideasB": ["Can sing", "Gives energy"] },
+        { "topic": "Rain vs wind — which is worse?", "sideA": "Rain", "sideB": "Wind", "level": "starter", "theme": "nature_A1", "ideasA": ["Everything is wet", "Sad mood"], "ideasB": ["It is cold", "Bad for hair"] },
+        { "topic": "Surprise gift vs choosing your gift — which is better?", "sideA": "Surprise", "sideB": "Choosing", "level": "starter", "theme": "social_A1", "ideasA": ["Strong emotion", "It is kind"], "ideasB": ["Get what you want", "No bad surprises"] },
+        { "topic": "Pen and paper vs tablet — which is better to write?", "sideA": "Paper", "sideB": "Tablet", "level": "starter", "theme": "tech_A1", "ideasA": ["Remember better", "Nice feeling"], "ideasB": ["Modern", "Don't lose pages"] },
+        { "topic": "Sandwich vs salad — which is better for lunch?", "sideA": "Sandwich", "sideB": "Salad", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["Easy to take", "Full stomach"], "ideasB": ["Light food", "Lots of vitamins"] },
+        { "topic": "Hotel vs camping — which is better for holiday?", "sideA": "Hotel", "sideB": "Camping", "level": "starter", "theme": "travel_A1", "ideasA": ["Comfortable", "Has breakfast"], "ideasB": ["In nature", "It is an adventure"] },
+        { "topic": "Speaking vs listening — which is more important?", "sideA": "Speaking", "sideB": "Listening", "level": "starter", "theme": "work_A1", "ideasA": ["Share your ideas", "Important for leader"], "ideasB": ["Learn from others", "It is kind"] },
+        { "topic": "Spring vs Autumn — which is better?", "sideA": "Spring", "sideB": "Autumn", "level": "starter", "theme": "seasons_A1", "ideasA": ["Flowers grow", "Warmer weather"], "ideasB": ["Beautiful leaves", "Nice for walking"] },
+        { "topic": "Fruit vs vegetables — which is better?", "sideA": "Fruit", "sideB": "Vegetables", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["They are sweet", "Great for snacks"], "ideasB": ["Very healthy", "Good for cooking"] },
+        { "topic": "Action movies vs comedies — which is better?", "sideA": "Action", "sideB": "Comedy", "level": "starter", "theme": "hobbies_A1", "ideasA": ["Exciting and fast", "Cool effects"], "ideasB": ["Make you laugh", "Good for relaxing"] },
+        { "topic": "Living in a house vs flat — which is better?", "sideA": "House", "sideB": "Flat", "level": "starter", "theme": "home_A1", "ideasA": ["Has a garden", "More quiet"], "ideasB": ["Easier to clean", "Better location"] },
+        { "topic": "Washing dishes vs vacuuming — which is better?", "sideA": "Dishes", "sideB": "Vacuuming", "level": "starter", "theme": "home_A1", "ideasA": ["Warm water is nice", "Quiet job"], "ideasB": ["It is fast", "See immediate result"] },
+        { "topic": "Pop music vs rock music — which is better?", "sideA": "Pop", "sideB": "Rock", "level": "starter", "theme": "hobbies_A1", "ideasA": ["Catchy songs", "Good for dancing"], "ideasB": ["Cool instruments", "Strong energy"] },
+        { "topic": "Early bird vs night owl — which is better?", "sideA": "Early bird", "sideB": "Night owl", "level": "starter", "theme": "time_A1", "ideasA": ["Quiet morning", "Productive day"], "ideasB": ["Creative at night", "Can sleep late"] },
+        { "topic": "Walking vs running — which is better?", "sideA": "Walking", "sideB": "Running", "level": "starter", "theme": "health_A1", "ideasA": ["Relaxing", "Can see nature"], "ideasB": ["Good for heart", "Very fast"] },
+        { "topic": "Laptop vs desktop — which is better?", "sideA": "Laptop", "sideB": "Desktop", "level": "starter", "theme": "tech_A1", "ideasA": ["Can move it", "Work anywhere"], "ideasB": ["Bigger screen", "More powerful"] },
+        { "topic": "Public transport vs taxi — which is better?", "sideA": "Bus/Train", "sideB": "Taxi", "level": "starter", "theme": "transport_A1", "ideasA": ["Cheaper", "Better for nature"], "ideasB": ["Direct to house", "More comfortable"] },
+        { "topic": "Ice cream vs cake — which is better?", "sideA": "Ice cream", "sideB": "Cake", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["Cold and fresh", "Many flavours"], "ideasB": ["Warm and soft", "Good for birthday"] },
+        { "topic": "Email vs letter — which is better?", "sideA": "Email", "sideB": "Letter", "level": "starter", "theme": "tech_A1", "ideasA": ["Very fast", "Free"], "ideasB": ["More personal", "Nice to keep"] },
+        { "topic": "Beach vs park — which is better?", "sideA": "Beach", "sideB": "Park", "level": "starter", "theme": "nature_A1", "ideasA": ["Can swim", "Sand is fun"], "ideasB": ["Trees and shade", "Good for picnics"] },
+        { "topic": "Cooking vs cleaning — which is better?", "sideA": "Cooking", "sideB": "Cleaning", "level": "starter", "theme": "home_A1", "ideasA": ["Creative", "Delicious result"], "ideasB": ["Organised house", "Relaxing task"] },
+        { "topic": "Short hair vs long hair — which is better?", "sideA": "Short", "sideB": "Long", "level": "starter", "theme": "clothes_A1", "ideasA": ["Easy to wash", "Cool in summer"], "ideasB": ["Many styles", "Warm in winter"] },
+        { "topic": "Fiction vs non-fiction — which is better?", "sideA": "Fiction", "sideB": "Non-fiction", "level": "starter", "theme": "hobbies_A1", "ideasA": ["Exciting stories", "Escapism"], "ideasB": ["Learn facts", "Real world info"] },
+        { "topic": "Sweet vs savoury breakfast — which is better?", "sideA": "Sweet", "sideB": "Savoury", "level": "starter", "theme": "basic_foods_A1", "ideasA": ["Gives sugar energy", "Tastes like treat"], "ideasB": ["Full for longer", "More healthy"] },
+        { "topic": "Mountain cabin vs city hotel — which is better?", "sideA": "Cabin", "sideB": "Hotel", "level": "starter", "theme": "travel_A1", "ideasA": ["Quiet nature", "Fresh air"], "ideasB": ["Near shops", "Luxury service"] },
+        { "topic": "Group chat vs private message — which is better?", "sideA": "Group", "sideB": "Private", "level": "starter", "theme": "tech_A1", "ideasA": ["Talk to everyone", "Fun planning"], "ideasB": ["More personal", "No distractions"] },
+        { "topic": "Working from office vs home — which is better?", "sideA": "Office", "sideB": "Home", "level": "starter", "theme": "work_A1", "ideasA": ["See colleagues", "Separate life"], "ideasB": ["No commute", "More comfortable"] },
+        { "topic": "Physical map vs GPS — which is better?", "sideA": "Physical", "sideB": "GPS", "level": "starter", "theme": "travel_A1", "ideasA": ["No battery needed", "Better overview"], "ideasB": ["Live traffic", "Easy to follow"] },
+        { "topic": "Gift card vs actual gift — which is better?", "sideA": "Gift card", "sideB": "Actual gift", "level": "starter", "theme": "social_A1", "ideasA": ["They choose", "Always useful"], "ideasB": ["Personal touch", "Shows care"] },
+        { "topic": "Swimming vs cycling — which is better?", "sideA": "Swimming", "sideB": "Cycling", "level": "starter", "theme": "health_A1", "ideasA": ["Cool water", "Whole body workout"], "ideasB": ["See scenery", "Good transport"] },
+        { "topic": "Eating at desk vs break room — which is better?", "sideA": "Desk", "sideB": "Break room", "level": "starter", "theme": "work_A1", "ideasA": ["Save time", "Can watch video"], "ideasB": ["Socialise", "Real break"] },
+        { "topic": "Shower in morning vs night — which is better?", "sideA": "Morning", "sideB": "Night", "level": "starter", "theme": "time_A1", "ideasA": ["Wake up", "Feel fresh"], "ideasB": ["Clean sheets", "Relax before sleep"] },
+        { "topic": "Paper book vs E-book — which is better?", "sideA": "Paper", "sideB": "E-book", "level": "starter", "theme": "hobbies_A1", "ideasA": ["Smell of paper", "No screen"], "ideasB": ["Light to carry", "Thousands of books"] },
+        { "topic": "New clothes vs vintage — which is better?", "sideA": "New", "sideB": "Vintage", "level": "starter", "theme": "clothes_A1", "ideasA": ["Perfect condition", "Modern style"], "ideasB": ["Unique pieces", "Eco-friendly"] },
+        { "topic": "Hot weather vs cold — which is better?", "sideA": "Hot", "sideB": "Cold", "level": "starter", "theme": "nature_A1", "ideasA": ["Sunny days", "Ice cream"], "ideasB": ["Cozy jumpers", "No insects"] },
+        { "topic": "Breakfast vs dinner — which is better?", "sideA": "Breakfast", "sideB": "Dinner", "level": "starter", "theme": "time_A1", "ideasA": ["Start day right", "Quiet time"], "ideasB": ["Social time", "Relaxing end"] },
+        { "topic": "City park vs forest — which is better?", "sideA": "Park", "sideB": "Forest", "level": "starter", "theme": "nature_A1", "ideasA": ["Near home", "Easy paths"], "ideasB": ["Adventure", "Very quiet"] },
+        { "topic": "Texting vs voice notes — which is better?", "sideA": "Texting", "sideB": "Voice notes", "level": "starter", "theme": "tech_A1", "ideasA": ["Read anytime", "Searchable"], "ideasB": ["Hear emotion", "Faster to send"] }
     ];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};

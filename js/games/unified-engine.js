@@ -40,8 +40,8 @@
         await Promise.all(promises);
     }
 
-    function getGameData() {
-        const lang = localStorage.getItem('language') || 'en';
+    function getGameData(targetLang) {
+        const lang = targetLang || localStorage.getItem('language') || 'en';
         // Attempt to get specific language data, fallback to English
         const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinion: [], battle: [], critic: [] });
 
@@ -410,7 +410,7 @@
             const level = 'all'; // Default for now
             await loadLevelData(lang, level);
 
-            const data = getGameData();
+            const data = getGameData(lang);
             const durStr = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || '2 minutes';
             const dur = parseInt(durStr) * 60;
             const body = document.getElementById('go-body');
@@ -465,7 +465,7 @@
             const level = 'all';
             await loadLevelData(lang, level);
 
-            const data = getGameData();
+            const data = getGameData(lang);
             const stmt = pick(data.opinion || ['...']);
             const body = document.getElementById('go-body');
             const DUR = 90;
@@ -518,7 +518,7 @@
             const level = 'all';
             await loadLevelData(lang, level);
 
-            const data = getGameData();
+        const data = getGameData(lang);
             const debate = pick(data.battle || [{sideA:'A', sideB:'B', topic:'Which is better?'}]);
             const body = document.getElementById('go-body');
             const DUR = 120;
@@ -612,7 +612,7 @@
             const level = 'all';
             await loadLevelData(lang, level);
 
-            const data = getGameData();
+            const data = getGameData(lang);
             const quote = pick(data.critic || ['...']);
             const body = document.getElementById('go-body');
             const DUR = 150;
@@ -647,7 +647,7 @@
         },
 
         startAction() {
-            const data = getGameData();
+            const data = getGameData(lang);
             const level = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'A2';
             const pool = (data.action && data.action[level]) ? data.action[level] : (data.action ? data.action['A2'] : ['...']);
             const words = shuffle(pool);
@@ -702,7 +702,7 @@
         },
 
         startIdentity() {
-            const data = getGameData();
+            const data = getGameData(lang);
             const identity = pick(data.identity || [{person:'...', clue:'...'}]);
             const body = document.getElementById('go-body');
             let questions = 0, maxQ = 20;
@@ -745,7 +745,7 @@
         },
 
         startWordLinker() {
-            const data = getGameData();
+            const data = getGameData(lang);
             let wlScore = 0, wlQ = 0;
             const nextWordLinker = () => {
                 const q = pick(data.wordlinker || [{words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'}]);
@@ -882,7 +882,7 @@
         },
 
         startStoryChain() {
-            const data = getGameData();
+            const data = getGameData(lang);
             let story = [], pool = data.storychain || [];
             if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
 
@@ -926,7 +926,7 @@
         },
 
         startHotSeat() {
-            const data = getGameData();
+            const data = getGameData(lang);
             const body = document.getElementById('go-body');
             let score = 0, timeLeft = 60, active = true;
 
@@ -991,9 +991,9 @@
         },
 
         startObjectQuest() {
-            const data = getGameData();
+            const data = getGameData(lang);
             const body = document.getElementById('go-body');
-            const lang = localStorage.getItem('language') || 'en';
+            const lang = targetLang || localStorage.getItem('language') || 'en';
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
             const objects = vocab.filter(v => v.theme && !v.theme.includes('professions') && !v.theme.includes('famous_people'));
 
@@ -1030,7 +1030,7 @@
         startEmojiOdyssey() {
             const mode = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'guess';
             const body = document.getElementById('go-body');
-            const lang = localStorage.getItem('language') || 'en';
+            const lang = targetLang || localStorage.getItem('language') || 'en';
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
 
             if (mode === 'guess') {
@@ -1129,7 +1129,7 @@
             const role = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'player';
             const body = document.getElementById('go-body');
             const type = document.getElementById('s-type')?.value || 'Bingo 1 (0-9)';
-            const lang = localStorage.getItem('language') || 'en';
+            const lang = targetLang || localStorage.getItem('language') || 'en';
 
             if (role === 'caller') {
                 body.innerHTML = `

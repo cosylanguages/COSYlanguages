@@ -5,8 +5,8 @@
                 "sideB": "5 ημέρες",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Καθολικό βασικό εισόδημα εναντίον στοχευμένης πρόνοιας — ποιο είναι το πιο αποτελεσματικό δίχτυ ασφαλείας για τους εργαζόμενους ενήλικες;",
@@ -14,8 +14,8 @@
                 "sideB": "Στοχευμένη πρόνοια",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Η οικονομία της πλατφόρμας (gig economy) εναντίον της μόνιμης απασχόλησης — ποιο μοντέλο εξυπηρετεί καλύτερα τους εργαζόμενους μακροπρόθεσμα;",
@@ -23,8 +23,8 @@
                 "sideB": "Μόνιμη απασχόληση",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Αξιοκρατία εναντίον δομικού πλεονεκτήματος — τι εξηγεί με μεγαλύτερη ακρίβεια την επαγγελματική επιτυχία;",
@@ -32,8 +32,8 @@
                 "sideB": "Δομικό πλεονέκτημα",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Διαφάνεια στους μισθούς εναντίον απορρήτου — τι δημιουργεί έναν δικαιότερο χώρο εργασίας;",
@@ -41,8 +41,8 @@
                 "sideB": "Απόρρητο",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Αυτοματοποίηση εναντίον ανθρώπινης εργασίας — ποια είναι η μεγαλύτερη μακροπρόθεσμη απειλή για την απασχόληση των ενηλίκων;",
@@ -50,8 +50,8 @@
                 "sideB": "Ανθρώπινη εργασία",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Εξ αποστάσεως εργασία εναντίον παρουσίας στο γραφείο — τι είναι καλύτερο για την εξέλιξη της καριέρας και την κουλτούρα της ομάδας;",
@@ -59,8 +59,8 @@
                 "sideB": "Γραφείο",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ίση γονική άδεια για άνδρες και γυναίκες εναντίον μεγαλύτερης άδειας μητρότητας — ποια πολιτική είναι δικαιότερη;",
@@ -68,8 +68,8 @@
                 "sideB": "Μεγαλύτερη μητρότητας",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Η επιλογή να μην έχει κανείς παιδιά εναντίον της κοινωνικής πίεσης για οικογένεια — τι αξίζει περισσότερο σεβασμό;",
@@ -77,8 +77,8 @@
                 "sideB": "Κοινωνική πίεση",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ο γάμος ως θεσμός εναντίον της συμβίωσης χωρίς γάμο — τι είναι πιο σχετικό σήμερα;",
@@ -86,8 +86,8 @@
                 "sideB": "Συμβίωση",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Νοικοκυριά με δύο εισοδήματα εναντίον ενός συντρόφου που μένει στο σπίτι — ποιο μοντέλο είναι καλύτερο για παιδιά και ενήλικες;",
@@ -95,8 +95,8 @@
                 "sideB": "Ένας στο σπίτι",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Το μισθολογικό χάσμα μεταξύ των φύλων ως δομικό πρόβλημα εναντίον ζητήματος ατομικών επιλογών — ποια εξήγηση έχει μεγαλύτερη βαρύτητα;",
@@ -104,8 +104,8 @@
                 "sideB": "Ατομικές επιλογές",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Η ιδιοκτησία σπιτιού ως στόχος εναντίον μιας επαγγελματικής αγοράς ενοικίασης — ποιο μοντέλο στέγασης ταιριάζει καλύτερα στους σύγχρονους ενήλικες;",
@@ -113,8 +113,8 @@
                 "sideB": "Αγορά ενοικίασης",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ο εξευγενισμός (gentrification) ως βελτίωση εναντίον του εξευγενισμού ως εκτοπισμός — ποια προσέγγιση είναι πιο ειλικρινής;",
@@ -122,8 +122,8 @@
                 "sideB": "Εκτοπισμός",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Αστική πυκνότητα εναντίον προαστιακής εξάπλωσης — ποιο είναι το καλύτερο μοντέλο για βιώσιμες πόλεις;",
@@ -131,8 +131,8 @@
                 "sideB": "Προαστιακή εξάπλωση",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ζωή κοντά στην οικογένεια εναντίον μετακόμισης για ευκαιρίες — ποια επιλογή παράγει καλύτερη μακροπρόθεσμη ευημερία;",
@@ -140,8 +140,8 @@
                 "sideB": "Μετακόμιση",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ένας γηράσκων πληθυσμός ως κρίση εναντίον ως πόρος — ποιο πλαίσιο είναι πιο παραγωγικό;",
@@ -149,8 +149,8 @@
                 "sideB": "Πόρος",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Προσωπική ευθύνη για την υγεία εναντίον συστημικών παραγόντων — τι έχει μεγαλύτερη βαρύτητα στην εξήγηση των αποτελεσμάτων υγείας;",
@@ -158,8 +158,8 @@
                 "sideB": "Συστημικοί παράγοντες",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ημέρες ψυχικής υγείας ως νόμιμο δικαίωμα στον χώρο εργασίας εναντίον πηγής κατάχρησης — πού πρέπει οι εργοδότες να θέσουν το όριο;",
@@ -167,8 +167,8 @@
                 "sideB": "Πηγή κατάχρησης",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Προληπτική ιατρική εναντίον θεραπευτικής ιατρικής — ποια πρέπει να λαμβάνει περισσότερη δημόσια χρηματοδότηση;",
@@ -176,8 +176,8 @@
                 "sideB": "Θεραπευτική",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Αντιγηραντική ιατρική εναντίον αξιοπρεπούς γήρανσης — ποια στάση είναι πιο συνεκτική;",
@@ -185,8 +185,8 @@
                 "sideB": "Αξιοπρεπής γήρανση",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Τεχνολογία επιτήρησης για τη δημόσια ασφάλεια εναντίον του δικαιώματος στην ιδιωτικότητα — πού πρέπει να βρίσκεται η ισορροπία;",
@@ -194,8 +194,8 @@
                 "sideB": "Ιδιωτικότητα",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Τα μέσα κοινωνικής δικτύωσης ως εργαλείο πολιτικής συμμετοχής εναντίον ως οδηγός πόλωσης — ποια επίδραση κυριαρχεί;",
@@ -203,8 +203,8 @@
                 "sideB": "Πόλωση",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Η ΤΝ στην πρόσληψη εναντίον της ανθρώπινης κρίσης — τι παράγει δικαιότερες αποφάσεις πρόσληψης;",
@@ -212,8 +212,8 @@
                 "sideB": "Ανθρώπινη κρίση",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Το δικαίωμα στη λήθη στο διαδίκτυο εναντίον του δικαιώματος του κοινού στην πληροφόρηση — τι πρέπει να έχει προτεραιότητα;",
@@ -221,8 +221,8 @@
                 "sideB": "Δικαίωμα πληροφόρησης",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Υποχρεωτική ψηφοφορία εναντίον εθελοντικής ψηφοφορίας — τι παράγει υγιέστερες δημοκρατίες;",
@@ -230,8 +230,8 @@
                 "sideB": "Εθελοντική",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Πολιτική δέσμευση μέσω διαμαρτυρίας εναντίον μέσω θεσμικών καναλιών — τι είναι πιο αποτελεσματικό για τους ενήλικες σήμερα;",
@@ -239,8 +239,8 @@
                 "sideB": "Θεσμικά κανάλια",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Εθνική ταυτότητα εναντίον ευρωπαϊκής ή παγκόσμιας ταυτότητας — τι είναι πιο σημαντικό για τους ενήλικες το 2026;",
@@ -248,8 +248,8 @@
                 "sideB": "Παγκόσμια ταυτότητα",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Αυξήσεις φόρων για τη χρηματοδότηση δημόσιων υπηρεσιών εναντίον περικοπών δαπανών — ποια είναι η πιο υπερασπίσιμη πολιτική επιλογή;",
@@ -257,8 +257,8 @@
                 "sideB": "Περικοπές δαπανών",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Το να παραδέχεστε ότι δεν έχετε ιδέα πώς λειτουργεί η σύνταξή σας εναντίον του να προσποιείστε με αυτοπεποίθηση ότι ξέρετε — ποια είναι η πιο καθολική εμπειρία ενήλικα;",
@@ -266,8 +266,8 @@
                 "sideB": "Προσποίηση",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Το να είστε το άτομο που σχεδιάζει πάντα τις κοινωνικές εκδηλώσεις εναντίον του να είστε πάντα το άτομο που απλώς εμφανίζεται — ποιος ρόλος είναι πιο εξαντλητικός;",
@@ -275,8 +275,8 @@
                 "sideB": "Ο καλεσμένος",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Το να έχετε ισχυρή άποψη για τις συνήθειες της κουζίνας των συναδέλφων σας εναντίον του να μην σας νοιάζει καθόλου — ποιο άτομο είναι πιο υποφερτό;",
@@ -284,8 +284,8 @@
                 "sideB": "Αδιαφορία",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Συμμετοχή σε κάθε προαιρετική κοινωνική εκδήλωση εργασίας εναντίον μη συμμετοχής σε καμία — ποια στρατηγική είναι καλύτερη για την καριέρα και την ψυχική σας υγεία;",
@@ -293,8 +293,8 @@
                 "sideB": "Σε καμία",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ενήλικες που εξακολουθούν να μπερδεύονται με τη φορολογική τους δήλωση εναντίον ενηλίκων που απολαμβάνουν να την κάνουν — ποια ομάδα είναι πιο αξιόπιστη;",
@@ -302,8 +302,8 @@
                 "sideB": "Απολαμβάνουν",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Παράπονα για το κόστος ζωής σε φίλους εναντίον προσποίησης ότι όλα είναι καλά — ποια είναι η πιο ειλικρινής απάντηση ενήλικα;",
@@ -311,8 +311,8 @@
                 "sideB": "Προσποίηση",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Κοινωνικά δίκτυα εναντίον δια ζώσης επικοινωνίας — τι είναι καλύτερο για τη δημιουργία σχέσεων;",
@@ -320,8 +320,8 @@
                 "sideB": "Από κοντά",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Αστική ζωή εναντίον αγροτικής ζωής — ποια προσφέρει καλύτερη ποιότητα ζωής;",
@@ -329,8 +329,8 @@
                 "sideB": "Αγροτική",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Διαδικτυακή μάθηση εναντίον παραδοσιακής τάξης — ποιο είναι το μέλλον της εκπαίδευσης;",
@@ -338,8 +338,8 @@
                 "sideB": "Τάξη",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Ανανεώσιμες πηγές ενέργειας εναντίον πυρηνικής ενέργειας — ποια είναι η καλύτερη λύση για το κλίμα;",
@@ -347,8 +347,8 @@
                 "sideB": "Πυρηνική",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             },
             {
                 "topic": "Γρήγορη μόδα εναντίον βιώσιμης ένδυσης — μπορούμε να αντέξουμε οικονομικά να είμαστε ηθικοί;",
@@ -356,8 +356,8 @@
                 "sideB": "Βιώσιμη",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Ιδέα για Α 1", "Ιδέα για Α 2"],
+                "ideasB": ["Ιδέα για Β 1", "Ιδέα για Β 2"]
             }];
     const lang = "el";
     if (!window.speakingData) window.speakingData = {};

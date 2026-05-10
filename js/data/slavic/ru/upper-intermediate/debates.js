@@ -5,8 +5,8 @@
                 "sideB": "5 дней",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Безусловный базовый доход против адресной социальной помощи — что является более эффективной защитой для работающих взрослых?",
@@ -14,8 +14,8 @@
                 "sideB": "Адресная помощь",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Гиг-экономика против постоянной занятости — какая модель лучше служит работникам в долгосрочной перспективе?",
@@ -23,8 +23,8 @@
                 "sideB": "Постоянная занятость",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Меритократия против структурных преимуществ — что точнее объясняет карьерный успех?",
@@ -32,8 +32,8 @@
                 "sideB": "Структурные преимущества",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Прозрачность зарплат против конфиденциальности — что создает более справедливую рабочую среду?",
@@ -41,8 +41,8 @@
                 "sideB": "Конфиденциальность",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Автоматизация против человеческого труда — что является большей долгосрочной угрозой для занятости взрослых?",
@@ -50,8 +50,8 @@
                 "sideB": "Человеческий труд",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Удаленная работа против присутствия в офисе — что лучше для карьерного роста и командной культуры?",
@@ -59,8 +59,8 @@
                 "sideB": "Офис",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Равный отпуск по уходу за ребенком для мужчин и женщин против более длинного декретного отпуска — какая политика справедливее?",
@@ -68,8 +68,8 @@
                 "sideB": "Длинный декрет",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Выбор не иметь детей против социального давления завести семью — что заслуживает большего уважения?",
@@ -77,8 +77,8 @@
                 "sideB": "Давление общества",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Брак как институт против сожительства без брака — что более актуально сегодня?",
@@ -86,8 +86,8 @@
                 "sideB": "Сожительство",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Семьи с двумя доходами против ситуации, когда один партнер остается дома — какая модель лучше для детей и взрослых?",
@@ -95,8 +95,8 @@
                 "sideB": "Один дома",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Гендерный разрыв в оплате труда как структурная проблема против вопроса индивидуального выбора — какое объяснение весомее?",
@@ -104,8 +104,8 @@
                 "sideB": "Личный выбор",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Владение жильем как цель против профессионального рынка аренды — какая модель жилья лучше подходит современным взрослым?",
@@ -113,8 +113,8 @@
                 "sideB": "Аренда",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Джентрификация как улучшение против джентрификации как вытеснение — какая формулировка честнее?",
@@ -122,8 +122,8 @@
                 "sideB": "Вытеснение",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Городская плотность против разрастания пригородов — какая модель лучше для комфортных городов?",
@@ -131,8 +131,8 @@
                 "sideB": "Разрастание",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Жизнь рядом с семьей против переезда ради возможностей — какой выбор дает лучшее самочувствие в долгосрочной перспективе?",
@@ -140,8 +140,8 @@
                 "sideB": "Переезд",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Старение населения как кризис против старения как ресурса — какая формулировка продуктивнее?",
@@ -149,8 +149,8 @@
                 "sideB": "Ресурс",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Личная ответственность за здоровье против системных факторов — что имеет больший вес в объяснении результатов для здоровья?",
@@ -158,8 +158,8 @@
                 "sideB": "Системные факторы",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Дни психологической разгрузки как законное право на рабочем месте против источника злоупотреблений — где работодатели должны провести черту?",
@@ -167,8 +167,8 @@
                 "sideB": "Злоупотребление",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Профилактическая медицина против лечебной медицины — на что должно выделяться больше государственного финансирования?",
@@ -176,8 +176,8 @@
                 "sideB": "Лечение",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Антивозрастная медицина против грациозного старения — какая позиция более последовательна?",
@@ -185,8 +185,8 @@
                 "sideB": "Грациозное старение",
                 "level": "upper-intermediate",
                 "theme": "healthcare_systems_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Технологии наблюдения для общественной безопасности против права на частную жизнь — где должен быть баланс?",
@@ -194,8 +194,8 @@
                 "sideB": "Частная жизнь",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Соцсети как инструмент гражданского участия против соцсетей как драйвера поляризации — какой эффект преобладает?",
@@ -203,8 +203,8 @@
                 "sideB": "Поляризация",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "ИИ в найме против человеческого суждения — что дает более справедливые решения о найме?",
@@ -212,8 +212,8 @@
                 "sideB": "Человек",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Право быть забытым в интернете против права общественности на информацию — что должно иметь приоритет?",
@@ -221,8 +221,8 @@
                 "sideB": "Право на инфо",
                 "level": "upper-intermediate",
                 "theme": "technology_privacy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Обязательное голосование против добровольного — что создает более здоровую демократию?",
@@ -230,8 +230,8 @@
                 "sideB": "Добровольное",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Политическое участие через протест против участия через официальные институты — что эффективнее для взрослых сегодня?",
@@ -239,8 +239,8 @@
                 "sideB": "Институты",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Национальная идентичность против европейской или глобальной — что важнее для взрослых в 2026 году?",
@@ -248,8 +248,8 @@
                 "sideB": "Глобальная",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Повышение налогов для финансирования госуслуг против сокращения расходов — какой политический выбор более оправдан?",
@@ -257,8 +257,8 @@
                 "sideB": "Сокращение расходов",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Признание, что вы не представляете, как устроена ваша пенсия, против уверенной имитации знания — какой опыт более универсален для взрослого?",
@@ -266,8 +266,8 @@
                 "sideB": "Имитация",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Быть человеком, который всегда планирует встречи, против того, кто просто приходит — какая роль больше утомляет?",
@@ -275,8 +275,8 @@
                 "sideB": "Гость",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Иметь твердое мнение о кухонных привычках коллег против полного безразличия — какой человек более терпим?",
@@ -284,8 +284,8 @@
                 "sideB": "Безразличие",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Посещение каждого необязательного рабочего мероприятия против полного их игнорирования — какая стратегия лучше для карьеры и психики?",
@@ -293,8 +293,8 @@
                 "sideB": "Игнорировать",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Взрослые, которые все еще путаются в налоговой декларации, против тех, кому нравится ее заполнять — какая группа заслуживает большего доверия?",
@@ -302,8 +302,8 @@
                 "sideB": "Нравится",
                 "level": "upper-intermediate",
                 "theme": "economy_labour_market_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Жаловаться друзьям на стоимость жизни против того, чтобы делать вид, что все в порядке — какая реакция честнее?",
@@ -311,8 +311,8 @@
                 "sideB": "Делать вид",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Социальные сети против живого общения — что лучше для построения отношений?",
@@ -320,8 +320,8 @@
                 "sideB": "Лично",
                 "level": "upper-intermediate",
                 "theme": "politics_governance_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Городская жизнь против сельской жизни — где качество жизни выше?",
@@ -329,8 +329,8 @@
                 "sideB": "Деревня",
                 "level": "upper-intermediate",
                 "theme": "globalisation_trade_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Онлайн-обучение против традиционного класса — за чем будущее образования?",
@@ -338,8 +338,8 @@
                 "sideB": "Класс",
                 "level": "upper-intermediate",
                 "theme": "academic_vocabulary_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Возобновляемая энергия против ядерной энергии — какое решение лучше для климата?",
@@ -347,8 +347,8 @@
                 "sideB": "Ядерная",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Быстрая мода против устойчивой моды — можем ли мы позволить себе быть этичными?",
@@ -356,8 +356,8 @@
                 "sideB": "Устойчивая",
                 "level": "upper-intermediate",
                 "theme": "environment_policy_B2",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             }];
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};

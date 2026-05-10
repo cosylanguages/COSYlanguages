@@ -5,8 +5,8 @@
                 "sideB": "Офис",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Стабильность работы или карьерный рост — что взрослым стоит приоритизировать?",
@@ -14,8 +14,8 @@
                 "sideB": "Рост",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Свой бизнес или работа по найму — какой выбор лучше в 30 лет?",
@@ -23,8 +23,8 @@
                 "sideB": "По найму",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Амбиции или баланс между работой и жизнью — можно ли действительно иметь и то, и другое?",
@@ -32,8 +32,8 @@
                 "sideB": "Баланс",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Нетворкинг или развитие навыков — что больше продвигает вашу карьеру?",
@@ -41,8 +41,8 @@
                 "sideB": "Навыки",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Честная обратная связь от начальника или полная независимость в работе — что больше мотивирует взрослых?",
@@ -50,8 +50,8 @@
                 "sideB": "Независимость",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Смена карьеры в 40 лет или верность своей области — какое решение мудрее?",
@@ -59,8 +59,8 @@
                 "sideB": "Верность области",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Досрочное погашение ипотеки или инвестирование этих денег — что умнее?",
@@ -68,8 +68,8 @@
                 "sideB": "Инвестировать",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Собственное жилье или пожизненная аренда — что больше подходит для современной взрослой жизни?",
@@ -77,8 +77,8 @@
                 "sideB": "Аренда",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Копить на пенсию смолоду или наслаждаться деньгами в 30 лет — что мудрее?",
@@ -86,8 +86,8 @@
                 "sideB": "Наслаждаться сейчас",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Жить скромнее своих возможностей или тратить, чтобы наслаждаться жизнью сейчас — какой подход здоровее?",
@@ -95,8 +95,8 @@
                 "sideB": "Наслаждаться сейчас",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Два дохода в семье или один партнер, сидящий дома — что лучше для семей?",
@@ -104,8 +104,8 @@
                 "sideB": "Один дома",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Иметь детей или сознательно отказаться от них — какая взрослая жизнь более насыщенная?",
@@ -113,8 +113,8 @@
                 "sideB": "Без детей",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Строгое воспитание или вседозволенность — из кого вырастают более счастливые взрослые?",
@@ -122,8 +122,8 @@
                 "sideB": "Вседозволенность",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Долгосрочные отношения или жизнь в одиночку — что лучше для личностного роста?",
@@ -131,8 +131,8 @@
                 "sideB": "Одиночество",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Разделять работу и личную жизнь или объединять их — что здоровее?",
@@ -140,8 +140,8 @@
                 "sideB": "Объединять",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Переезд за границу парой или жизнь рядом с семьей — какое решение верное?",
@@ -149,8 +149,8 @@
                 "sideB": "Рядом с семьей",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Приоритет физического здоровья или ментального — на чем взрослым стоит сосредоточиться в первую очередь?",
@@ -158,8 +158,8 @@
                 "sideB": "Ментальное",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Частная медицина или опора на государственную систему — какая стратегия лучше для взрослого?",
@@ -167,8 +167,8 @@
                 "sideB": "Государственная",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Регулярные медосмотры или поход к врачу только во время болезни — какой подход умнее?",
@@ -176,8 +176,8 @@
                 "sideB": "Только когда болен",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Меньше алкоголя или меньше стресса — что сильнее влияет на здоровье взрослых?",
@@ -185,8 +185,8 @@
                 "sideB": "Меньше стресса",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Личная свобода или ответственность перед обществом — чем должны руководствоваться взрослые при принятии решений?",
@@ -194,8 +194,8 @@
                 "sideB": "Ответственность",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Оптимизм по поводу будущего или реализм — какая позиция полезнее для взрослых?",
@@ -203,8 +203,8 @@
                 "sideB": "Реализм",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Изменять мир или строить стабильную личную жизнь — какая амбиция более честная?",
@@ -212,8 +212,8 @@
                 "sideB": "Стабильная жизнь",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Тратить свое время на волонтерство или жертвовать деньги — что приносит больше пользы?",
@@ -221,8 +221,8 @@
                 "sideB": "Деньги",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Следовать ценностям своего поколения или ставить их под сомнение — что более достойно восхищения?",
@@ -230,8 +230,8 @@
                 "sideB": "Сомневаться",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Знать, сколько зарабатывают ваши коллеги, или не знать — что лучше для гармонии в офисе?",
@@ -239,8 +239,8 @@
                 "sideB": "Не знать",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Отвечать на сообщения мгновенно или не торопиться — что более уважительно во взрослой жизни?",
@@ -248,8 +248,8 @@
                 "sideB": "Не торопясь",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Признаться, что не имеешь понятия, что такое пенсионный фонд, или притворяться, что знаешь — что больше похоже на жизнь взрослого человека?",
@@ -257,8 +257,8 @@
                 "sideB": "Притворяться",
                 "level": "intermediate",
                 "theme": "buying_property_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Отменять планы в последний момент или идти куда-то через силу — какая взрослая привычка хуже?",
@@ -266,8 +266,8 @@
                 "sideB": "Идти через силу",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Открыто обсуждать деньги с друзьями или держать это в секрете — какой подход более зрелый?",
@@ -275,8 +275,8 @@
                 "sideB": "Держать в секрете",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Работа из дома против работы в офисе",
@@ -314,8 +314,8 @@
                 "sideB": "В классе",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Запоминание фактов или умение находить информацию — какой навык важнее?",
@@ -323,8 +323,8 @@
                 "sideB": "Поиск инфо",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Университетское образование или профессиональное обучение — какой путь лучше?",
@@ -332,8 +332,8 @@
                 "sideB": "Колледж/ПТУ",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Экзамены или непрерывное оценивание — какой способ оценки студентов более справедлив?",
@@ -341,8 +341,8 @@
                 "sideB": "Оценки за год",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Изучение иностранного языка в школе или жизнь за границей — что эффективнее?",
@@ -350,8 +350,8 @@
                 "sideB": "За границей",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Школы с раздельным обучением или смешанные школы — какие лучше для учеников?",
@@ -359,8 +359,8 @@
                 "sideB": "Смешанные",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Социальные сети или личное общение — что лучше для поддержания связи?",
@@ -368,8 +368,8 @@
                 "sideB": "Лично",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Стриминговые сервисы или традиционное ТВ — что лучше?",
@@ -377,8 +377,8 @@
                 "sideB": "ТВ",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Работа из дома или работа в офисе — что продуктивнее?",
@@ -386,8 +386,8 @@
                 "sideB": "Офис",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Чтение новостей онлайн или чтение газеты — что надежнее?",
@@ -395,8 +395,8 @@
                 "sideB": "Газета",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Проводить время в соцсетях или проводить время на природе — что лучше для вашего психического здоровья?",
@@ -404,8 +404,8 @@
                 "sideB": "Природа",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Пользоваться общественным транспортом или водить машину — что лучше для общества?",
@@ -413,8 +413,8 @@
                 "sideB": "Машина",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Покупка подержанной одежды или покупка новой — какая привычка лучше?",
@@ -422,8 +422,8 @@
                 "sideB": "Новое",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Жизнь в городе или жизнь в деревне — что больше подходит молодежи?",
@@ -431,8 +431,8 @@
                 "sideB": "Деревня",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Вегетарианство или употребление мяса — что лучше для планеты?",
@@ -440,8 +440,8 @@
                 "sideB": "Мясо",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Индивидуальные изменения образа жизни или действия правительства — что дает больше для экологии?",
@@ -449,8 +449,8 @@
                 "sideB": "Государство",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Стабильная работа или творческая карьера — какой жизненный выбор лучше?",
@@ -458,8 +458,8 @@
                 "sideB": "Творчество",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Открытие собственного бизнеса или работа на компанию — что лучше?",
@@ -467,8 +467,8 @@
                 "sideB": "Компания",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Высокая зарплата или удовлетворение от работы — что важнее в работе?",
@@ -476,8 +476,8 @@
                 "sideB": "Удовлетворение",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Работать сверхурочно или иметь баланс между работой и личной жизнью — что ведет к большему успеху?",
@@ -485,8 +485,8 @@
                 "sideB": "Баланс",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Выбор карьеры по призванию или на основе перспектив трудоустройства — что мудрее?",
@@ -494,8 +494,8 @@
                 "sideB": "Перспективы",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Жить как индивидуальность или ставить интересы общества на первое место — что важнее?",
@@ -503,8 +503,8 @@
                 "sideB": "Общество",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Традиционные ценности или современные ценности — какие важнее сохранить?",
@@ -512,8 +512,8 @@
                 "sideB": "Модерн",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Волонтерство или пожертвование денег на благотворительность — что помогает больше?",
@@ -521,8 +521,8 @@
                 "sideB": "Деньги",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Слава или возможность тихо менять мир к лучшему — какая цель в жизни лучше?",
@@ -530,8 +530,8 @@
                 "sideB": "Тихое влияние",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Следование правилам или умение думать самостоятельно — что важнее?",
@@ -539,8 +539,8 @@
                 "sideB": "Свои мысли",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Физическое здоровье или психическое здоровье — что должно быть приоритетом?",
@@ -548,8 +548,8 @@
                 "sideB": "Психическое",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Профилактика или лечение — какой подход к здравоохранению лучше?",
@@ -557,8 +557,8 @@
                 "sideB": "Лечение",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Соревновательный спорт или упражнения для удовольствия — что лучше для вас?",
@@ -566,8 +566,8 @@
                 "sideB": "Для себя",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Частное здравоохранение или государственное — какая система справедливее?",
@@ -575,8 +575,8 @@
                 "sideB": "Государственное",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Кино или литература — какая форма искусства сильнее?",
@@ -584,8 +584,8 @@
                 "sideB": "Литература",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Современное искусство или классическое — что ценнее?",
@@ -593,8 +593,8 @@
                 "sideB": "Классика",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Сохранение старых зданий или строительство новых — что важнее?",
@@ -602,8 +602,8 @@
                 "sideB": "Новые здания",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Местная культура или глобализация — что больше обогащает общество?",
@@ -611,8 +611,8 @@
                 "sideB": "Глобализация",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Учиться на ошибках против того, чтобы учиться на успехе — что учит большему?",
@@ -620,8 +620,8 @@
                 "sideB": "Успех",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Планшеты в классе против традиционных тетрадей — что больше помогает ученикам?",
@@ -629,8 +629,8 @@
                 "sideB": "Тетради",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Быть всегда на связи против наличия цифрового свободного времени — что лучше?",
@@ -638,8 +638,8 @@
                 "sideB": "Свободное время",
                 "level": "intermediate",
                 "theme": "media_news_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Повторное использование вещей против переработки — что эффективнее?",
@@ -647,8 +647,8 @@
                 "sideB": "Переработка",
                 "level": "intermediate",
                 "theme": "environment_sustainability_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Одна карьера на всю жизнь против частой смены профессий — что лучше?",
@@ -656,8 +656,8 @@
                 "sideB": "Частая смена",
                 "level": "intermediate",
                 "theme": "career_development_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Сон против физических упражнений — что больше влияет на ваше здоровье?",
@@ -665,8 +665,8 @@
                 "sideB": "Упражнения",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Поп-музыка против классической музыки — что имеет большее культурное влияние?",
@@ -674,8 +674,8 @@
                 "sideB": "Классика",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Знать, чем все закончится, против того, чтобы быть застигнутым врасплох — что лучше?",
@@ -683,8 +683,8 @@
                 "sideB": "Сюрприз",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Мгновенный ответ на сообщения против того, чтобы не торопиться — что более уважительно?",
@@ -692,8 +692,8 @@
                 "sideB": "Не торопясь",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Просмотр сериала запоем против просмотра одной серии в неделю — как правильно?",
@@ -701,8 +701,8 @@
                 "sideB": "По серии",
                 "level": "intermediate",
                 "theme": "opinion_debate_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Место у окна против места у прохода в самолете — что объективно лучше?",
@@ -710,8 +710,8 @@
                 "sideB": "У прохода",
                 "level": "intermediate",
                 "theme": "travel_cultural_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Один раз пропустить спортзал против того, чтобы пойти и плохо потренироваться — что хуже?",
@@ -719,8 +719,8 @@
                 "sideB": "Плохая тренировка",
                 "level": "intermediate",
                 "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             },
             {
                 "topic": "Разговаривать с самим собой против разговора со своим питомцем — что более разумно?",
@@ -728,8 +728,8 @@
                 "sideB": "С питомцем",
                 "level": "intermediate",
                 "theme": "society_community_B1",
-                "ideasA": ["Pro idea 1", "Pro idea 2"],
-                "ideasB": ["Contro idea 1", "Contro idea 2"]
+                "ideasA": ["Идея для А 1", "Идея для А 2"],
+                "ideasB": ["Идея для Б 1", "Идея для Б 2"]
             }];
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};

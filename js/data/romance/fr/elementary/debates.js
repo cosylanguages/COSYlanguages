@@ -5,8 +5,8 @@
                 "sideB": "Court trajet",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Changer souvent d'emploi vs rester dans la même entreprise — qu'est-ce qui est le mieux pour votre carrière ?",
@@ -14,8 +14,8 @@
                 "sideB": "Rester",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Faire des heures supplémentaires vs partir à l'heure tous les jours — quelle est la meilleure habitude ?",
@@ -23,17 +23,17 @@
                 "sideB": "À l'heure",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Un patron strict vs un patron détendu — pour qui est-il mieux de travailler ?",
+                "topic": "Un patron strict vs un patron détendu — pour qui est-il préférable de travailler ?",
                 "sideA": "Patron strict",
                 "sideB": "Patron détendu",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler dans une grande entreprise vs une petite entreprise — qu'est-ce qui est mieux ?",
@@ -41,8 +41,8 @@
                 "sideB": "Petite entreprise",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Obtenir une promotion vs obtenir plus de temps libre — que choisiriez-vous ?",
@@ -50,8 +50,8 @@
                 "sideB": "Temps libre",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Acheter une maison vs louer toute sa vie — quelle est la décision financière la plus intelligente ?",
@@ -59,8 +59,8 @@
                 "sideB": "Louer",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre en centre-ville vs vivre en banlieue — qu'est-ce qui est mieux ?",
@@ -68,8 +68,8 @@
                 "sideB": "Banlieue",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Dépenser de l'argent pour des expériences vs pour des objets — qu'est-ce qui vous rend plus heureux ?",
@@ -77,8 +77,8 @@
                 "sideB": "Objets",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cuisiner tous les jours vs préparer les repas une fois par semaine — qu'est-ce qui est le plus pratique ?",
@@ -86,8 +86,8 @@
                 "sideB": "Meal prepping",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir une femme de ménage vs faire son propre ménage — quel est le meilleur choix ?",
@@ -95,8 +95,8 @@
                 "sideB": "Soi-même",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?",
@@ -104,8 +104,8 @@
                 "sideB": "Seul",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?",
@@ -113,8 +113,8 @@
                 "sideB": "Plus tard",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?",
@@ -122,8 +122,8 @@
                 "sideB": "Indépendance",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?",
@@ -131,8 +131,8 @@
                 "sideB": "Anciens amis",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Socialiser après le travail vs rentrer directement à la maison — qu'est-ce qui est mieux pour les relations de travail ?",
@@ -140,8 +140,8 @@
                 "sideB": "Rentrer",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Aller à la salle de sport vs faire de l'exercice à l'extérieur — qu'est-ce qui est mieux pour les adultes ?",
@@ -149,8 +149,8 @@
                 "sideB": "Extérieur",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Régime strict vs manger de tout avec modération — qu'est-ce qui est plus sain ?",
@@ -158,8 +158,8 @@
                 "sideB": "Modération",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voir un médecin tôt vs attendre de voir si on va mieux — qu'est-ce qui est le plus sage ?",
@@ -167,8 +167,8 @@
                 "sideB": "Attendre",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Dormir huit heures vs dormir six heures mais faire de l'exercice — qu'est-ce qui est mieux pour l'énergie ?",
@@ -176,8 +176,8 @@
                 "sideB": "6h + sport",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Réduire le stress par le sport vs par la relaxation — qu'est-ce qui fonctionne le mieux ?",
@@ -185,8 +185,8 @@
                 "sideB": "Relaxation",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Smartphones vs conversation en face à face — qu'utilisons-nous le plus, et est-ce un problème ?",
@@ -194,8 +194,8 @@
                 "sideB": "Face à face",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Banque en ligne vs aller à la banque — qu'est-ce qui est mieux ?",
@@ -203,8 +203,8 @@
                 "sideB": "Aller à la banque",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler avec du papier vs travailler numériquement — qu'est-ce qui est le plus efficace ?",
@@ -212,8 +212,8 @@
                 "sideB": "Numérique",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne — qu'est-ce qui est le plus utile professionnellement ?",
@@ -221,8 +221,8 @@
                 "sideB": "En personne",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voyage organisé vs voyage indépendant — qu'est-ce qui est mieux pour les adultes ?",
@@ -230,8 +230,8 @@
                 "sideB": "Indépendant",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Séjour en ville vs vacances à la plage — quelle est la meilleure façon de se détendre ?",
@@ -239,8 +239,8 @@
                 "sideB": "Plage",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Une seule longue vacance par an vs plusieurs courts séjours — qu'est-ce qui est mieux ?",
@@ -248,8 +248,8 @@
                 "sideB": "Plusieurs courtes",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voyager en couple vs voyager seul — qu'est-ce qui est le plus agréable ?",
@@ -257,8 +257,8 @@
                 "sideB": "Seul",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?",
@@ -266,8 +266,8 @@
                 "sideB": "Garder pour soi",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner — quelle est la meilleure habitude ?",
@@ -275,8 +275,8 @@
                 "sideB": "Après petit-déj",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?",
@@ -284,8 +284,8 @@
                 "sideB": "Ne pas connaître",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Faire les courses avec une liste vs sans liste — quel type de personne a une meilleure vie ?",
@@ -293,8 +293,8 @@
                 "sideB": "Sans liste",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Dire à son patron qu'on est malade vs aller travailler malade — quel est le choix le plus courageux ?",
@@ -302,8 +302,8 @@
                 "sideB": "Aller travailler",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler à temps plein vs travailler à temps partiel — qu'est-ce qui est mieux ?",
@@ -311,17 +311,17 @@
                 "sideB": "Temps partiel",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Travailler dans un bureau vs travailler à domicile — qu'est-ce qui est le mieux ?",
+                "topic": "Travailler dans un bureau vs travailler à domicile — que préférez-vous ?",
                 "sideA": "Bureau",
                 "sideB": "Domicile",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Un travail qu'on aime vs un travail bien payé — qu'est-ce qui est le plus important ?",
@@ -329,8 +329,8 @@
                 "sideB": "Bien payé",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler avec d'autres personnes vs travailler seul — qu'est-ce qui est mieux ?",
@@ -338,8 +338,8 @@
                 "sideB": "Seul",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Un trajet court vs un trajet long — qu'est-ce qui est le plus acceptable ?",
@@ -347,8 +347,8 @@
                 "sideB": "Long",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?",
@@ -356,8 +356,8 @@
                 "sideB": "Partenaire",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Grande ville vs petite ville — quel est le meilleur endroit pour vivre en tant qu'adulte ?",
@@ -365,8 +365,8 @@
                 "sideB": "Petite ville",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cuisiner à la maison vs manger à l'extérieur — qu'est-ce qui est mieux pour la vie quotidienne ?",
@@ -374,8 +374,8 @@
                 "sideB": "Extérieur",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?",
@@ -383,8 +383,8 @@
                 "sideB": "Pas d'enfants",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Louer un appartement vs acheter une maison — qu'est-ce qui est mieux pour les jeunes adultes ?",
@@ -392,8 +392,8 @@
                 "sideB": "Acheter",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Faire de l'exercice tous les jours vs se reposer — qu'est-ce qui est mieux pour votre santé ?",
@@ -401,8 +401,8 @@
                 "sideB": "Repos",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Aller chez le médecin vs attendre — qu'est-ce qui est mieux quand on se sent malade ?",
@@ -410,8 +410,8 @@
                 "sideB": "Attendre",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Dormir huit heures vs dormir moins — qu'est-ce qui est le plus réaliste pour les adultes ?",
@@ -419,8 +419,8 @@
                 "sideB": "Moins",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Aller au travail à pied vs prendre la voiture — qu'est-ce qui est mieux pour votre santé ?",
@@ -428,17 +428,17 @@
                 "sideB": "Voiture",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Achats en ligne vs achats en magasin — qu'est-ce qui est le mieux ?",
+                "topic": "Achats en ligne vs achats en magasin — que préférez-vous ?",
                 "sideA": "En ligne",
                 "sideB": "Magasin",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Économiser pour l'avenir vs profiter de l'argent maintenant — qu'est-ce qui est le plus sage ?",
@@ -446,8 +446,8 @@
                 "sideB": "Profiter maintenant",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Choses chères vs choses bon marché — qu'est-ce qui a le meilleur rapport qualité-prix ?",
@@ -455,8 +455,8 @@
                 "sideB": "Bon marché",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Acheter neuf vs acheter d'occasion — qu'est-ce qui est mieux ?",
@@ -464,8 +464,8 @@
                 "sideB": "Occasion",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Regarder la télé à la maison vs sortir — quelle est la meilleure soirée ?",
@@ -473,8 +473,8 @@
                 "sideB": "Sortir",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vacances en famille vs vacances entre amis — qu'est-ce qui est mieux ?",
@@ -482,8 +482,8 @@
                 "sideB": "Amis",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Rester dans son pays vs voyager à l'étranger — quelles sont les meilleures vacances ?",
@@ -491,8 +491,8 @@
                 "sideB": "Étranger",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Le sport vs la lecture — quel est le meilleur passe-temps pour les adultes ?",
@@ -500,8 +500,8 @@
                 "sideB": "Lecture",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?",
@@ -509,8 +509,8 @@
                 "sideB": "Seul",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Répondre aux e-mails immédiatement vs les laisser pour plus tard — qu'est-ce qui est le plus professionnel ?",
@@ -518,8 +518,8 @@
                 "sideB": "Plus tard",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain — qu'est-ce qui est mieux ?",
@@ -527,8 +527,8 @@
                 "sideB": "Demain",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Être toujours en avance vs toujours cinq minutes en retard — qu'est-ce qui est pire au travail ?",
@@ -536,8 +536,8 @@
                 "sideB": "En retard",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir un bureau très organisé vs un bureau en désordre — quelle personne est la plus productive ?",
@@ -545,8 +545,8 @@
                 "sideB": "Désordre",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Parler de travail au dîner vs pas de discussion de travail au dîner — quelle règle est la meilleure ?",
@@ -554,8 +554,8 @@
                 "sideB": "Pas de travail",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre en famille vs Seul — qu'est-ce qui est mieux ?",
@@ -563,8 +563,8 @@
                 "sideB": "Seul",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir un frère vs une sœur — qu'est-ce qui est mieux ?",
@@ -572,8 +572,8 @@
                 "sideB": "Sœur",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Grande vs Petite famille — laquelle est la plus agréable ?",
@@ -581,8 +581,8 @@
                 "sideB": "Petite",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "L'aîné vs Le cadet — qu'est-ce qui est mieux ?",
@@ -590,8 +590,8 @@
                 "sideB": "Cadet",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "École le matin vs après-midi — qu'est-ce qui est mieux ?",
@@ -599,8 +599,8 @@
                 "sideB": "Après-midi",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Lecture vs Maths — lequel est le plus amusant ?",
@@ -608,8 +608,8 @@
                 "sideB": "Maths",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "École vs Maison — qu'est-ce qui est mieux ?",
@@ -617,8 +617,8 @@
                 "sideB": "Maison",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Devoirs vs Pas de devoirs — qu'est-ce qui aide le plus ?",
@@ -626,17 +626,17 @@
                 "sideB": "Aucun",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Seul vs Avec un partenaire — qu'est-ce qui est le mieux ?",
+                "topic": "Seul vs Avec un partenaire — que préférez-vous ?",
                 "sideA": "Seul",
                 "sideB": "Partenaire",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Papier vs Ordinateur — lequel est le mieux ?",
@@ -644,8 +644,8 @@
                 "sideB": "Ordinateur",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Petit-déjeuner vs Dîner — quel repas est le plus important ?",
@@ -653,8 +653,8 @@
                 "sideB": "Dîner",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Chaud vs Froid — lequel est le mieux ?",
@@ -662,8 +662,8 @@
                 "sideB": "Froid",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Maison vs Restaurant — lequel est le mieux ?",
@@ -671,17 +671,17 @@
                 "sideB": "Restaurant",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Sucré vs Salé — qu'est-ce qui est le mieux ?",
+                "topic": "Sucré vs Salé — que préférez-vous ?",
                 "sideA": "Sucré",
                 "sideB": "Salé",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cuisiner vs Acheter — qu'est-ce qui est plus agréable ?",
@@ -689,8 +689,8 @@
                 "sideB": "Acheter",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Se lever tôt vs tard — qu'est-ce qui est mieux ?",
@@ -698,8 +698,8 @@
                 "sideB": "Tard",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Matin vs Soir — quel moment de la journée est le plus agréable ?",
@@ -707,17 +707,17 @@
                 "sideB": "Soir",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Semaine vs Week-end — qu'est-ce qui est le mieux ?",
+                "topic": "Semaine vs Week-end — que préférez-vous ?",
                 "sideA": "Semaine",
                 "sideB": "Week-end",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Été vs Hiver — quelle saison est la meilleure ?",
@@ -725,8 +725,8 @@
                 "sideB": "Hiver",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Se coucher tôt vs tard — qu'est-ce qui est le plus sain ?",
@@ -734,8 +734,8 @@
                 "sideB": "Tard",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Maison vs Appartement — lequel est le mieux ?",
@@ -743,26 +743,26 @@
                 "sideB": "Appartement",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Ville vs Campagne — où est-il mieux de vivre ?",
+                "topic": "Ville vs Campagne — où est-il préférable de vivre ?",
                 "sideA": "Ville",
                 "sideB": "Campagne",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Chambre vs Salon — quelle pièce est la mieux ?",
+                "topic": "Chambre vs Salon — quelle pièce préférez-vous ?",
                 "sideA": "Chambre",
                 "sideB": "Salon",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Jeux d'intérieur vs d'extérieur — lesquels sont les plus amusants ?",
@@ -770,8 +770,8 @@
                 "sideB": "Extérieur",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "TV vs Livre — lequel est le mieux ?",
@@ -779,8 +779,8 @@
                 "sideB": "Livre",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Sport vs Jeu vidéo — lequel est le plus amusant ?",
@@ -788,8 +788,8 @@
                 "sideB": "Jeu vidéo",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Dessin vs Chant — quel passe-temps est le meilleur ?",
@@ -797,8 +797,8 @@
                 "sideB": "Chant",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Jouer seul vs avec des amis — lequel est le plus amusant ?",
@@ -806,17 +806,17 @@
                 "sideB": "Amis",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Natation vs Course — quel sport est le mieux ?",
+                "topic": "Natation vs Course — quel sport préférez-vous ?",
                 "sideA": "Natation",
                 "sideB": "Course",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Musique vs Sport — quel passe-temps est le meilleur ?",
@@ -824,8 +824,8 @@
                 "sideB": "Sport",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Animaux de ferme vs sauvages — lesquels sont les plus intéressants ?",
@@ -833,17 +833,17 @@
                 "sideB": "Sauvages",
                 "level": "elementary",
                 "theme": "animals_A1",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Pluie vs Soleil — quel temps est le mieux ?",
+                "topic": "Pluie vs Soleil — quel temps préférez-vous ?",
                 "sideA": "Pluie",
                 "sideB": "Soleil",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Mer vs Montagne — lequel est le mieux pour les vacances ?",
@@ -851,8 +851,8 @@
                 "sideB": "Montagne",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Fleurs vs Arbres — lesquels sont les plus beaux ?",
@@ -860,8 +860,8 @@
                 "sideB": "Arbres",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voiture vs Bus — lequel est le mieux ?",
@@ -869,8 +869,8 @@
                 "sideB": "Bus",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Marcher vs Vélo — quel est le meilleur moyen de se déplacer ?",
@@ -878,8 +878,8 @@
                 "sideB": "Vélo",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vacances courtes vs longues — qu'est-ce qui est mieux ?",
@@ -887,8 +887,8 @@
                 "sideB": "Longues",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voyager seul vs en famille — lequel est le plus amusant ?",
@@ -896,8 +896,8 @@
                 "sideB": "Famille",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Achats en ligne vs Achats en personne",
@@ -935,8 +935,8 @@
                 "sideB": "Soir",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Professeurs sévères ou professeurs sympas — qui aide le plus les élèves ?",
@@ -944,8 +944,8 @@
                 "sideB": "Sympas",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Apprendre avec un manuel ou apprendre avec des vidéos — qu'est-ce qui est plus efficace ?",
@@ -953,8 +953,8 @@
                 "sideB": "Vidéos",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cours courts ou cours longs — lesquels aident à mieux apprendre ?",
@@ -962,17 +962,17 @@
                 "sideB": "Longs",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Projets de groupe ou travaux individuels — qu'est-ce qui est le mieux ?",
+                "topic": "Projets de groupe ou travaux individuels — que préférez-vous ?",
                 "sideA": "Groupe",
                 "sideB": "Individuel",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Uniforme scolaire ou vêtements décontractés à l'école — qu'est-ce qui est mieux ?",
@@ -980,8 +980,8 @@
                 "sideB": "Décontracté",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Repas faits maison ou restauration rapide — qu'est-ce qui est mieux ?",
@@ -989,8 +989,8 @@
                 "sideB": "Fast-food",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Trois gros repas ou plusieurs petites collations — qu'est-ce qui est plus sain ?",
@@ -998,8 +998,8 @@
                 "sideB": "Collations",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Nourriture végétarienne ou viande — quel régime est le meilleur ?",
@@ -1007,8 +1007,8 @@
                 "sideB": "Viande",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Boire du thé ou boire du café — qu'est-ce qui est mieux ?",
@@ -1016,17 +1016,17 @@
                 "sideB": "Café",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Manger seul ou manger avec d'autres — qu'est-ce qui est le mieux ?",
+                "topic": "Manger seul ou manger avec d'autres — que préférez-vous ?",
                 "sideA": "Seul",
                 "sideB": "Avec d'autres",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Pratiquer un sport d'équipe ou un sport individuel — qu'est-ce qui est mieux ?",
@@ -1034,8 +1034,8 @@
                 "sideB": "Sport individuel",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Passer son temps libre à l'intérieur ou à l'extérieur — qu'est-ce qui est mieux ?",
@@ -1043,8 +1043,8 @@
                 "sideB": "Extérieur",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cinéma ou théâtre — quelle est la meilleure sortie ?",
@@ -1052,8 +1052,8 @@
                 "sideB": "Théâtre",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Écouter de la musique ou jouer d'un instrument — qu'est-ce qui est plus agréable ?",
@@ -1061,8 +1061,8 @@
                 "sideB": "Jouer",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Jeux vidéo ou jeux de société — lesquels sont les plus amusants ?",
@@ -1070,8 +1070,8 @@
                 "sideB": "Jeux de société",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Faire du shopping ou rester à la maison — quelle est la meilleure façon de passer le week-end ?",
@@ -1079,8 +1079,8 @@
                 "sideB": "Rester chez soi",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Téléphone portable ou ordinateur — lequel est le plus utile dans la vie quotidienne ?",
@@ -1088,8 +1088,8 @@
                 "sideB": "Ordinateur",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Envoyer un message ou passer un appel téléphonique — qu'est-ce qui est mieux ?",
@@ -1097,17 +1097,17 @@
                 "sideB": "Appel",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Livre numérique ou livre papier — lequel est le mieux à lire ?",
+                "topic": "Livre numérique ou livre papier — lequel préférez-vous lire ?",
                 "sideA": "E-book",
                 "sideB": "Livre papier",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Prendre des photos avec son téléphone ou avec un appareil photo — lequel donne de meilleurs résultats ?",
@@ -1115,8 +1115,8 @@
                 "sideB": "Appareil photo",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vacances à la plage ou vacances à la montagne — qu'est-ce qui est mieux ?",
@@ -1124,8 +1124,8 @@
                 "sideB": "Montagne",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voyager en train ou voyager en avion — qu'est-ce qui est mieux ?",
@@ -1133,8 +1133,8 @@
                 "sideB": "Avion",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Visiter une ville célèbre ou visiter un petit village — qu'est-ce qui est plus intéressant ?",
@@ -1142,17 +1142,17 @@
                 "sideB": "Village",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Séjourner à l'hôtel ou chez l'habitant — qu'est-ce qui est le mieux ?",
+                "topic": "Séjourner à l'hôtel ou chez l'habitant — que préférez-vous ?",
                 "sideA": "Hôtel",
                 "sideB": "Chez l'habitant",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Voyager à l'étranger ou explorer son propre pays — qu'est-ce qui en vaut le plus la peine ?",
@@ -1160,8 +1160,8 @@
                 "sideB": "Propre pays",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir beaucoup d'amis ou avoir quelques amis proches — qu'est-ce qui est mieux ?",
@@ -1169,8 +1169,8 @@
                 "sideB": "Amis proches",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Rencontrer des amis en personne ou discuter en ligne — qu'est-ce qui est plus satisfaisant ?",
@@ -1178,8 +1178,8 @@
                 "sideB": "En ligne",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre chez ses parents ou vivre dans un appartement étudiant — qu'est-ce qui est mieux pour les jeunes ?",
@@ -1187,8 +1187,8 @@
                 "sideB": "Appartement étudiant",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Fêter son anniversaire à la maison ou sortir — qu'est-ce qui est le plus sympa ?",
@@ -1196,8 +1196,8 @@
                 "sideB": "Sortir",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Économiser de l'argent ou dépenser de l'argent — qu'est-ce qui est plus sage ?",
@@ -1205,8 +1205,8 @@
                 "sideB": "Dépenser",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler à temps partiel pendant ses études ou se concentrer uniquement sur l'école — qu'est-ce qui est mieux ?",
@@ -1214,8 +1214,8 @@
                 "sideB": "Études seules",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Gagner beaucoup d'argent ou avoir du temps libre — qu'est-ce qui compte le plus ?",
@@ -1223,8 +1223,8 @@
                 "sideB": "Temps libre",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Vivre avec ses grands-parents vs ne pas vivre avec eux — qu'est-ce qui est le plus agréable ?",
@@ -1232,8 +1232,8 @@
                 "sideB": "Sans les grands-parents",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "La cuisine de maman vs la cuisine de papa — laquelle est la meilleure ?",
@@ -1241,8 +1241,8 @@
                 "sideB": "Papa",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Maths vs art — quelle matière est la plus amusante ?",
@@ -1250,8 +1250,8 @@
                 "sideB": "Art",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Écrire sur papier vs taper sur une tablette — qu'est-ce qui est mieux ?",
@@ -1259,8 +1259,8 @@
                 "sideB": "Tablette",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Pizza vs pâtes — qu'est-ce qui est le plus bon ?",
@@ -1268,8 +1268,8 @@
                 "sideB": "Pâtes",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Glace vs gâteau — quel est le meilleur dessert ?",
@@ -1277,8 +1277,8 @@
                 "sideB": "Gâteau",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Jours courts vs jours longs — qu'est-ce qui est mieux ?",
@@ -1286,8 +1286,8 @@
                 "sideB": "Jours longs",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Journée au parc vs journée à la plage — qu'est-ce qui est mieux ?",
@@ -1295,8 +1295,8 @@
                 "sideB": "Plage",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avion vs train — qu'est-ce qui est le plus amusant ?",
@@ -1304,8 +1304,8 @@
                 "sideB": "Train",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Douche le matin vs douche le soir — qu'est-ce qui est mieux ?",
@@ -1313,8 +1313,8 @@
                 "sideB": "Soir",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Chats qui renversent des choses vs chiens qui mâchent des chaussures — quel animal est le plus agaçant ?",
@@ -1322,8 +1322,8 @@
                 "sideB": "Chiens",
                 "level": "elementary",
                 "theme": "animals_A1",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Manger de la pizza avec une fourchette vs avec les mains — qu'est-ce qui est correct ?",
@@ -1331,8 +1331,8 @@
                 "sideB": "Mains",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Dormir avec des chaussettes vs sans chaussettes — qu'est-ce qui est mieux ?",
@@ -1340,8 +1340,8 @@
                 "sideB": "Sans",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Château de sable vs bonhomme de neige — qu'est-ce qui est le plus amusant à construire ?",
@@ -1349,8 +1349,8 @@
                 "sideB": "Bonhomme de neige",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Beaucoup d'examens vs très peu d'examens — qu'est-ce qui est le plus juste ?",
@@ -1358,8 +1358,8 @@
                 "sideB": "Très peu d'examens",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Commencer l'école à 7 ans vs commencer à 5 ans — qu'est-ce qui est mieux pour les enfants ?",
@@ -1367,8 +1367,8 @@
                 "sideB": "À 5 ans",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Manger lentement vs manger rapidement — qu'est-ce qui est mieux pour vous ?",
@@ -1376,8 +1376,8 @@
                 "sideB": "Rapidement",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cuisiner à la maison vs commander en ligne — qu'est-ce qui est mieux ?",
@@ -1385,8 +1385,8 @@
                 "sideB": "Commander",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Cuisiner vs faire de la pâtisserie — qu'est-ce qui est le plus amusant comme passe-temps ?",
@@ -1394,8 +1394,8 @@
                 "sideB": "Pâtisser",
                 "level": "elementary",
                 "theme": "interests_hobbies_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Aller à la salle de sport vs faire de l'exercice dehors — qu'est-ce qui est mieux ?",
@@ -1403,8 +1403,8 @@
                 "sideB": "Dehors",
                 "level": "elementary",
                 "theme": "health_body_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Photos sur téléphone vs photos imprimées — qu'est-ce qui est mieux ?",
@@ -1412,8 +1412,8 @@
                 "sideB": "Imprimées",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Smart TV vs écran d'ordinateur — qu'est-ce qui est mieux pour regarder des films ?",
@@ -1421,8 +1421,8 @@
                 "sideB": "Ordinateur",
                 "level": "elementary",
                 "theme": "technology_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Pays chaud vs pays froid — quelle est la meilleure destination de vacances ?",
@@ -1430,17 +1430,17 @@
                 "sideB": "Pays froid",
                 "level": "elementary",
                 "theme": "transport_travel_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
-                "topic": "Offrir des cadeaux vs recevoir des cadeaux — qu'est-ce qui est le mieux ?",
+                "topic": "Offrir des cadeaux vs recevoir des cadeaux — que préférez-vous ?",
                 "sideA": "Offrir",
                 "sideB": "Recevoir",
                 "level": "elementary",
                 "theme": "relationships_dating_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Travailler à l'intérieur vs travailler à l'extérieur — qu'est-ce qui est mieux ?",
@@ -1448,8 +1448,8 @@
                 "sideB": "Extérieur",
                 "level": "elementary",
                 "theme": "career_development_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Ananas sur la pizza vs pas d'ananas — qu'est-ce qui est correct ?",
@@ -1457,8 +1457,8 @@
                 "sideB": "Pas d'ananas",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Mettre le lait en premier vs mettre le thé — qu'est-ce qui est mieux ?",
@@ -1466,8 +1466,8 @@
                 "sideB": "Thé d'abord",
                 "level": "elementary",
                 "theme": "diet_nutrition_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Lundi vs Vendredi — quel jour est réellement le pire ?",
@@ -1475,8 +1475,8 @@
                 "sideB": "Vendredi",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Se réveiller cinq minutes avant l'alarme vs dormir jusqu'à l'alarme — qu'est-ce qui est le plus agaçant ?",
@@ -1484,8 +1484,8 @@
                 "sideB": "Jusqu'à l'alarme",
                 "level": "elementary",
                 "theme": "neighbourhood_local_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Chats vs chiens — quel animal est secrètement le patron de la maison ?",
@@ -1493,8 +1493,8 @@
                 "sideB": "Chiens",
                 "level": "elementary",
                 "theme": "animals_A1",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             },
             {
                 "topic": "Avoir trop chaud vs avoir trop froid — qu'est-ce qui est le pire ?",
@@ -1502,8 +1502,8 @@
                 "sideB": "Trop froid",
                 "level": "elementary",
                 "theme": "environment_A2",
-                "ideasA": ["Idée pour 1", "Idée pour 2"],
-                "ideasB": ["Idée contre 1", "Idée contre 2"]
+                "ideasA": ["Idée pour A 1", "Idée pour A 2"],
+                "ideasB": ["Idée pour B 1", "Idée pour B 2"]
             }];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
