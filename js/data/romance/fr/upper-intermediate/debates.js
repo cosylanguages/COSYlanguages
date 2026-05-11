@@ -538,6 +538,150 @@
                 "theme": "politics_governance_B2",
                 "ideasA": ["La justice rétributive garantit que les délinquants subissent les conséquences de leurs actes et apaise les victimes.", "Des punitions strictes peuvent agir comme un moyen de dissuasion, empêchant d'autres de commettre des crimes similaires."],
                 "ideasB": ["L'objectif premier devrait être d'aider les délinquants à se réintégrer et à traiter les causes profondes de leur comportement.", "La réhabilitation est plus efficace pour réduire la récidive et construire une société plus sûre à long terme."]
+            },
+            {
+                "topic": "Savoir trop vs savoir trop peu — quelle condition est la plus dangereuse pour l'adulte moderne ?",
+                "sideA": "Savoir trop",
+                "sideB": "Savoir trop peu",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["L'excès d'analyse peut mener à une paralysie décisionnelle, où l'abondance d'informations empêche une action rapide.", "La conscience constante des crises mondiales et des risques complexes peut augmenter l'anxiété et diminuer le bien-être général."],
+                "ideasB": ["L'ignorance d'informations critiques peut mener à de mauvais choix de vie et à une vulnérabilité à l'exploitation.", "Un manque de connaissances empêche les individus de participer efficacement aux processus démocratiques et au discours social."]
+            },
+            {
+                "topic": "Être en avance partout vs être toujours légèrement en retard — quel est le plus grand crime social ?",
+                "sideA": "Être en avance",
+                "sideB": "Être en retard",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Arriver trop tôt peut imposer un fardeau injuste à l'hôte, le forçant à précipiter ses préparatifs.", "Cela peut signaler un manque de conscience sociale ou un empressement excessif qui met les autres mal à l'aise."],
+                "ideasB": ["Le retard constant démontre un manque fondamental de respect pour le temps des autres et les horaires professionnels.", "Cela peut nuire à la réputation de fiabilité et perturber le déroulement des réunions ou des rencontres sociales."]
+            },
+            {
+                "topic": "Plier le linge immédiatement vs vivre avec une pile — quel choix de vie est le plus défendable ?",
+                "sideA": "Plier tout de suite",
+                "sideB": "Vivre avec une pile",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Maintenir l'ordre dans l'environnement domestique réduit le désordre mental et contribue à un mode de vie discipliné.", "Les vêtements pliés sont mieux préservés, ce qui permet d'économiser du temps de repassage et de l'argent."],
+                "ideasB": ["Donner la priorité à des activités plus significatives plutôt qu'à des tâches ménagères banales peut mener à une vie plus épanouie.", "Une approche plus relaxée permet d'économiser du temps et de l'énergie immédiats pour le travail, la famille ou la détente."]
+            },
+            {
+                "topic": "L'invention du réveil vs l'invention du bouton 'snooze' — lequel a fait le plus de mal à l'humanité ?",
+                "sideA": "Réveil",
+                "sideB": "Bouton snooze",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Le réveil a perturbé les rythmes circadiens naturels de l'homme, menant à une privation de sommeil chronique et au stress.", "Il a formalisé une approche rigide et industrielle du temps qui privilégie la productivité sur le bien-être biologique."],
+                "ideasB": ["Le bouton snooze encourage la 'fragmentation du sommeil', ce qui peut laisser les individus plus groggys et moins alertes.", "Il favorise une habitude de procrastination et de report des responsabilités qui peut nuire aux performances professionnelles."]
+            },
+            {
+                "topic": "Fantômes vs extraterrestres — quelle serait la découverte la plus perturbatrice pour la société moderne ?",
+                "sideA": "Fantômes",
+                "sideB": "Extraterrestres",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["La preuve d'une vie après la mort renverserait fondamentalement tous les cadres religieux, philosophiques et scientifiques.", "Cela soulèverait de profondes questions éthiques et juridiques concernant les droits et l'influence des défunts sur les vivants."],
+                "ideasB": ["Le contact avec une vie extraterrestre forcerait l'humanité à reconsidérer sa place dans l'univers et son statut unique.", "Cela pourrait poser des risques de sécurité importants ou des défis technologiques que la société n'est pas prête à gérer."]
+            },
+            {
+                "topic": "Céréales avant le lait vs lait avant les céréales — est-ce une question de préférence ou de fait objectif ?",
+                "sideA": "Céréales d'abord",
+                "sideB": "Lait d'abord",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Ajouter les céréales en premier permet un meilleur contrôle des portions et garantit le ratio optimal de croquant.", "C'est l'approche la plus logique et systématique, empêchant le lait d'éclabousser et de créer du désordre."],
+                "ideasB": ["Ajouter le lait d'abord permet de chauffer le liquide précisément avant d'ajouter les céréales, maintenant la température voulue.", "Cela garantit que les céréales restent croustillantes plus longtemps, car elles ne sont pas immédiatement immergées."]
+            },
+            {
+                "topic": "Alerte éthique (whistleblowing) vs loyauté institutionnelle — quel est le choix le plus éthique ?",
+                "sideA": "Alerte éthique",
+                "sideB": "Loyauté",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Dénoncer les actes répréhensibles est un devoir fondamental envers le public qui prime sur les intérêts de l'organisation.", "Le whistleblowing favorise la transparence et tient les institutions puissantes pour responsables de leurs actes."],
+                "ideasB": ["La loyauté envers son institution est essentielle pour maintenir la stabilité et l'efficacité des organisations complexes.", "Les problèmes internes devraient être résolus par les canaux établis pour éviter des dommages réputationnels inutiles."]
+            },
+            {
+                "topic": "Optimisme vs réalisme — quelle est la vision du monde la plus productive pour une carrière ?",
+                "sideA": "Optimisme",
+                "sideB": "Réalisme",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Une perspective positive favorise la résilience et encourage les individus à prendre les risques nécessaires à l'innovation.", "L'optimisme est contagieux et peut améliorer considérablement le morale de l'équipe et la résolution collective de problèmes."],
+                "ideasB": ["Une évaluation réaliste des défis empêche le gaspillage de ressources sur des objectifs inatteignables ou trop ambitieux.", "Le réalisme permet une planification d'urgence et une gestion des risques plus efficaces dans des environnements volatils."]
+            },
+            {
+                "topic": "Entrepreneuriat vs salariat — qu'est-ce qui contribue le plus à la société ?",
+                "sideA": "Entrepreneuriat",
+                "sideB": "Salariat",
+                "level": "upper-intermediate",
+                "theme": "economy_labour_market_B2",
+                "ideasA": ["Les entrepreneurs stimulent l'innovation et créent les nouveaux emplois et industries qui alimentent le progrès économique.", "La volonté de prendre des risques personnels mène au développement de solutions novatrices aux problèmes sociétaux complexes."],
+                "ideasB": ["Les efforts collectifs de millions d'employés fournissent la stabilité et l'expertise essentielles au fonctionnement de la société.", "L'emploi fournit une base fiscale constante et soutient l'infrastructure établie de l'économie mondiale."]
+            },
+            {
+                "topic": "Nationalisme vs globalisme — quel est le cadre le plus cohérent pour le 21e siècle ?",
+                "sideA": "Nationalisme",
+                "sideB": "Globalisme",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Se concentrer sur l'État-nation garantit que les gouvernements restent responsables envers leurs propres citoyens.", "L'identità nationale procure un fort sentiment d'appartenance et de cohésion sociale nécessaire à une société stable."],
+                "ideasB": ["Les défis mondiaux comme le changement climatique nécessitent une approche internationale unifiée qui transcende les frontières.", "Une économie mondiale interconnectée favorise la paix et la prospérité en rendant les nations interdépendantes."]
+            },
+            {
+                "topic": "École à la maison vs école traditionnelle — qu'est-ce qui produit des individus plus équilibrés ?",
+                "sideA": "École à la maison",
+                "sideB": "École traditionnelle",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["L'instruction personnalisée permet aux enfants de suivre leurs propres intérêts et d'apprendre à leur propre rythme.", "L'école à la maison peut protéger les enfants des influences sociales négatives comme le harcèlement scolaire."],
+                "ideasB": ["Les écoles traditionnelles offrent un environnement social diversifié où les enfants apprennent à interagir avec tous.", "Le cadre structuré d'une école favorise des compétences de vie essentielles comme la discipline et le travail d'équipe."]
+            },
+            {
+                "topic": "Systèmes de notation vs feedback descriptif — qu'est-ce qui motive les élèves le plus efficacement ?",
+                "sideA": "Notes",
+                "sideB": "Feedback descriptif",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Les notes fournissent une métrique claire et objective qui permet aux élèves de suivre leurs progrès et de se comparer.", "La nature compétitive des notes peut inciter les élèves à travailler plus dur pour atteindre l'excellence académique."],
+                "ideasB": ["Un feedback détaillé donne des indications spécifiques pour s'améliorer, favorisant une mentalité de croissance.", "Supprimer la pression des notes peut réduire l'anxiété et encourager un amour plus sincère de l'apprentissage."]
+            },
+            {
+                "topic": "Intelligence artificielle vs jugement humain — qu'est-ce qui devrait guider les décisions clés en entreprise ?",
+                "sideA": "IA",
+                "sideB": "Jugement humain",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["L'IA peut traiter de vastes quantités de données sans biais émotionnel, menant à des décisions plus objectives.", "Les algorithmes peuvent identifier des modèles complexes souvent invisibles même pour les experts humains les plus chevronnés."],
+                "ideasB": ["Les dirigeants humains peuvent considérer les nuances éthiques et le contexte social que les machines ne saisissent pas.", "Le jugement implique l'empathie et l'intuition, cruciales pour naviguer dans des situations interpersonnelles complexes."]
+            },
+            {
+                "topic": "Optimisme technologique vs scepticisme technologique — quelle est la posture par défaut la plus rationnelle aujourd'hui ?",
+                "sideA": "Optimisme tech",
+                "sideB": "Scepticisme tech",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["La technologie a historiquement résolu nos plus grands défis et continue d'améliorer l'espérance de vie mondiale.", "Maintenir une posture positive encourage l'investissement et l'innovation nécessaires pour résoudre les crises actuelles."],
+                "ideasB": ["Une approche sceptique est nécessaire pour identifier et atténuer les conséquences imprévues du progrès technologique rapide.", "Remettre en question les motivations des géants de la tech aide à protéger la vie privée et les valeurs démocratiques."]
+            },
+            {
+                "topic": "Identité numérique vs identité réelle — qu'est-ce qui nous définit le plus aujourd'hui ?",
+                "sideA": "Identité numérique",
+                "sideB": "Identité réelle",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["Notre présence en ligne est souvent le premier point de contact, façonnant la perception qu'ont les autres de nous.", "Les empreintes numériques fournissent un record plus complet et permanent de nos intérêts, actions et connexions sociales."],
+                "ideasB": ["Les interactions réelles comportent un niveau de profondeur et d'authenticité qui ne peut être répliqué numériquement.", "Nos expériences physiques et nos relations immédiates restent les moteurs les plus significatifs de nos valeurs."]
+            },
+            {
+                "topic": "Éco-anxiété vs optimisme climatique — quelle est la réponse la plus constructive à la crise ?",
+                "sideA": "Éco-anxiété",
+                "sideB": "Optimisme climatique",
+                "level": "upper-intermediate",
+                "theme": "environment_policy_B2",
+                "ideasA": ["Un sentiment d'urgence sain peut motiver les individus à faire les changements de mode de vie radicaux nécessaires.", "Reconnaître la gravité de la situation prévient la complaisance et maintient la pression sur les gouvernements."],
+                "ideasB": ["L'optimisme prévient le désespoir et la paralysie, permettant aux gens de se concentrer sur les solutions et l'action positive.", "Croire que le changement est possible est un prérequis à l'effort soutenu requis pour construire un avenir durable."]
             }];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
