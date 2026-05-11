@@ -110,7 +110,7 @@
     /* ══════════════════════════════════════
        HELPERS
     ══════════════════════════════════════ */
-    function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+    function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }
     function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
 
     function getLangCode(val) {
@@ -247,7 +247,7 @@
         const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷','Deutsch 🇩🇪','Español 🇪🇸','Português 🇵🇹','Հայերեն 🇦🇲','ქართული 🇬🇪','Татарча','Башҡортса','Brezhoneg'];
         const DUR_OPTS  = ['1 minute','2 minutes','3 minutes','5 minutes'];
         const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
-        const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)', 'Alphabet'];
+        const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)'];
 
         if (id === 'fluency') {
           body.innerHTML = `
@@ -313,6 +313,19 @@
             <div class="setup-screen">
               <h2>Action Hero 🎭</h2>
               <p>Hold your phone to your forehead (screen facing others). They describe the word — you guess. Each round is 60 seconds. Pass or guess as many words as you can.</p>
+              <div class="setup-field"><label>Category</label>
+                <select class="styled-sel" id="s-cat">
+                  <option value="all">All vocabulary</option>
+                  <option value="verbs">Verbs 🏃‍♂️</option>
+                  <option value="animals">Animals 🐾</option>
+                  <option value="food">Food & Drink 🍕</option>
+                  <option value="places">Places 🌍</option>
+                  <option value="home">Home 🏠</option>
+                  <option value="clothes">Clothes 👕</option>
+                  <option value="nature">Nature 🌿</option>
+                  <option value="health">Health 🏥</option>
+                </select>
+              </div>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -349,6 +362,13 @@
             <div class="setup-screen">
               <h2>Word Linker 🔗</h2>
               <p>Four words appear. Find the connection between three of them — and spot the odd one out. Tests vocabulary depth and lateral thinking.</p>
+              <div class="setup-field"><label>Mode</label>
+                <select class="styled-sel" id="s-mode">
+                  <option value="odd">Odd One Out ❌</option>
+                  <option value="link">Common Connection 🔗</option>
+                  <option value="all">Mixed Modes 🌀</option>
+                </select>
+              </div>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -365,16 +385,6 @@
               <p>Type a word. The next word must start with the last letter of the previous word. Keep the chain going as long as possible without repeating!</p>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
-              </div>
-              <div class="setup-field"><label>Language category</label>
-                <select class="styled-sel" id="s-cat">
-                  <option value="any">Any word</option>
-                  <option value="noun">Nouns only</option>
-                  <option value="adj">Adjectives only</option>
-                  <option value="animal">Animals 🐾</option>
-                  <option value="food">Food & drink 🍕</option>
-                  <option value="place">Places 🌍</option>
-                </select>
               </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
@@ -415,6 +425,17 @@
             <div class="setup-screen">
               <h2>Object Quest 📦</h2>
               <p>Describe an object without naming it. Use clues about its size, color, or location. Can others guess what it is?</p>
+              <div class="setup-field"><label>Category</label>
+                <select class="styled-sel" id="s-cat">
+                  <option value="all">All objects</option>
+                  <option value="animals">Animals 🐾</option>
+                  <option value="food">Food & Drink 🍕</option>
+                  <option value="places">Places 🌍</option>
+                  <option value="home">Home & Gadgets 🏠</option>
+                  <option value="clothes">Clothes & Accessories 👕</option>
+                  <option value="nature">Nature 🌿</option>
+                </select>
+              </div>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -736,12 +757,34 @@
         async startAction() {
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
+            const category = document.getElementById('s-cat')?.value || 'all';
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
-            // Action Hero data uses short codes (A1, A2, B1, B2)
-            const shortLvl = level === 'starter' ? 'A1' : (level === 'elementary' ? 'A2' : (level === 'intermediate' ? 'B1' : 'B2'));
-            const pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : (data.action ? (data.action['B2'] || data.action['A2']) : ['...']);
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            let pool = [];
+
+            if (category === 'verbs') {
+                pool = (window.verbsData && window.verbsData[lang]) ? window.verbsData[lang].map(v => v.word) : [];
+            } else if (category !== 'all') {
+                const map = {
+                    'home': ['home', 'house', 'gadget', 'furniture'],
+                    'food': ['food', 'drink', 'dish', 'meal'],
+                    'places': ['place', 'location', 'city', 'town'],
+                    'clothes': ['cloth', 'wear', 'accessory', 'jewelry'],
+                    'nature': ['nature', 'environment', 'weather', 'animal'],
+                    'health': ['health', 'body', 'medical', 'doctor']
+                };
+                const keywords = map[category] || [category];
+                pool = vocab.filter(v => v.theme && keywords.some(k => v.theme.toLowerCase().includes(k))).map(v => v.word);
+            }
+
+            if (pool.length < 5) {
+                // Fallback to legacy action data
+                const shortLvl = level === 'starter' ? 'A1' : (level === 'elementary' ? 'A2' : (level === 'intermediate' ? 'B1' : 'B2'));
+                pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : (data.action ? (data.action['B2'] || data.action['A2']) : ['...']);
+            }
+
             const words = shuffle(pool);
             let idx = 0, correct = 0, skipped = 0;
             const DUR = 60;
@@ -832,7 +875,7 @@
                 }
             });
 
-            const identity = pick(uniquePool.length > 0 ? uniquePool : [{person:'Teacher', clue:'They help you learn.'}]);
+            const identity = pick(uniquePool) || {person:'Teacher', clue:'They help you learn.'};
             const body = document.getElementById('go-body');
             let questions = 0, maxQ = 20;
 
@@ -876,11 +919,17 @@
         async startWordLinker() {
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
+            const mode = document.getElementById('s-mode')?.value || 'all';
             await loadLevelData(lang, level);
             const data = getGameData(lang);
             let wlScore = 0, wlQ = 0;
+
+            let source = data.wordlinker || [{words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'}];
+            if (mode === 'odd') source = source.filter(q => q.odd !== 'none');
+            if (mode === 'link') source = source.filter(q => q.odd === 'none');
+
             const nextWordLinker = () => {
-                const q = pick(data.wordlinker || [{words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'}]);
+                const q = pick(source) || {words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'};
                 const body = document.getElementById('go-body');
                 wlQ++;
                 const shuffled = shuffle(q.words);
@@ -1134,13 +1183,26 @@
         async startObjectQuest() {
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
+            const category = document.getElementById('s-cat')?.value || 'all';
             await loadLevelData(lang, level);
             const data = getGameData(lang);
             const body = document.getElementById('go-body');
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
-            const objects = vocab.filter(v => v.theme && !v.theme.includes('professions') && !v.theme.includes('famous_people'));
 
-            if (objects.length < 5) { showFB(body, 'bad', 'Not enough vocabulary.'); return; }
+            let objects = vocab.filter(v => v.theme && !v.theme.includes('professions') && !v.theme.includes('famous_people'));
+            if (category !== 'all') {
+                const map = {
+                    'home': ['home', 'house', 'gadget', 'furniture'],
+                    'food': ['food', 'drink', 'dish', 'meal'],
+                    'places': ['place', 'location', 'city', 'town'],
+                    'clothes': ['cloth', 'wear', 'accessory', 'jewelry'],
+                    'nature': ['nature', 'environment', 'weather', 'animal']
+                };
+                const keywords = map[category] || [category];
+                objects = objects.filter(v => v.theme && keywords.some(k => v.theme.toLowerCase().includes(k)));
+            }
+
+            if (objects.length < 5) { showFB(body, 'bad', 'Not enough vocabulary in this category.'); return; }
 
             let current = pick(objects), hints = 0;
 

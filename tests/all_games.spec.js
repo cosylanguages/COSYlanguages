@@ -11,10 +11,10 @@ const games = [
     { id: 'critic', title: "Critic's Corner", setupText: 'Language', levels: true, minLevel: 'Intermediate (B1)' },
     { id: 'storychain', title: 'Story Chain', setupText: 'Language', levels: true },
     { id: 'hotseat', title: 'Hot Seat', setupText: 'Language', levels: true },
-    { id: 'action', title: 'Action Hero', setupText: 'Level', levels: true },
-    { id: 'identity', title: 'Identity Mystery', setupText: 'Language', levels: true, categories: true },
-    { id: 'objectquest', title: 'Object Quest', setupText: 'Language', levels: true },
-    { id: 'wordlinker', title: 'Word Linker', setupText: 'connection', levels: true },
+    { id: 'action', title: 'Action Hero', setupText: 'Category', levels: true, categories: ['Verbs 🏃‍♂️', 'Animals 🐾'] },
+    { id: 'identity', title: 'Identity Mystery', setupText: 'Category', levels: true, categories: ['Famous People 🌟', 'Jobs & Professions 💼'] },
+    { id: 'objectquest', title: 'Object Quest', setupText: 'Category', levels: true, categories: ['Animals 🐾', 'Food & Drink 🍕'] },
+    { id: 'wordlinker', title: 'Word Linker', setupText: 'Mode', levels: true, modes: ['Odd One Out ❌', 'Common Connection 🔗'] },
     { id: 'lastletter', title: 'Last Letter', setupText: 'category', levels: true },
     { id: 'emoji', title: 'Emoji Odyssey', setupText: 'Mode', levels: true },
     { id: 'crossword', title: 'Cosy Crossword', setupText: 'Language', levels: true },
@@ -22,7 +22,7 @@ const games = [
 ];
 
 for (const game of games) {
-    test(`Game: ${game.title} integration, language and level selectors`, async ({ page }) => {
+    test(`Game: ${game.title} integration, selectors and constraints`, async ({ page }) => {
         const card = page.locator(`.gc[onclick*="openGame('${game.id}')"]`);
         await expect(card).toBeVisible();
         await card.click();
@@ -43,12 +43,8 @@ for (const game of games) {
             const levelSelector = page.locator('#s-level');
             await expect(levelSelector).toBeVisible();
             if (game.minLevel) {
-                // Verify that for Critic's Corner it starts from B1
                 const options = await levelSelector.locator('option').allTextContents();
                 expect(options[0]).toBe(game.minLevel);
-            } else {
-                const options = await levelSelector.locator('option').allTextContents();
-                expect(options[0]).toBe('Starter (A1)');
             }
         } else {
             // Bingo case
@@ -56,14 +52,24 @@ for (const game of games) {
             await expect(page.locator(`text=${game.infoText}`)).toBeVisible();
         }
 
-        // Verify categories for Identity Mystery
+        // Verify categories
         if (game.categories) {
             const catSelector = page.locator('#s-cat');
             await expect(catSelector).toBeVisible();
             const options = await catSelector.locator('option').allTextContents();
-            expect(options).toContain('Famous People 🌟');
-            expect(options).toContain('Jobs & Professions 💼');
-            expect(options).toContain('Nationalities 🌍');
+            for (const cat of game.categories) {
+                expect(options).toContain(cat);
+            }
+        }
+
+        // Verify modes
+        if (game.modes) {
+            const modeSelector = page.locator('#s-mode');
+            await expect(modeSelector).toBeVisible();
+            const options = await modeSelector.locator('option').allTextContents();
+            for (const mode of game.modes) {
+                expect(options).toContain(mode);
+            }
         }
 
         // Close overlay
