@@ -1189,7 +1189,8 @@
             const body = document.getElementById('go-body');
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
 
-            let objects = vocab.filter(v => v.theme && !v.theme.includes('professions') && !v.theme.includes('famous_people'));
+            const personKeywords = ['profession', 'job', 'people', 'person', 'nationality', 'famous'];
+            let objects = vocab.filter(v => v.theme && !personKeywords.some(k => v.theme.toLowerCase().includes(k)));
             if (category !== 'all') {
                 const map = {
                     'home': ['home', 'house', 'gadget', 'furniture'],
