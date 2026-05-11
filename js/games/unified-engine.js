@@ -113,6 +113,37 @@
     function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
     function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
 
+    function getLangCode(val) {
+        if (!val) return localStorage.getItem('language') || 'en';
+        const v = val.toLowerCase();
+        if (v.includes('english')) return 'en';
+        if (v.includes('français')) return 'fr';
+        if (v.includes('italiano')) return 'it';
+        if (v.includes('русский')) return 'ru';
+        if (v.includes('ελληνικά')) return 'el';
+        if (v.includes('deutsch')) return 'de';
+        if (v.includes('español')) return 'es';
+        if (v.includes('português')) return 'pt';
+        if (v.includes('հայերեն')) return 'hy';
+        if (v.includes('ქართული')) return 'ka';
+        if (v.includes('татарча')) return 'tt';
+        if (v.includes('башҡортса')) return 'ba';
+        if (v.includes('brezhoneg')) return 'br';
+        return 'en';
+    }
+
+    function getLevelCode(val) {
+        if (!val) return 'starter';
+        const v = val.toLowerCase();
+        if (v.includes('a1') || v.includes('starter')) return 'starter';
+        if (v.includes('a2') || v.includes('primary') || v.includes('elementary')) return 'elementary';
+        if (v.includes('b1') || v.includes('intermediate')) return 'intermediate';
+        if (v.includes('b2') || v.includes('upper')) return 'upper-intermediate';
+        if (v.includes('c1') || v.includes('advanced')) return 'advanced';
+        if (v.includes('c2') || v.includes('proficiency')) return 'proficiency';
+        return 'starter';
+    }
+
     function startTimer(seconds, onTick, onEnd) {
       clearInterval(TIMER_INTERVAL);
       let remaining = seconds;
@@ -213,9 +244,9 @@
         if (rightEl) rightEl.innerHTML = '';
         if (!body) return;
 
-        const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷'];
+        const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷','Deutsch 🇩🇪','Español 🇪🇸','Português 🇵🇹','Հայերեն 🇦🇲','ქართული 🇬🇪','Татарча','Башҡортса','Brezhoneg'];
         const DUR_OPTS  = ['1 minute','2 minutes','3 minutes','5 minutes'];
-        const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)'];
+        const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
         const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)', 'Alphabet'];
 
         if (id === 'fluency') {
@@ -223,6 +254,9 @@
             <div class="setup-screen">
               <h2>Fluency Flow 🗣️</h2>
               <p>A topic will appear. Speak about it for the chosen duration without stopping. The goal is fluency — keep the words coming, don't worry about mistakes.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Duration</label>
                 <div class="setup-options">${DUR_OPTS.map((d,i)=>`<div class="setup-opt ${i===1?'sel':''}" onclick="COSY_ENGINE.selectOpt(this,'dur')" data-val="${d}"><span class="setup-opt-icon">⏱</span>${d}</div>`).join('')}</div>
               </div>
@@ -237,6 +271,9 @@
             <div class="setup-screen">
               <h2>Opinion Arena 🏟️</h2>
               <p>A statement appears. Agree or disagree — then speak for 1–2 minutes defending your view. Great for building confident, opinionated language.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -248,6 +285,9 @@
             <div class="setup-screen">
               <h2>Battle of Wits ⚖️</h2>
               <p>Two things are shown. Each player (or team) picks a side and argues for it. After 2 minutes each, the group votes on who was most convincingly.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -259,6 +299,9 @@
             <div class="setup-screen">
               <h2>Critic's Corner 🎭</h2>
               <p>A famous quote appears. What does it mean? Do you agree? Share your thoughts for 2–3 minutes. Perfect for advanced learners who want nuanced expression.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.slice(2).map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -271,7 +314,10 @@
               <h2>Action Hero 🎭</h2>
               <p>Hold your phone to your forehead (screen facing others). They describe the word — you guess. Each round is 60 seconds. Pass or guess as many words as you can.</p>
               <div class="setup-field"><label>Level</label>
-                <div class="setup-options">${LEVEL_OPTS.slice(0,4).map((l,i)=>`<div class="setup-opt ${i===1?'sel':''}" onclick="COSY_ENGINE.selectOpt(this,'level')" data-val="${['A1','A2','B1','B2'][i]}"><span class="setup-opt-icon">📊</span>${l}</div>`).join('')}</div>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
               <button class="btn-start-game" onclick="COSY_ENGINE.startAction()">▶ Start game</button>
             </div>`;
@@ -281,6 +327,9 @@
             <div class="setup-screen">
               <h2>Identity Mystery 👤</h2>
               <p>A profession or person is shown (only to the host). Other players ask yes/no questions to figure out who it is. Great for practising question structures.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -292,6 +341,12 @@
             <div class="setup-screen">
               <h2>Word Linker 🔗</h2>
               <p>Four words appear. Find the connection between three of them — and spot the odd one out. Tests vocabulary depth and lateral thinking.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <button class="btn-start-game" onclick="COSY_ENGINE.startWordLinker()">▶ Start game</button>
             </div>`;
         }
@@ -300,6 +355,9 @@
             <div class="setup-screen">
               <h2>Last Letter 🔤</h2>
               <p>Type a word. The next word must start with the last letter of the previous word. Keep the chain going as long as possible without repeating!</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language category</label>
                 <select class="styled-sel" id="s-cat">
                   <option value="any">Any word</option>
@@ -310,6 +368,9 @@
                   <option value="place">Places 🌍</option>
                 </select>
               </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <button class="btn-start-game" onclick="COSY_ENGINE.startLastLetter()">▶ Start game</button>
             </div>`;
         }
@@ -318,6 +379,9 @@
             <div class="setup-screen">
               <h2>Story Chain 🃏</h2>
               <p>Build a story together. One person sees a secret word and writes a sentence using it (without saying the word). Others try to guess!</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -329,6 +393,9 @@
             <div class="setup-screen">
               <h2>Hot Seat 🎯</h2>
               <p>Quick-fire round! You have 60 seconds to answer as many vocabulary questions as possible. Plurals, definitions, and sentences.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -340,6 +407,9 @@
             <div class="setup-screen">
               <h2>Object Quest 📦</h2>
               <p>Describe an object without naming it. Use clues about its size, color, or location. Can others guess what it is?</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -351,6 +421,9 @@
             <div class="setup-screen">
               <h2>Emoji Odyssey 📖</h2>
               <p>Two modes: <strong>Guess</strong> the word behind the emoji, or <strong>Tell a Story</strong> using a set of random emojis.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Mode</label>
                 <div class="setup-options">
                   <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'mode')" data-val="guess">🧩 Guess</div>
@@ -368,6 +441,9 @@
             <div class="setup-screen">
               <h2>Cosy Crossword 🧩</h2>
               <p>A crossword puzzle generated just for you. Use the clues to fill in the grid. Great for testing your vocabulary depth.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -379,6 +455,9 @@
             <div class="setup-screen">
               <h2>Lucky Numbers 🔢</h2>
               <p>Play Bingo! You can be the <strong>Caller</strong> for a group, or play as a <strong>Player</strong> (solo or with a host).</p>
+              <div style="background:var(--gold-light); padding:8px 12px; border-radius:8px; font-size:.8rem; color:var(--gold); margin-bottom:1rem; border:1px solid rgba(176,125,43,.2);">
+                📍 Level: Starter (A1)
+              </div>
               <div class="setup-field"><label>Role</label>
                 <div class="setup-options">
                   <div class="setup-opt sel" onclick="COSY_ENGINE.selectOpt(this,'role')" data-val="player">🃏 Player</div>
@@ -406,8 +485,8 @@
         },
 
         async startFluency() {
-            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
-            const level = 'all'; // Default for now
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
@@ -461,8 +540,8 @@
         },
 
         async startOpinion() {
-            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
-            const level = 'all';
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
@@ -514,8 +593,8 @@
         },
 
         async startBattle() {
-            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
-            const level = 'all';
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
         const data = getGameData(lang);
@@ -608,8 +687,8 @@
         },
 
         async startCritic() {
-            const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
-            const level = 'all';
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
@@ -646,10 +725,15 @@
             });
         },
 
-        startAction() {
+        async startAction() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
+
             const data = getGameData(lang);
-            const level = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'A2';
-            const pool = (data.action && data.action[level]) ? data.action[level] : (data.action ? data.action['A2'] : ['...']);
+            // Action Hero data uses short codes (A1, A2, B1, B2)
+            const shortLvl = level === 'starter' ? 'A1' : (level === 'elementary' ? 'A2' : (level === 'intermediate' ? 'B1' : 'B2'));
+            const pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : (data.action ? (data.action['B2'] || data.action['A2']) : ['...']);
             const words = shuffle(pool);
             let idx = 0, correct = 0, skipped = 0;
             const DUR = 60;
@@ -701,7 +785,10 @@
             showWord();
         },
 
-        startIdentity() {
+        async startIdentity() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const data = getGameData(lang);
             const identity = pick(data.identity || [{person:'...', clue:'...'}]);
             const body = document.getElementById('go-body');
@@ -744,7 +831,10 @@
             };
         },
 
-        startWordLinker() {
+        async startWordLinker() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const data = getGameData(lang);
             let wlScore = 0, wlQ = 0;
             const nextWordLinker = () => {
@@ -813,7 +903,10 @@
             nextWordLinker();
         },
 
-        startLastLetter() {
+        async startLastLetter() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             let llChain = [], llScore = 0;
             const LL_USED = new Set();
             const body = document.getElementById('go-body');
@@ -844,7 +937,7 @@
                 const input = document.getElementById('ll-input');
                 const fb = document.getElementById('ll-fb');
                 if (!input || !fb) return;
-                const word = input.value.trim().toLowerCase().replace(/[^a-zàâäéèêëîïôùûüæœçñáíóúüý]/gi,'');
+                const word = input.value.trim().toLowerCase().replace(/[^a-zàâäéèêëîïôùûüæœçñáíóúüý\u0400-\u04FF\u0370-\u03FF]/gi,'');
                 input.value = '';
 
                 if (!word || word.length < 2) {
@@ -881,7 +974,10 @@
             };
         },
 
-        startStoryChain() {
+        async startStoryChain() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const data = getGameData(lang);
             let story = [], pool = data.storychain || [];
             if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
@@ -925,12 +1021,15 @@
             renderStory();
         },
 
-        startHotSeat() {
+        async startHotSeat() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const data = getGameData(lang);
             const body = document.getElementById('go-body');
             let score = 0, timeLeft = 60, active = true;
 
-            const vocab = (window.vocabularyData && window.vocabularyData[localStorage.getItem('language') || 'en']) || [];
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
             if (vocab.length < 5) { showFB(body, 'bad', 'Not enough vocabulary loaded.'); return; }
 
             const nextQ = () => {
@@ -990,10 +1089,12 @@
             nextQ();
         },
 
-        startObjectQuest() {
+        async startObjectQuest() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const data = getGameData(lang);
             const body = document.getElementById('go-body');
-            const lang = targetLang || localStorage.getItem('language') || 'en';
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
             const objects = vocab.filter(v => v.theme && !v.theme.includes('professions') && !v.theme.includes('famous_people'));
 
@@ -1027,10 +1128,12 @@
             renderQuest();
         },
 
-        startEmojiOdyssey() {
+        async startEmojiOdyssey() {
             const mode = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'guess';
             const body = document.getElementById('go-body');
-            const lang = targetLang || localStorage.getItem('language') || 'en';
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
 
             if (mode === 'guess') {
@@ -1081,7 +1184,10 @@
             }
         },
 
-        startCrossword() {
+        async startCrossword() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
             const body = document.getElementById('go-body');
             body.innerHTML = `
                 <div class="game-card" style="text-align:center">
@@ -1105,9 +1211,7 @@
                 </div>`;
 
             if (window.crosswordGame) {
-                const lang = document.getElementById('s-lang')?.value.split(' ')[0].toLowerCase() || 'en';
-                // Note: Simplified lang mapping for crossword logic which expects 2-char code
-                const code = (lang === 'english' ? 'en' : (lang === 'français' ? 'fr' : (lang === 'italiano' ? 'it' : (lang === 'русский' ? 'ru' : 'el'))));
+                const code = lang;
 
                 // We need to inject minimal necessary crossword logic or trigger existing one
                 // For now, let's assume we use the existing window.crosswordGame but need to point it to these IDs
@@ -1125,11 +1229,13 @@
             }
         },
 
-        startBingo() {
+        async startBingo() {
             const role = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'player';
             const body = document.getElementById('go-body');
             const type = document.getElementById('s-type')?.value || 'Bingo 1 (0-9)';
-            const lang = targetLang || localStorage.getItem('language') || 'en';
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = 'starter';
+            await loadLevelData(lang, level);
 
             if (role === 'caller') {
                 body.innerHTML = `
