@@ -21,7 +21,7 @@
         if (!family) return;
 
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
-        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js', 'people.js', 'nationalities.js'];
+        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js', 'people.js', 'nationalities.js', 'adjectives.js', 'dishes.js', 'locations.js'];
         const promises = files.map(file => {
             const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
@@ -1071,6 +1071,8 @@
             await loadLevelData(lang, level);
             const data = getGameData(lang);
             let story = [], pool = data.storychain || [];
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (pool.length === 0 && vocab.length > 10) pool = vocab.map(v => v.word);
             if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
 
             const body = document.getElementById('go-body');
