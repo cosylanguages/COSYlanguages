@@ -121,6 +121,14 @@
         if (v.includes('italiano')) return 'it';
         if (v.includes('русский')) return 'ru';
         if (v.includes('ελληνικά')) return 'el';
+        if (v.includes('deutsch')) return 'de';
+        if (v.includes('español')) return 'es';
+        if (v.includes('português')) return 'pt';
+        if (v.includes('հայերեն')) return 'hy';
+        if (v.includes('ქართული')) return 'ka';
+        if (v.includes('татарча')) return 'tt';
+        if (v.includes('башҡортса')) return 'ba';
+        if (v.includes('brezhoneg')) return 'br';
         return 'en';
     }
 
@@ -236,7 +244,7 @@
         if (rightEl) rightEl.innerHTML = '';
         if (!body) return;
 
-        const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷'];
+        const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷','Deutsch 🇩🇪','Español 🇪🇸','Português 🇵🇹','Հայերեն 🇦🇲','ქართული 🇬🇪','Татарча','Башҡортса','Brezhoneg'];
         const DUR_OPTS  = ['1 minute','2 minutes','3 minutes','5 minutes'];
         const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
         const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)', 'Alphabet'];
