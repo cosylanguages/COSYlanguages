@@ -538,6 +538,150 @@
                 "theme": "politics_governance_B2",
                 "ideasA": ["Retributive justice ensures that offenders face consequences for their actions and provides a sense of closure for victims.", "Strict punishments can act as a deterrent, preventing others from committing similar crimes in the future."],
                 "ideasB": ["The primary goal should be to help offenders reintegrate into society and address the root causes of their behavior.", "Rehabilitation is more effective at reducing reoffending rates and building a safer society in the long term."]
+            },
+            {
+                "topic": "Knowing too much vs knowing too little — which is a more dangerous condition for the modern adult?",
+                "sideA": "Knowing too much",
+                "sideB": "Knowing too little",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Over-analysis can lead to decision paralysis, where an abundance of information prevents timely action.", "Constant awareness of global crises and complex risks can significantly increase anxiety and diminish overall well-being."],
+                "ideasB": ["Ignorance of critical information can lead to poor life choices and vulnerability to exploitation or misinformation.", "A lack of knowledge prevents individuals from participating effectively in democratic processes and social discourse."]
+            },
+            {
+                "topic": "Being early everywhere vs always being slightly late — which is the greater social crime?",
+                "sideA": "Being early",
+                "sideB": "Being late",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Arriving too early can place an unfair burden on the host, forcing them to rush their preparations.", "It may signal a lack of social awareness or an over-eagerness that makes others feel uncomfortable or pressured."],
+                "ideasB": ["Constant lateness demonstrates a fundamental lack of respect for other people's time and professional schedules.", "It can damage one's reputation for reliability and disrupt the flow of meetings or social gatherings."]
+            },
+            {
+                "topic": "Folding laundry immediately vs living out of a pile — which lifestyle choice is more defensible?",
+                "sideA": "Folding immediately",
+                "sideB": "Living out of a pile",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Maintaining order in the home environment reduces mental clutter and contributes to a more disciplined lifestyle.", "Folded clothes are better preserved, saving time on ironing and money on premature replacements."],
+                "ideasB": ["Prioritising more meaningful activities over mundane domestic tasks can lead to a more fulfilling and less rigid life.", "A 'living pile' approach saves immediate time and energy, which can be redirected toward work, family, or relaxation."]
+            },
+            {
+                "topic": "The invention of the alarm clock vs the invention of the snooze button — which has done more harm to humanity?",
+                "sideA": "Alarm clock",
+                "sideB": "Snooze button",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["The alarm clock disrupted the natural circadian rhythms of humans, leading to chronic sleep deprivation and stress.", "It formalised a rigid, industrial approach to time that prioritises productivity over biological well-being."],
+                "ideasB": ["The snooze button encourages 'sleep fragmentation', which can leave individuals feeling more groggy and less alert.", "It fosters a habit of procrastination and delayed responsibility that can negatively impact professional performance."]
+            },
+            {
+                "topic": "Ghosts vs aliens — which would be a more disruptive discovery for modern society?",
+                "sideA": "Ghosts",
+                "sideB": "Aliens",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Proof of an afterlife would fundamentally overturn all existing religious, philosophical, and scientific frameworks.", "It would raise profound ethical and legal questions regarding the rights and influence of the deceased on the living."],
+                "ideasB": ["Contact with extraterrestrial life would force humanity to reconsider its place in the universe and its unique status.", "It could pose significant security risks or technological challenges that society is currently ill-equipped to handle."]
+            },
+            {
+                "topic": "Cereal before milk vs milk before cereal — is this a matter of preference or of objective fact?",
+                "sideA": "Cereal first",
+                "sideB": "Milk first",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Adding cereal first allows for better portion control and ensures the optimal ratio of crunchiness to liquid.", "It is the more logical and systematic approach, preventing the milk from splashing and creating a mess."],
+                "ideasB": ["Adding milk first allows you to heat the liquid precisely before adding the cereal, maintaining the desired temperature.", "It ensures that the cereal stays crispier for longer, as it isn't immediately submerged in the milk."]
+            },
+            {
+                "topic": "Whistleblowing vs institutional loyalty — which is the more ethical choice?",
+                "sideA": "Whistleblowing",
+                "sideB": "Institutional loyalty",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Exposing wrongdoing is a fundamental duty to the public that takes precedence over private organisational interests.", "Whistleblowing promotes transparency and holds powerful institutions accountable for their actions and ethical breaches."],
+                "ideasB": ["Loyalty to one's institution is essential for maintaining the stability and effectiveness of complex organisations.", "Internal issues should be resolved through established channels to prevent unnecessary reputational damage and social disruption."]
+            },
+            {
+                "topic": "Optimism vs realism — which is the more productive worldview for a career?",
+                "sideA": "Optimism",
+                "sideB": "Realism",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["A positive outlook fosters resilience and encourages individuals to take the risks necessary for innovation and growth.", "Optimism is contagious and can significantly improve team morale and collective problem-solving capabilities."],
+                "ideasB": ["A realistic assessment of challenges prevents the waste of resources on unattainable goals or over-ambitious projects.", "Realism allows for more effective contingency planning and risk management in volatile professional environments."]
+            },
+            {
+                "topic": "Entrepreneurship vs employment — which contributes more to society?",
+                "sideA": "Entrepreneurship",
+                "sideB": "Employment",
+                "level": "upper-intermediate",
+                "theme": "economy_labour_market_B2",
+                "ideasA": ["Entrepreneurs drive innovation and create the new jobs and industries that fuel economic progress.", "The willingness to take personal risks leads to the development of novel solutions for complex societal problems."],
+                "ideasB": ["The collective efforts of millions of employees provide the essential stability and expertise that keep society functioning.", "Employment provides a consistent tax base and supports the established infrastructure of the global economy."]
+            },
+            {
+                "topic": "Nationalism vs globalism — which is the more coherent framework for the 21st century?",
+                "sideA": "Nationalism",
+                "sideB": "Globalism",
+                "level": "upper-intermediate",
+                "theme": "politics_governance_B2",
+                "ideasA": ["Focusing on the nation-state ensures that governments remain accountable to their own citizens and their specific needs.", "National identity provides a strong sense of belonging and social cohesion that is necessary for a stable society."],
+                "ideasB": ["Global challenges like climate change and pandemics require a unified, international approach that transcends borders.", "An interconnected global economy promotes peace and prosperity by making nations interdependent and cooperative."]
+            },
+            {
+                "topic": "Homeschooling vs traditional schooling — which produces better-rounded individuals?",
+                "sideA": "Homeschooling",
+                "sideB": "Traditional schooling",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Personalised instruction allows children to follow their own interests and learn at a pace that suits their individual needs.", "Homeschooling can protect children from negative social influences like bullying and excessive peer pressure."],
+                "ideasB": ["Traditional schools provide a diverse social environment where children learn to interact with people from different backgrounds.", "The structured environment of a school fosters essential life skills such as discipline, teamwork, and healthy competition."]
+            },
+            {
+                "topic": "Grading systems vs descriptive feedback — which motivates students more effectively?",
+                "sideA": "Grading systems",
+                "sideB": "Descriptive feedback",
+                "level": "upper-intermediate",
+                "theme": "academic_vocabulary_B2",
+                "ideasA": ["Grades provide a clear, objective metric that allows students to track their progress and compare their performance.", "The competitive nature of grading can incentivise students to work harder and strive for academic excellence."],
+                "ideasB": ["Detailed feedback provides specific guidance on how to improve, fostering a growth mindset rather than a focus on marks.", "Removing the pressure of grades can reduce anxiety and encourage a more genuine love of learning and exploration."]
+            },
+            {
+                "topic": "Artificial intelligence vs human judgment — which should drive key decisions in business?",
+                "sideA": "Artificial intelligence",
+                "sideB": "Human judgment",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["AI can process vast amounts of data without emotional bias, leading to more objective and efficient decision-making.", "Algorithms can identify complex patterns and trends that are often invisible to even the most experienced human experts."],
+                "ideasB": ["Human leaders can consider ethical nuances, social context, and long-term implications that machines cannot yet grasp.", "Judgment involves empathy and intuition, which are crucial for navigating complex interpersonal and political situations."]
+            },
+            {
+                "topic": "Tech optimism vs tech scepticism — which is the more rational default stance today?",
+                "sideA": "Tech optimism",
+                "sideB": "Tech scepticism",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["Technology has historically solved our greatest challenges and continues to improve life expectancy and global connectivity.", "Maintaining a positive stance encourages the investment and innovation needed to solve current crises like climate change."],
+                "ideasB": ["A sceptical approach is necessary to identify and mitigate the unintended consequences of rapid technological advancement.", "Questioning the motives of tech giants helps protect individual privacy and prevents the erosion of democratic values."]
+            },
+            {
+                "topic": "Digital identity vs real-world identity — which defines us more today?",
+                "sideA": "Digital identity",
+                "sideB": "Real-world identity",
+                "level": "upper-intermediate",
+                "theme": "technology_privacy_B2",
+                "ideasA": ["Our online presence is often the first point of contact for employers, peers, and the public, shaping their perception of us.", "Digital footprints provide a more comprehensive and permanent record of our interests, actions, and social connections."],
+                "ideasB": ["Real-world interactions involve a level of depth and authenticity that cannot be replicated in a digital environment.", "Our physical experiences and immediate relationships remain the most significant drivers of our values and personal growth."]
+            },
+            {
+                "topic": "Eco-anxiety vs climate optimism — which is the more constructive response to the crisis?",
+                "sideA": "Eco-anxiety",
+                "sideB": "Climate optimism",
+                "level": "upper-intermediate",
+                "theme": "environment_policy_B2",
+                "ideasA": ["A healthy sense of urgency and concern can motivate individuals to make the radical lifestyle changes necessary for survival.", "Acknowledging the gravity of the situation prevents complacency and keeps the pressure on governments and corporations."],
+                "ideasB": ["Optimism prevents despair and paralysis, empowering people to focus on solutions and participate in positive action.", "Believing that change is possible is a prerequisite for the sustained effort required to build a sustainable future."]
             }];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
