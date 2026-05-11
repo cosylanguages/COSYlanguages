@@ -1197,7 +1197,7 @@
             refs_tab: "Материалы",
             start_lesson_btn: "Начать урок 🚀",
             mark_as_done: "Завершить",
-            completed_btn: "✓ Выполнеνο",
+            completed_btn: "✓ Выполнено",
             grammar_summary_soon: "Грамматическая справка скоро появится.",
             open_grammar_hub: "Открыть справочник 📐",
             vocab_list_soon: "Список слов скоро появится.",
