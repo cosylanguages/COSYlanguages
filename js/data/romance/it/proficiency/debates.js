@@ -4,7 +4,7 @@
                 "sideA": "Conquista di civiltà",
                 "sideB": "Fonte di miseria",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "Ha catalizzato uno sviluppo socioeconomico senza precedenti istituzionalizzando la diligenza come virtù cardinale.",
                     "La spinta interiorizzata verso l'operosità fornisce un quadro coerente per lo scopo individuale e la stabilità sociale."
@@ -19,7 +19,7 @@
                 "sideA": "Consiglio",
                 "sideB": "Trappola",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "Allineare le aspirazioni professionali agli interessi intrinseci favorisce uno stato di 'flow' e una profonda realizzazione psicologica.",
                     "La ricerca di un lavoro significativo trascende la mera sussistenza, consentendo un'esistenza più integrata e autentica."
@@ -34,7 +34,7 @@
                 "sideA": "Identità",
                 "sideB": "Mezzo",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "L'eccellenza professionale fornisce una metrica tangibile per l'autorealizzazione e il contributo sociale in un mondo secolare.",
                     "Un'identità radicata nella maestria e nella vocazione offre resilienza e un senso di continuità lungo tutto l'arco della vita."
@@ -49,7 +49,7 @@
                 "sideA": "Stakanovista",
                 "sideB": "Ozioso",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "La glorificazione della 'hustle culture' oscura i rendimenti decrescenti dell'esaurimento e l'incuria sistemica della riproduzione sociale.",
                     "Le narrazioni eroiche del sovraccarico di lavoro servono spesso a normalizzare richieste organizzative sfruttatrici sotto la veste del merito individuale."
@@ -64,7 +64,7 @@
                 "sideA": "Ammirevole",
                 "sideB": "Incapacità di accettare la finitezza",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "L'ambizione rappresenta il coraggioso rifiuto di ristagnare, guidando l'espansione delle capacità umane e dei confini creativi.",
                     "La tensione verso l'eccellenza è un'espressione vitale della volontà umana di lasciare un'impronta duratura e significativa nel mondo."
@@ -703,7 +703,307 @@
                     "La storia è piena di esempi di comunità che gestiscono con successo i 'beni comuni' attraverso sistemi complessi di norme sociali e monitoraggio reciproco.",
                     "Gli esseri umani sono 'cooperatori obbligati'; i nostri più grandi traguardi sono il risultato della nostra capacità unica di collaborazione flessibile su larga scala."
                 ]
-            }];
+            },
+            {
+            "topic": "Silenzio vs parola: quale possiede un maggior potere comunicativo nei momenti di crisi?",
+            "sideA": "Silenzio",
+            "sideB": "Parola",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Il silenzio strategico può fungere da profonda forma di contenimento, prevenendo l'escalation della volatilità e preservando la dignità dell'indicibile.",
+                        "Il rifiuto di partecipare alla 'cacofonia del momento' permette lo spazio necessario per la riflessione e l'eventuale emergere di verità più ponderate."
+            ],
+            "ideasB": [
+                        "La parola articolata è essenziale per fornire chiarezza, dirigere l'azione collettiva e contrastare la diffusione di disinformazione destabilizzante.",
+                        "L'atto coraggioso di prendere la parola fornisce un'ancora morale per gli altri, trasformando il disagio privato in una narrazione pubblica e gestibile."
+            ]
+},
+            {
+            "topic": "La traduzione come fedeltà vs la traduzione come atto creativo: qual è l'approccio più onesto?",
+            "sideA": "Fedeltà",
+            "sideB": "Atto creativo",
+            "level": "proficiency",
+            "theme": "aesthetics_criticism_C2",
+            "ideasA": [
+                        "L'obbligo morale primario del traduttore è verso l'intento originale dell'autore e la specifica 'estraneità' culturale e linguistica del testo sorgente.",
+                        "Tentare di 'migliorare' o addomesticare eccessivamente un'opera ne erode l'integrità storica e nega al lettore un genuino incontro con l''Altro'."
+            ],
+            "ideasB": [
+                        "Un approccio letteralista spesso si traduce in un testo morto; la vera fedeltà richiede la ricreazione creativa dell'impatto emotivo ed estetico dell'opera nella lingua d'arrivo.",
+                        "La traduzione è un atto di metamorfosi; il traduttore deve essere un artista a pieno titolo per garantire la continua vitalità dell'opera in un nuovo contesto."
+            ]
+},
+            {
+            "topic": "Conoscenza istituzionale vs conoscenza distribuita: quale è più robusta contro l'errore?",
+            "sideA": "Conoscenza istituzionale",
+            "sideB": "Conoscenza distribuita",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Le istituzioni formali forniscono la struttura necessaria, la memoria d'archivio e il rigore della revisione paritaria per filtrare errori idiosincratici o effimeri.",
+                        "La continuità dei protocolli stabiliti e delle gerarchie specializzate garantisce che la conoscenza rimanga stabile e trasferibile attraverso le generazioni."
+            ],
+            "ideasB": [
+                        "La 'saggezza della folla' e le reti decentralizzate sono meno suscettibili ai pregiudizi cognitivi e alla cattura sistemica che affliggono le istituzioni insulari.",
+                        "I sistemi distribuiti facilitano la rapida correzione degli errori attraverso l'elaborazione parallela e le diverse prospettive di attori indipendenti."
+            ]
+},
+            {
+            "topic": "La mappa vs il territorio: quando il nostro modello di realtà diventa una prigione?",
+            "sideA": "La Mappa (Modelli)",
+            "sideB": "Il Territorio (Realtà)",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "I modelli astratti sono strumenti cognitivi indispensabili che ci permettono di navigare in una realtà sensoriale altrimenti schiacciante e caotica.",
+                        "La costruzione di modelli è il segno distintivo dell'intelligenza umana, consentendo la previsione e la manipolazione dell'ambiente a vantaggio collettivo."
+            ],
+            "ideasB": [
+                        "Scambiare il modello per la realtà porta a una 'cattura concettuale' in cui ignoriamo le prove che non si adattano ai nostri quadri teorici preesistenti.",
+                        "La ricchezza dell'esperienza vissuta viene inevitabilmente appiattita dall'astrazione; dobbiamo rimanere perennemente consapevoli della 'perdita di segnale' insita in ogni rappresentazione."
+            ]
+},
+            {
+            "topic": "Rivoluzione vs riforma: quale è il motore più efficace per un cambiamento duraturo?",
+            "sideA": "Rivoluzione",
+            "sideB": "Riforma",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "L'ingiustizia sistemica spesso richiede una rottura radicale per smantellare strutture di potere trincerate che sono strutturalmente incapaci di autocorrezione.",
+                        "Un momento rivoluzionario riconfigura l''orizzonte del possibile', permettendo la nascita di immaginari sociali e politici interamente nuovi."
+            ],
+            "ideasB": [
+                        "La riforma incrementale è più sostenibile e meno incline alla voragine di violenza catastrofica che segue gli sconvolgimenti improvvisi.",
+                        "Il cambiamento duraturo si costruisce attraverso il lavoro paziente di costruzione delle istituzioni e il graduale spostamento delle norme culturali."
+            ]
+},
+            {
+            "topic": "Giustizia come procedura vs giustizia come esito: a cosa dovremmo mirare?",
+            "sideA": "Procedura",
+            "sideB": "Esito",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "L'equità dipende dalla stretta adesione a regole imparziali; un sistema che privilegia risultati specifici rischia di diventare uno strumento di potere arbitrario.",
+                        "La giustizia procedurale garantisce la legittimità a lungo termine delle istituzioni fornendo un quadro prevedibile."
+            ],
+            "ideasB": [
+                        "Un processo è vacuo se produce costantemente risultati palesemente ingiusti o che perpetuano la disuguaglianza sistemica.",
+                        "La vera giustizia richiede la rettifica proattiva dei torti storici e il raggiungimento di un'equità sostanziale."
+            ]
+},
+            {
+            "topic": "Forma vs contenuto: qual è la vera misura del successo artistico?",
+            "sideA": "Forma",
+            "sideB": "Contenuto",
+            "level": "proficiency",
+            "theme": "aesthetics_criticism_C2",
+            "ideasA": [
+                        "La maestria artistica è definita dalla manipolazione innovativa del mezzo; il contenuto è solo l'occasione per l'esercizio della brillantezza formale.",
+                        "Il potere estetico di un'opera risiede nel suo 'come' piuttosto che nel suo 'cosa'."
+            ],
+            "ideasB": [
+                        "L'arte è fondamentalmente un atto comunicativo; la sperimentazione formale è vuoto virtuosismo se non serve ad approfondire la comprensione umana.",
+                        "Il 'peso' di un'opera deriva dalla sua sostanza morale, sociale o filosofica."
+            ]
+},
+            {
+            "topic": "La morte dell'autore vs la continua rilevanza dell'autore: Barthes ha vinto?",
+            "sideA": "Morte dell'Autore",
+            "sideB": "Rilevanza dell'Autore",
+            "level": "proficiency",
+            "theme": "aesthetics_criticism_C2",
+            "ideasA": [
+                        "L'interpretazione appartiene al lettore; la biografia dell'autore e le intenzioni dichiarate sono irrilevanti per i significati multidimensionali generati dal testo.",
+                        "Recidere l'opera dal suo creatore impedisce all''autore-dio' di imporre un unico significato autorevole."
+            ],
+            "ideasB": [
+                        "L'arte è un atto di testimonianza; comprendere lo specifico contesto storico e personale del creatore è essenziale per una lettura etica.",
+                        "La 'voce autoriale' fornisce una prospettiva unica che costituisce la fonte primaria di valore dell'opera."
+            ]
+},
+            {
+            "topic": "Etica del potenziamento vs sacralità dei limiti naturali: gli esseri umani dovrebbero essere liberi di aumentare le proprie capacità?",
+            "sideA": "Potenziamento",
+            "sideB": "Limiti naturali",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "La condizione umana è sempre stata definita dalla trascendenza tecnologica dei vincoli biologici; il potenziamento è la continuazione logica.",
+                        "Potenziare i tratti cognitivi o fisici è un'espressione proattiva della libertà morfologica."
+            ],
+            "ideasB": [
+                        "Abbandonare i limiti naturali rischia di creare un divario di classe biologico permanente.",
+                        "Esiste un'intrinseca 'saggezza del corpo' e dell'evoluzione; un'interferenza presuntuosa può portare a conseguenze irreversibili."
+            ]
+},
+            {
+            "topic": "Lungotermismo vs etica focalizzata sul presente: cosa dovrebbe guidare le nostre decisioni più conseguenti?",
+            "sideA": "Lungotermismo",
+            "sideB": "Presente",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Le persone future hanno lo stesso valore morale di quelle in vita oggi; dobbiamo dare priorità alla mitigazione dei rischi esistenziali.",
+                        "Adottare una 'visione a lungo termine' previene il parrocchialismo temporale."
+            ],
+            "ideasB": [
+                        "Fissarsi su scenari futuri speculativi può essere una scusa per ignorare la sofferenza acuta che i viventi affrontano attualmente.",
+                        "Il futuro è fondamentalmente imprevedibile; la nostra responsabilità primaria è creare un presente giusto."
+            ]
+},
+            {
+            "topic": "Diritti degli animali vs eccezionalismo umano: su quali basi si può giustificare uno status morale differente?",
+            "sideA": "Diritti animali",
+            "sideB": "Eccezionalismo umano",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "La capacità di sentire e l'esperienza del dolore dovrebbero essere gli unici criteri rilevanti per la considerazione morale.",
+                        "Mantenere la gerarchia uomo-animale è una forma arbitraria di 'specismo'."
+            ],
+            "ideasB": [
+                        "Gli esseri umani possiedono capacità uniche di agenzia morale e autoriflessione che fondano uno status morale distinto.",
+                        "Il contratto sociale e i nostri obblighi etici sono fondamentalmente reciproci."
+            ]
+},
+            {
+            "topic": "La tragedia come modalità dominante della storia vs la commedia: cosa descrive più accuratamente la vicenda umana?",
+            "sideA": "Tragedia",
+            "sideB": "Commedia",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "La storia è definita dall'inevitabile hybris delle civiltà e dal ricorrente fallimento dei nostri ideali più nobili.",
+                        "La lente tragica cattura la gravità della finitezza umana in un mondo indifferente."
+            ],
+            "ideasB": [
+                        "La vicenda umana è fatta di assurda resilienza, adattamento inaspettato e persistente trionfo del 'piccolo' sulla 'grande' narrazione.",
+                        "Vedere la storia come commedia permette una prospettiva più indulgente sulle nostre comuni follie."
+            ]
+},
+            {
+            "topic": "Declino delle civiltà come inevitabile vs contingente: siamo condannati dalla struttura o dalle scelte?",
+            "sideA": "Inevitabile",
+            "sideB": "Contingente",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Le civiltà sono entità organiche soggette alle stesse leggi di entropia e calcificazione istituzionale di qualsiasi sistema complesso.",
+                        "La 'legge ferrea dell'oligarchia' rende l'eventuale collasso delle società su larga scala una certezza strutturale."
+            ],
+            "ideasB": [
+                        "Il declino è il risultato di specifici fallimenti politici; possediamo la capacità riflessiva di imparare dalla storia.",
+                        "Il fatalismo è una profezia che si autoavvera; la fede nella nostra agenzia è il prerequisito per il cambiamento."
+            ]
+},
+            {
+            "topic": "Il metodo socratico vs dire semplicemente la risposta: l'ignoranza produttiva è gentilezza o crudeltà?",
+            "sideA": "Metodo socratico",
+            "sideB": "Risposta diretta",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Il vero apprendimento richiede la deconstructione attiva dei propri presupposti; l'aporia è il travaglio della nascita della saggezza.",
+                        "L'indagine guidata favorisce le capacità di pensiero critico necessarie per navigare in un mondo di verità in competizione."
+            ],
+            "ideasB": [
+                        "Trattenere informazioni note può essere una forma di gatekeeping che spreca tempo in un'era di sfide urgenti.",
+                        "L'istruzione diretta è un atto di generosità epistemica, fornendo le basi su cui altri possono costruire."
+            ]
+},
+            {
+            "topic": "La Nave di Teseo vs il tuo io bambino: a che punto la sostituzione graduale rende un'altra persona, e ha importanza?",
+            "sideA": "Continuità del Sé",
+            "sideB": "Discontinuità radicale",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "L'identità si trova nella continuità del pattern: il flusso di ricordi, valori e impegni relazionali.",
+                        "Il sé è un progetto narrativo; finché la storia può essere raccontata in modo coerente, la persona rimane la stessa."
+            ],
+            "ideasB": [
+                        "I radicali cambiamenti fisiologici tra l'infanzia e l'età adulta suggeriscono che siamo una successione di esseri diversi.",
+                        "Accettare la 'morte' dei nostri io precedenti permette un impegno più autentico con la persona che stiamo diventando."
+            ]
+},
+            {
+            "topic": "Saggezza infinita vs appagamento infinito: se costretti a scegliere, cosa costituirebbe la vita migliore?",
+            "sideA": "Saggezza infinita",
+            "sideB": "Appagamento infinito",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "La ricerca della verità è la più alta vocazione umana; una vita di beatitudine ignorante è un'esistenza diminuita.",
+                        "La saggezza permette un impegno profondo con la realtà, che è intrinsecamente più prezioso di una serenità fabbricata."
+            ],
+            "ideasB": [
+                        "L'obiettivo finale di ogni sforzo è la cessazione della sofferenza; l'appagamento offre una risoluzione finale.",
+                        "Una vita di pace è l'unica scelta razionale; la saggezza che porta solo miseria è un fardello autodistruttivo."
+            ]
+},
+            {
+            "topic": "La parola \"moist\" vs il concetto di \"moist\": l'avversione fonoestetica è un fenomeno linguistico o culturale?",
+            "sideA": "Linguistico",
+            "sideB": "Culturale",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "L'articolazione fisica della parola — la combinazione della 'm' e del dittongo 'oi' — scatena un disagio sensoriale.",
+                        "Certi fonemi possiedono una 'consistenza' naturale che può essere universalmente respingente."
+            ],
+            "ideasB": [
+                        "L'avversione è costruita socialmente, guidata dall'associazione con i fluidi corporei e da una 'meme-ificazione' del disgusto.",
+                        "Il linguaggio è un sistema arbitrario; nessun suono è 'disgustoso' senza il bagaglio del tabù culturale."
+            ]
+},
+            {
+            "topic": "Avere ragione ed essere ignorati vs avere torto ed essere celebrati: qual è la descrizione più accurata?",
+            "sideA": "Ragione e ignorati",
+            "sideB": "Torto e celebrati",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "La verità è spesso scomoda, portando alla marginalizzazione di coloro che rifiutano di lusingare il consenso.",
+                        "La storia è piena di 'profeti in patria' le cui intuizioni sono state riconosciute solo dopo la loro distruzione."
+            ],
+            "ideasB": [
+                        "La coesione sociale e la 'menzogna piacevole' sono più vitali per la sopravvivenza rispetto ai fatti oggettivi.",
+                        "La consegna carismatica di una falsità porta spesso più utilità sociale rispetto alla goffa articolazione di una realtà."
+            ]
+},
+            {
+            "topic": "Hot takes vs no takes: in un'era di saturazione epistemica, il silenzio è l'atto intellettuale più radicale?",
+            "sideA": "Hot Takes",
+            "sideB": "No Takes",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Lo scambio di opinioni provocatorie è una forma vitale di gioco intellettuale in una piazza pubblica iper-connessa.",
+                        "L'attrito di prospettive in competizione è l'unico modo per innescare una genuina intuizione collettiva."
+            ],
+            "ideasB": [
+                        "La domanda costante di 'reazione' erode la capacità di pensiero profondo; il rifiuto di un'opinione è sovranità cognitiva.",
+                        "Il silenzio strategico contrasta l''economia dell'attenzione' e previene la diluizione del discorso."
+            ]
+},
+            {
+            "topic": "Procrastinazione come patologia vs procrastinazione come filosofia: l'azione ritardata è mai saggezza?",
+            "sideA": "Patologia",
+            "sideB": "Filosofia",
+            "level": "proficiency",
+            "theme": "work_identity_meaning_C2",
+            "ideasA": [
+                        "Il ritardo cronico è un fallimento dell'autoregolazione che causa immenso stress e riduce il contributo sociale.",
+                        "Il procrastinatore è intrappolato in un ciclo di evitamento che impedisce la padronanza necessaria per una vita fiorente."
+            ],
+            "ideasB": [
+                        "Ritardare l'azione permette l''incubazione' subconscia delle idee e assicura di impegnarsi solo in ciò che conta.",
+                        "La procrastinazione può essere un rifiuto radicale di sottomettersi all''urgenza' artificiale del mercato."
+            ]
+}];
     const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
