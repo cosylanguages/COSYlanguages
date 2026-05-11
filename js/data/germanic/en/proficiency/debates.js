@@ -4,7 +4,7 @@
                 "sideA": "Civilisational achievement",
                 "sideB": "Source of misery",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "It catalyzed unprecedented socioeconomic development by institutionalizing diligence as a cardinal virtue.",
                     "The internalized drive for industriousness provides a coherent framework for individual purpose and societal stability."
@@ -19,7 +19,7 @@
                 "sideA": "Advice",
                 "sideB": "Trap",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "Aligning professional pursuits with intrinsic interests fosters a state of 'flow' and profound psychological fulfillment.",
                     "The pursuit of meaningful work transcends mere subsistence, allowing for a more integrated and authentic existence."
@@ -34,7 +34,7 @@
                 "sideA": "Identity",
                 "sideB": "Means",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "Professional excellence provides a tangible metric for self-actualization and social contribution in a secular world.",
                     "An identity rooted in mastery and vocational calling offers resilience and a sense of continuity across the lifespan."
@@ -49,7 +49,7 @@
                 "sideA": "Overworker",
                 "sideB": "Idler",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "The glorification of 'hustle culture' obscures the diminishing returns of exhaustion and the systemic neglect of social reproduction.",
                     "Heroic narratives of overwork often serve to normalize exploitative organizational demands under the guise of individual merit."
@@ -64,7 +64,7 @@
                 "sideA": "Admirable",
                 "sideB": "Failure to accept finitude",
                 "level": "proficiency",
-                "theme": "work_identity_meaning_C1",
+                "theme": "work_identity_meaning_C2",
                 "ideasA": [
                     "Ambition represents the courageous refusal to stagnate, driving the expansion of human capability and creative boundaries.",
                     "The strive for excellence is a vital expression of the human will to leave a lasting, meaningful imprint on the world."
@@ -703,7 +703,307 @@
                     "History is replete with examples of communities successfully managing 'the commons' through complex systems of social norms and mutual monitoring.",
                     "Human beings are 'obligate cooperators'; our greatest achievements are the result of our unique capacity for large-scale, flexible collaboration."
                 ]
-            }];
+            },
+            {
+            "topic": "Silence vs speech — which carries more communicative power in moments of crisis?",
+            "sideA": "Silence",
+            "sideB": "Speech",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Strategic silence can serve as a profound form of restraint, preventing the escalation of volatility and preserving the dignity of the unspeakable.",
+                        "The refusal to participate in the 'cacophony of the moment' allows for the necessary space for reflection and the eventual emergence of more tempered truths."
+            ],
+            "ideasB": [
+                        "Articulated speech is essential for providing clarity, directing collective action, and countering the spread of destabilizing misinformation.",
+                        "The courageous act of speaking out provides a moral anchor for others, transforming private distress into a public, manageable narrative."
+            ]
+},
+            {
+            "topic": "Translation as fidelity vs translation as creative act — which is the more honest approach?",
+            "sideA": "Fidelity",
+            "sideB": "Creative act",
+            "level": "proficiency",
+            "theme": "aesthetics_criticism_C2",
+            "ideasA": [
+                        "The translator's primary moral obligation is to the author's original intent and the specific cultural-linguistic 'strangeness' of the source text.",
+                        "Attempting to 'improve' or overly domesticate a work erodes its historical integrity and denies the reader a genuine encounter with the 'Other'."
+            ],
+            "ideasB": [
+                        "A literalist approach often results in a dead text; true fidelity requires the creative recreation of the work's emotional and aesthetic impact in the target language.",
+                        "Translation is an act of metamorphosis; the translator must be an artist in their own right to ensure the work's continued vitality in a new context."
+            ]
+},
+            {
+            "topic": "Institutional knowledge vs distributed knowledge — which is more robust against error?",
+            "sideA": "Institutional knowledge",
+            "sideB": "Distributed knowledge",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Formal institutions provide the necessary structure, archival memory, and peer-reviewed rigor to filter out idiosyncratic or ephemeral errors.",
+                        "The continuity of established protocols and specialized hierarchies ensures that knowledge remains stable and transferable across generations."
+            ],
+            "ideasB": [
+                        "The 'wisdom of the crowd' and decentralized networks are less susceptible to the cognitive biases and systemic capture that plague insular institutions.",
+                        "Distributed systems facilitate rapid error-correction through parallel processing and the diverse perspectives of independent actors."
+            ]
+},
+            {
+            "topic": "The map vs the territory — when does our model of reality become a prison?",
+            "sideA": "The Map (Models)",
+            "sideB": "The Territory (Reality)",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Abstract models are indispensable cognitive tools that allow us to navigate an otherwise overwhelming and chaotic sensory reality.",
+                        "Model-building is the hallmark of human intelligence, enabling the prediction and manipulation of the environment for collective benefit."
+            ],
+            "ideasB": [
+                        "Mistaking the model for the reality leads to a 'conceptual capture' where we ignore evidence that doesn't fit our pre-existing theoretical frameworks.",
+                        "The richness of lived experience is inevitably flattened by abstraction; we must remain perpetually aware of the 'loss of signal' inherent in all representation."
+            ]
+},
+            {
+            "topic": "Revolution vs reform — which is the more effective engine of lasting change?",
+            "sideA": "Revolution",
+            "sideB": "Reform",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Systemic injustice often requires a radical rupture to dismantle entrenched power structures that are structurally incapable of self-correction.",
+                        "A revolutionary moment reconfigures the 'horizon of the possible,' allowing for the birth of entirely new social and political imaginaries."
+            ],
+            "ideasB": [
+                        "Incremental reform is more sustainable and less prone to the catastrophic violence and reactionary backlash that follow sudden upheavals.",
+                        "Lasting change is built through the patient work of institution-building and the gradual shifting of cultural norms and legal precedents."
+            ]
+},
+            {
+            "topic": "Justice as procedure vs justice as outcome — what should we be aiming at?",
+            "sideA": "Procedure",
+            "sideB": "Outcome",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Fairness depends on the strict adherence to impartial rules; a system that prioritizes specific results risks becoming an instrument of arbitrary power.",
+                        "Procedural justice ensures the long-term legitimacy of institutions by providing a predictable framework that respects individual rights regardless of the verdict."
+            ],
+            "ideasB": [
+                        "A process is hollow if it consistently produces results that are manifestly unjust or perpetuate systemic inequality.",
+                        "True justice requires the proactive rectification of historical wrongs and the achievement of substantive equity in material and social conditions."
+            ]
+},
+            {
+            "topic": "Form vs content — which is the truer measure of artistic achievement?",
+            "sideA": "Form",
+            "sideB": "Content",
+            "level": "proficiency",
+            "theme": "aesthetics_criticism_C2",
+            "ideasA": [
+                        "Artistic mastery is defined by the innovative manipulation of the medium; content is merely the occasion for the exercise of formal brilliance.",
+                        "The aesthetic power of a work lies in its 'how' rather than its 'what,' transcending the mundane world through pure style and structure."
+            ],
+            "ideasB": [
+                        "Art is fundamentally a communicative act; formal experimentation is empty virtuosity if it does not serve to deepen our understanding of the human condition.",
+                        "The 'weight' of a work comes from its moral, social, or philosophical substance—the truth it reveals about the world we inhabit."
+            ]
+},
+            {
+            "topic": "The death of the author vs the author's continued relevance — has Barthes won?",
+            "sideA": "Death of the Author",
+            "sideB": "Author's Relevance",
+            "level": "proficiency",
+            "theme": "aesthetics_criticism_C2",
+            "ideasA": [
+                        "Interpretation belongs to the reader; the author's biography and stated intentions are irrelevant to the multi-dimensional meanings generated by the text itself.",
+                        "Severing the work from its creator prevents the 'author-god' from imposing a single, authoritative meaning, allowing for radical hermeneutic freedom."
+            ],
+            "ideasB": [
+                        "Art is an act of witness; understanding the creator's specific historical and personal context is essential for a responsible and ethical reading.",
+                        "The 'authorial voice' provides a unique perspective and a set of intentional choices that constitute the work's primary source of value and meaning."
+            ]
+},
+            {
+            "topic": "Enhancement ethics vs the sanctity of natural limits — should humans be free to augment their capacities?",
+            "sideA": "Enhancement",
+            "sideB": "Natural Limits",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "The human condition has always been defined by the technological transcendence of biological constraints; augmentation is the logical continuation of this journey.",
+                        "Enhancing cognitive or physical traits is a proactive expression of morphological freedom, allowing individuals to define their own version of flourishing."
+            ],
+            "ideasB": [
+                        "Abandoning natural limits risks creating a permanent biological class divide and eroding the shared human experience of vulnerability and struggle.",
+                        "There is an inherent 'wisdom of the body' and of evolution; hubristic interference with the genetic lottery may lead to unforeseen and irreversible consequences."
+            ]
+},
+            {
+            "topic": "Long-termism vs present-focused ethics — which should guide our most consequential decisions?",
+            "sideA": "Long-termism",
+            "sideB": "Present-focused",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "Future people have the same moral value as those alive today; we must prioritize the mitigation of existential risks to ensure the flourishing of trillions of potential lives.",
+                        "Taking the 'long view' prevents the temporal parochialism that leads to the depletion of resources and the destabilization of the planetary biosystems."
+            ],
+            "ideasB": [
+                        "Fixating on speculative future scenarios can be an excuse to ignore the acute suffering and systemic injustices currently facing the living.",
+                        "The future is fundamentally unpredictable; our primary responsibility is to create a just and resilient present, which is the only reliable foundation for any future."
+            ]
+},
+            {
+            "topic": "Animal rights vs human exceptionalism — on what grounds can different moral status ever be justified?",
+            "sideA": "Animal Rights",
+            "sideB": "Human Exceptionalism",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "The capacity for sentience and the experience of pain should be the only relevant criteria for moral consideration, regardless of species.",
+                        "Maintaining the human-animal hierarchy is an arbitrary form of 'speciesism' that justifies the systemic exploitation and industrial slaughter of conscious beings."
+            ],
+            "ideasB": [
+                        "Humans possess unique capacities for moral agency, self-reflection, and cultural creation that ground a distinct and superior moral status.",
+                        "The social contract and our deepest ethical obligations are fundamentally reciprocal; we have duties *regarding* animals, but not *to* them in the same sense as to other persons."
+            ]
+},
+            {
+            "topic": "Tragedy as the dominant mode of history vs comedy — which more accurately describes the human story?",
+            "sideA": "Tragedy",
+            "sideB": "Comedy",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "History is defined by the inevitable hubris of civilizations, the persistence of suffering, and the recurring failure of our most noble ideals.",
+                        "The tragic lens captures the gravity of human finitude and the 'unbearable lightness' of being in a world indifferent to our desires."
+            ],
+            "ideasB": [
+                        "The human story is one of absurd resilience, unexpected adaptation, and the persistent triumph of the 'small' over the 'grand' narrative.",
+                        "Viewing history as comedy allows for a more forgiving and life-affirming perspective on our shared follies and the inherent randomness of fate."
+            ]
+},
+            {
+            "topic": "Civilisational decline as inevitable vs contingent — are we doomed by structure or by choices?",
+            "sideA": "Inevitable",
+            "sideB": "Contingent",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Civilizations are organic entities subject to the same laws of entropy, resource depletion, and institutional calcification as any complex system.",
+                        "The 'iron law of oligarchy' and the accumulation of 'social fat' make the eventual collapse of large-scale societies a structural certainty."
+            ],
+            "ideasB": [
+                        "Decline is a result of specific political failures and cultural choices; we possess the reflexive capacity to learn from history and innovate our way out of crisis.",
+                        "Fatalism is a self-fulfilling prophecy; the belief in our agency is the primary prerequisite for the radical adaptation required to sustain civilization."
+            ]
+},
+            {
+            "topic": "The Socratic method vs just telling people the answer — is productive ignorance a kindness or a cruelty?",
+            "sideA": "Socratic Method",
+            "sideB": "Just telling the answer",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "True learning requires the active deconstruction of one's own assumptions; the discomfort of 'aporia' is the birth pang of genuine wisdom.",
+                        "Guided inquiry fosters the critical thinking skills and intellectual autonomy necessary for an adult to navigate a world of competing truths."
+            ],
+            "ideasB": [
+                        "Withholding known information can be a form of gatekeeping or intellectual elitism that wastes time and resources in an era of urgent challenges.",
+                        "Direct instruction is an act of epistemic generosity, providing the necessary foundations for others to build upon rather than forcing them to reinvent the wheel."
+            ]
+},
+            {
+            "topic": "The Ship of Theseus vs your childhood self — at what point does gradual replacement become a different person, and does it matter?",
+            "sideA": "Continuity of Self",
+            "sideB": "Radical Discontinuity",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Identity is not found in the material substrate, but in the continuity of the pattern—the stream of memories, values, and relational commitments.",
+                        "The self is a narrative project; as long as the story can be coherently told, the 'person' remains fundamentally the same across time."
+            ],
+            "ideasB": [
+                        "The radical physiological and psychological shifts between childhood and adulthood suggest that we are a succession of different beings linked by a mere label.",
+                        "Accepting the 'death' of our former selves allows for a more authentic engagement with the person we are becoming, free from the burden of an illusory permanence."
+            ]
+},
+            {
+            "topic": "Infinite wisdom vs infinite contentment — if forced to choose, which would constitute the better life and why can't we have both?",
+            "sideA": "Infinite Wisdom",
+            "sideB": "Infinite Contentment",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "The pursuit of truth is the highest human calling; a life of blissful ignorance is a diminished existence that lacks genuine dignity and agency.",
+                        "Wisdom allows for a profound, if often painful, engagement with the reality of the world, which is inherently more valuable than a state of manufactured serenity."
+            ],
+            "ideasB": [
+                        "The ultimate goal of all striving is the cessation of suffering; contentment is the only state that offers a final and absolute resolution to the human condition.",
+                        "A life of peace and satisfaction is the only rational choice; wisdom that brings only misery is a self-defeating burden rather than a virtue."
+            ]
+},
+            {
+            "topic": "The word \"moist\" vs the concept of \"moist\" — is widespread phonaesthetic aversion a linguistic phenomenon or a cultural one?",
+            "sideA": "Linguistic",
+            "sideB": "Cultural",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "The physical articulation of the word—the combination of the nasal 'm' and the 'oi' diphthong—triggers an inherent sensory discomfort regardless of meaning.",
+                        "Phonaesthesia suggests a deep-coded relationship between sound and feeling; certain phonemes possess a natural 'texture' that can be universally repellant."
+            ],
+            "ideasB": [
+                        "The aversion is entirely socially constructed, driven by the word's association with bodily fluids and a collective 'meme-ification' of the disgust.",
+                        "Language is an arbitrary system of signs; no sound is inherently 'gross' without the psychological baggage of cultural taboo and context."
+            ]
+},
+            {
+            "topic": "Being right and ignored vs being wrong and celebrated — which is the more accurate description of the human condition?",
+            "sideA": "Right and Ignored",
+            "sideB": "Wrong and Celebrated",
+            "level": "proficiency",
+            "theme": "ontology_metaphysics_C2",
+            "ideasA": [
+                        "Truth is often inconvenient or aesthetically unpleasing, leading to the systemic marginalization of those who refuse to flatter the consensus.",
+                        "The history of science and philosophy is a long record of 'prophets in their own land' whose insights were only recognized long after their destruction."
+            ],
+            "ideasB": [
+                        "Social cohesion and the 'agreeable lie' are more vital to human survival than cold, objective facts; we are evolved for status rather than for truth.",
+                        "The charismatic delivery of a falsehood often carries more social utility and persuasive power than the clumsy articulation of a reality."
+            ]
+},
+            {
+            "topic": "Hot takes vs no takes — in an age of epistemic saturation, is silence the most radical intellectual act?",
+            "sideA": "Hot Takes",
+            "sideB": "No Takes",
+            "level": "proficiency",
+            "theme": "epistemology_truth_C2",
+            "ideasA": [
+                        "The rapid-fire exchange of provocative opinions is a vital form of intellectual play and a way to stress-test ideas in a hyper-connected public square.",
+                        "Even 'shallow' engagement is better than withdrawal; the friction of competing perspectives is the only way to spark genuine collective insight."
+            ],
+            "ideasB": [
+                        "The constant demand for 'reaction' erodes the capacity for deep thought; the refusal to have an immediate opinion is an act of cognitive sovereignty.",
+                        "Strategic silence counters the 'attention economy' and prevents the dilution of discourse into a performance of performative certainty."
+            ]
+},
+            {
+            "topic": "Procrastination as pathology vs procrastination as philosophy — is delayed action ever the wisest form of agency?",
+            "sideA": "Pathology",
+            "sideB": "Philosophy",
+            "level": "proficiency",
+            "theme": "work_identity_meaning_C2",
+            "ideasA": [
+                        "Chronic delay is a failure of self-regulation and a form of self-sabotage that causes immense psychological distress and reduces societal contribution.",
+                        "The 'optimistic' procrastinator is trapped in a cycle of avoidance that prevents the mastery and achievement necessary for a flourishing adult life."
+            ],
+            "ideasB": [
+                        "Delaying action allows for the subconscious 'incubation' of ideas and ensures that we only commit our limited energy to what truly matters.",
+                        "Procrastination can be a radical refusal to submit to the artificial 'urgency' of the market, preserving the space for a more organic and contemplative life."
+            ]
+}];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
