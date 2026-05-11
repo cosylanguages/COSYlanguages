@@ -1,14 +1,5 @@
 (function() {
     const data = [{
-                "topic": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?",
-                "sideA": "Remoto",
-                "sideB": "Ufficio",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["Si risparmia tempo e denaro perché non c'è il pendolarismo quotidiano.", "Permette un programma più flessibile per gestire le attività personali."],
-                "ideasB": ["La comunicazione faccia a faccia rende il lavoro di squadra molto più veloce e semplice.", "Lavorare in ufficio aiuta a separare la vita professionale da quella privata."]
-            },
-            {
                 "topic": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?",
                 "sideA": "Sicurezza",
                 "sideB": "Crescita",
@@ -16,24 +7,6 @@
                 "theme": "career_development_B1",
                 "ideasA": ["Un lavoro stabile riduce lo stress riguardo ai soldi e al futuro.", "È meglio per pianificare obiettivi a lungo termine come comprare una casa."],
                 "ideasB": ["Prendersi dei rischi può portare a migliori opportunità e a uno stipendio più alto.", "Cambiare spesso lavoro aiuta a imparare nuove competenze più velocemente."]
-            },
-            {
-                "topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?",
-                "sideA": "Propria attività",
-                "sideB": "Dipendente",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["Hai la libertà di prendere le tue decisioni ed essere il capo di te stesso.", "Non c'è limite a quanto puoi guadagnare se hai successo."],
-                "ideasB": ["Lavorare per un'azienda offre un reddito costante e benefici.", "Non devi preoccuparti dell'amministrazione e dei rischi di un'impresa."]
-            },
-            {
-                "topic": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?",
-                "sideA": "Ambizione",
-                "sideB": "Equilibrio",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["Essere ambiziosi aiuta a raggiungere il vertice del proprio settore.", "Il duro lavoro è necessario se si vuole avere un grande impatto sul mondo."],
-                "ideasB": ["Passare del tempo con la famiglia e gli amici è più importante per la felicità.", "Il burnout può accadere se ci si concentra solo sulla carriera per troppo tempo."]
             },
             {
                 "topic": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?",
@@ -153,33 +126,6 @@
                 "ideasB": ["Stare vicino alla famiglia offre una rete di supporto per crescere i figli.", "È importante mantenere le proprie radici culturali e stare vicino ai vecchi amici."]
             },
             {
-                "topic": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?",
-                "sideA": "Fisica",
-                "sideB": "Mentale",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Un corpo forte è la base per una vita lunga e attiva.", "L'esercizio regolare aiuta a prevenire molte malattie gravi."],
-                "ideasB": ["Il benessere mentale è essenziale per la felicità e le buone relazioni.", "Se non sei mentalmente sano, è difficile prendersi cura del proprio corpo."]
-            },
-            {
-                "topic": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?",
-                "sideA": "Privata",
-                "sideB": "Pubblica",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["L'assicurazione privata offre solitamente tempi di attesa più brevi e strutture migliori.", "Hai più scelta riguardo a quali medici e specialisti consultare."],
-                "ideasB": ["Un sistema pubblico è più equo perché fornisce cure a tutti, indipendentemente dai soldi.", "L'assistenza sanitaria essenziale dovrebbe essere un diritto, non qualcosa da comprare."]
-            },
-            {
-                "topic": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?",
-                "sideA": "Controlli regolari",
-                "sideB": "Solo se malati",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["La prevenzione è meglio della cura perché puoi individuare i problemi in anticipo.", "Controlli regolari possono darti tranquillità riguardo alla tua salute."],
-                "ideasB": ["Non dovresti sprecare il tempo del medico se ti senti perfettamente bene.", "I nostri corpi possono spesso guarire da soli senza interventi medici."]
-            },
-            {
                 "topic": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?",
                 "sideA": "Meno alcol",
                 "sideB": "Meno stress",
@@ -187,15 +133,6 @@
                 "theme": "mental_health_wellbeing_B1",
                 "ideasA": ["L'alcol è una tossina che colpisce direttamente il fegato, il cuore e il cervello.", "Eliminare l'alcol può migliorare rapidamente il sonno e i livelli di energia."],
                 "ideasB": ["Lo stress cronico è un killer silenzioso che causa molti problemi di salute moderni.", "Imparare a rilassarsi è più importante che preoccuparsi di cosa si beve."]
-            },
-            {
-                "topic": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?",
-                "sideA": "Libertà",
-                "sideB": "Responsabilità",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Gli adulti dovrebbero essere liberi di vivere la propria vita come preferiscono.", "La libertà individuale è il valore più importante in una società moderna."],
-                "ideasB": ["Abbiamo tutti il dovere di aiutare i nostri vicini e migliorare la nostra comunità.", "Una società funziona bene solo se tutti pensano al bene comune."]
             },
             {
                 "topic": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?",
@@ -216,24 +153,6 @@
                 "ideasB": ["Prendersi cura della propria famiglia ed essere una brava persona è sufficiente.", "Cercare di cambiare il mondo è spesso irrealistico e porta alla frustrazione."]
             },
             {
-                "topic": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?",
-                "sideA": "Volontariato",
-                "sideB": "Donare denaro",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Dedicare il proprio tempo permette di vedere direttamente l'impatto del proprio aiuto.", "Il volontariato aiuta a conoscere nuove persone e nuove prospettive."],
-                "ideasB": ["Le organizzazioni benefiche possono usare i soldi per acquistare risorse professionali.", "Donare è più efficiente se hai un lavoro impegnativo e uno stipendio alto."]
-            },
-            {
-                "topic": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?",
-                "sideA": "Seguire",
-                "sideB": "Mettere in discussione",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["I valori tradizionali forniscono una base stabile per una società di successo.", "Rispettare la saggezza degli anziani aiuta a mantenere l'armonia sociale."],
-                "ideasB": ["Ogni generazione dovrebbe decidere quali valori sono ancora rilevanti oggi.", "Mettere in discussione lo status quo è necessario per il progresso."]
-            },
-            {
                 "topic": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?",
                 "sideA": "Saperlo",
                 "sideB": "Non saperlo",
@@ -241,15 +160,6 @@
                 "theme": "career_development_B1",
                 "ideasA": ["Sapere gli stipendi aiuta a garantire che tutti siano pagati equamente.", "La trasparenza riduce il divario retributivo di genere e incoraggia l'onestà."],
                 "ideasB": ["Il denaro è una questione privata e parlarne può causare gelosie.", "La privacy evita inutili competizioni e tensioni tra colleghi."]
-            },
-            {
-                "topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?",
-                "sideA": "Subito",
-                "sideB": "Con calma",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Rispondere rapidamente mostra che rispetti il tempo dell'altra persona.", "In un mondo veloce, la comunicazione immediata è necessaria per l'efficienza."],
-                "ideasB": ["Prendersi il proprio tempo permette di dare una risposta più ponderata e migliore.", "È importante avere dei confini e non essere schiavi del telefono."]
             },
             {
                 "topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?",
@@ -277,21 +187,6 @@
                 "theme": "society_community_B1",
                 "ideasA": ["Discutere di soldi con gli amici aiuta tutti a fare scelte finanziarie migliori.", "Essere aperti sui costi rende più facile pianificare attività insieme."],
                 "ideasB": ["Il denaro può creare una divisione tra amici che guadagnano cifre diverse.", "È più educato tenere i dettagli finanziari per sé nelle situazioni sociali."]
-            },
-            {
-                "topic": "Lavoro da casa vs Lavoro in ufficio",
-                "sideA": "Casa",
-                "sideB": "Ufficio",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": [
-                    "Puoi concentrarti meglio a casa senza il rumore di un ufficio affollato.",
-                    "È più facile mantenersi in salute cucinando il proprio pranzo a casa."
-                ],
-                "ideasB": [
-                    "L'ambiente dell'ufficio incoraggia la creatività attraverso idee spontanee.",
-                    "Separare lavoro e casa aiuta a 'staccare la spina' a fine giornata."
-                ]
             },
             {
                 "topic": "Auto elettriche vs Auto a benzina",

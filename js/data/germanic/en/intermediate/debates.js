@@ -1,14 +1,5 @@
 (function() {
     const data = [{
-                "topic": "Remote work vs office work — which is better for productivity and wellbeing?",
-                "sideA": "Remote",
-                "sideB": "Office",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["You save time and money because there is no daily commute.", "It allows for a more flexible schedule to manage personal tasks."],
-                "ideasB": ["Face-to-face communication makes teamwork much faster and easier.", "Working in an office helps you separate your professional and private life."]
-            },
-            {
                 "topic": "Job security vs career growth — which should adults prioritise?",
                 "sideA": "Security",
                 "sideB": "Growth",
@@ -16,24 +7,6 @@
                 "theme": "career_development_B1",
                 "ideasA": ["A stable job reduces stress about money and your future.", "It is better for planning long-term goals like buying a house."],
                 "ideasB": ["Taking risks can lead to better opportunities and a higher salary.", "Changing jobs often helps you learn new skills more quickly."]
-            },
-            {
-                "topic": "Starting your own business vs working for an employer — which is the better choice at 30?",
-                "sideA": "Own business",
-                "sideB": "Working for employer",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["You have the freedom to make your own decisions and be your own boss.", "There is no limit to how much money you can earn if you are successful."],
-                "ideasB": ["Working for a company provides a steady income and benefits.", "You don't have to worry about the administration and risks of a business."]
-            },
-            {
-                "topic": "Ambition vs work-life balance — can you really have both?",
-                "sideA": "Ambition",
-                "sideB": "Balance",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["Being ambitious helps you reach the top of your field and achieve great things.", "Hard work is necessary if you want to make a big impact on the world."],
-                "ideasB": ["Spending time with family and friends is more important for happiness.", "Burnout can happen if you focus only on your career for too long."]
             },
             {
                 "topic": "Networking vs skill-building — which advances your career more?",
@@ -153,33 +126,6 @@
                 "ideasB": ["Being near family provides a support network for raising children.", "It is important to keep your cultural roots and stay close to old friends."]
             },
             {
-                "topic": "Prioritising physical health vs mental health — which should adults focus on first?",
-                "sideA": "Physical",
-                "sideB": "Mental",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["A strong body is the foundation for a long and active life.", "Regular exercise helps prevent many serious diseases and illnesses."],
-                "ideasB": ["Mental wellbeing is essential for happiness and good relationships.", "If you are not mentally healthy, it is difficult to take care of your body."]
-            },
-            {
-                "topic": "Private healthcare vs relying on the public system — which is the better adult strategy?",
-                "sideA": "Private",
-                "sideB": "Public",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Private insurance usually offers shorter waiting times and better facilities.", "You have more choice about which doctors and specialists you see."],
-                "ideasB": ["A public system is fairer because it provides care for everyone, regardless of money.", "Essential healthcare should be a right, not something you have to buy."]
-            },
-            {
-                "topic": "Regular medical check-ups vs only going when ill — which is the smarter approach?",
-                "sideA": "Regular checks",
-                "sideB": "Only when ill",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Prevention is better than cure because you can catch problems early.", "Regular check-ups can give you peace of mind about your health."],
-                "ideasB": ["You shouldn't waste the doctor's time if you are feeling perfectly fine.", "Our bodies can often heal themselves without medical intervention."]
-            },
-            {
                 "topic": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?",
                 "sideA": "Reducing alcohol",
                 "sideB": "Reducing stress",
@@ -187,15 +133,6 @@
                 "theme": "mental_health_wellbeing_B1",
                 "ideasA": ["Alcohol is a toxin that affects your liver, heart, and brain directly.", "Cutting out alcohol can improve your sleep and energy levels quickly."],
                 "ideasB": ["Chronic stress is a silent killer that causes many modern health problems.", "Learning to relax is more important than worrying about what you drink."]
-            },
-            {
-                "topic": "Individual freedom vs community responsibility — which should guide adult decisions?",
-                "sideA": "Freedom",
-                "sideB": "Responsibility",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Adults should be free to live their lives however they choose.", "Individual liberty is the most important value in a modern society."],
-                "ideasB": ["We all have a duty to help our neighbors and improve our community.", "A society only works well if everyone thinks about the common good."]
             },
             {
                 "topic": "Optimism about the future vs realism — which is the more useful attitude for adults?",
@@ -216,24 +153,6 @@
                 "ideasB": ["Taking care of your family and being a good person is enough.", "Trying to change the world is often unrealistic and leads to frustration."]
             },
             {
-                "topic": "Volunteering your time vs donating money — which does more good?",
-                "sideA": "Volunteering",
-                "sideB": "Donating",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Giving your time allows you to see the impact of your help directly.", "Volunteering helps you meet new people and learn new perspectives."],
-                "ideasB": ["Charities can use money to buy professional help and resources.", "Donating is more efficient if you have a busy job and a high salary."]
-            },
-            {
-                "topic": "Following your generation's values vs questioning them — which is more admirable?",
-                "sideA": "Following",
-                "sideB": "Questioning",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Traditional values provide a stable foundation for a successful society.", "Respecting your elders' wisdom helps maintain social harmony."],
-                "ideasB": ["Each generation should decide which values are still relevant today.", "Questioning the status quo is necessary for progress and social change."]
-            },
-            {
                 "topic": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?",
                 "sideA": "Knowing",
                 "sideB": "Not knowing",
@@ -241,15 +160,6 @@
                 "theme": "career_development_B1",
                 "ideasA": ["Knowing salaries helps ensure that everyone is paid fairly for their work.", "Transparency reduces the gender pay gap and encourages honesty."],
                 "ideasB": ["Money is a private matter and talking about it can cause jealousy.", "Privacy prevents unnecessary competition and tension between colleagues."]
-            },
-            {
-                "topic": "Replying to messages immediately vs taking your time — which is more respectful in adult life?",
-                "sideA": "Immediately",
-                "sideB": "Taking time",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Replying quickly shows that you respect the other person's time.", "In a fast world, immediate communication is necessary for efficiency."],
-                "ideasB": ["Taking your time allows you to give a more thoughtful and better answer.", "It is important to have boundaries and not be a slave to your phone."]
             },
             {
                 "topic": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?",
@@ -277,21 +187,6 @@
                 "theme": "society_community_B1",
                 "ideasA": ["Discussing money with friends helps everyone make better financial choices.", "Being open about costs makes it easier to plan activities together."],
                 "ideasB": ["Money can create a divide between friends who earn different amounts.", "It is more polite to keep financial details to yourself in social situations."]
-            },
-            {
-                "topic": "Work from home vs. Office work",
-                "sideA": "Home",
-                "sideB": "Office",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": [
-                    "You can focus better at home without the noise of a busy office.",
-                    "It is easier to stay healthy by cooking your own lunch at home."
-                ],
-                "ideasB": [
-                    "The office environment encourages creativity through spontaneous ideas.",
-                    "Separating work and home helps you 'switch off' at the end of the day."
-                ]
             },
             {
                 "topic": "Electric cars vs. Petrol cars",

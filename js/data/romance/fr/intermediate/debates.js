@@ -1,14 +1,5 @@
 (function() {
     const data = [{
-                "topic": "Travail à distance vs travail au bureau — qu'est-ce qui est le mieux pour la productivité et le bien-être ?",
-                "sideA": "À distance",
-                "sideB": "Bureau",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["On économise du temps et de l'argent car il n'y a pas de trajet quotidien.", "Cela permet un emploi du temps plus flexible pour gérer les tâches personnelles."],
-                "ideasB": ["La communication en face à face rend le travail d'équipe beaucoup plus rapide et facile.", "Travailler dans un bureau aide à séparer la vie professionnelle de la vie privée."]
-            },
-            {
                 "topic": "Sécurité d'emploi vs évolution de carrière — sur quoi les adultes devraient-ils donner la priorité ?",
                 "sideA": "Sécurité",
                 "sideB": "Croissance",
@@ -16,24 +7,6 @@
                 "theme": "career_development_B1",
                 "ideasA": ["Un emploi stable réduit le stress lié à l'argent et à l'avenir.", "C'est mieux pour planifier des objectifs à long terme comme l'achat d'une maison."],
                 "ideasB": ["Prendre des risques peut mener à de meilleures opportunités et à un salaire plus élevé.", "Changer souvent d'emploi aide à apprendre de nouvelles compétences plus rapidement."]
-            },
-            {
-                "topic": "Créer sa propre entreprise vs travailler pour un employeur — quel est le meilleur choix à 30 ans ?",
-                "sideA": "Propre entreprise",
-                "sideB": "Employeur",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["Vous avez la liberté de prendre vos propres décisions et d'être votre propre patron.", "Il n'y a pas de limite à ce que vous pouvez gagner si vous réussissez."],
-                "ideasB": ["Travailler pour une entreprise offre un revenu régulier et des avantages.", "Vous n'avez pas à vous soucier de l'administration et des risques d'une entreprise."]
-            },
-            {
-                "topic": "Ambition vs équilibre vie-travail — peut-on vraiment avoir les deux ?",
-                "sideA": "Ambition",
-                "sideB": "Équilibre",
-                "level": "intermediate",
-                "theme": "career_development_B1",
-                "ideasA": ["Être ambitieux aide à atteindre le sommet de son domaine.", "Le travail acharné est nécessaire si l'on veut avoir un grand impact sur le monde."],
-                "ideasB": ["Passer du temps avec sa famille et ses amis est plus important pour le bonheur.", "Le burnout peut arriver si l'on se concentre uniquement sur sa carrière trop longtemps."]
             },
             {
                 "topic": "Réseautage vs développement des compétences — qu'est-ce qui fait progresser le plus votre carrière ?",
@@ -153,33 +126,6 @@
                 "ideasB": ["Rester proche de la famille offre un réseau de soutien pour élever les enfants.", "Il est important de garder ses racines culturelles et de rester proche de ses anciens amis."]
             },
             {
-                "topic": "Donner la priorité à la santé physique vs la santé mentale — sur quoi les adultes devraient-ils se concentrer en premier ?",
-                "sideA": "Physique",
-                "sideB": "Mentale",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["Un corps fort est la base d'une vie longue et active.", "L'exercice régulier aide à prévenir de nombreuses maladies graves."],
-                "ideasB": ["Le bien-être mental est essentiel pour le bonheur et de bonnes relations.", "Si vous n'êtes pas en bonne santé mentale, il est difficile de prendre soin de votre corps."]
-            },
-            {
-                "topic": "Santé privée vs s'appuyer sur le système public — quelle est la meilleure stratégie pour un adulte ?",
-                "sideA": "Privée",
-                "sideB": "Publique",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["L'assurance privée offre généralement des délais d'attente plus courts et de meilleures installations.", "Vous avez plus de choix concernant les médecins et les spécialistes que vous consultez."],
-                "ideasB": ["Un système public est plus juste car il fournit des soins à tous, peu importe l'argent.", "Les soins de santé essentiels devraient être un droit, pas quelque chose à acheter."]
-            },
-            {
-                "topic": "Contrôles médicaux réguliers vs n'y aller que lorsqu'on est malade — quelle est l'approche la plus intelligente ?",
-                "sideA": "Contrôles réguliers",
-                "sideB": "Seulement si malade",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1",
-                "ideasA": ["La prévention est meilleure que la guérison car on peut détecter les problèmes tôt.", "Des contrôles réguliers peuvent vous apporter la tranquillité d'esprit concernant votre santé."],
-                "ideasB": ["Il ne faut pas faire perdre son temps au médecin si l'on se sent parfaitement bien.", "Notre corps peut souvent se guérir seul sans intervention médicale."]
-            },
-            {
                 "topic": "Réduire l'alcool vs réduire le stress — qu'est-ce qui a le plus d'impact sur la santé des adultes ?",
                 "sideA": "Moins d'alcool",
                 "sideB": "Moins de stress",
@@ -187,15 +133,6 @@
                 "theme": "mental_health_wellbeing_B1",
                 "ideasA": ["L'alcool est une toxine qui affecte directement le foie, le cœur et le cerveau.", "Arrêter l'alcool peut rapidement améliorer le sommeil et les niveaux d'énergie."],
                 "ideasB": ["Le stress chronique est un tueur silencieux qui cause de nombreux problèmes de santé modernes.", "Apprendre à se détendre est plus important que de s'inquiéter de ce que l'on boit."]
-            },
-            {
-                "topic": "Liberté individuelle vs responsabilité communautaire — qu'est-ce qui devrait guider les décisions des adultes ?",
-                "sideA": "Liberté",
-                "sideB": "Responsabilité",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Les adultes devraient être libres de vivre leur vie comme ils le souhaitent.", "La liberté individuelle est la valeur la plus importante dans une société moderne."],
-                "ideasB": ["Nous avons tous le devoir d'aider nos voisins et d'améliorer notre communauté.", "Une société ne fonctionne bien que si tout le monde pense au bien commun."]
             },
             {
                 "topic": "Optimisme pour l'avenir vs réalisme — quelle est l'attitude la plus utile pour les adultes ?",
@@ -216,24 +153,6 @@
                 "ideasB": ["Prendre soin de sa famille et être une bonne personne est suffisant.", "Essayer de changer le monde est souvent irréaliste et mène à la frustration."]
             },
             {
-                "topic": "Consacrer son temps au bénévolat vs donner de l'argent — qu'est-ce qui fait le plus de bien ?",
-                "sideA": "Bénévolat",
-                "sideB": "Dons",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Consacrer son temps permet de voir directement l'impact de son aide.", "Le bénévolat aide à rencontrer de nouvelles personnes et de nouvelles perspectives."],
-                "ideasB": ["Les associations peuvent utiliser l'argent pour acheter des ressources professionnelles.", "Donner est plus efficace si vous avez un travail prenant et un salaire élevé."]
-            },
-            {
-                "topic": "Suivre les valeurs de sa génération vs les remettre en question — qu'est-ce qui est le plus admirable ?",
-                "sideA": "Suivre",
-                "sideB": "Remettre en question",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Les valeurs traditionnelles fournissent une base stable pour une société réussie.", "Respecter la sagesse des anciens aide à maintenir l'harmonie sociale."],
-                "ideasB": ["Chaque génération devrait décider quelles valeurs sont encore pertinentes aujourd'hui.", "Remettre en question le statu quo est nécessaire pour le progrès."]
-            },
-            {
                 "topic": "Savoir combien vos collègues gagnent vs ne pas savoir — qu'est-ce qui est le mieux pour l'harmonie au bureau ?",
                 "sideA": "Savoir",
                 "sideB": "Ne pas savoir",
@@ -241,15 +160,6 @@
                 "theme": "career_development_B1",
                 "ideasA": ["Connaître les salaires aide à garantir que tout le monde est payé équitablement.", "La transparence réduit l'écart de rémunération entre les sexes et encourage l'honnêteté."],
                 "ideasB": ["L'argent est une question privée et en parler peut causer de la jalousie.", "La vie privée évite les compétitions inutiles et les tensions entre collègues."]
-            },
-            {
-                "topic": "Répondre aux messages immédiatement vs prendre son temps — qu'est-ce qui est le plus respectueux dans la vie adulte ?",
-                "sideA": "Immédiatement",
-                "sideB": "Prendre son temps",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": ["Répondre rapidement montre que vous respectez le temps de l'autre personne.", "Dans un monde rapide, la communication immédiate est nécessaire pour l'efficacité."],
-                "ideasB": ["Prendre son temps permet de donner une réponse plus réfléchie et meilleure.", "Il est important d'avoir des limites et de ne pas être l'esclave de son téléphone."]
             },
             {
                 "topic": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait — quelle est l'expérience adulte la plus courante ?",
@@ -277,21 +187,6 @@
                 "theme": "society_community_B1",
                 "ideasA": ["Discuter d'argent avec ses amis aide tout le monde à faire de meilleurs choix financiers.", "Être ouvert sur les coûts facilite la planification d'activités ensemble."],
                 "ideasB": ["L'argent peut créer une division entre amis qui gagnent des sommes différentes.", "Il est plus poli de garder les détails financiers pour soi dans les situations sociales."]
-            },
-            {
-                "topic": "Télétravail vs Travail au bureau",
-                "sideA": "Télétravail",
-                "sideB": "Bureau",
-                "level": "intermediate",
-                "theme": "society_community_B1",
-                "ideasA": [
-                    "On peut mieux se concentrer à la maison sans le bruit d'un bureau bondé.",
-                    "Il est plus facile de rester en bonne santé en cuisinant son propre déjeuner."
-                ],
-                "ideasB": [
-                    "L'environnement de bureau encourage la créativité grâce aux idées spontanées.",
-                    "Séparer le travail et la maison aide à 'débrancher' en fin de journée."
-                ]
             },
             {
                 "topic": "Voitures électriques vs Voitures à essence",
