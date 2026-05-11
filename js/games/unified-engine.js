@@ -21,7 +21,11 @@
         if (!family) return;
 
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
-        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js', 'people.js', 'nationalities.js', 'adjectives.js', 'dishes.js', 'locations.js'];
+        const files = [
+            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
+            'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
+            'locations.js', 'people.js', 'nationalities.js'
+        ];
         const promises = files.map(file => {
             const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
@@ -37,24 +41,63 @@
             });
         });
 
+        // Language-root files
+        const rootFiles = ['phrases.js', 'alphabets.js'];
+        rootFiles.forEach(file => {
+            const path = `../js/data/${family}/${lang.toLowerCase()}/${file}`;
+            if (!document.querySelector(`script[src*="${path}"]`)) {
+                promises.push(new Promise((resolve) => {
+                    const s = document.createElement('script');
+                    s.src = path;
+                    s.onload = () => resolve();
+                    s.onerror = () => resolve();
+                    document.head.appendChild(s);
+                }));
+            }
+        });
+
         await Promise.all(promises);
     }
 
     function getGameData(targetLang) {
         const lang = targetLang || localStorage.getItem('language') || 'en';
+        const isEnglishFallback = lang !== 'en' && (!window.gameData || !window.gameData[lang]);
+
         // Attempt to get specific language data, fallback to English
-        const data = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinion: [], battle: [], critic: [] });
+        const source = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinion: [], battle: [], critic: [] });
+
+        // Clone to prevent mutation of the global gameData
+        const data = JSON.parse(JSON.stringify(source));
 
         // Merge specialized speaking data if available
         const s = window.speakingData?.[lang] || {};
-        if (s.talkThatTalk) data.fluency = [...(data.fluency || []), ...s.talkThatTalk.map(d => d.topic)];
-        if (s.opinions) data.opinion = [...(data.opinion || []), ...s.opinions.map(d => d.topic)];
-        if (s.debates) data.battle = [...(data.battle || []), ...s.debates];
-        if (s.quotes) data.critic = [...(data.critic || []), ...s.quotes.map(d => d.topic)];
+        const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || '');
+
+        const mergeOrReplace = (key, specializedArray) => {
+            if (!specializedArray || specializedArray.length === 0) return;
+            const items = specializedArray.map(item => key === 'battle' ? item : extractText(item));
+            if (isEnglishFallback) {
+                data[key] = items;
+            } else {
+                data[key] = [...(data[key] || []), ...items];
+            }
+        };
+
+        mergeOrReplace('fluency', s.talkThatTalk);
+        mergeOrReplace('opinion', s.opinions);
+        mergeOrReplace('battle', s.debates);
+        mergeOrReplace('critic', s.quotes);
 
         // Dynamic extraction from window.vocabularyData for specific games
         // This ensures the games are "naturally" multilingual if vocabulary is loaded
-        const vocab = (window.vocabularyData && window.vocabularyData[lang]) ? window.vocabularyData[lang] : [];
+        let vocab = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
+
+        // Enrichment from phrasesData
+        if (window.phrasesData && window.phrasesData[lang]) {
+            Object.values(window.phrasesData[lang]).flat().forEach(p => {
+                vocab.push({ word: p.phrase, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
+            });
+        }
 
         if (vocab.length > 0) {
             // Identity Mystery enrichment: use professions if they exist
@@ -62,7 +105,10 @@
                 person: (v.article ? v.article + ' ' : '') + v.word,
                 clue: v.definitions && v.definitions[0] ? v.definitions[0].text : ''
             }));
-            if (professions.length > 5) data.identity = professions;
+            if (professions.length > 5) {
+                if (isEnglishFallback) data.identity = professions;
+                else data.identity = [...(data.identity || []), ...professions];
+            }
 
             // Action Hero enrichment
             const themes = {
@@ -76,7 +122,8 @@
                 const words = vocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
                 if (words.length > 10) {
                     if (!data.action) data.action = {};
-                    data.action[lvl] = words;
+                    if (isEnglishFallback) data.action[lvl] = words;
+                    else data.action[lvl] = [...(data.action[lvl] || []), ...words];
                 }
             }
         }
@@ -247,7 +294,7 @@
         const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷','Deutsch 🇩🇪','Español 🇪🇸','Português 🇵🇹','Հայերեն 🇦🇲','ქართული 🇬🇪','Татарча','Башҡортса','Brezhoneg'];
         const DUR_OPTS  = ['1 minute','2 minutes','3 minutes','5 minutes'];
         const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
-        const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)'];
+        const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)', 'Alphabet (A-Z)', 'Listening Practice 👂'];
 
         if (id === 'fluency') {
           body.innerHTML = `
@@ -317,13 +364,13 @@
                 <select class="styled-sel" id="s-cat">
                   <option value="all">All vocabulary</option>
                   <option value="verbs">Verbs 🏃‍♂️</option>
-                  <option value="animals">Animals 🐾</option>
-                  <option value="food">Food & Drink 🍕</option>
-                  <option value="places">Places 🌍</option>
-                  <option value="home">Home 🏠</option>
-                  <option value="clothes">Clothes 👕</option>
-                  <option value="nature">Nature 🌿</option>
-                  <option value="health">Health 🏥</option>
+                  <option value="group:environment_nature">Animals & Nature 🐾</option>
+                  <option value="group:food_drink">Food & Drink 🍕</option>
+                  <option value="group:places_geography">Places & Geography 🌍</option>
+                  <option value="group:home_living">Home & Objects 🏠</option>
+                  <option value="group:clothes_appearance">Clothes & Appearance 👕</option>
+                  <option value="group:health_body">Health & Body 🏥</option>
+                  <option value="group:sport_leisure">Sport & Leisure ⚽</option>
                 </select>
               </div>
               <div class="setup-field"><label>Level</label>
@@ -428,12 +475,12 @@
               <div class="setup-field"><label>Category</label>
                 <select class="styled-sel" id="s-cat">
                   <option value="all">All objects</option>
-                  <option value="animals">Animals 🐾</option>
-                  <option value="food">Food & Drink 🍕</option>
-                  <option value="places">Places 🌍</option>
-                  <option value="home">Home & Gadgets 🏠</option>
-                  <option value="clothes">Clothes & Accessories 👕</option>
-                  <option value="nature">Nature 🌿</option>
+                  <option value="group:environment_nature">Animals & Nature 🐾</option>
+                  <option value="group:food_drink">Food & Drink 🍕</option>
+                  <option value="group:places_geography">Places & Geography 🌍</option>
+                  <option value="group:home_living">Home & Gadgets 🏠</option>
+                  <option value="group:clothes_appearance">Clothes & Accessories 👕</option>
+                  <option value="group:health_body">Body Parts & Health 🏥</option>
                 </select>
               </div>
               <div class="setup-field"><label>Level</label>
@@ -767,16 +814,7 @@
             if (category === 'verbs') {
                 pool = (window.verbsData && window.verbsData[lang]) ? window.verbsData[lang].map(v => v.word) : [];
             } else if (category !== 'all') {
-                const map = {
-                    'home': ['home', 'house', 'gadget', 'furniture'],
-                    'food': ['food', 'drink', 'dish', 'meal'],
-                    'places': ['place', 'location', 'city', 'town'],
-                    'clothes': ['cloth', 'wear', 'accessory', 'jewelry'],
-                    'nature': ['nature', 'environment', 'weather', 'animal'],
-                    'health': ['health', 'body', 'medical', 'doctor']
-                };
-                const keywords = map[category] || [category];
-                pool = vocab.filter(v => v.theme && keywords.some(k => v.theme.toLowerCase().includes(k))).map(v => v.word);
+                pool = vocab.filter(v => v.theme && window.gameUtils.isThemeMatch(v.theme, category)).map(v => v.word);
             }
 
             if (pool.length < 5) {
@@ -1194,15 +1232,7 @@
             const personKeywords = ['profession', 'job', 'people', 'person', 'nationality', 'famous'];
             let objects = vocab.filter(v => v.theme && !personKeywords.some(k => v.theme.toLowerCase().includes(k)));
             if (category !== 'all') {
-                const map = {
-                    'home': ['home', 'house', 'gadget', 'furniture'],
-                    'food': ['food', 'drink', 'dish', 'meal'],
-                    'places': ['place', 'location', 'city', 'town'],
-                    'clothes': ['cloth', 'wear', 'accessory', 'jewelry'],
-                    'nature': ['nature', 'environment', 'weather', 'animal']
-                };
-                const keywords = map[category] || [category];
-                objects = objects.filter(v => v.theme && keywords.some(k => v.theme.toLowerCase().includes(k)));
+                objects = objects.filter(v => v.theme && window.gameUtils.isThemeMatch(v.theme, category));
             }
 
             if (objects.length < 5) { showFB(body, 'bad', 'Not enough vocabulary in this category.'); return; }
@@ -1344,11 +1374,13 @@
             const level = 'starter';
             await loadLevelData(lang, level);
 
+            const isListening = type.includes('Listening');
+
             if (role === 'caller') {
                 body.innerHTML = `
                     <div class="game-card" style="text-align:center">
                         <div class="game-label">📣 Lucky Caller</div>
-                        <div class="game-prompt" id="bingo-call" style="font-size:5rem">---</div>
+                        <div class="game-prompt" id="bingo-call" style="font-size:5rem">${isListening ? '👂' : '---'}</div>
                         <div class="game-sub" id="bingo-call-word">Get ready to call!</div>
                         <div class="game-controls" style="justify-content:center; margin-top:2rem">
                             <button class="btn-g-primary" onclick="COSY_ENGINE.bingoNext()">Next Item 🎲</button>
@@ -1358,13 +1390,33 @@
                     </div>`;
 
                 let pool = [];
-                if (type.includes('Alphabet')) pool = shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''));
-                else pool = shuffle(Array.from({length:100}, (_,i)=>i));
+                if (type.includes('Alphabet')) {
+                    const alpha = (window.alphabetsData && window.alphabetsData[lang]) ? window.alphabetsData[lang].split('') : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+                    pool = shuffle(alpha);
+                } else if (type.includes('Bingo 1')) {
+                    pool = shuffle(Array.from({length: 10}, (_, i) => i));
+                } else if (type.includes('Bingo 2')) {
+                    pool = shuffle(Array.from({length: 10}, (_, i) => i + 10));
+                } else if (type.includes('Bingo 3')) {
+                    pool = shuffle(Array.from({length: 80}, (_, i) => i + 20));
+                } else {
+                    pool = shuffle(Array.from({length: 100}, (_, i) => i));
+                }
 
                 window.COSY_ENGINE.bingoNext = () => {
-                    if (!pool.length) return;
+                    if (!pool.length) {
+                        document.getElementById('bingo-call-word').textContent = 'Pool empty!';
+                        return;
+                    }
                     const item = pool.pop();
-                    document.getElementById('bingo-call').textContent = item;
+                    const callEl = document.getElementById('bingo-call');
+                    if (isListening) {
+                        callEl.textContent = '👂';
+                        callEl.onclick = () => { callEl.textContent = item; };
+                        callEl.style.cursor = 'pointer';
+                    } else {
+                        callEl.textContent = item;
+                    }
                     const hist = document.getElementById('bingo-history');
                     hist.textContent = (hist.textContent ? hist.textContent + ', ' : '') + item;
                     if (window.gameUtils?.speak) window.gameUtils.speak(item.toString(), lang);
@@ -1380,7 +1432,22 @@
                     </div>`;
 
                 const grid = document.getElementById('bingo-grid');
-                let nums = shuffle(Array.from({length:30}, (_,i)=>i)).slice(0,9).sort((a,b)=>a-b);
+                let pool = [];
+                if (type.includes('Alphabet')) {
+                    pool = (window.alphabetsData && window.alphabetsData[lang]) ? window.alphabetsData[lang].split('') : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+                } else if (type.includes('Bingo 1')) {
+                    pool = Array.from({length: 10}, (_, i) => i);
+                } else if (type.includes('Bingo 2')) {
+                    pool = Array.from({length: 10}, (_, i) => i + 10);
+                } else if (type.includes('Bingo 3')) {
+                    pool = Array.from({length: 80}, (_, i) => i + 20);
+                } else {
+                    pool = Array.from({length: 100}, (_, i) => i);
+                }
+
+                let nums = shuffle(pool).slice(0, 9);
+                if (!type.includes('Alphabet')) nums.sort((a, b) => a - b);
+
                 nums.forEach(n => {
                     const cell = document.createElement('div');
                     cell.className = 'word-opt';

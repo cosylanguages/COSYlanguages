@@ -5,20 +5,20 @@ test.beforeEach(async ({ page }) => {
 });
 
 const games = [
-    { id: 'fluency', title: 'Fluency Flow', setupText: 'Speak about it', levels: true },
+    { id: 'fluency', title: 'Fluency Flow', setupText: 'Duration', levels: true },
     { id: 'battle', title: 'Battle of Wits', setupText: 'Language', levels: true },
     { id: 'opinion', title: 'Opinion Arena', setupText: 'Language', levels: true },
     { id: 'critic', title: "Critic's Corner", setupText: 'Language', levels: true, minLevel: 'Intermediate (B1)' },
     { id: 'storychain', title: 'Story Chain', setupText: 'Language', levels: true },
     { id: 'hotseat', title: 'Hot Seat', setupText: 'Language', levels: true },
-    { id: 'action', title: 'Action Hero', setupText: 'Category', levels: true, categories: ['Verbs 🏃‍♂️', 'Animals 🐾'] },
+    { id: 'action', title: 'Action Hero', setupText: 'Category', levels: true, categories: ['Verbs 🏃‍♂️', 'Animals & Nature 🐾'] },
     { id: 'identity', title: 'Identity Mystery', setupText: 'Category', levels: true, categories: ['Famous People 🌟', 'Jobs & Professions 💼'] },
-    { id: 'objectquest', title: 'Object Quest', setupText: 'Category', levels: true, categories: ['Animals 🐾', 'Food & Drink 🍕'] },
+    { id: 'objectquest', title: 'Object Quest', setupText: 'Category', levels: true, categories: ['Animals & Nature 🐾', 'Food & Drink 🍕'] },
     { id: 'wordlinker', title: 'Word Linker', setupText: 'Mode', levels: true, modes: ['Odd One Out ❌', 'Common Connection 🔗'] },
-    { id: 'lastletter', title: 'Last Letter', setupText: 'category', levels: true },
+    { id: 'lastletter', title: 'Last Letter', setupText: 'Language', levels: true },
     { id: 'emoji', title: 'Emoji Odyssey', setupText: 'Mode', levels: true },
     { id: 'crossword', title: 'Cosy Crossword', setupText: 'Language', levels: true },
-    { id: 'bingo', title: 'Lucky Numbers', setupText: 'Role', levels: false, infoText: 'Level: Starter (A1)' }
+    { id: 'bingo', title: 'Lucky Numbers', setupText: 'Role', levels: false, infoText: 'Level: Starter (A1)', types: ['Alphabet (A-Z)', 'Listening Practice 👂'] }
 ];
 
 for (const game of games) {
@@ -69,6 +69,16 @@ for (const game of games) {
             const options = await modeSelector.locator('option').allTextContents();
             for (const mode of game.modes) {
                 expect(options).toContain(mode);
+            }
+        }
+
+        // Verify Bingo types
+        if (game.types) {
+            const typeSelector = page.locator('#s-type');
+            await expect(typeSelector).toBeVisible();
+            const options = await typeSelector.locator('option').allTextContents();
+            for (const type of game.types) {
+                expect(options).toContain(type);
             }
         }
 
