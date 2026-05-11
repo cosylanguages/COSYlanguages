@@ -12,7 +12,7 @@ const games = [
     { id: 'storychain', title: 'Story Chain', setupText: 'Language', levels: true },
     { id: 'hotseat', title: 'Hot Seat', setupText: 'Language', levels: true },
     { id: 'action', title: 'Action Hero', setupText: 'Level', levels: true },
-    { id: 'identity', title: 'Identity Mystery', setupText: 'Language', levels: true },
+    { id: 'identity', title: 'Identity Mystery', setupText: 'Language', levels: true, categories: true },
     { id: 'objectquest', title: 'Object Quest', setupText: 'Language', levels: true },
     { id: 'wordlinker', title: 'Word Linker', setupText: 'connection', levels: true },
     { id: 'lastletter', title: 'Last Letter', setupText: 'category', levels: true },
@@ -54,6 +54,16 @@ for (const game of games) {
             // Bingo case
             await expect(page.locator('#s-level')).not.toBeVisible();
             await expect(page.locator(`text=${game.infoText}`)).toBeVisible();
+        }
+
+        // Verify categories for Identity Mystery
+        if (game.categories) {
+            const catSelector = page.locator('#s-cat');
+            await expect(catSelector).toBeVisible();
+            const options = await catSelector.locator('option').allTextContents();
+            expect(options).toContain('Famous People 🌟');
+            expect(options).toContain('Jobs & Professions 💼');
+            expect(options).toContain('Nationalities 🌍');
         }
 
         // Close overlay

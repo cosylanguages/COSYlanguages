@@ -21,7 +21,7 @@
         if (!family) return;
 
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
-        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js'];
+        const files = ['vocabulary.js', 'verbs.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js', 'people.js', 'nationalities.js'];
         const promises = files.map(file => {
             const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
@@ -327,6 +327,14 @@
             <div class="setup-screen">
               <h2>Identity Mystery 👤</h2>
               <p>A profession or person is shown (only to the host). Other players ask yes/no questions to figure out who it is. Great for practising question structures.</p>
+              <div class="setup-field"><label>Category</label>
+                <select class="styled-sel" id="s-cat">
+                  <option value="all">All categories</option>
+                  <option value="people">Famous People 🌟</option>
+                  <option value="jobs">Jobs & Professions 💼</option>
+                  <option value="nationalities">Nationalities 🌍</option>
+                </select>
+              </div>
               <div class="setup-field"><label>Level</label>
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
@@ -788,9 +796,43 @@
         async startIdentity() {
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
+            const category = document.getElementById('s-cat')?.value || 'all';
             await loadLevelData(lang, level);
             const data = getGameData(lang);
-            const identity = pick(data.identity || [{person:'...', clue:'...'}]);
+
+            // Enrichment from vocabularyData based on category
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            let pool = data.identity || [];
+
+            if (vocab.length > 0) {
+                if (category === 'jobs' || category === 'all') {
+                    const jobs = vocab.filter(v => v.theme && (v.theme.includes('professions') || v.theme.includes('job')))
+                        .map(v => ({ person: (v.article ? v.article + ' ' : '') + v.word, clue: v.definitions?.[0]?.text || '' }));
+                    pool = [...pool, ...jobs];
+                }
+                if (category === 'people' || category === 'all') {
+                    const people = vocab.filter(v => v.theme && (v.theme.includes('people') || v.theme.includes('person')))
+                        .map(v => ({ person: v.word, clue: v.subtext || v.definitions?.[0]?.text || '' }));
+                    pool = [...pool, ...people];
+                }
+                if (category === 'nationalities' || category === 'all') {
+                    const nationals = vocab.filter(v => v.theme && v.theme.includes('nationality'))
+                        .map(v => ({ person: v.word, clue: v.definitions?.[0]?.text || '' }));
+                    pool = [...pool, ...nationals];
+                }
+            }
+
+            // Remove duplicates and empty clues
+            const uniquePool = [];
+            const seen = new Set();
+            pool.forEach(item => {
+                if (!seen.has(item.person) && item.person !== '...') {
+                    uniquePool.push(item);
+                    seen.add(item.person);
+                }
+            });
+
+            const identity = pick(uniquePool.length > 0 ? uniquePool : [{person:'Teacher', clue:'They help you learn.'}]);
             const body = document.getElementById('go-body');
             let questions = 0, maxQ = 20;
 
