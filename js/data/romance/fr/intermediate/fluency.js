@@ -1,14 +1,28 @@
 (function() {
-    const data = [{
-                "topic": "Une personne qui m'a inspiré",
-                "level": "intermediate",
-                "theme": "society_community_B1"
-            },
-            {
-                "topic": "L'importance de la sensibilisation à la santé mentale",
-                "level": "intermediate",
-                "theme": "mental_health_wellbeing_B1"
-            }];
+    const data = [
+        { t: "Une personne qui m'a inspiré", h: ["Qui est cette personne ?","Qu'a-t-elle fait ?","Comment a-t-elle changé votre perspective ?","Suivez-vous toujours son travail ou sa vie ?","Aimeriez-vous la rencontrer ?"] },
+        { t: "L'importance de la sensibilisation à la santé mentale", h: ["Pourquoi est-il important de parler de santé mentale ?","Est-ce devenu plus accepté récemment ?","Comment pouvons-nous soutenir les autres ?","Quels sont les idées reçues les plus courantes ?","Comment prenez-vous soin de votre propre santé mentale ?"] },
+        { t: "Un endroit où vous vous sentez chez vous", h: ["Est-ce une ville, une maison, un pays ?","Quand l'avez-vous ressenti pour la première fois ?","Qu'est-ce qui fait que vous vous y sentez chez vous ?","Est-ce un lieu ou un sentiment ?","Pensez-vous qu'on puisse avoir plusieurs 'chez-soi' ?"] },
+        { t: "Quelque chose sur lequel vous avez changé d'avis", h: ["Que pensiez-vous auparavant ?","Qu'est-ce qui a changé ?","Quand cela s'est-il produit ?","Était-ce un changement progressif ou soudain ?","Que ressentez-vous à ce sujet maintenant ?"] },
+        { t: "Ce qui fait un bon ami", h: ["Quelles qualités comptent le plus en amitié ?","Vos amis proches vous ressemblent-ils ou sont-ils différents ?","Les amitiés peuvent-elles changer avec l'âge ?","Qu'est-ce que vous ne toléreriez pas chez un ami ?","Est-il facile de se faire de vrais amis à l'âge adulte ?"] },
+        { t: "Quelque chose que vous auriez aimé apprendre plus tôt", h: ["De quoi s'agit-il ?","Pourquoi ne l'avez-vous pas appris plus tôt ?","En quoi votre vie serait-elle différente ?","Est-il trop tard pour l'apprendre maintenant ?","L'enseigneriez-vous à quelqu'un de plus jeune ?"] },
+        { t: "Une compétence que vous essayez d'améliorer", h: ["Quelle est cette compétence ?","Pourquoi avez-vous décidé d'y travailler ?","Comment vous entraînez-vous ?","Quelle est la partie la plus difficile ?","Quels progrès avez-vous accomplis ?"] },
+        { t: "Ce qui vous manque de votre enfance", h: ["Qu'est-ce qui vous manque sincèrement ?","Pensez-vous que l'enfance était plus facile ?","De quoi les enfants s'inquiétaient-ils que les adultes ne font pas ?","Que faisaient les adultes que vous ne compreniez pas alors mais comprenez maintenant ?","Y retourneriez-vous si vous le pouviez ?"] },
+        { t: "Votre journée de travail idéale", h: ["À quelle heure commenceriez-vous et finiriez-vous ?","Où travailleriez-vous ?","Avec qui travailleriez-vous ?","Que feriez-vous ?","À quel point est-ce différent de votre vraie journée de travail ?"] },
+        { t: "Comment votre vie a changé ces dernières années", h: ["Quel est le plus grand changement ?","Était-ce votre choix ?","Est-ce pour le mieux ?","Qu'est-ce qui est resté identique ?","Que pensez-vous qui changera ensuite ?"] },
+        { t: "Ce qui vous fait vous sentir le plus vivant", h: ["Y a-t-il un moment ou une activité qui vous donne toujours de l'énergie ?","Cela implique-t-il d'autres personnes ou de la solitude ?","À quelle fréquence ressentez-vous cela ?","Cela a-t-il changé avec le temps ?","Qu'est-ce qui vous empêche de le faire plus souvent ?"] },
+        { t: "Votre plus grande distraction", h: ["Qu'est-ce qui attire le plus facilement votre attention ?","Cela vous coûte-t-il du temps ou de l'énergie ?","Avez-vous essayé de changer cela ?","Est-ce totalement mauvais ou y a-t-il du bon ?","Que feriez-vous de ce temps si vous supprimiez cette distraction ?"] },
+        { t: "Un livre, un film ou une série qui vous a marqué", h: ["Comment s'appelait-il ?","De quoi s'agissait-il ?","Pourquoi cela vous a-t-il marqué ?","Cela a-t-il changé votre façon de penser ?","Le recommanderiez-vous et à qui ?"] },
+        { t: "Ce que 'chez soi' signifie pour vous", h: ["La maison est-elle une personne, un lieu ou un sentiment ?","Où vous sentez-vous le plus chez vous ?","Votre idée du chez-soi a-t-elle changé avec l'âge ?","Peut-on se sentir chez soi dans un nouvel endroit ?","Est-ce un endroit où l'on revient ou quelque chose que l'on porte en soi ?"] },
+        { t: "Quelque chose que vous faites différemment de la plupart des gens", h: ["De quoi s'agit-il ?","Quand avez-vous commencé à faire ainsi ?","Les gens vous ont-ils déjà posé des questions à ce sujet ?","Cela rend-il votre vie meilleure ?","Pensez-vous que tout le monde devrait faire comme vous ?"] },
+        { t: "Une habitude dont vous êtes fier", h: ["Quelle est cette habitude ?","Depuis combien de temps l'avez-vous ?","Comment l'avez-vous construite ?","Quelle différence cela fait-il ?","Quelqu'un vous a-t-il inspiré ?"] },
+        { t: "Un voyage qui vous a surpris", h: ["Où alliez-vous ?","Qu'est-ce qui vous a surpris ?","Était-ce le lieu, les gens ou ce qui s'est passé ?","Cela a-t-il changé vos plans ?","Y retourneriez-vous ?"] },
+        { t: "Votre relation avec les réseaux sociaux", h: ["Quelles plateformes utilisez-vous ?","Combien de temps y passez-vous ?","Cela affecte-t-il votre moral ?","Avez-vous déjà fait une pause ?","À quoi ressemblerait votre vie sans eux ?"] },
+        { t: "À quoi ressemble le succès pour vous", h: ["Comment définissez-vous le succès ?","Est-ce l'argent, le bonheur, les relations ?","Votre définition a-t-elle changé avec le temps ?","Vous considérez-vous comme ayant réussi ?","L'opinion des autres sur votre succès compte-t-elle ?"] },
+        { t: "Votre relation avec la nourriture", h: ["Cuisinez-vous souvent ?","La nourriture est-elle juste un carburant ou quelque chose de plus ?","Mangez-vous avec d'autres ou seul ?","Y a-t-il un aliment fortement lié à un souvenir ?","Votre relation avec la nourriture a-t-elle changé ?"] },
+        { t: "Quelque chose qui vous fait toujours rire", h: ["De quoi s'agit-il ?","Pourquoi pensez-vous que cela vous fait rire ?","Pouvez-vous rire de choses difficiles ?","Est-ce que vos amis et vous riez des mêmes choses ?","Votre sens de l'humour est-il différent selon la langue ?"] },
+        { t: "Un conseil que vous donneriez à vous-même plus jeune", h: ["Quel âge aurait votre 'moi' plus jeune ?","Quel serait le conseil ?","Pourquoi ne le saviez-vous pas alors ?","Pensez-vous que vous auriez écouté ?","Qui vous a donné le meilleur conseil de votre vie ?"] }
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
