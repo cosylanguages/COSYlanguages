@@ -75,7 +75,7 @@
 
         const mergeOrReplace = (key, specializedArray) => {
             if (!specializedArray || specializedArray.length === 0) return;
-            const items = specializedArray.map(item => key === 'battle' ? item : extractText(item));
+            const items = specializedArray.map(item => ['battle', 'fluency'].includes(key) ? item : extractText(item));
             if (isEnglishFallback) {
                 data[key] = items;
             } else {
@@ -573,6 +573,10 @@
             let running = false;
 
             const showTopic = () => {
+              const rawItem = pick(data.fluency || ['...']);
+              const topic = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
+              const hints = (rawItem.hints || rawItem.h || []);
+
               body.innerHTML = `
                 <div class="score-bar">
                   <div class="sb-item"><div class="sb-val" id="ff-score">${sessionScore}</div><div class="sb-lbl">Topics done</div></div>
@@ -580,7 +584,12 @@
                 </div>
                 <div class="game-card">
                   <div class="game-label">🗣️ Your topic</div>
-                  <div class="game-prompt" id="ff-topic">${pick(data.fluency || ['...'])}</div>
+                  <div class="game-prompt" id="ff-topic">${topic}</div>
+                  ${hints.length > 0 ? `
+                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
+                    <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
+                        ${hints.map(h => `<li>${h}</li>`).join('')}
+                    </ul>` : ''}
                   <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes — keep talking!</div>
                   ${renderTimerRing(dur, dur)}
                   <div class="game-controls">
