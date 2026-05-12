@@ -197,6 +197,10 @@
               ...(s.fluency || []),
               ...(s.quotes || [])
           ];
+          // Normalise Fluency Flow items for filtering
+          speakingData.forEach(d => {
+              if (d.t && !d.topic) d.topic = d.t;
+          });
           pool = speakingData.filter(d => (level === 'all' || d.level === level || !d.level) && (theme === 'all' || d.theme === theme || !d.theme));
       } else if (cat === 'Pronunciation') {
           const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;

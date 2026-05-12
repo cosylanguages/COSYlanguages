@@ -1,26 +1,14 @@
 (function() {
-    const data = [
-        { t: "Votre famille", h: ["Combien de personnes y a-t-il dans votre famille ?","Avez-vous des frères ou des sœurs ?","Où habite votre famille ?","Avec qui habitez-vous ?","Que faites-vous ensemble en famille ?"], level: "starter", theme: "immediate_family_A1" },
-        { t: "Votre maison", h: ["Combien de pièces votre maison a-t-elle ?","Quelle est votre pièce préférée ?","Votre maison est-elle grande ou petite ?","Que voyez-vous de votre fenêtre ?","Aimez-vous votre maison ?"], level: "starter", theme: "rooms_of_a_home_A1" },
-        { t: "Votre nourriture préférée", h: ["Quel est votre plat préféré ?","Aimez-vous la nourriture sucrée ou salée ?","Cuisinez-vous à la maison ?","Quel aliment n'aimez-vous pas ?","Que mangez-vous au petit-déjeuner ?"], level: "starter", theme: "basic_foods_A1" },
-        { t: "Votre routine matinale", h: ["À quelle heure vous réveillez-vous ?","Quelle est la première chose que vous faites ?","Mangez-vous un petit-déjeuner ?","Comment allez-vous au travail ou à l'école ?","Votre matinée est-elle calme ou agitée ?"], level: "starter", theme: "daily_work_routines_A1" },
-        { t: "Votre animal de compagnie ou un animal que vous voulez", h: ["Avez-vous un animal de compagnie ?","Quel animal aimez-vous ?","Quel est un bon nom pour un animal ?","Êtes-vous plutôt chien ou chat ?","Est-ce facile d'avoir un animal ?"], level: "starter", theme: "animals_A1" },
-        { t: "Un sport que vous aimez", h: ["Quel sport aimez-vous ?","Jouez-vous ou regardez-vous ?","Quand faites-vous ce sport ?","Est-ce un sport d'équipe ou individuel ?","Le sport est-il important pour vous ?"], level: "starter", theme: "leisure_activities_A1" },
-        { t: "Ce que vous faites le week-end", h: ["Que faites-vous habituellement le samedi ?","Sortez-vous ou restez-vous à la maison ?","Voyez-vous des amis ?","Qu'aimez-vous faire pour vous détendre ?","Votre week-end est-il chargé ou calme ?"], level: "starter", theme: "leisure_activities_A1" },
-        { t: "Votre saison préférée", h: ["Quelle est votre saison préférée ?","Quel temps fait-il ?","Que font les gens pendant cette saison ?","Que portez-vous ?","Pourquoi aimez-vous cette saison ?"], level: "starter", theme: "seasons_climate_A1" },
-        { t: "Votre meilleur ami", h: ["Comment s'appelle votre meilleur ami ?","Où vous êtes-vous rencontrés ?","Que faites-vous ensemble ?","À quoi ressemblent-ils ?","Pourquoi est-ce votre meilleur ami ?"], level: "starter", theme: "immediate_family_A1" },
-        { t: "Votre travail ou votre école", h: ["Que faites-vous — travail ou études ?","Qu'aimez-vous à ce sujet ?","À quelle heure commencez-vous ?","Avec qui travaillez-vous ou étudiez-vous ?","Est-ce facile ou difficile ?"], level: "starter", theme: "job_titles_professions_A1" },
-        { t: "Les choses que vous aimez et n'aimez pas", h: ["Quelle est la chose que vous aimez vraiment ?","Quelle est la chose que vous n'aimez pas ?","Aimez-vous le temps froid ?","Aimez-vous cuisiner ?","Aimez-vous les réveils matinaux ?"], level: "starter", theme: "basic_positive_emotions_A1" },
-        { t: "Votre couleur préférée et pourquoi", h: ["Quelle est votre couleur préférée ?","Où voyez-vous cette couleur ?","Portez-vous cette couleur ?","Cette couleur est-elle dans votre maison ?","Vos amis aiment-ils aussi cette couleur ?"], level: "starter", theme: "colours_patterns_A1" },
-        { t: "Les chiffres dans votre vie", h: ["Quel âge avez-vous ?","Quel est votre chiffre porte-bonheur ?","Combien de personnes vivent dans votre maison ?","À quelle heure vous réveillez-vous ?","Combien de langues parlez-vous ?"], level: "starter", theme: "numbers_0_9_A1" },
-        { t: "Votre boisson préférée", h: ["Que buvez-vous le matin ?","Préférez-vous le thé ou le café ?","Buvez-vous beaucoup d'eau ?","Quelle est la boisson spéciale de votre pays ?","Que buvez-vous quand vous êtes heureux ?"], level: "starter", theme: "drinks_A1" },
-        { t: "Votre pays", h: ["Quel est votre pays ?","Quelle est la capitale ?","Quel temps fait-il ?","Quelle nourriture y est célèbre ?","Qu'aimez-vous dans votre pays ?"], level: "starter", theme: "countries_capitals_A1" },
-        { t: "Les choses dans votre chambre", h: ["Quels meubles y a-t-il dans votre chambre ?","De quelle couleur est votre chambre ?","Est-elle grande ou petite ?","Qu'y a-t-il sur votre bureau ou votre table ?","Aimez-vous votre chambre ?"], level: "starter", theme: "furniture_objects_A1" },
-        { t: "Votre journée typique", h: ["À quelle heure commencez-vous votre journée ?","Que faites-vous le matin ?","Que mangez-vous au déjeuner ?","Que faites-vous le soir ?","À quelle heure allez-vous vous coucher ?"], level: "starter", theme: "daily_work_routines_A1" },
-        { t: "Ce que vous voyez de votre fenêtre", h: ["Qu'y a-t-il à l'extérieur de votre fenêtre ?","Voyez-vous des arbres ou des bâtiments ?","Qu'entendez-vous ?","Est-ce une vue calme ou animée ?","Aimez-vous cette vue ?"], level: "starter", theme: "furniture_objects_A1" },
-        { t: "La musique que vous aimez", h: ["Quelle musique écoutez-vous ?","Qui est votre chanteur préféré ?","Quand écoutez-vous de la musique ?","Savez-vous chanter ou jouer d'un instrument ?","Quelle chanson vous rend heureux ?"], level: "starter", theme: "music_A1" },
-        { t: "Votre endroit préféré dans votre ville", h: ["Quel est votre endroit préféré ?","Où se trouve-t-il ?","Pourquoi l'aimez-vous ?","Y allez-vous souvent ?","Avec qui y allez-vous ?"], level: "starter", theme: "local_places_services_A1" }
-    ];
+    const data = [{
+                "topic": "Mon souvenir d'enfance préféré",
+                "level": "starter",
+                "theme": "immediate_family_A1"
+            },
+            {
+                "topic": "Le métier de mes rêves et pourquoi",
+                "level": "starter",
+                "theme": "workplace_basics_A1"
+            }];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

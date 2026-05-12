@@ -1,0 +1,29 @@
+(function() {
+    const data = [
+        { t: "Ein Urlaub, an den du dich erinnerst", h: ["Wohin bist du gefahren?","Mit wem bist du gefahren?","Was hast du dort gemacht?","Wie war das Wetter?","Was war der beste Moment?"], level: "elementary", theme: "booking_planning_a_trip_A2" },
+        { t: "Dein Lieblingsrestaurant oder -café", h: ["Wo ist es?","Welches Essen servieren sie?","Warum magst du es?","Mit wem gehst du dorthin?","Wann warst du das letzte Mal dort?"], level: "elementary", theme: "restaurants_ordering_A2" },
+        { t: "Wie du zur Arbeit oder Schule kommst", h: ["Wie reist du — Bus, Auto, Fahrrad?","Wie lange dauert es?","Genießt du die Fahrt?","Ist es teuer?","Was machst du unterwegs?"], level: "elementary", theme: "transport_travel_A2" },
+        { t: "Was du tust, um dich zu entspannen", h: ["Was hilft dir beim Entspannen?","Bist du lieber allein oder mit Leuten zusammen?","Wie oft entspannst du dich richtig?","Hast du einen Lieblingsort zum Entspannen?","Ist es einfach zu entspannen oder findest du es schwierig?"], level: "elementary", theme: "leisure_hobbies_A2" },
+        { t: "Ein Film, den du vor Kurzem gesehen hast", h: ["Wie hieß der Film?","Wovon handelte er?","Hat er dir gefallen?","Wer hat mitgespielt?","Würdest du ihn empfehlen?"], level: "elementary", theme: "leisure_hobbies_A2" },
+        { t: "Dein ideales Wochenende", h: ["Was würdest du am Freitagabend machen?","Würdest du ausgehen oder zu Hause bleiben?","Würdest du irgendwohin reisen?","Mit wem würdest du Zeit verbringen?","Was würdest du essen?"], level: "elementary", theme: "leisure_hobbies_A2" },
+        { t: "Eine Person, die du bewunderst", h: ["Wer ist diese Person?","Was macht sie?","Warum bewunderst du sie?","Hast du sie schon mal getroffen?","Was kannst du von ihr lernen?"], level: "elementary", theme: "personality_character_A2" },
+        { t: "Dein Traum-Urlaubsziel", h: ["Wohin würdest du reisen?","Warum dieser Ort?","Mit wem würdest du reisen?","Was würdest du dort machen?","Wie lange würdest du bleiben?"], level: "elementary", theme: "booking_planning_a_trip_A2" },
+        { t: "Deine Beziehung zu deinem Handy", h: ["Wie viele Stunden am Tag benutzt du dein Handy?","Wofür benutzt du es am meisten?","Könntest du eine Woche ohne es auskommen?","Hilft es dir oder lenkt es dich ab?","Checkst du es als Erstes am Morgen?"], level: "elementary", theme: "internet_social_media_A2" },
+        { t: "Etwas Lustiges, das dir passiert ist", h: ["Wann ist das passiert?","Wo warst du?","Mit wem warst du zusammen?","Was genau ist passiert?","Lachst du heute noch darüber?"], level: "elementary", theme: "social_emotions_A2" },
+        { t: "Deine Hobbys", h: ["Was machst du in deiner Freizeit?","Wann hast du mit diesem Hobby angefangen?","Machst du es allein oder mit anderen?","Ist es teuer?","Was liebst du daran?"], level: "elementary", theme: "interests_hobbies_A2" },
+        { t: "Das Wetter, wo du wohnst", h: ["Wie ist das Wetter normalerweise?","Was ist deine Lieblingswetterart?","Beeinflusst das Wetter deine Stimmung?","Was ist das schlimmste Wetter, an das du dich erinnerst?","Was machst du an Regentagen?"], level: "elementary", theme: "weather_climate_A2" },
+        { t: "Ein Geburtstag, an den du dich erinnerst", h: ["Wessen Geburtstag war es?","Wo war die Feier?","Was habt ihr gemacht?","Gab es eine Überraschung?","Was hat ihn besonders gemacht?"], level: "elementary", theme: "customs_traditions_A2" },
+        { t: "Dinge, die du an deinem Wohnort liebst", h: ["Was ist deine Lieblingssache an deiner Stadt?","Ist es ein guter Ort für Familien?","Was kann man dort machen?","Was würdest du ändern?","Würdest du es einem Freund empfehlen?"], level: "elementary", theme: "neighbourhood_local_A2" },
+        { t: "Ein typischer Sonntag", h: ["Wann wachst du am Sonntag auf?","Hast du eine Routine?","Kochst du eine große Mahlzeit?","Ruhst du dich aus oder bleibst du beschäftigt?","Ist Sonntag dein Lieblingstag?"], level: "elementary", theme: "daily_work_routines_A2" },
+        { t: "Essen aus deinem Land", h: ["Was ist ein traditionelles Gericht?","Kochst du es zu Hause?","Wann essen die Leute es?","Ist es schwierig zuzubereiten?","Würdest du es einem Ausländer empfehlen?"], level: "elementary", theme: "customs_traditions_A2" },
+        { t: "Etwas, das du vor Kurzem gekauft hast", h: ["Was hast du gekauft?","Wo hast du es gekauft?","War es teuer?","Hast du es gebraucht oder nur gewollt?","Bist du zufrieden mit dem Kauf?"], level: "elementary", theme: "shopping_consumerism_A2" },
+        { t: "Deine Lieblings-App", h: ["Welche App benutzt du am meisten?","Wofür benutzt du sie?","Wann hast du angefangen, sie zu benutzen?","Würdest du sie empfehlen?","Könntest du ohne sie leben?"], level: "elementary", theme: "internet_social_media_A2" },
+        { t: "Eine Kindheitserinnerung", h: ["Wie alt warst du?","Wo warst du?","Mit wem warst du zusammen?","Was ist passiert?","Warum erinnerst du dich daran?"], level: "elementary", theme: "social_emotions_A2" },
+        { t: "Was du gestern gegessen hast", h: ["Was hattest du zum Frühstück?","Was hast du zu Mittag gegessen?","Hast du gekocht oder bist du essen gegangen?","War es ein typischer Essenstag?","Was war das Beste, das du gegessen hast?"], level: "elementary", theme: "diet_nutrition_A2" }
+    ];
+    const lang = "de";
+    if (!window.speakingData) window.speakingData = {};
+    if (!window.speakingData[lang]) window.speakingData[lang] = {};
+    if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];
+    window.speakingData[lang]["talkThatTalk"].push(...data);
+})();
