@@ -1,14 +1,28 @@
 (function() {
-    const data = [{
-                "topic": "Il futuro del mondo tra 50 anni",
-                "level": "upper-intermediate",
-                "theme": "technology_privacy_B2"
-            },
-            {
-                "topic": "L'impatto del cambiamento climatico sulle comunità locali",
-                "level": "upper-intermediate",
-                "theme": "environment_policy_B2"
-            }];
+    const data = [
+        { t: "Il futuro del mondo tra 50 anni", h: ["Quali cambiamenti tecnologici ti aspetti?","Come sarà l'ambiente?","Le strutture sociali saranno diverse?","C'è qualcosa che ti preoccupa?","Cosa ti rende ottimista riguardo al futuro?"] },
+        { t: "L'impatto del cambiamento climatico sulle comunità locali", h: ["Come è cambiata la tua zona?","Quali rischi specifici affrontano le persone?","Chi è più vulnerabile?","Si stanno prendendo abbastanza misure?","Cosa possono fare i singoli individui per fare la differenza?"] },
+        { t: "Una convinzione che hai e che la maggior parte delle persone intorno a te non condivide", h: ["Qual è questa convinzione?","Quando l'hai formata?","Sei mai stato messo in discussione al riguardo?","Influisce sui tuoi rapporti?","È mai cambiata a seguito di una conversazione?"] },
+        { t: "Cosa faresti se non avessi paura", h: ["Qual è una cosa che la paura ti impedisce di fare?","È una paura razionale o irrazionale?","La paura ti ha mai frenato e poi te ne sei pentito?","Come sarebbe la tua vita dall'altra parte di quella paura?","Cosa diresti a qualcuno che affronta la stessa paura?"] },
+        { t: "La cosa migliore e peggiore del luogo in cui sei cresciuto", h: ["Cosa ti ha plasmato di più di quel posto?","Per cosa ti senti grato?","Cosa avresti voluto che fosse diverso?","In che modo ha formato i tuoi valori?","Ci cresceresti dei figli?"] },
+        { t: "Come gestisci lo stress", h: ["Quali sono le tue strategie principali?","Pensi di gestire bene lo stress?","Cosa ti rende più stressato?","Il tuo rapporto con lo stress è cambiato?","Che consiglio daresti a chi lotta con lo stress?"] },
+        { t: "Qualcosa che un tempo giudicavi e che ora capisci", h: ["Di cosa si trattava?","Cosa pensavi prima?","Cosa ha cambiato la tua prospettiva?","Ti senti imbarazzato per la tua vecchia opinione?","Questo ti ha reso meno propenso a giudicare in generale?"] },
+        { t: "Cosa significa per te l'amicizia da adulto", h: ["L'amicizia tra adulti è diversa da quella infantile?","Quanti amici stretti hai?","Come mantieni le amicizie a distanza?","Sei mai 'cresciuto oltre' un'amicizia?","Cosa fa durare un'amicizia?"] },
+        { t: "Una volta in cui hai sbagliato completamente qualcosa", h: ["Cosa è successo?","Quanto tempo ci è voluto prima che te ne rendessi conto?","Qual è stato il costo dell'errore?","Come l'hai gestita?","Cosa hai imparato?"] },
+        { t: "Il tuo rapporto complicato con i social media", h: ["Li ami, li odi o entrambi?","Cosa ottieni da essi che non puoi ottenere altrove?","Ti sei mai sentito peggio dopo averli usati?","Pensi che cambino il modo in cui ti presenti?","Se potessi riprogettare i social media, cosa cambieresti?"] },
+        { t: "La cosa più sopravvalutata della vita moderna", h: ["Cos'è?","Perché le persone le danno così tanto valore?","Quando hai capito che secondo te non valeva tutto quell'interesse?","La tua opinione suscita reazioni negli altri?","Con cosa la sostituiresti?"] },
+        { t: "Un momento che ha cambiato il modo in cui vedi te stesso", h: ["Cosa è successo?","Ti aspettavi che ti avrebbe influenzato?","Ti ha cambiato immediatamente o gradualmente?","La versione di te dopo questo momento è migliore?","Lo condivideresti con qualcuno a te vicino?"] },
+        { t: "Qualcosa di cui sei silenziosamente orgoglioso", h: ["Cos'è?","Perché silenziosamente — perché non ad alta voce?","Quanto tempo ci è voluto?","Le persone a te vicine lo sanno?","Cosa dice questo su ciò a cui dai valore?"] },
+        { t: "La tua teoria personale sul perché le persone sono come sono", h: ["È natura, educazione o qualcos'altro?","Pensi che le persone possano cambiare fondamentalmente?","Una persona ti ha mai sorpreso completamente?","Pensi di capire bene le persone?","Qual è il più grande errore che le persone fanno le une verso le altre?"] },
+        { t: "Cosa pensi dell'ambizione", h: ["Sei una persona ambiziosa?","L'ambizione è sempre una cosa buona?","L'ambizione può danneggiare la tua vita personale?","Ammiri le persone molto ambiziose?","Quanto è abbastanza?"] },
+        { t: "La versione di te stesso di cinque anni fa", h: ["Cosa stavi facendo?","Di cosa ti preoccupavi?","Come pensavi che sarebbe stata la tua vita oggi?","Qual era la cosa più importante che non sapevi ancora?","Andresti d'accordo con il tuo io passato?"] },
+        { t: "Come prendi decisioni difficili", h: ["Segui la testa o l'istinto?","Prendi decisioni velocemente o lentamente?","Chiedi consiglio o decidi da solo?","Qual è la decisione più difficile che tu abbia mai preso?","Di solito ti senti in pace con le tue decisioni dopo?"] },
+        { t: "La nostalgia e cosa ti provoca", h: ["Di cosa provi nostalgia?","La nostalgia è confortante o dolorosa?","Pensi che il passato fosse davvero migliore o solo diverso?","La nostalgia ti impedisce mai di andare avanti?","Qual è un odore, un suono o un sapore che scatena un ricordo?"] },
+        { t: "Fama — punizione o ricompensa?", h: ["Vorresti essere famoso?","Che tipo di fama vorresti avere?","Cosa perderesti?","Pensi che la maggior parte delle persone famose sia felice?","Qual è la differenza tra fama e rispetto?"] },
+        { t: "Cosa ti annoia e cosa ti affascina", h: ["Di quale argomento o attività potresti parlare per ore?","Cosa non riesci assolutamente a sopportare?","Ciò che ti affascina dice qualcosa su di te come persona?","Qualcosa che un tempo ti annoiava è diventato interessante?","Cos'è qualcosa che trovi affascinante e che sorprende le persone?"] },
+        { t: "Una volta in cui hai dovuto ricominciare da capo", h: ["Cosa è successo prima del nuovo inizio?","È stata una scelta o la vita ti ha costretto?","Qual è stata la parte più difficile del ricominciare?","Cosa hai conservato di prima?","Sei felice che sia successo?"] },
+        { t: "Cosa le persone capiscono male di te", h: ["Qual è l'idea errata più comune?","Da dove deriva?","Ti dà fastidio?","Cerchi di correggerla o lasci perdere?","C'è del vero in essa, dopotutto?"] }
+    ];
     const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
