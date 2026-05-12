@@ -1,9 +1,26 @@
 (function() {
-    const data = [{
-                "topic": "Les dernières vacances que j'ai prises",
-                "level": "elementary",
-                "theme": "transport_travel_A2"
-            }];
+    const data = [
+        { t: "Des vacances dont vous vous souvenez", h: ["Où êtes-vous allé ?","Avec qui êtes-vous allé ?","Qu'avez-vous fait là-bas ?","Quel temps faisait-il ?","Quel a été le meilleur moment ?"], level: "elementary", theme: "booking_planning_a_trip_A2" },
+        { t: "Votre restaurant ou café préféré", h: ["Où est-ce ?","Quelle nourriture servent-ils ?","Pourquoi l'aimez-vous ?","Avec qui y allez-vous ?","C'était quand la dernière fois que vous y êtes allé ?"], level: "elementary", theme: "restaurants_ordering_A2" },
+        { t: "Comment vous allez au travail ou à l'école", h: ["Comment voyagez-vous — bus, voiture, vélo ?","Combien de temps cela prend-il ?","Appréciez-vous le trajet ?","Est-ce cher ?","Que faites-vous en chemin ?"], level: "elementary", theme: "transport_travel_A2" },
+        { t: "Ce que vous faites pour vous détendre", h: ["Qu'est-ce qui vous aide à vous détendre ?","Préférez-vous être seul ou avec du monde ?","À quelle fréquence vous détendez-vous vraiment ?","Avez-vous un endroit préféré pour vous détendre ?","Est-ce facile de se détendre ou trouvez-vous cela difficile ?"], level: "elementary", theme: "leisure_hobbies_A2" },
+        { t: "Un film que vous avez regardé récemment", h: ["Comment s'appelait le film ?","De quoi s'agissait-il ?","L'avez-vous aimé ?","Qui jouait dedans ?","Le recommanderiez-vous ?"], level: "elementary", theme: "leisure_hobbies_A2" },
+        { t: "Votre week-end idéal", h: ["Que feriez-vous le vendredi soir ?","Sortiriez-vous ou resteriez-vous à la maison ?","Voyageriez-vous quelque part ?","Avec qui passeriez-vous du temps ?","Que mangeriez-vous ?"], level: "elementary", theme: "leisure_hobbies_A2" },
+        { t: "Une personne que vous admirez", h: ["Qui est cette personne ?","Que fait-elle ?","Pourquoi l'admirez-vous ?","L'avez-vous déjà rencontrée ?","Que pouvez-vous apprendre d'elle ?"], level: "elementary", theme: "personality_character_A2" },
+        { t: "La destination de vos vacances de rêve", h: ["Où iriez-vous ?","Pourquoi cet endroit ?","Avec qui iriez-vous ?","Que feriez-vous là-bas ?","Combien de temps resteriez-vous ?"], level: "elementary", theme: "booking_planning_a_trip_A2" },
+        { t: "Votre relation avec votre téléphone", h: ["Combien d'heures par jour utilisez-vous votre téléphone ?","Pour quoi l'utilisez-vous le plus ?","Pourriez-vous vivre sans pendant une semaine ?","Est-ce qu'il vous aide ou vous distrait ?","Le consultez-vous dès le matin ?"], level: "elementary", theme: "internet_social_media_A2" },
+        { t: "Quelque chose de drôle qui vous est arrivé", h: ["Quand cela s'est-il produit ?","Où étiez-vous ?","Avec qui étiez-vous ?","Que s'est-il passé exactement ?","En riez-vous encore maintenant ?"], level: "elementary", theme: "social_emotions_A2" },
+        { t: "Vos loisirs", h: ["Que faites-vous pendant votre temps libre ?","Quand avez-vous commencé ce loisir ?","Le faites-vous seul ou avec d'autres ?","Est-ce cher ?","Qu'est-ce que vous aimez là-dedans ?"], level: "elementary", theme: "interests_hobbies_A2" },
+        { t: "Le temps qu'il fait là où vous vivez", h: ["Quel temps fait-il habituellement ?","Quel est votre type de temps préféré ?","Le temps affecte-t-il votre humeur ?","Quel est le pire temps dont vous vous souvenez ?","Que faites-vous les jours de pluie ?"], level: "elementary", theme: "weather_climate_A2" },
+        { t: "Un anniversaire dont vous vous souvenez", h: ["C'était l'anniversaire de qui ?","Où a eu lieu la fête ?","Qu'avez-vous fait ?","Y avait-il une surprise ?","Qu'est-ce qui l'a rendu spécial ?"], level: "elementary", theme: "customs_traditions_A2" },
+        { t: "Les choses que vous aimez là où vous vivez", h: ["Quelle est votre chose préférée dans votre ville ?","Est-ce un bon endroit pour les familles ?","Qu'y a-t-il à faire ?","Que changeriez-vous ?","Le recommanderiez-vous à un ami ?"], level: "elementary", theme: "neighbourhood_local_A2" },
+        { t: "Un dimanche typique", h: ["À quelle heure vous réveillez-vous le dimanche ?","Avez-vous une routine ?","Cuisinez-vous un grand repas ?","Vous reposez-vous ou restez-vous occupé ?","Le dimanche est-il votre jour préféré ?"], level: "elementary", theme: "daily_work_routines_A2" },
+        { t: "La nourriture de votre pays", h: ["Quel est un plat traditionnel ?","Le cuisinez-vous à la maison ?","Quand est-ce que les gens le mangent ?","Est-ce difficile à faire ?","Le recommanderiez-vous à un étranger ?"], level: "elementary", theme: "customs_traditions_A2" },
+        { t: "Quelque chose que vous avez acheté récemment", h: ["Qu'avez-vous acheté ?","Où l'avez-vous acheté ?","Était-ce cher ?","En aviez-vous besoin ou en aviez-vous juste envie ?","Êtes-vous content de l'achat ?"], level: "elementary", theme: "shopping_consumerism_A2" },
+        { t: "Votre application préférée", h: ["Quelle application utilisez-vous le plus ?","Pour quoi l'utilisez-vous ?","Quand avez-vous commencé à l'utiliser ?","La recommanderiez-vous ?","Pourriez-vous vivre sans ?"], level: "elementary", theme: "internet_social_media_A2" },
+        { t: "Un souvenir d'enfance", h: ["Quel âge aviez-vous ?","Où étiez-vous ?","Avec qui étiez-vous ?","Que s'est-il passé ?","Pourquoi vous en souvenez-vous ?"], level: "elementary", theme: "social_emotions_A2" },
+        { t: "Ce que vous avez mangé hier", h: ["Qu'avez-vous pris au petit-déjeuner ?","Qu'avez-vous mangé au déjeuner ?","Avez-vous cuisiné ou mangé à l'extérieur ?","Était-ce une journée typique au niveau alimentaire ?","Quelle a été la meilleure chose que vous avez mangée ?"], level: "elementary", theme: "diet_nutrition_A2" }
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
