@@ -107,7 +107,11 @@
         if (!family) return;
 
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
-        const files = ['vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js', 'locations.js', 'people.js'];
+        const files = [
+            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
+            'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
+            'locations.js', 'people.js', 'nationalities.js'
+        ];
         const promises = files.map(file => {
             const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
@@ -127,6 +131,18 @@
             promises.push(new Promise(res => {
                 const s = document.createElement('script');
                 s.src = currPath;
+                s.onload = res;
+                s.onerror = res;
+                document.head.appendChild(s);
+            }));
+        }
+
+        // Language-root phrases
+        const phrasesPath = `../js/data/${family}/${lang.toLowerCase()}/phrases.js`;
+        if (!document.querySelector(`script[src*="${phrasesPath}"]`)) {
+            promises.push(new Promise(res => {
+                const s = document.createElement('script');
+                s.src = phrasesPath;
                 s.onload = res;
                 s.onerror = res;
                 document.head.appendChild(s);
@@ -160,14 +176,28 @@
       if (cat === 'Vocabulary' || cat === 'Grammar') {
           // If grammar, we prioritize verbs and grammar_elements, but fallback to general vocab pool
           pool = window.gameUtils.getVocabPool(l, level, theme);
+
+          // Enrichment from phrasesData
+          if (window.phrasesData && window.phrasesData[l]) {
+              Object.values(window.phrasesData[l]).flat().forEach(p => {
+                  pool.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
+              });
+          }
           if (cat === 'Grammar') {
               // Filter for items that have examples (better for grammar tasks) or are explicitly grammar
               const grammarSpecific = pool.filter(item => item.form === 'verb' || item.form === 'preposition' || item.form === 'conjunction');
               if (grammarSpecific.length > 5) pool = grammarSpecific;
           }
       } else if (cat === 'Speaking') {
-          const speakingData = window.speakingData?.[l]?.talkThatTalk || [];
-          pool = speakingData.filter(d => (level === 'all' || d.level === level) && (theme === 'all' || d.theme === theme));
+          const s = window.speakingData?.[l] || {};
+          const speakingData = [
+              ...(s.talkThatTalk || []),
+              ...(s.debates || []),
+              ...(s.opinions || []),
+              ...(s.fluency || []),
+              ...(s.quotes || [])
+          ];
+          pool = speakingData.filter(d => (level === 'all' || d.level === level || !d.level) && (theme === 'all' || d.theme === theme || !d.theme));
       } else if (cat === 'Pronunciation') {
           const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;
           const currData = window.curriculumData?.[currKey] || [];
@@ -437,7 +467,7 @@
        SPINNING WHEEL LOGIC
     ══════════════════════════════════════ */
     let wheelAngle = 0;
-    const wheelLangs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt'];
+    const wheelLangs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br'];
     const wheelCats = ['vocab', 'grammar', 'speaking', 'pronunciation'];
     const wheelItems = [];
     wheelLangs.forEach(l => wheelCats.forEach(c => wheelItems.push({ lang: l, cat: c })));
@@ -496,7 +526,7 @@
 
                 const resEl = document.getElementById('wheel-result');
                 if (resEl) {
-                    const langName = { en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese' };
+                    const langName = { en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton' };
                     resEl.innerHTML = `Landed on: <strong>${langName[result.lang]} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
                     setTimeout(() => {
                         cosyPractice.closeWheel();
