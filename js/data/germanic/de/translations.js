@@ -418,6 +418,8 @@
             next_desc: "Clothing, footwear, and home products retailer.",
             next_player_announcement: "Next Player! 🎲",
             next_word: "Next Word ➡️",
+            oa_agree_btn: "👍 Ich stimme zu",
+            oa_disagree_btn: "👎 Ich stimme nicht zu",
             opinion_arena_guide_text: "Read the statement and decide if you agree or disagree. Explain your reasoning using the target language!",
             opinion_arena_title: "Opinion Arena 🏟️",
             ovs: "OVS",

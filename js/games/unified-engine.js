@@ -42,7 +42,7 @@
         });
 
         // Language-root files
-        const rootFiles = ['phrases.js', 'alphabets.js'];
+        const rootFiles = ['phrases.js', 'alphabets.js', 'translations.js'];
         rootFiles.forEach(file => {
             const path = `../js/data/${family}/${lang.toLowerCase()}/${file}`;
             if (!document.querySelector(`script[src*="${path}"]`)) {
@@ -75,7 +75,7 @@
 
         const mergeOrReplace = (key, specializedArray) => {
             if (!specializedArray || specializedArray.length === 0) return;
-            const items = specializedArray.map(item => ['battle', 'fluency'].includes(key) ? item : extractText(item));
+            const items = specializedArray.map(item => ['battle', 'fluency', 'opinion'].includes(key) ? item : extractText(item));
             if (isEnglishFallback) {
                 data[key] = items;
             } else {
@@ -313,7 +313,7 @@
               <button class="btn-start-game" onclick="COSY_ENGINE.startFluency()">▶ Start game</button>
             </div>`;
         }
-        else if (id === 'opinion') {
+        else if (id ==='opinion') {
           body.innerHTML = `
             <div class="setup-screen">
               <h2>Opinion Arena 🏟️</h2>
@@ -630,7 +630,9 @@
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
-            const stmt = pick(data.opinion || ['...']);
+            const rawItem = pick(data.opinion || ['...']);
+            const stmt = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
+            const hints = (rawItem.hints || rawItem.h || []);
             const body = document.getElementById('go-body');
             const DUR = 90;
 
@@ -638,11 +640,16 @@
               <div class="game-card">
                 <div class="game-label">🏟️ Statement</div>
                 <div class="game-prompt">"${stmt}"</div>
+                ${hints.length > 0 ? `
+                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
+                    <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
+                        ${hints.map(h => `<li>${h}</li>`).join('')}
+                    </ul>` : ''}
                 <div class="game-sub" style="margin-top:.6rem">Do you agree or disagree? Choose a side, then speak for 90 seconds defending your view.</div>
               </div>
               <div class="setup-options" style="margin-bottom:1rem">
-                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="agree"><span class="setup-opt-icon">✅</span>I agree</div>
-                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="disagree"><span class="setup-opt-icon">❌</span>I disagree</div>
+                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="agree">${window.t('oa_agree_btn', lang)}</div>
+                <div class="setup-opt" onclick="COSY_ENGINE.selectOpt(this,'stance');document.getElementById('op-start').disabled=false" data-val="disagree">${window.t('oa_disagree_btn', lang)}</div>
               </div>
               <div class="game-controls">
                 <button class="btn-g-primary" id="op-start" disabled onclick="COSY_ENGINE.opSpeak('${stmt.replace(/'/g,"\\'")}',${DUR})">▶ Start speaking</button>
