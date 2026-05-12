@@ -1,14 +1,28 @@
 (function() {
-    const data = [{
-                "topic": "The future of the world in 50 years",
-                "level": "upper-intermediate",
-                "theme": "technology_privacy_B2"
-            },
-            {
-                "topic": "The impact of climate change on local communities",
-                "level": "upper-intermediate",
-                "theme": "environment_policy_B2"
-            }];
+    const data = [
+        { t: "The future of the world in 50 years", h: ["What technological changes do you expect?","How will the environment look?","Will social structures be different?","Is there anything you are worried about?","What makes you optimistic about the future?"] },
+        { t: "The impact of climate change on local communities", h: ["How has your local area changed?","What specific risks do people face?","Who is most vulnerable?","Are enough measures being taken?","What can individuals do to make a difference?"] },
+        { t: "A belief you hold that most people around you don't share", h: ["What is the belief?","When did you form it?","Have you ever been challenged on it?","Does it affect your relationships?","Has it ever changed because of a conversation?"] },
+        { t: "What you would do if you weren't afraid", h: ["What is one thing fear is stopping you from doing?","Is it a rational or irrational fear?","Has fear ever held you back and then you regretted it?","What would your life look like on the other side of that fear?","What would you say to someone facing the same fear?"] },
+        { t: "The best and worst thing about where you grew up", h: ["What shaped you most about that place?","What do you feel grateful for?","What do you wish had been different?","How did it form your values?","Would you raise children there?"] },
+        { t: "How you handle stress", h: ["What are your go-to strategies?","Do you think you handle stress well?","What makes you most stressed?","Has your relationship with stress changed?","What advice would you give someone who struggles with stress?"] },
+        { t: "Something you used to judge and now understand", h: ["What was it?","What did you think before?","What changed your perspective?","Do you feel embarrassed about your old view?","Has this made you less judgemental in general?"] },
+        { t: "What friendship means to you as an adult", h: ["Is adult friendship different from childhood friendship?","How many close friends do you have?","How do you maintain friendships across distance?","Have you outgrown a friendship?","What makes a friendship last?"] },
+        { t: "A time you got something completely wrong", h: ["What happened?","How long before you realised?","What was the cost of being wrong?","How did you handle it?","What did you learn?"] },
+        { t: "Your complicated relationship with social media", h: ["Do you love it, hate it, or both?","What do you get from it that you can't get elsewhere?","Have you ever felt worse after using it?","Do you think it changes how you present yourself?","If you could redesign social media, what would you change?"] },
+        { t: "The most overrated thing in modern life", h: ["What is it?","Why do people value it so much?","When did you realise you didn't think it was worth the hype?","Does your opinion get a reaction from others?","What would you replace it with?"] },
+        { t: "A moment that changed how you see yourself", h: ["What happened?","Were you expecting it to affect you?","Did it change you immediately or gradually?","Is the version of you after this moment better?","Would you share this with someone close to you?"] },
+        { t: "Something you are quietly proud of", h: ["What is it?","Why quietly — why not loudly?","How long did it take?","Do the people close to you know about it?","What does this say about what you value?"] },
+        { t: "Your personal theory about why people are the way they are", h: ["Is it nature, upbringing, or something else?","Do you think people can fundamentally change?","Has a person ever surprised you completely?","Do you think you understand people well?","What is the biggest mistake people make about each other?"] },
+        { t: "What you think about ambition", h: ["Are you an ambitious person?","Is ambition always a good thing?","Can ambition damage your personal life?","Do you admire highly ambitious people?","How much is enough?"] },
+        { t: "The version of yourself five years ago", h: ["What were you doing?","What did you worry about?","What did you think your life would look like now?","What was the most important thing you didn't know yet?","Would you and your past self get along?"] },
+        { t: "How you make difficult decisions", h: ["Do you follow your head or your gut?","Do you make decisions quickly or slowly?","Do you ask for advice or decide alone?","What is the hardest decision you have ever made?","Do you usually feel at peace with your decisions afterwards?"] },
+        { t: "Nostalgia and what it does to you", h: ["What do you feel nostalgic about?","Is nostalgia comforting or painful?","Do you think the past was really better or just different?","Does nostalgia ever stop you moving forward?","What is a smell, sound or taste that triggers a memory?"] },
+        { t: "Fame — punishment or reward?", h: ["Would you want to be famous?","What kind of famous would you be?","What would you lose?","Do you think most famous people are happy?","What is the difference between fame and respect?"] },
+        { t: "What bores you and what fascinates you", h: ["What topic or activity could you talk about for hours?","What can you absolutely not sit through?","Does what fascinates you say something about you as a person?","Has something that once bored you become interesting?","What is something you find fascinating that surprises people?"] },
+        { t: "A time you had to start again", h: ["What happened before the restart?","Was it a choice or did life force it?","What was the hardest part of beginning again?","What did you keep from before?","Are you glad it happened?"] },
+        { t: "What people get wrong about you", h: ["What is the most common misconception?","Where does it come from?","Does it bother you?","Do you try to correct it or let it go?","Is there any truth in it at all?"] }
+    ];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
