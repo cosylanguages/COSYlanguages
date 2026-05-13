@@ -75,7 +75,7 @@
 
         const mergeOrReplace = (key, specializedArray) => {
             if (!specializedArray || specializedArray.length === 0) return;
-            const items = specializedArray.map(item => ['battle', 'fluency', 'opinions'].includes(key) ? item : extractText(item));
+            const items = specializedArray.map(item => ['battle', 'fluency', 'opinions', 'critic'].includes(key) ? item : extractText(item));
             if (isEnglishFallback) {
                 data[key] = items;
             } else {
@@ -785,17 +785,54 @@
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
-            const quote = pick(data.critic || ['...']);
+            const item = pick(data.critic || ['...']);
             const body = document.getElementById('go-body');
             const DUR = 150;
 
+            const t = (key) => window.t(key, lang);
+            let qText = '', author = '', origin = '', category = '', task = '', qs = [];
+            if (typeof item === 'string') {
+                qText = item;
+                task = t('cc_default_task');
+            } else {
+                qText = item.q || item.text || '...';
+                author = item.a || item.author || '';
+                origin = item.o || '';
+                category = item.c || '';
+                task = item.task || t('cc_default_task');
+                qs = item.qs || [];
+            }
+
+            let qsHtml = '';
+            if (qs && qs.length > 0) {
+                qsHtml = `
+                    <div style="margin-top:1.5rem; border-top:1px solid var(--border); padding-top:1rem;">
+                        <div style="font-size:.7rem; text-transform:uppercase; font-weight:800; color:var(--ink-faint); margin-bottom:.5rem;">${t('cc_questions_label')}</div>
+                        <ul style="font-size:.85rem; color:var(--ink-muted); padding-left:1.2rem; margin:0; text-align:left;">
+                            ${qs.map(q => `<li style="margin-bottom:.4rem">${q}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
             body.innerHTML = `
               <div class="game-card">
-                <div class="game-label">🎭 Famous quote</div>
-                <div class="game-prompt" style="font-style:italic;font-size:1.1rem">${quote}</div>
-                <div class="game-sub" style="margin-top:.75rem">What does this mean to you? Do you agree? Can you relate it to your own life? Speak for 2–3 minutes.</div>
-                ${renderTimerRing(DUR, DUR)}
-                <div class="game-controls">
+                <div class="game-label">🎭 Famous quote ${category ? '· ' + category : ''}</div>
+                <div class="game-prompt" style="font-style:italic;font-size:1.1rem">"${qText}"</div>
+                ${author ? `<div style="text-align:right; font-weight:700; margin-top:.5rem; color:var(--ink-muted)">— ${author}${origin ? `, <span style="font-weight:400; font-style:italic">${origin}</span>` : ''}</div>` : ''}
+
+                <div style="background:var(--sage-light); border-radius:12px; padding:14px; margin-top:1.25rem; border:1px solid rgba(107,143,113,.2); text-align:left;">
+                    <div style="font-size:.65rem; text-transform:uppercase; font-weight:900; color:var(--sage-dark); margin-bottom:.4rem; letter-spacing:.05em;">${t('cc_task_label')}</div>
+                    <div style="font-size:.9rem; line-height:1.5; color:var(--ink); font-weight:700;">${task}</div>
+                </div>
+
+                ${qsHtml}
+
+                <div style="margin-top:2rem">
+                    ${renderTimerRing(DUR, DUR)}
+                </div>
+
+                <div class="game-controls" style="margin-top:1.5rem">
                   <button class="btn-g-primary" id="cc-btn" onclick="COSY_ENGINE.ccStart(${DUR})">▶ Start speaking</button>
                   <button class="btn-g-secondary" onclick="COSY_ENGINE.startCritic()">New quote ↺</button>
                   <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('critic')">⬅ Setup</button>
