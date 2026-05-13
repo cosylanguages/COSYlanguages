@@ -573,9 +573,7 @@
             beginSession(lang, selectedCat, level, theme, false);
         },
         startDailyChallenge: async () => {
-            const dc = generateDailyChallenge();
-            await ensureDataLoaded(dc.lang, 'starter');
-            beginSession(dc.lang, dc.cat, 'starter', dc.theme, true);
+            window.location.href = 'daily.html';
         },
         startMistakeReview: () => {
             if (STATE.mistakes.length === 0) return alert("No mistakes to review!");
