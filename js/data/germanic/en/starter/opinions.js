@@ -1,5 +1,21 @@
 (function() {
-    const data = [];
+    const data = [
+      { t:"Cats are better than dogs.", tag:"Pets", h:["Do you have a cat or a dog?","What do you like about cats? What do you like about dogs?","Are cats easy or difficult?","What is a good name for a pet?","Do your friends have pets?"] },
+      { t:"Morning is the best time of day.", tag:"Daily life", h:["What time do you wake up?","What do you do in the morning?","Do you feel good in the morning?","Is the evening better for you?","What do you eat in the morning?"] },
+      { t:"Tea is better than coffee.", tag:"Drinks", h:["Do you drink tea or coffee?","How many cups do you drink every day?","Do you drink hot or cold drinks?","What do you drink in the morning?","What is a popular drink in your country?"] },
+      { t:"It is fun to cook.", tag:"Food", h:["Do you cook at home?","What do you cook?","Is it easy or difficult?","Who cooks in your family?","What is your favourite thing to make?"] },
+      { t:"Cold weather is nice.", tag:"Weather", h:["What is the weather like today?","Do you like rain or sun?","What do you wear in cold weather?","What do you do when it is cold?","What is your favourite season?"] },
+      { t:"Monday is a bad day.", tag:"Daily life", h:["What do you do on Monday?","What is your favourite day of the week?","Is the weekend too short?","What do you do on Friday?","Do you like your week routine?"] },
+      { t:"Chocolate is very good.", tag:"Food", h:["Do you like chocolate?","What is your favourite sweet food?","Do you eat a lot of chocolate?","Is chocolate healthy?","What do you eat when you are happy?"] },
+      { t:"Small towns are better than big cities.", tag:"Places", h:["Do you live in a town or a city?","What is good about a small town?","What is good about a big city?","Is your town or city noisy?","Where do you want to live in the future?"] },
+      { t:"It is good to have a lot of friends.", tag:"People", h:["How many friends do you have?","What do you do with your friends?","Is one good friend better than many friends?","Where do you meet your friends?","What is a good friend?"] },
+      { t:"Sleeping is the best activity.", tag:"Daily life", h:["How many hours do you sleep?","Do you sleep well?","What time do you go to bed?","Do you sleep in the afternoon?","Is sleeping your favourite thing?"] },
+      { t:"Music is better than TV.", tag:"Free time", h:["Do you listen to music every day?","What music do you like?","How many hours of TV do you watch?","What is your favourite programme?","What do you do in the evening?"] },
+      { t:"It is important to eat breakfast.", tag:"Food", h:["Do you eat breakfast every day?","What do you eat in the morning?","Is breakfast a big meal for you?","Do you have breakfast at home?","What is a typical breakfast in your country?"] },
+      { t:"Swimming is fun.", tag:"Sport", h:["Can you swim?","Do you like water?","Where do you swim — pool or sea?","What sport do you like?","Is sport important to you?"] },
+      { t:"Old films are boring.", tag:"Entertainment", h:["What films do you like?","Do you watch old or new films?","Who is your favourite actor?","What is a good film?","Where do you watch films?"] },
+      { t:"Pineapple on pizza is a great idea.", tag:"Food", h:["Do you like pizza?","What is your favourite topping?","Do you put fruit on savoury food?","Is this popular in your country?","What is the worst pizza topping for you?"] }
+    ];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
