@@ -197,9 +197,10 @@
               ...(s.fluency || []),
               ...(s.quotes || [])
           ];
-          // Normalise Fluency Flow items for filtering
+          // Normalise Speaking items for filtering
           speakingData.forEach(d => {
               if (d.t && !d.topic) d.topic = d.t;
+              if (d.q && !d.topic) d.topic = d.q;
           });
           pool = speakingData.filter(d => (level === 'all' || d.level === level || !d.level) && (theme === 'all' || d.theme === theme || !d.theme));
       } else if (cat === 'Pronunciation') {
@@ -264,7 +265,7 @@
 
                   return { type, q: qText, item: item, ans, opts, level: item.level, theme: item.theme };
               } else if (cat === 'Speaking') {
-                  return { type: 'conv', q: item.topic || item.text, level: item.level, theme: item.theme };
+                  return { type: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
               } else if (cat === 'Pronunciation') {
                   const correctIpa = item.ipa;
                   const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
