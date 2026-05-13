@@ -58,13 +58,13 @@
         </div>
 
         <!-- ── DAILY CHALLENGE ── -->
-        <div class="daily-challenge fade-in" id="daily-challenge">
+        <div class="daily-challenge fade-in" id="daily-challenge" data-mode="student teacher">
             <div class="dc-label">📅 Daily Challenge</div>
             <div class="dc-title" id="dc-title">Loading today's challenge…</div>
             <div class="dc-sub" id="dc-sub"></div>
             <div class="dc-meta" id="dc-meta"></div>
             <div class="dc-actions">
-                <button class="dc-btn" id="dc-start-btn" onclick="cosyPractice.startDailyChallenge()">▶ Start challenge</button>
+                <a href="daily.html" class="dc-btn" id="dc-start-btn" style="text-decoration:none">▶ Start challenge</a>
                 <button class="dc-skip" onclick="cosyPractice.skipDailyChallenge()">Skip today →</button>
                 <div class="dc-done-badge" id="dc-done-badge">✓ Completed today</div>
             </div>
@@ -272,6 +272,7 @@
     <script src="../js/games/utils/shared.js"></script>
     <script src="../js/srs.js"></script>
     <script src="../js/exercise-core.js"></script>
+    <script src="../js/data/daily_bank.js"></script>
     <script src="../js/practice.js"></script>
     <script src="../js/mobile.js"></script>
     <script src="../js/script.js"></script>

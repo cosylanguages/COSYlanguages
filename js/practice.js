@@ -543,22 +543,26 @@
     }
 
     function generateDailyChallenge() {
-        const seeds = [
-            { lang: 'en', cat: 'Vocabulary', theme: 'Food', title: "English Food Master 🍎", sub: "Learn essential food items in English." },
-            { lang: 'fr', cat: 'Vocabulary', theme: 'Greetings', title: "French Politeness 🇫🇷", sub: "Master basic greetings and etiquette." },
-            { lang: 'it', cat: 'Grammar', theme: 'prepositions', title: "Italian Prepositions 🇮🇹", sub: "Master 'in', 'on', and 'at' in Italian." },
-            { lang: 'ru', cat: 'Vocabulary', theme: 'Numbers', title: "Russian Numbers 🇷🇺", sub: "Count like a pro from 0 to 100." },
-            { lang: 'el', cat: 'Vocabulary', theme: 'Home', title: "Greek Home Life 🇬🇷", sub: "Learn words for rooms and furniture." }
-        ];
-        const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
-        const challenge = seeds[dayOfYear % seeds.length];
+        const schedule = window.DAILY_SCHEDULE || [];
+        const bank = window.DAILY_BANK || {};
+        const now = new Date();
+        const day = now.getDay();
+        const themeInfo = schedule[day];
+
+        if (!themeInfo) return;
+
+        const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
+        const entries = bank[themeInfo.theme] || [];
+        const entry = entries[dayOfYear % entries.length];
+
+        if (!entry) return;
 
         const titleEl = document.getElementById('dc-title');
         const subEl = document.getElementById('dc-sub');
-        if (titleEl) titleEl.textContent = challenge.title;
-        if (subEl) subEl.textContent = challenge.sub;
+        if (titleEl) titleEl.textContent = entry.title;
+        if (subEl) subEl.textContent = entry.subtitle;
 
-        return challenge;
+        return entry;
     }
 
     window.cosyPractice = {

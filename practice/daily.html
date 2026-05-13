@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1C1917" />
+  <meta name="description" content="Daily Challenge — one task, all languages. Speaking prompt + skill micro-task. Changes every day. COSYlanguages." />
+  <title>Daily Challenge 📅 — COSYlanguages</title>
+  <link rel="icon" href="../images/cosylanguages.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+
+  <style>
+    body {
+      background: #FAF7F2;
+      color: #1C1917;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Main ── */
+    main { flex: 1; max-width: 680px; width: 100%; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+    /* ── Page header ── */
+    .page-header { margin-bottom: 2rem; text-align: center; }
+    .day-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: .75rem; font-weight: 600; letter-spacing: .06em;
+      text-transform: uppercase; padding: 4px 14px; border-radius: 20px;
+      margin-bottom: .75rem;
+    }
+    .page-header h1 { font-size: 2rem; font-weight: 700; margin-bottom: .4rem; }
+    .page-header .subtitle { font-size: 1rem; color: #57534E; line-height: 1.6; }
+    .date-line { font-size: .85rem; color: #A8A29E; margin-top: .35rem; }
+
+    /* ── Day theme colours ── */
+    /* Mon-vocab */   .theme-vocab    { background: #DBEAFE; color: #1E40AF; }
+    /* Tue-grammar */ .theme-grammar  { background: #D1FAE5; color: #065F46; }
+    /* Wed-speaking */.theme-speaking { background: #FCE7F3; color: #831843; }
+    /* Thu-culture */  .theme-culture  { background: #FEF3C7; color: #78350F; }
+    /* Fri-free */    .theme-free     { background: #EDE9FE; color: #4C1D95; }
+    /* Sat-challenge */.theme-challenge{ background: #FFEDD5; color: #7C2D12; }
+    /* Sun-reflect */ .theme-reflect  { background: #F3F4F6; color: #111827; }
+
+    .card-accent-vocab     { border-color: #93C5FD; }
+    .card-accent-grammar   { border-color: #6EE7B7; }
+    .card-accent-speaking  { border-color: #F9A8D4; }
+    .card-accent-culture   { border-color: #FCD34D; }
+    .card-accent-free      { border-color: #C4B5FD; }
+    .card-accent-challenge { border-color: #FDBA74; }
+    .card-accent-reflect   { border-color: #D1D5DB; }
+
+    .bar-vocab     { background: #3B82F6; }
+    .bar-grammar   { background: #10B981; }
+    .bar-speaking  { background: #EC4899; }
+    .bar-culture   { background: #F59E0B; }
+    .bar-free      { background: #8B5CF6; }
+    .bar-challenge { background: #F97316; }
+    .bar-reflect   { background: #6B7280; }
+
+    /* ── Streak & date row ── */
+    .top-row {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 1.5rem; flex-wrap: wrap; gap: 8px;
+    }
+    .streak-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #fff; border: 1.5px solid #E8E2D9; border-radius: 20px;
+      padding: 5px 14px; font-size: .875rem; font-weight: 500; color: #1C1917;
+    }
+    .streak-fire { font-size: 1rem; }
+    .today-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #fff; border: 1.5px solid #E8E2D9; border-radius: 20px;
+      padding: 5px 14px; font-size: .8rem; color: #57534E;
+    }
+
+    /* ── Main challenge card ── */
+    .challenge-card {
+      background: #fff; border: 1.5px solid #E8E2D9; border-radius: 16px;
+      overflow: hidden; margin-bottom: 1rem;
+    }
+    .challenge-card.accented { border-width: 2px; }
+
+    .card-header {
+      padding: 1.25rem 1.5rem 1rem;
+      border-bottom: 1px solid #F0EBE3;
+    }
+    .card-header-top {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: .75rem;
+    }
+    .day-type-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: .75rem; font-weight: 600; letter-spacing: .06em;
+      text-transform: uppercase; padding: 4px 12px; border-radius: 12px;
+    }
+    .card-num { font-size: .8rem; color: #A8A29E; }
+
+    .challenge-title {
+      font-size: 1.4rem; font-weight: 700; color: #1C1917;
+      line-height: 1.3; margin-bottom: .4rem;
+    }
+    .challenge-subtitle { font-size: .9rem; color: #57534E; line-height: 1.5; }
+
+    /* ── Level tabs ── */
+    .level-tabs {
+      display: flex; gap: 0; border-bottom: 1px solid #F0EBE3;
+    }
+    .ltab {
+      flex: 1; padding: .65rem .5rem; text-align: center;
+      font-size: .8rem; font-weight: 500; cursor: pointer;
+      background: #FAF7F2; color: #78716C; border: none;
+      border-right: 1px solid #F0EBE3; transition: all .15s;
+    }
+    .ltab:last-child { border-right: none; }
+    .ltab:hover { background: #F5F0E8; color: #1C1917; }
+    .ltab.on { background: #fff; color: #1C1917; font-weight: 600; }
+
+    /* ── Task panels ── */
+    .task-panels { padding: 1.25rem 1.5rem 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
+
+    /* Speaking prompt */
+    .task-block { display: flex; flex-direction: column; gap: .5rem; }
+    .task-block-label {
+      font-size: .7rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: #A8A29E;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .task-prompt {
+      background: #FAF7F2; border: 1px solid #E8E2D9; border-radius: 10px;
+      padding: .9rem 1rem; font-size: 1rem; font-weight: 500;
+      color: #1C1917; line-height: 1.55;
+    }
+    .task-tip {
+      font-size: .8rem; color: #78716C; line-height: 1.5;
+      padding: 0 .25rem;
+    }
+
+    /* Micro-task */
+    .micro-block {
+      background: #FAF7F2; border: 1.5px solid #E8E2D9;
+      border-radius: 12px; overflow: hidden;
+    }
+    .micro-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: .75rem 1rem; cursor: pointer; transition: background .15s;
+    }
+    .micro-header:hover { background: #F5F0E8; }
+    .micro-header-left { display: flex; align-items: center; gap: 8px; }
+    .micro-label {
+      font-size: .7rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: #A8A29E;
+    }
+    .micro-title { font-size: .9rem; font-weight: 500; color: #1C1917; }
+    .micro-chevron { font-size: .85rem; color: #A8A29E; transition: transform .25s; }
+    .micro-chevron.open { transform: rotate(180deg); }
+    .micro-body { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+    .micro-body.open { max-height: 500px; }
+    .micro-body-inner { padding: .75rem 1rem 1rem; border-top: 1px solid #E8E2D9; display: flex; flex-direction: column; gap: .75rem; }
+
+    .micro-instruction {
+      font-size: .9rem; color: #44403C; line-height: 1.6;
+    }
+    .micro-example {
+      background: #fff; border: 1px solid #E8E2D9; border-radius: 8px;
+      padding: .65rem .9rem; font-size: .875rem; color: #57534E; line-height: 1.5;
+    }
+    .micro-example strong { color: #1C1917; }
+
+    /* ── Language flags row ── */
+    .languages-row {
+      background: #fff; border: 1.5px solid #E8E2D9; border-radius: 12px;
+      padding: 1rem 1.25rem; margin-bottom: 1rem;
+      display: flex; flex-direction: column; gap: .6rem;
+    }
+    .languages-label {
+      font-size: .7rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: #A8A29E;
+    }
+    .lang-flags { display: flex; gap: 8px; flex-wrap: wrap; }
+    .lang-pill {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 4px 12px; border-radius: 20px; font-size: .8rem; font-weight: 500;
+      background: #FAF7F2; border: 1px solid #E8E2D9; color: #44403C;
+      cursor: default;
+    }
+
+    /* ── Timer ── */
+    .timer-row {
+      display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    }
+    .timer-btns { display: flex; gap: 8px; }
+    .tbtn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: .6rem 1.25rem; border-radius: 10px;
+      border: 1.5px solid #D6D0C8; font-size: .875rem; font-weight: 500;
+      cursor: pointer; background: #fff; color: #1C1917; transition: all .15s;
+    }
+    .tbtn:hover { border-color: #A8A29E; }
+    .tbtn.go { background: #1D9E75; color: #fff; border-color: #1D9E75; }
+    .tbtn.go:hover { background: #0F6E56; }
+    .tbtn.stop { background: #FFEDD5; color: #7C2D12; border-color: #F97316; }
+    .tbtn.stop:hover { background: #FED7AA; }
+    .tbtn:disabled { opacity: .38; cursor: default; }
+    .timer-display {
+      font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums;
+      color: #1C1917; min-width: 56px;
+    }
+    .timer-display.urgent { color: #D85A30; }
+
+    .bar-wrap { height: 4px; background: #F0EBE3; border-radius: 2px; margin-top: .75rem; overflow: hidden; }
+    .bar { height: 4px; border-radius: 2px; transition: width 1s linear, background .5s; width: 100%; }
+
+    /* ── Done banner ── */
+    .done-banner {
+      padding: .85rem 1rem; border-radius: 10px;
+      font-size: .9rem; font-weight: 500; text-align: center;
+      background: #D1FAE5; color: #065F46; margin-top: .75rem;
+      display: none;
+    }
+    .done-banner.show { display: block; }
+
+    /* ── Mark complete ── */
+    .complete-row { display: flex; justify-content: center; margin-top: 1.25rem; }
+    .btn-complete {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: .75rem 2rem; border-radius: 12px;
+      background: #1C1917; color: #FAF7F2; border: none;
+      font-size: .95rem; font-weight: 600; cursor: pointer; transition: background .15s;
+    }
+    .btn-complete:hover { background: #44403C; }
+    .btn-complete.done { background: #1D9E75; cursor: default; }
+
+    /* ── Week calendar ── */
+    .week-section { margin-bottom: 1.5rem; }
+    .week-label { font-size: .75rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #A8A29E; margin-bottom: .6rem; }
+    .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+    .week-day {
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+      padding: .5rem .25rem; border-radius: 10px;
+      background: #fff; border: 1.5px solid #E8E2D9;
+      font-size: .7rem; cursor: default;
+    }
+    .week-day.today { border-width: 2px; }
+    .week-day-emoji { font-size: 1rem; }
+    .week-day-name { font-weight: 600; color: #1C1917; font-size: .65rem; letter-spacing: .03em; text-transform: uppercase; }
+    .week-day-type { color: #A8A29E; font-size: .6rem; }
+    .week-day.done-day .week-day-emoji { filter: grayscale(0); }
+    .week-day:not(.today) { opacity: .6; }
+
+    /* ── How it works ── */
+    .how-section { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid #E8E2D9; }
+    .how-section h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+    .step { background: #fff; border: 1px solid #E8E2D9; border-radius: 12px; padding: 1rem; }
+    .step-num { font-size: 1.25rem; margin-bottom: .4rem; }
+    .step-title { font-size: .85rem; font-weight: 600; margin-bottom: .25rem; }
+    .step-desc { font-size: .8rem; color: #78716C; line-height: 1.5; }
+
+    /* ── Footer ── */
+    footer { background: #1C1917; color: #A8A29E; padding: 2rem 1.5rem; text-align: center; font-size: .8rem; margin-top: auto; }
+    footer a { color: #D6D0C8; text-decoration: none; }
+    footer a:hover { color: #fff; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin-bottom: .75rem; }
+
+    @media (max-width: 500px) {
+      .page-header h1 { font-size: 1.6rem; }
+      .week-grid { grid-template-columns: repeat(7, 1fr); gap: 4px; }
+      .week-day { padding: .4rem .1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <div id="cosy-nav"></div>
+
+  <main>
+
+    <div class="page-header">
+      <div class="day-badge" id="dayBadge"></div>
+      <h1 id="pageTitle">Daily Challenge</h1>
+      <div class="subtitle">One task. All languages. A new challenge every day.</div>
+      <div class="date-line" id="dateLine"></div>
+    </div>
+
+    <!-- Streak + today -->
+    <div class="top-row">
+      <div class="streak-pill">
+        <span class="streak-fire">🔥</span>
+        <span id="streakCount">0</span> day streak
+      </div>
+      <div class="today-pill" id="todayPill"></div>
+    </div>
+
+    <!-- Week calendar -->
+    <div class="week-section">
+      <div class="week-label">This week</div>
+      <div class="week-grid" id="weekGrid"></div>
+    </div>
+
+    <!-- Languages row -->
+    <div class="languages-row">
+      <div class="languages-label">Do this challenge in your language 🌍</div>
+      <div class="lang-flags">
+        <span class="lang-pill">🇬🇧 English</span>
+        <span class="lang-pill">🇫🇷 Français</span>
+        <span class="lang-pill">🇮🇹 Italiano</span>
+        <span class="lang-pill">🇷🇺 Русский</span>
+        <span class="lang-pill">🇬🇷 Ελληνικά</span>
+      </div>
+    </div>
+
+    <!-- Challenge card -->
+    <div class="challenge-card" id="challengeCard">
+      <div class="card-header">
+        <div class="card-header-top">
+          <span class="day-type-badge" id="typeBadge"></span>
+          <span class="card-num" id="cardNum"></span>
+        </div>
+        <div class="challenge-title" id="challengeTitle"></div>
+        <div class="challenge-subtitle" id="challengeSubtitle"></div>
+      </div>
+
+      <!-- Level tabs -->
+      <div class="level-tabs">
+        <button class="ltab on" id="tab-b" onclick="setLevel('b')">🌱 Beginner</button>
+        <button class="ltab"    id="tab-i" onclick="setLevel('i')">🌿 Intermediate</button>
+        <button class="ltab"    id="tab-a" onclick="setLevel('a')">🌳 Advanced</button>
+      </div>
+
+      <!-- Task panels -->
+      <div class="task-panels">
+
+        <!-- Speaking prompt -->
+        <div class="task-block">
+          <div class="task-block-label">🗣️ Speaking prompt</div>
+          <div class="task-prompt" id="speakingPrompt"></div>
+          <div class="task-tip" id="speakingTip"></div>
+        </div>
+
+        <!-- Micro-task -->
+        <div class="micro-block">
+          <div class="micro-header" onclick="toggleMicro()">
+            <div class="micro-header-left">
+              <div>
+                <div class="micro-label" id="microLabel"></div>
+                <div class="micro-title" id="microTitle"></div>
+              </div>
+            </div>
+            <span class="micro-chevron" id="microChevron">▼</span>
+          </div>
+          <div class="micro-body" id="microBody">
+            <div class="micro-body-inner">
+              <div class="micro-instruction" id="microInstruction"></div>
+              <div class="micro-example" id="microExample"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timer -->
+        <div class="task-block">
+          <div class="task-block-label">⏱️ Speaking timer</div>
+          <div class="timer-row">
+            <div class="timer-display" id="timerDisplay">2:00</div>
+            <div class="timer-btns">
+              <button class="tbtn go" id="startBtn" onclick="startTimer()">▶ Start</button>
+              <button class="tbtn stop" id="stopBtn" onclick="stopTimer()" disabled>■ Stop</button>
+            </div>
+          </div>
+          <div class="bar-wrap"><div class="bar" id="timerBar" style="width:100%"></div></div>
+          <div class="done-banner" id="doneBanner">⏱️ Time's up — great effort! How did that feel?</div>
+        </div>
+
+        <!-- Mark complete -->
+        <div class="complete-row">
+          <button class="btn-complete" id="btnComplete" onclick="markComplete()">
+            ✓ Mark today's challenge as done
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="how-section">
+      <h2>How the daily challenge works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">📅</div>
+          <div class="step-title">Changes every day</div>
+          <div class="step-desc">A new topic and micro-task every single day. The day of the week sets the skill type.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">🌍</div>
+          <div class="step-title">All languages</div>
+          <div class="step-desc">One task, every language simultaneously. Do it in English, French, Italian, Russian or Greek.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">🌱</div>
+          <div class="step-title">Your level</div>
+          <div class="step-desc">Pick Beginner, Intermediate or Advanced — the same topic, adapted for where you are.</div>
+        </div>
+        <div class="step">
+          <div class="step-num">🔥</div>
+          <div class="step-title">Build your streak</div>
+          <div class="step-desc">Complete the challenge and keep your streak alive. Consistency is everything in language learning.</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Practice</a>
+      <a href="../games/index.html">Games</a>
+      <a href="https://wa.me/330766784195">WhatsApp</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram</a>
+    </div>
+    <div>© 2025 COSYlanguages — All rights reserved</div>
+  </footer>
+
+  <script src="../js/cosy-mode.js"></script>
+  <script src="../js/data/daily_bank.js"></script>
+
+  <script>
+  // ── AUTH CHECK ────────────────────────────────────────────────────────────
+  if (COSY.mode === 'free') {
+      window.location.href = 'index.html';
+  }
+
+  // ── STATE ─────────────────────────────────────────────────────────────────
+  let currentLevel = 'b';
+  let currentEntry = null;
+  let microOpen = false;
+  let timerInt = null;
+  let timerSec = 0;
+  let timerMax = 120;
+  let timerTheme = 'vocab';
+
+  // ── STREAK & COMPLETION ───────────────────────────────────────────────────
+  function getStorage(key) {
+    try { return localStorage.getItem(key); } catch(e) { return null; }
+  }
+  function setStorage(key, val) {
+    try { localStorage.setItem(key, val); } catch(e) {}
+  }
+
+  function todayKey() {
+    const d = new Date();
+    return `cosy-daily-${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
+  }
+
+  function isCompletedToday() {
+    return getStorage(todayKey()) === 'done';
+  }
+
+  function getStreak() {
+    return parseInt(getStorage('practice_streak') || '0', 10);
+  }
+
+  function getTotalPts() {
+    return parseInt(getStorage('cosy_total_points') || '0', 10);
+  }
+
+  function markComplete() {
+    const btn = document.getElementById('btnComplete');
+    if (btn.classList.contains('done')) return;
+    setStorage(todayKey(), 'done');
+
+    // Update streak (sync with practice.js logic if possible)
+    const today = new Date().toDateString();
+    const lastDone = getStorage('cosy-streak-last');
+    let streak = getStreak();
+
+    if (lastDone !== today) {
+        const yesterday = new Date(Date.now() - 86400000).toDateString();
+        if (lastDone === yesterday) {
+            streak++;
+        } else {
+            streak = 1;
+        }
+        setStorage('practice_streak', streak);
+        setStorage('cosy-streak-last', today);
+    }
+
+    // Award Points
+    let pts = getTotalPts();
+    pts += 50; // Daily challenge bonus
+    setStorage('cosy_total_points', pts);
+
+    // Update practice state object if it exists
+    try {
+        let pState = JSON.parse(getStorage('cosy_practice') || '{}');
+        pState.totalPts = pts;
+        pState.streak = streak;
+        pState.dcDone = today;
+        setStorage('cosy_practice', JSON.stringify(pState));
+    } catch(e) {}
+
+    document.getElementById('streakCount').textContent = streak;
+
+    btn.className = 'btn-complete done';
+    btn.textContent = '✓ Challenge completed today!';
+    updateWeekGrid();
+
+    // Sync UI with cosy-mode
+    if (window.COSY && COSY.refresh) COSY.refresh();
+  }
+
+  // ── DATE & THEME ──────────────────────────────────────────────────────────
+  function getTodayTheme() {
+    const day = new Date().getDay(); // 0=Sun
+    return window.DAILY_SCHEDULE[day];
+  }
+
+  function getDayIndex() {
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 0);
+    const diff = now - start;
+    const oneDay = 1000 * 60 * 60 * 24;
+    return Math.floor(diff / oneDay);
+  }
+
+  function getEntry(theme) {
+    const bank = window.DAILY_BANK[theme.theme];
+    const idx = getDayIndex() % bank.length;
+    return bank[idx];
+  }
+
+  // ── WEEK GRID ─────────────────────────────────────────────────────────────
+  function updateWeekGrid() {
+    const grid = document.getElementById('weekGrid');
+    grid.innerHTML = '';
+    const today = new Date().getDay();
+    window.DAILY_SCHEDULE.forEach((day, i) => {
+      const div = document.createElement('div');
+      div.className = 'week-day' + (i === today ? ' today' : '');
+      if (i === today && isCompletedToday()) div.classList.add('done-day');
+
+      // Style today's border with theme colour
+      if (i === today) {
+        const themeColors = { vocab:'#3B82F6', grammar:'#10B981', speaking:'#EC4899', culture:'#F59E0B', free:'#8B5CF6', challenge:'#F97316', reflect:'#6B7280' };
+        div.style.borderColor = themeColors[day.theme];
+      }
+
+      div.innerHTML = `
+        <span class="week-day-emoji">${i === today && isCompletedToday() ? '✅' : day.emoji}</span>
+        <span class="week-day-name">${day.name}</span>
+        <span class="week-day-type">${day.type}</span>
+      `;
+      grid.appendChild(div);
+    });
+  }
+
+  // ── RENDER ────────────────────────────────────────────────────────────────
+  function init() {
+    const theme = getTodayTheme();
+    timerTheme = theme.theme;
+    currentEntry = getEntry(theme);
+
+    // Page header
+    const badge = document.getElementById('dayBadge');
+    badge.className = 'day-badge theme-' + theme.theme;
+    badge.textContent = theme.emoji + ' ' + theme.label;
+    document.getElementById('pageTitle').textContent = currentEntry.title;
+
+    // Date line
+    const now = new Date();
+    document.getElementById('dateLine').textContent = now.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+
+    // Today pill
+    document.getElementById('todayPill').textContent = theme.emoji + ' ' + theme.type + ' day';
+
+    // Streak
+    document.getElementById('streakCount').textContent = getStreak();
+
+    // Card
+    const card = document.getElementById('challengeCard');
+    card.className = 'challenge-card accented card-accent-' + theme.theme;
+    document.getElementById('typeBadge').className = 'day-type-badge theme-' + theme.theme;
+    document.getElementById('typeBadge').textContent = theme.emoji + ' ' + theme.label;
+    document.getElementById('cardNum').textContent = 'Day ' + getDayIndex();
+    document.getElementById('challengeTitle').textContent = currentEntry.title;
+    document.getElementById('challengeSubtitle').textContent = currentEntry.subtitle;
+
+    // Timer bar colour
+    document.getElementById('timerBar').className = 'bar bar-' + theme.theme;
+
+    // Completion state
+    if (isCompletedToday()) {
+      const btn = document.getElementById('btnComplete');
+      btn.className = 'btn-complete done';
+      btn.textContent = '✓ Challenge completed today!';
+    }
+
+    updateWeekGrid();
+    setLevel('b');
+    resetTimer();
+  }
+
+  function setLevel(lv) {
+    currentLevel = lv;
+    ['b','i','a'].forEach(l => {
+      document.getElementById('tab-' + l).className = 'ltab' + (l === lv ? ' on' : '');
+    });
+    const data = currentEntry.levels[lv];
+    document.getElementById('speakingPrompt').textContent = data.speak;
+    document.getElementById('speakingTip').textContent = '💡 ' + data.tip;
+    document.getElementById('microLabel').textContent = data.microLabel;
+    document.getElementById('microTitle').textContent = data.microTitle;
+    document.getElementById('microInstruction').innerHTML = data.microInstruction;
+    document.getElementById('microExample').innerHTML = data.microExample;
+    // Adjust default timer per level
+    timerMax = lv === 'b' ? 60 : lv === 'i' ? 120 : 180;
+    resetTimer();
+  }
+
+  function toggleMicro() {
+    microOpen = !microOpen;
+    document.getElementById('microBody').className = 'micro-body' + (microOpen ? ' open' : '');
+    document.getElementById('microChevron').className = 'micro-chevron' + (microOpen ? ' open' : '');
+  }
+
+  // ── TIMER ─────────────────────────────────────────────────────────────────
+  function resetTimer() {
+    stopTimer();
+    timerSec = timerMax;
+    document.getElementById('timerDisplay').textContent = fmt(timerMax);
+    document.getElementById('timerDisplay').className = 'timer-display';
+    document.getElementById('timerBar').style.width = '100%';
+    document.getElementById('doneBanner').className = 'done-banner';
+    document.getElementById('startBtn').disabled = false;
+    document.getElementById('stopBtn').disabled = true;
+  }
+
+  function fmt(s) {
+    const m = Math.floor(s / 60), sec = s % 60;
+    return m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+
+  function startTimer() {
+    if (timerInt) return;
+    timerSec = timerMax;
+    document.getElementById('startBtn').disabled = true;
+    document.getElementById('stopBtn').disabled = false;
+    document.getElementById('doneBanner').className = 'done-banner';
+    document.getElementById('timerDisplay').className = 'timer-display';
+    document.getElementById('timerBar').style.width = '100%';
+
+    timerInt = setInterval(() => {
+      timerSec--;
+      const pct = Math.max(0, Math.round((timerSec / timerMax) * 100));
+      document.getElementById('timerDisplay').textContent = fmt(timerSec);
+      document.getElementById('timerBar').style.width = pct + '%';
+      if (timerSec <= 10) {
+        document.getElementById('timerDisplay').className = 'timer-display urgent';
+      }
+      if (timerSec <= 0) {
+        clearInterval(timerInt); timerInt = null;
+        document.getElementById('startBtn').disabled = false;
+        document.getElementById('stopBtn').disabled = true;
+        document.getElementById('doneBanner').className = 'done-banner show';
+      }
+    }, 1000);
+  }
+
+  function stopTimer() {
+    if (timerInt) { clearInterval(timerInt); timerInt = null; }
+    document.getElementById('startBtn').disabled = false;
+    document.getElementById('stopBtn').disabled = true;
+  }
+
+  init();
+  </script>
+</body>
+</html>
