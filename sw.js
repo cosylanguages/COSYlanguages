@@ -4,7 +4,7 @@ const STATIC_ASSETS = [
   '/COSYlanguages/index.html',
   '/COSYlanguages/practice.html',
   '/COSYlanguages/events.html',
-  '/COSYlanguages/days.html',
+  '/COSYlanguages/portal/index.html',
   '/COSYlanguages/css/mobile.css',
   '/COSYlanguages/js/mobile.js',
   '/COSYlanguages/js/srs.js',

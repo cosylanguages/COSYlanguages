@@ -82,14 +82,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (backToMenuBtn) {
         backToMenuBtn.addEventListener('click', () => {
             const prefix = getPrefix();
-            window.location.href = prefix + 'portal/index.html';
+            window.location.href = prefix + 'index.html';
         });
     }
     if (exitLessonBtn) {
         exitLessonBtn.addEventListener('click', () => {
             window.gameUtils.showGameConfirm("Exit lesson and return to student area?", () => {
                 const prefix = getPrefix();
-                window.location.href = prefix + 'portal/index.html';
+                window.location.href = prefix + 'index.html';
             });
         });
     }
@@ -226,12 +226,12 @@ async function startLesson() {
                 <div class="empty" style="padding: 4rem 2rem; background: #fff; border-radius: 20px; border: 1.5px solid var(--border); box-shadow: var(--shadow-sm);">
                     <div style="font-size: 4rem; margin-bottom: 1.5rem;">📚</div>
                     ${msg}
-                    <button class="cta-button primary" onclick="window.location.href='days.html'" style="margin-top: 2rem;">Back to My Lessons 🏠</button>
+                    <button class="cta-button primary" onclick="window.location.href='../index.html'" style="margin-top: 2rem;">Back to My Lessons 🏠</button>
                 </div>
             `;
         } else {
             alert("Lesson data not found!");
-            window.location.href = 'days.html';
+            window.location.href = '../index.html';
         }
     }
 }

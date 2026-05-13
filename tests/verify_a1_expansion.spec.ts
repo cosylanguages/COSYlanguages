@@ -14,7 +14,7 @@ test('Verify expanded A1 curricula and roadmaps', async ({ page }) => {
         await page.goto('http://localhost:8080/index.html');
         await page.evaluate(() => localStorage.clear());
 
-        await page.goto('http://localhost:8080/days.html');
+        await page.goto('http://localhost:8080/portal/index.html');
 
         // Wait for gate to be visible
         await expect(page.locator('#gate')).toBeVisible();

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Student Area Exclusivity', () => {
     test('Entering English A1 code shows only English A1 content and hides site navigation', async ({ page }) => {
-        await page.goto('http://localhost:8080/days.html');
+        await page.goto('http://localhost:8080/portal/index.html');
 
         // Unlock with A1 code
         await page.locator('#ci').fill('COSY-EN-A1-GEN');
@@ -23,7 +23,7 @@ test.describe('Student Area Exclusivity', () => {
     });
 
     test('Logout restores navigation', async ({ page }) => {
-        await page.goto('http://localhost:8080/days.html');
+        await page.goto('http://localhost:8080/portal/index.html');
         await page.locator('#ci').fill('COSY-EN-A1-GEN');
         await page.getByRole('button', { name: /Unlock/i }).click();
 

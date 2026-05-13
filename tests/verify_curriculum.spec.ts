@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Verify English A1 General curriculum in student area', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
     await page.locator('#ci').fill('COSY-EN-A1-GEN');
@@ -25,7 +25,7 @@ test('Verify English A1 General curriculum in student area', async ({ page }) =>
 });
 
 test('Verify French B1 simplified curriculum in student area', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
     await page.locator('#ci').fill('COSY-FR-B1-GEN');
