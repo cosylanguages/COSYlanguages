@@ -60,7 +60,7 @@
         }
 
         // Student Init
-        if (window.COSY.student && window.COSY.student.code === code) {
+        if (window.COSY.student && (window.COSY.student.code === code || code === 'FREE')) {
             currentCourse = window.COSY.student;
         } else if (typeof COURSES !== 'undefined' && COURSES[code]) {
             currentCourse = { ...COURSES[code], code };
@@ -71,6 +71,12 @@
 
         const courseName = document.getElementById('tb-course-name');
         if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type || currentCourse.course}`;
+
+        if (code === 'FREE') {
+             // Ensure tb-course-name is updated for Free
+             const levelDisp = currentCourse.level === 'A1' ? 'Starter' : currentCourse.level;
+             if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${levelDisp}`;
+        }
 
         await loadStudentData(code);
         await loadCurriculum();
@@ -84,7 +90,7 @@
     async function loadStudentData(code) {
         // Use COSY engine sync
         const students = await window.COSY.sync();
-        let profile = students ? students[code] : window.COSY.student;
+        let profile = (students && code !== 'FREE') ? students[code] : window.COSY.student;
         if (!profile && window.COSY.student?.code === code) profile = window.COSY.student;
         const prefix = window.COSY.getPrefix();
 
@@ -95,6 +101,10 @@
                     const welcomeTpl = window.t('welcome_back') || 'Welcome back';
                     const suffix = profile.isFree ? ` (${window.t('free_learner') || 'Free Learner'})` : '';
                     welcome.textContent = `${welcomeTpl}, ${profile.nickname || profile.name}${suffix}! 👋`;
+                    if (profile.isFree) {
+                        const wp = document.getElementById('wp');
+                        if (wp) wp.innerHTML = `You are exploring the <strong>${profile.lang} ${profile.level}</strong> path. <a href="https://wa.me/330766784195" style="color:var(--cosy-green-dark)">Unlock full access →</a>`;
+                    }
                 }
             }
             if (profile.nextLesson) {
@@ -400,6 +410,12 @@
                     initDashboard(code, window.COSY.mode.toUpperCase());
                 }
             }
+        },
+        startFree: () => {
+            const lang = document.getElementById('free-lang').value;
+            const level = document.getElementById('free-level').value;
+            window.COSY.setFreeMode(lang, level);
+            initDashboard('FREE', 'STUDENT');
         },
         logout: () => {
             localStorage.removeItem('student_unlocked');

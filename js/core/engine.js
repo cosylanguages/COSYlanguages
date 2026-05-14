@@ -646,14 +646,6 @@ window.COSY = {
             return unlockAdmin(code, { name: 'James York, Damir Moskov', role: 'admin-teacher' });
         }
 
-        // Free Access Code (FREE-LANG-LEVEL)
-        if (code.startsWith('FREE-')) {
-            const parts = code.split('-');
-            const lang = parts[1] || 'EN';
-            const level = parts[2] || 'A1';
-            return unlockStudent(code, { nickname: 'Free Learner', lang, level, course: 'FREE', isFree: true, points: 0, currentDay: 1 });
-        }
-
         const students = await syncData();
         if (students && students[code]) {
             return unlockStudent(code, students[code]);
@@ -704,6 +696,23 @@ window.COSY = {
       const mm = document.getElementById('cosy-mobile-menu')
       if (mm) mm.classList.toggle('open')
     },
+    setFreeMode(lang, level) {
+        localStorage.setItem(KEY_MODE, 'student');
+        localStorage.setItem(KEY_STUDENT, JSON.stringify({
+            nickname: 'Free Learner',
+            lang: lang.toUpperCase(),
+            level: level.toUpperCase(),
+            course: 'FREE',
+            isFree: true,
+            points: 0,
+            currentDay: 0
+        }));
+        localStorage.setItem('language', lang.toLowerCase());
+        STATE = readState();
+        applyMode();
+        return { ok: true };
+    },
+
     refresh: () => { STATE = readState(); applyMode(); },
 
     // Internal helper for the panel

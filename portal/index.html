@@ -164,15 +164,35 @@
 
     <div id="gate" data-mode="free" style="display: flex;">
         <div class="gate-card">
-            <div style="font-size: 4rem; margin-bottom: 1rem;">🔓</div>
+            <div style="font-size: 3rem; margin-bottom: 1rem;">✨</div>
             <h2 style="font-family: 'Lora', serif; font-size: 1.8rem; margin-bottom: 0.5rem;">Welcome to COSYportal</h2>
-            <p style="color: #666; margin-bottom: 2rem;">Unlock your personalised curriculum path.</p>
-            <div style="margin-bottom: 1.5rem;">
-                <input id="student-code" type="text" placeholder="COSY-EN-A1-GEN" style="width: 100%; padding: 1rem; border-radius: 15px; border: 2.5px solid #eee; text-align: center; font-family: monospace; font-size: 1.1rem; margin-bottom: 1rem;">
-                <div id="em" style="display: none; color: #c0392b; font-size: 0.85rem; margin-bottom: 1rem;">❌ Invalid Code</div>
-                <button onclick="cosyDays.unlock()" class="btn-primary-new" style="width: 100%;">Unlock My Path</button>
+            <p style="color: #666; margin-bottom: 1.5rem;">Enter your code to unlock your path, or explore our first steps for free.</p>
+
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 20px; margin-bottom: 1.5rem;">
+                <input id="student-code" type="text" placeholder="Reality Code" style="width: 100%; padding: 0.8rem; border-radius: 12px; border: 2px solid #eee; text-align: center; font-family: monospace; font-size: 1rem; margin-bottom: 0.8rem;">
+                <button onclick="cosyDays.unlock()" class="btn-primary-new" style="width: 100%;">Unlock →</button>
             </div>
-            <p style="font-size: 0.8rem; color: #888;">No code? <a href="https://wa.me/330766784195" style="color: var(--cosy-green-dark); font-weight: 800;">Message us →</a></p>
+
+            <div style="border-top: 1px solid #eee; padding-top: 1.5rem;">
+                <p style="font-size: 0.8rem; font-weight: 800; color: #888; text-transform: uppercase; margin-bottom: 0.8rem;">Preview Mode</p>
+                <div style="display: flex; gap: 8px; margin-bottom: 0.8rem;">
+                    <select id="free-lang" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #eee; font-family: inherit;">
+                        <option value="en">English 🇬🇧</option>
+                        <option value="fr">Français 🇫🇷</option>
+                        <option value="it">Italiano 🇮🇹</option>
+                        <option value="ru">Русский 🇷🇺</option>
+                        <option value="el">Ελληνικά 🇬🇷</option>
+                    </select>
+                    <select id="free-level" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #eee; font-family: inherit;">
+                        <option value="a1">Starter (A1)</option>
+                        <option value="a2">Elementary (A2)</option>
+                        <option value="b1">Intermediate (B1)</option>
+                    </select>
+                </div>
+                <button onclick="cosyDays.startFree()" class="btn-primary-new" style="width: 100%; background: var(--cosy-green);">Explore for Free 🔓</button>
+            </div>
+
+            <p style="font-size: 0.8rem; color: #888; margin-top: 1.5rem;">Need a full account? <a href="https://wa.me/330766784195" style="color: var(--cosy-green-dark); font-weight: 800;">Contact us →</a></p>
         </div>
     </div>
 
