@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('A1 Curriculum Roadmap', () => {
     test.beforeEach(async ({ page }) => {
         // Clear storage to ensure locked state
-        await page.goto('http://localhost:8080/days.html');
+        await page.goto('http://localhost:8080/portal/index.html');
         await page.evaluate(() => localStorage.clear());
     });
 
@@ -31,8 +31,8 @@ test.describe('A1 Curriculum Roadmap', () => {
     test('A1 roadmap redirects if not unlocked', async ({ page }) => {
         await page.goto('http://localhost:8080/curriculum/en/a1.html');
         // Wait a bit for the script to execute
-        await page.waitForURL(/days.html/, { timeout: 10000 });
-        await expect(page).toHaveURL(/days.html/);
+        await page.waitForURL(/../portal/index.html/, { timeout: 10000 });
+        await expect(page).toHaveURL(/../portal/index.html/);
     });
 
     test('A1 roadmap not visible for other languages', async ({ page }) => {

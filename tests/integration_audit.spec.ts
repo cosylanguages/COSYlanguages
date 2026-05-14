@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Private Area Integration', () => {
   test.beforeEach(async ({ page }) => {
     // Unlock student area
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => {
       localStorage.setItem('student_unlocked', 'true');
       localStorage.setItem('cosy_total_points', '100');

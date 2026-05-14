@@ -35,7 +35,7 @@ test('Practice Mode filtering by level and theme', async ({ page }) => {
 });
 
 test('Student Area access and day selection', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
 
     // Gate should be visible
     await expect(page.locator('#unlock-gate')).toBeVisible();

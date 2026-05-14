@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Pronunciation Reference & Dashboard Audit', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => {
       localStorage.setItem('student_unlocked', 'true');
       localStorage.setItem('student_course_code', 'COSY-EN-A1-GEN');
@@ -27,7 +27,7 @@ test.describe('Pronunciation Reference & Dashboard Audit', () => {
   });
 
   test('Student dashboard pronunciation tab shows content', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
 
     // Wait for curriculum to load - in days.js it uses .lesson class
     await page.waitForSelector('.lesson');

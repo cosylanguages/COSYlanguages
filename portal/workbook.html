@@ -4,7 +4,7 @@
 <script>
   // Access Control: Redirect if not unlocked, unless we are in the course picker view
   if(localStorage.getItem("student_unlocked")!=="true" && !window.location.search.includes('picker=true')) {
-    window.location.href = "days.html";
+    window.location.href = "index.html";
   }
 </script>
 <meta charset="UTF-8">

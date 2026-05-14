@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('End-to-End System Flow', () => {
   test('should unlock, view dashboard, and start a lesson', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.fill('#ci', 'COSY-EN-A1-GEN');
     await page.click('button.btn-primary-new');
 
@@ -21,7 +21,7 @@ test.describe('End-to-End System Flow', () => {
   });
 
   test('should access Grammar Reference through dashboard', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.fill('#ci', 'COSY-EN-A1-GEN');
     await page.click('button.btn-primary-new');
 
@@ -38,7 +38,7 @@ test.describe('End-to-End System Flow', () => {
   });
 
   test('should access Workbook through dashboard', async ({ page }) => {
-    await page.goto('http://localhost:8080/days.html');
+    await page.goto('http://localhost:8080/portal/index.html');
     await page.fill('#ci', 'COSY-EN-A1-GEN');
     await page.click('button.btn-primary-new');
 
